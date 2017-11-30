@@ -1,11 +1,13 @@
 # Open Source Games
 
 A collection of open source games sorted by genre. The projects are at least in beta stage with a code basis that builds
-into an executable demo. Related infos and tips geared toward building the games are collected here. Emphasis is for
+into an executable demo. Related infos and tips geared toward building the games are collected here. Emphasis is on
 support on Windows, Linux and Android.
 
-Motivation: I want to improve the process of building open source games, maybe even rescuing some lost projects. I concentrate on the
-hardware/software platforms that I have access to.
+Motivation: I want to improve the process of building open source games, maybe even rescuing some lost projects.
+I concentrate on the hardware/software platforms that I have access to.
+
+See also the list of [popular games on Github](https://github.com/leereilly/games) by Lee Reilly.
 
 ## Contributing
 

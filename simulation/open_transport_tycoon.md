@@ -6,6 +6,6 @@
 - Code: https://svn.openttd.org/ (svn), https://github.com/OpenTTD/OpenTTD (git sync)
 - Language(s): C++
 
-Build system
+## Building
 
 Autoconf

@@ -18,12 +18,12 @@ Help: [MarkDown Help](https://help.github.com/articles/github-flavored-markdown)
 
 ## Contents
 
-- [Libraries](library/_toc.md)
-- [Frameworks](framework/_toc.md)
-- [Adventures](adventure/_toc.md)
-- [RPGs](rpg/_toc.md)
-- [Simulation](simulation/_toc.md)
-- [Strategy](strategy/_toc.md)
+- [Libraries](library/_toc.md) (2)
+- [Frameworks](framework/_toc.md) (0)
+- [Adventures](adventure/_toc.md) (0)
+- [RPGs](rpg/_toc.md) (0)
+- [Simulation](simulation/_toc.md) (1)
+- [Strategy](strategy/_toc.md) (3)
 
 ## License
 

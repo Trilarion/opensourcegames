@@ -1,5 +1,5 @@
 # Strategy games
 
-- [Freeciv WebGL](freeciv_web.md)
-- [Freeciv](freeciv.md)
 - [Battle for Wesnoth](wesnoth.md)
+- [Freeciv](freeciv.md)
+- [Freeciv WebGL](freeciv_web.md)

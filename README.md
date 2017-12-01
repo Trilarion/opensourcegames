@@ -9,21 +9,21 @@ I concentrate on the hardware/software platforms that I have access to.
 
 See also the list of [popular games on Github](https://github.com/leereilly/games) by Lee Reilly.
 
+## Contents
+
+- [Libraries](library/_toc.md) (7)
+- [Frameworks](framework/_toc.md) (0)
+- [Adventures](adventure/_toc.md) (0)
+- [RPGs](rpg/_toc.md) (0)
+- [Simulation](simulation/_toc.md) (3)
+- [Strategy](strategy/_toc.md) (14)
+
 ## Contributing
 
 If you'd like to add something, please [create an Issue](https://github.com/Trilarion/opensourcegames/issues),
 or fork this repository and submit a pull request.
 
 Help: [MarkDown Help](https://help.github.com/articles/github-flavored-markdown), [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
-## Contents
-
-- [Libraries](library/_toc.md) (2)
-- [Frameworks](framework/_toc.md) (0)
-- [Adventures](adventure/_toc.md) (0)
-- [RPGs](rpg/_toc.md) (0)
-- [Simulation](simulation/_toc.md) (3)
-- [Strategy](strategy/_toc.md) (12)
 
 ## Background
 

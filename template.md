@@ -5,11 +5,11 @@ _{One line description}_
 - Home: {URL}
 - Wikipedia: {URL}
 - Download: {URL}
-- State: (beta | stable | mature) [inactive since XX]
-- Type: (local | network) (RTS | TBS) 
+- State: alpha, beta, mature, [inactive since]
+- Type: single player, multi player, RTS, TBS (if none, remove the line)
 - Code: primary repository (type if not git), other repositories (type if not git)
 - Language(s): {XX}
-- License: {XX} (link if custom)
+- License: {XX} (if special, include link)
 
 ## Building
 

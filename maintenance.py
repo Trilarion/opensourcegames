@@ -1,6 +1,8 @@
 """
     Counts the number of records each subfolder and updates the overview. Sorts the entries in the contents files of
     each subfolder alphabetically.
+
+    TODO check for external dead links (if desired, only now and then)
 """
 
 import os

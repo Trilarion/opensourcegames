@@ -5,7 +5,7 @@ _{One line description}_
 - Home: {URL}
 - Wikipedia: {URL}
 - Download: {URL}
-- State: (beta | stable | mature) [abandoned]
+- State: (beta | stable | mature) [inactive since XX]
 - Type: (local | network) (RTS | TBS) 
 - Code: primary repository (type if not git), other repositories (type if not git)
 - Language(s): {XX}

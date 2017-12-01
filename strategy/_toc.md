@@ -1,5 +1,14 @@
 # Strategy games
 
+- [0AD](0ad.md)
 - [Battle for Wesnoth](wesnoth.md)
+- [C-evo](c_evo.md)
+- [FreeCol](freecol.md)
 - [Freeciv](freeciv.md)
 - [Freeciv WebGL](freeciv_web.md)
+- [Glest](glest.md)
+- [MegaGlest](megaglest.md)
+- [OpenXcom](openxcom.md)
+- [Star Control II: The Ur-Quan Masters](star_control_2.md)
+- [Ufo: Alien Invasion](ufo_alien_invasion.md)
+- [Widelands](widelands.md)

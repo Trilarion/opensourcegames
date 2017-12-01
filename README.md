@@ -2,7 +2,7 @@
 
 A collection of open source games sorted by genre. The projects are at least in beta stage with a code basis that builds
 into an executable demo. Related infos and tips geared toward building the games are collected here. Emphasis is on
-support on Windows, Linux and Android.
+support for Windows, Linux and Android.
 
 Motivation: I want to improve the process of building open source games, maybe even rescuing some lost projects.
 I concentrate on the hardware/software platforms that I have access to.
@@ -22,8 +22,25 @@ Help: [MarkDown Help](https://help.github.com/articles/github-flavored-markdown)
 - [Frameworks](framework/_toc.md) (0)
 - [Adventures](adventure/_toc.md) (0)
 - [RPGs](rpg/_toc.md) (0)
-- [Simulation](simulation/_toc.md) (1)
-- [Strategy](strategy/_toc.md) (3)
+- [Simulation](simulation/_toc.md) (3)
+- [Strategy](strategy/_toc.md) (12)
+
+## Background
+
+I love open source projects and games and I currently learn about building systems. I see the following benefits of this database
+and further actions I intend to do.
+
+- General information about open source games
+- Possibility of improving build instructions on the projects side (not all projects actually have build instructions)
+- Simplifying builds
+- Adding infrastructure for automatic testing and deploying where not already present
+- Revival of abandoned games that do not build anymore
+- Simplifying dependencies
+- Increasing the number of supported platforms
+
+## Disclaimer
+ 
+ No warranty whatsoever of the information presented herein for any purpose. There could be errors in here.
 
 ## License
 

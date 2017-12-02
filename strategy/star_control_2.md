@@ -11,6 +11,8 @@ _The Ur-Quan Masters (or UQM) project[22] aims to port Star Control II to modern
 - Language(s): C
 - License: GPL-2.0
 
+See also [Ur-Quan Masters HD](https://sourceforge.net/projects/urquanmastershd/)
+
 ## Building
 
 Uses make

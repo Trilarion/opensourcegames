@@ -1,5 +1,6 @@
 # Popular required libraries
 
+- [Allegro](allegro.md)
 - [Boost](boost.md)
 - [LZMA SDK](lzma.md)
 - [Simple DirectMedia Layer (SDL 2)](sdl_2.md)

@@ -11,7 +11,7 @@ See also the list of [popular games on Github](https://github.com/leereilly/game
 
 ## Contents
 
-- [Libraries](library/_toc.md) (8)
+- [Libraries](library/_toc.md) (12)
 - [Frameworks](framework/_toc.md) (44)
 - [Adventures & Visual Novels](adventure/_toc.md) (8)
 - [RPGs](rpg/_toc.md) (7)

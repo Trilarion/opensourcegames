@@ -15,8 +15,8 @@ See also the list of [popular games on Github](https://github.com/leereilly/game
 - [Frameworks](framework/_toc.md) (44)
 - [Adventures & Visual Novels](adventure/_toc.md) (8)
 - [RPGs](rpg/_toc.md) (7)
-- [Simulation](simulation/_toc.md) (4)
-- [Strategy](strategy/_toc.md) (17)
+- [Simulation](simulation/_toc.md) (8)
+- [Strategy](strategy/_toc.md) (29)
 
 ## Contributing
 

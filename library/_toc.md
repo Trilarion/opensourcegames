@@ -1,7 +1,7 @@
 # Popular required libraries
 
 - [Allegro](allegro.md)
-- [Boost](boost.md)
+- [Boost (C++ Libraries)](boost.md)
 - [Crypto++](crypto.md)
 - [FreeType](freetype.md)
 - [HarfBuzz](harfbuzz.md)
@@ -10,8 +10,10 @@
 - [Lua](lua.md)
 - [Open AL](openal.md)
 - [Open AL Soft](openalsoft.md)
+- [OpenSSL](openssl.md)
 - [Pthreads-win32](pthreads_win32.md)
-- [Simple DirectMedia Layer (SDL 2)](sdl_2.md)
+- [Ragel](ragel.md)
+- [Simple DirectMedia Layer](sdl_2.md)
 - [Simple and Fast Multimedia Library](sfml.md)
 - [XZ Utils](xz.md)
 - [libpng](libpng.md)

@@ -11,12 +11,12 @@ See also the list of [popular games on Github](https://github.com/leereilly/game
 
 ## Contents
 
-- [Libraries](library/_toc.md) (19)
-- [Frameworks](framework/_toc.md) (44)
-- [Adventures & Visual Novels](adventure/_toc.md) (8)
-- [RPGs](rpg/_toc.md) (7)
-- [Simulation](simulation/_toc.md) (8)
-- [Strategy](strategy/_toc.md) (29)
+- [Adventure games & Visual novels](adventure/_toc.md) (8)
+- [Game frameworks](framework/_toc.md) (44)
+- [Popular required libraries](library/_toc.md) (19)
+- [Role Playing Games](rpg/_toc.md) (7)
+- [Simulation games](simulation/_toc.md) (8)
+- [Strategy games](strategy/_toc.md) (29)
 
 ## Contributing
 

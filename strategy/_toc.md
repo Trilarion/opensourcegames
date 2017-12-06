@@ -20,6 +20,7 @@
 - [Open Imperium Galactica](open_imperium_galactica.md)
 - [OpenRA](openra.md)
 - [OpenXcom](openxcom.md)
+- [Pax Britannica](pax_britannica.md)
 - [Spring RTS engine](spring.md)
 - [Star Control II: The Ur-Quan Masters](star_control_2.md)
 - [TripleA](triplea.md)

@@ -5,7 +5,7 @@ _{One line description}_
 - Home: {URL}
 - Wikipedia: {URL}
 - Download: {URL}
-- State: beta, mature
+- State: beta, mature (inactive since)
 - Keywords: single player, multi player, RTS, TBS (if none, remove the line)
 - Code: primary repository (type if not git), other repositories (type if not git)
 - Language(s): {XX}

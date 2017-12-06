@@ -8,73 +8,111 @@
 import os
 import re
 
-readme_regex = re.compile(r"- \[(.+)\]\((.+)\/_toc.md\)")
-toc_regex = re.compile(r"- \[(.+)\]\((.+)\)")
+def read_first_line_from_file(file):
+    with open(file, 'r') as f:
+        line = f.readline()
+    return line
 
-if __name__ == "__main__":
+def update_readme():
+    """
+    Recounts entries in subcategories and writes them to the readme
+    """
+    print('update readme file')
 
-    # readme file location
-    base_path = os.path.abspath(os.path.dirname(__file__))
+    # load readme
     readme_path = os.path.join(base_path, 'README.md')
 
     # read readme
     with open(readme_path) as f:
-        readme_lines = f.readlines()
+        readme_text = f.read()
 
-    # apply regex search on all lines
-    matched_lines = [readme_regex.findall(line) for line in readme_lines]
+    # compile regex for identifying the building blocks
+    regex = re.compile(r"(.*## Contents\n\n)(.*)(\n## Contributing.*)", re.DOTALL)
 
-    # empty subfolder list
-    subfolders = []
+    # apply regex
+    matches = regex.findall(readme_text)
+    matches = matches[0]
+    start = matches[0]
+    middle = matches[1]
+    end = matches[2]
 
-    # loop over the lines
-    for line, match in enumerate(matched_lines):
-        if match:
-            # get first group (should be only one)
-            match = match[0]
+    # get sub folders
+    subfolders = [x for x in os.listdir(base_path) if x != '.git' and os.path.isdir(os.path.join(base_path, x))]
 
-            # add to subfolders list
-            subfolders.append(match[1])
+    # get number of files (minus 1) in each sub folder
+    n = [len(os.listdir(os.path.join(base_path, folder))) - 1 for folder in subfolders]
 
-            # subfolder path
-            subfolder_path = os.path.join(base_path, match[1])
+    # assemble paths
+    paths = [os.path.join(base_path, folder, '_toc.md') for folder in subfolders]
 
-            # get number of files in that path (-1 for _toc.md)
-            n = len(os.listdir(subfolder_path)) - 1
+    # get titles (discarding first two ("# ") and last ("\n") characters)
+    titles = [read_first_line_from_file(path)[2:-1] for path in paths]
 
-            # generate new line
-            readme_lines[line] = "- [{}]({}/_toc.md) ({})\n".format(match[0], match[1], n)
+    # combine folder name, number, titles in one list
+    info = zip(titles, subfolders, n)
 
-    # write readme again
-    with open(readme_path, "w") as f:
-        f.writelines(readme_lines)
+    # sort according to title
+    info.sort(key=lambda x:x[0])
 
-    # loop over all subfolders
-    for subfolder in subfolders:
+    # assemble output
+    update = ['- [{}]({}/_toc.md) ({})\n'.format(*entry) for entry in info]
+    update = "".join(update)
 
-        # get contents file of that subfolder
-        toc_path = os.path.join(base_path, subfolder, '_toc.md')
+    # insert new text in the middle
+    text = start + update + end
 
-        # read contents file
-        with open(toc_path) as f:
-            toc = f.readlines()
+    # write to readme
+    with open(readme_path, 'w') as f:
+        f.write(text)
 
-        # only if there are at least 4 lines (header, empty, two entries)
-        if len(toc) >= 4:
+def update_category_tocs():
+    """
+    Lists all entries in all sub folders and generates the list in the toc file
+    """
+    # get sub folders
+    subfolders = [x for x in os.listdir(base_path) if x != '.git' and os.path.isdir(os.path.join(base_path, x))]
 
-            # apply regex search on all entries (should work on all)
-            matched_entries = [toc_regex.findall(line)[0] for line in toc[2:]]
+    # for each subfolder
+    for folder in subfolders:
+        print('generate toc for {}'.format(folder))
 
-            # sort according to first entry
-            matched_entries.sort(key=lambda x: x[0])
+        # read toc header line
+        toc_folder = os.path.join(base_path, folder)
+        toc_file = os.path.join(toc_folder, '_toc.md')
+        toc_header = read_first_line_from_file(toc_file)
 
-            # generate links again
-            lines = ["- [{}]({})\n".format(*match) for match in matched_entries]
+        # get all files
+        files = [x for x in os.listdir(toc_folder) if x != '_toc.md' and os.path.isfile(os.path.join(toc_folder, x))]
+        paths = [os.path.join(toc_folder, file) for file in files]
 
-            # reassemble toc
-            toc = toc[0:2]
-            toc.extend(lines)
+        # get titles (discarding first two ("# ") and last ("\n") characters)
+        titles = [read_first_line_from_file(path)[2:-1] for path in paths]
 
-            # write contents file again
-            with open(toc_path, "w") as f:
-                f.writelines(toc)
+        # combine name and file name
+        info = zip(titles, files)
+
+        # sort according to title
+        info.sort(key=lambda x:x[0])
+
+        # assemble output
+        update = ['- [{}]({})\n'.format(*entry) for entry in info]
+        update = "".join(update)
+
+        # combine toc header
+        text = toc_header + '\n' + update
+
+        # write to toc file
+        with open(toc_file, 'w') as f:
+            f.write(text)
+
+if __name__ == "__main__":
+
+    # base path
+    base_path = os.path.abspath(os.path.dirname(__file__))
+
+    # recount and write to readme
+    update_readme()
+
+    # generate list in toc files
+    update_category_tocs()
+

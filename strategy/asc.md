@@ -6,7 +6,7 @@ _Advanced Strategic Command is a free, turn based strategy game._
 - Wikipedia: https://en.wikipedia.org/wiki/Battle_Isle#Clones
 - Download: ??
 - State: mature
-- Type: TBS
+- Keywords: TBS
 - Code: http://hg.asc-hq.org/hg/asc (mercurial)
 - Language(s): C++
 - License: GPL-2.0

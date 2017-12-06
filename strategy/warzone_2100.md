@@ -4,7 +4,7 @@ _Full campaign with optional (but strongly recommended!), videos, battle against
 
 - Home: http://wz2100.net/
 - Download: https://sourceforge.net/projects/warzone2100/files/releases/
-- Type: RTS
+- Keywords: RTS
 - Code: https://github.com/Warzone2100/warzone2100
 - Language(s): C++
 - License: ??

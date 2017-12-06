@@ -6,7 +6,7 @@ _Real-Time Strategy (RTS) game which reduces micro-management by automatically a
 - Wikipedia: https://en.wikipedia.org/wiki/Globulation_2
 - Download: https://globulation2.org/wiki/Download_and_Install
 - State: mature
-- Type: RTS
+- Keywords: RTS
 - Code: https://bitbucket.org/giszmo/glob2 (hg)
 - Language(s): C++
 - License: GPL-3.0

@@ -17,6 +17,7 @@
 - **[Lightweight Java Game Library](lwjgl.md)** (Kotlin, C, BSD-3, mature)
 - **[Lumix Engine](lumix.md)** (C++, MIT, beta)
 - **[LÖVE](loeve.md)** (C++, zlib, mature)
+- **[Mana](manasource.md)** (C++, GPL-2.0, beta)
 - **[Maratis](maratis.md)** (C++, GPL-2.0, experimental (4.x))
 - **[MonoGame](monogame.md)** (C#, Ms-MPL MIT, mature)
 - **[O.H.R.RPG.C.E](ohrrpgce.md)** (Basic, GPL-2.0, mature)

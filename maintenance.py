@@ -86,7 +86,7 @@ def update_readme():
     info = zip(titles, subfolders, n)
 
     # sort according to title
-    info.sort(key=lambda x:x[0])
+    info = sorted(info, key=lambda x:x[0])
 
     # assemble output
     update = ['- **[{}]({}/_toc.md)** ({})\n'.format(*entry) for entry in info]
@@ -129,7 +129,7 @@ def update_category_tocs():
         info = zip(titles, files, more)
 
         # sort according to title
-        info.sort(key=lambda x:x[0])
+        info = sorted(info, key=lambda x:x[0])
 
         # assemble output
         update = ['- **[{}]({})** ({})\n'.format(*entry) for entry in info]

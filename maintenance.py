@@ -42,7 +42,7 @@ def read_interesting_info_from_file(file):
 
     output = [x for x in output if x] # eliminate empty entries
 
-    output = " " + ", ".join(output)
+    output = ", ".join(output)
 
     return output
 
@@ -89,7 +89,7 @@ def update_readme():
     info.sort(key=lambda x:x[0])
 
     # assemble output
-    update = ['- [{}]({}/_toc.md) ({})\n'.format(*entry) for entry in info]
+    update = ['- **[{}]({}/_toc.md)** ({})\n'.format(*entry) for entry in info]
     update = "".join(update)
 
     # insert new text in the middle
@@ -132,7 +132,7 @@ def update_category_tocs():
         info.sort(key=lambda x:x[0])
 
         # assemble output
-        update = ['- [{}]({}){}\n'.format(*entry) for entry in info]
+        update = ['- **[{}]({})** ({})\n'.format(*entry) for entry in info]
         update = "".join(update)
 
         # combine toc header

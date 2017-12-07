@@ -8,7 +8,6 @@ _Real time multi player strategy game where players compete to build the most po
 - Keywords: RTS
 - Code: https://sourceforge.net/p/freerails/code/?source=navbar (cvs)
 - Language(s): Java
-- License: ??
 
 See also [FreeRails II](http://freerails2.sourceforge.net/)
 

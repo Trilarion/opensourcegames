@@ -7,7 +7,6 @@ _OpenRPG is an Internet application that allows people to play Role Playing Game
 - State: inactive since 2013
 - Code: https://sourceforge.net/p/openrpg/svn/HEAD/tree/ (svn)
 - Language(s): Java, Python
-- License: ??
 
 ## Building
 

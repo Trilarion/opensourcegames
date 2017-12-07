@@ -7,7 +7,7 @@ _A point & click quest set in ancient Persia._
 - State: stable
 - Keywords: point&click, kid-friendly
 - Code: see home
-- Language(s): Ada?
+- Language(s): Ada
 - License: GPL-3.0
 
 ## Building

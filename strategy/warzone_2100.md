@@ -7,7 +7,6 @@ _Full campaign with optional (but strongly recommended!), videos, battle against
 - Keywords: RTS
 - Code: https://github.com/Warzone2100/warzone2100
 - Language(s): C++
-- License: ??
 
 ## Building
 

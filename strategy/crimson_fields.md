@@ -6,8 +6,6 @@ _Turn-based tactical war game._
 - Download: http://crimson.seul.org/download.php
 - Keywords: TBS
 - Code: http://crimson.seul.org/cvs.php (cvs)
-- Language(s): ??
-- License: ??
 
 ## Building
 

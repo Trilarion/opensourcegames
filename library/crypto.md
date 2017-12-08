@@ -1,6 +1,6 @@
 # Crypto++
 
-_{One line description}_
+_C++ class library of cryptographic schemes._
 
 - Home: https://cryptopp.com/
 - Wikipedia: https://en.wikipedia.org/wiki/Crypto%2B%2B

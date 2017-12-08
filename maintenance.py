@@ -3,6 +3,10 @@
     each subfolder alphabetically.
 
     TODO check for external dead links (if desired, only now and then)
+    TODO remove "?source=navbar" from the end of links (sourceforge specific)
+    TODO check for "_{One line description}_" or "- Wikipedia: {URL}" in game files and print warning
+    TODO print all games without license or code information
+    TODO for those games with github repositories get activity, number of open issues, number of merge requests and display in a health monitor file
 """
 
 import os

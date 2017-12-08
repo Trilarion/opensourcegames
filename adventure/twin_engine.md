@@ -3,12 +3,10 @@
 _A Little Big Adventure engine._
 
 - Home: https://github.com/xesf/twin-e
-- Keywords: reimplementation
+- Keywords: reimplementation, requires original content
 - Code: https://github.com/xesf/twin-e
 - Language(s): C
 - License: GPL-2.0
-
-Requires original content
 
 ## Building
 

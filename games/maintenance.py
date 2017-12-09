@@ -64,31 +64,27 @@ def update_readme():
     """
     print('update readme file')
 
-    # load readme
-    readme_path = os.path.join(base_path, 'README.md')
-
     # read readme
     with open(readme_path) as f:
         readme_text = f.read()
 
     # compile regex for identifying the building blocks
-    regex = re.compile(r"(.*## Contents\n\n)(.*)(\n## Contributing.*)", re.DOTALL)
+    regex = re.compile(r"(# Open Source Games\n\n)(.*)(\nA collection.*)", re.DOTALL)
 
     # apply regex
     matches = regex.findall(readme_text)
     matches = matches[0]
     start = matches[0]
-    middle = matches[1]
     end = matches[2]
 
     # get sub folders
-    subfolders = [x for x in os.listdir(base_path) if x != '.git' and os.path.isdir(os.path.join(base_path, x))]
+    subfolders = [x for x in os.listdir(games_path) if x != '.git' and os.path.isdir(os.path.join(games_path, x))]
 
     # get number of files (minus 1) in each sub folder
-    n = [len(os.listdir(os.path.join(base_path, folder))) - 1 for folder in subfolders]
+    n = [len(os.listdir(os.path.join(games_path, folder))) - 1 for folder in subfolders]
 
     # assemble paths
-    paths = [os.path.join(base_path, folder, '_toc.md') for folder in subfolders]
+    paths = [os.path.join(games_path, folder, '_toc.md') for folder in subfolders]
 
     # get titles (discarding first two ("# ") and last ("\n") characters)
     titles = [read_first_line_from_file(path)[2:-1] for path in paths]
@@ -100,7 +96,7 @@ def update_readme():
     info = sorted(info, key=lambda x:x[0])
 
     # assemble output
-    update = ['- **[{}]({}/_toc.md)** ({})\n'.format(*entry) for entry in info]
+    update = ['- **[{}](games/{}/_toc.md)** ({})\n'.format(*entry) for entry in info]
     update = "".join(update)
 
     # insert new text in the middle
@@ -115,14 +111,14 @@ def update_category_tocs():
     Lists all entries in all sub folders and generates the list in the toc file
     """
     # get sub folders
-    subfolders = [x for x in os.listdir(base_path) if x != '.git' and os.path.isdir(os.path.join(base_path, x))]
+    subfolders = [x for x in os.listdir(games_path) if x != '.git' and os.path.isdir(os.path.join(games_path, x))]
 
     # for each subfolder
     for folder in subfolders:
         print('generate toc for {}'.format(folder))
 
         # read toc header line
-        toc_folder = os.path.join(base_path, folder)
+        toc_folder = os.path.join(games_path, folder)
         toc_file = os.path.join(toc_folder, '_toc.md')
         toc_header = read_first_line_from_file(toc_file)
 
@@ -155,8 +151,9 @@ def update_category_tocs():
 
 if __name__ == "__main__":
 
-    # base path
-    base_path = os.path.abspath(os.path.dirname(__file__))
+    # paths
+    games_path = os.path.abspath(os.path.dirname(__file__))
+    readme_path = os.path.join(games_path, os.pardir, 'README.md')
 
     # recount and write to readme
     update_readme()

@@ -11,6 +11,9 @@
     TODO in readme put contents to the top, put all games folder into another folder and this script as well as the template too
     TODO change Wikipedia to Media
     TODO single player to SP, multi player to MP for keywords
+    TODO list those with exotic licenses (not GPL, zlib, MIT, BSD)
+    TODO Which C, C++ projects do not use CMake
+    TODO list those inactive (sort by year backwards)
 """
 
 import os

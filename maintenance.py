@@ -7,6 +7,10 @@
     TODO check for "_{One line description}_" or "- Wikipedia: {URL}" in game files and print warning
     TODO print all games without license or code information
     TODO for those games with github repositories get activity, number of open issues, number of merge requests and display in a health monitor file
+    TODO get number of games with github or bitbucket repository and list those who have neither
+    TODO in readme put contents to the top, put all games folder into another folder and this script as well as the template too
+    TODO change Wikipedia to Media
+    TODO single player to SP, multi player to MP for keywords
 """
 
 import os

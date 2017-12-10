@@ -2,7 +2,8 @@
     Counts the number of records each subfolder and updates the overview. Sorts the entries in the contents files of
     each subfolder alphabetically.
 
-    TODO check for external dead links (if desired, only now and then)
+    This script runs with Python 3, it could also with Python 2 with some minor tweaks probably, but that's not important.
+
     TODO remove "?source=navbar" from the end of links (sourceforge specific)
     TODO check for "_{One line description}_" or "- Wikipedia: {URL}" in game files and print warning
     TODO print all games without license or code information
@@ -11,22 +12,40 @@
     TODO in readme put contents to the top, put all games folder into another folder and this script as well as the template too
     TODO change Wikipedia to Media
     TODO single player to SP, multi player to MP for keywords
-    TODO list those with exotic licenses (not GPL, zlib, MIT, BSD)
+    TODO list those with exotic licenses (not GPL, zlib, MIT, BSD) or without licenses
     TODO Which C, C++ projects do not use CMake
     TODO list those inactive (sort by year backwards)
 """
 
 import os
 import re
+import urllib.request
+import http.client
+
+def get_category_paths():
+    """
+    Returns all sub folders of the games path.
+    """
+    return [os.path.join(games_path, x) for x in os.listdir(games_path) if os.path.isdir(os.path.join(games_path, x))]
+
+def get_entry_paths(category_path):
+    """
+    Returns all files of a category path, except for '_toc.md'.
+    """
+    return [os.path.join(category_path, x) for x in os.listdir(category_path) if x != '_toc.md' and os.path.isfile(os.path.join(category_path, x))]
 
 def read_first_line_from_file(file):
+    """
+    Convenience function because we only need the first line of a category overview really.
+    """
     with open(file, 'r') as f:
         line = f.readline()
     return line
 
 def read_interesting_info_from_file(file):
     """
-    Parses a file for some interesting fields and concatenates the content
+    Parses a file for some interesting fields and concatenates the content. To be displayed after the game name in the
+    category overview.
     """
     with open(file, 'r') as f:
         text = f.read()
@@ -60,7 +79,7 @@ def read_interesting_info_from_file(file):
 
 def update_readme():
     """
-    Recounts entries in subcategories and writes them to the readme
+    Recounts entries in subcategories and writes them to the readme. Needs to be performed regularly.
     """
     print('update readme file')
 
@@ -78,19 +97,19 @@ def update_readme():
     end = matches[2]
 
     # get sub folders
-    subfolders = [x for x in os.listdir(games_path) if x != '.git' and os.path.isdir(os.path.join(games_path, x))]
+    category_paths = get_category_paths()
 
     # get number of files (minus 1) in each sub folder
-    n = [len(os.listdir(os.path.join(games_path, folder))) - 1 for folder in subfolders]
+    n = [len(os.listdir(path)) - 1 for path in category_paths]
 
     # assemble paths
-    paths = [os.path.join(games_path, folder, '_toc.md') for folder in subfolders]
+    paths = [os.path.join(path, '_toc.md') for path in category_paths]
 
     # get titles (discarding first two ("# ") and last ("\n") characters)
     titles = [read_first_line_from_file(path)[2:-1] for path in paths]
 
-    # combine folder name, number, titles in one list
-    info = zip(titles, subfolders, n)
+    # combine titles, category names, numbers in one list
+    info = zip(titles, [os.path.basename(path) for path in category_paths], n)
 
     # sort according to title
     info = sorted(info, key=lambda x:x[0])
@@ -108,32 +127,30 @@ def update_readme():
 
 def update_category_tocs():
     """
-    Lists all entries in all sub folders and generates the list in the toc file
+    Lists all entries in all sub folders and generates the list in the toc file. Needs to be performed regularly.
     """
-    # get sub folders
-    subfolders = [x for x in os.listdir(games_path) if x != '.git' and os.path.isdir(os.path.join(games_path, x))]
+    # get category paths
+    category_paths = get_category_paths()
 
-    # for each subfolder
-    for folder in subfolders:
-        print('generate toc for {}'.format(folder))
+    # for each category
+    for category_path in category_paths:
+        print('generate toc for {}'.format(os.path.basename(category_path)))
 
         # read toc header line
-        toc_folder = os.path.join(games_path, folder)
-        toc_file = os.path.join(toc_folder, '_toc.md')
+        toc_file = os.path.join(category_path, '_toc.md')
         toc_header = read_first_line_from_file(toc_file)
 
-        # get all files
-        files = [x for x in os.listdir(toc_folder) if x != '_toc.md' and os.path.isfile(os.path.join(toc_folder, x))]
-        paths = [os.path.join(toc_folder, file) for file in files]
+        # get paths of all entries in this category
+        entry_paths = get_entry_paths(category_path)
 
         # get titles (discarding first two ("# ") and last ("\n") characters)
-        titles = [read_first_line_from_file(path)[2:-1] for path in paths]
+        titles = [read_first_line_from_file(path)[2:-1] for path in entry_paths]
 
         # get more interesting info
-        more = [read_interesting_info_from_file(path) for path in paths]
+        more = [read_interesting_info_from_file(path) for path in entry_paths]
 
         # combine name and file name
-        info = zip(titles, files, more)
+        info = zip(titles, [os.path.basename(path) for path in entry_paths], more)
 
         # sort according to title
         info = sorted(info, key=lambda x:x[0])
@@ -149,6 +166,61 @@ def update_category_tocs():
         with open(toc_file, 'w') as f:
             f.write(text)
 
+def check_validity_external_links():
+    """
+    Checks all external links it can find for validity. Prints those with non OK HTTP responses. Does only need to be run
+    from time to time.
+    """
+    # regex for finding urls (can be in <> or in () or a whitespace
+    regex = re.compile(r"[\s\n]<(http.+?)>|\]\((http.+?)\)|[\s\n](http[^\s\n]+)")
+
+    # count
+    number_checked_links = 0
+
+    # get category paths
+    category_paths = get_category_paths()
+
+    # for each category
+    for category_path in category_paths:
+        print('check links for {}'.format(os.path.basename(category_path)))
+
+        # get entry paths
+        entry_paths = get_entry_paths(category_path)
+
+        # for each entry
+        for entry_path in entry_paths:
+            # read entry
+            with open(entry_path, 'r') as f:
+                content = f.read()
+
+            # apply regex
+            matches = regex.findall(content)
+
+            # for each match
+            for match in matches:
+
+                # for each possible clause
+                for url in match:
+
+                    # if there was something
+                    if url:
+                        try:
+                            # without a special headers, frequent 403 responses occur
+                            req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64)'})
+                            urllib.request.urlopen(req)
+                        except urllib.error.HTTPError as e:
+                            print("{}: {} - {}".format(os.path.basename(entry_path), url, e.code))
+                        except http.client.RemoteDisconnected:
+                            print("{}: {} - disconnected without response".format(os.path.basename(entry_path), url))
+
+                        number_checked_links += 1
+
+                        if number_checked_links % 50 == 0:
+                            print("{} links checked".format(number_checked_links))
+
+    print("{} links checked".format(number_checked_links))
+
+
 if __name__ == "__main__":
 
     # paths
@@ -160,4 +232,7 @@ if __name__ == "__main__":
 
     # generate list in toc files
     update_category_tocs()
+
+    # check external links (only rarely)
+    # check_validity_external_links()
 

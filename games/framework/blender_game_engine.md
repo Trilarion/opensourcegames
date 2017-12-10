@@ -5,7 +5,7 @@ _Included in Blender is a complete game engine, allowing you to create a fully f
 - Home: https://www.blender.org/features/game-creation/
 - Download: https://www.blender.org/download/
 - State: mature
-- Code: http://git.blender.org/blender.git
+- Code: https://developer.blender.org/diffusion/
 - Language(s): C++
 - License: GPL-2.0
 

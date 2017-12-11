@@ -4,14 +4,10 @@
 
     This script runs with Python 3, it could also with Python 2 with some minor tweaks probably, but that's not important.
 
-    TODO remove "?source=navbar" from the end of links (sourceforge specific)
     TODO check for "_{One line description}_" or "- Wikipedia: {URL}" in game files and print warning
     TODO print all games without license or code information
     TODO for those games with github repositories get activity, number of open issues, number of merge requests and display in a health monitor file
     TODO get number of games with github or bitbucket repository and list those who have neither
-    TODO in readme put contents to the top, put all games folder into another folder and this script as well as the template too
-    TODO change Wikipedia to Media
-    TODO single player to SP, multi player to MP for keywords
     TODO list those with exotic licenses (not GPL, zlib, MIT, BSD) or without licenses
     TODO Which C, C++ projects do not use CMake
     TODO list those inactive (sort by year backwards)
@@ -220,6 +216,66 @@ def check_validity_external_links():
 
     print("{} links checked".format(number_checked_links))
 
+def fix_notation():
+    """
+    Changes notation, quite special. Only run when needed.
+    """
+    regex = re.compile(r"- Wikipedia:(.*)")
+
+    # get category paths
+    category_paths = get_category_paths()
+
+    # for each category
+    for category_path in category_paths:
+        # get paths of all entries in this category
+        entry_paths = get_entry_paths(category_path)
+
+        for entry_path in entry_paths:
+            # read it line by line
+            with open(entry_path) as f:
+                content = f.readlines()
+
+            # apply regex on every line
+            matched_lines = [regex.findall(line) for line in content]
+
+            # loop over all the lines
+            for line, match in enumerate(matched_lines):
+                if match:
+                    match = match[0]
+
+                    # patch content
+                    content[line] = "- Media:{}\n".format(match)
+
+            # write it line by line
+            with open(entry_path, "w") as f:
+                f.writelines(content)
+
+def regular_replacements():
+    """
+    Replacing some stuff by shortcuts. Can be run regularly
+    """
+
+    # get category paths
+    category_paths = get_category_paths()
+
+    # for each category
+    for category_path in category_paths:
+        # get paths of all entries in this category
+        entry_paths = get_entry_paths(category_path)
+
+        for entry_path in entry_paths:
+            # read it line by line
+            with open(entry_path) as f:
+                content = f.read()
+
+            # now the replacements
+            content = content.replace('?source=navbar', '') # sourceforge specific
+            content = content.replace('single player', 'SP')
+            content = content.replace('multi player', 'MP')
+
+            # write it line by line
+            with open(entry_path, "w") as f:
+                f.write(content)
 
 if __name__ == "__main__":
 
@@ -228,11 +284,16 @@ if __name__ == "__main__":
     readme_path = os.path.join(games_path, os.pardir, 'README.md')
 
     # recount and write to readme
-    update_readme()
+    #update_readme()
 
     # generate list in toc files
-    update_category_tocs()
+    #update_category_tocs()
 
     # check external links (only rarely)
     # check_validity_external_links()
 
+    # special, only run when needed
+    # fix_notation()
+
+    # regular replacements
+    regular_replacements()

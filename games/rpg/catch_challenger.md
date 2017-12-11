@@ -1,6 +1,6 @@
 # Catch Challenger
 
-_A independent MMORPG, Lan game and a single player game._
+_A independent MMORPG, Lan game and a SP game._
 
 - Home: https://catchchallenger.first-world.info/
 - Download: https://catchchallenger.first-world.info/download.html

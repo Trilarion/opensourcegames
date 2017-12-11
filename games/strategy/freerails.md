@@ -1,6 +1,6 @@
 # FreeRails
 
-_Real time multi player strategy game where players compete to build the most powerful railroad empire._
+_Real time MP strategy game where players compete to build the most powerful railroad empire._
 
 - Home: http://freerails.sourceforge.net/
 - Download: https://sourceforge.net/projects/freerails/files/jfreerails/

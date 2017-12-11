@@ -298,6 +298,24 @@ def check_template_leftovers():
                 if content.find(check_string) >= 0:
                     print('{}: found {}'.format(os.path.basename(entry_path), check_string))
 
+def parse_entry(content):
+    """
+    Returns a dictionary of the features of the content
+    """
+
+    info = {}
+
+    # language
+    regex = re.compile(r"- Language\(s\): (.*)")
+    matches = regex.findall(content)
+    if matches:
+        languages = matches[0].split(',')
+        languages = [x.strip() for x in languages]
+        info['Language'] = languages
+
+    return info
+
+
 def generate_statistics():
     """
 
@@ -309,6 +327,7 @@ def generate_statistics():
     category_paths = get_category_paths()
 
     # for each category
+    infos = []
     for category_path in category_paths:
         # get paths of all entries in this category
         entry_paths = get_entry_paths(category_path)
@@ -317,6 +336,37 @@ def generate_statistics():
             # read it line by line
             with open(entry_path) as f:
                 content = f.read()
+
+            info = parse_entry(content)
+            info['file'] = os.path.basename(entry_path)
+            infos.append(info)
+
+    # total number
+    number_entries = len(infos)
+    statistics += 'analyzed {} entries\n\n'.format(number_entries)
+
+
+    # Language
+    statistics += '## Languages\n\n'
+    number_no_language = sum(1 for x in infos if 'Language' not in x)
+    if number_no_language > 0:
+        statistics += '{} ({:.1f}%) have no language tag\n'.format(number_no_language, number_no_language / number_entries * 100)
+        entries_no_language = [x['file'][:-3] for x in infos if 'Language' not in x] # [:-3] to cut off the .md
+        entries_no_language.sort()
+        statistics += '  ' + ', '.join(entries_no_language) + '\n\n'
+
+    # get all languages together
+    languages = []
+    for info in infos:
+        if 'Language' in info:
+            languages.extend(info['Language'])
+
+    unique_languages = set(languages)
+    unique_languages = [(l, languages.count(l) / len(languages)) for l in unique_languages]
+    unique_languages.sort(key=lambda x: -x[1])
+    unique_languages = ['{} ({:.1f}%)'.format(x[0], x[1]*100) for x in unique_languages]
+    statistics += ', '.join(unique_languages) + '\n\n'
+
 
     with open(statistics_path, 'w') as f:
         f.write(statistics)

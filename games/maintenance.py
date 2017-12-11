@@ -16,6 +16,7 @@ import os
 import re
 import urllib.request
 import http.client
+import datetime
 
 def get_category_paths():
     """
@@ -343,17 +344,17 @@ def generate_statistics():
 
     # total number
     number_entries = len(infos)
-    statistics += 'analyzed {} entries\n\n'.format(number_entries)
+    statistics += 'analyzed {} entries on {}\n\n'.format(number_entries, datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
 
 
     # Language
     statistics += '## Languages\n\n'
     number_no_language = sum(1 for x in infos if 'Language' not in x)
     if number_no_language > 0:
-        statistics += '{} ({:.1f}%) have no language tag\n'.format(number_no_language, number_no_language / number_entries * 100)
+        statistics += '{} ({:.1f}%) have no language tag\n\n'.format(number_no_language, number_no_language / number_entries * 100)
         entries_no_language = [x['file'][:-3] for x in infos if 'Language' not in x] # [:-3] to cut off the .md
         entries_no_language.sort()
-        statistics += '  ' + ', '.join(entries_no_language) + '\n\n'
+        statistics += ', '.join(entries_no_language) + '\n\n'
 
     # get all languages together
     languages = []
@@ -365,7 +366,7 @@ def generate_statistics():
     unique_languages = [(l, languages.count(l) / len(languages)) for l in unique_languages]
     unique_languages.sort(key=lambda x: -x[1])
     unique_languages = ['{} ({:.1f}%)'.format(x[0], x[1]*100) for x in unique_languages]
-    statistics += ', '.join(unique_languages) + '\n\n'
+    statistics += '\n'.join(unique_languages) + '\n\n'
 
 
     with open(statistics_path, 'w') as f:
@@ -380,10 +381,10 @@ if __name__ == "__main__":
     readme_path = os.path.join(games_path, os.pardir, 'README.md')
 
     # recount and write to readme
-    #update_readme()
+    update_readme()
 
     # generate list in toc files
-    #update_category_tocs()
+    update_category_tocs()
 
     # generate report
     generate_statistics()

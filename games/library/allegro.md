@@ -6,7 +6,7 @@ _Cross-platform library mainly aimed at video game and multimedia programming._
 - Media: https://en.wikipedia.org/wiki/Allegro_(software)
 - Download: http://liballeg.org/download.html
 - State: mature
-- Code: primary repository (type if not git), other repositories (type if not git)
+- Code: https://github.com/liballeg/allegro5
 - Language(s): C
 - License: zlib
 

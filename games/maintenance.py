@@ -254,7 +254,6 @@ def regular_replacements():
     """
     Replacing some stuff by shortcuts. Can be run regularly
     """
-
     # get category paths
     category_paths = get_category_paths()
 
@@ -277,6 +276,29 @@ def regular_replacements():
             with open(entry_path, "w") as f:
                 f.write(content)
 
+def check_template_leftovers():
+    """
+    Checks for template leftovers.
+    """
+    check_strings = ['# {NAME}', '_{One line description}_', '- Home: {URL}', '- Media: {URL}', '- Download: {URL}', '- State: beta, mature (inactive since)', '- Keywords: SP, MP, RTS, TBS (if none, remove the line)', '- Code: primary repository (type if not git), other repositories (type if not git)', '- Language(s): {XX}', '- License: {XX} (if special, include link)', '{XXX}']
+
+    # get category paths
+    category_paths = get_category_paths()
+
+    # for each category
+    for category_path in category_paths:
+        # get paths of all entries in this category
+        entry_paths = get_entry_paths(category_path)
+
+        for entry_path in entry_paths:
+            # read it line by line
+            with open(entry_path) as f:
+                content = f.read()
+
+            for check_string in check_strings:
+                if content.find(check_string) >= 0:
+                    print('{}: found {}'.format(os.path.basename(entry_path), check_string))
+
 if __name__ == "__main__":
 
     # paths
@@ -289,11 +311,14 @@ if __name__ == "__main__":
     # generate list in toc files
     #update_category_tocs()
 
+    # check for unfilled template lines
+    check_template_leftovers()
+
     # check external links (only rarely)
-    # check_validity_external_links()
+    #check_validity_external_links()
 
     # special, only run when needed
-    fix_notation()
+    #fix_notation()
 
     # regular replacements
-    # regular_replacements()
+    #regular_replacements()

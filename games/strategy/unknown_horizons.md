@@ -5,7 +5,7 @@ _A 2D realtime strategy simulation with an emphasis on economy and city building
 - Home: http://unknown-horizons.org/
 - Media: https://en.wikipedia.org/wiki/Unknown_Horizons
 - Download: http://unknown-horizons.org/downloads/
-- State: beta, mature (inactive since)
+- State: beta
 - Keywords: SP, TBS
 - Code: https://github.com/unknown-horizons/unknown-horizons
 - Language(s): Python

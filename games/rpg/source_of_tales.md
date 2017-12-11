@@ -3,7 +3,6 @@
 _A massive multiplayer online roleplaying game._
 
 - Home: http://www.sourceoftales.org/
-- Download: {URL}
 - Keywords: MMO
 - Code: https://github.com/tales/sourceoftales
 - Language(s): Lua

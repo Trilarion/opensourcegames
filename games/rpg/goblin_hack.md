@@ -1,4 +1,4 @@
-# {NAME}
+# Goblin Hack
 
 _A roguelike opengl-based smooth-scrolling ASCII graphics game._
 

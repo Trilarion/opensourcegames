@@ -22,6 +22,8 @@ or fork this repository and submit a pull request.
 
 Help: [MarkDown Help](https://help.github.com/articles/github-flavored-markdown), [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
+See also the [statistics](games/statistics.md) page showing interesting infos about code repositories, usage of licenses etc.
+
 ## Background
 
 I love open source projects and games and I currently learn about building systems. I see the following benefits of this database

@@ -3,7 +3,7 @@
 _SFML provides a simple interface to the various components of your PC._
 
 - Home: https://www.sfml-dev.org/
-- Wikipedia: https://en.wikipedia.org/wiki/Simple_and_Fast_Multimedia_Library
+- Media: https://en.wikipedia.org/wiki/Simple_and_Fast_Multimedia_Library
 - Download: https://www.sfml-dev.org/download.php
 - State: mature
 - Code: https://github.com/SFML/SFML

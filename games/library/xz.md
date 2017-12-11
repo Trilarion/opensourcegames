@@ -3,7 +3,7 @@
 _General-purpose data compression software with a high compression ratio._
 
 - Home: https://tukaani.org/xz/
-- Wikipedia: https://en.wikipedia.org/wiki/XZ_Utils
+- Media: https://en.wikipedia.org/wiki/XZ_Utils
 - Download: see home
 - State: mature
 - Code: https://git.tukaani.org/?p=xz.git

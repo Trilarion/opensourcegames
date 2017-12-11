@@ -3,7 +3,7 @@
 _Remake of the 1986 game They Stole a Million._
 
 - Home: https://sourceforge.net/projects/cosp/
-- Wikipedia: https://en.wikipedia.org/wiki/The_Clue!
+- Media: https://en.wikipedia.org/wiki/The_Clue!
 - Download: https://sourceforge.net/projects/cosp/files/
 - State: alpha
 - Keywords: action/adventure

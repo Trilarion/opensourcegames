@@ -3,7 +3,7 @@
 _Open Source implementation of the Microsoft XNA 4 Framework._
 
 - Home: http://www.monogame.net/
-- Wikipedia: https://en.wikipedia.org/wiki/MonoGame
+- Media: https://en.wikipedia.org/wiki/MonoGame
 - Download: http://www.monogame.net/downloads/
 - State: mature
 - Code: https://github.com/MonoGame/MonoGame

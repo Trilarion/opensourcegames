@@ -3,7 +3,7 @@
 _Cross-platform application framework._
 
 - Home: https://www.qt.io/
-- Wikipedia: <https://en.wikipedia.org/wiki/Qt_(software)>
+- Media: <https://en.wikipedia.org/wiki/Qt_(software)>
 - Download: https://www1.qt.io/download-open-source/
 - State: mature
 - Code: http://code.qt.io/cgit/ https://github.com/qt (mirror)

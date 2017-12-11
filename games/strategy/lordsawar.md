@@ -3,7 +3,7 @@
 _LordsAWar! is a free, turn-based strategy game where up to 8 players strive for control of as many cities as possible._
 
 - Home: http://www.nongnu.org/lordsawar/
-- Wikipedia: <https://en.wikipedia.org/wiki/Warlords_(game_series)#LordsAWar!>
+- Media: <https://en.wikipedia.org/wiki/Warlords_(game_series)#LordsAWar!>
 - Download: see home
 - State: stable
 - Keywords: TBS

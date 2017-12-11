@@ -293,7 +293,7 @@ if __name__ == "__main__":
     # check_validity_external_links()
 
     # special, only run when needed
-    # fix_notation()
+    fix_notation()
 
     # regular replacements
-    regular_replacements()
+    # regular_replacements()

@@ -3,7 +3,7 @@
 _C-evo is a freeware empire building game for Windows._
 
 - Home: http://www.c-evo.org/
-- Wikipedia: https://en.wikipedia.org/wiki/C-evo
+- Media: https://en.wikipedia.org/wiki/C-evo
 - Download: http://www.c-evo.org/files/files.php
 - State: mature, inactive since 2013
 - Keywords: TBS 

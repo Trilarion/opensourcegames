@@ -3,7 +3,7 @@
 _Widelands is a free, open source real-time strategy game with singleplayer campaigns and a multiplayer mode._
 
 - Home: https://wl.widelands.org/
-- Wikipedia: https://en.wikipedia.org/wiki/Widelands
+- Media: https://en.wikipedia.org/wiki/Widelands
 - Download: https://wl.widelands.org/wiki/Download/
 - State: mature
 - Keywords: RTS 

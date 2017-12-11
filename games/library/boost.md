@@ -3,7 +3,7 @@
 _Boost provides free peer-reviewed portable C++ source libraries._
 
 - Home: http://www.boost.org/
-- Wikipedia: <https://en.wikipedia.org/wiki/Boost_(C%2B%2B_libraries)>
+- Media: <https://en.wikipedia.org/wiki/Boost_(C%2B%2B_libraries)>
 - Download: http://www.boost.org/users/download/
 - State: mature
 - Code: https://github.com/boostorg/boost

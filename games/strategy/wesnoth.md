@@ -3,7 +3,7 @@
 _The Battle for Wesnoth is an open source, turn-based strategy game with a high fantasy theme._
 
 - Home: http://www.wesnoth.org/
-- Wikipedia: https://en.wikipedia.org/wiki/The_Battle_for_Wesnoth
+- Media: https://en.wikipedia.org/wiki/The_Battle_for_Wesnoth
 - Download: http://www.wesnoth.org/#download
 - State: mature
 - Keywords: network, TBS

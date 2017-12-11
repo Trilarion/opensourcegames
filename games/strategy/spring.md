@@ -3,7 +3,7 @@
 _Game engine for real-time strategy (RTS) video games._
 
 - Home: https://springrts.com/wiki/Main_Page
-- Wikipedia: https://en.wikipedia.org/wiki/Spring_Engine
+- Media: https://en.wikipedia.org/wiki/Spring_Engine
 - Download: https://springrts.com/wiki/Download
 - State: mature
 - Keywords: RTS

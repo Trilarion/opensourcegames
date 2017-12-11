@@ -3,7 +3,7 @@
 _Toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols._
 
 - Home: https://www.openssl.org/
-- Wikipedia: https://en.wikipedia.org/wiki/OpenSSL
+- Media: https://en.wikipedia.org/wiki/OpenSSL
 - Download: https://www.openssl.org/source/
 - State: mature
 - Code: https://www.openssl.org/source/gitrepo.html https://github.com/openssl/openssl (mirror)

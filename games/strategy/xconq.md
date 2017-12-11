@@ -3,7 +3,7 @@
 _General strategy game system._
 
 - Home: http://sourceware.org/xconq/
-- Wikipedia: https://en.wikipedia.org/wiki/Xconq
+- Media: https://en.wikipedia.org/wiki/Xconq
 - Download: https://sourceware.org/xconq/ftp.html
 - State: mature
 - Code: none found yet

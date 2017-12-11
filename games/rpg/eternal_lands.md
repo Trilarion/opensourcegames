@@ -3,7 +3,7 @@
 _Multiplayer, online role-playing game (MMORPG)._
 
 - Home: http://www.eternal-lands.com/
-- Wikipedia: https://en.wikipedia.org/wiki/Eternal_Lands
+- Media: https://en.wikipedia.org/wiki/Eternal_Lands
 - Download: http://www.eternal-lands.com/page/download.php
 - State: mature
 - Keywords: MMO

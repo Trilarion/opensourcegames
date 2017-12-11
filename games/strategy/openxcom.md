@@ -3,7 +3,7 @@
 _OpenXcom is an open-source clone of the original UFO: Enemy Unknown (X-Com: UFO Defense in USA)._
 
 - Home: https://openxcom.org/
-- Wikipedia: <https://en.wikipedia.org/wiki/UFO:_Enemy_Unknown#Fan-created_content>
+- Media: <https://en.wikipedia.org/wiki/UFO:_Enemy_Unknown#Fan-created_content>
 - Download: https://openxcom.org/downloads-milestones/
 - State: mature
 - Keywords: TBS 

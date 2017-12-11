@@ -3,7 +3,7 @@
 _Recreates and modernizes the classic Command & Conquer real time strategy games._
 
 - Home: http://www.openra.net/
-- Wikipedia: <https://en.wikipedia.org/wiki/Command_%26_Conquer:_Red_Alert#Open_source_remake>
+- Media: <https://en.wikipedia.org/wiki/Command_%26_Conquer:_Red_Alert#Open_source_remake>
 - Download: http://www.openra.net/download/
 - State: mature
 - Keywords: RTS

@@ -3,7 +3,7 @@
 _A turn-based strategy engine heavily inspired by Panzer General._
 
 - Home: http://lgames.sourceforge.net/LGeneral/
-- Wikipedia: https://en.wikipedia.org/wiki/Panzer_General#LGeneral
+- Media: https://en.wikipedia.org/wiki/Panzer_General#LGeneral
 - Download: see home
 - State: mature
 - Keywords: TBS, andoird

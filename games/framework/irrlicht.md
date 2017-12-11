@@ -3,7 +3,7 @@
 _The Irrlicht Engine is an open source high performance realtime 3D engine._
 
 - Home: http://irrlicht.sourceforge.net/
-- Wikipedia: https://en.wikipedia.org/wiki/Irrlicht_Engine
+- Media: https://en.wikipedia.org/wiki/Irrlicht_Engine
 - Download: http://irrlicht.sourceforge.net/?page_id=10
 - State: mature
 - Keywords: 3D

@@ -3,7 +3,7 @@
 _Glest is a free 3D real-time strategy game._
 
 - Home: http://glest.org/en/index.php
-- Wikipedia: https://en.wikipedia.org/wiki/Glest
+- Media: https://en.wikipedia.org/wiki/Glest
 - Download: http://glest.org/en/downloads.php
 - State: mature, inactive since 2009
 - Keywords: RTS 

@@ -3,7 +3,7 @@
 _Powerful, efficient, lightweight, embeddable scripting language._
 
 - Home: http://www.lua.org/
-- Wikipedia: <https://en.wikipedia.org/wiki/Lua_(programming_language)>
+- Media: <https://en.wikipedia.org/wiki/Lua_(programming_language)>
 - Download: http://www.lua.org/download.html
 - State: mature
 - Code: see download https://github.com/lua/lua (mirror)

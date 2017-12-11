@@ -3,7 +3,7 @@
 _A cross-platform simulation game in which the player strives to run a successful transport system._
 
 - Home: http://www.simutrans.de/start (German)
-- Wikipedia: https://en.wikipedia.org/wiki/Simutrans
+- Media: https://en.wikipedia.org/wiki/Simutrans
 - Download: http://www.simutrans.de/download
 - State: mature
 - Code: https://sourceforge.net/p/simutrans/code/HEAD/tree/ (svn)

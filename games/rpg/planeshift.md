@@ -3,7 +3,7 @@
 _Role Playing Game immersed into a 3D virtual fantasy world._
 
 - Home: http://www.planeshift.it/
-- Wikipedia: <https://en.wikipedia.org/wiki/PlaneShift_(video_game)>
+- Media: <https://en.wikipedia.org/wiki/PlaneShift_(video_game)>
 - Download: http://www.planeshift.it/Download
 - State: mature
 - Keywords: MMO

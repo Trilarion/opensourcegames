@@ -3,7 +3,7 @@
 _libpng is the official PNG reference library._
 
 - Home: http://libpng.org/pub/png/libpng.html
-- Wikipedia: https://en.wikipedia.org/wiki/Libpng
+- Media: https://en.wikipedia.org/wiki/Libpng
 - Download: see home
 - State: mature
 - Keywords: official

@@ -315,7 +315,7 @@ def parse_entry(content):
         info['language'] = languages
 
     # license
-    regex = re.compile(r"- License: (.*)")
+    regex = re.compile(r"- Code license: (.*)")
     matches = regex.findall(content)
     if matches:
         info['license'] = matches[0]
@@ -375,7 +375,7 @@ def generate_statistics():
     statistics += 'Used languages:\n' + ''.join(unique_languages) + '\n'
 
     # Licenses
-    statistics += '## Licenses\n\n'
+    statistics += '## Code licenses\n\n'
     number_no_license = sum(1 for x in infos if 'license' not in x)
     if number_no_license > 0:
         statistics += 'Without license tag: {} ({:.1f}%)\n\n'.format(number_no_license, number_no_license / number_entries * 100)

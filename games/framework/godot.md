@@ -8,7 +8,7 @@ _Godot is an advanced, feature-packed, multi-platform 2D and 3D open source game
 - State: mature
 - Code: https://github.com/godotengine/godot
 - Language(s): C, C++
-- License: MIT
+- Code license: MIT
 
 ## Building
 

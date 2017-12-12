@@ -8,7 +8,7 @@ _Unofficial, online version of the Classic BattleTech board game._
 - State: mature
 - Code: https://github.com/MegaMek/megamek
 - Language(s): Java
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 See also [soureforge.net project site](https://sourceforge.net/projects/megamek/?source=directory).
 

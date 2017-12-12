@@ -6,7 +6,7 @@ _Isometric minimal-code style game at html5 canvas and javascript._
 - State: mature
 - Code: https://github.com/mitallast/diablo-js
 - Language(s): Java, Javascript
-- License: MIT
+- Code license: MIT
 
 ## Building
 

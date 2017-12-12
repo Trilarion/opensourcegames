@@ -8,7 +8,7 @@ _Orx is an open source, portable, lightweight, plugin-based, data-driven and ext
 - State: mature
 - Code: https://github.com/orx/orx https://bitbucket.org/orx/orx (hg)
 - Language(s): C
-- License: zlib
+- Code license: zlib
 
 ## Building
 

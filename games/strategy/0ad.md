@@ -9,7 +9,7 @@ _0 A.D. is a free, open-source, cross-platform real-time strategy game._
 - Keywords: RTS
 - Code: https://svn.wildfiregames.com/public/ps/trunk/ (svn)
 - Language(s): C++
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 ## Building
 

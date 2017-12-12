@@ -9,7 +9,7 @@ _Widelands is a free, open source real-time strategy game with singleplayer camp
 - Keywords: RTS 
 - Code: https://launchpad.net/widelands (bzr) https://github.com/widelands/widelands (mirror)
 - Language(s): C++, Lua
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 ## Building
 

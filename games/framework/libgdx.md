@@ -8,7 +8,7 @@ _Desktop/Android/BlackBerry/iOS/HTML5 Java game development framework._
 - State: mature
 - Code: https://github.com/libgdx/libgdx
 - Language(s): Java, C++, C
-- License: Apache-2.0
+- Code license: Apache-2.0
 
 ## Building
 

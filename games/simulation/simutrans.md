@@ -8,7 +8,7 @@ _A cross-platform simulation game in which the player strives to run a successfu
 - State: mature
 - Code: https://sourceforge.net/p/simutrans/code/HEAD/tree/ (svn)
 - Language(s): C++
-- License: Artistic License
+- Code license: Artistic License
 
 Is [this](https://www.simutrans.com/en/) the English version?
 

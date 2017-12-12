@@ -8,7 +8,7 @@ _Cross-platform application framework._
 - State: mature
 - Code: http://code.qt.io/cgit/ https://github.com/qt (mirror)
 - Language(s): C++
-- License: LGPL
+- Code license: LGPL-3.0
 
 Not a specialized game framework, but one could write games with it.
 

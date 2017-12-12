@@ -7,7 +7,7 @@ _2D open source MMORPG._
 - Keywords: MMO
 - Code: https://github.com/themanaworld
 - Language(s): PHP
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 See also [ManaPlus](http://manaplus.org/) client.
 

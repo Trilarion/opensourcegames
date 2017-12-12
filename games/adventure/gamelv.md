@@ -6,7 +6,7 @@ _Adventure Game in Post Soviet Environment._
 - State: beta
 - Code: https://github.com/snauts/game-lv
 - Language(s): C++
-- License: GPL
+- Code license: GPL
 
 ## Building
 

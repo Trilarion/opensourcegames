@@ -7,6 +7,6 @@ _A cross-platform, turn-based, networked strategy game._
 - State: beta, inactive since 2003
 - Code: http://civil.cvs.sourceforge.net/ (cvs)
 - Language(s): Python
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 ## Building

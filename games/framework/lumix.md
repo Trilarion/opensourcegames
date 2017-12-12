@@ -8,7 +8,7 @@ _3D Game Engine_
 - Keywords: 3D
 - Code: https://github.com/nem0/lumixengine https://github.com/nem0/lumixengine_data (related)
 - Language(s): C++
-- License: MIT
+- Code license: MIT
 
 ## Building
 

@@ -9,7 +9,7 @@ _Real-Time Strategy (RTS) game which reduces micro-management by automatically a
 - Keywords: RTS
 - Code: https://bitbucket.org/giszmo/glob2 (hg)
 - Language(s): C++
-- License: GPL-3.0
+- Code license: GPL-3.0
 
 ## Building
 

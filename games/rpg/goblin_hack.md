@@ -8,7 +8,7 @@ _A roguelike opengl-based smooth-scrolling ASCII graphics game._
 - Keywords: Sp, roguelike
 - Code: https://github.com/goblinhack/goblinhack https://sourceforge.net/p/goblinhack/code/HEAD/tree/ (svn)
 - Language(s): C++
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 ## Building
 

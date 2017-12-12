@@ -6,7 +6,7 @@ _Engine for two-dimensional graphical role-playing games._
 - State: beta, inactive since 2014
 - Code: https://git.savannah.gnu.org/git/rpge.git
 - Language(s): C
-- License: GPL-3.0
+- Code license: GPL-3.0
 
 ## Building
 

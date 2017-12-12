@@ -7,7 +7,7 @@ _Open-ended space action/trading game._
 - State: beta
 - Code: https://github.com/cthielen/Epiar
 - Language(s): C, C++, Lua
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 ## Building
 

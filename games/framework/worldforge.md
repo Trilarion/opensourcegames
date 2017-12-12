@@ -9,7 +9,7 @@ _Open source framework for massively multiplayer online role-playing games._
 - Keywords: MMO
 - Code: https://github.com/worldforge (different sub-repositories)
 - Language(s): C++
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 ## Building
 

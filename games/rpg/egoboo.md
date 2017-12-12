@@ -8,7 +8,7 @@ _A three-dimensional dungeon crawling adventure that borrows a lot of elements f
 - State: mature, inactive since 2015
 - Code: https://sourceforge.net/p/egoboo/svn/HEAD/tree/ (svn) https://github.com/egoboo/egoboo
 - Language(s): C++, C
-- License: GPL-3.0
+- Code license: GPL-3.0
 
 ## Building
 

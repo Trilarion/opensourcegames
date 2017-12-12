@@ -6,7 +6,7 @@ _Software implementation of the OpenAL 3D audio API._
 - Media: https://en.wikipedia.org/wiki/OpenAL#Implementations
 - Code: http://repo.or.cz/openal-soft.git
 - Language(s): C
-- License: LGPL-2.0
+- Code license: LGPL-2.0
 
 ## Building
 

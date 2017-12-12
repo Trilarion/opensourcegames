@@ -8,7 +8,7 @@ _Cross-platform library mainly aimed at video game and multimedia programming._
 - State: mature
 - Code: https://github.com/liballeg/allegro5
 - Language(s): C
-- License: zlib
+- Code license: zlib
 
 ## Building
 

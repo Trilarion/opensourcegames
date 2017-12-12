@@ -8,7 +8,7 @@ _A free multi-platform open source real-time strategy video game._
 - Keywords: RTS
 - Code: https://github.com/ZeroK-RTS/Zero-K
 - Language(s): Lua
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 ## Building
 

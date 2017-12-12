@@ -6,7 +6,7 @@ _Point & Click adventure!_
 - Download: see home
 - Code: see download
 - Language(s): Python
-- License: Public Domain
+- Code license: Public Domain
 
 ## Building
 

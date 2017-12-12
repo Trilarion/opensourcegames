@@ -7,7 +7,7 @@ _zlib is a software library used for data compression._
 - State: mature
 - Code: https://github.com/madler/zlib
 - Language(s): C
-- License: zlib
+- Code license: zlib
 
 ## Building
 

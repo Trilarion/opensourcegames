@@ -9,7 +9,7 @@ _Freeciv is a Free and Open Source empire-building strategy game inspired by the
 - Keywords: network, TBS
 - Code: https://github.com/freeciv/freeciv
 - Language(s): C
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 ## Building
 

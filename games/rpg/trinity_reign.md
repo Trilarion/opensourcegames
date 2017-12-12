@@ -6,7 +6,7 @@ _Cross-platform, open source 3D IMOW (Immersive Multiplayer Online World)._
 - State: beta, inactive since 2013
 - Code: https://sourceforge.net/p/ura-game/code/HEAD/tree/ (svn)
 - Language(s): C++
-- License: GPL-3.0
+- Code license: GPL-3.0
 
 ## Building
 

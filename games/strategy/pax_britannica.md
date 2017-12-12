@@ -7,7 +7,7 @@ _One-button real-time strategy game._
 - Keywords: MP, RTS
 - Code: https://github.com/henkboom/pax-britannica
 - Language(s): Lua, C
-- License: MIT
+- Code license: MIT
 
 ## Building
 

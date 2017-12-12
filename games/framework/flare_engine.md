@@ -6,7 +6,7 @@ _Flare (Free Libre Action Roleplaying Engine) is a simple game engine built to h
 - Download: http://www.flarerpg.org/ https://github.com/clintbellanger/flare-engine/releases
 - Code: https://github.com/clintbellanger/flare-engine
 - Language(s): C++
-- License: GPL-3.0
+- Code license: GPL-3.0
 
 See also [Engine development](http://www.flarerpg.org/create/).
 

@@ -5,7 +5,7 @@ _This quest is a free, open-source game that works with Solarus, an open-source 
 - Home: https://github.com/solarus-games/zsdx
 - Code: https://github.com/solarus-games/zsdx
 - Language(s): Lua
-- License: GPL-3.0
+- Code license: GPL-3.0
 
 Uses the [Solarus engine](../framework/solarus.md).
 

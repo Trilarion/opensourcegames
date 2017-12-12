@@ -8,7 +8,7 @@ _Role-playing game, featuring both a single-player and a multiplayer mode for ab
 - Keywords: SP, MP
 - Code: https://bitbucket.org/sumwars/sumwars-code/src (hg)
 - Language(s): C++
-- License: GPL-3.0
+- Code license: GPL-3.0
 
 ## Building
 

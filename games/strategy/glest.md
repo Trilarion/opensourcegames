@@ -9,7 +9,7 @@ _Glest is a free 3D real-time strategy game._
 - Keywords: RTS 
 - Code: https://sourceforge.net/p/glest/code/HEAD/tree/trunk/
 - Language(s): C++
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 See also [Glest Advanced Engine](https://sourceforge.net/projects/glestae/).
 

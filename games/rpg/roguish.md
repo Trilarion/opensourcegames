@@ -7,7 +7,7 @@ _Multiplayer, extensible rogue-like._
 - Keywords: roguelike
 - Code: https://github.com/CamHenlin/Roguish
 - Language(s): Javascript
-- License: BSD-3
+- Code license: BSD-3
 
 ## Building
 

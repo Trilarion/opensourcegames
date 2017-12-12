@@ -8,7 +8,7 @@ _Official Hamster Republic Role Playing Game Construction Engine_
 - State: mature
 - Code: https://rpg.hamsterrepublic.com/source/ (svn) https://bitbucket.org/rbv/ohrrpgce-svn/src
 - Language(s): Basic
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 ## Building
 

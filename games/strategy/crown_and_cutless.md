@@ -7,7 +7,7 @@ _3d pirate action/adventure game in the spirit of the old Pirates! game._
 - State: beta, inactive since 2006
 - Code: https://sourceforge.net/p/crownandcutlass/code/HEAD/tree/ (svn)
 - Language(s): C++
-- License: Special
+- Code license: Special
 
 ## Building
 

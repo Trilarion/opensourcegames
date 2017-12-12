@@ -8,7 +8,7 @@ _A Massively Multiplayer Adventure._
 - Keywords: MMORPG
 - Code: https://github.com/mozilla/BrowserQuest
 - Language(s): Javascript
-- License: MPL-2.0
+- Code license: MPL-2.0
 
 ## Building
 

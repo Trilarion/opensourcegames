@@ -7,6 +7,6 @@ _2D game programming framework for c/c++ programmers with least possible depende
 - State: beta
 - Code: https://sourceforge.net/p/sge2d/code/HEAD/tree/ (svn)
 - Language(s): C
-- License: MIT
+- Code license: MIT
 
 ## Building

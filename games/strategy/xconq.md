@@ -7,7 +7,7 @@ _General strategy game system._
 - Download: https://sourceware.org/xconq/ftp.html
 - State: mature
 - Code: none found yet
-- License: GPL
+- Code license: GPL
 
 Historic. One of the first such projects.
 

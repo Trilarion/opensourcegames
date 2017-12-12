@@ -6,7 +6,7 @@ _A massive multiplayer online roleplaying game._
 - Keywords: MMO
 - Code: https://github.com/tales/sourceoftales
 - Language(s): Lua
-- License: GPL-3.0
+- Code license: GPL-3.0
 
 Uses the Mana source engine.
 

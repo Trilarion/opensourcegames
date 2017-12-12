@@ -9,7 +9,7 @@ _MegaGlest is an entertaining free (freeware and free software) and open source 
 - Keywords: RTS 
 - Code: https://github.com/MegaGlest/megaglest-source
 - Language(s): C++
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 Fork of [Glest](glest.md)
 

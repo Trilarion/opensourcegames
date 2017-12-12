@@ -8,7 +8,7 @@ _Complete 2D MMORPG platform._
 - Keywords: server, client, web
 - Code: https://github.com/mana https://github.com/mana/manaserv
 - Language(s): C++
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 ## Building
 

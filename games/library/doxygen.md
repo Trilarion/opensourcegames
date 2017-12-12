@@ -9,7 +9,7 @@ _Tool for generating documentation from annotated C++ sources._
 - Keywords: tool, source documentation generator
 - Code: https://github.com/doxygen/doxygen
 - Language(s): C++
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 ## Building
 

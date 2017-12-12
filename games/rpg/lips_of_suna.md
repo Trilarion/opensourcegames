@@ -6,7 +6,7 @@ _Tongue-in-cheek action RPG._
 - State: beta, inactive since 2014
 - Code: https://sourceforge.net/p/lipsofsuna/code/ci/master/tree/
 - Language(s): C
-- License: GPL-3.0
+- Code license: GPL-3.0
 
 ## Building
 

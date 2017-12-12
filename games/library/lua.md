@@ -8,7 +8,7 @@ _Powerful, efficient, lightweight, embeddable scripting language._
 - State: mature
 - Code: see download https://github.com/lua/lua (mirror)
 - Language(s): C
-- License: MIT
+- Code license: MIT
 
 It's a whole programming language but often used within games projects for scripting purposes (like Python).
 

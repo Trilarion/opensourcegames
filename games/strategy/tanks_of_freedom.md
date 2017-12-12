@@ -6,7 +6,7 @@ _Indie Turn Based Strategy in Isometric Pixel Art._
 - Download: see home
 - Code: https://github.com/w84death/Tanks-of-Freedom
 - Language(s): GDScript
-- License: MIT
+- Code license: MIT
 
 Uses the Godot engine.
 

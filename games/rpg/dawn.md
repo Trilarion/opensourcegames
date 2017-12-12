@@ -7,6 +7,6 @@ _2D RPG set in a fantasy world._
 - Keywords: SP
 - Code: https://github.com/iamCode/Dawn
 - Language(s): C++
-- License: GPL-3.0
+- Code license: GPL-3.0
 
 ## Building

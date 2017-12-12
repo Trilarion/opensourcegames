@@ -9,7 +9,7 @@ _Scene-oriented, flexible 3D engine written in C++._
 - Keywords: 3D rendering engine
 - Code: https://bitbucket.org/sinbad/ogre/src (hg) https://github.com/OGRECave/ogre (mirror)
 - Language(s): C++
-- License: MIT
+- Code license: MIT
 
 ## Building
 

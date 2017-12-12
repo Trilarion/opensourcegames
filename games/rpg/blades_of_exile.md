@@ -8,7 +8,7 @@ _Eole-playing video games created by Jeff Vogel of Spiderweb Software._
 - Keywords: SP, MP, RTS, TBS
 - Code: https://github.com/calref/cboe
 - Language(s): C++
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 Started as a commercial project.
 

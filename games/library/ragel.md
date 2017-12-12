@@ -8,7 +8,7 @@ _Compiles executable finite state machines from regular languages._
 - State: mature
 - Code: git://git.colm.net/ragel.git
 - Language(s): C++
-- License: MIT
+- Code license: MIT
 
 Required by [HarfBuzz](harfbuzz.md).
 

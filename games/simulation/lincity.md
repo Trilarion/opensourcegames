@@ -8,7 +8,7 @@ _Lincity is a city simulation game,_
 - State: mature, inactice since 2005
 - Code: http://lincity.cvs.sourceforge.net/ (cvs)
 - Language(s): C
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 ## Building
 

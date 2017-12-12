@@ -8,7 +8,7 @@ _Micropolis is the open source version of SimCity Classic from Maxis._
 - State: mature
 - Code: https://github.com/simhacker/micropolis
 - Language(s): C++, Java, Python
-- License: GPL-3.0
+- Code license: GPL-3.0
 
 ## Building
 

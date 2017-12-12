@@ -7,7 +7,7 @@ _Maratis is a simple cross-platform 3d engine and visual game development tool._
 - State: experimental (4.x)
 - Code: https://github.com/anael-seghezzi/Maratis-4 https://code.google.com/archive/p/maratis/source
 - Language(s): C++
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 ## Building
 

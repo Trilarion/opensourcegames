@@ -7,7 +7,7 @@ _Create cross-platform games easier and free._
 - State: mature
 - Code: https://github.com/HaxeFlixel
 - Language(s): Haxe
-- License: MIT
+- Code license: MIT
 
 ## Building
 

@@ -8,7 +8,7 @@ _Implements a large subset of the POSIX standard threads related API._
 - State: mature
 - Code: cvs (see home) https://github.com/GerHobbelt/pthread-win32
 - Language(s): C
-- License: LGPL-2.1
+- Code license: LGPL-2.1
 
 ## Building
 

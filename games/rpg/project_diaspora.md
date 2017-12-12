@@ -7,7 +7,7 @@ _Space style MMO RPG 2D with upgradeable ships and expandable environment._
 - State: beta, inactive since 2011
 - Code: see download
 - Language(s): C
-- License: zlib
+- Code license: zlib
 
 ## Building
 

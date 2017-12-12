@@ -6,6 +6,6 @@ _A computer mystery/romance set five minutes into the future of 1988._
 - Download: see home
 - Keywords: visual novel
 - Language(s): Ren'py
-- License: CC-BY-SA
+- Artwork license: CC-BY-SA
 
 ## Building

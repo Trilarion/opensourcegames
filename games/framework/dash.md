@@ -5,7 +5,7 @@ _OpenGL engine written in the D language._
 - Home: https://dash.circularstudios.com/
 - Code: https://github.com/Circular-Studios/Dash
 - Language(s): D
-- License: MIT
+- Code license: MIT
 
 ## Building
 

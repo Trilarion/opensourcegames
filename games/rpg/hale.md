@@ -8,7 +8,7 @@ _A turn based RPG with deep tactical combat and character customization._
 - Keywords: TB
 - Code: https://sourceforge.net/p/hale/code/HEAD/tree/ (svn)
 - Language(s): Java
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 ## Building
 

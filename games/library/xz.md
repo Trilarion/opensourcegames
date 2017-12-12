@@ -8,7 +8,7 @@ _General-purpose data compression software with a high compression ratio._
 - State: mature
 - Code: https://git.tukaani.org/?p=xz.git
 - Language(s): C
-- License: Different, see file Copying, liblzma is public domain
+- Code license: Different, see file Copying, liblzma is public domain
 
 Python support [lzma](https://docs.python.org/3/library/lzma.html)
 

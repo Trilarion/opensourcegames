@@ -8,7 +8,7 @@ _OpenType text shaping engine._
 - State: mature
 - Code: https://github.com/harfbuzz/harfbuzz
 - Language(s): C++
-- License: MIT
+- Code license: MIT
 
 ## Building
 

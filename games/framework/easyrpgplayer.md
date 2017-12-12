@@ -6,7 +6,7 @@ _EasyRPG Player is a program that allows to play games created with RPG Maker 20
 - Download: https://easyrpg.org/player/downloads/
 - Code: https://github.com/EasyRPG/Player
 - Language(s): C++
-- License: GPL-3.0
+- Code license: GPL-3.0
 
 ## Building
 

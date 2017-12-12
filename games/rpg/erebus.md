@@ -7,7 +7,7 @@ _RPG (Role-Playing Game), for PCs, smartphones, tablets and handhelds._
 - State: beta
 - Code: https://sourceforge.net/p/erebusrpg/code/ci/master/tree/
 - Language(s): C++
-- License: GPL-3.0
+- Code license: GPL-3.0
 
 Uses Qt
 

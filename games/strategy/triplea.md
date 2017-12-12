@@ -8,6 +8,6 @@ _Grand Strategy Game_
 - State: mature
 - Code: https://github.com/triplea-game/triplea
 - Language(s): Java
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 ## Building

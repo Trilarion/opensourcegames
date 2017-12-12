@@ -8,7 +8,7 @@ _Rapid development solution with a tiny footprint._
 - Keywords: editor
 - Code: https://github.com/VilleKrumlinde/zgameeditor
 - Language(s): Pascal
-- License: MIT
+- Code license: MIT
 
 ## Building
 

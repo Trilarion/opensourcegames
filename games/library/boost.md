@@ -8,7 +8,8 @@ _Boost provides free peer-reviewed portable C++ source libraries._
 - State: mature
 - Code: https://github.com/boostorg/boost
 - Language(s): C++
-- License: [BSL-1.0](https://github.com/boostorg/boost/blob/master/LICENSE_1_0.txt)
+- Code license: Special
+- Code license details: [Boost Software License 1.0](https://github.com/boostorg/boost/blob/master/LICENSE_1_0.txt)
 
 ## Building
 

@@ -8,7 +8,7 @@ _The LZMA SDK provides the documentation, samples, header files, libraries, and 
 - State: mature
 - Code: see download
 - Language(s): C
-- License: LGPL-2.0
+- Code license: LGPL-2.0
 
 Windows only.
 For Linux see [p7zip](https://sourceforge.net/projects/p7zip/), a command line tool (see also [here](https://www.linux.com/learn/handling-rar-and-7-zip-archives-linux)).

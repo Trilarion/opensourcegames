@@ -9,7 +9,7 @@ _A classic MMO._
 - Keywords: MMO
 - Code: https://github.com/Meridian59/Meridian59
 - Language(s): C++, C
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 See also [Server 105](https://www.meridiannext.com/).
 

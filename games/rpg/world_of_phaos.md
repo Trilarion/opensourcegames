@@ -7,6 +7,6 @@ _Online Roleplaying Game browser based, which takes place in the high fantasy wo
 - State: inactive since 2011
 - Code: see download
 - Language(s): PHP
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 ## Building

@@ -6,7 +6,7 @@ _Short Visual Novel_
 - Download: see home
 - Keywords: visual novel
 - Language(s): Ren'py
-- License: Freeware
+- Code license: Freeware
 
 ## Building
 

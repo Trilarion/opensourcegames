@@ -9,7 +9,7 @@ _A remake of the computer game Ultima IV._
 - Keywords: SP
 - Code: https://sourceforge.net/p/xu4/code/HEAD/tree/
 - Language(s): C++
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 Ultima 4 is now [freely available](https://www.gog.com/game/ultima_4).
 

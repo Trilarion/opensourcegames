@@ -8,7 +8,7 @@ _Software framework and platform for the creation of multi-platform applications
 - State: mature
 - Code: https://github.com/openfl
 - Language(s): Haxe
-- License: MIT
+- Code license: MIT
 
 ## Building
 

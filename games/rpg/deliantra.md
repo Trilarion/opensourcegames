@@ -8,6 +8,6 @@ _A cooperative multiplayer RPG and adventure game set in a classical medieval en
 - Keywords: MMO
 - Code: http://cvs.schmorp.de/deliantra/ (cvs)
 - Language(s): C
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 ## Building

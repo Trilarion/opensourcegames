@@ -8,7 +8,7 @@ _A simulation of a true AI_
 - Keywords: SP
 - Code: https://github.com/singularity/singularity
 - Language(s): Python
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 ## Building
 

@@ -9,7 +9,7 @@ _OpenXcom is an open-source clone of the original UFO: Enemy Unknown (X-Com: UFO
 - Keywords: TBS 
 - Code: https://github.com/SupSuper/OpenXcom/
 - Language(s): C++
-- License: GPL-3.0
+- Code license: GPL-3.0
 
 OpenXcom requires a vanilla version of the original UFO: Enemy Unknown / X-COM: UFO Defense (any edition) with the latest patch.
 

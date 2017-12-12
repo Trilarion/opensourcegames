@@ -8,7 +8,7 @@ _Java software library for video game developers._
 - State: mature
 - Code: https://github.com/LWJGL/lwjgl3
 - Language(s): Kotlin, C
-- License: BSD-3
+- Code license: BSD-3
 
 ## Building
 

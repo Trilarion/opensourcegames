@@ -7,7 +7,7 @@ _Included in Blender is a complete game engine, allowing you to create a fully f
 - State: mature
 - Code: https://developer.blender.org/diffusion/
 - Language(s): C++
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 Part of Blender.
 

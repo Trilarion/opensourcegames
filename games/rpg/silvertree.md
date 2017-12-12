@@ -8,7 +8,7 @@ _3D RPG with a hybrid real time, turn based system._
 - Keywords: SP
 - Code: https://code.google.com/archive/p/silvertree/source/default/source
 - Language(s): C++
-- License: GPL-3.0
+- Code license: GPL-3.0
 
 ## Building
 

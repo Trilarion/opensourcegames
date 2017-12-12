@@ -8,7 +8,8 @@ _Pioneer is a space adventure game set in our galaxy at the turn of the 31st cen
 - State: mature
 - Code: https://github.com/pioneerspacesim/pioneer
 - Language(s): C++, C
-- License: GPL and others
+- Code license: Mixed
+- Code license details: Apache-2.0, GPL-3.0
 
 See also the [sourceforge project](https://sourceforge.net/projects/pioneerspacesim/).
 

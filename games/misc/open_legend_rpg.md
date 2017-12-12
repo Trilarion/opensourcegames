@@ -7,7 +7,7 @@ _A tabletop roleplaying game (or RPG) in which the players play the part of migh
 - Keywords: RPG system
 - Code: https://github.com/openlegend/core-rules
 - Language(s): Text
-- License: Special
-- Special license: [Open Legend Community License](https://github.com/openlegend/core-rules/blob/master/LICENSE.md)
+- Code license: Special
+- Code license details: [Open Legend Community License](https://github.com/openlegend/core-rules/blob/master/LICENSE.md)
 
 

@@ -7,7 +7,7 @@ _City simulation game._
 - State: alpha
 - Code: see download
 - Language(s): C++
-- License: GPL
+- Code license: GPL
 
 ## Building
 

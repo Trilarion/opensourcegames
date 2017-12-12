@@ -9,7 +9,7 @@ _Advanced Strategic Command is a free, turn based strategy game._
 - Keywords: TBS
 - Code: http://hg.asc-hq.org/hg/asc (mercurial)
 - Language(s): C++
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 ## Building
 

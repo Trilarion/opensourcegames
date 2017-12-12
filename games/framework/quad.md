@@ -7,7 +7,7 @@ _No description available._
 - State: beta
 - Code: https://bitbucket.org/Darthman/quad/src (hg)
 - Language(s): Delphi
-- License: MIT
+- Code license: MIT
 
 ## Building
 

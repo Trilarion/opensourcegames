@@ -6,7 +6,8 @@ _Turn-based 4X strategy game set in space in the style of classics such as Micro
 - Download: http://loadion.com/en/Birth-of-the-Empires_6681499.html
 - Code: https://github.com/bote-team/bote
 - Language(s): C++
-- License: Private use allowed (original artwork under special license)
+- Code license: Special
+- Code license details: Private use allowed
 
 See also [Android/Java version](https://bitbucket.org/sarkanyi/bote-libgdx/).
 

@@ -9,7 +9,7 @@ _Massively Multiplayer On-line Role-playing Game (MMORPG)._
 - Keywords: MMO
 - Code: https://sourceforge.net/p/daimonin/code/HEAD/tree/ (svn)
 - Language(s): C
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 Server code based on [Crossfire](crossfire.md)
 

@@ -7,6 +7,6 @@ _C++ class library of cryptographic schemes._
 - Download: https://cryptopp.com/#download
 - Code: https://github.com/weidai11/cryptopp
 - Language(s): C++
-- License: Boost-1.0
+- Code license: Boost-1.0
 
 ## Building

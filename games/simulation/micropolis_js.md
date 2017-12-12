@@ -6,6 +6,6 @@ _A port of Micropolis to JS/HTML5._
 - Download: can be played online
 - Code: https://github.com/graememcc/micropolisJS
 - Language(s): C++, Java, Python
-- License: GPL-3.0
+- Code license: GPL-3.0
 
 ## Building

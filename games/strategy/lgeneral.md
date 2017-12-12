@@ -9,7 +9,7 @@ _A turn-based strategy engine heavily inspired by Panzer General._
 - Keywords: TBS, andoird
 - Code: various on github
 - Language(s): C
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 May require original game content.
 

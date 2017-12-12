@@ -8,7 +8,7 @@ _Multiplayer online adventure game with an old school feel._
 - Keywords: MP, server
 - Code: https://sourceforge.net/p/arianne/stendhal/ci/master/tree/
 - Language(s): Java
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 Uses the Arianne engine.
 

@@ -9,7 +9,7 @@ _Arx Libertatis is a cross-platform, open source port of Arx Fatalis, a 2002 fir
 - Keywords: SP
 - Code: https://github.com/arx/ArxLibertatis
 - Language(s): C++
-- License: GPL-3.0
+- Code license: GPL-3.0
 
 ## Building
 

@@ -7,7 +7,7 @@ _Simulation game where you play as a colonist on a new planet with your new husb
 - Keywords: visual novel
 - Code: https://github.com/qirien/personal-space
 - Language(s): Ren'py
-- License: GPL-3.0
+- Code license: GPL-3.0
 
 ## Building
 

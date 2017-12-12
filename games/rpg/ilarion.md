@@ -8,7 +8,7 @@ _Kostenloses Open Source-MMORPG, welches seinen Schwerpunkt auf echtes Rollenspi
 - Keywords: MMO
 - Code: https://github.com/Illarion-eV
 - Language(s): C++, Java, Lua
-- License: GPL-3.0
+- Code license: GPL-3.0
 
 ## Building
 

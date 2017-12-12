@@ -6,6 +6,6 @@ _2D+3D game making for indies._
 - Download: https://sparklinlabs.itch.io/superpowers
 - Code: https://github.com/superpowers
 - Language(s): Typescript
-- License: ISC
+- Code license: ISC
 
 ## Building

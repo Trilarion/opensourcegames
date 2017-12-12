@@ -8,7 +8,7 @@ _Capable of producing high-quality output (glyph images) of most vector and bitm
 - State: mature
 - Code: http://git.savannah.gnu.org/cgit/freetype/
 - Language(s): C
-- License: GPL
+- Code license: GPL
 
 ## Building
 

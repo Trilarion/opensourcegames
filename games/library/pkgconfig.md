@@ -9,6 +9,6 @@ _Tool used when compiling applications and libraries._
 - Keywords: tool
 - Code: git://anongit.freedesktop.org/pkg-config
 - Language(s): C
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 ## Building

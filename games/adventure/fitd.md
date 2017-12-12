@@ -7,7 +7,7 @@ _Open source version of the engine used in the Alone in the Dark and sequels._
 - Keywords: engine, reimplementation
 - Code: https://github.com/jmimu/FITD
 - Language(s): C, C++
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 Requires original, proprietary content.
 

@@ -6,6 +6,6 @@ _Multiplatform Game Engine, C# OpenGL Version (custom wrapper) including the Edi
 - Download: http://www.deltaengine.net/download
 - Code: https://github.com/DeltaEngine
 - Language(s): C#
-- License: Apache-2.0
+- Code license: Apache-2.0
 
 ## Building

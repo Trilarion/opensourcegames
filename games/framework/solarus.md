@@ -7,7 +7,7 @@ _Zelda-like 2D game engine._
 - State: mature
 - Code: https://github.com/solarus-games/solarus
 - Language(s): C++
-- License: GPL-3.0
+- Code license: GPL-3.0
 
 ## Building
 

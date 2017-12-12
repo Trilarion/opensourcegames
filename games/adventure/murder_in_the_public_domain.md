@@ -6,7 +6,7 @@ _A murder mystery game or visual novel built from public domain movies, sounds, 
 - Download: https://sourceforge.net/projects/murderpd/files/
 - Keywords: visual novel
 - Code: see downloads
-- License: GPL-3.0
+- Code license: GPL-3.0
 
 ## Building
 

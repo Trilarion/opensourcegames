@@ -8,7 +8,7 @@ _An open source multiplayer online framework._
 - Keywords: multiplayer, 2D
 - Code: git://git.code.sf.net/p/arianne/marauroa
 - Language(s): Java
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 Framework/engine is the Marauroa subproject.
 

@@ -9,7 +9,7 @@ _Allows you to run certain classic graphical point-and-click adventure games, pr
 - Keywords: reimplementation
 - Code: https://github.com/scummvm/scummvm
 - Language(s): C++
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 Requires original data files.
 

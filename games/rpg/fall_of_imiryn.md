@@ -7,7 +7,7 @@ _The first serious game using the Annchienta engine._
 - State: beta, inactive since 2009
 - Code: https://sourceforge.net/p/annchienta/code/HEAD/tree/trunk/Annchienta/ (svn)
 - Language(s): Python
-- License: GPL-3.0
+- Code license: GPL-3.0
 
 ## Building
 

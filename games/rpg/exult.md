@@ -8,7 +8,7 @@ _A cross-platform recreation of the Ultima VII engine._
 - State: mature
 - Code: https://github.com/exult/exult
 - Language(s): C++
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 ## Building
 

@@ -8,7 +8,7 @@ _3D RPG in a satirical post-apocalyptical world._
 - Keywords: SP
 - Code: https://sourceforge.net/p/dnt/code/ci/master/tree/ (git)
 - Language(s): C++
-- License: GPL-3.0
+- Code license: GPL-3.0
 
 ## Building
 

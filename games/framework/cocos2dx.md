@@ -8,7 +8,7 @@ _Cocos2d-x is an open-source game framework written in C++._
 - State: mature
 - Code: https://github.com/cocos2d/cocos2d-x
 - Language(s): C++
-- License: MIT
+- Code license: MIT
 
 ## Building
 

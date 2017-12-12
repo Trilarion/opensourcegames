@@ -8,7 +8,7 @@ _SFML provides a simple interface to the various components of your PC._
 - State: mature
 - Code: https://github.com/SFML/SFML
 - Language(s): C++
-- License: zlib (core)
+- Code license: zlib (core)
 
 ## Building
 

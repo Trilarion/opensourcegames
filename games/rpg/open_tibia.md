@@ -7,7 +7,7 @@ _Remake of Tibia_
 - State: beta, inactive since 2014
 - Code: https://github.com/opentibia
 - Language(s): C++
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 Based on [Tibia](http://tibia.wikia.com/wiki/CipSoft_GmbH).
 

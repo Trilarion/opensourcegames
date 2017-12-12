@@ -7,7 +7,7 @@ _Cooperative multiplayer graphical RPG and adventure game._
 - Keywords: MMO
 - Code: https://sourceforge.net/p/crossfire/code/HEAD/tree/ (svn)
 - Language(s): C, Java
-- License: GPL-2.0
+- Code license: GPL-2.0
 
 See also [Gridarta for Crossfire, the map editor](https://sourceforge.net/projects/gridarta/).
 

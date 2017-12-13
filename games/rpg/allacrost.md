@@ -4,7 +4,7 @@ _Hero of Allacrost is a 2D role-playing game inspired by classic console RPGs._
 
 - Home: http://allacrost.org
 - Download: https://bitbucket.org/allacrost/allacrost/downloads/
-- State: stable
+- State: mature
 - Keywords: SP, 2D
 - Code: https://bitbucket.org/allacrost/allacrost/src (hg)
 - Language(s): C++, Lua

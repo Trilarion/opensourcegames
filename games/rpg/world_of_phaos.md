@@ -4,7 +4,7 @@ _Online Roleplaying Game browser based, which takes place in the high fantasy wo
 
 - Home: http://worldofphaos.com/index.php?site=online_rpg https://sourceforge.net/projects/phaosrpg/
 - Download: https://sourceforge.net/projects/phaosrpg/files/
-- State: inactive since 2011
+- State: mature, inactive since 2011
 - Code: see download
 - Language(s): PHP
 - Code license: GPL-2.0

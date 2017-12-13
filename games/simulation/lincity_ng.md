@@ -4,7 +4,7 @@ _City simulation game._
 
 - Home: https://sourceforge.net/projects/lincity-ng.berlios/
 - Download: https://sourceforge.net/projects/lincity-ng.berlios/files/
-- State: alpha
+- State: beta
 - Code: see download
 - Language(s): C++
 - Code license: GPL

@@ -4,11 +4,8 @@
 
     This script runs with Python 3, it could also with Python 2 with some minor tweaks probably, but that's not important.
 
-    TODO print all games without license or code information
     TODO get number of games with github or bitbucket repository and list those who have neither
-    TODO list those with exotic licenses (not GPL, zlib, MIT, BSD) or without licenses
     TODO Which C, C++ projects do not use CMake
-    TODO list those inactive (sort by year backwards)
     TODO for those games with github repositories get activity, number of open issues, number of merge requests and display in a health monitor file
 """
 
@@ -306,6 +303,22 @@ def parse_entry(content):
 
     info = {}
 
+    # state
+    regex = re.compile(r"- State: (.*)")
+    matches = regex.findall(content)
+    if matches:
+        states = matches[0].split(',')
+        states = [x.strip() for x in states]
+        if 'beta' in states:
+            info['state'] = 'beta'
+        elif 'mature' in states:
+            info['state'] = 'mature'
+        else:
+            print('Neither beta nor mature in state tag: {}'.format(content))
+        inactive = next((int(x[14:]) for x in states if x.startswith('inactive since')), None) # only the year
+        if inactive:
+            info['inactive'] = inactive
+
     # language
     regex = re.compile(r"- Language\(s\): (.*)")
     matches = regex.findall(content)
@@ -345,20 +358,39 @@ def generate_statistics():
                 content = f.read()
 
             info = parse_entry(content)
-            info['file'] = os.path.basename(entry_path)
+            info['file'] = os.path.basename(entry_path)[:-3] # [:-3] to cut off the .md
             infos.append(info)
 
     # total number
     number_entries = len(infos)
+    rel = lambda x: x / number_entries * 100 # converion to percent
     statistics += 'analyzed {} entries on {}\n\n'.format(number_entries, datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
 
+    # State (beta, mature, inactive)
+    statistics += '## State\n\n'
+
+    number_state_beta = sum(1 for x in infos if 'state' in x and x['state'] == 'beta')
+    number_state_mature = sum(1 for x in infos if 'state' in x and x['state'] == 'mature')
+    number_inactive = sum(1 for x in infos if 'inactive' in x)
+    statistics += '- mature: {} ({:.1f}%)\n- beta: {} ({:.1f}%)\n- inactive: {} ({:.1f}%)\n\n'.format(number_state_mature, rel(number_state_mature), number_state_beta, rel(number_state_beta), number_inactive, rel(number_inactive))
+
+    if number_inactive > 0:
+        entries_inactive = [(x['file'], x['inactive']) for x in infos if 'inactive' in x]
+        entries_inactive.sort(key=lambda x: -x[1]) # sort by inactive year (more recently first)
+        entries_inactive = ['{} ({})'.format(*x) for x in entries_inactive]
+        statistics += '##### Inactive State\n\n' + ', '.join(entries_inactive) + '\n\n'
+
+    entries_no_state = [x['file'] for x in infos if 'state' not in x]
+    if entries_no_state:
+        entries_no_state.sort()
+        statistics += '##### Without state tag ({})\n\n'.format(len(entries_no_state)) + ', '.join(entries_no_state) + '\n\n'
 
     # Language
     statistics += '## Languages\n\n'
     number_no_language = sum(1 for x in infos if 'language' not in x)
     if number_no_language > 0:
-        statistics += 'Without language tag: {} ({:.1f}%)\n\n'.format(number_no_language, number_no_language / number_entries * 100)
-        entries_no_language = [x['file'][:-3] for x in infos if 'language' not in x] # [:-3] to cut off the .md
+        statistics += 'Without language tag: {} ({:.1f}%)\n\n'.format(number_no_language, rel(number_no_language))
+        entries_no_language = [x['file'] for x in infos if 'language' not in x]
         entries_no_language.sort()
         statistics += ', '.join(entries_no_language) + '\n\n'
 
@@ -372,14 +404,14 @@ def generate_statistics():
     unique_languages = [(l, languages.count(l) / len(languages)) for l in unique_languages]
     unique_languages.sort(key=lambda x: -x[1])
     unique_languages = ['- {} ({:.1f}%)\n'.format(x[0], x[1]*100) for x in unique_languages]
-    statistics += 'Used languages:\n' + ''.join(unique_languages) + '\n'
+    statistics += '##### Language frequency\n\n' + ''.join(unique_languages) + '\n'
 
     # Licenses
     statistics += '## Code licenses\n\n'
     number_no_license = sum(1 for x in infos if 'license' not in x)
     if number_no_license > 0:
-        statistics += 'Without license tag: {} ({:.1f}%)\n\n'.format(number_no_license, number_no_license / number_entries * 100)
-        entries_no_license = [x['file'][:-3] for x in infos if 'license' not in x] # [:-3] to cut off the .md
+        statistics += 'Without license tag: {} ({:.1f}%)\n\n'.format(number_no_license, rel(number_no_license))
+        entries_no_license = [x['file'] for x in infos if 'license' not in x]
         entries_no_license.sort()
         statistics += ', '.join(entries_no_license) + '\n\n'
 
@@ -393,7 +425,7 @@ def generate_statistics():
     unique_licenses = [(l, licenses.count(l) / len(licenses)) for l in unique_licenses]
     unique_licenses.sort(key=lambda x: -x[1])
     unique_licenses = ['- {} ({:.1f}%)\n'.format(x[0], x[1]*100) for x in unique_licenses]
-    statistics += 'Used licenses:\n' + ''.join(unique_licenses) + '\n'
+    statistics += '##### Licenses frequency\n\n' + ''.join(unique_licenses) + '\n'
 
     with open(statistics_path, 'w') as f:
         f.write(statistics)

@@ -4,7 +4,7 @@ _A Massively Multiplayer Adventure._
 
 - Home: http://browserquest.mozilla.org/
 - Media: https://en.wikipedia.org/wiki/BrowserQuest
-- State: matures
+- State: mature
 - Keywords: MMORPG
 - Code: https://github.com/mozilla/BrowserQuest
 - Language(s): Javascript

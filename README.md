@@ -4,8 +4,8 @@
 198 entries
 - **[Action games](games/action/_toc.md)** (1)
 - **[Adventure games & Visual novels](games/adventure/_toc.md)** (15)
-- **[Game frameworks](games/framework/_toc.md)** (46)
-- **[Popular required libraries](games/library/_toc.md)** (23)
+- **[Game frameworks](games/framework/_toc.md)** (47)
+- **[Popular required libraries](games/library/_toc.md)** (22)
 - **[Role Playing Games](games/rpg/_toc.md)** (61)
 - **[Simulation games](games/simulation/_toc.md)** (10)
 - **[Strategy games](games/strategy/_toc.md)** (41)

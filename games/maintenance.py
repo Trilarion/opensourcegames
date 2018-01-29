@@ -1,12 +1,13 @@
 """
     Counts the number of records each subfolder and updates the overview. Sorts the entries in the contents files of
-    each subfolder alphabetically.
+    each sub folder alphabetically.
 
     This script runs with Python 3, it could also with Python 2 with some minor tweaks probably, but that's not important.
 
     TODO get number of games with github or bitbucket repository and list those who have neither
     TODO Which C, C++ projects do not use CMake
     TODO for those games with github repositories get activity, number of open issues, number of merge requests and display in a health monitor file
+    TODO search for ?? and replace with either nothing or missing information
 """
 
 import os
@@ -72,7 +73,7 @@ def read_interesting_info_from_file(file):
 
 def update_readme():
     """
-    Recounts entries in subcategories and writes them to the readme. Needs to be performed regularly.
+    Recounts entries in sub categories and writes them to the readme. Needs to be performed regularly.
     """
     print('update readme file')
 
@@ -104,7 +105,7 @@ def update_readme():
     # combine titles, category names, numbers in one list
     info = zip(titles, [os.path.basename(path) for path in category_paths], n)
 
-    # sort according to title
+    # sort according to sub category title (should be unique)
     info = sorted(info, key=lambda x:x[0])
 
     # assemble output
@@ -145,7 +146,7 @@ def update_category_tocs():
         # combine name and file name
         info = zip(titles, [os.path.basename(path) for path in entry_paths], more)
 
-        # sort according to title
+        # sort according to entry title (should be unique)
         info = sorted(info, key=lambda x:x[0])
 
         # assemble output
@@ -277,7 +278,7 @@ def check_template_leftovers():
     """
     Checks for template leftovers.
     """
-    check_strings = ['# {NAME}', '_{One line description}_', '- Home: {URL}', '- Media: {URL}', '- Download: {URL}', '- State: beta, mature (inactive since)', '- Keywords: SP, MP, RTS, TBS (if none, remove the line)', '- Code: primary repository (type if not git), other repositories (type if not git)', '- Language(s): {XX}', '- License: {XX} (if special, include link)', '{XXX}']
+    check_strings = ['# {NAME}', '_{One line description}_', '- Home: {URL}', '- Media: {URL}', '- Download: {URL}', '- State: beta, mature, inactive since', '- Keywords: SP, MP, RTS, TBS (if none, remove the line)', '- Code: primary repository (type if not git), other repositories (type if not git)', '- Language(s): {XX}', '- License: {XX} (if special, include link)', '{XXX}']
 
     # get category paths
     category_paths = get_category_paths()
@@ -376,7 +377,8 @@ def generate_statistics():
 
     if number_inactive > 0:
         entries_inactive = [(x['file'], x['inactive']) for x in infos if 'inactive' in x]
-        entries_inactive.sort(key=lambda x: -x[1]) # sort by inactive year (more recently first)
+        entries_inactive.sort(key=lambda x: x[0])  # first sort by name
+        entries_inactive.sort(key=lambda x: -x[1]) # then sort by inactive year (more recently first)
         entries_inactive = ['{} ({})'.format(*x) for x in entries_inactive]
         statistics += '##### Inactive State\n\n' + ', '.join(entries_inactive) + '\n\n'
 
@@ -402,7 +404,8 @@ def generate_statistics():
 
     unique_languages = set(languages)
     unique_languages = [(l, languages.count(l) / len(languages)) for l in unique_languages]
-    unique_languages.sort(key=lambda x: -x[1])
+    unique_languages.sort(key=lambda x: x[0]) # first sort by name
+    unique_languages.sort(key=lambda x: -x[1]) # then sort by occurrence (highest occurrence first)
     unique_languages = ['- {} ({:.1f}%)\n'.format(x[0], x[1]*100) for x in unique_languages]
     statistics += '##### Language frequency\n\n' + ''.join(unique_languages) + '\n'
 
@@ -423,7 +426,8 @@ def generate_statistics():
 
     unique_licenses = set(licenses)
     unique_licenses = [(l, licenses.count(l) / len(licenses)) for l in unique_licenses]
-    unique_licenses.sort(key=lambda x: -x[1])
+    unique_licenses.sort(key=lambda x: x[0]) # first sort by name
+    unique_licenses.sort(key=lambda x: -x[1]) # then sort by occurrence (highest occurrence first)
     unique_licenses = ['- {} ({:.1f}%)\n'.format(x[0], x[1]*100) for x in unique_licenses]
     statistics += '##### Licenses frequency\n\n' + ''.join(unique_licenses) + '\n'
 

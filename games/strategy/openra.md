@@ -9,7 +9,7 @@ _Recreates and modernizes the classic Command & Conquer real time strategy games
 - Keywords: RTS
 - Code: https://github.com/OpenRA/OpenRA
 - Language(s): C#
-- Code license: GPl-3.0
+- Code license: GPL-3.0
 
 ## Building
 

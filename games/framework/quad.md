@@ -6,7 +6,7 @@ _No description available._
 - Download: http://quad-engine.com/downloads.html
 - State: beta
 - Code: https://bitbucket.org/Darthman/quad/src (hg)
-- Language(s): Delphi
+- Language(s): Delphi Pascal
 - Code license: MIT
 
 ## Building

@@ -9,5 +9,7 @@ _Little turn-based strategy game based on Pendulous shareware rules._
 - Language(s): Java
 - License: GPL
 
+See also [Pendulous](http://www.blackfalcongames.net/?p=225).
+
 ## Building
 

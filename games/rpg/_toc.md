@@ -25,6 +25,7 @@
 - **[Fall of Imyrin](fall_of_imiryn.md)** (Python, beta, inactive since 2009)
 - **[Freedink](freedink.md)** (C++)
 - **[FreedroidRPG](freedroid.md)** (C, mature)
+- **[GalaxyMage Redux](galaxymage_redux.md)** (Python, GPL-2.0, beta, inactive since 2011)
 - **[Gee Whiz](geewhiz.md)** (C, GPL-2.0, beta, inactive since 2004)
 - **[Goblin Hack](goblin_hack.md)** (C++, beta, inactive since 2009)
 - **[Hale](hale.md)** (Java, beta, inactive since 2014)

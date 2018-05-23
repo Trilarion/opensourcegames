@@ -11,5 +11,7 @@ _Real time MP strategy game where players compete to build the most powerful rai
 
 See also [FreeRails II](http://freerails2.sourceforge.net/)
 
+See also [continuation  in 2018](https://github.com/Trilarion/freerails)
+
 ## Building
 

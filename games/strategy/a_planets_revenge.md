@@ -10,3 +10,4 @@ _A text-based, turn-based strategy game set in space. It is similar to a 4X game
 
 ## Building
 
+Requires curses which is difficult to install on Windows (https://www.lfd.uci.edu/~gohlke/pythonlibs/#curses).

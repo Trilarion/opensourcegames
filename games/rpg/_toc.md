@@ -49,6 +49,7 @@
 - **[Radakan](radakan.md)** (Python, beta, inactive since 2010)
 - **[Roguish](roguish.md)** (Javascript, beta, inactive since 2015)
 - **[Room for Change](room_for_change.md)** (Java)
+- **[RuneSword II](runesword_ii.md)** (Visual Basic, mature, inactive since 2011)
 - **[Silvertree](silvertree.md)** (C++, beta, inactive since 2007)
 - **[Source of Tales](source_of_tales.md)** (Lua)
 - **[Space Station 13](space_station_13.md)** (mature)

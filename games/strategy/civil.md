@@ -8,5 +8,6 @@ _A cross-platform, turn-based, networked strategy game._
 - Code: http://civil.cvs.sourceforge.net/ (cvs)
 - Language(s): Python
 - Code license: GPL-2.0
+- Follow-up: https://github.com/Trilarion/civil
 
 ## Building

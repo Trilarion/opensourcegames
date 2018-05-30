@@ -1,4 +1,4 @@
-# free heroes2 engine
+# Free heroes2 engine
 
 _Free implementation of Heroes of the Might and Magic II engine._
 

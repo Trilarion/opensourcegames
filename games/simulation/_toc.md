@@ -6,6 +6,7 @@
 - **[LinCity](lincity.md)** (C, mature, inactice since 2005)
 - **[LinCity-NG](lincity_ng.md)** (C++, beta)
 - **[Micropolis](micropolis.md)** (C++, Java, Python, mature)
+- **[Open Rails](open_rails.md)** (C#, GPL-3.0, mature)
 - **[Open Transport Tycoon](open_transport_tycoon.md)** (C++, mature)
 - **[OpenCity](open_city.md)** (C++, beta)
 - **[Our Personal Space](our_personal_space.md)** (Ren'py)

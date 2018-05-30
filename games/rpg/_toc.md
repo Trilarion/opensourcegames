@@ -53,6 +53,7 @@
 - **[Silvertree](silvertree.md)** (C++, beta, inactive since 2007)
 - **[Source of Tales](source_of_tales.md)** (Lua)
 - **[Space Station 13](space_station_13.md)** (mature)
+- **[Spice Trade](spice_trade.md)** (Java, LGPL-2.0, mature, inactive since 2005)
 - **[Stendhal](stendhal.md)** (Java, mature)
 - **[Summoning Wars](summoming_wars.md)** (C++, beta, inactive since 2014)
 - **[The Mana World](manaworld.md)** (PHP)

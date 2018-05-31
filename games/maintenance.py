@@ -308,7 +308,9 @@ def parse_entry(content):
     regex = re.compile(r"- State: (.*)")
     matches = regex.findall(content)
     if matches:
-        states = matches[0].split(',')
+        # first remove everything in parenthesis
+        states = re.sub(r'\([^)]*\)', '', matches[0])
+        states = states.split(',')
         states = [x.strip() for x in states]
         if 'beta' in states:
             info['state'] = 'beta'
@@ -332,7 +334,9 @@ def parse_entry(content):
     regex = re.compile(r"- Code license: (.*)")
     matches = regex.findall(content)
     if matches:
-        info['license'] = matches[0]
+        # first remove everything in parenthesis
+        license = re.sub(r'\([^)]*\)', '', matches[0])
+        info['license'] = license
 
     return info
 

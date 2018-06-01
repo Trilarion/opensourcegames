@@ -326,7 +326,9 @@ def parse_entry(content):
     regex = re.compile(r"- Language\(s\): (.*)")
     matches = regex.findall(content)
     if matches:
-        languages = matches[0].split(',')
+        # first remove everything in parenthesis
+        languages = re.sub(r'\([^)]*\)', '', matches[0])
+        languages = languages.split(',')
         languages = [x.strip() for x in languages]
         info['language'] = languages
 
@@ -443,7 +445,7 @@ def generate_statistics():
 if __name__ == "__main__":
 
     # paths
-    games_path = os.path.abspath(os.path.dirname(__file__))
+    games_path = os.path.realpath(os.path.join(os.path.dirname(__file__), os.path.pardir, 'games'))
     readme_path = os.path.join(games_path, os.pardir, 'README.md')
 
     # recount and write to readme

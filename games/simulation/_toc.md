@@ -9,6 +9,7 @@
 - **[Open Rails](open_rails.md)** (C#, GPL-3.0, mature)
 - **[Open Transport Tycoon](open_transport_tycoon.md)** (C++, mature)
 - **[OpenCity](open_city.md)** (C++, beta)
+- **[OpenSkyscraper](open_skyscraper.md)** (C++, GPL-2.0, beta)
 - **[Our Personal Space](our_personal_space.md)** (Ren'py)
 - **[Pioneer](pioneer.md)** (C++, C, mature)
 - **[SimuTrans](simutrans.md)** (C++, mature)

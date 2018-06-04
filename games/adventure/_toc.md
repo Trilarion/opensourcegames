@@ -7,6 +7,7 @@
 - **[Colossal Cave Adventure](colossal_cave.md)** (Python, mature)
 - **[Digital: A Love Story](digital.md)** (Ren'py)
 - **[Dragon History](dragon_history.md)** (mature)
+- **[Fanwor](fanwor.md)** (C, GPL-2.0, mature)
 - **[Free in the Dark (engine)](fitd.md)** (C, C++, beta)
 - **[GameLV](gamelv.md)** (C++, beta)
 - **[Murder In The Public Domain](murder_in_the_public_domain.md)** ()

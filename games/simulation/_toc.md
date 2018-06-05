@@ -4,6 +4,7 @@
 - **[3d.city](3d_city.md)** (Javascript)
 - **[Danger from the Deep](danger_from_the_deep.md)** (C++, GPL-2.0, beta, inactive since 2011)
 - **[FreeTrain](freetrain.md)** (C#, LPGL-2.1, beta, inactive since 2009)
+- **[Freeminer](freeminer.md)** (C++, Lua, GPL-3.0, beta)
 - **[LinCity](lincity.md)** (C, mature, inactice since 2005)
 - **[LinCity-NG](lincity_ng.md)** (C++, beta)
 - **[Micropolis](micropolis.md)** (C++, Java, Python, mature)

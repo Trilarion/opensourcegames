@@ -1,16 +1,11 @@
 """
+    Runs a series of maintenance operations on the collection of entry files, updating the table of content files for
+    each category as well as creating a statistics file.
+
     Counts the number of records each subfolder and updates the overview. Sorts the entries in the contents files of
     each sub folder alphabetically.
 
-    This script runs with Python 3, it could also with Python 2 with some minor tweaks probably, but that's not important.
-
-    TODO get number of games with github or bitbucket repository and list those who have neither
-    TODO Which C, C++ projects do not use CMake
-    TODO for those games with github repositories get activity, number of open issues, number of merge requests and display in a health monitor file
-    TODO search for ?? and replace with either nothing or missing information
-	TODO replace () with nothing in the imported info
-	TODO sort Home/Media/Download... in all files according to a canonic order
-	TODO create website with dynamic table
+    This script runs with Python 3, it could also with Python 2 with some minor tweaks probably.
 """
 
 import os

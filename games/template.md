@@ -6,7 +6,7 @@ _{Description}_
 - Media: {URL}
 - State: {XX}
 - Download: {URL}
-- Platforms: {XX}
+- Platform: {XX}
 - Keywords: {XX}
 - Code repository: {URL}
 - Code language: {XX}

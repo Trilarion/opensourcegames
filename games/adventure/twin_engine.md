@@ -3,10 +3,12 @@
 _A Little Big Adventure engine._
 
 - Home: https://github.com/xesf/twin-e
-- Keywords: reimplementation, requires original content
+- State: mature, inactive since 2015
+- Keywords: reimplementation, requires original content (Little Big Adventure 1)
 - Code repository: https://github.com/xesf/twin-e
 - Code language: C
 - Code license: GPL-2.0
+- Code dependencies: SDL
 
 ## Building
 

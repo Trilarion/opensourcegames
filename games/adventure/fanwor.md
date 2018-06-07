@@ -3,11 +3,11 @@
 _Action-adventures in the style of the game "The Legend of Zelda"._
 
 - Home: http://fanwor.tuxfamily.org/
-- Download: see home
+- Download: (see home)
 - State: mature
-- Code: https://git.tuxfamily.org/fanwor/fanwor.git
-- Language(s): C
-- License: GPL-2.0
+- Code repository: https://git.tuxfamily.org/fanwor/fanwor.git
+- Code language: C
+- Code license: GPL-2.0
 - Dependencies: SDL
 
 ## Building

@@ -6,8 +6,8 @@ _Quest-driven Roguelike fantasy dungeon crawler RPG with a powerful story._
 - Download: https://f-droid.org/packages/com.gpl.rpg.AndorsTrail/
 - State: beta
 - Keywords: android
-- Code: https://github.com/Zukero/andors-trail/
-- Language(s): Java
+- Code repository: https://github.com/Zukero/andors-trail/
+- Code language: Java
 - Code license: GPL-2.0
 
 ## Building

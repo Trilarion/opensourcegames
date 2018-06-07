@@ -6,8 +6,8 @@ _Java software library for video game developers._
 - Media: https://en.wikipedia.org/wiki/Lightweight_Java_Game_Library
 - Download: https://www.lwjgl.org/download
 - State: mature
-- Code: https://github.com/LWJGL/lwjgl3
-- Language(s): Kotlin, C
+- Code repository: https://github.com/LWJGL/lwjgl3
+- Code language: Kotlin, C
 - Code license: BSD-3
 
 ## Building

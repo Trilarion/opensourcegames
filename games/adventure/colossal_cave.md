@@ -6,8 +6,8 @@ _Original Colossal Caves adventure game, but in Python 3._
 - Media: https://en.wikipedia.org/wiki/Colossal_Cave_Adventure
 - State: mature
 - Keywords: text
-- Code: https://github.com/brandon-rhodes/python-adventure
-- Language(s): Python
+- Code repository: https://github.com/brandon-rhodes/python-adventure
+- Code language: Python
 - Code license: Apache-2.0
 
 ## Building

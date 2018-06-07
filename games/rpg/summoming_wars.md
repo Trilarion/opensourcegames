@@ -6,8 +6,8 @@ _Role-playing game, featuring both a single-player and a multiplayer mode for ab
 - Download: <https://web.archive.org/web/20160704003202/http://sumwars.org:80/wiki/Download>
 - State: beta, inactive since 2014
 - Keywords: SP, MP
-- Code: https://bitbucket.org/sumwars/sumwars-code/src (hg)
-- Language(s): C++
+- Code repository: https://bitbucket.org/sumwars/sumwars-code/src (hg)
+- Code language: C++
 - Code license: GPL-3.0
 
 ## Building

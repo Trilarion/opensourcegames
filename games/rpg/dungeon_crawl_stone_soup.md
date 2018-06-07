@@ -6,9 +6,9 @@ _Roguelike adventure through dungeons filled with dangerous monsters in a quest 
 - Download: http://crawl.develz.org/download.htm
 - State: mature
 - Keywords: roguelike
-- Code: https://github.com/crawl/crawl
-- Language(s): C++, Lua
-- License: GPL-2.0
+- Code repository: https://github.com/crawl/crawl
+- Code language: C++, Lua
+- Code license: GPL-2.0
 - Dependencies: Lua, SDL
 
 ## Building

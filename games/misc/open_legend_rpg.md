@@ -5,8 +5,8 @@ _A tabletop roleplaying game (or RPG) in which the players play the part of migh
 - Home: http://www.openlegendrpg.com/
 - State: mature
 - Keywords: RPG system
-- Code: https://github.com/openlegend/core-rules
-- Language(s): Text
+- Code repository: https://github.com/openlegend/core-rules
+- Code language: Text
 - Code license: Special
 - Code license details: [Open Legend Community License](https://github.com/openlegend/core-rules/blob/master/LICENSE.md)
 

@@ -7,8 +7,8 @@ _The Ur-Quan Masters (or UQM) project[22] aims to port Star Control II to modern
 - Download: http://sc2.sourceforge.net/downloads.php
 - State: mature, inactive since 2011
 - Keywords: TBS
-- Code: https://sourceforge.net/p/sc2/uqm/ci/master/tree/
-- Language(s): C
+- Code repository: https://sourceforge.net/p/sc2/uqm/ci/master/tree/
+- Code language: C
 - Code license: GPL-2.0
 
 See also [Ur-Quan Masters HD](https://sourceforge.net/projects/urquanmastershd/)

@@ -6,9 +6,9 @@ _Continuation of the classic real-time strategy game Dune II by Westwood Studios
 - Download: https://sourceforge.net/projects/dunedynasty
 - State: mature, inactive since 2014
 - Keywords: requires original content (Dune 2)
-- Code: https://sourceforge.net/p/dunedynasty/dunedynasty/ci/master/tree/
-- Language(s): C
-- License: GPL-2.0
+- Code repository: https://sourceforge.net/p/dunedynasty/dunedynasty/ci/master/tree/
+- Code language: C
+- Code license: GPL-2.0
 
 Based on Open Dune.
 

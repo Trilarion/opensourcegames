@@ -4,7 +4,7 @@ _Open Sourced version of American Civil War game for DOS, originally developed b
 
 - Home: http://civilwar.sourceforge.net/, https://sourceforge.net/projects/civilwar/, https://www.greenius.co.uk/personal/steven/civilwar.html
 - State: beta, inactive since 2001
-- Code: https://sourceforge.net/p/civilwar/code/
+- Code repository: https://sourceforge.net/p/civilwar/code/
 
 Not sure if there is something inside actually.
 

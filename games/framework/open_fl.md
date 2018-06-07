@@ -6,8 +6,8 @@ _Software framework and platform for the creation of multi-platform applications
 - Media: https://en.wikipedia.org/wiki/OpenFL
 - Download: http://www.openfl.org/learn/docs/getting-started/
 - State: mature
-- Code: https://github.com/openfl
-- Language(s): Haxe
+- Code repository: https://github.com/openfl
+- Code language: Haxe
 - Code license: MIT
 
 ## Building

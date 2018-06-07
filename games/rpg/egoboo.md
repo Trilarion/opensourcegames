@@ -6,11 +6,11 @@ _A three-dimensional dungeon crawling adventure that borrows a lot of elements f
 - Media: <https://en.wikipedia.org/wiki/Egoboo_(video_game)>
 - Download: http://egoboo.sourceforge.net/download.html
 - State: mature, inactive since 2015
-- Code: https://sourceforge.net/p/egoboo/svn/HEAD/tree/ (svn) https://github.com/egoboo/egoboo
-- Language(s): C++, C
+- Code repository: https://sourceforge.net/p/egoboo/svn/HEAD/tree/ (svn) https://github.com/egoboo/egoboo
+- Code language: C++, C
 - Code license: GPL-3.0
 
 ## Building
 
-Uses CMake
+- Build system: CMake
 

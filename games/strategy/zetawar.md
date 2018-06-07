@@ -4,8 +4,8 @@ _A web based tactical strategy game similar to Weewar and Elite Command._
 
 - Home: http://www.zetawar.com/
 - State: mature
-- Code: https://github.com/Zetawar/zetawar
-- Language(s): Clojure
+- Code repository: https://github.com/Zetawar/zetawar
+- Code language: Clojure
 - Code license: MIT
 
 Successful [Kickstarter project](https://www.kickstarter.com/projects/djwhitt/zetawar).

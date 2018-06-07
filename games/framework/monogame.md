@@ -6,8 +6,8 @@ _Open Source implementation of the Microsoft XNA 4 Framework._
 - Media: https://en.wikipedia.org/wiki/MonoGame
 - Download: http://www.monogame.net/downloads/
 - State: mature
-- Code: https://github.com/MonoGame/MonoGame
-- Language(s): C#
+- Code repository: https://github.com/MonoGame/MonoGame
+- Code language: C#
 - Code license: Ms-MPL MIT
 
 ## Building

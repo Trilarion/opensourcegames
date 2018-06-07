@@ -6,9 +6,9 @@ _Lead a mercenary team hired to go on Mars and fight with different factions usi
 - Download: https://sourceforge.net/projects/mars/files
 - State: beta, inactive since 2008
 - Keywords: TBS
-- Code: https://sourceforge.net/p/mars/code/HEAD/tree/ (svn)
-- Language(s): C++
-- License: GPL-2.0
+- Code repository: https://sourceforge.net/p/mars/code/HEAD/tree/ (svn)
+- Code language: C++
+- Code license: GPL-2.0
 
 ## Building
 

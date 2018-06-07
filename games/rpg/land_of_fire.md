@@ -3,7 +3,7 @@
 _A currently playable MMORPG project._
 
 - Home: http://landoffire.org/
-- Code: https://github.com/landoffire
+- Code repository: https://github.com/landoffire
 
 Uses the Mana source engine.
 

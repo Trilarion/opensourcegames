@@ -6,10 +6,10 @@ _3D RPG in a satirical post-apocalyptical world._
 - Download: http://dnt.dnteam.org/cgi-bin/downloads.py
 - State: beta, inactive since 2016
 - Keywords: SP
-- Code: https://sourceforge.net/p/dnt/code/ci/master/tree/ (git)
-- Language(s): C++
+- Code repository: https://sourceforge.net/p/dnt/code/ci/master/tree/ (git)
+- Code language: C++
 - Code license: GPL-3.0
 
 ## Building
 
-Uses CMake
+- Build system: CMake

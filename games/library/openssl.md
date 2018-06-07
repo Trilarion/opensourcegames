@@ -6,8 +6,8 @@ _Toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) p
 - Media: https://en.wikipedia.org/wiki/OpenSSL
 - Download: https://www.openssl.org/source/
 - State: mature
-- Code: https://www.openssl.org/source/gitrepo.html https://github.com/openssl/openssl (mirror)
-- Language(s): C
+- Code repository: https://www.openssl.org/source/gitrepo.html https://github.com/openssl/openssl (mirror)
+- Code language: C
 - Code license: Special
 - Code license details: [Dual licensed under special licenses](https://github.com/openssl/openssl/blob/master/LICENSE)
 

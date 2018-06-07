@@ -6,9 +6,9 @@ _Turn-based monster fighting RPG._
 - Download: https://www.tuxemon.org/download.html
 - State: mature
 - Keywords: TB
-- Code: https://github.com/Tuxemon/Tuxemon
-- Language(s): Python
-- License: GPL-3.0
+- Code repository: https://github.com/Tuxemon/Tuxemon
+- Code language: Python
+- Code license: GPL-3.0
 
 ## Building
 

@@ -6,8 +6,8 @@ _Pathfinder Character Creation._
 - Download: https://sourceforge.net/projects/scoreforge/files/
 - State: mature
 - Keywords: tool
-- Code: (see download)
-- Language(s): Excel
+- Code repository: (see download)
+- Code language: Excel
 
 ## Building
 

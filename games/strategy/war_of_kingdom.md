@@ -3,8 +3,8 @@
 _Turn-based tactical strategy game._
 
 - State: beta
-- Code: https://github.com/freeors/War-Of-Kingdom
-- Language(s): C, C++
+- Code repository: https://github.com/freeors/War-Of-Kingdom
+- Code language: C, C++
 
 ## Building
 

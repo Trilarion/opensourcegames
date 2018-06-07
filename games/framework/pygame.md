@@ -6,8 +6,8 @@ _Library for making multimedia applications like games built on top of the excel
 - Media: https://en.wikipedia.org/wiki/Pygame
 - Download: http://www.pygame.org/download.shtml
 - State: mature
-- Code: https://bitbucket.org/pygame/pygame/src (hg) https://github.com/pygame/pygame (mirror)
-- Language(s): C, Python
+- Code repository: https://bitbucket.org/pygame/pygame/src (hg) https://github.com/pygame/pygame (mirror)
+- Code language: C, Python
 - Code license: LGPL-2.1
 
 ## Building

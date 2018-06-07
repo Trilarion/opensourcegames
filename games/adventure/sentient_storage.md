@@ -1,11 +1,12 @@
-# Sentiant Storage
+# Sentient Storage
 
 _Point & Click adventure!_
 
 - Home: https://pyweek.org/e/np8g/
-- Download: see home
-- Code: see download
-- Language(s): Python
+- Download: (see home)
+- State: mature
+- Code repository: (see download)
+- Code language: Python
 - Code license: Public Domain
 
 ## Building

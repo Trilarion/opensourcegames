@@ -6,9 +6,9 @@ _Remake of "The Settlers III" for Windows, Linux, Mac and Android._
 - Download: https://github.com/jsettlers/settlers-remake/releases
 - State: beta
 - Keywords: remake, requires original game content
-- Code: https://github.com/jsettlers/settlers-remake
-- Language(s): Java
-- License: MIT
+- Code repository: https://github.com/jsettlers/settlers-remake
+- Code language: Java
+- Code license: MIT
 
 ## Building
 

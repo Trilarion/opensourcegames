@@ -7,12 +7,12 @@ _A remake of the computer game Ultima IV._
 - Download: http://xu4.sourceforge.net/download.php
 - State: mature
 - Keywords: SP
-- Code: https://sourceforge.net/p/xu4/code/HEAD/tree/
-- Language(s): C++
+- Code repository: https://sourceforge.net/p/xu4/code/HEAD/tree/
+- Code language: C++
 - Code license: GPL-2.0
 
 Ultima 4 is now [freely available](https://www.gog.com/game/ultima_4).
 
 ## Building
 
-Uses CMake
+- Build system: CMake

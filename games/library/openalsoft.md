@@ -4,11 +4,11 @@ _Software implementation of the OpenAL 3D audio API._
 
 - Home: http://kcat.strangesoft.net/openal.html
 - Media: https://en.wikipedia.org/wiki/OpenAL#Implementations
-- Code: http://repo.or.cz/openal-soft.git
-- Language(s): C
+- Code repository: http://repo.or.cz/openal-soft.git
+- Code language: C
 - Code license: LGPL-2.0
 
 ## Building
 
-Uses CMake
+- Build system: CMake
 

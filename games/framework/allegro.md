@@ -6,11 +6,11 @@ _Cross-platform library mainly aimed at video game and multimedia programming._
 - Media: https://en.wikipedia.org/wiki/Allegro_(software)
 - Download: http://liballeg.org/download.html
 - State: mature
-- Code: https://github.com/liballeg/allegro5
-- Language(s): C
+- Code repository: https://github.com/liballeg/allegro5
+- Code language: C
 - Code license: zlib
 
 ## Building
 
-Uses CMake
+- Build system: CMake
 

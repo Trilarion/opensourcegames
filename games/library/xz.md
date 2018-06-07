@@ -4,10 +4,10 @@ _General-purpose data compression software with a high compression ratio._
 
 - Home: https://tukaani.org/xz/
 - Media: https://en.wikipedia.org/wiki/XZ_Utils
-- Download: see home
+- Download: (see home)
 - State: mature
-- Code: https://git.tukaani.org/?p=xz.git
-- Language(s): C
+- Code repository: https://git.tukaani.org/?p=xz.git
+- Code language: C
 - Code license: Different, see file Copying, liblzma is public domain
 
 Python support [lzma](https://docs.python.org/3/library/lzma.html)

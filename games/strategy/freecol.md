@@ -7,8 +7,8 @@ _FreeCol is a turn-based strategy game based on the old game Colonization, and s
 - Download: http://www.freecol.org/download.html
 - State: mature
 - Keywords: network, TBS
-- Code: https://sourceforge.net/p/freecol/git/ci/master/tree/
-- Language(s): Java
+- Code repository: https://sourceforge.net/p/freecol/git/ci/master/tree/
+- Code language: Java
 - Code license: GPL-2.0
 
 ## Building

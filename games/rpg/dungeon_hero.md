@@ -6,9 +6,9 @@ _Choose between 6 unique heroes, equip yourself with powerful magic items and pr
 - Download: https://play.google.com/store/apps/details?id=com.glevel.dungeonhero
 - State: mature
 - Keywords: android
-- Code: https://github.com/guillaume-gouchon/dungeonhero
-- Language(s): Java
-- License: MIT
+- Code repository: https://github.com/guillaume-gouchon/dungeonhero
+- Code language: Java
+- Code license: MIT
 
 ## Building
 

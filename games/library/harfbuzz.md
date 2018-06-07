@@ -4,13 +4,13 @@ _OpenType text shaping engine._
 
 - Home: https://www.freedesktop.org/wiki/Software/HarfBuzz/
 - Media: https://en.wikipedia.org/wiki/HarfBuzz
-- Download: see home
+- Download: (see home)
 - State: mature
-- Code: https://github.com/harfbuzz/harfbuzz
-- Language(s): C++
+- Code repository: https://github.com/harfbuzz/harfbuzz
+- Code language: C++
 - Code license: MIT
 
 ## Building
 
-Uses CMake
+- Build system: CMake
 

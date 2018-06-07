@@ -6,10 +6,10 @@ _Complete 2D MMORPG platform._
 - Download: http://www.manasource.org/downloads.html
 - State: beta
 - Keywords: server, client, web
-- Code: https://github.com/mana https://github.com/mana/manaserv
-- Language(s): C++
+- Code repository: https://github.com/mana https://github.com/mana/manaserv
+- Code language: C++
 - Code license: GPL-2.0
 
 ## Building
 
-Uses CMake
+- Build system: CMake

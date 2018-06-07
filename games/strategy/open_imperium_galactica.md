@@ -6,8 +6,8 @@ _Reimplementation of Imperium Galactica._
 - Download: https://github.com/akarnokd/open-ig/releases
 - State: beta
 - Keywords: TBS
-- Code: https://github.com/akarnokd/open-ig
-- Language(s): Java
+- Code repository: https://github.com/akarnokd/open-ig
+- Code language: Java
 - Code license: GPL-3.0
 
 ## Building

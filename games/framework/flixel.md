@@ -5,8 +5,8 @@ _Game-making library written in ActionScript 3._
 - Home: http://flixel.org/
 - Download: http://flixel.org/download.html
 - State: mature
-- Code: https://github.com/AdamAtomic/flixel
-- Language(s): ActionScript
+- Code repository: https://github.com/AdamAtomic/flixel
+- Code language: ActionScript
 - Code license: MIT
 
 ## Building

@@ -6,9 +6,9 @@ _Map your dungeons for your next role playing adventure._
 - Download: https://sourceforge.net/projects/dungeonmap/files
 - State: beta, inactive since 2013
 - Keywords: tool
-- Code: https://sourceforge.net/p/dungeonmap/code/HEAD/tree/
-- Language(s): C++
-- License: GPL-3.0
+- Code repository: https://sourceforge.net/p/dungeonmap/code/HEAD/tree/
+- Code language: C++
+- Code license: GPL-3.0
 
 ## Building
 

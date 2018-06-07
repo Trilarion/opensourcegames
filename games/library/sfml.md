@@ -6,13 +6,13 @@ _SFML provides a simple interface to the various components of your PC._
 - Media: https://en.wikipedia.org/wiki/Simple_and_Fast_Multimedia_Library
 - Download: https://www.sfml-dev.org/download.php
 - State: mature
-- Code: https://github.com/SFML/SFML
-- Language(s): C++
+- Code repository: https://github.com/SFML/SFML
+- Code language: C++
 - Code license: zlib (core)
 
 ## Building
 
-Uses CMake
+- Build system: CMake
 
 Does not contain tests.
 

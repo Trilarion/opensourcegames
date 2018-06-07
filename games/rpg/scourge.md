@@ -6,9 +6,9 @@ _Roguelike game with a 3D user interface._
 - Download: https://sourceforge.net/projects/scourge/files
 - State: beta, inactive since 2008
 - Keywords: roguelike
-- Code: https://sourceforge.net/p/scourge/code/HEAD/tree/
-- Language(s): C++
-- License: GPL-2.0
+- Code repository: https://sourceforge.net/p/scourge/code/HEAD/tree/
+- Code language: C++
+- Code license: GPL-2.0
 - Dependencies: SDL
 
 ## Building

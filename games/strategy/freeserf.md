@@ -6,10 +6,10 @@ _Clone of the brilliant simulation game The Settlers 1 aka Serf City._
 - Download: https://github.com/freeserf/freeserf/releases
 - State: beta
 - Keywords: remake, requires original game content (Settlers 1)
-- Code: https://github.com/freeserf/freeserf
-- Language(s): C++
-- License: GPL-3.0
+- Code repository: https://github.com/freeserf/freeserf
+- Code language: C++
+- Code license: GPL-3.0
 
 ## Building
 
-Uses CMake
+- Build system: CMake

@@ -3,9 +3,9 @@
 _Short Visual Novel_
 
 - Home: http://www.insani.org/mukou.html
-- Download: see home
+- Download: (see home)
 - Keywords: visual novel
-- Language(s): Ren'py
+- Code language: Ren'py
 - Code license: Freeware
 
 ## Building

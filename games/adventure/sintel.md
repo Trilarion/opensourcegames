@@ -4,9 +4,9 @@ _Adventure game based on the open source film 'Sintel'._
 
 - Home: https://github.com/jonburesh/sintelgame
 - State: beta, inactive since 2014
-- Code: https://github.com/jonburesh/sintelgame
-- Language(s): Python
-- License: MIT
+- Code repository: https://github.com/jonburesh/sintelgame
+- Code language: Python
+- Code license: MIT
 
 ## Building
 

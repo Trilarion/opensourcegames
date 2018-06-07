@@ -6,8 +6,8 @@ _Single player RPG game, set in a dark fantasy setting where four unique races s
 - Download: https://sourceforge.net/projects/radakan/files/
 - State: beta, inactive since 2010
 - Keywords: SP
-- Code: https://sourceforge.net/p/radakan/code/HEAD/tree/
-- Language(s): Python
+- Code repository: https://sourceforge.net/p/radakan/code/HEAD/tree/
+- Code language: Python
 - Code license: Special
 
 ## Building

@@ -7,8 +7,8 @@ _The Irrlicht Engine is an open source high performance realtime 3D engine._
 - Download: http://irrlicht.sourceforge.net/?page_id=10
 - State: mature
 - Keywords: 3D
-- Code: https://sourceforge.net/p/irrlicht/code/HEAD/tree/ (svn) https://github.com/zaki/irrlicht (mirror)
-- Language(s): C++, C
+- Code repository: https://sourceforge.net/p/irrlicht/code/HEAD/tree/ (svn) https://github.com/zaki/irrlicht (mirror)
+- Code language: C++, C
 - Code license: zlib
 
 ## Building

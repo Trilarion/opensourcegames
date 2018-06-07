@@ -7,8 +7,8 @@ _Roguelike computer role playing game available for almost any computer and oper
 - Download: https://sourceforge.net/projects/zangband/files/
 - State: mature, inactive since 2005
 - Keywords: roguelike
-- Code: https://sourceforge.net/p/zangband/code/ (cvs)
-- Language(s): C
+- Code repository: https://sourceforge.net/p/zangband/code/ (cvs)
+- Code language: C
 
 Based on Angband.
 

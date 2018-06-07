@@ -7,9 +7,9 @@ _Single player dungeon exploration game that runs on a wide variety of computer 
 - Download: https://www.nethack.org/common/index.html
 - State: mature
 - Keywords: roguelike
-- Code: https://github.com/NetHack/NetHack, https://github.com/Vanilla-NetHack/NetHack
-- Language(s): C
-- License: Custom (Nethack General Public License)
+- Code repository: https://github.com/NetHack/NetHack, https://github.com/Vanilla-NetHack/NetHack
+- Code language: C
+- Code license: Custom (Nethack General Public License)
 
 Also see [NetHack Falcon's Eye](https://sourceforge.net/projects/falconseye/), a graphical modification of NetHack.
 

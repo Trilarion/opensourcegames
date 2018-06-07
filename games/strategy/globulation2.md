@@ -7,8 +7,8 @@ _Real-Time Strategy (RTS) game which reduces micro-management by automatically a
 - Download: https://globulation2.org/wiki/Download_and_Install
 - State: mature
 - Keywords: RTS
-- Code: https://bitbucket.org/giszmo/glob2 (hg)
-- Language(s): C++
+- Code repository: https://bitbucket.org/giszmo/glob2 (hg)
+- Code language: C++
 - Code license: GPL-3.0
 
 ## Building

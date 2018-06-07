@@ -6,9 +6,9 @@ _Browser strategy game._
 - Download: https://sourceforge.net/projects/devana/files
 - State: beta
 - Keywords: web
-- Code: see download
-- Language(s): PHP
-- License: BSD
+- Code repository: (see download)
+- Code language: PHP
+- Code license: BSD
 
 Main web site is unavailable.
 

@@ -7,9 +7,9 @@ _Roguelike molded in the tradition of the early greats of the genre: Rogue, Hack
 - Download: http://www.dungeoncrawl.org/?d
 - State: mature, inactive since 2006
 - Keywords: roguelike
-- Code: see download
-- Language(s): C
-- License: Custom (Crawl General Public License)
+- Code repository: (see download)
+- Code language: C
+- Code license: Custom (Crawl General Public License)
 
 ## Building
 

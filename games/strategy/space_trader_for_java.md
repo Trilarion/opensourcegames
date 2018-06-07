@@ -5,8 +5,8 @@ _Java port of the Palm game Space Trader. This port is based upon the C# port at
 - Home: https://sourceforge.net/projects/spacetraderjava/
 - Download: https://sourceforge.net/projects/spacetraderjava/files
 - State: mature, inactive since 2010
-- Code: https://sourceforge.net/p/spacetraderjava/cvs/ (cvs), https://sourceforge.net/p/spacetraderjava/code/HEAD/tree/
-- Language(s): Java
+- Code repository: https://sourceforge.net/p/spacetraderjava/cvs/ (cvs), https://sourceforge.net/p/spacetraderjava/code/HEAD/tree/
+- Code language: Java
 
 ## Building
 

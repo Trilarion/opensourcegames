@@ -6,8 +6,8 @@ _Powerful, efficient, lightweight, embeddable scripting language._
 - Media: <https://en.wikipedia.org/wiki/Lua_(programming_language)>
 - Download: http://www.lua.org/download.html
 - State: mature
-- Code: see download https://github.com/lua/lua (mirror)
-- Language(s): C
+- Code repository: (see download) https://github.com/lua/lua (mirror)
+- Code language: C
 - Code license: MIT
 
 It's a whole programming language but often used within games projects for scripting purposes (like Python).

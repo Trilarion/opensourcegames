@@ -5,9 +5,9 @@ _Project to recreate Ultima Underworld 1 on modern operating systems (e.g. Win32
 - Home: http://uwadv.sourceforge.net/, https://sourceforge.net/projects/uwadv/
 - Download: http://uwadv.sourceforge.net/index.php?page=download
 - State: beta, inactive since 2006
-- Code: https://sourceforge.net/p/uwadv/code/ (cvs)
-- Language(s): C++, Lua
-- License: GPL-2.0
+- Code repository: https://sourceforge.net/p/uwadv/code/ (cvs)
+- Code language: C++, Lua
+- Code license: GPL-2.0
 
 Requires original game files.
 

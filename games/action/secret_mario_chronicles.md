@@ -7,9 +7,9 @@ _Jump and Run game like Super Mario World with an advanced Editor._
 - Download: https://sourceforge.net/projects/smclone/files
 - State: mature, inactive since 2009
 - Keywords: platform
-- Code: see download
-- Language(s): C++
-- License: GPL-3.0
+- Code repository: (see download)
+- Code language: C++
+- Code license: GPL-3.0
 
 ## Building
 

@@ -6,9 +6,9 @@ _Prototype for an educational role-playing game for intercultural education._
 - Download: https://sourceforge.net/projects/orient-ecircus/files
 - State: mature, inactive since 2009
 - Keywords: educational
-- Code: (see download)
-- Language(s): C#
-- License: GPL-2.0
+- Code repository: (see download)
+- Code language: C#
+- Code license: GPL-2.0
 
 ## Building
 

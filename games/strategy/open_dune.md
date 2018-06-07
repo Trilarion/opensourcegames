@@ -6,9 +6,9 @@ _Re-creation of the popular game "Dune II"._
 - Download: https://github.com/OpenDUNE/OpenDUNE/releases
 - State: mature
 - Keywords: remake, requires original content (Dune 2 game files)
-- Code: https://github.com/OpenDUNE/OpenDUNE
-- Language(s): C
-- License: GPL-2.0
+- Code repository: https://github.com/OpenDUNE/OpenDUNE
+- Code language: C
+- Code license: GPL-2.0
 
 ## Building
 

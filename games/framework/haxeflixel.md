@@ -5,8 +5,8 @@ _Create cross-platform games easier and free._
 - Home: http://haxeflixel.com/
 - Download: http://haxeflixel.com/download/
 - State: mature
-- Code: https://github.com/HaxeFlixel
-- Language(s): Haxe
+- Code repository: https://github.com/HaxeFlixel
+- Code language: Haxe
 - Code license: MIT
 
 ## Building

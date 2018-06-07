@@ -6,9 +6,9 @@ _ava random name generator for role-games, authors, and the like._
 - Download: https://sourceforge.net/projects/janag.berlios/files
 - State: mature, inactive since 2011
 - Keywords: tool
-- Code: (see download)
-- Language(s): Java
-- License: GPL-2.0
+- Code repository: (see download)
+- Code language: Java
+- Code license: GPL-2.0
 
 ## Building
 

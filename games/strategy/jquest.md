@@ -5,8 +5,8 @@ _Java-based clone of the turn-based strategy game Konquest (developed by Russ St
 - Home: https://sourceforge.net/projects/jquest
 - Download: https://sourceforge.net/projects/jquest/files
 - State: beta, inactive since 2006
-- Code: see download
-- Language(s): Java
+- Code repository: (see download)
+- Code language: Java
 
 ## Building
 

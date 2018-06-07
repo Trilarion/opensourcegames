@@ -7,8 +7,8 @@ _ENIGMA is a free development environment geared towards game development._
 - Download: https://enigma-dev.org/download.htm
 - State: mature
 - Keywords: 3D
-- Code: https://github.com/enigma-dev/enigma-dev
-- Language(s): C++, C
+- Code repository: https://github.com/enigma-dev/enigma-dev
+- Code language: C++, C
 - Code license: GPL-3.0
 
 ## Building

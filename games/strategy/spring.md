@@ -7,8 +7,8 @@ _Game engine for real-time strategy (RTS) video games._
 - Download: https://springrts.com/wiki/Download
 - State: mature
 - Keywords: RTS
-- Code: https://github.com/spring/spring
-- Language(s): C++, C, Lua
+- Code repository: https://github.com/spring/spring
+- Code language: C++, C, Lua
 - Code license: GPL-2.0
 
 See also [Spring 1944](http://spring1944.net/) a special scenario of the spring engine, code: https://github.com/spring1944/spring1944
@@ -17,4 +17,4 @@ Or [ZeroK](http://zero-k.info/) another game using SpringRTS.
 
 ## Building
 
-Uses CMake
+- Build system: CMake

@@ -4,9 +4,9 @@ _"4X" (eXplore, eXpand, eXploit, eXterminate) turn-based, empire-building strate
 
 - Home: https://archive.codeplex.com/?p=supremacy
 - State: beta, inactive
-- Code: see download archive
-- Language(s): C#
-- License: Ms-RL
+- Code repository: (see download) archive
+- Code language: C#
+- Code license: Ms-RL
 
 Ms-RL = Microsoft Reciprocal License
 

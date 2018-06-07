@@ -7,11 +7,11 @@ _Tool for generating documentation from annotated C++ sources._
 - Download: http://www.stack.nl/~dimitri/doxygen/download.html
 - State: mature
 - Keywords: tool, source documentation generator
-- Code: https://github.com/doxygen/doxygen
-- Language(s): C++
+- Code repository: https://github.com/doxygen/doxygen
+- Code language: C++
 - Code license: GPL-2.0
 
 ## Building
 
-Uses CMake
+- Build system: CMake
 

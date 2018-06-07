@@ -7,9 +7,9 @@ _Roguelike, single-player role-playing game where the hero must venture through 
 - Download: https://sourceforge.net/projects/unnethack/files/unnethack/
 - State: mature
 - Keywords: roguelike
-- Code: https://sourceforge.net/p/unnethack/code/HEAD/tree/ (svn), https://sourceforge.net/p/unnethack/git/ci/master/tree/, https://github.com/unnethack/unnethack
-- Language(s): C
-- License: Custom (NetHack license)
+- Code repository: https://sourceforge.net/p/unnethack/code/HEAD/tree/ (svn), https://sourceforge.net/p/unnethack/git/ci/master/tree/, https://github.com/unnethack/unnethack
+- Code language: C
+- Code license: Custom (NetHack license)
 
 Based on NetHack.
 

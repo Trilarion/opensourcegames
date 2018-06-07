@@ -6,8 +6,8 @@ _RPG Character Generator_
 - Download: http://pcgen.org/download/, https://sourceforge.net/projects/pcgen/files
 - State: mature
 - Keywords: tool
-- Code: https://sourceforge.net/p/pcgen/cvs/, https://sourceforge.net/p/pcgen/code/HEAD/tree/, https://github.com/PCGen/pcgen
-- Language(s): Java
+- Code repository: https://sourceforge.net/p/pcgen/cvs/, https://sourceforge.net/p/pcgen/code/HEAD/tree/, https://github.com/PCGen/pcgen
+- Code language: Java
 
 ## Building
 

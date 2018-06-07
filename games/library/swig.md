@@ -7,8 +7,8 @@ _Software development tool that connects programs written in C and C++ with a va
 - Download: http://www.swig.org/download.html
 - State: mature
 - Keywords: language binding, interface generator
-- Code: https://github.com/swig/swig
-- Language(s): C++
+- Code repository: https://github.com/swig/swig
+- Code language: C++
 - Code license: Special
 - Code license details: [SWIG license](https://raw.githubusercontent.com/swig/swig/master/LICENSE)
 

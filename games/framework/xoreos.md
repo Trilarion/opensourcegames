@@ -4,8 +4,8 @@ _Reimplementation of BioWare’s Aurora engine (and derivatives) as used in thei
 
 - Home: https://xoreos.org/
 - Download: https://xoreos.org/downloads/index.html
-- Code: https://github.com/xoreos/xoreos/
-- Language(s): C++
+- Code repository: https://github.com/xoreos/xoreos/
+- Code language: C++
 - Code license: GPL-3.0
 
 Requires original game data.

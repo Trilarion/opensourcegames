@@ -5,8 +5,8 @@ _CRPG designed to appeal to the "pen & paper" role-player._
 - Home: https://sourceforge.net/projects/runesword/, http://runesword.sourceforge.net/
 - Download: https://sourceforge.net/projects/runesword/files/
 - State: mature, inactive since 2011
-- Code: https://sourceforge.net/p/runesword/code/ (cvs)
-- Language(s): Visual Basic
+- Code repository: https://sourceforge.net/p/runesword/code/ (cvs)
+- Code language: Visual Basic
 
 ## Building
 

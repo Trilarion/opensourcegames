@@ -6,9 +6,9 @@ _Rebuild of the XCOM Apocalypse Engine._
 - Download: https://ci.appveyor.com/project/openapoc/openapoc
 - State: mature
 - Keywords: requires original content (X-Com Apocalypse)
-- Code: https://github.com/OpenApoc/OpenApoc
-- Language(s): C++
-- License: MIT
+- Code repository: https://github.com/OpenApoc/OpenApoc
+- Code language: C++
+- Code license: MIT
 
 ## Building
 

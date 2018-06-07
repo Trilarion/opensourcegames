@@ -6,8 +6,8 @@ _A Massively Multiplayer Adventure._
 - Media: https://en.wikipedia.org/wiki/BrowserQuest
 - State: mature
 - Keywords: MMORPG
-- Code: https://github.com/mozilla/BrowserQuest
-- Language(s): Javascript
+- Code repository: https://github.com/mozilla/BrowserQuest
+- Code language: Javascript
 - Code license: MPL-2.0
 
 ## Building

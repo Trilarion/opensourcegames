@@ -7,11 +7,11 @@ _Scene-oriented, flexible 3D engine written in C++._
 - Download: https://www.ogre3d.org/download/sdk
 - State: mature
 - Keywords: 3D rendering engine
-- Code: https://bitbucket.org/sinbad/ogre/src (hg) https://github.com/OGRECave/ogre (mirror)
-- Language(s): C++
+- Code repository: https://bitbucket.org/sinbad/ogre/src (hg) https://github.com/OGRECave/ogre (mirror)
+- Code language: C++
 - Code license: MIT
 
 ## Building
 
-Uses CMake
+- Build system: CMake
 

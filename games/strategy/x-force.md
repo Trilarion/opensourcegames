@@ -6,9 +6,9 @@ _Remake of the classic X-Com-Games._
 - Download: https://sourceforge.net/projects/xforceffd/files
 - State: beta, inactive since 2011
 - Keywords: TBS
-- Code: https://sourceforge.net/p/xforceffd/code/HEAD/tree/
-- Language(s): Delphi
-- License: GPL-2.0
+- Code repository: https://sourceforge.net/p/xforceffd/code/HEAD/tree/
+- Code language: Delphi
+- Code license: GPL-2.0
 
 ## Building
 

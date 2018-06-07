@@ -6,9 +6,9 @@ _Real time, multiplayer, Internet-based game, featuring military, diplomatic, an
 - Download: https://sourceforge.net/projects/empserver/files/
 - State: mature
 - Keywords: online
-- Code: http://git.pond.sub.org/empserver/
-- Language(s): C
-- License: GPL-3.0
+- Code repository: http://git.pond.sub.org/empserver/
+- Code language: C
+- Code license: GPL-3.0
 
 Also see: http://www.wolfpackempire.com/clients.html
 

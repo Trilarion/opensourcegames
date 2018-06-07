@@ -3,9 +3,10 @@
 _A computer mystery/romance set five minutes into the future of 1988._
 
 - Home: https://lgdb.org/game/digital_love_story
-- Download: see home
+- Download: (see home)
+- State: mature
 - Keywords: visual novel
-- Language(s): Ren'py
+- Code language: Ren'py
 - Artwork license: CC-BY-SA
 
 ## Building

@@ -6,9 +6,9 @@ _Graphical roguelike game with advanced bodypart and material handling, multi-co
 - Download: https://sourceforge.net/projects/ivan/files/
 - State: beta, inactive since 2004
 - Keywords: roguelike
-- Code: https://sourceforge.net/p/ivan/code/ (cvs)
-- Language(s): C++
-- License: GPL-2.0
+- Code repository: https://sourceforge.net/p/ivan/code/ (cvs)
+- Code language: C++
+- Code license: GPL-2.0
 
 ## Building
 

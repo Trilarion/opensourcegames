@@ -7,8 +7,8 @@ _Open source framework for massively multiplayer online role-playing games._
 - Download: https://www.worldforge.org/index.php/downloads/
 - State: mature
 - Keywords: MMO
-- Code: https://github.com/worldforge (different sub-repositories)
-- Language(s): C++
+- Code repository: https://github.com/worldforge (different sub-repositories)
+- Code language: C++
 - Code license: GPL-2.0
 
 ## Building

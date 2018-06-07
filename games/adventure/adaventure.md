@@ -6,8 +6,8 @@ _A point & click quest set in ancient Persia._
 - Download: https://github.com/fastrgv/AdaVenture/releases
 - State: mature
 - Keywords: point&click, kid-friendly
-- Code: see home
-- Language(s): Ada
+- Code repository: (see home)
+- Code language: Ada
 - Code license: GPL-3.0
 
 ## Building

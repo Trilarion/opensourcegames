@@ -4,12 +4,18 @@ _{Description}_
 
 - Home: {URL}
 - Media: {URL}
-- Download: {URL}
 - State: {XX}
+- Download: {URL}
+- Platforms: {XX}
 - Keywords: {XX}
-- Code: {URL}
-- Language(s): {XX}
-- License: {XX}
+- Code repository: {URL}
+- Code language: {XX}
+- Code license: {XX}
+- Code dependencies: {XX}
+- Assets license: {XX}
+
 
 ## Building
 
+- Build system: {XX}
+- Build instructions: {XX}

@@ -4,8 +4,8 @@ _Open source easy to use standalone 3D Game Maker and 3D Game Design program cur
 
 - Home: http://www.sandboxgamemaker.com/free-game-maker/
 - Download: http://www.sandboxgamemaker.com/free-game-maker-download/
-- Code: https://github.com/PlatinumArts/Platinum-Arts-Sandbox-Free-Game-Maker
-- Language(s): C++, C
+- Code repository: https://github.com/PlatinumArts/Platinum-Arts-Sandbox-Free-Game-Maker
+- Code language: C++, C
 - Code license: Mixed
 - Code license details: MIT, ZLIB modified (requires special credits and notifications)
 

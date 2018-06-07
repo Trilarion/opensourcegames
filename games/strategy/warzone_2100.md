@@ -5,9 +5,9 @@ _Full campaign with optional (but strongly recommended!), videos, battle against
 - Home: http://wz2100.net/
 - Download: https://sourceforge.net/projects/warzone2100/files/releases/
 - Keywords: RTS
-- Code: https://github.com/Warzone2100/warzone2100
-- Language(s): C++
+- Code repository: https://github.com/Warzone2100/warzone2100
+- Code language: C++
 
 ## Building
 
-Uses CMake
+- Build system: CMake

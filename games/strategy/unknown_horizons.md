@@ -7,8 +7,8 @@ _A 2D realtime strategy simulation with an emphasis on economy and city building
 - Download: http://unknown-horizons.org/downloads/
 - State: beta
 - Keywords: SP, TBS
-- Code: https://github.com/unknown-horizons/unknown-horizons
-- Language(s): Python
+- Code repository: https://github.com/unknown-horizons/unknown-horizons
+- Code language: Python
 - Code license: GPL-2.0
 
 Uses the FIFE engine.

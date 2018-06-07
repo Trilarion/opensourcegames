@@ -5,11 +5,11 @@ _zlib is a software library used for data compression._
 - Home: http://zlib.net/
 - Media: https://en.wikipedia.org/wiki/Zlib
 - State: mature
-- Code: https://github.com/madler/zlib
-- Language(s): C
+- Code repository: https://github.com/madler/zlib
+- Code language: C
 - Code license: zlib
 
 ## Building
 
-Uses CMake
+- Build system: CMake
 

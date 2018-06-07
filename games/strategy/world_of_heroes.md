@@ -5,9 +5,9 @@ _2D turn based strategy game, where the player commands an army in the explorati
 - Home: https://sourceforge.net/projects/worldofheroes
 - Download: https://sourceforge.net/projects/worldofheroes/files/WOH%20v0.4.2/
 - State: beta, inactive since 2009
-- Code: see download
-- Language(s): Python
-- License: BSD
+- Code repository: (see download)
+- Code language: Python
+- Code license: BSD
 
 ## Building
 

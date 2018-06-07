@@ -6,9 +6,9 @@ _GameMaster (i.e. role-playing) utility._
 - Download: https://sourceforge.net/projects/deity/files
 - State: mature, inactive since 2014
 - Keywords: tool
-- Code: https://sourceforge.net/p/deity/code/HEAD/tree/
-- Language(s): Python
-- License: GPL-2.0
+- Code repository: https://sourceforge.net/p/deity/code/HEAD/tree/
+- Code language: Python
+- Code license: GPL-2.0
 
 ## Building
 

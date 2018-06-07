@@ -6,8 +6,8 @@ _Kostenloses Open Source-MMORPG, welches seinen Schwerpunkt auf echtes Rollenspi
 - Download: http://illarion.org/illarion/de_java_download.php
 - State: mature
 - Keywords: MMO
-- Code: https://github.com/Illarion-eV
-- Language(s): C++, Java, Lua
+- Code repository: https://github.com/Illarion-eV
+- Code language: C++, Java, Lua
 - Code license: GPL-3.0
 
 ## Building

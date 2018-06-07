@@ -7,9 +7,9 @@ _Single-player dungeon exploration game._
 - Download: http://rephial.org/release/
 - State: mature
 - Keywords: roguelike
-- Code: https://github.com/angband/angband
-- Language(s): C
-- License: GPL-2.0
+- Code repository: https://github.com/angband/angband
+- Code language: C
+- Code license: GPL-2.0
 - Dependencies: SDL
 
 ## Building

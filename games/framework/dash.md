@@ -3,8 +3,8 @@
 _OpenGL engine written in the D language._
 
 - Home: https://dash.circularstudios.com/
-- Code: https://github.com/Circular-Studios/Dash
-- Language(s): D
+- Code repository: https://github.com/Circular-Studios/Dash
+- Code language: D
 - Code license: MIT
 
 ## Building

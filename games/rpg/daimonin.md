@@ -7,8 +7,8 @@ _Massively Multiplayer On-line Role-playing Game (MMORPG)._
 - Download: https://www.daimonin.org/downloads/
 - State: mature
 - Keywords: MMO
-- Code: https://sourceforge.net/p/daimonin/code/HEAD/tree/ (svn)
-- Language(s): C
+- Code repository: https://sourceforge.net/p/daimonin/code/HEAD/tree/ (svn)
+- Code language: C
 - Code license: GPL-2.0
 
 Server code based on [Crossfire](crossfire.md)

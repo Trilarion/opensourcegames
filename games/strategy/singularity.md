@@ -3,11 +3,11 @@
 _A simulation of a true AI_
 
 - Home: http://www.emhsoft.com/singularity/
-- Download: see home
+- Download: (see home)
 - State: beta, inactive since 2010
 - Keywords: SP
-- Code: https://github.com/singularity/singularity
-- Language(s): Python
+- Code repository: https://github.com/singularity/singularity
+- Code language: Python
 - Code license: GPL-2.0
 
 ## Building

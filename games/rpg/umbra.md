@@ -7,7 +7,7 @@ _Computer role-playing game written in Python._
 - State: beta, inactive since 2002
 - Code repository: (see download)
 - Code language: Python
-- Code license: Special
+- Code license: Custom
 
 ## Building
 

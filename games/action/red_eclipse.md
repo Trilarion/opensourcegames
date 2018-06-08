@@ -8,7 +8,7 @@ _First person arena shooter, featuring parkour, impulse boosts, and more._
 - Keywords: shooter
 - Code repository: https://github.com/red-eclipse
 - Code language: C++
-- Code license: Zlib
+- Code license: zlib
 
 ## Building
 

@@ -6,7 +6,7 @@ _Unofficial open source engine reimplementation of the game Morrowind._
 - Media: https://en.wikipedia.org/wiki/OpenMW
 - Download: https://openmw.org/downloads/
 - State: mature
-- Keywords: remake, requires original content (Morrowind)
+- Keywords: engine, remake, requires original content (Morrowind)
 - Code repository: https://github.com/OpenMW/openmw
 - Code language: C++
 - Code license: GPL-3.0

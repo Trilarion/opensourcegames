@@ -7,7 +7,7 @@ _Remake of the classic X-Com-Games._
 - State: beta, inactive since 2011
 - Keywords: TBS
 - Code repository: https://sourceforge.net/p/xforceffd/code/HEAD/tree/
-- Code language: Delphi
+- Code language: Pascal
 - Code license: GPL-2.0
 
 ## Building

@@ -7,7 +7,7 @@ _An unofficial fan-made mod for the game Knights and Merchants._
 - State: mature
 - Keywords: RTS
 - Code repository: https://github.com/Kromster80/kam_remake
-- Code language: Delphi
+- Code language: Pascal
 - Code license: AGPL-3.0
 
 Requires original game content.

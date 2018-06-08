@@ -9,8 +9,7 @@ _Multiplayer, online role-playing game (MMORPG)._
 - Keywords: MMO
 - Code repository: https://github.com/raduprv/Eternal-Lands
 - Code language: C, C++
-- Code license: Special
-- Code license details: [Modified QTPL](https://raw.githubusercontent.com/raduprv/Eternal-Lands/master/eternal_lands_license.txt)
+- Code license: Custom (modified QTPL: https://raw.githubusercontent.com/raduprv/Eternal-Lands/master/eternal_lands_license.txt)
 
 ## Building
 

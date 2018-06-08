@@ -2,8 +2,10 @@
 
 _Evolution of SSI Panzer General II._
 
-- Home: https://sourceforge.net/projects/opengeneral/
-- Download: https://sourceforge.net/projects/opengeneral/files/
+- Home: http://www.open-general.com, https://sourceforge.net/projects/opengeneral/ (old)
+- Download: http://www.open-general.com/installer.php
+- State: mature (?)
+- Keywords: requires original content
 - Code repository: https://sourceforge.net/p/opengeneral/code/HEAD/tree/ (svn)
 
 ## Building

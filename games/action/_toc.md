@@ -10,7 +10,7 @@
 - **[MechCommander 2 Omnitech](mechcommander2_omnitech.md)** (C++, MPL, beta, inactive since 2013)
 - **[Open Sonic](open_sonic.md)** (C, GPL-2.0, beta)
 - **[Open Zelda](open_zelda.md)** (C++, zlib, beta)
-- **[Red Eclipse](red_eclipse.md)** (C++, Zlib, mature)
+- **[Red Eclipse](red_eclipse.md)** (C++, zlib, mature)
 - **[Rocks'n'Diamonds ](rocks_and_diamonds.md)** (C, GPL-2.0, mature)
 - **[Secret Mario Chronicles](secret_mario_chronicles.md)** (C++, GPL-3.0, mature, inactive since 2009)
 - **[Smash](smash.md)** (Javascript, MIT, mature)

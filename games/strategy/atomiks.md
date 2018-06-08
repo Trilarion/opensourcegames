@@ -8,7 +8,8 @@ _Faithful remake of, and a tribute to, Atomix, a classic puzzle game created by 
 - Keywords: puzzle
 - Code repository: https://sourceforge.net/p/atomiks/code/HEAD/tree/ (svn)
 - Code language: C
-- Code license: GPL, custom (Leveldesign, see Readme)
+- Code license: GPL
+- Assets license: Custom (Leveldesign, see Readme)
 
 ## Building
 

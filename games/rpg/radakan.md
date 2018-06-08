@@ -8,6 +8,6 @@ _Single player RPG game, set in a dark fantasy setting where four unique races s
 - Keywords: SP
 - Code repository: https://sourceforge.net/p/radakan/code/HEAD/tree/
 - Code language: Python
-- Code license: Special
+- Code license: Custom
 
 ## Building

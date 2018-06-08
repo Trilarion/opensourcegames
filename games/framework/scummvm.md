@@ -6,7 +6,7 @@ _Allows you to run certain classic graphical point-and-click adventure games, pr
 - Media: https://en.wikipedia.org/wiki/ScummVM
 - Download: http://www.scummvm.org/downloads/
 - State: mature
-- Keywords: reimplementation
+- Keywords: engine
 - Code repository: https://github.com/scummvm/scummvm
 - Code language: C++
 - Code license: GPL-2.0

@@ -8,6 +8,6 @@ _C-evo is a freeware empire building game for Windows._
 - State: mature, inactive since 2013
 - Keywords: TBS 
 - Code repository: http://www.c-evo.org/files/download.php?cevosrc.cevosrc.zip
-- Code language: Delphi Pascal
+- Code language: Pascal
 
 ## Building

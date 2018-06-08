@@ -3,6 +3,8 @@
 _A 2D real time strategy Mega-Lo-Mania-like god game._
 
 - Home: http://gigalomania.sourceforge.net/
+- State: mature
+- Keywords: RTS
 - Code repository: https://sourceforge.net/p/gigalomania/code/ci/master/tree/
 - Code language: C++
 - Code license: GPL-2.0

@@ -3,11 +3,14 @@
 _This quest is a free, open-source game that works with Solarus, an open-source Zelda-like 2D game engine._
 
 - Home: https://github.com/solarus-games/zsdx
-- Code repository: https://github.com/solarus-games/zsdx
+- State: mature
+- Code repository: https://gitlab.com/solarus-games/zsdx.git, https://github.com/solarus-games/zsdx (old)
 - Code language: Lua
 - Code license: GPL-3.0
+- Code dependencies: Solarus engine
 
-Uses the [Solarus engine](../framework/solarus.md).
+See also: [Solarus engine](../framework/solarus.md).
 
 ## Building
 
+- Build system: CMake

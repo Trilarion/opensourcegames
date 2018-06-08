@@ -4,7 +4,7 @@ _Modelled after the golden oldie Archon game created by Freefall Associates and 
 
 - Home: http://xarchon.seul.org/
 - Download: http://xarchon.seul.org/download.html
-- State:beta, inactive since
+- State: beta, inactive since 2003
 - Code repository: cvs.seul.org:/home/cvspsrv/cvsroot
 - Code language: C, C++
 - Code license: GPL-2.0

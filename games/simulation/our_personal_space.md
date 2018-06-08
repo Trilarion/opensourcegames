@@ -4,10 +4,12 @@ _Simulation game where you play as a colonist on a new planet with your new husb
 
 - Home: http://metasepia.icecavern.net/OurPersonalSpace/index.html
 - Download: (see home)
+- State: mature
 - Keywords: visual novel
 - Code repository: https://github.com/qirien/personal-space
 - Code language: Ren'py
 - Code license: GPL-3.0
+- Code dependencies: Ren'Py
 
 ## Building
 

@@ -4,6 +4,7 @@ _Cooperative multiplayer graphical RPG and adventure game._
 
 - Home: http://crossfire.real-time.com/ https://sourceforge.net/projects/crossfire/
 - Download: http://crossfire.real-time.com/download/index.html
+- State: mature
 - Keywords: MMO
 - Code repository: https://sourceforge.net/p/crossfire/code/HEAD/tree/ (svn)
 - Code language: C, Java

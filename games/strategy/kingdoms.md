@@ -12,4 +12,4 @@ _Strategy game where you lead a nation throughout history.._
 
 ## Building
 
-Uses make on Linux/Unix
+- Build system: Make on Linux/Unix

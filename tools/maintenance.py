@@ -282,7 +282,7 @@ def parse_entry(content):
     info['title'] = matches[0]
 
     # first read all field names
-    regex = re.compile(r"- (.*): ")
+    regex = re.compile(r"^- (.*?): ", re.MULTILINE)
     fields = regex.findall(content)
 
     # iterate over found field
@@ -465,7 +465,7 @@ def export_json():
 
     # make database out of it
     db = {}
-    db['header'] = ['Name', 'Download']
+    db['headings'] = ['Name', 'Download']
 
     entries = []
     for info in infos:
@@ -473,7 +473,7 @@ def export_json():
         if 'download' in info:
             entry.append(info['download'][0])
         else:
-            entry.append(None)
+            entry.append('')
         entries.append(entry)
     db['data'] = entries
 

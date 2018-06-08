@@ -9,5 +9,5 @@ _Turn-based tactical war game._
 
 ## Building
 
-Uses autoconf
+- Build system: Autoconf
 

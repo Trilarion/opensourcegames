@@ -15,5 +15,5 @@ Requires original data files.
 
 ## Building
 
-Uses make
+- Build system: Make
 

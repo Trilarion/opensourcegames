@@ -13,5 +13,5 @@ _FreedroidRPG is an open source role playing game._
 
 ## Building
 
-Uses make
+- Build system: Make
 

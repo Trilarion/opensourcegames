@@ -12,6 +12,6 @@ _Godot is an advanced, feature-packed, multi-platform 2D and 3D open source game
 
 ## Building
 
-Very extensive [Build instructions](http://docs.godotengine.org/en/latest/development/compiling/)
+- Build instructions: http://docs.godotengine.org/en/latest/development/compiling/
 
-Uses Scons
+- Build system: Scons

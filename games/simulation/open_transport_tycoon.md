@@ -12,4 +12,4 @@ _OpenTTD is an open source simulation game based upon the popular Microprose gam
 
 ## Building
 
-Uses Autoconf
+- Build system: Autoconf

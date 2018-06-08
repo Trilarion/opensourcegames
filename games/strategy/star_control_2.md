@@ -15,5 +15,5 @@ See also [Ur-Quan Masters HD](https://sourceforge.net/projects/urquanmastershd/)
 
 ## Building
 
-Uses make
+- Build system: Make
 

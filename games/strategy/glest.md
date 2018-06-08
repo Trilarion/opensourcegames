@@ -15,5 +15,5 @@ See also [Glest Advanced Engine](https://sourceforge.net/projects/glestae/).
 
 ## Building
 
-Uses Autoconf
+- Build system: Autoconf
 

@@ -12,5 +12,5 @@ _Advanced Strategic Command is a free, turn based strategy game._
 
 ## Building
 
-Uses Autoconf
+- Build system: Autoconf
 

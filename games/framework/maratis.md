@@ -13,7 +13,4 @@ Maratis 3.x is mature.
 
 ## Building
 
-Maratis 4 uses CMake
-
-Maratios 3.x uses Scons
-
+- Build system: CMake (Maratis 4), Scons (Maratis 3.x)

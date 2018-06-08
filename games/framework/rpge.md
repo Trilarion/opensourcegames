@@ -10,5 +10,5 @@ _Engine for two-dimensional graphical role-playing games._
 
 ## Building
 
-Uses Autoconf
+- Build system: Autoconf
 

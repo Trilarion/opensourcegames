@@ -12,4 +12,4 @@ _3D RPG with a hybrid real time, turn based system._
 
 ## Building
 
-Uses scons
+- Build system: Scons

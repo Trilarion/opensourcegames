@@ -4,6 +4,7 @@ _Short Visual Novel_
 
 - Home: http://www.insani.org/mukou.html
 - Download: (see home)
+- State: mature, inactive since 2006
 - Keywords: visual novel
 - Code language: Ren'py
 - Code license: Freeware

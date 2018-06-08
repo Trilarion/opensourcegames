@@ -13,7 +13,7 @@ _LordsAWar! is a free, turn-based strategy game where up to 8 players strive for
 
 ## Building
 
-Uses Autoconf
+- Build system: Autoconf
 
 Windows executable is created as cross-compile, see source file "WINDOWS" 
 

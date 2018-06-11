@@ -4,8 +4,11 @@
 - Download: http://www.mediafire.com/file/jog3fcfxgsyd03f/Astraea_Rio-1.05-all.zip
 - State: mature
 - Keywords: visual novel, rating 18
-- Language: Ren'py
-- Artwork license: CC-BY-NC
+- Code repository: (see download)
+- Code language: Ren'py
+- Code license: CC-BY-NC
+- Code dependencies: Ren'py
+- Assets license: CC-BY-NC
 
 ## Building
 

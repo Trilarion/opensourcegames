@@ -7,15 +7,25 @@
 """
 
 import os
-import csv
+import json
 import subprocess
+
+
+def read_text(file):
+    """
+    Reads a whole text file (UTF-8 encoded).
+    """
+    with open(file, mode='r', encoding='utf-8') as f:
+        text = f.read()
+    return text
 
 
 def derive_folder_name(url):
     github = 'https://github.com/'
     if url.startswith(github):
-        url = url[len(github):].split('/')
-        folder = 'github.' + url[0] + '.' + url[1] + '.git'
+        parts = url[len(github):].split('/')
+        parts.insert(0, 'github')
+        folder = '.'.join(parts)
     return folder
 
 
@@ -36,22 +46,18 @@ if __name__ == '__main__':
     # get this folder
     root_folder = os.path.realpath(os.path.dirname(__file__))
 
-    # read archives.csv
-    archives = []
-    with open('archives.csv', newline='') as f:
-        reader = csv.reader(f)
-        for row in reader:
-            archives.append(row)
+    # read archives.json
+    text = read_text(os.path.join(root_folder, 'archives.json'))
+    archives = json.loads(text)
 
     # loop over archives
     for archive in archives:
-        url = archive[0]
-        folder = os.path.join(root_folder, derive_folder_name(url))
+        folder = os.path.join(root_folder, derive_folder_name(archive))
 
         # if not existing do the initial checkout
         if not os.path.isdir(folder):
             os.chdir(root_folder)
-            clone(url, folder)
+            clone(archive, folder)
 
         # pull all
         os.chdir(folder)

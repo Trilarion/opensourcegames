@@ -2266,21 +2266,7 @@
 
                 // Valid JSON string
                 if (json) {
-                    obj = {
-                        headings: [],
-                        data: []
-                    };
-
-                    each(json, function (data, i) {
-                        obj.data[i] = [];
-                        each(data, function (value, column) {
-                            if (obj.headings.indexOf(column) < 0) {
-                                obj.headings.push(column);
-                            }
-
-                            obj.data[i].push(value);
-                        });
-                    });
+                    obj = json;
                 } else {
                     console.warn("That's not valid JSON!");
                 }

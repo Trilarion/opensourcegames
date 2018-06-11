@@ -36,7 +36,7 @@
 - **[Polycode](polycode.md)** (C, C++, MIT, beta)
 - **[Qt](qt.md)** (C++, LGPL-3.0, mature)
 - **[Quad-engine](quad.md)** (Pascal, MIT, beta)
-- **[SDL Game Engine 2D](sge2d.md)** (C, MIT, beta)
+- **[SDL Game Engine 2D](sge2d.md)** (C, MIT, beta, inactive since 2014)
 - **[ScummVM](scummvm.md)** (C++, GPL-2.0, mature)
 - **[Solarus](solarus.md)** (C++, GPL-3.0, mature)
 - **[Superpowers](superpowers.md)** (Typescript, ISC, mature)

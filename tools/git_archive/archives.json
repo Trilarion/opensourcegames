@@ -1,7 +1,11 @@
 [
+  "http://repo.or.cz/openal-soft.git",
   "https://anongit.freedesktop.org/git/pkg-config.git",
   "https://git.octaforge.org/engine/octaforge.git",
+  "https://git.savannah.gnu.org/git/adonthell/adonthell-wastesedge.git",
   "https://git.savannah.gnu.org/git/freedink.git",
+  "https://git.savannah.gnu.org/git/freetype/freetype2-demos.git",
+  "https://git.savannah.gnu.org/git/freetype/freetype2.git",
   "https://git.savannah.gnu.org/git/rpge.git",
   "https://git.savannah.nongnu.org/git/lordsawar.git",
   "https://git.tukaani.org/xz.git",
@@ -92,6 +96,7 @@
   "https://github.com/freeors/War-Of-Kingdom.git",
   "https://github.com/freeserf/freeserf.git",
   "https://github.com/gemrb/gemrb.git",
+  "https://github.com/glennrp/libpng.git",
   "https://github.com/godotengine/godot.git",
   "https://github.com/godrin/antargis.git",
   "https://github.com/graememcc/micropolisJS.git",
@@ -136,6 +141,7 @@
   "https://github.com/nicupavel/openpanzer.git",
   "https://github.com/nlarn/nlarn.git",
   "https://github.com/openlegend/core-rules.git",
+  "https://github.com/openssl/openssl.git",
   "https://github.com/openzelda/openzelda-source.git",
   "https://github.com/orx/orx.git",
   "https://github.com/ozkriff/zoc.git",
@@ -171,5 +177,6 @@
   "https://github.com/xesf/twin-e.git",
   "https://github.com/zaki/irrlicht.git",
   "https://gitlab.com/evol/evol-all.git",
-  "https://gitlab.com/solarus-games/zsdx.git"
+  "https://gitlab.com/solarus-games/zsdx.git",
+  "https://gitlab.gnome.org/GNOME/libxml2.git"
 ]

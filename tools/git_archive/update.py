@@ -22,24 +22,24 @@ def read_text(file):
         text = f.read()
     return text
 
-def friendly_folder_name(folder):
-    folder = folder.replace('/', '.')
-    return folder
-
 def derive_folder_name(url):
     replaces = {
         'https://github.com': 'github',
         'https://git.code.sf.net/p': 'sourceforge',
         'https://git.tuxfamily.org': 'tuxfamily',
+        'https://git.savannah.gnu.org/git': 'savannah.gnu',
+        'https://gitlab.com': 'gitlab'
     }
+    sanitize = lambda x: x.replace('/', '.')
     for service in replaces:
         if url.startswith(service):
             url = replaces[service] + url[len(service):]
-            return friendly_folder_name(url)
-    generic = 'https://'
-    if url.startswith(generic) and url.endswith('.git'):
-        url = url[len(generic):]
-        return friendly_folder_name(url)
+            return sanitize(url)
+    generics = ['http://', 'https://']
+    for generic in generics:
+        if url.startswith(generic) and url.endswith('.git'):
+            url = url[len(generic):]
+            return sanitize(url)
     raise Exception('unknown service, please define')
 
 
@@ -63,19 +63,35 @@ if __name__ == '__main__':
     # read archives.json
     text = read_text(os.path.join(root_folder, 'archives.json'))
     archives = json.loads(text)
+    print('update {} archives'.format(len(archives)))
 
-    # loop over archives
-    for archive in archives:
-        folder = os.path.join(root_folder, derive_folder_name(archive))
+    # get derived folder names
+    folders = [derive_folder_name(url) for url in archives]
 
-        # if not existing do the initial checkout
+    # find those folders not used anymore
+    existing_folders = [x for x in os.listdir(root_folder) if os.path.isdir(os.path.join(root_folder, x))]
+    unused_folders = [x for x in existing_folders if x not in folders]
+    print('{} unused archives'.format(len(unused_folders)))
+    if unused_folders:
+        print(unused_folders)
+
+    # new folder, need to clone
+    new_folders = [x for x in folders if x not in existing_folders]
+    print('{} new archives, will clone'.format(len(new_folders)))
+
+    # add root to folders
+    folders = [os.path.join(root_folder, x) for x in folders]
+    os.chdir(root_folder)
+    for folder, archive in zip(folders, archives):
         if not os.path.isdir(folder):
-            os.chdir(root_folder)
             clone(archive, folder)
 
+    # at the end update them all
+    for folder in folders:
         # pull all
         os.chdir(folder)
         pull()
+
 
 
 

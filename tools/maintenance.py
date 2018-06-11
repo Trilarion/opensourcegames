@@ -521,7 +521,7 @@ def git_repo(repo):
         if repo.startswith(service):
             return repo
     # generic (https://*.git)
-    if repo.startswith('https://') and repo.endswith('.git'):
+    if (repo.startswith('https://') or repo.startswith('http://')) and repo.endswith('.git'):
         return repo
     return None
 

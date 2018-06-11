@@ -4,7 +4,7 @@
 - **[Allegro](allegro.md)** (C, zlib, mature)
 - **[Annchienta](annchienta.md)** (C++, GPL-3.0, mature, inactive since 2009)
 - **[Arianne / Marauroa](arianne.md)** (Java, GPL-2.0, mature)
-- **[Atlantis](atlantis.md)** (C++, GPL-2.0, mature, inactive since 2011)
+- **[Atlantis](atlantis.md)** (C++, GPL-2.0, mature, inactive since 2016)
 - **[Blender game engine](blender_game_engine.md)** (C++, GPL-2.0, mature)
 - **[COCOS2D-X](cocos2dx.md)** (C++, MIT, mature)
 - **[Dash Engine](dash.md)** (D, MIT, mature, inactive since 2015)

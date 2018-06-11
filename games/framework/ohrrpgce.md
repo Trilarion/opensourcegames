@@ -6,7 +6,7 @@ _Official Hamster Republic Role Playing Game Construction Engine_
 - Media: https://en.wikipedia.org/wiki/OHRRPGCE
 - Download: http://rpg.hamsterrepublic.com/ohrrpgce/Downloads
 - State: mature
-- Code repository: https://rpg.hamsterrepublic.com/source/ (svn) https://bitbucket.org/rbv/ohrrpgce-svn/src
+- Code repository: https://rpg.hamsterrepublic.com/source/ (svn), https://bitbucket.org/rbv/ohrrpgce-svn/src
 - Code language: Basic
 - Code license: GPL-2.0
 

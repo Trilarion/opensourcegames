@@ -6,7 +6,7 @@ _An open source multiplayer online framework._
 - Download: https://arianne-project.org/engine/marauroa.html
 - State: mature
 - Keywords: MP, 2D
-- Code repository: git://git.code.sf.net/p/arianne/marauroa
+- Code repository: https://git.code.sf.net/p/arianne/marauroa
 - Code language: Java
 - Code license: GPL-2.0
 

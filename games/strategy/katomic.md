@@ -5,7 +5,7 @@ _Fun educational game built around molecular geometry. It employs simplistic two
 - Home: https://www.kde.org/applications/games/katomic/, https://games.kde.org/game.php?game=katomic
 - State: mature
 - Keywords: puzzle
-- Code repository: git://anongit.kde.org/katomic
+- Code repository: https://anongit.kde.org/katomic (https://cgit.kde.org/katomic.git/tree//?)
 - Code language: C++
 - Code license: GPL-2.0
 

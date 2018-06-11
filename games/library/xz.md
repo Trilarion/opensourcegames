@@ -6,7 +6,7 @@ _General-purpose data compression software with a high compression ratio._
 - Media: https://en.wikipedia.org/wiki/XZ_Utils
 - Download: (see home)
 - State: mature
-- Code repository: https://git.tukaani.org/?p=xz.git
+- Code repository: https://git.tukaani.org/xz.git (https://git.tukaani.org/?p=xz.git)
 - Code language: C
 - Code license: Custom (see file Copying, liblzma is public domain)
 

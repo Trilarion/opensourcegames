@@ -508,9 +508,21 @@ def export_json():
 
 
 def git_repo(repo):
-    if repo.startswith('https://github.com/'):
+    """
+        Tests if a repo is a git repo, then returns the repo url, possibly modifying it slightly (for Github).
+    """
+    github = 'https://github.com/'
+    sourceforge = 'https://git.code.sf.net/p/'
+    tuxfamily = 'https://git.tuxfamily.org/'
+    if repo.startswith(github):
         if len(repo.split('/')) == 5:
             return repo + '.git'
+    for service in [tuxfamily]: # TODO sf git gives errors when checking out at the moment
+        if repo.startswith(service):
+            return repo
+    # generic (https://*.git)
+    if repo.startswith('https://') and repo.endswith('.git'):
+        return repo
     return None
 
 
@@ -518,28 +530,33 @@ def update_primary_code_repositories():
 
     primary_repos = []
 
-    # for every entry
+    # for every entry filter those that are known git repositories (add additional repositories)
     for info in infos.values():
-        field = 'code repository'
+        field = 'code repository-raw'
         # if field 'Code repository' is available
         if field in info:
             repos = info[field]
-            # if there are code repositories given
             if repos:
-                repo = repos[0]
-                repo = git_repo(repo)
-                if repo:
-                    primary_repos.append(repo)
+                # split at comma
+                repos = repos.split(',')
+                # keep the first and all others containing "(+)"
+                additional_repos = [x for x in repos[1:] if "(+)" in x]
+                repos = repos[0:1]
+                repos.extend(additional_repos)
+                for repo in repos:
+                    # remove parenthesis and strip of white spaces
+                    repo = re.sub(r'\([^)]*\)', '', repo)
+                    repo = repo.strip()
+                    repo = git_repo(repo)
+                    if repo:
+                        primary_repos.append(repo)
 
-    # filter those out, that we can process
-
-
-    # sort them alphabetically
-    primary_repos.sort()
+    # sort them alphabetically (and remove duplicates)
+    primary_repos = sorted(set(primary_repos))
 
     # write them to tools/git
     json_path = os.path.join(games_path, os.path.pardir, 'tools', 'git_archive', 'archives.json')
-    text = json.dumps(primary_repos)
+    text = json.dumps(primary_repos, indent=2)
     write_text(json_path, text)
 
 if __name__ == "__main__":

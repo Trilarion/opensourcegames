@@ -7,7 +7,7 @@ _Tool used when compiling applications and libraries._
 - Download: https://pkg-config.freedesktop.org/releases/
 - State: mature
 - Keywords: tool
-- Code repository: git://anongit.freedesktop.org/pkg-config
+- Code repository: https://anongit.freedesktop.org/git/pkg-config.git (https://cgit.freedesktop.org/pkg-config)
 - Code language: C
 - Code license: GPL-2.0
 

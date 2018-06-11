@@ -1,9 +1,12 @@
 """
-    Clones and/or pulls all the gits listed in archives.csv
+    Clones and/or pulls all the gits listed in archives.json
 
     Requires: git executable in the path
 
     Warning: This may take a long time on the first run and may need a lot of storage space!
+
+    TODO are really all existing branches cloned and pulled? (see https://stackoverflow.com/questions/67699/how-to-clone-all-remote-branches-in-git)
+    TODO detect unused folders?
 """
 
 import os
@@ -19,14 +22,25 @@ def read_text(file):
         text = f.read()
     return text
 
+def friendly_folder_name(folder):
+    folder = folder.replace('/', '.')
+    return folder
 
 def derive_folder_name(url):
-    github = 'https://github.com/'
-    if url.startswith(github):
-        parts = url[len(github):].split('/')
-        parts.insert(0, 'github')
-        folder = '.'.join(parts)
-    return folder
+    replaces = {
+        'https://github.com': 'github',
+        'https://git.code.sf.net/p': 'sourceforge',
+        'https://git.tuxfamily.org': 'tuxfamily',
+    }
+    for service in replaces:
+        if url.startswith(service):
+            url = replaces[service] + url[len(service):]
+            return friendly_folder_name(url)
+    generic = 'https://'
+    if url.startswith(generic) and url.endswith('.git'):
+        url = url[len(generic):]
+        return friendly_folder_name(url)
+    raise Exception('unknown service, please define')
 
 
 def clone(url, folder):

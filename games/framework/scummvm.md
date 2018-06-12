@@ -2,7 +2,7 @@
 
 _Allows you to run certain classic graphical point-and-click adventure games, provided you already have their data files._
 
-- Home: www.scummvm.org
+- Home: http://www.scummvm.org/
 - Media: https://en.wikipedia.org/wiki/ScummVM
 - Download: http://www.scummvm.org/downloads/
 - State: mature

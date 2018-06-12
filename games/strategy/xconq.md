@@ -6,7 +6,7 @@ _General strategy game system._
 - Media: https://en.wikipedia.org/wiki/Xconq
 - Download: https://sourceware.org/xconq/ftp.html
 - State: mature
-- Code repository: none found yet
+- Code repository: (see download)
 - Code license: GPL
 
 Historic. One of the first such projects.

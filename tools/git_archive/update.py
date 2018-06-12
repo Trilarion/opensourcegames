@@ -28,20 +28,19 @@ def derive_folder_name(url):
         'https://git.code.sf.net/p': 'sourceforge',
         'https://git.tuxfamily.org': 'tuxfamily',
         'https://git.savannah.gnu.org/git': 'savannah.gnu',
-        'https://gitlab.com': 'gitlab'
+        'https://gitlab.com': 'gitlab',
+        'https://gitorious.org': 'gitorious',
+        'https://anongit.': ''
     }
     sanitize = lambda x: x.replace('/', '.')
     for service in replaces:
         if url.startswith(service):
             url = replaces[service] + url[len(service):]
             return sanitize(url)
-    generics = ['http://', 'https://']
-    for generic in generics:
-        if url.startswith(generic) and url.endswith('.git'):
+    for generic in ['http://', 'https://']:
+        if url.startswith(generic):
             url = url[len(generic):]
             return sanitize(url)
-    raise Exception('unknown service, please define')
-
 
 def clone(url, folder):
     result = subprocess.run(["git", "clone", url, folder])

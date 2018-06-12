@@ -5,6 +5,7 @@ _{Description}_
 - Home: {URL}
 - Media: {URL}
 - State: {XX}
+- Play: {URL}
 - Download: {URL}
 - Platform: {XX}
 - Keywords: {XX}

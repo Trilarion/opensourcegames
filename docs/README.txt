@@ -1,0 +1,1 @@
+Is powered by Vanilla-Datatables (https://github.com/Mobius1/Vanilla-DataTables) under MIT license.

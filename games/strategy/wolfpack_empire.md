@@ -6,7 +6,7 @@ _Real time, multiplayer, Internet-based game, featuring military, diplomatic, an
 - Download: https://sourceforge.net/projects/empserver/files/
 - State: mature
 - Keywords: online
-- Code repository: http://git.pond.sub.org/empserver/
+- Code repository: 	http://git.pond.sub.org/empserver (http://git.pond.sub.org/?p=empserver;a=summary)
 - Code language: C
 - Code license: GPL-3.0
 

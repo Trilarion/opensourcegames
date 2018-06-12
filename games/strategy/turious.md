@@ -4,7 +4,7 @@ _Turn-Based Strategy Game._
 
 - Home: https://gitorious.org/turious/turious/
 - State: beta, inactive since 2014
-- Code repository: https://gitorious.org/turious/turious/
+- Code repository: https://gitorious.org/turious/turious.git
 - Code language: C
 - Code license: GPL-3.0
 

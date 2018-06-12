@@ -6,7 +6,7 @@ _A community developed, multiplayer round-based role playing game, where players
 - Media: https://en.wikipedia.org/wiki/Space_Station_13
 - State: mature
 - Keywords: online
-- Code repository: many different versions
+- Code repository: (many different versions)
 
 Uses the [Byond engine]() which is closed source!
 

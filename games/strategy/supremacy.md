@@ -4,7 +4,7 @@ _"4X" (eXplore, eXpand, eXploit, eXterminate) turn-based, empire-building strate
 
 - Home: https://archive.codeplex.com/?p=supremacy
 - State: beta, inactive
-- Code repository: (see download) archive
+- Code repository: (see download)
 - Code language: C#
 - Code license: Ms-RL
 

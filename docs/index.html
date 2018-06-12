@@ -12,11 +12,14 @@
  </div>
  <script>
   var dataTable = new DataTable("table", {
-   perPage: 50,
-   perPageSelect: [20, 50, 100],
-   fixedHeigt: true,
+   perPage: 20,
+   perPageSelect: [10, 20, 50],
+   fixedHeight: true,
    ajax: "data.json",
    footer: true
+  });
+  dataTable.on('datatable.init', function(args) {
+    dataTable.columns().sort(1);
   });
  </script>
 </body>

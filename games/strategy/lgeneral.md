@@ -2,17 +2,19 @@
 
 _A turn-based strategy engine heavily inspired by Panzer General._
 
-- Home: http://lgames.sourceforge.net/LGeneral/
+- Home: http://lgames.sourceforge.net/LGeneral/, https://sourceforge.net/projects/lgames/, https://sourceforge.net/projects/lgeneral/
 - Media: https://en.wikipedia.org/wiki/Panzer_General#LGeneral
 - Download: (see home)
 - Platform: Android
 - State: mature
 - Keywords: TBS
-- Code repository: various on github
+- Code repository: https://github.com/AndO3131/lgeneral (mirror), https://sourceforge.net/p/lgeneral/code/HEAD/tree/ (svn), https://sourceforge.net/p/lgeneral/cvs/ (cvs)
 - Code language: C
 - Code license: GPL-2.0
 
 May require original game content.
+
+See also [LGeneral Deluxe](https://github.com/AndO3131/LGeneral-Deluxe), [lgeneral-to-android](https://code.google.com/archive/p/lgeneral-to-android/)
 
 ## Building
 

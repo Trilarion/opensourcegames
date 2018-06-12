@@ -1,1 +1,3244 @@
-{"headings": ["Name", "Download"], "data": [["Astromenace", "https://www.viewizard.com/download.html"], ["Cat Mother Dead Justice", "https://sourceforge.net/projects/catmother/files/"], ["CommandoJS", ""], ["Epiar", "<https://web.archive.org/web/20161106210633/http://epiar.net/download>"], ["GDash", "https://bitbucket.org/czirkoszoltan/gdash/downloads/"], ["Linwarrior 3D", "http://www.hackcraft.de/games/linwarrior_3d/downloads.htm"], ["MechCommander 2 Omnitech", ""], ["Open Sonic", "http://opensnc.sourceforge.net/home/download.php"], ["Open Zelda", ""], ["Red Eclipse", "https://www.redeclipse.net/download"], ["Rocks'n'Diamonds ", "http://www.artsoft.org/rocksndiamonds/download/"], ["Secret Mario Chronicles", "https://sourceforge.net/projects/smclone/files"], ["Smash", ""], ["Speed Dreams", "http://www.speed-dreams.org/#download"], ["SuperTuxKart", "https://supertuxkart.net/Download"], ["Tux Racer", "https://sourceforge.net/projects/tuxracer/files/"], ["Xonotic", "http://www.xonotic.org/download/"], ["AdaVenture", "https://github.com/fastrgv/AdaVenture/releases"], ["Clou!", "https://sourceforge.net/projects/cosp/files/"], ["Colossal Cave Adventure", ""], ["Digital: A Love Story", ""], ["Dragon History", "http://www.ucw.cz/draci-historie/index-en.html#download"], ["Fanwor", ""], ["Free in the Dark (engine)", ""], ["GameLV", ""], ["Murder In The Public Domain", "https://sourceforge.net/projects/murderpd/files/"], ["Sentient Storage", ""], ["Sintel The Game", ""], ["Solaris the Game", "https://sourceforge.net/projects/solaristhegame/files/"], ["Star Maiden Rio", "http://www.mediafire.com/file/jog3fcfxgsyd03f/Astraea_Rio-1.05-all.zip"], ["TwinEngine", ""], ["Visions from the Other Side", ""], ["Allegro", "http://liballeg.org/download.html"], ["Annchienta", "https://sourceforge.net/projects/annchienta/files/annchienta/current/"], ["Arianne / Marauroa", "https://arianne-project.org/engine/marauroa.html"], ["Atlantis", "https://sourceforge.net/projects/atlantis/files/Atlantis%204/Release%204.1.0/"], ["Blender game engine", "https://www.blender.org/download/"], ["COCOS2D-X", "http://cocos2d-x.org/download"], ["Dash Engine", ""], ["Delta Engine", "http://www.deltaengine.net/download"], ["EasyRPG Player", "https://easyrpg.org/player/downloads/"], ["ENIGMA", "https://enigma-dev.org/download.htm"], ["Flare Engine", "http://www.flarerpg.org/ https://github.com/clintbellanger/flare-engine/releases"], ["Flixel", "http://flixel.org/download.html"], ["GemRB", "http://www.gemrb.org/wiki/doku.php?id=download"], ["Godot", "https://godotengine.org/download"], ["HaxeFlixel", "http://haxeflixel.com/download/"], ["H-World", "https://sourceforge.net/projects/h-world/files/"], ["Irrlicht Engine", "http://irrlicht.sourceforge.net/?page_id=10"], ["JiGS Interactive Game System", ""], ["jMonkeyEngine", "https://github.com/jMonkeyEngine/sdk/releases"], ["libGDX", "http://libgdx.badlogicgames.com/download.html"], ["L\u00d6VE", ""], ["Lumix Engine", "https://github.com/nem0/LumixEngine/releases"], ["Lightweight Java Game Library", "https://www.lwjgl.org/download"], ["Mana", "http://www.manasource.org/downloads.html"], ["Maratis", "http://www.maratis3d.org/?page_id=57"], ["mkxp", ""], ["MonoGame", "http://www.monogame.net/downloads/"], ["Octaforge", "https://octaforge.org/page/downloads"], ["OGRE3D", "https://www.ogre3d.org/download/sdk"], ["O.H.R.RPG.C.E", "http://rpg.hamsterrepublic.com/ohrrpgce/Downloads"], ["OpenFL", "http://www.openfl.org/learn/docs/getting-started/"], ["OpenRPG", "http://www.rpgobjects.com/index.php?c=orpg&m=getorpg"], ["Open RPG Maker", "https://sourceforge.net/projects/openrpgmaker/files/"], ["Orx", "https://github.com/orx/orx/releases"], ["Panda 3D", "http://www.panda3d.org/download.php"], ["Polycode", "http://polycode.org/download/"], ["pygame", "http://www.pygame.org/download.shtml"], ["pyORPG", ""], ["Qt", "https://www1.qt.io/download-open-source/"], ["Quad-engine", "http://quad-engine.com/downloads.html"], ["rpge", ""], ["sandbox Game Maker", "http://www.sandboxgamemaker.com/free-game-maker-download/"], ["ScummVM", "http://www.scummvm.org/downloads/"], ["SDL Game Engine 2D", "https://sourceforge.net/projects/sge2d/files/sge2d/"], ["Solarus", "http://www.solarus-games.org/engine/download/"], ["Superpowers", "https://sparklinlabs.itch.io/superpowers"], ["Terasology", ""], ["Urho3D", "https://sourceforge.net/projects/urho3d/files/Urho3D/"], ["Vega Strike", "http://vegastrike.sourceforge.net/getfiles/"], ["WorldForge", "https://www.worldforge.org/index.php/downloads/"], ["xoreos", "https://xoreos.org/downloads/index.html"], ["ZGameEditor", "http://www.zgameeditor.org/index.php/Main/Download"], ["Boost (C++ Libraries)", "http://www.boost.org/users/download/"], ["Crypto++", "https://cryptopp.com/#download"], ["Doxygen", "http://www.stack.nl/~dimitri/doxygen/download.html"], ["FreeType", "https://www.freetype.org/download.html"], ["HarfBuzz", ""], ["libpng", ""], ["Libxml2", "http://www.xmlsoft.org/downloads.html"], ["Lua", "http://www.lua.org/download.html"], ["LZMA SDK", "http://7-zip.org/download.html http://7-zip.org/sdk.html"], ["OpenSSL", "https://www.openssl.org/source/"], ["Open AL", "http://www.openal.org/downloads/"], ["Open AL Soft", ""], ["pkg-config", "https://pkg-config.freedesktop.org/releases/"], ["Pthreads-win32", ""], ["Ragel", ""], ["Simple DirectMedia Layer", "https://www.libsdl.org/download-2.0.php"], ["Simple and Fast Multimedia Library", "https://www.sfml-dev.org/download.php"], ["SWIG", "http://www.swig.org/download.html"], ["wxWidgets", "http://wxwidgets.org/downloads/"], ["XZ Utils", ""], ["yaml-cpp", ""], ["zlib", ""], ["AutoREALM", "https://sourceforge.net/projects/autorealm/files"], ["Deity", "https://sourceforge.net/projects/deity/files"], ["Dungeon Mapper", "https://sourceforge.net/projects/dungeonmap/files"], ["GM Tools", "https://sourceforge.net/projects/gm-tools/files"], ["JaNaG - Java Name Generator", "https://sourceforge.net/projects/janag.berlios/files"], ["Open Legend RPG", ""], ["PCGen", "http://pcgen.org/download/"], ["Pymapper", "http://pymapper.com/downloads/"], ["Rolemaster Office", "https://sourceforge.net/projects/rmoffice/files"], ["Rolisteam", "http://www.rolisteam.org/download.html"], ["RPDungeon - computer aided role playing", "https://sourceforge.net/projects/rpdungeon/files"], ["sCoreForge Pathfinder Character Creator", "https://sourceforge.net/projects/scoreforge/files/"], ["Andor's Trail", "https://f-droid.org/packages/com.gpl.rpg.AndorsTrail/"], ["Angband", "http://rephial.org/release/"], ["Ardentryst", "http://www.jordantrudgett.com/ardentryst/ardentryst-downloads/"], ["Argentum Online", "http://www.comunidadargentum.com/descargas/"], ["Arx Libertatis", "http://wiki.arx-libertatis.org/Download"], ["Atrinik", ""], ["Avanor", "https://sourceforge.net/projects/avanor/files"], ["Betrayer's Moon Tactics", "https://sourceforge.net/projects/bm-game/files"], ["Classic Blades of Exile", ""], ["BrowserQuest", ""], ["Castle of the Winds", ""], ["Cataclysm", ""], ["Catch Challenger", "https://catchchallenger.first-world.info/download.html"], ["Choria", ""], ["Crossfire", "http://crossfire.real-time.com/download/index.html"], ["Daimonin", "https://www.daimonin.org/downloads/"], ["Dark City", "https://sourceforge.net/projects/darkcity/files/"], ["Dawn", ""], ["Decker", "https://sourceforge.net/projects/decker/files"], ["Deliantra", "http://www.deliantra.net/play.html"], ["DemiGod", ""], ["diablo-js", ""], ["DNT", "http://dnt.dnteam.org/cgi-bin/downloads.py"], ["Dragon Hunt", ""], ["Dungeon Crawl Stone Soup", "http://crawl.develz.org/download.htm"], ["Dungeon Hero", "https://play.google.com/store/apps/details?id=com.glevel.dungeonhero"], ["Dungeon Monkey Eternal", ""], ["Dungeon Quest", "https://play.google.com/store/apps/details?id=com.giggs.heroquest"], ["Egoboo", "http://egoboo.sourceforge.net/download.html"], ["Endless Sky", "https://github.com/endless-sky/endless-sky/releases"], ["Eos, Dawn of Light: A Space Opera", "https://sourceforge.net/projects/eos-game/files"], ["Erebus", "http://erebusrpg.sourceforge.net/#download"], ["Eternal Lands", "http://www.eternal-lands.com/page/download.php"], ["Evol Online", "http://evolonline.org/manaplus"], ["Exult", "http://exult.sourceforge.net/download.php"], ["Fallen Spire", ""], ["Fall of Imyrin", "https://sourceforge.net/projects/annchienta/files/annchienta/current/"], ["Freedink", "https://www.gnu.org/software/freedink/get"], ["FreedroidRPG", "http://www.freedroid.org/download/"], ["GalaxyMage Redux", ""], ["GearHead", "http://www.gearheadrpg.com/downloads/"], ["Gee Whiz", "http://icculus.org/gwiz/download.php"], ["Goblin Hack", "https://sourceforge.net/projects/goblinhack/files/"], ["Hale", "https://sourceforge.net/projects/hale/files/"], ["Haxima", "https://sourceforge.net/projects/nazghul/files"], ["Hero of Allacrost", "https://bitbucket.org/allacrost/allacrost/downloads/"], ["Holyspirit", "https://sourceforge.net/projects/lechemindeladam/files"], ["Ilarion", "http://illarion.org/illarion/de_java_download.php"], ["Imperium", "https://empiredirectory.net/index.php/new-downloads"], ["Iter Vehemens ad Necem", "https://sourceforge.net/projects/ivan/files/"], ["The hunt for the lost rainbow jewels (Jewelhunt)", "https://sourceforge.net/projects/jewelhunt/files"], ["Kobold's Quest 2", "https://sourceforge.net/projects/koboldsquest2/files/"], ["KQ Lives", "https://sourceforge.net/projects/kqlives/files/"], ["Labyrinth of Worlds", "https://sourceforge.net/projects/low/files"], ["Land of Fire", ""], ["Linley's Dungeon Crawl", "http://www.dungeoncrawl.org/?d"], ["Lips of Suna", ""], ["Magarena", "https://github.com/magarena/magarena/releases/"], ["The Mana World", "https://www.themanaworld.org/index.php/Downloads"], ["Meridian 59", "http://meridian59.com/play-now.php"], ["Meritous", ""], ["Moria", "http://beej.us/moria/files/"], ["Naev", "http://blog.naev.org/downloads/"], ["NetHack", "https://www.nethack.org/common/index.html"], ["NLarn", "https://github.com/nlarn/nlarn/releases"], ["Openglad", "http://snowstorm.sourceforge.net/cgi-bin/site.cgi?page=download"], ["Open Meridian", "http://openmeridian.org/create-account/"], ["OpenMW", "https://openmw.org/downloads/"], ["Open Tibia", "https://sourceforge.net/projects/opentibia/files/"], ["ORIENT", "https://sourceforge.net/projects/orient-ecircus/files"], ["Other-Life", "http://www.other-life.com/downloads.php"], ["PARPG", "http://blog.parpg.net/download/"], ["Phantasy Star Rebirth", "https://sourceforge.net/projects/phantasy/files"], ["PlaneShift", "http://www.planeshift.it/Download"], ["Project Diaspora", "https://sourceforge.net/projects/pdiaspora/files/"], ["Radakan", "https://sourceforge.net/projects/radakan/files/"], ["REGoth", "https://github.com/REGoth-project/REGoth/releases"], ["Rogue Clone IV", "https://sourceforge.net/projects/rogueclone/files/rogue%20clone/"], ["Roguish", ""], ["Room for Change", ""], ["RuneSword II", "https://sourceforge.net/projects/runesword/files/"], ["S.C.O.U.R.G.E.", "https://sourceforge.net/projects/scourge/files"], ["Silvertree", "https://code.google.com/archive/p/silvertree/downloads"], ["Slash'EM", "http://slashem.sourceforge.net/stable.html"], ["Source of Tales", ""], ["Space Station 13", ""], ["Spice Trade", "https://sourceforge.net/projects/spicetrade/files/"], ["Stendhal", ""], ["Story of a Lost Sky", "https://bitbucket.org/featheredmelody/lost-sky-project-public/downloads/"], ["Summoning Wars", "<https://web.archive.org/web/20160704003202/http://sumwars.org:80/wiki/Download>"], ["Tales of Maj'Eyal", "https://te4.org/download"], ["The Clans", "https://sourceforge.net/projects/theclans/files"], ["Trinity Reign", ""], ["Tuxemon", "https://www.tuxemon.org/download.html"], ["UlDunAd", ""], ["Umbra", "http://markdamonhughes.com/Umbra/#download"], ["Underworld Adventures", "http://uwadv.sourceforge.net/index.php?page=download"], ["UnNetHack", "https://sourceforge.net/projects/unnethack/files/unnethack/"], ["Valyria Tear", "https://valyriatear.blogspot.de/p/downloads.html"], ["VegaTrek", "https://sourceforge.net/projects/vegatrek/files/vegatrek%200.6/"], ["Waste's Edge", ""], ["Witch Blast", "https://github.com/Cirrus-Minor/witchblast/releases"], ["World of Phaos", "https://sourceforge.net/projects/phaosrpg/files/"], ["XU4", "http://xu4.sourceforge.net/download.php"], ["ZAngband", "https://sourceforge.net/projects/zangband/files/"], ["Zelda: Mystery of Solarus DX", ""], ["3d.city", ""], ["Danger from the Deep", "http://dangerdeep.sourceforge.net/downloads/"], ["Freeminer", ""], ["FreeTrain", "https://sourceforge.net/projects/freetrain/files/"], ["LinCity", ""], ["LinCity-NG", "https://sourceforge.net/projects/lincity-ng.berlios/files/"], ["Micropolis", "can be played online"], ["micropolisJS", ""], ["OpenCity", "http://www.opencity.info/en/Download.html"], ["Open Rails", "http://openrails.org/download/program/"], ["OpenSkyscraper", ""], ["Open Transport Tycoon", "http://www.openttd.org/en/download-stable"], ["Our Personal Space", ""], ["Pioneer", "https://pioneerspacesim.net/download"], ["SimuTrans", "http://www.simutrans.de/download"], ["0AD", "https://play0ad.com/download/"], ["8 Kingdoms", "https://sourceforge.net/projects/kralovstvi/files/Legacy/8%20Kingdoms%201.1.0/"], ["Age of Magic", "https://sourceforge.net/projects/ageofmagic/files/"], ["AI Wars", ""], ["Alien Assault Traders", "https://sourceforge.net/projects/aatrade/files/AATraders%200.4x/"], ["Ancient Beast", ""], ["Antares", ""], ["AntiChess", "https://sourceforge.net/projects/antichess/files/antichess/1.0/"], ["Armies", "https://sourceforge.net/projects/armies/files/"], ["Arthur's Knights", "https://sourceforge.net/projects/king-arthur/files/king-arthur/Alpha%200.3/"], ["Advanced Strategic Command", ""], ["Atomiks", "https://sourceforge.net/projects/atomiks/files"], ["Atomix", ""], ["Attal", "https://sourceforge.net/projects/attal/files/Attal/"], ["A Planet's Revenge", "https://sourceforge.net/projects/aplanetsrevenge/files/aplanetsrevenge/apr-1.0-alpha/"], ["Battlefield Java", "https://sourceforge.net/projects/battlefieldjava/files/battlefieldjava/"], ["Battles of Antargis", ""], ["Begin2", "https://sourceforge.net/projects/begin2/files/begin2/0.93/"], ["Birth of the Empires", "http://loadion.com/en/Birth-of-the-Empires_6681499.html"], ["BlackNova Traders", "https://sourceforge.net/projects/blacknova/files"], ["Blitzkrieg", "https://sourceforge.net/projects/blitzkrieg/files/developpement/"], ["Boson", "http://boson.sourceforge.net/download.php"], ["Bos Wars", "https://www.boswars.org/download.shtml"], ["Bygfoot", "https://sourceforge.net/projects/bygfoot/files/"], ["Caesar IA", "https://bitbucket.org/dalerank/caesaria/wiki/Releases"], ["Call to Power 2", ""], ["Civil", "http://civil.sourceforge.net/download.html"], ["Greenius' Civil War", ""], ["CivOne", "https://www.civone.org/Download"], ["Colobot", "https://colobot.info/download-colobot-gold/"], ["Colonization too", "https://sourceforge.net/projects/coltoo/files/"], ["Conquests", "https://launchpad.net/conquests/+download"], ["Crimson Fields", "http://crimson.seul.org/download.php"], ["Crown and Cutless", "https://sourceforge.net/projects/crownandcutlass/files/crownandcutlass/"], ["C-evo", "http://www.c-evo.org/files/files.php"], ["Dark Destiny", ""], ["Dark Oberon", "http://dark-oberon.sourceforge.net/?page=download"], ["Devana", "https://sourceforge.net/projects/devana/files"], ["Drop Shock", ""], ["Duel Commander", "https://sourceforge.net/projects/duelcommander/files"], ["Dune Dynasty", "https://sourceforge.net/projects/dunedynasty"], ["Dune II - The Maker", "http://dune2themaker.fundynamic.com/?page_id=11"], ["Dune Legacy", "http://dunelegacy.sourceforge.net/website/downloads.html"], ["Eleconics", "https://sourceforge.net/projects/eleconics/files"], ["The Epic of Heroes", "https://sourceforge.net/projects/epicheroes/files"], ["EPOH", ""], ["EternalWinterWars", ""], ["Evil Cult", ""], ["FAR Colony", ""], ["First Strike", "https://sourceforge.net/projects/firststrikegame/files/"], ["Freeciv", "http://www.freeciv.org/download.html"], ["Freeciv WebGL", ""], ["FreeCol", "http://www.freecol.org/download.html"], ["FreeLords", "https://sourceforge.net/projects/freelords/files"], ["Free Orion", "http://www.freeorion.org/index.php/Download"], ["FreeRails", "https://sourceforge.net/projects/freerails/files/jfreerails/"], ["FreeRCT", ""], ["Freeserf", "https://github.com/freeserf/freeserf/releases"], ["Free Space Colonization", "https://sourceforge.net/projects/fsc/files"], ["Freestars", ""], ["Free heroes2 engine", "https://sourceforge.net/projects/fheroes2/files/fheroes2/"], ["Free Space Colonization", "https://sourceforge.net/projects/fsc/files"], ["FreeSynd", "https://sourceforge.net/projects/freesynd/files/"], ["GalaxyNG", "https://sourceforge.net/projects/galaxyng/files"], ["Gigalomania", ""], ["Glest", "http://glest.org/en/downloads.php"], ["Globulation2", "https://globulation2.org/wiki/Download_and_Install"], ["Goblin Camp", "see dome"], ["Harris", ""], ["Heroes of Wesnoth", ""], ["Heroes of Wing Commander", "https://sourceforge.net/projects/howc/files"], ["Hexwar", ""], ["Jagged Alliance 2 Stracciatella", ""], ["JQuest", "https://sourceforge.net/projects/jquest/files"], ["JSettlers", "https://sourceforge.net/projects/jsettlers/files/"], ["KAtomic", ""], ["Kingdoms", ""], ["Knights and Merchants Remake", "http://www.kamremake.com/download/"], ["LGeneral", ""], ["LordsAWar!", ""], ["Machinations", "https://sourceforge.net/projects/machinations/"], ["Mars, Land of No Mercy", "https://sourceforge.net/projects/mars/files"], ["Mechanized Assault & eXploration Reloaded ", "https://www.maxr.org/docs.php?id=3"], ["MegaGlest", "https://megaglest.org/download"], ["Megamek", "https://www.megamek.org/downloads"], ["Mercenary Commander", ""], ["Metal Mech", "https://sourceforge.net/projects/metalmech/files"], ["M.E.W.L.", ""], ["Moopy", ""], ["Mpango", "https://sourceforge.net/projects/mpango/files/"], ["NetPanzer", "http://www.netpanzer.info/Download/"], ["Open Apocalypse", "https://ci.appveyor.com/project/openapoc/openapoc"], ["Open Dune", "https://github.com/OpenDUNE/OpenDUNE/releases"], ["Open General", "http://www.open-general.com/installer.php"], ["OpenHoMM", "https://launchpad.net/openhomm/+download"], ["Open Imperium Galactica", "https://github.com/akarnokd/open-ig/releases"], ["OpenMOO2", "http://openmoo2.org/en/download"], ["Open Panzer", ""], ["OpenPop", "https://sourceforge.net/projects/openpopulous/files"], ["OpenRA", "http://www.openra.net/download/"], ["OpenRCT2", "https://openrct2.org/downloads"], ["OpenSoccer", ""], ["Open Soccer Star", ""], ["OpenWebSoccer-Sim", "https://github.com/ihofmann/open-websoccer/releases"], ["OpenXcom", "https://openxcom.org/downloads-milestones/"], ["Operation Citadel", "https://sourceforge.net/projects/kursk/files"], ["Outer Space", "https://sourceforge.net/projects/ospace/"], ["Pax Britannica", ""], ["Pioneers", "https://sourceforge.net/projects/pio/files"], ["Pizza Business", "https://sourceforge.net/projects/pizza-business/files"], ["Planetary Hoppers", "https://sourceforge.net/projects/planets/files"], ["Polis", ""], ["Project Helena", "https://sourceforge.net/projects/projecthelena/files"], ["Promisance", "https://sourceforge.net/projects/promisance/files"], ["Return to the Roots", "https://www.siedler25.org/index.php?com=dynamic&mod=2"], ["Scorched Moon", ""], ["Scoreos", ""], ["Sengoku: Warring States of Japan", "https://sourceforge.net/projects/sengdokuwsj/files"], ["Settlers III remake", "https://github.com/jsettlers/settlers-remake/releases"], ["Simple-Solitaire", ""], ["Endgame: Singularity", ""], ["Skrupel - Tribute Compilation", "https://sourceforge.net/projects/skrupel/files"], ["Slay", "https://sourceforge.net/projects/slaygame/files"], ["Solar Empire", "https://sourceforge.net/projects/solar-empire/files"], ["Song of Albion", ""], ["Space Faring", "https://sourceforge.net/projects/space-faring/files"], ["Space Opera", "https://sourceforge.net/projects/spaceopera/files"], ["SpaceTrader for Java", "https://sourceforge.net/projects/spacetraderjava/files"], ["Space Trader for Windows", "https://sourceforge.net/projects/spacetraderwin/files"], ["Space War", "https://sourceforge.net/projects/space-war-2/files/"], ["Spring RTS engine", "https://springrts.com/wiki/Download"], ["Stars! Nova", "https://sourceforge.net/projects/stars-nova/files"], ["Star Control II: The Ur-Quan Masters", "http://sc2.sourceforge.net/downloads.php"], ["Supremacy", ""], ["Tanks of Freedom", ""], ["Corsix Theme Hospital", "https://github.com/CorsixTH/CorsixTH/releases"], ["Thousand Parsec", "http://www.thousandparsec.net/tp/download-instructions.php"], ["TripleA", "http://triplea-game.org/download/"], ["Turious", ""], ["Turn of War", ""], ["TVTower", ""], ["T-Bots", "https://sourceforge.net/projects/tbots/files"], ["UFO2000", ""], ["Ufo: Alien Invasion", "https://ufoai.org/wiki/Download"], ["Unknown Horizons", "http://unknown-horizons.org/downloads/"], ["VCMI Project", ""], ["WarGame", ""], ["Wargamer", "https://sourceforge.net/projects/wargamer/files/"], ["Wargus", "http://wargus.stratagus.com/download.shtml"], ["Warzone 2100", "https://sourceforge.net/projects/warzone2100/files/releases/"], ["War Of Kingdom", ""], ["WAtomic", "https://sourceforge.net/projects/watomic/files/"], ["Battle for Wesnoth", "http://www.wesnoth.org/#download"], ["Widelands", "https://wl.widelands.org/wiki/Download/"], ["Wizards Magic", "https://code.google.com/archive/p/wizards-magic/downloads"], ["Wolfpack Empire", "https://sourceforge.net/projects/empserver/files/"], ["World of Heroes", "https://sourceforge.net/projects/worldofheroes/files/WOH%20v0.4.2/"], ["Wyrmsun", "https://store.steampowered.com/app/370070/Wyrmsun/"], ["X-Force: Fight For Destiny", "https://sourceforge.net/projects/xforceffd/files"], ["XArchon", "http://xarchon.seul.org/download.html"], ["Xconq", "https://sourceware.org/xconq/ftp.html"], ["Xenowar", ""], ["XSera", ""], ["Zero-K", "http://zero-k.info/Wiki/Download"], ["Zetawar", ""], ["Zone of Control", "https://github.com/ozkriff/zoc/releases"]]}
+{
+ "headings": [
+  "Game",
+  "Description",
+  "Download",
+  "State",
+  "Keywords",
+  "Source"
+ ],
+ "data": [
+  [
+   "0AD (<a href=\"https://play0ad.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://play0ad.com/download/\">Link</a>",
+   "beta / active",
+   "RTS",
+   ""
+  ],
+  [
+   "3d.city (<a href=\"https://github.com/lo-th/3d.city\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / inactive since 2016",
+   "browser",
+   ""
+  ],
+  [
+   "8 Kingdoms (<a href=\"https://sourceforge.net/projects/kralovstvi/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/kralovstvi/files/Legacy/8%20Kingdoms%201.1.0/\">Link</a>",
+   "beta / inactive since 2009",
+   "",
+   ""
+  ],
+  [
+   "A Planet's Revenge (<a href=\"https://sourceforge.net/projects/aplanetsrevenge/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/aplanetsrevenge/files/aplanetsrevenge/apr-1.0-alpha/\">Link</a>",
+   "beta / inactive since 2008",
+   "",
+   ""
+  ],
+  [
+   "AI Wars (<a href=\"https://code.google.com/archive/p/aiwars/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2010",
+   "",
+   ""
+  ],
+  [
+   "AdaVenture (<a href=\"https://github.com/fastrgv/AdaVenture\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://github.com/fastrgv/AdaVenture/releases\">Link</a>",
+   "mature / active",
+   "point&click, kid-friendly",
+   ""
+  ],
+  [
+   "Advanced Strategic Command (<a href=\"http://www.asc-hq.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "TBS",
+   ""
+  ],
+  [
+   "Age of Magic (<a href=\"https://sourceforge.net/projects/ageofmagic/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/ageofmagic/files/\">Link</a>",
+   "beta / inactive since 2011",
+   "",
+   ""
+  ],
+  [
+   "Alien Assault Traders (<a href=\"http://www.aatraders.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/aatrade/files/AATraders%200.4x/\">Link</a>",
+   "beta / inactive since 2009",
+   "online",
+   ""
+  ],
+  [
+   "Allegro (<a href=\"http://liballeg.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://liballeg.org/download.html\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Ancient Beast (<a href=\"https://ancientbeast.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Andor's Trail (<a href=\"https://www.andorstrail.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://f-droid.org/packages/com.gpl.rpg.AndorsTrail/\">Link</a>",
+   "beta / active",
+   "",
+   ""
+  ],
+  [
+   "Angband (<a href=\"http://rephial.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://rephial.org/release/\">Link</a>",
+   "mature / active",
+   "roguelike",
+   ""
+  ],
+  [
+   "Annchienta (<a href=\"http://annchienta.sourceforge.net/?page=home\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/annchienta/files/annchienta/current/\">Link</a>",
+   "mature / inactive since 2009",
+   "",
+   ""
+  ],
+  [
+   "Antares (<a href=\"https://arescentral.org/antares/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / active",
+   "RTS, shooter",
+   ""
+  ],
+  [
+   "AntiChess (<a href=\"https://sourceforge.net/projects/antichess/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/antichess/files/antichess/1.0/\">Link</a>",
+   "mature / inactive since 2003",
+   "",
+   ""
+  ],
+  [
+   "Ardentryst (<a href=\"http://www.jordantrudgett.com/ardentryst/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.jordantrudgett.com/ardentryst/ardentryst-downloads/\">Link</a>",
+   "mature / inactive since 2009",
+   "",
+   ""
+  ],
+  [
+   "Argentum Online (<a href=\"http://www.comunidadargentum.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.comunidadargentum.com/descargas/\">Link</a>",
+   "beta / inactive since 2014",
+   "MMO",
+   ""
+  ],
+  [
+   "Arianne / Marauroa (<a href=\"https://arianne-project.org/ https://arianne-project.org/engine/marauroa.html\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://arianne-project.org/engine/marauroa.html\">Link</a>",
+   "mature / active",
+   "MP, 2D",
+   ""
+  ],
+  [
+   "Armies (<a href=\"https://sourceforge.net/projects/armies/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/armies/files/\">Link</a>",
+   "mature / inactive since 2007",
+   "",
+   ""
+  ],
+  [
+   "Arthur's Knights (<a href=\"http://ainenn.org/KingArthur/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/king-arthur/files/king-arthur/Alpha%200.3/\">Link</a>",
+   "beta / inactive since 2006",
+   "",
+   ""
+  ],
+  [
+   "Arx Libertatis (<a href=\"http://arx-libertatis.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://wiki.arx-libertatis.org/Download\">Link</a>",
+   "mature / active",
+   "SP",
+   ""
+  ],
+  [
+   "Astromenace (<a href=\"https://www.viewizard.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://www.viewizard.com/download.html\">Link</a>",
+   "mature / active",
+   "shooter",
+   ""
+  ],
+  [
+   "Atlantis (<a href=\"http://www.prankster.com/project/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/atlantis/files/Atlantis%204/Release%204.1.0/\">Link</a>",
+   "mature / inactive since 2016",
+   "",
+   ""
+  ],
+  [
+   "Atomiks (<a href=\"http://atomiks.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/atomiks/files\">Link</a>",
+   "mature / active",
+   "puzzle",
+   ""
+  ],
+  [
+   "Atomix (<a href=\"https://github.com/GNOME/atomix\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Atrinik (<a href=\"https://www.atrinik.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / inactive since 2016",
+   "",
+   ""
+  ],
+  [
+   "Attal (<a href=\"https://sourceforge.net/projects/attal/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/attal/files/Attal/\">Link</a>",
+   "mature / inactive since 2008",
+   "TBS",
+   ""
+  ],
+  [
+   "AutoREALM (<a href=\"https://sourceforge.net/projects/autorealm/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/autorealm/files\">Link</a>",
+   "mature / active",
+   "tool",
+   ""
+  ],
+  [
+   "Avanor (<a href=\"http://avanor.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/avanor/files\">Link</a>",
+   "beta / inactive since 2006",
+   "roguelike",
+   ""
+  ],
+  [
+   "Battle for Wesnoth (<a href=\"http://www.wesnoth.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.wesnoth.org/#download\">Link</a>",
+   "mature / active",
+   "TBS, MP",
+   ""
+  ],
+  [
+   "Battlefield Java (<a href=\"https://sourceforge.net/projects/battlefieldjava/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/battlefieldjava/files/battlefieldjava/\">Link</a>",
+   "beta / inactive since 2011",
+   "",
+   ""
+  ],
+  [
+   "Battles of Antargis (<a href=\"https://plus.google.com/101003433246259562872\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2014",
+   "",
+   ""
+  ],
+  [
+   "Begin2 (<a href=\"https://sourceforge.net/projects/begin2/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/begin2/files/begin2/0.93/\">Link</a>",
+   "beta / inactive since 2009",
+   "",
+   ""
+  ],
+  [
+   "Betrayer's Moon Tactics (<a href=\"https://sourceforge.net/projects/bm-game/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/bm-game/files\">Link</a>",
+   "beta / inactive since 2006",
+   "",
+   ""
+  ],
+  [
+   "Birth of the Empires (<a href=\"http://bote2.square7.ch/en/wiki/Main_Page\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://loadion.com/en/Birth-of-the-Empires_6681499.html\">Link</a>",
+   "mature / inactive since 2016",
+   "",
+   ""
+  ],
+  [
+   "BlackNova Traders (<a href=\"https://sourceforge.net/projects/blacknova/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/blacknova/files\">Link</a>",
+   "beta / inactive since 2012",
+   "",
+   ""
+  ],
+  [
+   "Blender game engine (<a href=\"https://www.blender.org/features/game-creation/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://www.blender.org/download/\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Blitzkrieg (<a href=\"https://sourceforge.net/projects/blitzkrieg/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/blitzkrieg/files/developpement/\">Link</a>",
+   "beta / inactive since 2009",
+   "",
+   ""
+  ],
+  [
+   "Boost (C++ Libraries) (<a href=\"http://www.boost.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.boost.org/users/download/\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Bos Wars (<a href=\"https://www.boswars.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://www.boswars.org/download.shtml\">Link</a>",
+   "mature / inactive since 2013",
+   "RTS",
+   ""
+  ],
+  [
+   "Boson (<a href=\"http://boson.sourceforge.net/index.php\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://boson.sourceforge.net/download.php\">Link</a>",
+   "beta / inactive since 2006",
+   "",
+   ""
+  ],
+  [
+   "BrowserQuest (<a href=\"http://browserquest.mozilla.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "MMO",
+   ""
+  ],
+  [
+   "Bygfoot (<a href=\"http://bygfoot.sourceforge.net/new/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/bygfoot/files/\">Link</a>",
+   "beta / active",
+   "sports",
+   ""
+  ],
+  [
+   "C-evo (<a href=\"http://www.c-evo.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.c-evo.org/files/files.php\">Link</a>",
+   "mature / inactive since 2013",
+   "TBS",
+   ""
+  ],
+  [
+   "COCOS2D-X (<a href=\"http://cocos2d-x.org/cocos2dx\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://cocos2d-x.org/download\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Caesar IA (<a href=\"https://bitbucket.org/dalerank/caesaria/overview\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://bitbucket.org/dalerank/caesaria/wiki/Releases\">Link</a>",
+   "beta / active",
+   "",
+   ""
+  ],
+  [
+   "Call to Power 2 (<a href=\"http://ctp2.darkdust.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "TBS",
+   ""
+  ],
+  [
+   "Castle of the Winds (<a href=\"http://game.castleofthewinds.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / active",
+   "remake",
+   ""
+  ],
+  [
+   "Cat Mother Dead Justice (<a href=\"http://catmother.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/catmother/files/\">Link</a>",
+   "beta / inactive since 2003",
+   "",
+   ""
+  ],
+  [
+   "Cataclysm (<a href=\"http://cataclysmrl.blogspot.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2012",
+   "roguelike",
+   ""
+  ],
+  [
+   "Catch Challenger (<a href=\"https://catchchallenger.first-world.info/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://catchchallenger.first-world.info/download.html\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Choria (<a href=\"https://github.com/jazztickets/choria\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "CivOne (<a href=\"https://www.civone.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://www.civone.org/Download\">Link</a>",
+   "beta / active",
+   "",
+   ""
+  ],
+  [
+   "Civil (<a href=\"http://civil.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://civil.sourceforge.net/download.html\">Link</a>",
+   "beta / inactive since 2003",
+   "",
+   ""
+  ],
+  [
+   "Classic Blades of Exile (<a href=\"http://www.spiderwebsoftware.com/blades/opensource.html\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Clou! (<a href=\"https://sourceforge.net/projects/cosp/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/cosp/files/\">Link</a>",
+   "beta / active",
+   "action/adventure",
+   ""
+  ],
+  [
+   "Colobot (<a href=\"https://colobot.info/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://colobot.info/download-colobot-gold/\">Link</a>",
+   "mature / active",
+   "RTS",
+   ""
+  ],
+  [
+   "Colonization too (<a href=\"https://sourceforge.net/projects/coltoo/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/coltoo/files/\">Link</a>",
+   "beta / inactive since 2004",
+   "",
+   ""
+  ],
+  [
+   "Colossal Cave Adventure (<a href=\"https://github.com/brandon-rhodes/python-adventure\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "console",
+   ""
+  ],
+  [
+   "CommandoJS (<a href=\"http://commandojs.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2012",
+   "browser",
+   ""
+  ],
+  [
+   "Conquests (<a href=\"http://conquests.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://launchpad.net/conquests/+download\">Link</a>",
+   "mature / inactive since 2012",
+   "",
+   ""
+  ],
+  [
+   "Corsix Theme Hospital (<a href=\"http://forums.corsixth.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://github.com/CorsixTH/CorsixTH/releases\">Link</a>",
+   "mature / active",
+   "remake, requires original content",
+   ""
+  ],
+  [
+   "Crimson Fields (<a href=\"http://crimson.seul.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://crimson.seul.org/download.php\">Link</a>",
+   "mature / inactive since 2010",
+   "TBS",
+   ""
+  ],
+  [
+   "Crossfire (<a href=\"http://crossfire.real-time.com/ https://sourceforge.net/projects/crossfire/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://crossfire.real-time.com/download/index.html\">Link</a>",
+   "mature / active",
+   "MMO",
+   ""
+  ],
+  [
+   "Crown and Cutless (<a href=\"http://www.crownandcutlass.com/ https://sourceforge.net/projects/crownandcutlass/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/crownandcutlass/files/crownandcutlass/\">Link</a>",
+   "beta / inactive since 2006",
+   "",
+   ""
+  ],
+  [
+   "Crypto++ (<a href=\"https://cryptopp.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://cryptopp.com/#download\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "DNT (<a href=\"http://dnt.dnteam.org/cgi-bin/about.py https://sourceforge.net/projects/dnt/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://dnt.dnteam.org/cgi-bin/downloads.py\">Link</a>",
+   "beta / inactive since 2016",
+   "SP",
+   ""
+  ],
+  [
+   "Daimonin (<a href=\"https://www.daimonin.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://www.daimonin.org/downloads/\">Link</a>",
+   "mature / active",
+   "MMO",
+   ""
+  ],
+  [
+   "Danger from the Deep (<a href=\"http://dangerdeep.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://dangerdeep.sourceforge.net/downloads/\">Link</a>",
+   "beta / inactive since 2011",
+   "",
+   ""
+  ],
+  [
+   "Dark City (<a href=\"https://sourceforge.net/projects/darkcity/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/darkcity/files/\">Link</a>",
+   "mature / inactive since 2012",
+   "",
+   ""
+  ],
+  [
+   "Dark Destiny (<a href=\"http://www.darkdestiny.at/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / inactive since 2016",
+   "MMO",
+   ""
+  ],
+  [
+   "Dark Oberon (<a href=\"http://dark-oberon.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://dark-oberon.sourceforge.net/?page=download\">Link</a>",
+   "mature / inactive since 2009",
+   "RTS",
+   ""
+  ],
+  [
+   "Dash Engine (<a href=\"https://dash.circularstudios.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / inactive since 2015",
+   "",
+   ""
+  ],
+  [
+   "Dawn (<a href=\"https://github.com/iamCode/Dawn/wiki\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2011",
+   "SP",
+   ""
+  ],
+  [
+   "Decker (<a href=\"https://web.archive.org/web/20110926115405/http://www10.caro.net:80/dsi/decker/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/decker/files\">Link</a>",
+   "beta / inactive since 2013",
+   "",
+   ""
+  ],
+  [
+   "Deity (<a href=\"http://deity.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/deity/files\">Link</a>",
+   "mature / inactive since 2014",
+   "tool",
+   ""
+  ],
+  [
+   "Deliantra (<a href=\"http://www.deliantra.net/index.html\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.deliantra.net/play.html\">Link</a>",
+   "mature / active",
+   "MMO",
+   ""
+  ],
+  [
+   "Delta Engine (<a href=\"http://www.deltaengine.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.deltaengine.net/download\">Link</a>",
+   "mature / inactive since 2015",
+   "",
+   ""
+  ],
+  [
+   "DemiGod (<a href=\"https://github.com/MattMatt0240/DemiGod\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2013",
+   "",
+   ""
+  ],
+  [
+   "Devana (<a href=\"https://web.archive.org/web/20180419021717/http://devana.eu/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/devana/files\">Link</a>",
+   "beta / active",
+   "browser",
+   ""
+  ],
+  [
+   "Digital: A Love Story (<a href=\"http://scoutshonour.com/digital/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "visual novel",
+   ""
+  ],
+  [
+   "Doxygen (<a href=\"http://www.stack.nl/~dimitri/doxygen/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.stack.nl/~dimitri/doxygen/download.html\">Link</a>",
+   "mature / active",
+   "tool, source documentation generator",
+   ""
+  ],
+  [
+   "Dragon History (<a href=\"http://www.ucw.cz/draci-historie/index-en.html\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.ucw.cz/draci-historie/index-en.html#download\">Link</a>",
+   "mature / inactive since 2010",
+   "",
+   ""
+  ],
+  [
+   "Dragon Hunt (<a href=\"http://emhsoft.com/dh.html http://savannah.nongnu.org/projects/dragon-hunt\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Drop Shock (<a href=\"http://www.tinywarz.com/index.php\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / inactive since 2014",
+   "online",
+   ""
+  ],
+  [
+   "Duel Commander (<a href=\"https://sourceforge.net/projects/duelcommander/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/duelcommander/files\">Link</a>",
+   "beta / inactive since 2009",
+   "",
+   ""
+  ],
+  [
+   "Dune Dynasty (<a href=\"http://dunedynasty.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/dunedynasty\">Link</a>",
+   "mature / inactive since 2014",
+   "requires original content",
+   ""
+  ],
+  [
+   "Dune II - The Maker (<a href=\"http://dune2themaker.fundynamic.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://dune2themaker.fundynamic.com/?page_id=11\">Link</a>",
+   "beta / active",
+   "RTS",
+   ""
+  ],
+  [
+   "Dune Legacy (<a href=\"http://dunelegacy.sourceforge.net/website/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://dunelegacy.sourceforge.net/website/downloads.html\">Link</a>",
+   "mature / active",
+   "requires original content",
+   ""
+  ],
+  [
+   "Dungeon Crawl Stone Soup (<a href=\"http://crawl.develz.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://crawl.develz.org/download.htm\">Link</a>",
+   "mature / active",
+   "roguelike",
+   ""
+  ],
+  [
+   "Dungeon Hero (<a href=\"https://github.com/guillaume-gouchon/dungeonhero\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://play.google.com/store/apps/details?id=com.glevel.dungeonhero\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Dungeon Mapper (<a href=\"http://dungeonmap.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/dungeonmap/files\">Link</a>",
+   "beta / inactive since 2013",
+   "tool",
+   ""
+  ],
+  [
+   "Dungeon Monkey Eternal (<a href=\"https://github.com/jwvhewitt/dmeternal\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / inactive since 2016",
+   "",
+   ""
+  ],
+  [
+   "Dungeon Quest (<a href=\"https://github.com/guillaume-gouchon/dungeonquest\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://play.google.com/store/apps/details?id=com.giggs.heroquest\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "ENIGMA (<a href=\"https://enigma-dev.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://enigma-dev.org/download.htm\">Link</a>",
+   "mature / active",
+   "3D",
+   ""
+  ],
+  [
+   "EPOH (<a href=\"http://www.epoh.io/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / active",
+   "online",
+   ""
+  ],
+  [
+   "EasyRPG Player (<a href=\"https://easyrpg.org/player/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://easyrpg.org/player/downloads/\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Egoboo (<a href=\"http://egoboo.sourceforge.net/about.html\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://egoboo.sourceforge.net/download.html\">Link</a>",
+   "mature / inactive since 2015",
+   "",
+   ""
+  ],
+  [
+   "Eleconics (<a href=\"https://sourceforge.net/projects/eleconics/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/eleconics/files\">Link</a>",
+   "beta / inactive since 2006",
+   "",
+   ""
+  ],
+  [
+   "Endgame: Singularity (<a href=\"http://www.emhsoft.com/singularity/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2010",
+   "SP",
+   ""
+  ],
+  [
+   "Endless Sky (<a href=\"http://endless-sky.github.io/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://github.com/endless-sky/endless-sky/releases\">Link</a>",
+   "mature / active",
+   "popular",
+   ""
+  ],
+  [
+   "Eos, Dawn of Light: A Space Opera (<a href=\"https://sourceforge.net/projects/eos-game/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/eos-game/files\">Link</a>",
+   "beta / inactive since 2007",
+   "",
+   ""
+  ],
+  [
+   "Epiar (<a href=\"https://web.archive.org/web/20170123082605/http://epiar.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://web.archive.org/web/20161106210633/http://epiar.net/download\">Link</a>",
+   "beta / active",
+   "",
+   ""
+  ],
+  [
+   "Erebus (<a href=\"http://erebusrpg.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://erebusrpg.sourceforge.net/#download\">Link</a>",
+   "beta / active",
+   "",
+   ""
+  ],
+  [
+   "Eternal Lands (<a href=\"http://www.eternal-lands.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.eternal-lands.com/page/download.php\">Link</a>",
+   "mature / active",
+   "MMO",
+   ""
+  ],
+  [
+   "EternalWinterWars (<a href=\"https://github.com/hinogi/eternalwinterwars\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2014",
+   "",
+   ""
+  ],
+  [
+   "Evil Cult (<a href=\"https://code.google.com/archive/p/cult/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Evol Online (<a href=\"http://evolonline.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://evolonline.org/manaplus\">Link</a>",
+   "mature / active",
+   "MMO",
+   ""
+  ],
+  [
+   "Exult (<a href=\"http://exult.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://exult.sourceforge.net/download.php\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "FAR Colony (<a href=\"https://code.google.com/archive/p/farcolony/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2014",
+   "",
+   ""
+  ],
+  [
+   "Fall of Imyrin (<a href=\"http://annchienta.sourceforge.net/?page=fall_of_imiryn\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/annchienta/files/annchienta/current/\">Link</a>",
+   "beta / inactive since 2009",
+   "",
+   ""
+  ],
+  [
+   "Fallen Spire (<a href=\"https://www.pygame.org/project-Fallen+Spire-1033-.html\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2009",
+   "",
+   ""
+  ],
+  [
+   "Fanwor (<a href=\"http://fanwor.tuxfamily.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "First Strike (<a href=\"https://sourceforge.net/projects/firststrikegame/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/firststrikegame/files/\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Flare Engine (<a href=\"https://github.com/clintbellanger/flare-engine\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.flarerpg.org/ https://github.com/clintbellanger/flare-engine/releases\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Flixel (<a href=\"http://flixel.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://flixel.org/download.html\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Free Orion (<a href=\"http://www.freeorion.org/index.php/Main_Page\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.freeorion.org/index.php/Download\">Link</a>",
+   "beta / active",
+   "TBS",
+   ""
+  ],
+  [
+   "Free Space Colonization (<a href=\"http://fsc.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/fsc/files\">Link</a>",
+   "beta / active",
+   "",
+   ""
+  ],
+  [
+   "Free heroes2 engine (<a href=\"https://sourceforge.net/projects/fheroes2/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/fheroes2/files/fheroes2/\">Link</a>",
+   "beta / inactive since 2015",
+   "",
+   ""
+  ],
+  [
+   "Free in the Dark (engine) (<a href=\"https://github.com/jmimu/FITD\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / active",
+   "engine, remake",
+   ""
+  ],
+  [
+   "FreeCol (<a href=\"http://www.freecol.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.freecol.org/download.html\">Link</a>",
+   "mature / active",
+   "TBS, MP",
+   ""
+  ],
+  [
+   "FreeLords (<a href=\"https://sourceforge.net/projects/freelords/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/freelords/files\">Link</a>",
+   "beta / active",
+   "",
+   ""
+  ],
+  [
+   "FreeRCT (<a href=\"https://web.archive.org/web/*/http://www.freerct.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2016",
+   "inspired",
+   ""
+  ],
+  [
+   "FreeRails (<a href=\"http://freerails.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/freerails/files/jfreerails/\">Link</a>",
+   "beta / active",
+   "RTS",
+   ""
+  ],
+  [
+   "FreeSynd (<a href=\"http://freesynd.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/freesynd/files/\">Link</a>",
+   "beta / active",
+   "requires original content",
+   ""
+  ],
+  [
+   "FreeTrain (<a href=\"http://freetrain.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/freetrain/files/\">Link</a>",
+   "beta / inactive since 2009",
+   "",
+   ""
+  ],
+  [
+   "FreeType (<a href=\"https://www.freetype.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://www.freetype.org/download.html\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Freeciv (<a href=\"http://www.freeciv.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.freeciv.org/download.html\">Link</a>",
+   "mature / active",
+   "TBS, MP",
+   ""
+  ],
+  [
+   "Freeciv WebGL (<a href=\"https://play.freeciv.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "online, TBS",
+   ""
+  ],
+  [
+   "Freedink (<a href=\"https://www.gnu.org/software/freedink/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://www.gnu.org/software/freedink/get\">Link</a>",
+   "mature / active",
+   "remake",
+   ""
+  ],
+  [
+   "FreedroidRPG (<a href=\"http://www.freedroid.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.freedroid.org/download/\">Link</a>",
+   "mature / active",
+   "SP, isometric",
+   ""
+  ],
+  [
+   "Freeminer (<a href=\"https://web.archive.org/web/20170531043347/http://freeminer.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / active",
+   "",
+   ""
+  ],
+  [
+   "Freeserf (<a href=\"http://jonls.dk/freeserf/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://github.com/freeserf/freeserf/releases\">Link</a>",
+   "beta / active",
+   "remake, requires original content",
+   ""
+  ],
+  [
+   "Freestars (<a href=\"http://freestars.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2008",
+   "",
+   ""
+  ],
+  [
+   "GDash (<a href=\"https://bitbucket.org/czirkoszoltan/gdash\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://bitbucket.org/czirkoszoltan/gdash/downloads/\">Link</a>",
+   "beta / active",
+   "",
+   ""
+  ],
+  [
+   "GM Tools (<a href=\"https://sourceforge.net/projects/gm-tools/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/gm-tools/files\">Link</a>",
+   "beta / inactive since 2004",
+   "tool",
+   ""
+  ],
+  [
+   "GalaxyMage Redux (<a href=\"https://code.google.com/archive/p/galaxymageredux/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2011",
+   "",
+   ""
+  ],
+  [
+   "GalaxyNG (<a href=\"http://galaxyng.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/galaxyng/files\">Link</a>",
+   "mature / inactive since 2005",
+   "TBS",
+   ""
+  ],
+  [
+   "GameLV (<a href=\"http://piepe.lv/game-lv/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / active",
+   "",
+   ""
+  ],
+  [
+   "GearHead (<a href=\"http://www.gearheadrpg.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.gearheadrpg.com/downloads/\">Link</a>",
+   "mature / active",
+   "roguelike",
+   ""
+  ],
+  [
+   "Gee Whiz (<a href=\"http://icculus.org/gwiz/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://icculus.org/gwiz/download.php\">Link</a>",
+   "beta / inactive since 2004",
+   "",
+   ""
+  ],
+  [
+   "GemRB (<a href=\"http://www.gemrb.org/wiki/doku.php?id=start\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.gemrb.org/wiki/doku.php?id=download\">Link</a>",
+   "mature / active",
+   "isometric 2D",
+   ""
+  ],
+  [
+   "Gigalomania (<a href=\"http://gigalomania.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "RTS",
+   ""
+  ],
+  [
+   "Glest (<a href=\"http://glest.org/en/index.php\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://glest.org/en/downloads.php\">Link</a>",
+   "mature / inactive since 2009",
+   "RTS",
+   ""
+  ],
+  [
+   "Globulation2 (<a href=\"https://globulation2.org/wiki/Main_Page\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://globulation2.org/wiki/Download_and_Install\">Link</a>",
+   "mature / active",
+   "RTS",
+   ""
+  ],
+  [
+   "Goblin Camp (<a href=\"http://www.goblincamp.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2012",
+   "",
+   ""
+  ],
+  [
+   "Goblin Hack (<a href=\"https://sourceforge.net/projects/goblinhack/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/goblinhack/files/\">Link</a>",
+   "beta / inactive since 2009",
+   "Sp, roguelike",
+   ""
+  ],
+  [
+   "Godot (<a href=\"https://godotengine.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://godotengine.org/download\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Greenius' Civil War (<a href=\"http://civilwar.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2001",
+   "",
+   ""
+  ],
+  [
+   "H-World (<a href=\"https://sourceforge.net/projects/h-world/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/h-world/files/\">Link</a>",
+   "beta / inactive since 2005",
+   "",
+   ""
+  ],
+  [
+   "Hale (<a href=\"https://sourceforge.net/projects/hale/ https://sourceforge.net/p/hale/wiki/Home/ http://halegame.com\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/hale/files/\">Link</a>",
+   "beta / inactive since 2014",
+   "TB",
+   ""
+  ],
+  [
+   "HarfBuzz (<a href=\"https://www.freedesktop.org/wiki/Software/HarfBuzz/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Harris (<a href=\"https://github.com/ec429/harris\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / active",
+   "",
+   ""
+  ],
+  [
+   "HaxeFlixel (<a href=\"http://haxeflixel.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://haxeflixel.com/download/\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Haxima (<a href=\"https://sourceforge.net/projects/nazghul/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/nazghul/files\">Link</a>",
+   "beta / active",
+   "",
+   ""
+  ],
+  [
+   "Hero of Allacrost (<a href=\"http://allacrost.org\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://bitbucket.org/allacrost/allacrost/downloads/\">Link</a>",
+   "mature / active",
+   "SP, 2D",
+   ""
+  ],
+  [
+   "Heroes of Wesnoth (<a href=\"https://launchpad.net/heroesofwesnoth\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / active",
+   "TBS",
+   ""
+  ],
+  [
+   "Heroes of Wing Commander (<a href=\"https://sourceforge.net/projects/howc/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/howc/files\">Link</a>",
+   "beta / inactive since 2014",
+   "",
+   ""
+  ],
+  [
+   "Hexwar (<a href=\"https://github.com/mgfreshour/hexwar\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2012",
+   "TBS, online",
+   ""
+  ],
+  [
+   "Holyspirit (<a href=\"https://sourceforge.net/projects/lechemindeladam/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/lechemindeladam/files\">Link</a>",
+   "beta / inactive since 2013",
+   "action-rpg",
+   ""
+  ],
+  [
+   "Ilarion (<a href=\"http://illarion.org/general/de_startpage.php\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://illarion.org/illarion/de_java_download.php\">Link</a>",
+   "mature / active",
+   "MMO",
+   ""
+  ],
+  [
+   "Imperium (<a href=\"https://empiredirectory.net/index.php\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://empiredirectory.net/index.php/new-downloads\">Link</a>",
+   "mature / active",
+   "console",
+   ""
+  ],
+  [
+   "Irrlicht Engine (<a href=\"http://irrlicht.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://irrlicht.sourceforge.net/?page_id=10\">Link</a>",
+   "mature / active",
+   "3D",
+   ""
+  ],
+  [
+   "Iter Vehemens ad Necem (<a href=\"https://sourceforge.net/projects/ivan/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/ivan/files/\">Link</a>",
+   "beta / inactive since 2004",
+   "roguelike",
+   ""
+  ],
+  [
+   "JQuest (<a href=\"https://sourceforge.net/projects/jquest\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/jquest/files\">Link</a>",
+   "beta / inactive since 2006",
+   "",
+   ""
+  ],
+  [
+   "JSettlers (<a href=\"https://sourceforge.net/projects/jsettlers/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/jsettlers/files/\">Link</a>",
+   "mature / active",
+   "board game",
+   ""
+  ],
+  [
+   "JaNaG - Java Name Generator (<a href=\"https://sourceforge.net/projects/janag.berlios/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/janag.berlios/files\">Link</a>",
+   "mature / inactive since 2011",
+   "tool",
+   ""
+  ],
+  [
+   "Jagged Alliance 2 Stracciatella (<a href=\"https://ja2-stracciatella.github.io/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "requires original content",
+   ""
+  ],
+  [
+   "JiGS Interactive Game System (<a href=\"http://www.eclecticmeme.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / active",
+   "online",
+   ""
+  ],
+  [
+   "KAtomic (<a href=\"https://www.kde.org/applications/games/katomic/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "puzzle",
+   ""
+  ],
+  [
+   "KQ Lives (<a href=\"http://kqlives.sourceforge.net/ https://sourceforge.net/projects/kqlives/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/kqlives/files/\">Link</a>",
+   "beta / inactive since 2011",
+   "",
+   ""
+  ],
+  [
+   "Kingdoms (<a href=\"http://anttisalonen.github.io/kingdoms/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2014",
+   "",
+   ""
+  ],
+  [
+   "Knights and Merchants Remake (<a href=\"http://www.kamremake.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.kamremake.com/download/\">Link</a>",
+   "mature / active",
+   "RTS",
+   ""
+  ],
+  [
+   "Kobold's Quest 2 (<a href=\"https://sourceforge.net/projects/koboldsquest2/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/koboldsquest2/files/\">Link</a>",
+   "beta / inactive since 2011",
+   "",
+   ""
+  ],
+  [
+   "LGeneral (<a href=\"http://lgames.sourceforge.net/LGeneral/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "TBS",
+   ""
+  ],
+  [
+   "LZMA SDK (<a href=\"http://7-zip.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://7-zip.org/download.html http://7-zip.org/sdk.html\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Labyrinth of Worlds (<a href=\"http://low.sourceforge.net/index.php\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/low/files\">Link</a>",
+   "beta / inactive since 2010",
+   "",
+   ""
+  ],
+  [
+   "Land of Fire (<a href=\"http://landoffire.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / active",
+   "",
+   ""
+  ],
+  [
+   "Libxml2 (<a href=\"http://www.xmlsoft.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.xmlsoft.org/downloads.html\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Lightweight Java Game Library (<a href=\"https://www.lwjgl.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://www.lwjgl.org/download\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "LinCity (<a href=\"http://lincity.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "LinCity-NG (<a href=\"https://sourceforge.net/projects/lincity-ng.berlios/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/lincity-ng.berlios/files/\">Link</a>",
+   "beta / active",
+   "",
+   ""
+  ],
+  [
+   "Linley's Dungeon Crawl (<a href=\"http://www.dungeoncrawl.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.dungeoncrawl.org/?d\">Link</a>",
+   "mature / inactive since 2006",
+   "roguelike",
+   ""
+  ],
+  [
+   "Linwarrior 3D (<a href=\"http://www.hackcraft.de/games/linwarrior_3d/index.htm\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.hackcraft.de/games/linwarrior_3d/downloads.htm\">Link</a>",
+   "mature / inactive since 2010",
+   "",
+   ""
+  ],
+  [
+   "Lips of Suna (<a href=\"https://web.archive.org/web/20160904014454/http://lipsofsuna.org:80/ https://sourceforge.net/projects/lipsofsuna/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2014",
+   "",
+   ""
+  ],
+  [
+   "LordsAWar! (<a href=\"http://www.nongnu.org/lordsawar/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "TBS",
+   ""
+  ],
+  [
+   "Lua (<a href=\"http://www.lua.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.lua.org/download.html\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Lumix Engine (<a href=\"https://github.com/nem0/lumixengine\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://github.com/nem0/LumixEngine/releases\">Link</a>",
+   "beta / active",
+   "3D",
+   ""
+  ],
+  [
+   "L\u00d6VE (<a href=\"https://love2d.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "M.E.W.L. (<a href=\"https://github.com/LionsPhil/mewl\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2015",
+   "remake",
+   ""
+  ],
+  [
+   "Machinations (<a href=\"http://machinations.sourceforge.net/index.php\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/machinations/\">Link</a>",
+   "beta / inactive since 2003",
+   "",
+   ""
+  ],
+  [
+   "Magarena (<a href=\"http://magarena.github.io/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://github.com/magarena/magarena/releases/\">Link</a>",
+   "mature / active",
+   "cards",
+   ""
+  ],
+  [
+   "Mana (<a href=\"http://www.manasource.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.manasource.org/downloads.html\">Link</a>",
+   "beta / active",
+   "MMO",
+   ""
+  ],
+  [
+   "Maratis (<a href=\"http://www.maratis3d.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.maratis3d.org/?page_id=57\">Link</a>",
+   "beta / active",
+   "",
+   ""
+  ],
+  [
+   "Mars, Land of No Mercy (<a href=\"https://sourceforge.net/projects/mars/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/mars/files\">Link</a>",
+   "beta / inactive since 2008",
+   "TBS",
+   ""
+  ],
+  [
+   "MechCommander 2 Omnitech (<a href=\"https://github.com/Echelon9/mechcommander2-open\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2013",
+   "",
+   ""
+  ],
+  [
+   "Mechanized Assault & eXploration Reloaded  (<a href=\"https://www.maxr.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://www.maxr.org/docs.php?id=3\">Link</a>",
+   "beta / inactive since 2016",
+   "requires original content",
+   ""
+  ],
+  [
+   "MegaGlest (<a href=\"https://megaglest.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://megaglest.org/download\">Link</a>",
+   "mature / active",
+   "RTS",
+   ""
+  ],
+  [
+   "Megamek (<a href=\"https://www.megamek.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://www.megamek.org/downloads\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Mercenary Commander (<a href=\"https://code.google.com/archive/p/mercenarycommander/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2010",
+   "",
+   ""
+  ],
+  [
+   "Meridian 59 (<a href=\"http://meridian59.com/ http://meridian59.de\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://meridian59.com/play-now.php\">Link</a>",
+   "mature / active",
+   "MMO",
+   ""
+  ],
+  [
+   "Meritous (<a href=\"http://www.asceai.net/meritous/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / inactive since 2008",
+   "",
+   ""
+  ],
+  [
+   "Metal Mech (<a href=\"https://sourceforge.net/projects/metalmech/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/metalmech/files\">Link</a>",
+   "beta / inactive since 2006",
+   "",
+   ""
+  ],
+  [
+   "Micropolis (<a href=\"http://micropolisonline.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "online",
+   ""
+  ],
+  [
+   "MonoGame (<a href=\"http://www.monogame.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.monogame.net/downloads/\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Moopy (<a href=\"https://code.google.com/archive/p/moopy/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2008",
+   "",
+   ""
+  ],
+  [
+   "Moria (<a href=\"http://beej.us/moria/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://beej.us/moria/files/\">Link</a>",
+   "mature / inactive since 2008",
+   "roguelike",
+   ""
+  ],
+  [
+   "Mpango (<a href=\"https://sourceforge.net/projects/mpango\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/mpango/files/\">Link</a>",
+   "beta / inactive since 2013",
+   "",
+   ""
+  ],
+  [
+   "Murder In The Public Domain (<a href=\"http://murderpd.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/murderpd/files/\">Link</a>",
+   "mature / active",
+   "visual novel",
+   ""
+  ],
+  [
+   "NLarn (<a href=\"https://nlarn.github.io/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://github.com/nlarn/nlarn/releases\">Link</a>",
+   "mature / active",
+   "roguelike",
+   ""
+  ],
+  [
+   "Naev (<a href=\"http://blog.naev.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://blog.naev.org/downloads/\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "NetHack (<a href=\"https://www.nethack.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://www.nethack.org/common/index.html\">Link</a>",
+   "mature / active",
+   "roguelike",
+   ""
+  ],
+  [
+   "NetPanzer (<a href=\"http://www.netpanzer.info/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.netpanzer.info/Download/\">Link</a>",
+   "beta / active",
+   "online, MP, RTS",
+   ""
+  ],
+  [
+   "O.H.R.RPG.C.E (<a href=\"http://rpg.hamsterrepublic.com/ohrrpgce/Main_Page\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://rpg.hamsterrepublic.com/ohrrpgce/Downloads\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "OGRE3D (<a href=\"https://www.ogre3d.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://www.ogre3d.org/download/sdk\">Link</a>",
+   "mature / active",
+   "3D",
+   ""
+  ],
+  [
+   "ORIENT (<a href=\"https://web.archive.org/web/20131114051805/http://www.e-circus.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/orient-ecircus/files\">Link</a>",
+   "mature / inactive since 2009",
+   "educational",
+   ""
+  ],
+  [
+   "Octaforge (<a href=\"https://octaforge.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://octaforge.org/page/downloads\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Open AL (<a href=\"http://www.openal.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.openal.org/downloads/\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Open AL Soft (<a href=\"http://kcat.strangesoft.net/openal.html\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Open Apocalypse (<a href=\"http://openapoc.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://ci.appveyor.com/project/openapoc/openapoc\">Link</a>",
+   "mature / active",
+   "requires original content",
+   ""
+  ],
+  [
+   "Open Dune (<a href=\"https://github.com/OpenDUNE/OpenDUNE\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://github.com/OpenDUNE/OpenDUNE/releases\">Link</a>",
+   "mature / active",
+   "remake, requires original content",
+   ""
+  ],
+  [
+   "Open General (<a href=\"http://www.open-general.com\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.open-general.com/installer.php\">Link</a>",
+   "mature / active",
+   "requires original content",
+   ""
+  ],
+  [
+   "Open Imperium Galactica (<a href=\"https://github.com/akarnokd/open-ig\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://github.com/akarnokd/open-ig/releases\">Link</a>",
+   "beta / active",
+   "TBS",
+   ""
+  ],
+  [
+   "Open Legend RPG (<a href=\"http://www.openlegendrpg.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "board game",
+   ""
+  ],
+  [
+   "Open Meridian (<a href=\"http://openmeridian.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://openmeridian.org/create-account/\">Link</a>",
+   "mature / active",
+   "MMO",
+   ""
+  ],
+  [
+   "Open Panzer (<a href=\"http://www.linuxconsulting.ro/openpanzer/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "online",
+   ""
+  ],
+  [
+   "Open RPG Maker (<a href=\"http://openrpgmaker.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/openrpgmaker/files/\">Link</a>",
+   "beta / inactive since 2014",
+   "",
+   ""
+  ],
+  [
+   "Open Rails (<a href=\"http://openrails.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://openrails.org/download/program/\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Open Soccer Star (<a href=\"https://opensoccerstar.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / active",
+   "online, sports",
+   ""
+  ],
+  [
+   "Open Sonic (<a href=\"http://opensnc.sourceforge.net/home/index.php\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://opensnc.sourceforge.net/home/download.php\">Link</a>",
+   "beta / active",
+   "",
+   ""
+  ],
+  [
+   "Open Tibia (<a href=\"https://github.com/opentibia https://sourceforge.net/projects/opentibia/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/opentibia/files/\">Link</a>",
+   "beta / inactive since 2014",
+   "",
+   ""
+  ],
+  [
+   "Open Transport Tycoon (<a href=\"http://www.openttd.org/en/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.openttd.org/en/download-stable\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Open Zelda (<a href=\"https://github.com/openzelda/openzelda-source\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / active",
+   "requires original content",
+   ""
+  ],
+  [
+   "OpenCity (<a href=\"http://www.opencity.info/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.opencity.info/en/Download.html\">Link</a>",
+   "beta / active",
+   "",
+   ""
+  ],
+  [
+   "OpenFL (<a href=\"http://www.openfl.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.openfl.org/learn/docs/getting-started/\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "OpenHoMM (<a href=\"https://launchpad.net/openhomm\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://launchpad.net/openhomm/+download\">Link</a>",
+   "beta / inactive since 2010",
+   "",
+   ""
+  ],
+  [
+   "OpenMOO2 (<a href=\"http://openmoo2.org/en/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://openmoo2.org/en/download\">Link</a>",
+   "beta / inactive since 2011",
+   "",
+   ""
+  ],
+  [
+   "OpenMW (<a href=\"http://openmw.org/en/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://openmw.org/downloads/\">Link</a>",
+   "mature / active",
+   "engine, remake, requires original content",
+   ""
+  ],
+  [
+   "OpenPop (<a href=\"http://openpopulous.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/openpopulous/files\">Link</a>",
+   "beta / inactive since 2009",
+   "",
+   ""
+  ],
+  [
+   "OpenRA (<a href=\"http://www.openra.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.openra.net/download/\">Link</a>",
+   "mature / active",
+   "RTS",
+   ""
+  ],
+  [
+   "OpenRCT2 (<a href=\"https://openrct2.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://openrct2.org/downloads\">Link</a>",
+   "beta / active",
+   "remake, requires original content",
+   ""
+  ],
+  [
+   "OpenRPG (<a href=\"http://www.rpgobjects.com/index.php?c=orpg https://app.assembla.com/spaces/openrpg/wiki/Home\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.rpgobjects.com/index.php?c=orpg&m=getorpg\">Link</a>",
+   "mature / inactive since 2013",
+   "",
+   ""
+  ],
+  [
+   "OpenSSL (<a href=\"https://www.openssl.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://www.openssl.org/source/\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "OpenSkyscraper (<a href=\"https://github.com/fabianschuiki/OpenSkyscraper\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / active",
+   "remake",
+   ""
+  ],
+  [
+   "OpenSoccer (<a href=\"https://github.com/delight-im/OpenSoccer\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / active",
+   "online, sports",
+   ""
+  ],
+  [
+   "OpenWebSoccer-Sim (<a href=\"https://github.com/ihofmann/open-websoccer\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://github.com/ihofmann/open-websoccer/releases\">Link</a>",
+   "mature / active",
+   "online, sports",
+   ""
+  ],
+  [
+   "OpenXcom (<a href=\"https://openxcom.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://openxcom.org/downloads-milestones/\">Link</a>",
+   "mature / active",
+   "TBS",
+   ""
+  ],
+  [
+   "Openglad (<a href=\"http://snowstorm.sourceforge.net/cgi-bin/site.cgi?page=home https://sourceforge.net/projects/snowstorm/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://snowstorm.sourceforge.net/cgi-bin/site.cgi?page=download\">Link</a>",
+   "mature / inactive since 2004",
+   "remake",
+   ""
+  ],
+  [
+   "Operation Citadel (<a href=\"http://kursk.sourceforge.net/newfiles/Projects.htm\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/kursk/files\">Link</a>",
+   "beta / inactive since 2000",
+   "",
+   ""
+  ],
+  [
+   "Orx (<a href=\"http://orx-project.org/about\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://github.com/orx/orx/releases\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Other-Life (<a href=\"http://www.other-life.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.other-life.com/downloads.php\">Link</a>",
+   "beta / active",
+   "MMO",
+   ""
+  ],
+  [
+   "Our Personal Space (<a href=\"http://metasepia.icecavern.net/OurPersonalSpace/index.html\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "visual novel",
+   ""
+  ],
+  [
+   "Outer Space (<a href=\"https://sourceforge.net/projects/ospace/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/ospace/\">Link</a>",
+   "beta / inactive since 2012",
+   "",
+   ""
+  ],
+  [
+   "PARPG (<a href=\"http://blog.parpg.net/ https://sourceforge.net/projects/parpg/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://blog.parpg.net/download/\">Link</a>",
+   "beta / inactive since 2012",
+   "",
+   ""
+  ],
+  [
+   "PCGen (<a href=\"http://pcgen.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://pcgen.org/download/\">Link</a>",
+   "mature / active",
+   "tool",
+   ""
+  ],
+  [
+   "Panda 3D (<a href=\"http://www.panda3d.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.panda3d.org/download.php\">Link</a>",
+   "mature / active",
+   "3D",
+   ""
+  ],
+  [
+   "Pax Britannica (<a href=\"http://paxbritannica.henk.ca/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "MP, RTS",
+   ""
+  ],
+  [
+   "Phantasy Star Rebirth (<a href=\"https://sourceforge.net/projects/phantasy/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/phantasy/files\">Link</a>",
+   "beta / inactive since 2013",
+   "",
+   ""
+  ],
+  [
+   "Pioneer (<a href=\"https://pioneerspacesim.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://pioneerspacesim.net/download\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Pioneers (<a href=\"https://sourceforge.net/projects/pio/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/pio/files\">Link</a>",
+   "mature / active",
+   "board game",
+   ""
+  ],
+  [
+   "Pizza Business (<a href=\"http://pizza-business.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/pizza-business/files\">Link</a>",
+   "mature / inactive since 2003",
+   "",
+   ""
+  ],
+  [
+   "PlaneShift (<a href=\"http://www.planeshift.it/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.planeshift.it/Download\">Link</a>",
+   "mature / active",
+   "MMO",
+   ""
+  ],
+  [
+   "Planetary Hoppers (<a href=\"https://sourceforge.net/projects/planets/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/planets/files\">Link</a>",
+   "beta / inactive since 2003",
+   "",
+   ""
+  ],
+  [
+   "Polis (<a href=\"https://code.google.com/archive/p/polisgame/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / inactive since 2016",
+   "",
+   ""
+  ],
+  [
+   "Polycode (<a href=\"http://polycode.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://polycode.org/download/\">Link</a>",
+   "beta / active",
+   "",
+   ""
+  ],
+  [
+   "Project Diaspora (<a href=\"http://pdiaspora.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/pdiaspora/files/\">Link</a>",
+   "beta / inactive since 2011",
+   "",
+   ""
+  ],
+  [
+   "Project Helena (<a href=\"https://sourceforge.net/projects/projecthelena/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/projecthelena/files\">Link</a>",
+   "beta / inactive since 2015",
+   "",
+   ""
+  ],
+  [
+   "Promisance (<a href=\"https://sourceforge.net/projects/promisance/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/promisance/files\">Link</a>",
+   "mature / inactive since 2004",
+   "",
+   ""
+  ],
+  [
+   "Pthreads-win32 (<a href=\"https://sourceware.org/pthreads-win32/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Pymapper (<a href=\"http://pymapper.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://pymapper.com/downloads/\">Link</a>",
+   "mature / active",
+   "tool",
+   ""
+  ],
+  [
+   "Qt (<a href=\"https://www.qt.io/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://www1.qt.io/download-open-source/\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Quad-engine (<a href=\"http://quad-engine.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://quad-engine.com/downloads.html\">Link</a>",
+   "beta / active",
+   "",
+   ""
+  ],
+  [
+   "REGoth (<a href=\"https://github.com/REGoth-project/REGoth\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://github.com/REGoth-project/REGoth/releases\">Link</a>",
+   "beta / active",
+   "remake, requires original content",
+   ""
+  ],
+  [
+   "RPDungeon - computer aided role playing (<a href=\"https://sourceforge.net/projects/rpdungeon/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/rpdungeon/files\">Link</a>",
+   "beta / inactive since 2006",
+   "tool",
+   ""
+  ],
+  [
+   "Radakan (<a href=\"https://web.archive.org/web/20170915004555/http://radakan.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/radakan/files/\">Link</a>",
+   "beta / inactive since 2010",
+   "SP",
+   ""
+  ],
+  [
+   "Ragel (<a href=\"http://www.colm.net/open-source/ragel/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Red Eclipse (<a href=\"https://www.redeclipse.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://www.redeclipse.net/download\">Link</a>",
+   "mature / active",
+   "shooter",
+   ""
+  ],
+  [
+   "Return to the Roots (<a href=\"https://www.siedler25.org/index.php\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://www.siedler25.org/index.php?com=dynamic&mod=2\">Link</a>",
+   "mature / active",
+   "remake, requires original content",
+   ""
+  ],
+  [
+   "Rocks'n'Diamonds  (<a href=\"http://www.artsoft.org/rocksndiamonds/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.artsoft.org/rocksndiamonds/download/\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Rogue Clone IV (<a href=\"http://rogueclone.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/rogueclone/files/rogue%20clone/\">Link</a>",
+   "mature / inactive since 2006",
+   "remake, roguelike",
+   ""
+  ],
+  [
+   "Roguish (<a href=\"https://github.com/CamHenlin/Roguish\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2015",
+   "roguelike",
+   ""
+  ],
+  [
+   "Rolemaster Office (<a href=\"https://sourceforge.net/projects/rmoffice/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/rmoffice/files\">Link</a>",
+   "mature / active",
+   "tool",
+   ""
+  ],
+  [
+   "Rolisteam (<a href=\"http://www.rolisteam.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.rolisteam.org/download.html\">Link</a>",
+   "mature / active",
+   "tool",
+   ""
+  ],
+  [
+   "Room for Change (<a href=\"https://github.com/antionio/game-off-2013\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / inactive since 2013",
+   "",
+   ""
+  ],
+  [
+   "RuneSword II (<a href=\"https://sourceforge.net/projects/runesword/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/runesword/files/\">Link</a>",
+   "mature / inactive since 2011",
+   "",
+   ""
+  ],
+  [
+   "S.C.O.U.R.G.E. (<a href=\"https://sourceforge.net/projects/scourge/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/scourge/files\">Link</a>",
+   "beta / inactive since 2008",
+   "roguelike",
+   ""
+  ],
+  [
+   "SDL Game Engine 2D (<a href=\"https://sourceforge.net/projects/sge2d/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/sge2d/files/sge2d/\">Link</a>",
+   "beta / inactive since 2014",
+   "",
+   ""
+  ],
+  [
+   "SWIG (<a href=\"http://swig.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.swig.org/download.html\">Link</a>",
+   "mature / active",
+   "language binding, interface generator",
+   ""
+  ],
+  [
+   "Scorched Moon (<a href=\"https://github.com/Scorched-Moon\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / active",
+   "",
+   ""
+  ],
+  [
+   "Scoreos (<a href=\"https://web.archive.org/web/20120618143653/http://scoreos.org:80/about\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2008",
+   "online, sports",
+   ""
+  ],
+  [
+   "ScummVM (<a href=\"http://www.scummvm.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.scummvm.org/downloads/\">Link</a>",
+   "mature / active",
+   "engine",
+   ""
+  ],
+  [
+   "Secret Mario Chronicles (<a href=\"https://sourceforge.net/projects/smclone/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/smclone/files\">Link</a>",
+   "mature / inactive since 2009",
+   "puzzle",
+   ""
+  ],
+  [
+   "Sengoku: Warring States of Japan (<a href=\"https://sourceforge.net/projects/sengdokuwsj/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/sengdokuwsj/files\">Link</a>",
+   "beta / inactive since 2008",
+   "",
+   ""
+  ],
+  [
+   "Sentient Storage (<a href=\"https://pyweek.org/e/np8g/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Settlers III remake (<a href=\"https://github.com/jsettlers/settlers-remake\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://github.com/jsettlers/settlers-remake/releases\">Link</a>",
+   "beta / active",
+   "remake, requires original content",
+   ""
+  ],
+  [
+   "Silvertree (<a href=\"https://code.google.com/archive/p/silvertree/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://code.google.com/archive/p/silvertree/downloads\">Link</a>",
+   "beta / inactive since 2007",
+   "SP",
+   ""
+  ],
+  [
+   "Simple DirectMedia Layer (<a href=\"https://www.libsdl.org/index.php\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://www.libsdl.org/download-2.0.php\">Link</a>",
+   "mature / active",
+   "3D",
+   ""
+  ],
+  [
+   "Simple and Fast Multimedia Library (<a href=\"https://www.sfml-dev.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://www.sfml-dev.org/download.php\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Simple-Solitaire (<a href=\"https://play.google.com/store/apps/details?id=de.tobiasbielefeld.solitaire\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "cards",
+   ""
+  ],
+  [
+   "SimuTrans (<a href=\"http://www.simutrans.de/start\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.simutrans.de/download\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Sintel The Game (<a href=\"https://github.com/jonburesh/sintelgame\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2014",
+   "",
+   ""
+  ],
+  [
+   "Skrupel - Tribute Compilation (<a href=\"https://sourceforge.net/projects/skrupel/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/skrupel/files\">Link</a>",
+   "mature / inactive since 2010",
+   "",
+   ""
+  ],
+  [
+   "Slash'EM (<a href=\"http://slashem.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://slashem.sourceforge.net/stable.html\">Link</a>",
+   "beta / inactive since 2007",
+   "roguelike",
+   ""
+  ],
+  [
+   "Slay (<a href=\"https://sourceforge.net/projects/slaygame/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/slaygame/files\">Link</a>",
+   "beta / inactive since 2010",
+   "",
+   ""
+  ],
+  [
+   "Smash (<a href=\"http://smash.gouchon.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "browser",
+   ""
+  ],
+  [
+   "Solar Empire (<a href=\"https://sourceforge.net/projects/solar-empire/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/solar-empire/files\">Link</a>",
+   "mature / inactive since 2012",
+   "",
+   ""
+  ],
+  [
+   "Solaris the Game (<a href=\"https://sourceforge.net/projects/solaristhegame/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/solaristhegame/files/\">Link</a>",
+   "beta / inactive since 2010",
+   "",
+   ""
+  ],
+  [
+   "Solarus (<a href=\"http://www.solarus-games.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.solarus-games.org/engine/download/\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Song of Albion (<a href=\"https://code.google.com/archive/p/songofalbion/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / inactive since 2011",
+   "",
+   ""
+  ],
+  [
+   "Source of Tales (<a href=\"http://www.sourceoftales.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / inactive since 2013",
+   "MMO",
+   ""
+  ],
+  [
+   "Space Faring (<a href=\"https://sourceforge.net/projects/space-faring/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/space-faring/files\">Link</a>",
+   "beta / active",
+   "",
+   ""
+  ],
+  [
+   "Space Opera (<a href=\"https://sourceforge.net/projects/spaceopera/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/spaceopera/files\">Link</a>",
+   "beta / inactive since 2008",
+   "",
+   ""
+  ],
+  [
+   "Space Station 13 (<a href=\"https://spacestation13.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "online",
+   ""
+  ],
+  [
+   "Space Trader for Windows (<a href=\"https://sourceforge.net/projects/spacetraderwin/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/spacetraderwin/files\">Link</a>",
+   "mature / inactive since 2008",
+   "",
+   ""
+  ],
+  [
+   "Space War (<a href=\"https://sourceforge.net/projects/space-war-2/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/space-war-2/files/\">Link</a>",
+   "mature / active",
+   "TBS",
+   ""
+  ],
+  [
+   "SpaceTrader for Java (<a href=\"https://sourceforge.net/projects/spacetraderjava/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/spacetraderjava/files\">Link</a>",
+   "mature / inactive since 2010",
+   "",
+   ""
+  ],
+  [
+   "Speed Dreams (<a href=\"http://www.speed-dreams.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.speed-dreams.org/#download\">Link</a>",
+   "mature / active",
+   "racing",
+   ""
+  ],
+  [
+   "Spice Trade (<a href=\"https://sourceforge.net/projects/spicetrade/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/spicetrade/files/\">Link</a>",
+   "mature / inactive since 2005",
+   "",
+   ""
+  ],
+  [
+   "Spring RTS engine (<a href=\"https://springrts.com/wiki/Main_Page\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://springrts.com/wiki/Download\">Link</a>",
+   "mature / active",
+   "RTS",
+   ""
+  ],
+  [
+   "Star Control II: The Ur-Quan Masters (<a href=\"http://sc2.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://sc2.sourceforge.net/downloads.php\">Link</a>",
+   "mature / inactive since 2011",
+   "TBS",
+   ""
+  ],
+  [
+   "Star Maiden Rio (<a href=\"http://nyaatrap.blog.fc2.com/blog-entry-20.html\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.mediafire.com/file/jog3fcfxgsyd03f/Astraea_Rio-1.05-all.zip\">Link</a>",
+   "mature / active",
+   "visual novel, rating 18",
+   ""
+  ],
+  [
+   "Stars! Nova (<a href=\"https://sourceforge.net/projects/stars-nova/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/stars-nova/files\">Link</a>",
+   "beta / active",
+   "",
+   ""
+  ],
+  [
+   "Stendhal (<a href=\"https://stendhalgame.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "MP, online",
+   ""
+  ],
+  [
+   "Story of a Lost Sky (<a href=\"https://www.pygame.org/project-Story+of+a+Lost+Sky-1106-.html\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://bitbucket.org/featheredmelody/lost-sky-project-public/downloads/\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Summoning Wars (<a href=\"https://web.archive.org/web/20161221150109/http://sumwars.org:80/wiki/Main_Page\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://web.archive.org/web/20160704003202/http://sumwars.org:80/wiki/Download\">Link</a>",
+   "beta / inactive since 2014",
+   "SP, MP",
+   ""
+  ],
+  [
+   "SuperTuxKart (<a href=\"https://supertuxkart.net/Main_Page\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://supertuxkart.net/Download\">Link</a>",
+   "mature / active",
+   "racing",
+   ""
+  ],
+  [
+   "Superpowers (<a href=\"http://superpowers-html5.com/index.en.html\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sparklinlabs.itch.io/superpowers\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Supremacy (<a href=\"https://archive.codeplex.com/?p=supremacy\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / active",
+   "",
+   ""
+  ],
+  [
+   "T-Bots (<a href=\"https://sourceforge.net/projects/tbots/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/tbots/files\">Link</a>",
+   "beta / inactive since 2004",
+   "",
+   ""
+  ],
+  [
+   "TVTower (<a href=\"http://www.tvgigant.de/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Tales of Maj'Eyal (<a href=\"https://te4.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://te4.org/download\">Link</a>",
+   "mature / active",
+   "roguelike",
+   ""
+  ],
+  [
+   "Tanks of Freedom (<a href=\"https://w84death.itch.io/tanks-of-freedom\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Terasology (<a href=\"http://terasology.org/index.html\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "3D",
+   ""
+  ],
+  [
+   "The Clans (<a href=\"http://theclans.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/theclans/files\">Link</a>",
+   "beta / inactive since 2003",
+   "",
+   ""
+  ],
+  [
+   "The Epic of Heroes (<a href=\"https://sourceforge.net/projects/epicheroes/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/epicheroes/files\">Link</a>",
+   "beta / inactive since 2015",
+   "",
+   ""
+  ],
+  [
+   "The Mana World (<a href=\"https://www.themanaworld.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://www.themanaworld.org/index.php/Downloads\">Link</a>",
+   "mature / active",
+   "MMO",
+   ""
+  ],
+  [
+   "The hunt for the lost rainbow jewels (Jewelhunt) (<a href=\"https://sourceforge.net/projects/jewelhunt/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/jewelhunt/files\">Link</a>",
+   "beta / active",
+   "",
+   ""
+  ],
+  [
+   "Thousand Parsec (<a href=\"http://www.thousandparsec.net/tp/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.thousandparsec.net/tp/download-instructions.php\">Link</a>",
+   "beta / inactive since 2012",
+   "",
+   ""
+  ],
+  [
+   "Trinity Reign (<a href=\"https://web.archive.org/web/20131209073248/http://trinity-reign.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2013",
+   "",
+   ""
+  ],
+  [
+   "TripleA (<a href=\"http://triplea-game.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://triplea-game.org/download/\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Turious (<a href=\"https://gitorious.org/turious/turious/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2014",
+   "",
+   ""
+  ],
+  [
+   "Turn of War (<a href=\"https://github.com/EdwardWoodhouse/Turn-of-War\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / active",
+   "",
+   ""
+  ],
+  [
+   "Tux Racer (<a href=\"http://tuxracer.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/tuxracer/files/\">Link</a>",
+   "beta / inactive since 2001",
+   "racing",
+   ""
+  ],
+  [
+   "Tuxemon (<a href=\"https://www.tuxemon.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://www.tuxemon.org/download.html\">Link</a>",
+   "mature / active",
+   "TB",
+   ""
+  ],
+  [
+   "TwinEngine (<a href=\"https://github.com/xesf/twin-e\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / inactive since 2015",
+   "engine, remake, requires original content",
+   ""
+  ],
+  [
+   "UFO2000 (<a href=\"http://ufo2000.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / inactive since 2012",
+   "",
+   ""
+  ],
+  [
+   "Ufo: Alien Invasion (<a href=\"https://ufoai.org/wiki/News\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://ufoai.org/wiki/Download\">Link</a>",
+   "mature / active",
+   "TBS",
+   ""
+  ],
+  [
+   "UlDunAd (<a href=\"https://www.pygame.org/project-UlDunAd-1140-.html\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2011",
+   "console",
+   ""
+  ],
+  [
+   "Umbra (<a href=\"http://markdamonhughes.com/Umbra/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://markdamonhughes.com/Umbra/#download\">Link</a>",
+   "beta / inactive since 2002",
+   "",
+   ""
+  ],
+  [
+   "UnNetHack (<a href=\"https://unnethack.wordpress.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/unnethack/files/unnethack/\">Link</a>",
+   "mature / active",
+   "roguelike",
+   ""
+  ],
+  [
+   "Underworld Adventures (<a href=\"http://uwadv.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://uwadv.sourceforge.net/index.php?page=download\">Link</a>",
+   "beta / inactive since 2006",
+   "",
+   ""
+  ],
+  [
+   "Unknown Horizons (<a href=\"http://unknown-horizons.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://unknown-horizons.org/downloads/\">Link</a>",
+   "beta / active",
+   "SP, TBS",
+   ""
+  ],
+  [
+   "Urho3D (<a href=\"https://urho3d.github.io/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/urho3d/files/Urho3D/\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "VCMI Project (<a href=\"https://vcmi.eu/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Valyria Tear (<a href=\"https://valyriatear.blogspot.de/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://valyriatear.blogspot.de/p/downloads.html\">Link</a>",
+   "mature / active",
+   "JRPG, popular",
+   ""
+  ],
+  [
+   "Vega Strike (<a href=\"http://vegastrike.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://vegastrike.sourceforge.net/getfiles/\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "VegaTrek (<a href=\"https://sourceforge.net/projects/vegatrek/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/vegatrek/files/vegatrek%200.6/\">Link</a>",
+   "beta / inactive since 2013",
+   "",
+   ""
+  ],
+  [
+   "Visions from the Other Side (<a href=\"http://www.insani.org/mukou.html\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / inactive since 2006",
+   "visual novel",
+   ""
+  ],
+  [
+   "WAtomic (<a href=\"https://sourceforge.net/projects/watomic/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/watomic/files/\">Link</a>",
+   "mature / inactive since 2005",
+   "remake",
+   ""
+  ],
+  [
+   "War Of Kingdom (<a href=\"http://www.freeors.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / active",
+   "",
+   ""
+  ],
+  [
+   "WarGame (<a href=\"https://archive.codeplex.com/?p=wargame\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2016",
+   "",
+   ""
+  ],
+  [
+   "Wargamer (<a href=\"https://sourceforge.net/projects/wargamer/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/wargamer/files/\">Link</a>",
+   "mature / inactive since 2003",
+   "",
+   ""
+  ],
+  [
+   "Wargus (<a href=\"http://wargus.stratagus.com/index.shtml\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://wargus.stratagus.com/download.shtml\">Link</a>",
+   "mature / active",
+   "requires original content",
+   ""
+  ],
+  [
+   "Warzone 2100 (<a href=\"http://wz2100.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/warzone2100/files/releases/\">Link</a>",
+   "mature / active",
+   "RTS, popular",
+   ""
+  ],
+  [
+   "Waste's Edge (<a href=\"http://adonthell.nongnu.org/download/index.html\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / active",
+   "",
+   ""
+  ],
+  [
+   "Widelands (<a href=\"https://wl.widelands.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://wl.widelands.org/wiki/Download/\">Link</a>",
+   "mature / active",
+   "RTS",
+   ""
+  ],
+  [
+   "Witch Blast (<a href=\"https://github.com/Cirrus-Minor/witchblast\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://github.com/Cirrus-Minor/witchblast/releases\">Link</a>",
+   "beta / inactive since 2015",
+   "roguelike",
+   ""
+  ],
+  [
+   "Wizards Magic (<a href=\"https://code.google.com/archive/p/wizards-magic/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://code.google.com/archive/p/wizards-magic/downloads\">Link</a>",
+   "mature / inactive since 2012",
+   "cards, remake",
+   ""
+  ],
+  [
+   "Wolfpack Empire (<a href=\"http://www.wolfpackempire.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/empserver/files/\">Link</a>",
+   "mature / active",
+   "online",
+   ""
+  ],
+  [
+   "World of Heroes (<a href=\"https://sourceforge.net/projects/worldofheroes\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/worldofheroes/files/WOH%20v0.4.2/\">Link</a>",
+   "beta / inactive since 2009",
+   "",
+   ""
+  ],
+  [
+   "World of Phaos (<a href=\"http://worldofphaos.com/index.php?site=online_rpg https://sourceforge.net/projects/phaosrpg/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/phaosrpg/files/\">Link</a>",
+   "mature / inactive since 2011",
+   "online",
+   ""
+  ],
+  [
+   "WorldForge (<a href=\"https://www.worldforge.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://www.worldforge.org/index.php/downloads/\">Link</a>",
+   "mature / active",
+   "MMO",
+   ""
+  ],
+  [
+   "Wyrmsun (<a href=\"http://andrettin.github.io/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://store.steampowered.com/app/370070/Wyrmsun/\">Link</a>",
+   "mature / active",
+   "RTS",
+   ""
+  ],
+  [
+   "X-Force: Fight For Destiny (<a href=\"http://www.xforce-online.de/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/xforceffd/files\">Link</a>",
+   "beta / inactive since 2011",
+   "TBS",
+   ""
+  ],
+  [
+   "XArchon (<a href=\"http://xarchon.seul.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://xarchon.seul.org/download.html\">Link</a>",
+   "beta / inactive since 2003",
+   "",
+   ""
+  ],
+  [
+   "XSera (<a href=\"https://github.com/prophile/xsera\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2010",
+   "RTS, shooter",
+   ""
+  ],
+  [
+   "XU4 (<a href=\"http://xu4.sourceforge.net/ https://sourceforge.net/projects/xu4/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://xu4.sourceforge.net/download.php\">Link</a>",
+   "mature / active",
+   "SP",
+   ""
+  ],
+  [
+   "XZ Utils (<a href=\"https://tukaani.org/xz/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Xconq (<a href=\"http://sourceware.org/xconq/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceware.org/xconq/ftp.html\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Xenowar (<a href=\"http://xenowar.net\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / inactive since 2014",
+   "TBS",
+   ""
+  ],
+  [
+   "Xonotic (<a href=\"http://www.xonotic.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.xonotic.org/download/\">Link</a>",
+   "mature / active",
+   "shooter",
+   ""
+  ],
+  [
+   "ZAngband (<a href=\"http://www.zangband.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/zangband/files/\">Link</a>",
+   "mature / inactive since 2005",
+   "roguelike",
+   ""
+  ],
+  [
+   "ZGameEditor (<a href=\"http://www.zgameeditor.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.zgameeditor.org/index.php/Main/Download\">Link</a>",
+   "mature / active",
+   "editor",
+   ""
+  ],
+  [
+   "Zelda: Mystery of Solarus DX (<a href=\"https://github.com/solarus-games/zsdx\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Zero-K (<a href=\"http://zero-k.info/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://zero-k.info/Wiki/Download\">Link</a>",
+   "mature / active",
+   "RTS, popular",
+   ""
+  ],
+  [
+   "Zetawar (<a href=\"http://www.zetawar.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "Zone of Control (<a href=\"https://github.com/ozkriff/zoc\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://github.com/ozkriff/zoc/releases\">Link</a>",
+   "beta / inactive since 2017",
+   "TBS",
+   ""
+  ],
+  [
+   "diablo-js (<a href=\"https://github.com/mitallast/diablo-js\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "jMonkeyEngine (<a href=\"http://jmonkeyengine.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://github.com/jMonkeyEngine/sdk/releases\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "libGDX (<a href=\"http://libgdx.badlogicgames.com/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://libgdx.badlogicgames.com/download.html\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "libpng (<a href=\"http://libpng.org/pub/png/libpng.html\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "micropolisJS (<a href=\"http://www.graememcc.co.uk/micropolisJS/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "browser",
+   ""
+  ],
+  [
+   "mkxp (<a href=\"https://github.com/Ancurio/mkxp\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "pkg-config (<a href=\"https://www.freedesktop.org/wiki/Software/pkg-config/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://pkg-config.freedesktop.org/releases/\">Link</a>",
+   "mature / active",
+   "tool",
+   ""
+  ],
+  [
+   "pyORPG (<a href=\"https://web.archive.org/web/20131114162141/http://www.powrtoch.org:80/pyorpg\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2015",
+   "",
+   ""
+  ],
+  [
+   "pygame (<a href=\"http://www.pygame.org/hifi.html\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.pygame.org/download.shtml\">Link</a>",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "rpge (<a href=\"http://savannah.gnu.org/projects/rpge/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "beta / inactive since 2014",
+   "",
+   ""
+  ],
+  [
+   "sCoreForge Pathfinder Character Creator (<a href=\"https://sourceforge.net/projects/scoreforge/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://sourceforge.net/projects/scoreforge/files/\">Link</a>",
+   "mature / active",
+   "tool",
+   ""
+  ],
+  [
+   "sandbox Game Maker (<a href=\"http://www.sandboxgamemaker.com/free-game-maker/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://www.sandboxgamemaker.com/free-game-maker-download/\">Link</a>",
+   "mature / inactive since 2014",
+   "",
+   ""
+  ],
+  [
+   "wxWidgets (<a href=\"http://wxwidgets.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"http://wxwidgets.org/downloads/\">Link</a>",
+   "mature / active",
+   "gui toolkit",
+   ""
+  ],
+  [
+   "xoreos (<a href=\"https://xoreos.org/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "<a href=\"https://xoreos.org/downloads/index.html\">Link</a>",
+   "beta / active",
+   "",
+   ""
+  ],
+  [
+   "yaml-cpp (<a href=\"https://github.com/jbeder/yaml-cpp\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "",
+   ""
+  ],
+  [
+   "zlib (<a href=\"http://zlib.net/\">home</a>, <a href=\"\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "",
+   ""
+  ]
+ ]
+}

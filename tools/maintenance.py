@@ -304,6 +304,9 @@ def parse_entry(content):
         # remove all being false (empty)
         v = [x for x in v if x]
 
+        # if entry is of structure <..> remove <>
+        v = [x[1:-1] if x[0] is '<' and x[-1] is '>' else x for x in v]
+
         # store in info
         info[field.lower()] = v
 
@@ -321,6 +324,13 @@ def parse_entry(content):
     if 'beta' in v != 'mature' in v:
         print('State must be one of <"beta", "mature"> in entry "{}"'.format(info['title']))
         return info # so that the rest can run through
+
+    # urls in home, download, play and code repositories must start with http or https (or git)
+    for field in ['home', 'download', 'play', 'code repository']:
+        if field in info:
+            for url in info[field]:
+                if not (url.startswith('http://') or url.startswith('https://') or url.startswith('git://')):
+                    print('URL "{}" in entry "{}" does not start with http'.format(url, info['title']))
 
     # github repositories should not end on .git
     repos = info['code repository']
@@ -488,22 +498,51 @@ def export_json():
 
     # make database out of it
     db = {}
-    db['headings'] = ['Name', 'Download']
+    db['headings'] = ['Game', 'Description', 'Download', 'State', 'Keywords', 'Source']
 
     entries = []
     for info in infos.values():
-        entry = [info['title']]
+
+        entry = []
+
+        # game
+        entry.append('{} (<a href="{}">home</a>, <a href="{}">entry</a>)'.format(info['title'], info['home'][0], ''))
+
+        # description
+        entry.append('')
+
+        # download
         field = 'download'
         if field in info and info[field]:
-            entry.append(info[field][0])
+            entry.append('<a href="{}">Link</a>'.format(info[field][0]))
         else:
             entry.append('')
+
+        # state (field state is essential)
+        entry.append('{} / {}'.format(info['state'][0], 'inactive since {}'.format(info['inactive']) if 'inactive' in info else 'active'))
+
+        # keywords
+        field = 'keywords'
+        if field in info and info[field]:
+            entry.append(', '.join(info[field]))
+        else:
+            entry.append('')
+
+        # source
+        text = ''
+        entry.append(text)
+
+        # append to entries
         entries.append(entry)
+
+    # sort entries by game name
+    entries.sort(key=lambda x: x[0])
+
     db['data'] = entries
 
     # output
     json_path = os.path.join(games_path, os.path.pardir, 'docs', 'data.json')
-    text = json.dumps(db)
+    text = json.dumps(db, indent=1)
     write_text(json_path, text)
 
 
@@ -511,18 +550,26 @@ def git_repo(repo):
     """
         Tests if a repo is a git repo, then returns the repo url, possibly modifying it slightly (for Github).
     """
+
+    # for github we check that the url is github.com/user/repo and add .git
     github = 'https://github.com/'
-    sourceforge = 'https://git.code.sf.net/p/'
-    tuxfamily = 'https://git.tuxfamily.org/'
     if repo.startswith(github):
         if len(repo.split('/')) == 5:
             return repo + '.git'
-    for service in [tuxfamily]: # TODO sf git gives errors when checking out at the moment
+
+    # for all others we just check if they start with the typical urls of git services
+
+    # 'https://git.code.sf.net/p/' currently doesn't work that well
+    services = ['https://git.tuxfamily.org/', 'http://git.pond.sub.org/', 'https://gitorious.org/']
+    for service in services:
         if repo.startswith(service):
             return repo
-    # generic (https://*.git)
+
+    # generic (https://*.git) or (http://*.git) ending on git
     if (repo.startswith('https://') or repo.startswith('http://')) and repo.endswith('.git'):
         return repo
+
+    # the rest is ignored
     return None
 
 
@@ -556,7 +603,7 @@ def update_primary_code_repositories():
 
     # write them to tools/git
     json_path = os.path.join(games_path, os.path.pardir, 'tools', 'git_archive', 'archives.json')
-    text = json.dumps(primary_repos, indent=2)
+    text = json.dumps(primary_repos, indent=1)
     write_text(json_path, text)
 
 if __name__ == "__main__":

@@ -2,7 +2,7 @@
 
 _3D RPG in a satirical post-apocalyptical world._
 
-- Home: http://dnt.dnteam.org/cgi-bin/about.py https://sourceforge.net/projects/dnt/
+- Home: http://dnt.dnteam.org/cgi-bin/about.py, https://sourceforge.net/projects/dnt/
 - Download: http://dnt.dnteam.org/cgi-bin/downloads.py
 - State: beta, inactive since 2016
 - Keywords: SP

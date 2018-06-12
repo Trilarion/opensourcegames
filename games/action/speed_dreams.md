@@ -6,7 +6,7 @@ _Motorsport Simulator featuring high-quality 3D graphics and an accurate physics
 - Download: http://www.speed-dreams.org/#download
 - State: mature
 - Keywords: racing
-- Code repository: https://sourceforge.net/p/speed-dreams/code/HEAD/tree/ (svn)
+- Code repository: https://svn.code.sf.net/p/speed-dreams/code/ (svn)
 - Code language: C++
 - Code license: GPL-2.0
 

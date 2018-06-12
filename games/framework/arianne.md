@@ -2,7 +2,7 @@
 
 _An open source multiplayer online framework._
 
-- Home: https://arianne-project.org/ https://arianne-project.org/engine/marauroa.html
+- Home: https://arianne-project.org/, https://arianne-project.org/engine/marauroa.html
 - Download: https://arianne-project.org/engine/marauroa.html
 - State: mature
 - Keywords: MP, 2D

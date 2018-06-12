@@ -5,7 +5,7 @@ _Train simulator for the largest collection of digital content in the world - ro
 - Home: http://openrails.org/
 - Download: http://openrails.org/download/program/
 - State: mature
-- Code repository: http://openrails.org/contribute/developing-code/ (svn)
+- Code repository: http://svn.uktrainsim.com/svn/openrails/ (svn, http://openrails.org/contribute/developing-code/)
 - Code language: C#
 - Code license: GPL-3.0
 

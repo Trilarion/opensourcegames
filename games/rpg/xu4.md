@@ -2,7 +2,7 @@
 
 _A remake of the computer game Ultima IV._
 
-- Home: http://xu4.sourceforge.net/ https://sourceforge.net/projects/xu4/
+- Home: http://xu4.sourceforge.net/, https://sourceforge.net/projects/xu4/
 - Media: <https://en.wikipedia.org/wiki/Ultima_IV:_Quest_of_the_Avatar#Ultima_IV_on_modern_operating_systems>
 - Download: http://xu4.sourceforge.net/download.php
 - State: mature

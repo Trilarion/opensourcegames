@@ -2,7 +2,7 @@
 
 _A console-style role playing game._
 
-- Home: http://kqlives.sourceforge.net/ https://sourceforge.net/projects/kqlives/
+- Home: http://kqlives.sourceforge.net/, https://sourceforge.net/projects/kqlives/
 - Download: https://sourceforge.net/projects/kqlives/files/
 - State: beta, inactive since 2011
 - Code repository: https://sourceforge.net/p/kqlives/code/HEAD/tree/ (svn)

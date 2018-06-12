@@ -115,7 +115,7 @@
    "Role Playing",
    "beta / active",
    "",
-   "<a href=\"https://github.com/Zukero/andors-trail/\">Source</a> - Java - GPL-2.0"
+   "<a href=\"https://github.com/Zukero/andors-trail\">Source</a> - Java - GPL-2.0"
   ],
   [
    "Angband (<a href=\"http://rephial.org/\">home</a>, <a href=\"\">entry</a>)",
@@ -172,7 +172,7 @@
    "<a href=\"https://github.com/Argentum-Online/Argentum-Online\">Source</a> - VB - GPL-2.0"
   ],
   [
-   "Arianne / Marauroa (<a href=\"https://arianne-project.org/ https://arianne-project.org/engine/marauroa.html\">home</a>, <a href=\"\">entry</a>)",
+   "Arianne / Marauroa (<a href=\"https://arianne-project.org/\">home</a>, <a href=\"\">entry</a>)",
    "An open source multiplayer online framework.",
    "<a href=\"https://arianne-project.org/engine/marauroa.html\">Link</a>",
    "Engines & Frameworks",
@@ -275,9 +275,9 @@
    "Relatively easy to win but feature rich fantasy roguelike game with a highly..",
    "<a href=\"https://sourceforge.net/projects/avanor/files\">Link</a>",
    "Role Playing",
-   "beta / inactive since 2006",
+   "beta / inactive since 2008",
    "roguelike",
-   "<a href=\"https://sourceforge.net/p/avanor/code/HEAD/tree/\">Source</a> - C++, Lua - GPL-2.0"
+   "<a href=\"https://github.com/Trilarion/avanor\">Source</a> - C++, Lua - GPL-2.0"
   ],
   [
    "Battle for Wesnoth (<a href=\"http://www.wesnoth.org/\">home</a>, <a href=\"\">entry</a>)",
@@ -412,7 +412,7 @@
    "Strategy",
    "mature / inactive since 2013",
    "TBS",
-   "<a href=\"http://www.c-evo.org/files/download.php?cevosrc.cevosrc.zip\">Source</a> - Pascal"
+   "Pascal"
   ],
   [
    "COCOS2D-X (<a href=\"http://cocos2d-x.org/cocos2dx\">home</a>, <a href=\"\">entry</a>)",
@@ -586,16 +586,16 @@
    "<a href=\"http://crimson.seul.org/cvs.php\">Source</a>"
   ],
   [
-   "Crossfire (<a href=\"http://crossfire.real-time.com/ https://sourceforge.net/projects/crossfire/\">home</a>, <a href=\"\">entry</a>)",
+   "Crossfire (<a href=\"http://crossfire.real-time.com/\">home</a>, <a href=\"\">entry</a>)",
    "Cooperative multiplayer graphical RPG and adventure game.",
    "<a href=\"http://crossfire.real-time.com/download/index.html\">Link</a>",
    "Role Playing",
    "mature / active",
    "MMO",
-   "<a href=\"https://sourceforge.net/p/crossfire/code/HEAD/tree/\">Source</a> - C, Java - GPL-2.0"
+   "<a href=\"https://svn.code.sf.net/p/crossfire/code/\">Source</a> - C, Java - GPL-2.0"
   ],
   [
-   "Crown and Cutless (<a href=\"http://www.crownandcutlass.com/ https://sourceforge.net/projects/crownandcutlass/\">home</a>, <a href=\"\">entry</a>)",
+   "Crown and Cutless (<a href=\"http://www.crownandcutlass.com/\">home</a>, <a href=\"\">entry</a>)",
    "3d pirate action/adventure game in the spirit of the old Pirates! game.",
    "<a href=\"https://sourceforge.net/projects/crownandcutlass/files/crownandcutlass/\">Link</a>",
    "Strategy",
@@ -613,7 +613,7 @@
    "<a href=\"https://github.com/weidai11/cryptopp\">Source</a> - C++ - Boost-1.0"
   ],
   [
-   "DNT (<a href=\"http://dnt.dnteam.org/cgi-bin/about.py https://sourceforge.net/projects/dnt/\">home</a>, <a href=\"\">entry</a>)",
+   "DNT (<a href=\"http://dnt.dnteam.org/cgi-bin/about.py\">home</a>, <a href=\"\">entry</a>)",
    "3D RPG in a satirical post-apocalyptical world.",
    "<a href=\"http://dnt.dnteam.org/cgi-bin/downloads.py\">Link</a>",
    "Role Playing",
@@ -628,7 +628,7 @@
    "Role Playing",
    "mature / active",
    "MMO",
-   "<a href=\"https://sourceforge.net/p/daimonin/code/HEAD/tree/\">Source</a> - C - GPL-2.0"
+   "<a href=\"https://svn.code.sf.net/p/daimonin/code/\">Source</a> - C - GPL-2.0"
   ],
   [
    "Danger from the Deep (<a href=\"http://dangerdeep.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
@@ -646,7 +646,7 @@
    "Role Playing",
    "mature / inactive since 2012",
    "",
-   "<a href=\"https://sourceforge.net/p/darkcity/code/HEAD/tree/\">Source</a> - PHP - GPL-2.0"
+   "<a href=\"https://sourceforge.net/p/darkcity/code/HEAD/tree/\">Source</a> - PHP - GPL-3.0"
   ],
   [
    "Dark Destiny (<a href=\"http://www.darkdestiny.at/\">home</a>, <a href=\"\">entry</a>)",
@@ -766,7 +766,7 @@
    "GPL-2.0"
   ],
   [
-   "Dragon Hunt (<a href=\"http://emhsoft.com/dh.html http://savannah.nongnu.org/projects/dragon-hunt\">home</a>, <a href=\"\">entry</a>)",
+   "Dragon Hunt (<a href=\"http://emhsoft.com/dh.html\">home</a>, <a href=\"\">entry</a>)",
    "Role-playing game designed to be flexible and fun.",
    "",
    "Role Playing",
@@ -1047,7 +1047,7 @@
   [
    "Flare Engine (<a href=\"https://github.com/clintbellanger/flare-engine\">home</a>, <a href=\"\">entry</a>)",
    "Flare (Free Libre Action Roleplaying Engine) is a simple game engine built to..",
-   "<a href=\"http://www.flarerpg.org/ https://github.com/clintbellanger/flare-engine/releases\">Link</a>",
+   "<a href=\"http://www.flarerpg.org/\">Link</a>",
    "Engines & Frameworks",
    "mature / active",
    "",
@@ -1195,7 +1195,7 @@
    "Role Playing",
    "mature / active",
    "SP, isometric",
-   "<a href=\"https://gitlab.com/freedroid/freedroid-src\">Source</a> - C - GPL-2.0"
+   "<a href=\"https://gitlab.com/freedroid/freedroid-src.git\">Source</a> - C - GPL-2.0"
   ],
   [
    "Freeminer (<a href=\"https://web.archive.org/web/20170531043347/http://freeminer.org/\">home</a>, <a href=\"\">entry</a>)",
@@ -1369,7 +1369,7 @@
    "<a href=\"https://sourceforge.net/p/h-world/code\">Source</a> - C, Lua"
   ],
   [
-   "Hale (<a href=\"https://sourceforge.net/projects/hale/ https://sourceforge.net/p/hale/wiki/Home/ http://halegame.com\">home</a>, <a href=\"\">entry</a>)",
+   "Hale (<a href=\"https://sourceforge.net/projects/hale/\">home</a>, <a href=\"\">entry</a>)",
    "A turn based RPG with deep tactical combat and character customization.",
    "<a href=\"https://sourceforge.net/projects/hale/files/\">Link</a>",
    "Role Playing",
@@ -1402,7 +1402,7 @@
    "Engines & Frameworks",
    "mature / active",
    "",
-   "<a href=\"https://github.com/HaxeFlixel\">Source</a> - Haxe - MIT"
+   "<a href=\"https://github.com/HaxeFlixel/flixel\">Source</a> - Haxe - MIT"
   ],
   [
    "Haxima (<a href=\"https://sourceforge.net/projects/nazghul/\">home</a>, <a href=\"\">entry</a>)",
@@ -1549,7 +1549,7 @@
    "<a href=\"https://anongit.kde.org/katomic.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
-   "KQ Lives (<a href=\"http://kqlives.sourceforge.net/ https://sourceforge.net/projects/kqlives/\">home</a>, <a href=\"\">entry</a>)",
+   "KQ Lives (<a href=\"http://kqlives.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
    "A console-style role playing game.",
    "<a href=\"https://sourceforge.net/projects/kqlives/files/\">Link</a>",
    "Role Playing",
@@ -1596,7 +1596,7 @@
   [
    "LZMA SDK (<a href=\"http://7-zip.org/\">home</a>, <a href=\"\">entry</a>)",
    "The LZMA SDK provides the documentation, samples, header files, libraries, and..",
-   "<a href=\"http://7-zip.org/download.html http://7-zip.org/sdk.html\">Link</a>",
+   "<a href=\"http://7-zip.org/download.html\">Link</a>",
    "Libraries",
    "mature / active",
    "",
@@ -1618,7 +1618,7 @@
    "Role Playing",
    "beta / active",
    "",
-   "<a href=\"https://github.com/landoffire\">Source</a>"
+   ""
   ],
   [
    "Libxml2 (<a href=\"http://www.xmlsoft.org/\">home</a>, <a href=\"\">entry</a>)",
@@ -1675,7 +1675,7 @@
    "<a href=\"https://github.com/hackcraft-de/linwarrior\">Source</a> - C++ - Apache-2.0"
   ],
   [
-   "Lips of Suna (<a href=\"https://web.archive.org/web/20160904014454/http://lipsofsuna.org:80/ https://sourceforge.net/projects/lipsofsuna/\">home</a>, <a href=\"\">entry</a>)",
+   "Lips of Suna (<a href=\"https://web.archive.org/web/20160904014454/http://lipsofsuna.org:80/\">home</a>, <a href=\"\">entry</a>)",
    "Tongue-in-cheek action RPG.",
    "",
    "Role Playing",
@@ -1819,7 +1819,7 @@
    "<a href=\"https://code.google.com/archive/p/mercenarycommander/source/default/source\">Source</a> - Java - BSD"
   ],
   [
-   "Meridian 59 (<a href=\"http://meridian59.com/ http://meridian59.de\">home</a>, <a href=\"\">entry</a>)",
+   "Meridian 59 (<a href=\"http://meridian59.com/\">home</a>, <a href=\"\">entry</a>)",
    "A classic MMO.",
    "<a href=\"http://meridian59.com/play-now.php\">Link</a>",
    "Role Playing",
@@ -2068,7 +2068,7 @@
    "Simulation",
    "mature / active",
    "",
-   "<a href=\"http://openrails.org/contribute/developing-code/\">Source</a> - C# - GPL-3.0"
+   "<a href=\"http://svn.uktrainsim.com/svn/openrails/\">Source</a> - C# - GPL-3.0"
   ],
   [
    "Open Soccer Star (<a href=\"https://opensoccerstar.com/\">home</a>, <a href=\"\">entry</a>)",
@@ -2086,16 +2086,16 @@
    "Action/Arcade",
    "beta / active",
    "",
-   "<a href=\"https://sourceforge.net/p/opensnc/code/HEAD/tree/\">Source</a> - C - GPL-2.0"
+   "<a href=\"https://svn.code.sf.net/p/opensnc/code/\">Source</a> - C - GPL-2.0"
   ],
   [
-   "Open Tibia (<a href=\"https://github.com/opentibia https://sourceforge.net/projects/opentibia/\">home</a>, <a href=\"\">entry</a>)",
+   "Open Tibia (<a href=\"https://github.com/opentibia\">home</a>, <a href=\"\">entry</a>)",
    "Remake of Tibia",
    "<a href=\"https://sourceforge.net/projects/opentibia/files/\">Link</a>",
    "Role Playing",
    "beta / inactive since 2014",
    "",
-   "<a href=\"https://github.com/opentibia\">Source</a> - C++ - GPL-2.0"
+   "<a href=\"https://github.com/opentibia/server\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Open Transport Tycoon (<a href=\"http://www.openttd.org/en/\">home</a>, <a href=\"\">entry</a>)",
@@ -2122,7 +2122,7 @@
    "Simulation",
    "beta / active",
    "",
-   "<a href=\"http://svn.code.sf.net/p/opencity/code/trunk/opencity/\">Source</a> - C++ - GPL-2.0"
+   "<a href=\"https://svn.code.sf.net/p/opencity/code/\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "OpenFL (<a href=\"http://www.openfl.org/\">home</a>, <a href=\"\">entry</a>)",
@@ -2131,7 +2131,7 @@
    "Engines & Frameworks",
    "mature / active",
    "",
-   "<a href=\"https://github.com/openfl\">Source</a> - Haxe - MIT"
+   "<a href=\"https://github.com/openfl/openfl\">Source</a> - Haxe - MIT"
   ],
   [
    "OpenHoMM (<a href=\"https://launchpad.net/openhomm\">home</a>, <a href=\"\">entry</a>)",
@@ -2188,7 +2188,7 @@
    "<a href=\"https://github.com/OpenRCT2/OpenRCT2\">Source</a> - C++ - GPL-3.0"
   ],
   [
-   "OpenRPG (<a href=\"http://www.rpgobjects.com/index.php?c=orpg https://app.assembla.com/spaces/openrpg/wiki/Home\">home</a>, <a href=\"\">entry</a>)",
+   "OpenRPG (<a href=\"http://www.rpgobjects.com/index.php?c=orpg\">home</a>, <a href=\"\">entry</a>)",
    "OpenRPG is an Internet application that allows people to play Role Playing..",
    "<a href=\"http://www.rpgobjects.com/index.php?c=orpg&m=getorpg\">Link</a>",
    "Engines & Frameworks",
@@ -2239,10 +2239,10 @@
    "Strategy",
    "mature / active",
    "TBS",
-   "<a href=\"https://github.com/SupSuper/OpenXcom/\">Source</a> - C++ - GPL-3.0"
+   "<a href=\"https://github.com/SupSuper/OpenXcom\">Source</a> - C++ - GPL-3.0"
   ],
   [
-   "Openglad (<a href=\"http://snowstorm.sourceforge.net/cgi-bin/site.cgi?page=home https://sourceforge.net/projects/snowstorm/\">home</a>, <a href=\"\">entry</a>)",
+   "Openglad (<a href=\"http://snowstorm.sourceforge.net/cgi-bin/site.cgi?page=home\">home</a>, <a href=\"\">entry</a>)",
    "An SDL port of an old DOS game called Gladiator.",
    "<a href=\"http://snowstorm.sourceforge.net/cgi-bin/site.cgi?page=download\">Link</a>",
    "Role Playing",
@@ -2296,7 +2296,7 @@
    "<a href=\"https://sourceforge.net/p/ospace/code/HEAD/tree/\">Source</a> - Python - GPL-2.0"
   ],
   [
-   "PARPG (<a href=\"http://blog.parpg.net/ https://sourceforge.net/projects/parpg/\">home</a>, <a href=\"\">entry</a>)",
+   "PARPG (<a href=\"http://blog.parpg.net/\">home</a>, <a href=\"\">entry</a>)",
    "Post-Acopalyptic RPG.",
    "<a href=\"http://blog.parpg.net/download/\">Link</a>",
    "Role Playing",
@@ -2509,7 +2509,7 @@
    "Action/Arcade",
    "mature / active",
    "shooter",
-   "<a href=\"https://github.com/red-eclipse\">Source</a> - C++ - zlib"
+   "<a href=\"https://github.com/red-eclipse/base\">Source</a> - C++ - zlib"
   ],
   [
    "Return to the Roots (<a href=\"https://www.siedler25.org/index.php\">home</a>, <a href=\"\">entry</a>)",
@@ -2527,7 +2527,7 @@
    "Action/Arcade",
    "mature / active",
    "",
-   "<a href=\"http://git.artsoft.org/rocksndiamonds.git/\">Source</a> - C - GPL-2.0"
+   "<a href=\"http://git.artsoft.org/rocksndiamonds.git\">Source</a> - C - GPL-2.0"
   ],
   [
    "Rogue Clone IV (<a href=\"http://rogueclone.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
@@ -2710,13 +2710,13 @@
    "<a href=\"https://github.com/TobiasBielefeld/Simple-Solitaire\">Source</a> - Java - GPL-3.0"
   ],
   [
-   "SimuTrans (<a href=\"http://www.simutrans.de/start\">home</a>, <a href=\"\">entry</a>)",
+   "SimuTrans (<a href=\"https://www.simutrans.com/en/\">home</a>, <a href=\"\">entry</a>)",
    "A cross-platform simulation game in which the player strives to run a..",
    "<a href=\"http://www.simutrans.de/download\">Link</a>",
    "Simulation",
    "mature / active",
    "",
-   "<a href=\"https://sourceforge.net/p/simutrans/code/HEAD/tree/\">Source</a> - C++ - Artistic License"
+   "<a href=\"https://github.com/aburch/simutrans\">Source</a> - C++ - Artistic License"
   ],
   [
    "Sintel The Game (<a href=\"https://github.com/jonburesh/sintelgame\">home</a>, <a href=\"\">entry</a>)",
@@ -2779,7 +2779,7 @@
    "Adventure & Visual novels",
    "beta / inactive since 2010",
    "",
-   "<a href=\"https://sourceforge.net/p/solaristhegame/code/HEAD/tree/\">Source</a>"
+   "<a href=\"https://svn.code.sf.net/p/solaristhegame/code/\">Source</a>"
   ],
   [
    "Solarus (<a href=\"http://www.solarus-games.org/\">home</a>, <a href=\"\">entry</a>)",
@@ -2869,7 +2869,7 @@
    "Action/Arcade",
    "mature / active",
    "racing",
-   "<a href=\"https://sourceforge.net/p/speed-dreams/code/HEAD/tree/\">Source</a> - C++ - GPL-2.0"
+   "<a href=\"https://svn.code.sf.net/p/speed-dreams/code/\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Spice Trade (<a href=\"https://sourceforge.net/projects/spicetrade/\">home</a>, <a href=\"\">entry</a>)",
@@ -2950,7 +2950,7 @@
    "Action/Arcade",
    "mature / active",
    "racing",
-   "<a href=\"https://sourceforge.net/p/supertuxkart/code/HEAD/tree/\">Source</a> - C++, C - GPL-3.0"
+   "<a href=\"https://github.com/supertuxkart/stk-code\">Source</a> - C++, C - GPL-3.0"
   ],
   [
    "Superpowers (<a href=\"http://superpowers-html5.com/index.en.html\">home</a>, <a href=\"\">entry</a>)",
@@ -3040,7 +3040,7 @@
    "Role Playing",
    "mature / active",
    "MMO",
-   "<a href=\"https://github.com/themanaworld\">Source</a> - PHP - GPL-2.0"
+   "PHP - GPL-2.0"
   ],
   [
    "The hunt for the lost rainbow jewels (Jewelhunt) (<a href=\"https://sourceforge.net/projects/jewelhunt/\">home</a>, <a href=\"\">entry</a>)",
@@ -3220,7 +3220,7 @@
    "Engines & Frameworks",
    "mature / active",
    "",
-   "<a href=\"https://github.com/vegastrike\">Source</a> - C++ - GPL-2.0"
+   "<a href=\"https://github.com/vegastrike/Vega-Strike-Engine-Source\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "VegaTrek (<a href=\"https://sourceforge.net/projects/vegatrek/\">home</a>, <a href=\"\">entry</a>)",
@@ -3283,7 +3283,7 @@
    "Strategy",
    "mature / active",
    "requires original content",
-   "<a href=\"https://code.launchpad.net/wargus\">Source</a> - C++, Lua - GPL-2.0"
+   "<a href=\"https://github.com/Wargus/wargus\">Source</a> - C++, Lua - GPL-2.0"
   ],
   [
    "Warzone 2100 (<a href=\"http://wz2100.net/\">home</a>, <a href=\"\">entry</a>)",
@@ -3310,7 +3310,7 @@
    "Strategy",
    "mature / active",
    "RTS",
-   "<a href=\"https://launchpad.net/widelands  https://github.com/widelands/widelands\">Source</a> - C++, Lua - GPL-2.0"
+   "<a href=\"https://github.com/widelands/widelands\">Source</a> - C++, Lua - GPL-2.0"
   ],
   [
    "Witch Blast (<a href=\"https://github.com/Cirrus-Minor/witchblast\">home</a>, <a href=\"\">entry</a>)",
@@ -3349,7 +3349,7 @@
    "Python - BSD"
   ],
   [
-   "World of Phaos (<a href=\"http://worldofphaos.com/index.php?site=online_rpg https://sourceforge.net/projects/phaosrpg/\">home</a>, <a href=\"\">entry</a>)",
+   "World of Phaos (<a href=\"http://worldofphaos.com/index.php?site=online_rpg\">home</a>, <a href=\"\">entry</a>)",
    "Online Roleplaying Game browser based, which takes place in the high fantasy..",
    "<a href=\"https://sourceforge.net/projects/phaosrpg/files/\">Link</a>",
    "Role Playing",
@@ -3403,7 +3403,7 @@
    "<a href=\"https://github.com/prophile/xsera\">Source</a> - C, Lua - MIT"
   ],
   [
-   "XU4 (<a href=\"http://xu4.sourceforge.net/ https://sourceforge.net/projects/xu4/\">home</a>, <a href=\"\">entry</a>)",
+   "XU4 (<a href=\"http://xu4.sourceforge.net/\">home</a>, <a href=\"\">entry</a>)",
    "A remake of the computer game Ultima IV.",
    "<a href=\"http://xu4.sourceforge.net/download.php\">Link</a>",
    "Role Playing",
@@ -3445,7 +3445,7 @@
    "Action/Arcade",
    "mature / active",
    "shooter",
-   "<a href=\"https://gitlab.com/xonotic\">Source</a> - C - GPL-3.0"
+   "<a href=\"https://gitlab.com/xonotic/xonotic.git\">Source</a> - C - GPL-3.0"
   ],
   [
    "ZAngband (<a href=\"http://www.zangband.org/\">home</a>, <a href=\"\">entry</a>)",
@@ -3625,7 +3625,7 @@
    "Engines & Frameworks",
    "beta / active",
    "",
-   "<a href=\"https://github.com/xoreos/xoreos/\">Source</a> - C++ - GPL-3.0"
+   "<a href=\"https://github.com/xoreos/xoreos\">Source</a> - C++ - GPL-3.0"
   ],
   [
    "yaml-cpp (<a href=\"https://github.com/jbeder/yaml-cpp\">home</a>, <a href=\"\">entry</a>)",

@@ -334,12 +334,14 @@ def parse_entry(content):
         print('State must be one of <"beta", "mature"> in entry "{}"'.format(info['title']))
         return info # so that the rest can run through
 
-    # urls in home, download, play and code repositories must start with http or https (or git)
+    # urls in home, download, play and code repositories must start with http or https (or git) and should not contain space
     for field in ['home', 'download', 'play', 'code repository']:
         if field in info:
             for url in info[field]:
                 if not (url.startswith('http://') or url.startswith('https://') or url.startswith('git://')):
                     print('URL "{}" in entry "{}" does not start with http'.format(url, info['title']))
+                if ' ' in url:
+                    print('URL "{}" in entry "{}" contains a space'.format(url, info['title']))
 
     # github repositories should not end on .git
     repos = info['code repository']
@@ -591,16 +593,28 @@ def git_repo(repo):
     # the rest is ignored
     return None
 
+def svn_repo(repo):
+    """
+    
+    """
+    if repo.startswith('https://svn.code.sf.net/p/') and repo.endswith('/code/'):
+        return repo
+    
+    # not svn
+    return None
+
 
 def update_primary_code_repositories():
 
     primary_repos = []
+    unconsumed_entries = []
 
     # for every entry filter those that are known git repositories (add additional repositories)
     for info in infos.values():
         field = 'code repository-raw'
         # if field 'Code repository' is available
         if field in info:
+            consumed = False
             repos = info[field]
             if repos:
                 # split at comma
@@ -616,6 +630,10 @@ def update_primary_code_repositories():
                     repo = git_repo(repo)
                     if repo:
                         primary_repos.append(repo)
+                        consumed = True
+            if not consumed:
+                unconsumed_entries.append([info['title'], info[field]])
+                # print('Entry "{}" unconsumed repo: {}'.format(info['title'], info[field]))
 
     # sort them alphabetically (and remove duplicates)
     primary_repos = sorted(set(primary_repos))

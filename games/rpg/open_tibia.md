@@ -2,10 +2,10 @@
 
 _Remake of Tibia_
 
-- Home: https://github.com/opentibia https://sourceforge.net/projects/opentibia/
+- Home: https://github.com/opentibia, https://sourceforge.net/projects/opentibia/
 - Download: https://sourceforge.net/projects/opentibia/files/
 - State: beta, inactive since 2014
-- Code repository: https://github.com/opentibia
+- Code repository: https://github.com/opentibia/server, https://github.com/opentibia/yatc (+)
 - Code language: C++
 - Code license: GPL-2.0
 

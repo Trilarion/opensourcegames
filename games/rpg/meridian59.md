@@ -2,7 +2,7 @@
 
 _A classic MMO._
 
-- Home: http://meridian59.com/ http://meridian59.de
+- Home: http://meridian59.com/, http://meridian59.de
 - Media: https://en.wikipedia.org/wiki/Meridian_59
 - Download: http://meridian59.com/play-now.php
 - State: mature

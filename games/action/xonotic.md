@@ -7,7 +7,7 @@ _Arena-style first person shooter._
 - Download: http://www.xonotic.org/download/
 - State: mature
 - Keywords: shooter
-- Code repository: https://gitlab.com/xonotic
+- Code repository: https://gitlab.com/xonotic/xonotic.git, https://gitlab.com/xonotic/xonotic-data.pk3dir.git
 - Code language: C
 - Code license: GPL-3.0 (Darkplace engine is GPL-2.0)
 

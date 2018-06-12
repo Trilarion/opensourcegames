@@ -7,7 +7,7 @@ _FreedroidRPG is an open source role playing game._
 - Download: http://www.freedroid.org/download/
 - State: mature
 - Keywords: SP, isometric
-- Code repository: https://gitlab.com/freedroid/freedroid-src
+- Code repository: https://gitlab.com/freedroid/freedroid-src.git
 - Code language: C
 - Code license: GPL-2.0
 

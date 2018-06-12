@@ -6,12 +6,13 @@
     Warning: This may take a long time on the first run and may need a lot of storage space!
 
     TODO are really all existing branches cloned and pulled? (see https://stackoverflow.com/questions/67699/how-to-clone-all-remote-branches-in-git)
-    TODO detect unused folders?
+    TODO Sourceforge git clone may not work all the time (restart the script helps..)
 """
 
 import os
 import json
 import subprocess
+import time
 
 
 def read_text(file):
@@ -21,6 +22,7 @@ def read_text(file):
     with open(file, mode='r', encoding='utf-8') as f:
         text = f.read()
     return text
+
 
 def derive_folder_name(url):
     replaces = {
@@ -41,6 +43,7 @@ def derive_folder_name(url):
         if url.startswith(generic):
             url = url[len(generic):]
             return sanitize(url)
+
 
 def clone(url, folder):
     result = subprocess.run(["git", "clone", url, folder])
@@ -84,12 +87,14 @@ if __name__ == '__main__':
     for folder, archive in zip(folders, archives):
         if not os.path.isdir(folder):
             clone(archive, folder)
+            time.sleep(0.1) # not sure if this is necessary, but there were some issues with too many git operations
 
     # at the end update them all
     for folder in folders:
         # pull all
         os.chdir(folder)
         pull()
+        time.sleep(0.1)  # not sure if this is necessary, but there were some issues with too many git operations
 
 
 

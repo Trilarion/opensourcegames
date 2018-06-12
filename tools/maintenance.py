@@ -14,6 +14,7 @@ import urllib.request
 import http.client
 import datetime
 import json
+import textwrap
 
 TOC = '_toc.md'
 
@@ -276,7 +277,15 @@ def parse_entry(content):
     regex = re.compile(r"^# (.*)")
     matches = regex.findall(content)
     assert len(matches) == 1
+    assert matches[0]
     info['title'] = matches[0]
+
+    # read description
+    regex = re.compile(r"^.*\n\n_(.*)_\n")
+    matches = regex.findall(content)
+    assert len(matches) == 1, info['title']
+    assert matches[0]
+    info['description'] = matches[0]
 
     # first read all field names
     regex = re.compile(r"^- (.*?): ", re.MULTILINE)
@@ -498,7 +507,7 @@ def export_json():
 
     # make database out of it
     db = {}
-    db['headings'] = ['Game', 'Description', 'Download', 'State', 'Keywords', 'Source']
+    db['headings'] = ['Game', 'Description', 'Download', 'Category', 'State', 'Keywords', 'Source']
 
     entries = []
     for info in infos.values():
@@ -509,7 +518,7 @@ def export_json():
         entry.append('{} (<a href="{}">home</a>, <a href="{}">entry</a>)'.format(info['title'], info['home'][0], ''))
 
         # description
-        entry.append('')
+        entry.append(textwrap.shorten(info['description'], width=80, placeholder='..'))
 
         # download
         field = 'download'
@@ -517,6 +526,9 @@ def export_json():
             entry.append('<a href="{}">Link</a>'.format(info[field][0]))
         else:
             entry.append('')
+
+        # category
+        entry.append(info['category'])
 
         # state (field state is essential)
         entry.append('{} / {}'.format(info['state'][0], 'inactive since {}'.format(info['inactive']) if 'inactive' in info else 'active'))
@@ -529,8 +541,17 @@ def export_json():
             entry.append('')
 
         # source
-        text = ''
-        entry.append(text)
+        text = []
+        field = 'code repository'
+        if field in info and info[field]:
+            text.append('<a href="{}">Source</a>'.format(info[field][0]))
+        field = 'code language'
+        if field in info and info[field]:
+            text.append(', '.join(info[field]))
+        field = 'code license'
+        if field in info and info[field]:
+            text.append(info[field][0])
+        entry.append(' - '.join(text))
 
         # append to entries
         entries.append(entry)
@@ -558,9 +579,7 @@ def git_repo(repo):
             return repo + '.git'
 
     # for all others we just check if they start with the typical urls of git services
-
-    # 'https://git.code.sf.net/p/' currently doesn't work that well
-    services = ['https://git.tuxfamily.org/', 'http://git.pond.sub.org/', 'https://gitorious.org/']
+    services = ['https://git.tuxfamily.org/', 'http://git.pond.sub.org/', 'https://gitorious.org/', 'https://git.code.sf.net/p/']
     for service in services:
         if repo.startswith(service):
             return repo

@@ -5,7 +5,7 @@ _Battlefield Java is simple grid and turned based battle simulation game for Jav
 - Home: https://sourceforge.net/projects/battlefieldjava/
 - Download: https://sourceforge.net/projects/battlefieldjava/files/battlefieldjava/
 - State: beta, inactive since 2011
-- Code repository: https://git.code.sf.net/p/battlefieldjava/git
+- Code repository: https://git.code.sf.net/p/battlefieldjava/git, https://sourceforge.net/p/battlefieldjava/cvs/ (cvs)
 - Code language: Java
 
 

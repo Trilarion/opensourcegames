@@ -12,7 +12,7 @@ _Cross-platform application framework._
 
 Not a specialized game framework, but one could write games with it.
 
-Also see the [Qt Creator IDE](https://wiki.qt.io/Qt_Creator).
+See also the [Qt Creator IDE](https://wiki.qt.io/Qt_Creator).
 
 ## Building
 

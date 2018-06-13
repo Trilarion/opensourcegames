@@ -67,6 +67,10 @@ if __name__ == '__main__':
     archives = json.loads(text)
     print('update {} archives'.format(len(archives)))
 
+    # remove those that do not work
+    ignore = ['https://git.code.sf.net/p/dangerdeep/git', 'https://git.code.sf.net/p/erebusrpg/code', 'https://git.code.sf.net/p/rmoffice/code']
+    archives = [x for x in archives if x not in ignore]
+
     # get derived folder names
     folders = [derive_folder_name(url) for url in archives]
 

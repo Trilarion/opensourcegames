@@ -5,7 +5,7 @@ _A console-style role playing game._
 - Home: http://kqlives.sourceforge.net/, https://sourceforge.net/projects/kqlives/
 - Download: https://sourceforge.net/projects/kqlives/files/
 - State: beta, inactive since 2011
-- Code repository: https://sourceforge.net/p/kqlives/code/HEAD/tree/ (svn)
+- Code repository: https://github.com/grrk-bzzt/kqlives (backup), https://svn.code.sf.net/p/kqlives/code/ (svn)
 - Code language: C
 - Code license: GPL-2.0
 

@@ -2,7 +2,7 @@
 
 _A 2D game engine._
 
-- Home: http://annchienta.sourceforge.net/?page=home
+- Home: http://annchienta.sourceforge.net/?page=home, https://sourceforge.net/projects/annchienta/
 - Download: https://sourceforge.net/projects/annchienta/files/annchienta/current/
 - State: mature, inactive since 2009
 - Code repository: https://github.com/sago007/annchienta, https://sourceforge.net/p/annchienta/code/HEAD/tree/trunk/Annchienta/ (svn)

@@ -389,6 +389,7 @@ def assemble_infos():
 
             # add file information
             info['file'] = os.path.basename(entry_path)[:-3] # [:-3] to cut off the .md
+            info['path'] = os.path.basename(category_path) + '/' + os.path.basename(entry_path)
 
             # add to list
             infos[entry_path] = info
@@ -517,10 +518,10 @@ def export_json():
         entry = []
 
         # game
-        entry.append('{} (<a href="{}">home</a>, <a href="{}">entry</a>)'.format(info['title'], info['home'][0], ''))
+        entry.append('{} (<a href="{}">home</a>, <a href="{}">entry</a>)'.format(info['title'], info['home'][0], r'https://github.com/Trilarion/opensourcegames/blob/master/games/' + info['path']))
 
         # description
-        entry.append(textwrap.shorten(info['description'], width=80, placeholder='..'))
+        entry.append(textwrap.shorten(info['description'], width=60, placeholder='..'))
 
         # download
         field = 'download'

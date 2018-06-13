@@ -10,7 +10,7 @@ _Real time, multiplayer, Internet-based game, featuring military, diplomatic, an
 - Code language: C
 - Code license: GPL-3.0
 
-Also see: http://www.wolfpackempire.com/clients.html
+See also http://www.wolfpackempire.com/clients.html
 
 ## Building
 

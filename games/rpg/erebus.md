@@ -2,10 +2,10 @@
 
 _RPG (Role-Playing Game), for PCs, smartphones, tablets and handhelds._
 
-- Home: http://erebusrpg.sourceforge.net/
+- Home: http://erebusrpg.sourceforge.net/, https://sourceforge.net/projects/erebusrpg/
 - Download: http://erebusrpg.sourceforge.net/#download
 - State: beta
-- Code repository: https://sourceforge.net/p/erebusrpg/code/ci/master/tree/
+- Code repository: https://git.code.sf.net/p/erebusrpg/code
 - Code language: C++
 - Code license: GPL-3.0
 

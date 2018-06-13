@@ -11,7 +11,7 @@ _Single player dungeon exploration game that runs on a wide variety of computer 
 - Code language: C
 - Code license: Custom (Nethack General Public License)
 
-Also see [NetHack Falcon's Eye](https://sourceforge.net/projects/falconseye/), a graphical modification of NetHack.
+See also [NetHack Falcon's Eye](https://sourceforge.net/projects/falconseye/), a graphical modification of NetHack.
 
 ## Building
 

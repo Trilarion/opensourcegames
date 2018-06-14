@@ -6,7 +6,7 @@ _3D RPG in a satirical post-apocalyptical world._
 - Download: http://dnt.dnteam.org/cgi-bin/downloads.py
 - State: beta, inactive since 2016
 - Keywords: SP
-- Code repository: https://sourceforge.net/p/dnt/code/ci/master/tree/ (git)
+- Code repository: https://git.code.sf.net/p/dnt/code (git)
 - Code language: C++
 - Code license: GPL-3.0
 

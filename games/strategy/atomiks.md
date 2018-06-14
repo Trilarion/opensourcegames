@@ -6,10 +6,10 @@ _Faithful remake of, and a tribute to, Atomix, a classic puzzle game created by 
 - Download: https://sourceforge.net/projects/atomiks/files
 - State: mature
 - Keywords: puzzle
-- Code repository: https://sourceforge.net/p/atomiks/code/HEAD/tree/ (svn)
+- Code repository: https://svn.code.sf.net/p/atomiks/code/ (svn)
 - Code language: C
 - Code license: GPL
-- Assets license: Custom (Leveldesign, see Readme)
+- Assets license: Custom (level design, see Readme)
 
 ## Building
 

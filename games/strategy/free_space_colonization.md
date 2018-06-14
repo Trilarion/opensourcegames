@@ -5,7 +5,7 @@ _Game of colonization, research, diplomacy and trade. A 4X approach.It is played
 - Home: http://fsc.sourceforge.net/, https://sourceforge.net/projects/fsc/
 - Download: https://sourceforge.net/projects/fsc/files
 - State: beta
-- Code repository: https://sourceforge.net/p/fsc/code/HEAD/tree/ (svn)
+- Code repository: https://svn.code.sf.net/p/fsc/code/ (svn)
 - Code language: C
 - Code license: GPL-2.0
 

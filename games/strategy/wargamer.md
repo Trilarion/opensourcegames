@@ -5,7 +5,7 @@ _Open source development of the game Wargamer:Napoleon 1813 originally developed
 - Home: https://sourceforge.net/projects/wargamer/, http://wargamer.sourceforge.net/
 - Download: https://sourceforge.net/projects/wargamer/files/
 - State: mature, inactive since 2003
-- Code repository: https://sourceforge.net/p/wargamer/code/
+- Code repository: https://sourceforge.net/p/wargamer/code/ (cvs)
 - Code language: C++
 - Code license: GPL-20
 

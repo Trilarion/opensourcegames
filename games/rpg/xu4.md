@@ -7,7 +7,7 @@ _A remake of the computer game Ultima IV._
 - Download: http://xu4.sourceforge.net/download.php
 - State: mature
 - Keywords: SP
-- Code repository: https://sourceforge.net/p/xu4/code/HEAD/tree/
+- Code repository: https://svn.code.sf.net/p/xu4/code/ (svn)
 - Code language: C++
 - Code license: GPL-2.0
 

@@ -575,6 +575,10 @@ def git_repo(repo):
         Tests if a repo is a git repo, then returns the repo url, possibly modifying it slightly (for Github).
     """
 
+    # generic (https://*.git) or (http://*.git) ending on git
+    if (repo.startswith('https://') or repo.startswith('http://')) and repo.endswith('.git'):
+        return repo
+
     # for github we check that the url is github.com/user/repo and add .git
     github = 'https://github.com/'
     if repo.startswith(github):
@@ -586,10 +590,6 @@ def git_repo(repo):
     for service in services:
         if repo.startswith(service):
             return repo
-
-    # generic (https://*.git) or (http://*.git) ending on git
-    if (repo.startswith('https://') or repo.startswith('http://')) and repo.endswith('.git'):
-        return repo
 
     # the rest is ignored
     return None
@@ -607,7 +607,7 @@ def svn_repo(repo):
 
 def update_primary_code_repositories():
 
-    primary_repos = []
+    primary_repos = {'git':[],'svn':[],'hg':[],'bzr':[]}
     unconsumed_entries = []
 
     # for every entry filter those that are known git repositories (add additional repositories)
@@ -630,14 +630,16 @@ def update_primary_code_repositories():
                     repo = repo.strip()
                     repo = git_repo(repo)
                     if repo:
-                        primary_repos.append(repo)
+                        primary_repos['git'].append(repo)
                         consumed = True
             if not consumed:
                 unconsumed_entries.append([info['title'], info[field]])
-                # print('Entry "{}" unconsumed repo: {}'.format(info['title'], info[field]))
+                #if info['code repository']:
+                #    print('Entry "{}" unconsumed repo: {}'.format(info['title'], info[field]))
 
     # sort them alphabetically (and remove duplicates)
-    primary_repos = sorted(set(primary_repos))
+    for k, v in primary_repos.items():
+        primary_repos[k] = sorted(set(v))
 
     # write them to tools/git
     json_path = os.path.join(games_path, os.path.pardir, 'tools', 'git_archive', 'archives.json')

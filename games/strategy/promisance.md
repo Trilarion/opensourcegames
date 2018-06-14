@@ -5,7 +5,7 @@ _Web-based turn-based strategy game._
 - Home: https://sourceforge.net/projects/promisance/, http://promisance.sourceforge.net/
 - Download: https://sourceforge.net/projects/promisance/files
 - State: mature, inactive since 2004
-- Code repository: https://sourceforge.net/p/promisance/code/
+- Code repository: https://sourceforge.net/p/promisance/code/ (cvs)
 - Code language: PHP
 - Code license: GPL-2.0
 

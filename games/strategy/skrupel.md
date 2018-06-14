@@ -5,7 +5,7 @@ _Webbased cross between amazing games like, VGAPlanets, Ascendancy an for exampl
 - Home: https://sourceforge.net/projects/skrupel/
 - Download: https://sourceforge.net/projects/skrupel/files
 - State: mature, inactive since 2010
-- Code repository: https://sourceforge.net/p/skrupel/code
+- Code repository: https://sourceforge.net/p/skrupel/code (cvs)
 - Code language: PHP, Javascript
 - Code license: GPL-2.0
 

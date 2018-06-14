@@ -6,12 +6,12 @@ _An online multiplayer tactical warfare game._
 - Download: http://www.netpanzer.info/Download/
 - State: beta
 - Keywords: online, MP, RTS
-- Code repository: (see download), https://sourceforge.net/p/netpanzerfp/code/HEAD/tree/ (svn)
+- Code repository: https://github.com/BackupTheBerlios/netpanzer-svn (not up to date?), https://svn.code.sf.net/p/netpanzerfp/code/ (svn)
 - Code language: C++
 - Code license: GPL-2.0
 
-See also [Different builds of the old netpanzer code](https://github.com/Rominagrobis/OldNetPanzer) or [NetPanzer V2](https://github.com/Rominagrobis/NetPanzer-V2) or [Android client](https://github.com/francov/netPanzerSB)
-or [ArchLinux page](https://aur.archlinux.org/packages/netpanzer/).
+See also [Different builds of the old netpanzer code](https://github.com/Rominagrobis/OldNetPanzer), [Android client](https://github.com/francov/netPanzerSB),
+[ArchLinux page](https://aur.archlinux.org/packages/netpanzer/), https://github.com/aaronps/netpanzer
 
 ## Building
 

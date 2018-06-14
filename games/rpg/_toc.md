@@ -74,7 +74,7 @@
 - **[PlaneShift](planeshift.md)** (C++, GPL-2.0, mature)
 - **[Project Diaspora](project_diaspora.md)** (C, zlib, beta, inactive since 2011)
 - **[REGoth](regoth.md)** (C++, GPL-3.0, beta)
-- **[Radakan](radakan.md)** (Python, Custom, beta, inactive since 2010)
+- **[Radakan](radakan.md)** (Python, Custom, beta, inactive since 2014)
 - **[Rogue Clone IV](rogue_clone_iv.md)** (C, BSD, mature, inactive since 2006)
 - **[Roguish](roguish.md)** (Javascript, BSD-3, beta, inactive since 2015)
 - **[Room for Change](room_for_change.md)** (Java, Apache-2.0, mature, inactive since 2013)

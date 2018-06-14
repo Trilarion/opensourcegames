@@ -6,7 +6,7 @@ _Emulation of the board game The Settlers of Catan, which can be played over the
 - Download: https://sourceforge.net/projects/pio/files
 - State: mature
 - Keywords: board game
-- Code repository: https://sourceforge.net/p/pio/code/HEAD/tree/
+- Code repository: https://svn.code.sf.net/p/pio/code/ (svn)
 - Code language: C
 - Code license: GPL-2.0
 

@@ -5,10 +5,13 @@ _Web-based, multi-player space exploration game inspired by the popular BBS game
 - Home: https://sourceforge.net/projects/blacknova/, https://blacknova.net/
 - Download: https://sourceforge.net/projects/blacknova/files
 - State: beta, inactive since 2012
-- Code repository: https://sourceforge.net/p/blacknova/code/HEAD/tree/
+- Code repository: https://github.com/Trilarion/blacknova (backup of svn), https://svn.code.sf.net/p/blacknova/code/ (svn)
 - Code language: PHP, Javascript
+- Code license: GPL-2.0
 
 Fork is [Red Nova Traders](https://sourceforge.net/projects/rednova/), inactive since 2006.
+
+See also https://github.com/myprohost/BlackNovaTrader, https://github.com/Kambyses/BlackNova-Traders
 
 ## Building
 

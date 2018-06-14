@@ -5,7 +5,7 @@ _Something in-between of a turn-based/real-time strategy game set in Japan durin
 - Home: https://sourceforge.net/projects/sengdokuwsj/
 - Download: https://sourceforge.net/projects/sengdokuwsj/files
 - State: beta, inactive since 2008
-- Code repository: https://sourceforge.net/projects/sengdokuwsj/files
+- Code repository: (see download)
 - Code language: C++, Lua
 - Code license: MIT
 

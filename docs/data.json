@@ -52,7 +52,7 @@
    "Strategy",
    "beta / inactive since 2010",
    "",
-   "<a href=\"https://code.google.com/archive/p/aiwars/source\">Source</a> - Python - MIT"
+   "<a href=\"https://github.com/suprafun/aiwars\">Source</a> - Python - MIT"
   ],
   [
    "AdaVenture (<a href=\"https://github.com/fastrgv/AdaVenture\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/adventure/adaventure.md\">entry</a>)",
@@ -1024,7 +1024,7 @@
    "Role Playing",
    "beta / inactive since 2009",
    "",
-   "<a href=\"https://code.google.com/archive/p/fallenspire/source/default/source\">Source</a> - Python - GPL-3.0"
+   "<a href=\"https://github.com/BGCX067/fallenspire-svn-to-git\">Source</a> - Python - GPL-3.0"
   ],
   [
    "Fanwor (<a href=\"http://fanwor.tuxfamily.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/adventure/fanwor.md\">entry</a>)",
@@ -1249,7 +1249,7 @@
    "Role Playing",
    "beta / inactive since 2011",
    "",
-   "<a href=\"https://code.google.com/archive/p/galaxymageredux/source\">Source</a> - Python - GPL-2.0"
+   "<a href=\"https://github.com/LibreGamesArchive/galaxymageredux\">Source</a> - Python - GPL-2.0"
   ],
   [
    "GalaxyNG (<a href=\"http://galaxyng.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/galaxyng.md\">entry</a>)",
@@ -1780,7 +1780,7 @@
    "Action/Arcade",
    "beta / inactive since 2013",
    "",
-   "<a href=\"http://www.hard-light.net/forums/index.php?board=210.0\">Source</a> - C++ - MPL"
+   "<a href=\"https://github.com/Echelon9/mechcommander2-open\">Source</a> - C++ - MPL"
   ],
   [
    "Mechanized Assault & eXploration Reloaded  (<a href=\"https://www.maxr.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/maxr.md\">entry</a>)",
@@ -1942,7 +1942,7 @@
    "Engines & Frameworks",
    "mature / active",
    "",
-   "<a href=\"https://rpg.hamsterrepublic.com/source/\">Source</a> - Basic - GPL-2.0"
+   "<a href=\"https://bitbucket.org/rbv/ohrrpgce-svn.git\">Source</a> - Basic - GPL-2.0"
   ],
   [
    "OGRE3D (<a href=\"https://www.ogre3d.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/ogre3d.md\">entry</a>)",
@@ -2068,7 +2068,7 @@
    "Simulation",
    "mature / active",
    "",
-   "<a href=\"http://svn.uktrainsim.com/svn/openrails/\">Source</a> - C# - GPL-3.0"
+   "<a href=\"http://svn.uktrainsim.com/svn/openrails/trunk\">Source</a> - C# - GPL-3.0"
   ],
   [
    "Open Soccer Star (<a href=\"https://opensoccerstar.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/open_soccer_star.md\">entry</a>)",
@@ -2148,8 +2148,8 @@
    "<a href=\"http://openmoo2.org/en/download\">Link</a>",
    "Strategy",
    "beta / inactive since 2011",
-   "",
-   "<a href=\"http://repository.openmoo2.org/cgi-bin/hgwebdir.cgi/PUBLIC/\">Source</a>"
+   "TBS, requires original content",
+   "<a href=\"https://github.com/pjotrligthart/openmoo2-hg-mirror\">Source</a>"
   ],
   [
    "OpenMW (<a href=\"http://openmw.org/en/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/open_mw.md\">entry</a>)",
@@ -2194,7 +2194,7 @@
    "Engines & Frameworks",
    "mature / inactive since 2013",
    "",
-   "<a href=\"https://sourceforge.net/p/openrpg/svn/HEAD/tree/\">Source</a> - Java, Python"
+   "<a href=\"https://github.com/openRPGteam/openrpg-engine\">Source</a> - Java, Python"
   ],
   [
    "OpenSSL (<a href=\"https://www.openssl.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/library/openssl.md\">entry</a>)",
@@ -2392,7 +2392,7 @@
    "Strategy",
    "mature / inactive since 2016",
    "",
-   "<a href=\"https://code.google.com/archive/p/polisgame/source/default/source\">Source</a> - Java - GPL-3.0"
+   "<a href=\"https://github.com/juanjepl/polisgame\">Source</a> - Java - GPL-3.0"
   ],
   [
    "Polycode (<a href=\"http://polycode.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/polycode.md\">entry</a>)",
@@ -2680,7 +2680,7 @@
    "Role Playing",
    "beta / inactive since 2007",
    "SP",
-   "<a href=\"https://code.google.com/archive/p/silvertree/source/default/source\">Source</a> - C++ - GPL-3.0"
+   "<a href=\"https://github.com/LibreGamesArchive/silvertree\">Source</a> - C++ - GPL-3.0"
   ],
   [
    "Simple DirectMedia Layer (<a href=\"https://www.libsdl.org/index.php\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/library/sdl_2.md\">entry</a>)",
@@ -2797,7 +2797,7 @@
    "Strategy",
    "mature / inactive since 2011",
    "",
-   "<a href=\"https://code.google.com/archive/p/songofalbion/source\">Source</a> - C - Apache-2.0"
+   "<a href=\"https://github.com/rayjohannessen/songofalbion\">Source</a> - C, C++ - Apache-2.0"
   ],
   [
    "Source of Tales (<a href=\"http://www.sourceoftales.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/source_of_tales.md\">entry</a>)",
@@ -2840,9 +2840,9 @@
    "Port to C# (.NET) of the popular game for Palm.",
    "<a href=\"https://sourceforge.net/projects/spacetraderwin/files\">Link</a>",
    "Strategy",
-   "mature / inactive since 2008",
+   "mature / inactive since 2009",
    "",
-   "<a href=\"https://sourceforge.net/p/spacetraderwin/code/\">Source</a> - C# - GPL-2.0"
+   "<a href=\"https://github.com/SpaceTraderGame/SpaceTrader-Windows\">Source</a> - C# - GPL-2.0"
   ],
   [
    "Space War (<a href=\"https://sourceforge.net/projects/space-war-2/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/space_war.md\">entry</a>)",
@@ -3058,7 +3058,7 @@
    "Strategy",
    "beta / inactive since 2012",
    "",
-   "<a href=\"http://git.thousandparsec.net/gitweb/gitweb.cgi\">Source</a> - C++, Python - GPL-2.0"
+   "<a href=\"https://github.com/thousandparsec/tpserver-cpp\">Source</a> - C++, Python - GPL-2.0"
   ],
   [
    "Trinity Reign (<a href=\"https://web.archive.org/web/20131209073248/http://trinity-reign.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/trinity_reign.md\">entry</a>)",
@@ -3328,7 +3328,7 @@
    "Strategy",
    "mature / inactive since 2012",
    "cards, remake",
-   "<a href=\"https://code.google.com/archive/p/wizards-magic/source\">Source</a> - Python - GPL-2.0"
+   "<a href=\"https://github.com/chubakur/wizards-magic\">Source</a> - Python - GPL-2.0"
   ],
   [
    "Wolfpack Empire (<a href=\"http://www.wolfpackempire.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/wolfpack_empire.md\">entry</a>)",

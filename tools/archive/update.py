@@ -124,6 +124,8 @@ def run(type, urls):
     folders = [os.path.join(base_folder, x) for x in folders]
     os.chdir(base_folder)
     for folder, url in zip(folders, urls):
+        if url.startswith('https://git.code.sf.net/p/'):
+            continue
         if not os.path.isdir(folder):
             clone[type](url, folder)
 
@@ -131,7 +133,8 @@ def run(type, urls):
     for folder in folders:
         print('update {}'.format(os.path.basename(folder)))
         if not os.path.isdir(folder):
-            raise Exception('folder to update not existing')
+            print('folder not existing, wanted to update, will skip')
+            continue
         update[type](folder)
 
 

@@ -1,6 +1,6 @@
 # Space Station 13
 
-_A community developed, multiplayer round-based role playing game, where players assume the role of a crewmember on a space station._
+_A community developed, multiplayer round-based role playing game, where players assume the role of a crew member on a space station._
 
 - Home: https://spacestation13.com/
 - Media: https://en.wikipedia.org/wiki/Space_Station_13

@@ -8,6 +8,8 @@ _CRPG designed to appeal to the "pen & paper" role-player._
 - Code repository: https://sourceforge.net/p/runesword/code/ (cvs)
 - Code language: Visual Basic
 
+See also https://github.com/mattiascibien/Runesword.net, https://github.com/aceofspades19/Runesword-II-OS.Net
+
 ## Building
 
 Official support for Visual Basic has [ended in 2008](https://en.wikipedia.org/wiki/Visual_Basic#Legacy_development_and_support).

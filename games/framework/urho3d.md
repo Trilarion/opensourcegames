@@ -6,7 +6,7 @@ _Urho3D is a free lightweight, cross-platform 2D and 3D game engine._
 - Download: https://sourceforge.net/projects/urho3d/files/Urho3D/
 - State: mature
 - Code repository: https://github.com/urho3d/Urho3D
-- Code language: C++, Angelscript
+- Code language: C++, AngelScript
 - Code license: MIT
 
 ## Building

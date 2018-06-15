@@ -7,7 +7,7 @@ _Virtual tabletop software._
 - State: mature
 - Keywords: tool
 - Code repository: https://github.com/Rolisteam/rolisteam (https://github.com/Rolisteam) 
-- Code language: C++, Javascript
+- Code language: C++, JavaScript
 - Code license: GPL-2.0
 
 ## Building

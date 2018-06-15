@@ -1,6 +1,6 @@
 # Goblin Hack
 
-_A roguelike opengl-based smooth-scrolling ASCII graphics game._
+_A roguelike OpenGL-based smooth-scrolling ASCII graphics game._
 
 - Home: https://sourceforge.net/projects/goblinhack/
 - Download: https://sourceforge.net/projects/goblinhack/files/

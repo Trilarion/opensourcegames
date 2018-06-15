@@ -1,6 +1,6 @@
 # Unknown Horizons
 
-_A 2D realtime strategy simulation with an emphasis on economy and city building._
+_A 2D real time strategy simulation with an emphasis on economy and city building._
 
 - Home: http://unknown-horizons.org/
 - Media: https://en.wikipedia.org/wiki/Unknown_Horizons

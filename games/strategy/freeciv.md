@@ -11,7 +11,7 @@ _Freeciv is a Free and Open Source empire-building strategy game inspired by the
 - Code language: C
 - Code license: GPL-2.0
 
-See also [FreeCivAC](http://freecivac.sourceforge.net/) which is a patch to FreeCiv to incoporate Alpha Centauri behavior
+See also [FreeCivAC](http://freecivac.sourceforge.net/) which is a patch to FreeCiv to incorporate Alpha Centauri behavior
 however inactive since 2002.
 
 ## Building

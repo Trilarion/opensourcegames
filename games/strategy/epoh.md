@@ -6,7 +6,7 @@ _Multiplayer turn-based browser strategy game._
 - State: beta
 - Keywords: online
 - Code repository: https://github.com/tautvilas/epoh
-- Code language: Javascript
+- Code language: JavaScript
 - Code license: MIT
 
 ## Building

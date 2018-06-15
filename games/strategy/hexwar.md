@@ -6,7 +6,7 @@ _Simple turn based, hexagon map, strategy game in the tradition of Panzer Genera
 - State: beta, inactive since 2012
 - Keywords: TBS, online
 - Code repository: https://github.com/mgfreshour/hexwar
-- Code language: Ruby, Javascript
+- Code language: Ruby, JavaScript
 
 ## Building
 

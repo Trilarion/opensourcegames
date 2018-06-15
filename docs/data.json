@@ -25,7 +25,7 @@
    "Simulation",
    "mature / inactive since 2016",
    "browser",
-   "<a href=\"https://github.com/lo-th/3d.city\">Source</a> - Javascript - GPL-3.0"
+   "<a href=\"https://github.com/lo-th/3d.city\">Source</a> - JavaScript - GPL-3.0"
   ],
   [
    "8 Kingdoms (<a href=\"https://sourceforge.net/projects/kralovstvi/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/8kingdoms.md\">entry</a>)",
@@ -106,7 +106,7 @@
    "Strategy",
    "mature / active",
    "",
-   "<a href=\"https://github.com/FreezingMoon/AncientBeast\">Source</a> - Javascript - AGPL-3.0"
+   "<a href=\"https://github.com/FreezingMoon/AncientBeast\">Source</a> - JavaScript - AGPL-3.0"
   ],
   [
    "Andor's Trail (<a href=\"https://www.andorstrail.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/andors_trail.md\">entry</a>)",
@@ -322,7 +322,7 @@
    "Role Playing",
    "beta / inactive since 2006",
    "",
-   "Javascript - GPL-2.0"
+   "JavaScript - GPL-2.0"
   ],
   [
    "Birth of the Empires (<a href=\"http://bote2.square7.ch/en/wiki/Main_Page\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/birth_of_the_empires.md\">entry</a>)",
@@ -340,7 +340,7 @@
    "Strategy",
    "beta / inactive since 2012",
    "",
-   "<a href=\"https://github.com/Trilarion/blacknova\">Source</a> - PHP, Javascript - GPL-2.0"
+   "<a href=\"https://github.com/Trilarion/blacknova\">Source</a> - PHP, JavaScript - GPL-2.0"
   ],
   [
    "Blender game engine (<a href=\"https://www.blender.org/features/game-creation/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/blender_game_engine.md\">entry</a>)",
@@ -394,7 +394,7 @@
    "Role Playing",
    "mature / active",
    "MMO",
-   "<a href=\"https://github.com/mozilla/BrowserQuest\">Source</a> - Javascript - MPL-2.0"
+   "<a href=\"https://github.com/mozilla/BrowserQuest\">Source</a> - JavaScript - MPL-2.0"
   ],
   [
    "Bygfoot (<a href=\"http://bygfoot.sourceforge.net/new/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/bygfoot.md\">entry</a>)",
@@ -448,7 +448,7 @@
    "Role Playing",
    "beta / active",
    "remake",
-   "<a href=\"https://github.com/mordrax/cotwmtor\">Source</a> - Javascript - MIT"
+   "<a href=\"https://github.com/mordrax/cotwmtor\">Source</a> - JavaScript - MIT"
   ],
   [
    "Cat Mother Dead Justice (<a href=\"http://catmother.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/catmother.md\">entry</a>)",
@@ -506,7 +506,7 @@
   ],
   [
    "Classic Blades of Exile (<a href=\"http://www.spiderwebsoftware.com/blades/opensource.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/blades_of_exile.md\">entry</a>)",
-   "Eole-playing video games created by Jeff Vogel of..",
+   "Role-playing video games created by Jeff Vogel of..",
    "",
    "Role Playing",
    "mature / active",
@@ -556,7 +556,7 @@
    "Action/Arcade",
    "beta / inactive since 2012",
    "browser",
-   "<a href=\"https://github.com/commandojs/CommandoJS\">Source</a> - Javascript, Coffeescript - MIT"
+   "<a href=\"https://github.com/commandojs/CommandoJS\">Source</a> - JavaScript, CoffeeScript - MIT"
   ],
   [
    "Conquests (<a href=\"http://conquests.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/conquests.md\">entry</a>)",
@@ -595,7 +595,7 @@
    "<a href=\"https://svn.code.sf.net/p/crossfire/code/\">Source</a> - C, Java - GPL-2.0"
   ],
   [
-   "Crown and Cutless (<a href=\"http://www.crownandcutlass.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/crown_and_cutless.md\">entry</a>)",
+   "Crown and Cutlass (<a href=\"http://www.crownandcutlass.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/crown_and_cutlass.md\">entry</a>)",
    "3d pirate action/adventure game in the spirit of the old..",
    "<a href=\"https://sourceforge.net/projects/crownandcutlass/files/crownandcutlass/\">Link</a>",
    "Strategy",
@@ -614,7 +614,7 @@
   ],
   [
    "DNT (<a href=\"http://dnt.dnteam.org/cgi-bin/about.py\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/dnt.md\">entry</a>)",
-   "3D RPG in a satirical post-apocalyptical world.",
+   "3D RPG in a satirical post-apocalyptic world.",
    "<a href=\"http://dnt.dnteam.org/cgi-bin/downloads.py\">Link</a>",
    "Role Playing",
    "beta / inactive since 2016",
@@ -803,7 +803,7 @@
   ],
   [
    "Dune II - The Maker (<a href=\"http://dune2themaker.fundynamic.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/dune_ii_the_maker.md\">entry</a>)",
-   "Clone of the good old Dune II by Westwoord Studios.",
+   "Clone of the good old Dune II by Westwood Studios.",
    "<a href=\"http://dune2themaker.fundynamic.com/?page_id=11\">Link</a>",
    "Strategy",
    "beta / active",
@@ -812,12 +812,12 @@
   ],
   [
    "Dune Legacy (<a href=\"http://dunelegacy.sourceforge.net/website/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/dune_legacy.md\">entry</a>)",
-   "Updated clone of Westood Studios' Dune2 which uses data..",
+   "Updated clone of Westwood Studios' Dune2 which uses data..",
    "<a href=\"http://dunelegacy.sourceforge.net/website/downloads.html\">Link</a>",
    "Strategy",
    "mature / active",
    "requires original content",
-   "<a href=\"https://sourceforge.net/p/dunelegacy/code/ci/master/tree/\">Source</a> - C++ - GPL-2.0"
+   "<a href=\"https://git.code.sf.net/p/dunelegacy/code\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Dungeon Crawl Stone Soup (<a href=\"http://crawl.develz.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/dungeon_crawl_stone_soup.md\">entry</a>)",
@@ -880,7 +880,7 @@
    "Strategy",
    "beta / active",
    "online",
-   "<a href=\"https://github.com/tautvilas/epoh\">Source</a> - Javascript - MIT"
+   "<a href=\"https://github.com/tautvilas/epoh\">Source</a> - JavaScript - MIT"
   ],
   [
    "EasyRPG Player (<a href=\"https://easyrpg.org/player/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/easyrpgplayer.md\">entry</a>)",
@@ -979,7 +979,7 @@
    "Strategy",
    "mature / active",
    "",
-   "<a href=\"https://github.com/infidel-/cult\">Source</a> - Haxe, Javascript - GPL-3.0"
+   "<a href=\"https://github.com/infidel-/cult\">Source</a> - Haxe, JavaScript - GPL-3.0"
   ],
   [
    "Evol Online (<a href=\"http://evolonline.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/evol_online.md\">entry</a>)",
@@ -1150,7 +1150,7 @@
    "Simulation",
    "beta / inactive since 2009",
    "",
-   "<a href=\"https://github.com/Trilarion/freetrain\">Source</a> - C# - LPGL-2.1"
+   "<a href=\"https://github.com/Trilarion/freetrain\">Source</a> - C# - LGPL-2.1"
   ],
   [
    "FreeType (<a href=\"https://www.freetype.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/library/freetype.md\">entry</a>)",
@@ -1177,7 +1177,7 @@
    "Strategy",
    "mature / active",
    "online, TBS",
-   "<a href=\"https://github.com/freeciv/freeciv-web\">Source</a> - Javascript, Java - AGPL-3.0"
+   "<a href=\"https://github.com/freeciv/freeciv-web\">Source</a> - JavaScript, Java - AGPL-3.0"
   ],
   [
    "Freedink (<a href=\"https://www.gnu.org/software/freedink/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/freedink.md\">entry</a>)",
@@ -1190,7 +1190,7 @@
   ],
   [
    "FreedroidRPG (<a href=\"http://www.freedroid.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/freedroid.md\">entry</a>)",
-   "FreedroidRPG is an open source role playing game.",
+   "Open source role playing game.",
    "<a href=\"http://www.freedroid.org/download/\">Link</a>",
    "Role Playing",
    "mature / active",
@@ -1334,7 +1334,7 @@
   ],
   [
    "Goblin Hack (<a href=\"https://sourceforge.net/projects/goblinhack/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/goblin_hack.md\">entry</a>)",
-   "A roguelike opengl-based smooth-scrolling ASCII graphics..",
+   "A roguelike OpenGL-based smooth-scrolling ASCII graphics..",
    "<a href=\"https://sourceforge.net/projects/goblinhack/files/\">Link</a>",
    "Role Playing",
    "beta / inactive since 2009",
@@ -1447,7 +1447,7 @@
    "Strategy",
    "beta / inactive since 2012",
    "TBS, online",
-   "<a href=\"https://github.com/mgfreshour/hexwar\">Source</a> - Ruby, Javascript"
+   "<a href=\"https://github.com/mgfreshour/hexwar\">Source</a> - Ruby, JavaScript"
   ],
   [
    "Holyspirit (<a href=\"https://sourceforge.net/projects/lechemindeladam/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/holy_spirit.md\">entry</a>)",
@@ -1460,7 +1460,7 @@
   ],
   [
    "Ilarion (<a href=\"http://illarion.org/general/de_startpage.php\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/ilarion.md\">entry</a>)",
-   "Kostenloses Open Source-MMORPG, welches seinen Schwerpunkt..",
+   "Free Open Source-MMORPG, with emphasis on real roleplay.",
    "<a href=\"http://illarion.org/illarion/de_java_download.php\">Link</a>",
    "Role Playing",
    "mature / active",
@@ -1486,13 +1486,13 @@
    "<a href=\"https://github.com/zaki/irrlicht\">Source</a> - C++, C - zlib"
   ],
   [
-   "Iter Vehemens ad Necem (<a href=\"https://sourceforge.net/projects/ivan/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/iter_vehemens_ad_necem.md\">entry</a>)",
+   "Iter Vehemens ad Necem (<a href=\"https://attnam.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/iter_vehemens_ad_necem.md\">entry</a>)",
    "Graphical roguelike game with advanced bodypart and..",
-   "<a href=\"https://sourceforge.net/projects/ivan/files/\">Link</a>",
+   "<a href=\"https://attnam.com/projects\">Link</a>",
    "Role Playing",
-   "beta / inactive since 2004",
+   "beta / active",
    "roguelike",
-   "<a href=\"https://sourceforge.net/p/ivan/code/\">Source</a> - C++ - GPL-2.0"
+   "<a href=\"https://github.com/Attnam/ivan\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "JQuest (<a href=\"https://sourceforge.net/projects/jquest\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/jquest.md\">entry</a>)",
@@ -1537,7 +1537,7 @@
    "Engines & Frameworks",
    "beta / active",
    "online",
-   "<a href=\"https://github.com/EMC23/JiGS-PHP-RPG-engine\">Source</a> - Javascript, PHP - GPL-3.0"
+   "<a href=\"https://github.com/EMC23/JiGS-PHP-RPG-engine\">Source</a> - JavaScript, PHP - GPL-3.0"
   ],
   [
    "KAtomic (<a href=\"https://www.kde.org/applications/games/katomic/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/katomic.md\">entry</a>)",
@@ -1643,7 +1643,7 @@
    "Lincity is a city simulation game,",
    "",
    "Simulation",
-   "mature / active",
+   "mature / inactive since 2005",
    "",
    "<a href=\"http://lincity.cvs.sourceforge.net/\">Source</a> - C - GPL-2.0"
   ],
@@ -2050,7 +2050,7 @@
    "Strategy",
    "mature / active",
    "online",
-   "<a href=\"https://github.com/nicupavel/openpanzer\">Source</a> - Javascript - GPL-2.0"
+   "<a href=\"https://github.com/nicupavel/openpanzer\">Source</a> - JavaScript - GPL-2.0"
   ],
   [
    "Open RPG Maker (<a href=\"http://openrpgmaker.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/open_rpg_maker.md\">entry</a>)",
@@ -2194,7 +2194,7 @@
    "Engines & Frameworks",
    "mature / inactive since 2013",
    "",
-   "<a href=\"https://app.assembla.com/spaces/openrpg/mercurial/source\">Source</a> - Java, Python"
+   "<a href=\"https://sourceforge.net/p/openrpg/svn/HEAD/tree/\">Source</a> - Java, Python"
   ],
   [
    "OpenSSL (<a href=\"https://www.openssl.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/library/openssl.md\">entry</a>)",
@@ -2297,7 +2297,7 @@
   ],
   [
    "PARPG (<a href=\"http://blog.parpg.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/parpg.md\">entry</a>)",
-   "Post-Acopalyptic RPG.",
+   "Post-Apocalyptic RPG.",
    "<a href=\"http://blog.parpg.net/download/\">Link</a>",
    "Role Playing",
    "beta / inactive since 2012",
@@ -2545,7 +2545,7 @@
    "Role Playing",
    "beta / inactive since 2015",
    "roguelike",
-   "<a href=\"https://github.com/CamHenlin/Roguish\">Source</a> - Javascript - BSD-3"
+   "<a href=\"https://github.com/CamHenlin/Roguish\">Source</a> - JavaScript - BSD-3"
   ],
   [
    "Rolemaster Office (<a href=\"https://sourceforge.net/projects/rmoffice/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/misc/rolemaster_office.md\">entry</a>)",
@@ -2563,7 +2563,7 @@
    "Tools & Manuals",
    "mature / active",
    "tool",
-   "<a href=\"https://github.com/Rolisteam/rolisteam\">Source</a> - C++, Javascript - GPL-2.0"
+   "<a href=\"https://github.com/Rolisteam/rolisteam\">Source</a> - C++, JavaScript - GPL-2.0"
   ],
   [
    "Room for Change (<a href=\"https://github.com/antionio/game-off-2013\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/room_for_change.md\">entry</a>)",
@@ -2729,12 +2729,12 @@
   ],
   [
    "Skrupel - Tribute Compilation (<a href=\"https://sourceforge.net/projects/skrupel/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/skrupel.md\">entry</a>)",
-   "Webbased cross between amazing games like, VGAPlanets,..",
+   "Web-based cross between amazing games like, VGAPlanets,..",
    "<a href=\"https://sourceforge.net/projects/skrupel/files\">Link</a>",
    "Strategy",
    "mature / inactive since 2010",
    "",
-   "<a href=\"https://sourceforge.net/p/skrupel/code\">Source</a> - PHP, Javascript - GPL-2.0"
+   "<a href=\"https://sourceforge.net/p/skrupel/code\">Source</a> - PHP, JavaScript - GPL-2.0"
   ],
   [
    "Slash'EM (<a href=\"http://slashem.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/slash_em.md\">entry</a>)",
@@ -2743,7 +2743,7 @@
    "Role Playing",
    "beta / inactive since 2007",
    "roguelike",
-   "<a href=\"https://sourceforge.net/p/slashem/code\">Source</a> - C - Custom"
+   "<a href=\"https://github.com/farmboy0/slashem\">Source</a> - C - Custom"
   ],
   [
    "Slay (<a href=\"https://sourceforge.net/projects/slaygame/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/slay.md\">entry</a>)",
@@ -2761,7 +2761,7 @@
    "Action/Arcade",
    "mature / active",
    "browser",
-   "<a href=\"https://github.com/guillaume-gouchon/smash.js\">Source</a> - Javascript - MIT"
+   "<a href=\"https://github.com/guillaume-gouchon/smash.js\">Source</a> - JavaScript - MIT"
   ],
   [
    "Solar Empire (<a href=\"https://sourceforge.net/projects/solar-empire/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/solar_empire.md\">entry</a>)",
@@ -3125,7 +3125,7 @@
   ],
   [
    "UFO2000 (<a href=\"http://ufo2000.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/ufo2000.md\">entry</a>)",
-   "Free and opensource turn based tactical squad simulation..",
+   "Free and open source turn based tactical squad simulation..",
    "",
    "Strategy",
    "mature / inactive since 2012",
@@ -3179,7 +3179,7 @@
   ],
   [
    "Unknown Horizons (<a href=\"http://unknown-horizons.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/unknown_horizons.md\">entry</a>)",
-   "A 2D realtime strategy simulation with an emphasis on..",
+   "A 2D real time strategy simulation with an emphasis on..",
    "<a href=\"http://unknown-horizons.org/downloads/\">Link</a>",
    "Strategy",
    "beta / active",
@@ -3193,7 +3193,7 @@
    "Engines & Frameworks",
    "mature / active",
    "",
-   "<a href=\"https://github.com/urho3d/Urho3D\">Source</a> - C++, Angelscript - MIT"
+   "<a href=\"https://github.com/urho3d/Urho3D\">Source</a> - C++, AngelScript - MIT"
   ],
   [
    "VCMI Project (<a href=\"https://vcmi.eu/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/vcmi.md\">entry</a>)",
@@ -3314,7 +3314,7 @@
   ],
   [
    "Witch Blast (<a href=\"https://github.com/Cirrus-Minor/witchblast\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/witch_blast.md\">entry</a>)",
-   "Roguelite dungeon crawl shooter heavily inspired from..",
+   "Roguelike dungeon crawl shooter heavily inspired from..",
    "<a href=\"https://github.com/Cirrus-Minor/witchblast/releases\">Link</a>",
    "Role Playing",
    "beta / inactive since 2015",
@@ -3508,7 +3508,7 @@
    "Role Playing",
    "mature / active",
    "",
-   "<a href=\"https://github.com/mitallast/diablo-js\">Source</a> - Java, Javascript - MIT"
+   "<a href=\"https://github.com/mitallast/diablo-js\">Source</a> - Java, JavaScript - MIT"
   ],
   [
    "jMonkeyEngine (<a href=\"http://jmonkeyengine.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/jmonkeyengine.md\">entry</a>)",

@@ -6,7 +6,7 @@ _Nostalgic glimpse in the past in a form of Commodore 64 game "Commando"._
 - State: beta, inactive since 2012
 - Keywords: browser
 - Code repository: https://github.com/commandojs/CommandoJS
-- Code language: Javascript, Coffeescript
+- Code language: JavaScript, CoffeeScript
 - Code license: MIT
 
 ## Building

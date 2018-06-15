@@ -6,7 +6,7 @@ _Hex and turn based strategy game, a remake of good old Panzer General 2._
 - State: mature
 - Keywords: online
 - Code repository: https://github.com/nicupavel/openpanzer
-- Code language: Javascript
+- Code language: JavaScript
 - Code license: GPL-2.0
 
 License of artwork?

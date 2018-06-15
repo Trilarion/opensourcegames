@@ -12,5 +12,7 @@ _Roguelike computer role playing game available for almost any computer and oper
 
 Based on Angband.
 
+See also https://github.com/dennis-roof/Zband, https://github.com/jjnoo/Zangband
+
 ## Building
 

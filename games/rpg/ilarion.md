@@ -1,6 +1,6 @@
 # Ilarion
 
-_Kostenloses Open Source-MMORPG, welches seinen Schwerpunkt auf echtes Rollenspiel legt._
+_Free Open Source-MMORPG, with emphasis on real roleplay._
 
 - Home: http://illarion.org/general/de_startpage.php (German)
 - Download: http://illarion.org/illarion/de_java_download.php
@@ -12,5 +12,5 @@ _Kostenloses Open Source-MMORPG, welches seinen Schwerpunkt auf echtes Rollenspi
 
 ## Building
 
-Gradle
+- Build system: Gradle
 

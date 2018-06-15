@@ -7,7 +7,7 @@ _Freeciv-web is a version of Freeciv playable online in any modern web browser._
 - State: mature
 - Keywords: online, TBS 
 - Code repository: https://github.com/freeciv/freeciv-web
-- Code language: Javascript, Java
+- Code language: JavaScript, Java
 - Code license: AGPL-3.0
 
 Modifies [Freeciv](freeciv.md) slightly and uses it as server.

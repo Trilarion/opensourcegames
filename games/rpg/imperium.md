@@ -8,7 +8,7 @@ _A game of intergalactic exploration, warfare, and economics._
 - Keywords: console
 - Code repository: (see download)
 
-Nedd to register to download sources.
+Need to register to download sources.
 
 ## Building
 

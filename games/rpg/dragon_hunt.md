@@ -10,5 +10,7 @@ _Role-playing game designed to be flexible and fun._
 - Code license: GPL-2.0
 - Dependencies: PyGame
 
+See also https://github.com/evilmrhenry/dragon_hunt
+
 ## Building
 

@@ -1,6 +1,6 @@
 # Dune II - The Maker
 
-_Clone of the good old Dune II by Westwoord Studios._
+_Clone of the good old Dune II by Westwood Studios._
 
 - Home: http://dune2themaker.fundynamic.com/
 - Download: http://dune2themaker.fundynamic.com/?page_id=11

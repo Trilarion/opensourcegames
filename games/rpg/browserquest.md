@@ -7,7 +7,7 @@ _A Massively Multiplayer Adventure._
 - State: mature
 - Keywords: MMO
 - Code repository: https://github.com/mozilla/BrowserQuest
-- Code language: Javascript
+- Code language: JavaScript
 - Code license: MPL-2.0
 
 ## Building

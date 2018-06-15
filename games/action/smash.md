@@ -6,7 +6,7 @@ _Super Smash Bros-like in HTML5._
 - State: mature
 - Keywords: browser
 - Code repository: https://github.com/guillaume-gouchon/smash.js
-- Code language: Javascript
+- Code language: JavaScript
 - Code license: MIT
 
 ## Building

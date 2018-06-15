@@ -6,7 +6,7 @@ _Multiplayer, extensible rogue-like._
 - State: beta, inactive since 2015
 - Keywords: roguelike
 - Code repository: https://github.com/CamHenlin/Roguish
-- Code language: Javascript
+- Code language: JavaScript
 - Code license: BSD-3
 
 ## Building

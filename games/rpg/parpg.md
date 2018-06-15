@@ -1,6 +1,6 @@
 # PARPG
 
-_Post-Acopalyptic RPG._
+_Post-Apocalyptic RPG._
 
 - Home: http://blog.parpg.net/, https://sourceforge.net/projects/parpg/
 - Download: http://blog.parpg.net/download/

@@ -10,5 +10,7 @@ _Reproduction of Rogue._
 - Code language: C
 - Code license: BSD
 
+See also https://github.com/naota/rogueclone2s-utf8, https://github.com/WatermelonTeam/RogueClone
+
 ## Building
 

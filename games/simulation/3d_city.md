@@ -7,7 +7,7 @@ _WebGL version of micropolisJS._
 - State: mature, inactive since 2016
 - Keywords: browser
 - Code repository: https://github.com/lo-th/3d.city
-- Code language: Javascript
+- Code language: JavaScript
 - Code license: GPL-3.0
 
 ## Building

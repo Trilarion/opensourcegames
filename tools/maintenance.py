@@ -605,6 +605,28 @@ def svn_repo(repo):
     return None
 
 
+def hg_repo(repo):
+    """
+
+    """
+    if repo.startswith('https://bitbucket.org/') and not repo.endswith('.git'):
+        return repo
+
+    if repo.startswith('http://hg.'):
+        return repo
+
+    # not hg
+    return None
+
+
+def bzr_repo(repo):
+    if repo.startswith('https://code.launchpad.net/'):
+        return repo
+
+    # not bzr
+    return None
+
+
 def update_primary_code_repositories():
 
     primary_repos = {'git':[],'svn':[],'hg':[],'bzr':[]}
@@ -628,10 +650,27 @@ def update_primary_code_repositories():
                     # remove parenthesis and strip of white spaces
                     repo = re.sub(r'\([^)]*\)', '', repo)
                     repo = repo.strip()
-                    repo = git_repo(repo)
-                    if repo:
-                        primary_repos['git'].append(repo)
+                    url = git_repo(repo)
+                    if url:
+                        primary_repos['git'].append(url)
                         consumed = True
+                        continue
+                    url = svn_repo(repo)
+                    if url:
+                        primary_repos['svn'].append(url)
+                        consumed = True
+                        continue
+                    url = hg_repo(repo)
+                    if url:
+                        primary_repos['hg'].append(url)
+                        consumed=True
+                        continue
+                    url = bzr_repo(repo)
+                    if url:
+                        primary_repos['bzr'].append(url)
+                        consumed=True
+                        continue
+
             if not consumed:
                 unconsumed_entries.append([info['title'], info[field]])
                 #if info['code repository']:
@@ -642,7 +681,7 @@ def update_primary_code_repositories():
         primary_repos[k] = sorted(set(v))
 
     # write them to tools/git
-    json_path = os.path.join(games_path, os.path.pardir, 'tools', 'git_archive', 'archives.json')
+    json_path = os.path.join(games_path, os.path.pardir, 'tools', 'archive', 'archives.json')
     text = json.dumps(primary_repos, indent=1)
     write_text(json_path, text)
 
@@ -656,7 +695,7 @@ if __name__ == "__main__":
     infos = assemble_infos()
 
     # recount and write to readme
-    update_readme()
+    # update_readme()
 
     # generate list in toc files
     update_category_tocs()

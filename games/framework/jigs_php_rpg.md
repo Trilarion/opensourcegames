@@ -6,7 +6,7 @@ _Online RPG engine built in php._
 - State: beta
 - Keywords: online
 - Code repository: https://github.com/EMC23/JiGS-PHP-RPG-engine
-- Code language: Javascript, PHP
+- Code language: JavaScript, PHP
 - Code license: GPL-3.0
 
 ## Building

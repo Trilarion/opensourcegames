@@ -11,5 +11,7 @@ _Web-based turn-based strategy game._
 
 Version >4.0 (2002) has a partially proprietary license. Cannot safely be modified and shared.
 
+See also https://sourceforge.net/projects/qmpromisance/, https://github.com/taniarascia/singularity (should this be its own entry?).
+
 ## Building
 

@@ -1,6 +1,6 @@
 # FreedroidRPG
 
-_FreedroidRPG is an open source role playing game._
+_Open source role playing game._
 
 - Home: http://www.freedroid.org/
 - Media: https://de.wikipedia.org/wiki/FreedroidRPG (German)

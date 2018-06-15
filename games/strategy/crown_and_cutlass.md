@@ -1,4 +1,4 @@
-# Crown and Cutless
+# Crown and Cutlass
 
 _3d pirate action/adventure game in the spirit of the old Pirates! game._
 

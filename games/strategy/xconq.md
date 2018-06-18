@@ -2,14 +2,17 @@
 
 _General strategy game system._
 
-- Home: http://sourceware.org/xconq/
+- Home: http://xconq.sourceforge.net/, http://sourceware.org/xconq/, https://sourceforge.net/projects/xconq/
 - Media: https://en.wikipedia.org/wiki/Xconq
-- Download: https://sourceware.org/xconq/ftp.html
-- State: mature
-- Code repository: (see download)
-- Code license: GPL
+- Download: https://sourceforge.net/projects/xconq/files/, https://sourceware.org/xconq/ftp.html
+- State: mature, inactive since 2005
+- Code repository: https://gitlab.com/Trilarion/xconq.git (backup of cvs), https://sourceforge.net/p/xconq/code/ (cvs)
+- Code langauge: C++
+- Code license: GPL-2.0
 
 Historic. One of the first such projects.
+
+See also https://github.com/brentjohnson/xconq
 
 ## Building
 

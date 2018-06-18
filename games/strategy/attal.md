@@ -1,4 +1,4 @@
-# Attal
+# Attal: Lords of doom
 
 _Themeable turn-based strategy game._
 
@@ -6,7 +6,7 @@ _Themeable turn-based strategy game._
 - Download: https://sourceforge.net/projects/attal/files/Attal/
 - State: mature, inactive since 2008
 - Keywords: TBS
-- Code repository: https://sourceforge.net/p/attal/code/ (cvs)
+- Code repository: https://gitlab.com/Trilarion/attal.git (backup of cvs), http://attal.cvs.sourceforge.net/ (cvs)
 - Code language: C++
 - Code license: GPL-2.0
 

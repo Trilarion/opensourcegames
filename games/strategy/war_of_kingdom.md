@@ -6,6 +6,7 @@ _Turn-based tactical strategy game._
 - State: beta
 - Code repository: https://github.com/freeors/War-Of-Kingdom
 - Code language: C, C++
+- Code license: GPL-2.0
 - Code dependencies: Rose (https://github.com/freeors/Rose)
 
 ## Building

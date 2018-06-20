@@ -7,7 +7,7 @@ _Pathfinder Character Creation._
 - State: mature
 - Keywords: tool
 - Code repository: (see download)
-- Code language: Excel
+- Code language: Excel Visual Basic
 
 ## Building
 

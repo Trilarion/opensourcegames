@@ -679,8 +679,8 @@ def update_primary_code_repositories():
 
             if not consumed:
                 unconsumed_entries.append([info['title'], info[field]])
-                #if info['code repository']:
-                #    print('Entry "{}" unconsumed repo: {}'.format(info['title'], info[field]))
+                if info['code repository']:
+                    print('Entry "{}" unconsumed repo: {}'.format(info['title'], info[field]))
                 #if not info['code repository']:
                 #    print('Entry "{}" unconsumed repo: {}'.format(info['title'], info[field]))
 

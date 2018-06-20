@@ -5,8 +5,9 @@ _A text-based, turn-based strategy game set in space. It is similar to a 4X game
 - Home: https://sourceforge.net/projects/aplanetsrevenge/
 - Download: https://sourceforge.net/projects/aplanetsrevenge/files/aplanetsrevenge/apr-1.0-alpha/
 - State: beta, inactive since 2008
-- Code repository: (see download)
+- Code repository: https://gitlab.com/Trilarion/aplanetsrevenge.git (copy of last source release)
 - Code language: Python
+- Code license: GPL-3.0
 
 ## Building
 

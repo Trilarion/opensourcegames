@@ -6,7 +6,7 @@ _Play by email interstellar wargame for multiple players._
 - Download: https://sourceforge.net/projects/galaxyng/files
 - State: mature, inactive since 2005
 - Keywords: TBS
-- Code repository: https://sourceforge.net/p/galaxyng/code/ (cvs)
+- Code repository: https://gitlab.com/Trilarion/galaxyng.git(backup of cvs), http://galaxyng.cvs.sourceforge.net/ (cvs)
 - Code language: C
 - Code license: GPL-2.0
 

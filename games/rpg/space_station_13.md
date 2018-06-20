@@ -7,6 +7,8 @@ _A community developed, multiplayer round-based role playing game, where players
 - State: mature
 - Keywords: online
 - Code repository: (many different versions)
+- Code language: DM
+- Code license: AGPL-3.0
 
 Uses the [Byond engine]() which is closed source!
 

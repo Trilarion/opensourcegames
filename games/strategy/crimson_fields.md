@@ -7,6 +7,8 @@ _Turn-based tactical war game._
 - State: mature, inactive since 2010
 - Keywords: TBS
 - Code repository: http://crimson.seul.org/cvs.php (cvs)
+- Code language: C++
+- Code license: GPL-2.0
 
 ## Building
 

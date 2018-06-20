@@ -6,7 +6,8 @@ _Multiplayer Online Role Playing Game (MORPG) with 2D isometric graphics based o
 - Download: (see home)
 - State: mature, inactive since 2016
 - Code repository: https://github.com/atrinik/atrinik
-- Code language: C
+- Code language: C, Python
+- Code license: GPL-2.0
 
 ## Building
 

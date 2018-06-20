@@ -8,6 +8,7 @@ _Full campaign with optional (but strongly recommended!), videos, battle against
 - Keywords: RTS, popular
 - Code repository: https://github.com/Warzone2100/warzone2100
 - Code language: C++
+- Code license: GPL-2.0
 
 ## Building
 

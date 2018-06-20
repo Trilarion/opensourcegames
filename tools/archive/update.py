@@ -72,39 +72,64 @@ def svn_folder_name(url):
 
 
 def svn_clone(url, folder):
-    pass
+    result = subprocess.run(["svn", "checkout", url, folder])
+    if result.returncode:
+        print(result)
 
 def svn_update(folder):
-    pass
+    os.chdir(folder)
+    result = subprocess.run(["svn", "update"])
+    if result.returncode:
+        print(result)
 
 
 def hg_folder_name(url):
-    pass
+    replaces = {
+        'https://bitbucket.org': 'bitbucket',
+        'https://hg.code.sf.net/p': 'sourceforge',
+        'http://hg.': ''
+    }
+    return derive_folder_name(url, replaces)
 
 
 def hg_clone(url, folder):
-    pass
+    result = subprocess.run(["hg", "clone", url, folder])
+    if result.returncode:
+        print(result)
 
 
 def hg_update(folder):
-    pass
+    os.chdir(folder)
+    result = subprocess.run(['hg', 'pull', '-u'])
+    if result.returncode:
+        print(result)
 
 
 def bzr_folder_name(url):
-    pass
+    replaces = {
+        'https://code.launchpad.net': 'launchpad',
+    }
+    return derive_folder_name(url, replaces)
 
 
 def bzr_clone(url, folder):
-    pass
+    result = subprocess.run(['bzr', 'branch', url, folder])
+    if result.returncode:
+        print(result)
 
 
 def bzr_update(folder):
-    pass
+    os.chdir(folder)
+    result = subprocess.run(['bzr', 'pull'])
+    if result.returncode:
+        print(result)
 
 
 def run(type, urls):
     print('update {} {} archives'.format(len(urls), type))
     base_folder = os.path.join(root_folder, type)
+    if not os.path.exists(base_folder):
+        os.mkdir(base_folder)
 
     # get derived folder names
     folders = [folder_name[type](url) for url in urls]
@@ -124,9 +149,10 @@ def run(type, urls):
     folders = [os.path.join(base_folder, x) for x in folders]
     os.chdir(base_folder)
     for folder, url in zip(folders, urls):
-        if url.startswith('https://git.code.sf.net/p/'):
+        if url.startswith('https://git.code.sf.net/p/') or url.startswith('http://hg.code.sf.net/p/'):
             continue
         if not os.path.isdir(folder):
+            print('clone {} into {}'.format(url, folder[len(base_folder):]))
             clone[type](url, folder)
 
     # at the end update them all
@@ -135,6 +161,7 @@ def run(type, urls):
         if not os.path.isdir(folder):
             print('folder not existing, wanted to update, will skip')
             continue
+        print('update {}'.format(folder[len(base_folder):]))
         update[type](folder)
 
 
@@ -169,6 +196,9 @@ if __name__ == '__main__':
     archives = json.loads(text)
 
     for type in archives:
+        # currently no bzr checkout (problems with the repos)
+        if type == 'bzr':
+            continue
         urls = archives[type]
         run(type, urls)
 

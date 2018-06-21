@@ -745,7 +745,7 @@
    "Adventure & Visual novels",
    "mature / active",
    "visual novel",
-   "Ren'py - CC-BY-NC-SA"
+   "<a href=\"https://gitlab.com/Trilarion/digitalalovestory.git\">Source</a> - Ren'py - CC-BY-NC-SA"
   ],
   [
    "Doxygen (<a href=\"http://www.stack.nl/~dimitri/doxygen/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/library/doxygen.md\">entry</a>)",
@@ -763,7 +763,7 @@
    "Adventure & Visual novels",
    "mature / inactive since 2010",
    "",
-   "GPL-2.0"
+   "Pascal, Script - GPL-2.0"
   ],
   [
    "Dragon Hunt (<a href=\"http://emhsoft.com/dh.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/dragon_hunt.md\">entry</a>)",
@@ -1519,7 +1519,7 @@
    "Tools & Manuals",
    "mature / inactive since 2011",
    "tool",
-   "Java - GPL-2.0"
+   "<a href=\"https://gitlab.com/Trilarion/janag.git\">Source</a> - Java - GPL-2.0"
   ],
   [
    "Jagged Alliance 2 Stracciatella (<a href=\"https://ja2-stracciatella.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/jagged_alliance2.md\">entry</a>)",
@@ -1886,9 +1886,9 @@
    "A murder mystery game or visual novel built from public..",
    "<a href=\"https://sourceforge.net/projects/murderpd/files/\">Link</a>",
    "Adventure & Visual novels",
-   "mature / active",
+   "mature / inactive since 2013",
    "visual novel",
-   "GPL-3.0"
+   "<a href=\"https://gitlab.com/Trilarion/murderpd.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
    "NLarn (<a href=\"https://nlarn.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/nlarn.md\">entry</a>)",
@@ -2644,7 +2644,7 @@
    "Action/Arcade",
    "mature / inactive since 2009",
    "puzzle",
-   "C++ - GPL-3.0"
+   "<a href=\"https://github.com/FluXy/SMC\">Source</a> - C++ - GPL-3.0"
   ],
   [
    "Sengoku: Warring States of Japan (<a href=\"https://sourceforge.net/projects/sengdokuwsj/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/sengoky_warring_states_of_japan.md\">entry</a>)",
@@ -2662,7 +2662,7 @@
    "Adventure & Visual novels",
    "mature / active",
    "",
-   "Python - Public Domain"
+   "<a href=\"https://gitlab.com/Trilarion/sentient-storage.git\">Source</a> - Python - Public Domain"
   ],
   [
    "Settlers III remake (<a href=\"https://github.com/jsettlers/settlers-remake\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/settlers_iii_remake.md\">entry</a>)",
@@ -2977,7 +2977,7 @@
    "Strategy",
    "beta / inactive since 2004",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/tbots\">Source</a> - C - GPL-2.0"
+   "<a href=\"https://gitlab.com/Trilarion/tbots.git\">Source</a> - C - GPL-2.0"
   ],
   [
    "TVTower (<a href=\"http://www.tvgigant.de/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/tvtower.md\">entry</a>)",
@@ -3274,7 +3274,7 @@
    "Strategy",
    "mature / inactive since 2003",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/wargamer.git\">Source</a> - C++ - GPL-20"
+   "<a href=\"https://gitlab.com/Trilarion/wargamer.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Wargus (<a href=\"http://wargus.stratagus.com/index.shtml\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/wargus.md\">entry</a>)",

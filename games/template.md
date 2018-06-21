@@ -15,7 +15,6 @@ _{Description}_
 - Code dependencies: {XX}
 - Assets license: {XX}
 
-
 ## Building
 
 - Build system: {XX}

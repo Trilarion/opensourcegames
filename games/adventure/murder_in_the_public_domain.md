@@ -4,11 +4,13 @@ _A murder mystery game or visual novel built from public domain movies, sounds, 
 
 - Home: http://murderpd.sourceforge.net/, https://sourceforge.net/projects/murderpd
 - Download: https://sourceforge.net/projects/murderpd/files/
-- State: mature
+- Platform: Windows, Linux
+- State: mature, inactive since 2013
 - Keywords: visual novel
-- Code repository: (see download)
+- Code repository: https://gitlab.com/Trilarion/murderpd.git (copy of versions 1.0.0 - 1.3.1)
+- Code language: C++
 - Code license: GPL-3.0
 
 ## Building
 
-
+- Build system: Autoconf

@@ -149,7 +149,7 @@
 - **[WAtomic](watomic.md)** (Pascal, GPL-2.0, mature, inactive since 2005)
 - **[War Of Kingdom](war_of_kingdom.md)** (C, C++, GPL-2.0, beta)
 - **[WarGame](wargame.md)** (Unity, C#, CDDL, beta, inactive since 2016)
-- **[Wargamer](wargamer.md)** (C++, GPL-20, mature, inactive since 2003)
+- **[Wargamer](wargamer.md)** (C++, GPL-2.0, mature, inactive since 2003)
 - **[Wargus](wargus.md)** (C++, Lua, GPL-2.0, mature)
 - **[Warzone 2100](warzone_2100.md)** (C++, GPL-2.0, mature)
 - **[Widelands](widelands.md)** (C++, Lua, GPL-2.0, mature)

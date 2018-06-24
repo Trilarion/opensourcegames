@@ -5,7 +5,7 @@ _Innovative, original strategy-action RPG developed in Sphere._
 - Home: https://sourceforge.net/projects/bm-game/
 - Download: https://sourceforge.net/projects/bm-game/files
 - State: beta, inactive since 2006
-- Code repository: (see download)
+- Code repository: https://gitlab.com/Trilarion/bmtactics.git (copy of source releases)
 - Code language: JavaScript
 - Code license: GPL-2.0
 

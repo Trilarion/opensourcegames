@@ -7,7 +7,7 @@ _Roguelike computer game inspired by J. R. R. Tolkien's novel The Lord of the Ri
 - Download: http://beej.us/moria/files/
 - State: mature, inactive since 2008
 - Keywords: roguelike
-- Code repository: (see download)
+- Code repository: https://github.com/acahir/moria (copy of 5.6 plus a few commits)
 - Code language: C
 - Code license: GPL-3.0
 

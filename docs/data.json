@@ -88,7 +88,7 @@
    "Strategy",
    "beta / inactive since 2009",
    "online",
-   "PHP - GPL-2.0"
+   "<a href=\"https://github.com/tarnus/aatraders\">Source</a> - PHP - GPL-2.0"
   ],
   [
    "Allegro (<a href=\"http://liballeg.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/allegro.md\">entry</a>)",
@@ -322,7 +322,7 @@
    "Role Playing",
    "beta / inactive since 2006",
    "",
-   "JavaScript - GPL-2.0"
+   "<a href=\"https://gitlab.com/Trilarion/bmtactics.git\">Source</a> - JavaScript - GPL-2.0"
   ],
   [
    "Birth of the Empires (<a href=\"http://bote2.square7.ch/en/wiki/Main_Page\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/birth_of_the_empires.md\">entry</a>)",
@@ -1285,7 +1285,7 @@
    "Role Playing",
    "beta / inactive since 2004",
    "",
-   "C - GPL-2.0"
+   "<a href=\"https://gitlab.com/Trilarion/gwiz.git\">Source</a> - C - GPL-2.0"
   ],
   [
    "GemRB (<a href=\"http://www.gemrb.org/wiki/doku.php?id=start\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/gemrb.md\">entry</a>)",
@@ -1582,7 +1582,7 @@
    "Role Playing",
    "beta / inactive since 2011",
    "",
-   "Python - LGPL-3.0"
+   "<a href=\"https://gitlab.com/Trilarion/koboldsquest2.git\">Source</a> - Python - LGPL-3.0"
   ],
   [
    "LGeneral (<a href=\"http://lgames.sourceforge.net/LGeneral/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/lgeneral.md\">entry</a>)",
@@ -1834,7 +1834,7 @@
    "Role Playing",
    "mature / inactive since 2008",
    "",
-   "C - GPL-3.0"
+   "<a href=\"https://github.com/Nop90-Switch/Meritous-Switch\">Source</a> - C - GPL-3.0"
   ],
   [
    "Metal Mech (<a href=\"https://sourceforge.net/projects/metalmech/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/metal_mech.md\">entry</a>)",
@@ -1870,7 +1870,7 @@
    "Role Playing",
    "mature / inactive since 2008",
    "roguelike",
-   "C - GPL-3.0"
+   "<a href=\"https://github.com/acahir/moria\">Source</a> - C - GPL-3.0"
   ],
   [
    "Mpango (<a href=\"https://sourceforge.net/projects/mpango\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/mpango.md\">entry</a>)",
@@ -1951,7 +1951,7 @@
    "Role Playing",
    "mature / inactive since 2009",
    "educational",
-   "C# - GPL-2.0"
+   "<a href=\"https://gitlab.com/Trilarion/orient.git\">Source</a> - C#, Java - GPL-2.0"
   ],
   [
    "Octaforge (<a href=\"https://octaforge.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/octaforge.md\">entry</a>)",
@@ -2404,15 +2404,6 @@
    "<a href=\"https://github.com/ivansafrin/Polycode\">Source</a> - C, C++ - MIT"
   ],
   [
-   "Project Diaspora (<a href=\"http://pdiaspora.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/project_diaspora.md\">entry</a>)",
-   "Space style MMO RPG 2D with upgradeable ships and..",
-   "<a href=\"https://sourceforge.net/projects/pdiaspora/files/\">Link</a>",
-   "Role Playing",
-   "beta / inactive since 2011",
-   "",
-   "C - zlib"
-  ],
-  [
    "Project Helena (<a href=\"https://sourceforge.net/projects/projecthelena/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/project_helena.md\">entry</a>)",
    "Turn-based strategy/RPG game.",
    "<a href=\"https://sourceforge.net/projects/projecthelena/files\">Link</a>",
@@ -2446,7 +2437,7 @@
    "Tools & Manuals",
    "mature / active",
    "tool",
-   "Python - GPL-3.0"
+   "<a href=\"https://gitlab.com/Trilarion/pymapper.git\">Source</a> - Python - GPL-3.0"
   ],
   [
    "Qt (<a href=\"https://www.qt.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/qt.md\">entry</a>)",
@@ -2878,7 +2869,7 @@
    "Role Playing",
    "mature / inactive since 2005",
    "",
-   "Java - LGPL-2.0"
+   "<a href=\"https://gitlab.com/Trilarion/spicetrade.git\">Source</a> - Java - LGPL-2.0"
   ],
   [
    "Spring RTS engine (<a href=\"https://springrts.com/wiki/Main_Page\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/spring.md\">entry</a>)",
@@ -2899,12 +2890,12 @@
    "<a href=\"https://git.code.sf.net/p/sc2/uqm\">Source</a> - C - GPL-2.0"
   ],
   [
-   "Star Maiden Rio (<a href=\"http://nyaatrap.blog.fc2.com/blog-entry-20.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/adventure/star_maiden_rio.md\">entry</a>)",
+   "Star Maiden Astraea Rio (<a href=\"http://nyaatrap.blog.fc2.com/blog-entry-20.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/adventure/star_maiden_rio.md\">entry</a>)",
    "Visual Novel.",
    "<a href=\"http://www.mediafire.com/file/jog3fcfxgsyd03f/Astraea_Rio-1.05-all.zip\">Link</a>",
    "Adventure & Visual novels",
    "mature / active",
-   "visual novel, rating 18",
+   "visual novel, for adults",
    "Ren'py - CC-BY-NC"
   ],
   [
@@ -2995,7 +2986,7 @@
    "Role Playing",
    "mature / active",
    "roguelike",
-   "C, Lua - GPL-3.0"
+   "<a href=\"http://git.net-core.org/tome/t-engine4.git\">Source</a> - C, Lua - GPL-3.0"
   ],
   [
    "Tanks of Freedom (<a href=\"https://w84death.itch.io/tanks-of-freedom\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/tanks_of_freedom.md\">entry</a>)",
@@ -3157,7 +3148,7 @@
    "Role Playing",
    "beta / inactive since 2002",
    "",
-   "Python - Custom"
+   "<a href=\"https://gitlab.com/Trilarion/umbra\">Source</a> - Python - Custom"
   ],
   [
    "UnNetHack (<a href=\"https://unnethack.wordpress.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/unnethack.md\">entry</a>)",

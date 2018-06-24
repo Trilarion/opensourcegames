@@ -11,5 +11,7 @@ _Roguelike adventure through dungeons filled with dangerous monsters in a quest 
 - Code license: GPL-2.0
 - Dependencies: Lua, SDL
 
+Forked from Linley's Dungeon Crawl.
+
 ## Building
 

@@ -6,7 +6,7 @@ _A small turned based game._
 - Download: https://sourceforge.net/projects/king-arthur/files/king-arthur/Alpha%200.3/
 - State: beta, inactive since 2006
 - Code repository: (see download)
-- Code language: C++
+- Code language: C++, C#
 - Code license: Educational
 
 ## Building

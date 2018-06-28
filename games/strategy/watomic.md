@@ -6,7 +6,7 @@ _Windows clone of Linux KAtomic logic game._
 - Download: https://sourceforge.net/projects/watomic/files/
 - State: mature, inactive since 2005
 - Keywords: remake
-- Code repository: (see download)
+- Code repository: https://gitlab.com/Trilarion/watomic.git (snapshot of source releases)
 - Code language: Pascal
 - Code license: GPL-2.0
 

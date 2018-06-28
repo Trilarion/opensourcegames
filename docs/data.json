@@ -196,7 +196,7 @@
    "Strategy",
    "beta / inactive since 2006",
    "",
-   "C++ - Educational"
+   "C++, C# - Educational"
   ],
   [
    "Arx Libertatis (<a href=\"http://arx-libertatis.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/arx_libertatis.md\">entry</a>)",
@@ -736,7 +736,7 @@
    "Strategy",
    "beta / active",
    "browser",
-   "PHP - BSD"
+   "<a href=\"https://gitlab.com/Trilarion/devana.git\">Source</a> - PHP - BSD"
   ],
   [
    "Digital: A Love Story (<a href=\"http://scoutshonour.com/digital/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/adventure/digital_a_love_story.md\">entry</a>)",
@@ -757,13 +757,13 @@
    "<a href=\"https://github.com/doxygen/doxygen\">Source</a> - C++ - GPL-2.0"
   ],
   [
-   "Dragon History (<a href=\"http://www.ucw.cz/draci-historie/index-en.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/adventure/dragon_history.md\">entry</a>)",
+   "Dragon History - Dra\u010d\u00ed Historie (<a href=\"http://www.ucw.cz/draci-historie/index-en.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/adventure/dragon_history.md\">entry</a>)",
    "Czech adventure game.",
    "<a href=\"http://www.ucw.cz/draci-historie/index-en.html#download\">Link</a>",
    "Adventure & Visual novels",
    "mature / inactive since 2010",
    "",
-   "Pascal, Script - GPL-2.0"
+   "<a href=\"https://gitlab.com/Trilarion/dragon-history.git\">Source</a> - Pascal, Script - GPL-2.0"
   ],
   [
    "Dragon Hunt (<a href=\"http://emhsoft.com/dh.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/dragon_hunt.md\">entry</a>)",
@@ -789,8 +789,8 @@
    "<a href=\"https://sourceforge.net/projects/duelcommander/files\">Link</a>",
    "Strategy",
    "beta / inactive since 2009",
-   "",
-   "C - GPL-3.0"
+   "text-based",
+   "<a href=\"https://gitlab.com/Trilarion/duelcommander.git\">Source</a> - C - GPL-3.0"
   ],
   [
    "Dune Dynasty (<a href=\"http://dunedynasty.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/dune_dynasty.md\">entry</a>)",
@@ -1663,7 +1663,7 @@
    "Role Playing",
    "mature / inactive since 2006",
    "roguelike",
-   "C - Custom"
+   "<a href=\"https://gitlab.com/Trilarion/dungeoncrawl.git\">Source</a> - C - Custom"
   ],
   [
    "Linwarrior 3D (<a href=\"http://www.hackcraft.de/games/linwarrior_3d/index.htm\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/linwarrior.md\">entry</a>)",
@@ -2046,11 +2046,11 @@
   [
    "Open RPG Maker (<a href=\"http://openrpgmaker.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/open_rpg_maker.md\">entry</a>)",
    "Open RPG Maker is a free and open source 2D RPG creation..",
-   "<a href=\"https://sourceforge.net/projects/openrpgmaker/files/\">Link</a>",
+   "<a href=\"http://openrpgmaker.sourceforge.net/wiki/index.php/Download\">Link</a>",
    "Engines & Frameworks",
    "beta / inactive since 2014",
    "",
-   "C++ - GPL-3.0"
+   "<a href=\"https://gitlab.com/Trilarion/openrpgmaker.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
    "Open Rails (<a href=\"http://openrails.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/simulation/open_rails.md\">entry</a>)",
@@ -2242,13 +2242,13 @@
    "<a href=\"https://git.code.sf.net/p/snowstorm/git\">Source</a> - C++ - GPL-2.0"
   ],
   [
-   "Operation Citadel (<a href=\"http://kursk.sourceforge.net/newfiles/Projects.htm\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/operation_citadel.md\">entry</a>)",
+   "Operation Citadel (<a href=\"http://kursk.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/operation_citadel.md\">entry</a>)",
    "A WWII, turn based platoon, company level war game on the..",
    "<a href=\"https://sourceforge.net/projects/kursk/files\">Link</a>",
    "Strategy",
    "beta / inactive since 2000",
    "",
-   "C++ - GPL-2.0"
+   "<a href=\"https://gitlab.com/Trilarion/kursk.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Orx (<a href=\"http://orx-project.org/about\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/orx.md\">entry</a>)",
@@ -2743,7 +2743,7 @@
    "Strategy",
    "beta / inactive since 2010",
    "",
-   "Java - GPL-3.0"
+   "<a href=\"https://gitlab.com/Trilarion/slaygame.git\">Source</a> - Java - GPL-3.0"
   ],
   [
    "Smash (<a href=\"http://smash.gouchon.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/smash.md\">entry</a>)",
@@ -2955,11 +2955,11 @@
   [
    "Supremacy (<a href=\"https://archive.codeplex.com/?p=supremacy\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/supremacy.md\">entry</a>)",
    "\"4X\" (eXplore, eXpand, eXploit, eXterminate) turn-based,..",
-   "",
+   "<a href=\"http://www.startreksupremacy.com/download.html\">Link</a>",
    "Strategy",
-   "beta / active",
+   "beta / inactive since 2014",
    "",
-   "C# - Ms-RL"
+   "<a href=\"https://bitbucket.org/mstrobel/supremacy\">Source</a> - C# - Ms-RL"
   ],
   [
    "T-Bots (<a href=\"https://sourceforge.net/projects/tbots/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/t_bots.md\">entry</a>)",
@@ -2986,7 +2986,7 @@
    "Role Playing",
    "mature / active",
    "roguelike",
-   "<a href=\"http://git.net-core.org/tome/t-engine4.git\">Source</a> - C, Lua - GPL-3.0"
+   "<a href=\"https://git.net-core.org/tome/t-engine4.git\">Source</a> - C, Lua - GPL-3.0"
   ],
   [
    "Tanks of Freedom (<a href=\"https://w84death.itch.io/tanks-of-freedom\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/tanks_of_freedom.md\">entry</a>)",
@@ -3031,7 +3031,7 @@
    "Role Playing",
    "mature / active",
    "MMO",
-   "PHP - GPL-2.0"
+   "<a href=\"https://github.com/themanaworld/tmwa\">Source</a> - PHP - GPL-2.0"
   ],
   [
    "The hunt for the lost rainbow jewels (Jewelhunt) (<a href=\"https://sourceforge.net/projects/jewelhunt/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/jewelhunt.md\">entry</a>)",
@@ -3238,7 +3238,7 @@
    "Strategy",
    "mature / inactive since 2005",
    "remake",
-   "Pascal - GPL-2.0"
+   "<a href=\"https://gitlab.com/Trilarion/watomic.git\">Source</a> - Pascal - GPL-2.0"
   ],
   [
    "War Of Kingdom (<a href=\"http://www.freeors.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/war_of_kingdom.md\">entry</a>)",
@@ -3337,7 +3337,7 @@
    "Strategy",
    "beta / inactive since 2009",
    "",
-   "Python - BSD"
+   "<a href=\"https://gitlab.com/Trilarion/worldofheroes.git\">Source</a> - Python - BSD"
   ],
   [
    "World of Phaos (<a href=\"http://worldofphaos.com/index.php?site=online_rpg\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/world_of_phaos.md\">entry</a>)",
@@ -3346,7 +3346,7 @@
    "Role Playing",
    "mature / inactive since 2011",
    "online",
-   "PHP - GPL-2.0"
+   "<a href=\"https://gitlab.com/Trilarion/phaosrpg.git\">Source</a> - PHP - GPL-2.0"
   ],
   [
    "WorldForge (<a href=\"https://www.worldforge.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/worldforge.md\">entry</a>)",

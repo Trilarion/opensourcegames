@@ -5,7 +5,7 @@
 - **[Clou!](clou.md)** (C, Custom, beta)
 - **[Colossal Cave Adventure](colossal_cave.md)** (Python, Apache-2.0, mature)
 - **[Digital: A Love Story](digital_a_love_story.md)** (Ren'py, CC-BY-NC-SA, mature)
-- **[Dragon History](dragon_history.md)** (Pascal, Script, GPL-2.0, mature, inactive since 2010)
+- **[Dragon History - Dračí Historie](dragon_history.md)** (Pascal, Script, GPL-2.0, mature, inactive since 2010)
 - **[Fanwor](fanwor.md)** (C, GPL-2.0, mature)
 - **[Free in the Dark (engine)](fitd.md)** (C, C++, GPL-2.0, beta)
 - **[GameLV](gamelv.md)** (C++, GPL, beta)

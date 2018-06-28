@@ -167,6 +167,8 @@ def run(type, urls):
 
 if __name__ == '__main__':
 
+    supported_types = ['git', 'hg', 'svn'] # currently no bzr client installed
+
     folder_name = {
         'git': git_folder_name,
         'svn': svn_folder_name,
@@ -196,8 +198,7 @@ if __name__ == '__main__':
     archives = json.loads(text)
 
     for type in archives:
-        # currently no bzr checkout (problems with the repos)
-        if type == 'bzr':
+        if type not in supported_types:
             continue
         urls = archives[type]
         run(type, urls)

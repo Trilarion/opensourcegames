@@ -6,7 +6,7 @@ _Online Roleplaying Game browser based, which takes place in the high fantasy wo
 - Download: https://sourceforge.net/projects/phaosrpg/files/
 - State: mature, inactive since 2011
 - Keywords: online
-- Code repository: (see download)
+- Code repository: https://gitlab.com/Trilarion/phaosrpg.git (snapshot of source releases)
 - Code language: PHP
 - Code license: GPL-2.0
 - Assets license: Restricted (see license)

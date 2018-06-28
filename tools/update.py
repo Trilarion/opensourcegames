@@ -1,29 +1,19 @@
 """
-    Clones and/or pulls all the gits listed in archives.json
+Clones and/or pulls all the gits listed in archives.json
 
-    Requires: git executable in the path
+Requires: git executable in the path
 
-    Warning: This may take a long time on the first run and may need a lot of storage space!
+Warning: This may take a long time on the first run and may need a lot of storage space!
 
-    TODO are really all existing branches cloned and pulled? (see https://stackoverflow.com/questions/67699/how-to-clone-all-remote-branches-in-git)
-    TODO Sourceforge git clone may not work all the time (restart the script helps..)
+TODO are really all existing branches cloned and pulled? (see https://stackoverflow.com/questions/67699/how-to-clone-all-remote-branches-in-git)
+TODO Sourceforge git clone may not work all the time (restart the script helps..)
 
-    Note: May need to set http.postBuffer (https://stackoverflow.com/questions/17683295/git-bash-error-rpc-failed-result-18-htp-code-200b-1kib-s)
+Note: May need to set http.postBuffer (https://stackoverflow.com/questions/17683295/git-bash-error-rpc-failed-result-18-htp-code-200b-1kib-s)
 """
 
-import os
 import json
-import subprocess
-import time
+from utils.utils import *
 
-
-def read_text(file):
-    """
-    Reads a whole text file (UTF-8 encoded).
-    """
-    with open(file, mode='r', encoding='utf-8') as f:
-        text = f.read()
-    return text
 
 def derive_folder_name(url, replaces):
     sanitize = lambda x: x.replace('/', '.')
@@ -52,16 +42,12 @@ def git_folder_name(url):
 
 
 def git_clone(url, folder):
-    result = subprocess.run(["git", "clone", "--mirror", url, folder])
-    if result.returncode:
-        print(result)
+    subprocess_run(["git", "clone", "--mirror", url, folder])
 
 
 def git_update(folder):
     os.chdir(folder)
-    result = subprocess.run(["git", "fetch", "--all"])
-    if result.returncode:
-        print(result)
+    subprocess_run(["git", "fetch", "--all"])
 
 
 def svn_folder_name(url):
@@ -72,15 +58,12 @@ def svn_folder_name(url):
 
 
 def svn_clone(url, folder):
-    result = subprocess.run(["svn", "checkout", url, folder])
-    if result.returncode:
-        print(result)
+    subprocess_run(["svn", "checkout", url, folder])
+
 
 def svn_update(folder):
     os.chdir(folder)
-    result = subprocess.run(["svn", "update"])
-    if result.returncode:
-        print(result)
+    subprocess_run(["svn", "update"])
 
 
 def hg_folder_name(url):
@@ -93,16 +76,12 @@ def hg_folder_name(url):
 
 
 def hg_clone(url, folder):
-    result = subprocess.run(["hg", "clone", url, folder])
-    if result.returncode:
-        print(result)
+    subprocess_run(["hg", "clone", url, folder])
 
 
 def hg_update(folder):
     os.chdir(folder)
-    result = subprocess.run(['hg', 'pull', '-u'])
-    if result.returncode:
-        print(result)
+    subprocess_run(['hg', 'pull', '-u'])
 
 
 def bzr_folder_name(url):
@@ -113,21 +92,17 @@ def bzr_folder_name(url):
 
 
 def bzr_clone(url, folder):
-    result = subprocess.run(['bzr', 'branch', url, folder])
-    if result.returncode:
-        print(result)
+    subprocess_run(['bzr', 'branch', url, folder])
 
 
 def bzr_update(folder):
     os.chdir(folder)
-    result = subprocess.run(['bzr', 'pull'])
-    if result.returncode:
-        print(result)
+    subprocess_run(['bzr', 'pull'])
 
 
 def run(type, urls):
     print('update {} {} archives'.format(len(urls), type))
-    base_folder = os.path.join(root_folder, type)
+    base_folder = os.path.join(archive_folder, type)
     if not os.path.exists(base_folder):
         os.mkdir(base_folder)
 
@@ -192,6 +167,7 @@ if __name__ == '__main__':
 
     # get this folder
     root_folder = os.path.realpath(os.path.dirname(__file__))
+    archive_folder = os.path.join(root_folder, 'archive')
 
     # read archives.json
     text = read_text(os.path.join(root_folder, 'archives.json'))

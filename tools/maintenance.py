@@ -15,34 +15,9 @@ import http.client
 import datetime
 import json
 import textwrap
+from utils.utils import *
 
 TOC = '_toc.md'
-
-
-def read_text(file):
-    """
-    Reads a whole text file (UTF-8 encoded).
-    """
-    with open(file, mode='r', encoding='utf-8') as f:
-        text = f.read()
-    return text
-
-
-def read_first_line(file):
-    """
-    Convenience function because we only need the first line of a category overview really.
-    """
-    with open(file, mode='r', encoding='utf-8') as f:
-        line = f.readline()
-    return line
-
-
-def write_text(file, text):
-    """
-    Writes a whole text file (UTF-8 encoded).
-    """
-    with open(file, mode='w', encoding='utf-8') as f:
-        f.write(text)
 
 
 def get_category_paths():

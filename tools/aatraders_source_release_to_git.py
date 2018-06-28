@@ -1,15 +1,36 @@
 """
-Downloads source releases from Sourceforge and puts them into a git repository
+    Downloads source releases from Sourceforge and puts them into a git repository
 """
 
 import json
 import datetime
 from utils.utils import *
 
+def special_aatrade_package_extraction(source):
+    """
+    Unpacks "aatrade_packages".
+    """
+    files = os.listdir(source)
+    if any([x.startswith('aatrade_package') for x in files]):
+        # we got the special case
+        print('aatrade package extraction of {}'.format(source))
+
+        # first delete all, that do not begin with the package name
+        for file in files:
+            if not file.startswith('aatrade_package'):
+                os.remove(os.path.join(source, file))
+
+        # second extract all those with are left, removing them too
+        files = os.listdir(source)
+        for file in files:
+            try:
+                extract_archive(os.path.join(source, file), source, 'tar')
+            except:
+                extract_archive(os.path.join(source, file), source, 'zip')
+            os.remove(os.path.join(source, file))
+
 
 if __name__ == '__main__':
-
-    # https://sourceforge.net/projects/phaosrpg/files/OldFiles/Pv0.7devel.zip/download is a corrupt zip
 
     # base path is the directory containing this file
     base_path = os.path.abspath(os.path.dirname(__file__))
@@ -21,7 +42,7 @@ if __name__ == '__main__':
         os.mkdir(archive_path)
 
     # load source releases urls
-    with open(os.path.join(base_path, 'phaos.json'), 'r') as f:
+    with open(os.path.join(base_path, 'aatraders.json'), 'r') as f:
         urls = json.load(f)
     print('will process {} urls'.format(len(urls)))
     if len(urls) != len(set(urls)):
@@ -33,9 +54,9 @@ if __name__ == '__main__':
         raise RuntimeError("files with duplicate archives, cannot deal with that")
 
     # determine version from file name
-    versions = [determine_archive_version_generic(x, leading_terms=['phaos-', 'phaos', 'pv'], trailing_terms=['zip']) for x in archives]
-    # for version in versions:
-    #     print(version)
+    versions = [determine_archive_version_generic(x, leading_terms=['aatrade_', 'aatrade-', 'aatrade'], trailing_terms=['.zip', '.tar.gz', '_release']) for x in archives]
+    for version in versions:
+        print(version)
 
     # extend archives to full paths
     archives = [os.path.join(archive_path, x) for x in archives]
@@ -48,41 +69,50 @@ if __name__ == '__main__':
             continue
         # download
         print('  download {}'.format(os.path.basename(destination)))
-        with urllib.request.urlopen(url) as response:
-            with open(destination, 'wb') as f:
-                shutil.copyfileobj(response, f)
-                time.sleep(1) # we are nice
+        download_url(url, destination)
 
-    # unzip them
-    print('unzip downloaded archives')
-    unzipped_archives = [x[:-4] for x in archives] # folder is archive name without .zip
-    for archive, unzipped_archive in zip(archives, unzipped_archives):
-        print('  unzip {}'.format(os.path.basename(archive)))
+    # extract them
+    print('extract downloaded archives')
+    extracted_archives = [x + '-extracted' for x in archives]
+    for archive, extracted_archive in zip(archives, extracted_archives):
+        print('  extract {}'.format(os.path.basename(archive)))
         # only if not yet existing
-        if os.path.exists(unzipped_archive):
+        if os.path.exists(extracted_archive):
             continue
-        os.mkdir(unzipped_archive)
-        # unzip
-        unzip_keep_last_modified(archive, unzipped_archive)
+        os.mkdir(extracted_archive)
+        # extract
+        extract_archive(archive, extracted_archive, detect_archive_type(archive))
 
     # go up in unzipped archives until the very first non-empty folder
-    unzipped_archives = [strip_wrapped_folders(x) for x in unzipped_archives]
+    extracted_archives = [strip_wrapped_folders(x) for x in extracted_archives]
+
+    # special 'aatrade_packageX' treatment
+    for extracted_archive in extracted_archives:
+        special_aatrade_package_extraction(extracted_archive)
+
+    # calculate size of folder
+    sizes = [folder_size(x) for x in extracted_archives]
 
     # determine date
-    dates = [determine_latest_last_modified_date(x) for x in unzipped_archives]
+    dates = [determine_latest_last_modified_date(x) for x in extracted_archives]
     dates_strings = [datetime.datetime.fromtimestamp(x).strftime('%Y-%m-%d') for x in dates]
     # if len(dates_strings) != len(set(dates_strings)):
     #     raise RuntimeError("Some on the same day, cannot cope with that")
 
-    # gather all important stuff in one list and sort by dates
-    db = list(zip(urls, unzipped_archives, versions, dates, dates_strings))
+    # gather all important stuff in one list and sort by dates and throw those out where size is not in range
+    db = list(zip(urls, extracted_archives, versions, dates, dates_strings, sizes))
     db.sort(key=lambda x:x[3])
+
+    size_range = [5e6, float("inf")] # set to None if not desired
+    if size_range:
+        db = [x for x in db if size_range[0] <= x[5] <= size_range[1]]
+
     print('proposed order')
-    for url, _, version, _, date in db:
-        print('  date={} version={}'.format(date, version))
+    for url, _, version, _, date, size in db:
+        print('  date={} version={} size={}'.format(date, version, size))
 
     # git init
-    git_path = os.path.join(base_path, 'phaosrpg')
+    git_path = os.path.join(base_path, 'aatrade')
     if os.path.exists(git_path):
         shutil.rmtree(git_path)
     os.mkdir(git_path)
@@ -93,8 +123,8 @@ if __name__ == '__main__':
 
     # now process revision by revision
     print('process revisions')
-    git_author = 'eproductions3 <eproductions3@user.sourceforge.net>'
-    for url, archive_path, version, _, date in db:
+    git_author = 'akapanamajack, tarnus <akapanamajack_tarnus@user.sourceforge.net>'
+    for url, archive_path, version, _, date, _ in db:
         print('  process version={}'.format(version))
 
         # clear git path without deleting .git

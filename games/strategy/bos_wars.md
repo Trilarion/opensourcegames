@@ -6,7 +6,7 @@ _Futuristic real time strategy game (RTS)._
 - Download: https://www.boswars.org/download.shtml
 - State: mature, inactive since 2013
 - Keywords: RTS
-- Code repository: (see download)
+- Code repository: https://github.com/OneSleepyDev/boswars_osd, https://github.com/OneSleepyDev/boswars_osd_archive (+)
 - Code language: C++
 - Code license: GPL-2.0
 

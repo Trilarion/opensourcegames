@@ -376,7 +376,7 @@
    "Strategy",
    "mature / inactive since 2013",
    "RTS",
-   "C++ - GPL-2.0"
+   "<a href=\"https://github.com/OneSleepyDev/boswars_osd\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Boson (<a href=\"http://boson.sourceforge.net/index.php\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/boson.md\">entry</a>)",
@@ -583,7 +583,7 @@
    "Strategy",
    "mature / inactive since 2010",
    "TBS",
-   "<a href=\"http://crimson.seul.org/cvs.php\">Source</a> - C++ - GPL-2.0"
+   "<a href=\"https://gitlab.com/Trilarion/crimson.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Crossfire (<a href=\"http://crossfire.real-time.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/crossfire.md\">entry</a>)",
@@ -1789,7 +1789,7 @@
    "Strategy",
    "beta / inactive since 2016",
    "requires original content",
-   "C++, C - GPL-2.0"
+   "<a href=\"http://git.maxr.org/maxr/maxr.git\">Source</a> - C++, C - GPL-2.0"
   ],
   [
    "MegaGlest (<a href=\"https://megaglest.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/megaglest.md\">entry</a>)",
@@ -1864,13 +1864,13 @@
    "<a href=\"https://github.com/MonoGame/MonoGame\">Source</a> - C# - MPL"
   ],
   [
-   "Moria (<a href=\"http://beej.us/moria/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/moria.md\">entry</a>)",
+   "Moria (<a href=\"https://umoria.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/moria.md\">entry</a>)",
    "Roguelike computer game inspired by J. R. R. Tolkien's..",
-   "<a href=\"http://beej.us/moria/files/\">Link</a>",
+   "<a href=\"https://umoria.org/download/\">Link</a>",
    "Role Playing",
-   "mature / inactive since 2008",
+   "mature / active",
    "roguelike",
-   "<a href=\"https://github.com/acahir/moria\">Source</a> - C - GPL-3.0"
+   "<a href=\"https://github.com/dungeons-of-moria/umoria\">Source</a> - C - GPL-3.0"
   ],
   [
    "Mpango (<a href=\"https://sourceforge.net/projects/mpango\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/mpango.md\">entry</a>)",
@@ -3382,7 +3382,7 @@
    "Strategy",
    "beta / inactive since 2003",
    "",
-   "<a href=\"http://cvs.seul.org:/home/cvspsrv/cvsroot\">Source</a> - C, C++ - GPL-2.0"
+   "<a href=\"https://gitlab.com/Trilarion/xarchon.git\">Source</a> - C, C++ - GPL-2.0"
   ],
   [
    "XSera (<a href=\"https://github.com/prophile/xsera\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/xsera.md\">entry</a>)",

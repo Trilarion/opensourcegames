@@ -654,17 +654,17 @@ def update_primary_code_repositories():
 
             if not consumed:
                 unconsumed_entries.append([info['title'], info[field]])
-                #if info['code repository']:
-                #    print('Entry "{}" unconsumed repo: {}'.format(info['title'], info[field]))
-                if not info['code repository']:
+                if info['code repository']:
                     print('Entry "{}" unconsumed repo: {}'.format(info['title'], info[field]))
+                #if not info['code repository']:
+                #    print('Entry "{}" unconsumed repo: {}'.format(info['title'], info[field]))
 
     # sort them alphabetically (and remove duplicates)
     for k, v in primary_repos.items():
         primary_repos[k] = sorted(set(v))
 
     # write them to tools/git
-    json_path = os.path.join(games_path, os.path.pardir, 'tools', 'archive', 'archives.json')
+    json_path = os.path.join(games_path, os.path.pardir, 'tools', 'archives.json')
     text = json.dumps(primary_repos, indent=1)
     write_text(json_path, text)
 

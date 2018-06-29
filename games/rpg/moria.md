@@ -2,12 +2,12 @@
 
 _Roguelike computer game inspired by J. R. R. Tolkien's novel The Lord of the Rings._
 
-- Home: http://beej.us/moria/
+- Home: https://umoria.org/, http://beej.us/moria/
 - Media: https://en.wikipedia.org/wiki/Moria_(video_game)
-- Download: http://beej.us/moria/files/
-- State: mature, inactive since 2008
+- Download: https://umoria.org/download/, http://beej.us/moria/files/
+- State: mature (inactive between 2008-2016)
 - Keywords: roguelike
-- Code repository: https://github.com/acahir/moria (copy of 5.6 plus a few commits)
+- Code repository: https://github.com/dungeons-of-moria/umoria (since 2016), https://github.com/acahir/moria (copy of 5.6 plus a few commits)
 - Code language: C
 - Code license: GPL-3.0
 

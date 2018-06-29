@@ -59,7 +59,7 @@
 - **[Magarena](magarena.md)** (Java, Groovy, GPL-3.0, mature)
 - **[Meridian 59](meridian59.md)** (C++, C, GPL-2.0, mature)
 - **[Meritous](meritous.md)** (C, GPL-3.0, mature, inactive since 2008)
-- **[Moria](moria.md)** (C, GPL-3.0, mature, inactive since 2008)
+- **[Moria](moria.md)** (C, GPL-3.0, mature)
 - **[NLarn](nlarn.md)** (C, Lua, GPL-3.0, mature)
 - **[Naev](naev.md)** (C, Lua, GPL-3.0, mature)
 - **[NetHack](nethack.md)** (C, Custom, mature)

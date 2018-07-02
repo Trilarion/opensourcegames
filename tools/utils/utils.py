@@ -146,7 +146,7 @@ def determine_latest_last_modified_date(folder):
     return latest_last_modified
 
 
-def subprocess_run(cmd):
+def subprocess_run(cmd, display=True):
     """
     Runs a cmd via subprocess and displays the std output in case of success or the std error output in case of failure
     where it also stops execution.
@@ -154,10 +154,11 @@ def subprocess_run(cmd):
     result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     if result.returncode:
         print("error {} in call {}".format(result.returncode, cmd))
-        print(result.stderr.decode('ascii'))
+        print(result.stderr.decode('cp1252'))
         sys.exit(-1)
-    else:
-        print('  output: {}'.format(result.stdout.decode('ascii')))
+    if display:
+        print('  output: {}'.format(result.stdout.decode('cp1252')))
+    return result.stdout.decode('cp1252')
 
 
 def copy_tree(source, destination):

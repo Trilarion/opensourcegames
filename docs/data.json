@@ -388,6 +388,15 @@
    "<a href=\"https://github.com/Trilarion/boson\">Source</a> - C++ - GPL-2.0"
   ],
   [
+   "Boulder Dash (<a href=\"https://github.com/valeriansaliou/boulder-dash\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/boulder_dash.md\">entry</a>)",
+   "Boulder Dash game remake, done in Java.",
+   "<a href=\"https://github.com/valeriansaliou/boulder-dash/releases\">Link</a>",
+   "Action/Arcade",
+   "mature / inactive since 2015",
+   "",
+   "<a href=\"https://github.com/valeriansaliou/boulder-dash\">Source</a> - Java - MIT"
+  ],
+  [
    "BrowserQuest (<a href=\"http://browserquest.mozilla.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/browserquest.md\">entry</a>)",
    "A Massively Multiplayer Adventure.",
    "",
@@ -655,7 +664,7 @@
    "Strategy",
    "mature / inactive since 2016",
    "MMO",
-   "<a href=\"https://svn.code.sf.net/p/darkdestiny/code/\">Source</a> - Java"
+   "<a href=\"https://svn.code.sf.net/p/darkdestiny/code/\">Source</a> - Java, Javascript"
   ],
   [
    "Dark Oberon (<a href=\"http://dark-oberon.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/dark_oberon.md\">entry</a>)",
@@ -2899,6 +2908,15 @@
    "Ren'py - CC-BY-NC"
   ],
   [
+   "Stareater (<a href=\"http://stareater4x.blogspot.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/stareater.md\">entry</a>)",
+   "4X strategy game in space",
+   "<a href=\"https://github.com/subchannel13/Stareater/releases\">Link</a>",
+   "Strategy",
+   "beta / active",
+   "TBS",
+   "<a href=\"https://github.com/subchannel13/Stareater\">Source</a> - C# - GPL-3.0"
+  ],
+  [
    "Stars! Nova (<a href=\"https://sourceforge.net/projects/stars-nova/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/stars_nova.md\">entry</a>)",
    "Clone of the classic 4X space strategy game Stars!.",
    "<a href=\"https://sourceforge.net/projects/stars-nova/files\">Link</a>",
@@ -3608,6 +3626,15 @@
    "mature / active",
    "gui toolkit",
    "<a href=\"https://github.com/wxWidgets/wxWidgets\">Source</a> - C++, Objective C - Custom"
+  ],
+  [
+   "xdigger (<a href=\"https://www.gsp.com/cgi-bin/man.cgi?section=6&topic=xdigger#9\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/xdigger.md\">entry</a>)",
+   "(KC85-)Digger game.",
+   "<a href=\"https://launchpad.net/debian/+source/xdigger\">Link</a>",
+   "Action/Arcade",
+   "mature / inactive since 1999",
+   "",
+   "C - GPL-2.0"
   ],
   [
    "xoreos (<a href=\"https://xoreos.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/xoreos.md\">entry</a>)",

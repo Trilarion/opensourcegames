@@ -1,3 +1,4 @@
 /.idea
 /tools/archive/**
+/tools/conversion/**
 __pycache__

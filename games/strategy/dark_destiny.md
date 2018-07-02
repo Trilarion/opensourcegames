@@ -2,11 +2,13 @@
 
 _Turn-based online space strategy game playable in internet browsers._
 
-- Home: http://www.darkdestiny.at/, http://www.thedarkdestiny.at/portalApp/#/
+- Home: http://www.darkdestiny.at/, http://www.thedarkdestiny.at/portalApp/#/, https://sourceforge.net/projects/darkdestiny/
 - State: mature, inactive since 2016
 - Keywords: MMO
-- Code repository: https://svn.code.sf.net/p/darkdestiny/code/ (svn)
-- Code language: Java
+- Code repository:  https://svn.code.sf.net/p/darkdestiny/code/ (svn)
+- Code language: Java, Javascript
+
+See also https://sourceforge.net/projects/darkdestinytools/
 
 ## Building
 

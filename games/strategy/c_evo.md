@@ -10,4 +10,6 @@ _C-evo is a freeware empire building game for Windows._
 - Code repository: (see download http://www.c-evo.org/files/download.php?cevosrc.cevosrc.zip)
 - Code language: Pascal
 
+See also https://github.com/vn971/cevo
+
 ## Building

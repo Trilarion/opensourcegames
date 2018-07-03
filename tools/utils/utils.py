@@ -2,14 +2,14 @@
 Utilities for the tools.
 """
 
-import sys
 import os
-import time
-import zipfile
-import tarfile
-import subprocess
 import shutil
+import subprocess
+import sys
+import tarfile
+import time
 import urllib.request
+import zipfile
 
 
 def read_text(file):
@@ -154,6 +154,7 @@ def subprocess_run(cmd, display=True):
     result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     if result.returncode:
         print("error {} in call {}".format(result.returncode, cmd))
+        print(result.stdout.decode('cp1252'))
         print(result.stderr.decode('cp1252'))
         sys.exit(-1)
     if display:
@@ -170,7 +171,8 @@ def copy_tree(source, destination):
     # distutils.dir_util.copy_tree(archive_path, git_path)
     for dirpath, dirnames, filenames in os.walk(source):
         # first create all the directory on destination
-        directories_to_be_created = [os.path.join(destination, os.path.relpath(os.path.join(dirpath, x), source)) for x in dirnames]
+        directories_to_be_created = [os.path.join(destination, os.path.relpath(os.path.join(dirpath, x), source)) for x
+                                     in dirnames]
         for directory in directories_to_be_created:
             os.makedirs(directory, exist_ok=True)
         # second copy all the files
@@ -190,3 +192,18 @@ def download_url(url, destination):
     with urllib.request.urlopen(url) as response:
         with open(destination, 'wb') as f:
             shutil.copyfileobj(response, f)
+
+
+def git_clear_path(git_path):
+    """
+    Clears all in a path except the '.git' directory
+    """
+    for item in os.listdir(git_path):
+        # ignore '.git
+        if item == '.git':
+            continue
+        item = os.path.join(git_path, item)
+        if os.path.isdir(item):
+            shutil.rmtree(item)
+        else:
+            os.remove(item)

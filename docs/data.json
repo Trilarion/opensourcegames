@@ -298,6 +298,15 @@
    "<a href=\"https://git.code.sf.net/p/battlefieldjava/git\">Source</a> - Java"
   ],
   [
+   "Battleround (<a href=\"https://github.com/Leejjon/Battleround\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/battleround.md\">entry</a>)",
+   "Round based RPG.",
+   "",
+   "Role Playing",
+   "beta / inactive since 2015",
+   "",
+   "<a href=\"https://github.com/Leejjon/Battleround\">Source</a> - Java - Apache-2.0"
+  ],
+  [
    "Battles of Antargis (<a href=\"https://plus.google.com/101003433246259562872\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/battles_of_antargis.md\">entry</a>)",
    "A real-time-strategy (RTS) game, which is a mixture of 3..",
    "",
@@ -2428,7 +2437,7 @@
    "Strategy",
    "mature / inactive since 2004",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/promisance.git\">Source</a> - PHP - GPL-2.0"
+   "<a href=\"https://gitlab.com/Trilarion/promisance-cvs.git\">Source</a> - PHP - GPL-2.0"
   ],
   [
    "Pthreads-win32 (<a href=\"https://sourceware.org/pthreads-win32/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/library/pthreads_win32.md\">entry</a>)",
@@ -3266,15 +3275,6 @@
    "beta / active",
    "",
    "<a href=\"https://github.com/freeors/War-Of-Kingdom\">Source</a> - C, C++ - GPL-2.0"
-  ],
-  [
-   "WarGame (<a href=\"https://archive.codeplex.com/?p=wargame\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/wargame.md\">entry</a>)",
-   "Turn based strategy game for Windows, Mac OS X, Linux, and..",
-   "",
-   "Strategy",
-   "beta / inactive since 2016",
-   "",
-   "Unity, C# - CDDL"
   ],
   [
    "Wargamer (<a href=\"https://sourceforge.net/projects/wargamer/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/wargamer.md\">entry</a>)",

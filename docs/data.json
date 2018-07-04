@@ -442,6 +442,15 @@
    "<a href=\"https://github.com/cocos2d/cocos2d-x\">Source</a> - C++ - MIT"
   ],
   [
+   "Cabbages and Kings (<a href=\"https://github.com/Mekire/cabbages-and-kings\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/cabbages_and_kings.md\">entry</a>)",
+   "Mix between action and rpg.",
+   "",
+   "Action/Arcade",
+   "mature / active",
+   "",
+   "<a href=\"https://github.com/Mekire/cabbages-and-kings\">Source</a> - Python - MIT"
+  ],
+  [
    "Caesar IA (<a href=\"https://bitbucket.org/dalerank/caesaria/overview\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/caesar_ia.md\">entry</a>)",
    "Remake of the popular citybuilder/economic strategy -..",
    "<a href=\"https://bitbucket.org/dalerank/caesaria/wiki/Releases\">Link</a>",
@@ -1465,7 +1474,7 @@
    "Strategy",
    "beta / inactive since 2012",
    "TBS, online",
-   "<a href=\"https://github.com/mgfreshour/hexwar\">Source</a> - Ruby, JavaScript"
+   "<a href=\"https://github.com/mgfreshour/hexwar\">Source</a> - Ruby, JavaScript - MIT"
   ],
   [
    "Holyspirit (<a href=\"https://sourceforge.net/projects/lechemindeladam/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/holy_spirit.md\">entry</a>)",
@@ -2681,6 +2690,15 @@
    "beta / active",
    "remake, requires original content",
    "<a href=\"https://github.com/jsettlers/settlers-remake\">Source</a> - Java - MIT"
+  ],
+  [
+   "SharpKonquest (<a href=\"https://sourceforge.net/projects/sharpkonquest/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/sharpkonquest.md\">entry</a>)",
+   "C# implementation of the classic Linux game \"Konquest\".",
+   "<a href=\"https://sourceforge.net/projects/sharpkonquest/files/\">Link</a>",
+   "Strategy",
+   "mature / inactive since 2007",
+   "",
+   "<a href=\"https://gitlab.com/Trilarion/sharpkonquest.git\">Source</a> - C# - GPL-2.0"
   ],
   [
    "Silvertree (<a href=\"https://code.google.com/archive/p/silvertree/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/silvertree.md\">entry</a>)",

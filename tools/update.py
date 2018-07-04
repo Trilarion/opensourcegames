@@ -12,6 +12,7 @@ Note: May need to set http.postBuffer (https://stackoverflow.com/questions/17683
 """
 
 import json
+
 from utils.utils import *
 
 
@@ -26,6 +27,7 @@ def derive_folder_name(url, replaces):
             url = url[len(generic):]
             return sanitize(url)
     raise Exception('malformed url')
+
 
 def git_folder_name(url):
     replaces = {
@@ -100,7 +102,7 @@ def bzr_update(folder):
     subprocess_run(['bzr', 'pull'])
 
 
-def run(type, urls):
+def run_update(type, urls):
     print('update {} {} archives'.format(len(urls), type))
     base_folder = os.path.join(archive_folder, type)
     if not os.path.exists(base_folder):
@@ -140,9 +142,25 @@ def run(type, urls):
         update[type](folder)
 
 
+def run_info(type, urls):
+    print('collect info on {}'.format(type))
+
+    # get derived folder names
+    folders = [os.path.join(type, folder_name[type](url)) for url in urls]
+
+    # collect information
+    info = []
+    for folder in folders:
+        print(folder)
+        path = os.path.join(archive_folder, folder)
+        size = folder_size(path) if os.path.isdir(path) else -1
+        info.append([size, folder])
+    return info
+
+
 if __name__ == '__main__':
 
-    supported_types = ['git', 'hg', 'svn'] # currently no bzr client installed
+    supported_types = ['git', 'hg', 'svn']  # currently no bzr client installed
 
     folder_name = {
         'git': git_folder_name,
@@ -173,13 +191,18 @@ if __name__ == '__main__':
     text = read_text(os.path.join(root_folder, 'archives.json'))
     archives = json.loads(text)
 
+    # update
     for type in archives:
         if type not in supported_types:
             continue
         urls = archives[type]
-        run(type, urls)
+        run_update(type, urls)
 
-
-
-
-
+    # collect info
+    infos = []
+    for type in archives:
+        urls = archives[type]
+        infos.extend(run_info(type, urls))
+    infos.sort(key=lambda x: x[0], reverse=True)
+    text = json.dumps(infos, indent=1)
+    write_text(os.path.join(archive_folder, 'infos.json'), text)

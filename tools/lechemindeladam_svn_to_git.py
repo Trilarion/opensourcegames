@@ -3,10 +3,11 @@ The svn is too big to be automatically imported to git (and Github) because ther
 Needs a manual solution.
 
 TODO use git lfs migrate later on the elements
+TODO check for sufficient disc space before checkout
 """
 
 import json
-
+import psutil
 from utils.utils import *
 
 
@@ -27,7 +28,8 @@ def special_treatment(destination, revision):
             # remove it
             shutil.rmtree(os.path.join(destination, 'Holyspirit'))
 
-    if 337 <= revision <= 400:
+    # copy all important files from Holyspirit and delete it
+    if 337 <= revision <= 1200:
         source = os.path.join(destination, 'Holyspirit')
         if os.path.isdir(source):
             data = os.path.join(source, 'Data')
@@ -39,6 +41,24 @@ def special_treatment(destination, revision):
             # remove it
             shutil.rmtree(source)
 
+    # remove Holyspirit3 folder
+    if 464 <= revision <= 1200:
+        source = os.path.join(destination, 'Holyspirit3')
+        if os.path.isdir(source):
+            shutil.rmtree(source)
+
+    # remove Holyspirit2 folder
+    if 659 <= revision <= 1200:
+        source = os.path.join(destination, 'Holyspirit2')
+        if os.path.isdir(source):
+            shutil.rmtree(source)
+
+    # remove Launcher/release
+    if 413 <= revision <= 1200:
+        source = os.path.join(destination, 'Launcher', 'release')
+        if os.path.isdir(source):
+            shutil.rmtree(source)
+
     # delete all *.dll, *.exe in base folder
     if 3 <= revision <= 9:
         files = os.listdir(destination)
@@ -46,15 +66,49 @@ def special_treatment(destination, revision):
             if file.endswith('.exe') or file.endswith('.dll'):
                 os.remove(os.path.join(destination, file))
 
+    # delete "cross" folder
     if 42 <= revision <= 43:
         folder = os.path.join(destination, 'Cross')
         if os.path.isdir(folder):
             shutil.rmtree(folder)
 
-    if 374 <= revision:
+    # delete personal photos
+    if 374 <= revision <= 1200:
         folder = os.path.join(destination, 'Photos')
         if os.path.isdir(folder):
             shutil.rmtree(folder)
+
+    # move empire of steam out
+    if 1173 <= revision <= 1200:
+        folder = os.path.join(destination, 'EmpireOfSteam')
+        if os.path.isdir(folder):
+            # move to empire path
+            empire = os.path.join(empire_path, 'r{:04d}'.format(revision))
+            shutil.move(folder, empire)
+
+    # holy editor cleanup
+    if 1078 <= revision <= 1200:
+        source = os.path.join(destination, 'HolyEditor')
+        for name in ('bin', 'release'):
+            folder = os.path.join(source, name)
+            if os.path.isdir(folder):
+                shutil.rmtree(folder)
+        for name in ('moc.exe',):
+            file = os.path.join(source, name)
+            if os.path.isfile(file):
+                os.remove(file)
+
+    # source folder cleanup
+    if 939 <= revision <= 1200:
+        source = os.path.join(destination, 'Source')
+        for name in ('HS',):
+            folder = os.path.join(source, name)
+            if os.path.isdir(folder):
+                shutil.rmtree(folder)
+        for name in ('HS.zip',):
+            file = os.path.join(source, name)
+            if os.path.isfile(file):
+                os.remove(file)
 
 
 def delete_global_excludes(folder):
@@ -105,6 +159,11 @@ def checkout(revision_start, revision_end):
     assert revision_end >= revision_start
 
     for revision in range(revision_start, revision_end + 1):
+        # check free disc space
+        if psutil.disk_usage(svn_checkout_path).free < 3e10: # 1e10 = 10 GiB
+            print('not enough free disc space, will exit')
+            sys.exit(-1)
+
         print('checking out revision {}'.format(revision))
 
         # create destination directory
@@ -116,11 +175,6 @@ def checkout(revision_start, revision_end):
         start_time = time.time()
         subprocess_run(['svn', 'export', '-r{}'.format(revision), svn_url, destination])
         print('checkout took {:.1f}s'.format(time.time() - start_time))
-
-        # copy to backup
-        # backup_path = os.path.join(svn_backup_path, 'r{:04d}'.format(revision))
-        # if not os.path.exists(backup_path):
-        # shutil.copytree(destination, backup_path)
 
 
 def fix_revision(revision_start, revision_end):
@@ -291,9 +345,9 @@ if __name__ == "__main__":
     svn_checkout_path = os.path.join(base_path, 'svn')
     if not os.path.exists(svn_checkout_path):
         os.mkdir(svn_checkout_path)
-    svn_backup_path = os.path.join(base_path, 'svn_backup')
-    if not os.path.exists(svn_backup_path):
-        os.mkdir(svn_backup_path)
+    empire_path = os.path.join(base_path, 'empire')  # empire of steam side project
+    if not os.path.exists(empire_path):
+        os.mkdir(empire_path)
     git_path = os.path.join(base_path, 'lechemindeladam')
     if not os.path.exists(git_path):
         initialize_git()
@@ -330,5 +384,11 @@ if __name__ == "__main__":
     # gitify(201, 400)
 
     # checkout(401, 800)
+    # fix_revision(401, 800)
+    # gitify(401, 800)
 
-    checkout(493, 800)
+    # checkout(801, 1200)
+    # fix_revision(801, 1200)
+    # gitify(801, 1200)
+
+    checkout(1201, 1500)

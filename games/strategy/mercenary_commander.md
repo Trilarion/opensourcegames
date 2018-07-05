@@ -7,7 +7,7 @@ _Turn based strategy, with simultaneous turns._
 - State: beta, inactive since 2010
 - Code repository: https://gitlab.com/Trilarion/mercenarycommander.git (snapshot svn)
 - Code language: Java
-- Code license: BSD
+- Code license: 3-clause BSD
 
 ## Building
 

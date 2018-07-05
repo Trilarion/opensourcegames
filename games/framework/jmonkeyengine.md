@@ -8,7 +8,7 @@ _Game engine, made especially for Java game developers who want to create 3D gam
 - State: mature
 - Code repository: https://github.com/jMonkeyEngine/jmonkeyengine
 - Code language: Java
-- Code license: BSD
+- Code license: 3-clause BSD
 
 ## Building
 

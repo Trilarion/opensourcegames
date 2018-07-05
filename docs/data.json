@@ -322,7 +322,7 @@
    "Strategy",
    "beta / inactive since 2009",
    "",
-   "<a href=\"https://svn.code.sf.net/p/begin2/code/\">Source</a> - C++ - BSD"
+   "<a href=\"https://svn.code.sf.net/p/begin2/code/\">Source</a> - C++"
   ],
   [
    "Betrayer's Moon Tactics (<a href=\"https://sourceforge.net/projects/bm-game/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/betrayer_moon_tactics.md\">entry</a>)",
@@ -484,7 +484,7 @@
    "Action/Arcade",
    "beta / inactive since 2003",
    "",
-   "<a href=\"https://svn.code.sf.net/p/catmother/code/\">Source</a> - C++ - BSD"
+   "<a href=\"https://svn.code.sf.net/p/catmother/code/\">Source</a> - C++ - 3-clause BSD"
   ],
   [
    "Cataclysm (<a href=\"http://cataclysmrl.blogspot.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/cataclysm.md\">entry</a>)",
@@ -763,7 +763,7 @@
    "Strategy",
    "beta / active",
    "browser",
-   "<a href=\"https://gitlab.com/Trilarion/devana.git\">Source</a> - PHP - BSD"
+   "<a href=\"https://gitlab.com/Trilarion/devana.git\">Source</a> - PHP - zlib"
   ],
   [
    "Digital: A Love Story (<a href=\"http://scoutshonour.com/digital/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/adventure/digital_a_love_story.md\">entry</a>)",
@@ -1090,6 +1090,15 @@
    "<a href=\"https://github.com/AdamAtomic/flixel\">Source</a> - ActionScript - MIT"
   ],
   [
+   "Free Mars (<a href=\"https://sourceforge.net/projects/freemars\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/free_mars.md\">entry</a>)",
+   "Turn based free strategy game about colonizing Mars.",
+   "<a href=\"https://sourceforge.net/projects/freemars/files\">Link</a>",
+   "Strategy",
+   "mature / active",
+   "TB",
+   "<a href=\"https://svn.code.sf.net/p/freemars/code/\">Source</a> - Java - GPL-3.0"
+  ],
+  [
    "Free Orion (<a href=\"http://www.freeorion.org/index.php/Main_Page\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/freeorion.md\">entry</a>)",
    "Turn-based space empire and galactic conquest (4X)..",
    "<a href=\"http://www.freeorion.org/index.php/Download\">Link</a>",
@@ -1365,7 +1374,7 @@
    "<a href=\"https://sourceforge.net/projects/goblinhack/files/\">Link</a>",
    "Role Playing",
    "beta / inactive since 2009",
-   "Sp, roguelike",
+   "SP, roguelike",
    "<a href=\"https://github.com/goblinhack/goblinhack\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -1663,7 +1672,7 @@
    "Engines & Frameworks",
    "mature / active",
    "",
-   "<a href=\"https://github.com/LWJGL/lwjgl3\">Source</a> - Kotlin, C - BSD-3"
+   "<a href=\"https://github.com/LWJGL/lwjgl3\">Source</a> - Kotlin, C - 3-clause BSD"
   ],
   [
    "LinCity (<a href=\"http://lincity.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/simulation/lincity.md\">entry</a>)",
@@ -1843,7 +1852,7 @@
    "Strategy",
    "beta / inactive since 2010",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/mercenarycommander.git\">Source</a> - Java - BSD"
+   "<a href=\"https://gitlab.com/Trilarion/mercenarycommander.git\">Source</a> - Java - 3-clause BSD"
   ],
   [
    "Meridian 59 (<a href=\"http://meridian59.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/meridian59.md\">entry</a>)",
@@ -2338,7 +2347,7 @@
    "Engines & Frameworks",
    "mature / active",
    "3D",
-   "<a href=\"https://github.com/panda3d/panda3d\">Source</a> - C++, C - BSD-3"
+   "<a href=\"https://github.com/panda3d/panda3d\">Source</a> - C++, C - 3-clause BSD"
   ],
   [
    "Pax Britannica (<a href=\"http://paxbritannica.henk.ca/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/pax_britannica.md\">entry</a>)",
@@ -2554,7 +2563,7 @@
    "Role Playing",
    "mature / inactive since 2006",
    "remake, roguelike",
-   "<a href=\"https://gitlab.com/Trilarion/rogueclone.git\">Source</a> - C - BSD"
+   "<a href=\"https://gitlab.com/Trilarion/rogueclone.git\">Source</a> - C - 3-clause BSD"
   ],
   [
    "Roguish (<a href=\"https://github.com/CamHenlin/Roguish\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/roguish.md\">entry</a>)",
@@ -2563,7 +2572,7 @@
    "Role Playing",
    "beta / inactive since 2015",
    "roguelike",
-   "<a href=\"https://github.com/CamHenlin/Roguish\">Source</a> - JavaScript - BSD-3"
+   "<a href=\"https://github.com/CamHenlin/Roguish\">Source</a> - JavaScript - 3-clause BSD"
   ],
   [
    "Rolemaster Office (<a href=\"https://sourceforge.net/projects/rmoffice/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/misc/rolemaster_office.md\">entry</a>)",
@@ -2968,7 +2977,7 @@
    "Role Playing",
    "mature / active",
    "",
-   "<a href=\"https://bitbucket.org/featheredmelody/lost-sky-project-public/src\">Source</a> - Python - BSD"
+   "<a href=\"https://bitbucket.org/featheredmelody/lost-sky-project-public/src\">Source</a> - Python - 3-clause BSD"
   ],
   [
    "Summoning Wars (<a href=\"https://web.archive.org/web/20161221150109/http://sumwars.org:80/wiki/Main_Page\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/summoming_wars.md\">entry</a>)",
@@ -3265,7 +3274,7 @@
    "Role Playing",
    "beta / inactive since 2013",
    "",
-   "<a href=\"https://github.com/Trilarion/vegatrek\">Source</a> - GPL-2.0"
+   "<a href=\"https://github.com/Trilarion/vegatrek\">Source</a> - Python - GPL-2.0"
   ],
   [
    "Visions from the Other Side (<a href=\"http://www.insani.org/mukou.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/adventure/visions_from_the_other_side.md\">entry</a>)",
@@ -3373,7 +3382,7 @@
    "Strategy",
    "beta / inactive since 2009",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/worldofheroes.git\">Source</a> - Python - BSD"
+   "<a href=\"https://gitlab.com/Trilarion/worldofheroes.git\">Source</a> - Python - 3-clause BSD"
   ],
   [
    "World of Phaos (<a href=\"http://worldofphaos.com/index.php?site=online_rpg\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/world_of_phaos.md\">entry</a>)",
@@ -3454,7 +3463,7 @@
    "Strategy",
    "mature / inactive since 2005",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/xconq.git\">Source</a> - GPL-2.0"
+   "<a href=\"https://gitlab.com/Trilarion/xconq.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Xenowar (<a href=\"http://xenowar.net\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/xenowar.md\">entry</a>)",
@@ -3544,7 +3553,7 @@
    "Engines & Frameworks",
    "mature / active",
    "",
-   "<a href=\"https://github.com/jMonkeyEngine/jmonkeyengine\">Source</a> - Java - BSD"
+   "<a href=\"https://github.com/jMonkeyEngine/jmonkeyengine\">Source</a> - Java - 3-clause BSD"
   ],
   [
    "libGDX (<a href=\"http://libgdx.badlogicgames.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/libgdx.md\">entry</a>)",

@@ -7,7 +7,7 @@ _2D turn based strategy game, where the player commands an army in the explorati
 - State: beta, inactive since 2009
 - Code repository: https://gitlab.com/Trilarion/worldofheroes.git (snapshot of source releases)
 - Code language: Python
-- Code license: BSD
+- Code license: 3-clause BSD
 
 ## Building
 

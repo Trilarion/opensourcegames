@@ -4,7 +4,7 @@
 - **[Astromenace](astromenace.md)** (C++, C, GPL-3.0, mature)
 - **[Boulder Dash](boulder_dash.md)** (Java, MIT, mature, inactive since 2015)
 - **[Cabbages and Kings](cabbages_and_kings.md)** (Python, MIT, mature)
-- **[Cat Mother Dead Justice](catmother.md)** (C++, BSD, beta, inactive since 2003)
+- **[Cat Mother Dead Justice](catmother.md)** (C++, 3-clause BSD, beta, inactive since 2003)
 - **[CommandoJS](commando_js.md)** (JavaScript, CoffeeScript, MIT, beta, inactive since 2012)
 - **[Epiar](epiar.md)** (C, C++, Lua, GPL-2.0, beta)
 - **[GDash](gdash.md)** (C++, MIT, beta)

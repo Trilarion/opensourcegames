@@ -8,7 +8,7 @@ _Reproduction of Rogue._
 - Keywords: remake, roguelike
 - Code repository: https://gitlab.com/Trilarion/rogueclone.git (backup of cvs), https://sourceforge.net/p/rogueclone/code/ (cvs)
 - Code language: C
-- Code license: BSD
+- Code license: 3-clause BSD
 
 See also https://github.com/naota/rogueclone2s-utf8, https://github.com/WatermelonTeam/RogueClone
 

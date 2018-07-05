@@ -7,7 +7,6 @@ _A TCP/IP Tactical Starship Sim._
 - State: beta, inactive since 2009
 - Code repository: https://svn.code.sf.net/p/begin2/code/ (svn)
 - Code language: C++
-- Code license: BSD
 
 ## Building
 

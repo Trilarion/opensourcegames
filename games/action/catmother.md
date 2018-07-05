@@ -7,7 +7,7 @@ _3D-engine (C++/DirectX9) and a fully playable prototype of a 3rd person action/
 - State: beta, inactive since 2003
 - Code repository: https://svn.code.sf.net/p/catmother/code/ (svn)
 - Code language: C++
-- Code license: BSD
+- Code license: 3-clause BSD
 
 ## Building
 

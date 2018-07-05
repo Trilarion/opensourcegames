@@ -7,7 +7,7 @@ _General strategy game system._
 - Download: https://sourceforge.net/projects/xconq/files/, https://sourceware.org/xconq/ftp.html
 - State: mature, inactive since 2005
 - Code repository: https://gitlab.com/Trilarion/xconq.git (backup of cvs), https://sourceforge.net/p/xconq/code/ (cvs)
-- Code langauge: C++
+- Code language: C++
 - Code license: GPL-2.0
 
 Historic. One of the first such projects.

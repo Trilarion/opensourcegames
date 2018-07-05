@@ -8,9 +8,9 @@ _Browser strategy game._
 - Keywords: browser
 - Code repository: https://gitlab.com/Trilarion/devana.git (snapshot of source releases)
 - Code language: PHP
-- Code license: BSD
+- Code license: zlib
 
-Main web site is unavailable. License change from GPL-3.0 to BSD between version 1.5.3 and 1.6.6.
+Main web site is unavailable. License change from GPL-3.0 to zLib between version 1.5.3 and 1.6.6.
 
 ## Building
 

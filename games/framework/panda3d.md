@@ -9,7 +9,7 @@ _Panda3D is a game engine, a framework for 3D rendering and game development for
 - Keywords: 3D
 - Code repository: https://github.com/panda3d/panda3d
 - Code language: C++, C
-- Code license: BSD-3
+- Code license: 3-clause BSD
 
 ## Building
 

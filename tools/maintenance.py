@@ -470,8 +470,39 @@ def generate_statistics():
     unique_keywords = [(l, keywords.count(l) / len(keywords)) for l in unique_keywords]
     unique_keywords.sort(key=lambda x: x[0]) # first sort by name
     unique_keywords.sort(key=lambda x: -x[1]) # then sort by occurrence (highest occurrence first)
-    unique_keywords = ['- {} ({:.1f}%)\n'.format(x[0], x[1]*100) for x in unique_keywords]
-    statistics += '##### Keywords frequency\n\n' + ''.join(unique_keywords) + '\n'
+    unique_keywords = ['- {} ({:.1f}%)'.format(x[0], x[1]*100) for x in unique_keywords]
+    statistics += '##### Keywords frequency\n\n' + '\n'.join(unique_keywords) + '\n\n'
+
+    # no download or play field
+    statistics += '## Entries without download or play\n\n'
+
+    entries = []
+    for info in infois:
+        if 'download' not in info and 'play' not in info:
+            entries.append(info['title'])
+    entries.sort()
+    statistics +=  '{}: '.format(len(entries)) + ', '.join(entries) + '\n\n'
+
+    # code hosted not on github, gitlab, bitbucket, launchpad, sourceforge
+    popular_code_repositories = ('github.com', 'gitlab.com', 'bitbucket.org', 'code.sf.net', 'code.launchpad.net')
+    statistics += '## Entries with a code repository but not on a popular site\n\n'
+
+    entries = []
+    field = 'code repository'
+    for info in infois:
+        if info[field]:
+            popular = False
+            for repo in info[field]:
+                for popular_repo in popular_code_repositories:
+                    if popular_repo in repo:
+                        popular = True
+                        break
+            # if there were repositories, but none popular, add them to the list
+            if not popular:
+                entries.append(info['title'])
+                # print(info[field])
+    entries.sort()
+    statistics +=  '{}: '.format(len(entries)) + ', '.join(entries) + '\n\n'
 
     with open(statistics_path, mode='w', encoding='utf-8') as f:
         f.write(statistics)
@@ -654,8 +685,9 @@ def update_primary_code_repositories():
 
             if not consumed:
                 unconsumed_entries.append([info['title'], info[field]])
-                if info['code repository']:
-                    print('Entry "{}" unconsumed repo: {}'.format(info['title'], info[field]))
+                # print output
+                #if info['code repository']:
+                #    print('Entry "{}" unconsumed repo: {}'.format(info['title'], info[field]))
                 #if not info['code repository']:
                 #    print('Entry "{}" unconsumed repo: {}'.format(info['title'], info[field]))
 

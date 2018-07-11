@@ -3,7 +3,7 @@ The svn is too big to be automatically imported to git (and Github) because ther
 Needs a manual solution.
 
 TODO use git lfs migrate later on the elements
-TODO check for sufficient disc space before checkout
+TODO instead of svn export for every revision, checkout and then update to revision (reduced bandwith)
 """
 
 import json
@@ -36,6 +36,13 @@ def special_treatment(destination, revision):
 
     """
 
+    # copy content of trunk to base
+    if 2270 <= revision <= 2420:
+        source = os.path.join(destination, 'trunk')
+        if os.path.isdir(source):
+            copy_tree(source, destination)
+            shutil.rmtree(source)
+
     # copy all important files from Holyspirit/Holyspirit and delete it
     if 5 <= revision <= 330:
         source = os.path.join(destination, 'Holyspirit', 'Holyspirit')
@@ -49,31 +56,50 @@ def special_treatment(destination, revision):
             shutil.rmtree(os.path.join(destination, 'Holyspirit'))
 
     # copy all important files from Holyspirit and delete it
-    if 337 <= revision <= 1700:
+    if 337 <= revision <= 2268:
         source = os.path.join(destination, 'Holyspirit')
         if os.path.isdir(source):
             data = os.path.join(source, 'Data')
             if os.path.isdir(data):
                 # shutil.copytree(data, os.path.join(destination, 'Data'))
                 shutil.move(data, destination)
-            files = [x for x in os.listdir(source) if x.endswith('.txt') or x.endswith('.conf')]
+            target = os.path.join(destination, 'Meta')
+            if not os.path.isdir(target):
+                os.mkdir(target)
+            files = [x for x in os.listdir(source) if x.endswith('.txt') or x.endswith('.conf') or x.endswith('.ini')]
             for file in files:
-                shutil.move(os.path.join(source, file), destination)
+                shutil.move(os.path.join(source, file), target)
+            # remove it
+            shutil.rmtree(source)
+
+    # copy data folder vom HolySpiritJE and delete it
+    if 2012 <= revision <= 2269:
+        source = os.path.join(destination, 'HolyspiritJE')
+        if os.path.isdir(source):
+            data = os.path.join(source, 'Data')
+            if os.path.isdir(data):
+                shutil.move(data, os.path.join(destination, 'DataJE'))
+            target = os.path.join(destination, 'MetaJE')
+            if not os.path.isdir(target):
+                os.mkdir(target)
+            files = [x for x in os.listdir(source) if x.endswith('.txt') or x.endswith('.conf') or x.endswith('.ini')]
+            for file in files:
+                shutil.move(os.path.join(source, file), target)
             # remove it
             shutil.rmtree(source)
 
     # remove Holyspirit3 folder
-    if 464 <= revision <= 1700:
+    if 464 <= revision <= 2268:
         remove_folders(destination, 'Holyspirit3')
 
     # remove Holyspirit2 folder
-    if 659 <= revision <= 1700:
+    if 659 <= revision <= 2268:
         remove_folders(destination, 'Holyspirit2')
 
     # remove Launcher/release
-    if 413 <= revision <= 1700:
+    if 413 <= revision <= 2420:
         source = os.path.join(destination, 'Launcher')
-        remove_folders(source, ('debug', 'release'))
+        remove_folders(source, ('bin', 'debug', 'release', 'obj'))
 
     # delete all *.dll, *.exe in base folder
     if 3 <= revision <= 9:
@@ -87,11 +113,14 @@ def special_treatment(destination, revision):
         remove_folders(destination, 'Cross')
 
     # delete personal photos
-    if 374 <= revision <= 1700:
+    if 374 <= revision <= 2267:
         remove_folders(destination, 'Photos')
+    if 2268 <= revision <= 2420:
+        source = os.path.join(destination, 'Media')
+        remove_folders(source, 'Photos')
 
     # move empire of steam out
-    if 1173 <= revision <= 1700:
+    if 1173 <= revision <= 2420:
         folder = os.path.join(destination, 'EmpireOfSteam')
         if os.path.isdir(folder):
             # move to empire path
@@ -99,26 +128,53 @@ def special_treatment(destination, revision):
             shutil.move(folder, empire)
 
     # holy editor cleanup
-    if 1078 <= revision <= 1700:
+    if 1078 <= revision <= 2420:
         source = os.path.join(destination, 'HolyEditor')
         remove_folders(source, ('bin', 'release', 'debug', 'obj'))
         remove_files(source, 'moc.exe')
 
     # source folder cleanup
-    if 939 <= revision <= 1700:
+    if 939 <= revision <= 2420:
         source = os.path.join(destination, 'Source')
         remove_folders(source, 'HS')
         remove_files(source, 'HS.zip')
 
+    # sourceM folder cleanup
+    if 2110 <= revision <= 2270:
+        source = os.path.join(destination, 'SourceM')
+        remove_folders(source, 'HS')
+
+    # sourceNewApi cleanup
+    if 2261 <= revision <= 2269:
+        source = os.path.join(destination, 'SourceNewApi')
+        remove_folders(source, 'HS')
+
     # Autres folder cleanup
-    if 1272 <= revision <= 1700:
+    if 1272 <= revision <= 2267:
         source = os.path.join(destination, 'Autres')
         remove_folders(source, ('conf', 'db', 'hooks', 'locks'))
         remove_files(source, ('format', 'maj.php'))
+    # Media/Other folder cleanup
+    if 2268 <= revision <= 2420:
+        source = os.path.join(destination, 'Media', 'Other')
+        remove_files(source, ('format', 'maj.php'))
 
     # remove Holyspirit-Demo
-    if 1668 <= revision <= 1700:
+    if 1668 <= revision <= 2268:
         remove_folders(destination, 'Holyspirit_Demo')
+
+    # remove Debug.rar
+    if 1950 <= revision <= 2420:
+        remove_files(destination, 'Debug.rar')
+
+    # remove 3dparty folder
+    if 2273 <= revision <= 2420:
+        remove_folders(destination, '3dparty')
+
+    # branches cleanup
+    if 2270 <= revision <= 2420:
+        remove_folders(destination, 'branches')
+
 
 def delete_global_excludes(folder):
     """
@@ -161,10 +217,13 @@ def list_large_unwanted_files(folder):
     return output
 
 
-def checkout(revision_start, revision_end):
+def checkout(revision_start, revision_end=None):
     """
 
     """
+    if not revision_end:
+        revision_end = revision_start
+
     assert revision_end >= revision_start
 
     for revision in range(revision_start, revision_end + 1):
@@ -182,7 +241,16 @@ def checkout(revision_start, revision_end):
 
         # checkout
         start_time = time.time()
-        subprocess_run(['svn', 'export', '-r{}'.format(revision), svn_url, destination])
+        # sometimes checkout fails for reasons like "svn: E000024: Can't open file '/svn/p/lechemindeladam/code/db/revs/1865': Too many open files", we try again and again in these cases
+        while True:
+            try:
+                subprocess_run(['svn', 'export', '-r{}'.format(revision), svn_url, destination])
+                break
+            except:
+                print('problem with export, will try again')
+                if os.path.isdir(destination):
+                    shutil.rmtree(destination)
+
         print('checkout took {:.1f}s'.format(time.time() - start_time))
 
 
@@ -410,4 +478,25 @@ if __name__ == "__main__":
     # fix_revision(1471, 1700)
     # gitify(1471, 1700)
 
-    checkout(1701, 2100)
+    # checkout(1701, 1900)
+    # fix_revision(1701, 1900)
+    # gitify(1701, 1900)
+
+    # checkout(1901, 2140)
+    # fix_revision(1901, 2140)
+    # gitify(1901, 2140)
+
+    # checkout(2141, 2388)
+    # fix_revision(2141, 2388)
+    # gitify(2141, 2388)
+
+    # checkout(2389, 2420)
+    # fix_revision(2389, 2420)
+    # gitify(2389, 2420)
+
+    # run the following commands in the git bash
+    # git config credential.useHttpPath true
+    # git lfs install
+    # git lfs migrate import --include-ref=master --include="Zombie_paysan.rs.hs,Witch_monster.rs.hs,WanderingStones.rs.hs,TwoWeapons.rs.hs,TwoHands.rs.hs,TwoHand.rs.hs,Reaper.rs.hs,Peasant_crossbow.rs.hs,Peasant_club.rs.hs,OneHand.rs.hs,Offspring_champion.rs.hs,Mimic.rs.hs,LordSkeleton.rs.hs,Goule.rs.hs,ErrantRoche.rs.hs,DemonicPriest0.rs.hs,DemonicPriest.rs.hs,Brute.rs.hs,20575__dobroide__20060706.night.forest02.wav,31464__offtheline__Morning_Sounds.wav,47989__Luftrum__forestsurroundings.wav,ambiance.wav,Catacombs0.wav,Pluie.wav,Taverne fusion.png,Abbey.ogg,AgrarianLands0.ogg,AgrarianLands1.ogg,Boss0.ogg,Catacombs0.ogg,Catacombs1.ogg,DarkForest.ogg,Forest_ambient0.ogg,Johannes.ogg,OWC.ogg"
+
+    # then add remote and push (done)

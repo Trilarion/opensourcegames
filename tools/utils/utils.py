@@ -5,7 +5,6 @@ Utilities for the tools.
 import os
 import shutil
 import subprocess
-import sys
 import tarfile
 import time
 import urllib.request
@@ -156,12 +155,13 @@ def subprocess_run(cmd, display=True):
         print("error {} in call {}".format(result.returncode, cmd))
         print(result.stdout.decode('cp1252'))
         print(result.stderr.decode('cp1252'))
-        sys.exit(-1)
+        raise RuntimeError()
     if display:
         print('  output: {}'.format(result.stdout.decode('cp1252')))
     return result.stdout.decode('cp1252')
 
 
+# TODO need move_tree
 def copy_tree(source, destination):
     """
     Copies the full content of one directory into another avoiding the use of distutils.di_util.copy_tree because that

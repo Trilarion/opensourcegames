@@ -6,6 +6,7 @@
 - **[Dungeon Mapper](dungeon_mapper.md)** (C++, GPL-3.0, beta, inactive since 2013)
 - **[GM Tools](gm_tools.md)** (C++, GPL-2.0, beta, inactive since 2004)
 - **[JaNaG - Java Name Generator](java_ng.md)** (Java, GPL-2.0, mature, inactive since 2011)
+- **[Monster Generator](monster_generator.md)** (Java, MIT, mature)
 - **[Open Legend RPG](open_legend_rpg.md)** (Text, Custom, mature)
 - **[PCGen](pcgen.md)** (Java, LGPL-2.1, mature)
 - **[Pymapper](pymapper.md)** (Python, GPL-3.0, mature)

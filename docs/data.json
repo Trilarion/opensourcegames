@@ -1261,6 +1261,15 @@
    "<a href=\"https://github.com/topherredden/freestars\">Source</a> - C++ - GPL-2.0"
   ],
   [
+   "Fujo (<a href=\"http://sheep.art.pl/Fujo\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/fujo.md\">entry</a>)",
+   "Fairly classical roguelike, but with animated graphics.",
+   "",
+   "Role Playing",
+   "mature / inactive since 2014",
+   "",
+   "<a href=\"https://bitbucket.org/thesheep/fujo/src\">Source</a> - Python - CC BY-SA 4.0"
+  ],
+  [
    "GDash (<a href=\"https://bitbucket.org/czirkoszoltan/gdash\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/gdash.md\">entry</a>)",
    "A Boulder Dash clone which is as close to the original as..",
    "<a href=\"https://bitbucket.org/czirkoszoltan/gdash/downloads/\">Link</a>",
@@ -1492,7 +1501,7 @@
    "Role Playing",
    "beta / inactive since 2013",
    "action-rpg",
-   "<a href=\"https://svn.code.sf.net/p/lechemindeladam/code/\">Source</a> - C++ - GPL-3.0"
+   "<a href=\"https://gitlab.com/Trilarion/lechemindeladam.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
    "Ilarion (<a href=\"http://illarion.org/general/de_startpage.php\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/ilarion.md\">entry</a>)",
@@ -1898,6 +1907,15 @@
    "mature / active",
    "",
    "<a href=\"https://github.com/MonoGame/MonoGame\">Source</a> - C# - MPL"
+  ],
+  [
+   "Monster Generator (<a href=\"https://sourceforge.net/projects/monstergenerato/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/misc/monster_generator.md\">entry</a>)",
+   "Creates D&D monsters of CR 1-50 for use with the..",
+   "<a href=\"https://sourceforge.net/projects/monstergenerato/files/\">Link</a>",
+   "Tools & Manuals",
+   "mature / active",
+   "tool",
+   "<a href=\"https://git.code.sf.net/p/monstergenerato/code\">Source</a> - Java - MIT"
   ],
   [
    "Moria (<a href=\"https://umoria.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/moria.md\">entry</a>)",
@@ -3068,6 +3086,15 @@
    "beta / inactive since 2003",
    "",
    "<a href=\"https://gitlab.com/Trilarion/theclans.git\">Source</a> - C - GPL-2.0"
+  ],
+  [
+   "The Endless Dungeons (<a href=\"https://sourceforge.net/projects/endlessdungeons/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/endless_dungeons.md\">entry</a>)",
+   "A free random dungeon game RPG (Roguelike)",
+   "<a href=\"https://sourceforge.net/projects/endlessdungeons/files/\">Link</a>",
+   "Role Playing",
+   "mature / inactive since 2015",
+   "",
+   "<a href=\"https://github.com/Trilarion/endlessdungeons\">Source</a> - C - CC BY-NC-SA 2.0"
   ],
   [
    "The Epic of Heroes (<a href=\"https://sourceforge.net/projects/epicheroes/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/epic_of_heroes.md\">entry</a>)",

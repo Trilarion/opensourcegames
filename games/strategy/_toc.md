@@ -114,7 +114,7 @@
 - **[Pizza Business](pizza_business.md)** (C++, GPL-2.0, mature, inactive since 2003)
 - **[Planetary Hoppers](planetary_hoppers.md)** (Java, GPL-2.0, beta, inactive since 2003)
 - **[Polis](polis.md)** (Java, GPL-3.0, mature, inactive since 2016)
-- **[Project Helena](project_helena.md)** (Pascal, beta, inactive since 2015)
+- **[Project Helena](project_helena.md)** (Pascal, GPL-3.0, beta)
 - **[Promisance](promisance.md)** (PHP, GPL-2.0, mature, inactive since 2004)
 - **[Return to the Roots](return_to_the_roots.md)** (C++, GPL-3.0, mature)
 - **[Scorched Moon](scorched_moon.md)** (Python, GPL-3.0, beta)

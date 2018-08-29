@@ -5,7 +5,7 @@ _Turn of War is a fork of Dragon Wars._
 - Home: https://github.com/EdwardWoodhouse/Turn-of-War
 - Platform: Android
 - State: beta
-- Code repository: https://github.com/EdwardWoodhouse/Turn-of-War
+- Code repository: https://github.com/EdwardWoodhouse/Turn-of-War.git
 - Code language: Java
 - Code license: GPL-3.0
 

@@ -5,7 +5,7 @@ _The rainbow jewels have been abducted from the temple of the rainbow colors, an
 - Home: https://sourceforge.net/projects/jewelhunt/
 - Download: https://sourceforge.net/projects/jewelhunt/files
 - State: beta
-- Code repository: https://github.com/Trilarion/jewelhunt (backup of svn), https://svn.code.sf.net/p/jewelhunt/code/ (svn)
+- Code repository: https://github.com/Trilarion/jewelhunt.git (backup of svn), https://svn.code.sf.net/p/jewelhunt/code/ (svn)
 - Code language: Java
 - Code license: GPL-2.0
 

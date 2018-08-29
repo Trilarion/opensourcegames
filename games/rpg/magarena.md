@@ -6,7 +6,7 @@ _Single-player fantasy card game played against a computer opponent._
 - Download: https://github.com/magarena/magarena/releases/
 - State: mature
 - Keywords: cards
-- Code repository: https://github.com/magarena/magarena
+- Code repository: https://github.com/magarena/magarena.git
 - Code language: Java, Groovy
 - Code license: GPL-3.0
 

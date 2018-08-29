@@ -5,7 +5,7 @@ _Polycode is a C++ and Lua framework for building interactive applications._
 - Home: http://polycode.org/
 - Download: http://polycode.org/download/
 - State: beta
-- Code repository: https://github.com/ivansafrin/Polycode
+- Code repository: https://github.com/ivansafrin/Polycode.git
 - Code language: C, C++
 - Code license: MIT
 

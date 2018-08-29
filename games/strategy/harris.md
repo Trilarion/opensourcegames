@@ -4,7 +4,7 @@ _Based around the actions of RAF Bomber Command in the Second World War._
 
 - Home: https://github.com/ec429/harris
 - State: beta
-- Code repository: https://github.com/ec429/harris
+- Code repository: https://github.com/ec429/harris.git
 - Code language: C, Python
 - Code license: GPL-3.0
 

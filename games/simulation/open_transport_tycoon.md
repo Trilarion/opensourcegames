@@ -6,7 +6,7 @@ _OpenTTD is an open source simulation game based upon the popular Microprose gam
 - Media: https://en.wikipedia.org/wiki/OpenTTD
 - Download: http://www.openttd.org/en/download-stable
 - State: mature
-- Code repository: https://github.com/OpenTTD/OpenTTD (mirror), https://svn.openttd.org/ (svn)
+- Code repository: https://github.com/OpenTTD/OpenTTD.git (mirror), https://svn.openttd.org/ (svn)
 - Code language: C++
 - Code license: GPL-2.0
 

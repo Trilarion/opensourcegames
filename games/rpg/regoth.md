@@ -6,7 +6,7 @@ _Reimplementation of the zEngine, used by the game "Gothic" and "Gothic II"._
 - Download: https://github.com/REGoth-project/REGoth/releases
 - State: beta
 - Keywords: remake, requires original content (Gothic 1 and Gothic 2)
-- Code repository: https://github.com/REGoth-project/REGoth
+- Code repository: https://github.com/REGoth-project/REGoth.git
 - Code language: C++
 - Code license: GPL-3.0
 

@@ -6,7 +6,7 @@ _A free random dungeon game RPG (Roguelike)_
 - State: mature, inactive since 2015
 - Download: https://sourceforge.net/projects/endlessdungeons/files/
 - Platform: Windows
-- Code repository: https://github.com/Trilarion/endlessdungeons
+- Code repository: https://github.com/Trilarion/endlessdungeons.git
 - Code language: C
 - Code license: CC BY-NC-SA 2.0
 - Code dependencies: Allegro

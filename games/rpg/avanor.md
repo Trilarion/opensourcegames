@@ -6,7 +6,7 @@ _Relatively easy to win but feature rich fantasy roguelike game with a highly in
 - Download: https://sourceforge.net/projects/avanor/files
 - State: beta, inactive since 2008
 - Keywords: roguelike
-- Code repository: https://github.com/Trilarion/avanor (backup of svn), https://svn.code.sf.net/p/avanor/code/ (svn)
+- Code repository: https://github.com/Trilarion/avanor.git (backup of svn), https://svn.code.sf.net/p/avanor/code/ (svn)
 - Code language: C++, Lua
 - Code license: GPL-2.0
 

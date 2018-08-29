@@ -4,7 +4,7 @@ _Open source version of Moonbase Commander._
 
 - Home: https://github.com/Scorched-Moon
 - State: beta
-- Code repository: https://github.com/Scorched-Moon/server, https://github.com/Scorched-Moon/client (+)
+- Code repository: https://github.com/Scorched-Moon/server.git, https://github.com/Scorched-Moon/client.git (+)
 - Code language: Python
 - Code license: GPL-3.0
 

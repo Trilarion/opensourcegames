@@ -6,7 +6,7 @@ _libpng is the official PNG reference library._
 - Media: https://en.wikipedia.org/wiki/Libpng
 - Download: (see home)
 - State: mature
-- Code repository: https://github.com/glennrp/libpng, https://sourceforge.net/p/libpng/code/ci/master/tree/
+- Code repository: https://github.com/glennrp/libpng.git, https://sourceforge.net/p/libpng/code/ci/master/tree/
 - Code language: C
 - Code license: Custom (see LICENSE)
 

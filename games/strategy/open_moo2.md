@@ -6,7 +6,7 @@ _Clone of Microprose game "Master of Orion II: Battle at Antares"._
 - Download: http://openmoo2.org/en/download
 - State: beta, inactive since 2011
 - Keywords: TBS, requires original content (MOO2 version 1.31 game data LBX files)
-- Code repository: https://github.com/pjotrligthart/openmoo2-hg-mirror
+- Code repository: https://github.com/pjotrligthart/openmoo2-hg-mirror.git
 - Code language: Python
 - Code license: GPL-2.0
 

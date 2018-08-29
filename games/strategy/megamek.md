@@ -6,7 +6,7 @@ _Unofficial, online version of the Classic BattleTech board game._
 - Media: https://en.wikipedia.org/wiki/MegaMek
 - Download: https://www.megamek.org/downloads
 - State: mature
-- Code repository: https://github.com/MegaMek/megamek
+- Code repository: https://github.com/MegaMek/megamek.git
 - Code language: Java
 - Code license: GPL-2.0
 

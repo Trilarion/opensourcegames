@@ -7,7 +7,7 @@ _Simple card strategy, based on Magic: The Gathering rules._
 - Download: https://code.google.com/archive/p/wizards-magic/downloads
 - State: mature, inactive since 2012
 - Keywords: cards, remake
-- Code repository: https://github.com/chubakur/wizards-magic, https://github.com/chubakur/wizards-magic2 (+), https://code.google.com/archive/p/wizards-magic/source
+- Code repository: https://github.com/chubakur/wizards-magic.git, https://github.com/chubakur/wizards-magic2.git (+), https://code.google.com/archive/p/wizards-magic/source
 - Code language: Python
 - Code license: GPL-2.0
 - Dependencies: PyGame 

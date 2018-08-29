@@ -318,11 +318,11 @@ def parse_entry(content):
                 if ' ' in url:
                     print('URL "{}" in entry "{}" contains a space'.format(url, info['title']))
 
-    # github repositories should not end on .git
+    # github repositories should end on .git
     repos = info['code repository']
     for repo in repos:
-        if repo.startswith('https://github.com/') and repo.endswith('.git'):
-            print('Github repo {} in entry "{}" should not end on .git.'.format(repo, info['title']))
+        if repo.startswith('https://github.com/') and not repo.endswith('.git'):
+            print('Github repo {} in entry "{}" should end on .git.'.format(repo, info['title']))
 
     # extract inactive
     phrase = 'inactive since '
@@ -578,18 +578,12 @@ def export_json():
 
 def git_repo(repo):
     """
-        Tests if a repo is a git repo, then returns the repo url, possibly modifying it slightly (for Github).
+        Tests if a repo is a git repo, then returns the repo url, possibly modifying it slightly.
     """
 
     # generic (https://*.git) or (http://*.git) ending on git
     if (repo.startswith('https://') or repo.startswith('http://')) and repo.endswith('.git'):
         return repo
-
-    # for github we check that the url is github.com/user/repo and add .git
-    github = 'https://github.com/'
-    if repo.startswith(github):
-        if len(repo.split('/')) == 5:
-            return repo + '.git'
 
     # for all others we just check if they start with the typical urls of git services
     services = ['https://git.tuxfamily.org/', 'http://git.pond.sub.org/', 'https://gitorious.org/', 'https://git.code.sf.net/p/']

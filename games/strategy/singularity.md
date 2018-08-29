@@ -6,7 +6,7 @@ _A simulation of a true AI_
 - Download: (see home)
 - State: beta, inactive since 2010
 - Keywords: SP
-- Code repository: https://github.com/singularity/singularity
+- Code repository: https://github.com/singularity/singularity.git
 - Code language: Python
 - Code license: GPL-2.0
 

@@ -7,7 +7,7 @@ _Freeciv is a Free and Open Source empire-building strategy game inspired by the
 - Download: http://www.freeciv.org/download.html
 - State: mature
 - Keywords: TBS, MP
-- Code repository: https://github.com/freeciv/freeciv
+- Code repository: https://github.com/freeciv/freeciv.git
 - Code language: C
 - Code license: GPL-2.0
 

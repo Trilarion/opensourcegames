@@ -6,7 +6,7 @@ _3D space scroll-shooter with spaceship upgrade possibilities._
 - Download: https://www.viewizard.com/download.html
 - State: mature
 - Keywords: shooter
-- Code repository: https://github.com/viewizard/astromenace
+- Code repository: https://github.com/viewizard/astromenace.git
 - Code language: C++, C
 - Code license: GPL-3.0
 

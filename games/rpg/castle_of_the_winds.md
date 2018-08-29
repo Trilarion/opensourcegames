@@ -6,7 +6,7 @@ _Castle of the Winds remake._
 - Play: http://game.castleofthewinds.com/
 - State: beta
 - Keywords: remake
-- Code repository: https://github.com/mordrax/cotwmtor
+- Code repository: https://github.com/mordrax/cotwmtor.git
 - Code language: JavaScript
 - Code license: MIT
 

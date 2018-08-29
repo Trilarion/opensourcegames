@@ -6,7 +6,7 @@ _Renew the original The Settlers 2._
 - Download: https://www.siedler25.org/index.php?com=dynamic&mod=2
 - State: mature
 - Keywords: remake, requires original content (Settlers II Gold)
-- Code repository: https://launchpad.net/s25rttr, https://github.com/Return-To-The-Roots/s25client (+)
+- Code repository: https://launchpad.net/s25rttr, https://github.com/Return-To-The-Roots/s25client.git (+)
 - Code language: C++
 - Code license: GPL-3.0
 

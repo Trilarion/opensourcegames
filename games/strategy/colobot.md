@@ -6,7 +6,7 @@ _Real-time strategy game, where you can program your units (bots) in a language 
 - Download: https://colobot.info/download-colobot-gold/
 - State: mature
 - Keywords: RTS
-- Code repository: https://github.com/colobot/colobot
+- Code repository: https://github.com/colobot/colobot.git
 - Code language: C++
 - Code license: GPL-3.0
 

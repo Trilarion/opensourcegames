@@ -6,7 +6,7 @@ _PBEM Game engine which is used to create many different strategy wargames today
 - Media: https://en.wikipedia.org/wiki/Atlantis_PbeM
 - Download: https://sourceforge.net/projects/atlantis/files/Atlantis%204/Release%204.1.0/
 - State: mature, inactive since 2016
-- Code repository: https://github.com/Atlantis-PBEM/Atlantis, https://svn.code.sf.net/p/atlantis/code/ (svn)
+- Code repository: https://github.com/Atlantis-PBEM/Atlantis.git, https://svn.code.sf.net/p/atlantis/code/ (svn)
 - Code language: C++
 - Code license: GPL-2.0
 

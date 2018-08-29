@@ -6,7 +6,7 @@ _Single player RPG game, set in a dark fantasy setting where four unique races s
 - Download: https://sourceforge.net/projects/radakan/files/
 - State: beta, inactive since 2014
 - Keywords: SP
-- Code repository: https://github.com/Trilarion/radakan (backup of svn), https://svn.code.sf.net/p/radakan/code/ (svn)
+- Code repository: https://github.com/Trilarion/radakan.git (backup of svn), https://svn.code.sf.net/p/radakan/code/ (svn)
 - Code language: Python
 - Code license: Custom
 

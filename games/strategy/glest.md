@@ -7,7 +7,7 @@ _Glest is a free 3D real-time strategy game._
 - Download: http://glest.org/en/downloads.php
 - State: mature, inactive since 2009
 - Keywords: RTS 
-- Code repository: https://github.com/Trilarion/glest (backup of svn), https://svn.code.sf.net/p/glest/code/ (svn)
+- Code repository: https://github.com/Trilarion/glest.git (backup of svn), https://svn.code.sf.net/p/glest/code/ (svn)
 - Code language: C++
 - Code license: GPL-2.0
 

@@ -6,7 +6,7 @@ _Clone of the good old Dune II by Westwood Studios._
 - Download: http://dune2themaker.fundynamic.com/?page_id=11
 - State: beta
 - Keywords: RTS
-- Code repository: https://github.com/Fundynamic/dune2themaker4j
+- Code repository: https://github.com/Fundynamic/dune2themaker4j.git
 - Code language: Java
 - Code license: MIT
 

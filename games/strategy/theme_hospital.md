@@ -6,7 +6,7 @@ _Reimplementation of the 1997 Bullfrog business sim Theme Hospital._
 - Download: https://github.com/CorsixTH/CorsixTH/releases
 - State: mature
 - Keywords: remake, requires original content
-- Code repository: https://github.com/CorsixTH/CorsixTH
+- Code repository: https://github.com/CorsixTH/CorsixTH.git
 - Code language: Lua, C++
 - Code license: MIT
 

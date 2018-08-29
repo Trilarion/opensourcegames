@@ -5,7 +5,7 @@ _A massive multiplayer online roleplaying game._
 - Home: http://www.sourceoftales.org/
 - State: mature, inactive since 2013
 - Keywords: MMO
-- Code repository: https://github.com/tales/sourceoftales
+- Code repository: https://github.com/tales/sourceoftales.git
 - Code language: Lua
 - Code license: GPL-3.0
 

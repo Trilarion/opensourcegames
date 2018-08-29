@@ -7,7 +7,7 @@ _Remake of the 1986 game They Stole a Million._
 - Download: https://sourceforge.net/projects/cosp/files/
 - State: beta
 - Keywords: action/adventure
-- Code repository: https://github.com/vcosta/derclou, https://sourceforge.net/p/cosp/code/ (cvs)
+- Code repository: https://github.com/vcosta/derclou.git, https://sourceforge.net/p/cosp/code/ (cvs)
 - Code language: C
 - Code license: Custom (Der Clou! Public License)
 

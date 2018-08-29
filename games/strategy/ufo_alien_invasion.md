@@ -7,7 +7,7 @@ _UFO: Alien Invasion is a squad-based tactical strategy game in the tradition of
 - Download: https://ufoai.org/wiki/Download
 - State: mature
 - Keywords: TBS 
-- Code repository: https://github.com/ufoai/ufoai (mirror), https://sourceforge.net/p/ufoai/code/ci/master/tree/
+- Code repository: https://github.com/ufoai/ufoai.git (mirror), https://sourceforge.net/p/ufoai/code/ci/master/tree/
 - Code language: C, C++
 - Code license: GPL-2.0
 

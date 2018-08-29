@@ -7,7 +7,7 @@ _MegaGlest is an entertaining free (freeware and free software) and open source 
 - Download: https://megaglest.org/download
 - State: mature
 - Keywords: RTS 
-- Code repository: https://github.com/MegaGlest/megaglest-source
+- Code repository: https://github.com/MegaGlest/megaglest-source.git
 - Code language: C++
 - Code license: GPL-2.0
 

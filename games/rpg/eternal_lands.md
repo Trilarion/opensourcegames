@@ -7,7 +7,7 @@ _Multiplayer, online role-playing game (MMORPG)._
 - Download: http://www.eternal-lands.com/page/download.php
 - State: mature
 - Keywords: MMO
-- Code repository: https://github.com/raduprv/Eternal-Lands
+- Code repository: https://github.com/raduprv/Eternal-Lands.git
 - Code language: C, C++
 - Code license: Custom (modified QTPL: https://raw.githubusercontent.com/raduprv/Eternal-Lands/master/eternal_lands_license.txt)
 

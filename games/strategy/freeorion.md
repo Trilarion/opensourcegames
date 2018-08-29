@@ -7,7 +7,7 @@ _Turn-based space empire and galactic conquest (4X) computer game._
 - Download: http://www.freeorion.org/index.php/Download
 - State: beta
 - Keywords: TBS
-- Code repository: https://github.com/freeorion/freeorion
+- Code repository: https://github.com/freeorion/freeorion.git
 - Code language: C++, Python
 - Code license: GPL-2.0
 

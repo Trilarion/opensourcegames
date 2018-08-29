@@ -7,7 +7,7 @@ _A classic MMO._
 - Download: http://meridian59.com/play-now.php
 - State: mature
 - Keywords: MMO
-- Code repository: https://github.com/Meridian59/Meridian59
+- Code repository: https://github.com/Meridian59/Meridian59.git
 - Code language: C++, C
 - Code license: GPL-2.0
 

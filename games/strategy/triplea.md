@@ -6,7 +6,7 @@ _Grand Strategy Game_
 - Media: https://en.wikipedia.org/wiki/TripleA
 - Download: http://triplea-game.org/download/
 - State: mature
-- Code repository: https://github.com/triplea-game/triplea
+- Code repository: https://github.com/triplea-game/triplea.git
 - Code language: Java
 - Code license: GPL-2.0
 

@@ -7,7 +7,7 @@ _Rewrite of Noah Morgan's classic roguelike game Larn from 1986._
 - Download: https://github.com/nlarn/nlarn/releases, https://sourceforge.net/projects/nlarn/files/nlarn/
 - State: mature
 - Keywords: roguelike
-- Code repository: https://github.com/nlarn/nlarn
+- Code repository: https://github.com/nlarn/nlarn.git
 - Code language: C, Lua
 - Code license: GPL-3.0
 

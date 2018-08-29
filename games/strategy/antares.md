@@ -6,7 +6,7 @@ _Port of the original Ares code base that was open sourced in 2008._
 - Download: (see home)
 - State: beta
 - Keywords: RTS, shooter
-- Code repository: https://github.com/arescentral/antares
+- Code repository: https://github.com/arescentral/antares.git
 - Code language: C++
 - Code license: LGPL-3.0
 

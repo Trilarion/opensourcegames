@@ -6,7 +6,7 @@ _Solitaire game collection with 14 games._
 - Platform: Android
 - State: mature
 - Keywords: cards
-- Code repository: https://github.com/TobiasBielefeld/Simple-Solitaire
+- Code repository: https://github.com/TobiasBielefeld/Simple-Solitaire.git
 - Code language: Java
 - Code license: GPL-3.0
 

@@ -6,7 +6,7 @@ _Graphical roguelike game with advanced bodypart and material handling, multi-co
 - Download: https://attnam.com/projects
 - State: beta
 - Keywords: roguelike
-- Code repository: https://github.com/Attnam/ivan, https://sourceforge.net/p/ivan/code/ (cvs)
+- Code repository: https://github.com/Attnam/ivan.git, https://sourceforge.net/p/ivan/code/ (cvs)
 - Code language: C++
 - Code license: GPL-2.0
 

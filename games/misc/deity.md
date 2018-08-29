@@ -6,7 +6,7 @@ _GameMaster (i.e. role-playing) utility._
 - Download: https://sourceforge.net/projects/deity/files
 - State: mature, inactive since 2014
 - Keywords: tool
-- Code repository: https://github.com/Trilarion/deity (backup of svn), https://svn.code.sf.net/p/deity/code/ (svn)
+- Code repository: https://github.com/Trilarion/deity.git (backup of svn), https://svn.code.sf.net/p/deity/code/ (svn)
 - Code language: Python
 - Code license: GPL-2.0
 

@@ -6,7 +6,7 @@ _A fan remake of MadTV._
 - Media: https://en.wikipedia.org/wiki/Mad_TV_(video_game)#Remakes
 - Download: (see home)
 - State: mature
-- Code repository: https://github.com/TVTower/TVTower
+- Code repository: https://github.com/TVTower/TVTower.git
 - Code language: BlitzMax, Lua
 - Code license: Custom (similar to MIT, Apache)
 

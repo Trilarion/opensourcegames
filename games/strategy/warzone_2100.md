@@ -6,7 +6,7 @@ _Full campaign with optional (but strongly recommended!), videos, battle against
 - Download: https://sourceforge.net/projects/warzone2100/files/releases/
 - State: mature
 - Keywords: RTS, popular
-- Code repository: https://github.com/Warzone2100/warzone2100
+- Code repository: https://github.com/Warzone2100/warzone2100.git
 - Code language: C++
 - Code license: GPL-2.0
 

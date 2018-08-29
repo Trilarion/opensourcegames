@@ -6,7 +6,7 @@ _Rapid development solution with a tiny footprint._
 - Download: http://www.zgameeditor.org/index.php/Main/Download
 - State: mature
 - Keywords: editor
-- Code repository: https://github.com/VilleKrumlinde/zgameeditor
+- Code repository: https://github.com/VilleKrumlinde/zgameeditor.git
 - Code language: Pascal
 - Code license: MIT
 

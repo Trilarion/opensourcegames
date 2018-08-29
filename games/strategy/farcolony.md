@@ -4,7 +4,7 @@ _FAR Colony (First Autonomous Remote Colony) is a game of exploration and space 
 
 - Home: https://code.google.com/archive/p/farcolony/
 - State: beta, inactive since 2014
-- Code repository: https://github.com/Vakarias/farcolony
+- Code repository: https://github.com/Vakarias/farcolony.git
 - Code language: Pascal
 - Code license: GPL-3.0
 

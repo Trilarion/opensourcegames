@@ -8,7 +8,7 @@ _A turn-based strategy engine heavily inspired by Panzer General._
 - Platform: Android
 - State: mature
 - Keywords: TBS
-- Code repository: https://github.com/AndO3131/lgeneral (mirror), https://sourceforge.net/p/lgeneral/code/HEAD/tree/ (svn), https://sourceforge.net/p/lgeneral/cvs/ (cvs)
+- Code repository: https://github.com/AndO3131/lgeneral.git (mirror), https://sourceforge.net/p/lgeneral/code/HEAD/tree/ (svn), https://sourceforge.net/p/lgeneral/cvs/ (cvs)
 - Code language: C
 - Code license: GPL-2.0
 

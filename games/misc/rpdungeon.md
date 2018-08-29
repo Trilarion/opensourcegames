@@ -6,7 +6,7 @@ _Collection of programs and libraries for pen and paper role playing._
 - Download: https://sourceforge.net/projects/rpdungeon/files
 - State: beta, inactive since 2006
 - Keywords: tool
-- Code repository: https://github.com/Trilarion/rpdungeon (backup of svn), https://sourceforge.net/p/rpdungeon/code/HEAD/tree/ (svn)
+- Code repository: https://github.com/Trilarion/rpdungeon.git (backup of svn), https://sourceforge.net/p/rpdungeon/code/HEAD/tree/ (svn)
 - Code language: Pascal
 - Code license: GPL-2.0
 

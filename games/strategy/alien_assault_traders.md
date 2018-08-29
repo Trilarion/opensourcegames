@@ -6,7 +6,7 @@ _Alien Assault Traders is an online, web-based, turn-based strategy space tradin
 - Download: https://sourceforge.net/projects/aatrade/files/
 - State: beta, inactive since 2009
 - Keywords: online
-- Code repository: https://github.com/tarnus/aatraders, https://gitlab.com/Trilarion/aatraders.git (+)
+- Code repository: https://github.com/tarnus/aatraders.git, https://gitlab.com/Trilarion/aatraders.git (+)
 - Code language: PHP
 - Code license: GPL-2.0
 

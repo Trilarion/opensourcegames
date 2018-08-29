@@ -4,7 +4,7 @@ _Turn based strategy indie game project._
 
 - Home: https://ancientbeast.com/
 - State: mature
-- Code repository: https://github.com/FreezingMoon/AncientBeast
+- Code repository: https://github.com/FreezingMoon/AncientBeast.git
 - Code language: JavaScript
 - Code license: AGPL-3.0
 

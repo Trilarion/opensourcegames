@@ -6,7 +6,7 @@ _Turn-based hexagonal strategy game written in Rust._
 - Download: https://github.com/ozkriff/zoc/releases
 - State: beta, inactive since 2017
 - Keywords: TBS
-- Code repository: https://github.com/ozkriff/zoc
+- Code repository: https://github.com/ozkriff/zoc.git
 - Code language: Rust
 - Code license: Apache-2.0
 

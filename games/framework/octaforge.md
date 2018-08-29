@@ -5,7 +5,7 @@ _OctaForge is a 3D game engine and a game development platform._
 - Home: https://octaforge.org/
 - Download: https://octaforge.org/page/downloads
 - State: mature
-- Code repository: https://git.octaforge.org/engine/octaforge.git, https://github.com/OctaForge (mirrors) 
+- Code repository: https://git.octaforge.org/engine/octaforge.git, https://github.com/OctaForge.git (mirrors) 
 - Code language: C++
 - Code license: Custom (NCSA open source license)
 

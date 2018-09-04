@@ -12,7 +12,6 @@
 - **[Murder In The Public Domain](murder_in_the_public_domain.md)** (C++, GPL-3.0, mature, inactive since 2013)
 - **[Sentient Storage](sentient_storage.md)** (Python, Public Domain, mature)
 - **[Sintel The Game](sintel.md)** (Python, MIT, beta, inactive since 2014)
-- **[Solaris the Game](solaris.md)** (beta, inactive since 2010)
 - **[Star Maiden Astraea Rio](star_maiden_rio.md)** (Ren'py, CC-BY-NC, mature)
 - **[TwinEngine](twin_engine.md)** (C, GPL-2.0, mature, inactive since 2015)
 - **[Visions from the Other Side](visions_from_the_other_side.md)** (Ren'py, Freeware, mature, inactive since 2006)

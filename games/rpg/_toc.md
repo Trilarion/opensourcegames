@@ -54,7 +54,7 @@
 - **[Iter Vehemens ad Necem](iter_vehemens_ad_necem.md)** (C++, GPL-2.0, beta)
 - **[KQ Lives](kq_lives.md)** (C, GPL-2.0, beta, inactive since 2011)
 - **[Kobold's Quest 2](kobolds_quest_2.md)** (Python, LGPL-3.0, beta, inactive since 2011)
-- **[Labyrinth of Worlds](labyrinth_of_worlds.md)** (C++, beta, inactive since 2010)
+- **[Labyrinth of Worlds](labyrinth_of_worlds.md)** (C++, LGPL-3.0, beta, inactive since 2010)
 - **[Land of Fire](land_of_fire.md)** (beta)
 - **[Linley's Dungeon Crawl](linleys_dungeon_crawl.md)** (C, Custom, mature, inactive since 2006)
 - **[Lips of Suna](lips_of_suna.md)** (C, GPL-3.0, beta, inactive since 2014)

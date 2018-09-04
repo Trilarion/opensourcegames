@@ -1411,7 +1411,7 @@
    "Engines & Frameworks",
    "beta / inactive since 2005",
    "",
-   "<a href=\"https://sourceforge.net/p/h-world/code\">Source</a> - C, Lua"
+   "<a href=\"https://gitlab.com/Trilarion/h-world.git\">Source</a> - C, Lua - GPL-2.0"
   ],
   [
    "Hale (<a href=\"https://sourceforge.net/projects/hale/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/hale.md\">entry</a>)",
@@ -1654,7 +1654,7 @@
    "Role Playing",
    "beta / inactive since 2010",
    "",
-   "<a href=\"https://svn.code.sf.net/p/low/code/\">Source</a> - C++"
+   "<a href=\"https://github.com/Trilarion/low.git\">Source</a> - C++ - LGPL-3.0"
   ],
   [
    "Land of Fire (<a href=\"http://landoffire.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/land_of_fire.md\">entry</a>)",
@@ -2827,15 +2827,6 @@
    "<a href=\"https://git.code.sf.net/p/solar-empire/code\">Source</a> - PHP"
   ],
   [
-   "Solaris the Game (<a href=\"https://sourceforge.net/projects/solaristhegame/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/adventure/solaris.md\">entry</a>)",
-   "Graphic adventure created and developing by Blender.",
-   "<a href=\"https://sourceforge.net/projects/solaristhegame/files/\">Link</a>",
-   "Adventure & Visual novels",
-   "beta / inactive since 2010",
-   "",
-   "<a href=\"https://svn.code.sf.net/p/solaristhegame/code/\">Source</a>"
-  ],
-  [
    "Solarus (<a href=\"http://www.solarus-games.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/solarus.md\">entry</a>)",
    "Zelda-like 2D game engine.",
    "<a href=\"http://www.solarus-games.org/engine/download/\">Link</a>",
@@ -3412,7 +3403,7 @@
    "<a href=\"http://git.pond.sub.org/empserver\">Source</a> - C - GPL-3.0"
   ],
   [
-   "World of Heroes (<a href=\"https://sourceforge.net/projects/worldofheroes\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/world_of_heroes.md\">entry</a>)",
+   "World of Heroes (<a href=\"https://sourceforge.net/projects/worldofheroes/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/world_of_heroes.md\">entry</a>)",
    "2D turn based strategy game, where the player commands an..",
    "<a href=\"https://sourceforge.net/projects/worldofheroes/files/WOH%20v0.4.2/\">Link</a>",
    "Strategy",

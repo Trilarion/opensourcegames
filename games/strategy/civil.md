@@ -2,7 +2,7 @@
 
 _A cross-platform, turn-based, networked strategy game._
 
-- Home: http://civil.sourceforge.net/ 
+- Home: http://civil.sourceforge.net/, https://sourceforge.net/projects/civil/
 - Download: http://civil.sourceforge.net/download.html
 - State: beta, inactive since 2003
 - Code repository: https://gitlab.com/Trilarion/civil.git (backup of cvs), http://civil.cvs.sourceforge.net/ (cvs)

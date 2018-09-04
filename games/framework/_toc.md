@@ -15,7 +15,7 @@
 - **[Flixel](flixel.md)** (ActionScript, MIT, mature)
 - **[GemRB](gemrb.md)** (C++, Python, GPL-2.0, mature)
 - **[Godot](godot.md)** (C, C++, MIT, mature)
-- **[H-World](h_world.md)** (C, Lua, beta, inactive since 2005)
+- **[H-World](h_world.md)** (C, Lua, GPL-2.0, beta, inactive since 2005)
 - **[HaxeFlixel](haxeflixel.md)** (Haxe, MIT, mature)
 - **[Irrlicht Engine](irrlicht.md)** (C++, C, zlib, mature)
 - **[JiGS Interactive Game System](jigs_php_rpg.md)** (JavaScript, PHP, GPL-3.0, beta)

@@ -12,4 +12,3 @@ _Open source development of the game Wargamer:Napoleon 1813 originally developed
 May require original files?
 
 ## Building
-

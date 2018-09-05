@@ -190,15 +190,6 @@
    "<a href=\"https://github.com/Trilarion/armies.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
-   "Arthur's Knights (<a href=\"http://ainenn.org/KingArthur/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/arthurs_knights.md\">entry</a>)",
-   "A small turned based game.",
-   "<a href=\"https://sourceforge.net/projects/king-arthur/files/king-arthur/Alpha%200.3/\">Link</a>",
-   "Strategy",
-   "beta / inactive since 2006",
-   "",
-   "C++, C# - Educational"
-  ],
-  [
    "Arx Libertatis (<a href=\"http://arx-libertatis.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/arx_libertatis.md\">entry</a>)",
    "Arx Libertatis is a cross-platform, open source port of..",
    "<a href=\"http://wiki.arx-libertatis.org/Download\">Link</a>",
@@ -314,15 +305,6 @@
    "beta / inactive since 2014",
    "",
    "<a href=\"https://github.com/godrin/antargis.git\">Source</a> - C, C++ - GPL-2.0"
-  ],
-  [
-   "Begin2 (<a href=\"https://sourceforge.net/projects/begin2/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/begin2.md\">entry</a>)",
-   "A TCP/IP Tactical Starship Sim.",
-   "<a href=\"https://sourceforge.net/projects/begin2/files/begin2/0.93/\">Link</a>",
-   "Strategy",
-   "beta / inactive since 2009",
-   "",
-   "<a href=\"https://svn.code.sf.net/p/begin2/code/\">Source</a> - C++"
   ],
   [
    "Betrayer's Moon Tactics (<a href=\"https://sourceforge.net/projects/bm-game/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/betrayer_moon_tactics.md\">entry</a>)",
@@ -1486,6 +1468,15 @@
    "<a href=\"https://github.com/Trilarion/howc.git\">Source</a> - Python - GPL-3.0"
   ],
   [
+   "Hex Game (<a href=\"https://sourceforge.net/projects/hexgamealpha/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/hexgame.md\">entry</a>)",
+   "Hex based, tactical strategy game.",
+   "",
+   "Strategy",
+   "beta / active",
+   "",
+   "<a href=\"https://github.com/matthewgrimes/hexgame.git\">Source</a> - C++ - MIT"
+  ],
+  [
    "Hexwar (<a href=\"https://github.com/mgfreshour/hexwar\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/hexwar.md\">entry</a>)",
    "Simple turn based, hexagon map, strategy game in the..",
    "",
@@ -1529,6 +1520,15 @@
    "mature / active",
    "3D",
    "<a href=\"https://github.com/zaki/irrlicht.git\">Source</a> - C++, C - zlib"
+  ],
+  [
+   "Isometric Turn-Based Strategy (<a href=\"https://sourceforge.net/projects/itbs/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/itbs.md\">entry</a>)",
+   "Deep, complex tactical turn-based RPG.",
+   "<a href=\"https://sourceforge.net/projects/itbs/files/\">Link</a>",
+   "Strategy",
+   "beta / active",
+   "",
+   "<a href=\"https://github.com/matthewgrimes/itbs-code.git\">Source</a> - Python - MIT"
   ],
   [
    "Iter Vehemens ad Necem (<a href=\"https://attnam.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/iter_vehemens_ad_necem.md\">entry</a>)",
@@ -1663,7 +1663,7 @@
    "Role Playing",
    "beta / active",
    "",
-   ""
+   "<a href=\"https://github.com/landoffire/lof-tmwa-server-data.git\">Source</a> - Custom - GPL-2.0"
   ],
   [
    "Libxml2 (<a href=\"http://www.xmlsoft.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/library/libxml2.md\">entry</a>)",
@@ -1918,6 +1918,15 @@
    "<a href=\"https://git.code.sf.net/p/monstergenerato/code\">Source</a> - Java - MIT"
   ],
   [
+   "Monstrosity (<a href=\"http://monstrosity.fireheadfred.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/monstrosity.md\">entry</a>)",
+   "Slay monsters, cast spells and collect keys to escape an..",
+   "<a href=\"http://monstrosity.fireheadfred.com/\">Link</a>",
+   "Role Playing",
+   "mature / active",
+   "",
+   "<a href=\"https://github.com/Trilarion/monstrosity.git\">Source</a> - Python - MIT"
+  ],
+  [
    "Moria (<a href=\"https://umoria.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/moria.md\">entry</a>)",
    "Roguelike computer game inspired by J. R. R. Tolkien's..",
    "<a href=\"https://umoria.org/download/\">Link</a>",
@@ -2051,15 +2060,6 @@
    "mature / active",
    "remake, requires original content",
    "<a href=\"https://github.com/OpenDUNE/OpenDUNE.git\">Source</a> - C - GPL-2.0"
-  ],
-  [
-   "Open General (<a href=\"http://www.open-general.com\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/open_general.md\">entry</a>)",
-   "Evolution of SSI Panzer General II.",
-   "<a href=\"http://www.open-general.com/installer.php\">Link</a>",
-   "Strategy",
-   "mature / active",
-   "requires original content",
-   "<a href=\"https://svn.code.sf.net/p/opengeneral/code/\">Source</a>"
   ],
   [
    "Open Imperium Galactica (<a href=\"https://github.com/akarnokd/open-ig\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/open_imperium_galactica.md\">entry</a>)",

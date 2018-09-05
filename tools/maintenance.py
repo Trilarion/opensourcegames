@@ -249,25 +249,31 @@ def parse_entry(content):
     info = {}
 
     # read title
-    regex = re.compile(r"^# (.*)")
+    regex = re.compile(r"^# (.*)") # start of content, starting with "# " and then everything until the end of line
     matches = regex.findall(content)
     assert len(matches) == 1
     assert matches[0]
     info['title'] = matches[0]
 
     # read description
-    regex = re.compile(r"^.*\n\n_(.*)_\n")
+    regex = re.compile(r"^.*\n\n_(.*)_\n") # third line from top, everything between underscores
     matches = regex.findall(content)
     assert len(matches) == 1, info['title']
     assert matches[0]
     info['description'] = matches[0]
 
     # first read all field names
-    regex = re.compile(r"^- (.*?): ", re.MULTILINE)
+    regex = re.compile(r"^- (.*?): ", re.MULTILINE) # start of each line having "- ", then everything until a colon, then ": "
     fields = regex.findall(content)
+
+    valid_fields = ('Home', 'Media', 'State', 'Play', 'Download', 'Platform', 'Keywords', 'Code repository', 'Code language', 'Code license', 'Code dependencies', 'Assets license', 'Build system', 'Build instructions')
 
     # iterate over found field
     for field in fields:
+        # check if in valid fields
+        if field not in valid_fields:
+            print("warning: field {} not valid".format(field))
+
         regex = re.compile(r"- {}: (.*)".format(field))
         matches = regex.findall(content)
         assert len(matches) == 1 # every field should only be present once

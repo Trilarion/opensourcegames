@@ -9,7 +9,7 @@ _Roguelike game with a 3D user interface._
 - Code repository: https://github.com/q4a/scourge.git (may not be up to date), https://svn.code.sf.net/p/scourge/code/ (svn)
 - Code language: C++
 - Code license: GPL-2.0
-- Dependencies: SDL
+- Code dependencies: SDL
 
 See also: https://github.com/q4a/scourge2, https://bitbucket.org/uzudil/scourge2/
 

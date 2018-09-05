@@ -50,7 +50,7 @@
 - **[Hero of Allacrost](hero_of_allacrost.md)** (C++, Lua, GPL-2.0, mature)
 - **[Holyspirit](holy_spirit.md)** (C++, GPL-3.0, beta, inactive since 2013)
 - **[Ilarion](ilarion.md)** (C++, Java, Lua, GPL-3.0, mature)
-- **[Imperium](imperium.md)** (mature)
+- **[Imperium](imperium.md)** (?, mature)
 - **[Iter Vehemens ad Necem](iter_vehemens_ad_necem.md)** (C++, GPL-2.0, beta)
 - **[KQ Lives](kq_lives.md)** (C, GPL-2.0, beta, inactive since 2011)
 - **[Kobold's Quest 2](kobolds_quest_2.md)** (Python, LGPL-3.0, beta, inactive since 2011)

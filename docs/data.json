@@ -1510,7 +1510,7 @@
    "Role Playing",
    "mature / active",
    "console",
-   ""
+   "?"
   ],
   [
    "Irrlicht Engine (<a href=\"http://irrlicht.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/irrlicht.md\">entry</a>)",
@@ -2032,7 +2032,7 @@
    "Libraries",
    "mature / active",
    "",
-   "Proprietary"
+   "C - Proprietary"
   ],
   [
    "Open AL Soft (<a href=\"http://kcat.strangesoft.net/openal.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/library/open_al_soft.md\">entry</a>)",
@@ -3089,7 +3089,7 @@
   ],
   [
    "The Endless Dungeons (<a href=\"https://sourceforge.net/projects/endlessdungeons/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/endless_dungeons.md\">entry</a>)",
-   "A free random dungeon game RPG (Roguelike)",
+   "Free random dungeon game RPG (Roguelike)",
    "<a href=\"https://sourceforge.net/projects/endlessdungeons/files/\">Link</a>",
    "Role Playing",
    "mature / inactive since 2015",

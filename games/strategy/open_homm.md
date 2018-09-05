@@ -8,7 +8,7 @@ _Open source clone of 'Heroes Of Might And Magic III' engine._
 - Code repository: https://code.launchpad.net/openhomm (bzr)
 - Code language: C++
 - Code license: GPL-3.0
-- Dependencies: SDL
+- Code dependencies: SDL
 
 Requires ownership of Heroes of Might and Magic III.
 

@@ -9,7 +9,7 @@ _Real-time strategy game similar to Warcraft II._
 - Code repository: https://github.com/Trilarion/dark-oberon.git (backup of svn), https://svn.code.sf.net/p/dark-oberon/code/ (svn)
 - Code language: C++
 - Code license: GPL-2.0
-- Dependencies: SDL
+- Code dependencies: SDL
 
 ## Building
 

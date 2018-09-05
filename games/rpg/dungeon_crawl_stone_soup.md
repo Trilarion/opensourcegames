@@ -9,7 +9,7 @@ _Roguelike adventure through dungeons filled with dangerous monsters in a quest 
 - Code repository: https://github.com/crawl/crawl.git
 - Code language: C++, Lua
 - Code license: GPL-2.0
-- Dependencies: Lua, SDL
+- Code dependencies: Lua, SDL
 
 Forked from Linley's Dungeon Crawl.
 

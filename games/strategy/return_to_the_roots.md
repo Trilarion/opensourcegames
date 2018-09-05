@@ -12,4 +12,4 @@ _Renew the original The Settlers 2._
 
 ## Building
 
-- Instructions: https://github.com/Return-To-The-Roots/s25client#how-to-build
+- Build instructions: https://github.com/Return-To-The-Roots/s25client#how-to-build

@@ -12,4 +12,4 @@ _Rebuild of the XCOM Apocalypse Engine._
 
 ## Building
 
-- Instructions: https://github.com/OpenApoc/OpenApoc#building
+- Build instructions: https://github.com/OpenApoc/OpenApoc#building

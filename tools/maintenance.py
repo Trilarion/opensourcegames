@@ -303,7 +303,7 @@ def parse_entry(content):
     # checks
 
     # essential fields
-    essential_fields = ['home', 'state', 'code repository']
+    essential_fields = ['home', 'state', 'code repository', 'code language']
     for field in essential_fields:
         if field not in info:
             print('Essential field "{}" missing in entry "{}"'.format(field, info['title']))
@@ -417,12 +417,13 @@ def generate_statistics():
     field = 'code language'
 
     # those without language tag
-    number_no_language = sum(1 for x in infois if field not in x)
-    if number_no_language > 0:
-        statistics += 'Without language tag: {} ({:.1f}%)\n\n'.format(number_no_language, rel(number_no_language))
-        entries_no_language = [x['title'] for x in infois if field not in x]
-        entries_no_language.sort()
-        statistics += ', '.join(entries_no_language) + '\n\n'
+    # TODO the language tag is now an essential field, this cannot happen anymore
+    # number_no_language = sum(1 for x in infois if field not in x)
+    # if number_no_language > 0:
+    #     statistics += 'Without language tag: {} ({:.1f}%)\n\n'.format(number_no_language, rel(number_no_language))
+    #     entries_no_language = [x['title'] for x in infois if field not in x]
+    #     entries_no_language.sort()
+    #     statistics += ', '.join(entries_no_language) + '\n\n'
 
     # get all languages together
     languages = []
@@ -509,6 +510,33 @@ def generate_statistics():
                 # print(info[field])
     entries.sort()
     statistics +=  '{}: '.format(len(entries)) + ', '.join(entries) + '\n\n'
+
+    # Build systems:
+    statistics += '## Build systems\n\n'
+    field = 'build system'
+
+    # get all build systems together
+    build_systems = []
+    for info in infois:
+        if field in info:
+            build_systems.extend(info[field])
+
+    statistics += 'Build systems information available for {:.1f}% of all projects\n\n'.format(len(build_systems) / len(infois) * 100)
+
+    unique_build_systems = set(build_systems)
+    unique_build_systems = [(l, build_systems.count(l) / len(build_systems)) for l in unique_build_systems]
+    unique_build_systems.sort(key=lambda x: x[0]) # first sort by name
+    unique_build_systems.sort(key=lambda x: -x[1]) # then sort by occurrence (highest occurrence first)
+    unique_build_systems = ['- {} ({:.1f}%)'.format(x[0], x[1]*100) for x in unique_build_systems]
+    statistics += '##### Build systems frequency\n\n' + '\n'.join(unique_build_systems) + '\n\n'
+
+    # C, C++ projects without build system information
+    c_cpp_project_without_build_system = []
+    for info in infois:
+        if field not in info and ('C' in info['code language'] or 'C++' in info['code language']):
+            c_cpp_project_without_build_system.append(info['title'])
+    c_cpp_project_without_build_system.sort()
+    statistics += '##### C and C++ projects without build system information ({})\n\n'.format(len(c_cpp_project_without_build_system)) + ', '.join(c_cpp_project_without_build_system) + '\n\n'
 
     with open(statistics_path, mode='w', encoding='utf-8') as f:
         f.write(statistics)

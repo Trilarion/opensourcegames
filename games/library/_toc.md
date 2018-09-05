@@ -9,7 +9,7 @@
 - **[LZMA SDK](lzma.md)** (C, LGPL-2.0, mature)
 - **[Libxml2](libxml2.md)** (C, MIT, mature)
 - **[Lua](lua.md)** (C, MIT, mature)
-- **[Open AL](open_al.md)** (Proprietary, mature)
+- **[Open AL](open_al.md)** (C, Proprietary, mature)
 - **[Open AL Soft](open_al_soft.md)** (C, LGPL-2.0, mature)
 - **[OpenSSL](openssl.md)** (C, Custom, mature)
 - **[Pthreads-win32](pthreads_win32.md)** (C, LGPL-2.1, mature)

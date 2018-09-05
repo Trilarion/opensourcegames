@@ -8,7 +8,7 @@ _Action-adventures in the style of the game "The Legend of Zelda"._
 - Code repository: https://git.tuxfamily.org/fanwor/fanwor.git
 - Code language: C
 - Code license: GPL-2.0
-- Dependencies: SDL
+- Code dependencies: SDL
 
 ## Building
 

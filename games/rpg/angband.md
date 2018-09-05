@@ -10,7 +10,7 @@ _Single-player dungeon exploration game._
 - Code repository: https://github.com/angband/angband.git
 - Code language: C
 - Code license: GPL-2.0
-- Dependencies: SDL
+- Code dependencies: SDL
 
 ## Building
 

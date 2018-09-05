@@ -1,6 +1,6 @@
 # The Endless Dungeons
 
-_A free random dungeon game RPG (Roguelike)_
+_Free random dungeon game RPG (Roguelike)_
 
 - Home: https://sourceforge.net/projects/endlessdungeons/
 - State: mature, inactive since 2015
@@ -14,4 +14,3 @@ _A free random dungeon game RPG (Roguelike)_
 
 ## Building
 
-- Build system: None

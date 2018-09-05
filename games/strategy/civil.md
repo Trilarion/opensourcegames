@@ -8,6 +8,7 @@ _A cross-platform, turn-based, networked strategy game._
 - Code repository: https://gitlab.com/Trilarion/civil.git (backup of cvs), http://civil.cvs.sourceforge.net/ (cvs)
 - Code language: Python
 - Code license: GPL-2.0
-- Follow-up: https://github.com/Trilarion/civil
+
++ Follow-up: https://github.com/Trilarion/civil
 
 ## Building

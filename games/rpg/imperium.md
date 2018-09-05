@@ -7,6 +7,7 @@ _A game of intergalactic exploration, warfare, and economics._
 - State: mature
 - Keywords: console
 - Code repository: (see download)
+- Code language: ?
 
 Need to register to download sources.
 

@@ -3,8 +3,8 @@
 _Engine for Heroes III, giving it new and extended possibilities._
 
 - Home: https://vcmi.eu/, https://sourceforge.net/projects/vcmi/
-- Download: (see home)
 - State: mature
+- Download: (see home)
 - Code repository: https://github.com/vcmi/vcmi.git, https://sourceforge.net/p/vcmi/code/HEAD/tree/ (svn)
 - Code language: C++
 - Code license: GPL-2.0

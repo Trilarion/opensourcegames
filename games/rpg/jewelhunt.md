@@ -3,8 +3,8 @@
 _The rainbow jewels have been abducted from the temple of the rainbow colors, and the world will slowly bleach out if you can't retrieve them._
 
 - Home: https://sourceforge.net/projects/jewelhunt/
-- Download: https://sourceforge.net/projects/jewelhunt/files
 - State: beta
+- Download: https://sourceforge.net/projects/jewelhunt/files
 - Code repository: https://github.com/Trilarion/jewelhunt.git (backup of svn), https://svn.code.sf.net/p/jewelhunt/code/ (svn)
 - Code language: Java
 - Code license: GPL-2.0

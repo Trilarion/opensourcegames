@@ -3,8 +3,8 @@
 _Indie Turn Based Strategy in Isometric Pixel Art._
 
 - Home: https://w84death.itch.io/tanks-of-freedom
-- Download: (see home)
 - State: mature
+- Download: (see home)
 - Code repository: https://github.com/w84death/Tanks-of-Freedom.git
 - Code language: GDScript
 - Code license: MIT

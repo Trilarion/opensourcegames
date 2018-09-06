@@ -3,8 +3,8 @@
 _Browser strategy game._
 
 - Home: https://web.archive.org/web/20180419021717/http://devana.eu/, https://sourceforge.net/projects/devana/
-- Download: https://sourceforge.net/projects/devana/files
 - State: beta
+- Download: https://sourceforge.net/projects/devana/files
 - Keywords: browser
 - Code repository: https://gitlab.com/Trilarion/devana.git (snapshot of source releases)
 - Code language: PHP

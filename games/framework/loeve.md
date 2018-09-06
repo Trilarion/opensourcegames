@@ -3,8 +3,8 @@
 _LÖVE is an  framework you can use to make 2D games in Lua._
 
 - Home: https://love2d.org/
-- Download: (see home)
 - State: mature
+- Download: (see home)
 - Code repository: https://bitbucket.org/rude/love (hg)
 - Code language: C++
 - Code license: zlib

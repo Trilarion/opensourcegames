@@ -3,8 +3,8 @@
 _Real-time strategy game similar to Warcraft II._
 
 - Home: http://dark-oberon.sourceforge.net/, https://sourceforge.net/projects/dark-oberon/
-- Download: http://dark-oberon.sourceforge.net/?page=download
 - State: mature, inactive since 2009
+- Download: http://dark-oberon.sourceforge.net/?page=download
 - Keywords: RTS
 - Code repository: https://github.com/Trilarion/dark-oberon.git (backup of svn), https://svn.code.sf.net/p/dark-oberon/code/ (svn)
 - Code language: C++

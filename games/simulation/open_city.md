@@ -3,8 +3,8 @@
 _Another 3D city simulator._
 
 - Home: http://www.opencity.info/
-- Download: http://www.opencity.info/en/Download.html
 - State: beta
+- Download: http://www.opencity.info/en/Download.html
 - Code repository: https://svn.code.sf.net/p/opencity/code/ (svn), https://sourceforge.net/p/opencity/cvs/ (cvs)
 - Code language: C++
 - Code license: GPL-2.0

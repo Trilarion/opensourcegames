@@ -6,7 +6,6 @@
 - **[A Planet's Revenge](a_planets_revenge.md)** (Python, GPL-3.0, beta, inactive since 2008)
 - **[AI Wars](ai_wars.md)** (Python, MIT, beta, inactive since 2010)
 - **[Advanced Strategic Command](asc.md)** (C++, GPL-2.0, mature)
-- **[Age of Magic](age_of_magic.md)** (C++, GPL-2.0, beta, inactive since 2011)
 - **[Alien Assault Traders](alien_assault_traders.md)** (PHP, GPL-2.0, beta, inactive since 2009)
 - **[Ancient Beast](ancient_beast.md)** (JavaScript, AGPL-3.0, mature)
 - **[Antares](antares.md)** (C++, LGPL-3.0, beta)

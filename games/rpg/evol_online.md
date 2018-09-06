@@ -3,8 +3,8 @@
 _A homely MMORPG._
 
 - Home: http://evolonline.org/
-- Download: http://evolonline.org/manaplus
 - State: mature
+- Download: http://evolonline.org/manaplus
 - Keywords: MMO
 - Code repository: https://gitlab.com/evol/evol-all.git
 - Code language: C

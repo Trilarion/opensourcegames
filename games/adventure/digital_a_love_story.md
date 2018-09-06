@@ -3,9 +3,9 @@
 _A computer mystery/romance set five minutes into the future of 1988._
 
 - Home: http://scoutshonour.com/digital/, https://lgdb.org/game/digital_love_story
+- State: mature
 - Download: (see home)
 - Platform: Windows, Mac, Linux
-- State: mature
 - Keywords: visual novel
 - Code repository: https://gitlab.com/Trilarion/digitalalovestory.git (copy of version 1.1)
 - Code language: Ren'py

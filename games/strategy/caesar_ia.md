@@ -3,8 +3,8 @@
 _Remake of the popular citybuilder/economic strategy - Caesar III, videogame by Empressions Games._
 
 - Home: https://bitbucket.org/dalerank/caesaria/overview, https://bitbucket.org/dalerank/caesaria/wiki/Home
-- Download: https://bitbucket.org/dalerank/caesaria/wiki/Releases
 - State: beta
+- Download: https://bitbucket.org/dalerank/caesaria/wiki/Releases
 - Platform: Windows, Linux, MacOs
 - Code repository: https://bitbucket.org/dalerank/caesaria.git
 - Code language: C++

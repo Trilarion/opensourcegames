@@ -4,8 +4,8 @@ _Open source role playing game._
 
 - Home: http://www.freedroid.org/
 - Media: https://de.wikipedia.org/wiki/FreedroidRPG (German)
-- Download: http://www.freedroid.org/download/
 - State: mature
+- Download: http://www.freedroid.org/download/
 - Keywords: SP, isometric
 - Code repository: https://gitlab.com/freedroid/freedroid-src.git
 - Code language: C

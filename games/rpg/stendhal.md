@@ -3,8 +3,8 @@
 _Multiplayer online adventure game with an old school feel._
 
 - Home: https://stendhalgame.org/, https://sourceforge.net/p/arianne/
-- Download: (see home)
 - State: mature
+- Download: (see home)
 - Keywords: MP, online
 - Code repository: https://git.code.sf.net/p/arianne/stendhal
 - Code language: Java

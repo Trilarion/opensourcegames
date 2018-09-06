@@ -3,8 +3,8 @@
 _Graphical roguelike game with advanced bodypart and material handling, multi-colored lighting and, above all, deep gameplay._
 
 - Home: https://attnam.com/, https://sourceforge.net/projects/ivan/
-- Download: https://attnam.com/projects
 - State: beta
+- Download: https://attnam.com/projects
 - Keywords: roguelike
 - Code repository: https://github.com/Attnam/ivan.git, https://sourceforge.net/p/ivan/code/ (cvs)
 - Code language: C++

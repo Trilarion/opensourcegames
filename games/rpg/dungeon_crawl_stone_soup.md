@@ -3,8 +3,8 @@
 _Roguelike adventure through dungeons filled with dangerous monsters in a quest to find the mystifyingly fabulous Orb of Zot._
 
 - Home: http://crawl.develz.org/
-- Download: http://crawl.develz.org/download.htm
 - State: mature
+- Download: http://crawl.develz.org/download.htm
 - Keywords: roguelike
 - Code repository: https://github.com/crawl/crawl.git
 - Code language: C++, Lua

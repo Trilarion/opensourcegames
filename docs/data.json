@@ -73,15 +73,6 @@
    "<a href=\"http://hg.asc-hq.org/hg/asc\">Source</a> - C++ - GPL-2.0"
   ],
   [
-   "Age of Magic (<a href=\"https://sourceforge.net/projects/ageofmagic/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/age_of_magic.md\">entry</a>)",
-   "Turn-based strategy game for Symbian.",
-   "<a href=\"https://sourceforge.net/projects/ageofmagic/files/\">Link</a>",
-   "Strategy",
-   "beta / inactive since 2011",
-   "",
-   "<a href=\"https://svn.code.sf.net/p/ageofmagic/code/\">Source</a> - C++ - GPL-2.0"
-  ],
-  [
    "Alien Assault Traders (<a href=\"http://www.aatraders.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/alien_assault_traders.md\">entry</a>)",
    "Alien Assault Traders is an online, web-based, turn-based..",
    "<a href=\"https://sourceforge.net/projects/aatrade/files/\">Link</a>",
@@ -340,7 +331,7 @@
    "Engines & Frameworks",
    "mature / active",
    "",
-   "C++ - GPL-2.0"
+   "<a href=\"git://git.blender.org/blender.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Blitzkrieg (<a href=\"https://sourceforge.net/projects/blitzkrieg/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/blitzkrieg.md\">entry</a>)",
@@ -412,7 +403,7 @@
    "Strategy",
    "mature / inactive since 2013",
    "TBS",
-   "Pascal"
+   "<a href=\"https://github.com/vn971/cevo.git\">Source</a> - Pascal"
   ],
   [
    "COCOS2D-X (<a href=\"http://cocos2d-x.org/cocos2dx\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/cocos2dx.md\">entry</a>)",
@@ -2500,7 +2491,7 @@
    "Engines & Frameworks",
    "mature / active",
    "",
-   "C++ - LGPL-3.0"
+   "<a href=\"https://github.com/qt/qtbase.git\">Source</a> - C++ - LGPL-3.0"
   ],
   [
    "Quad-engine (<a href=\"http://quad-engine.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/quad.md\">entry</a>)",
@@ -3302,15 +3293,6 @@
    "beta / inactive since 2013",
    "",
    "<a href=\"https://github.com/Trilarion/vegatrek.git\">Source</a> - Python - GPL-2.0"
-  ],
-  [
-   "Visions from the Other Side (<a href=\"http://www.insani.org/mukou.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/adventure/visions_from_the_other_side.md\">entry</a>)",
-   "Short Visual Novel",
-   "",
-   "Adventure & Visual novels",
-   "mature / inactive since 2006",
-   "visual novel",
-   "Ren'py - Freeware"
   ],
   [
    "WAtomic (<a href=\"https://sourceforge.net/projects/watomic/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/watomic.md\">entry</a>)",

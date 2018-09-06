@@ -4,8 +4,8 @@ _Open source framework for massively multiplayer online role-playing games._
 
 - Home: https://www.worldforge.org/
 - Media: https://en.wikipedia.org/wiki/WorldForge
-- Download: https://www.worldforge.org/index.php/downloads/
 - State: mature
+- Download: https://www.worldforge.org/index.php/downloads/
 - Keywords: MMO
 - Code repository: https://github.com/worldforge/cyphesis.git (https://github.com/worldforge), https://github.com/worldforge/ember.git (+)
 - Code language: C++

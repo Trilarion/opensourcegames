@@ -4,8 +4,8 @@ _Action-adventure dungeon crawl game._
 
 - Home: http://www.asceai.net/meritous/
 - Media: https://libregamewiki.org/Meritous
-- Download: (see home)
 - State: mature, inactive since 2008
+- Download: (see home)
 - Code repository: https://github.com/Nop90-Switch/Meritous-Switch.git (import of version 1.2)
 - Code language: C
 - Code license: GPL-3.0

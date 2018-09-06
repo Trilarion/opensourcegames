@@ -3,8 +3,8 @@
 _An online multiplayer tactical warfare game._
 
 - Home: http://www.netpanzer.info/
-- Download: http://www.netpanzer.info/Download/
 - State: beta
+- Download: http://www.netpanzer.info/Download/
 - Keywords: online, MP, RTS
 - Code repository: https://github.com/BackupTheBerlios/netpanzer-svn.git (not up to date?), https://svn.code.sf.net/p/netpanzerfp/code/ (svn)
 - Code language: C++

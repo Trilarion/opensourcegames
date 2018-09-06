@@ -4,8 +4,8 @@ _Implements a large subset of the POSIX standard threads related API._
 
 - Home: https://sourceware.org/pthreads-win32/
 - Media: https://en.wikipedia.org/wiki/POSIX_Threads#POSIX_Threads_for_Windows
-- Download: (see home)
 - State: mature
+- Download: (see home)
 - Code repository: https://github.com/GerHobbelt/pthread-win32.git, (cvs, see home) 
 - Code language: C
 - Code license: LGPL-2.1

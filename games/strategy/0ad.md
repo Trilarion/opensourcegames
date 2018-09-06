@@ -4,8 +4,8 @@ _0 A.D. is a free, open-source, cross-platform real-time strategy game._
 
 - Home: https://play0ad.com/
 - Media: <https://en.wikipedia.org/wiki/0_A.D._(video_game)>
-- Download: https://play0ad.com/download/
 - State: beta
+- Download: https://play0ad.com/download/
 - Keywords: RTS
 - Code repository: https://github.com/0ad/0ad.git (mirror), https://svn.wildfiregames.com/public/ps/trunk/ (svn)
 - Code language: C++

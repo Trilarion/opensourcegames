@@ -3,8 +3,8 @@
 _Strategy game which features elements of mythology, history and fiction._
 
 - Home: http://andrettin.github.io/
-- Download: https://store.steampowered.com/app/370070/Wyrmsun/
 - State: mature
+- Download: https://store.steampowered.com/app/370070/Wyrmsun/
 - Keywords: RTS
 - Code repository: https://github.com/andrettin/wyrmsun.git, https://github.com/Andrettin/Wyrmgus.git (+)
 - Code language: Lua, C++

@@ -3,8 +3,8 @@
 _3D Game Engine_
 
 - Home: https://github.com/nem0/lumixengine
-- Download: https://github.com/nem0/LumixEngine/releases
 - State: beta
+- Download: https://github.com/nem0/LumixEngine/releases
 - Keywords: 3D
 - Code repository: https://github.com/nem0/lumixengine.git, https://github.com/nem0/lumixengine_data.git (related)
 - Code language: C++

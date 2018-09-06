@@ -6,7 +6,7 @@ _A community developed, multiplayer round-based role playing game, where players
 - Media: https://en.wikipedia.org/wiki/Space_Station_13
 - State: mature
 - Keywords: online
-- Code repository: (many different versions)
+- Code repository: (many different versions, see below)
 - Code language: DM
 - Code license: AGPL-3.0
 

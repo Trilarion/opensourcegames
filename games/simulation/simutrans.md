@@ -4,8 +4,8 @@ _A cross-platform simulation game in which the player strives to run a successfu
 
 - Home: https://www.simutrans.com/en/, http://www.simutrans.de/start (German)
 - Media: https://en.wikipedia.org/wiki/Simutrans
-- Download: http://www.simutrans.de/download
 - State: mature
+- Download: http://www.simutrans.de/download
 - Code repository: https://github.com/aburch/simutrans.git, https://svn.code.sf.net/p/simutrans/code/ (svn)
 - Code language: C++
 - Code license: Artistic License

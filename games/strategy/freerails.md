@@ -3,8 +3,8 @@
 _Real time MP strategy game where players compete to build the most powerful railroad empire._
 
 - Home: http://freerails.sourceforge.net/
-- Download: https://sourceforge.net/projects/freerails/files/jfreerails/
 - State: beta
+- Download: https://sourceforge.net/projects/freerails/files/jfreerails/
 - Keywords: RTS
 - Code repository: https://sourceforge.net/p/freerails/code/ (cvs)
 - Code language: Java

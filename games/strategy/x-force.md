@@ -3,8 +3,8 @@
 _Remake of the classic X-Com-Games._
 
 - Home: http://www.xforce-online.de/, https://sourceforge.net/projects/xforceffd/
-- Download: https://sourceforge.net/projects/xforceffd/files
 - State: beta, inactive since 2011
+- Download: https://sourceforge.net/projects/xforceffd/files
 - Keywords: TBS
 - Code repository: https://github.com/Trilarion/xforceffd.git (backup of svn), https://svn.code.sf.net/p/xforceffd/code/ (svn)
 - Code language: Pascal

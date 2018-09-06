@@ -273,6 +273,7 @@
   "https://github.com/pygame/pygame.git",
   "https://github.com/q4a/scourge.git",
   "https://github.com/qirien/personal-space.git",
+  "https://github.com/qt/qtbase.git",
   "https://github.com/raduprv/Eternal-Lands.git",
   "https://github.com/rayjohannessen/songofalbion.git",
   "https://github.com/red-eclipse/base.git",
@@ -307,6 +308,7 @@
   "https://github.com/vcosta/derclou.git",
   "https://github.com/vegastrike/Vega-Strike-Engine-Source.git",
   "https://github.com/viewizard/astromenace.git",
+  "https://github.com/vn971/cevo.git",
   "https://github.com/w84death/Tanks-of-Freedom.git",
   "https://github.com/weidai11/cryptopp.git",
   "https://github.com/wesnoth/wesnoth.git",
@@ -381,7 +383,6 @@
  ],
  "svn": [
   "http://svn.uktrainsim.com/svn/openrails/trunk",
-  "https://svn.code.sf.net/p/ageofmagic/code/",
   "https://svn.code.sf.net/p/atomiks/code/",
   "https://svn.code.sf.net/p/catmother/code/",
   "https://svn.code.sf.net/p/crossfire/code/",

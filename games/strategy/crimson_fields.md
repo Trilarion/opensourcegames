@@ -3,8 +3,8 @@
 _Turn-based tactical war game._
 
 - Home: http://crimson.seul.org/
-- Download: http://crimson.seul.org/download.php
 - State: mature, inactive since 2010
+- Download: http://crimson.seul.org/download.php
 - Keywords: TBS
 - Code repository: https://gitlab.com/Trilarion/crimson.git (import of cvs), http://crimson.seul.org/cvs.php (cvs)
 - Code language: C++

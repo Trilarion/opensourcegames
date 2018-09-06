@@ -3,8 +3,8 @@
 _Warcraft2 Mod that allows you to play Warcraft2 with the Stratagus engine._
 
 - Home: http://wargus.stratagus.com/index.shtml
-- Download: http://wargus.stratagus.com/download.shtml
 - State: mature (?)
+- Download: http://wargus.stratagus.com/download.shtml
 - Keywords: requires original content (?)
 - Code repository: https://github.com/Wargus/wargus.git, https://code.launchpad.net/wargus (bzr)
 - Code language: C++, Lua

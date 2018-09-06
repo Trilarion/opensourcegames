@@ -3,8 +3,8 @@
 _Themeable turn-based strategy game._
 
 - Home: https://sourceforge.net/projects/attal/
-- Download: https://sourceforge.net/projects/attal/files/Attal/
 - State: mature, inactive since 2008
+- Download: https://sourceforge.net/projects/attal/files/Attal/
 - Keywords: TBS
 - Code repository: https://gitlab.com/Trilarion/attal.git (backup of cvs), http://attal.cvs.sourceforge.net/ (cvs)
 - Code language: C++

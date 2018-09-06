@@ -4,8 +4,8 @@ _The LZMA SDK provides the documentation, samples, header files, libraries, and 
 
 - Home: http://7-zip.org/
 - Media: https://en.wikipedia.org/wiki/Lempel%E2%80%93Ziv%E2%80%93Markov_chain_algorithm
-- Download: http://7-zip.org/download.html, http://7-zip.org/sdk.html
 - State: mature
+- Download: http://7-zip.org/download.html, http://7-zip.org/sdk.html
 - Code repository: (see download)
 - Code language: C
 - Code license: LGPL-2.0

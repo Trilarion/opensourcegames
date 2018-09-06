@@ -8,7 +8,6 @@
     This script runs with Python 3, it could also with Python 2 with some minor tweaks probably.
 """
 
-import os
 import re
 import urllib.request
 import http.client
@@ -266,14 +265,25 @@ def parse_entry(content):
     regex = re.compile(r"^- (.*?): ", re.MULTILINE) # start of each line having "- ", then everything until a colon, then ": "
     fields = regex.findall(content)
 
+    # check that essential fields are there
+    essential_fields = ['Home', 'State', 'Code repository', 'Code language']
+    for field in essential_fields:
+        if field not in fields:
+            print('Error: Essential field "{}" missing in entry "{}"'.format(field, info['title']))
+            return info # so that the remaining entries can also be parsed
+
+    # check that all fields are valid fields and are existing in that order
     valid_fields = ('Home', 'Media', 'State', 'Play', 'Download', 'Platform', 'Keywords', 'Code repository', 'Code language', 'Code license', 'Code dependencies', 'Assets license', 'Build system', 'Build instructions')
-
-    # iterate over found field
+    index = 0
     for field in fields:
-        # check if in valid fields
-        if field not in valid_fields:
-            print("warning: field {} not valid".format(field))
+        while index < len(valid_fields) and field != valid_fields[index]:
+            index += 1
+        if index == len(valid_fields):
+            print('Error: Field "{}" in entry "{}" either misspelled or in wrong order'.format(field, info['title']))
+            return info # so that the remaining entries can also be parsed
 
+    # iterate over found fields
+    for field in fields:
         regex = re.compile(r"- {}: (.*)".format(field))
         matches = regex.findall(content)
         assert len(matches) == 1 # every field should only be present once
@@ -297,17 +307,12 @@ def parse_entry(content):
         # if entry is of structure <..> remove <>
         v = [x[1:-1] if x[0] is '<' and x[-1] is '>' else x for x in v]
 
+        # empty fields will not be stored
+        if not v:
+            continue
+
         # store in info
         info[field.lower()] = v
-
-    # checks
-
-    # essential fields
-    essential_fields = ['home', 'state', 'code repository', 'code language']
-    for field in essential_fields:
-        if field not in info:
-            print('Essential field "{}" missing in entry "{}"'.format(field, info['title']))
-            return info # so that the rest can run through
 
     # state must contain either beta or mature but not both
     v = info['state']
@@ -325,10 +330,10 @@ def parse_entry(content):
                     print('URL "{}" in entry "{}" contains a space'.format(url, info['title']))
 
     # github repositories should end on .git
-    repos = info['code repository']
-    for repo in repos:
-        if repo.startswith('https://github.com/') and not repo.endswith('.git'):
-            print('Github repo {} in entry "{}" should end on .git.'.format(repo, info['title']))
+    if 'code repository' in info:
+        for repo in info['code repository']:
+            if repo.startswith('https://github.com/') and not repo.endswith('.git'):
+                print('Github repo {} in entry "{}" should end on .git.'.format(repo, info['title']))
 
     # extract inactive
     phrase = 'inactive since '
@@ -497,7 +502,7 @@ def generate_statistics():
     entries = []
     field = 'code repository'
     for info in infois:
-        if info[field]:
+        if field in info:
             popular = False
             for repo in info[field]:
                 for popular_repo in popular_code_repositories:
@@ -528,7 +533,7 @@ def generate_statistics():
     unique_build_systems.sort(key=lambda x: x[0]) # first sort by name
     unique_build_systems.sort(key=lambda x: -x[1]) # then sort by occurrence (highest occurrence first)
     unique_build_systems = ['- {} ({:.1f}%)'.format(x[0], x[1]*100) for x in unique_build_systems]
-    statistics += '##### Build systems frequency\n\n' + '\n'.join(unique_build_systems) + '\n\n'
+    statistics += '##### Build systems frequency ({})\n\n'.format(len(build_systems)) + '\n'.join(unique_build_systems) + '\n\n'
 
     # C, C++ projects without build system information
     c_cpp_project_without_build_system = []
@@ -537,6 +542,14 @@ def generate_statistics():
             c_cpp_project_without_build_system.append(info['title'])
     c_cpp_project_without_build_system.sort()
     statistics += '##### C and C++ projects without build system information ({})\n\n'.format(len(c_cpp_project_without_build_system)) + ', '.join(c_cpp_project_without_build_system) + '\n\n'
+
+    # C, C++ projects with build system information but without CMake as build system
+    c_cpp_project_not_cmake = []
+    for info in infois:
+        if field in info and 'CMake' in info[field] and ('C' in info['code language'] or 'C++' in info['code language']):
+            c_cpp_project_not_cmake.append(info['title'])
+    c_cpp_project_not_cmake.sort()
+    statistics += '##### C and C++ projects with a build system different from CMake ({})\n\n'.format(len(c_cpp_project_not_cmake)) + ', '.join(c_cpp_project_not_cmake) + '\n\n'
 
     with open(statistics_path, mode='w', encoding='utf-8') as f:
         f.write(statistics)

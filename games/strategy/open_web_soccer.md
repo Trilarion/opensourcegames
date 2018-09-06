@@ -3,8 +3,8 @@
 _Manage a virtual fantasy football (soccer) team and play with it against other users._
 
 - Home: https://github.com/ihofmann/open-websoccer
-- Download: https://github.com/ihofmann/open-websoccer/releases
 - State: mature
+- Download: https://github.com/ihofmann/open-websoccer/releases
 - Keywords: online, sports
 - Code repository: https://github.com/ihofmann/open-websoccer.git
 - Code language: PHP

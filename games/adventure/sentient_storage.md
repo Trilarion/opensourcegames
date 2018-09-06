@@ -3,8 +3,8 @@
 _Point & Click adventure!_
 
 - Home: https://pyweek.org/e/np8g/
-- Download: (see home)
 - State: mature
+- Download: (see home)
 - Code repository: https://gitlab.com/Trilarion/sentient-storage.git (copy of download)
 - Code language: Python
 - Code license: Public Domain

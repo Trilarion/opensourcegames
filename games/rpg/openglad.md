@@ -3,8 +3,8 @@
 _An SDL port of an old DOS game called Gladiator._
 
 - Home: http://snowstorm.sourceforge.net/cgi-bin/site.cgi?page=home, https://sourceforge.net/projects/snowstorm/
-- Download: http://snowstorm.sourceforge.net/cgi-bin/site.cgi?page=download
 - State: mature, inactive since 2004
+- Download: http://snowstorm.sourceforge.net/cgi-bin/site.cgi?page=download
 - Keywords: remake
 - Code repository: https://git.code.sf.net/p/snowstorm/git
 - Code language: C++

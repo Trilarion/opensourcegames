@@ -3,8 +3,8 @@
 _Reimplementation of the classic Bullfrog game, Syndicate._
 
 - Home: http://freesynd.sourceforge.net/, https://sourceforge.net/projects/freesynd/
-- Download: https://sourceforge.net/projects/freesynd/files/
 - State: beta
+- Download: https://sourceforge.net/projects/freesynd/files/
 - Keywords: requires original content (Syndicate)
 - Code repository: https://svn.code.sf.net/p/freesynd/code/ (svn)
 - Code language: C++

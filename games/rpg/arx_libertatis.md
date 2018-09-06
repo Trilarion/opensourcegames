@@ -4,8 +4,8 @@ _Arx Libertatis is a cross-platform, open source port of Arx Fatalis, a 2002 fir
 
 - Home: http://arx-libertatis.org/
 - Media: https://en.wikipedia.org/wiki/Arx_Fatalis#Development
-- Download: http://wiki.arx-libertatis.org/Download
 - State: mature
+- Download: http://wiki.arx-libertatis.org/Download
 - Keywords: SP
 - Code repository: https://github.com/arx/ArxLibertatis.git
 - Code language: C++

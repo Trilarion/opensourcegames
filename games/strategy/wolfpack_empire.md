@@ -3,8 +3,8 @@
 _Real time, multiplayer, Internet-based game, featuring military, diplomatic, and economic goals._
 
 - Home: http://www.wolfpackempire.com/, https://sourceforge.net/projects/empserver/
-- Download: https://sourceforge.net/projects/empserver/files/
 - State: mature
+- Download: https://sourceforge.net/projects/empserver/files/
 - Keywords: online
 - Code repository: 	http://git.pond.sub.org/empserver (http://git.pond.sub.org/?p=empserver;a=summary)
 - Code language: C

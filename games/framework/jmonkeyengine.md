@@ -4,8 +4,8 @@ _Game engine, made especially for Java game developers who want to create 3D gam
 
 - Home: http://jmonkeyengine.org/
 - Media: https://en.wikipedia.org/wiki/JMonkeyEngine
-- Download: https://github.com/jMonkeyEngine/sdk/releases
 - State: mature
+- Download: https://github.com/jMonkeyEngine/sdk/releases
 - Code repository: https://github.com/jMonkeyEngine/jmonkeyengine.git
 - Code language: Java
 - Code license: 3-clause BSD

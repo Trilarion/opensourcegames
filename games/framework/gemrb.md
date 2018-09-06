@@ -3,8 +3,8 @@
 _GemRB is a portable open-source implementation of Bioware's Infinity Engine._
 
 - Home: http://www.gemrb.org/wiki/doku.php?id=start
-- Download: http://www.gemrb.org/wiki/doku.php?id=download
 - State: mature
+- Download: http://www.gemrb.org/wiki/doku.php?id=download
 - Keywords: isometric 2D
 - Code repository: https://github.com/gemrb/gemrb.git
 - Code language: C++, Python

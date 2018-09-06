@@ -3,8 +3,8 @@
 _Castle of the Winds remake._
 
 - Home: http://game.castleofthewinds.com/, http://mordrax.github.io/cotwmtor/
-- Play: http://game.castleofthewinds.com/
 - State: beta
+- Play: http://game.castleofthewinds.com/
 - Keywords: remake
 - Code repository: https://github.com/mordrax/cotwmtor.git
 - Code language: JavaScript

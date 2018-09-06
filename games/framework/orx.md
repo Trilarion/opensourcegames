@@ -4,8 +4,8 @@ _Orx is an open source, portable, lightweight, plugin-based, data-driven and ext
 
 - Home: http://orx-project.org/about
 - Media: https://en.wikipedia.org/wiki/ORX
-- Download: https://github.com/orx/orx/releases
 - State: mature
+- Download: https://github.com/orx/orx/releases
 - Code repository: https://github.com/orx/orx.git, https://bitbucket.org/orx/orx (hg)
 - Code language: C
 - Code license: zlib

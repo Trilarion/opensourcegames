@@ -3,8 +3,8 @@
 _Clone of the good old Dune II by Westwood Studios._
 
 - Home: http://dune2themaker.fundynamic.com/
-- Download: http://dune2themaker.fundynamic.com/?page_id=11
 - State: beta
+- Download: http://dune2themaker.fundynamic.com/?page_id=11
 - Keywords: RTS
 - Code repository: https://github.com/Fundynamic/dune2themaker4j.git
 - Code language: Java

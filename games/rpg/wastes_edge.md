@@ -3,8 +3,8 @@
 _Demo game for Adonthell._
 
 - Home: http://adonthell.nongnu.org/download/index.html
-- Download: (see home)
 - State: beta
+- Download: (see home)
 - Code repository: https://git.savannah.gnu.org/git/adonthell/adonthell-wastesedge.git
 - Code language: Python
 - Code license: GPL-2.0

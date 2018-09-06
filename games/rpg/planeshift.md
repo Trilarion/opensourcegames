@@ -4,8 +4,8 @@ _Role Playing Game immersed into a 3D virtual fantasy world._
 
 - Home: http://www.planeshift.it/, https://sourceforge.net/projects/planeshift/
 - Media: <https://en.wikipedia.org/wiki/PlaneShift_(video_game)>
-- Download: http://www.planeshift.it/Download
 - State: mature
+- Download: http://www.planeshift.it/Download
 - Keywords: MMO
 - Code repository: https://svn.code.sf.net/p/planeshift/code/ (svn)
 - Code language: C++

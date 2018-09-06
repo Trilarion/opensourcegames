@@ -4,8 +4,8 @@ _Allows you to run certain classic graphical point-and-click adventure games, pr
 
 - Home: http://www.scummvm.org/
 - Media: https://en.wikipedia.org/wiki/ScummVM
-- Download: http://www.scummvm.org/downloads/
 - State: mature
+- Download: http://www.scummvm.org/downloads/
 - Keywords: engine
 - Code repository: https://github.com/scummvm/scummvm.git
 - Code language: C++

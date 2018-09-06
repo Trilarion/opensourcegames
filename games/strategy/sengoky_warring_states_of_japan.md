@@ -3,8 +3,8 @@
 _Something in-between of a turn-based/real-time strategy game set in Japan during the 16th and 17th centuries when warlords fought for control of the Japanese islands._
 
 - Home: https://sourceforge.net/projects/sengdokuwsj/
-- Download: https://sourceforge.net/projects/sengdokuwsj/files
 - State: beta, inactive since 2008
+- Download: https://sourceforge.net/projects/sengdokuwsj/files
 - Code repository: (see download)
 - Code language: C++, Lua
 - Code license: MIT

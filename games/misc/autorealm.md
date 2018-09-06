@@ -3,8 +3,8 @@
 _Role-playing game mapping program._
 
 - Home: https://sourceforge.net/projects/autorealm/
-- Download: https://sourceforge.net/projects/autorealm/files
 - State: mature
+- Download: https://sourceforge.net/projects/autorealm/files
 - Keywords: tool
 - Code repository: https://git.code.sf.net/p/autorealm/code, https://git.code.sf.net/p/autorealm/http (+), https://git.code.sf.net/p/autorealm/delphi (+)
 - Code language: C++

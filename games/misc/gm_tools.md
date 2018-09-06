@@ -3,8 +3,8 @@
 _Game/Dungeon Master aid for role playing._
 
 - Home: https://sourceforge.net/projects/gm-tools/
-- Download: https://sourceforge.net/projects/gm-tools/files
 - State: beta, inactive since 2004
+- Download: https://sourceforge.net/projects/gm-tools/files
 - Keywords: tool
 - Code repository: https://gitlab.com/Trilarion/gm-tools.git (backup of cvs), http://gm-tools.cvs.sourceforge.net/ (cvs)
 - Code language: C++

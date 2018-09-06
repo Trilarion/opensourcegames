@@ -3,8 +3,8 @@
 _First person arena shooter, featuring parkour, impulse boosts, and more._
 
 - Home: https://www.redeclipse.net/
-- Download: https://www.redeclipse.net/download
 - State: mature
+- Download: https://www.redeclipse.net/download
 - Keywords: shooter
 - Code repository: https://github.com/red-eclipse/base.git
 - Code language: C++

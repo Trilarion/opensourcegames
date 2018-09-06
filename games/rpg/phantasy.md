@@ -3,8 +3,8 @@
 _Oldschool 90' sega genesis style._
 
 - Home: https://sourceforge.net/projects/phantasy/
-- Download: https://sourceforge.net/projects/phantasy/files
 - State: beta, inactive since 2013
+- Download: https://sourceforge.net/projects/phantasy/files
 - Code repository: http://hg.code.sf.net/p/phantasy/code (hg)
 - Code language: C++
 - Code license: GPL-3.0

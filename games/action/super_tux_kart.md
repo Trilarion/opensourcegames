@@ -3,8 +3,8 @@
 _Kart racing game._
 
 - Home: https://supertuxkart.net/Main_Page, https://sourceforge.net/projects/supertuxkart/
-- Download: https://supertuxkart.net/Download
 - State: mature
+- Download: https://supertuxkart.net/Download
 - Keywords: racing
 - Code repository: https://github.com/supertuxkart/stk-code.git, https://sourceforge.net/p/supertuxkart/code/HEAD/tree/ (svn)
 - Code language: C++, C

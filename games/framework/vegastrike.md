@@ -4,8 +4,8 @@ _Vega Strike is a first-person space trading and combat simulator._
 
 - Home: http://vegastrike.sourceforge.net/
 - Media: https://en.wikipedia.org/wiki/Vega_Strike
-- Download: http://vegastrike.sourceforge.net/getfiles/
 - State: mature
+- Download: http://vegastrike.sourceforge.net/getfiles/
 - Code repository: https://github.com/vegastrike/Vega-Strike-Engine-Source.git (https://github.com/vegastrike mirror), https://sourceforge.net/p/vegastrike/code/HEAD/tree/ (svn) 
 - Code language: C++
 - Code license: GPL-2.0

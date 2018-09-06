@@ -3,8 +3,8 @@
 _A turn based RPG with deep tactical combat and character customization._
 
 - Home: https://sourceforge.net/projects/hale/, https://sourceforge.net/p/hale/wiki/Home/, http://halegame.com
-- Download: https://sourceforge.net/projects/hale/files/
 - State: beta, inactive since 2014
+- Download: https://sourceforge.net/projects/hale/files/
 - Keywords: TB
 - Code repository: https://github.com/Grokmoo/hale.git, https://sourceforge.net/p/hale/code/HEAD/tree/ (svn)
 - Code language: Java

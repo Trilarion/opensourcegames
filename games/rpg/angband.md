@@ -4,8 +4,8 @@ _Single-player dungeon exploration game._
 
 - Home: http://rephial.org/
 - Media: <https://en.wikipedia.org/wiki/Angband_(video_game)>
-- Download: http://rephial.org/release/
 - State: mature
+- Download: http://rephial.org/release/
 - Keywords: roguelike
 - Code repository: https://github.com/angband/angband.git
 - Code language: C

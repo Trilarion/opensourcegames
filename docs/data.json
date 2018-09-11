@@ -43,7 +43,7 @@
    "Strategy",
    "beta / inactive since 2008",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/aplanetsrevenge.git\">Source</a> - Python - GPL-3.0"
+   "<a href=\"https://gitlab.com/osgames/aplanetsrevenge.git\">Source</a> - Python - GPL-3.0"
   ],
   [
    "AI Wars (<a href=\"https://code.google.com/archive/p/aiwars/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/ai_wars.md\">entry</a>)",
@@ -142,7 +142,7 @@
    "Strategy",
    "mature / inactive since 2003",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/antichess.git\">Source</a> - Java - MIT"
+   "<a href=\"https://gitlab.com/osgames/antichess.git\">Source</a> - Java - MIT"
   ],
   [
    "Ardentryst (<a href=\"http://www.jordantrudgett.com/ardentryst/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/ardentryst.md\">entry</a>)",
@@ -178,7 +178,7 @@
    "Strategy",
    "mature / inactive since 2007",
    "",
-   "<a href=\"https://github.com/Trilarion/armies.git\">Source</a> - C++ - GPL-3.0"
+   "<a href=\"https://gitlab.com/osgames/armies.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
    "Arx Libertatis (<a href=\"http://arx-libertatis.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/arx_libertatis.md\">entry</a>)",
@@ -241,7 +241,7 @@
    "Strategy",
    "mature / inactive since 2008",
    "TBS",
-   "<a href=\"https://gitlab.com/Trilarion/attal.git\">Source</a> - C++ - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/attal.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "AutoREALM (<a href=\"https://sourceforge.net/projects/autorealm/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/misc/autorealm.md\">entry</a>)",
@@ -259,7 +259,7 @@
    "Role Playing",
    "beta / inactive since 2008",
    "roguelike",
-   "<a href=\"https://github.com/Trilarion/avanor.git\">Source</a> - C++, Lua - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/avanor.git\">Source</a> - C++, Lua - GPL-2.0"
   ],
   [
    "Battle for Wesnoth (<a href=\"http://www.wesnoth.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/wesnoth.md\">entry</a>)",
@@ -304,7 +304,7 @@
    "Role Playing",
    "beta / inactive since 2006",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/bmtactics.git\">Source</a> - JavaScript - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/bmtactics.git\">Source</a> - JavaScript - GPL-2.0"
   ],
   [
    "Birth of the Empires (<a href=\"http://bote2.square7.ch/en/wiki/Main_Page\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/birth_of_the_empires.md\">entry</a>)",
@@ -322,7 +322,7 @@
    "Strategy",
    "beta / inactive since 2012",
    "",
-   "<a href=\"https://github.com/Trilarion/blacknova.git\">Source</a> - PHP, JavaScript - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/blacknova.git\">Source</a> - PHP, JavaScript - GPL-2.0"
   ],
   [
    "Blender game engine (<a href=\"https://www.blender.org/features/game-creation/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/blender_game_engine.md\">entry</a>)",
@@ -340,7 +340,7 @@
    "Strategy",
    "beta / inactive since 2012",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/blitzkrieg.git\">Source</a> - Java - GPL-3.0"
+   "<a href=\"https://gitlab.com/osgames/blitzkrieg.git\">Source</a> - Java - GPL-3.0"
   ],
   [
    "Boost (C++ Libraries) (<a href=\"http://www.boost.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/library/boost.md\">entry</a>)",
@@ -367,7 +367,7 @@
    "Strategy",
    "beta / inactive since 2006",
    "",
-   "<a href=\"https://github.com/Trilarion/boson.git\">Source</a> - C++ - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/boson.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Boulder Dash (<a href=\"https://github.com/valeriansaliou/boulder-dash\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/boulder_dash.md\">entry</a>)",
@@ -502,7 +502,7 @@
    "Strategy",
    "beta / inactive since 2003",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/civil.git\">Source</a> - Python - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/civil.git\">Source</a> - Python - GPL-2.0"
   ],
   [
    "Classic Blades of Exile (<a href=\"http://www.spiderwebsoftware.com/blades/opensource.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/blades_of_exile.md\">entry</a>)",
@@ -538,7 +538,7 @@
    "Strategy",
    "beta / inactive since 2004",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/coltoo.git\">Source</a> - C++ - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/coltoo.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Colossal Cave Adventure (<a href=\"https://github.com/brandon-rhodes/python-adventure\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/adventure/colossal_cave.md\">entry</a>)",
@@ -565,7 +565,7 @@
    "Strategy",
    "mature / inactive since 2012",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/conquests.git\">Source</a> - C++ - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/conquests.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Corsix Theme Hospital (<a href=\"http://forums.corsixth.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/theme_hospital.md\">entry</a>)",
@@ -583,7 +583,7 @@
    "Strategy",
    "mature / inactive since 2010",
    "TBS",
-   "<a href=\"https://gitlab.com/Trilarion/crimson.git\">Source</a> - C++ - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/crimson.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Crossfire (<a href=\"http://crossfire.real-time.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/crossfire.md\">entry</a>)",
@@ -601,7 +601,7 @@
    "Strategy",
    "beta / inactive since 2009",
    "",
-   "<a href=\"https://github.com/Trilarion/crownandcutlass.git\">Source</a> - C++ - Custom"
+   "<a href=\"https://gitlab.com/osgames/crownandcutlass.git\">Source</a> - C++ - Custom"
   ],
   [
    "Crypto++ (<a href=\"https://cryptopp.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/library/crypto.md\">entry</a>)",
@@ -664,7 +664,7 @@
    "Strategy",
    "mature / inactive since 2009",
    "RTS",
-   "<a href=\"https://github.com/Trilarion/dark-oberon.git\">Source</a> - C++ - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/dark-oberon.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Dash Engine (<a href=\"https://dash.circularstudios.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/dash.md\">entry</a>)",
@@ -700,7 +700,7 @@
    "Tools & Manuals",
    "mature / inactive since 2014",
    "tool",
-   "<a href=\"https://github.com/Trilarion/deity.git\">Source</a> - Python - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/deity.git\">Source</a> - Python - GPL-2.0"
   ],
   [
    "Deliantra (<a href=\"http://www.deliantra.net/index.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/deliantra.md\">entry</a>)",
@@ -736,7 +736,7 @@
    "Strategy",
    "beta / active",
    "browser",
-   "<a href=\"https://gitlab.com/Trilarion/devana.git\">Source</a> - PHP - zlib"
+   "<a href=\"https://gitlab.com/osgames/devana.git\">Source</a> - PHP - zlib"
   ],
   [
    "Digital: A Love Story (<a href=\"http://scoutshonour.com/digital/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/adventure/digital_a_love_story.md\">entry</a>)",
@@ -745,7 +745,7 @@
    "Adventure & Visual novels",
    "mature / active",
    "visual novel",
-   "<a href=\"https://gitlab.com/Trilarion/digitalalovestory.git\">Source</a> - Ren'py - CC-BY-NC-SA"
+   "<a href=\"https://gitlab.com/osgames/digitalalovestory.git\">Source</a> - Ren'py - CC-BY-NC-SA"
   ],
   [
    "Doxygen (<a href=\"http://www.stack.nl/~dimitri/doxygen/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/library/doxygen.md\">entry</a>)",
@@ -763,7 +763,7 @@
    "Adventure & Visual novels",
    "mature / inactive since 2010",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/dragon-history.git\">Source</a> - Pascal, Script - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/dragon-history.git\">Source</a> - Pascal, Script - GPL-2.0"
   ],
   [
    "Dragon Hunt (<a href=\"http://emhsoft.com/dh.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/dragon_hunt.md\">entry</a>)",
@@ -772,7 +772,7 @@
    "Role Playing",
    "mature / active",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/dragon-hunt.git\">Source</a> - Python - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/dragon-hunt.git\">Source</a> - Python - GPL-2.0"
   ],
   [
    "Drop Shock (<a href=\"http://www.tinywarz.com/index.php\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/drop_shock.md\">entry</a>)",
@@ -790,7 +790,7 @@
    "Strategy",
    "beta / inactive since 2009",
    "text-based",
-   "<a href=\"https://gitlab.com/Trilarion/duelcommander.git\">Source</a> - C - GPL-3.0"
+   "<a href=\"https://gitlab.com/osgames/duelcommander.git\">Source</a> - C - GPL-3.0"
   ],
   [
    "Dune Dynasty (<a href=\"http://dunedynasty.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/dune_dynasty.md\">entry</a>)",
@@ -844,7 +844,7 @@
    "Tools & Manuals",
    "beta / inactive since 2013",
    "tool",
-   "<a href=\"https://github.com/Trilarion/dungeonmap.git\">Source</a> - C++ - GPL-3.0"
+   "<a href=\"https://gitlab.com/osgames/dungeonmap.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
    "Dungeon Monkey Eternal (<a href=\"https://github.com/jwvhewitt/dmeternal\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/dungeon_monkey_eternal.md\">entry</a>)",
@@ -934,7 +934,7 @@
    "Role Playing",
    "beta / inactive since 2007",
    "",
-   "<a href=\"https://github.com/Trilarion/eos-game.git\">Source</a> - Python - MIT"
+   "<a href=\"https://gitlab.com/osgames/eos-game.git\">Source</a> - Python - MIT"
   ],
   [
    "Epiar (<a href=\"https://web.archive.org/web/20170123082605/http://epiar.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/epiar.md\">entry</a>)",
@@ -1159,7 +1159,7 @@
    "Simulation",
    "beta / inactive since 2009",
    "",
-   "<a href=\"https://github.com/Trilarion/freetrain.git\">Source</a> - C# - LGPL-2.1"
+   "<a href=\"https://gitlab.com/osgames/freetrain.git\">Source</a> - C# - LGPL-2.1"
   ],
   [
    "FreeType (<a href=\"https://www.freetype.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/library/freetype.md\">entry</a>)",
@@ -1258,7 +1258,7 @@
    "Tools & Manuals",
    "beta / inactive since 2004",
    "tool",
-   "<a href=\"https://gitlab.com/Trilarion/gm-tools.git\">Source</a> - C++ - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/gm-tools.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "GalaxyMage Redux (<a href=\"https://code.google.com/archive/p/galaxymageredux/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/galaxymage_redux.md\">entry</a>)",
@@ -1276,7 +1276,7 @@
    "Strategy",
    "mature / inactive since 2005",
    "TBS",
-   "<a href=\"https://gitlab.com/Trilarion/galaxyng.git\">Source</a> - C - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/galaxyng.git\">Source</a> - C - GPL-2.0"
   ],
   [
    "GameLV (<a href=\"http://piepe.lv/game-lv/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/adventure/gamelv.md\">entry</a>)",
@@ -1303,7 +1303,7 @@
    "Role Playing",
    "beta / inactive since 2004",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/gwiz.git\">Source</a> - C - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/gwiz.git\">Source</a> - C - GPL-2.0"
   ],
   [
    "GemRB (<a href=\"http://www.gemrb.org/wiki/doku.php?id=start\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/gemrb.md\">entry</a>)",
@@ -1330,7 +1330,7 @@
    "Strategy",
    "mature / inactive since 2009",
    "RTS",
-   "<a href=\"https://github.com/Trilarion/glest.git\">Source</a> - C++ - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/glest.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Globulation2 (<a href=\"https://globulation2.org/wiki/Main_Page\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/globulation2.md\">entry</a>)",
@@ -1375,7 +1375,7 @@
    "Strategy",
    "beta / inactive since 2001",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/civilwar.git\">Source</a> - C++ - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/civilwar.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "H-World (<a href=\"https://sourceforge.net/projects/h-world/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/h_world.md\">entry</a>)",
@@ -1384,7 +1384,7 @@
    "Engines & Frameworks",
    "beta / inactive since 2005",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/h-world.git\">Source</a> - C, Lua - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/h-world.git\">Source</a> - C, Lua - GPL-2.0"
   ],
   [
    "Hale (<a href=\"https://sourceforge.net/projects/hale/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/hale.md\">entry</a>)",
@@ -1456,7 +1456,7 @@
    "Strategy",
    "beta / inactive since 2014",
    "",
-   "<a href=\"https://github.com/Trilarion/howc.git\">Source</a> - Python - GPL-3.0"
+   "<a href=\"https://gitlab.com/osgames/howc.git\">Source</a> - Python - GPL-3.0"
   ],
   [
    "Hex Game (<a href=\"https://sourceforge.net/projects/hexgamealpha/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/hexgame.md\">entry</a>)",
@@ -1483,7 +1483,7 @@
    "Role Playing",
    "beta / inactive since 2013",
    "action-rpg",
-   "<a href=\"https://gitlab.com/Trilarion/lechemindeladam.git\">Source</a> - C++ - GPL-3.0"
+   "<a href=\"https://gitlab.com/osgames/lechemindeladam.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
    "Ilarion (<a href=\"http://illarion.org/general/de_startpage.php\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/ilarion.md\">entry</a>)",
@@ -1537,7 +1537,7 @@
    "Strategy",
    "beta / inactive since 2006",
    "",
-   "<a href=\"https://github.com/Trilarion/jquest.git\">Source</a> - Java - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/jquest.git\">Source</a> - Java - GPL-2.0"
   ],
   [
    "JSettlers (<a href=\"https://sourceforge.net/projects/jsettlers/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/jsettlers.md\">entry</a>)",
@@ -1555,7 +1555,7 @@
    "Tools & Manuals",
    "mature / inactive since 2011",
    "tool",
-   "<a href=\"https://gitlab.com/Trilarion/janag.git\">Source</a> - Java - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/janag.git\">Source</a> - Java - GPL-2.0"
   ],
   [
    "Jagged Alliance 2 Stracciatella (<a href=\"https://ja2-stracciatella.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/jagged_alliance2.md\">entry</a>)",
@@ -1618,7 +1618,7 @@
    "Role Playing",
    "beta / inactive since 2011",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/koboldsquest2.git\">Source</a> - Python - LGPL-3.0"
+   "<a href=\"https://gitlab.com/osgames/koboldsquest2.git\">Source</a> - Python - LGPL-3.0"
   ],
   [
    "LGeneral (<a href=\"http://lgames.sourceforge.net/LGeneral/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/lgeneral.md\">entry</a>)",
@@ -1645,7 +1645,7 @@
    "Role Playing",
    "beta / inactive since 2010",
    "",
-   "<a href=\"https://github.com/Trilarion/low.git\">Source</a> - C++ - LGPL-3.0"
+   "<a href=\"https://gitlab.com/osgames/low.git\">Source</a> - C++ - LGPL-3.0"
   ],
   [
    "Land of Fire (<a href=\"http://landoffire.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/land_of_fire.md\">entry</a>)",
@@ -1681,7 +1681,7 @@
    "Simulation",
    "mature / inactive since 2005",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/lincity.git\">Source</a> - C - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/lincity.git\">Source</a> - C - GPL-2.0"
   ],
   [
    "LinCity-NG (<a href=\"https://github.com/lincity-ng\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/simulation/lincity_ng.md\">entry</a>)",
@@ -1699,7 +1699,7 @@
    "Role Playing",
    "mature / inactive since 2006",
    "roguelike",
-   "<a href=\"https://gitlab.com/Trilarion/dungeoncrawl.git\">Source</a> - C - Custom"
+   "<a href=\"https://gitlab.com/osgames/dungeoncrawl.git\">Source</a> - C - Custom"
   ],
   [
    "Linwarrior 3D (<a href=\"http://www.hackcraft.de/games/linwarrior_3d/index.htm\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/linwarrior.md\">entry</a>)",
@@ -1771,7 +1771,7 @@
    "Strategy",
    "beta / inactive since 2003",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/machinations.git\">Source</a> - C++ - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/machinations.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Magarena (<a href=\"http://magarena.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/magarena.md\">entry</a>)",
@@ -1807,7 +1807,7 @@
    "Strategy",
    "beta / inactive since 2008",
    "TBS",
-   "<a href=\"https://github.com/Trilarion/mars.git\">Source</a> - C++ - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/mars.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "MechCommander 2 Omnitech (<a href=\"https://github.com/Echelon9/mechcommander2-open\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/mechcommander2_omnitech.md\">entry</a>)",
@@ -1852,7 +1852,7 @@
    "Strategy",
    "beta / inactive since 2010",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/mercenarycommander.git\">Source</a> - Java - 3-clause BSD"
+   "<a href=\"https://gitlab.com/osgames/mercenarycommander.git\">Source</a> - Java - 3-clause BSD"
   ],
   [
    "Meridian 59 (<a href=\"http://meridian59.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/meridian59.md\">entry</a>)",
@@ -1879,7 +1879,7 @@
    "Strategy",
    "beta / inactive since 2006",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/metalmech.git\">Source</a> - PHP - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/metalmech.git\">Source</a> - PHP - GPL-2.0"
   ],
   [
    "Micropolis (<a href=\"http://micropolisonline.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/simulation/micropolis.md\">entry</a>)",
@@ -1915,7 +1915,7 @@
    "Role Playing",
    "mature / active",
    "",
-   "<a href=\"https://github.com/Trilarion/monstrosity.git\">Source</a> - Python - MIT"
+   "<a href=\"https://gitlab.com/osgames/monstrosity.git\">Source</a> - Python - MIT"
   ],
   [
    "Moria (<a href=\"https://umoria.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/moria.md\">entry</a>)",
@@ -1942,7 +1942,7 @@
    "Adventure & Visual novels",
    "mature / inactive since 2013",
    "visual novel",
-   "<a href=\"https://gitlab.com/Trilarion/murderpd.git\">Source</a> - C++ - GPL-3.0"
+   "<a href=\"https://gitlab.com/osgames/murderpd.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
    "NLarn (<a href=\"https://nlarn.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/nlarn.md\">entry</a>)",
@@ -2005,7 +2005,7 @@
    "Role Playing",
    "mature / inactive since 2009",
    "educational",
-   "<a href=\"https://gitlab.com/Trilarion/orient.git\">Source</a> - C#, Java - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/orient.git\">Source</a> - C#, Java - GPL-2.0"
   ],
   [
    "Octaforge (<a href=\"https://octaforge.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/octaforge.md\">entry</a>)",
@@ -2095,7 +2095,7 @@
    "Engines & Frameworks",
    "beta / inactive since 2014",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/openrpgmaker.git\">Source</a> - C++ - GPL-3.0"
+   "<a href=\"https://gitlab.com/osgames/openrpgmaker.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
    "Open Rails (<a href=\"http://openrails.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/simulation/open_rails.md\">entry</a>)",
@@ -2293,7 +2293,7 @@
    "Strategy",
    "beta / inactive since 2000",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/kursk.git\">Source</a> - C++ - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/kursk.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Orx (<a href=\"http://orx-project.org/about\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/orx.md\">entry</a>)",
@@ -2410,7 +2410,7 @@
    "Strategy",
    "mature / inactive since 2003",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/pizza-business.git\">Source</a> - C++ - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/pizza-business.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "PlaneShift (<a href=\"http://www.planeshift.it/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/planeshift.md\">entry</a>)",
@@ -2428,7 +2428,7 @@
    "Strategy",
    "beta / inactive since 2003",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/planets.git\">Source</a> - Java - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/planets.git\">Source</a> - Java - GPL-2.0"
   ],
   [
    "Polis (<a href=\"https://code.google.com/archive/p/polisgame/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/polis.md\">entry</a>)",
@@ -2464,7 +2464,7 @@
    "Strategy",
    "mature / inactive since 2004",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/promisance-cvs.git\">Source</a> - PHP - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/promisance-cvs.git\">Source</a> - PHP - GPL-2.0"
   ],
   [
    "Pthreads-win32 (<a href=\"https://sourceware.org/pthreads-win32/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/library/pthreads_win32.md\">entry</a>)",
@@ -2482,7 +2482,7 @@
    "Tools & Manuals",
    "mature / active",
    "tool",
-   "<a href=\"https://gitlab.com/Trilarion/pymapper.git\">Source</a> - Python - GPL-3.0"
+   "<a href=\"https://gitlab.com/osgames/pymapper.git\">Source</a> - Python - GPL-3.0"
   ],
   [
    "Qt (<a href=\"https://www.qt.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/qt.md\">entry</a>)",
@@ -2518,7 +2518,7 @@
    "Tools & Manuals",
    "beta / inactive since 2006",
    "tool",
-   "<a href=\"https://github.com/Trilarion/rpdungeon.git\">Source</a> - Pascal - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/rpdungeon.git\">Source</a> - Pascal - GPL-2.0"
   ],
   [
    "Radakan (<a href=\"https://web.archive.org/web/20170915004555/http://radakan.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/radakan.md\">entry</a>)",
@@ -2527,7 +2527,7 @@
    "Role Playing",
    "beta / inactive since 2014",
    "SP",
-   "<a href=\"https://github.com/Trilarion/radakan.git\">Source</a> - Python - Custom"
+   "<a href=\"https://gitlab.com/osgames/radakan.git\">Source</a> - Python - Custom"
   ],
   [
    "Ragel (<a href=\"http://www.colm.net/open-source/ragel/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/library/ragel.md\">entry</a>)",
@@ -2572,7 +2572,7 @@
    "Role Playing",
    "mature / inactive since 2006",
    "remake, roguelike",
-   "<a href=\"https://gitlab.com/Trilarion/rogueclone.git\">Source</a> - C - 3-clause BSD"
+   "<a href=\"https://gitlab.com/osgames/rogueclone.git\">Source</a> - C - 3-clause BSD"
   ],
   [
    "Roguish (<a href=\"https://github.com/CamHenlin/Roguish\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/roguish.md\">entry</a>)",
@@ -2635,7 +2635,7 @@
    "Engines & Frameworks",
    "beta / inactive since 2014",
    "",
-   "<a href=\"https://github.com/Trilarion/sge2d.git\">Source</a> - C - MIT"
+   "<a href=\"https://gitlab.com/osgames/sge2d.git\">Source</a> - C - MIT"
   ],
   [
    "SWIG (<a href=\"http://swig.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/library/swig.md\">entry</a>)",
@@ -2698,7 +2698,7 @@
    "Adventure & Visual novels",
    "mature / active",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/sentient-storage.git\">Source</a> - Python - Public Domain"
+   "<a href=\"https://gitlab.com/osgames/sentient-storage.git\">Source</a> - Python - Public Domain"
   ],
   [
    "Settlers III remake (<a href=\"https://github.com/jsettlers/settlers-remake\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/settlers_iii_remake.md\">entry</a>)",
@@ -2716,7 +2716,7 @@
    "Strategy",
    "mature / inactive since 2007",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/sharpkonquest.git\">Source</a> - C# - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/sharpkonquest.git\">Source</a> - C# - GPL-2.0"
   ],
   [
    "Silvertree (<a href=\"https://code.google.com/archive/p/silvertree/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/silvertree.md\">entry</a>)",
@@ -2779,7 +2779,7 @@
    "Strategy",
    "mature / inactive since 2011",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/skrupel.git\">Source</a> - PHP, JavaScript - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/skrupel.git\">Source</a> - PHP, JavaScript - GPL-2.0"
   ],
   [
    "Slash'EM (<a href=\"http://slashem.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/slash_em.md\">entry</a>)",
@@ -2797,7 +2797,7 @@
    "Strategy",
    "beta / inactive since 2010",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/slaygame.git\">Source</a> - Java - GPL-3.0"
+   "<a href=\"https://gitlab.com/osgames/slaygame.git\">Source</a> - Java - GPL-3.0"
   ],
   [
    "Smash (<a href=\"http://smash.gouchon.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/smash.md\">entry</a>)",
@@ -2860,7 +2860,7 @@
    "Strategy",
    "beta / inactive since 2008",
    "",
-   "<a href=\"https://github.com/Trilarion/spaceopera.git\">Source</a> - Java - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/spaceopera.git\">Source</a> - Java - GPL-2.0"
   ],
   [
    "Space Station 13 (<a href=\"https://spacestation13.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/space_station_13.md\">entry</a>)",
@@ -2914,7 +2914,7 @@
    "Role Playing",
    "mature / inactive since 2005",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/spicetrade.git\">Source</a> - Java - LGPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/spicetrade.git\">Source</a> - Java - LGPL-2.0"
   ],
   [
    "Spring RTS engine (<a href=\"https://springrts.com/wiki/Main_Page\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/spring.md\">entry</a>)",
@@ -3031,7 +3031,7 @@
    "Strategy",
    "beta / inactive since 2004",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/tbots.git\">Source</a> - C - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/tbots.git\">Source</a> - C - GPL-2.0"
   ],
   [
    "TVTower (<a href=\"http://www.tvgigant.de/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/tvtower.md\">entry</a>)",
@@ -3076,7 +3076,7 @@
    "Role Playing",
    "beta / inactive since 2003",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/theclans.git\">Source</a> - C - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/theclans.git\">Source</a> - C - GPL-2.0"
   ],
   [
    "The Endless Dungeons (<a href=\"https://sourceforge.net/projects/endlessdungeons/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/endless_dungeons.md\">entry</a>)",
@@ -3085,7 +3085,7 @@
    "Role Playing",
    "mature / inactive since 2015",
    "",
-   "<a href=\"https://github.com/Trilarion/endlessdungeons.git\">Source</a> - C - CC BY-NC-SA 2.0"
+   "<a href=\"https://gitlab.com/osgames/endlessdungeons.git\">Source</a> - C - CC BY-NC-SA 2.0"
   ],
   [
    "The Epic of Heroes (<a href=\"https://sourceforge.net/projects/epicheroes/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/epic_of_heroes.md\">entry</a>)",
@@ -3112,7 +3112,7 @@
    "Role Playing",
    "beta / active",
    "",
-   "<a href=\"https://github.com/Trilarion/jewelhunt.git\">Source</a> - Java - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/jewelhunt.git\">Source</a> - Java - GPL-2.0"
   ],
   [
    "Thousand Parsec (<a href=\"http://www.thousandparsec.net/tp/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/thousand_parsec.md\">entry</a>)",
@@ -3130,7 +3130,7 @@
    "Role Playing",
    "beta / inactive since 2013",
    "",
-   "<a href=\"https://github.com/Trilarion/ura-game.git\">Source</a> - C++ - GPL-3.0"
+   "<a href=\"https://gitlab.com/osgames/ura-game.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
    "TripleA (<a href=\"http://triplea-game.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/triplea.md\">entry</a>)",
@@ -3166,7 +3166,7 @@
    "Action/Arcade",
    "beta / inactive since 2001",
    "racing",
-   "<a href=\"https://gitlab.com/Trilarion/tuxracer.git\">Source</a> - C - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/tuxracer.git\">Source</a> - C - GPL-2.0"
   ],
   [
    "Tuxemon (<a href=\"https://www.tuxemon.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/tuxemon.md\">entry</a>)",
@@ -3220,7 +3220,7 @@
    "Role Playing",
    "beta / inactive since 2002",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/umbra\">Source</a> - Python - Custom"
+   "<a href=\"https://gitlab.com/osgames/umbra\">Source</a> - Python - Custom"
   ],
   [
    "UnNetHack (<a href=\"https://unnethack.wordpress.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/unnethack.md\">entry</a>)",
@@ -3238,7 +3238,7 @@
    "Role Playing",
    "beta / inactive since 2007",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/uwadv.git\">Source</a> - C++, Lua - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/uwadv.git\">Source</a> - C++, Lua - GPL-2.0"
   ],
   [
    "Unknown Horizons (<a href=\"http://unknown-horizons.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/unknown_horizons.md\">entry</a>)",
@@ -3292,7 +3292,7 @@
    "Role Playing",
    "beta / inactive since 2013",
    "",
-   "<a href=\"https://github.com/Trilarion/vegatrek.git\">Source</a> - Python - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/vegatrek.git\">Source</a> - Python - GPL-2.0"
   ],
   [
    "WAtomic (<a href=\"https://sourceforge.net/projects/watomic/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/watomic.md\">entry</a>)",
@@ -3301,7 +3301,7 @@
    "Strategy",
    "mature / inactive since 2005",
    "remake",
-   "<a href=\"https://gitlab.com/Trilarion/watomic.git\">Source</a> - Pascal - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/watomic.git\">Source</a> - Pascal - GPL-2.0"
   ],
   [
    "War Of Kingdom (<a href=\"http://www.freeors.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/war_of_kingdom.md\">entry</a>)",
@@ -3319,7 +3319,7 @@
    "Strategy",
    "mature / inactive since 2003",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/wargamer.git\">Source</a> - C++ - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/wargamer.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Wargus (<a href=\"http://wargus.stratagus.com/index.shtml\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/wargus.md\">entry</a>)",
@@ -3391,7 +3391,7 @@
    "Strategy",
    "beta / inactive since 2009",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/worldofheroes.git\">Source</a> - Python - 3-clause BSD"
+   "<a href=\"https://gitlab.com/osgames/worldofheroes.git\">Source</a> - Python - 3-clause BSD"
   ],
   [
    "World of Phaos (<a href=\"http://worldofphaos.com/index.php?site=online_rpg\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/world_of_phaos.md\">entry</a>)",
@@ -3400,7 +3400,7 @@
    "Role Playing",
    "mature / inactive since 2011",
    "online",
-   "<a href=\"https://gitlab.com/Trilarion/phaosrpg.git\">Source</a> - PHP - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/phaosrpg.git\">Source</a> - PHP - GPL-2.0"
   ],
   [
    "WorldForge (<a href=\"https://www.worldforge.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/worldforge.md\">entry</a>)",
@@ -3427,7 +3427,7 @@
    "Strategy",
    "beta / inactive since 2011",
    "TBS",
-   "<a href=\"https://github.com/Trilarion/xforceffd.git\">Source</a> - Pascal - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/xforceffd.git\">Source</a> - Pascal - GPL-2.0"
   ],
   [
    "XArchon (<a href=\"http://xarchon.seul.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/xarchon.md\">entry</a>)",
@@ -3436,7 +3436,7 @@
    "Strategy",
    "beta / inactive since 2003",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/xarchon.git\">Source</a> - C, C++ - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/xarchon.git\">Source</a> - C, C++ - GPL-2.0"
   ],
   [
    "XSera (<a href=\"https://github.com/prophile/xsera\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/xsera.md\">entry</a>)",
@@ -3472,7 +3472,7 @@
    "Strategy",
    "mature / inactive since 2005",
    "",
-   "<a href=\"https://gitlab.com/Trilarion/xconq.git\">Source</a> - C++ - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/xconq.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Xenowar (<a href=\"http://xenowar.net\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/xenowar.md\">entry</a>)",
@@ -3499,7 +3499,7 @@
    "Role Playing",
    "mature / inactive since 2005",
    "roguelike",
-   "<a href=\"https://gitlab.com/Trilarion/zangband.git\">Source</a> - C - Custom"
+   "<a href=\"https://gitlab.com/osgames/zangband.git\">Source</a> - C - Custom"
   ],
   [
    "ZGameEditor (<a href=\"http://www.zgameeditor.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/zgameeditor.md\">entry</a>)",

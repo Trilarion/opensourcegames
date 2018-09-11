@@ -314,11 +314,22 @@ def parse_entry(content):
         # store in info
         info[field.lower()] = v
 
-    # state must contain either beta or mature but not both
+    # state (essential field) must contain either beta or mature but not both, but at least one
     v = info['state']
+    for t in v:
+        if t != 'beta' and t != 'mature' and not t.startswith('inactive since '):
+            print('Error: Unknown state tage "{}" in entry "{}"'.format(t, info['title']))
+            return info # so that the rest can run through
     if 'beta' in v != 'mature' in v:
-        print('State must be one of <"beta", "mature"> in entry "{}"'.format(info['title']))
+        print('Error: State must be one of <"beta", "mature"> in entry "{}"'.format(info['title']))
         return info # so that the rest can run through
+
+    # extract inactive year
+    phrase = 'inactive since '
+    inactive_year = [x[len(phrase):] for x in v if x.startswith(phrase)]
+    assert len(inactive_year) <= 1
+    if inactive_year:
+        info['inactive'] = inactive_year[0]
 
     # urls in home, download, play and code repositories must start with http or https (or git) and should not contain space
     for field in ['home', 'download', 'play', 'code repository']:
@@ -335,12 +346,13 @@ def parse_entry(content):
             if repo.startswith('https://github.com/') and not repo.endswith('.git'):
                 print('Github repo {} in entry "{}" should end on .git.'.format(repo, info['title']))
 
-    # extract inactive
-    phrase = 'inactive since '
-    inactive_year = [x[len(phrase):] for x in info['state'] if x.startswith(phrase)]
-    assert len(inactive_year) <= 1
-    if inactive_year:
-        info['inactive'] = inactive_year[0]
+    # check valid platform tags
+    valid_platforms = ('Android', 'Windows', 'Linux', 'macOS', 'Browser')
+    if 'platform' in info:
+        for platform in info['platform']:
+            if platform not in valid_platforms:
+                print('Error: invalid platform tag "{}" in entry "{}"'.format(platform, info['title']))
+                return info  # so that the rest can run through
 
     return info
 
@@ -550,6 +562,23 @@ def generate_statistics():
             c_cpp_project_not_cmake.append(info['title'])
     c_cpp_project_not_cmake.sort()
     statistics += '##### C and C++ projects with a build system different from CMake ({})\n\n'.format(len(c_cpp_project_not_cmake)) + ', '.join(c_cpp_project_not_cmake) + '\n\n'
+
+    # Platform
+    statistics += '## Platform\n\n'
+    field = 'platform'
+
+    # get all platforms together
+    platforms = []
+    for info in infois:
+        if field in info:
+            platforms.extend(info[field])
+
+    unique_platforms = set(platforms)
+    unique_platforms = [(l, platforms.count(l) / len(platforms)) for l in unique_platforms]
+    unique_platforms.sort(key=lambda x: x[0]) # first sort by name
+    unique_platforms.sort(key=lambda x: -x[1]) # then sort by occurrence (highest occurrence first)
+    unique_platforms = ['- {} ({:.1f}%)'.format(x[0], x[1]*100) for x in unique_platforms]
+    statistics += '##### Platforms frequency\n\n' + '\n'.join(unique_platforms) + '\n\n'
 
     with open(statistics_path, mode='w', encoding='utf-8') as f:
         f.write(statistics)

@@ -7,7 +7,7 @@ _Racing game featuring Tux, the Linux Penguin._
 - State: beta, inactive since 2001
 - Download: https://sourceforge.net/projects/tuxracer/files/
 - Keywords: racing
-- Code repository: https://gitlab.com/Trilarion/tuxracer.git (backup of cvs), http://tuxracer.cvs.sourceforge.net/ (cvs)
+- Code repository: https://gitlab.com/osgames/tuxracer.git (backup of cvs), http://tuxracer.cvs.sourceforge.net/ (cvs)
 - Code language: C
 - Code license: GPL-2.0
 

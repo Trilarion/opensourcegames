@@ -6,7 +6,7 @@ _Java random name generator for role-games, authors, and the like._
 - State: mature, inactive since 2011
 - Download: https://sourceforge.net/projects/janag.berlios/files
 - Keywords: tool
-- Code repository: https://gitlab.com/Trilarion/janag.git (copy of source download)
+- Code repository: https://gitlab.com/osgames/janag.git (copy of source download)
 - Code language: Java
 - Code license: GPL-2.0
 

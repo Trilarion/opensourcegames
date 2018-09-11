@@ -6,7 +6,7 @@ _Browser strategy game._
 - State: beta
 - Download: https://sourceforge.net/projects/devana/files
 - Keywords: browser
-- Code repository: https://gitlab.com/Trilarion/devana.git (snapshot of source releases)
+- Code repository: https://gitlab.com/osgames/devana.git (snapshot of source releases)
 - Code language: PHP
 - Code license: zlib
 

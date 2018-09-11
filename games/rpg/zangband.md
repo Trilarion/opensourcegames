@@ -7,7 +7,7 @@ _Roguelike computer role playing game available for almost any computer and oper
 - State: mature, inactive since 2005
 - Download: https://sourceforge.net/projects/zangband/files/
 - Keywords: roguelike
-- Code repository: https://gitlab.com/Trilarion/zangband.git (backup of cvs), http://zangband.cvs.sourceforge.net/ (cvs)
+- Code repository: https://gitlab.com/osgames/zangband.git (backup of cvs), http://zangband.cvs.sourceforge.net/ (cvs)
 - Code language: C
 - Code license: Custom (Modifications allowed?)
 

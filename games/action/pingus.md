@@ -5,7 +5,7 @@ _Lemmings(tm)-like puzzle game._
 - Home: https://pingus.seul.org/index.html
 - State: mature
 - Download: https://pingus.seul.org/download.html
-- Platform: Linux, Mac, Windows
+- Platform: Windows, Linux, macOS
 - Keywords: puzzle
 - Code repository: https://gitlab.com/pingus/pingus.git
 - Code language: C++

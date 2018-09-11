@@ -5,7 +5,7 @@ _C# implementation of the classic Linux game "Konquest"._
 - Home: https://sourceforge.net/projects/sharpkonquest/
 - State: mature, inactive since 2007
 - Download: https://sourceforge.net/projects/sharpkonquest/files/
-- Code repository: https://gitlab.com/Trilarion/sharpkonquest.git (snapshot of source releases)
+- Code repository: https://gitlab.com/osgames/sharpkonquest.git (snapshot of source releases)
 - Code language: C#
 - Code license: GPL-2.0
 

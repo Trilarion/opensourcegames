@@ -6,7 +6,7 @@ _Turn based command line fighting game for Windows and Unix-like systems._
 - State: beta, inactive since 2009
 - Download: https://sourceforge.net/projects/duelcommander/files
 - Keywords: text-based
-- Code repository: https://gitlab.com/Trilarion/duelcommander.git (snapshot of source releases)
+- Code repository: https://gitlab.com/osgames/duelcommander.git (snapshot of source releases)
 - Code language: C
 - Code license: GPL-3.0
 

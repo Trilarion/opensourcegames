@@ -6,7 +6,7 @@ _Reproduction of Rogue._
 - State: mature, inactive since 2006
 - Download: https://sourceforge.net/projects/rogueclone/files/rogue%20clone/
 - Keywords: remake, roguelike
-- Code repository: https://gitlab.com/Trilarion/rogueclone.git (backup of cvs), https://sourceforge.net/p/rogueclone/code/ (cvs)
+- Code repository: https://gitlab.com/osgames/rogueclone.git (backup of cvs), https://sourceforge.net/p/rogueclone/code/ (cvs)
 - Code language: C
 - Code license: 3-clause BSD
 

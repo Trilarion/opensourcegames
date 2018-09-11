@@ -6,7 +6,7 @@ _Lincity is a city simulation game,_
 - Media: https://en.wikipedia.org/wiki/Lincity
 - State: mature, inactive since 2005
 - Download: (see home)
-- Code repository: https://gitlab.com/Trilarion/lincity.git (backup of cvs), http://lincity.cvs.sourceforge.net/ (cvs)
+- Code repository: https://gitlab.com/osgames/lincity.git (backup of cvs), http://lincity.cvs.sourceforge.net/ (cvs)
 - Code language: C
 - Code license: GPL-2.0
 

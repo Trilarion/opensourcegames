@@ -3022,7 +3022,7 @@
    "Strategy",
    "beta / inactive since 2014",
    "",
-   "<a href=\"https://bitbucket.org/mstrobel/supremacy\">Source</a> - C# - Ms-RL"
+   "<a href=\"https://bitbucket.org/mstrobel/supremacy/src\">Source</a> - C# - Ms-RL"
   ],
   [
    "T-Bots (<a href=\"https://sourceforge.net/projects/tbots/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/t_bots.md\">entry</a>)",
@@ -3383,6 +3383,15 @@
    "mature / active",
    "online",
    "<a href=\"http://git.pond.sub.org/empserver\">Source</a> - C - GPL-3.0"
+  ],
+  [
+   "World Builder (<a href=\"https://sourceforge.net/projects/worldbuilder/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/misc/world_builder.md\">entry</a>)",
+   "Randomly generates scientifically-plausible solar systems,..",
+   "<a href=\"https://sourceforge.net/projects/worldbuilder/files/\">Link</a>",
+   "Tools & Manuals",
+   "mature / inactive since 2007",
+   "",
+   "<a href=\"https://gitlab.com/Trilarion/worldbuilder.git\">Source</a> - Visual Basic - GPL-2.0"
   ],
   [
    "World of Heroes (<a href=\"https://sourceforge.net/projects/worldofheroes/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/world_of_heroes.md\">entry</a>)",

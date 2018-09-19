@@ -102,7 +102,6 @@
 - **[UnNetHack](unnethack.md)** (C, Custom, mature)
 - **[Underworld Adventures](underworld_adventures.md)** (C++, Lua, GPL-2.0, beta, inactive since 2007)
 - **[Valyria Tear](valyria_tear.md)** (Lua, C++, C, GPL, mature)
-- **[VegaTrek](vegatrek.md)** (Python, GPL-2.0, beta, inactive since 2013)
 - **[Waste's Edge](wastes_edge.md)** (Python, GPL-2.0, beta)
 - **[Witch Blast](witch_blast.md)** (C++, GPL-3.0, beta, inactive since 2015)
 - **[World of Phaos](world_of_phaos.md)** (PHP, GPL-2.0, mature, inactive since 2011)

@@ -1549,13 +1549,13 @@
    "<a href=\"https://github.com/jdmonin/JSettlers2.git\">Source</a> - Java - GPL-3.0"
   ],
   [
-   "JaNaG - Java Name Generator (<a href=\"https://sourceforge.net/projects/janag.berlios/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/misc/java_ng.md\">entry</a>)",
+   "JaNaG - Java Name Generator (<a href=\"https://www.beimax.de/janag/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/misc/java_ng.md\">entry</a>)",
    "Java random name generator for role-games, authors, and..",
-   "<a href=\"https://sourceforge.net/projects/janag.berlios/files\">Link</a>",
+   "<a href=\"https://www.beimax.de/fileadmin/downloads/janag/JaNaG_GUI.jar\">Link</a>",
    "Tools & Manuals",
-   "mature / inactive since 2011",
+   "mature / inactive since 2016",
    "tool",
-   "<a href=\"https://gitlab.com/osgames/janag.git\">Source</a> - Java - GPL-2.0"
+   "<a href=\"https://github.com/mkalus/janag.git\">Source</a> - Java - GPL-3.0"
   ],
   [
    "Jagged Alliance 2 Stracciatella (<a href=\"https://ja2-stracciatella.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/jagged_alliance2.md\">entry</a>)",
@@ -2458,15 +2458,6 @@
    "<a href=\"https://gitlab.com/EugeneLoza/Project-Helena\">Source</a> - Pascal - GPL-3.0"
   ],
   [
-   "Promisance (<a href=\"https://sourceforge.net/projects/promisance/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/promisance.md\">entry</a>)",
-   "Web-based turn-based strategy game.",
-   "<a href=\"https://sourceforge.net/projects/promisance/files\">Link</a>",
-   "Strategy",
-   "mature / inactive since 2004",
-   "",
-   "<a href=\"https://gitlab.com/osgames/promisance-cvs.git\">Source</a> - PHP - GPL-2.0"
-  ],
-  [
    "Pthreads-win32 (<a href=\"https://sourceware.org/pthreads-win32/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/library/pthreads_win32.md\">entry</a>)",
    "Implements a large subset of the POSIX standard threads..",
    "",
@@ -2537,6 +2528,15 @@
    "mature / active",
    "",
    "<a href=\"git://git.colm.net/ragel.git\">Source</a> - C++ - MIT"
+  ],
+  [
+   "Rails: an 18xx game system (<a href=\"https://rails.sourceforge.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/rails_18xx.md\">entry</a>)",
+   "Rails is a Java game engine intended to play any of the..",
+   "<a href=\"https://sourceforge.net/projects/rails/files/Rails/\">Link</a>",
+   "Strategy",
+   "mature / active",
+   "TBS",
+   "<a href=\"https://github.com/Rails-18xx/Rails.git\">Source</a> - Java - GPL-2.0"
   ],
   [
    "Red Eclipse (<a href=\"https://www.redeclipse.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/red_eclipse.md\">entry</a>)",
@@ -2698,7 +2698,7 @@
    "Adventure & Visual novels",
    "mature / active",
    "",
-   "<a href=\"https://gitlab.com/osgames/sentient-storage.git\">Source</a> - Python - Public Domain"
+   "<a href=\"https://github.com/blakeohare/pyweek-sentientstorage.git\">Source</a> - Python - Public Domain"
   ],
   [
    "Settlers III remake (<a href=\"https://github.com/jsettlers/settlers-remake\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/settlers_iii_remake.md\">entry</a>)",
@@ -2779,7 +2779,7 @@
    "Strategy",
    "mature / inactive since 2011",
    "",
-   "<a href=\"https://gitlab.com/osgames/skrupel.git\">Source</a> - PHP, JavaScript - GPL-2.0"
+   "<a href=\"https://github.com/kantoks/skrupel.git\">Source</a> - PHP, JavaScript - GPL-2.0"
   ],
   [
    "Slash'EM (<a href=\"http://slashem.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/slash_em.md\">entry</a>)",
@@ -3286,15 +3286,6 @@
    "<a href=\"https://github.com/vegastrike/Vega-Strike-Engine-Source.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
-   "VegaTrek (<a href=\"https://sourceforge.net/projects/vegatrek/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/vegatrek.md\">entry</a>)",
-   "Open source Star Trek based game (based on VegaStrike..",
-   "<a href=\"https://sourceforge.net/projects/vegatrek/files/vegatrek%200.6/\">Link</a>",
-   "Role Playing",
-   "beta / inactive since 2013",
-   "",
-   "<a href=\"https://gitlab.com/osgames/vegatrek.git\">Source</a> - Python - GPL-2.0"
-  ],
-  [
    "WAtomic (<a href=\"https://sourceforge.net/projects/watomic/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/watomic.md\">entry</a>)",
    "Windows clone of Linux KAtomic logic game.",
    "<a href=\"https://sourceforge.net/projects/watomic/files/\">Link</a>",
@@ -3400,7 +3391,7 @@
    "Strategy",
    "beta / inactive since 2009",
    "",
-   "<a href=\"https://gitlab.com/osgames/worldofheroes.git\">Source</a> - Python - 3-clause BSD"
+   "<a href=\"https://github.com/fariazz/World-of-Heroes.git\">Source</a> - Python - 3-clause BSD"
   ],
   [
    "World of Phaos (<a href=\"http://worldofphaos.com/index.php?site=online_rpg\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/world_of_phaos.md\">entry</a>)",

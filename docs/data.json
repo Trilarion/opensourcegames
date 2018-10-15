@@ -28,15 +28,6 @@
    "<a href=\"https://github.com/lo-th/3d.city.git\">Source</a> - JavaScript - GPL-3.0"
   ],
   [
-   "8 Kingdoms (<a href=\"https://sourceforge.net/projects/kralovstvi/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/8kingdoms.md\">entry</a>)",
-   "3D turn-based fantasy strategic game in which players..",
-   "<a href=\"https://sourceforge.net/projects/kralovstvi/files/Legacy/8%20Kingdoms%201.1.0/\">Link</a>",
-   "Strategy",
-   "beta / inactive since 2009",
-   "",
-   "<a href=\"https://svn.code.sf.net/p/kralovstvi/code/\">Source</a> - C++"
-  ],
-  [
    "A Planet's Revenge (<a href=\"https://sourceforge.net/projects/aplanetsrevenge/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/a_planets_revenge.md\">entry</a>)",
    "A text-based, turn-based strategy game set in space. It is..",
    "<a href=\"https://sourceforge.net/projects/aplanetsrevenge/files/aplanetsrevenge/apr-1.0-alpha/\">Link</a>",
@@ -160,7 +151,7 @@
    "Role Playing",
    "beta / inactive since 2014",
    "MMO",
-   "<a href=\"https://github.com/Argentum-Online/Argentum-Online.git\">Source</a> - VB - GPL-2.0"
+   "<a href=\"https://github.com/Argentum-Online/Argentum-Online.git\">Source</a> - Visual Basic - GPL-2.0"
   ],
   [
    "Arianne / Marauroa (<a href=\"https://arianne-project.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/arianne.md\">entry</a>)",
@@ -403,7 +394,7 @@
    "Strategy",
    "mature / inactive since 2013",
    "TBS",
-   "<a href=\"https://github.com/vn971/cevo.git\">Source</a> - Pascal"
+   "<a href=\"https://github.com/vn971/cevo.git\">Source</a> - Pascal - Public Domain"
   ],
   [
    "COCOS2D-X (<a href=\"http://cocos2d-x.org/cocos2dx\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/cocos2dx.md\">entry</a>)",
@@ -775,15 +766,6 @@
    "<a href=\"https://gitlab.com/osgames/dragon-hunt.git\">Source</a> - Python - GPL-2.0"
   ],
   [
-   "Drop Shock (<a href=\"http://www.tinywarz.com/index.php\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/drop_shock.md\">entry</a>)",
-   "Massively Multiplayer Turn-Based Strategy Game.",
-   "",
-   "Strategy",
-   "mature / inactive since 2014",
-   "online",
-   "<a href=\"https://git.code.sf.net/p/dropshock/code\">Source</a> - PHP"
-  ],
-  [
    "Duel Commander (<a href=\"https://sourceforge.net/projects/duelcommander/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/duel_commander.md\">entry</a>)",
    "Turn based command line fighting game for Windows and..",
    "<a href=\"https://sourceforge.net/projects/duelcommander/files\">Link</a>",
@@ -899,15 +881,6 @@
    "mature / inactive since 2015",
    "",
    "<a href=\"https://github.com/egoboo/egoboo.git\">Source</a> - C++, C - GPL-3.0"
-  ],
-  [
-   "Eleconics (<a href=\"https://sourceforge.net/projects/eleconics/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/eleconics.md\">entry</a>)",
-   "Players create fleets of customized ships and control them..",
-   "<a href=\"https://sourceforge.net/projects/eleconics/files\">Link</a>",
-   "Strategy",
-   "beta / inactive since 2006",
-   "",
-   "<a href=\"https://sourceforge.net/p/eleconics/code\">Source</a> - Java"
   ],
   [
    "Endgame: Singularity (<a href=\"http://www.emhsoft.com/singularity/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/singularity.md\">entry</a>)",
@@ -2611,15 +2584,6 @@
    "<a href=\"https://github.com/antionio/game-off-2013.git\">Source</a> - Java - Apache-2.0"
   ],
   [
-   "RuneSword II (<a href=\"https://sourceforge.net/projects/runesword/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/runesword_ii.md\">entry</a>)",
-   "CRPG designed to appeal to the \"pen & paper\" role-player.",
-   "<a href=\"https://sourceforge.net/projects/runesword/files/\">Link</a>",
-   "Role Playing",
-   "mature / inactive since 2011",
-   "",
-   "<a href=\"https://sourceforge.net/p/runesword/code/\">Source</a> - Visual Basic"
-  ],
-  [
    "S.C.O.U.R.G.E. (<a href=\"https://sourceforge.net/projects/scourge/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/scourge.md\">entry</a>)",
    "Roguelike game with a 3D user interface.",
    "<a href=\"https://sourceforge.net/projects/scourge/files\">Link</a>",
@@ -2654,15 +2618,6 @@
    "beta / active",
    "",
    "<a href=\"https://github.com/Scorched-Moon/server.git\">Source</a> - Python - GPL-3.0"
-  ],
-  [
-   "Scoreos (<a href=\"https://web.archive.org/web/20120618143653/http://scoreos.org:80/about\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/scoreos.md\">entry</a>)",
-   "Fantasy sports management system.",
-   "",
-   "Strategy",
-   "beta / inactive since 2008",
-   "online, sports",
-   "<a href=\"https://github.com/Lozza999/scoreos.git\">Source</a> - PHP - GPL-2.0"
   ],
   [
    "ScummVM (<a href=\"http://www.scummvm.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/scummvm.md\">entry</a>)",
@@ -2807,15 +2762,6 @@
    "mature / active",
    "browser",
    "<a href=\"https://github.com/guillaume-gouchon/smash.js.git\">Source</a> - JavaScript - MIT"
-  ],
-  [
-   "Solar Empire (<a href=\"https://sourceforge.net/projects/solar-empire/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/solar_empire.md\">entry</a>)",
-   "Browser-based strategy game (BBS) written in PHP.",
-   "<a href=\"https://sourceforge.net/projects/solar-empire/files\">Link</a>",
-   "Strategy",
-   "mature / inactive since 2012",
-   "",
-   "<a href=\"https://git.code.sf.net/p/solar-empire/code\">Source</a> - PHP"
   ],
   [
    "Solarus (<a href=\"http://www.solarus-games.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/solarus.md\">entry</a>)",
@@ -3635,15 +3581,6 @@
    "beta / inactive since 2014",
    "",
    "<a href=\"https://git.savannah.gnu.org/git/rpge.git\">Source</a> - C - GPL-3.0"
-  ],
-  [
-   "sCoreForge Pathfinder Character Creator (<a href=\"https://sourceforge.net/projects/scoreforge/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/misc/scoreforge_pathfinder_character_creator.md\">entry</a>)",
-   "Pathfinder Character Creation.",
-   "<a href=\"https://sourceforge.net/projects/scoreforge/files/\">Link</a>",
-   "Tools & Manuals",
-   "mature / active",
-   "tool",
-   "Excel Visual Basic"
   ],
   [
    "sandbox Game Maker (<a href=\"http://www.sandboxgamemaker.com/free-game-maker/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/sandboxgamemaker.md\">entry</a>)",

@@ -498,7 +498,7 @@ def generate_statistics():
     statistics += '##### Keywords frequency\n\n' + '\n'.join(unique_keywords) + '\n\n'
 
     # no download or play field
-    statistics += '## Entries without download or play\n\n'
+    statistics += '## Entries without download or play fields\n\n'
 
     entries = []
     for info in infois:
@@ -509,7 +509,7 @@ def generate_statistics():
 
     # code hosted not on github, gitlab, bitbucket, launchpad, sourceforge
     popular_code_repositories = ('github.com', 'gitlab.com', 'bitbucket.org', 'code.sf.net', 'code.launchpad.net')
-    statistics += '## Entries with a code repository but not on a popular site\n\n'
+    statistics += '## Entries with a code repository not on a popular site\n\n'
 
     entries = []
     field = 'code repository'

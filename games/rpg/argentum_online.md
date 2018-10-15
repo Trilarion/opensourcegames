@@ -7,7 +7,7 @@ _Open Source FREE 2D MMORPG._
 - Download: http://www.comunidadargentum.com/descargas/
 - Keywords: MMO
 - Code repository: https://github.com/Argentum-Online/Argentum-Online.git, http://morgoao.cvs.sourceforge.net/ (cvs)
-- Code language: VB
+- Code language: Visual Basic
 - Code license: GPL-2.0
 
 See also: [spin-off](https://github.com/horacioMartinez/argentumonline.io), [server mod](https://sourceforge.net/projects/aoserverbyshura/).

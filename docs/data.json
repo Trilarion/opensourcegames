@@ -3574,6 +3574,15 @@
    "<a href=\"https://github.com/pygame/pygame.git\">Source</a> - C, Python - LGPL-2.1"
   ],
   [
+   "ransack (<a href=\"https://github.com/dsallen7/ransack-python\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/ransack.md\">entry</a>)",
+   "Python based roguelike.",
+   "",
+   "Role Playing",
+   "mature / inactive since 2016",
+   "roguelike",
+   "<a href=\"https://github.com/dsallen7/ransack-python.git\">Source</a> - Python - MIT"
+  ],
+  [
    "rpge (<a href=\"http://savannah.gnu.org/projects/rpge/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/rpge.md\">entry</a>)",
    "Engine for two-dimensional graphical role-playing games.",
    "",

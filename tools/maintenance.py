@@ -591,19 +591,15 @@ def export_json():
     """
 
     # make database out of it
-    db = {}
-    db['headings'] = ['Game', 'Description', 'Download', 'Category', 'State', 'Keywords', 'Source']
+    db = {'headings': ['Game', 'Description', 'Download', 'Category', 'State', 'Keywords', 'Source']}
 
     entries = []
     for info in infos.values():
 
-        entry = []
-
-        # game
-        entry.append('{} (<a href="{}">home</a>, <a href="{}">entry</a>)'.format(info['title'], info['home'][0], r'https://github.com/Trilarion/opensourcegames/blob/master/games/' + info['path']))
-
-        # description
-        entry.append(textwrap.shorten(info['description'], width=60, placeholder='..'))
+        # game & description
+        entry = ['{} (<a href="{}">home</a>, <a href="{}">entry</a>)'.format(info['title'], info['home'][0],
+            r'https://github.com/Trilarion/opensourcegames/blob/master/games/' + info['path']),
+            textwrap.shorten(info['description'], width=60, placeholder='..')]
 
         # download
         field = 'download'

@@ -25,6 +25,7 @@
 - **[Deliantra](deliantra.md)** (C, GPL-2.0, mature)
 - **[DemiGod](demigod.md)** (Java, GPL-3.0, beta, inactive since 2013)
 - **[Dragon Hunt](dragon_hunt.md)** (Python, GPL-2.0, mature)
+- **[Dungeon Craft](dungeon_craft.md)** (C++, GPL-2.0, mature)
 - **[Dungeon Crawl Stone Soup](dungeon_crawl_stone_soup.md)** (C++, Lua, GPL-2.0, mature)
 - **[Dungeon Hero](dungeon_hero.md)** (Java, MIT, mature)
 - **[Dungeon Monkey Eternal](dungeon_monkey_eternal.md)** (Python, GPL-2.0, mature, inactive since 2016)

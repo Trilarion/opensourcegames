@@ -3,10 +3,12 @@ Clones and/or pulls all the gits listed in archives.json
 
 Requires: git executable in the path
 
+Uses 'git clone --mirror' to set up the git locally.
+
 Warning: This may take a long time on the first run and may need a lot of storage space!
 
 TODO are really all existing branches cloned and pulled? (see https://stackoverflow.com/questions/67699/how-to-clone-all-remote-branches-in-git)
-TODO Sourceforge git clone may not work all the time (restart the script helps..)
+TODO Sourceforge git clone may not work all the time (restarting the script sometimes helps..)
 
 Note: May need to set http.postBuffer (https://stackoverflow.com/questions/17683295/git-bash-error-rpc-failed-result-18-htp-code-200b-1kib-s)
 """
@@ -130,7 +132,10 @@ def run_update(type, urls):
             continue
         if not os.path.isdir(folder):
             print('clone {} into {}'.format(url, folder[len(base_folder):]))
-            clone[type](url, folder)
+            try:
+                clone[type](url, folder)
+            except RuntimeError as e:
+                print('error occurred while cloning, will skip')
 
     # at the end update them all
     for folder in folders:
@@ -139,7 +144,10 @@ def run_update(type, urls):
             print('folder not existing, wanted to update, will skip')
             continue
         print('update {}'.format(folder[len(base_folder):]))
-        update[type](folder)
+        try:
+            update[type](folder)
+        except RuntimeError as e:
+            print('error occurred while updating, will skip')
 
 
 def run_info(type, urls):

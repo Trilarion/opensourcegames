@@ -430,7 +430,7 @@
    "Strategy",
    "mature / active",
    "TBS",
-   "<a href=\"https://github.com/LynxAbraxas/ctp2.git\">Source</a> - C++ - Custom"
+   "<a href=\"https://github.com/civctp2/civctp2.git\">Source</a> - C++ - Custom"
   ],
   [
    "Castle of the Winds (<a href=\"http://game.castleofthewinds.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/castle_of_the_winds.md\">entry</a>)",
@@ -802,6 +802,15 @@
    "<a href=\"https://git.code.sf.net/p/dunelegacy/code\">Source</a> - C++ - GPL-2.0"
   ],
   [
+   "Dungeon Craft (<a href=\"http://uaf.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/dungeon_craft.md\">entry</a>)",
+   "Updated emulator of Forgotten Realms: Unlimited Adventures.",
+   "<a href=\"https://sourceforge.net/projects/uaf/files/\">Link</a>",
+   "Role Playing",
+   "mature / active",
+   "",
+   "<a href=\"https://gitlab.com/osgames/uaf.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
    "Dungeon Crawl Stone Soup (<a href=\"http://crawl.develz.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/dungeon_crawl_stone_soup.md\">entry</a>)",
    "Roguelike adventure through dungeons filled with dangerous..",
    "<a href=\"http://crawl.develz.org/download.htm\">Link</a>",
@@ -1015,7 +1024,7 @@
    "Strategy",
    "mature / active",
    "",
-   "<a href=\"https://svn.code.sf.net/p/firststrikegame/code/\">Source</a> - Java"
+   "<a href=\"https://gitlab.com/osgames/firststrike.git\">Source</a> - Java - MIT"
   ],
   [
    "Flare Engine (<a href=\"https://github.com/clintbellanger/flare-engine\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/flare_engine.md\">entry</a>)",
@@ -1987,7 +1996,7 @@
    "Engines & Frameworks",
    "mature / active",
    "",
-   "<a href=\"https://git.octaforge.org/engine/octaforge.git\">Source</a> - C++ - Custom"
+   "<a href=\"https://git.octaforge.org/OctaForge/OctaCore.git\">Source</a> - C++ - Custom"
   ],
   [
    "Open AL (<a href=\"http://www.openal.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/library/open_al.md\">entry</a>)",

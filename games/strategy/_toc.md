@@ -45,7 +45,7 @@
 - **[EternalWinterWars](eternalwinterwars.md)** (Java, MIT, beta, inactive since 2014)
 - **[Evil Cult](evil_cult.md)** (Haxe, JavaScript, GPL-3.0, mature)
 - **[FAR Colony](farcolony.md)** (Pascal, GPL-3.0, beta, inactive since 2014)
-- **[First Strike](first_strike.md)** (Java, mature)
+- **[First Strike](first_strike.md)** (Java, MIT, mature)
 - **[Free Mars](free_mars.md)** (Java, GPL-3.0, mature)
 - **[Free Orion](freeorion.md)** (C++, Python, GPL-2.0, beta)
 - **[Free Space Colonization](free_space_colonization.md)** (C, GPL-2.0, beta)

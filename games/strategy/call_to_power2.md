@@ -6,7 +6,7 @@ _Strategy game released by Activision as a sequel to Civilization: Call to Power
 - Media: https://en.wikipedia.org/wiki/Call_to_Power_II#Source_code_release
 - State: mature
 - Keywords: TBS
-- Code repository: https://github.com/LynxAbraxas/ctp2.git (mirror), http://ctp2.darkdust.net/anonsvn/ (svn)
+- Code repository: https://github.com/civctp2/civctp2.git (mirror), http://ctp2.darkdust.net/anonsvn/ (svn)
 - Code language: C++
 - Code license: Custom (Activision CTP2 source EULA)
 

@@ -162,7 +162,7 @@ def check_validity_external_links():
     from time to time.
     """
     # regex for finding urls (can be in <> or in () or a whitespace
-    regex = re.compile(r"[\s\n]<(http.+?)>|\]\((http.+?)\)|[\s\n](http[^\s\n]+)")
+    regex = re.compile(r"[\s\n]<(http.+?)>|\]\((http.+?)\)|[\s\n](http[^\s\n,]+)")
 
     # count
     number_checked_links = 0
@@ -180,8 +180,7 @@ def check_validity_external_links():
         # for each entry
         for entry_path in entry_paths:
             # read entry
-            with open(entry_path, 'r', 'utf-8') as f:
-                content = f.read()
+            content = read_text(entry_path)
 
             # apply regex
             matches = regex.findall(content)
@@ -195,11 +194,13 @@ def check_validity_external_links():
                     # if there was something
                     if url:
                         try:
-                            # without a special headers, frequent 403 responses occur
+                            # without a special header, frequent 403 responses occur
                             req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64)'})
                             urllib.request.urlopen(req)
                         except urllib.error.HTTPError as e:
                             print("{}: {} - {}".format(os.path.basename(entry_path), url, e.code))
+                        except urllib.error.URLError as e:
+                            print("{}: {} - {}".format(os.path.basename(entry_path), url, e.reason))
                         except http.client.RemoteDisconnected:
                             print("{}: {} - disconnected without response".format(os.path.basename(entry_path), url))
 
@@ -538,7 +539,7 @@ def generate_statistics():
         if field in info:
             build_systems.extend(info[field])
 
-    statistics += 'Build systems information available for {:.1f}% of all projects\n\n'.format(len(build_systems) / len(infois) * 100)
+    statistics += 'Build systems information available for {:.1f}% of all projects.\n\n'.format(len(build_systems) / len(infois) * 100)
 
     unique_build_systems = set(build_systems)
     unique_build_systems = [(l, build_systems.count(l) / len(build_systems)) for l in unique_build_systems]
@@ -572,6 +573,8 @@ def generate_statistics():
     for info in infois:
         if field in info:
             platforms.extend(info[field])
+
+    statistics += 'Platform information available for {:.1f}% of all projects.\n\n'.format(len(platforms) / len(infois) * 100)
 
     unique_platforms = set(platforms)
     unique_platforms = [(l, platforms.count(l) / len(platforms)) for l in unique_platforms]

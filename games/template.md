@@ -3,19 +3,19 @@
 _{Description}_
 
 - Home: {URL}
-- Media: {URL}
-- State: {XX}
-- Play: {URL}
-- Download: {URL}
-- Platform: {XX}
-- Keywords: {XX}
+- Media: {URL} (optional)
+- State: {XX} 
+- Play: {URL} (optional)
+- Download: {URL} (optional)
+- Platform: {XX} (optional)
+- Keywords: {XX} (optional)
 - Code repository: {URL}
 - Code language: {XX}
-- Code license: {XX}
-- Code dependencies: {XX}
-- Assets license: {XX}
+- Code license: {XX} (optional)
+- Code dependencies: {XX} (optional)
+- Assets license: {XX} (optional)
 
 ## Building
 
-- Build system: {XX}
-- Build instructions: {XX}
+- Build system: {XX} (optional)
+- Build instructions: {XX} (optional)

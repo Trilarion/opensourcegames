@@ -3,7 +3,7 @@
 _A simulation of a true AI_
 
 - Home: http://www.emhsoft.com/singularity/
-- State: beta, inactive since 2010
+- State: beta
 - Download: (see home)
 - Keywords: SP
 - Code repository: https://github.com/singularity/singularity.git

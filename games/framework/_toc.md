@@ -30,7 +30,7 @@
 - **[Octaforge](octaforge.md)** (C++, Custom, mature)
 - **[Open RPG Maker](open_rpg_maker.md)** (C++, GPL-3.0, beta, inactive since 2014)
 - **[OpenFL](open_fl.md)** (Haxe, MIT, mature)
-- **[OpenRPG](open_rpg.md)** (Java, Python, mature, inactive since 2013)
+- **[OpenRPG](open_rpg.md)** (Python, GPL-2.0, mature, inactive since 2013)
 - **[Orx](orx.md)** (C, zlib, mature)
 - **[Panda 3D](panda3d.md)** (C++, C, 3-clause BSD, mature)
 - **[Polycode](polycode.md)** (C, C++, MIT, beta)

@@ -646,7 +646,7 @@
    "Strategy",
    "mature / inactive since 2016",
    "MMO",
-   "<a href=\"https://svn.code.sf.net/p/darkdestiny/code/\">Source</a> - Java, Javascript"
+   "<a href=\"https://gitlab.com/osgames/darkdestiny.git\">Source</a> - Java, Javascript - GPL"
   ],
   [
    "Dark Oberon (<a href=\"http://dark-oberon.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/dark_oberon.md\">entry</a>)",
@@ -896,7 +896,7 @@
    "A simulation of a true AI",
    "",
    "Strategy",
-   "beta / inactive since 2010",
+   "beta / active",
    "SP",
    "<a href=\"https://github.com/singularity/singularity.git\">Source</a> - Python - GPL-2.0"
   ],
@@ -2212,7 +2212,7 @@
    "Engines & Frameworks",
    "mature / inactive since 2013",
    "",
-   "<a href=\"https://github.com/openRPGteam/openrpg-engine.git\">Source</a> - Java, Python"
+   "<a href=\"https://gitlab.com/osgames/openrpg.git\">Source</a> - Python - GPL-2.0"
   ],
   [
    "OpenSSL (<a href=\"https://www.openssl.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/library/openssl.md\">entry</a>)",
@@ -3473,6 +3473,15 @@
    "mature / active",
    "",
    "<a href=\"https://gitlab.com/solarus-games/zsdx.git\">Source</a> - Lua - GPL-3.0"
+  ],
+  [
+   "Zero Ballistics (<a href=\"http://www.zeroballistics.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/zeroballistics.md\">entry</a>)",
+   "Zero Ballistics is a unique blend of first person shooter..",
+   "<a href=\"https://sourceforge.net/projects/zeroballistics/files/\">Link</a>",
+   "Strategy",
+   "mature / inactive since 2013",
+   "",
+   "<a href=\"https://gitlab.com/osgames/zeroballistics.git\">Source</a> - C++ - MIT"
   ],
   [
    "Zero-K (<a href=\"http://zero-k.info/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/zero_k.md\">entry</a>)",

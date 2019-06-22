@@ -19,6 +19,15 @@
    "<a href=\"https://github.com/0ad/0ad.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
+   "2048 (<a href=\"https://play2048.co/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/puzzle/2048.md\">entry</a>)",
+   "Sliding block puzzle game.",
+   "",
+   "Puzzle",
+   "mature / active",
+   "sliding blocks",
+   "<a href=\"https://github.com/gabrielecirulli/2048.git\">Source</a> - Javascript - MIT"
+  ],
+  [
    "3d.city (<a href=\"https://github.com/lo-th/3d.city\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/simulation/3d_city.md\">entry</a>)",
    "WebGL version of micropolisJS.",
    "",
@@ -163,6 +172,15 @@
    "<a href=\"https://git.code.sf.net/p/arianne/marauroa\">Source</a> - Java - GPL-2.0"
   ],
   [
+   "Armagetron Advanced (<a href=\"http://www.armagetronad.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/armagetron_advanced.md\">entry</a>)",
+   "Simple action game modeled after the lightcycle sequence..",
+   "<a href=\"http://www.armagetronad.org/downloads.php\">Link</a>",
+   "Action/Arcade",
+   "mature / active",
+   "snake-like",
+   "<a href=\"https://svn.code.sf.net/p/armagetronad/code/\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
    "Armies (<a href=\"https://sourceforge.net/projects/armies/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/armies.md\">entry</a>)",
    "Turn based strategy game. It has simple and well designed..",
    "<a href=\"https://sourceforge.net/projects/armies/files/\">Link</a>",
@@ -199,19 +217,19 @@
    "<a href=\"https://github.com/Atlantis-PBEM/Atlantis.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
-   "Atomiks (<a href=\"http://atomiks.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/atomiks.md\">entry</a>)",
+   "Atomiks (<a href=\"http://atomiks.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/puzzle/atomiks.md\">entry</a>)",
    "Faithful remake of, and a tribute to, Atomix, a classic..",
    "<a href=\"https://sourceforge.net/projects/atomiks/files\">Link</a>",
-   "Strategy",
+   "Puzzle",
    "mature / active",
    "puzzle",
    "<a href=\"https://svn.code.sf.net/p/atomiks/code/\">Source</a> - C - GPL"
   ],
   [
-   "Atomix (<a href=\"https://github.com/GNOME/atomix\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/atomix.md\">entry</a>)",
+   "Atomix (<a href=\"https://github.com/GNOME/atomix\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/puzzle/atomix.md\">entry</a>)",
    "A puzzle game in which you have to build full molecules.",
    "",
-   "Strategy",
+   "Puzzle",
    "mature / active",
    "",
    "<a href=\"https://github.com/GNOME/atomix.git\">Source</a> - C - GPL-2.0"
@@ -458,6 +476,15 @@
    "beta / inactive since 2012",
    "roguelike",
    "<a href=\"https://github.com/Whales/Cataclysm.git\">Source</a> - C++ - CC-BY-SA-3"
+  ],
+  [
+   "Cataclysm: Dark Days Ahead (<a href=\"https://cataclysmdda.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/cataclysm_dark_days_ahead.md\">entry</a>)",
+   "Turn-based survival game set in a post-apocalyptic world.",
+   "<a href=\"https://cataclysmdda.org/releases/\">Link</a>",
+   "Role Playing",
+   "mature / active",
+   "roguelike",
+   "<a href=\"https://github.com/CleverRaven/Cataclysm-DDA.git\">Source</a> - C++ - CC-BY-SA-3.0"
   ],
   [
    "Catch Challenger (<a href=\"https://catchchallenger.first-world.info/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/catch_challenger.md\">entry</a>)",
@@ -1558,10 +1585,10 @@
    "<a href=\"https://github.com/EMC23/JiGS-PHP-RPG-engine.git\">Source</a> - JavaScript, PHP - GPL-3.0"
   ],
   [
-   "KAtomic (<a href=\"https://www.kde.org/applications/games/katomic/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/katomic.md\">entry</a>)",
+   "KAtomic (<a href=\"https://www.kde.org/applications/games/katomic/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/puzzle/katomic.md\">entry</a>)",
    "Fun educational game built around molecular geometry. It..",
    "",
-   "Strategy",
+   "Puzzle",
    "mature / active",
    "puzzle",
    "<a href=\"https://anongit.kde.org/katomic.git\">Source</a> - C++ - GPL-2.0"
@@ -2359,10 +2386,10 @@
    "<a href=\"http://hg.code.sf.net/p/phantasy/code\">Source</a> - C++ - GPL-3.0"
   ],
   [
-   "Pingus (<a href=\"https://pingus.seul.org/index.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/pingus.md\">entry</a>)",
+   "Pingus (<a href=\"https://pingus.seul.org/index.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/puzzle/pingus.md\">entry</a>)",
    "Lemmings(tm)-like puzzle game.",
    "<a href=\"https://pingus.seul.org/download.html\">Link</a>",
-   "Action/Arcade",
+   "Puzzle",
    "mature / active",
    "puzzle",
    "<a href=\"https://gitlab.com/pingus/pingus.git\">Source</a> - C++ - GPL-3.0"
@@ -2591,6 +2618,15 @@
    "mature / inactive since 2013",
    "",
    "<a href=\"https://github.com/antionio/game-off-2013.git\">Source</a> - Java - Apache-2.0"
+  ],
+  [
+   "Ryzom Core (<a href=\"https://ryzomcore.atlassian.net/wiki/spaces/RC/overview\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/ryzom_core.md\">entry</a>)",
+   "MMORPG with open world play.",
+   "",
+   "Role Playing",
+   "mature / active",
+   "mmorpg",
+   "<a href=\"https://bitbucket.org/ryzom/ryzomcore\">Source</a> - C++ - AGPL-3.0"
   ],
   [
    "S.C.O.U.R.G.E. (<a href=\"https://sourceforge.net/projects/scourge/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/scourge.md\">entry</a>)",
@@ -3239,6 +3275,15 @@
    "mature / active",
    "",
    "<a href=\"https://github.com/vegastrike/Vega-Strike-Engine-Source.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "Veloren (<a href=\"https://veloren.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/veloren.md\">entry</a>)",
+   "Multiplayer voxel RPG written in Rust and taking..",
+   "",
+   "Role Playing",
+   "beta / active",
+   "voxel",
+   "<a href=\"https://gitlab.com/veloren/veloren.git\">Source</a> - Rust - GPL-3.0"
   ],
   [
    "WAtomic (<a href=\"https://sourceforge.net/projects/watomic/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/watomic.md\">entry</a>)",

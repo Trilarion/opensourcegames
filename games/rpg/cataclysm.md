@@ -9,5 +9,7 @@ _Post-apocalyptic roguelike._
 - Code language: C++
 - Code license: CC-BY-SA-3
 
+See also [Cataclysm: Dark Days Ahead](cataclysm_dark_days_ahead.md) (fork)
+
 ## Building
 

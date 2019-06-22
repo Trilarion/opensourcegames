@@ -56,6 +56,7 @@
   "https://github.com/CamHenlin/Roguish.git",
   "https://github.com/Circular-Studios/Dash.git",
   "https://github.com/Cirrus-Minor/witchblast.git",
+  "https://github.com/CleverRaven/Cataclysm-DDA.git",
   "https://github.com/CorsixTH/CorsixTH.git",
   "https://github.com/DeltaEngine/DeltaEngine.git",
   "https://github.com/EMC23/JiGS-PHP-RPG-engine.git",
@@ -172,6 +173,7 @@
   "https://github.com/freeorion/freeorion.git",
   "https://github.com/freeors/War-Of-Kingdom.git",
   "https://github.com/freeserf/freeserf.git",
+  "https://github.com/gabrielecirulli/2048.git",
   "https://github.com/gemrb/gemrb.git",
   "https://github.com/glennrp/libpng.git",
   "https://github.com/goblinhack/goblinhack.git",
@@ -383,12 +385,14 @@
   "https://gitlab.com/osgames/zeroballistics.git",
   "https://gitlab.com/pingus/pingus.git",
   "https://gitlab.com/solarus-games/zsdx.git",
+  "https://gitlab.com/veloren/veloren.git",
   "https://gitlab.com/xonotic/xonotic.git",
   "https://gitlab.gnome.org/GNOME/libxml2.git",
   "https://gitorious.org/turious/turious.git"
  ],
  "svn": [
   "http://svn.uktrainsim.com/svn/openrails/trunk",
+  "https://svn.code.sf.net/p/armagetronad/code/",
   "https://svn.code.sf.net/p/atomiks/code/",
   "https://svn.code.sf.net/p/catmother/code/",
   "https://svn.code.sf.net/p/crossfire/code/",
@@ -418,6 +422,7 @@
   "https://bitbucket.org/giszmo/glob2",
   "https://bitbucket.org/mstrobel/supremacy/src",
   "https://bitbucket.org/rude/love",
+  "https://bitbucket.org/ryzom/ryzomcore",
   "https://bitbucket.org/sumwars/sumwars-code/src",
   "https://bitbucket.org/thesheep/fujo/src"
  ],

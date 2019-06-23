@@ -11,6 +11,7 @@
 - **[Battleround](battleround.md)** (Java, Apache-2.0, beta, inactive since 2015)
 - **[Betrayer's Moon Tactics](betrayer_moon_tactics.md)** (JavaScript, GPL-2.0, beta, inactive since 2006)
 - **[BrowserQuest](browserquest.md)** (JavaScript, MPL-2.0, mature)
+- **[Candy Box 2](candy_box2.md)** (Typescript, Javascript, GPL-3.0, mature, inactive since 2013)
 - **[Castle of the Winds](castle_of_the_winds.md)** (JavaScript, MIT, beta)
 - **[Cataclysm](cataclysm.md)** (C++, CC-BY-SA-3, beta, inactive since 2012)
 - **[Cataclysm: Dark Days Ahead](cataclysm_dark_days_ahead.md)** (C++, CC-BY-SA-3.0, mature)

@@ -271,6 +271,24 @@
    "<a href=\"https://gitlab.com/osgames/avanor.git\">Source</a> - C++, Lua - GPL-2.0"
   ],
   [
+   "BZFlag (<a href=\"https://www.bzflag.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/bzflag.md\">entry</a>)",
+   "Multiplayer tank game.",
+   "<a href=\"https://www.bzflag.org/downloads/\">Link</a>",
+   "Action/Arcade",
+   "mature / active",
+   "shooter",
+   "<a href=\"https://github.com/BZFlag-Dev/bzflag.git\">Source</a> - C++ - LPGL-2.1"
+  ],
+  [
+   "Ballerburg (<a href=\"http://www.eckhardkruse.net/atari_st/baller.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/ballerburg.md\">entry</a>)",
+   "Turnbased Artillery game from 1987.",
+   "",
+   "Action/Arcade",
+   "mature / inactive since 1987",
+   "artillery",
+   "C - PD"
+  ],
+  [
    "Battle for Wesnoth (<a href=\"http://www.wesnoth.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/wesnoth.md\">entry</a>)",
    "The Battle for Wesnoth is an open source, turn-based..",
    "<a href=\"http://www.wesnoth.org/#download\">Link</a>",
@@ -314,6 +332,15 @@
    "beta / inactive since 2006",
    "",
    "<a href=\"https://gitlab.com/osgames/bmtactics.git\">Source</a> - JavaScript - GPL-2.0"
+  ],
+  [
+   "Biniax (<a href=\"http://biniax.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/biniax.md\">entry</a>)",
+   "Puzzle game.",
+   "<a href=\"http://www.tuzsuzov.com/biniax/download2.html\">Link</a>",
+   "Action/Arcade",
+   "mature / inactive since 2012",
+   "puzzle",
+   "C - zlib"
   ],
   [
    "Birth of the Empires (<a href=\"http://bote2.square7.ch/en/wiki/Main_Page\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/birth_of_the_empires.md\">entry</a>)",
@@ -406,6 +433,15 @@
    "<a href=\"https://git.code.sf.net/p/bygfoot/git\">Source</a> - Java - GPL-2.0"
   ],
   [
+   "C-Dogs (<a href=\"https://cxong.github.io/cdogs-sdl/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/cdogs.md\">entry</a>)",
+   "Overhead run-and-gun game.",
+   "<a href=\"https://cxong.github.io/cdogs-sdl/downloads.html\">Link</a>",
+   "Action/Arcade",
+   "mature / active",
+   "shooter",
+   "<a href=\"https://github.com/cxong/cdogs-sdl.git\">Source</a> - C - GPL-2.0"
+  ],
+  [
    "C-evo (<a href=\"http://www.c-evo.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/c_evo.md\">entry</a>)",
    "C-evo is a freeware empire building game for Windows.",
    "<a href=\"http://www.c-evo.org/files/files.php\">Link</a>",
@@ -449,6 +485,24 @@
    "mature / active",
    "TBS",
    "<a href=\"https://github.com/civctp2/civctp2.git\">Source</a> - C++ - Custom"
+  ],
+  [
+   "Candy Box 2 (<a href=\"https://candybox2.wordpress.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/candy_box2.md\">entry</a>)",
+   "Online text-based role-playing game featuring ASCII art.",
+   "",
+   "Role Playing",
+   "mature / inactive since 2013",
+   "browser, asciiart, text",
+   "<a href=\"https://github.com/candybox2/candybox2.github.io.git\">Source</a> - Typescript, Javascript - GPL-3.0"
+  ],
+  [
+   "Cart Life (<a href=\"https://web.archive.org/web/20150619214353/http://www.richardhofmeier.com/cartlife/editions.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/simulation/cart_life.md\">entry</a>)",
+   "Simulation game on a pixel-grid in grayscale, with minimal..",
+   "<a href=\"https://sourceforge.net/projects/cartlife/files/OpenSores_0.1/\">Link</a>",
+   "Simulation",
+   "mature / inactive since 2014",
+   "",
+   "<a href=\"https://github.com/gondur/cartlife_src.git\">Source</a> - AGS Script - Custom"
   ],
   [
    "Castle of the Winds (<a href=\"http://game.castleofthewinds.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/castle_of_the_winds.md\">entry</a>)",
@@ -503,6 +557,15 @@
    "mature / active",
    "",
    "<a href=\"https://github.com/jazztickets/choria.git\">Source</a> - C++, C, Lua - GPL-3.0"
+  ],
+  [
+   "Chromium B.S.U. (<a href=\"http://chromium-bsu.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/chromium_bsu.md\">entry</a>)",
+   "Arcade-style, top-scrolling space shooter.",
+   "<a href=\"http://chromium-bsu.sourceforge.net/download.html\">Link</a>",
+   "Action/Arcade",
+   "mature / active",
+   "shooter, top-down",
+   "<a href=\"https://git.code.sf.net/p/chromium-bsu/code\">Source</a> - C++ - Artistic"
   ],
   [
    "CivOne (<a href=\"https://www.civone.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/civone.md\">entry</a>)",

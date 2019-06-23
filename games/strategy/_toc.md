@@ -95,7 +95,6 @@
 - **[OpenMOO2](open_moo2.md)** (Python, GPL-2.0, beta, inactive since 2011)
 - **[OpenPop](open_pop.md)** (C++, GPL-3.0, beta, inactive since 2009)
 - **[OpenRA](open_ra.md)** (C#, GPL-3.0, mature)
-- **[OpenRCT2](open_rct2.md)** (C++, GPL-3.0, beta)
 - **[OpenSoccer](open_soccer.md)** (PHP, GPL-3.0, beta)
 - **[OpenWebSoccer-Sim](open_web_soccer.md)** (PHP, LGPL-3.0, mature)
 - **[OpenXcom](open_xcom.md)** (C++, GPL-3.0, mature)

@@ -24,6 +24,7 @@
 - **[LÖVE](loeve.md)** (C++, zlib, mature)
 - **[Mana](mana_source.md)** (C++, GPL-2.0, beta)
 - **[Maratis](maratis.md)** (C++, GPL-2.0, beta)
+- **[Minetest](minetest.md)** (C++, Lua, LGPL-2.1, mature)
 - **[MonoGame](monogame.md)** (C#, MPL, MIT, mature)
 - **[O.H.R.RPG.C.E](ohrrpgce.md)** (Basic, GPL-2.0, mature)
 - **[OGRE3D](ogre3d.md)** (C++, MIT, mature)

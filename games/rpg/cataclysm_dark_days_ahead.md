@@ -10,11 +10,11 @@ _Turn-based survival game set in a post-apocalyptic world._
 - Code repository: https://github.com/CleverRaven/Cataclysm-DDA.git
 - Code language: C++
 - Code license: CC-BY-SA-3.0
-- Assets license: CC
+- Assets license: CC-BY-SA-3.0
 
 Fork of [Cataclysm](cataclysm.md)
 
 ## Building
 
-- Build system: CMake
+- Build system: Make
 - Build instructions: https://github.com/CleverRaven/Cataclysm-DDA/blob/master/COMPILING.md

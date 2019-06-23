@@ -11,6 +11,7 @@
 - **[GDash](gdash.md)** (C++, MIT, beta)
 - **[Linwarrior 3D](linwarrior.md)** (C++, Apache-2.0, mature, inactive since 2010)
 - **[MechCommander 2 Omnitech](mechcommander2_omnitech.md)** (C++, MPL, beta, inactive since 2013)
+- **[Netrek](netrek.md)** (?, mature, inactive since 2009)
 - **[Open Sonic](open_sonic.md)** (C, GPL-2.0, beta)
 - **[Open Zelda](open_zelda.md)** (C++, zlib, beta)
 - **[Red Eclipse](red_eclipse.md)** (C++, zlib, mature)
@@ -20,6 +21,7 @@
 - **[Speed Dreams](speed_dreams.md)** (C++, GPL-2.0, mature)
 - **[SuperTuxKart](super_tux_kart.md)** (C++, C, GPL-3.0, mature)
 - **[Tux Racer](tuxracer.md)** (C, GPL-2.0, beta, inactive since 2001)
+- **[Unvanquished](unvanquished.md)** (C++, GPL-3.0, mature)
 - **[Xonotic](xonotic.md)** (C, GPL-3.0, mature)
 - **[xdigger](xdigger.md)** (C, GPL-2.0, mature, inactive since 1999)
 

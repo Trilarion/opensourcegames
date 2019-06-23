@@ -253,7 +253,7 @@
    "<a href=\"https://gitlab.com/osgames/attal.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
-   "AutoREALM (<a href=\"https://sourceforge.net/projects/autorealm/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/misc/autorealm.md\">entry</a>)",
+   "AutoREALM (<a href=\"https://sourceforge.net/projects/autorealm/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tools/autorealm.md\">entry</a>)",
    "Role-playing game mapping program.",
    "<a href=\"https://sourceforge.net/projects/autorealm/files\">Link</a>",
    "Tools & Manuals",
@@ -712,7 +712,7 @@
    "<a href=\"https://github.com/jpmalkiewicz/decker.git\">Source</a> - Java - GPL-2.0"
   ],
   [
-   "Deity (<a href=\"http://deity.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/misc/deity.md\">entry</a>)",
+   "Deity (<a href=\"http://deity.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tools/deity.md\">entry</a>)",
    "GameMaster (i.e. role-playing) utility.",
    "<a href=\"https://sourceforge.net/projects/deity/files\">Link</a>",
    "Tools & Manuals",
@@ -856,7 +856,7 @@
    "<a href=\"https://github.com/guillaume-gouchon/dungeonhero.git\">Source</a> - Java - MIT"
   ],
   [
-   "Dungeon Mapper (<a href=\"http://dungeonmap.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/misc/dungeon_mapper.md\">entry</a>)",
+   "Dungeon Mapper (<a href=\"http://dungeonmap.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tools/dungeon_mapper.md\">entry</a>)",
    "Map your dungeons for your next role playing adventure.",
    "<a href=\"https://sourceforge.net/projects/dungeonmap/files\">Link</a>",
    "Tools & Manuals",
@@ -1054,6 +1054,15 @@
    "<a href=\"https://gitlab.com/osgames/firststrike.git\">Source</a> - Java - MIT"
   ],
   [
+   "Fish Fillets - Next Generation (<a href=\"http://fillets.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/puzzle/fish_fillets_ng.md\">entry</a>)",
+   "Port of the wonderful puzzle game Fish Fillets from ALTAR..",
+   "<a href=\"http://fillets.sourceforge.net/download.php\">Link</a>",
+   "Puzzle",
+   "mature / inactive since 2011",
+   "port",
+   "<a href=\"https://git.code.sf.net/p/fillets/code-fillets-ng\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
    "Flare Engine (<a href=\"https://github.com/clintbellanger/flare-engine\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/flare_engine.md\">entry</a>)",
    "Flare (Free Libre Action Roleplaying Engine) is a simple..",
    "<a href=\"http://www.flarerpg.org/\">Link</a>",
@@ -1061,6 +1070,15 @@
    "mature / active",
    "",
    "<a href=\"https://github.com/clintbellanger/flare-engine.git\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
+   "FlightGear (<a href=\"https://www.flightgear.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/simulation/flightgear.md\">entry</a>)",
+   "Flight simulator developed since 1997.",
+   "<a href=\"https://www.flightgear.org/download/\">Link</a>",
+   "Simulation",
+   "mature / active",
+   "",
+   "<a href=\"https://git.code.sf.net/p/flightgear/flightgear\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Flixel (<a href=\"http://flixel.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/flixel.md\">entry</a>)",
@@ -1243,6 +1261,15 @@
    "<a href=\"https://github.com/topherredden/freestars.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
+   "Frozen Bubble (<a href=\"http://frozen-bubble.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/puzzle/frozen_bubble.md\">entry</a>)",
+   "Clone of Puzzle Bobble, a tile-matching puzzle game.",
+   "<a href=\"http://www.frozen-bubble.org/downloads/\">Link</a>",
+   "Puzzle",
+   "mature / inactive since 2012",
+   "",
+   "<a href=\"https://github.com/kthakore/frozen-bubble.git\">Source</a> - Perl - GPL-2.0"
+  ],
+  [
    "Fujo (<a href=\"http://sheep.art.pl/Fujo\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/fujo.md\">entry</a>)",
    "Fairly classical roguelike, but with animated graphics.",
    "",
@@ -1261,7 +1288,7 @@
    "<a href=\"https://bitbucket.org/czirkoszoltan/gdash.git\">Source</a> - C++ - MIT"
   ],
   [
-   "GM Tools (<a href=\"https://sourceforge.net/projects/gm-tools/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/misc/gm_tools.md\">entry</a>)",
+   "GM Tools (<a href=\"https://sourceforge.net/projects/gm-tools/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tools/gm_tools.md\">entry</a>)",
    "Game/Dungeon Master aid for role playing.",
    "<a href=\"https://sourceforge.net/projects/gm-tools/files\">Link</a>",
    "Tools & Manuals",
@@ -1558,7 +1585,7 @@
    "<a href=\"https://github.com/jdmonin/JSettlers2.git\">Source</a> - Java - GPL-3.0"
   ],
   [
-   "JaNaG - Java Name Generator (<a href=\"https://www.beimax.de/janag/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/misc/java_ng.md\">entry</a>)",
+   "JaNaG - Java Name Generator (<a href=\"https://www.beimax.de/janag/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tools/java_ng.md\">entry</a>)",
    "Java random name generator for role-games, authors, and..",
    "<a href=\"https://www.beimax.de/fileadmin/downloads/janag/JaNaG_GUI.jar\">Link</a>",
    "Tools & Manuals",
@@ -1900,6 +1927,15 @@
    "<a href=\"https://github.com/simhacker/micropolis.git\">Source</a> - C++, Java, Python - GPL-3.0"
   ],
   [
+   "Minetest (<a href=\"https://www.minetest.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/minetest.md\">entry</a>)",
+   "Voxel game engine.",
+   "<a href=\"https://www.minetest.net/downloads/\">Link</a>",
+   "Engines & Frameworks",
+   "mature / active",
+   "voxel",
+   "<a href=\"https://github.com/minetest/minetest.git\">Source</a> - C++, Lua - LGPL-2.1"
+  ],
+  [
    "MonoGame (<a href=\"http://www.monogame.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/monogame.md\">entry</a>)",
    "Open Source implementation of the Microsoft XNA 4 Framework.",
    "<a href=\"http://www.monogame.net/downloads/\">Link</a>",
@@ -1909,7 +1945,7 @@
    "<a href=\"https://github.com/MonoGame/MonoGame.git\">Source</a> - C# - MPL"
   ],
   [
-   "Monster Generator (<a href=\"https://sourceforge.net/projects/monstergenerato/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/misc/monster_generator.md\">entry</a>)",
+   "Monster Generator (<a href=\"https://sourceforge.net/projects/monstergenerato/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tools/monster_generator.md\">entry</a>)",
    "Creates D&D monsters of CR 1-50 for use with the..",
    "<a href=\"https://sourceforge.net/projects/monstergenerato/files/\">Link</a>",
    "Tools & Manuals",
@@ -1988,6 +2024,15 @@
    "beta / active",
    "online, MP, RTS",
    "<a href=\"https://github.com/BackupTheBerlios/netpanzer-svn.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "Netrek (<a href=\"http://www.netrek.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/netrek.md\">entry</a>)",
+   "Multi-player battle simulation with a Star Trek theme.",
+   "<a href=\"http://www.netrek.org/downloads/\">Link</a>",
+   "Action/Arcade",
+   "mature / inactive since 2009",
+   "multiplayer, online",
+   "<a href=\"http://netrek.cvs.sourceforge.net\">Source</a> - ?"
   ],
   [
    "O.H.R.RPG.C.E (<a href=\"http://rpg.hamsterrepublic.com/ohrrpgce/Main_Page\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/ohrrpgce.md\">entry</a>)",
@@ -2071,7 +2116,7 @@
    "<a href=\"https://github.com/akarnokd/open-ig.git\">Source</a> - Java - GPL-3.0"
   ],
   [
-   "Open Legend RPG (<a href=\"http://www.openlegendrpg.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/misc/open_legend_rpg.md\">entry</a>)",
+   "Open Legend RPG (<a href=\"http://www.openlegendrpg.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tools/open_legend_rpg.md\">entry</a>)",
    "A tabletop roleplaying game (or RPG) in which the players..",
    "",
    "Tools & Manuals",
@@ -2141,15 +2186,6 @@
    "beta / inactive since 2014",
    "",
    "<a href=\"https://github.com/opentibia/server.git\">Source</a> - C++ - GPL-2.0"
-  ],
-  [
-   "Open Transport Tycoon (<a href=\"http://www.openttd.org/en/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/simulation/open_transport_tycoon.md\">entry</a>)",
-   "OpenTTD is an open source simulation game based upon the..",
-   "<a href=\"http://www.openttd.org/en/download-stable\">Link</a>",
-   "Simulation",
-   "mature / active",
-   "",
-   "<a href=\"https://github.com/OpenTTD/OpenTTD.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Open Zelda (<a href=\"https://github.com/openzelda/openzelda-source\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/open_zelda.md\">entry</a>)",
@@ -2224,10 +2260,10 @@
    "<a href=\"https://github.com/OpenRA/OpenRA.git\">Source</a> - C# - GPL-3.0"
   ],
   [
-   "OpenRCT2 (<a href=\"https://openrct2.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/open_rct2.md\">entry</a>)",
+   "OpenRCT2 (<a href=\"https://openrct2.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/simulation/open_rct2.md\">entry</a>)",
    "Re-implementation of RollerCoaster Tycoon 2 (RCT2),..",
    "<a href=\"https://openrct2.org/downloads\">Link</a>",
-   "Strategy",
+   "Simulation",
    "beta / active",
    "remake, requires original content",
    "<a href=\"https://github.com/OpenRCT2/OpenRCT2.git\">Source</a> - C++ - GPL-3.0"
@@ -2267,6 +2303,15 @@
    "beta / active",
    "online, sports",
    "<a href=\"https://github.com/delight-im/OpenSoccer.git\">Source</a> - PHP - GPL-3.0"
+  ],
+  [
+   "OpenTTD (<a href=\"http://www.openttd.org/en/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/simulation/open_ttd.md\">entry</a>)",
+   "OpenTTD is an open source simulation game based upon the..",
+   "<a href=\"http://www.openttd.org/en/download-stable\">Link</a>",
+   "Simulation",
+   "mature / active",
+   "",
+   "<a href=\"https://github.com/OpenTTD/OpenTTD.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "OpenWebSoccer-Sim (<a href=\"https://github.com/ihofmann/open-websoccer\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/open_web_soccer.md\">entry</a>)",
@@ -2350,7 +2395,7 @@
    "<a href=\"http://hg.assembla.com/parpg-core\">Source</a> - Python - GPL-3.0"
   ],
   [
-   "PCGen (<a href=\"http://pcgen.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/misc/pcgen.md\">entry</a>)",
+   "PCGen (<a href=\"http://pcgen.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tools/pcgen.md\">entry</a>)",
    "RPG Character Generator",
    "<a href=\"http://pcgen.org/download/\">Link</a>",
    "Tools & Manuals",
@@ -2476,7 +2521,7 @@
    "<a href=\"https://github.com/GerHobbelt/pthread-win32.git\">Source</a> - C - LGPL-2.1"
   ],
   [
-   "Pymapper (<a href=\"http://pymapper.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/misc/pymapper.md\">entry</a>)",
+   "Pymapper (<a href=\"http://pymapper.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tools/pymapper.md\">entry</a>)",
    "Map making utility used for role-playing games.",
    "<a href=\"http://pymapper.com/downloads/\">Link</a>",
    "Tools & Manuals",
@@ -2512,7 +2557,7 @@
    "<a href=\"https://github.com/REGoth-project/REGoth.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
-   "RPDungeon - computer aided role playing (<a href=\"https://sourceforge.net/projects/rpdungeon/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/misc/rpdungeon.md\">entry</a>)",
+   "RPDungeon - computer aided role playing (<a href=\"https://sourceforge.net/projects/rpdungeon/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tools/rpdungeon.md\">entry</a>)",
    "Collection of programs and libraries for pen and paper..",
    "<a href=\"https://sourceforge.net/projects/rpdungeon/files\">Link</a>",
    "Tools & Manuals",
@@ -2593,7 +2638,7 @@
    "<a href=\"https://github.com/CamHenlin/Roguish.git\">Source</a> - JavaScript - 3-clause BSD"
   ],
   [
-   "Rolemaster Office (<a href=\"https://sourceforge.net/projects/rmoffice/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/misc/rolemaster_office.md\">entry</a>)",
+   "Rolemaster Office (<a href=\"https://sourceforge.net/projects/rmoffice/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tools/rolemaster_office.md\">entry</a>)",
    "PC and NPC character generator for Rolemaster RMFRP..",
    "<a href=\"https://sourceforge.net/projects/rmoffice/files\">Link</a>",
    "Tools & Manuals",
@@ -2602,7 +2647,7 @@
    "<a href=\"https://git.code.sf.net/p/rmoffice/code\">Source</a> - Java - Apache-2.0"
   ],
   [
-   "Rolisteam (<a href=\"http://www.rolisteam.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/misc/rolisteam.md\">entry</a>)",
+   "Rolisteam (<a href=\"http://www.rolisteam.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tools/rolisteam.md\">entry</a>)",
    "Virtual tabletop software.",
    "<a href=\"http://www.rolisteam.org/download.html\">Link</a>",
    "Tools & Manuals",
@@ -3241,6 +3286,15 @@
    "<a href=\"https://github.com/unknown-horizons/unknown-horizons.git\">Source</a> - Python - GPL-2.0"
   ],
   [
+   "Unvanquished (<a href=\"https://unvanquished.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/unvanquished.md\">entry</a>)",
+   "FPS/RTS hybrid game powered by the Daemon engine (a..",
+   "<a href=\"https://unvanquished.net/?page_id=318\">Link</a>",
+   "Action/Arcade",
+   "mature / active",
+   "shooter",
+   "<a href=\"https://github.com/Unvanquished/Unvanquished.git\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
    "Urho3D (<a href=\"https://urho3d.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/urho3d.md\">entry</a>)",
    "Urho3D is a free lightweight, cross-platform 2D and 3D..",
    "<a href=\"https://sourceforge.net/projects/urho3d/files/Urho3D/\">Link</a>",
@@ -3376,7 +3430,7 @@
    "<a href=\"http://git.pond.sub.org/empserver\">Source</a> - C - GPL-3.0"
   ],
   [
-   "World Builder (<a href=\"https://sourceforge.net/projects/worldbuilder/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/misc/world_builder.md\">entry</a>)",
+   "World Builder (<a href=\"https://sourceforge.net/projects/worldbuilder/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tools/world_builder.md\">entry</a>)",
    "Randomly generates scientifically-plausible solar systems,..",
    "<a href=\"https://sourceforge.net/projects/worldbuilder/files/\">Link</a>",
    "Tools & Manuals",

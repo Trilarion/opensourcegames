@@ -8,7 +8,7 @@ _Sandbox game inspired by Minecraft._
 - Code language: C++, Lua
 - Code license: GPL-3.0
 
-Home page of project currently empty.
+Fork of minetest. Home page of project currently empty. 
 
 ## Building
 

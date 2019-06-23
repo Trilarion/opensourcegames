@@ -1,4 +1,4 @@
-# Open Transport Tycoon
+# OpenTTD
 
 _OpenTTD is an open source simulation game based upon the popular Microprose game "Transport Tycoon Deluxe"._
 

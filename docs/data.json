@@ -649,6 +649,15 @@
    "<a href=\"https://gitlab.com/osgames/conquests.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
+   "Core War (<a href=\"https://corewar.co.uk/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/simulation/corewar.md\">entry</a>)",
+   "Two or more battle programs (called \"warriors\") compete..",
+   "",
+   "Simulation",
+   "mature / active",
+   "programming",
+   "<a href=\"http://corewar.cvs.sourceforge.net\">Source</a> - ?"
+  ],
+  [
    "Corsix Theme Hospital (<a href=\"http://forums.corsixth.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/theme_hospital.md\">entry</a>)",
    "Reimplementation of the 1997 Bullfrog business sim Theme..",
    "<a href=\"https://github.com/CorsixTH/CorsixTH/releases\">Link</a>",
@@ -701,6 +710,15 @@
    "beta / inactive since 2016",
    "SP",
    "<a href=\"https://git.code.sf.net/p/dnt/code\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
+   "DRL (<a href=\"https://drl.chaosforge.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/drl.md\">entry</a>)",
+   "Fast and furious coffee-break Roguelike game that is..",
+   "<a href=\"https://drl.chaosforge.org/downloads\">Link</a>",
+   "Role Playing",
+   "mature / active",
+   "roguelike",
+   "<a href=\"https://github.com/ChaosForge/doomrl.git\">Source</a> - Lua, Pascal - GPL-2.0"
   ],
   [
    "Daimonin (<a href=\"https://www.daimonin.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/daimonin.md\">entry</a>)",
@@ -1000,6 +1018,15 @@
    "<a href=\"https://github.com/endless-sky/endless-sky.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
+   "Enigma (<a href=\"http://www.nongnu.org/enigma/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/puzzle/enigma.md\">entry</a>)",
+   "Puzzle game based on Oxyd.",
+   "<a href=\"http://www.nongnu.org/enigma/download.html#stable\">Link</a>",
+   "Puzzle",
+   "mature / active",
+   "",
+   "<a href=\"https://github.com/Enigma-Game/Enigma.git\">Source</a> - C, C++ - GPL-2.0"
+  ],
+  [
    "Eos, Dawn of Light: A Space Opera (<a href=\"https://sourceforge.net/projects/eos-game/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/eos_dawn_of_light.md\">entry</a>)",
    "Space adventure game with elements of arcade and strategy.",
    "<a href=\"https://sourceforge.net/projects/eos-game/files\">Link</a>",
@@ -1288,6 +1315,15 @@
    "<a href=\"https://git.savannah.gnu.org/git/freedink.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
+   "Freedoom (<a href=\"https://freedoom.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/freedoom.md\">entry</a>)",
+   "Open content for the Doom engine.",
+   "<a href=\"https://freedoom.github.io/download.html\">Link</a>",
+   "Action/Arcade",
+   "beta / active",
+   "engine required",
+   "<a href=\"https://github.com/freedoom/freedoom.git\">Source</a> - Python - BSD"
+  ],
+  [
    "FreedroidRPG (<a href=\"http://www.freedroid.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/freedroid.md\">entry</a>)",
    "Open source role playing game.",
    "<a href=\"http://www.freedroid.org/download/\">Link</a>",
@@ -1351,6 +1387,15 @@
    "<a href=\"https://bitbucket.org/czirkoszoltan/gdash.git\">Source</a> - C++ - MIT"
   ],
   [
+   "GLtron (<a href=\"http://www.gltron.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/gltron.md\">entry</a>)",
+   "3D snake game based on the light cycle portion of the film..",
+   "<a href=\"http://www.gltron.org/download.php\">Link</a>",
+   "Action/Arcade",
+   "beta / inactive since 2016",
+   "snake-like",
+   "<a href=\"https://git.code.sf.net/p/gltron/git\">Source</a> - C - GPL"
+  ],
+  [
    "GM Tools (<a href=\"https://sourceforge.net/projects/gm-tools/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tools/gm_tools.md\">entry</a>)",
    "Game/Dungeon Master aid for role playing.",
    "<a href=\"https://sourceforge.net/projects/gm-tools/files\">Link</a>",
@@ -1385,6 +1430,15 @@
    "beta / active",
    "",
    "<a href=\"https://github.com/snauts/game-lv.git\">Source</a> - C++ - GPL"
+  ],
+  [
+   "Gang Garrison 2 (<a href=\"https://www.ganggarrison.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/gang_garrison2.md\">entry</a>)",
+   "Multiplayer 'demake' of Team Fortress 2.",
+   "<a href=\"https://www.ganggarrison.com/downloads.html\">Link</a>",
+   "Action/Arcade",
+   "mature / active",
+   "demake",
+   "<a href=\"https://github.com/Gang-Garrison-2/Gang-Garrison-2.git\">Source</a> - Game Maker Script - MPL"
   ],
   [
    "GearHead (<a href=\"http://www.gearheadrpg.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/gearhead.md\">entry</a>)",
@@ -1583,6 +1637,15 @@
    "beta / inactive since 2013",
    "action-rpg",
    "<a href=\"https://gitlab.com/osgames/lechemindeladam.git\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
+   "HyperRogue (<a href=\"http://roguetemple.com/z/hyper/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/hyperrogue.md\">entry</a>)",
+   "Roguelike inspired by the puzzle game Deadly Rooms of..",
+   "<a href=\"http://roguetemple.com/z/hyper/download.php\">Link</a>",
+   "Role Playing",
+   "mature / active",
+   "roguelike",
+   "<a href=\"https://github.com/zenorogue/hyperrogue.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Ilarion (<a href=\"http://illarion.org/general/de_startpage.php\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/ilarion.md\">entry</a>)",
@@ -3167,6 +3230,15 @@
    "mature / active",
    "3D",
    "<a href=\"https://github.com/MovingBlocks/Terasology.git\">Source</a> - Java - Apache-2.0"
+  ],
+  [
+   "TetraVex (<a href=\"https://github.com/Lisergishnu/TetraVex\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/puzzle/tetravex.md\">entry</a>)",
+   "A port of TetraVex for macOS.",
+   "<a href=\"https://github.com/Lisergishnu/TetraVex/releases\">Link</a>",
+   "Puzzle",
+   "beta / active",
+   "port",
+   "<a href=\"https://github.com/Lisergishnu/TetraVex.git\">Source</a> - Swift - GPL-3.0"
   ],
   [
    "The Clans (<a href=\"http://theclans.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/the_clans.md\">entry</a>)",

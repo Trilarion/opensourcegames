@@ -1,16 +1,19 @@
-# TetraVex for macOS
+# TetraVex
 
-A port of TetraVex for macOS
+_A port of TetraVex for macOS._
 
 - Home: https://github.com/Lisergishnu/TetraVex
 - State: beta
 - Download: https://github.com/Lisergishnu/TetraVex/releases
 - Platform: macOS
-- Keywords: macOS, Win3.1
-- Code repository: https://github.com/Lisergishnu/TetraVex
+- Keywords: port
+- Code repository: https://github.com/Lisergishnu/TetraVex.git
 - Code language: Swift
+- Code license: GPL-3.0
 - Code dependencies: Cocoa
-- Code licence: GPL-3.0
+
+
+Original was part of the [Microsoft Entertainment Pack 3](https://en.wikipedia.org/wiki/Microsoft_Entertainment_Pack#Microsoft_Entertainment_Pack_3) published in 1991.
 
 ## Building
 

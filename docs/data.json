@@ -2251,6 +2251,15 @@
    "<a href=\"https://git.octaforge.org/OctaForge/OctaCore.git\">Source</a> - C++ - Custom"
   ],
   [
+   "Oolite (<a href=\"http://oolite.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/simulation/oolite.md\">entry</a>)",
+   "3D space trading and combat simulator in the spirit of..",
+   "<a href=\"http://oolite.org/download/\">Link</a>",
+   "Simulation",
+   "mature / active",
+   "space",
+   "<a href=\"https://github.com/OoliteProject/oolite.git\">Source</a> - Objective-C, C, Javascript - GPL-2.0"
+  ],
+  [
    "Open AL (<a href=\"http://www.openal.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/library/open_al.md\">entry</a>)",
    "Cross-platform audio application programming interface..",
    "<a href=\"http://www.openal.org/downloads/\">Link</a>",
@@ -2377,6 +2386,15 @@
    "<a href=\"https://github.com/openzelda/openzelda-source.git\">Source</a> - C++ - zlib"
   ],
   [
+   "OpenArena (<a href=\"http://openarena.ws/smfnews.php\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/openarena.md\">entry</a>)",
+   "First-person shooter (FPS), and a video game clone of..",
+   "<a href=\"http://openarena.ws/download.php\">Link</a>",
+   "Action/Arcade",
+   "mature / inactive since 2012",
+   "shooter",
+   "<a href=\"https://github.com/OpenArena/engine.git\">Source</a> - C - GPL-2.0"
+  ],
+  [
    "OpenCity (<a href=\"http://www.opencity.info/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/simulation/open_city.md\">entry</a>)",
    "Another 3D city simulator.",
    "<a href=\"http://www.opencity.info/en/Download.html\">Link</a>",
@@ -2384,6 +2402,15 @@
    "beta / active",
    "",
    "<a href=\"https://svn.code.sf.net/p/opencity/code/\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "OpenClonk (<a href=\"https://www.openclonk.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/openclonk.md\">entry</a>)",
+   "2D action game in which the player controls small but..",
+   "<a href=\"https://www.openclonk.org/download/\">Link</a>",
+   "Action/Arcade",
+   "mature / active",
+   "",
+   "<a href=\"https://github.com/openclonk/openclonk.git\">Source</a> - C, C++ - ISC"
   ],
   [
    "OpenFL (<a href=\"http://www.openfl.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/open_fl.md\">entry</a>)",
@@ -2665,6 +2692,15 @@
    "<a href=\"https://gitlab.com/osgames/planets.git\">Source</a> - Java - GPL-2.0"
   ],
   [
+   "PokerTH (<a href=\"https://www.pokerth.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/pokerth.md\">entry</a>)",
+   "Texas Hold'em poker game playable against up to nine..",
+   "<a href=\"https://www.pokerth.net/download\">Link</a>",
+   "Strategy",
+   "mature / inactive since 2017",
+   "poker, online",
+   "<a href=\"https://github.com/pokerth/pokerth.git\">Source</a> - C++ - AGPL-3.0"
+  ],
+  [
    "Polis (<a href=\"https://code.google.com/archive/p/polisgame/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/polis.md\">entry</a>)",
    "Turn based strategy game, ambiented in ancient Greece.",
    "",
@@ -2699,6 +2735,15 @@
    "mature / active",
    "",
    "<a href=\"https://github.com/GerHobbelt/pthread-win32.git\">Source</a> - C - LGPL-2.1"
+  ],
+  [
+   "PySol (<a href=\"http://www.pysol.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/pysol.md\">entry</a>)",
+   "1,000 solitaire games.",
+   "<a href=\"http://www.pysol.org/#download\">Link</a>",
+   "Strategy",
+   "mature / inactive since 2004",
+   "cards",
+   "Python - GPL-2.0"
   ],
   [
    "Pymapper (<a href=\"http://pymapper.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tools/pymapper.md\">entry</a>)",
@@ -3349,6 +3394,15 @@
    "<a href=\"https://github.com/thousandparsec/tpserver-cpp.git\">Source</a> - C++, Python - GPL-2.0"
   ],
   [
+   "Tremulous (<a href=\"http://tremulous.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/tremulous.md\">entry</a>)",
+   "Asymmetric team-based first-person shooter with real-time..",
+   "<a href=\"http://tremulous.net/files/\">Link</a>",
+   "Action/Arcade",
+   "mature / inactive since 2016",
+   "shooter",
+   "<a href=\"https://github.com/darklegion/tremulous.git\">Source</a> - C - GPL-2.0"
+  ],
+  [
    "Trinity Reign (<a href=\"https://web.archive.org/web/20131209073248/http://trinity-reign.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/trinity_reign.md\">entry</a>)",
    "Cross-platform, open source 3D IMOW (Immersive Multiplayer..",
    "",
@@ -3437,6 +3491,15 @@
    "beta / inactive since 2011",
    "console",
    "<a href=\"https://github.com/nhydock/UlDunAd.git\">Source</a> - Python - GPL-3.0"
+  ],
+  [
+   "UltraStar (<a href=\"https://sourceforge.net/projects/ultrastar/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/ultrastar.md\">entry</a>)",
+   "Clone of SingStar, a music video game.",
+   "<a href=\"https://sourceforge.net/projects/ultrastar/files/\">Link</a>",
+   "Action/Arcade",
+   "mature / inactive since 2010",
+   "karaoke",
+   "<a href=\"https://svn.code.sf.net/p/ultrastar/code/\">Source</a> - Pascal - ?"
   ],
   [
    "Umbra (<a href=\"http://markdamonhughes.com/Umbra/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/umbra.md\">entry</a>)",
@@ -3673,6 +3736,15 @@
    "<a href=\"https://gitlab.com/osgames/xforceffd.git\">Source</a> - Pascal - GPL-2.0"
   ],
   [
+   "X-Moto (<a href=\"http://xmoto.tuxfamily.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/x-moto.md\">entry</a>)",
+   "2D motocross platform game.",
+   "<a href=\"http://xmoto.tuxfamily.org/\">Link</a>",
+   "Action/Arcade",
+   "mature / inactive since 2014",
+   "racing",
+   "C++ - GPL-2.0"
+  ],
+  [
    "XArchon (<a href=\"http://xarchon.seul.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/xarchon.md\">entry</a>)",
    "Modelled after the golden oldie Archon game created by..",
    "<a href=\"http://xarchon.seul.org/download.html\">Link</a>",
@@ -3680,6 +3752,15 @@
    "beta / inactive since 2003",
    "",
    "<a href=\"https://gitlab.com/osgames/xarchon.git\">Source</a> - C, C++ - GPL-2.0"
+  ],
+  [
+   "XPilot (<a href=\"http://www.xpilot.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/xpilot.md\">entry</a>)",
+   "Multi-player 2D space game.",
+   "<a href=\"https://sourceforge.net/projects/xpilotgame/files/\">Link</a>",
+   "Action/Arcade",
+   "mature / inactive since 2010",
+   "space",
+   "<a href=\"http://hg.code.sf.net/p/xpilotgame/xpilotgame\">Source</a> - C - GPL-2.0"
   ],
   [
    "XSera (<a href=\"https://github.com/prophile/xsera\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/xsera.md\">entry</a>)",
@@ -3734,6 +3815,15 @@
    "mature / active",
    "shooter",
    "<a href=\"https://gitlab.com/xonotic/xonotic.git\">Source</a> - C - GPL-3.0"
+  ],
+  [
+   "Yo Frankie! (<a href=\"https://apricot.blender.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/yo_frankie.md\">entry</a>)",
+   "Platform game.",
+   "<a href=\"https://apricot.blender.org/\">Link</a>",
+   "Action/Arcade",
+   "mature / inactive since 2009",
+   "",
+   "Blender script - ?"
   ],
   [
    "ZAngband (<a href=\"http://www.zangband.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/zangband.md\">entry</a>)",

@@ -12,6 +12,7 @@
 - **[LinCity](lincity.md)** (C, GPL-2.0, mature, inactive since 2005)
 - **[LinCity-NG](lincity_ng.md)** (C++, GPL, mature)
 - **[Micropolis](micropolis.md)** (C++, Java, Python, GPL-3.0, mature)
+- **[Oolite](oolite.md)** (Objective-C, C, Javascript, GPL-2.0, mature)
 - **[Open Rails](open_rails.md)** (C#, GPL-3.0, mature)
 - **[OpenCity](open_city.md)** (C++, GPL-2.0, beta)
 - **[OpenRCT2](open_rct2.md)** (C++, GPL-3.0, beta)

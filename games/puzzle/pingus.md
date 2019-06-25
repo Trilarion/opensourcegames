@@ -3,6 +3,7 @@
 _Lemmings(tm)-like puzzle game._
 
 - Home: https://pingus.seul.org/index.html
+- Media: https://en.wikipedia.org/wiki/Pingus
 - State: mature
 - Download: https://pingus.seul.org/download.html
 - Platform: Windows, Linux, macOS

@@ -2,3 +2,4 @@
 /tools/archive/**
 /tools/conversion/**
 __pycache__
+/is_already_included.txt

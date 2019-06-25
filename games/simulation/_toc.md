@@ -8,6 +8,7 @@
 - **[FlightGear](flightgear.md)** (C++, GPL-2.0, mature)
 - **[FreeTrain](freetrain.md)** (C#, LGPL-2.1, beta, inactive since 2009)
 - **[Freeminer](freeminer.md)** (C++, Lua, GPL-3.0, beta)
+- **[Infiniminer](infiniminer.md)** (C#, MIT, mature, inactive since 2016)
 - **[LinCity](lincity.md)** (C, GPL-2.0, mature, inactive since 2005)
 - **[LinCity-NG](lincity_ng.md)** (C++, GPL, mature)
 - **[Micropolis](micropolis.md)** (C++, Java, Python, GPL-3.0, mature)

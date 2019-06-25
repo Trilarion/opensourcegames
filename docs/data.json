@@ -1666,6 +1666,15 @@
    "?"
   ],
   [
+   "Infiniminer (<a href=\"http://www.zachtronics.com/infiniminer/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/simulation/infiniminer.md\">entry</a>)",
+   "Multi-player block-based sandbox building and digging game.",
+   "<a href=\"https://code.google.com/archive/p/infiniminer/source/default/source\">Link</a>",
+   "Simulation",
+   "mature / inactive since 2016",
+   "sandbox, blocks",
+   "C# - MIT"
+  ],
+  [
    "Irrlicht Engine (<a href=\"http://irrlicht.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/irrlicht.md\">entry</a>)",
    "The Irrlicht Engine is an open source high performance..",
    "<a href=\"http://irrlicht.sourceforge.net/?page_id=10\">Link</a>",
@@ -1882,6 +1891,15 @@
    "<a href=\"https://git.code.sf.net/p/lipsofsuna/code\">Source</a> - C - GPL-3.0"
   ],
   [
+   "Liquid War (<a href=\"https://ufoot.org/liquidwar/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/liquid_war.md\">entry</a>)",
+   "Multi-player action game based on particle flow mechanic.",
+   "<a href=\"http://download.savannah.gnu.org/releases/liquidwar6/\">Link</a>",
+   "Action/Arcade",
+   "mature / inactive since 2015",
+   "multiplayer",
+   "<a href=\"https://git.savannah.gnu.org/git/liquidwar6.git\">Source</a> - C - GPL-3.0"
+  ],
+  [
    "LordsAWar! (<a href=\"http://www.nongnu.org/lordsawar/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/lordsawar.md\">entry</a>)",
    "LordsAWar! is a free, turn-based strategy game where up to..",
    "",
@@ -1898,6 +1916,15 @@
    "mature / active",
    "",
    "<a href=\"https://github.com/lua/lua.git\">Source</a> - C - MIT"
+  ],
+  [
+   "Lugaru (<a href=\"https://osslugaru.gitlab.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/lugaru.md\">entry</a>)",
+   "Cross-platform third-person action game with an..",
+   "<a href=\"https://osslugaru.gitlab.io/\">Link</a>",
+   "Action/Arcade",
+   "mature / active",
+   "",
+   "<a href=\"https://gitlab.com/osslugaru/lugaru.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Lumix Engine (<a href=\"https://github.com/nem0/lumixengine\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/lumix.md\">entry</a>)",
@@ -1934,6 +1961,15 @@
    "beta / inactive since 2003",
    "",
    "<a href=\"https://gitlab.com/osgames/machinations.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "Maelstrom (<a href=\"https://www.libsdl.org/projects/Maelstrom/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/maelstrom.md\">entry</a>)",
+   "Enhanced clone of Atari's 1979 Asteroids arcade game with..",
+   "<a href=\"https://www.libsdl.org/projects/Maelstrom/binary.html\">Link</a>",
+   "Action/Arcade",
+   "mature / inactive since 2002",
+   "arcade, shooter",
+   "C++ - GPL-2.0"
   ],
   [
    "Magarena (<a href=\"http://magarena.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/magarena.md\">entry</a>)",
@@ -2159,6 +2195,24 @@
    "mature / inactive since 2009",
    "multiplayer, online",
    "<a href=\"http://netrek.cvs.sourceforge.net\">Source</a> - ?"
+  ],
+  [
+   "Neverball (<a href=\"https://neverball.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/neverball.md\">entry</a>)",
+   "Part puzzle game, part action game, and entirely a test of..",
+   "<a href=\"https://neverball.org/download.php\">Link</a>",
+   "Action/Arcade",
+   "mature / active",
+   "",
+   "<a href=\"https://github.com/Neverball/neverball.git\">Source</a> - C - GPL-2.0"
+  ],
+  [
+   "Nexiuz (<a href=\"http://www.alientrap.com/games/nexuiz/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/nexiuz.md\">entry</a>)",
+   "First-person shooter video game.",
+   "<a href=\"https://sourceforge.net/projects/nexuiz/files/\">Link</a>",
+   "Action/Arcade",
+   "mature / active",
+   "shooter",
+   "?"
   ],
   [
    "O.H.R.RPG.C.E (<a href=\"http://rpg.hamsterrepublic.com/ohrrpgce/Main_Page\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/ohrrpgce.md\">entry</a>)",
@@ -3761,6 +3815,15 @@
    "mature / active",
    "",
    "<a href=\"https://github.com/jMonkeyEngine/jmonkeyengine.git\">Source</a> - Java - 3-clause BSD"
+  ],
+  [
+   "kiki the nano bot (<a href=\"http://kiki.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/puzzle/kiki_the_nano_bot.md\">entry</a>)",
+   "3-D puzzle game, a mixture of the games Sokoban and Kula-..",
+   "<a href=\"http://kiki.sourceforge.net/download/index.html\">Link</a>",
+   "Puzzle",
+   "mature / inactive since 2007",
+   "",
+   "<a href=\"http://kiki.cvs.sourceforge.net\">Source</a> - ?"
   ],
   [
    "libGDX (<a href=\"http://libgdx.badlogicgames.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/libgdx.md\">entry</a>)",

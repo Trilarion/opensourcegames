@@ -10,7 +10,7 @@
  ],
  "data": [
   [
-   "0AD (<a href=\"https://play0ad.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/0ad.md\">entry</a>)",
+   "0 A.D. (<a href=\"https://play0ad.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/0ad.md\">entry</a>)",
    "0 A.D. is a free, open-source, cross-platform real-time..",
    "<a href=\"https://play0ad.com/download/\">Link</a>",
    "Strategy",
@@ -277,7 +277,7 @@
    "Action/Arcade",
    "mature / active",
    "shooter",
-   "<a href=\"https://github.com/BZFlag-Dev/bzflag.git\">Source</a> - C++ - LPGL-2.1"
+   "<a href=\"https://github.com/BZFlag-Dev/bzflag.git\">Source</a> - C++ - LGPL-2.1"
   ],
   [
    "Ballerburg (<a href=\"http://www.eckhardkruse.net/atari_st/baller.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/ballerburg.md\">entry</a>)",
@@ -286,10 +286,10 @@
    "Action/Arcade",
    "mature / inactive since 1987",
    "artillery",
-   "C - PD"
+   "C - Public Domain"
   ],
   [
-   "Battle for Wesnoth (<a href=\"http://www.wesnoth.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/wesnoth.md\">entry</a>)",
+   "Battle for Wesnoth (<a href=\"http://www.wesnoth.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/battle_for_wesnoth.md\">entry</a>)",
    "The Battle for Wesnoth is an open source, turn-based..",
    "<a href=\"http://www.wesnoth.org/#download\">Link</a>",
    "Strategy",
@@ -565,7 +565,7 @@
    "Action/Arcade",
    "mature / active",
    "shooter, top-down",
-   "<a href=\"https://git.code.sf.net/p/chromium-bsu/code\">Source</a> - C++ - Artistic"
+   "<a href=\"https://git.code.sf.net/p/chromium-bsu/code\">Source</a> - C++ - Artistic License"
   ],
   [
    "CivOne (<a href=\"https://www.civone.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/civone.md\">entry</a>)",
@@ -2035,7 +2035,7 @@
    "<a href=\"https://github.com/MegaGlest/megaglest-source.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
-   "Megamek (<a href=\"https://www.megamek.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/megamek.md\">entry</a>)",
+   "MegaMek (<a href=\"https://www.megamek.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/megamek.md\">entry</a>)",
    "Unofficial, online version of the Classic BattleTech board..",
    "<a href=\"https://www.megamek.org/downloads\">Link</a>",
    "Strategy",
@@ -3178,7 +3178,7 @@
    "<a href=\"https://gitlab.com/osgames/spicetrade.git\">Source</a> - Java - LGPL-2.0"
   ],
   [
-   "Spring RTS engine (<a href=\"https://springrts.com/wiki/Main_Page\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/spring.md\">entry</a>)",
+   "Spring RTS engine (<a href=\"https://springrts.com/wiki/Main_Page\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/spring_rts_engine.md\">entry</a>)",
    "Game engine for real-time strategy (RTS) video games.",
    "<a href=\"https://springrts.com/wiki/Download\">Link</a>",
    "Strategy",
@@ -3259,7 +3259,7 @@
    "<a href=\"https://bitbucket.org/sumwars/sumwars-code/src\">Source</a> - C++ - GPL-3.0"
   ],
   [
-   "SuperTuxKart (<a href=\"https://supertuxkart.net/Main_Page\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/super_tux_kart.md\">entry</a>)",
+   "SuperTuxKart (<a href=\"https://supertuxkart.net/Main_Page\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/supertuxkart.md\">entry</a>)",
    "Kart racing game.",
    "<a href=\"https://supertuxkart.net/Download\">Link</a>",
    "Action/Arcade",
@@ -3421,6 +3421,15 @@
    "<a href=\"https://github.com/triplea-game/triplea.git\">Source</a> - Java - GPL-2.0"
   ],
   [
+   "Tumiki Fighters (<a href=\"https://sourceforge.net/projects/tumiki/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/tumiki_fighters.md\">entry</a>)",
+   "Side-scrolling shooter.",
+   "<a href=\"https://sourceforge.net/projects/tumiki/files/tumiki/\">Link</a>",
+   "Action/Arcade",
+   "mature / inactive since 2005",
+   "shooter",
+   "D - 2-clause BSD"
+  ],
+  [
    "Turious (<a href=\"https://gitorious.org/turious/turious/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/turious.md\">entry</a>)",
    "Turn-Based Strategy Game.",
    "",
@@ -3439,7 +3448,7 @@
    "<a href=\"https://github.com/EdwardWoodhouse/Turn-of-War.git\">Source</a> - Java - GPL-3.0"
   ],
   [
-   "Tux Racer (<a href=\"http://tuxracer.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/tuxracer.md\">entry</a>)",
+   "Tux Racer (<a href=\"http://tuxracer.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/tux_racer.md\">entry</a>)",
    "Racing game featuring Tux, the Linux Penguin.",
    "<a href=\"https://sourceforge.net/projects/tuxracer/files/\">Link</a>",
    "Action/Arcade",
@@ -3574,7 +3583,7 @@
    "<a href=\"https://github.com/ValyriaTear/ValyriaTear.git\">Source</a> - Lua, C++, C - GPL"
   ],
   [
-   "Vega Strike (<a href=\"http://vegastrike.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/vegastrike.md\">entry</a>)",
+   "Vega Strike (<a href=\"http://vegastrike.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/vega_strike.md\">entry</a>)",
    "Vega Strike is a first-person space trading and combat..",
    "<a href=\"http://vegastrike.sourceforge.net/getfiles/\">Link</a>",
    "Engines & Frameworks",
@@ -4012,7 +4021,7 @@
    "Libraries",
    "mature / active",
    "gui toolkit",
-   "<a href=\"https://github.com/wxWidgets/wxWidgets.git\">Source</a> - C++, Objective C - Custom"
+   "<a href=\"https://github.com/wxWidgets/wxWidgets.git\">Source</a> - C++, Objective-C - Custom"
   ],
   [
    "xdigger (<a href=\"https://www.gsp.com/cgi-bin/man.cgi?section=6&topic=xdigger#9\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/xdigger.md\">entry</a>)",

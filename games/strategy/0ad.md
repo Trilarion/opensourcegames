@@ -1,8 +1,8 @@
-# 0AD
+# 0 A.D.
 
 _0 A.D. is a free, open-source, cross-platform real-time strategy game._
 
-- Home: https://play0ad.com/
+- Home: https://play0ad.com/, https://sourceforge.net/projects/zero-ad/
 - Media: <https://en.wikipedia.org/wiki/0_A.D._(video_game)>
 - State: beta
 - Download: https://play0ad.com/download/

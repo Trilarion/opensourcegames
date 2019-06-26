@@ -2,7 +2,7 @@
 
 _Full campaign with optional (but strongly recommended!), videos, battle against four factions, multi-player and single-player skirmish modes, and an extensive tech tree and a full unit designer._
 
-- Home: http://wz2100.net/
+- Home: http://wz2100.net/, https://sourceforge.net/projects/warzone2100/
 - State: mature
 - Download: https://sourceforge.net/projects/warzone2100/files/releases/
 - Keywords: RTS, popular

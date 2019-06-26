@@ -20,7 +20,7 @@
 - **[XZ Utils](xz.md)** (C, Custom, mature)
 - **[libpng](libpng.md)** (C, Custom, mature)
 - **[pkg-config](pkgconfig.md)** (C, GPL-2.0, mature)
-- **[wxWidgets](wxwidgets.md)** (C++, Objective C, Custom, mature)
+- **[wxWidgets](wxwidgets.md)** (C++, Objective-C, Custom, mature)
 - **[yaml-cpp](yaml_cpp.md)** (C++, MIT, mature)
 - **[zlib](zlib.md)** (C, zlib, mature)
 

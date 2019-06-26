@@ -2,7 +2,8 @@
 
 _Another 3D city simulator._
 
-- Home: http://www.opencity.info/, https://en.wikipedia.org/wiki/OpenCity
+- Home: http://www.opencity.info/, https://sourceforge.net/projects/opencity/
+- Media: https://en.wikipedia.org/wiki/OpenCity
 - State: beta
 - Download: http://www.opencity.info/en/Download.html
 - Code repository: https://svn.code.sf.net/p/opencity/code/ (svn), https://sourceforge.net/p/opencity/cvs/ (cvs)

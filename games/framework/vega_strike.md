@@ -2,7 +2,7 @@
 
 _Vega Strike is a first-person space trading and combat simulator._
 
-- Home: http://vegastrike.sourceforge.net/
+- Home: http://vegastrike.sourceforge.net/, https://sourceforge.net/projects/vegastrike/
 - Media: https://en.wikipedia.org/wiki/Vega_Strike
 - State: mature
 - Download: http://vegastrike.sourceforge.net/getfiles/

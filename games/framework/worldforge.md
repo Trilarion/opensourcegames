@@ -2,7 +2,7 @@
 
 _Open source framework for massively multiplayer online role-playing games._
 
-- Home: https://www.worldforge.org/
+- Home: https://www.worldforge.org/, https://sourceforge.net/projects/worldforge/
 - Media: https://en.wikipedia.org/wiki/WorldForge
 - State: mature
 - Download: https://www.worldforge.org/index.php/downloads/

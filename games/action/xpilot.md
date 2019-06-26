@@ -2,7 +2,7 @@
 
 _Multi-player 2D space game._
 
-- Home: http://www.xpilot.org/
+- Home: http://www.xpilot.org/, https://sourceforge.net/projects/xpilotgame/
 - Media: https://en.wikipedia.org/wiki/XPilot
 - State: mature, inactive since 2010
 - Download: https://sourceforge.net/projects/xpilotgame/files/

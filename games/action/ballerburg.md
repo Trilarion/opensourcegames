@@ -8,7 +8,7 @@ _Turnbased Artillery game from 1987._
 - Keywords: artillery
 - Code repository: (see download)
 - Code language: C
-- Code license: PD
+- Code license: Public Domain
 
 See also [Ballerburg SDL](http://baller.tuxfamily.org/)
 

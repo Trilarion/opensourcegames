@@ -2,15 +2,15 @@
 
 _Multiplayer tank game._
 
-- Home: https://www.bzflag.org/
+- Home: https://www.bzflag.org/, https://sourceforge.net/projects/bzflag/
 - Media: https://en.wikipedia.org/wiki/BZFlag
 - State: mature
 - Download: https://www.bzflag.org/downloads/
 - Platform: Windows, Linux, macOS
 - Keywords: shooter
-- Code repository: https://github.com/BZFlag-Dev/bzflag.git
+- Code repository: https://github.com/BZFlag-Dev/bzflag.git, https://svn.code.sf.net/p/bzflag/code/ (svn)
 - Code language: C++
-- Code license: LPGL-2.1, MPL-2.0
+- Code license: LGPL-2.1, MPL-2.0
 
 ## Building
 

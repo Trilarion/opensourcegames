@@ -2,7 +2,7 @@
 
 _Turn based strategy game._
 
-- Home: http://www.asc-hq.org/
+- Home: http://www.asc-hq.org/, https://sourceforge.net/projects/asc-hq/
 - Media: https://en.wikipedia.org/wiki/Battle_Isle#Clones
 - State: mature
 - Keywords: TBS

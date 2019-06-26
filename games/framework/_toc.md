@@ -43,7 +43,7 @@
 - **[Superpowers](superpowers.md)** (Typescript, ISC, mature)
 - **[Terasology](terasology.md)** (Java, Apache-2.0, mature)
 - **[Urho3D](urho3d.md)** (C++, AngelScript, MIT, mature)
-- **[Vega Strike](vegastrike.md)** (C++, GPL-2.0, mature)
+- **[Vega Strike](vega_strike.md)** (C++, GPL-2.0, mature)
 - **[WorldForge](worldforge.md)** (C++, GPL-2.0, mature)
 - **[ZGameEditor](zgameeditor.md)** (Pascal, MIT, mature)
 - **[jMonkeyEngine](jmonkeyengine.md)** (Java, 3-clause BSD, mature)

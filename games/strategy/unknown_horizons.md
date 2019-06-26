@@ -2,7 +2,7 @@
 
 _A 2D real time strategy simulation with an emphasis on economy and city building._
 
-- Home: http://unknown-horizons.org/
+- Home: http://unknown-horizons.org/, https://sourceforge.net/projects/unknownhorizons/
 - Media: https://en.wikipedia.org/wiki/Unknown_Horizons
 - State: beta
 - Download: http://unknown-horizons.org/downloads/

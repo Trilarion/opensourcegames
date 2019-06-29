@@ -73,6 +73,24 @@
    "<a href=\"http://hg.asc-hq.org/hg/asc\">Source</a> - C++ - GPL-2.0"
   ],
   [
+   "Aeron (<a href=\"https://sourceforge.net/projects/aeron/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/aeron.md\">entry</a>)",
+   "Air combat maneuvering trainer game.",
+   "<a href=\"https://sourceforge.net/projects/aeron/files/aeron/\">Link</a>",
+   "Action/Arcade",
+   "mature / inactive since 2011",
+   "",
+   "<a href=\"https://svn.code.sf.net/p/aeron/code/\">Source</a> - C++ - ?"
+  ],
+  [
+   "Aleph One: Marathon (<a href=\"https://alephone.lhowon.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/aleph_one_marathon.md\">entry</a>)",
+   "Continuation of Bungie's Marathon 2 FPS game engine.",
+   "<a href=\"https://sourceforge.net/projects/marathon/files/\">Link</a>",
+   "Action/Arcade",
+   "mature / inactive since 2015",
+   "fps",
+   "<a href=\"https://github.com/Aleph-One-Marathon/alephone.git\">Source</a> - C++, Lua - GPL-3.0"
+  ],
+  [
    "Alien Assault Traders (<a href=\"http://www.aatraders.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/alien_assault_traders.md\">entry</a>)",
    "Alien Assault Traders is an online, web-based, turn-based..",
    "<a href=\"https://sourceforge.net/projects/aatrade/files/\">Link</a>",
@@ -217,6 +235,15 @@
    "<a href=\"https://github.com/Atlantis-PBEM/Atlantis.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
+   "Atomic Tanks (<a href=\"http://atanks.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/atomic_tanks.md\">entry</a>)",
+   "Scorched Earth clone similar to the Worms series.",
+   "<a href=\"https://sourceforge.net/projects/atanks/files/\">Link</a>",
+   "Action/Arcade",
+   "mature / inactive since 2016",
+   "artillery",
+   "<a href=\"https://git.code.sf.net/p/atanks/atanks\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
    "Atomiks (<a href=\"http://atomiks.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/puzzle/atomiks.md\">entry</a>)",
    "Faithful remake of, and a tribute to, Atomix, a classic..",
    "<a href=\"https://sourceforge.net/projects/atomiks/files\">Link</a>",
@@ -287,6 +314,15 @@
    "mature / inactive since 1987",
    "artillery",
    "C - Public Domain"
+  ],
+  [
+   "Battle Tanks (<a href=\"http://btanks.sourceforge.net/blog/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/battle_tanks.md\">entry</a>)",
+   "Fast 2d tank arcade game with multiplayer and split-screen..",
+   "<a href=\"https://sourceforge.net/projects/btanks/files/\">Link</a>",
+   "Action/Arcade",
+   "mature / inactive since 2009",
+   "arcade",
+   "<a href=\"https://svn.code.sf.net/p/btanks/code/\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Battle for Wesnoth (<a href=\"http://www.wesnoth.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/battle_for_wesnoth.md\">entry</a>)",
@@ -377,6 +413,42 @@
    "beta / inactive since 2012",
    "",
    "<a href=\"https://gitlab.com/osgames/blitzkrieg.git\">Source</a> - Java - GPL-3.0"
+  ],
+  [
+   "Blobby Volley 2 (<a href=\"http://blobby.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/blobby_volley2.md\">entry</a>)",
+   "Continuation of the famous Blobby Volley 1.x arcade game.",
+   "<a href=\"https://sourceforge.net/projects/blobby/files/\">Link</a>",
+   "Action/Arcade",
+   "mature / inactive since 2017",
+   "arcade",
+   "<a href=\"https://svn.code.sf.net/p/blobby/code/\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "Blobwars: Metal Blob Solid (<a href=\"https://sourceforge.net/projects/blobwars/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/blobwars_metal_solid_blob.md\">entry</a>)",
+   "2D arcade platform game.",
+   "<a href=\"https://sourceforge.net/projects/blobwars/files/\">Link</a>",
+   "Action/Arcade",
+   "mature / inactive since 2015",
+   "",
+   "<a href=\"https://git.code.sf.net/p/blobwars/code\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "Block Attack - Rise of the Blocks (<a href=\"https://blockattack.net\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/puzzle/blockattack.md\">entry</a>)",
+   "A match-3 game inspired by \"Tetris Attack\" but more PC..",
+   "<a href=\"https://blockattack.net/download/\">Link</a>",
+   "Puzzle",
+   "mature / active",
+   "tetris attack, sliding blocks, match 3",
+   "<a href=\"https://github.com/blockattack/blockattack-game.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "BlockOut II (<a href=\"http://www.blockout.net/blockout2/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/puzzle/blockout_ii.md\">entry</a>)",
+   "Adaptation of the original BlockOut\u00ae DOS game edited by..",
+   "<a href=\"https://sourceforge.net/projects/blockout/files/blockout/\">Link</a>",
+   "Puzzle",
+   "mature / inactive since 2014",
+   "remake",
+   "<a href=\"http://blockout.cvs.sourceforge.net\">Source</a> - ? - ?"
   ],
   [
    "Boost (C++ Libraries) (<a href=\"http://www.boost.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/library/boost.md\">entry</a>)",
@@ -2906,6 +2978,15 @@
    "beta / inactive since 2008",
    "roguelike",
    "<a href=\"https://github.com/q4a/scourge.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "SDL Asylum (<a href=\"http://sdl-asylum.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/sdl_asylum.md\">entry</a>)",
+   "C port of the computer game Asylum, which was written by..",
+   "<a href=\"http://sdl-asylum.sourceforge.net/main.html#Download\">Link</a>",
+   "Action/Arcade",
+   "mature / inactive since 2009",
+   "arcade",
+   "<a href=\"https://svn.code.sf.net/p/sdl-asylum/code/\">Source</a> - C - GPL-3.0"
   ],
   [
    "SDL Game Engine 2D (<a href=\"https://sourceforge.net/projects/sge2d/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/sge2d.md\">entry</a>)",

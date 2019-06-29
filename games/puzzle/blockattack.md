@@ -1,6 +1,6 @@
 # Block Attack - Rise of the Blocks
 
-_A match-3 game inspired by "Tetris Attack" but more PC friendly_
+_A match-3 game inspired by "Tetris Attack" but more PC friendly._
 
 - Home: https://blockattack.net
 - State: mature
@@ -9,7 +9,7 @@ _A match-3 game inspired by "Tetris Attack" but more PC friendly_
 - Keywords: tetris attack, sliding blocks, match 3
 - Code repository: https://github.com/blockattack/blockattack-game.git
 - Code language: C++
-- Code license: GPLv2 or later
+- Code license: GPL-2.0
 - Code dependencies: C++11 compiler, SDL2, SDL2_image, SDL2_mixer, SDL2_ttf, physfs, boost, boost-program-options, utfcpp, gettext
 - Assets license: GPLv2, GPLv2 or later, CC-BY-SA, Public Domain
 

@@ -451,6 +451,15 @@
    "<a href=\"http://blockout.cvs.sourceforge.net\">Source</a> - ? - ?"
   ],
   [
+   "Bombermaaan (<a href=\"http://bombermaaan.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/bombermaaan.md\">entry</a>)",
+   "Classic bomberman game.",
+   "<a href=\"http://bombermaaan.sourceforge.net/download.php\">Link</a>",
+   "Action/Arcade",
+   "mature / inactive since 2010",
+   "arcade",
+   "<a href=\"https://svn.code.sf.net/p/bombermaaan/code/\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
    "Boost (C++ Libraries) (<a href=\"http://www.boost.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/library/boost.md\">entry</a>)",
    "Boost provides free peer-reviewed portable C++ source..",
    "<a href=\"http://www.boost.org/users/download/\">Link</a>",
@@ -487,6 +496,15 @@
    "<a href=\"https://github.com/valeriansaliou/boulder-dash.git\">Source</a> - Java - MIT"
   ],
   [
+   "Brain Workshop (<a href=\"http://brainworkshop.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/puzzle/brain_workshop.md\">entry</a>)",
+   "Dual n-back brain training exercise.",
+   "<a href=\"http://brainworkshop.sourceforge.net/download.html\">Link</a>",
+   "Puzzle",
+   "mature / inactive since 2011",
+   "brain exercise",
+   "<a href=\"https://svn.code.sf.net/p/brainworkshop/code/\">Source</a> - Python - GPL"
+  ],
+  [
    "BrowserQuest (<a href=\"http://browserquest.mozilla.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/browserquest.md\">entry</a>)",
    "A Massively Multiplayer Adventure.",
    "",
@@ -494,6 +512,15 @@
    "mature / active",
    "MMO",
    "<a href=\"https://github.com/mozilla/BrowserQuest.git\">Source</a> - JavaScript - MPL-2.0"
+  ],
+  [
+   "Brutal Chess (<a href=\"https://web.archive.org/web/20080410010554/http://brutalchess.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/brutal_chess.md\">entry</a>)",
+   "Inspired by the once popular \"Battle Chess\" released by..",
+   "<a href=\"https://sourceforge.net/projects/brutalchess/files/\">Link</a>",
+   "Strategy",
+   "beta / inactive since 2007",
+   "chess",
+   "<a href=\"https://svn.code.sf.net/p/brutalchess/code/)\">Source</a> - C++ - GPL"
   ],
   [
    "Bygfoot (<a href=\"http://bygfoot.sourceforge.net/new/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/bygfoot.md\">entry</a>)",
@@ -577,6 +604,15 @@
    "<a href=\"https://github.com/gondur/cartlife_src.git\">Source</a> - AGS Script - Custom"
   ],
   [
+   "Castle Game Engine (<a href=\"https://castle-engine.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/castle_game_engine.md\">entry</a>)",
+   "3D and 2D game engine using modern Object Pascal.",
+   "",
+   "Engines & Frameworks",
+   "mature / active",
+   "game engine",
+   "<a href=\"https://github.com/castle-engine/castle-engine.git\">Source</a> - Pascal - LGPL-2.0"
+  ],
+  [
    "Castle of the Winds (<a href=\"http://game.castleofthewinds.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/castle_of_the_winds.md\">entry</a>)",
    "Castle of the Winds remake.",
    "",
@@ -620,6 +656,33 @@
    "mature / active",
    "",
    "<a href=\"https://github.com/alphaonex86/CatchChallenger.git\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
+   "Celestron (<a href=\"https://sourceforge.net/projects/celestron/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/celestron.md\">entry</a>)",
+   "Top-down space shooter in the legacy of Chromium BSU.",
+   "<a href=\"https://sourceforge.net/projects/celestron/files/\">Link</a>",
+   "Action/Arcade",
+   "beta / inactive since 2012",
+   "top down, shooter",
+   "<a href=\"https://git.code.sf.net/p/celestron/code\">Source</a> - Python - GPL-3.0"
+  ],
+  [
+   "Childsplay (<a href=\"http://www.childsplay.mobi/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/adventure/childsplay.md\">entry</a>)",
+   "Collection of educational activities for young children.",
+   "<a href=\"https://sourceforge.net/projects/schoolsplay/files/\">Link</a>",
+   "Adventure & Visual novels",
+   "mature / active",
+   "educational, kids",
+   "<a href=\"https://git.code.sf.net/p/childsplay/git\">Source</a> - Python - GPL-3.0"
+  ],
+  [
+   "Chocolate Doom (<a href=\"https://www.chocolate-doom.org/wiki/index.php/Chocolate_Doom\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/chocolate_doom.md\">entry</a>)",
+   "Doom source port that accurately reproduces the experience..",
+   "<a href=\"https://www.chocolate-doom.org/wiki/index.php/Downloads\">Link</a>",
+   "Action/Arcade",
+   "mature / active",
+   "remake, shooter",
+   "<a href=\"https://github.com/chocolate-doom/chocolate-doom.git\">Source</a> - C - GPL-2.0"
   ],
   [
    "Choria (<a href=\"https://github.com/jazztickets/choria\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/choria.md\">entry</a>)",

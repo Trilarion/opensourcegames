@@ -7,6 +7,7 @@
 - **[Atlantis](atlantis.md)** (C++, GPL-2.0, mature, inactive since 2016)
 - **[Blender game engine](blender_game_engine.md)** (C++, GPL-2.0, mature)
 - **[COCOS2D-X](cocos2dx.md)** (C++, MIT, mature)
+- **[Castle Game Engine](castle_game_engine.md)** (Pascal, LGPL-2.0, mature)
 - **[Dash Engine](dash.md)** (D, MIT, mature, inactive since 2015)
 - **[Delta Engine](deltaengine.md)** (C#, Apache-2.0, mature, inactive since 2015)
 - **[ENIGMA](enigma.md)** (C++, C, GPL-3.0, mature)

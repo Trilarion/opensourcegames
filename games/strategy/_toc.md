@@ -19,6 +19,7 @@
 - **[Blitzkrieg](blitzkrieg.md)** (Java, GPL-3.0, beta, inactive since 2012)
 - **[Bos Wars](bos_wars.md)** (C++, GPL-2.0, mature, inactive since 2013)
 - **[Boson](boson.md)** (C++, GPL-2.0, beta, inactive since 2006)
+- **[Brutal Chess](brutal_chess.md)** (C++, GPL, beta, inactive since 2007)
 - **[Bygfoot](bygfoot.md)** (Java, GPL-2.0, beta)
 - **[C-evo](c_evo.md)** (Pascal, Public Domain, GPL-3.0, mature, inactive since 2013)
 - **[Caesar IA](caesar_ia.md)** (C++, GPL-3.0, beta)

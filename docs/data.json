@@ -10,6 +10,15 @@
  ],
  "data": [
   [
+   " OpenBlox (<a href=\"https://web.archive.org/web/20121114113914/http://openblox.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/simulation/openblox.md\">entry</a>)",
+   "Make games with a built-in physics engine, Lego-like..",
+   "<a href=\"https://sourceforge.net/projects/openblox/files/\">Link</a>",
+   "Simulation",
+   "beta / inactive since 2011",
+   "game maker",
+   "<a href=\"http://hg.code.sf.net/p/openblox/openblox\">Source</a> - Python, Lua - GPL-3.0"
+  ],
+  [
    "0 A.D. (<a href=\"https://play0ad.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/0ad.md\">entry</a>)",
    "0 A.D. is a free, open-source, cross-platform real-time..",
    "<a href=\"https://play0ad.com/download/\">Link</a>",
@@ -2269,6 +2278,15 @@
    "<a href=\"http://git.maxr.org/maxr/maxr.git\">Source</a> - C++, C - GPL-2.0"
   ],
   [
+   "Mega Mario (<a href=\"http://mmario.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/mega_mario.md\">entry</a>)",
+   "Super Mario Bros. 1 clone.",
+   "<a href=\"https://sourceforge.net/projects/mmario/files/\">Link</a>",
+   "Action/Arcade",
+   "mature / inactive since 2012",
+   "plattformer",
+   "C++ - LGPL-2.1"
+  ],
+  [
    "MegaGlest (<a href=\"https://megaglest.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/megaglest.md\">entry</a>)",
    "MegaGlest is an entertaining free (freeware and free..",
    "<a href=\"https://megaglest.org/download\">Link</a>",
@@ -2321,6 +2339,15 @@
    "beta / inactive since 2006",
    "",
    "<a href=\"https://gitlab.com/osgames/metalmech.git\">Source</a> - PHP - GPL-2.0"
+  ],
+  [
+   "MicroWar 2.0 (<a href=\"http://microwar.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/microwar_2.md\">entry</a>)",
+   "'Space Invaders' style arcade game in the world of micro-..",
+   "<a href=\"https://sourceforge.net/projects/microwar/files/\">Link</a>",
+   "Action/Arcade",
+   "mature / inactive since 2009",
+   "shooter",
+   "Python - 3-clause BSD"
   ],
   [
    "Micropolis (<a href=\"http://micropolisonline.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/simulation/micropolis.md\">entry</a>)",
@@ -2431,6 +2458,15 @@
    "<a href=\"https://github.com/BackupTheBerlios/netpanzer-svn.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
+   "NetStatsBaseball (<a href=\"https://sourceforge.net/projects/nsbb/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/simulation/netstatsbaseball.md\">entry</a>)",
+   "Major League Baseball Simulation.",
+   "<a href=\"https://sourceforge.net/projects/nsbb/files/\">Link</a>",
+   "Simulation",
+   "mature / active",
+   "sports",
+   "<a href=\"http://nsbb.cvs.sourceforge.net\">Source</a> - C - ?"
+  ],
+  [
    "Netrek (<a href=\"http://www.netrek.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/netrek.md\">entry</a>)",
    "Multi-player battle simulation with a Star Trek theme.",
    "<a href=\"http://www.netrek.org/downloads/\">Link</a>",
@@ -2539,6 +2575,15 @@
    "<a href=\"https://github.com/OpenDUNE/OpenDUNE.git\">Source</a> - C - GPL-2.0"
   ],
   [
+   "Open Game Engine (<a href=\"http://oge.sourceforge.net/wiki/index.php/Main_Page\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/open_game_engine.md\">entry</a>)",
+   "Game engine and editor.",
+   "<a href=\"https://sourceforge.net/projects/oge/files/\">Link</a>",
+   "Engines & Frameworks",
+   "beta / inactive since 2008",
+   "game engine, game editor",
+   "<a href=\"https://git.code.sf.net/p/oge/git\">Source</a> - C++ - LGPL-2.1"
+  ],
+  [
    "Open Imperium Galactica (<a href=\"https://github.com/akarnokd/open-ig\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/open_imperium_galactica.md\">entry</a>)",
    "Reimplementation of Imperium Galactica.",
    "<a href=\"https://github.com/akarnokd/open-ig/releases\">Link</a>",
@@ -2620,6 +2665,15 @@
    "<a href=\"https://github.com/opentibia/server.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
+   "Open Yahtzee (<a href=\"http://www.openyahtzee.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/open_yahtzee.md\">entry</a>)",
+   "Open-source version of the classic dice game Yahtzee.",
+   "<a href=\"http://www.openyahtzee.org/wiki/download/\">Link</a>",
+   "Strategy",
+   "mature / inactive since 2016",
+   "dice game",
+   "<a href=\"https://git.code.sf.net/p/openyahtzee/code\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
    "Open Zelda (<a href=\"https://github.com/openzelda/openzelda-source\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/open_zelda.md\">entry</a>)",
    "Open Zelda Game Development Software.",
    "",
@@ -2672,6 +2726,15 @@
    "beta / inactive since 2010",
    "",
    "<a href=\"https://code.launchpad.net/openhomm\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
+   "OpenLieroX (<a href=\"http://www.openlierox.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/openlierox.md\">entry</a>)",
+   "Realtime worms shoot-em-up.",
+   "<a href=\"http://www.openlierox.net/downloads/\">Link</a>",
+   "Action/Arcade",
+   "mature / active",
+   "wormslike, arcade",
+   "<a href=\"https://git.code.sf.net/p/openlierox/code\">Source</a> - C++ - LGPL"
   ],
   [
    "OpenMOO2 (<a href=\"http://openmoo2.org/en/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/open_moo2.md\">entry</a>)",
@@ -2854,6 +2917,15 @@
    "<a href=\"https://github.com/PCGen/pcgen.git\">Source</a> - Java - LGPL-2.1"
   ],
   [
+   "PainTown (<a href=\"http://paintown.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/paintown.md\">entry</a>)",
+   "2D side scrolling beatem-up engine.",
+   "<a href=\"http://paintown.org/#/downloads\">Link</a>",
+   "Action/Arcade",
+   "mature / active",
+   "arcade, beatem-up, engine, 2D",
+   "<a href=\"https://github.com/kazzmir/paintown.git\">Source</a> - C++, Java, Python - 3-clause BSD"
+  ],
+  [
    "Panda 3D (<a href=\"http://www.panda3d.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/panda3d.md\">entry</a>)",
    "Panda3D is a game engine, a framework for 3D rendering and..",
    "<a href=\"http://www.panda3d.org/download.php\">Link</a>",
@@ -2861,6 +2933,24 @@
    "mature / active",
    "3D",
    "<a href=\"https://github.com/panda3d/panda3d.git\">Source</a> - C++, C - 3-clause BSD"
+  ],
+  [
+   "Pang Zero (<a href=\"https://sourceforge.net/projects/pangzero/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/pang_zero.md\">entry</a>)",
+   "Reimplementation and extension of an old arcade game,..",
+   "<a href=\"https://sourceforge.net/projects/pangzero/files/\">Link</a>",
+   "Action/Arcade",
+   "beta / inactive since 2007",
+   "arcade, remake",
+   "<a href=\"http://pangzero.cvs.sourceforge.net\">Source</a> - Perl - GPL-2.0"
+  ],
+  [
+   "Pasang Emas (<a href=\"http://pasang-emas.sourceforge.net/index.xhtml\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/pasang_emas.md\">entry</a>)",
+   "Traditional two-player board game of Brunei.",
+   "<a href=\"http://pasang-emas.sourceforge.net/download.xhtml\">Link</a>",
+   "Strategy",
+   "mature / active",
+   "board game",
+   "<a href=\"https://git.code.sf.net/p/pasang-emas/code\">Source</a> - Vala - GPL-3.0"
   ],
   [
    "Pax Britannica (<a href=\"http://paxbritannica.henk.ca/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/pax_britannica.md\">entry</a>)",
@@ -2978,6 +3068,15 @@
    "mature / active",
    "",
    "<a href=\"https://github.com/GerHobbelt/pthread-win32.git\">Source</a> - C - LGPL-2.1"
+  ],
+  [
+   "PyKaraoke (<a href=\"http://www.kibosh.org/pykaraoke/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/misc/pykaraoke.md\">entry</a>)",
+   "Karaoke player.",
+   "<a href=\"http://www.kibosh.org/pykaraoke/downloads.php\">Link</a>",
+   "Misc",
+   "beta / inactive since 2011",
+   "social, music, karaoke",
+   "<a href=\"http://pykaraoke.cvs.sourceforge.net\">Source</a> - Python - LGPL-2.1"
   ],
   [
    "PySol (<a href=\"http://www.pysol.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/pysol.md\">entry</a>)",
@@ -4211,6 +4310,15 @@
    "mature / active",
    "",
    "<a href=\"https://github.com/Ancurio/mkxp.git\">Source</a> - C++, C - GPL-2.0"
+  ],
+  [
+   "nXtank (<a href=\"http://nxtank.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/nxtank.md\">entry</a>)",
+   "Xtank in a modern gaming engine.",
+   "<a href=\"https://sourceforge.net/projects/nxtank/files/\">Link</a>",
+   "Action/Arcade",
+   "beta / inactive since 2010",
+   "tank",
+   "<a href=\"https://svn.code.sf.net/p/nxtank/code/\">Source</a> - Python - GPL-3.0"
   ],
   [
    "pkg-config (<a href=\"https://www.freedesktop.org/wiki/Software/pkg-config/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/library/pkgconfig.md\">entry</a>)",

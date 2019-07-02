@@ -14,6 +14,8 @@ _A turn-based strategy engine heavily inspired by Panzer General._
 
 May require original game content.
 
+Part of LGames.
+
 See also [LGeneral Deluxe](https://github.com/AndO3131/LGeneral-Deluxe), [lgeneral-to-android](https://code.google.com/archive/p/lgeneral-to-android/)
 
 ## Building

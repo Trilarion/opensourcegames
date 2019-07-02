@@ -35,6 +35,8 @@
 - **[Dark Destiny](dark_destiny.md)** (Java, Javascript, GPL, mature, inactive since 2016)
 - **[Dark Oberon](dark_oberon.md)** (C++, GPL-2.0, mature, inactive since 2009)
 - **[Devana](devana.md)** (PHP, zlib, beta)
+- **[Domination](domination.md)** (Java, GPL-3.0, mature)
+- **[DreamChess](dreamchess.md)** (C, GPL-3.0, beta)
 - **[Duel Commander](duel_commander.md)** (C, GPL-3.0, beta, inactive since 2009)
 - **[Dune Dynasty](dune_dynasty.md)** (C, GPL-2.0, mature, inactive since 2014)
 - **[Dune II - The Maker](dune_ii_the_maker.md)** (Java, MIT, beta)

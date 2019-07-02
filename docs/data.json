@@ -838,6 +838,15 @@
    "<a href=\"https://github.com/weidai11/cryptopp.git\">Source</a> - C++ - Boost-1.0"
   ],
   [
+   "D-Fend Reloaded (<a href=\"http://dfendreloaded.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tools/dfend_reloaded.md\">entry</a>)",
+   "Graphical environment for DOSBox.",
+   "<a href=\"http://dfendreloaded.sourceforge.net/Download.html\">Link</a>",
+   "Tools & Manuals",
+   "mature / inactive since 2015",
+   "tool, frontend",
+   "Pascal - GPL"
+  ],
+  [
    "DNT (<a href=\"http://dnt.dnteam.org/cgi-bin/about.py\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/dnt.md\">entry</a>)",
    "3D RPG in a satirical post-apocalyptic world.",
    "<a href=\"http://dnt.dnteam.org/cgi-bin/downloads.py\">Link</a>",
@@ -919,6 +928,15 @@
    "<a href=\"https://github.com/iamCode/Dawn.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
+   "DeSmuME (<a href=\"http://desmume.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/desmume.md\">entry</a>)",
+   "Nintendo DS emulator.",
+   "<a href=\"http://desmume.org/download/\">Link</a>",
+   "Engines & Frameworks",
+   "mature / inactive since 2015",
+   "emulator",
+   "<a href=\"https://github.com/TASVideos/desmume.git\">Source</a> - C, C++ - GPL-2.0"
+  ],
+  [
    "Decker (<a href=\"https://web.archive.org/web/20110926115405/http://www10.caro.net:80/dsi/decker/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/decker.md\">entry</a>)",
    "Cyberspace hacking RPG where you hack into corporate..",
    "<a href=\"https://sourceforge.net/projects/decker/files\">Link</a>",
@@ -982,6 +1000,15 @@
    "<a href=\"https://gitlab.com/osgames/digitalalovestory.git\">Source</a> - Ren'py - CC-BY-NC-SA"
   ],
   [
+   "Domination (<a href=\"http://domination.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/domination.md\">entry</a>)",
+   "Is a bit like the well known board game of Risk or RisiKo.",
+   "<a href=\"http://domination.sourceforge.net/download.shtml\">Link</a>",
+   "Strategy",
+   "mature / active",
+   "boardgame, risklike",
+   "<a href=\"https://svn.code.sf.net/p/domination/code/Domination\">Source</a> - Java - GPL-3.0"
+  ],
+  [
    "Doxygen (<a href=\"http://www.stack.nl/~dimitri/doxygen/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/library/doxygen.md\">entry</a>)",
    "Tool for generating documentation from annotated C++..",
    "<a href=\"http://www.stack.nl/~dimitri/doxygen/download.html\">Link</a>",
@@ -1007,6 +1034,15 @@
    "mature / active",
    "",
    "<a href=\"https://gitlab.com/osgames/dragon-hunt.git\">Source</a> - Python - GPL-2.0"
+  ],
+  [
+   "DreamChess (<a href=\"https://www.dreamchess.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/dreamchess.md\">entry</a>)",
+   "3D chess game.",
+   "<a href=\"https://www.dreamchess.org/downloads\">Link</a>",
+   "Strategy",
+   "beta / active",
+   "boardgame, chess",
+   "<a href=\"https://github.com/dreamchess/dreamchess.git\">Source</a> - C - GPL-3.0"
   ],
   [
    "Duel Commander (<a href=\"https://sourceforge.net/projects/duelcommander/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/duel_commander.md\">entry</a>)",
@@ -1124,6 +1160,15 @@
    "mature / active",
    "",
    "<a href=\"https://github.com/EasyRPG/Player.git\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
+   "Eat The Whistle (<a href=\"http://www.ggsoft.org/etw/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/simulation/eat_the_whistle.md\">entry</a>)",
+   "Football simulation game",
+   "<a href=\"https://sourceforge.net/projects/etw/files/\">Link</a>",
+   "Simulation",
+   "mature / inactive since 2017",
+   "football",
+   "<a href=\"https://svn.code.sf.net/p/etw/code/\">Source</a> - C - ?"
   ],
   [
    "Egoboo (<a href=\"http://egoboo.sourceforge.net/about.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/egoboo.md\">entry</a>)",
@@ -1540,6 +1585,24 @@
    "<a href=\"https://gitlab.com/osgames/gm-tools.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
+   "GPL Arcade Volleyball (<a href=\"http://gav.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/gpl_arcade_volleyball.md\">entry</a>)",
+   "An SDL remake of the old dos game Arcade Volleyball.",
+   "<a href=\"http://gav.sourceforge.net/download.php\">Link</a>",
+   "Action/Arcade",
+   "beta / inactive since 2006",
+   "arcade, sports",
+   "<a href=\"http://gav.cvs.sourceforge.net\">Source</a> - ?"
+  ],
+  [
+   "GUSANOS (<a href=\"http://gusanos.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/gusanos.md\">entry</a>)",
+   "Clone of the DOS game Liero.",
+   "<a href=\"https://sourceforge.net/projects/gusanos/files/\">Link</a>",
+   "Action/Arcade",
+   "beta / inactive since 2006",
+   "worms-like",
+   "<a href=\"http://gusanos.cvs.sourceforge.net\">Source</a> - ? - GPL"
+  ],
+  [
    "GalaxyMage Redux (<a href=\"https://code.google.com/archive/p/galaxymageredux/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/galaxymage_redux.md\">entry</a>)",
    "Attempt to revitalize the open source game, GalaxyMage..",
    "",
@@ -1657,6 +1720,24 @@
    "<a href=\"https://github.com/godotengine/godot.git\">Source</a> - C, C++ - MIT"
   ],
   [
+   "Golly  (<a href=\"http://golly.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/simulation/golly.md\">entry</a>)",
+   "Conway's Game of Life and many other types of cellular..",
+   "<a href=\"https://sourceforge.net/projects/golly/files/\">Link</a>",
+   "Simulation",
+   "mature / active",
+   "game of life",
+   "<a href=\"https://git.code.sf.net/p/golly/code\">Source</a> - C++, Java - GPL-2.0"
+  ],
+  [
+   "Grabble (<a href=\"http://grabble.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/puzzle/grabble.md\">entry</a>)",
+   "Anagrams-playing game.",
+   "<a href=\"https://sourceforge.net/projects/grabble/files/\">Link</a>",
+   "Puzzle",
+   "mature / inactive since 2006",
+   "",
+   "Java - ?"
+  ],
+  [
    "Greenius' Civil War (<a href=\"http://civilwar.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/greenius_civil_war.md\">entry</a>)",
    "Open Sourced version of American Civil War game for DOS,..",
    "",
@@ -1664,6 +1745,15 @@
    "beta / inactive since 2001",
    "",
    "<a href=\"https://gitlab.com/osgames/civilwar.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "Grobots (<a href=\"http://grobots.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/simulation/grobots.md\">entry</a>)",
+   "A real-time strategy programming game, in which you..",
+   "",
+   "Simulation",
+   "mature / inactive since 2014",
+   "programming",
+   "<a href=\"http://hg.code.sf.net/p/grobots/trunk\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "H-World (<a href=\"https://sourceforge.net/projects/h-world/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/h_world.md\">entry</a>)",
@@ -1927,6 +2017,15 @@
    "<a href=\"https://gitlab.com/osgames/koboldsquest2.git\">Source</a> - Python - LGPL-3.0"
   ],
   [
+   "LGames (<a href=\"http://lgames.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/lgames.md\">entry</a>)",
+   "Collection of games.",
+   "<a href=\"http://lgames.sourceforge.net/downloads.php\">Link</a>",
+   "Action/Arcade",
+   "mature / active",
+   "",
+   "<a href=\"https://svn.code.sf.net/p/lgames/code/\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
    "LGeneral (<a href=\"http://lgames.sourceforge.net/LGeneral/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/lgeneral.md\">entry</a>)",
    "A turn-based strategy engine heavily inspired by Panzer..",
    "",
@@ -2141,6 +2240,15 @@
    "beta / inactive since 2008",
    "TBS",
    "<a href=\"https://gitlab.com/osgames/mars.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "Me and My Shadow (<a href=\"https://acmepjz.github.io/meandmyshadow/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/puzzle/me_and_my_shadow.md\">entry</a>)",
+   "Try to reach the exit by solving puzzles.",
+   "<a href=\"https://acmepjz.github.io/meandmyshadow/download.html\">Link</a>",
+   "Puzzle",
+   "beta / active",
+   "",
+   "<a href=\"https://github.com/acmepjz/meandmyshadow.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
    "MechCommander 2 Omnitech (<a href=\"https://github.com/Echelon9/mechcommander2-open\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/mechcommander2_omnitech.md\">entry</a>)",

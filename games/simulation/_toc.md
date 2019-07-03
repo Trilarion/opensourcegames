@@ -25,6 +25,7 @@
 - **[OpenTTD](open_ttd.md)** (C++, GPL-2.0, mature)
 - **[Our Personal Space](our_personal_space.md)** (Ren'py, GPL-3.0, mature)
 - **[Pioneer](pioneer.md)** (C++, C, Apache-2.0, GPL-3.0, mature)
+- **[Rigs of Rods](rigs_of_rods.md)** (C++, GPL-3.0, mature)
 - **[SimuTrans](simutrans.md)** (C++, Artistic License, mature)
 - **[micropolisJS](micropolis_js.md)** (C++, Java, Python, GPL-3.0, mature)
 

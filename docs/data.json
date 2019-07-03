@@ -3178,6 +3178,15 @@
    "<a href=\"https://launchpad.net/s25rttr\">Source</a> - C++ - GPL-3.0"
   ],
   [
+   "Rigs of Rods (<a href=\"https://www.rigsofrods.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/simulation/rigs_of_rods.md\">entry</a>)",
+   "3D simulator game where you can drive, fly and sail..",
+   "",
+   "Simulation",
+   "mature / active",
+   "drive",
+   "<a href=\"https://github.com/RigsOfRods/rigs-of-rods.git\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
    "Rocks'n'Diamonds  (<a href=\"http://www.artsoft.org/rocksndiamonds/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/rocks_and_diamonds.md\">entry</a>)",
    "Arcade style game for \u201cBoulder Dash\u201d (C 64), \u201cEmerald..",
    "<a href=\"http://www.artsoft.org/rocksndiamonds/download/\">Link</a>",
@@ -3268,6 +3277,15 @@
    "<a href=\"https://gitlab.com/osgames/sge2d.git\">Source</a> - C - MIT"
   ],
   [
+   "SDL Sopwith (<a href=\"http://sdl-sopwith.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/sdl_sopwith.md\">entry</a>)",
+   "Port of the classic 8086 biplane shoot-em-up.",
+   "<a href=\"https://sourceforge.net/projects/sdl-sopwith/files/\">Link</a>",
+   "Action/Arcade",
+   "mature / inactive since 2014",
+   "port, fly",
+   "<a href=\"https://svn.code.sf.net/p/sdl-sopwith/code/\">Source</a> - C - GPL-2.0"
+  ],
+  [
    "SWIG (<a href=\"http://swig.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/library/swig.md\">entry</a>)",
    "Software development tool that connects programs written..",
    "<a href=\"http://www.swig.org/download.html\">Link</a>",
@@ -3277,6 +3295,15 @@
    "<a href=\"https://github.com/swig/swig.git\">Source</a> - C++ - SWIG license"
   ],
   [
+   "Scorched 3D (<a href=\"http://www.scorched3d.co.uk/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/scorched_3d.md\">entry</a>)",
+   "Lively, fully destructible 3D landscapes in a turn-based..",
+   "<a href=\"http://www.scorched3d.co.uk/#download\">Link</a>",
+   "Action/Arcade",
+   "mature / inactive since 2014",
+   "artillery, 3D",
+   "<a href=\"https://git.code.sf.net/p/scorched3d/git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
    "Scorched Moon (<a href=\"https://github.com/Scorched-Moon\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/scorched_moon.md\">entry</a>)",
    "Open source version of Moonbase Commander.",
    "",
@@ -3284,6 +3311,24 @@
    "beta / active",
    "",
    "<a href=\"https://github.com/Scorched-Moon/server.git\">Source</a> - Python - GPL-3.0"
+  ],
+  [
+   "Scrabble3D (<a href=\"http://scrabble.sourceforge.net/wiki/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/scrabble3d.md\">entry</a>)",
+   "Board game with the goal to place letters on the board..",
+   "",
+   "Strategy",
+   "mature / inactive since 2015",
+   "board game",
+   "<a href=\"https://svn.code.sf.net/p/scrabble/code/\">Source</a> - Pascal - GPL-3.0"
+  ],
+  [
+   "Scrolling Game Development Kit 2 (<a href=\"http://sgdk2.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/scrolling_game_development_kit_2.md\">entry</a>)",
+   "Program for creating 2D scrolling games.",
+   "<a href=\"http://sgdk2.sourceforge.net/download.php\">Link</a>",
+   "Engines & Frameworks",
+   "mature / inactive since 2017",
+   "side-scrolling",
+   "<a href=\"https://git.code.sf.net/p/sgdk2/git\">Source</a> - C# - ?"
   ],
   [
    "ScummVM (<a href=\"http://www.scummvm.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/scummvm.md\">entry</a>)",
@@ -3329,6 +3374,15 @@
    "beta / active",
    "remake, requires original content",
    "<a href=\"https://github.com/jsettlers/settlers-remake.git\">Source</a> - Java - MIT"
+  ],
+  [
+   "Seven Kingdoms: Ancient Adversaries (<a href=\"https://7kfans.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/seven_kingdoms_ancient_adversaries.md\">entry</a>)",
+   "Fan continuation of Seven Kingdoms: Ancient Adversaries by..",
+   "<a href=\"https://www.7kfans.com/wiki/index.php/Download\">Link</a>",
+   "Strategy",
+   "mature / active",
+   "continuation of commercial project",
+   "<a href=\"https://github.com/the3dfxdude/7kaa.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "SharpKonquest (<a href=\"https://sourceforge.net/projects/sharpkonquest/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/sharpkonquest.md\">entry</a>)",
@@ -3430,6 +3484,24 @@
    "<a href=\"https://github.com/guillaume-gouchon/smash.js.git\">Source</a> - JavaScript - MIT"
   ],
   [
+   "Smash Battle (<a href=\"https://smashbattle.demontpx.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/smash_battle.md\">entry</a>)",
+   "Old skool, 2D, platform, shoot \u2018m up action.",
+   "<a href=\"https://smashbattle.demontpx.com/downloads/\">Link</a>",
+   "Action/Arcade",
+   "beta / inactive since 2011",
+   "shootem up, platform, 2d",
+   "C++ - ?"
+  ],
+  [
+   "SoftPixel Engine (<a href=\"http://softpixelengine.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/softpixel_engine.md\">entry</a>)",
+   "High-level real-time 3d engine.",
+   "<a href=\"http://softpixelengine.sourceforge.net/downloads.html\">Link</a>",
+   "Engines & Frameworks",
+   "mature / inactive since 2013",
+   "3D",
+   "<a href=\"https://svn.code.sf.net/p/softpixelengine/code/trunk\">Source</a> - C++ - zLib"
+  ],
+  [
    "Solarus (<a href=\"http://www.solarus-games.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/solarus.md\">entry</a>)",
    "Zelda-like 2D game engine.",
    "<a href=\"http://www.solarus-games.org/engine/download/\">Link</a>",
@@ -3511,6 +3583,15 @@
    "<a href=\"https://github.com/Trilarion/spacetraderjava.git\">Source</a> - Java - GPL-2.0"
   ],
   [
+   "SpaceZero (<a href=\"http://spacezero.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/spacezero.md\">entry</a>)",
+   "Real Time Strategy 2D space combat game for two players..",
+   "<a href=\"http://spacezero.sourceforge.net/index.html#download\">Link</a>",
+   "Strategy",
+   "beta / inactive since 2013",
+   "RTS, space",
+   "<a href=\"https://svn.code.sf.net/p/spacezero/code/\">Source</a> - C - GPL-3.0"
+  ],
+  [
    "Speed Dreams (<a href=\"http://www.speed-dreams.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/speed_dreams.md\">entry</a>)",
    "Motorsport Simulator featuring high-quality 3D graphics..",
    "<a href=\"http://www.speed-dreams.org/#download\">Link</a>",
@@ -3565,6 +3646,15 @@
    "<a href=\"https://github.com/BlindMindStudios/StarRuler2-Source.git\">Source</a> - C, C++ - MIT"
   ],
   [
+   "StarBlastrix  (<a href=\"https://sourceforge.net/projects/starblastrix/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/starblastrix.md\">entry</a>)",
+   "Side scrolling shoot'em up game.",
+   "<a href=\"https://sourceforge.net/projects/starblastrix/files/\">Link</a>",
+   "Action/Arcade",
+   "beta / inactive since 2006",
+   "shoot'em up, 2D",
+   "C++ - GPL-2.0"
+  ],
+  [
    "Stareater (<a href=\"http://stareater4x.blogspot.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/stareater.md\">entry</a>)",
    "4X strategy game in space",
    "<a href=\"https://github.com/subchannel13/Stareater/releases\">Link</a>",
@@ -3590,6 +3680,15 @@
    "mature / active",
    "MP, online",
    "<a href=\"https://git.code.sf.net/p/arianne/stendhal\">Source</a> - Java - GPL-2.0"
+  ],
+  [
+   "StepMania (<a href=\"https://web.archive.org/web/20190605085429/https://www.stepmania.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/misc/stepmania.md\">entry</a>)",
+   "Dance and rhythm game.",
+   "<a href=\"https://sourceforge.net/projects/stepmania/files/\">Link</a>",
+   "Misc",
+   "mature / active",
+   "music",
+   "<a href=\"https://github.com/stepmania/stepmania.git\">Source</a> - C++ - MIT"
   ],
   [
    "Story of a Lost Sky (<a href=\"https://www.pygame.org/project-Story+of+a+Lost+Sky-1106-.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/story_of_a_lost_sky.md\">entry</a>)",

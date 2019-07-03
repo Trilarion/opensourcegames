@@ -11,3 +11,4 @@ _Tower simulation game inspired by SimTower._
 
 ## Building
 
+- Build system: CMake

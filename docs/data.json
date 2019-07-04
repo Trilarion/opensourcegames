@@ -1864,6 +1864,15 @@
    "<a href=\"https://github.com/mgfreshour/hexwar.git\">Source</a> - Ruby, JavaScript - MIT"
   ],
   [
+   "HoDoKu (<a href=\"http://hodoku.sourceforge.net/en/index.php\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/puzzle/hodoku.md\">entry</a>)",
+   "Sudoku generator/solver/trainer/analyzer.",
+   "<a href=\"https://sourceforge.net/projects/hodoku/files/\">Link</a>",
+   "Puzzle",
+   "mature / inactive since 2013",
+   "puzzle",
+   "<a href=\"https://svn.code.sf.net/p/hodoku/code/HoDoKu/trunk\">Source</a> - Java - GPL-3.0"
+  ],
+  [
    "Holyspirit (<a href=\"https://sourceforge.net/projects/lechemindeladam/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/holy_spirit.md\">entry</a>)",
    "2D isometric hack'n'slash game (action-rpg).",
    "<a href=\"https://sourceforge.net/projects/lechemindeladam/files\">Link</a>",
@@ -3700,6 +3709,15 @@
    "<a href=\"https://bitbucket.org/featheredmelody/lost-sky-project-public/src\">Source</a> - Python - 3-clause BSD"
   ],
   [
+   "Stunt Rally (<a href=\"http://stuntrally.tuxfamily.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/stunt_rally.md\">entry</a>)",
+   "Racing game with rally style of driving.",
+   "<a href=\"http://stuntrally.tuxfamily.org/downloads\">Link</a>",
+   "Action/Arcade",
+   "mature / active",
+   "racing",
+   "<a href=\"https://github.com/stuntrally/stuntrally.git\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
    "Summoning Wars (<a href=\"https://web.archive.org/web/20161221150109/http://sumwars.org:80/wiki/Main_Page\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/summoming_wars.md\">entry</a>)",
    "Role-playing game, featuring both a single-player and a..",
    "<a href=\"https://web.archive.org/web/20160704003202/http://sumwars.org:80/wiki/Download\">Link</a>",
@@ -3745,6 +3763,24 @@
    "<a href=\"https://gitlab.com/osgames/tbots.git\">Source</a> - C - GPL-2.0"
   ],
   [
+   "TORCS, The Open Racing Car Simulator (<a href=\"http://torcs.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/simulation/torcs.md\">entry</a>)",
+   "Car racing simulation.",
+   "<a href=\"http://torcs.sourceforge.net/index.php?name=Sections&op=viewarticle&artid=3\">Link</a>",
+   "Simulation",
+   "mature / inactive since 2016",
+   "racing",
+   "<a href=\"https://git.code.sf.net/p/torcs/code\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "TROPHY (<a href=\"http://trophy.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/simulation/trophy.md\">entry</a>)",
+   "Car racing game with features such as shooting at other..",
+   "<a href=\"http://trophy.sourceforge.net/index.php?body=download\">Link</a>",
+   "Simulation",
+   "mature / inactive since 2012",
+   "car, racing, 2D",
+   "<a href=\"https://svn.code.sf.net/p/trophy/code/\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
    "TVTower (<a href=\"http://www.tvgigant.de/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/tvtower.md\">entry</a>)",
    "A fan remake of MadTV.",
    "",
@@ -3772,6 +3808,15 @@
    "<a href=\"https://github.com/w84death/Tanks-of-Freedom.git\">Source</a> - GDScript - MIT"
   ],
   [
+   "Tenes Empanadas Graciela (<a href=\"https://github.com/wfx/teg\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/tenes_empanadas_graciela.md\">entry</a>)",
+   "Clone of 'Plan Tactico y Estrategico de la Guerra', which..",
+   "",
+   "Strategy",
+   "beta / inactive since 2015",
+   "risklike",
+   "<a href=\"https://github.com/wfx/teg.git\">Source</a> - C, Javascript, Perl - GPL-2.0"
+  ],
+  [
    "Terasology (<a href=\"http://terasology.org/index.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/terasology.md\">entry</a>)",
    "Stable platform for various types of gameplay settings in..",
    "",
@@ -3788,6 +3833,24 @@
    "beta / active",
    "port",
    "<a href=\"https://github.com/Lisergishnu/TetraVex.git\">Source</a> - Swift - GPL-3.0"
+  ],
+  [
+   "The Bub's Brothers (<a href=\"http://bub-n-bros.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/misc/the_bubs_brothers.md\">entry</a>)",
+   "Networked clone of the classical Bubble Bobble board game.",
+   "<a href=\"http://bub-n-bros.sourceforge.net/download.html\">Link</a>",
+   "Misc",
+   "mature / inactive since 2013",
+   "board game",
+   "<a href=\"http://bub-n-bros.cvs.sourceforge.net\">Source</a> - Python - MIT"
+  ],
+  [
+   "The Butterfly Effect (<a href=\"http://the-butterfly-effect.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/simulation/the_butterfly_effect.md\">entry</a>)",
+   "Realistic physics simulations.",
+   "<a href=\"http://the-butterfly-effect.org/#download\">Link</a>",
+   "Simulation",
+   "beta / active",
+   "simulation, physics",
+   "<a href=\"https://github.com/the-butterfly-effect/tbe.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "The Clans (<a href=\"http://theclans.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/the_clans.md\">entry</a>)",
@@ -3817,6 +3880,15 @@
    "<a href=\"https://git.code.sf.net/p/epicheroes/code\">Source</a> - C++ - GPL-3.0"
   ],
   [
+   "The Legend of Edgar (<a href=\"https://www.parallelrealities.co.uk/games/edgar/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/the_legend_of_edgar.md\">entry</a>)",
+   "2D platform game.",
+   "<a href=\"https://www.parallelrealities.co.uk/games/edgar/#downloads-/-releases\">Link</a>",
+   "Action/Arcade",
+   "mature / active",
+   "platform, 2D",
+   "<a href=\"https://github.com/riksweeney/edgar.git\">Source</a> - C - GPL-2.0"
+  ],
+  [
    "The Mana World (<a href=\"https://www.themanaworld.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/mana_world.md\">entry</a>)",
    "2D open source MMORPG.",
    "<a href=\"https://www.themanaworld.org/index.php/Downloads\">Link</a>",
@@ -3844,6 +3916,15 @@
    "<a href=\"https://github.com/thousandparsec/tpserver-cpp.git\">Source</a> - C++, Python - GPL-2.0"
   ],
   [
+   "TinTin++ (<a href=\"https://tintin.sourceforge.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/misc/tintinpp.md\">entry</a>)",
+   "MUD client.",
+   "<a href=\"https://tintin.sourceforge.io/download.php\">Link</a>",
+   "Misc",
+   "mature / active",
+   "MUD, client",
+   "C - GPL-3.0"
+  ],
+  [
    "Tremulous (<a href=\"http://tremulous.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/tremulous.md\">entry</a>)",
    "Asymmetric team-based first-person shooter with real-time..",
    "<a href=\"http://tremulous.net/files/\">Link</a>",
@@ -3851,6 +3932,15 @@
    "mature / inactive since 2016",
    "shooter",
    "<a href=\"https://github.com/darklegion/tremulous.git\">Source</a> - C - GPL-2.0"
+  ],
+  [
+   "Tressette (<a href=\"https://invido.it/progetti/tressette_progetto.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/misc/tresette.md\">entry</a>)",
+   "Italian card game.",
+   "<a href=\"https://invido.it/download/tressette_download.html\">Link</a>",
+   "Misc",
+   "mature / inactive since 2017",
+   "card game",
+   "? - ?"
   ],
   [
    "Trinity Reign (<a href=\"https://web.archive.org/web/20131209073248/http://trinity-reign.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/trinity_reign.md\">entry</a>)",
@@ -3898,6 +3988,15 @@
    "<a href=\"https://github.com/EdwardWoodhouse/Turn-of-War.git\">Source</a> - Java - GPL-3.0"
   ],
   [
+   "Tux Football (<a href=\"http://tuxfootball.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/simulation/tux_football.md\">entry</a>)",
+   "Arcade-style 2D football game reminiscent of Sensible..",
+   "<a href=\"http://tuxfootball.sourceforge.net/index.php?plugin=EnticorePluginStaticContent&config=idx%3A3\">Link</a>",
+   "Simulation",
+   "beta / inactive since 2012",
+   "arcade, 2D, sports",
+   "<a href=\"https://git.code.sf.net/p/tuxfootball/code\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
    "Tux Racer (<a href=\"http://tuxracer.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/tux_racer.md\">entry</a>)",
    "Racing game featuring Tux, the Linux Penguin.",
    "<a href=\"https://sourceforge.net/projects/tuxracer/files/\">Link</a>",
@@ -3905,6 +4004,15 @@
    "beta / inactive since 2001",
    "racing",
    "<a href=\"https://gitlab.com/osgames/tuxracer.git\">Source</a> - C - GPL-2.0"
+  ],
+  [
+   "Tux of Math Command (<a href=\"https://web.archive.org/web/20180423060214/http://tux4kids.alioth.debian.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/misc/tux_of_math_command.md\">entry</a>)",
+   "Math drill game starring Tux, the Linux Penguin.",
+   "<a href=\"https://sourceforge.net/projects/tuxmath/files/\">Link</a>",
+   "Misc",
+   "mature / inactive since 2011",
+   "tux, educational, kids",
+   "C - GPL-3.0"
   ],
   [
    "Tuxemon (<a href=\"https://www.tuxemon.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/tuxemon.md\">entry</a>)",
@@ -3961,6 +4069,15 @@
    "<a href=\"https://svn.code.sf.net/p/ultrastar/code/\">Source</a> - Pascal - ?"
   ],
   [
+   "UltraStar Deluxe (<a href=\"https://usdx.eu/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/misc/ultrastar_deluxe.md\">entry</a>)",
+   "Karaoke game.",
+   "<a href=\"https://usdx.eu/downloads/\">Link</a>",
+   "Misc",
+   "mature / active",
+   "karaoke, music",
+   "<a href=\"https://github.com/UltraStar-Deluxe/USDX.git\">Source</a> - Pascal - GPL-2.0"
+  ],
+  [
    "Umbra (<a href=\"http://markdamonhughes.com/Umbra/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/umbra.md\">entry</a>)",
    "Computer role-playing game written in Python.",
    "<a href=\"http://markdamonhughes.com/Umbra/#download\">Link</a>",
@@ -4015,6 +4132,15 @@
    "<a href=\"https://github.com/urho3d/Urho3D.git\">Source</a> - C++, AngelScript - MIT"
   ],
   [
+   "VASSAL Engine (<a href=\"http://www.vassalengine.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/framework/vassal_engine.md\">entry</a>)",
+   "Game engine for creating electronic versions of..",
+   "<a href=\"http://www.vassalengine.org/download.php\">Link</a>",
+   "Engines & Frameworks",
+   "mature / active",
+   "eingine, board game",
+   "<a href=\"https://svn.code.sf.net/p/vassalengine/svn/\">Source</a> - Java - LGPL-2.1"
+  ],
+  [
    "VCMI Project (<a href=\"https://vcmi.eu/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strategy/vcmi.md\">entry</a>)",
    "Engine for Heroes III, giving it new and extended..",
    "",
@@ -4022,6 +4148,15 @@
    "mature / active",
    "",
    "<a href=\"https://github.com/vcmi/vcmi.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "VDrift (<a href=\"http://vdrift.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/simulation/vdrift.md\">entry</a>)",
+   "Driving simulation made with drift racing in mind.",
+   "",
+   "Simulation",
+   "mature / inactive since 2014",
+   "racing, cars",
+   "<a href=\"https://github.com/VDrift/vdrift.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
    "Valyria Tear (<a href=\"https://valyriatear.blogspot.de/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rpg/valyria_tear.md\">entry</a>)",
@@ -4274,6 +4409,15 @@
    "mature / active",
    "shooter",
    "<a href=\"https://gitlab.com/xonotic/xonotic.git\">Source</a> - C - GPL-3.0"
+  ],
+  [
+   "YSoccer (<a href=\"http://ysoccer.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/simulation/ysoccer.md\">entry</a>)",
+   "Soccer game; continuation to Sensible World of Soccer.",
+   "<a href=\"http://ysoccer.sourceforge.net/dloads.htm\">Link</a>",
+   "Simulation",
+   "mature / inactive since 2017",
+   "sports, soccer",
+   "<a href=\"https://git.code.sf.net/p/ysoccer/code\">Source</a> - Java - ?"
   ],
   [
    "Yo Frankie! (<a href=\"https://apricot.blender.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/action/yo_frankie.md\">entry</a>)",

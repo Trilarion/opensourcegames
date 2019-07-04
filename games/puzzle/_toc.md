@@ -11,6 +11,7 @@
 - **[Fish Fillets - Next Generation](fish_fillets_ng.md)** (C++, GPL-2.0, mature, inactive since 2011)
 - **[Frozen Bubble](frozen_bubble.md)** (Perl, GPL-2.0, mature, inactive since 2012)
 - **[Grabble](grabble.md)** (Java, ?, mature, inactive since 2006)
+- **[HoDoKu](hodoku.md)** (Java, GPL-3.0, mature, inactive since 2013)
 - **[KAtomic](katomic.md)** (C++, GPL-2.0, mature)
 - **[Me and My Shadow](me_and_my_shadow.md)** (C++, GPL-3.0, beta)
 - **[Pingus](pingus.md)** (C++, GPL-3.0, mature)

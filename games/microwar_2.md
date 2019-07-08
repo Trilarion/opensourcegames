@@ -10,7 +10,7 @@ _'Space Invaders' style arcade game in the world of micro-compter industry._
 - Code repository: (see download)
 - Code language: Python
 - Code license: 3-clause BSD
-- Code dependencies: Pygame
+- Code dependencies: pygame
 
 ## Building
 

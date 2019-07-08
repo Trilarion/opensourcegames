@@ -8,6 +8,8 @@ _WebGL version of micropolisJS._
 - Keywords: simulation
 - Code repository: https://github.com/lo-th/3d.city.git
 - Code language: JavaScript
-- Code license: GPL-3.0
+- Code license: GPL-3.0 (with additional terms)
 
 ## Building
+
+- Build system: Custom (Python script)

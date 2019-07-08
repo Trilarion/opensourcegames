@@ -9,7 +9,7 @@ _Action/RPG sidescroller, focused not just on fighting, but on story, and charac
 - Code repository: https://github.com/hhirsch/ardentryst.git
 - Code language: Python
 - Code license: GPL-3.0
-- Code dependencies: PyGame
+- Code dependencies: pygame
 
 ## Building
 

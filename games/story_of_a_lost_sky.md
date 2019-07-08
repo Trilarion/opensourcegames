@@ -9,7 +9,7 @@ _Turn Based Strategy RPG with gameplay that is similar to Fire Emblem._
 - Code repository: https://bitbucket.org/featheredmelody/lost-sky-project-public/src (hg), https://gitlab.com/osgames/lost-sky.git (+)
 - Code language: Python
 - Code license: 3-clause BSD
-- Code dependencies: PyGame
+- Code dependencies: pygame
 
 ## Building
 

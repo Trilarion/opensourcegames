@@ -9,7 +9,7 @@ _Slay monsters, cast spells and collect keys to escape an 8-level dungeon in thi
 - Code repository: https://gitlab.com/osgames/monstrosity.git (sources from website plus license)
 - Code language: Python
 - Code license: MIT (repository)
-- Code dependencies: PyGame
+- Code dependencies: pygame
 - Assets license: Custom (music with permission by Tom Murphy)
 
 ## Building

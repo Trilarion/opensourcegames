@@ -10,6 +10,7 @@ _Dual n-back brain training exercise._
 - Code repository:  https://svn.code.sf.net/p/brainworkshop/code/ (svn)
 - Code language: Python
 - Code license: GPL
+- Code dependencies: pyglet
 
 ## Building
 

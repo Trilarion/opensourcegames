@@ -9,6 +9,7 @@ _A text-based, turn-based strategy game set in space. It is similar to a 4X game
 - Code repository: https://gitlab.com/osgames/aplanetsrevenge.git (copy of last source release)
 - Code language: Python
 - Code license: GPL-3.0
+- Code dependencies: curses
 
 ## Building
 

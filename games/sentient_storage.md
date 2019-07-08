@@ -9,7 +9,7 @@ _Point & Click adventure!_
 - Code repository: https://github.com/blakeohare/pyweek-sentientstorage.git
 - Code language: Python
 - Code license: Public Domain
-- Code dependencies: Pygame
+- Code dependencies: pygame
 
 ## Building
 

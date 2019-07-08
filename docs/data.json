@@ -14,7 +14,7 @@
    "<a href=\"https://play0ad.com/download/\">Link</a>",
    "beta / active",
    "real time, strategy",
-   "<a href=\"https://github.com/0ad/0ad.git\">Source</a> - C++ - GPL-2.0"
+   "<a href=\"https://github.com/0ad/0ad.git\">Source</a> - C, C++ - GPL-2.0"
   ],
   [
    "2048 (<a href=\"https://play2048.co/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/2048.md\">entry</a>)",
@@ -2799,6 +2799,14 @@
    "beta / inactive since 2006",
    "tool",
    "<a href=\"https://gitlab.com/osgames/rpdungeon.git\">Source</a> - Pascal - GPL-2.0"
+  ],
+  [
+   "Rabbit Escape (<a href=\"https://www.artificialworlds.net/rabbit-escape/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rabbit_escape.md\">entry</a>)",
+   "Puzzle/action game of rescuing rabbits, inspired by..",
+   "<a href=\"https://www.artificialworlds.net/rabbit-escape/#install\">Link</a>",
+   "beta / active",
+   "action, puzzle",
+   "<a href=\"https://github.com/andybalaam/rabbit-escape.git\">Source</a> - Java - GPL-2.0"
   ],
   [
    "Radakan (<a href=\"https://web.archive.org/web/20170915004555/http://radakan.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/radakan.md\">entry</a>)",

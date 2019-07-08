@@ -8,6 +8,7 @@ _Turn-based strategy game, an AI client development testbed._
 - Code repository: https://github.com/suprafun/aiwars.git, https://code.google.com/archive/p/aiwars/source
 - Code language: Python
 - Code license: MIT
+- Code dependencies: pygame, pillow
 
 ## Building
 

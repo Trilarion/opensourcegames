@@ -5,7 +5,7 @@ _Real time MP strategy game where players compete to build the most powerful rai
 - Home: http://freerails.sourceforge.net/
 - State: beta
 - Download: https://sourceforge.net/projects/freerails/files/jfreerails/
-- Keywords: strategy, RTS
+- Keywords: real time, strategy
 - Code repository: https://sourceforge.net/p/freerails/code/ (cvs)
 - Code language: Java
 - Code license: GPL-2.0

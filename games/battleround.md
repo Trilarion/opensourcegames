@@ -5,7 +5,7 @@ _Round based RPG._
 - Home: https://github.com/Leejjon/Battleround
 - State: beta, inactive since 2015
 - Platform: Android
-- Keywords: rpg
+- Keywords: role playing
 - Code repository: https://github.com/Leejjon/Battleround.git
 - Code language: Java
 - Code license: Apache-2.0

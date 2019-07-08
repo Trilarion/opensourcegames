@@ -5,7 +5,7 @@ _2D open source MMORPG._
 - Home: https://www.themanaworld.org/
 - State: mature
 - Download: https://www.themanaworld.org/index.php/Downloads
-- Keywords: rpg, MMO
+- Keywords: massive multiplayer online, role playing
 - Code repository: https://github.com/themanaworld/tmwa.git (https://github.com/themanaworld), https://gitlab.com/manaplus/manaplus.git (+)
 - Code language: PHP
 - Code license: GPL-2.0

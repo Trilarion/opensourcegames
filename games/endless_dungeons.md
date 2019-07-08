@@ -6,7 +6,7 @@ _Free random dungeon game RPG (Roguelike)_
 - State: mature, inactive since 2015
 - Download: https://sourceforge.net/projects/endlessdungeons/files/
 - Platform: Windows
-- Keywords: rpg
+- Keywords: role playing
 - Code repository: https://gitlab.com/osgames/endlessdungeons.git (archive of source releases)
 - Code language: C
 - Code license: CC BY-NC-SA 2.0

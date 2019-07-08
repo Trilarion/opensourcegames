@@ -6,7 +6,7 @@ _A three-dimensional dungeon crawling adventure that borrows a lot of elements f
 - Media: <https://en.wikipedia.org/wiki/Egoboo_(video_game)>
 - State: mature, inactive since 2015
 - Download: http://egoboo.sourceforge.net/download.html
-- Keywords: rpg
+- Keywords: role playing
 - Code repository: https://github.com/egoboo/egoboo.git, https://sourceforge.net/p/egoboo/svn/HEAD/tree/ (svn)
 - Code language: C++, C
 - Code license: GPL-3.0

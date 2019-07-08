@@ -7,7 +7,7 @@ _Port of the wonderful puzzle game Fish Fillets from ALTAR interactive._
 - State: mature, inactive since 2011
 - Download: http://fillets.sourceforge.net/download.php
 - Platform: Windows, Linux, macOS
-- Keywords: puzzle, port
+- Keywords: port, puzzle
 - Code repository: https://git.code.sf.net/p/fillets/code-fillets-ng, http://fillets.cvs.sourceforge.net (cvs)
 - Code language: C++
 - Code license: GPL-2.0

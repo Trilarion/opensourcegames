@@ -4,7 +4,7 @@ _This quest is a free, open-source game that works with Solarus, an open-source 
 
 - Home: https://github.com/solarus-games/zsdx
 - State: mature
-- Keywords: rpg
+- Keywords: role playing
 - Code repository: https://gitlab.com/solarus-games/zsdx.git, https://github.com/solarus-games/zsdx.git (old)
 - Code language: Lua
 - Code license: GPL-3.0

@@ -6,7 +6,7 @@ _Side scrolling shoot'em up game._
 - State: beta, inactive since 2006 
 - Download: https://sourceforge.net/projects/starblastrix/files/
 - Platform: Windows
-- Keywords: action, 2D, shoot'em up
+- Keywords: 2D, action, shoot'em up
 - Code repository: (see download)
 - Code language: C++
 - Code license: GPL-2.0

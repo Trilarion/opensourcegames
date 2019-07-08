@@ -6,7 +6,7 @@ _Simple DirectMedia Layer is a cross-platform development library designed to pr
 - Media: https://en.wikipedia.org/wiki/Simple_DirectMedia_Layer
 - State: mature
 - Download: https://www.libsdl.org/download-2.0.php
-- Keywords: library, 3D
+- Keywords: 3D, library
 - Code repository: http://hg.libsdl.org/SDL (hg)
 - Code language: C
 - Code license: zlib

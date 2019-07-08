@@ -6,7 +6,7 @@ _Networked clone of the classical Bubble Bobble board game._
 - State: mature, inactive since 2013
 - Download: http://bub-n-bros.sourceforge.net/download.html
 - Platform: Windows, Linux, macOS
-- Keywords: misc, board game
+- Keywords: board game
 - Code repository: http://bub-n-bros.cvs.sourceforge.net (cvs)
 - Code language: Python
 - Code license: MIT

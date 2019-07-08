@@ -5,7 +5,7 @@ _Rails is a Java game engine intended to play any of the 18xx series of turn-bas
 - Home: https://rails.sourceforge.io/, https://sourceforge.net/projects/rails/
 - State: mature
 - Download: https://sourceforge.net/projects/rails/files/Rails/
-- Keywords: strategy, TBS
+- Keywords: strategy, turn-based
 - Code repository: https://github.com/Rails-18xx/Rails.git
 - Code language: Java
 - Code license: GPL-2.0

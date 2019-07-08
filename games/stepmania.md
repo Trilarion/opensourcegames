@@ -6,7 +6,7 @@ _Dance and rhythm game._
 - State: mature 
 - Download: https://sourceforge.net/projects/stepmania/files/
 - Platform: Windows
-- Keywords: misc, music
+- Keywords: music
 - Code repository: https://github.com/stepmania/stepmania.git
 - Code language: C++
 - Code license: MIT

@@ -6,7 +6,7 @@ _Sudoku generator/solver/trainer/analyzer._
 - State: mature, inactive since 2013
 - Download: https://sourceforge.net/projects/hodoku/files/
 - Platform: Windows, Linux
-- Keywords: puzzle, puzzle
+- Keywords: puzzle
 - Code repository: https://svn.code.sf.net/p/hodoku/code/HoDoKu/trunk (svn)
 - Code language: Java
 - Code license: GPL-3.0

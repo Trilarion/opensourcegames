@@ -6,7 +6,7 @@ _Lively, fully destructible 3D landscapes in a turn-based artillery game._
 - State: mature, inactive since 2014
 - Download: http://www.scorched3d.co.uk/#download, https://sourceforge.net/projects/scorched3d/files/
 - Platform: Windows, Linux
-- Keywords: action, 3D, artillery
+- Keywords: 3D, action, artillery
 - Code repository: https://git.code.sf.net/p/scorched3d/git, https://svn.code.sf.net/p/scorched3d/code/ (svn)
 - Code language: C++
 - Code license: GPL-2.0

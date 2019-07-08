@@ -10,6 +10,7 @@ _3-D puzzle game, a mixture of the games Sokoban and Kula-World._
 - Keywords: puzzle
 - Code repository: http://kiki.cvs.sourceforge.net (cvs)
 - Code language: ?
+- Code license: ?
 
 ## Building
 

@@ -6,7 +6,7 @@ _Realistic physics simulations._
 - State: beta 
 - Download: http://the-butterfly-effect.org/#download, https://github.com/the-butterfly-effect/tbe/releases
 - Platform: Windows, Linux, macOS
-- Keywords: simulation, physics, simulation
+- Keywords: physics, simulation
 - Code repository: https://github.com/the-butterfly-effect/tbe.git
 - Code language: C++
 - Code license: GPL-2.0

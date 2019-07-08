@@ -6,7 +6,7 @@ _Car racing game with features such as shooting at other players, buying new car
 - State: mature, inactive since 2012 
 - Download: http://trophy.sourceforge.net/index.php?body=download, https://sourceforge.net/projects/trophy/files/
 - Platform: Windows, Linux
-- Keywords: simulation, 2D, car, racing
+- Keywords: 2D, cars, racing, simulation
 - Code repository: https://svn.code.sf.net/p/trophy/code/ (svn)
 - Code language: C++
 - Code license: GPL-2.0

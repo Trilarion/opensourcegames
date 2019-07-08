@@ -6,7 +6,7 @@ _Real Time Strategy 2D space combat game for two players over a network._
 - State: beta, inactive since 2013
 - Download: http://spacezero.sourceforge.net/index.html#download, https://sourceforge.net/projects/spacezero/files/
 - Platform: Linux
-- Keywords: strategy, RTS, space
+- Keywords: real time, space, strategy
 - Code repository: https://svn.code.sf.net/p/spacezero/code/ (svn)
 - Code language: C
 - Code license: GPL-3.0

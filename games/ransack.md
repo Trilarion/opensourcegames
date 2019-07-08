@@ -4,7 +4,7 @@ _Python based roguelike._
 
 - Home: https://github.com/dsallen7/ransack-python
 - State: mature, inactive since 2016
-- Keywords: rpg, roguelike
+- Keywords: roguelike, role playing
 - Code repository: https://github.com/dsallen7/ransack-python.git
 - Code language: Python
 - Code license: MIT

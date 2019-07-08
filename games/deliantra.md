@@ -5,7 +5,7 @@ _A cooperative multiplayer RPG and adventure game set in a classical medieval en
 - Home: http://www.deliantra.net/index.html
 - State: mature
 - Download: http://www.deliantra.net/play.html
-- Keywords: rpg, MMO
+- Keywords: massive multiplayer online, role playing
 - Code repository: http://cvs.schmorp.de/deliantra/ (cvs)
 - Code language: C
 - Code license: GPL-2.0

@@ -292,6 +292,7 @@
 - **[Open Meridian](open_meridian.md)** (C, C++, GPL-2.0, mature)
 - **[Open Panzer](open_panzer.md)** (JavaScript, GPL-2.0, mature)
 - **[Open RPG Maker](open_rpg_maker.md)** (C++, GPL-3.0, beta, inactive since 2014)
+- **[Open RSC](open_rsc.md)** (Java, GPL-3.0, mature)
 - **[Open Rails](open_rails.md)** (C#, GPL-3.0, mature)
 - **[Open Soccer Star](open_soccer_star.md)** (PHP, GPL-3.0, beta)
 - **[Open Sonic](open_sonic.md)** (C, GPL-2.0, beta)

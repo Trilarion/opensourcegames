@@ -74,6 +74,7 @@
 - **[ORIENT](orient.md)** (C#, Java, GPL-2.0, mature, inactive since 2009)
 - **[Open Legend RPG](open_legend_rpg.md)** (Text, Custom, mature)
 - **[Open Meridian](open_meridian.md)** (C, C++, GPL-2.0, mature)
+- **[Open RSC](open_rsc.md)** (Java, GPL-3.0, mature)
 - **[Open Tibia](open_tibia.md)** (C++, GPL-2.0, beta, inactive since 2014)
 - **[OpenMW](open_mw.md)** (C++, GPL-3.0, mature)
 - **[Openglad](openglad.md)** (C++, GPL-2.0, mature, inactive since 2004)

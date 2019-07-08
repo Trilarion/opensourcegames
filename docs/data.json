@@ -2337,6 +2337,14 @@
    "<a href=\"https://gitlab.com/osgames/openrpgmaker.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
+   "Open RSC (<a href=\"https://openrsc.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/open_rsc.md\">entry</a>)",
+   "As close of a replica Runescape game experience as possible.",
+   "",
+   "mature / active",
+   "massive multiplayer online, role playing",
+   "<a href=\"https://gitlab.openrsc.com/open-rsc/Game.git\">Source</a> - Java - GPL-3.0"
+  ],
+  [
    "Open Rails (<a href=\"http://openrails.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/open_rails.md\">entry</a>)",
    "Train simulator for the largest collection of digital..",
    "<a href=\"http://openrails.org/download/program/\">Link</a>",

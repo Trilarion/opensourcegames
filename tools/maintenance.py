@@ -85,8 +85,9 @@ def update_readme_and_tocs(infos):
     for keyword in recommended_keywords:
         infos_filtered = [x for x in infos if keyword in x['keywords']]
         title = keyword.capitalize()
-        file = '_{}.md'.format(keyword)
-        update.append('- **[{}](games/{}#{})** ({})\n'.format(title, file, title, len(infos_filtered)))
+        name = keyword.replace(' ', '-')
+        file = '_{}.md'.format(name)
+        update.append('- **[{}](games/{}#{})** ({})\n'.format(title, file, name, len(infos_filtered)))
         create_toc(title, file, infos_filtered)
     update = ''.join(update)
 
@@ -712,6 +713,11 @@ def bzr_repo(repo):
 
 
 def export_primary_code_repositories_json():
+    """
+
+    """
+
+    print('export to json for local repository update')
 
     primary_repos = {'git':[],'svn':[],'hg':[],'bzr':[]}
     unconsumed_entries = []

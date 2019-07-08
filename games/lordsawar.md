@@ -6,7 +6,7 @@ _LordsAWar! is a free, turn-based strategy game where up to 8 players strive for
 - Media: <https://en.wikipedia.org/wiki/Warlords_(game_series)#LordsAWar!>
 - State: mature
 - Download: (see home)
-- Keywords: strategy, TBS
+- Keywords: strategy, turn-based
 - Code repository: https://git.savannah.nongnu.org/git/lordsawar.git
 - Code language: C++
 - Code license: GPL-3.0

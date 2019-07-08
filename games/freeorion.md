@@ -6,7 +6,7 @@ _Turn-based space empire and galactic conquest (4X) computer game._
 - Media: https://en.wikipedia.org/wiki/Master_of_Orion#External_links
 - State: beta
 - Download: http://www.freeorion.org/index.php/Download
-- Keywords: strategy, TBS
+- Keywords: strategy, turn-based
 - Code repository: https://github.com/freeorion/freeorion.git, https://svn.code.sf.net/p/freeorion/code/ (svn)
 - Code language: C++, Python
 - Code license: GPL-2.0

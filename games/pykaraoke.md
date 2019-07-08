@@ -6,7 +6,7 @@ _Karaoke player._
 - State: beta, inactive since 2011
 - Download: http://www.kibosh.org/pykaraoke/downloads.php, https://sourceforge.net/projects/pykaraoke/files/
 - Platform: Windows, Linux, macOS
-- Keywords: misc, karaoke, music, social
+- Keywords: karaoke, music, social
 - Code repository: http://pykaraoke.cvs.sourceforge.net (cvs)
 - Code language: Python
 - Code license: LGPL-2.1

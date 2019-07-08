@@ -6,7 +6,7 @@ _A free multi-platform open source real-time strategy video game._
 - Media: https://en.wikipedia.org/wiki/Zero-K
 - State: mature
 - Download: http://zero-k.info/Wiki/Download
-- Keywords: strategy, RTS, popular
+- Keywords: popular, real time, strategy
 - Code repository: https://github.com/ZeroK-RTS/Zero-K.git
 - Code language: Lua
 - Code license: GPL-2.0

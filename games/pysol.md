@@ -7,7 +7,7 @@ _1,000 solitaire games._
 - State: mature, inactive since 2004
 - Download: http://www.pysol.org/#download
 - Platform: Windows, Linux, macOS
-- Keywords: strategy, cards
+- Keywords: cards, strategy
 - Code repository: (see download)
 - Code language: Python
 - Code license: GPL-2.0

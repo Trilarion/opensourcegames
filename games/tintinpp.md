@@ -6,7 +6,7 @@ _MUD client._
 - State: mature
 - Download: https://tintin.sourceforge.io/download.php, https://sourceforge.net/projects/tintin/files/
 - Platform: Windows, Linux, macOS, Android
-- Keywords: misc, MUD, client
+- Keywords: MUD, client, role playing
 - Code repository: (see download)
 - Code language: C
 - Code license: GPL-3.0

@@ -6,7 +6,7 @@ _Action-adventure dungeon crawl game._
 - Media: https://libregamewiki.org/Meritous
 - State: mature, inactive since 2008
 - Download: (see home)
-- Keywords: rpg
+- Keywords: role playing
 - Code repository: https://github.com/Nop90-Switch/Meritous-Switch.git (import of version 1.2)
 - Code language: C
 - Code license: GPL-3.0

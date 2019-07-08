@@ -1,6 +1,6 @@
 # Battle Tanks
 
-_Fast 2d tank arcade game with multiplayer and split-screen modes._
+_Fast 2D tank arcade game with multiplayer and split-screen modes._
 
 - Home: http://btanks.sourceforge.net/blog/, https://sourceforge.net/projects/btanks/
 - State: mature, inactive since 2009

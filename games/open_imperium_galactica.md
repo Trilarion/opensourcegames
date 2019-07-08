@@ -5,7 +5,7 @@ _Reimplementation of Imperium Galactica._
 - Home: https://github.com/akarnokd/open-ig
 - State: beta
 - Download: https://github.com/akarnokd/open-ig/releases
-- Keywords: strategy, TBS
+- Keywords: strategy, turn-based
 - Code repository: https://github.com/akarnokd/open-ig.git
 - Code language: Java
 - Code license: GPL-3.0

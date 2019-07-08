@@ -4,7 +4,7 @@ _Game which captures the look, feel and gameplay of the popular games RollerCoas
 
 - Home: https://web.archive.org/web/*/http://www.freerct.org/, http://freerct.blogspot.com/
 - State: beta, inactive since 2016
-- Keywords: strategy, inspired (by RCT 1 and 2)
+- Keywords: inspired (by RCT 1 and 2), strategy
 - Code repository: https://github.com/FreeRCT/FreeRCT.git
 - Code language: C++
 - Code license: GPL-2.0

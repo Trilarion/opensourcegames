@@ -10,6 +10,7 @@ _First-person shooter video game._
 - Keywords: action, shooter
 - Code repository: (not found yet)
 - Code language: ?
+- Code license: ?
 - Code dependencies: DarkPlaces (Quake engine https://github.com/xonotic/darkplaces)
 
 ## Building

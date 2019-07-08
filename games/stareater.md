@@ -6,7 +6,7 @@ _4X strategy game in space_
 - State: beta
 - Download: https://github.com/subchannel13/Stareater/releases
 - Platform: Windows, Linux, macOS
-- Keywords: strategy, TBS
+- Keywords: strategy, turn-based
 - Code repository: https://github.com/subchannel13/Stareater.git
 - Code language: C#
 - Code license: GPL-3.0

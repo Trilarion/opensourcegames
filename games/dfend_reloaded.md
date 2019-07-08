@@ -6,7 +6,7 @@ _Graphical environment for DOSBox._
 - State: mature, inactive since 2015
 - Download: http://dfendreloaded.sourceforge.net/Download.html, https://sourceforge.net/projects/dfendreloaded/files/D-Fend%20Reloaded/
 - Platform: Windows
-- Keywords: tools, frontend, tool
+- Keywords: frontend, tool
 - Code repository: (see download)
 - Code language: Pascal
 - Code license: GPL

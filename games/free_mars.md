@@ -6,7 +6,7 @@ _Turn based free strategy game about colonizing Mars._
 - State: mature
 - Download: https://sourceforge.net/projects/freemars/files
 - Platform: Windows, Linux, macOS
-- Keywords: strategy, TB
+- Keywords: strategy, turn-based
 - Code repository: https://svn.code.sf.net/p/freemars/code/ (svn)
 - Code language: Java
 - Code license: GPL-3.0

@@ -5,7 +5,7 @@ _Slay monsters, cast spells and collect keys to escape an 8-level dungeon in thi
 - Home: http://monstrosity.fireheadfred.com/
 - State: mature
 - Download: http://monstrosity.fireheadfred.com/
-- Keywords: rpg
+- Keywords: role playing
 - Code repository: https://gitlab.com/osgames/monstrosity.git (sources from website plus license)
 - Code language: Python
 - Code license: MIT (repository)

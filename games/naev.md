@@ -5,7 +5,7 @@ _2D space trading and combat game, taking inspiration from the Escape Velocity s
 - Home: http://blog.naev.org/, https://sourceforge.net/projects/naev/
 - State: mature
 - Download: http://blog.naev.org/downloads/, https://sourceforge.net/projects/naev/files/
-- Keywords: rpg
+- Keywords: role playing
 - Code repository: https://github.com/naev/naev.git
 - Code language: C, Lua
 - Code license: GPL-3.0

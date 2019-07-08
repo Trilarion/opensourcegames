@@ -6,7 +6,7 @@ _Roguelike, single-player role-playing game where the hero must venture through 
 - Media: https://en.wikipedia.org/wiki/NetHack#Ports_and_forks
 - State: mature
 - Download: https://sourceforge.net/projects/unnethack/files/unnethack/
-- Keywords: rpg, roguelike
+- Keywords: roguelike, role playing
 - Code repository: https://github.com/unnethack/unnethack.git, https://sourceforge.net/p/unnethack/code/HEAD/tree/ (svn), https://sourceforge.net/p/unnethack/git/ci/master/tree/
 - Code language: C
 - Code license: Custom (NetHack license)

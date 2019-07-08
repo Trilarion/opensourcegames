@@ -6,7 +6,7 @@ _C++ library that lets developers create applications for Windows, Mac OS X, Lin
 - Media: https://en.wikipedia.org/wiki/WxWidgets
 - State: mature
 - Download: http://wxwidgets.org/downloads/
-- Keywords: library, gui toolkit
+- Keywords: gui toolkit, library
 - Code repository: https://github.com/wxWidgets/wxWidgets.git
 - Code language: C++, Objective-C
 - Code license: Custom

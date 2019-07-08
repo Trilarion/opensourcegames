@@ -4,7 +4,7 @@ _Soccer manager game in which you are not the manager or trainer, but the player
 
 - Home: https://opensoccerstar.com/
 - State: beta
-- Keywords: strategy, online, sports
+- Keywords: online, sports, strategy
 - Code repository: https://github.com/dmecke/OpenSoccerStar.git
 - Code language: PHP
 - Code license: GPL-3.0

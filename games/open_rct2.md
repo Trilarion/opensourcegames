@@ -7,7 +7,7 @@ _Re-implementation of RollerCoaster Tycoon 2 (RCT2), expanding the game with new
 - State: beta
 - Download: https://openrct2.org/downloads
 - Platform: Windows, Linux, macOS
-- Keywords: simulation, remake, requires original content (from RCT2)
+- Keywords: remake, requires original content (from RCT2), simulation
 - Code repository: https://github.com/OpenRCT2/OpenRCT2.git
 - Code language: C++
 - Code license: GPL-3.0

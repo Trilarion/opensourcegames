@@ -9,6 +9,7 @@ _An SDL remake of the old dos game Arcade Volleyball._
 - Keywords: action, arcade, sports
 - Code repository: http://gav.cvs.sourceforge.net (cvs)
 - Code language: ?
+- Code license: ?
 - Code dependencies: SDL
 
 ## Building

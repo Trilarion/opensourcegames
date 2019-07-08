@@ -11,6 +11,7 @@ _Multi-player battle simulation with a Star Trek theme._
 - Keywords: action, multiplayer, online
 - Code repository: http://netrek.cvs.sourceforge.net (cvs)
 - Code language: ?
+- Code license: ?
 
 See also [JTrek](http://ftp.netrek.org/pub/netrek/clients/jtrek/)
 

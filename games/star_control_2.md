@@ -6,7 +6,7 @@ _The Ur-Quan Masters (or UQM) project[22] aims to port Star Control II to modern
 - Media: https://en.wikipedia.org/wiki/Star_Control_II#The_Ur-Quan_Masters
 - State: mature, inactive since 2011
 - Download: http://sc2.sourceforge.net/downloads.php
-- Keywords: strategy, TBS
+- Keywords: strategy, turn-based
 - Code repository: https://git.code.sf.net/p/sc2/uqm
 - Code language: C
 - Code license: GPL-2.0

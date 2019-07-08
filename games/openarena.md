@@ -1,6 +1,6 @@
 # OpenArena
 
-_First-person shooter (FPS), and a video game clone of Quake III Arena._
+_First-person shooter, and a video game clone of Quake III Arena._
 
 - Home: http://openarena.ws/smfnews.php
 - Media: https://en.wikipedia.org/wiki/OpenArena

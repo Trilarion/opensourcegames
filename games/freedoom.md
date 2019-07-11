@@ -11,7 +11,7 @@ _Open content for the Doom engine._
 - Code repository: https://github.com/freedoom/freedoom.git
 - Code language: Python
 - Code license: BSD
-- Code dependencies: Doom engine
+- Code dependencies: Doom engine, pillow
 
 ## Building
 

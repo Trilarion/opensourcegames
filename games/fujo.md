@@ -8,8 +8,10 @@ _Fairly classical roguelike, but with animated graphics._
 - Keywords: role playing
 - Code repository: https://bitbucket.org/thesheep/fujo/src (hg), https://gitlab.com/osgames/fujo.git (+)
 - Code language: Python
-- Code license: CC BY-SA 4.0
+- Code license: CC-BY-SA-4.0
 - Code dependencies: pygame
-- Assets license: CC BY-SA 4.0
+- Assets license: CC-BY-SA-4.0
 
 ## Building
+
+- Build system: setup.py, py2exe

@@ -8,6 +8,7 @@ _Third game in the dungeon monkey series._
 - Code repository: https://github.com/jwvhewitt/dmeternal.git
 - Code language: Python
 - Code license: GPL-2.0
+- Code dependencies: pygame, pyglet
 
 ## Building
 

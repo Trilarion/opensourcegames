@@ -9,7 +9,7 @@ _Boost provides free peer-reviewed portable C++ source libraries._
 - Keywords: library
 - Code repository: https://github.com/boostorg/boost.git
 - Code language: C++
-- Code license: Boost license 1.0
+- Code license: Boost-1.0
 
 [Boost Software License 1.0](https://github.com/boostorg/boost/blob/master/LICENSE_1_0.txt)
 

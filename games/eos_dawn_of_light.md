@@ -9,6 +9,7 @@ _Space adventure game with elements of arcade and strategy._
 - Code repository: https://gitlab.com/osgames/eos-game.git (backup of svn), https://svn.code.sf.net/p/eos-game/code/ (svn)
 - Code language: Python
 - Code license: MIT
+- Code dependencies: pygame
 
 ## Building
 

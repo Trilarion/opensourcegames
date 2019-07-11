@@ -9,7 +9,8 @@ _Single player RPG game, set in a dark fantasy setting where four unique races s
 - Code repository: https://gitlab.com/osgames/radakan.git (backup of svn), https://svn.code.sf.net/p/radakan/code/ (svn)
 - Code language: Python
 - Code license: Custom
+- Code dependencies: DirectPython, Panda3D
 
-See also https://github.com/shadowislord/radakan (Java version)
+See also https://github.com/shadowislord/radakan (Java version).
 
 ## Building

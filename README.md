@@ -19,7 +19,7 @@
 - **[Music](games/_music.md#music)** (3)
 - **[Educational](games/_educational.md#educational)** (3)
 - **[Tool](games/_tool.md#tool)** (15)
-- **[Game engine](games/_game-engine.md#game-engine)** (7)
+- **[Game engine](games/_game-engine.md#game-engine)** (8)
 - **[Framework](games/_framework.md#framework)** (59)
 - **[Library](games/_library.md#library)** (22)
 

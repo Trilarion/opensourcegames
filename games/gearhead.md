@@ -7,7 +7,7 @@ _Roguelike mecha RPG series._
 - Download: http://www.gearheadrpg.com/downloads/
 - Keywords: roguelike, role playing
 - Code repository: https://github.com/jwvhewitt/gearhead-1.git, https://github.com/jwvhewitt/gearhead-2.git (+), https://github.com/jwvhewitt/gearhead-caramel.git (+), https://github.com/jwvhewitt/dmeternal.git (+)
-- Code language: Pascal, Python
+- Code language: Pascal
 - Code license: LGPL-2.1, Apache-2.0
 
 There are several independent versions.

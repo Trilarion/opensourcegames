@@ -10,8 +10,10 @@ _A 2D real time strategy simulation with an emphasis on economy and city buildin
 - Code repository: https://github.com/unknown-horizons/unknown-horizons.git
 - Code language: Python
 - Code license: GPL-2.0
+- Code dependencies: FIFE, pillow, yaml
 
 Uses the FIFE engine.
 
 ## Building
 
+- Build system: setup.py

@@ -149,8 +149,8 @@ def check_validity_external_links():
                 # for each possible clause
                 for url in match:
 
-                    # if there was something
-                    if url:
+                    # if there was something (and not a sourceforge git url)
+                    if url and not url.startswith('https://git.code.sf.net/p/'):
                         try:
                             # without a special header, frequent 403 responses occur
                             req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64)'})

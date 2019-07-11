@@ -9,6 +9,7 @@ _Adventure game based on the open source film 'Sintel'._
 - Code repository: https://github.com/jonburesh/sintelgame.git
 - Code language: Python
 - Code license: MIT
+- Code dependencies: Blender game engine
 
 ## Building
 

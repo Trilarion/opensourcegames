@@ -9,6 +9,7 @@ _GameMaster (i.e. role-playing) utility._
 - Code repository: https://gitlab.com/osgames/deity.git (backup of svn), https://svn.code.sf.net/p/deity/code/ (svn)
 - Code language: Python
 - Code license: GPL-2.0
+- Code dependencies: wxPython
 
 ## Building
 

@@ -21,4 +21,5 @@ Used to have basic network functionality prior to 2.0.0.
 ## Building
 
 - Build system: CMake
-- Build instructions: ./packdata && CMake . && make
+
+Build with ./packdata && CMake . && make

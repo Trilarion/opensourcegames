@@ -8,7 +8,7 @@ _2D arcade platform game._
 - Download: https://sourceforge.net/projects/blobwars/files/
 - Platform: Windows
 - Keywords: action
-- Code repository: https://git.code.sf.net/p/blobwars/code
+- Code repository: https://git.code.sf.net/p/blobwars/code, https://gitlab.com/osgames/blobwars.git (+)
 - Code language: C++
 - Code license: GPL-2.0
 

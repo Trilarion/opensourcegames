@@ -8,7 +8,7 @@ _Attempt to revitalize the open source game, GalaxyMage with a fresh codebase._
 - Code repository: https://github.com/LibreGamesArchive/galaxymageredux.git, https://code.google.com/archive/p/galaxymageredux/source
 - Code language: Python
 - Code license: GPL-2.0
-- Code dependencies: pygame
+- Code dependencies: pygame, numpy, PyOpenGL, Twisted, Zope
 
 ## Building
 

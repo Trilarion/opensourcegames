@@ -1,4 +1,4 @@
-# Dark City
+# DarkCity
 
 _DarkCity is a MMORPG game, in text mode on the Internet._
 

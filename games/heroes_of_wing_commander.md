@@ -9,6 +9,7 @@ _A fan base strategy game based on the Origin's Wing Commander universe._
 - Code repository: https://gitlab.com/osgames/howc.git (backup of svn), https://svn.code.sf.net/p/howc/code/ (svn)
 - Code language: Python
 - Code license: GPL-3.0
+- Code dependencies: pygame, NetworkX
 
 ## Building
 

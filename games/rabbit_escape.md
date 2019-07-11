@@ -3,7 +3,7 @@
 _Puzzle/action game of rescuing rabbits, inspired by Lemmings and Pingus._
 
 - Home: https://www.artificialworlds.net/rabbit-escape/
-- State: beta
+- State: mature
 - Download: https://www.artificialworlds.net/rabbit-escape/#install
 - Platform: Windows, Linux, macOS, Android
 - Keywords: action, puzzle

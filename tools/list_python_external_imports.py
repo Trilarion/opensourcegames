@@ -19,9 +19,9 @@ def local_module(module_base, file_path, module):
 
 if __name__ == "__main__":
 
-    system_libraries = {'__builtin__', '.', '..', '*', 'array', 'os', 'copy', 'codecs', 'collections', 'cPickle', 'datetime', 'decimal', 'email',
-        'io', 'math', 'md5', 'operator', 'random', 're', 'sha', 'shutil', 'smtplib', 'socket', 'string', 'struct', 'subprocess',
-        'sys', 'thread', 'threading', 'time', 'traceback', 'types', 'urllib', 'urllib2', 'yaml', 'yaml3', 'zlib'}
+    system_libraries = {'__builtin__', '.', '..', '*', 'argparse', 'array', 'os', 'copy', 'codecs', 'collections', 'ctypes', 'pickle', 'cPickle', 'datetime', 'decimal', 'email', 'functools',
+        'io', 'itertools', 'json', 'httplib', 'glob', 'math', 'cmath', 'heapq', 'md5', 'operator', 'random', 're', 'sha', 'shutil', 'smtplib', 'socket', 'string', 'struct', 'subprocess',
+        'sys', 'thread', 'threading', 'time', 'traceback', 'types', 'urllib', 'urllib2', 'urlparse', 'unittest', 'yaml', 'yaml3', 'zlib', 'zipfile', '__future__'}
     regex_import = re.compile(r"^\s*import (.*)", re.MULTILINE)
     regex_from = re.compile(r"^\s*from (.*) import (.*)", re.MULTILINE)
     regex_comment = re.compile(r"(#.*)$", re.MULTILINE)
@@ -32,17 +32,23 @@ if __name__ == "__main__":
     module_base = r''
 
     # get all *.py files below the root_folder
-    files = []
+    python_files = []
+    setup_files = []
     for dirpath, dirnames, filenames in os.walk(root_folder):
-        filenames = [x for x in filenames if x.endswith('.py') or x.endswith('.pyw')]
+        for file in ('setup.py', 'requirements.txt'):
+            if file in filenames:
+                setup_files.append(os.path.join(dirpath, file))
+        filenames = [x for x in filenames if x.endswith('.py') or x.endswith('.pyw') or x.endswith('.cry')]
         if filenames:
             filenames = [os.path.join(dirpath, x) for x in filenames]
-            files.extend(filenames)
-    print('found {} files'.format(len(files)))
+            python_files.extend(filenames)
+    print('found {} Python files'.format(len(python_files)))
+    if setup_files:
+        print('found setup files: {}'.format(', '.join(setup_files)))
 
     # iterate over all these files
     imports = []
-    for file in files:
+    for file in python_files:
 
         # get file path
         file_path = os.path.split(file)[0]

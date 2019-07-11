@@ -9,9 +9,9 @@ _Free random dungeon game RPG (Roguelike)_
 - Keywords: role playing
 - Code repository: https://gitlab.com/osgames/endlessdungeons.git (archive of source releases)
 - Code language: C
-- Code license: CC BY-NC-SA 2.0
+- Code license: CC-BY-NC-SA-2.0
 - Code dependencies: Allegro
-- Assets license: CC BY-NC-SA 2.0
+- Assets license: CC-BY-NC-SA-2.0
 
 ## Building
 

@@ -16,7 +16,7 @@
 - **[KAtomic](katomic.md)** (C++, GPL-2.0, mature)
 - **[Me and My Shadow](me_and_my_shadow.md)** (C++, GPL-3.0, beta)
 - **[Pingus](pingus.md)** (C++, GPL-3.0, mature)
-- **[Rabbit Escape](rabbit_escape.md)** (Java, GPL-2.0, beta)
+- **[Rabbit Escape](rabbit_escape.md)** (Java, GPL-2.0, mature)
 - **[Secret Mario Chronicles](secret_mario_chronicles.md)** (C++, GPL-3.0, mature, inactive since 2009)
 - **[TetraVex](tetravex.md)** (Swift, GPL-3.0, beta)
 - **[kiki the nano bot](kiki_the_nano_bot.md)** (?, ?, mature, inactive since 2007)

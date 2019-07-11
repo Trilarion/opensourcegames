@@ -10,6 +10,7 @@ _Turn-based space empire and galactic conquest (4X) computer game._
 - Code repository: https://github.com/freeorion/freeorion.git, https://svn.code.sf.net/p/freeorion/code/ (svn)
 - Code language: C++, Python
 - Code license: GPL-2.0
+- Code dependencies: PyLab, SDL, zlib, OpenAL, Ogg, Vorbis, Freetype, OpenGL, Boost
 
 ## Building
 

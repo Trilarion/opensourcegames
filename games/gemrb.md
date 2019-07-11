@@ -9,9 +9,10 @@ _GemRB is a portable open-source implementation of Bioware's Infinity Engine._
 - Code repository: https://github.com/gemrb/gemrb.git
 - Code language: C++, Python
 - Code license: GPL-2.0
+- Code dependencies: SDL2, zlib, OpenAL, Twisted
 
 Requires original game content.
 
 ## Building
 
-
+- Build system: CMake

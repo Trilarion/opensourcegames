@@ -2,7 +2,7 @@
 
 _A computer mystery/romance set five minutes into the future of 1988._
 
-- Home: http://scoutshonour.com/digital/, https://lgdb.org/game/digital_love_story
+- Home: http://scoutshonour.com/digital/, https://web.archive.org/web/20160507142946/https://lgdb.org/game/digital_love_story
 - State: mature
 - Download: (see home)
 - Platform: Windows, Linux, macOS

@@ -7,8 +7,9 @@ _The first serious game using the Annchienta engine._
 - Download: https://sourceforge.net/projects/annchienta/files/annchienta/current/
 - Keywords: role playing
 - Code repository: https://github.com/sago007/annchienta.git, https://svn.code.sf.net/p/annchienta/code/ (svn)
-- Code language: Python
+- Code language: C++, Python
 - Code license: GPL-3.0
+- Code dependencies: PyQt4, pygtk
 
 See also entry fo Annchienta.
 

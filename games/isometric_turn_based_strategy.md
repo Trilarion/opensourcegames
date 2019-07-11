@@ -9,6 +9,7 @@ _Deep, complex tactical turn-based RPG._
 - Code repository: https://github.com/matthewgrimes/itbs-code.git
 - Code language: Python
 - Code license: MIT
+- Code dependencies: pygame
 
 ## Building
 

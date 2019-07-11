@@ -9,6 +9,7 @@ _Map making utility used for role-playing games._
 - Code repository: https://gitlab.com/osgames/pymapper.git (copy of source releases)
 - Code language: Python
 - Code license: GPL-3.0
+- Code dependencies: wxPython
 
 ## Building
 

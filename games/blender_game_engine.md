@@ -2,7 +2,8 @@
 
 _Included in Blender is a complete game engine, allowing you to create a fully featured 3d game right inside Blender._
 
-- Home: https://www.blender.org/features/game-creation/, https://docs.blender.org/manual/en/dev/game_engine/index.html
+- Home: https://www.blender.org/features/game-creation/, https://docs.blender.org/manual/en/2.79/game_engine/index.html
+- Media: https://en.wikipedia.org/wiki/Blender_Game_Engine  
 - State: mature
 - Download: https://www.blender.org/download/
 - Keywords: framework

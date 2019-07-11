@@ -8,6 +8,7 @@ _Open source version of Moonbase Commander._
 - Code repository: https://github.com/Scorched-Moon/server.git, https://github.com/Scorched-Moon/client.git (+)
 - Code language: Python
 - Code license: GPL-3.0
+- Code dependencies: pygame, pgu
 
 Old [Googlecode project](https://code.google.com/archive/p/tether/)
 

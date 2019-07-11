@@ -5,13 +5,16 @@ _2D side scrolling beatem-up engine._
 - Home: http://paintown.org/, https://sourceforge.net/projects/paintown/
 - State: mature 
 - Download: http://paintown.org/#/downloads, https://sourceforge.net/projects/paintown/files/
-- Platform: Windows, Linux, macOS
+- Platform: Windows, Linux, macOS, Android
 - Keywords: 2D, action, arcade, beat'em up, game engine
 - Code repository: https://github.com/kazzmir/paintown.git, https://svn.code.sf.net/p/paintown/code/ (svn)
 - Code language: C++, Java, Python
 - Code license: 3-clause BSD
+- Code dependencies: PyQt4, Allegro, libpng, Freetype
+
+Android port is written in Java.
 
 ## Building
 
-- Build system: CMake
+- Build system: CMake, Scons
 

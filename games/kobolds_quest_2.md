@@ -9,6 +9,7 @@ _Sequel to kobold's quest and features an octree for multi processing game mecha
 - Code repository: https://gitlab.com/osgames/koboldsquest2.git (snapshot of source release)
 - Code language: Python
 - Code license: LGPL-3.0
+- Code dependencies: pygame
 
 ## Building
 

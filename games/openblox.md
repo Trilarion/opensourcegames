@@ -10,6 +10,7 @@ _Make games with a built-in physics engine, Lego-like building blocks, and a scr
 - Code repository: http://hg.code.sf.net/p/openblox/openblox (hg), http://hg.code.sf.net/p/openblox/bloxstaller (hg)
 - Code language: Python, Lua
 - Code license: GPL-3.0
+- Code dependencies: wxPython, Panda3D
 - Assets license: CC-BY-SA-3.0
 
 ## Building

@@ -9,8 +9,10 @@ _Clone of Microprose game "Master of Orion II: Battle at Antares"._
 - Code repository: https://github.com/pjotrligthart/openmoo2-hg-mirror.git
 - Code language: Python
 - Code license: GPL-2.0
+- Code dependencies: pygame
 
 See also https://github.com/mimi1vx/openmoo2, https://gitlab.com/scarabeusiv/openmoo2
 
 ## Building
 
+- Build system: setup.py

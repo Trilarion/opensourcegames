@@ -46,7 +46,7 @@
 - **[OpenLieroX](openlierox.md)** (C++, LGPL, mature)
 - **[PainTown](paintown.md)** (C++, Java, Python, 3-clause BSD, mature)
 - **[Pang Zero](pang_zero.md)** (Perl, GPL-2.0, beta, inactive since 2007)
-- **[Rabbit Escape](rabbit_escape.md)** (Java, GPL-2.0, beta)
+- **[Rabbit Escape](rabbit_escape.md)** (Java, GPL-2.0, mature)
 - **[Red Eclipse](red_eclipse.md)** (C++, zlib, mature)
 - **[Rocks'n'Diamonds ](rocks_and_diamonds.md)** (C, GPL-2.0, mature)
 - **[SDL Asylum](sdl_asylum.md)** (C, GPL-3.0, mature, inactive since 2009)

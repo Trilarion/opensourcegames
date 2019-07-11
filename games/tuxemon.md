@@ -9,6 +9,7 @@ _Turn-based monster fighting RPG._
 - Code repository: https://github.com/Tuxemon/Tuxemon.git
 - Code language: Python
 - Code license: GPL-3.0
+- Code dependencies: pillow, cx_Freeze, neteria, pygame, PyTMX
 
 ## Building
 

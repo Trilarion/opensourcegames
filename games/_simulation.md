@@ -3,7 +3,7 @@
 
 - **[3d.city](3d_city.md)** (JavaScript, GPL-3.0, mature, inactive since 2016)
 - **[Cart Life](cart_life.md)** (AGS Script, Custom, mature, inactive since 2014)
-- **[Core War](core_war.md)** (?, ?, mature)
+- **[Core War](core_war.md)** (C, Java, GPL-2.0, 2-clause BSD, mature)
 - **[Danger from the Deep](danger_from_the_deep.md)** (C++, GPL-2.0, beta, inactive since 2011)
 - **[Eat The Whistle](eat_the_whistle.md)** (C, ?, mature, inactive since 2017)
 - **[FlightGear](flightgear.md)** (C++, GPL-2.0, mature)
@@ -13,7 +13,7 @@
 - **[Grobots](grobots.md)** (C++, GPL-2.0, mature, inactive since 2014)
 - **[Infiniminer](infiniminer.md)** (C#, MIT, mature, inactive since 2016)
 - **[LinCity-NG](lincity_ng.md)** (C++, GPL, mature)
-- **[LinCity](lincity.md)** (C, GPL-2.0, mature, inactive since 2005)
+- **[Lincity](lincity.md)** (C, GPL-2.0, mature, inactive since 2005)
 - **[Micropolis](micropolis.md)** (C++, Java, Python, GPL-3.0, mature)
 - **[NetStatsBaseball](netstatsbaseball.md)** (C, ?, mature)
 - **[Oolite](oolite.md)** (Objective-C, C, Javascript, GPL-2.0, mature)

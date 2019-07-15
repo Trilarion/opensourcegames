@@ -7,9 +7,9 @@ _Adaptation of the original BlockOut® DOS game edited by California Dreams in 1
 - Download: https://sourceforge.net/projects/blockout/files/blockout/
 - Platform: Windows, Linux
 - Keywords: puzzle, remake
-- Code repository: http://blockout.cvs.sourceforge.net (cvs)
-- Code language: ?
-- Code license: ?
+- Code repository: https://gitlab.com/osgames/blockout.git (conversion of cvs), http://blockout.cvs.sourceforge.net (cvs)
+- Code language: C++
+- Code license: GPL-2.0
 - Code dependencies: OpenGL
 
 ## Building

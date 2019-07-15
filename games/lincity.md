@@ -1,4 +1,4 @@
-# LinCity
+# Lincity
 
 _Lincity is a city simulation game,_
 

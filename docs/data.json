@@ -145,9 +145,9 @@
    "<a href=\"https://gitlab.com/osgames/antichess.git\">Source</a> - Java - MIT"
   ],
   [
-   "Ardentryst (<a href=\"http://www.jordantrudgett.com/ardentryst/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/ardentryst.md\">entry</a>)",
+   "Ardentryst (<a href=\"https://web.archive.org/web/20190304014608/http://www.jordantrudgett.com/ardentryst/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/ardentryst.md\">entry</a>)",
    "Action/RPG sidescroller, focused not just on fighting, but..",
-   "<a href=\"http://www.jordantrudgett.com/ardentryst/ardentryst-downloads/\">Link</a>",
+   "<a href=\"https://web.archive.org/web/20180531203109/http://www.jordantrudgett.com/ardentryst/ardentryst-downloads/\">Link</a>",
    "mature / inactive since 2009",
    "role playing",
    "<a href=\"https://github.com/hhirsch/ardentryst.git\">Source</a> - Python - GPL-3.0"
@@ -220,9 +220,9 @@
    "Atomiks (<a href=\"http://atomiks.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/atomiks.md\">entry</a>)",
    "Faithful remake of, and a tribute to, Atomix, a classic..",
    "<a href=\"https://sourceforge.net/projects/atomiks/files\">Link</a>",
-   "mature / active",
+   "mature / inactive since 2015",
    "puzzle",
-   "<a href=\"https://svn.code.sf.net/p/atomiks/code/\">Source</a> - C - GPL"
+   "<a href=\"https://svn.code.sf.net/p/atomiks/code/\">Source</a> - C - GPL-3.0"
   ],
   [
    "Atomix (<a href=\"https://github.com/GNOME/atomix\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/atomix.md\">entry</a>)",
@@ -286,7 +286,7 @@
    "<a href=\"https://sourceforge.net/projects/btanks/files/\">Link</a>",
    "mature / inactive since 2009",
    "action, arcade",
-   "<a href=\"https://svn.code.sf.net/p/btanks/code/\">Source</a> - C++ - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/btanks.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Battle for Wesnoth (<a href=\"http://www.wesnoth.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/battle_for_wesnoth.md\">entry</a>)",
@@ -398,7 +398,7 @@
    "<a href=\"https://sourceforge.net/projects/blockout/files/blockout/\">Link</a>",
    "mature / inactive since 2014",
    "puzzle, remake",
-   "<a href=\"http://blockout.cvs.sourceforge.net\">Source</a> - ? - ?"
+   "<a href=\"https://gitlab.com/osgames/blockout.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Bombermaaan (<a href=\"http://bombermaaan.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/bombermaaan.md\">entry</a>)",
@@ -446,7 +446,7 @@
    "<a href=\"http://brainworkshop.sourceforge.net/download.html\">Link</a>",
    "mature / inactive since 2011",
    "brain exercise, puzzle",
-   "<a href=\"https://svn.code.sf.net/p/brainworkshop/code/\">Source</a> - Python - GPL"
+   "<a href=\"https://gitlab.com/osgames/brain-workshop.git\">Source</a> - Python - GPL"
   ],
   [
    "BrowserQuest (<a href=\"http://browserquest.mozilla.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/browserquest.md\">entry</a>)",
@@ -625,9 +625,9 @@
    "<a href=\"https://git.code.sf.net/p/chromium-bsu/code\">Source</a> - C++ - Artistic License"
   ],
   [
-   "CivOne (<a href=\"https://www.civone.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/civone.md\">entry</a>)",
+   "CivOne (<a href=\"https://web.archive.org/web/20181127195119/https://www.civone.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/civone.md\">entry</a>)",
    "Exact clone of Sid Meier's Civilization.",
-   "<a href=\"https://www.civone.org/Download\">Link</a>",
+   "",
    "beta / active",
    "strategy",
    "<a href=\"https://github.com/SWY1985/CivOne.git\">Source</a> - C# - CC0"
@@ -702,7 +702,7 @@
    "",
    "mature / active",
    "programming, simulation",
-   "<a href=\"http://corewar.cvs.sourceforge.net\">Source</a> - ? - ?"
+   "<a href=\"https://gitlab.com/osgames/corewar.git\">Source</a> - C, Java - GPL-2.0"
   ],
   [
    "Corsix Theme Hospital (<a href=\"http://forums.corsixth.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/theme_hospital.md\">entry</a>)",
@@ -897,9 +897,9 @@
    "<a href=\"https://svn.code.sf.net/p/domination/code/Domination\">Source</a> - Java - GPL-3.0"
   ],
   [
-   "Doxygen (<a href=\"http://www.stack.nl/~dimitri/doxygen/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/doxygen.md\">entry</a>)",
+   "Doxygen (<a href=\"http://www.doxygen.nl/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/doxygen.md\">entry</a>)",
    "Tool for generating documentation from annotated C++..",
-   "<a href=\"http://www.stack.nl/~dimitri/doxygen/download.html\">Link</a>",
+   "<a href=\"http://www.doxygen.nl/download.html\">Link</a>",
    "mature / active",
    "library, source documentation generator, tool",
    "<a href=\"https://github.com/doxygen/doxygen.git\">Source</a> - C++ - GPL-2.0"
@@ -1003,7 +1003,7 @@
   [
    "Dungeon Quest (<a href=\"https://github.com/guillaume-gouchon/dungeonquest\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/dungeon_quest.md\">entry</a>)",
    "Smashing more monsters than ever in this turn-based..",
-   "<a href=\"https://play.google.com/store/apps/details?id=com.giggs.heroquest\">Link</a>",
+   "",
    "mature / active",
    "role playing",
    "<a href=\"https://github.com/guillaume-gouchon/dungeonquest.git\">Source</a> - Java - MIT"
@@ -1017,7 +1017,7 @@
    "<a href=\"https://github.com/enigma-dev/enigma-dev.git\">Source</a> - C++, C - GPL-3.0"
   ],
   [
-   "EPOH (<a href=\"http://www.epoh.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/epoh.md\">entry</a>)",
+   "EPOH (<a href=\"https://github.com/tautvilas/epoh\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/epoh.md\">entry</a>)",
    "Multiplayer turn-based browser strategy game.",
    "",
    "beta / active",
@@ -1313,7 +1313,7 @@
    "<a href=\"https://github.com/freeciv/freeciv.git\">Source</a> - C - GPL-2.0"
   ],
   [
-   "Freeciv WebGL (<a href=\"https://play.freeciv.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/freeciv_web.md\">entry</a>)",
+   "Freeciv WebGL (<a href=\"https://web.archive.org/web/20180102150750/https://play.freeciv.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/freeciv_web.md\">entry</a>)",
    "Freeciv-web is a version of Freeciv playable online in any..",
    "",
    "mature / active",
@@ -1410,11 +1410,11 @@
   ],
   [
    "GPL Arcade Volleyball (<a href=\"http://gav.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/gpl_arcade_volleyball.md\">entry</a>)",
-   "An SDL remake of the old dos game Arcade Volleyball.",
+   "An SDL remake of the old DOS game Arcade Volleyball.",
    "<a href=\"http://gav.sourceforge.net/download.php\">Link</a>",
    "beta / inactive since 2006",
    "action, arcade, sports",
-   "<a href=\"http://gav.cvs.sourceforge.net\">Source</a> - ? - ?"
+   "<a href=\"https://gitlab.com/osgames/gav.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "GUSANOS (<a href=\"http://gusanos.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/gusanos.md\">entry</a>)",
@@ -1422,7 +1422,7 @@
    "<a href=\"https://sourceforge.net/projects/gusanos/files/\">Link</a>",
    "beta / inactive since 2006",
    "action, wormslike",
-   "<a href=\"http://gusanos.cvs.sourceforge.net\">Source</a> - ? - GPL"
+   "<a href=\"http://gusanos.cvs.sourceforge.net\">Source</a> - ? - ?"
   ],
   [
    "GalaxyMage Redux (<a href=\"https://code.google.com/archive/p/galaxymageredux/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/galaxymage_redux.md\">entry</a>)",
@@ -1657,7 +1657,7 @@
    "<a href=\"https://svn.code.sf.net/p/hodoku/code/HoDoKu/trunk\">Source</a> - Java - GPL-3.0"
   ],
   [
-   "Holyspirit (<a href=\"https://sourceforge.net/projects/lechemindeladam/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/holy_spirit.md\">entry</a>)",
+   "HolySpirit (<a href=\"https://sourceforge.net/projects/lechemindeladam/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/holyspirit.md\">entry</a>)",
    "2D isometric hack'n'slash game (action-rpg).",
    "<a href=\"https://sourceforge.net/projects/lechemindeladam/files\">Link</a>",
    "beta / inactive since 2013",
@@ -1857,20 +1857,20 @@
    "<a href=\"https://github.com/LWJGL/lwjgl3.git\">Source</a> - Kotlin, C - 3-clause BSD"
   ],
   [
-   "LinCity (<a href=\"http://lincity.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/lincity.md\">entry</a>)",
-   "Lincity is a city simulation game,",
-   "",
-   "mature / inactive since 2005",
-   "simulation",
-   "<a href=\"https://gitlab.com/osgames/lincity.git\">Source</a> - C - GPL-2.0"
-  ],
-  [
    "LinCity-NG (<a href=\"https://github.com/lincity-ng\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/lincity_ng.md\">entry</a>)",
    "City simulation game.",
    "<a href=\"https://bintray.com/lincityng/LinCity-NG/LinCity-NG\">Link</a>",
    "mature / active",
    "simulation",
    "<a href=\"https://github.com/lincity-ng/lincity-ng.git\">Source</a> - C++ - GPL"
+  ],
+  [
+   "Lincity (<a href=\"http://lincity.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/lincity.md\">entry</a>)",
+   "Lincity is a city simulation game,",
+   "",
+   "mature / inactive since 2005",
+   "simulation",
+   "<a href=\"https://gitlab.com/osgames/lincity.git\">Source</a> - C - GPL-2.0"
   ],
   [
    "Linley's Dungeon Crawl (<a href=\"http://www.dungeoncrawl.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/linleys_dungeon_crawl.md\">entry</a>)",
@@ -2161,9 +2161,9 @@
    "<a href=\"https://github.com/nlarn/nlarn.git\">Source</a> - C, Lua - GPL-3.0"
   ],
   [
-   "Naev (<a href=\"http://blog.naev.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/naev.md\">entry</a>)",
+   "Naev (<a href=\"https://web.archive.org/web/20190419231822/http://blog.naev.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/naev.md\">entry</a>)",
    "2D space trading and combat game, taking inspiration from..",
-   "<a href=\"http://blog.naev.org/downloads/\">Link</a>",
+   "<a href=\"https://web.archive.org/web/20181206030100/http://blog.naev.org/downloads/\">Link</a>",
    "mature / active",
    "role playing",
    "<a href=\"https://github.com/naev/naev.git\">Source</a> - C, Lua - GPL-3.0"
@@ -2243,7 +2243,7 @@
   [
    "Octaforge (<a href=\"https://octaforge.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/octaforge.md\">entry</a>)",
    "OctaForge is a 3D game engine and a game development..",
-   "<a href=\"https://octaforge.org/page/downloads\">Link</a>",
+   "",
    "mature / active",
    "framework",
    "<a href=\"https://git.octaforge.org/OctaForge/OctaCore.git\">Source</a> - C++ - Custom"
@@ -2521,9 +2521,9 @@
    "<a href=\"https://github.com/delight-im/OpenSoccer.git\">Source</a> - PHP - GPL-3.0"
   ],
   [
-   "OpenTTD (<a href=\"http://www.openttd.org/en/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/open_ttd.md\">entry</a>)",
+   "OpenTTD (<a href=\"https://www.openttd.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/open_ttd.md\">entry</a>)",
    "OpenTTD is an open source simulation game based upon the..",
-   "<a href=\"http://www.openttd.org/en/download-stable\">Link</a>",
+   "<a href=\"https://www.openttd.org/downloads/openttd-releases/latest.html\">Link</a>",
    "mature / active",
    "simulation",
    "<a href=\"https://github.com/OpenTTD/OpenTTD.git\">Source</a> - C++ - GPL-2.0"
@@ -2630,7 +2630,7 @@
    "<a href=\"https://sourceforge.net/projects/pangzero/files/\">Link</a>",
    "beta / inactive since 2007",
    "action, arcade, remake",
-   "<a href=\"http://pangzero.cvs.sourceforge.net\">Source</a> - Perl - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/pangzero.git\">Source</a> - Perl - GPL-2.0"
   ],
   [
    "Pasang Emas (<a href=\"http://pasang-emas.sourceforge.net/index.xhtml\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/pasang_emas.md\">entry</a>)",
@@ -2641,7 +2641,7 @@
    "<a href=\"https://git.code.sf.net/p/pasang-emas/code\">Source</a> - Vala - GPL-3.0"
   ],
   [
-   "Pax Britannica (<a href=\"http://paxbritannica.henk.ca/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/pax_britannica.md\">entry</a>)",
+   "Pax Britannica (<a href=\"https://web.archive.org/web/20180807110800/http://paxbritannica.henk.ca/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/pax_britannica.md\">entry</a>)",
    "One-button real-time strategy game.",
    "",
    "mature / active",
@@ -2667,7 +2667,7 @@
   [
    "Pioneer (<a href=\"https://pioneerspacesim.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/pioneer.md\">entry</a>)",
    "Pioneer is a space adventure game set in our galaxy at the..",
-   "<a href=\"https://pioneerspacesim.net/download\">Link</a>",
+   "<a href=\"https://pioneerspacesim.net/page/download/\">Link</a>",
    "mature / active",
    "simulation",
    "<a href=\"https://github.com/pioneerspacesim/pioneer.git\">Source</a> - C++, C - Apache-2.0"
@@ -2750,7 +2750,7 @@
    "<a href=\"http://www.kibosh.org/pykaraoke/downloads.php\">Link</a>",
    "beta / inactive since 2011",
    "karaoke, music, social",
-   "<a href=\"http://pykaraoke.cvs.sourceforge.net\">Source</a> - Python - LGPL-2.1"
+   "<a href=\"https://gitlab.com/osgames/pykaraoke.git\">Source</a> - Python - LGPL-2.1"
   ],
   [
    "PySol (<a href=\"http://www.pysol.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/pysol.md\">entry</a>)",
@@ -3138,11 +3138,11 @@
   ],
   [
    "Solarus (<a href=\"http://www.solarus-games.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/solarus.md\">entry</a>)",
-   "Zelda-like 2D game engine.",
-   "<a href=\"http://www.solarus-games.org/engine/download/\">Link</a>",
+   "Zelda-like 2D game engine for Action-RPGs.",
+   "<a href=\"https://www.solarus-games.org/en/solarus/download\">Link</a>",
    "mature / active",
-   "framework",
-   "<a href=\"https://github.com/solarus-games/solarus.git\">Source</a> - C++ - GPL-3.0"
+   "framework, game-engine",
+   "<a href=\"https://gitlab.com/solarus-games/solarus.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
    "Song of Albion (<a href=\"https://code.google.com/archive/p/songofalbion/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/song_of_albion.md\">entry</a>)",
@@ -3242,7 +3242,7 @@
   ],
   [
    "Star Control II: The Ur-Quan Masters (<a href=\"http://sc2.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/star_control_2.md\">entry</a>)",
-   "The Ur-Quan Masters (or UQM) project[22] aims to port Star..",
+   "The Ur-Quan Masters (or UQM) project ports Star Control II..",
    "<a href=\"http://sc2.sourceforge.net/downloads.php\">Link</a>",
    "mature / inactive since 2011",
    "strategy, turn-based",
@@ -3489,9 +3489,9 @@
    "<a href=\"https://gitlab.com/osgames/jewelhunt.git\">Source</a> - Java - GPL-2.0"
   ],
   [
-   "Thousand Parsec (<a href=\"http://www.thousandparsec.net/tp/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/thousand_parsec.md\">entry</a>)",
+   "Thousand Parsec (<a href=\"https://web.archive.org/web/20180516211349/http://www.thousandparsec.net/tp/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/thousand_parsec.md\">entry</a>)",
    "A framework for turn based 4 X's game (eXplore, eXpand,..",
-   "<a href=\"http://www.thousandparsec.net/tp/download-instructions.php\">Link</a>",
+   "<a href=\"https://web.archive.org/web/20180523204730/http://www.thousandparsec.net/tp/download-instructions.php\">Link</a>",
    "beta / inactive since 2012",
    "strategy",
    "<a href=\"https://github.com/thousandparsec/tpserver-cpp.git\">Source</a> - C++, Python - GPL-2.0"
@@ -4070,7 +4070,7 @@
    "<a href=\"https://sourceforge.net/projects/nxtank/files/\">Link</a>",
    "beta / inactive since 2010",
    "action, tank",
-   "<a href=\"https://svn.code.sf.net/p/nxtank/code/\">Source</a> - Python - GPL-3.0"
+   "<a href=\"https://gitlab.com/osgames/nxtank.git\">Source</a> - Python - GPL-3.0"
   ],
   [
    "pkg-config (<a href=\"https://www.freedesktop.org/wiki/Software/pkg-config/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/pkgconfig.md\">entry</a>)",

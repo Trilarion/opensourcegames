@@ -7,7 +7,7 @@ _Open-source version of the classic dice game Yahtzee._
 - Download: http://www.openyahtzee.org/wiki/download/, https://sourceforge.net/projects/openyahtzee/files/
 - Platform: Windows, Linux
 - Keywords: dice game, strategy
-- Code repository: https://git.code.sf.net/p/openyahtzee/code
+- Code repository: https://git.code.sf.net/p/openyahtzee/code, https://gitlab.com/osgames/openyahtzee.git (+)
 - Code language: C++
 - Code license: GPL-2.0
 

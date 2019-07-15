@@ -6,9 +6,9 @@ _Two or more battle programs (called "warriors") compete for control of a virtua
 - Media: https://en.wikipedia.org/wiki/Core_War
 - State: mature
 - Keywords: programming, simulation
-- Code repository: http://corewar.cvs.sourceforge.net (cvs)
-- Code language: ?
-- Code license: ?
+- Code repository: https://gitlab.com/osgames/corewar.git (conversion from cvs), http://corewar.cvs.sourceforge.net (cvs)
+- Code language: C, Java
+- Code license: GPL-2.0 (C part), 2-clause BSD (Java part)
 
 See also [SDL pMars](https://corewar.co.uk/pihlaja/pmars-sdl/index.htm), [corewar.io](https://www.corewar.io/) with [sources on Github](https://github.com/gareththegeek/corewar)
 

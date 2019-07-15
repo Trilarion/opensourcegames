@@ -2,10 +2,10 @@
 
 _OpenTTD is an open source simulation game based upon the popular Microprose game "Transport Tycoon Deluxe"._
 
-- Home: http://www.openttd.org/en/
+- Home: https://www.openttd.org/
 - Media: https://en.wikipedia.org/wiki/OpenTTD
 - State: mature
-- Download: http://www.openttd.org/en/download-stable
+- Download: https://www.openttd.org/downloads/openttd-releases/latest.html
 - Keywords: simulation
 - Code repository: https://github.com/OpenTTD/OpenTTD.git (mirror), https://svn.openttd.org/ (svn)
 - Code language: C++

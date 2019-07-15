@@ -131,11 +131,15 @@ def check_validity_external_links():
 
     print("check external links (can take a while)")
 
-    # regex for finding urls (can be in <> or in () or a whitespace
-    regex = re.compile(r"[\s\n]<(http.+?)>|\]\((http.+?)\)|[\s\n](http[^\s\n,]+)")
+    # regex for finding urls (can be in <> or in ]() or after a whitespace
+    #regex = re.compile(r"[\s\n]<(http.+?)>|\]\((http.+?)\)|[\s\n](http[^\s\n,]+?)[\s\n\)]")
+    regex = re.compile(r"[\s\n<(](http://.*?)[\s\n>)]")
 
     # count
     number_checked_links = 0
+
+    # ignore the following urls (they give false positives here)
+    ignored_urls = ('https://git.tukaani.org/xz.git')
 
     # iterate over all entries
     for _, entry_path, content in entry_iterator():
@@ -150,7 +154,7 @@ def check_validity_external_links():
                 for url in match:
 
                     # if there was something (and not a sourceforge git url)
-                    if url and not url.startswith('https://git.code.sf.net/p/'):
+                    if url and not url.startswith('https://git.code.sf.net/p/') and url not in ignored_urls:
                         try:
                             # without a special header, frequent 403 responses occur
                             req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64)'})

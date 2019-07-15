@@ -2,7 +2,7 @@
 
 _Multiplayer turn-based browser strategy game._
 
-- Home: http://www.epoh.io/
+- Home: https://github.com/tautvilas/epoh
 - State: beta
 - Keywords: online, strategy
 - Code repository: https://github.com/tautvilas/epoh.git

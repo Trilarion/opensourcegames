@@ -52,7 +52,7 @@
 - **[Hale](hale.md)** (Java, GPL-2.0, beta, inactive since 2014)
 - **[Haxima](haxima.md)** (C++, GPL-3.0, beta)
 - **[Hero of Allacrost](hero_of_allacrost.md)** (C++, Lua, GPL-2.0, mature)
-- **[Holyspirit](holy_spirit.md)** (C++, GPL-3.0, beta, inactive since 2013)
+- **[HolySpirit](holyspirit.md)** (C++, GPL-3.0, beta, inactive since 2013)
 - **[HyperRogue](hyperrogue.md)** (C++, GPL-2.0, mature)
 - **[Ilarion](ilarion.md)** (C++, Java, Lua, GPL-3.0, mature)
 - **[Imperium](imperium.md)** (?, ?, mature)

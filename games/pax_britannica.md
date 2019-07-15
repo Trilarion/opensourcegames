@@ -2,7 +2,7 @@
 
 _One-button real-time strategy game._
 
-- Home: http://paxbritannica.henk.ca/
+- Home: https://web.archive.org/web/20180807110800/http://paxbritannica.henk.ca/
 - State: mature
 - Keywords: multiplayer, real time, strategy
 - Code repository: https://github.com/henkboom/pax-britannica.git

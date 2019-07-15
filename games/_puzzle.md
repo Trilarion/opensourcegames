@@ -2,11 +2,11 @@
 # Puzzle
 
 - **[2048](2048.md)** (Javascript, MIT, mature)
-- **[Atomiks](atomiks.md)** (C, GPL, mature)
+- **[Atomiks](atomiks.md)** (C, GPL-3.0, mature, inactive since 2015)
 - **[Atomix](atomix.md)** (C, GPL-2.0, mature)
 - **[Biniax](biniax.md)** (C, zlib, mature, inactive since 2012)
 - **[Block Attack - Rise of the Blocks](blockattack.md)** (C++, GPL-2.0, mature)
-- **[BlockOut II](blockout_ii.md)** (?, ?, mature, inactive since 2014)
+- **[BlockOut II](blockout_ii.md)** (C++, GPL-2.0, mature, inactive since 2014)
 - **[Brain Workshop](brain_workshop.md)** (Python, GPL, mature, inactive since 2011)
 - **[Enigma](enigma.md)** (C, C++, GPL-2.0, mature)
 - **[Fish Fillets - Next Generation](fish_fillets_ng.md)** (C++, GPL-2.0, mature, inactive since 2011)

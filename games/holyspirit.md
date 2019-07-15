@@ -1,4 +1,4 @@
-# Holyspirit
+# HolySpirit
 
 _2D isometric hack'n'slash game (action-rpg)._
 

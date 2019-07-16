@@ -7,7 +7,7 @@ _Port of the classic 8086 biplane shoot-em-up._
 - Download: https://sourceforge.net/projects/sdl-sopwith/files/
 - Platform: Linux
 - Keywords: action, fly, port
-- Code repository: https://svn.code.sf.net/p/sdl-sopwith/code/ (svn)
+- Code repository: https://gitlab.com/osgames/sdl-sopwith.git (import of svn), https://svn.code.sf.net/p/sdl-sopwith/code/ (svn)
 - Code language: C
 - Code license: GPL-2.0
 

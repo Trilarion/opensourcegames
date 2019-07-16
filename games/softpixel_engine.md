@@ -2,12 +2,12 @@
 
 _High-level real-time 3d engine._
 
-- Home: http://softpixelengine.sourceforge.net/
+- Home: http://softpixelengine.sourceforge.net/, https://sourceforge.net/projects/softpixelengine/
 - State: mature, inactive since 2013 
 - Download: http://softpixelengine.sourceforge.net/downloads.html
 - Platform: Windows, Linux
 - Keywords: 3D, framework
-- Code repository:  https://svn.code.sf.net/p/softpixelengine/code/trunk (svn)
+- Code repository: https://gitlab.com/osgames/softpixelengine.git (import of svn), https://svn.code.sf.net/p/softpixelengine/code/trunk (svn)
 - Code language: C++
 - Code license: zlib
 

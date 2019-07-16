@@ -6,7 +6,7 @@ _Turnbased Artillery game from 1987._
 - Media: https://en.wikipedia.org/wiki/Ballerburg
 - State: mature, inactive since 1987 
 - Keywords: action, artillery
-- Code repository: (see download)
+- Code repository: https://gitlab.com/osgames/ballerburg.git (import of source downloads)
 - Code language: C
 - Code license: Public Domain
 

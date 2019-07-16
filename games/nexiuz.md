@@ -8,9 +8,9 @@ _First-person shooter video game._
 - Download: https://sourceforge.net/projects/nexuiz/files/
 - Platform: Windows
 - Keywords: action, shooter
-- Code repository: (not found yet)
-- Code language: ?
-- Code license: ?
+- Code repository: http://svn.icculus.org/nexuiz/trunk/ (svn)
+- Code language: C++
+- Code license: GPL-2.0
 - Code dependencies: DarkPlaces (Quake engine https://github.com/xonotic/darkplaces)
 
 ## Building

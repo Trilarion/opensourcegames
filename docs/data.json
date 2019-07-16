@@ -278,7 +278,7 @@
    "",
    "mature / inactive since 1987",
    "action, artillery",
-   "C - Public Domain"
+   "<a href=\"https://gitlab.com/osgames/ballerburg.git\">Source</a> - C - Public Domain"
   ],
   [
    "Battle Tanks (<a href=\"http://btanks.sourceforge.net/blog/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/battle_tanks.md\">entry</a>)",
@@ -406,7 +406,7 @@
    "<a href=\"http://bombermaaan.sourceforge.net/download.php\">Link</a>",
    "mature / inactive since 2010",
    "action, arcade",
-   "<a href=\"https://svn.code.sf.net/p/bombermaaan/code/\">Source</a> - C++ - GPL-3.0"
+   "<a href=\"https://gitlab.com/osgames/bombermaaan.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
    "Boost (C++ Libraries) (<a href=\"http://www.boost.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/boost.md\">entry</a>)",
@@ -462,7 +462,7 @@
    "<a href=\"https://sourceforge.net/projects/brutalchess/files/\">Link</a>",
    "beta / inactive since 2007",
    "chess, strategy",
-   "<a href=\"https://svn.code.sf.net/p/brutalchess/code/)\">Source</a> - C++ - GPL"
+   "<a href=\"https://gitlab.com/osgames/brutalchess.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Bygfoot (<a href=\"http://bygfoot.sourceforge.net/new/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/bygfoot.md\">entry</a>)",
@@ -558,7 +558,7 @@
    "<a href=\"https://sourceforge.net/projects/catmother/files/\">Link</a>",
    "beta / inactive since 2003",
    "action",
-   "<a href=\"https://svn.code.sf.net/p/catmother/code/\">Source</a> - C++ - 3-clause BSD"
+   "<a href=\"https://gitlab.com/osgames/catmother.git\">Source</a> - C++ - 3-clause BSD"
   ],
   [
    "Cataclysm (<a href=\"http://cataclysmrl.blogspot.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/cataclysm.md\">entry</a>)",
@@ -1654,7 +1654,7 @@
    "<a href=\"https://sourceforge.net/projects/hodoku/files/\">Link</a>",
    "mature / inactive since 2013",
    "puzzle",
-   "<a href=\"https://svn.code.sf.net/p/hodoku/code/HoDoKu/trunk\">Source</a> - Java - GPL-3.0"
+   "<a href=\"https://gitlab.com/osgames/hodoku.git\">Source</a> - Java - GPL-3.0"
   ],
   [
    "HolySpirit (<a href=\"https://sourceforge.net/projects/lechemindeladam/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/holyspirit.md\">entry</a>)",
@@ -2086,7 +2086,7 @@
    "<a href=\"https://sourceforge.net/projects/microwar/files/\">Link</a>",
    "mature / inactive since 2009",
    "action, shooter",
-   "Python - 3-clause BSD"
+   "<a href=\"https://gitlab.com/osgames/microwar.git\">Source</a> - Python - 3-clause BSD"
   ],
   [
    "Micropolis (<a href=\"http://micropolisonline.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/micropolis.md\">entry</a>)",
@@ -2214,7 +2214,7 @@
    "<a href=\"https://sourceforge.net/projects/nexuiz/files/\">Link</a>",
    "mature / active",
    "action, shooter",
-   "? - ?"
+   "<a href=\"http://svn.icculus.org/nexuiz/trunk/\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "O.H.R.RPG.C.E (<a href=\"http://rpg.hamsterrepublic.com/ohrrpgce/Main_Page\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/ohrrpgce.md\">entry</a>)",
@@ -2926,7 +2926,7 @@
    "<a href=\"http://sdl-asylum.sourceforge.net/main.html#Download\">Link</a>",
    "mature / inactive since 2009",
    "action, arcade",
-   "<a href=\"https://svn.code.sf.net/p/sdl-asylum/code/\">Source</a> - C - GPL-3.0"
+   "<a href=\"https://gitlab.com/osgames/sdl-asylum.git\">Source</a> - C - GPL-3.0"
   ],
   [
    "SDL Game Engine 2D (<a href=\"https://sourceforge.net/projects/sge2d/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/sge2d.md\">entry</a>)",
@@ -2942,7 +2942,7 @@
    "<a href=\"https://sourceforge.net/projects/sdl-sopwith/files/\">Link</a>",
    "mature / inactive since 2014",
    "action, fly, port",
-   "<a href=\"https://svn.code.sf.net/p/sdl-sopwith/code/\">Source</a> - C - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/sdl-sopwith.git\">Source</a> - C - GPL-2.0"
   ],
   [
    "SWIG (<a href=\"http://swig.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/swig.md\">entry</a>)",
@@ -3001,7 +3001,7 @@
    "<a href=\"https://github.com/FluXy/SMC.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
-   "Sengoku: Warring States of Japan (<a href=\"https://sourceforge.net/projects/sengdokuwsj/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/sengoky_warring_states_of_japan.md\">entry</a>)",
+   "Sengoku: Warring States of Japan (<a href=\"https://sourceforge.net/projects/sengdokuwsj/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/sengoku_warring_states_of_japan.md\">entry</a>)",
    "Something in-between of a turn-based/real-time strategy..",
    "<a href=\"https://sourceforge.net/projects/sengdokuwsj/files\">Link</a>",
    "beta / inactive since 2008",
@@ -3134,7 +3134,7 @@
    "<a href=\"http://softpixelengine.sourceforge.net/downloads.html\">Link</a>",
    "mature / inactive since 2013",
    "3D, framework",
-   "<a href=\"https://svn.code.sf.net/p/softpixelengine/code/trunk\">Source</a> - C++ - zlib"
+   "<a href=\"https://gitlab.com/osgames/softpixelengine.git\">Source</a> - C++ - zlib"
   ],
   [
    "Solarus (<a href=\"http://www.solarus-games.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/solarus.md\">entry</a>)",

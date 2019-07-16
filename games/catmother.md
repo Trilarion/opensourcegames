@@ -6,9 +6,9 @@ _3D-engine (C++/DirectX9) and a fully playable prototype of a 3rd person action/
 - State: beta, inactive since 2003
 - Download: https://sourceforge.net/projects/catmother/files/
 - Keywords: action
-- Code repository: https://svn.code.sf.net/p/catmother/code/ (svn)
+- Code repository: https://gitlab.com/osgames/catmother.git (import of svn), https://svn.code.sf.net/p/catmother/code/ (svn)
 - Code language: C++
-- Code license: 3-clause BSD
+- Code license: 3-clause BSD, GPL-2.0 (not sure which of them actually)
 
 ## Building
 

@@ -13,5 +13,5 @@ _ENIGMA is a free development environment geared towards game development._
 
 ## Building
 
-- Build instructions:  https://enigma-dev.org/docs/Wiki/Install:Windows
+- Build instructions: https://enigma-dev.org/docs/Wiki/Install:Windows
 

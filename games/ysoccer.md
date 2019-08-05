@@ -6,7 +6,7 @@ _Soccer game; continuation to Sensible World of Soccer._
 - State: mature, inactive since 2017 
 - Download: http://ysoccer.sourceforge.net/dloads.htm, https://sourceforge.net/projects/ysoccer/files/
 - Platform: Windows, Linux, macOS
-- Keywords: simulation, soccer, sports
+- Keywords: sports, simulation, soccer
 - Code repository: https://git.code.sf.net/p/ysoccer/code
 - Code language: Java
 - Code license: ?

@@ -9,7 +9,7 @@ _Visual Novel._
 - Code repository: (see download)
 - Code language: Ren'py
 - Code license: CC-BY-NC
-- Code dependencies: Ren'py
+- Code dependencies: Ren'Py
 - Assets license: CC-BY-NC
 
 ## Building

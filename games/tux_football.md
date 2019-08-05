@@ -6,7 +6,7 @@ _Arcade-style 2D football game reminiscent of Sensible Soccer and Kick Off._
 - State: beta, inactive since 2012
 - Download: http://tuxfootball.sourceforge.net/index.php?plugin=EnticorePluginStaticContent&config=idx%3A3, https://sourceforge.net/projects/tuxfootball/files/
 - Platform: Windows, Linux
-- Keywords: 2D, arcade, simulation, sports
+- Keywords: arcade, 2D, simulation, sports
 - Code repository: https://git.code.sf.net/p/tuxfootball/code, https://gitlab.com/osgames/tuxfootball.git (+)
 - Code language: C++
 - Code license: GPL-2.0

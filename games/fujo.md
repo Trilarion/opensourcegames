@@ -14,4 +14,4 @@ _Fairly classical roguelike, but with animated graphics._
 
 ## Building
 
-- Build system: setup.py, py2exe
+- Build system: py2exe, setup.py

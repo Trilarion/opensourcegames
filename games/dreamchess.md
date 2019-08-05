@@ -6,7 +6,7 @@ _3D chess game._
 - State: beta
 - Download: https://www.dreamchess.org/downloads, https://sourceforge.net/projects/dreamchess/files/
 - Platform: Windows, Linux, macOS
-- Keywords: board game, chess, strategy
+- Keywords: strategy, board game, chess
 - Code repository: https://github.com/dreamchess/dreamchess.git
 - Code language: C
 - Code license: GPL-3.0

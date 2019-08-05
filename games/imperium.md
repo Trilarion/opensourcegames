@@ -5,7 +5,7 @@ _A game of intergalactic exploration, warfare, and economics._
 - Home: https://empiredirectory.net/index.php
 - State: mature
 - Download: https://empiredirectory.net/index.php/new-downloads
-- Keywords: console, role playing
+- Keywords: role playing, console
 - Code repository: (see download)
 - Code language: ?
 - Code license: ?

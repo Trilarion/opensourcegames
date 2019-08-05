@@ -39,7 +39,7 @@
 - **[Netrek](netrek.md)** (?, ?, mature, inactive since 2009)
 - **[Neverball](neverball.md)** (C, GPL-2.0, mature)
 - **[Nexiuz](nexiuz.md)** (C++, GPL-2.0, mature)
-- **[Open Sonic](open_sonic.md)** (C, GPL-2.0, beta)
+- **[Open Surge](open_surge.md)** (C, GPL-3.0, beta)
 - **[Open Zelda](open_zelda.md)** (C++, zlib, beta)
 - **[OpenArena](openarena.md)** (C, GPL-2.0, mature, inactive since 2012)
 - **[OpenClonk](openclonk.md)** (C, C++, ISC, mature)

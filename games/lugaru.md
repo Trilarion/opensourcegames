@@ -11,7 +11,7 @@ _Cross-platform third-person action game with an anthropomorphic rebel bunny rab
 - Code repository: https://gitlab.com/osslugaru/lugaru.git
 - Code language: C++
 - Code license: GPL-2.0
-- Code dependencies: SDL2, OpenAL
+- Code dependencies: OpenAL, SDL2
 - Assets license: CC-BY-SA-3.0
 
 ## Building

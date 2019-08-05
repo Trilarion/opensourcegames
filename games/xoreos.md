@@ -14,4 +14,4 @@ Requires original game data.
 
 ## Building
 
-- Build system: CMake, Autoconf
+- Build system: Autoconf, CMake

@@ -6,7 +6,7 @@ _Dual n-back brain training exercise._
 - State: mature, inactive since 2011
 - Download: http://brainworkshop.sourceforge.net/download.html, https://sourceforge.net/projects/brainworkshop/files/brainworkshop/
 - Platform: Windows, Linux, macOS
-- Keywords: brain exercise, puzzle
+- Keywords: puzzle, brain exercise
 - Code repository: https://gitlab.com/osgames/brain-workshop.git (import of svn), https://svn.code.sf.net/p/brainworkshop/code/ (svn)
 - Code language: Python
 - Code license: GPL

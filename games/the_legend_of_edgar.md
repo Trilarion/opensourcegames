@@ -6,7 +6,7 @@ _2D platform game._
 - State: mature
 - Download: https://www.parallelrealities.co.uk/games/edgar/#downloads-/-releases, https://github.com/riksweeney/edgar/releases
 - Platform: Windows, Linux
-- Keywords: 2D, action, platform
+- Keywords: action, 2D, platform
 - Code repository: https://github.com/riksweeney/edgar.git
 - Code language: C
 - Code license: GPL-2.0

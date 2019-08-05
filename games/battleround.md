@@ -9,7 +9,7 @@ _Round based RPG._
 - Code repository: https://github.com/Leejjon/Battleround.git
 - Code language: Java
 - Code license: Apache-2.0
-- Code dependencies: Libgdx
+- Code dependencies: libGDX
 
 May be more like alpha.
 

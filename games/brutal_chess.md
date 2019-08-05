@@ -6,7 +6,7 @@ _Inspired by the once popular "Battle Chess" released by Interplay circa 1988._
 - State: beta, inactive since 2007
 - Download: https://sourceforge.net/projects/brutalchess/files/
 - Platform: Windows, Linux
-- Keywords: chess, strategy
+- Keywords: strategy, chess
 - Code repository: https://gitlab.com/osgames/brutalchess.git (import of svn), https://svn.code.sf.net/p/brutalchess/code/ (svn)
 - Code language: C++
 - Code license: GPL-2.0

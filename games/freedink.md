@@ -6,7 +6,7 @@ _Dink Smallwood is an adventure/role-playing game, similar to Zelda (2D top view
 - Media: https://en.wikipedia.org/wiki/Dink_Smallwood#GNU_FreeDink
 - State: mature
 - Download: https://www.gnu.org/software/freedink/get
-- Keywords: remake, role playing
+- Keywords: role playing, remake
 - Code repository: https://git.savannah.gnu.org/git/freedink.git
 - Code language: C++
 - Code license: GPL-3.0

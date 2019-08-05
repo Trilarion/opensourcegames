@@ -6,7 +6,7 @@ _Variant of the roguelike game NetHack that offers extra features, monsters, and
 - Media: https://en.wikipedia.org/wiki/Slash'EM
 - State: beta, inactive since 2007
 - Download: http://slashem.sourceforge.net/stable.html, https://sourceforge.net/projects/slashem/files/
-- Keywords: roguelike, role playing
+- Keywords: role playing, roguelike
 - Code repository: https://github.com/farmboy0/slashem.git, https://sourceforge.net/p/slashem/code (cvs)
 - Code language: C
 - Code license: Custom (NetHack license)

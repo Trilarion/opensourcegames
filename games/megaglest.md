@@ -6,7 +6,7 @@ _MegaGlest is an entertaining free (freeware and free software) and open source 
 - Media: https://en.wikipedia.org/wiki/MegaGlest
 - State: mature
 - Download: https://megaglest.org/download
-- Keywords: real time, strategy
+- Keywords: strategy, real time
 - Code repository: https://github.com/MegaGlest/megaglest-source.git
 - Code language: C++
 - Code license: GPL-2.0

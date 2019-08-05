@@ -10,7 +10,7 @@ _Strategy game where you lead a nation throughout history.._
 - Code repository: https://github.com/anttisalonen/kingdoms.git
 - Code language: C++
 - Code license: GPL-3.0
-- Code dependencies: Boost, SDL, zlib, libpng 
+- Code dependencies: Boost, libpng, SDL, zlib
 
 ## Building
 

@@ -7,7 +7,7 @@ _Roguelike inspired by the puzzle game Deadly Rooms of Death and the art of M. C
 - State: mature
 - Download: http://roguetemple.com/z/hyper/download.php
 - Platform: Windows, Linux, macOS, Android (some versions)
-- Keywords: roguelike, role playing
+- Keywords: role playing, roguelike
 - Code repository: https://github.com/zenorogue/hyperrogue.git
 - Code language: C++
 - Code license: GPL-2.0

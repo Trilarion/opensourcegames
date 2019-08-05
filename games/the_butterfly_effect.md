@@ -6,11 +6,11 @@ _Realistic physics simulations._
 - State: beta 
 - Download: http://the-butterfly-effect.org/#download, https://github.com/the-butterfly-effect/tbe/releases
 - Platform: Windows, Linux, macOS
-- Keywords: physics, simulation
+- Keywords: simulation, physics
 - Code repository: https://github.com/the-butterfly-effect/tbe.git
 - Code language: C++
 - Code license: GPL-2.0
-- Code dependencies: Qt, Box2D
+- Code dependencies: Box2D, Qt
 
 ## Building
 

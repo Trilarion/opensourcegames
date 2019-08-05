@@ -5,7 +5,7 @@ _Real-time strategy game, where you can program your units (bots) in a language 
 - Home: https://colobot.info/
 - State: mature
 - Download: https://colobot.info/download-colobot-gold/
-- Keywords: real time, strategy
+- Keywords: strategy, real time
 - Code repository: https://github.com/colobot/colobot.git
 - Code language: C++
 - Code license: GPL-3.0

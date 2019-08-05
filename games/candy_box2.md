@@ -7,7 +7,7 @@ _Online text-based role-playing game featuring ASCII art._
 - State: mature, inactive since 2013
 - Play: https://candybox2.github.io/
 - Platform: Browser
-- Keywords: asciiart, role playing, text-based
+- Keywords: role playing, asciiart, text-based
 - Code repository: https://github.com/candybox2/candybox2.github.io.git
 - Code language: Typescript, Javascript
 - Code license: GPL-3.0

@@ -9,7 +9,7 @@ _The first serious game using the Annchienta engine._
 - Code repository: https://github.com/sago007/annchienta.git, https://svn.code.sf.net/p/annchienta/code/ (svn)
 - Code language: C++, Python
 - Code license: GPL-3.0
-- Code dependencies: PyQt4, pygtk
+- Code dependencies: pygtk, PyQt4
 
 See also entry fo Annchienta.
 

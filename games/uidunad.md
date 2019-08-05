@@ -4,11 +4,11 @@ _Ultimate Dungeon Adventure (UlDunAd) - the extremely flexible, fun, text/graphi
 
 - Home: https://www.pygame.org/project-UlDunAd-1140-.html
 - State: beta, inactive since 2011
-- Keywords: console, role playing, text-based
+- Keywords: role playing, console, text-based
 - Code repository: https://github.com/nhydock/UlDunAd.git
 - Code language: Python
 - Code license: GPL-3.0
-- Code dependencies: pygame, numpy, pillow, OpenGL, wxPython
+- Code dependencies: numpy, OpenGL, pillow, pygame, wxPython
 
 ## Building
 

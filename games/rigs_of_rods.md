@@ -6,7 +6,7 @@ _3D simulator game where you can drive, fly and sail various vehicles._
 - State: mature 
 - Download: (see homepage)
 - Platform: Windows
-- Keywords: cars, simulation
+- Keywords: simulation, cars
 - Code repository: https://github.com/RigsOfRods/rigs-of-rods.git
 - Code language: C++
 - Code license: GPL-3.0

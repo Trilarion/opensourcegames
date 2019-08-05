@@ -6,7 +6,7 @@ _A classic MMO._
 - Media: https://en.wikipedia.org/wiki/Meridian_59
 - State: mature
 - Download: http://meridian59.com/play-now.php
-- Keywords: massive multiplayer online, role playing
+- Keywords: role playing, massive multiplayer online
 - Code repository: https://github.com/Meridian59/Meridian59.git
 - Code language: C++, C
 - Code license: GPL-2.0

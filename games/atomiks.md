@@ -6,7 +6,7 @@ _Faithful remake of, and a tribute to, Atomix, a classic puzzle game created by 
 - State: mature, inactive since 2015
 - Download: https://sourceforge.net/projects/atomiks/files
 - Keywords: puzzle
-- Code repository: https://svn.code.sf.net/p/atomiks/code/ (svn)
+- Code repository: https://gitlab.com/osgames/atomiks.git (backup of svn), https://svn.code.sf.net/p/atomiks/code/ (svn)
 - Code language: C
 - Code license: GPL-3.0
 - Assets license: Custom (level design, see Readme)

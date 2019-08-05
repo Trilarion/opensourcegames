@@ -5,7 +5,7 @@ _Port of the original Ares code base that was open sourced in 2008._
 - Home: https://arescentral.org/antares/
 - State: beta
 - Download: (see home)
-- Keywords: real time, shooter, strategy
+- Keywords: strategy, real time, shooter
 - Code repository: https://github.com/arescentral/antares.git
 - Code language: C++
 - Code license: LGPL-3.0

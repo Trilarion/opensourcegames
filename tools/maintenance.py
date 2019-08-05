@@ -196,18 +196,15 @@ def check_template_leftovers():
                 raise RuntimeError('{}: found {}'.format(os.path.basename(entry_path), check_string))
 
 
-def fix_keywords():
+def fix_entries():
     """
-    Fixes the keywords.
+    Fixes the keywords, code dependencies, build systems, .. entries, mostly by automatically sorting them.
     """
 
-    print('fix keywords')
+    print('fix entries')
 
-    regex = re.compile(r"(.*)(- Keywords:.*)(- Code repository: .*)",  re.DOTALL)
-
-    # get all entries (ignore everything starting with underscore)
-    entries = os.listdir(games_path)
-    entries = (x for x in entries if not x.startswith('_'))
+    # keywords
+    regex = re.compile(r"(.*)- Keywords:([^\n]*)(.*)", re.DOTALL)
 
     # iterate over all entries
     for entry, entry_path, content in entry_iterator():
@@ -219,32 +216,109 @@ def fix_keywords():
 
         match = matches[0]
 
-        # get keywords out, split, strip, delete duplicates
-        keywords = match[1][11:]
-        keywords = keywords.split(',')
-        keywords = [x.strip() for x in keywords]
-        keywords = list(set(keywords))
+        # get elements out, split, strip, delete duplicates
+        elements = match[1].split(',')
+        elements = [x.strip() for x in elements]
+        elements = list(set(elements))
+
+        # get category out
+        for keyword in recommended_keywords:
+            if keyword in elements:
+                elements.remove(keyword)
+                category = keyword
+                break
 
         # special treatments here
-        keywords = [x if x != 'TBS' and x != 'TB' else 'turn based' for x in keywords]
-        keywords = [x if x != 'RTS' else 'real time' for x in keywords]
-        keywords = [x if x != 'MMO' else 'massive multiplayer online' for x in keywords]
-        keywords = [x if x != 'MMO' else 'multiplayer online' for x in keywords]
-        keywords = [x if x != 'SP' else 'singleplayer' for x in keywords]
-        keywords = [x if x != 'MP' else 'multiplayer' for x in keywords]
-        keywords = [x if x != 'engine' else 'game engine' for x in keywords]
-        keywords = [x if x != 'rpg' else 'role playing' for x in keywords]
-        keywords = [x if x != 'turn based' else 'turn-based' for x in keywords]
+        elements = [x if x != 'TBS' and x != 'TB' else 'turn based' for x in elements]
+        elements = [x if x != 'RTS' else 'real time' for x in elements]
+        elements = [x if x != 'MMO' else 'massive multiplayer online' for x in elements]
+        elements = [x if x != 'MMO' else 'multiplayer online' for x in elements]
+        elements = [x if x != 'SP' else 'singleplayer' for x in elements]
+        elements = [x if x != 'MP' else 'multiplayer' for x in elements]
+        elements = [x if x != 'engine' else 'game engine' for x in elements]
+        elements = [x if x != 'rpg' else 'role playing' for x in elements]
+        elements = [x if x != 'turn based' else 'turn-based' for x in elements]
         for keyword in ('browser', 'misc', 'tools'):
-            if keyword in keywords:
-                keywords.remove(keyword)
+            if keyword in elements:
+                elements.remove(keyword)
 
         # sort
-        keywords.sort()
+        elements.sort(key=str.casefold)
 
-        keywords = '- Keywords: {}\n'.format(', '.join(keywords))
+        # add category
+        elements.insert(0, category)
+
+        keywords = '- Keywords: {}'.format(', '.join(elements))
 
         new_content = match[0] + keywords + match[2]
+
+        if new_content != content:
+            # write again
+            write_text(entry_path, new_content)
+
+    # code dependencies
+    regex = re.compile(r"(.*)- Code dependencies:([^\n]*)(.*)", re.DOTALL)
+
+    # iterate over all entries
+    for entry, entry_path, content in entry_iterator():
+        # match with regex
+        matches = regex.findall(content)
+
+        if not matches:
+            # no code dependencies given
+            continue
+
+        match = matches[0]
+
+        # get code dependencies out, split, strip, delete duplicates
+        elements = match[1].split(',')
+        elements = [x.strip() for x in elements]
+        elements = list(set(elements))
+
+        # special treatments here
+        elements = [x if x != 'Blender' else 'Blender game engine' for x in elements]
+        elements = [x if x.lower() != 'libgdx' else 'libGDX' for x in elements]
+        elements = [x if x != 'SDL 2' else 'SDL2' for x in elements]
+        elements = [x if x.lower() != "ren'py" else "Ren'Py" for x in elements]
+
+        # sort
+        elements.sort(key=str.casefold)
+
+        code_dependencies = '- Code dependencies: {}'.format(', '.join(elements))
+
+        new_content = match[0] + code_dependencies + match[2]
+
+        if new_content != content:
+            # write again
+            write_text(entry_path, new_content)
+
+    # build systems
+    regex = re.compile(r"(.*)- Build system:([^\n]*)(.*)", re.DOTALL)
+
+    # iterate over all entries
+    for entry, entry_path, content in entry_iterator():
+        # match with regex
+        matches = regex.findall(content)
+
+        if not matches:
+            # no build system given
+            continue
+
+        match = matches[0]
+
+        # get code dependencies out, split, strip, delete duplicates
+        elements = match[1].split(',')
+        elements = [x.strip() for x in elements]
+        elements = list(set(elements))
+
+        # special treatments here
+
+        # sort
+        elements.sort(key=str.casefold)
+
+        build_system = '- Build system: {}'.format(', '.join(elements))
+
+        new_content = match[0] + build_system + match[2]
 
         if new_content != content:
             # write again
@@ -536,7 +610,27 @@ def update_statistics(infos):
                 entries.append(info['title'])
                 # print(info[field])
     entries.sort()
-    statistics +=  '{}: '.format(len(entries)) + ', '.join(entries) + '\n\n'
+    statistics += '{}: '.format(len(entries)) + ', '.join(entries) + '\n\n'
+
+    # Code dependencies
+    statistics += '## Code dependencies\n\n'
+    field = 'code dependencies'
+
+    # get all code dependencies together
+    code_dependencies = []
+    entries_with_code_dependency = 0
+    for info in infos:
+        if field in info:
+            code_dependencies.extend(info[field])
+            entries_with_code_dependency += 1
+    statistics += 'With code dependency field {} ({:.1f}%)\n\n'.format(entries_with_code_dependency, rel(entries_with_code_dependency))
+
+    unique_code_dependencies = set(code_dependencies)
+    unique_code_dependencies = [(l, code_dependencies.count(l) / len(code_dependencies)) for l in unique_code_dependencies]
+    unique_code_dependencies.sort(key=lambda x: x[0]) # first sort by name
+    unique_code_dependencies.sort(key=lambda x: -x[1]) # then sort by occurrence (highest occurrence first)
+    unique_code_dependencies = ['- {} ({:.1f}%)'.format(x[0], x[1]*100) for x in unique_code_dependencies]
+    statistics += '##### Code dependencies frequency\n\n' + '\n'.join(unique_code_dependencies) + '\n\n'
 
     # Build systems:
     statistics += '## Build systems\n\n'
@@ -677,6 +771,7 @@ def git_repo(repo):
     # the rest is ignored
     return None
 
+
 def svn_repo(repo):
     """
     
@@ -792,8 +887,8 @@ if __name__ == "__main__":
     # check for unfilled template lines
     check_template_leftovers()
 
-    # fix keywords
-    fix_keywords()
+    # fix entries
+    fix_entries()
 
     # assemble info
     infos = assemble_infos()

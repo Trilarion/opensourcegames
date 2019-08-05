@@ -4,7 +4,7 @@ _4X/RTS set in space._
 
 - Home: http://starruler2.com/
 - State: mature
-- Keywords: real time, strategy
+- Keywords: strategy, real time
 - Code repository: https://github.com/BlindMindStudios/StarRuler2-Source.git
 - Code language: C, C++
 - Code license: MIT

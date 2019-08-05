@@ -6,7 +6,7 @@ _Game engine and editor._
 - State: beta, inactive since 2008 
 - Download: https://sourceforge.net/projects/oge/files/
 - Platform: Windows
-- Keywords: framework, game editor, game engine
+- Keywords: game engine, framework, game editor
 - Code repository: https://git.code.sf.net/p/oge/git, https://svn.code.sf.net/p/oge/svn/ (svn), http://oge.cvs.sourceforge.net (cvs)
 - Code language: C++
 - Code license: LGPL-2.1

@@ -6,7 +6,7 @@ _Game engine for real-time strategy (RTS) video games._
 - Media: https://en.wikipedia.org/wiki/Spring_Engine
 - State: mature
 - Download: https://springrts.com/wiki/Download
-- Keywords: real time, strategy
+- Keywords: strategy, real time
 - Code repository: https://github.com/spring/spring.git, https://git.code.sf.net/p/springrts/code
 - Code language: C++, C, Lua
 - Code license: GPL-2.0

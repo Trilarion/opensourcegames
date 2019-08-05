@@ -6,7 +6,7 @@ _Remake of the 1986 game They Stole a Million._
 - Media: https://en.wikipedia.org/wiki/The_Clue!
 - State: beta
 - Download: https://sourceforge.net/projects/cosp/files/
-- Keywords: action/adventure, adventure
+- Keywords: adventure, action/adventure
 - Code repository: https://github.com/vcosta/derclou.git, https://sourceforge.net/p/cosp/code/ (cvs)
 - Code language: C
 - Code license: Custom (Der Clou! Public License)

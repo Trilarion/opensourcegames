@@ -6,11 +6,11 @@ _Make games with a built-in physics engine, Lego-like building blocks, and a scr
 - State: beta, inactive since 2011
 - Download: https://sourceforge.net/projects/openblox/files/
 - Platform: Windows, Linux
-- Keywords: game maker, simulation
+- Keywords: simulation, game maker
 - Code repository: http://hg.code.sf.net/p/openblox/openblox (hg), https://gitlab.com/osgames/openblox.git (+), http://hg.code.sf.net/p/openblox/bloxstaller (hg)
 - Code language: Python, Lua
 - Code license: GPL-3.0
-- Code dependencies: wxPython, Panda3D
+- Code dependencies: Panda3D, wxPython
 - Assets license: CC-BY-SA-3.0
 
 ## Building

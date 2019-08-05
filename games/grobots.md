@@ -6,7 +6,7 @@ _A real-time strategy programming game, in which you control teams of robots as 
 - State: mature, inactive since 2014 
 - Download: (see home)
 - Platform: Windows, Linux, macOS
-- Keywords: programming, simulation
+- Keywords: simulation, programming
 - Code repository: http://hg.code.sf.net/p/grobots/trunk (hg), https://gitlab.com/osgames/grobots.git (+)
 - Code language: C++
 - Code license: GPL-2.0

@@ -13,7 +13,7 @@
    "0 A.D. is a free, open-source, cross-platform real-time..",
    "<a href=\"https://play0ad.com/download/\">Link</a>",
    "beta / active",
-   "real time, strategy",
+   "strategy, real time",
    "<a href=\"https://github.com/0ad/0ad.git\">Source</a> - C, C++ - GPL-2.0"
   ],
   [
@@ -85,7 +85,7 @@
    "Alien Assault Traders is an online, web-based, turn-based..",
    "<a href=\"https://sourceforge.net/projects/aatrade/files/\">Link</a>",
    "beta / inactive since 2009",
-   "online, strategy",
+   "strategy, online",
    "<a href=\"https://github.com/tarnus/aatraders.git\">Source</a> - PHP - GPL-2.0"
   ],
   [
@@ -117,7 +117,7 @@
    "Single-player dungeon exploration game.",
    "<a href=\"http://rephial.org/release/\">Link</a>",
    "mature / active",
-   "roguelike, role playing",
+   "role playing, roguelike",
    "<a href=\"https://github.com/angband/angband.git\">Source</a> - C - GPL-2.0"
   ],
   [
@@ -133,7 +133,7 @@
    "Port of the original Ares code base that was open sourced..",
    "",
    "beta / active",
-   "real time, shooter, strategy",
+   "strategy, real time, shooter",
    "<a href=\"https://github.com/arescentral/antares.git\">Source</a> - C++ - LGPL-3.0"
   ],
   [
@@ -157,7 +157,7 @@
    "Open Source FREE 2D MMORPG.",
    "<a href=\"http://www.comunidadargentum.com/descargas/\">Link</a>",
    "beta / inactive since 2014",
-   "massive multiplayer online, role playing",
+   "role playing, massive multiplayer online",
    "<a href=\"https://github.com/Argentum-Online/Argentum-Online.git\">Source</a> - Visual Basic - GPL-2.0"
   ],
   [
@@ -165,7 +165,7 @@
    "An open source multiplayer online framework.",
    "<a href=\"https://arianne-project.org/engine/marauroa.html\">Link</a>",
    "mature / active",
-   "2D, framework, multiplayer",
+   "framework, 2D, multiplayer",
    "<a href=\"https://git.code.sf.net/p/arianne/marauroa\">Source</a> - Java - GPL-2.0"
   ],
   [
@@ -222,7 +222,7 @@
    "<a href=\"https://sourceforge.net/projects/atomiks/files\">Link</a>",
    "mature / inactive since 2015",
    "puzzle",
-   "<a href=\"https://svn.code.sf.net/p/atomiks/code/\">Source</a> - C - GPL-3.0"
+   "<a href=\"https://gitlab.com/osgames/atomiks.git\">Source</a> - C - GPL-3.0"
   ],
   [
    "Atomix (<a href=\"https://github.com/GNOME/atomix\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/atomix.md\">entry</a>)",
@@ -261,7 +261,7 @@
    "Relatively easy to win but feature rich fantasy roguelike..",
    "<a href=\"https://sourceforge.net/projects/avanor/files\">Link</a>",
    "beta / inactive since 2008",
-   "roguelike, role playing",
+   "role playing, roguelike",
    "<a href=\"https://gitlab.com/osgames/avanor.git\">Source</a> - C++, Lua - GPL-2.0"
   ],
   [
@@ -293,7 +293,7 @@
    "The Battle for Wesnoth is an open source, turn-based..",
    "<a href=\"http://www.wesnoth.org/#download\">Link</a>",
    "mature / active",
-   "multiplayer, strategy, turn-based",
+   "strategy, multiplayer, turn-based",
    "<a href=\"https://github.com/wesnoth/wesnoth.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -389,7 +389,7 @@
    "A match-3 game inspired by \"Tetris Attack\" but more PC..",
    "<a href=\"https://blockattack.net/download/\">Link</a>",
    "mature / active",
-   "match 3, puzzle, sliding blocks, tetris attack",
+   "puzzle, match 3, sliding blocks, tetris attack",
    "<a href=\"https://github.com/blockattack/blockattack-game.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -421,7 +421,7 @@
    "Futuristic real time strategy game (RTS).",
    "<a href=\"https://www.boswars.org/download.shtml\">Link</a>",
    "mature / inactive since 2013",
-   "real time, strategy",
+   "strategy, real time",
    "<a href=\"https://github.com/OneSleepyDev/boswars_osd.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -445,7 +445,7 @@
    "Dual n-back brain training exercise.",
    "<a href=\"http://brainworkshop.sourceforge.net/download.html\">Link</a>",
    "mature / inactive since 2011",
-   "brain exercise, puzzle",
+   "puzzle, brain exercise",
    "<a href=\"https://gitlab.com/osgames/brain-workshop.git\">Source</a> - Python - GPL"
   ],
   [
@@ -453,7 +453,7 @@
    "A Massively Multiplayer Adventure.",
    "",
    "mature / active",
-   "massive multiplayer online, role playing",
+   "role playing, massive multiplayer online",
    "<a href=\"https://github.com/mozilla/BrowserQuest.git\">Source</a> - JavaScript - MPL-2.0"
   ],
   [
@@ -461,7 +461,7 @@
    "Inspired by the once popular \"Battle Chess\" released by..",
    "<a href=\"https://sourceforge.net/projects/brutalchess/files/\">Link</a>",
    "beta / inactive since 2007",
-   "chess, strategy",
+   "strategy, chess",
    "<a href=\"https://gitlab.com/osgames/brutalchess.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -525,7 +525,7 @@
    "Online text-based role-playing game featuring ASCII art.",
    "",
    "mature / inactive since 2013",
-   "asciiart, role playing, text-based",
+   "role playing, asciiart, text-based",
    "<a href=\"https://github.com/candybox2/candybox2.github.io.git\">Source</a> - Typescript, Javascript - GPL-3.0"
   ],
   [
@@ -541,7 +541,7 @@
    "3D and 2D game engine using modern Object Pascal.",
    "",
    "mature / active",
-   "framework, game engine",
+   "game engine, framework",
    "<a href=\"https://github.com/castle-engine/castle-engine.git\">Source</a> - Pascal - LGPL-2.0"
   ],
   [
@@ -549,7 +549,7 @@
    "Castle of the Winds remake.",
    "",
    "beta / active",
-   "remake, role playing",
+   "role playing, remake",
    "<a href=\"https://github.com/mordrax/cotwmtor.git\">Source</a> - JavaScript - MIT"
   ],
   [
@@ -565,7 +565,7 @@
    "Post-apocalyptic roguelike.",
    "",
    "beta / inactive since 2012",
-   "roguelike, role playing",
+   "role playing, roguelike",
    "<a href=\"https://github.com/Whales/Cataclysm.git\">Source</a> - C++ - CC-BY-SA-3"
   ],
   [
@@ -573,7 +573,7 @@
    "Turn-based survival game set in a post-apocalyptic world.",
    "<a href=\"https://cataclysmdda.org/releases/\">Link</a>",
    "mature / active",
-   "roguelike, role playing",
+   "role playing, roguelike",
    "<a href=\"https://github.com/CleverRaven/Cataclysm-DDA.git\">Source</a> - C++ - CC-BY-SA-3.0"
   ],
   [
@@ -653,7 +653,7 @@
    "Remake of the 1986 game They Stole a Million.",
    "<a href=\"https://sourceforge.net/projects/cosp/files/\">Link</a>",
    "beta / active",
-   "action/adventure, adventure",
+   "adventure, action/adventure",
    "<a href=\"https://github.com/vcosta/derclou.git\">Source</a> - C - Custom"
   ],
   [
@@ -661,7 +661,7 @@
    "Real-time strategy game, where you can program your units..",
    "<a href=\"https://colobot.info/download-colobot-gold/\">Link</a>",
    "mature / active",
-   "real time, strategy",
+   "strategy, real time",
    "<a href=\"https://github.com/colobot/colobot.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
@@ -701,7 +701,7 @@
    "Two or more battle programs (called \"warriors\") compete..",
    "",
    "mature / active",
-   "programming, simulation",
+   "simulation, programming",
    "<a href=\"https://gitlab.com/osgames/corewar.git\">Source</a> - C, Java - GPL-2.0"
   ],
   [
@@ -709,7 +709,7 @@
    "Reimplementation of the 1997 Bullfrog business sim Theme..",
    "<a href=\"https://github.com/CorsixTH/CorsixTH/releases\">Link</a>",
    "mature / active",
-   "remake, requires original content, strategy",
+   "strategy, remake, requires original content",
    "<a href=\"https://github.com/CorsixTH/CorsixTH.git\">Source</a> - Lua, C++ - MIT"
   ],
   [
@@ -725,7 +725,7 @@
    "Cooperative multiplayer graphical RPG and adventure game.",
    "<a href=\"http://crossfire.real-time.com/download/index.html\">Link</a>",
    "mature / active",
-   "massive multiplayer online, role playing",
+   "role playing, massive multiplayer online",
    "<a href=\"https://svn.code.sf.net/p/crossfire/code/\">Source</a> - C, Java - GPL-2.0"
   ],
   [
@@ -749,7 +749,7 @@
    "Graphical environment for DOSBox.",
    "<a href=\"http://dfendreloaded.sourceforge.net/Download.html\">Link</a>",
    "mature / inactive since 2015",
-   "frontend, tool",
+   "tool, frontend",
    "Pascal - GPL"
   ],
   [
@@ -765,7 +765,7 @@
    "Fast and furious coffee-break Roguelike game that is..",
    "<a href=\"https://drl.chaosforge.org/downloads\">Link</a>",
    "mature / active",
-   "roguelike, role playing",
+   "role playing, roguelike",
    "<a href=\"https://github.com/ChaosForge/doomrl.git\">Source</a> - Lua, Pascal - GPL-2.0"
   ],
   [
@@ -773,7 +773,7 @@
    "Massively Multiplayer On-line Role-playing Game (MMORPG).",
    "<a href=\"https://www.daimonin.org/downloads/\">Link</a>",
    "mature / active",
-   "massive multiplayer online, role playing",
+   "role playing, massive multiplayer online",
    "<a href=\"https://svn.code.sf.net/p/daimonin/code/\">Source</a> - C - GPL-2.0"
   ],
   [
@@ -789,7 +789,7 @@
    "Turn-based online space strategy game playable in internet..",
    "",
    "mature / inactive since 2016",
-   "massive multiplayer online, strategy",
+   "strategy, massive multiplayer online",
    "<a href=\"https://gitlab.com/osgames/darkdestiny.git\">Source</a> - Java, Javascript - GPL"
   ],
   [
@@ -797,7 +797,7 @@
    "Real-time strategy game similar to Warcraft II.",
    "<a href=\"http://dark-oberon.sourceforge.net/?page=download\">Link</a>",
    "mature / inactive since 2009",
-   "real time, strategy",
+   "strategy, real time",
    "<a href=\"https://gitlab.com/osgames/dark-oberon.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -806,7 +806,7 @@
    "<a href=\"https://sourceforge.net/projects/darkcity/files/\">Link</a>",
    "mature / inactive since 2012",
    "role playing, text-based",
-   "<a href=\"https://svn.code.sf.net/p/darkcity/code/\">Source</a> - PHP - GPL-3.0"
+   "<a href=\"https://gitlab.com/osgames/darkcity.git\">Source</a> - PHP - GPL-3.0"
   ],
   [
    "Dash Engine (<a href=\"https://dash.circularstudios.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/dash.md\">entry</a>)",
@@ -829,7 +829,7 @@
    "Nintendo DS emulator.",
    "<a href=\"http://desmume.org/download/\">Link</a>",
    "mature / inactive since 2015",
-   "emulator, framework",
+   "framework, emulator",
    "<a href=\"https://github.com/TASVideos/desmume.git\">Source</a> - C, C++ - GPL-2.0"
   ],
   [
@@ -853,7 +853,7 @@
    "A cooperative multiplayer RPG and adventure game set in a..",
    "<a href=\"http://www.deliantra.net/play.html\">Link</a>",
    "mature / active",
-   "massive multiplayer online, role playing",
+   "role playing, massive multiplayer online",
    "<a href=\"http://cvs.schmorp.de/deliantra/\">Source</a> - C - GPL-2.0"
   ],
   [
@@ -893,7 +893,7 @@
    "Is a bit like the well known board game of Risk or RisiKo.",
    "<a href=\"http://domination.sourceforge.net/download.shtml\">Link</a>",
    "mature / active",
-   "board game, risklike, strategy",
+   "strategy, board game, risklike",
    "<a href=\"https://svn.code.sf.net/p/domination/code/Domination\">Source</a> - Java - GPL-3.0"
   ],
   [
@@ -901,7 +901,7 @@
    "Tool for generating documentation from annotated C++..",
    "<a href=\"http://www.doxygen.nl/download.html\">Link</a>",
    "mature / active",
-   "library, source documentation generator, tool",
+   "tool, library, source documentation generator",
    "<a href=\"https://github.com/doxygen/doxygen.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -925,7 +925,7 @@
    "3D chess game.",
    "<a href=\"https://www.dreamchess.org/downloads\">Link</a>",
    "beta / active",
-   "board game, chess, strategy",
+   "strategy, board game, chess",
    "<a href=\"https://github.com/dreamchess/dreamchess.git\">Source</a> - C - GPL-3.0"
   ],
   [
@@ -941,7 +941,7 @@
    "Continuation of the classic real-time strategy game Dune..",
    "<a href=\"https://sourceforge.net/projects/dunedynasty\">Link</a>",
    "mature / inactive since 2014",
-   "requires original content, strategy",
+   "strategy, requires original content",
    "<a href=\"https://git.code.sf.net/p/dunedynasty/dunedynasty\">Source</a> - C - GPL-2.0"
   ],
   [
@@ -949,7 +949,7 @@
    "Clone of the good old Dune II by Westwood Studios.",
    "<a href=\"http://dune2themaker.fundynamic.com/?page_id=11\">Link</a>",
    "beta / active",
-   "real time, strategy",
+   "strategy, real time",
    "<a href=\"https://github.com/Fundynamic/dune2themaker4j.git\">Source</a> - Java - MIT"
   ],
   [
@@ -957,7 +957,7 @@
    "Updated clone of Westwood Studios' Dune2 which uses data..",
    "<a href=\"http://dunelegacy.sourceforge.net/website/downloads.html\">Link</a>",
    "mature / active",
-   "requires original content, strategy",
+   "strategy, requires original content",
    "<a href=\"https://git.code.sf.net/p/dunelegacy/code\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -973,7 +973,7 @@
    "Roguelike adventure through dungeons filled with dangerous..",
    "<a href=\"http://crawl.develz.org/download.htm\">Link</a>",
    "mature / active",
-   "roguelike, role playing",
+   "role playing, roguelike",
    "<a href=\"https://github.com/crawl/crawl.git\">Source</a> - C++, Lua - GPL-2.0"
   ],
   [
@@ -1013,7 +1013,7 @@
    "ENIGMA is a free development environment geared towards..",
    "<a href=\"https://enigma-dev.org/download.htm\">Link</a>",
    "mature / active",
-   "3D, framework",
+   "framework, 3D",
    "<a href=\"https://github.com/enigma-dev/enigma-dev.git\">Source</a> - C++, C - GPL-3.0"
   ],
   [
@@ -1021,7 +1021,7 @@
    "Multiplayer turn-based browser strategy game.",
    "",
    "beta / active",
-   "online, strategy",
+   "strategy, online",
    "<a href=\"https://github.com/tautvilas/epoh.git\">Source</a> - JavaScript - MIT"
   ],
   [
@@ -1037,7 +1037,7 @@
    "Football simulation game",
    "<a href=\"https://sourceforge.net/projects/etw/files/\">Link</a>",
    "mature / inactive since 2017",
-   "football, simulation",
+   "simulation, football",
    "<a href=\"https://svn.code.sf.net/p/etw/code/\">Source</a> - C - ?"
   ],
   [
@@ -1053,7 +1053,7 @@
    "A simulation of a true AI",
    "",
    "beta / active",
-   "singleplayer, strategy",
+   "strategy, singleplayer",
    "<a href=\"https://github.com/singularity/singularity.git\">Source</a> - Python - GPL-2.0"
   ],
   [
@@ -1061,7 +1061,7 @@
    "2D space trading and combat game similar to the classic..",
    "<a href=\"https://github.com/endless-sky/endless-sky/releases\">Link</a>",
    "mature / active",
-   "popular, role playing",
+   "role playing, popular",
    "<a href=\"https://github.com/endless-sky/endless-sky.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
@@ -1101,7 +1101,7 @@
    "Multiplayer, online role-playing game (MMORPG).",
    "<a href=\"http://www.eternal-lands.com/page/download.php\">Link</a>",
    "mature / active",
-   "massive multiplayer online, role playing",
+   "role playing, massive multiplayer online",
    "<a href=\"https://github.com/raduprv/Eternal-Lands.git\">Source</a> - C, C++ - Custom"
   ],
   [
@@ -1125,7 +1125,7 @@
    "A homely MMORPG.",
    "<a href=\"http://evolonline.org/manaplus\">Link</a>",
    "mature / active",
-   "massive multiplayer online, role playing",
+   "role playing, massive multiplayer online",
    "<a href=\"https://gitlab.com/evol/evol-all.git\">Source</a> - C - GPL-3.0"
   ],
   [
@@ -1181,7 +1181,7 @@
    "Port of the wonderful puzzle game Fish Fillets from ALTAR..",
    "<a href=\"http://fillets.sourceforge.net/download.php\">Link</a>",
    "mature / inactive since 2011",
-   "port, puzzle",
+   "puzzle, port",
    "<a href=\"https://git.code.sf.net/p/fillets/code-fillets-ng\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -1253,7 +1253,7 @@
    "FreeCol is a turn-based strategy game based on the old..",
    "<a href=\"http://www.freecol.org/download.html\">Link</a>",
    "mature / active",
-   "multiplayer, strategy, turn-based",
+   "strategy, multiplayer, turn-based",
    "<a href=\"https://git.code.sf.net/p/freecol/git\">Source</a> - Java - GPL-2.0"
   ],
   [
@@ -1269,7 +1269,7 @@
    "Game which captures the look, feel and gameplay of the..",
    "",
    "beta / inactive since 2016",
-   "inspired, strategy",
+   "strategy, inspired",
    "<a href=\"https://github.com/FreeRCT/FreeRCT.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -1277,7 +1277,7 @@
    "Real time MP strategy game where players compete to build..",
    "<a href=\"https://sourceforge.net/projects/freerails/files/jfreerails/\">Link</a>",
    "beta / active",
-   "real time, strategy",
+   "strategy, real time",
    "<a href=\"https://sourceforge.net/p/freerails/code/\">Source</a> - Java - GPL-2.0"
   ],
   [
@@ -1285,7 +1285,7 @@
    "Reimplementation of the classic Bullfrog game, Syndicate.",
    "<a href=\"https://sourceforge.net/projects/freesynd/files/\">Link</a>",
    "beta / active",
-   "requires original content, strategy",
+   "strategy, requires original content",
    "<a href=\"https://svn.code.sf.net/p/freesynd/code/\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -1309,7 +1309,7 @@
    "Freeciv is a Free and Open Source empire-building strategy..",
    "<a href=\"http://www.freeciv.org/download.html\">Link</a>",
    "mature / active",
-   "multiplayer, strategy, turn-based",
+   "strategy, multiplayer, turn-based",
    "<a href=\"https://github.com/freeciv/freeciv.git\">Source</a> - C - GPL-2.0"
   ],
   [
@@ -1317,7 +1317,7 @@
    "Freeciv-web is a version of Freeciv playable online in any..",
    "",
    "mature / active",
-   "online, strategy, turn-based",
+   "strategy, online, turn-based",
    "<a href=\"https://github.com/freeciv/freeciv-web.git\">Source</a> - JavaScript, Java - AGPL-3.0"
   ],
   [
@@ -1325,7 +1325,7 @@
    "Dink Smallwood is an adventure/role-playing game, similar..",
    "<a href=\"https://www.gnu.org/software/freedink/get\">Link</a>",
    "mature / active",
-   "remake, role playing",
+   "role playing, remake",
    "<a href=\"https://git.savannah.gnu.org/git/freedink.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
@@ -1341,7 +1341,7 @@
    "Open source role playing game.",
    "<a href=\"http://www.freedroid.org/download/\">Link</a>",
    "mature / active",
-   "isometric, role playing, singleplayer",
+   "role playing, isometric, singleplayer",
    "<a href=\"https://gitlab.com/freedroid/freedroid-src.git\">Source</a> - C - GPL-2.0"
   ],
   [
@@ -1357,7 +1357,7 @@
    "Clone of the brilliant simulation game The Settlers 1 aka..",
    "<a href=\"https://github.com/freeserf/freeserf/releases\">Link</a>",
    "beta / active",
-   "remake, requires original content, strategy",
+   "strategy, remake, requires original content",
    "<a href=\"https://github.com/freeserf/freeserf.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
@@ -1461,7 +1461,7 @@
    "Roguelike mecha RPG series.",
    "<a href=\"http://www.gearheadrpg.com/downloads/\">Link</a>",
    "mature / active",
-   "roguelike, role playing",
+   "role playing, roguelike",
    "<a href=\"https://github.com/jwvhewitt/gearhead-1.git\">Source</a> - Pascal - LGPL-2.1"
   ],
   [
@@ -1477,7 +1477,7 @@
    "GemRB is a portable open-source implementation of..",
    "<a href=\"http://www.gemrb.org/wiki/doku.php?id=download\">Link</a>",
    "mature / active",
-   "2D, framework, isometric",
+   "framework, 2D, isometric",
    "<a href=\"https://github.com/gemrb/gemrb.git\">Source</a> - C++, Python - GPL-2.0"
   ],
   [
@@ -1485,7 +1485,7 @@
    "A 2D real time strategy Mega-Lo-Mania-like god game.",
    "",
    "mature / active",
-   "real time, strategy",
+   "strategy, real time",
    "<a href=\"https://git.code.sf.net/p/gigalomania/code\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -1493,7 +1493,7 @@
    "Glest is a free 3D real-time strategy game.",
    "<a href=\"http://glest.org/en/downloads.php\">Link</a>",
    "mature / inactive since 2009",
-   "real time, strategy",
+   "strategy, real time",
    "<a href=\"https://gitlab.com/osgames/glest.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -1501,7 +1501,7 @@
    "Real-Time Strategy (RTS) game which reduces micro-..",
    "<a href=\"https://globulation2.org/wiki/Download_and_Install\">Link</a>",
    "mature / active",
-   "real time, strategy",
+   "strategy, real time",
    "<a href=\"https://bitbucket.org/giszmo/glob2\">Source</a> - C++ - GPL-3.0"
   ],
   [
@@ -1517,7 +1517,7 @@
    "A roguelike OpenGL-based smooth-scrolling ASCII graphics..",
    "<a href=\"https://sourceforge.net/projects/goblinhack/files/\">Link</a>",
    "beta / inactive since 2009",
-   "roguelike, role playing, singleplayer",
+   "role playing, roguelike, singleplayer",
    "<a href=\"https://github.com/goblinhack/goblinhack.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -1533,7 +1533,7 @@
    "Conway's Game of Life and many other types of cellular..",
    "<a href=\"https://sourceforge.net/projects/golly/files/\">Link</a>",
    "mature / active",
-   "game of life, simulation",
+   "simulation, game of life",
    "<a href=\"https://git.code.sf.net/p/golly/code\">Source</a> - C++, Java - GPL-2.0"
   ],
   [
@@ -1557,7 +1557,7 @@
    "A real-time strategy programming game, in which you..",
    "",
    "mature / inactive since 2014",
-   "programming, simulation",
+   "simulation, programming",
    "<a href=\"http://hg.code.sf.net/p/grobots/trunk\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -1613,7 +1613,7 @@
    "Hero of Allacrost is a 2D role-playing game inspired by..",
    "<a href=\"https://bitbucket.org/allacrost/allacrost/downloads/\">Link</a>",
    "mature / active",
-   "2D, role playing, singleplayer",
+   "role playing, 2D, singleplayer",
    "<a href=\"https://bitbucket.org/allacrost/allacrost/src\">Source</a> - C++, Lua - GPL-2.0"
   ],
   [
@@ -1645,7 +1645,7 @@
    "Simple turn based, hexagon map, strategy game in the..",
    "",
    "beta / inactive since 2012",
-   "online, strategy, turn-based",
+   "strategy, online, turn-based",
    "<a href=\"https://github.com/mgfreshour/hexwar.git\">Source</a> - Ruby, JavaScript - MIT"
   ],
   [
@@ -1661,7 +1661,7 @@
    "2D isometric hack'n'slash game (action-rpg).",
    "<a href=\"https://sourceforge.net/projects/lechemindeladam/files\">Link</a>",
    "beta / inactive since 2013",
-   "action-rpg, role playing",
+   "role playing, action-rpg",
    "<a href=\"https://gitlab.com/osgames/lechemindeladam.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
@@ -1669,7 +1669,7 @@
    "Roguelike inspired by the puzzle game Deadly Rooms of..",
    "<a href=\"http://roguetemple.com/z/hyper/download.php\">Link</a>",
    "mature / active",
-   "roguelike, role playing",
+   "role playing, roguelike",
    "<a href=\"https://github.com/zenorogue/hyperrogue.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -1677,7 +1677,7 @@
    "Free Open Source-MMORPG, with emphasis on real roleplay.",
    "<a href=\"http://illarion.org/illarion/de_java_download.php\">Link</a>",
    "mature / active",
-   "massive multiplayer online, role playing",
+   "role playing, massive multiplayer online",
    "<a href=\"https://github.com/Illarion-eV/Illarion-Java.git\">Source</a> - C++, Java, Lua - GPL-3.0"
   ],
   [
@@ -1685,7 +1685,7 @@
    "A game of intergalactic exploration, warfare, and economics.",
    "<a href=\"https://empiredirectory.net/index.php/new-downloads\">Link</a>",
    "mature / active",
-   "console, role playing",
+   "role playing, console",
    "? - ?"
   ],
   [
@@ -1693,7 +1693,7 @@
    "Multi-player block-based sandbox building and digging game.",
    "<a href=\"https://code.google.com/archive/p/infiniminer/source/default/source\">Link</a>",
    "mature / inactive since 2016",
-   "blocks, sandbox, simulation",
+   "simulation, blocks, sandbox",
    "C# - MIT"
   ],
   [
@@ -1701,7 +1701,7 @@
    "The Irrlicht Engine is an open source high performance..",
    "<a href=\"http://irrlicht.sourceforge.net/?page_id=10\">Link</a>",
    "mature / active",
-   "3D, framework",
+   "framework, 3D",
    "<a href=\"https://github.com/zaki/irrlicht.git\">Source</a> - C++, C - zlib"
   ],
   [
@@ -1717,7 +1717,7 @@
    "Graphical roguelike game with advanced bodypart and..",
    "<a href=\"https://attnam.com/projects\">Link</a>",
    "beta / active",
-   "roguelike, role playing",
+   "role playing, roguelike",
    "<a href=\"https://github.com/Attnam/ivan.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -1733,7 +1733,7 @@
    "Web-based version of the board game Settlers of Catan..",
    "<a href=\"https://sourceforge.net/projects/jsettlers/files/\">Link</a>",
    "mature / active",
-   "board game, strategy",
+   "strategy, board game",
    "<a href=\"https://github.com/jdmonin/JSettlers2.git\">Source</a> - Java - GPL-3.0"
   ],
   [
@@ -1749,7 +1749,7 @@
    "An improved, cross-platform, stable Jagged Alliance 2..",
    "",
    "mature / active",
-   "requires original content, strategy",
+   "strategy, requires original content",
    "<a href=\"https://github.com/ja2-stracciatella/ja2-stracciatella.git\">Source</a> - C++ - Custom"
   ],
   [
@@ -1789,7 +1789,7 @@
    "An unofficial fan-made mod for the game Knights and..",
    "<a href=\"http://www.kamremake.com/download/\">Link</a>",
    "mature / active",
-   "real time, strategy",
+   "strategy, real time",
    "<a href=\"https://github.com/Kromster80/kam_remake.git\">Source</a> - Pascal - AGPL-3.0"
   ],
   [
@@ -1877,7 +1877,7 @@
    "Roguelike molded in the tradition of the early greats of..",
    "<a href=\"http://www.dungeoncrawl.org/?d\">Link</a>",
    "mature / inactive since 2006",
-   "roguelike, role playing",
+   "role playing, roguelike",
    "<a href=\"https://gitlab.com/osgames/dungeoncrawl.git\">Source</a> - C - Custom"
   ],
   [
@@ -1933,7 +1933,7 @@
    "3D Game Engine",
    "<a href=\"https://github.com/nem0/LumixEngine/releases\">Link</a>",
    "beta / active",
-   "3D, framework",
+   "framework, 3D",
    "<a href=\"https://github.com/nem0/lumixengine.git\">Source</a> - C++ - MIT"
   ],
   [
@@ -1949,7 +1949,7 @@
    "Remake of the classic multiplayer economic strategy game..",
    "",
    "beta / inactive since 2015",
-   "remake, strategy",
+   "strategy, remake",
    "<a href=\"https://github.com/LionsPhil/mewl.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -1973,7 +1973,7 @@
    "Single-player fantasy card game played against a computer..",
    "<a href=\"https://github.com/magarena/magarena/releases/\">Link</a>",
    "mature / active",
-   "cards, role playing",
+   "role playing, cards",
    "<a href=\"https://github.com/magarena/magarena.git\">Source</a> - Java, Groovy - GPL-3.0"
   ],
   [
@@ -2021,7 +2021,7 @@
    "A remake of the old M.A.X. by Interplay from 1996.",
    "<a href=\"https://www.maxr.org/docs.php?id=3\">Link</a>",
    "beta / inactive since 2016",
-   "requires original content, strategy",
+   "strategy, requires original content",
    "<a href=\"http://git.maxr.org/maxr/maxr.git\">Source</a> - C++, C - GPL-2.0"
   ],
   [
@@ -2037,7 +2037,7 @@
    "MegaGlest is an entertaining free (freeware and free..",
    "<a href=\"https://megaglest.org/download\">Link</a>",
    "mature / active",
-   "real time, strategy",
+   "strategy, real time",
    "<a href=\"https://github.com/MegaGlest/megaglest-source.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -2061,7 +2061,7 @@
    "A classic MMO.",
    "<a href=\"http://meridian59.com/play-now.php\">Link</a>",
    "mature / active",
-   "massive multiplayer online, role playing",
+   "role playing, massive multiplayer online",
    "<a href=\"https://github.com/Meridian59/Meridian59.git\">Source</a> - C++, C - GPL-2.0"
   ],
   [
@@ -2093,7 +2093,7 @@
    "Micropolis is the open source version of SimCity Classic..",
    "",
    "mature / active",
-   "online, simulation",
+   "simulation, online",
    "<a href=\"https://github.com/simhacker/micropolis.git\">Source</a> - C++, Java, Python - GPL-3.0"
   ],
   [
@@ -2133,7 +2133,7 @@
    "Roguelike computer game inspired by J. R. R. Tolkien's..",
    "<a href=\"https://umoria.org/download/\">Link</a>",
    "mature / active",
-   "roguelike, role playing",
+   "role playing, roguelike",
    "<a href=\"https://github.com/dungeons-of-moria/umoria.git\">Source</a> - C - GPL-3.0"
   ],
   [
@@ -2157,7 +2157,7 @@
    "Rewrite of Noah Morgan's classic roguelike game Larn from..",
    "<a href=\"https://github.com/nlarn/nlarn/releases\">Link</a>",
    "mature / active",
-   "roguelike, role playing",
+   "role playing, roguelike",
    "<a href=\"https://github.com/nlarn/nlarn.git\">Source</a> - C, Lua - GPL-3.0"
   ],
   [
@@ -2173,7 +2173,7 @@
    "Single player dungeon exploration game that runs on a wide..",
    "<a href=\"https://www.nethack.org/common/index.html\">Link</a>",
    "mature / active",
-   "roguelike, role playing",
+   "role playing, roguelike",
    "<a href=\"https://github.com/NetHack/NetHack.git\">Source</a> - C - Custom"
   ],
   [
@@ -2181,7 +2181,7 @@
    "An online multiplayer tactical warfare game.",
    "<a href=\"http://www.netpanzer.info/Download/\">Link</a>",
    "beta / active",
-   "multiplayer, online, real time, strategy",
+   "strategy, multiplayer, online, real time",
    "<a href=\"https://github.com/BackupTheBerlios/netpanzer-svn.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -2189,7 +2189,7 @@
    "Major League Baseball Simulation.",
    "<a href=\"https://sourceforge.net/projects/nsbb/files/\">Link</a>",
    "mature / active",
-   "simulation, sports",
+   "sports, simulation",
    "<a href=\"http://nsbb.cvs.sourceforge.net\">Source</a> - C - ?"
   ],
   [
@@ -2229,7 +2229,7 @@
    "Scene-oriented, flexible 3D engine written in C++.",
    "<a href=\"https://www.ogre3d.org/download/sdk\">Link</a>",
    "mature / active",
-   "3D, framework",
+   "framework, 3D",
    "<a href=\"https://github.com/OGRECave/ogre.git\">Source</a> - C++ - MIT"
   ],
   [
@@ -2237,7 +2237,7 @@
    "Prototype for an educational role-playing game for..",
    "<a href=\"https://sourceforge.net/projects/orient-ecircus/files\">Link</a>",
    "mature / inactive since 2009",
-   "educational, role playing",
+   "role playing, educational",
    "<a href=\"https://gitlab.com/osgames/orient.git\">Source</a> - C#, Java - GPL-2.0"
   ],
   [
@@ -2277,7 +2277,7 @@
    "Rebuild of the XCOM Apocalypse Engine.",
    "<a href=\"https://ci.appveyor.com/project/openapoc/openapoc\">Link</a>",
    "mature / active",
-   "requires original content, strategy",
+   "strategy, requires original content",
    "<a href=\"https://github.com/OpenApoc/OpenApoc.git\">Source</a> - C++ - MIT"
   ],
   [
@@ -2285,7 +2285,7 @@
    "Re-creation of the popular game \"Dune II\".",
    "<a href=\"https://github.com/OpenDUNE/OpenDUNE/releases\">Link</a>",
    "mature / active",
-   "remake, requires original content, strategy",
+   "strategy, remake, requires original content",
    "<a href=\"https://github.com/OpenDUNE/OpenDUNE.git\">Source</a> - C - GPL-2.0"
   ],
   [
@@ -2293,7 +2293,7 @@
    "Game engine and editor.",
    "<a href=\"https://sourceforge.net/projects/oge/files/\">Link</a>",
    "beta / inactive since 2008",
-   "framework, game editor, game engine",
+   "game engine, framework, game editor",
    "<a href=\"https://git.code.sf.net/p/oge/git\">Source</a> - C++ - LGPL-2.1"
   ],
   [
@@ -2309,7 +2309,7 @@
    "A tabletop roleplaying game (or RPG) in which the players..",
    "",
    "mature / active",
-   "board game, role playing, ruleset",
+   "role playing, board game, ruleset",
    "<a href=\"https://github.com/openlegend/core-rules.git\">Source</a> - Text - Custom"
   ],
   [
@@ -2317,7 +2317,7 @@
    "Meridian 59 is a long-running medieval fantasy combat and..",
    "<a href=\"http://openmeridian.org/create-account/\">Link</a>",
    "mature / active",
-   "massive multiplayer online, role playing",
+   "role playing, massive multiplayer online",
    "<a href=\"https://github.com/OpenMeridian/Meridian59.git\">Source</a> - C, C++ - GPL-2.0"
   ],
   [
@@ -2325,7 +2325,7 @@
    "Hex and turn based strategy game, a remake of good old..",
    "",
    "mature / active",
-   "online, strategy",
+   "strategy, online",
    "<a href=\"https://github.com/nicupavel/openpanzer.git\">Source</a> - JavaScript - GPL-2.0"
   ],
   [
@@ -2341,7 +2341,7 @@
    "As close of a replica Runescape game experience as possible.",
    "",
    "mature / active",
-   "massive multiplayer online, role playing",
+   "role playing, massive multiplayer online",
    "<a href=\"https://gitlab.openrsc.com/open-rsc/Game.git\">Source</a> - Java - GPL-3.0"
   ],
   [
@@ -2357,16 +2357,16 @@
    "Soccer manager game in which you are not the manager or..",
    "",
    "beta / active",
-   "online, sports, strategy",
+   "sports, online, strategy",
    "<a href=\"https://github.com/dmecke/OpenSoccerStar.git\">Source</a> - PHP - GPL-3.0"
   ],
   [
-   "Open Sonic (<a href=\"http://opensnc.sourceforge.net/home/index.php\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/open_sonic.md\">entry</a>)",
-   "Game based on the \"Sonic the Hedgehog\" universe.",
-   "<a href=\"http://opensnc.sourceforge.net/home/download.php\">Link</a>",
+   "Open Surge (<a href=\"http://opensurge2d.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/open_surge.md\">entry</a>)",
+   "Inspired by the \"Sonic the Hedgehog\" universe.",
+   "<a href=\"http://opensnc.sourceforge.net/forum/viewtopic.php?id=1931\">Link</a>",
    "beta / active",
-   "action",
-   "<a href=\"https://svn.code.sf.net/p/opensnc/code/\">Source</a> - C - GPL-2.0"
+   "action, 2D, platform",
+   "<a href=\"https://github.com/alemart/opensurge.git\">Source</a> - C - GPL-3.0"
   ],
   [
    "Open Tibia (<a href=\"https://github.com/opentibia\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/open_tibia.md\">entry</a>)",
@@ -2381,7 +2381,7 @@
    "Open-source version of the classic dice game Yahtzee.",
    "<a href=\"http://www.openyahtzee.org/wiki/download/\">Link</a>",
    "mature / inactive since 2016",
-   "dice game, strategy",
+   "strategy, dice game",
    "<a href=\"https://git.code.sf.net/p/openyahtzee/code\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -2405,7 +2405,7 @@
    "Make games with a built-in physics engine, Lego-like..",
    "<a href=\"https://sourceforge.net/projects/openblox/files/\">Link</a>",
    "beta / inactive since 2011",
-   "game maker, simulation",
+   "simulation, game maker",
    "<a href=\"http://hg.code.sf.net/p/openblox/openblox\">Source</a> - Python, Lua - GPL-3.0"
   ],
   [
@@ -2453,7 +2453,7 @@
    "Clone of Microprose game \"Master of Orion II: Battle at..",
    "<a href=\"http://openmoo2.org/en/download\">Link</a>",
    "beta / inactive since 2011",
-   "requires original content, strategy, turn-based",
+   "strategy, requires original content, turn-based",
    "<a href=\"https://github.com/pjotrligthart/openmoo2-hg-mirror.git\">Source</a> - Python - GPL-2.0"
   ],
   [
@@ -2461,23 +2461,15 @@
    "Unofficial open source engine reimplementation of the game..",
    "<a href=\"https://openmw.org/downloads/\">Link</a>",
    "mature / active",
-   "game engine, remake, requires original content, role playing",
+   "role playing, game engine, remake, requires original content",
    "<a href=\"https://github.com/OpenMW/openmw.git\">Source</a> - C++ - GPL-3.0"
-  ],
-  [
-   "OpenPop (<a href=\"http://openpopulous.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/open_pop.md\">entry</a>)",
-   "A clone of Populous: The Beginning.",
-   "<a href=\"https://sourceforge.net/projects/openpopulous/files\">Link</a>",
-   "beta / inactive since 2009",
-   "strategy",
-   "<a href=\"https://svn.code.sf.net/p/openpopulous/code/\">Source</a> - C++ - GPL-3.0"
   ],
   [
    "OpenRA (<a href=\"http://www.openra.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/open_ra.md\">entry</a>)",
    "Recreates and modernizes the classic Command & Conquer..",
    "<a href=\"http://www.openra.net/download/\">Link</a>",
    "mature / active",
-   "real time, strategy",
+   "strategy, real time",
    "<a href=\"https://github.com/OpenRA/OpenRA.git\">Source</a> - C# - GPL-3.0"
   ],
   [
@@ -2485,7 +2477,7 @@
    "Re-implementation of RollerCoaster Tycoon 2 (RCT2),..",
    "<a href=\"https://openrct2.org/downloads\">Link</a>",
    "beta / active",
-   "remake, requires original content, simulation",
+   "simulation, remake, requires original content",
    "<a href=\"https://github.com/OpenRCT2/OpenRCT2.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
@@ -2509,7 +2501,7 @@
    "Tower simulation game inspired by SimTower.",
    "",
    "beta / active",
-   "remake, simulation",
+   "simulation, remake",
    "<a href=\"https://github.com/fabianschuiki/OpenSkyscraper.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -2517,7 +2509,7 @@
    "Online Soccer Manager",
    "",
    "beta / active",
-   "online, sports, strategy",
+   "sports, online, strategy",
    "<a href=\"https://github.com/delight-im/OpenSoccer.git\">Source</a> - PHP - GPL-3.0"
   ],
   [
@@ -2533,7 +2525,7 @@
    "Manage a virtual fantasy football (soccer) team and play..",
    "<a href=\"https://github.com/ihofmann/open-websoccer/releases\">Link</a>",
    "mature / active",
-   "online, sports, strategy",
+   "sports, online, strategy",
    "<a href=\"https://github.com/ihofmann/open-websoccer.git\">Source</a> - PHP - LGPL-3.0"
   ],
   [
@@ -2549,7 +2541,7 @@
    "An SDL port of an old DOS game called Gladiator.",
    "<a href=\"http://snowstorm.sourceforge.net/cgi-bin/site.cgi?page=download\">Link</a>",
    "mature / inactive since 2004",
-   "remake, role playing",
+   "role playing, remake",
    "<a href=\"https://git.code.sf.net/p/snowstorm/git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -2573,7 +2565,7 @@
    "A community based game that allows you to affect the..",
    "<a href=\"http://www.other-life.com/downloads.php\">Link</a>",
    "beta / active",
-   "massive multiplayer online, role playing",
+   "role playing, massive multiplayer online",
    "<a href=\"https://github.com/jp8900308/other-life.git\">Source</a> - C, C++ - Custom"
   ],
   [
@@ -2581,7 +2573,7 @@
    "Simulation game where you play as a colonist on a new..",
    "",
    "mature / active",
-   "simulation, visual novel",
+   "visual novel, simulation",
    "<a href=\"https://github.com/qirien/personal-space.git\">Source</a> - Ren'py - GPL-3.0"
   ],
   [
@@ -2613,7 +2605,7 @@
    "2D side scrolling beatem-up engine.",
    "<a href=\"http://paintown.org/#/downloads\">Link</a>",
    "mature / active",
-   "2D, action, arcade, beat'em up, game engine",
+   "action, 2D, arcade, beat'em up, game engine",
    "<a href=\"https://github.com/kazzmir/paintown.git\">Source</a> - C++, Java, Python - 3-clause BSD"
   ],
   [
@@ -2621,7 +2613,7 @@
    "Panda3D is a game engine, a framework for 3D rendering and..",
    "<a href=\"http://www.panda3d.org/download.php\">Link</a>",
    "mature / active",
-   "3D, framework",
+   "framework, 3D",
    "<a href=\"https://github.com/panda3d/panda3d.git\">Source</a> - C++, C - 3-clause BSD"
   ],
   [
@@ -2637,7 +2629,7 @@
    "Traditional two-player board game of Brunei.",
    "<a href=\"http://pasang-emas.sourceforge.net/download.xhtml\">Link</a>",
    "mature / active",
-   "board game, strategy",
+   "strategy, board game",
    "<a href=\"https://git.code.sf.net/p/pasang-emas/code\">Source</a> - Vala - GPL-3.0"
   ],
   [
@@ -2645,7 +2637,7 @@
    "One-button real-time strategy game.",
    "",
    "mature / active",
-   "multiplayer, real time, strategy",
+   "strategy, multiplayer, real time",
    "<a href=\"https://github.com/henkboom/pax-britannica.git\">Source</a> - Lua, C - MIT"
   ],
   [
@@ -2677,7 +2669,7 @@
    "Emulation of the board game The Settlers of Catan, which..",
    "<a href=\"https://sourceforge.net/projects/pio/files\">Link</a>",
    "mature / active",
-   "board game, strategy",
+   "strategy, board game",
    "<a href=\"https://svn.code.sf.net/p/pio/code/\">Source</a> - C - GPL-2.0"
   ],
   [
@@ -2693,7 +2685,7 @@
    "Role Playing Game immersed into a 3D virtual fantasy world.",
    "<a href=\"http://www.planeshift.it/Download\">Link</a>",
    "mature / active",
-   "massive multiplayer online, role playing",
+   "role playing, massive multiplayer online",
    "<a href=\"https://svn.code.sf.net/p/planeshift/code/\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -2709,7 +2701,7 @@
    "Texas Hold'em poker game playable against up to nine..",
    "<a href=\"https://www.pokerth.net/download\">Link</a>",
    "mature / inactive since 2017",
-   "online, poker, strategy",
+   "strategy, online, poker",
    "<a href=\"https://github.com/pokerth/pokerth.git\">Source</a> - C++ - AGPL-3.0"
   ],
   [
@@ -2749,7 +2741,7 @@
    "Karaoke player.",
    "<a href=\"http://www.kibosh.org/pykaraoke/downloads.php\">Link</a>",
    "beta / inactive since 2011",
-   "karaoke, music, social",
+   "music, karaoke, social",
    "<a href=\"https://gitlab.com/osgames/pykaraoke.git\">Source</a> - Python - LGPL-2.1"
   ],
   [
@@ -2757,7 +2749,7 @@
    "1,000 solitaire games.",
    "<a href=\"http://www.pysol.org/#download\">Link</a>",
    "mature / inactive since 2004",
-   "cards, strategy",
+   "strategy, cards",
    "Python - GPL-2.0"
   ],
   [
@@ -2789,7 +2781,7 @@
    "Reimplementation of the zEngine, used by the game \"Gothic\"..",
    "<a href=\"https://github.com/REGoth-project/REGoth/releases\">Link</a>",
    "beta / active",
-   "remake, requires original content, role playing",
+   "role playing, remake, requires original content",
    "<a href=\"https://github.com/REGoth-project/REGoth.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
@@ -2845,7 +2837,7 @@
    "Renew the original The Settlers 2.",
    "<a href=\"https://www.siedler25.org/index.php?com=dynamic&mod=2\">Link</a>",
    "mature / active",
-   "remake, requires original content, strategy",
+   "strategy, remake, requires original content",
    "<a href=\"https://launchpad.net/s25rttr\">Source</a> - C++ - GPL-3.0"
   ],
   [
@@ -2853,7 +2845,7 @@
    "3D simulator game where you can drive, fly and sail..",
    "",
    "mature / active",
-   "cars, simulation",
+   "simulation, cars",
    "<a href=\"https://github.com/RigsOfRods/rigs-of-rods.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
@@ -2869,7 +2861,7 @@
    "Reproduction of Rogue.",
    "<a href=\"https://sourceforge.net/projects/rogueclone/files/rogue%20clone/\">Link</a>",
    "mature / inactive since 2006",
-   "remake, roguelike, role playing",
+   "role playing, remake, roguelike",
    "<a href=\"https://gitlab.com/osgames/rogueclone.git\">Source</a> - C - 3-clause BSD"
   ],
   [
@@ -2877,7 +2869,7 @@
    "Multiplayer, extensible rogue-like.",
    "",
    "beta / inactive since 2015",
-   "roguelike, role playing",
+   "role playing, roguelike",
    "<a href=\"https://github.com/CamHenlin/Roguish.git\">Source</a> - JavaScript - 3-clause BSD"
   ],
   [
@@ -2909,7 +2901,7 @@
    "MMORPG with open world play.",
    "",
    "mature / active",
-   "mmorpg, role playing",
+   "role playing, mmorpg",
    "<a href=\"https://bitbucket.org/ryzom/ryzomcore\">Source</a> - C++ - AGPL-3.0"
   ],
   [
@@ -2917,7 +2909,7 @@
    "Roguelike game with a 3D user interface.",
    "<a href=\"https://sourceforge.net/projects/scourge/files\">Link</a>",
    "beta / inactive since 2008",
-   "roguelike, role playing",
+   "role playing, roguelike",
    "<a href=\"https://github.com/q4a/scourge.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -2949,7 +2941,7 @@
    "Software development tool that connects programs written..",
    "<a href=\"http://www.swig.org/download.html\">Link</a>",
    "mature / active",
-   "interface generator, language binding, library",
+   "library, interface generator, language binding",
    "<a href=\"https://github.com/swig/swig.git\">Source</a> - C++ - SWIG license"
   ],
   [
@@ -2957,7 +2949,7 @@
    "Lively, fully destructible 3D landscapes in a turn-based..",
    "<a href=\"http://www.scorched3d.co.uk/#download\">Link</a>",
    "mature / inactive since 2014",
-   "3D, action, artillery",
+   "action, 3D, artillery",
    "<a href=\"https://git.code.sf.net/p/scorched3d/git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -2973,7 +2965,7 @@
    "Board game with the goal to place letters on the board..",
    "",
    "mature / inactive since 2015",
-   "board game, strategy",
+   "strategy, board game",
    "<a href=\"https://svn.code.sf.net/p/scrabble/code/\">Source</a> - Pascal - GPL-3.0"
   ],
   [
@@ -2989,7 +2981,7 @@
    "Allows you to run certain classic graphical point-and-..",
    "<a href=\"http://www.scummvm.org/downloads/\">Link</a>",
    "mature / active",
-   "framework, game engine",
+   "game engine, framework",
    "<a href=\"https://github.com/scummvm/scummvm.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -3021,7 +3013,7 @@
    "Remake of \"The Settlers III\" for Windows, Linux, Mac and..",
    "<a href=\"https://github.com/jsettlers/settlers-remake/releases\">Link</a>",
    "beta / active",
-   "remake, requires original content, strategy",
+   "strategy, remake, requires original content",
    "<a href=\"https://github.com/jsettlers/settlers-remake.git\">Source</a> - Java - MIT"
   ],
   [
@@ -3029,7 +3021,7 @@
    "Fan continuation of Seven Kingdoms: Ancient Adversaries by..",
    "<a href=\"https://www.7kfans.com/wiki/index.php/Download\">Link</a>",
    "mature / active",
-   "continuation of commercial project, strategy",
+   "strategy, continuation of commercial project",
    "<a href=\"https://github.com/the3dfxdude/7kaa.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -3053,7 +3045,7 @@
    "Simple DirectMedia Layer is a cross-platform development..",
    "<a href=\"https://www.libsdl.org/download-2.0.php\">Link</a>",
    "mature / active",
-   "3D, library",
+   "library, 3D",
    "<a href=\"http://hg.libsdl.org/SDL\">Source</a> - C - zlib"
   ],
   [
@@ -3069,7 +3061,7 @@
    "Solitaire game collection with 14 games.",
    "",
    "mature / active",
-   "cards, strategy",
+   "strategy, cards",
    "<a href=\"https://github.com/TobiasBielefeld/Simple-Solitaire.git\">Source</a> - Java - GPL-3.0"
   ],
   [
@@ -3101,7 +3093,7 @@
    "Variant of the roguelike game NetHack that offers extra..",
    "<a href=\"http://slashem.sourceforge.net/stable.html\">Link</a>",
    "beta / inactive since 2007",
-   "roguelike, role playing",
+   "role playing, roguelike",
    "<a href=\"https://github.com/farmboy0/slashem.git\">Source</a> - C - Custom"
   ],
   [
@@ -3125,7 +3117,7 @@
    "Old skool, 2D, platform, shoot\u2018em up action.",
    "<a href=\"https://smashbattle.demontpx.com/downloads/\">Link</a>",
    "beta / inactive since 2011",
-   "2D, action, platform, shoot'em up",
+   "action, 2D, platform, shoot'em up",
    "C++ - ?"
   ],
   [
@@ -3133,7 +3125,7 @@
    "High-level real-time 3d engine.",
    "<a href=\"http://softpixelengine.sourceforge.net/downloads.html\">Link</a>",
    "mature / inactive since 2013",
-   "3D, framework",
+   "framework, 3D",
    "<a href=\"https://gitlab.com/osgames/softpixelengine.git\">Source</a> - C++ - zlib"
   ],
   [
@@ -3157,7 +3149,7 @@
    "A massive multiplayer online roleplaying game.",
    "",
    "mature / inactive since 2013",
-   "massive multiplayer online, role playing",
+   "role playing, massive multiplayer online",
    "<a href=\"https://github.com/tales/sourceoftales.git\">Source</a> - Lua - GPL-3.0"
   ],
   [
@@ -3181,7 +3173,7 @@
    "A community developed, multiplayer round-based role..",
    "",
    "mature / active",
-   "online, role playing",
+   "role playing, online",
    "DM - AGPL-3.0"
   ],
   [
@@ -3212,8 +3204,8 @@
    "SpaceZero (<a href=\"http://spacezero.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/spacezero.md\">entry</a>)",
    "Real Time Strategy 2D space combat game for two players..",
    "<a href=\"http://spacezero.sourceforge.net/index.html#download\">Link</a>",
-   "beta / inactive since 2013",
-   "real time, space, strategy",
+   "beta / active",
+   "strategy, real time, space",
    "<a href=\"https://svn.code.sf.net/p/spacezero/code/\">Source</a> - C - GPL-3.0"
   ],
   [
@@ -3237,7 +3229,7 @@
    "Game engine for real-time strategy (RTS) video games.",
    "<a href=\"https://springrts.com/wiki/Download\">Link</a>",
    "mature / active",
-   "real time, strategy",
+   "strategy, real time",
    "<a href=\"https://github.com/spring/spring.git\">Source</a> - C++, C, Lua - GPL-2.0"
   ],
   [
@@ -3261,7 +3253,7 @@
    "4X/RTS set in space.",
    "",
    "mature / active",
-   "real time, strategy",
+   "strategy, real time",
    "<a href=\"https://github.com/BlindMindStudios/StarRuler2-Source.git\">Source</a> - C, C++ - MIT"
   ],
   [
@@ -3269,7 +3261,7 @@
    "Side scrolling shoot'em up game.",
    "<a href=\"https://sourceforge.net/projects/starblastrix/files/\">Link</a>",
    "beta / inactive since 2006",
-   "2D, action, shoot'em up",
+   "action, 2D, shoot'em up",
    "C++ - GPL-2.0"
   ],
   [
@@ -3293,7 +3285,7 @@
    "Multiplayer online adventure game with an old school feel.",
    "",
    "mature / active",
-   "multiplayer, online, role playing",
+   "role playing, multiplayer, online",
    "<a href=\"https://git.code.sf.net/p/arianne/stendhal\">Source</a> - Java - GPL-2.0"
   ],
   [
@@ -3325,7 +3317,7 @@
    "Role-playing game, featuring both a single-player and a..",
    "<a href=\"https://web.archive.org/web/20160704003202/http://sumwars.org:80/wiki/Download\">Link</a>",
    "beta / inactive since 2014",
-   "multiplayer, role playing, singleplayer",
+   "role playing, multiplayer, singleplayer",
    "<a href=\"https://bitbucket.org/sumwars/sumwars-code/src\">Source</a> - C++ - GPL-3.0"
   ],
   [
@@ -3365,7 +3357,7 @@
    "Car racing simulation.",
    "<a href=\"http://torcs.sourceforge.net/index.php?name=Sections&op=viewarticle&artid=3\">Link</a>",
    "mature / inactive since 2016",
-   "racing, simulation",
+   "simulation, racing",
    "<a href=\"https://git.code.sf.net/p/torcs/code\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -3373,8 +3365,8 @@
    "Car racing game with features such as shooting at other..",
    "<a href=\"http://trophy.sourceforge.net/index.php?body=download\">Link</a>",
    "mature / inactive since 2012",
-   "2D, cars, racing, simulation",
-   "<a href=\"https://svn.code.sf.net/p/trophy/code/\">Source</a> - C++ - GPL-2.0"
+   "simulation, 2D, cars, racing",
+   "<a href=\"https://gitlab.com/osgames/trophy.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "TVTower (<a href=\"http://www.tvgigant.de/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tvtower.md\">entry</a>)",
@@ -3389,7 +3381,7 @@
    "Roguelike RPG, featuring tactical turn-based combat and..",
    "<a href=\"https://te4.org/download\">Link</a>",
    "mature / active",
-   "roguelike, role playing",
+   "role playing, roguelike",
    "<a href=\"https://git.net-core.org/tome/t-engine4.git\">Source</a> - C, Lua - GPL-3.0"
   ],
   [
@@ -3405,7 +3397,7 @@
    "Clone of 'Plan Tactico y Estrategico de la Guerra', which..",
    "",
    "beta / inactive since 2015",
-   "risklike, strategy",
+   "strategy, risklike",
    "<a href=\"https://github.com/wfx/teg.git\">Source</a> - C, Javascript, Perl - GPL-2.0"
   ],
   [
@@ -3413,7 +3405,7 @@
    "Stable platform for various types of gameplay settings in..",
    "",
    "mature / active",
-   "3D, framework",
+   "framework, 3D",
    "<a href=\"https://github.com/MovingBlocks/Terasology.git\">Source</a> - Java - Apache-2.0"
   ],
   [
@@ -3421,7 +3413,7 @@
    "A port of TetraVex for macOS.",
    "<a href=\"https://github.com/Lisergishnu/TetraVex/releases\">Link</a>",
    "beta / active",
-   "port, puzzle",
+   "puzzle, port",
    "<a href=\"https://github.com/Lisergishnu/TetraVex.git\">Source</a> - Swift - GPL-3.0"
   ],
   [
@@ -3437,7 +3429,7 @@
    "Realistic physics simulations.",
    "<a href=\"http://the-butterfly-effect.org/#download\">Link</a>",
    "beta / active",
-   "physics, simulation",
+   "simulation, physics",
    "<a href=\"https://github.com/the-butterfly-effect/tbe.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -3469,7 +3461,7 @@
    "2D platform game.",
    "<a href=\"https://www.parallelrealities.co.uk/games/edgar/#downloads-/-releases\">Link</a>",
    "mature / active",
-   "2D, action, platform",
+   "action, 2D, platform",
    "<a href=\"https://github.com/riksweeney/edgar.git\">Source</a> - C - GPL-2.0"
   ],
   [
@@ -3477,7 +3469,7 @@
    "2D open source MMORPG.",
    "<a href=\"https://www.themanaworld.org/index.php/Downloads\">Link</a>",
    "mature / active",
-   "massive multiplayer online, role playing",
+   "role playing, massive multiplayer online",
    "<a href=\"https://github.com/themanaworld/tmwa.git\">Source</a> - PHP - GPL-2.0"
   ],
   [
@@ -3501,7 +3493,7 @@
    "MUD client.",
    "<a href=\"https://tintin.sourceforge.io/download.php\">Link</a>",
    "mature / active",
-   "MUD, client, role playing",
+   "role playing, client, MUD",
    "C - GPL-3.0"
   ],
   [
@@ -3565,7 +3557,7 @@
    "Arcade-style 2D football game reminiscent of Sensible..",
    "<a href=\"http://tuxfootball.sourceforge.net/index.php?plugin=EnticorePluginStaticContent&config=idx%3A3\">Link</a>",
    "beta / inactive since 2012",
-   "2D, arcade, simulation, sports",
+   "arcade, 2D, simulation, sports",
    "<a href=\"https://git.code.sf.net/p/tuxfootball/code\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -3621,7 +3613,7 @@
    "Ultimate Dungeon Adventure (UlDunAd) - the extremely..",
    "",
    "beta / inactive since 2011",
-   "console, role playing, text-based",
+   "role playing, console, text-based",
    "<a href=\"https://github.com/nhydock/UlDunAd.git\">Source</a> - Python - GPL-3.0"
   ],
   [
@@ -3637,7 +3629,7 @@
    "Karaoke game.",
    "<a href=\"https://usdx.eu/downloads/\">Link</a>",
    "mature / active",
-   "karaoke, music",
+   "music, karaoke",
    "<a href=\"https://github.com/UltraStar-Deluxe/USDX.git\">Source</a> - Pascal - GPL-2.0"
   ],
   [
@@ -3653,7 +3645,7 @@
    "Roguelike, single-player role-playing game where the hero..",
    "<a href=\"https://sourceforge.net/projects/unnethack/files/unnethack/\">Link</a>",
    "mature / active",
-   "roguelike, role playing",
+   "role playing, roguelike",
    "<a href=\"https://github.com/unnethack/unnethack.git\">Source</a> - C - Custom"
   ],
   [
@@ -3669,7 +3661,7 @@
    "A 2D real time strategy simulation with an emphasis on..",
    "<a href=\"http://unknown-horizons.org/downloads/\">Link</a>",
    "beta / active",
-   "singleplayer, strategy, turn-based",
+   "strategy, singleplayer, turn-based",
    "<a href=\"https://github.com/unknown-horizons/unknown-horizons.git\">Source</a> - Python - GPL-2.0"
   ],
   [
@@ -3709,7 +3701,7 @@
    "Driving simulation made with drift racing in mind.",
    "",
    "mature / inactive since 2014",
-   "cars, racing, simulation",
+   "simulation, cars, racing",
    "<a href=\"https://github.com/VDrift/vdrift.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
@@ -3717,7 +3709,7 @@
    "J-RPG (Based on the Hero of Allacrost engine).",
    "<a href=\"https://valyriatear.blogspot.de/p/downloads.html\">Link</a>",
    "mature / active",
-   "JRPG, popular, role playing",
+   "role playing, JRPG, popular",
    "<a href=\"https://github.com/ValyriaTear/ValyriaTear.git\">Source</a> - Lua, C++, C - GPL"
   ],
   [
@@ -3741,7 +3733,7 @@
    "Windows clone of Linux KAtomic logic game.",
    "<a href=\"https://sourceforge.net/projects/watomic/files/\">Link</a>",
    "mature / inactive since 2005",
-   "remake, strategy",
+   "strategy, remake",
    "<a href=\"https://gitlab.com/osgames/watomic.git\">Source</a> - Pascal - GPL-2.0"
   ],
   [
@@ -3765,7 +3757,7 @@
    "Warcraft2 Mod that allows you to play Warcraft2 with the..",
    "<a href=\"http://wargus.stratagus.com/download.shtml\">Link</a>",
    "mature / active",
-   "requires original content, strategy",
+   "strategy, requires original content",
    "<a href=\"https://github.com/Wargus/wargus.git\">Source</a> - C++, Lua - GPL-2.0"
   ],
   [
@@ -3773,7 +3765,7 @@
    "Full campaign with optional (but strongly recommended!),..",
    "<a href=\"https://sourceforge.net/projects/warzone2100/files/releases/\">Link</a>",
    "mature / active",
-   "popular, real time, strategy",
+   "strategy, popular, real time",
    "<a href=\"https://github.com/Warzone2100/warzone2100.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -3789,7 +3781,7 @@
    "Widelands is a free, open source real-time strategy game..",
    "<a href=\"https://wl.widelands.org/wiki/Download/\">Link</a>",
    "mature / active",
-   "real time, strategy",
+   "strategy, real time",
    "<a href=\"https://github.com/widelands/widelands.git\">Source</a> - C++, Lua - GPL-2.0"
   ],
   [
@@ -3797,7 +3789,7 @@
    "Roguelike dungeon crawl shooter heavily inspired from..",
    "<a href=\"https://github.com/Cirrus-Minor/witchblast/releases\">Link</a>",
    "beta / inactive since 2015",
-   "roguelike, role playing",
+   "role playing, roguelike",
    "<a href=\"https://github.com/Cirrus-Minor/witchblast.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
@@ -3805,7 +3797,7 @@
    "Simple card strategy, based on Magic: The Gathering rules.",
    "<a href=\"https://code.google.com/archive/p/wizards-magic/downloads\">Link</a>",
    "mature / inactive since 2012",
-   "cards, remake, strategy",
+   "strategy, cards, remake",
    "<a href=\"https://github.com/chubakur/wizards-magic.git\">Source</a> - Python - GPL-2.0"
   ],
   [
@@ -3813,7 +3805,7 @@
    "Real time, multiplayer, Internet-based game, featuring..",
    "<a href=\"https://sourceforge.net/projects/empserver/files/\">Link</a>",
    "mature / active",
-   "online, strategy",
+   "strategy, online",
    "<a href=\"http://git.pond.sub.org/empserver\">Source</a> - C - GPL-3.0"
   ],
   [
@@ -3837,7 +3829,7 @@
    "Online Roleplaying Game browser based, which takes place..",
    "<a href=\"https://sourceforge.net/projects/phaosrpg/files/\">Link</a>",
    "mature / inactive since 2011",
-   "online, role playing",
+   "role playing, online",
    "<a href=\"https://gitlab.com/osgames/phaosrpg.git\">Source</a> - PHP - GPL-2.0"
   ],
   [
@@ -3853,7 +3845,7 @@
    "Strategy game which features elements of mythology,..",
    "<a href=\"https://store.steampowered.com/app/370070/Wyrmsun/\">Link</a>",
    "mature / active",
-   "real time, strategy",
+   "strategy, real time",
    "<a href=\"https://github.com/andrettin/wyrmsun.git\">Source</a> - Lua, C++ - GPL-2.0"
   ],
   [
@@ -3893,7 +3885,7 @@
    "Top-down shooter / real-time strategy hybrid game based on..",
    "",
    "beta / inactive since 2010",
-   "real time, shooter, strategy",
+   "strategy, real time, shooter",
    "<a href=\"https://github.com/prophile/xsera.git\">Source</a> - C, Lua - MIT"
   ],
   [
@@ -3941,7 +3933,7 @@
    "Soccer game; continuation to Sensible World of Soccer.",
    "<a href=\"http://ysoccer.sourceforge.net/dloads.htm\">Link</a>",
    "mature / inactive since 2017",
-   "simulation, soccer, sports",
+   "sports, simulation, soccer",
    "<a href=\"https://git.code.sf.net/p/ysoccer/code\">Source</a> - Java - ?"
   ],
   [
@@ -3957,7 +3949,7 @@
    "Roguelike computer role playing game available for almost..",
    "<a href=\"https://sourceforge.net/projects/zangband/files/\">Link</a>",
    "mature / inactive since 2005",
-   "roguelike, role playing",
+   "role playing, roguelike",
    "<a href=\"https://gitlab.com/osgames/zangband.git\">Source</a> - C - Custom"
   ],
   [
@@ -3965,7 +3957,7 @@
    "Rapid development solution with a tiny footprint.",
    "<a href=\"http://www.zgameeditor.org/index.php/Main/Download\">Link</a>",
    "mature / active",
-   "editor, framework",
+   "framework, editor",
    "<a href=\"https://github.com/VilleKrumlinde/zgameeditor.git\">Source</a> - Pascal - MIT"
   ],
   [
@@ -3989,7 +3981,7 @@
    "A free multi-platform open source real-time strategy video..",
    "<a href=\"http://zero-k.info/Wiki/Download\">Link</a>",
    "mature / active",
-   "popular, real time, strategy",
+   "strategy, popular, real time",
    "<a href=\"https://github.com/ZeroK-RTS/Zero-K.git\">Source</a> - Lua - GPL-2.0"
   ],
   [
@@ -4077,7 +4069,7 @@
    "Tool used when compiling applications and libraries.",
    "<a href=\"https://pkg-config.freedesktop.org/releases/\">Link</a>",
    "mature / active",
-   "library, tool",
+   "tool, library",
    "<a href=\"https://anongit.freedesktop.org/git/pkg-config.git\">Source</a> - C - GPL-2.0"
   ],
   [
@@ -4101,7 +4093,7 @@
    "Python based roguelike.",
    "",
    "mature / inactive since 2016",
-   "roguelike, role playing",
+   "role playing, roguelike",
    "<a href=\"https://github.com/dsallen7/ransack-python.git\">Source</a> - Python - MIT"
   ],
   [
@@ -4125,7 +4117,7 @@
    "C++ library that lets developers create applications for..",
    "<a href=\"http://wxwidgets.org/downloads/\">Link</a>",
    "mature / active",
-   "gui toolkit, library",
+   "library, gui toolkit",
    "<a href=\"https://github.com/wxWidgets/wxWidgets.git\">Source</a> - C++, Objective-C - Custom"
   ],
   [

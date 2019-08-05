@@ -5,7 +5,7 @@ _Strategy game which features elements of mythology, history and fiction._
 - Home: http://andrettin.github.io/
 - State: mature
 - Download: https://store.steampowered.com/app/370070/Wyrmsun/
-- Keywords: real time, strategy
+- Keywords: strategy, real time
 - Code repository: https://github.com/andrettin/wyrmsun.git, https://github.com/Andrettin/Wyrmgus.git (+)
 - Code language: Lua, C++
 - Code license: GPL-2.0

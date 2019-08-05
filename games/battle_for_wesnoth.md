@@ -6,7 +6,7 @@ _The Battle for Wesnoth is an open source, turn-based strategy game with a high 
 - Media: https://en.wikipedia.org/wiki/The_Battle_for_Wesnoth
 - State: mature
 - Download: http://www.wesnoth.org/#download
-- Keywords: multiplayer, strategy, turn-based
+- Keywords: strategy, multiplayer, turn-based
 - Code repository: https://github.com/wesnoth/wesnoth.git
 - Code language: C++
 - Code license: GPL-2.0

@@ -6,11 +6,11 @@ _Karaoke game._
 - State: mature
 - Download: https://usdx.eu/downloads/
 - Platform: Windows, Linux, macOS
-- Keywords: karaoke, music
+- Keywords: music, karaoke
 - Code repository: https://github.com/UltraStar-Deluxe/USDX.git, https://github.com/UltraStar-Deluxe/legacy-sourceforge-svn-mirror.git (+), https://svn.code.sf.net/p/ultrastardx/svn/trunk (svn)
 - Code language: Pascal
 - Code license: GPL-2.0
-- Code dependencies: SDL2, Lua
+- Code dependencies: Lua, SDL2
 
 ## Building
 

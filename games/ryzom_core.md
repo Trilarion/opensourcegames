@@ -6,7 +6,7 @@ _MMORPG with open world play._
 - Media: https://en.wikipedia.org/wiki/Ryzom
 - State: mature
 - Play: http://www.ryzom.com/ (commercial)
-- Keywords: mmorpg, role playing
+- Keywords: role playing, mmorpg
 - Code repository: https://bitbucket.org/ryzom/ryzomcore (hg)
 - Code language: C++
 - Code license: AGPL-3.0

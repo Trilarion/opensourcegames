@@ -5,7 +5,7 @@ _Roguelike adventure through dungeons filled with dangerous monsters in a quest 
 - Home: http://crawl.develz.org/
 - State: mature
 - Download: http://crawl.develz.org/download.htm
-- Keywords: roguelike, role playing
+- Keywords: role playing, roguelike
 - Code repository: https://github.com/crawl/crawl.git
 - Code language: C++, Lua
 - Code license: GPL-2.0

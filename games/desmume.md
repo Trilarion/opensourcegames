@@ -6,7 +6,7 @@ _Nintendo DS emulator._
 - State: mature, inactive since 2015
 - Download: http://desmume.org/download/, https://sourceforge.net/projects/desmume/files/
 - Platform: Windows, Linux, macOS
-- Keywords: emulator, framework
+- Keywords: framework, emulator
 - Code repository: https://github.com/TASVideos/desmume.git
 - Code language: C, C++
 - Code license: GPL-2.0

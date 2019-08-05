@@ -6,7 +6,7 @@ _Multi-player block-based sandbox building and digging game._
 - Media: https://en.wikipedia.org/wiki/Zachtronics#Infiniminer
 - State: mature, inactive since 2016
 - Download: https://code.google.com/archive/p/infiniminer/source/default/source
-- Keywords: blocks, sandbox, simulation
+- Keywords: simulation, blocks, sandbox
 - Code repository: (see download)
 - Code language: C#
 - Code license: MIT

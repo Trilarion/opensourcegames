@@ -8,7 +8,7 @@ _ORPG (online role-playing-game) engine that allows everyone to create their own
 - Code repository: https://github.com/marcusmoller/pyorpg-client.git, https://github.com/marcusmoller/pyorpg-server.git (+)
 - Code language: Python
 - Code license: MIT
-- Code dependencies: pygame, pgu, Twisted
+- Code dependencies: pgu, pygame, Twisted
 
 Is this an engine or a game?
 

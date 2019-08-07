@@ -750,7 +750,7 @@
    "<a href=\"http://dfendreloaded.sourceforge.net/Download.html\">Link</a>",
    "mature / inactive since 2015",
    "tool, frontend",
-   "Pascal - GPL"
+   "<a href=\"https://github.com/Trilarion/D-Fend-Reloaded.git\">Source</a> - Pascal - GPL-3.0"
   ],
   [
    "DNT (<a href=\"http://dnt.dnteam.org/cgi-bin/about.py\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/dnt.md\">entry</a>)",
@@ -1334,7 +1334,7 @@
    "<a href=\"https://freedoom.github.io/download.html\">Link</a>",
    "beta / active",
    "action, engine required",
-   "<a href=\"https://github.com/freedoom/freedoom.git\">Source</a> - Python - BSD"
+   "<a href=\"https://github.com/freedoom/freedoom.git\">Source</a> - Not applicable - Not applicable"
   ],
   [
    "FreedroidRPG (<a href=\"http://www.freedroid.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/freedroid.md\">entry</a>)",
@@ -2414,7 +2414,7 @@
    "<a href=\"http://www.opencity.info/en/Download.html\">Link</a>",
    "beta / active",
    "simulation",
-   "<a href=\"https://svn.code.sf.net/p/opencity/code/\">Source</a> - C++ - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/opencity.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "OpenClonk (<a href=\"https://www.openclonk.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/openclonk.md\">entry</a>)",
@@ -2966,7 +2966,7 @@
    "",
    "mature / inactive since 2015",
    "strategy, board game",
-   "<a href=\"https://svn.code.sf.net/p/scrabble/code/\">Source</a> - Pascal - GPL-3.0"
+   "<a href=\"https://gitlab.com/osgames/scrabble3d.git\">Source</a> - Pascal - GPL-3.0"
   ],
   [
    "Scrolling Game Development Kit 2 (<a href=\"http://sgdk2.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/scrolling_game_development_kit_2.md\">entry</a>)",
@@ -2998,7 +2998,7 @@
    "<a href=\"https://sourceforge.net/projects/sengdokuwsj/files\">Link</a>",
    "beta / inactive since 2008",
    "strategy",
-   "C++, Lua - MIT"
+   "<a href=\"https://gitlab.com/osgames/sengoku.git\">Source</a> - C++, Lua - MIT"
   ],
   [
    "Sentient Storage (<a href=\"https://pyweek.org/e/np8g/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/sentient_storage.md\">entry</a>)",
@@ -3534,7 +3534,7 @@
    "<a href=\"https://sourceforge.net/projects/tumiki/files/tumiki/\">Link</a>",
    "mature / inactive since 2005",
    "action, shooter",
-   "D - 2-clause BSD"
+   "<a href=\"https://gitlab.com/osgames/tumiki.git\">Source</a> - D, C++ - 2-clause BSD"
   ],
   [
    "Turious (<a href=\"https://gitorious.org/turious/turious/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/turious.md\">entry</a>)",
@@ -3878,7 +3878,7 @@
    "<a href=\"https://sourceforge.net/projects/xpilotgame/files/\">Link</a>",
    "mature / inactive since 2010",
    "action, space",
-   "<a href=\"http://hg.code.sf.net/p/xpilotgame/xpilotgame\">Source</a> - C - GPL-2.0"
+   "<a href=\"http://hg.code.sf.net/p/xpilotgame/www.xpilot.org\">Source</a> - C - GPL-2.0"
   ],
   [
    "XSera (<a href=\"https://github.com/prophile/xsera\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/xsera.md\">entry</a>)",

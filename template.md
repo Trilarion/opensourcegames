@@ -11,7 +11,7 @@ _{Description}_
 - Keywords: {XX} (optional)
 - Code repository: {URL}
 - Code language: {XX}
-- Code license: {XX} (optional)
+- Code license: {XX}
 - Code dependencies: {XX} (optional)
 - Assets license: {XX} (optional)
 

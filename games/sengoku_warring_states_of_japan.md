@@ -6,11 +6,10 @@ _Something in-between of a turn-based/real-time strategy game set in Japan durin
 - State: beta, inactive since 2008
 - Download: https://sourceforge.net/projects/sengdokuwsj/files
 - Keywords: strategy
-- Code repository: (see download)
+- Code repository: https://gitlab.com/osgames/sengoku.git (import of source releases)
 - Code language: C++, Lua
 - Code license: MIT
-
-Requires: SDL
+- Code dependencies: SDL
 
 More like alpha.
 

@@ -1,6 +1,6 @@
 """
-    Checks a list of game names (comma separated in text file) if they are already included in the database.
-    Is fuzzy, i.e. accepts a certain similarity of names.
+Checks a list of game names (comma separated in text file) if they are already included in the database.
+Is fuzzy, i.e. accepts a certain similarity of names.
 """
 
 import json

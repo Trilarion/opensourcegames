@@ -9,9 +9,10 @@ _Open content for the Doom engine._
 - Platform: Windows, Linux, macOS (all that are supported by the Doom engine)
 - Keywords: action, engine required
 - Code repository: https://github.com/freedoom/freedoom.git
-- Code language: Python
-- Code license: BSD
+- Code language: Not applicable (only content)
+- Code license: Not applicable (only content)
 - Code dependencies: Doom engine, pillow
+- Assets license: 3-clause BSD
 
 ## Building
 

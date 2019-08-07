@@ -6,7 +6,6 @@ import json
 import datetime
 from utils.utils import *
 
-
 if __name__ == '__main__':
 
     # https://sourceforge.net/projects/phaosrpg/files/OldFiles/Pv0.7devel.zip/download is a corrupt zip

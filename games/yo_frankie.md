@@ -13,4 +13,6 @@ _Platform game._
 - Code license: ?
 - Code dependencies: Blender game engine
 
+[Download overview page](https://download.blender.org/apricot/)
+
 ## Building

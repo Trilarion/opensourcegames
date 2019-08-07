@@ -1,5 +1,5 @@
 """
-    Helps me with importing source revisions into Git
+Helps me with importing source revisions into Git
 """
 
 import shutil

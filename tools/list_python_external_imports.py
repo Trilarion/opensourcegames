@@ -1,5 +1,5 @@
 """
-Where no requirements.txt or setup.py or other information is given, get an idea of the external dependencies
+Where no requirements.txt or setup.py or other information is given for a Python project, get an idea of the external dependencies
 by parsing the Python files and looking for import statements.
 """
 

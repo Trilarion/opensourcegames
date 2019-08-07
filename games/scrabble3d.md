@@ -7,7 +7,7 @@ _Board game with the goal to place letters on the board like in crosswords._
 - Download: (see home)
 - Platform: Windows, Linux, macOS
 - Keywords: strategy, board game
-- Code repository: https://svn.code.sf.net/p/scrabble/code/ (svn)
+- Code repository: https://gitlab.com/osgames/scrabble3d.git, https://svn.code.sf.net/p/scrabble/code/ (svn)
 - Code language: Pascal
 - Code license: GPL-3.0
 

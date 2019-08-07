@@ -2,7 +2,7 @@
 # Tool
 
 - **[AutoREALM](autorealm.md)** (C++, GPL-3.0, mature)
-- **[D-Fend Reloaded](dfend_reloaded.md)** (Pascal, GPL, mature, inactive since 2015)
+- **[D-Fend Reloaded](dfend_reloaded.md)** (Pascal, GPL-3.0, mature, inactive since 2015)
 - **[Deity](deity.md)** (Python, GPL-2.0, mature, inactive since 2014)
 - **[Doxygen](doxygen.md)** (C++, GPL-2.0, mature)
 - **[Dungeon Mapper](dungeon_mapper.md)** (C++, GPL-3.0, beta, inactive since 2013)

@@ -11,6 +11,6 @@ _Super Mario Bros. 1 clone._
 - Code language: C++
 - Code license: LGPL-2.1
 - Code dependencies: SDL
-- Assets license: (maybe illegal use of Super Mario?)
+- Assets license: (illegal use of Super Mario artwork and music??)
 
 ## Building

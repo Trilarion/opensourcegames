@@ -782,7 +782,7 @@
    "<a href=\"http://dangerdeep.sourceforge.net/downloads/\">Link</a>",
    "beta / inactive since 2011",
    "simulation",
-   "<a href=\"https://git.code.sf.net/p/dangerdeep/git\">Source</a> - C++ - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/dangerdeep.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Dark Destiny (<a href=\"http://www.darkdestiny.at/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/dark_destiny.md\">entry</a>)",
@@ -1396,7 +1396,7 @@
    "GLtron (<a href=\"http://www.gltron.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/gltron.md\">entry</a>)",
    "3D snake game based on the light cycle portion of the film..",
    "<a href=\"http://www.gltron.org/download.php\">Link</a>",
-   "beta / inactive since 2016",
+   "beta / inactive since 2017",
    "action, snake-like",
    "<a href=\"https://git.code.sf.net/p/gltron/git\">Source</a> - C - GPL"
   ],
@@ -1694,7 +1694,7 @@
    "<a href=\"https://code.google.com/archive/p/infiniminer/source/default/source\">Link</a>",
    "mature / inactive since 2016",
    "simulation, blocks, sandbox",
-   "C# - MIT"
+   "<a href=\"https://github.com/craftworkgames/infiniminer.git\">Source</a> - C# - MIT"
   ],
   [
    "Irrlicht Engine (<a href=\"http://irrlicht.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/irrlicht.md\">entry</a>)",
@@ -2294,7 +2294,7 @@
    "<a href=\"https://sourceforge.net/projects/oge/files/\">Link</a>",
    "beta / inactive since 2008",
    "game engine, framework, game editor",
-   "<a href=\"https://git.code.sf.net/p/oge/git\">Source</a> - C++ - LGPL-2.1"
+   "<a href=\"https://gitlab.com/osgames/oge.git\">Source</a> - C++ - LGPL-2.1"
   ],
   [
    "Open Imperium Galactica (<a href=\"https://github.com/akarnokd/open-ig\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/open_imperium_galactica.md\">entry</a>)",
@@ -2950,7 +2950,7 @@
    "<a href=\"http://www.scorched3d.co.uk/#download\">Link</a>",
    "mature / inactive since 2014",
    "action, 3D, artillery",
-   "<a href=\"https://git.code.sf.net/p/scorched3d/git\">Source</a> - C++ - GPL-2.0"
+   "<a href=\"https://github.com/Trilarion/scorched3d.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Scorched Moon (<a href=\"https://github.com/Scorched-Moon\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/scorched_moon.md\">entry</a>)",
@@ -3510,7 +3510,7 @@
    "<a href=\"https://invido.it/download/tressette_download.html\">Link</a>",
    "mature / inactive since 2017",
    "card game",
-   "? - ?"
+   "<a href=\"https://gitlab.com/osgames/tressette.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Trinity Reign (<a href=\"https://web.archive.org/web/20131209073248/http://trinity-reign.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/trinity_reign.md\">entry</a>)",
@@ -3878,7 +3878,7 @@
    "<a href=\"https://sourceforge.net/projects/xpilotgame/files/\">Link</a>",
    "mature / inactive since 2010",
    "action, space",
-   "<a href=\"http://hg.code.sf.net/p/xpilotgame/www.xpilot.org\">Source</a> - C - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/xpilot.git\">Source</a> - C - GPL-2.0"
   ],
   [
    "XSera (<a href=\"https://github.com/prophile/xsera\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/xsera.md\">entry</a>)",

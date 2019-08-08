@@ -7,8 +7,10 @@ _Italian card game._
 - Download: https://invido.it/download/tressette_download.html (Italian), https://sourceforge.net/projects/tressette/files/
 - Platform: Windows
 - Keywords: card game
-- Code repository: (not found!)
-- Code language: ?
-- Code license: ? (source not found)
+- Code repository: https://gitlab.com/osgames/tressette.git (conversion of svn), https://svn.code.sf.net/p/tressette/code/ (svn)
+- Code language: C++
+- Code license: GPL-2.0
 
 ## Building
+
+- Build system: Autoconf

@@ -7,10 +7,9 @@ _Multi-player block-based sandbox building and digging game._
 - State: mature, inactive since 2016
 - Download: https://code.google.com/archive/p/infiniminer/source/default/source
 - Keywords: simulation, blocks, sandbox
-- Code repository: (see download)
+- Code repository: https://github.com/craftworkgames/infiniminer.git
 - Code language: C#
 - Code license: MIT
-
 
 ## Building
 

@@ -24,7 +24,7 @@
 - **[Epiar](epiar.md)** (C, C++, Lua, GPL-2.0, beta)
 - **[Freedoom](freedoom.md)** (Not applicable, Not applicable, beta)
 - **[GDash](gdash.md)** (C++, MIT, beta)
-- **[GLtron](gltron.md)** (C, GPL, beta, inactive since 2016)
+- **[GLtron](gltron.md)** (C, GPL, beta, inactive since 2017)
 - **[GPL Arcade Volleyball](gpl_arcade_volleyball.md)** (C++, GPL-2.0, beta, inactive since 2006)
 - **[GUSANOS](gusanos.md)** (?, ?, beta, inactive since 2006)
 - **[Gang Garrison 2](gang_garrison2.md)** (Game Maker Script, MPL, mature)

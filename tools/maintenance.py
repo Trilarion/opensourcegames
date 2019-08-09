@@ -822,8 +822,8 @@ def export_primary_code_repositories_json():
     unconsumed_entries = []
 
     # for every entry filter those that are known git repositories (add additional repositories)
+    field = 'code repository-raw'
     for info in infos:
-        field = 'code repository-raw'
         # if field 'Code repository' is available
         if field in info:
             consumed = False
@@ -878,6 +878,34 @@ def export_primary_code_repositories_json():
     write_text(json_path, text)
 
 
+def export_git_code_repositories_json():
+    """
+
+    """
+
+    urls = []
+    field = 'code repository'
+
+    # for every entry, get all git
+    for info in infos:
+        # if field 'Code repository' is available
+        if field in info:
+            repos = info[field]
+            if repos:
+                # take the first
+                repo = repos[0]
+                url = git_repo(repo)
+                if url:
+                    urls.append(url)
+
+    # sort them alphabetically (and remove duplicates)
+    urls.sort()
+
+    # write them to tools/git
+    json_path = os.path.join(root_path, 'tools', 'git_repositories.json')
+    text = json.dumps(urls, indent=1)
+    write_text(json_path, text)
+
 if __name__ == "__main__":
 
     # paths
@@ -904,6 +932,9 @@ if __name__ == "__main__":
 
     # collect list of primary code repositories
     export_primary_code_repositories_json()
+
+    # collect list of git code repositories (only one per project) for git_statistics script
+    # export_git_code_repositories_json()
 
     # check external links (only rarely)
     # check_validity_external_links()

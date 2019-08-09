@@ -9,6 +9,8 @@ import tarfile
 import time
 import urllib.request
 import zipfile
+import errno
+import stat
 
 
 def read_text(file):
@@ -194,6 +196,14 @@ def download_url(url, destination):
             shutil.copyfileobj(response, f)
 
 
+def handleRemoveReadonly(func, path, exc):
+    """
+    Necessary on Windows. See https://stackoverflow.com/questions/1889597/deleting-directory-in-python
+    """
+    os.chmod(path, stat.S_IWRITE)
+    func(path)
+
+
 def git_clear_path(git_path):
     """
     Clears all in a path except the '.git' directory
@@ -204,6 +214,56 @@ def git_clear_path(git_path):
             continue
         item = os.path.join(git_path, item)
         if os.path.isdir(item):
-            shutil.rmtree(item)
+            shutil.rmtree(item, onerror=handleRemoveReadonly)
         else:
             os.remove(item)
+
+
+def recreate_directory(path):
+    """
+    Recreates a directory (deletes before if existing)
+    """
+    if os.path.isdir(path):
+        shutil.rmtree(path, onerror=handleRemoveReadonly)
+    for attempts in range(10):
+        try:
+            os.mkdir(path)
+        except PermissionError:
+            time.sleep(0.1)
+            continue
+        else:
+            break
+    else:
+        raise RuntimeError()
+
+
+def unzip(zip_file, destination_directory):
+    """
+    Unzips and keeps the original modified date.
+
+    :param zip_file:
+    :param destination_directory:
+    :return:
+    """
+    dirs = {}
+
+    with zipfile.ZipFile(zip_file, 'r') as zip:
+        for info in zip.infolist():
+            name, date_time = info.filename, info.date_time
+            name = os.path.join(destination_directory, name)
+            zip.extract(info, destination_directory)
+
+            # still need to adjust the dt o/w item will have the current dt
+            date_time = time.mktime(info.date_time + (0, 0, -1))
+
+            if os.path.isdir(name):
+                # changes to dir dt will have no effect right now since files are
+                # being created inside of it; hold the dt and apply it later
+                dirs[name] = date_time
+            else:
+                os.utime(name, (date_time, date_time))
+
+    # done creating files, now update dir dt
+    for name in dirs:
+        date_time = dirs[name]
+        os.utime(name, (date_time, date_time))

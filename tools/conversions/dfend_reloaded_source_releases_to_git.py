@@ -3,13 +3,9 @@ Converts the source releases of D-Fend Reloaded to a Git.
 """
 
 import sys
-import os
-import shutil
-import zipfile
 import datetime
-import subprocess
 import re
-import time
+from utils.utils import *
 
 
 def subprocess_run(cmd):
@@ -23,32 +19,6 @@ def subprocess_run(cmd):
         sys.exit(-1)
     else:
         print('  output: {}'.format(result.stdout.decode('ascii')))
-
-
-def unzip(zip_file, destination_directory):
-    dirs = {}
-
-    with zipfile.ZipFile(zip_file, 'r') as zip:
-        for info in zip.infolist():
-            name, date_time = info.filename, info.date_time
-            name = os.path.join(destination_directory, name)
-            zip.extract(info, destination_directory)
-
-            # still need to adjust the dt o/w item will have the current dt
-            date_time = time.mktime(info.date_time + (0, 0, -1))
-
-            if os.path.isdir(name):
-                # changes to dir dt will have no effect right now since files are
-                # being created inside of it; hold the dt and apply it later
-                dirs[name] = date_time
-            else:
-                os.utime(name, (date_time, date_time))
-
-    # done creating files, now update dir dt
-    for name in dirs:
-       date_time = dirs[name]
-       os.utime(name, (date_time, date_time))
-
 
 def single_release(zip):
     """
@@ -105,23 +75,6 @@ def single_release(zip):
     print('  message "{}"'.format(message))
     subprocess_run(['git', 'commit', '--message={}'.format(message), '--author={}'.format(author), '--date={}'.format(original_date)])
 
-
-def recreate_directory(path):
-    """
-
-    """
-    if os.path.isdir(path):
-        shutil.rmtree(path)
-    for attempts in range(10):
-        try:
-            os.mkdir(path)
-        except PermissionError:
-            time.sleep(0.1)
-            continue
-        else:
-            break
-    else:
-        raise RuntimeError()
 
 if __name__ == "__main__":
 

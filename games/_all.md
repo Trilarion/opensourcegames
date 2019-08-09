@@ -147,7 +147,7 @@
 - **[Fallen Spire](fallen_spire.md)** (Python, GPL-3.0, beta, inactive since 2009)
 - **[Fanwor](fanwor.md)** (C, GPL-2.0, mature)
 - **[First Strike](first_strike.md)** (Java, MIT, mature)
-- **[Fish Fillets - Next Generation](fish_fillets_ng.md)** (C++, GPL-2.0, mature, inactive since 2011)
+- **[Fish Fillets - Next Generation](fish_fillets_ng.md)** (C++, GPL-2.0, mature, inactive since 2014)
 - **[Flare Engine](flare_engine.md)** (C++, GPL-3.0, mature)
 - **[FlightGear](flightgear.md)** (C++, GPL-2.0, mature)
 - **[Flixel](flixel.md)** (ActionScript, MIT, mature)

@@ -9,7 +9,7 @@
 - **[BlockOut II](blockout_ii.md)** (C++, GPL-2.0, mature, inactive since 2014)
 - **[Brain Workshop](brain_workshop.md)** (Python, GPL, mature, inactive since 2011)
 - **[Enigma](enigma.md)** (C, C++, GPL-2.0, mature)
-- **[Fish Fillets - Next Generation](fish_fillets_ng.md)** (C++, GPL-2.0, mature, inactive since 2011)
+- **[Fish Fillets - Next Generation](fish_fillets_ng.md)** (C++, GPL-2.0, mature, inactive since 2014)
 - **[Frozen Bubble](frozen_bubble.md)** (Perl, GPL-2.0, mature, inactive since 2012)
 - **[Grabble](grabble.md)** (Java, ?, mature, inactive since 2006)
 - **[HoDoKu](hodoku.md)** (Java, GPL-3.0, mature, inactive since 2013)

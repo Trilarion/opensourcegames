@@ -1180,7 +1180,7 @@
    "Fish Fillets - Next Generation (<a href=\"http://fillets.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/fish_fillets_ng.md\">entry</a>)",
    "Port of the wonderful puzzle game Fish Fillets from ALTAR..",
    "<a href=\"http://fillets.sourceforge.net/download.php\">Link</a>",
-   "mature / inactive since 2011",
+   "mature / inactive since 2014",
    "puzzle, port",
    "<a href=\"https://git.code.sf.net/p/fillets/code-fillets-ng\">Source</a> - C++ - GPL-2.0"
   ],
@@ -1398,7 +1398,7 @@
    "<a href=\"http://www.gltron.org/download.php\">Link</a>",
    "beta / inactive since 2017",
    "action, snake-like",
-   "<a href=\"https://git.code.sf.net/p/gltron/git\">Source</a> - C - GPL"
+   "<a href=\"https://github.com/Trilarion/gltron.git\">Source</a> - C - GPL"
   ],
   [
    "GM Tools (<a href=\"https://sourceforge.net/projects/gm-tools/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/gm_tools.md\">entry</a>)",

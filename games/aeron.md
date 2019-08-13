@@ -9,7 +9,7 @@ _Air combat maneuvering trainer game._
 - Keywords: action
 - Code repository: https://svn.code.sf.net/p/aeron/code/ (svn)
 - Code language: C++
-- Code license: ?
+- Code license: GPL-3.0 (see file AeronEngineMain.cpp)
 
 ## Building
 

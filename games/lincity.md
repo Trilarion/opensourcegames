@@ -11,7 +11,7 @@ _Lincity is a city simulation game,_
 - Code language: C
 - Code license: GPL-2.0
 
-See also https://github.com/javiercantero/lincity, https://github.com/ldicker83/lincity, https://github.com/usrshare/lincity
+See also https://github.com/javiercantero/lincity, https://github.com/usrshare/lincity
 
 ## Building
 

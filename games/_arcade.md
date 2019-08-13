@@ -6,7 +6,7 @@
 - **[Bombermaaan](bombermaaan.md)** (C++, GPL-3.0, mature, inactive since 2010)
 - **[GPL Arcade Volleyball](gpl_arcade_volleyball.md)** (C++, GPL-2.0, beta, inactive since 2006)
 - **[Maelstrom](maelstrom.md)** (C++, GPL-2.0, mature, inactive since 2002)
-- **[OpenLieroX](openlierox.md)** (C++, LGPL, mature)
+- **[OpenLieroX](openlierox.md)** (C++, LGPL-2.0, mature)
 - **[PainTown](paintown.md)** (C++, Java, Python, 3-clause BSD, mature)
 - **[Pang Zero](pang_zero.md)** (Perl, GPL-2.0, beta, inactive since 2007)
 - **[SDL Asylum](sdl_asylum.md)** (C, GPL-3.0, mature, inactive since 2009)

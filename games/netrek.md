@@ -10,8 +10,8 @@ _Multi-player battle simulation with a Star Trek theme._
 - Platform: Windows, Linux, macOS
 - Keywords: action, multiplayer, online
 - Code repository: http://netrek.cvs.sourceforge.net (cvs)
-- Code language: ?
-- Code license: ?
+- Code language: C
+- Code license: Custom (permissive)
 
 See also [JTrek](http://ftp.netrek.org/pub/netrek/clients/jtrek/)
 

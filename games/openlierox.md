@@ -9,7 +9,7 @@ _Realtime worms shoot-em-up._
 - Keywords: action, arcade, wormslike
 - Code repository: https://git.code.sf.net/p/openlierox/code
 - Code language: C++
-- Code license: LGPL
+- Code license: LGPL-2.0
 
 ## Building
 

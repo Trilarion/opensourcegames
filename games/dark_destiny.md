@@ -12,5 +12,7 @@ _Turn-based online space strategy game playable in internet browsers._
 
 See also https://sourceforge.net/projects/darkdestinytools/
 
+Private communication with the authors in September 2018 brought the following license information: "artwork and the code can be freely used for modifcation and sharing".
+
 ## Building
 

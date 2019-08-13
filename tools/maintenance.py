@@ -114,7 +114,7 @@ def create_toc(title, file, entries):
         rows.append('- **[{}]({})** ({})'.format(entry['title'], entry['file'], ', '.join(entry['code language'] + entry['code license'] + entry['state'])))
 
     # sort rows (by title)
-    rows.sort()
+    rows.sort(key=str.casefold)
 
     # add to text
     text += '\n'.join(rows)
@@ -508,7 +508,7 @@ def update_statistics(infos):
 
     if number_inactive > 0:
         entries_inactive = [(x['title'], x['inactive']) for x in infos if 'inactive' in x]
-        entries_inactive.sort(key=lambda x: x[0])  # first sort by name
+        entries_inactive.sort(key=lambda x: str.casefold(x[0]))  # first sort by name
         entries_inactive.sort(key=lambda x: x[1], reverse=True) # then sort by inactive year (more recently first)
         entries_inactive = ['{} ({})'.format(*x) for x in entries_inactive]
         statistics += '##### Inactive State\n\n' + ', '.join(entries_inactive) + '\n\n'
@@ -534,7 +534,7 @@ def update_statistics(infos):
 
     unique_languages = set(languages)
     unique_languages = [(l, languages.count(l) / len(languages)) for l in unique_languages]
-    unique_languages.sort(key=lambda x: x[0]) # first sort by name
+    unique_languages.sort(key=lambda x: str.casefold(x[0])) # first sort by name
     unique_languages.sort(key=lambda x: x[1], reverse=True) # then sort by occurrence (highest occurrence first)
     unique_languages = ['- {} ({:.1f}%)\n'.format(x[0], x[1]*100) for x in unique_languages]
     statistics += '##### Language frequency\n\n' + ''.join(unique_languages) + '\n'
@@ -559,7 +559,7 @@ def update_statistics(infos):
 
     unique_licenses = set(licenses)
     unique_licenses = [(l, licenses.count(l) / len(licenses)) for l in unique_licenses]
-    unique_licenses.sort(key=lambda x: x[0]) # first sort by name
+    unique_licenses.sort(key=lambda x: str.casefold(x[0])) # first sort by name
     unique_licenses.sort(key=lambda x: -x[1]) # then sort by occurrence (highest occurrence first)
     unique_licenses = ['- {} ({:.1f}%)\n'.format(x[0], x[1]*100) for x in unique_licenses]
     statistics += '##### Licenses frequency\n\n' + ''.join(unique_licenses) + '\n'
@@ -576,7 +576,7 @@ def update_statistics(infos):
 
     unique_keywords = set(keywords)
     unique_keywords = [(l, keywords.count(l) / len(keywords)) for l in unique_keywords]
-    unique_keywords.sort(key=lambda x: x[0]) # first sort by name
+    unique_keywords.sort(key=lambda x: str.casefold(x[0])) # first sort by name
     unique_keywords.sort(key=lambda x: -x[1]) # then sort by occurrence (highest occurrence first)
     unique_keywords = ['- {} ({:.1f}%)'.format(x[0], x[1]*100) for x in unique_keywords]
     statistics += '##### Keywords frequency\n\n' + '\n'.join(unique_keywords) + '\n\n'
@@ -588,7 +588,7 @@ def update_statistics(infos):
     for info in infos:
         if 'download' not in info and 'play' not in info:
             entries.append(info['title'])
-    entries.sort()
+    entries.sort(key=str.casefold)
     statistics +=  '{}: '.format(len(entries)) + ', '.join(entries) + '\n\n'
 
     # code hosted not on github, gitlab, bitbucket, launchpad, sourceforge
@@ -609,7 +609,7 @@ def update_statistics(infos):
             if not popular:
                 entries.append(info['title'])
                 # print(info[field])
-    entries.sort()
+    entries.sort(key=str.casefold)
     statistics += '{}: '.format(len(entries)) + ', '.join(entries) + '\n\n'
 
     # Code dependencies
@@ -627,7 +627,7 @@ def update_statistics(infos):
 
     unique_code_dependencies = set(code_dependencies)
     unique_code_dependencies = [(l, code_dependencies.count(l) / len(code_dependencies)) for l in unique_code_dependencies]
-    unique_code_dependencies.sort(key=lambda x: x[0]) # first sort by name
+    unique_code_dependencies.sort(key=lambda x: str.casefold(x[0])) # first sort by name
     unique_code_dependencies.sort(key=lambda x: -x[1]) # then sort by occurrence (highest occurrence first)
     unique_code_dependencies = ['- {} ({:.1f}%)'.format(x[0], x[1]*100) for x in unique_code_dependencies]
     statistics += '##### Code dependencies frequency\n\n' + '\n'.join(unique_code_dependencies) + '\n\n'
@@ -646,7 +646,7 @@ def update_statistics(infos):
 
     unique_build_systems = set(build_systems)
     unique_build_systems = [(l, build_systems.count(l) / len(build_systems)) for l in unique_build_systems]
-    unique_build_systems.sort(key=lambda x: x[0]) # first sort by name
+    unique_build_systems.sort(key=lambda x: str.casefold(x[0])) # first sort by name
     unique_build_systems.sort(key=lambda x: -x[1]) # then sort by occurrence (highest occurrence first)
     unique_build_systems = ['- {} ({:.1f}%)'.format(x[0], x[1]*100) for x in unique_build_systems]
     statistics += '##### Build systems frequency ({})\n\n'.format(len(build_systems)) + '\n'.join(unique_build_systems) + '\n\n'
@@ -656,7 +656,7 @@ def update_statistics(infos):
     for info in infos:
         if field not in info and ('C' in info['code language'] or 'C++' in info['code language']):
             c_cpp_project_without_build_system.append(info['title'])
-    c_cpp_project_without_build_system.sort()
+    c_cpp_project_without_build_system.sort(key=str.casefold)
     statistics += '##### C and C++ projects without build system information ({})\n\n'.format(len(c_cpp_project_without_build_system)) + ', '.join(c_cpp_project_without_build_system) + '\n\n'
 
     # C, C++ projects with build system information but without CMake as build system
@@ -664,7 +664,7 @@ def update_statistics(infos):
     for info in infos:
         if field in info and 'CMake' in info[field] and ('C' in info['code language'] or 'C++' in info['code language']):
             c_cpp_project_not_cmake.append(info['title'])
-    c_cpp_project_not_cmake.sort()
+    c_cpp_project_not_cmake.sort(key=str.casefold)
     statistics += '##### C and C++ projects with a build system different from CMake ({})\n\n'.format(len(c_cpp_project_not_cmake)) + ', '.join(c_cpp_project_not_cmake) + '\n\n'
 
     # Platform
@@ -681,7 +681,7 @@ def update_statistics(infos):
 
     unique_platforms = set(platforms)
     unique_platforms = [(l, platforms.count(l) / len(platforms)) for l in unique_platforms]
-    unique_platforms.sort(key=lambda x: x[0]) # first sort by name
+    unique_platforms.sort(key=lambda x: str.casefold(x[0])) # first sort by name
     unique_platforms.sort(key=lambda x: -x[1]) # then sort by occurrence (highest occurrence first)
     unique_platforms = ['- {} ({:.1f}%)'.format(x[0], x[1]*100) for x in unique_platforms]
     statistics += '##### Platforms frequency\n\n' + '\n'.join(unique_platforms) + '\n\n'
@@ -743,7 +743,7 @@ def export_json(infos):
         entries.append(entry)
 
     # sort entries by game name
-    entries.sort(key=lambda x: x[0])
+    entries.sort(key=lambda x: str.casefold(x[0]))
 
     db['data'] = entries
 

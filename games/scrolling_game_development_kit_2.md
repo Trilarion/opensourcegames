@@ -9,6 +9,6 @@ _Program for creating 2D scrolling games._
 - Keywords: framework, side-scrolling
 - Code repository: https://git.code.sf.net/p/sgdk2/git, https://svn.code.sf.net/p/sgdk2/code/trunk (svn)
 - Code language: C#
-- Code license: ?
+- Code license: GPL-2.0
 
 ## Building

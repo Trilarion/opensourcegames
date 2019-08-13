@@ -9,7 +9,7 @@
 - **[Dragon History - Dračí Historie](dragon_history.md)** (Pascal, Script, GPL-2.0, mature, inactive since 2010)
 - **[Fanwor](fanwor.md)** (C, GPL-2.0, mature)
 - **[Free in the Dark (engine)](fitd.md)** (C, C++, GPL-2.0, beta)
-- **[GameLV](gamelv.md)** (C++, GPL, beta)
+- **[GameLV](gamelv.md)** (C++, GPL-2.0, beta)
 - **[Murder In The Public Domain](murder_in_the_public_domain.md)** (C++, GPL-3.0, mature, inactive since 2013)
 - **[Sentient Storage](sentient_storage.md)** (Python, Public Domain, mature)
 - **[Sintel The Game](sintel_the_game.md)** (Python, MIT, beta, inactive since 2014)

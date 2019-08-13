@@ -8,4 +8,4 @@
 - **[OpenSoccer](open_soccer.md)** (PHP, GPL-3.0, beta)
 - **[OpenWebSoccer-Sim](open_web_soccer.md)** (PHP, LGPL-3.0, mature)
 - **[Tux Football](tux_football.md)** (C++, GPL-2.0, beta, inactive since 2012)
-- **[YSoccer](ysoccer.md)** (Java, ?, mature, inactive since 2017)
+- **[YSoccer](ysoccer.md)** (Java, ?, mature)

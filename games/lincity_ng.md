@@ -8,7 +8,7 @@ _City simulation game._
 - Keywords: simulation
 - Code repository: https://github.com/lincity-ng/lincity-ng.git
 - Code language: C++
-- Code license: GPL
+- Code license: GPL-2.0
 
 See also https://github.com/BackupTheBerlios/lincity-ng-svn, https://github.com/Isaac96/lincity-ng
 

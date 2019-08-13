@@ -8,7 +8,7 @@ _Puzzle game._
 - Download: http://www.tuzsuzov.com/biniax/download2.html
 - Platform: Windows, Linux, macOS, Android
 - Keywords: action, puzzle
-- Code repository: (see download)
+- Code repository: https://gitlab.com/osgames/biniax.git (import of source releases)
 - Code language: C
 - Code license: zlib
 

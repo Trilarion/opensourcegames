@@ -1,4 +1,4 @@
-# StarBlastrix 
+# StarBlastrix
 
 _Side scrolling shoot'em up game._
 

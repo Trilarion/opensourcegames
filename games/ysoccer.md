@@ -9,7 +9,7 @@ _Soccer game; continuation to Sensible World of Soccer._
 - Keywords: sports, simulation, soccer
 - Code repository: https://git.code.sf.net/p/ysoccer/code
 - Code language: Java
-- Code license: ?
+- Code license: GPL-2.0 (see java/android/assets/docs/readme.htm)
 
 Successor of [Yoda Soccer](https://sourceforge.net/projects/yodasoccer/).
 

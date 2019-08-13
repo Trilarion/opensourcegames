@@ -1,4 +1,4 @@
-# Astromenace
+# AstroMenace
 
 _3D space scroll-shooter with spaceship upgrade possibilities._
 

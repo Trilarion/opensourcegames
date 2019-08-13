@@ -1,4 +1,4 @@
-# Scorched 3D
+# Scorched3D
 
 _Lively, fully destructible 3D landscapes in a turn-based artillery game._
 

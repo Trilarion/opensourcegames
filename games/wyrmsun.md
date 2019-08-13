@@ -10,9 +10,10 @@ _Strategy game which features elements of mythology, history and fiction._
 - Code language: Lua, C++
 - Code license: GPL-2.0
 - Code dependencies: Modified Stratagus-Engine
-- Assets license: GPL-2.0 (many from Battle for Wesnoth)
+- Assets license: CC0, GPL-2.0 (some music and sound from Battle for Wesnoth)
 
 ## Building
 
-Engine uses CMake
+- Build system: CMake
+- Build instructions: https://github.com/Andrettin/Wyrmgus/blob/master/doc/building_on_ubuntu_16.txt, https://github.com/Andrettin/Wyrmgus/blob/master/doc/building_wyrmsun_on_debian_8.txt
 

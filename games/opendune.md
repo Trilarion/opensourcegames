@@ -1,4 +1,4 @@
-# Open Dune
+# OpenDUNE
 
 _Re-creation of the popular game "Dune II"._
 

@@ -8,7 +8,7 @@ _Turnbased Artillery game from 1987._
 - Keywords: action, artillery
 - Code repository: https://gitlab.com/osgames/ballerburg.git (import of source downloads)
 - Code language: C
-- Code license: Public Domain
+- Code license: Public domain
 
 See also [Ballerburg SDL](http://baller.tuxfamily.org/)
 

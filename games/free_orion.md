@@ -1,4 +1,4 @@
-# Free Orion
+# FreeOrion
 
 _Turn-based space empire and galactic conquest (4X) computer game._
 

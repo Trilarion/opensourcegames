@@ -1,4 +1,4 @@
-# Secret Mario Chronicles
+# Secret Maryo Chronicles
 
 _Jump and Run game like Super Mario World with an advanced Editor._
 

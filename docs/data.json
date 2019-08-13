@@ -270,7 +270,7 @@
    "",
    "mature / inactive since 1987",
    "action, artillery",
-   "<a href=\"https://gitlab.com/osgames/ballerburg.git\">Source</a> - C - Public Domain"
+   "<a href=\"https://gitlab.com/osgames/ballerburg.git\">Source</a> - C - Public domain"
   ],
   [
    "Battle for Wesnoth (<a href=\"http://www.wesnoth.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/battle_for_wesnoth.md\">entry</a>)",
@@ -372,7 +372,7 @@
    "Blobwars: Metal Blob Solid (<a href=\"https://sourceforge.net/projects/blobwars/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/blobwars_metal_solid_blob.md\">entry</a>)",
    "2D arcade platform game.",
    "<a href=\"https://sourceforge.net/projects/blobwars/files/\">Link</a>",
-   "mature / inactive since 2015",
+   "mature / active",
    "action",
    "<a href=\"https://git.code.sf.net/p/blobwars/code\">Source</a> - C++ - GPL-2.0"
   ],
@@ -486,7 +486,7 @@
    "<a href=\"http://www.c-evo.org/files/files.php\">Link</a>",
    "mature / inactive since 2013",
    "strategy, turn-based",
-   "<a href=\"https://github.com/vn971/cevo.git\">Source</a> - Pascal - Public Domain"
+   "<a href=\"https://github.com/vn971/cevo.git\">Source</a> - Pascal - Public domain"
   ],
   [
    "Cabbages and Kings (<a href=\"https://github.com/Mekire/cabbages-and-kings\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/cabbages_and_kings.md\">entry</a>)",
@@ -1188,7 +1188,7 @@
    "Fish Fillets - Next Generation (<a href=\"http://fillets.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/fish_fillets_ng.md\">entry</a>)",
    "Port of the wonderful puzzle game Fish Fillets from ALTAR..",
    "<a href=\"http://fillets.sourceforge.net/download.php\">Link</a>",
-   "mature / inactive since 2014",
+   "mature / active",
    "puzzle, port",
    "<a href=\"https://git.code.sf.net/p/fillets/code-fillets-ng\">Source</a> - C++ - GPL-2.0"
   ],
@@ -2245,8 +2245,8 @@
    "Major League Baseball Simulation.",
    "<a href=\"https://sourceforge.net/projects/nsbb/files/\">Link</a>",
    "mature / active",
-   "sports, simulation",
-   "<a href=\"http://nsbb.cvs.sourceforge.net\">Source</a> - C - ?"
+   "sports, non-free-content, simulation",
+   "<a href=\"http://nsbb.cvs.sourceforge.net\">Source</a> - C - Public domain"
   ],
   [
    "Neverball (<a href=\"https://neverball.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/neverball.md\">entry</a>)",
@@ -3110,7 +3110,7 @@
    "",
    "mature / active",
    "adventure",
-   "<a href=\"https://github.com/blakeohare/pyweek-sentientstorage.git\">Source</a> - Python - Public Domain"
+   "<a href=\"https://github.com/blakeohare/pyweek-sentientstorage.git\">Source</a> - Python - Public domain"
   ],
   [
    "Settlers III remake (<a href=\"https://github.com/jsettlers/settlers-remake\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/settlers_iii_remake.md\">entry</a>)",
@@ -3505,12 +3505,12 @@
    "<a href=\"https://github.com/Lisergishnu/TetraVex.git\">Source</a> - Swift - GPL-3.0"
   ],
   [
-   "The Bub's Brothers (<a href=\"http://bub-n-bros.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/the_bubs_brothers.md\">entry</a>)",
+   "The Bub's Brothers (<a href=\"https://bitbucket.org/arigo/bub-n-bros/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/the_bubs_brothers.md\">entry</a>)",
    "Networked clone of the classical Bubble Bobble board game.",
    "<a href=\"http://bub-n-bros.sourceforge.net/download.html\">Link</a>",
    "mature / inactive since 2013",
    "board game",
-   "<a href=\"https://gitlab.com/osgames/the-bubs-brothers.git\">Source</a> - Python - MIT"
+   "<a href=\"https://bitbucket.org/arigo/bub-n-bros\">Source</a> - Python - MIT"
   ],
   [
    "The Butterfly Effect (<a href=\"http://the-butterfly-effect.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/the_butterfly_effect.md\">entry</a>)",
@@ -4086,7 +4086,7 @@
    "<a href=\"http://ysoccer.sourceforge.net/dloads.htm\">Link</a>",
    "mature / active",
    "sports, simulation, soccer",
-   "<a href=\"https://git.code.sf.net/p/ysoccer/code\">Source</a> - Java - ?"
+   "<a href=\"https://git.code.sf.net/p/ysoccer/code\">Source</a> - Java - GPL-2.0"
   ],
   [
    "ZAngband (<a href=\"http://www.zangband.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/zangband.md\">entry</a>)",

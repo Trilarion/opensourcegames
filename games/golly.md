@@ -1,4 +1,4 @@
-# Golly 
+# Golly
 
 _Conway's Game of Life and many other types of cellular automata._
 

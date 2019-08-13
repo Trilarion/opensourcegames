@@ -1,5 +1,5 @@
 """
-Utilities for the tools.
+Utilities for the tools. Only depending on standard Python or third party modules.
 """
 
 import os

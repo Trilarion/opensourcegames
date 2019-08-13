@@ -8,39 +8,12 @@
     This script runs with Python 3, it could also with Python 2 with some minor tweaks probably.
 """
 
-import re
 import urllib.request
 import http.client
 import datetime
 import json
 import textwrap
-from utils.utils import *
-
-essential_fields = ('Home', 'State', 'Keywords', 'Code repository', 'Code language', 'Code license')
-valid_fields = ('Home', 'Media', 'State', 'Play', 'Download', 'Platform', 'Keywords', 'Code repository', 'Code language',
-'Code license', 'Code dependencies', 'Assets license', 'Build system', 'Build instructions')
-valid_platforms = ('Windows', 'Linux', 'macOS', 'Android', 'Browser')
-recommended_keywords = ('action', 'arcade', 'adventure', 'visual novel', 'sports', 'platform', 'puzzle', 'role playing', 'simulation', 'strategy', 'card game', 'board game', 'music', 'educational', 'tool', 'game engine', 'framework', 'library')
-
-
-def entry_iterator():
-    """
-
-    """
-
-    # get all entries (ignore everything starting with underscore)
-    entries = os.listdir(games_path)
-    entries = (x for x in entries if not x.startswith('_'))
-
-    # iterate over all entries
-    for entry in entries:
-        entry_path = os.path.join(games_path, entry)
-
-        # read entry
-        content = read_text(entry_path)
-
-        # yield
-        yield entry, entry_path, content
+from utils.osg import *
 
 
 def update_readme_and_tocs(infos):
@@ -111,7 +84,7 @@ def create_toc(title, file, entries):
     # assemble rows
     rows = []
     for entry in entries:
-        rows.append('- **[{}]({})** ({})'.format(entry['title'], entry['file'], ', '.join(entry['code language'] + entry['code license'] + entry['state'])))
+        rows.append('- **[{}]({})** ({})'.format(entry['name'], entry['file'], ', '.join(entry['code language'] + entry['code license'] + entry['state'])))
 
     # sort rows (by title)
     rows.sort(key=str.casefold)
@@ -142,7 +115,7 @@ def check_validity_external_links():
     ignored_urls = ('https://git.tukaani.org/xz.git')
 
     # iterate over all entries
-    for _, entry_path, content in entry_iterator():
+    for _, entry_path, content in entry_iterator(games_path):
 
             # apply regex
             matches = regex.findall(content)
@@ -189,7 +162,7 @@ def check_template_leftovers():
     check_strings = [x for x in text if x and not x.startswith('##')]
 
     # iterate over all entries
-    for _, entry_path, content in entry_iterator():
+    for _, entry_path, content in entry_iterator(games_path):
 
         for check_string in check_strings:
             if content.find(check_string) >= 0:
@@ -207,7 +180,7 @@ def fix_entries():
     regex = re.compile(r"(.*)- Keywords:([^\n]*)(.*)", re.DOTALL)
 
     # iterate over all entries
-    for entry, entry_path, content in entry_iterator():
+    for entry, entry_path, content in entry_iterator(games_path):
 
         # match with regex
         matches = regex.findall(content)
@@ -260,7 +233,7 @@ def fix_entries():
     regex = re.compile(r"(.*)- Code dependencies:([^\n]*)(.*)", re.DOTALL)
 
     # iterate over all entries
-    for entry, entry_path, content in entry_iterator():
+    for entry, entry_path, content in entry_iterator(games_path):
         # match with regex
         matches = regex.findall(content)
 
@@ -296,7 +269,7 @@ def fix_entries():
     regex = re.compile(r"(.*)- Build system:([^\n]*)(.*)", re.DOTALL)
 
     # iterate over all entries
-    for entry, entry_path, content in entry_iterator():
+    for entry, entry_path, content in entry_iterator(games_path):
         # match with regex
         matches = regex.findall(content)
 
@@ -323,160 +296,6 @@ def fix_entries():
         if new_content != content:
             # write again
             write_text(entry_path, new_content)
-
-
-def parse_entry(content):
-    """
-    Returns a dictionary of the features of the content
-    """
-
-    info = {}
-
-    # read title
-    regex = re.compile(r"^# (.*)") # start of content, starting with "# " and then everything until the end of line
-    matches = regex.findall(content)
-    if len(matches) != 1 or not matches[0]:
-        raise RuntimeError('Title not found in entry "{}"'.format(content))
-    info['title'] = matches[0]
-
-    # read description
-    regex = re.compile(r"^.*\n\n_(.*)_\n") # third line from top, everything between underscores
-    matches = regex.findall(content)
-    if len(matches) != 1 or not matches[0]:
-        raise RuntimeError('Description not found in entry "{}"'.format(content))
-    info['description'] = matches[0]
-
-    # first read all field names
-    regex = re.compile(r"^- (.*?): ", re.MULTILINE) # start of each line having "- ", then everything until a colon, then ": "
-    fields = regex.findall(content)
-
-    # check that essential fields are there
-    for field in essential_fields:
-        if field not in fields:
-            raise RuntimeError('Essential field "{}" missing in entry "{}"'.format(field, info['title']))
-
-    # check that all fields are valid fields and are existing in that order
-    index = 0
-    for field in fields:
-        while index < len(valid_fields) and field != valid_fields[index]:
-            index += 1
-        if index == len(valid_fields):
-            raise RuntimeError('Field "{}" in entry "{}" either misspelled or in wrong order'.format(field, info['title']))
-
-    # iterate over found fields
-    for field in fields:
-        regex = re.compile(r"- {}: (.*)".format(field))
-        matches = regex.findall(content)
-        if len(matches) != 1:
-            # every field should only be present once
-            raise RuntimeError('Field "{}" in entry "{}" exist multiple times.'.format(field, info['title']))
-        v = matches[0]
-
-        # first store as is
-        info[field.lower()+'-raw'] = v
-
-        # remove parenthesis with content
-        v = re.sub(r'\([^)]*\)', '', v)
-
-        # split on ','
-        v = v.split(',')
-
-        # strip
-        v = [x.strip() for x in v]
-
-        # remove all being false (empty) that were for example just comments
-        v = [x for x in v if x]
-
-        # if entry is of structure <..> remove <>
-        v = [x[1:-1] if x[0] is '<' and x[-1] is '>' else x for x in v]
-
-        # empty fields will not be stored
-        if not v:
-            continue
-
-        # store in info
-        info[field.lower()] = v
-
-    # now checks on the content of fields
-
-    # state (essential field) must contain either beta or mature but not both, but at least one
-    v = info['state']
-    for t in v:
-        if t != 'beta' and t != 'mature' and not t.startswith('inactive since '):
-            raise RuntimeError('Unknown state tage "{}" in entry "{}"'.format(t, info['title']))
-    if 'beta' in v != 'mature' in v:
-        raise RuntimeError('State must be one of <"beta", "mature"> in entry "{}"'.format(info['title']))
-
-    # extract inactive year
-    phrase = 'inactive since '
-    inactive_year = [x[len(phrase):] for x in v if x.startswith(phrase)]
-    assert len(inactive_year) <= 1
-    if inactive_year:
-        info['inactive'] = inactive_year[0]
-
-    # urls in home, download, play and code repositories must start with http or https (or git) and should not contain spaces
-    for field in ['home', 'download', 'play', 'code repository']:
-        if field in info:
-            for url in info[field]:
-                if not (url.startswith('http://') or url.startswith('https://') or url.startswith('git://')):
-                    raise RuntimeError('URL "{}" in entry "{}" does not start with http'.format(url, info['title']))
-                if ' ' in url:
-                    raise RuntimeError('URL "{}" in entry "{}" contains a space'.format(url, info['title']))
-
-    # github repositories should end on .git
-    if 'code repository' in info:
-        for repo in info['code repository']:
-            if repo.startswith('https://github.com/') and not repo.endswith('.git'):
-                raise RuntimeError('Github repo {} in entry "{}" should end on .git.'.format(repo, info['title']))
-
-    # check that all platform tags are valid tags and are existing in that order
-    if 'platform' in info:
-        index = 0
-        for platform in info['platform']:
-            while index < len(valid_platforms) and platform != valid_platforms[index]:
-                index += 1
-            if index == len(valid_platforms):
-                raise RuntimeError('Platform tag "{}" in entry "{}" either misspelled or in wrong order'.format(platform, info['title']))
-
-    # there must be at least one keyword
-    if 'keywords' not in info:
-        raise RuntimeError('Need at least one keyword in entry "{}"'.format(info['title']))
-
-    # check for existence of at least one recommended keywords
-    fail = True
-    for recommended_keyword in recommended_keywords:
-        if recommended_keyword in info['keywords']:
-            fail = False
-            break
-    if fail:
-        raise RuntimeError('Entry "{}" contains no recommended keyword'.format(info['title']))
-
-    return info
-
-
-def assemble_infos():
-    """
-    Parses all entries and assembles interesting infos about them.
-    """
-
-    print('assemble game infos')
-
-    # a database of all important infos about the entries
-    infos = []
-
-    # iterate over all entries
-    for entry, _, content in entry_iterator():
-
-        # parse entry
-        info = parse_entry(content)
-
-        # add file information
-        info['file'] = entry
-
-        # add to list
-        infos.append(info)
-
-    return infos
 
 
 def update_statistics(infos):
@@ -507,7 +326,7 @@ def update_statistics(infos):
     statistics += '- mature: {} ({:.1f}%)\n- beta: {} ({:.1f}%)\n- inactive: {} ({:.1f}%)\n\n'.format(number_state_mature, rel(number_state_mature), number_state_beta, rel(number_state_beta), number_inactive, rel(number_inactive))
 
     if number_inactive > 0:
-        entries_inactive = [(x['title'], x['inactive']) for x in infos if 'inactive' in x]
+        entries_inactive = [(x['name'], x['inactive']) for x in infos if 'inactive' in x]
         entries_inactive.sort(key=lambda x: str.casefold(x[0]))  # first sort by name
         entries_inactive.sort(key=lambda x: x[1], reverse=True) # then sort by inactive year (more recently first)
         entries_inactive = ['{} ({})'.format(*x) for x in entries_inactive]
@@ -522,7 +341,7 @@ def update_statistics(infos):
     # number_no_language = sum(1 for x in infois if field not in x)
     # if number_no_language > 0:
     #     statistics += 'Without language tag: {} ({:.1f}%)\n\n'.format(number_no_language, rel(number_no_language))
-    #     entries_no_language = [x['title'] for x in infois if field not in x]
+    #     entries_no_language = [x['name'] for x in infois if field not in x]
     #     entries_no_language.sort()
     #     statistics += ', '.join(entries_no_language) + '\n\n'
 
@@ -547,7 +366,7 @@ def update_statistics(infos):
     number_no_license = sum(1 for x in infos if field not in x)
     if number_no_license > 0:
         statistics += 'Without license tag: {} ({:.1f}%)\n\n'.format(number_no_license, rel(number_no_license))
-        entries_no_license = [x['title'] for x in infos if field not in x]
+        entries_no_license = [x['name'] for x in infos if field not in x]
         entries_no_license.sort()
         statistics += ', '.join(entries_no_license) + '\n\n'
 
@@ -587,7 +406,7 @@ def update_statistics(infos):
     entries = []
     for info in infos:
         if 'download' not in info and 'play' not in info:
-            entries.append(info['title'])
+            entries.append(info['name'])
     entries.sort(key=str.casefold)
     statistics +=  '{}: '.format(len(entries)) + ', '.join(entries) + '\n\n'
 
@@ -607,7 +426,7 @@ def update_statistics(infos):
                         break
             # if there were repositories, but none popular, add them to the list
             if not popular:
-                entries.append(info['title'])
+                entries.append(info['name'])
                 # print(info[field])
     entries.sort(key=str.casefold)
     statistics += '{}: '.format(len(entries)) + ', '.join(entries) + '\n\n'
@@ -655,7 +474,7 @@ def update_statistics(infos):
     c_cpp_project_without_build_system = []
     for info in infos:
         if field not in info and ('C' in info['code language'] or 'C++' in info['code language']):
-            c_cpp_project_without_build_system.append(info['title'])
+            c_cpp_project_without_build_system.append(info['name'])
     c_cpp_project_without_build_system.sort(key=str.casefold)
     statistics += '##### C and C++ projects without build system information ({})\n\n'.format(len(c_cpp_project_without_build_system)) + ', '.join(c_cpp_project_without_build_system) + '\n\n'
 
@@ -663,7 +482,7 @@ def update_statistics(infos):
     c_cpp_project_not_cmake = []
     for info in infos:
         if field in info and 'CMake' in info[field] and ('C' in info['code language'] or 'C++' in info['code language']):
-            c_cpp_project_not_cmake.append(info['title'])
+            c_cpp_project_not_cmake.append(info['name'])
     c_cpp_project_not_cmake.sort(key=str.casefold)
     statistics += '##### C and C++ projects with a build system different from CMake ({})\n\n'.format(len(c_cpp_project_not_cmake)) + ', '.join(c_cpp_project_not_cmake) + '\n\n'
 
@@ -705,7 +524,7 @@ def export_json(infos):
     for info in infos:
 
         # game & description
-        entry = ['{} (<a href="{}">home</a>, <a href="{}">entry</a>)'.format(info['title'], info['home'][0],
+        entry = ['{} (<a href="{}">home</a>, <a href="{}">entry</a>)'.format(info['name'], info['home'][0],
             r'https://github.com/Trilarion/opensourcegames/blob/master/games/' + info['file']),
             textwrap.shorten(info['description'], width=60, placeholder='..')]
 
@@ -861,12 +680,12 @@ def export_primary_code_repositories_json():
                         continue
 
             if not consumed:
-                unconsumed_entries.append([info['title'], info[field]])
+                unconsumed_entries.append([info['name'], info[field]])
                 # print output
                 #if info['code repository']:
-                #    print('Entry "{}" unconsumed repo: {}'.format(info['title'], info[field]))
+                #    print('Entry "{}" unconsumed repo: {}'.format(info['name'], info[field]))
                 #if not info['code repository']:
-                #    print('Entry "{}" unconsumed repo: {}'.format(info['title'], info[field]))
+                #    print('Entry "{}" unconsumed repo: {}'.format(info['name'], info[field]))
 
     # sort them alphabetically (and remove duplicates)
     for k, v in primary_repos.items():
@@ -919,7 +738,7 @@ if __name__ == "__main__":
     fix_entries()
 
     # assemble info
-    infos = assemble_infos()
+    infos = assemble_infos(games_path)
 
     # recount and write to readme and to tocs
     update_readme_and_tocs(infos)

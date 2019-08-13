@@ -1,4 +1,4 @@
-# Caesar IA
+# CaesarIA
 
 _Remake of the popular citybuilder/economic strategy - Caesar III, videogame by Empressions Games._
 

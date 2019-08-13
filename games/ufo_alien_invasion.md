@@ -1,4 +1,4 @@
-# Ufo: Alien Invasion
+# UFO: Alien Invasion
 
 _UFO: Alien Invasion is a squad-based tactical strategy game in the tradition of the old X-COM PC games_
 

@@ -21,7 +21,7 @@
 - **[Boson](boson.md)** (C++, GPL-2.0, beta, inactive since 2006)
 - **[Brutal Chess](brutal_chess.md)** (C++, GPL-2.0, beta, inactive since 2007)
 - **[Bygfoot](bygfoot.md)** (Java, GPL-2.0, beta)
-- **[C-evo](c_evo.md)** (Pascal, Public Domain, GPL-3.0, mature, inactive since 2013)
+- **[C-evo](c_evo.md)** (Pascal, Public domain, GPL-3.0, mature, inactive since 2013)
 - **[Caesar IA](caesar_ia.md)** (C++, GPL-3.0, beta)
 - **[Call to Power 2](call_to_power2.md)** (C++, Custom, mature)
 - **[Civil](civil.md)** (Python, GPL-2.0, beta, inactive since 2003)

@@ -1,4 +1,4 @@
-# Mechanized Assault & eXploration Reloaded 
+# Mechanized Assault & eXploration Reloaded
 
 _A remake of the old M.A.X. by Interplay from 1996._
 

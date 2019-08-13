@@ -1,4 +1,4 @@
-# Battle for Wesnoth
+# The Battle for Wesnoth
 
 _The Battle for Wesnoth is an open source, turn-based strategy game with a high fantasy theme._
 

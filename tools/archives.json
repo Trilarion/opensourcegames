@@ -506,7 +506,8 @@
   "https://gitlab.com/xonotic/xonotic.git",
   "https://gitlab.gnome.org/GNOME/libxml2.git",
   "https://gitlab.openrsc.com/open-rsc/Game.git",
-  "https://gitorious.org/turious/turious.git"
+  "https://gitorious.org/turious/turious.git",
+  "https://src.fedoraproject.org/rpms/blobwars.git"
  ],
  "svn": [
   "http://svn.uktrainsim.com/svn/openrails/trunk",
@@ -537,6 +538,7 @@
   "http://hg.libsdl.org/SDL",
   "https://bitbucket.org/Darthman/quad/src",
   "https://bitbucket.org/allacrost/allacrost/src",
+  "https://bitbucket.org/arigo/bub-n-bros",
   "https://bitbucket.org/featheredmelody/lost-sky-project-public/src",
   "https://bitbucket.org/genericcontainer/goblin-camp/src",
   "https://bitbucket.org/giszmo/glob2",

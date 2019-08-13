@@ -1,4 +1,4 @@
-# Slash'EM
+# SLASH'EM
 
 _Variant of the roguelike game NetHack that offers extra features, monsters, and items._
 

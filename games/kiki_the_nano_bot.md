@@ -8,9 +8,9 @@ _3-D puzzle game, a mixture of the games Sokoban and Kula-World._
 - Download: http://kiki.sourceforge.net/download/index.html
 - Platform: Windows, macOS
 - Keywords: puzzle
-- Code repository: http://kiki.cvs.sourceforge.net (cvs)
-- Code language: ?
-- Code license: ?
+- Code repository: https://gitlab.com/osgames/kiki.git (conversion of cvs), http://kiki.cvs.sourceforge.net (cvs)
+- Code language: C++
+- Code license: Public domain
 
 ## Building
 

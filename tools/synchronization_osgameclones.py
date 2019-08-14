@@ -26,6 +26,21 @@ osgc_name_aliases = {'parpg': 'PARPG', 'OpenRails': 'Open Rails', 'c-evo': 'C-ev
 def similarity(a, b):
     return SequenceMatcher(None, str.casefold(a), str.casefold(b)).ratio()
 
+
+def unique_field_contents(entries, field):
+    """
+    """
+    unique_content = set()
+    for entry in entries:
+        if field in entry:
+            field_content = entry[field]
+            if type(field_content) is str:
+                unique_content.add(field_content)
+            else:
+                unique_content.update(field_content)
+    unique_content = sorted(list(unique_content), key=str.casefold)
+    return unique_content
+
 if __name__ == "__main__":
 
     # paths
@@ -57,9 +72,11 @@ if __name__ == "__main__":
             entry['name'] = osgc_name_aliases[name]
             osgc_entries[index] = entry
 
-    # get all osgc 'lang' fields
-    osgc_langs = set([x['lang'] for x in osgc_entries if 'lang' in x])
-    print('osgc-languages: {}'.format(osgc_langs))
+    # some field statistics
+    print('osgc-languages: {}'.format(unique_field_contents(osgc_entries, 'lang')))
+    print('osgc-licenses: {}'.format(unique_field_contents(osgc_entries, 'license')))
+    print('osgc-development: {}'.format(unique_field_contents(osgc_entries, 'development')))
+    print('osgc-status: {}'.format(unique_field_contents(osgc_entries, 'status')))
 
 
     # read our database
@@ -76,12 +93,12 @@ if __name__ == "__main__":
     print('{} in both, {} only in osgameclones, {} only with us'.format(len(common_names), len(osgc_names), len(our_names)))
 
     # find similar names among the rest
-    for osgc_name in osgc_names:
-        for our_name in our_names:
-            if similarity(osgc_name, our_name) > similarity_threshold:
-                print('{} - {}'.format(osgc_name, our_name))
+    #for osgc_name in osgc_names:
+    #    for our_name in our_names:
+    #        if similarity(osgc_name, our_name) > similarity_threshold:
+    #            print('{} - {}'.format(osgc_name, our_name))
 
-    # find those that entries in osgameclones that are also in our database
+    # find those that entries in osgameclones that are also in our database and compare them
     for osgc_entry in osgc_entries:
         osgc_name = osgc_entry['name']
 
@@ -90,8 +107,18 @@ if __name__ == "__main__":
 
             if osgc_name == our_name:
                 # a match, check the fields
-                if osgc_entry['lang'] not in our_name['code language']:
-                    print()
+                name = osgc_name
+
+                # lang field
+                if 'lang' in osgc_entry:
+                    languages = osgc_entry['lang']
+                    our_languages = our_entry['code language']
+                    if type(languages) == str:
+                        languages = [languages]
+                    for lang in languages:
+                        if lang not in our_languages:
+                            print('{}: language {} not existing'.format(name, lang))
+
 
 
 

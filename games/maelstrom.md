@@ -9,7 +9,7 @@ _Enhanced clone of Atari's 1979 Asteroids arcade game with a visual style simila
 - Platform: Windows, Linux, macOS
 - Keywords: action, arcade, shooter
 - Code repository: https://github.com/richardjs/Maelstrom.git (see https://www.libsdl.org/projects/Maelstrom/source.html)
-- Code language: C++
+- Code language: C, C++
 - Code license: GPL-2.0
 - Code dependencies: SDL
 - Assets license: CC-BY-3.0

@@ -6,7 +6,7 @@ _An improved, cross-platform, stable Jagged Alliance 2 runtime._
 - State: mature
 - Keywords: strategy, requires original content
 - Code repository: https://github.com/ja2-stracciatella/ja2-stracciatella.git
-- Code language: C++
+- Code language: C, C++
 - Code license: Custom (various)
 
 ## Building

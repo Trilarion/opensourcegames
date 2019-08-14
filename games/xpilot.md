@@ -8,7 +8,7 @@ _Multi-player 2D space game._
 - Download: https://sourceforge.net/projects/xpilotgame/files/
 - Platform: Windows, Linux
 - Keywords: action, space
-- Code repository: https://gitlab.com/osgames/xpilot.git (conversion of cvs and addition of hg), http://hg.code.sf.net/p/xpilotgame/www.xpilot.org (hg, website), http://xpilotgame.cvs.sourceforge.net (cvs)
+- Code repository: https://gitlab.com/osgames/xpilot.git (conversion of cvs), http://hg.code.sf.net/p/xpilotgame/www.xpilot.org (hg, website), http://xpilotgame.cvs.sourceforge.net (cvs)
 - Code language: C
 - Code license: GPL-2.0
 

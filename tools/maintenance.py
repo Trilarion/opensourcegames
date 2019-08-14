@@ -174,6 +174,8 @@ def fix_entries():
     Fixes the keywords, code dependencies, build systems, .. entries, mostly by automatically sorting them.
     """
 
+    # TODO also sort other fields, only read once and then do all, move to separate file
+
     print('fix entries')
 
     # keywords

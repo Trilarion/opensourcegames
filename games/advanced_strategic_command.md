@@ -6,7 +6,7 @@ _Turn based strategy game._
 - Media: https://en.wikipedia.org/wiki/Battle_Isle#Clones
 - State: mature
 - Keywords: strategy, turn-based
-- Code repository: http://hg.asc-hq.org/hg/asc (hg)
+- Code repository: https://github.com/ValHaris/asc-hq.git
 - Code language: C++
 - Code license: GPL-2.0
 

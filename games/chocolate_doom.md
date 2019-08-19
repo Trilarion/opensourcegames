@@ -6,7 +6,7 @@ _Doom source port that accurately reproduces the experience of Doom as it was pl
 - State: mature 
 - Download: https://www.chocolate-doom.org/wiki/index.php/Downloads, https://sourceforge.net/projects/chocolate-doom/files/
 - Platform: Windows, Linux, macOS
-- Keywords: action, remake, shooter
+- Keywords: action, inspired by Doom, remake, shooter
 - Code repository: https://github.com/chocolate-doom/chocolate-doom.git
 - Code language: C
 - Code license: GPL-2.0

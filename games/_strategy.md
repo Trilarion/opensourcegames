@@ -145,7 +145,7 @@
 - **[Turious](turious.md)** (C, GPL-3.0, beta, inactive since 2014)
 - **[Turn of War](turn_of_war.md)** (Java, GPL-3.0, beta)
 - **[TVTower](tvtower.md)** (BlitzMax, Lua, Custom, mature)
-- **[UFO2000](ufo2000.md)** (C++, GPL-2.0, mature, inactive since 2012)
+- **[UFO2000](ufo2000.md)** (C, C++, Lua, GPL-2.0, mature, inactive since 2012)
 - **[UFO: Alien Invasion](ufo_alien_invasion.md)** (C, C++, GPL-2.0, mature)
 - **[Unknown Horizons](unknown_horizons.md)** (Python, GPL-2.0, beta)
 - **[VCMI Project](vcmi_project.md)** (C++, GPL-2.0, mature)

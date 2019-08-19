@@ -462,7 +462,7 @@
 - **[Tuxemon](tuxemon.md)** (Python, GPL-3.0, mature)
 - **[TVTower](tvtower.md)** (BlitzMax, Lua, Custom, mature)
 - **[TwinEngine](twinengine.md)** (C, GPL-2.0, mature, inactive since 2015)
-- **[UFO2000](ufo2000.md)** (C++, GPL-2.0, mature, inactive since 2012)
+- **[UFO2000](ufo2000.md)** (C, C++, Lua, GPL-2.0, mature, inactive since 2012)
 - **[UFO: Alien Invasion](ufo_alien_invasion.md)** (C, C++, GPL-2.0, mature)
 - **[UlDunAd](uldunad.md)** (Python, GPL-3.0, beta, inactive since 2011)
 - **[UltraStar Deluxe](ultrastar_deluxe.md)** (Pascal, GPL-2.0, mature)

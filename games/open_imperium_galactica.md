@@ -2,7 +2,7 @@
 
 _Reimplementation of Imperium Galactica._
 
-- Home: https://github.com/akarnokd/open-ig, http://open-ig-dev.blogspot.com/
+- Home: http://open-ig-dev.blogspot.com/
 - State: mature
 - Download: https://github.com/akarnokd/open-ig/releases
 - Keywords: strategy, turn-based

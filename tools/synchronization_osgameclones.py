@@ -10,7 +10,8 @@ osgc-development: ['active', 'complete', 'halted', 'sporadic', 'very active']
 osgc-multiplayer: ['Co-op', 'Competitive', 'Hotseat', 'LAN', 'Local', 'Online', 'Split-screen']
 osgc-type: ['clone', 'remake', 'similar', 'tool']
 osgc-status: ['playable', 'semi-playable', 'unplayable']
-
+osgc-license: ['AFL3', 'AGPL3', 'Apache', 'Artistic', 'As-is', 'BSD', 'BSD2', 'BSD4', 'bzip2', 'CC-BY', 'CC-BY-NC', 'CC-BY-NC-ND', 'CC-BY-NC-SA', 'CC-BY-SA', 'CC0', 'Custom', 'GPL2', 'GPL3', 'IJG', 'ISC', 'JRL', 'LGPL2', 'LGPL3', 'Libpng', 'MAME', 'MIT', 'MPL', 'MS-PL', 'Multiple', 'NGPL', 'PD', 'WTFPL', 'Zlib']
+osgc-content: ['commercial', 'free', 'open', 'swappable']
 
 Mapping osgameclones -> ours
 
@@ -38,12 +39,10 @@ from difflib import SequenceMatcher
 from utils.osg import *
 
 # should change on osgameclones
-osgc_name_aliases = {'parpg': 'PARPG', 'OpenRails': 'Open Rails', 'c-evo': 'C-evo', 'Stepmania': 'StepMania', 'Mechanized Assault and eXploration Reloaded': 'Mechanized Assault & eXploration Reloaded',
-                     'Jagged Alliance 2 - Stracciatella': 'Jagged Alliance 2 Stracciatella', "Rocks'n'diamonds": "Rocks'n'Diamonds",
-                     'Gusanos': 'GUSANOS', 'MicropolisJS': 'micropolisJS'}
+osgc_name_aliases = {}
 
 # conversion between licenses
-osgc_licenses_map = {'GPL2': 'GPL-2.0', 'GPL3': 'GPL-3.0', 'AGPL3': 'AGPL-3.0'}
+osgc_licenses_map = {'GPL2': 'GPL-2.0', 'GPL3': 'GPL-3.0', 'AGPL3': 'AGPL-3.0', 'LGPL3': 'LGPL-3.0', 'LGPL2': 'LGPL-2.1', 'MPL': 'MPL-2.0'}
 
 def similarity(a, b):
     return SequenceMatcher(None, str.casefold(a), str.casefold(b)).ratio()
@@ -70,7 +69,7 @@ if __name__ == "__main__":
     root_path  = os.path.realpath(os.path.join(os.path.dirname(__file__), os.path.pardir))
 
     # import the osgameclones data
-    osgc_path = os.path.realpath(os.path.join(root_path, os.path.pardir, 'osgameclones', 'games'))
+    osgc_path = os.path.realpath(os.path.join(root_path, os.path.pardir, '11_osgameclones.git', 'games'))
     files = os.listdir(osgc_path)
 
     # iterate over all yaml files in osgameclones/data folder
@@ -114,6 +113,7 @@ if __name__ == "__main__":
     print('osgc-licenses: {}'.format(unique_field_contents(osgc_entries, 'license')))
     print('osgc-status: {}'.format(unique_field_contents(osgc_entries, 'status')))
     print('osgc-framework: {}'.format(unique_field_contents(osgc_entries, 'framework')))
+    print('osgc-content: {}'.format(unique_field_contents(osgc_entries, 'content')))
 
     # read our database
     games_path = os.path.join(root_path, 'games')
@@ -147,6 +147,8 @@ if __name__ == "__main__":
                 # a match, check the fields
                 name = osgc_name
 
+                p = ''
+
                 # lang field
                 if 'lang' in osgc_entry:
                     languages = osgc_entry['lang']
@@ -155,7 +157,7 @@ if __name__ == "__main__":
                     our_languages = our_entry['code language'] # essential field
                     for lang in languages:
                         if lang not in our_languages:
-                            print('{}: language {}'.format(name, lang))
+                            p += ' code language {} missing\n'.format(lang)
 
                 # license
                 if 'license' in osgc_entry:
@@ -167,48 +169,56 @@ if __name__ == "__main__":
                         if license in osgc_licenses_map:
                             license = osgc_licenses_map[license]
                         if license not in our_code_licenses and license not in our_assets_licenses:
-                            print('{}: code/assets license {}'.format(name, license))
+                            p += ' code/assets license {} missing\n'.format(license)
 
-                # framework
+                # framework (capitalization is ignored for now, HTML5 is ignored)
                 if 'framework' in osgc_entry:
                     frameworks = osgc_entry['framework']
                     if type(frameworks) == str:
                         frameworks = [frameworks]
                     our_frameworks = our_entry.get('code dependencies', [])
+                    our_frameworks = [x.casefold() for x in our_frameworks]
+                    frameworks = [x.casefold() for x in frameworks]
                     for framework in frameworks:
+                        if framework == 'html5':
+                            continue
                         if framework not in our_frameworks:
-                            print('{}: code dependency {}'.format(name, framework))
+                            p += ' code dependency {} missing\n'.format(framework)
 
-                # repo
+                # repo (ignore links to sourceforge project pages)
                 if 'repo' in osgc_entry:
                     repos = osgc_entry['repo']
                     if type(repos) == str:
                         repos = [repos]
                     our_repos = our_entry['code repository']
                     for repo in repos:
+                        if repo.startswith('https://sourceforge.net/projects/'):
+                            continue
                         if (repo not in our_repos) and (repo+'.git' not in our_repos): # add .git automatically and try it too
-                            print('{}: code repository {}'.format(name, repo))
+                            p += ' code repository {} missing\n'.format(repo)
 
-                # url
+                # url (ignore http/https)
                 if 'url' in osgc_entry:
                     urls = osgc_entry['url']
                     if type(urls) == str:
                         urls = [urls]
                     our_urls = our_entry['home']
+                    our_urls = [x.replace('http://', '').replace('https://', '') for x in our_urls]
+                    urls = [x.replace('http://', '').replace('https://', '') for x in urls]
                     for url in urls:
                         if url not in our_urls:
-                            print('{}: home {}'.format(name, url))
+                            p += ' home url {} missing\n'.format(url)
 
                 # status
                 if 'status' in osgc_entry:
                     status = osgc_entry['status']
                     our_status = our_entry['state'] # essential field
                     if status == 'playable' and 'mature' not in our_status:
-                        print('{}: status playable, not mature with us'.format(name))
+                        p += ' status playable, not mature with us\n'
                     if status != 'playable' and 'mature' in our_status:
-                        print('{}: status not playable, mature with us'.format(name))
+                        p += ' status {}, mature with us\n'.format(status)
                     if status == 'unplayable':
-                        print('{}: status unplayable'.format(name))
+                        p += ' status unplayable\n'
 
                 # development
                 if 'development' in osgc_entry:
@@ -216,21 +226,54 @@ if __name__ == "__main__":
                     our_inactive = 'inactive' in our_entry
                     our_status = our_entry['state']  # essential field
                     if development == 'halted' and not our_inactive:
-                        print('{}: development halted, not inactive with us'.format(name))
+                        p += ' development halted, not inactive with us\n'
                     if (development == 'very active' or development == 'active' or development == 'sporadic') and our_inactive:
-                        print('{}: development sporadic-very active, inactive with us'.format(name))
+                        p += ' development {}, inactive with us\n'.format(development)
                     if development == 'complete' and 'mature' not in our_status:
-                        print('{}: development complete, not mature with us'.format(name))
+                        p += ' development complete, not mature with us\n'
+
+                # originals
+                our_keywords = our_entry['keywords']
+                if 'originals' in osgc_entry:
+                    originals = osgc_entry['originals']
+                    for original in originals:
+                        if 'inspired by ' + original not in our_keywords:
+                            p += ' original {} not mentioned\n'.format(original)
+
+                # multiplayer
+                if 'multiplayer' in osgc_entry:
+                    multiplayer = osgc_entry['multiplayer']
+                    if type(multiplayer) == str:
+                        multiplayer = [multiplayer]
+                    for mp in multiplayer:
+                        if mp not in our_keywords:
+                            p += ' mp: {} not in keywords\n'.format(mp)
+
+                # content
+                if 'content' in osgc_entry:
+                    content = osgc_entry['content']
+                    if content + ' content' not in our_keywords:
+                        p += ' content: {} not in keywords\n'.format(content)
+
+                # type
+                if 'type' in osgc_entry:
+                    game_type = osgc_entry['type']
+                    if game_type not in our_keywords:
+                        p += ' type: {} not in keywords\n'.format(game_type)
+
+                if p:
+                    print('{}\n{}'.format(name, p))
+
 
         if not is_included:
             # a new entry, that we have never seen, maybe we should make an entry of our own
             continue
 
             print('create new entry for {}'.format(osgc_name))
-            file_name = regex_sanitze_name.sub('', osgc_name).replace(' ', '_').lower()
+            file_name = derive_canonical_file_name(osgc_name)
             entry = '# {}\n\n'.format(osgc_name)
 
-            # for now only make remakes or clones
+            # for now only make remakes or clones of at least playable
             game_type = osgc_entry['type'] # do not overwrite type!
             if game_type not in ('remake', 'clone'):
                 continue

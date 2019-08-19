@@ -12,3 +12,5 @@ _Train simulator for the largest collection of digital content in the world - ro
 
 ## Building
 
+See [Developer guide](http://openrails.org/contribute/developing-code/).
+

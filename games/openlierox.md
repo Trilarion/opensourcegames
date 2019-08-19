@@ -7,7 +7,7 @@ _Realtime worms shoot-em-up._
 - Download: http://www.openlierox.net/downloads/, https://sourceforge.net/projects/openlierox/files/
 - Platform: Windows
 - Keywords: action, arcade, wormslike
-- Code repository: https://git.code.sf.net/p/openlierox/code
+- Code repository: https://github.com/albertz/openlierox.git, https://git.code.sf.net/p/openlierox/code
 - Code language: C++
 - Code license: LGPL-2.0
 

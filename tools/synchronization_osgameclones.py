@@ -65,8 +65,6 @@ def unique_field_contents(entries, field):
 
 if __name__ == "__main__":
 
-    regex_sanitze_name = re.compile(r"[^A-Za-z 0-9]+")
-
     # paths
     similarity_threshold = 0.8
     root_path  = os.path.realpath(os.path.join(os.path.dirname(__file__), os.path.pardir))

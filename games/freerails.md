@@ -3,7 +3,7 @@
 _Real time MP strategy game where players compete to build the most powerful railroad empire._
 
 - Home: http://freerails.sourceforge.net/
-- State: beta
+- State: beta, inactive since 2008 (see continuation)
 - Download: https://sourceforge.net/projects/freerails/files/jfreerails/
 - Keywords: strategy, real time
 - Code repository: https://sourceforge.net/p/freerails/code/ (cvs)

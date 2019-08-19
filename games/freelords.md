@@ -2,7 +2,7 @@
 
 _Explore, occupy, produce armies in cities and kill your enemies._
 
-- Home: https://sourceforge.net/projects/freelords/
+- Home: https://sourceforge.net/projects/freelords/, https://sourceforge.net/p/freelords/wiki/Home/
 - State: beta
 - Download: https://sourceforge.net/projects/freelords/files
 - Keywords: strategy

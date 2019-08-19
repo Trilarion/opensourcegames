@@ -2,7 +2,7 @@
 
 _Puzzle game based on Oxyd._
 
-- Home: http://www.nongnu.org/enigma/, https://sourceforge.net/projects/enigma-game/
+- Home: https://www.nongnu.org/enigma/, https://sourceforge.net/projects/enigma-game/
 - Media: https://en.wikipedia.org/wiki/Enigma_(2007_video_game)
 - State: mature
 - Download: http://www.nongnu.org/enigma/download.html#stable

@@ -9,6 +9,7 @@ _2D space trading and combat game, taking inspiration from the Escape Velocity s
 - Code repository: https://github.com/naev/naev.git
 - Code language: C, Lua
 - Code license: GPL-3.0
+- Code dependencies: libxml, OpenAL, SDL2
 
 Also available on Steam.
 

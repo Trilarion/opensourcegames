@@ -2,7 +2,7 @@
 
 _EasyRPG Player is a program that allows to play games created with RPG Maker 2000 and 2003._
 
-- Home: https://easyrpg.org/player/
+- Home: https://easyrpg.org/player/, https://easyrpg.org/
 - State: mature
 - Download: https://easyrpg.org/player/downloads/
 - Keywords: framework

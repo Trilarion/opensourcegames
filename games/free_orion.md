@@ -2,7 +2,7 @@
 
 _Turn-based space empire and galactic conquest (4X) computer game._
 
-- Home: http://www.freeorion.org/index.php/Main_Page, https://sourceforge.net/projects/freeorion/
+- Home: https://www.freeorion.org/index.php/Main_Page, https://sourceforge.net/projects/freeorion/
 - Media: https://en.wikipedia.org/wiki/Master_of_Orion#External_links
 - State: beta
 - Download: http://www.freeorion.org/index.php/Download
@@ -11,6 +11,7 @@ _Turn-based space empire and galactic conquest (4X) computer game._
 - Code language: C++, Python
 - Code license: GPL-2.0
 - Code dependencies: Boost, Freetype, Ogg, OpenAL, OpenGL, PyLab, SDL, Vorbis, zlib
+- Assets license: CC-BY-SA
 
 ## Building
 

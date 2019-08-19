@@ -4,7 +4,7 @@ _A turn-based strategy engine heavily inspired by Panzer General._
 
 - Home: http://lgames.sourceforge.net/LGeneral/, https://sourceforge.net/projects/lgames/, https://sourceforge.net/projects/lgeneral/
 - Media: https://en.wikipedia.org/wiki/Panzer_General#LGeneral
-- State: mature
+- State: mature, inactive since 2017
 - Download: (see home)
 - Platform: Android
 - Keywords: strategy, turn-based

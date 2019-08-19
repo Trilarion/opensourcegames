@@ -2,7 +2,7 @@
 
 _Tower simulation game inspired by SimTower._
 
-- Home: https://github.com/fabianschuiki/OpenSkyscraper
+- Home: http://openskyscraper.org/
 - State: beta
 - Keywords: simulation, remake
 - Code repository: https://github.com/fabianschuiki/OpenSkyscraper.git

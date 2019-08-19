@@ -2,7 +2,7 @@
 
 _Single-player fantasy card game played against a computer opponent._
 
-- Home: http://magarena.github.io/
+- Home: https://magarena.github.io/
 - State: mature
 - Download: https://github.com/magarena/magarena/releases/
 - Keywords: role playing, cards

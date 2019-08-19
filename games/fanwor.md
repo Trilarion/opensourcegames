@@ -2,7 +2,7 @@
 
 _Action-adventures in the style of the game "The Legend of Zelda"._
 
-- Home: http://fanwor.tuxfamily.org/
+- Home: https://fanwor.tuxfamily.org/
 - State: mature
 - Download: (see home)
 - Keywords: adventure

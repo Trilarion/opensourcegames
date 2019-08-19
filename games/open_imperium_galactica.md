@@ -2,12 +2,12 @@
 
 _Reimplementation of Imperium Galactica._
 
-- Home: https://github.com/akarnokd/open-ig
-- State: beta
+- Home: https://github.com/akarnokd/open-ig, http://open-ig-dev.blogspot.com/
+- State: mature
 - Download: https://github.com/akarnokd/open-ig/releases
 - Keywords: strategy, turn-based
 - Code repository: https://github.com/akarnokd/open-ig.git
 - Code language: Java
-- Code license: GPL-3.0
+- Code license: LGPL-3.0
 
 ## Building

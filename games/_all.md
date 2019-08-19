@@ -364,7 +364,7 @@
 - **[Red Eclipse](red_eclipse.md)** (C++, zlib, mature)
 - **[REGoth](regoth.md)** (C++, GPL-3.0, mature)
 - **[Return to the Roots](return_to_the_roots.md)** (C++, GPL-3.0, mature)
-- **[Rigs of Rods](rigs_of_rods.md)** (C, C++, Angelscript, GPL-3.0, mature)
+- **[Rigs of Rods](rigs_of_rods.md)** (C, C++, AngelScript, GPL-3.0, mature)
 - **[Rocks'n'Diamonds](rocksndiamonds.md)** (C, GPL-2.0, mature)
 - **[Rogue Clone IV](rogue_clone_iv.md)** (C, 3-clause BSD, mature, inactive since 2006)
 - **[Roguish](roguish.md)** (JavaScript, 3-clause BSD, beta, inactive since 2015)

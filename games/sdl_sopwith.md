@@ -10,6 +10,7 @@ _Port of the classic 8086 biplane shoot-em-up._
 - Code repository: https://gitlab.com/osgames/sdl-sopwith.git (import of svn), https://svn.code.sf.net/p/sdl-sopwith/code/ (svn)
 - Code language: C
 - Code license: GPL-2.0
+- Code dependencies: SDL
 
 See also the original [Sopwith](http://davidlclark.com/page/sopwith) 
 

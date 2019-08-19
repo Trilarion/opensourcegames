@@ -26,7 +26,7 @@
 - **[OpenTTD](openttd.md)** (C++, GPL-2.0, mature)
 - **[Our Personal Space](our_personal_space.md)** (Ren'py, GPL-3.0, mature)
 - **[Pioneer](pioneer.md)** (C, C++, Lua, Apache-2.0, GPL-3.0, mature)
-- **[Rigs of Rods](rigs_of_rods.md)** (C, C++, Angelscript, GPL-3.0, mature)
+- **[Rigs of Rods](rigs_of_rods.md)** (C, C++, AngelScript, GPL-3.0, mature)
 - **[Simutrans](simutrans.md)** (C++, Artistic License, mature)
 - **[The Butterfly Effect](the_butterfly_effect.md)** (C++, GPL-2.0, beta)
 - **[TORCS, The Open Racing Car Simulator](torcs_the_open_racing_car_simulator.md)** (C++, GPL-2.0, mature, inactive since 2016)

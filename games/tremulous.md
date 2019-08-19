@@ -2,7 +2,7 @@
 
 _Asymmetric team-based first-person shooter with real-time strategy elements._
 
-- Home: http://tremulous.net/, https://sourceforge.net/projects/tremulous/
+- Home: http://www.tremulous.net/, https://sourceforge.net/projects/tremulous/
 - Media: https://en.wikipedia.org/wiki/Tremulous
 - State: mature, inactive since 2016 
 - Download: http://tremulous.net/files/

@@ -2,7 +2,7 @@
 
 _Variant of the roguelike game NetHack that offers extra features, monsters, and items._
 
-- Home: http://slashem.sourceforge.net/, https://sourceforge.net/projects/slashem/
+- Home: http://www.slashem.org/, http://slashem.sourceforge.net/, https://sourceforge.net/projects/slashem/
 - Media: https://en.wikipedia.org/wiki/Slash'EM
 - State: beta, inactive since 2007
 - Download: http://slashem.sourceforge.net/stable.html, https://sourceforge.net/projects/slashem/files/

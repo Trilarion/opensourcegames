@@ -9,6 +9,7 @@ _Arcade style game for “Boulder Dash” (C 64), “Emerald Mine” (Amiga), �
 - Code repository: http://git.artsoft.org/rocksndiamonds.git
 - Code language: C
 - Code license: GPL-2.0
+- Code dependencies: SDL2
 
 ## Building
 

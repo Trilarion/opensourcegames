@@ -10,6 +10,7 @@ _Dance and rhythm game._
 - Code repository: https://github.com/stepmania/stepmania.git
 - Code language: C, C++, Lua
 - Code license: MIT
+- Assets license: CC-BY-NC
 
 ## Building
 

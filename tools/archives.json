@@ -513,6 +513,7 @@
   "https://gitlab.com/xonotic/xonotic.git",
   "https://gitlab.gnome.org/GNOME/libxml2.git",
   "https://gitlab.openrsc.com/open-rsc/Game.git",
+  "https://gitlab.openrsc.com/open-rsc/Single-Player.git",
   "https://gitorious.org/turious/turious.git",
   "https://src.fedoraproject.org/rpms/blobwars.git"
  ],
@@ -550,7 +551,7 @@
   "https://bitbucket.org/mstrobel/supremacy/src",
   "https://bitbucket.org/rude/love",
   "https://bitbucket.org/ryzom/ryzomcore",
-  "https://bitbucket.org/sumwars/sumwars-code/src",
+  "https://bitbucket.org/sumwars/sumwars-code",
   "https://bitbucket.org/thesheep/fujo/src"
  ],
  "bzr": [

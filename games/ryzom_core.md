@@ -2,7 +2,7 @@
 
 _MMORPG with open world play._
 
-- Home: https://ryzomcore.atlassian.net/wiki/spaces/RC/overview
+- Home: https://ryzomcore.atlassian.net/wiki/spaces/RC/overview, https://web.archive.org/web/20160413082305/http://www.ryzomcore.org/
 - Media: https://en.wikipedia.org/wiki/Ryzom
 - State: mature
 - Play: http://www.ryzom.com/ (commercial)

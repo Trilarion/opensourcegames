@@ -2,7 +2,7 @@
 
 _Renew the original The Settlers 2._
 
-- Home: https://www.siedler25.org/index.php
+- Home: https://www.siedler25.org/
 - State: mature
 - Download: https://www.siedler25.org/index.php?com=dynamic&mod=2
 - Keywords: strategy, remake, requires original content (Settlers II Gold)

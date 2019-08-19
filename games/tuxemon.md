@@ -11,5 +11,6 @@ _Turn-based monster fighting RPG._
 - Code license: GPL-3.0
 - Code dependencies: cx_Freeze, neteria, pillow, pygame, PyTMX
 
+
 ## Building
 

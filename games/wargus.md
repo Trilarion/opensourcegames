@@ -2,7 +2,7 @@
 
 _Warcraft2 Mod that allows you to play Warcraft2 with the Stratagus engine._
 
-- Home: http://wargus.stratagus.com/index.shtml
+- Home: http://wargus.github.io/, http://wargus.stratagus.com/index.shtml
 - State: mature (?)
 - Download: http://wargus.stratagus.com/download.shtml
 - Keywords: strategy, requires original content (?)

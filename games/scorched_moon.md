@@ -2,7 +2,7 @@
 
 _Open source version of Moonbase Commander._
 
-- Home: https://github.com/Scorched-Moon
+- Home: https://scorched-moon.github.io/, https://github.com/Scorched-Moon
 - State: beta
 - Keywords: strategy
 - Code repository: https://github.com/Scorched-Moon/server.git, https://github.com/Scorched-Moon/client.git (+)

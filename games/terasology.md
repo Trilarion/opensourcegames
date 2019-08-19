@@ -2,7 +2,7 @@
 
 _Stable platform for various types of gameplay settings in a voxel world._
 
-- Home: http://terasology.org/index.html
+- Home: https://terasology.org/
 - State: mature
 - Keywords: framework, 3D
 - Code repository: https://github.com/MovingBlocks/Terasology.git

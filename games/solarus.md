@@ -9,6 +9,7 @@ _Zelda-like 2D game engine for Action-RPGs._
 - Code repository: https://gitlab.com/solarus-games/solarus.git, https://github.com/solarus-games/solarus.git (archived)
 - Code language: C, C++, Lua
 - Code license: GPL-3.0
+- Assets license: CC-BY-SA
 
 ## Building
 

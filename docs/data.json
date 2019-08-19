@@ -2697,7 +2697,7 @@
    "<a href=\"http://hg.code.sf.net/p/phantasy/code\">Source</a> - C++ - GPL-3.0"
   ],
   [
-   "Pingus (<a href=\"https://pingus.seul.org/index.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/pingus.md\">entry</a>)",
+   "Pingus (<a href=\"https://pingus.seul.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/pingus.md\">entry</a>)",
    "Lemmings(tm)-like puzzle game.",
    "<a href=\"https://pingus.seul.org/download.html\">Link</a>",
    "mature / active",
@@ -2905,7 +2905,7 @@
    "<a href=\"https://github.com/REGoth-project/REGoth-bs.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
-   "Return to the Roots (<a href=\"https://www.siedler25.org/index.php\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/return_to_the_roots.md\">entry</a>)",
+   "Return to the Roots (<a href=\"https://www.siedler25.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/return_to_the_roots.md\">entry</a>)",
    "Renew the original The Settlers 2.",
    "<a href=\"https://www.siedler25.org/index.php?com=dynamic&mod=2\">Link</a>",
    "mature / active",
@@ -2918,7 +2918,7 @@
    "",
    "mature / active",
    "simulation, cars",
-   "<a href=\"https://github.com/RigsOfRods/rigs-of-rods.git\">Source</a> - C, C++, Angelscript - GPL-3.0"
+   "<a href=\"https://github.com/RigsOfRods/rigs-of-rods.git\">Source</a> - C, C++, AngelScript - GPL-3.0"
   ],
   [
    "Rocks'n'Diamonds (<a href=\"http://www.artsoft.org/rocksndiamonds/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rocksndiamonds.md\">entry</a>)",
@@ -3009,7 +3009,7 @@
    "<a href=\"https://github.com/PlatinumArts/Platinum-Arts-Sandbox-Free-Game-Maker.git\">Source</a> - C++, C - Custom"
   ],
   [
-   "Scorched Moon (<a href=\"https://github.com/Scorched-Moon\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/scorched_moon.md\">entry</a>)",
+   "Scorched Moon (<a href=\"https://scorched-moon.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/scorched_moon.md\">entry</a>)",
    "Open source version of Moonbase Commander.",
    "",
    "beta / active",
@@ -3073,7 +3073,7 @@
    "<a href=\"https://gitlab.com/osgames/sdl-sopwith.git\">Source</a> - C - GPL-2.0"
   ],
   [
-   "Secret Maryo Chronicles (<a href=\"https://sourceforge.net/projects/smclone/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/secret_maryo_chronicles.md\">entry</a>)",
+   "Secret Maryo Chronicles (<a href=\"http://secretmaryo.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/secret_maryo_chronicles.md\">entry</a>)",
    "Jump and Run game like Super Mario World with an advanced..",
    "<a href=\"https://sourceforge.net/projects/smclone/files\">Link</a>",
    "mature / inactive since 2009",
@@ -3177,7 +3177,7 @@
    "<a href=\"https://github.com/kantoks/skrupel.git\">Source</a> - PHP, JavaScript - GPL-2.0"
   ],
   [
-   "SLASH'EM (<a href=\"http://slashem.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/slashem.md\">entry</a>)",
+   "SLASH'EM (<a href=\"http://www.slashem.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/slashem.md\">entry</a>)",
    "Variant of the roguelike game NetHack that offers extra..",
    "<a href=\"http://slashem.sourceforge.net/stable.html\">Link</a>",
    "beta / inactive since 2007",
@@ -3393,7 +3393,7 @@
    "<a href=\"https://bitbucket.org/featheredmelody/lost-sky-project-public/src\">Source</a> - Python - 3-clause BSD"
   ],
   [
-   "Stunt Rally (<a href=\"http://stuntrally.tuxfamily.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/stunt_rally.md\">entry</a>)",
+   "Stunt Rally (<a href=\"https://stuntrally.tuxfamily.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/stunt_rally.md\">entry</a>)",
    "Racing game with rally style of driving.",
    "<a href=\"http://stuntrally.tuxfamily.org/downloads\">Link</a>",
    "mature / active",
@@ -3406,7 +3406,7 @@
    "<a href=\"https://web.archive.org/web/20160704003202/http://sumwars.org:80/wiki/Download\">Link</a>",
    "beta / inactive since 2014",
    "role playing, multiplayer, singleplayer",
-   "<a href=\"https://bitbucket.org/sumwars/sumwars-code/src\">Source</a> - C, C++, Lua - GPL-3.0"
+   "<a href=\"https://bitbucket.org/sumwars/sumwars-code\">Source</a> - C, C++, Lua - GPL-3.0"
   ],
   [
    "Superpowers (<a href=\"http://superpowers-html5.com/index.en.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/superpowers.md\">entry</a>)",
@@ -3457,7 +3457,7 @@
    "<a href=\"https://git.net-core.org/tome/t-engine4.git\">Source</a> - C, Lua - GPL-3.0"
   ],
   [
-   "Tanks of Freedom (<a href=\"https://w84death.itch.io/tanks-of-freedom\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tanks_of_freedom.md\">entry</a>)",
+   "Tanks of Freedom (<a href=\"https://tof.p1x.in/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tanks_of_freedom.md\">entry</a>)",
    "Indie Turn Based Strategy in Isometric Pixel Art.",
    "",
    "mature / active",
@@ -3473,7 +3473,7 @@
    "<a href=\"https://github.com/wfx/teg.git\">Source</a> - C, JavaScript, Perl - GPL-2.0"
   ],
   [
-   "Terasology (<a href=\"http://terasology.org/index.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/terasology.md\">entry</a>)",
+   "Terasology (<a href=\"https://terasology.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/terasology.md\">entry</a>)",
    "Stable platform for various types of gameplay settings in..",
    "",
    "mature / active",
@@ -3489,7 +3489,7 @@
    "<a href=\"https://github.com/Lisergishnu/TetraVex.git\">Source</a> - Swift - GPL-3.0"
   ],
   [
-   "The Battle for Wesnoth (<a href=\"http://www.wesnoth.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/the_battle_for_wesnoth.md\">entry</a>)",
+   "The Battle for Wesnoth (<a href=\"https://www.wesnoth.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/the_battle_for_wesnoth.md\">entry</a>)",
    "The Battle for Wesnoth is an open source, turn-based..",
    "<a href=\"http://www.wesnoth.org/#download\">Link</a>",
    "mature / active",
@@ -3585,7 +3585,7 @@
    "<a href=\"https://git.code.sf.net/p/torcs/code\">Source</a> - C++ - GPL-2.0"
   ],
   [
-   "Tremulous (<a href=\"http://tremulous.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tremulous.md\">entry</a>)",
+   "Tremulous (<a href=\"http://www.tremulous.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tremulous.md\">entry</a>)",
    "Asymmetric team-based first-person shooter with real-time..",
    "<a href=\"http://tremulous.net/files/\">Link</a>",
    "mature / inactive since 2016",
@@ -3849,7 +3849,7 @@
    "<a href=\"https://gitlab.com/osgames/wargamer.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
-   "Wargus (<a href=\"http://wargus.stratagus.com/index.shtml\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/wargus.md\">entry</a>)",
+   "Wargus (<a href=\"http://wargus.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/wargus.md\">entry</a>)",
    "Warcraft2 Mod that allows you to play Warcraft2 with the..",
    "<a href=\"http://wargus.stratagus.com/download.shtml\">Link</a>",
    "mature / active",
@@ -3873,7 +3873,7 @@
    "<a href=\"https://git.savannah.gnu.org/git/adonthell/adonthell-wastesedge.git\">Source</a> - Python - GPL-2.0"
   ],
   [
-   "WAtomic (<a href=\"https://sourceforge.net/projects/watomic/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/watomic.md\">entry</a>)",
+   "WAtomic (<a href=\"http://watomic.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/watomic.md\">entry</a>)",
    "Windows clone of Linux KAtomic logic game.",
    "<a href=\"https://sourceforge.net/projects/watomic/files/\">Link</a>",
    "mature / inactive since 2005",
@@ -4001,7 +4001,7 @@
    "C - GPL-2.0"
   ],
   [
-   "Xenowar (<a href=\"http://xenowar.net\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/xenowar.md\">entry</a>)",
+   "Xenowar (<a href=\"http://xenowar.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/xenowar.md\">entry</a>)",
    "Turned based strategy game for Win32 and Android OS..",
    "",
    "mature / inactive since 2014",

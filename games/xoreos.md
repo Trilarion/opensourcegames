@@ -9,6 +9,7 @@ _Reimplementation of BioWare’s Aurora engine (and derivatives) as used in thei
 - Code repository: https://github.com/xoreos/xoreos.git
 - Code language: C++
 - Code license: GPL-3.0
+- Code dependencies: OpenGL, SDL2
 
 Requires original game data.
 

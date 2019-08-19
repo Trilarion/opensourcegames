@@ -2,7 +2,7 @@
 
 _Jump and Run game like Super Mario World with an advanced Editor._
 
-- Home: https://sourceforge.net/projects/smclone/
+- Home: http://secretmaryo.org/, https://sourceforge.net/projects/smclone/
 - Media: https://en.wikipedia.org/wiki/Secret_Maryo_Chronicles
 - State: mature, inactive since 2009
 - Download: https://sourceforge.net/projects/smclone/files

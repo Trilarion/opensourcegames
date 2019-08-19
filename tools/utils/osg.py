@@ -10,7 +10,8 @@ valid_fields = ('Home', 'Media', 'State', 'Play', 'Download', 'Platform', 'Keywo
 'Code license', 'Code dependencies', 'Assets license', 'Build system', 'Build instructions')
 valid_platforms = ('Windows', 'Linux', 'macOS', 'Android', 'Browser')
 recommended_keywords = ('action', 'arcade', 'adventure', 'visual novel', 'sports', 'platform', 'puzzle', 'role playing', 'simulation', 'strategy', 'card game', 'board game', 'music', 'educational', 'tool', 'game engine', 'framework', 'library')
-regex_sanitze_name = re.compile(r"[^A-Za-z -0-9]+")
+regex_sanitize_name = re.compile(r"[^A-Za-z 0-9-]+")
+regex_sanitize_name_space_eater = re.compile(r" +")
 
 def entry_iterator(games_path):
     """
@@ -36,8 +37,9 @@ def derive_canonical_file_name(name):
     """
     Derives a canonical file name from a game name
     """
-    name = regex_sanitze_name.sub('', name)
-    name = name.replace(' ', '_')
+    name = regex_sanitize_name.sub('', name)
+    name = regex_sanitize_name_space_eater.sub('_', name)
+    name = name.replace('_-_', '-')
     name = name.casefold()
     name = name + '.md'
     return name
@@ -203,7 +205,8 @@ def assemble_infos(games_path):
             source_file = os.path.join(games_path, entry)
             target_file = os.path.join(games_path, canonical_file_name)
             if not os.path.isfile(target_file):
-                os.rename(source_file, target_file)
+                pass
+                # os.rename(source_file, target_file)
 
         # add to list
         infos.append(info)

@@ -8,7 +8,7 @@ _Racing game with rally style of driving._
 - Platform: Windows, Linux
 - Keywords: action, racing
 - Code repository: https://github.com/stuntrally/stuntrally.git
-- Code language: C++
+- Code language: C, C++
 - Code license: GPL-3.0
 - Code dependencies: Ogre, SDL2
 

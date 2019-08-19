@@ -6,7 +6,7 @@ _Turn-based online space strategy game playable in internet browsers._
 - State: mature, inactive since 2016
 - Keywords: strategy, massive multiplayer online
 - Code repository: https://gitlab.com/osgames/darkdestiny.git (import of svn), https://svn.code.sf.net/p/darkdestiny/code/ (svn)
-- Code language: Java, Javascript
+- Code language: Java, JavaScript
 - Code license: GPL
 - Assets license: Custom (artwork can be freely used for modification and sharing)
 

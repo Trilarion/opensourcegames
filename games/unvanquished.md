@@ -9,7 +9,7 @@ _FPS/RTS hybrid game powered by the Daemon engine (a combination of ioq3 and Xre
 - Platform: Windows, Linux, macOS
 - Keywords: action, shooter
 - Code repository: https://github.com/Unvanquished/Unvanquished.git
-- Code language: C++
+- Code language: C, C++
 - Code license: GPL-3.0 
 - Assets license: CC-BY-SA-2.5
 

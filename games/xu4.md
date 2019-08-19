@@ -1,4 +1,4 @@
-# XU4
+# xu4
 
 _A remake of the computer game Ultima IV._
 

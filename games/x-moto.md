@@ -8,7 +8,7 @@ _2D motocross platform game._
 - Download: http://xmoto.tuxfamily.org/
 - Platform: Windows, Linux, macOS
 - Keywords: action, racing
-- Code repository: (https://svn.tuxfamily.org/viewvc.cgi/xmoto_xmoto/ svn)
+- Code repository: https://svn.tuxfamily.org/viewvc.cgi/xmoto_xmoto/ (svn lost)
 - Code language: C++
 - Code license: GPL-2.0
 

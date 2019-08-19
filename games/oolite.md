@@ -9,7 +9,7 @@ _3D space trading and combat simulator in the spirit of Elite._
 - Platform: Windows, Linux, macOS
 - Keywords: simulation, space
 - Code repository: https://github.com/OoliteProject/oolite.git
-- Code language: Objective-C, C, Javascript
+- Code language: Objective-C, C, JavaScript
 - Code license: GPL-2.0
 - Code dependencies: Cocoa, SDL
 - Assets license: CC-BY-NC-SA

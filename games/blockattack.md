@@ -2,7 +2,7 @@
 
 _A match-3 game inspired by "Tetris Attack" but more PC friendly._
 
-- Home: https://blockattack.net
+- Home: https://blockattack.net/
 - State: mature
 - Download: https://blockattack.net/download/
 - Platform: Windows, Linux

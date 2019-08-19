@@ -8,7 +8,7 @@ _3D simulator game where you can drive, fly and sail various vehicles._
 - Platform: Windows
 - Keywords: simulation, cars
 - Code repository: https://github.com/RigsOfRods/rigs-of-rods.git
-- Code language: C++
+- Code language: C, C++, Angelscript
 - Code license: GPL-3.0
 
 ## Building

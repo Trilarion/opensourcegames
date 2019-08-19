@@ -2,7 +2,7 @@
 
 _3D space scroll-shooter with spaceship upgrade possibilities._
 
-- Home: https://www.viewizard.com/
+- Home: https://www.viewizard.com/, https://sourceforge.net/projects/openastromenace/
 - State: mature
 - Download: https://www.viewizard.com/download.html
 - Keywords: action, shooter

@@ -8,6 +8,7 @@ _Nostalgic glimpse in the past in a form of Commodore 64 game "Commando"._
 - Code repository: https://github.com/commandojs/CommandoJS.git
 - Code language: JavaScript, CoffeeScript
 - Code license: MIT
+- Code dependencies: melonJS
 
 ## Building
 

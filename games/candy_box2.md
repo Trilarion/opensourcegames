@@ -9,7 +9,7 @@ _Online text-based role-playing game featuring ASCII art._
 - Platform: Browser
 - Keywords: role playing, asciiart, text-based
 - Code repository: https://github.com/candybox2/candybox2.github.io.git
-- Code language: Typescript, Javascript
+- Code language: Typescript, JavaScript
 - Code license: GPL-3.0
 
 See also [Candy Box](https://github.com/candybox2/candybox)

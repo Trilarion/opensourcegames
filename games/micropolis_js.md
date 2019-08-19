@@ -6,7 +6,7 @@ _A port of Micropolis to JS/HTML5._
 - State: mature
 - Keywords: simulation
 - Code repository: https://github.com/graememcc/micropolisJS.git
-- Code language: Javascript
+- Code language: JavaScript
 - Code license: GPL-3.0
 
 ## Building

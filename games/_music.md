@@ -2,5 +2,5 @@
 # Music
 
 - **[PyKaraoke](pykaraoke.md)** (Python, LGPL-2.1, beta, inactive since 2011)
-- **[StepMania](stepmania.md)** (C++, MIT, mature)
+- **[StepMania](stepmania.md)** (C, C++, Lua, MIT, mature)
 - **[UltraStar Deluxe](ultrastar_deluxe.md)** (Pascal, GPL-2.0, mature)

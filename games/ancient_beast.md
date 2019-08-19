@@ -8,6 +8,7 @@ _Turn based strategy indie game project._
 - Code repository: https://github.com/FreezingMoon/AncientBeast.git
 - Code language: JavaScript
 - Code license: AGPL-3.0
+- Code dependencies: Phaser
 
 ## Building
 

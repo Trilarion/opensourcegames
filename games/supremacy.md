@@ -13,5 +13,7 @@ _"4X" (eXplore, eXpand, eXploit, eXterminate) turn-based, empire-building strate
 
 Ms-RL = Microsoft Reciprocal License
 
+See also the [forum](https://www.armadafleetcommand.com/onscreen/botf/viewforum.php?f=300) with recent activity. 
+
 ## Building
 

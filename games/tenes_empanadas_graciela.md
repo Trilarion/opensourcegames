@@ -7,7 +7,7 @@ _Clone of 'Plan Tactico y Estrategico de la Guerra', which is a pseudo-clone of 
 - Platform: Linux
 - Keywords: strategy, risklike
 - Code repository: https://github.com/wfx/teg.git
-- Code language: C, Javascript, Perl
+- Code language: C, JavaScript, Perl
 - Code license: GPL-2.0
 
 ## Building

@@ -22,10 +22,10 @@
    "",
    "mature / active",
    "puzzle, sliding blocks",
-   "<a href=\"https://github.com/gabrielecirulli/2048.git\">Source</a> - Javascript - MIT"
+   "<a href=\"https://github.com/gabrielecirulli/2048.git\">Source</a> - JavaScript - MIT"
   ],
   [
-   "3d.city (<a href=\"https://github.com/lo-th/3d.city\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/3d_city.md\">entry</a>)",
+   "3d.city (<a href=\"http://lo-th.github.io/3d.city/index.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/3d_city.md\">entry</a>)",
    "WebGL version of micropolisJS.",
    "",
    "mature / inactive since 2016",
@@ -361,7 +361,7 @@
    "<a href=\"https://git.code.sf.net/p/blobwars/code\">Source</a> - C++ - GPL-2.0"
   ],
   [
-   "Block Attack - Rise of the Blocks (<a href=\"https://blockattack.net\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/blockattack.md\">entry</a>)",
+   "Block Attack - Rise of the Blocks (<a href=\"https://blockattack.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/blockattack.md\">entry</a>)",
    "A match-3 game inspired by \"Tetris Attack\" but more PC..",
    "<a href=\"https://blockattack.net/download/\">Link</a>",
    "mature / active",
@@ -486,7 +486,7 @@
    "<a href=\"https://bitbucket.org/dalerank/caesaria/wiki/Releases\">Link</a>",
    "beta / active",
    "strategy",
-   "<a href=\"https://bitbucket.org/dalerank/caesaria.git\">Source</a> - C++, Javascript - GPL-3.0"
+   "<a href=\"https://bitbucket.org/dalerank/caesaria.git\">Source</a> - C++, JavaScript - GPL-3.0"
   ],
   [
    "Call to Power 2 (<a href=\"http://ctp2.darkdust.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/call_to_power2.md\">entry</a>)",
@@ -502,7 +502,7 @@
    "",
    "mature / inactive since 2013",
    "role playing, asciiart, text-based",
-   "<a href=\"https://github.com/candybox2/candybox2.github.io.git\">Source</a> - Typescript, Javascript - GPL-3.0"
+   "<a href=\"https://github.com/candybox2/candybox2.github.io.git\">Source</a> - Typescript, JavaScript - GPL-3.0"
   ],
   [
    "Cart Life (<a href=\"https://web.archive.org/web/20150619214353/http://www.richardhofmeier.com/cartlife/editions.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/cart_life.md\">entry</a>)",
@@ -758,7 +758,7 @@
    "",
    "mature / inactive since 2016",
    "strategy, massive multiplayer online",
-   "<a href=\"https://gitlab.com/osgames/darkdestiny.git\">Source</a> - Java, Javascript - GPL"
+   "<a href=\"https://gitlab.com/osgames/darkdestiny.git\">Source</a> - Java, JavaScript - GPL"
   ],
   [
    "Dark Oberon (<a href=\"http://dark-oberon.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/dark_oberon.md\">entry</a>)",
@@ -814,7 +814,7 @@
    "<a href=\"http://www.deliantra.net/play.html\">Link</a>",
    "mature / active",
    "role playing, massive multiplayer online",
-   "<a href=\"http://cvs.schmorp.de/deliantra/\">Source</a> - C - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/deliantra.git\">Source</a> - C - GPL-2.0"
   ],
   [
    "Delta Engine (<a href=\"https://deltaengine.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/delta_engine.md\">entry</a>)",
@@ -2118,7 +2118,7 @@
    "",
    "mature / active",
    "simulation",
-   "<a href=\"https://github.com/graememcc/micropolisJS.git\">Source</a> - Javascript - GPL-3.0"
+   "<a href=\"https://github.com/graememcc/micropolisJS.git\">Source</a> - JavaScript - GPL-3.0"
   ],
   [
    "MicroWar 2.0 (<a href=\"http://microwar.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/microwar_2.md\">entry</a>)",
@@ -2134,7 +2134,7 @@
    "<a href=\"https://www.minetest.net/downloads/\">Link</a>",
    "mature / active",
    "framework, voxel",
-   "<a href=\"https://github.com/minetest/minetest.git\">Source</a> - C++, Lua - LGPL-2.1"
+   "<a href=\"https://github.com/minetest/minetest.git\">Source</a> - C, C++, Lua - LGPL-2.1"
   ],
   [
    "mkxp (<a href=\"https://github.com/Ancurio/mkxp\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/mkxp.md\">entry</a>)",
@@ -2238,7 +2238,7 @@
    "<a href=\"https://neverball.org/download.php\">Link</a>",
    "mature / active",
    "action",
-   "<a href=\"https://github.com/Neverball/neverball.git\">Source</a> - C - GPL-2.0"
+   "<a href=\"https://github.com/Neverball/neverball.git\">Source</a> - C, C++ - GPL-2.0"
   ],
   [
    "Nexiuz (<a href=\"http://www.alientrap.com/games/nexuiz/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/nexiuz.md\">entry</a>)",
@@ -2294,7 +2294,7 @@
    "<a href=\"http://oolite.org/download/\">Link</a>",
    "mature / active",
    "simulation, space",
-   "<a href=\"https://github.com/OoliteProject/oolite.git\">Source</a> - Objective-C, C, Javascript - GPL-2.0"
+   "<a href=\"https://github.com/OoliteProject/oolite.git\">Source</a> - Objective-C, C, JavaScript - GPL-2.0"
   ],
   [
    "Open AL (<a href=\"http://www.openal.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/open_al.md\">entry</a>)",
@@ -2422,7 +2422,7 @@
    "",
    "beta / active",
    "action, requires original content",
-   "<a href=\"https://github.com/openzelda/openzelda-source.git\">Source</a> - C++ - zlib"
+   "<a href=\"https://github.com/openzelda/openzelda-source.git\">Source</a> - C, C++ - zlib"
   ],
   [
    "OpenArena (<a href=\"http://openarena.ws/smfnews.php\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/openarena.md\">entry</a>)",
@@ -2710,7 +2710,7 @@
    "<a href=\"https://pioneerspacesim.net/page/download/\">Link</a>",
    "mature / active",
    "simulation",
-   "<a href=\"https://github.com/pioneerspacesim/pioneer.git\">Source</a> - C++, C - Apache-2.0"
+   "<a href=\"https://github.com/pioneerspacesim/pioneer.git\">Source</a> - C, C++, Lua - Apache-2.0"
   ],
   [
    "Pioneers (<a href=\"https://sourceforge.net/projects/pio/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/pioneers.md\">entry</a>)",
@@ -2900,9 +2900,9 @@
    "REGoth (<a href=\"https://github.com/REGoth-project/REGoth\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/regoth.md\">entry</a>)",
    "Reimplementation of the zEngine, used by the game \"Gothic\"..",
    "<a href=\"https://github.com/REGoth-project/REGoth/releases\">Link</a>",
-   "beta / active",
+   "mature / active",
    "role playing, remake, requires original content",
-   "<a href=\"https://github.com/REGoth-project/REGoth.git\">Source</a> - C++ - GPL-3.0"
+   "<a href=\"https://github.com/REGoth-project/REGoth-bs.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
    "Return to the Roots (<a href=\"https://www.siedler25.org/index.php\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/return_to_the_roots.md\">entry</a>)",
@@ -2918,7 +2918,7 @@
    "",
    "mature / active",
    "simulation, cars",
-   "<a href=\"https://github.com/RigsOfRods/rigs-of-rods.git\">Source</a> - C++ - GPL-3.0"
+   "<a href=\"https://github.com/RigsOfRods/rigs-of-rods.git\">Source</a> - C, C++, Angelscript - GPL-3.0"
   ],
   [
    "Rocks'n'Diamonds (<a href=\"http://www.artsoft.org/rocksndiamonds/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rocks_and_diamonds.md\">entry</a>)",
@@ -3222,7 +3222,7 @@
    "<a href=\"https://www.solarus-games.org/en/solarus/download\">Link</a>",
    "mature / active",
    "framework, game-engine",
-   "<a href=\"https://gitlab.com/solarus-games/solarus.git\">Source</a> - C++ - GPL-3.0"
+   "<a href=\"https://gitlab.com/solarus-games/solarus.git\">Source</a> - C, C++, Lua - GPL-3.0"
   ],
   [
    "Song of Albion (<a href=\"https://code.google.com/archive/p/songofalbion/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/song_of_albion.md\">entry</a>)",
@@ -3382,7 +3382,7 @@
    "<a href=\"https://sourceforge.net/projects/stepmania/files/\">Link</a>",
    "mature / active",
    "music",
-   "<a href=\"https://github.com/stepmania/stepmania.git\">Source</a> - C++ - MIT"
+   "<a href=\"https://github.com/stepmania/stepmania.git\">Source</a> - C, C++, Lua - MIT"
   ],
   [
    "Story of a Lost Sky (<a href=\"https://www.pygame.org/project-Story+of+a+Lost+Sky-1106-.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/story_of_a_lost_sky.md\">entry</a>)",
@@ -3398,7 +3398,7 @@
    "<a href=\"http://stuntrally.tuxfamily.org/downloads\">Link</a>",
    "mature / active",
    "action, racing",
-   "<a href=\"https://github.com/stuntrally/stuntrally.git\">Source</a> - C++ - GPL-3.0"
+   "<a href=\"https://github.com/stuntrally/stuntrally.git\">Source</a> - C, C++ - GPL-3.0"
   ],
   [
    "Summoning Wars (<a href=\"https://web.archive.org/web/20161221150109/http://sumwars.org:80/wiki/Main_Page\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/summoming_wars.md\">entry</a>)",
@@ -3406,7 +3406,7 @@
    "<a href=\"https://web.archive.org/web/20160704003202/http://sumwars.org:80/wiki/Download\">Link</a>",
    "beta / inactive since 2014",
    "role playing, multiplayer, singleplayer",
-   "<a href=\"https://bitbucket.org/sumwars/sumwars-code/src\">Source</a> - C++ - GPL-3.0"
+   "<a href=\"https://bitbucket.org/sumwars/sumwars-code/src\">Source</a> - C, C++, Lua - GPL-3.0"
   ],
   [
    "Superpowers (<a href=\"http://superpowers-html5.com/index.en.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/superpowers.md\">entry</a>)",
@@ -3470,7 +3470,7 @@
    "",
    "beta / inactive since 2015",
    "strategy, risklike",
-   "<a href=\"https://github.com/wfx/teg.git\">Source</a> - C, Javascript, Perl - GPL-2.0"
+   "<a href=\"https://github.com/wfx/teg.git\">Source</a> - C, JavaScript, Perl - GPL-2.0"
   ],
   [
    "Terasology (<a href=\"http://terasology.org/index.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/terasology.md\">entry</a>)",
@@ -3593,7 +3593,7 @@
    "<a href=\"https://github.com/darklegion/tremulous.git\">Source</a> - C - GPL-2.0"
   ],
   [
-   "Tressette (<a href=\"https://invido.it/progetti/tressette_progetto.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tresette.md\">entry</a>)",
+   "Tressette (<a href=\"https://invido.it/progetti/tressette_progetto.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tressette.md\">entry</a>)",
    "Italian card game.",
    "<a href=\"https://invido.it/download/tressette_download.html\">Link</a>",
    "mature / inactive since 2017",
@@ -3774,7 +3774,7 @@
    "<a href=\"https://unvanquished.net/?page_id=318\">Link</a>",
    "mature / active",
    "action, shooter",
-   "<a href=\"https://github.com/Unvanquished/Unvanquished.git\">Source</a> - C++ - GPL-3.0"
+   "<a href=\"https://github.com/Unvanquished/Unvanquished.git\">Source</a> - C, C++ - GPL-3.0"
   ],
   [
    "Urho3D (<a href=\"https://urho3d.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/urho3d.md\">entry</a>)",
@@ -3886,7 +3886,7 @@
    "<a href=\"https://wl.widelands.org/wiki/Download/\">Link</a>",
    "mature / active",
    "strategy, real time",
-   "<a href=\"https://github.com/widelands/widelands.git\">Source</a> - C++, Lua - GPL-2.0"
+   "<a href=\"https://github.com/widelands/widelands.git\">Source</a> - C, C++, Lua, Python - GPL-2.0"
   ],
   [
    "Witch Blast (<a href=\"https://github.com/Cirrus-Minor/witchblast\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/witch_blast.md\">entry</a>)",
@@ -3974,7 +3974,7 @@
    "<a href=\"http://xmoto.tuxfamily.org/\">Link</a>",
    "mature / inactive since 2014",
    "action, racing",
-   "C++ - GPL-2.0"
+   "<a href=\"https://svn.tuxfamily.org/viewvc.cgi/xmoto_xmoto/\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "XArchon (<a href=\"http://xarchon.seul.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/xarchon.md\">entry</a>)",
@@ -4041,7 +4041,7 @@
    "<a href=\"https://github.com/prophile/xsera.git\">Source</a> - C, Lua - MIT"
   ],
   [
-   "XU4 (<a href=\"http://xu4.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/xu4.md\">entry</a>)",
+   "xu4 (<a href=\"http://xu4.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/xu4.md\">entry</a>)",
    "A remake of the computer game Ultima IV.",
    "<a href=\"http://xu4.sourceforge.net/download.php\">Link</a>",
    "mature / active",

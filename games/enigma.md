@@ -11,6 +11,7 @@ _Puzzle game based on Oxyd._
 - Code repository: https://github.com/Enigma-Game/Enigma.git, https://svn.code.sf.net/p/enigma-game/source/ (svn)
 - Code language: C, C++
 - Code license: GPL-2.0
+- Code dependencies: SDL
 
 Inspired by Oxyd.
 

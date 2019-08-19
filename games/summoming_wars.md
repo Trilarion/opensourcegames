@@ -7,7 +7,7 @@ _Role-playing game, featuring both a single-player and a multiplayer mode for ab
 - Download: <https://web.archive.org/web/20160704003202/http://sumwars.org:80/wiki/Download>
 - Keywords: role playing, multiplayer, singleplayer
 - Code repository: https://bitbucket.org/sumwars/sumwars-code/src (hg), https://gitlab.com/osgames/sumwars.git (+)
-- Code language: C++
+- Code language: C, C++, Lua
 - Code license: GPL-3.0
 
 ## Building

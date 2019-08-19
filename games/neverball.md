@@ -9,8 +9,9 @@ _Part puzzle game, part action game, and entirely a test of skill._
 - Platform: Windows, macOS
 - Keywords: action
 - Code repository: https://github.com/Neverball/neverball.git
-- Code language: C
+- Code language: C, C++
 - Code license: GPL-2.0
+- Code dependencies: SDL
 
 Inspired by Super Monkey Ball.
 

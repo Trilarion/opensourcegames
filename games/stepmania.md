@@ -8,7 +8,7 @@ _Dance and rhythm game._
 - Platform: Windows
 - Keywords: music
 - Code repository: https://github.com/stepmania/stepmania.git
-- Code language: C++
+- Code language: C, C++, Lua
 - Code license: MIT
 
 ## Building

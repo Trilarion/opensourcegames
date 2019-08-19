@@ -8,7 +8,7 @@ _Voxel game engine._
 - Platform: Windows, Linux, macOS, Android
 - Keywords: framework, voxel
 - Code repository: https://github.com/minetest/minetest.git
-- Code language: C++, Lua
+- Code language: C, C++, Lua
 - Code license: LGPL-2.1
 - Code dependencies: Irrlicht
 - Assets license: CC-BY-SA-3.0

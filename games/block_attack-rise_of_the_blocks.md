@@ -6,7 +6,7 @@ _A match-3 game inspired by "Tetris Attack" but more PC friendly._
 - State: mature
 - Download: https://blockattack.net/download/
 - Platform: Windows, Linux
-- Keywords: puzzle, inspired by Tetris Attack, match 3, sliding blocks
+- Keywords: puzzle, clone, inspired by Tetris Attack, match 3, sliding blocks
 - Code repository: https://github.com/blockattack/blockattack-game.git
 - Code language: C++
 - Code license: GPL-2.0

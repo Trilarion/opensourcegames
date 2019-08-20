@@ -18,5 +18,6 @@
 - **[Me and My Shadow](me_and_my_shadow.md)** (C++, GPL-3.0, beta)
 - **[Pingus](pingus.md)** (C++, GPL-3.0, mature)
 - **[Rabbit Escape](rabbit_escape.md)** (Java, GPL-2.0, mature)
+- **[Rocks'n'Diamonds](rocksndiamonds.md)** (C, GPL-2.0, mature)
 - **[Secret Maryo Chronicles](secret_maryo_chronicles.md)** (C++, GPL-3.0, mature, inactive since 2009)
 - **[TetraVex](tetravex.md)** (Swift, GPL-3.0, beta)

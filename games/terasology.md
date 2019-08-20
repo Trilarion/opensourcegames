@@ -4,7 +4,7 @@ _Stable platform for various types of gameplay settings in a voxel world._
 
 - Home: https://terasology.org/
 - State: mature
-- Keywords: framework, 3D
+- Keywords: framework, 3D, inspired by Minecraft, remake
 - Code repository: https://github.com/MovingBlocks/Terasology.git
 - Code language: Java
 - Code license: Apache-2.0

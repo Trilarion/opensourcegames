@@ -4,7 +4,7 @@ _Multiplayer voxel RPG written in Rust and taking inspiration from games such as
 
 - Home: https://veloren.net/
 - State: beta
-- Keywords: role playing, voxel
+- Keywords: role playing, LAN), multiplayer (online, open content, voxel
 - Code repository: https://gitlab.com/veloren/veloren.git
 - Code language: Rust
 - Code license: GPL-3.0

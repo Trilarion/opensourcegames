@@ -7,7 +7,7 @@ _Cross-platform third-person action game with an anthropomorphic rebel bunny rab
 - State: mature
 - Download: https://osslugaru.gitlab.io/
 - Platform: Windows, Linux, macOS
-- Keywords: action
+- Keywords: action, inspired by Lugaru: The Rabbit's Foot, remake
 - Code repository: https://gitlab.com/osslugaru/lugaru.git
 - Code language: C++
 - Code license: GPL-2.0

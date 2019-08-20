@@ -7,7 +7,7 @@ _2D action game in which the player controls small but witty and nimble humanoid
 - State: mature 
 - Download: https://www.openclonk.org/download/
 - Platform: Windows, Linux
-- Keywords: action
+- Keywords: action, inspired by Clonk, remake
 - Code repository: https://github.com/openclonk/openclonk.git
 - Code language: C, C++
 - Code license: ISC

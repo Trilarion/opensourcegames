@@ -6,7 +6,7 @@ _C port of the computer game Asylum, which was written by Andy Southgate in 1994
 - State: mature, inactive since 2009 
 - Download: http://sdl-asylum.sourceforge.net/main.html#Download
 - Platform: Linux
-- Keywords: action, arcade
+- Keywords: action, arcade, inspired by Asylum, remake
 - Code repository: https://gitlab.com/osgames/sdl-asylum.git (import of svn), https://svn.code.sf.net/p/sdl-asylum/code/ (svn)
 - Code language: C
 - Code license: GPL-3.0

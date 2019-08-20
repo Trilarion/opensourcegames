@@ -28,7 +28,7 @@ lang -> code language
 framework -> code dependencies
 license -> code license / assets license
 content -> keywords
-info ??
+info -> after fields
 updated not used
 images not used
 video: not used
@@ -42,7 +42,7 @@ from utils.osg import *
 osgc_name_aliases = {}
 
 # conversion between licenses
-osgc_licenses_map = {'GPL2': 'GPL-2.0', 'GPL3': 'GPL-3.0', 'AGPL3': 'AGPL-3.0', 'LGPL3': 'LGPL-3.0', 'LGPL2': 'LGPL-2.1', 'MPL': 'MPL-2.0'}
+osgc_licenses_map = {'GPL2': 'GPL-2.0', 'GPL3': 'GPL-3.0', 'AGPL3': 'AGPL-3.0', 'LGPL3': 'LGPL-3.0', 'LGPL2': 'LGPL-2.1', 'MPL': 'MPL-2.0', 'Apache': 'Apache-2.0', 'Artistic': 'Artistic License'}
 
 def similarity(a, b):
     return SequenceMatcher(None, str.casefold(a), str.casefold(b)).ratio()
@@ -64,8 +64,10 @@ def unique_field_contents(entries, field):
 
 if __name__ == "__main__":
 
-    # paths
     similarity_threshold = 0.8
+    maximal_newly_created_entries = 20
+
+    # paths
     root_path  = os.path.realpath(os.path.join(os.path.dirname(__file__), os.path.pardir))
 
     # import the osgameclones data
@@ -86,12 +88,16 @@ if __name__ == "__main__":
         osgc_entries.extend(_)
     print('{} entries in osgameclones'.format(len(osgc_entries)))
 
-    # fix names (so they are not longer detected as deviations downstreams)
+    # fix names and licenses (so they are not longer detected as deviations downstreams)
     for index, entry in enumerate(osgc_entries):
         name = entry['name']
         if name in osgc_name_aliases:
             entry['name'] = osgc_name_aliases[name]
             osgc_entries[index] = entry
+        if 'license' in entry:
+            licenses = entry['license']
+            licenses = [osgc_licenses_map.get(x, x) for x in licenses]
+            entry['license'] = licenses
 
     # which fields do they have
     osgc_fields = set()
@@ -134,6 +140,8 @@ if __name__ == "__main__":
     #        if similarity(osgc_name, our_name) > similarity_threshold:
     #            print('{} - {}'.format(osgc_name, our_name))
 
+    newly_created_entries = 0
+
     for osgc_entry in osgc_entries:
         osgc_name = osgc_entry['name']
 
@@ -166,8 +174,6 @@ if __name__ == "__main__":
                     our_assets_licenses = our_entry.get('assets license', [])
                     for license in licenses:
                         # transform
-                        if license in osgc_licenses_map:
-                            license = osgc_licenses_map[license]
                         if license not in our_code_licenses and license not in our_assets_licenses:
                             p += ' code/assets license {} missing\n'.format(license)
 
@@ -264,21 +270,89 @@ if __name__ == "__main__":
                 if p:
                     print('{}\n{}'.format(name, p))
 
-
         if not is_included:
             # a new entry, that we have never seen, maybe we should make an entry of our own
             continue
 
+            if newly_created_entries >= maximal_newly_created_entries:
+                continue
+
+            game_type = osgc_entry.get('type', None)
+            status = osgc_entry.get('status', None)
+            if status == 'unplayable':
+                # for now not the unplayable ones
+                continue
+
+            # determine file name
             print('create new entry for {}'.format(osgc_name))
             file_name = derive_canonical_file_name(osgc_name)
+            target_file = os.path.join(games_path, file_name)
+            if os.path.isfile(target_file):
+                print('warning: cannot create {}, already existing'.format(file_name))
+
+            # add name
             entry = '# {}\n\n'.format(osgc_name)
 
-            # for now only make remakes or clones of at least playable
-            game_type = osgc_entry['type'] # do not overwrite type!
-            if game_type not in ('remake', 'clone'):
-                continue
+            # add description
             description = '{} of {}'.format(game_type.capitalize(), ', '.join(osgc_entry['originals']))
             entry += '_{}_\n\n'.format(description)
+
+            # home
+            home = osgc_entry.get('url', None)
+            entry += '- Home: {}\n'.format(home)
+
+            # state
+            entry += '- State: {}'.format(status)
+            if 'development' in osgc_entry:
+                if osgc_entry['development'] == 'halted':
+                    entry += ', inactive since XX'
+            entry += '\n'
+
+            # keywords
+            keywords = []
+            if game_type:
+                keywords.append(game_type)
+            if 'originals' in osgc_entry:
+                originals = osgc_entry['originals']
+                for original in originals:
+                    keywords.append('inspired by {}'.format(original))
+            if 'multiplayer' in osgc_entry:
+                multiplayer = osgc_entry['multiplayer']
+                keywords.extend(multiplayer)
+            if 'content' in osgc_entry:
+                content = osgc_entry['content']
+                keywords.append('{} content'.format(content))
+            if keywords:
+                entry += '- Keywords: {}\n'.format(', '.join(keywords))
+
+            # code repository (mandatory on our side)
+            repo = osgc_entry.get('repo', None)
+            if repo.startswith('https://git') and not repo.endswith('.git'):
+                # we have them with .git on github/gitlab
+                repo += '.git'
+            entry += '- Code repository: {}\n'.format(repo)
+
+            # code language (mandatory on our side)
+            lang = osgc_entry.get('lang', None)
+            entry += '- Code language: {}\n'.format(lang)
+
+            # code license
+            entry += '- Code license: {}\n'.format(', '.join(osgc_entry['license']))
+
+            # code dependencies (if existing)
+            if 'framework' in osgc_entry:
+                entry += '- Code dependencies: {}\n'.format(', '.join(osgc_entry['framework']))
+
+            # write info (if existing)
+            if 'info' in osgc_entry:
+                entry += '\n{}\n'.format(osgc_entry['info'])
+
+            # write ## Building
+            entry += '\n## Building:\n'
+
+            # finally write to file
+            # write_text(target_file, entry)
+            newly_created_entries += 1
 
 
 

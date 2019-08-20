@@ -5,7 +5,7 @@ _Modelled after the golden oldie Archon game created by Freefall Associates and 
 - Home: http://xarchon.seul.org/
 - State: beta, inactive since 2003
 - Download: http://xarchon.seul.org/download.html
-- Keywords: strategy
+- Keywords: strategy, clone, inspired by Archon
 - Code repository: https://gitlab.com/osgames/xarchon.git (import of cvs), (cvs at cvs.seul.org)
 - Code language: C, C++
 - Code license: GPL-2.0

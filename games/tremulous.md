@@ -7,7 +7,7 @@ _Asymmetric team-based first-person shooter with real-time strategy elements._
 - State: mature, inactive since 2016 
 - Download: http://tremulous.net/files/
 - Platform: Windows, Linux, macOS
-- Keywords: action, shooter
+- Keywords: action, clone, shooter
 - Code repository: https://github.com/darklegion/tremulous.git, http://tremulous.cvs.sourceforge.net (cvs)
 - Code language: C
 - Code license: GPL-2.0

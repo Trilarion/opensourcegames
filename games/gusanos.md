@@ -6,9 +6,9 @@ _Clone of the DOS game Liero._
 - State: beta, inactive since 2006
 - Download: https://sourceforge.net/projects/gusanos/files/
 - Platform: Windows, Linux
-- Keywords: action, wormslike
+- Keywords: action, inspired by Liero, remake, wormslike
 - Code repository: http://gusanos.cvs.sourceforge.net (cvs)
-- Code language: ?
-- Code license: ?
+- Code language: C++
+- Code license: GPL-2.0
 
 ## Building

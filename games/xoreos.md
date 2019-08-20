@@ -5,7 +5,7 @@ _Reimplementation of BioWare’s Aurora engine (and derivatives) as used in thei
 - Home: https://xoreos.org/
 - State: beta
 - Download: https://xoreos.org/downloads/index.html
-- Keywords: framework
+- Keywords: framework, engine recreation, inspired by BioWare's Aurora engine, remake, requires original content
 - Code repository: https://github.com/xoreos/xoreos.git
 - Code language: C++
 - Code license: GPL-3.0

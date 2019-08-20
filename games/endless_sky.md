@@ -6,7 +6,7 @@ _2D space trading and combat game similar to the classic Escape Velocity series.
 - Media: https://en.wikipedia.org/wiki/Escape_Velocity_(video_game)#Legacy
 - State: mature
 - Download: https://github.com/endless-sky/endless-sky/releases
-- Keywords: role playing, popular
+- Keywords: role playing, clone, inspired by Escape Velocity, popular
 - Code repository: https://github.com/endless-sky/endless-sky.git
 - Code language: C++
 - Code license: GPL-3.0

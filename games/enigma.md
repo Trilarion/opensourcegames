@@ -7,7 +7,7 @@ _Puzzle game based on Oxyd._
 - State: mature
 - Download: http://www.nongnu.org/enigma/download.html#stable
 - Platform: Windows, Linux, macOS
-- Keywords: puzzle
+- Keywords: puzzle, inspired by Oxyd, remake
 - Code repository: https://github.com/Enigma-Game/Enigma.git, https://svn.code.sf.net/p/enigma-game/source/ (svn)
 - Code language: C, C++
 - Code license: GPL-2.0

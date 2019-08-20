@@ -26,7 +26,7 @@
 - **[GDash](gdash.md)** (C++, MIT, beta)
 - **[GLtron](gltron.md)** (C, GPL, beta, inactive since 2017)
 - **[GPL Arcade Volleyball](gpl_arcade_volleyball.md)** (C++, GPL-2.0, beta, inactive since 2006)
-- **[GUSANOS](gusanos.md)** (?, ?, beta, inactive since 2006)
+- **[GUSANOS](gusanos.md)** (C++, GPL-2.0, beta, inactive since 2006)
 - **[LGames](lgames.md)** (C++, GPL-2.0, mature)
 - **[Linwarrior 3D](linwarrior_3d.md)** (C++, Apache-2.0, mature, inactive since 2010)
 - **[Liquid War](liquid_war.md)** (C, GPL-3.0, mature, inactive since 2015)

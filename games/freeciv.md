@@ -6,7 +6,7 @@ _Freeciv is a Free and Open Source empire-building strategy game inspired by the
 - Media: https://en.wikipedia.org/wiki/Freeciv
 - State: mature
 - Download: http://www.freeciv.org/download.html
-- Keywords: strategy, multiplayer, turn-based
+- Keywords: strategy, clone, inspired by Civilization II, multiplayer, turn-based
 - Code repository: https://github.com/freeciv/freeciv.git
 - Code language: C
 - Code license: GPL-2.0

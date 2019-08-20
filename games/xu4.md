@@ -4,9 +4,9 @@ _A remake of the computer game Ultima IV._
 
 - Home: http://xu4.sourceforge.net/, https://sourceforge.net/projects/xu4/
 - Media: <https://en.wikipedia.org/wiki/Ultima_IV:_Quest_of_the_Avatar#Ultima_IV_on_modern_operating_systems>
-- State: mature
+- State: mature, inactive since 2016
 - Download: http://xu4.sourceforge.net/download.php
-- Keywords: role playing, singleplayer
+- Keywords: role playing, inspired by Ultima IV, remake, singleplayer
 - Code repository: https://svn.code.sf.net/p/xu4/code/ (svn)
 - Code language: C++
 - Code license: GPL-2.0

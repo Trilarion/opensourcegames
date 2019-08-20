@@ -6,7 +6,7 @@ _Football simulation game_
 - State: mature, inactive since 2017
 - Download: https://sourceforge.net/projects/etw/files/
 - Platform: Windows, Linux, macOS
-- Keywords: simulation, football
+- Keywords: simulation, football, inspired by Eat The Whistle, remake
 - Code repository: https://svn.code.sf.net/p/etw/code/ (svn), http://etw.cvs.sourceforge.net/viewvc/ (cvs)
 - Code language: C
 - Code license: ?

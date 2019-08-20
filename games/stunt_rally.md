@@ -6,7 +6,7 @@ _Racing game with rally style of driving._
 - State: mature 
 - Download: http://stuntrally.tuxfamily.org/downloads, https://sourceforge.net/projects/stuntrally/files/
 - Platform: Windows, Linux
-- Keywords: action, racing
+- Keywords: action, clone, inspired by TrackMania, racing
 - Code repository: https://github.com/stuntrally/stuntrally.git
 - Code language: C, C++
 - Code license: GPL-3.0

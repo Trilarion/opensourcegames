@@ -6,7 +6,7 @@ _Puzzle/action game of rescuing rabbits, inspired by Lemmings and Pingus._
 - State: mature
 - Download: https://www.artificialworlds.net/rabbit-escape/#install
 - Platform: Windows, Linux, macOS, Android
-- Keywords: action, puzzle
+- Keywords: action, inspired by Lemmings, puzzle, remake
 - Code repository: https://github.com/andybalaam/rabbit-escape.git
 - Code language: Java
 - Code license: GPL-2.0

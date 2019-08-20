@@ -6,7 +6,7 @@ _Open source role playing game._
 - Media: https://de.wikipedia.org/wiki/FreedroidRPG (German)
 - State: mature
 - Download: http://www.freedroid.org/download/
-- Keywords: role playing, isometric, singleplayer
+- Keywords: role playing, clone, inspired by Paradroid, isometric, singleplayer
 - Code repository: https://gitlab.com/freedroid/freedroid-src.git, https://git.code.sf.net/p/freedroid/code
 - Code language: C, C++, Lua
 - Code license: GPL-2.0

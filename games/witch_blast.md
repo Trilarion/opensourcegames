@@ -5,7 +5,7 @@ _Roguelike dungeon crawl shooter heavily inspired from Binding Of Isaac._
 - Home: https://github.com/Cirrus-Minor/witchblast
 - State: beta, inactive since 2015
 - Download: https://github.com/Cirrus-Minor/witchblast/releases
-- Keywords: role playing, roguelike
+- Keywords: role playing, inspired by The Binding of Isaac, open content, remake, roguelike
 - Code repository: https://github.com/Cirrus-Minor/witchblast.git
 - Code language: C++
 - Code license: GPL-3.0

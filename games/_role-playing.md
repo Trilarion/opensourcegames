@@ -116,6 +116,6 @@
 - **[Waste's Edge](wastes_edge.md)** (Python, GPL-2.0, beta)
 - **[Witch Blast](witch_blast.md)** (C++, GPL-3.0, beta, inactive since 2015)
 - **[World of Phaos](world_of_phaos.md)** (PHP, GPL-2.0, mature, inactive since 2011)
-- **[xu4](xu4.md)** (C++, GPL-2.0, mature)
+- **[xu4](xu4.md)** (C++, GPL-2.0, mature, inactive since 2016)
 - **[ZAngband](zangband.md)** (C, Custom, mature, inactive since 2005)
 - **[Zelda: Mystery of Solarus DX](zelda_mystery_of_solarus_dx.md)** (Lua, GPL-3.0, mature)

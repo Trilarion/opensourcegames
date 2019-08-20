@@ -7,7 +7,7 @@ _Part puzzle game, part action game, and entirely a test of skill._
 - State: mature
 - Download: https://neverball.org/download.php
 - Platform: Windows, macOS
-- Keywords: action
+- Keywords: action, clone, inspired by Super Monkey Ball
 - Code repository: https://github.com/Neverball/neverball.git
 - Code language: C, C++
 - Code license: GPL-2.0

@@ -2,6 +2,8 @@
 # Puzzle
 
 - **[2048](2048.md)** (JavaScript, MIT, mature)
+- **[4DTris](4dtris.md)** (C, GPL-2.0, mature, inactive since 2012)
+- **[aquastax](aquastax.md)** (JavaScript, MIT, beta)
 - **[Atomiks](atomiks.md)** (C, GPL-3.0, mature, inactive since 2015)
 - **[Atomix](atomix.md)** (C, GPL-2.0, mature)
 - **[Biniax](biniax.md)** (C, zlib, mature, inactive since 2012)

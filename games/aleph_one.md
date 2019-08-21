@@ -1,4 +1,4 @@
-# Aleph One: Marathon
+# Aleph One
 
 _Continuation of Bungie's Marathon 2 FPS game engine._
 
@@ -7,7 +7,7 @@ _Continuation of Bungie's Marathon 2 FPS game engine._
 - State: mature, inactive since 2015
 - Download: https://sourceforge.net/projects/marathon/files/
 - Platform: Windows, Linux, macOS
-- Keywords: action, shooter
+- Keywords: action, inspired by Marathon + Marathon 2, remake, shooter
 - Code repository: https://github.com/Aleph-One-Marathon/alephone.git, https://svn.code.sf.net/p/marathon/code/ (svn)
 - Code language: C++, Lua
 - Code license: GPL-3.0

@@ -8,7 +8,7 @@ from utils.utils import *
 essential_fields = ('Home', 'State', 'Keywords', 'Code repository', 'Code language', 'Code license')
 valid_fields = ('Home', 'Media', 'State', 'Play', 'Download', 'Platform', 'Keywords', 'Code repository', 'Code language',
 'Code license', 'Code dependencies', 'Assets license', 'Build system', 'Build instructions')
-valid_platforms = ('Windows', 'Linux', 'macOS', 'Android', 'Browser')
+valid_platforms = ('Windows', 'Linux', 'macOS', 'Android', 'browser')
 recommended_keywords = ('action', 'arcade', 'adventure', 'visual novel', 'sports', 'platform', 'puzzle', 'role playing', 'simulation', 'strategy', 'card game', 'board game', 'music', 'educational', 'tool', 'game engine', 'framework', 'library', 'remake')
 regex_sanitize_name = re.compile(r"[^A-Za-z 0-9-]+")
 regex_sanitize_name_space_eater = re.compile(r" +")
@@ -143,7 +143,7 @@ def parse_entry(content):
     for field in ['home', 'download', 'play', 'code repository']:
         if field in info:
             for url in info[field]:
-                if not (url.startswith('http://') or url.startswith('https://') or url.startswith('git://')):
+                if not (url.startswith('http://') or url.startswith('https://') or url.startswith('git://') or url.startswith('svn://')):
                     raise RuntimeError('URL "{}" in entry "{}" does not start with http'.format(url, info['name']))
                 if ' ' in url:
                     raise RuntimeError('URL "{}" in entry "{}" contains a space'.format(url, info['name']))

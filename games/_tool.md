@@ -2,6 +2,7 @@
 # Tool
 
 - **[AutoREALM](autorealm.md)** (C++, GPL-3.0, mature)
+- **[Bt Builder](bt_builder.md)** (C, C++, GPL-3.0, beta)
 - **[D-Fend Reloaded](d-fend_reloaded.md)** (Pascal, GPL-3.0, mature, inactive since 2015)
 - **[Deity](deity.md)** (Python, GPL-2.0, mature, inactive since 2014)
 - **[Doxygen](doxygen.md)** (C++, GPL-2.0, mature)

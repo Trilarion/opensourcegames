@@ -2,6 +2,7 @@
 # Simulation
 
 - **[3d.city](3dcity.md)** (JavaScript, GPL-3.0, mature, inactive since 2016)
+- **[Bridge Command](bridge_command.md)** (C++, GPL-2.0, mature)
 - **[Cart Life](cart_life.md)** (AGS Script, Custom, mature, inactive since 2014)
 - **[Core War](core_war.md)** (C, Java, GPL-2.0, 2-clause BSD, mature)
 - **[Danger from the Deep](danger_from_the_deep.md)** (C++, GPL-2.0, beta, inactive since 2011)

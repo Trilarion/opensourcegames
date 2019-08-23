@@ -5,7 +5,7 @@ _Browser strategy game._
 - Home: https://web.archive.org/web/20180419021717/http://devana.eu/, https://sourceforge.net/projects/devana/
 - State: beta
 - Download: https://sourceforge.net/projects/devana/files
-- Platform: browser
+- Platform: Web
 - Keywords: strategy
 - Code repository: https://gitlab.com/osgames/devana.git (snapshot of source releases)
 - Code language: PHP

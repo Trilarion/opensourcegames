@@ -4,7 +4,7 @@ _Remake of Armor Alley_
 
 - Home: http://www.schillmania.com/armor-alley/
 - State: beta
-- Platform: browser
+- Platform: Web
 - Keywords: action, inspired by Armor Alley, remake, strategy
 - Code repository: https://github.com/scottschiller/ArmorAlley.git
 - Code language: JavaScript

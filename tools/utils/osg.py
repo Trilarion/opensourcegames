@@ -8,7 +8,7 @@ from utils.utils import *
 essential_fields = ('Home', 'State', 'Keywords', 'Code repository', 'Code language', 'Code license')
 valid_fields = ('Home', 'Media', 'State', 'Play', 'Download', 'Platform', 'Keywords', 'Code repository', 'Code language',
 'Code license', 'Code dependencies', 'Assets license', 'Build system', 'Build instructions')
-valid_platforms = ('Windows', 'Linux', 'macOS', 'Android', 'browser')
+valid_platforms = ('Windows', 'Linux', 'macOS', 'Android', 'Web')
 recommended_keywords = ('action', 'arcade', 'adventure', 'visual novel', 'sports', 'platform', 'puzzle', 'role playing', 'simulation', 'strategy', 'card game', 'board game', 'music', 'educational', 'tool', 'game engine', 'framework', 'library', 'remake')
 regex_sanitize_name = re.compile(r"[^A-Za-z 0-9-]+")
 regex_sanitize_name_space_eater = re.compile(r" +")

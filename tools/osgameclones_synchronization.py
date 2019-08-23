@@ -45,7 +45,8 @@ osgc_name_aliases = {}
 osgc_licenses_map = {'GPL2': 'GPL-2.0', 'GPL3': 'GPL-3.0', 'AGPL3': 'AGPL-3.0', 'LGPL3': 'LGPL-3.0', 'LGPL2': 'LGPL-2.1', 'MPL': 'MPL-2.0', 'Apache': 'Apache-2.0', 'Artistic': 'Artistic License'}
 
 # ignore osgc entries (for various reasons like unclear license etc.)
-osgc_ignored_entries = ["A Mouse's Vengeance", 'achtungkurve.com', 'AdaDoom3', 'Agendaroids', 'Alien 8', 'Ard-Reil', 'Balloon Fight', 'bladerunner (Engine within SCUMMVM)', 'Block Shooter', 'Bomb Mania Reloaded', 'boulder-dash', 'Cannon Fodder']
+osgc_ignored_entries = ["A Mouse's Vengeance", 'achtungkurve.com', 'AdaDoom3', 'Agendaroids', 'Alien 8', 'Ard-Reil', 'Balloon Fight', 'bladerunner (Engine within SCUMMVM)', 'Block Shooter', 'Bomb Mania Reloaded', 'boulder-dash', 'Cannon Fodder', 'Contra_remake', 'CosmicArk-Advanced', 'Deuteros X', 'datastorm'
+                        ,'div-columns', 'div-pacman2600', 'div-pitfall', 'div-spaceinvaders2600']
 
 def similarity(a, b):
     return SequenceMatcher(None, str.casefold(a), str.casefold(b)).ratio()
@@ -325,12 +326,12 @@ if __name__ == "__main__":
                 originals = osgc_entry['originals']
                 if type(originals) == str:
                     originals = [originals]
-                keywords.append('inspired by {}'.format(' + '.join(original)))
+                keywords.append('inspired by {}'.format(' + '.join(originals)))
             if 'multiplayer' in osgc_entry:
                 multiplayer = osgc_entry['multiplayer']
                 if type(multiplayer) == str:
                     multiplayer = [multiplayer]
-                keywords.extend('multiplayer {}'.format(' + '.join(multiplayer)))
+                keywords.append('multiplayer {}'.format(' + '.join(multiplayer)))
             if 'content' in osgc_entry:
                 content = osgc_entry['content']
                 keywords.append('{} content'.format(content))

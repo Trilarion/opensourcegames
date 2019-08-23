@@ -977,12 +977,28 @@
    "<a href=\"https://github.com/calref/cboe.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
-   "Clou! (<a href=\"https://sourceforge.net/projects/cosp/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/clou.md\">entry</a>)",
-   "Remake of the 1986 game They Stole a Million.",
-   "<a href=\"https://sourceforge.net/projects/cosp/files/\">Link</a>",
+   "Clonepoint (<a href=\"https://rohit.itch.io/clonepoint\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/clonepoint.md\">entry</a>)",
+   "Clone of Gunpoint.",
+   "<a href=\"https://rohit.itch.io/clonepoint\">Link</a>",
    "beta / active",
-   "adventure, action/adventure",
-   "<a href=\"https://github.com/vcosta/derclou.git\">Source</a> - C - Custom"
+   "action, clone, inspired by Gunpoint, open content",
+   "<a href=\"https://github.com/rohit-n/Clonepoint.git\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
+   "Clumsy Bird (<a href=\"https://ellisonleao.github.io/clumsy-bird/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/clumsy_bird.md\">entry</a>)",
+   "Remake of Flappy Bird.",
+   "",
+   "mature / inactive since 2017",
+   "remake, inspired by Flappy Bird, skill",
+   "<a href=\"https://github.com/ellisonleao/clumsy-bird.git\">Source</a> - JavaScript - MIT"
+  ],
+  [
+   "coab (<a href=\"https://github.com/simeonpilgrim/coab\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/coab.md\">entry</a>)",
+   "Remake of Curse of the Azure Bonds.",
+   "",
+   "mature / active",
+   "role playing, inspired by Curse of the Azure Bonds, remake",
+   "<a href=\"https://github.com/simeonpilgrim/coab.git\">Source</a> - C# - ???"
   ],
   [
    "COCOS2D-X (<a href=\"http://cocos2d-x.org/cocos2dx\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/cocos2d-x.md\">entry</a>)",
@@ -993,11 +1009,19 @@
    "<a href=\"https://github.com/cocos2d/cocos2d-x.git\">Source</a> - C++ - MIT"
   ],
   [
-   "Colobot (<a href=\"https://colobot.info/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/colobot.md\">entry</a>)",
+   "Colditz Escape (<a href=\"https://aperture-software.github.io/colditz-escape/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/colditz_escape.md\">entry</a>)",
+   "Remake of Escape from Colditz.",
+   "<a href=\"https://github.com/aperture-software/colditz-escape/releases\">Link</a>",
+   "mature / active",
+   "strategy, inspired by Escape from Colditz, remake",
+   "<a href=\"https://github.com/aperture-software/colditz-escape.git\">Source</a> - C - GPL-3.0"
+  ],
+  [
+   "Colobot: Gold Edition (<a href=\"https://colobot.info/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/colobot_gold_edition.md\">entry</a>)",
    "Real-time strategy game, where you can program your units..",
    "<a href=\"https://colobot.info/download-colobot-gold/\">Link</a>",
    "mature / active",
-   "strategy, real time",
+   "strategy, inspired by Colobot, open content, real time, remake",
    "<a href=\"https://github.com/colobot/colobot.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
@@ -1015,6 +1039,14 @@
    "mature / active",
    "adventure, console",
    "<a href=\"https://github.com/brandon-rhodes/python-adventure.git\">Source</a> - Python - Apache-2.0"
+  ],
+  [
+   "Commander Genius (<a href=\"http://clonekeenplus.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/commander_genius.md\">entry</a>)",
+   "Remake of Commander Keen Series.",
+   "<a href=\"http://clonekeenplus.sourceforge.net/download.php\">Link</a>",
+   "mature / active",
+   "action, inspired by Commander Keen Series, remake",
+   "<a href=\"https://gitlab.com/Dringgstein/Commander-Genius.git\">Source</a> - C, C++ - GPL-2.0"
   ],
   [
    "CommandoJS (<a href=\"https://web.archive.org/web/20180814182143/http://commandojs.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/commandojs.md\">entry</a>)",
@@ -1041,12 +1073,44 @@
    "<a href=\"https://gitlab.com/osgames/corewar.git\">Source</a> - C, Java - GPL-2.0"
   ],
   [
-   "Corsix Theme Hospital (<a href=\"http://forums.corsixth.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/corsix_theme_hospital.md\">entry</a>)",
+   "CorsixTH (<a href=\"http://corsixth.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/corsixth.md\">entry</a>)",
    "Reimplementation of the 1997 Bullfrog business sim Theme..",
    "<a href=\"https://github.com/CorsixTH/CorsixTH/releases\">Link</a>",
    "mature / active",
-   "strategy, remake, requires original content",
+   "strategy, commercial content, inspired by Theme Hospital, remake, requires original content",
    "<a href=\"https://github.com/CorsixTH/CorsixTH.git\">Source</a> - Lua, C++ - MIT"
+  ],
+  [
+   "Cosmosmash (<a href=\"http://perso.b2b2c.ca/~sarrazip/dev/cosmosmash.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/cosmosmash.md\">entry</a>)",
+   "Remake of Astrosmash.",
+   "<a href=\"http://perso.b2b2c.ca/~sarrazip/dev/cosmosmash.html#download\">Link</a>",
+   "mature / inactive since 2013",
+   "action, inspired by Astrosmash, remake",
+   "C++ - GPL-2.0"
+  ],
+  [
+   "Crack Attack! (<a href=\"https://www.nongnu.org/crack-attack/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/crack_attack.md\">entry</a>)",
+   "Remake of Tetris Attack.",
+   "<a href=\"https://www.nongnu.org/crack-attack/#releases\">Link</a>",
+   "mature / inactive since 2005",
+   "puzzle, inspired by Tetris Attack, remake",
+   "<a href=\"https://savannah.nongnu.org/cvs/?group=crack-attack\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "Craft (<a href=\"https://www.michaelfogleman.com/projects/craft/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/craft.md\">entry</a>)",
+   "Clone of Minecraft.",
+   "",
+   "mature / inactive since 2017",
+   "puzzle, clone, inspired by Minecraft, multiplayer Online, open content, sandbox, voxel",
+   "<a href=\"https://github.com/fogleman/Craft.git\">Source</a> - C, Python - MIT"
+  ],
+  [
+   "CrappyBird (<a href=\"https://varunpant.com/static/resources/CrappyBird/index.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/crappybird.md\">entry</a>)",
+   "Remake of Flappy Bird.",
+   "",
+   "mature / inactive since 2017",
+   "puzzle, inspired by Flappy Bird, remake",
+   "<a href=\"https://github.com/varunpant/CrappyBird.git\">Source</a> - JavaScript - MIT"
   ],
   [
    "Crimson Fields (<a href=\"http://crimson.seul.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/crimson_fields.md\">entry</a>)",
@@ -1081,12 +1145,52 @@
    "<a href=\"https://github.com/weidai11/cryptopp.git\">Source</a> - C++ - Boost-1.0"
   ],
   [
+   "CrystalQuest (<a href=\"https://haleymt.github.io/CrystalQuest/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/crystalquest.md\">entry</a>)",
+   "Remake of Crystal Quest.",
+   "",
+   "mature / inactive since 2017",
+   "puzzle, inspired by Crystal Quest, remake",
+   "<a href=\"https://github.com/haleymt/CrystalQuest.git\">Source</a> - JavaScript - MIT"
+  ],
+  [
+   "Cubosphere (<a href=\"https://github.com/cubosphere/cubosphere-code/projects\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/cubosphere.md\">entry</a>)",
+   "Remake of Kula World.",
+   "",
+   "beta / active",
+   "puzzle, inspired by Kula World, remake",
+   "<a href=\"https://github.com/cubosphere/cubosphere-code.git\">Source</a> - C, C++ - GPL-3.0"
+  ],
+  [
+   "Cytadela (<a href=\"http://cytadela.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/cytadela.md\">entry</a>)",
+   "Remake of Cytadela, an Amiga first person shooter from..",
+   "<a href=\"https://sourceforge.net/projects/cytadela/files/\">Link</a>",
+   "beta / inactive since 2013",
+   "remake, inspired by Cytadela, shooter",
+   "C++ - GPL-3.0"
+  ],
+  [
    "D-Fend Reloaded (<a href=\"http://dfendreloaded.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/d-fend_reloaded.md\">entry</a>)",
    "Graphical environment for DOSBox.",
    "<a href=\"http://dfendreloaded.sourceforge.net/Download.html\">Link</a>",
    "mature / inactive since 2015",
    "tool, frontend",
    "<a href=\"https://github.com/Trilarion/D-Fend-Reloaded.git\">Source</a> - Pascal - GPL-3.0"
+  ],
+  [
+   "D2X-XL (<a href=\"http://www.descent2.de/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/d2x-xl.md\">entry</a>)",
+   "Remake of Descent, Descent II.",
+   "",
+   "mature / inactive since 2015",
+   "remake, inspired by Descent + Descent II, non-free content, shooter",
+   "<a href=\"https://svn.code.sf.net/p/d2x-xl/code/trunk\">Source</a> - C++ - Custom"
+  ],
+  [
+   "Daggerfall Unity (<a href=\"https://www.dfworkshop.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/daggerfall_unity.md\">entry</a>)",
+   "Remake of The Elder Scrolls II: Daggerfall.",
+   "<a href=\"https://www.dfworkshop.net/projects/daggerfall-unity/live-builds/\">Link</a>",
+   "mature / active",
+   "role playing, inspired by The Elder Scrolls II: Daggerfall, remake, requires additional content",
+   "<a href=\"https://github.com/Interkarma/daggerfall-unity.git\">Source</a> - C# - MIT"
   ],
   [
    "Daimonin (<a href=\"https://www.daimonin.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/daimonin.md\">entry</a>)",
@@ -1129,12 +1233,36 @@
    "<a href=\"https://gitlab.com/osgames/darkcity.git\">Source</a> - PHP - GPL-3.0"
   ],
   [
+   "DarkPlaces (<a href=\"https://icculus.org/twilight/darkplaces/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/darkplaces.md\">entry</a>)",
+   "Remake of Quake.",
+   "<a href=\"https://icculus.org/twilight/darkplaces/download.html\">Link</a>",
+   "mature / inactive since 2014",
+   "remake, inspired by Quake",
+   "<a href=\"https://svn.icculus.org/twilight/trunk/darkplaces/\">Source</a> - C - GPL-2.0"
+  ],
+  [
    "Dash Engine (<a href=\"https://dash.circularstudios.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/dash_engine.md\">entry</a>)",
    "OpenGL engine written in the D language.",
    "",
    "mature / inactive since 2015",
    "framework",
    "<a href=\"https://github.com/Circular-Studios/Dash.git\">Source</a> - D - MIT"
+  ],
+  [
+   "Data Storm (<a href=\"https://github.com/haroldo-ok/datastorm\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/data_storm.md\">entry</a>)",
+   "Remake of Turmoil.",
+   "",
+   "mature / inactive since 2017",
+   "platform, inspired by Turmoil, remake",
+   "<a href=\"https://github.com/haroldo-ok/datastorm.git\">Source</a> - C - Apache-2.0"
+  ],
+  [
+   "Dave Gnukem (<a href=\"https://djoffe.com/gnukem/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/dave_gnukem.md\">entry</a>)",
+   "Retro-style 2D scrolling platform shooter similar to, and..",
+   "<a href=\"https://sourceforge.net/projects/gnukem/files/gnukem/\">Link</a>",
+   "mature / active",
+   "platform, 2D, inspired by Duke Nukem, open content, shooter",
+   "<a href=\"https://github.com/davidjoffe/dave_gnukem.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Dawn (<a href=\"https://github.com/iamCode/Dawn/wiki\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/dawn.md\">entry</a>)",
@@ -1145,12 +1273,28 @@
    "<a href=\"https://github.com/iamCode/Dawn.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
+   "Deathchase 3D (<a href=\"https://web.archive.org/web/20070711231311/http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/index.htm\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/deathchase_3d.md\">entry</a>)",
+   "Remake of 3D Deathchase.",
+   "",
+   "mature / inactive since 2002",
+   "remake, inspired by 3D Deathchase, shooter",
+   "<a href=\"https://web.archive.org/web/20070711231311/http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/deathchase3d-0.9.tar.gz\">Source</a> - C - GPL-2.0"
+  ],
+  [
    "Decker (<a href=\"https://web.archive.org/web/20110926115405/http://www10.caro.net:80/dsi/decker/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/decker.md\">entry</a>)",
    "Cyberspace hacking RPG where you hack into corporate..",
    "<a href=\"https://sourceforge.net/projects/decker/files\">Link</a>",
    "beta / inactive since 2013",
    "role playing",
    "<a href=\"https://github.com/jpmalkiewicz/decker.git\">Source</a> - Java - GPL-2.0"
+  ],
+  [
+   "Defendguin (<a href=\"http://www.newbreedsoftware.com/defendguin/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/defendguin.md\">entry</a>)",
+   "Remake of Defender.",
+   "<a href=\"http://www.newbreedsoftware.com/defendguin/download/\">Link</a>",
+   "mature / inactive since 2009",
+   "remake, inspired by Defender",
+   "C - GPL-2.0"
   ],
   [
    "Deity (<a href=\"http://deity.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/deity.md\">entry</a>)",
@@ -1177,12 +1321,36 @@
    "<a href=\"https://github.com/DeltaEngine/DeltaEngine.git\">Source</a> - C# - Apache-2.0"
   ],
   [
+   "DelverEngine (<a href=\"https://github.com/Interrupt/delverengine\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/delverengine.md\">entry</a>)",
+   "Remake of Delver.",
+   "",
+   "beta / active",
+   "game engine, commercial content, inspired by Delver, remake",
+   "<a href=\"https://github.com/Interrupt/delverengine.git\">Source</a> - Java - Custom"
+  ],
+  [
    "DemiGod (<a href=\"https://github.com/MattMatt0240/DemiGod\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/demigod.md\">entry</a>)",
    "Retro-style, turn-based RPG game.",
    "",
    "beta / inactive since 2013",
    "role playing",
    "<a href=\"https://github.com/MattMatt0240/DemiGod.git\">Source</a> - Java - GPL-3.0"
+  ],
+  [
+   "Der Clou! (<a href=\"https://sourceforge.net/projects/cosp/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/der_clou.md\">entry</a>)",
+   "Remake of the 1986 game They Stole a Million / The Clue!.",
+   "<a href=\"https://sourceforge.net/projects/cosp/files/\">Link</a>",
+   "beta / inactive since 2017",
+   "adventure, action/adventure, clone, inspired by The Clue!",
+   "<a href=\"https://github.com/vcosta/derclou.git\">Source</a> - C - Custom"
+  ],
+  [
+   "DesktopAdventures (<a href=\"https://github.com/shinyquagsire23/DesktopAdventures\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/desktopadventures.md\">entry</a>)",
+   "Remake of Indiana Jones and his Desktop Adventures, Star..",
+   "",
+   "beta / active",
+   "game engine, commercial content, inspired by Indiana Jones and his Desktop Adventures + Star Wars: Yoda Stories, remake",
+   "<a href=\"https://github.com/shinyquagsire23/DesktopAdventures.git\">Source</a> - C - LGPL-2.1"
   ],
   [
    "DeSmuME (<a href=\"http://desmume.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/desmume.md\">entry</a>)",
@@ -1201,12 +1369,52 @@
    "<a href=\"https://gitlab.com/osgames/devana.git\">Source</a> - PHP - zlib"
   ],
   [
+   "Devilution (<a href=\"https://github.com/galaxyhaxz/devilution\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/devilution.md\">entry</a>)",
+   "Remake of Diablo.",
+   "",
+   "mature / active",
+   "action, commercial content, engine recreation, inspired by Diablo, remake, requires original content",
+   "<a href=\"https://github.com/galaxyhaxz/devilution.git\">Source</a> - C, C++ - Unlicense"
+  ],
+  [
+   "DGEngine (<a href=\"https://github.com/dgengin/DGEngine/wiki\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/dgengine.md\">entry</a>)",
+   "Remake of Diablo.",
+   "",
+   "beta / active",
+   "action, commercial content, inspired by Diablo, remake, requires original content",
+   "<a href=\"https://github.com/dgengin/DGEngine.git\">Source</a> - C++ - Zlib"
+  ],
+  [
+   "dhewm3 (<a href=\"https://dhewm3.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/dhewm3.md\">entry</a>)",
+   "Remake of Doom 3.",
+   "<a href=\"https://github.com/dhewm/dhewm3/releases/latest\">Link</a>",
+   "mature / active",
+   "action, commercial content, inspired by Doom 3, remake, requires original content, shooter",
+   "<a href=\"https://github.com/dhewm/dhewm3.git\">Source</a> - C, C++ - GPL-3.0"
+  ],
+  [
    "diablo-js (<a href=\"https://github.com/mitallast/diablo-js\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/diablo-js.md\">entry</a>)",
    "Isometric minimal-code style game at html5 canvas and..",
    "",
    "mature / active",
    "role playing",
    "<a href=\"https://github.com/mitallast/diablo-js.git\">Source</a> - Java, JavaScript - MIT"
+  ],
+  [
+   "Digbuild (<a href=\"http://blog.mezeske.com/?p=507\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/digbuild.md\">entry</a>)",
+   "Remake of Minecraft.",
+   "",
+   "beta / inactive since 2011",
+   "remake, inspired by Minecraft, sandbox, voxel",
+   "<a href=\"https://github.com/emezeske/digbuild.git\">Source</a> - C, C++ - GPL-2.0"
+  ],
+  [
+   "Digger Remastered (<a href=\"https://digger.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/digger_remastered.md\">entry</a>)",
+   "Remake of Digger.",
+   "<a href=\"https://digger.org/download.html\">Link</a>",
+   "mature / inactive since 2004",
+   "action, inspired by Digger, remake",
+   "C - GPL-2.0"
   ],
   [
    "Digital: A Love Story (<a href=\"http://scoutshonour.com/digital/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/digital_a_love_story.md\">entry</a>)",
@@ -1231,6 +1439,22 @@
    "mature / active",
    "strategy, board game, risklike",
    "<a href=\"https://svn.code.sf.net/p/domination/code/Domination\">Source</a> - Java - GPL-3.0"
+  ],
+  [
+   "Doom Legacy (<a href=\"http://doomlegacy.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/doom_legacy.md\">entry</a>)",
+   "Remake of Doom, Doom II, Heretic, Hexen.",
+   "<a href=\"https://sourceforge.net/projects/doomlegacy/files/\">Link</a>",
+   "mature / active",
+   "action, commercial content, inspired by Doom + Doom II + Heretic + Hexen, original content required, remake, shooter",
+   "<a href=\"https://git.code.sf.net/p/doomlegacy/legacy2\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "Doom64EX (<a href=\"https://doom64ex.wordpress.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/doom64ex.md\">entry</a>)",
+   "Remake of Doom 64.",
+   "<a href=\"https://doom64ex.wordpress.com/downloads/\">Link</a>",
+   "mature / active",
+   "action, commercial content, inspired by Doom 64, original content required, remake",
+   "<a href=\"https://github.com/svkaiser/Doom64EX.git\">Source</a> - C, C++ - GPL-2.0"
   ],
   [
    "Doxygen (<a href=\"http://www.doxygen.nl/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/doxygen.md\">entry</a>)",
@@ -3871,6 +4095,14 @@
    "beta / inactive since 2003",
    "role playing",
    "<a href=\"https://gitlab.com/osgames/theclans.git\">Source</a> - C - GPL-2.0"
+  ],
+  [
+   "The Dark Mod (<a href=\"http://www.thedarkmod.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/the_dark_mod.md\">entry</a>)",
+   "Clone of Thief.",
+   "<a href=\"http://www.thedarkmod.com/downloads/\">Link</a>",
+   "mature / active",
+   "role playing, clone, inspired by Thief",
+   "<a href=\"https://svn.thedarkmod.com/publicsvn/darkmod_src/trunk/\">Source</a> - C++ - GPL-3.0"
   ],
   [
    "The Endless Dungeons (<a href=\"https://sourceforge.net/projects/endlessdungeons/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/the_endless_dungeons.md\">entry</a>)",

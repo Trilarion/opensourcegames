@@ -3,8 +3,8 @@
 
 - **[AdaVenture](adaventure.md)** (Ada, GPL-3.0, mature)
 - **[Childsplay](childsplay.md)** (Python, GPL-3.0, mature)
-- **[Clou!](clou.md)** (C, Custom, beta)
 - **[Colossal Cave Adventure](colossal_cave_adventure.md)** (Python, Apache-2.0, mature)
+- **[Der Clou!](der_clou.md)** (C, Custom, beta, inactive since 2017)
 - **[Digital: A Love Story](digital_a_love_story.md)** (Ren'py, CC-BY-NC-SA, mature)
 - **[Dragon History - Dračí Historie](dragon_history-dra_historie.md)** (Pascal, Script, GPL-2.0, mature, inactive since 2010)
 - **[Fanwor](fanwor.md)** (C, GPL-2.0, mature)

@@ -3,6 +3,8 @@
 
 - **[Abuse](abuse.md)** (C++, Lisp, Public domain, GPL-2.0, WTFPL, mature, inactive since 2011)
 - **[CaveExpress](caveexpress.md)** (C, GPL-3.0, mature)
+- **[Data Storm](data_storm.md)** (C, Apache-2.0, mature, inactive since 2017)
+- **[Dave Gnukem](dave_gnukem.md)** (C++, GPL-2.0, mature)
 - **[Open Surge](open_surge.md)** (C, GPL-3.0, beta)
 - **[Smash Battle](smash_battle.md)** (C++, ?, beta, inactive since 2011)
 - **[The Legend of Edgar](the_legend_of_edgar.md)** (C, GPL-2.0, mature)

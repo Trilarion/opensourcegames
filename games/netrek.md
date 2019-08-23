@@ -13,7 +13,7 @@ _Multi-player battle simulation with a Star Trek theme._
 - Code language: C
 - Code license: Custom (permissive)
 
-See also [JTrek](http://ftp.netrek.org/pub/netrek/clients/jtrek/), [Netrek RES-RSA](https://launchpad.net/netrek-res-rsa)
+See also [JTrek](http://ftp.netrek.org/pub/netrek/clients/jtrek/), [Netrek RES-RSA](https://launchpad.net/netrek-res-rsa), [HTML5 netrek](https://github.com/apsillers/html5-netrek)
 
 ## Building
 

@@ -2,6 +2,7 @@
 # Sports
 
 - **[Bygfoot](bygfoot.md)** (Java, GPL-2.0, beta)
+- **[Dust Racing 2D](dust_racing_2d.md)** (C, C++, GPL-3.0, mature)
 - **[GPL Arcade Volleyball](gpl_arcade_volleyball.md)** (C++, GPL-2.0, beta, inactive since 2006)
 - **[NetStatsBaseball](netstatsbaseball.md)** (C, Public domain, mature)
 - **[Open Soccer Star](open_soccer_star.md)** (PHP, GPL-3.0, beta)

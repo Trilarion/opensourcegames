@@ -1,4 +1,4 @@
-# Globulation2
+# Globulation 2
 
 _Real-Time Strategy (RTS) game which reduces micro-management by automatically assigning tasks to units._
 

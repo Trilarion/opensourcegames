@@ -731,6 +731,19 @@ def export_git_code_repositories_json():
     text = json.dumps(urls, indent=1)
     write_text(json_path, text)
 
+
+def sort_text_file(file, name):
+    """
+    Reads a text file, splits in lines, removes duplicates, sort, writes back.
+    """
+    text = read_text(file)
+    text = text.split('\n')
+    text = sorted(list(set(text)), key=str.casefold)
+    print('{} contains {} items'.format(name, len(text)))
+    text = '\n'.join(text)
+    write_text(file, text)
+
+
 if __name__ == "__main__":
 
     # paths
@@ -763,3 +776,7 @@ if __name__ == "__main__":
 
     # check external links (only rarely)
     # check_validity_external_links()
+
+    # sort backlog and rejected
+    sort_text_file(os.path.join(root_path, 'tools', 'backlog.txt'), 'backlog')
+    sort_text_file(os.path.join(root_path, 'tools', 'rejected.txt'), 'rejected games list')

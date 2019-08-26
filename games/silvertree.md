@@ -1,4 +1,4 @@
-# Silvertree
+# SilverTree
 
 _3D RPG with a hybrid real time, turn based system._
 

@@ -35,21 +35,17 @@ video: not used
 """
 
 import ruamel_yaml as yaml
-from difflib import SequenceMatcher
 from utils.osg import *
 
 # should change on osgameclones
-osgc_name_aliases = {}
+osgc_name_aliases = {'4DTris': '4D-TRIS', 'fheroes2': 'Free Heroes 2'}
 
 # conversion between licenses
 osgc_licenses_map = {'GPL2': 'GPL-2.0', 'GPL3': 'GPL-3.0', 'AGPL3': 'AGPL-3.0', 'LGPL3': 'LGPL-3.0', 'LGPL2': 'LGPL-2.1', 'MPL': 'MPL-2.0', 'Apache': 'Apache-2.0', 'Artistic': 'Artistic License'}
 
 # ignore osgc entries (for various reasons like unclear license etc.)
 osgc_ignored_entries = ["A Mouse's Vengeance", 'achtungkurve.com', 'AdaDoom3', 'Agendaroids', 'Alien 8', 'Ard-Reil', 'Balloon Fight', 'bladerunner (Engine within SCUMMVM)', 'Block Shooter', 'Bomb Mania Reloaded', 'boulder-dash', 'Cannon Fodder', 'Contra_remake', 'CosmicArk-Advanced', 'Deuteros X', 'datastorm'
-                        ,'div-columns', 'div-pacman2600', 'div-pitfall', 'div-spaceinvaders2600']
-
-def similarity(a, b):
-    return SequenceMatcher(None, str.casefold(a), str.casefold(b)).ratio()
+                        ,'div-columns', 'div-pacman2600', 'div-pitfall', 'div-spaceinvaders2600', 'EXILE', 'Free in the Dark', 'Football Manager', 'Fight Or Perish', 'EarthShakerDS', 'Entombed!']
 
 
 def unique_field_contents(entries, field):
@@ -142,13 +138,13 @@ if __name__ == "__main__":
     print('{} in both, {} only in osgameclones, {} only with us'.format(len(common_names), len(osgc_names), len(our_names)))
 
     # find similar names among the rest
-    #for osgc_name in osgc_names:
-    #    for our_name in our_names:
-    #        if similarity(osgc_name, our_name) > similarity_threshold:
-    #            print('{} - {}'.format(osgc_name, our_name))
+    for osgc_name in osgc_names:
+        for our_name in our_names:
+            if game_name_similarity(osgc_name, our_name) > similarity_threshold:
+                print('{} - {}'.format(osgc_name, our_name))
 
     newly_created_entries = 0
-
+    # iterate over their entries
     for osgc_entry in osgc_entries:
         osgc_name = osgc_entry['name']
 

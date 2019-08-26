@@ -4,6 +4,8 @@
 - **[Castle Game Engine](castle_game_engine.md)** (Pascal, LGPL-2.0, mature)
 - **[DelverEngine](delverengine.md)** (Java, Custom, beta)
 - **[DesktopAdventures](desktopadventures.md)** (C, LGPL-2.1, beta)
+- **[erampage](erampage.md)** (C, GPL-2.0, beta, inactive since 2015)
+- **[Flare](flare.md)** (C++, Java, GPL-3.0, mature)
 - **[Free in the Dark (engine)](free_in_the_dark_engine.md)** (C, C++, GPL-2.0, beta)
 - **[Open Game Engine](open_game_engine.md)** (C++, LGPL-2.1, beta, inactive since 2008)
 - **[OpenMW](openmw.md)** (C++, GPL-3.0, mature)

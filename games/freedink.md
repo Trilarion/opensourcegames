@@ -1,4 +1,4 @@
-# Freedink
+# FreeDink
 
 _Dink Smallwood is an adventure/role-playing game, similar to Zelda (2D top view), made by RTsoft. FreeDink is a new and portable version of the game engine._
 

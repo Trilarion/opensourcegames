@@ -1,0 +1,247 @@
+dark city (https://github.com/darken33) maybe he wants to import from sourceforge, ansonsten svn import to github
+DOOM engine (https://github.com/id-Software/DOOM)
+endgame singularity recursive clone (bei anderen auch)
+fosslinux.com
+github - dwarfcorp
+github.com/Attnam/ivan
+gitlab.com/librebob/athenaeum
+Hedgewars
+heXon
+holyspirit/lechemindeladam cvs conversion?
+http://directpython.sourceforge.net/
+http://icculus.org/airstrike/
+http://icculus.org/asciiroth/
+http://icculus.org/avp/
+http://icculus.org/bitstream/
+http://icculus.org/blackshades/
+http://icculus.org/d2x/
+http://icculus.org/duke3d/
+http://icculus.org/freespace2/
+http://icculus.org/freyja/
+http://icculus.org/hge-unix/ http://hge.relishgames.com/
+http://icculus.org/jugglemaster/
+http://icculus.org/jumpnbump/
+http://icculus.org/pyddr/
+http://icculus.org/rott/
+http://icculus.org/tennix/
+http://icculus.org/toby/
+http://libsdl-android.sourceforge.net/
+http://linball.sourceforge.net/
+http://psyco.sourceforge.net/
+http://pyopengl.sourceforge.net/
+http://sam.zoy.org/monsterz/
+http://vamos.sourceforge.net/
+http://www.fifengine.net/
+http://www.newbreedsoftware.com/s
+http://www.plasmapong.com/plasma-pong/plasma-pong/
+http://www.zsnes.com/ emulator/platform
+https://appimage.org/
+https://blends.debian.org/games/tasks/
+https://cocainediesel.fun/
+https://duion.com/games/uebergame/main
+https://empiredirectory.net/
+https://empiredirectory.net/index.php/downloads/viewdownload/6-server-software/13-empire-server
+https://en.wikipedia.org/w/index.php?title=Etterna_(Game)&action=edit&redlink=1
+https://en.wikipedia.org/w/index.php?title=GNU_Backgammon&action=edit&redlink=1
+https://en.wikipedia.org/w/index.php?title=Golden_Age_of_Civilizations&action=edit&redlink=1
+https://en.wikipedia.org/w/index.php?title=Kdegames&action=edit&redlink=1
+https://en.wikipedia.org/w/index.php?title=Minetest&action=edit&redlink=1
+https://en.wikipedia.org/w/index.php?title=Simon_Tatham%27s_Portable_Puzzle_Collection&action=edit&redlink=1
+https://en.wikipedia.org/w/index.php?title=Simple_Solitaire_Collection&action=edit&redlink=1
+https://en.wikipedia.org/w/index.php?title=Super_Tux_Party&action=edit&redlink=1
+https://en.wikipedia.org/w/index.php?title=Trigger_Rally&action=edit&redlink=1
+https://en.wikipedia.org/wiki/Abuse_(video_game)
+https://en.wikipedia.org/wiki/Arx_Fatalis
+https://en.wikipedia.org/wiki/AssaultCube prop. content
+https://en.wikipedia.org/wiki/Crystal_Space
+https://en.wikipedia.org/wiki/GNOME_Games_Collection
+https://en.wikipedia.org/wiki/GNU_Chess
+https://en.wikipedia.org/wiki/GNU_Go
+https://en.wikipedia.org/wiki/List_of_commercial_video_games_with_available_source_code
+https://en.wikipedia.org/wiki/MUD#Spread
+https://en.wikipedia.org/wiki/MUD_client
+https://en.wikipedia.org/wiki/No_Gravity_(video_game)
+https://en.wikipedia.org/wiki/One_Hour_One_Life
+https://en.wikipedia.org/wiki/Passage_(video_game)
+https://en.wikipedia.org/wiki/Rigs_of_Rods
+https://en.wikipedia.org/wiki/Rocks%27n%27Diamonds
+https://en.wikipedia.org/wiki/Scorched_3D
+https://en.wikipedia.org/wiki/Seven_Kingdoms_(video_game)
+https://en.wikipedia.org/wiki/Sopwith_(video_game)
+https://en.wikipedia.org/wiki/StepMania
+https://en.wikipedia.org/wiki/SuperTux
+https://en.wikipedia.org/wiki/Teeworlds
+https://en.wikipedia.org/wiki/Ten%C3%A9s_Empanadas_Graciela
+https://en.wikipedia.org/wiki/Tux,_of_Math_Command
+https://en.wikipedia.org/wiki/Warmux
+https://fedoraproject.org/wiki/SIGs/Games#List_of_games_we_will_NOT_package
+https://flathub.org/home (use it for Linux packaging) / https://flathub.org/apps/category/Game
+https://freegamer.blogspot.com/2015/11/top-3-open-source-pinball-games.html
+https://futurepinball.com/
+https://github.com/a-nikolaev/curseofwar
+https://github.com/afritz1/OpenTESArena
+https://github.com/ajweeks/FlexEngine
+https://github.com/amerkoleci/alimer
+https://github.com/amerkoleci/vortice
+https://github.com/AmrikSadhra/OpenNFS
+https://github.com/amroibrahim/DIYDoom
+https://github.com/angband/angband
+https://github.com/Anthonymcqueen21/Pygame---Alien-Invasion
+https://github.com/ao-libre/ao-cliente
+https://github.com/apsillers/lords-of-the-fey
+https://github.com/apsillers/Taggem
+https://github.com/arianne/stendhal
+https://github.com/ArmageddonGames/ZeldaClassic
+https://github.com/AxioDL/urde
+https://github.com/b3dgs/lionengine
+https://github.com/bitcraft/PyTMX
+https://github.com/bvschaik/julius
+https://github.com/ByoxCode/DrawView
+https://github.com/Calinou/libre-pinball
+https://github.com/Chluverman/android-gltron
+https://github.com/Chris3606/GoRogue
+https://github.com/ChrisDill/Raylib-cs
+https://github.com/codepath/android_snake_game
+https://github.com/collections/game-engines (only OS)
+https://github.com/collections/javascript-game-engines (only OS)
+https://github.com/collections/pixel-art-tools (tools)
+https://github.com/collections/productivity-tools (maybe for statistical purposes)
+https://github.com/collections/software-development-tools (maybe we can apply some of them across the board)
+https://github.com/collections/tools-for-open-source (maybe we can apply some)
+https://github.com/collections/web-games (only OS)
+https://github.com/CompletelyFairGames/dwarfcorp
+https://github.com/Cortrah/SpaceOperaDesign, https://github.com/Cortrah/SpaceOperaRuby/blob/master/design/turnstyles.md
+https://github.com/cubei/FlappyCow
+https://github.com/cxong/cdogs-sdl
+https://github.com/cyberegoorg/cetech
+https://github.com/DaemonEngine/Daemon
+https://github.com/Dariasteam/TowerJumper
+https://github.com/demonixis/C3DE
+https://github.com/discosultan/penumbra
+https://github.com/eprikazchikov/thunder
+https://github.com/ErikLetson/torso-ninja
+https://github.com/ErikLetson/torso-ninja-2
+https://github.com/Esenthel/EsenthelEngine
+https://github.com/estevaofon/angry-birds-python
+https://github.com/etternagame/etterna
+https://github.com/francot514/FreeSims
+https://github.com/freeboardgame/FreeBoardGame.org
+https://github.com/FreeCol/freecol
+https://github.com/FreezingMoon/AncientBeast
+https://github.com/gamearians
+https://github.com/GentenStudios/quartz-engine
+https://github.com/GlPortal/glPortal
+https://github.com/GunshipPenguin/open_flood
+https://github.com/hedgewars/hw
+https://github.com/hparcells/cards-against-humanity
+https://github.com/Interkarma/daggerfall-unity
+https://github.com/Interrupt/delverengine
+https://github.com/jcarolus/android-chess
+https://github.com/juzzlin/DustRacing2D
+https://github.com/lexica/lexica
+https://github.com/magefree/mage
+https://github.com/marukrap/ProceduralMapGenerator
+https://github.com/miki151/keeperrl
+https://github.com/MovingBlocks/DestinationSol
+https://github.com/nicolodavis/boardgame.io
+https://github.com/notapixelstudio/superstarfighter
+https://github.com/Novum/vkQuake
+https://github.com/NYRDS/remixed-dungeon
+https://github.com/OpenDungeons/OpenDungeons
+https://github.com/openitg/openitg
+https://github.com/OpenMandrivaAssociation
+https://github.com/opensourcedesign
+https://github.com/opentomb/OpenTomb
+https://github.com/OpMonTeam/OpMon
+https://github.com/OSSGames
+https://github.com/OSSGames/GAME-SDL-ACTION-Blobwars_Metal_Blob_Solid
+https://github.com/PanosK92/SpartanEngine
+https://github.com/pelya/commandergenius
+https://github.com/pld-linux
+https://github.com/raysan5/rfxgen
+https://github.com/REGoth-project/REGoth-bs
+https://github.com/romlok/godot-gdhexgrid
+https://github.com/RonenNess/GeonBit.UI
+https://github.com/rpgboss/rpgboss
+https://github.com/rwengine/openrw
+https://github.com/saniv/free-game-art/blob/master/foss-copyright-infringement-records.md
+https://github.com/search?p=1&q=sunrider&type=Repositories, sunrider
+https://github.com/smcameron/space-nerds-in-space
+https://github.com/SneakyTactician/MagicalLife
+https://github.com/sourcehold/Sourcehold
+https://github.com/sphair/ClanLib
+https://github.com/sromku/memory-game
+https://github.com/stephenjsweeney/blobwarsAttrition
+https://github.com/STJr/SRB2
+https://github.com/SuperTux/supertux
+https://github.com/taisei-project/taisei
+https://github.com/team-eternity/eternity
+https://github.com/The-Powder-Toy/The-Powder-Toy
+https://github.com/theaigames
+https://github.com/TheAssemblyArmada/Chronoshift
+https://github.com/TheAssemblyArmada/Thyme
+https://github.com/tonihele/OpenKeeper
+https://github.com/tpcstld/2048
+https://github.com/unknown-horizons/godot-port
+https://github.com/ValyriaTear/ValyriaTear
+https://github.com/vilbeyli/VQEngine
+https://github.com/Vocaluxe/Vocaluxe
+https://github.com/Wargus/stratagus
+https://github.com/wesnoth/haldric
+https://github.com/xLAva/JediOutcastLinux
+https://github.com/XProger/OpenLara
+https://github.com/xyzz/openmw-android
+https://github.com/yairm210/UnCiv
+https://github.com/yiotro/Antiyoy
+https://keeperrl.com/
+https://lgdb.org/game/wolfpack-empire
+https://libregamewiki.org/Libregamewiki:Suggested_games#Likely_sources_for_more_free_games
+https://neverball.org/
+https://openage.sft.mx/
+https://osdn.net/softwaremap/trove_list.php?form_cat=80
+https://packages.debian.org/sid/games/etw
+https://play.google.com/store/apps/dev?id=8387589286898375037 (where is the source, not open source otherwise)
+https://pypi.org/project/CherryPy/
+https://pypi.org/project/neteria/
+https://pypi.org/project/networkx/
+https://pypi.org/project/PyAMF/
+https://pypi.org/project/simplejson/
+https://pypi.org/project/SQLAlchemy/
+https://pypi.org/project/TurboGears/
+https://revolutionarygamesstudio.com/ Trhive
+https://salsa.debian.org/games-team/etw
+https://secretchronicles.org/en/
+https://sourceforge.net/projects/actiongame/
+https://sourceforge.net/projects/deng/
+https://sourceforge.net/projects/ettu/
+https://sourceforge.net/projects/hhexen/
+https://sourceforge.net/projects/librecardgame/
+https://sourceforge.net/projects/mininghaze/ - download didn't work
+https://sourceforge.net/projects/pinball/
+https://sourceforge.net/projects/pixellight/
+https://sourceforge.net/projects/realmforge/
+https://sourceforge.net/projects/uhexen2/
+https://sourceforge.net/projects/vpinball/
+https://sourceforge.net/projects/webchess/
+https://sourceforge.net/projects/zaz/
+https://web.archive.org/web/20150526225753/http://sourceforge.net/projects/mameosx/
+https://web.archive.org/web/20150527150705/http://sourceforge.net/p/forge/community-docs/SourceForge%20Games/ (schon erledigt)
+https://wiki.debian.org/Games/Unsuitable
+https://www.fosshub.com/about.html
+https://www.reddit.com/r/opensource/comments/cs6m3y/a_list_of_fossrelated_projects_people_to_follow/
+https://www.reddit.com/r/opensourcegames/
+https://www.reddit.com/r/opensourcegames/comments/celw6c/top_3_open_source_pinball_games_2015/
+https://www.renpy.org/ (also all projects linked there)
+https://zope.readthedocs.io/en/latest/
+lionengine github
+nexuiz - https://github.com/atphalix/nexuiz
+nexuiz - https://github.com/OpenMandrivaAssociation/nexuiz/blob/master/nexuiz.spec
+nexuiz - https://github.com/pld-linux/nexuiz/blob/master/nexuiz.spec
+nexuiz - https://github.com/smlinux/nexuiz
+nexuiz - https://gitlab.com/nyov/nyovs-nexuiz
+nexuiz - https://gitlab.com/xonlegacy/xonlegacy
+pyglet
+Quatter
+query alternativeto with only open source...
+TrueCraft
+wxPython

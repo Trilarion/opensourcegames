@@ -1,4 +1,4 @@
-# Nexiuz
+# Nexuiz
 
 _First-person shooter video game._
 

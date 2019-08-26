@@ -1,4 +1,4 @@
-# ENIGMA
+# ENIGMA (development environment)
 
 _ENIGMA is a free development environment geared towards game development._
 

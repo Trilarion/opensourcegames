@@ -1,4 +1,4 @@
-# 4DTris
+# 4D-TRIS
 
 _Tetris game extended to 4 dimension._
 

@@ -1,0 +1,33 @@
+8 Kingdoms (https://sourceforge.net/projects/kralovstvi/, https://svn.code.sf.net/p/kralovstvi/code/): No license found
+Aeron (https://sourceforge.net/projects/aeron/, https://svn.code.sf.net/p/aeron/code/): Very early development
+Age of Magic (https://sourceforge.net/projects/ageofmagic/, https://svn.code.sf.net/p/ageofmagic/code/): Only supports outdated Hardware (Symbian)
+Altera Terra (https://sourceforge.net/projects/alteraterra/, https://svn.code.sf.net/p/alteraterra/code/): Early development stage, no clear license information
+Arthur's Knights (http://ainenn.org/KingArthur/, https://sourceforge.net/projects/king-arthur/): Unclear license, author could not be contacted
+Atral Clades (https://sourceforge.net/projects/astralclades/, https://svn.code.sf.net/p/astralclades/code/): No clear license information
+Begin2 (https://sourceforge.net/projects/begin2/, https://svn.code.sf.net/p/begin2/code/): No source available
+Camelia Girls (https://web.archive.org/web/20140523011334/http://pigux.com:80/cameliagirls/): Sources not available
+Cycle (https://sourceforge.net/projects/meegocycle/): Proprietary license (freeware, source available)
+Drop Shock (http://www.tinywarz.com/index.php, https://sourceforge.net/projects/dropshock/, https://git.code.sf.net/p/dropshock/code): No license found
+EarthShakerDS (http://simianzombie.com/posts/2011/05/10/earth-shaker-ds-released, https://github.com/ant512/EarthShakerDS.git): Target only Nintendo DS as hardware platform
+Eleconics (https://sourceforge.net/projects/eleconics/): No license found
+Entombed! (http://www.newbreedsoftware.com/entombed/, ftp://ftp.tuxpaint.org/unix/x/entombed/entombed-2007.07.04.tar.gz): Game very small
+EXILE (http://forums.datarealms.com/viewtopic.php?f=82&t=19266, https://github.com/Geti/EXILE.git): Early development stage
+Fight Or Perish (http://www.newbreedsoftware.com/fop/, ftp://ftp.tuxpaint.org/unix/x/fop/src/fop-0.5.tar.gz): Early development stage
+Football Manager (https://github.com/autismuk/Football-Manager.git): Very early development stage
+Free in the Dark (https://sourceforge.net/projects/fitd/): No source code available
+Grow (https://sourceforge.net/projects/grow/): Insufficient content
+Moopy (https://code.google.com/archive/p/moopy/, https://code.google.com/archive/p/moopy/source/default/source): Early development stage
+Open General (http://www.open-general.com/, https://sourceforge.net/projects/opengeneral/, https://svn.code.sf.net/p/opengeneral/code/): Proprietary license (see credits.txt)
+OpenPop (http://openpopulous.sourceforge.net/, https://sourceforge.net/projects/openpopulous/, https://svn.code.sf.net/p/openpopulous/code/): Very early development
+Project Diaspora (http://pdiaspora.sourceforge.net/): Proprietary license (see file headers)
+Promisance (https://sourceforge.net/projects/promisance/,http://promisance.sourceforge.net/): Went closed source with version >= 4.0
+RuneSword II (https://sourceforge.net/projects/runesword/, http://runesword.sourceforge.net/, https://github.com/mattiascibien/Runesword.net, https://github.com/aceofspades19/Runesword-II-OS.Net): No license found
+sCoreForge Pathfinder Character Creator (https://sourceforge.net/projects/scoreforge/): No license found
+Scoreus (https://web.archive.org/web/20120618143653/http://scoreos.org:80/about, https://code.google.com/archive/p/scoreos/, https://github.com/Lozza999/scoreos.git, https://code.google.com/archive/p/scoreos/): Source code not found
+Sokoban (https://sourceforge.net/projects/sokoban/): Proprietary license
+Solar Empire (https://sourceforge.net/projects/solar-empire/, https://git.code.sf.net/p/solar-empire/code): No license found
+Solaris (https://sourceforge.net/projects/solaristhegame/, https://svn.code.sf.net/p/solaristhegame/code/): Very early development stage
+Sworsorc (https://svn.code.sf.net/p/alteraterra/code/): Proprietary license (copyright headers in files)
+VegaTrek (https://sourceforge.net/projects/vegatrek/, https://svn.code.sf.net/p/vegatrek/code/)
+Visions from the Other Side (http://www.insani.org/mukou.html): Source not available
+WarGame (https://archive.codeplex.com/?p=wargame): Unclear license, could not contact authors

@@ -2,7 +2,7 @@
 # Puzzle
 
 - **[2048](2048.md)** (JavaScript, MIT, mature)
-- **[4DTris](4dtris.md)** (C, GPL-2.0, mature, inactive since 2012)
+- **[4D-TRIS](4d-tris.md)** (C, GPL-2.0, mature, inactive since 2012)
 - **[aquastax](aquastax.md)** (JavaScript, MIT, beta)
 - **[Atomiks](atomiks.md)** (C, GPL-3.0, mature, inactive since 2015)
 - **[Atomix](atomix.md)** (C, GPL-2.0, mature)
@@ -15,8 +15,11 @@
 - **[CrappyBird](crappybird.md)** (JavaScript, MIT, mature, inactive since 2017)
 - **[CrystalQuest](crystalquest.md)** (JavaScript, MIT, mature, inactive since 2017)
 - **[Cubosphere](cubosphere.md)** (C, C++, GPL-3.0, beta)
+- **[Duck Marines](duck_marines.md)** (Lua, zlib, mature, inactive since 2016)
 - **[Enigma](enigma.md)** (C, C++, GPL-2.0, mature)
+- **[EnTT Pacman](entt_pacman.md)** (C, C++, MIT, mature)
 - **[Fish Fillets - Next Generation](fish_fillets-next_generation.md)** (C++, GPL-2.0, mature)
+- **[FreeBlocks](freeblocks.md)** (C, Java, GPL-3.0, beta, inactive since 2015)
 - **[Frozen Bubble](frozen_bubble.md)** (Perl, GPL-2.0, mature, inactive since 2012)
 - **[Grabble](grabble.md)** (Java, ?, mature, inactive since 2006)
 - **[HoDoKu](hodoku.md)** (Java, GPL-3.0, mature, inactive since 2013)
@@ -28,3 +31,4 @@
 - **[Rocks'n'Diamonds](rocksndiamonds.md)** (C, GPL-2.0, mature)
 - **[Secret Maryo Chronicles](secret_maryo_chronicles.md)** (C++, GPL-3.0, mature, inactive since 2009)
 - **[TetraVex](tetravex.md)** (Swift, GPL-3.0, beta)
+- **[The Castles of Dr. Creep](the_castles_of_dr_creep.md)** (C++, Shell, GPL-3.0, mature)

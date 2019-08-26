@@ -1,4 +1,4 @@
-# Fall of Imyrin
+# Fall of Imiryn
 
 _The first serious game using the Annchienta engine._
 

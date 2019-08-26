@@ -4,6 +4,7 @@
 - **[Battle Tanks](battle_tanks.md)** (C++, GPL-2.0, mature, inactive since 2009)
 - **[Blobby Volley 2](blobby_volley_2.md)** (C++, GPL-2.0, mature, inactive since 2017)
 - **[Bombermaaan](bombermaaan.md)** (C++, GPL-3.0, mature, inactive since 2010)
+- **[Fluid Table Tennis](fluid_table_tennis.md)** (JavaScript, MIT, mature, inactive since 2013)
 - **[GPL Arcade Volleyball](gpl_arcade_volleyball.md)** (C++, GPL-2.0, beta, inactive since 2006)
 - **[Maelstrom](maelstrom.md)** (C, C++, GPL-2.0, mature, inactive since 2002)
 - **[OpenLieroX](openlierox.md)** (C++, LGPL-2.0, mature)

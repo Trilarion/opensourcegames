@@ -1,4 +1,4 @@
-# O.H.R.RPG.C.E
+# O.H.R.RPG.C.E.
 
 _Official Hamster Republic Role Playing Game Construction Engine_
 

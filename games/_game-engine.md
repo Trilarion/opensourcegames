@@ -7,6 +7,8 @@
 - **[erampage](erampage.md)** (C, GPL-2.0, beta, inactive since 2015)
 - **[Flare](flare.md)** (C++, Java, GPL-3.0, mature)
 - **[Free in the Dark (engine)](free_in_the_dark_engine.md)** (C, C++, GPL-2.0, beta)
+- **[FreeSO](freeso.md)** (C#, MPL-2.0, beta)
+- **[Grit Game Engine](grit_game_engine.md)** (C++, Python, MIT, beta)
 - **[Open Game Engine](open_game_engine.md)** (C++, LGPL-2.1, beta, inactive since 2008)
 - **[OpenMW](openmw.md)** (C++, GPL-3.0, mature)
 - **[PainTown](paintown.md)** (C++, Java, Python, 3-clause BSD, mature)

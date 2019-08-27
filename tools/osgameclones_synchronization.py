@@ -38,14 +38,14 @@ import ruamel_yaml as yaml
 from utils.osg import *
 
 # should change on osgameclones
-osgc_name_aliases = {'4DTris': '4D-TRIS', 'fheroes2': 'Free Heroes 2'}
+osgc_name_aliases = {'4DTris': '4D-TRIS', 'fheroes2': 'Free Heroes 2', 'DrCreep': 'The Castles of Dr. Creep', 'Duke3d_win32': 'Duke3d_w32', 'erampage (EDuke32 fork)': 'erampage', 'GNOME Atomix': 'Atomix'}
 
 # conversion between licenses
 osgc_licenses_map = {'GPL2': 'GPL-2.0', 'GPL3': 'GPL-3.0', 'AGPL3': 'AGPL-3.0', 'LGPL3': 'LGPL-3.0', 'LGPL2': 'LGPL-2.1', 'MPL': 'MPL-2.0', 'Apache': 'Apache-2.0', 'Artistic': 'Artistic License'}
 
 # ignore osgc entries (for various reasons like unclear license etc.)
 osgc_ignored_entries = ["A Mouse's Vengeance", 'achtungkurve.com', 'AdaDoom3', 'Agendaroids', 'Alien 8', 'Ard-Reil', 'Balloon Fight', 'bladerunner (Engine within SCUMMVM)', 'Block Shooter', 'Bomb Mania Reloaded', 'boulder-dash', 'Cannon Fodder', 'Contra_remake', 'CosmicArk-Advanced', 'Deuteros X', 'datastorm'
-                        ,'div-columns', 'div-pacman2600', 'div-pitfall', 'div-spaceinvaders2600', 'EXILE', 'Free in the Dark', 'Football Manager', 'Fight Or Perish', 'EarthShakerDS', 'Entombed!']
+                        ,'div-columns', 'div-pacman2600', 'div-pitfall', 'div-spaceinvaders2600', 'EXILE', 'Free in the Dark', 'Football Manager', 'Fight Or Perish', 'EarthShakerDS', 'Entombed!', 'FreeRails 2', 'Glest Advanced Engine', 'FreedroidClassic', 'FreeFT', 'Future Blocks']
 
 
 def unique_field_contents(entries, field):
@@ -336,7 +336,7 @@ if __name__ == "__main__":
 
             # code repository (mandatory on our side)
             repo = osgc_entry.get('repo', None)
-            if repo.startswith('https://git') and not repo.endswith('.git'):
+            if repo and repo.startswith('https://git') and not repo.endswith('.git'):
                 # we have them with .git on github/gitlab
                 repo += '.git'
             entry += '- Code repository: {}\n'.format(repo)

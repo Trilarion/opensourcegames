@@ -69,6 +69,7 @@
 - **[FreeRails](freerails.md)** (Java, C++, GPL-2.0, beta, inactive since 2008)
 - **[FreeRCT](freerct.md)** (C++, GPL-2.0, beta, inactive since 2016)
 - **[Freeserf](freeserf.md)** (C, C++, GPL-3.0, mature)
+- **[FreeSiege](freesiege.md)** (C++, GPL-3.0, beta)
 - **[Freestars](freestars.md)** (C++, GPL-2.0, beta, inactive since 2008)
 - **[FreeSynd](freesynd.md)** (C++, GPL-2.0, beta, inactive since 2017)
 - **[GalaxyNG](galaxyng.md)** (C, GPL-2.0, mature, inactive since 2005)

@@ -11,6 +11,8 @@ _Open source role playing game._
 - Code language: C, C++, Lua
 - Code license: GPL-2.0
 
+See also [FreedroidClassic](https://sourceforge.net/projects/freedroid/files/freedroidClassic/).
+
 ## Building
 
 - Build system: Make

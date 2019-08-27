@@ -10,6 +10,7 @@
 - **[Fanwor](fanwor.md)** (C, GPL-2.0, mature)
 - **[Free in the Dark (engine)](free_in_the_dark_engine.md)** (C, C++, GPL-2.0, beta)
 - **[GameLV](gamelv.md)** (C++, GPL-2.0, beta)
+- **[Head over Heels](head_over_heels_2.md)** (C++, GPL-3.0, mature)
 - **[Murder In The Public Domain](murder_in_the_public_domain.md)** (C++, GPL-3.0, mature, inactive since 2013)
 - **[Sentient Storage](sentient_storage.md)** (Python, Public domain, mature)
 - **[Sintel The Game](sintel_the_game.md)** (Python, MIT, beta, inactive since 2014)

@@ -18,6 +18,7 @@
 - **[Flixel](flixel.md)** (ActionScript, MIT, mature)
 - **[GemRB](gemrb.md)** (C++, Python, GPL-2.0, mature)
 - **[Godot](godot.md)** (C, C++, MIT, mature)
+- **[Grit Game Engine](grit_game_engine.md)** (C++, Python, MIT, beta)
 - **[H-World](h-world.md)** (C, Lua, GPL-2.0, beta, inactive since 2005)
 - **[HaxeFlixel](haxeflixel.md)** (Haxe, MIT, mature)
 - **[Irrlicht Engine](irrlicht_engine.md)** (C++, C, zlib, mature)

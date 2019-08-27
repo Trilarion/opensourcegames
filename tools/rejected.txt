@@ -15,6 +15,8 @@ EXILE (http://forums.datarealms.com/viewtopic.php?f=82&t=19266, https://github.c
 Fight Or Perish (http://www.newbreedsoftware.com/fop/, ftp://ftp.tuxpaint.org/unix/x/fop/src/fop-0.5.tar.gz): Early development stage
 Football Manager (https://github.com/autismuk/Football-Manager.git): Very early development stage
 Free in the Dark (https://sourceforge.net/projects/fitd/): No source code available
+FreeFT (https://github.com/nadult/FreeFT.git): All rights reserved.
+Future Blocks (https://github.com/fogleman/FutureBlocks.git): Needs DosBox, simple Tetris clone (nice, but maybe too minimal)
 Grow (https://sourceforge.net/projects/grow/): Insufficient content
 Moopy (https://code.google.com/archive/p/moopy/, https://code.google.com/archive/p/moopy/source/default/source): Early development stage
 Open General (http://www.open-general.com/, https://sourceforge.net/projects/opengeneral/, https://svn.code.sf.net/p/opengeneral/code/): Proprietary license (see credits.txt)

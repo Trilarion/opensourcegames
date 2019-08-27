@@ -3,7 +3,9 @@
 
 - **[Bygfoot](bygfoot.md)** (Java, GPL-2.0, beta)
 - **[Dust Racing 2D](dust_racing_2d.md)** (C, C++, GPL-3.0, mature)
+- **[Freekick 3](freekick_3.md)** (C++, Python, GPL-3.0, mature, inactive since 2015)
 - **[GPL Arcade Volleyball](gpl_arcade_volleyball.md)** (C++, GPL-2.0, beta, inactive since 2006)
+- **[H-Craft Championship](h-craft_championship.md)** (C++, zlib, mature, inactive since 2015)
 - **[NetStatsBaseball](netstatsbaseball.md)** (C, Public domain, mature)
 - **[Open Soccer Star](open_soccer_star.md)** (PHP, GPL-3.0, beta)
 - **[OpenSoccer](opensoccer.md)** (PHP, GPL-3.0, beta)

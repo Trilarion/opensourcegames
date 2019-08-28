@@ -10,6 +10,8 @@
 - **[FreePrince](freeprince.md)** (C, GPL-2.0, beta, inactive since 2011)
 - **[freeVikings](freevikings.md)** (Ruby, GPL-2.0, beta)
 - **[glPortal](glportal.md)** (C++, zlib, beta)
+- **[Jazz² Resurrection](jazz_resurrection.md)** (C#, JavaScript, GPL-3.0, mature)
+- **[Keen Dreams](keen_dreams.md)** (C, Assembly, C++, GPL-2.0, mature, inactive since 2014)
 - **[Open Surge](open_surge.md)** (C, GPL-3.0, beta)
 - **[Smash Battle](smash_battle.md)** (C++, ?, beta, inactive since 2011)
 - **[The Legend of Edgar](the_legend_of_edgar.md)** (C, GPL-2.0, mature)

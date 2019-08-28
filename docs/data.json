@@ -2673,12 +2673,36 @@
    "<a href=\"https://git.code.sf.net/p/nazghul/git\">Source</a> - C++ - GPL-3.0"
   ],
   [
-   "Head over Heels (<a href=\"https://github.com/dougmencken/HeadOverHeels\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/head_over_heels_2.md\">entry</a>)",
+   "Head over Heels (<a href=\"https://github.com/dougmencken/HeadOverHeels\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/head_over_heels.md\">entry</a>)",
    "Remake of Head over Heels.",
    "<a href=\"http://www.headoverheels2.com/drupal/en/node/161\">Link</a>",
    "mature / active",
    "action, adventure, inspired by Head over Heels, remake",
    "<a href=\"https://github.com/dougmencken/HeadOverHeels.git\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
+   "Heart of the Alien (<a href=\"http://hota.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/heart_of_the_alien.md\">entry</a>)",
+   "Remake of Another World 2: Heart of the Alien.",
+   "<a href=\"https://sourceforge.net/projects/hota/files/\">Link</a>",
+   "beta / inactive since 2005",
+   "adventure, inspired by Another World 2: Heart of the Alien, remake",
+   "<a href=\"http://hota.cvs.sourceforge.net\">Source</a> - C - GPL-2.0"
+  ],
+  [
+   "Hedgewars (<a href=\"http://hedgewars.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/hedgewars.md\">entry</a>)",
+   "Clone of Worms Series.",
+   "<a href=\"http://hedgewars.org/download.html\">Link</a>",
+   "mature / active",
+   "action, artillery, clone, inspired by Worms Series, turn-based",
+   "<a href=\"http://hg.hedgewars.org/hedgewars/\">Source</a> - Lua, C, C++, Pascal, Haskell - GPL-2.0"
+  ],
+  [
+   "Hematite (<a href=\"http://hematite.piston.rs/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/hematite.md\">entry</a>)",
+   "Remake of Minecraft.",
+   "",
+   "beta / active",
+   "simulation, inspired by Minecraft, remake, sandbox, voxel",
+   "<a href=\"https://github.com/PistonDevelopers/hematite.git\">Source</a> - Rust - MIT"
   ],
   [
    "Hero of Allacrost (<a href=\"http://allacrost.org\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/hero_of_allacrost.md\">entry</a>)",
@@ -2713,12 +2737,44 @@
    "<a href=\"https://github.com/matthewgrimes/hexgame.git\">Source</a> - C++ - MIT"
   ],
   [
+   "HexGL (<a href=\"http://hexgl.bkcore.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/hexgl.md\">entry</a>)",
+   "Clone of Wipeout.",
+   "",
+   "mature / inactive since 2016",
+   "role playing, clone, inspired by Wipeout, racing",
+   "<a href=\"https://github.com/BKcore/HexGL.git\">Source</a> - JavaScript, CoffeeScript - MIT"
+  ],
+  [
+   "Hexoshi (<a href=\"http://hexoshi.nongnu.org/index.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/hexoshi.md\">entry</a>)",
+   "Clone of Super Metroid.",
+   "<a href=\"http://hexoshi.nongnu.org/download.html\">Link</a>",
+   "beta / inactive since 2016",
+   "action, clone, inspired by Super Metroid",
+   "<a href=\"https://git.savannah.nongnu.org/git/hexoshi.git\">Source</a> - Python - GPL-3.0"
+  ],
+  [
+   "Hextris (<a href=\"https://hextris.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/hextris.md\">entry</a>)",
+   "Clone of Tetris.",
+   "",
+   "mature / active",
+   "puzzle, clone, inspired by Tetris",
+   "<a href=\"https://github.com/Hextris/Hextris.git\">Source</a> - JavaScript - GPL-3.0"
+  ],
+  [
    "Hexwar (<a href=\"https://github.com/mgfreshour/hexwar\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/hexwar.md\">entry</a>)",
    "Simple turn based, hexagon map, strategy game in the..",
    "",
    "beta / inactive since 2012",
    "strategy, online, turn-based",
    "<a href=\"https://github.com/mgfreshour/hexwar.git\">Source</a> - Ruby, JavaScript - MIT"
+  ],
+  [
+   "Hocoslamfy (<a href=\"https://github.com/Nebuleon/hocoslamfy\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/hocoslamfy.md\">entry</a>)",
+   "Remake of Flappy Bird.",
+   "",
+   "beta / inactive since 2016",
+   "arcade, inspired by Flappy Bird, remake, skill",
+   "<a href=\"https://github.com/Nebuleon/hocoslamfy.git\">Source</a> - C, C++ - GPL-2.0"
   ],
   [
    "HoDoKu (<a href=\"http://hodoku.sourceforge.net/en/index.php\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/hodoku.md\">entry</a>)",
@@ -2737,12 +2793,60 @@
    "<a href=\"https://gitlab.com/osgames/lechemindeladam.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
+   "HoverRace (<a href=\"http://www.hoverrace.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/hoverrace.md\">entry</a>)",
+   "Remake of HoverRace.",
+   "<a href=\"http://www.hoverrace.com/?page=download\">Link</a>",
+   "mature / inactive since 2016",
+   "sports, 3D, inspired by HoverRace, race, remake",
+   "<a href=\"https://github.com/HoverRace/HoverRace.git\">Source</a> - C++ - Custom NC"
+  ],
+  [
+   "Hovertank3D (<a href=\"https://github.com/FlatRockSoft/Hovertank3D\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/hovertank3d.md\">entry</a>)",
+   "Remake of Hovertank 3D.",
+   "",
+   "mature / inactive since 2014",
+   "action, inspired by Hovertank 3D, remake, requires original content",
+   "<a href=\"https://github.com/FlatRockSoft/Hovertank3D.git\">Source</a> - C++, Assembly - GPL-2.0"
+  ],
+  [
    "HyperRogue (<a href=\"http://roguetemple.com/z/hyper/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/hyperrogue.md\">entry</a>)",
    "Roguelike inspired by the puzzle game Deadly Rooms of..",
    "<a href=\"http://roguetemple.com/z/hyper/download.php\">Link</a>",
    "mature / active",
    "role playing, roguelike",
    "<a href=\"https://github.com/zenorogue/hyperrogue.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "I Have No Tomatoes (<a href=\"http://tomatoes.sourceforge.net\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/i_have_no_tomatoes.md\">entry</a>)",
+   "Remake of Bomberman.",
+   "<a href=\"http://tomatoes.sourceforge.net/downloads.html\">Link</a>",
+   "mature / inactive since 2004",
+   "arcade, inspired by Bomberman, remake, scrolling",
+   "C++ - zlib"
+  ],
+  [
+   "ICBM3D (<a href=\"http://www.newbreedsoftware.com/icbm3d/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/icbm3d.md\">entry</a>)",
+   "Clone of Missile Command.",
+   "<a href=\"http://www.newbreedsoftware.com/icbm3d/download/\">Link</a>",
+   "beta / inactive since 1998",
+   "arcade, artillery, clone, inspired by Missile Command",
+   "C - ?"
+  ],
+  [
+   "Ice Breaker (<a href=\"http://mattdm.org/icebreaker/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/ice_breaker.md\">entry</a>)",
+   "Remake of JezzBall.",
+   "<a href=\"https://mattdm.org/icebreaker/download.shtml\">Link</a>",
+   "mature / inactive since 2003",
+   "arcade, inspired by JezzBall, remake",
+   "C - GPL-2.0"
+  ],
+  [
+   "Iceball (<a href=\"https://web.archive.org/web/20161106081943/http://iceball.build/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/iceball.md\">entry</a>)",
+   "Remake of Ace of Spades.",
+   "",
+   "inactive since 2017 / inactive since 2017",
+   "remake, inspired by Ace of Spades, open content",
+   "<a href=\"https://github.com/iamgreaser/iceball.git\">Source</a> - C, Lua - GPL-3.0"
   ],
   [
    "Ilarion (<a href=\"http://illarion.org/general/de_startpage.php\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/ilarion.md\">entry</a>)",
@@ -2761,12 +2865,60 @@
    "? - ?"
   ],
   [
+   "Inexor (<a href=\"https://inexor.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/inexor.md\">entry</a>)",
+   "Remake of Cube 2: Sauerbraten.",
+   "",
+   "beta / inactive since 2018",
+   "remake, inspired by Cube 2: Sauerbraten",
+   "<a href=\"https://github.com/inexor-game/code.git\">Source</a> - C++, JavaScript - zlib"
+  ],
+  [
    "Infiniminer (<a href=\"http://www.zachtronics.com/infiniminer/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/infiniminer.md\">entry</a>)",
    "Multi-player block-based sandbox building and digging game.",
    "<a href=\"https://code.google.com/archive/p/infiniminer/source/default/source\">Link</a>",
    "mature / inactive since 2016",
    "simulation, blocks, sandbox",
    "<a href=\"https://github.com/craftworkgames/infiniminer.git\">Source</a> - C# - MIT"
+  ],
+  [
+   "IO Reboot (<a href=\"https://github.com/omarchehab98/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/io_reboot.md\">entry</a>)",
+   "Clone of Infinity Loop.",
+   "",
+   "mature / inactive since 2017",
+   "puzzle, clone, inspired by Infinity Loop, open content",
+   "<a href=\"https://github.com/omarchehab98/ioreboot.git\">Source</a> - C# - MIT"
+  ],
+  [
+   "ioquake3 (<a href=\"http://ioquake3.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/ioquake3.md\">entry</a>)",
+   "Remake of Quake 3.",
+   "<a href=\"https://ioquake3.org/get-it/\">Link</a>",
+   "mature / active",
+   "action, game engine, inspired by Quake 3, remake, requires original content, shooter",
+   "<a href=\"https://github.com/ioquake/ioq3.git\">Source</a> - C - GPL-2.0"
+  ],
+  [
+   "Iris2 (<a href=\"https://web.archive.org/web/20160809064454/https://iris2.de/index.php/Main_Page\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/iris2.md\">entry</a>)",
+   "Remake of Ultima Online.",
+   "",
+   "beta / inactive since 2017",
+   "role playing, inspired by Ultima Online, remake, requires original content",
+   "<a href=\"https://github.com/kblaschke/Iris2.git\">Source</a> - C, C++, Lua - GPL-3.0"
+  ],
+  [
+   "Iron Seed (<a href=\"https://web.archive.org/web/20150725164943/http://www.ironseed.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/iron_seed.md\">entry</a>)",
+   "Remake of Iron Seed.",
+   "<a href=\"https://web.archive.org/web/20150725164943/http://www.ironseed.com/ironseed-v1.20.0016-2013-03-17.zip\">Link</a>",
+   "mature / inactive since 2013",
+   "remake, inspired by Iron Seed",
+   "Pascal - GPL-3.0"
+  ],
+  [
+   "irrlamb (<a href=\"https://github.com/jazztickets/irrlamb\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/irrlamb.md\">entry</a>)",
+   "Remake of Super Monkey Ball.",
+   "<a href=\"https://github.com/jazztickets/irrlamb/releases\">Link</a>",
+   "mature / active",
+   "arcade, inspired by Super Monkey Ball, remake",
+   "<a href=\"https://github.com/jazztickets/irrlamb.git\">Source</a> - C, C++ - GPL-3.0"
   ],
   [
    "Irrlicht Engine (<a href=\"http://irrlicht.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/irrlicht_engine.md\">entry</a>)",
@@ -2801,12 +2953,68 @@
    "<a href=\"https://github.com/ja2-stracciatella/ja2-stracciatella.git\">Source</a> - C, C++ - Custom"
   ],
   [
+   "Jake2 (<a href=\"http://bytonic.de/html/jake2.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/jake2.md\">entry</a>)",
+   "Remake of Quake 2.",
+   "<a href=\"https://bytonic.de/html/download.html\">Link</a>",
+   "beta / inactive since 2006",
+   "action, 3D, game engine, inspired by Quake 2, remake, requires original content, shooter",
+   "<a href=\"https://git.code.sf.net/p/jake2/git\">Source</a> - Java - GPL-2.0"
+  ],
+  [
    "JaNaG - Java Name Generator (<a href=\"https://www.beimax.de/janag/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/janag-java_name_generator.md\">entry</a>)",
    "Java random name generator for role-games, authors, and..",
    "<a href=\"https://www.beimax.de/fileadmin/downloads/janag/JaNaG_GUI.jar\">Link</a>",
    "mature / inactive since 2016",
    "tool",
    "<a href=\"https://github.com/mkalus/janag.git\">Source</a> - Java - GPL-3.0"
+  ],
+  [
+   "javascript-E.T. (<a href=\"https://github.com/FranciscoG/javascript-E.T.\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/javascript-et.md\">entry</a>)",
+   "Remake of E.T. the Extra-Terrestrial.",
+   "",
+   "beta / inactive since 2017",
+   "adventure, inspired by E.T. the Extra-Terrestrial, remake",
+   "<a href=\"https://github.com/FranciscoG/javascript-E.T..git\">Source</a> - JavaScript, Assembly - MIT"
+  ],
+  [
+   "Jazz\u00b2 Resurrection (<a href=\"http://deat.tk/jazz2/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/jazz_resurrection.md\">entry</a>)",
+   "Remake of Jazz Jackrabbit 2.",
+   "",
+   "mature / active",
+   "platform, 2D, commercial content, inspired by Jazz Jackrabbit 2, multiplayer Online, remake",
+   "<a href=\"https://github.com/deathkiller/jazz2.git\">Source</a> - C#, JavaScript - GPL-3.0"
+  ],
+  [
+   "JediOutcastLinux (<a href=\"https://github.com/xLAva/JediOutcastLinux\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/jedioutcastlinux.md\">entry</a>)",
+   "Remake of Jedi Knight II: Jedi Outcast.",
+   "",
+   "mature / active",
+   "game engine, commercial content, first-person, inspired by Jedi Knight II: Jedi Outcast, remake, requires original content, shooter",
+   "<a href=\"https://github.com/xLAva/JediOutcastLinux.git\">Source</a> - C, C++ - GPL-2.0"
+  ],
+  [
+   "Jet-Story (<a href=\"https://github.com/adamenkov/jet-story\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/jet-story.md\">entry</a>)",
+   "Remake of Jet-Story.",
+   "",
+   "beta / active",
+   "action, inspired by Jet-Story, remake",
+   "<a href=\"https://github.com/adamenkov/jet-story.git\">Source</a> - Assembly, C, C++ - MIT"
+  ],
+  [
+   "jewelthief (<a href=\"http://therefactory.bplaced.net/software/#83d15f35-decf-4ebd-b880-e5edad783031\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/jewelthief.md\">entry</a>)",
+   "Remake of Jewel Thief.",
+   "",
+   "mature / inactive since 2016",
+   "arcade, inspired by Jewel Thief, remake",
+   "<a href=\"https://github.com/frittatenbank/jewelthief.git\">Source</a> - Java - GPL-3.0"
+  ],
+  [
+   "JFDuke3D (<a href=\"http://www.jonof.id.au/jfduke3d\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/jfduke3d.md\">entry</a>)",
+   "Remake of Duke Nukem 3D.",
+   "<a href=\"http://www.jonof.id.au/downloads?cat=1\">Link</a>",
+   "beta / inactive since 2005",
+   "game engine, commercial content, inspired by Duke Nukem 3D, multiplayer LAN, remake, shooter",
+   "C - GPL-2.0"
   ],
   [
    "JiGS Interactive Game System (<a href=\"https://web.archive.org/web/20180318104050/http://www.eclecticmeme.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/jigs_interactive_game_system.md\">entry</a>)",
@@ -2825,6 +3033,14 @@
    "<a href=\"https://github.com/jMonkeyEngine/jmonkeyengine.git\">Source</a> - Java - 3-clause BSD"
   ],
   [
+   "JonoF's Shadow Warrior Port (JFSW) (<a href=\"http://www.jonof.id.au/jfsw\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/jonofs_shadow_warrior_port_jfsw.md\">entry</a>)",
+   "Remake of Shadow Warrior.",
+   "<a href=\"http://www.jonof.id.au/downloads?cat=2\">Link</a>",
+   "beta / inactive since 2005",
+   "remake, inspired by Shadow Warrior",
+   "C - GPL-2.0"
+  ],
+  [
    "JQuest (<a href=\"https://sourceforge.net/projects/jquest\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/jquest.md\">entry</a>)",
    "Java-based clone of the turn-based strategy game Konquest..",
    "<a href=\"https://sourceforge.net/projects/jquest/files\">Link</a>",
@@ -2841,12 +3057,60 @@
    "<a href=\"https://github.com/jdmonin/JSettlers2.git\">Source</a> - Java - GPL-3.0"
   ],
   [
+   "jsFO (<a href=\"https://github.com/ajxs/jsFO\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/jsfo.md\">entry</a>)",
+   "Remake of Fallout 2.",
+   "",
+   "beta / inactive since 2017",
+   "role playing, commercial content, inspired by Fallout 2, remake, requires original content",
+   "<a href=\"https://github.com/ajxs/jsFO.git\">Source</a> - JavaScript, Python - Apache-2.0"
+  ],
+  [
+   "Julius (<a href=\"https://github.com/bvschaik/julius\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/julius.md\">entry</a>)",
+   "Remake of Caesar 3.",
+   "",
+   "mature / active",
+   "simulation, inspired by Caesar 3, remake",
+   "<a href=\"https://github.com/bvschaik/julius.git\">Source</a> - C, C++ - AGPL-3.0"
+  ],
+  [
+   "Jump'n'Bump (<a href=\"https://www.icculus.org/jumpnbump/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/jumpnbump.md\">entry</a>)",
+   "Remake of Jump 'n Bump.",
+   "",
+   "mature / inactive since 2004",
+   "remake, inspired by Jump 'n Bump",
+   "C - GPL-2.0"
+  ],
+  [
+   "KaM Remake (<a href=\"http://www.kamremake.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/kam_remake.md\">entry</a>)",
+   "An unofficial fan-made mod for the game Knights and..",
+   "<a href=\"http://www.kamremake.com/download/\">Link</a>",
+   "mature / active",
+   "strategy, inspired by Knights and Merchants, real time, remake, requires original game content",
+   "<a href=\"https://github.com/Kromster80/kam_remake.git\">Source</a> - Pascal - AGPL-3.0"
+  ],
+  [
    "KAtomic (<a href=\"https://www.kde.org/applications/games/katomic/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/katomic.md\">entry</a>)",
    "Fun educational game built around molecular geometry. It..",
    "",
    "mature / active",
    "puzzle, inspired by Atomix, remake",
    "<a href=\"https://anongit.kde.org/katomic.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "Keen Dreams (<a href=\"https://github.com/keendreams/keen\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/keen_dreams.md\">entry</a>)",
+   "Remake of Commander Keen Series.",
+   "",
+   "mature / inactive since 2014",
+   "platform, commercial content, inspired by Commander Keen Series, remake, requires original content",
+   "<a href=\"https://github.com/keendreams/keen.git\">Source</a> - C, Assembly, C++ - GPL-2.0"
+  ],
+  [
+   "KGoldrunner (<a href=\"https://www.kde.org/applications/games/kgoldrunner/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/kgoldrunner.md\">entry</a>)",
+   "Remake of Lode Runner.",
+   "",
+   "mature / active",
+   "action, inspired by Lode Runner, remake",
+   "<a href=\"https://anongit.kde.org/kgoldrunner.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "kiki the nano bot (<a href=\"http://kiki.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/kiki_the_nano_bot.md\">entry</a>)",
@@ -2865,12 +3129,20 @@
    "<a href=\"https://github.com/anttisalonen/kingdoms.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
-   "Knights and Merchants Remake (<a href=\"http://www.kamremake.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/knights_and_merchants_remake.md\">entry</a>)",
-   "An unofficial fan-made mod for the game Knights and..",
-   "<a href=\"http://www.kamremake.com/download/\">Link</a>",
-   "mature / active",
-   "strategy, real time",
-   "<a href=\"https://github.com/Kromster80/kam_remake.git\">Source</a> - Pascal - AGPL-3.0"
+   "KittenMaxit (<a href=\"https://web.archive.org/web/20171111010947/http://ahmetk.cf/KittenMaxit/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/kittenmaxit.md\">entry</a>)",
+   "Remake of Maxit.",
+   "",
+   "beta / active",
+   "strategy, inspired by Maxit, remake",
+   "<a href=\"https://github.com/ahmetkasif/KittenMaxit.git\">Source</a> - Java - MIT"
+  ],
+  [
+   "KKnD (<a href=\"https://www.kknd-game.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/kknd.md\">entry</a>)",
+   "Remake of Krush, Kill 'n' Destroy.",
+   "<a href=\"https://www.kknd-game.com/download\">Link</a>",
+   "beta / active",
+   "remake, commercial content, inspired by Krush, Kill 'n' Destroy, requires original content",
+   "<a href=\"https://github.com/IceReaper/KKnD.git\">Source</a> - C# - GPL-3.0"
   ],
   [
    "Kobold's Quest 2 (<a href=\"https://sourceforge.net/projects/koboldsquest2/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/kobolds_quest_2.md\">entry</a>)",

@@ -18,6 +18,12 @@ Free in the Dark (https://sourceforge.net/projects/fitd/): No source code availa
 FreeFT (https://github.com/nadult/FreeFT.git): All rights reserved.
 Future Blocks (https://github.com/fogleman/FutureBlocks.git): Needs DosBox, simple Tetris clone (nice, but maybe too minimal)
 Grow (https://sourceforge.net/projects/grow/): Insufficient content
+Herzog 3D (http://herzog3d.sourceforge.net/, https://sourceforge.net/p/herzog3d/code/HEAD/tree/): Very early development
+Homeworld SDL (https://github.com/aheadley/homeworld): Not open source compliant license (see https://github.com/aheadley/homeworld/blob/master/README)
+imperialism-remake (http://remake.twelvepm.de/, https://github.com/Trilarion/Imperialism-Remake.git): Too minimal (I must know)
+Jumping Jack 2 Worryingly Familiar (http://retrospec.sgn.net/game/jj2, http://retrospec.sgn.net/users/nwalker/jack/jjwf.zip): No compliant license found
+Jumping Jack Further Adventures (http://retrospec.sgn.net/game/jj,  http://retrospec.sgn.net/users/nwalker/jack/jj.zip): No compliant license found
+Jumpman (http://www.oldskool.org/pc/jumpman, http://www.oldskool.org/pc/jumpman/jump_src.zip): Only runs on DOS, License problems (taken without asking for permission)
 Moopy (https://code.google.com/archive/p/moopy/, https://code.google.com/archive/p/moopy/source/default/source): Early development stage
 Open General (http://www.open-general.com/, https://sourceforge.net/projects/opengeneral/, https://svn.code.sf.net/p/opengeneral/code/): Proprietary license (see credits.txt)
 OpenPop (http://openpopulous.sourceforge.net/, https://sourceforge.net/projects/openpopulous/, https://svn.code.sf.net/p/openpopulous/code/): Very early development

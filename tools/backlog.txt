@@ -29,6 +29,7 @@ http://libsdl-android.sourceforge.net/
 http://linball.sourceforge.net/
 http://psyco.sourceforge.net/
 http://pyopengl.sourceforge.net/
+http://retrospec.sgn.net
 http://sam.zoy.org/monsterz/
 http://vamos.sourceforge.net/
 http://www.fifengine.net/
@@ -142,6 +143,7 @@ https://github.com/jcarolus/android-chess
 https://github.com/juzzlin/DustRacing2D
 https://github.com/lexica/lexica
 https://github.com/libretro/libretro-prboom
+https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG
 https://github.com/magefree/mage
 https://github.com/marukrap/ProceduralMapGenerator
 https://github.com/miki151/keeperrl
@@ -150,9 +152,11 @@ https://github.com/nicolodavis/boardgame.io
 https://github.com/notapixelstudio/superstarfighter
 https://github.com/Novum/vkQuake
 https://github.com/NYRDS/remixed-dungeon
+https://github.com/OpenBricks/openbricks
 https://github.com/OpenDungeons/OpenDungeons
 https://github.com/openitg/openitg
 https://github.com/OpenMandrivaAssociation
+https://github.com/openMSX/openMSX
 https://github.com/opensourcedesign
 https://github.com/opentomb/OpenTomb
 https://github.com/OpMonTeam/OpMon
@@ -171,6 +175,7 @@ https://github.com/rpgboss/rpgboss
 https://github.com/rwengine/openrw
 https://github.com/saniv/free-game-art/blob/master/foss-copyright-infringement-records.md
 https://github.com/search?p=1&q=sunrider&type=Repositories, sunrider
+https://github.com/sirjuddington/SLADE
 https://github.com/smcameron/space-nerds-in-space
 https://github.com/SneakyTactician/MagicalLife
 https://github.com/sourcehold/Sourcehold
@@ -178,6 +183,7 @@ https://github.com/sphair/ClanLib
 https://github.com/sromku/memory-game
 https://github.com/stephenjsweeney/blobwarsAttrition
 https://github.com/STJr/SRB2
+https://github.com/suijingfeng/vkOpenArena
 https://github.com/SuperTux/supertux
 https://github.com/taisei-project/taisei
 https://github.com/team-eternity/eternity
@@ -232,7 +238,10 @@ https://sourceforge.net/projects/zaz/
 https://web.archive.org/web/20150526225753/http://sourceforge.net/projects/mameosx/
 https://web.archive.org/web/20150527150705/http://sourceforge.net/p/forge/community-docs/SourceForge%20Games/ (schon erledigt)
 https://wiki.debian.org/Games/Unsuitable
+https://www.bsframework.io/
 https://www.fosshub.com/about.html
+https://www.openhub.net/ (search for games)
+https://www.piston.rs/
 https://www.reddit.com/r/opensource/comments/cs6m3y/a_list_of_fossrelated_projects_people_to_follow/
 https://www.reddit.com/r/opensourcegames/
 https://www.reddit.com/r/opensourcegames/comments/celw6c/top_3_open_source_pinball_games_2015/

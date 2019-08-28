@@ -123,6 +123,11 @@ def parse_entry(content):
         # store in info
         info[field.lower()] = v
 
+    # check that essential fields made it through
+    for field in ('home', 'state', 'keywords', 'code language', 'code license'):
+        if field not in info:
+            raise RuntimeError('Essential field "{}" missing or empty in entry "{}"'.format(field, info['name']))
+
     # now checks on the content of fields
 
     # name should not have spaces at the begin or end

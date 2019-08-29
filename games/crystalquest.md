@@ -8,6 +8,6 @@ _Remake of Crystal Quest._
 - Code repository: https://github.com/haleymt/CrystalQuest.git
 - Code language: JavaScript
 - Code license: MIT
-- Code dependencies: HTML5, JQuery
+- Code dependencies: JQuery
 
 ## Building

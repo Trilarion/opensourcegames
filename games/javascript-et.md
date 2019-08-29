@@ -10,6 +10,5 @@ _Remake of E.T. the Extra-Terrestrial._
 - Code repository: https://github.com/FranciscoG/javascript-E.T..git
 - Code language: JavaScript, Assembly
 - Code license: MIT
-- Code dependencies: HTML5
 
 ## Building

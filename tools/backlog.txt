@@ -96,6 +96,7 @@ https://github.com/arianne/stendhal
 https://github.com/ArmageddonGames/ZeldaClassic
 https://github.com/AxioDL/urde
 https://github.com/b3dgs/lionengine
+https://github.com/b3dgs/warcraft-remake
 https://github.com/bitcraft/PyTMX
 https://github.com/bvschaik/julius
 https://github.com/ByoxCode/DrawView
@@ -123,6 +124,7 @@ https://github.com/discosultan/penumbra
 https://github.com/eprikazchikov/thunder
 https://github.com/ErikLetson/torso-ninja
 https://github.com/ErikLetson/torso-ninja-2
+https://github.com/Ershany/Arcane-Engine
 https://github.com/Esenthel/EsenthelEngine
 https://github.com/estevaofon/angry-birds-python
 https://github.com/etternagame/etterna
@@ -145,6 +147,7 @@ https://github.com/lexica/lexica
 https://github.com/libretro/libretro-prboom
 https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG
 https://github.com/magefree/mage
+https://github.com/MaKiPL/OpenVIII
 https://github.com/marukrap/ProceduralMapGenerator
 https://github.com/miki151/keeperrl
 https://github.com/MovingBlocks/DestinationSol
@@ -204,6 +207,7 @@ https://github.com/XProger/OpenLara
 https://github.com/xyzz/openmw-android
 https://github.com/yairm210/UnCiv
 https://github.com/yiotro/Antiyoy
+https://gitlab.com/LibreGames
 https://keeperrl.com/
 https://lgdb.org/game/wolfpack-empire
 https://libregamewiki.org/Libregamewiki:Suggested_games#Likely_sources_for_more_free_games
@@ -235,9 +239,11 @@ https://sourceforge.net/projects/uhexen2/
 https://sourceforge.net/projects/vpinball/
 https://sourceforge.net/projects/webchess/
 https://sourceforge.net/projects/zaz/
+https://stabyourself.net/ (all projects there)
 https://web.archive.org/web/20150526225753/http://sourceforge.net/projects/mameosx/
 https://web.archive.org/web/20150527150705/http://sourceforge.net/p/forge/community-docs/SourceForge%20Games/ (schon erledigt)
 https://wiki.debian.org/Games/Unsuitable
+https://www.b3dgs.com/v7/page.php?lang=en&section=projects
 https://www.bsframework.io/
 https://www.fosshub.com/about.html
 https://www.openhub.net/ (search for games)

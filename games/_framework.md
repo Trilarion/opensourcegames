@@ -54,7 +54,7 @@
 - **[SDL Game Engine 2D](sdl_game_engine_2d.md)** (C, MIT, beta, inactive since 2014)
 - **[SoftPixel Engine](softpixel_engine.md)** (C++, zlib, mature, inactive since 2013)
 - **[Solarus](solarus.md)** (C, C++, Lua, GPL-3.0, mature)
-- **[Superpowers](superpowers.md)** (Typescript, ISC, mature)
+- **[Superpowers](superpowers.md)** (TypeScript, ISC, mature)
 - **[Terasology](terasology.md)** (Java, Apache-2.0, mature)
 - **[Urho3D](urho3d.md)** (C++, AngelScript, MIT, mature)
 - **[VASSAL Engine](vassal_engine.md)** (Java, LGPL-2.1, mature)

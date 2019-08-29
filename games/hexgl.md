@@ -10,6 +10,6 @@ _Clone of Wipeout._
 - Code repository: https://github.com/BKcore/HexGL.git
 - Code language: JavaScript, CoffeeScript
 - Code license: MIT
-- Code dependencies: HTML5, WebGL
+- Code dependencies: WebGL
 
 ## Building

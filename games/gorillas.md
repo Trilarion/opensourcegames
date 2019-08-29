@@ -7,7 +7,7 @@ _Remake of Gorillas._
 - Platform: iOS
 - Keywords: remake, artillery, inspired by Gorillas
 - Code repository: https://github.com/Lyndir/Gorillas.git
-- Code language: Objective-C, Javascript
+- Code language: Objective-C, JavaScript
 - Code license: Java Research License (no commercial use)
 
 ## Building

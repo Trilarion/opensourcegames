@@ -13,6 +13,7 @@
 - **[Jake2](jake2.md)** (Java, GPL-2.0, beta, inactive since 2006)
 - **[JediOutcastLinux](jedioutcastlinux.md)** (C, C++, GPL-2.0, mature)
 - **[JFDuke3D](jfduke3d.md)** (C, GPL-2.0, beta, inactive since 2005)
+- **[Librelancer](librelancer.md)** (C, C#, MIT, beta)
 - **[Open Game Engine](open_game_engine.md)** (C++, LGPL-2.1, beta, inactive since 2008)
 - **[OpenMW](openmw.md)** (C++, GPL-3.0, mature)
 - **[PainTown](paintown.md)** (C++, Java, Python, 3-clause BSD, mature)

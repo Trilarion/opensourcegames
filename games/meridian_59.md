@@ -7,11 +7,11 @@ _A classic MMO._
 - State: mature
 - Download: http://meridian59.com/play-now.php
 - Keywords: role playing, massive multiplayer online
-- Code repository: https://github.com/Meridian59/Meridian59.git
+- Code repository: https://github.com/Meridian59/Meridian59.git, https://github.com/OpenMeridian/Meridian59.git (+), https://github.com/OpenMeridian105/Meridian59.git (+), https://github.com/Arantis/Meridian59_112.git (+)
 - Code language: C++, C
 - Code license: GPL-2.0
 
-See also [Server 105](https://www.meridiannext.com/).
+See also [Server 105](https://www.meridiannext.com/) and https://github.com/OpenMeridian105/Meridian59.git, [Server 112](https://github.com/Arantis/Meridian59_112.git).
 
 ## Building
 

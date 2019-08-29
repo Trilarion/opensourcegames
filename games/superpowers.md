@@ -7,7 +7,7 @@ _2D+3D game making for indies._
 - Download: https://sparklinlabs.itch.io/superpowers
 - Keywords: framework
 - Code repository: https://github.com/superpowers/superpowers-core.git
-- Code language: Typescript
+- Code language: TypeScript
 - Code license: ISC
 
 ## Building

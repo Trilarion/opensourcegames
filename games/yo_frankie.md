@@ -9,7 +9,7 @@ _Platform game._
 - Platform: Windows, Linux, macOS (wherever Blender runs)
 - Keywords: action
 - Code repository: (see download)
-- Code language: Blender script
+- Code language: Blender Script
 - Code license: ?
 - Code dependencies: Blender game engine
 

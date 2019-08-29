@@ -38,15 +38,19 @@ import ruamel_yaml as yaml
 from utils.osg import *
 
 # should change on osgameclones
-osgc_name_aliases = {'4DTris': '4D-TRIS', 'fheroes2': 'Free Heroes 2', 'DrCreep': 'The Castles of Dr. Creep', 'Duke3d_win32': 'Duke3d_w32', 'erampage (EDuke32 fork)': 'erampage', 'GNOME Atomix': 'Atomix', 'Head over Heels 2': 'Head over Heels'}
+osgc_name_aliases = {'4DTris': '4D-TRIS', 'fheroes2': 'Free Heroes 2', 'DrCreep': 'The Castles of Dr. Creep', 'Duke3d_win32': 'Duke3d_w32', 'erampage (EDuke32 fork)': 'erampage', 'GNOME Atomix': 'Atomix', 'Head over Heels 2': 'Head over Heels',
+                     'JazzÂ² Resurrection': 'Jazz² Resurrection', 'mewl': 'M.E.W.L.', 'LinWarrior': 'Linwarrior 3D', 'Mice Men Remix': 'Mice Men: Remix'}
 
 # conversion between licenses syntax them and us
-osgc_licenses_map = {'GPL2': 'GPL-2.0', 'GPL3': 'GPL-3.0', 'AGPL3': 'AGPL-3.0', 'LGPL3': 'LGPL-3.0', 'LGPL2': 'LGPL-2.0 or 2.1?', 'MPL': 'MPL-2.0', 'Apache': 'Apache-2.0', 'Artistic': 'Artistic License', 'Zlib': 'zlib'}
+osgc_licenses_map = {'GPL2': 'GPL-2.0', 'GPL3': 'GPL-3.0', 'AGPL3': 'AGPL-3.0', 'LGPL3': 'LGPL-3.0', 'LGPL2': 'LGPL-2.0 or 2.1?', 'MPL': 'MPL-2.0', 'Apache': 'Apache-2.0', 'Artistic': 'Artistic License', 'Zlib': 'zlib', 'PD': 'Public domain'}
 
 # ignore osgc entries (for various reasons like unclear license etc.)
 osgc_ignored_entries = ["A Mouse's Vengeance", 'achtungkurve.com', 'AdaDoom3', 'Agendaroids', 'Alien 8', 'Ard-Reil', 'Balloon Fight', 'bladerunner (Engine within SCUMMVM)', 'Block Shooter', 'Bomb Mania Reloaded', 'boulder-dash', 'Cannon Fodder', 'Contra_remake', 'CosmicArk-Advanced', 'Deuteros X', 'datastorm'
-                        ,'div-columns', 'div-pacman2600', 'div-pitfall', 'div-spaceinvaders2600', 'EXILE', 'Free in the Dark', 'Football Manager', 'Fight Or Perish', 'EarthShakerDS', 'Entombed!', 'FreeRails 2', 'Glest Advanced Engine', 'FreedroidClassic', 'FreeFT', 'Future Blocks', 'HeadOverHeels'
-                        , 'Herzog 3D', 'Homeworld SDL', 'imperialism-remake', 'Jumping Jack 2: Worryingly Familiar', 'Jumping Jack: Further Adventures', 'Jumpman']
+                        , 'div-columns', 'div-pacman2600', 'div-pitfall', 'div-spaceinvaders2600', 'EXILE', 'Free in the Dark', 'Football Manager', 'Fight Or Perish', 'EarthShakerDS', 'Entombed!', 'FreeRails 2', 'Glest Advanced Engine', 'FreedroidClassic', 'FreeFT', 'Future Blocks', 'HeadOverHeels'
+                        , 'Herzog 3D', 'Homeworld SDL', 'imperialism-remake', 'Jumping Jack 2: Worryingly Familiar', 'Jumping Jack: Further Adventures', 'Jumpman', 'legion', 'KZap', 'LastNinja', 'Lemmix', 'LixD', 'luminesk5', 'Manic Miner', 'Meridian 59 Server 105', 'Meridian 59 German Server 112', 'Mining Haze']
+
+# ignore certain dependencies (not a framework)
+osgc_ignored_dependencies = ['HTML5', 'HTML', 'HTML canvas']
 
 
 def unique_field_contents(entries, field):
@@ -97,11 +101,20 @@ if __name__ == "__main__":
         name = entry['name']
         if name in osgc_name_aliases:
             entry['name'] = osgc_name_aliases[name]
-            osgc_entries[index] = entry
         if 'license' in entry:
             licenses = entry['license']
             licenses = [osgc_licenses_map.get(x, x) for x in licenses]
             entry['license'] = licenses
+        if 'framework' in entry:
+            frameworks = entry['framework']
+            if type(frameworks) == str:
+                frameworks = [frameworks]
+            frameworks = [x for x in frameworks if x not in osgc_ignored_dependencies]
+            if frameworks:
+                entry['framework'] = frameworks
+            else:
+                del entry['framework']
+        osgc_entries[index] = entry # TODO is this necessary or is the entry modified anyway?
 
     # which fields do they have
     osgc_fields = set()
@@ -295,7 +308,10 @@ if __name__ == "__main__":
             file_name = derive_canonical_file_name(osgc_name)
             target_file = os.path.join(games_path, file_name)
             if os.path.isfile(target_file):
-                print('warning: cannot create {}, already existing'.format(file_name))
+                print('warning: file {} already existing, save under slightly different name'.format(file_name))
+                target_file = os.path.join(games_path, file_name[:-3] + '-duplicate.md')
+                if os.path.isfile(target_file):
+                    continue # just for safety reasons
 
             # add name
             entry = '# {}\n\n'.format(osgc_name)
@@ -314,6 +330,14 @@ if __name__ == "__main__":
                 if osgc_entry['development'] == 'halted':
                     entry += ', inactive since XX'
             entry += '\n'
+
+            # language tags
+            lang = osgc_entry.get('lang', [])
+            if type(lang) == str:
+                lang = [lang]
+            # platform 'Web' if language == JavaScript or TypeScript
+            if len(lang) == 1 and lang[0] in ('JavaScript', 'TypeScript'):
+                entry += '- Platform: Web\n'
 
             # keywords
             keywords = []
@@ -343,9 +367,6 @@ if __name__ == "__main__":
             entry += '- Code repository: {}\n'.format(repo)
 
             # code language (mandatory on our side)
-            lang = osgc_entry.get('lang', [])
-            if type(lang) == str:
-                lang = [lang]
             entry += '- Code language: {}\n'.format(', '.join(lang))
 
             # code license

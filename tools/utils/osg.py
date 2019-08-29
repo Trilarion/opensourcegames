@@ -211,7 +211,8 @@ def assemble_infos(games_path):
 
         # check canonical file name
         canonical_file_name = derive_canonical_file_name(info['name'])
-        if canonical_file_name != entry:
+        # we also allow -X with X =2..9 as possible extension (because of duplicate canonical file names)
+        if canonical_file_name != entry and canonical_file_name != entry[:-5] + '.md':
             print('file {} should be {}'.format(entry, canonical_file_name))
             source_file = os.path.join(games_path, entry)
             target_file = os.path.join(games_path, canonical_file_name)

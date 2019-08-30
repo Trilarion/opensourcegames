@@ -14,6 +14,8 @@
 - **[Keen Dreams](keen_dreams.md)** (C, Assembly, C++, GPL-2.0, mature, inactive since 2014)
 - **[Lionheart Remake](lionheart_remake.md)** (Java, GPL-3.0, beta, inactive since 2018)
 - **[Mari0](mari0.md)** (Lua, CC-BY-NC-SA-3.0, mature, inactive since 2012)
+- **[NXEngine-evo](nxengine-evo.md)** (C++, GPL-3.0, mature)
+- **[NXEngine](nxengine.md)** (C, C++, GPL-3.0, mature)
 - **[Open Surge](open_surge.md)** (C, GPL-3.0, beta)
 - **[Smash Battle](smash_battle.md)** (C++, ?, beta, inactive since 2011)
 - **[The Legend of Edgar](the_legend_of_edgar.md)** (C, GPL-2.0, mature)

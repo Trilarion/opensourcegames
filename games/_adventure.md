@@ -13,6 +13,7 @@
 - **[Head over Heels](head_over_heels.md)** (C++, GPL-3.0, mature)
 - **[Heart of the Alien](heart_of_the_alien.md)** (C, GPL-2.0, beta, inactive since 2005)
 - **[javascript-E.T.](javascript-et.md)** (JavaScript, Assembly, MIT, beta, inactive since 2017)
+- **[Morpheus Web Remake](morpheus_web_remake.md)** (Javascript, MIT, beta)
 - **[Murder In The Public Domain](murder_in_the_public_domain.md)** (C++, GPL-3.0, mature, inactive since 2013)
 - **[Sentient Storage](sentient_storage.md)** (Python, Public domain, mature)
 - **[Sintel The Game](sintel_the_game.md)** (Python, MIT, beta, inactive since 2014)

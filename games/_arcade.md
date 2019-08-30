@@ -21,6 +21,8 @@
 - **[Ladder](ladder.md)** (Java, GPL-2.0, mature, inactive since 2005)
 - **[Maelstrom](maelstrom.md)** (C, C++, GPL-2.0, mature, inactive since 2002)
 - **[Marblez](marblez.md)** (C#, MIT, beta, inactive since 2017)
+- **[Monsters and Mushrooms](monsters_and_mushrooms.md)** (Python, GPL-2.0, mature, inactive since 2010)
+- **[Nighthawk](nighthawk.md)** (C++, GPL-2.0, mature, inactive since 2004)
 - **[OpenLieroX](openlierox.md)** (C++, LGPL-2.0, mature)
 - **[PainTown](paintown.md)** (C++, Java, Python, 3-clause BSD, mature)
 - **[Pang Zero](pang_zero.md)** (Perl, GPL-2.0, beta, inactive since 2007)

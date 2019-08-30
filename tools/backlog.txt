@@ -212,6 +212,7 @@ https://keeperrl.com/
 https://lgdb.org/game/wolfpack-empire
 https://libregamewiki.org/Libregamewiki:Suggested_games#Likely_sources_for_more_free_games
 https://neverball.org/
+https://nukeykt.retrohost.net/
 https://openage.sft.mx/
 https://osdn.net/softwaremap/trove_list.php?form_cat=80
 https://packages.debian.org/sid/games/etw
@@ -245,6 +246,7 @@ https://web.archive.org/web/20150527150705/http://sourceforge.net/p/forge/commun
 https://wiki.debian.org/Games/Unsuitable
 https://www.b3dgs.com/v7/page.php?lang=en&section=projects
 https://www.bsframework.io/
+https://www.fandom.com/topics/games (look for media links, example https://creatures.fandom.com/wiki/Openc2e)
 https://www.fosshub.com/about.html
 https://www.openhub.net/ (search for games)
 https://www.piston.rs/

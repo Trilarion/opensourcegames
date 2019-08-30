@@ -8,6 +8,7 @@ gitlab.com/librebob/athenaeum
 Hedgewars
 heXon
 holyspirit/lechemindeladam cvs conversion?
+http://antongerdelan.net/blog/ (other projects besides TestDrive)
 http://directpython.sourceforge.net/
 http://icculus.org/airstrike/
 http://icculus.org/asciiroth/
@@ -27,6 +28,7 @@ http://icculus.org/tennix/
 http://icculus.org/toby/
 http://libsdl-android.sourceforge.net/
 http://linball.sourceforge.net/
+http://opentomb.github.io/
 http://psyco.sourceforge.net/
 http://pyopengl.sourceforge.net/
 http://retrospec.sgn.net
@@ -174,6 +176,7 @@ https://github.com/REGoth-project/REGoth-bs
 https://github.com/residualvm/residualvm
 https://github.com/romlok/godot-gdhexgrid
 https://github.com/RonenNess/GeonBit.UI
+https://github.com/RPG-Paper-Maker/RPG-Paper-Maker
 https://github.com/rpgboss/rpgboss
 https://github.com/rwengine/openrw
 https://github.com/saniv/free-game-art/blob/master/foss-copyright-infringement-records.md
@@ -184,6 +187,7 @@ https://github.com/SneakyTactician/MagicalLife
 https://github.com/sourcehold/Sourcehold
 https://github.com/sphair/ClanLib
 https://github.com/sromku/memory-game
+https://github.com/Stabyourself/mari0
 https://github.com/stephenjsweeney/blobwarsAttrition
 https://github.com/STJr/SRB2
 https://github.com/suijingfeng/vkOpenArena
@@ -196,6 +200,7 @@ https://github.com/TheAssemblyArmada/Chronoshift
 https://github.com/TheAssemblyArmada/Thyme
 https://github.com/tonihele/OpenKeeper
 https://github.com/tpcstld/2048
+https://github.com/Try/OpenGothic
 https://github.com/unknown-horizons/godot-port
 https://github.com/ValyriaTear/ValyriaTear
 https://github.com/vilbeyli/VQEngine

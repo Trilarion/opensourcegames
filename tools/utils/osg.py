@@ -104,8 +104,8 @@ def parse_entry(content):
         # remove parenthesis with content
         v = re.sub(r'\([^)]*\)', '', v)
 
-        # split on ','
-        v = v.split(',')
+        # split on ', '
+        v = v.split(', ')
 
         # strip
         v = [x.strip() for x in v]

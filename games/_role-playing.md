@@ -94,6 +94,7 @@
 - **[OpenMW](openmw.md)** (C++, GPL-3.0, mature)
 - **[ORIENT](orient.md)** (C#, Java, GPL-2.0, mature, inactive since 2009)
 - **[Other-Life](other-life.md)** (C, C++, Custom, beta)
+- **[Paper Isaac](paper_isaac.md)** (ooc, MIT, beta, inactive since 2015)
 - **[PARPG](parpg.md)** (Python, GPL-3.0, beta, inactive since 2012)
 - **[Phantasy Star Rebirth](phantasy_star_rebirth.md)** (C++, GPL-3.0, beta, inactive since 2013)
 - **[PlaneShift](planeshift.md)** (C++, GPL-2.0, mature)

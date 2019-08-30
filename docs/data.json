@@ -2817,6 +2817,14 @@
    "<a href=\"https://github.com/FlatRockSoft/Hovertank3D.git\">Source</a> - C++, Assembly - GPL-2.0"
   ],
   [
+   "HTML5 Pacman (<a href=\"https://github.com/daleharvey/pacman\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/html5_pacman.md\">entry</a>)",
+   "Remake of Pac-Man.",
+   "",
+   "mature / inactive since 2013",
+   "remake, inspired by Pac-Man, skill",
+   "<a href=\"https://github.com/daleharvey/pacman.git\">Source</a> - JavaScript - WTFPL"
+  ],
+  [
    "HyperRogue (<a href=\"http://roguetemple.com/z/hyper/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/hyperrogue.md\">entry</a>)",
    "Roguelike inspired by the puzzle game Deadly Rooms of..",
    "<a href=\"http://roguetemple.com/z/hyper/download.php\">Link</a>",
@@ -4033,7 +4041,7 @@
    "<a href=\"https://github.com/ccdevnet/openc2e.git\">Source</a> - C, C++, Python - LGPL-2.1"
   ],
   [
-   "Open Cube (<a href=\"http://team-cube.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/open-cube.md\">entry</a>)",
+   "Open Cube (<a href=\"http://team-cube.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/open_cube.md\">entry</a>)",
    "Remake of Cube 2: Sauerbraten.",
    "",
    "beta / inactive since 2017",
@@ -4065,7 +4073,7 @@
    "<a href=\"http://github.com/SuperV1234/SSVOpenHexagon\">Source</a> - C++ - AFL-3.0"
   ],
   [
-   "Open Horizon (<a href=\"http://zxstudio.org/blog/author/razgriz/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/open-horizon.md\">entry</a>)",
+   "Open Horizon (<a href=\"http://zxstudio.org/blog/author/razgriz/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/open_horizon.md\">entry</a>)",
    "Remake of Ace Combat: Assault Horizon.",
    "<a href=\"http://zxstudio.org/blog/open-horizon-downloads/\">Link</a>",
    "beta / active",
@@ -4321,6 +4329,22 @@
    "<a href=\"https://github.com/openfl/openfl.git\">Source</a> - Haxe - MIT"
   ],
   [
+   "OpenGGS (<a href=\"https://sourceforge.net/projects/openggs/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/openggs.md\">entry</a>)",
+   "Remake of The Great Giana Sisters.",
+   "<a href=\"https://sourceforge.net/projects/openggs/files/\">Link</a>",
+   "beta / inactive since 2017",
+   "remake, inspired by The Great Giana Sisters, scrolling, skill",
+   "C++ - GPL-2.0"
+  ],
+  [
+   "OpenGL Test Drive Remake (<a href=\"http://antongerdelan.net/blog/formatted/2014_12_10_test_drive.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/opengl_test_drive_remake.md\">entry</a>)",
+   "Remake of Test Drive.",
+   "",
+   "mature / inactive since 2015",
+   "remake, car, inspired by Test Drive, racing",
+   "<a href=\"https://github.com/capnramses/opengl_test_drive_clone.git\">Source</a> - C, C++ - GPL-3.0"
+  ],
+  [
    "Openglad (<a href=\"http://snowstorm.sourceforge.net/cgi-bin/site.cgi?page=home\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/openglad.md\">entry</a>)",
    "An SDL port of an old DOS game called Gladiator.",
    "<a href=\"http://snowstorm.sourceforge.net/cgi-bin/site.cgi?page=download\">Link</a>",
@@ -4337,12 +4361,68 @@
    "<a href=\"https://code.launchpad.net/openhomm\">Source</a> - C++ - GPL-3.0"
   ],
   [
+   "OpenJazz (<a href=\"http://www.alister.eu/jazz/oj/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/openjazz.md\">entry</a>)",
+   "Remake of Jazz Jackrabbit.",
+   "<a href=\"http://www.alister.eu/jazz/oj/download.php\">Link</a>",
+   "beta / active",
+   "arcade, commercial content, inspired by Jazz Jackrabbit, remake, requires original content",
+   "<a href=\"https://github.com/AlisterT/openjazz.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "OpenJK (<a href=\"https://github.com/JACoders/OpenJK\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/openjk.md\">entry</a>)",
+   "Remake of Jedi Knight: Jedi Academy.",
+   "<a href=\"https://builds.openjk.org/\">Link</a>",
+   "beta / active",
+   "action, commercial content, game engine, inspired by Jedi Knight: Jedi Academy, remake, requires original content",
+   "<a href=\"https://github.com/JACoders/OpenJK.git\">Source</a> - C, C++ - GPL-2.0"
+  ],
+  [
+   "OpenLara (<a href=\"https://github.com/XProger/OpenLara\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/openlara.md\">entry</a>)",
+   "Remake of Tomb Raider.",
+   "",
+   "mature / active",
+   "action, inspired by Tomb Raider, remake, skill",
+   "<a href=\"https://github.com/XProger/OpenLara.git\">Source</a> - C++ - 2-clause BSD"
+  ],
+  [
+   "OpenLiero (<a href=\"http://www.liero.be/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/openliero.md\">entry</a>)",
+   "Remake of Liero.",
+   "",
+   "mature / inactive since 2015",
+   "action, arcade, free content, inspired by Liero, multiplayer Split-screen, remake",
+   "<a href=\"https://github.com/gliptic/liero.git\">Source</a> - C++ - Custom"
+  ],
+  [
    "OpenLieroX (<a href=\"http://www.openlierox.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/openlierox.md\">entry</a>)",
    "Realtime worms shoot-em-up.",
    "<a href=\"http://www.openlierox.net/downloads/\">Link</a>",
    "mature / active",
    "action, arcade, inspired by Liero, remake, wormslike",
    "<a href=\"https://github.com/albertz/openlierox.git\">Source</a> - C++ - LGPL-2.0"
+  ],
+  [
+   "OpenLoco (<a href=\"https://github.com/OpenLoco/OpenLoco\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/openloco.md\">entry</a>)",
+   "Remake of Chris Sawyer's Locomotion.",
+   "<a href=\"https://github.com/OpenLoco/OpenLoco/releases\">Link</a>",
+   "mature / active",
+   "simulation, commercial content, inspired by Chris Sawyer's Locomotion, remake, requires original content, transport",
+   "<a href=\"https://github.com/OpenLoco/OpenLoco.git\">Source</a> - C++ - MIT"
+  ],
+  [
+   "OpenMC2 (<a href=\"https://github.com/LRFLEW/OpenMC2\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/openmc2.md\">entry</a>)",
+   "Remake of Midnight Club II.",
+   "",
+   "beta / inactive since 2018",
+   "arcade, commercial content, inspired by Midnight Club II, multiplayer LAN, racing, remake, requires original content",
+   "<a href=\"https://github.com/LRFLEW/OpenMC2.git\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
+   "OpenMoM (<a href=\"https://github.com/Jakz/openmom\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/openmom.md\">entry</a>)",
+   "Clone of Master of Magic.",
+   "",
+   "beta / active",
+   "strategy, clone, commercial content, inspired by Master of Magic, requires original content",
+   "<a href=\"https://github.com/Jakz/openmom.git\">Source</a> - C, C++ - GPL-3.0"
   ],
   [
    "OpenMOO2 (<a href=\"http://openmoo2.org/en/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/openmoo2.md\">entry</a>)",
@@ -4353,12 +4433,44 @@
    "<a href=\"https://github.com/pjotrligthart/openmoo2-hg-mirror.git\">Source</a> - Python - GPL-2.0"
   ],
   [
+   "OpenMortal (<a href=\"http://apocalypse.rulez.org/~upi/Mortal/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/openmortal.md\">entry</a>)",
+   "Clone of Mortal Kombat.",
+   "<a href=\"http://openmortal.sourceforge.net/download.html\">Link</a>",
+   "beta / inactive since 2006",
+   "action, clone, inspired by Mortal Kombat",
+   "<a href=\"http://openmortal.cvs.sourceforge.net\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
    "OpenMW (<a href=\"http://openmw.org/en/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/openmw.md\">entry</a>)",
    "Unofficial open source engine reimplementation of the game..",
    "<a href=\"https://openmw.org/downloads/\">Link</a>",
    "mature / active",
    "role playing, game engine, inspired by The Elder Scrolls III: Morrowing, remake, requires original content",
    "<a href=\"https://github.com/OpenMW/openmw.git\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
+   "OpenNFS (<a href=\"http://opennfs.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/opennfs.md\">entry</a>)",
+   "Remake of Need For Speed III: Hot Pursuit.",
+   "",
+   "beta / active",
+   "game engine, cars, commercial content, inspired by Need For Speed III: Hot Pursuit, racing, remake, requires original content",
+   "<a href=\"https://github.com/AmrikSadhra/OpenNFS.git\">Source</a> - C, C++ - MIT"
+  ],
+  [
+   "OpenNotrium (<a href=\"https://github.com/verhoevenv/OpenNotrium\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/opennotrium.md\">entry</a>)",
+   "Remake of Notrium.",
+   "",
+   "beta / active",
+   "action, inspired by Notrium, puzzle, remake, requires original content, survival",
+   "<a href=\"https://github.com/verhoevenv/OpenNotrium.git\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
+   "OpenOMF (<a href=\"http://www.openomf.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/openomf.md\">entry</a>)",
+   "Remake of One Must Fall: 2097.",
+   "<a href=\"http://www.openomf.org/downloads/\">Link</a>",
+   "beta / active",
+   "action, commercial content, fighting, free content, inspired by One Must Fall: 2097, remake, requires original content",
+   "<a href=\"https://github.com/omf2097/openomf.git\">Source</a> - C, C++ - MIT"
   ],
   [
    "OpenRA (<a href=\"http://www.openra.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/openra.md\">entry</a>)",
@@ -4369,6 +4481,14 @@
    "<a href=\"https://github.com/OpenRA/OpenRA.git\">Source</a> - C# - GPL-3.0"
   ],
   [
+   "OpenRaider (<a href=\"https://github.com/xythobuz/OpenRaider\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/openraider.md\">entry</a>)",
+   "Remake of Tomb Raider.",
+   "<a href=\"https://github.com/xythobuz/OpenRaider/releases\">Link</a>",
+   "beta / inactive since 2015",
+   "action, inspired by Tomb Raider, remake, requires original content",
+   "<a href=\"https://github.com/xythobuz/OpenRaider.git\">Source</a> - C, C++ - GPL-2.0"
+  ],
+  [
    "OpenRCT2 (<a href=\"https://openrct2.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/openrct2.md\">entry</a>)",
    "Re-implementation of RollerCoaster Tycoon 2 (RCT2),..",
    "<a href=\"https://openrct2.org/downloads\">Link</a>",
@@ -4377,12 +4497,36 @@
    "<a href=\"https://github.com/OpenRCT2/OpenRCT2.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
+   "OpenRoads (<a href=\"http://openroadsgame.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/openroads.md\">entry</a>)",
+   "Remake of SkyRoads.",
+   "",
+   "mature / inactive since 2014",
+   "arcade, inspired by SkyRoads, remake",
+   "<a href=\"https://github.com/anprogrammer/OpenRoads.git\">Source</a> - TypeScript, Javascript - MIT"
+  ],
+  [
    "OpenRPG (<a href=\"http://www.rpgobjects.com/index.php?c=orpg\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/openrpg.md\">entry</a>)",
    "OpenRPG is an Internet application that allows people to..",
    "<a href=\"http://www.rpgobjects.com/index.php?c=orpg&m=getorpg\">Link</a>",
    "mature / inactive since 2013",
    "framework",
    "<a href=\"https://gitlab.com/osgames/openrpg.git\">Source</a> - Python - GPL-2.0"
+  ],
+  [
+   "OpenSAGE (<a href=\"https://opensage.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/opensage.md\">entry</a>)",
+   "Clone of Command & Conquer: Generals.",
+   "<a href=\"https://github.com/OpenSAGE/OpenSAGE/releases\">Link</a>",
+   "beta / active",
+   "strategy, clone, commercial content, game engine, inspired by Command & Conquer: Generals, realtime, requires original content",
+   "<a href=\"https://github.com/OpenSAGE/OpenSAGE.git\">Source</a> - C# - LGPL-3.0"
+  ],
+  [
+   "OpenSC2K (<a href=\"https://github.com/rage8885/OpenSC2K\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/opensc2k.md\">entry</a>)",
+   "Remake of SimCity 2000.",
+   "",
+   "beta / active",
+   "simulation, inspired by SimCity 2000, remake",
+   "<a href=\"https://github.com/rage8885/OpenSC2K.git\">Source</a> - JavaScript - GPL-3.0"
   ],
   [
    "OpenSkyscraper (<a href=\"http://openskyscraper.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/openskyscraper.md\">entry</a>)",
@@ -4401,6 +4545,22 @@
    "<a href=\"https://github.com/delight-im/OpenSoccer.git\">Source</a> - PHP - GPL-3.0"
   ],
   [
+   "OpenSpades (<a href=\"http://openspades.yvt.jp/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/openspades.md\">entry</a>)",
+   "Remake of Ace of Spades.",
+   "<a href=\"https://github.com/yvt/openspades/releases\">Link</a>",
+   "beta / active",
+   "remake, first-person, inspired by Ace of Spades, sandbox, shooter",
+   "<a href=\"https://github.com/yvt/openspades.git\">Source</a> - C, C++, AngelScript - GPL-3.0"
+  ],
+  [
+   "OpenSR (<a href=\"https://github.com/ObKo/OpenSR\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/opensr.md\">entry</a>)",
+   "Remake of Space Rangers 2: Dominators.",
+   "",
+   "beta / inactive since 2017",
+   "remake, commercial content, inspired by Space Rangers 2: Dominators, requires original content",
+   "<a href=\"https://github.com/ObKo/OpenSR.git\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
    "OpenSSL (<a href=\"https://www.openssl.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/openssl.md\">entry</a>)",
    "Toolkit for the Transport Layer Security (TLS) and Secure..",
    "<a href=\"https://www.openssl.org/source/\">Link</a>",
@@ -4409,12 +4569,52 @@
    "<a href=\"https://github.com/openssl/openssl.git\">Source</a> - C - Custom"
   ],
   [
+   "OpenSWE1R (<a href=\"https://openswe1r.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/openswe1r.md\">entry</a>)",
+   "Remake of Star Wars Episode I: Racer.",
+   "",
+   "beta / active",
+   "remake, commercial content, inspired by Star Wars Episode I: Racer, requires original content",
+   "<a href=\"https://github.com/OpenSWE1R/openswe1r.git\">Source</a> - C, C++ - GPL-2.0"
+  ],
+  [
+   "OpenTitus (<a href=\"http://opentitus.sourceforge.net\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/opentitus.md\">entry</a>)",
+   "Remake of Titus the Fox.",
+   "<a href=\"https://sourceforge.net/projects/opentitus/files/opentitus/\">Link</a>",
+   "beta / inactive since 2014",
+   "remake, inspired by Titus the Fox, requires original content",
+   "<a href=\"https://github.com/stople/OpenTitus.git\">Source</a> - C - GPL-3.0"
+  ],
+  [
+   "OpenTomb (<a href=\"https://opentomb.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/opentomb.md\">entry</a>)",
+   "Remake of Tomb Raider.",
+   "<a href=\"https://github.com/opentomb/OpenTomb/releases\">Link</a>",
+   "beta / active",
+   "action, commercial content, game engine, inspired by Tomb Raider, remake, requires original content",
+   "<a href=\"https://github.com/opentomb/OpenTomb.git\">Source</a> - C, C++, Lua - LGPL-3.0"
+  ],
+  [
+   "OpenTriad (<a href=\"https://github.com/benjaminfoo/OpenTriad\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/opentriad.md\">entry</a>)",
+   "Remake of Triple Triad.",
+   "",
+   "beta / inactive since 2017",
+   "remake, card, inspired by Triple Triad",
+   "<a href=\"https://github.com/benjaminfoo/OpenTriad.git\">Source</a> - Java - GPL-3.0"
+  ],
+  [
    "OpenTTD (<a href=\"https://www.openttd.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/openttd.md\">entry</a>)",
    "OpenTTD is an open source simulation game based upon the..",
    "<a href=\"https://www.openttd.org/downloads/openttd-releases/latest.html\">Link</a>",
    "mature / active",
    "simulation, can use original content, inspired by Transport Tycoon, open content, remake",
    "<a href=\"https://github.com/OpenTTD/OpenTTD.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "OpenTyrian (<a href=\"https://bitbucket.org/opentyrian/opentyrian/wiki/Home\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/opentyrian.md\">entry</a>)",
+   "Remake of Tyrian.",
+   "<a href=\"https://bitbucket.org/opentyrian/opentyrian/wiki/Downloads.md\">Link</a>",
+   "beta / inactive since 2018",
+   "action, inspired by Tyrian, remake, shoot-em",
+   "<a href=\"https://bitbucket.org/opentyrian/opentyrian\">Source</a> - C - GPL-2.0"
   ],
   [
    "OpenWebSoccer-Sim (<a href=\"https://github.com/ihofmann/open-websoccer\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/openwebsoccer-sim.md\">entry</a>)",
@@ -4441,6 +4641,30 @@
    "<a href=\"https://gitlab.com/osgames/kursk.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
+   "OpMon (<a href=\"http://www.opmon-game.ga/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/opmon.md\">entry</a>)",
+   "Remake of Pok\u00e9mon.",
+   "",
+   "beta / active",
+   "remake, inspired by Pok\u00e9mon",
+   "<a href=\"https://github.com/jlppc/OpMon.git\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
+   "Orbit-Hopper (<a href=\"http://www.zneaker.com/projects.html#orbit\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/orbit-hopper.md\">entry</a>)",
+   "Clone of SkyRoads.",
+   "",
+   "mature / inactive since 2019",
+   "arcade, clone, inspired by SkyRoads",
+   "C++ - GPL-2.0"
+  ],
+  [
+   "Orbium (<a href=\"http://bni.github.io/orbium/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/orbium.md\">entry</a>)",
+   "Remake of Log!cal.",
+   "",
+   "mature / inactive since 2018",
+   "strategy, inspired by Log!cal, remake",
+   "<a href=\"https://github.com/bni/orbium.git\">Source</a> - JavaScript - GPL-2.0"
+  ],
+  [
    "ORIENT (<a href=\"https://web.archive.org/web/20131114051805/http://www.e-circus.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/orient.md\">entry</a>)",
    "Prototype for an educational role-playing game for..",
    "<a href=\"https://sourceforge.net/projects/orient-ecircus/files\">Link</a>",
@@ -4449,12 +4673,28 @@
    "<a href=\"https://gitlab.com/osgames/orient.git\">Source</a> - C#, Java - GPL-2.0"
   ],
   [
+   "orona (<a href=\"http://stephank.github.io/orona/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/orona.md\">entry</a>)",
+   "Remake of Bolo.",
+   "",
+   "beta / inactive since 2012",
+   "strategy, inspired by Bolo, remake",
+   "<a href=\"https://github.com/stephank/orona.git\">Source</a> - CoffeeScript - GPL-2.0"
+  ],
+  [
    "Orx (<a href=\"http://orx-project.org/about\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/orx.md\">entry</a>)",
    "Orx is an open source, portable, lightweight, plugin-..",
    "<a href=\"https://github.com/orx/orx/releases\">Link</a>",
    "mature / active",
    "framework",
    "<a href=\"https://github.com/orx/orx.git\">Source</a> - C - zlib"
+  ],
+  [
+   "Ostrich Riders (<a href=\"http://identicalsoftware.com/ostrichriders/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/ostrich_riders.md\">entry</a>)",
+   "Remake of Joust.",
+   "",
+   "beta / active",
+   "arcade, inspired by Joust, remake",
+   "<a href=\"https://github.com/dulsi/ostrichriders.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
    "Other-Life (<a href=\"http://www.other-life.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/other-life.md\">entry</a>)",
@@ -4481,6 +4721,22 @@
    "<a href=\"https://github.com/ospaceteam/outerspace.git\">Source</a> - Python - GPL-2.0"
   ],
   [
+   "Outpost HD (<a href=\"https://forum.outpost2.net/index.php/topic,5718.0.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/outpost_hd.md\">entry</a>)",
+   "Remake of Outpost.",
+   "",
+   "beta / active",
+   "simulation, commercial content, inspired by Outpost, remake, requires original content",
+   "<a href=\"https://github.com/ldicker83/OPHD.git\">Source</a> - C++ - 3-clause BSD"
+  ],
+  [
+   "pacman-canvas (<a href=\"http://pacman.platzh1rsch.ch/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/pacman-canvas.md\">entry</a>)",
+   "Remake of Pac-Man.",
+   "",
+   "mature / inactive since 2018",
+   "remake, inspired by Pac-Man, skill",
+   "<a href=\"https://github.com/platzhersh/pacman-canvas.git\">Source</a> - JavaScript - CC-BY-SA-4.0"
+  ],
+  [
    "PainTown (<a href=\"http://paintown.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/paintown.md\">entry</a>)",
    "2D side scrolling beatem-up engine.",
    "<a href=\"http://paintown.org/#/downloads\">Link</a>",
@@ -4497,12 +4753,28 @@
    "<a href=\"https://github.com/panda3d/panda3d.git\">Source</a> - C++, C - 3-clause BSD"
   ],
   [
+   "Panel Attack (<a href=\"https://github.com/sharpobject/panel-attack\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/panel_attack.md\">entry</a>)",
+   "Remake of Tetris Attack.",
+   "",
+   "beta / active",
+   "remake, inspired by Tetris Attack, skill",
+   "<a href=\"https://github.com/sharpobject/panel-attack.git\">Source</a> - Lua - zlib"
+  ],
+  [
    "Pang Zero (<a href=\"https://sourceforge.net/projects/pangzero/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/pang_zero.md\">entry</a>)",
    "Reimplementation and extension of an old arcade game,..",
    "<a href=\"https://sourceforge.net/projects/pangzero/files/\">Link</a>",
    "beta / inactive since 2007",
    "action, arcade, inspired by Buster Bros, remake",
    "<a href=\"https://gitlab.com/osgames/pangzero.git\">Source</a> - Perl - GPL-2.0"
+  ],
+  [
+   "Paper Isaac (<a href=\"https://amos.me/games/paper-isaac/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/paper_isaac.md\">entry</a>)",
+   "Clone of The Binding of Isaac.",
+   "",
+   "beta / inactive since 2015",
+   "role playing, clone, inspired by The Binding of Isaac, open content, roguelike",
+   "<a href=\"https://github.com/fasterthanlime/isaac-paper.git\">Source</a> - ooc - MIT"
   ],
   [
    "PARPG (<a href=\"http://blog.parpg.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/parpg.md\">entry</a>)",

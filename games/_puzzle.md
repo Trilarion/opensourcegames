@@ -46,6 +46,7 @@
 - **[One Way To Go](one_way_to_go.md)** (Lua, GPL-3.0, mature, inactive since 2011)
 - **[Open Hexagon](open_hexagon.md)** (C++, AFL-3.0, mature)
 - **[OpenBlok](openblok.md)** (C++, GPL-3.0, beta)
+- **[OpenNotrium](opennotrium.md)** (C++, GPL-3.0, beta)
 - **[Pingus](pingus.md)** (C++, GPL-3.0, mature)
 - **[Rabbit Escape](rabbit_escape.md)** (Java, GPL-2.0, mature)
 - **[Rocks'n'Diamonds](rocksndiamonds.md)** (C, GPL-2.0, mature)

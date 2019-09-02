@@ -34,6 +34,7 @@ http://pyopengl.sourceforge.net/
 http://retrospec.sgn.net
 http://sam.zoy.org/monsterz/
 http://vamos.sourceforge.net/
+http://www.celephais.net/fitzquake/
 http://www.fifengine.net/
 http://www.moddb.com/mods/goldeneye-source
 http://www.newbreedsoftware.com/s
@@ -41,6 +42,7 @@ http://www.plasmapong.com/plasma-pong/plasma-pong/
 http://www.zsnes.com/ emulator/platform
 https://appimage.org/
 https://blends.debian.org/games/tasks/
+https://carrot.soulweaver.fi/#links
 https://cocainediesel.fun/
 https://duion.com/games/uebergame/main
 https://empiredirectory.net/
@@ -123,6 +125,7 @@ https://github.com/DaemonEngine/Daemon
 https://github.com/Dariasteam/TowerJumper
 https://github.com/demonixis/C3DE
 https://github.com/discosultan/penumbra
+https://github.com/enriquesomolinos/DreeRally
 https://github.com/eprikazchikov/thunder
 https://github.com/ErikLetson/torso-ninja
 https://github.com/ErikLetson/torso-ninja-2
@@ -194,6 +197,7 @@ https://github.com/suijingfeng/vkOpenArena
 https://github.com/SuperTux/supertux
 https://github.com/taisei-project/taisei
 https://github.com/team-eternity/eternity
+https://github.com/the-insulines
 https://github.com/The-Powder-Toy/The-Powder-Toy
 https://github.com/theaigames
 https://github.com/TheAssemblyArmada/Chronoshift
@@ -238,6 +242,7 @@ https://sourceforge.net/projects/ettu/
 https://sourceforge.net/projects/hhexen/
 https://sourceforge.net/projects/librecardgame/
 https://sourceforge.net/projects/mininghaze/ - download didn't work
+https://sourceforge.net/projects/palomino-sim/ (http://www.jimbrooks.org/archive/software/palomino/)
 https://sourceforge.net/projects/pinball/
 https://sourceforge.net/projects/pixellight/
 https://sourceforge.net/projects/realmforge/
@@ -253,6 +258,8 @@ https://www.b3dgs.com/v7/page.php?lang=en&section=projects
 https://www.bsframework.io/
 https://www.fandom.com/topics/games (look for media links, example https://creatures.fandom.com/wiki/Openc2e)
 https://www.fosshub.com/about.html
+https://www.freegamesutopia.com/
+https://www.moddb.com/mods/ (search for all)
 https://www.openhub.net/ (search for games)
 https://www.piston.rs/
 https://www.reddit.com/r/opensource/comments/cs6m3y/a_list_of_fossrelated_projects_people_to_follow/

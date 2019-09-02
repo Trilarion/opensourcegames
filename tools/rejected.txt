@@ -39,8 +39,15 @@ OpenDeathValley (https://github.com/OpenDeathValley/OpenDeathValley.git): No ins
 OpenOutcast (https://sourceforge.net/projects/ocmod/): Very early development, no release, short svn history, abandoned
 OpenPop (http://openpopulous.sourceforge.net/, https://sourceforge.net/projects/openpopulous/, https://svn.code.sf.net/p/openpopulous/code/): Very early development
 openStrato (https://github.com/gerdl/openStrato.git): Not much code, no release or demo site, short code history, abandoned
+pacman (https://github.com/snozza/pacman.git): Playable? We already have so many pacmans
+Phavon (http://phavon.sourceforge.net/, http://phavon.cvs.sourceforge.net/viewvc/phavon/): Very early development
+PKMN-FX (https://github.com/jonasdemoor/PKMN-FX.git): Code not available anymore
 Project Diaspora (http://pdiaspora.sourceforge.net/): Proprietary license (see file headers)
+Project: Xenocide (https://sourceforge.net/projects/xenocide/, http://xenocide.cvs.sourceforge.net/viewvc/xenocide/): Very early development
 Promisance (https://sourceforge.net/projects/promisance/,http://promisance.sourceforge.net/): Went closed source with version >= 4.0
+pyspaceinvaders (https://github.com/map0logo/pyspaceinvaders.git): Too small
+PyTouhou (http://pytouhou.linkmauve.fr/,http://hg.linkmauve.fr/touhou): Sources not available anymore
+Racer (http://racer.sourceforge.net/, http://sourceforge.net/projects/racer/): Very early development, Inactive
 RuneSword II (https://sourceforge.net/projects/runesword/, http://runesword.sourceforge.net/, https://github.com/mattiascibien/Runesword.net, https://github.com/aceofspades19/Runesword-II-OS.Net): No license found
 sCoreForge Pathfinder Character Creator (https://sourceforge.net/projects/scoreforge/): No license found
 Scoreus (https://web.archive.org/web/20120618143653/http://scoreos.org:80/about, https://code.google.com/archive/p/scoreos/, https://github.com/Lozza999/scoreos.git, https://code.google.com/archive/p/scoreos/): Source code not found

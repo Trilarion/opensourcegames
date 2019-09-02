@@ -32,5 +32,7 @@
 - **[Ostrich Riders](ostrich_riders.md)** (C++, GPL-3.0, beta)
 - **[PainTown](paintown.md)** (C++, Java, Python, 3-clause BSD, mature)
 - **[Pang Zero](pang_zero.md)** (Perl, GPL-2.0, beta, inactive since 2007)
+- **[Powerslide remake](powerslide_remake.md)** (C++, MIT, beta)
+- **[RacerJS](racerjs.md)** (JavaScript, MIT, mature, inactive since 2010)
 - **[SDL Asylum](sdl_asylum.md)** (C, GPL-3.0, mature, inactive since 2009)
 - **[Tux Football](tux_football.md)** (C++, GPL-2.0, beta, inactive since 2012)

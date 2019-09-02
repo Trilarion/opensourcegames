@@ -1625,12 +1625,12 @@
    "<a href=\"https://github.com/crawl/crawl.git\">Source</a> - C++, Lua - GPL-2.0"
   ],
   [
-   "Dungeon Hero (<a href=\"https://github.com/guillaume-gouchon/dungeonhero\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/dungeon_hero.md\">entry</a>)",
+   "Dungeon Hero (<a href=\"https://github.com/osgamearchive/dungeonhero\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/dungeon_hero.md\">entry</a>)",
    "Choose between 6 unique heroes, equip yourself with..",
    "<a href=\"https://play.google.com/store/apps/details?id=com.glevel.dungeonhero\">Link</a>",
    "mature / active",
    "role playing",
-   "<a href=\"https://github.com/guillaume-gouchon/dungeonhero.git\">Source</a> - Java - MIT"
+   "<a href=\"https://github.com/osgamearchive/dungeonhero.git\">Source</a> - Java - MIT"
   ],
   [
    "Dungeon Mapper (<a href=\"http://dungeonmap.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/dungeon_mapper.md\">entry</a>)",
@@ -1993,6 +1993,14 @@
    "<a href=\"https://github.com/alexknvl/fonline.git\">Source</a> - C, C++ - GPL-3.0"
   ],
   [
+   "Forsaken (<a href=\"http://forsakenx.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/forsaken.md\">entry</a>)",
+   "Remake of Forsaken.",
+   "<a href=\"https://github.com/ForsakenX/forsaken/wiki/Download-and-installation\">Link</a>",
+   "beta / inactive since 2013",
+   "remake, first-person, inspired by Forsaken, requires original content, shooter",
+   "<a href=\"https://github.com/ForsakenX/forsaken.git\">Source</a> - C, C++ - GPL-2.0"
+  ],
+  [
    "FQuake3 (<a href=\"https://github.com/TIHan/FQuake3\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/fquake3.md\">entry</a>)",
    "Remake of Quake 3.",
    "",
@@ -2073,12 +2081,12 @@
    "<a href=\"http://freecivac.cvs.sourceforge.net\">Source</a> - C - GPL-2.0"
   ],
   [
-   "Freeciv WebGL (<a href=\"https://web.archive.org/web/20180102150750/https://play.freeciv.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/freeciv_webgl.md\">entry</a>)",
+   "Freeciv-web (<a href=\"https://web.archive.org/web/20180102150750/https://play.freeciv.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/freeciv-web.md\">entry</a>)",
    "Freeciv-web is a version of Freeciv playable online in any..",
    "",
    "mature / active",
-   "strategy, online, turn-based",
-   "<a href=\"https://github.com/freeciv/freeciv-web.git\">Source</a> - JavaScript, Java - AGPL-3.0"
+   "strategy, inspired by Civilization II, online, turn-based",
+   "<a href=\"https://github.com/freeciv/freeciv-web.git\">Source</a> - JavaScript, Java, Python - AGPL-3.0"
   ],
   [
    "FreeCol (<a href=\"http://www.freecol.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/freecol.md\">entry</a>)",
@@ -3822,7 +3830,7 @@
    "",
    "mature / active",
    "remake, die Kurve!, inspired by Achtung, skill",
-   "<a href=\"https://github.com/pwmarcz/netacka/.git\">Source</a> - C - MIT"
+   "<a href=\"https://github.com/pwmarcz/netacka.git\">Source</a> - C - MIT"
   ],
   [
    "NetHack (<a href=\"https://www.nethack.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/nethack.md\">entry</a>)",
@@ -4134,7 +4142,7 @@
    "<a href=\"https://github.com/pierreyoda/o2r/releases\">Link</a>",
    "beta / inactive since 2018",
    "remake, inspired by Rodent's Revenge",
-   "<a href=\"https://github.com/pierreyoda/o2r.git\">Source</a> - C++ - GPL-3.0"
+   "<a href=\"https://github.com/pierreyoda/o2r.git\">Source</a> - C++ - MIT"
   ],
   [
    "Open RPG Maker (<a href=\"http://openrpgmaker.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/open_rpg_maker.md\">entry</a>)",
@@ -4793,6 +4801,14 @@
    "<a href=\"https://git.code.sf.net/p/pasang-emas/code\">Source</a> - Vala - GPL-3.0"
   ],
   [
+   "Pathological (<a href=\"http://pathological.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/pathological.md\">entry</a>)",
+   "Remake of Log!cal.",
+   "",
+   "beta / inactive since 2003",
+   "puzzle, inspired by Log!cal, remake",
+   "<a href=\"http://pathological.cvs.sourceforge.net\">Source</a> - Python - GPL-2.0"
+  ],
+  [
    "Pax Britannica (<a href=\"https://web.archive.org/web/20180807110800/http://paxbritannica.henk.ca/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/pax_britannica.md\">entry</a>)",
    "One-button real-time strategy game.",
    "",
@@ -4809,6 +4825,22 @@
    "<a href=\"https://github.com/PCGen/pcgen.git\">Source</a> - Java - LGPL-2.1"
   ],
   [
+   "Pentagram (<a href=\"http://pentagram.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/pentagram.md\">entry</a>)",
+   "Remake of Ultima VIII.",
+   "<a href=\"http://pentagram.sourceforge.net/download.php\">Link</a>",
+   "beta / inactive since 2018",
+   "role playing, commercial content, game engine, inspired by Ultima VIII, remake, requires original content",
+   "<a href=\"https://github.com/pentagram-u8/pentagram.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "Performous (<a href=\"http://performous.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/performous.md\">entry</a>)",
+   "Clone of Dance Dance Revolution, Guitar Hero, SingStar.",
+   "<a href=\"http://performous.org/download\">Link</a>",
+   "mature / active",
+   "music, clone, dancing, inspired by Dance Dance Revolution + Guitar Hero + SingStar, karaoke",
+   "<a href=\"https://github.com/performous/performous.git\">Source</a> - C, C++ - GPL-2.0"
+  ],
+  [
    "Phantasy Star Rebirth (<a href=\"https://sourceforge.net/projects/phantasy/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/phantasy_star_rebirth.md\">entry</a>)",
    "Oldschool 90' sega genesis style.",
    "<a href=\"https://sourceforge.net/projects/phantasy/files\">Link</a>",
@@ -4823,6 +4855,14 @@
    "mature / active",
    "puzzle, clone, inspired by Lemmings, open content",
    "<a href=\"https://gitlab.com/pingus/pingus.git\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
+   "Pink Pony (<a href=\"https://ginkgo.github.io/pink-pony/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/pink_pony.md\">entry</a>)",
+   "Clone of Tron.",
+   "<a href=\"https://github.com/ginkgo/pink-pony/releases\">Link</a>",
+   "mature / inactive since 2017",
+   "puzzle, clone, inspired by Tron, multiplayer Split-screen, open content, racing",
+   "<a href=\"https://github.com/ginkgo/pink-pony.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
    "Pioneer (<a href=\"https://pioneerspacesim.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/pioneer.md\">entry</a>)",
@@ -4897,6 +4937,62 @@
    "<a href=\"https://github.com/ivansafrin/Polycode.git\">Source</a> - C, C++ - MIT"
   ],
   [
+   "POSTAL 1 Open Source (<a href=\"https://bitbucket.org/account/user/gopostal/projects/P1OS\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/postal_1_open_source.md\">entry</a>)",
+   "Remake of Postal.",
+   "",
+   "beta / inactive since 2018",
+   "remake, commercial content, inspired by Postal, requires original content, shooter",
+   "<a href=\"https://bitbucket.org/gopostal/postal-1-open-source\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "Powerslide remake (<a href=\"https://www.moddb.com/mods/powerslideremake\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/powerslide_remake.md\">entry</a>)",
+   "Remake of Powerslide.",
+   "",
+   "beta / active",
+   "arcade, 3D, commercial content, inspired by Powerslide, multiplayer Competitive + Online, racing, remake",
+   "<a href=\"https://bitbucket.org/dm_999/powerslideremake.git\">Source</a> - C++ - MIT"
+  ],
+  [
+   "pq2 (<a href=\"https://github.com/nbollom/pq2\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/pq2.md\">entry</a>)",
+   "Remake of Progress Quest.",
+   "",
+   "mature / active",
+   "simulation, inspired by Progress Quest, remake",
+   "<a href=\"https://github.com/nbollom/pq2.git\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
+   "PrBoom+ (<a href=\"http://prboom-plus.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/prboom.md\">entry</a>)",
+   "Remake of Doom, Doom II, Heretic, Hexen.",
+   "<a href=\"https://sourceforge.net/projects/prboom-plus/files/\">Link</a>",
+   "mature / inactive since 2016",
+   "remake, commercial content, inspired by Doom + Doom II + Heretic + Hexen, requires original content, shooter",
+   "<a href=\"http://www.crowproductions.de/repos/prboom/branches/prboom-plus-24/prboom2/\">Source</a> - C - GPL-2.0"
+  ],
+  [
+   "Privateer - Gemini Gold (<a href=\"http://privateer.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/privateer-gemini_gold.md\">entry</a>)",
+   "Remake of Wing Commander: Privateer.",
+   "<a href=\"http://privateer.sourceforge.net/files.shtml\">Link</a>",
+   "mature / inactive since 2012",
+   "adventure, inspired by Wing Commander: Privateer, remake, simulation, space",
+   "<a href=\"https://svn.code.sf.net/p/privateer/code/\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "Project Carrot (<a href=\"https://carrot.soulweaver.fi/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/project_carrot.md\">entry</a>)",
+   "Remake of Jazz Jackrabbit 2.",
+   "<a href=\"https://carrot.soulweaver.fi/#downloads\">Link</a>",
+   "beta / inactive since 2017",
+   "remake, commercial content, inspired by Jazz Jackrabbit 2, requires original content",
+   "<a href=\"https://github.com/soulweaver91/project-carrot.git\">Source</a> - C++ - MIT"
+  ],
+  [
+   "Project Dollhouse (<a href=\"http://www.afr0games.com\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/project_dollhouse.md\">entry</a>)",
+   "Remake of The Sims Online.",
+   "<a href=\"https://github.com/Afr0Games/Project-Dollhouse/releases\">Link</a>",
+   "beta / active",
+   "simulation, inspired by CorsixTH, inspired by The Sims Online, remake, requires original content",
+   "<a href=\"https://github.com/Afr0Games/Project-Dollhouse.git\">Source</a> - C# - MPL-2.0"
+  ],
+  [
    "Project Helena (<a href=\"https://gitlab.com/EugeneLoza/Project-Helena\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/project_helena.md\">entry</a>)",
    "Turn-based strategy/RPG game.",
    "<a href=\"https://decoherence.itch.io/project-helena\">Link</a>",
@@ -4905,12 +5001,52 @@
    "<a href=\"https://gitlab.com/EugeneLoza/Project-Helena\">Source</a> - Pascal - GPL-3.0"
   ],
   [
+   "ProQuake 4 (<a href=\"http://quakeone.com/proquake/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/proquake_4.md\">entry</a>)",
+   "Remake of Quake.",
+   "<a href=\"http://quakeone.com/proquake/older_versions/\">Link</a>",
+   "mature / inactive since 2018",
+   "remake, inspired by Quake",
+   "<a href=\"http://quakeone.com/proquake/older_sources/\">Source</a> - C - GPL-2.0"
+  ],
+  [
+   "proxx (<a href=\"https://proxx.app/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/proxx.md\">entry</a>)",
+   "Clone of Minesweeper.",
+   "",
+   "mature / active",
+   "puzzle, clone, inspired by Minesweeper",
+   "<a href=\"https://github.com/GoogleChromeLabs/proxx.git\">Source</a> - TypeScript, JavaScript - Apache-2.0"
+  ],
+  [
    "Pthreads-win32 (<a href=\"https://sourceware.org/pthreads-win32/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/pthreads-win32.md\">entry</a>)",
    "Implements a large subset of the POSIX standard threads..",
    "",
    "mature / active",
    "library",
    "<a href=\"https://github.com/GerHobbelt/pthread-win32.git\">Source</a> - C - LGPL-2.1"
+  ],
+  [
+   "Pushover (<a href=\"https://pushover.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/pushover.md\">entry</a>)",
+   "Remake of Pushover.",
+   "<a href=\"https://sourceforge.net/projects/pushover/files/Pushover/\">Link</a>",
+   "beta / inactive since 2018",
+   "puzzle, inspired by Pushover, remake",
+   "<a href=\"https://github.com/pushover/pushover.github.io.git\">Source</a> - C++, C, Lua - GPL-3.0"
+  ],
+  [
+   "PyBreak360 (<a href=\"http://sourceforge.net/projects/pybreak360/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/pybreak360.md\">entry</a>)",
+   "Clone of Arkanoid.",
+   "<a href=\"https://sourceforge.net/projects/pybreak360/files/\">Link</a>",
+   "mature / inactive since 2015",
+   "puzzle, ardade, clone, inspired by Arkanoid",
+   "<a href=\"https://git.code.sf.net/p/pybreak360/code\">Source</a> - Python - GPL-3.0"
+  ],
+  [
+   "pycraft (<a href=\"https://github.com/itsapi/pycraft\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/pycraft.md\">entry</a>)",
+   "Remake of Minecraft.",
+   "<a href=\"https://github.com/itsapi/pycraft/releases\">Link</a>",
+   "mature / inactive since 2018",
+   "simulation, inspired by Minecraft, remake, sandbox, voxel",
+   "<a href=\"https://github.com/itsapi/pycraft.git\">Source</a> - C, Python - GPL-2.0"
   ],
   [
    "pygame (<a href=\"http://www.pygame.org/hifi.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/pygame.md\">entry</a>)",
@@ -4945,12 +5081,28 @@
    "<a href=\"https://github.com/marcusmoller/pyorpg-client.git\">Source</a> - Python - MIT"
   ],
   [
+   "pyskool (<a href=\"http://pyskool.ca/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/pyskool.md\">entry</a>)",
+   "Remake of Skool Daze.",
+   "<a href=\"https://pyskool.ca/downloads/\">Link</a>",
+   "mature / active",
+   "remake, inspired by Skool Daze",
+   "<a href=\"https://github.com/skoolkid/pyskool.git\">Source</a> - Python - GPL-3.0"
+  ],
+  [
    "PySol (<a href=\"http://www.pysol.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/pysol.md\">entry</a>)",
    "1,000 solitaire games.",
    "<a href=\"http://www.pysol.org/#download\">Link</a>",
    "mature / inactive since 2004",
    "strategy, cards",
    "Python - GPL-2.0"
+  ],
+  [
+   "Q-Gears (<a href=\"https://github.com/q-gears/q-gears\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/q-gears.md\">entry</a>)",
+   "Remake of Final Fantasy VII.",
+   "<a href=\"https://sourceforge.net/projects/q-gears/files/\">Link</a>",
+   "beta / inactive since 2015",
+   "role playing, commercial content, game engine, inspired by Final Fantasy VII, remake, requires original content",
+   "<a href=\"https://github.com/q-gears/q-gears.git\">Source</a> - C, C++ - GPL-2.0"
   ],
   [
    "Qt (<a href=\"https://www.qt.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/qt.md\">entry</a>)",
@@ -4969,12 +5121,44 @@
    "<a href=\"https://bitbucket.org/Darthman/quad/src\">Source</a> - Pascal - MIT"
   ],
   [
+   "QuakeJS (<a href=\"http://www.quakejs.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/quakejs.md\">entry</a>)",
+   "Remake of Quake 3.",
+   "",
+   "mature / active",
+   "remake, first-person, inspired by ioquake3, inspired by Quake 3, requires original content, shooter",
+   "<a href=\"https://github.com/inolen/quakejs.git\">Source</a> - JavaScript - MIT"
+  ],
+  [
+   "QuakeSpasm (<a href=\"http://quakespasm.sourceforge.net/Quakespasm.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/quakespasm.md\">entry</a>)",
+   "Remake of Quake.",
+   "<a href=\"http://quakespasm.sourceforge.net/download.htm\">Link</a>",
+   "mature / active",
+   "action, commercial content, inspired by Quake, remake, requires original content, shooter",
+   "<a href=\"https://svn.code.sf.net/p/quakespasm/code/\">Source</a> - C - GPL-2.0"
+  ],
+  [
    "Rabbit Escape (<a href=\"https://www.artificialworlds.net/rabbit-escape/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rabbit_escape.md\">entry</a>)",
    "Puzzle/action game of rescuing rabbits, inspired by..",
    "<a href=\"https://www.artificialworlds.net/rabbit-escape/#install\">Link</a>",
    "mature / active",
    "action, inspired by Lemmings, puzzle, remake",
    "<a href=\"https://github.com/andybalaam/rabbit-escape.git\">Source</a> - Java - GPL-2.0"
+  ],
+  [
+   "Race Into Space (<a href=\"http://www.raceintospace.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/race_into_space.md\">entry</a>)",
+   "Remake of Buzz Aldrin's Race Into Space.",
+   "<a href=\"https://sourceforge.net/projects/raceintospace/files/\">Link</a>",
+   "mature / active",
+   "simulation, inspired by Buzz Aldrin's Race Into Space, remake, strategy, turn-based",
+   "<a href=\"https://github.com/raceintospace/raceintospace.git\">Source</a> - C, C++ - GPL-2.0"
+  ],
+  [
+   "RacerJS (<a href=\"https://github.com/onaluf/RacerJS\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/racerjs.md\">entry</a>)",
+   "Clone of Lotus Esprit Turbo Challenge.",
+   "",
+   "mature / inactive since 2010",
+   "arcade, clone, free content, inspired by Lotus Esprit Turbo Challenge",
+   "<a href=\"https://github.com/onaluf/RacerJS.git\">Source</a> - JavaScript - MIT"
   ],
   [
    "Radakan (<a href=\"https://web.archive.org/web/20170915004555/http://radakan.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/radakan.md\">entry</a>)",
@@ -5009,6 +5193,14 @@
    "<a href=\"https://github.com/dsallen7/ransack-python.git\">Source</a> - Python - MIT"
   ],
   [
+   "RBDOOM-3-BFG (<a href=\"https://github.com/RobertBeckebans/RBDOOM-3-BFG\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rbdoom-3-bfg.md\">entry</a>)",
+   "Remake of Doom 3.",
+   "",
+   "mature / active",
+   "game engine, inspired by Doom 3, remake, requires original content, shooter",
+   "<a href=\"https://github.com/RobertBeckebans/RBDOOM-3-BFG.git\">Source</a> - C, C++ - GPL-3.0"
+  ],
+  [
    "Red Eclipse (<a href=\"https://www.redeclipse.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/red_eclipse.md\">entry</a>)",
    "First person arena shooter, featuring parkour, impulse..",
    "<a href=\"https://www.redeclipse.net/download\">Link</a>",
@@ -5025,12 +5217,52 @@
    "<a href=\"https://github.com/REGoth-project/REGoth-bs.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
+   "ReQbert (<a href=\"https://leonicolas.github.io/ReQbert/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/reqbert.md\">entry</a>)",
+   "Remake of Q*bert.",
+   "",
+   "beta / active",
+   "puzzle, inspired by Q*bert, remake",
+   "<a href=\"https://github.com/leonicolas/ReQbert.git\">Source</a> - JavaScript - GPL-3.0"
+  ],
+  [
+   "Rescue! Max (<a href=\"http://rescue.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rescue_max.md\">entry</a>)",
+   "Remake of Rescue!.",
+   "<a href=\"https://sourceforge.net/projects/rescue/files/\">Link</a>",
+   "beta / inactive since 2013",
+   "action, inspired by Rescue!, realtime, remake, space, strategy",
+   "<a href=\"http://svn.code.sf.net/p/rescue/code/\">Source</a> - Java - GPL-2.0"
+  ],
+  [
+   "ResidualVM (<a href=\"http://residualvm.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/residualvm.md\">entry</a>)",
+   "Remake of Grim Fandango, Escape from Monkey Island, Myst..",
+   "<a href=\"https://www.residualvm.org/downloads/\">Link</a>",
+   "beta / active",
+   "adventure, commercial content, game engine, inspired by Grim Fandango + Escape from Monkey Island + Myst III: Exile, remake, requires original content",
+   "<a href=\"https://github.com/residualvm/residualvm.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "Return of Dr. Destructo (<a href=\"https://web.archive.org/web/20190630000950/http://zxstudio.org/projects/drdestructo/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/return_of_dr_destructo.md\">entry</a>)",
+   "Remake of Destructo.",
+   "",
+   "mature / inactive since 2015",
+   "action, free content, inspired by Destructo, remake",
+   "<a href=\"https://github.com/MaxSavenkov/drdestructo2.git\">Source</a> - C++ - MIT"
+  ],
+  [
    "Return to the Roots (<a href=\"https://www.siedler25.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/return_to_the_roots.md\">entry</a>)",
    "Renew the original The Settlers 2.",
    "<a href=\"https://www.siedler25.org/index.php?com=dynamic&mod=2\">Link</a>",
    "mature / active",
    "strategy, inspired by The Settler II, remake, requires original content",
    "<a href=\"https://launchpad.net/s25rttr\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
+   "RickyD (<a href=\"http://sourceforge.net/projects/rickyd/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rickyd.md\">entry</a>)",
+   "Remake of Rick Dangerous.",
+   "<a href=\"https://sourceforge.net/projects/rickyd/files/\">Link</a>",
+   "beta / active",
+   "remake, inspired by Rick Dangerous",
+   "<a href=\"https://git.code.sf.net/p/rickyd/code\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Rigs of Rods (<a href=\"https://www.rigsofrods.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/rigs_of_rods.md\">entry</a>)",
@@ -5695,6 +5927,14 @@
    "mature / active",
    "role playing, massive multiplayer online",
    "<a href=\"https://github.com/themanaworld/tmwa.git\">Source</a> - PHP - GPL-2.0"
+  ],
+  [
+   "The Powder Toy (<a href=\"https://powdertoy.co.uk/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/the_powder_toy.md\">entry</a>)",
+   "Clone of Powder Game.",
+   "",
+   "mature / active",
+   "simulation, clone, inspired by Powder Game, open content",
+   "<a href=\"https://github.com/The-Powder-Toy/The-Powder-Toy.git\">Source</a> - C++, C, Lua, Python - GPL-3.0"
   ],
   [
    "Thousand Parsec (<a href=\"https://web.archive.org/web/20180516211349/http://www.thousandparsec.net/tp/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/thousand_parsec.md\">entry</a>)",

@@ -15,6 +15,8 @@
 - **[javascript-E.T.](javascript-et.md)** (JavaScript, Assembly, MIT, beta, inactive since 2017)
 - **[Morpheus Web Remake](morpheus_web_remake.md)** (Javascript, MIT, beta)
 - **[Murder In The Public Domain](murder_in_the_public_domain.md)** (C++, GPL-3.0, mature, inactive since 2013)
+- **[Privateer - Gemini Gold](privateer-gemini_gold.md)** (C++, GPL-2.0, mature, inactive since 2012)
+- **[ResidualVM](residualvm.md)** (C++, GPL-2.0, beta)
 - **[Sentient Storage](sentient_storage.md)** (Python, Public domain, mature)
 - **[Sintel The Game](sintel_the_game.md)** (Python, MIT, beta, inactive since 2014)
 - **[Star Maiden Astraea Rio](star_maiden_astraea_rio.md)** (Ren'py, CC-BY-NC, mature)

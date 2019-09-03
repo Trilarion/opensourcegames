@@ -3,4 +3,5 @@
 
 - **[Childsplay](childsplay.md)** (Python, GPL-3.0, mature)
 - **[ORIENT](orient.md)** (C#, Java, GPL-2.0, mature, inactive since 2009)
+- **[Prescription Wars](presciption_wars.md)** (ColdFusion, JavaScript, GPL-3.0, mature, inactive since 2016)
 - **[Tux of Math Command](tux_of_math_command.md)** (C, GPL-3.0, mature, inactive since 2011)

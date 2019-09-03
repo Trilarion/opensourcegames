@@ -17,5 +17,8 @@
 - **[NXEngine-evo](nxengine-evo.md)** (C++, GPL-3.0, mature)
 - **[NXEngine](nxengine.md)** (C, C++, GPL-3.0, mature)
 - **[Open Surge](open_surge.md)** (C, GPL-3.0, beta)
+- **[Reflection Keen](reflection_keen.md)** (C, Lua, GPL-2.0, mature)
 - **[Smash Battle](smash_battle.md)** (C++, ?, beta, inactive since 2011)
+- **[Sonic Robo Blast 2](sonic_robo_blast_2.md)** (C, C++, GPL-2.0, mature)
 - **[The Legend of Edgar](the_legend_of_edgar.md)** (C, GPL-2.0, mature)
+- **[The Secret Chronicles of Dr. M.](the_secret_chronicles_of_dr_m.md)** (C++, GPL-3.0, mature)

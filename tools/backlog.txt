@@ -98,13 +98,16 @@ https://github.com/apsillers/lords-of-the-fey
 https://github.com/apsillers/Taggem
 https://github.com/arianne/stendhal
 https://github.com/ArmageddonGames/ZeldaClassic
+https://github.com/assaultcube (https://sourceforge.net/projects/actiongame/)
 https://github.com/AxioDL/urde
 https://github.com/b3dgs/lionengine
 https://github.com/b3dgs/warcraft-remake
 https://github.com/bitcraft/PyTMX
+https://github.com/BobbyBao/SharpGame
 https://github.com/bvschaik/julius
 https://github.com/ByoxCode/DrawView
 https://github.com/Calinou/libre-pinball
+https://github.com/CatacombGames/
 https://github.com/Chluverman/android-gltron
 https://github.com/Chris3606/GoRogue
 https://github.com/ChrisDill/Raylib-cs
@@ -134,6 +137,7 @@ https://github.com/Esenthel/EsenthelEngine
 https://github.com/estevaofon/angry-birds-python
 https://github.com/etternagame/etterna
 https://github.com/falltergeist/falltergeist
+https://github.com/flathub (all repositories which are games there)
 https://github.com/francot514/FreeSims
 https://github.com/freeboardgame/FreeBoardGame.org
 https://github.com/FreeCol/freecol
@@ -150,6 +154,7 @@ https://github.com/jcarolus/android-chess
 https://github.com/juzzlin/DustRacing2D
 https://github.com/lexica/lexica
 https://github.com/libretro/libretro-prboom
+https://github.com/LIKO-12/LIKO-12
 https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG
 https://github.com/magefree/mage
 https://github.com/MaKiPL/OpenVIII
@@ -207,6 +212,7 @@ https://github.com/tpcstld/2048
 https://github.com/Try/OpenGothic
 https://github.com/unknown-horizons/godot-port
 https://github.com/ValyriaTear/ValyriaTear
+https://github.com/vgc/vgc
 https://github.com/vilbeyli/VQEngine
 https://github.com/Vocaluxe/Vocaluxe
 https://github.com/Wargus/stratagus
@@ -216,7 +222,9 @@ https://github.com/XProger/OpenLara
 https://github.com/xyzz/openmw-android
 https://github.com/yairm210/UnCiv
 https://github.com/yiotro/Antiyoy
+https://github.com/yquake2/yquake2
 https://gitlab.com/LibreGames
+https://gitlab.com/vgstation/vgstation-old (and vgstation in general)
 https://keeperrl.com/
 https://lgdb.org/game/wolfpack-empire
 https://libregamewiki.org/Libregamewiki:Suggested_games#Likely_sources_for_more_free_games
@@ -225,6 +233,7 @@ https://nukeykt.retrohost.net/
 https://openage.sft.mx/
 https://osdn.net/softwaremap/trove_list.php?form_cat=80
 https://packages.debian.org/sid/games/etw
+https://pixeldoctrine.com/index.html (more than just slime volleyball)
 https://play.google.com/store/apps/dev?id=8387589286898375037 (where is the source, not open source otherwise)
 https://pypi.org/project/CherryPy/
 https://pypi.org/project/neteria/
@@ -235,6 +244,7 @@ https://pypi.org/project/SQLAlchemy/
 https://pypi.org/project/TurboGears/
 https://revolutionarygamesstudio.com/ Trhive
 https://salsa.debian.org/games-team/etw
+https://scratch.mit.edu/ (https://en.scratch-wiki.info/wiki/Scratch_Source_Code)
 https://secretchronicles.org/en/
 https://sourceforge.net/projects/actiongame/
 https://sourceforge.net/projects/deng/

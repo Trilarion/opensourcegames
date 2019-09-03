@@ -11,5 +11,7 @@
 - **[Open Soccer Star](open_soccer_star.md)** (PHP, GPL-3.0, beta)
 - **[OpenSoccer](opensoccer.md)** (PHP, GPL-3.0, beta)
 - **[OpenWebSoccer-Sim](openwebsoccer-sim.md)** (PHP, LGPL-3.0, mature)
+- **[Skifree-HTML5-clone](skifree-html5-clone.md)** (JavaScript, GPL-3.0, beta, inactive since 2011)
+- **[skifree.js](skifreejs.md)** (JavaScript, MIT, mature, inactive since 2016)
 - **[Tux Football](tux_football.md)** (C++, GPL-2.0, beta, inactive since 2012)
 - **[YSoccer](ysoccer.md)** (Java, GPL-2.0, mature)

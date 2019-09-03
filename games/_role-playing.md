@@ -113,6 +113,7 @@
 - **[Source of Tales](source_of_tales.md)** (Lua, GPL-3.0, mature, inactive since 2013)
 - **[Space Station 13](space_station_13.md)** (DM, AGPL-3.0, mature)
 - **[Spice Trade](spice_trade.md)** (Java, LGPL-2.0, mature, inactive since 2005)
+- **[SS13 Remake](ss13_remake.md)** (C#, GPL-3.0, beta, inactive since 2015)
 - **[Stendhal](stendhal.md)** (Java, GPL-2.0, mature)
 - **[Story of a Lost Sky](story_of_a_lost_sky.md)** (Python, 3-clause BSD, mature)
 - **[Summoning Wars](summoning_wars.md)** (C, C++, Lua, GPL-3.0, beta, inactive since 2014)

@@ -59,5 +59,6 @@
 - **[Secret Maryo Chronicles](secret_maryo_chronicles.md)** (C++, GPL-3.0, mature, inactive since 2009)
 - **[splexhd](splexhd.md)** (C++, GPL-2.0, beta, inactive since 2012)
 - **[Spludlow Tetris](spludlow_tetris.md)** (C#, GPL-3.0, mature, inactive since XX)
+- **[Supaxl](supaxl.md)** (JavaScript, ?, mature)
 - **[TetraVex](tetravex.md)** (Swift, GPL-3.0, beta)
 - **[The Castles of Dr. Creep](the_castles_of_dr_creep.md)** (C++, Shell, GPL-3.0, mature)

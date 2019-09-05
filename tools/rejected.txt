@@ -58,7 +58,11 @@ Solar Empire (https://sourceforge.net/projects/solar-empire/, https://git.code.s
 Solaris (https://sourceforge.net/projects/solaristhegame/, https://svn.code.sf.net/p/solaristhegame/code/): Very early development stage
 Space Station 14 (http://www.spacestation14.com/): Offline, contains no clear game
 Spaceship Duel (https://archive.codeplex.com/?p=spaceshipduel, https://spaceshipduel.codeplex.com/SourceControl/latest): Cannot download archive from codeplex
+Starlane Empire (https://gna.org/projects/starlane/, http://cvs.gna.org/cvsweb/starlane/?cvsroot=starlane): No sources available, see issue #18, gna.org lost
+Styx (http://retrospec.sgn.net/game/styx, http://retrospec.sgn.net/game-links.php?link=styx): Unclear license information, not open source in our sense, see other entries from retrospec here
+Super Mario Bros With SFML in C# (https://mario.codeplex.com/, https://mario.codeplex.com/SourceControl/latest): Codeplex cannot access archive, therefore no source, might be just a previous state of Mario Objects
 Sworsorc (https://svn.code.sf.net/p/alteraterra/code/): Proprietary license (copyright headers in files)
+thromolusng (https://github.com/segfaulthunter/thromolusng.git): Very early development, not playable, no build instructions, abandoned since 2010
 VegaTrek (https://sourceforge.net/projects/vegatrek/, https://svn.code.sf.net/p/vegatrek/code/): Unclear licensing, copyright of assets questionable
 Visions from the Other Side (http://www.insani.org/mukou.html): Source not available
 WarGame (https://archive.codeplex.com/?p=wargame): Unclear license, could not contact authors

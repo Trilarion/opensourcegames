@@ -117,6 +117,8 @@
 - **[Stendhal](stendhal.md)** (Java, GPL-2.0, mature)
 - **[Story of a Lost Sky](story_of_a_lost_sky.md)** (Python, 3-clause BSD, mature)
 - **[Summoning Wars](summoning_wars.md)** (C, C++, Lua, GPL-3.0, beta, inactive since 2014)
+- **[SunDog Resurrection](sundog_resurrection.md)** (Java, Python, ?, beta)
+- **[sundog](sundog.md)** (C, C++, Python, MIT, beta)
 - **[Tales of Maj'Eyal](tales_of_majeyal.md)** (C, Lua, GPL-3.0, mature)
 - **[The Clans](the_clans.md)** (C, GPL-2.0, beta, inactive since 2003)
 - **[The Dark Mod](the_dark_mod.md)** (C++, GPL-3.0, mature)

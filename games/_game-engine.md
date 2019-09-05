@@ -33,5 +33,6 @@
 - **[ScummVM](scummvm.md)** (C++, GPL-2.0, mature)
 - **[sfall](sfall.md)** (C++, C, GPL-3.0, mature)
 - **[Spring](spring.md)** (C++, C, Lua, GPL-2.0, mature)
+- **[sundog](sundog.md)** (C, C++, Python, MIT, beta)
 - **[TwinEngine](twinengine.md)** (C, GPL-2.0, mature, inactive since 2015)
 - **[VASSAL Engine](vassal_engine.md)** (Java, LGPL-2.1, mature)

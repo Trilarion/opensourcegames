@@ -33,10 +33,13 @@ http://psyco.sourceforge.net/
 http://pyopengl.sourceforge.net/
 http://retrospec.sgn.net
 http://sam.zoy.org/monsterz/
+http://stratagus.sourceforge.net/
 http://vamos.sourceforge.net/
 http://www.celephais.net/fitzquake/
+http://www.codeskulptor.org/
 http://www.fifengine.net/
 http://www.moddb.com/mods/goldeneye-source
+http://www.myandroidonline.com/category/games/
 http://www.newbreedsoftware.com/s
 http://www.plasmapong.com/plasma-pong/plasma-pong/
 http://www.zsnes.com/ emulator/platform
@@ -150,6 +153,7 @@ https://github.com/hedgewars/hw
 https://github.com/hparcells/cards-against-humanity
 https://github.com/Interkarma/daggerfall-unity
 https://github.com/Interrupt/delverengine
+https://github.com/iortcw/iortcw
 https://github.com/jcarolus/android-chess
 https://github.com/juzzlin/DustRacing2D
 https://github.com/lexica/lexica
@@ -165,6 +169,7 @@ https://github.com/nicolodavis/boardgame.io
 https://github.com/notapixelstudio/superstarfighter
 https://github.com/Novum/vkQuake
 https://github.com/NYRDS/remixed-dungeon
+https://github.com/openblack/openblack
 https://github.com/OpenBricks/openbricks
 https://github.com/OpenDungeons/OpenDungeons
 https://github.com/openitg/openitg
@@ -176,6 +181,7 @@ https://github.com/OpMonTeam/OpMon
 https://github.com/OSSGames
 https://github.com/OSSGames/GAME-SDL-ACTION-Blobwars_Metal_Blob_Solid
 https://github.com/PanosK92/SpartanEngine
+https://github.com/PavelDoGreat/WebGL-Fluid-Simulation
 https://github.com/pelya/commandergenius
 https://github.com/pld-linux
 https://github.com/ptitSeb/gl4es
@@ -201,6 +207,7 @@ https://github.com/STJr/SRB2
 https://github.com/suijingfeng/vkOpenArena
 https://github.com/SuperTux/supertux
 https://github.com/taisei-project/taisei
+https://github.com/TalonBraveInfo/OpenHoW
 https://github.com/team-eternity/eternity
 https://github.com/the-insulines
 https://github.com/The-Powder-Toy/The-Powder-Toy

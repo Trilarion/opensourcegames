@@ -40,7 +40,7 @@ from utils.osg import *
 # should change on osgameclones
 osgc_name_aliases = {'4DTris': '4D-TRIS', 'fheroes2': 'Free Heroes 2', 'DrCreep': 'The Castles of Dr. Creep', 'Duke3d_win32': 'Duke3d_w32', 'erampage (EDuke32 fork)': 'erampage', 'GNOME Atomix': 'Atomix', 'Head over Heels 2': 'Head over Heels',
                      'JazzÂ² Resurrection': 'Jazz² Resurrection', 'mewl': 'M.E.W.L.', 'LinWarrior': 'Linwarrior 3D', 'Mice Men Remix': 'Mice Men: Remix', 'OpenApoc': 'Open Apocalypse', 'open-cube': 'Open Cube', 'open-horizon': 'Open Horizon', 'opengl_test_drive_clone': 'OpenGL Test Drive Remake',
-                     'Play Freeciv!': 'Freeciv-web', 'ProjectX': 'Forsaken', 'Siege of Avalon Open Source': 'Siege of Avalon : Open Source'}
+                     'Play Freeciv!': 'Freeciv-web', 'ProjectX': 'Forsaken', 'Siege of Avalon Open Source': 'Siege of Avalon : Open Source', 'ss13remake': 'SS13 Remake', 'shadowgrounds': 'Shadowgrounds', 'RxWars': 'Prescription Wars', 'Super Mario Bros And Level Editor in C#': 'Mario Objects'}
 
 # conversion between licenses syntax them and us
 osgc_licenses_map = {'GPL2': 'GPL-2.0', 'GPL3': 'GPL-3.0', 'AGPL3': 'AGPL-3.0', 'LGPL3': 'LGPL-3.0', 'LGPL2': 'LGPL-2.0 or 2.1?', 'MPL': 'MPL-2.0', 'Apache': 'Apache-2.0', 'Artistic': 'Artistic License', 'Zlib': 'zlib', 'PD': 'Public domain', 'AFL3': 'AFL-3.0', 'BSD2': '2-clause BSD'}
@@ -49,7 +49,8 @@ osgc_licenses_map = {'GPL2': 'GPL-2.0', 'GPL3': 'GPL-3.0', 'AGPL3': 'AGPL-3.0', 
 osgc_ignored_entries = ["A Mouse's Vengeance", 'achtungkurve.com', 'AdaDoom3', 'Agendaroids', 'Alien 8', 'Ard-Reil', 'Balloon Fight', 'bladerunner (Engine within SCUMMVM)', 'Block Shooter', 'Bomb Mania Reloaded', 'boulder-dash', 'Cannon Fodder', 'Contra_remake', 'CosmicArk-Advanced', 'Deuteros X', 'datastorm'
                         , 'div-columns', 'div-pacman2600', 'div-pitfall', 'div-spaceinvaders2600', 'EXILE', 'Free in the Dark', 'Football Manager', 'Fight Or Perish', 'EarthShakerDS', 'Entombed!', 'FreeRails 2', 'Glest Advanced Engine', 'FreedroidClassic', 'FreeFT', 'Future Blocks', 'HeadOverHeels'
                         , 'Herzog 3D', 'Homeworld SDL', 'imperialism-remake', 'Jumping Jack 2: Worryingly Familiar', 'Jumping Jack: Further Adventures', 'Jumpman', 'legion', 'KZap', 'LastNinja', 'Lemmix', 'LixD', 'luminesk5', 'Manic Miner', 'Meridian 59 Server 105', 'Meridian 59 German Server 112', 'Mining Haze'
-                        , 'OpenGeneral', 'MonoStrategy', 'New RAW', 'OpenDeathValley', 'OpenOutcast', 'openStrato', 'OpenPop', 'pacman', 'Phavon', 'PKMN-FX', 'Project: Xenocide', 'pyspaceinvaders', 'PyTouhou', 'Racer', 'Ruby OMF 2097 Remake', 'Snipes', 'Spaceship Duel', 'Space Station 14']
+                        , 'OpenGeneral', 'MonoStrategy', 'New RAW', 'OpenDeathValley', 'OpenOutcast', 'openStrato', 'OpenPop', 'pacman', 'Phavon', 'PKMN-FX', 'Project: Xenocide', 'pyspaceinvaders', 'PyTouhou', 'Racer', 'Ruby OMF 2097 Remake', 'Snipes', 'Spaceship Duel', 'Space Station 14', 'Starlane Empire'
+                        , 'Styx', 'Super Mario Bros With SFML in C#', 'thromolusng', 'Tile World 2']
 
 # ignore certain dependencies (not a framework)
 osgc_ignored_dependencies = ['HTML5', 'HTML', 'HTML canvas']

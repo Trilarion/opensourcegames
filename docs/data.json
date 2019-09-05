@@ -3105,6 +3105,14 @@
    "C - GPL-2.0"
   ],
   [
+   "Just another Tetris\u2122 clone (<a href=\"https://github.com/spypunk/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/just_another_tetris_clone.md\">entry</a>)",
+   "Remake of Tetris.",
+   "",
+   "mature / inactive since 2017",
+   "remake, inspired by Tetris, skill",
+   "<a href=\"https://github.com/spypunk/tetris.git\">Source</a> - Java - WTFPL"
+  ],
+  [
    "KaM Remake (<a href=\"http://www.kamremake.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/kam_remake.md\">entry</a>)",
    "An unofficial fan-made mod for the game Knights and..",
    "<a href=\"http://www.kamremake.com/download/\">Link</a>",
@@ -3527,6 +3535,14 @@
    "mature / inactive since 2012",
    "platform, inspired by Mario World, puzzle, remake",
    "Lua - CC-BY-NC-SA-3.0"
+  ],
+  [
+   "Mario Objects (<a href=\"https://github.com/jazzyjester/Mario-Game\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/mario_objects.md\">entry</a>)",
+   "Clone of Super Mario.",
+   "",
+   "beta / active",
+   "platform, clone, inspired by Super Mario",
+   "<a href=\"https://github.com/jazzyjester/Mario-Game.git\">Source</a> - C# - MIT"
   ],
   [
    "Mars, Land of No Mercy (<a href=\"https://sourceforge.net/projects/mars/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/mars_land_of_no_mercy.md\">entry</a>)",
@@ -5969,6 +5985,14 @@
    "<a href=\"https://github.com/jjimenezg93/star-control2.git\">Source</a> - C, C++ - MIT"
   ],
   [
+   "Star-Wars-III (<a href=\"https://github.com/abhinandanramesh/Star-Wars-III\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/star-wars-iii.md\">entry</a>)",
+   "Remake of Star Wars (1983 arcade game).",
+   "",
+   "mature / inactive since 2014",
+   "arcade, inspired by Star Wars, remake, skill",
+   "<a href=\"https://github.com/abhinandanramesh/Star-Wars-III.git\">Source</a> - Python - GPL-2.0"
+  ],
+  [
    "StarBlastrix (<a href=\"https://sourceforge.net/projects/starblastrix/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/starblastrix.md\">entry</a>)",
    "Side scrolling shoot'em up game.",
    "<a href=\"https://sourceforge.net/projects/starblastrix/files/\">Link</a>",
@@ -5985,12 +6009,28 @@
    "<a href=\"https://github.com/subchannel13/Stareater.git\">Source</a> - C# - GPL-3.0"
   ],
   [
+   "Stargus (<a href=\"http://stargus.stratagus.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/stargus.md\">entry</a>)",
+   "Remake of Starcraft.",
+   "<a href=\"https://sourceforge.net/projects/stargus/files/\">Link</a>",
+   "beta / inactive since 2010",
+   "remake, commercial content, inspired by Starcraft, requires original content",
+   "<a href=\"https://svn.code.sf.net/p/stargus/code/\">Source</a> - C++, Lua - GPL-2.0"
+  ],
+  [
    "Stars! Nova (<a href=\"https://sourceforge.net/projects/stars-nova/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/stars_nova.md\">entry</a>)",
    "Clone of the classic 4X space strategy game Stars!.",
    "<a href=\"https://sourceforge.net/projects/stars-nova/files\">Link</a>",
    "beta / active",
    "strategy",
    "<a href=\"https://git.code.sf.net/p/stars-nova/code\">Source</a> - C# - GPL-2.0"
+  ],
+  [
+   "starshatter-open (<a href=\"https://www.hard-light.net/forums/index.php?board=234.0\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/starshatter-open.md\">entry</a>)",
+   "Remake of Starshatter.",
+   "",
+   "beta / inactive since 2015",
+   "action, inspired by Starshatter, remake, space",
+   "<a href=\"https://github.com/Luomu/starshatter-open.git\">Source</a> - C++ - 3-clause BSD"
   ],
   [
    "Stendhal (<a href=\"https://stendhalgame.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/stendhal.md\">entry</a>)",
@@ -6017,6 +6057,22 @@
    "<a href=\"https://bitbucket.org/featheredmelody/lost-sky-project-public/src\">Source</a> - Python - 3-clause BSD"
   ],
   [
+   "Strife: Veteran Edition (<a href=\"https://doomwiki.org/wiki/Strife:_Veteran_Edition\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/strife_veteran_edition.md\">entry</a>)",
+   "Remake of Strife.",
+   "",
+   "beta / inactive since 2016",
+   "remake, commercial content, first-person, inspired by Strife, multiplayer Online, requires original content, shooter",
+   "<a href=\"https://github.com/svkaiser/strife-ve.git\">Source</a> - C, C++, Objective-C - GPL-3.0"
+  ],
+  [
+   "Stunt Car Racer Remake (<a href=\"http://stuntcarracerwin32.bravesites.com\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/stunt_car_racer_remake.md\">entry</a>)",
+   "Remake of Stunt Car Racer.",
+   "<a href=\"https://sourceforge.net/projects/stuntcarremake/files/\">Link</a>",
+   "beta / inactive since 2012",
+   "simulation, inspired by Stunt Car Racer, racing, remake",
+   "<a href=\"https://git.code.sf.net/p/stuntcarremake/code\">Source</a> - C++ - BSD"
+  ],
+  [
    "Stunt Rally (<a href=\"https://stuntrally.tuxfamily.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/stunt_rally.md\">entry</a>)",
    "Racing game with rally style of driving.",
    "<a href=\"http://stuntrally.tuxfamily.org/downloads\">Link</a>",
@@ -6033,12 +6089,84 @@
    "<a href=\"https://bitbucket.org/sumwars/sumwars-code\">Source</a> - C, C++, Lua - GPL-3.0"
   ],
   [
+   "sundog (<a href=\"https://github.com/laanwj/sundog\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/sundog.md\">entry</a>)",
+   "Remake of SunDog: Frozen Legacy.",
+   "",
+   "beta / active",
+   "role playing, commercial content, game engine, inspired by SunDog: Frozen Legacy, remake, requires original content, simulation, space",
+   "<a href=\"https://github.com/laanwj/sundog.git\">Source</a> - C, C++, Python - MIT"
+  ],
+  [
+   "SunDog Resurrection (<a href=\"http://www.sundogresurrectionproject.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/sundog_resurrection.md\">entry</a>)",
+   "Remake of SunDog: Frozen Legacy.",
+   "<a href=\"http://www.sundogresurrectionproject.com/downloads.html\">Link</a>",
+   "beta / active",
+   "role playing, inspired by SunDog: Frozen Legacy, remake, simulation, space",
+   "<a href=\"https://svn.code.sf.net/p/sundog/code/\">Source</a> - Java, Python - ?"
+  ],
+  [
+   "Supaxl (<a href=\"https://eguneys.github.io/jsgames/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/supaxl.md\">entry</a>)",
+   "Remake of Supaplex.",
+   "",
+   "mature / active",
+   "puzzle, inspired by Supaplex, open content, remake, skill",
+   "<a href=\"https://github.com/eguneys/supaxl.git\">Source</a> - JavaScript - ?"
+  ],
+  [
+   "Super Methane Brothers (<a href=\"http://methane.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/super_methane_brothers.md\">entry</a>)",
+   "Remake of Super Methane Brothers.",
+   "<a href=\"https://sourceforge.net/projects/methane/files/Methane%20Stable/\">Link</a>",
+   "mature / inactive since 2011",
+   "arcade, inspired by Super Methane Brothers, remake",
+   "C++ - GPL-2.0"
+  ],
+  [
+   "Super Tilt Bro (<a href=\"https://sgadrat.itch.io/super-tilt-bro\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/super_tilt_bro.md\">entry</a>)",
+   "Clone of Super Smash Bros..",
+   "<a href=\"https://github.com/sgadrat/super-tilt-bro/releases\">Link</a>",
+   "mature / active",
+   "platform, clone, free content, inspired by Super Smash Bros., multiplayer Competitive",
+   "<a href=\"https://github.com/sgadrat/super-tilt-bro.git\">Source</a> - Assembly, Python - WTFPL"
+  ],
+  [
+   "super-methane-brothers-gx (<a href=\"https://github.com/carstene1ns/super-methane-brothers-gx\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/super-methane-brothers-gx.md\">entry</a>)",
+   "Remake of Super Methane Brothers.",
+   "",
+   "beta / inactive since 2018",
+   "arcade, inspired by Super Methane Brothers, remake",
+   "<a href=\"https://github.com/carstene1ns/super-methane-brothers-gx.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "Supercars III (<a href=\"http://jotd.pagesperso-orange.fr/supercars3/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/supercars_iii.md\">entry</a>)",
+   "Remake of Super Cars.",
+   "<a href=\"http://jotd.pagesperso-orange.fr/supercars3/Supercars3_06.zip\">Link</a>",
+   "mature / inactive since 2014",
+   "remake, inspired by Super Cars, racing",
+   "Java - ?"
+  ],
+  [
+   "SuperFoulEgg (<a href=\"https://github.com/ant512/SuperFoulEgg\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/superfoulegg.md\">entry</a>)",
+   "Remake of Super Foul Egg.",
+   "",
+   "mature / inactive since 2014",
+   "remake, inspired by Super Foul Egg",
+   "<a href=\"https://github.com/ant512/SuperFoulEgg.git\">Source</a> - Objective-C, C - MIT"
+  ],
+  [
    "Superpowers (<a href=\"http://superpowers-html5.com/index.en.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/superpowers.md\">entry</a>)",
    "2D+3D game making for indies.",
    "<a href=\"https://sparklinlabs.itch.io/superpowers\">Link</a>",
    "mature / active",
    "framework",
    "<a href=\"https://github.com/superpowers/superpowers-core.git\">Source</a> - TypeScript - ISC"
+  ],
+  [
+   "SuperTux (<a href=\"https://supertux.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/supertux.md\">entry</a>)",
+   "Clone of Super Mario.",
+   "<a href=\"https://www.supertux.org/download.html\">Link</a>",
+   "beta / active",
+   "platform, clone, inspired by Super Mario, open content",
+   "<a href=\"https://github.com/SuperTux/supertux.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
    "SuperTuxKart (<a href=\"https://supertuxkart.net/Main_Page\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/supertuxkart.md\">entry</a>)",
@@ -6049,12 +6177,28 @@
    "<a href=\"https://github.com/supertuxkart/stk-code.git\">Source</a> - C++, C - GPL-3.0"
   ],
   [
+   "SuperTuxParty (<a href=\"https://gitlab.com/SuperTuxParty/SuperTuxParty\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/supertuxparty.md\">entry</a>)",
+   "Clone of Mario Party.",
+   "<a href=\"https://www.reddit.com/r/SuperTuxParty/\">Link</a>",
+   "beta / active",
+   "action, clone, entertainment, inspired by Mario Party, multiplayer Split-screen, open content",
+   "<a href=\"https://gitlab.com/SuperTuxParty/SuperTuxParty.git\">Source</a> - GDScript - GPL-3.0"
+  ],
+  [
    "Supremacy (<a href=\"https://archive.codeplex.com/?p=supremacy\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/supremacy.md\">entry</a>)",
    "\"4X\" (eXplore, eXpand, eXploit, eXterminate) turn-based,..",
    "<a href=\"http://www.startreksupremacy.com/download.html\">Link</a>",
    "beta / inactive since 2014",
    "strategy",
    "<a href=\"https://bitbucket.org/mstrobel/supremacy/src\">Source</a> - C# - Ms-RL"
+  ],
+  [
+   "Survivor (<a href=\"http://www.schillmania.com/survivor/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/survivor.md\">entry</a>)",
+   "Remake of Survivor (1986).",
+   "",
+   "mature / active",
+   "remake, inspired by Survivor",
+   "<a href=\"https://github.com/scottschiller/SURVIVOR.git\">Source</a> - JavaScript - CC-BY-NC-3.0"
   ],
   [
    "SWIG (<a href=\"http://swig.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/swig.md\">entry</a>)",
@@ -6065,6 +6209,22 @@
    "<a href=\"https://github.com/swig/swig.git\">Source</a> - C++ - SWIG license"
   ],
   [
+   "SWP (<a href=\"http://www.proasm.com/sw/swp.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/swp.md\">entry</a>)",
+   "Remake of Shadow Warrior.",
+   "",
+   "mature / active",
+   "remake, commercial content, inspired by Shadow Warrior, requires original content, shooter",
+   "<a href=\"https://github.com/Hendricks266/SWP.git\">Source</a> - C, C++ - GPL-2.0"
+  ],
+  [
+   "Syndicate Wars Port (<a href=\"http://swars.vexillium.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/syndicate_wars_port.md\">entry</a>)",
+   "Remake of Syndicate Wars.",
+   "<a href=\"http://swars.vexillium.org/#download\">Link</a>",
+   "beta / inactive since 2010",
+   "action, commercial content, inspired by Syndicate Wars, real time, remake, requires original content, strategy",
+   "C - GPL-3.0"
+  ],
+  [
    "T-Bots (<a href=\"https://sourceforge.net/projects/tbots/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/t-bots.md\">entry</a>)",
    "Robot battle game simulator.",
    "<a href=\"https://sourceforge.net/projects/tbots/files\">Link</a>",
@@ -6073,12 +6233,28 @@
    "<a href=\"https://gitlab.com/osgames/tbots.git\">Source</a> - C - GPL-2.0"
   ],
   [
+   "Taisei Project (<a href=\"https://taisei-project.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/taisei_project.md\">entry</a>)",
+   "Remake of Touhou.",
+   "<a href=\"https://taisei-project.org/download\">Link</a>",
+   "mature / active",
+   "action, inspired by Touhou, open content, remake, shootem",
+   "<a href=\"https://github.com/taisei-project/taisei.git\">Source</a> - C, Python - MIT"
+  ],
+  [
    "Tales of Maj'Eyal (<a href=\"https://te4.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tales_of_majeyal.md\">entry</a>)",
    "Roguelike RPG, featuring tactical turn-based combat and..",
    "<a href=\"https://te4.org/download\">Link</a>",
    "mature / active",
    "role playing, roguelike",
    "<a href=\"https://git.net-core.org/tome/t-engine4.git\">Source</a> - C, Lua - GPL-3.0"
+  ],
+  [
+   "Tank: Zone of Death (<a href=\"https://zod.fandom.com/ru/wiki/\u0413\u043b\u0430\u0432\u043d\u0430\u044f\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tank_zone_of_death.md\">entry</a>)",
+   "Clone of Battle City.",
+   "",
+   "beta / inactive since 2017",
+   "action, clone, inspired by Battle City, shooter",
+   "<a href=\"https://github.com/les-sosna/tzod.git\">Source</a> - C++, Lua - GPL-3.0"
   ],
   [
    "Tanks of Freedom (<a href=\"https://tof.p1x.in/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tanks_of_freedom.md\">entry</a>)",
@@ -6103,6 +6279,22 @@
    "mature / active",
    "framework, 3D, inspired by Minecraft, remake",
    "<a href=\"https://github.com/MovingBlocks/Terasology.git\">Source</a> - Java - Apache-2.0"
+  ],
+  [
+   "terrarium (<a href=\"https://gitlab.com/hydren/terrarium\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/terrarium.md\">entry</a>)",
+   "Remake of Terraria.",
+   "",
+   "beta / active",
+   "action, 2D, adventure, inspired by Terraria, remake, sandbox",
+   "<a href=\"https://gitlab.com/hydren/terrarium.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "TES3MP (<a href=\"http://tes3mp.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tes3mp.md\">entry</a>)",
+   "Remake of The Elder Scrolls III: Morrowind.",
+   "<a href=\"https://github.com/TES3MP/openmw-tes3mp/releases\">Link</a>",
+   "beta / active",
+   "remake, inspired by The Elder Scrolls III: Morrowind, multiplayer Online",
+   "<a href=\"https://github.com/TES3MP/openmw-tes3mp.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
    "TetraVex (<a href=\"https://github.com/Lisergishnu/TetraVex\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tetravex.md\">entry</a>)",
@@ -6209,12 +6401,36 @@
    "<a href=\"https://github.com/The-Powder-Toy/The-Powder-Toy.git\">Source</a> - C++, C, Lua, Python - GPL-3.0"
   ],
   [
+   "The Rush (<a href=\"http://sourceforge.net/projects/therush/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/the_rush.md\">entry</a>)",
+   "Clone of Wipeout.",
+   "<a href=\"https://sourceforge.net/projects/therush/files/therush/Release/\">Link</a>",
+   "beta / inactive since 2011",
+   "arcade, clone, inspired by Wipeout, racing",
+   "<a href=\"https://svn.code.sf.net/p/therush/code/\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
    "The Secret Chronicles of Dr. M. (<a href=\"https://secretchronicles.org\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/the_secret_chronicles_of_dr_m.md\">entry</a>)",
    "Remake of Mario World.",
    "<a href=\"https://secretchronicles.org/en/download/\">Link</a>",
    "mature / active",
    "platform, 2D, inspired by Mario World, remake, scrolling",
    "<a href=\"https://github.com/secretchronicles/TSC.git\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
+   "Theme Park Builder 3D CAD (<a href=\"http://sourceforge.net/projects/tpb3d/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/theme_park_builder_3d_cad.md\">entry</a>)",
+   "Remake of Theme Park.",
+   "<a href=\"https://sourceforge.net/projects/tpb3d/files/tpb3d/\">Link</a>",
+   "beta / inactive since 2013",
+   "simulation, inspired by Theme Park, remake",
+   "<a href=\"https://svn.code.sf.net/p/tpb3d/code/\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
+   "thiefcatcher (<a href=\"https://github.com/Ponup/thiefcatcher\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/thiefcatcher.md\">entry</a>)",
+   "Remake of Where in the World Is Carmen Sandiego? (1985).",
+   "",
+   "beta / active",
+   "strategy, educational, inspired by Where in the World Is Carmen Sandiego?, remake",
+   "<a href=\"https://github.com/Ponup/thiefcatcher.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
    "Thousand Parsec (<a href=\"https://web.archive.org/web/20180516211349/http://www.thousandparsec.net/tp/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/thousand_parsec.md\">entry</a>)",
@@ -6225,12 +6441,52 @@
    "<a href=\"https://github.com/thousandparsec/tpserver-cpp.git\">Source</a> - C++, Python - GPL-2.0"
   ],
   [
+   "Thrive (<a href=\"https://revolutionarygamesstudio.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/thrive.md\">entry</a>)",
+   "Similar of Spore.",
+   "<a href=\"https://revolutionarygamesstudio.com/releases/\">Link</a>",
+   "beta / active",
+   "strategy, inspired by Spore, open content, similar",
+   "<a href=\"https://github.com/Revolutionary-Games/Thrive.git\">Source</a> - C++, AngelScript, JavaScript - GPL-3.0"
+  ],
+  [
+   "Thrust (<a href=\"https://www.lysator.liu.se/~peda/thrust/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/thrust.md\">entry</a>)",
+   "Remake of Thrust.",
+   "<a href=\"https://www.lysator.liu.se/~peda/thrust/src/\">Link</a>",
+   "beta / inactive since 2006",
+   "arcade, inspired by Thrust, remake, skill",
+   "C - GPL-2.0"
+  ],
+  [
+   "Thyme (<a href=\"https://github.com/TheAssemblyArmada/Thyme\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/thyme.md\">entry</a>)",
+   "Remake of Command & Conquer: Generals.",
+   "",
+   "beta / active",
+   "strategy, commercial content, inspired by Command & Conquer: Generals, realtime, remake, requires original content",
+   "<a href=\"https://github.com/TheAssemblyArmada/Thyme.git\">Source</a> - C, C++ - GPL-2.0"
+  ],
+  [
+   "Tile World (<a href=\"http://www.muppetlabs.com/~breadbox/software/tworld/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tile_world.md\">entry</a>)",
+   "Remake of Chip's Challenge.",
+   "",
+   "mature / inactive since 2015",
+   "remake, commercial content, inspired by Chip's Challenge, requires original content",
+   "<a href=\"https://github.com/Qalthos/Tile-World.git\">Source</a> - C - GPL-2.0"
+  ],
+  [
    "TinTin++ (<a href=\"https://tintin.sourceforge.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tintin.md\">entry</a>)",
    "MUD client.",
    "<a href=\"https://tintin.sourceforge.io/download.php\">Link</a>",
    "mature / active",
    "role playing, client, MUD",
    "C - GPL-3.0"
+  ],
+  [
+   "Tiny Wings (<a href=\"https://github.com/haqu/tiny-wings\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tiny_wings.md\">entry</a>)",
+   "Remake of Tiny Wings.",
+   "",
+   "beta / active",
+   "remake, inspired by Tiny Wings, skill",
+   "<a href=\"https://github.com/haqu/tiny-wings.git\">Source</a> - Objective-C, C, C++ - MIT"
   ],
   [
    "TORCS, The Open Racing Car Simulator (<a href=\"http://torcs.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/torcs_the_open_racing_car_simulator.md\">entry</a>)",

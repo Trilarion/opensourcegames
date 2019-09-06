@@ -62,3 +62,6 @@
 - **[Supaxl](supaxl.md)** (JavaScript, ?, mature)
 - **[TetraVex](tetravex.md)** (Swift, GPL-3.0, beta)
 - **[The Castles of Dr. Creep](the_castles_of_dr_creep.md)** (C++, Shell, GPL-3.0, mature)
+- **[Toppler](toppler.md)** (C++, GPL-2.0, mature, inactive since 2012)
+- **[Trackballs](trackballs.md)** (C++, Scheme, GPL-2.0, mature)
+- **[Tumbly Towers](tumbly_towers.md)** (Java, MIT, beta, inactive since 2017)

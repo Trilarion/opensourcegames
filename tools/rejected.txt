@@ -63,6 +63,8 @@ Styx (http://retrospec.sgn.net/game/styx, http://retrospec.sgn.net/game-links.ph
 Super Mario Bros With SFML in C# (https://mario.codeplex.com/, https://mario.codeplex.com/SourceControl/latest): Codeplex cannot access archive, therefore no source, might be just a previous state of Mario Objects
 Sworsorc (https://svn.code.sf.net/p/alteraterra/code/): Proprietary license (copyright headers in files)
 thromolusng (https://github.com/segfaulthunter/thromolusng.git): Very early development, not playable, no build instructions, abandoned since 2010
+Tranzam (http://retrospec.sgn.net/game/tranzam, http://retrospec.sgn.net/download/files/TranzAm.1.1.zip): see other retrospec.sgn.net entries, license unclear, probably not open source as we want it
 VegaTrek (https://sourceforge.net/projects/vegatrek/, https://svn.code.sf.net/p/vegatrek/code/): Unclear licensing, copyright of assets questionable
 Visions from the Other Side (http://www.insani.org/mukou.html): Source not available
+Voxelstein 3D (http://voxelstein3d.sourceforge.net/): Very early development
 WarGame (https://archive.codeplex.com/?p=wargame): Unclear license, could not contact authors

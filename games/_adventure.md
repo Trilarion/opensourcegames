@@ -22,4 +22,6 @@
 - **[Star Maiden Astraea Rio](star_maiden_astraea_rio.md)** (Ren'py, CC-BY-NC, mature)
 - **[star-control2](star-control2.md)** (C, C++, MIT, mature)
 - **[terrarium](terrarium.md)** (C++, GPL-2.0, beta)
+- **[twin-e](twin-e.md)** (C, GPL-2.0, beta, inactive since 2015)
 - **[TwinEngine](twinengine.md)** (C, GPL-2.0, mature, inactive since 2015)
+- **[uninvited](uninvited.md)** (C, C++, Artistic License-2.0, beta, inactive since 2016)

@@ -25,3 +25,7 @@
 - **[SuperTux](supertux.md)** (C++, GPL-3.0, beta)
 - **[The Legend of Edgar](the_legend_of_edgar.md)** (C, GPL-2.0, mature)
 - **[The Secret Chronicles of Dr. M.](the_secret_chronicles_of_dr_m.md)** (C++, GPL-3.0, mature)
+- **[TUSSLE](tussle.md)** (Python, GPL-3.0, mature, inactive since 2017)
+- **[uMario](umario.md)** (C++, GPL-2.0, beta, inactive since 2016)
+- **[Wario-Land-3](wario-land-3.md)** (Python, MIT, beta, inactive since 2018)
+- **[WarMUX](warmux.md)** (C++, GPL-2.0, beta, inactive since XX)

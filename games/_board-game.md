@@ -9,4 +9,4 @@
 - **[Pioneers](pioneers.md)** (C, GPL-2.0, mature)
 - **[Scrabble3D](scrabble3d.md)** (Pascal, GPL-3.0, mature, inactive since 2015)
 - **[The Bub's Brothers](the_bubs_brothers.md)** (Python, MIT, mature, inactive since 2013)
-- **[VASSAL Engine](vassal_engine.md)** (Java, LGPL-2.1, mature)
+- **[VASSAL](vassal.md)** (Java, LGPL-2.1, mature)

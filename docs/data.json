@@ -4985,7 +4985,7 @@
    "<a href=\"https://svn.prboom.org/repos/branches/prboom-plus-24/prboom2/\">Source</a> - C - GPL-2.0"
   ],
   [
-   "Prescription Wars (<a href=\"https://github.com/gtheilman/RxWars\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/presciption_wars.md\">entry</a>)",
+   "Prescription Wars (<a href=\"https://github.com/gtheilman/RxWars\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/prescription_wars.md\">entry</a>)",
    "Remake of Drugwars.",
    "",
    "mature / inactive since 2016",
@@ -5953,14 +5953,6 @@
    "<a href=\"https://github.com/ss13remake/ss13remake.git\">Source</a> - C# - GPL-3.0"
   ],
   [
-   "Star Control II: The Ur-Quan Masters (<a href=\"http://sc2.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/star_control_ii_the_ur-quan_masters.md\">entry</a>)",
-   "The Ur-Quan Masters (or UQM) project ports Star Control II..",
-   "<a href=\"http://sc2.sourceforge.net/downloads.php\">Link</a>",
-   "mature / inactive since 2011",
-   "strategy, turn-based",
-   "<a href=\"https://git.code.sf.net/p/sc2/uqm\">Source</a> - C - GPL-2.0"
-  ],
-  [
    "Star Maiden Astraea Rio (<a href=\"http://nyaatrap.blog.fc2.com/blog-entry-20.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/star_maiden_astraea_rio.md\">entry</a>)",
    "Visual Novel.",
    "<a href=\"http://www.mediafire.com/file/jog3fcfxgsyd03f/Astraea_Rio-1.05-all.zip\">Link</a>",
@@ -6265,6 +6257,14 @@
    "<a href=\"https://github.com/w84death/Tanks-of-Freedom.git\">Source</a> - GDScript - MIT"
   ],
   [
+   "Tapir (<a href=\"https://qnighy.github.io/tapir/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tapir.md\">entry</a>)",
+   "Remake of RPG Maker.",
+   "",
+   "beta / inactive since 2017",
+   "game engine, inspired by RPG Maker, remake",
+   "<a href=\"https://github.com/qnighy/tapir.git\">Source</a> - C, Ruby - Apache-2.0"
+  ],
+  [
    "Tenes Empanadas Graciela (<a href=\"https://github.com/wfx/teg\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tenes_empanadas_graciela.md\">entry</a>)",
    "Clone of 'Plan Tactico y Estrategico de la Guerra', which..",
    "",
@@ -6417,6 +6417,14 @@
    "<a href=\"https://github.com/secretchronicles/TSC.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
+   "The Ur-Quan Masters (<a href=\"http://sc2.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/the_ur-quan_masters.md\">entry</a>)",
+   "The Ur-Quan Masters (or UQM) project ports Star Control II..",
+   "<a href=\"http://sc2.sourceforge.net/downloads.php\">Link</a>",
+   "mature / inactive since 2011",
+   "strategy, inspired by Star Control 2, remake, turn-based",
+   "<a href=\"https://git.code.sf.net/p/sc2/uqm\">Source</a> - C - GPL-2.0"
+  ],
+  [
    "Theme Park Builder 3D CAD (<a href=\"http://sourceforge.net/projects/tpb3d/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/theme_park_builder_3d_cad.md\">entry</a>)",
    "Remake of Theme Park.",
    "<a href=\"https://sourceforge.net/projects/tpb3d/files/tpb3d/\">Link</a>",
@@ -6489,12 +6497,68 @@
    "<a href=\"https://github.com/haqu/tiny-wings.git\">Source</a> - Objective-C, C, C++ - MIT"
   ],
   [
+   "TOMB5 (<a href=\"https://github.com/TOMB5/TOMB5\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tomb5.md\">entry</a>)",
+   "Remake of Tomb Raider Chronicles.",
+   "",
+   "beta / active",
+   "remake, commercial content, inspired by Tomb Raider Chronicles, requires original content",
+   "<a href=\"https://github.com/TOMB5/TOMB5.git\">Source</a> - C, C++ - MIT"
+  ],
+  [
+   "Toppler (<a href=\"http://toppler.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/toppler.md\">entry</a>)",
+   "Remake of Nebulus.",
+   "<a href=\"http://toppler.sourceforge.net/#downloads\">Link</a>",
+   "mature / inactive since 2012",
+   "action, inspired by Nebulus, puzzle, remake",
+   "C++ - GPL-2.0"
+  ],
+  [
    "TORCS, The Open Racing Car Simulator (<a href=\"http://torcs.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/torcs_the_open_racing_car_simulator.md\">entry</a>)",
    "Car racing simulation.",
    "<a href=\"http://torcs.sourceforge.net/index.php?name=Sections&op=viewarticle&artid=3\">Link</a>",
    "mature / inactive since 2016",
    "simulation, racing",
    "<a href=\"https://git.code.sf.net/p/torcs/code\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "Torrega Race (<a href=\"https://github.com/andwj/torrega\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/torrega_race.md\">entry</a>)",
+   "Clone of Omega Race.",
+   "",
+   "mature / inactive since 2015",
+   "simulation, clone, inspired by Omega Race, open content, shootem",
+   "<a href=\"https://github.com/andwj/torrega.git\">Source</a> - Lua - GPL-3.0"
+  ],
+  [
+   "Total Annihilation 3D (<a href=\"http://www.ta3d.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/total_annihilation_3d.md\">entry</a>)",
+   "Remake of Total Annihilation.",
+   "",
+   "beta / inactive since 2017",
+   "strategy, inspired by Total Annihilation, realtime, remake",
+   "<a href=\"https://github.com/zuzuf/TA3D.git\">Source</a> - C++, C, Lua - GPL-2.0"
+  ],
+  [
+   "Trackballs (<a href=\"https://trackballs.github.io\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/trackballs.md\">entry</a>)",
+   "Remake of Marble Madness.",
+   "<a href=\"https://repology.org/metapackage/trackballs/versions\">Link</a>",
+   "mature / active",
+   "puzzle, inspired by Marble Madness, remake",
+   "<a href=\"https://github.com/trackballs/trackballs.git\">Source</a> - C++, Scheme - GPL-2.0"
+  ],
+  [
+   "Train (<a href=\"https://github.com/nenadalm/Train\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/train.md\">entry</a>)",
+   "Remake of Vlak.",
+   "",
+   "beta / active",
+   "remake, inspired by Vlak, skill",
+   "<a href=\"https://github.com/nenadalm/Train.git\">Source</a> - Java - 3-clause BSD"
+  ],
+  [
+   "Transfusion (<a href=\"http://blood.sourceforge.net/transfusion.php\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/transfusion.md\">entry</a>)",
+   "Remake of Blood.",
+   "<a href=\"https://sourceforge.net/projects/blood/files/\">Link</a>",
+   "beta / inactive since 2007",
+   "remake, first-person, inspired by Blood, shooter",
+   "<a href=\"http://hg.code.sf.net/p/blood/code\">Source</a> - C - GPL-2.0"
   ],
   [
    "Tremulous (<a href=\"http://www.tremulous.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tremulous.md\">entry</a>)",
@@ -6537,6 +6601,30 @@
    "<a href=\"https://gitlab.com/osgames/trophy.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
+   "TrueCraft (<a href=\"https://web.archive.org/web/20180423174517/https://truecraft.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/truecraft.md\">entry</a>)",
+   "Remake of Minecraft.",
+   "",
+   "beta / inactive since 2018",
+   "simulation, inspired by Minecraft, open content, remake, sandbox, voxel",
+   "<a href=\"https://github.com/SirCmpwn/TrueCraft.git\">Source</a> - C# - MIT"
+  ],
+  [
+   "TTDPatch (<a href=\"https://www.ttdpatch.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/ttdpatch.md\">entry</a>)",
+   "Tool of Transport Tycoon.",
+   "",
+   "mature / inactive since 2013",
+   "simulation, commercial content, inspired by Transport Tycoon, requires original content",
+   "<a href=\"https://github.com/ttdpatch/ttdpatch.git\">Source</a> - Assembly, C, C++ - GPL-2.0"
+  ],
+  [
+   "Tumbly Towers (<a href=\"https://bitbucket.org/SteveSmith16384/trickytowers\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tumbly_towers.md\">entry</a>)",
+   "Remake of Tricky Towers.",
+   "",
+   "beta / inactive since 2017",
+   "puzzle, inspired by Tricky Towers, open content, remake, skill",
+   "<a href=\"https://bitbucket.org/SteveSmith16384/trickytowers.git\">Source</a> - Java - MIT"
+  ],
+  [
    "Tumiki Fighters (<a href=\"https://sourceforge.net/projects/tumiki/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tumiki_fighters.md\">entry</a>)",
    "Side-scrolling shooter.",
    "<a href=\"https://sourceforge.net/projects/tumiki/files/tumiki/\">Link</a>",
@@ -6559,6 +6647,22 @@
    "beta / inactive since 2014",
    "strategy",
    "<a href=\"https://github.com/trananh1992/Turn-of-War.git\">Source</a> - Java - GPL-3.0"
+  ],
+  [
+   "TurokEX (<a href=\"https://github.com/svkaiser/TurokEX\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/turokex.md\">entry</a>)",
+   "Remake of Turok.",
+   "",
+   "beta / inactive since 2014",
+   "remake, first-person, inspired by Turok, shooter",
+   "<a href=\"https://github.com/svkaiser/TurokEX.git\">Source</a> - C++, C - GPL-2.0"
+  ],
+  [
+   "TUSSLE (<a href=\"https://projecttussle.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tussle.md\">entry</a>)",
+   "Clone of Super Smash Bros..",
+   "<a href=\"https://projecttussle.com/download\">Link</a>",
+   "mature / inactive since 2017",
+   "action, clone, free content, inspired by Super Smash Bros., multiplayer Competitive, platform",
+   "<a href=\"https://github.com/digiholic/universalSmashSystem.git\">Source</a> - Python - GPL-3.0"
   ],
   [
    "Tux Football (<a href=\"http://tuxfootball.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tux_football.md\">entry</a>)",
@@ -6601,12 +6705,52 @@
    "<a href=\"https://github.com/TVTower/TVTower.git\">Source</a> - BlitzMax, Lua - Custom"
   ],
   [
-   "TwinEngine (<a href=\"https://github.com/xesf/twin-e\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/twinengine.md\">entry</a>)",
+   "twin-e (<a href=\"https://forum.magicball.net/forumdisplay.php?f=66\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/twin-e.md\">entry</a>)",
+   "Remake of Little Big Adventure.",
+   "",
+   "beta / inactive since 2015",
+   "adventure, commercial content, game engine, inspired by Little Big Adventure, remake, requires original content",
+   "<a href=\"https://github.com/xesf/twin-e.git\">Source</a> - C - GPL-2.0"
+  ],
+  [
+   "TwinEngine (<a href=\"https://forum.magicball.net/forumdisplay.php?f=66\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/twinengine.md\">entry</a>)",
    "A Little Big Adventure engine.",
    "",
    "mature / inactive since 2015",
-   "adventure, game engine, remake, requires original content",
+   "adventure, commercial content, game engine, inspired by Little Big Adventure, remake, requires original content",
    "<a href=\"https://github.com/xesf/twin-e.git\">Source</a> - C - GPL-2.0"
+  ],
+  [
+   "Tyrian Remake (<a href=\"https://www.b3dgs.com/v7/page.php?lang=en&section=tyrian_remake\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tyrian_remake.md\">entry</a>)",
+   "Remake of Tyrian.",
+   "",
+   "beta / active",
+   "action, inspired by Tyrian, remake, scrolling, shootem",
+   "<a href=\"https://github.com/b3dgs/tyrian-remake.git\">Source</a> - Java - GPL-2.0"
+  ],
+  [
+   "TyrQuake (<a href=\"http://disenchant.net/tyrquake/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tyrquake.md\">entry</a>)",
+   "Remake of Quake.",
+   "",
+   "beta / active",
+   "remake, first-person, inspired by Quake, shooter",
+   "<a href=\"https://github.com/libretro/tyrquake.git\">Source</a> - C - GPL-2.0"
+  ],
+  [
+   "UA_source (<a href=\"https://github.com/Marisa-Chan/UA_source\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/uasource.md\">entry</a>)",
+   "Remake of Urban Assault.",
+   "",
+   "beta / active",
+   "remake, commercial content, inspired by Urban Assault, requires original content",
+   "<a href=\"https://github.com/Marisa-Chan/UA_source.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "Uebergame (<a href=\"http://duion.com/games/uebergame/main\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/uebergame.md\">entry</a>)",
+   "Clone of ARMA: Armed Assault, ARMA 2, ARMA 3.",
+   "<a href=\"https://duion.com/games/uebergame/downloads\">Link</a>",
+   "mature / active",
+   "action, clone, inspired by ARMA: Armed Assault + ARMA 2 + ARMA 3, open content, shooter",
+   "<a href=\"https://github.com/Duion/Uebergame.git\">Source</a> - TorqueScript, C# - MIT"
   ],
   [
    "UFO2000 (<a href=\"http://ufo2000.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/ufo2000.md\">entry</a>)",
@@ -6633,6 +6777,14 @@
    "<a href=\"https://github.com/nhydock/UlDunAd.git\">Source</a> - Python - GPL-3.0"
   ],
   [
+   "Ultimate Stunts (<a href=\"http://www.ultimatestunts.nl/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/ultimate_stunts.md\">entry</a>)",
+   "Remake of Stunts.",
+   "<a href=\"http://www.ultimatestunts.nl/index.php?page=2\">Link</a>",
+   "beta / inactive since 2013",
+   "remake, cars, inspired by Stunts, racing",
+   "<a href=\"https://svn.code.sf.net/p/ultimatestunts/code/\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
    "UltraStar (<a href=\"https://sourceforge.net/projects/ultrastar/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/ultrastar.md\">entry</a>)",
    "Clone of SingStar, a music video game.",
    "<a href=\"https://sourceforge.net/projects/ultrastar/files/\">Link</a>",
@@ -6649,6 +6801,14 @@
    "<a href=\"https://github.com/UltraStar-Deluxe/USDX.git\">Source</a> - Pascal - GPL-2.0"
   ],
   [
+   "uMario (<a href=\"http://lukaszjakowski.pl/project,20,mario-cpp.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/umario.md\">entry</a>)",
+   "Remake of Super Mario.",
+   "",
+   "beta / inactive since 2016",
+   "platform, inspired by Super Mario, remake",
+   "<a href=\"https://github.com/jakowskidev/uMario_Jakowski.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
    "Umbra (<a href=\"http://markdamonhughes.com/Umbra/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/umbra.md\">entry</a>)",
    "Computer role-playing game written in Python.",
    "<a href=\"http://markdamonhughes.com/Umbra/#download\">Link</a>",
@@ -6657,12 +6817,28 @@
    "<a href=\"https://gitlab.com/osgames/umbra.git\">Source</a> - Python - Custom"
   ],
   [
+   "Uncharted waters 2 remake (<a href=\"https://web.archive.org/web/20140504171546/http://jackyjjc.com/category/dk2-dev-journal/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/uncharted_waters_2_remake.md\">entry</a>)",
+   "Remake of Uncharted Waters.",
+   "",
+   "beta / inactive since 2012",
+   "simulation, inspired by Uncharted Waters, remake, role-playing",
+   "<a href=\"https://github.com/Jackyjjc/Uncharted-waters-2-remake.git\">Source</a> - Java - GPL-2.0"
+  ],
+  [
    "Underworld Adventures (<a href=\"http://uwadv.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/underworld_adventures.md\">entry</a>)",
    "Project to recreate Ultima Underworld 1 on modern..",
    "<a href=\"http://uwadv.sourceforge.net/index.php?page=download\">Link</a>",
    "beta / inactive since 2007",
    "role playing",
    "<a href=\"https://gitlab.com/osgames/uwadv.git\">Source</a> - C++, Lua - GPL-2.0"
+  ],
+  [
+   "uninvited (<a href=\"https://github.com/DavidGriffith/uninvited\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/uninvited.md\">entry</a>)",
+   "Remake of Uninvited.",
+   "",
+   "beta / inactive since 2016",
+   "adventure, inspired by Uninvited, remake",
+   "<a href=\"https://github.com/DavidGriffith/uninvited.git\">Source</a> - C, C++ - Artistic License-2.0"
   ],
   [
    "Unknown Horizons (<a href=\"http://unknown-horizons.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/unknown_horizons.md\">entry</a>)",
@@ -6689,6 +6865,14 @@
    "<a href=\"https://github.com/Unvanquished/Unvanquished.git\">Source</a> - C, C++ - GPL-3.0"
   ],
   [
+   "urde (<a href=\"https://gitlab.axiodl.com/AxioDL/urde\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/urde.md\">entry</a>)",
+   "Remake of Metroid Prime.",
+   "<a href=\"https://github.com/AxioDL/urde/releases\">Link</a>",
+   "beta / active",
+   "game engine, commercial content, inspired by Metroid Prime, remake, requires original content",
+   "<a href=\"https://gitlab.axiodl.com/AxioDL/urde.git\">Source</a> - C, C++ - MIT"
+  ],
+  [
    "Urho3D (<a href=\"https://urho3d.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/urho3d.md\">entry</a>)",
    "Urho3D is a free lightweight, cross-platform 2D and 3D..",
    "<a href=\"https://sourceforge.net/projects/urho3d/files/Urho3D/\">Link</a>",
@@ -6705,19 +6889,19 @@
    "<a href=\"https://github.com/ValyriaTear/ValyriaTear.git\">Source</a> - Lua, C++, C - GPL-2.0"
   ],
   [
-   "VASSAL Engine (<a href=\"http://www.vassalengine.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/vassal_engine.md\">entry</a>)",
+   "VASSAL (<a href=\"http://www.vassalengine.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/vassal.md\">entry</a>)",
    "Game engine for creating electronic versions of..",
    "<a href=\"http://www.vassalengine.org/download.php\">Link</a>",
    "mature / active",
-   "board game, framework, game engine",
+   "board game, clone, framework, game engine, inspired by Board Game",
    "<a href=\"https://svn.code.sf.net/p/vassalengine/svn/\">Source</a> - Java - LGPL-2.1"
   ],
   [
-   "VCMI Project (<a href=\"https://vcmi.eu/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/vcmi_project.md\">entry</a>)",
+   "VCMI (<a href=\"https://vcmi.eu/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/vcmi.md\">entry</a>)",
    "Engine for Heroes III, giving it new and extended..",
    "",
    "mature / active",
-   "strategy",
+   "strategy, commercial content, inspired by Heroes of Might and Magic III, remake, requires original content",
    "<a href=\"https://github.com/vcmi/vcmi.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -6727,6 +6911,14 @@
    "mature / inactive since 2014",
    "simulation, cars, racing",
    "<a href=\"https://github.com/VDrift/vdrift.git\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
+   "Vectoroids (<a href=\"http://www.newbreedsoftware.com/vectoroids/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/vectoroids.md\">entry</a>)",
+   "Remake of Asteroids.",
+   "<a href=\"http://www.newbreedsoftware.com/vectoroids/download/\">Link</a>",
+   "mature / inactive since 2002",
+   "arcade, inspired by Asteroids, remake",
+   "C - GPL-2.0"
   ],
   [
    "Vega Strike (<a href=\"http://vegastrike.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/vega_strike.md\">entry</a>)",
@@ -6745,12 +6937,76 @@
    "<a href=\"https://gitlab.com/veloren/veloren.git\">Source</a> - Rust - GPL-3.0"
   ],
   [
+   "Veraball (<a href=\"https://github.com/Veraball/veraball\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/veraball.md\">entry</a>)",
+   "Remake of Super Monkey Ball.",
+   "<a href=\"https://github.com/Veraball/veraball/releases\">Link</a>",
+   "beta / inactive since 2016",
+   "remake, inspired by Super Monkey Ball, open content",
+   "<a href=\"https://github.com/Veraball/veraball.git\">Source</a> - GDScript - MIT"
+  ],
+  [
+   "Violetland (<a href=\"http://violetland.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/violetland.md\">entry</a>)",
+   "Clone of Crimsonland.",
+   "<a href=\"https://github.com/ooxi/violetland/releases\">Link</a>",
+   "beta / active",
+   "remake, clone, inspired by Crimsonland, open content",
+   "<a href=\"https://github.com/ooxi/violetland.git\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
+   "Visual Pinball (<a href=\"https://sourceforge.net/projects/vpinball/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/visual_pinball.md\">entry</a>)",
+   "Clone of Visual Pinball.",
+   "<a href=\"https://sourceforge.net/projects/vpinball/files/\">Link</a>",
+   "mature / active",
+   "remake, clone, inspired by Visual Pinball",
+   "<a href=\"https://svn.code.sf.net/p/vpinball/code/\">Source</a> - C++ - MAME"
+  ],
+  [
+   "vkQuake (<a href=\"https://github.com/Novum/vkQuake\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/vkquake.md\">entry</a>)",
+   "Remake of Quake.",
+   "<a href=\"https://github.com/Novum/vkQuake/releases\">Link</a>",
+   "mature / active",
+   "remake, inspired by Quake",
+   "<a href=\"https://github.com/Novum/vkQuake.git\">Source</a> - C, C++ - GPL-2.0"
+  ],
+  [
+   "Vorton (<a href=\"http://vorton.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/vorton.md\">entry</a>)",
+   "Remake of Highway Encounter.",
+   "<a href=\"https://sourceforge.net/projects/vorton/files/\">Link</a>",
+   "beta / inactive since 2004",
+   "action, inspired by Highway Encounter, remake",
+   "C - GPL-3.0"
+  ],
+  [
+   "Voxelands (<a href=\"https://web.archive.org/web/20180616063819/http://www.voxelands.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/voxelands.md\">entry</a>)",
+   "Remake of Minecraft.",
+   "<a href=\"https://web.archive.org/web/20180305020950/https://www.voxelands.com/download.html\">Link</a>",
+   "beta / active",
+   "simulation, inspired by Minecraft, remake, sandbox, voxel",
+   "<a href=\"https://gitlab.com/voxelands/voxelands.git\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
+   "WallBall (<a href=\"http://montrose.is/#wallball\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/wallball.md\">entry</a>)",
+   "Clone of JezzBall.",
+   "",
+   "mature / active",
+   "simulation, clone, inspired by JezzBall, open content, skill",
+   "<a href=\"https://github.com/plainsightcollection/plainsightcollection.github.io.git\">Source</a> - Haxe, JavaScript - GPL-3.0"
+  ],
+  [
    "War Of Kingdom (<a href=\"http://www.freeors.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/war_of_kingdom.md\">entry</a>)",
    "Turn-based tactical strategy game.",
    "",
    "beta / active",
    "strategy",
    "<a href=\"https://github.com/freeors/War-Of-Kingdom.git\">Source</a> - C, C++ - GPL-2.0"
+  ],
+  [
+   "warcraft-remake (<a href=\"https://www.b3dgs.com/v7/page.php?lang=en&section=warcraft_remake\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/warcraft-remake.md\">entry</a>)",
+   "Remake of Warcraft: Orcs & Humans.",
+   "",
+   "beta / active",
+   "strategy, commercial content, inspired by Warcraft: Orcs & Humans, realtime, remake",
+   "<a href=\"https://github.com/b3dgs/warcraft-remake.git\">Source</a> - Java - GPL-2.0"
   ],
   [
    "Wargamer (<a href=\"https://sourceforge.net/projects/wargamer/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/wargamer.md\">entry</a>)",
@@ -6767,6 +7023,22 @@
    "mature / active",
    "strategy, inspired by Warcraft II, remake, requires original content",
    "<a href=\"https://github.com/Wargus/wargus.git\">Source</a> - C++, Lua - GPL-2.0"
+  ],
+  [
+   "Wario-Land-3 (<a href=\"https://github.com/Nearoo/Wario-Land-3\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/wario-land-3.md\">entry</a>)",
+   "Remake of Wario Land 3.",
+   "",
+   "beta / inactive since 2018",
+   "platform, inspired by Wario Land 3, remake",
+   "<a href=\"https://github.com/NSasquatch/Wario-Land-3.git\">Source</a> - Python - MIT"
+  ],
+  [
+   "WarMUX (<a href=\"https://web.archive.org/web/20170513192248/http://gna.org/projects/warmux/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/warmux.md\">entry</a>)",
+   "Clone of Worms Series.",
+   "",
+   "beta / inactive since XX",
+   "platform, artillery, clone, inspired by Worms Series",
+   "<a href=\"https://github.com/yeKcim/warmux.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Warzone 2100 (<a href=\"http://wz2100.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/warzone_2100.md\">entry</a>)",

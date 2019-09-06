@@ -28,6 +28,7 @@ http://icculus.org/tennix/
 http://icculus.org/toby/
 http://libsdl-android.sourceforge.net/
 http://linball.sourceforge.net/
+http://lukaszjakowski.pl/ (games apart from uMario)
 http://opentomb.github.io/
 http://psyco.sourceforge.net/
 http://pyopengl.sourceforge.net/
@@ -124,6 +125,7 @@ https://github.com/collections/tools-for-open-source (maybe we can apply some)
 https://github.com/collections/web-games (only OS)
 https://github.com/CompletelyFairGames/dwarfcorp
 https://github.com/Cortrah/SpaceOperaDesign, https://github.com/Cortrah/SpaceOperaRuby/blob/master/design/turnstyles.md
+https://github.com/cping/LGame
 https://github.com/cubei/FlappyCow
 https://github.com/cxong/cdogs-sdl
 https://github.com/cyberegoorg/cetech
@@ -276,6 +278,7 @@ https://www.bsframework.io/
 https://www.fandom.com/topics/games (look for media links, example https://creatures.fandom.com/wiki/Openc2e)
 https://www.fosshub.com/about.html
 https://www.freegamesutopia.com/
+https://www.libretro.com/
 https://www.moddb.com/mods/ (search for all)
 https://www.openhub.net/ (search for games)
 https://www.piston.rs/

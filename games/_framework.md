@@ -57,7 +57,7 @@
 - **[Superpowers](superpowers.md)** (TypeScript, ISC, mature)
 - **[Terasology](terasology.md)** (Java, Apache-2.0, mature)
 - **[Urho3D](urho3d.md)** (C++, AngelScript, MIT, mature)
-- **[VASSAL Engine](vassal_engine.md)** (Java, LGPL-2.1, mature)
+- **[VASSAL](vassal.md)** (Java, LGPL-2.1, mature)
 - **[Vega Strike](vega_strike.md)** (C++, GPL-2.0, mature)
 - **[WorldForge](worldforge.md)** (C++, GPL-2.0, mature)
 - **[xoreos](xoreos.md)** (C++, GPL-3.0, beta)

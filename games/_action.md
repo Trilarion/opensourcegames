@@ -169,5 +169,8 @@
 - **[X-Moto](x-moto.md)** (C++, GPL-2.0, mature, inactive since 2014)
 - **[xdigger](xdigger.md)** (C, GPL-2.0, mature, inactive since 1999)
 - **[Xonotic](xonotic.md)** (C, GPL-3.0, mature)
+- **[XPilot NG](xpilot_ng.md)** (C, GPL-2.0, mature, inactive since 2010)
 - **[XPilot](xpilot.md)** (C, GPL-2.0, mature, inactive since 2010)
+- **[Yamagi Quake II](yamagi_quake_ii.md)** (C, GPL-2.0, mature)
 - **[Yo Frankie!](yo_frankie.md)** (Blender Script, ?, mature, inactive since 2009)
+- **[Zatacka X](zatacka_x.md)** (C, GPL-3.0, beta)

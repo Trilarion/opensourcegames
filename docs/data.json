@@ -2497,6 +2497,14 @@
    "<a href=\"https://github.com/godotengine/godot.git\">Source</a> - C, C++ - MIT"
   ],
   [
+   "GoldenEye: Source (<a href=\"http://geshl2.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/goldeneye_source.md\">entry</a>)",
+   "Remake of GoldenEye 007.",
+   "",
+   "mature / inactive since 2018",
+   "remake, first-person, free content, inspired by GoldenEye 007, multiplayer Competitive + Online, shooter",
+   "<a href=\"https://github.com/goldeneye-source/ges-code.git\">Source</a> - C++, C - GPL-3.0"
+  ],
+  [
    "Golly (<a href=\"http://golly.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/golly.md\">entry</a>)",
    "Conway's Game of Life and many other types of cellular..",
    "<a href=\"https://sourceforge.net/projects/golly/files/\">Link</a>",
@@ -3687,6 +3695,14 @@
    "beta / active",
    "simulation, clone, inspired by Minecraft, open content, sandbox, voxel",
    "<a href=\"https://github.com/Hopson97/MineCraft-One-Week-Challenge.git\">Source</a> - C++ - MIT"
+  ],
+  [
+   "Minesweeper (in C) (<a href=\"https://github.com/brenns10/minesweeper\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/minesweeper_in_c.md\">entry</a>)",
+   "Remake of Minesweeper.",
+   "",
+   "beta / inactive since 2015",
+   "puzzle, inspired by Minesweeper, open content, remake, text",
+   "<a href=\"https://github.com/brenns10/minesweeper.git\">Source</a> - C - 3-clause BSD"
   ],
   [
    "Minesweeper.Zone (<a href=\"https://minesweeper.zone\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/minesweeperzone.md\">entry</a>)",
@@ -5705,6 +5721,14 @@
    "<a href=\"https://github.com/kantoks/skrupel.git\">Source</a> - PHP, JavaScript - GPL-2.0"
   ],
   [
+   "SLADE (<a href=\"http://slade.mancubus.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/slade.md\">entry</a>)",
+   "Tool of Doom.",
+   "<a href=\"http://slade.mancubus.net/index.php?page=downloads\">Link</a>",
+   "mature / active",
+   "tool, inspired by Doom, swappable content",
+   "<a href=\"https://github.com/sirjuddington/SLADE.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
    "SLASH'EM (<a href=\"http://www.slashem.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/slashem.md\">entry</a>)",
    "Variant of the roguelike game NetHack that offers extra..",
    "<a href=\"http://slashem.sourceforge.net/stable.html\">Link</a>",
@@ -6305,6 +6329,14 @@
    "<a href=\"https://github.com/Lisergishnu/TetraVex.git\">Source</a> - Swift - GPL-3.0"
   ],
   [
+   "Tetris (in C and NCURSES) (<a href=\"https://brennan.io/2015/06/12/tetris-reimplementation/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/tetris_in_c_and_ncurses.md\">entry</a>)",
+   "Remake of Tetris.",
+   "",
+   "mature / active",
+   "puzzle, inspired by Tetris, open content, remake",
+   "<a href=\"https://github.com/brenns10/tetris.git\">Source</a> - C - 3-clause BSD"
+  ],
+  [
    "The Battle for Wesnoth (<a href=\"https://www.wesnoth.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/the_battle_for_wesnoth.md\">entry</a>)",
    "The Battle for Wesnoth is an open source, turn-based..",
    "<a href=\"http://www.wesnoth.org/#download\">Link</a>",
@@ -6817,14 +6849,6 @@
    "<a href=\"https://gitlab.com/osgames/umbra.git\">Source</a> - Python - Custom"
   ],
   [
-   "Uncharted waters 2 remake (<a href=\"https://web.archive.org/web/20140504171546/http://jackyjjc.com/category/dk2-dev-journal/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/uncharted_waters_2_remake.md\">entry</a>)",
-   "Remake of Uncharted Waters.",
-   "",
-   "beta / inactive since 2012",
-   "simulation, inspired by Uncharted Waters, remake, role-playing",
-   "<a href=\"https://github.com/Jackyjjc/Uncharted-waters-2-remake.git\">Source</a> - Java - GPL-2.0"
-  ],
-  [
    "Underworld Adventures (<a href=\"http://uwadv.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/underworld_adventures.md\">entry</a>)",
    "Project to recreate Ultima Underworld 1 on modern..",
    "<a href=\"http://uwadv.sourceforge.net/index.php?page=download\">Link</a>",
@@ -6961,6 +6985,14 @@
    "<a href=\"https://svn.code.sf.net/p/vpinball/code/\">Source</a> - C++ - MAME"
   ],
   [
+   "vitetris (<a href=\"http://victornils.net/tetris/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/vitetris.md\">entry</a>)",
+   "Remake of Tetris.",
+   "<a href=\"http://victornils.net/tetris/#download\">Link</a>",
+   "beta / active",
+   "puzzle, inspired by Tetris, multiplayer Competitive + Online, open content, remake",
+   "<a href=\"https://github.com/vicgeralds/vitetris.git\">Source</a> - C - 2-clause BSD"
+  ],
+  [
    "vkQuake (<a href=\"https://github.com/Novum/vkQuake\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/vkquake.md\">entry</a>)",
    "Remake of Quake.",
    "<a href=\"https://github.com/Novum/vkQuake/releases\">Link</a>",
@@ -7065,6 +7097,14 @@
    "<a href=\"https://gitlab.com/osgames/watomic.git\">Source</a> - Pascal - GPL-2.0"
   ],
   [
+   "WebFun (<a href=\"https://github.com/cyco/WebFun\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/webfun.md\">entry</a>)",
+   "Remake of Star Wars: Yoda Stories.",
+   "",
+   "beta / active",
+   "adventure, commercial content, game engine, inspired by Star Wars: Yoda Stories, remake, requires original content",
+   "<a href=\"https://github.com/cyco/WebFun.git\">Source</a> - TypeScript - MIT"
+  ],
+  [
    "Widelands (<a href=\"https://wl.widelands.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/widelands.md\">entry</a>)",
    "Widelands is a free, open source real-time strategy game..",
    "<a href=\"https://wl.widelands.org/wiki/Download/\">Link</a>",
@@ -7081,12 +7121,36 @@
    "<a href=\"https://github.com/Cirrus-Minor/witchblast.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
+   "Wizardry Legacy (<a href=\"http://wl.lariennalibrary.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/wizardry_legacy.md\">entry</a>)",
+   "Remake of Wizardry.",
+   "<a href=\"http://wl.lariennalibrary.com/index.php?n=Main.Download\">Link</a>",
+   "beta / inactive since 2018",
+   "remake, inspired by Wizardry",
+   "<a href=\"https://gitlab.com/larienna/cppgame_wizardry.git\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
    "Wizards Magic (<a href=\"https://code.google.com/archive/p/wizards-magic/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/wizards_magic.md\">entry</a>)",
    "Simple card strategy, based on Magic: The Gathering rules.",
    "<a href=\"https://code.google.com/archive/p/wizards-magic/downloads\">Link</a>",
    "mature / inactive since 2012",
    "strategy, cards, remake",
    "<a href=\"https://github.com/chubakur/wizards-magic.git\">Source</a> - Python - GPL-2.0"
+  ],
+  [
+   "Wizznic! (<a href=\"http://wizznic.org\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/wizznic.md\">entry</a>)",
+   "Remake of Puzznic / Brix.",
+   "",
+   "beta / inactive since 2016",
+   "arcade, inspired by Puzznic / Brix, puzzle, remake",
+   "<a href=\"https://github.com/DusteDdk/Wizznic.git\">Source</a> - C - GPL-3.0"
+  ],
+  [
+   "wkbre (<a href=\"https://github.com/AdrienTD/wkbre\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/wkbre.md\">entry</a>)",
+   "Remake of Warrior Kings.",
+   "",
+   "beta / active",
+   "strategy, 3D, inspired by Warrior Kings, realtime, remake, requires original content",
+   "<a href=\"https://github.com/AdrienTD/wkbre.git\">Source</a> - C++, C - GPL-3.0"
   ],
   [
    "Wolfpack Empire (<a href=\"http://www.wolfpackempire.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/wolfpack_empire.md\">entry</a>)",
@@ -7129,6 +7193,14 @@
    "<a href=\"https://github.com/worldforge/cyphesis.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
+   "WWW (<a href=\"https://github.com/alexdantas/www\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/www.md\">entry</a>)",
+   "Clone of VVVVVV.",
+   "",
+   "beta / inactive since 2014",
+   "platform, 2D, clone, inspired by VVVVVV, puzzle",
+   "<a href=\"https://github.com/alexdantas/www.git\">Source</a> - JavaScript - GPL-3.0"
+  ],
+  [
    "wxWidgets (<a href=\"http://wxwidgets.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/wxwidgets.md\">entry</a>)",
    "C++ library that lets developers create applications for..",
    "<a href=\"http://wxwidgets.org/downloads/\">Link</a>",
@@ -7169,6 +7241,14 @@
    "<a href=\"https://gitlab.com/osgames/xarchon.git\">Source</a> - C, C++ - GPL-2.0"
   ],
   [
+   "xBaK (<a href=\"http://xbak.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/xbak.md\">entry</a>)",
+   "Remake of Betrayal at Krondor.",
+   "<a href=\"https://sourceforge.net/projects/xbak/files/xbak/\">Link</a>",
+   "beta / inactive since 2013",
+   "remake, commercial content, inspired by Betrayal at Krondor, requires original content",
+   "<a href=\"https://svn.code.sf.net/p/xbak/code/\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
    "Xconq (<a href=\"http://xconq.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/xconq.md\">entry</a>)",
    "General strategy game system.",
    "<a href=\"https://sourceforge.net/projects/xconq/files/\">Link</a>",
@@ -7185,6 +7265,14 @@
    "C - GPL-2.0"
   ],
   [
+   "xDuke (<a href=\"http://vision.gel.ulaval.ca/~klein/duke3d/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/xduke.md\">entry</a>)",
+   "Remake of Duke Nukem 3D.",
+   "<a href=\"http://vision.gel.ulaval.ca/~klein/duke3d/xDuke_19.7.1_Source_Code.rar\">Link</a>",
+   "beta / inactive since 2010",
+   "remake, commercial content, inspired by Duke Nukem 3D, multiplayer LAN + Online, requires original content",
+   "C - GPL-2.0"
+  ],
+  [
    "Xenowar (<a href=\"http://xenowar.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/xenowar.md\">entry</a>)",
    "Turned based strategy game for Win32 and Android OS..",
    "",
@@ -7193,12 +7281,28 @@
    "<a href=\"https://github.com/leethomason/unflobtactical.git\">Source</a> - C, C++ - GPL-3.0"
   ],
   [
+   "XMage (<a href=\"http://xmage.de/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/xmage.md\">entry</a>)",
+   "Clone of Magic: The Gathering Online.",
+   "<a href=\"https://github.com/magefree/mage/releases\">Link</a>",
+   "mature / active",
+   "strategy, cards, clone, inspired by Magic: The Gathering Online, multiplayer",
+   "<a href=\"https://github.com/magefree/mage.git\">Source</a> - Java - MIT"
+  ],
+  [
    "Xonotic (<a href=\"http://www.xonotic.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/xonotic.md\">entry</a>)",
    "Arena-style first person shooter.",
    "<a href=\"http://www.xonotic.org/download/\">Link</a>",
    "mature / active",
    "action, shooter",
    "<a href=\"https://gitlab.com/xonotic/xonotic.git\">Source</a> - C - GPL-3.0"
+  ],
+  [
+   "XorCurses (<a href=\"http://jwm-art.net/?p=XorCurses\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/xorcurses.md\">entry</a>)",
+   "Clone of XOR.",
+   "",
+   "beta / inactive since 2012",
+   "puzzle, clone, inspired by XOR",
+   "<a href=\"https://github.com/jwm-art-net/XorCurses.git\">Source</a> - C - GPL-3.0"
   ],
   [
    "xoreos (<a href=\"https://xoreos.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/xoreos.md\">entry</a>)",
@@ -7217,12 +7321,36 @@
    "<a href=\"https://gitlab.com/osgames/xpilot.git\">Source</a> - C - GPL-2.0"
   ],
   [
+   "XPilot NG (<a href=\"http://xpilot.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/xpilot_ng.md\">entry</a>)",
+   "Remake of XPilot.",
+   "<a href=\"https://sourceforge.net/projects/xpilot/files/xpilot_ng/\">Link</a>",
+   "mature / inactive since 2010",
+   "action, inspired by XPilot, remake, space",
+   "<a href=\"http://xpilot.cvs.sourceforge.net/\">Source</a> - C - GPL-2.0"
+  ],
+  [
+   "XScavenger (<a href=\"https://www.linuxmotors.com/scavenger/index.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/xscavenger.md\">entry</a>)",
+   "Remake of Lode Runner.",
+   "<a href=\"https://sourceforge.net/projects/sdlscavenger/files/\">Link</a>",
+   "mature / inactive since 2015",
+   "puzzle, 2D, inspired by Lode Runner, remake",
+   "C - GPL-2.0"
+  ],
+  [
    "XSera (<a href=\"https://github.com/prophile/xsera\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/xsera.md\">entry</a>)",
    "Top-down shooter / real-time strategy hybrid game based on..",
    "",
    "beta / inactive since 2010",
    "strategy, real time, shooter",
    "<a href=\"https://github.com/prophile/xsera.git\">Source</a> - C, Lua - MIT"
+  ],
+  [
+   "XSwing Plus (<a href=\"http://xswing.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/xswing_plus.md\">entry</a>)",
+   "Remake of Swing.",
+   "<a href=\"https://sourceforge.net/projects/xswingplus/files/\">Link</a>",
+   "beta / inactive since 2010",
+   "remake, inspired by Swing, skill",
+   "<a href=\"https://svn.code.sf.net/p/xswingplus/code/\">Source</a> - Java - GPL-3.0"
   ],
   [
    "xu4 (<a href=\"http://xu4.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/xu4.md\">entry</a>)",
@@ -7239,6 +7367,14 @@
    "mature / active",
    "library",
    "<a href=\"https://git.tukaani.org/xz.git\">Source</a> - C - Custom"
+  ],
+  [
+   "Yamagi Quake II (<a href=\"http://www.yamagi.org/quake2/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/yamagi_quake_ii.md\">entry</a>)",
+   "Remake of Quake 2.",
+   "",
+   "mature / active",
+   "action, inspired by Quake 2, remake, shooter",
+   "<a href=\"https://github.com/yquake2/yquake2.git\">Source</a> - C - GPL-2.0"
   ],
   [
    "yaml-cpp (<a href=\"https://github.com/jbeder/yaml-cpp\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/yaml-cpp.md\">entry</a>)",
@@ -7271,6 +7407,30 @@
    "mature / inactive since 2005",
    "role playing, roguelike",
    "<a href=\"https://gitlab.com/osgames/zangband.git\">Source</a> - C - Custom"
+  ],
+  [
+   "Zatacka X (<a href=\"https://github.com/simenheg/zatackax\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/zatacka_x.md\">entry</a>)",
+   "Remake of Achtung, die Kurve!.",
+   "",
+   "beta / active",
+   "action, die Kurve!, inspired by Achtung, remake",
+   "<a href=\"https://github.com/simenheg/zatackax.git\">Source</a> - C - GPL-3.0"
+  ],
+  [
+   "Zaz (<a href=\"http://zaz.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/zaz.md\">entry</a>)",
+   "Remake of Zuma.",
+   "<a href=\"http://zaz.sourceforge.net/index.php?page=3\">Link</a>",
+   "beta / inactive since 2010",
+   "puzzle, inspired by Zuma, remake",
+   "<a href=\"https://svn.code.sf.net/p/zaz/code/\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
+   "ZDoom (<a href=\"http://zdoom.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/zdoom.md\">entry</a>)",
+   "Remake of Doom, Doom II, Heretic, Hexen.",
+   "<a href=\"https://zdoom.org/downloads\">Link</a>",
+   "mature / active",
+   "remake, commercial content, first-person, inspired by Doom + Doom II + Heretic + Hexen, requires original content, shooter",
+   "<a href=\"https://github.com/coelckers/gzdoom.git\">Source</a> - C, C++, ZenScript - GPL-3.0"
   ],
   [
    "Zelda: Mystery of Solarus DX (<a href=\"https://github.com/solarus-games/zsdx\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/zelda_mystery_of_solarus_dx.md\">entry</a>)",
@@ -7321,12 +7481,28 @@
    "<a href=\"https://github.com/madler/zlib.git\">Source</a> - C - zlib"
   ],
   [
+   "Zod Engine (<a href=\"http://zod.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/zod_engine.md\">entry</a>)",
+   "Remake of Z.",
+   "<a href=\"https://sourceforge.net/projects/zod/files/\">Link</a>",
+   "mature / inactive since 2018",
+   "strategy, commercial content, game engine, inspired by Z, realtime, remake, requires original content",
+   "<a href=\"http://hg.code.sf.net/p/zod/zod_engine\">Source</a> - C++ - ?"
+  ],
+  [
    "Zone of Control (<a href=\"https://github.com/ozkriff/zoc\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/zone_of_control.md\">entry</a>)",
    "Turn-based hexagonal strategy game written in Rust.",
    "<a href=\"https://github.com/ozkriff/zoc/releases\">Link</a>",
    "beta / inactive since 2017",
    "strategy, turn-based",
    "<a href=\"https://github.com/ozkriff/zoc.git\">Source</a> - Rust - Apache-2.0"
+  ],
+  [
+   "zorkClone (<a href=\"https://github.com/vatbub/zorkClone\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/zorkclone.md\">entry</a>)",
+   "Remake of Zork.",
+   "",
+   "beta / active",
+   "adventure, inspired by Zork, remake, text-based",
+   "<a href=\"https://github.com/vatbub/zorkClone.git\">Source</a> - Java - Apache-2.0"
   ]
  ]
 }

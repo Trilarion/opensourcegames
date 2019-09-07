@@ -16,4 +16,5 @@
 - **[Rolemaster Office](rolemaster_office.md)** (Java, Apache-2.0, mature)
 - **[Rolisteam](rolisteam.md)** (C++, JavaScript, GPL-2.0, mature)
 - **[RPDungeon - computer aided role playing](rpdungeon-computer_aided_role_playing.md)** (Pascal, GPL-2.0, beta, inactive since 2006)
+- **[SLADE](slade.md)** (C++, GPL-2.0, mature)
 - **[World Builder](world_builder.md)** (Visual Basic, GPL-2.0, mature, inactive since 2007)

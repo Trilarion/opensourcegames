@@ -49,3 +49,4 @@
 - **[Thrust](thrust.md)** (C, GPL-2.0, beta, inactive since 2006)
 - **[Tux Football](tux_football.md)** (C++, GPL-2.0, beta, inactive since 2012)
 - **[Vectoroids](vectoroids.md)** (C, GPL-2.0, mature, inactive since 2002)
+- **[Wizznic!](wizznic.md)** (C, GPL-3.0, beta, inactive since 2016)

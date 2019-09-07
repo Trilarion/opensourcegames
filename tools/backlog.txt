@@ -132,6 +132,7 @@ https://github.com/cyberegoorg/cetech
 https://github.com/DaemonEngine/Daemon
 https://github.com/Dariasteam/TowerJumper
 https://github.com/demonixis/C3DE
+https://github.com/digitall/scummvm-deskadv
 https://github.com/discosultan/penumbra
 https://github.com/enriquesomolinos/DreeRally
 https://github.com/eprikazchikov/thunder
@@ -153,6 +154,7 @@ https://github.com/GlPortal/glPortal
 https://github.com/GunshipPenguin/open_flood
 https://github.com/hedgewars/hw
 https://github.com/hparcells/cards-against-humanity
+https://github.com/IceReaper/DesktopAdventuresToolkit
 https://github.com/Interkarma/daggerfall-unity
 https://github.com/Interrupt/delverengine
 https://github.com/iortcw/iortcw
@@ -197,6 +199,7 @@ https://github.com/rpgboss/rpgboss
 https://github.com/rwengine/openrw
 https://github.com/saniv/free-game-art/blob/master/foss-copyright-infringement-records.md
 https://github.com/search?p=1&q=sunrider&type=Repositories, sunrider
+https://github.com/shinyquagsire23/DesktopAdventures
 https://github.com/sirjuddington/SLADE
 https://github.com/smcameron/space-nerds-in-space
 https://github.com/SneakyTactician/MagicalLife

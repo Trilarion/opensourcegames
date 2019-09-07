@@ -1,3 +1,4 @@
 Star-Wars-III: convert to JavaScript
 Trackballs: adapt to Windows
 TUSSLE: Maybe some characters can be included by default
+Unchartered Waters: Was removed, but sounds interesting. https://koei.fandom.com/wiki/Uncharted_Waters:_New_Horizons

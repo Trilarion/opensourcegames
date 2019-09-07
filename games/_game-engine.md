@@ -39,3 +39,5 @@
 - **[TwinEngine](twinengine.md)** (C, GPL-2.0, mature, inactive since 2015)
 - **[urde](urde.md)** (C, C++, MIT, beta)
 - **[VASSAL](vassal.md)** (Java, LGPL-2.1, mature)
+- **[WebFun](webfun.md)** (TypeScript, MIT, beta)
+- **[Zod Engine](zod_engine.md)** (C++, ?, mature, inactive since 2018)

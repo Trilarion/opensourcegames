@@ -64,7 +64,11 @@ Super Mario Bros With SFML in C# (https://mario.codeplex.com/, https://mario.cod
 Sworsorc (https://svn.code.sf.net/p/alteraterra/code/): Proprietary license (copyright headers in files)
 thromolusng (https://github.com/segfaulthunter/thromolusng.git): Very early development, not playable, no build instructions, abandoned since 2010
 Tranzam (http://retrospec.sgn.net/game/tranzam, http://retrospec.sgn.net/download/files/TranzAm.1.1.zip): see other retrospec.sgn.net entries, license unclear, probably not open source as we want it
+Uncharted waters 2 remake (https://github.com/Jackyjjc/Uncharted-waters-2-remake.git, https://web.archive.org/web/20140504171546/http://jackyjjc.com/category/dk2-dev-journal/): Source got lost
 VegaTrek (https://sourceforge.net/projects/vegatrek/, https://svn.code.sf.net/p/vegatrek/code/): Unclear licensing, copyright of assets questionable
 Visions from the Other Side (http://www.insani.org/mukou.html): Source not available
 Voxelstein 3D (http://voxelstein3d.sourceforge.net/): Very early development
 WarGame (https://archive.codeplex.com/?p=wargame): Unclear license, could not contact authors
+XQuest 2 (http://www.swallowtail.org/xquest/, http://www.swallowtail.org/xquest/xquest_1.3_src.tar.gz): License is not really open source (see LICENSE.DOC in https://web.archive.org/web/20170320015957/http://www.swallowtail.org/xquest/xquest_1.3_src.tar.gz)
+xrick (http://www.bigorno.net/xrick): No open source license/unclear license (see file README in http://www.bigorno.net/xrick/xrick-021212.zip)
+zedragon (https://github.com/charlierobson/zedragon.git): License not found, Assembly, not sure which OS is supported, no release, not much guidance

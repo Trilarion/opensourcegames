@@ -109,8 +109,8 @@ def check_validity_external_links():
     print("check external links (can take a while)")
 
     # regex for finding urls (can be in <> or in ]() or after a whitespace
-    #regex = re.compile(r"[\s\n]<(http.+?)>|\]\((http.+?)\)|[\s\n](http[^\s\n,]+?)[\s\n\)]")
-    regex = re.compile(r"[\s\n<(](http://.*?)[\s\n>)]")
+    regex = re.compile(r"[\s\n]<(http.+?)>|\]\((http.+?)\)|[\s\n](http[^\s\n,]+?)[\s\n\)]")
+    # regex = re.compile(r"[\s\n<(](http://.*?)[\s\n>)]")
 
     # count
     number_checked_links = 0
@@ -177,6 +177,8 @@ def fix_entries():
     """
     Fixes the keywords, code dependencies, build systems, .. entries, mostly by automatically sorting them.
     """
+
+    keyword_synonyms = {'RTS': ('real time', 'strategy'), 'realtime': 'real time'}
 
     # TODO also sort other fields, only read once and then do all, move to separate file
 
@@ -398,6 +400,8 @@ def update_statistics(infos):
     for info in infos:
         if field in info:
             keywords.extend(info[field])
+    # ignore those starting with "inspired by"
+    keywords = [x for x in keywords if not x.startswith('inspired by ')]
 
     unique_keywords = set(keywords)
     unique_keywords = [(l, keywords.count(l) / len(keywords)) for l in unique_keywords]
@@ -743,12 +747,44 @@ def sort_text_file(file, name):
     text = '\n'.join(text)
     write_text(file, text)
 
+def strip_url(url):
+    for prefix in ('http://', 'https://'):
+        if url.startswith(prefix):
+            url = url[len(prefix):]
+    for suffix in ('/', '.git'):
+        if url.endswith(suffix):
+            url = url[:-len(suffix)]
+    return url
+
+def clean_backlog(stripped_game_urls):
+
+    # read backlog and split
+    file = os.path.join(root_path, 'tools', 'backlog.txt')
+    text = read_text(file)
+    text = text.split('\n')
+
+    # remove those that are in stripped_game_urls
+    text = [x for x in text if strip_url(x) not in stripped_game_urls]
+
+    # remove duplicates and sort
+    text = sorted(list(set(text)), key=str.casefold)
+    print('backlog contains {} items'.format(len(text)))
+
+    # join and save again
+    text = '\n'.join(text)
+    write_text(file, text)
 
 if __name__ == "__main__":
 
     # paths
     root_path  = os.path.realpath(os.path.join(os.path.dirname(__file__), os.path.pardir))
     games_path = os.path.join(root_path, 'games')
+
+    # backlog
+    game_urls = extract_links(games_path)
+    stripped_game_urls = [strip_url(x) for x in game_urls]
+    clean_backlog(stripped_game_urls)
+
 
     # check for unfilled template lines
     check_template_leftovers()
@@ -778,5 +814,5 @@ if __name__ == "__main__":
     # check_validity_external_links()
 
     # sort backlog and rejected
-    sort_text_file(os.path.join(root_path, 'tools', 'backlog.txt'), 'backlog')
+    # sort_text_file(os.path.join(root_path, 'tools', 'backlog.txt'), 'backlog')
     sort_text_file(os.path.join(root_path, 'tools', 'rejected.txt'), 'rejected games list')

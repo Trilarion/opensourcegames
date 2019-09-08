@@ -224,3 +224,30 @@ def assemble_infos(games_path):
         infos.append(info)
 
     return infos
+
+def extract_links(games_path):
+    """
+    Parses all entries and extracts http(s) links from them
+    """
+
+    # regex for finding urls (can be in <> or in ]() or after a whitespace
+    regex = re.compile(r"[\s\n]<(http.+?)>|\]\((http.+?)\)|[\s\n](http[^\s\n,]+?)[\s\n,]")
+
+    # iterate over all entries
+    urls = set()
+    for _, _, content in entry_iterator(games_path):
+
+        # apply regex
+        matches = regex.findall(content)
+
+        # for each match
+        for match in matches:
+
+            # for each possible clause
+            for url in match:
+
+                # if there was something (and not a sourceforge git url)
+                if url:
+                    urls.add(url)
+    urls = sorted(list(urls), key=str.casefold)
+    return urls

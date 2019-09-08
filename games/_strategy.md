@@ -40,6 +40,7 @@
 - **[CorsixTH](corsixth.md)** (Lua, C++, MIT, mature)
 - **[Crimson Fields](crimson_fields.md)** (C++, GPL-2.0, mature, inactive since 2010)
 - **[Crown and Cutlass](crown_and_cutlass.md)** (C++, Custom, beta, inactive since 2009)
+- **[Curse of War](curse_of_war.md)** (C, C++, GPL-3.0, mature, inactive since 2014)
 - **[Dark Destiny](dark_destiny.md)** (Java, JavaScript, GPL, mature, inactive since 2016)
 - **[Dark Oberon](dark_oberon.md)** (C++, GPL-2.0, mature, inactive since 2009)
 - **[Devana](devana.md)** (PHP, zlib, beta)

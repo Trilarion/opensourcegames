@@ -3,6 +3,7 @@
 
 - **[Andor's Trail](andors_trail.md)** (Java, GPL-2.0, beta)
 - **[Angband](angband.md)** (C, GPL-2.0, mature)
+- **[Angry Birds in Python](angry_birds_in_python.md)** (Python, MIT, mature, inactive since 2017)
 - **[Ardentryst](ardentryst.md)** (Python, GPL-3.0, mature, inactive since 2009)
 - **[Argentum Online](argentum_online.md)** (Visual Basic, GPL-2.0, beta, inactive since 2014)
 - **[Arx Libertatis](arx_libertatis.md)** (C++, GPL-3.0, mature)
@@ -91,6 +92,7 @@
 - **[Open RSC](open_rsc.md)** (Java, GPL-3.0, mature)
 - **[Open Tibia](open_tibia.md)** (C++, GPL-2.0, beta, inactive since 2014)
 - **[Openglad](openglad.md)** (C++, GPL-2.0, mature, inactive since 2004)
+- **[OpenGothic](opengothic.md)** (C++, MIT, beta)
 - **[OpenMW](openmw.md)** (C++, GPL-3.0, mature)
 - **[ORIENT](orient.md)** (C#, Java, GPL-2.0, mature, inactive since 2009)
 - **[Other-Life](other-life.md)** (C, C++, Custom, beta)

@@ -177,6 +177,14 @@
    "<a href=\"https://github.com/angband/angband.git\">Source</a> - C - GPL-2.0"
   ],
   [
+   "Angry Birds in Python (<a href=\"https://github.com/estevaofon/angry-birds-python\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/angry_birds_in_python.md\">entry</a>)",
+   "Angry Birds game.",
+   "",
+   "mature / inactive since 2017",
+   "role playing, skill",
+   "<a href=\"https://github.com/estevaofon/angry-birds-python.git\">Source</a> - Python - MIT"
+  ],
+  [
    "Annchienta (<a href=\"http://annchienta.sourceforge.net/?page=home\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/annchienta.md\">entry</a>)",
    "A 2D game engine.",
    "<a href=\"https://sourceforge.net/projects/annchienta/files/annchienta/current/\">Link</a>",
@@ -382,7 +390,7 @@
    "",
    "mature / active",
    "action, artillery, inspired by Ballerburg",
-   "<a href=\"https://git.tuxfamily.org/baller/baller.git\">Source</a> - C - GPL3"
+   "<a href=\"https://git.tuxfamily.org/baller/baller.git\">Source</a> - C - GPL-3.0"
   ],
   [
    "Barony (<a href=\"http://www.baronygame.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/barony.md\">entry</a>)",
@@ -1169,6 +1177,14 @@
    "<a href=\"https://github.com/cubosphere/cubosphere-code.git\">Source</a> - C, C++ - GPL-3.0"
   ],
   [
+   "Curse of War (<a href=\"http://a-nikolaev.github.io/curseofwar/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/curse_of_war.md\">entry</a>)",
+   "Fast-paced action strategy game.",
+   "<a href=\"https://github.com/a-nikolaev/curseofwar/releases\">Link</a>",
+   "mature / inactive since 2014",
+   "strategy, real time",
+   "<a href=\"https://github.com/a-nikolaev/curseofwar.git\">Source</a> - C, C++ - GPL-3.0"
+  ],
+  [
    "Cytadela (<a href=\"http://cytadela.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/cytadela.md\">entry</a>)",
    "Remake of Cytadela, an Amiga first person shooter from..",
    "<a href=\"https://sourceforge.net/projects/cytadela/files/\">Link</a>",
@@ -1398,7 +1414,7 @@
    "",
    "beta / active",
    "action, commercial content, inspired by Diablo, remake, requires original content",
-   "<a href=\"https://github.com/dgengin/DGEngine.git\">Source</a> - C++ - Zlib"
+   "<a href=\"https://github.com/dgengin/DGEngine.git\">Source</a> - C++ - zlib"
   ],
   [
    "dhewm3 (<a href=\"https://dhewm3.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/dhewm3.md\">entry</a>)",
@@ -3377,6 +3393,14 @@
    "<a href=\"https://github.com/hackcraft-de/linwarrior.git\">Source</a> - C++ - Apache-2.0"
   ],
   [
+   "LionEngine (<a href=\"https://lionengine.b3dgs.com\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/lionengine.md\">entry</a>)",
+   "Designed for 2D Platform, Strategy and Shoot'em Up games.",
+   "<a href=\"https://lionengine.b3dgs.com/v9-0/page.php?lang=en&section=downloads\">Link</a>",
+   "mature / active",
+   "action, game engine",
+   "<a href=\"https://github.com/b3dgs/lionengine.git\">Source</a> - Java - GPL-3.0"
+  ],
+  [
    "Lionheart Remake (<a href=\"https://www.b3dgs.com/v7/page.php?lang=en&section=lionheart_remake\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/lionheart_remake.md\">entry</a>)",
    "Remake of Lionheart.",
    "",
@@ -4245,7 +4269,7 @@
    "Remake of Age of Empires, Age of Empires II, Star Wars:..",
    "",
    "beta / active",
-   "strategy, commercial content, game engine, inspired by Age of Empires + Age of Empires II + Star Wars: Galactic Battlegrounds, realtime, remake, requires original content",
+   "strategy, commercial content, game engine, inspired by Age of Empires + Age of Empires II + Star Wars: Galactic Battlegrounds, real time, remake, requires original content",
    "<a href=\"https://github.com/SFTtech/openage.git\">Source</a> - C++, Python - GPL-3.0"
   ],
   [
@@ -4341,7 +4365,7 @@
    "Clone of Dungeon Keeper.",
    "<a href=\"http://opendungeons.github.io/downloads.html\">Link</a>",
    "beta / active",
-   "strategy, clone, inspired by Dungeon Keeper, realtime",
+   "strategy, clone, inspired by Dungeon Keeper, real time",
    "<a href=\"https://github.com/OpenDungeons/OpenDungeons.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
@@ -4391,6 +4415,14 @@
    "mature / inactive since 2004",
    "role playing, inspired by Gladiator, remake",
    "<a href=\"https://git.code.sf.net/p/snowstorm/git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "OpenGothic (<a href=\"https://github.com/Try/OpenGothic\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/opengothic.md\">entry</a>)",
+   "Engine remake of Gothic 2: Night of the raven.",
+   "<a href=\"https://github.com/Try/OpenGothic/releases\">Link</a>",
+   "beta / active",
+   "role playing, commercial content, game engine, inspired by Gothic 2: Night of the raven, remake, requires original content",
+   "<a href=\"https://github.com/Try/OpenGothic.git\">Source</a> - C++ - MIT"
   ],
   [
    "OpenHoMM (<a href=\"https://launchpad.net/openhomm\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/openhomm.md\">entry</a>)",
@@ -4481,6 +4513,14 @@
    "<a href=\"http://openmortal.cvs.sourceforge.net\">Source</a> - C++ - GPL-2.0"
   ],
   [
+   "openMSX (<a href=\"http://openmsx.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/openmsx.md\">entry</a>)",
+   "MSX emulator.",
+   "<a href=\"https://github.com/openMSX/openMSX/releases\">Link</a>",
+   "mature / active",
+   "action, emulator",
+   "<a href=\"https://github.com/openMSX/openMSX.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
    "OpenMW (<a href=\"http://openmw.org/en/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/openmw.md\">entry</a>)",
    "Unofficial open source engine reimplementation of the game..",
    "<a href=\"https://openmw.org/downloads/\">Link</a>",
@@ -4553,11 +4593,19 @@
    "<a href=\"https://gitlab.com/osgames/openrpg.git\">Source</a> - Python - GPL-2.0"
   ],
   [
+   "OpenRW (<a href=\"https://openrw.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/openrw.md\">entry</a>)",
+   "Un-official recreation of the classic Grand Theft Auto III..",
+   "",
+   "beta / active",
+   "action, commercial content, game engine, inspired by Grand Theft Auto III, remake, requires original content",
+   "<a href=\"https://github.com/rwengine/openrw.git\">Source</a> - C, C++ - GPL-3.0"
+  ],
+  [
    "OpenSAGE (<a href=\"https://opensage.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/opensage.md\">entry</a>)",
    "Clone of Command & Conquer: Generals.",
    "<a href=\"https://github.com/OpenSAGE/OpenSAGE/releases\">Link</a>",
    "beta / active",
-   "strategy, clone, commercial content, game engine, inspired by Command & Conquer: Generals, realtime, requires original content",
+   "strategy, clone, commercial content, game engine, inspired by Command & Conquer: Generals, real time, requires original content",
    "<a href=\"https://github.com/OpenSAGE/OpenSAGE.git\">Source</a> - C# - LGPL-3.0"
   ],
   [
@@ -5277,7 +5325,7 @@
    "Remake of Rescue!.",
    "<a href=\"https://sourceforge.net/projects/rescue/files/\">Link</a>",
    "beta / inactive since 2013",
-   "action, inspired by Rescue!, realtime, remake, space, strategy",
+   "action, inspired by Rescue!, real time, remake, space, strategy",
    "<a href=\"http://svn.code.sf.net/p/rescue/code/\">Source</a> - Java - GPL-2.0"
   ],
   [

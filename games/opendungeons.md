@@ -7,7 +7,7 @@ _Clone of Dungeon Keeper._
 - State: beta
 - Download: http://opendungeons.github.io/downloads.html
 - Platform: Windows, Linux
-- Keywords: strategy, clone, inspired by Dungeon Keeper, realtime
+- Keywords: strategy, clone, inspired by Dungeon Keeper, real time
 - Code repository: https://github.com/OpenDungeons/OpenDungeons.git
 - Code language: C++
 - Code license: GPL-3.0

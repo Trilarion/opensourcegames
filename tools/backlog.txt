@@ -94,6 +94,7 @@ https://github.com/apsillers/Taggem
 https://github.com/arianne/stendhal
 https://github.com/ArmageddonGames/ZeldaClassic
 https://github.com/assaultcube (https://sourceforge.net/projects/actiongame/)
+https://github.com/bitcraft/pyscroll
 https://github.com/bitcraft/PyTMX
 https://github.com/BobbyBao/SharpGame
 https://github.com/ByoxCode/DrawView
@@ -180,6 +181,7 @@ https://github.com/TalonBraveInfo/OpenHoW
 https://github.com/team-eternity/eternity
 https://github.com/the-insulines
 https://github.com/theaigames
+https://github.com/Tinob/Ishiiruka (https://github.com/shiiion/Ishiiruka, https://github.com/SirMangler/PrimeHack-Updater)
 https://github.com/tonihele/OpenKeeper
 https://github.com/tpcstld/2048
 https://github.com/unknown-horizons/godot-port
@@ -189,7 +191,6 @@ https://github.com/Vocaluxe/Vocaluxe
 https://github.com/Wargus/stratagus
 https://github.com/wesnoth/haldric
 https://github.com/xyzz/openmw-android
-https://github.com/yairm210/UnCiv
 https://github.com/yiotro/Antiyoy
 https://gitlab.com/LibreGames
 https://gitlab.com/vgstation/vgstation-old (and vgstation in general)

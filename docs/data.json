@@ -5782,7 +5782,7 @@
    "<a href=\"http://slashem.sourceforge.net/stable.html\">Link</a>",
    "beta / inactive since 2007",
    "role playing, clone, inspired by NetHack, roguelike",
-   "<a href=\"https://github.com/farmboy0/slashem.git\">Source</a> - C - Custom"
+   "<a href=\"https://github.com/osgamearchive/slashem.git\">Source</a> - C - Custom"
   ],
   [
    "Slay (<a href=\"https://sourceforge.net/projects/slaygame/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/slay.md\">entry</a>)",
@@ -6895,6 +6895,14 @@
    "beta / inactive since 2002",
    "role playing",
    "<a href=\"https://gitlab.com/osgames/umbra.git\">Source</a> - Python - Custom"
+  ],
+  [
+   "UnCiv (<a href=\"https://github.com/yairm210/UnCiv\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/unciv.md\">entry</a>)",
+   "Civ V for Android",
+   "",
+   "beta / active",
+   "strategy, inspired by Civilization V, remake, turn-based",
+   "<a href=\"https://github.com/yairm210/UnCiv.git\">Source</a> - Kotlin - MPL-2.0"
   ],
   [
    "Underworld Adventures (<a href=\"http://uwadv.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/underworld_adventures.md\">entry</a>)",

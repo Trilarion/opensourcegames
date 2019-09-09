@@ -26,11 +26,14 @@ def entry_iterator(games_path):
 
     # get all entries (ignore everything starting with underscore)
     entries = os.listdir(games_path)
-    entries = (x for x in entries if not x.startswith('_'))
 
     # iterate over all entries
     for entry in entries:
         entry_path = os.path.join(games_path, entry)
+
+        # ignore directories ("tocs" for example)
+        if os.path.isdir(entry_path):
+            continue
 
         # read entry
         content = read_text(entry_path)

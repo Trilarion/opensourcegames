@@ -285,7 +285,7 @@
 - **[OpenTTD](../openttd.md)** (C++, GPL-2.0, mature)
 - **[OpenTyrian](../opentyrian.md)** (C, GPL-2.0, beta, inactive since 2018)
 - **[OpenXcom](../openxcom.md)** (C++, GPL-3.0, mature)
-- **[OpMon](../opmon.md)** (C++, GPL-3.0, beta)
+- **[OPMon](../opmon.md)** (C++, GPL-3.0, beta)
 - **[Orbium](../orbium.md)** (JavaScript, GPL-2.0, mature, inactive since 2018)
 - **[orona](../orona.md)** (CoffeeScript, GPL-2.0, beta, inactive since 2012)
 - **[Ostrich Riders](../ostrich_riders.md)** (C++, GPL-3.0, beta)

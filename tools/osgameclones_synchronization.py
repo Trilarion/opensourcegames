@@ -124,7 +124,7 @@ if __name__ == "__main__":
     osgc_fields = set()
     for osgc_entry in osgc_entries:
         osgc_fields.update(osgc_entry.keys())
-    print('osgc-fields: {}'.format(osgc_fields))
+    print('unique osgc-fields: {}'.format(osgc_fields))
 
     # which fields are mandatory
     for osgc_entry in osgc_entries:
@@ -391,7 +391,7 @@ if __name__ == "__main__":
             entry += '\n## Building\n'
 
             # finally write to file
-            write_text(target_file, entry)
+            # write_text(target_file, entry)
             newly_created_entries += 1
 
 

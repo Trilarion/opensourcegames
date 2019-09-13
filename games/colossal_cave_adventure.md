@@ -2,15 +2,19 @@
 
 _Original Colossal Caves adventure game, but in Python 3._
 
-- Home: https://github.com/brandon-rhodes/python-adventure
+- Home: http://rickadams.org/adventure/, https://github.com/brandon-rhodes/python-adventure
 - Media: https://en.wikipedia.org/wiki/Colossal_Cave_Adventure
 - State: mature
-- Keywords: adventure, console
+- Keywords: adventure, text
 - Code repository: https://github.com/brandon-rhodes/python-adventure.git
 - Code language: Python
 - Code license: Apache-2.0
 
+More repositories?
+
+Developer: William Crowther, Don Woods; C port by Jim Gilloghy
+
 ## Building
 
-setup.py
+- Build system: setup.py
 

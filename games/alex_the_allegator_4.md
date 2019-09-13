@@ -1,0 +1,20 @@
+# Alex the Allegator 4
+
+_Retro-style platformer._
+
+- Home: http://allegator.sourceforge.net/, https://sourceforge.net/projects/allegator/
+- State: mature, inactive since 2003
+- Download: https://sourceforge.net/projects/allegator/files/
+- Platform: Windows, Linux, macOS
+- Keywords: platform, open content
+- Code repository: https://git.code.sf.net/p/allegator/alex4
+- Code language: C
+- Code license: GPL-2.0
+- Code dependencies: Allegro
+- Assets license: GPL-2.0
+
+Developer: Johan Peitz, Anders Svensson
+
+## Building
+
+- Build system: Make

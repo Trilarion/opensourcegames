@@ -2,8 +2,14 @@
 Aeron (https://sourceforge.net/projects/aeron/, https://svn.code.sf.net/p/aeron/code/): Very early development
 Age of Magic (https://sourceforge.net/projects/ageofmagic/, https://svn.code.sf.net/p/ageofmagic/code/): Only supports outdated Hardware (Symbian)
 Altera Terra (https://sourceforge.net/projects/alteraterra/, https://svn.code.sf.net/p/alteraterra/code/): Early development stage, no clear license information
+Antigravitaattori (http://www.luolamies.org/software/antigrav/, https://packages.debian.org/stable/games/antigravitaattori): Very early development
+Arena of Honour (https://sourceforge.net/projects/aoh/): No clear license with the sources, no license of the assets, early development (alpha), abandoned
+Arkhart (http://gna.org/projects/arkhart/, http://arkhart.nekeme.net/): Sources lost (gna.org)
 Arthur's Knights (http://ainenn.org/KingArthur/, https://sourceforge.net/projects/king-arthur/): Unclear license, author could not be contacted
 Atral Clades (https://sourceforge.net/projects/astralclades/, https://svn.code.sf.net/p/astralclades/code/): No clear license information
+Balazar III (https://web.archive.org/web/20180521213818/http://www.lesfleursdunormal.fr/static/informatique/old/balazar_iii/index_en.html, http://gna.org/svn/?group=balazar): Early development, sources lost (gna.org) - a pity, was fine otherwise
+Balder3D (): Very early development, Balder2D instead
+Barbie Seahorse Adventures (http://www.imitationpickles.org/barbie/, https://pyweek.org/e/toba4/): Source is all rights reserved (source in svn has license allegedly, but it lost)
 Begin2 (https://sourceforge.net/projects/begin2/, https://svn.code.sf.net/p/begin2/code/): No source available
 Camelia Girls (https://web.archive.org/web/20140523011334/http://pigux.com:80/cameliagirls/): Sources not available
 Cycle (https://sourceforge.net/projects/meegocycle/): Proprietary license (freeware, source available)

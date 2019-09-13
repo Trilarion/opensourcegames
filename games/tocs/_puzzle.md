@@ -2,10 +2,17 @@
 # Puzzle
 
 - **[2048](../2048.md)** (JavaScript, MIT, mature)
+- **[2H4U](../2h4u.md)** (C++, GPL-2.0, mature, inactive since 2007)
+- **[3Dc](../3dc.md)** (C, GPL-2.0, mature, inactive since 2000)
+- **[4D Maze Game](../4d_maze_game.md)** (Java, Public domain, mature, inactive since 2008)
 - **[4D-TRIS](../4d-tris.md)** (C, GPL-2.0, mature, inactive since 2012)
+- **[54321](../54321.md)** (C++, Custom, mature, inactive since 2001)
+- **[Anagramarama](../anagramarama.md)** (C, GPL-2.0, beta, inactive since 2002)
 - **[aquastax](../aquastax.md)** (JavaScript, MIT, beta)
 - **[Atomiks](../atomiks.md)** (C, GPL-3.0, mature, inactive since 2015)
 - **[Atomix](../atomix.md)** (C, GPL-2.0, mature)
+- **[Bastet](../bastet.md)** (C++, GPL-2.0, beta, inactive since 2018)
+- **[Between](../between.md)** (PHP, C++, ?, beta, inactive since 2010)
 - **[Biniax](../biniax.md)** (C, zlib, mature, inactive since 2012)
 - **[Block Attack - Rise of the Blocks](../block_attack-rise_of_the_blocks.md)** (C++, GPL-2.0, mature)
 - **[BlockOut II](../blockout_ii.md)** (C++, GPL-2.0, mature, inactive since 2014)

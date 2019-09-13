@@ -9,7 +9,7 @@ heXon
 holyspirit/lechemindeladam cvs conversion?
 http://antongerdelan.net/blog/ (other projects besides TestDrive)
 http://directpython.sourceforge.net/
-http://icculus.org/airstrike/
+http://hcsoftware.sourceforge.net/jason-rohrer/ (various games there)
 http://icculus.org/asciiroth/
 http://icculus.org/avp/
 http://icculus.org/bitstream/
@@ -26,15 +26,20 @@ http://icculus.org/toby/
 http://libsdl-android.sourceforge.net/
 http://linball.sourceforge.net/
 http://lukaszjakowski.pl/ (games apart from uMario)
+http://noiz2sa.sourceforge.net/
+http://parsec47.sourceforge.net/
 http://psyco.sourceforge.net/
 http://pyopengl.sourceforge.net/
 http://retrospec.sgn.net
+http://rrootage.sourceforge.net/
 http://sam.zoy.org/monsterz/
 http://stratagus.sourceforge.net/
+http://tumiki.sourceforge.net/
 http://vamos.sourceforge.net/
 http://www.celephais.net/fitzquake/
 http://www.codeskulptor.org/
 http://www.fifengine.net/
+http://www.ibiblio.org/pub/Linux/games/strategy/ (and all others)
 http://www.myandroidonline.com/category/games/
 http://www.newbreedsoftware.com/s
 http://www.plasmapong.com/plasma-pong/plasma-pong/
@@ -120,7 +125,9 @@ https://github.com/DaemonEngine/Daemon
 https://github.com/Dariasteam/TowerJumper
 https://github.com/demonixis/C3DE
 https://github.com/digitall/scummvm-deskadv
+https://github.com/DigitalPulseSoftware/NazaraEngine
 https://github.com/discosultan/penumbra
+https://github.com/EgorOrachyov/Berserk
 https://github.com/enriquesomolinos/DreeRally
 https://github.com/eprikazchikov/thunder
 https://github.com/ErikLetson/torso-ninja
@@ -140,6 +147,7 @@ https://github.com/hparcells/cards-against-humanity
 https://github.com/IceReaper/DesktopAdventuresToolkit
 https://github.com/iortcw/iortcw
 https://github.com/jcarolus/android-chess
+https://github.com/LambdaHack/LambdaHack
 https://github.com/lexica/lexica
 https://github.com/libretro/libretro-prboom
 https://github.com/LIKO-12/LIKO-12
@@ -156,7 +164,6 @@ https://github.com/OpenBricks/openbricks
 https://github.com/openitg/openitg
 https://github.com/OpenMandrivaAssociation
 https://github.com/opensourcedesign
-https://github.com/OpMonTeam/OpMon
 https://github.com/OSSGames
 https://github.com/OSSGames/GAME-SDL-ACTION-Blobwars_Metal_Blob_Solid
 https://github.com/PanosK92/SpartanEngine
@@ -196,6 +203,7 @@ https://gitlab.com/LibreGames
 https://gitlab.com/vgstation/vgstation-old (and vgstation in general)
 https://keeperrl.com/
 https://lgdb.org/game/wolfpack-empire
+https://libregamewiki.org/index.php?title=Libregamewiki_talk:Community_Portal&oldid=25410#Some_long_term_ideas
 https://libregamewiki.org/Libregamewiki:Suggested_games#Likely_sources_for_more_free_games
 https://osdn.net/softwaremap/trove_list.php?form_cat=80
 https://packages.debian.org/sid/games/etw
@@ -208,6 +216,7 @@ https://pypi.org/project/PyAMF/
 https://pypi.org/project/simplejson/
 https://pypi.org/project/SQLAlchemy/
 https://pypi.org/project/TurboGears/
+https://pyweek.org/4/entries/ (Ascent of Justice)
 https://revolutionarygamesstudio.com/ Trhive
 https://salsa.debian.org/games-team/etw
 https://scratch.mit.edu/ (https://en.scratch-wiki.info/wiki/Scratch_Source_Code)
@@ -216,6 +225,7 @@ https://sourceforge.net/projects/actiongame/
 https://sourceforge.net/projects/deng/
 https://sourceforge.net/projects/ettu/
 https://sourceforge.net/projects/hhexen/
+https://sourceforge.net/projects/lgames/files/barrage/
 https://sourceforge.net/projects/librecardgame/
 https://sourceforge.net/projects/mininghaze/ - download didn't work
 https://sourceforge.net/projects/palomino-sim/ (http://www.jimbrooks.org/archive/software/palomino/)

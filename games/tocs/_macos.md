@@ -2,7 +2,11 @@
 # macOS
 
 - **[0 A.D.](../0_ad.md)** (C, C++, GPL-2.0, beta)
+- **[3D Pong](../3d_pong.md)** (C, GPL-2.0, beta, inactive since 2004)
+- **[Abe's Amazing Adventure](../abes_amazing_adventure.md)** (C, GPL-2.0, mature, inactive since 2005)
 - **[Aleph One](../aleph_one.md)** (C++, Lua, GPL-3.0, mature, inactive since 2015)
+- **[Alex the Allegator 4](../alex_the_allegator_4.md)** (C, GPL-2.0, mature, inactive since 2003)
+- **[Azimuth](../azimuth.md)** (C, GPL-3.0, mature)
 - **[Battle Tanks](../battle_tanks.md)** (C++, GPL-2.0, mature, inactive since 2009)
 - **[Biniax](../biniax.md)** (C, zlib, mature, inactive since 2012)
 - **[Blobby Volley 2](../blobby_volley_2.md)** (C++, GPL-2.0, mature, inactive since 2017)
@@ -83,7 +87,7 @@
 - **[OpenRW](../openrw.md)** (C, C++, GPL-3.0, beta)
 - **[OpenSAGE](../opensage.md)** (C#, LGPL-3.0, beta)
 - **[OpenSpades](../openspades.md)** (C, C++, AngelScript, GPL-3.0, beta)
-- **[OpMon](../opmon.md)** (C++, GPL-3.0, beta)
+- **[OPMon](../opmon.md)** (C++, GPL-3.0, beta)
 - **[PainTown](../paintown.md)** (C++, Java, Python, 3-clause BSD, mature)
 - **[Pentagram](../pentagram.md)** (C++, GPL-2.0, beta, inactive since 2018)
 - **[Performous](../performous.md)** (C, C++, GPL-2.0, mature)

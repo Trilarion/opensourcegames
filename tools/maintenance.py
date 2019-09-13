@@ -50,7 +50,7 @@ def update_readme_and_tocs(infos):
     # create all toc
     title = 'All'
     file = '_all.md'
-    tocs_text = '**[{}](games/tocs/{}#{})** ({})\n'.format(title, file, title, len(infos))
+    tocs_text = '**[{} entries](games/tocs/{}#{})** ({})\n'.format(title, file, title, len(infos))
     create_toc(title, file, infos)
 
     # create by category

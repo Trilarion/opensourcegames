@@ -8,6 +8,7 @@
 - **[Doxygen](../doxygen.md)** (C++, GPL-2.0, mature)
 - **[Dungeon Mapper](../dungeon_mapper.md)** (C++, GPL-3.0, beta, inactive since 2013)
 - **[GM Tools](../gm_tools.md)** (C++, GPL-2.0, beta, inactive since 2004)
+- **[GoRogue](../gorogue.md)** (C#, MIT, mature)
 - **[JaNaG - Java Name Generator](../janag-java_name_generator.md)** (Java, GPL-3.0, mature, inactive since 2016)
 - **[Monster Generator](../monster_generator.md)** (Java, MIT, mature)
 - **[PCGen](../pcgen.md)** (Java, LGPL-2.1, mature)

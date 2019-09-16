@@ -7,7 +7,7 @@ _FreeCol is a turn-based strategy game based on the old game Colonization, and s
 - State: mature
 - Download: http://www.freecol.org/download.html
 - Keywords: strategy, inspired by Sid Meier's Colonization, multiplayer, remake, turn-based
-- Code repository: https://git.code.sf.net/p/freecol/git
+- Code repository: https://github.com/FreeCol/freecol.git, https://git.code.sf.net/p/freecol/git (+)
 - Code language: Java
 - Code license: GPL-2.0
 

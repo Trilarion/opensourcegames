@@ -52,6 +52,7 @@
 - **[Mirror Magic](../mirror_magic.md)** (C, GPL-2.0, mature)
 - **[Nighthawk](../nighthawk.md)** (C++, GPL-2.0, mature, inactive since 2004)
 - **[One Way To Go](../one_way_to_go.md)** (Lua, GPL-3.0, mature, inactive since 2011)
+- **[Open Flood](../open_flood.md)** (Java, MIT, mature, inactive since 2018)
 - **[Open Hexagon](../open_hexagon.md)** (C++, AFL-3.0, mature)
 - **[OpenBlok](../openblok.md)** (C++, GPL-3.0, beta)
 - **[OpenNotrium](../opennotrium.md)** (C++, GPL-3.0, beta)

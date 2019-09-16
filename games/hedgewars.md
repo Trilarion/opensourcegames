@@ -7,7 +7,7 @@ _Clone of Worms Series._
 - Download: http://hedgewars.org/download.html
 - Platform: Windows, Linux, iOS
 - Keywords: action, artillery, clone, inspired by Worms Series, turn-based
-- Code repository: http://hg.hedgewars.org/hedgewars/ (hg)
+- Code repository: http://hg.hedgewars.org/hedgewars/ (hg), https://github.com/hedgewars/hw.git (+)
 - Code language: Lua, C, C++, Pascal, Haskell
 - Code license: GPL-2.0
 - Code dependencies: Qt, SDL

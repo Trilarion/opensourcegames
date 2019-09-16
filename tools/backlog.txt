@@ -93,19 +93,12 @@ https://github.com/Anthonymcqueen21/Pygame---Alien-Invasion
 https://github.com/ao-libre/ao-cliente
 https://github.com/apsillers/lords-of-the-fey
 https://github.com/apsillers/Taggem
-https://github.com/arianne/stendhal
 https://github.com/ArmageddonGames/ZeldaClassic
 https://github.com/assaultcube (https://sourceforge.net/projects/actiongame/)
 https://github.com/bitcraft/pyscroll
 https://github.com/bitcraft/PyTMX
-https://github.com/BobbyBao/SharpGame
-https://github.com/ByoxCode/DrawView
-https://github.com/Calinou/libre-pinball
 https://github.com/CatacombGames/
 https://github.com/Chluverman/android-gltron
-https://github.com/Chris3606/GoRogue
-https://github.com/ChrisDill/Raylib-cs
-https://github.com/codepath/android_snake_game
 https://github.com/collections/game-engines (only OS)
 https://github.com/collections/javascript-game-engines (only OS)
 https://github.com/collections/pixel-art-tools (tools)
@@ -113,39 +106,18 @@ https://github.com/collections/productivity-tools (maybe for statistical purpose
 https://github.com/collections/software-development-tools (maybe we can apply some of them across the board)
 https://github.com/collections/tools-for-open-source (maybe we can apply some)
 https://github.com/collections/web-games (only OS)
-https://github.com/CompletelyFairGames/dwarfcorp
 https://github.com/Cortrah/SpaceOperaDesign, https://github.com/Cortrah/SpaceOperaRuby/blob/master/design/turnstyles.md
 https://github.com/cping/LGame
-https://github.com/cubei/FlappyCow
-https://github.com/cyberegoorg/cetech
-https://github.com/DaemonEngine/Daemon
-https://github.com/Dariasteam/TowerJumper
 https://github.com/DeflatedPickle/FAOSDance
-https://github.com/demonixis/C3DE
-https://github.com/digitall/scummvm-deskadv
-https://github.com/DigitalPulseSoftware/NazaraEngine
-https://github.com/discosultan/penumbra
-https://github.com/EgorOrachyov/Berserk
-https://github.com/enriquesomolinos/DreeRally
-https://github.com/eprikazchikov/thunder
 https://github.com/ErikLetson/torso-ninja
 https://github.com/ErikLetson/torso-ninja-2
-https://github.com/Ershany/Arcane-Engine
-https://github.com/Esenthel/EsenthelEngine
-https://github.com/etternagame/etterna
-https://github.com/falltergeist/falltergeist
 https://github.com/flathub (all repositories which are games there)
 https://github.com/freeboardgame/FreeBoardGame.org
-https://github.com/FreeCol/freecol
 https://github.com/gamearians
-https://github.com/GentenStudios/quartz-engine
 https://github.com/grantjenks/free-python-games (check all)
-https://github.com/GunshipPenguin/open_flood
-https://github.com/hedgewars/hw
 https://github.com/hparcells/cards-against-humanity
 https://github.com/IceReaper/DesktopAdventuresToolkit
-https://github.com/iortcw/iortcw
-https://github.com/jcarolus/android-chess
+https://github.com/iortcw/iortcw (license)
 https://github.com/LambdaHack/LambdaHack
 https://github.com/lexica/lexica
 https://github.com/libretro/libretro-prboom
@@ -158,6 +130,7 @@ https://github.com/MovingBlocks/DestinationSol
 https://github.com/nicolodavis/boardgame.io
 https://github.com/notapixelstudio/superstarfighter
 https://github.com/NYRDS/remixed-dungeon
+https://github.com/ocornut/imgui
 https://github.com/openblack/openblack
 https://github.com/OpenBricks/openbricks
 https://github.com/openitg/openitg
@@ -189,7 +162,6 @@ https://github.com/team-eternity/eternity
 https://github.com/the-insulines
 https://github.com/theaigames
 https://github.com/Tinob/Ishiiruka (https://github.com/shiiion/Ishiiruka, https://github.com/SirMangler/PrimeHack-Updater)
-https://github.com/tonihele/OpenKeeper
 https://github.com/tpcstld/2048
 https://github.com/unknown-horizons/godot-port
 https://github.com/vgc/vgc

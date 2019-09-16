@@ -2,6 +2,7 @@
 # iOS
 
 - **[DOOM-iOS](../doom-ios.md)** (C++, GPL-2.0, mature, inactive since 2012)
+- **[Esenthel Engine](../esenthel_engine.md)** (C, C++, Custom, beta)
 - **[Gorillas](../gorillas.md)** (Objective-C, JavaScript, Java Research License, mature, inactive since 2014)
 - **[Hedgewars](../hedgewars.md)** (Lua, C, C++, Pascal, Haskell, GPL-2.0, mature)
 - **[OpenLara](../openlara.md)** (C++, 2-clause BSD, mature)

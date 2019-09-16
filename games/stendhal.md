@@ -6,7 +6,7 @@ _Multiplayer online adventure game with an old school feel._
 - State: mature
 - Download: (see home)
 - Keywords: role playing, multiplayer, online
-- Code repository: https://git.code.sf.net/p/arianne/stendhal
+- Code repository: https://github.com/arianne/stendhal.git, https://git.code.sf.net/p/arianne/stendhal (+)
 - Code language: Java
 - Code license: GPL-2.0
 

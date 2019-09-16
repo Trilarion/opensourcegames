@@ -52,6 +52,7 @@
 - **[Fall of Imiryn](../fall_of_imiryn.md)** (C++, Python, GPL-3.0, beta, inactive since 2009)
 - **[Fallen Spire](../fallen_spire.md)** (Python, GPL-3.0, beta, inactive since 2009)
 - **[Falling Time](../falling_time.md)** (C, C++, GPL-2.0, mature)
+- **[Falltergeist](../falttergeist.md)** (C++, GPL-3.0, beta)
 - **[freeablo](../freeablo.md)** (C++, GPL-3.0, beta)
 - **[FreedroidRPG](../freedroidrpg.md)** (C, C++, Lua, GPL-2.0, mature)
 - **[Fujo](../fujo.md)** (Python, CC-BY-SA-4.0, mature, inactive since 2014)

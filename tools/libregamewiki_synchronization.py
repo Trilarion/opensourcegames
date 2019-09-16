@@ -243,7 +243,7 @@ if __name__ == "__main__":
 
             # determine file name
             print('create new entry for {}'.format(lgw_name))
-            file_name = derive_canonical_file_name(lgw_name)
+            file_name = canonical_game_name(lgw_name) + '.md'
             target_file = os.path.join(games_path, file_name)
             if os.path.isfile(target_file):
                 print('warning: file {} already existing, save under slightly different name'.format(file_name))

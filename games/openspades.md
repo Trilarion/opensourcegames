@@ -2,7 +2,7 @@
 
 _Remake of Ace of Spades._
 
-- Home: http://openspades.yvt.jp/
+- Home: http://openspades.yvt.jp/, https://sites.google.com/a/yvt.jp/openspades/
 - Media: https://en.wikipedia.org/wiki/Ace_of_Spades_(video_game)
 - State: beta
 - Download: https://github.com/yvt/openspades/releases

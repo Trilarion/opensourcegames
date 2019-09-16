@@ -1697,6 +1697,14 @@
    "<a href=\"https://git.code.sf.net/p/dnt/code\">Source</a> - C++ - GPL-3.0"
   ],
   [
+   "Do It Yourself Doom With SDL (<a href=\"https://github.com/amroibrahim/DIYDoom\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/do_it_yourself_doom_with_sdl.md\">entry</a>)",
+   "A DOOM clone engine.",
+   "",
+   "beta / active",
+   "game engine, inspired by DOOM, remake",
+   "<a href=\"https://github.com/amroibrahim/DIYDoom.git\">Source</a> - C++ - MIT"
+  ],
+  [
    "Domination (<a href=\"http://domination.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/domination.md\">entry</a>)",
    "Is a bit like the well known board game of Risk or RisiKo.",
    "<a href=\"http://domination.sourceforge.net/download.shtml\">Link</a>",
@@ -2207,6 +2215,14 @@
    "mature / active",
    "game engine, clone, framework, inspired by Diablo",
    "<a href=\"https://github.com/clintbellanger/flare-engine.git\">Source</a> - C++, Java - GPL-3.0"
+  ],
+  [
+   "Flex Engine (<a href=\"https://ajweeks.com/flex-engine/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/flex_engine.md\">entry</a>)",
+   "Game engine.",
+   "",
+   "beta / active",
+   "framework",
+   "<a href=\"https://github.com/ajweeks/FlexEngine.git\">Source</a> - C++ - MIT"
   ],
   [
    "FlightGear (<a href=\"https://www.flightgear.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/flightgear.md\">entry</a>)",
@@ -4265,7 +4281,7 @@
    "<a href=\"https://git.octaforge.org/OctaForge/OctaCore.git\">Source</a> - C++ - Custom"
   ],
   [
-   "Odamex (<a href=\"https://web.archive.org/web/20190516124821/http://www.odamex.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/odamex.md\">entry</a>)",
+   "Odamex (<a href=\"https://odamex.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/odamex.md\">entry</a>)",
    "Remake of Doom, Doom II, Heretic, Hexen.",
    "",
    "beta / active",
@@ -4895,6 +4911,14 @@
    "beta / active",
    "remake, commercial content, inspired by Star Wars Episode I: Racer, requires original content",
    "<a href=\"https://github.com/OpenSWE1R/openswe1r.git\">Source</a> - C, C++ - GPL-2.0"
+  ],
+  [
+   "OpenTESArena (<a href=\"https://github.com/afritz1/OpenTESArena\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/opentesarena.md\">entry</a>)",
+   "Re-implementation of The Elder Scrolls: Arena.",
+   "",
+   "beta / active",
+   "game engine, commercial content, inspired by The Elder Scrolls: Arena, remake, requires original content",
+   "<a href=\"https://github.com/afritz1/OpenTESArena.git\">Source</a> - C++ - MIT"
   ],
   [
    "OpenTitus (<a href=\"http://opentitus.sourceforge.net\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/opentitus.md\">entry</a>)",
@@ -6337,7 +6361,7 @@
    "<a href=\"https://git.code.sf.net/p/arianne/stendhal\">Source</a> - Java - GPL-2.0"
   ],
   [
-   "StepMania (<a href=\"https://web.archive.org/web/20190605085429/https://www.stepmania.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/stepmania.md\">entry</a>)",
+   "StepMania (<a href=\"https://www.stepmania.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/games/stepmania.md\">entry</a>)",
    "Dance and rhythm game.",
    "<a href=\"https://sourceforge.net/projects/stepmania/files/\">Link</a>",
    "mature / active",

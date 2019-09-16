@@ -10,5 +10,7 @@ _Web-based version of the board game Settlers of Catan written in Java._
 - Code language: Java
 - Code license: GPL-3.0
 
+See also http://www.settlers-android-clone.com/
+
 ## Building
 

@@ -87,6 +87,7 @@
 - **[OpenRW](../openrw.md)** (C, C++, GPL-3.0, beta)
 - **[OpenSAGE](../opensage.md)** (C#, LGPL-3.0, beta)
 - **[OpenSpades](../openspades.md)** (C, C++, AngelScript, GPL-3.0, beta)
+- **[OpenTESArena](../opentesarena.md)** (C++, MIT, beta)
 - **[OPMon](../opmon.md)** (C++, GPL-3.0, beta)
 - **[PainTown](../paintown.md)** (C++, Java, Python, 3-clause BSD, mature)
 - **[Pentagram](../pentagram.md)** (C++, GPL-2.0, beta, inactive since 2018)

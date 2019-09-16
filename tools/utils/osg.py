@@ -3,8 +3,9 @@ Specific functions working on the games.
 """
 
 import re
+import os
 from difflib import SequenceMatcher
-from utils.utils import *
+from utils import utils, constants as c
 
 essential_fields = ('Home', 'State', 'Keywords', 'Code repository', 'Code language', 'Code license')
 valid_fields = ('Home', 'Media', 'State', 'Play', 'Download', 'Platform', 'Keywords', 'Code repository', 'Code language',
@@ -19,38 +20,37 @@ def game_name_similarity(a, b):
     return SequenceMatcher(None, str.casefold(a), str.casefold(b)).ratio()
 
 
-def entry_iterator(games_path):
+def entry_iterator():
     """
 
     """
 
     # get all entries (ignore everything starting with underscore)
-    entries = os.listdir(games_path)
+    entries = os.listdir(c.games_path)
 
     # iterate over all entries
     for entry in entries:
-        entry_path = os.path.join(games_path, entry)
+        entry_path = os.path.join(c.games_path, entry)
 
         # ignore directories ("tocs" for example)
         if os.path.isdir(entry_path):
             continue
 
         # read entry
-        content = read_text(entry_path)
+        content = utils.read_text(entry_path)
 
         # yield
         yield entry, entry_path, content
 
 
-def derive_canonical_file_name(name):
+def canonical_game_name(name):
     """
-    Derives a canonical file name from a game name
+    Derives a canonical game name from an actual game name (suitable for file names, ...)
     """
     name = regex_sanitize_name.sub('', name)
     name = regex_sanitize_name_space_eater.sub('_', name)
     name = name.replace('_-_', '-')
     name = name.casefold()
-    name = name + '.md'
     return name
 
 
@@ -193,7 +193,7 @@ def parse_entry(content):
     return info
 
 
-def assemble_infos(games_path):
+def assemble_infos():
     """
     Parses all entries and assembles interesting infos about them.
     """
@@ -204,7 +204,7 @@ def assemble_infos(games_path):
     infos = []
 
     # iterate over all entries
-    for entry, _, content in entry_iterator(games_path):
+    for entry, _, content in entry_iterator():
 
         # parse entry
         info = parse_entry(content)
@@ -213,12 +213,12 @@ def assemble_infos(games_path):
         info['file'] = entry
 
         # check canonical file name
-        canonical_file_name = derive_canonical_file_name(info['name'])
+        canonical_file_name = canonical_game_name(info['name']) + '.md'
         # we also allow -X with X =2..9 as possible extension (because of duplicate canonical file names)
         if canonical_file_name != entry and canonical_file_name != entry[:-5] + '.md':
             print('file {} should be {}'.format(entry, canonical_file_name))
-            source_file = os.path.join(games_path, entry)
-            target_file = os.path.join(games_path, canonical_file_name)
+            source_file = os.path.join(c.games_path, entry)
+            target_file = os.path.join(c.games_path, canonical_file_name)
             if not os.path.isfile(target_file):
                 pass
                 # os.rename(source_file, target_file)
@@ -228,7 +228,8 @@ def assemble_infos(games_path):
 
     return infos
 
-def extract_links(games_path):
+
+def extract_links():
     """
     Parses all entries and extracts http(s) links from them
     """
@@ -238,7 +239,7 @@ def extract_links(games_path):
 
     # iterate over all entries
     urls = set()
-    for _, _, content in entry_iterator(games_path):
+    for _, _, content in entry_iterator():
 
         # apply regex
         matches = regex.findall(content)

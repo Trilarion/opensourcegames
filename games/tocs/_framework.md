@@ -15,6 +15,7 @@
 - **[ENIGMA (development environment)](../enigma_development_environment.md)** (C++, C, GPL-3.0, mature)
 - **[F.LF](../flf.md)** (JavaScript, ?, mature)
 - **[Flare](../flare.md)** (C++, Java, GPL-3.0, mature)
+- **[Flex Engine](../flex_engine.md)** (C++, MIT, beta)
 - **[Flixel](../flixel.md)** (ActionScript, MIT, mature)
 - **[GemRB](../gemrb.md)** (C++, Python, GPL-2.0, mature)
 - **[Godot](../godot.md)** (C, C++, MIT, mature)

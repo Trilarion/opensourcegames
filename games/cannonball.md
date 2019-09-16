@@ -2,7 +2,7 @@
 
 _Remake of Outrun._
 
-- Home: https://github.com/djyt/cannonball/wiki
+- Home: https://github.com/djyt/cannonball/wiki, http://reassembler.blogspot.com/
 - State: beta
 - Download: https://github.com/djyt/cannonball/wiki#downloads
 - Keywords: action, commercial content, inspired by Outrun, remake

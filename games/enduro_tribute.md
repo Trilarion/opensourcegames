@@ -2,7 +2,7 @@
 
 _Remake of Enduro._
 
-- Home: https://rafaelcastrocouto.github.io/enduro/
+- Home: https://rafaelcastrocouto.github.io/enduro/, https://racascou.itch.io/enduro
 - State: mature
 - Play: https://rafaelcastrocouto.github.io/enduro/
 - Keywords: remake, inspired by Enduro, open content

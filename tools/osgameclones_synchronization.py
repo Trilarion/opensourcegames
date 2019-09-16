@@ -229,9 +229,9 @@ if __name__ == "__main__":
                     urls = osgc_entry['url']
                     if type(urls) == str:
                         urls = [urls]
+                    urls = [strip_url(url) for url in urls]
                     our_urls = our_entry['home']
-                    our_urls = [x.replace('http://', '').replace('https://', '') for x in our_urls]
-                    urls = [x.replace('http://', '').replace('https://', '') for x in urls]
+                    our_urls = [strip_url(url) for url in our_urls]
                     for url in urls:
                         if url not in our_urls:
                             p += ' home url {} missing\n'.format(url)
@@ -309,7 +309,7 @@ if __name__ == "__main__":
 
             # determine file name
             print('create new entry for {}'.format(osgc_name))
-            file_name = derive_canonical_file_name(osgc_name)
+            file_name = canonical_game_name(osgc_name) + '.md'
             target_file = os.path.join(games_path, file_name)
             if os.path.isfile(target_file):
                 print('warning: file {} already existing, save under slightly different name'.format(file_name))

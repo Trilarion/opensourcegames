@@ -87,11 +87,8 @@ https://fedoraproject.org/wiki/SIGs/Games#List_of_games_we_will_NOT_package
 https://flathub.org/home (use it for Linux packaging) / https://flathub.org/apps/category/Game
 https://freegamer.blogspot.com/2015/11/top-3-open-source-pinball-games.html
 https://futurepinball.com/
-https://github.com/afritz1/OpenTESArena
-https://github.com/ajweeks/FlexEngine
 https://github.com/amerkoleci/alimer
 https://github.com/amerkoleci/vortice
-https://github.com/amroibrahim/DIYDoom
 https://github.com/Anthonymcqueen21/Pygame---Alien-Invasion
 https://github.com/ao-libre/ao-cliente
 https://github.com/apsillers/lords-of-the-fey
@@ -123,6 +120,7 @@ https://github.com/cubei/FlappyCow
 https://github.com/cyberegoorg/cetech
 https://github.com/DaemonEngine/Daemon
 https://github.com/Dariasteam/TowerJumper
+https://github.com/DeflatedPickle/FAOSDance
 https://github.com/demonixis/C3DE
 https://github.com/digitall/scummvm-deskadv
 https://github.com/DigitalPulseSoftware/NazaraEngine
@@ -141,6 +139,7 @@ https://github.com/freeboardgame/FreeBoardGame.org
 https://github.com/FreeCol/freecol
 https://github.com/gamearians
 https://github.com/GentenStudios/quartz-engine
+https://github.com/grantjenks/free-python-games (check all)
 https://github.com/GunshipPenguin/open_flood
 https://github.com/hedgewars/hw
 https://github.com/hparcells/cards-against-humanity
@@ -172,6 +171,7 @@ https://github.com/pelya/commandergenius
 https://github.com/pld-linux
 https://github.com/ptitSeb/gl4es
 https://github.com/raysan5/rfxgen
+https://github.com/Realm667/WolfenDoom
 https://github.com/romlok/godot-gdhexgrid
 https://github.com/RonenNess/GeonBit.UI
 https://github.com/RPG-Paper-Maker/RPG-Paper-Maker
@@ -220,7 +220,6 @@ https://pyweek.org/4/entries/ (Ascent of Justice)
 https://revolutionarygamesstudio.com/ Trhive
 https://salsa.debian.org/games-team/etw
 https://scratch.mit.edu/ (https://en.scratch-wiki.info/wiki/Scratch_Source_Code)
-https://secretchronicles.org/en/
 https://sourceforge.net/projects/actiongame/
 https://sourceforge.net/projects/deng/
 https://sourceforge.net/projects/ettu/

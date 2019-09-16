@@ -7,48 +7,23 @@ Unique left column names in the game info boxes:
 ['Code license', 'Code licenses', 'Developer', 'Developers', 'Engine', 'Engines', 'Genre', 'Genres', 'Libraries', 'Library', 'Media license', 'Media licenses', 'P. language', 'P. languages', 'Platforms']
 """
 
+import os
 import requests
 import json
-from bs4 import BeautifulSoup, NavigableString
-from utils.utils import *
+from bs4 import BeautifulSoup
+from utils import constants, utils, osg
 
 
-def key_selection_gameinfobox(a, b):
+def download_lgw_content():
     """
-    Checks which of the two elements in a is in b or none but not both
+
+    :return:
     """
-    if len(a) != 2:
-        raise RuntimeError()
-    c = [x in b for x in a]
-    if all(c):
-        raise RuntimeError
-    if not any(c):
-        return None, None
-    d = [(k, i) for (i, k) in enumerate(a) if c[i]]
-    return d[0]
-
-
-def extract_field_content(key, idx, info):
-    """
-    From a game info field.
-    """
-    content = info[key].get_text()
-    content = content.split(',')
-    content = [x.strip() for x in content]
-    content = [x if not (x.endswith('[1]') or x.endswith('[2]')) else x[:-3] for x in content]  # remove trailing [1,2]
-    content = [x.strip() for x in content]
-    if not content:
-        raise RuntimeError
-    if (len(content) > 1 and idx == 0) or (len(content) == 1 and idx == 1):
-        print(' warning: {} Sg./Pl. mismatch'.format(key))
-    return content
-
-
-if __name__ == "__main__":
 
     # parameters
     base_url = 'https://libregamewiki.org'
-    ignored_gameinfos = ['Contribute', 'Origin', 'Release date', 'Latest release']
+    destination_path = os.path.join(constants.root_path, 'tools', 'lgw-import')
+    utils.recreate_directory(destination_path)
 
     # read and process the base url (get all games and categories)
     url = base_url + '/Category:Games'
@@ -69,89 +44,70 @@ if __name__ == "__main__":
             break
         url = base_url + next_page['href']
 
+    # remove all those that start with user
+    games = [game for game in games if not any(game[1].startswith(x) for x in ('User:', 'Template:', 'Bullet'))]
+
     print('current number of games in LGW {}'.format(len(games)))
 
-    # parse games
-    counter = 0
-    unique_gameinfo_fields = set()
-    entries = []
     for game in games:
+        print(game[1])
         url = base_url + game[0]
+        destination_file = os.path.join(destination_path, osg.canonical_game_name(game[0][1:]) + '.html')
+
         text = requests.get(url).text
+        utils.write_text(destination_file, text)
+
+
+def parse_lgw_content():
+
+    # paths
+    import_path = os.path.join(constants.root_path, 'tools', 'lgw-import')
+    entries_file = os.path.join(import_path, '_lgw.json')
+
+    # iterate over all imported files
+    files = os.listdir(import_path)
+    entries = []
+    for file in files:
+        if file == '_lgw.json':
+            continue
+
+        text = utils.read_text(os.path.join(import_path, file))
+
+        # parse the html
         soup = BeautifulSoup(text, 'html.parser')
-        title = soup.h1.string
+        title = soup.h1.get_text()
         print(title)
         entry = {'name': title}
 
+        # get all external links
+        links = [(x['href'], x.get_text()) for x in soup.find_all('a', href=True)]
+        links = [x for x in links if x[0].startswith('http') and not x[0].startswith('https://libregamewiki.org/')]
+        entry['external links'] = links
+
+        # get meta description
+        description = soup.find('meta', attrs={"name":"description"})
+        entry['description'] = description['content']
+
         # parse gameinfobox
-        info = soup.find('div', class_='gameinfobox')
-        if not info:
+        infos = soup.find('div', class_='gameinfobox')
+        if not infos:
             print(' no gameinfobox')
         else:
-            info = info.find_all('tr')
-            info = [(x.th.string, x.td) for x in info if x.th and x.th.string]
-            info = [x for x in info if x[0] not in ignored_gameinfos]
-            info = dict(info)
-            unique_gameinfo_fields.update(info.keys())
-
-            # consume fields of gameinfobox
-            # genre
-            key, idx = key_selection_gameinfobox(('Genre', 'Genres'), info.keys())
-            if key:
-                genres = extract_field_content(key, idx, info)
-                entry['genre']
-                del info[key]
-
-            # platforms
-            key = 'Platforms'
-            if key in info:
-                platforms = extract_field_content(key, 1, info)
-                # platforms = [x if x != 'Mac' else 'macOS' for x in platforms] # replace Mac with macOS
-                entry['platform'] = platforms
-                del info[key]
-
-            # developer
-            key, idx = key_selection_gameinfobox(('Developer', 'Developers'), info.keys())
-            if key:
-                entry['developer'] = extract_field_content(key, idx, info)
-                del info[key]
-
-            # code license
-            key, idx = key_selection_gameinfobox(('Code license', 'Code licenses'), info.keys())
-            if key:
-                entry['code license'] = extract_field_content(key, idx, info)
-                del info[key]
-
-            # media license
-            key, idx = key_selection_gameinfobox(('Media license', 'Media licenses'), info.keys())
-            if key:
-                entry['assets license'] = extract_field_content(key, idx, info)
-                del info[key]
-
-            # engine
-            key, idx = key_selection_gameinfobox(('Engine', 'Engines'), info.keys())
-            if key:
-                entry['engine'] = extract_field_content(key, idx, info)
-                del info[key]
-
-            # library
-            key, idx = key_selection_gameinfobox(('Library', 'Libraries'), info.keys())
-            if key:
-                entry['library'] = extract_field_content(key, idx, info)
-                del info[key]
-
-            # programming language
-            key, idx = key_selection_gameinfobox(('P. language', 'P. languages'), info.keys())
-            if key:
-                languages = extract_field_content(key, idx, info)
-                languages = [x for x in languages if x != 'HTML5'] # ignore HTML5
-                entry['code language'] = languages
-                del info[key]
-
-            # unconsumed
-            if info:
-                print('unconsumed gameinfo keys {}'.format(info.keys()))
-                raise RuntimeError()
+            infos = infos.find_all('tr')
+            for x in infos:
+                if x.th and x.td:
+                    # row with header
+                    key = x.th.get_text()
+                    content = x.td.get_text()
+                    content = content.split(',')
+                    content = [x.strip() for x in content]
+                    entry[key] = content
+                if not x.th and x.td:
+                    # row without header: contribute section
+                    x = x.find_all('li')
+                    x = [(x.a.string, x.a['href']) for x in x if x.a]
+                    for key, content in x:
+                        entry[key] = content
 
         # parse "for available as package in"
         tables = soup.find_all('table', class_='wikitable')
@@ -187,18 +143,56 @@ if __name__ == "__main__":
         entry['categories'] = categories
 
         entries.append(entry)
-        # print(entry)
 
-        counter += 1
-        if counter > 20:
-            # break
-            pass
-
-    unique_gameinfo_fields = sorted(list(unique_gameinfo_fields))
-    print('unique gameinfo fields: {}'.format(unique_gameinfo_fields))
 
     # save entries
-    json_path = os.path.join(os.path.dirname(__file__), 'lgw_import.json')
     text = json.dumps(entries, indent=1)
-    write_text(json_path, text)
+    utils.write_text(entries_file, text)
 
+
+def clean_lgw_content():
+
+    # paths
+    import_path = os.path.join(constants.root_path, 'tools', 'lgw-import')
+    entries_file = os.path.join(import_path, '_lgw.json')
+    cleaned_entries_file = os.path.join(import_path, '_lgw.cleaned.json')
+
+    # load entries
+    text = utils.read_text(entries_file)
+    entries = json.loads(text)
+
+    # rename keys
+    key_replacements = (('developer', ('Developer', 'Developers')), ('code license', ('Code license', 'Code licenses')), ('engine', ('Engine', 'Engines')), ('genre', ('Genre', 'Genres')))
+    for index, entry in enumerate(entries):
+        for new_key, old_keys in key_replacements:
+            for key in old_keys:
+                if key in entry:
+                    entry[new_key] = entry[key]
+                    del entry[key]
+                    break
+
+        entries[index] = entry
+
+    # check for unique field names
+    unique_fields = set()
+    for entry in entries:
+        unique_fields.update(entry.keys())
+    print('unique lgw fields: {}'.format(sorted(list(unique_fields))))
+
+    # which fields are mandatory
+    for entry in entries:
+        remove_fields = [field for field in unique_fields if field not in entry]
+        unique_fields -= set(remove_fields)
+    print('mandatory lgw fields: {}'.format(sorted(list(unique_fields))))
+
+
+if __name__ == "__main__":
+
+    # stage one
+    # download_lgw_content()
+
+    # stage two
+    # parse_lgw_content()
+
+    # stage three
+    clean_lgw_content()

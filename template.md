@@ -8,7 +8,7 @@ _{Description}_
 - Play: {URL} (optional)
 - Download: {URL} (optional)
 - Platform: {XX} (optional)
-- Keywords: {XX} (optional)
+- Keywords: {XX}
 - Code repository: {URL}
 - Code language: {XX}
 - Code license: {XX}

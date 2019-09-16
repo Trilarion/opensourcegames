@@ -2,7 +2,7 @@
 
 _Clone of Command & Conquer: Generals._
 
-- Home: https://opensage.github.io/
+- Home: https://opensage.github.io/, http://timjones.io/blog/tags/opensage/
 - State: beta
 - Download: https://github.com/OpenSAGE/OpenSAGE/releases
 - Platform: Windows, Linux, macOS

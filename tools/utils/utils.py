@@ -9,7 +9,6 @@ import tarfile
 import time
 import urllib.request
 import zipfile
-import errno
 import stat
 
 
@@ -267,3 +266,33 @@ def unzip(zip_file, destination_directory):
     for name in dirs:
         date_time = dirs[name]
         os.utime(name, (date_time, date_time))
+
+
+def strip_url(url):
+    for prefix in ('http://', 'https://'):
+        if url.startswith(prefix):
+            url = url[len(prefix):]
+    for prefix in ('www'):
+        if url.startswith(prefix):
+            url = url[len(prefix):]
+    for suffix in ('/', '.git', '/en', '/index.html'):
+        if url.endswith(suffix):
+            url = url[:-len(suffix)]
+    return url
+
+
+def load_properties(filepath, sep='=', comment_char='#'):
+    """
+    Read the file as a properties file (in Java).
+    """
+    properties = {}
+    with open(filepath, "rt") as file:
+        for line in file:
+            line = line.strip()
+            if not line.startswith(comment_char):
+                line = line.split(sep)
+                assert(len(line)==2)
+                key = line[0].strip()
+                value = line[1].strip()
+                properties[key] = value
+    return properties

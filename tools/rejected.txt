@@ -77,6 +77,7 @@ VegaTrek (https://sourceforge.net/projects/vegatrek/, https://svn.code.sf.net/p/
 Visions from the Other Side (http://www.insani.org/mukou.html): Source not available
 Voxelstein 3D (http://voxelstein3d.sourceforge.net/): Very early development
 WarGame (https://archive.codeplex.com/?p=wargame): Unclear license, could not contact authors
+WolfenDoom (https://github.com/Realm667/WolfenDoom): All rights reserved
 XQuest 2 (http://www.swallowtail.org/xquest/, http://www.swallowtail.org/xquest/xquest_1.3_src.tar.gz): License is not really open source (see LICENSE.DOC in https://web.archive.org/web/20170320015957/http://www.swallowtail.org/xquest/xquest_1.3_src.tar.gz)
 xrick (http://www.bigorno.net/xrick): No open source license/unclear license (see file README in http://www.bigorno.net/xrick/xrick-021212.zip)
 zedragon (https://github.com/charlierobson/zedragon.git): License not found, Assembly, not sure which OS is supported, no release, not much guidance

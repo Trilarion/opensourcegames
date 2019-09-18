@@ -4,6 +4,7 @@
 - **[Billiards](../billiards.md)** (Lua, Objective-C, GPL-3.0, beta, inactive since 2012)
 - **[Bygfoot](../bygfoot.md)** (Java, GPL-2.0, beta)
 - **[Dust Racing 2D](../dust_racing_2d.md)** (C, C++, GPL-3.0, mature)
+- **[Emilia Pinball](../emilia_pinball.md)** (C++, GPL-2.0, beta)
 - **[Freekick 3](../freekick_3.md)** (C++, Python, GPL-3.0, mature, inactive since 2015)
 - **[GPL Arcade Volleyball](../gpl_arcade_volleyball.md)** (C++, GPL-2.0, beta, inactive since 2006)
 - **[H-Craft Championship](../h-craft_championship.md)** (C++, zlib, mature, inactive since 2015)
@@ -16,4 +17,5 @@
 - **[Skifree-HTML5-clone](../skifree-html5-clone.md)** (JavaScript, GPL-3.0, beta, inactive since 2011)
 - **[skifree.js](../skifreejs.md)** (JavaScript, MIT, mature, inactive since 2016)
 - **[Tux Football](../tux_football.md)** (C++, GPL-2.0, beta, inactive since 2012)
+- **[Visual Pinball](../visual_pinball.md)** (C++, MAME, mature)
 - **[YSoccer](../ysoccer.md)** (Java, GPL-2.0, mature)

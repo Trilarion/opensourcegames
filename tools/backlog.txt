@@ -1,11 +1,6 @@
 dark city (https://github.com/darken33) maybe he wants to import from sourceforge, ansonsten svn import to github
-DOOM engine (https://github.com/id-Software/DOOM)
 endgame singularity recursive clone (bei anderen auch)
 fosslinux.com
-github - dwarfcorp
-gitlab.com/librebob/athenaeum
-Hedgewars
-heXon
 holyspirit/lechemindeladam cvs conversion?
 http://antongerdelan.net/blog/ (other projects besides TestDrive)
 http://directpython.sourceforge.net/
@@ -38,6 +33,7 @@ http://tumiki.sourceforge.net/
 http://vamos.sourceforge.net/
 http://www.celephais.net/fitzquake/
 http://www.codeskulptor.org/
+http://www.drpetter.se/project_sfxr.html
 http://www.fifengine.net/
 http://www.ibiblio.org/pub/Linux/games/strategy/ (and all others)
 http://www.myandroidonline.com/category/games/
@@ -117,64 +113,27 @@ https://github.com/gamearians
 https://github.com/grantjenks/free-python-games (check all)
 https://github.com/hparcells/cards-against-humanity
 https://github.com/IceReaper/DesktopAdventuresToolkit
+https://github.com/id-Software/DOOM
 https://github.com/iortcw/iortcw (license)
-https://github.com/LambdaHack/LambdaHack
-https://github.com/lexica/lexica
 https://github.com/libretro/libretro-prboom
-https://github.com/LIKO-12/LIKO-12
-https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG
-https://github.com/MaKiPL/OpenVIII
-https://github.com/marukrap/ProceduralMapGenerator
-https://github.com/miki151/keeperrl
-https://github.com/MovingBlocks/DestinationSol
-https://github.com/nicolodavis/boardgame.io
-https://github.com/notapixelstudio/superstarfighter
-https://github.com/NYRDS/remixed-dungeon
-https://github.com/ocornut/imgui
-https://github.com/openblack/openblack
-https://github.com/OpenBricks/openbricks
-https://github.com/openitg/openitg
+https://github.com/LucKeyProductions/heXon
 https://github.com/OpenMandrivaAssociation
 https://github.com/opensourcedesign
 https://github.com/OSSGames
 https://github.com/OSSGames/GAME-SDL-ACTION-Blobwars_Metal_Blob_Solid
-https://github.com/PanosK92/SpartanEngine
 https://github.com/PavelDoGreat/WebGL-Fluid-Simulation
-https://github.com/pelya/commandergenius
 https://github.com/pld-linux
-https://github.com/ptitSeb/gl4es
-https://github.com/raysan5/rfxgen
-https://github.com/Realm667/WolfenDoom
-https://github.com/romlok/godot-gdhexgrid
-https://github.com/RonenNess/GeonBit.UI
-https://github.com/RPG-Paper-Maker/RPG-Paper-Maker
-https://github.com/rpgboss/rpgboss
 https://github.com/saniv/free-game-art/blob/master/foss-copyright-infringement-records.md
 https://github.com/search?p=1&q=sunrider&type=Repositories, sunrider
-https://github.com/SneakyTactician/MagicalLife
-https://github.com/sphair/ClanLib
-https://github.com/sromku/memory-game
-https://github.com/Stabyourself/mari0
-https://github.com/stephenjsweeney/blobwarsAttrition
-https://github.com/suijingfeng/vkOpenArena
-https://github.com/TalonBraveInfo/OpenHoW
-https://github.com/team-eternity/eternity
+https://github.com/SPC-Some-Polish-Coders/PopHead
 https://github.com/the-insulines
 https://github.com/theaigames
 https://github.com/Tinob/Ishiiruka (https://github.com/shiiion/Ishiiruka, https://github.com/SirMangler/PrimeHack-Updater)
-https://github.com/tpcstld/2048
-https://github.com/unknown-horizons/godot-port
-https://github.com/vgc/vgc
-https://github.com/vilbeyli/VQEngine
-https://github.com/Vocaluxe/Vocaluxe
 https://github.com/Wargus/stratagus
 https://github.com/wesnoth/haldric
 https://github.com/xyzz/openmw-android
-https://github.com/yiotro/Antiyoy
 https://gitlab.com/LibreGames
 https://gitlab.com/vgstation/vgstation-old (and vgstation in general)
-https://keeperrl.com/
-https://lgdb.org/game/wolfpack-empire
 https://libregamewiki.org/index.php?title=Libregamewiki_talk:Community_Portal&oldid=25410#Some_long_term_ideas
 https://libregamewiki.org/Libregamewiki:Suggested_games#Likely_sources_for_more_free_games
 https://osdn.net/softwaremap/trove_list.php?form_cat=80
@@ -200,7 +159,6 @@ https://sourceforge.net/projects/lgames/files/barrage/
 https://sourceforge.net/projects/librecardgame/
 https://sourceforge.net/projects/mininghaze/ - download didn't work
 https://sourceforge.net/projects/palomino-sim/ (http://www.jimbrooks.org/archive/software/palomino/)
-https://sourceforge.net/projects/pinball/
 https://sourceforge.net/projects/pixellight/
 https://sourceforge.net/projects/realmforge/
 https://sourceforge.net/projects/webchess/
@@ -222,7 +180,7 @@ https://www.reddit.com/r/opensourcegames/
 https://www.reddit.com/r/opensourcegames/comments/celw6c/top_3_open_source_pinball_games_2015/
 https://www.renpy.org/ (also all projects linked there)
 https://zope.readthedocs.io/en/latest/
-lionengine github
+lgdb ask on reddit for archived version
 nexuiz - https://github.com/atphalix/nexuiz
 nexuiz - https://github.com/OpenMandrivaAssociation/nexuiz/blob/master/nexuiz.spec
 nexuiz - https://github.com/pld-linux/nexuiz/blob/master/nexuiz.spec
@@ -233,5 +191,4 @@ pyglet
 Quatter
 query alternativeto with only open source...
 scrape moddb?
-TrueCraft
 wxPython

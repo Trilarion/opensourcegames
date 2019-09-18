@@ -7,9 +7,11 @@ _Remake of Commander Keen Series._
 - Download: http://clonekeenplus.sourceforge.net/download.php
 . Platform: Windows, Linux, Android
 - Keywords: action, inspired by Commander Keen Series, remake
-- Code repository: https://gitlab.com/Dringgstein/Commander-Genius.git
+- Code repository: https://gitlab.com/Dringgstein/Commander-Genius.git, https://github.com/albertz/commandergenius.git (+), https://github.com/pelya/commandergenius.git (+), https://github.com/gerstrong/Commander-Genius.git (+)
 - Code language: C, C++
 - Code license: GPL-2.0
+
+Many different repositories on Github with different licenses.
 
 ## Building
 

@@ -7,9 +7,11 @@ _Unofficial open source engine reimplementation of the game Morrowind._
 - State: mature
 - Download: https://openmw.org/downloads/
 - Keywords: role playing, game engine, inspired by The Elder Scrolls III: Morrowing, remake, requires original content (Morrowind)
-- Code repository: https://github.com/OpenMW/openmw.git
+- Code repository: https://github.com/OpenMW/openmw.git, https://github.com/xyzz/openmw-android.git
 - Code language: C++
 - Code license: GPL-3.0
+
+See also [OpenMW on Android](https://omw.xyz.is/) and https://github.com/xyzz/openmw-android
 
 ## Building
 

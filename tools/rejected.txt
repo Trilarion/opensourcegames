@@ -36,6 +36,7 @@ KZap (http://kzap.sourceforge.net/): Very early development
 LastNinja (http://lastninja.sourceforge.net/, https://sourceforge.net/projects/lastninja/): Early development, Abandoned, Needs original material that is probably not obtainable legally
 legion (https://github.com/mahho/legion.git): No compatible license found
 Lemmix (http://www.ericenzwaan.nl/eric/lemmings/lemmix.htm, http://www.ericenzwaan.nl/eric/lemmings/LemOpenSource.zip): Custom license, requires original content that is probably not obtainable legally
+linball (http://linball.sourceforge.net/, https://sourceforge.net/projects/linball/): Very early development stage
 luminesk5 (https://github.com/kaikai2/luminesk5.git): No clear license information found. Not clear if runnable or if playable.
 Manic Miner (http://retrospec.sgn.net/game/mm): Unclear license (freeware?), probably many from retrospec.sgn.net
 Mining Haze (http://sourceforge.net/projects/mininghaze/): Very early development
@@ -56,6 +57,7 @@ Promisance (https://sourceforge.net/projects/promisance/,http://promisance.sourc
 pyspaceinvaders (https://github.com/map0logo/pyspaceinvaders.git): Too small
 PyTouhou (http://pytouhou.linkmauve.fr/,http://hg.linkmauve.fr/touhou): Sources not available anymore
 Racer (http://racer.sourceforge.net/, http://sourceforge.net/projects/racer/): Very early development, Inactive
+realmforge (https://sourceforge.net/projects/realmforge/): Went commercial
 Ruby OMF 2097 Remake (http://rubyomf2097.rubyforge.org/, svn://rubyforge.org/var/svn/rubyomf2097): No source code found, web site offline
 RuneSword II (https://sourceforge.net/projects/runesword/, http://runesword.sourceforge.net/, https://github.com/mattiascibien/Runesword.net, https://github.com/aceofspades19/Runesword-II-OS.Net): No license found
 sCoreForge Pathfinder Character Creator (https://sourceforge.net/projects/scoreforge/): No license found

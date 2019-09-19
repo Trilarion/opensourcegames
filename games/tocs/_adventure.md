@@ -8,6 +8,7 @@
 - **[Der Clou!](../der_clou.md)** (C, Custom, beta, inactive since 2017)
 - **[Digital: A Love Story](../digital_a_love_story.md)** (Ren'py, CC-BY-NC-SA, mature)
 - **[Dragon History - Dračí Historie](../dragon_history-dra_historie.md)** (Pascal, Script, GPL-2.0, mature, inactive since 2010)
+- **[Escape Towards The Unknown](../escape_towards_the_unknown.md)** (C, GPL-2.0, beta, inactive since 2016)
 - **[Fanwor](../fanwor.md)** (C, GPL-2.0, mature)
 - **[Free in the Dark (engine)](../free_in_the_dark_engine.md)** (C, C++, GPL-2.0, beta)
 - **[GameLV](../gamelv.md)** (C++, GPL-2.0, beta)

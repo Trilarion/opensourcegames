@@ -97,6 +97,8 @@ if __name__ == "__main__":
         osgc_entries.extend(_)
     print('{} entries in osgameclones'.format(len(osgc_entries)))
 
+    print('osgc-languages: {}'.format(unique_field_contents(osgc_entries, 'lang')))
+
     # eliminate the ignored entries
     osgc_entries = [x for x in osgc_entries if x['name'] not in osgc_ignored_entries]
 

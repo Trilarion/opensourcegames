@@ -10,3 +10,4 @@
 - **[StepMania](../stepmania.md)** (C, C++, Lua, MIT, mature)
 - **[UltraStar Deluxe](../ultrastar_deluxe.md)** (Pascal, GPL-2.0, mature)
 - **[Vocaluxe](../vocaluxe.md)** (C#, C++, GPL-3.0, beta, inactive since 2018)
+- **[Vortice](../vortice.md)** (C#, MIT, mature)

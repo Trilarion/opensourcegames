@@ -127,6 +127,7 @@
 - **[Summoning Wars](../summoning_wars.md)** (C, C++, Lua, GPL-3.0, beta, inactive since 2014)
 - **[SunDog Resurrection](../sundog_resurrection.md)** (Java, Python, ?, beta)
 - **[sundog](../sundog.md)** (C, C++, Python, MIT, beta)
+- **[Taggem](../taggem.md)** (JavaScript, AGPL-3.0, beta, inactive since 2014)
 - **[Tales of Maj'Eyal](../tales_of_majeyal.md)** (C, Lua, GPL-3.0, mature)
 - **[The Clans](../the_clans.md)** (C, GPL-2.0, beta, inactive since 2003)
 - **[The Dark Mod](../the_dark_mod.md)** (C++, GPL-3.0, mature)
@@ -147,4 +148,5 @@
 - **[World of Phaos](../world_of_phaos.md)** (PHP, GPL-2.0, mature, inactive since 2011)
 - **[xu4](../xu4.md)** (C++, GPL-2.0, mature, inactive since 2016)
 - **[ZAngband](../zangband.md)** (C, Custom, mature, inactive since 2005)
+- **[Zelda Classic](../zelda_classic.md)** (C, C++, GPL-3.0, mature)
 - **[Zelda: Mystery of Solarus DX](../zelda_mystery_of_solarus_dx.md)** (Lua, GPL-3.0, mature)

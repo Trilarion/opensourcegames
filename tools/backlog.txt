@@ -19,22 +19,15 @@ http://icculus.org/pyddr/
 http://icculus.org/tennix/
 http://icculus.org/toby/
 http://libsdl-android.sourceforge.net/
-http://linball.sourceforge.net/
 http://lukaszjakowski.pl/ (games apart from uMario)
-http://noiz2sa.sourceforge.net/
-http://parsec47.sourceforge.net/
 http://psyco.sourceforge.net/
 http://pyopengl.sourceforge.net/
 http://retrospec.sgn.net
-http://rrootage.sourceforge.net/
 http://sam.zoy.org/monsterz/
 http://stratagus.sourceforge.net/
-http://tumiki.sourceforge.net/
-http://vamos.sourceforge.net/
 http://www.celephais.net/fitzquake/
 http://www.codeskulptor.org/
 http://www.drpetter.se/project_sfxr.html
-http://www.fifengine.net/
 http://www.ibiblio.org/pub/Linux/games/strategy/ (and all others)
 http://www.myandroidonline.com/category/games/
 http://www.newbreedsoftware.com/s
@@ -83,14 +76,10 @@ https://fedoraproject.org/wiki/SIGs/Games#List_of_games_we_will_NOT_package
 https://flathub.org/home (use it for Linux packaging) / https://flathub.org/apps/category/Game
 https://freegamer.blogspot.com/2015/11/top-3-open-source-pinball-games.html
 https://futurepinball.com/
-https://github.com/amerkoleci/alimer
-https://github.com/amerkoleci/vortice
 https://github.com/Anthonymcqueen21/Pygame---Alien-Invasion
 https://github.com/ao-libre/ao-cliente
-https://github.com/apsillers/lords-of-the-fey
-https://github.com/apsillers/Taggem
-https://github.com/ArmageddonGames/ZeldaClassic
 https://github.com/assaultcube (https://sourceforge.net/projects/actiongame/)
+https://github.com/azhirnov/FrameGraph
 https://github.com/bitcraft/pyscroll
 https://github.com/bitcraft/PyTMX
 https://github.com/CatacombGames/
@@ -108,7 +97,6 @@ https://github.com/DeflatedPickle/FAOSDance
 https://github.com/ErikLetson/torso-ninja
 https://github.com/ErikLetson/torso-ninja-2
 https://github.com/flathub (all repositories which are games there)
-https://github.com/freeboardgame/FreeBoardGame.org
 https://github.com/gamearians
 https://github.com/grantjenks/free-python-games (check all)
 https://github.com/hparcells/cards-against-humanity
@@ -116,6 +104,7 @@ https://github.com/IceReaper/DesktopAdventuresToolkit
 https://github.com/id-Software/DOOM
 https://github.com/iortcw/iortcw (license)
 https://github.com/libretro/libretro-prboom
+https://github.com/LonamiWebs/Klooni1010
 https://github.com/LucKeyProductions/heXon
 https://github.com/OpenMandrivaAssociation
 https://github.com/opensourcedesign
@@ -131,7 +120,6 @@ https://github.com/theaigames
 https://github.com/Tinob/Ishiiruka (https://github.com/shiiion/Ishiiruka, https://github.com/SirMangler/PrimeHack-Updater)
 https://github.com/Wargus/stratagus
 https://github.com/wesnoth/haldric
-https://github.com/xyzz/openmw-android
 https://gitlab.com/LibreGames
 https://gitlab.com/vgstation/vgstation-old (and vgstation in general)
 https://libregamewiki.org/index.php?title=Libregamewiki_talk:Community_Portal&oldid=25410#Some_long_term_ideas
@@ -151,17 +139,9 @@ https://pyweek.org/4/entries/ (Ascent of Justice)
 https://revolutionarygamesstudio.com/ Trhive
 https://salsa.debian.org/games-team/etw
 https://scratch.mit.edu/ (https://en.scratch-wiki.info/wiki/Scratch_Source_Code)
-https://sourceforge.net/projects/actiongame/
-https://sourceforge.net/projects/deng/
-https://sourceforge.net/projects/ettu/
-https://sourceforge.net/projects/hhexen/
 https://sourceforge.net/projects/lgames/files/barrage/
-https://sourceforge.net/projects/librecardgame/
 https://sourceforge.net/projects/mininghaze/ - download didn't work
 https://sourceforge.net/projects/palomino-sim/ (http://www.jimbrooks.org/archive/software/palomino/)
-https://sourceforge.net/projects/pixellight/
-https://sourceforge.net/projects/realmforge/
-https://sourceforge.net/projects/webchess/
 https://stabyourself.net/ (all projects there)
 https://web.archive.org/web/20150526225753/http://sourceforge.net/projects/mameosx/
 https://web.archive.org/web/20150527150705/http://sourceforge.net/p/forge/community-docs/SourceForge%20Games/ (schon erledigt)

@@ -789,6 +789,12 @@ if __name__ == "__main__":
         urls = [x.strip() for x in urls]
         rejected_urls.extend(urls)
     game_urls.extend(rejected_urls)
+    more_urls = []
+    for url in game_urls:
+        if url.startswith('https://web.archive.org/web'):
+            url = url[url.index('http', 5):]
+            more_urls.append(url)
+    game_urls.extend(more_urls)
     stripped_game_urls = [utils.strip_url(x) for x in game_urls]
     clean_backlog(stripped_game_urls)
 

@@ -41,6 +41,14 @@
    "<a href=\"https://svn.code.sf.net/p/toohardforyou/code/\">Source</a> - C++ - GPL-2.0"
   ],
   [
+   "2Moons Browsergame Engine (<a href=\"https://gitter.im/2MoonsGame/Lobby/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/2moons_browsergame_engine.md\">entry</a>)",
+   "Space browsergame framework.",
+   "<a href=\"https://github.com/jkroepke/2Moons/releases\">Link</a>",
+   "mature / active",
+   "simulation, framework, space, strategy",
+   "<a href=\"https://github.com/jkroepke/2Moons.git\">Source</a> - PHP, JavaScript - MIT"
+  ],
+  [
    "3D Pong (<a href=\"http://www.newbreedsoftware.com/3dpong/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/3d_pong.md\">entry</a>)",
    "Three dimensional sports game.",
    "",
@@ -159,6 +167,14 @@
    "mature / active",
    "strategy, clone, inspired by Battle Isle series, turn-based",
    "<a href=\"https://github.com/ValHaris/asc-hq.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "adventure engine (<a href=\"https://github.com/isovector/adventure\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/adventure_engine.md\">entry</a>)",
+   "MOAI based point-n-click graphical adventure engine.",
+   "",
+   "mature / inactive since 2013",
+   "adventure, game engine",
+   "<a href=\"https://github.com/isovector/adventure.git\">Source</a> - Lua - MIT"
   ],
   [
    "Afternoon Stalker (<a href=\"http://perso.b2b2c.ca/~sarrazip/dev/afternoonstalker.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/afternoon_stalker.md\">entry</a>)",
@@ -577,6 +593,14 @@
    "<a href=\"https://github.com/mdsteele/azimuth.git\">Source</a> - C - GPL-3.0"
   ],
   [
+   "Bacon2D (<a href=\"https://web.archive.org/web/20171114191824/http://bacon2d.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/bacon2d.md\">entry</a>)",
+   "2D Game Engine for QML.",
+   "",
+   "beta / inactive since 2018",
+   "game engine",
+   "<a href=\"https://github.com/Bacon2D/Bacon2D.git\">Source</a> - C++ - MIT"
+  ],
+  [
    "Balder2D (<a href=\"http://balder.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/balder2d.md\">entry</a>)",
    "Multiplayer shooter in Zero Gravity.",
    "<a href=\"https://sourceforge.net/projects/balder/files/\">Link</a>",
@@ -769,6 +793,14 @@
    "<a href=\"https://gitlab.com/osgames/blacknova.git\">Source</a> - PHP, JavaScript - GPL-2.0"
   ],
   [
+   "Bladecoder Adventure Engine (<a href=\"https://github.com/bladecoder/bladecoder-adventure-engine\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/bladecoder_adventure_engine.md\">entry</a>)",
+   "Point and click adventure game engine and editor.",
+   "<a href=\"https://github.com/bladecoder/bladecoder-adventure-engine/releases\">Link</a>",
+   "mature / active",
+   "adventure, game engine",
+   "<a href=\"https://github.com/bladecoder/bladecoder-adventure-engine.git\">Source</a> - Java - Apache-2.0"
+  ],
+  [
    "BlakedAwesomenaughts (<a href=\"https://github.com/zombieman1041/BlakedAwesomenaughts\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/blakedawesomenaughts.md\">entry</a>)",
    "Remake of Awesomenauts.",
    "",
@@ -783,6 +815,14 @@
    "mature / active",
    "framework",
    "<a href=\"git://git.blender.org/blender.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "Blitwizard (<a href=\"https://github.com/jtc0de/Blitwizard\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/blitwizard.md\">entry</a>)",
+   "2d engine that runs Lua scripts.",
+   "",
+   "beta / inactive since 2015",
+   "game engine, 2D",
+   "<a href=\"https://github.com/jtc0de/Blitwizard.git\">Source</a> - C, C++, Lua - zlib"
   ],
   [
    "Blitzkrieg (<a href=\"https://sourceforge.net/projects/blitzkrieg/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/blitzkrieg.md\">entry</a>)",
@@ -1817,6 +1857,14 @@
    "<a href=\"https://gitlab.com/osgames/digitalalovestory.git\">Source</a> - Ren'py - CC-BY-NC-SA"
   ],
   [
+   "Dingo-Engine (<a href=\"https://github.com/FloppidyDingo/Dingo-Engine\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/dingo-engine.md\">entry</a>)",
+   "2D Game Engine for JavaFX.",
+   "",
+   "beta / inactive since 2016",
+   "game engine, 2D",
+   "<a href=\"https://github.com/FloppidyDingo/Dingo-Engine.git\">Source</a> - Java - 3-clause BSD"
+  ],
+  [
    "DNT (<a href=\"http://dnt.dnteam.org/cgi-bin/about.py\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/dnt.md\">entry</a>)",
    "3D RPG in a satirical post-apocalyptic world.",
    "<a href=\"http://dnt.dnteam.org/cgi-bin/downloads.py\">Link</a>",
@@ -1839,6 +1887,14 @@
    "mature / active",
    "strategy, board game, risklike",
    "<a href=\"https://svn.code.sf.net/p/domination/code/\">Source</a> - Java - GPL-3.0"
+  ],
+  [
+   "DOOM (<a href=\"https://github.com/id-Software/DOOM\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/doom.md\">entry</a>)",
+   "Source of DOOM.",
+   "",
+   "mature / inactive since 2012",
+   "action, first-person, game engine, shooter",
+   "<a href=\"https://github.com/id-Software/DOOM.git\">Source</a> - C - Custom"
   ],
   [
    "Doom Legacy (<a href=\"http://doomlegacy.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/doom_legacy.md\">entry</a>)",
@@ -3049,6 +3105,14 @@
    "Java - ?"
   ],
   [
+   "Grail (<a href=\"http://leetless.de/tag-Grail.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/grail.md\">entry</a>)",
+   "2D Point-and-click adventure game engine.",
+   "",
+   "beta / inactive since 2013",
+   "adventure, 2D, game engine",
+   "<a href=\"https://github.com/Droggelbecher/Grail.git\">Source</a> - C++, Lua - GPL-3.0"
+  ],
+  [
    "Greenius' Civil War (<a href=\"http://civilwar.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/greenius_civil_war.md\">entry</a>)",
    "Open Sourced version of American Civil War game for DOS,..",
    "",
@@ -3385,6 +3449,14 @@
    "<a href=\"https://github.com/iamgreaser/iceball.git\">Source</a> - C, Lua - GPL-3.0"
   ],
   [
+   "ika (<a href=\"https://github.com/andyfriesen/ika\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/ika.md\">entry</a>)",
+   "Role playing game engine.",
+   "",
+   "beta / inactive since 2007",
+   "role playing, game engine",
+   "<a href=\"https://github.com/andyfriesen/ika.git\">Source</a> - C++, Python, PHP, C# - GPL-2.0"
+  ],
+  [
    "Ilarion (<a href=\"http://illarion.org/general/de_startpage.php\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/ilarion.md\">entry</a>)",
    "Free Open Source-MMORPG, with emphasis on real roleplay.",
    "<a href=\"http://illarion.org/illarion/de_java_download.php\">Link</a>",
@@ -3431,6 +3503,14 @@
    "mature / active",
    "action, game engine, inspired by Quake 3, remake, requires original content, shooter",
    "<a href=\"https://github.com/ioquake/ioq3.git\">Source</a> - C - GPL-2.0"
+  ],
+  [
+   "iortcw (<a href=\"https://github.com/iortcw/iortcw\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/iortcw.md\">entry</a>)",
+   "Merge of ioquake3 features and fixes into RTCW code bases.",
+   "<a href=\"https://github.com/iortcw/iortcw/releases\">Link</a>",
+   "mature / active",
+   "remake, first-person, inspired by Return to Castle Wolfenstein, shooter",
+   "<a href=\"https://github.com/iortcw/iortcw.git\">Source</a> - C, C++ - GPL"
   ],
   [
    "Iris2 (<a href=\"https://web.archive.org/web/20160809064454/https://iris2.de/index.php/Main_Page\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/iris2.md\">entry</a>)",
@@ -4033,7 +4113,7 @@
    "C - LGPL-2.0"
   ],
   [
-   "L\u00d6VE (<a href=\"https://love2d.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/lve.md\">entry</a>)",
+   "L\u00d6VE (<a href=\"https://love2d.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/love.md\">entry</a>)",
    "L\u00d6VE is a framework you can use to make 2D games in Lua.",
    "",
    "mature / active",
@@ -4543,6 +4623,14 @@
    "beta / inactive since 2004",
    "arcade, shootem",
    "C, C++ - 2-clause BSD"
+  ],
+  [
+   "NOVA PINBALL (<a href=\"http://wesleywerner.github.io/nova-pinball/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/nova_pinball.md\">entry</a>)",
+   "Pinball game.",
+   "<a href=\"https://github.com/wesleywerner/nova-pinball/releases\">Link</a>",
+   "beta / inactive since 2017",
+   "sports",
+   "<a href=\"https://github.com/wesleywerner/nova-pinball.git\">Source</a> - Lua - GPL-3.0"
   ],
   [
    "NStars! (<a href=\"http://nstars.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/nstars.md\">entry</a>)",
@@ -5455,6 +5543,14 @@
    "beta / active",
    "simulation, commercial content, inspired by Outpost, remake, requires original content",
    "<a href=\"https://github.com/ldicker83/OPHD.git\">Source</a> - C++ - 3-clause BSD"
+  ],
+  [
+   "ouzel (<a href=\"https://github.com/elnormous/ouzel\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/ouzel.md\">entry</a>)",
+   "Game engine mainly targeted for development of 2D games.",
+   "",
+   "beta / active",
+   "game engine, 2D",
+   "<a href=\"https://github.com/elnormous/ouzel.git\">Source</a> - C, C++, Objective-C - 2-clause BSD"
   ],
   [
    "pacman-canvas (<a href=\"http://pacman.platzh1rsch.ch/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/pacman-canvas.md\">entry</a>)",
@@ -6737,6 +6833,14 @@
    "C# - GPL-3.0"
   ],
   [
+   "Spooker Framework (<a href=\"https://github.com/deathbeam/spooker\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/spooker_framework.md\">entry</a>)",
+   "Game framework.",
+   "",
+   "beta / inactive since 2014",
+   "puzzle, game framework",
+   "<a href=\"https://github.com/deathbeam/spooker.git\">Source</a> - C# - MIT"
+  ],
+  [
    "Spring (<a href=\"https://springrts.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/spring.md\">entry</a>)",
    "Game engine for real-time strategy (RTS) video games.",
    "<a href=\"https://springrts.com/wiki/Download\">Link</a>",
@@ -7687,6 +7791,14 @@
    "beta / inactive since 2007",
    "role playing",
    "<a href=\"https://gitlab.com/osgames/uwadv.git\">Source</a> - C++, Lua - GPL-2.0"
+  ],
+  [
+   "Undum (<a href=\"http://idmillington.github.io/undum/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/undum.md\">entry</a>)",
+   "Client-side framework for narrative hypertext interactive..",
+   "",
+   "mature / inactive since 2018",
+   "framework, interactive fiction, text based",
+   "<a href=\"https://github.com/idmillington/undum.git\">Source</a> - JavaScript - MIT"
   ],
   [
    "uninvited (<a href=\"https://github.com/DavidGriffith/uninvited\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/uninvited.md\">entry</a>)",

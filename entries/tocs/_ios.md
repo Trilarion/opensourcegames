@@ -5,4 +5,7 @@
 - **[Esenthel Engine](../esenthel_engine.md)** (C, C++, Custom, beta)
 - **[Gorillas](../gorillas.md)** (Objective-C, JavaScript, Java Research License, mature, inactive since 2014)
 - **[Hedgewars](../hedgewars.md)** (Lua, C, C++, Pascal, Haskell, GPL-2.0, mature)
+- **[LÖVE](../love.md)** (C++, zlib, mature)
+- **[NOVA PINBALL](../nova_pinball.md)** (Lua, GPL-3.0, beta, inactive since 2017)
 - **[OpenLara](../openlara.md)** (C++, 2-clause BSD, mature)
+- **[ouzel](../ouzel.md)** (C, C++, Objective-C, 2-clause BSD, beta)

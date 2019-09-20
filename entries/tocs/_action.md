@@ -67,6 +67,7 @@
 - **[DOOM Retro](../doom_retro.md)** (C, C++, GPL-3.0, mature)
 - **[DOOM-iOS](../doom-ios.md)** (C++, GPL-2.0, mature, inactive since 2012)
 - **[Doom64EX](../doom64ex.md)** (C, C++, GPL-2.0, mature)
+- **[DOOM](../doom.md)** (C, Custom, mature, inactive since 2012)
 - **[Doomsday Engine](../doomsday_engine.md)** (C, C++, GPL-2.0, GPL-3.0, LGPL-3.0, mature)
 - **[Duke3D](../duke3d.md)** (C, GPL-2.0, beta, inactive since 2009)
 - **[Duke3d_w32](../duke3dw32.md)** (C, GPL-2.0, beta, inactive since 2008)

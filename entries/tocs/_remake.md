@@ -169,6 +169,7 @@
 - **[Iceball](../iceball.md)** (C, Lua, GPL-3.0, inactive since 2017)
 - **[Inexor](../inexor.md)** (C++, JavaScript, zlib, beta, inactive since 2018)
 - **[ioquake3](../ioquake3.md)** (C, GPL-2.0, mature)
+- **[iortcw](../iortcw.md)** (C, C++, GPL, mature)
 - **[Iris2](../iris2.md)** (C, C++, Lua, GPL-3.0, beta, inactive since 2017)
 - **[Iron Seed](../iron_seed.md)** (Pascal, GPL-3.0, mature, inactive since 2013)
 - **[irrlamb](../irrlamb.md)** (C, C++, GPL-3.0, mature)

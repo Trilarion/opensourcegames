@@ -3,6 +3,7 @@
 _Clone of Super Mario._
 
 - Home: https://supertux.org/
+- Media: https://en.wikipedia.org/wiki/SuperTux
 - State: beta
 - Download: https://www.supertux.org/download.html, https://github.com/SuperTux/supertux/releases
 - Platform: Windows, Linux, macOS

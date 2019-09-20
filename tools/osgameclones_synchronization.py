@@ -71,6 +71,7 @@ def unique_field_contents(entries, field):
     unique_content = sorted(list(unique_content), key=str.casefold)
     return unique_content
 
+
 if __name__ == "__main__":
 
     similarity_threshold = 0.8

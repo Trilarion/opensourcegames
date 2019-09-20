@@ -272,7 +272,7 @@ def strip_url(url):
     for prefix in ('http://', 'https://'):
         if url.startswith(prefix):
             url = url[len(prefix):]
-    for prefix in ('www'):
+    for prefix in ('www.',):
         if url.startswith(prefix):
             url = url[len(prefix):]
     for suffix in ('/', '.git', '/en', '/index.html'):

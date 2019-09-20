@@ -2,7 +2,9 @@
 # Adventure
 
 - **[AdaVenture](../adaventure.md)** (Ada, GPL-3.0, mature)
+- **[adventure engine](../adventure_engine.md)** (Lua, MIT, mature, inactive since 2013)
 - **[Azimuth](../azimuth.md)** (C, GPL-3.0, mature)
+- **[Bladecoder Adventure Engine](../bladecoder_adventure_engine.md)** (Java, Apache-2.0, mature)
 - **[Childsplay](../childsplay.md)** (Python, GPL-3.0, mature)
 - **[Colossal Cave Adventure](../colossal_cave_adventure.md)** (Python, Apache-2.0, mature)
 - **[Der Clou!](../der_clou.md)** (C, Custom, beta, inactive since 2017)
@@ -12,6 +14,7 @@
 - **[Fanwor](../fanwor.md)** (C, GPL-2.0, mature)
 - **[Free in the Dark (engine)](../free_in_the_dark_engine.md)** (C, C++, GPL-2.0, beta)
 - **[GameLV](../gamelv.md)** (C++, GPL-2.0, beta)
+- **[Grail](../grail.md)** (C++, Lua, GPL-3.0, beta, inactive since 2013)
 - **[Head over Heels](../head_over_heels.md)** (C++, GPL-3.0, mature)
 - **[Heart of the Alien](../heart_of_the_alien.md)** (C, GPL-2.0, beta, inactive since 2005)
 - **[javascript-E.T.](../javascript-et.md)** (JavaScript, Assembly, MIT, beta, inactive since 2017)

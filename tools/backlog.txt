@@ -10,21 +10,17 @@ http://box2d.org/
 http://cake.4lfa.com/gamecake
 http://circularstudios.com/
 http://cocos2d-x.org/
-http://commandojs.org/
 http://corengine.sourceforge.net/
 http://cosp.sourceforge.net/
 http://cyxdown.free.fr/bs/
 http://cyxdown.free.fr/f2b/
 http://dead-code.org/home/
-http://devana.eu/
 http://directpython.sourceforge.net/
 http://dragengine.rptd.ch/
 http://duality.adamslair.net/
 http://enigma-dev.org/about.htm
-http://epiar.net/
 http://evolonline.org/about
 http://forums.scummvm.org/viewtopic.php?t=13512&highlight=open+source
-http://freeminer.org/
 http://freerct.blogspot.de/
 http://game-editor.com/Main_Page
 http://getmoai.com/
@@ -41,7 +37,6 @@ http://icculus.org/freespace2/
 http://icculus.org/freyja/
 http://icculus.org/hge-unix/ http://hge.relishgames.com/
 http://icculus.org/jugglemaster/
-http://icculus.org/jumpnbump/
 http://icculus.org/pyddr/
 http://icculus.org/tennix/
 http://icculus.org/toby/
@@ -60,31 +55,24 @@ http://melonjs.org/
 http://onscripter.osdn.jp/onscripter.html
 http://openapoc.pmprog.co.uk/
 http://pathfinder.wikia.com/wiki/Pathfinder_Roleplaying_Game
-http://paxbritannica.henk.ca/
 http://phaser.io/
 http://playir.com/
 http://plib.sourceforge.net/
 http://psyco.sourceforge.net/
-http://pygame.org/project-Ardentryst-596-.html
 http://pygame.org/project-Dododu-1134-.html
-http://pygame.org/project-Fallen+Spire-1033-.html
 http://pygame.org/project-Lands+of+Elderlore-294-.html
 http://pygame.org/project-LOF-2296-.html
 http://pygame.org/project-Mines+of+Elderlore-674-.html
 http://pygame.org/project-Monstrosity-2993-.html
 http://pygame.org/project-Phantasy+Star+Rebirth-1704-.html
 http://pygame.org/project-Ransack-2408-.html
-http://pygame.org/project-Story+of+a+Lost+Sky-1106-.html
 http://pygame.org/project-The+Cabbages-2077-.html
-http://pygame.org/project-UlDunAd-1140-.html
 http://pyopengl.sourceforge.net/
-http://radakan.org/
 http://rcbasic.com/
 http://retrospec.sgn.net
 http://s1.zetaboards.com/Imperilist/index/
 http://sam.zoy.org/monsterz/
 http://scorched-moon.github.io/site/
-http://scummvm.org/
 http://senseis.xmp.net/?GoPlayingPrograms
 http://sio2interactive.com/
 http://slick.ninjacave.com/
@@ -100,7 +88,6 @@ http://turbu-rpg.com/
 http://twinery.org/
 http://verge-rpg.com/
 http://wiki.scummvm.org/index.php/HOWTO-Fangames
-http://worldforge.org/
 http://www.13thmonkey.org/~boris/jgame/
 http://www.abandonia.com/en/games/138/Hidden+Agenda.html
 http://www.abandonia.com/en/games/25660/Crisis+in+the+Kremlin.html
@@ -112,18 +99,15 @@ http://www.bennugd.org/node/4
 http://www.byond.com/
 http://www.cafu.de/
 http://www.celephais.net/fitzquake/
-http://www.civone.com/
 http://www.codeskulptor.org/
 http://www.compilgames.net/main.html
 http://www.computerchess.org.uk/ccrl/4040/rating_list_all.html
 http://www.crystalspace3d.org/main/Main_Page
-http://www.deltaengine.net/
 http://www.divgo.net/
 http://www.dosbox.com/download.php?main=1
 http://www.drpetter.se/project_sfxr.html
 http://www.dungeoncrawl.org/?d.l
 http://www.engine001.com/
-http://www.flarerpg.org/
 http://www.freemmorpgmaker.com/
 http://www.gameplay3d.io/
 http://www.garagegames.com/products/torque-3d
@@ -157,20 +141,14 @@ http://www.newbreedsoftware.com/s
 http://www.ph2.net/zugspiel/
 http://www.plasmapong.com/plasma-pong/plasma-pong/
 http://www.qiciengine.com/
-http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/index.htm
 http://www.rpgtoolkit.net/
 http://www.rtsoft.com/novashell/
-http://www.runesword.com/rs2.html
-http://www.ryzomcore.org/
 http://www.sandboxgamemaker.com/
 http://www.scirra.com/construct-classic
 http://www.siedler25.org/index.php?com=dynamic&mod=1&lang=en&PHPSESSID=0hmj4aug1fqa80jbk15kcafh71
 http://www.silversecond.com/WolfRPGEditor/
-http://www.spacestation13.com/
 http://www.spheredev.org/
-http://www.thousandparsec.net/tp/
 http://www.tvgigant.de/en/index
-http://www.unknown-horizons.org/
 http://www.usgo.org/go-software
 http://www.vbgore.com/Main_Page
 http://www.wurfelengine.net/
@@ -180,6 +158,7 @@ https://aleph-one-marathon.github.io/
 https://app.assembla.com/spaces/openrpg/wiki
 https://app.assembla.com/spaces/Project_Valkyrie2/wiki
 https://appimage.org/
+https://blenderartists.org/t/devils-pinball/552785
 https://blends.debian.org/games/tasks/
 https://carrot.soulweaver.fi/#links
 https://cocainediesel.fun/
@@ -201,9 +180,6 @@ https://en.wikipedia.org/w/index.php?title=Simon_Tatham%27s_Portable_Puzzle_Coll
 https://en.wikipedia.org/w/index.php?title=Simple_Solitaire_Collection&action=edit&redlink=1
 https://en.wikipedia.org/w/index.php?title=Super_Tux_Party&action=edit&redlink=1
 https://en.wikipedia.org/w/index.php?title=Trigger_Rally&action=edit&redlink=1
-https://en.wikipedia.org/wiki/Abuse_(video_game)
-https://en.wikipedia.org/wiki/Arx_Fatalis
-https://en.wikipedia.org/wiki/AssaultCube prop. content
 https://en.wikipedia.org/wiki/Crystal_Space
 https://en.wikipedia.org/wiki/GNOME_Games_Collection
 https://en.wikipedia.org/wiki/GNU_Chess
@@ -215,37 +191,21 @@ https://en.wikipedia.org/wiki/MUD_client (all there)
 https://en.wikipedia.org/wiki/No_Gravity_(video_game)
 https://en.wikipedia.org/wiki/One_Hour_One_Life
 https://en.wikipedia.org/wiki/Passage_(video_game)
-https://en.wikipedia.org/wiki/Rigs_of_Rods
 https://en.wikipedia.org/wiki/Rocks%27n%27Diamonds
-https://en.wikipedia.org/wiki/Scorched_3D
-https://en.wikipedia.org/wiki/Seven_Kingdoms_(video_game)
-https://en.wikipedia.org/wiki/Sopwith_(video_game)
-https://en.wikipedia.org/wiki/StepMania
-https://en.wikipedia.org/wiki/SuperTux
 https://en.wikipedia.org/wiki/Teeworlds
-https://en.wikipedia.org/wiki/Ten%C3%A9s_Empanadas_Graciela
-https://en.wikipedia.org/wiki/Tux,_of_Math_Command
-https://en.wikipedia.org/wiki/Warmux
 https://fedoraproject.org/wiki/SIGs/Games#List_of_games_we_will_NOT_package
 https://flathub.org/home (use it for Linux packaging) / https://flathub.org/apps/category/Game
-https://freegamer.blogspot.com/2015/11/top-3-open-source-pinball-games.html
+https://freegamer.blogspot.com (maybe there is something interesting)
 https://futurepinball.com/
-https://github.com/advocaite/ikariam
-https://github.com/andyfriesen/ika
 https://github.com/Anthonymcqueen21/Pygame---Alien-Invasion
+https://github.com/anura-engine/anura
 https://github.com/ao-libre/ao-cliente
-https://github.com/assaultcube (https://sourceforge.net/projects/actiongame/)
 https://github.com/azhirnov/FrameGraph
-https://github.com/Bacon2D/Bacon2D
 https://github.com/bitcraft/pyscroll
 https://github.com/bitcraft/PyTMX
-https://github.com/bladecoder/bladecoder-adventure-engine
-https://github.com/brad811/dart-rpg
 https://github.com/carriercomm/crystal-picnic
 https://github.com/CatacombGames/
 https://github.com/Chluverman/android-gltron
-https://github.com/christopho/zsdx
-https://github.com/cjeffery/sworsorc
 https://github.com/collections/game-engines (only OS)
 https://github.com/collections/javascript-game-engines (only OS)
 https://github.com/collections/pixel-art-tools (tools)
@@ -255,30 +215,16 @@ https://github.com/collections/tools-for-open-source (maybe we can apply some)
 https://github.com/collections/web-games (only OS)
 https://github.com/Cortrah/SpaceOperaDesign, https://github.com/Cortrah/SpaceOperaRuby/blob/master/design/turnstyles.md
 https://github.com/cping/LGame
-https://github.com/CrociDB/biju-game
-https://github.com/deathbeam/spooker
 https://github.com/DeflatedPickle/FAOSDance
-https://github.com/degenerated1123/REGoth
-https://github.com/Droggelbecher/Grail/
-https://github.com/EdwardWoodhouse/Turn-of-War
-https://github.com/elnormous/ouzel
 https://github.com/ErikLetson/torso-ninja
 https://github.com/ErikLetson/torso-ninja-2
 https://github.com/flathub (all repositories which are games there)
-https://github.com/FloppidyDingo/Dingo-Engine
-https://github.com/frogatto/frogatto
 https://github.com/FUSEEProjectTeam/Fusee
 https://github.com/gamearians
 https://github.com/grantjenks/free-python-games (check all)
-https://github.com/guillaume-gouchon/warlords-online
 https://github.com/hparcells/cards-against-humanity
 https://github.com/hypatia-software-org/hypatia-engine
-https://github.com/IceReaper/DesktopAdventuresToolkit
-https://github.com/id-Software/DOOM
-https://github.com/idmillington/undum
-https://github.com/iortcw/iortcw (license)
-https://github.com/isovector/adventure
-https://github.com/jkroepke/2Moons
+https://github.com/id-Software
 https://github.com/JonasT/Blitwizard
 https://github.com/joulupunikki/Phoenix
 https://github.com/KasaiDot/the-black-wars
@@ -317,15 +263,10 @@ https://github.com/wesnoth/haldric
 https://gitlab.com/LibreGames
 https://gitlab.com/vgstation/vgstation-old (and vgstation in general)
 https://lgdb.org/engine/rawgl
-https://lgdb.org/game/digital_love_story
 https://lgdb.org/game/katawa_shoujo
-https://lgdb.org/game/murder_public_domain
 https://lgdb.org/game/our-personal-space
-https://lgdb.org/game/star_maiden_rio
 https://lgdb.org/game/sunrider
 https://lgdb.org/game/visions_other_side
-https://lgdb.org/game/wizards_magic
-https://lgdb.org/game/wolfpack-empire
 https://libregamewiki.org/Alexei:_Part_IX
 https://libregamewiki.org/CameliaGirls
 https://libregamewiki.org/Childish_Cannoneer
@@ -335,7 +276,6 @@ https://opensludge.github.io/
 https://osdn.net/softwaremap/trove_list.php?form_cat=80
 https://packages.debian.org/sid/games/etw
 https://pixeldoctrine.com/index.html (more than just slime volleyball)
-https://play.freeciv.org/
 https://play.google.com/store/apps/dev?id=8387589286898375037 (where is the source, not open source otherwise)
 https://playcanvas.com/
 https://pypi.org/project/CherryPy/

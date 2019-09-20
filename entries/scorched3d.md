@@ -3,6 +3,7 @@
 _Lively, fully destructible 3D landscapes in a turn-based artillery game._
 
 - Home: http://www.scorched3d.co.uk/, https://sourceforge.net/projects/scorched3d/
+- Media: https://en.wikipedia.org/wiki/Scorched_3D
 - State: mature, inactive since 2014
 - Download: http://www.scorched3d.co.uk/#download, https://sourceforge.net/projects/scorched3d/files/
 - Platform: Windows, Linux

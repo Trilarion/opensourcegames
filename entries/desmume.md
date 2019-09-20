@@ -11,5 +11,7 @@ _Nintendo DS emulator._
 - Code language: C, C++
 - Code license: GPL-2.0
 
+See also: https://github.com/IceReaper/DesktopAdventuresToolkit
+
 ## Building
 

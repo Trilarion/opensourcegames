@@ -68,6 +68,7 @@
 - **[HexGL](../hexgl.md)** (JavaScript, CoffeeScript, MIT, mature, inactive since 2016)
 - **[HolySpirit](../holyspirit.md)** (C++, GPL-3.0, beta, inactive since 2013)
 - **[HyperRogue](../hyperrogue.md)** (C++, GPL-2.0, mature)
+- **[ika](../ika.md)** (C++, Python, PHP, C#, GPL-2.0, beta, inactive since 2007)
 - **[Ilarion](../ilarion.md)** (C++, Java, Lua, GPL-3.0, mature)
 - **[Imperium](../imperium.md)** (?, ?, mature)
 - **[Iris2](../iris2.md)** (C, C++, Lua, GPL-3.0, beta, inactive since 2017)

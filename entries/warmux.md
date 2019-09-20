@@ -3,6 +3,7 @@
 _Clone of Worms Series._
 
 - Home: https://web.archive.org/web/20170513192248/http://gna.org/projects/warmux/
+- https://en.wikipedia.org/wiki/Warmux
 - State: beta, inactive since XX
 - Keywords: platform, artillery, clone, inspired by Worms Series
 - Code repository: https://github.com/yeKcim/warmux.git (see trunk directory)

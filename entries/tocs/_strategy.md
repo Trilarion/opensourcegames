@@ -3,6 +3,7 @@
 
 - **[0 A.D.](../0_ad.md)** (C, C++, GPL-2.0, beta)
 - **[1oom](../1oom.md)** (C, GPL-2.0, mature)
+- **[2Moons Browsergame Engine](../2moons_browsergame_engine.md)** (PHP, JavaScript, MIT, mature)
 - **[A Planet's Revenge](../a_planets_revenge.md)** (Python, GPL-3.0, beta, inactive since 2008)
 - **[Advanced Strategic Command](../advanced_strategic_command.md)** (C++, GPL-2.0, mature)
 - **[AI Wars](../ai_wars.md)** (Python, MIT, beta, inactive since 2010)

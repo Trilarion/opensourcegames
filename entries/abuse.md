@@ -3,6 +3,7 @@
 _Dark 2D side-scrolling platform game._
 
 - Home: http://abuse.zoy.org/
+- Media: https://en.wikipedia.org/wiki/Abuse_(video_game)
 - State: mature, inactive since 2011
 - Download: http://abuse.zoy.org/wiki/download
 - Platform: Linux

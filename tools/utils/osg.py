@@ -47,10 +47,12 @@ def canonical_game_name(name):
     """
     Derives a canonical game name from an actual game name (suitable for file names, ...)
     """
+    name = name.casefold()
+    name = name.replace('ö', 'o').replace('ä', 'a').replace('ü', 'u')
     name = regex_sanitize_name.sub('', name)
     name = regex_sanitize_name_space_eater.sub('_', name)
     name = name.replace('_-_', '-')
-    name = name.casefold()
+
     return name
 
 

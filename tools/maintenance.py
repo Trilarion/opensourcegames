@@ -52,7 +52,7 @@ def update_readme_and_tocs(infos):
     # create all toc
     title = 'All'
     file = '_all.md'
-    tocs_text = '**[{} entries](games/tocs/{}#{})** ({})\n'.format(title, file, title, len(infos))
+    tocs_text = '**[{} entries](entries/tocs/{}#{})** ({})\n'.format(title, file, title, len(infos))
     create_toc(title, file, infos)
 
     # create by category
@@ -62,7 +62,7 @@ def update_readme_and_tocs(infos):
         title = keyword.capitalize()
         name = keyword.replace(' ', '-')
         file = '_{}.md'.format(name)
-        categories_text.append('**[{}](games/tocs/{}#{})** ({})'.format(title, file, name, len(infos_filtered)))
+        categories_text.append('**[{}](entries/tocs/{}#{})** ({})'.format(title, file, name, len(infos_filtered)))
         create_toc(title, file, infos_filtered)
     categories_text.sort()
     tocs_text += '\nBy category: {}\n'.format(', '.join(categories_text))
@@ -74,7 +74,7 @@ def update_readme_and_tocs(infos):
         title = platform
         name = platform.lower()
         file = '_{}.md'.format(name)
-        platforms_text.append('**[{}](games/tocs/{}#{})** ({})'.format(title, file, name, len(infos_filtered)))
+        platforms_text.append('**[{}](entries/tocs/{}#{})** ({})'.format(title, file, name, len(infos_filtered)))
         create_toc(title, file, infos_filtered)
     tocs_text += '\nBy platform: {}\n'.format(', '.join(platforms_text))
 
@@ -545,7 +545,7 @@ def export_json(infos):
 
         # game & description
         entry = ['{} (<a href="{}">home</a>, <a href="{}">entry</a>)'.format(info['name'], info['home'][0],
-            r'https://github.com/Trilarion/opensourcegames/blob/master/games/' + info['file']),
+            r'https://github.com/Trilarion/opensourcegames/blob/master/entries/' + info['file']),
             textwrap.shorten(info['description'], width=60, placeholder='..')]
 
         # download
@@ -587,7 +587,7 @@ def export_json(infos):
     db['data'] = entries
 
     # output
-    json_path = os.path.join(c.games_path, os.path.pardir, 'docs', 'data.json')
+    json_path = os.path.join(c.entries_path, os.path.pardir, 'docs', 'data.json')
     text = json.dumps(db, indent=1)
     utils.write_text(json_path, text)
 
@@ -780,9 +780,17 @@ if __name__ == "__main__":
 
     # backlog
     game_urls = osg.extract_links()
+    text = utils.read_text(os.path.join(c.root_path, 'tools', 'rejected.txt'))
+    regex = re.compile(r"\((http.*?)\)", re.MULTILINE)
+    matches = regex.findall(text)
+    rejected_urls = []
+    for match in matches:
+        urls = match.split(',')
+        urls = [x.strip() for x in urls]
+        rejected_urls.extend(urls)
+    game_urls.extend(rejected_urls)
     stripped_game_urls = [utils.strip_url(x) for x in game_urls]
     clean_backlog(stripped_game_urls)
-
 
     # check for unfilled template lines
     check_template_leftovers()

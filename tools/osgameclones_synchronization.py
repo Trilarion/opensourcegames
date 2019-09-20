@@ -1,4 +1,4 @@
-"""
+﻿"""
 
 osgameclones has the following fields:
 'updated', 'video', 'repo', 'license', 'originals', 'status', 'multiplayer', 'info', 'lang', 'feed', 'content', 'images', 'url', 'name', 'framework', 'type', 'development'
@@ -145,8 +145,7 @@ if __name__ == "__main__":
     print('osgc-content: {}'.format(unique_field_contents(osgc_entries, 'content')))
 
     # read our database
-    games_path = os.path.join(root_path, 'games')
-    our_entries = assemble_infos(games_path)
+    our_entries = assemble_infos(c.entries_path)
     print('{} entries with us'.format(len(our_entries)))
 
     # just the names
@@ -312,10 +311,10 @@ if __name__ == "__main__":
             # determine file name
             print('create new entry for {}'.format(osgc_name))
             file_name = canonical_game_name(osgc_name) + '.md'
-            target_file = os.path.join(games_path, file_name)
+            target_file = os.path.join(entries_path, file_name)
             if os.path.isfile(target_file):
                 print('warning: file {} already existing, save under slightly different name'.format(file_name))
-                target_file = os.path.join(games_path, file_name[:-3] + '-duplicate.md')
+                target_file = os.path.join(entries_path, file_name[:-3] + '-duplicate.md')
                 if os.path.isfile(target_file):
                     continue # just for safety reasons
 

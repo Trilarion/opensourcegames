@@ -26,11 +26,11 @@ def entry_iterator():
     """
 
     # get all entries (ignore everything starting with underscore)
-    entries = os.listdir(c.games_path)
+    entries = os.listdir(c.entries_path)
 
     # iterate over all entries
     for entry in entries:
-        entry_path = os.path.join(c.games_path, entry)
+        entry_path = os.path.join(c.entries_path, entry)
 
         # ignore directories ("tocs" for example)
         if os.path.isdir(entry_path):
@@ -217,8 +217,8 @@ def assemble_infos():
         # we also allow -X with X =2..9 as possible extension (because of duplicate canonical file names)
         if canonical_file_name != entry and canonical_file_name != entry[:-5] + '.md':
             print('file {} should be {}'.format(entry, canonical_file_name))
-            source_file = os.path.join(c.games_path, entry)
-            target_file = os.path.join(c.games_path, canonical_file_name)
+            source_file = os.path.join(c.entries_path, entry)
+            target_file = os.path.join(c.entries_path, canonical_file_name)
             if not os.path.isfile(target_file):
                 pass
                 # os.rename(source_file, target_file)

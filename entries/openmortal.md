@@ -7,8 +7,10 @@ _Clone of Mortal Kombat._
 - Download: http://openmortal.sourceforge.net/download.html
 - Platform: Windows, Linux, macOS
 - Keywords: action, clone, inspired by Mortal Kombat
-- Code repository: http://openmortal.cvs.sourceforge.net (cvs)
-- Code language: C++
+- Code repository: https://gitlab.com/osgames/openmortal.git (conversion of cvs), http://openmortal.cvs.sourceforge.net (cvs)
+- Code language: C++, Perl
 - Code license: GPL-2.0
 
 ## Building
+
+- Build system: Make

@@ -6,8 +6,8 @@ _Remake of Rescue!._
 - State: beta, inactive since 2013
 - Download: https://sourceforge.net/projects/rescue/files/
 - Keywords: action, inspired by Rescue!, real time, remake, space, strategy
-- Code repository: http://svn.code.sf.net/p/rescue/code/ (svn)
+- Code repository: https://gitlab.com/osgames/rescue.git (clone of svn), http://svn.code.sf.net/p/rescue/code/ (svn)
 - Code language: Java
-- Code license: GPL-2.0
+- Code license: GPL-3.0
 
 ## Building

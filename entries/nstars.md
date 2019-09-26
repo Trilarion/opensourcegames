@@ -9,6 +9,6 @@ _Remake of Stars!._
 - Keywords: strategy, inspired by Stars!, remake
 - Code repository: http://nstars.cvs.sourceforge.net (cvs)
 - Code language: C#
-- Code license: GPL-2.0
+- Code license: ?
 
 ## Building

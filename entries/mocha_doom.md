@@ -8,6 +8,6 @@ _Remake of Doom, Doom II, Heretic, Hexen._
 - Keywords: remake, first-person, inspired by Doom + Doom II + Heretic + Hexen, shooter
 - Code repository: http://mochadoom.cvs.sourceforge.net (cvs)
 - Code language: Java
-- Code license: GPL-3.0
+- Code license: ?
 
 ## Building

@@ -61,7 +61,7 @@
 - **[Race Into Space](../race_into_space.md)** (C, C++, GPL-2.0, mature)
 - **[Rigs of Rods](../rigs_of_rods.md)** (C, C++, AngelScript, GPL-3.0, mature)
 - **[Simutrans](../simutrans.md)** (C++, Artistic License, mature)
-- **[Sopwith 3](../sopwith_3.md)** (C++, GPL-2.0, beta, inactive since 2003)
+- **[Sopwith 3](../sopwith_3.md)** (C, C++, Objective-C, GPL-2.0, beta, inactive since 2003)
 - **[Stunt Car Racer Remake](../stunt_car_racer_remake.md)** (C++, BSD, beta, inactive since 2012)
 - **[SunDog Resurrection](../sundog_resurrection.md)** (Java, Python, ?, beta)
 - **[sundog](../sundog.md)** (C, C++, Python, MIT, beta)

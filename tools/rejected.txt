@@ -4,6 +4,7 @@ Age of Magic (https://sourceforge.net/projects/ageofmagic/, https://svn.code.sf.
 Altera Terra (https://sourceforge.net/projects/alteraterra/, https://svn.code.sf.net/p/alteraterra/code/): Early development stage, no clear license information
 android_snake_game (https://github.com/codepath/android_snake_game): No license information found
 Antigravitaattori (http://www.luolamies.org/software/antigrav/, https://packages.debian.org/stable/games/antigravitaattori): Very early development
+Apricot JS (http://apricot-js.tumblr.com/): Difficult to find the source code, no license information, may not be used in games
 Arena of Honour (https://sourceforge.net/projects/aoh/): No clear license with the sources, no license of the assets, early development (alpha), abandoned
 Arkhart (http://gna.org/projects/arkhart/, http://arkhart.nekeme.net/): Sources lost (gna.org)
 Arthur's Knights (http://ainenn.org/KingArthur/, https://sourceforge.net/projects/king-arthur/): Unclear license, author could not be contacted
@@ -15,12 +16,14 @@ Begin2 (https://sourceforge.net/projects/begin2/, https://svn.code.sf.net/p/begi
 Berserk (https://github.com/EgorOrachyov/Berserk): No license information found
 biju-game (https://github.com/fdfragoso/biju-game, http://crocidb.com/labs/biju-game/, https://github.com/CrociDB/biju-game): Very early development, No license added
 Camelia Girls (https://web.archive.org/web/20140523011334/http://pigux.com:80/cameliagirls/): Sources not available
-Crystal Picnic (https://github.com/Cloudxtreme/crystal-picnic, https://nooskewl.ca/crystal-picnic/): No license of their source code found, is commercialized
+Crystal Picnic (https://github.com/Cloudxtreme/crystal-picnic, https://nooskewl.ca/crystal-picnic/): No license of their source code found (or is it zlib?, check again), is commercialized
 Cycle (https://sourceforge.net/projects/meegocycle/): Proprietary license (freeware, source available)
 dart-rpg (https://github.com/brad811/dart-rpg): No license information found
+digger (https://github.com/lutzroeder/digger): No license information
 Drop Shock (http://www.tinywarz.com/index.php, https://sourceforge.net/projects/dropshock/, https://git.code.sf.net/p/dropshock/code): No license found
 EarthShakerDS (http://simianzombie.com/posts/2011/05/10/earth-shaker-ds-released, https://github.com/ant512/EarthShakerDS.git): Target only Nintendo DS as hardware platform
 Eleconics (https://sourceforge.net/projects/eleconics/): No license found
+Element Games Engine (https://github.com/fredwen2008/Element-Games-Engine): No license information
 Entombed! (http://www.newbreedsoftware.com/entombed/, ftp://ftp.tuxpaint.org/unix/x/entombed/entombed-2007.07.04.tar.gz): Game very small
 EXILE (http://forums.datarealms.com/viewtopic.php?f=82&t=19266, https://github.com/Geti/EXILE.git): Early development stage
 Fight Or Perish (http://www.newbreedsoftware.com/fop/, ftp://ftp.tuxpaint.org/unix/x/fop/src/fop-0.5.tar.gz): Early development stage
@@ -31,9 +34,12 @@ Frogatto & Friends (https://github.com/frogatto/frogatto, https://frogatto.com/)
 Future Blocks (https://github.com/fogleman/FutureBlocks.git): Needs DosBox, simple Tetris clone (nice, but maybe too minimal)
 Grow (https://sourceforge.net/projects/grow/): Insufficient content
 Herzog 3D (http://herzog3d.sourceforge.net/, https://sourceforge.net/p/herzog3d/code/HEAD/tree/): Very early development
+HistoryLine (https://github.com/oliverdb/Historyline): Very early development, no license information
 Homeworld SDL (https://github.com/aheadley/homeworld): Not open source compliant license (see https://github.com/aheadley/homeworld/blob/master/README)
-Ikariam (https://github.com/advocaite/ikariam): No license information found, no assets license information found
-imperialism-remake (http://remake.twelvepm.de/, https://github.com/Trilarion/Imperialism-Remake.git): Too minimal (I must know)
+Ikariam (https://github.com/advocaite/ikariam, https://github.com/TheOnly92/Ikariem): No license information found, no assets license information found
+imperialism-remake (http://remake.twelvepm.de/, https://github.com/Trilarion/imperialism-Remake): Too minimal (I must know)
+Inline-Engine (https://github.com/petiaccja/Inline-Engine): Commercial license
+Ironclad (https://github.com/mikera/ironclad): No license information, asked but did not get a reply
 Jumping Jack 2 Worryingly Familiar (http://retrospec.sgn.net/game/jj2, http://retrospec.sgn.net/users/nwalker/jack/jjwf.zip): No compliant license found
 Jumping Jack Further Adventures (http://retrospec.sgn.net/game/jj,  http://retrospec.sgn.net/users/nwalker/jack/jj.zip): No compliant license found
 Jumpman (http://www.oldskool.org/pc/jumpman, http://www.oldskool.org/pc/jumpman/jump_src.zip): Only runs on DOS, License problems (taken without asking for permission)
@@ -47,6 +53,7 @@ Manic Miner (http://retrospec.sgn.net/game/mm): Unclear license (freeware?), pro
 Mining Haze (http://sourceforge.net/projects/mininghaze/): Very early development
 MonoStrategy (https://monostrategy.codeplex.com/, https://codeplexarchive.blob.core.windows.net/archive/projects/monostrategy/monostrategy.zip): Early development (alpha), Not playable, requires original content, abandoned
 Moopy (https://code.google.com/archive/p/moopy/, https://code.google.com/archive/p/moopy/source/default/source): Early development stage
+MultiGame (https://github.com/whendricso/MultiGame): Commercial
 New RAW (http://sourceforge.net/projects/newraw/, http://svn.code.sf.net/p/newraw/code/): Early development, requires original content, abandoned
 Open General (http://www.open-general.com/, https://sourceforge.net/projects/opengeneral/, https://svn.code.sf.net/p/opengeneral/code/): Proprietary license (see credits.txt)
 OpenDeathValley (https://github.com/OpenDeathValley/OpenDeathValley.git): No instructions, no releases, no website, not much code
@@ -55,7 +62,10 @@ OpenPop (http://openpopulous.sourceforge.net/, https://sourceforge.net/projects/
 openStrato (https://github.com/gerdl/openStrato.git): Not much code, no release or demo site, short code history, abandoned
 pacman (https://github.com/snozza/pacman.git): Playable? We already have so many pacmans
 Phavon (http://phavon.sourceforge.net/, http://phavon.cvs.sourceforge.net/viewvc/phavon/): Very early development
+Phoenix (https://github.com/joulupunikki/Phoenix, https://joulupunikki.github.io/Phoenix/#Copyright): Only waive liability, otherwise all rights reserved
+Pico-8 (https://www.lexaloffle.com/pico-8.php): Commercial
 PKMN-FX (https://github.com/jonasdemoor/PKMN-FX.git): Code not available anymore
+Postludium (https://github.com/Pctg-x8/postludium): Very early development, no license information
 Project Diaspora (http://pdiaspora.sourceforge.net/): Proprietary license (see file headers)
 Project: Xenocide (https://sourceforge.net/projects/xenocide/, http://xenocide.cvs.sourceforge.net/viewvc/xenocide/): Very early development
 Promisance (https://sourceforge.net/projects/promisance/,http://promisance.sourceforge.net/): Went closed source with version >= 4.0

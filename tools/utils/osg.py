@@ -52,6 +52,8 @@ def canonical_game_name(name):
     name = regex_sanitize_name.sub('', name)
     name = regex_sanitize_name_space_eater.sub('_', name)
     name = name.replace('_-_', '-')
+    name = name.replace('--', '-')
+    name = name.replace('--', '-')
 
     return name
 

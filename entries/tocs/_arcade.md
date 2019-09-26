@@ -44,6 +44,7 @@
 - **[Pang Zero](../pang_zero.md)** (Perl, GPL-2.0, beta, inactive since 2007)
 - **[PARSEC47](../parsec47.md)** (D, 2-clause BSD, beta, inactive since 2003)
 - **[Powerslide remake](../powerslide_remake.md)** (C++, MIT, beta)
+- **[Pygame---Alien-Invasion](../pygame-alien-invasion.md)** (Python, GPL-3.0, beta, inactive since 2018)
 - **[RacerJS](../racerjs.md)** (JavaScript, MIT, mature, inactive since 2010)
 - **[Rockbot](../rockbot.md)** (C++, GPL-2.0, mature)
 - **[SDL Asylum](../sdl_asylum.md)** (C, GPL-3.0, mature, inactive since 2009)

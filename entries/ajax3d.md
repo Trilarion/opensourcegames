@@ -7,7 +7,7 @@ _Remake of Zarch._
 - Download: https://sourceforge.net/projects/ajax3d/files/ajax3d/
 - Platform: Web
 - Keywords: action, inspired by Zarch, remake
-- Code repository: http://ajax3d.cvs.sourceforge.net (cvs)
+- Code repository: https://gitlab.com/osgames/ajax3d.git (conversion of cvs), http://ajax3d.cvs.sourceforge.net (cvs)
 - Code language: JavaScript
 - Code license: GPL-2.0
 

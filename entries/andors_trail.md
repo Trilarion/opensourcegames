@@ -2,7 +2,7 @@
 
 _Quest-driven Roguelike fantasy dungeon crawler RPG with a powerful story._
 
-- Home: https://www.andorstrail.com/
+- Home: https://www.andorstrail.com/, https://code.google.com/archive/p/andors-trail/
 - State: beta
 - Download: https://f-droid.org/packages/com.gpl.rpg.AndorsTrail/
 - Platform: Android

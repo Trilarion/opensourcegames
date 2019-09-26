@@ -269,10 +269,7 @@ def unzip(zip_file, destination_directory):
 
 
 def strip_url(url):
-    for prefix in ('http://', 'https://'):
-        if url.startswith(prefix):
-            url = url[len(prefix):]
-    for prefix in ('www.',):
+    for prefix in ('http://', 'https://', 'www.'):
         if url.startswith(prefix):
             url = url[len(prefix):]
     for suffix in ('/', '.git', '/en', '/index.html'):
@@ -296,3 +293,16 @@ def load_properties(filepath, sep='=', comment_char='#'):
                 value = line[1].strip()
                 properties[key] = value
     return properties
+
+
+def unique_elements_and_occurrences(elements):
+    """
+
+    """
+    unique_elements = {}
+    for element in elements:
+        unique_elements[element] = unique_elements.get(element, 0) + 1
+    unique_elements = list(unique_elements.items())
+    unique_elements.sort(key=lambda x: -x[1])
+    unique_elements = ['{}({})'.format(k, v) for k, v in unique_elements]
+    return unique_elements

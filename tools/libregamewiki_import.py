@@ -150,6 +150,66 @@ def parse_lgw_content():
     utils.write_text(entries_file, text)
 
 
+def replace_content(entries, fields, replacement, search):
+    if not isinstance(fields, tuple):
+        fields = (fields, )
+    for index, entry in enumerate(entries):
+        for field in fields:
+            if field in entry:
+                content = entry[field]
+                if not isinstance(content, list):
+                    content = [content]
+                entry[field] = [replacement if x in search else x for x in content]
+        entries[index] = entry
+    return entries
+
+
+def ignore_content(entries, fields, ignored):
+    if not isinstance(fields, tuple):
+        fields = (fields, )
+    for index, entry in enumerate(entries):
+        for field in fields:
+            if field in entry:
+                content = entry[field]
+                if not isinstance(content, list):
+                    content = [content]
+                content = [x for x in content if x not in ignored]
+                if content:
+                    entry[field] = content
+                else:
+                    del entry[field]
+        entries[index] = entry
+    return entries
+
+def remove_prefix_suffix(entries, fields, prefixes, suffixes):
+    if not isinstance(fields, tuple):
+        fields = (fields, )
+    for index, entry in enumerate(entries):
+        for field in fields:
+            if field in entry:
+                content = entry[field]
+                if not isinstance(content, list):
+                    content = [content]
+                for prefix in prefixes:
+                    content = [x[len(prefix):] if x.startswith(prefix) else x for x in content]
+                for sufix in suffixes:
+                    content = [x[:-len(sufix)] if x.endswith(sufix) else x for x in content]
+                content = [x.strip() for x in content]
+                entry[field] = content
+        entries[index] = entry
+    return entries
+
+
+def lower_case_content(entries, field):
+    for index, entry in enumerate(entries):
+        if field in entry:
+            content = entry[field]
+            if not isinstance(content, list):
+                content = [content]
+            entry[field] = [x.casefold() for x in content]
+            entries[index] = entry
+    return entries
+
 def clean_lgw_content():
 
     # paths
@@ -162,7 +222,10 @@ def clean_lgw_content():
     entries = json.loads(text)
 
     # rename keys
-    key_replacements = (('developer', ('Developer', 'Developers')), ('code license', ('Code license', 'Code licenses')), ('engine', ('Engine', 'Engines')), ('genre', ('Genre', 'Genres')))
+    key_replacements = (('developer', ('Developer', 'Developers')), ('code license', ('Code license', 'Code licenses')), ('engine', ('Engine', 'Engines')), ('genre', ('Genre', 'Genres')),
+                        ('library', ('Library', 'Libraries')), ('assets license', ('Media license', 'Media licenses')), ('code language', ('P. language', 'P. languages')), ('home', ('Homepage',)),
+                        ('platform', ('Platforms', )), ('tracker', ('Bug/Feature Tracker', )), ('repo', ('Source Code', )), ('forum', ('Forum', )), ('chat', ('Chat', )), ('origin', ('Origin', )),
+                        ('dev home', ('Development Project', )), ('last active', ('Release date', )))
     for index, entry in enumerate(entries):
         for new_key, old_keys in key_replacements:
             for key in old_keys:
@@ -170,7 +233,14 @@ def clean_lgw_content():
                     entry[new_key] = entry[key]
                     del entry[key]
                     break
+        entries[index] = entry
 
+    # ignore keys
+    ignored_keys = ('origin', 'Latest\xa0release')
+    for index, entry in enumerate(entries):
+        for key in ignored_keys:
+            if key in entry:
+                del entry[key]
         entries[index] = entry
 
     # check for unique field names
@@ -180,10 +250,57 @@ def clean_lgw_content():
     print('unique lgw fields: {}'.format(sorted(list(unique_fields))))
 
     # which fields are mandatory
+    mandatory_fields = unique_fields.copy()
     for entry in entries:
-        remove_fields = [field for field in unique_fields if field not in entry]
-        unique_fields -= set(remove_fields)
-    print('mandatory lgw fields: {}'.format(sorted(list(unique_fields))))
+        remove_fields = [field for field in mandatory_fields if field not in entry]
+        mandatory_fields -= set(remove_fields)
+    print('mandatory lgw fields: {}'.format(sorted(list(mandatory_fields))))
+
+    # content replacements
+    entries = remove_prefix_suffix(entries, ('code license', 'assets license'), ('"', 'GNU', ), ('"', '[3]', '[2]', '[1]', 'only'))
+    entries = replace_content(entries, ('code license', 'assets license'), 'GPL', ('General Public License', ))
+    entries = replace_content(entries, ('code license', 'assets license'), 'GPLv2', ('GPL v2', 'GPL version 2.0', 'GPL 2.0'))
+    entries = replace_content(entries, ('code license', 'assets license'), 'GPLv2+', ('GPL v2 or later', 'GPL 2+', 'GPL v2+', 'GPL version 2 or later'))
+    entries = replace_content(entries, ('code license', 'assets license'), 'GPLv3', ('GPL v3', 'GNU GPL v3', 'GPL 3'))
+    entries = replace_content(entries, ('code license', 'assets license'), 'GPLv3+', ('GPL v3+', 'GPL v.3 or later'))
+    entries = replace_content(entries, ('code license', 'assets license'), 'Public domain', ('public domain', 'Public Domain'))
+    entries = replace_content(entries, ('code license', 'assets license'), 'zlib', ('zlib/libpng license', ))
+    entries = replace_content(entries, ('code license', 'assets license'), 'BSD', ('Original BSD License', ))
+    entries = replace_content(entries, ('code license', 'assets license'), 'CC-BY-SA-3.0', ('Creative Commons Attribution-ShareAlike 3.0 Unported License', 'CC-BY-SA 3.0', 'CC BY-SA 3.0'))
+    entries = replace_content(entries, 'platform', 'macOS', ('Mac', ))
+    entries = remove_prefix_suffix(entries, 'code language', (), ('[3]', '[2]', '[1]'))
+    entries = ignore_content(entries, 'code language', ('HTML5', 'HTML', 'English', 'XML', 'WML'))
+    entries = replace_content(entries, 'code language', 'Lua', ('lua', 'LUA'))
+    entries = remove_prefix_suffix(entries, 'genre', (), ('game', 'games'))
+    entries = lower_case_content(entries, 'genre')
+    entries = replace_content(entries, 'genre', 'platform', ('platformer', ))
+    entries = replace_content(entries, 'genre', 'role playing', ('rpg', ))
+    entries = replace_content(entries, 'genre', 'first person, shooter', ('fps', ))
+    entries = replace_content(entries, 'genre', 'real time, strategy', ('rts',))
+    entries = replace_content(entries, 'genre', 'turn based, strategy', ('tbs',))
+    entries = ignore_content(entries, 'categories', ('GPL', 'C++', 'C', 'ECMAScript', 'Python', 'Java', 'CC BY-SA', 'Lua', 'LGPL', 'CC-BY', 'BSD', 'MIT', 'Qt', 'SDL', 'OpenGL', 'Pygame', 'PD', 'GLUT', 'Haskell', 'Allegro', 'Ruby', 'Zlib/libpng', 'OpenAL', 'Perl', 'Free Pascal', 'LÖVE', 'HTML5', 'Id Tech 1'))
+    entries = replace_content(entries, 'library', 'pygame', ('Pygame', ))
+    entries = replace_content(entries, 'library', 'Qt', ('QT', ))
+    entries = ignore_content(entries, 'library', ('C++', 'Lua', 'Mozilla Firefox'))
+
+    # list for every unique field
+    # fields = sorted(list(unique_fields))
+    fields = sorted(list(unique_fields - set(('description', 'external links', 'dev home', 'forum', 'home', 'linux-packages', 'developer', 'chat', 'tracker', 'Latest release', 'name', 'repo', 'Release date', 'categories'))))
+    for field in fields:
+        content = [entry[field] for entry in entries if field in entry]
+        # flatten
+        flat_content = []
+        for c in content:
+            if isinstance(c, list):
+                flat_content.extend(c)
+            else:
+                flat_content.append(c)
+        statistics = utils.unique_elements_and_occurrences(flat_content)
+        print('\n{}: {}'.format(field, ', '.join(statistics)))
+
+    # save entries
+    text = json.dumps(entries, indent=1)
+    utils.write_text(cleaned_entries_file, text)
 
 
 if __name__ == "__main__":

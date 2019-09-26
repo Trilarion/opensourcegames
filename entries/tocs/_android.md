@@ -24,6 +24,7 @@
 - **[Jazz² Resurrection](../jazz_resurrection.md)** (C#, JavaScript, GPL-3.0, mature)
 - **[jewelthief](../jewelthief.md)** (Java, GPL-3.0, mature, inactive since 2016)
 - **[KittenMaxit](../kittenmaxit.md)** (Java, MIT, beta)
+- **[Klooni 1010!](../klooni_1010.md)** (Java, GPL-3.0, beta)
 - **[Lexica](../lexica.md)** (Java, GPL-3.0, mature)
 - **[LGeneral](../lgeneral.md)** (C, GPL-2.0, mature, inactive since 2017)
 - **[LIKO-12](../liko-12.md)** (Lua, MIT, mature)
@@ -53,3 +54,4 @@
 - **[Turn of War](../turn_of_war.md)** (Java, GPL-3.0, beta, inactive since 2014)
 - **[UnCiv](../unciv.md)** (Kotlin, MPL-2.0, beta)
 - **[warcraft-remake](../warcraft-remake.md)** (Java, GPL-2.0, beta)
+- **[Yet Another Engine](../yet_another_engine.md)** (MoonScript, Java, Lua, MIT, beta, inactive since 2016)

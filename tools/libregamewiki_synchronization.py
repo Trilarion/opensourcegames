@@ -44,15 +44,7 @@ name_replacements = {'Eat the Whistle': 'Eat The Whistle', 'Scorched 3D': 'Scorc
                      'Fall Of Imiryn': 'Fall of Imiryn', 'Liquid War 6': 'Liquid War', 'Gusanos': 'GUSANOS', 'Corewars': 'Core War', 'FLARE': 'Flare', 'Vitetris': 'vitetris', 'Powder Toy': 'The Powder Toy', 'Asylum': 'SDL Asylum',
                      'Atanks': 'Atomic Tanks'}
 ignored_names = ['Hetris', '8 Kingdoms', 'Antigravitaattori', 'Arena of Honour', 'Arkhart', 'Ascent of Justice', 'Balazar III', 'Balder3D', 'Barbie Seahorse Adventures', 'Barrage', 'Gnome Batalla Naval', 'User:AVRS/sandbox']
-ignored_languages = ['HTML', 'XML', 'WML', 'English']
 
-ignored_categories = ['GPL', 'C++', 'C', 'ECMAScript', 'Python', 'Java', 'CC BY-SA', 'Lua', 'LGPL', 'CC-BY', 'BSD', 'MIT', 'Qt', 'SDL', 'OpenGL', 'Pygame', 'PD', 'GLUT', 'Haskell', 'Allegro', 'Ruby', 'Zlib/libpng', 'OpenAL', 'Perl', 'Free Pascal', 'LÖVE', 'HTML5', 'Id Tech 1']
-
-genre_replacements = {'rpg': 'role playing', 'fps': 'first person, shooter', 'tbs': 'turn based, strategy', 'rts': 'real time, strategy'}
-
-platform_replacements = {'Mac': 'macOS'}
-
-library_replacements = {'Pygame': 'pygame', 'QT': 'Qt'}
 
 
 def list_compare(a, b, k):

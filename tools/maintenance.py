@@ -776,7 +776,32 @@ def clean_backlog(stripped_game_urls):
     utils.write_text(file, text)
 
 
+def check_validity_backlog():
+    import requests
+
+    # read backlog and split
+    file = os.path.join(c.root_path, 'tools', 'backlog.txt')
+    text = utils.read_text(file)
+    urls = text.split('\n')
+    urls = [x.split(' ')[0] for x in urls]
+
+    headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64)'}
+    for url in urls:
+        try:
+            r = requests.get(url, headers=headers, timeout=5)
+        except Exception as e:
+            print('{} gave error: {}'.format(url, e))
+        else:
+            if r.status_code != requests.codes.ok:
+                print('{} returned status code: {}'.format(url, r.status_code))
+
+            if r.is_redirect or r.history:
+                print('{} redirected to {}, {}'.format(url, r.url, r.history))
+
+
 if __name__ == "__main__":
+
+    # check_validity_backlog()
 
     # backlog
     game_urls = osg.extract_links()

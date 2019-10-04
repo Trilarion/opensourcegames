@@ -3,6 +3,7 @@
 
 - **[DOOM-iOS](../doom-ios.md)** (C++, GPL-2.0, mature, inactive since 2012)
 - **[Esenthel Engine](../esenthel_engine.md)** (C, C++, Custom, beta)
+- **[flixel-gdx](../flixel-gdx.md)** (Java, 3-clause BSD, beta, inactive since 2017)
 - **[Gorillas](../gorillas.md)** (Objective-C, JavaScript, Java Research License, mature, inactive since 2014)
 - **[Hedgewars](../hedgewars.md)** (Lua, C, C++, Pascal, Haskell, GPL-2.0, mature)
 - **[LÖVE](../love.md)** (C++, zlib, mature)

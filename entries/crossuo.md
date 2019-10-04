@@ -1,0 +1,18 @@
+# CrossUO
+
+_ Ultima Online client._
+
+- Home: https://crossuo.com/
+- Media: https://en.wikipedia.org/wiki/Ultima_Online
+- State: mature
+- Platform: Windows, Linux, macOS
+- Keywords: role playing, requires online access
+- Code repository: https://github.com/crossuo/crossuo.git
+- Code language: C, C++
+- Code license: GPL-3.0
+
+Fork of OrionUO
+
+## Building
+
+- Build system: CMake

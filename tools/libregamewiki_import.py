@@ -5,11 +5,14 @@ Also parse rejected games (https://libregamewiki.org/Libregamewiki:Rejected_game
 
 Unique left column names in the game info boxes:
 ['Code license', 'Code licenses', 'Developer', 'Developers', 'Engine', 'Engines', 'Genre', 'Genres', 'Libraries', 'Library', 'Media license', 'Media licenses', 'P. language', 'P. languages', 'Platforms']
+
+TODO there are games on LGW which are not part of the Games category but part of XXX-Games sub-categories
 """
 
 import os
 import requests
 import json
+import re
 from bs4 import BeautifulSoup
 from utils import constants, utils, osg
 
@@ -210,6 +213,39 @@ def lower_case_content(entries, field):
             entries[index] = entry
     return entries
 
+
+def remove_parenthized_content(entries, fields):
+    if not isinstance(fields, tuple):
+        fields = (fields, )
+    for index, entry in enumerate(entries):
+        for field in fields:
+            if field in entry:
+                content = entry[field]
+                if not isinstance(content, list):
+                    content = [content]
+                content = [re.sub(r'\([^)]*\)', '', c) for c in content] # remove parentheses content
+                content = [x.strip() for x in content]
+                content = list(set(content))
+                entry[field] = content
+        entries[index] = entry
+    return entries
+
+
+def ignore_nonnumbers(entries, fields):
+    if not isinstance(fields, tuple):
+        fields = (fields, )
+    for index, entry in enumerate(entries):
+        for field in fields:
+            if field in entry:
+                content = entry[field]
+                if not isinstance(content, list):
+                    content = [content]
+                content = [x for x in content if x.isdigit()]
+                entry[field] = content
+        entries[index] = entry
+    return entries
+
+
 def clean_lgw_content():
 
     # paths
@@ -257,6 +293,7 @@ def clean_lgw_content():
     print('mandatory lgw fields: {}'.format(sorted(list(mandatory_fields))))
 
     # content replacements
+    entries = remove_parenthized_content(entries, ('assets license', 'code language', 'code license', 'engine', 'genre', 'last active', 'library'))
     entries = remove_prefix_suffix(entries, ('code license', 'assets license'), ('"', 'GNU', ), ('"', '[3]', '[2]', '[1]', 'only'))
     entries = replace_content(entries, ('code license', 'assets license'), 'GPL', ('General Public License', ))
     entries = replace_content(entries, ('code license', 'assets license'), 'GPLv2', ('GPL v2', 'GPL version 2.0', 'GPL 2.0'))
@@ -267,6 +304,8 @@ def clean_lgw_content():
     entries = replace_content(entries, ('code license', 'assets license'), 'zlib', ('zlib/libpng license', ))
     entries = replace_content(entries, ('code license', 'assets license'), 'BSD', ('Original BSD License', ))
     entries = replace_content(entries, ('code license', 'assets license'), 'CC-BY-SA-3.0', ('Creative Commons Attribution-ShareAlike 3.0 Unported License', 'CC-BY-SA 3.0', 'CC BY-SA 3.0'))
+    entries = replace_content(entries, ('code license', 'assets license'), 'CC-BY-SA', ('CC BY-SA',))
+    entries = replace_content(entries, ('code license', 'assets license'), 'MIT', ('MIT License',))
     entries = replace_content(entries, 'platform', 'macOS', ('Mac', ))
     entries = remove_prefix_suffix(entries, 'code language', (), ('[3]', '[2]', '[1]'))
     entries = ignore_content(entries, 'code language', ('HTML5', 'HTML', 'English', 'XML', 'WML'))
@@ -282,6 +321,9 @@ def clean_lgw_content():
     entries = replace_content(entries, 'library', 'pygame', ('Pygame', ))
     entries = replace_content(entries, 'library', 'Qt', ('QT', ))
     entries = ignore_content(entries, 'library', ('C++', 'Lua', 'Mozilla Firefox'))
+    entries = ignore_nonnumbers(entries, 'last active')
+    entries = ignore_content(entries, 'last active', ('2019', ))
+    entries = ignore_content(entries, 'platform', ('DOS', ))
 
     # list for every unique field
     # fields = sorted(list(unique_fields))

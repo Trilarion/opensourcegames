@@ -68,7 +68,7 @@
 - **[Danger from the Deep](../danger_from_the_deep.md)** (C++, GPL-2.0, beta, inactive since 2011)
 - **[DarkPlaces](../darkplaces.md)** (C, GPL-2.0, mature, inactive since 2014)
 - **[Data Storm](../data_storm.md)** (C, Apache-2.0, mature, inactive since 2017)
-- **[Deathchase 3D](../deathchase_3d.md)** (C, GPL-2.0, mature, inactive since 2002)
+- **[Deathchase 3D](../deathchase_3d.md)** (C, Perl, GPL-2.0, mature, inactive since 2002)
 - **[Defendguin](../defendguin.md)** (C, GPL-2.0, mature, inactive since 2009)
 - **[DelverEngine](../delverengine.md)** (Java, Custom, beta)
 - **[DesktopAdventures](../desktopadventures.md)** (C, LGPL-2.1, beta)

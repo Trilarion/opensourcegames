@@ -32,10 +32,13 @@ info -> after fields
 updated not used
 images not used
 video: not used
+
+TODO also ignore our rejected entries
 """
 
 import ruamel_yaml as yaml
-from utils.osg import *
+import os
+from utils import constants, utils, osg
 
 # should change on osgameclones
 osgc_name_aliases = {'4DTris': '4D-TRIS', 'fheroes2': 'Free Heroes 2', 'DrCreep': 'The Castles of Dr. Creep', 'Duke3d_win32': 'Duke3d_w32', 'erampage (EDuke32 fork)': 'erampage', 'GNOME Atomix': 'Atomix', 'Head over Heels 2': 'Head over Heels',
@@ -64,10 +67,10 @@ def unique_field_contents(entries, field):
     for entry in entries:
         if field in entry:
             field_content = entry[field]
-            if type(field_content) is str:
-                unique_content.add(field_content)
-            else:
+            if type(field_content) is list:
                 unique_content.update(field_content)
+            else:
+                unique_content.add(field_content)
     unique_content = sorted(list(unique_content), key=str.casefold)
     return unique_content
 
@@ -98,7 +101,26 @@ if __name__ == "__main__":
         osgc_entries.extend(_)
     print('{} entries in osgameclones'.format(len(osgc_entries)))
 
-    print('osgc-languages: {}'.format(unique_field_contents(osgc_entries, 'lang')))
+    # which fields do they have
+    osgc_fields = set()
+    for osgc_entry in osgc_entries:
+        osgc_fields.update(osgc_entry.keys())
+    print('unique osgc-fields: {}'.format(osgc_fields))
+
+    for field in osgc_fields:
+        if field in ('video', 'feed', 'url', 'repo', 'info', 'updated', 'images', 'name', 'originals'):
+            continue
+        content = [entry[field] for entry in osgc_entries if field in entry]
+        # flatten
+        flat_content = []
+        for c in content:
+            if isinstance(c, list):
+                flat_content.extend(c)
+            else:
+                flat_content.append(c)
+        statistics = utils.unique_elements_and_occurrences(flat_content)
+        statistics.sort(key=str.casefold)
+        print('\n{}: {}'.format(field, ', '.join(statistics)))
 
     # eliminate the ignored entries
     osgc_entries = [x for x in osgc_entries if x['name'] not in osgc_ignored_entries]
@@ -146,7 +168,7 @@ if __name__ == "__main__":
     print('osgc-content: {}'.format(unique_field_contents(osgc_entries, 'content')))
 
     # read our database
-    our_entries = assemble_infos(c.entries_path)
+    our_entries = osg.assemble_infos()
     print('{} entries with us'.format(len(our_entries)))
 
     # just the names
@@ -160,7 +182,7 @@ if __name__ == "__main__":
     # find similar names among the rest
     for osgc_name in osgc_names:
         for our_name in our_names:
-            if game_name_similarity(osgc_name, our_name) > similarity_threshold:
+            if osg.game_name_similarity(osgc_name, our_name) > similarity_threshold:
                 print('{} - {}'.format(osgc_name, our_name))
 
     newly_created_entries = 0
@@ -231,9 +253,9 @@ if __name__ == "__main__":
                     urls = osgc_entry['url']
                     if type(urls) == str:
                         urls = [urls]
-                    urls = [strip_url(url) for url in urls]
+                    urls = [utils.strip_url(url) for url in urls]
                     our_urls = our_entry['home']
-                    our_urls = [strip_url(url) for url in our_urls]
+                    our_urls = [utils.strip_url(url) for url in our_urls]
                     for url in urls:
                         if url not in our_urls:
                             p += ' home url {} missing\n'.format(url)
@@ -311,11 +333,11 @@ if __name__ == "__main__":
 
             # determine file name
             print('create new entry for {}'.format(osgc_name))
-            file_name = canonical_game_name(osgc_name) + '.md'
-            target_file = os.path.join(entries_path, file_name)
+            file_name = osg.canonical_game_name(osgc_name) + '.md'
+            target_file = os.path.join(constants.entries_path, file_name)
             if os.path.isfile(target_file):
                 print('warning: file {} already existing, save under slightly different name'.format(file_name))
-                target_file = os.path.join(entries_path, file_name[:-3] + '-duplicate.md')
+                target_file = os.path.join(constants.entries_path, file_name[:-3] + '-duplicate.md')
                 if os.path.isfile(target_file):
                     continue # just for safety reasons
 
@@ -393,7 +415,7 @@ if __name__ == "__main__":
             entry += '\n## Building\n'
 
             # finally write to file
-            # write_text(target_file, entry)
+            # utils.write_text(target_file, entry)
             newly_created_entries += 1
 
 

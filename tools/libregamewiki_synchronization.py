@@ -19,32 +19,18 @@ linux-packages - > free text (info)
 name -> name
 platform -> platform
 
+TODO also ignore our rejected entries
 """
 
 import json
-from utils.osg import *
-
-
-def get_unique_field_content(field, entries):
-    """
-
-    """
-    unique_content = {}
-    for entry in entries:
-        for element in entry.get(field, []):
-            unique_content[element] = unique_content.get(element, 0) + 1
-    unique_content = list(unique_content.items())
-    unique_content.sort(key=lambda x: -x[1])
-    unique_content = ['{}({})'.format(k, v) for k, v in unique_content]
-    return unique_content
-
+import os
+from utils import constants, utils, osg
 
 
 name_replacements = {'Eat the Whistle': 'Eat The Whistle', 'Scorched 3D': 'Scorched3D', 'Silver Tree': 'SilverTree', 'Blob Wars Episode 1 : Metal Blob Solid': 'Blobwars: Metal Blob Solid', 'Adventure': 'Colossal Cave Adventure',
                      'Fall Of Imiryn': 'Fall of Imiryn', 'Liquid War 6': 'Liquid War', 'Gusanos': 'GUSANOS', 'Corewars': 'Core War', 'FLARE': 'Flare', 'Vitetris': 'vitetris', 'Powder Toy': 'The Powder Toy', 'Asylum': 'SDL Asylum',
-                     'Atanks': 'Atomic Tanks'}
+                     'Atanks': 'Atomic Tanks', 'HeXon': 'heXon', 'Unnethack': 'UnNetHack', 'Nova Pinball': 'NOVA PINBALL', 'Jump n Bump': "Jump'n'Bump"}
 ignored_names = ['Hetris', '8 Kingdoms', 'Antigravitaattori', 'Arena of Honour', 'Arkhart', 'Ascent of Justice', 'Balazar III', 'Balder3D', 'Barbie Seahorse Adventures', 'Barrage', 'Gnome Batalla Naval', 'User:AVRS/sandbox']
-
 
 
 def list_compare(a, b, k):
@@ -64,24 +50,20 @@ if __name__ == "__main__":
     maximal_newly_created_entries = 40
 
     # paths
-    root_path  = os.path.realpath(os.path.join(os.path.dirname(__file__), os.path.pardir))
+    import_path = os.path.join(constants.root_path, 'tools', 'lgw-import')
+    lgw_entries_file = os.path.join(import_path, '_lgw.cleaned.json')
 
     # import lgw import
-    json_path = os.path.join(root_path, os.pardir, 'lgw_import.json')
-    text = read_text(json_path)
+    text = utils.read_text(lgw_entries_file)
     lgw_entries = json.loads(text)
 
-    # perform replacements and disregarding
+    # perform name replacements
     lgw_entries = [x for x in lgw_entries if x['name'] not in ignored_names]
     for index, lgw_entry in enumerate(lgw_entries):
         if lgw_entry['name'] in name_replacements:
             lgw_entry['name'] = name_replacements[lgw_entry['name']]
         if 'code language' in lgw_entry:
             languages = lgw_entry['code language']
-            languages = ['Python' if x.startswith('Python') else x for x in languages]
-            languages = ['PHP' if x.startswith('PHP') else x for x in languages]
-            languages = ['Lua' if x.lower().startswith('lua') else x for x in languages]
-            languages = ['JavaScript' if x.lower().startswith('javascript') else x for x in languages]
             h = []
             for l in languages:
                 for g in ('/', 'and'):
@@ -91,70 +73,12 @@ if __name__ == "__main__":
                 if type(l) == str:
                     l = [l]
                 h.extend(l)
-            languages = ['C++' if x.startswith('C++') else x for x in h]
-            languages = ['C' if x.startswith('C ') or x.startswith('C[') else x for x in languages]
-            languages = [x for x in languages if x not in ignored_languages]
+            languages = h
             if languages:
                 lgw_entry['code language'] = languages
             else:
                 del lgw_entry['code language']
-        if 'categories' in lgw_entry:
-            categories = lgw_entry['categories']
-            categories = [x for x in categories if not x.startswith('Game')]
-            categories = [x for x in categories if not x.startswith('Article')]
-            categories = [x for x in categories if not x.startswith('Page')]
-            categories = [x for x in categories if x not in ignored_categories]
-            categories = [x.lower() if len(x) > 2 else x for x in categories]
-            if categories:
-                lgw_entry['categories'] = categories
-            else:
-                del lgw_entry['categories']
-        if 'genre' in lgw_entry:
-            genres = lgw_entry['genre']
-            genres = [x for x in genres if len(x) > 0]
-            genres = [x.lower() for x in genres]
-            genres = [x[:-5] if x.endswith(' game') else x for x in genres]
-            genres = [x[:-5] if x.endswith(' games') else x for x in genres]
-            genres = [genre_replacements[x] if x in genre_replacements else x for x in genres]
-            for h in ('platform',):
-                genres = [h if x.startswith(h) else x for x in genres]
-            if genres:
-                lgw_entry['genre'] = genres
-            else:
-                del lgw_entry['genre']
-        if 'library' in lgw_entry:
-            libraries = lgw_entry['library']
-            libraries = [library_replacements[x] if x in library_replacements else x for x in libraries]
-            lgw_entry['library'] = libraries
-        if 'code license' in lgw_entry:
-            licenses = lgw_entry['code license']
-            licenses = [x.strip() for x in licenses] # strip
-            licenses = [x[1:] if x.startswith('"') else x for x in licenses] # cut " at the beginning
-            licenses = [x[:-1] if x.endswith('"') else x for x in licenses]  # cut " at the end
-            licenses = [x[4:] if x.startswith('GNU ') else x for x in licenses]
-            licenses = [x[:-3] if x.endswith('[1]') or x.endswith('[2]') else x for x in licenses]
-            licenses = [x[:-8] if x.lower().endswith(' license') else x for x in licenses]
-            licenses = [x.strip() for x in licenses] # strip
-            #licenses = ['GPL-2.0' if x.startswith('GPLv2') or x.startswith('GPL v2') or x.startswith('GPL 2') else x for x in licenses]
-            #licenses = ['GPL-3.0' if x.startswith('GPLv3') or x.startswith('GPL v3') or x.startswith('GPL 3') or x.startswith('GPL v.3') else x for x in licenses]
-            licenses = ['Public domain' if x.lower().startswith('public domain') else x for x in licenses]
-            lgw_entry['code license'] = licenses
-        if 'assets license' in lgw_entry:
-            licenses = lgw_entry['assets license']
-            licenses = [x.strip() for x in licenses] # strip
-            licenses = [x[1:] if x.startswith('"') else x for x in licenses] # cut " at the beginning
-            licenses = [x[:-1] if x.endswith('"') else x for x in licenses]  # cut " at the end
-            licenses = [x[4:] if x.startswith('GNU ') else x for x in licenses]
-            licenses = [x[:-3] if x.endswith('[1]') or x.endswith('[2]') else x for x in licenses]
-            licenses = [x[:-8] if x.lower().endswith(' license') else x for x in licenses]
-            licenses = [x.strip() for x in licenses] # strip
-            licenses = ['GPL-2.0' if x.startswith('GPLv2') or x.startswith('GPL v2') or x.startswith('GPL 2') else x for x in licenses]
-            licenses = ['GPL-3.0' if x.startswith('GPLv3') or x.startswith('GPL v3') or x.startswith('GPL 3') or x.startswith('GPL v.3') else x for x in licenses]
-            licenses = ['Public domain' if x.lower().startswith('public domain') else x for x in licenses]
-            lgw_entry['assets license'] = licenses
-
         lgw_entries[index] = lgw_entry
-
 
     # check for unique field names
     unique_fields = set()
@@ -163,23 +87,14 @@ if __name__ == "__main__":
     print('unique lgw fields: {}'.format(sorted(list(unique_fields))))
 
     # which fields are mandatory
+    mandatory_fields = unique_fields.copy()
     for lgw_entry in lgw_entries:
-        remove_fields = [field for field in unique_fields if field not in lgw_entry]
-        unique_fields -= set(remove_fields)
-    print('mandatory lgw fields: {}'.format(sorted(list(unique_fields))))
-
-    # unique contents
-    print('{}: {}'.format('platform', get_unique_field_content('platform', lgw_entries)))
-    print('{}: {}'.format('code language', get_unique_field_content('code language', lgw_entries)))
-    print('{}: {}'.format('categories', get_unique_field_content('categories', lgw_entries)))
-    print('{}: {}'.format('genre', get_unique_field_content('genre', lgw_entries)))
-    print('{}: {}'.format('library', get_unique_field_content('library', lgw_entries)))
-    print('{}: {}'.format('code license', get_unique_field_content('code license', lgw_entries)))
-    print('{}: {}'.format('assets license', get_unique_field_content('assets license', lgw_entries)))
-    print('{}: {}'.format('engine', get_unique_field_content('engine', lgw_entries)))
+        remove_fields = [field for field in mandatory_fields if field not in lgw_entry]
+        mandatory_fields  -= set(remove_fields)
+    print('mandatory lgw fields: {}'.format(sorted(list(mandatory_fields ))))
 
     # read our database
-    our_entries = assemble_infos(c.entries_path)
+    our_entries = osg.assemble_infos()
     print('{} entries with us'.format(len(our_entries)))
 
     # just the names
@@ -194,7 +109,7 @@ if __name__ == "__main__":
     #print('similar names')
     #for lgw_name in lgw_names:
     #    for our_name in our_names:
-    #        if game_name_similarity(lgw_name, our_name) > similarity_threshold:
+    #        if osg.game_name_similarity(lgw_name, our_name) > similarity_threshold:
     #            print('{} - {}'.format(lgw_name, our_name))
 
     newly_created_entries = 0
@@ -234,11 +149,11 @@ if __name__ == "__main__":
 
             # determine file name
             print('create new entry for {}'.format(lgw_name))
-            file_name = canonical_game_name(lgw_name) + '.md'
-            target_file = os.path.join(entries_path, file_name)
+            file_name = osg.canonical_game_name(lgw_name) + '.md'
+            target_file = os.path.join(constants.entries_path, file_name)
             if os.path.isfile(target_file):
                 print('warning: file {} already existing, save under slightly different name'.format(file_name))
-                target_file = os.path.join(entries_path, file_name[:-3] + '-duplicate.md')
+                target_file = os.path.join(constants.entries_path, file_name[:-3] + '-duplicate.md')
                 if os.path.isfile(target_file):
                     continue # just for safety reasons
 
@@ -300,5 +215,5 @@ if __name__ == "__main__":
             entry += '\n## Building\n'
 
             # finally write to file
-            write_text(target_file, entry)
+            # utils.write_text(target_file, entry)
             newly_created_entries += 1

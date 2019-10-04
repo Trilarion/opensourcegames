@@ -57,6 +57,7 @@ MultiGame (https://github.com/whendricso/MultiGame): Commercial
 New RAW (http://sourceforge.net/projects/newraw/, http://svn.code.sf.net/p/newraw/code/): Early development, requires original content, abandoned
 Open General (http://www.open-general.com/, https://sourceforge.net/projects/opengeneral/, https://svn.code.sf.net/p/opengeneral/code/): Proprietary license (see credits.txt)
 OpenDeathValley (https://github.com/OpenDeathValley/OpenDeathValley.git): No instructions, no releases, no website, not much code
+OpenMB (https://github.com/cookgreen/OpenMB): Very early development stage, maybe later
 OpenOutcast (https://sourceforge.net/projects/ocmod/): Very early development, no release, short svn history, abandoned
 OpenPop (http://openpopulous.sourceforge.net/, https://sourceforge.net/projects/openpopulous/, https://svn.code.sf.net/p/openpopulous/code/): Very early development
 openStrato (https://github.com/gerdl/openStrato.git): Not much code, no release or demo site, short code history, abandoned

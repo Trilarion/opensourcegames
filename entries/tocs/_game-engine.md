@@ -3,6 +3,7 @@
 
 - **[adventure engine](../adventure_engine.md)** (Lua, MIT, mature, inactive since 2013)
 - **[Alimer](../alimer.md)** (C++, MIT, beta)
+- **[Anura](../anura.md)** (C, C++, zlib, mature)
 - **[Bacon2D](../bacon2d.md)** (C++, MIT, beta, inactive since 2018)
 - **[Bladecoder Adventure Engine](../bladecoder_adventure_engine.md)** (Java, Apache-2.0, mature)
 - **[Blitwizard](../blitwizard.md)** (C, C++, Lua, zlib, beta, inactive since 2015)

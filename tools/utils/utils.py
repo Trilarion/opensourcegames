@@ -301,7 +301,10 @@ def unique_elements_and_occurrences(elements):
     """
     unique_elements = {}
     for element in elements:
-        unique_elements[element] = unique_elements.get(element, 0) + 1
+        try:
+            unique_elements[element] = unique_elements.get(element, 0) + 1
+        except Exception as e:
+            print(e)
     unique_elements = list(unique_elements.items())
     unique_elements.sort(key=lambda x: -x[1])
     unique_elements = ['{}({})'.format(k, v) for k, v in unique_elements]

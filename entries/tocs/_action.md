@@ -111,6 +111,7 @@
 - **[Mega Mario](../mega_mario.md)** (C++, LGPL-2.1, mature, inactive since 2012)
 - **[Memory Game](../memory_game.md)** (Java, Apache-2.0, mature)
 - **[MicroWar 2.0](../microwar_20.md)** (Python, 3-clause BSD, mature, inactive since 2009)
+- **[Mindustry](../mindustry.md)** (Java, GPL-3.0, mature)
 - **[Mininim](../mininim.md)** (C, GPL-3.0, beta, inactive since 2017)
 - **[mk.js](../mkjs.md)** (JavaScript, MIT, beta)
 - **[Mr.Boom](../mrboom.md)** (C++, MIT, mature)

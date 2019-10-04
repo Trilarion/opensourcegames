@@ -25,6 +25,7 @@
 - **[Classic Blades of Exile](../classic_blades_of_exile.md)** (C++, GPL-2.0, mature)
 - **[coab](../coab.md)** (C#, ???, mature)
 - **[Crossfire](../crossfire.md)** (C, Java, GPL-2.0, mature)
+- **[CrossUO](../crossuo.md)** (C, C++, GPL-3.0, mature)
 - **[Daggerfall Unity](../daggerfall_unity.md)** (C#, MIT, mature)
 - **[Daimonin](../daimonin.md)** (C, GPL-2.0, mature)
 - **[DarkCity](../darkcity.md)** (PHP, GPL-3.0, mature, inactive since 2012)

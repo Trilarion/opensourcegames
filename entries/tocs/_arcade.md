@@ -6,6 +6,7 @@
 - **[Airstrike](../airstrike.md)** (C, GPL-2.0, beta, inactive since 2014)
 - **[Aisleriot](../aisleriot.md)** (C, Scheme, GPL-3.0, mature)
 - **[antiyoy](../antiyoy.md)** (Java, GPL-3.0, beta)
+- **[Anura](../anura.md)** (C, C++, zlib, mature)
 - **[Apricots](../apricots.md)** (C++, GPL-2.0, beta, inactive since 2003)
 - **[Batalla Naval](../batalla_naval.md)** (C, GPL-2.0, mature, inactive since 2002)
 - **[Battery](../battery.md)** (Java, EPL-2.0, Custom, mature, inactive since 2009)

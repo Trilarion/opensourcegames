@@ -10,4 +10,6 @@ _Remake of Quake._
 - Code language: C
 - Code license: GPL-2.0
 
+See also: http://quakeone.com/markv/
+
 ## Building

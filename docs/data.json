@@ -385,6 +385,14 @@
    "<a href=\"https://github.com/yiotro/Antiyoy.git\">Source</a> - Java - GPL-3.0"
   ],
   [
+   "Anura (<a href=\"https://github.com/anura-engine/anura\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/anura.md\">entry</a>)",
+   "Engine for Frogatto and Friends.",
+   "",
+   "mature / active",
+   "arcade, game engine",
+   "<a href=\"https://github.com/anura-engine/anura.git\">Source</a> - C, C++ - zlib"
+  ],
+  [
    "Apricots (<a href=\"https://web.archive.org/web/20110819212117/http://www.fishies.org.uk/apricots.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/apricots.md\">entry</a>)",
    "Fly an airplane, fire missiles, drop bombs, destroy enemy..",
    "",
@@ -1545,6 +1553,14 @@
    "<a href=\"https://svn.code.sf.net/p/crossfire/code/\">Source</a> - C, Java - GPL-2.0"
   ],
   [
+   "CrossUO (<a href=\"https://crossuo.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/crossuo.md\">entry</a>)",
+   "Ultima Online client.",
+   "",
+   "mature / active",
+   "role playing, requires online access",
+   "<a href=\"https://github.com/crossuo/crossuo.git\">Source</a> - C, C++ - GPL-3.0"
+  ],
+  [
    "Crown (<a href=\"https://github.com/dbartolini/crown\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/crown.md\">entry</a>)",
    "Data-driven game engine.",
    "",
@@ -1718,7 +1734,7 @@
    "",
    "mature / inactive since 2002",
    "remake, inspired by 3D Deathchase, shooter",
-   "<a href=\"https://web.archive.org/web/20070711231311/http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/deathchase3d-0.9.tar.gz\">Source</a> - C - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/deathchase3d.git\">Source</a> - C, Perl - GPL-2.0"
   ],
   [
    "Decker (<a href=\"https://web.archive.org/web/20110926115405/http://www10.caro.net:80/dsi/decker/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/decker.md\">entry</a>)",
@@ -2543,6 +2559,14 @@
    "mature / active",
    "framework",
    "<a href=\"https://github.com/AdamAtomic/flixel.git\">Source</a> - ActionScript - MIT"
+  ],
+  [
+   "flixel-gdx (<a href=\"https://web.archive.org/web/20190623151758/http://flixel-gdx.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/flixel-gdx.md\">entry</a>)",
+   "2D game engine in Java based on Flixel.",
+   "",
+   "beta / inactive since 2017",
+   "framework, 2D",
+   "<a href=\"https://github.com/flixel-gdx/flixel-gdx.git\">Source</a> - Java - 3-clause BSD"
   ],
   [
    "Fluid Table Tennis (<a href=\"https://github.com/anirudhjoshi/fluid_table_tennis\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/fluid_table_tennis.md\">entry</a>)",
@@ -4449,6 +4473,14 @@
    "<a href=\"https://gitlab.com/osgames/microwar.git\">Source</a> - Python - 3-clause BSD"
   ],
   [
+   "Mindustry (<a href=\"https://mindustrygame.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/mindustry.md\">entry</a>)",
+   "Sandbox tower defense game.",
+   "<a href=\"https://play.google.com/store/apps/details?id=io.anuke.mindustry\">Link</a>",
+   "mature / active",
+   "action, sandbox, tower defense",
+   "<a href=\"https://github.com/Anuken/Mindustry.git\">Source</a> - Java - GPL-3.0"
+  ],
+  [
    "MineCraft-One-Week-Challenge (<a href=\"https://github.com/Hopson97/MineCraft-One-Week-Challenge\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/minecraft-one-week-challenge.md\">entry</a>)",
    "Clone of Minecraft.",
    "",
@@ -5849,6 +5881,14 @@
    "<a href=\"https://gitlab.com/osgames/planets.git\">Source</a> - Java - GPL-2.0"
   ],
   [
+   "PLIB (<a href=\"http://plib.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/plib.md\">entry</a>)",
+   "Game framework.",
+   "<a href=\"http://plib.sourceforge.net/download.html\">Link</a>",
+   "mature / inactive since 2012",
+   "framework, library",
+   "<a href=\"https://svn.code.sf.net/p/plib/code/\">Source</a> - C++ - LGPL-2.0"
+  ],
+  [
    "PokerTH (<a href=\"https://www.pokerth.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/pokerth.md\">entry</a>)",
    "Texas Hold'em poker game playable against up to nine..",
    "<a href=\"https://www.pokerth.net/download\">Link</a>",
@@ -5969,6 +6009,14 @@
    "<a href=\"https://github.com/GoogleChromeLabs/proxx.git\">Source</a> - TypeScript, JavaScript - Apache-2.0"
   ],
   [
+   "Psyco (<a href=\"http://psyco.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/psyco.md\">entry</a>)",
+   "Python specializing compiler.",
+   "<a href=\"http://psyco.sourceforge.net/download.html\">Link</a>",
+   "mature / inactive since 2008",
+   "tool",
+   "C - MIT"
+  ],
+  [
    "Pthreads-win32 (<a href=\"https://sourceware.org/pthreads-win32/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/pthreads-win32.md\">entry</a>)",
    "Implements a large subset of the POSIX standard threads..",
    "",
@@ -6041,6 +6089,14 @@
    "<a href=\"https://github.com/marcusmoller/pyorpg-client.git\">Source</a> - Python - MIT"
   ],
   [
+   "pyscroll (<a href=\"https://pypi.org/project/pyscroll/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/pyscroll.md\">entry</a>)",
+   "Animated scrolling maps in pygame library.",
+   "",
+   "mature / inactive since 2018",
+   "library",
+   "<a href=\"https://github.com/bitcraft/pyscroll.git\">Source</a> - Python - LGPL-3.0"
+  ],
+  [
    "pyskool (<a href=\"http://pyskool.ca/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/pyskool.md\">entry</a>)",
    "Remake of Skool Daze.",
    "<a href=\"https://pyskool.ca/downloads/\">Link</a>",
@@ -6055,6 +6111,14 @@
    "mature / inactive since 2004",
    "strategy, cards",
    "Python - GPL-2.0"
+  ],
+  [
+   "PyTMX (<a href=\"https://pypi.org/project/PyTMX/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/pytmx.md\">entry</a>)",
+   "Read Tiled Map Editor's TMX maps.",
+   "",
+   "mature / active",
+   "tool, library",
+   "<a href=\"https://github.com/bitcraft/PyTMX.git\">Source</a> - Python - LGPL-3.0"
   ],
   [
    "Q-Gears (<a href=\"https://github.com/q-gears/q-gears\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/q-gears.md\">entry</a>)",
@@ -6223,6 +6287,14 @@
    "beta / inactive since 2013",
    "action, inspired by Rescue!, real time, remake, space, strategy",
    "<a href=\"https://gitlab.com/osgames/rescue.git\">Source</a> - Java - GPL-3.0"
+  ],
+  [
+   "ReShade (<a href=\"https://reshade.me/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/reshade.md\">entry</a>)",
+   "Post-processing graphics injector.",
+   "<a href=\"https://reshade.me/releases\">Link</a>",
+   "mature / active",
+   "tool",
+   "<a href=\"https://github.com/crosire/reshade.git\">Source</a> - C++ - 3-clause BSD"
   ],
   [
    "ResidualVM (<a href=\"http://residualvm.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/residualvm.md\">entry</a>)",
@@ -6789,8 +6861,8 @@
    "Remake of Solar Fox.",
    "<a href=\"https://www.pygame.org/shredwheat/solarwolf/index.shtml#download\">Link</a>",
    "mature / inactive since 2004",
-   "action, arcade, inspired by Solar Fox, remake",
-   "<a href=\"http://pygame.org/shredwheat/solarwolf/solarwolf-1.5.tar.gz\">Source</a> - Python - LGPL-2.1"
+   "action, arcade, inspired by Solar Fox, open content, remake",
+   "<a href=\"https://gitlab.com/osgames/solarwolf.git\">Source</a> - Python - LGPL-2.1"
   ],
   [
    "Song of Albion (<a href=\"https://code.google.com/archive/p/songofalbion/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/song_of_albion.md\">entry</a>)",

@@ -1,6 +1,8 @@
 8 Kingdoms (https://sourceforge.net/projects/kralovstvi/, https://svn.code.sf.net/p/kralovstvi/code/): No license found
 Aeron (https://sourceforge.net/projects/aeron/, https://svn.code.sf.net/p/aeron/code/): Very early development
 Age of Magic (https://sourceforge.net/projects/ageofmagic/, https://svn.code.sf.net/p/ageofmagic/code/): Only supports outdated Hardware (Symbian)
+Aladdin_DirectX (https://github.com/phanletrunghieu/Aladdin_DirectX.git): Very early development, Inactive, no license information
+Alive_Reversing (https://github.com/AliveTeam/alive_reversing.git): No license information, reverse engineered, likely not licensable ever
 Altera Terra (https://sourceforge.net/projects/alteraterra/, https://svn.code.sf.net/p/alteraterra/code/): Early development stage, no clear license information
 android_snake_game (https://github.com/codepath/android_snake_game): No license information found
 Antigravitaattori (http://www.luolamies.org/software/antigrav/, https://packages.debian.org/stable/games/antigravitaattori): Very early development
@@ -19,6 +21,7 @@ Camelia Girls (https://web.archive.org/web/20140523011334/http://pigux.com:80/ca
 Crystal Picnic (https://github.com/Cloudxtreme/crystal-picnic, https://nooskewl.ca/crystal-picnic/): No license of their source code found (or is it zlib?, check again), is commercialized
 Cycle (https://sourceforge.net/projects/meegocycle/): Proprietary license (freeware, source available)
 dart-rpg (https://github.com/brad811/dart-rpg): No license information found
+Desktop Adventures Engine for ScummVM (https://github.com/digitall/scummvm-deskadv.git): GPL-2.0 but early development and inactive since long time
 digger (https://github.com/lutzroeder/digger): No license information
 Drop Shock (http://www.tinywarz.com/index.php, https://sourceforge.net/projects/dropshock/, https://git.code.sf.net/p/dropshock/code): No license found
 EarthShakerDS (http://simianzombie.com/posts/2011/05/10/earth-shaker-ds-released, https://github.com/ant512/EarthShakerDS.git): Target only Nintendo DS as hardware platform
@@ -56,6 +59,7 @@ Moopy (https://code.google.com/archive/p/moopy/, https://code.google.com/archive
 MultiGame (https://github.com/whendricso/MultiGame): Commercial
 New RAW (http://sourceforge.net/projects/newraw/, http://svn.code.sf.net/p/newraw/code/): Early development, requires original content, abandoned
 Open General (http://www.open-general.com/, https://sourceforge.net/projects/opengeneral/, https://svn.code.sf.net/p/opengeneral/code/): Proprietary license (see credits.txt)
+Open Sonic (http://opensnc.sourceforge.net/home/index.php): Commercial content, already contained in Open Surge
 OpenDeathValley (https://github.com/OpenDeathValley/OpenDeathValley.git): No instructions, no releases, no website, not much code
 OpenMB (https://github.com/cookgreen/OpenMB): Very early development stage, maybe later
 OpenOutcast (https://sourceforge.net/projects/ocmod/): Very early development, no release, short svn history, abandoned

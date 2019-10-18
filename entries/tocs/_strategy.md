@@ -218,6 +218,7 @@
 - **[Xenowar](../xenowar.md)** (C, C++, GPL-3.0, mature, inactive since 2014)
 - **[XMage](../xmage.md)** (Java, MIT, mature)
 - **[XSera](../xsera.md)** (C, Lua, MIT, beta, inactive since 2010)
+- **[Zed Online](../zed_online.md)** (C++, ?, mature)
 - **[Zero Ballistics](../zero_ballistics.md)** (C++, MIT, mature, inactive since 2013)
 - **[Zero-K](../zero-k.md)** (Lua, GPL-2.0, mature)
 - **[Zetawar](../zetawar.md)** (Clojure, MIT, mature)

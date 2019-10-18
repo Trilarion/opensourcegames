@@ -6,7 +6,7 @@ _ Ultima Online client._
 - Media: https://en.wikipedia.org/wiki/Ultima_Online
 - State: mature
 - Platform: Windows, Linux, macOS
-- Keywords: role playing, requires online access
+- Keywords: role playing, free content, inspired by Ultima Online, multiplayer online, requires online access
 - Code repository: https://github.com/crossuo/crossuo.git
 - Code language: C, C++
 - Code license: GPL-3.0

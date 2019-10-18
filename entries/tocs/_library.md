@@ -6,6 +6,7 @@
 - **[Box2D](../box2d.md)** (C, C++, Objective-C, zlib, mature)
 - **[Crypto++](../crypto.md)** (C++, Boost-1.0, mature)
 - **[Dear ImGui](../dear_imgui.md)** (C, C++, MIT, mature)
+- **[DirectPython](../directpython.md)** (C++, ?, beta, inactive since 2007)
 - **[Doxygen](../doxygen.md)** (C++, GPL-2.0, mature)
 - **[FreeType](../freetype.md)** (C, GPL-2.0, Custom, mature)
 - **[GeonBit.UI](../geonbitui.md)** (C#, MIT, mature)

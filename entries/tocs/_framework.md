@@ -43,6 +43,7 @@
 - **[OGRE3D](../ogre3d.md)** (C++, MIT, mature)
 - **[Open Game Engine](../open_game_engine.md)** (C++, LGPL-2.1, beta, inactive since 2008)
 - **[Open RPG Maker](../open_rpg_maker.md)** (C++, GPL-3.0, beta, inactive since 2014)
+- **[OpenBOR](../openbor.md)** (C, C++, BSD, mature)
 - **[OpenFL](../openfl.md)** (Haxe, MIT, mature)
 - **[OpenRPG](../openrpg.md)** (Python, GPL-2.0, mature, inactive since 2013)
 - **[Orx](../orx.md)** (C, zlib, mature)

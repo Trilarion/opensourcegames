@@ -117,6 +117,7 @@
 - **[Roguish](../roguish.md)** (JavaScript, 3-clause BSD, beta, inactive since 2015)
 - **[Room for Change](../room_for_change.md)** (Java, Apache-2.0, mature, inactive since 2013)
 - **[rpgboss](../rpgboss.md)** (Scala, JavaScript, AGPL-3.0, beta, inactive since 2017)
+- **[RuneLite](../runelite.md)** (Java, 2-clause BSD, mature)
 - **[Ryzom Core](../ryzom_core.md)** (C++, AGPL-3.0, mature)
 - **[S.C.O.U.R.G.E.](../scourge.md)** (C++, GPL-2.0, beta, inactive since 2008)
 - **[SilverTree](../silvertree.md)** (C++, GPL-3.0, beta, inactive since 2007)

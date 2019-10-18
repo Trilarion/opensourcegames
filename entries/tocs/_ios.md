@@ -9,5 +9,6 @@
 - **[LÖVE](../love.md)** (C++, zlib, mature)
 - **[NOVA PINBALL](../nova_pinball.md)** (Lua, GPL-3.0, beta, inactive since 2017)
 - **[OpenLara](../openlara.md)** (C++, 2-clause BSD, mature)
+- **[osu!](../osu.md)** (C#, MIT, beta)
 - **[ouzel](../ouzel.md)** (C, C++, Objective-C, 2-clause BSD, beta)
 - **[Yet Another Engine](../yet_another_engine.md)** (MoonScript, Java, Lua, MIT, beta, inactive since 2016)

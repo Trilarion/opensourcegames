@@ -41,6 +41,8 @@
 - **[Open RSC](../open_rsc.md)** (Java, GPL-3.0, mature)
 - **[OpenLara](../openlara.md)** (C++, 2-clause BSD, mature)
 - **[openMSX](../openmsx.md)** (C++, GPL-2.0, mature)
+- **[OpenMW for Android](../openmw_for_android.md)** (Kotlin, GPL-3.0, mature)
+- **[osu!](../osu.md)** (C#, MIT, beta)
 - **[ouzel](../ouzel.md)** (C, C++, Objective-C, 2-clause BSD, beta)
 - **[PainTown](../paintown.md)** (C++, Java, Python, 3-clause BSD, mature)
 - **[PokerTH](../pokerth.md)** (C++, AGPL-3.0, mature, inactive since 2017)

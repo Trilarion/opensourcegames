@@ -1,4 +1,4 @@
-# DreeRally
+# Dreerally
 
 _Death Rally engine reimplementation._
 

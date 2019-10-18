@@ -11,7 +11,7 @@ _Unofficial open source engine reimplementation of the game Morrowind._
 - Code language: C++
 - Code license: GPL-3.0
 
-See also [OpenMW on Android](https://omw.xyz.is/) and https://github.com/xyzz/openmw-android
+See also [OpenMW on Android](openmw_for_android.md)
 
 ## Building
 

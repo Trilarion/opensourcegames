@@ -3,7 +3,6 @@ http://circularstudios.com/
 http://cyxdown.free.fr/bs/
 http://cyxdown.free.fr/f2b/
 http://dead-code.org/home/
-http://directpython.sourceforge.net/
 http://evolonline.org/about
 http://game-editor.com/Main_Page
 http://giderosmobile.com/
@@ -38,9 +37,6 @@ http://phaser.io/
 http://playir.com/
 http://pyglet.org/
 http://pyopengl.sourceforge.net/
-https://appimage.github.io/categories/Game
-https://github.com/gnFur/Monofoxe
-https://github.com/moonwards1/Moonwards-Virtual-Moon
 http://pypy.org/
 http://rcbasic.com/
 http://retrospec.sgn.net
@@ -116,6 +112,7 @@ https://aleph-one-marathon.github.io/
 https://alternativeto.net/ query with only open source as opten
 https://app.assembla.com/spaces/openrpg/wiki
 https://app.assembla.com/spaces/Project_Valkyrie2/wiki
+https://appimage.github.io/categories/Game
 https://appimage.org/
 https://archive.codeplex.com/?p=turnota
 https://archive.codeplex.com/?p=voxeliq
@@ -159,10 +156,13 @@ https://freegamer.blogspot.com (maybe there is something interesting)
 https://futurepinball.com/
 https://gamejolt.com/ (search there)
 https://gdevelop-app.com/
+https://github.com/00-Evan/shattered-pixel-dungeon
+https://github.com/agateau/pixelwheels
 https://github.com/amerkoleci/Vortice.Windows
 https://github.com/ao-libre/ao-cliente
 https://github.com/atphalix/nexuiz
 https://github.com/azhirnov/FrameGraph
+https://github.com/bioglaze/aether3d
 https://github.com/bsmr-games (also contains copies)
 https://github.com/CatacombGames/
 https://github.com/Chluverman/android-gltron
@@ -173,6 +173,7 @@ https://github.com/collections/productivity-tools (maybe for statistical purpose
 https://github.com/collections/software-development-tools (maybe we can apply some of them across the board)
 https://github.com/collections/tools-for-open-source (maybe we can apply some)
 https://github.com/collections/web-games (only OS)
+https://github.com/cookgreen/Yuris-Revenge
 https://github.com/Cortrah/SpaceOperaDesign, https://github.com/Cortrah/SpaceOperaRuby/blob/master/design/turnstyles.md
 https://github.com/cping/LGame
 https://github.com/DaanVanYperen/artemis-odb-contrib
@@ -181,8 +182,10 @@ https://github.com/Donerkebap13/DonerComponents
 https://github.com/Drasky-Vanderhoff/CommonDrops
 https://github.com/ec-/Quake3e
 https://github.com/elishacloud/Silent-Hill-2-Enhancements
+https://github.com/enginmanap/limonEngine
 https://github.com/ErikLetson/torso-ninja
 https://github.com/ErikLetson/torso-ninja-2
+https://github.com/ezEngine/ezEngine
 https://github.com/fallahn/xygine
 https://github.com/fegennari/3DWorld
 https://github.com/flathub (all repositories which are games there)
@@ -190,11 +193,13 @@ https://github.com/FUSEEProjectTeam/Fusee
 https://github.com/fynnfluegge/oreon-engine
 https://github.com/gamearians
 https://github.com/GamedevFramework/gf
+https://github.com/gnFur/Monofoxe
 https://github.com/grantjenks/free-python-games (check all)
 https://github.com/Hotride/OrionUO
 https://github.com/hparcells/cards-against-humanity
 https://github.com/i42output/neoGFX
 https://github.com/id-Software
+https://github.com/Illation/ETEngine
 https://github.com/JohanLi/uncharted-waters-2
 https://github.com/junkdog/artemis-odb
 https://github.com/LgLinus/StrategyGame
@@ -202,12 +207,14 @@ https://github.com/libretro/libretro-prboom
 https://github.com/ligurio/awesome-ttygames
 https://github.com/MarcoLizza/tofu-engine
 https://github.com/mewo2/terrain
+https://github.com/moonwards1/Moonwards-Virtual-Moon
 https://github.com/morganbengtsson/mos
 https://github.com/MrFrenik/Enjon
 https://github.com/ogarcia/opensudoku
 https://github.com/OGRECave/scape
 https://github.com/OpenMandrivaAssociation
 https://github.com/OpenMandrivaAssociation/nexuiz/blob/master/nexuiz.spec
+https://github.com/OpenRA/d2
 https://github.com/opensourcedesign
 https://github.com/OSSGames
 https://github.com/OSSGames (all there, but we should have them already)
@@ -216,6 +223,7 @@ https://github.com/pld-linux
 https://github.com/pld-linux/nexuiz/blob/master/nexuiz.spec
 https://github.com/psuong/ig-developer-console
 https://github.com/qiciengine/qiciengine
+https://github.com/Quaver/Wobble
 https://github.com/Renanse/Ardor3D
 https://github.com/rizwan3d/MotoGameEngine
 https://github.com/rlguy/FantasyMapGenerator

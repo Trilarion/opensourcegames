@@ -11,6 +11,4 @@ _Remake of Oddworld: Abe's Oddysee, Oddworld: Abe's Exoddus_
 - Code license: MIT
 - Code dependencies: SDL2
 
-See also [reimplementation of Oddworld: Abe's Exoddus](https://github.com/AliveTeam/alive_reversing).
-
 ## Building

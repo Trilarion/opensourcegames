@@ -71,7 +71,8 @@ def parse_lgw_content():
     files = os.listdir(import_path)
     entries = []
     for file in files:
-        if file == '_lgw.json':
+        file = files[56]
+        if file.startswith('_lgw'):
             continue
 
         text = utils.read_text(os.path.join(import_path, file))
@@ -83,8 +84,9 @@ def parse_lgw_content():
         entry = {'name': title}
 
         # get all external links
+        ignored_external_links = ('libregamewiki.org', 'freegamedev.net', 'freegamer.blogspot.com', 'opengameart.org', 'gnu.org', 'creativecommons.org', 'freesound.org', 'freecode.com')
         links = [(x['href'], x.get_text()) for x in soup.find_all('a', href=True)]
-        links = [x for x in links if x[0].startswith('http') and not x[0].startswith('https://libregamewiki.org/')]
+        links = [x for x in links if x[0].startswith('http') and not any([y in x[0] for y in ignored_external_links])]
         entry['external links'] = links
 
         # get meta description
@@ -296,18 +298,18 @@ def clean_lgw_content():
     entries = remove_parenthized_content(entries, ('assets license', 'code language', 'code license', 'engine', 'genre', 'last active', 'library'))
     entries = remove_prefix_suffix(entries, ('code license', 'assets license'), ('"', 'GNU', ), ('"', '[3]', '[2]', '[1]', 'only'))
     entries = replace_content(entries, ('code license', 'assets license'), 'GPL', ('General Public License', ))
-    entries = replace_content(entries, ('code license', 'assets license'), 'GPLv2', ('GPL v2', 'GPL version 2.0', 'GPL 2.0'))
+    entries = replace_content(entries, ('code license', 'assets license'), 'GPLv2', ('GPL v2', 'GPL version 2.0', 'GPL 2.0', 'General Public License v2', 'GPL version 2', 'Gplv2', 'GPL 2'))
     entries = replace_content(entries, ('code license', 'assets license'), 'GPLv2+', ('GPL v2 or later', 'GPL 2+', 'GPL v2+', 'GPL version 2 or later'))
     entries = replace_content(entries, ('code license', 'assets license'), 'GPLv3', ('GPL v3', 'GNU GPL v3', 'GPL 3'))
-    entries = replace_content(entries, ('code license', 'assets license'), 'GPLv3+', ('GPL v3+', 'GPL v.3 or later'))
+    entries = replace_content(entries, ('code license', 'assets license'), 'GPLv3+', ('GPL v3+', 'GPL v.3 or later', 'GPL v3 or later'))
     entries = replace_content(entries, ('code license', 'assets license'), 'Public domain', ('public domain', 'Public Domain'))
-    entries = replace_content(entries, ('code license', 'assets license'), 'zlib', ('zlib/libpng license', ))
+    entries = replace_content(entries, ('code license', 'assets license'), 'zlib', ('zlib/libpng license', 'Zlib License'))
     entries = replace_content(entries, ('code license', 'assets license'), 'BSD', ('Original BSD License', ))
     entries = replace_content(entries, ('code license', 'assets license'), 'CC-BY-SA-3.0', ('Creative Commons Attribution-ShareAlike 3.0 Unported License', 'CC-BY-SA 3.0', 'CC BY-SA 3.0'))
     entries = replace_content(entries, ('code license', 'assets license'), 'CC-BY-SA', ('CC BY-SA',))
-    entries = replace_content(entries, ('code license', 'assets license'), 'MIT', ('MIT License',))
+    entries = replace_content(entries, ('code license', 'assets license'), 'MIT', ('MIT License', 'MIT"'))
     entries = replace_content(entries, 'platform', 'macOS', ('Mac', ))
-    entries = remove_prefix_suffix(entries, 'code language', (), ('[3]', '[2]', '[1]'))
+    entries = remove_prefix_suffix(entries, ('code language', 'developer'), (), ('[3]', '[2]', '[1]'))
     entries = ignore_content(entries, 'code language', ('HTML5', 'HTML', 'English', 'XML', 'WML'))
     entries = replace_content(entries, 'code language', 'Lua', ('lua', 'LUA'))
     entries = remove_prefix_suffix(entries, 'genre', (), ('game', 'games'))
@@ -324,6 +326,7 @@ def clean_lgw_content():
     entries = ignore_nonnumbers(entries, 'last active')
     entries = ignore_content(entries, 'last active', ('2019', ))
     entries = ignore_content(entries, 'platform', ('DOS', ))
+
 
     # list for every unique field
     # fields = sorted(list(unique_fields))
@@ -351,7 +354,7 @@ if __name__ == "__main__":
     # download_lgw_content()
 
     # stage two
-    # parse_lgw_content()
+    parse_lgw_content()
 
     # stage three
-    clean_lgw_content()
+    # clean_lgw_content()

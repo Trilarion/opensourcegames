@@ -785,12 +785,28 @@
    "<a href=\"https://gitlab.com/osgames/biniax.git\">Source</a> - C - zlib"
   ],
   [
+   "Biogenesis (<a href=\"http://biogenesis.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/biogenesis.md\">entry</a>)",
+   "Biogenesis is an artificial life simulator, simulating..",
+   "<a href=\"https://sourceforge.net/projects/biogenesis/files/\">Link</a>",
+   "beta / active",
+   "simulation",
+   "<a href=\"https://git.code.sf.net/p/biogenesis/git\">Source</a> - Java - GPL-2.0"
+  ],
+  [
    "Birth of the Empires (<a href=\"http://bote2.square7.ch/en/wiki/Main_Page\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/birth_of_the_empires.md\">entry</a>)",
    "Turn-based 4X strategy game set in space in the style of..",
    "<a href=\"http://loadion.com/en/Birth-of-the-Empires_6681499.html\">Link</a>",
    "mature / inactive since 2016",
    "strategy",
    "<a href=\"https://github.com/bote-team/bote.git\">Source</a> - C++ - Custom"
+  ],
+  [
+   "Bitfighter (<a href=\"http://bitfighter.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/bitfighter.md\">entry</a>)",
+   "Bitfighter is an outer-space combat action game. There are..",
+   "<a href=\"http://bitfighter.org/downloads/\">Link</a>",
+   "mature / active",
+   "action, open content",
+   "<a href=\"https://github.com/bitfighter/bitfighter.git\">Source</a> - C, C++ - GPL-2.0"
   ],
   [
    "BitRiot (<a href=\"https://github.com/VenKamikaze/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/bitriot.md\">entry</a>)",
@@ -801,12 +817,28 @@
    "<a href=\"https://github.com/VenKamikaze/BitRiot.git\">Source</a> - C++ - Apache-2.0"
   ],
   [
+   "Black Shades Elite (<a href=\"https://web.archive.org/web/20150412072649/http://home.gna.org/blackshadeselite/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/black_shades_elite.md\">entry</a>)",
+   "Black Shades Elite is a fork of the game Black Shades,..",
+   "",
+   "beta / inactive since 2007",
+   "simulation, first person, open content, shooter",
+   "? - ?"
+  ],
+  [
    "BlackNova Traders (<a href=\"https://sourceforge.net/projects/blacknova/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/blacknova_traders.md\">entry</a>)",
    "Web-based, multi-player space exploration game inspired by..",
    "<a href=\"https://sourceforge.net/projects/blacknova/files\">Link</a>",
    "beta / inactive since 2012",
    "strategy",
    "<a href=\"https://gitlab.com/osgames/blacknova.git\">Source</a> - PHP, JavaScript - GPL-2.0"
+  ],
+  [
+   "Blackvoxel (<a href=\"https://www.blackvoxel.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/blackvoxel.md\">entry</a>)",
+   "Blackvoxel is a 3D voxel sandbox game. The backstory takes..",
+   "<a href=\"https://www.blackvoxel.com/view.php?node=1541\">Link</a>",
+   "mature / active",
+   "simulation, open content, sandbox, voxel",
+   "<a href=\"https://github.com/Blackvoxel/Blackvoxel.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
    "Bladecoder Adventure Engine (<a href=\"https://github.com/bladecoder/bladecoder-adventure-engine\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/bladecoder_adventure_engine.md\">entry</a>)",
@@ -825,12 +857,28 @@
    "<a href=\"https://github.com/zombieman1041/BlakedAwesomenaughts.git\">Source</a> - JavaScript, PHP - MIT"
   ],
   [
+   "Blasphemer (<a href=\"https://www.doomworld.com/vb/freedoom/70732-blasphemer-discussion/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/blasphemer.md\">entry</a>)",
+   "Blasphemer is an FPS project whose initial goal is to..",
+   "",
+   "mature / inactive since 2017",
+   "action, first person, open content, shooter",
+   "<a href=\"https://github.com/Blasphemer/blasphemer.git\">Source</a> - None - None"
+  ],
+  [
    "Blender game engine (<a href=\"https://www.blender.org/features/game-creation/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/blender_game_engine.md\">entry</a>)",
    "Included in Blender is a complete game engine, allowing..",
    "<a href=\"https://www.blender.org/download/\">Link</a>",
    "mature / active",
    "framework",
    "<a href=\"git://git.blender.org/blender.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "Blinken (<a href=\"https://edu.kde.org/blinken/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/blinken.md\">entry</a>)",
+   "Blinken is the KDE implementation of the memory game Simon..",
+   "",
+   "mature / active",
+   "educational, inspired by Simon Says, memory, open content",
+   "<a href=\"https://github.com/KDE/blinken.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Blitwizard (<a href=\"https://github.com/jtc0de/Blitwizard\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/blitwizard.md\">entry</a>)",
@@ -857,12 +905,28 @@
    "<a href=\"https://github.com/stephenjsweeney/blobwarsAttrition.git\">Source</a> - C, C++ - GPL-3.0"
   ],
   [
+   "Blob Wars Episode 2 : Blob And Conquer (<a href=\"https://packages.debian.org/sid/games/blobandconquer\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/blob_wars_episode_2_blob_and_conquer.md\">entry</a>)",
+   "Blob Wars: Blob And Conquer is a 3D action game created by..",
+   "",
+   "mature / inactive since 2016",
+   "platform, 3D, open content, shooter, third-person",
+   "<a href=\"https://git.code.sf.net/p/blobandconquer/code\">Source</a> - C++ - GPL"
+  ],
+  [
    "Blobby Volley 2 (<a href=\"http://blobby.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/blobby_volley_2.md\">entry</a>)",
    "Continuation of the famous Blobby Volley 1.x arcade game.",
    "<a href=\"https://sourceforge.net/projects/blobby/files/\">Link</a>",
    "mature / inactive since 2017",
    "action, arcade",
    "<a href=\"https://svn.code.sf.net/p/blobby/code/\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "Bloboats (<a href=\"https://web.archive.org/web/20111013002050/http://bloboats.blobtrox.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/bloboats.md\">entry</a>)",
+   "Bloboats is a side-scrolling arcade racing game. The game..",
+   "<a href=\"https://web.archive.org/web/20091226074342/http://bloboats.blobtrox.net/download.php\">Link</a>",
+   "mature / inactive since 2006",
+   "action, open content, racing",
+   "<a href=\"https://salsa.debian.org/games-team/bloboats.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Blobwars: Metal Blob Solid (<a href=\"https://sourceforge.net/projects/blobwars/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/blobwars_metal_blob_solid.md\">entry</a>)",
@@ -889,12 +953,28 @@
    "<a href=\"https://gitlab.com/osgames/blockout.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
+   "Bloodmasters (<a href=\"http://www.bloodmasters.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/bloodmasters.md\">entry</a>)",
+   "Bloodmasters is a top-down Arcade shooter written by..",
+   "<a href=\"http://www.bloodmasters.com/index.php?p=downloads\">Link</a>",
+   "mature / inactive since 2008",
+   "arcade, shooter, top-down",
+   "<a href=\"https://svn.code.sf.net/p/bloodmasters/code/trunk\">Source</a> - C# - GPL"
+  ],
+  [
    "boardgame.io (<a href=\"https://boardgame.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/boardgameio.md\">entry</a>)",
    "Engine for turn based games.",
    "",
    "beta / active",
    "strategy, game engine, turn-based",
    "<a href=\"https://github.com/nicolodavis/boardgame.io.git\">Source</a> - JavaScript, TypeScript - MIT"
+  ],
+  [
+   "BomberClone (<a href=\"https://www.bomberclone.de/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/bomberclone.md\">entry</a>)",
+   "BomberClone is an AtomicBomberMan clone started by Steffen..",
+   "<a href=\"https://www.bomberclone.de/core.html\">Link</a>",
+   "beta / inactive since 2010",
+   "arcade, open content",
+   "C - GPL-2.0"
   ],
   [
    "Bombermaaan (<a href=\"http://bombermaaan.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/bombermaaan.md\">entry</a>)",
@@ -927,6 +1007,14 @@
    "mature / active",
    "action, inspired by Atomic Bomberman, open content, remake",
    "<a href=\"https://gitlab.com/drummyfish/Bombman.git\">Source</a> - Python - CC0"
+  ],
+  [
+   "Boohu (<a href=\"https://download.tuxfamily.org/boohu/index.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/boohu.md\">entry</a>)",
+   "Break Out Of Hareka's Underground (Boohu) is a turn-based..",
+   "<a href=\"https://download.tuxfamily.org/boohu/downloads/\">Link</a>",
+   "beta / active",
+   "role playing, open content, roguelike",
+   "<a href=\"https://git.tuxfamily.org/boohu/boohu.git\">Source</a> - Go - ISC"
   ],
   [
    "BOOM: Remake (<a href=\"https://silverweed.github.io/boom/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/boom_remake.md\">entry</a>)",
@@ -969,6 +1057,14 @@
    "<a href=\"https://github.com/valeriansaliou/boulder-dash.git\">Source</a> - Java - MIT"
   ],
   [
+   "Bouncy the Hungry Rabbit (<a href=\"https://pyweek.org/e/bouncy/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/bouncy_the_hungry_rabbit.md\">entry</a>)",
+   "Hide and move game in a garden with vegetables for kids.",
+   "",
+   "mature / inactive since 2007",
+   "arcade, kids, open content",
+   "Python - GPL-2.0"
+  ],
+  [
    "Box2D (<a href=\"http://box2d.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/box2d.md\">entry</a>)",
    "2D physics engine for games.",
    "",
@@ -1009,12 +1105,36 @@
    "<a href=\"https://github.com/bridgecommand/bc.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
+   "Brikx (<a href=\"https://sourceforge.net/projects/brikx/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/brikx.md\">entry</a>)",
+   "Brikx is a puzzle game with the goal to clear levels..",
+   "<a href=\"https://sourceforge.net/projects/brikx/files/\">Link</a>",
+   "beta / inactive since 2009",
+   "puzzle, open content",
+   "C++ - GPL-2.0"
+  ],
+  [
    "BRIQUOLO (<a href=\"http://briquolo.free.fr/en/index.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/briquolo.md\">entry</a>)",
    "Clone of Breakout.",
    "<a href=\"http://briquolo.free.fr/en/download.html\">Link</a>",
    "mature / inactive since 2008",
    "action, clone, inspired by Breakout",
    "C++ - GPL-3.0"
+  ],
+  [
+   "British Bingo (<a href=\"https://sourceforge.net/projects/britbingo/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/british_bingo.md\">entry</a>)",
+   "British Bingo is a 90-ball bingo game with 3 by 9 boards.",
+   "<a href=\"https://sourceforge.net/projects/britbingo/files/\">Link</a>",
+   "mature / active",
+   "action, board, open content",
+   "JavaScript - GPL-3.0"
+  ],
+  [
+   "Brogue (<a href=\"http://sites.google.com/site/broguegame/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/brogue.md\">entry</a>)",
+   "Brogue is a traditional roguelike game inspired from the..",
+   "",
+   "mature / active",
+   "role playing, roguelike",
+   "<a href=\"https://github.com/tsadok/brogue.git\">Source</a> - C - AGPL"
   ],
   [
    "BrowserQuest (<a href=\"http://browserquest.mozilla.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/browserquest.md\">entry</a>)",
@@ -1047,6 +1167,14 @@
    "beta / active",
    "tool, inspired by Bard's Tale Contruction Set, remake",
    "<a href=\"https://github.com/dulsi/btbuilder.git\">Source</a> - C, C++ - GPL-3.0"
+  ],
+  [
+   "buggyGame (<a href=\"http://fydo.net/projects/buggygame\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/buggygame.md\">entry</a>)",
+   "buggyGame is a single-player side-scrolling survival-..",
+   "",
+   "beta / inactive since 2007",
+   "action, open content, side-scrolling",
+   "Python - GPL-2.0"
   ],
   [
    "BurgerSpace (<a href=\"https://perso.b2b2c.ca/~sarrazip/dev/burgerspace.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/burgerspace.md\">entry</a>)",
@@ -1143,6 +1271,38 @@
    "beta / active",
    "action, commercial content, inspired by Outrun, remake",
    "<a href=\"https://github.com/djyt/cannonball.git\">Source</a> - C++ - MAME"
+  ],
+  [
+   "CannonSmash (<a href=\"http://cannonsmash.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/cannonsmash.md\">entry</a>)",
+   "Cannon Smash is a table tennis game.",
+   "<a href=\"https://sourceforge.net/projects/cannonsmash/files/\">Link</a>",
+   "beta / inactive since 2003",
+   "sports",
+   "<a href=\"http://cannonsmash.cvs.sourceforge.net\">Source</a> - C++ - GPL"
+  ],
+  [
+   "Canta (<a href=\"http://www.canta-game.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/canta.md\">entry</a>)",
+   "Karaoke game.",
+   "",
+   "beta / inactive since 2011",
+   "music, karaoke, open content",
+   "<a href=\"https://github.com/spiderbit/canta.git\">Source</a> - Python - GPL-3.0"
+  ],
+  [
+   "Caph (<a href=\"http://caphgame.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/caph.md\">entry</a>)",
+   "Caph is a physics simulation puzzle game in which the..",
+   "<a href=\"https://sourceforge.net/projects/caphgame/files/\">Link</a>",
+   "mature / inactive since 2010",
+   "puzzle, open content, sandbox, simulation",
+   "<a href=\"https://git.code.sf.net/p/caphgame/code\">Source</a> - C - GPL-3.0"
+  ],
+  [
+   "Card Stories (<a href=\"https://web.archive.org/web/20190126033549/https://cardstories.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/card_stories.md\">entry</a>)",
+   "Card Stories is an online multiplayer HTML5 based game of..",
+   "",
+   "beta / inactive since 2012",
+   "puzzle, card, open content",
+   "<a href=\"https://github.com/farsides/cardstories.git\">Source</a> - JavaScript, Python - AGPL-3.0"
   ],
   [
    "Cart Life (<a href=\"https://web.archive.org/web/20150619214353/http://www.richardhofmeier.com/cartlife/editions.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/cart_life.md\">entry</a>)",
@@ -1249,6 +1409,22 @@
    "<a href=\"https://github.com/mgerhardy/caveexpress.git\">Source</a> - JavaScript, C, C++, Lua - GPL-3.0"
   ],
   [
+   "CAVEZ of PHEAR (<a href=\"https://web.archive.org/web/20120110101219/http://www.x86.no/cavezofphear/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/cavez_of_phear.md\">entry</a>)",
+   "CAVEZ of PHEAR is an arcade action game based on ASCII..",
+   "",
+   "beta / inactive since 2011",
+   "action, arcade, inspired by Boulder Dash + Digger, open content",
+   "C - GPL-3.0"
+  ],
+  [
+   "CBoard (<a href=\"http://benkibbey.wordpress.com/cboard/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/cboard.md\">entry</a>)",
+   "CBoard is a text-mode chess game front-end and editor for..",
+   "",
+   "beta / inactive since 2018",
+   "tool, chess, open content, text-mode",
+   "<a href=\"https://gitlab.com/bjk/cboard.git\">Source</a> - C - GPL-2.0"
+  ],
+  [
    "cc94 (<a href=\"https://institution.github.io/cc94/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/cc94.md\">entry</a>)",
    "Remake of Sid Meier's Colonization.",
    "",
@@ -1287,6 +1463,30 @@
    "mature / inactive since 2017",
    "strategy, inspired by Nuclear Reaction, remake",
    "<a href=\"https://github.com/maikmerten/chainreaction.git\">Source</a> - Java - LGPL-3.0"
+  ],
+  [
+   "Chaos Esque Anthology (<a href=\"https://sourceforge.net/projects/chaosesqueanthology/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/chaos_esque_anthology.md\">entry</a>)",
+   "Chaos Esque Anthology is a first-person shooter fork of..",
+   "<a href=\"https://sourceforge.net/projects/chaosesqueanthology/files/\">Link</a>",
+   "mature / active",
+   "strategy, first person, open content, shooter",
+   "? - ?"
+  ],
+  [
+   "Chess3D (<a href=\"http://yanngranjon.com/static/games/chess3D/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/chess3d.md\">entry</a>)",
+   "Chess3D is a HTML/WebGL 3D chess game with AI.",
+   "",
+   "mature / inactive since 2016",
+   "strategy, board, chess, open content",
+   "<a href=\"https://github.com/FrenchYann/Chess3D.git\">Source</a> - JavaScript, Pytghon - GPL-3.0"
+  ],
+  [
+   "Children of Ur (<a href=\"http://childrenofur.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/children_of_ur.md\">entry</a>)",
+   "Children of Ur is an MMORPG.",
+   "",
+   "beta / active",
+   "role playing, mmo, open content, requires server",
+   "<a href=\"https://github.com/ChildrenOfUr/coUclient.git\">Source</a> - Dart, JavaScript - MIT"
   ],
   [
    "Childsplay (<a href=\"http://www.childsplay.mobi/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/childsplay.md\">entry</a>)",
@@ -1337,6 +1537,14 @@
    "<a href=\"https://github.com/TheAssemblyArmada/Chronoshift.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
+   "Chrzaszcz (<a href=\"http://www.pawelbiernacki.net/software/chrzaszcz/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/chrzaszcz.md\">entry</a>)",
+   "chrz\u0105szcz (meaning beetle in Polish) is a maze game in..",
+   "<a href=\"https://sourceforge.net/projects/chrzaszcz/files/\">Link</a>",
+   "beta / inactive since 2018",
+   "puzzle, open content",
+   "C++ - GPL-3.0"
+  ],
+  [
    "Chunk Stories (<a href=\"http://chunkstories.xyz/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/chunk_stories.md\">entry</a>)",
    "Voxel game engine.",
    "<a href=\"http://chunkstories.xyz/downloads.php\">Link</a>",
@@ -1369,6 +1577,14 @@
    "<a href=\"https://github.com/civctp2/civctp2.git\">Source</a> - C, C++ - Custom"
   ],
   [
+   "Civitas (<a href=\"http://sourceforge.net/projects/civitas/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/civitas.md\">entry</a>)",
+   "Civitas is a city building game for kids. It is written in..",
+   "<a href=\"https://sourceforge.net/projects/civitas/files/\">Link</a>",
+   "beta / inactive since 2017",
+   "simulation, city building, kids, online",
+   "<a href=\"https://git.code.sf.net/p/civitas/code\">Source</a> - Java, Blender - GPL-2.0"
+  ],
+  [
    "CivOne (<a href=\"https://web.archive.org/web/20181127195119/https://www.civone.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/civone.md\">entry</a>)",
    "Exact clone of Sid Meier's Civilization.",
    "",
@@ -1386,7 +1602,7 @@
   ],
   [
    "Classic Blades of Exile (<a href=\"http://www.spiderwebsoftware.com/blades/opensource.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/classic_blades_of_exile.md\">entry</a>)",
-   "Role-playing video games created by Jeff Vogel of..",
+   "Role-playing game created by Jeff Vogel of Spiderweb..",
    "",
    "mature / active",
    "role playing",
@@ -1445,7 +1661,7 @@
    "Real-time strategy game, where you can program your units..",
    "<a href=\"https://colobot.info/download-colobot-gold/\">Link</a>",
    "mature / active",
-   "strategy, inspired by Colobot, open content, real time, remake",
+   "strategy, inspired by Colobot, open content, programming, real time, remake",
    "<a href=\"https://github.com/colobot/colobot.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
@@ -1465,6 +1681,14 @@
    "<a href=\"https://github.com/brandon-rhodes/python-adventure.git\">Source</a> - Python - Apache-2.0"
   ],
   [
+   "Combat Simulator Project (<a href=\"https://web.archive.org/web/20140215084623/https://sourceforge.net/apps/mediawiki/csp/index.php?title=Main_Page\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/combat_simulator_project.md\">entry</a>)",
+   "Combat Simulator Project aka CSP is an aerial combat..",
+   "<a href=\"https://sourceforge.net/projects/csp/files/\">Link</a>",
+   "beta / inactive since 2010",
+   "simulation, flight",
+   "<a href=\"https://git.code.sf.net/p/csp/git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
    "Commander Genius (<a href=\"http://clonekeenplus.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/commander_genius.md\">entry</a>)",
    "Remake of Commander Keen Series.",
    "<a href=\"http://clonekeenplus.sourceforge.net/download.php\">Link</a>",
@@ -1481,12 +1705,36 @@
    "<a href=\"https://github.com/commandojs/CommandoJS.git\">Source</a> - JavaScript, CoffeeScript - MIT"
   ],
   [
+   "Conquest (<a href=\"https://github.com/jtrulson/conquest\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/conquest.md\">entry</a>)",
+   "Conquest is a real-time strategy space war game.",
+   "",
+   "mature / active",
+   "strategy, real time",
+   "<a href=\"https://github.com/jtrulson/conquest.git\">Source</a> - C++ - MIT"
+  ],
+  [
    "Conquests (<a href=\"http://conquests.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/conquests.md\">entry</a>)",
    "4X game, similar to the Civilization series of games.",
    "<a href=\"https://launchpad.net/conquests/+download\">Link</a>",
    "mature / inactive since 2012",
    "strategy",
    "<a href=\"https://gitlab.com/osgames/conquests.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "Consomaton (<a href=\"http://www.asahi-net.or.jp/~cs8k-cyu/blog/2016/06/17/consomaton/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/consomaton.md\">entry</a>)",
+   "Consomaton is a puzzle game revolving around cellular..",
+   "",
+   "mature / inactive since 2016",
+   "puzzle, programming",
+   "<a href=\"https://github.com/abagames/consomaton.git\">Source</a> - TypeScript - MIT"
+  ],
+  [
+   "Construo (<a href=\"http://construo.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/construo.md\">entry</a>)",
+   "Construction game.",
+   "",
+   "beta / inactive since 2015",
+   "simulation",
+   "<a href=\"https://github.com/Construo/construo.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
    "Core War (<a href=\"https://corewar.co.uk/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/core_war.md\">entry</a>)",
@@ -5157,7 +5405,7 @@
    "2D side scrolling engine for beat em' ups, shooters like..",
    "",
    "mature / active",
-   "framework, clone, free content, inspired by Streets of Rage + Double Dragon + Final Fight",
+   "game engine, clone, free content, inspired by Streets of Rage + Double Dragon + Final Fight",
    "<a href=\"https://github.com/DCurrent/openbor.git\">Source</a> - C, C++ - BSD"
   ],
   [

@@ -6,6 +6,7 @@
 - **[Alex the Allegator 4](../alex_the_allegator_4.md)** (C, GPL-2.0, mature, inactive since 2003)
 - **[Amphetamine](../amphetamine.md)** (C, GPL-2.0, beta, inactive since 2008)
 - **[Blob Wars : Attrition](../blob_wars_attrition.md)** (C, C++, GPL-3.0, mature)
+- **[Blob Wars Episode 2 : Blob And Conquer](../blob_wars_episode_2_blob_and_conquer.md)** (C++, GPL, mature, inactive since 2016)
 - **[CaveExpress](../caveexpress.md)** (C, GPL-3.0, mature)
 - **[Data Storm](../data_storm.md)** (C, Apache-2.0, mature, inactive since 2017)
 - **[Dave Gnukem](../dave_gnukem.md)** (C++, GPL-2.0, mature)

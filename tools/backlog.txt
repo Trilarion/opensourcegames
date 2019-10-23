@@ -1,3 +1,4 @@
+Glitch the game, by Tiny Speck Inc. public domain
 http://antongerdelan.net/blog/ (other projects besides TestDrive)
 http://circularstudios.com/
 http://cyxdown.free.fr/bs/
@@ -118,6 +119,7 @@ https://archive.codeplex.com/?p=turnota
 https://archive.codeplex.com/?p=voxeliq
 https://blenderartists.org/t/devils-pinball/552785
 https://blends.debian.org/games/tasks/
+https://blends.debian.org/games/tasks/racing
 https://carrot.soulweaver.fi/#links
 https://cocainediesel.fun/
 https://code.google.com/archive/p/galacticthrone/
@@ -127,6 +129,7 @@ https://code.google.com/archive/p/tecbattle/
 https://code.launchpad.net/~flosoft/s25rttr/trunk
 https://conquertheworldbycode.wordpress.com/nostalgia-2/
 https://dragengine.rptd.ch/
+https://edu.kde.org/
 https://empiredirectory.net/
 https://empiredirectory.net/index.php/downloads/viewdownload/6-server-software/13-empire-server
 https://en.wikipedia.org/w/index.php?title=GNU_Backgammon&action=edit&redlink=1
@@ -154,12 +157,14 @@ https://flathub.org/home (use it for Linux packaging) / https://flathub.org/apps
 https://forums.scummvm.org/viewtopic.php?t=13512&highlight=open+source
 https://freegamer.blogspot.com (maybe there is something interesting)
 https://futurepinball.com/
+https://fydo.net/projects/island-rescue (and other projects there)
 https://gamejolt.com/ (search there)
 https://gdevelop-app.com/
 https://github.com/00-Evan/shattered-pixel-dungeon
 https://github.com/agateau/pixelwheels
 https://github.com/amerkoleci/Vortice.Windows
 https://github.com/ao-libre/ao-cliente
+https://github.com/AtomicGameEngine/AtomicGameEngine
 https://github.com/atphalix/nexuiz
 https://github.com/azhirnov/FrameGraph
 https://github.com/bioglaze/aether3d
@@ -202,6 +207,8 @@ https://github.com/id-Software
 https://github.com/Illation/ETEngine
 https://github.com/JohanLi/uncharted-waters-2
 https://github.com/junkdog/artemis-odb
+https://github.com/KDE
+https://github.com/Kosmonaut3d/DeferredEngine
 https://github.com/LgLinus/StrategyGame
 https://github.com/libretro/libretro-prboom
 https://github.com/ligurio/awesome-ttygames
@@ -237,6 +244,8 @@ https://github.com/skypjack/entt
 https://github.com/smlinux/nexuiz
 https://github.com/SPC-Some-Polish-Coders/PopHead
 https://github.com/SPC-Some-Polish-Coders/PopHead/
+https://github.com/stackos/Viry3D
+https://github.com/tainicom/Aether.Physics2D
 https://github.com/the-insulines
 https://github.com/theaigames
 https://github.com/Tinob/Ishiiruka (https://github.com/shiiion/Ishiiruka, https://github.com/SirMangler/PrimeHack-Updater)

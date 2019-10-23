@@ -1,0 +1,17 @@
+# CannonSmash
+
+_Cannon Smash is a table tennis game._
+
+- Home: http://cannonsmash.sourceforge.net/, https://sourceforge.net/projects/cannonsmash/
+- State: beta, inactive since 2003
+- Download: https://sourceforge.net/projects/cannonsmash/files/
+- Platform: Windows, Linux
+- Keywords: sports
+- Code repository: http://cannonsmash.cvs.sourceforge.net (cvs)
+- Code language: C++
+- Code license: GPL
+- Code dependencies: OpenGL
+
+Developer: Kanna Yoshihiro
+
+## Building

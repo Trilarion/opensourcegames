@@ -17,7 +17,13 @@ Barbie Seahorse Adventures (http://www.imitationpickles.org/barbie/, https://pyw
 Begin2 (https://sourceforge.net/projects/begin2/, https://svn.code.sf.net/p/begin2/code/): No source available
 Berserk (https://github.com/EgorOrachyov/Berserk): No license information found
 biju-game (https://github.com/fdfragoso/biju-game, http://crocidb.com/labs/biju-game/, https://github.com/CrociDB/biju-game): Very early development, No license added
+Brickshooter (http://bilious.homelinux.org/~paxed/brickshooter/): Homepage offline, sources not archived on the web archive, version very low 0.0.4 (might be too early)
+Bweakfwu (https://github.com/plaimi/bweakfwu, https://secure.plaimi.net/games/bweakfwu): Very early development stage, abandoned
 Camelia Girls (https://web.archive.org/web/20140523011334/http://pigux.com:80/cameliagirls/): Sources not available
+Cheese Boys (http://sourceforge.net/projects/cheeseboys/, http://cheeseboys.keul.it/, https://github.com/keul/Cheese-Boys, http://www.pygame.org/project-Cheese+Boys-692-.html): Very early development, Abandoned, License unclear
+Clippers (http://sourceforge.net/projects/clippers/): No license attached to source code (will contact)
+Codewars (http://sourceforge.net/projects/codewars): Very early development phase (especially client)
+CRAFT: The Vicious Vikings (http://web.archive.org/web/20030402062302/borneo.gmd.de/AS/janus/craft/): Source code not available anymore
 Crystal Picnic (https://github.com/Cloudxtreme/crystal-picnic, https://nooskewl.ca/crystal-picnic/): No license of their source code found (or is it zlib?, check again), is commercialized
 Cycle (https://sourceforge.net/projects/meegocycle/): Proprietary license (freeware, source available)
 dart-rpg (https://github.com/brad811/dart-rpg): No license information found

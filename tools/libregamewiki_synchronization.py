@@ -29,9 +29,12 @@ from utils import constants, utils, osg
 
 name_replacements = {'Eat the Whistle': 'Eat The Whistle', 'Scorched 3D': 'Scorched3D', 'Silver Tree': 'SilverTree', 'Blob Wars Episode 1 : Metal Blob Solid': 'Blobwars: Metal Blob Solid', 'Adventure': 'Colossal Cave Adventure',
                      'Fall Of Imiryn': 'Fall of Imiryn', 'Liquid War 6': 'Liquid War', 'Gusanos': 'GUSANOS', 'Corewars': 'Core War', 'FLARE': 'Flare', 'Vitetris': 'vitetris', 'Powder Toy': 'The Powder Toy', 'Asylum': 'SDL Asylum',
-                     'Atanks': 'Atomic Tanks', 'HeXon': 'heXon', 'Unnethack': 'UnNetHack', 'Nova Pinball': 'NOVA PINBALL', 'Jump n Bump': "Jump'n'Bump"}
-ignored_names = ['Hetris', '8 Kingdoms', 'Antigravitaattori', 'Arena of Honour', 'Arkhart', 'Ascent of Justice', 'Balazar III', 'Balder3D', 'Barbie Seahorse Adventures', 'Barrage', 'Gnome Batalla Naval', 'User:AVRS/sandbox']
+                     'Atanks': 'Atomic Tanks', 'HeXon': 'heXon', 'Unnethack': 'UnNetHack', 'Nova Pinball': 'NOVA PINBALL', 'Jump n Bump': "Jump'n'Bump", 'Blades of Exile': 'Classic Blades of Exile', 'BlinKen': 'Blinken',
+                     'Colobot': 'Colobot: Gold Edition'}
+ignored_names = ['Hetris', '8 Kingdoms', 'Antigravitaattori', 'Arena of Honour', 'Arkhart', 'Ascent of Justice', 'Balazar III', 'Balder3D', 'Barbie Seahorse Adventures', 'Barrage', 'Gnome Batalla Naval', 'User:AVRS/sandbox', 'Blocks',
+                 'Brickshooter', 'Bweakfwu', 'Cheese Boys', 'Clippers', 'Codewars', 'CRAFT: The Vicious Vikings']
 
+licenses_map = {'GPLv2': 'GPL-2.0', 'GPLv2+': 'GPL-2.0', 'GPLv3': 'GPL-3.0', 'GPLv3+': 'GPL-3.0'}
 
 def list_compare(a, b, k):
     """
@@ -161,17 +164,19 @@ if __name__ == "__main__":
             entry = '# {}\n\n'.format(lgw_name)
 
             # add empty description
-            entry += '__\n\n'
+            entry += '_{}_\n\n'.format(lgw_entry['description'])
 
             # empty home (mandatory on our side)
-            entry += '- Home: \n'
+            home = lgw_entry.get('home', None)
+            dev_home = lgw_entry.get('dev home', None)
+            entry += '- Home: {}\n'.format(', '.join([x for x in [home, dev_home] if x]))
 
             # state mandatory on our side
             entry += '- State: \n'
 
             # platform, if existing
             if 'platform' in lgw_entry:
-                entry += 'Platform: {}\n'.format(', '.join(lgw_entry['platform']))
+                entry += '- Platform: {}\n'.format(', '.join(lgw_entry['platform']))
 
             # keywords (genre) (also mandatory)
             keywords = lgw_entry.get('genre', [])
@@ -182,7 +187,7 @@ if __name__ == "__main__":
                 entry += '- Keywords: {}\n'.format(', '.join(keywords))
 
             # code repository (mandatory but not scraped from lgw)
-            entry += '- Code repository: \n'
+            entry += '- Code repository: {}\n'.format(lgw_entry.get('repo', ''))
 
             # code language, mandatory on our side
             languages = lgw_entry.get('code language', [])
@@ -191,6 +196,7 @@ if __name__ == "__main__":
 
             # code license, mandatory on our side
             licenses = lgw_entry.get('code license', [])
+            licenses = [licenses_map[x] if x in licenses_map else x for x in licenses]
             licenses.sort(key=str.casefold)
             entry += '- Code license: {}\n'.format(', '.join(licenses))
 
@@ -203,7 +209,15 @@ if __name__ == "__main__":
 
             # assets licenses (only if existing)
             if 'assets license' in lgw_entry:
-                entry += '- Assets license: {}\n'.format(', '.join(lgw_entry['assets license']))
+                licenses = lgw_entry.get('assets license', [])
+                licenses = [licenses_map[x] if x in licenses_map else x for x in licenses]
+                licenses.sort(key=str.casefold)
+                entry += '- Assets license: {}\n'.format(', '.join(licenses))
+
+            # external links
+            ext_links = lgw_entry['external links']
+            if ext_links:
+                entry += '\nLinks: {}\n'.format(', '.join(['{}: {}'.format(x[1], x[0]) for x in ext_links]))
 
             # free text
             if 'developer' in lgw_entry:
@@ -215,5 +229,5 @@ if __name__ == "__main__":
             entry += '\n## Building\n'
 
             # finally write to file
-            # utils.write_text(target_file, entry)
+            utils.write_text(target_file, entry)
             newly_created_entries += 1

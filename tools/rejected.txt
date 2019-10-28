@@ -29,18 +29,27 @@ Cycle (https://sourceforge.net/projects/meegocycle/): Proprietary license (freew
 dart-rpg (https://github.com/brad811/dart-rpg): No license information found
 Desktop Adventures Engine for ScummVM (https://github.com/digitall/scummvm-deskadv.git): GPL-2.0 but early development and inactive since long time
 digger (https://github.com/lutzroeder/digger): No license information
+DQM (http://idusale.tk): Homepage redirects to unrelated site
 Drop Shock (http://www.tinywarz.com/index.php, https://sourceforge.net/projects/dropshock/, https://git.code.sf.net/p/dropshock/code): No license found
 EarthShakerDS (http://simianzombie.com/posts/2011/05/10/earth-shaker-ds-released, https://github.com/ant512/EarthShakerDS.git): Target only Nintendo DS as hardware platform
 Eleconics (https://sourceforge.net/projects/eleconics/): No license found
 Element Games Engine (https://github.com/fredwen2008/Element-Games-Engine): No license information
+EmMines (http://eaglemode.sourceforge.net/): Part of a too large application (eaglemode). Could not access Source code. Maybe later.
 Entombed! (http://www.newbreedsoftware.com/entombed/, ftp://ftp.tuxpaint.org/unix/x/entombed/entombed-2007.07.04.tar.gz): Game very small
+Eskimo-run (https://sourceforge.net/projects/eskimo-run): Very early development. Inactive for many years.
 EXILE (http://forums.datarealms.com/viewtopic.php?f=82&t=19266, https://github.com/Geti/EXILE.git): Early development stage
+Feuerkraft (http://www.nongnu.org/feuerkraft, http://savannah.nongnu.org/projects/feuerkraft/): Very early development. Inactive since a long time.
+Fight or Perish (http://www.newbreedsoftware.com/fop/): Very early development. Inactive since a long time.
 Fight Or Perish (http://www.newbreedsoftware.com/fop/, ftp://ftp.tuxpaint.org/unix/x/fop/src/fop-0.5.tar.gz): Early development stage
+Flatland (http://idusale.tk/juegos/Flatland.html): Not available anymore
 Football Manager (https://github.com/autismuk/Football-Manager.git): Very early development stage
+Forest patrol (http://blazeofglory.org/projects/fp, https://www.pygame.org/project/391): No available anymore, Internet Archive has not stored the source links
 Free in the Dark (https://sourceforge.net/projects/fitd/): No source code available
+Free Reign (http://sourceforge.net/projects/freereign/, http://freereign.sourceforge.net/index.shtml): Very early development, Inactive since long time
 FreeFT (https://github.com/nadult/FreeFT.git): All rights reserved.
 Frogatto & Friends (https://github.com/frogatto/frogatto, https://frogatto.com/): Only artwork and configuration files for the Anura engine and this is copyrighted
 Future Blocks (https://github.com/fogleman/FutureBlocks.git): Needs DosBox, simple Tetris clone (nice, but maybe too minimal)
+GalaxyMage (https://www.galaxymage.org/, http://gna.org/projects/tactics): No source code available anymore, not on IA nor on gna project site.
 Grow (https://sourceforge.net/projects/grow/): Insufficient content
 Herzog 3D (http://herzog3d.sourceforge.net/, https://sourceforge.net/p/herzog3d/code/HEAD/tree/): Very early development
 HistoryLine (https://github.com/oliverdb/Historyline): Very early development, no license information

@@ -3,6 +3,8 @@
 
 - **[Blinken](../blinken.md)** (C++, GPL-2.0, mature)
 - **[Childsplay](../childsplay.md)** (Python, GPL-3.0, mature)
+- **[Garith](../garith.md)** (C++, LGPL-2.1, mature, inactive since 2013)
+- **[GCompris](../gcompris.md)** (C, Python, GPL-3.0, mature, inactive since 2016)
 - **[ORIENT](../orient.md)** (C#, Java, GPL-2.0, mature, inactive since 2009)
 - **[Prescription Wars](../prescription_wars.md)** (ColdFusion, JavaScript, GPL-3.0, mature, inactive since 2016)
 - **[thiefcatcher](../thiefcatcher.md)** (C++, GPL-3.0, beta)

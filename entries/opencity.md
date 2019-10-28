@@ -13,6 +13,8 @@ _Another 3D city simulator._
 
 https://github.com/frodrigo/opencity, https://github.com/vorot93/opencity, https://github.com/AnotherFoxGuy/OpenCity
 
+Took inspiration from https://sourceforge.net/projects/freereign/.
+
 See also [OpenCityNeo](https://github.com/icecoolinux/opencityneo)
 
 ## Building

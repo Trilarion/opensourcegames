@@ -1,0 +1,14 @@
+# Fictional Air Combat
+
+_Flight simulator that does not simulate real aircraft or historical war scenarios, only fictional ones. The game revolves around fighter aircraft._
+
+- Home: http://facsimulation.sourceforge.net/index.html, https://sourceforge.net/projects/facsimulation/
+- State: beta, inactive since 2012
+- Keywords: simulation, flight
+- Code repository: https://svn.code.sf.net/p/facsimulation/code/trunk (svn)
+- Code language: C, C++
+- Code license: GPL-3.0
+
+Developer: Horst Kevin (horstkevin), Stefan Aldinger
+
+## Building

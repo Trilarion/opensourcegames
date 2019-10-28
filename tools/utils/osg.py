@@ -12,7 +12,7 @@ valid_fields = ('Home', 'Media', 'State', 'Play', 'Download', 'Platform', 'Keywo
 'Code license', 'Code dependencies', 'Assets license', 'Build system', 'Build instructions')
 valid_platforms = ('Windows', 'Linux', 'macOS', 'Android', 'iOS', 'Web')
 recommended_keywords = ('action', 'arcade', 'adventure', 'visual novel', 'sports', 'platform', 'puzzle', 'role playing', 'simulation', 'strategy', 'card game', 'board game', 'music', 'educational', 'tool', 'game engine', 'framework', 'library', 'remake')
-regex_sanitize_name = re.compile(r"[^A-Za-z 0-9-]+")
+regex_sanitize_name = re.compile(r"[^A-Za-z 0-9-+]+")
 regex_sanitize_name_space_eater = re.compile(r" +")
 
 
@@ -52,8 +52,7 @@ def canonical_game_name(name):
     name = regex_sanitize_name.sub('', name)
     name = regex_sanitize_name_space_eater.sub('_', name)
     name = name.replace('_-_', '-')
-    name = name.replace('--', '-')
-    name = name.replace('--', '-')
+    name = name.replace('--', '-').replace('--', '-')
 
     return name
 

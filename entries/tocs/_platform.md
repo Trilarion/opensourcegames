@@ -11,6 +11,7 @@
 - **[Data Storm](../data_storm.md)** (C, Apache-2.0, mature, inactive since 2017)
 - **[Dave Gnukem](../dave_gnukem.md)** (C++, GPL-2.0, mature)
 - **[Executive Man](../executive_man.md)** (JavaScript, Custom, mature, inactive since 2017)
+- **[Extreme Tux Racer](../extreme_tux_racer.md)** (C++, GPL-2.0, beta, inactive since 2018)
 - **[freegish](../freegish.md)** (C, GPL-2.0, beta, inactive since 2017)
 - **[FreePrince](../freeprince.md)** (C, GPL-2.0, beta, inactive since 2011)
 - **[freeVikings](../freevikings.md)** (Ruby, GPL-2.0, beta)

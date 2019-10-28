@@ -1,3 +1,4 @@
+ftp://ftp.tuxpaint.org/unix/x/
 Glitch the game, by Tiny Speck Inc. public domain
 http://antongerdelan.net/blog/ (other projects besides TestDrive)
 http://circularstudios.com/
@@ -7,7 +8,6 @@ http://dead-code.org/home/
 http://evolonline.org/about
 http://game-editor.com/Main_Page
 http://giderosmobile.com/
-http://gna.org/projects/tactics
 http://haxepunk.com/
 http://hcsoftware.sourceforge.net/jason-rohrer/ (various games there)
 http://icculus.org/asciiroth/
@@ -198,6 +198,7 @@ https://github.com/FUSEEProjectTeam/Fusee
 https://github.com/fynnfluegge/oreon-engine
 https://github.com/gamearians
 https://github.com/GamedevFramework/gf
+https://github.com/GlPortal/RadixEngine
 https://github.com/gnFur/Monofoxe
 https://github.com/grantjenks/free-python-games (check all)
 https://github.com/Hotride/OrionUO
@@ -207,7 +208,9 @@ https://github.com/id-Software
 https://github.com/Illation/ETEngine
 https://github.com/JohanLi/uncharted-waters-2
 https://github.com/junkdog/artemis-odb
+https://github.com/jwvhewitt/gearhead-caramel.git
 https://github.com/KDE
+https://github.com/kduske/TrenchBroom
 https://github.com/Kosmonaut3d/DeferredEngine
 https://github.com/LgLinus/StrategyGame
 https://github.com/libretro/libretro-prboom
@@ -223,6 +226,7 @@ https://github.com/OpenMandrivaAssociation
 https://github.com/OpenMandrivaAssociation/nexuiz/blob/master/nexuiz.spec
 https://github.com/OpenRA/d2
 https://github.com/opensourcedesign
+https://github.com/opentrack/opentrack
 https://github.com/OSSGames
 https://github.com/OSSGames (all there, but we should have them already)
 https://github.com/PavelDoGreat/WebGL-Fluid-Simulation
@@ -245,11 +249,13 @@ https://github.com/smlinux/nexuiz
 https://github.com/SPC-Some-Polish-Coders/PopHead
 https://github.com/SPC-Some-Polish-Coders/PopHead/
 https://github.com/stackos/Viry3D
+https://github.com/stolencatkarma/CataclysmLD
 https://github.com/tainicom/Aether.Physics2D
 https://github.com/the-insulines
 https://github.com/theaigames
 https://github.com/Tinob/Ishiiruka (https://github.com/shiiion/Ishiiruka, https://github.com/SirMangler/PrimeHack-Updater)
 https://github.com/TomBebb/awe
+https://github.com/videogamepreservation
 https://github.com/Wargus/stratagus
 https://github.com/wesnoth/haldric
 https://github.com/Zal0/ZGB
@@ -301,6 +307,7 @@ https://salsa.debian.org/games-team/etw
 https://scorched-moon.github.io/site/
 https://scratch.mit.edu/
 https://scratch.mit.edu/ (https://en.scratch-wiki.info/wiki/Scratch_Source_Code)
+https://sourceforge.net/directory/games/games/os:windows/
 https://sourceforge.net/projects/ad1000/
 https://sourceforge.net/projects/alterciv/
 https://sourceforge.net/projects/battlechess/
@@ -311,6 +318,7 @@ https://sourceforge.net/projects/crystal/
 https://sourceforge.net/projects/cyoadventures/
 https://sourceforge.net/projects/deuterosx/
 https://sourceforge.net/projects/dices/
+https://sourceforge.net/projects/dmonkey/
 https://sourceforge.net/projects/dsa-hl.berlios/
 https://sourceforge.net/projects/e-adventure/
 https://sourceforge.net/projects/elysium/

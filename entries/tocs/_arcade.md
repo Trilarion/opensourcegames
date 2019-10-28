@@ -18,6 +18,8 @@
 - **[Bouncy the Hungry Rabbit](../bouncy_the_hungry_rabbit.md)** (Python, GPL-2.0, mature, inactive since 2007)
 - **[CAVEZ of PHEAR](../cavez_of_phear.md)** (C, GPL-3.0, beta, inactive since 2011)
 - **[Destination Sol](../destination_sol.md)** (Java, Apache-2.0, mature)
+- **[FLTK Recycling Game!](../fltk_recycling_game.md)** (C++, LGPL-2.1, mature, inactive since 2014)
+- **[FLTrator](../fltrator.md)** (C++, GPL-3.0, mature, inactive since 2016)
 - **[Fluid Table Tennis](../fluid_table_tennis.md)** (JavaScript, MIT, mature, inactive since 2013)
 - **[freegish](../freegish.md)** (C, GPL-2.0, beta, inactive since 2017)
 - **[Friking Shark](../friking_shark.md)** (C++, GPL-3.0, mature)

@@ -84,7 +84,7 @@ def parse_lgw_content():
         entry = {'name': title}
 
         # get all external links
-        ignored_external_links = ('libregamewiki.org', 'freegamedev.net', 'freegamer.blogspot.com', 'opengameart.org', 'gnu.org', 'creativecommons.org', 'freesound.org', 'freecode.com')
+        ignored_external_links = ('libregamewiki.org', 'freegamedev.net', 'freegamer.blogspot.com', 'opengameart.org', 'gnu.org', 'creativecommons.org', 'freesound.org', 'freecode.com', 'freenode.net')
         links = [(x['href'], x.get_text()) for x in soup.find_all('a', href=True)]
         links = [x for x in links if x[0].startswith('http') and not any([y in x[0] for y in ignored_external_links])]
         entry['external links'] = links

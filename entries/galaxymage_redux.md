@@ -10,5 +10,7 @@ _Attempt to revitalize the open source game, GalaxyMage with a fresh codebase._
 - Code license: GPL-2.0
 - Code dependencies: numpy, pygame, PyOpenGL, Twisted, Zope
 
+Original GalaxyMage is lost with the Internet Archive not having stored any snapshot of it.
+
 ## Building
 

@@ -2,9 +2,9 @@
 # Library
 
 - **[Arcane-Engine](../arcane-engine.md)** (C++, MIT, beta)
-- **[Boost (C++ Libraries)](../boost_c_libraries.md)** (C++, Boost-1.0, mature)
+- **[Boost (C++ Libraries)](../boost_c++_libraries.md)** (C++, Boost-1.0, mature)
 - **[Box2D](../box2d.md)** (C, C++, Objective-C, zlib, mature)
-- **[Crypto++](../crypto.md)** (C++, Boost-1.0, mature)
+- **[Crypto++](../crypto++.md)** (C++, Boost-1.0, mature)
 - **[Dear ImGui](../dear_imgui.md)** (C, C++, MIT, mature)
 - **[DirectPython](../directpython.md)** (C++, ?, beta, inactive since 2007)
 - **[Doxygen](../doxygen.md)** (C++, GPL-2.0, mature)

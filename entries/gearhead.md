@@ -2,15 +2,17 @@
 
 _Roguelike mecha RPG series._
 
-- Home: http://www.gearheadrpg.com/
+- Home: http://www.gearheadrpg.com/, https://sourceforge.net/projects/gearhead/
 - State: mature
-- Download: http://www.gearheadrpg.com/downloads/
+- Download: http://www.gearheadrpg.com/downloads/, https://sourceforge.net/projects/gearhead/files/gearhead/
 - Keywords: role playing, roguelike
-- Code repository: https://github.com/jwvhewitt/gearhead-1.git, https://github.com/jwvhewitt/gearhead-2.git (+), https://github.com/jwvhewitt/gearhead-caramel.git (+), https://github.com/jwvhewitt/dmeternal.git (+)
+- Code repository: https://github.com/jwvhewitt/gearhead-1.git, https://svn.code.sf.net/p/gearhead/code/trunk (svn)
 - Code language: Pascal
 - Code license: LGPL-2.1, Apache-2.0
 
-There are several independent versions.
+There are several successors.
+
+Developer: Joseph Hewitt
 
 ## Building
 

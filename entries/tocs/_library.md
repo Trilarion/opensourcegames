@@ -13,6 +13,7 @@
 - **[GL4ES](../gl4es.md)** (C, MIT, mature)
 - **[GoRogue](../gorogue.md)** (C#, MIT, mature)
 - **[HarfBuzz](../harfbuzz.md)** (C++, MIT, mature)
+- **[Harmonist: Dayoriah Clan Infiltration](../harmonist_dayoriah_clan_infiltration.md)** (Go, ISC, beta)
 - **[libpng](../libpng.md)** (C, Custom, mature)
 - **[Libxml2](../libxml2.md)** (C, MIT, mature)
 - **[Lua](../lua.md)** (C, MIT, mature)

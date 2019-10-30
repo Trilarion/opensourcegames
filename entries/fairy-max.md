@@ -6,7 +6,7 @@ _Fairy-Max is a xboard compatible chess engine for playing user defined chess va
 - State: mature, inactive since 2018
 - Download: http://home.hccnet.nl/h.g.muller/fairymax.tar.gz
 - Keywords: simulation, chess
-- Code repository: http://hgm.nubati.net/cgi-bin/gitweb.cgi?p=fairymax.git
+- Code repository: (http://hgm.nubati.net/cgi-bin/gitweb.cgi?p=fairymax.git)
 - Code language: C
 - Code license: Custom (permissive)
 

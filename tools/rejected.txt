@@ -50,17 +50,23 @@ FreeFT (https://github.com/nadult/FreeFT.git): All rights reserved.
 Frogatto & Friends (https://github.com/frogatto/frogatto, https://frogatto.com/): Only artwork and configuration files for the Anura engine and this is copyrighted
 Future Blocks (https://github.com/fogleman/FutureBlocks.git): Needs DosBox, simple Tetris clone (nice, but maybe too minimal)
 GalaxyMage (https://www.galaxymage.org/, http://gna.org/projects/tactics): No source code available anymore, not on IA nor on gna project site.
+GNOME Games (): Has been separated into individual packages. Will add them separately.
 Grow (https://sourceforge.net/projects/grow/): Insufficient content
+GRUB Invaders (http://www.erikyyy.de/invaders/): Requires use of the GRUB bootloader (also not really original)
 Herzog 3D (http://herzog3d.sourceforge.net/, https://sourceforge.net/p/herzog3d/code/HEAD/tree/): Very early development
 HistoryLine (https://github.com/oliverdb/Historyline): Very early development, no license information
 Homeworld SDL (https://github.com/aheadley/homeworld): Not open source compliant license (see https://github.com/aheadley/homeworld/blob/master/README)
+Howitzer Skirmish (http://howski.sourceforge.net/): No source code
 Ikariam (https://github.com/advocaite/ikariam, https://github.com/TheOnly92/Ikariem): No license information found, no assets license information found
 imperialism-remake (http://remake.twelvepm.de/, https://github.com/Trilarion/imperialism-Remake): Too minimal (I must know)
+Imperium: Sticks (http://rtciv.sourceforge.net/, http://sourceforge.net/projects/rtciv): No source code available
 Inline-Engine (https://github.com/petiaccja/Inline-Engine): Commercial license
+Interstate Outlaws (http://www.interstateoutlaws.com/): Very early development, No clear indication of license with source code, Abandoned since long time
 Ironclad (https://github.com/mikera/ironclad): No license information, asked but did not get a reply
 Jumping Jack 2 Worryingly Familiar (http://retrospec.sgn.net/game/jj2, http://retrospec.sgn.net/users/nwalker/jack/jjwf.zip): No compliant license found
 Jumping Jack Further Adventures (http://retrospec.sgn.net/game/jj,  http://retrospec.sgn.net/users/nwalker/jack/jj.zip): No compliant license found
 Jumpman (http://www.oldskool.org/pc/jumpman, http://www.oldskool.org/pc/jumpman/jump_src.zip): Only runs on DOS, License problems (taken without asking for permission)
+KDE Games (): Has been separated into individual packages. Will add them separately.
 KZap (http://kzap.sourceforge.net/): Very early development
 LastNinja (http://lastninja.sourceforge.net/, https://sourceforge.net/projects/lastninja/): Early development, Abandoned, Needs original material that is probably not obtainable legally
 legion (https://github.com/mahho/legion.git): No compatible license found

@@ -2814,7 +2814,7 @@
    "<a href=\"http://home.hccnet.nl/h.g.muller/fairymax.tar.gz\">Link</a>",
    "mature / inactive since 2018",
    "simulation, chess",
-   "<a href=\"http://hgm.nubati.net/cgi-bin/gitweb.cgi?p=fairymax.git\">Source</a> - C - Custom"
+   "C - Custom"
   ],
   [
    "Falcon's Eye (<a href=\"http://falconseye.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/falcons_eye.md\">entry</a>)",
@@ -3577,6 +3577,14 @@
    "<a href=\"https://bitbucket.org/giszmo/glob2\">Source</a> - C++ - GPL-3.0"
   ],
   [
+   "glParchis (<a href=\"https://github.com/turulomio/glparchis\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/glparchis.md\">entry</a>)",
+   "Implementation of the popular Parchis game, which is..",
+   "<a href=\"https://github.com/Turulomio/glparchis/releases\">Link</a>",
+   "mature / active",
+   "strategy, board, open content",
+   "<a href=\"https://github.com/turulomio/glparchis.git\">Source</a> - Python - GPL-3.0"
+  ],
+  [
    "glPortal (<a href=\"http://glportal.de/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/glportal.md\">entry</a>)",
    "Remake of Portal.",
    "",
@@ -3601,6 +3609,22 @@
    "<a href=\"https://gitlab.com/osgames/gm-tools.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
+   "Gnome Chess (<a href=\"https://wiki.gnome.org/Apps/Chess\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/gnome_chess.md\">entry</a>)",
+   "2D chess game for GNOME desktop. It automatically detects..",
+   "<a href=\"https://flathub.org/apps/details/org.gnome.Chess\">Link</a>",
+   "mature / active",
+   "strategy, chess, open content",
+   "<a href=\"https://gitlab.gnome.org/GNOME/gnome-chess\">Source</a> - Vala - GPL-3.0"
+  ],
+  [
+   "Gnome Hearts (<a href=\"https://web.archive.org/web/20160308075926/http://www.jejik.com/gnome-hearts/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/gnome_hearts.md\">entry</a>)",
+   "Classic hearts card game for the GNOME desktop.",
+   "",
+   "mature / inactive since 2015",
+   "strategy, card",
+   "Python - GPL-2.0"
+  ],
+  [
    "Gnomescroll (<a href=\"https://github.com/Gnomescroll/Gnomescroll\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/gnomescroll.md\">entry</a>)",
    "Remake of Minecraft.",
    "",
@@ -3609,12 +3633,36 @@
    "<a href=\"https://github.com/Gnomescroll/Gnomescroll.git\">Source</a> - C, C++, Python - GPL-3.0"
   ],
   [
+   "GNU Chess (<a href=\"https://www.gnu.org/software/chess/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/gnu_chess.md\">entry</a>)",
+   "Chess game.",
+   "<a href=\"http://ftpmirror.gnu.org/chess/\">Link</a>",
+   "mature / inactive since 2017",
+   "strategy, chess, game engine, open content",
+   "<a href=\"http://svn.savannah.gnu.org/svn/chess\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
    "GNU FreeDink (<a href=\"https://www.gnu.org/software/freedink/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/gnu_freedink.md\">entry</a>)",
    "Dink Smallwood is an adventure/role-playing game, similar..",
    "<a href=\"https://www.gnu.org/software/freedink/get\">Link</a>",
    "mature / inactive since 2012",
    "adventure, 2D, inspired by Dink Smallwood, open content, remake, requires original content, role playing, top view",
    "<a href=\"https://git.savannah.gnu.org/git/freedink.git\">Source</a> - C - GPL-3.0"
+  ],
+  [
+   "GNU Go (<a href=\"https://www.gnu.org/software/gnugo/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/gnu_go.md\">entry</a>)",
+   "Go\u2010playing program.",
+   "<a href=\"https://www.gnu.org/software/gnugo/download.html\">Link</a>",
+   "mature / inactive since 2011",
+   "strategy, board, game engine, go, online",
+   "<a href=\"https://git.savannah.gnu.org/git/gnugo.git\">Source</a> - C - GPL-3.0"
+  ],
+  [
+   "Go Ollie! (<a href=\"http://www.charliedoggames.com/?page_id=62\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/go_ollie.md\">entry</a>)",
+   "Go Ollie! is a mouse controlled platformer about an earth..",
+   "<a href=\"https://web.archive.org/web/20111013005011/http://www.tweeler.com/GoOllie_13.sh\">Link</a>",
+   "mature / inactive since 2011",
+   "platform, open content",
+   "? - GPL-3.0"
   ],
   [
    "Goblin Camp (<a href=\"http://www.goblincamp.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/goblin_camp.md\">entry</a>)",
@@ -3689,6 +3737,14 @@
    "<a href=\"https://github.com/Chris3606/GoRogue.git\">Source</a> - C# - MIT"
   ],
   [
+   "Gottet (<a href=\"https://gottcode.org/gottet/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/gottet.md\">entry</a>)",
+   "Tetris-like game.",
+   "",
+   "mature / active",
+   "tool, tetris",
+   "C++ - GPL"
+  ],
+  [
    "GPL Arcade Volleyball (<a href=\"http://gav.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/gpl_arcade_volleyball.md\">entry</a>)",
    "An SDL remake of the old DOS game Arcade Volleyball.",
    "<a href=\"http://gav.sourceforge.net/download.php\">Link</a>",
@@ -3711,6 +3767,14 @@
    "beta / inactive since 2013",
    "adventure, 2D, game engine",
    "<a href=\"https://github.com/Droggelbecher/Grail.git\">Source</a> - C++, Lua - GPL-3.0"
+  ],
+  [
+   "Gravitation (<a href=\"http://hcsoftware.sourceforge.net/gravitation/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/gravitation.md\">entry</a>)",
+   "Second autobiographical game by Jason Rohrer.",
+   "<a href=\"https://sourceforge.net/projects/hcsoftware/files/Gravitation/\">Link</a>",
+   "mature / inactive since 2008",
+   "adventure, open content",
+   "C++ - Public domain"
   ],
   [
    "Greenius' Civil War (<a href=\"http://civilwar.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/greenius_civil_war.md\">entry</a>)",
@@ -3801,6 +3865,14 @@
    "<a href=\"https://gitlab.com/osgames/h-world.git\">Source</a> - C, Lua - GPL-2.0"
   ],
   [
+   "Hack (<a href=\"http://roguebasin.roguelikedevelopment.org/index.php?title=Hack\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/hack.md\">entry</a>)",
+   "Roguelike game. It served as the inspiration for NetHack.",
+   "",
+   "mature / inactive since 1985",
+   "role playing, roguelike, text",
+   "C - BSD"
+  ],
+  [
    "Hale (<a href=\"https://sourceforge.net/projects/hale/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/hale.md\">entry</a>)",
    "A turn based RPG with deep tactical combat and character..",
    "<a href=\"https://sourceforge.net/projects/hale/files/\">Link</a>",
@@ -3831,6 +3903,14 @@
    "mature / active",
    "library",
    "<a href=\"https://github.com/harfbuzz/harfbuzz.git\">Source</a> - C++ - MIT"
+  ],
+  [
+   "Harmonist: Dayoriah Clan Infiltration (<a href=\"https://harmonist.tuxfamily.org\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/harmonist_dayoriah_clan_infiltration.md\">entry</a>)",
+   "Stealth coffee-break roguelike game. The game has a heavy..",
+   "<a href=\"https://download.tuxfamily.org/harmonist/releases/\">Link</a>",
+   "beta / active",
+   "library, open content, roguelike, text",
+   "<a href=\"https://git.tuxfamily.org/harmonist/harmonist.git\">Source</a> - Go - ISC"
   ],
   [
    "Harris (<a href=\"https://github.com/ec429/harris\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/harris.md\">entry</a>)",
@@ -3881,6 +3961,14 @@
    "<a href=\"http://hg.hedgewars.org/hedgewars/\">Source</a> - Lua, C, C++, Pascal, Haskell - GPL-2.0"
   ],
   [
+   "Help Hannah's Horse (<a href=\"https://sourceforge.net/projects/hannah/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/help_hannahs_horse.md\">entry</a>)",
+   "Child-oriented arcade game, cross between Pacman and the..",
+   "<a href=\"https://sourceforge.net/projects/hannah/files/\">Link</a>",
+   "beta / inactive since 2008",
+   "action, arcade, kids-friendly, open content",
+   "C++ - GPL-2.0"
+  ],
+  [
    "Hematite (<a href=\"http://hematite.piston.rs/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/hematite.md\">entry</a>)",
    "Remake of Minecraft.",
    "",
@@ -3919,6 +4007,14 @@
    "beta / active",
    "strategy",
    "<a href=\"https://github.com/matthewgrimes/hexgame.git\">Source</a> - C++ - MIT"
+  ],
+  [
+   "Hex-a-hop (<a href=\"http://hexahop.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/hex-a-hop.md\">entry</a>)",
+   "Hexagonal tiles based puzzle game.",
+   "<a href=\"http://hexahop.sourceforge.net/downloads.html\">Link</a>",
+   "mature / inactive since 2013",
+   "puzzle, open content",
+   "<a href=\"https://git.code.sf.net/p/hexahop/code\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "HexGL (<a href=\"http://hexgl.bkcore.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/hexgl.md\">entry</a>)",
@@ -3969,6 +4065,14 @@
    "<a href=\"https://svn.code.sf.net/p/hhexen/code/\">Source</a> - C - GPL-2.0"
   ],
   [
+   "Hnefatafl (<a href=\"https://web.archive.org/web/20180901233504/http://hnefatafl.se/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/hnefatafl.md\">entry</a>)",
+   "Implementation of a Norse board game. It supports..",
+   "",
+   "beta / inactive since 2014",
+   "strategy, board, open content",
+   "<a href=\"https://gitlab.com/soderlund/hnefatafl.git\">Source</a> - C - ISC"
+  ],
+  [
    "Hocoslamfy (<a href=\"https://github.com/Nebuleon/hocoslamfy\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/hocoslamfy.md\">entry</a>)",
    "Remake of Flappy Bird.",
    "",
@@ -3983,6 +4087,14 @@
    "mature / inactive since 2013",
    "puzzle",
    "<a href=\"https://gitlab.com/osgames/hodoku.git\">Source</a> - Java - GPL-3.0"
+  ],
+  [
+   "Holtz (<a href=\"https://sourceforge.net/projects/holtz/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/holtz.md\">entry</a>)",
+   "Holtz is a collection of board games that can be played..",
+   "<a href=\"https://sourceforge.net/projects/holtz/files/\">Link</a>",
+   "mature / active",
+   "puzzle, board, online, open content",
+   "<a href=\"https://git.code.sf.net/p/holtz/code\">Source</a> - C++ - GPL"
   ],
   [
    "HolySpirit (<a href=\"https://sourceforge.net/projects/lechemindeladam/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/holyspirit.md\">entry</a>)",
@@ -4031,6 +4143,14 @@
    "beta / inactive since 2016",
    "adventure, 2D, game engine",
    "<a href=\"https://github.com/hypatia-software-org/hypatia-engine.git\">Source</a> - Python - MIT"
+  ],
+  [
+   "Hypercube (<a href=\"http://harmen.vanderwal.eu/hypercube/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/hypercube.md\">entry</a>)",
+   "Hypercube is a golf-like puzzle game around a tesseract..",
+   "",
+   "mature / inactive since 2016",
+   "puzzle, open content",
+   "Java - GPL-2.0"
   ],
   [
    "HyperRogue (<a href=\"http://roguetemple.com/z/hyper/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/hyperrogue.md\">entry</a>)",
@@ -4113,6 +4233,30 @@
    "<a href=\"https://github.com/craftworkgames/infiniminer.git\">Source</a> - C# - MIT"
   ],
   [
+   "Infinite Tux (<a href=\"https://github.com/qbancoffee/infinite-tux\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/infinite_tux.md\">entry</a>)",
+   "2D platformer game inspired by Infinite Mario. The game is..",
+   "<a href=\"https://github.com/qbancoffee/infinite-tux/releases\">Link</a>",
+   "mature / active",
+   "platform, open content",
+   "<a href=\"https://github.com/qbancoffee/infinite-tux.git\">Source</a> - Java - GPL-3.0"
+  ],
+  [
+   "Infon Battle Arena (<a href=\"http://infon.dividuum.de/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/infon_battle_arena.md\">entry</a>)",
+   "Real-time multiplayer programming game. You control your..",
+   "",
+   "beta / inactive since 2012",
+   "strategy, life simulation, open content, programming, real time",
+   "<a href=\"https://github.com/dividuum/infon.git\">Source</a> - C, Lua - GPL"
+  ],
+  [
+   "Intricacy (<a href=\"http://mbays.freeshell.org/intricacy/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/intricacy.md\">entry</a>)",
+   "Intricacy is a multiplayer lock-picking puzzle game, in..",
+   "",
+   "beta / active",
+   "puzzle, open content, text-based",
+   "<a href=\"http://repo.or.cz/intricacy.git\">Source</a> - Haskell - GPL-3.0"
+  ],
+  [
    "IO Reboot (<a href=\"https://github.com/omarchehab98/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/io_reboot.md\">entry</a>)",
    "Clone of Infinity Loop.",
    "",
@@ -4138,10 +4282,10 @@
   ],
   [
    "Iris2 (<a href=\"https://web.archive.org/web/20160809064454/https://iris2.de/index.php/Main_Page\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/iris2.md\">entry</a>)",
-   "Remake of Ultima Online.",
+   "2D/3D client for playing the MMORPG Ultima Online on..",
    "",
    "beta / inactive since 2017",
-   "role playing, inspired by Ultima Online, remake, requires original content",
+   "role playing, inspired by Ultima Online, open content, remake, requires server",
    "<a href=\"https://github.com/kblaschke/Iris2.git\">Source</a> - C, C++, Lua - GPL-3.0"
   ],
   [
@@ -4201,6 +4345,14 @@
    "<a href=\"https://git.code.sf.net/p/jake2/git\">Source</a> - Java - GPL-2.0"
   ],
   [
+   "Jamp (<a href=\"http://perre.noud.ch/jamp/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/jamp.md\">entry</a>)",
+   "Jamp is a physics puzzle game. The player controls a..",
+   "",
+   "beta / inactive since 2009",
+   "puzzle, open content, physics",
+   "C++ - GPL-3.0"
+  ],
+  [
    "JaNaG - Java Name Generator (<a href=\"https://www.beimax.de/janag/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/janag-java_name_generator.md\">entry</a>)",
    "Java random name generator for role-games, authors, and..",
    "<a href=\"https://www.beimax.de/fileadmin/downloads/janag/JaNaG_GUI.jar\">Link</a>",
@@ -4217,12 +4369,28 @@
    "<a href=\"https://github.com/FranciscoG/javascript-E.T..git\">Source</a> - JavaScript, Assembly - MIT"
   ],
   [
+   "Javelin (<a href=\"https://javelinrl.wordpress.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/javelin.md\">entry</a>)",
+   "Single-player role-playing game that uses d20 as the rule..",
+   "<a href=\"https://github.com/tukkek/javelin/releases\">Link</a>",
+   "mature / inactive since 2016",
+   "role playing, open content, roguelike",
+   "<a href=\"https://github.com/tukkek/javelin.git\">Source</a> - Java - GPL-2.0"
+  ],
+  [
    "Jazz\u00b2 Resurrection (<a href=\"http://deat.tk/jazz2/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/jazz_resurrection.md\">entry</a>)",
    "Remake of Jazz Jackrabbit 2.",
    "",
    "mature / active",
    "platform, 2D, commercial content, inspired by Jazz Jackrabbit 2, multiplayer Online, remake",
    "<a href=\"https://github.com/deathkiller/jazz2.git\">Source</a> - C#, JavaScript - GPL-3.0"
+  ],
+  [
+   "jClassicRPG (<a href=\"https://web.archive.org/web/20160420203037/http://javacrpg.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/jclassicrpg.md\">entry</a>)",
+   "3D RPG and framework.",
+   "",
+   "beta / inactive since 2010",
+   "role playing",
+   "<a href=\"https://svn.code.sf.net/p/javacrpg/code/trunk\">Source</a> - Java - LGPL version 3.0"
   ],
   [
    "JediOutcastLinux (<a href=\"https://github.com/xLAva/JediOutcastLinux\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/jedioutcastlinux.md\">entry</a>)",
@@ -4305,6 +4473,22 @@
    "<a href=\"https://github.com/ajxs/jsFO.git\">Source</a> - JavaScript, Python - Apache-2.0"
   ],
   [
+   "JSkat (<a href=\"http://www.jskat.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/jskat.md\">entry</a>)",
+   "German card game Skat and variations thereof.",
+   "<a href=\"https://github.com/b0n541/jskat-multimodule/releases\">Link</a>",
+   "beta / active",
+   "role playing, card, open content",
+   "<a href=\"https://github.com/b0n541/jskat-multimodule.git\">Source</a> - Java - GPL-3.0"
+  ],
+  [
+   "JSoko (<a href=\"https://www.sokoban-online.de/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/jsoko.md\">entry</a>)",
+   "JSoko is a sokobon style puzzle game. It includes an..",
+   "<a href=\"https://sourceforge.net/projects/jsokoapplet/files/\">Link</a>",
+   "mature / active",
+   "puzzle, open content, sokoban-style",
+   "Java - GPL"
+  ],
+  [
    "Julius (<a href=\"https://github.com/bvschaik/julius\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/julius.md\">entry</a>)",
    "Remake of Caesar 3.",
    "",
@@ -4369,6 +4553,14 @@
    "<a href=\"https://github.com/miki151/keeperrl.git\">Source</a> - C, C++ - GPL-2.0"
   ],
   [
+   "Key Runner (<a href=\"https://web.archive.org/web/20150412095108/http://killergame.net/keyrunner/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/key_runner.md\">entry</a>)",
+   "Key Runner is a 2D overhead action game where Moschata,..",
+   "",
+   "mature / inactive since 2013",
+   "action, open content",
+   "C++ - GPL-3.0"
+  ],
+  [
    "KGoldrunner (<a href=\"https://www.kde.org/applications/games/kgoldrunner/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/kgoldrunner.md\">entry</a>)",
    "Remake of Lode Runner.",
    "",
@@ -4417,6 +4609,14 @@
    "<a href=\"https://github.com/LonamiWebs/Klooni1010.git\">Source</a> - Java - GPL-3.0"
   ],
   [
+   "KMines (<a href=\"https://kde.org/applications/games/org.kde.kmines\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/kmines.md\">entry</a>)",
+   "Mostly classical minesweeper puzzle game from the KDEGames..",
+   "",
+   "mature / active",
+   "puzzle, minesweeper, open content",
+   "<a href=\"https://anongit.kde.org/kmines.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
    "KnightOfWor (<a href=\"https://github.com/Sanguinik/KnightOfWor\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/knightofwor.md\">entry</a>)",
    "Remake of Wizard of Wor.",
    "",
@@ -4431,6 +4631,14 @@
    "beta / inactive since 2014",
    "role playing, dungeon, inspired by Knights, multiplayer, remake",
    "C++ - GPL-3.0"
+  ],
+  [
+   "Kobo Deluxe (<a href=\"http://olofson.net/kobodl/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/kobo_deluxe.md\">entry</a>)",
+   "2D scrolling space shooter.",
+   "",
+   "beta / inactive since 2007",
+   "action, inspired by XKobo, open content",
+   "C++ - GPL-2.0"
   ],
   [
    "Kobold's Quest 2 (<a href=\"https://sourceforge.net/projects/koboldsquest2/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/kobolds_quest_2.md\">entry</a>)",
@@ -4449,12 +4657,52 @@
    "<a href=\"https://github.com/grrk-bzzt/kqlives.git\">Source</a> - C - GPL-2.0"
   ],
   [
+   "Krank (<a href=\"http://krank.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/krank.md\">entry</a>)",
+   "Game of dexterity.",
+   "<a href=\"https://sourceforge.net/projects/krank/files/\">Link</a>",
+   "beta / inactive since 2008",
+   "role playing, dexterity, open content, skill",
+   "<a href=\"https://svn.code.sf.net/p/krank/code/trunk\">Source</a> - Python - Public domain"
+  ],
+  [
    "Krystal Drop (<a href=\"http://krystaldrop.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/krystal_drop.md\">entry</a>)",
    "Remake of Magical Drop.",
    "<a href=\"http://krystaldrop.sourceforge.net/downloads.html\">Link</a>",
    "beta / inactive since 2004",
    "puzzle, inspired by Magical Drop, remake",
    "<a href=\"https://gitlab.com/osgames/krystaldrop.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "KSnakeDuel (<a href=\"https://kde.org/applications/games/org.kde.ksnakeduel\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/ksnakeduel.md\">entry</a>)",
+   "Snake Duel for KDE (KSnake) is a snake game in the..",
+   "",
+   "mature / active",
+   "puzzle, open content, snake",
+   "<a href=\"https://anongit.kde.org/ksnakeduel.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "Ksudoku (<a href=\"https://kde.org/applications/games/org.kde.ksudoku\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/ksudoku.md\">entry</a>)",
+   "Program for creating and solving (manually or..",
+   "",
+   "mature / active",
+   "puzzle, open content, sudoku",
+   "<a href=\"https://anongit.kde.org/ksudoku.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "Kuklomenos (<a href=\"http://mbays.freeshell.org/kuklomenos/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/kuklomenos.md\">entry</a>)",
+   "Abstract shoot-em-up game, with minimalistic graphics and..",
+   "",
+   "beta / inactive since 2012",
+   "arcade, open content",
+   "C++ - GPL-3.0"
+  ],
+  [
+   "L'Abbaye des Morts (<a href=\"https://www.locomalito.com/abbaye_des_morts.php\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/labbaye_des_morts.md\">entry</a>)",
+   "2D exploration platformer.",
+   "",
+   "mature / inactive since 2018",
+   "adventure, open content, platform, side-scrolling",
+   "<a href=\"https://github.com/nevat/abbayedesmorts-gpl.git\">Source</a> - C - GPL-3.0"
   ],
   [
    "l-echo (<a href=\"https://code.google.com/p/l-echo/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/l-echo.md\">entry</a>)",

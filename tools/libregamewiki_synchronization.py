@@ -30,9 +30,11 @@ from utils import constants, utils, osg
 name_replacements = {'Eat the Whistle': 'Eat The Whistle', 'Scorched 3D': 'Scorched3D', 'Silver Tree': 'SilverTree', 'Blob Wars Episode 1 : Metal Blob Solid': 'Blobwars: Metal Blob Solid', 'Adventure': 'Colossal Cave Adventure',
                      'Fall Of Imiryn': 'Fall of Imiryn', 'Liquid War 6': 'Liquid War', 'Gusanos': 'GUSANOS', 'Corewars': 'Core War', 'FLARE': 'Flare', 'Vitetris': 'vitetris', 'Powder Toy': 'The Powder Toy', 'Asylum': 'SDL Asylum',
                      'Atanks': 'Atomic Tanks', 'HeXon': 'heXon', 'Unnethack': 'UnNetHack', 'Nova Pinball': 'NOVA PINBALL', 'Jump n Bump': "Jump'n'Bump", 'Blades of Exile': 'Classic Blades of Exile', 'BlinKen': 'Blinken',
-                     'Colobot': 'Colobot: Gold Edition', 'Dead Justice': 'Cat Mother Dead Justice', 'FreeDink': 'GNU FreeDink'}
+                     'Colobot': 'Colobot: Gold Edition', 'Dead Justice': 'Cat Mother Dead Justice', 'FreeDink': 'GNU FreeDink', 'FRaBs': 'fRaBs', 'Harmonist': 'Dayoriah Clan Infiltration', 'Iris2 3D Client - for Ultima Online': 'Iris2',
+                     'Java Classic Role Playing Game': 'jClassicRPG'}
 ignored_names = ['Hetris', '8 Kingdoms', 'Antigravitaattori', 'Arena of Honour', 'Arkhart', 'Ascent of Justice', 'Balazar III', 'Balder3D', 'Barbie Seahorse Adventures', 'Barrage', 'Gnome Batalla Naval', 'User:AVRS/sandbox', 'Blocks',
-                 'Brickshooter', 'Bweakfwu', 'Cheese Boys', 'Clippers', 'Codewars', 'CRAFT: The Vicious Vikings', 'DQM', 'EmMines', 'Eskimo-run', 'Feuerkraft', 'Fight or Perish', 'Flatland', 'Forest patrol', 'Free Reign', 'GalaxyMage']
+                 'Brickshooter', 'Bweakfwu', 'Cheese Boys', 'Clippers', 'Codewars', 'CRAFT: The Vicious Vikings', 'DQM', 'EmMines', 'Eskimo-run', 'Feuerkraft', 'Fight or Perish', 'Flatland', 'Forest patrol', 'Free Reign', 'GalaxyMage',
+                 'Gloss', 'GRUB Invaders', 'Howitzer Skirmish', 'Imperium: Sticks', 'Interstate Outlaws', 'GNOME Games', 'KDE Games']
 
 licenses_map = {'GPLv2': 'GPL-2.0', 'GPLv2+': 'GPL-2.0', 'GPLv3': 'GPL-3.0', 'GPLv3+': 'GPL-3.0'}
 
@@ -217,7 +219,7 @@ if __name__ == "__main__":
             # external links
             ext_links = lgw_entry['external links']
             if ext_links:
-                entry += '\nLinks: {}\n'.format(', '.join(['{}: {}'.format(x[1], x[0]) for x in ext_links]))
+                entry += '\nLinks: {}\n'.format('\n '.join(['{}: {}'.format(x[1], x[0]) for x in ext_links]))
 
             # free text
             if 'developer' in lgw_entry:

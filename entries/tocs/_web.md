@@ -27,6 +27,7 @@
 - **[gist-txt](../gist-txt.md)** (JavaScript, MIT, mature, inactive since 2018)
 - **[GNU FreeDink](../gnu_freedink.md)** (C, GPL-3.0, mature, inactive since 2012)
 - **[Grimsonland](../grimsonland.md)** (JavaScript, ?, mature, inactive since 2017)
+- **[Harmonist: Dayoriah Clan Infiltration](../harmonist_dayoriah_clan_infiltration.md)** (Go, ISC, beta)
 - **[HexGL](../hexgl.md)** (JavaScript, CoffeeScript, MIT, mature, inactive since 2016)
 - **[HTML5 Pacman](../html5_pacman.md)** (JavaScript, WTFPL, mature, inactive since 2013)
 - **[javascript-E.T.](../javascript-et.md)** (JavaScript, Assembly, MIT, beta, inactive since 2017)

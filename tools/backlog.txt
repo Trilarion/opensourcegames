@@ -23,6 +23,7 @@ http://icculus.org/pyddr/
 http://icculus.org/tennix/
 http://icculus.org/toby/
 http://ika.sourceforge.net/
+http://insideastarfilledsky.net/
 http://kursk.sourceforge.net/newfiles/Projects.htm
 http://lazerbears.wixsite.com/lazerbears/cr-editor
 http://libagar.org/agar/index.html.en
@@ -41,6 +42,7 @@ http://pyopengl.sourceforge.net/
 http://pypy.org/
 http://rcbasic.com/
 http://retrospec.sgn.net
+http://roguebasin.roguelikedevelopment.org/index.php?title=Main_Page
 http://sam.zoy.org/monsterz/
 http://senseis.xmp.net/?GoPlayingPrograms
 http://sio2interactive.com/
@@ -52,6 +54,7 @@ http://stratagus.sourceforge.net/
 http://sumwars.org/wiki/Main_Page
 http://svn.assembla.com/svn/gdpl/
 http://turbu-rpg.com/
+http://web.archive.org/web/20071218214256/http://users.tkk.fi/~eye/roguelike/nethack.html
 http://wiki.scummvm.org/index.php/HOWTO-Fangames
 http://ww12.atomicgameengine.com
 http://www.13thmonkey.org/~boris/jgame/
@@ -73,6 +76,7 @@ http://www.freemmorpgmaker.com/
 http://www.gameplay3d.io/
 http://www.garagegames.com/products/torque-3d
 http://www.gnu.org/
+http://www.happypenguin.org/show?XKobo
 http://www.hard-light.net/
 http://www.ibiblio.org/pub/Linux/games/strategy/ (and all others)
 http://www.ifwiki.org/index.php/Main_Page
@@ -128,6 +132,7 @@ https://code.google.com/archive/p/scummgen/
 https://code.google.com/archive/p/tecbattle/
 https://code.launchpad.net/~flosoft/s25rttr/trunk
 https://conquertheworldbycode.wordpress.com/nostalgia-2/
+https://directory.fsf.org/wiki/Collection:GNOME_Games (all of them)
 https://dragengine.rptd.ch/
 https://edu.kde.org/
 https://empiredirectory.net/
@@ -140,8 +145,6 @@ https://en.wikipedia.org/w/index.php?title=Simple_Solitaire_Collection&action=ed
 https://en.wikipedia.org/w/index.php?title=Trigger_Rally&action=edit&redlink=1
 https://en.wikipedia.org/wiki/Crystal_Space
 https://en.wikipedia.org/wiki/GNOME_Games_Collection
-https://en.wikipedia.org/wiki/GNU_Chess
-https://en.wikipedia.org/wiki/GNU_Go
 https://en.wikipedia.org/wiki/List_of_commercial_video_games_with_available_source_code
 https://en.wikipedia.org/wiki/M.U.G.E.N
 https://en.wikipedia.org/wiki/MUD#Spread (all there)
@@ -159,6 +162,8 @@ https://freegamer.blogspot.com (maybe there is something interesting)
 https://futurepinball.com/
 https://fydo.net/projects/island-rescue (and other projects there)
 https://gamejolt.com/ (search there)
+https://games.kde.org/ (all of them)
+https://games.kde.org/old/kde_arcade.php
 https://gdevelop-app.com/
 https://github.com/00-Evan/shattered-pixel-dungeon
 https://github.com/agateau/pixelwheels
@@ -167,9 +172,11 @@ https://github.com/ao-libre/ao-cliente
 https://github.com/AtomicGameEngine/AtomicGameEngine
 https://github.com/atphalix/nexuiz
 https://github.com/azhirnov/FrameGraph
+https://github.com/benl23x5/gloss
 https://github.com/bioglaze/aether3d
 https://github.com/bsmr-games (also contains copies)
 https://github.com/CatacombGames/
+https://github.com/cflewis/Infinite-Mario-Bros
 https://github.com/Chluverman/android-gltron
 https://github.com/collections/game-engines (only OS)
 https://github.com/collections/javascript-game-engines (only OS)
@@ -206,6 +213,7 @@ https://github.com/hparcells/cards-against-humanity
 https://github.com/i42output/neoGFX
 https://github.com/id-Software
 https://github.com/Illation/ETEngine
+https://github.com/Im-dex/xray-162
 https://github.com/JohanLi/uncharted-waters-2
 https://github.com/junkdog/artemis-odb
 https://github.com/jwvhewitt/gearhead-caramel.git
@@ -254,19 +262,23 @@ https://github.com/tainicom/Aether.Physics2D
 https://github.com/the-insulines
 https://github.com/theaigames
 https://github.com/Tinob/Ishiiruka (https://github.com/shiiion/Ishiiruka, https://github.com/SirMangler/PrimeHack-Updater)
+https://github.com/tizian/Cendric2
 https://github.com/TomBebb/awe
 https://github.com/videogamepreservation
 https://github.com/Wargus/stratagus
 https://github.com/wesnoth/haldric
+https://github.com/xrOxygen/xray-oxygen
 https://github.com/Zal0/ZGB
 https://gitlab.com/LibreGames
 https://gitlab.com/nyov/nyovs-nexuiz
 https://gitlab.com/vgstation/vgstation-old (and vgstation in general)
 https://gitlab.com/xonlegacy/xonlegacy
 https://gitlab.openrsc.com/open-rsc
+https://gottcode.org/
 https://instead3.syscall.ru/
 https://itch.io/ (scrape, look for open source)
 https://jcrpg.blogspot.de/
+https://kde.org/applications/games/ (all of them)
 https://lgdb.org/ (ask on reddit for archived version)
 https://lgdb.org/engine/rawgl
 https://lgdb.org/game/katawa_shoujo
@@ -307,6 +319,7 @@ https://salsa.debian.org/games-team/etw
 https://scorched-moon.github.io/site/
 https://scratch.mit.edu/
 https://scratch.mit.edu/ (https://en.scratch-wiki.info/wiki/Scratch_Source_Code)
+https://senseis.xmp.net/?GNUGo
 https://sourceforge.net/directory/games/games/os:windows/
 https://sourceforge.net/projects/ad1000/
 https://sourceforge.net/projects/alterciv/

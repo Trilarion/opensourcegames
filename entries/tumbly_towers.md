@@ -8,7 +8,7 @@ _Remake of Tricky Towers._
 - Platform: Windows, Linux
 - State: beta, inactive since 2017
 - Keywords: puzzle, inspired by Tricky Towers, open content, remake, skill, multiplayer
-- Code repository: https://github.com/SteveSmith16384/TumblyTowers
+- Code repository: https://github.com/SteveSmith16384/TumblyTowers.git
 - Code language: Java
 - Code license: MIT
 

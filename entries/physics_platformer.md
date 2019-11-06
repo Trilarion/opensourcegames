@@ -7,7 +7,7 @@ _Physics-based multiplayer platform game_
 - Download: https://github.com/SteveSmith16384/PhysicsPlatformer/releases
 - Platform: Windows, Linux
 - Keywords: arcade, platformer, multiplayer, physics
-- Code repository: https://github.com/SteveSmith16384/PhysicsPlatformer
+- Code repository: https://github.com/SteveSmith16384/PhysicsPlatformer.git
 - Code language: Java
 - Code license: MIT
 

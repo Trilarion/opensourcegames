@@ -7,7 +7,7 @@ _Physics-based multiplayer 2D space battle game_
 - Download: https://github.com/SteveSmith16384/PhysicsSpaceWar/releases
 - Platform: Windows, Linux
 - Keywords: arcade, multiplayer, physics
-- Code repository: https://github.com/SteveSmith16384/PhysicsSpaceWar
+- Code repository: https://github.com/SteveSmith16384/PhysicsSpaceWar.git
 - Code language: Java
 - Code license: MIT
 

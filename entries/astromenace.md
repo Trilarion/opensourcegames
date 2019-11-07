@@ -10,6 +10,8 @@ _3D space scroll-shooter with spaceship upgrade possibilities._
 - Code language: C++, C
 - Code license: GPL-3.0
 
+Developer: Mikkhail Kurin (Viewizard)
+
 ## Building
 
 - Build system: CMake

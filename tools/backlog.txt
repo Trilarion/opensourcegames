@@ -10,6 +10,7 @@ http://game-editor.com/Main_Page
 http://giderosmobile.com/
 http://haxepunk.com/
 http://hcsoftware.sourceforge.net/jason-rohrer/ (various games there)
+http://icculus.org/
 http://icculus.org/asciiroth/
 http://icculus.org/avp/
 http://icculus.org/bitstream/
@@ -26,6 +27,7 @@ http://ika.sourceforge.net/
 http://insideastarfilledsky.net/
 http://kursk.sourceforge.net/newfiles/Projects.htm
 http://lazerbears.wixsite.com/lazerbears/cr-editor
+http://lgames.sourceforge.net/ (all of them)
 http://libagar.org/agar/index.html.en
 http://libsdl-android.sourceforge.net/
 http://lukaszjakowski.pl/ (games apart from uMario)
@@ -166,7 +168,9 @@ https://games.kde.org/ (all of them)
 https://games.kde.org/old/kde_arcade.php
 https://gdevelop-app.com/
 https://github.com/00-Evan/shattered-pixel-dungeon
+https://github.com/acedogblast/Project-Uranium-Godot
 https://github.com/agateau/pixelwheels
+https://github.com/Alzter/TuxBuilder
 https://github.com/amerkoleci/Vortice.Windows
 https://github.com/ao-libre/ao-cliente
 https://github.com/AtomicGameEngine/AtomicGameEngine
@@ -178,6 +182,7 @@ https://github.com/bsmr-games (also contains copies)
 https://github.com/CatacombGames/
 https://github.com/cflewis/Infinite-Mario-Bros
 https://github.com/Chluverman/android-gltron
+https://github.com/codenamecpp/carnage3d
 https://github.com/collections/game-engines (only OS)
 https://github.com/collections/javascript-game-engines (only OS)
 https://github.com/collections/pixel-art-tools (tools)
@@ -190,8 +195,10 @@ https://github.com/Cortrah/SpaceOperaDesign, https://github.com/Cortrah/SpaceOpe
 https://github.com/cping/LGame
 https://github.com/DaanVanYperen/artemis-odb-contrib
 https://github.com/DeflatedPickle/FAOSDance
+https://github.com/delaford/game
 https://github.com/Donerkebap13/DonerComponents
 https://github.com/Drasky-Vanderhoff/CommonDrops
+https://github.com/EaW-Team/equestria_dev
 https://github.com/ec-/Quake3e
 https://github.com/elishacloud/Silent-Hill-2-Enhancements
 https://github.com/enginmanap/limonEngine
@@ -224,10 +231,12 @@ https://github.com/LgLinus/StrategyGame
 https://github.com/libretro/libretro-prboom
 https://github.com/ligurio/awesome-ttygames
 https://github.com/MarcoLizza/tofu-engine
+https://github.com/MatthewTheGlutton/HideousDestructor
 https://github.com/mewo2/terrain
 https://github.com/moonwards1/Moonwards-Virtual-Moon
 https://github.com/morganbengtsson/mos
 https://github.com/MrFrenik/Enjon
+https://github.com/MustaphaTR/Romanovs-Vengeance
 https://github.com/ogarcia/opensudoku
 https://github.com/OGRECave/scape
 https://github.com/OpenMandrivaAssociation
@@ -244,6 +253,8 @@ https://github.com/psuong/ig-developer-console
 https://github.com/qiciengine/qiciengine
 https://github.com/Quaver/Wobble
 https://github.com/Renanse/Ardor3D
+https://github.com/RetroAchievements/RALibretro
+https://github.com/RetroAchievements/RAWeb
 https://github.com/rizwan3d/MotoGameEngine
 https://github.com/rlguy/FantasyMapGenerator
 https://github.com/RoxasShadow/Sottaceto
@@ -264,10 +275,12 @@ https://github.com/theaigames
 https://github.com/Tinob/Ishiiruka (https://github.com/shiiion/Ishiiruka, https://github.com/SirMangler/PrimeHack-Updater)
 https://github.com/tizian/Cendric2
 https://github.com/TomBebb/awe
+https://github.com/topics/top-down-shooter
 https://github.com/videogamepreservation
 https://github.com/Wargus/stratagus
 https://github.com/wesnoth/haldric
 https://github.com/xrOxygen/xray-oxygen
+https://github.com/YuriiSalimov/15-puzzle
 https://github.com/Zal0/ZGB
 https://gitlab.com/LibreGames
 https://gitlab.com/nyov/nyovs-nexuiz
@@ -290,6 +303,7 @@ https://libregamewiki.org/CameliaGirls
 https://libregamewiki.org/Childish_Cannoneer
 https://libregamewiki.org/index.php?title=Libregamewiki_talk:Community_Portal&oldid=25410#Some_long_term_ideas
 https://libregamewiki.org/Libregamewiki:Suggested_games#Likely_sources_for_more_free_games
+https://love2d.org/forums/viewforum.php?f=14 (check them if time)
 https://odr.chalmers.se/handle/20.500.12380/219006
 https://osdn.net/softwaremap/trove_list.php?form_cat=80
 https://packages.debian.org/sid/games/etw
@@ -312,6 +326,7 @@ https://pypi.org/project/simplejson/
 https://pypi.org/project/SQLAlchemy/
 https://pypi.org/project/TurboGears/
 https://pyweek.org/4/entries/ (Ascent of Justice)
+https://repology.org/ (for looking up other repositories of games)
 https://revolutionarygamesstudio.com/ Trhive
 https://rpgmaker.net/engines/rpg20xx/
 https://rpgmaker.net/games/2664/
@@ -385,6 +400,7 @@ https://sourceforge.net/projects/wwiig/
 https://sourceforge.net/projects/ztab/
 https://stabyourself.net/ (all projects there)
 https://stendhalgame.org/wiki/Marauroa
+https://tangramgames.dk/games/ (all)
 https://threejs.org/
 https://unity.com/
 https://verge-rpg.com/

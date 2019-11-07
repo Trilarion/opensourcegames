@@ -36,6 +36,7 @@
 - **[Lemmings.ts](../lemmingsts.md)** (TypeScript, MIT, mature)
 - **[Lords of the Fey](../lords_of_the_fey.md)** (JavaScript, AGPL-3.0, beta, inactive since 2018)
 - **[Lose Your Marbles](../lose_your_marbles.md)** (JavaScript, MIT, mature, inactive since 2014)
+- **[Minilens](../minilens.md)** (GDScript, GPL-3.0, mature, inactive since 2018)
 - **[mk.js](../mkjs.md)** (JavaScript, MIT, beta)
 - **[OpenDominion](../opendominion.md)** (PHP, AGPL-3.0, beta)
 - **[OpenEtG](../openetg.md)** (JavaScript, MIT, beta)

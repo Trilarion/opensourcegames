@@ -37,6 +37,7 @@
 - **[Mercenary Commander](../mercenary_commander.md)** (Java, 3-clause BSD, beta, inactive since 2010)
 - **[Mindustry](../mindustry.md)** (Java, GPL-3.0, mature)
 - **[Minetest](../minetest.md)** (C, C++, Lua, LGPL-2.1, mature)
+- **[Minilens](../minilens.md)** (GDScript, GPL-3.0, mature, inactive since 2018)
 - **[Morpheus Web Remake](../morpheus_web_remake.md)** (Javascript, MIT, beta)
 - **[NOVA PINBALL](../nova_pinball.md)** (Lua, GPL-3.0, beta, inactive since 2017)
 - **[Open Flood](../open_flood.md)** (Java, MIT, mature, inactive since 2018)

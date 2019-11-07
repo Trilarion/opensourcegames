@@ -6,8 +6,8 @@ _Side scrolling platform game._
 - State: mature, inactive since 2005
 - Download: https://sourceforge.net/projects/abe/files/
 - Platform: Windows, Linux, macOS
-- Keywords: platform
-- Code repository: http://abe.cvs.sourceforge.net (cvs)
+- Keywords: platform, side scrolling
+- Code repository: https://gitlab.com/osgames/abe.git (import of cvs), http://abe.cvs.sourceforge.net (cvs)
 - Code language: C
 - Code license: GPL-2.0
 - Code dependencies: SDL

@@ -6,7 +6,7 @@ _Tennis game._
 - State: beta, inactive since 2005
 - Download: https://sourceforge.net/projects/freetennis/files/
 - Keywords: strategy, open content, sport
-- Code repository: http://freetennis.cvs.sourceforge.net:/cvsroot/freetennis (cvs)
+- Code repository: https://gitlab.com/osgames/freetennis.git (import of cvs), http://freetennis.cvs.sourceforge.net (cvs)
 - Code language: OCaml
 - Code license: GPL-2.0
 - Assets license: GPL-2.0
@@ -14,3 +14,5 @@ _Tennis game._
 Developer: Maurizio Colucci
 
 ## Building
+
+- Build system: Make

@@ -48,6 +48,7 @@
 - **[Micropolis](../micropolis.md)** (C++, Java, Python, GPL-3.0, mature, inactive since 2015)
 - **[micropolisJS](../micropolisjs.md)** (JavaScript, GPL-3.0, mature)
 - **[MineCraft-One-Week-Challenge](../minecraft-one-week-challenge.md)** (C++, MIT, beta)
+- **[Minetest Game](../minetest_game.md)** (Lua, LGPL-2.1, mature)
 - **[NetStatsBaseball](../netstatsbaseball.md)** (C, Public domain, mature)
 - **[Oolite](../oolite.md)** (Objective-C, C, JavaScript, GPL-2.0, mature)
 - **[Open Creatures](../open_creatures.md)** (C, C++, Python, LGPL-2.1, beta, inactive since 2010)

@@ -7,7 +7,7 @@ _Cuyo is a Puyo Puyo-style puzzle game._
 - Download: http://download.savannah.gnu.org/releases/cuyo/
 - Platform: Linux
 - Keywords: puzzle, tetris-like
-- Code repository: http://cvs.savannah.nongnu.org:/sources/cuyo (cvs)
+- Code repository: https://gitlab.com/osgames/cuyo.git (import of cvs), http://cvs.savannah.nongnu.org:/sources/cuyo (cvs)
 - Code language: C++
 - Code license: GPL-2.0
 

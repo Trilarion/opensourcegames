@@ -4,6 +4,7 @@
 - **[Domination](../domination.md)** (Java, GPL-3.0, mature)
 - **[DreamChess](../dreamchess.md)** (C, GPL-3.0, beta)
 - **[JSettlers](../jsettlers.md)** (Java, GPL-3.0, mature)
+- **[Magic Gardeners Tournament](../magic_gardeners_tournament.md)** (Python, GPL-2.0, beta, inactive since 2007)
 - **[Open Legend RPG](../open_legend_rpg.md)** (Text, Custom, mature)
 - **[Pasang Emas](../pasang_emas.md)** (Vala, GPL-3.0, mature)
 - **[Pioneers](../pioneers.md)** (C, GPL-2.0, mature)

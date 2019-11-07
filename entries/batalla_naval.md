@@ -6,7 +6,7 @@ _Battleship game._
 - State: mature, inactive since 2002
 - Download: https://sourceforge.net/projects/batnav/files/
 - Keywords: arcade, multiplayer
-- Code repository: http://batnav.cvs.sourceforge.net (cvs)
+- Code repository: https://gitlab.com/osgames/batnav.git (import of cvs), http://batnav.cvs.sourceforge.net (cvs)
 - Code language: C
 - Code license: GPL-2.0
 

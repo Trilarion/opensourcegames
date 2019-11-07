@@ -32,6 +32,7 @@ digger (https://github.com/lutzroeder/digger): No license information
 DQM (http://idusale.tk): Homepage redirects to unrelated site
 Drop Shock (http://www.tinywarz.com/index.php, https://sourceforge.net/projects/dropshock/, https://git.code.sf.net/p/dropshock/code): No license found
 EarthShakerDS (http://simianzombie.com/posts/2011/05/10/earth-shaker-ds-released, https://github.com/ant512/EarthShakerDS.git): Target only Nintendo DS as hardware platform
+EconLegacy (https://sourceforge.net/projects/econlegacy/): Very early development
 Eleconics (https://sourceforge.net/projects/eleconics/): No license found
 Element Games Engine (https://github.com/fredwen2008/Element-Games-Engine): No license information
 EmMines (http://eaglemode.sourceforge.net/): Part of a too large application (eaglemode). Could not access Source code. Maybe later.
@@ -69,16 +70,21 @@ Jumpman (http://www.oldskool.org/pc/jumpman, http://www.oldskool.org/pc/jumpman/
 KDE Games (): Has been separated into individual packages. Will add them separately.
 KZap (http://kzap.sourceforge.net/): Very early development
 LastNinja (http://lastninja.sourceforge.net/, https://sourceforge.net/projects/lastninja/): Early development, Abandoned, Needs original material that is probably not obtainable legally
+LegacyClone (http://sourceforge.net/projects/legacyclone/): Very early development
 legion (https://github.com/mahho/legion.git): No compatible license found
 Lemmix (http://www.ericenzwaan.nl/eric/lemmings/lemmix.htm, http://www.ericenzwaan.nl/eric/lemmings/LemOpenSource.zip): Custom license, requires original content that is probably not obtainable legally
 linball (http://linball.sourceforge.net/, https://sourceforge.net/projects/linball/): Very early development stage
 luminesk5 (https://github.com/kaikai2/luminesk5.git): No clear license information found. Not clear if runnable or if playable.
 Manic Miner (http://retrospec.sgn.net/game/mm): Unclear license (freeware?), probably many from retrospec.sgn.net
+Memonix (https://web.archive.org/web/20100304083057/http://www.viewizard.com/games.php): Source not available anymore, Internet Archive doesn't have it too.
+Militia Defense (https://love2d.org/forums/viewtopic.php?f=5&t=380): Does not exist anymore.
 Mining Haze (http://sourceforge.net/projects/mininghaze/): Very early development
 MonoStrategy (https://monostrategy.codeplex.com/, https://codeplexarchive.blob.core.windows.net/archive/projects/monostrategy/monostrategy.zip): Early development (alpha), Not playable, requires original content, abandoned
 Moopy (https://code.google.com/archive/p/moopy/, https://code.google.com/archive/p/moopy/source/default/source): Early development stage
 MultiGame (https://github.com/whendricso/MultiGame): Commercial
+Neverputt (): Part of Neverball or never really offered separately
 New RAW (http://sourceforge.net/projects/newraw/, http://svn.code.sf.net/p/newraw/code/): Early development, requires original content, abandoned
+Ninjapix (http://pyedpypers.org/pyday/?p=27): Sources lost, Homepage offline, Internet archive hasn't stored sources
 Open General (http://www.open-general.com/, https://sourceforge.net/projects/opengeneral/, https://svn.code.sf.net/p/opengeneral/code/): Proprietary license (see credits.txt)
 Open Sonic (http://opensnc.sourceforge.net/home/index.php): Commercial content, already contained in Open Surge
 OpenDeathValley (https://github.com/OpenDeathValley/OpenDeathValley.git): No instructions, no releases, no website, not much code

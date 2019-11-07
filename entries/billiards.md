@@ -7,7 +7,7 @@ _Cue sports simulator aiming for physical accuracy and simplicity._
 - Download: http://www.nongnu.org/billiards/#downloads, http://download.savannah.nongnu.org/releases/billiards/
 - Platform: Linux
 - Keywords: sports, simulation
-- Code repository: http://cvs.savannah.nongnu.org:/sources/billiards (cvs)
+- Code repository: https://gitlab.com/osgames/billiards.git (import of cvs), http://cvs.savannah.nongnu.org:/sources/billiards (cvs)
 - Code language: Lua, Objective-C
 - Code license: GPL-3.0
 

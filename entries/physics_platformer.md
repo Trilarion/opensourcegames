@@ -1,9 +1,9 @@
 # Physics Platformer
 
-_Physics-based multiplayer platform game_
+_Physics-based multiplayer platform game._
 
 - Home: https://github.com/SteveSmith16384/PhysicsPlatformer
-- State: beta, Inactive since 2019
+- State: beta, inactive since 2019
 - Download: https://github.com/SteveSmith16384/PhysicsPlatformer/releases
 - Platform: Windows, Linux
 - Keywords: arcade, platformer, multiplayer, physics
@@ -13,4 +13,4 @@ _Physics-based multiplayer platform game_
 
 ## Building
 
-- Build instructions: Import into your favourite Java IDE.  All dependencies are included.
+- Build instructions: Import into your favourite Java IDE. All dependencies are included.

@@ -1,9 +1,9 @@
 # Physics Spacewar
 
-_Physics-based multiplayer 2D space battle game_
+_Physics-based multiplayer 2D space battle game._
 
 - Home: https://github.com/SteveSmith16384/PhysicsSpaceWar
-- State: beta, Inactive since 2019
+- State: beta, inactive since 2019
 - Download: https://github.com/SteveSmith16384/PhysicsSpaceWar/releases
 - Platform: Windows, Linux
 - Keywords: arcade, multiplayer, physics
@@ -13,4 +13,4 @@ _Physics-based multiplayer 2D space battle game_
 
 ## Building
 
-- Build instructions: Import into your favourite Java IDE.  All dependencies are included.
+- Build instructions: Import into your favourite Java IDE. All dependencies are included.

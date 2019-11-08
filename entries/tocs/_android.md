@@ -48,6 +48,7 @@
 - **[osu!](../osu.md)** (C#, MIT, beta)
 - **[ouzel](../ouzel.md)** (C, C++, Objective-C, 2-clause BSD, beta)
 - **[PainTown](../paintown.md)** (C++, Java, Python, 3-clause BSD, mature)
+- **[Pixel Wheels](../pixel_wheels.md)** (Java, GPL-3.0, beta)
 - **[PokerTH](../pokerth.md)** (C++, AGPL-3.0, mature, inactive since 2017)
 - **[Powerslide remake](../powerslide_remake.md)** (C++, MIT, beta)
 - **[Rabbit Escape](../rabbit_escape.md)** (Java, GPL-2.0, mature)

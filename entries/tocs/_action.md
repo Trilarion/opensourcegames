@@ -155,6 +155,7 @@
 - **[OpenRW](../openrw.md)** (C, C++, GPL-3.0, beta)
 - **[OpenTomb](../opentomb.md)** (C, C++, Lua, LGPL-3.0, beta)
 - **[OpenTyrian](../opentyrian.md)** (C, GPL-2.0, beta, inactive since 2018)
+- **[Pacewar](../pacewar.md)** (Python, GPL-3.0, mature, inactive since 2017)
 - **[PainTown](../paintown.md)** (C++, Java, Python, 3-clause BSD, mature)
 - **[Pang Zero](../pang_zero.md)** (Perl, GPL-2.0, beta, inactive since 2007)
 - **[QuakeSpasm](../quakespasm.md)** (C, GPL-2.0, mature)

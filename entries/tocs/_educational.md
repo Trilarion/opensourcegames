@@ -7,5 +7,7 @@
 - **[GCompris](../gcompris.md)** (C, Python, GPL-3.0, mature, inactive since 2016)
 - **[ORIENT](../orient.md)** (C#, Java, GPL-2.0, mature, inactive since 2009)
 - **[Prescription Wars](../prescription_wars.md)** (ColdFusion, JavaScript, GPL-3.0, mature, inactive since 2016)
+- **[PrimeShooter](../primeshooter.md)** (JavaScript, GPL-2.0, mature, inactive since 2010)
+- **[Q](../q.md)** (Python, GPL-3.0, mature, inactive since 2013)
 - **[thiefcatcher](../thiefcatcher.md)** (C++, GPL-3.0, beta)
 - **[Tux of Math Command](../tux_of_math_command.md)** (C, GPL-3.0, mature, inactive since 2011)

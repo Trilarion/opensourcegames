@@ -74,6 +74,7 @@
 - **[Project Dollhouse](../project_dollhouse.md)** (C#, MPL-2.0, beta)
 - **[pycraft](../pycraft.md)** (C, Python, GPL-2.0, mature, inactive since 2018)
 - **[Race Into Space](../race_into_space.md)** (C, C++, GPL-2.0, mature)
+- **[RedShift](../redshift.md)** (C, C++, GPL-2.0, beta, inactive since 2008)
 - **[Rigs of Rods](../rigs_of_rods.md)** (C, C++, AngelScript, GPL-3.0, mature)
 - **[Simutrans](../simutrans.md)** (C++, Artistic License, mature)
 - **[Sopwith 3](../sopwith_3.md)** (C, C++, Objective-C, GPL-2.0, beta, inactive since 2003)

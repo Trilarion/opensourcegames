@@ -30,6 +30,7 @@ http://lazerbears.wixsite.com/lazerbears/cr-editor
 http://lgames.sourceforge.net/ (all of them)
 http://libagar.org/agar/index.html.en
 http://libsdl-android.sourceforge.net/
+http://linux.tlk.fr/games/TecnoballZ/
 http://lukaszjakowski.pl/ (games apart from uMario)
 http://m484games.ucoz.com/
 http://martindrapeau.github.io/backbone-game-engine/
@@ -96,6 +97,7 @@ http://www.j4game.com/
 http://www.kiwijs.org/
 http://www.klinksoftware.com/
 http://www.layabox.com/en/
+http://www.linux-games.com/ (all there)
 http://www.linuxdevcenter.com/pub/a/linux/2003/04/24/exult.html
 http://www.mekwars.org/
 http://www.myandroidonline.com/category/games/
@@ -115,6 +117,7 @@ http://www.vbgore.com/Main_Page
 http://www.zeldaroth.fr/us/zroth.php
 http://www.zsnes.com/ emulator/platform
 https://001gamecreator.com/
+https://agateau.com/games/
 https://aleph-one-marathon.github.io/
 https://alternativeto.net/ query with only open source as opten
 https://app.assembla.com/spaces/openrpg/wiki
@@ -169,7 +172,7 @@ https://games.kde.org/old/kde_arcade.php
 https://gdevelop-app.com/
 https://github.com/00-Evan/shattered-pixel-dungeon
 https://github.com/acedogblast/Project-Uranium-Godot
-https://github.com/agateau/pixelwheels
+https://github.com/AdamsLair/duality
 https://github.com/Alzter/TuxBuilder
 https://github.com/amerkoleci/Vortice.Windows
 https://github.com/ao-libre/ao-cliente
@@ -190,9 +193,11 @@ https://github.com/collections/productivity-tools (maybe for statistical purpose
 https://github.com/collections/software-development-tools (maybe we can apply some of them across the board)
 https://github.com/collections/tools-for-open-source (maybe we can apply some)
 https://github.com/collections/web-games (only OS)
+https://github.com/collinhover/kaiopua
 https://github.com/cookgreen/Yuris-Revenge
 https://github.com/Cortrah/SpaceOperaDesign, https://github.com/Cortrah/SpaceOperaRuby/blob/master/design/turnstyles.md
 https://github.com/cping/LGame
+https://github.com/CytopiaTeam/Cytopia
 https://github.com/DaanVanYperen/artemis-odb-contrib
 https://github.com/DeflatedPickle/FAOSDance
 https://github.com/delaford/game
@@ -226,6 +231,9 @@ https://github.com/junkdog/artemis-odb
 https://github.com/jwvhewitt/gearhead-caramel.git
 https://github.com/KDE
 https://github.com/kduske/TrenchBroom
+https://github.com/kig/runfield
+https://github.com/kimkulling/osre
+https://github.com/klaussilveira/ioquake3.js
 https://github.com/Kosmonaut3d/DeferredEngine
 https://github.com/LgLinus/StrategyGame
 https://github.com/libretro/libretro-prboom
@@ -291,6 +299,7 @@ https://gottcode.org/
 https://instead3.syscall.ru/
 https://itch.io/ (scrape, look for open source)
 https://jcrpg.blogspot.de/
+https://kde.org/applications/games
 https://kde.org/applications/games/ (all of them)
 https://lgdb.org/ (ask on reddit for archived version)
 https://lgdb.org/engine/rawgl
@@ -310,6 +319,7 @@ https://packages.debian.org/sid/games/etw
 https://pixeldoctrine.com/index.html (more than just slime volleyball)
 https://play.google.com/store/apps/dev?id=8387589286898375037 (where is the source, not open source otherwise)
 https://playcanvas.com/
+https://pr-starfighter.github.io/
 https://pygame.org/project-Dododu-1134-.html
 https://pygame.org/project-Lands+of+Elderlore-294-.html
 https://pygame.org/project-LOF-2296-.html
@@ -407,8 +417,10 @@ https://verge-rpg.com/
 https://voltisoft.com/miragelegacy
 https://web.archive.org/web/20150526225753/http://sourceforge.net/projects/mameosx/
 https://web.archive.org/web/20150527150705/http://sourceforge.net/p/forge/community-docs/SourceForge%20Games/ (schon erledigt)
+https://web.archive.org/web/20170714065728/http://users.olis.net.au/zel/
 https://wiki.debian.org/Games/Unsuitable
 https://www.adventuregamestudio.co.uk/
+https://www.allegro.cc/depot/strategy/ (and all other genres there)
 https://www.b3dgs.com/v7/page.php?lang=en&section=projects
 https://www.bennugd.org/
 https://www.blender.org/

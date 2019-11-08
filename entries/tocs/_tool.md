@@ -17,6 +17,7 @@
 - **[JaNaG - Java Name Generator](../janag-java_name_generator.md)** (Java, GPL-3.0, mature, inactive since 2016)
 - **[Monster Generator](../monster_generator.md)** (Java, MIT, mature)
 - **[PCGen](../pcgen.md)** (Java, LGPL-2.1, mature)
+- **[Pendumito](../pendumito.md)** (JavaScript, GPL-2.0, mature, inactive since 2003)
 - **[pkg-config](../pkg-config.md)** (C, GPL-2.0, mature)
 - **[Procedural Map Generator](../procedural_map_generator.md)** (C++, MIT, mature, inactive since 2018)
 - **[Psyco](../psyco.md)** (C, MIT, mature, inactive since 2008)

@@ -10,7 +10,7 @@ _Clone of XOR._
 - Code repository: https://github.com/jwm-art-net/XorCurses.git
 - Code language: C
 - Code license: GPL-3.0
-- Code dependencies: Ncurses
+- Code dependencies: ncurses
 
 ## Building
 

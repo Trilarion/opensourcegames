@@ -6,7 +6,7 @@ _Base building game with artificial life simulation._
 - State: beta, inactive since 2015
 - Download: http://aussenposten.gamejs.org/download.html
 - Platform: Windows, Linux
-- Keywords: strategy, base building, open content, real time
+- Keywords: strategy, open content, real time
 - Code repository: (see download)
 - Code language: JavaScript
 - Code license: MIT

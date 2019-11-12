@@ -10,7 +10,7 @@ _Car racing game with features such as shooting at other players, buying new car
 - Code repository: https://gitlab.com/osgames/trophy.git (backup of svn), https://svn.code.sf.net/p/trophy/code/ (svn)
 - Code language: C++
 - Code license: GPL-2.0
-- Code dependencies: Clanlib
+- Code dependencies: ClanLib
 
 ## Building
 

@@ -5,9 +5,9 @@ _Civitas is a city building game for kids. It is written in the Java programming
 - Home: http://sourceforge.net/projects/civitas/, http://cosmopolita.conexum.com.br/ (Portoguese)
 - State: beta, inactive since 2017
 - Download: https://sourceforge.net/projects/civitas/files/
-- Keywords: simulation, city building, kids, online
+- Keywords: simulation, city building, for kids, online
 - Code repository: https://git.code.sf.net/p/civitas/code, https://svn.code.sf.net/p/civitas/svn/trunk (svn)
-- Code language: Java, Blender
+- Code language: Java, Blender Script
 - Code license: GPL-2.0
 - Code dependencies: Blender game engine
 

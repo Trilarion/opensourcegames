@@ -176,6 +176,7 @@
 - **[sensitive-js](../sensitive-js.md)** (JavaScript, ?, beta, inactive since 2017)
 - **[shadow-of-the-beast-html5](../shadow-of-the-beast-html5.md)** (JavaScript, Apache-2.0, beta, inactive since 2017)
 - **[Sine](../sine.md)** (C, C++, MIT, beta)
+- **[Slune](../slune.md)** (Python, GPL-2.0, mature, inactive since 2007)
 - **[Smash Battle](../smash_battle.md)** (C++, ?, beta, inactive since 2011)
 - **[Smash](../smash.md)** (JavaScript, MIT, mature)
 - **[SolarWolf](../solarwolf.md)** (Python, LGPL-2.1, mature, inactive since 2004)

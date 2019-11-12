@@ -8,7 +8,7 @@ _Remake of Minecraft._
 - Code repository: https://github.com/emezeske/digbuild.git
 - Code language: C, C++
 - Code license: GPL-2.0
-- Code dependencies: Glew, SDL
+- Code dependencies: GLEW, SDL
 
 ## Building
 

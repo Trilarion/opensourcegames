@@ -7,7 +7,7 @@ _Remake of Shadowgrounds: Survivor._
 - Keywords: remake, inspired by Shadowgrounds: Survivor, requires original content
 - Code repository: https://github.com/vayerx/shadowgrounds.git
 - Code language: C++
-- Code license: Custom-NC (see https://github.com/vayerx/shadowgrounds/blob/linux/LICENSE.txt)
+- Code license: Custom NC (see https://github.com/vayerx/shadowgrounds/blob/linux/LICENSE.txt)
 
 Content license?
 

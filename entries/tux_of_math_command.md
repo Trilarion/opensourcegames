@@ -7,7 +7,7 @@ _Math drill game starring Tux, the Linux Penguin._
 - State: mature, inactive since 2011 
 - Download: https://sourceforge.net/projects/tuxmath/files/
 - Platform: Linux
-- Keywords: educational, kids, tux
+- Keywords: educational, for kids, tux
 - Code repository: (see download)
 - Code language: C
 - Code license: GPL-3.0

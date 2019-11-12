@@ -8,7 +8,7 @@ _2D shooting arcade game._
 - Platform: Linux
 - Keywords: arcade, open content
 - Code repository: https://svn.code.sf.net/p/powermanga/code/ (svn), http://powermanga.cvs.sourceforge.net (cvs)
-- Code language: C99
+- Code language: C
 - Code license: GPL-3.0
 - Code dependencies: SDL, SDL Mixer
 - Assets license: GPL

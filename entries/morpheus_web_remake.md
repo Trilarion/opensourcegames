@@ -8,7 +8,7 @@ _Remake of Morpheus._
 - Platform: Windows, Linux, Android
 - Keywords: adventure, commercial content, first-person, inspired by Morpheus, remake, requires original content
 - Code repository: https://github.com/soap-bubble/web.git
-- Code language: Javascript
+- Code language: JavaScript
 - Code license: MIT
 - Code dependencies: React, Redux, Rx.js, Three.js, Tween.js
 

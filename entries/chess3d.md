@@ -7,7 +7,7 @@ _Chess3D is a HTML/WebGL 3D chess game with AI._
 - Platform: Web
 - Keywords: strategy, board, chess, open content
 - Code repository: https://github.com/FrenchYann/Chess3D.git
-- Code language: JavaScript, Pytghon
+- Code language: JavaScript, Python
 - Code license: GPL-3.0
 - Code dependencies: WebGL
 - Assets license: GPL-3.0

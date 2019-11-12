@@ -7,6 +7,6 @@ _Remake of Curse of the Azure Bonds._
 - Keywords: role playing, inspired by Curse of the Azure Bonds, remake
 - Code repository: https://github.com/simeonpilgrim/coab.git
 - Code language: C#
-- Code license: ??? (BSD?)
+- Code license: ? (BSD)
 
 ## Building

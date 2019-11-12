@@ -12,4 +12,4 @@ _Quadrapassel (formerly a part of GNOME Games) is a GNOME version of Tetris. It 
 
 ## Building
 
-- Build system: meson
+- Build system: Meson

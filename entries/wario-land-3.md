@@ -9,6 +9,6 @@ _Remake of Wario Land 3._
 - Code repository: https://github.com/NSasquatch/Wario-Land-3.git
 - Code language: Python
 - Code license: MIT
-- Code dependencies: Pygame
+- Code dependencies: pygame
 
 ## Building

@@ -7,7 +7,7 @@ _3D RPG and framework._
 - Keywords: role playing
 - Code repository: https://svn.code.sf.net/p/javacrpg/code/trunk (svn)
 - Code language: Java
-- Code license: LGPL version 3.0
+- Code license: LGPL-3.0
 - Code dependencies: jME
 
 Developer: Timong

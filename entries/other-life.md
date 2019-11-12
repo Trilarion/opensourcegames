@@ -13,6 +13,6 @@ _A community based game that allows you to affect the future of the game._
 
 Based on [Eternal Lands](eternal_lands.md).
 
-Most a client to connect to Eternal Lands??
+Mainly a client to connect to Eternal Lands?
 
 ## Building

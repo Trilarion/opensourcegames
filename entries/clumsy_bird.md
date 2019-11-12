@@ -10,6 +10,6 @@ _Remake of Flappy Bird._
 - Code repository: https://github.com/ellisonleao/clumsy-bird.git
 - Code language: JavaScript
 - Code license: MIT
-- Code dependencies: MelonJS
+- Code dependencies: melonJS
 
 ## Building

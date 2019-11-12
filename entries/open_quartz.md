@@ -7,9 +7,11 @@ _Implementation of the GPL Quake source._
 - Download: https://sourceforge.net/projects/openquartz/files/
 - Platform: Windows, Linux
 - Keywords: strategy, open content
-- Code repository: http://openquartz.cvs.sourceforge.net (cvs)
-- Code language: ?
-- Code license: ? (GPL)
+- Code repository: https://gitlab.com/osgames/openquartz.git (conversion of cvs), http://openquartz.cvs.sourceforge.net (cvs)
+- Code language: C
+- Code license: GPL-2.0
 - Assets license: ? (GPL)
 
 ## Building
+
+- Build system: Make

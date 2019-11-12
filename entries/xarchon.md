@@ -9,7 +9,7 @@ _Modelled after the golden oldie Archon game created by Freefall Associates and 
 - Code repository: https://gitlab.com/osgames/xarchon.git (import of cvs), (cvs at cvs.seul.org)
 - Code language: C, C++
 - Code license: GPL-2.0
-- Code dependencies: GTK, QT
+- Code dependencies: GTK, Qt
 
 ## Building
 

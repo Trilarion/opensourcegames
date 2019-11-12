@@ -68,6 +68,7 @@
 - **[Superpowers](../superpowers.md)** (TypeScript, ISC, mature)
 - **[SuperStarfighter](../superstarfighter.md)** (GDScript, MIT, beta)
 - **[Terasology](../terasology.md)** (Java, Apache-2.0, mature)
+- **[Terminal Overload](../terminal_overload.md)** (C++, C, C#, GPL-3.0, beta, inactive since 2016)
 - **[Undum](../undum.md)** (JavaScript, MIT, mature, inactive since 2018)
 - **[Urho3D](../urho3d.md)** (C++, AngelScript, MIT, mature)
 - **[VASSAL](../vassal.md)** (Java, LGPL-2.1, mature)

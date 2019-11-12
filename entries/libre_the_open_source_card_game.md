@@ -7,8 +7,8 @@ _Strategic/trading/collectable card game._
 - Download: https://sourceforge.net/projects/librecardgame/files/
 - Keywords: card game, 
 - Code repository: http://librecardgame.bzr.sourceforge.net/bzrroot/librecardgame (bzr)
-- Code language: ??
-- Code license: ??
+- Code language: ?
+- Code license: ?
 
 ## Building
 

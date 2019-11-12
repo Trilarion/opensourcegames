@@ -10,7 +10,7 @@ _Clone of Super Smash Bros.._
 - Code repository: https://github.com/digiholic/universalSmashSystem.git
 - Code language: Python
 - Code license: GPL-3.0
-- Code dependencies: PyGame
+- Code dependencies: pygame
 
 Just an engine. Create your own characters or download them.
 

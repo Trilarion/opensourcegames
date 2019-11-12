@@ -8,7 +8,7 @@ _Roguelike RPG._
 - Platform: Windows, Linux
 - Keywords: role playing, roguelike
 - Code repository: (see download)
-- Code language: FreePascal
+- Code language: Pascal
 - Code license: GPL-2.0
 
 Developer: Mario Donick

@@ -9,7 +9,7 @@ _Warcraft2 Mod that allows you to play Warcraft II with the Stratagus engine._
 - Code repository: https://github.com/Wargus/wargus.git, https://code.launchpad.net/wargus (bzr)
 - Code language: C++, Lua
 - Code license: GPL-2.0
-- Code dependencies: Stratagus
+- Code dependencies: Stratagus engine
 
 Runs on the [stratagus engine](http://forums.stratagus.com/).
 

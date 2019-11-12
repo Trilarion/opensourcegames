@@ -6,7 +6,7 @@ _Port of the classic 8086 biplane shoot-em-up._
 - State: mature, inactive since 2014
 - Download: https://sourceforge.net/projects/sdl-sopwith/files/
 - Platform: Linux
-- Keywords: action, fly, inspired by Sopwith, remake
+- Keywords: action, flight, inspired by Sopwith, remake
 - Code repository: https://gitlab.com/osgames/sdl-sopwith.git (import of svn), https://svn.code.sf.net/p/sdl-sopwith/code/ (svn)
 - Code language: C
 - Code license: GPL-2.0

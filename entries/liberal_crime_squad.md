@@ -10,7 +10,7 @@ _Satirical console-based political role-playing/strategy game._
 - Code repository: https://svn.code.sf.net/p/lcsgame/code/trunk (svn)
 - Code language: C++
 - Code license: GPL-2.0
-- Code dependencies: Curses, SDL2
+- Code dependencies: curses, SDL2
 
 ## Building
 

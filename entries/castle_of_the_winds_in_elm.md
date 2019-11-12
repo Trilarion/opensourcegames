@@ -7,7 +7,7 @@ _Remake of Castle of the Winds._
 - Keywords: role playing, inspired by Castle of the Winds, remake
 - Code repository: https://github.com/mordrax/cotwelm.git
 - Code language: Elm, JavaScript
-- Code license: ???
+- Code license: ?
 
 See also Castle of the Winds.
 

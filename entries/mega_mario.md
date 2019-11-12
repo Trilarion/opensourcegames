@@ -6,11 +6,11 @@ _Super Mario Bros. 1 clone._
 - State: mature, inactive since 2012 
 - Download: https://sourceforge.net/projects/mmario/files/
 - Platform: Windows
-- Keywords: action, inspired by Super Mario, plattformer, remake
+- Keywords: action, inspired by Super Mario, platformer, remake
 - Code repository: (see download)
 - Code language: C++
 - Code license: LGPL-2.1
 - Code dependencies: SDL
-- Assets license: (illegal use of Super Mario artwork and music??)
+- Assets license: (illegal use of Super Mario artwork and music?)
 
 ## Building

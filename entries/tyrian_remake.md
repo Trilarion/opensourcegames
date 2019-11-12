@@ -9,6 +9,6 @@ _Remake of Tyrian._
 - Code repository: https://github.com/b3dgs/tyrian-remake.git
 - Code language: Java
 - Code license: GPL-2.0
-- Code dependencies: Lion Engine
+- Code dependencies: Lion engine
 
 ## Building

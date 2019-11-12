@@ -31,10 +31,11 @@ name_replacements = {'Eat the Whistle': 'Eat The Whistle', 'Scorched 3D': 'Scorc
                      'Fall Of Imiryn': 'Fall of Imiryn', 'Liquid War 6': 'Liquid War', 'Gusanos': 'GUSANOS', 'Corewars': 'Core War', 'FLARE': 'Flare', 'Vitetris': 'vitetris', 'Powder Toy': 'The Powder Toy', 'Asylum': 'SDL Asylum',
                      'Atanks': 'Atomic Tanks', 'HeXon': 'heXon', 'Unnethack': 'UnNetHack', 'Nova Pinball': 'NOVA PINBALL', 'Jump n Bump': "Jump'n'Bump", 'Blades of Exile': 'Classic Blades of Exile', 'BlinKen': 'Blinken',
                      'Colobot': 'Colobot: Gold Edition', 'Dead Justice': 'Cat Mother Dead Justice', 'FreeDink': 'GNU FreeDink', 'FRaBs': 'fRaBs', 'Harmonist': 'Harmonist: Dayoriah Clan Infiltration', 'Iris2 3D Client - for Ultima Online': 'Iris2',
-                     'Java Classic Role Playing Game': 'jClassicRPG', 'LambdaRouge': 'LambdaRogue: The Book of Stars', 'Osgg': 'OldSkool Gravity Game', 'PyRacerz': 'pyRacerz'}
+                     'Java Classic Role Playing Game': 'jClassicRPG', 'LambdaRouge': 'LambdaRogue: The Book of Stars', 'Osgg': 'OldSkool Gravity Game', 'PyRacerz': 'pyRacerz', 'Starfighter': 'Project: Starfighter'}
 ignored_names = ['Hetris', '8 Kingdoms', 'Antigravitaattori', 'Arena of Honour', 'Arkhart', 'Ascent of Justice', 'Balazar III', 'Balder3D', 'Barbie Seahorse Adventures', 'Barrage', 'Gnome Batalla Naval', 'User:AVRS/sandbox', 'Blocks',
                  'Brickshooter', 'Bweakfwu', 'Cheese Boys', 'Clippers', 'Codewars', 'CRAFT: The Vicious Vikings', 'DQM', 'EmMines', 'Eskimo-run', 'Feuerkraft', 'Fight or Perish', 'Flatland', 'Forest patrol', 'Free Reign', 'GalaxyMage',
-                 'Gloss', 'GRUB Invaders', 'Howitzer Skirmish', 'Imperium: Sticks', 'Interstate Outlaws', 'GNOME Games', 'KDE Games', 'LegacyClone', 'Memonix', 'Ninjapix', 'Neverputt', 'Militia Defense']
+                 'Gloss', 'GRUB Invaders', 'Howitzer Skirmish', 'Imperium: Sticks', 'Interstate Outlaws', 'GNOME Games', 'KDE Games', 'LegacyClone', 'Memonix', 'Ninjapix', 'Neverputt', 'Militia Defense', 'Sudoku86',
+                 'Terminal Overload release history', 'Scions of Darkness', 'Sedtris', 'SilChess', 'SSTPong', 'Tesseract Trainer']
 
 licenses_map = {'GPLv2': 'GPL-2.0', 'GPLv2+': 'GPL-2.0', 'GPLv3': 'GPL-3.0', 'GPLv3+': 'GPL-3.0'}
 

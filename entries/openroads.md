@@ -8,7 +8,7 @@ _Remake of SkyRoads._
 - Platform: Web
 - Keywords: arcade, inspired by SkyRoads, remake
 - Code repository: https://github.com/anprogrammer/OpenRoads.git
-- Code language: TypeScript, Javascript
+- Code language: TypeScript, JavaScript
 - Code license: MIT
 - Code dependencies: WebGL
 - Assets license: ?

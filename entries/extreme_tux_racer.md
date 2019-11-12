@@ -5,7 +5,7 @@ _Racing game which forked off Tux Racer._
 - Home: https://sourceforge.net/projects/extremetuxracer/
 - State: beta, inactive since 2018
 - Download: https://sourceforge.net/projects/extremetuxracer/files/
-- Keywords: platform, 3d, inspired by TuxRacer, open content, racing
+- Keywords: platform, 3D, inspired by TuxRacer, open content, racing
 - Code repository: https://svn.code.sf.net/p/extremetuxracer/code/trunk (svn)
 - Code language: C++
 - Code license: GPL-2.0

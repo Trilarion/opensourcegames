@@ -83,6 +83,7 @@
 - **[ScummVM](../scummvm.md)** (C++, GPL-2.0, mature)
 - **[sfall](../sfall.md)** (C++, C, GPL-3.0, mature)
 - **[Sludge](../sludge.md)** (C, C++, Objective-C, LGPL-2.1, mature)
+- **[Solarus](../solarus.md)** (C, C++, Lua, GPL-3.0, mature)
 - **[Spartan Engine](../spartan_engine.md)** (C, C++, MIT, beta)
 - **[Spring](../spring.md)** (C++, C, Lua, GPL-2.0, mature)
 - **[Squiffy](../squiffy.md)** (JavaScript, MIT, mature)

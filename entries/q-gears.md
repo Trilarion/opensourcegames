@@ -9,7 +9,7 @@ _Remake of Final Fantasy VII._
 - Code repository: https://github.com/q-gears/q-gears.git, http://hg.code.sf.net/p/q-gears/code (hg old)
 - Code language: C, C++
 - Code license: GPL-2.0
-- Code dependencies: OGRE
+- Code dependencies: Ogre
 
 ## Building
 

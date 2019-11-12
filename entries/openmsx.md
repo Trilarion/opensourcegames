@@ -13,4 +13,4 @@ _MSX emulator._
 
 ## Building
 
-- Build system: meson
+- Build system: Meson

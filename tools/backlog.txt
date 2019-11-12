@@ -5,6 +5,7 @@ http://circularstudios.com/
 http://cyxdown.free.fr/bs/
 http://cyxdown.free.fr/f2b/
 http://dead-code.org/home/
+http://ethernet.wasted.ch/
 http://evolonline.org/about
 http://game-editor.com/Main_Page
 http://giderosmobile.com/
@@ -21,7 +22,6 @@ http://icculus.org/freyja/
 http://icculus.org/hge-unix/ http://hge.relishgames.com/
 http://icculus.org/jugglemaster/
 http://icculus.org/pyddr/
-http://icculus.org/tennix/
 http://icculus.org/toby/
 http://ika.sourceforge.net/
 http://insideastarfilledsky.net/
@@ -30,7 +30,6 @@ http://lazerbears.wixsite.com/lazerbears/cr-editor
 http://lgames.sourceforge.net/ (all of them)
 http://libagar.org/agar/index.html.en
 http://libsdl-android.sourceforge.net/
-http://linux.tlk.fr/games/TecnoballZ/
 http://lukaszjakowski.pl/ (games apart from uMario)
 http://m484games.ucoz.com/
 http://martindrapeau.github.io/backbone-game-engine/
@@ -97,6 +96,7 @@ http://www.j4game.com/
 http://www.kiwijs.org/
 http://www.klinksoftware.com/
 http://www.layabox.com/en/
+http://www.lesfleursdunormal.fr/static/informatique/old/index_en.html
 http://www.linux-games.com/ (all there)
 http://www.linuxdevcenter.com/pub/a/linux/2003/04/24/exult.html
 http://www.mekwars.org/
@@ -139,6 +139,7 @@ https://code.launchpad.net/~flosoft/s25rttr/trunk
 https://conquertheworldbycode.wordpress.com/nostalgia-2/
 https://directory.fsf.org/wiki/Collection:GNOME_Games (all of them)
 https://dragengine.rptd.ch/
+https://eblong.com/zarf/twilight/index.html
 https://edu.kde.org/
 https://empiredirectory.net/
 https://empiredirectory.net/index.php/downloads/viewdownload/6-server-software/13-empire-server
@@ -160,6 +161,7 @@ https://en.wikipedia.org/wiki/Passage_(video_game)
 https://en.wikipedia.org/wiki/Rocks%27n%27Diamonds
 https://en.wikipedia.org/wiki/Teeworlds
 https://enigma-dev.org/about.htm
+https://faq.tuxfamily.org/Games/En
 https://fedoraproject.org/wiki/SIGs/Games#List_of_games_we_will_NOT_package
 https://flathub.org/home (use it for Linux packaging) / https://flathub.org/apps/category/Game
 https://forums.scummvm.org/viewtopic.php?t=13512&highlight=open+source
@@ -219,19 +221,21 @@ https://github.com/gamearians
 https://github.com/GamedevFramework/gf
 https://github.com/GlPortal/RadixEngine
 https://github.com/gnFur/Monofoxe
+https://github.com/godotengine/godot-design
 https://github.com/grantjenks/free-python-games (check all)
 https://github.com/Hotride/OrionUO
 https://github.com/hparcells/cards-against-humanity
 https://github.com/i42output/neoGFX
+https://github.com/ictrobot/Cubes
 https://github.com/id-Software
 https://github.com/Illation/ETEngine
 https://github.com/Im-dex/xray-162
+https://github.com/jasonrohrer (add gits to his games)
 https://github.com/JohanLi/uncharted-waters-2
 https://github.com/junkdog/artemis-odb
 https://github.com/jwvhewitt/gearhead-caramel.git
 https://github.com/KDE
 https://github.com/kduske/TrenchBroom
-https://github.com/kig/runfield
 https://github.com/kimkulling/osre
 https://github.com/klaussilveira/ioquake3.js
 https://github.com/Kosmonaut3d/DeferredEngine
@@ -240,6 +244,7 @@ https://github.com/libretro/libretro-prboom
 https://github.com/ligurio/awesome-ttygames
 https://github.com/MarcoLizza/tofu-engine
 https://github.com/MatthewTheGlutton/HideousDestructor
+https://github.com/McKay42/McOsu
 https://github.com/mewo2/terrain
 https://github.com/moonwards1/Moonwards-Virtual-Moon
 https://github.com/morganbengtsson/mos
@@ -269,6 +274,7 @@ https://github.com/RoxasShadow/Sottaceto
 https://github.com/rramsden/ymir
 https://github.com/SanderMertens/flecs
 https://github.com/saniv/free-game-art/blob/master/foss-copyright-infringement-records.md
+https://github.com/scp-fs2open/fs2open.github.com
 https://github.com/search?p=1&q=sunrider&type=Repositories, sunrider
 https://github.com/senior-sigan/WHY_CPP
 https://github.com/skypjack/entt
@@ -278,6 +284,7 @@ https://github.com/SPC-Some-Polish-Coders/PopHead/
 https://github.com/stackos/Viry3D
 https://github.com/stolencatkarma/CataclysmLD
 https://github.com/tainicom/Aether.Physics2D
+https://github.com/tangziwen/Cube-Engine
 https://github.com/the-insulines
 https://github.com/theaigames
 https://github.com/Tinob/Ishiiruka (https://github.com/shiiion/Ishiiruka, https://github.com/SirMangler/PrimeHack-Updater)
@@ -319,7 +326,6 @@ https://packages.debian.org/sid/games/etw
 https://pixeldoctrine.com/index.html (more than just slime volleyball)
 https://play.google.com/store/apps/dev?id=8387589286898375037 (where is the source, not open source otherwise)
 https://playcanvas.com/
-https://pr-starfighter.github.io/
 https://pygame.org/project-Dododu-1134-.html
 https://pygame.org/project-Lands+of+Elderlore-294-.html
 https://pygame.org/project-LOF-2296-.html
@@ -415,6 +421,7 @@ https://threejs.org/
 https://unity.com/
 https://verge-rpg.com/
 https://voltisoft.com/miragelegacy
+https://web.archive.org/web/20060411054656/http://home.gna.org/oomadness/en/index.html
 https://web.archive.org/web/20150526225753/http://sourceforge.net/projects/mameosx/
 https://web.archive.org/web/20150527150705/http://sourceforge.net/p/forge/community-docs/SourceForge%20Games/ (schon erledigt)
 https://web.archive.org/web/20170714065728/http://users.olis.net.au/zel/
@@ -448,6 +455,7 @@ https://www.reddit.com/r/opensourcegames/
 https://www.reddit.com/r/opensourcegames/comments/celw6c/top_3_open_source_pinball_games_2015/
 https://www.renpy.org/ (also all projects linked there)
 https://www.scirra.com/construct2
+https://www.seul.org/~grumbel/tmp/clanlib/games.html
 https://www.tapatalk.com/groups/imperilist/
 https://www.tuxfamily.org/ (if there are games)
 https://www.wurfelengine.net/

@@ -32,6 +32,7 @@
 - **[Ragel](../ragel.md)** (C++, MIT, mature)
 - **[Simple and Fast Multimedia Library](../simple_and_fast_multimedia_library.md)** (C++, zlib, mature)
 - **[Simple DirectMedia Layer](../simple_directmedia_layer.md)** (C, zlib, mature)
+- **[Simple Sokoban](../simple_sokoban.md)** (C, GPL-3.0, mature, inactive since 2014)
 - **[SWIG](../swig.md)** (C++, SWIG license, mature)
 - **[wxWidgets](../wxwidgets.md)** (C++, Objective-C, Custom, mature)
 - **[XZ Utils](../xz_utils.md)** (C, Custom, mature)

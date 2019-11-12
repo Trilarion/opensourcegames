@@ -9,7 +9,7 @@ _Remake of F-1 Spirit._
 - Keywords: simulation, free content, inspired by F-1 Spirit, remake
 - Code repository: (see download)
 - Code language: C++
-- Code license: ??
+- Code license: ?
 - Code dependencies: SDL
 
 ## Building

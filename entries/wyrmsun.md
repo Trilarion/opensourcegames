@@ -9,7 +9,7 @@ _Strategy game which features elements of mythology, history and fiction._
 - Code repository: https://github.com/andrettin/wyrmsun.git, https://github.com/Andrettin/Wyrmgus.git (+)
 - Code language: Lua, C++
 - Code license: GPL-2.0
-- Code dependencies: Modified Stratagus-Engine
+- Code dependencies: Modified Stratagus engine
 - Assets license: CC0, GPL-2.0 (some music and sound from Battle for Wesnoth)
 
 ## Building

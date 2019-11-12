@@ -6,7 +6,7 @@ _Child-oriented arcade game, cross between Pacman and the Dizzy game "Fastfood".
 - State: beta, inactive since 2008
 - Download: https://sourceforge.net/projects/hannah/files/
 - Platform: Windows, Linux
-- Keywords: action, arcade, kids-friendly, open content
+- Keywords: action, arcade, for kids, open content
 - Code repository: (see download)
 - Code language: C++
 - Code license: GPL-2.0

@@ -4,7 +4,7 @@ _Navigate a 4 dimensional maze._
 
 - Home: http://www.urticator.net/maze/
 - State: mature, inactive since 2008
-- Keywords: puzzle, 4d, maze navigation (educational?), open content
+- Keywords: puzzle, 4D, maze navigation (educational?), open content
 - Code repository: (see home)
 - Code language: Java
 - Code license: Public domain

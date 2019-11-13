@@ -6,7 +6,7 @@ Also parse rejected games (https://libregamewiki.org/Libregamewiki:Rejected_game
 Unique left column names in the game info boxes:
 ['Code license', 'Code licenses', 'Developer', 'Developers', 'Engine', 'Engines', 'Genre', 'Genres', 'Libraries', 'Library', 'Media license', 'Media licenses', 'P. language', 'P. languages', 'Platforms']
 
-TODO there are games on LGW which are not part of the Games category but part of XXX-Games sub-categories
+TODO there are games on LGW which are not part of the Games category but part of XXX-Games sub-categories, find them
 """
 
 import os

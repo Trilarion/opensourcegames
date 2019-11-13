@@ -98,4 +98,5 @@
 - **[VASSAL](../vassal.md)** (Java, LGPL-2.1, mature)
 - **[WebFun](../webfun.md)** (TypeScript, MIT, beta)
 - **[Yet Another Engine](../yet_another_engine.md)** (MoonScript, Java, Lua, MIT, beta, inactive since 2016)
+- **[Yorg](../yorg.md)** (Python, GPL-3.0, beta)
 - **[Zod Engine](../zod_engine.md)** (C++, ?, mature, inactive since 2018)

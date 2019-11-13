@@ -210,3 +210,4 @@
 - **[Yamagi Quake II](../yamagi_quake_ii.md)** (C, GPL-2.0, mature)
 - **[Yo Frankie!](../yo_frankie.md)** (Blender Script, ?, mature, inactive since 2009)
 - **[Zatacka X](../zatacka_x.md)** (C, GPL-3.0, beta)
+- **[Zauberer](../zauberer.md)** (None, ISC, beta, inactive since 2018)

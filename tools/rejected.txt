@@ -127,6 +127,7 @@ Sworsorc (https://github.com/cjeffery/sworsorc, https://svn.code.sf.net/p/altera
 Tesseract Trainer (http://www.mushware.com/): Sources lost, license unclear, very early development, long abandoned
 thromolusng (https://github.com/segfaulthunter/thromolusng.git): Very early development, not playable, no build instructions, abandoned since 2010
 Tranzam (http://retrospec.sgn.net/game/tranzam, http://retrospec.sgn.net/download/files/TranzAm.1.1.zip): see other retrospec.sgn.net entries, license unclear, probably not open source as we want it
+TunnelWars (http://www.ratajik.net/TunnelWars/): Platform is OS2, not interesting for us
 Uncharted waters 2 remake (https://github.com/Jackyjjc/Uncharted-waters-2-remake.git, https://web.archive.org/web/20140504171546/http://jackyjjc.com/category/dk2-dev-journal/): Source got lost
 VegaTrek (https://sourceforge.net/projects/vegatrek/, https://svn.code.sf.net/p/vegatrek/code/): Unclear licensing, copyright of assets questionable
 Visions from the Other Side (http://www.insani.org/mukou.html): Source not available

@@ -41,5 +41,6 @@
 - **[twin-e](../twin-e.md)** (C, GPL-2.0, beta, inactive since 2015)
 - **[TwinEngine](../twinengine.md)** (C, GPL-2.0, mature, inactive since 2015)
 - **[uninvited](../uninvited.md)** (C, C++, Artistic License-2.0, beta, inactive since 2016)
+- **[Vegan on a Desert Island](../vegan_on_a_desert_island.md)** (Lua, GPL-3.0, beta)
 - **[WebFun](../webfun.md)** (TypeScript, MIT, beta)
 - **[zorkClone](../zorkclone.md)** (Java, Apache-2.0, beta)

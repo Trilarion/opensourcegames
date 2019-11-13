@@ -65,6 +65,7 @@
 - **[Taisei Project](../taisei_project.md)** (C, Python, MIT, mature)
 - **[Twine](../twine.md)** (JavaScript, GPL-3.0, mature)
 - **[Undum](../undum.md)** (JavaScript, MIT, mature, inactive since 2018)
+- **[WallBall](../wallball.md)** (Haxe, JavaScript, GPL-3.0, mature)
 - **[WebChess](../webchess.md)** (PHP, GPL-3.0, mature, inactive since 2010)
 - **[WebFun](../webfun.md)** (TypeScript, MIT, beta)
 - **[WWW](../www.md)** (JavaScript, GPL-3.0, beta, inactive since 2014)

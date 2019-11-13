@@ -12,3 +12,4 @@
 - **[Tangomon](../tangomon.md)** (Python, GPL-3.0, mature, inactive since 2017)
 - **[thiefcatcher](../thiefcatcher.md)** (C++, GPL-3.0, beta)
 - **[Tux of Math Command](../tux_of_math_command.md)** (C, GPL-3.0, mature, inactive since 2011)
+- **[Tux Paint](../tux_paint.md)** (C, C++, GPL-2.0, beta)

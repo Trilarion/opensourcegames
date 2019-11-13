@@ -3,3 +3,4 @@
 
 - **[Libre: The Open Source Card Game](../libre_the_open_source_card_game.md)** (?, ?, mature, inactive since 2010)
 - **[Tressette](../tressette.md)** (C++, GPL-2.0, mature, inactive since 2017)
+- **[Trigger](../trigger.md)** (C++, BSD, GPL, beta)

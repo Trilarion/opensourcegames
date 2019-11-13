@@ -7,7 +7,7 @@ _2D arcade platform game._
 - State: mature
 - Download: https://sourceforge.net/projects/blobwars/files/
 - Platform: Windows
-- Keywords: action
+- Keywords: action, commercial content
 - Code repository: https://git.code.sf.net/p/blobwars/code, https://gitlab.com/osgames/blobwars.git (+), https://src.fedoraproject.org/rpms/blobwars.git (+), https://github.com/OSSGames/GAME-SDL-ACTION-Blobwars_Metal_Blob_Solid.git
 - Code language: C++
 - Code license: GPL-2.0

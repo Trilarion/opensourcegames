@@ -13,7 +13,7 @@ _Educational software suite comprising of numerous activities for children aged 
 - Code dependencies: Gtk
 - Assets license: CC-BY-SA, GPL-3.0
 
-Partly commercial?
+Partly commercial.
 
 ## Building
 

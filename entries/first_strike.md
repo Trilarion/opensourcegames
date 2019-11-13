@@ -3,7 +3,7 @@
 _Conquer the world thanks to military forces._
 
 - Home: https://sourceforge.net/projects/firststrikegame/
-- State: mature
+- State: mature, inactive since 2018
 - Download: https://sourceforge.net/projects/firststrikegame/files/
 - Keywords: strategy
 - Code repository: https://gitlab.com/osgames/firststrike.git (mirror), https://svn.code.sf.net/p/firststrikegame/code/ (svn)

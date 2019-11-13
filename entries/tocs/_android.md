@@ -61,6 +61,7 @@
 - **[TinTin++](../tintin++.md)** (C, GPL-3.0, mature)
 - **[TowerJumper](../towerjumper.md)** (C++, GDScript, GPL-3.0, mature)
 - **[Turn of War](../turn_of_war.md)** (Java, GPL-3.0, beta, inactive since 2014)
+- **[Tux Paint](../tux_paint.md)** (C, C++, GPL-2.0, beta)
 - **[UnCiv](../unciv.md)** (Kotlin, MPL-2.0, beta)
 - **[warcraft-remake](../warcraft-remake.md)** (Java, GPL-2.0, beta)
 - **[Yet Another Engine](../yet_another_engine.md)** (MoonScript, Java, Lua, MIT, beta, inactive since 2016)

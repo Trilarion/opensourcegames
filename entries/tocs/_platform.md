@@ -48,4 +48,5 @@
 - **[uMario](../umario.md)** (C++, GPL-2.0, beta, inactive since 2016)
 - **[Wario-Land-3](../wario-land-3.md)** (Python, MIT, beta, inactive since 2018)
 - **[WarMUX](../warmux.md)** (C++, GPL-2.0, beta, inactive since 2018)
+- **[Warp Rogue](../warp_rogue.md)** (C, GPL-3.0, beta, inactive since 2010)
 - **[WWW](../www.md)** (JavaScript, GPL-3.0, beta, inactive since 2014)

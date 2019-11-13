@@ -5,7 +5,7 @@ _Blob Wars: Blob And Conquer is a 3D action game created by Parallel Realities u
 - Home: https://packages.debian.org/sid/games/blobandconquer, https://sourceforge.net/projects/blobandconquer/
 - Media: https://www.parallelrealities.co.uk/games/blobAndConquer/
 - State: mature, inactive since 2016
-- Keywords: platform, 3D, open content, shooter, third-person
+- Keywords: platform, 3D, commercial content, shooter, third-person
 - Code repository: https://git.code.sf.net/p/blobandconquer/code
 - Code language: C++
 - Code license: GPL (http://www.parallelrealities.co.uk/about/)

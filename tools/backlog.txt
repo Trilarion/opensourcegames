@@ -102,9 +102,15 @@ http://www.linuxdevcenter.com/pub/a/linux/2003/04/24/exult.html
 http://www.mekwars.org/
 http://www.myandroidonline.com/category/games/
 http://www.netgore.com/
+http://www.newbreedsoftware.com/
 http://www.newbreedsoftware.com/ (all)
+http://www.oletus.fi/games/
 http://www.ph2.net/zugspiel/
 http://www.plasmapong.com/plasma-pong/plasma-pong/
+http://www.roguebasin.com/index.php?title=Advanced_Rogue
+http://www.roguebasin.com/index.php?title=Category:Roguelike_games
+http://www.roguebasin.com/index.php?title=UltraRogue
+http://www.roguebasin.com/index.php?title=XRogue
 http://www.rpgtoolkit.net/
 http://www.rtsoft.com/novashell/
 http://www.sandboxgamemaker.com/
@@ -159,6 +165,7 @@ https://en.wikipedia.org/wiki/No_Gravity_(video_game)
 https://en.wikipedia.org/wiki/One_Hour_One_Life
 https://en.wikipedia.org/wiki/Passage_(video_game)
 https://en.wikipedia.org/wiki/Rocks%27n%27Diamonds
+https://en.wikipedia.org/wiki/Rogue_(video_game)
 https://en.wikipedia.org/wiki/Teeworlds
 https://enigma-dev.org/about.htm
 https://faq.tuxfamily.org/Games/En
@@ -217,12 +224,14 @@ https://github.com/fegennari/3DWorld
 https://github.com/flathub (all repositories which are games there)
 https://github.com/FUSEEProjectTeam/Fusee
 https://github.com/fynnfluegge/oreon-engine
+https://github.com/Galapix/galapix
 https://github.com/gamearians
 https://github.com/GamedevFramework/gf
 https://github.com/GlPortal/RadixEngine
 https://github.com/gnFur/Monofoxe
 https://github.com/godotengine/godot-design
 https://github.com/grantjenks/free-python-games (check all)
+https://github.com/H-uru/Plasma
 https://github.com/Hotride/OrionUO
 https://github.com/hparcells/cards-against-humanity
 https://github.com/i42output/neoGFX
@@ -260,6 +269,7 @@ https://github.com/opentrack/opentrack
 https://github.com/OSSGames
 https://github.com/OSSGames (all there, but we should have them already)
 https://github.com/PavelDoGreat/WebGL-Fluid-Simulation
+https://github.com/perbone/luascript
 https://github.com/pld-linux
 https://github.com/pld-linux/nexuiz/blob/master/nexuiz.spec
 https://github.com/psuong/ig-developer-console
@@ -291,9 +301,11 @@ https://github.com/Tinob/Ishiiruka (https://github.com/shiiion/Ishiiruka, https:
 https://github.com/tizian/Cendric2
 https://github.com/TomBebb/awe
 https://github.com/topics/top-down-shooter
+https://github.com/Venom0us/Emberpoint
 https://github.com/videogamepreservation
 https://github.com/Wargus/stratagus
 https://github.com/wesnoth/haldric
+https://github.com/WohlSoft/PGE-Project
 https://github.com/xrOxygen/xray-oxygen
 https://github.com/YuriiSalimov/15-puzzle
 https://github.com/Zal0/ZGB
@@ -397,6 +409,7 @@ https://sourceforge.net/projects/pipmak/
 https://sourceforge.net/projects/qua/
 https://sourceforge.net/projects/quest/
 https://sourceforge.net/projects/roguelike/
+https://sourceforge.net/projects/roguelike/ (more rogues)
 https://sourceforge.net/projects/rpgstudio/
 https://sourceforge.net/projects/rpgtoolkit/
 https://sourceforge.net/projects/rptools.berlios/

@@ -181,6 +181,7 @@ https://games.kde.org/old/kde_arcade.php
 https://gdevelop-app.com/
 https://github.com/00-Evan/shattered-pixel-dungeon
 https://github.com/acedogblast/Project-Uranium-Godot
+https://github.com/AdaDoom3/AdaDoom3
 https://github.com/AdamsLair/duality
 https://github.com/Alzter/TuxBuilder
 https://github.com/amerkoleci/Vortice.Windows

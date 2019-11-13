@@ -153,6 +153,14 @@
    "C - GPL-2.0"
   ],
   [
+   "AdaGate (<a href=\"https://github.com/fastrgv/AdaGate\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/adagate.md\">entry</a>)",
+   "3D sokoban puzzle game within a Stargate / Portal fantasy..",
+   "<a href=\"https://github.com/fastrgv/AdaGate/releases\">Link</a>",
+   "mature / active",
+   "puzzle, 3D, sokoban-like",
+   "Ada - GPL-3.0"
+  ],
+  [
    "Adanaxis (<a href=\"https://web.archive.org/web/20180818173613/http://www.mushware.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/adanaxis.md\">entry</a>)",
    "Deep space first-person shooter.",
    "",
@@ -1767,6 +1775,14 @@
    "mature / inactive since 2013",
    "action, inspired by Astrosmash, remake",
    "C++ - GPL-2.0"
+  ],
+  [
+   "CoTerminalApps (<a href=\"https://github.com/fastrgv/CoTerminalApps\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/coterminalapps.md\">entry</a>)",
+   "Fun puzzle games that run on any terminal.",
+   "<a href=\"https://github.com/fastrgv/CoTerminalApps/releases\">Link</a>",
+   "mature / active",
+   "puzzle, open content, text-only",
+   "Ada - GPL-3.0"
   ],
   [
    "Crack Attack! (<a href=\"https://www.nongnu.org/crack-attack/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/crack_attack.md\">entry</a>)",
@@ -5449,6 +5465,14 @@
    "<a href=\"https://github.com/oitofelix/mininim.git\">Source</a> - C - GPL-3.0"
   ],
   [
+   "MiniPacman (<a href=\"https://github.com/fastrgv/MiniPacman\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/minipacman.md\">entry</a>)",
+   "Ascii character version of Pacman that plays in a..",
+   "<a href=\"https://github.com/fastrgv/MiniPacman/releases\">Link</a>",
+   "mature / active",
+   "arcade, inspired by Pacman, open content, text-only",
+   "Ada - GPL-3.0"
+  ],
+  [
    "Mirror Magic (<a href=\"http://www.artsoft.org/mirrormagic/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/mirror_magic.md\">entry</a>)",
    "Remake of Deflektor.",
    "",
@@ -7681,6 +7705,14 @@
    "<a href=\"https://github.com/REGoth-project/REGoth-bs.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
+   "Reliquarium (<a href=\"https://github.com/fastrgv/Reliquarium\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/reliquarium.md\">entry</a>)",
+   "Four unique 3D slider puzzles with crystal skull theme.",
+   "<a href=\"https://github.com/fastrgv/Reliquarium/releases\">Link</a>",
+   "mature / active",
+   "puzzle",
+   "Ada - GPL-2.0"
+  ],
+  [
    "Remixed Dungeon (<a href=\"https://wiki.nyrds.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/remixed_dungeon.md\">entry</a>)",
    "Roguelike, inspired by Pixel Dungeon.",
    "<a href=\"https://play.google.com/store/apps/details?id=com.nyrds.pixeldungeon.ml&referrer=utm_source%3Dgithub%26utm_content%3Dreadme\">Link</a>",
@@ -7927,6 +7959,30 @@
    "beta / inactive since 2012",
    "game engine, open content, programming, roguelike",
    "<a href=\"https://github.com/ryanb/ruby-warrior.git\">Source</a> - Ruby - MIT"
+  ],
+  [
+   "RufasCube (<a href=\"https://github.com/fastrgv/RufasCube\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/rufascube.md\">entry</a>)",
+   "3D slider puzzle that looks like a Rubic cube.",
+   "<a href=\"https://github.com/fastrgv/RufasCube/releases\">Link</a>",
+   "mature / active",
+   "puzzle",
+   "Ada - GPL-2.0"
+  ],
+  [
+   "RufasSlider (<a href=\"https://github.com/fastrgv/RufasSlider\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/rufasslider.md\">entry</a>)",
+   "Collection of classic 2D slider puzzles.",
+   "<a href=\"https://github.com/fastrgv/RufasSlider/releases\">Link</a>",
+   "mature / active",
+   "puzzle, slider",
+   "C++ - GPL-2.0"
+  ],
+  [
+   "RufasSwap (<a href=\"https://github.com/fastrgv/RufasSwap\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/rufasswap.md\">entry</a>)",
+   "Permuted picture puzzles for kids.",
+   "<a href=\"https://github.com/fastrgv/RufasSwap/releases\">Link</a>",
+   "mature / active",
+   "puzzle, for kids",
+   "Ada - GPL-3.0"
   ],
   [
    "RuneLite (<a href=\"https://runelite.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/runelite.md\">entry</a>)",
@@ -9113,12 +9169,28 @@
    "<a href=\"https://github.com/MovingBlocks/Terasology.git\">Source</a> - Java - Apache-2.0"
   ],
   [
+   "TermFrogger (<a href=\"https://github.com/fastrgv/TermFrogger\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/termfrogger.md\">entry</a>)",
+   "Ascii character version of Frogger that plays in a..",
+   "<a href=\"https://github.com/fastrgv/TermFrogger/releases\">Link</a>",
+   "mature / active",
+   "arcade, inspired by Frogger, open content, text-only",
+   "Ada - GPL-3.0"
+  ],
+  [
    "Terminal Overload (<a href=\"http://www.terminal-overload.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/terminal_overload.md\">entry</a>)",
    "(abbreviated TOL) Experimental online multiplayer first-..",
    "",
    "beta / inactive since 2016",
    "framework, first\u2010person, inspired by Revenge Of The Cats: Ethernet, open content, shooter",
    "<a href=\"https://github.com/fr1tz/terminal-overload.git\">Source</a> - C++, C, C# - GPL-3.0"
+  ],
+  [
+   "TerminalApps (<a href=\"https://github.com/fastrgv/TerminalApps\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/terminalapps.md\">entry</a>)",
+   "Fun puzzle games that run on any terminal.",
+   "<a href=\"https://github.com/fastrgv/TerminalApps/releases\">Link</a>",
+   "mature / active",
+   "puzzle, open content, text-only",
+   "Ada - GPL-3.0"
   ],
   [
    "terrarium (<a href=\"https://gitlab.com/hydren/terrarium\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/terrarium.md\">entry</a>)",

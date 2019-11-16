@@ -7,7 +7,7 @@ _Flight simulator developed since 1997._
 - State: mature
 - Download: https://www.flightgear.org/download/
 - Platform: Windows, macOS
-- Keywords: simulation, clone, inspired by Microsoft FLight Simulator
+- Keywords: simulation, clone, inspired by Microsoft Flight Simulator
 - Code repository: https://git.code.sf.net/p/flightgear/flightgear
 - Code language: C++
 - Code license: GPL-2.0

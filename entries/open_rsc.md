@@ -6,7 +6,7 @@ _As close of a replica Runescape game experience as possible._
 - State: mature 
 - Download: (see home)
 - Platform: Windows, Linux, macOS, Android
-- Keywords: role playing, inspired by Runescape Classic, massive multiplayer online, remake
+- Keywords: role playing, inspired by Runescape Classic, multiplayer online + massive, remake
 - Code repository: https://gitlab.openrsc.com/open-rsc/Game.git, https://gitlab.openrsc.com/open-rsc/Single-Player.git (+), https://github.com/Open-RSC/Game.git (mirror)
 - Code language: Java
 - Code license: GPL-3.0

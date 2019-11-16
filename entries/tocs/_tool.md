@@ -4,6 +4,7 @@
 - **[Athenaeum](../athenaeum.md)** (Python, GPL-3.0, beta)
 - **[AutoREALM](../autorealm.md)** (C++, GPL-3.0, mature)
 - **[Bt Builder](../bt_builder.md)** (C, C++, GPL-3.0, beta)
+- **[C.Y.O. Adventures, text game generator](../cyo_adventures_text_game_generator.md)** (Ada, GPL-2.0, beta, inactive since 2012)
 - **[CBoard](../cboard.md)** (C, GPL-2.0, beta, inactive since 2018)
 - **[D-Fend Reloaded](../d-fend_reloaded.md)** (Pascal, GPL-3.0, mature, inactive since 2015)
 - **[Dedalus](../dedalus.md)** (JavaScript, GPL-2.0, beta, inactive since 2018)
@@ -32,4 +33,5 @@
 - **[Squiffy](../squiffy.md)** (JavaScript, MIT, mature)
 - **[Twine](../twine.md)** (JavaScript, GPL-3.0, mature)
 - **[VGC](../vgc.md)** (C++, Apache-2.0, beta)
+- **[Wind Waker Randomizer](../wind_waker_randomizer.md)** (Python, Assembly, MIT, mature)
 - **[World Builder](../world_builder.md)** (Visual Basic, GPL-2.0, mature, inactive since 2007)

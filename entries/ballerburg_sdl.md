@@ -5,7 +5,7 @@ _Remake of the Turnbased Artillery game from 1987._
 - Home: https://baller.tuxfamily.org/
 - Media: https://en.wikipedia.org/wiki/Ballerburg
 - State: mature
-- Keywords: action, artillery, inspired by Ballerburg
+- Keywords: action, artillery, inspired by Ballerburg, remake
 - Code repository: https://git.tuxfamily.org/baller/baller.git, https://gitlab.com/osgames/ballerburg.git (+) (import of original source downloads)
 - Code language: C
 - Code license: GPL-3.0

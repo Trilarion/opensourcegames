@@ -24,6 +24,7 @@
 - **[Head over Heels](../head_over_heels.md)** (C++, GPL-3.0, mature)
 - **[Heart of the Alien](../heart_of_the_alien.md)** (C, GPL-2.0, beta, inactive since 2005)
 - **[Hypatia](../hypatia.md)** (Python, MIT, beta, inactive since 2016)
+- **[JavaScript Graphic Adventure Maker](../javascript_graphic_adventure_maker.md)** (JavaScript, MIT, mature)
 - **[javascript-E.T.](../javascript-et.md)** (JavaScript, Assembly, MIT, beta, inactive since 2017)
 - **[L'Abbaye des Morts](../labbaye_des_morts.md)** (C, GPL-3.0, mature, inactive since 2018)
 - **[Morpheus Web Remake](../morpheus_web_remake.md)** (JavaScript, MIT, beta)

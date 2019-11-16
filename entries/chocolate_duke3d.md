@@ -3,7 +3,7 @@
 _Remake of Duke Nukem 3D._
 
 - Home: https://github.com/fabiensanglard/chocolate_duke3D
-- State: beta
+- State: beta, inactive since 2016
 - Keywords: action, commercial content, inspired by Duke Nukem 3D, original content required, remake
 - Code repository: https://github.com/fabiensanglard/chocolate_duke3D.git
 - Code language: C

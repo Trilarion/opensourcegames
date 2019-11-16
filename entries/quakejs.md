@@ -6,7 +6,7 @@ _Remake of Quake 3._
 - State: mature
 - Play: http://www.quakejs.com/
 - Platform: Web
-- Keywords: remake, first-person, inspired by ioquake3, inspired by Quake 3, requires original content (?), shooter
+- Keywords: remake, first-person, inspired by ioquake3 + Quake 3, requires original content (?), shooter
 - Code repository: https://github.com/inolen/quakejs.git
 - Code language: JavaScript
 - Code license: MIT

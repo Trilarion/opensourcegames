@@ -2,7 +2,7 @@
 
 _Remake of Z._
 
-- Home: http://zod.sourceforge.net/
+- Home: http://zod.sourceforge.net/, http://sourceforge.net/projects/zod/
 - State: mature, inactive since 2018
 - Download: https://sourceforge.net/projects/zod/files/
 - Platform: Windows, Linux

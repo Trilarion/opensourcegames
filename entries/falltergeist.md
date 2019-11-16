@@ -2,7 +2,7 @@
 
 _Fallout 2 engine._
 
-- Home: https://web.archive.org/web/20190622033445/https://falltergeist.org/
+- Home: https://falltergeist.org/
 - State: beta
 - Download: https://github.com/falltergeist/falltergeist/releases
 - Platform: Windows, Linux

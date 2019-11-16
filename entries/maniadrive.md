@@ -1,12 +1,12 @@
-# Maniadrive
+# ManiaDrive
 
-_Racing clone of Trackmania._
+_Racing clone of TrackMania._
 
 - Home: http://maniadrive.raydium.org/, https://sourceforge.net/projects/maniadrive/
 - State: mature, inactive since 2008
 - Download: http://maniadrive.raydium.org/index.php?downloads=yes, https://sourceforge.net/projects/maniadrive/files/
 - Platform: Windows, Linux
-- Keywords: framework, inspired by Trackmania, open content, racing
+- Keywords: framework, inspired by TrackMania, open content, racing
 - Code repository: (see download)
 - Code language: PHP
 - Code license: GPL

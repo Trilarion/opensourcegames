@@ -5,7 +5,7 @@ _Role-playing game, featuring both a single-player and a multiplayer mode for ab
 - Home: <https://web.archive.org/web/20161221150109/http://sumwars.org:80/wiki/Main_Page>, http://sumwars.org/forum/
 - State: beta, inactive since 2014
 - Download: <https://web.archive.org/web/20160704003202/http://sumwars.org:80/wiki/Download>
-- Keywords: role playing, clone, inspired by Diablo, multiplayer, singleplayer
+- Keywords: role playing, clone, inspired by Diablo, multiplayer
 - Code repository: https://bitbucket.org/sumwars/sumwars-code (hg), https://gitlab.com/osgames/sumwars.git (+)
 - Code language: C, C++, Lua
 - Code license: GPL-3.0

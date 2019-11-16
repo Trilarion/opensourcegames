@@ -6,7 +6,7 @@ _Clone of Achtung, die Kurve!, a simple skill game._
 - State: mature
 - Play: https://kurve.se/
 - Platform: Web
-- Keywords: action, clone, inspired by Achtung die Kurve!, open content, singleplayer
+- Keywords: action, clone, inspired by Achtung die Kurve!, multiplayer local, open content
 - Code repository: https://github.com/SimonAlling/kurve.git
 - Code language: JavaScript
 - Code license: AGPL-3.0

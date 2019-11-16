@@ -4,7 +4,7 @@ _Children of Ur is an MMORPG._
 
 - Home: http://childrenofur.com/
 - State: beta
-- Keywords: role playing, multiplayer massive, online, open content, requires server
+- Keywords: role playing, multiplayer massive + online, open content, requires server
 - Code repository: https://github.com/ChildrenOfUr/coUclient.git, https://github.com/ChildrenOfUr/coUserver.git (archived)
 - Code language: Dart, JavaScript
 - Code license: MIT

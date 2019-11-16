@@ -25,6 +25,14 @@
    "<a href=\"https://gitlab.com/KilgoreTroutMaskReplicant/1oom.git\">Source</a> - C - GPL-2.0"
   ],
   [
+   "2006-rebotted (<a href=\"https://2006rebotted.tk\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/2006-rebotted.md\">entry</a>)",
+   "Remake of Runescape Classic.",
+   "<a href=\"https://github.com/dginovker/2006rebotted/releases\">Link</a>",
+   "mature / active",
+   "role playing, commercial content, inspired by Runescape Classic, multiplayer online + co-op, remake",
+   "<a href=\"https://github.com/dginovker/2006rebotted.git\">Source</a> - Java - 2-clause BSD"
+  ],
+  [
    "2048 (<a href=\"https://play2048.co/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/2048.md\">entry</a>)",
    "Sliding block puzzle game.",
    "",
@@ -134,14 +142,14 @@
    "<a href=\"http://abuse.zoy.org/wiki/download\">Link</a>",
    "mature / inactive since 2011",
    "action, inspired by Abuse, platform, remake, swappable content",
-   "C++, Lisp - Public domain"
+   "<a href=\"svn://svn.zoy.org/abuse/abuse/trunk\">Source</a> - C++, Lisp - Public domain"
   ],
   [
    "Achtung, die Kurve! (<a href=\"https://kurve.se/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/achtung_die_kurve.md\">entry</a>)",
    "Clone of Achtung, die Kurve!, a simple skill game.",
    "",
    "mature / active",
-   "action, clone, inspired by Achtung die Kurve!, open content, singleplayer",
+   "action, clone, inspired by Achtung die Kurve!, multiplayer local, open content",
    "<a href=\"https://github.com/SimonAlling/kurve.git\">Source</a> - JavaScript - AGPL-3.0"
   ],
   [
@@ -197,7 +205,7 @@
    "Robot-killing video game.",
    "<a href=\"http://perso.b2b2c.ca/~sarrazip/dev/afternoonstalker.html#download\">Link</a>",
    "mature / inactive since 2012",
-   "action, clone, inspired by Night Stalker",
+   "action, clone, inspired by Night Stalker, remake",
    "C++ - GPL-2.0"
   ],
   [
@@ -244,8 +252,8 @@
    "Aleph One (<a href=\"https://alephone.lhowon.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/aleph_one.md\">entry</a>)",
    "Continuation of Bungie's Marathon 2 FPS game engine.",
    "<a href=\"https://sourceforge.net/projects/marathon/files/\">Link</a>",
-   "mature / inactive since 2015",
-   "action, inspired by Marathon + Marathon 2, remake, shooter",
+   "mature / active",
+   "action, inspired by Marathon + Marathon 2 + Marathon Infinity, remake, shooter",
    "<a href=\"https://github.com/Aleph-One-Marathon/alephone.git\">Source</a> - C++, Lua - GPL-3.0"
   ],
   [
@@ -277,7 +285,7 @@
    "Remake of Oddworld: Abe's Oddysee, Oddworld: Abe's Exoddus",
    "",
    "beta / inactive since 2017",
-   "action, inspired by Oddworld: Abe's Exoddus, inspired by Oddworld: Abe's Oddysee, remake",
+   "action, inspired by Oddworld: Abe's Oddysee + Oddworld: Abe's Exoddus, remake",
    "<a href=\"https://github.com/paulsapps/alive.git\">Source</a> - C++ - MIT"
   ],
   [
@@ -445,7 +453,7 @@
    "Open Source FREE 2D MMORPG.",
    "<a href=\"http://www.comunidadargentum.com/descargas/\">Link</a>",
    "beta / inactive since 2014",
-   "role playing, massive multiplayer online",
+   "role playing, multiplayer online + massive",
    "<a href=\"https://github.com/Argentum-Online/Argentum-Online.git\">Source</a> - Visual Basic - GPL-2.0"
   ],
   [
@@ -490,10 +498,10 @@
   ],
   [
    "Arx Libertatis (<a href=\"http://arx-libertatis.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/arx_libertatis.md\">entry</a>)",
-   "Arx Libertatis is a cross-platform, open source port of..",
+   "Port of Arx Fatalis, a 2002 first-person role-playing game..",
    "<a href=\"http://wiki.arx-libertatis.org/Download\">Link</a>",
    "mature / active",
-   "role playing, inspired by Arx Fatalis, remake, singleplayer",
+   "role playing, commercial content, inspired by Arx Fatalis, remake, requires original content",
    "<a href=\"https://github.com/arx/ArxLibertatis.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
@@ -517,7 +525,7 @@
    "3D space scroll-shooter with spaceship upgrade..",
    "<a href=\"https://www.viewizard.com/download.html\">Link</a>",
    "mature / active",
-   "action, remake, shooter",
+   "action, inspired by AstroMenace, remake, shooter",
    "<a href=\"https://github.com/viewizard/astromenace.git\">Source</a> - C++, C - GPL-3.0"
   ],
   [
@@ -557,7 +565,7 @@
    "Faithful remake of, and a tribute to, Atomix, a classic..",
    "<a href=\"https://sourceforge.net/projects/atomiks/files\">Link</a>",
    "mature / inactive since 2015",
-   "puzzle, inspired by Atomix, proprietary content, remake",
+   "puzzle, commercial content, inspired by Atomix, remake",
    "<a href=\"https://gitlab.com/osgames/atomiks.git\">Source</a> - C - GPL-3.0"
   ],
   [
@@ -653,7 +661,7 @@
    "Remake of the Turnbased Artillery game from 1987.",
    "",
    "mature / active",
-   "action, artillery, inspired by Ballerburg",
+   "action, artillery, inspired by Ballerburg, remake",
    "<a href=\"https://git.tuxfamily.org/baller/baller.git\">Source</a> - C - GPL-3.0"
   ],
   [
@@ -821,7 +829,7 @@
    "Clone of Bug Bomber.",
    "",
    "beta / inactive since 2017",
-   "strategy, clone, Co-op, inspired by Bug Bomber, open content",
+   "strategy, clone, inspired by Bug Bomber, multiplayer co-op, open content",
    "<a href=\"https://github.com/VenKamikaze/BitRiot.git\">Source</a> - C++ - Apache-2.0"
   ],
   [
@@ -1149,7 +1157,7 @@
    "A Massively Multiplayer Adventure.",
    "",
    "mature / active",
-   "role playing, massive multiplayer online",
+   "role playing, multiplayer online + massive",
    "<a href=\"https://github.com/mozilla/BrowserQuest.git\">Source</a> - JavaScript - MPL-2.0"
   ],
   [
@@ -1157,7 +1165,7 @@
    "Inspired by the once popular \"Battle Chess\" released by..",
    "<a href=\"https://sourceforge.net/projects/brutalchess/files/\">Link</a>",
    "beta / inactive since 2007",
-   "strategy, chess, clone",
+   "strategy, chess, clone, inspired by Battle Chess",
    "<a href=\"https://gitlab.com/osgames/brutalchess.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -1205,7 +1213,7 @@
    "Multiplayer tank game.",
    "<a href=\"https://www.bzflag.org/downloads/\">Link</a>",
    "mature / active",
-   "action, clone, shooter",
+   "action, clone, inspired by Battle Zone, shooter",
    "<a href=\"https://github.com/BZFlag-Dev/bzflag.git\">Source</a> - C++ - LGPL-2.1"
   ],
   [
@@ -1223,6 +1231,14 @@
    "mature / inactive since 2013",
    "strategy, clone, inspired by Civilization II, turn-based",
    "<a href=\"https://github.com/vn971/cevo.git\">Source</a> - Pascal - Public domain"
+  ],
+  [
+   "C.Y.O. Adventures, text game generator (<a href=\"https://sourceforge.net/projects/cyoadventures/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/cyo_adventures_text_game_generator.md\">entry</a>)",
+   "Text-based game player and game generator. The games are..",
+   "<a href=\"https://sourceforge.net/projects/cyoadventures/files/\">Link</a>",
+   "beta / inactive since 2012",
+   "tool, text-based",
+   "<a href=\"https://svn.code.sf.net/p/cyoadventures/code/trunk\">Source</a> - Ada - GPL-2.0"
   ],
   [
    "C3DE (<a href=\"https://github.com/demonixis/C3DE\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/c3de.md\">entry</a>)",
@@ -1350,7 +1366,7 @@
    "<a href=\"https://sourceforge.net/projects/castle-combat/files/\">Link</a>",
    "beta / inactive since 2006",
    "strategy, inspired by Rampart, remake",
-   "Python - GPL-2.0"
+   "<a href=\"https://github.com/karlb/castle-combat.git\">Source</a> - Python - ?"
   ],
   [
    "Cat Mother Dead Justice (<a href=\"http://catmother.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/cat_mother_dead_justice.md\">entry</a>)",
@@ -1437,7 +1453,7 @@
    "Remake of Sid Meier's Colonization.",
    "",
    "beta / active",
-   "action, commercial content, inspired by Sid Meier's Colonization, requires original content, strategy remake",
+   "action, commercial content, inspired by Sid Meier's Colonization, remake, requires original content, strategy",
    "<a href=\"https://github.com/institution/cc94.git\">Source</a> - C++, Python - AGPL-3.0"
   ],
   [
@@ -1493,7 +1509,7 @@
    "Children of Ur is an MMORPG.",
    "",
    "beta / active",
-   "role playing, multiplayer massive, online, open content, requires server",
+   "role playing, multiplayer massive + online, open content, requires server",
    "<a href=\"https://github.com/ChildrenOfUr/coUclient.git\">Source</a> - Dart, JavaScript - MIT"
   ],
   [
@@ -1509,14 +1525,14 @@
    "Doom source port that accurately reproduces the experience..",
    "<a href=\"https://www.chocolate-doom.org/wiki/index.php/Downloads\">Link</a>",
    "mature / active",
-   "action, inspired by Doom, remake, shooter",
+   "action, inspired by Doom + Heretic + Hexen + Strife, remake, shooter",
    "<a href=\"https://github.com/chocolate-doom/chocolate-doom.git\">Source</a> - C - GPL-2.0"
   ],
   [
    "Chocolate Duke3D (<a href=\"https://github.com/fabiensanglard/chocolate_duke3D\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/chocolate_duke3d.md\">entry</a>)",
    "Remake of Duke Nukem 3D.",
    "",
-   "beta / active",
+   "beta / inactive since 2016",
    "action, commercial content, inspired by Duke Nukem 3D, original content required, remake",
    "<a href=\"https://github.com/fabiensanglard/chocolate_duke3D.git\">Source</a> - C - GPL-2.0"
   ],
@@ -1581,7 +1597,7 @@
    "Strategy game released by Activision as a sequel to..",
    "",
    "mature / active",
-   "strategy, inspired by Call to Power II, turn-based",
+   "strategy, inspired by Call to Power II, remake, turn-based",
    "<a href=\"https://github.com/civctp2/civctp2.git\">Source</a> - C, C++ - Custom"
   ],
   [
@@ -1837,7 +1853,7 @@
    "Cooperative multiplayer graphical RPG and adventure game.",
    "<a href=\"http://crossfire.real-time.com/download/index.html\">Link</a>",
    "mature / active",
-   "role playing, massive multiplayer online",
+   "role playing, multiplayer online + massive",
    "<a href=\"https://svn.code.sf.net/p/crossfire/code/\">Source</a> - C, Java - GPL-2.0"
   ],
   [
@@ -1845,7 +1861,7 @@
    "Ultima Online client.",
    "",
    "mature / active",
-   "role playing, free content, inspired by Ultima Online, multiplayer online, requires online access",
+   "role playing, clone, free content, inspired by Ultima Online, multiplayer online, requires online access",
    "<a href=\"https://github.com/crossuo/crossuo.git\">Source</a> - C, C++ - GPL-3.0"
   ],
   [
@@ -1879,6 +1895,14 @@
    "mature / active",
    "library",
    "<a href=\"https://github.com/weidai11/cryptopp.git\">Source</a> - C++ - Boost-1.0"
+  ],
+  [
+   "Crystal Space 3D SDK (<a href=\"http://www.crystalspace3d.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/crystal_space_3d_sdk.md\">entry</a>)",
+   "3D framework.",
+   "<a href=\"https://sourceforge.net/projects/crystal/files/\">Link</a>",
+   "mature / inactive since 2015",
+   "framework, 3D",
+   "<a href=\"https://github.com/kyanha/crystal.git\">Source</a> - C, C++ - LGPL-2.1"
   ],
   [
    "CrystalQuest (<a href=\"https://haleymt.github.io/CrystalQuest/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/crystalquest.md\">entry</a>)",
@@ -1965,7 +1989,7 @@
    "Massively Multiplayer On-line Role-playing Game (MMORPG).",
    "<a href=\"https://www.daimonin.org/downloads/\">Link</a>",
    "mature / active",
-   "role playing, massive multiplayer online",
+   "role playing, multiplayer online + massive",
    "<a href=\"https://svn.code.sf.net/p/daimonin/code/\">Source</a> - C - GPL-2.0"
   ],
   [
@@ -1981,7 +2005,7 @@
    "Turn-based online space strategy game playable in internet..",
    "",
    "mature / inactive since 2016",
-   "strategy, massive multiplayer online",
+   "strategy, multiplayer online + massive",
    "<a href=\"https://gitlab.com/osgames/darkdestiny.git\">Source</a> - Java, JavaScript - GPL"
   ],
   [
@@ -2037,7 +2061,7 @@
    "2D RPG set in a fantasy world.",
    "",
    "beta / inactive since 2011",
-   "role playing, singleplayer",
+   "role playing",
    "<a href=\"https://github.com/iamCode/Dawn.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
@@ -2101,7 +2125,7 @@
    "A cooperative multiplayer RPG and adventure game set in a..",
    "<a href=\"http://www.deliantra.net/play.html\">Link</a>",
    "mature / active",
-   "role playing, massive multiplayer online",
+   "role playing, multiplayer online + massive",
    "<a href=\"https://gitlab.com/osgames/deliantra.git\">Source</a> - C - GPL-2.0"
   ],
   [
@@ -2261,7 +2285,7 @@
    "3D RPG in a satirical post-apocalyptic world.",
    "<a href=\"http://dnt.dnteam.org/cgi-bin/downloads.py\">Link</a>",
    "beta / inactive since 2016",
-   "role playing, singleplayer",
+   "role playing",
    "<a href=\"https://git.code.sf.net/p/dnt/code\">Source</a> - C++ - GPL-3.0"
   ],
   [
@@ -2449,7 +2473,7 @@
    "<a href=\"https://github.com/Fundynamic/dune2themaker4j.git\">Source</a> - Java - MIT"
   ],
   [
-   "Dune Legacy (<a href=\"http://dunelegacy.sourceforge.net/website/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/dune_legacy.md\">entry</a>)",
+   "Dune Legacy (<a href=\"http://dunelegacy.sourceforge.net\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/dune_legacy.md\">entry</a>)",
    "Updated clone of Westwood Studios' Dune2 which uses data..",
    "<a href=\"http://dunelegacy.sourceforge.net/website/downloads.html\">Link</a>",
    "mature / active",
@@ -2541,7 +2565,7 @@
    "EasyRPG Player is a program that allows to play games..",
    "<a href=\"https://easyrpg.org/player/downloads/\">Link</a>",
    "mature / active",
-   "framework, clone, inspired by RPM Maker",
+   "framework, clone, inspired by RPG Maker",
    "<a href=\"https://github.com/EasyRPG/Player.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
@@ -2621,7 +2645,7 @@
    "A simulation of a true AI",
    "",
    "beta / active",
-   "strategy, singleplayer",
+   "strategy",
    "<a href=\"https://github.com/singularity/singularity.git\">Source</a> - Python - GPL-2.0"
   ],
   [
@@ -2733,7 +2757,7 @@
    "Multiplayer, online role-playing game (MMORPG).",
    "<a href=\"http://www.eternal-lands.com/page/download.php\">Link</a>",
    "mature / active",
-   "role playing, massive multiplayer online",
+   "role playing, multiplayer online + massive",
    "<a href=\"https://github.com/raduprv/Eternal-Lands.git\">Source</a> - C, C++ - Custom"
   ],
   [
@@ -2762,10 +2786,10 @@
   ],
   [
    "Evol Online (<a href=\"http://evolonline.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/evol_online.md\">entry</a>)",
-   "A homely MMORPG.",
+   "MMORPG.",
    "<a href=\"http://evolonline.org/manaplus\">Link</a>",
    "mature / active",
-   "role playing, massive multiplayer online",
+   "role playing, multiplayer online + massive",
    "<a href=\"https://gitlab.com/evol/evol-all.git\">Source</a> - C - GPL-3.0"
   ],
   [
@@ -2865,7 +2889,7 @@
    "<a href=\"https://github.com/cxong/FallingTime.git\">Source</a> - C, C++ - GPL-2.0"
   ],
   [
-   "Falltergeist (<a href=\"https://web.archive.org/web/20190622033445/https://falltergeist.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/falltergeist.md\">entry</a>)",
+   "Falltergeist (<a href=\"https://falltergeist.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/falltergeist.md\">entry</a>)",
    "Fallout 2 engine.",
    "<a href=\"https://github.com/falltergeist/falltergeist/releases\">Link</a>",
    "beta / active",
@@ -2957,7 +2981,7 @@
    "Flight simulator developed since 1997.",
    "<a href=\"https://www.flightgear.org/download/\">Link</a>",
    "mature / active",
-   "simulation, clone, inspired by Microsoft FLight Simulator",
+   "simulation, clone, inspired by Microsoft Flight Simulator",
    "<a href=\"https://git.code.sf.net/p/flightgear/flightgear\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -2997,7 +3021,7 @@
    "Remake of Plasma Pong.",
    "",
    "mature / inactive since 2013",
-   "arcade, inspired by Plasma Pong, multiplayer Competitive + Local, open content, remake",
+   "arcade, inspired by Plasma Pong, multiplayer competitive + local, open content, remake",
    "<a href=\"https://github.com/anirudhjoshi/fluid_table_tennis.git\">Source</a> - JavaScript - MIT"
   ],
   [
@@ -3173,7 +3197,7 @@
    "Open source role playing game.",
    "<a href=\"http://www.freedroid.org/download/\">Link</a>",
    "mature / active",
-   "role playing, clone, inspired by Paradroid, isometric, singleplayer",
+   "role playing, clone, inspired by Paradroid, isometric",
    "<a href=\"https://gitlab.com/freedroid/freedroid-src.git\">Source</a> - C, C++, Lua - GPL-2.0"
   ],
   [
@@ -3229,7 +3253,7 @@
    "Turn-based space empire and galactic conquest (4X)..",
    "<a href=\"http://www.freeorion.org/index.php/Download\">Link</a>",
    "beta / active",
-   "strategy, inspired by Master of Orion, open content, remake, turn-based",
+   "strategy, inspired by Master of Orion 1 + Master of Orion 2, open content, remake, turn-based",
    "<a href=\"https://github.com/freeorion/freeorion.git\">Source</a> - C++, Python - GPL-2.0"
   ],
   [
@@ -3309,7 +3333,7 @@
    "Rail & business simulation.",
    "<a href=\"https://sourceforge.net/projects/freetrain/files/\">Link</a>",
    "beta / inactive since 2009",
-   "simulation, clone, closed content, inspired by A-Train",
+   "simulation, clone, commercial content, inspired by A-Train",
    "<a href=\"https://gitlab.com/osgames/freetrain.git\">Source</a> - C# - LGPL-2.1"
   ],
   [
@@ -3365,7 +3389,7 @@
    "Clone of Puzzle Bobble, a tile-matching puzzle game.",
    "<a href=\"http://www.frozen-bubble.org/downloads/\">Link</a>",
    "mature / inactive since 2012",
-   "puzzle, clone, inspired by Puzzle Booble",
+   "puzzle, clone, inspired by Puzzle Bobble",
    "<a href=\"https://github.com/kthakore/frozen-bubble.git\">Source</a> - Perl - GPL-2.0"
   ],
   [
@@ -3421,7 +3445,7 @@
    "Multiplayer 'demake' of Team Fortress 2.",
    "<a href=\"https://www.ganggarrison.com/downloads.html\">Link</a>",
    "mature / active",
-   "action, demake",
+   "action, demake, inspired by Team Fortress 2, multiplayer online",
    "<a href=\"https://github.com/Gang-Garrison-2/Gang-Garrison-2.git\">Source</a> - Game Maker Script - MPL"
   ],
   [
@@ -3693,7 +3717,7 @@
    "A roguelike OpenGL-based smooth-scrolling ASCII graphics..",
    "<a href=\"https://sourceforge.net/projects/goblinhack/files/\">Link</a>",
    "beta / inactive since 2009",
-   "role playing, roguelike, singleplayer",
+   "role playing, roguelike",
    "<a href=\"https://github.com/goblinhack/goblinhack.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -3799,6 +3823,14 @@
    "beta / inactive since 2001",
    "strategy",
    "<a href=\"https://gitlab.com/osgames/civilwar.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "Greentwip's Harvest Moon (<a href=\"http://twitter.com/GreentwipHealth\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/greentwips_harvest_moon.md\">entry</a>)",
+   "Remake of Story of Seasons series.",
+   "",
+   "beta / active",
+   "remake, commercial content, inspired by Story of Seasons series",
+   "<a href=\"https://github.com/greentwip/HarvestMoon.git\">Source</a> - C# - GPL-3.0"
   ],
   [
    "Griefly (<a href=\"https://github.com/griefly\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/griefly.md\">entry</a>)",
@@ -3997,7 +4029,7 @@
    "Hero of Allacrost is a 2D role-playing game inspired by..",
    "<a href=\"https://bitbucket.org/allacrost/allacrost/downloads/\">Link</a>",
    "mature / active",
-   "role playing, 2D, singleplayer",
+   "role playing, 2D",
    "<a href=\"https://bitbucket.org/allacrost/allacrost/src\">Source</a> - C++, Lua - GPL-2.0"
   ],
   [
@@ -4221,7 +4253,7 @@
    "Free Open Source-MMORPG, with emphasis on real roleplay.",
    "<a href=\"http://illarion.org/illarion/de_java_download.php\">Link</a>",
    "mature / active",
-   "role playing, massive multiplayer online",
+   "role playing, multiplayer online + massive",
    "<a href=\"https://github.com/Illarion-eV/Illarion-Java.git\">Source</a> - C++, Java, Lua - GPL-3.0"
   ],
   [
@@ -4375,6 +4407,14 @@
    "mature / inactive since 2016",
    "tool",
    "<a href=\"https://github.com/mkalus/janag.git\">Source</a> - Java - GPL-3.0"
+  ],
+  [
+   "JavaScript Graphic Adventure Maker (<a href=\"https://jsgam.sourceforge.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/javascript_graphic_adventure_maker.md\">entry</a>)",
+   "Point and click/touch game adventures engine.",
+   "<a href=\"https://sourceforge.net/projects/jsgam/files/\">Link</a>",
+   "mature / active",
+   "adventure, game engine",
+   "<a href=\"https://github.com/kreezii/jsgam.git\">Source</a> - JavaScript - MIT"
   ],
   [
    "javascript-E.T. (<a href=\"https://github.com/FranciscoG/javascript-E.T.\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/javascript-et.md\">entry</a>)",
@@ -5186,18 +5226,18 @@
   ],
   [
    "Mana (<a href=\"http://www.manasource.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/mana.md\">entry</a>)",
-   "Complete 2D MMORPG platform.",
+   "2D MMORPG platform.",
    "<a href=\"http://www.manasource.org/downloads.html\">Link</a>",
    "beta / active",
-   "framework, massive multiplayer online",
+   "framework, multiplayer online + massive",
    "<a href=\"https://github.com/mana/manaserv.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
-   "Maniadrive (<a href=\"http://maniadrive.raydium.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/maniadrive.md\">entry</a>)",
-   "Racing clone of Trackmania.",
+   "ManiaDrive (<a href=\"http://maniadrive.raydium.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/maniadrive.md\">entry</a>)",
+   "Racing clone of TrackMania.",
    "<a href=\"http://maniadrive.raydium.org/index.php?downloads=yes\">Link</a>",
    "mature / inactive since 2008",
-   "framework, inspired by Trackmania, open content, racing",
+   "framework, inspired by TrackMania, open content, racing",
    "PHP - GPL"
   ],
   [
@@ -5313,6 +5353,14 @@
    "<a href=\"https://github.com/MegaMek/megamek.git\">Source</a> - Java - GPL-2.0"
   ],
   [
+   "melonJS (<a href=\"http://melonjs.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/melonjs.md\">entry</a>)",
+   "HTML5 game engine.",
+   "<a href=\"https://github.com/melonjs/melonJS/releases\">Link</a>",
+   "mature / active",
+   "game engine",
+   "<a href=\"https://github.com/melonjs/melonJS.git\">Source</a> - JavaScript - MIT"
+  ],
+  [
    "Memory Game (<a href=\"https://github.com/sromku/memory-game\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/memory_game.md\">entry</a>)",
    "Simple memory game for kids.",
    "",
@@ -5333,7 +5381,7 @@
    "A classic MMO.",
    "<a href=\"http://meridian59.com/play-now.php\">Link</a>",
    "mature / active",
-   "role playing, massive multiplayer online",
+   "role playing, multiplayer online + massive",
    "<a href=\"https://github.com/Meridian59/Meridian59.git\">Source</a> - C++, C - GPL-2.0"
   ],
   [
@@ -5586,10 +5634,10 @@
   ],
   [
    "Mpango (<a href=\"https://sourceforge.net/projects/mpango\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/mpango.md\">entry</a>)",
-   "Massive multiplayer online game described as a turned..",
+   "Massive multiplayer online, turned based strategy game.",
    "<a href=\"https://sourceforge.net/projects/mpango/files/\">Link</a>",
    "beta / inactive since 2013",
-   "strategy",
+   "strategy, multiplayer online + massive",
    "<a href=\"https://github.com/osgamearchive/mpango.git\">Source</a> - Java - GPL-2.0"
   ],
   [
@@ -5837,7 +5885,7 @@
    "Clone of Super Monkey Ball.",
    "",
    "beta / active",
-   "action, clone, inspired by Neverball, inspired by Super Monkey Ball, open content",
+   "action, clone, inspired by Neverball + Super Monkey Ball, open content",
    "Java - GPL-2.0"
   ],
   [
@@ -6005,7 +6053,7 @@
    "Remake of X-COM: UFO Defense, X-COM: Terror from the Deep,..",
    "<a href=\"https://ci.appveyor.com/project/openapoc/openapoc\">Link</a>",
    "mature / active",
-   "strategy, commercial content, inspired by X-COM: UFO Defense + X-COM: Terror from the Deep + X-COM: Apocalypse + UFO: Enemy Unknown, requires original content",
+   "strategy, commercial content, inspired by X-COM: UFO Defense + X-COM: Terror from the Deep + X-COM: Apocalypse + UFO: Enemy Unknown, remake, requires original content",
    "<a href=\"https://github.com/OpenApoc/OpenApoc.git\">Source</a> - C++ - MIT"
   ],
   [
@@ -6039,6 +6087,14 @@
    "mature / active",
    "remake, commercial content, inspired by Cannon Fodder, open content, requires original content",
    "<a href=\"https://github.com/OpenFodder/openfodder.git\">Source</a> - C, C++ - GPL-3.0"
+  ],
+  [
+   "Open Fortress (<a href=\"http://openfortress.fun/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/open_fortress.md\">entry</a>)",
+   "Mod of Team Fortress 2.",
+   "",
+   "beta / active",
+   "remake, commercial content, inspired by Team Fortress 2, modification, multiplayer Competitive + Online + LAN + Co-op + Matchmaking",
+   "<a href=\"https://github.com/KaidemonLP/Open-Fortress-Source.git\">Source</a> - C++ - Custom"
   ],
   [
    "Open Game Engine (<a href=\"http://oge.sourceforge.net/wiki/index.php/Main_Page\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/open_game_engine.md\">entry</a>)",
@@ -6093,7 +6149,7 @@
    "Meridian 59 is a long-running medieval fantasy combat and..",
    "<a href=\"http://openmeridian.org/create-account/\">Link</a>",
    "mature / active",
-   "role playing, inspired by Meridian 59, massive multiplayer online, remake",
+   "role playing, inspired by Meridian 59, multiplayer online + massive, remake",
    "<a href=\"https://github.com/OpenMeridian/Meridian59.git\">Source</a> - C, C++ - GPL-2.0"
   ],
   [
@@ -6101,7 +6157,7 @@
    "Hex and turn based strategy game, a remake of good old..",
    "",
    "mature / active",
-   "strategy, inspired by Open Panzer, online",
+   "strategy, inspired by Panzer General, online, remake",
    "<a href=\"https://github.com/nicupavel/openpanzer.git\">Source</a> - JavaScript - GPL-2.0"
   ],
   [
@@ -6141,7 +6197,7 @@
    "As close of a replica Runescape game experience as possible.",
    "",
    "mature / active",
-   "role playing, inspired by Runescape Classic, massive multiplayer online, remake",
+   "role playing, inspired by Runescape Classic, multiplayer online + massive, remake",
    "<a href=\"https://gitlab.openrsc.com/open-rsc/Game.git\">Source</a> - Java - GPL-3.0"
   ],
   [
@@ -6229,7 +6285,7 @@
    "Remake of Black & White",
    "",
    "beta / active",
-   "simulation, inspired by Black & White, remake",
+   "simulation, inspired by Black & White, remake, requires original content",
    "<a href=\"https://github.com/openblack/openblack.git\">Source</a> - C, C++ - GPL-3.0"
   ],
   [
@@ -6397,7 +6453,7 @@
    "Engine remake of Gothic 2: Night of the raven.",
    "<a href=\"https://github.com/Try/OpenGothic/releases\">Link</a>",
    "beta / active",
-   "role playing, commercial content, game engine, inspired by Gothic 2: Night of the raven, remake, requires original content",
+   "role playing, commercial content, game engine, inspired by Gothic + Gothic 2, remake, requires original content",
    "<a href=\"https://github.com/Try/OpenGothic.git\">Source</a> - C++ - MIT"
   ],
   [
@@ -6525,7 +6581,7 @@
    "Unofficial open source engine reimplementation of the game..",
    "<a href=\"https://openmw.org/downloads/\">Link</a>",
    "mature / active",
-   "role playing, game engine, inspired by The Elder Scrolls III: Morrowing, remake, requires original content",
+   "role playing, game engine, inspired by The Elder Scrolls III: Morrowind, remake, requires original content",
    "<a href=\"https://github.com/OpenMW/openmw.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
@@ -6581,7 +6637,7 @@
    "Re-implementation of RollerCoaster Tycoon 2 (RCT2),..",
    "<a href=\"https://openrct2.org/downloads\">Link</a>",
    "mature / active",
-   "simulation, inspired by RollerCoaster Tycoon, remake, requires original content",
+   "simulation, inspired by RollerCoaster Tycoon 1 + RollerCoaster Tycoon 2, remake, requires original content",
    "<a href=\"https://github.com/OpenRCT2/OpenRCT2.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
@@ -6829,7 +6885,7 @@
    "A community based game that allows you to affect the..",
    "<a href=\"http://www.other-life.com/downloads.php\">Link</a>",
    "beta / active",
-   "role playing, massive multiplayer online",
+   "role playing, multiplayer online + massive",
    "<a href=\"https://github.com/jp8900308/other-life.git\">Source</a> - C, C++ - Custom"
   ],
   [
@@ -7081,6 +7137,14 @@
    "<a href=\"http://hg.code.sf.net/p/phantasy/code\">Source</a> - C++ - GPL-3.0"
   ],
   [
+   "Phaser (<a href=\"http://phaser.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/phaserio.md\">entry</a>)",
+   "HTML5 game framework.",
+   "<a href=\"http://phaser.io/download\">Link</a>",
+   "mature / active",
+   "framework, 2D",
+   "<a href=\"https://github.com/photonstorm/phaser.git\">Source</a> - JavaScript - MIT"
+  ],
+  [
    "Physics Platformer (<a href=\"https://github.com/SteveSmith16384/PhysicsPlatformer\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/physics_platformer.md\">entry</a>)",
    "Physics-based multiplayer platform game.",
    "<a href=\"https://github.com/SteveSmith16384/PhysicsPlatformer/releases\">Link</a>",
@@ -7173,7 +7237,7 @@
    "Role Playing Game immersed into a 3D virtual fantasy world.",
    "<a href=\"http://www.planeshift.it/Download\">Link</a>",
    "mature / active",
-   "role playing, massive multiplayer online",
+   "role playing, multiplayer online + massive",
    "<a href=\"https://svn.code.sf.net/p/planeshift/code/\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -7341,7 +7405,7 @@
    "Remake of The Sims Online.",
    "<a href=\"https://github.com/Afr0Games/Project-Dollhouse/releases\">Link</a>",
    "beta / active",
-   "simulation, inspired by CorsixTH, inspired by The Sims Online, remake, requires original content",
+   "simulation, inspired by CorsixTH + The Sims Online, remake, requires original content",
    "<a href=\"https://github.com/Afr0Games/Project-Dollhouse.git\">Source</a> - C# - MPL-2.0"
   ],
   [
@@ -7447,6 +7511,14 @@
    "beta / inactive since 2018",
    "arcade",
    "<a href=\"https://github.com/Anthonymcqueen21/Pygame---Alien-Invasion.git\">Source</a> - Python - GPL-3.0"
+  ],
+  [
+   "pyglet (<a href=\"http://pyglet.org/,\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/pyglet.md\">entry</a>)",
+   "Multimedia library for Python.",
+   "<a href=\"https://pypi.org/project/pyglet/\">Link</a>",
+   "mature / active",
+   "library",
+   "<a href=\"https://github.com/pyglet/pyglet.git\">Source</a> - Python - 3-clause BSD"
   ],
   [
    "PyKaraoke (<a href=\"http://www.kibosh.org/pykaraoke/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/pykaraoke.md\">entry</a>)",
@@ -7565,7 +7637,7 @@
    "Remake of Quake 3.",
    "",
    "mature / active",
-   "remake, first-person, inspired by ioquake3, inspired by Quake 3, requires original content, shooter",
+   "remake, first-person, inspired by ioquake3 + Quake 3, requires original content, shooter",
    "<a href=\"https://github.com/inolen/quakejs.git\">Source</a> - JavaScript - MIT"
   ],
   [
@@ -7621,7 +7693,7 @@
    "Single player RPG game, set in a dark fantasy setting..",
    "<a href=\"https://sourceforge.net/projects/radakan/files/\">Link</a>",
    "beta / inactive since 2014",
-   "role playing, singleplayer",
+   "role playing",
    "<a href=\"https://gitlab.com/osgames/radakan.git\">Source</a> - Python - Custom"
   ],
   [
@@ -7701,7 +7773,7 @@
    "Reimplementation of the zEngine, used by the game \"Gothic\"..",
    "<a href=\"https://github.com/REGoth-project/REGoth/releases\">Link</a>",
    "mature / active",
-   "role playing, inspired by Gothic, inspired by Gothic II, remake, requires original content",
+   "role playing, inspired by Gothic + Gothic II, remake, requires original content",
    "<a href=\"https://github.com/REGoth-project/REGoth-bs.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
@@ -7765,7 +7837,7 @@
    "Renew the original The Settlers 2.",
    "<a href=\"https://www.siedler25.org/index.php?com=dynamic&mod=2\">Link</a>",
    "mature / active",
-   "strategy, inspired by The Settler II, remake, requires original content",
+   "strategy, inspired by The Settlers II, remake, requires original content",
    "<a href=\"https://launchpad.net/s25rttr\">Source</a> - C++ - GPL-3.0"
   ],
   [
@@ -7853,7 +7925,7 @@
    "Arcade style game for \u201cBoulder Dash\u201d (C 64), \u201cEmerald..",
    "<a href=\"http://www.artsoft.org/rocksndiamonds/download/\">Link</a>",
    "mature / active",
-   "action, inspired by Boulder Dash, inspired by Supraplex, puzzle, remake",
+   "action, inspired by Boulder Dash + Supraplex, puzzle, remake",
    "<a href=\"http://git.artsoft.org/rocksndiamonds.git\">Source</a> - C - GPL-2.0"
   ],
   [
@@ -8005,7 +8077,7 @@
    "MMORPG with open world play.",
    "",
    "mature / active",
-   "role playing, inspired by Ryzom, multiplayer massive, online, remake, requires server",
+   "role playing, inspired by Ryzom, multiplayer massive + online, remake, requires server",
    "<a href=\"https://bitbucket.org/ryzom/ryzomcore\">Source</a> - C++ - AGPL-3.0"
   ],
   [
@@ -8253,7 +8325,7 @@
    "3D RPG with a hybrid real time, turn based system.",
    "<a href=\"https://code.google.com/archive/p/silvertree/downloads\">Link</a>",
    "beta / inactive since 2007",
-   "role playing, singleplayer",
+   "role playing",
    "<a href=\"https://github.com/LibreGamesArchive/silvertree.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
@@ -8557,7 +8629,7 @@
    "A massive multiplayer online roleplaying game.",
    "",
    "mature / inactive since 2013",
-   "role playing, massive multiplayer online",
+   "role playing, multiplayer online + massive",
    "<a href=\"https://github.com/tales/sourceoftales.git\">Source</a> - Lua - GPL-3.0"
   ],
   [
@@ -8813,7 +8885,7 @@
    "Dance and rhythm game.",
    "<a href=\"https://sourceforge.net/projects/stepmania/files/\">Link</a>",
    "mature / active",
-   "music, clone, inspired by Dance Revolution",
+   "music, clone, inspired by Dance Dance Revolution",
    "<a href=\"https://github.com/stepmania/stepmania.git\">Source</a> - C, C++, Lua - MIT"
   ],
   [
@@ -8829,7 +8901,7 @@
    "Space simulation focused on cooperative (non-..",
    "<a href=\"https://web.archive.org/web/20130606103829/http://ghoulsblade.schattenkind.net/sfz/LATEST_SFZ_SOURCE.zip\">Link</a>",
    "beta / inactive since 2007",
-   "simulation, online, space",
+   "simulation, multiplayer online, space",
    "C++, Lua - GPL-3.0"
   ],
   [
@@ -8877,7 +8949,7 @@
    "Role-playing game, featuring both a single-player and a..",
    "<a href=\"https://web.archive.org/web/20160704003202/http://sumwars.org:80/wiki/Download\">Link</a>",
    "beta / inactive since 2014",
-   "role playing, clone, inspired by Diablo, multiplayer, singleplayer",
+   "role playing, clone, inspired by Diablo, multiplayer",
    "<a href=\"https://bitbucket.org/sumwars/sumwars-code\">Source</a> - C, C++, Lua - GPL-3.0"
   ],
   [
@@ -9237,7 +9309,7 @@
    "The Battle for Wesnoth is an open source, turn-based..",
    "<a href=\"http://www.wesnoth.org/#download\">Link</a>",
    "mature / active",
-   "strategy, multiplayer, turn-based",
+   "strategy, inspired by Master of Monsters + Warsong, multiplayer, turn-based",
    "<a href=\"https://github.com/wesnoth/wesnoth.git\">Source</a> - C, C++, Java, Python, Lua - GPL-2.0"
   ],
   [
@@ -9245,7 +9317,7 @@
    "Networked clone of the classical Bubble Bobble board game.",
    "<a href=\"http://bub-n-bros.sourceforge.net/download.html\">Link</a>",
    "mature / inactive since 2013",
-   "board game, clone, inspired by Bubble Bobble",
+   "board game, clone, inspired by Bubble Bobble, remake",
    "<a href=\"https://bitbucket.org/arigo/bub-n-bros\">Source</a> - Python - MIT"
   ],
   [
@@ -9253,7 +9325,7 @@
    "Realistic physics simulations.",
    "<a href=\"http://the-butterfly-effect.org/#download\">Link</a>",
    "beta / active",
-   "simulation, clone, inspired by Crazy Machines series, inspired by The Incredible Machine series, physics",
+   "simulation, clone, inspired by Crazy Machines series + The Incredible Machine series, physics",
    "<a href=\"https://github.com/the-butterfly-effect/tbe.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -9301,7 +9373,7 @@
    "DOOM source port.",
    "<a href=\"https://github.com/team-eternity/eternity/releases\">Link</a>",
    "mature / active",
-   "game engine, first person, inspired by DOOM, remake, requires original content, shooter",
+   "game engine, commercial content, first person, inspired by Doom + Heretic + Hexen + Strife, remake, requires original content, shooter",
    "<a href=\"https://github.com/team-eternity/eternity.git\">Source</a> - C, C++ - GPL-3.0"
   ],
   [
@@ -9330,10 +9402,10 @@
   ],
   [
    "The Mana World (<a href=\"https://www.themanaworld.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/the_mana_world.md\">entry</a>)",
-   "2D open source MMORPG.",
+   "2D MMORPG.",
    "<a href=\"https://www.themanaworld.org/index.php/Downloads\">Link</a>",
    "mature / active",
-   "role playing, massive multiplayer online",
+   "role playing, multiplayer online + massive",
    "<a href=\"https://github.com/themanaworld/tmwa.git\">Source</a> - PHP - GPL-2.0"
   ],
   [
@@ -9901,7 +9973,7 @@
    "A 2D real time strategy simulation with an emphasis on..",
    "<a href=\"http://unknown-horizons.org/downloads/\">Link</a>",
    "beta / active",
-   "strategy, clone, inspired by Anno series, singleplayer, turn-based",
+   "strategy, clone, inspired by Anno series, turn-based",
    "<a href=\"https://github.com/unknown-horizons/unknown-horizons.git\">Source</a> - Python - GPL-2.0"
   ],
   [
@@ -9989,7 +10061,7 @@
    "Vega Strike is a first-person space trading and combat..",
    "<a href=\"http://vegastrike.sourceforge.net/getfiles/\">Link</a>",
    "mature / active",
-   "framework",
+   "framework, inspired by Elite",
    "<a href=\"https://github.com/vegastrike/Vega-Strike-Engine-Source.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -10005,7 +10077,7 @@
    "Multiplayer voxel RPG written in Rust and taking..",
    "",
    "beta / active",
-   "role playing, multiplayer online, open content, voxel",
+   "role playing, inspired by Cube World + Dwarf Fortress + Minecraft, multiplayer online + LAN, open content, voxel",
    "<a href=\"https://gitlab.com/veloren/veloren.git\">Source</a> - Rust - GPL-3.0"
   ],
   [
@@ -10242,11 +10314,19 @@
   ],
   [
    "Widelands (<a href=\"https://wl.widelands.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/widelands.md\">entry</a>)",
-   "Widelands is a free, open source real-time strategy game..",
+   "Real-time strategy game with singleplayer campaigns and a..",
    "<a href=\"https://wl.widelands.org/wiki/Download/\">Link</a>",
    "mature / active",
    "strategy, clone, inspired by The Settlers II, real time",
    "<a href=\"https://github.com/widelands/widelands.git\">Source</a> - C, C++, Lua, Python - GPL-2.0"
+  ],
+  [
+   "Wind Waker Randomizer (<a href=\"https://github.com/LagoLunatic/wwrando\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/wind_waker_randomizer.md\">entry</a>)",
+   "Tool of The Legend of Zelda: The Wind Waker.",
+   "<a href=\"https://github.com/LagoLunatic/wwrando/releases\">Link</a>",
+   "mature / active",
+   "tool, commercial content, inspired by The Legend of Zelda: The Wind Waker",
+   "<a href=\"https://github.com/LagoLunatic/wwrando.git\">Source</a> - Python, Assembly - MIT"
   ],
   [
    "Windstille (<a href=\"https://web.archive.org/web/20131221000058/http://windstille.berlios.de/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/windstille.md\">entry</a>)",
@@ -10298,10 +10378,10 @@
   ],
   [
    "Wograld (<a href=\"http://wograld.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/wograld.md\">entry</a>)",
-   "Massively multiplayer online role-playing game created.",
+   "Massively multiplayer online role-playing game.",
    "<a href=\"https://sourceforge.net/projects/wograld/files/\">Link</a>",
    "beta / active",
-   "role playing, massive multiplayer, open content",
+   "role playing, multiplayer online + massive, open content",
    "<a href=\"https://git.code.sf.net/p/wograld/gitcode\">Source</a> - C - GPL-2.0"
   ],
   [
@@ -10349,7 +10429,7 @@
    "Open source framework for massively multiplayer online..",
    "<a href=\"https://www.worldforge.org/index.php/downloads/\">Link</a>",
    "mature / active",
-   "framework, massive multiplayer online",
+   "framework, multiplayer online + massive",
    "<a href=\"https://github.com/worldforge/cyphesis.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -10359,6 +10439,14 @@
    "beta / inactive since 2014",
    "platform, 2D, clone, inspired by VVVVVV, puzzle",
    "<a href=\"https://github.com/alexdantas/www.git\">Source</a> - JavaScript - GPL-3.0"
+  ],
+  [
+   "wxPython (<a href=\"https://wxpython.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/wxpython.md\">entry</a>)",
+   "Wraps the wxWidgets C++ toolkit and provides access to the..",
+   "<a href=\"https://pypi.org/project/wxPython/\">Link</a>",
+   "mature / active",
+   "library",
+   "<a href=\"https://github.com/wxWidgets/Phoenix.git\">Source</a> - Python, C - wxWindows license"
   ],
   [
    "wxWidgets (<a href=\"http://wxwidgets.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/wxwidgets.md\">entry</a>)",
@@ -10549,7 +10637,7 @@
    "A remake of the computer game Ultima IV.",
    "<a href=\"http://xu4.sourceforge.net/download.php\">Link</a>",
    "mature / inactive since 2016",
-   "role playing, inspired by Ultima IV, remake, singleplayer",
+   "role playing, inspired by Ultima IV, remake",
    "<a href=\"https://svn.code.sf.net/p/xu4/code/\">Source</a> - C++ - GPL-2.0"
   ],
   [

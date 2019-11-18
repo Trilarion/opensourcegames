@@ -50,17 +50,20 @@ Feuerkraft (http://www.nongnu.org/feuerkraft, http://savannah.nongnu.org/project
 Fight or Perish (http://www.newbreedsoftware.com/fop/): Very early development. Inactive since a long time.
 Fight Or Perish (http://www.newbreedsoftware.com/fop/, ftp://ftp.tuxpaint.org/unix/x/fop/src/fop-0.5.tar.gz): Early development stage
 Flatland (http://idusale.tk/juegos/Flatland.html): Not available anymore
+fleet0ps (https://sourceforge.net/projects/fleet0ps/): Very early development
 Football Manager (https://github.com/autismuk/Football-Manager.git): Very early development stage
 Forest patrol (http://blazeofglory.org/projects/fp, https://www.pygame.org/project/391): No available anymore, Internet Archive has not stored the source links
 Free in the Dark (https://sourceforge.net/projects/fitd/): No source code available
 Free Reign (http://sourceforge.net/projects/freereign/, http://freereign.sourceforge.net/index.shtml): Very early development, Inactive since long time
 FreeFT (https://github.com/nadult/FreeFT.git): All rights reserved.
 Frogatto & Friends (https://github.com/frogatto/frogatto, https://frogatto.com/): Only artwork and configuration files for the Anura engine and this is copyrighted
+Fruit War (http://fruitwar.sourceforge.net/, https://sourceforge.net/projects/fruitwar/): Very early development, long abandoned
 Future Blocks (https://github.com/fogleman/FutureBlocks.git): Needs DosBox, simple Tetris clone (nice, but maybe too minimal)
 GalaxyMage (https://www.galaxymage.org/, http://gna.org/projects/tactics): No source code available anymore, not on IA nor on gna project site.
 GNOME Games (): Has been separated into individual packages. Will add them separately.
 Grow (https://sourceforge.net/projects/grow/): Insufficient content
 GRUB Invaders (http://www.erikyyy.de/invaders/): Requires use of the GRUB bootloader (also not really original)
+Heroes: Rebirth (
 Herzog 3D (http://herzog3d.sourceforge.net/, https://sourceforge.net/p/herzog3d/code/HEAD/tree/): Very early development
 HistoryLine (https://github.com/oliverdb/Historyline): Very early development, no license information
 Homeworld SDL (https://github.com/aheadley/homeworld): Not open source compliant license (see https://github.com/aheadley/homeworld/blob/master/README)
@@ -71,24 +74,34 @@ Imperium: Sticks (http://rtciv.sourceforge.net/, http://sourceforge.net/projects
 Inline-Engine (https://github.com/petiaccja/Inline-Engine): Commercial license
 Interstate Outlaws (http://www.interstateoutlaws.com/): Very early development, No clear indication of license with source code, Abandoned since long time
 Ironclad (https://github.com/mikera/ironclad): No license information, asked but did not get a reply
+Java Fabled Lands (http://flapp.sourceforge.net/, https://sourceforge.net/projects/flapp/): No license information available, content might not be free (see https://github.com/Trilarion/opensourcegames/issues/57)
+Java Isometric Engine (https://sourceforge.net/projects/jisoman/): Early development, no license information with source, long abandoned
 Java Settlers of Catan (https://sourceforge.net/projects/javasettlers/): No license information, very early development
+JBI - Java Battle Isle (https://sourceforge.net/projects/jbiclone/): Very early development (a pity)
 Jumping Jack 2 Worryingly Familiar (http://retrospec.sgn.net/game/jj2, http://retrospec.sgn.net/users/nwalker/jack/jjwf.zip): No compliant license found
 Jumping Jack Further Adventures (http://retrospec.sgn.net/game/jj,  http://retrospec.sgn.net/users/nwalker/jack/jj.zip): No compliant license found
 Jumpman (http://www.oldskool.org/pc/jumpman, http://www.oldskool.org/pc/jumpman/jump_src.zip): Only runs on DOS, License problems (taken without asking for permission)
 KDE Games (): Has been separated into individual packages. Will add them separately.
 Kochol Game Engine (https://sourceforge.net/projects/kge/, http://kge3d.org/): Very early development
 KZap (http://kzap.sourceforge.net/): Very early development
+L5R-RPU:L5R Role-Playing Utilitites (https://sourceforge.net/projects/l5r-rpgu/): Early development, no license information with source, long abandoned (since 2007)
+Last Hope A medieval Web Game (https://sourceforge.net/projects/lasthope/, https://web.archive.org/web/20051030000341/http://www.ano-lasthope.org:80/): Very early development
 LastNinja (http://lastninja.sourceforge.net/, https://sourceforge.net/projects/lastninja/): Early development, Abandoned, Needs original material that is probably not obtainable legally
 LegacyClone (http://sourceforge.net/projects/legacyclone/): Very early development
 legion (https://github.com/mahho/legion.git): No compatible license found
 Lemmix (http://www.ericenzwaan.nl/eric/lemmings/lemmix.htm, http://www.ericenzwaan.nl/eric/lemmings/LemOpenSource.zip): Custom license, requires original content that is probably not obtainable legally
 Lightbringer Engine (https://sourceforge.net/projects/lightbringer2015/): Very early development
 linball (http://linball.sourceforge.net/, https://sourceforge.net/projects/linball/): Very early development stage
+Lixoo 2D adventure game engine (https://sourceforge.net/projects/lixoo/): Very early development, long abandoned (since 2004)
 luminesk5 (https://github.com/kaikai2/luminesk5.git): No clear license information found. Not clear if runnable or if playable.
+MAGE Adventure Game Engine (https://sourceforge.net/projects/mage/, https://web.archive.org/web/20030808135304/http://mage.rulez.org/): Very early development, long abandoned (since 2001)
 Manic Miner (http://retrospec.sgn.net/game/mm): Unclear license (freeware?), probably many from retrospec.sgn.net
 Memonix (https://web.archive.org/web/20100304083057/http://www.viewizard.com/games.php): Source not available anymore, Internet Archive doesn't have it too.
+Migration Simulation Game (https://sourceforge.net/projects/migrationsimulationgame/): Very, very early development
 Militia Defense (https://love2d.org/forums/viewtopic.php?f=5&t=380): Does not exist anymore.
+Mindlence RPG Game Library (https://sourceforge.net/projects/mindlence-game/): Very early development
 Mining Haze (http://sourceforge.net/projects/mininghaze/): Very early development
+Mining Haze (https://sourceforge.net/projects/mininghaze/): Early development
 MonoStrategy (https://monostrategy.codeplex.com/, https://codeplexarchive.blob.core.windows.net/archive/projects/monostrategy/monostrategy.zip): Early development (alpha), Not playable, requires original content, abandoned
 Moopy (https://code.google.com/archive/p/moopy/, https://code.google.com/archive/p/moopy/source/default/source): Early development stage
 MultiGame (https://github.com/whendricso/MultiGame): Commercial
@@ -108,13 +121,14 @@ Phoenix (https://github.com/joulupunikki/Phoenix, https://joulupunikki.github.io
 Pico-8 (https://www.lexaloffle.com/pico-8.php): Commercial
 PKMN-FX (https://github.com/jonasdemoor/PKMN-FX.git): Code not available anymore
 Postludium (https://github.com/Pctg-x8/postludium): Very early development, no license information
-Project Diaspora (http://pdiaspora.sourceforge.net/): Proprietary license (see file headers)
+Project Diaspora (http://pdiaspora.sourceforge.net/, https://sourceforge.net/projects/pdiaspora/): Proprietary license (see file headers)
 Project: Xenocide (https://sourceforge.net/projects/xenocide/, http://xenocide.cvs.sourceforge.net/viewvc/xenocide/): Very early development
 Promisance (https://sourceforge.net/projects/promisance/,http://promisance.sourceforge.net/): Went closed source with version >= 4.0
 pyspaceinvaders (https://github.com/map0logo/pyspaceinvaders.git): Too small
 PyTouhou (http://pytouhou.linkmauve.fr/,http://hg.linkmauve.fr/touhou): Sources not available anymore
 Racer (http://racer.sourceforge.net/, http://sourceforge.net/projects/racer/): Very early development, Inactive
 realmforge (https://sourceforge.net/projects/realmforge/): Went commercial
+Robotypo (http://robotypo.appspot.com/index.html, https://code.google.com/archive/p/robotypo/): Very early development, No license, long abandoned
 Ruby OMF 2097 Remake (http://rubyomf2097.rubyforge.org/, svn://rubyforge.org/var/svn/rubyomf2097): No source code found, web site offline
 RuneSword II (https://sourceforge.net/projects/runesword/, http://runesword.sourceforge.net/, https://github.com/mattiascibien/Runesword.net, https://github.com/aceofspades19/Runesword-II-OS.Net, http://www.runesword.com/rs2.html): No license found
 Schwertreiter (https://sourceforge.net/projects/schwertreiter/): No license information, early development, long abandoned

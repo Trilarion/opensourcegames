@@ -7,7 +7,7 @@ _2D chess game for GNOME desktop. It automatically detects installed chess engin
 - Download: https://flathub.org/apps/details/org.gnome.Chess
 - Platform: Linux
 - Keywords: strategy, chess, open content
-- Code repository: https://gitlab.gnome.org/GNOME/gnome-chess
+- Code repository: https://gitlab.gnome.org/GNOME/gnome-chess.git
 - Code language: Vala
 - Code license: GPL-3.0
 - Assets license: GPL-3.0

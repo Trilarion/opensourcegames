@@ -123,10 +123,10 @@ if __name__ == "__main__":
     for osgc_entry in osgc_entries:
         name = osgc_entry['name']
         if 'repo' in osgc_entry:
-            repos = osgc_entry['repo']
-            if isinstance(repos, str):
-                repos = [repos]
-            for repo in repos:
+            osgc_repos = osgc_entry['repo']
+            if isinstance(osgc_repos, str):
+                osgc_repos = [osgc_repos]
+            for repo in osgc_repos:
                 if 'github' in repo and any((repo.endswith(x) for x in ('/', '.git'))):
                     print('{} : {}'.format(osgc_entry['name'], repo))
 
@@ -232,7 +232,7 @@ if __name__ == "__main__":
 
                 p = ''
 
-                # lang field
+                # compare their lang with our code language
                 if 'lang' in osgc_entry:
                     osgc_languages = osgc_entry['lang']
                     if type(osgc_languages) == str:
@@ -240,14 +240,14 @@ if __name__ == "__main__":
                     our_languages = our_entry['code language'] # essential field
                     p += compare_sets(osgc_languages, our_languages, 'code language')
 
-                # license
+                # compare their license with our code and assets license
                 if 'license' in osgc_entry:
                     osgc_licenses = osgc_entry['license']
                     our_code_licenses = our_entry['code license'] # essential field
                     our_assets_licenses = our_entry.get('assets license', [])
                     p += compare_sets(osgc_licenses, our_code_licenses + our_assets_licenses, 'licenses')
 
-                # framework (capitalization is ignored for now, only starts are compared)
+                # compare their framework with our code dependencies (capitalization is ignored for now, only starts are compared)
                 if 'framework' in osgc_entry:
                     osgc_frameworks = osgc_entry['framework']
                     if type(osgc_frameworks) == str:
@@ -257,19 +257,18 @@ if __name__ == "__main__":
                     osgc_frameworks = [x.casefold() for x in osgc_frameworks]
                     p += compare_sets(osgc_frameworks, our_frameworks, 'framework/dependencies')
 
-                # repo (ignore links to sourceforge project pages, add download field from us)
+                # compare their repo with our code repository and download
                 if 'repo' in osgc_entry:
-                    repos = osgc_entry['repo']
-                    if type(repos) == str:
-                        repos = [repos]
-                    our_repos = our_entry.get('code repository', [])
-                    for repo in repos:
-                        if repo.startswith('https://sourceforge.net/projects/'):
-                            continue
-                        if (repo not in our_repos) and (repo+'.git' not in our_repos): # add .git automatically and try it too
-                            p += ' code repository {} missing\n'.format(repo)
+                    osgc_repos = osgc_entry['repo']
+                    if type(osgc_repos) == str:
+                        osgc_repos = [osgc_repos]
+                    osgc_repos = [utils.strip_url(url) for url in osgc_repos]
+                    # osgc_repos = [x for x in osgc_repos if not x.startswith('https://sourceforge.net/projects/')] # ignore some
+                    our_repos = our_entry.get('code repository', []) + our_entry.get('download', [])
+                    our_repos = [utils.strip_url(url) for url in our_repos]
+                    p += compare_sets(osgc_repos, our_repos, 'repo')
 
-                # url (ignore http/https)
+                # compare their url (and feed) to our home (and strip urls)
                 if 'url' in osgc_entry:
                     osgc_urls = osgc_entry['url']
                     if type(osgc_urls) == str:
@@ -279,14 +278,14 @@ if __name__ == "__main__":
                     our_urls = [utils.strip_url(url) for url in our_urls]
                     p += compare_sets(osgc_urls, our_urls, 'url/home')
 
-                # status inconsistencies (playable can be beta/mature with us, but not playable must be beta)
+                # compare their status with our state (playable can be beta/mature with us, but not playable must be beta)
                 if 'status' in osgc_entry:
                     osgc_status = osgc_entry['status']
                     our_status = our_entry['state'] # essential field
                     if osgc_status != 'playable' and 'mature' in our_status:
                         p += ' status : mismatch : them {}, us mature\n'.format(osgc_status)
 
-                # development inconsistencies
+                # compare their development with our state
                 if 'development' in osgc_entry:
                     osgc_development = osgc_entry['development']
                     our_inactive = 'inactive' in our_entry
@@ -298,7 +297,7 @@ if __name__ == "__main__":
                     if osgc_development == 'complete' and 'mature' not in our_status:
                         p += ' development : mismatch : them complete, us not mature\n'
 
-                # originals
+                # compare their originals to our keywords (inspired by)
                 our_keywords = our_entry['keywords']
                 if 'originals' in osgc_entry:
                     osgc_originals = osgc_entry['originals']
@@ -308,10 +307,10 @@ if __name__ == "__main__":
                         assert len(our_originals) == 1, '{}: {}'.format(our_name, our_originals)
                         our_originals = our_originals[0][11:].split('+')
                         our_originals = [x.strip() for x in our_originals]
-                    our_originals = [x for x in our_originals if x not in ['Doom II']] # ignore
+                    our_originals = [x for x in our_originals if x not in ['Doom II']] # ignore same
                     p += compare_sets(osgc_originals, our_originals, 'originals')
 
-                # multiplayer (only lowercase comparison)
+                # compare their multiplayer with our keywords (multiplayer) (only lowercase comparison)
                 if 'multiplayer' in osgc_entry:
                     osgc_multiplayer = osgc_entry['multiplayer']
                     if type(osgc_multiplayer) == str:
@@ -325,20 +324,19 @@ if __name__ == "__main__":
                         our_multiplayer = [x.strip().casefold() for x in our_multiplayer]
                     p += compare_sets(osgc_multiplayer, our_multiplayer, 'multiplayer')
 
-                # content
+                # compare content with keywords
                 if 'content' in osgc_entry:
                     content = osgc_entry['content']
                     if isinstance(content, str):
                         content = [content]
-                    p += compare_sets(content, our_keywords, 'content/keywords', 'notthem')
+                    p += compare_sets(content, our_keywords, 'content/keywords', 'notthem') # only to us because we have more then them
 
-
-                # type
+                # compare their type to our keywords
                 if 'type' in osgc_entry:
                     game_type = osgc_entry['type']
                     if isinstance(game_type, str):
                         game_type = [game_type]
-                    p += compare_sets(game_type, our_keywords, 'type/keywords', 'notthem')
+                    p += compare_sets(game_type, our_keywords, 'type/keywords', 'notthem') # only to us because we have more then them
 
                 if p:
                     print('{}\n{}'.format(name, p))

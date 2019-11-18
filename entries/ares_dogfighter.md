@@ -1,15 +1,18 @@
 # Ares Dogfighter
 
-_3D Space Combat Game_
+_3D Space Combat Game._
 
 - Home: https://github.com/SteveSmith16384/AresDogfighter
-- State: beta, Inactive since 2016
+- State: beta, inactive since 2016
 - Download: https://stephensmith.itch.io/aresdogfighter
 - Platform: Windows, Linux
-- Keywords: Action, space combat, 3d
+- Keywords: action, 3D, space combat
 - Code repository: https://github.com/SteveSmith16384/AresDogfighter.git
 - Code language: Java
-- Code license: GNU3
+- Code license: GPL-3.0
 - Code dependencies: jMonkeyEngine
-- Assets license: See relevant asset folders
+- Assets license: (See relevant asset folders)
 
+Developer: Stephen Carlyle-Smith
+
+## Building

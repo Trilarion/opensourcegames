@@ -24,6 +24,7 @@
 - **[GL4ES](../gl4es.md)** (C, MIT, mature)
 - **[Golly](../golly.md)** (C++, Java, GPL-2.0, mature)
 - **[HyperRogue](../hyperrogue.md)** (C++, GPL-2.0, mature)
+- **[INSTEAD](../instead.md)** (C, Lua, MIT, mature)
 - **[Jazz² Resurrection](../jazz_resurrection.md)** (C#, JavaScript, GPL-3.0, mature)
 - **[jewelthief](../jewelthief.md)** (Java, GPL-3.0, mature, inactive since 2016)
 - **[KittenMaxit](../kittenmaxit.md)** (Java, MIT, beta)

@@ -14,7 +14,7 @@
    "<a href=\"https://play0ad.com/download/\">Link</a>",
    "beta / active",
    "strategy, clone, inspired by Age of Empires, multiplayer online + LAN, open content, real time",
-   "<a href=\"https://github.com/0ad/0ad.git\">Source</a> - C, C++ - GPL-2.0"
+   "<a href=\"https://github.com/0ad/0ad.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "1oom (<a href=\"https://kilgoretroutmaskreplicant.gitlab.io/plain-html/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/1oom.md\">entry</a>)",
@@ -447,6 +447,14 @@
    "mature / inactive since 2009",
    "role playing",
    "<a href=\"https://github.com/hhirsch/ardentryst.git\">Source</a> - Python - GPL-3.0"
+  ],
+  [
+   "Ares Dogfighter (<a href=\"https://github.com/SteveSmith16384/AresDogfighter\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/ares_dogfighter.md\">entry</a>)",
+   "3D Space Combat Game.",
+   "<a href=\"https://stephensmith.itch.io/aresdogfighter\">Link</a>",
+   "beta / inactive since 2016",
+   "action, 3D, space combat",
+   "<a href=\"https://github.com/SteveSmith16384/AresDogfighter.git\">Source</a> - Java - GPL-3.0"
   ],
   [
    "Argentum Online (<a href=\"http://www.comunidadargentum.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/argentum_online.md\">entry</a>)",
@@ -1585,6 +1593,14 @@
    "C - GPL-2.0"
   ],
   [
+   "Citybound (<a href=\"https://aeplay.org/citybound\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/citybound.md\">entry</a>)",
+   "Clone of Simcity.",
+   "<a href=\"https://aeplay.org/citybound-livebuilds\">Link</a>",
+   "beta / active",
+   "simulation, clone, inspired by Simcity, open content",
+   "<a href=\"https://github.com/citybound/citybound.git\">Source</a> - Rust, JavaScript - AGPL-3.0"
+  ],
+  [
    "Civil (<a href=\"http://civil.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/civil.md\">entry</a>)",
    "A cross-platform, turn-based, networked strategy game.",
    "<a href=\"http://civil.sourceforge.net/download.html\">Link</a>",
@@ -1959,6 +1975,14 @@
    "beta / inactive since 2013",
    "remake, inspired by Cytadela, shooter",
    "C++ - GPL-3.0"
+  ],
+  [
+   "Cytopia (<a href=\"https://cytopia.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/cytopia.md\">entry</a>)",
+   "Clone of Simcity.",
+   "<a href=\"https://cytopia.net/download/\">Link</a>",
+   "beta / active",
+   "simulation, clone, inspired by Simcity, open content",
+   "<a href=\"https://github.com/CytopiaTeam/Cytopia.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
    "D-Fend Reloaded (<a href=\"http://dfendreloaded.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/d-fend_reloaded.md\">entry</a>)",
@@ -2521,6 +2545,14 @@
    "<a href=\"https://github.com/jwvhewitt/dmeternal.git\">Source</a> - Python - GPL-2.0"
   ],
   [
+   "Dungeon Monkey Unlimited (<a href=\"https://sourceforge.net/projects/dmonkey/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/dungeon_monkey_unlimited.md\">entry</a>)",
+   "A turn based combat-oriented tactics RPG.",
+   "<a href=\"https://sourceforge.net/projects/dmonkey/files/\">Link</a>",
+   "mature / inactive since 2010",
+   "action, role playing, turn-based",
+   "<a href=\"https://svn.code.sf.net/p/dmonkey/code/trunk\">Source</a> - Pascal - LGPL-2.1"
+  ],
+  [
    "Dungeon Quest (<a href=\"https://github.com/guillaume-gouchon/dungeonquest\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/dungeon_quest.md\">entry</a>)",
    "Smashing more monsters than ever in this turn-based..",
    "",
@@ -2559,6 +2591,22 @@
    "mature / active",
    "remake, first-person, inspired by Descent + Descent II, shooter",
    "<a href=\"https://github.com/dxx-rebirth/dxx-rebirth.git\">Source</a> - C, C++, Python - GPL-3.0"
+  ],
+  [
+   "DynaDungeons (<a href=\"https://github.com/akien-mga/dynadungeons\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/dynadungeons.md\">entry</a>)",
+   "Clone of Bomberman.",
+   "",
+   "beta / inactive since 2018",
+   "action, clone, inspired by Bomberman, multiplayer competitive, open content",
+   "<a href=\"https://github.com/akien-mga/dynadungeons.git\">Source</a> - GDScript - GPL-3.0"
+  ],
+  [
+   "eAdventure (<a href=\"http://e-adventure.e-ucm.es/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/eadventure.md\">entry</a>)",
+   "Authoring tool for the creation of point-and-click games.",
+   "<a href=\"https://sourceforge.net/projects/e-adventure/files/\">Link</a>",
+   "mature / inactive since 2014",
+   "adventure, game engine",
+   "<a href=\"https://svn.code.sf.net/p/e-adventure/code/trunk\">Source</a> - Java - GPL-3.0"
   ],
   [
    "EasyRPG Player (<a href=\"https://easyrpg.org/player/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/easyrpg_player.md\">entry</a>)",
@@ -3369,6 +3417,14 @@
    "<a href=\"https://github.com/fofix/fofix.git\">Source</a> - Python - GPL-2.0"
   ],
   [
+   "Freya Game Engine (<a href=\"http://freya-engine.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/freya_game_engine.md\">entry</a>)",
+   "Engine for writing multiplayer turn based games.",
+   "<a href=\"https://sourceforge.net/projects/freya-engine/files/\">Link</a>",
+   "beta / inactive since 2002",
+   "strategy, game engine",
+   "<a href=\"http://freya-engine.cvs.sourceforge.net\">Source</a> - Java - LGPL-2.1"
+  ],
+  [
    "Friking Shark (<a href=\"https://pyra-handheld.com/boards/threads/friking-shark.76715/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/friking_shark.md\">entry</a>)",
    "Clone of Flying Shark.",
    "",
@@ -3654,7 +3710,7 @@
    "<a href=\"https://flathub.org/apps/details/org.gnome.Chess\">Link</a>",
    "mature / active",
    "strategy, chess, open content",
-   "<a href=\"https://gitlab.gnome.org/GNOME/gnome-chess\">Source</a> - Vala - GPL-3.0"
+   "<a href=\"https://gitlab.gnome.org/GNOME/gnome-chess.git\">Source</a> - Vala - GPL-3.0"
   ],
   [
    "Gnome Hearts (<a href=\"https://web.archive.org/web/20160308075926/http://www.jejik.com/gnome-hearts/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/gnome_hearts.md\">entry</a>)",
@@ -3807,6 +3863,14 @@
    "beta / inactive since 2013",
    "adventure, 2D, game engine",
    "<a href=\"https://github.com/Droggelbecher/Grail.git\">Source</a> - C++, Lua - GPL-3.0"
+  ],
+  [
+   "Granatier (<a href=\"https://kde.org/applications/games/org.kde.granatier\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/granatier.md\">entry</a>)",
+   "Clone of Bomberman.",
+   "",
+   "mature / active",
+   "action, clone, inspired by Bomberman, multiplayer Competitive, open content",
+   "<a href=\"https://anongit.kde.org/granatier.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Gravitation (<a href=\"http://hcsoftware.sourceforge.net/gravitation/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/gravitation.md\">entry</a>)",
@@ -4297,6 +4361,14 @@
    "<a href=\"https://github.com/dividuum/infon.git\">Source</a> - C, Lua - GPL"
   ],
   [
+   "INSTEAD (<a href=\"https://instead3.syscall.ru/en/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/instead.md\">entry</a>)",
+   "Engine for textographic games, which are a mix of..",
+   "<a href=\"https://instead3.syscall.ru/en/#download\">Link</a>",
+   "mature / active",
+   "adventure, game engine, text, visual novel",
+   "<a href=\"https://github.com/instead-hub/instead.git\">Source</a> - C, Lua - MIT"
+  ],
+  [
    "Intricacy (<a href=\"http://mbays.freeshell.org/intricacy/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/intricacy.md\">entry</a>)",
    "Intricacy is a multiplayer lock-picking puzzle game, in..",
    "",
@@ -4711,6 +4783,14 @@
    "beta / inactive since 2011",
    "role playing",
    "<a href=\"https://gitlab.com/osgames/koboldsquest2.git\">Source</a> - Python - LGPL-3.0"
+  ],
+  [
+   "Korax' Heritage (<a href=\"https://www.koraxheritage.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/korax_heritage.md\">entry</a>)",
+   "3D FPS-RPG engine based on Vavoom.",
+   "<a href=\"https://www.koraxheritage.com/downloads/\">Link</a>",
+   "mature / active",
+   "role playing, 3D, first-person, game engine, shooter",
+   "<a href=\"https://git.code.sf.net/p/korax/code-git\">Source</a> - ? - ?"
   ],
   [
    "KQ Lives (<a href=\"http://kqlives.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/kq_lives.md\">entry</a>)",
@@ -5457,6 +5537,14 @@
    "<a href=\"https://github.com/Hopson97/MineCraft-One-Week-Challenge.git\">Source</a> - C++ - MIT"
   ],
   [
+   "Mines (<a href=\"https://wiki.gnome.org/Apps/Mines\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/mines.md\">entry</a>)",
+   "Clone of Minesweeper.",
+   "",
+   "mature / active",
+   "strategy, clone, free content, inspired by Minesweeper",
+   "<a href=\"https://gitlab.gnome.org/GNOME/gnome-mines.git\">Source</a> - Vala - GPL-3.0"
+  ],
+  [
    "Minesweeper (in C) (<a href=\"https://github.com/brenns10/minesweeper\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/minesweeper_in_c.md\">entry</a>)",
    "Remake of Minesweeper.",
    "",
@@ -5607,6 +5695,14 @@
    "mature / inactive since 2006",
    "action, inspired by moon-patrol, side-scrolling",
    "C - GPL-2.0"
+  ],
+  [
+   "Moonbase Assault (<a href=\"https://github.com/SteveSmith16384/MoonbaseAssault\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/moonbase_assault.md\">entry</a>)",
+   "A multiplayer FPS based on Laser Squad.",
+   "",
+   "beta / inactive since 2019",
+   "remake, first-person, inspired by Laser Squad, multiplayer, shooter",
+   "<a href=\"https://github.com/SteveSmith16384/MoonbaseAssault.git\">Source</a> - Java - MIT"
   ],
   [
    "Moria (<a href=\"https://umoria.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/moria.md\">entry</a>)",
@@ -6929,6 +7025,14 @@
    "C - GPL-2.0"
   ],
   [
+   "Pac Go (<a href=\"https://github.com/danicat/pacgo\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/pac_go.md\">entry</a>)",
+   "Clone of Pac-Man.",
+   "",
+   "mature / active",
+   "arcade, clone, inspired by Pac-Man, open content",
+   "<a href=\"https://github.com/danicat/pacgo.git\">Source</a> - Go - MIT"
+  ],
+  [
    "Pacewar (<a href=\"http://pacewar.nongnu.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/pacewar.md\">entry</a>)",
    "Simple fighting game between two teams of ships.",
    "<a href=\"http://pacewar.nongnu.org/download.html\">Link</a>",
@@ -7143,6 +7247,14 @@
    "mature / active",
    "framework, 2D",
    "<a href=\"https://github.com/photonstorm/phaser.git\">Source</a> - JavaScript - MIT"
+  ],
+  [
+   "phpRPG (<a href=\"http://phprpg.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/phprpg.md\">entry</a>)",
+   "Multiplayer role playing game engine which shares common..",
+   "<a href=\"https://sourceforge.net/projects/phprpg/files/\">Link</a>",
+   "beta / inactive since 2006",
+   "role playing, game engine",
+   "<a href=\"http://phprpg.cvs.sourceforge.net\">Source</a> - PHP - GPL-2.0"
   ],
   [
    "Physics Platformer (<a href=\"https://github.com/SteveSmith16384/PhysicsPlatformer\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/physics_platformer.md\">entry</a>)",
@@ -7925,7 +8037,7 @@
    "Arcade style game for \u201cBoulder Dash\u201d (C 64), \u201cEmerald..",
    "<a href=\"http://www.artsoft.org/rocksndiamonds/download/\">Link</a>",
    "mature / active",
-   "action, inspired by Boulder Dash + Supraplex, puzzle, remake",
+   "action, inspired by Boulder Dash + Supaplex, puzzle, remake",
    "<a href=\"http://git.artsoft.org/rocksndiamonds.git\">Source</a> - C - GPL-2.0"
   ],
   [
@@ -8103,6 +8215,14 @@
    "mature / inactive since 2014",
    "framework",
    "<a href=\"https://github.com/PlatinumArts/Platinum-Arts-Sandbox-Free-Game-Maker.git\">Source</a> - C++, C - Custom"
+  ],
+  [
+   "sandspiel (<a href=\"https://maxbittker.com/making-sandspiel\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/sandspiel.md\">entry</a>)",
+   "Clone of Powder Game.",
+   "",
+   "beta / active",
+   "simulation, clone, inspired by Powder Game, open content",
+   "<a href=\"https://github.com/maxbittker/sandspiel.git\">Source</a> - Rust, JavaScript, TypeScript - MIT"
   ],
   [
    "Sarah-Maries Eierjagd (<a href=\"http://eier.gerdsmeier.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/sarah-maries_eierjagd.md\">entry</a>)",
@@ -8601,6 +8721,14 @@
    "<a href=\"https://gitlab.com/osgames/solarwolf.git\">Source</a> - Python - LGPL-2.1"
   ],
   [
+   "Sole Collector (<a href=\"https://github.com/SteveSmith16384/3DHorrorGame\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/sole_collector.md\">entry</a>)",
+   "3D Horror FPS Game.",
+   "<a href=\"https://stephensmith.itch.io/sole-collector\">Link</a>",
+   "beta / inactive since 2018",
+   "action, 3D, first-person, horror, shooter",
+   "<a href=\"https://github.com/SteveSmith16384/3DHorrorGame.git\">Source</a> - Java - MIT"
+  ],
+  [
    "Song of Albion (<a href=\"https://code.google.com/archive/p/songofalbion/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/song_of_albion.md\">entry</a>)",
    "Medieval Celtic fantasy trilogy by Stephen Lawhead.",
    "",
@@ -8887,6 +9015,14 @@
    "mature / active",
    "music, clone, inspired by Dance Dance Revolution",
    "<a href=\"https://github.com/stepmania/stepmania.git\">Source</a> - C, C++, Lua - MIT"
+  ],
+  [
+   "SteveTech1 (<a href=\"http://multiplayerfpstutorial.blogspot.com/p/introduction.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/stevetech1.md\">entry</a>)",
+   "A realtime multiplayer 3D FPS engine.",
+   "",
+   "beta / inactive since 2019",
+   "game engine, first-person, multiplayer, shooter",
+   "<a href=\"https://github.com/SteveSmith16384/SteveTech1.git\">Source</a> - Java - MIT"
   ],
   [
    "Story of a Lost Sky (<a href=\"https://www.pygame.org/project-Story+of+a+Lost+Sky-1106-.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/story_of_a_lost_sky.md\">entry</a>)",
@@ -9967,6 +10103,14 @@
    "beta / inactive since 2016",
    "adventure, inspired by Uninvited, remake",
    "<a href=\"https://github.com/DavidGriffith/uninvited.git\">Source</a> - C, C++ - Artistic License-2.0"
+  ],
+  [
+   "unitystation (<a href=\"https://unitystation.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/unitystation.md\">entry</a>)",
+   "Clone of Space Station 13.",
+   "<a href=\"https://store.steampowered.com/app/801140/unitystation/\">Link</a>",
+   "beta / active",
+   "adventure, clone, inspired by Space Station 13, may require Steam",
+   "<a href=\"https://github.com/unitystation/unitystation.git\">Source</a> - C# - AGPL-3.0"
   ],
   [
    "Unknown Horizons (<a href=\"http://unknown-horizons.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/unknown_horizons.md\">entry</a>)",

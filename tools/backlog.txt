@@ -4,6 +4,7 @@ http://circularstudios.com/
 http://cyxdown.free.fr/bs/
 http://cyxdown.free.fr/f2b/
 http://dead-code.org/home/
+http://e-adventure.e-ucm.es/login/index.php (games of eAdventure)
 http://ethernet.wasted.ch/
 http://evolonline.org/about
 http://game-editor.com/Main_Page
@@ -201,7 +202,6 @@ https://github.com/collinhover/kaiopua
 https://github.com/cookgreen/Yuris-Revenge
 https://github.com/Cortrah/SpaceOperaDesign, https://github.com/Cortrah/SpaceOperaRuby/blob/master/design/turnstyles.md
 https://github.com/cping/LGame
-https://github.com/CytopiaTeam/Cytopia
 https://github.com/DaanVanYperen/artemis-odb-contrib
 https://github.com/DeflatedPickle/FAOSDance
 https://github.com/delaford/game
@@ -210,6 +210,7 @@ https://github.com/Drasky-Vanderhoff/CommonDrops
 https://github.com/EaW-Team/equestria_dev
 https://github.com/ec-/Quake3e
 https://github.com/elishacloud/Silent-Hill-2-Enhancements
+https://github.com/enduro2d/enduro2d
 https://github.com/enginmanap/limonEngine
 https://github.com/ErikLetson/torso-ninja
 https://github.com/ErikLetson/torso-ninja-2
@@ -259,6 +260,7 @@ https://github.com/OGRECave/scape
 https://github.com/OpenMandrivaAssociation
 https://github.com/OpenMandrivaAssociation/nexuiz/blob/master/nexuiz.spec
 https://github.com/OpenRA/d2
+https://github.com/OpenRA/OpenRAModSDK
 https://github.com/opensourcedesign
 https://github.com/opentrack/opentrack
 https://github.com/OSSGames
@@ -267,10 +269,14 @@ https://github.com/PavelDoGreat/WebGL-Fluid-Simulation
 https://github.com/perbone/luascript
 https://github.com/pld-linux
 https://github.com/pld-linux/nexuiz/blob/master/nexuiz.spec
+https://github.com/ppizarror/pygame-menu
+https://github.com/prime31/Nez-Samples
 https://github.com/psuong/ig-developer-console
 https://github.com/qiciengine/qiciengine
 https://github.com/Quaver/Wobble
+https://github.com/rakugoteam/Rakugo
 https://github.com/rds1983/Myra
+https://github.com/redomar/JavaGame
 https://github.com/Renanse/Ardor3D
 https://github.com/RetroAchievements/RALibretro
 https://github.com/RetroAchievements/RAWeb
@@ -294,7 +300,6 @@ https://github.com/stolencatkarma/CataclysmLD
 https://github.com/tainicom/Aether.Physics2D
 https://github.com/tangziwen/Cube-Engine
 https://github.com/the-insulines
-https://github.com/AxioDL/urde
 https://github.com/theaigames
 https://github.com/Tinob/Ishiiruka (https://github.com/shiiion/Ishiiruka, https://github.com/SirMangler/PrimeHack-Updater)
 https://github.com/tizian/Cendric2
@@ -302,6 +307,7 @@ https://github.com/TomBebb/awe
 https://github.com/topics/top-down-shooter
 https://github.com/Venom0us/Emberpoint
 https://github.com/videogamepreservation
+https://github.com/vocollapse/Blockinger
 https://github.com/Wargus/stratagus
 https://github.com/wesnoth/haldric
 https://github.com/WohlSoft/PGE-Project
@@ -314,7 +320,6 @@ https://gitlab.com/vgstation/vgstation-old (and vgstation in general)
 https://gitlab.com/xonlegacy/xonlegacy
 https://gitlab.openrsc.com/open-rsc
 https://gottcode.org/ (all)
-https://instead3.syscall.ru/
 https://itch.io/ (scrape, look for open source)
 https://jcrpg.blogspot.de/
 https://kde.org/applications/games/ (all of them)
@@ -362,33 +367,12 @@ https://scratch.mit.edu/ (https://en.scratch-wiki.info/wiki/Scratch_Source_Code)
 https://senseis.xmp.net/?GNUGo
 https://sourceforge.net/directory/games/games/os:windows/
 https://sourceforge.net/projects/dices/
-https://sourceforge.net/projects/dmonkey/
 https://sourceforge.net/projects/dsa-hl.berlios/
-https://sourceforge.net/projects/e-adventure/
 https://sourceforge.net/projects/elysium/
-https://sourceforge.net/projects/flapp/
-https://sourceforge.net/projects/fleet0ps/
-https://sourceforge.net/projects/freya-engine/
-https://sourceforge.net/projects/fruitwar/
-https://sourceforge.net/projects/heroes-rebirth/
-https://sourceforge.net/projects/instead/
-https://sourceforge.net/projects/jbiclone/
-https://sourceforge.net/projects/jisoman/?source=directory
-https://sourceforge.net/projects/korax/
-https://sourceforge.net/projects/l5r-rpgu/
-https://sourceforge.net/projects/lasthope/
 https://sourceforge.net/projects/lgames/files/barrage/
-https://sourceforge.net/projects/lixoo/
-https://sourceforge.net/projects/mage/
-https://sourceforge.net/projects/migrationsimulationgame/
-https://sourceforge.net/projects/mindlence-game/
-https://sourceforge.net/projects/mininghaze/ - download didn't work
 https://sourceforge.net/projects/moeng/
-https://sourceforge.net/projects/morgoao/
 https://sourceforge.net/projects/openzelda/
 https://sourceforge.net/projects/palomino-sim/ (http://www.jimbrooks.org/archive/software/palomino/)
-https://sourceforge.net/projects/pdiaspora/
-https://sourceforge.net/projects/phprpg/
 https://sourceforge.net/projects/pipmak/
 https://sourceforge.net/projects/qua/
 https://sourceforge.net/projects/quest/

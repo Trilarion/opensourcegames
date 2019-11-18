@@ -62,6 +62,7 @@
 - **[Orbit-Hopper](../orbit-hopper.md)** (C++, GPL-2.0, mature, inactive since 2019)
 - **[Ostrich Riders](../ostrich_riders.md)** (C++, GPL-3.0, beta)
 - **[Overgod](../overgod.md)** (C, GPL-2.0, mature, inactive since 2005)
+- **[Pac Go](../pac_go.md)** (Go, MIT, mature)
 - **[Pacman](../pacman.md)** (C++, GPL-2.0, beta)
 - **[PainTown](../paintown.md)** (C++, Java, Python, 3-clause BSD, mature)
 - **[Pang Zero](../pang_zero.md)** (Perl, GPL-2.0, beta, inactive since 2007)

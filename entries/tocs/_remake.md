@@ -234,6 +234,7 @@
 - **[mk.js](../mkjs.md)** (JavaScript, MIT, beta)
 - **[Mocha Doom](../mocha_doom.md)** (Java, ?, beta, inactive since 2012)
 - **[Monsters and Mushrooms](../monsters_and_mushrooms.md)** (Python, GPL-2.0, mature, inactive since 2010)
+- **[Moonbase Assault](../moonbase_assault.md)** (Java, MIT, beta, inactive since 2019)
 - **[Morpheus Web Remake](../morpheus_web_remake.md)** (JavaScript, MIT, beta)
 - **[movbizz](../movbizz.md)** (PHP, JavaScript, MIT, beta, inactive since 2015)
 - **[Mr.Boom](../mrboom.md)** (C++, MIT, mature)

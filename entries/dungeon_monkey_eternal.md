@@ -10,5 +10,7 @@ _Third game in the dungeon monkey series._
 - Code license: GPL-2.0
 - Code dependencies: pygame, pyglet
 
+Developer: Joseph Hewitt (jwvhewitt)
+
 ## Building
 

@@ -2,7 +2,7 @@
 
 _Open source clone of 'Heroes Of Might And Magic III' engine._
 
-- Home: https://launchpad.net/openhomm
+- Home: https://launchpad.net/openhomm, https://sourceforge.net/projects/heroes-rebirth/
 - State: beta, inactive since 2010
 - Download: https://launchpad.net/openhomm/+download
 - Keywords: strategy

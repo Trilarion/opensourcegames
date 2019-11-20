@@ -11,7 +11,7 @@ _Doom source port that accurately reproduces the experience of Doom as it was pl
 - Code language: C
 - Code license: GPL-2.0
 
-Supports a number of games and mods based on the Doom engine.
+Supports a number of games and mods based on the Doom.
 
 License of assets?
 

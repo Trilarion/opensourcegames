@@ -8,7 +8,7 @@ _Strategy game._
 - Code repository: https://svn.code.sf.net/p/fortress/code/trunk (svn)
 - Code language: Java
 - Code license: ? (GPL-3.0)
-- Code dependencies: JMonkeyEngine
+- Code dependencies: jMonkeyEngine
 
 Developer: Charles Goodwin, others
 

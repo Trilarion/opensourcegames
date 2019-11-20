@@ -53,6 +53,7 @@ def list_compare(a, b, k):
 
 if __name__ == "__main__":
 
+    # some parameter
     similarity_threshold = 0.8
     maximal_newly_created_entries = 40
 

@@ -10,7 +10,7 @@ _Move a jumping ball and try to reach the end of a tower avoiding the obstacles.
 - Code repository: https://github.com/Dariasteam/TowerJumper.git
 - Code language: C++, GDScript
 - Code license: GPL-3.0
-- Code dependencies: Godot engine
+- Code dependencies: Godot
 
 ## Building
 

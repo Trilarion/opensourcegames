@@ -10,7 +10,7 @@ _Remake of Super Monkey Ball._
 - Code repository: https://github.com/Veraball/veraball.git
 - Code language: GDScript
 - Code license: MIT
-- Code dependencies: Godot engine
+- Code dependencies: Godot
 - Assets license: CC-BY-SA-3.0
 
 ## Building

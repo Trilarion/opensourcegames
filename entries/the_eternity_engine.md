@@ -6,7 +6,7 @@ _DOOM source port._
 - State: mature
 - Download: https://github.com/team-eternity/eternity/releases
 - Platform: Windows, Linux, macOS
-- Keywords: game engine, commercial content (?), first person, inspired by Doom + Heretic + Hexen + Strife, remake, requires original content, shooter
+- Keywords: game engine, commercial content (?), first person, inspired by Doom + Heretic + Hexen + Strife, multiplay LAN, remake, requires original content, shooter
 - Code repository: https://github.com/team-eternity/eternity.git
 - Code language: C, C++
 - Code license: GPL-3.0

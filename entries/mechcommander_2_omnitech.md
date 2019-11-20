@@ -8,7 +8,7 @@ _Upgraded and more easily moddable version of the good old Mechcommander 2._
 - Keywords: action, inspired by MechCommander 2, remake
 - Code repository: https://github.com/Echelon9/mechcommander2-open.git
 - Code language: C++
-- Code license: Ms-PL
+- Code license: MS-PL
 
 ## Building
 

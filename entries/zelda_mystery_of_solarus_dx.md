@@ -8,9 +8,9 @@ _This quest is a free, open-source game that works with Solarus, an open-source 
 - Code repository: https://gitlab.com/solarus-games/zsdx.git, https://github.com/solarus-games/zsdx.git (old)
 - Code language: Lua
 - Code license: GPL-3.0
-- Code dependencies: Solarus engine
+- Code dependencies: Solarus
 
-See also: [Solarus engine](../framework/solarus.md).
+See also: [Solarus](../framework/solarus.md).
 
 ## Building
 

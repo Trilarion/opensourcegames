@@ -12,9 +12,9 @@ Please add or modify entries in the alphabetically sorted list below. Change the
 
 The game is complete and very active actually. I am not aware of any problems. I played countless hours with it. The only
 bugs I reported were minor text-related ones that were fixed quickly. It's definitely not in “beta” anymore. The problem
-is more a psychological one: There's no version 1.0. The developers just outright refuse to ever release a version
-named “1.0”. This is evil. They are making themselves smaller than they should be. DCSS should just release 1.0.
-Never underestimate the psychological power of just calling your release 1.0.
+is more a psychological one: There's no version 1.0. The [developers refuse](https://crawl.develz.org/wordpress/faq#version)
+to ever release a version named “1.0”. This may be unfortunate. They are making themselves smaller than they should be.
+DCSS should just release 1.0. Never underestimate the psychological power of just calling your release 1.0.
 
 Last update: 2019-11
 

@@ -8,6 +8,6 @@ _Remake of Minecraft._
 - Code repository: https://github.com/PistonDevelopers/hematite.git
 - Code language: Rust
 - Code license: MIT
-- Code dependencies: Piston game engine
+- Code dependencies: Piston
 
 ## Building

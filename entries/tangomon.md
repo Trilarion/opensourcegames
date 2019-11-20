@@ -10,7 +10,7 @@ _Educational monster-battling game, similar in concept to the popular Pokemon se
 - Code repository: https://git.savannah.nongnu.org/git/tangomon.git, http://cvs.savannah.nongnu.org:/web/tangomon (cvs)
 - Code language: Python
 - Code license: GPL-3.0
-- Code dependencies: SGE Game Engine
+- Code dependencies: SGE
 - Assets license: various
 
 Developer: onpon4

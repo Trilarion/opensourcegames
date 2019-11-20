@@ -6,7 +6,7 @@ _Updated emulator of Forgotten Realms: Unlimited Adventures._
 - State: mature
 - Download: https://sourceforge.net/projects/uaf/files/
 - Keywords: role playing, inspired by Forgotten Realms: Unlimited Adventures, remake
-- Code repository: https://gitlab.com/osgames/uaf.git (mirror), https://sourceforge.net/p/uaf/code/ (cvs)
+- Code repository: https://gitlab.com/osgames/uaf.git (mirror), http://uaf.cvs.sourceforge.net (cvs)
 - Code language: C++
 - Code license: GPL-2.0
 

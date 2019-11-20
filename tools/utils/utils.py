@@ -269,7 +269,7 @@ def unzip(zip_file, destination_directory):
 
 
 def strip_url(url):
-    for prefix in ('http://', 'https://', 'www.'):
+    for prefix in ('http://', 'https://', 'svn://', 'www.'):
         if url.startswith(prefix):
             url = url[len(prefix):]
     for suffix in ('/', '.git', '/en', '/index.html'):

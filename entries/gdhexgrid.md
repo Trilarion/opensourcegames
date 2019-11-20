@@ -8,7 +8,7 @@ _Tools for using hexagonal grids in GDScript._
 - Code repository: https://github.com/romlok/godot-gdhexgrid.git
 - Code language: GDScript
 - Code license: MIT
-- Code dependencies: Godot engine
+- Code dependencies: Godot
 
 ## Building
 

@@ -8,7 +8,7 @@ _Clone of Bomberman._
 - Code repository: https://github.com/akien-mga/dynadungeons.git
 - Code language: GDScript
 - Code license: GPL-3.0
-- Code dependencies: Godot engine
+- Code dependencies: Godot
 - Assets license: CC-BY-3.0 (http://opengameart.org/content/bomb-party-the-complete-set)
 
 ## Building

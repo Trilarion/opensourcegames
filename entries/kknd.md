@@ -7,11 +7,11 @@ _Remake of Krush, Kill 'n' Destroy._
 - State: beta
 - Download: https://www.kknd-game.com/download
 - Platform: Windows, Linux, macOS
-- Keywords: remake, commercial content, inspired by Krush, Kill 'n' Destroy, requires original content (?)
+- Keywords: remake, commercial content, inspired by Krush Kill 'n' Destroy, requires original content (?)
 - Code repository: https://github.com/IceReaper/KKnD.git
 - Code language: C#
 - Code license: GPL-3.0
-- Code dependencies: OpenRA engine
+- Code dependencies: OpenRA
 
 
 ## Building

@@ -7,10 +7,10 @@ _Multiplayer 'demake' of Team Fortress 2._
 - State: mature
 - Download: https://www.ganggarrison.com/downloads.html
 - Platform: Windows
-- Keywords: action, demake, inspired by Team Fortress 2, multiplayer online
+- Keywords: action, clone, demake, inspired by Team Fortress 2, multiplayer online, open content
 - Code repository: https://github.com/Gang-Garrison-2/Gang-Garrison-2.git
 - Code language: Game Maker Script
-- Code license: MPL
+- Code license: MPL-2.0
 - Code dependencies: Game Maker
 
 ## Building

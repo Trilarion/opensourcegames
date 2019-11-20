@@ -9,6 +9,6 @@ _Remake of Cube 2: Sauerbraten._
 - Code repository: https://github.com/inexor-game/code.git (archived)
 - Code language: C++, JavaScript
 - Code license: zlib
-- Code dependencies: Cube 2 Engine
+- Code dependencies: Cube 2
 
 ## Building

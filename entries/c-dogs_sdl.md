@@ -10,9 +10,9 @@ _Overhead run-and-gun game._
 - Keywords: action, inspired by C-Dogs, remake, shooter
 - Code repository: https://github.com/cxong/cdogs-sdl.git
 - Code language: C
-- Code license: GPL-2.0
+- Code license: GPL-2.0 (parts 2-clause BSD)
 - Code dependencies: SDL2
-- Assets license: CC-BY
+- Assets license: CC0, CC-BY, CC-BY-SA
 
 ## Building
 

@@ -10,7 +10,7 @@ _A match-3 game inspired by "Tetris Attack" but more PC friendly._
 - Code repository: https://github.com/blockattack/blockattack-game.git
 - Code language: C++
 - Code license: GPL-2.0
-- Code dependencies: boost, gettext, physfs, SDL2, utfcpp
+- Code dependencies: SDL2
 - Assets license: GPL-2.0, CC-BY-SA, Public domain
 
 Moved from SDL1 to SDL2 with version 2.0.0 released May 1st, 2016.

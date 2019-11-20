@@ -7,7 +7,7 @@ _RPG 2d game similar to RimWorld._
 - State: beta
 - Download: https://github.com/SneakyTactician/MagicalLife/releases
 - Platform: Windows
-- Keywords: role playing, inspired by RimWorld
+- Keywords: role playing, inspired by RimWorld, open content
 - Code repository: https://github.com/SneakyTactician/MagicalLife.git
 - Code language: C#
 - Code license: MIT

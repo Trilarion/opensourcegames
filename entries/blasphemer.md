@@ -9,7 +9,7 @@ _Blasphemer is an FPS project whose initial goal is to serve as a Free data pack
 - Code repository: https://github.com/Blasphemer/blasphemer.git
 - Code language: None (only assets)
 - Code license: None (only assets)
-- Code dependencies: Heretic-based engines
+- Code dependencies: Heretic-based
 - Assets license: 3-clause BSD
 
 Developer: G. Wessner, Jute Gyte

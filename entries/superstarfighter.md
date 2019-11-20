@@ -9,7 +9,7 @@ _Starships that battle in a 2d top-down arena._
 - Code repository: https://github.com/notapixelstudio/superstarfighter.git
 - Code language: GDScript
 - Code license: MIT
-- Code dependencies: Godot engine
+- Code dependencies: Godot
 
 ## Building
 

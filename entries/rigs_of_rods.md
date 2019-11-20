@@ -7,7 +7,7 @@ _3D simulator game where you can drive, fly and sail various vehicles._
 - State: mature 
 - Download: (see homepage)
 - Platform: Windows
-- Keywords: simulation, cars, multiplayer online, open content
+- Keywords: simulation, cars, inspired by BeamNG.drive, multiplayer online, open content
 - Code repository: https://github.com/RigsOfRods/rigs-of-rods.git
 - Code language: C, C++, AngelScript
 - Code license: GPL-3.0

@@ -7,11 +7,11 @@ _FPS/RTS hybrid game powered by the Daemon engine (a combination of ioq3 and Xre
 - State: mature 
 - Download: https://unvanquished.net/?page_id=318
 - Platform: Windows, Linux, macOS
-- Keywords: action, shooter
+- Keywords: action, inspired by Natural Selection, shooter
 - Code repository: https://github.com/Unvanquished/Unvanquished.git, https://github.com/DaemonEngine/Daemon.git (+)
 - Code language: C, C++
 - Code license: GPL-3.0
-- Code dependencies: Dæmon engine
+- Code dependencies: Dæmon
 - Assets license: CC-BY-SA-2.5
 
 ## Building

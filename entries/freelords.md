@@ -3,7 +3,7 @@
 _Explore, occupy, produce armies in cities and kill your enemies._
 
 - Home: https://sourceforge.net/projects/freelords/, https://sourceforge.net/p/freelords/wiki/Home/
-- State: beta
+- State: beta, inactive since 2017
 - Download: https://sourceforge.net/projects/freelords/files
 - Keywords: strategy, inspired by Warlords II, remake
 - Code repository: https://git.code.sf.net/p/freelords/git

@@ -131,7 +131,7 @@
 - **[Q-Gears](../q-gears.md)** (C, C++, GPL-2.0, beta, inactive since 2015)
 - **[Radakan](../radakan.md)** (Python, Custom, beta, inactive since 2014)
 - **[ransack](../ransack.md)** (Python, MIT, mature, inactive since 2016)
-- **[REGoth](../regoth.md)** (C++, GPL-3.0, mature)
+- **[REGoth](../regoth.md)** (C++, GPL-3.0, MIT, mature)
 - **[Remixed Dungeon](../remixed_dungeon.md)** (Java, GPL-3.0, mature)
 - **[Rogue Clone IV](../rogue_clone_iv.md)** (C, 3-clause BSD, mature, inactive since 2006)
 - **[RogueBox Adventures](../roguebox_adventures.md)** (Python, GPL-3.0, mature, inactive since 2017)

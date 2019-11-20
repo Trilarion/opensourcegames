@@ -78,6 +78,7 @@
 - **[DarkPlaces](../darkplaces.md)** (C, GPL-2.0, mature, inactive since 2014)
 - **[Dave Gnukem](../dave_gnukem.md)** (C++, GPL-2.0, mature)
 - **[Deer Portal](../deer_portal.md)** (C++, zlib, beta)
+- **[Defendguin](../defendguin.md)** (C, GPL-2.0, mature, inactive since 2009)
 - **[DeSmuME](../desmume.md)** (C, C++, GPL-2.0, mature, inactive since 2015)
 - **[Destination Sol](../destination_sol.md)** (Java, Apache-2.0, mature)
 - **[dhewm3](../dhewm3.md)** (C, C++, GPL-3.0, mature)

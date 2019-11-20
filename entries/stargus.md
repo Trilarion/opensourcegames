@@ -9,7 +9,7 @@ _Remake of Starcraft._
 - Code repository: https://svn.code.sf.net/p/stargus/code/ (svn), https://code.launchpad.net/stargus (bzr)
 - Code language: C++, Lua
 - Code license: GPL-2.0
-- Code dependencies: Stratagus engine
+- Code dependencies: Stratagus
 
 ## Building
 

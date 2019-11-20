@@ -8,7 +8,7 @@ _Pinball game._
 - Code repository: https://github.com/Calinou/libre-pinball.git
 - Code language: GDScript
 - Code license: MIT
-- Code dependencies: Godot engine
+- Code dependencies: Godot
 - Assets license: CC0, CC-BY-SA-3.0
 
 ## Building

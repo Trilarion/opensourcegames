@@ -31,6 +31,7 @@
 - **[RPDungeon - computer aided role playing](../rpdungeon-computer_aided_role_playing.md)** (Pascal, GPL-2.0, beta, inactive since 2006)
 - **[SLADE](../slade.md)** (C++, GPL-2.0, mature)
 - **[Squiffy](../squiffy.md)** (JavaScript, MIT, mature)
+- **[TTDPatch](../ttdpatch.md)** (Assembly, C, C++, GPL-2.0, mature, inactive since 2013)
 - **[Twine](../twine.md)** (JavaScript, GPL-3.0, mature)
 - **[VGC](../vgc.md)** (C++, Apache-2.0, beta)
 - **[Wind Waker Randomizer](../wind_waker_randomizer.md)** (Python, Assembly, MIT, mature)

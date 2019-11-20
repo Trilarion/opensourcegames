@@ -1,3 +1,4 @@
+ftp://ftp.tuxpaint.org/unix/ (all of them)
 ftp://ftp.tuxpaint.org/unix/x/
 http://antongerdelan.net/blog/ (other projects besides TestDrive)
 http://circularstudios.com/
@@ -27,6 +28,7 @@ http://insideastarfilledsky.net/
 http://lazerbears.wixsite.com/lazerbears/cr-editor
 http://libagar.org/agar/index.html.en
 http://libsdl-android.sourceforge.net/
+http://libsdl-android.sourceforge.net/ (Open source games ported to Android)
 http://lukaszjakowski.pl/ (games apart from uMario)
 http://m484games.ucoz.com/
 http://martindrapeau.github.io/backbone-game-engine/
@@ -181,6 +183,7 @@ https://github.com/AdamsLair/duality
 https://github.com/Alzter/TuxBuilder
 https://github.com/amerkoleci/Vortice.Windows
 https://github.com/ao-libre/ao-cliente
+https://github.com/arturkot/the-house-game
 https://github.com/AtomicGameEngine/AtomicGameEngine
 https://github.com/atphalix/nexuiz
 https://github.com/azhirnov/FrameGraph
@@ -245,6 +248,7 @@ https://github.com/kimkulling/osre
 https://github.com/klaussilveira/ioquake3.js
 https://github.com/Kosmonaut3d/DeferredEngine
 https://github.com/LgLinus/StrategyGame
+https://github.com/libretro/libretro-chailove
 https://github.com/libretro/libretro-prboom
 https://github.com/ligurio/awesome-ttygames
 https://github.com/MarcoLizza/tofu-engine
@@ -305,6 +309,8 @@ https://github.com/Tinob/Ishiiruka (https://github.com/shiiion/Ishiiruka, https:
 https://github.com/tizian/Cendric2
 https://github.com/TomBebb/awe
 https://github.com/topics/top-down-shooter
+https://github.com/untakenstupidnick/nbsdgames (Blockout II)
+https://github.com/untakenstupidnick/nbsdgames (Cross-platform ncurses/pdcurses based games under active development)
 https://github.com/Venom0us/Emberpoint
 https://github.com/videogamepreservation
 https://github.com/vocollapse/Blockinger
@@ -334,6 +340,7 @@ https://libregamewiki.org/CameliaGirls
 https://libregamewiki.org/Childish_Cannoneer
 https://libregamewiki.org/index.php?title=Libregamewiki_talk:Community_Portal&oldid=25410#Some_long_term_ideas
 https://libregamewiki.org/Libregamewiki:Suggested_games#Likely_sources_for_more_free_games
+https://lmemsm.dreamwidth.org/8013.html (List of some of my favorite Open Source games)
 https://love2d.org/forums/viewforum.php?f=14 (check them if time)
 https://odr.chalmers.se/handle/20.500.12380/219006
 https://osdn.net/softwaremap/trove_list.php?form_cat=80
@@ -365,6 +372,7 @@ https://salsa.debian.org/games-team/etw
 https://scorched-moon.github.io/site/
 https://scratch.mit.edu/ (https://en.scratch-wiki.info/wiki/Scratch_Source_Code)
 https://senseis.xmp.net/?GNUGo
+https://sites.google.com/site/syllablesoftware/games (List of games (with screenshots) that have been ported to Syllable OS)
 https://sourceforge.net/directory/games/games/os:windows/
 https://sourceforge.net/projects/dices/
 https://sourceforge.net/projects/dsa-hl.berlios/
@@ -438,4 +446,5 @@ https://www.seul.org/~grumbel/tmp/clanlib/games.html
 https://www.tapatalk.com/groups/imperilist/
 https://www.tuxfamily.org/ (if there are games)
 https://www.wurfelengine.net/
+https://zdoom.org/downloads (gzdoom, lzdoom)
 https://zope.readthedocs.io/en/latest/

@@ -95,6 +95,7 @@ def compare_sets(a, b, name, limit=None):
 
 if __name__ == "__main__":
 
+    # some parameter
     similarity_threshold = 0.8
     maximal_newly_created_entries = 40
 
@@ -105,7 +106,7 @@ if __name__ == "__main__":
     osgc_path = os.path.realpath(os.path.join(root_path, os.path.pardir, '11_osgameclones.git', 'games'))
     files = os.listdir(osgc_path)
 
-    # iterate over all yaml files in osgameclones/data folder
+    # iterate over all yaml files in osgameclones/data folder and load contents
     osgc_entries = []
     for file in files:
         # read yaml
@@ -120,6 +121,7 @@ if __name__ == "__main__":
         osgc_entries.extend(_)
     print('Currently {} entries in osgameclones'.format(len(osgc_entries)))
 
+    # check: print all git repos with untypical structure
     for osgc_entry in osgc_entries:
         name = osgc_entry['name']
         if 'repo' in osgc_entry:
@@ -140,10 +142,10 @@ if __name__ == "__main__":
     for field in osgc_fields:
         if field in ('video', 'feed', 'url', 'repo', 'info', 'updated', 'images', 'name', 'originals'):
             continue
-        content = [entry[field] for entry in osgc_entries if field in entry]
+        osgc_content = [entry[field] for entry in osgc_entries if field in entry]
         # flatten
         flat_content = []
-        for c in content:
+        for c in osgc_content:
             if isinstance(c, list):
                 flat_content.extend(c)
             else:
@@ -172,6 +174,13 @@ if __name__ == "__main__":
             osgc_licenses = entry['license']
             osgc_licenses = [osgc_licenses_map.get(x, x) for x in osgc_licenses]
             entry['license'] = osgc_licenses
+        # fix content (add suffix content
+        if 'content' in entry:
+            osgc_content = entry['content']
+            if isinstance(osgc_content, str):
+                osgc_content = [osgc_content]
+            osgc_content = [x + ' content' for x in osgc_content]
+            entry['content'] = osgc_content
         osgc_entries[index] = entry # TODO is this necessary or is the entry modified anyway?
 
     # which fields do they have
@@ -245,15 +254,18 @@ if __name__ == "__main__":
                     osgc_licenses = osgc_entry['license']
                     our_code_licenses = our_entry['code license'] # essential field
                     our_assets_licenses = our_entry.get('assets license', [])
-                    p += compare_sets(osgc_licenses, our_code_licenses + our_assets_licenses, 'licenses')
+                    p += compare_sets(osgc_licenses, our_code_licenses + our_assets_licenses, 'licenses', 'notthem')
+                    p += compare_sets(osgc_licenses, our_code_licenses, 'licenses', 'notus')
 
                 # compare their framework with our code dependencies (capitalization is ignored for now, only starts are compared)
+                our_framework_replacements = {'allegro4': 'allegro'}
                 if 'framework' in osgc_entry:
                     osgc_frameworks = osgc_entry['framework']
                     if type(osgc_frameworks) == str:
                         osgc_frameworks = [osgc_frameworks]
                     our_frameworks = our_entry.get('code dependencies', [])
                     our_frameworks = [x.casefold() for x in our_frameworks]
+                    our_frameworks = [x if x not in our_framework_replacements else our_framework_replacements[x] for x in our_frameworks]
                     osgc_frameworks = [x.casefold() for x in osgc_frameworks]
                     p += compare_sets(osgc_frameworks, our_frameworks, 'framework/dependencies')
 
@@ -263,10 +275,16 @@ if __name__ == "__main__":
                     if type(osgc_repos) == str:
                         osgc_repos = [osgc_repos]
                     osgc_repos = [utils.strip_url(url) for url in osgc_repos]
+                    osgc_repos = [x for x in osgc_repos if not x.startswith('sourceforge.net/projects/')] # we don't need the general sites there
                     # osgc_repos = [x for x in osgc_repos if not x.startswith('https://sourceforge.net/projects/')] # ignore some
-                    our_repos = our_entry.get('code repository', []) + our_entry.get('download', [])
+                    our_repos = our_entry.get('code repository', [])
                     our_repos = [utils.strip_url(url) for url in our_repos]
-                    p += compare_sets(osgc_repos, our_repos, 'repo')
+                    our_repos = [x for x in our_repos if not x.startswith('gitlab.com/osgames/')] # we do not yet spread our own deeds (but we will some day)
+                    our_repos = [x for x in our_repos if not 'cvs.sourceforge.net' in x and not 'svn.code.sf.net/p/' in x]  # no cvs or svn anymore
+                    our_downloads = our_entry.get('download', [])
+                    our_downloads = [utils.strip_url(url) for url in our_downloads]
+                    p += compare_sets(osgc_repos, our_repos + our_downloads, 'repo', 'notthem') # if their repos are not in our downloads or repos
+                    p += compare_sets(osgc_repos, our_repos[:1], 'repo', 'notus') # if our main repo is not in their repo
 
                 # compare their url (and feed) to our home (and strip urls)
                 if 'url' in osgc_entry:
@@ -276,7 +294,9 @@ if __name__ == "__main__":
                     osgc_urls = [utils.strip_url(url) for url in osgc_urls]
                     our_urls = our_entry['home']
                     our_urls = [utils.strip_url(url) for url in our_urls]
-                    p += compare_sets(osgc_urls, our_urls, 'url/home')
+                    our_urls = [url for url in our_urls if not url.startswith('github.com/')] # they don't have them as url
+                    p += compare_sets(osgc_urls, our_urls, 'url/home', 'notthem') # if their urls are not in our urls
+                    p += compare_sets(osgc_urls, our_urls[:1], 'url/home', 'notus') # if our first url is not in their urls
 
                 # compare their status with our state (playable can be beta/mature with us, but not playable must be beta)
                 if 'status' in osgc_entry:
@@ -326,10 +346,10 @@ if __name__ == "__main__":
 
                 # compare content with keywords
                 if 'content' in osgc_entry:
-                    content = osgc_entry['content']
-                    if isinstance(content, str):
-                        content = [content]
-                    p += compare_sets(content, our_keywords, 'content/keywords', 'notthem') # only to us because we have more then them
+                    osgc_content = osgc_entry['content']
+                    if isinstance(osgc_content, str):
+                        osgc_content = [osgc_content]
+                    p += compare_sets(osgc_content, our_keywords, 'content/keywords', 'notthem') # only to us because we have more then them
 
                 # compare their type to our keywords
                 if 'type' in osgc_entry:
@@ -410,8 +430,8 @@ if __name__ == "__main__":
                     osgc_multiplayer = [osgc_multiplayer]
                 keywords.append('multiplayer {}'.format(' + '.join(osgc_multiplayer)))
             if 'content' in osgc_entry:
-                content = osgc_entry['content']
-                keywords.append('{} content'.format(content))
+                osgc_content = osgc_entry['content']
+                keywords.append('{} content'.format(osgc_content))
             if keywords:
                 entry += '- Keywords: {}\n'.format(', '.join(keywords))
 

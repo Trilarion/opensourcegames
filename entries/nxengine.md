@@ -2,7 +2,7 @@
 
 _Remake of Cave Story._
 
-- Home: http://nxengine.sourceforge.net/, https://exlmoto.ru/nxengine/
+- Home: http://nxengine.sourceforge.net/, https://sourceforge.net/projects/nxengine/, https://exlmoto.ru/nxengine/
 - Media: https://en.wikipedia.org/wiki/Cave_Story#Legacy
 - State: mature
 - Download: https://github.com/EXL/NXEngine/releases

@@ -6,7 +6,7 @@ _Karaoke game._
 - State: mature
 - Download: https://usdx.eu/downloads/
 - Platform: Windows, Linux, macOS
-- Keywords: music, inspired by Singstar, karaoke, remake
+- Keywords: music, inspired by SingStar, karaoke, remake
 - Code repository: https://github.com/UltraStar-Deluxe/USDX.git, https://github.com/UltraStar-Deluxe/legacy-sourceforge-svn-mirror.git (+), https://svn.code.sf.net/p/ultrastardx/svn/trunk (svn)
 - Code language: Pascal
 - Code license: GPL-2.0

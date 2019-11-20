@@ -4,7 +4,7 @@ _Remake of Achtung, die Kurve!._
 
 - Home: https://pwmarcz.pl/netacka/
 - State: mature
-- Keywords: remake, die Kurve!, inspired by Achtung, skill
+- Keywords: remake, inspired by Achtung die Kurve!, skill
 - Code repository: https://github.com/pwmarcz/netacka.git
 - Code language: C
 - Code license: MIT

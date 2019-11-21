@@ -6,7 +6,7 @@ _Engine for Heroes III, giving it new and extended possibilities._
 - State: mature
 - Download: (see home)
 - Keywords: strategy, commercial content, inspired by Heroes of Might and Magic III, remake, requires original content
-- Code repository: https://github.com/vcmi/vcmi.git, https://sourceforge.net/p/vcmi/code/HEAD/tree/ (svn)
+- Code repository: https://github.com/vcmi/vcmi.git, https://svn.code.sf.net/p/vcmi/code (svn)
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: SDL

@@ -10,7 +10,7 @@ _4X strategy game in space_
 - Code repository: https://github.com/subchannel13/Stareater.git
 - Code language: C#
 - Code license: GPL-3.0
-- Code dependencies: Mono
+- Code dependencies: MonoGame
 
 ## Building
 

@@ -10,7 +10,7 @@ _Educational software suite comprising of numerous activities for children aged 
 - Code repository: https://gitlab.gnome.org/GNOME/gcompris.git
 - Code language: C, Python
 - Code license: GPL-3.0
-- Code dependencies: Gtk
+- Code dependencies: GTK
 - Assets license: CC-BY-SA, GPL-3.0
 
 Partly commercial.

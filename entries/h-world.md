@@ -6,7 +6,7 @@ _CRPG engine is a tile-based, turn-based, Lua scriptable engine that supports a 
 - State: beta, inactive since 2005
 - Download: https://sourceforge.net/projects/h-world/files/
 - Keywords: framework
-- Code repository: https://gitlab.com/osgames/h-world.git (backup of cvs), https://sourceforge.net/p/h-world/code (cvs)
+- Code repository: https://gitlab.com/osgames/h-world.git (backup of cvs), https://h-world.cvs.sourceforge.net (cvs)
 - Code language: C, Lua
 - Code license: GPL-2.0
 

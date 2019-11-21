@@ -8,6 +8,6 @@ _Remake of Sensitive._
 - Code repository: (see download at home)
 - Code language: Lua
 - Code license: GPL-3.0
-- Code dependencies: LOVE
+- Code dependencies: LÖVE
 
 ## Building

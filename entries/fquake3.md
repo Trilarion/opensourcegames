@@ -8,6 +8,6 @@ _Remake of Quake 3._
 - Code repository: https://github.com/TIHan/FQuake3.git
 - Code language: F#
 - Code license: GPL-2.0
-- Code dependencies: Mono
+- Code dependencies: MonoGame
 
 ## Building

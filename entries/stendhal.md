@@ -2,7 +2,7 @@
 
 _Multiplayer online adventure game with an old school feel._
 
-- Home: https://stendhalgame.org/, https://sourceforge.net/p/arianne/
+- Home: https://stendhalgame.org/, https://sourceforge.net/projects/arianne/
 - State: mature
 - Download: (see home)
 - Keywords: role playing, multiplayer, online

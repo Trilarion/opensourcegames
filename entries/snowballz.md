@@ -8,7 +8,7 @@ _Real time strategy game._
 - Code repository: (see debian) http://snowballz.cvs.sourceforge.net (cvs)
 - Code language: Python
 - Code license: GPL
-- Code dependencies: pygame, PyGlet, Rabbyt
+- Code dependencies: pygame, pyglet, Rabbyt
 - Assets license: GPL
 
 Developer: Joey Marshall

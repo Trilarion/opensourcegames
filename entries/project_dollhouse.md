@@ -9,6 +9,6 @@ _Remake of The Sims Online._
 - Code repository: https://github.com/Afr0Games/Project-Dollhouse.git
 - Code language: C#
 - Code license: MPL-2.0
-- Code dependencies: Monogame
+- Code dependencies: MonoGame
 
 ## Building

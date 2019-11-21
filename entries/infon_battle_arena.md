@@ -5,7 +5,7 @@ _Real-time multiplayer programming game. You control your creatures using the Lu
 - Home: http://infon.dividuum.de/, https://code.google.com/archive/p/infon/
 - State: beta, inactive since 2012
 - Platform: Windows, Linux
-- Keywords: strategy, life simulation, open content, programming, real time
+- Keywords: simulation, evolution, open content, programming, real time, strategy
 - Code repository: https://github.com/dividuum/infon.git, https://bitbucket.org/dividuum/infon.git (+)
 - Code language: C, Lua
 - Code license: GPL

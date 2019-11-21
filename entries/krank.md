@@ -7,7 +7,7 @@ _Game of dexterity._
 - Download: https://sourceforge.net/projects/krank/files/
 - Platform: Windows, Linux, macOS
 - Keywords: role playing, dexterity, open content, skill
-- Code repository: https://svn.code.sf.net/p/krank/code/trunk (svn), http://krank.cvs.sourceforge.net:/cvsroot/krank (cvs)
+- Code repository: https://svn.code.sf.net/p/krank/code (svn), http://krank.cvs.sourceforge.net (cvs)
 - Code language: Python
 - Code license: Public domain
 - Code dependencies: pygame

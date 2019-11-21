@@ -4,7 +4,7 @@ _FPS project whose initial goal is to serve as a Free data package for engines b
 
 - Home: https://github.com/CireG/Zauberer/, https://www.doomworld.com/vb/freedoom/72519-zauberer/
 - State: beta, inactive since 2018
-- Keywords: action, first person, open content, requires engine (Hexen), shooter
+- Keywords: action, first-person, open content, requires original engine (Hexen), shooter
 - Code repository: https://github.com/CireG/Zauberer.git
 - Code language: None
 - Code license: ISC

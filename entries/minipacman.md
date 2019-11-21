@@ -6,7 +6,7 @@ _Ascii character version of Pacman that plays in a commandline terminal._
 - State: mature
 - Download: https://github.com/fastrgv/MiniPacman/releases
 - Platform: Windows, Linux, macOS
-- Keywords: arcade, inspired by Pacman, open content, text-only
+- Keywords: arcade, inspired by Pacman, open content, text-based
 - Code repository: (see download)
 - Code language: Ada
 - Code license: GPL-3.0

@@ -7,7 +7,7 @@ _Combat Simulator Project aka CSP is an aerial combat simulator._
 - Download: https://sourceforge.net/projects/csp/files/
 - Platform: Windows
 - Keywords: simulation, flight
-- Code repository: https://git.code.sf.net/p/csp/git, https://svn.code.sf.net/p/csp/svn/trunk (svn)
+- Code repository: https://git.code.sf.net/p/csp/git, https://svn.code.sf.net/p/csp/svn (svn)
 - Code language: C++
 - Code license: GPL-2.0
 

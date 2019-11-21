@@ -8,7 +8,7 @@ _Chess game on 3 boards._
 - Code repository: (see home)
 - Code language: C
 - Code license: GPL-2.0
-- Code dependencies: libdx, Xaw3d, Xpm lib
+- Code dependencies: libx, libxpm, xaw3dg
 - Assets license: GPL-2.0
 
 Developer: Paul Hicks, Bernard Kennedy

@@ -8,7 +8,7 @@ _Remake of Tetris Attack._
 - Code repository: https://github.com/sharpobject/panel-attack.git
 - Code language: Lua
 - Code license: zlib
-- Code dependencies: LOVE
+- Code dependencies: LÖVE
 
 
 ## Building

@@ -8,7 +8,7 @@ _A turn-based strategy engine heavily inspired by Panzer General._
 - Download: (see home)
 - Platform: Android
 - Keywords: strategy, inspired by Panzer General, remake, turn-based
-- Code repository: https://github.com/AndO3131/lgeneral.git (mirror), https://sourceforge.net/p/lgeneral/code/HEAD/tree/ (svn), https://sourceforge.net/p/lgeneral/cvs/ (cvs)
+- Code repository: https://github.com/AndO3131/lgeneral.git (mirror), https://svn.code.sf.net/p/lgeneral/code (svn), https://lgeneral.cvs.sourceforge.net (cvs)
 - Code language: C
 - Code license: GPL-2.0
 

@@ -6,7 +6,7 @@ _Remake of What the Box._
 - State: beta, inactive since 2017
 - Download: https://github.com/SteveSmith16384/KillerCrates/releases
 - Platform: Windows, Linux
-- Keywords: arcade, first person, inspired by What the Box, multiplayer, shooter
+- Keywords: arcade, first-person, inspired by What the Box, multiplayer, shooter
 - Code repository: https://github.com/SteveSmith16384/KillerCrates.git
 - Code language: Java
 - Code license: MIT

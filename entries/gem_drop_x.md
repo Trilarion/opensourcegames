@@ -10,7 +10,7 @@ _Fast puzzle game. Placing gems in vertical lines destroys them and ultimately l
 - Code repository: (see download)
 - Code language: C
 - Code license: GPL-2.0
-- Code dependencies: SDL, SDL_image, SDL_mixer
+- Code dependencies: SDL
 
 Developer: Bill Kendrick (New Breed Software)
 

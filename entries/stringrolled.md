@@ -4,7 +4,7 @@ _Aka Upsilon Cat is a puzzle platformer._
 
 - Home: https://pyweek.org/e/Rambo/
 - State: beta, inactive since 2008
-- Keywords: puzzle, open content, platformer
+- Keywords: platform, open content, puzzle
 - Code repository: (see home)
 - Code language: Python
 - Code license: Public domain

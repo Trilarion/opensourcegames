@@ -9,7 +9,7 @@ _Remake of SimCity 2000._
 - Code repository: https://github.com/rage8885/OpenSC2K.git
 - Code language: JavaScript
 - Code license: GPL-3.0
-- Code dependencies: phaser, WebGL
+- Code dependencies: Phaser, WebGL
 
 Git history was removed in 2019. Copyright problems mentioned.
 

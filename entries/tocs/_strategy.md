@@ -208,7 +208,7 @@
 - **[Star Ruler 2](../star_ruler_2.md)** (C, C++, MIT, mature)
 - **[Stareater](../stareater.md)** (C#, GPL-3.0, beta)
 - **[Stars! Nova](../stars_nova.md)** (C#, GPL-2.0, beta)
-- **[Supremacy](../supremacy.md)** (C#, Ms-RL, beta, inactive since 2014)
+- **[Supremacy](../supremacy.md)** (C#, MS-RL, beta, inactive since 2014)
 - **[Syndicate Wars Port](../syndicate_wars_port.md)** (C, GPL-3.0, beta, inactive since 2010)
 - **[T-Bots](../t-bots.md)** (C, GPL-2.0, beta, inactive since 2004)
 - **[Tactics Squad](../tactics_squad.md)** (C++, GPL-2.0, beta, inactive since 2007)

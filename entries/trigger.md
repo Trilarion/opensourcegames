@@ -6,7 +6,7 @@ _3D car racing game._
 - State: beta
 - Download: https://sourceforge.net/projects/trigger-rally/files/
 - Platform: Windows, Linux
-- Keywords: card game, cars, racing
+- Keywords: action, cars, racing
 - Code repository: https://svn.code.sf.net/p/trigger-rally/code/ (svn active)
 - Code language: C++
 - Code license: BSD, GPL

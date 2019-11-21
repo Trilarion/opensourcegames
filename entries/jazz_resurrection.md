@@ -9,6 +9,6 @@ _Remake of Jazz Jackrabbit 2._
 - Code repository: https://github.com/deathkiller/jazz2.git
 - Code language: C#, JavaScript
 - Code license: GPL-3.0
-- Code dependencies: libopenmpt, Mono, OpenAL
+- Code dependencies: libopenmpt, MonoGame, OpenAL
 
 ## Building

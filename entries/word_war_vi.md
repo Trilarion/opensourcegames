@@ -6,7 +6,7 @@ _Similar of Defender._
 - State: mature
 - Download: http://smcameron.github.io/wordwarvi/#downloads
 - Platform: Linux, macOS
-- Keywords: action, 2D, inspired by Defender, open content, shooter, side scrolling, similar
+- Keywords: action, 2D, inspired by Defender, open content, shooter, side-scrolling, similar
 - Code repository: https://github.com/smcameron/wordwarvi.git
 - Code language: C
 - Code license: GPL-2.0

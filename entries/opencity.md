@@ -7,7 +7,7 @@ _Another 3D city simulator._
 - State: beta, inactive since 2015
 - Download: http://www.opencity.info/en/Download.html
 - Keywords: simulation, clone, inspired by Simcity
-- Code repository: https://gitlab.com/osgames/opencity.git (combination of cvs and svn), https://svn.code.sf.net/p/opencity/code/ (svn), https://sourceforge.net/p/opencity/cvs/ (cvs)
+- Code repository: https://gitlab.com/osgames/opencity.git (combination of cvs and svn), https://svn.code.sf.net/p/opencity/code/ (svn), https://opencity.cvs.sourceforge.net (cvs)
 - Code language: C++
 - Code license: GPL-2.0
 

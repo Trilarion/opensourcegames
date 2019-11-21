@@ -7,7 +7,7 @@ _Sudoku game._
 - Download: https://sourceforge.net/projects/sudokuki/files/
 - Platform: Windows, Linux
 - Keywords: puzzle, open content
-- Code repository: https://git.code.sf.net/p/sudokuki/code, https://svn.code.sf.net/p/sudokuki/svn/trunk (svn)
+- Code repository: https://git.code.sf.net/p/sudokuki/code, https://svn.code.sf.net/p/sudokuki/svn (svn)
 - Code language: C, Java
 - Code license: GPL-3.0
 - Assets license: GPL-3.0

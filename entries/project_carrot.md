@@ -9,6 +9,6 @@ _Remake of Jazz Jackrabbit 2._
 - Code repository: https://github.com/soulweaver91/project-carrot.git
 - Code language: C++
 - Code license: MIT
-- Code dependencies: Qt5, SFML
+- Code dependencies: Qt, SFML
 
 ## Building

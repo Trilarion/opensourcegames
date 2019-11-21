@@ -7,7 +7,7 @@ _Falling block puzzle game._
 - Download: http://www.openalchemist.com/downloads.php, https://sourceforge.net/projects/openalchemist/files/
 - Platform: Windows, Linux
 - Keywords: puzzle, inspired by NaturalChimie, open content
-- Code repository: https://svn.code.sf.net/p/openalchemist/code/trunk (svn)
+- Code repository: https://svn.code.sf.net/p/openalchemist/code (svn)
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: ClanLib

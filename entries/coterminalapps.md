@@ -6,7 +6,7 @@ _Fun puzzle games that run on any terminal._
 - State: mature
 - Download: https://github.com/fastrgv/CoTerminalApps/releases
 - Platform: Windows, Linux, macOS
-- Keywords: puzzle, open content, text-only
+- Keywords: puzzle, open content, text-based
 - Code repository: (see download)
 - Code language: Ada
 - Code license: GPL-3.0

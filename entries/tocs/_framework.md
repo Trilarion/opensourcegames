@@ -38,7 +38,7 @@
 - **[Maratis](../maratis.md)** (C++, GPL-2.0, beta)
 - **[Minetest](../minetest.md)** (C, C++, Lua, LGPL-2.1, mature)
 - **[mkxp](../mkxp.md)** (C++, C, GPL-2.0, mature)
-- **[MonoGame](../monogame.md)** (C#, Ms-PL, MIT, mature)
+- **[MonoGame](../monogame.md)** (C#, MS-PL, MIT, mature)
 - **[Nazara Engine](../nazara_engine.md)** (C, C++, MIT, beta)
 - **[O.H.R.RPG.C.E.](../ohrrpgce.md)** (Basic, GPL-2.0, mature)
 - **[Octaforge](../octaforge.md)** (C++, Custom, mature)

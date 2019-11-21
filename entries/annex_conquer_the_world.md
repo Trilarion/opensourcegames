@@ -6,7 +6,7 @@ _Fast paced combat with a diverse arsenal._
 - State: mature, inactive since 2014
 - Download: http://annexconquer.com/downloads/
 - Platform: Windows, Linux
-- Keywords: strategy, open content, real-time
+- Keywords: strategy, open content, real time
 - Code repository: https://bitbucket.org/annexctw/annex.git
 - Code language: MegaGlest Script (?)
 - Code license: GPL-3.0

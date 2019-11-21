@@ -6,7 +6,7 @@ _German card game Skat and variations thereof._
 - State: beta
 - Download: https://github.com/b0n541/jskat-multimodule/releases, https://sourceforge.net/projects/jskat/files/
 - Platform: Windows, Linux
-- Keywords: role playing, card, open content
+- Keywords: role playing, cards, open content
 - Code repository: https://github.com/b0n541/jskat-multimodule.git
 - Code language: Java
 - Code license: GPL-3.0 (GUI), Apache-2.0 (base)

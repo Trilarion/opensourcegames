@@ -494,6 +494,7 @@
   "https://github.com/cthielen/Epiar.git",
   "https://github.com/cubei/FlappyCow.git",
   "https://github.com/cubosphere/cubosphere-code.git",
+  "https://github.com/cubosphere/cubosphere-data.git",
   "https://github.com/cxong/FallingTime.git",
   "https://github.com/cxong/cdogs-sdl.git",
   "https://github.com/cyberegoorg/cetech.git",
@@ -1178,7 +1179,7 @@
   "https://src.fedoraproject.org/rpms/blobwars.git"
  ],
  "svn": [
-  "http://svn.uktrainsim.com/svn/openrails/trunk",
+  "http://svn.uktrainsim.com/svn/openrails",
   "https://svn.code.sf.net/p/balder/code/",
   "https://svn.code.sf.net/p/blobby/code/",
   "https://svn.code.sf.net/p/bombic2/code/",
@@ -1254,6 +1255,6 @@
   "https://code.launchpad.net/heroesofwesnoth",
   "https://code.launchpad.net/openhomm",
   "https://code.launchpad.net/~dnax88/gweled/trunk",
-  "https://code.launchpad.net/~silwol/freenukum/trunk"
+  "https://code.launchpad.net/~silwol/freenukum"
  ]
 }

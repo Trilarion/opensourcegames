@@ -5,7 +5,7 @@ _Blasphemer is an FPS project whose initial goal is to serve as a Free data pack
 - Home: https://www.doomworld.com/vb/freedoom/70732-blasphemer-discussion/, https://code.google.com/p/blasphemer/
 - Media: http://www.indiedb.com/games/blasphemer
 - State: mature, inactive since 2017
-- Keywords: action, first person, open content, shooter
+- Keywords: action, first-person, open content, shooter
 - Code repository: https://github.com/Blasphemer/blasphemer.git
 - Code language: None (only assets)
 - Code license: None (only assets)

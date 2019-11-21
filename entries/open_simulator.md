@@ -9,7 +9,7 @@ _Server side implementation of an open virtual 3D world in which users can creat
 - Code repository: git://opensimulator.org/git/opensim
 - Code language: C#
 - Code license: ? (BSD)
-- Code dependencies: Mono
+- Code dependencies: MonoGame
 - Assets license: ? (BSD)
 
 It was founded in 2007 as an open source alternative to Second Life and is compatible to Second Life clients.

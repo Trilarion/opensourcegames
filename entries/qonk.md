@@ -6,7 +6,7 @@ _Simple real-time space conquering game._
 - State: beta, inactive since 2008
 - Download: https://sourceforge.net/projects/qonk/files/
 - Keywords: strategy, real time
-- Code repository: https://svn.code.sf.net/p/qonk/code/trunk (svn)
+- Code repository: https://svn.code.sf.net/p/qonk/code (svn)
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: SDL

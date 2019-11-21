@@ -6,7 +6,7 @@ _Remake of Doom, Doom II, Heretic, Hexen._
 - State: mature
 - Download: https://zdoom.org/downloads
 - Platform: Windows, Linux, macOS
-- Keywords: action, first-person, inspired by Doom + Doom II + Heretic + Hexen, non-free content, remake, requires content, shooter
+- Keywords: action, first-person, inspired by Doom + Doom II + Heretic + Hexen, non-free content, remake, requires original content, shooter
 - Code repository: https://github.com/coelckers/gzdoom.git
 - Code language: C, C++
 - Code license: GPL-3.0

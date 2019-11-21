@@ -7,7 +7,7 @@ _2D jigsaw puzzle game._
 - Keywords: puzzle, jigsaw, open content
 - Code repository: (see debian)
 - Code language: C
-- Code license: Attribution, no warranty
+- Code license: Custom (attribution, no warranty)
 - Assets license: demo image in Debian: license free
 
 Written in 1996

@@ -7,7 +7,7 @@ _Side-scrolling arcade shooter game._
 - Download: http://funnyboat.sourceforge.net/download.php, https://sourceforge.net/projects/funnyboat/files/
 - Platform: Windows, Linux
 - Keywords: arcade, open content, shooter, side-scrolling
-- Code repository: https://svn.code.sf.net/p/funnyboat/code/trunk (svn)
+- Code repository: https://svn.code.sf.net/p/funnyboat/code (svn)
 - Code language: Python
 - Code license: GPL-2.0
 - Code dependencies: PixelPerfect

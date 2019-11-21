@@ -6,7 +6,7 @@ _Collection of patience games._
 - State: mature
 - Download: https://github.com/GNOME/aisleriot/releases
 - Platform: Linux
-- Keywords: arcade, card, open content
+- Keywords: arcade, cards, open content
 - Code repository: https://github.com/GNOME/aisleriot.git
 - Code language: C, Scheme
 - Code license: GPL-3.0

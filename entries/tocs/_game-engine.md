@@ -40,6 +40,7 @@
 - **[GNU Go](../gnu_go.md)** (C, GPL-3.0, mature, inactive since 2011)
 - **[Grail](../grail.md)** (C++, Lua, GPL-3.0, beta, inactive since 2013)
 - **[Grit Game Engine](../grit_game_engine.md)** (C++, Python, MIT, beta)
+- **[Haxima](../haxima.md)** (C++, GPL-3.0, beta)
 - **[Hypatia](../hypatia.md)** (Python, MIT, beta, inactive since 2016)
 - **[ika](../ika.md)** (C++, Python, PHP, C#, GPL-2.0, beta, inactive since 2007)
 - **[INSTEAD](../instead.md)** (C, Lua, MIT, mature)

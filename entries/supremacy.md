@@ -8,7 +8,7 @@ _"4X" (eXplore, eXpand, eXploit, eXterminate) turn-based, empire-building strate
 - Keywords: strategy
 - Code repository: https://bitbucket.org/mstrobel/supremacy/src (hg)
 - Code language: C#
-- Code license: Ms-RL
+- Code license: MS-RL
 - Assets license: CC-BY-SA-2.0
 
 Ms-RL = Microsoft Reciprocal License

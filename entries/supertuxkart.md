@@ -6,7 +6,7 @@ _Kart racing game._
 - State: mature
 - Download: https://supertuxkart.net/Download
 - Keywords: action, clone, inspired by Mario Kart, racing
-- Code repository: https://github.com/supertuxkart/stk-code.git, https://sourceforge.net/p/supertuxkart/code/HEAD/tree/ (svn)
+- Code repository: https://github.com/supertuxkart/stk-code.git, https://svn.code.sf.net/p/supertuxkart/code (svn)
 - Code language: C++, C
 - Code license: GPL-3.0
 

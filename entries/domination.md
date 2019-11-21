@@ -6,7 +6,7 @@ _Is a bit like the well known board game of Risk or RisiKo._
 - State: mature
 - Download: http://domination.sourceforge.net/download.shtml, https://sourceforge.net/projects/domination/files/
 - Platform: Windows, Linux, macOS, Android
-- Keywords: strategy, board game, risklike
+- Keywords: strategy, board, risklike
 - Code repository: https://svn.code.sf.net/p/domination/code/ (svn active)
 - Code language: Java
 - Code license: GPL-3.0

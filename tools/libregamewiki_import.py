@@ -71,7 +71,6 @@ def parse_lgw_content():
     files = os.listdir(import_path)
     entries = []
     for file in files:
-        file = files[56]
         if file.startswith('_lgw'):
             continue
 
@@ -294,14 +293,31 @@ def clean_lgw_content():
         mandatory_fields -= set(remove_fields)
     print('mandatory lgw fields: {}'.format(sorted(list(mandatory_fields))))
 
+    # statistics before
+    print('field contents before')
+    fields = sorted(list(unique_fields - set(('description', 'external links', 'dev home', 'forum', 'home', 'linux-packages', 'developer', 'chat', 'tracker', 'Latest release', 'name', 'repo', 'Release date', 'categories'))))
+    for field in fields:
+        content = [entry[field] for entry in entries if field in entry]
+        # flatten
+        flat_content = []
+        for c in content:
+            if isinstance(c, list):
+                flat_content.extend(c)
+            else:
+                flat_content.append(c)
+        statistics = utils.unique_elements_and_occurrences(flat_content)
+        print('{}: {}'.format(field, ', '.join(statistics)))
+
     # content replacements
     entries = remove_parenthized_content(entries, ('assets license', 'code language', 'code license', 'engine', 'genre', 'last active', 'library'))
     entries = remove_prefix_suffix(entries, ('code license', 'assets license'), ('"', 'GNU', ), ('"', '[3]', '[2]', '[1]', 'only'))
     entries = replace_content(entries, ('code license', 'assets license'), 'GPL', ('General Public License', ))
-    entries = replace_content(entries, ('code license', 'assets license'), 'GPLv2', ('GPL v2', 'GPL version 2.0', 'GPL 2.0', 'General Public License v2', 'GPL version 2', 'Gplv2', 'GPL 2'))
-    entries = replace_content(entries, ('code license', 'assets license'), 'GPLv2+', ('GPL v2 or later', 'GPL 2+', 'GPL v2+', 'GPL version 2 or later'))
-    entries = replace_content(entries, ('code license', 'assets license'), 'GPLv3', ('GPL v3', 'GNU GPL v3', 'GPL 3'))
-    entries = replace_content(entries, ('code license', 'assets license'), 'GPLv3+', ('GPL v3+', 'GPL v.3 or later', 'GPL v3 or later'))
+    entries = replace_content(entries, ('code license', 'assets license'), 'GPL-2.0', ('GPLv2', )) # for LGW GPLv2 would be the correct writing
+    entries = replace_content(entries, ('code license', 'assets license'), 'GPL-2', ('GPLv2', 'GPL v2', 'GPL version 2.0', 'GPL 2.0', 'General Public License v2', 'GPL version 2', 'Gplv2', 'GPL 2'))
+    entries = replace_content(entries, ('code license', 'assets license'), 'GPL-2', ('GPL v2 or later', 'GPL 2+', 'GPL v2+', 'GPL version 2 or later'))
+    entries = replace_content(entries, ('code license', 'assets license'), 'GPL-3.0', ('GPLv3', )) # for LGW GPLv3 would be the correct writing
+    entries = replace_content(entries, ('code license', 'assets license'), 'GPL-3', ('GPL v3', 'GNU GPL v3', 'GPL 3'))
+    entries = replace_content(entries, ('code license', 'assets license'), 'GPL-3', ('GPL v3+', 'GPL v.3 or later', 'GPL v3 or later'))
     entries = replace_content(entries, ('code license', 'assets license'), 'Public domain', ('public domain', 'Public Domain'))
     entries = replace_content(entries, ('code license', 'assets license'), 'zlib', ('zlib/libpng license', 'Zlib License'))
     entries = replace_content(entries, ('code license', 'assets license'), 'BSD', ('Original BSD License', ))
@@ -329,7 +345,7 @@ def clean_lgw_content():
 
 
     # list for every unique field
-    # fields = sorted(list(unique_fields))
+    print('\nfield contents after')
     fields = sorted(list(unique_fields - set(('description', 'external links', 'dev home', 'forum', 'home', 'linux-packages', 'developer', 'chat', 'tracker', 'Latest release', 'name', 'repo', 'Release date', 'categories'))))
     for field in fields:
         content = [entry[field] for entry in entries if field in entry]
@@ -341,7 +357,7 @@ def clean_lgw_content():
             else:
                 flat_content.append(c)
         statistics = utils.unique_elements_and_occurrences(flat_content)
-        print('\n{}: {}'.format(field, ', '.join(statistics)))
+        print('{}: {}'.format(field, ', '.join(statistics)))
 
     # save entries
     text = json.dumps(entries, indent=1)
@@ -354,7 +370,7 @@ if __name__ == "__main__":
     # download_lgw_content()
 
     # stage two
-    parse_lgw_content()
+    # parse_lgw_content()
 
     # stage three
-    # clean_lgw_content()
+    clean_lgw_content()

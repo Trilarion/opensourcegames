@@ -9,7 +9,7 @@ _Mostly classical minesweeper puzzle game from the KDEGames division of the KDE 
 - Code repository: https://anongit.kde.org/kmines.git
 - Code language: C++
 - Code license: GPL-2.0
-- Code dependencies: KDE, Qt
+- Code dependencies: KDE libraries, Qt
 - Assets license: GPL, GFDL
 
 Developer: Nicolas Hadacek, Mikhail Kourinny, Mauricio Piacentini, Dmitry Suzdalev; Mike McBride (documentation update for KDE 2.0); Philip Rodrigues (some changes for KDE 3.2)

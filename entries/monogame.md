@@ -9,7 +9,7 @@ _Open Source implementation of the Microsoft XNA 4 Framework._
 - Keywords: framework
 - Code repository: https://github.com/MonoGame/MonoGame.git
 - Code language: C#
-- Code license: Ms-PL, MIT
+- Code license: MS-PL, MIT
 
 ## Building
 

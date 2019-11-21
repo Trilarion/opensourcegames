@@ -6,7 +6,7 @@ _Multiplayer only side-scroller, arcade bomberman like game._
 - State: mature, inactive since 2005
 - Download: https://sourceforge.net/projects/xblast/files/
 - Platform: Windows, Linux
-- Keywords: arcade, inspired by Bomberman, multiplayer, side-scroller
+- Keywords: arcade, inspired by Bomberman, multiplayer, side-scrolling
 - Code repository: http://xblast.cvs.sourceforge.net (cvs)
 - Code language: C
 - Code license: GPL-2.0

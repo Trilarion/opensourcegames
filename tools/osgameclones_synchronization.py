@@ -104,11 +104,11 @@ if __name__ == "__main__":
 
     # import the osgameclones data
     osgc_path = os.path.realpath(os.path.join(root_path, os.path.pardir, '11_osgameclones.git', 'games'))
-    files = os.listdir(osgc_path)
+    osgc_files = os.listdir(osgc_path)
 
     # iterate over all yaml files in osgameclones/data folder and load contents
     osgc_entries = []
-    for file in files:
+    for file in osgc_files:
         # read yaml
         with open(os.path.join(osgc_path, file), 'r', encoding='utf-8') as stream:
             try:

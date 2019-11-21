@@ -9,7 +9,7 @@ _Shoot them up game, with editable levels._
 - Code repository: (see home)
 - Code language: C++
 - Code license: GPL-2.0
-- Code dependencies: Qt4
+- Code dependencies: Qt
 - Assets license: GPL-2.0, CC-BY-SA
 
 ## Building

@@ -7,7 +7,7 @@ _Satirical console-based political role-playing/strategy game._
 - Download: https://sourceforge.net/projects/lcsgame/files/
 - Platform: Windows, Linux
 - Keywords: strategy, console, inspired by Oubliette, open content
-- Code repository: https://svn.code.sf.net/p/lcsgame/code/trunk (svn)
+- Code repository: https://svn.code.sf.net/p/lcsgame/code (svn)
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: curses, SDL2

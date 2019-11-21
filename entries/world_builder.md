@@ -7,7 +7,7 @@ _Randomly generates scientifically-plausible solar systems, simulates plate tect
 - Download: https://sourceforge.net/projects/worldbuilder/files/
 - Platform: Windows
 - Keywords: tool
-- Code repository: https://gitlab.com/osgames/worldbuilder.git (conversion of cvs), https://sourceforge.net/p/worldbuilder/code/ (cvs)
+- Code repository: https://gitlab.com/osgames/worldbuilder.git (conversion of cvs), https://worldbuilder.cvs.sourceforge.net (cvs)
 - Code language: Visual Basic
 - Code license: GPL-2.0
 

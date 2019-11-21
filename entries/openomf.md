@@ -7,7 +7,7 @@ _Remake of One Must Fall: 2097._
 - State: beta
 - Download: http://www.openomf.org/downloads/, https://github.com/omf2097/openomf/releases
 - Platform: Windows, Linux
-- Keywords: action, commercial content (?), fighting, free content (?), inspired by One Must Fall: 2097, remake, requires original content
+- Keywords: action, commercial content (?), free content (?), inspired by One Must Fall: 2097, remake, requires original content
 - Code repository: https://github.com/omf2097/openomf.git
 - Code language: C, C++
 - Code license: MIT

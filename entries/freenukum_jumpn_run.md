@@ -6,7 +6,7 @@ _Remake of Duke Nukem._
 - State: beta, inactive since 2009
 - Download: https://launchpad.net/freenukum/+download
 - Keywords: remake, inspired by Duke Nukem, shooter
-- Code repository: https://code.launchpad.net/~silwol/freenukum/trunk (bzr)
+- Code repository: https://code.launchpad.net/~silwol/freenukum (bzr)
 - Code language: C
 - Code license: GPL-3.0
 

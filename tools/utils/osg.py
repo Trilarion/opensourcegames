@@ -68,7 +68,7 @@ def parse_entry(content):
     regex = re.compile(r"^# (.*)") # start of content, starting with "# " and then everything until the end of line
     matches = regex.findall(content)
     if len(matches) != 1 or not matches[0]:
-        raise RuntimeError('Name not found in entry "{}"'.format(content))
+        raise RuntimeError('Name not found in entry "{}" : {}'.format(content, matches))
     info['name'] = matches[0]
 
     # read description
@@ -160,8 +160,8 @@ def parse_entry(content):
     for field in ['home', 'download', 'play', 'code repository']:
         if field in info:
             for url in info[field]:
-                if not any([url.startswith(x) for x in ['http://', 'https://', 'git://', 'svn://', 'ftp://']]):
-                    raise RuntimeError('URL "{}" in entry "{}" does not start with http/https/git/svn/ftp'.format(url, info['name']))
+                if not any([url.startswith(x) for x in ['http://', 'https://', 'git://', 'svn://', 'ftp://', 'bzr://']]):
+                    raise RuntimeError('URL "{}" in entry "{}" does not start with http/https/git/svn/ftp/bzr'.format(url, info['name']))
                 if ' ' in url:
                     raise RuntimeError('URL "{}" in entry "{}" contains a space'.format(url, info['name']))
 

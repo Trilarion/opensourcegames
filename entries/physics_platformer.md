@@ -6,7 +6,7 @@ _Physics-based multiplayer platform game._
 - State: beta, inactive since 2019
 - Download: https://github.com/SteveSmith16384/PhysicsPlatformer/releases
 - Platform: Windows, Linux
-- Keywords: arcade, multiplayer, physics, platformer
+- Keywords: arcade, multiplayer, physics, platform
 - Code repository: https://github.com/SteveSmith16384/PhysicsPlatformer.git
 - Code language: Java
 - Code license: MIT

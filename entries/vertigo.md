@@ -6,7 +6,7 @@ _Flight simulator._
 - State: beta, inactive since 2002
 - Download: http://stjerneskud.info/vertigo/download.html
 - Platform: Linux
-- Keywords: remake, flight simulator
+- Keywords: simulation, flight, remake
 - Code repository: (see download)
 - Code language: C
 - Code license: GPL-2.0

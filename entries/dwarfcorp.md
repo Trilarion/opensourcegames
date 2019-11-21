@@ -9,7 +9,7 @@ _Manage a corporate colony of dwarves._
 - Code repository: https://github.com/CompletelyFairGames/dwarfcorp.git
 - Code language: C#
 - Code license: MIT
-- Code dependencies: Mono, XNA
+- Code dependencies: MonoGame, XNA
 - Assets license: Proprietary
 
 ## Building

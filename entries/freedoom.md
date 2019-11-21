@@ -9,8 +9,8 @@ _Open content for the Doom._
 - Platform: Windows, Linux, macOS (all that are supported by the Doom)
 - Keywords: action, engine required, inspired by Doom + Doom II, open content, remake
 - Code repository: https://github.com/freedoom/freedoom.git
-- Code language: Not applicable (only content)
-- Code license: Not applicable (only content)
+- Code language: None (only content)
+- Code license: None (only content)
 - Code dependencies: Doom, pillow
 - Assets license: 3-clause BSD
 

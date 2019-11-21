@@ -10,7 +10,7 @@ _Clone of Bejeweled._
 - Code repository: https://code.launchpad.net/~dnax88/gweled/trunk (bzr)
 - Code language: C
 - Code license: GPL-2.0
-- Code dependencies: GTK+
+- Code dependencies: GTK
 
 ## Building
 

@@ -6,7 +6,7 @@ _Bloodmasters is a top-down Arcade shooter written by Pascal vd Heiden. The late
 - State: mature, inactive since 2008
 - Download: http://www.bloodmasters.com/index.php?p=downloads
 - Keywords: arcade, shooter, top-down
-- Code repository: https://svn.code.sf.net/p/bloodmasters/code/trunk (svn)
+- Code repository: https://svn.code.sf.net/p/bloodmasters/code (svn)
 - Code language: C#
 - Code license: GPL
 - Code dependencies: DirectX, Microsoft .NET

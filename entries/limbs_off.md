@@ -8,7 +8,7 @@ _Game in plaimi's phun-fysics genre, in which they strive to reproduce complex r
 - Code repository: https://github.com/plaimi/limbs-off.git
 - Code language: C++
 - Code license: GPL-3.0
-- Code dependencies: Fontconfig, LibPNG, OpenGL, SDL
+- Code dependencies: Fontconfig, libpng, OpenGL, SDL
 
 Developer: plaimi
 

@@ -6,7 +6,7 @@ _A turn based combat-oriented tactics RPG. _
 - State: mature, inactive since 2010
 - Download: https://sourceforge.net/projects/dmonkey/files/
 - Keywords: action, role playing, turn-based
-- Code repository: (see download) https://svn.code.sf.net/p/dmonkey/code/trunk (svn)
+- Code repository: (see download) https://svn.code.sf.net/p/dmonkey/code (svn)
 - Code language: Pascal
 - Code license: LGPL-2.1
 

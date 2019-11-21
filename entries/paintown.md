@@ -10,7 +10,7 @@ _2D side scrolling beatem-up engine._
 - Code repository: https://github.com/kazzmir/paintown.git, https://svn.code.sf.net/p/paintown/code/ (svn)
 - Code language: C++, Java, Python
 - Code license: 3-clause BSD
-- Code dependencies: Allegro, Freetype, libpng, PyQt4
+- Code dependencies: Allegro, FreeType, libpng, PyQt
 
 Android port is written in Java.
 

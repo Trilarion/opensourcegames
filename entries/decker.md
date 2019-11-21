@@ -6,7 +6,7 @@ _Cyberspace hacking RPG where you hack into corporate systems to perform mission
 - State: beta, inactive since 2013
 - Download: https://sourceforge.net/projects/decker/files
 - Keywords: role playing
-- Code repository: https://github.com/jpmalkiewicz/decker.git (import), https://sourceforge.net/p/decker/code/HEAD/tree/ (svn)
+- Code repository: https://github.com/jpmalkiewicz/decker.git (import), https://svn.code.sf.net/p/decker/code/ (svn)
 - Code language: Java
 - Code license: GPL-2.0
 

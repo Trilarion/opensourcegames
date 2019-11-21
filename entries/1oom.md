@@ -10,7 +10,7 @@ _Master of Orion (1993) game engine recreation._
 - Code repository: https://gitlab.com/KilgoreTroutMaskReplicant/1oom.git
 - Code language: C
 - Code license: GPL-2.0
-- Code dependencies: Allegro4, SDL, SDL2
+- Code dependencies: Allegro, SDL, SDL2
 
 ## Building
 

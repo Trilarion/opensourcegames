@@ -4,7 +4,7 @@ _Tetris game extended to 4 dimension._
 
 - Home: https://sourceforge.net/projects/dtris/
 - State: mature, inactive since 2012
-- Platform: Linux
+- Platform: Windows, Linux, macOS
 - Keywords: puzzle, clone, inspired by Tetris, open content
 - Code repository: https://code.launchpad.net/4dtris (bzr)
 - Code language: C

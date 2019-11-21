@@ -7,7 +7,7 @@ _Remake of Total Annihilation._
 - State: beta, inactive since 2017
 - Download: (see home)
 - Platform: Windows, Linux, macOS
-- Keywords: strategy, inspired by Total Annihilation, realtime, remake
+- Keywords: strategy, inspired by Total Annihilation, real time, remake
 - Code repository: https://github.com/zuzuf/TA3D.git
 - Code language: C++, C, Lua
 - Code license: GPL-2.0

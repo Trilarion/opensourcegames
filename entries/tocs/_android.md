@@ -14,7 +14,7 @@
 - **[Domination](../domination.md)** (Java, GPL-3.0, mature)
 - **[Dungeon Hero](../dungeon_hero.md)** (Java, MIT, mature)
 - **[Dungeon Quest](../dungeon_quest.md)** (Java, MIT, mature)
-- **[ECWolf](../ecwolf.md)** (C++, GPL-2.0, BSD, LGPL-2.1, Libpng, zlib, bzip2, MIT, IJG, Public domain, mature)
+- **[ECWolf](../ecwolf.md)** (C++, GPL-2.0, BSD, LGPL-2.1, libpng, zlib, bzip2, MIT, IJG, Public domain, mature)
 - **[Esenthel Engine](../esenthel_engine.md)** (C, C++, Custom, beta)
 - **[EternalWinterWars](../eternalwinterwars.md)** (Java, MIT, beta, inactive since 2014)
 - **[Flappy Cow](../flappy_cow.md)** (Java, MIT, mature)

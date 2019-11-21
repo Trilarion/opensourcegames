@@ -7,7 +7,7 @@ _Zero Ballistics is a unique blend of first person shooter and tank combat, focu
 - Download: https://sourceforge.net/projects/zeroballistics/files/
 - Platform: Windows
 - Keywords: strategy
-- Code repository: https://gitlab.com/osgames/zeroballistics.git (mirror), https://sourceforge.net/p/zeroballistics/code/HEAD/tree/ (svn)
+- Code repository: https://gitlab.com/osgames/zeroballistics.git (mirror), https://svn.code.sf.net/p/zeroballistics/code (svn)
 - Code language: C++
 - Code license: MIT
 

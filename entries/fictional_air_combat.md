@@ -5,7 +5,7 @@ _Flight simulator that does not simulate real aircraft or historical war scenari
 - Home: http://facsimulation.sourceforge.net/index.html, https://sourceforge.net/projects/facsimulation/
 - State: beta, inactive since 2012
 - Keywords: simulation, flight
-- Code repository: https://svn.code.sf.net/p/facsimulation/code/trunk (svn)
+- Code repository: https://svn.code.sf.net/p/facsimulation/code (svn)
 - Code language: C, C++
 - Code license: GPL-3.0
 

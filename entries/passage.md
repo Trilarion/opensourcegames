@@ -7,7 +7,7 @@ _Autobiographical RPG game by Jason Rohrer._
 - Download: https://sourceforge.net/projects/hcsoftware/files/Passage/
 - Platform: Windows, Linux, macOS
 - Keywords: role playing, open content
-- Code repository: http://hcsoftware.cvs.sourceforge.net:/cvsroot/hcsoftware (cvs part of it)
+- Code repository: http://hcsoftware.cvs.sourceforge.net (cvs part of it)
 - Code language: C++
 - Code license: Public domain
 - Code dependencies: SDL

@@ -4,7 +4,7 @@ _Simple ncurses-based Tetris clone using a special algorithm to give you the wor
 
 - Home: http://fph.altervista.org/prog/bastet.html
 - State: beta, inactive since 2018
-- Keywords: puzzle, open content, skill, tetris
+- Keywords: puzzle, open content, skill, tetris-like
 - Code repository: https://github.com/fph/bastet.git
 - Code language: C++
 - Code license: GPL-2.0

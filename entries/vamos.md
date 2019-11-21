@@ -7,7 +7,7 @@ _Automotive simulation framework._
 - Download: https://sourceforge.net/projects/vamos/files/
 - Platform: Linux
 - Keywords: simulation, cars
-- Code repository: https://git.code.sf.net/p/vamos/git, http://vamos.cvs.sourceforge.net:/cvsroot/vamos (cvs)
+- Code repository: https://git.code.sf.net/p/vamos/git, http://vamos.cvs.sourceforge.net (cvs)
 - Code language: C++, Python
 - Code license: GPL-3.0
 - Code dependencies: OpenAL, OpenGL, SDL

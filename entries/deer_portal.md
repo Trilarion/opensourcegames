@@ -5,7 +5,7 @@ _Deer Portal is a hybrid board/card game for four players driven by the four cla
 - Home: https://devcarpet.net/deerportal/
 - State: beta
 - Platform: Windows, Linux
-- Keywords: adventure, board, card, open content
+- Keywords: adventure, board, cards, open content
 - Code repository: https://github.com/deerportal/deerportal.git
 - Code language: C++
 - Code license: zlib

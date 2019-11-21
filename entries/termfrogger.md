@@ -6,7 +6,7 @@ _Ascii character version of Frogger that plays in a commandline terminal._
 - State: mature
 - Download: https://github.com/fastrgv/TermFrogger/releases
 - Platform: Windows, Linux, macOS
-- Keywords: arcade, inspired by Frogger, open content, text-only
+- Keywords: arcade, inspired by Frogger, open content, text-based
 - Code repository: (see download)
 - Code language: Ada
 - Code license: GPL-3.0

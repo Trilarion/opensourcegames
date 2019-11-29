@@ -6,7 +6,7 @@ _2D single-player turn-based space strategy game. The strategy revolves around 4
 - State: beta
 - Download: https://sourceforge.net/projects/space-faring/files
 - Keywords: strategy
-- Code repository: https://git.code.sf.net/p/space-faring/gitcode, https://svn.code.sf.net/p/space-faring/code/ (svn active)
+- Code repository: https://git.code.sf.net/p/space-faring/gitcode, https://svn.code.sf.net/p/space-faring/code (svn active)
 - Code language: Java
 - Code license: GPL-3.0
 

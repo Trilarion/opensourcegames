@@ -7,7 +7,7 @@ _Graphic adventure._
 - Download: https://sourceforge.net/projects/ettu/files/
 - Platform: Windows, macOS
 - Keywords: adventure
-- Code repository: https://svn.code.sf.net/p/ettu/code/ (svn)
+- Code repository: https://svn.code.sf.net/p/ettu/code (svn)
 - Code language: C
 - Code license: GPL-2.0
 - Code dependencies: SDL

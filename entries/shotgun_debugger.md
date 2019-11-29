@@ -9,5 +9,6 @@ _Shooting game which uses a 3d engine but allows 2d gameplay._
 - Code repository: (see home)
 - Code language: C++
 - Code license: GPL-2.0
+- Code dependencies: SDL
 
 ## Building

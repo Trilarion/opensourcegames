@@ -7,7 +7,7 @@ _Multiplayer shooter in Zero Gravity._
 - Download: https://sourceforge.net/projects/balder/files/
 - Platform: Linux
 - Keywords: strategy, open content
-- Code repository: https://svn.code.sf.net/p/balder/code/ (svn)
+- Code repository: https://svn.code.sf.net/p/balder/code (svn)
 - Code language: C++
 - Code license: GPL-2.0
 - Assets license: GPL

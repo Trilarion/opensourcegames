@@ -198,6 +198,7 @@
 - **[Syndicate Wars Port](../syndicate_wars_port.md)** (C, GPL-3.0, beta, inactive since 2010)
 - **[Taisei Project](../taisei_project.md)** (C, Python, MIT, mature)
 - **[Tank: Zone of Death](../tank_zone_of_death.md)** (C++, Lua, GPL-3.0, beta, inactive since 2017)
+- **[Team Tactics](../team_tactics.md)** (Java, MIT, beta, inactive since 2016)
 - **[terrarium](../terrarium.md)** (C++, GPL-2.0, beta)
 - **[The Legend of Edgar](../the_legend_of_edgar.md)** (C, GPL-2.0, mature)
 - **[Toppler](../toppler.md)** (C++, GPL-2.0, mature, inactive since 2012)

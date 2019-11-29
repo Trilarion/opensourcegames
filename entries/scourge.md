@@ -6,7 +6,7 @@ _Roguelike game with a 3D user interface._
 - State: beta, inactive since 2008
 - Download: https://sourceforge.net/projects/scourge/files
 - Keywords: role playing, roguelike
-- Code repository: https://github.com/q4a/scourge.git (may not be up to date), https://svn.code.sf.net/p/scourge/code/ (svn)
+- Code repository: https://github.com/q4a/scourge.git (may not be up to date), https://svn.code.sf.net/p/scourge/code (svn)
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: SDL

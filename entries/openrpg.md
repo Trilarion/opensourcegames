@@ -6,7 +6,7 @@ _OpenRPG is an Internet application that allows people to play Role Playing Game
 - State: mature, inactive since 2013
 - Download: http://www.rpgobjects.com/index.php?c=orpg&m=getorpg, https://sourceforge.net/projects/openrpg/files/
 - Keywords: framework
-- Code repository: https://gitlab.com/osgames/openrpg.git (conversion), https://svn.code.sf.net/p/openrpg/svn/ (svn), https://openrpg.cvs.sourceforge.net (cvs)
+- Code repository: https://gitlab.com/osgames/openrpg.git (conversion), https://svn.code.sf.net/p/openrpg/svn (svn), https://openrpg.cvs.sourceforge.net (cvs)
 - Code language: Python
 - Code license: GPL-2.0
 - Code dependencies: CherryPy, pillow, wxPython

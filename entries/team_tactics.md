@@ -1,6 +1,6 @@
 # Team Tactics
 
-_Multiplayer realtime team-based 2D combat_
+_Multiplayer realtime team-based 2D combat._
 
 - Home: https://bitbucket.org/SteveSmith16384/teamtactics/
 - State: beta, inactive since 2016

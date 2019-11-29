@@ -17,3 +17,5 @@ Based on XKobo by Akira Higuchi
 Developer: David Olofson, Akira Higuchi, Erik Auerswald, Jeremy Sheeley, Simon Peter, Florian Schulze, Masanao Izumo
 
 ## Building
+
+- Build system: Autoconf

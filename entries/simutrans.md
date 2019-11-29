@@ -7,7 +7,7 @@ _A cross-platform simulation game in which the player strives to run a successfu
 - State: mature
 - Download: http://www.simutrans.de/download
 - Keywords: simulation, clone, inspired by Transport Tycoon
-- Code repository: https://github.com/aburch/simutrans.git, https://svn.code.sf.net/p/simutrans/code/ (svn)
+- Code repository: https://github.com/aburch/simutrans.git, https://svn.code.sf.net/p/simutrans/code (svn)
 - Code language: C++
 - Code license: Artistic License
 

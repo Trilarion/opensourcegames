@@ -817,6 +817,7 @@ if __name__ == "__main__":
     more_urls = []
     for url in game_urls:
         if url.startswith('https://web.archive.org/web'):
+            # print(url) # sometimes the http is missing in archive links (would need proper parsing)
             url = url[url.index('http', 5):]
             more_urls.append(url)
     game_urls.extend(more_urls)

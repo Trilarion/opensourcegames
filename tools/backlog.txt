@@ -1,6 +1,7 @@
 ftp://ftp.tuxpaint.org/unix/ (all of them)
 ftp://ftp.tuxpaint.org/unix/x/
 http://antongerdelan.net/blog/ (other projects besides TestDrive)
+http://cdetect.sourceforge.net/
 http://circularstudios.com/
 http://cyxdown.free.fr/bs/
 http://cyxdown.free.fr/f2b/
@@ -24,6 +25,7 @@ http://icculus.org/hge-unix/ http://hge.relishgames.com/
 http://icculus.org/jugglemaster/
 http://icculus.org/pyddr/
 http://icculus.org/toby/
+http://iichantra.ru/en/
 http://insideastarfilledsky.net/
 http://lazerbears.wixsite.com/lazerbears/cr-editor
 http://libagar.org/agar/index.html.en
@@ -68,6 +70,7 @@ http://www.divgo.net/
 http://www.dosbox.com/download.php?main=1
 http://www.drpetter.se/project_sfxr.html
 http://www.dungeoncrawl.org/?d.l
+http://www.finkproject.org/index.php?phpLang=en (do they have games)
 http://www.freemmorpgmaker.com/
 http://www.gameplay3d.io/
 http://www.garagegames.com/products/torque-3d
@@ -178,6 +181,7 @@ https://games.kde.org/ (all of them)
 https://games.kde.org/old/kde_arcade.php
 https://gdevelop-app.com/
 https://github.com/00-Evan/shattered-pixel-dungeon
+https://github.com/00-Evan/shattered-pixel-dungeon-gdx
 https://github.com/acedogblast/Project-Uranium-Godot
 https://github.com/AdaDoom3/AdaDoom3
 https://github.com/AdamsLair/duality
@@ -276,6 +280,7 @@ https://github.com/OSSGames
 https://github.com/OSSGames (all there, but we should have them already)
 https://github.com/PavelDoGreat/WebGL-Fluid-Simulation
 https://github.com/perbone/luascript
+https://github.com/pixijs/pixi.js
 https://github.com/pld-linux
 https://github.com/pld-linux/nexuiz/blob/master/nexuiz.spec
 https://github.com/ppizarror/pygame-menu
@@ -300,6 +305,7 @@ https://github.com/saniv/free-game-art/blob/master/foss-copyright-infringement-r
 https://github.com/scp-fs2open/fs2open.github.com
 https://github.com/search?p=1&q=sunrider&type=Repositories, sunrider
 https://github.com/senior-sigan/WHY_CPP
+https://github.com/septag/glslcc
 https://github.com/skypjack/entt
 https://github.com/smlinux/nexuiz
 https://github.com/SPC-Some-Polish-Coders/PopHead
@@ -319,10 +325,12 @@ https://github.com/untakenstupidnick/nbsdgames (Cross-platform ncurses/pdcurses 
 https://github.com/Venom0us/Emberpoint
 https://github.com/videogamepreservation
 https://github.com/vocollapse/Blockinger
+https://github.com/WagicProject/wagic
 https://github.com/Wargus/stratagus
 https://github.com/wesnoth/haldric
 https://github.com/WohlSoft/PGE-Project
 https://github.com/xrOxygen/xray-oxygen
+https://github.com/xtreme8000/BetterSpades
 https://github.com/YuriiSalimov/15-puzzle
 https://github.com/Zal0/ZGB
 https://gitlab.com/LibreGames

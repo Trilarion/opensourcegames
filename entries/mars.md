@@ -6,7 +6,7 @@ _A ridiculous shooter. In one of several game modes, two opposing teams are figh
 - State: beta, inactive since 2016
 - Download: https://github.com/jwrdegoede/M.A.R.S./releases, https://sourceforge.net/projects/mars-game/files/
 - Keywords: platform, 2D, open content, shooter, top-down
-- Code repository: https://github.com/jwrdegoede/M.A.R.S..git, https://github.com/thelaui/M.A.R.S..git (+), https://svn.code.sf.net/p/mars-game/code/ (svn)
+- Code repository: https://github.com/jwrdegoede/M.A.R.S..git, https://github.com/thelaui/M.A.R.S..git (+), https://svn.code.sf.net/p/mars-game/code (svn)
 - Code language: C++, C
 - Code license: GPL-3.0
 - Code dependencies: OpenGL, SFML

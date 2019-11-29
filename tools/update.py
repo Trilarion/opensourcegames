@@ -128,8 +128,6 @@ def run_update(type, urls):
     folders = [os.path.join(base_folder, x) for x in folders]
     os.chdir(base_folder)
     for folder, url in zip(folders, urls):
-        if url.startswith('https://git.code.sf.net/p/') or url.startswith('http://hg.code.sf.net/p/'):
-            continue
         if not os.path.isdir(folder):
             print('clone {} into {}'.format(url, folder[len(base_folder):]))
             try:

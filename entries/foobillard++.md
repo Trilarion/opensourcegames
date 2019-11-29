@@ -7,7 +7,7 @@ _3D billiard game._
 - Download: http://foobillardplus.sourceforge.net/download.html, https://sourceforge.net/projects/foobillardplus/files/
 - Platform: Windows, Linux
 - Keywords: simulation, inspired by FooBillard
-- Code repository: https://svn.code.sf.net/p/foobillardplus/code/ (svn)
+- Code repository: https://svn.code.sf.net/p/foobillardplus/code (svn)
 - Code language: C
 - Code license: GPL-2.0
 - Code dependencies: GLUT, SDL

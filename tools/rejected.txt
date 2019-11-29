@@ -151,6 +151,7 @@ Super Mario Bros With SFML in C# (https://mario.codeplex.com/, https://mario.cod
 Sworsorc (https://github.com/cjeffery/sworsorc, https://svn.code.sf.net/p/alteraterra/code/): Proprietary license (copyright headers in files)
 Terra Reconstructed (https://sourceforge.net/projects/terrastrategy/, http://mori.pyco.eu/drupal): No license information, very early development, long abandoned
 Tesseract Trainer (http://www.mushware.com/): Sources lost, license unclear, very early development, long abandoned
+The Fortress (https://sourceforge.net/projects/fortress/, https://fortressgame.wordpress.com/about/): Very early development, long abandoned
 thromolusng (https://github.com/segfaulthunter/thromolusng.git): Very early development, not playable, no build instructions, abandoned since 2010
 Tranzam (http://retrospec.sgn.net/game/tranzam, http://retrospec.sgn.net/download/files/TranzAm.1.1.zip): see other retrospec.sgn.net entries, license unclear, probably not open source as we want it
 TunnelWars (http://www.ratajik.net/TunnelWars/): Platform is OS2, not interesting for us

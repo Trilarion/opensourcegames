@@ -11,6 +11,8 @@ _Tetris-like game._
 - Code license: GPL
 - Code dependencies: Qt
 
+See also https://launchpad.net/~gottcode/+archive/ubuntu/gcppa
+
 Developer: Graeme Gott
 
 ## Building

@@ -8,7 +8,7 @@ _Clone of SingStar, a music video game._
 - Download: https://sourceforge.net/projects/ultrastar/files/
 - Platform: Windows
 - Keywords: action, karaoke
-- Code repository: https://svn.code.sf.net/p/ultrastar/code/ (svn)
+- Code repository: https://svn.code.sf.net/p/ultrastar/code (svn)
 - Code language: Pascal
 - Code license: ?
 

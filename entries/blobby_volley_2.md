@@ -7,7 +7,7 @@ _Continuation of the famous Blobby Volley 1.x arcade game._
 - Download: https://sourceforge.net/projects/blobby/files/
 - Platform: Windows, Linux, macOS
 - Keywords: action, arcade
-- Code repository: https://svn.code.sf.net/p/blobby/code/ (svn)
+- Code repository: https://svn.code.sf.net/p/blobby/code (svn)
 - Code language: C++
 - Code license: GPL-2.0
 

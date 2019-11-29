@@ -6,7 +6,7 @@ _Arcade game of genre "Luolalentely" (Cave-flying) inspired by V-Wing._
 - State: mature, inactive since 2005
 - Platform: Windows, Linux, macOS
 - Keywords: arcade, open content
-- Code repository: https://github.com/callaa/luola.git (also see home)
+- Code repository: https://github.com/callaa/luola.git
 - Code language: C
 - Code license: GPL-2.0
 - Code dependencies: SDL

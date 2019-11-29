@@ -6,7 +6,7 @@ _Rewrite for modern architectures of the incredibly good game Ultima Underworld 
 - State: beta, inactive since 2010
 - Download: https://sourceforge.net/projects/low/files
 - Keywords: role playing
-- Code repository: https://gitlab.com/osgames/low.git (cvs and svn to git conversion), https://svn.code.sf.net/p/low/code/ (svn), https://low.cvs.sourceforge.net (cvs)
+- Code repository: https://gitlab.com/osgames/low.git (cvs and svn to git conversion), https://svn.code.sf.net/p/low/code (svn), https://low.cvs.sourceforge.net (cvs)
 - Code language: C++
 - Code license: LGPL-3.0
 - Code dependencies: Ogre

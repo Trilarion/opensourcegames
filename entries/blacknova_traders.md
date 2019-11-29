@@ -6,7 +6,7 @@ _Web-based, multi-player space exploration game inspired by the popular BBS game
 - State: beta, inactive since 2012
 - Download: https://sourceforge.net/projects/blacknova/files
 - Keywords: strategy
-- Code repository: https://gitlab.com/osgames/blacknova.git (backup of svn), https://svn.code.sf.net/p/blacknova/code/ (svn)
+- Code repository: https://gitlab.com/osgames/blacknova.git (backup of svn), https://svn.code.sf.net/p/blacknova/code (svn)
 - Code language: PHP, JavaScript
 - Code license: GPL-2.0
 

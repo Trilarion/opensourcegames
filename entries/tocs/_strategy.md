@@ -217,7 +217,6 @@
 - **[Tennix!](../tennix.md)** (C, C++, GPL-2.0, mature)
 - **[The Battle for Wesnoth](../the_battle_for_wesnoth.md)** (C, C++, Java, Python, Lua, GPL-2.0, mature)
 - **[The Epic of Heroes](../the_epic_of_heroes.md)** (C++, GPL-3.0, beta, inactive since 2015)
-- **[The Fortress](../the_fortress.md)** (Java, ?, beta, inactive since 2009)
 - **[The Ur-Quan Masters](../the_ur-quan_masters.md)** (C, GPL-2.0, mature, inactive since 2011)
 - **[thiefcatcher](../thiefcatcher.md)** (C++, GPL-3.0, beta)
 - **[Thousand Parsec](../thousand_parsec.md)** (C++, Python, GPL-2.0, beta, inactive since 2012)

@@ -7,7 +7,7 @@ _Remake of Wing Commander: Privateer._
 - Download: http://privateer.sourceforge.net/files.shtml, https://sourceforge.net/projects/privateer/files/
 - Platform: Windows, Linux, macOS
 - Keywords: adventure, inspired by Wing Commander: Privateer, remake, simulation, space
-- Code repository: https://svn.code.sf.net/p/privateer/code/ (svn)
+- Code repository: https://svn.code.sf.net/p/privateer/code (svn)
 - Code language: C++
 - Code license: GPL-2.0
 

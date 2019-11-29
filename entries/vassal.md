@@ -7,7 +7,7 @@ _Game engine for creating electronic versions of traditional board and card game
 - Download: http://www.vassalengine.org/download.php, https://sourceforge.net/projects/vassalengine/files/
 - Platform: Windows, Linux, macOS
 - Keywords: game engine, board, clone, framework, inspired by Board Game
-- Code repository: https://svn.code.sf.net/p/vassalengine/svn/ (svn)
+- Code repository: https://svn.code.sf.net/p/vassalengine/svn (svn)
 - Code language: Java
 - Code license: LGPL-2.1
 

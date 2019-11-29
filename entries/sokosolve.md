@@ -7,7 +7,7 @@ _Sokoban game with enthusiast tools._
 - Download: http://sokosolve.sourceforge.net/install.html, https://sourceforge.net/projects/sokosolve/files/
 - Platform: Windows, Linux
 - Keywords: puzzle, sokoban-like
-- Code repository: https://svn.code.sf.net/p/sokosolve/code/ (svn), https://svn.code.sf.net/p/sokosolve/decade/ (svn)
+- Code repository: https://svn.code.sf.net/p/sokosolve/code (svn), https://svn.code.sf.net/p/sokosolve/decade (svn)
 - Code language: C#
 - Code license: ? (GPL)
 - Code dependencies: WinForms

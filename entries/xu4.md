@@ -7,7 +7,7 @@ _A remake of the computer game Ultima IV._
 - State: mature, inactive since 2016
 - Download: http://xu4.sourceforge.net/download.php
 - Keywords: role playing, inspired by Ultima IV, remake
-- Code repository: https://svn.code.sf.net/p/xu4/code/ (svn)
+- Code repository: https://svn.code.sf.net/p/xu4/code (svn)
 - Code language: C++
 - Code license: GPL-2.0
 

@@ -7,7 +7,7 @@ _2D shooting arcade game._
 - Download: http://linux.tlk.fr/games/Powermanga/download/, https://sourceforge.net/projects/powermanga/files/
 - Platform: Linux
 - Keywords: arcade, open content
-- Code repository: https://svn.code.sf.net/p/powermanga/code/ (svn), http://powermanga.cvs.sourceforge.net (cvs)
+- Code repository: https://svn.code.sf.net/p/powermanga/code (svn), http://powermanga.cvs.sourceforge.net (cvs)
 - Code language: C
 - Code license: GPL-3.0
 - Code dependencies: SDL

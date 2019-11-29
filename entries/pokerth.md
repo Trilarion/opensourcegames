@@ -8,7 +8,7 @@ _Texas Hold'em poker game playable against up to nine computer-opponents or with
 - Download: https://www.pokerth.net/download
 - Platform: Windows, Linux, macOS, Android
 - Keywords: strategy, online, poker
-- Code repository: https://github.com/pokerth/pokerth.git, https://svn.code.sf.net/p/pokerth/code/ (svn)
+- Code repository: https://github.com/pokerth/pokerth.git, https://svn.code.sf.net/p/pokerth/code (svn)
 - Code language: C++
 - Code license: AGPL-3.0
 - Code dependencies: Qt

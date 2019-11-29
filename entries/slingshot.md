@@ -7,7 +7,7 @@ _Gravity‐based turn based strategy game._
 - Download: https://web.archive.org/web/20150630152307/http://slingshot.wikispot.org/Downloads, https://sourceforge.net/projects/slingshot-game/files/
 - Platform: Windows, Linux, macOS
 - Keywords: strategy, open content, turn-based
-- Code repository: https://svn.code.sf.net/p/slingshot-game/code (svn)
+- Code repository: https://gitlab.com/osgames/slingshot.git (import of source releases and SVN), https://svn.code.sf.net/p/slingshot-game/code (svn)
 - Code language: Python
 - Code license: GPL-2.0
 - Code dependencies: pygame

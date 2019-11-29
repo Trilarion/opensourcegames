@@ -7,7 +7,7 @@ _Grand Strategy Game_
 - State: mature
 - Download: http://triplea-game.org/download/
 - Keywords: strategy
-- Code repository: https://github.com/triplea-game/triplea.git, https://svn.code.sf.net/p/triplea/code/ (svn)
+- Code repository: https://github.com/triplea-game/triplea.git, https://svn.code.sf.net/p/triplea/code (svn)
 - Code language: Java
 - Code license: GPL-2.0
 

@@ -7,7 +7,7 @@ _Remake of Betrayal at Krondor._
 - Download: https://sourceforge.net/projects/xbak/files/xbak/
 - Platform: Linux
 - Keywords: remake, commercial content, inspired by Betrayal at Krondor, requires original content
-- Code repository: https://svn.code.sf.net/p/xbak/code/ (svn)
+- Code repository: https://svn.code.sf.net/p/xbak/code (svn)
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependencies: SDL

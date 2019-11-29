@@ -2,7 +2,7 @@
 
 _Flight simulation game in the spirit of GL-117._
 
-- Home: http://rsfs.sourceforge.net/, https://web.archive.org/web/20080725122954/http://php.scripts.psu.edu/cjh212/redshift/
+- Home: http://rsfs.sourceforge.net/, https://sourceforge.net/projects/rsfs/, https://web.archive.org/web/20080725122954/http://php.scripts.psu.edu/cjh212/redshift/
 - State: beta, inactive since 2008
 - Keywords: simulation, flight, inspired by GL-117
 - Code repository: https://svn.code.sf.net/p/rsfs/code (svn)

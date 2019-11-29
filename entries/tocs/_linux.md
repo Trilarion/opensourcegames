@@ -338,6 +338,7 @@
 - **[Tactics Squad](../tactics_squad.md)** (C++, GPL-2.0, beta, inactive since 2007)
 - **[Taisei Project](../taisei_project.md)** (C, Python, MIT, mature)
 - **[Tangomon](../tangomon.md)** (Python, GPL-3.0, mature, inactive since 2017)
+- **[Team Tactics](../team_tactics.md)** (Java, MIT, beta, inactive since 2016)
 - **[Teeworlds](../teeworlds.md)** (C, C++, zlib, beta, inactive since 2013)
 - **[Tenes Empanadas Graciela](../tenes_empanadas_graciela.md)** (C, JavaScript, Perl, GPL-2.0, beta, inactive since 2015)
 - **[TermFrogger](../termfrogger.md)** (Ada, GPL-3.0, mature)

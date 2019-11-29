@@ -6,7 +6,7 @@ _Remake of Gravity Force._
 - State: mature
 - Download: https://sourceforge.net/projects/galaxyv2/files/
 - Keywords: action, 2D, inspired by Gravity Force, remake
-- Code repository: https://svn.code.sf.net/p/galaxyv2/code/ (svn active)
+- Code repository: https://svn.code.sf.net/p/galaxyv2/code (svn active)
 - Code language: C++
 - Code license: ? (PD)
 

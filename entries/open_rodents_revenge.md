@@ -7,7 +7,7 @@ _Remake of Rodent's Revenge._
 - Download: https://github.com/pierreyoda/o2r/releases, https://sourceforge.net/projects/o2r/files/
 - Platform: Windows, Linux, macOS
 - Keywords: remake, inspired by Rodent's Revenge
-- Code repository: https://github.com/pierreyoda/o2r.git, https://svn.code.sf.net/p/o2r/code/ (svn)
+- Code repository: https://github.com/pierreyoda/o2r.git, https://svn.code.sf.net/p/o2r/code (svn)
 - Code language: C++
 - Code license: MIT (was GPL-3.0)
 - Code dependencies: Qt, SFML

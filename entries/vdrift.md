@@ -7,7 +7,7 @@ _Driving simulation made with drift racing in mind._
 - Download: (see home)
 - Platform: Windows, Linux, macOS
 - Keywords: simulation, cars, racing
-- Code repository: https://github.com/VDrift/vdrift.git, https://svn.code.sf.net/p/vdrift/code/ (svn)
+- Code repository: https://github.com/VDrift/vdrift.git, https://svn.code.sf.net/p/vdrift/code (svn)
 - Code language: C++
 - Code license: GPL-3.0
 

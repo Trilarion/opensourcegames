@@ -7,7 +7,7 @@ _Massively Multiplayer On-line Role-playing Game (MMORPG)._
 - State: mature
 - Download: https://www.daimonin.org/downloads/
 - Keywords: role playing, multiplayer online + massive
-- Code repository: https://svn.code.sf.net/p/daimonin/code/ (svn active)
+- Code repository: https://svn.code.sf.net/p/daimonin/code (svn active)
 - Code language: C
 - Code license: GPL-2.0
 

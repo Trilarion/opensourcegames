@@ -8,7 +8,7 @@ _Continuation of Bungie's Marathon 2 FPS game engine._
 - Download: https://sourceforge.net/projects/marathon/files/
 - Platform: Windows, Linux, macOS
 - Keywords: action, inspired by Marathon + Marathon 2 + Marathon Infinity, remake, shooter
-- Code repository: https://github.com/Aleph-One-Marathon/alephone.git, https://svn.code.sf.net/p/marathon/code/ (svn)
+- Code repository: https://github.com/Aleph-One-Marathon/alephone.git, https://svn.code.sf.net/p/marathon/code (svn)
 - Code language: C++, Lua
 - Code license: GPL-3.0
 

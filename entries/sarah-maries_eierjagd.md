@@ -5,7 +5,7 @@ _Arcade game. The player controls a girl, trying to catch good and golden eggs a
 - Home: http://eier.gerdsmeier.net/
 - State: mature, inactive since 2005
 - Keywords: arcade, for kids
-- Code repository: (see home)
+- Code repository: https://gitlab.com/osgames/sarah-maries-eierjagd.git (import of sources)
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: SDL

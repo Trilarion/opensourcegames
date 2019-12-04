@@ -6,7 +6,7 @@ _Key Runner is a 2D overhead action game where Moschata, the Key Runner must rac
 - State: mature, inactive since 2013
 - Platform: Windows, Linux
 - Keywords: action, open content
-- Code repository: (see home)
+- Code repository: https://gitlab.com/osgames/keyrunner.git (import of sources)
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependencies: SDL
@@ -15,3 +15,5 @@ _Key Runner is a 2D overhead action game where Moschata, the Key Runner must rac
 Developer: Russ Adams
 
 ## Building
+
+- Build system: Autoconf

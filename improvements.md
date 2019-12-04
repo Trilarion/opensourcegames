@@ -27,6 +27,12 @@ certainly a copyright problem.
 
 Last update: 2019-11
 
+## [GCompris](entries/gcompris.md)
+
+Partly commercial. Evaluate and if not yet existing create a completely free (code and content) version
+
+Last update: 2019-12
+
 ## [Hedgewars](entries/hedgewars.md)
 
 Actually this is on 1.0.0 already (so low priority IMO). But I feel singleplayer mode could need more content.

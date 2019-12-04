@@ -6,7 +6,7 @@ _Three dimensional sports game._
 - State: beta, inactive since 2004
 - Platform: Linux, macOS
 - Keywords: arcade, online
-- Code repository: (see homepage)
+- Code repository: (see home)
 - Code language: C
 - Code license: GPL-2.0
 

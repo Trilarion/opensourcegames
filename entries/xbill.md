@@ -4,14 +4,17 @@ _Pretty simple arcade game._
 
 - Home: http://www.xbill.org/
 - State: mature, inactive since 2001
+- Download: http://www.xbill.org/download/
 - Platform: Linux
 - Keywords: arcade
-- Code repository: (see home)
+- Code repository: https://gitlab.com/osgames/xbill.git (import of sources)
 - Code language: C
 - Code license: GPL-2.0
 
 Written in 1994. Several ports linked on the home page.
 
-Developer: Brian Wellington and Matias Duarte of Psychosoft
+Developer: Brian Wellington (Psychosoft), Matias Duarte (Psychosoft)
 
 ## Building
+
+- Build system: Make

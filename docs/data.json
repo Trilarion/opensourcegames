@@ -842,10 +842,10 @@
   ],
   [
    "Black Shades Elite (<a href=\"https://web.archive.org/web/20150412072649/http://home.gna.org/blackshadeselite/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/black_shades_elite.md\">entry</a>)",
-   "Black Shades Elite is a fork of the game Black Shades,..",
+   "Black Shades Elite is a fork of the game Black Shades.",
    "",
    "beta / inactive since 2007",
-   "simulation, first-person, open content, shooter",
+   "simulation, first-person, inspired by Black Shades, open content, shooter",
    "? - ?"
   ],
   [
@@ -3422,7 +3422,7 @@
    "<a href=\"https://sourceforge.net/projects/freya-engine/files/\">Link</a>",
    "beta / inactive since 2002",
    "strategy, game engine",
-   "<a href=\"http://freya-engine.cvs.sourceforge.net\">Source</a> - Java - LGPL-2.1"
+   "<a href=\"https://gitlab.com/osgames/freya-engine.git\">Source</a> - Java - LGPL-2.1"
   ],
   [
    "Friking Shark (<a href=\"https://pyra-handheld.com/boards/threads/friking-shark.76715/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/friking_shark.md\">entry</a>)",
@@ -3618,11 +3618,11 @@
   ],
   [
    "Gilbert and the doors (<a href=\"https://sites.google.com/view/gilbert-and-the-doors\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/gilbert_and_the_doors.md\">entry</a>)",
-   "2D platform game",
+   "2D platform game.",
    "<a href=\"https://drive.google.com/uc?export=download&id=1Qgt-LmuLVRQ5yQ7Lg0QB61eZDoMnLTOl\">Link</a>",
    "mature / inactive since 2018",
    "strategy, open content, side-scrolling",
-   "C - GPL-3.0"
+   "<a href=\"https://gitlab.com/osgames/gilbert-and-the-doors.git\">Source</a> - C - GPL-3.0"
   ],
   [
    "gist-txt (<a href=\"http://potomak.github.io/gist-txt/#acebd8fe14942fab4e8e\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/gist-txt.md\">entry</a>)",
@@ -4262,7 +4262,7 @@
    "",
    "mature / inactive since 2016",
    "puzzle, open content",
-   "Java - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/hypercube.git\">Source</a> - Java - GPL-2.0"
   ],
   [
    "HyperRogue (<a href=\"http://roguetemple.com/z/hyper/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/hyperrogue.md\">entry</a>)",
@@ -4686,7 +4686,7 @@
    "",
    "mature / inactive since 2013",
    "action, open content",
-   "C++ - GPL-3.0"
+   "<a href=\"https://gitlab.com/osgames/keyrunner.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
    "KGoldrunner (<a href=\"https://www.kde.org/applications/games/kgoldrunner/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/kgoldrunner.md\">entry</a>)",
@@ -4947,7 +4947,7 @@
   [
    "LevelHead (<a href=\"https://julianoliver.com/levelhead/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/levelhead.md\">entry</a>)",
    "Spatial memory game which uses the concept of \"augmented..",
-   "",
+   "<a href=\"https://julianoliver.com/levelhead/install.html\">Link</a>",
    "mature / inactive since 2009",
    "puzzle, open content",
    "C++, Python - GPL-3.0"
@@ -5286,7 +5286,7 @@
    "",
    "beta / inactive since 2007",
    "strategy, board, open content, real time",
-   "Python - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/magic-gardeners-tournament.git\">Source</a> - Python - GPL-2.0"
   ],
   [
    "Magical Life (<a href=\"https://github.com/SneakyTactician/MagicalLife\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/magical_life.md\">entry</a>)",
@@ -5782,7 +5782,7 @@
    "<a href=\"https://sourceforge.net/projects/musosu/files/MUSoSu/\">Link</a>",
    "beta / inactive since 2008",
    "adventure, sudoku",
-   "Java - GPL-3.0"
+   "<a href=\"https://gitlab.com/osgames/musosu.git\">Source</a> - Java - GPL-3.0"
   ],
   [
    "n2048 (<a href=\"http://www.dettus.net/n2048/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/n2048.md\">entry</a>)",
@@ -6758,7 +6758,7 @@
    "<a href=\"https://sourceforge.net/projects/arrakis/files/\">Link</a>",
    "beta / inactive since 2006",
    "strategy, real time",
-   "Python - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/openrts.git\">Source</a> - Python - GPL-2.0"
   ],
   [
    "OpenRW (<a href=\"https://openrw.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/openrw.md\">entry</a>)",
@@ -7150,7 +7150,7 @@
    "",
    "beta / inactive since 2004",
    "puzzle",
-   "C++ - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/pathogen-warrior.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Pathological (<a href=\"http://pathological.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/pathological.md\">entry</a>)",
@@ -7182,7 +7182,7 @@
    "",
    "mature / inactive since 2003",
    "tool, hangman, inspired by Webhangman, open content",
-   "JavaScript - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/pendumito.git\">Source</a> - JavaScript - GPL-2.0"
   ],
   [
    "Penguin Command (<a href=\"http://www.linux-games.com/penguin-command/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/penguin_command.md\">entry</a>)",
@@ -7254,7 +7254,7 @@
    "<a href=\"https://sourceforge.net/projects/phprpg/files/\">Link</a>",
    "beta / inactive since 2006",
    "role playing, game engine",
-   "<a href=\"http://phprpg.cvs.sourceforge.net\">Source</a> - PHP - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/phprpg.git\">Source</a> - PHP - GPL-2.0"
   ],
   [
    "Physics Platformer (<a href=\"https://github.com/SteveSmith16384/PhysicsPlatformer\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/physics_platformer.md\">entry</a>)",
@@ -7278,7 +7278,7 @@
    "",
    "beta / inactive since 2007",
    "arcade, open content",
-   "Python - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/pillows.git\">Source</a> - Python - GPL-2.0"
   ],
   [
    "Pingus (<a href=\"https://pingus.seul.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/pingus.md\">entry</a>)",
@@ -7499,7 +7499,7 @@
   [
    "Project Alexandria (<a href=\"http://www.sixthfloorlabs.com/projects/alexandria/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/project_alexandria.md\">entry</a>)",
    "Space combat game.",
-   "<a href=\"http://www.sixthfloorlabs.com/projects/alexandria/download/\">Link</a>",
+   "<a href=\"http://www.sixthfloorlabs.com/files/\">Link</a>",
    "beta / inactive since 2007",
    "arcade, open content",
    "Python - GPL"
@@ -8230,7 +8230,7 @@
    "",
    "mature / inactive since 2005",
    "arcade, for kids",
-   "C++ - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/sarah-maries-eierjagd.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Scorched Moon (<a href=\"https://scorched-moon.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/scorched_moon.md\">entry</a>)",
@@ -8430,7 +8430,7 @@
    "",
    "mature / inactive since 2005",
    "remake, shooter, top-down",
-   "C++ - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/sdb.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Siege of Avalon : Open Source (<a href=\"http://soaos.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/siege_of_avalon_open_source.md\">entry</a>)",
@@ -9038,7 +9038,7 @@
    "<a href=\"https://web.archive.org/web/20130606103829/http://ghoulsblade.schattenkind.net/sfz/LATEST_SFZ_SOURCE.zip\">Link</a>",
    "beta / inactive since 2007",
    "simulation, multiplayer online, space",
-   "C++, Lua - GPL-3.0"
+   "<a href=\"https://gitlab.com/osgames/stressfreezone.git\">Source</a> - C++, Lua - GPL-3.0"
   ],
   [
    "Strife: Veteran Edition (<a href=\"https://doomwiki.org/wiki/Strife:_Veteran_Edition\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/strife_veteran_edition.md\">entry</a>)",
@@ -9054,7 +9054,7 @@
    "",
    "beta / inactive since 2008",
    "platform, open content, puzzle",
-   "Python - Public domain"
+   "<a href=\"https://gitlab.com/osgames/stringrolled.git\">Source</a> - Python - Public domain"
   ],
   [
    "Stunt Car Racer Remake (<a href=\"http://stuntcarracerwin32.bravesites.com\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/stunt_car_racer_remake.md\">entry</a>)",
@@ -10238,7 +10238,7 @@
    "<a href=\"http://stjerneskud.info/vertigo/download.html\">Link</a>",
    "beta / inactive since 2002",
    "simulation, flight, remake",
-   "C - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/vertigo.git\">Source</a> - C - GPL-2.0"
   ],
   [
    "VGC (<a href=\"https://www.vgc.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/vgc.md\">entry</a>)",
@@ -10446,7 +10446,7 @@
    "<a href=\"https://web.archive.org/web/20170401215027/http://janmulder.co.uk/download/webhangman.zip\">Link</a>",
    "mature / inactive since 2003",
    "puzzle, hangman, open content",
-   "JavaScript - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/webhangman.git\">Source</a> - JavaScript - GPL-2.0"
   ],
   [
    "Which Way Is Up? (<a href=\"http://www.oletus.fi/static/whichwayisup/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/which_way_is_up.md\">entry</a>)",
@@ -10643,10 +10643,10 @@
   [
    "XBill (<a href=\"http://www.xbill.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/xbill.md\">entry</a>)",
    "Pretty simple arcade game.",
-   "",
+   "<a href=\"http://www.xbill.org/download/\">Link</a>",
    "mature / inactive since 2001",
    "arcade",
-   "C - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/xbill.git\">Source</a> - C - GPL-2.0"
   ],
   [
    "XBlast (<a href=\"http://xblast.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/xblast.md\">entry</a>)",
@@ -10694,7 +10694,7 @@
    "",
    "mature / inactive since 2000",
    "arcade, open content",
-   "C - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/xinvaders3d.git\">Source</a> - C - GPL-2.0"
   ],
   [
    "Xjig (<a href=\"https://packages.debian.org/search?keywords=xjig\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/xjig.md\">entry</a>)",

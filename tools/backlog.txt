@@ -34,6 +34,7 @@ http://libsdl-android.sourceforge.net/ (Open source games ported to Android)
 http://lukaszjakowski.pl/ (games apart from uMario)
 http://m484games.ucoz.com/
 http://martindrapeau.github.io/backbone-game-engine/
+http://media.pyweek.org/dl/7/ (all of them)
 http://onscripter.osdn.jp/onscripter.html
 http://openapoc.pmprog.co.uk/
 http://pathfinder.wikia.com/wiki/Pathfinder_Roleplaying_Game
@@ -49,6 +50,7 @@ http://sio2interactive.com/
 http://slick.ninjacave.com/
 http://snowstorm.sourceforge.net/cgi-bin/site.cgi
 http://sol.gfxile.net/ambrose3d/index.html
+http://stage.gamecreation.org/ (all of them)
 http://storygamecreator.webs.com/
 http://sumwars.org/wiki/Main_Page
 http://svn.assembla.com/svn/gdpl/
@@ -133,6 +135,7 @@ https://appimage.github.io/categories/Game
 https://appimage.org/
 https://archive.codeplex.com/?p=turnota
 https://archive.codeplex.com/?p=voxeliq
+https://archive.org/details/Gna_code_hosting (all of them)
 https://blenderartists.org/t/devils-pinball/552785
 https://blends.debian.org/games/tasks/
 https://blends.debian.org/games/tasks/racing
@@ -220,12 +223,14 @@ https://github.com/Drasky-Vanderhoff/CommonDrops
 https://github.com/EaW-Team/equestria_dev
 https://github.com/ec-/Quake3e
 https://github.com/elishacloud/Silent-Hill-2-Enhancements
+https://github.com/endlesstravel/Love2dCS
 https://github.com/enduro2d/enduro2d
 https://github.com/enginmanap/limonEngine
 https://github.com/ErikLetson/torso-ninja
 https://github.com/ErikLetson/torso-ninja-2
 https://github.com/ezEngine/ezEngine
 https://github.com/fallahn/xygine
+https://github.com/FaronBracy/RogueSharp
 https://github.com/fegennari/3DWorld
 https://github.com/flathub (all repositories which are games there)
 https://github.com/FUSEEProjectTeam/Fusee
@@ -233,8 +238,11 @@ https://github.com/fynnfluegge/oreon-engine
 https://github.com/Galapix/galapix
 https://github.com/gamearians
 https://github.com/GamedevFramework/gf
+https://github.com/gan74/Yave
 https://github.com/GlPortal/RadixEngine
 https://github.com/gnFur/Monofoxe
+https://github.com/GNOME/quadrapassel
+https://github.com/godot-mega-man/Mega-Man-Engine
 https://github.com/godotengine/godot-design
 https://github.com/grantjenks/free-python-games (check all)
 https://github.com/H-uru/Plasma
@@ -247,6 +255,7 @@ https://github.com/Illation/ETEngine
 https://github.com/Im-dex/xray-162
 https://github.com/jasonrohrer (add gits to his games)
 https://github.com/JohanLi/uncharted-waters-2
+https://github.com/JohnLamontagne/Lunar-Engine
 https://github.com/junkdog/artemis-odb
 https://github.com/jwvhewitt/gearhead-caramel.git
 https://github.com/KDE
@@ -267,6 +276,7 @@ https://github.com/mofr/Diablerie
 https://github.com/moonwards1/Moonwards-Virtual-Moon
 https://github.com/morganbengtsson/mos
 https://github.com/MrFrenik/Enjon
+https://github.com/MultiCraft/MultiCraft
 https://github.com/MustaphaTR/Romanovs-Vengeance
 https://github.com/ogarcia/opensudoku
 https://github.com/OGRECave/scape
@@ -278,6 +288,7 @@ https://github.com/opensourcedesign
 https://github.com/opentrack/opentrack
 https://github.com/OSSGames
 https://github.com/OSSGames (all there, but we should have them already)
+https://github.com/Patapom/GodComplex
 https://github.com/PavelDoGreat/WebGL-Fluid-Simulation
 https://github.com/perbone/luascript
 https://github.com/pixijs/pixi.js
@@ -296,6 +307,7 @@ https://github.com/RetroAchievements/RALibretro
 https://github.com/RetroAchievements/RAWeb
 https://github.com/rizwan3d/MotoGameEngine
 https://github.com/rlguy/FantasyMapGenerator
+https://github.com/rotators/Fo1in2
 https://github.com/RoxasShadow/Sottaceto
 https://github.com/rramsden/ymir
 https://github.com/sabresaurus/SabreCSG

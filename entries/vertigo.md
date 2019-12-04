@@ -7,7 +7,7 @@ _Flight simulator._
 - Download: http://stjerneskud.info/vertigo/download.html
 - Platform: Linux
 - Keywords: simulation, flight, remake
-- Code repository: (see download)
+- Code repository: https://gitlab.com/osgames/vertigo.git (import of sources)
 - Code language: C
 - Code license: GPL-2.0
 

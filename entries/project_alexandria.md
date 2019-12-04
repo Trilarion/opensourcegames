@@ -4,7 +4,7 @@ _Space combat game._
 
 - Home: http://www.sixthfloorlabs.com/projects/alexandria/
 - State: beta, inactive since 2007
-- Download: http://www.sixthfloorlabs.com/projects/alexandria/download/
+- Download: http://www.sixthfloorlabs.com/files/
 - Keywords: arcade, open content
 - Code repository: (see download)
 - Code language: Python

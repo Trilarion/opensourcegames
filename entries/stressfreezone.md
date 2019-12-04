@@ -6,9 +6,11 @@ _Space simulation focused on cooperative (non-massive)-multiplayer and intuitive
 - State: beta, inactive since 2007
 - Download: https://web.archive.org/web/20130606103829/http://ghoulsblade.schattenkind.net/sfz/LATEST_SFZ_SOURCE.zip
 - Keywords: simulation, multiplayer online, space
-- Code repository: (see download)
+- Code repository: https://gitlab.com/osgames/stressfreezone.git (import of sources)
 - Code language: C++, Lua
 - Code license: GPL-3.0
 - Code dependencies: Lugre
 
 ## Building
+
+- Build system: Make, premake

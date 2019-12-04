@@ -6,12 +6,12 @@ _Save-the-world arcade game._
 - State: beta, inactive since 2007
 - Platform: Windows, Linux, macOS
 - Keywords: arcade, open content
-- Code repository: (see home)
+- Code repository: https://gitlab.com/osgames/pillows.git (import of sources)
 - Code language: Python
 - Code license: GPL-2.0
 - Code dependencies: pygame
 - Assets license: FAL
 
-Developer: Chris Hopp
+Developer: Chris Hopp (fydo.net)
 
 ## Building

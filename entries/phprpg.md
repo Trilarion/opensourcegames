@@ -7,7 +7,7 @@ _Multiplayer role playing game engine which shares common qualities between mult
 - Download: https://sourceforge.net/projects/phprpg/files/
 - Platform: Web
 - Keywords: role playing, game engine
-- Code repository: http://phprpg.cvs.sourceforge.net
+- Code repository: https://gitlab.com/osgames/phprpg.git (conversion from cvs), http://phprpg.cvs.sourceforge.net (cvs)
 - Code language: PHP
 - Code license: GPL-2.0
 

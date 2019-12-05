@@ -6,7 +6,7 @@ _Clone of Super Smash Bros.._
 - State: mature, inactive since 2017
 - Download: https://projecttussle.com/download
 - Platform: Windows, Linux
-- Keywords: action, clone, free content, inspired by Super Smash Bros., multiplayer Competitive, platform
+- Keywords: action, clone, free content, inspired by Super Smash Bros., multiplayer competitive, platform
 - Code repository: https://github.com/digiholic/universalSmashSystem.git
 - Code language: Python
 - Code license: GPL-3.0

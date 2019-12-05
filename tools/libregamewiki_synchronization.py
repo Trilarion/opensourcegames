@@ -140,7 +140,7 @@ if __name__ == "__main__":
     print('similar names')
     for lgw_name in lgw_names:
         for our_name in our_names:
-            if osg.game_name_similarity(lgw_name, our_name) > similarity_threshold:
+            if osg.name_similarity(lgw_name, our_name) > similarity_threshold:
                 print('{} - {}'.format(lgw_name, our_name))
 
     newly_created_entries = 0
@@ -198,7 +198,7 @@ if __name__ == "__main__":
 
             # determine file name
             print('create new entry for {}'.format(lgw_name))
-            file_name = osg.canonical_game_name(lgw_name) + '.md'
+            file_name = osg.canonical_entry_name(lgw_name) + '.md'
             target_file = os.path.join(constants.entries_path, file_name)
             if os.path.isfile(target_file):
                 print('warning: file {} already existing, save under slightly different name'.format(file_name))

@@ -6,7 +6,7 @@ _Clone of Super Smash Bros.._
 - State: mature
 - Download: https://github.com/sgadrat/super-tilt-bro/releases
 - Platform: Linux (NES emulator)
-- Keywords: platform, clone, free content, inspired by Super Smash Bros., multiplayer Competitive
+- Keywords: platform, clone, free content, inspired by Super Smash Bros., multiplayer competitive
 - Code repository: https://github.com/sgadrat/super-tilt-bro.git
 - Code language: Assembly, Python
 - Code license: WTFPL

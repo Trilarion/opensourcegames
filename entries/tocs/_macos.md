@@ -51,7 +51,7 @@
 - **[Duck Marines](../duck_marines.md)** (Lua, zlib, mature, inactive since 2016)
 - **[DwarfCorp](../dwarfcorp.md)** (C#, MIT, mature)
 - **[Eat The Whistle](../eat_the_whistle.md)** (C, ?, mature, inactive since 2017)
-- **[ECWolf](../ecwolf.md)** (C++, GPL-2.0, BSD, LGPL-2.1, libpng, zlib, bzip2, MIT, IJG, Public domain, mature)
+- **[ECWolf](../ecwolf.md)** (C++, GPL-2.0, BSD, LGPL-2.1, zlib, MIT, IJG, Public domain, mature)
 - **[Emilia Pinball](../emilia_pinball.md)** (C++, GPL-2.0, beta)
 - **[Enigma](../enigma.md)** (C, C++, GPL-2.0, mature)
 - **[Escape Towards The Unknown](../escape_towards_the_unknown.md)** (C, GPL-2.0, beta, inactive since 2016)

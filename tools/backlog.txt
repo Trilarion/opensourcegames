@@ -13,6 +13,7 @@ http://game-editor.com/Main_Page
 http://giderosmobile.com/
 http://haxepunk.com/
 http://hcsoftware.sourceforge.net/jason-rohrer/ (various games there)
+http://hgm.nubati.net/
 http://icculus.org/
 http://icculus.org/asciiroth/
 http://icculus.org/avp/
@@ -190,7 +191,6 @@ https://github.com/AdaDoom3/AdaDoom3
 https://github.com/AdamsLair/duality
 https://github.com/Alzter/TuxBuilder
 https://github.com/amerkoleci/Vortice.Windows
-https://github.com/ao-libre/ao-cliente
 https://github.com/arturkot/the-house-game
 https://github.com/AtomicGameEngine/AtomicGameEngine
 https://github.com/atphalix/nexuiz
@@ -222,6 +222,7 @@ https://github.com/Donerkebap13/DonerComponents
 https://github.com/Drasky-Vanderhoff/CommonDrops
 https://github.com/EaW-Team/equestria_dev
 https://github.com/ec-/Quake3e
+https://github.com/EliFUT/android
 https://github.com/elishacloud/Silent-Hill-2-Enhancements
 https://github.com/endlesstravel/Love2dCS
 https://github.com/enduro2d/enduro2d

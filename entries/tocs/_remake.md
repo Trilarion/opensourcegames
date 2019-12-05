@@ -103,7 +103,7 @@
 - **[Dust Racing 2D](../dust_racing_2d.md)** (C, C++, GPL-3.0, mature)
 - **[DXX-Rebirth](../dxx-rebirth.md)** (C, C++, Python, GPL-3.0, Custom, mature)
 - **[Eat The Whistle](../eat_the_whistle.md)** (C, ?, mature, inactive since 2017)
-- **[ECWolf](../ecwolf.md)** (C++, GPL-2.0, BSD, LGPL-2.1, libpng, zlib, bzip2, MIT, IJG, Public domain, mature)
+- **[ECWolf](../ecwolf.md)** (C++, GPL-2.0, BSD, LGPL-2.1, zlib, MIT, IJG, Public domain, mature)
 - **[EDuke32](../eduke32.md)** (C, C++, GPL-2.0, mature)
 - **[Enduro tribute](../enduro_tribute.md)** (JavaScript, MIT, mature)
 - **[Enigma](../enigma.md)** (C, C++, GPL-2.0, mature)

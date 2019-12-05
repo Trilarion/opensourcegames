@@ -30,7 +30,7 @@ def update_readme_and_tocs(infos):
     """
     print('update readme and toc files')
 
-    # delete content of toc path
+    # completely delete content of toc path
     for file in os.listdir(c.tocs_path):
         os.remove(os.path.join(c.tocs_path, file))
 
@@ -49,11 +49,31 @@ def update_readme_and_tocs(infos):
     start = matches[0]
     end = matches[2]
 
-    # create all toc
-    title = 'All'
-    file = '_all.md'
-    tocs_text = '**[{} entries](entries/tocs/{}#{})** ({})\n'.format(title, file, title, len(infos))
-    create_toc(title, file, infos)
+    tocs_text = ''
+
+    # split infos
+    infos_games, infos_tools, infos_frameworks, infos_libraries = osg.split_infos(infos)
+
+    # create games, tools, frameworks, libraries tocs
+    title = 'Games'
+    file = '_games.md'
+    tocs_text += '**[{}](entries/tocs/{}#{})** ({}) - '.format(title, file, title, len(infos_games))
+    create_toc(title, file, infos_games)
+
+    title = 'Tools'
+    file = '_tools.md'
+    tocs_text += '**[{}](entries/tocs/{}#{})** ({}) - '.format(title, file, title, len(infos_tools))
+    create_toc(title, file, infos_tools)
+
+    title = 'Frameworks'
+    file = '_frameworks.md'
+    tocs_text += '**[{}](entries/tocs/{}#{})** ({}) - '.format(title, file, title, len(infos_frameworks))
+    create_toc(title, file, infos_frameworks)
+
+    title = 'Libraries'
+    file = '_libraries.md'
+    tocs_text += '**[{}](entries/tocs/{}#{})** ({})\n'.format(title, file, title, len(infos_libraries))
+    create_toc(title, file, infos_libraries)
 
     # create by category
     categories_text = []
@@ -115,6 +135,8 @@ def check_validity_external_links():
     Checks all external links it can find for validity. Prints those with non OK HTTP responses. Does only need to be run
     from time to time.
     """
+
+    # TODO check if links are occurring in multiple entries, first go through all entries and find all links, then check links for multiple entries, then check links, follow redirects
 
     print("check external links (can take a while)")
 
@@ -191,6 +213,7 @@ def fix_entries():
     keyword_synonyms = {'RTS': ('real time', 'strategy'), 'realtime': 'real time'}
 
     # TODO also sort other fields, only read once and then do all, move to separate file
+    # example Javascript to JavaScript and then add whenever the known languages check hits
 
     print('fix entries')
 
@@ -410,8 +433,10 @@ def update_statistics(infos):
     for info in infos:
         if field in info:
             keywords.extend(info[field])
-    # ignore those starting with "inspired by"
-    keywords = [x for x in keywords if not x.startswith('inspired by ')]
+    # reduce those starting with "inspired by"
+    keywords = [x if not x.startswith('inspired by') else 'inspired' for x in keywords]
+    # reduce those starting with "multiplayer"
+    keywords = [x if not x.startswith('multiplayer') else 'multiplayer' for x in keywords]
 
     unique_keywords = set(keywords)
     unique_keywords = [(l, keywords.count(l) / len(keywords)) for l in unique_keywords]

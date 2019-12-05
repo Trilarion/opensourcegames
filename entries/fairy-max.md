@@ -2,7 +2,8 @@
 
 _Fairy-Max is a xboard compatible chess engine for playing user defined chess variants with non-orthodox pieces._
 
-- Home: http://www.chessvariants.org/index/msdisplay.php?itemid=MSfairy-max
+- Home: http://home.hccnet.nl/h.g.muller/CVfairy.html, https://web.archive.org/web/20150412073152/http://www.chessvariants.org/index/msdisplay.php?itemid=MSfairy-max
+- Media: https://en.wikipedia.org/wiki/Fairy-Max
 - State: mature, inactive since 2018
 - Download: http://home.hccnet.nl/h.g.muller/fairymax.tar.gz
 - Keywords: simulation, chess

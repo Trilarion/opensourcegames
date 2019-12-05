@@ -9,7 +9,7 @@ _Remake of Wolfenstein 3D, Spear of Destiny._
 - Keywords: remake, first-person, inspired by Wolfenstein 3D + Spear of Destiny, shooter
 - Code repository: https://bitbucket.org/ecwolf/ecwolf.git
 - Code language: C++
-- Code license: GPL-2.0, BSD, LGPL-2.1, libpng, zlib, bzip2, MIT, IJG, Public domain
+- Code license: GPL-2.0, BSD, LGPL-2.1, zlib, MIT, IJG, Public domain
 
 ## Building
 

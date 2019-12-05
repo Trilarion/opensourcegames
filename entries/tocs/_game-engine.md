@@ -62,7 +62,7 @@
 - **[Open Cube](../open_cube.md)** (C++, zlib, beta, inactive since 2017)
 - **[Open Game Engine](../open_game_engine.md)** (C++, LGPL-2.1, beta, inactive since 2008)
 - **[openage](../openage.md)** (C++, Python, GPL-3.0, beta)
-- **[OpenBOR](../openbor.md)** (C, C++, BSD, mature)
+- **[OpenBOR](../openbor.md)** (C, C++, 3-clause BSD, mature)
 - **[OpenGothic](../opengothic.md)** (C++, MIT, beta)
 - **[OpenJK](../openjk.md)** (C, C++, GPL-2.0, beta)
 - **[OpenKeeper](../openkeeper.md)** (Java, GPL-3.0, beta)

@@ -204,7 +204,7 @@
 - **[Toppler](../toppler.md)** (C++, GPL-2.0, mature, inactive since 2012)
 - **[Tremulous](../tremulous.md)** (C, GPL-2.0, mature, inactive since 2016)
 - **[Tressette](../tressette.md)** (C++, GPL-2.0, mature, inactive since 2017)
-- **[Trigger](../trigger.md)** (C++, BSD, GPL, beta)
+- **[Trigger](../trigger.md)** (C++, GPL-2.0, beta)
 - **[Tumiki Fighters](../tumiki_fighters.md)** (D, C++, 2-clause BSD, mature, inactive since 2005)
 - **[TUSSLE](../tussle.md)** (Python, GPL-3.0, mature, inactive since 2017)
 - **[Tux Racer](../tux_racer.md)** (C, GPL-2.0, beta, inactive since 2001)

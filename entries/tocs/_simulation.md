@@ -84,7 +84,7 @@
 - **[RedShift](../redshift.md)** (C, C++, GPL-2.0, beta, inactive since 2008)
 - **[Rigs of Rods](../rigs_of_rods.md)** (C, C++, AngelScript, GPL-3.0, mature)
 - **[sandspiel](../sandspiel.md)** (Rust, JavaScript, TypeScript, MIT, beta)
-- **[Simutrans](../simutrans.md)** (C++, Artistic License, mature)
+- **[Simutrans](../simutrans.md)** (C++, Artistic License-1.0, mature)
 - **[Sopwith 3](../sopwith_3.md)** (C, C++, Objective-C, GPL-2.0, beta, inactive since 2003)
 - **[StressFreeZone](../stressfreezone.md)** (C++, Lua, GPL-3.0, beta, inactive since 2007)
 - **[Stunt Car Racer Remake](../stunt_car_racer_remake.md)** (C++, BSD, beta, inactive since 2012)

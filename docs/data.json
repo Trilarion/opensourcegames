@@ -462,7 +462,7 @@
    "<a href=\"http://www.comunidadargentum.com/descargas/\">Link</a>",
    "beta / inactive since 2014",
    "role playing, multiplayer online + massive",
-   "<a href=\"https://github.com/Argentum-Online/Argentum-Online.git\">Source</a> - Visual Basic - GPL-2.0"
+   "<a href=\"https://github.com/ao-libre/ao-server.git\">Source</a> - Visual Basic - GPL-2.0"
   ],
   [
    "Arianne / Marauroa (<a href=\"https://arianne-project.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/arianne_marauroa.md\">entry</a>)",
@@ -677,7 +677,7 @@
    "3D, first-person roguelike.",
    "",
    "mature / active",
-   "role playing, commercial content, inspired by Barony, multiplayer Co-op + Online + LAN, remake, roguelike",
+   "role playing, commercial content, inspired by Barony, multiplayer co-op + online + LAN, remake, roguelike",
    "<a href=\"https://github.com/TurningWheel/Barony.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
@@ -1469,7 +1469,7 @@
    "Remake of Cortex Command.",
    "",
    "beta / active",
-   "strategy, commercial content, inspired by Cortex Command, multiplayer Split-screen + Online + LAN, real time, remake",
+   "strategy, commercial content, inspired by Cortex Command, multiplayer split-screen + online + LAN, real time, remake",
    "<a href=\"https://github.com/cortex-command-community/Cortex-Command-Community-Project-Source.git\">Source</a> - C++ - AGPL-3.0"
   ],
   [
@@ -1829,7 +1829,7 @@
    "Clone of Minecraft.",
    "",
    "mature / inactive since 2017",
-   "puzzle, clone, inspired by Minecraft, multiplayer Online, open content, sandbox, voxel",
+   "puzzle, clone, inspired by Minecraft, multiplayer online, open content, sandbox, voxel",
    "<a href=\"https://github.com/fogleman/Craft.git\">Source</a> - C, Python - MIT"
   ],
   [
@@ -2566,14 +2566,14 @@
    "",
    "mature / inactive since 1992",
    "adventure, text-based",
-   "<a href=\"http://git.savannah.gnu.org/cgit/emacs.git/tree/lisp/play/dunnet.el?h=emacs-25\">Source</a> - Emacs Lisp - GPL-3.0"
+   "Emacs Lisp - GPL-3.0"
   ],
   [
    "Dust Racing 2D (<a href=\"http://juzzlin.github.io/DustRacing2D/index.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/dust_racing_2d.md\">entry</a>)",
    "Tile-based, 2D racing game, remake of Micro Machines.",
    "<a href=\"https://github.com/juzzlin/DustRacing2D/releases\">Link</a>",
    "mature / active",
-   "sports, 2D, inspired by Micro Machines, multiplayer Split-screen, open content, racing, remake",
+   "sports, 2D, inspired by Micro Machines, multiplayer split-screen, open content, racing, remake",
    "<a href=\"https://github.com/juzzlin/DustRacing2D.git\">Source</a> - C, C++ - GPL-3.0"
   ],
   [
@@ -2685,7 +2685,7 @@
    "Clone of Artemis: Spaceship Bridge Simulator.",
    "<a href=\"http://daid.github.io/EmptyEpsilon/#tabs=5\">Link</a>",
    "mature / active",
-   "role playing, clone, inspired by Artemis: Spaceship Bridge Simulator, multiplayer Online + LAN",
+   "role playing, clone, inspired by Artemis: Spaceship Bridge Simulator, multiplayer online + LAN",
    "<a href=\"https://github.com/daid/EmptyEpsilon.git\">Source</a> - C, C++, Lua - GPL-2.0"
   ],
   [
@@ -2897,7 +2897,7 @@
    "<a href=\"https://github.com/Project-F/F.LF.git\">Source</a> - JavaScript - ?"
   ],
   [
-   "Fairy-Max (<a href=\"http://www.chessvariants.org/index/msdisplay.php?itemid=MSfairy-max\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/fairy-max.md\">entry</a>)",
+   "Fairy-Max (<a href=\"http://home.hccnet.nl/h.g.muller/CVfairy.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/fairy-max.md\">entry</a>)",
    "Fairy-Max is a xboard compatible chess engine for playing..",
    "<a href=\"http://home.hccnet.nl/h.g.muller/fairymax.tar.gz\">Link</a>",
    "mature / inactive since 2018",
@@ -3229,7 +3229,7 @@
    "Remake of Counter-Strike 1.5 running on the FTE QuakeWorld..",
    "<a href=\"https://sourceforge.net/projects/freecs-1-5/files/\">Link</a>",
    "mature / active",
-   "action, first-person, inspired by Counter-Strike, multiplayer Online + LAN, remake, requires original content, shooter",
+   "action, first-person, inspired by Counter-Strike, multiplayer online + LAN, remake, requires original content, shooter",
    "<a href=\"https://git.code.sf.net/p/freecs-1-5/code\">Source</a> - QuakeC - GPL-2.0"
   ],
   [
@@ -3789,7 +3789,7 @@
    "Remake of GoldenEye 007.",
    "",
    "mature / inactive since 2018",
-   "remake, first-person, free content, inspired by GoldenEye 007, multiplayer Competitive + Online, shooter",
+   "remake, first-person, free content, inspired by GoldenEye 007, multiplayer competitive + online, shooter",
    "<a href=\"https://github.com/goldeneye-source/ges-code.git\">Source</a> - C++, C - GPL-3.0"
   ],
   [
@@ -3821,7 +3821,7 @@
    "Clone of Gorillas.",
    "",
    "beta / active",
-   "remake, artillery, clone, inspired by Gorillas, multiplayer Hotseat, open content",
+   "remake, artillery, clone, inspired by Gorillas, multiplayer hotseat, open content",
    "<a href=\"https://github.com/nodef0/gorillas-rs.git\">Source</a> - Rust - MIT"
   ],
   [
@@ -3869,7 +3869,7 @@
    "Clone of Bomberman.",
    "",
    "mature / active",
-   "action, clone, inspired by Bomberman, multiplayer Competitive, open content",
+   "action, clone, inspired by Bomberman, multiplayer competitive, open content",
    "<a href=\"https://anongit.kde.org/granatier.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -4509,7 +4509,7 @@
    "Remake of Jazz Jackrabbit 2.",
    "",
    "mature / active",
-   "platform, 2D, commercial content, inspired by Jazz Jackrabbit 2, multiplayer Online, remake",
+   "platform, 2D, commercial content, inspired by Jazz Jackrabbit 2, multiplayer online, remake",
    "<a href=\"https://github.com/deathkiller/jazz2.git\">Source</a> - C#, JavaScript - GPL-3.0"
   ],
   [
@@ -5141,7 +5141,7 @@
    "Clone of Lemmings.",
    "",
    "beta / active",
-   "puzzle, 2D, clone, inspired by Lemmings, multiplayer Online, open content",
+   "puzzle, 2D, clone, inspired by Lemmings, multiplayer online, open content",
    "<a href=\"https://github.com/SimonN/LixD.git\">Source</a> - D, C++ - CC0"
   ],
   [
@@ -5749,7 +5749,7 @@
    "Remake of Bomberman.",
    "",
    "mature / active",
-   "action, clone, inspired by Bomberman, multiplayer Online, remake",
+   "action, clone, inspired by Bomberman, multiplayer online, remake",
    "<a href=\"https://github.com/Javanaise/mrboom-libretro.git\">Source</a> - C++ - MIT"
   ],
   [
@@ -6189,7 +6189,7 @@
    "Mod of Team Fortress 2.",
    "",
    "beta / active",
-   "remake, commercial content, inspired by Team Fortress 2, modification, multiplayer Competitive + Online + LAN + Co-op + Matchmaking",
+   "remake, commercial content, inspired by Team Fortress 2, modification, multiplayer competitive + online + LAN + co-op + matchmaking",
    "<a href=\"https://github.com/KaidemonLP/Open-Fortress-Source.git\">Source</a> - C++ - Custom"
   ],
   [
@@ -6206,7 +6206,7 @@
    "",
    "mature / active",
    "puzzle, clone, inspired by Super Hexagon",
-   "<a href=\"http://github.com/SuperV1234/SSVOpenHexagon\">Source</a> - C++ - AFL-3.0"
+   "<a href=\"https://github.com/SuperV1234/SSVOpenHexagon.git\">Source</a> - C++ - AFL-3.0"
   ],
   [
    "Open Horizon (<a href=\"http://zxstudio.org/blog/author/razgriz/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/open_horizon.md\">entry</a>)",
@@ -6238,7 +6238,7 @@
    "",
    "mature / active",
    "role playing, board, ruleset",
-   "<a href=\"https://github.com/openlegend/core-rules.git\">Source</a> - Text - Custom"
+   "<a href=\"https://github.com/openlegend/core-rules.git\">Source</a> - None - Custom"
   ],
   [
    "Open Meridian (<a href=\"http://openmeridian.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/open_meridian.md\">entry</a>)",
@@ -6406,7 +6406,7 @@
    "",
    "mature / active",
    "game engine, clone, free content, inspired by Streets of Rage + Double Dragon + Final Fight",
-   "<a href=\"https://github.com/DCurrent/openbor.git\">Source</a> - C, C++ - BSD"
+   "<a href=\"https://github.com/DCurrent/openbor.git\">Source</a> - C, C++ - 3-clause BSD"
   ],
   [
    "OpenBVE (<a href=\"https://openbve-project.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/openbve.md\">entry</a>)",
@@ -6461,7 +6461,7 @@
    "Clone of Dominion.",
    "",
    "beta / active",
-   "strategy, clone, inspired by Dominion, multiplayer Online, open content, text-based",
+   "strategy, clone, inspired by Dominion, multiplayer online, open content, text-based",
    "<a href=\"https://github.com/WaveHack/OpenDominion.git\">Source</a> - PHP - AGPL-3.0"
   ],
   [
@@ -6613,7 +6613,7 @@
    "Remake of Liero.",
    "",
    "mature / inactive since 2015",
-   "action, arcade, free content, inspired by Liero, multiplayer Split-screen, remake",
+   "action, arcade, free content, inspired by Liero, multiplayer split-screen, remake",
    "<a href=\"https://github.com/gliptic/liero.git\">Source</a> - C++ - Custom"
   ],
   [
@@ -7293,7 +7293,7 @@
    "Clone of Tron.",
    "<a href=\"https://github.com/ginkgo/pink-pony/releases\">Link</a>",
    "mature / inactive since 2017",
-   "puzzle, clone, inspired by Tron, multiplayer Split-screen, open content, racing",
+   "puzzle, clone, inspired by Tron, multiplayer split-screen, open content, racing",
    "<a href=\"https://github.com/ginkgo/pink-pony.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
@@ -7429,7 +7429,7 @@
    "Remake of Powerslide.",
    "",
    "beta / active",
-   "arcade, 3D, commercial content, inspired by Powerslide, multiplayer Competitive + Online, racing, remake",
+   "arcade, 3D, commercial content, inspired by Powerslide, multiplayer competitive + online, racing, remake",
    "<a href=\"https://bitbucket.org/dm_999/powerslideremake.git\">Source</a> - C++ - MIT"
   ],
   [
@@ -7526,7 +7526,7 @@
    "<a href=\"https://decoherence.itch.io/project-helena\">Link</a>",
    "beta / active",
    "strategy",
-   "<a href=\"https://gitlab.com/EugeneLoza/Project-Helena\">Source</a> - Pascal - GPL-3.0"
+   "<a href=\"https://gitlab.com/EugeneLoza/Project-Helena.git\">Source</a> - Pascal - GPL-3.0"
   ],
   [
    "Project: Starfighter (<a href=\"https://pr-starfighter.github.io\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/project_starfighter.md\">entry</a>)",
@@ -8173,7 +8173,7 @@
    "Remake of Old School RuneScape.",
    "",
    "mature / active",
-   "role playing, client, commercial content, inspired by Old School RuneScape, multiplayer Competitive + Online + Co-op, remake",
+   "role playing, client, commercial content, inspired by Old School RuneScape, multiplayer competitive + online + co-op, remake",
    "<a href=\"https://github.com/runelite/runelite.git\">Source</a> - Java - 2-clause BSD"
   ],
   [
@@ -8205,7 +8205,7 @@
    "Remake of Grand Theft Auto: San Andreas.",
    "<a href=\"https://github.com/GTA-ASM/SanAndreasUnity/releases\">Link</a>",
    "mature / active",
-   "remake, commercial content, inspired by Grand Theft Auto: San Andreas, multiplayer Online + LAN",
+   "remake, commercial content, inspired by Grand Theft Auto: San Andreas, multiplayer online + LAN",
    "<a href=\"https://github.com/GTA-ASM/SanAndreasUnity.git\">Source</a> - C# - MIT"
   ],
   [
@@ -8518,7 +8518,7 @@
    "<a href=\"http://www.simutrans.de/download\">Link</a>",
    "mature / active",
    "simulation, clone, inspired by Transport Tycoon",
-   "<a href=\"https://github.com/aburch/simutrans.git\">Source</a> - C++ - Artistic License"
+   "<a href=\"https://github.com/aburch/simutrans.git\">Source</a> - C++ - Artistic License-1.0"
   ],
   [
    "Sinatra (<a href=\"https://web.archive.org/web/20120326005334/http://fredrik.jemla.eu/sinatra/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/sinatra.md\">entry</a>)",
@@ -8613,7 +8613,7 @@
    "Clone of Slime Volleyball.",
    "",
    "beta / active",
-   "arcade, clone, free content, inspired by Slime Volleyball, multiplayer Competitive + Split-screen, skill",
+   "arcade, clone, free content, inspired by Slime Volleyball, multiplayer competitive + split-screen, skill",
    "<a href=\"https://github.com/highfestiva/life.git\">Source</a> - C++ - 3-clause BSD"
   ],
   [
@@ -8877,7 +8877,7 @@
    "Clone of Tetris.",
    "<a href=\"http://www.spludlow.co.uk/Install/Downloads.aspx\">Link</a>",
    "mature / inactive since 2018",
-   "puzzle, clone, inspired by Tetris, multiplayer Online + LAN + Split-screen, open content",
+   "puzzle, clone, inspired by Tetris, multiplayer online + LAN + split-screen, open content",
    "C# - GPL-3.0"
   ],
   [
@@ -9045,7 +9045,7 @@
    "Remake of Strife.",
    "",
    "beta / inactive since 2016",
-   "remake, commercial content, first-person, inspired by Strife, multiplayer Online, requires original content, shooter",
+   "remake, commercial content, first-person, inspired by Strife, multiplayer online, requires original content, shooter",
    "<a href=\"https://github.com/svkaiser/strife-ve.git\">Source</a> - C, C++, Objective-C - GPL-3.0"
   ],
   [
@@ -9125,7 +9125,7 @@
    "Clone of Super Smash Bros..",
    "<a href=\"https://github.com/sgadrat/super-tilt-bro/releases\">Link</a>",
    "mature / active",
-   "platform, clone, free content, inspired by Super Smash Bros., multiplayer Competitive",
+   "platform, clone, free content, inspired by Super Smash Bros., multiplayer competitive",
    "<a href=\"https://github.com/sgadrat/super-tilt-bro.git\">Source</a> - Assembly, Python - WTFPL"
   ],
   [
@@ -9197,7 +9197,7 @@
    "Clone of Mario Party.",
    "<a href=\"https://www.reddit.com/r/SuperTuxParty/\">Link</a>",
    "beta / active",
-   "action, clone, entertainment, inspired by Mario Party, multiplayer Split-screen, open content",
+   "action, clone, entertainment, inspired by Mario Party, multiplayer split-screen, open content",
    "<a href=\"https://gitlab.com/SuperTuxParty/SuperTuxParty.git\">Source</a> - GDScript - GPL-3.0"
   ],
   [
@@ -9421,7 +9421,7 @@
    "Remake of The Elder Scrolls III: Morrowind.",
    "<a href=\"https://github.com/TES3MP/openmw-tes3mp/releases\">Link</a>",
    "beta / active",
-   "remake, inspired by The Elder Scrolls III: Morrowind, multiplayer Online",
+   "remake, inspired by The Elder Scrolls III: Morrowind, multiplayer online",
    "<a href=\"https://github.com/TES3MP/openmw-tes3mp.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
@@ -9790,7 +9790,7 @@
    "<a href=\"https://sourceforge.net/projects/trigger-rally/files/\">Link</a>",
    "beta / active",
    "action, cars, racing",
-   "<a href=\"https://svn.code.sf.net/p/trigger-rally/code\">Source</a> - C++ - BSD"
+   "<a href=\"https://svn.code.sf.net/p/trigger-rally/code\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Trinity Reign (<a href=\"https://web.archive.org/web/20131209073248/http://trinity-reign.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/trinity_reign.md\">entry</a>)",
@@ -9885,7 +9885,7 @@
    "Clone of Super Smash Bros..",
    "<a href=\"https://projecttussle.com/download\">Link</a>",
    "mature / inactive since 2017",
-   "action, clone, free content, inspired by Super Smash Bros., multiplayer Competitive, platform",
+   "action, clone, free content, inspired by Super Smash Bros., multiplayer competitive, platform",
    "<a href=\"https://github.com/digiholic/universalSmashSystem.git\">Source</a> - Python - GPL-3.0"
   ],
   [
@@ -10269,7 +10269,7 @@
    "Remake of Tetris.",
    "<a href=\"http://victornils.net/tetris/#download\">Link</a>",
    "beta / active",
-   "puzzle, inspired by Tetris, multiplayer Competitive + Online, open content, remake",
+   "puzzle, inspired by Tetris, multiplayer competitive + online, open content, remake",
    "<a href=\"https://github.com/vicgeralds/vitetris.git\">Source</a> - C - 2-clause BSD"
   ],
   [
@@ -10677,7 +10677,7 @@
    "Remake of Duke Nukem 3D.",
    "<a href=\"http://vision.gel.ulaval.ca/~klein/duke3d/xDuke_19.7.1_Source_Code.rar\">Link</a>",
    "beta / inactive since 2010",
-   "remake, commercial content, inspired by Duke Nukem 3D, multiplayer LAN + Online, requires original content",
+   "remake, commercial content, inspired by Duke Nukem 3D, multiplayer LAN + online, requires original content",
    "C - GPL-2.0"
   ],
   [
@@ -10909,7 +10909,7 @@
    "Remake of Z.",
    "",
    "mature / active",
-   "strategy, free content, inspired by Z, multiplayer Online + LAN, real time, remake",
+   "strategy, free content, inspired by Z, multiplayer online + LAN, real time, remake",
    "<a href=\"http://hg.code.sf.net/p/zedonline/code\">Source</a> - C++ - ?"
   ],
   [

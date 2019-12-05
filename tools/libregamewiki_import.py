@@ -55,7 +55,7 @@ def download_lgw_content():
     for game in games:
         print(game[1])
         url = base_url + game[0]
-        destination_file = os.path.join(destination_path, osg.canonical_game_name(game[0][1:]) + '.html')
+        destination_file = os.path.join(destination_path, osg.canonical_entry_name(game[0][1:]) + '.html')
 
         text = requests.get(url).text
         utils.write_text(destination_file, text)

@@ -6,7 +6,7 @@ _Turn-based strategy/RPG game._
 - State: beta
 - Download: https://decoherence.itch.io/project-helena, https://sourceforge.net/projects/projecthelena/files
 - Keywords: strategy
-- Code repository: https://gitlab.com/EugeneLoza/Project-Helena
+- Code repository: https://gitlab.com/EugeneLoza/Project-Helena.git
 - Code language: Pascal
 - Code license: GPL-3.0
 

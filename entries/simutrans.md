@@ -9,7 +9,7 @@ _A cross-platform simulation game in which the player strives to run a successfu
 - Keywords: simulation, clone, inspired by Transport Tycoon
 - Code repository: https://github.com/aburch/simutrans.git, https://svn.code.sf.net/p/simutrans/code (svn)
 - Code language: C++
-- Code license: Artistic License
+- Code license: Artistic License-1.0 (https://github.com/aburch/simutrans/blob/master/LICENSE.txt)
 
 Is [this](https://www.simutrans.com/en/) the English version?
 

@@ -9,7 +9,6 @@ _Real-time strategy game._
 - Code language: Ruby
 - Code license: LGPL-2.1
 - Code dependencies: Rubygame, SDL
-
-Developer: Shawn Anderson
+- Developer: Shawn Anderson
 
 ## Building

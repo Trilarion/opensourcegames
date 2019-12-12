@@ -11,10 +11,10 @@ _Racing game featuring the Linux kernel mascot, Tux._
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: PLIB
+- Developer: Steve Baker, Oliver Baker
 
 The codebase was eventually forked by the GoTH development team as the basis for SuperTuxKart.
 
-Developer: Steve Baker, Oliver Baker
 
 ## Building
 

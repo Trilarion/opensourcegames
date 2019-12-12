@@ -13,10 +13,9 @@ _C port of the computer game Asylum, which was written by Andy Southgate in 1994
 - Code license: GPL-3.0
 - Code dependencies: OpenGL, SDL
 - Assets license: Public domain
+- Developer: Andy Southgate, Hugh Robinson
 
 [Successor of Asylum](http://asylum.acornarcade.com/) from 1994.
-
-Developer: Andy Southgate, Hugh Robinson
 
 ## Building
 

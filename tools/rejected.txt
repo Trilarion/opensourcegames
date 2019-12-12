@@ -71,6 +71,7 @@ Howitzer Skirmish (http://howski.sourceforge.net/): No source code
 Ikariam (https://github.com/advocaite/ikariam, https://github.com/TheOnly92/Ikariem): No license information found, no assets license information found
 imperialism-remake (http://remake.twelvepm.de/, https://github.com/Trilarion/imperialism-Remake): Too minimal (I must know)
 Imperium: Sticks (http://rtciv.sourceforge.net/, http://sourceforge.net/projects/rtciv): No source code available
+ImperiumAO (https://sourceforge.net/projects/impao, https://www.imperiumao.com.ar/): Only engine is open source, engine is ORE
 Inline-Engine (https://github.com/petiaccja/Inline-Engine): Commercial license
 Interstate Outlaws (http://www.interstateoutlaws.com/): Very early development, No clear indication of license with source code, Abandoned since long time
 Ironclad (https://github.com/mikera/ironclad): No license information, asked but did not get a reply

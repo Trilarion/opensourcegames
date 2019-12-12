@@ -11,7 +11,6 @@ _Blasphemer is an FPS project whose initial goal is to serve as a Free data pack
 - Code license: None (only assets)
 - Code dependencies: Heretic-based
 - Assets license: 3-clause BSD
-
-Developer: G. Wessner, Jute Gyte
+- Developer: G. Wessner, Jute Gyte
 
 ## Building

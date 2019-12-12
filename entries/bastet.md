@@ -9,8 +9,7 @@ _Simple ncurses-based Tetris clone using a special algorithm to give you the wor
 - Code language: C++
 - Code license: GPL-2.0
 - Assets license: no assets
-
-Developer: Federico Poloni
+- Developer: Federico Poloni
 
 Based on Petris (until v0.43)
 

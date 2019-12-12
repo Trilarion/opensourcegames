@@ -10,7 +10,6 @@ _Roguelike RPG._
 - Code repository: (see download)
 - Code language: Pascal
 - Code license: GPL-2.0
-
-Developer: Mario Donick
+- Developer: Mario Donick
 
 ## Building

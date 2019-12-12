@@ -10,7 +10,6 @@ _(abbreviated TOL) Experimental online multiplayer first-person shooter game._
 - Code license: GPL-3.0
 - Code dependencies: Torque 3D
 - Assets license: CC-BY 4.0
-
-Developer: Michael "fr1tz" Goldener
+- Developer: Michael "fr1tz" Goldener
 
 ## Building

@@ -9,7 +9,6 @@ _Arcade game. The player controls a girl, trying to catch good and golden eggs a
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: SDL
-
-Developer: Patrick Gerdsmeier
+- Developer: Patrick Gerdsmeier
 
 ## Building

@@ -9,7 +9,6 @@ _Biogenesis is an artificial life simulator, simulating organisms, their working
 - Code repository: https://git.code.sf.net/p/biogenesis/git
 - Code language: Java
 - Code license: GPL-2.0
-
-Developer: Joan Queralt Molina
+- Developer: Joan Queralt Molina
 
 ## Building

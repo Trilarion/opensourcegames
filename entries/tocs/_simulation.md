@@ -87,7 +87,7 @@
 - **[Simutrans](../simutrans.md)** (C++, Artistic License-1.0, mature)
 - **[Sopwith 3](../sopwith_3.md)** (C, C++, Objective-C, GPL-2.0, beta, inactive since 2003)
 - **[StressFreeZone](../stressfreezone.md)** (C++, Lua, GPL-3.0, beta, inactive since 2007)
-- **[Stunt Car Racer Remake](../stunt_car_racer_remake.md)** (C++, BSD, beta, inactive since 2012)
+- **[Stunt Car Racer Remake](../stunt_car_racer_remake.md)** (C++, Proprietary, beta, inactive since 2012)
 - **[SunDog Resurrection](../sundog_resurrection.md)** (Java, Python, ?, beta)
 - **[sundog](../sundog.md)** (C, C++, Python, MIT, beta)
 - **[The Butterfly Effect](../the_butterfly_effect.md)** (C++, GPL-2.0, beta)

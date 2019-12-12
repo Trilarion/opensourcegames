@@ -11,7 +11,6 @@ _Sudoku game._
 - Code language: C, Java
 - Code license: GPL-3.0
 - Assets license: GPL-3.0
-
-Developer: Sylvain Vedrenne
+- Developer: Sylvain Vedrenne
 
 ## Building

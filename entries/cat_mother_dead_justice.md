@@ -10,8 +10,7 @@ _3D-engine (C++/DirectX9) and a fully playable prototype of a 3rd person action/
 - Code repository: https://gitlab.com/osgames/catmother.git (import of svn), https://svn.code.sf.net/p/catmother/code (svn)
 - Code language: C++
 - Code license: 3-clause BSD, GPL-2.0 (not sure which of them actually)
-
-Developer: Olli Sorjonen, Sami Sorjonen, Jani Kajala, Toni Aittoniemi
+- Developer: Olli Sorjonen, Sami Sorjonen, Jani Kajala, Toni Aittoniemi
 
 ## Building
 

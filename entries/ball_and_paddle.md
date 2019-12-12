@@ -11,7 +11,6 @@ _Extensible ball and paddle game._
 - Code license: GPL-3.0
 - Code dependencies: SDL
 - Assets license: GPL
-
-Developer: Eric P. Hutchins
+- Developer: Eric P. Hutchins
 
 ## Building

@@ -8,7 +8,6 @@ _Black Shades Elite is a fork of the game Black Shades._
 - Code repository: (none)
 - Code language: ?
 - Code license: ? (GPL-2.0)
-
-Developer: David Rosen
+- Developer: David Rosen
 
 ## Building

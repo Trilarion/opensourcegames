@@ -9,7 +9,6 @@ _Implementation of a Norse board game. It supports Hnefatafl 11x11, 13x13, and T
 - Code language: C
 - Code license: ISC
 - Assets license: ? (GPL-3.0)
-
-Developer: Alexander Söderlund
+- Developer: Alexander Söderlund
 
 ## Building

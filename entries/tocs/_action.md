@@ -11,7 +11,7 @@
 - **[alive](../alive.md)** (C++, MIT, beta, inactive since 2017)
 - **[Ares Dogfighter](../ares_dogfighter.md)** (Java, GPL-3.0, beta, inactive since 2016)
 - **[Armagetron Advanced](../armagetron_advanced.md)** (C++, GPL-2.0, mature)
-- **[Armor Alley](../armor_alley.md)** (JavaScript, CC-BY-NC, beta)
+- **[Armor Alley](../armor_alley.md)** (JavaScript, CC-BY-NC-3.0, beta)
 - **[Artillery Duel Reloaded](../artillery_duel_reloaded.md)** (Python, GPL-3.0, beta, inactive since 2012)
 - **[asdf](../asdf.md)** (JavaScript, MIT, mature)
 - **[AssaultCube](../assaultcube.md)** (C, C++, Custom, mature, inactive since 2018)

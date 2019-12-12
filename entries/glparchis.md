@@ -11,7 +11,6 @@ _Implementation of the popular Parchis game, which is played with a dice and 4 p
 - Code language: Python
 - Code license: GPL-3.0
 - Assets license: GPL-2.0
-
-Developer: Mariano Muñoz
+- Developer: Mariano Muñoz
 
 ## Building

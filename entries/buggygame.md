@@ -10,7 +10,6 @@ _buggyGame is a single-player side-scrolling survival-exploration game where a m
 - Code license: GPL-2.0
 - Code dependencies: pygame
 - Assets license: Free Art License
-
-Developer: Chris Hopp
+- Developer: Chris Hopp
 
 ## Building

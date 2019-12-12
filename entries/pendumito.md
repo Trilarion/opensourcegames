@@ -10,7 +10,6 @@ _A version of the WebHangman modified by Klivo to support Esperanto._
 - Code language: JavaScript
 - Code license: GPL-2.0
 - Assets license: GPL-2.0
-
-Developer: Jan Mulder, Klivo
+- Developer: Jan Mulder, Klivo
 
 ## Building

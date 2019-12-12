@@ -12,7 +12,6 @@ _2D graphical game that combines aspects of roguelikes and sandbox games like Mi
 - Code license: GPL-3.0
 - Code dependencies: pygame
 - Assets license: CC-BY-SA, CC0/Public domain), Various (CC-BY)
-
-Developer: themightyglider
+- Developer: themightyglider
 
 ## Building

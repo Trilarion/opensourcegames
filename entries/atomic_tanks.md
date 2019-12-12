@@ -12,8 +12,7 @@ _Scorched Earth clone similar to the Worms series._
 - Code license: GPL-2.0
 - Code dependencies: Allegro
 - Assets license: GPL
-
-Developer: Jesse Smith, Juraj Michalek, Thomas Hudson
+- Developer: Jesse Smith, Juraj Michalek, Thomas Hudson
 
 ## Building
 

@@ -11,7 +11,6 @@ _Real-time multiplayer programming game. You control your creatures using the Lu
 - Code license: GPL
 - Code dependencies: SDL
 - Assets license: GPL
-
-Developer: Florian Wesch
+- Developer: Florian Wesch
 
 ## Building

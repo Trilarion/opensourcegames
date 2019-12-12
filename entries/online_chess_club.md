@@ -10,7 +10,6 @@ _Web chess game._
 - Code repository: https://svn.code.sf.net/p/lgames/code (svn part of it)
 - Code language: PHP, JavaScript
 - Code license: GPL-2.0
-
-Developer: Michael Speck
+- Developer: Michael Speck
 
 ## Building

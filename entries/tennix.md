@@ -9,7 +9,6 @@ _Tennis game._
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependencies: SDL
-
-Developer: Thomas Perl
+- Developer: Thomas Perl
 
 ## Building

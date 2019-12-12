@@ -11,7 +11,6 @@ _2D exploration platformer._
 - Code license: GPL-3.0
 - Code dependencies: SDL
 - Assets license: CC-BY
-
-Developer: Locomalito
+- Developer: Locomalito
 
 ## Building

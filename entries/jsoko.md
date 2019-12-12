@@ -11,7 +11,6 @@ _JSoko is a sokobon style puzzle game. It includes an automatic solver and suppo
 - Code language: Java
 - Code license: GPL (+credits +no-misrepresentation)
 - Assets license: GPL (+credits +no-misrepresentation)
-
-Developer: Heiner Marxen, Matthias Meger
+- Developer: Heiner Marxen, Matthias Meger
 
 ## Building

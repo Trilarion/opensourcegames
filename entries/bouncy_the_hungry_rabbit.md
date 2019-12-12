@@ -10,7 +10,6 @@ _Hide and move game in a garden with vegetables for kids._
 - Code license: GPL-2.0
 - Code dependencies: pygame
 - Assets license: GPL
-
-Developer: Richard T. Jones
+- Developer: Richard T. Jones
 
 ## Building

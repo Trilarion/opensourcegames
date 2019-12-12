@@ -11,7 +11,6 @@ _Karaoke game._
 - Code license: GPL-3.0
 - Code dependencies: GStreamer, Soya3D
 - Assets license: GPL-2.0 (fonts)
-
-Developer: Andreas Kattner, Stefan Huchler, Felix Rodriguez Lopez
+- Developer: Andreas Kattner, Stefan Huchler, Felix Rodriguez Lopez
 
 ## Building

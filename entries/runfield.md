@@ -11,7 +11,6 @@ _Simple 2D game where you control a fox and try to run as long as you can, jumpi
 - Code language: JavaScript
 - Code license: GPL-3.0
 - Assets license: ? (MPL/GPL/LGPL)
-
-Developer: Mozilla, Paul Rouget
+- Developer: Mozilla, Paul Rouget
 
 ## Building

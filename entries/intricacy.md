@@ -11,7 +11,6 @@ _Intricacy is a multiplayer lock-picking puzzle game, in which players design lo
 - Code license: GPL-3.0
 - Code dependencies: curses, SDL
 - Assets license: GPL-3.0
-
-Developer: mbays
+- Developer: mbays
 
 ## Building

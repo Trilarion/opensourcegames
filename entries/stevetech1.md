@@ -10,7 +10,6 @@ _A realtime multiplayer 3D FPS engine._
 - Code language: Java
 - Code license: MIT
 - Code dependencies: jMonkeyEngine
-
-Developer: Stephen Carlyle-Smith
+- Developer: Stephen Carlyle-Smith
 
 ## Building

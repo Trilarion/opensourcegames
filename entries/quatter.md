@@ -11,7 +11,6 @@ _Quarto board game implementation._
 - Code license: GPL-2.0
 - Code dependencies: Urho3D
 - Assets license: CC-BY-SA
-
-Developer: LucKey Productions
+- Developer: LucKey Productions
 
 ## Building

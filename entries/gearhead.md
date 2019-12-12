@@ -9,10 +9,9 @@ _Roguelike mecha RPG series._
 - Code repository: https://github.com/jwvhewitt/gearhead-1.git, https://svn.code.sf.net/p/gearhead/code (svn)
 - Code language: Pascal
 - Code license: LGPL-2.1, Apache-2.0
+- Developer: Joseph Hewitt
 
 There are several successors.
-
-Developer: Joseph Hewitt
 
 ## Building
 

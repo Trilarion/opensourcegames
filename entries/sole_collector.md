@@ -12,8 +12,7 @@ _3D Horror FPS Game._
 - Code license: MIT
 - Code dependencies: jMonkeyEngine
 - Assets license: (See readme)
-
-Developer: Stephen Carlyle-Smith
+- Developer: Stephen Carlyle-Smith
 
 ## Building
 

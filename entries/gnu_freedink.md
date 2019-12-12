@@ -14,8 +14,9 @@ _Dink Smallwood is an adventure/role-playing game, similar to Zelda (2D top view
 - Code license: GPL-3.0
 - Code dependencies: SDL
 - Assets license: CC-BY, CC-BY-SA, Free Art, GPL-3.0, Open Audio, WTFPL, zlib
+- Developer: Sylvain Beucler
 
-Developer: Sylvain Beucler, based on RTSoft and Dan Walma works
+Based on RTSoft and Dan Walma works.
 
 ## Building
 

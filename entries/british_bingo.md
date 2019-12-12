@@ -12,9 +12,8 @@ _British Bingo is a 90-ball bingo game with 3 by 9 boards._
 - Code language: JavaScript
 - Code license: GPL-3.0
 - Assets license: GPL-3.0
+- Developer: Bert Beckwith
 
 The computer simulates your opponents who act like elderly people, e. g. by making mistakes and chatting. The number of players and the speed of the game is configurable.
-
-Developer: Bert Beckwith
 
 ## Building

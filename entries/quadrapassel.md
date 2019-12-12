@@ -4,7 +4,7 @@ _Quadrapassel (formerly a part of GNOME Games) is a GNOME version of Tetris. It 
 
 - Home: https://wiki.gnome.org/Apps/Quadrapassel
 - State: mature
-- Keywords: puzzle, clone, inspired by tetris, open content, tetris-like
+- Keywords: puzzle, clone, inspired by Tetris, open content, tetris-like
 - Code repository: https://gitlab.gnome.org/GNOME/quadrapassel.git
 - Code language: Vala
 - Code license: GPL-2.0

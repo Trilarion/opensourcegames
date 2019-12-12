@@ -10,7 +10,6 @@ _Online multiplayer action game._
 - Code license: GPL-2.0
 - Code dependencies: NeL
 - Assets license: ? (GPL)
-
-Developer: Vianney Lecroart
+- Developer: Vianney Lecroart
 
 ## Building

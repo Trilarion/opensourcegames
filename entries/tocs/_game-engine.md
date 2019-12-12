@@ -26,6 +26,7 @@
 - **[Dreerally](../dreerally.md)** (C, C++, Custom, beta)
 - **[DwarfCorp](../dwarfcorp.md)** (C#, MIT, mature)
 - **[eAdventure](../eadventure.md)** (Java, GPL-3.0, mature, inactive since 2014)
+- **[Elysium Engine](../elysium_engine.md)** (C, GPL-2.0, beta, inactive since 2006)
 - **[erampage](../erampage.md)** (C, GPL-2.0, beta, inactive since 2015)
 - **[Esenthel Engine](../esenthel_engine.md)** (C, C++, Custom, beta)
 - **[Falltergeist](../falltergeist.md)** (C++, GPL-3.0, beta)

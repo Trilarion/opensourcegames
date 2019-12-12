@@ -9,8 +9,7 @@ _Hypercube is a golf-like puzzle game around a tesseract (4D hypercube)._
 - Code language: Java
 - Code license: GPL-2.0
 - Assets license: LGPL
-
-Developer: Harmen van der Wal
+- Developer: Harmen van der Wal
 
 ## Building
 

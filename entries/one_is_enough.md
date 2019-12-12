@@ -10,7 +10,6 @@ _Arcade game._
 - Code license: GPL-2.0
 - Code dependencies: pygame
 - Assets license: GPL-2.0
-
-Developer: Olli Etuaho
+- Developer: Olli Etuaho
 
 ## Building

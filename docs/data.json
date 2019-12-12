@@ -493,8 +493,8 @@
    "Remake of Armor Alley",
    "",
    "beta / active",
-   "action, inspired by Armor Alley, remake, strategy",
-   "<a href=\"https://github.com/scottschiller/ArmorAlley.git\">Source</a> - JavaScript - CC-BY-NC"
+   "action, content open + non-commercial, inspired by Armor Alley, remake, strategy",
+   "<a href=\"https://github.com/scottschiller/ArmorAlley.git\">Source</a> - JavaScript - CC-BY-NC-3.0"
   ],
   [
    "Artillery Duel Reloaded (<a href=\"https://code.google.com/archive/p/artillery-duel-reloaded/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/artillery_duel_reloaded.md\">entry</a>)",
@@ -2278,7 +2278,7 @@
    "",
    "mature / active",
    "adventure, visual novel",
-   "<a href=\"https://gitlab.com/osgames/digitalalovestory.git\">Source</a> - Ren'py - CC-BY-NC-SA"
+   "<a href=\"https://gitlab.com/osgames/digitalalovestory.git\">Source</a> - Ren'py - CC-BY-NC-SA-3.0"
   ],
   [
    "Dingo-Engine (<a href=\"https://github.com/FloppidyDingo/Dingo-Engine\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/dingo-engine.md\">entry</a>)",
@@ -2663,6 +2663,14 @@
    "mature / inactive since 2005",
    "puzzle",
    "<a href=\"https://github.com/lksj/einstein-puzzle.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "Elysium Engine (<a href=\"http://elysium.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/elysium_engine.md\">entry</a>)",
+   "2D mmorpg maker.",
+   "<a href=\"https://sourceforge.net/projects/elysium/files/\">Link</a>",
+   "beta / inactive since 2006",
+   "role playing, 2D, game engine",
+   "<a href=\"http://elysium.cvs.sourceforge.net\">Source</a> - C - GPL-2.0"
   ],
   [
    "Emilia Pinball (<a href=\"http://pinball.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/emilia_pinball.md\">entry</a>)",
@@ -3289,12 +3297,12 @@
    "<a href=\"https://github.com/freeminer/freeminer.git\">Source</a> - C++, Lua - GPL-3.0"
   ],
   [
-   "Freenukum Jump'n Run (<a href=\"https://launchpad.net/freenukum\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/freenukum_jumpn_run.md\">entry</a>)",
+   "Freenukum (<a href=\"https://launchpad.net/freenukum\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/freenukum.md\">entry</a>)",
    "Remake of Duke Nukem.",
    "<a href=\"https://launchpad.net/freenukum/+download\">Link</a>",
    "beta / inactive since 2009",
-   "remake, inspired by Duke Nukem, shooter",
-   "<a href=\"https://code.launchpad.net/~silwol/freenukum\">Source</a> - C - GPL-3.0"
+   "remake, commercial content, inspired by Duke Nukem, requires original content, shooter",
+   "<a href=\"https://gitlab.com/osgames/freenukum.git\">Source</a> - C - GPL-3.0"
   ],
   [
    "FreeOrion (<a href=\"https://www.freeorion.org/index.php/Main_Page\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/freeorion.md\">entry</a>)",
@@ -3455,6 +3463,14 @@
    "mature / inactive since 2014",
    "role playing",
    "<a href=\"https://bitbucket.org/thesheep/fujo/src\">Source</a> - Python - CC-BY-SA-4.0"
+  ],
+  [
+   "FunLabyrinthe (<a href=\"https://sourceforge.net/projects/funlaby/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/funlabyrinthe.md\">entry</a>)",
+   "Maze-game.",
+   "<a href=\"https://sourceforge.net/projects/funlaby/files/\">Link</a>",
+   "mature / inactive since 2012",
+   "puzzle",
+   "Pascal - GPL-2.0"
   ],
   [
    "Galaxy Forces V2 (<a href=\"http://www.galaxy-forces.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/galaxy_forces_v2.md\">entry</a>)",
@@ -3950,7 +3966,7 @@
    "<a href=\"http://gweled.org/download.html\">Link</a>",
    "mature / active",
    "puzzle, clone, inspired by Bejeweled, open content",
-   "<a href=\"https://code.launchpad.net/~dnax88/gweled/trunk\">Source</a> - C - GPL-2.0"
+   "<a href=\"https://code.launchpad.net/gweled\">Source</a> - C - GPL-2.0"
   ],
   [
    "GZDoom (<a href=\"https://zdoom.org/index\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/gzdoom.md\">entry</a>)",
@@ -6190,7 +6206,7 @@
    "",
    "beta / active",
    "remake, commercial content, inspired by Team Fortress 2, modification, multiplayer competitive + online + LAN + co-op + matchmaking",
-   "<a href=\"https://github.com/KaidemonLP/Open-Fortress-Source.git\">Source</a> - C++ - Custom"
+   "<a href=\"https://github.com/KaidemonLP/Open-Fortress-Source.git\">Source</a> - C++ - CC-BY-NC-SA-4.0"
   ],
   [
    "Open Game Engine (<a href=\"http://oge.sourceforge.net/wiki/index.php/Main_Page\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/open_game_engine.md\">entry</a>)",
@@ -6558,7 +6574,7 @@
    "<a href=\"https://launchpad.net/openhomm/+download\">Link</a>",
    "beta / inactive since 2010",
    "strategy",
-   "<a href=\"https://code.launchpad.net/openhomm\">Source</a> - C++ - GPL-3.0"
+   "<a href=\"https://gitlab.com/osgames/openhomm.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
    "OpenHoW (<a href=\"https://github.com/TalonBraveInfo/OpenHoW\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/openhow.md\">entry</a>)",
@@ -7741,7 +7757,7 @@
    "Quadrapassel (formerly a part of GNOME Games) is a GNOME..",
    "",
    "mature / active",
-   "puzzle, clone, inspired by tetris, open content, tetris-like",
+   "puzzle, clone, inspired by Tetris, open content, tetris-like",
    "<a href=\"https://gitlab.gnome.org/GNOME/quadrapassel.git\">Source</a> - Vala - GPL-2.0"
   ],
   [
@@ -8926,7 +8942,7 @@
    "<a href=\"http://www.mediafire.com/file/jog3fcfxgsyd03f/Astraea_Rio-1.05-all.zip\">Link</a>",
    "mature / active",
    "adventure, for adults, visual novel",
-   "Ren'py - CC-BY-NC"
+   "Ren'py - MIT"
   ],
   [
    "Star Ruler 2 (<a href=\"http://starruler2.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/star_ruler_2.md\">entry</a>)",
@@ -9062,7 +9078,7 @@
    "<a href=\"https://sourceforge.net/projects/stuntcarremake/files/\">Link</a>",
    "beta / inactive since 2012",
    "simulation, inspired by Stunt Car Racer, racing, remake",
-   "<a href=\"https://git.code.sf.net/p/stuntcarremake/code\">Source</a> - C++ - BSD"
+   "<a href=\"https://git.code.sf.net/p/stuntcarremake/code\">Source</a> - C++ - Proprietary"
   ],
   [
    "Stunt Rally (<a href=\"https://stuntrally.tuxfamily.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/stunt_rally.md\">entry</a>)",

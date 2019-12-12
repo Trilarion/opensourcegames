@@ -9,7 +9,6 @@ _Multiplayer flight simulator._
 - Code language: C
 - Code license: GPL-2.0
 - Assets license: GPL-2.0
-
-Developer: Riley Rainey
+- Developer: Riley Rainey
 
 ## Building

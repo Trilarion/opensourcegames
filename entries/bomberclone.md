@@ -11,8 +11,7 @@ _BomberClone is an AtomicBomberMan clone started by Steffen Pohle. Both data and
 - Code language: C
 - Code license: GPL-2.0
 - Assets license: GPL
-
-Developer: Steffen Pohle
+- Developer: Steffen Pohle
 
 ## Building
 

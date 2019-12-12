@@ -11,7 +11,6 @@ _Collection of multi-platform single-player puzzle games._
 - Code license: MIT
 - Code dependencies: GTK
 - Assets license: MIT
-
-Developer: Simon Tatham and others
+- Developer: Simon Tatham
 
 ## Building

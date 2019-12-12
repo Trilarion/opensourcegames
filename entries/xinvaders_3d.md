@@ -9,7 +9,6 @@ _3D invaders game using wireframe vector graphics._
 - Code language: C
 - Code license: GPL-2.0
 - Assets license: no media
-
-Developer: Don Llopis (del23)
+- Developer: Don Llopis (del23)
 
 ## Building

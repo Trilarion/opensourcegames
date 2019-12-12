@@ -11,8 +11,7 @@ _A multiplayer FPS based on Laser Squad._
 - Code license: MIT
 - Code dependencies: jMonkeyEngine, SteveTech1
 - Assets license: (See licences against each asset folder)
-
-Developer: Stephen Carlyle-Smith
+- Developer: Stephen Carlyle-Smith
 
 ## Building
 

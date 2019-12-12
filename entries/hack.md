@@ -9,7 +9,6 @@ _Roguelike game. It served as the inspiration for NetHack._
 - Code repository: (see debian bsdgames)
 - Code language: C
 - Code license: BSD
-
-Developer: Jay Fenlason
+- Developer: Jay Fenlason
 
 ## Building

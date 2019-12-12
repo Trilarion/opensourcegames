@@ -9,7 +9,6 @@ _Multiplayer survival game of parenting and civilisation building._
 - Code language: C, C++, PHP
 - Code license: Public domain (https://github.com/jasonrohrer/OneLife/blob/master/no_copyright.txt)
 - Assets license: Public domain
-
-Developer: Jason Rohrer
+- Developer: Jason Rohrer
 
 ## Building

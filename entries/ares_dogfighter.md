@@ -12,7 +12,6 @@ _3D Space Combat Game._
 - Code license: GPL-3.0
 - Code dependencies: jMonkeyEngine
 - Assets license: (See relevant asset folders)
-
-Developer: Stephen Carlyle-Smith
+- Developer: Stephen Carlyle-Smith
 
 ## Building

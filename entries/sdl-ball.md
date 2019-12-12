@@ -12,8 +12,7 @@ _Arcade breakout-like game._
 - Code license: GPL-3.0
 - Code dependencies: OpenGL, SDL
 - Assets license: ? (GPL)
-
-Developer: Jimmy Christensen
+- Developer: Jimmy Christensen
 
 ## Building
 

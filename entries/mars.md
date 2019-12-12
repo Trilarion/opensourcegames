@@ -11,8 +11,7 @@ _A ridiculous shooter. In one of several game modes, two opposing teams are figh
 - Code license: GPL-3.0
 - Code dependencies: OpenGL, SFML
 - Assets license: CC-BY 3.0, CC-BY-SA-3.0, PD
-
-Developer: Simon Schneegans, Felix Lauer
+- Developer: Simon Schneegans, Felix Lauer
 
 ## Building
 

@@ -10,8 +10,7 @@ _Fly an airplane, fire missiles, drop bombs, destroy enemy buildings and planes.
 - Code license: GPL-2.0
 - Code dependencies: SDL
 - Assets license: GPL
-
-Developer: Mark Snellgrove, Mark Harman
+- Developer: Mark Snellgrove, Mark Harman
 
 ## Building
 

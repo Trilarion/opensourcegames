@@ -12,7 +12,6 @@ _Go Ollie! is a mouse controlled platformer about an earth worm._
 - Code license: GPL-3.0
 - Code dependencies: SDL
 - Assets license: CC-BY-SA-3.0
-
-Developer: Tony Oakden (Charlie Dog Games)
+- Developer: Tony Oakden (Charlie Dog Games)
 
 ## Building

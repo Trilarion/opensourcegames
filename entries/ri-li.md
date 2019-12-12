@@ -12,8 +12,7 @@ _Arcade game in which you drive a toy wood train engine across many levels._
 - Code license: GPL-3.0
 - Code dependencies: SDL
 - Assets license: ? (GPL)
-
-Developer: Dominique Roux-Serret
+- Developer: Dominique Roux-Serret
 
 ## Building
 

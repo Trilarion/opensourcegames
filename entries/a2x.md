@@ -9,8 +9,7 @@ _C game framework._
 - Code repository: https://github.com/alxm/a2x.git
 - Code language: C, Python, C++
 - Code license: GPL-3.0
-
-Developer: Alex Margarit
+- Developer: Alex Margarit
 
 ## Building
 

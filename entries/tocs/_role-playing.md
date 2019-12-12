@@ -49,6 +49,7 @@
 - **[Dungeon Monkey Unlimited](../dungeon_monkey_unlimited.md)** (Pascal, LGPL-2.1, mature, inactive since 2010)
 - **[Dungeon Quest](../dungeon_quest.md)** (Java, MIT, mature)
 - **[Egoboo](../egoboo.md)** (C++, C, GPL-3.0, mature, inactive since 2015)
+- **[Elysium Engine](../elysium_engine.md)** (C, GPL-2.0, beta, inactive since 2006)
 - **[Empty Clip](../empty_clip.md)** (C++, GPL-2.0, mature)
 - **[EmptyEpsilon](../emptyepsilon.md)** (C, C++, Lua, GPL-2.0, mature)
 - **[Endless Sky](../endless_sky.md)** (C++, GPL-3.0, mature)

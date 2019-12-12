@@ -10,9 +10,8 @@ _3D arcade racing game featuring AI, weapons, power-ups and multiplayer._
 - Code license: GPL-3.0
 - Code dependencies: Panda3D
 - Assets license: CC BY, CC-BY-SA
+- Developer: Flavio Calva
 
 It is being developed using free software such as GIMP and Blender.
-
-Developer: Flavio Calva
 
 ## Building

@@ -10,7 +10,6 @@ _Word game similar to Boggle._
 - Code license: GPL-3.0
 - Code dependencies: Qt
 - Assets license: ? (GPL)
-
-Developer: Graeme Gott
+- Developer: Graeme Gott
 
 ## Building

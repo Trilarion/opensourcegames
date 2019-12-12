@@ -11,10 +11,9 @@ _2D scrolling space shooter._
 - Code license: GPL-2.0, LGPL
 - Code dependencies: SDL
 - Assets license: ? (GPL-2.0)
+- Developer: David Olofson, Akira Higuchi, Erik Auerswald, Jeremy Sheeley, Simon Peter, Florian Schulze, Masanao Izumo
 
 Based on XKobo by Akira Higuchi
-
-Developer: David Olofson, Akira Higuchi, Erik Auerswald, Jeremy Sheeley, Simon Peter, Florian Schulze, Masanao Izumo
 
 ## Building
 

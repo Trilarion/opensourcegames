@@ -10,7 +10,6 @@ _q (also known as quizbot) is a simple IRC quizbot by plaimi. It derives questio
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependencies: Twisted
-
-Developer: plaimi
+- Developer: plaimi
 
 ## Building

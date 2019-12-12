@@ -9,7 +9,6 @@ _Short TnL, is a futuristic flight simulation and real-time strategy game inspir
 - Code repository: https://github.com/indyjo/Thunder-Lightning.git
 - Code language: C, C++, Io
 - Code license: GPL-2.0
-
-Developer: Jonas Eschenburg
+- Developer: Jonas Eschenburg
 
 ## Building

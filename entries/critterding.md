@@ -10,8 +10,7 @@ _Life and evolution simulator._
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: SDL
-
-Developer: Bob Winckelmans
+- Developer: Bob Winckelmans
 
 ## Building
 

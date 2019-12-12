@@ -12,7 +12,6 @@ _Arcade game where you rescue people from a burning building._
 - Code license: zlib
 - Code dependencies: AnAL, LÖVE, slam, TSerial
 - Assets license: CC-BY-SA-3.0
-
-Developer: Tangram
+- Developer: Tangram
 
 ## Building

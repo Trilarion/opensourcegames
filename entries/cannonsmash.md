@@ -11,7 +11,6 @@ _Cannon Smash is a table tennis game._
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: OpenGL
-
-Developer: Kanna Yoshihiro
+- Developer: Kanna Yoshihiro
 
 ## Building

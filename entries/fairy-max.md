@@ -10,7 +10,6 @@ _Fairy-Max is a xboard compatible chess engine for playing user defined chess va
 - Code repository: (http://hgm.nubati.net/cgi-bin/gitweb.cgi?p=fairymax.git)
 - Code language: C
 - Code license: Custom (permissive)
-
-Developer: Harm Geert Muller
+- Developer: Harm Geert Muller
 
 ## Building

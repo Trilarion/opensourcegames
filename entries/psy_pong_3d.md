@@ -9,7 +9,6 @@ _3D pong clone._
 - Code repository: (see download)
 - Code language: C
 - Code license: GPL-3.0
-
-Developer: Quetzy Garcia (quetzyg)
+- Developer: Quetzy Garcia (quetzyg)
 
 ## Building

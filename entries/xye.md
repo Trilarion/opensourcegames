@@ -11,8 +11,7 @@ _Puzzle game similar to Sokoban but it includes Arcade elements._
 - Code license: zlib
 - Code dependencies: SDL
 - Assets license: Custom free license
-
-Developer: Victor Hugo Soliz Kuncar
+- Developer: Victor Hugo Soliz Kuncar
 
 ## Building
 

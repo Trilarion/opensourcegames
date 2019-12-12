@@ -11,8 +11,7 @@ _Drawing game intended for children ages 3 to 12. The user is presented with a b
 - Code language: C, C++
 - Code license: GPL-2.0
 - Assets license: ? (GPL-2.0 + Public Domain)
-
-Developer: New Breed Software, Bill Kendrick
+- Developer: New Breed Software, Bill Kendrick
 
 ## Building
 

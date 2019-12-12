@@ -10,7 +10,6 @@ _Jump and shooting arcade game._
 - Code license: GPL-3.0
 - Code dependencies: OpenAL, SDL2
 - Assets license: CC-BY-SA
-
-Developer: Ingo Ruhnke
+- Developer: Ingo Ruhnke
 
 ## Building

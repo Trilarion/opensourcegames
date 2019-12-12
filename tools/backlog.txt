@@ -69,6 +69,7 @@ http://www.cafu.de/
 http://www.celephais.net/fitzquake/
 http://www.codeskulptor.org/
 http://www.computerchess.org.uk/ccrl/4040/rating_list_all.html
+http://www.dianneandpaul.net/CSBwin/
 http://www.divgo.net/
 http://www.dosbox.com/download.php?main=1
 http://www.drpetter.se/project_sfxr.html
@@ -243,6 +244,7 @@ https://github.com/gan74/Yave
 https://github.com/GlPortal/RadixEngine
 https://github.com/gnFur/Monofoxe
 https://github.com/GNOME/quadrapassel
+https://github.com/godot-extended-libraries/godot-next
 https://github.com/godot-mega-man/Mega-Man-Engine
 https://github.com/godotengine/godot-design
 https://github.com/grantjenks/free-python-games (check all)
@@ -325,6 +327,7 @@ https://github.com/SPC-Some-Polish-Coders/PopHead
 https://github.com/SPC-Some-Polish-Coders/PopHead/
 https://github.com/stackos/Viry3D
 https://github.com/stolencatkarma/CataclysmLD
+https://github.com/Sygmei/ObEngine
 https://github.com/tainicom/Aether.Physics2D
 https://github.com/tangziwen/Cube-Engine
 https://github.com/the-insulines
@@ -346,6 +349,7 @@ https://github.com/xrOxygen/xray-oxygen
 https://github.com/xtreme8000/BetterSpades
 https://github.com/YuriiSalimov/15-puzzle
 https://github.com/Zal0/ZGB
+https://github.com/zurn/zapper (or any other tapper clone)
 https://gitlab.com/LibreGames
 https://gitlab.com/nyov/nyovs-nexuiz
 https://gitlab.com/vgstation/vgstation-old (and vgstation in general)
@@ -402,7 +406,6 @@ https://sites.google.com/site/syllablesoftware/games (List of games (with screen
 https://sourceforge.net/directory/games/games/os:windows/
 https://sourceforge.net/projects/dices/
 https://sourceforge.net/projects/dsa-hl.berlios/
-https://sourceforge.net/projects/elysium/
 https://sourceforge.net/projects/lgames/files/barrage/
 https://sourceforge.net/projects/moeng/
 https://sourceforge.net/projects/openzelda/

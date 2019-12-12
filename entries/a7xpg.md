@@ -10,7 +10,6 @@ _Arcade space flier._
 - Code language: D
 - Code license: 2-clause BSD
 - Code dependencies: libvorbis, SDL
-
-Developer: Kenta Cho
+- Developer: Kenta Cho
 
 ## Building

@@ -10,7 +10,6 @@ _Action game._
 - Code language: Python
 - Code license: GPL-2.0
 - Code dependencies: Cal3D, GLEW, OpenGL, Py2Play, SDL
-
-Developer: Jean-Baptiste Lamy (Jiba) / Nekeme Prod.
+- Developer: Jean-Baptiste Lamy (Jiba) / Nekeme Prod.
 
 ## Building

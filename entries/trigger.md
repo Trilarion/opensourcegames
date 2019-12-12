@@ -10,7 +10,6 @@ _3D car racing game._
 - Code repository: https://svn.code.sf.net/p/trigger-rally/code (svn active)
 - Code language: C++
 - Code license: GPL-2.0
-
-Developer: Jasmine Langridge, Richard Langridge
+- Developer: Jasmine Langridge, Richard Langridge
 
 ## Building

@@ -11,7 +11,6 @@ _Spatial memory game which uses the concept of "augmented reality" for its input
 - Code language: C++, Python
 - Code license: GPL-3.0
 - Assets license: CC-BY-SA-3.0
-
-Developer: Julian Oliver
+- Developer: Julian Oliver
 
 ## Building

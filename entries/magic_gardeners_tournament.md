@@ -10,7 +10,6 @@ _Real-time strategy game board game._
 - Code license: GPL-2.0
 - Code dependencies: pygame, PygLibs
 - Assets license: ? (GPL)
-
-Developer: HoleInTheHeadStudios (Team Quicksilver)
+- Developer: HoleInTheHeadStudios (Team Quicksilver)
 
 ## Building

@@ -9,9 +9,8 @@ _2D jigsaw puzzle game._
 - Code language: C
 - Code license: Custom (attribution, no warranty)
 - Assets license: demo image in Debian: license free
+- Developer: Helmut Hoenig
 
 Written in 1996
-
-Developer: Helmut Hoenig
 
 ## Building

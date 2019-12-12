@@ -10,8 +10,7 @@ _2D top-down racing game._
 - Code language: Java
 - Code license: GPL-3.0
 - Assets license: CC-BY-SA-4.0
-
-Developer: Aurélien Gâteau
+- Developer: Aurélien Gâteau
 
 ## Building
 

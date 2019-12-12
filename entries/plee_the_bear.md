@@ -11,7 +11,6 @@ _2D platform game in which the player controls a bear in single or multiplayer m
 - Code license: GPL-3.0
 - Code dependencies: Bear, SDL
 - Assets license: CC BY-SA-3.0
-
-Developer: Julien Jorge, Sébastien Angibaud and contributors
+- Developer: Julien Jorge, Sébastien Angibaud
 
 ## Building

@@ -10,8 +10,7 @@ _Flight simulator._
 - Code repository: https://gitlab.com/osgames/vertigo.git (import of sources)
 - Code language: C
 - Code license: GPL-2.0
-
-Developer: Anton Norup Sørensen
+- Developer: Anton Norup Sørensen
 
 ## Building
 

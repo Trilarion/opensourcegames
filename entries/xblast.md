@@ -10,8 +10,7 @@ _Multiplayer only side-scroller, arcade bomberman like game._
 - Code repository: https://gitlab.com/osgames/xblast.git (conversion of cvs), http://xblast.cvs.sourceforge.net (cvs)
 - Code language: C
 - Code license: GPL-2.0
-
-Developer: XBlast development team, Oliver Vogel
+- Developer: XBlast development team, Oliver Vogel
 
 ## Building
 

@@ -9,7 +9,6 @@ _Library that lets rogue-like games use graphical tiles._
 - Code repository: https://github.com/zenorogue/noteye.git
 - Code language: C++
 - Code license: GPL-3.0
-
-Developer: Zeno Rogue
+- Developer: Zeno Rogue
 
 ## Building

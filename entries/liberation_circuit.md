@@ -10,8 +10,7 @@ _Real-time strategy game about escaping from a hostile computer system, by desig
 - Code license: GPL-3.0
 - Code dependencies: Allegro
 - Assets license: GPL-3.0
-
-Developer: Linley Henzell
+- Developer: Linley Henzell
 
 ## Building
 

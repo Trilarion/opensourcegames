@@ -9,8 +9,7 @@ _3D space scroll-shooter with spaceship upgrade possibilities._
 - Code repository: https://github.com/viewizard/astromenace.git
 - Code language: C++, C
 - Code license: GPL-3.0
-
-Developer: Mikkhail Kurin (Viewizard)
+- Developer: Mikkhail Kurin (Viewizard)
 
 ## Building
 

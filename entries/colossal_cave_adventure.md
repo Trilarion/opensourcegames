@@ -9,10 +9,9 @@ _Original Colossal Caves adventure game, but in Python 3._
 - Code repository: https://github.com/brandon-rhodes/python-adventure.git
 - Code language: Python
 - Code license: Apache-2.0
+- Developer: William Crowther, Don Woods, Jim Gilloghy (C port)
 
 More repositories?
-
-Developer: William Crowther, Don Woods; C port by Jim Gilloghy
 
 ## Building
 

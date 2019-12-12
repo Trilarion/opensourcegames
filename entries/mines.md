@@ -9,8 +9,7 @@ _Clone of Minesweeper._
 - Code repository: https://gitlab.gnome.org/GNOME/gnome-mines.git
 - Code language: Vala
 - Code license: GPL-3.0
-
-Developer: Gnome
+- Developer: Gnome
 
 ## Building
 

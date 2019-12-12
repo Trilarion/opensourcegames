@@ -10,7 +10,6 @@ _Sudoku game._
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependencies: Qt
-
-Developer: Graeme Gott
+- Developer: Graeme Gott
 
 ## Building

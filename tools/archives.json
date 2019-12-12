@@ -1061,6 +1061,7 @@
   "https://gitlab.com/osgames/epicheroes.git",
   "https://gitlab.com/osgames/firststrike.git",
   "https://gitlab.com/osgames/freecivac.git",
+  "https://gitlab.com/osgames/freenukum.git",
   "https://gitlab.com/osgames/freetennis.git",
   "https://gitlab.com/osgames/freetrain.git",
   "https://gitlab.com/osgames/freya-engine.git",
@@ -1110,6 +1111,7 @@
   "https://gitlab.com/osgames/omega-roguelike.git",
   "https://gitlab.com/osgames/openblox.git",
   "https://gitlab.com/osgames/opencity.git",
+  "https://gitlab.com/osgames/openhomm.git",
   "https://gitlab.com/osgames/openmortal.git",
   "https://gitlab.com/osgames/openquartz.git",
   "https://gitlab.com/osgames/openrpg.git",
@@ -1248,9 +1250,7 @@
  ],
  "bzr": [
   "https://code.launchpad.net/4dtris",
-  "https://code.launchpad.net/heroesofwesnoth",
-  "https://code.launchpad.net/openhomm",
-  "https://code.launchpad.net/~dnax88/gweled/trunk",
-  "https://code.launchpad.net/~silwol/freenukum"
+  "https://code.launchpad.net/gweled",
+  "https://code.launchpad.net/heroesofwesnoth"
  ]
 }

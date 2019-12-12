@@ -9,7 +9,6 @@ _Navigate a 4 dimensional maze._
 - Code language: Java
 - Code license: Public domain
 - Assets license: Public domain
-
-Developer: John McIntosh
+- Developer: John McIntosh
 
 ## Building

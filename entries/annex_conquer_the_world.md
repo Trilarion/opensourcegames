@@ -12,7 +12,6 @@ _Fast paced combat with a diverse arsenal._
 - Code license: GPL-3.0
 - Code dependencies: MegaGlest Engine
 - Assets license: CC-BY-SA
-
-Developer: DelphaDesign
+- Developer: DelphaDesign
 
 ## Building

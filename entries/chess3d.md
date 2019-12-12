@@ -11,7 +11,6 @@ _Chess3D is a HTML/WebGL 3D chess game with AI._
 - Code license: GPL-3.0
 - Code dependencies: WebGL
 - Assets license: GPL-3.0
-
-Developer: FrenchYann
+- Developer: FrenchYann
 
 ## Building

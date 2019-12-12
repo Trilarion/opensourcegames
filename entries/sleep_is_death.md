@@ -10,8 +10,7 @@ _Aka Geisterfahrer is a two-player RPG game._
 - Code license: ? (Public domain)
 - Code dependencies: SDL
 - Assets license: ? (Public domain)
-
-Developer: Jason Rohrer
+- Developer: Jason Rohrer
 
 ## Building
 

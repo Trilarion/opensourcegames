@@ -10,7 +10,6 @@ _Side scrolling arcade game. It is the sequel of the games Transball and Transba
 - Code license: GPL-2.0
 - Code dependencies: SDL
 - Assets license: ? (GPL)
-
-Developer: Santiago Ontañón
+- Developer: Santiago Ontañón
 
 ## Building

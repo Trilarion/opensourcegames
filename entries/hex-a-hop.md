@@ -11,8 +11,7 @@ _Hexagonal tiles based puzzle game._
 - Code license: GPL-2.0
 - Code dependencies: SDL
 - Assets license: CC-BY-SA, GPL-2.0, Sounds: Creative Commons Sampling Plus
-
-Developer: Tom Beaumont, Paul Wise, Ari Mustonen
+- Developer: Tom Beaumont, Paul Wise, Ari Mustonen
 
 ## Building
 

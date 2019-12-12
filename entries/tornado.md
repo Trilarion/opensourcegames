@@ -11,7 +11,6 @@ _Clone of an old C64 game. Destroy your opponent's house using different weather
 - Code license: GPL-2.0
 - Code dependencies: curses
 - Assets license: no media
-
-Developer: Oliver Feiler, Rene Puls
+- Developer: Oliver Feiler, Rene Puls
 
 ## Building

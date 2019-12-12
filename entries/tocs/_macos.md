@@ -41,7 +41,7 @@
 - **[DeSmuME](../desmume.md)** (C, C++, GPL-2.0, mature, inactive since 2015)
 - **[Destination Sol](../destination_sol.md)** (Java, Apache-2.0, mature)
 - **[dhewm3](../dhewm3.md)** (C, C++, GPL-3.0, mature)
-- **[Digital: A Love Story](../digital_a_love_story.md)** (Ren'py, CC-BY-NC-SA, mature)
+- **[Digital: A Love Story](../digital_a_love_story.md)** (Ren'py, CC-BY-NC-SA-3.0, mature)
 - **[Domination](../domination.md)** (Java, GPL-3.0, mature)
 - **[Doom Legacy](../doom_legacy.md)** (C++, GPL-2.0, mature)
 - **[Doom64EX](../doom64ex.md)** (C, C++, GPL-2.0, mature)

@@ -10,7 +10,6 @@ _Racing game._
 - Code language: Python
 - Code license: GPL-2.0
 - Code dependencies: pygame
-
-Developer: Jujucece
+- Developer: Jujucece
 
 ## Building

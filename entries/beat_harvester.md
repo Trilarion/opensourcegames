@@ -10,7 +10,6 @@ _Shoot'em'up with focus on timing, sound and smooth 2D visuals._
 - Code license: GPL-2.0
 - Code dependencies: pygame, PyOpenGL
 - Assets license: CC-BY 3.0
-
-Developer: Olli Etuaho
+- Developer: Olli Etuaho
 
 ## Building

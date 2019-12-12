@@ -11,8 +11,7 @@ _Simple Sokoban game aimed at playability and portability across systems._
 - Code license: GPL-3.0
 - Code dependencies: SDL
 - Assets license: ? (GPL)
-
-Developer: Mateusz Viste
+- Developer: Mateusz Viste
 
 ## Building
 

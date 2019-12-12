@@ -12,7 +12,6 @@ _Autobiographical RPG game by Jason Rohrer._
 - Code license: Public domain
 - Code dependencies: SDL
 - Assets license: Public domain
-
-Developer: Jason Rohrer
+- Developer: Jason Rohrer
 
 ## Building

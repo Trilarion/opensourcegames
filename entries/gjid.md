@@ -9,8 +9,7 @@ _Sokoban-style game, in which the player controls a robot called GJID. The robot
 - Code language: C++
 - Code license: MIT
 - Assets license: MIT
-
-Developer: Mike Sharov
+- Developer: Mike Sharov
 
 ## Building
 

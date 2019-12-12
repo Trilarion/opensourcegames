@@ -8,7 +8,6 @@ _Flight simulation game in the spirit of GL-117._
 - Code repository: https://svn.code.sf.net/p/rsfs/code (svn)
 - Code language: C, C++
 - Code license: GPL-2.0
-
-Developer: Christian Haag
+- Developer: Christian Haag
 
 ## Building

@@ -8,8 +8,7 @@ _Multiplayer Pong game._
 - Code repository: (see debian)
 - Code language: C
 - Code license: GPL-3.0
-
-Developer: Kai Hertel, Jan Friederich
+- Developer: Kai Hertel, Jan Friederich
 
 ## Building
 

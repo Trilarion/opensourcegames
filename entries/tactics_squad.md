@@ -11,7 +11,6 @@ _Real-time tactical simulation in which the player controls up to sixteen soldie
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: SDL
-
-Developer: Luismv
+- Developer: Luismv
 
 ## Building

@@ -11,7 +11,6 @@ _Pacman-style game with gravity in which the player controls the rotation of the
 - Code license: WTFPL
 - Code dependencies: LÖVE
 - Assets license: WTFPL
-
-Developer: Sam Hocevar
+- Developer: Sam Hocevar
 
 ## Building

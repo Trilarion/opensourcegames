@@ -9,7 +9,6 @@ _Abstract browser based shooter game. The player must shoot falling numbers with
 - Code language: JavaScript
 - Code license: GPL-2.0
 - Assets license: GPL-2.0
-
-Developer: Philip Dorrell
+- Developer: Philip Dorrell
 
 ## Building

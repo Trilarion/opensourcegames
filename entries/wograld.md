@@ -10,7 +10,6 @@ _Massively multiplayer online role-playing game._
 - Code language: C
 - Code license: GPL-2.0
 - Assets license: ? (GPL)
-
-Developer: Lori Angela Nagel
+- Developer: Lori Angela Nagel
 
 ## Building

@@ -11,7 +11,6 @@ _Consomaton is a puzzle game revolving around cellular automata._
 - Code language: TypeScript
 - Code license: MIT
 - Code dependencies: Node.js
-
-Developer: Kenta Cho (ABA)
+- Developer: Kenta Cho (ABA)
 
 ## Building

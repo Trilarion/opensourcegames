@@ -11,8 +11,7 @@ _German card game Skat and variations thereof._
 - Code language: Java
 - Code license: GPL-3.0 (GUI), Apache-2.0 (base)
 - Assets license: GPL-3.0
-
-Developer: Jan Schäfer, Markus J. Luzius, Daniel Loreck, Sascha Laurien
+- Developer: Jan Schäfer, Markus J. Luzius, Daniel Loreck, Sascha Laurien
 
 ## Building
 

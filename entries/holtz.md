@@ -12,7 +12,6 @@ _Holtz is a collection of board games that can be played against the computer or
 - Code license: GPL
 - Code dependencies: wxWidgets
 - Assets license: GPL
-
-Developer: Florian Fischer, Martin Trautmann
+- Developer: Florian Fischer, Martin Trautmann
 
 ## Building

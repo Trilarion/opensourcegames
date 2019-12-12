@@ -12,7 +12,6 @@ _Educational monster-battling game, similar in concept to the popular Pokemon se
 - Code license: GPL-3.0
 - Code dependencies: SGE
 - Assets license: various
-
-Developer: onpon4
+- Developer: onpon4
 
 ## Building

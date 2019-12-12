@@ -9,7 +9,6 @@ _AI programming game._
 - Code language: Ruby
 - Code license: MIT
 - Assets license: MIT
-
-Developer: Ryan Bates
+- Developer: Ryan Bates
 
 ## Building

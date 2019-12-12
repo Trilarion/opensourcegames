@@ -10,7 +10,6 @@ _Jamp is a physics puzzle game. The player controls a squirrel character inside 
 - Code language: C++
 - Code license: GPL-3.0
 - Assets license: GPL-3.0
-
-Developer: David Perrenoud
+- Developer: David Perrenoud
 
 ## Building

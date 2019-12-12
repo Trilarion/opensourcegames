@@ -10,8 +10,7 @@ _Cue sports simulator aiming for physical accuracy and simplicity._
 - Code repository: https://gitlab.com/osgames/billiards.git (import of cvs), http://cvs.savannah.nongnu.org:/sources/billiards (cvs)
 - Code language: Lua, Objective-C
 - Code license: GPL-3.0
-
-Developer: Dimitris Papavasiliou
+- Developer: Dimitris Papavasiliou
 
 ## Building
 

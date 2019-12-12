@@ -42,6 +42,7 @@
 - **[FreeSiege](../freesiege.md)** (C++, GPL-3.0, beta)
 - **[freeVikings](../freevikings.md)** (Ruby, GPL-2.0, beta)
 - **[Frozen Bubble](../frozen_bubble.md)** (Perl, GPL-2.0, mature, inactive since 2012)
+- **[FunLabyrinthe](../funlabyrinthe.md)** (Pascal, GPL-2.0, mature, inactive since 2012)
 - **[Gem Drop X](../gem_drop_x.md)** (C, GPL-2.0, beta, inactive since 2002)
 - **[Gift Grabber](../gift_grabber.md)** (JavaScript, Apache-2.0, mature)
 - **[GJID](../gjid.md)** (C++, MIT, mature, inactive since 2017)

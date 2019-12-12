@@ -9,8 +9,7 @@ _2D/3D client for playing the MMORPG Ultima Online on Freeshards._
 - Code language: C, C++, Lua
 - Code license: GPL-3.0
 - Code dependencies: Ogre
-
-Developer: SiENcE, Ghoulsblade, Hagish
+- Developer: SiENcE, Ghoulsblade, Hagish
 
 ## Building
 

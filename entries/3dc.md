@@ -10,7 +10,6 @@ _Chess game on 3 boards._
 - Code license: GPL-2.0
 - Code dependencies: libx, libxpm, xaw3dg
 - Assets license: GPL-2.0
-
-Developer: Paul Hicks, Bernard Kennedy
+- Developer: Paul Hicks, Bernard Kennedy
 
 ## Building

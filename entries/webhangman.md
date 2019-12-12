@@ -10,7 +10,6 @@ _Game of hangman._
 - Code language: JavaScript
 - Code license: GPL-2.0
 - Assets license: ? (GPL-2.0)
-
-Developer: Jan Mulder
+- Developer: Jan Mulder
 
 ## Building

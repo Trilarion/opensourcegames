@@ -8,8 +8,7 @@ _Construction game._
 - Code repository: https://github.com/Construo/construo.git
 - Code language: C++
 - Code license: GPL-3.0
-
-Developer: Ingo Ruhnke
+- Developer: Ingo Ruhnke
 
 ## Building
 

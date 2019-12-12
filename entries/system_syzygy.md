@@ -11,7 +11,6 @@ _Narrative puzzle game involving solving an assortment of ingenious logical and 
 - Code language: Rust
 - Code license: GPL-3.0
 - Assets license: GPL-3.0
-
-Developer: Matthew D. Steele
+- Developer: Matthew D. Steele
 
 ## Building

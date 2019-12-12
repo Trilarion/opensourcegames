@@ -11,10 +11,9 @@ _3D billiard game._
 - Code language: C
 - Code license: GPL-2.0
 - Code dependencies: GLUT, SDL
+- Developer: Holger Schäkel (holger110462)
 
 Based on [FooBillard](foobillard.md).
-
-Developer: Holger Schäkel (holger110462)
 
 ## Building
 

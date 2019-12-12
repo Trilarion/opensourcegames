@@ -10,8 +10,7 @@ _Blinken is the KDE implementation of the memory game Simon Says._
 - Code license: GPL-2.0
 - Code dependencies: KDE libraries
 - Assets license: GPL-2.0, GFDL (documentation)
-
-Developer: Albert Astals Cid, artwork and documentation by Danny Allen, a font by Steve Jordi
+- Developer: Albert Astals Cid, Danny Allen (artwork and documentation), Steve Jordi (a font)
 
 ## Building
 

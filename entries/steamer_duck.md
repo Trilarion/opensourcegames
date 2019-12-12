@@ -10,7 +10,6 @@ _Small platformer game. You play as a non-flying kind of duck. The goal is to co
 - Code license: CC0
 - Code dependencies: pygame
 - Assets license: CC0
-
-Developer: Drummyfish
+- Developer: Drummyfish
 
 ## Building

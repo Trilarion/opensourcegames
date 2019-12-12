@@ -12,7 +12,6 @@ _Single-player role-playing game that uses d20 as the rule system. It draws heav
 - Code license: GPL-2.0
 - Code dependencies: AWT
 - Assets license: GPL-2.0
-
-Developer: Alex Henry
+- Developer: Alex Henry
 
 ## Building

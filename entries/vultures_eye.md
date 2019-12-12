@@ -8,7 +8,6 @@ _Fork of Falcon's Eye._
 - Code repository: https://github.com/Herdinger/vulture.git
 - Code language: C++
 - Code license: NetHack General Public License
-
-Developer: Clive Crous
+- Developer: Clive Crous
 
 ## Building

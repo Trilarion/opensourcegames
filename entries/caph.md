@@ -12,7 +12,6 @@ _Caph is a physics simulation puzzle game in which the player has to get a red a
 - Code license: GPL-3.0
 - Code dependencies: SDL
 - Assets license: GPL-3.0
-
-Developer: Roman Belov
+- Developer: Roman Belov
 
 ## Building

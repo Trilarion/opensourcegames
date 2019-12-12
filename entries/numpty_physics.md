@@ -11,8 +11,7 @@ _Drawing puzzle game, where the goal is to draw shapes on a drawing to get two g
 - Code license: GPL-3.0
 - Code dependencies: Box2D, SDL2
 - Assets license: GPL-3.0
-
-Developer: Tim Edmonds
+- Developer: Tim Edmonds
 
 ## Building
 

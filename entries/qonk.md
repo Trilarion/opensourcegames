@@ -10,8 +10,7 @@ _Simple real-time space conquering game._
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: SDL
-
-Developer: Anthony Mariette Louis Liekens, Jens Fursund, Loek, Robert Schuster, Troels Kofoed Jacobsen
+- Developer: Anthony Mariette Louis Liekens, Jens Fursund, Loek, Robert Schuster, Troels Kofoed Jacobsen
 
 ## Building
 

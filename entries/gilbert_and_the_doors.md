@@ -12,8 +12,7 @@ _2D platform game._
 - Code license: GPL-3.0
 - Code dependencies: Electro L.I.B, SDL
 - Assets license: GPL-3.0
-
-Developer: Daniel Champagne (Electro L.I.B)
+- Developer: Daniel Champagne (Electro L.I.B)
 
 ## Building
 

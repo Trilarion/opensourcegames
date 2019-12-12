@@ -10,8 +10,7 @@ _Abstract shoot-em-up game, with minimalistic graphics and short game-length._
 - Code license: GPL-3.0
 - Code dependencies: SDL
 - Assets license: GPL-3.0
-
-Developer: mbays
+- Developer: mbays
 
 ## Building
 

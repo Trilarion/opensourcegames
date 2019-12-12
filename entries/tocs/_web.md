@@ -6,7 +6,7 @@
 - **[Achtung, die Kurve!](../achtung_die_kurve.md)** (JavaScript, AGPL-3.0, mature)
 - **[Ajax3d](../ajax3d.md)** (JavaScript, GPL-2.0, beta, inactive since 2007)
 - **[Arashi-JS](../arashi-js.md)** (JavaScript, GPL-2.0, beta, inactive since 2010)
-- **[Armor Alley](../armor_alley.md)** (JavaScript, CC-BY-NC, beta)
+- **[Armor Alley](../armor_alley.md)** (JavaScript, CC-BY-NC-3.0, beta)
 - **[asdf](../asdf.md)** (JavaScript, MIT, mature)
 - **[BlakedAwesomenaughts](../blakedawesomenaughts.md)** (JavaScript, PHP, MIT, beta, inactive since 2015)
 - **[boardgame.io](../boardgameio.md)** (JavaScript, TypeScript, MIT, beta)

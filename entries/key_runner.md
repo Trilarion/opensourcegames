@@ -11,8 +11,7 @@ _Key Runner is a 2D overhead action game where Moschata, the Key Runner must rac
 - Code license: GPL-3.0
 - Code dependencies: SDL
 - Assets license: ? (GPL-2.0)
-
-Developer: Russ Adams
+- Developer: Russ Adams
 
 ## Building
 

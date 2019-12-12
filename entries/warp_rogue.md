@@ -11,9 +11,8 @@ _Dark science fantasy roguelike game._
 - Code license: GPL-3.0
 - Code dependencies: SDL
 - Assets license: ? (GPL)
+- Developer: copx. Sherm Pendley
 
 Aka Tower of Doom.
-
-Developer: copx. Sherm Pendley
 
 ## Building

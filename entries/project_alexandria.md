@@ -11,7 +11,6 @@ _Space combat game._
 - Code license: GPL
 - Code dependencies: pygame
 - Assets license: ? (GPL)
-
-Developer: Sixth Floor Labs
+- Developer: Sixth Floor Labs
 
 ## Building

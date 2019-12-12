@@ -10,7 +10,6 @@ _FPS project whose initial goal is to serve as a Free data package for engines b
 - Code license: ISC
 - Code dependencies: Hexen-based
 - Assets license: 3-clause BSD
-
- Developer: Eric Söderberg
+- Developer: Eric Söderberg
 
 ## Building

@@ -14,9 +14,7 @@ _Chess game._
 - Assets license: None
 
 Can be used together with a graphical frontend such as XBoard.
-Windows binaries via https://sourceforge.net/projects/gnuwin32/
-
-Developer: Chua Kong Sian, Stuart Cracraft, Lukas Geyer, Simon Waters
+Windows binaries via https://sourceforge.net/projects/gnuwin32/-Developer:: Chua Kong Sian, Stuart Cracraft, Lukas Geyer, Simon Waters
 
 ## Building
 

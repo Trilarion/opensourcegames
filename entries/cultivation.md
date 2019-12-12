@@ -11,7 +11,6 @@ _Cultivation is a 2D life simulation game created by Jason Rohrer._
 - Code language: C++
 - Code license: ? (Public domain)
 - Code dependencies: GLUT
-
-Developer: Jason Rohrer
+- Developer: Jason Rohrer
 
 ## Building

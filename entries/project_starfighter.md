@@ -12,7 +12,6 @@ _2D shoot'em up game._
 - Code license: GPL-3.0
 - Code dependencies: SDL
 - Assets license: various
-
-Developer: Stephen Sweeney and Richard Sweeney of Parallel Realities
+- Developer: Stephen Sweeney (Parallel Realities), Richard Sweeney (Parallel Realities)
 
 ## Building

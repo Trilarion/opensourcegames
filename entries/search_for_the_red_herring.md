@@ -11,7 +11,6 @@ _Search and destroy real-time strategy game game._
 - Code license: GPL-2.0
 - Code dependencies: pygame, PygLibs
 - Assets license: FAL
-
-Developer: HoleInTheHeadStudios
+- Developer: HoleInTheHeadStudios
 
 ## Building

@@ -10,7 +10,6 @@ _UI extension for MonoGame-based projects._
 - Code language: C#
 - Code license: MIT
 - Code dependencies: MonoGame
-
-Developer: Ronen Ness
+- Developer: Ronen Ness
 
 ## Building

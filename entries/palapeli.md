@@ -9,7 +9,6 @@ _Jigsaw puzzle game from the KDEGames collection._
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: KDE libraries, Qt
-
-Developer: Stefan Majewsky and others
+- Developer: Stefan Majewsky
 
 ## Building

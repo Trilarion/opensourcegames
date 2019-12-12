@@ -10,7 +10,6 @@ _CBoard is a text-mode chess game front-end and editor for PGN (Portable Game No
 - Code license: GPL-2.0
 - Code dependencies: ncurses
 - Assets license: None (no media)
-
-Developer: Ben Kibbey
+- Developer: Ben Kibbey
 
 ## Building

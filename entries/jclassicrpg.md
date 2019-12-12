@@ -9,7 +9,6 @@ _3D RPG and framework._
 - Code language: Java
 - Code license: LGPL-3.0
 - Code dependencies: jMonkeyEngine
-
-Developer: Timong
+- Developer: Timong
 
 ## Building

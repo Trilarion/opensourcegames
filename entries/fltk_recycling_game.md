@@ -11,7 +11,6 @@ _Simple arcade game where you control a guy who is trying to sort the garbage fa
 - Code license: LGPL-2.1
 - Code dependencies: FLTK, libpng
 - Assets license: LGPL
-
-Developer: Yuri D'Elia (wave++)
+- Developer: Yuri D'Elia (wave++)
 
 ## Building

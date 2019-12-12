@@ -11,8 +11,7 @@ _2D side volleyball game._
 - Code language: C
 - Code license: GPL-3.0
 - Code dependencies: SDL
-
-Developer: MCMic, VinDuv
+- Developer: MCMic, VinDuv
 
 ## Building
 

@@ -12,9 +12,8 @@ _Cartoon style 2D multiplayer platform shooter game (or third person shooter)._
 - Code license: zlib
 - Code dependencies: SDL
 - Assets license: CC-BY-SA-3.0
+- Developer: Magnus Auvinen
 
 The game provides an arena where players fight in various multiplayer modes (capture the flag, duel, team death match, race). The player is a Tee, a little ball with hands and feet.
-
-Developer: Magnus Auvinen and contributors
 
 ## Building

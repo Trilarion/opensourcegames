@@ -11,8 +11,7 @@ _Remake of Solar Fox._
 - Code language: Python
 - Code license: LGPL-2.1
 - Code dependencies: pygame
-
-Developer: Pete Shinners, Eero Tamminen
+- Developer: Pete Shinners, Eero Tamminen
 
 ## Building
 

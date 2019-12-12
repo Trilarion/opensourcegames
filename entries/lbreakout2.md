@@ -12,8 +12,7 @@ _Breakout clone and is the successor to LBreakout._
 - Code license: GPL-2.0
 - Code dependencies: SDL
 - Assets license: ? (GPL-2.0)
-
-Developer: Michael Speck
+- Developer: Michael Speck
 
 ## Building
 

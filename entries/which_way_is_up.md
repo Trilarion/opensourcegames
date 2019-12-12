@@ -11,7 +11,6 @@ _Puzzle platformer._
 - Code license: GPL-2.0
 - Code dependencies: pygame
 - Assets license: CC BY 3.0
-
-Developer: Olli "Hectigo" Etuaho
+- Developer: Olli "Hectigo" Etuaho
 
 ## Building

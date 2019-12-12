@@ -11,7 +11,6 @@ _Sokoban game with enthusiast tools._
 - Code language: C#
 - Code license: ? (GPL)
 - Code dependencies: WinForms
-
-Developer: Guy Langston
+- Developer: Guy Langston
 
 ## Building

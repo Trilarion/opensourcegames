@@ -12,7 +12,6 @@ _Game of dexterity._
 - Code license: Public domain
 - Code dependencies: pygame
 - Assets license: Public domain (probably non-free backgrounds and a font in the original distribution, see debian distribution)
-
-Developer: Thorsten Kohnhorst (aka monsterkodi);sound by legoluft; replacement free images by Slava Anishenko[1];other images by these people
+- Developer: Thorsten Kohnhorst (aka monsterkodi), legoluft (sound), Slava Anishenko (replacement free images)
 
 ## Building

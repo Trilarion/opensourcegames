@@ -11,7 +11,6 @@ _Clone of Powder Game._
 - Code language: Rust, JavaScript, TypeScript
 - Code license: MIT
 - Code dependencies: WebGL
-
-Developer: Max Bittker
+- Developer: Max Bittker
 
 ## Building

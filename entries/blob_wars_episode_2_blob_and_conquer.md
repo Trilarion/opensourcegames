@@ -11,7 +11,6 @@ _Blob Wars: Blob And Conquer is a 3D action game created by Parallel Realities u
 - Code license: GPL (http://www.parallelrealities.co.uk/about/)
 - Code dependencies: SDL
 - Assets license: commercial
-
-Developer: Parallel Realities
+- Developer: Parallel Realities
 
 ## Building

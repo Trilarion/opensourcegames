@@ -12,8 +12,7 @@ _Brikx is a puzzle game with the goal to clear levels navigating your way around
 - Code license: GPL-2.0
 - Code dependencies: SDL
 - Assets license: GPL-2.0
-
-Developer: Bokorn
+- Developer: Bokorn
 
 ## Building
 

@@ -10,7 +10,6 @@ _Remake of a 2D multiplayer game similar to the Tron movie-themed light cycle ga
 - Code repository: http://zatacka.cvs.sourceforge.net (cvs)
 - Code language: C, C++
 - Code license: GPL-2.0
-
-Developer: Mage
+- Developer: Mage
 
 ## Building

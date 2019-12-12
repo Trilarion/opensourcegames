@@ -9,7 +9,6 @@ _Client‐server set of programs for playing Mah-Jong, in the Chinese Classical 
 - Code repository: (see download)
 - Code language: C
 - Code license: GPL-2.0
-
-Developer: Julian Bradfield
+- Developer: Julian Bradfield
 
 ## Building

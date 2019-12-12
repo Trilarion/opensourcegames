@@ -11,7 +11,6 @@ _Arcade game of genre "Luolalentely" (Cave-flying) inspired by V-Wing._
 - Code license: GPL-2.0
 - Code dependencies: SDL
 - Assets license: ? (GPL)
-
-Developer: Calle Laakkonen
+- Developer: Calle Laakkonen
 
 ## Building

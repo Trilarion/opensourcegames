@@ -12,7 +12,6 @@ _2D shooting arcade game._
 - Code license: GPL-3.0
 - Code dependencies: SDL
 - Assets license: GPL
-
-Developer: Bruno Ethvignot, Emmanuel Founaud, Etienne Sobole, Jean-Michel Martin de Santero, Sam Hocevar
+- Developer: Bruno Ethvignot, Emmanuel Founaud, Etienne Sobole, Jean-Michel Martin de Santero, Sam Hocevar
 
 ## Building

@@ -10,7 +10,6 @@ _Card Stories is an online multiplayer HTML5 based game of cards that promotes c
 - Code license: AGPL-3.0
 - Code dependencies: Twisted
 - Assets license: CC-BY-SA-3.0
-
-Developer: Farsides
+- Developer: Farsides
 
 ## Building

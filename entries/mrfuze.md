@@ -9,7 +9,6 @@ _Platformer._
 - Code language: Python
 - Code license: LGPL-2.1
 - Code dependencies: pygame
-
-Developer: PyMike
+- Developer: PyMike
 
 ## Building

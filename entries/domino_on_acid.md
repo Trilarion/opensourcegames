@@ -9,7 +9,6 @@ _Domino is a natural deduction visualization in the form of a game of unusual do
 - Code language: Java
 - Code license: GPL-2.0
 - Assets license: GPL-2.0
-
-Developer: Matthias S. Benkmann
+- Developer: Matthias S. Benkmann
 
 ## Building

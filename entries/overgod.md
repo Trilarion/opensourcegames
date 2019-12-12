@@ -11,7 +11,6 @@ _Arcade space game, where the player controls a spaceship and fights against the
 - Code language: C
 - Code license: GPL-2.0
 - Assets license: ? (GPL)
-
-Developer: Linley Henzell
+- Developer: Linley Henzell
 
 ## Building

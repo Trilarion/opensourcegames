@@ -11,7 +11,6 @@ _War simulation between the player and the computer._
 - Code license: GPL-2.0
 - Code dependencies: ncurses
 - Assets license: no media
-
-Developer: Eric S. Raymond, Chuck Simmons, Ed James
+- Developer: Eric S. Raymond, Chuck Simmons, Ed James
 
 ## Building

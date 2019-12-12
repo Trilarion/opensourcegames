@@ -10,7 +10,6 @@ _Aka Upsilon Cat is a puzzle platformer._
 - Code license: Public domain
 - Code dependencies: pygame
 - Assets license: Public domain
-
-Developer: Code by Joel Bouchard Lamontagne aka logicow, artwork by Isabelle Bouchard aka Windbladeicepuppy, music by Reduz, sound by Hubert Lamontagne aka madbrain and Coda
+- Developer: Joel Bouchard Lamontagne (logicow code) , Isabelle Bouchard (Windbladeicepuppy artwork), Reduz (music), Hubert Lamontagne (madbrain sound), Coda (sound)
 
 ## Building

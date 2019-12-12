@@ -12,7 +12,6 @@ _ReTux (stylized as "reTux" in-game) is a 2D platformer._
 - Code license: GPL-3.0
 - Code dependencies: SGE
 - Assets license: ? (taken from SuperTux)
-
-Developer: onpon4
+- Developer: onpon4
 
 ## Building

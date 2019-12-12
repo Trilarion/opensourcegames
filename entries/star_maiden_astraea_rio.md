@@ -9,9 +9,9 @@ _Visual Novel._
 - Keywords: adventure, for adults, visual novel
 - Code repository: (see download)
 - Code language: Ren'py
-- Code license: CC-BY-NC
+- Code license: MIT
 - Code dependencies: Ren'Py
-- Assets license: CC-BY-NC
+- Assets license: CC-NC (see readme.txt)
 
 ## Building
 

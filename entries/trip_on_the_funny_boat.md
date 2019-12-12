@@ -12,7 +12,8 @@ _Side-scrolling arcade shooter game._
 - Code license: GPL-2.0
 - Code dependencies: PixelPerfect
 - Assets license: Expat license
+- Developer: Puskutraktori (code, graphics and sound effects by Pekka "pekuja" Kujansuu),  Olli "Hectigo" Etuaho (graphics and code), Joona "JDruid" Karjalainen (music), Konstantin Yegupov
 
-Developer: Puskutraktori (code, graphics and sound effects by Pekka "pekuja" Kujansuu, graphics and code by Olli "Hectigo" Etuaho, music by Joona "JDruid" Karjalainen); Konstantin Yegupov; uses fonts by Bitstream Inc.
+Uses fonts by Bitstream Inc.
 
 ## Building

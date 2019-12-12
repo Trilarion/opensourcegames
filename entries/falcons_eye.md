@@ -10,7 +10,6 @@ _Falcon's Eye is a graphical isometric version of NetHack written by Jaakko Tapa
 - Code repository: (see download)
 - Code language: C
 - Code license: NetHack General Public License
-
-Developer: Jaakko Tapani Peltonen
+- Developer: Jaakko Tapani Peltonen
 
 ## Building

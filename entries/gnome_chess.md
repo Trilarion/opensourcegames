@@ -11,10 +11,9 @@ _2D chess game for GNOME desktop. It automatically detects installed chess engin
 - Code language: Vala
 - Code license: GPL-3.0
 - Assets license: GPL-3.0
+- Developer: Gnome
 
 Formerly a part of GNOME Games.
-
-Developer: Gnome
 
 ## Building
 

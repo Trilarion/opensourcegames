@@ -9,7 +9,6 @@ _CAVEZ of PHEAR is an arcade action game based on ASCII graphics._
 - Code language: C
 - Code license: GPL-3.0
 - Assets license: GPL-3.0
-
-Developer: Tom Rune Flo
+- Developer: Tom Rune Flo
 
 ## Building

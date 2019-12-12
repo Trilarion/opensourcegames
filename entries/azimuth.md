@@ -12,8 +12,7 @@ _Metroidvania with vector graphics._
 - Code license: GPL-3.0
 - Code dependencies: SDL
 - Assets license: GPL-3.0
-
-Developer: Matthew D. Steele
+- Developer: Matthew D. Steele
 
 ## Building
 

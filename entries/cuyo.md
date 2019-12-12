@@ -10,8 +10,7 @@ _Cuyo is a Puyo Puyo-style puzzle game._
 - Code repository: https://gitlab.com/osgames/cuyo.git (import of cvs), http://cvs.savannah.nongnu.org:/sources/cuyo (cvs)
 - Code language: C++
 - Code license: GPL-2.0
-
-Developer: Immanuel Halupczok
+- Developer: Immanuel Halupczok
 
 ## Building
 

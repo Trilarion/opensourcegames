@@ -11,7 +11,6 @@ _Simple fighting game between two teams of ships._
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependencies: SGE
-
-Developer: onpon4
+- Developer: onpon4
 
 ## Building

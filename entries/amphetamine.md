@@ -10,7 +10,6 @@ _2D platform game._
 - Code license: GPL-2.0
 - Code dependencies: SDL
 - Assets license: GPL
-
-Developer: Jonas Spillmann, Lukas Löhrer, Patrick J. Naughton, Chris Laurel
+- Developer: Jonas Spillmann, Lukas Löhrer, Patrick J. Naughton, Chris Laurel
 
 ## Building

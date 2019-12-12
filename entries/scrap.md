@@ -9,8 +9,7 @@ _Roguelike game. You drive your robot through unknown areas and have to fight ot
 - Code language: C, C++
 - Code license: GPL-2.0
 - Assets license: no media
-
-Developer: Thijs van Ommen
+- Developer: Thijs van Ommen
 
 ## Building
 

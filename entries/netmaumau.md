@@ -12,8 +12,7 @@ _Online version of the multiplayer card game Mau Mau, which is a game with some 
 - Code license: LGPL-3.0
 - Code dependencies: Qt
 - Assets license: ? (LGPL)
-
-Developer: Heiko Schäfer
+- Developer: Heiko Schäfer
 
 ## Building
 

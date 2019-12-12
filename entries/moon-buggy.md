@@ -8,8 +8,7 @@ _Character-based game where you drive a car across the moon surface. You cannot 
 - Code repository: 
 - Code language: C
 - Code license: GPL-2.0
-
-Developer: Jochen Voss
+- Developer: Jochen Voss
 
 ## Building
 

@@ -10,7 +10,6 @@ _(VOADI) is a top-down adventure game made with Solarus. The game seeks to provi
 - Code license: GPL-3.0
 - Code dependencies: Solarus
 - Assets license: CC-BY-SA, GPL-3.0
-
- Developer: Alex Gleason
+- Developer: Alex Gleason
 
 ## Building

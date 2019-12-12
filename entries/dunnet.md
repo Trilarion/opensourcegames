@@ -9,7 +9,6 @@ _Dunnet is a text adventure game included in Emacs._
 - Code repository: (http://git.savannah.gnu.org/cgit/emacs.git/tree/lisp/play/dunnet.el?h=emacs-25)
 - Code language: Emacs Lisp
 - Code license: GPL-3.0
-
-Developer: Ron Schnell
+- Developer: Ron Schnell
 
 ## Building

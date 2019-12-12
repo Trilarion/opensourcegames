@@ -10,8 +10,7 @@ _Tennis game._
 - Code language: OCaml
 - Code license: GPL-2.0
 - Assets license: GPL-2.0
-
-Developer: Maurizio Colucci
+- Developer: Maurizio Colucci
 
 ## Building
 

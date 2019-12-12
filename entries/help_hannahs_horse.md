@@ -12,7 +12,6 @@ _Child-oriented arcade game, cross between Pacman and the Dizzy game "Fastfood".
 - Code license: GPL-2.0
 - Code dependencies: SDL
 - Assets license: GPL-2.0
-
-Developer: Stephen Branley
+- Developer: Stephen Branley
 
 ## Building

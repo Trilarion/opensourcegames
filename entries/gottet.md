@@ -10,9 +10,8 @@ _Tetris-like game._
 - Code language: C++
 - Code license: GPL
 - Code dependencies: Qt
+- Developer: Graeme Gott
 
 See also https://launchpad.net/~gottcode/+archive/ubuntu/gcppa
-
-Developer: Graeme Gott
 
 ## Building

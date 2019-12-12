@@ -12,9 +12,8 @@ _Breakout clone - a remake of LBreakout2 with improved graphics._
 - Code license: GPL-3.0
 - Code dependencies: SDL
 - Assets license: ? (GPL-3.0)
+- Developer: Michael Speck
 
 The gameplay of LBreakout2 is (mostly) preserved and it includes all levels from LBreakout2.
-
-Developer: Michael Speck
 
 ## Building

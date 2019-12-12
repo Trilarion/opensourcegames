@@ -14,6 +14,7 @@ _{Description}_
 - Code license: {XX}
 - Code dependencies: {XX} (optional)
 - Assets license: {XX} (optional)
+- Developer: {XX} (optional)
 
 ## Building
 

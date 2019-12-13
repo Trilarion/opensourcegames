@@ -297,6 +297,7 @@ https://github.com/perbone/luascript
 https://github.com/pixijs/pixi.js
 https://github.com/pld-linux
 https://github.com/pld-linux/nexuiz/blob/master/nexuiz.spec
+https://github.com/PolygonTek/BlueshiftEngine
 https://github.com/ppizarror/pygame-menu
 https://github.com/prime31/Nez-Samples
 https://github.com/psuong/ig-developer-console

@@ -11,7 +11,7 @@ _3D simulator game where you can drive, fly and sail various vehicles._
 - Code repository: https://github.com/RigsOfRods/rigs-of-rods.git
 - Code language: C, C++, AngelScript
 - Code license: GPL-3.0
-- Code dependencies: Ogre
+- Code dependencies: OGRE
 
 ## Building
 

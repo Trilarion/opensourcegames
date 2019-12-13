@@ -8,7 +8,7 @@ _Remake of Hardwar._
 - Code repository: https://github.com/andrewfenn/Hardwar.git
 - Code language: C++
 - Code license: GPL-3.0
-- Assets license: Ogre
+- Code dependencies: OGRE
 
 Is it playable?
 

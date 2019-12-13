@@ -11,7 +11,7 @@ _Open content for the Doom._
 - Code repository: https://github.com/freedoom/freedoom.git
 - Code language: None (only content)
 - Code license: None (only content)
-- Code dependencies: Doom, pillow
+- Code dependencies: Doom, Pillow
 - Assets license: 3-clause BSD
 
 ## Building

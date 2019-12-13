@@ -574,7 +574,6 @@
 - **[Liberal Crime Squad](../liberal_crime_squad.md)** (C++, GPL-2.0, mature, inactive since 2012)
 - **[Liberation Circuit](../liberation_circuit.md)** (C, GPL-3.0, mature)
 - **[Libre Pinball](../libre_pinball.md)** (GDScript, MIT, beta, inactive since 2015)
-- **[Libre: The Open Source Card Game](../libre_the_open_source_card_game.md)** (?, ?, mature, inactive since 2010)
 - **[Librelancer](../librelancer.md)** (C, C#, MIT, beta)
 - **[Limbs Off](../limbs_off.md)** (C++, GPL-3.0, beta, inactive since 2013)
 - **[LinCity-NG](../lincity-ng.md)** (C++, GPL-2.0, mature)

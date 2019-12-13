@@ -9,7 +9,7 @@ _Remake of Powerslide._
 - Code repository: https://bitbucket.org/dm_999/powerslideremake.git (git)
 - Code language: C++
 - Code license: MIT
-- Code dependencies: Ogre, SFML
+- Code dependencies: OGRE, SFML
 
 ## Building
 

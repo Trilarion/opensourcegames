@@ -1,4 +1,4 @@
-# Open AL Soft
+# OpenAL Soft
 
 _Software implementation of the OpenAL 3D audio API._
 

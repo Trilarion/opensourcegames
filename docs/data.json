@@ -94,7 +94,7 @@
    "",
    "mature / inactive since 2012",
    "puzzle, clone, inspired by Tetris, open content",
-   "<a href=\"https://code.launchpad.net/4dtris\">Source</a> - C - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/dtris.git\">Source</a> - C - GPL-2.0"
   ],
   [
    "54321 (<a href=\"http://old.nklein.com/products/54321/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/54321.md\">entry</a>)",
@@ -277,7 +277,7 @@
    "Cross-platform 2D and 3D game engine.",
    "",
    "beta / active",
-   "game engine, 2D, 3D, inspired by Urho3D + Ogre3D",
+   "game engine, 2D, 3D, inspired by Urho3D + OGRE",
    "<a href=\"https://github.com/amerkoleci/alimer.git\">Source</a> - C++ - MIT"
   ],
   [
@@ -3966,7 +3966,7 @@
    "<a href=\"http://gweled.org/download.html\">Link</a>",
    "mature / active",
    "puzzle, clone, inspired by Bejeweled, open content",
-   "<a href=\"https://code.launchpad.net/gweled\">Source</a> - C - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/gweled.git\">Source</a> - C - GPL-2.0"
   ],
   [
    "GZDoom (<a href=\"https://zdoom.org/index\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/gzdoom.md\">entry</a>)",
@@ -5037,8 +5037,8 @@
    "Strategic/trading/collectable card game.",
    "<a href=\"https://sourceforge.net/projects/librecardgame/files/\">Link</a>",
    "mature / inactive since 2010",
-   "sports, cards",
-   "<a href=\"http://librecardgame.bzr.sourceforge.net/bzrroot/librecardgame\">Source</a> - ? - ?"
+   "cards, tool",
+   "<a href=\"https://gitlab.com/osgames/librecardgame.git\">Source</a> - Python - AGPL-3.0"
   ],
   [
    "Librelancer (<a href=\"https://librelancer.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/librelancer.md\">entry</a>)",
@@ -6057,7 +6057,7 @@
    "<a href=\"https://github.com/odamex/odamex.git\">Source</a> - C, C++ - GPL-2.0"
   ],
   [
-   "OGRE3D (<a href=\"https://www.ogre3d.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/ogre3d.md\">entry</a>)",
+   "OGRE (<a href=\"https://www.ogre3d.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/ogre.md\">entry</a>)",
    "Scene-oriented, flexible 3D engine written in C++.",
    "<a href=\"https://www.ogre3d.org/download/sdk\">Link</a>",
    "mature / active",
@@ -6143,22 +6143,6 @@
    "mature / active",
    "simulation, clone, inspired by Elite, space",
    "<a href=\"https://github.com/OoliteProject/oolite.git\">Source</a> - Objective-C, C, JavaScript - GPL-2.0"
-  ],
-  [
-   "Open AL (<a href=\"http://www.openal.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/open_al.md\">entry</a>)",
-   "Cross-platform audio application programming interface..",
-   "<a href=\"http://www.openal.org/downloads/\">Link</a>",
-   "mature / active",
-   "library",
-   "C - Proprietary"
-  ],
-  [
-   "Open AL Soft (<a href=\"http://kcat.strangesoft.net/openal.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/open_al_soft.md\">entry</a>)",
-   "Software implementation of the OpenAL 3D audio API.",
-   "",
-   "mature / active",
-   "library",
-   "<a href=\"http://repo.or.cz/openal-soft.git\">Source</a> - C - LGPL-2.0"
   ],
   [
    "Open Apocalypse (<a href=\"http://openapoc.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/open_apocalypse.md\">entry</a>)",
@@ -6377,6 +6361,22 @@
    "<a href=\"https://github.com/SFTtech/openage.git\">Source</a> - C++, Python - GPL-3.0"
   ],
   [
+   "OpenAL (<a href=\"http://www.openal.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/openal.md\">entry</a>)",
+   "Cross-platform audio application programming interface..",
+   "<a href=\"http://www.openal.org/downloads/\">Link</a>",
+   "mature / active",
+   "library",
+   "C - Proprietary"
+  ],
+  [
+   "OpenAL Soft (<a href=\"http://kcat.strangesoft.net/openal.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/openal_soft.md\">entry</a>)",
+   "Software implementation of the OpenAL 3D audio API.",
+   "",
+   "mature / active",
+   "library",
+   "<a href=\"http://repo.or.cz/openal-soft.git\">Source</a> - C - LGPL-2.0"
+  ],
+  [
    "OpenAlchemist (<a href=\"http://www.openalchemist.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/openalchemist.md\">entry</a>)",
    "Falling block puzzle game.",
    "<a href=\"http://www.openalchemist.com/downloads.php\">Link</a>",
@@ -6509,7 +6509,7 @@
    "Remake of Elements.",
    "",
    "beta / active",
-   "remake, cards, inspired by Elements",
+   "cards, inspired by Elements, remake",
    "<a href=\"https://github.com/serprex/openEtG.git\">Source</a> - JavaScript - MIT"
   ],
   [
@@ -6877,7 +6877,7 @@
    "Remake of Triple Triad.",
    "",
    "beta / inactive since 2017",
-   "remake, cards, inspired by Triple Triad",
+   "cards, inspired by Triple Triad, remake",
    "<a href=\"https://github.com/benjaminfoo/OpenTriad.git\">Source</a> - Java - GPL-3.0"
   ],
   [
@@ -7287,6 +7287,14 @@
    "beta / inactive since 2019",
    "arcade, multiplayer, physics",
    "<a href=\"https://github.com/SteveSmith16384/PhysicsSpaceWar.git\">Source</a> - Java - MIT"
+  ],
+  [
+   "Pillow (<a href=\"https://python-pillow.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/pillow.md\">entry</a>)",
+   "Fork of the Python Imaging Library.",
+   "",
+   "mature / active",
+   "library",
+   "<a href=\"https://github.com/python-pillow/Pillow,git\">Source</a> - C, Python - PIL Software License"
   ],
   [
    "Pillows (<a href=\"https://fydo.net/projects/pillows\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/pillows.md\">entry</a>)",
@@ -7919,6 +7927,14 @@
    "mature / active",
    "role playing, inspired by Pixel Dungeon, remake, roguelike",
    "<a href=\"https://github.com/NYRDS/remixed-dungeon.git\">Source</a> - Java - GPL-3.0"
+  ],
+  [
+   "Ren'Py (<a href=\"https://www.renpy.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/renpy.md\">entry</a>)",
+   "Visual novel engine.",
+   "<a href=\"https://www.renpy.org/latest.html\">Link</a>",
+   "mature / active",
+   "visual novel, framework",
+   "<a href=\"https://github.com/renpy/renpy.git\">Source</a> - C, Python, Ren'Py - LGPL-2.1"
   ],
   [
    "ReQbert (<a href=\"https://leonicolas.github.io/ReQbert/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/reqbert.md\">entry</a>)",
@@ -9477,7 +9493,7 @@
    "Networked clone of the classical Bubble Bobble board game.",
    "<a href=\"http://bub-n-bros.sourceforge.net/download.html\">Link</a>",
    "mature / inactive since 2013",
-   "remake, board, clone, inspired by Bubble Bobble",
+   "board, clone, inspired by Bubble Bobble, remake",
    "<a href=\"https://bitbucket.org/arigo/bub-n-bros\">Source</a> - Python - MIT"
   ],
   [
@@ -10189,7 +10205,7 @@
    "Game engine for creating electronic versions of..",
    "<a href=\"http://www.vassalengine.org/download.php\">Link</a>",
    "mature / active",
-   "game engine, board, clone, framework, inspired by Board Game",
+   "board, clone, framework, game engine, inspired by Board Game",
    "<a href=\"https://svn.code.sf.net/p/vassalengine/svn\">Source</a> - Java - LGPL-2.1"
   ],
   [
@@ -10686,7 +10702,7 @@
    "<a href=\"https://launchpad.net/debian/+source/xdigger\">Link</a>",
    "mature / inactive since 1999",
    "action",
-   "C - GPL-2.0"
+   "<a href=\"https://gitlab.com/osgames/xdigger.git\">Source</a> - C - GPL-2.0"
   ],
   [
    "xDuke (<a href=\"http://vision.gel.ulaval.ca/~klein/duke3d/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/xduke.md\">entry</a>)",

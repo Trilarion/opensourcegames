@@ -1,4 +1,4 @@
-# OGRE3D
+# OGRE
 
 _Scene-oriented, flexible 3D engine written in C++._
 

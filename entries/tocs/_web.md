@@ -57,6 +57,7 @@
 - **[QuakeJS](../quakejs.md)** (JavaScript, MIT, mature)
 - **[RacerJS](../racerjs.md)** (JavaScript, MIT, mature, inactive since 2010)
 - **[raylib](../raylib.md)** (C, C++, zlib, mature)
+- **[Ren'Py](../renpy.md)** (C, Python, Ren'Py, LGPL-2.1, mature)
 - **[rock-raiders-remake](../rock-raiders-remake.md)** (JavaScript, MIT, beta)
 - **[Runfield](../runfield.md)** (JavaScript, GPL-3.0, mature, inactive since 2011)
 - **[sandspiel](../sandspiel.md)** (Rust, JavaScript, TypeScript, MIT, beta)

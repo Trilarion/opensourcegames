@@ -12,7 +12,6 @@
 - **[H-Craft Championship](../h-craft_championship.md)** (C++, zlib, mature, inactive since 2015)
 - **[HoverRace](../hoverrace.md)** (C++, Custom, mature, inactive since 2016)
 - **[Libre Pinball](../libre_pinball.md)** (GDScript, MIT, beta, inactive since 2015)
-- **[Libre: The Open Source Card Game](../libre_the_open_source_card_game.md)** (?, ?, mature, inactive since 2010)
 - **[NetStatsBaseball](../netstatsbaseball.md)** (C, Public domain, mature)
 - **[NOVA PINBALL](../nova_pinball.md)** (Lua, GPL-3.0, beta, inactive since 2017)
 - **[Open Soccer Star](../open_soccer_star.md)** (PHP, GPL-3.0, beta)

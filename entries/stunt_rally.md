@@ -10,7 +10,7 @@ _Racing game with rally style of driving._
 - Code repository: https://github.com/stuntrally/stuntrally.git
 - Code language: C, C++
 - Code license: GPL-3.0
-- Code dependencies: Ogre, SDL2, VDrift
+- Code dependencies: OGRE, SDL2, VDrift
 
 ## Building
 

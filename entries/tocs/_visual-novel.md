@@ -5,4 +5,5 @@
 - **[INSTEAD](../instead.md)** (C, Lua, MIT, mature)
 - **[Murder In The Public Domain](../murder_in_the_public_domain.md)** (C++, GPL-3.0, mature, inactive since 2013)
 - **[Our Personal Space](../our_personal_space.md)** (Ren'py, GPL-3.0, mature)
+- **[Ren'Py](../renpy.md)** (C, Python, Ren'Py, LGPL-2.1, mature)
 - **[Star Maiden Astraea Rio](../star_maiden_astraea_rio.md)** (Ren'py, MIT, mature)

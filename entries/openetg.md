@@ -6,7 +6,7 @@ _Remake of Elements._
 - State: beta
 - Play: http://etg.dek.im/
 - Platform: Web
-- Keywords: remake, cards, inspired by Elements
+- Keywords: cards, inspired by Elements, remake
 - Code repository: https://github.com/serprex/openEtG.git
 - Code language: JavaScript
 - Code license: MIT

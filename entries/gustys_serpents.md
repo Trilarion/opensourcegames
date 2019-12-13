@@ -10,7 +10,7 @@ _Clone of Snake._
 - Code repository: https://svn.code.sf.net/p/gustysserpents/svn (svn download might contain newer version)
 - Code language: C++
 - Code license: GPL-3.0
-- Code dependencies: Ogre
+- Code dependencies: OGRE
 - Assets license: CC-BY-NC-SA (music)
 
 ## Building

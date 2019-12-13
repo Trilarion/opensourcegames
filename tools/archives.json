@@ -823,6 +823,12 @@
   "https://github.com/raysan5/rfxgen.git",
   "https://github.com/red-eclipse/base.git",
   "https://github.com/reed-jones/minesweeper_js.git",
+  "https://github.com/renpy/pygame_sdl2.git",
+  "https://github.com/renpy/python-for-android.git",
+  "https://github.com/renpy/rapt.git",
+  "https://github.com/renpy/renios.git",
+  "https://github.com/renpy/renpy-deps.git",
+  "https://github.com/renpy/renpy.git",
   "https://github.com/residualvm/residualvm.git",
   "https://github.com/richardjs/Maelstrom.git",
   "https://github.com/riksweeney/edgar.git",
@@ -1051,6 +1057,7 @@
   "https://gitlab.com/osgames/dnt.git",
   "https://gitlab.com/osgames/dragon-history.git",
   "https://gitlab.com/osgames/dragon-hunt.git",
+  "https://gitlab.com/osgames/dtris.git",
   "https://gitlab.com/osgames/duelcommander.git",
   "https://gitlab.com/osgames/dunedynasty.git",
   "https://gitlab.com/osgames/dungeoncrawl.git",
@@ -1076,6 +1083,7 @@
   "https://gitlab.com/osgames/gm-tools.git",
   "https://gitlab.com/osgames/goblin-camp.git",
   "https://gitlab.com/osgames/grobots.git",
+  "https://gitlab.com/osgames/gweled.git",
   "https://gitlab.com/osgames/gwiz.git",
   "https://gitlab.com/osgames/h-world.git",
   "https://gitlab.com/osgames/hodoku.git",
@@ -1090,6 +1098,7 @@
   "https://gitlab.com/osgames/krystaldrop.git",
   "https://gitlab.com/osgames/kursk.git",
   "https://gitlab.com/osgames/lechemindeladam.git",
+  "https://gitlab.com/osgames/librecardgame.git",
   "https://gitlab.com/osgames/lincity.git",
   "https://gitlab.com/osgames/lipsofsuna.git",
   "https://gitlab.com/osgames/liquidwar6.git",
@@ -1188,6 +1197,7 @@
   "https://gitlab.com/osgames/xbill.git",
   "https://gitlab.com/osgames/xblast.git",
   "https://gitlab.com/osgames/xconq.git",
+  "https://gitlab.com/osgames/xdigger.git",
   "https://gitlab.com/osgames/xforceffd.git",
   "https://gitlab.com/osgames/xinvaders3d.git",
   "https://gitlab.com/osgames/xpilot.git",
@@ -1249,8 +1259,6 @@
   "https://bitbucket.org/thesheep/fujo/src"
  ],
  "bzr": [
-  "https://code.launchpad.net/4dtris",
-  "https://code.launchpad.net/gweled",
   "https://code.launchpad.net/heroesofwesnoth"
  ]
 }

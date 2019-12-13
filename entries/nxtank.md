@@ -10,7 +10,7 @@ _Xtank in a modern gaming engine._
 - Code repository: https://gitlab.com/osgames/nxtank.git (import of svn), https://svn.code.sf.net/p/nxtank/code (svn)
 - Code language: Python
 - Code license: GPL-3.0
-- Code dependencies: Ogre
+- Code dependencies: OGRE
 
 ## Building
 

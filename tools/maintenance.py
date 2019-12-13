@@ -854,7 +854,7 @@ def update_inspirations(infos):
 
     # iterate through originals alphabetically sorted
     for original, names in sorted(originals.items(), key=lambda x: str.casefold(x[0])):
-        inspirations += '## {}\n\n'.format(original)
+        inspirations += '## {} ({})\n\n'.format(original, len(names))
         inspirations += '- Inspired entries: {}\n\n'.format(', '.join(sorted(names, key=str.casefold)))
 
     # write to statistics file
@@ -888,11 +888,43 @@ def update_developer(infos):
 
     # iterate through developers alphabetically sorted
     for dev, names in sorted(developer.items(), key=lambda x: str.casefold(x[0])):
-        content += '## {}\n\n'.format(dev)
+        content += '## {} ({})\n\n'.format(dev, len(names))
         content += '- Games: {}\n\n'.format(', '.join(sorted(names, key=str.casefold)))
 
     # write to statistics file
     utils.write_text(developer_file, content)
+
+
+def check_code_dependencies(infos):
+    """
+
+    """
+
+    # get all names
+    names = [x['name'] for x in infos]
+
+    # TODO get all names of frameworks and libraries only and use osg.code_dependencies_aliases
+
+    # get all code dependencies
+    dependencies = {}
+    for info in infos:
+        deps = info.get('code dependencies', [])
+        for dependency in deps:
+            if dependency in dependencies:
+                dependencies[dependency] += 1
+            else:
+                dependencies[dependency] = 1
+
+    # delete those that are in names
+    dependencies = [(k, v) for k,v in dependencies.items() if k not in names and k not in osg.code_dependencies_without_entry]
+
+    # sort by number
+    dependencies.sort(key=lambda x: x[1], reverse=True)
+
+    # print out
+    print('Code dependencies not included as entry')
+    for dep in dependencies:
+        print('{} ({})'.format(*dep))
 
 
 if __name__ == "__main__":
@@ -946,6 +978,9 @@ if __name__ == "__main__":
 
     # collect list of primary code repositories
     export_primary_code_repositories_json()
+
+    # check code dependencies
+    check_code_dependencies(infos)
 
     # collect list of git code repositories (only one per project) for git_statistics script
     # export_git_code_repositories_json()

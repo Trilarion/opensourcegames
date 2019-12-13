@@ -55,6 +55,7 @@
 - **[Rabbit Escape](../rabbit_escape.md)** (Java, GPL-2.0, mature)
 - **[raylib](../raylib.md)** (C, C++, zlib, mature)
 - **[Remixed Dungeon](../remixed_dungeon.md)** (Java, GPL-3.0, mature)
+- **[Ren'Py](../renpy.md)** (C, Python, Ren'Py, LGPL-2.1, mature)
 - **[SanAndreasUnity](../sanandreasunity.md)** (C#, MIT, mature)
 - **[Simon Tatham's Portable Puzzle Collection](../simon_tathams_portable_puzzle_collection.md)** (C, MIT, mature)
 - **[Simple-Solitaire](../simple-solitaire.md)** (Java, GPL-3.0, mature)

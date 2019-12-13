@@ -9,7 +9,7 @@ _OpenRPG is an Internet application that allows people to play Role Playing Game
 - Code repository: https://gitlab.com/osgames/openrpg.git (conversion), https://svn.code.sf.net/p/openrpg/svn (svn), https://openrpg.cvs.sourceforge.net (cvs)
 - Code language: Python
 - Code license: GPL-2.0
-- Code dependencies: CherryPy, pillow, wxPython
+- Code dependencies: CherryPy, Pillow, wxPython
 
 ## Building
 

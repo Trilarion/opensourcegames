@@ -7,10 +7,11 @@ _Clone of Bejeweled._
 - Download: http://gweled.org/download.html
 - Platform: Linux
 - Keywords: puzzle, clone, inspired by Bejeweled, open content
-- Code repository: https://code.launchpad.net/gweled (bzr)
+- Code repository: https://gitlab.com/osgames/gweled.git (conversion of bzr), https://code.launchpad.net/gweled (bzr)
 - Code language: C
 - Code license: GPL-2.0
 - Code dependencies: GTK
+- Developer: Daniele Napolitano, Wes Ellis
 
 ## Building
 

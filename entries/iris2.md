@@ -8,7 +8,7 @@ _2D/3D client for playing the MMORPG Ultima Online on Freeshards._
 - Code repository: https://github.com/kblaschke/Iris2.git
 - Code language: C, C++, Lua
 - Code license: GPL-3.0
-- Code dependencies: Ogre
+- Code dependencies: OGRE
 - Developer: SiENcE, Ghoulsblade, Hagish
 
 ## Building

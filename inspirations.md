@@ -3,2035 +3,2035 @@
 
 508 games listed as inspirations.
 
-## 1010!
+## 1010! (1)
 
 - Inspired entries: Klooni 1010!
 
-## 3D Deathchase
+## 3D Deathchase (1)
 
 - Inspired entries: Deathchase 3D
 
-## A-Train
+## A-Train (1)
 
 - Inspired entries: FreeTrain
 
-## Abuse
+## Abuse (1)
 
 - Inspired entries: Abuse
 
-## Ace Combat: Assault Horizon
+## Ace Combat: Assault Horizon (1)
 
 - Inspired entries: Open Horizon
 
-## Ace of Spades
+## Ace of Spades (2)
 
 - Inspired entries: Iceball, OpenSpades
 
-## Achtung die Kurve
+## Achtung die Kurve (1)
 
 - Inspired entries: Zatacka
 
-## Achtung die Kurve!
+## Achtung die Kurve! (3)
 
 - Inspired entries: Achtung, die Kurve!, Netacka, Zatacka X
 
-## Advance Wars
+## Advance Wars (1)
 
 - Inspired entries: Tanks of Freedom
 
-## Age of Empires
+## Age of Empires (2)
 
 - Inspired entries: 0 A.D., openage
 
-## Age of Empires II
+## Age of Empires II (2)
 
 - Inspired entries: freeaoe, openage
 
-## Akalabeth: World of Doom
+## Akalabeth: World of Doom (1)
 
 - Inspired entries: Aklabeth
 
-## Anno series
+## Anno series (1)
 
 - Inspired entries: Unknown Horizons
 
-## Another World 2: Heart of the Alien
+## Another World 2: Heart of the Alien (1)
 
 - Inspired entries: Heart of the Alien
 
-## AquaStax
+## AquaStax (1)
 
 - Inspired entries: aquastax
 
-## Archon: The Light and the Dark
+## Archon: The Light and the Dark (1)
 
 - Inspired entries: XArchon
 
-## Ares
+## Ares (1)
 
 - Inspired entries: Antares
 
-## Arkanoid
+## Arkanoid (2)
 
 - Inspired entries: Ball And Wall, PyBreak360
 
-## ARMA 2
+## ARMA 2 (1)
 
 - Inspired entries: Uebergame
 
-## ARMA 3
+## ARMA 3 (1)
 
 - Inspired entries: Uebergame
 
-## ARMA: Armed Assault
+## ARMA: Armed Assault (1)
 
 - Inspired entries: Uebergame
 
-## Armor Alley
+## Armor Alley (1)
 
 - Inspired entries: Armor Alley
 
-## Artemis: Spaceship Bridge Simulator
+## Artemis: Spaceship Bridge Simulator (2)
 
 - Inspired entries: EmptyEpsilon, Space Nerds In Space
 
-## Artillery Duel
+## Artillery Duel (1)
 
 - Inspired entries: Artillery Duel Reloaded
 
-## Arx Fatalis
+## Arx Fatalis (1)
 
 - Inspired entries: Arx Libertatis
 
-## Asteroids
+## Asteroids (3)
 
 - Inspired entries: Maelstrom, Sine, Vectoroids
 
-## AstroMenace
+## AstroMenace (1)
 
 - Inspired entries: AstroMenace
 
-## Astrosmash
+## Astrosmash (1)
 
 - Inspired entries: Cosmosmash
 
-## Asylum
+## Asylum (1)
 
 - Inspired entries: SDL Asylum
 
-## Atomic Bomberman
+## Atomic Bomberman (1)
 
 - Inspired entries: Bombman
 
-## Atomix
+## Atomix (4)
 
 - Inspired entries: Atomiks, Atomix, KAtomic, WAtomic
 
-## Awesomenauts
+## Awesomenauts (1)
 
 - Inspired entries: BlakedAwesomenaughts
 
-## Baldur's Gate
+## Baldur's Gate (1)
 
 - Inspired entries: GemRB
 
-## Ballerburg
+## Ballerburg (1)
 
 - Inspired entries: Ballerburg SDL
 
-## Bard's Tale Contruction Set
+## Bard's Tale Contruction Set (1)
 
 - Inspired entries: Bt Builder
 
-## Barony
+## Barony (1)
 
 - Inspired entries: Barony
 
-## Battle Chess
+## Battle Chess (1)
 
 - Inspired entries: Brutal Chess
 
-## Battle City
+## Battle City (1)
 
 - Inspired entries: Tank: Zone of Death
 
-## Battle Isle series
+## Battle Isle series (2)
 
 - Inspired entries: Advanced Strategic Command, Crimson Fields
 
-## Battle Zone
+## Battle Zone (1)
 
 - Inspired entries: BZFlag
 
-## Battlecity
+## Battlecity (1)
 
 - Inspired entries: Battle City
 
-## BeamNG.drive
+## BeamNG.drive (1)
 
 - Inspired entries: Rigs of Rods
 
-## Beatmania IIDX
+## Beatmania IIDX (1)
 
 - Inspired entries: osu!
 
-## Bejeweled
+## Bejeweled (1)
 
 - Inspired entries: Gweled
 
-## Betrayal at Krondor
+## Betrayal at Krondor (1)
 
 - Inspired entries: xBaK
 
-## BioWare's Aurora engine
+## BioWare's Aurora engine (1)
 
 - Inspired entries: xoreos
 
-## Black & White
+## Black & White (1)
 
 - Inspired entries: openblack
 
-## Black Shades
+## Black Shades (1)
 
 - Inspired entries: Black Shades Elite
 
-## Blake Stone: Planet Strike
+## Blake Stone: Planet Strike (1)
 
 - Inspired entries: BStone
 
-## Blob Wars Attrition
+## Blob Wars Attrition (1)
 
 - Inspired entries: Blob Wars : Attrition
 
-## Blobby Volley
+## Blobby Volley (1)
 
 - Inspired entries: Slime Volley
 
-## Blokus
+## Blokus (1)
 
 - Inspired entries: Pentobi
 
-## Blood
+## Blood (2)
 
 - Inspired entries: NBlood, Transfusion
 
-## Board Game
+## Board Game (1)
 
 - Inspired entries: VASSAL
 
-## Boggle
+## Boggle (1)
 
 - Inspired entries: Tanglet
 
-## Bolo
+## Bolo (1)
 
 - Inspired entries: orona
 
-## Bomberman
+## Bomberman (8)
 
 - Inspired entries: Bombic, Bombic2, DynaDungeons, Granatier, I Have No Tomatoes, Mr.Boom, SDL Bomber, XBlast
 
-## BOOM
+## BOOM (1)
 
 - Inspired entries: BOOM: Remake
 
-## Boulder Dash
+## Boulder Dash (4)
 
 - Inspired entries: Boulder Dash, CAVEZ of PHEAR, GDash, Rocks'n'Diamonds
 
-## Bratwurst
+## Bratwurst (1)
 
 - Inspired entries: bratwurst
 
-## Breakout
+## Breakout (2)
 
 - Inspired entries: Breakout-VR, BRIQUOLO
 
-## Bubble Bobble
+## Bubble Bobble (1)
 
 - Inspired entries: The Bub's Brothers
 
-## Bug Bomber
+## Bug Bomber (1)
 
 - Inspired entries: BitRiot
 
-## BurgerTime
+## BurgerTime (1)
 
 - Inspired entries: BurgerSpace
 
-## Buster Bros
+## Buster Bros (1)
 
 - Inspired entries: Pang Zero
 
-## Buzz Aldrin's Race Into Space
+## Buzz Aldrin's Race Into Space (1)
 
 - Inspired entries: Race Into Space
 
-## BVE Trainsim
+## BVE Trainsim (1)
 
 - Inspired entries: OpenBVE
 
-## C-Dogs
+## C-Dogs (1)
 
 - Inspired entries: C-Dogs SDL
 
-## Cadaver
+## Cadaver (1)
 
 - Inspired entries: Cadaver
 
-## Caesar 3
+## Caesar 3 (2)
 
 - Inspired entries: CaesarIA, Julius
 
-## Call to Power II
+## Call to Power II (1)
 
 - Inspired entries: Civilization: Call To Power 2 Source Project
 
-## Cannon Fodder
+## Cannon Fodder (1)
 
 - Inspired entries: Open Fodder
 
-## Carmageddon
+## Carmageddon (1)
 
 - Inspired entries: OpenC1
 
-## Carrier Command
+## Carrier Command (1)
 
 - Inspired entries: Thunder&Lightning
 
-## Castle of the Winds
+## Castle of the Winds (1)
 
 - Inspired entries: Castle of the Winds in Elm
 
-## Cataclysm
+## Cataclysm (1)
 
 - Inspired entries: Cataclysm: Dark Days Ahead
 
-## Catacomb
+## Catacomb (1)
 
 - Inspired entries: CatacombSDL
 
-## Catacomb 3-D
+## Catacomb 3-D (2)
 
 - Inspired entries: CatacombGL, Reflection Keen
 
-## Catacomb Adventure Series
+## Catacomb Adventure Series (1)
 
 - Inspired entries: Reflection Keen
 
-## Catacomb II
+## Catacomb II (1)
 
 - Inspired entries: CatacombSDL
 
-## Cave Story
+## Cave Story (2)
 
 - Inspired entries: NXEngine, NXEngine-evo
 
-## Chip's Challenge
+## Chip's Challenge (1)
 
 - Inspired entries: Tile World
 
-## Chris Sawyer's Locomotion
+## Chris Sawyer's Locomotion (1)
 
 - Inspired entries: OpenLoco
 
-## ChuChu Rocket!
+## ChuChu Rocket! (1)
 
 - Inspired entries: Duck Marines
 
-## Circus Atari
+## Circus Atari (1)
 
 - Inspired entries: Circus Linux!
 
-## Civilization
+## Civilization (1)
 
 - Inspired entries: CivOne
 
-## Civilization II
+## Civilization II (3)
 
 - Inspired entries: C-evo, Freeciv, Freeciv-web
 
-## Civilization V
+## Civilization V (1)
 
 - Inspired entries: UnCiv
 
-## Claw
+## Claw (1)
 
 - Inspired entries: OpenClaw
 
-## Clonk
+## Clonk (1)
 
 - Inspired entries: OpenClonk
 
-## Colobot
+## Colobot (1)
 
 - Inspired entries: Colobot: Gold Edition
 
-## Command & Conquer
+## Command & Conquer (1)
 
 - Inspired entries: OpenRA
 
-## Command & Conquer: Generals
+## Command & Conquer: Generals (2)
 
 - Inspired entries: OpenSAGE, Thyme
 
-## Command & Conquer: Red Alert
+## Command & Conquer: Red Alert (2)
 
 - Inspired entries: Chronoshift, OpenRA
 
-## Commander Keen Series
+## Commander Keen Series (4)
 
 - Inspired entries: Commander Genius, Keen Dreams, Omnispeak, Reflection Keen
 
-## Commando
+## Commando (1)
 
 - Inspired entries: CommandoJS
 
-## Company of Heroes
+## Company of Heroes (1)
 
 - Inspired entries: Spring: 1944
 
-## Company of Heroes 2
+## Company of Heroes 2 (1)
 
 - Inspired entries: Spring: 1944
 
-## Company of Heroes: Opposing Fronts
+## Company of Heroes: Opposing Fronts (1)
 
 - Inspired entries: Spring: 1944
 
-## Company of Heroes: Tales of Valor
+## Company of Heroes: Tales of Valor (1)
 
 - Inspired entries: Spring: 1944
 
-## CorsixTH
+## CorsixTH (1)
 
 - Inspired entries: Project Dollhouse
 
-## Cortex Command
+## Cortex Command (1)
 
 - Inspired entries: CCCP
 
-## Counter-Strike
+## Counter-Strike (1)
 
 - Inspired entries: FreeCS
 
-## Crazy Machines series
+## Crazy Machines series (1)
 
 - Inspired entries: The Butterfly Effect
 
-## Creatures
+## Creatures (1)
 
 - Inspired entries: Open Creatures
 
-## Crimsonland
+## Crimsonland (2)
 
 - Inspired entries: Grimsonland, Violetland
 
-## Crystal Caves
+## Crystal Caves (1)
 
 - Inspired entries: OpenCrystalCaves
 
-## Crystal Quest
+## Crystal Quest (1)
 
 - Inspired entries: CrystalQuest
 
-## Cube 2: Sauerbraten
+## Cube 2: Sauerbraten (2)
 
 - Inspired entries: Inexor, Open Cube
 
-## CUBE engine
+## CUBE engine (1)
 
 - Inspired entries: AssaultCube
 
-## Cube World
+## Cube World (1)
 
 - Inspired entries: Veloren
 
-## Curse of the Azure Bonds
+## Curse of the Azure Bonds (1)
 
 - Inspired entries: coab
 
-## Cytadela
+## Cytadela (1)
 
 - Inspired entries: Cytadela
 
-## Dance Dance Revolution
+## Dance Dance Revolution (2)
 
 - Inspired entries: Performous, StepMania
 
-## Death Rally
+## Death Rally (1)
 
 - Inspired entries: Dreerally
 
-## Defender
+## Defender (2)
 
 - Inspired entries: Defendguin, Word War vi
 
-## Deflektor
+## Deflektor (1)
 
 - Inspired entries: Mirror Magic
 
-## Delver
+## Delver (1)
 
 - Inspired entries: DelverEngine
 
-## Descent
+## Descent (2)
 
 - Inspired entries: D2X-XL, DXX-Rebirth
 
-## Descent II
+## Descent II (2)
 
 - Inspired entries: D2X-XL, DXX-Rebirth
 
-## Destructo
+## Destructo (1)
 
 - Inspired entries: Return of Dr. Destructo
 
-## Diablo
+## Diablo (6)
 
 - Inspired entries: Devilution, DevilutionX, DGEngine, Flare, freeablo, Summoning Wars
 
-## Diablo II
+## Diablo II (1)
 
 - Inspired entries: Riiablo
 
-## Digger
+## Digger (2)
 
 - Inspired entries: CAVEZ of PHEAR, Digger Remastered
 
-## Dink Smallwood
+## Dink Smallwood (1)
 
 - Inspired entries: GNU FreeDink
 
-## Dogs of War
+## Dogs of War (1)
 
 - Inspired entries: openDOW
 
-## Dominion
+## Dominion (1)
 
 - Inspired entries: OpenDominion
 
-## Doom
+## Doom (14)
 
 - Inspired entries: Chocolate Doom, Classic RBDoom 3 BFG, Doom Legacy, DOOM Retro, DOOM-iOS, Doomsday Engine, Freedoom, GZDoom, Mocha Doom, Odamex, PrBoom+, SLADE, The Eternity Engine, ZDoom
 
-## DOOM
+## DOOM (1)
 
 - Inspired entries: Do It Yourself Doom With SDL
 
-## Doom 3
+## Doom 3 (3)
 
 - Inspired entries: Classic RBDoom 3 BFG, dhewm3, RBDOOM-3-BFG
 
-## Doom 64
+## Doom 64 (1)
 
 - Inspired entries: Doom64EX
 
-## Doom II
+## Doom II (10)
 
 - Inspired entries: Doom Legacy, DOOM Retro, DOOM-iOS, Doomsday Engine, Freedoom, GZDoom, Mocha Doom, Odamex, PrBoom+, ZDoom
 
-## Double Dragon
+## Double Dragon (1)
 
 - Inspired entries: OpenBOR
 
-## Drugwars
+## Drugwars (2)
 
 - Inspired entries: Dope Wars, Prescription Wars
 
-## Duke Nukem
+## Duke Nukem (2)
 
 - Inspired entries: Dave Gnukem, Freenukum
 
-## Duke Nukem 3D
+## Duke Nukem 3D (6)
 
 - Inspired entries: Chocolate Duke3D, Duke3D, Duke3d_w32, EDuke32, JFDuke3D, xDuke
 
-## Duke Nukem II
+## Duke Nukem II (1)
 
 - Inspired entries: Rigel Engine
 
-## Dune 2
+## Dune 2 (4)
 
 - Inspired entries: Dune 2 - The Maker, Dune Dynasty, Dune Legacy, OpenDUNE
 
-## Dune 2000
+## Dune 2000 (1)
 
 - Inspired entries: OpenRA
 
-## Dungeon Keeper
+## Dungeon Keeper (1)
 
 - Inspired entries: OpenDungeons
 
-## Dungeon Keeper 2
+## Dungeon Keeper 2 (1)
 
 - Inspired entries: OpenKeeper
 
-## Dungeon Keeper II
+## Dungeon Keeper II (1)
 
 - Inspired entries: KeeperRL
 
-## Dwarf Fortress
+## Dwarf Fortress (1)
 
 - Inspired entries: Veloren
 
-## E.T. the Extra-Terrestrial
+## E.T. the Extra-Terrestrial (1)
 
 - Inspired entries: javascript-E.T.
 
-## Eat The Whistle
+## Eat The Whistle (1)
 
 - Inspired entries: Eat The Whistle
 
-## Echochrome
+## Echochrome (1)
 
 - Inspired entries: l-echo
 
-## Elasto Mania
+## Elasto Mania (1)
 
 - Inspired entries: X-Moto
 
-## Elements
+## Elements (1)
 
 - Inspired entries: OpenEtG
 
-## Elite
+## Elite (2)
 
 - Inspired entries: Oolite, Vega Strike
 
-## Elite II
+## Elite II (1)
 
 - Inspired entries: Pioneer
 
-## Enduro
+## Enduro (1)
 
 - Inspired entries: Enduro tribute
 
-## Escape from Colditz
+## Escape from Colditz (1)
 
 - Inspired entries: Colditz Escape
 
-## Escape from Monkey Island
+## Escape from Monkey Island (1)
 
 - Inspired entries: ResidualVM
 
-## Escape Velocity
+## Escape Velocity (2)
 
 - Inspired entries: Endless Sky, Naev
 
-## F-1 Spirit
+## F-1 Spirit (1)
 
 - Inspired entries: F-1 Spirit
 
-## Falcon's Eye
+## Falcon's Eye (1)
 
 - Inspired entries: Vulture's Eye
 
-## Fall Down
+## Fall Down (2)
 
 - Inspired entries: ativayeban, Falling Time
 
-## Fallout 2
+## Fallout 2 (4)
 
 - Inspired entries: Falltergeist, jsFO, PARPG, sfall
 
-## Fallout Online
+## Fallout Online (1)
 
 - Inspired entries: fonline
 
-## Final Fantasy VII
+## Final Fantasy VII (1)
 
 - Inspired entries: Q-Gears
 
-## Final Fantasy VIII
+## Final Fantasy VIII (1)
 
 - Inspired entries: OpenVIII
 
-## Final Fight
+## Final Fight (1)
 
 - Inspired entries: OpenBOR
 
-## Fire Power
+## Fire Power (1)
 
 - Inspired entries: OpenFire
 
-## Flag Catcher
+## Flag Catcher (1)
 
 - Inspired entries: Gift Grabber
 
-## Flappy Bird
+## Flappy Bird (4)
 
 - Inspired entries: Clumsy Bird, CrappyBird, Flappy Cow, Hocoslamfy
 
-## Flying Shark
+## Flying Shark (1)
 
 - Inspired entries: Friking Shark
 
-## FooBillard
+## FooBillard (1)
 
 - Inspired entries: FooBillard++
 
-## Forgotten Realms: Unlimited Adventures
+## Forgotten Realms: Unlimited Adventures (1)
 
 - Inspired entries: Dungeon Craft
 
-## Forsaken
+## Forsaken (1)
 
 - Inspired entries: Forsaken
 
-## Freelancer
+## Freelancer (1)
 
 - Inspired entries: Librelancer
 
-## Frets on Fire
+## Frets on Fire (1)
 
 - Inspired entries: Frets on Fire X
 
-## Frogger
+## Frogger (2)
 
 - Inspired entries: Froggix, TermFrogger
 
-## Frogs and Flies
+## Frogs and Flies (1)
 
 - Inspired entries: Batrachians
 
-## GearHead
+## GearHead (1)
 
 - Inspired entries: GearHead 2
 
-## Gish
+## Gish (1)
 
 - Inspired entries: freegish
 
-## GL-117
+## GL-117 (1)
 
 - Inspired entries: RedShift
 
-## Gladiator
+## Gladiator (1)
 
 - Inspired entries: Openglad
 
-## Glest
+## Glest (1)
 
 - Inspired entries: MegaGlest
 
-## GoldenEye 007
+## GoldenEye 007 (2)
 
 - Inspired entries: ges-code, GoldenEye: Source
 
-## Gorillas
+## Gorillas (2)
 
 - Inspired entries: Gorillas, Gorillas-rs
 
-## Gothic
+## Gothic (2)
 
 - Inspired entries: OpenGothic, REGoth
 
-## Gothic 2
+## Gothic 2 (1)
 
 - Inspired entries: OpenGothic
 
-## Gothic II
+## Gothic II (1)
 
 - Inspired entries: REGoth
 
-## Grand Theft Auto III
+## Grand Theft Auto III (1)
 
 - Inspired entries: OpenRW
 
-## Grand Theft Auto: San Andreas
+## Grand Theft Auto: San Andreas (2)
 
 - Inspired entries: Grit Game Engine, SanAndreasUnity
 
-## Gravity Force
+## Gravity Force (2)
 
 - Inspired entries: Galaxy Forces V2, Moagg2
 
-## Grim Fandango
+## Grim Fandango (1)
 
 - Inspired entries: ResidualVM
 
-## Guitar Hero
+## Guitar Hero (3)
 
 - Inspired entries: Frets on Fire, Frets on Fire X, Performous
 
-## Gunpoint
+## Gunpoint (1)
 
 - Inspired entries: Clonepoint
 
-## Hammer of Thyrion
+## Hammer of Thyrion (1)
 
 - Inspired entries: HHexen
 
-## Hardwar
+## Hardwar (1)
 
 - Inspired entries: Hardwar
 
-## Head over Heels
+## Head over Heels (1)
 
 - Inspired entries: Head over Heels
 
-## Heretic
+## Heretic (10)
 
 - Inspired entries: Chocolate Doom, Doom Legacy, DOOM-iOS, Doomsday Engine, GZDoom, Mocha Doom, Odamex, PrBoom+, The Eternity Engine, ZDoom
 
-## Heroes of Might and Magic II
+## Heroes of Might and Magic II (1)
 
 - Inspired entries: Free Heroes 2
 
-## Heroes of Might and Magic III
+## Heroes of Might and Magic III (2)
 
 - Inspired entries: Ancient Beast, VCMI
 
-## Hexen
+## Hexen (10)
 
 - Inspired entries: Chocolate Doom, Doom Legacy, DOOM-iOS, Doomsday Engine, GZDoom, Mocha Doom, Odamex, PrBoom+, The Eternity Engine, ZDoom
 
-## Hexen II
+## Hexen II (1)
 
 - Inspired entries: Hammer of Thyrion
 
-## Highway Encounter
+## Highway Encounter (1)
 
 - Inspired entries: Vorton
 
-## Hogs of War
+## Hogs of War (1)
 
 - Inspired entries: OpenHoW
 
-## HoverRace
+## HoverRace (1)
 
 - Inspired entries: HoverRace
 
-## Hovertank 3D
+## Hovertank 3D (1)
 
 - Inspired entries: Hovertank3D
 
-## Icewind Dale
+## Icewind Dale (1)
 
 - Inspired entries: GemRB
 
-## Imperium Galactica
+## Imperium Galactica (1)
 
 - Inspired entries: Open Imperium Galactica
 
-## Indiana Jones and his Desktop Adventures
+## Indiana Jones and his Desktop Adventures (1)
 
 - Inspired entries: DesktopAdventures
 
-## Infinity Loop
+## Infinity Loop (1)
 
 - Inspired entries: IO Reboot
 
-## ioquake3
+## ioquake3 (1)
 
 - Inspired entries: QuakeJS
 
-## Iron Seed
+## Iron Seed (1)
 
 - Inspired entries: Iron Seed
 
-## Jagged Alliance 2
+## Jagged Alliance 2 (1)
 
 - Inspired entries: Jagged Alliance 2 Stracciatella
 
-## Jazz Jackrabbit
+## Jazz Jackrabbit (1)
 
 - Inspired entries: OpenJazz
 
-## Jazz Jackrabbit 2
+## Jazz Jackrabbit 2 (2)
 
 - Inspired entries: Jazz² Resurrection, Project Carrot
 
-## Jedi Knight II: Jedi Outcast
+## Jedi Knight II: Jedi Outcast (1)
 
 - Inspired entries: JediOutcastLinux
 
-## Jedi Knight: Jedi Academy
+## Jedi Knight: Jedi Academy (1)
 
 - Inspired entries: OpenJK
 
-## Jet-Story
+## Jet-Story (1)
 
 - Inspired entries: Jet-Story
 
-## Jewel Thief
+## Jewel Thief (1)
 
 - Inspired entries: jewelthief
 
-## JezzBall
+## JezzBall (2)
 
 - Inspired entries: Ice Breaker, WallBall
 
-## Joust
+## Joust (1)
 
 - Inspired entries: Ostrich Riders
 
-## Jump 'n Bump
+## Jump 'n Bump (1)
 
 - Inspired entries: Jump'n'Bump
 
-## Jumpgate: The Reconstruction Initiative
+## Jumpgate: The Reconstruction Initiative (1)
 
 - Inspired entries: Open Jumpgate
 
-## Keen Dreams
+## Keen Dreams (1)
 
 - Inspired entries: Reflection Keen
 
-## Knights
+## Knights (1)
 
 - Inspired entries: Knights
 
-## Knights and Merchants
+## Knights and Merchants (1)
 
 - Inspired entries: KaM Remake
 
-## Krush Kill 'n' Destroy
+## Krush Kill 'n' Destroy (1)
 
 - Inspired entries: KKnD
 
-## Kula World
+## Kula World (1)
 
 - Inspired entries: Cubosphere
 
-## Ladder
+## Ladder (2)
 
 - Inspired entries: ladder, Ladder
 
-## Larn
+## Larn (2)
 
 - Inspired entries: NLarn, Ularn
 
-## Laser Squad
+## Laser Squad (1)
 
 - Inspired entries: Moonbase Assault
 
-## Legend of Zelda
+## Legend of Zelda (3)
 
 - Inspired entries: Fanwor, Open Zelda, Zelda Classic
 
-## Legend of Zelda - A Link to the Past
+## Legend of Zelda - A Link to the Past (2)
 
 - Inspired entries: lttp-phaser, Solarus
 
-## Lego Rock Raiders
+## Lego Rock Raiders (1)
 
 - Inspired entries: rock-raiders-remake
 
-## Lemmings
+## Lemmings (5)
 
 - Inspired entries: Lemmings.ts, Lemmini, Lix, Pingus, Rabbit Escape
 
-## Liero
+## Liero (4)
 
 - Inspired entries: GUSANOS, LieroLibre, OpenLiero, OpenLieroX
 
-## Lionheart
+## Lionheart (1)
 
 - Inspired entries: Lionheart Remake
 
-## Little Big Adventure
+## Little Big Adventure (2)
 
 - Inspired entries: twin-e, TwinEngine
 
-## Little Fighter 2
+## Little Fighter 2 (1)
 
 - Inspired entries: F.LF
 
-## Lode Runner
+## Lode Runner (2)
 
 - Inspired entries: KGoldrunner, XScavenger
 
-## Log!cal
+## Log!cal (2)
 
 - Inspired entries: Orbium, Pathological
 
-## Lose Your Marbles
+## Lose Your Marbles (1)
 
 - Inspired entries: Lose Your Marbles
 
-## Lotus Esprit Turbo Challenge
+## Lotus Esprit Turbo Challenge (1)
 
 - Inspired entries: RacerJS
 
-## Lugaru: The Rabbit's Foot
+## Lugaru: The Rabbit's Foot (1)
 
 - Inspired entries: Lugaru
 
-## M.A.X.
+## M.A.X. (1)
 
 - Inspired entries: Mechanized Assault & eXploration Reloaded
 
-## M.U.L.E.
+## M.U.L.E. (1)
 
 - Inspired entries: M.E.W.L.
 
-## Mad TV
+## Mad TV (1)
 
 - Inspired entries: TVTower
 
-## Magic: The Gathering Online
+## Magic: The Gathering Online (2)
 
 - Inspired entries: Magarena, XMage
 
-## Magical Drop
+## Magical Drop (1)
 
 - Inspired entries: Krystal Drop
 
-## Marathon
+## Marathon (1)
 
 - Inspired entries: Aleph One
 
-## Marathon 2
+## Marathon 2 (1)
 
 - Inspired entries: Aleph One
 
-## Marathon Infinity
+## Marathon Infinity (1)
 
 - Inspired entries: Aleph One
 
-## Marble Madness
+## Marble Madness (1)
 
 - Inspired entries: Trackballs
 
-## Mario Kart
+## Mario Kart (2)
 
 - Inspired entries: Kartering, SuperTuxKart
 
-## Mario Party
+## Mario Party (1)
 
 - Inspired entries: SuperTuxParty
 
-## Mario World
+## Mario World (3)
 
 - Inspired entries: Mari0, Secret Maryo Chronicles, The Secret Chronicles of Dr. M.
 
-## Master of Magic
+## Master of Magic (1)
 
 - Inspired entries: OpenMoM
 
-## Master of Monsters
+## Master of Monsters (1)
 
 - Inspired entries: The Battle for Wesnoth
 
-## Master of Orion
+## Master of Orion (1)
 
 - Inspired entries: 1oom
 
-## Master of Orion 1
+## Master of Orion 1 (1)
 
 - Inspired entries: FreeOrion
 
-## Master of Orion 2
+## Master of Orion 2 (2)
 
 - Inspired entries: FreeOrion, OpenMOO2
 
-## Maxit
+## Maxit (2)
 
 - Inspired entries: KittenMaxit, Maxit
 
-## MechCommander 2
+## MechCommander 2 (1)
 
 - Inspired entries: MechCommander 2 Omnitech
 
-## MechWarrior
+## MechWarrior (1)
 
 - Inspired entries: Linwarrior 3D
 
-## Mega Lo Mania
+## Mega Lo Mania (1)
 
 - Inspired entries: Gigalomania
 
-## MegaMan
+## MegaMan (2)
 
 - Inspired entries: Executive Man, Rockbot
 
-## Meridian 59
+## Meridian 59 (1)
 
 - Inspired entries: Open Meridian
 
-## Metroid Prime
+## Metroid Prime (1)
 
 - Inspired entries: urde
 
-## Mice Men
+## Mice Men (1)
 
 - Inspired entries: Mice Men: Remix
 
-## Micro Machines
+## Micro Machines (3)
 
 - Inspired entries: Dust Racing 2D, Microracers, Yorg
 
-## Microprose Falcon 4.0 Combat Simulator
+## Microprose Falcon 4.0 Combat Simulator (1)
 
 - Inspired entries: FreeFalcon
 
-## Microsoft Flight Simulator
+## Microsoft Flight Simulator (1)
 
 - Inspired entries: FlightGear
 
-## Microsoft Train Simulator
+## Microsoft Train Simulator (1)
 
 - Inspired entries: Open Rails
 
-## Midnight Club II
+## Midnight Club II (1)
 
 - Inspired entries: OpenMC2
 
-## Millipede
+## Millipede (1)
 
 - Inspired entries: Monsters and Mushrooms
 
-## Minecraft
+## Minecraft (13)
 
 - Inspired entries: Chunk Stories, Craft, Digbuild, Gnomescroll, Hematite, Manic Digger, MineCraft-One-Week-Challenge, Minetest, pycraft, Terasology, TrueCraft, Veloren, Voxelands
 
-## Minesweeper
+## Minesweeper (4)
 
 - Inspired entries: Mines, Minesweeper (in C), Minesweeper.Zone, proxx
 
-## Missile Command
+## Missile Command (2)
 
 - Inspired entries: ICBM3D, Penguin Command
 
-## moon-patrol
+## moon-patrol (1)
 
 - Inspired entries: Moon-buggy
 
-## Moonbase Commander
+## Moonbase Commander (1)
 
 - Inspired entries: Scorched Moon
 
-## Morpheus
+## Morpheus (1)
 
 - Inspired entries: Morpheus Web Remake
 
-## Mortal Kombat
+## Mortal Kombat (2)
 
 - Inspired entries: mk.js, OpenMortal
 
-## Movie Business
+## Movie Business (1)
 
 - Inspired entries: movbizz
 
-## Myst III: Exile
+## Myst III: Exile (1)
 
 - Inspired entries: ResidualVM
 
-## Natural Selection
+## Natural Selection (2)
 
 - Inspired entries: Tremulous, Unvanquished
 
-## NaturalChimie
+## NaturalChimie (1)
 
 - Inspired entries: OpenAlchemist
 
-## Nebulus
+## Nebulus (1)
 
 - Inspired entries: Toppler
 
-## Need For Speed II SE
+## Need For Speed II SE (1)
 
 - Inspired entries: NFSIISE
 
-## Need For Speed III: Hot Pursuit
+## Need For Speed III: Hot Pursuit (1)
 
 - Inspired entries: OpenNFS
 
-## NetHack
+## NetHack (1)
 
 - Inspired entries: SLASH'EM
 
-## Neverball
+## Neverball (1)
 
 - Inspired entries: Nuncabola
 
-## Nexuiz
+## Nexuiz (1)
 
 - Inspired entries: Xonotic
 
-## Night Stalker
+## Night Stalker (1)
 
 - Inspired entries: Afternoon Stalker
 
-## Notrium
+## Notrium (1)
 
 - Inspired entries: OpenNotrium
 
-## Nuclear Reaction
+## Nuclear Reaction (2)
 
 - Inspired entries: c64-nuclearreaction, chainreaction
 
-## Oddworld: Abe's Exoddus
+## Oddworld: Abe's Exoddus (1)
 
 - Inspired entries: alive
 
-## Oddworld: Abe's Oddysee
+## Oddworld: Abe's Oddysee (1)
 
 - Inspired entries: alive
 
-## Ogre3D
+## OGRE (1)
 
 - Inspired entries: Alimer
 
-## Old School RuneScape
+## Old School RuneScape (1)
 
 - Inspired entries: RuneLite
 
-## Omega Race
+## Omega Race (1)
 
 - Inspired entries: Torrega Race
 
-## One Must Fall: 2097
+## One Must Fall: 2097 (1)
 
 - Inspired entries: OpenOMF
 
-## Osu! Tatakae! Ouendan
+## Osu! Tatakae! Ouendan (1)
 
 - Inspired entries: osu!
 
-## Oubliette
+## Oubliette (1)
 
 - Inspired entries: Liberal Crime Squad
 
-## Outpost
+## Outpost (1)
 
 - Inspired entries: Outpost HD
 
-## Outrun
+## Outrun (1)
 
 - Inspired entries: Cannonball
 
-## Oxyd
+## Oxyd (1)
 
 - Inspired entries: Enigma
 
-## Pac-Man
+## Pac-Man (5)
 
 - Inspired entries: EnTT Pacman, Ghostly, HTML5 Pacman, Pac Go, pacman-canvas
 
-## Pacman
+## Pacman (1)
 
 - Inspired entries: MiniPacman
 
-## Panzer General
+## Panzer General (2)
 
 - Inspired entries: LGeneral, Open Panzer
 
-## Paradroid
+## Paradroid (2)
 
 - Inspired entries: FreedroidRPG, Nighthawk
 
-## Pixel Dungeon
+## Pixel Dungeon (1)
 
 - Inspired entries: Remixed Dungeon
 
-## Pizza Tycoon
+## Pizza Tycoon (1)
 
 - Inspired entries: Pizza Business
 
-## Planescape: Torment
+## Planescape: Torment (1)
 
 - Inspired entries: GemRB
 
-## Plasma Pong
+## Plasma Pong (1)
 
 - Inspired entries: Fluid Table Tennis
 
-## Pokémon
+## Pokémon (2)
 
 - Inspired entries: OPMon, Tuxemon
 
-## Portal
+## Portal (1)
 
 - Inspired entries: glPortal
 
-## Postal
+## Postal (1)
 
 - Inspired entries: POSTAL 1 Open Source
 
-## Powder Game
+## Powder Game (2)
 
 - Inspired entries: sandspiel, The Powder Toy
 
-## Powerslave
+## Powerslave (1)
 
 - Inspired entries: Powerslave EX
 
-## Powerslide
+## Powerslide (1)
 
 - Inspired entries: Powerslide remake
 
-## Prince of Persia
+## Prince of Persia (3)
 
 - Inspired entries: FreePrince, Mininim, SDLPoP
 
-## Progress Quest
+## Progress Quest (2)
 
 - Inspired entries: pq2, progress-quest
 
-## Pushover
+## Pushover (1)
 
 - Inspired entries: Pushover
 
-## Puzzle Bobble
+## Puzzle Bobble (1)
 
 - Inspired entries: Frozen Bubble
 
-## Puzznic / Brix
+## Puzznic / Brix (1)
 
 - Inspired entries: Wizznic!
 
-## Q*bert
+## Q*bert (1)
 
 - Inspired entries: ReQbert
 
-## Quake
+## Quake (6)
 
 - Inspired entries: DarkPlaces, ezQuake, ProQuake 4, QuakeSpasm, TyrQuake, vkQuake
 
-## Quake 2
+## Quake 2 (2)
 
 - Inspired entries: Jake2, Yamagi Quake II
 
-## Quake 3
+## Quake 3 (4)
 
 - Inspired entries: FQuake3, ioquake3, OpenArena, QuakeJS
 
-## Railroad Tycoon
+## Railroad Tycoon (1)
 
 - Inspired entries: FreeRails
 
-## Rampart
+## Rampart (1)
 
 - Inspired entries: Castle-Combat
 
-## RARS
+## RARS (1)
 
 - Inspired entries: TORCS, The Open Racing Car Simulator
 
-## Redneck Rampage
+## Redneck Rampage (1)
 
 - Inspired entries: erampage
 
-## Rescue!
+## Rescue! (1)
 
 - Inspired entries: Rescue! Max
 
-## Return to Castle Wolfenstein
+## Return to Castle Wolfenstein (1)
 
 - Inspired entries: iortcw
 
-## Revenge Of The Cats: Ethernet
+## Revenge Of The Cats: Ethernet (1)
 
 - Inspired entries: Terminal Overload
 
-## Rick Dangerous
+## Rick Dangerous (1)
 
 - Inspired entries: RickyD
 
-## RimWorld
+## RimWorld (1)
 
 - Inspired entries: Magical Life
 
-## Rise of the Triad
+## Rise of the Triad (1)
 
 - Inspired entries: Rise of the Triad for Linux
 
-## Rodent's Revenge
+## Rodent's Revenge (1)
 
 - Inspired entries: Open Rodent's Revenge
 
-## RollerCoaster Tycoon
+## RollerCoaster Tycoon (1)
 
 - Inspired entries: FreeRCT
 
-## RollerCoaster Tycoon 1
+## RollerCoaster Tycoon 1 (1)
 
 - Inspired entries: OpenRCT2
 
-## RollerCoaster Tycoon 2
+## RollerCoaster Tycoon 2 (1)
 
 - Inspired entries: OpenRCT2
 
-## RPG Maker
+## RPG Maker (3)
 
 - Inspired entries: EasyRPG Player, mkxp, Tapir
 
-## Runescape Classic
+## Runescape Classic (2)
 
 - Inspired entries: 2006-rebotted, Open RSC
 
-## Ryzom
+## Ryzom (1)
 
 - Inspired entries: Ryzom Core
 
-## Scorched Earth
+## Scorched Earth (2)
 
 - Inspired entries: Atomic Tanks, Scorched3D
 
-## SCUMM
+## SCUMM (1)
 
 - Inspired entries: ScummVM
 
-## Sensible Soccer
+## Sensible Soccer (2)
 
 - Inspired entries: Freekick 3, YSoccer
 
-## Sensitive
+## Sensitive (2)
 
 - Inspired entries: One Way To Go, sensitive-js
 
-## Seven Kingdoms
+## Seven Kingdoms (1)
 
 - Inspired entries: Seven Kingdoms: Ancient Adversaries
 
-## sfxr
+## sfxr (1)
 
 - Inspired entries: rFXGen
 
-## Shadow of the Beast
+## Shadow of the Beast (1)
 
 - Inspired entries: shadow-of-the-beast-html5
 
-## Shadow Warrior
+## Shadow Warrior (2)
 
 - Inspired entries: JonoF's Shadow Warrior Port (JFSW), SWP
 
-## Shadowgrounds: Survivor
+## Shadowgrounds: Survivor (1)
 
 - Inspired entries: Shadowgrounds
 
-## Ship Simulator 2006
+## Ship Simulator 2006 (1)
 
 - Inspired entries: Bridge Command
 
-## Ship Simulator 2008
+## Ship Simulator 2008 (1)
 
 - Inspired entries: Bridge Command
 
-## Ship Simulator Extremes
+## Ship Simulator Extremes (1)
 
 - Inspired entries: Bridge Command
 
-## Shobon Action
+## Shobon Action (1)
 
 - Inspired entries: Open Syobon Action
 
-## Sid Meier's Alpha Centauri
+## Sid Meier's Alpha Centauri (1)
 
 - Inspired entries: Freeciv Alpha Centauri project
 
-## Sid Meier's Colonization
+## Sid Meier's Colonization (2)
 
 - Inspired entries: cc94, FreeCol
 
-## Sid Meier's Pirates!
+## Sid Meier's Pirates! (1)
 
 - Inspired entries: Crown and Cutlass
 
-## Siege
+## Siege (1)
 
 - Inspired entries: FreeSiege
 
-## Siege of Avalon
+## Siege of Avalon (1)
 
 - Inspired entries: Siege of Avalon : Open Source
 
-## Silent Hunter 4
+## Silent Hunter 4 (1)
 
 - Inspired entries: Danger from the Deep
 
-## Simcity
+## Simcity (8)
 
 - Inspired entries: 3d.city, Citybound, Cytopia, Lincity, LinCity-NG, Micropolis, micropolisJS, OpenCity
 
-## SimCity 2000
+## SimCity 2000 (1)
 
 - Inspired entries: OpenSC2K
 
-## Simon
+## Simon (1)
 
 - Inspired entries: asdf
 
-## Simon Says
+## Simon Says (1)
 
 - Inspired entries: Blinken
 
-## SimTower
+## SimTower (1)
 
 - Inspired entries: OpenSkyscraper
 
-## SingStar
+## SingStar (3)
 
 - Inspired entries: Performous, UltraStar Deluxe, Vocaluxe
 
-## SkiFree
+## SkiFree (2)
 
 - Inspired entries: Skifree-HTML5-clone, skifree.js
 
-## Skool Daze
+## Skool Daze (1)
 
 - Inspired entries: pyskool
 
-## SkyRoads
+## SkyRoads (2)
 
 - Inspired entries: OpenRoads, Orbit-Hopper
 
-## Slime Volleyball
+## Slime Volleyball (1)
 
 - Inspired entries: Slime Volleyball
 
-## Slot Racers
+## Slot Racers (1)
 
 - Inspired entries: Slot-Racers
 
-## Snake
+## Snake (2)
 
 - Inspired entries: Gusty's Serpents, snake
 
-## Sokoban
+## Sokoban (1)
 
 - Inspired entries: CavePacker
 
-## Solar Fox
+## Solar Fox (1)
 
 - Inspired entries: SolarWolf
 
-## Sonic the Hedgehog
+## Sonic the Hedgehog (2)
 
 - Inspired entries: Open Surge, Sonic Robo Blast 2
 
-## Sopwith
+## Sopwith (2)
 
 - Inspired entries: SDL Sopwith, Sopwith 3
 
-## Space Harrier
+## Space Harrier (1)
 
 - Inspired entries: Space Harrier Clone
 
-## Space Invaders
+## Space Invaders (1)
 
 - Inspired entries: Hopson-Arcade
 
-## Space Rangers 2: Dominators
+## Space Rangers 2: Dominators (1)
 
 - Inspired entries: OpenSR
 
-## Space Station 13
+## Space Station 13 (3)
 
 - Inspired entries: Griefly, SS13 Remake, unitystation
 
-## Space Taxi
+## Space Taxi (1)
 
 - Inspired entries: Moagg2
 
-## Spear of Destiny
+## Spear of Destiny (1)
 
 - Inspired entries: ECWolf
 
-## Spore
+## Spore (1)
 
 - Inspired entries: Thrive
 
-## Star Control 2
+## Star Control 2 (2)
 
 - Inspired entries: star-control2, The Ur-Quan Masters
 
-## Star Ruler 2
+## Star Ruler 2 (1)
 
 - Inspired entries: Star Ruler 2
 
-## Star Trek: Voyager – Elite Force
+## Star Trek: Voyager – Elite Force (1)
 
 - Inspired entries: RPG-X
 
-## Star Wars 1983 arcade game
+## Star Wars 1983 arcade game (1)
 
 - Inspired entries: Star-Wars-III
 
-## Star Wars Episode I: Racer
+## Star Wars Episode I: Racer (1)
 
 - Inspired entries: OpenSWE1R
 
-## Star Wars Jedi Knight: Dark Forces II
+## Star Wars Jedi Knight: Dark Forces II (1)
 
 - Inspired entries: Gorc
 
-## Star Wars: Galactic Battlegrounds
+## Star Wars: Galactic Battlegrounds (1)
 
 - Inspired entries: openage
 
-## Star Wars: Yoda Stories
+## Star Wars: Yoda Stories (2)
 
 - Inspired entries: DesktopAdventures, WebFun
 
-## Starcraft
+## Starcraft (1)
 
 - Inspired entries: Stargus
 
-## Stars!
+## Stars! (2)
 
 - Inspired entries: Freestars, NStars!
 
-## Starshatter
+## Starshatter (1)
 
 - Inspired entries: starshatter-open
 
-## StepMania
+## StepMania (1)
 
 - Inspired entries: OpenITG
 
-## Story of Seasons series
+## Story of Seasons series (1)
 
 - Inspired entries: Greentwip's Harvest Moon
 
-## Streets of Rage
+## Streets of Rage (1)
 
 - Inspired entries: OpenBOR
 
-## Strife
+## Strife (3)
 
 - Inspired entries: Chocolate Doom, Strife: Veteran Edition, The Eternity Engine
 
-## Stronghold
+## Stronghold (1)
 
 - Inspired entries: Sourcehold
 
-## Stunt Car Racer
+## Stunt Car Racer (1)
 
 - Inspired entries: Stunt Car Racer Remake
 
-## Stunts
+## Stunts (1)
 
 - Inspired entries: Ultimate Stunts
 
-## SunDog: Frozen Legacy
+## SunDog: Frozen Legacy (2)
 
 - Inspired entries: sundog, SunDog Resurrection
 
-## Supaplex
+## Supaplex (3)
 
 - Inspired entries: Rocks'n'Diamonds, splexhd, Supaxl
 
-## Super Cars
+## Super Cars (1)
 
 - Inspired entries: Supercars III
 
-## Super Foul Egg
+## Super Foul Egg (1)
 
 - Inspired entries: SuperFoulEgg
 
-## Super Hexagon
+## Super Hexagon (1)
 
 - Inspired entries: Open Hexagon
 
-## Super Mario
+## Super Mario (4)
 
 - Inspired entries: Mario Objects, Mega Mario, SuperTux, uMario
 
-## Super Methane Brothers
+## Super Methane Brothers (2)
 
 - Inspired entries: Super Methane Brothers, super-methane-brothers-gx
 
-## Super Metroid
+## Super Metroid (1)
 
 - Inspired entries: Hexoshi
 
-## Super Monkey Ball
+## Super Monkey Ball (4)
 
 - Inspired entries: irrlamb, Neverball, Nuncabola, Veraball
 
-## Super Smash Bros.
+## Super Smash Bros. (2)
 
 - Inspired entries: Super Tilt Bro, TUSSLE
 
-## Supreme Commander
+## Supreme Commander (1)
 
 - Inspired entries: Zero-K
 
-## Survivor 1986
+## Survivor 1986 (1)
 
 - Inspired entries: Survivor
 
-## Swing
+## Swing (1)
 
 - Inspired entries: XSwing Plus
 
-## Syndicate
+## Syndicate (1)
 
 - Inspired entries: FreeSynd
 
-## Syndicate Wars
+## Syndicate Wars (1)
 
 - Inspired entries: Syndicate Wars Port
 
-## System Shock
+## System Shock (1)
 
 - Inspired entries: Shockolate
 
-## System's Twilight
+## System's Twilight (1)
 
 - Inspired entries: System Syzygy
 
-## Taiko no Tatsujin
+## Taiko no Tatsujin (1)
 
 - Inspired entries: osu!
 
-## Team Fortress 2
+## Team Fortress 2 (2)
 
 - Inspired entries: Gang Garrison 2, Open Fortress
 
-## Tempest
+## Tempest (1)
 
 - Inspired entries: Arashi-JS
 
-## Terraria
+## Terraria (2)
 
 - Inspired entries: LastTry, terrarium
 
-## Test Drive
+## Test Drive (1)
 
 - Inspired entries: OpenGL Test Drive Remake
 
-## Tetris
+## Tetris (9)
 
 - Inspired entries: 4D-TRIS, Hextris, Just another Tetris™ clone, NullpoMino, OpenBlok, Quadrapassel, Spludlow Tetris, Tetris (in C and NCURSES), vitetris
 
-## Tetris Attack
+## Tetris Attack (4)
 
 - Inspired entries: Block Attack - Rise of the Blocks, Crack Attack!, FreeBlocks, Panel Attack
 
-## The Battle for Wesnoth
+## The Battle for Wesnoth (1)
 
 - Inspired entries: Lords of the Fey
 
-## The Binding of Isaac
+## The Binding of Isaac (2)
 
 - Inspired entries: Paper Isaac, Witch Blast
 
-## The Castles of Dr. Creep
+## The Castles of Dr. Creep (1)
 
 - Inspired entries: The Castles of Dr. Creep
 
-## The Clue!
+## The Clue! (1)
 
 - Inspired entries: Der Clou!
 
-## The Elder Scrolls II: Daggerfall
+## The Elder Scrolls II: Daggerfall (1)
 
 - Inspired entries: Daggerfall Unity
 
-## The Elder Scrolls III: Morrowind
+## The Elder Scrolls III: Morrowind (3)
 
 - Inspired entries: OpenMW, OpenMW for Android, TES3MP
 
-## The Elder Scrolls: Arena
+## The Elder Scrolls: Arena (1)
 
 - Inspired entries: OpenTESArena
 
-## The Great Giana Sisters
+## The Great Giana Sisters (1)
 
 - Inspired entries: OpenGGS
 
-## The Incredible Machine series
+## The Incredible Machine series (1)
 
 - Inspired entries: The Butterfly Effect
 
-## The Legend of Zelda: The Wind Waker
+## The Legend of Zelda: The Wind Waker (1)
 
 - Inspired entries: Wind Waker Randomizer
 
-## The Lost Vikings
+## The Lost Vikings (1)
 
 - Inspired entries: freeVikings
 
-## The Oregon Trail
+## The Oregon Trail (1)
 
 - Inspired entries: The-Trail
 
-## The Settlers
+## The Settlers (1)
 
 - Inspired entries: Freeserf
 
-## The Settlers II
+## The Settlers II (2)
 
 - Inspired entries: Return to the Roots, Widelands
 
-## The Settlers III
+## The Settlers III (1)
 
 - Inspired entries: JSettlers
 
-## The Sims
+## The Sims (2)
 
 - Inspired entries: FreeSims, Simitone
 
-## The Sims Online
+## The Sims Online (2)
 
 - Inspired entries: FreeSO, Project Dollhouse
 
-## Theme Hospital
+## Theme Hospital (1)
 
 - Inspired entries: CorsixTH
 
-## Theme Park
+## Theme Park (1)
 
 - Inspired entries: Theme Park Builder 3D CAD
 
-## Thief
+## Thief (1)
 
 - Inspired entries: The Dark Mod
 
-## Thrust
+## Thrust (1)
 
 - Inspired entries: Thrust
 
-## Tiny Wings
+## Tiny Wings (1)
 
 - Inspired entries: Tiny Wings
 
-## Titus the Fox
+## Titus the Fox (1)
 
 - Inspired entries: OpenTitus
 
-## Tomb Raider
+## Tomb Raider (3)
 
 - Inspired entries: OpenLara, OpenRaider, OpenTomb
 
-## Tomb Raider Chronicles
+## Tomb Raider Chronicles (1)
 
 - Inspired entries: TOMB5
 
-## Toobz
+## Toobz (1)
 
 - Inspired entries: Marblez
 
-## Total Annihilation
+## Total Annihilation (3)
 
 - Inspired entries: Spring, Total Annihilation 3D, Zero-K
 
-## Touhou
+## Touhou (1)
 
 - Inspired entries: Taisei Project
 
-## TrackMania
+## TrackMania (2)
 
 - Inspired entries: ManiaDrive, Stunt Rally
 
-## Transball
+## Transball (1)
 
 - Inspired entries: Super Transball 2
 
-## Transport Tycoon
+## Transport Tycoon (3)
 
 - Inspired entries: OpenTTD, Simutrans, TTDPatch
 
-## Tremulous
+## Tremulous (1)
 
 - Inspired entries: Tremfusion
 
-## Tricky Towers
+## Tricky Towers (1)
 
 - Inspired entries: Tumbly Towers
 
-## Triple Triad
+## Triple Triad (1)
 
 - Inspired entries: OpenTriad
 
-## Tron
+## Tron (1)
 
 - Inspired entries: Pink Pony
 
-## Turmoil
+## Turmoil (1)
 
 - Inspired entries: Data Storm
 
-## Turok
+## Turok (1)
 
 - Inspired entries: TurokEX
 
-## TuxRacer
+## TuxRacer (1)
 
 - Inspired entries: Extreme Tux Racer
 
-## Tyrian
+## Tyrian (2)
 
 - Inspired entries: OpenTyrian, Tyrian Remake
 
-## UFO: Enemy Unknown
+## UFO: Enemy Unknown (6)
 
 - Inspired entries: Open Apocalypse, OpenXcom, UFO2000, UFO: Alien Invasion, X-Force: Fight For Destiny, Xenowar
 
-## Ugh!
+## Ugh! (1)
 
 - Inspired entries: CaveExpress
 
-## Ultima IV
+## Ultima IV (1)
 
 - Inspired entries: xu4
 
-## Ultima Online
+## Ultima Online (2)
 
 - Inspired entries: CrossUO, Iris2
 
-## Ultima series
+## Ultima series (1)
 
 - Inspired entries: Haxima
 
-## Ultima VI
+## Ultima VI (1)
 
 - Inspired entries: Nuvie
 
-## Ultima VII
+## Ultima VII (1)
 
 - Inspired entries: Exult
 
-## Ultima VIII
+## Ultima VIII (1)
 
 - Inspired entries: Pentagram
 
-## Ultima: Worlds of Adventure 2: Martian Dreams
+## Ultima: Worlds of Adventure 2: Martian Dreams (1)
 
 - Inspired entries: Nuvie
 
-## UltraStar Deluxe
+## UltraStar Deluxe (1)
 
 - Inspired entries: Vocaluxe
 
-## Uninvited
+## Uninvited (1)
 
 - Inspired entries: uninvited
 
-## Urban Assault
+## Urban Assault (1)
 
 - Inspired entries: UA_source
 
-## Urho3D
+## Urho3D (1)
 
 - Inspired entries: Alimer
 
-## Visual Pinball
+## Visual Pinball (1)
 
 - Inspired entries: Visual Pinball
 
-## Vlak
+## Vlak (1)
 
 - Inspired entries: Train
 
-## VVVVVV
+## VVVVVV (1)
 
 - Inspired entries: WWW
 
-## Warcraft II
+## Warcraft II (2)
 
 - Inspired entries: Dark Oberon, Wargus
 
-## Warcraft: Orcs & Humans
+## Warcraft: Orcs & Humans (1)
 
 - Inspired entries: warcraft-remake
 
-## Wario Land 3
+## Wario Land 3 (1)
 
 - Inspired entries: Wario-Land-3
 
-## Warlords II
+## Warlords II (1)
 
 - Inspired entries: FreeLords
 
-## Warrior Kings
+## Warrior Kings (1)
 
 - Inspired entries: wkbre
 
-## Warsong
+## Warsong (1)
 
 - Inspired entries: The Battle for Wesnoth
 
-## Warzone 2100
+## Warzone 2100 (1)
 
 - Inspired entries: Warzone 2100
 
-## Webhangman
+## Webhangman (1)
 
 - Inspired entries: Pendumito
 
-## What the Box
+## What the Box (1)
 
 - Inspired entries: Killer Crates
 
-## Where in the World Is Carmen Sandiego? 1985
+## Where in the World Is Carmen Sandiego? 1985 (1)
 
 - Inspired entries: thiefcatcher
 
-## Wing Commander: Privateer
+## Wing Commander: Privateer (1)
 
 - Inspired entries: Privateer - Gemini Gold
 
-## Wipeout
+## Wipeout (4)
 
 - Inspired entries: Ecksdee, H-Craft Championship, HexGL, The Rush
 
-## Wizard of Wor
+## Wizard of Wor (1)
 
 - Inspired entries: KnightOfWor
 
-## Wizardry
+## Wizardry (1)
 
 - Inspired entries: Wizardry Legacy
 
-## Wolfenstein 3D
+## Wolfenstein 3D (1)
 
 - Inspired entries: ECWolf
 
-## Wolfenstein: Enemy Territory
+## Wolfenstein: Enemy Territory (1)
 
 - Inspired entries: ET: Legacy
 
-## Worlds of Ultima: The Savage Empire
+## Worlds of Ultima: The Savage Empire (1)
 
 - Inspired entries: Nuvie
 
-## Worms Series
+## Worms Series (2)
 
 - Inspired entries: Hedgewars, WarMUX
 
-## X-COM: Apocalypse
+## X-COM: Apocalypse (6)
 
 - Inspired entries: Open Apocalypse, OpenXcom, UFO2000, UFO: Alien Invasion, X-Force: Fight For Destiny, Xenowar
 
-## X-COM: Terror from the Deep
+## X-COM: Terror from the Deep (6)
 
 - Inspired entries: Open Apocalypse, OpenXcom, UFO2000, UFO: Alien Invasion, X-Force: Fight For Destiny, Xenowar
 
-## X-COM: UFO Defense
+## X-COM: UFO Defense (6)
 
 - Inspired entries: Open Apocalypse, OpenXcom, UFO2000, UFO: Alien Invasion, X-Force: Fight For Destiny, Xenowar
 
-## XKobo
+## XKobo (1)
 
 - Inspired entries: Kobo Deluxe
 
-## XOR
+## XOR (1)
 
 - Inspired entries: XorCurses
 
-## XPilot
+## XPilot (1)
 
 - Inspired entries: XPilot NG
 
-## Z
+## Z (2)
 
 - Inspired entries: Zed Online, Zod Engine
 
-## Zarch
+## Zarch (1)
 
 - Inspired entries: Ajax3d
 
-## Zork
+## Zork (1)
 
 - Inspired entries: zorkClone
 
-## Zuma
+## Zuma (1)
 
 - Inspired entries: Zaz
 

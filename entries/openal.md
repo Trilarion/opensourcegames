@@ -1,4 +1,4 @@
-# Open AL
+# OpenAL
 
 _Cross-platform audio application programming interface (API)._
 

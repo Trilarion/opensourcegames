@@ -11,6 +11,7 @@
 - **[OpenLara](../openlara.md)** (C++, 2-clause BSD, mature)
 - **[osu!](../osu.md)** (C#, MIT, beta)
 - **[ouzel](../ouzel.md)** (C, C++, Objective-C, 2-clause BSD, beta)
+- **[Ren'Py](../renpy.md)** (C, Python, Ren'Py, LGPL-2.1, mature)
 - **[Simon Tatham's Portable Puzzle Collection](../simon_tathams_portable_puzzle_collection.md)** (C, MIT, mature)
 - **[Tux Paint](../tux_paint.md)** (C, C++, GPL-2.0, beta)
 - **[Yet Another Engine](../yet_another_engine.md)** (MoonScript, Java, Lua, MIT, beta, inactive since 2016)

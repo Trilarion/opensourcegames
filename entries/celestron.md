@@ -9,7 +9,7 @@ _Top-down space shooter in the legacy of Chromium BSU._
 - Code repository: https://git.code.sf.net/p/celestron/code, https://gitlab.com/osgames/celestron.git (+)
 - Code language: Python
 - Code license: GPL-3.0
-- Code dependencies: numpy, pygame
+- Code dependencies: NumPy, pygame
 
 ## Building
 

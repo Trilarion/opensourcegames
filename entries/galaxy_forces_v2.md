@@ -9,5 +9,6 @@ _Remake of Gravity Force._
 - Code repository: https://svn.code.sf.net/p/galaxyv2/code (svn active)
 - Code language: C++
 - Code license: ? (PD)
+- Developer: Ronnie Hedlund
 
 ## Building

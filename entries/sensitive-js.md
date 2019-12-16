@@ -9,7 +9,6 @@ _Remake of Sensitive._
 - Code repository: https://github.com/bylexus/sensitive-js.git
 - Code language: JavaScript
 - Code license: ? (ISC)
-
-See also https://github.com/bylexus/sensitive-js#copyright-violations
+- Assets license: unknown (https://github.com/bylexus/sensitive-js#copyright-violations)
 
 ## Building

@@ -9,7 +9,7 @@ _Holtz is a collection of board games that can be played against the computer or
 - Keywords: puzzle, board, online, open content
 - Code repository: https://git.code.sf.net/p/holtz/code, https://git.code.sf.net/p/holtz/website (+)
 - Code language: C++
-- Code license: GPL
+- Code license: GPL-2.0
 - Code dependencies: wxWidgets
 - Assets license: GPL
 - Developer: Florian Fischer, Martin Trautmann

@@ -9,7 +9,7 @@ _A framework for turn based 4 X's game (eXplore, eXpand, eXploit, eXterminate). 
 - Code repository: https://github.com/thousandparsec/tpserver-cpp.git, https://github.com/thousandparsec/tpclient-pywx.git (+), (http://git.thousandparsec.net/ not available right now)
 - Code language: C++, Python
 - Code license: GPL-2.0
-- Code dependencies: numpy, psyco, py2app, py2exe, pygame, pyOpenSSL, wxPython
+- Code dependencies: NumPy, psyco, py2app, py2exe, pygame, pyOpenSSL, wxPython
 
 Should this be a game engine instead? Server is written in C++. Client is written in Python.
 

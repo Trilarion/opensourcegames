@@ -10,7 +10,7 @@ _Clone of Osu! Tatakae! Ouendan, Taiko no Tatsujin, Beatmania IIDX._
 - Code repository: https://github.com/ppy/osu.git
 - Code language: C#
 - Code license: MIT
-- Code dependencies: .NET Core
+- Code dependencies: .NET
 
 See also: https://github.com/itdelatrisu/opsu, https://github.com/fluddokt/opsu, https://github.com/AnirudhRahul/opsu-Android
 

@@ -8,6 +8,6 @@ _Remake of Lionheart._
 - Code repository: https://github.com/DjThunder/lionheart-remake.git
 - Code language: Java
 - Code license: GPL-3.0
-- Code dependencies: Lion
+- Code dependencies: LionEngine
 
 ## Building

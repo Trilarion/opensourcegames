@@ -9,5 +9,6 @@ _Remake of Rampart._
 - Code repository: https://github.com/karlb/castle-combat.git
 - Code language: Python
 - Code license: ? (GPL-2.0)
+- Developer: Karl Bartel
 
 ## Building

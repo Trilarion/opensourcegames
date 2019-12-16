@@ -10,7 +10,7 @@ _Remake of Super Monkey Ball._
 - Code repository: https://github.com/jazztickets/irrlamb.git
 - Code language: C, C++
 - Code license: GPL-3.0
-- Code dependencies: Irrlicht
+- Code dependencies: Irrlicht Engine
 
 ## Building
 

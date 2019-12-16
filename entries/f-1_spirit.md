@@ -11,5 +11,6 @@ _Remake of F-1 Spirit._
 - Code language: C++
 - Code license: ?
 - Code dependencies: SDL
+- Developer: Santi "Popolon" Ontañón
 
 ## Building

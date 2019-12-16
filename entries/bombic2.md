@@ -9,5 +9,8 @@ _Remake of Bomberman._
 - Code language: C++
 - Code license: ?
 - Code dependencies: SDL
+- Developer: Karel Fiser
 
 ## Building
+
+- Build system: Make

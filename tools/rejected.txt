@@ -130,6 +130,7 @@ PyTouhou (http://pytouhou.linkmauve.fr/,http://hg.linkmauve.fr/touhou): Sources 
 Racer (http://racer.sourceforge.net/, http://sourceforge.net/projects/racer/): Very early development, Inactive
 realmforge (https://sourceforge.net/projects/realmforge/): Went commercial
 Robotypo (http://robotypo.appspot.com/index.html, https://code.google.com/archive/p/robotypo/): Very early development, No license, long abandoned
+RPG Paper Maker (http://rpg-paper-maker.com/?i=1, https://github.com/RPG-Paper-Maker/RPG-Paper-Maker.git): Closed, proprietary source, usage free for non-commercial use
 Ruby OMF 2097 Remake (http://rubyomf2097.rubyforge.org/, svn://rubyforge.org/var/svn/rubyomf2097): No source code found, web site offline
 RuneSword II (https://sourceforge.net/projects/runesword/, http://runesword.sourceforge.net/, https://github.com/mattiascibien/Runesword.net, https://github.com/aceofspades19/Runesword-II-OS.Net, http://www.runesword.com/rs2.html): No license found
 Schwertreiter (https://sourceforge.net/projects/schwertreiter/): No license information, early development, long abandoned

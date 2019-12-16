@@ -9,7 +9,8 @@ _Merge of ioquake3 features and fixes into RTCW code bases._
 - Keywords: remake, first-person, inspired by Return to Castle Wolfenstein, shooter
 - Code repository: https://github.com/iortcw/iortcw.git
 - Code language: C, C++
-- Code license: GPL
+- Code license: GPL-3.0
 - Code dependencies: OpenAL, SDL
+- Developer: Donny Springer, Zack Middleton, James Canete
 
 ## Building

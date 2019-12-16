@@ -8,7 +8,7 @@ _Real-time multiplayer programming game. You control your creatures using the Lu
 - Keywords: simulation, evolution, open content, programming, real time, strategy
 - Code repository: https://github.com/dividuum/infon.git, https://bitbucket.org/dividuum/infon.git (+)
 - Code language: C, Lua
-- Code license: GPL
+- Code license: GPL-2.0
 - Code dependencies: SDL
 - Assets license: GPL
 - Developer: Florian Wesch

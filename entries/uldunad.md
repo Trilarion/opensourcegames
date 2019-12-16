@@ -8,7 +8,7 @@ _Ultimate Dungeon Adventure (UlDunAd) - the extremely flexible, fun, text/graphi
 - Code repository: https://github.com/nhydock/UlDunAd.git
 - Code language: Python
 - Code license: GPL-3.0
-- Code dependencies: numpy, OpenGL, Pillow, pygame, wxPython
+- Code dependencies: NumPy, OpenGL, Pillow, pygame, wxPython
 
 ## Building
 

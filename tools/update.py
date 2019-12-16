@@ -24,7 +24,7 @@ def derive_folder_name(url, replaces):
         if url.startswith(service):
             url = replaces[service] + url[len(service):]
             return sanitize(url)
-    for generic in ['http://', 'https://']:
+    for generic in ['http://', 'https://', 'git://', 'svn://']:
         if url.startswith(generic):
             url = url[len(generic):]
             return sanitize(url)
@@ -86,23 +86,6 @@ def hg_clone(url, folder):
 def hg_update(folder):
     os.chdir(folder)
     subprocess_run(['hg', 'pull', '-u'])
-
-
-def bzr_folder_name(url):
-    replaces = {
-        'https://code.launchpad.net': 'launchpad',
-    }
-    return derive_folder_name(url, replaces)
-
-
-def bzr_clone(url, folder):
-    subprocess_run(['bzr', 'branch', url, folder])
-
-
-def bzr_update(folder):
-    os.chdir(folder)
-    subprocess_run(['bzr', 'pull'])
-
 
 def run_update(type, urls):
     print('update {} {} archives'.format(len(urls), type))
@@ -166,27 +149,24 @@ def run_info(type, urls):
 
 if __name__ == '__main__':
 
-    supported_types = ['git', 'hg', 'svn']  # currently no bzr client installed
+    supported_types = ['git', 'hg', 'svn']
 
     folder_name = {
         'git': git_folder_name,
         'svn': svn_folder_name,
         'hg': hg_folder_name,
-        'bzr': bzr_folder_name
     }
 
     clone = {
         'git': git_clone,
         'svn': svn_clone,
         'hg': hg_clone,
-        'bzr': bzr_clone
     }
 
     update = {
         'git': git_update,
         'svn': svn_update,
         'hg': hg_update,
-        'bzr': bzr_update
     }
 
     # get this folder

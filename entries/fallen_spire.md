@@ -8,7 +8,7 @@ _Role-playing adventure game._
 - Code repository: https://github.com/BGCX067/fallenspire-svn-to-git.git, https://code.google.com/archive/p/fallenspire/source/default/source
 - Code language: Python
 - Code license: GPL-3.0
-- Code dependencies: Blender game engine, cairo, numpy, PGU (https://code.google.com/archive/p/pgu/), Pillow, pygame
+- Code dependencies: Blender game engine, cairo, NumPy, PGU (https://code.google.com/archive/p/pgu/), Pillow, pygame
 
 ## Building
 

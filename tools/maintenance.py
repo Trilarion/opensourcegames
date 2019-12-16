@@ -632,6 +632,9 @@ def git_repo(repo):
         if repo.startswith(service):
             return repo
 
+    if repo.startswith('git://'):
+        return repo
+
     # the rest is ignored
     return None
 
@@ -640,13 +643,22 @@ def svn_repo(repo):
     """
     
     """
-    if repo.startswith('https://svn.code.sf.net/p/') and repo.endswith('/code/'):
+    if repo.startswith('https://svn.code.sf.net/p/'):
         return repo
 
     if repo.startswith('http://svn.uktrainsim.com/svn/'):
         return repo
 
     if repo is 'https://rpg.hamsterrepublic.com/source/wip':
+        return repo
+
+    if repo.startswith('http://svn.savannah.gnu.org/svn/'):
+        return repo
+
+    if repo.startswith('svn://'):
+        return repo
+
+    if repo.startswith('https://svn.icculus.org/') or repo.startswith('http://svn.icculus.org/'):
         return repo
     
     # not svn
@@ -667,22 +679,14 @@ def hg_repo(repo):
     return None
 
 
-def bzr_repo(repo):
-    if repo.startswith('https://code.launchpad.net/'):
-        return repo
-
-    # not bzr
-    return None
-
-
-def export_primary_code_repositories_json():
+def export_primary_code_repositories_json(infos):
     """
 
     """
 
     print('export to json for local repository update')
 
-    primary_repos = {'git':[],'svn':[],'hg':[],'bzr':[]}
+    primary_repos = {'git': [], 'svn': [], 'hg': []}
     unconsumed_entries = []
 
     # for every entry filter those that are known git repositories (add additional repositories)
@@ -718,23 +722,22 @@ def export_primary_code_repositories_json():
                         primary_repos['hg'].append(url)
                         consumed=True
                         continue
-                    url = bzr_repo(repo)
-                    if url:
-                        primary_repos['bzr'].append(url)
-                        consumed=True
-                        continue
 
             if not consumed:
                 unconsumed_entries.append([info['name'], info[field]])
                 # print output
-                #if info['code repository']:
-                #    print('Entry "{}" unconsumed repo: {}'.format(info['name'], info[field]))
-                #if not info['code repository']:
-                #    print('Entry "{}" unconsumed repo: {}'.format(info['name'], info[field]))
+                if 'code repository' in info:
+                    print('Entry "{}" unconsumed repo: {}'.format(info['name'], info[field]))
 
     # sort them alphabetically (and remove duplicates)
     for k, v in primary_repos.items():
         primary_repos[k] = sorted(set(v))
+
+    # statistics of gits
+    git_repos = primary_repos['git']
+    print('{} Git repositories'.format(len(git_repos)))
+    for domain in ('repo.or.cz', 'anongit.kde.org', 'bitbucket.org', 'git.code.sf.net', 'git.savannah', 'git.tuxfamily', 'github.com', 'gitlab.com', 'gitlab.com/osgames', 'gitlab.gnome.org'):
+        print('{} on {}'.format(sum(1 if domain in x else 0 for x in git_repos), domain))
 
     # write them to tools/git
     json_path = os.path.join(c.root_path, 'tools', 'archives.json')
@@ -977,7 +980,7 @@ if __name__ == "__main__":
     export_json(infos)
 
     # collect list of primary code repositories
-    export_primary_code_repositories_json()
+    export_primary_code_repositories_json(infos)
 
     # check code dependencies
     check_code_dependencies(infos)

@@ -9,5 +9,6 @@ _Clone of Missile Command._
 - Code repository: (see download)
 - Code language: C
 - Code license: ? (GPL-2.0 maybe but could not find it in the source code)
+- Developer: Bill Kendrick
 
 ## Building

@@ -9,6 +9,7 @@ _Remake of Maxit._
 - Keywords: strategy, inspired by Maxit, remake
 - Code repository: https://github.com/textbrowser/maxit.git
 - Code language: C++
-- Code license: ? (BSD)
+- Code license: 3-clause BSD (https://github.com/textbrowser/maxit/blob/master/LICENSE)
+- Developer:  Alexis Megas
 
 ## Building

@@ -17,7 +17,8 @@ known_licenses = ('2-clause BSD', '3-clause BSD', 'AFL-3.0', 'AGPL-3.0', 'Apache
 known_multiplayer_modes = ('competitive', 'co-op', 'hotseat', 'LAN', 'local', 'massive', 'matchmaking', 'online', 'split-screen')
 
 code_dependencies_aliases = {'Simple DirectMedia Layer': ('SDL', 'SDL2'), 'Simple and Fast Multimedia Library': 'SFML'}
-code_dependencies_without_entry = {'OpenGL': 'https://www.opengl.org/', 'GLUT': 'https://www.opengl.org/resources/libraries/', 'WebGL': 'https://www.khronos.org/webgl/', 'Unity': 'https://unity.com/solutions/game'}
+code_dependencies_without_entry = {'OpenGL': 'https://www.opengl.org/', 'GLUT': 'https://www.opengl.org/resources/libraries/', 'WebGL': 'https://www.khronos.org/webgl/', 'Unity': 'https://unity.com/solutions/game',
+                                   '.NET': 'https://dotnet.microsoft.com/', 'Vulkan': 'https://www.khronos.org/vulkan/'}
 
 regex_sanitize_name = re.compile(r"[^A-Za-z 0-9-+]+")
 regex_sanitize_name_space_eater = re.compile(r" +")

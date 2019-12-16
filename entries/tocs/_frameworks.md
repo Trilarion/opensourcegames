@@ -15,7 +15,7 @@
 - **[DeSmuME](../desmume.md)** (C, C++, GPL-2.0, mature, inactive since 2015)
 - **[EasyRPG Player](../easyrpg_player.md)** (C++, GPL-3.0, mature)
 - **[ENIGMA (development environment)](../enigma_development_environment.md)** (C++, C, GPL-3.0, mature)
-- **[F.LF](../flf.md)** (JavaScript, ?, mature)
+- **[F.LF](../flf.md)** (JavaScript, CC-BY-SA-NC-3.0, mature)
 - **[Flare](../flare.md)** (C++, Java, GPL-3.0, mature)
 - **[Flex Engine](../flex_engine.md)** (C++, MIT, beta)
 - **[flixel-gdx](../flixel-gdx.md)** (Java, 3-clause BSD, beta, inactive since 2017)

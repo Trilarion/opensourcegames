@@ -8,7 +8,7 @@ _Tetris-like game._
 - Keywords: tool, tetris-like
 - Code repository: (see home)
 - Code language: C++
-- Code license: GPL
+- Code license: GPL-3.0
 - Code dependencies: Qt
 - Developer: Graeme Gott
 

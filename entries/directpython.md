@@ -9,6 +9,6 @@ _C++ extension to Python, which provides basic access to DirectX._
 - Keywords: library
 - Code repository: http://hg.code.sf.net/p/directpython11/code (see download)
 - Code language: C++
-- Code license: ? (none found at sources)
+- Code license: 2-clause BSD (source headers)
 
 ## Building

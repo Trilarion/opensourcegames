@@ -9,6 +9,7 @@ _Remake of Shobon Action._
 - Code repository: (see download)
 - Code language: C++
 - Code license: ? (GPL-2.0?)
+- Developer: Mathew Velasquez
 
 See also https://sourceforge.net/p/opensyobon/bugs/4/
 

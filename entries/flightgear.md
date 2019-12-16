@@ -12,7 +12,6 @@ _Flight simulator developed since 1997._
 - Code language: C++
 - Code license: GPL-2.0
 
-
 ## Building
 
 - Build system: CMake

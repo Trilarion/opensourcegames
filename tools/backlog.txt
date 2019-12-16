@@ -270,6 +270,7 @@ https://github.com/LgLinus/StrategyGame
 https://github.com/libretro/libretro-chailove
 https://github.com/libretro/libretro-prboom
 https://github.com/ligurio/awesome-ttygames
+https://github.com/luciopanepinto/pacman
 https://github.com/MarcoLizza/tofu-engine
 https://github.com/MatthewTheGlutton/HideousDestructor
 https://github.com/McKay42/McOsu
@@ -356,9 +357,11 @@ https://gitlab.com/nyov/nyovs-nexuiz
 https://gitlab.com/vgstation/vgstation-old (and vgstation in general)
 https://gitlab.com/xonlegacy/xonlegacy
 https://gitlab.openrsc.com/open-rsc
+https://gitorious.org/index-list.html (are there other interesting games)
 https://gottcode.org/ (all)
 https://itch.io/ (scrape, look for open source)
 https://jcrpg.blogspot.de/
+https://jotd.pagesperso-orange.fr/ (several games)
 https://kde.org/applications/games/ (all of them)
 https://lgdb.org/ (ask on reddit for archived version)
 https://lgdb.org/engine/rawgl

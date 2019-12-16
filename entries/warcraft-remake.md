@@ -9,6 +9,6 @@ _Remake of Warcraft: Orcs & Humans._
 - Code repository: https://github.com/b3dgs/warcraft-remake.git
 - Code language: Java
 - Code license: GPL-2.0
-- Code dependencies: Lion
+- Code dependencies: LionEngine
 
 ## Building

@@ -21,7 +21,7 @@
 - **[Devana](../devana.md)** (PHP, zlib, beta)
 - **[Esenthel Engine](../esenthel_engine.md)** (C, C++, Custom, beta)
 - **[Executive Man](../executive_man.md)** (JavaScript, Custom, mature, inactive since 2017)
-- **[F.LF](../flf.md)** (JavaScript, ?, mature)
+- **[F.LF](../flf.md)** (JavaScript, CC-BY-SA-NC-3.0, mature)
 - **[Fantasy Map Generator](../fantasy_map_generator.md)** (JavaScript, MIT, mature)
 - **[flixel-gdx](../flixel-gdx.md)** (Java, 3-clause BSD, beta, inactive since 2017)
 - **[gist-txt](../gist-txt.md)** (JavaScript, MIT, mature, inactive since 2018)

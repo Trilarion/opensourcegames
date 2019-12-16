@@ -10,7 +10,7 @@ _Voxel game engine._
 - Code repository: https://github.com/minetest/minetest.git
 - Code language: C, C++, Lua
 - Code license: LGPL-2.1
-- Code dependencies: Irrlicht
+- Code dependencies: Irrlicht Engine
 - Assets license: CC-BY-SA-3.0
 
 ## Building

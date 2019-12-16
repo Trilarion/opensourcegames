@@ -14,7 +14,7 @@
 - **[Fantasy Map Generator](../fantasy_map_generator.md)** (JavaScript, MIT, mature)
 - **[GM Tools](../gm_tools.md)** (C++, GPL-2.0, beta, inactive since 2004)
 - **[GoRogue](../gorogue.md)** (C#, MIT, mature)
-- **[Gottet](../gottet.md)** (C++, GPL, mature)
+- **[Gottet](../gottet.md)** (C++, GPL-3.0, mature)
 - **[JaNaG - Java Name Generator](../janag-java_name_generator.md)** (Java, GPL-3.0, mature, inactive since 2016)
 - **[Libre: The Open Source Card Game](../libre_the_open_source_card_game.md)** (Python, AGPL-3.0, mature, inactive since 2010)
 - **[Monster Generator](../monster_generator.md)** (Java, MIT, mature)

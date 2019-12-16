@@ -12,7 +12,7 @@
 - **[Battery](../battery.md)** (Java, EPL-2.0, Custom, mature, inactive since 2009)
 - **[Battle Tanks](../battle_tanks.md)** (C++, GPL-2.0, mature, inactive since 2009)
 - **[Blobby Volley 2](../blobby_volley_2.md)** (C++, GPL-2.0, mature, inactive since 2017)
-- **[Bloodmasters](../bloodmasters.md)** (C#, GPL, mature, inactive since 2008)
+- **[Bloodmasters](../bloodmasters.md)** (C#, GPL-2.0, mature, inactive since 2008)
 - **[BomberClone](../bomberclone.md)** (C, GPL-2.0, beta, inactive since 2010)
 - **[Bombermaaan](../bombermaaan.md)** (C++, GPL-3.0, mature, inactive since 2010)
 - **[Bouncy the Hungry Rabbit](../bouncy_the_hungry_rabbit.md)** (Python, GPL-2.0, mature, inactive since 2007)

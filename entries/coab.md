@@ -8,5 +8,6 @@ _Remake of Curse of the Azure Bonds._
 - Code repository: https://github.com/simeonpilgrim/coab.git
 - Code language: C#
 - Code license: ? (BSD)
+- Code dependencies: .NET
 
 ## Building

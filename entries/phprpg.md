@@ -10,6 +10,7 @@ _Multiplayer role playing game engine which shares common qualities between mult
 - Code repository: https://gitlab.com/osgames/phprpg.git (conversion from cvs), http://phprpg.cvs.sourceforge.net (cvs)
 - Code language: PHP
 - Code license: GPL-2.0
+- Developer: Haeric (haeric@SF), Rob Norman (stinx@SF), Timothy Chung (ttschung@SF)
 
 ## Building
 

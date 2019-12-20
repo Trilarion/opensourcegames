@@ -9,7 +9,7 @@ _Battleship game._
 - Code repository: https://gitlab.com/osgames/batnav.git (import of cvs), http://batnav.cvs.sourceforge.net (cvs)
 - Code language: C
 - Code license: GPL-2.0
-- Developer: Ricardo Quesada
+- Developer: Ricardo Quesada (riq@SF), Jacob L. Anawalt (jlanawalt@SF)
 
 ## Building
 

@@ -1,6 +1,6 @@
 # CrossUO
 
-_ Ultima Online client._
+_Ultima Online client._
 
 - Home: https://crossuo.com/
 - Media: https://en.wikipedia.org/wiki/Ultima_Online

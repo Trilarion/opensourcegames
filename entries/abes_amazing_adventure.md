@@ -11,6 +11,7 @@ _Side scrolling platform game._
 - Code language: C
 - Code license: GPL-2.0
 - Code dependencies: SDL
+- Developer: Gabor Torok (gabortorok@SF)
 
 ## Building
 

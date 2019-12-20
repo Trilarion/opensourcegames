@@ -1,6 +1,6 @@
 # Dungeon Monkey Unlimited
 
-_A turn based combat-oriented tactics RPG. _
+_A turn based combat-oriented tactics RPG._
 
 - Home: https://sourceforge.net/projects/dmonkey/
 - State: mature, inactive since 2010

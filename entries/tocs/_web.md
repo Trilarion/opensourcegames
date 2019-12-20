@@ -61,7 +61,7 @@
 - **[rock-raiders-remake](../rock-raiders-remake.md)** (JavaScript, MIT, beta)
 - **[Runfield](../runfield.md)** (JavaScript, GPL-3.0, mature, inactive since 2011)
 - **[sandspiel](../sandspiel.md)** (Rust, JavaScript, TypeScript, MIT, beta)
-- **[sensitive-js](../sensitive-js.md)** (JavaScript, ?, beta, inactive since 2017)
+- **[sensitive-js](../sensitive-js.md)** (JavaScript, Custom, beta, inactive since 2017)
 - **[shadow-of-the-beast-html5](../shadow-of-the-beast-html5.md)** (JavaScript, Apache-2.0, beta, inactive since 2017)
 - **[Skifree-HTML5-clone](../skifree-html5-clone.md)** (JavaScript, GPL-3.0, beta, inactive since 2011)
 - **[skifree.js](../skifreejs.md)** (JavaScript, MIT, mature, inactive since 2016)

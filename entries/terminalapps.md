@@ -1,6 +1,6 @@
 # TerminalApps
 
-_Fun puzzle games that run on any terminal. _
+_Fun puzzle games that run on any terminal._
 
 - Home: https://github.com/fastrgv/TerminalApps
 - State: mature

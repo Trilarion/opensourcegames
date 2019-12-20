@@ -52,6 +52,7 @@ http://slick.ninjacave.com/
 http://snowstorm.sourceforge.net/cgi-bin/site.cgi
 http://sol.gfxile.net/ambrose3d/index.html
 http://stage.gamecreation.org/ (all of them)
+http://stellarengine.nongnu.org/games.html (all the games)
 http://storygamecreator.webs.com/
 http://sumwars.org/wiki/Main_Page
 http://svn.assembla.com/svn/gdpl/
@@ -123,6 +124,7 @@ http://www.sourceforge.net/projects/ika
 http://www.sourceforge.net/projects/lgames (all of them)
 http://www.sourceforge.net/projects/stratagus
 http://www.spheredev.org/
+http://www.surfline.ne.jp/hachi/xsoldier.html
 http://www.usgo.org/go-software
 http://www.vbgore.com/Main_Page
 http://www.zeldaroth.fr/us/zroth.php
@@ -193,10 +195,12 @@ https://github.com/AdamsLair/duality
 https://github.com/Alzter/TuxBuilder
 https://github.com/amerkoleci/Vortice.Windows
 https://github.com/arturkot/the-house-game
+https://github.com/asweigart/PythonStdioGames
 https://github.com/AtomicGameEngine/AtomicGameEngine
 https://github.com/atphalix/nexuiz
 https://github.com/azhirnov/FrameGraph
 https://github.com/benl23x5/gloss
+https://github.com/bernardosulzbach/dungeon
 https://github.com/bioglaze/aether3d
 https://github.com/bomblik/BlockOut_II_PSVITA
 https://github.com/bsmr-games (also contains copies)
@@ -257,6 +261,7 @@ https://github.com/id-Software
 https://github.com/Illation/ETEngine
 https://github.com/Im-dex/xray-162
 https://github.com/jasonrohrer (add gits to his games)
+https://github.com/jatinmandav/Gaming-in-Python
 https://github.com/JohanLi/uncharted-waters-2
 https://github.com/JohnLamontagne/Lunar-Engine
 https://github.com/junkdog/artemis-odb
@@ -317,6 +322,7 @@ https://github.com/RoxasShadow/Sottaceto
 https://github.com/rramsden/ymir
 https://github.com/sabresaurus/SabreCSG
 https://github.com/SadConsole/SadConsole
+https://github.com/salvadorc17/Prince-Monogame
 https://github.com/SanderMertens/flecs
 https://github.com/saniv/free-game-art/blob/master/foss-copyright-infringement-records.md
 https://github.com/scp-fs2open/fs2open.github.com
@@ -329,6 +335,7 @@ https://github.com/SPC-Some-Polish-Coders/PopHead
 https://github.com/SPC-Some-Polish-Coders/PopHead/
 https://github.com/stackos/Viry3D
 https://github.com/stolencatkarma/CataclysmLD
+https://github.com/Suprcode/mir3-zircon
 https://github.com/Sygmei/ObEngine
 https://github.com/tainicom/Aether.Physics2D
 https://github.com/tangziwen/Cube-Engine
@@ -344,7 +351,6 @@ https://github.com/Venom0us/Emberpoint
 https://github.com/videogamepreservation
 https://github.com/vocollapse/Blockinger
 https://github.com/WagicProject/wagic
-https://github.com/Wargus/stratagus
 https://github.com/wesnoth/haldric
 https://github.com/WohlSoft/PGE-Project
 https://github.com/xrOxygen/xray-oxygen

@@ -153,9 +153,10 @@ def subprocess_run(cmd, display=True):
     """
     result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     if result.returncode:
-        print("error {} in call {}".format(result.returncode, cmd))
-        print(result.stdout.decode('cp1252'))
-        print(result.stderr.decode('cp1252'))
+        if display:
+            print("error {} in call {}".format(result.returncode, cmd))
+            print(result.stdout.decode('cp1252'))
+            print(result.stderr.decode('cp1252'))
         raise RuntimeError()
     if display:
         print('  output: {}'.format(result.stdout.decode('cp1252')))

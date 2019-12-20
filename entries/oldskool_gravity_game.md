@@ -7,11 +7,13 @@ _Side-scroller/arcade lunar-lander-like game._
 - Download: https://sourceforge.net/projects/osgg/files/
 - Platform: Windows, Linux
 - Keywords: arcade, open content, side-scrolling
-- Code repository: https://gitlab.com/osgames/osgg.git (conversion of svn), https://svn.code.sf.net/p/osgg/code (svn)
+- Code repository: https://github.com/DusteDdk/osgg.git, https://gitlab.com/osgames/osgg.git (+) (conversion of svn), https://svn.code.sf.net/p/osgg/code (svn)
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependencies: OpenGL, SDL
-- Assets license: ? (GPL)
-- Developer: Jimmy Christensen
+- Assets license: Artistic license-1.0 (font)
+- Developer: Jimmy Christensen (dusteddk@SF, DusteDdk@GH)
 
 ## Building
+
+- Build system: Make

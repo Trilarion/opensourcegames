@@ -8,7 +8,7 @@ _Remake of Sensitive._
 - Keywords: action, inspired by Sensitive, remake
 - Code repository: https://github.com/bylexus/sensitive-js.git
 - Code language: JavaScript
-- Code license: ? (ISC)
-- Assets license: unknown (https://github.com/bylexus/sensitive-js#copyright-violations)
+- Code license: Custom (NC, https://github.com/bylexus/sensitive-js#license-information)
+- Assets license: Unknown (https://github.com/bylexus/sensitive-js#copyright-violations)
 
 ## Building

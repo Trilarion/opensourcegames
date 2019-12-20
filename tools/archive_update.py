@@ -16,33 +16,7 @@ Note: May need to set http.postBuffer (https://stackoverflow.com/questions/17683
 import json
 
 from utils.utils import *
-
-
-def derive_folder_name(url, replaces):
-    sanitize = lambda x: x.replace('/', '.')
-    for service in replaces:
-        if url.startswith(service):
-            url = replaces[service] + url[len(service):]
-            return sanitize(url)
-    for generic in ['http://', 'https://', 'git://', 'svn://']:
-        if url.startswith(generic):
-            url = url[len(generic):]
-            return sanitize(url)
-    raise Exception('malformed url')
-
-
-def git_folder_name(url):
-    replaces = {
-        'https://github.com': 'github',
-        'https://git.code.sf.net/p': 'sourceforge',
-        'https://git.tuxfamily.org': 'tuxfamily',
-        'https://git.savannah.gnu.org/git': 'savannah.gnu',
-        'https://gitlab.com': 'gitlab',
-        'https://gitorious.org': 'gitorious',
-        'https://anongit.': '',
-        'https://bitbucket.org': 'bitbucket'
-    }
-    return derive_folder_name(url, replaces)
+from utils.archive import *
 
 
 def git_clone(url, folder):
@@ -87,9 +61,12 @@ def hg_update(folder):
     os.chdir(folder)
     subprocess_run(['hg', 'pull', '-u'])
 
-def run_update(type, urls):
+
+def run_update(type, urls, type_folder=None):
+    if type_folder is None:
+        type_folder = type
     print('update {} {} archives'.format(len(urls), type))
-    base_folder = os.path.join(archive_folder, type)
+    base_folder = os.path.join(archive_folder, type_folder)
     if not os.path.exists(base_folder):
         os.mkdir(base_folder)
 
@@ -176,6 +153,13 @@ if __name__ == '__main__':
     # read archives.json
     text = read_text(os.path.join(root_folder, 'archives.json'))
     archives = json.loads(text)
+
+    # read archives.git-submodules.json
+    text = read_text(os.path.join(root_folder, 'archives.git-submodules.json'))
+    archives_git_submodules = json.loads(text)
+
+    # run update on submodules
+    # run_update('git', archives_git_submodules, 'git-submodules')
 
     # update
     for type in archives:

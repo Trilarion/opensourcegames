@@ -7,7 +7,7 @@ _Remake of Bomberman, another Dynablaster clone._
 - Download: https://sourceforge.net/projects/bombic/files/bombic/
 - Platform: Linux, macOS
 - Keywords: action, inspired by Bomberman, remake
-- Code repository: https://gitlab.com/osgames/bombic.git (clone of svn), https://svn.code.sf.net/p/bombic/code (svn)
+- Code repository: https://gitlab.com/osgames/bombic.git (conversion of svn), https://svn.code.sf.net/p/bombic/code (svn)
 - Code language: C++, Objective-C
 - Code license: GPL-2.0
 - Code dependencies: SDL

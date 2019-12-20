@@ -6,11 +6,13 @@ _Extensible ball and paddle game._
 - State: beta, inactive since 2009
 - Platform: Linux
 - Keywords: action, open content
-- Code repository: http://bzr.savannah.gnu.org/lh/ballandpaddle/ (bzr)
+- Code repository: https://gitlab.com/osgames/ballandpaddle.git (conversion of bzr), http://bzr.savannah.gnu.org/r/ballandpaddle/ (bzr)
 - Code language: C++, Scheme
 - Code license: GPL-3.0
-- Code dependencies: SDL
+- Code dependencies: guile, SDL
 - Assets license: GPL
 - Developer: Eric P. Hutchins
 
 ## Building
+
+- Build system: Make

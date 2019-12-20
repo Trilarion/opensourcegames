@@ -10,6 +10,7 @@ _Faithful remake of, and a tribute to, Atomix, a classic puzzle game created by 
 - Code language: C
 - Code license: GPL-3.0
 - Assets license: Custom (level design, see Readme)
+- Developer: Mateusz Viste
 
 ## Building
 

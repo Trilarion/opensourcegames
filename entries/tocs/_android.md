@@ -52,6 +52,7 @@
 - **[Pixel Wheels](../pixel_wheels.md)** (Java, GPL-3.0, beta)
 - **[PokerTH](../pokerth.md)** (C++, AGPL-3.0, mature, inactive since 2017)
 - **[Powerslide remake](../powerslide_remake.md)** (C++, MIT, beta)
+- **[PyQt](../pyqt.md)** (C++, Python, GPL-3.0, Custom, mature)
 - **[Rabbit Escape](../rabbit_escape.md)** (Java, GPL-2.0, mature)
 - **[raylib](../raylib.md)** (C, C++, zlib, mature)
 - **[Remixed Dungeon](../remixed_dungeon.md)** (Java, GPL-3.0, mature)

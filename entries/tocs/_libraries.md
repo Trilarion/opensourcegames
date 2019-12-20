@@ -36,6 +36,7 @@
 - **[PLIB](../plib.md)** (C++, LGPL-2.0, mature, inactive since 2012)
 - **[Pthreads-win32](../pthreads-win32.md)** (C, LGPL-2.1, mature)
 - **[pyglet](../pyglet.md)** (Python, 3-clause BSD, mature)
+- **[PyQt](../pyqt.md)** (C++, Python, GPL-3.0, Custom, mature)
 - **[pyscroll](../pyscroll.md)** (Python, LGPL-3.0, mature, inactive since 2018)
 - **[PyTMX](../pytmx.md)** (Python, LGPL-3.0, mature)
 - **[Ragel](../ragel.md)** (C++, MIT, mature)

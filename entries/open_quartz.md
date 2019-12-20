@@ -11,6 +11,7 @@ _Implementation of the GPL Quake source._
 - Code language: C
 - Code license: GPL-2.0
 - Assets license: ? (GPL)
+- Developer: Toddd (rsmd@SF)
 
 ## Building
 

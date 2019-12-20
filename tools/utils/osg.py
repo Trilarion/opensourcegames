@@ -16,9 +16,10 @@ known_languages = ('AGS Script', 'ActionScript', 'Ada', 'AngelScript', 'Assembly
 known_licenses = ('2-clause BSD', '3-clause BSD', 'AFL-3.0', 'AGPL-3.0', 'Apache-2.0', 'Artistic License-1.0', 'Artistic License-2.0', 'Boost-1.0', 'CC-BY-NC-3.0', 'CC-BY-NC-SA-2.0', 'CC-BY-NC-SA-3.0', 'CC-BY-SA-3.0', 'CC-BY-NC-SA-4.0', 'CC-BY-SA-4.0', 'CC0', 'Custom', 'EPL-2.0', 'GPL-2.0', 'GPL-3.0', 'IJG', 'ISC', 'Java Research License', 'LGPL-2.0', 'LGPL-2.1', 'LGPL-3.0', 'MAME', 'MIT', 'MPL-1.1', 'MPL-2.0', 'MS-PL', 'MS-RL', 'NetHack General Public License', 'None', 'Proprietary', 'Public domain', 'SWIG license', 'Unlicense', 'WTFPL', 'wxWindows license', 'zlib')
 known_multiplayer_modes = ('competitive', 'co-op', 'hotseat', 'LAN', 'local', 'massive', 'matchmaking', 'online', 'split-screen')
 
-code_dependencies_aliases = {'Simple DirectMedia Layer': ('SDL', 'SDL2'), 'Simple and Fast Multimedia Library': 'SFML'}
+# TODO put the abbreviations directly in the name line (parenthesis maybe), that is more natural
+code_dependencies_aliases = {'Simple DirectMedia Layer': ('SDL', 'SDL2'), 'Simple and Fast Multimedia Library': 'SFML', 'Boost (C++ Libraries)': 'Boost', 'SGE Game Engine': 'SGE'}
 code_dependencies_without_entry = {'OpenGL': 'https://www.opengl.org/', 'GLUT': 'https://www.opengl.org/resources/libraries/', 'WebGL': 'https://www.khronos.org/webgl/', 'Unity': 'https://unity.com/solutions/game',
-                                   '.NET': 'https://dotnet.microsoft.com/', 'Vulkan': 'https://www.khronos.org/vulkan/'}
+                                   '.NET': 'https://dotnet.microsoft.com/', 'Vulkan': 'https://www.khronos.org/vulkan/', 'KDE Frameworks': 'https://kde.org/products/frameworks/'}
 
 regex_sanitize_name = re.compile(r"[^A-Za-z 0-9-+]+")
 regex_sanitize_name_space_eater = re.compile(r" +")
@@ -156,10 +157,11 @@ def parse_entry(content):
 
     # now checks on the content of fields
 
-    # name should not have spaces at the begin or end
-    v = info['name']
-    if len(v) != len(v.strip()): # warning about that
-        print('Warning: No leading or trailing spaces in the entry name, "{}"'.format(info['name']))
+    # name and description should not have spaces at the begin or end
+    for field in ('name', 'description'):
+        v = info[field]
+        if len(v) != len(v.strip()): # warning about that
+            print('Warning: No leading or trailing spaces in field {} in entry "{}"'.format(field, info['name']))
 
     # state (essential field) must contain either beta or mature but not both, but at least one
     v = info['state']

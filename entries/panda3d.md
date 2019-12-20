@@ -1,4 +1,4 @@
-# Panda 3D
+# Panda3D
 
 _Panda3D is a game engine, a framework for 3D rendering and game development for Python and C++ programs._
 

@@ -1,4 +1,4 @@
-# CannonSmash
+# Cannon Smash
 
 _Cannon Smash is a table tennis game._
 

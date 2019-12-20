@@ -10,5 +10,6 @@ _Remake of Paradroid._
 - Code repository: https://gitlab.com/osgames/night-hawk.git (conversion of cvs), https://night-hawk.cvs.sourceforge.net (cvs)
 - Code language: C++
 - Code license: GPL-2.0
+- Developer: Jason Nunn, Eric Gillespie (vikin667@SF)
 
 ## Building

@@ -35,7 +35,7 @@
 - **[Bloboats](../bloboats.md)** (C++, GPL-2.0, mature, inactive since 2006)
 - **[Blobwars: Metal Blob Solid](../blobwars_metal_blob_solid.md)** (C++, GPL-2.0, mature)
 - **[Bombermaaan](../bombermaaan.md)** (C++, GPL-3.0, mature, inactive since 2010)
-- **[Bombic2](../bombic2.md)** (C++, ?, beta, inactive since 2010)
+- **[Bombic2](../bombic2.md)** (C++, GPL-2.0, beta, inactive since 2010)
 - **[Bombic](../bombic.md)** (C++, Objective-C, GPL-2.0, beta, inactive since 2005)
 - **[Bombman](../bombman.md)** (Python, CC0, mature)
 - **[BOOM: Remake](../boom_remake.md)** (C++, Custom, mature)

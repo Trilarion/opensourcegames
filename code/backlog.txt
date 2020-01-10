@@ -204,6 +204,7 @@ https://github.com/bernardosulzbach/dungeon
 https://github.com/bioglaze/aether3d
 https://github.com/bomblik/BlockOut_II_PSVITA
 https://github.com/bsmr-games (also contains copies)
+https://github.com/Calinou/awesome-gamedev
 https://github.com/CatacombGames/
 https://github.com/cflewis/Infinite-Mario-Bros
 https://github.com/Chluverman/android-gltron
@@ -277,6 +278,7 @@ https://github.com/libretro/libretro-prboom
 https://github.com/ligurio/awesome-ttygames
 https://github.com/luciopanepinto/pacman
 https://github.com/MarcoLizza/tofu-engine
+https://github.com/MarilynDafa/Bulllord-Engine
 https://github.com/MatthewTheGlutton/HideousDestructor
 https://github.com/McKay42/McOsu
 https://github.com/megamarc/Tilengine
@@ -329,6 +331,7 @@ https://github.com/scp-fs2open/fs2open.github.com
 https://github.com/search?p=1&q=sunrider&type=Repositories, sunrider
 https://github.com/senior-sigan/WHY_CPP
 https://github.com/septag/glslcc
+https://github.com/septag/rizz
 https://github.com/skypjack/entt
 https://github.com/smlinux/nexuiz
 https://github.com/SPC-Some-Polish-Coders/PopHead
@@ -341,6 +344,7 @@ https://github.com/tainicom/Aether.Physics2D
 https://github.com/tangziwen/Cube-Engine
 https://github.com/the-insulines
 https://github.com/theaigames
+https://github.com/TheGameCreators/GameGuruRepo
 https://github.com/Tinob/Ishiiruka (https://github.com/shiiion/Ishiiruka, https://github.com/SirMangler/PrimeHack-Updater)
 https://github.com/tizian/Cendric2
 https://github.com/TomBebb/awe

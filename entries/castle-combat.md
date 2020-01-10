@@ -8,7 +8,7 @@ _Remake of Rampart._
 - Keywords: strategy, inspired by Rampart, remake
 - Code repository: https://github.com/karlb/castle-combat.git
 - Code language: Python
-- Code license: GPL
+- Code license: GPL-2.0
 - Developer: Karl Bartel
 
 ## Building

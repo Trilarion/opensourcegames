@@ -19,7 +19,7 @@
 - **[BrowserQuest](../browserquest.md)** (JavaScript, MPL-2.0, mature)
 - **[BStone](../bstone.md)** (C++, GPL-2.0, mature)
 - **[Candy Box 2](../candy_box_2.md)** (TypeScript, JavaScript, GPL-3.0, mature, inactive since 2013)
-- **[Castle of the Winds in Elm](../castle_of_the_winds_in_elm.md)** (Elm, JavaScript, ?, beta)
+- **[Castle of the Winds in Elm](../castle_of_the_winds_in_elm.md)** (Elm, JavaScript, MIT, beta)
 - **[Castle of the Winds](../castle_of_the_winds.md)** (JavaScript, MIT, beta, inactive since 2016)
 - **[Cataclysm: Dark Days Ahead](../cataclysm_dark_days_ahead.md)** (C++, CC-BY-SA-3.0, mature)
 - **[Cataclysm](../cataclysm.md)** (C++, CC-BY-SA-3.0, beta, inactive since 2012)

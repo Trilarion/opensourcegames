@@ -7,7 +7,7 @@ _Remake of Bomberman._
 - Keywords: action, inspired by Bomberman, remake
 - Code repository: https://svn.code.sf.net/p/bombic2/code (svn)
 - Code language: C++
-- Code license: ?
+- Code license: GPL-2.0
 - Code dependencies: SDL
 - Developer: Karel Fiser
 

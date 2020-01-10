@@ -1022,7 +1022,7 @@
    "",
    "beta / inactive since 2010",
    "action, inspired by Bomberman, remake",
-   "<a href=\"https://svn.code.sf.net/p/bombic2/code\">Source</a> - C++ - ?"
+   "<a href=\"https://svn.code.sf.net/p/bombic2/code\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Bombman (<a href=\"https://gitlab.com/drummyfish/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/bombman.md\">entry</a>)",
@@ -1366,7 +1366,7 @@
    "",
    "beta / active",
    "role playing, inspired by Castle of the Winds, remake",
-   "<a href=\"https://github.com/mordrax/cotwelm.git\">Source</a> - Elm, JavaScript - ?"
+   "<a href=\"https://github.com/mordrax/cotwelm.git\">Source</a> - Elm, JavaScript - MIT"
   ],
   [
    "Castle-Combat (<a href=\"https://www.linux-games.com/castle-combat/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/castle-combat.md\">entry</a>)",
@@ -1374,7 +1374,7 @@
    "<a href=\"https://sourceforge.net/projects/castle-combat/files/\">Link</a>",
    "beta / inactive since 2006",
    "strategy, inspired by Rampart, remake",
-   "<a href=\"https://github.com/karlb/castle-combat.git\">Source</a> - Python - GPL"
+   "<a href=\"https://github.com/karlb/castle-combat.git\">Source</a> - Python - GPL-2.0"
   ],
   [
    "Cat Mother Dead Justice (<a href=\"http://catmother.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/cat_mother_dead_justice.md\">entry</a>)",
@@ -5558,7 +5558,7 @@
    "<a href=\"https://sourceforge.net/projects/microracers/files/microracers/\">Link</a>",
    "beta / inactive since 2005",
    "remake, 2D, inspired by Micro Machines, racing",
-   "<a href=\"https://gitlab.com/osgames/microracers.git\">Source</a> - C, C++ - GPL-2.0"
+   "<a href=\"https://github.com/rpmcruz/microracers.git\">Source</a> - C, C++ - GPL-2.0"
   ],
   [
    "MicroWar 2.0 (<a href=\"http://microwar.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/microwar_20.md\">entry</a>)",

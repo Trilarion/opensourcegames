@@ -10,6 +10,7 @@ _Remake of Runescape Classic._
 - Code repository: https://github.com/dginovker/2006rebotted.git
 - Code language: Java
 - Code license: 2-clause BSD
+- Developer: Daniel Ginovker
 
 Open source 2006 Runescape emulation with botting.
 

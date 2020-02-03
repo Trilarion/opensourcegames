@@ -10,7 +10,7 @@ _Collection of useful modules for writing games with PyGame._
 - Code repository: https://github.com/parogers/pgu.git
 - Code language: Python
 - Code license: LGPL-2.1
-- Developer: Phil Hassey (http://www.philhassey.com/blog/), Peter Rogers (parogers@GH)
+- Developer: Phil Hassey, Peter Rogers
 
 ## Building
 

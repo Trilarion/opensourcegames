@@ -10,7 +10,7 @@ _Real-time strategy game, where you can program your units (bots) in a language 
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependencies: SDL2
-- Developer: Daniel Roux (Epsitec), TerranovaTeam
+- Developer: Daniel Roux, TerranovaTeam
 
 Updated version of the Colobot original source code.
 

@@ -11,6 +11,6 @@ _Remake of Magical Drop._
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: SDL
-- Developer: krys (krys@SF)
+- Developer: krys
 
 ## Building

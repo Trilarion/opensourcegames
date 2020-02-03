@@ -8,7 +8,7 @@ _Single player roguelike game._
 - Code repository: https://gitlab.com/osgames/omega-roguelike.git (conversion of cvs), http://omega-roguelike.cvs.sourceforge.net (cvs)
 - Code language: C
 - Code license: LGPL-2.0
-- Developer: Laurence R. Brothers, Sheldon Simms (wsxyz@SF), David Gibbs (dagibbs@SF), William Tanksley (wtanksle@SF)
+- Developer: Laurence R. Brothers, Sheldon Simms, David Gibbs, William Tanksley
 
 ## Building
 

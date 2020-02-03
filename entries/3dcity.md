@@ -10,6 +10,7 @@ _WebGL version of micropolisJS._
 - Code language: JavaScript
 - Code license: GPL-3.0 (with additional terms)
 - Code dependencies: SEA3D, Three.js
+- Developer: lo-th
 
 ## Building
 

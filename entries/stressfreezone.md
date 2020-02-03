@@ -10,7 +10,7 @@ _Space simulation focused on cooperative (non-massive)-multiplayer and intuitive
 - Code language: C++, Lua
 - Code license: GPL-3.0
 - Code dependencies: Lugre
-- Developer: Mark Saward, Robert Noll (doomhammer@SF)
+- Developer: Mark Saward, Robert Noll
 
 ## Building
 

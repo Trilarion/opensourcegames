@@ -11,6 +11,7 @@ _Master of Orion (1993) game engine recreation._
 - Code language: C
 - Code license: GPL-2.0
 - Code dependencies: Allegro, SDL, SDL2
+- Developer: Kilgore Trout Mask Replicant
 
 ## Building
 

@@ -6,6 +6,8 @@ http://circularstudios.com/
 http://cyxdown.free.fr/bs/
 http://cyxdown.free.fr/f2b/
 http://dead-code.org/home/
+https://github.com/restorer/gloomy-dungeons-2
+https://github.com/MyreMylar/pygame_gui
 http://e-adventure.e-ucm.es/login/index.php (games of eAdventure)
 http://ethernet.wasted.ch/
 http://evolonline.org/about
@@ -222,6 +224,7 @@ https://github.com/Cortrah/SpaceOperaDesign, https://github.com/Cortrah/SpaceOpe
 https://github.com/cping/LGame
 https://github.com/cymonsgames/CymonsGames (collection)
 https://github.com/DaanVanYperen/artemis-odb-contrib
+https://github.com/David20321/7DFPS (http://www.wolfire.com/receiver, not open source, for rejected list)
 https://github.com/DeflatedPickle/FAOSDance
 https://github.com/delaford/game
 https://github.com/Donerkebap13/DonerComponents
@@ -336,6 +339,7 @@ https://github.com/skypjack/entt
 https://github.com/smlinux/nexuiz
 https://github.com/SPC-Some-Polish-Coders/PopHead
 https://github.com/SPC-Some-Polish-Coders/PopHead/
+https://github.com/Squalr/Squally
 https://github.com/stackos/Viry3D
 https://github.com/stolencatkarma/CataclysmLD
 https://github.com/Suprcode/mir3-zircon

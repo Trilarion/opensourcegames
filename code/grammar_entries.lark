@@ -1,0 +1,15 @@
+start: title description property+ _E note _E? building
+
+title: "# " /(?! ).+(?<! )/ "\n" _E                 // not starting or ending with a space
+
+description: "_" /(?! ).+(?<![ _])/ "_\n" _E        // single line not ending with underscore
+
+property: "- " _key ": " _value "\n"                // a property on a single line "- key: value"
+_key: /(?! ).+?(?=:)/                               // key: everything until next ":"
+_value: /.+(?<! )/                                  // everything until the end of the line
+
+building: "## Building\n" _E property+ _E? note     // the "building" section
+
+note: /(?![\-#]).*\n/*                              // Unstructured text, not starting with - or #
+
+_E: /^$\n/m                                         // empty new line (filtered from tree)

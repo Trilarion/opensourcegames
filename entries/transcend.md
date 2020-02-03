@@ -12,6 +12,6 @@ _Abstract 2D shooter game._
 - Code license: ? (GPL, Public domain)
 - Code dependencies: GLUT, X
 - Assets license: ? (GPL)
-- Developer: Jason Rohrer (jcr13)
+- Developer: Jason Rohrer
 
 ## Building

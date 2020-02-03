@@ -10,6 +10,6 @@ _Remake of Frogger._
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependencies: pygame
-- Developer: Paul Elms (scifly@SF)
+- Developer: Paul Elms
 
 ## Building

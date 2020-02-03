@@ -1,0 +1,17 @@
+start: header entries*
+
+header: "# " name " (" number ")\n" _E
+
+entries: "## " name " (" number  ")\n" _E property+ _E
+
+property: "- " _key ": " _value "\n"
+_key: /(?! ).+?(?=:)(?<! )/                      // key: everything until next ":", not beginning or ending with a space
+_value: /.+(?<! )/                               // everything until the end of the line, not ending with a space
+
+name: /.+?(?= \()/                              // developer name: everything until " ("
+number: /[0-9]+/
+
+COMMENT: /^\[comment\]: #.*$\n/m                // [comment]: # xxx
+_E: /^$\n/m                                      // empty new line
+
+%ignore COMMENT

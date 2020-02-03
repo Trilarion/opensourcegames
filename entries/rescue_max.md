@@ -9,6 +9,6 @@ _Remake of Rescue!._
 - Code repository: https://gitlab.com/osgames/rescue.git (conversion of svn), http://svn.code.sf.net/p/rescue/code (svn)
 - Code language: Java
 - Code license: GPL-3.0
-- Developer: Yura (yuranet@SF)
+- Developer: Yura
 
 ## Building

@@ -12,7 +12,7 @@ _Side-scroller/arcade lunar-lander-like game._
 - Code license: GPL-3.0
 - Code dependencies: OpenGL, SDL
 - Assets license: Artistic license-1.0 (font)
-- Developer: Jimmy Christensen (dusteddk@SF, DusteDdk@GH)
+- Developer: Jimmy Christensen
 
 ## Building
 

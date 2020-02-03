@@ -9,7 +9,7 @@ _Remake of Micro Machines._
 - Code repository: https://github.com/rpmcruz/microracers.git, https://gitlab.com/osgames/microracers.git (+) (conversion of cvs), http://microracers.cvs.sourceforge.net (cvs)
 - Code language: C, C++
 - Code license: GPL-2.0
-- Developer: Ricardo Cruz (rmcruz@SF)
+- Developer: Ricardo Cruz
 
 Not really beta?
 

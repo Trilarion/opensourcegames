@@ -9,7 +9,7 @@ _Turn-Based Strategy Game._
 - Code language: C
 - Code license: GPL-3.0
 - Code dependencies: Rosethorn
-- Developer: darkrose (darkrose@GL)
+- Developer: darkrose
 
 
 ## Building

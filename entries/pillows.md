@@ -11,6 +11,6 @@ _Save-the-world arcade game._
 - Code license: GPL-2.0
 - Code dependencies: pygame
 - Assets license: FAL
-- Developer: Chris Hopp (fydo.net)
+- Developer: Chris Hopp
 
 ## Building

@@ -10,6 +10,7 @@ _Space browsergame framework._
 - Code repository: https://github.com/jkroepke/2Moons.git (archived), https://github.com/steemnova/steemnova.git (+)
 - Code language: PHP, JavaScript
 - Code license: MIT
+- Developer: Jan-Otto Kröpke
 
 ## Building
 

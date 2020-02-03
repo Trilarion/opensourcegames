@@ -471,7 +471,7 @@ if __name__ == "__main__":
     for our_entry in our_entries:
         our_name = our_entry['name']
 
-        # only if contains a keyword starting with "inspired by" and not "tools", "framework" or "library"
+        # only if contains a keyword starting with "inspired by" and not "tool", "framework" or "library"
         our_keywords = our_entry['keywords']
         if not any([x.startswith('inspired by ') for x in our_keywords]):
             continue

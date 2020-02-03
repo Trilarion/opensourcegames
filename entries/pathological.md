@@ -9,7 +9,7 @@ _Remake of Log!cal._
 - Code language: Python
 - Code license: GPL-2.0
 - Code dependencies: pygame
-- Developer: Stephen Thorne (jerub@SF), John-Paul Gignac (jjgignac@SF)
+- Developer: Stephen Thorne, John-Paul Gignac
 
 ## Building
 

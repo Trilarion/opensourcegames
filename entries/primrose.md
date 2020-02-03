@@ -12,6 +12,6 @@ _Puzzle game._
 - Code license: Public domain
 - Code dependencies: SDL
 - Assets license: Public domain
-- Developer: Jason Rohrer (jcr13@SF)
+- Developer: Jason Rohrer
 
 ## Building

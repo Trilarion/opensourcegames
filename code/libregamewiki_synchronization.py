@@ -71,7 +71,7 @@ if __name__ == "__main__":
     maximal_newly_created_entries = 40
 
     # paths
-    lgw_import_path = os.path.join(constants.root_path, 'tools', 'lgw-import')
+    lgw_import_path = os.path.join(constants.root_path, 'code', 'lgw-import')
     lgw_entries_file = os.path.join(lgw_import_path, '_lgw.cleaned.json')
 
     # import lgw import

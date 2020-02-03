@@ -8,6 +8,6 @@ _Flight simulator that does not simulate real aircraft or historical war scenari
 - Code repository: https://svn.code.sf.net/p/facsimulation/code (svn)
 - Code language: C, C++
 - Code license: GPL-3.0
-- Developer: Horst Kevin (horstkevin), Stefan Aldinger
+- Developer: Horst Kevin, Stefan Aldinger
 
 ## Building

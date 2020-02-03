@@ -6,23 +6,72 @@ import re
 import os
 from difflib import SequenceMatcher
 from utils import utils, constants as c
+import lark
+
+
+class ListingTransformer(lark.Transformer):
+
+    def number(self, x):
+        raise lark.Discard
+
+    def property(self, x):
+        return (x[0].value, x[1].value)
+
+    def name(self, x):
+        return ('name', x[0].value)
+
+    def entries(self, x):
+        d = {}
+        for key, value in x:
+            d[key] = value
+        return d
+
+    def header(self, x):
+        raise lark.Discard
+
+    def start(self, x):
+        return x
+
 
 essential_fields = ('Home', 'State', 'Keywords', 'Code repository', 'Code language', 'Code license')
-valid_fields = ('Home', 'Media', 'State', 'Play', 'Download', 'Platform', 'Keywords', 'Code repository', 'Code language',
-'Code license', 'Code dependencies', 'Assets license', 'Developer', 'Build system', 'Build instructions')
+valid_fields = (
+    'Home', 'Media', 'State', 'Play', 'Download', 'Platform', 'Keywords', 'Code repository', 'Code language',
+    'Code license', 'Code dependencies', 'Assets license', 'Developer', 'Build system', 'Build instructions')
 valid_platforms = ('Windows', 'Linux', 'macOS', 'Android', 'iOS', 'Web')
-recommended_keywords = ('action', 'arcade', 'adventure', 'visual novel', 'sports', 'platform', 'puzzle', 'role playing', 'simulation', 'strategy', 'cards', 'board', 'music', 'educational', 'tool', 'game engine', 'framework', 'library', 'remake')
-known_languages = ('AGS Script', 'ActionScript', 'Ada', 'AngelScript', 'Assembly', 'Basic', 'Blender Script', 'BlitzMax', 'C', 'C#', 'C++', 'Clojure', 'CoffeeScript', 'ColdFusion', 'D', 'DM', 'Dart', 'Dia', 'Elm', 'Emacs Lisp', 'F#', 'GDScript', 'Game Maker Script', 'Go', 'Groovy', 'Haskell', 'Haxe', 'Io', 'Java', 'JavaScript', 'Kotlin', 'Lisp', 'Lua', 'MegaGlest Script', 'MoonScript', 'None', 'OCaml', 'Objective-C', 'PHP', 'Pascal', 'Perl', 'Python', 'QuakeC', 'R', "Ren'py", 'Ruby', 'Rust', 'Scala', 'Scheme', 'Script', 'Shell', 'Swift', 'TorqueScript', 'TypeScript', 'Vala', 'Visual Basic', 'XUL', 'ZenScript', 'ooc')
-known_licenses = ('2-clause BSD', '3-clause BSD', 'AFL-3.0', 'AGPL-3.0', 'Apache-2.0', 'Artistic License-1.0', 'Artistic License-2.0', 'Boost-1.0', 'CC-BY-NC-3.0', 'CC-BY-NC-SA-2.0', 'CC-BY-NC-SA-3.0', 'CC-BY-SA-3.0', 'CC-BY-NC-SA-4.0', 'CC-BY-SA-4.0', 'CC0', 'Custom', 'EPL-2.0', 'GPL-2.0', 'GPL-3.0', 'IJG', 'ISC', 'Java Research License', 'LGPL-2.0', 'LGPL-2.1', 'LGPL-3.0', 'MAME', 'MIT', 'MPL-1.1', 'MPL-2.0', 'MS-PL', 'MS-RL', 'NetHack General Public License', 'None', 'Proprietary', 'Public domain', 'SWIG license', 'Unlicense', 'WTFPL', 'wxWindows license', 'zlib')
-known_multiplayer_modes = ('competitive', 'co-op', 'hotseat', 'LAN', 'local', 'massive', 'matchmaking', 'online', 'split-screen')
+recommended_keywords = (
+    'action', 'arcade', 'adventure', 'visual novel', 'sports', 'platform', 'puzzle', 'role playing', 'simulation',
+    'strategy', 'cards', 'board', 'music', 'educational', 'tool', 'game engine', 'framework', 'library', 'remake')
+known_languages = (
+    'AGS Script', 'ActionScript', 'Ada', 'AngelScript', 'Assembly', 'Basic', 'Blender Script', 'BlitzMax', 'C', 'C#',
+    'C++', 'Clojure', 'CoffeeScript', 'ColdFusion', 'D', 'DM', 'Dart', 'Dia', 'Elm', 'Emacs Lisp', 'F#', 'GDScript',
+    'Game Maker Script', 'Go', 'Groovy', 'Haskell', 'Haxe', 'Io', 'Java', 'JavaScript', 'Kotlin', 'Lisp', 'Lua',
+    'MegaGlest Script', 'MoonScript', 'None', 'OCaml', 'Objective-C', 'PHP', 'Pascal', 'Perl', 'Python', 'QuakeC', 'R',
+    "Ren'py", 'Ruby', 'Rust', 'Scala', 'Scheme', 'Script', 'Shell', 'Swift', 'TorqueScript', 'TypeScript', 'Vala',
+    'Visual Basic', 'XUL', 'ZenScript', 'ooc')
+known_licenses = (
+    '2-clause BSD', '3-clause BSD', 'AFL-3.0', 'AGPL-3.0', 'Apache-2.0', 'Artistic License-1.0', 'Artistic License-2.0',
+    'Boost-1.0', 'CC-BY-NC-3.0', 'CC-BY-NC-SA-2.0', 'CC-BY-NC-SA-3.0', 'CC-BY-SA-3.0', 'CC-BY-NC-SA-4.0',
+    'CC-BY-SA-4.0',
+    'CC0', 'Custom', 'EPL-2.0', 'GPL-2.0', 'GPL-3.0', 'IJG', 'ISC', 'Java Research License', 'LGPL-2.0', 'LGPL-2.1',
+    'LGPL-3.0', 'MAME', 'MIT', 'MPL-1.1', 'MPL-2.0', 'MS-PL', 'MS-RL', 'NetHack General Public License', 'None',
+    'Proprietary', 'Public domain', 'SWIG license', 'Unlicense', 'WTFPL', 'wxWindows license', 'zlib')
+known_multiplayer_modes = (
+    'competitive', 'co-op', 'hotseat', 'LAN', 'local', 'massive', 'matchmaking', 'online', 'split-screen')
 
 # TODO put the abbreviations directly in the name line (parenthesis maybe), that is more natural
-code_dependencies_aliases = {'Simple DirectMedia Layer': ('SDL', 'SDL2'), 'Simple and Fast Multimedia Library': 'SFML', 'Boost (C++ Libraries)': 'Boost', 'SGE Game Engine': 'SGE'}
-code_dependencies_without_entry = {'OpenGL': 'https://www.opengl.org/', 'GLUT': 'https://www.opengl.org/resources/libraries/', 'WebGL': 'https://www.khronos.org/webgl/', 'Unity': 'https://unity.com/solutions/game',
-                                   '.NET': 'https://dotnet.microsoft.com/', 'Vulkan': 'https://www.khronos.org/vulkan/', 'KDE Frameworks': 'https://kde.org/products/frameworks/'}
+code_dependencies_aliases = {'Simple DirectMedia Layer': ('SDL', 'SDL2'), 'Simple and Fast Multimedia Library': 'SFML',
+                             'Boost (C++ Libraries)': 'Boost', 'SGE Game Engine': 'SGE'}
+code_dependencies_without_entry = {'OpenGL': 'https://www.opengl.org/',
+                                   'GLUT': 'https://www.opengl.org/resources/libraries/',
+                                   'WebGL': 'https://www.khronos.org/webgl/',
+                                   'Unity': 'https://unity.com/solutions/game',
+                                   '.NET': 'https://dotnet.microsoft.com/', 'Vulkan': 'https://www.khronos.org/vulkan/',
+                                   'KDE Frameworks': 'https://kde.org/products/frameworks/'}
 
 regex_sanitize_name = re.compile(r"[^A-Za-z 0-9-+]+")
 regex_sanitize_name_space_eater = re.compile(r" +")
+
+comment_string = '[comment]: # (partly autogenerated content, edit with care, read the manual before)'
 
 
 def name_similarity(a, b):
@@ -87,26 +136,27 @@ def parse_entry(content):
     info = {}
 
     # read name
-    regex = re.compile(r"^# (.*)") # start of content, starting with "# " and then everything until the end of line
+    regex = re.compile(r"^# (.*)")  # start of content, starting with "# " and then everything until the end of line
     matches = regex.findall(content)
-    if len(matches) != 1 or not matches[0]: # name must be there
+    if len(matches) != 1 or not matches[0]:  # name must be there
         raise RuntimeError('Name not found in entry "{}" : {}'.format(content, matches))
     info['name'] = matches[0]
 
     # read description
-    regex = re.compile(r"^.*\n\n_(.*)_\n") # third line from top, everything between underscores
+    regex = re.compile(r"^.*\n\n_(.*)_\n")  # third line from top, everything between underscores
     matches = regex.findall(content)
-    if len(matches) != 1 or not matches[0]: # description must be there
+    if len(matches) != 1 or not matches[0]:  # description must be there
         raise RuntimeError('Description not found in entry "{}"'.format(content))
     info['description'] = matches[0]
 
     # first read all field names
-    regex = re.compile(r"^- (.*?): ", re.MULTILINE) # start of each line having "- ", then everything until a colon, then ": "
+    regex = re.compile(r"^- (.*?): ",
+                       re.MULTILINE)  # start of each line having "- ", then everything until a colon, then ": "
     fields = regex.findall(content)
 
     # check that essential fields are there
     for field in essential_fields:
-        if field not in fields: # essential fields must be there
+        if field not in fields:  # essential fields must be there
             raise RuntimeError('Essential field "{}" missing in entry "{}"'.format(field, info['name']))
 
     # check that all fields are valid fields and are existing in that order
@@ -114,19 +164,20 @@ def parse_entry(content):
     for field in fields:
         while index < len(valid_fields) and field != valid_fields[index]:
             index += 1
-        if index == len(valid_fields): # must be valid fields and must be in the right order
-            raise RuntimeError('Field "{}" in entry "{}" either misspelled or in wrong order'.format(field, info['name']))
+        if index == len(valid_fields):  # must be valid fields and must be in the right order
+            raise RuntimeError(
+                'Field "{}" in entry "{}" either misspelled or in wrong order'.format(field, info['name']))
 
     # iterate over found fields
     for field in fields:
         regex = re.compile(r"- {}: (.*)".format(field))
         matches = regex.findall(content)
-        if len(matches) != 1: # every field must be present only once
+        if len(matches) != 1:  # every field must be present only once
             raise RuntimeError('Field "{}" in entry "{}" exist multiple times.'.format(field, info['name']))
         v = matches[0]
 
         # first store as is
-        info[field.lower()+'-raw'] = v
+        info[field.lower() + '-raw'] = v
 
         # remove parenthesis with content
         v = re.sub(r'\([^)]*\)', '', v)
@@ -152,7 +203,7 @@ def parse_entry(content):
 
     # check again that essential fields made it through
     for field in ('home', 'state', 'keywords', 'code language', 'code license'):
-        if field not in info: # essential fields must still be inside
+        if field not in info:  # essential fields must still be inside
             raise RuntimeError('Essential field "{}" empty in entry "{}"'.format(field, info['name']))
 
     # now checks on the content of fields
@@ -160,7 +211,7 @@ def parse_entry(content):
     # name and description should not have spaces at the begin or end
     for field in ('name', 'description'):
         v = info[field]
-        if len(v) != len(v.strip()): # warning about that
+        if len(v) != len(v.strip()):  # warning about that
             print('Warning: No leading or trailing spaces in field {} in entry "{}"'.format(field, info['name']))
 
     # state (essential field) must contain either beta or mature but not both, but at least one
@@ -182,8 +233,11 @@ def parse_entry(content):
     for field in ['home', 'download', 'play', 'code repository']:
         if field in info:
             for url in info[field]:
-                if not any([url.startswith(x) for x in ['http://', 'https://', 'git://', 'svn://', 'ftp://', 'bzr://']]):
-                    raise RuntimeError('URL "{}" in entry "{}" does not start with http/https/git/svn/ftp/bzr'.format(url, info['name']))
+                if not any(
+                        [url.startswith(x) for x in ['http://', 'https://', 'git://', 'svn://', 'ftp://', 'bzr://']]):
+                    raise RuntimeError(
+                        'URL "{}" in entry "{}" does not start with http/https/git/svn/ftp/bzr'.format(url,
+                                                                                                       info['name']))
                 if ' ' in url:
                     raise RuntimeError('URL "{}" in entry "{}" contains a space'.format(url, info['name']))
 
@@ -202,8 +256,10 @@ def parse_entry(content):
         for platform in info['platform']:
             while index < len(valid_platforms) and platform != valid_platforms[index]:
                 index += 1
-            if index == len(valid_platforms): # must be valid platforms and must be in that order
-                raise RuntimeError('Platform tag "{}" in entry "{}" either misspelled or in wrong order'.format(platform, info['name']))
+            if index == len(valid_platforms):  # must be valid platforms and must be in that order
+                raise RuntimeError(
+                    'Platform tag "{}" in entry "{}" either misspelled or in wrong order'.format(platform,
+                                                                                                 info['name']))
 
     # there must be at least one keyword
     if 'keywords' not in info:
@@ -215,20 +271,22 @@ def parse_entry(content):
         if recommended_keyword in info['keywords']:
             fail = False
             break
-    if fail: # must be at least one recommended keyword
+    if fail:  # must be at least one recommended keyword
         raise RuntimeError('Entry "{}" contains no recommended keyword'.format(info['name']))
 
     # languages should be known
     languages = info['code language']
     for language in languages:
         if language not in known_languages:
-            print('Warning: Language {} in entry "{}" is not a known language. Misspelled or new?'.format(language, info['name']))
+            print('Warning: Language {} in entry "{}" is not a known language. Misspelled or new?'.format(language,
+                                                                                                          info['name']))
 
     # licenses should be known
     licenses = info['code license']
     for license in licenses:
         if license not in known_licenses:
-            print('Warning: License {} in entry "{}" is not a known license. Misspelled or new?'.format(license, info['name']))
+            print('Warning: License {} in entry "{}" is not a known license. Misspelled or new?'.format(license,
+                                                                                                        info['name']))
 
     return info
 
@@ -295,3 +353,57 @@ def extract_links():
                     urls.add(url)
     urls = sorted(list(urls), key=str.casefold)
     return urls
+
+
+def read_and_parse(content_file, grammar_file, transformer):
+    """
+
+    :param content_file:
+    :param grammar_file:
+    :param transformer:
+    :return:
+    """
+    content = utils.read_text(content_file)
+    grammar = utils.read_text(grammar_file)
+    parser = lark.Lark(grammar, debug=False)
+    tree = parser.parse(content)
+    return transformer.transform(tree)
+
+
+def read_developer_info():
+    """
+
+    :return:
+    """
+    developer_file = os.path.join(c.root_path, 'developer.md')
+    grammar_file = os.path.join(c.code_path, 'grammar_listing.lark')
+    transformer = ListingTransformer()
+    return read_and_parse(developer_file, grammar_file, transformer)
+
+
+def write_developer_info(developers):
+    """
+
+    :return:
+    """
+    developer_file = os.path.join(c.root_path, 'developer.md')
+
+
+def read_inspirations_info():
+    """
+
+    :return:
+    """
+    inspirations_file = os.path.join(c.root_path, 'inspirations.md')
+    grammar_file = os.path.join(c.code_path, 'grammar_listing.lark')
+    transformer = ListingTransformer()
+    return read_and_parse(inspirations_file, grammar_file, transformer)
+
+
+def write_inspirations_info(inspirations):
+    """
+
+    :param inspirations:
+    :return:
+    """
+    inspirations_file = os.path.join(c.root_path, 'inspirations.md')

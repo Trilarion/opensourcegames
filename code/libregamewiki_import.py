@@ -25,7 +25,7 @@ def download_lgw_content():
 
     # parameters
     base_url = 'https://libregamewiki.org'
-    destination_path = os.path.join(constants.root_path, 'tools', 'lgw-import')
+    destination_path = os.path.join(constants.root_path, 'code', 'lgw-import')
     utils.recreate_directory(destination_path)
 
     # read and process the base url (get all games and categories)
@@ -64,7 +64,7 @@ def download_lgw_content():
 def parse_lgw_content():
 
     # paths
-    import_path = os.path.join(constants.root_path, 'tools', 'lgw-import')
+    import_path = os.path.join(constants.root_path, 'code', 'lgw-import')
     entries_file = os.path.join(import_path, '_lgw.json')
 
     # iterate over all imported files
@@ -250,7 +250,7 @@ def ignore_nonnumbers(entries, fields):
 def clean_lgw_content():
 
     # paths
-    import_path = os.path.join(constants.root_path, 'tools', 'lgw-import')
+    import_path = os.path.join(constants.root_path, 'code', 'lgw-import')
     entries_file = os.path.join(import_path, '_lgw.json')
     cleaned_entries_file = os.path.join(import_path, '_lgw.cleaned.json')
 

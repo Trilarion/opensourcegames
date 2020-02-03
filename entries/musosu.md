@@ -9,7 +9,7 @@ _Sudoku puzzle game (generator and solver)._
 - Code repository: https://gitlab.com/osgames/musosu.git (import of sources)
 - Code language: Java
 - Code license: GPL-3.0
-- Developer: Marios Visvardis (marios_v@SF)
+- Developer: Marios Visvardis
 
 ## Building
 

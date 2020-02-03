@@ -10,6 +10,6 @@ _Remake of Zarch._
 - Code repository: https://gitlab.com/osgames/ajax3d.git (conversion of cvs), http://ajax3d.cvs.sourceforge.net (cvs)
 - Code language: JavaScript
 - Code license: GPL-2.0
-- Developer: Eben Upton (ebenupton@SF)
+- Developer: Eben Upton
 
 ## Building

@@ -9,6 +9,7 @@ _A turn based combat-oriented tactics RPG._
 - Code repository: https://gitlab.com/osgames/dm-unlimited.git (conversion of svn), https://svn.code.sf.net/p/dmonkey/code (svn)
 - Code language: Pascal
 - Code license: LGPL-2.1
+- Developer: Joseph Hewitt
 
 Download of version 1.001 slightly different from last state of SVN repository.
 

@@ -9,6 +9,6 @@ _Engine for writing multiplayer turn based games._
 - Code repository: https://gitlab.com/osgames/freya-engine.git (conversion of cvs), http://freya-engine.cvs.sourceforge.net (cvs)
 - Code language: Java
 - Code license: LGPL-2.1
-- Developer: Sasha Bilton (pond@SF)
+- Developer: Sasha Bilton
 
 ## Building

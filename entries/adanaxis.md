@@ -10,6 +10,6 @@ _Deep space first-person shooter._
 - Code license: GPL-2.0 (non-free file in the commercial version)
 - Code dependencies: GLUT
 - Assets license: GPL-2.0
-- Developer: Mushware Limited (Andy Southgate)
+- Developer: Andy Southgate
 
 ## Building

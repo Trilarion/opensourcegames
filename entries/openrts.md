@@ -10,7 +10,7 @@ _Isometric real-time strategy game._
 - Code language: Python
 - Code license: GPL-2.0
 - Code dependencies: PGU, pygame
-- Developer: Andreas Røsdal (rtsfan@SF)
+- Developer: Andreas Røsdal
 
 Also known as arrakis.
 

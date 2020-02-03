@@ -11,6 +11,6 @@ _Remake of Another World 2: Heart of the Alien._
 - Code language: C
 - Code license: GPL-2.0
 - Code dependencies: SDL
-- Developer: Gil Megidish (gilm@SF)
+- Developer: Gil Megidish
 
 ## Building

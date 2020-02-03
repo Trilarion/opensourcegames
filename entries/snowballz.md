@@ -10,6 +10,6 @@ _Real time strategy game._
 - Code license: GPL
 - Code dependencies: pygame, pyglet, Rabbyt
 - Assets license: GPL
-- Developer: Joey Marshall, Mikey Lubker (ratchet@SF)
+- Developer: Joey Marshall, Mikey Lubker
 
 ## Building

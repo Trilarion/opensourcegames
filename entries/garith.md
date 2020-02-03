@@ -10,6 +10,6 @@ _Math game similar to BSD's "arithmetic" or TuxMath._
 - Code license: LGPL-2.1
 - Code dependencies: GLUT
 - Assets license: LGPL
-- Developer: Yuri D'Elia (wave++)
+- Developer: Yuri D'Elia
 
 ## Building

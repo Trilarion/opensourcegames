@@ -13,6 +13,7 @@ _0 A.D. is a free, open-source, cross-platform real-time strategy game._
 - Code license: GPL-2.0
 - Code dependencies: libogg, libvorbis, libxml2, OpenAL, SDL2, zlib
 - Assets license: CC-BY-SA-3.0
+- Developer: Erik Johansson, Ben Brian, Nicolas Auvray, Philip Taylor, Lancelot de Ferrière, s0600204, Kieran Pilkington, leper, Pureon
 
 Engine part is called Pyrogenesis.
 

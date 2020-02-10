@@ -79,6 +79,7 @@
 ## Ari Mustonen (1)
 
 - Games: Hex-a-hop
+- Contact: amuzen@SF
 
 ## Arne Reiners (1)
 
@@ -136,6 +137,12 @@
 ## Brian Wellington (1)
 
 - Games: XBill
+
+## Ben Brian (1)
+
+- Games: 0 A.D.
+- Home: https://benbrian.net/
+- Contact: historic_bruno@SF, historicbruno@GH
 
 ## Bruno Ethvignot (2)
 
@@ -198,6 +205,21 @@
 
 - Games: Colobot: Gold Edition
 - Organization: Epsitec
+
+## Nicolas Auvray (1)
+
+- Games: 0 A.D.
+- Contact: itms@SF, na-Itms@GH
+
+## Philip Taylor (1)
+
+- Games: 0 A.D.
+- Contact: philiptaylor@SF, philiptaylor@GH
+
+## Lancelot de Ferrière (1)
+
+- Games: 0 A.D.
+- Contact: wraitii@SF, wraitii@GH
 
 ## Daniele Napolitano (1)
 
@@ -450,6 +472,31 @@
 
 - Games: Fairy-Max
 
+## Dorfdrull (1)
+
+- Games: Advanced Strategic Command
+- Contact: dorfdrull@SF
+
+## Michael Moerz (1)
+
+- Games: Advanced Strategic Command
+- Contact: natoka@SF
+
+## Armin Bajramovic (1)
+
+- Games: Advanced Strategic Command
+- Contact: armin906@SF
+
+## Frederik Kesting (1)
+
+- Games: Advanced Strategic Command
+- Contact: ocl4nis@SF
+
+## Torsten Maekler (1)
+
+- Games: Advanced Strategic Command
+- Contact: tmaekler@SF
+
 ## Harmen van der Wal (1)
 
 - Games: Hypercube
@@ -544,7 +591,7 @@
 ## Jason Rohrer (8)
 
 - Games: Between, Cultivation, Gravitation, One Hour One Life, Passage, Primrose, Sleep Is Death, Transcend
-- Contact: jcr13@SF
+- Contact: jcr13@SF, jasonrohrer@GH
 
 ## Jay Fenlason (1)
 
@@ -612,6 +659,12 @@
 ## Johan Peitz (1)
 
 - Games: Alex the Allegator 4
+- Contact: peitz@SF
+
+## Erik Johansson (1)
+
+- Games: 0 A.D.
+- Contact: feneur@SF
 
 ## Johannes Bergmeier (1)
 
@@ -748,6 +801,12 @@
 
 - Games: TecnoballZ
 
+## Laurent (1)
+
+- Games: 2048
+- Home: https://uto.io/
+- Contact: marg51@GH
+
 ## legoluft (1)
 
 - Games: Krank
@@ -826,6 +885,21 @@
 ## Martin Trautmann (1)
 
 - Games: Holtz
+
+## Martin Bickel (1)
+
+- Games: Advanced Strategic Command
+- Contact: valharis@SF, ValHaris@GH
+
+## Christian Schramm (1)
+
+- Games: Advanced Strategic Command
+- Contact: Ed-von-Schleck@GH
+
+## valuial (1)
+
+- Games: Advanced Strategic Command
+- Contact: valuial@GH
 
 ## Masanao Izumo (1)
 
@@ -1033,6 +1107,7 @@
 ## Paul Wise (1)
 
 - Games: Hex-a-hop
+- Contact: pabs3@SF
 
 ## Pete Shinners (1)
 
@@ -1072,6 +1147,11 @@
 ## Puskutraktori (1)
 
 - Games: Trip on the Funny Boat
+
+## Pureon (1)
+
+- Games: 0 A.D.
+- Contact: ipureon@SF
 
 ## PyMike (1)
 
@@ -1193,6 +1273,11 @@
 - Games: Freya Game Engine
 - Contact: pond@SF
 
+## Kayl (1)
+
+- Games: 2H4U
+- Contact: kaylnet@SF
+
 ## Shard (1)
 
 - Games: Anagramarama
@@ -1217,6 +1302,33 @@
 ## Simon Laszlo (1)
 
 - Games: 4D-TRIS
+- Contact: simzer@SF
+
+## s0600204 (1)
+
+- Games: 0 A.D.
+- Contact: s0600204@GH
+
+## Hilarious001 (1)
+
+- Games: 2Moons Browsergame Engine
+- Contact: Hilarious001@GH
+
+## Ozan Kurt (1)
+
+- Games: 2Moons Browsergame Engine
+- Contact: OzanKurt@GH
+
+## leper (1)
+
+- Games: 0 A.D.
+- Contact: leper@GH
+
+##  Kieran Pilkington (1)
+
+- Games: 0 A.D.
+- Home: https://k776.tumblr.com/
+- Contact: KieranP@GH
 
 ## Simon Peter (1)
 
@@ -1383,6 +1495,16 @@
 ## Troels Kofoed Jacobsen (1)
 
 - Games: Qonk
+
+## Alex Clark (1)
+
+- Games: Abe's Amazing Adventure
+- Contact: jazkat@SF
+
+## Pedro Izecksohn (1)
+
+- Games: Abe's Amazing Adventure
+- Contact: izecksohn@SF
 
 ## Tuscan Knox (1)
 

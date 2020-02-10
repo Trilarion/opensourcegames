@@ -12,7 +12,7 @@ _Retro-style platformer._
 - Code license: GPL-2.0
 - Code dependencies: Allegro
 - Assets license: GPL-2.0
-- Developer: Johan Peitz (design source code and graphics), Anders Svensson (music and sound effects)
+- Developer: Johan Peitz (design source code and graphics), Anders Svensson (music and sound effects), Paul Wise
 
 ## Building
 

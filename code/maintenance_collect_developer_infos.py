@@ -22,10 +22,13 @@ if __name__ == "__main__":
 
     # read developer info
     developer_info = osg.read_developer_info()
-    osg.write_developer_info(developer_info)
+    osg.write_developer_info(developer_info) # write again just to make nice
 
     # assemble info
     entries = osg.assemble_infos()
+
+    # cross-check
+    osg.compare_entries_developers(entries, developer_info)
 
     # loop over infos
     developers = ''

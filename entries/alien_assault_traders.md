@@ -9,6 +9,7 @@ _Alien Assault Traders is an online, web-based, turn-based strategy space tradin
 - Code repository: https://github.com/tarnus/aatraders.git, https://gitlab.com/osgames/aatraders.git (+)
 - Code language: PHP
 - Code license: GPL-2.0
+- Developer: Mark Dickenson, Rick Thomson
 
 ## Building
 

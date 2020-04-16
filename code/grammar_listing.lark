@@ -1,8 +1,8 @@
-start: header entries*
+start: header entry*
 
 header: "# " name " (" number ")\n" _E
 
-entries: "## " name " (" number  ")\n" _E property+ _E
+entry: "## " name " (" number  ")\n" _E property+ _E
 
 property: "- " _key ": " _value "\n"
 _key: /(?! ).+?(?=:)(?<! )/                      // key: everything until next ":", not beginning or ending with a space

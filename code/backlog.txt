@@ -7,6 +7,11 @@ http://cyxdown.free.fr/bs/
 http://cyxdown.free.fr/f2b/
 http://dead-code.org/home/
 https://github.com/restorer/gloomy-dungeons-2
+https://github.com/WohlSoft/PGE-Project
+https://en.wikipedia.org/wiki/List_of_free_and_open-source_Android_applications#Games
+https://notabug.org/Calinou/awesome-gamedev#games
+https://forum.freegamedev.net/viewtopic.php?f=20&t=11627
+https://www.old-games.ru/forum/threads/nekommercheskie-analogi-izvestnyx-igr.40868/page-9
 https://github.com/MyreMylar/pygame_gui
 http://e-adventure.e-ucm.es/login/index.php (games of eAdventure)
 http://ethernet.wasted.ch/

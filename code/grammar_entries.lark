@@ -1,4 +1,4 @@
-start: title description property+ _E note _E? building
+start: title description property+ _E note? _E? building
 
 title: "# " /(?! ).+(?<! )/ "\n" _E                 // not starting or ending with a space
 
@@ -12,4 +12,4 @@ building: "## Building\n" _E property+ _E? note     // the "building" section
 
 note: /(?![\-#]).*\n/*                              // Unstructured text, not starting with - or #
 
-_E: /^$\n/m                                         // empty new line (filtered from tree)
+_E: /^$\n/m                                         // empty new line

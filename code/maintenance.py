@@ -118,7 +118,8 @@ def create_toc(title, file, entries):
     # assemble rows
     rows = []
     for entry in entries:
-        rows.append('- **[{}]({})** ({})'.format(entry['name'], '../' + entry['file'], ', '.join(entry['code language'] + entry['code license'] + entry['state'])))
+        rows.append('- **[{}]({})** ({})'.format(entry['name'], '../' + entry['file'], ', '.join(
+            entry['code language'] + entry['code license'] + entry['state'])))
 
     # sort rows (by title)
     rows.sort(key=str.casefold)
@@ -148,37 +149,38 @@ def check_validity_external_links():
     number_checked_links = 0
 
     # ignore the following urls (they give false positives here)
-    ignored_urls = ('https://git.tukaani.org/xz.git')
+    ignored_urls = ('https://git.tukaani.org/xz.git',)
 
     # iterate over all entries
     for _, entry_path, content in osg.entry_iterator():
 
-            # apply regex
-            matches = regex.findall(content)
+        # apply regex
+        matches = regex.findall(content)
 
-            # for each match
-            for match in matches:
+        # for each match
+        for match in matches:
 
-                # for each possible clause
-                for url in match:
+            # for each possible clause
+            for url in match:
 
-                    # if there was something (and not a sourceforge git url)
-                    if url and not url.startswith('https://git.code.sf.net/p/') and url not in ignored_urls:
-                        try:
-                            # without a special header, frequent 403 responses occur
-                            req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64)'})
-                            urllib.request.urlopen(req)
-                        except urllib.error.HTTPError as e:
-                            print("{}: {} - {}".format(os.path.basename(entry_path), url, e.code))
-                        except urllib.error.URLError as e:
-                            print("{}: {} - {}".format(os.path.basename(entry_path), url, e.reason))
-                        except http.client.RemoteDisconnected:
-                            print("{}: {} - disconnected without response".format(os.path.basename(entry_path), url))
+                # if there was something (and not a sourceforge git url)
+                if url and not url.startswith('https://git.code.sf.net/p/') and url not in ignored_urls:
+                    try:
+                        # without a special header, frequent 403 responses occur
+                        req = urllib.request.Request(url,
+                                                     headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64)'})
+                        urllib.request.urlopen(req)
+                    except urllib.error.HTTPError as e:
+                        print("{}: {} - {}".format(os.path.basename(entry_path), url, e.code))
+                    except urllib.error.URLError as e:
+                        print("{}: {} - {}".format(os.path.basename(entry_path), url, e.reason))
+                    except http.client.RemoteDisconnected:
+                        print("{}: {} - disconnected without response".format(os.path.basename(entry_path), url))
 
-                        number_checked_links += 1
+                    number_checked_links += 1
 
-                        if number_checked_links % 50 == 0:
-                            print("{} links checked".format(number_checked_links))
+                    if number_checked_links % 50 == 0:
+                        print("{} links checked".format(number_checked_links))
 
     print("{} links checked".format(number_checked_links))
 
@@ -354,9 +356,10 @@ def update_statistics(infos):
 
     # total number
     number_entries = len(infos)
-    rel = lambda x: x / number_entries * 100 # conversion to percent
+    rel = lambda x: x / number_entries * 100  # conversion to percent
 
-    statistics += 'analyzed {} entries on {}\n\n'.format(number_entries, datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
+    statistics += 'analyzed {} entries on {}\n\n'.format(number_entries,
+                                                         datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
 
     # State (beta, mature, inactive)
     statistics += '## State\n\n'
@@ -364,12 +367,14 @@ def update_statistics(infos):
     number_state_beta = sum(1 for x in infos if 'beta' in x['state'])
     number_state_mature = sum(1 for x in infos if 'mature' in x['state'])
     number_inactive = sum(1 for x in infos if 'inactive' in x)
-    statistics += '- mature: {} ({:.1f}%)\n- beta: {} ({:.1f}%)\n- inactive: {} ({:.1f}%)\n\n'.format(number_state_mature, rel(number_state_mature), number_state_beta, rel(number_state_beta), number_inactive, rel(number_inactive))
+    statistics += '- mature: {} ({:.1f}%)\n- beta: {} ({:.1f}%)\n- inactive: {} ({:.1f}%)\n\n'.format(
+        number_state_mature, rel(number_state_mature), number_state_beta, rel(number_state_beta), number_inactive,
+        rel(number_inactive))
 
     if number_inactive > 0:
         entries_inactive = [(x['name'], x['inactive']) for x in infos if 'inactive' in x]
         entries_inactive.sort(key=lambda x: str.casefold(x[0]))  # first sort by name
-        entries_inactive.sort(key=lambda x: x[1], reverse=True) # then sort by inactive year (more recently first)
+        entries_inactive.sort(key=lambda x: x[1], reverse=True)  # then sort by inactive year (more recently first)
         entries_inactive = ['{} ({})'.format(*x) for x in entries_inactive]
         statistics += '##### Inactive State\n\n' + ', '.join(entries_inactive) + '\n\n'
 
@@ -394,9 +399,9 @@ def update_statistics(infos):
 
     unique_languages = set(languages)
     unique_languages = [(l, languages.count(l) / len(languages)) for l in unique_languages]
-    unique_languages.sort(key=lambda x: str.casefold(x[0])) # first sort by name
-    unique_languages.sort(key=lambda x: x[1], reverse=True) # then sort by occurrence (highest occurrence first)
-    unique_languages = ['- {} ({:.1f}%)\n'.format(x[0], x[1]*100) for x in unique_languages]
+    unique_languages.sort(key=lambda x: str.casefold(x[0]))  # first sort by name
+    unique_languages.sort(key=lambda x: x[1], reverse=True)  # then sort by occurrence (highest occurrence first)
+    unique_languages = ['- {} ({:.1f}%)\n'.format(x[0], x[1] * 100) for x in unique_languages]
     statistics += '##### Language frequency\n\n' + ''.join(unique_languages) + '\n'
 
     # Licenses
@@ -419,9 +424,9 @@ def update_statistics(infos):
 
     unique_licenses = set(licenses)
     unique_licenses = [(l, licenses.count(l) / len(licenses)) for l in unique_licenses]
-    unique_licenses.sort(key=lambda x: str.casefold(x[0])) # first sort by name
-    unique_licenses.sort(key=lambda x: -x[1]) # then sort by occurrence (highest occurrence first)
-    unique_licenses = ['- {} ({:.1f}%)\n'.format(x[0], x[1]*100) for x in unique_licenses]
+    unique_licenses.sort(key=lambda x: str.casefold(x[0]))  # first sort by name
+    unique_licenses.sort(key=lambda x: -x[1])  # then sort by occurrence (highest occurrence first)
+    unique_licenses = ['- {} ({:.1f}%)\n'.format(x[0], x[1] * 100) for x in unique_licenses]
     statistics += '##### Licenses frequency\n\n' + ''.join(unique_licenses) + '\n'
 
     # Keywords
@@ -440,9 +445,9 @@ def update_statistics(infos):
 
     unique_keywords = set(keywords)
     unique_keywords = [(l, keywords.count(l) / len(keywords)) for l in unique_keywords]
-    unique_keywords.sort(key=lambda x: str.casefold(x[0])) # first sort by name
-    unique_keywords.sort(key=lambda x: -x[1]) # then sort by occurrence (highest occurrence first)
-    unique_keywords = ['- {} ({:.1f}%)'.format(x[0], x[1]*100) for x in unique_keywords]
+    unique_keywords.sort(key=lambda x: str.casefold(x[0]))  # first sort by name
+    unique_keywords.sort(key=lambda x: -x[1])  # then sort by occurrence (highest occurrence first)
+    unique_keywords = ['- {} ({:.1f}%)'.format(x[0], x[1] * 100) for x in unique_keywords]
     statistics += '##### Keywords frequency\n\n' + '\n'.join(unique_keywords) + '\n\n'
 
     # no download or play field
@@ -453,7 +458,7 @@ def update_statistics(infos):
         if 'download' not in info and 'play' not in info:
             entries.append(info['name'])
     entries.sort(key=str.casefold)
-    statistics +=  '{}: '.format(len(entries)) + ', '.join(entries) + '\n\n'
+    statistics += '{}: '.format(len(entries)) + ', '.join(entries) + '\n\n'
 
     # code hosted not on github, gitlab, bitbucket, launchpad, sourceforge
     popular_code_repositories = ('github.com', 'gitlab.com', 'bitbucket.org', 'code.sf.net', 'code.launchpad.net')
@@ -487,13 +492,15 @@ def update_statistics(infos):
         if field in info:
             code_dependencies.extend(info[field])
             entries_with_code_dependency += 1
-    statistics += 'With code dependency field {} ({:.1f}%)\n\n'.format(entries_with_code_dependency, rel(entries_with_code_dependency))
+    statistics += 'With code dependency field {} ({:.1f}%)\n\n'.format(entries_with_code_dependency,
+                                                                       rel(entries_with_code_dependency))
 
     unique_code_dependencies = set(code_dependencies)
-    unique_code_dependencies = [(l, code_dependencies.count(l) / len(code_dependencies)) for l in unique_code_dependencies]
-    unique_code_dependencies.sort(key=lambda x: str.casefold(x[0])) # first sort by name
-    unique_code_dependencies.sort(key=lambda x: -x[1]) # then sort by occurrence (highest occurrence first)
-    unique_code_dependencies = ['- {} ({:.1f}%)'.format(x[0], x[1]*100) for x in unique_code_dependencies]
+    unique_code_dependencies = [(l, code_dependencies.count(l) / len(code_dependencies)) for l in
+                                unique_code_dependencies]
+    unique_code_dependencies.sort(key=lambda x: str.casefold(x[0]))  # first sort by name
+    unique_code_dependencies.sort(key=lambda x: -x[1])  # then sort by occurrence (highest occurrence first)
+    unique_code_dependencies = ['- {} ({:.1f}%)'.format(x[0], x[1] * 100) for x in unique_code_dependencies]
     statistics += '##### Code dependencies frequency\n\n' + '\n'.join(unique_code_dependencies) + '\n\n'
 
     # Build systems:
@@ -510,10 +517,11 @@ def update_statistics(infos):
 
     unique_build_systems = set(build_systems)
     unique_build_systems = [(l, build_systems.count(l) / len(build_systems)) for l in unique_build_systems]
-    unique_build_systems.sort(key=lambda x: str.casefold(x[0])) # first sort by name
-    unique_build_systems.sort(key=lambda x: -x[1]) # then sort by occurrence (highest occurrence first)
-    unique_build_systems = ['- {} ({:.1f}%)'.format(x[0], x[1]*100) for x in unique_build_systems]
-    statistics += '##### Build systems frequency ({})\n\n'.format(len(build_systems)) + '\n'.join(unique_build_systems) + '\n\n'
+    unique_build_systems.sort(key=lambda x: str.casefold(x[0]))  # first sort by name
+    unique_build_systems.sort(key=lambda x: -x[1])  # then sort by occurrence (highest occurrence first)
+    unique_build_systems = ['- {} ({:.1f}%)'.format(x[0], x[1] * 100) for x in unique_build_systems]
+    statistics += '##### Build systems frequency ({})\n\n'.format(len(build_systems)) + '\n'.join(
+        unique_build_systems) + '\n\n'
 
     # C, C++ projects without build system information
     c_cpp_project_without_build_system = []
@@ -521,15 +529,18 @@ def update_statistics(infos):
         if field not in info and ('C' in info['code language'] or 'C++' in info['code language']):
             c_cpp_project_without_build_system.append(info['name'])
     c_cpp_project_without_build_system.sort(key=str.casefold)
-    statistics += '##### C and C++ projects without build system information ({})\n\n'.format(len(c_cpp_project_without_build_system)) + ', '.join(c_cpp_project_without_build_system) + '\n\n'
+    statistics += '##### C and C++ projects without build system information ({})\n\n'.format(
+        len(c_cpp_project_without_build_system)) + ', '.join(c_cpp_project_without_build_system) + '\n\n'
 
     # C, C++ projects with build system information but without CMake as build system
     c_cpp_project_not_cmake = []
     for info in infos:
-        if field in info and 'CMake' in info[field] and ('C' in info['code language'] or 'C++' in info['code language']):
+        if field in info and 'CMake' in info[field] and (
+                'C' in info['code language'] or 'C++' in info['code language']):
             c_cpp_project_not_cmake.append(info['name'])
     c_cpp_project_not_cmake.sort(key=str.casefold)
-    statistics += '##### C and C++ projects with a build system different from CMake ({})\n\n'.format(len(c_cpp_project_not_cmake)) + ', '.join(c_cpp_project_not_cmake) + '\n\n'
+    statistics += '##### C and C++ projects with a build system different from CMake ({})\n\n'.format(
+        len(c_cpp_project_not_cmake)) + ', '.join(c_cpp_project_not_cmake) + '\n\n'
 
     # Platform
     statistics += '## Platform\n\n'
@@ -545,9 +556,9 @@ def update_statistics(infos):
 
     unique_platforms = set(platforms)
     unique_platforms = [(l, platforms.count(l) / len(platforms)) for l in unique_platforms]
-    unique_platforms.sort(key=lambda x: str.casefold(x[0])) # first sort by name
-    unique_platforms.sort(key=lambda x: -x[1]) # then sort by occurrence (highest occurrence first)
-    unique_platforms = ['- {} ({:.1f}%)'.format(x[0], x[1]*100) for x in unique_platforms]
+    unique_platforms.sort(key=lambda x: str.casefold(x[0]))  # first sort by name
+    unique_platforms.sort(key=lambda x: -x[1])  # then sort by occurrence (highest occurrence first)
+    unique_platforms = ['- {} ({:.1f}%)'.format(x[0], x[1] * 100) for x in unique_platforms]
     statistics += '##### Platforms frequency\n\n' + '\n'.join(unique_platforms) + '\n\n'
 
     # write to statistics file
@@ -570,8 +581,9 @@ def export_json(infos):
 
         # game & description
         entry = ['{} (<a href="{}">home</a>, <a href="{}">entry</a>)'.format(info['name'], info['home'][0],
-            r'https://github.com/Trilarion/opensourcegames/blob/master/entries/' + info['file']),
-            textwrap.shorten(info['description'], width=60, placeholder='..')]
+                                                                             r'https://github.com/Trilarion/opensourcegames/blob/master/entries/' +
+                                                                             info['file']),
+                 textwrap.shorten(info['description'], width=60, placeholder='..')]
 
         # download
         field = 'download'
@@ -581,7 +593,8 @@ def export_json(infos):
             entry.append('')
 
         # state (field state is essential)
-        entry.append('{} / {}'.format(info['state'][0], 'inactive since {}'.format(info['inactive']) if 'inactive' in info else 'active'))
+        entry.append('{} / {}'.format(info['state'][0],
+                                      'inactive since {}'.format(info['inactive']) if 'inactive' in info else 'active'))
 
         # keywords
         field = 'keywords'
@@ -627,7 +640,8 @@ def git_repo(repo):
         return repo
 
     # for all others we just check if they start with the typical urls of git services
-    services = ['https://git.tuxfamily.org/', 'http://git.pond.sub.org/', 'https://gitorious.org/', 'https://git.code.sf.net/p/']
+    services = ['https://git.tuxfamily.org/', 'http://git.pond.sub.org/', 'https://gitorious.org/',
+                'https://git.code.sf.net/p/']
     for service in services:
         if repo.startswith(service):
             return repo
@@ -649,7 +663,7 @@ def svn_repo(repo):
     if repo.startswith('http://svn.uktrainsim.com/svn/'):
         return repo
 
-    if repo is 'https://rpg.hamsterrepublic.com/source/wip':
+    if repo == 'https://rpg.hamsterrepublic.com/source/wip':
         return repo
 
     if repo.startswith('http://svn.savannah.gnu.org/svn/'):
@@ -660,7 +674,7 @@ def svn_repo(repo):
 
     if repo.startswith('https://svn.icculus.org/') or repo.startswith('http://svn.icculus.org/'):
         return repo
-    
+
     # not svn
     return None
 
@@ -720,7 +734,7 @@ def export_primary_code_repositories_json(infos):
                     url = hg_repo(repo)
                     if url:
                         primary_repos['hg'].append(url)
-                        consumed=True
+                        consumed = True
                         continue
 
             if not consumed:
@@ -736,7 +750,10 @@ def export_primary_code_repositories_json(infos):
     # statistics of gits
     git_repos = primary_repos['git']
     print('{} Git repositories'.format(len(git_repos)))
-    for domain in ('repo.or.cz', 'anongit.kde.org', 'bitbucket.org', 'git.code.sf.net', 'git.savannah', 'git.tuxfamily', 'github.com', 'gitlab.com', 'gitlab.com/osgames', 'gitlab.gnome.org'):
+    for domain in (
+            'repo.or.cz', 'anongit.kde.org', 'bitbucket.org', 'git.code.sf.net', 'git.savannah', 'git.tuxfamily',
+            'github.com',
+            'gitlab.com', 'gitlab.com/osgames', 'gitlab.gnome.org'):
         print('{} on {}'.format(sum(1 if domain in x else 0 for x in git_repos), domain))
 
     # write them to code/git
@@ -787,7 +804,6 @@ def sort_text_file(file, name):
 
 
 def clean_backlog(stripped_game_urls):
-
     # read backlog and split
     file = os.path.join(c.root_path, 'code', 'backlog.txt')
     text = utils.read_text(file)
@@ -915,7 +931,8 @@ def check_code_dependencies(infos):
                 dependencies[dependency] = 1
 
     # delete those that are in names
-    dependencies = [(k, v) for k,v in dependencies.items() if k not in names and k not in osg.code_dependencies_without_entry]
+    dependencies = [(k, v) for k, v in dependencies.items() if
+                    k not in names and k not in osg.code_dependencies_without_entry]
 
     # sort by number
     dependencies.sort(key=lambda x: x[1], reverse=True)

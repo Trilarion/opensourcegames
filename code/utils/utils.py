@@ -289,7 +289,7 @@ def load_properties(filepath, sep='=', comment_char='#'):
             line = line.strip()
             if not line.startswith(comment_char):
                 line = line.split(sep)
-                assert(len(line)==2)
+                assert (len(line) == 2)
                 key = line[0].strip()
                 value = line[1].strip()
                 properties[key] = value

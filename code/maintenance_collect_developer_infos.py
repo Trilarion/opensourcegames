@@ -15,14 +15,16 @@ def developer_info_lookup(name):
             return dev
     return None
 
+
 # author names in SF that aren't the author names how we have them
-SF_alias_list = {'Erik Johansson (aka feneur)': 'Erik Johansson', 'Itms': 'Nicolas Auvray', 'Wraitii': 'Lancelot de Ferrière', 'Simzer': 'Simon Laszlo', 'armin bajramovic': 'Armin Bajramovic'}
+SF_alias_list = {'Erik Johansson (aka feneur)': 'Erik Johansson', 'Itms': 'Nicolas Auvray',
+                 'Wraitii': 'Lancelot de Ferrière', 'Simzer': 'Simon Laszlo', 'armin bajramovic': 'Armin Bajramovic'}
 
 if __name__ == "__main__":
 
     # read developer info
     developer_info = osg.read_developer_info()
-    osg.write_developer_info(developer_info) # write again just to make nice
+    osg.write_developer_info(developer_info)  # write again just to make nice
 
     # assemble info
     entries = osg.assemble_infos()
@@ -34,12 +36,12 @@ if __name__ == "__main__":
     developers = ''
     try:
         i = 0
-        #active = False
+        # active = False
         for entry in entries:
 
-            #if entry['name'] == 'Aleph One':
+            # if entry['name'] == 'Aleph One':
             #    active = True
-            #if not active:
+            # if not active:
             #    continue
 
             # for testing purposes
@@ -72,7 +74,7 @@ if __name__ == "__main__":
                     # sometimes author already contains the full url, sometimes not
                     url = 'https://sourceforge.net' + author if not author.startswith('http') else author
                     response = requests.get(url)
-                    url = response.url # could be different now
+                    url = response.url  # could be different now
                     if 'auth/?return_to' in url:
                         # for some reason authorisation is forbidden
                         author_name = author
@@ -80,8 +82,8 @@ if __name__ == "__main__":
                     else:
                         soup = BeautifulSoup(response.text, 'html.parser')
                         author_name = soup.h1.get_text()
-                        author_name = SF_alias_list.get(author_name, author_name) # replace by alias if possible
-                        nickname = soup.find('dl', class_= 'personal-data').find('dd').get_text()
+                        author_name = SF_alias_list.get(author_name, author_name)  # replace by alias if possible
+                        nickname = soup.find('dl', class_='personal-data').find('dd').get_text()
                         nickname = nickname.replace('\n', '').strip()
                     dev = developer_info_lookup(author_name)
                     in_devs = dev and 'contact' in dev and nickname + '@SF' in dev['contact']
@@ -123,9 +125,8 @@ if __name__ == "__main__":
             if content:
                 developers += '{}\n\n{}\n'.format(entry_name, content)
 
-
     except RuntimeError as e:
-        raise(e)
+        raise e
         # pass
     finally:
         # store developer info

@@ -17,11 +17,15 @@ def local_module(module_base, file_path, module):
     pathB = os.path.join(file_path, *module)
     return os.path.exists(pathA) or os.path.exists(pathB)
 
+
 if __name__ == "__main__":
 
-    system_libraries = {'__builtin__', '.', '..', '*', 'argparse', 'array', 'os', 'copy', 'codecs', 'collections', 'ctypes', 'pickle', 'cPickle', 'datetime', 'decimal', 'email', 'functools',
-        'io', 'itertools', 'json', 'httplib', 'glob', 'math', 'cmath', 'heapq', 'md5', 'operator', 'random', 're', 'sha', 'shutil', 'smtplib', 'socket', 'string', 'struct', 'subprocess',
-        'sys', 'thread', 'threading', 'time', 'traceback', 'types', 'urllib', 'urllib2', 'urlparse', 'unittest', 'yaml', 'yaml3', 'zlib', 'zipfile', '__future__'}
+    system_libraries = {'__builtin__', '.', '..', '*', 'argparse', 'array', 'os', 'copy', 'codecs', 'collections',
+                        'ctypes', 'pickle', 'cPickle', 'datetime', 'decimal', 'email', 'functools',
+                        'io', 'itertools', 'json', 'httplib', 'glob', 'math', 'cmath', 'heapq', 'md5', 'operator',
+                        'random', 're', 'sha', 'shutil', 'smtplib', 'socket', 'string', 'struct', 'subprocess',
+                        'sys', 'thread', 'threading', 'time', 'traceback', 'types', 'urllib', 'urllib2', 'urlparse',
+                        'unittest', 'yaml', 'yaml3', 'zlib', 'zipfile', '__future__'}
     regex_import = re.compile(r"^\s*import (.*)", re.MULTILINE)
     regex_from = re.compile(r"^\s*from (.*) import (.*)", re.MULTILINE)
     regex_comment = re.compile(r"(#.*)$", re.MULTILINE)
@@ -66,7 +70,7 @@ if __name__ == "__main__":
         matches = regex_import.findall(content)
 
         for match in matches:
-            modules = match.split(',') # split if more
+            modules = match.split(',')  # split if more
             for module in modules:
                 module = module.strip()
                 if not local_module(module_base, file_path, module):
@@ -76,7 +80,7 @@ if __name__ == "__main__":
         matches = regex_from.findall(content)
 
         for match in matches:
-            module = match[0] # only the from part
+            module = match[0]  # only the from part
             module = module.strip()
             if not local_module(module_base, file_path, module):
                 imports.append(module)

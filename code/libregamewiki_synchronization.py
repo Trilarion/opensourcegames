@@ -26,18 +26,34 @@ import json
 import os
 from utils import constants, utils, osg
 
-
-lgw_name_aliases = {'Eat the Whistle': 'Eat The Whistle', 'Scorched 3D': 'Scorched3D', 'Blob Wars Episode 1 : Metal Blob Solid': 'Blobwars: Metal Blob Solid', 'Adventure': 'Colossal Cave Adventure',
-                     'Liquid War 6': 'Liquid War', 'Gusanos': 'GUSANOS', 'Corewars': 'Core War', 'FLARE': 'Flare', 'Vitetris': 'vitetris', 'Powder Toy': 'The Powder Toy', 'Asylum': 'SDL Asylum',
-                     'Atanks': 'Atomic Tanks', 'HeXon': 'heXon', 'Unnethack': 'UnNetHack', 'Nova Pinball': 'NOVA PINBALL', 'Jump n Bump': "Jump'n'Bump", 'Blades of Exile': 'Classic Blades of Exile',
-                    'Colobot': 'Colobot: Gold Edition', 'Dead Justice': 'Cat Mother Dead Justice', 'FreeDink': 'GNU FreeDink', 'FRaBs': 'fRaBs', 'Harmonist': 'Harmonist: Dayoriah Clan Infiltration', 'Iris2 3D Client - for Ultima Online': 'Iris2',
-                    'Java Classic Role Playing Game': 'jClassicRPG', 'Osgg': 'OldSkool Gravity Game', 'PyRacerz': 'pyRacerz', 'Starfighter': 'Project: Starfighter',
-                    'TORCS': 'TORCS, The Open Racing Car Simulator', 'Vertigo (game)': 'Vertigo', 'XInvaders3D': 'XInvaders 3D', 'LambdaRogue': 'LambdaRogue: The Book of Stars', 'Maniadrive': 'ManiaDrive',
+lgw_name_aliases = {'Eat the Whistle': 'Eat The Whistle', 'Scorched 3D': 'Scorched3D',
+                    'Blob Wars Episode 1 : Metal Blob Solid': 'Blobwars: Metal Blob Solid',
+                    'Adventure': 'Colossal Cave Adventure',
+                    'Liquid War 6': 'Liquid War', 'Gusanos': 'GUSANOS', 'Corewars': 'Core War', 'FLARE': 'Flare',
+                    'Vitetris': 'vitetris', 'Powder Toy': 'The Powder Toy', 'Asylum': 'SDL Asylum',
+                    'Atanks': 'Atomic Tanks', 'HeXon': 'heXon', 'Unnethack': 'UnNetHack',
+                    'Nova Pinball': 'NOVA PINBALL', 'Jump n Bump': "Jump'n'Bump",
+                    'Blades of Exile': 'Classic Blades of Exile',
+                    'Colobot': 'Colobot: Gold Edition', 'Dead Justice': 'Cat Mother Dead Justice',
+                    'FreeDink': 'GNU FreeDink', 'FRaBs': 'fRaBs', 'Harmonist': 'Harmonist: Dayoriah Clan Infiltration',
+                    'Iris2 3D Client - for Ultima Online': 'Iris2',
+                    'Java Classic Role Playing Game': 'jClassicRPG', 'Osgg': 'OldSkool Gravity Game',
+                    'PyRacerz': 'pyRacerz', 'Starfighter': 'Project: Starfighter',
+                    'TORCS': 'TORCS, The Open Racing Car Simulator', 'Vertigo (game)': 'Vertigo',
+                    'XInvaders3D': 'XInvaders 3D', 'LambdaRogue': 'LambdaRogue: The Book of Stars',
+                    'Maniadrive': 'ManiaDrive',
                     'Which Way Is Up': 'Which Way Is Up?'}
-lgw_ignored_entries = ['Hetris', '8 Kingdoms', 'Antigravitaattori', 'Arena of Honour', 'Arkhart', 'Ascent of Justice', 'Balazar III', 'Balder3D', 'Barbie Seahorse Adventures', 'Barrage', 'Gnome Batalla Naval', 'Blocks',
-                 'Brickshooter', 'Bweakfwu', 'Cheese Boys', 'Clippers', 'Codewars', 'CRAFT: The Vicious Vikings', 'DQM', 'EmMines', 'Eskimo-run', 'Feuerkraft', 'Fight or Perish', 'Flatland', 'Forest patrol', 'Free Reign', 'GalaxyMage',
-                 'Gloss', 'GRUB Invaders', 'Howitzer Skirmish', 'Imperium: Sticks', 'Interstate Outlaws', 'GNOME Games', 'KDE Games', 'LegacyClone', 'Memonix', 'Ninjapix', 'Neverputt', 'Militia Defense', 'Sudoku86',
-                       'Terminal Overload release history', 'Scions of Darkness', 'Sedtris', 'SilChess', 'SSTPong', 'Tesseract Trainer', 'TunnelWars', 'The Fortress']
+lgw_ignored_entries = ['Hetris', '8 Kingdoms', 'Antigravitaattori', 'Arena of Honour', 'Arkhart', 'Ascent of Justice',
+                       'Balazar III', 'Balder3D', 'Barbie Seahorse Adventures', 'Barrage', 'Gnome Batalla Naval',
+                       'Blocks',
+                       'Brickshooter', 'Bweakfwu', 'Cheese Boys', 'Clippers', 'Codewars', 'CRAFT: The Vicious Vikings',
+                       'DQM', 'EmMines', 'Eskimo-run', 'Feuerkraft', 'Fight or Perish', 'Flatland', 'Forest patrol',
+                       'Free Reign', 'GalaxyMage',
+                       'Gloss', 'GRUB Invaders', 'Howitzer Skirmish', 'Imperium: Sticks', 'Interstate Outlaws',
+                       'GNOME Games', 'KDE Games', 'LegacyClone', 'Memonix', 'Ninjapix', 'Neverputt', 'Militia Defense',
+                       'Sudoku86',
+                       'Terminal Overload release history', 'Scions of Darkness', 'Sedtris', 'SilChess', 'SSTPong',
+                       'Tesseract Trainer', 'TunnelWars', 'The Fortress']
 
 licenses_map = {'GPLv2': 'GPL-2.0', 'GPLv2+': 'GPL-2.0', 'GPLv3': 'GPL-3.0', 'GPLv3+': 'GPL-3.0'}
 
@@ -45,6 +61,7 @@ licenses_map = {'GPLv2': 'GPL-2.0', 'GPLv2+': 'GPL-2.0', 'GPLv3': 'GPL-3.0', 'GP
 def compare_sets(a, b, name, limit=None):
     """
 
+    :param limit:
     :param a:
     :param b:
     :param name:
@@ -79,15 +96,15 @@ if __name__ == "__main__":
     lgw_entries = json.loads(text)
 
     # eliminate the ignored entries
-    _ = [x['name'] for x in lgw_entries if x['name'] in lgw_ignored_entries] # those that will be ignored
-    _ = set(lgw_ignored_entries) - set(_) # those that shall be ignored minus those that will be ignored
+    _ = [x['name'] for x in lgw_entries if x['name'] in lgw_ignored_entries]  # those that will be ignored
+    _ = set(lgw_ignored_entries) - set(_)  # those that shall be ignored minus those that will be ignored
     if _:
         print('Can un-ignore {}'.format(_))
     lgw_entries = [x for x in lgw_entries if x['name'] not in lgw_ignored_entries]
 
     # perform name and code language replacements
-    _ = [x['name'] for x in lgw_entries if x['name'] in lgw_name_aliases.keys()] # those that will be renamed
-    _ = set(lgw_name_aliases.keys()) - set(_) # those that shall be renamed minus those that will be renamed
+    _ = [x['name'] for x in lgw_entries if x['name'] in lgw_name_aliases.keys()]  # those that will be renamed
+    _ = set(lgw_name_aliases.keys()) - set(_)  # those that shall be renamed minus those that will be renamed
     if _:
         print('Can un-rename {}'.format(_))
     for index, lgw_entry in enumerate(lgw_entries):
@@ -121,8 +138,8 @@ if __name__ == "__main__":
     mandatory_fields = unique_fields.copy()
     for lgw_entry in lgw_entries:
         remove_fields = [field for field in mandatory_fields if field not in lgw_entry]
-        mandatory_fields  -= set(remove_fields)
-    print('mandatory lgw fields: {}'.format(sorted(list(mandatory_fields ))))
+        mandatory_fields -= set(remove_fields)
+    print('mandatory lgw fields: {}'.format(sorted(list(mandatory_fields))))
 
     # read our database
     our_entries = osg.assemble_infos()
@@ -148,7 +165,7 @@ if __name__ == "__main__":
     print('\n')
     for lgw_entry in lgw_entries:
         lgw_name = lgw_entry['name']
-        
+
         is_included = False
         for our_entry in our_entries:
             our_name = our_entry['name']
@@ -166,7 +183,7 @@ if __name__ == "__main__":
                 p += compare_sets(lgw_entry.get(key, []), our_entry.get(key, []), key)
 
                 # categories/keywords
-                #p += compare_sets(lgw_entry.get('categories', []), our_entry.get('keywords', []), 'categories/keywords')
+                # p += compare_sets(lgw_entry.get('categories', []), our_entry.get('keywords', []), 'categories/keywords')
 
                 # code language
                 key = 'code language'
@@ -177,9 +194,12 @@ if __name__ == "__main__":
                 p += compare_sets(lgw_entry.get(key, []), our_entry.get(key, []), key)
 
                 # engine, library
-                p += compare_sets(lgw_entry.get('engine', []), our_entry.get('code dependencies', []), 'code dependencies', 'notthem')
-                p += compare_sets(lgw_entry.get('library', []), our_entry.get('code dependencies', []), 'code dependencies', 'notthem')
-                p += compare_sets(lgw_entry.get('engine', [])+lgw_entry.get('library', []), our_entry.get('code dependencies', []), 'engine/library', 'notus')
+                p += compare_sets(lgw_entry.get('engine', []), our_entry.get('code dependencies', []),
+                                  'code dependencies', 'notthem')
+                p += compare_sets(lgw_entry.get('library', []), our_entry.get('code dependencies', []),
+                                  'code dependencies', 'notthem')
+                p += compare_sets(lgw_entry.get('engine', []) + lgw_entry.get('library', []),
+                                  our_entry.get('code dependencies', []), 'engine/library', 'notus')
 
                 # assets license
                 key = 'assets license'
@@ -204,7 +224,7 @@ if __name__ == "__main__":
                 print('warning: file {} already existing, save under slightly different name'.format(file_name))
                 target_file = os.path.join(constants.entries_path, file_name[:-3] + '-duplicate.md')
                 if os.path.isfile(target_file):
-                    continue # just for safety reasons
+                    continue  # just for safety reasons
 
             # add name
             entry = '# {}\n\n'.format(lgw_name)

@@ -8,8 +8,10 @@ import re
 from difflib import SequenceMatcher
 from utils.utils import *
 
+
 def similarity(a, b):
     return SequenceMatcher(None, a, b).ratio()
+
 
 if __name__ == "__main__":
     similarity_threshold = 0.7
@@ -44,4 +46,3 @@ if __name__ == "__main__":
             print('{} maybe included in {}'.format(test_name, ', '.join(matches)))
         else:
             print('{} not included'.format(test_name))
-

@@ -36,25 +36,50 @@ video: not used
 TODO also ignore our rejected entries
 """
 
-import ruamel_yaml as yaml
+import ruamel.yaml as yaml
 import os
 from utils import constants, utils, osg
 
 # should change on osgameclones
-osgc_name_aliases = {'4DTris': '4D-TRIS', 'fheroes2': 'Free Heroes 2', 'DrCreep': 'The Castles of Dr. Creep', 'Duke3d_win32': 'Duke3d_w32', 'erampage (EDuke32 fork)': 'erampage', 'GNOME Atomix': 'Atomix', 'Head over Heels 2': 'Head over Heels',
-                     'mewl': 'M.E.W.L.', 'LinWarrior': 'Linwarrior 3D', 'Mice Men Remix': 'Mice Men: Remix', 'OpenApoc': 'Open Apocalypse', 'open-cube': 'Open Cube', 'open-horizon': 'Open Horizon', 'opengl_test_drive_clone': 'OpenGL Test Drive Remake',
-                     'Play Freeciv!': 'Freeciv-web', 'ProjectX': 'Forsaken', 'Siege of Avalon Open Source': 'Siege of Avalon : Open Source', 'ss13remake': 'SS13 Remake', 'shadowgrounds': 'Shadowgrounds', 'RxWars': 'Prescription Wars', 'Super Mario Bros And Level Editor in C#': 'Mario Objects',
-                     'tetris': 'Just another Tetris™ clone', 'twin-e': 'TwinEngine', 'CrossUO: Ultima Online': 'CrossUO', 'Doomsday': 'Doomsday Engine', 'OpMon': 'OPMon'}
+osgc_name_aliases = {'4DTris': '4D-TRIS', 'fheroes2': 'Free Heroes 2', 'DrCreep': 'The Castles of Dr. Creep',
+                     'Duke3d_win32': 'Duke3d_w32', 'erampage (EDuke32 fork)': 'erampage', 'GNOME Atomix': 'Atomix',
+                     'Head over Heels 2': 'Head over Heels',
+                     'mewl': 'M.E.W.L.', 'LinWarrior': 'Linwarrior 3D', 'Mice Men Remix': 'Mice Men: Remix',
+                     'OpenApoc': 'Open Apocalypse', 'open-cube': 'Open Cube', 'open-horizon': 'Open Horizon',
+                     'opengl_test_drive_clone': 'OpenGL Test Drive Remake',
+                     'Play Freeciv!': 'Freeciv-web', 'ProjectX': 'Forsaken',
+                     'Siege of Avalon Open Source': 'Siege of Avalon : Open Source', 'ss13remake': 'SS13 Remake',
+                     'shadowgrounds': 'Shadowgrounds', 'RxWars': 'Prescription Wars',
+                     'Super Mario Bros And Level Editor in C#': 'Mario Objects',
+                     'tetris': 'Just another Tetris™ clone', 'twin-e': 'TwinEngine',
+                     'CrossUO: Ultima Online': 'CrossUO', 'Doomsday': 'Doomsday Engine', 'OpMon': 'OPMon'}
 
 # conversion between licenses syntax them and us
-osgc_licenses_map = {'GPL2': 'GPL-2.0', 'GPL3': 'GPL-3.0', 'AGPL3': 'AGPL-3.0', 'LGPL3': 'LGPL-3.0', 'LGPL2': 'LGPL-2.0 or 2.1?', 'MPL': 'MPL-2.0', 'Apache': 'Apache-2.0', 'Artistic': 'Artistic License', 'Zlib': 'zlib', 'PD': 'Public domain', 'AFL3': 'AFL-3.0', 'BSD2': '2-clause BSD'}
+osgc_licenses_map = {'GPL2': 'GPL-2.0', 'GPL3': 'GPL-3.0', 'AGPL3': 'AGPL-3.0', 'LGPL3': 'LGPL-3.0',
+                     'LGPL2': 'LGPL-2.0 or 2.1?', 'MPL': 'MPL-2.0', 'Apache': 'Apache-2.0',
+                     'Artistic': 'Artistic License', 'Zlib': 'zlib', 'PD': 'Public domain', 'AFL3': 'AFL-3.0',
+                     'BSD2': '2-clause BSD'}
 
 # ignore osgc entries (for various reasons like unclear license etc.)
-osgc_ignored_entries = ["A Mouse's Vengeance", 'achtungkurve.com', 'AdaDoom3', 'Agendaroids', 'Alien 8', 'Ard-Reil', 'Balloon Fight', 'bladerunner (Engine within SCUMMVM)', 'Block Shooter', 'Bomb Mania Reloaded', 'boulder-dash', 'Cannon Fodder', 'Contra_remake', 'CosmicArk-Advanced', 'Deuteros X', 'datastorm'
-                        , 'div-columns', 'div-pacman2600', 'div-pitfall', 'div-spaceinvaders2600', 'EXILE', 'Free in the Dark', 'Football Manager', 'Fight Or Perish', 'EarthShakerDS', 'Entombed!', 'FreeRails 2', 'Glest Advanced Engine', 'FreedroidClassic', 'FreeFT', 'Future Blocks', 'HeadOverHeels'
-                        , 'Herzog 3D', 'Homeworld SDL', 'imperialism-remake', 'Jumping Jack 2: Worryingly Familiar', 'Jumping Jack: Further Adventures', 'Jumpman', 'legion', 'KZap', 'LastNinja', 'Lemmix', 'LixD', 'luminesk5', 'Manic Miner', 'Meridian 59 Server 105', 'Meridian 59 German Server 112', 'Mining Haze'
-                        , 'OpenGeneral', 'MonoStrategy', 'New RAW', 'OpenDeathValley', 'OpenOutcast', 'openStrato', 'OpenPop', 'pacman', 'Phavon', 'PKMN-FX', 'Project: Xenocide', 'pyspaceinvaders', 'PyTouhou', 'Racer', 'Ruby OMF 2097 Remake', 'Snipes', 'Spaceship Duel', 'Space Station 14', 'Starlane Empire'
-                        , 'Styx', 'Super Mario Bros With SFML in C#', 'thromolusng', 'Tile World 2', 'Tranzam', 'Voxelstein 3D', 'XQuest 2', 'xrick', 'zedragon', 'Uncharted waters 2 remake', 'Desktop Adventures Engine for ScummVM', 'Open Sonic', 'Aladdin_DirectX', 'Alive_Reversing']
+osgc_ignored_entries = ["A Mouse's Vengeance", 'achtungkurve.com', 'AdaDoom3', 'Agendaroids', 'Alien 8', 'Ard-Reil',
+                        'Balloon Fight', 'bladerunner (Engine within SCUMMVM)', 'Block Shooter', 'Bomb Mania Reloaded',
+                        'boulder-dash', 'Cannon Fodder', 'Contra_remake', 'CosmicArk-Advanced', 'Deuteros X',
+                        'datastorm', 'div-columns', 'div-pacman2600', 'div-pitfall', 'div-spaceinvaders2600', 'EXILE',
+                        'Free in the Dark',
+                        'Football Manager', 'Fight Or Perish', 'EarthShakerDS', 'Entombed!', 'FreeRails 2',
+                        'Glest Advanced Engine', 'FreedroidClassic', 'FreeFT', 'Future Blocks', 'HeadOverHeels'
+    , 'Herzog 3D', 'Homeworld SDL', 'imperialism-remake', 'Jumping Jack 2: Worryingly Familiar',
+                        'Jumping Jack: Further Adventures', 'Jumpman', 'legion', 'KZap', 'LastNinja', 'Lemmix', 'LixD',
+                        'luminesk5', 'Manic Miner', 'Meridian 59 Server 105', 'Meridian 59 German Server 112',
+                        'Mining Haze', 'OpenGeneral', 'MonoStrategy', 'New RAW', 'OpenDeathValley', 'OpenOutcast',
+                        'openStrato', 'OpenPop', 'pacman',
+                        'Phavon', 'PKMN-FX', 'Project: Xenocide', 'pyspaceinvaders', 'PyTouhou', 'Racer',
+                        'Ruby OMF 2097 Remake', 'Snipes', 'Spaceship Duel', 'Space Station 14', 'Starlane Empire',
+                        'Styx', 'Super Mario Bros With SFML in C#', 'thromolusng', 'Tile World 2', 'Tranzam',
+                        'Voxelstein 3D', 'XQuest 2',
+                        'xrick', 'zedragon', 'Uncharted waters 2 remake', 'Desktop Adventures Engine for ScummVM',
+                        'Open Sonic', 'Aladdin_DirectX', 'Alive_Reversing']
+
 
 def unique_field_contents(entries, field):
     """
@@ -74,6 +99,7 @@ def unique_field_contents(entries, field):
 def compare_sets(a, b, name, limit=None):
     """
 
+    :param limit:
     :param a:
     :param b:
     :param name:
@@ -100,7 +126,7 @@ if __name__ == "__main__":
     maximal_newly_created_entries = 40
 
     # paths
-    root_path  = os.path.realpath(os.path.join(os.path.dirname(__file__), os.path.pardir))
+    root_path = os.path.realpath(os.path.join(os.path.dirname(__file__), os.path.pardir))
 
     # import the osgameclones data
     osgc_path = os.path.realpath(os.path.join(root_path, os.path.pardir, '11_osgameclones.git', 'games'))
@@ -155,15 +181,15 @@ if __name__ == "__main__":
         print('{}: {}'.format(field, ', '.join(statistics)))
 
     # eliminate the ignored entries
-    _ = [x['name'] for x in osgc_entries if x['name'] in osgc_ignored_entries] # those that will be ignored
-    _ = set(osgc_ignored_entries) - set(_) # those that shall be ignored minus those that will be ignored
+    _ = [x['name'] for x in osgc_entries if x['name'] in osgc_ignored_entries]  # those that will be ignored
+    _ = set(osgc_ignored_entries) - set(_)  # those that shall be ignored minus those that will be ignored
     if _:
         print('Can un-ignore {}'.format(_))
     osgc_entries = [x for x in osgc_entries if x['name'] not in osgc_ignored_entries]
 
     # fix names and licenses (so they are not longer detected as deviations downstreams)
-    _ = [x['name'] for x in osgc_entries if x['name'] in osgc_name_aliases.keys()] # those that will be renamed
-    _ = set(osgc_name_aliases.keys()) - set(_) # those that shall be renamed minus those that will be renamed
+    _ = [x['name'] for x in osgc_entries if x['name'] in osgc_name_aliases.keys()]  # those that will be renamed
+    _ = set(osgc_name_aliases.keys()) - set(_)  # those that shall be renamed minus those that will be renamed
     if _:
         print('Can un-rename {}'.format(_))
     for index, entry in enumerate(osgc_entries):
@@ -181,7 +207,7 @@ if __name__ == "__main__":
                 osgc_content = [osgc_content]
             osgc_content = [x + ' content' for x in osgc_content]
             entry['content'] = osgc_content
-        osgc_entries[index] = entry # TODO is this necessary or is the entry modified anyway?
+        osgc_entries[index] = entry  # TODO is this necessary or is the entry modified anyway?
 
     # which fields do they have
     osgc_fields = set()
@@ -215,11 +241,12 @@ if __name__ == "__main__":
     common_names = osgc_names & our_names
     osgc_names -= common_names
     our_names -= common_names
-    print('{} in both, {} only in osgameclones, {} only with us'.format(len(common_names), len(osgc_names), len(our_names)))
+    print('{} in both, {} only in osgameclones, {} only with us'.format(len(common_names), len(osgc_names),
+                                                                        len(our_names)))
 
     # find similar names among the rest
-    #print('look for similar names')
-    #for osgc_name in osgc_names:
+    # print('look for similar names')
+    # for osgc_name in osgc_names:
     #    for our_name in our_names:
     #        if osg.game_name_similarity(osgc_name, our_name) > similarity_threshold:
     #            print(' {} - {}'.format(osgc_name, our_name))
@@ -246,13 +273,13 @@ if __name__ == "__main__":
                     osgc_languages = osgc_entry['lang']
                     if type(osgc_languages) == str:
                         osgc_languages = [osgc_languages]
-                    our_languages = our_entry['code language'] # essential field
+                    our_languages = our_entry['code language']  # essential field
                     p += compare_sets(osgc_languages, our_languages, 'code language')
 
                 # compare their license with our code and assets license
                 if 'license' in osgc_entry:
                     osgc_licenses = osgc_entry['license']
-                    our_code_licenses = our_entry['code license'] # essential field
+                    our_code_licenses = our_entry['code license']  # essential field
                     our_assets_licenses = our_entry.get('assets license', [])
                     p += compare_sets(osgc_licenses, our_code_licenses + our_assets_licenses, 'licenses', 'notthem')
                     p += compare_sets(osgc_licenses, our_code_licenses, 'licenses', 'notus')
@@ -265,7 +292,8 @@ if __name__ == "__main__":
                         osgc_frameworks = [osgc_frameworks]
                     our_frameworks = our_entry.get('code dependencies', [])
                     our_frameworks = [x.casefold() for x in our_frameworks]
-                    our_frameworks = [x if x not in our_framework_replacements else our_framework_replacements[x] for x in our_frameworks]
+                    our_frameworks = [x if x not in our_framework_replacements else our_framework_replacements[x] for x
+                                      in our_frameworks]
                     osgc_frameworks = [x.casefold() for x in osgc_frameworks]
                     p += compare_sets(osgc_frameworks, our_frameworks, 'framework/dependencies')
 
@@ -275,16 +303,21 @@ if __name__ == "__main__":
                     if type(osgc_repos) == str:
                         osgc_repos = [osgc_repos]
                     osgc_repos = [utils.strip_url(url) for url in osgc_repos]
-                    osgc_repos = [x for x in osgc_repos if not x.startswith('sourceforge.net/projects/')] # we don't need the general sites there
+                    osgc_repos = [x for x in osgc_repos if not x.startswith(
+                        'sourceforge.net/projects/')]  # we don't need the general sites there
                     # osgc_repos = [x for x in osgc_repos if not x.startswith('https://sourceforge.net/projects/')] # ignore some
                     our_repos = our_entry.get('code repository', [])
                     our_repos = [utils.strip_url(url) for url in our_repos]
-                    our_repos = [x for x in our_repos if not x.startswith('gitlab.com/osgames/')] # we do not yet spread our own deeds (but we will some day)
-                    our_repos = [x for x in our_repos if not 'cvs.sourceforge.net' in x and not 'svn.code.sf.net/p/' in x]  # no cvs or svn anymore
+                    our_repos = [x for x in our_repos if not x.startswith(
+                        'gitlab.com/osgames/')]  # we do not yet spread our own deeds (but we will some day)
+                    our_repos = [x for x in our_repos if
+                                 'cvs.sourceforge.net' not in x and 'svn.code.sf.net/p/' not in x]  # no cvs or svn anymore
                     our_downloads = our_entry.get('download', [])
                     our_downloads = [utils.strip_url(url) for url in our_downloads]
-                    p += compare_sets(osgc_repos, our_repos + our_downloads, 'repo', 'notthem') # if their repos are not in our downloads or repos
-                    p += compare_sets(osgc_repos, our_repos[:1], 'repo', 'notus') # if our main repo is not in their repo
+                    p += compare_sets(osgc_repos, our_repos + our_downloads, 'repo',
+                                      'notthem')  # if their repos are not in our downloads or repos
+                    p += compare_sets(osgc_repos, our_repos[:1], 'repo',
+                                      'notus')  # if our main repo is not in their repo
 
                 # compare their url (and feed) to our home (and strip urls)
                 if 'url' in osgc_entry:
@@ -294,14 +327,16 @@ if __name__ == "__main__":
                     osgc_urls = [utils.strip_url(url) for url in osgc_urls]
                     our_urls = our_entry['home']
                     our_urls = [utils.strip_url(url) for url in our_urls]
-                    our_urls = [url for url in our_urls if not url.startswith('github.com/')] # they don't have them as url
-                    p += compare_sets(osgc_urls, our_urls, 'url/home', 'notthem') # if their urls are not in our urls
-                    p += compare_sets(osgc_urls, our_urls[:1], 'url/home', 'notus') # if our first url is not in their urls
+                    our_urls = [url for url in our_urls if
+                                not url.startswith('github.com/')]  # they don't have them as url
+                    p += compare_sets(osgc_urls, our_urls, 'url/home', 'notthem')  # if their urls are not in our urls
+                    p += compare_sets(osgc_urls, our_urls[:1], 'url/home',
+                                      'notus')  # if our first url is not in their urls
 
                 # compare their status with our state (playable can be beta/mature with us, but not playable must be beta)
                 if 'status' in osgc_entry:
                     osgc_status = osgc_entry['status']
-                    our_status = our_entry['state'] # essential field
+                    our_status = our_entry['state']  # essential field
                     if osgc_status != 'playable' and 'mature' in our_status:
                         p += ' status : mismatch : them {}, us mature\n'.format(osgc_status)
 
@@ -321,13 +356,14 @@ if __name__ == "__main__":
                 our_keywords = our_entry['keywords']
                 if 'originals' in osgc_entry:
                     osgc_originals = osgc_entry['originals']
-                    osgc_originals = [x.replace(',', '') for x in osgc_originals] # we cannot have ',' or parts in parentheses in original names
+                    osgc_originals = [x.replace(',', '') for x in
+                                      osgc_originals]  # we cannot have ',' or parts in parentheses in original names
                     our_originals = [x for x in our_keywords if x.startswith('inspired by ')]
                     if our_originals:
                         assert len(our_originals) == 1, '{}: {}'.format(our_name, our_originals)
                         our_originals = our_originals[0][11:].split('+')
                         our_originals = [x.strip() for x in our_originals]
-                    our_originals = [x for x in our_originals if x not in ['Doom II']] # ignore same
+                    our_originals = [x for x in our_originals if x not in ['Doom II']]  # ignore same
                     p += compare_sets(osgc_originals, our_originals, 'originals')
 
                 # compare their multiplayer with our keywords (multiplayer) (only lowercase comparison)
@@ -336,9 +372,12 @@ if __name__ == "__main__":
                     if type(osgc_multiplayer) == str:
                         osgc_multiplayer = [osgc_multiplayer]
                     osgc_multiplayer = [x.casefold() for x in osgc_multiplayer]
-                    osgc_multiplayer = [x for x in osgc_multiplayer if x not in ['competitive']] # ignored
+                    osgc_multiplayer = [x for x in osgc_multiplayer if x not in ['competitive']]  # ignored
                     our_multiplayer = [x for x in our_keywords if x.startswith('multiplayer ')]
                     if our_multiplayer:
+                        if len(our_multiplayer) != 1:
+                            print(our_entry)
+                            raise RuntimeError()
                         assert len(our_multiplayer) == 1
                         our_multiplayer = our_multiplayer[0][11:].split('+')
                         our_multiplayer = [x.strip().casefold() for x in our_multiplayer]
@@ -349,14 +388,16 @@ if __name__ == "__main__":
                     osgc_content = osgc_entry['content']
                     if isinstance(osgc_content, str):
                         osgc_content = [osgc_content]
-                    p += compare_sets(osgc_content, our_keywords, 'content/keywords', 'notthem') # only to us because we have more then them
+                    p += compare_sets(osgc_content, our_keywords, 'content/keywords',
+                                      'notthem')  # only to us because we have more then them
 
                 # compare their type to our keywords
                 if 'type' in osgc_entry:
                     game_type = osgc_entry['type']
                     if isinstance(game_type, str):
                         game_type = [game_type]
-                    p += compare_sets(game_type, our_keywords, 'type/keywords', 'notthem') # only to us because we have more then them
+                    p += compare_sets(game_type, our_keywords, 'type/keywords',
+                                      'notthem')  # only to us because we have more then them
 
                 if p:
                     print('{}\n{}'.format(name, p))
@@ -387,7 +428,7 @@ if __name__ == "__main__":
                 print('warning: file {} already existing, save under slightly different name'.format(file_name))
                 target_file = os.path.join(constants.entries_path, file_name[:-3] + '-duplicate.md')
                 if os.path.isfile(target_file):
-                    continue # just for safety reasons
+                    continue  # just for safety reasons
 
             # add name
             entry = '# {}\n\n'.format(osgc_name)
@@ -487,7 +528,6 @@ if __name__ == "__main__":
 
         if not is_included:
             # that could be added to them
-            print('- [{}]({})'.format(our_name, 'https://github.com/Trilarion/opensourcegames/blob/master/entries/' + our_entry['file']))
-
-
-
+            print('- [{}]({})'.format(our_name,
+                                      'https://github.com/Trilarion/opensourcegames/blob/master/entries/' + our_entry[
+                                          'file']))

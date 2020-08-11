@@ -15,10 +15,10 @@ class ListingTransformer(lark.Transformer):
         raise lark.Discard
 
     def property(self, x):
-        return (x[0].value.lower(), x[1].value)
+        return x[0].value.lower(), x[1].value
 
     def name(self, x):
-        return ('name', x[0].value)
+        return 'name', x[0].value
 
     def entry(self, x):
         d = {}
@@ -32,8 +32,8 @@ class ListingTransformer(lark.Transformer):
     def start(self, x):
         return x
 
-# transformer
 
+# transformer
 class EntryTransformer(lark.Transformer):
 
     def start(self, x):
@@ -43,22 +43,22 @@ class EntryTransformer(lark.Transformer):
         return d
 
     def title(self, x):
-        return ('title', x[0].value)
+        return 'title', x[0].value
 
     def description(self, x):
-        return ('description', x[0].value)
+        return 'description', x[0].value
 
     def property(self, x):
-        return (str.casefold(x[0].value), x[1].value)
+        return str.casefold(x[0].value), x[1].value
 
     def note(self, x):
-        return ('note', x[0].value)
+        return 'note', x[0].value
 
     def building(self, x):
         d = {}
         for key, value in x:
             d[key] = value
-        return ('building', d)
+        return 'building', d
 
 
 essential_fields = ('Home', 'State', 'Keywords', 'Code repository', 'Code language', 'Code license')
@@ -223,7 +223,7 @@ def parse_entry(content):
         v = [x for x in v if x]
 
         # if entry is of structure <..> remove <>
-        v = [x[1:-1] if x[0] is '<' and x[-1] is '>' else x for x in v]
+        v = [x[1:-1] if x[0] == '<' and x[-1] == '>' else x for x in v]
 
         # empty fields will not be stored
         if not v:
@@ -364,7 +364,7 @@ def extract_links():
     """
 
     # regex for finding urls (can be in <> or in ]() or after a whitespace
-    regex = re.compile(r"[\s\n]<(http.+?)>|\]\((http.+?)\)|[\s\n](http[^\s\n,]+?)[\s\n,]")
+    regex = re.compile(r"[\s\n]<(http.+?)>|]\((http.+?)\)|[\s\n](http[^\s\n,]+?)[\s\n,]")
 
     # iterate over all entries
     urls = set()
@@ -409,7 +409,7 @@ def read_developer_info():
     developer_file = os.path.join(c.root_path, 'developer.md')
     grammar_file = os.path.join(c.code_path, 'grammar_listing.lark')
     transformer = ListingTransformer()
-    developers =  read_and_parse(developer_file, grammar_file, transformer)
+    developers = read_and_parse(developer_file, grammar_file, transformer)
     # now transform a bit more
     for index, dev in enumerate(developers):
         # check for valid keys
@@ -430,7 +430,7 @@ def read_developer_info():
     # check for duplicate names entries
     names = [dev['name'] for dev in developers]
     duplicate_names = (name for name in names if names.count(name) > 1)
-    duplicate_names = set(duplicate_names) # to avoid duplicates in duplicate_names
+    duplicate_names = set(duplicate_names)  # to avoid duplicates in duplicate_names
     if duplicate_names:
         print('Warning: duplicate developer names: {}'.format(', '.join(duplicate_names)))
     return developers
@@ -474,7 +474,6 @@ def write_developer_info(developers):
     utils.write_text(developer_file, content)
 
 
-
 def read_inspirations_info():
     """
 
@@ -491,7 +490,7 @@ def read_inspirations_info():
             if field not in valid_inspiration_fields:
                 raise RuntimeError('Unknown field "{}" for inspiration: {}.'.format(field, inspiration['name']))
         # split lists
-        for field in ('inspired entries', ):
+        for field in ('inspired entries',):
             if field in inspiration:
                 content = inspiration[field]
                 content = content.split(',')
@@ -500,7 +499,7 @@ def read_inspirations_info():
     # check for duplicate names entries
     names = [inspiration['name'] for inspiration in inspirations]
     duplicate_names = (name for name in names if names.count(name) > 1)
-    duplicate_names = set(duplicate_names) # to avoid duplicates in duplicate_names
+    duplicate_names = set(duplicate_names)  # to avoid duplicates in duplicate_names
     if duplicate_names:
         print('Warning: duplicate inspiration names: {}'.format(', '.join(duplicate_names)))
     return inspirations
@@ -527,7 +526,8 @@ def write_inspirations_info(inspirations):
         content += '## {} ({})\n\n'.format(inspiration['name'], len(inspiration['inspired entries']))
 
         # games
-        content += '- Inspired entries: {}\n'.format(', '.join(sorted(inspiration['inspired entries'], key=str.casefold)))
+        content += '- Inspired entries: {}\n'.format(
+            ', '.join(sorted(inspiration['inspired entries'], key=str.casefold)))
 
         # all the remaining in alphabetical order
         for field in sorted(inspiration.keys()):
@@ -543,7 +543,6 @@ def write_inspirations_info(inspirations):
     # write
     inspirations_file = os.path.join(c.root_path, 'inspirations2.md')
     utils.write_text(inspirations_file, content)
-
 
 
 def compare_entries_developers(entries, developers):
@@ -580,11 +579,11 @@ def compare_entries_developers(entries, developers):
         games2 = set(devs2[dev])
         delta = games1 - games2
         if delta:
-            print('Warning: dev "{}" has games in entries ({}) that are not present in developers'.format(dev, ', '.join(delta)))
+            print('Warning: dev "{}" has games in entries ({}) that are not present in developers'.format(dev,
+                                                                                                          ', '.join(
+                                                                                                              delta)))
         delta = games2 - games1
         if delta:
-            print('Warning: dev "{}" has games in developers ({}) that are not present in entries'.format(dev, ', '.join(delta)))
-
-
-
-
+            print('Warning: dev "{}" has games in developers ({}) that are not present in entries'.format(dev,
+                                                                                                          ', '.join(
+                                                                                                              delta)))

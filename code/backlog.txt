@@ -6,13 +6,6 @@ http://circularstudios.com/
 http://cyxdown.free.fr/bs/
 http://cyxdown.free.fr/f2b/
 http://dead-code.org/home/
-https://github.com/restorer/gloomy-dungeons-2
-https://github.com/WohlSoft/PGE-Project
-https://en.wikipedia.org/wiki/List_of_free_and_open-source_Android_applications#Games
-https://notabug.org/Calinou/awesome-gamedev#games
-https://forum.freegamedev.net/viewtopic.php?f=20&t=11627
-https://www.old-games.ru/forum/threads/nekommercheskie-analogi-izvestnyx-igr.40868/page-9
-https://github.com/MyreMylar/pygame_gui
 http://e-adventure.e-ucm.es/login/index.php (games of eAdventure)
 http://ethernet.wasted.ch/
 http://evolonline.org/about
@@ -173,6 +166,7 @@ https://en.wikipedia.org/w/index.php?title=Trigger_Rally&action=edit&redlink=1
 https://en.wikipedia.org/wiki/Crystal_Space
 https://en.wikipedia.org/wiki/GNOME_Games_Collection
 https://en.wikipedia.org/wiki/List_of_commercial_video_games_with_available_source_code
+https://en.wikipedia.org/wiki/List_of_free_and_open-source_Android_applications#Games
 https://en.wikipedia.org/wiki/M.U.G.E.N
 https://en.wikipedia.org/wiki/MUD#Spread (all there)
 https://en.wikipedia.org/wiki/MUD_client (all there)
@@ -186,6 +180,7 @@ https://enigma-dev.org/about.htm
 https://faq.tuxfamily.org/Games/En
 https://fedoraproject.org/wiki/SIGs/Games#List_of_games_we_will_NOT_package
 https://flathub.org/home (use it for Linux packaging) / https://flathub.org/apps/category/Game
+https://forum.freegamedev.net/viewtopic.php?f=20&t=11627
 https://forums.scummvm.org/viewtopic.php?t=13512&highlight=open+source
 https://freegamer.blogspot.com (maybe there is something interesting)
 https://futurepinball.com/
@@ -199,6 +194,8 @@ https://github.com/00-Evan/shattered-pixel-dungeon-gdx
 https://github.com/acedogblast/Project-Uranium-Godot
 https://github.com/AdaDoom3/AdaDoom3
 https://github.com/AdamsLair/duality
+https://github.com/adriengivry/Overload
+https://github.com/aloisdeniel/awesome-monogame
 https://github.com/Alzter/TuxBuilder
 https://github.com/amerkoleci/Vortice.Windows
 https://github.com/arturkot/the-house-game
@@ -216,6 +213,7 @@ https://github.com/CatacombGames/
 https://github.com/cflewis/Infinite-Mario-Bros
 https://github.com/Chluverman/android-gltron
 https://github.com/codenamecpp/carnage3d
+https://github.com/coelckers/Raze
 https://github.com/collections/game-engines (only OS)
 https://github.com/collections/javascript-game-engines (only OS)
 https://github.com/collections/pixel-art-tools (tools)
@@ -229,9 +227,11 @@ https://github.com/Cortrah/SpaceOperaDesign, https://github.com/Cortrah/SpaceOpe
 https://github.com/cping/LGame
 https://github.com/cymonsgames/CymonsGames (collection)
 https://github.com/DaanVanYperen/artemis-odb-contrib
+https://github.com/danirod/jumpdontdie
 https://github.com/David20321/7DFPS (http://www.wolfire.com/receiver, not open source, for rejected list)
 https://github.com/DeflatedPickle/FAOSDance
 https://github.com/delaford/game
+https://github.com/DethRaid/SanityEngine
 https://github.com/Donerkebap13/DonerComponents
 https://github.com/Drasky-Vanderhoff/CommonDrops
 https://github.com/EaW-Team/equestria_dev
@@ -297,8 +297,10 @@ https://github.com/morganbengtsson/mos
 https://github.com/MrFrenik/Enjon
 https://github.com/MultiCraft/MultiCraft
 https://github.com/MustaphaTR/Romanovs-Vengeance
+https://github.com/MyreMylar/pygame_gui
 https://github.com/ogarcia/opensudoku
 https://github.com/OGRECave/scape
+https://github.com/OpenHV/OpenHV
 https://github.com/OpenMandrivaAssociation
 https://github.com/OpenMandrivaAssociation/nexuiz/blob/master/nexuiz.spec
 https://github.com/OpenRA/d2
@@ -310,6 +312,7 @@ https://github.com/OSSGames (all there, but we should have them already)
 https://github.com/Patapom/GodComplex
 https://github.com/PavelDoGreat/WebGL-Fluid-Simulation
 https://github.com/perbone/luascript
+https://github.com/Phyronnaz/VoxelPlugin
 https://github.com/pixijs/pixi.js
 https://github.com/pld-linux
 https://github.com/pld-linux/nexuiz/blob/master/nexuiz.spec
@@ -323,6 +326,7 @@ https://github.com/rakugoteam/Rakugo
 https://github.com/rds1983/Myra
 https://github.com/redomar/JavaGame
 https://github.com/Renanse/Ardor3D
+https://github.com/restorer/gloomy-dungeons-2
 https://github.com/RetroAchievements/RALibretro
 https://github.com/RetroAchievements/RAWeb
 https://github.com/rizwan3d/MotoGameEngine
@@ -340,6 +344,7 @@ https://github.com/search?p=1&q=sunrider&type=Repositories, sunrider
 https://github.com/senior-sigan/WHY_CPP
 https://github.com/septag/glslcc
 https://github.com/septag/rizz
+https://github.com/sinshu/managed-doom
 https://github.com/skypjack/entt
 https://github.com/smlinux/nexuiz
 https://github.com/SPC-Some-Polish-Coders/PopHead
@@ -395,6 +400,7 @@ https://libregamewiki.org/index.php?title=Libregamewiki_talk:Community_Portal&ol
 https://libregamewiki.org/Libregamewiki:Suggested_games#Likely_sources_for_more_free_games
 https://lmemsm.dreamwidth.org/8013.html (List of some of my favorite Open Source games)
 https://love2d.org/forums/viewforum.php?f=14 (check them if time)
+https://notabug.org/Calinou/awesome-gamedev#games
 https://odr.chalmers.se/handle/20.500.12380/219006
 https://osdn.net/softwaremap/trove_list.php?form_cat=80
 https://packages.debian.org/sid/games/etw
@@ -486,6 +492,7 @@ https://www.moddb.com/engines/sage-strategy-action-game-engine
 https://www.moddb.com/mods/ (search for all)
 https://www.musztardasarepska.pl/wgdown/
 https://www.ness-engine.com/
+https://www.old-games.ru/forum/threads/nekommercheskie-analogi-izvestnyx-igr.40868/page-9
 https://www.openhub.net/ (search for games)
 https://www.phpbb.com/
 https://www.piston.rs/

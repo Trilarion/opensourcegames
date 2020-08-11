@@ -34,8 +34,8 @@ def download_lgw_content():
     while True:
         text = requests.get(url).text
         soup = BeautifulSoup(text, 'html.parser')
-        #categories = soup.find('div', id='mw-subcategories').find_all('li')
-        #categories = [(x.a['href'], x.a.string) for x in categories]
+        # categories = soup.find('div', id='mw-subcategories').find_all('li')
+        # categories = [(x.a['href'], x.a.string) for x in categories]
 
         # game pages
         pages = soup.find('div', id='mw-pages').find_all('li')
@@ -89,7 +89,7 @@ def parse_lgw_content():
         entry['external links'] = links
 
         # get meta description
-        description = soup.find('meta', attrs={"name":"description"})
+        description = soup.find('meta', attrs={"name": "description"})
         entry['description'] = description['content']
 
         # parse gameinfobox
@@ -138,7 +138,7 @@ def parse_lgw_content():
             if 'Games' not in categories:
                 print(' "Games" not in categories')
             else:
-                categories.remove('Games') # should be there
+                categories.remove('Games')  # should be there
             # strip games at the end
             phrase = ' games'
             categories = [x[:-len(phrase)] if x.endswith(phrase) else x for x in categories]
@@ -147,7 +147,6 @@ def parse_lgw_content():
         entry['categories'] = categories
 
         entries.append(entry)
-
 
     # save entries
     text = json.dumps(entries, indent=1)
@@ -184,6 +183,7 @@ def ignore_content(entries, fields, ignored):
                     del entry[field]
         entries[index] = entry
     return entries
+
 
 def remove_prefix_suffix(entries, fields, prefixes, suffixes):
     if not isinstance(fields, tuple):
@@ -224,7 +224,7 @@ def remove_parenthized_content(entries, fields):
                 content = entry[field]
                 if not isinstance(content, list):
                     content = [content]
-                content = [re.sub(r'\([^)]*\)', '', c) for c in content] # remove parentheses content
+                content = [re.sub(r'\([^)]*\)', '', c) for c in content]  # remove parentheses content
                 content = [x.strip() for x in content]
                 content = list(set(content))
                 entry[field] = content
@@ -312,10 +312,10 @@ def clean_lgw_content():
     entries = remove_parenthized_content(entries, ('assets license', 'code language', 'code license', 'engine', 'genre', 'last active', 'library'))
     entries = remove_prefix_suffix(entries, ('code license', 'assets license'), ('"', 'GNU', ), ('"', '[3]', '[2]', '[1]', 'only'))
     entries = replace_content(entries, ('code license', 'assets license'), 'GPL', ('General Public License', ))
-    entries = replace_content(entries, ('code license', 'assets license'), 'GPL-2.0', ('GPLv2', )) # for LGW GPLv2 would be the correct writing
+    entries = replace_content(entries, ('code license', 'assets license'), 'GPL-2.0', ('GPLv2', ))  # for LGW GPLv2 would be the correct writing
     entries = replace_content(entries, ('code license', 'assets license'), 'GPL-2', ('GPLv2', 'GPL v2', 'GPL version 2.0', 'GPL 2.0', 'General Public License v2', 'GPL version 2', 'Gplv2', 'GPL 2'))
     entries = replace_content(entries, ('code license', 'assets license'), 'GPL-2', ('GPL v2 or later', 'GPL 2+', 'GPL v2+', 'GPL version 2 or later'))
-    entries = replace_content(entries, ('code license', 'assets license'), 'GPL-3.0', ('GPLv3', )) # for LGW GPLv3 would be the correct writing
+    entries = replace_content(entries, ('code license', 'assets license'), 'GPL-3.0', ('GPLv3', ))  # for LGW GPLv3 would be the correct writing
     entries = replace_content(entries, ('code license', 'assets license'), 'GPL-3', ('GPL v3', 'GNU GPL v3', 'GPL 3'))
     entries = replace_content(entries, ('code license', 'assets license'), 'GPL-3', ('GPL v3+', 'GPL v.3 or later', 'GPL v3 or later'))
     entries = replace_content(entries, ('code license', 'assets license'), 'Public domain', ('public domain', 'Public Domain'))
@@ -342,7 +342,6 @@ def clean_lgw_content():
     entries = ignore_nonnumbers(entries, 'last active')
     entries = ignore_content(entries, 'last active', ('2019', ))
     entries = ignore_content(entries, 'platform', ('DOS', ))
-
 
     # list for every unique field
     print('\nfield contents after')

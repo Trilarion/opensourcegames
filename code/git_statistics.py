@@ -1,6 +1,6 @@
 """
 takes all gits that we have in the list and checks the master branch out, then collects some statistics:
-- number of distinct comitters
+- number of distinct committers
 - list of commit dates
 - number of commits
 - language detection and lines of code counting on final state
@@ -14,7 +14,7 @@ from utils.utils import *
 if __name__ == "__main__":
 
     # paths
-    file_path  = os.path.realpath(os.path.dirname(__file__))
+    file_path = os.path.realpath(os.path.dirname(__file__))
     archives_path = os.path.join(file_path, 'git_repositories.json')
     temp_path = os.path.join(file_path, 'temp')
 
@@ -40,11 +40,10 @@ if __name__ == "__main__":
         info = subprocess_run(["git", "log", '--format="%an, %at, %cn, %ct"'])
 
         info = info.split('\n')
-        info = info[:-1] # last line is empty
+        info = info[:-1]  # last line is empty
         number_commits = len(info)
 
         info = [x.split(', ') for x in info]
-        commiters = set([x[0] for x in info])
+        committers = set([x[0] for x in info])
 
-        print(' commits: {}, commiters {}'.format(number_commits, len(commiters)))
-
+        print(' commits: {}, committers {}'.format(number_commits, len(committers)))

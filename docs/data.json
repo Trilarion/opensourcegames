@@ -9425,6 +9425,14 @@
    "<a href=\"https://github.com/les-sosna/tzod.git\">Source</a> - C++, Lua - GPL-3.0"
   ],
   [
+   "TankistOnline  (<a href=\"https://github.com/servusDei2018/TankistOnline\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/tankist_online.md\">entry</a>)",
+   "2D Tank Multiplayer Game.",
+   "",
+   "beta / active",
+   "action, multiplayer, tank",
+   "<a href=\"https://github.com/servusDei2018/TankistOnline.git\">Source</a> - Python - GPL-3.0"
+  ],
+  [
    "Tanks of Freedom (<a href=\"https://tof.p1x.in/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/tanks_of_freedom.md\">entry</a>)",
    "Indie Turn Based Strategy in Isometric Pixel Art.",
    "",

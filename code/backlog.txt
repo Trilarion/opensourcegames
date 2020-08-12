@@ -234,6 +234,7 @@ https://github.com/delaford/game
 https://github.com/DethRaid/SanityEngine
 https://github.com/Donerkebap13/DonerComponents
 https://github.com/Drasky-Vanderhoff/CommonDrops
+https://github.com/Dzierzan/OpenSA
 https://github.com/EaW-Team/equestria_dev
 https://github.com/ec-/Quake3e
 https://github.com/EliFUT/android
@@ -297,7 +298,9 @@ https://github.com/morganbengtsson/mos
 https://github.com/MrFrenik/Enjon
 https://github.com/MultiCraft/MultiCraft
 https://github.com/MustaphaTR/Romanovs-Vengeance
+https://github.com/MyGUI/mygui
 https://github.com/MyreMylar/pygame_gui
+https://github.com/nCine/nCine
 https://github.com/ogarcia/opensudoku
 https://github.com/OGRECave/scape
 https://github.com/OpenHV/OpenHV
@@ -365,6 +368,7 @@ https://github.com/TomBebb/awe
 https://github.com/topics/top-down-shooter
 https://github.com/untakenstupidnick/nbsdgames (Blockout II)
 https://github.com/untakenstupidnick/nbsdgames (Cross-platform ncurses/pdcurses based games under active development)
+https://github.com/UnterrainerInformatik/GameDevelopmentLinks
 https://github.com/Venom0us/Emberpoint
 https://github.com/videogamepreservation
 https://github.com/vocollapse/Blockinger

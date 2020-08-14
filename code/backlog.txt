@@ -157,6 +157,7 @@ https://eblong.com/zarf/twilight/index.html
 https://edu.kde.org/
 https://empiredirectory.net/
 https://empiredirectory.net/index.php/downloads/viewdownload/6-server-software/13-empire-server
+https://emulation.gametechwiki.com/index.php/Main_Page
 https://en.wikipedia.org/w/index.php?title=GNU_Backgammon&action=edit&redlink=1
 https://en.wikipedia.org/w/index.php?title=Golden_Age_of_Civilizations&action=edit&redlink=1
 https://en.wikipedia.org/w/index.php?title=Kdegames&action=edit&redlink=1
@@ -223,6 +224,7 @@ https://github.com/collections/tools-for-open-source (maybe we can apply some)
 https://github.com/collections/web-games (only OS)
 https://github.com/collinhover/kaiopua
 https://github.com/cookgreen/Yuris-Revenge
+https://github.com/corewar/corewar.io
 https://github.com/Cortrah/SpaceOperaDesign, https://github.com/Cortrah/SpaceOperaRuby/blob/master/design/turnstyles.md
 https://github.com/cping/LGame
 https://github.com/cymonsgames/CymonsGames (collection)
@@ -286,6 +288,7 @@ https://github.com/libretro/libretro-chailove
 https://github.com/libretro/libretro-prboom
 https://github.com/ligurio/awesome-ttygames
 https://github.com/luciopanepinto/pacman
+https://github.com/luciusDXL/TheForceEngine
 https://github.com/MarcoLizza/tofu-engine
 https://github.com/MarilynDafa/Bulllord-Engine
 https://github.com/MatthewTheGlutton/HideousDestructor
@@ -301,6 +304,7 @@ https://github.com/MustaphaTR/Romanovs-Vengeance
 https://github.com/MyGUI/mygui
 https://github.com/MyreMylar/pygame_gui
 https://github.com/nCine/nCine
+https://github.com/Noesis/UE4-ShooterGame
 https://github.com/ogarcia/opensudoku
 https://github.com/OGRECave/scape
 https://github.com/OpenHV/OpenHV
@@ -325,6 +329,7 @@ https://github.com/prime31/Nez-Samples
 https://github.com/psuong/ig-developer-console
 https://github.com/qiciengine/qiciengine
 https://github.com/Quaver/Wobble
+https://github.com/quinnvoker/qurobullet
 https://github.com/rakugoteam/Rakugo
 https://github.com/rds1983/Myra
 https://github.com/redomar/JavaGame
@@ -366,6 +371,7 @@ https://github.com/Tinob/Ishiiruka (https://github.com/shiiion/Ishiiruka, https:
 https://github.com/tizian/Cendric2
 https://github.com/TomBebb/awe
 https://github.com/topics/top-down-shooter
+https://github.com/uberspot/2048-android
 https://github.com/untakenstupidnick/nbsdgames (Blockout II)
 https://github.com/untakenstupidnick/nbsdgames (Cross-platform ncurses/pdcurses based games under active development)
 https://github.com/UnterrainerInformatik/GameDevelopmentLinks

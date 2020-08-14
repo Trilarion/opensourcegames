@@ -2,7 +2,7 @@
 
 _2D physics engine for games._
 
-- Home: http://box2d.org/
+- Home: https://box2d.org/
 - State: mature
 - Keywords: library
 - Code repository: https://github.com/erincatto/Box2D.git

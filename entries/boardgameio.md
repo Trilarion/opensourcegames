@@ -6,12 +6,12 @@ _Engine for turn based games._
 - State: beta
 - Platform: Web
 - Keywords: strategy, game engine, turn-based
-- Code repository: https://github.com/nicolodavis/boardgame.io.git
+- Code repository: https://github.com/boardgameio/boardgame.io.git
 - Code language: JavaScript, TypeScript
 - Code license: MIT
 
 Notable probjects: https://boardgame.io/documentation/#/notable_projects
-Platform: https://github.com/freeboardgame/FreeBoardGame.org
+Platform: https://github.com/freeboardgames/FreeBoardGames.org
 
 ## Building
 

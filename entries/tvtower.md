@@ -3,7 +3,7 @@
 _A fan remake of MadTV._
 
 - Home: http://www.tvgigant.de/
-- Media: https://en.wikipedia.org/wiki/Mad_TV_(video_game)#Remakes
+- Media: <https://en.wikipedia.org/wiki/Mad_TV_(video_game)#Remakes>
 - State: mature
 - Download: (see home)
 - Keywords: strategy, inspired by Mad TV, remake

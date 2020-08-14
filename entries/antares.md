@@ -2,7 +2,7 @@
 
 _Port of the original Ares code base that was open sourced in 2008._
 
-- Home: https://arescentral.org/antares/
+- Home: https://arescentral.org/antares
 - State: beta
 - Download: (see home)
 - Keywords: strategy, inspired by Ares, real time, remake, shooter

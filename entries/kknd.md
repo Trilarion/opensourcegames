@@ -3,7 +3,7 @@
 _Remake of Krush, Kill 'n' Destroy._
 
 - Home: https://www.kknd-game.com/
-- Media: https://en.wikipedia.org/wiki/KKnD_(video_game)#Open_source_remake
+- Media: <https://en.wikipedia.org/wiki/KKnD_(video_game)#Open_source_remake>
 - State: beta
 - Download: https://www.kknd-game.com/download
 - Platform: Windows, Linux, macOS

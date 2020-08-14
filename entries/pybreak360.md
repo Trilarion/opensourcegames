@@ -2,7 +2,7 @@
 
 _Clone of Arkanoid._
 
-- Home: http://sourceforge.net/projects/pybreak360/
+- Home: https://sourceforge.net/projects/pybreak360/
 - Media: https://en.wikipedia.org/wiki/Arkanoid#Legacy
 - State: mature, inactive since 2015
 - Download: https://sourceforge.net/projects/pybreak360/files/

@@ -2,7 +2,7 @@
 
 _Clone of Snake._
 
-- Home: http://gustysserpents.sourceforge.net/, http://sourceforge.net/projects/gustysserpents/
+- Home: http://gustysserpents.sourceforge.net/, https://sourceforge.net/projects/gustysserpents/
 - State: beta, inactive since 2014
 - Download: http://gustysserpents.sourceforge.net/downloads.html
 - Platform: Windows

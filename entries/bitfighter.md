@@ -2,7 +2,7 @@
 
 _Bitfighter is an outer-space combat action game. There are difference ways of playing such as space exploration for warfare and construction._
 
-- Home: http://bitfighter.org/, https://code.google.com/p/bitfighter
+- Home: http://bitfighter.org/, https://web.archive.org/web/20141227065326/http://code.google.com/p/bitfighter/
 - State: mature
 - Download: http://bitfighter.org/downloads/
 - Platform: Windows, Linux, macOS

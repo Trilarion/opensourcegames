@@ -3,7 +3,7 @@
 _Remake of Head over Heels._
 
 - Home: https://github.com/dougmencken/HeadOverHeels, http://www.headoverheels2.com/drupal/en/
-- Media: https://en.wikipedia.org/wiki/Head_Over_Heels_(video_game)#Legacy (this could be added)
+- Media: <https://en.wikipedia.org/wiki/Head_Over_Heels_(video_game)#Legacy> (this could be added)
 - State: mature
 - Download: http://www.headoverheels2.com/drupal/en/node/161
 - Platform: Windows, Linux

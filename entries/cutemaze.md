@@ -2,7 +2,7 @@
 
 _Maze puzzle game._
 
-- Home: http://gottcode.org/cutemaze/
+- Home: https://gottcode.org/cutemaze/
 - State: mature
 - Keywords: puzzle
 - Code repository: (see home)

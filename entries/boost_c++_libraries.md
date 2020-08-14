@@ -2,10 +2,10 @@
 
 _Boost provides free peer-reviewed portable C++ source libraries._
 
-- Home: http://www.boost.org/
+- Home: https://www.boost.org/
 - Media: <https://en.wikipedia.org/wiki/Boost_(C%2B%2B_libraries)>
 - State: mature
-- Download: http://www.boost.org/users/download/
+- Download: https://www.boost.org/users/download/
 - Keywords: library
 - Code repository: https://github.com/boostorg/boost.git
 - Code language: C++

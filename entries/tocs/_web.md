@@ -23,6 +23,7 @@
 - **[Executive Man](../executive_man.md)** (JavaScript, Custom, mature, inactive since 2017)
 - **[F.LF](../flf.md)** (JavaScript, CC-BY-SA-NC-3.0, mature)
 - **[Fantasy Map Generator](../fantasy_map_generator.md)** (JavaScript, MIT, mature)
+- **[Faur](../faur.md)** (C, Python, C++, GPL-3.0, beta)
 - **[flixel-gdx](../flixel-gdx.md)** (Java, 3-clause BSD, beta, inactive since 2017)
 - **[gist-txt](../gist-txt.md)** (JavaScript, MIT, mature, inactive since 2018)
 - **[GNU FreeDink](../gnu_freedink.md)** (C, GPL-3.0, mature, inactive since 2012)

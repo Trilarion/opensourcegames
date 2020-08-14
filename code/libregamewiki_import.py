@@ -295,7 +295,9 @@ def clean_lgw_content():
 
     # statistics before
     print('field contents before')
-    fields = sorted(list(unique_fields - set(('description', 'external links', 'dev home', 'forum', 'home', 'linux-packages', 'developer', 'chat', 'tracker', 'Latest release', 'name', 'repo', 'Release date', 'categories'))))
+    fields = sorted(list(unique_fields - {'description', 'external links', 'dev home', 'forum', 'home',
+                                          'linux-packages', 'developer', 'chat', 'tracker', 'Latest release', 'name',
+                                          'repo', 'Release date', 'categories'}))
     for field in fields:
         content = [entry[field] for entry in entries if field in entry]
         # flatten
@@ -345,7 +347,9 @@ def clean_lgw_content():
 
     # list for every unique field
     print('\nfield contents after')
-    fields = sorted(list(unique_fields - set(('description', 'external links', 'dev home', 'forum', 'home', 'linux-packages', 'developer', 'chat', 'tracker', 'Latest release', 'name', 'repo', 'Release date', 'categories'))))
+    fields = sorted(list(unique_fields - {'description', 'external links', 'dev home', 'forum', 'home',
+                                          'linux-packages', 'developer', 'chat', 'tracker', 'Latest release', 'name',
+                                          'repo', 'Release date', 'categories'}))
     for field in fields:
         content = [entry[field] for entry in entries if field in entry]
         # flatten

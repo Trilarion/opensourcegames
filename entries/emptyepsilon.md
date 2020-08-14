@@ -15,4 +15,4 @@ _Clone of Artemis: Spaceship Bridge Simulator._
 ## Building
 
 - Build system: CMake
-- Build instructions: https://github.com/daid/EmptyEpsilon/wiki/Build-from-sources
+- Build instructions: https://github.com/daid/EmptyEpsilon/wiki/Build

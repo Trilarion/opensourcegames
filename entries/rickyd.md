@@ -2,7 +2,7 @@
 
 _Remake of Rick Dangerous._
 
-- Home: http://sourceforge.net/projects/rickyd/
+- Home: https://sourceforge.net/projects/rickyd/
 - State: beta
 - Download: https://sourceforge.net/projects/rickyd/files/
 - Keywords: remake, inspired by Rick Dangerous

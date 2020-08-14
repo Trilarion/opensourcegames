@@ -2,12 +2,12 @@
 
 _Remake of Runescape Classic._
 
-- Home: https://2006rebotted.tk
+- Home: https://rsrebotted.com/, https://web.archive.org/web/20200211143757/http://2006rebotted.tk/
 - Media: https://runescape.fandom.com/wiki/RuneScape_Classic
 - State: mature
-- Download: https://github.com/dginovker/2006rebotted/releases
+- Download: https://github.com/2006rebotted/2006rebotted/releases
 - Keywords: role playing, commercial content, inspired by Runescape Classic, multiplayer online + co-op, remake
-- Code repository: https://github.com/dginovker/2006rebotted.git
+- Code repository: https://github.com/2006rebotted/2006rebotted.git
 - Code language: Java
 - Code license: 2-clause BSD
 - Developer: Daniel Ginovker

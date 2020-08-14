@@ -10,7 +10,7 @@ _Two or more battle programs (called "warriors") compete for control of a virtua
 - Code language: C, Java
 - Code license: GPL-2.0 (C part), 2-clause BSD (Java part)
 
-See also [SDL pMars](https://corewar.co.uk/pihlaja/pmars-sdl/index.htm), [corewar.io](https://www.corewar.io/) with [sources on Github](https://github.com/gareththegeek/corewar)
+See also [SDL pMars](https://corewar.co.uk/pihlaja/pmars-sdl/index.htm), [corewar.io](https://www.corewar.io/) with [sources on Github](https://github.com/corewar/corewar)
 
 ## Building
 

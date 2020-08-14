@@ -2,9 +2,9 @@
 
 _Remake of Tempest._
 
-- Home: https://stephank.github.io/arashi-js/
+- Home: http://stephank.github.io/arashi-js/
 - State: beta, inactive since 2010
-- Play: http://stephank.github.com/arashi-js/
+- Play: http://stephank.github.io/arashi-js/
 - Platform: Web
 - Keywords: remake, inspired by Tempest, shooter
 - Code repository: https://github.com/stephank/arashi-js.git

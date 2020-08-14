@@ -2,7 +2,7 @@
 
 _Top down shooter._
 
-- Home: https://github.com/jazztickets/emptyclip, http://emptyclip.sourceforge.net/, http://sourceforge.net/projects/emptyclip
+- Home: https://github.com/jazztickets/emptyclip, http://emptyclip.sourceforge.net/, https://sourceforge.net/projects/emptyclip/
 - State: mature
 - Platform: Linux
 - Keywords: role playing, 2D, shooter, top-down

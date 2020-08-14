@@ -2,7 +2,7 @@
 
 _Civitas is a city building game for kids._
 
-- Home: http://sourceforge.net/projects/civitas/, http://cosmopolita.conexum.com.br/ (Portoguese)
+- Home: http://sourceforge.net/projects/civitas/, https://www.conexum.com.br/cosmopolita/ (Portoguese)
 - State: beta, inactive since 2017
 - Download: https://sourceforge.net/projects/civitas/files/
 - Keywords: simulation, city building, for kids, online

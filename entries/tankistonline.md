@@ -1,4 +1,4 @@
-# TankistOnline 
+# TankistOnline
 
 _2D tank battle game._
 

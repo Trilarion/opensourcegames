@@ -2,7 +2,7 @@
 
 _Sudoku game._
 
-- Home: http://gottcode.org/simsu/
+- Home: https://gottcode.org/simsu/
 - State: mature
 - Platform: Windows, Linux, macOS
 - Keywords: puzzle, sudoku

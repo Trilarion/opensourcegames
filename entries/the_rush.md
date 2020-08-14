@@ -2,7 +2,7 @@
 
 _Clone of Wipeout._
 
-- Home: http://sourceforge.net/projects/therush/
+- Home: https://sourceforge.net/projects/therush/
 - State: beta, inactive since 2011
 - Download: https://sourceforge.net/projects/therush/files/therush/Release/
 - Keywords: arcade, clone, inspired by Wipeout, racing

@@ -3,7 +3,7 @@
 _Event-driven networking engine._
 
 - Home: https://twistedmatrix.com/trac/
-- Media: https://en.wikipedia.org/wiki/Twisted_(software)
+- Media: <https://en.wikipedia.org/wiki/Twisted_(software)>
 - State: mature
 - Download: https://pypi.org/project/Twisted/
 - Platform: Windows, Linux

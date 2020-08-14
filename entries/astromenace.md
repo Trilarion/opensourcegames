@@ -4,7 +4,7 @@ _3D space scroll-shooter with spaceship upgrade possibilities._
 
 - Home: https://www.viewizard.com/, https://sourceforge.net/projects/openastromenace/
 - State: mature
-- Download: https://www.viewizard.com/download.html
+- Download: https://viewizard.com/download.html
 - Keywords: action, inspired by AstroMenace, remake, shooter
 - Code repository: https://github.com/viewizard/astromenace.git
 - Code language: C++, C

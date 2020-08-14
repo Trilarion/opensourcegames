@@ -3,7 +3,7 @@
 _Remake of Postal._
 
 - Home: https://bitbucket.org/account/user/gopostal/projects/P1OS
-- Media: https://en.wikipedia.org/wiki/Postal_(video_game)#Open_source
+- Media: <https://en.wikipedia.org/wiki/Postal_(video_game)#Open_source>
 - State: beta, inactive since 2018
 - Keywords: remake, commercial content, inspired by Postal, requires original content, shooter
 - Code repository: https://bitbucket.org/gopostal/postal-1-open-source (hg)

@@ -87,14 +87,16 @@ known_multiplayer_modes = (
     'competitive', 'co-op', 'hotseat', 'LAN', 'local', 'massive', 'matchmaking', 'online', 'split-screen')
 
 # TODO put the abbreviations directly in the name line (parenthesis maybe), that is more natural
-code_dependencies_aliases = {'Simple DirectMedia Layer': ('SDL', 'SDL2'), 'Simple and Fast Multimedia Library': 'SFML',
-                             'Boost (C++ Libraries)': 'Boost', 'SGE Game Engine': 'SGE'}
+code_dependencies_aliases = {'Simple DirectMedia Layer': ('SDL', 'SDL2'), 'Simple and Fast Multimedia Library': ('SFML',),
+                             'Boost (C++ Libraries)': ('Boost',), 'SGE Game Engine': ('SGE',), 'MegaGlest': ('MegaGlest Engine',)}
 code_dependencies_without_entry = {'OpenGL': 'https://www.opengl.org/',
                                    'GLUT': 'https://www.opengl.org/resources/libraries/',
                                    'WebGL': 'https://www.khronos.org/webgl/',
                                    'Unity': 'https://unity.com/solutions/game',
                                    '.NET': 'https://dotnet.microsoft.com/', 'Vulkan': 'https://www.khronos.org/vulkan/',
-                                   'KDE Frameworks': 'https://kde.org/products/frameworks/'}
+                                   'KDE Frameworks': 'https://kde.org/products/frameworks/',
+                                   'jQuery': 'https://jquery.com/',
+                                   'node.js': 'https://nodejs.org/en/'}
 
 regex_sanitize_name = re.compile(r"[^A-Za-z 0-9-+]+")
 regex_sanitize_name_space_eater = re.compile(r" +")

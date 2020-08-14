@@ -2,7 +2,7 @@
 
 _Remake of Theme Park._
 
-- Home: http://sourceforge.net/projects/tpb3d/
+- Home: https://sourceforge.net/projects/tpb3d/
 - State: beta, inactive since 2013
 - Download: https://sourceforge.net/projects/tpb3d/files/tpb3d/
 - Keywords: simulation, inspired by Theme Park, remake

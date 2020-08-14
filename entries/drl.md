@@ -3,7 +3,7 @@
 _Fast and furious coffee-break Roguelike game that is heavily inspired by Doom._
 
 - Home: https://drl.chaosforge.org/
-- Media: https://en.wikipedia.org/wiki/DRL_(video_game)
+- Media: <https://en.wikipedia.org/wiki/DRL_(video_game)>
 - State: mature
 - Download: https://drl.chaosforge.org/downloads
 - Platform: Windows, Linux, macOS

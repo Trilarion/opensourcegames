@@ -3,7 +3,7 @@
 _Enhanced clone of Atari's 1979 Asteroids arcade game with a visual style similar to Atari's 1987 sequel, Blasteroids._
 
 - Home: https://www.libsdl.org/projects/Maelstrom/
-- Media: https://en.wikipedia.org/wiki/Maelstrom_(1992_video_game)
+- Media: <https://en.wikipedia.org/wiki/Maelstrom_(1992_video_game)>
 - State: mature, inactive since 2002
 - Download: https://www.libsdl.org/projects/Maelstrom/binary.html
 - Platform: Windows, Linux, macOS

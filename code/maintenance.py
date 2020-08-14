@@ -9,6 +9,7 @@
 """
 
 import urllib.request
+import requests
 import http.client
 import datetime
 import json
@@ -137,52 +138,57 @@ def check_validity_external_links():
     from time to time.
     """
 
-    # TODO check if links are occurring in multiple entries, first go through all entries and find all links, then check links for multiple entries, then check links, follow redirects
-
-    print("check external links (can take a while)")
+    # TODO Gitorius works in principle but onyl without SSL verify (requests probably can do that)
 
     # regex for finding urls (can be in <> or in ]() or after a whitespace
     regex = re.compile(r"[\s\n]<(http.+?)>|\]\((http.+?)\)|[\s\n](http[^\s\n,]+?)[\s\n\)]")
-    # regex = re.compile(r"[\s\n<(](http://.*?)[\s\n>)]")
 
-    # count
-    number_checked_links = 0
+    # ignore the following patterns (they give false positives here)
+    ignored_urls = ('https://git.tukaani.org/xz.git', 'https://git.code.sf.net/p/')
 
-    # ignore the following urls (they give false positives here)
-    ignored_urls = ('https://git.tukaani.org/xz.git',)
-
-    # iterate over all entries
-    for _, entry_path, content in osg.entry_iterator():
-
+    # extract all links from entries
+    urls = {}
+    for entry, _, content in osg.entry_iterator():
         # apply regex
         matches = regex.findall(content)
-
         # for each match
         for match in matches:
-
-            # for each possible clause
             for url in match:
+                if url and not any((url.startswith(x) for x in ignored_urls)):
+                    # github and gitlab git URLs are shortened to not contain .git
+                    if any((url.startswith(x) for x in ('https://github.com/', 'https://gitlab.com/', 'https://salsa.debian.org/', 'https://src.fedoraproject.org/', 'https://gitlab.gnome.org/GNOME/'))) and url.endswith('.git'):
+                        url = url[:-4]
+                    if url.startswith('https://svn.code.sf.net/p/') and url.endswith('code'):
+                        url = url + '/'
+                    if url.startswith('https://bitbucket.org/') and url.endswith('.git'):
+                        url = url[:-4] + '/commits/'
+                    if url.startswith('https://svn.code.sf.net/p/'):
+                        url = 'http' + url[5:]
+                    if url.startswith('https://git.savannah.gnu.org/git/'):
+                        url = url + '/'
 
-                # if there was something (and not a sourceforge git url)
-                if url and not url.startswith('https://git.code.sf.net/p/') and url not in ignored_urls:
-                    try:
-                        # without a special header, frequent 403 responses occur
-                        req = urllib.request.Request(url,
-                                                     headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64)'})
-                        urllib.request.urlopen(req)
-                    except urllib.error.HTTPError as e:
-                        print("{}: {} - {}".format(os.path.basename(entry_path), url, e.code))
-                    except urllib.error.URLError as e:
-                        print("{}: {} - {}".format(os.path.basename(entry_path), url, e.reason))
-                    except http.client.RemoteDisconnected:
-                        print("{}: {} - disconnected without response".format(os.path.basename(entry_path), url))
+                    if url in urls:
+                        urls[url].add(entry)
+                    else:
+                        urls[url] = {entry}
+        print('found {} unique links'.format(len(urls)))
+        print("start checking external links (can take a while)")
 
-                    number_checked_links += 1
-
-                    if number_checked_links % 50 == 0:
-                        print("{} links checked".format(number_checked_links))
-
-    print("{} links checked".format(number_checked_links))
+    # now iterate over all urls
+    for index, url in enumerate(urls.keys()):
+        try:
+            r = requests.head(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64)'}, timeout=10, allow_redirects=True)
+            # check for bad status
+            if r.status_code != requests.codes.ok:
+                print('{}: URL {} in entry {} has status {}'.format(index, url, urls[url], r.status_code))
+            # check for redirect
+            if r.history:
+                print('{}: URL {} in entry {} was redirected to {}'.format(index, url, urls[url], r.url))
+        except Exception as e:
+            print('{}: URL {} in entry {} gave error {}'.format(index, url, urls[url], e))
+        # print regular updates
+        if index > 0 and index % 100 == 0:
+            print('{} / {}'.format(index, len(urls)))
 
 
 def check_template_leftovers():
@@ -915,31 +921,35 @@ def check_code_dependencies(infos):
 
     """
 
-    # get all names
-    names = [x['name'] for x in infos]
+    # get all names of frameworks and library also using osg.code_dependencies_aliases
+    valid_dependencies = list(osg.code_dependencies_without_entry.keys())
+    for info in infos:
+        if any((x in ('framework', 'library', 'game engine') for x in info['keywords'])):
+            name = info['name']
+            if name in osg.code_dependencies_aliases:
+                valid_dependencies.extend(osg.code_dependencies_aliases[name])
+            else:
+                valid_dependencies.append(name)
 
-    # TODO get all names of frameworks and libraries only and use osg.code_dependencies_aliases
-
-    # get all code dependencies
-    dependencies = {}
+    # get all referenced code dependencies
+    referenced_dependencies = {}
     for info in infos:
         deps = info.get('code dependencies', [])
         for dependency in deps:
-            if dependency in dependencies:
-                dependencies[dependency] += 1
+            if dependency in referenced_dependencies:
+                referenced_dependencies[dependency] += 1
             else:
-                dependencies[dependency] = 1
+                referenced_dependencies[dependency] = 1
 
-    # delete those that are in names
-    dependencies = [(k, v) for k, v in dependencies.items() if
-                    k not in names and k not in osg.code_dependencies_without_entry]
+    # delete those that are valid dependencies
+    referenced_dependencies = [(k, v) for k, v in referenced_dependencies.items() if k not in valid_dependencies]
 
     # sort by number
-    dependencies.sort(key=lambda x: x[1], reverse=True)
+    referenced_dependencies.sort(key=lambda x: x[1], reverse=True)
 
     # print out
     print('Code dependencies not included as entry')
-    for dep in dependencies:
+    for dep in referenced_dependencies:
         print('{} ({})'.format(*dep))
 
 
@@ -947,7 +957,7 @@ if __name__ == "__main__":
 
     # check_validity_backlog()
 
-    # backlog
+    # clean backlog
     game_urls = osg.extract_links()
     text = utils.read_text(os.path.join(c.root_path, 'code', 'rejected.txt'))
     regex = re.compile(r"\((http.*?)\)", re.MULTILINE)
@@ -984,10 +994,10 @@ if __name__ == "__main__":
     update_statistics(infos)
 
     # update inspirations
-    update_inspirations(infos)
+    # update_inspirations(infos)
 
     # update developers
-    update_developer(infos)
+    # update_developer(infos)
 
     # update database for html table
     export_json(infos)
@@ -999,11 +1009,10 @@ if __name__ == "__main__":
     check_code_dependencies(infos)
 
     # collect list of git code repositories (only one per project) for git_statistics script
-    # export_git_code_repositories_json()
+    export_git_code_repositories_json()
 
     # check external links (only rarely)
     # check_validity_external_links()
 
-    # sort backlog and rejected
-    # sort_text_file(os.path.join(c.root_path, 'code', 'backlog.txt'), 'backlog')
+    # sort rejected games list file
     sort_text_file(os.path.join(c.root_path, 'code', 'rejected.txt'), 'rejected games list')

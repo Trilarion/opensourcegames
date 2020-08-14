@@ -3,7 +3,7 @@
 _Part puzzle game, part action game, and entirely a test of skill._
 
 - Home: https://neverball.org/, https://web.archive.org/web/20090105213528/http://icculus.org/neverball/
-- Media: https://en.wikipedia.org/wiki/Super_Monkey_Ball_(video_game)#Legacy
+- Media: <https://en.wikipedia.org/wiki/Super_Monkey_Ball_(video_game)#Legacy>
 - State: mature
 - Download: https://neverball.org/download.php
 - Platform: Windows, macOS

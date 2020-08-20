@@ -2,9 +2,8 @@
 
 _Tool of Grand Theft Auto: San Andreas._
 
-- Home: http://www.gritengine.com/
+- Home: https://github.com/grit-engine/grit-engine, https://web.archive.org/web/20190902110513/http://www.gritengine.com/
 - State: beta
-- Download: http://www.gritengine.com/download
 - Keywords: game engine, commercial content, framework, inspired by Grand Theft Auto: San Andreas
 - Code repository: https://github.com/grit-engine/grit-engine.git
 - Code language: C++, Python

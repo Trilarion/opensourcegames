@@ -1,6 +1,6 @@
 # kiki the nano bot
 
-_3-D puzzle game, a mixture of the games Sokoban and Kula-World._
+_3D puzzle game, a mixture of the games Sokoban and Kula-World._
 
 - Home: http://kiki.sourceforge.net/, https://sourceforge.net/projects/kiki/
 - Media: https://en.wikipedia.org/wiki/Kiki_the_nano_bot

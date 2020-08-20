@@ -4,7 +4,7 @@ _2D graphical game that combines aspects of roguelikes and sandbox games like Mi
 
 - Home: https://rogueboxadventures.tuxfamily.org/
 - State: mature, inactive since 2017
-- Download: https://rogueboxadventures.tuxfamily.org/download.htm
+- Download: https://rogueboxadventures.tuxfamily.org/download.html
 - Platform: Windows, Linux
 - Keywords: role playing, open content, roguelike
 - Code repository: https://git.tuxfamily.org/rba/rogueboxadventures.git

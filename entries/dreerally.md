@@ -2,7 +2,7 @@
 
 _Death Rally engine reimplementation._
 
-- Home: http://dreerally.com/
+- Home: https://dreerally.com/
 - State: beta
 - Keywords: game engine, commercial content, inspired by Death Rally, remake, requires original content
 - Code repository: https://github.com/enriquesomolinos/DreeRally.git

@@ -2,7 +2,7 @@
 
 _Universe Simulator._
 
-- Home: http://github.com/movitto/omega
+- Home: https://github.com/movitto/omega
 - State: beta
 - Keywords: strategy, open content, real time, space
 - Code repository: https://github.com/movitto/omega.git

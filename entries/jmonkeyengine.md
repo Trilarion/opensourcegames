@@ -2,7 +2,7 @@
 
 _Game engine, made especially for Java game developers who want to create 3D games._
 
-- Home: http://jmonkeyengine.org/
+- Home: https://jmonkeyengine.org/
 - Media: https://en.wikipedia.org/wiki/JMonkeyEngine
 - State: mature
 - Download: https://github.com/jMonkeyEngine/sdk/releases

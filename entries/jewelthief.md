@@ -6,7 +6,7 @@ _Remake of Jewel Thief._
 - State: mature, inactive since 2016
 - Platform: Android
 - Keywords: arcade, inspired by Jewel Thief, remake
-- Code repository: https://github.com/frittatenbank/jewelthief.git
+- Code repository: https://github.com/cdetamble/jewelthief.git
 - Code language: Java
 - Code license: GPL-3.0
 - Code dependencies: libGDX

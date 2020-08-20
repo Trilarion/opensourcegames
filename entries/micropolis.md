@@ -2,7 +2,7 @@
 
 _Micropolis is the open source version of SimCity Classic from Maxis._
 
-- Home: http://micropolisonline.com/
+- Home: https://micropolisonline.com/
 - Media: <https://en.wikipedia.org/wiki/SimCity_(1989_video_game)#Micropolis>
 - State: mature, inactive since 2015
 - Keywords: simulation, clone, inspired by Simcity, online

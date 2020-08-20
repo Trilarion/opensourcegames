@@ -1,6 +1,6 @@
 # Blitwizard
 
-_2d engine that runs Lua scripts._
+_2D engine that runs Lua scripts._
 
 - Home: https://github.com/jtc0de/Blitwizard
 - State: beta, inactive since 2015

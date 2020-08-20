@@ -2,7 +2,7 @@
 
 _Remake of Deflektor._
 
-- Home: http://www.artsoft.org/mirrormagic/
+- Home: https://www.artsoft.org/mirrormagic/
 - Media: https://en.wikipedia.org/wiki/Deflektor
 - State: mature
 - Keywords: puzzle, inspired by Deflektor, remake

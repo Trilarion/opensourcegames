@@ -2,9 +2,9 @@
 
 _Clone of Thief._
 
-- Home: http://www.thedarkmod.com/
+- Home: https://www.thedarkmod.com/
 - State: mature
-- Download: http://www.thedarkmod.com/downloads/
+- Download: https://www.thedarkmod.com/downloads/
 - Platform: Windows, Linux
 - Keywords: role playing, clone, inspired by Thief
 - Code repository: https://svn.thedarkmod.com/publicsvn/darkmod_src/ (svn)

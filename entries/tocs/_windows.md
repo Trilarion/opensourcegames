@@ -19,7 +19,7 @@
 - **[Aussenposten](../aussenposten.md)** (JavaScript, MIT, beta, inactive since 2015)
 - **[Azimuth](../azimuth.md)** (C, GPL-3.0, mature)
 - **[Battle Tanks](../battle_tanks.md)** (C++, GPL-2.0, mature, inactive since 2009)
-- **[Berusky](../berusky.md)** (C++, GPL-3.0, mature, inactive since 2013)
+- **[Berusky](../berusky.md)** (C++, GPL-3.0, mature)
 - **[Biniax](../biniax.md)** (C, zlib, mature, inactive since 2012)
 - **[Bitfighter](../bitfighter.md)** (C, C++, GPL-2.0, mature)
 - **[Blackvoxel](../blackvoxel.md)** (C++, GPL-3.0, mature)

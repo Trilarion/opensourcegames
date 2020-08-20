@@ -2,7 +2,7 @@
 
 _Clone of Super Hexagon._
 
-- Home: http://vittorioromeo.info/projects.html
+- Home: https://vittorioromeo.info/projects.html
 - State: mature
 - Keywords: puzzle, clone, inspired by Super Hexagon
 - Code repository: https://github.com/SuperV1234/SSVOpenHexagon.git

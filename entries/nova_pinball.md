@@ -2,7 +2,7 @@
 
 _Pinball game._
 
-- Home: http://wesleywerner.github.io/nova-pinball/
+- Home: https://engrams.dev/nova-pinball/
 - State: beta, inactive since 2017
 - Download: https://github.com/wesleywerner/nova-pinball/releases
 - Platform: Windows, Linux, macOS, Android, iOS (via LÖVE)

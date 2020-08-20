@@ -2,7 +2,7 @@
 
 _A tabletop roleplaying game (or RPG) in which the players play the part of mighty heroes and wicked villains in order to tell stories of epic proportion._
 
-- Home: http://www.openlegendrpg.com/
+- Home: https://openlegendrpg.com
 - State: mature
 - Keywords: role playing, board, ruleset
 - Code repository: https://github.com/openlegend/core-rules.git

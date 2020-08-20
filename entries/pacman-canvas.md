@@ -2,9 +2,9 @@
 
 _Remake of Pac-Man._
 
-- Home: http://pacman.platzh1rsch.ch/
+- Home: https://pacman.platzh1rsch.ch/
 - State: mature, inactive since 2018
-- Play: http://pacman.platzh1rsch.ch/
+- Play: (see home)
 - Platform: Web
 - Keywords: remake, inspired by Pac-Man, skill
 - Code repository: https://github.com/platzhersh/pacman-canvas.git

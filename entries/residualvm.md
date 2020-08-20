@@ -2,7 +2,7 @@
 
 _Remake of Grim Fandango, Escape from Monkey Island, Myst III: Exile._
 
-- Home: http://residualvm.org/
+- Home: https://residualvm.org/
 - State: beta
 - Download: https://www.residualvm.org/downloads/
 - Platform: Windows, macOS

@@ -6,7 +6,7 @@ _Clone of Dominion._
 - State: beta
 - Platform: Web
 - Keywords: strategy, clone, inspired by Dominion, multiplayer online, open content, text-based
-- Code repository: https://github.com/WaveHack/OpenDominion.git
+- Code repository: https://github.com/OpenDominion/OpenDominion.git
 - Code language: PHP
 - Code license: AGPL-3.0
 - Code dependencies: Laravel

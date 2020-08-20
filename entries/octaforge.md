@@ -1,6 +1,6 @@
 # Octaforge
 
-_OctaForge is a 3D game engine and a game development platform._
+_3D game engine and a game development platform._
 
 - Home: https://octaforge.org/
 - State: mature

@@ -2,10 +2,10 @@
 
 _Desktop/Android/BlackBerry/iOS/HTML5 Java game development framework._
 
-- Home: http://libgdx.badlogicgames.com/
+- Home: https://libgdx.badlogicgames.com/
 - Media: https://en.wikipedia.org/wiki/LibGDX
 - State: mature
-- Download: http://libgdx.badlogicgames.com/download.html
+- Download: https://libgdx.badlogicgames.com/download.html
 - Keywords: framework
 - Code repository: https://github.com/libgdx/libgdx.git
 - Code language: Java, C++, C

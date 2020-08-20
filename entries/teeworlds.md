@@ -2,7 +2,7 @@
 
 _Cartoon style 2D multiplayer platform shooter game (or third person shooter)._
 
-- Home: http://www.teeworlds.com
+- Home: https://www.teeworlds.com/
 - State: beta, inactive since 2013
 - Download: https://www.teeworlds.com/?page=downloads
 - Platform: Windows, Linux, macOS

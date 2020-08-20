@@ -28,7 +28,7 @@
 - **[NumPy](../numpy.md)** (C, Python, 3-clause BSD, mature)
 - **[OpenAL Soft](../openal_soft.md)** (C, LGPL-2.0, mature)
 - **[OpenAL](../openal.md)** (C, Proprietary, mature)
-- **[OpenSSL](../openssl.md)** (C, Custom, mature)
+- **[OpenSSL](../openssl.md)** (C, Apache-2.0, mature)
 - **[Penumbra](../penumbra.md)** (C#, MIT, mature)
 - **[PGU](../pgu.md)** (Python, LGPL-2.1, mature)
 - **[Pillow](../pillow.md)** (C, Python, PIL Software License, mature)

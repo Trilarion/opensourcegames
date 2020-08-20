@@ -6,7 +6,7 @@ _Mostly classical minesweeper puzzle game from the KDEGames division of the KDE 
 - State: mature
 - Platform: Windows (?), Linux
 - Keywords: puzzle, minesweeper, open content
-- Code repository: https://anongit.kde.org/kmines.git
+- Code repository: https://invent.kde.org/games/kmines.git
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: KDE Frameworks

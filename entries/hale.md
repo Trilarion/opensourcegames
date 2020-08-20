@@ -2,7 +2,7 @@
 
 _A turn based RPG with deep tactical combat and character customization._
 
-- Home: https://sourceforge.net/projects/hale/, https://sourceforge.net/p/hale/wiki/Home/, http://halegame.com
+- Home: https://sourceforge.net/projects/hale/, https://sourceforge.net/p/hale/wiki/Home/, https://halegame.com
 - State: beta, inactive since 2014
 - Download: https://sourceforge.net/projects/hale/files/
 - Keywords: role playing, turn-based

@@ -2,10 +2,10 @@
 
 _Grand Strategy Game_
 
-- Home: http://triplea-game.org/, https://sourceforge.net/projects/triplea/
+- Home: https://triplea-game.org/, https://sourceforge.net/projects/triplea/
 - Media: https://en.wikipedia.org/wiki/TripleA
 - State: mature
-- Download: http://triplea-game.org/download/
+- Download: https://triplea-game.org/download/
 - Keywords: strategy
 - Code repository: https://github.com/triplea-game/triplea.git, https://svn.code.sf.net/p/triplea/code (svn)
 - Code language: Java

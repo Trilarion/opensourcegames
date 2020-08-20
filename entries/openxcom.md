@@ -7,7 +7,7 @@ _OpenXcom is an open-source clone of the original UFO: Enemy Unknown (X-Com: UFO
 - State: mature
 - Download: https://openxcom.org/downloads-milestones/
 - Keywords: strategy, inspired by UFO: Enemy Unknown + X-COM: Apocalypse + X-COM: Terror from the Deep + X-COM: UFO Defense, remake, turn-based
-- Code repository: https://github.com/SupSuper/OpenXcom.git
+- Code repository: https://github.com/OpenXcom/OpenXcom.git
 - Code language: C++
 - Code license: GPL-3.0
 

@@ -2,7 +2,7 @@
 
 _2D top-down racing game._
 
-- Home: http://agateau.com/projects/pixelwheels/
+- Home: https://agateau.com/projects/pixelwheels/
 - State: beta
 - Platform: Windows, Linux, macOS, Android
 - Keywords: game engine, open content, racing

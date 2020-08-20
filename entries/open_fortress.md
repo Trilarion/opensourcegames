@@ -2,7 +2,7 @@
 
 _Mod of Team Fortress 2._
 
-- Home: http://openfortress.fun/
+- Home: https://openfortress.fun/
 - State: beta
 - Keywords: remake, commercial content, inspired by Team Fortress 2, modification, multiplayer competitive + online + LAN + co-op + matchmaking
 - Code repository: https://github.com/KaidemonLP/Open-Fortress-Source.git

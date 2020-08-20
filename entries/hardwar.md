@@ -2,7 +2,7 @@
 
 _Remake of Hardwar._
 
-- Home: http://www.hardwar.org/
+- Home: http://hardwar.org/
 - State: beta, inactive since 2015
 - Keywords: simulation, flight, inspired by Hardwar, remake
 - Code repository: https://github.com/andrewfenn/Hardwar.git
@@ -10,7 +10,7 @@ _Remake of Hardwar._
 - Code license: GPL-3.0
 - Code dependencies: OGRE
 
-Is it playable?
+Is it playable, really beta?
 
 ## Building
 

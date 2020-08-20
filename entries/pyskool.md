@@ -2,7 +2,7 @@
 
 _Remake of Skool Daze._
 
-- Home: http://pyskool.ca/
+- Home: https://pyskool.ca/
 - Media: https://en.wikipedia.org/wiki/Skool_Daze#Sequels_and_conversions
 - State: mature
 - Download: https://pyskool.ca/downloads/, https://pypi.org/project/pyskool/

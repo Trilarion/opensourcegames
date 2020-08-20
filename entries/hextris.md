@@ -2,7 +2,7 @@
 
 _Clone of Tetris._
 
-- Home: https://hextris.github.io/, http://hextris.io/
+- Home: https://hextris.github.io/, https://hextris.io/
 - State: mature
 - Keywords: puzzle, clone, inspired by Tetris
 - Code repository: https://github.com/Hextris/Hextris.git

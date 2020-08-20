@@ -2,7 +2,7 @@
 
 _Remake of Age of Empires, Age of Empires II, Star Wars: Galactic Battlegrounds._
 
-- Home: http://openage.sft.mx/
+- Home: https://openage.sft.mx/
 - State: beta
 - Keywords: strategy, commercial content, game engine, inspired by Age of Empires + Age of Empires II + Star Wars: Galactic Battlegrounds, real time, remake, requires original content
 - Code repository: https://github.com/SFTtech/openage.git

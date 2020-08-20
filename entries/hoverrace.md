@@ -2,9 +2,9 @@
 
 _Remake of HoverRace._
 
-- Home: http://www.hoverrace.com/
+- Home: https://web.archive.org/web/20200310133907/http://www.hoverrace.com/
 - State: mature, inactive since 2016
-- Download: http://www.hoverrace.com/?page=download
+- Download: https://web.archive.org/web/20191221023553/http://www.hoverrace.com/?page=download
 - Platform: Windows
 - Keywords: sports, 3D, inspired by HoverRace, racing, remake
 - Code repository: https://github.com/HoverRace/HoverRace.git

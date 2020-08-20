@@ -7,7 +7,7 @@ _Remake of Maxit._
 - State: beta
 - Platform: Android
 - Keywords: strategy, inspired by Maxit, remake
-- Code repository: https://github.com/ahmetkasif/KittenMaxit.git
+- Code repository: https://github.com/ahmetkasif/kmaxit.git
 - Code language: Java
 - Code license: MIT
 - Code dependencies: libGDX

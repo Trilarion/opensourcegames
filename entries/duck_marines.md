@@ -2,7 +2,7 @@
 
 _Remake of ChuChu Rocket!._
 
-- Home: http://tangramgames.dk/games/duckmarines/
+- Home: https://tangramgames.dk/games/duckmarines/
 - State: mature, inactive since 2016
 - Download: https://github.com/SimonLarsen/duckmarines/releases
 - Platform: Windows, Linux (using LÖVE), macOS

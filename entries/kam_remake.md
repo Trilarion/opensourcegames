@@ -2,9 +2,9 @@
 
 _An unofficial fan-made mod for the game Knights and Merchants._
 
-- Home: http://www.kamremake.com/
+- Home: https://www.kamremake.com/
 - State: mature
-- Download: http://www.kamremake.com/download/
+- Download: https://www.kamremake.com/download/
 - Keywords: strategy, inspired by Knights and Merchants, real time, remake, requires original content
 - Code repository: https://github.com/Kromster80/kam_remake.git
 - Code language: Pascal

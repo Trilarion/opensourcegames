@@ -2,7 +2,7 @@
 
 _A fan remake of MadTV._
 
-- Home: http://www.tvgigant.de/
+- Home: https://tvtower.org/
 - Media: <https://en.wikipedia.org/wiki/Mad_TV_(video_game)#Remakes>
 - State: mature
 - Download: (see home)

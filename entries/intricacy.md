@@ -6,7 +6,7 @@ _Intricacy is a multiplayer lock-picking puzzle game, in which players design lo
 - State: beta
 - Platform: Windows, Linux, macOS
 - Keywords: puzzle, open content, text-based
-- Code repository: http://repo.or.cz/intricacy.git
+- Code repository: https://repo.or.cz/intricacy.git
 - Code language: Haskell
 - Code license: GPL-3.0
 - Code dependencies: curses, SDL

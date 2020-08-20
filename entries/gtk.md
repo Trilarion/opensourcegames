@@ -4,7 +4,7 @@ _Multi-platform toolkit for creating graphical user interfaces._
 
 - Home: https://www.gtk.org/
 - State: mature
-- Download: https://www.gtk.org/download/index.php
+- Download: https://www.gtk.org/docs/installations/
 - Platform: Windows, Linux, macOS
 - Keywords: library
 - Code repository: https://gitlab.gnome.org/GNOME/gtk.git

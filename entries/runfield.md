@@ -4,7 +4,7 @@ _Simple 2D game where you control a fox and try to run as long as you can, jumpi
 
 - Home: https://web.archive.org/web/20151230145617/https://developer.mozilla.org/en-US/demos/detail/runfield/#
 - State: mature, inactive since 2011
-- Play: http://fhtr.org/runfield
+- Play: http://fhtr.org/runfield/
 - Platform: Web
 - Keywords: arcade, open content
 - Code repository: https://github.com/kig/runfield.git

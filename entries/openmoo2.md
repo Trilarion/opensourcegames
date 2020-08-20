@@ -2,9 +2,9 @@
 
 _Clone of Microprose game "Master of Orion II: Battle at Antares"._
 
-- Home: http://openmoo2.org/en/
+- Home: https://github.com/pjotrligthart/openmoo2-hg-mirror, https://web.archive.org/web/20191221224844/http://openmoo2.org/en/
 - State: beta, inactive since 2011
-- Download: http://openmoo2.org/en/download
+- Download: https://web.archive.org/web/20191229125931/http://openmoo2.org/en/download
 - Keywords: strategy, inspired by Master of Orion 2, remake, requires original content (MOO2 version 1.31 game data LBX files), turn-based
 - Code repository: https://github.com/pjotrligthart/openmoo2-hg-mirror.git
 - Code language: Python

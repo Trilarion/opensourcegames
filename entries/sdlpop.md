@@ -2,7 +2,7 @@
 
 _Remake of Prince of Persia._
 
-- Home: http://www.popot.org/get_the_games.php?game=SDLPoP
+- Home: https://www.popot.org/get_the_games.php?game=SDLPoP
 - State: mature
 - Keywords: action, inspired by Prince of Persia, remake
 - Code repository: https://github.com/NagyD/SDLPoP.git

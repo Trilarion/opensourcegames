@@ -2,7 +2,7 @@
 
 _Remake of GoldenEye 007._
 
-- Home: http://geshl2.com/
+- Home: https://geshl2.com/
 - State: mature
 - Download: (see home)
 - Keywords: action, inspired by GoldenEye 007, remake, requires original engine (?), shooter

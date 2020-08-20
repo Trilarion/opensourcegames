@@ -3,7 +3,7 @@
 _Clone of Super Mario._
 
 - Home: https://github.com/jazzyjester/Mario-Game
-- Media: http://www.myandroidonline.com/2016/03/12/super-mario-bros-in-c/
+- Media: https://web.archive.org/web/20160505182543/http://www.myandroidonline.com/2016/03/12/super-mario-bros-in-c/
 - State: beta
 - Keywords: platform, clone, inspired by Super Mario
 - Code repository: https://github.com/jazzyjester/Mario-Game.git

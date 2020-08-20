@@ -2,10 +2,10 @@
 
 _Remake of Lode Runner._
 
-- Home: https://www.kde.org/applications/games/kgoldrunner/
+- Home: https://kde.org/applications/en/games/org.kde.kgoldrunner
 - State: mature
 - Keywords: action, inspired by Lode Runner, remake
-- Code repository: https://anongit.kde.org/kgoldrunner.git
+- Code repository: https://invent.kde.org/games/kgoldrunner.git
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: SDL2

@@ -2,7 +2,7 @@
 
 _Remake of Solar Fox._
 
-- Home: http://pygame.org/shredwheat/solarwolf/index.shtml
+- Home: https://pygame.org/shredwheat/solarwolf/index.shtml
 - State: mature, inactive since 2004
 - Download: https://www.pygame.org/shredwheat/solarwolf/index.shtml#download
 - Platform: Windows, Linux, macOS

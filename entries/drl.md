@@ -8,7 +8,7 @@ _Fast and furious coffee-break Roguelike game that is heavily inspired by Doom._
 - Download: https://drl.chaosforge.org/downloads
 - Platform: Windows, Linux, macOS
 - Keywords: role playing, roguelike
-- Code repository: https://github.com/ChaosForge/doomrl.git
+- Code repository: https://github.com/chaosforgeorg/doomrl.git
 - Code language: Lua, Pascal
 - Code license: GPL-2.0
 

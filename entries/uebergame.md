@@ -2,7 +2,7 @@
 
 _Clone of ARMA: Armed Assault, ARMA 2, ARMA 3._
 
-- Home: http://duion.com/games/uebergame/main
+- Home: https://duion.com/games/uebergame/main
 - Media: https://en.wikipedia.org/wiki/ARMA:_Armed_Assault
 - State: mature
 - Download: https://duion.com/games/uebergame/downloads

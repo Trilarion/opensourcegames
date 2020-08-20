@@ -4,7 +4,7 @@ _Remake of Marble Madness._
 
 - Home: https://trackballs.github.io
 - State: mature
-- Download: https://repology.org/metapackage/trackballs/versions
+- Download: https://repology.org/project/trackballs/versions
 - Platform: Linux
 - Keywords: puzzle, inspired by Marble Madness, remake
 - Code repository: https://github.com/trackballs/trackballs.git

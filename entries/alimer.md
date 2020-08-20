@@ -12,4 +12,3 @@ _Cross-platform 2D and 3D game engine._
 ## Building
 
 - Build system: CMake
-- Build instructions: https://github.com/amerkoleci/alimer/blob/master/docs/compiling.md

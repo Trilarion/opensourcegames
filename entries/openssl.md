@@ -9,7 +9,7 @@ _Toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) p
 - Keywords: library
 - Code repository: https://github.com/openssl/openssl.git (mirror), https://www.openssl.org/source/gitrepo.html
 - Code language: C
-- Code license: Custom (Dual licensed under special licenses, https://github.com/openssl/openssl/blob/master/LICENSE)
+- Code license: Apache-2.0
 
 ## Building
 

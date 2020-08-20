@@ -4,9 +4,9 @@ _Remake of Quake._
 
 - Home: http://quakeone.com/proquake/
 - State: mature, inactive since 2018
-- Download: http://quakeone.com/proquake/older_versions/
+- Download: (see home)
 - Keywords: remake, inspired by Quake
-- Code repository: (see downloads http://quakeone.com/proquake/older_sources/)
+- Code repository: (see downloads and https://web.archive.org/web/20200211052147/http://quakeone.com/proquake/older_sources/)
 - Code language: C
 - Code license: GPL-2.0
 

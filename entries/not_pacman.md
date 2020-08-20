@@ -2,7 +2,7 @@
 
 _Pacman-style game with gravity in which the player controls the rotation of the game field._
 
-- Home: http://stabyourself.net/notpacman/
+- Home: https://stabyourself.net/notpacman/
 - State: mature, inactive since 2013
 - Platform: Windows, Linux, macOS
 - Keywords: action, open content, pacman-like

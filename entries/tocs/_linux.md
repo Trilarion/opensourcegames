@@ -25,7 +25,7 @@
 - **[Ball and Paddle](../ball_and_paddle.md)** (C++, Scheme, GPL-3.0, beta, inactive since 2009)
 - **[Batrachians](../batrachians.md)** (C++, GPL-2.0, beta, inactive since 2012)
 - **[Battle Tanks](../battle_tanks.md)** (C++, GPL-2.0, mature, inactive since 2009)
-- **[Berusky](../berusky.md)** (C++, GPL-3.0, mature, inactive since 2013)
+- **[Berusky](../berusky.md)** (C++, GPL-3.0, mature)
 - **[Billiards](../billiards.md)** (Lua, Objective-C, GPL-3.0, beta, inactive since 2012)
 - **[Biniax](../biniax.md)** (C, zlib, mature, inactive since 2012)
 - **[Bitfighter](../bitfighter.md)** (C, C++, GPL-2.0, mature)

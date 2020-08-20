@@ -5,7 +5,7 @@ _FPS/RTS hybrid game powered by the Daemon engine (a combination of ioq3 and Xre
 - Home: https://unvanquished.net/, https://sourceforge.net/projects/unvanquished/
 - Media: <https://en.wikipedia.org/wiki/Unvanquished_(video_game)>
 - State: mature 
-- Download: https://unvanquished.net/?page_id=318
+- Download: https://unvanquished.net/download/
 - Platform: Windows, Linux, macOS
 - Keywords: action, inspired by Natural Selection, shooter
 - Code repository: https://github.com/Unvanquished/Unvanquished.git, https://github.com/DaemonEngine/Daemon.git (+)

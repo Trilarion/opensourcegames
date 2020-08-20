@@ -7,7 +7,7 @@ _Single player dungeon exploration game that runs on a wide variety of computer 
 - State: mature
 - Download: https://www.nethack.org/common/index.html
 - Keywords: role playing, roguelike
-- Code repository: https://github.com/NetHack/NetHack.git, https://github.com/Vanilla-NetHack/NetHack.git (+), https://git.code.sf.net/p/nethack/NetHack
+- Code repository: https://github.com/NetHack/NetHack.git, https://github.com/Vanilla-NetHack/NetHack-3.4.3.git (+), https://git.code.sf.net/p/nethack/NetHack
 - Code language: C
 - Code license: Custom (Nethack General Public License)
 

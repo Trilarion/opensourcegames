@@ -2,11 +2,11 @@
 
 _Multi-player battle simulation with a Star Trek theme._
 
-- Home: http://www.netrek.org/, https://sourceforge.net/projects/netrek/, http://mactrek.sourceforge.net/Welcome.html
+- Home: https://www.netrek.org/, https://sourceforge.net/projects/netrek/, http://mactrek.sourceforge.net/Welcome.html
 - Media: https://en.wikipedia.org/wiki/Netrek
 - State: mature, inactive since 2009
-- Play: http://www.playnetrek.org/
-- Download: http://www.netrek.org/downloads/
+- Play: https://www.playnetrek.org/
+- Download: https://www.netrek.org/downloads/
 - Platform: Windows, Linux, macOS
 - Keywords: action, multiplayer, online
 - Code repository: http://netrek.cvs.sourceforge.net (cvs)

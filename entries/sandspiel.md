@@ -2,7 +2,7 @@
 
 _Clone of Powder Game._
 
-- Home: https://maxbittker.com/making-sandspiel
+- Home: https://maxbittker.com/making-sandspiel/
 - State: beta
 - Play: https://sandspiel.club/
 - Platform: Web

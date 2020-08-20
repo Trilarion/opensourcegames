@@ -2,9 +2,9 @@
 
 _Remake of Bomberman._
 
-- Home: http://www.linuxmotors.com/SDL_bomber/
+- Home: https://web.archive.org/web/20200114185344/http://www.linuxmotors.com/SDL_bomber/
 - State: mature, inactive since 2012
-- Download: http://www.linuxmotors.com/SDL_bomber/downloads/
+- Download: (see home)
 - Platform: Linux
 - Keywords: action, inspired by Bomberman, remake
 - Code repository: (see download)

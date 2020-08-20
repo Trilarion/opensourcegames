@@ -2,7 +2,7 @@
 
 _DOOM source port._
 
-- Home: http://eternity.youfailit.net/wiki/Main_Page
+- Home: https://eternity.youfailit.net/wiki/Main_Page
 - State: mature
 - Download: https://github.com/team-eternity/eternity/releases
 - Platform: Windows, Linux, macOS

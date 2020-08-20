@@ -2,9 +2,9 @@
 
 _Arcade style game for “Boulder Dash” (C 64), “Emerald Mine” (Amiga), “Supaplex” (Amiga/PC), “Sokoban” (PC)_
 
-- Home: http://www.artsoft.org/rocksndiamonds/
+- Home: https://www.artsoft.org/rocksndiamonds/
 - State: mature
-- Download: http://www.artsoft.org/rocksndiamonds/download/
+- Download: https://www.artsoft.org/rocksndiamonds/download/
 - Keywords: action, inspired by Boulder Dash + Supaplex, puzzle, remake
 - Code repository: http://git.artsoft.org/rocksndiamonds.git
 - Code language: C

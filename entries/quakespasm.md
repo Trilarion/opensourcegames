@@ -2,7 +2,7 @@
 
 _Remake of Quake._
 
-- Home: http://quakespasm.sourceforge.net/Quakespasm.html
+- Home: http://quakespasm.sourceforge.net/Quakespasm.html, https://sourceforge.net/projects/quakespasm/
 - State: mature
 - Download: http://quakespasm.sourceforge.net/download.htm, https://sourceforge.net/projects/quakespasm/files/
 - Platform: Windows, Linux, macOS

@@ -2,9 +2,9 @@
 
 _GemRB is a portable open-source implementation of Bioware's Infinity Engine._
 
-- Home: http://www.gemrb.org/wiki/doku.php?id=start
+- Home: https://www.gemrb.org/wiki/doku.php?id=start
 - State: mature
-- Download: http://www.gemrb.org/wiki/doku.php?id=download
+- Download: https://www.gemrb.org/wiki/doku.php?id=download
 - Keywords: framework, 2D, inspired by Baldur's Gate + Icewind Dale + Planescape: Torment, isometric, remake, requires original content
 - Code repository: https://github.com/gemrb/gemrb.git
 - Code language: C++, Python

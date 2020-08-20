@@ -2,7 +2,7 @@
 
 _Remake of JezzBall._
 
-- Home: http://mattdm.org/icebreaker/
+- Home: https://mattdm.org/icebreaker/
 - State: mature, inactive since 2003
 - Download: https://mattdm.org/icebreaker/download.shtml
 - Platform: Windows, Linux

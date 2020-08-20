@@ -2,9 +2,9 @@
 
 _Create cross-platform games easier and free._
 
-- Home: http://haxeflixel.com/
+- Home: https://haxeflixel.com/
 - State: mature
-- Download: http://haxeflixel.com/documentation/getting-started/
+- Download: https://haxeflixel.com/documentation/getting-started/
 - Keywords: framework
 - Code repository: https://github.com/HaxeFlixel/flixel.git
 - Code language: Haxe

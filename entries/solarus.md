@@ -2,7 +2,7 @@
 
 _Zelda-like 2D game engine for action-rpgs._
 
-- Home: http://www.solarus-games.org/ 
+- Home: https://www.solarus-games.org/
 - State: mature
 - Download: https://www.solarus-games.org/en/solarus/download
 - Keywords: action, framework, game engine, inspired by Legend of Zelda - A Link to the Past, remake, role playing

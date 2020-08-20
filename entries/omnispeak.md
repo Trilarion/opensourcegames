@@ -2,7 +2,7 @@
 
 _Remake of Commander Keen Series._
 
-- Home: http://davidgow.net/keen/omnispeak.html
+- Home: https://davidgow.net/keen/omnispeak.html
 - State: mature
 - Download: (see home)
 - Keywords: remake, commercial content, inspired by Commander Keen Series, requires original content

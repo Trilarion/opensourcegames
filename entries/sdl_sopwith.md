@@ -12,6 +12,6 @@ _Port of the classic 8086 biplane shoot-em-up._
 - Code license: GPL-2.0
 - Code dependencies: SDL
 
-See also the original [Sopwith](http://davidlclark.com/page/sopwith) 
+See also the original [Sopwith](https://web.archive.org/web/20200131222432/http://davidlclark.com/page/sopwith)
 
 ## Building

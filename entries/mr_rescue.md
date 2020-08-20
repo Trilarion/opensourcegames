@@ -2,7 +2,7 @@
 
 _Arcade game where you rescue people from a burning building._
 
-- Home: http://tangramgames.dk/games/mrrescue/
+- Home: https://tangramgames.dk/games/mrrescue/
 - State: mature, inactive since 2016
 - Download: https://github.com/SimonLarsen/mrrescue/releases (also home)
 - Platform: Windows, Linux, macOS

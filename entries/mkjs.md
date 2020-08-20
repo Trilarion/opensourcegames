@@ -2,7 +2,7 @@
 
 _Remake of Mortal Kombat._
 
-- Home: http://mk.mgechev.com/
+- Home: https://mk.mgechev.com/
 - State: beta
 - Platform: Web
 - Keywords: action, inspired by Mortal Kombat, multiplayer, remake

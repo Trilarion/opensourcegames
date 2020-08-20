@@ -1,8 +1,8 @@
 # Supremacy
 
-_"4X" (eXplore, eXpand, eXploit, eXterminate) turn-based, empire-building strategy game on the galactic level._
+_4X turn-based, empire-building strategy game on the galactic level._
 
-- Home: https://archive.codeplex.com/?p=supremacy, http://supremacy.square7.ch/wiki/index.php?title=Main_Page, http://www.startreksupremacy.com/, https://bitbucket.org/mstrobel/supremacy/overview
+- Home: https://archive.codeplex.com/?p=supremacy, http://supremacy.square7.ch/wiki/index.php?title=Main_Page, http://www.startreksupremacy.com/
 - State: beta, inactive since 2014
 - Download: http://www.startreksupremacy.com/download.html
 - Keywords: strategy

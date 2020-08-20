@@ -2,7 +2,7 @@
 
 _Remake of Ladder._
 
-- Home: http://ostermiller.org/ladder/
+- Home: https://ostermiller.org/ladder/
 - State: mature, inactive since 2005
 - Download: https://ostermiller.org/ladder/download.html
 - Keywords: arcade, inspired by Ladder, remake, text-based

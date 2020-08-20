@@ -4,7 +4,7 @@ _Move a jumping ball and try to reach the end of a tower avoiding the obstacles.
 
 - Home: https://github.com/Dariasteam/TowerJumper
 - State: mature
-- Download: https://play.google.com/store/apps/details?id=org.pipoypipagames.towerjumper
+- Download: https://f-droid.org/packages/org.pipoypipagames.towerjumper/
 - Platform: Android
 - Keywords: arcade, skill, strategy
 - Code repository: https://github.com/Dariasteam/TowerJumper.git

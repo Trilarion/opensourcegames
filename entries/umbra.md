@@ -2,9 +2,9 @@
 
 _Computer role-playing game written in Python._
 
-- Home: http://markdamonhughes.com/Umbra/
+- Home: https://web.archive.org/web/20180816232325/https://markdamonhughes.com/Umbra/
 - State: beta, inactive since 2002
-- Download: http://markdamonhughes.com/Umbra/#download
+- Download: https://web.archive.org/web/20180816232325/https://markdamonhughes.com/Umbra/#download
 - Keywords: role playing
 - Code repository: https://gitlab.com/osgames/umbra.git (snapshot of source release)
 - Code language: Python

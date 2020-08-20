@@ -2,10 +2,10 @@
 
 _A classic MMO._
 
-- Home: http://meridian59.com/, http://meridian59.de
+- Home: http://meridian59.com/, https://meridian59.de/
 - Media: https://en.wikipedia.org/wiki/Meridian_59
 - State: mature
-- Download: http://meridian59.com/play-now.php
+- Download: https://meridian59.com/play-now.php
 - Keywords: role playing, multiplayer online + massive
 - Code repository: https://github.com/Meridian59/Meridian59.git, https://github.com/OpenMeridian/Meridian59.git (+), https://github.com/OpenMeridian105/Meridian59.git (+), https://github.com/Arantis/Meridian59_112.git (+)
 - Code language: C++, C

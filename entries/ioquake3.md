@@ -2,7 +2,7 @@
 
 _Remake of Quake 3._
 
-- Home: http://ioquake3.org/
+- Home: https://ioquake3.org/
 - State: mature
 - Download: https://ioquake3.org/get-it/
 - Platform: Windows, Linux, macOS

@@ -137,6 +137,7 @@ https://app.assembla.com/spaces/openrpg/wiki
 https://app.assembla.com/spaces/Project_Valkyrie2/wiki
 https://appimage.github.io/categories/Game
 https://appimage.org/
+https://arcade.academy/
 https://archive.codeplex.com/?p=turnota
 https://archive.codeplex.com/?p=voxeliq
 https://archive.org/details/Gna_code_hosting (all of them)
@@ -280,9 +281,11 @@ https://github.com/junkdog/artemis-odb
 https://github.com/jwvhewitt/gearhead-caramel.git
 https://github.com/KDE
 https://github.com/kduske/TrenchBroom
+https://github.com/kidscancode/circle_jump
 https://github.com/kimkulling/osre
 https://github.com/klaussilveira/ioquake3.js
 https://github.com/Kosmonaut3d/DeferredEngine
+https://github.com/kyzfrintin/Godot-Mixing-Desk
 https://github.com/LgLinus/StrategyGame
 https://github.com/libretro/libretro-chailove
 https://github.com/libretro/libretro-prboom
@@ -316,6 +319,7 @@ https://github.com/opensourcedesign
 https://github.com/opentrack/opentrack
 https://github.com/OSSGames
 https://github.com/OSSGames (all there, but we should have them already)
+https://github.com/ozkriff/zemeroth
 https://github.com/Patapom/GodComplex
 https://github.com/PavelDoGreat/WebGL-Fluid-Simulation
 https://github.com/perbone/luascript
@@ -393,6 +397,7 @@ https://gitlab.com/xonlegacy/xonlegacy
 https://gitlab.openrsc.com/open-rsc
 https://gitorious.org/index-list.html (are there other interesting games)
 https://gottcode.org/ (all)
+https://invent.kde.org/games
 https://itch.io/ (scrape, look for open source)
 https://jcrpg.blogspot.de/
 https://jotd.pagesperso-orange.fr/ (several games)

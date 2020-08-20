@@ -144,7 +144,10 @@ def check_validity_external_links():
     regex = re.compile(r"[\s\n]<(http.+?)>|\]\((http.+?)\)|[\s\n](http[^\s\n,]+?)[\s\n\)]")
 
     # ignore the following patterns (they give false positives here)
-    ignored_urls = ('https://git.tukaani.org/xz.git', 'https://git.code.sf.net/p/')
+    ignored_urls = ('https://git.tukaani.org/xz.git', 'https://git.code.sf.net/', 'http://hg.hedgewars.org/hedgewars/', 'https://git.xiph.org/vorbis.git', 'http://svn.uktrainsim.com/svn/openrails')
+
+    # some do redirect, but we nedertheless want the original URL in the database
+    redirect_okay = ('https://octaforge.org/', 'https://svn.openttd.org/')
 
     # extract all links from entries
     urls = {}
@@ -158,14 +161,24 @@ def check_validity_external_links():
                     # github and gitlab git URLs are shortened to not contain .git
                     if any((url.startswith(x) for x in ('https://github.com/', 'https://gitlab.com/', 'https://salsa.debian.org/', 'https://src.fedoraproject.org/', 'https://gitlab.gnome.org/GNOME/'))) and url.endswith('.git'):
                         url = url[:-4]
-                    if url.startswith('https://svn.code.sf.net/p/') and url.endswith('code'):
+                    if (url.startswith('https://svn.code.sf.net/p/') or url.startswith('http://svn.code.sf.net/p/')) and url.endswith('code'):
                         url = url + '/'
                     if url.startswith('https://bitbucket.org/') and url.endswith('.git'):
                         url = url[:-4] + '/commits/'
-                    if url.startswith('https://svn.code.sf.net/p/'):
+                    if url.startswith('https://svn.code.sf.net/p/') or url.endswith('.cvs.sourceforge.net'):
                         url = 'http' + url[5:]
-                    if url.startswith('https://git.savannah.gnu.org/git/'):
+                    if url.startswith('https://git.savannah.gnu.org/git/') or url.startswith('https://git.savannah.nongnu.org/git/') or url.startswith('http://git.artsoft.org/'):
                         url = url + '/'
+                    if url.startswith('https://anongit.freedesktop.org/git'):
+                        url = url + '/'
+                    if url.startswith('http://cvs.savannah.nongnu.org:/sources/'):
+                        url = 'http://cvs.savannah.nongnu.org/viewvc/' + url[40:]
+                    if url.startswith('http://cvs.savannah.gnu.org:/sources/'):
+                        url = 'http://cvs.savannah.gnu.org/viewvc/' + url[37:]
+                    if 'bzr.sourceforge.net/bzrroot/' in url:
+                        continue
+                    if url.endswith('.git'):
+                        url = url[:-4]
 
                     if url in urls:
                         urls[url].add(entry)
@@ -177,12 +190,17 @@ def check_validity_external_links():
     # now iterate over all urls
     for index, url in enumerate(urls.keys()):
         try:
-            r = requests.head(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64)'}, timeout=10, allow_redirects=True)
+            verify = True
+            # some have an expired certificate but otherwise still work
+            if any((url.startswith(x) for x in ('https://perso.b2b2c.ca/~sarrazip/dev/', 'https://dreerally.com/', 'https://henlin.net/', 'https://www.megamek.org/', 'https://pixeldoctrine.com/', 'https://gitorious.org/'))):
+                verify = False
+            r = requests.head(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64)'}, timeout=10, allow_redirects=True, verify=verify)
             # check for bad status
             if r.status_code != requests.codes.ok:
                 print('{}: URL {} in entry {} has status {}'.format(index, url, urls[url], r.status_code))
             # check for redirect
-            if r.history:
+            if r.history and url not in redirect_okay:
+                # only / added or http->https
                 print('{}: URL {} in entry {} was redirected to {}'.format(index, url, urls[url], r.url))
         except Exception as e:
             print('{}: URL {} in entry {} gave error {}'.format(index, url, urls[url], e))

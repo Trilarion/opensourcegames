@@ -2,10 +2,10 @@
 
 _Remake of Need For Speed III: Hot Pursuit._
 
-- Home: http://opennfs.com/
+- Home: https://opennfs.com/
 - State: beta
 - Keywords: game engine, cars, commercial content, inspired by Need For Speed III: Hot Pursuit, racing, remake, requires original content
-- Code repository: https://github.com/AmrikSadhra/OpenNFS.git
+- Code repository: https://github.com/OpenNFS/OpenNFS.git
 - Code language: C, C++
 - Code license: MIT
 - Code dependencies: Bullet3, OpenGL

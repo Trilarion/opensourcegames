@@ -2,9 +2,9 @@
 
 _J-RPG (Based on the Hero of Allacrost engine)._
 
-- Home: https://valyriatear.blogspot.de/
+- Home: https://valyriatear.blogspot.com/
 - State: mature
-- Download: https://valyriatear.blogspot.de/p/downloads.html
+- Download: https://valyriatear.blogspot.com/p/downloads.html
 - Keywords: role playing, japanese, popular
 - Code repository: https://github.com/ValyriaTear/ValyriaTear.git
 - Code language: Lua, C++, C

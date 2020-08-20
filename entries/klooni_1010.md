@@ -4,7 +4,7 @@ _Clone of the puzzle game 1010!_
 
 - Home: https://lonami.dev/klooni/
 - State: beta
-- Download: https://f-droid.org/de/packages/io.github.lonamiwebs.klooni/
+- Download: https://f-droid.org/packages/dev.lonami.klooni/
 - Platform: Android
 - Keywords: puzzle, inspired by 1010!
 - Code repository: https://github.com/LonamiWebs/Klooni1010.git

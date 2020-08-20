@@ -2,10 +2,10 @@
 
 _Allows you to run certain classic graphical point-and-click adventure games, provided you already have their data files._
 
-- Home: http://www.scummvm.org/
+- Home: https://www.scummvm.org/
 - Media: https://en.wikipedia.org/wiki/ScummVM
 - State: mature
-- Download: http://www.scummvm.org/downloads/
+- Download: https://www.scummvm.org/downloads/
 - Keywords: game engine, framework, inspired by SCUMM, remake
 - Code repository: https://github.com/scummvm/scummvm.git
 - Code language: C++

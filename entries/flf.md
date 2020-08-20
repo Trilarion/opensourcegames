@@ -2,7 +2,7 @@
 
 _Clone of Little Fighter 2._
 
-- Home: http://project-f.github.io/, https://www.ProjectF.hk/F.LF
+- Home: http://project-f.github.io/, https://web.archive.org/web/20190629133825/https://www.projectf.hk/F.LF/
 - State: mature
 - Platform: Web
 - Keywords: framework, clone, content commercial, inspired by Little Fighter 2 (http://lf2.net/), requires original content

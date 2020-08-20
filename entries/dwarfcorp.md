@@ -6,7 +6,7 @@ _Manage a corporate colony of dwarves._
 - State: mature
 - Platform: Windows, Linux, macOS
 - Keywords: strategy, commercial content, game engine
-- Code repository: https://github.com/CompletelyFairGames/dwarfcorp.git
+- Code repository: https://github.com/Blecki/dwarfcorp.git
 - Code language: C#
 - Code license: MIT
 - Code dependencies: MonoGame, XNA

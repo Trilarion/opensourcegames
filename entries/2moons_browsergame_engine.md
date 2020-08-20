@@ -2,7 +2,7 @@
 
 _Space browsergame framework._
 
-- Home: https://gitter.im/2MoonsGame/Lobby/
+- Home: https://github.com/jkroepke/2Moons
 - State: mature
 - Download: https://github.com/jkroepke/2Moons/releases
 - Platform: Web

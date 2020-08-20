@@ -2,7 +2,7 @@
 
 _Shoot'em'up with focus on timing, sound and smooth 2D visuals._
 
-- Home: http://www.hectigo.net/games/beatharvester/
+- Home: https://web.archive.org/web/20190813223336/http://www.hectigo.net/games/beatharvester/
 - State: beta, inactive since 2009
 - Keywords: action, 2D, open content, shootem
 - Code repository: (see home)

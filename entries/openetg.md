@@ -2,9 +2,9 @@
 
 _Remake of Elements._
 
-- Home: http://etg.dek.im/
+- Home: https://etg.dek.im/
 - State: beta
-- Play: http://etg.dek.im/
+- Play: https://etg.dek.im/
 - Platform: Web
 - Keywords: cards, inspired by Elements, remake
 - Code repository: https://github.com/serprex/openEtG.git

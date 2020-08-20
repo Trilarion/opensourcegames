@@ -2,7 +2,7 @@
 
 _Educational software suite comprising of numerous activities for children aged 2 to 10._
 
-- Home: http://gcompris.net/
+- Home: https://gcompris.net/index-en.html
 - State: mature, inactive since 2016
 - Download: https://gcompris.net/downloads-en.html
 - Platform: Windows, Linux, macOS, Android

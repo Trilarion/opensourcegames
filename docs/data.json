@@ -811,7 +811,7 @@
   [
    "Birth of the Empires (<a href=\"http://bote2.square7.ch/en/wiki/Main_Page\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/birth_of_the_empires.md\">entry</a>)",
    "Turn-based 4X strategy game set in space in the style of..",
-   "<a href=\"http://loadion.com/en/Birth-of-the-Empires_6681499.html\">Link</a>",
+   "",
    "mature / inactive since 2016",
    "strategy",
    "<a href=\"https://github.com/bote-team/bote.git\">Source</a> - C++ - Custom"
@@ -2363,7 +2363,7 @@
   [
    "DOOM-iOS (<a href=\"https://github.com/id-Software/DOOM-iOS\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/doom-ios.md\">entry</a>)",
    "Remake of Doom, Doom II, Heretic, Hexen.",
-   "<a href=\"https://www.idsoftware.com/idstuff/doom/doomclassic_ios_v21_src.zip\">Link</a>",
+   "",
    "mature / inactive since 2012",
    "action, commercial content, inspired by Doom + Doom II + Heretic + Hexen, remake, requires original content, shooter",
    "<a href=\"https://github.com/id-Software/DOOM-iOS.git\">Source</a> - C++ - GPL-2.0"
@@ -2881,9 +2881,9 @@
    "<a href=\"https://github.com/exult/exult.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
-   "ezQuake (<a href=\"https://ezquake.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/ezquake.md\">entry</a>)",
+   "ezQuake (<a href=\"https://www.ezquake.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/ezquake.md\">entry</a>)",
    "Remake of Quake.",
-   "<a href=\"https://ezquake.github.io/downloads.html\">Link</a>",
+   "<a href=\"https://www.ezquake.com/downloads.html\">Link</a>",
    "mature / active",
    "remake, inspired by Quake, shooter",
    "<a href=\"https://github.com/ezQuake/ezquake-source.git\">Source</a> - C, C++ - GPL-2.0"
@@ -3033,7 +3033,7 @@
    "<a href=\"https://github.com/clintbellanger/flare-engine.git\">Source</a> - C++, Java - GPL-3.0"
   ],
   [
-   "Flex Engine (<a href=\"https://ajweeks.com/flex-engine/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/flex_engine.md\">entry</a>)",
+   "Flex Engine (<a href=\"https://github.com/ajweeks/FlexEngine\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/flex_engine.md\">entry</a>)",
    "Game engine.",
    "",
    "beta / active",
@@ -3258,7 +3258,7 @@
   ],
   [
    "FreedroidRPG (<a href=\"https://www.freedroid.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/freedroidrpg.md\">entry</a>)",
-   "Open source role playing game.",
+   "Role playing game.",
    "<a href=\"https://www.freedroid.org/download/\">Link</a>",
    "mature / active",
    "role playing, clone, inspired by Paradroid, isometric",
@@ -3593,9 +3593,9 @@
    "C - GPL-2.0"
   ],
   [
-   "GemRB (<a href=\"https://www.gemrb.org/wiki/doku.php?id=start\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/gemrb.md\">entry</a>)",
-   "GemRB is a portable open-source implementation of..",
-   "<a href=\"https://www.gemrb.org/wiki/doku.php?id=download\">Link</a>",
+   "GemRB (<a href=\"https://gemrb.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/gemrb.md\">entry</a>)",
+   "Implementation of Bioware's Infinity Engine.",
+   "<a href=\"https://gemrb.org/Install.html\">Link</a>",
    "mature / active",
    "framework, 2D, inspired by Baldur's Gate + Icewind Dale + Planescape: Torment, isometric, remake, requires original content",
    "<a href=\"https://github.com/gemrb/gemrb.git\">Source</a> - C++, Python - GPL-2.0"
@@ -3810,7 +3810,7 @@
   ],
   [
    "Godot (<a href=\"https://godotengine.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/godot.md\">entry</a>)",
-   "Godot is an advanced, feature-packed, multi-platform 2D..",
+   "Multi-platform 2D and 3D open source game engine.",
    "<a href=\"https://godotengine.org/download\">Link</a>",
    "mature / active",
    "framework",
@@ -4506,7 +4506,7 @@
   ],
   [
    "Jamp (<a href=\"https://perre.noud.ch/jamp/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/jamp.md\">entry</a>)",
-   "Jamp is a physics puzzle game. The player controls a..",
+   "Physics puzzle game with a squirrel character inside a..",
    "",
    "beta / inactive since 2009",
    "puzzle, open content, physics",
@@ -5274,11 +5274,11 @@
   ],
   [
    "L\u00d6VE (<a href=\"https://love2d.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/love.md\">entry</a>)",
-   "L\u00d6VE is a framework you can use to make 2D games in Lua.",
+   "Framework you can use to make 2D games in Lua.",
    "",
    "mature / active",
    "framework",
-   "<a href=\"https://bitbucket.org/rude/love\">Source</a> - C++ - zlib"
+   "<a href=\"https://github.com/love2d/love.git\">Source</a> - C++ - zlib"
   ],
   [
    "M.A.R.S. (<a href=\"https://sourceforge.net/projects/mars-game/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/mars.md\">entry</a>)",
@@ -5475,7 +5475,7 @@
   [
    "MegaMek (<a href=\"https://www.megamek.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/megamek.md\">entry</a>)",
    "Unofficial, online version of the Classic BattleTech board..",
-   "<a href=\"https://www.megamek.org/downloads\">Link</a>",
+   "<a href=\"https://megamek.org/downloads\">Link</a>",
    "mature / active",
    "strategy",
    "<a href=\"https://github.com/MegaMek/megamek.git\">Source</a> - Java - GPL-2.0"
@@ -5721,7 +5721,7 @@
    "<a href=\"https://git.code.sf.net/p/monstergenerato/code\">Source</a> - Java - MIT"
   ],
   [
-   "Monsters and Mushrooms (<a href=\"https://pygame.org/project-Monsters+and+Mushrooms-989-.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/monsters_and_mushrooms.md\">entry</a>)",
+   "Monsters and Mushrooms (<a href=\"https://www.pygame.org/project-Monsters+and+Mushrooms-989-.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/monsters_and_mushrooms.md\">entry</a>)",
    "Remake of Millipede.",
    "",
    "mature / inactive since 2010",
@@ -5907,7 +5907,7 @@
   [
    "NetPanzer (<a href=\"https://www.netpanzer.info/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/netpanzer.md\">entry</a>)",
    "An online multiplayer tactical warfare game.",
-   "<a href=\"https://www.netpanzer.info/Download/\">Link</a>",
+   "<a href=\"https://www.netpanzer.info/page/download/\">Link</a>",
    "beta / active",
    "strategy, multiplayer, online, real time",
    "<a href=\"https://github.com/BackupTheBerlios/netpanzer-svn.git\">Source</a> - C++ - GPL-2.0"
@@ -6106,7 +6106,7 @@
   ],
   [
    "OGRE (<a href=\"https://www.ogre3d.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/ogre.md\">entry</a>)",
-   "Scene-oriented, flexible 3D engine written in C++.",
+   "Scene-oriented, flexible 3D engine.",
    "<a href=\"https://www.ogre3d.org/download/sdk\">Link</a>",
    "mature / active",
    "framework, 3D",
@@ -7017,8 +7017,8 @@
    "<a href=\"https://github.com/stephank/orona.git\">Source</a> - CoffeeScript - GPL-2.0"
   ],
   [
-   "Orx (<a href=\"https://orx-project.org/about\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/orx.md\">entry</a>)",
-   "Orx is an open source, portable, lightweight, plugin-..",
+   "Orx (<a href=\"https://orx-project.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/orx.md\">entry</a>)",
+   "Plugin-based, data-driven 2D-oriented game engine.",
    "<a href=\"https://github.com/orx/orx/releases\">Link</a>",
    "mature / active",
    "framework",
@@ -7147,7 +7147,7 @@
   [
    "Panda3D (<a href=\"https://www.panda3d.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/panda3d.md\">entry</a>)",
    "Panda3D is a game engine, a framework for 3D rendering and..",
-   "<a href=\"https://www.panda3d.org/download.php\">Link</a>",
+   "<a href=\"https://www.panda3d.org/download/\">Link</a>",
    "mature / active",
    "framework, 3D",
    "<a href=\"https://github.com/panda3d/panda3d.git\">Source</a> - C++, C - 3-clause BSD"
@@ -7689,7 +7689,7 @@
    "<a href=\"https://github.com/itsapi/pycraft.git\">Source</a> - C, Python - GPL-2.0"
   ],
   [
-   "pygame (<a href=\"http://www.pygame.org/hifi.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/pygame.md\">entry</a>)",
+   "pygame (<a href=\"https://www.pygame.org/news\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/pygame.md\">entry</a>)",
    "Library for making multimedia applications like games..",
    "<a href=\"http://www.pygame.org/download.shtml\">Link</a>",
    "mature / active",
@@ -8134,7 +8134,7 @@
    "<a href=\"https://www.artsoft.org/rocksndiamonds/download/\">Link</a>",
    "mature / active",
    "action, inspired by Boulder Dash + Supaplex, puzzle, remake",
-   "<a href=\"http://git.artsoft.org/rocksndiamonds.git\">Source</a> - C - GPL-2.0"
+   "<a href=\"https://git.artsoft.org/rocksndiamonds.git\">Source</a> - C - GPL-2.0"
   ],
   [
    "Rogue Clone IV (<a href=\"http://rogueclone.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/rogue_clone_iv.md\">entry</a>)",
@@ -8809,7 +8809,7 @@
    "<a href=\"https://gitlab.com/solarus-games/solarus.git\">Source</a> - C, C++, Lua - GPL-3.0"
   ],
   [
-   "SolarWolf (<a href=\"https://pygame.org/shredwheat/solarwolf/index.shtml\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/solarwolf.md\">entry</a>)",
+   "SolarWolf (<a href=\"https://www.pygame.org/shredwheat/solarwolf/index.shtml\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/solarwolf.md\">entry</a>)",
    "Remake of Solar Fox.",
    "<a href=\"https://www.pygame.org/shredwheat/solarwolf/index.shtml#download\">Link</a>",
    "mature / inactive since 2004",
@@ -9225,7 +9225,7 @@
    "C++ - GPL-2.0"
   ],
   [
-   "Super Methane Brothers for Wii and GameCube (<a href=\"https://github.com/carstene1ns/super-methane-brothers\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/super-methane-brothers-gx.md\">entry</a>)",
+   "Super Methane Brothers for Wii and GameCube (<a href=\"https://github.com/carstene1ns/super-methane-brothers\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/super_methane_brothers_for_wii_and_gamecube.md\">entry</a>)",
    "Remake of Super Methane Brothers.",
    "",
    "beta / inactive since 2018",
@@ -9553,7 +9553,7 @@
    "<a href=\"https://github.com/brenns10/tetris.git\">Source</a> - C - 3-clause BSD"
   ],
   [
-   "Tetzle (<a href=\"https://gottcode.org/tetzle\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/tetzle.md\">entry</a>)",
+   "Tetzle (<a href=\"https://gottcode.org/tetzle/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/tetzle.md\">entry</a>)",
    "Jigsaw puzzle game.",
    "",
    "mature / active",

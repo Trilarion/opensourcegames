@@ -1,6 +1,6 @@
 # Jamp
 
-_Jamp is a physics puzzle game. The player controls a squirrel character inside a wheel-like cage, using contraptions and the laws of physics to move the character to the destination._
+_Physics puzzle game with a squirrel character inside a wheel-like cage._
 
 - Home: https://perre.noud.ch/jamp/
 - State: beta, inactive since 2009

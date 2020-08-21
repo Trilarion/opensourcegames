@@ -2,9 +2,9 @@
 
 _Remake of Quake._
 
-- Home: https://ezquake.github.io/
+- Home: https://www.ezquake.com/
 - State: mature
-- Download: https://ezquake.github.io/downloads.html
+- Download: https://www.ezquake.com/downloads.html
 - Platform: Windows, Linux, macOS
 - Keywords: remake, inspired by Quake, shooter
 - Code repository: https://github.com/ezQuake/ezquake-source.git

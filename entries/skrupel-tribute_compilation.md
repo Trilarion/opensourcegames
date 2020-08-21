@@ -2,7 +2,7 @@
 
 _Web-based cross between amazing games like, VGAPlanets, Ascendancy an for example Master of Orion._
 
-- Home: https://sourceforge.net/projects/skrupel/, http://skrupel.paradyze.org/doku.php (german)
+- Home: https://sourceforge.net/projects/skrupel/, http://skrupel.paradyze.org/doku.php (German)
 - State: mature, inactive since 2011
 - Download: https://sourceforge.net/projects/skrupel/files
 - Keywords: strategy

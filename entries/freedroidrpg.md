@@ -1,6 +1,6 @@
 # FreedroidRPG
 
-_Open source role playing game._
+_Role playing game._
 
 - Home: https://www.freedroid.org/, https://sourceforge.net/projects/freedroid/
 - Media: https://de.wikipedia.org/wiki/FreedroidRPG (German)

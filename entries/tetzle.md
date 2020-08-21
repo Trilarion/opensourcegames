@@ -2,7 +2,7 @@
 
 _Jigsaw puzzle game._
 
-- Home: https://gottcode.org/tetzle
+- Home: https://gottcode.org/tetzle/
 - State: mature
 - Keywords: puzzle, jigsaw
 - Code repository: (see home)

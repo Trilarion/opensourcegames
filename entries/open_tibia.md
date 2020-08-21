@@ -10,7 +10,7 @@ _Remake of Tibia_
 - Code language: C++
 - Code license: GPL-2.0
 
-Based on [Tibia](https://tibia.wikia.com/wiki/CipSoft_GmbH).
+Based on [Tibia](https://tibia.fandom.com/wiki/CipSoft_GmbH).
 
 ## Building
 

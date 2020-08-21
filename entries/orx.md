@@ -1,8 +1,8 @@
 # Orx
 
-_Orx is an open source, portable, lightweight, plugin-based, data-driven and extremely easy to use 2D-oriented game engine._
+_Plugin-based, data-driven 2D-oriented game engine._
 
-- Home: https://orx-project.org/about
+- Home: https://orx-project.org/
 - Media: https://en.wikipedia.org/wiki/ORX
 - State: mature
 - Download: https://github.com/orx/orx/releases

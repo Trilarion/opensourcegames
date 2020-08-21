@@ -138,8 +138,6 @@ def check_validity_external_links():
     from time to time.
     """
 
-    # TODO Gitorius works in principle but onyl without SSL verify (requests probably can do that)
-
     # regex for finding urls (can be in <> or in ]() or after a whitespace
     regex = re.compile(r"[\s\n]<(http.+?)>|\]\((http.+?)\)|[\s\n](http[^\s\n,]+?)[\s\n\)]")
 
@@ -147,9 +145,11 @@ def check_validity_external_links():
     ignored_urls = ('https://git.tukaani.org/xz.git', 'https://git.code.sf.net/', 'http://hg.hedgewars.org/hedgewars/', 'https://git.xiph.org/vorbis.git', 'http://svn.uktrainsim.com/svn/openrails')
 
     # some do redirect, but we nedertheless want the original URL in the database
-    redirect_okay = ('https://octaforge.org/', 'https://svn.openttd.org/')
+    redirect_okay = ('https://octaforge.org/', 'https://svn.openttd.org/', 'https://godotengine.org/download')
 
     # extract all links from entries
+    import urllib3
+    urllib3.disable_warnings() # otherwise we cannot verify those with SSL errors without getting warnings
     urls = {}
     for entry, _, content in osg.entry_iterator():
         # apply regex
@@ -158,55 +158,66 @@ def check_validity_external_links():
         for match in matches:
             for url in match:
                 if url and not any((url.startswith(x) for x in ignored_urls)):
-                    # github and gitlab git URLs are shortened to not contain .git
-                    if any((url.startswith(x) for x in ('https://github.com/', 'https://gitlab.com/', 'https://salsa.debian.org/', 'https://src.fedoraproject.org/', 'https://gitlab.gnome.org/GNOME/'))) and url.endswith('.git'):
-                        url = url[:-4]
-                    if (url.startswith('https://svn.code.sf.net/p/') or url.startswith('http://svn.code.sf.net/p/')) and url.endswith('code'):
-                        url = url + '/'
-                    if url.startswith('https://bitbucket.org/') and url.endswith('.git'):
-                        url = url[:-4] + '/commits/'
-                    if url.startswith('https://svn.code.sf.net/p/') or url.endswith('.cvs.sourceforge.net'):
-                        url = 'http' + url[5:]
-                    if url.startswith('https://git.savannah.gnu.org/git/') or url.startswith('https://git.savannah.nongnu.org/git/') or url.startswith('http://git.artsoft.org/'):
-                        url = url + '/'
-                    if url.startswith('https://anongit.freedesktop.org/git'):
-                        url = url + '/'
-                    if url.startswith('http://cvs.savannah.nongnu.org:/sources/'):
-                        url = 'http://cvs.savannah.nongnu.org/viewvc/' + url[40:]
-                    if url.startswith('http://cvs.savannah.gnu.org:/sources/'):
-                        url = 'http://cvs.savannah.gnu.org/viewvc/' + url[37:]
+                    # ignore bzr.sourceforge, no web address found
                     if 'bzr.sourceforge.net/bzrroot/' in url:
                         continue
-                    if url.endswith('.git'):
+
+                    # add "/" at the end
+                    if any((url.startswith(x) for x in ('https://anongit.freedesktop.org/git', 'https://git.savannah.gnu.org/git/', 'https://git.savannah.nongnu.org/git/', 'https://git.artsoft.org/'))):
+                        url += '/'
+
+                    if url.startswith('https://bitbucket.org/') and url.endswith('.git'):
+                        url = url[:-4] + '/commits/'
+                    if url.startswith('https://svn.code.sf.net/p/'):
+                        url = 'http' + url[5:] + '/'
+                    if url.startswith('http://cvs.savannah.nongnu.org:/sources/'):
+                        url = 'http://cvs.savannah.nongnu.org/viewvc/' + url[40:] + '/'
+                    if url.startswith('http://cvs.savannah.gnu.org:/sources/'):
+                        url = 'http://cvs.savannah.gnu.org/viewvc/' + url[37:] + '/'
+
+                    # generally ".git" at the end is not working well, except sometimes
+                    if url.endswith('.git') and not any((url.startswith(x) for x in ('https://repo.or.cz', 'https://git.tuxfamily.org/fanwor/fanwor'))):
                         url = url[:-4]
 
                     if url in urls:
                         urls[url].add(entry)
                     else:
                         urls[url] = {entry}
-        print('found {} unique links'.format(len(urls)))
-        print("start checking external links (can take a while)")
+    print('found {} unique links'.format(len(urls)))
+    print("start checking external links (can take a while)")
 
     # now iterate over all urls
-    for index, url in enumerate(urls.keys()):
+    for url, names in urls.items():
+        names = list(names)  # was a set
+        if len(names) == 1:
+            names = names[0]
         try:
             verify = True
             # some have an expired certificate but otherwise still work
-            if any((url.startswith(x) for x in ('https://perso.b2b2c.ca/~sarrazip/dev/', 'https://dreerally.com/', 'https://henlin.net/', 'https://www.megamek.org/', 'https://pixeldoctrine.com/', 'https://gitorious.org/'))):
+            if any((url.startswith(x) for x in ('https://perso.b2b2c.ca/~sarrazip/dev/', 'https://dreerally.com/', 'https://henlin.net/', 'https://www.megamek.org/', 'https://pixeldoctrine.com/', 'https://gitorious.org/', 'https://www.opmon-game.ga/'))):
                 verify = False
-            r = requests.head(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64)'}, timeout=10, allow_redirects=True, verify=verify)
+            r = requests.head(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64)'}, timeout=20, allow_redirects=True, verify=verify)
+            if r.status_code == 405:  # head method not supported, try get
+                r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64)'}, timeout=20, allow_redirects=True, verify=verify)
             # check for bad status
             if r.status_code != requests.codes.ok:
-                print('{}: URL {} in entry {} has status {}'.format(index, url, urls[url], r.status_code))
+                print('{}: {} - {}'.format(names, url, r.status_code))
             # check for redirect
             if r.history and url not in redirect_okay:
-                # only / added or http->https
-                print('{}: URL {} in entry {} was redirected to {}'.format(index, url, urls[url], r.url))
+                # only / added or http->https sometimes
+                redirected_url = r.url
+                if redirected_url == url + '/':
+                    output = '{}: {} -> {} - redirect "/" at end '
+                elif redirected_url == 'https' + url[4:]:
+                    output = '{}: {} -> {} - redirect "https" at start'
+                else:
+                    output = '{}: {} -> {} - redirect '
+                print(output.format(names, url, redirected_url))
         except Exception as e:
-            print('{}: URL {} in entry {} gave error {}'.format(index, url, urls[url], e))
-        # print regular updates
-        if index > 0 and index % 100 == 0:
-            print('{} / {}'.format(index, len(urls)))
+            error_name = type(e).__name__
+            if error_name == 'SSLError' and url.startswith('https://gitorious.org/'):
+                continue  # even though verify is False, these errors still get through
+            print('{}: {} - exception {}'.format(names, url, error_name))
 
 
 def check_template_leftovers():
@@ -1030,7 +1041,7 @@ if __name__ == "__main__":
     export_git_code_repositories_json()
 
     # check external links (only rarely)
-    # check_validity_external_links()
+    check_validity_external_links()
 
     # sort rejected games list file
     sort_text_file(os.path.join(c.root_path, 'code', 'rejected.txt'), 'rejected games list')

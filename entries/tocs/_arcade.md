@@ -96,7 +96,7 @@
 - **[snake](../snake.md)** (Java, WTFPL, mature, inactive since 2017)
 - **[SolarWolf](../solarwolf.md)** (Python, LGPL-2.1, mature, inactive since 2004)
 - **[Star-Wars-III](../star-wars-iii.md)** (Python, GPL-2.0, mature, inactive since 2014)
-- **[Super Methane Brothers for Wii and GameCube](../super-methane-brothers-gx.md)** (C++, GPL-2.0, beta, inactive since 2018)
+- **[Super Methane Brothers for Wii and GameCube](../super_methane_brothers_for_wii_and_gamecube.md)** (C++, GPL-2.0, beta, inactive since 2018)
 - **[Super Methane Brothers](../super_methane_brothers.md)** (C++, GPL-2.0, mature, inactive since 2011)
 - **[Super Transball 2](../super_transball_2.md)** (C++, GPL-2.0, mature, inactive since 2005)
 - **[TecnoballZ](../tecnoballz.md)** (C++, GPL-3.0, beta, inactive since 2016)

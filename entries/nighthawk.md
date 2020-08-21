@@ -7,7 +7,7 @@ _Remake of Paradroid._
 - State: mature, inactive since 2004
 - Download: http://night-hawk.sourceforge.net/dl.php
 - Keywords: arcade, inspired by Paradroid, puzzle, remake, shootem
-- Code repository: https://gitlab.com/osgames/night-hawk.git (conversion of cvs), https://night-hawk.cvs.sourceforge.net (cvs)
+- Code repository: https://gitlab.com/osgames/night-hawk.git (conversion of cvs), http://night-hawk.cvs.sourceforge.net (cvs)
 - Code language: C++
 - Code license: GPL-2.0
 - Developer: Jason Nunn, Eric Gillespie

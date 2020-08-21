@@ -141,6 +141,7 @@ https://arcade.academy/
 https://archive.codeplex.com/?p=turnota
 https://archive.codeplex.com/?p=voxeliq
 https://archive.org/details/Gna_code_hosting (all of them)
+https://awesomeopensource.com/categories/games
 https://blenderartists.org/t/devils-pinball/552785
 https://blends.debian.org/games/tasks/
 https://blends.debian.org/games/tasks/racing

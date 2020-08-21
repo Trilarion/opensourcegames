@@ -1016,7 +1016,7 @@
 - **[SunDog Resurrection](../sundog_resurrection.md)** (Java, Python, ?, beta)
 - **[sundog](../sundog.md)** (C, C++, Python, MIT, beta)
 - **[Supaxl](../supaxl.md)** (JavaScript, MIT, mature)
-- **[Super Methane Brothers for Wii and GameCube](../super-methane-brothers-gx.md)** (C++, GPL-2.0, beta, inactive since 2018)
+- **[Super Methane Brothers for Wii and GameCube](../super_methane_brothers_for_wii_and_gamecube.md)** (C++, GPL-2.0, beta, inactive since 2018)
 - **[Super Methane Brothers](../super_methane_brothers.md)** (C++, GPL-2.0, mature, inactive since 2011)
 - **[Super Tilt Bro](../super_tilt_bro.md)** (Assembly, Python, WTFPL, mature)
 - **[Super Transball 2](../super_transball_2.md)** (C++, GPL-2.0, mature, inactive since 2005)

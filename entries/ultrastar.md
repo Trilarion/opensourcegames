@@ -12,7 +12,7 @@ _Clone of SingStar, a music video game._
 - Code language: Pascal
 - Code license: ?
 
-See also [UltraStar Deluxe](https://usdx.eu/) and https://github.com/UltraStar-Deluxe/USDX.
+See also [UltraStar Deluxe](https://usdx.eu/) and https://github.com/UltraStar-Deluxe/USDX
 
 
 ## Building

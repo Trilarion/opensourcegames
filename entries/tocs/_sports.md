@@ -14,6 +14,7 @@
 - **[Libre Pinball](../libre_pinball.md)** (GDScript, MIT, beta, inactive since 2015)
 - **[NetStatsBaseball](../netstatsbaseball.md)** (C, Public domain, mature)
 - **[NOVA PINBALL](../nova_pinball.md)** (Lua, GPL-3.0, beta, inactive since 2017)
+- **[Nox Imperii](../nox_imperii.md)** (C, GPL-3.0, mature, inactive since 2016)
 - **[Open Soccer Star](../open_soccer_star.md)** (PHP, GPL-3.0, beta)
 - **[OpenSoccer](../opensoccer.md)** (PHP, GPL-3.0, beta)
 - **[OpenWebSoccer-Sim](../openwebsoccer-sim.md)** (PHP, LGPL-3.0, mature)

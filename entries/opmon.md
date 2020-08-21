@@ -2,7 +2,7 @@
 
 _Remake of Pokémon._
 
-- Home: https://www.opmon-game.ga/
+- Home: https://opmon-game.ga/
 - State: beta
 - Platform: Windows, Linux, macOS
 - Keywords: remake, inspired by Pokémon, open content

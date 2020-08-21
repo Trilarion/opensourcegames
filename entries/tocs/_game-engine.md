@@ -23,6 +23,7 @@
 - **[DirectX12GameEngine](../directx12gameengine.md)** (C#, MIT, beta)
 - **[Do It Yourself Doom With SDL](../do_it_yourself_doom_with_sdl.md)** (C++, MIT, beta)
 - **[DOOM](../doom.md)** (C, Custom, mature, inactive since 2012)
+- **[DreamZZT](../dreamzzt.md)** (C, C++, GPL-2.0, beta, inactive since 2007)
 - **[Dreerally](../dreerally.md)** (C, C++, Custom, beta)
 - **[DwarfCorp](../dwarfcorp.md)** (C#, MIT, mature)
 - **[eAdventure](../eadventure.md)** (Java, GPL-3.0, mature, inactive since 2014)

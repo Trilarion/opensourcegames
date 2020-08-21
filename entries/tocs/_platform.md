@@ -8,6 +8,7 @@
 - **[Blob Wars : Attrition](../blob_wars_attrition.md)** (C, C++, GPL-3.0, mature)
 - **[Blob Wars Episode 2 : Blob And Conquer](../blob_wars_episode_2_blob_and_conquer.md)** (C++, GPL-2.0, mature, inactive since 2016)
 - **[CaveExpress](../caveexpress.md)** (C, GPL-3.0, mature)
+- **[Cosmo-Engine](../cosmo-engine.md)** (C, GPL-2.0, beta)
 - **[Data Storm](../data_storm.md)** (C, Apache-2.0, mature, inactive since 2017)
 - **[Dave Gnukem](../dave_gnukem.md)** (C++, GPL-2.0, mature)
 - **[Executive Man](../executive_man.md)** (JavaScript, Custom, mature, inactive since 2017)

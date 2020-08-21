@@ -96,6 +96,7 @@
 - **[DXX-Rebirth](../dxx-rebirth.md)** (C, C++, Python, GPL-3.0, Custom, mature)
 - **[Eat The Whistle](../eat_the_whistle.md)** (C, ?, mature, inactive since 2017)
 - **[ECWolf](../ecwolf.md)** (C++, GPL-2.0, BSD, LGPL-2.1, zlib, MIT, IJG, Public domain, mature)
+- **[ElonaFoobar](../elonafoobar.md)** (C++, Lua, MIT, mature)
 - **[Elysium Engine](../elysium_engine.md)** (C, GPL-2.0, beta, inactive since 2006)
 - **[Emilia Pinball](../emilia_pinball.md)** (C++, GPL-2.0, beta)
 - **[Empty Clip](../empty_clip.md)** (C++, GPL-2.0, mature)

@@ -142,7 +142,7 @@ def check_validity_external_links():
     regex = re.compile(r"[\s\n]<(http.+?)>|\]\((http.+?)\)|[\s\n](http[^\s\n,]+?)[\s\n\)]")
 
     # ignore the following patterns (they give false positives here)
-    ignored_urls = ('https://git.tukaani.org/xz.git', 'https://git.code.sf.net/', 'http://hg.hedgewars.org/hedgewars/', 'https://git.xiph.org/vorbis.git', 'http://svn.uktrainsim.com/svn/openrails')
+    ignored_urls = ('https://git.tukaani.org/xz.git', 'https://git.code.sf.net/', 'http://hg.hedgewars.org/hedgewars/', 'https://git.xiph.org/vorbis.git', 'http://svn.uktrainsim.com/svn/openrails', 'https://www.srb2.org/', 'http://wiki.srb2.org/')
 
     # some do redirect, but we nedertheless want the original URL in the database
     redirect_okay = ('https://octaforge.org/', 'https://svn.openttd.org/', 'https://godotengine.org/download')
@@ -215,7 +215,7 @@ def check_validity_external_links():
                 print(output.format(names, url, redirected_url))
         except Exception as e:
             error_name = type(e).__name__
-            if error_name == 'SSLError' and url.startswith('https://gitorious.org/'):
+            if error_name == 'SSLError' and any((url.startswith(x) for x in ('https://gitorious.org/', 'https://www.freedroid.org/download/'))):
                 continue  # even though verify is False, these errors still get through
             print('{}: {} - exception {}'.format(names, url, error_name))
 
@@ -1041,7 +1041,7 @@ if __name__ == "__main__":
     export_git_code_repositories_json()
 
     # check external links (only rarely)
-    check_validity_external_links()
+    # check_validity_external_links()
 
     # sort rejected games list file
     sort_text_file(os.path.join(c.root_path, 'code', 'rejected.txt'), 'rejected games list')

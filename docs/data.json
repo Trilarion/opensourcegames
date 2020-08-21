@@ -377,6 +377,14 @@
    "<a href=\"https://github.com/arescentral/antares.git\">Source</a> - C++ - LGPL-3.0"
   ],
   [
+   "Anteform (<a href=\"https://feneric.itch.io/anteform\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/anteform.md\">entry</a>)",
+   "Similar of Ultima III: Exodus.",
+   "",
+   "beta / active",
+   "role playing, inspired by Ultima III: Exodus, similar",
+   "<a href=\"https://github.com/Feneric/Anteform.git\">Source</a> - Lua - GPL-3.0"
+  ],
+  [
    "AntiChess (<a href=\"https://sourceforge.net/projects/antichess/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/antichess.md\">entry</a>)",
    "AntiChess is an anti chess game. You have to take your..",
    "<a href=\"https://sourceforge.net/projects/antichess/files/antichess/1.0/\">Link</a>",
@@ -775,6 +783,14 @@
    "beta / inactive since 2006",
    "role playing",
    "<a href=\"https://gitlab.com/osgames/bmtactics.git\">Source</a> - JavaScript - GPL-2.0"
+  ],
+  [
+   "BetterSpades (<a href=\"https://aos.party/jenkins/job/BetterSpades/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/betterspades.md\">entry</a>)",
+   "Remake of Ace of Spades.",
+   "",
+   "beta / active",
+   "cards, inspired by Ace of Spades, multiplayer online, open content, remake",
+   "<a href=\"https://github.com/xtreme8000/BetterSpades.git\">Source</a> - C - GPL-3.0"
   ],
   [
    "Between (<a href=\"https://web.archive.org/web/20150131015825/http://www.esquire.com/features/best-and-brightest-2008/rohrer-game\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/between.md\">entry</a>)",
@@ -1417,6 +1433,14 @@
    "<a href=\"https://github.com/alphaonex86/CatchChallenger.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
+   "Cattle Bity (<a href=\"https://dogballs.github.io/cattle-bity/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/cattle_bity.md\">entry</a>)",
+   "Clone of Battle City.",
+   "",
+   "beta / active",
+   "action, clone, commercial content, inspired by Battle City",
+   "<a href=\"https://github.com/dogballs/cattle-bity.git\">Source</a> - TypeScript - MIT"
+  ],
+  [
    "CaveExpress (<a href=\"http://www.caveproductions.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/caveexpress.md\">entry</a>)",
    "Clone of Ugh!.",
    "",
@@ -1791,6 +1815,14 @@
    "mature / active",
    "strategy, commercial content, inspired by Theme Hospital, remake, requires original content",
    "<a href=\"https://github.com/CorsixTH/CorsixTH.git\">Source</a> - Lua, C++ - MIT"
+  ],
+  [
+   "Cosmo-Engine (<a href=\"https://github.com/yuv422/cosmo-engine\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/cosmo-engine.md\">entry</a>)",
+   "Remake of Cosmo's Cosmic Adventure.",
+   "",
+   "beta / active",
+   "platform, commercial content, inspired by Cosmo's Cosmic Adventure, remake, requires original content",
+   "<a href=\"https://github.com/yuv422/cosmo-engine.git\">Source</a> - C - GPL-2.0"
   ],
   [
    "Cosmosmash (<a href=\"http://perso.b2b2c.ca/~sarrazip/dev/cosmosmash.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/cosmosmash.md\">entry</a>)",
@@ -2305,6 +2337,14 @@
    "<a href=\"https://github.com/Aminator/DirectX12GameEngine.git\">Source</a> - C# - MIT"
   ],
   [
+   "Divercity (<a href=\"https://team--rocket.github.io/divercity/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/divercity.md\">entry</a>)",
+   "Clone of Simcity and based on micropolis.",
+   "",
+   "beta / inactive since 2015",
+   "simulation, clone, inspired by Simcity + micropolis, open content",
+   "<a href=\"https://github.com/Team--Rocket/divercity.git\">Source</a> - Java - GPL-3.0"
+  ],
+  [
    "DNT (<a href=\"http://dnt.dnteam.org/cgi-bin/about.py\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/dnt.md\">entry</a>)",
    "3D RPG in a satirical post-apocalyptic world.",
    "<a href=\"http://dnt.dnteam.org/cgi-bin/downloads.py\">Link</a>",
@@ -2417,12 +2457,28 @@
    "<a href=\"https://gitlab.com/osgames/dragon-hunt.git\">Source</a> - Python - GPL-2.0"
   ],
   [
+   "dRally (<a href=\"https://github.com/urxp/drally\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/drally.md\">entry</a>)",
+   "Remake of Death Rally.",
+   "",
+   "beta / active",
+   "action, commercial content, inspired by Death Rally, racing, remake",
+   "<a href=\"https://github.com/urxp/drally.git\">Source</a> - Assembly, C - MIT"
+  ],
+  [
    "DreamChess (<a href=\"https://www.dreamchess.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/dreamchess.md\">entry</a>)",
    "3D chess game.",
    "<a href=\"https://www.dreamchess.org/downloads\">Link</a>",
    "beta / active",
    "strategy, board, chess",
    "<a href=\"https://github.com/dreamchess/dreamchess.git\">Source</a> - C - GPL-3.0"
+  ],
+  [
+   "DreamZZT (<a href=\"https://github.com/c99koder/DreamZZT\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/dreamzzt.md\">entry</a>)",
+   "Remake of ZZT.",
+   "",
+   "beta / inactive since 2007",
+   "game engine, inspired by ZZT, remake",
+   "<a href=\"https://github.com/c99koder/DreamZZT.git\">Source</a> - C, C++ - GPL-2.0"
   ],
   [
    "Dreerally (<a href=\"https://dreerally.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/dreerally.md\">entry</a>)",
@@ -2471,6 +2527,14 @@
    "beta / inactive since 2008",
    "action, commercial content, inspired by Duke Nukem 3D, multiplayer LAN, remake, requires original content, shooter",
    "C - GPL-2.0"
+  ],
+  [
+   "DukeGDX (<a href=\"http://m210.duke4.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/dukegdx.md\">entry</a>)",
+   "Remake of Duke Nukem 3D.",
+   "",
+   "beta / active",
+   "remake, action shooter, commercial content, inspired by Duke Nukem 3D, multiplayer online + LAN + Co-op",
+   "<a href=\"https://gitlab.com/m210/DukeGDX.git\">Source</a> - Java - GPL-3.0"
   ],
   [
    "Dune 2 - The Maker (<a href=\"http://dune2themaker.fundynamic.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/dune_2-the_maker.md\">entry</a>)",
@@ -2663,6 +2727,14 @@
    "mature / inactive since 2005",
    "puzzle",
    "<a href=\"https://github.com/lksj/einstein-puzzle.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
+   "ElonaFoobar (<a href=\"https://elonafoobar.com/en/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/elonafoobar.md\">entry</a>)",
+   "Remake of Elona.",
+   "",
+   "mature / active",
+   "role playing, commercial content, inspired by Elona, remake, roguelike",
+   "<a href=\"https://github.com/elonafoobar/elonafoobar.git\">Source</a> - C++, Lua - MIT"
   ],
   [
    "Elysium Engine (<a href=\"http://elysium.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/elysium_engine.md\">entry</a>)",
@@ -3065,6 +3137,14 @@
    "<a href=\"https://github.com/flixel-gdx/flixel-gdx.git\">Source</a> - Java - 3-clause BSD"
   ],
   [
+   "Floppy Birb (<a href=\"https://oojmed.com/floppy-birb/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/floppy_birb.md\">entry</a>)",
+   "Clone of Flappy Bird.",
+   "",
+   "mature / active",
+   "framework, clone, inspired by Flappy Bird, open content",
+   "<a href=\"https://github.com/oojmed/floppy-birb.git\">Source</a> - JavaScript - MIT"
+  ],
+  [
    "FLTK Recycling Game! (<a href=\"http://www.thregr.org/~wavexx/software/regame/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/fltk_recycling_game.md\">entry</a>)",
    "Simple arcade game where you control a guy who is trying..",
    "",
@@ -3143,6 +3223,14 @@
    "mature / inactive since 2016",
    "action, action-adventure, open content, side-scrolling",
    "<a href=\"https://github.com/antrad/Abuse_1996.git\">Source</a> - Lisp - Public domain"
+  ],
+  [
+   "Free Allegiance (<a href=\"https://www.freeallegiance.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/free_allegiance.md\">entry</a>)",
+   "Remake of Allegiance.",
+   "",
+   "mature / active",
+   "remake, inspired by Allegiance",
+   "<a href=\"https://github.com/FreeAllegiance/Allegiance.git\">Source</a> - C++ - MIT"
   ],
   [
    "Free Heroes 2 (<a href=\"https://sourceforge.net/projects/fheroes2/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/free_heroes_2.md\">entry</a>)",
@@ -3353,6 +3441,14 @@
    "<a href=\"https://github.com/freeserf/freeserf.git\">Source</a> - C, C++ - GPL-3.0"
   ],
   [
+   "Freeserf.net (<a href=\"https://github.com/Pyrdacor/freeserf.net\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/freeserfnet.md\">entry</a>)",
+   "Remake of The Settlers.",
+   "",
+   "mature / active",
+   "strategy, inspired by The Settlers + Freeserf, remake, requires original content",
+   "<a href=\"https://github.com/Pyrdacor/freeserf.net.git\">Source</a> - C# - GPL-3.0"
+  ],
+  [
    "FreeSiege (<a href=\"http://freesiege.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/freesiege.md\">entry</a>)",
    "Remake of Siege.",
    "",
@@ -3369,9 +3465,9 @@
    "<a href=\"https://github.com/francot514/FreeSims.git\">Source</a> - C# - MPL-2.0"
   ],
   [
-   "FreeSO (<a href=\"https://freeso.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/freeso.md\">entry</a>)",
+   "FreeSO (<a href=\"https://web.archive.org/web/20200602032529/https://freeso.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/freeso.md\">entry</a>)",
    "Remake of The Sims Online.",
-   "<a href=\"https://freeso.org/download/\">Link</a>",
+   "<a href=\"https://web.archive.org/web/20200601192250/http://freeso.org/download/\">Link</a>",
    "beta / active",
    "simulation, game engine, inspired by The Sims Online, remake, requires original content",
    "<a href=\"https://github.com/riperiperi/FreeSO.git\">Source</a> - C# - MPL-2.0"
@@ -4137,6 +4233,14 @@
    "<a href=\"https://bitbucket.org/allacrost/allacrost\">Source</a> - C++, Lua - GPL-2.0"
   ],
   [
+   "Heroes of Civilizations (<a href=\"https://github.com/francot514/CivHeroes\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/heroes_of_civilizations.md\">entry</a>)",
+   "Clone of Yu-Gi-Oh!.",
+   "",
+   "beta / active",
+   "strategy, cards, clone, inspired by Yu-Gi-Oh!",
+   "<a href=\"https://github.com/francot514/CivHeroes.git\">Source</a> - C++, C# - GPL-2.0"
+  ],
+  [
    "Heroes of Wesnoth (<a href=\"https://launchpad.net/heroesofwesnoth\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/heroes_of_wesnoth.md\">entry</a>)",
    "A free, turn-based strategy game where you have to guide a..",
    "",
@@ -4481,6 +4585,14 @@
    "<a href=\"https://github.com/matthewgrimes/itbs-code.git\">Source</a> - Python - MIT"
   ],
   [
+   "Isometric-Minesweeper (<a href=\"https://github.com/Bit-Sahil04/Isometric-Minesweeper\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/isometric-minesweeper.md\">entry</a>)",
+   "Clone of Minesweeper.",
+   "",
+   "beta / active",
+   "strategy, clone, inspired by Minesweeper, open content",
+   "<a href=\"https://github.com/Bit-Sahil04/Isometric-Minesweeper.git\">Source</a> - Python - MIT"
+  ],
+  [
    "Iter Vehemens ad Necem (<a href=\"https://attnam.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/iter_vehemens_ad_necem.md\">entry</a>)",
    "Graphical roguelike game with advanced bodypart and..",
    "<a href=\"https://attnam.com/projects\">Link</a>",
@@ -4559,6 +4671,14 @@
    "beta / inactive since 2010",
    "role playing",
    "<a href=\"https://svn.code.sf.net/p/javacrpg/code\">Source</a> - Java - LGPL-3.0"
+  ],
+  [
+   "JediAcademyLinux (<a href=\"https://github.com/xLAva/JediAcademyLinux\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/jediacademylinux.md\">entry</a>)",
+   "Remake of Star Wars Jedi Knight: Jedi Academy.",
+   "",
+   "beta / inactive since 2017",
+   "action, inspired by Star Wars Jedi Knight: Jedi Academy, remake, shooter",
+   "<a href=\"https://github.com/xLAva/JediAcademyLinux.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "JediOutcastLinux (<a href=\"https://github.com/xLAva/JediOutcastLinux\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/jedioutcastlinux.md\">entry</a>)",
@@ -5073,6 +5193,14 @@
    "<a href=\"https://github.com/Librelancer/Librelancer.git\">Source</a> - C, C# - MIT"
   ],
   [
+   "Librerama (<a href=\"https://yeldham.itch.io/librerama\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/librerama.md\">entry</a>)",
+   "Clone of WarioWare.",
+   "",
+   "mature / active",
+   "arcade, clone, inspired by WarioWare, open content",
+   "<a href=\"https://codeberg.org/Yeldham/librerama.git\">Source</a> - GDScript - GPL-3.0"
+  ],
+  [
    "libvorbis (<a href=\"https://xiph.org/vorbis/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/libvorbis.md\">entry</a>)",
    "Vorbis audio compression reference implementation.",
    "<a href=\"https://xiph.org/downloads/\">Link</a>",
@@ -5191,6 +5319,14 @@
    "beta / active",
    "puzzle, 2D, clone, inspired by Lemmings, multiplayer online, open content",
    "<a href=\"https://github.com/SimonN/LixD.git\">Source</a> - D, C++ - CC0"
+  ],
+  [
+   "LMarbles (<a href=\"http://lgames.sourceforge.net/LMarbles/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/lmarbles.md\">entry</a>)",
+   "Clone of Atomix.",
+   "",
+   "beta / active",
+   "strategy, clone, inspired by Atomix, open content",
+   "<a href=\"https://svn.code.sf.net/p/lgames/code\">Source</a> - C - GPL-2.0"
   ],
   [
    "Lords of the Fey (<a href=\"https://github.com/apsillers/lords-of-the-fey\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/lords_of_the_fey.md\">entry</a>)",
@@ -5641,6 +5777,14 @@
    "<a href=\"https://github.com/KOBUGE-Games/minilens.git\">Source</a> - GDScript - GPL-3.0"
   ],
   [
+   "Minima (<a href=\"https://feneric.itch.io/minima\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/minima.md\">entry</a>)",
+   "Clone of Ultima III: Exodus.",
+   "<a href=\"https://github.com/Feneric/Minima/releases\">Link</a>",
+   "mature / active",
+   "role playing, clone, inspired by Ultima III: Exodus",
+   "<a href=\"https://github.com/Feneric/Minima.git\">Source</a> - Lua - GPL-3.0"
+  ],
+  [
    "Mininim (<a href=\"http://oitofelix.github.io/mininim/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/mininim.md\">entry</a>)",
    "Remake of Prince of Persia.",
    "",
@@ -6007,6 +6151,14 @@
    "beta / inactive since 2017",
    "sports",
    "<a href=\"https://github.com/wesleywerner/nova-pinball.git\">Source</a> - Lua - GPL-3.0"
+  ],
+  [
+   "Nox Imperii (<a href=\"http://noximperii.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/nox_imperii.md\">entry</a>)",
+   "Similar of Escape Velocity.",
+   "",
+   "mature / inactive since 2016",
+   "sports, inspired by Escape Velocity + Naev, open content, similar",
+   "<a href=\"https://github.com/Kinniken/NoxImperii.git\">Source</a> - C - GPL-3.0"
   ],
   [
    "NStars! (<a href=\"http://nstars.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/nstars.md\">entry</a>)",
@@ -6577,6 +6729,14 @@
    "<a href=\"https://github.com/openfl/openfl.git\">Source</a> - Haxe - MIT"
   ],
   [
+   "OpenFNaF (<a href=\"https://github.com/MotoLegacy/OpenFNaF\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/openfnaf.md\">entry</a>)",
+   "Clone of Five Nights at Freddy's.",
+   "",
+   "beta / active",
+   "role playing, clone, free content, inspired by Five Nights at Freddy's",
+   "<a href=\"https://github.com/MotoLegacy/OpenFNaF.git\">Source</a> - C - MIT"
+  ],
+  [
    "Openfrag (<a href=\"https://sourceforge.net/projects/openfrag/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/openfrag.md\">entry</a>)",
    "Medieval-themed open-source FPS.",
    "<a href=\"https://sourceforge.net/projects/openfrag/files/\">Link</a>",
@@ -6969,6 +7129,14 @@
    "<a href=\"https://github.com/OpenXcom/OpenXcom.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
+   "OpenYandere (<a href=\"https://github.com/Evilpersonwithnosoul/OpenYandere\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/openyandere.md\">entry</a>)",
+   "Clone of Yandere Simulator.",
+   "",
+   "beta / inactive since 2018",
+   "action, clone, free content, inspired by Yandere Simulator",
+   "<a href=\"https://github.com/Evilpersonwithnosoul/OpenYandere.git\">Source</a> - C# - GPL-3.0"
+  ],
+  [
    "Operation Citadel (<a href=\"http://kursk.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/operation_citadel.md\">entry</a>)",
    "A WWII, turn based platoon, company level war game on the..",
    "<a href=\"https://sourceforge.net/projects/kursk/files\">Link</a>",
@@ -6977,7 +7145,7 @@
    "<a href=\"https://gitlab.com/osgames/kursk.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
-   "OPMon (<a href=\"https://www.opmon-game.ga/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/opmon.md\">entry</a>)",
+   "OPMon (<a href=\"https://opmon-game.ga/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/opmon.md\">entry</a>)",
    "Remake of Pok\u00e9mon.",
    "",
    "beta / active",

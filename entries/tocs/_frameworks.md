@@ -20,6 +20,7 @@
 - **[Flex Engine](../flex_engine.md)** (C++, MIT, beta)
 - **[flixel-gdx](../flixel-gdx.md)** (Java, 3-clause BSD, beta, inactive since 2017)
 - **[Flixel](../flixel.md)** (ActionScript, MIT, mature)
+- **[Floppy Birb](../floppy_birb.md)** (JavaScript, MIT, mature)
 - **[GemRB](../gemrb.md)** (C++, Python, GPL-2.0, mature)
 - **[Godot](../godot.md)** (C, C++, MIT, mature)
 - **[Grit Game Engine](../grit_game_engine.md)** (C++, Python, MIT, beta)

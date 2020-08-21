@@ -42,11 +42,10 @@ from utils import constants, utils, osg
 
 # should change on osgameclones
 osgc_name_aliases = {'4DTris': '4D-TRIS', 'fheroes2': 'Free Heroes 2', 'DrCreep': 'The Castles of Dr. Creep',
-                     'Duke3d_win32': 'Duke3d_w32', 'erampage (EDuke32 fork)': 'erampage', 'GNOME Atomix': 'Atomix',
-                     'Head over Heels 2': 'Head over Heels',
+                     'Duke3d_win32': 'Duke3d_w32', 'GNOME Atomix': 'Atomix', 'Head over Heels 2': 'Head over Heels',
                      'mewl': 'M.E.W.L.', 'LinWarrior': 'Linwarrior 3D', 'Mice Men Remix': 'Mice Men: Remix',
                      'OpenApoc': 'Open Apocalypse', 'open-cube': 'Open Cube', 'open-horizon': 'Open Horizon',
-                     'opengl_test_drive_clone': 'OpenGL Test Drive Remake',
+                     'opengl_test_drive_clone': 'OpenGL Test Drive Remake', "Freenukum Jump'n Run": 'Freenukum',
                      'Play Freeciv!': 'Freeciv-web', 'ProjectX': 'Forsaken',
                      'Siege of Avalon Open Source': 'Siege of Avalon : Open Source', 'ss13remake': 'SS13 Remake',
                      'shadowgrounds': 'Shadowgrounds', 'RxWars': 'Prescription Wars',
@@ -67,13 +66,13 @@ osgc_ignored_entries = ["A Mouse's Vengeance", 'achtungkurve.com', 'AdaDoom3', '
                         'datastorm', 'div-columns', 'div-pacman2600', 'div-pitfall', 'div-spaceinvaders2600', 'EXILE',
                         'Free in the Dark',
                         'Football Manager', 'Fight Or Perish', 'EarthShakerDS', 'Entombed!', 'FreeRails 2',
-                        'Glest Advanced Engine', 'FreedroidClassic', 'FreeFT', 'Future Blocks', 'HeadOverHeels'
-    , 'Herzog 3D', 'Homeworld SDL', 'imperialism-remake', 'Jumping Jack 2: Worryingly Familiar',
+                        'Glest Advanced Engine', 'FreedroidClassic', 'FreeFT', 'Future Blocks', 'HeadOverHeels',
+                        'Herzog 3D', 'Homeworld SDL', 'imperialism-remake', 'Jumping Jack 2: Worryingly Familiar',
                         'Jumping Jack: Further Adventures', 'Jumpman', 'legion', 'KZap', 'LastNinja', 'Lemmix', 'LixD',
                         'luminesk5', 'Manic Miner', 'Meridian 59 Server 105', 'Meridian 59 German Server 112',
                         'Mining Haze', 'OpenGeneral', 'MonoStrategy', 'New RAW', 'OpenDeathValley', 'OpenOutcast',
                         'openStrato', 'OpenPop', 'pacman',
-                        'Phavon', 'PKMN-FX', 'Project: Xenocide', 'pyspaceinvaders', 'PyTouhou', 'Racer',
+                        'Phavon', 'Project: Xenocide', 'pyspaceinvaders', 'PyTouhou', 'Racer',
                         'Ruby OMF 2097 Remake', 'Snipes', 'Spaceship Duel', 'Space Station 14', 'Starlane Empire',
                         'Styx', 'Super Mario Bros With SFML in C#', 'thromolusng', 'Tile World 2', 'Tranzam',
                         'Voxelstein 3D', 'XQuest 2',
@@ -129,7 +128,7 @@ if __name__ == "__main__":
     root_path = os.path.realpath(os.path.join(os.path.dirname(__file__), os.path.pardir))
 
     # import the osgameclones data
-    osgc_path = os.path.realpath(os.path.join(root_path, os.path.pardir, '11_osgameclones.git', 'games'))
+    osgc_path = os.path.realpath(os.path.join(root_path, os.path.pardir, 'osgameclones.git', 'games'))
     osgc_files = os.listdir(osgc_path)
 
     # iterate over all yaml files in osgameclones/data folder and load contents
@@ -148,6 +147,7 @@ if __name__ == "__main__":
     print('Currently {} entries in osgameclones'.format(len(osgc_entries)))
 
     # check: print all git repos with untypical structure
+    untypical_structure = ''
     for osgc_entry in osgc_entries:
         name = osgc_entry['name']
         if 'repo' in osgc_entry:
@@ -156,14 +156,16 @@ if __name__ == "__main__":
                 osgc_repos = [osgc_repos]
             for repo in osgc_repos:
                 if 'github' in repo and any((repo.endswith(x) for x in ('/', '.git'))):
-                    print('{} : {}'.format(osgc_entry['name'], repo))
+                    untypical_structure += ' {} : {}\n'.format(osgc_entry['name'], repo)
+    if untypical_structure:
+        print('Git repos with untypical URL\n{}'.format(untypical_structure))
 
     # which fields do they have
     osgc_fields = set()
     for osgc_entry in osgc_entries:
         osgc_fields.update(osgc_entry.keys())
     osgc_fields = sorted(list(osgc_fields))
-    print('Unique osgc-fields: {}'.format(', '.join(osgc_fields)))
+    print('Unique osgc-fields\n {}'.format(', '.join(osgc_fields)))
 
     for field in osgc_fields:
         if field in ('video', 'feed', 'url', 'repo', 'info', 'updated', 'images', 'name', 'originals'):
@@ -200,7 +202,7 @@ if __name__ == "__main__":
             osgc_licenses = entry['license']
             osgc_licenses = [osgc_licenses_map.get(x, x) for x in osgc_licenses]
             entry['license'] = osgc_licenses
-        # fix content (add suffix content
+        # fix content (add suffix content)
         if 'content' in entry:
             osgc_content = entry['content']
             if isinstance(osgc_content, str):
@@ -243,12 +245,11 @@ if __name__ == "__main__":
     our_names -= common_names
     print('{} in both, {} only in osgameclones, {} only with us'.format(len(common_names), len(osgc_names),
                                                                         len(our_names)))
-
     # find similar names among the rest
     # print('look for similar names')
     # for osgc_name in osgc_names:
     #    for our_name in our_names:
-    #        if osg.game_name_similarity(osgc_name, our_name) > similarity_threshold:
+    #        if osg.name_similarity(osgc_name, our_name) > similarity_threshold:
     #            print(' {} - {}'.format(osgc_name, our_name))
 
     newly_created_entries = 0
@@ -471,8 +472,9 @@ if __name__ == "__main__":
                     osgc_multiplayer = [osgc_multiplayer]
                 keywords.append('multiplayer {}'.format(' + '.join(osgc_multiplayer)))
             if 'content' in osgc_entry:
-                osgc_content = osgc_entry['content']
-                keywords.append('{} content'.format(osgc_content))
+                osgc_content = osgc_entry['content']  # it's a list
+                osgc_content = ', '.join(osgc_content)
+                keywords.append(osgc_content)
             if keywords:
                 entry += '- Keywords: {}\n'.format(', '.join(keywords))
 

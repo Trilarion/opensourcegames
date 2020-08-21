@@ -387,7 +387,6 @@ https://github.com/WagicProject/wagic
 https://github.com/wesnoth/haldric
 https://github.com/WohlSoft/PGE-Project
 https://github.com/xrOxygen/xray-oxygen
-https://github.com/xtreme8000/BetterSpades
 https://github.com/YuriiSalimov/15-puzzle
 https://github.com/Zal0/ZGB
 https://github.com/zurn/zapper (or any other tapper clone)

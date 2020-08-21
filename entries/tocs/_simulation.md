@@ -21,6 +21,7 @@
 - **[Cultivation](../cultivation.md)** (C++, Public domain, mature, inactive since 2010)
 - **[Cytopia](../cytopia.md)** (C++, GPL-3.0, beta)
 - **[Danger from the Deep](../danger_from_the_deep.md)** (C++, GPL-2.0, beta, inactive since 2011)
+- **[Divercity](../divercity.md)** (Java, GPL-3.0, beta, inactive since 2015)
 - **[Dope Wars](../dope_wars.md)** (C, GPL-2.0, mature, inactive since 2013)
 - **[Eat The Whistle](../eat_the_whistle.md)** (C, ?, mature, inactive since 2017)
 - **[Ecksdee](../ecksdee.md)** (C++, GPL-2.0, beta, inactive since 2009)

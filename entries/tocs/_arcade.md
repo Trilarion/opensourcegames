@@ -41,6 +41,7 @@
 - **[Ladder](../ladder.md)** (Java, GPL-2.0, mature, inactive since 2005)
 - **[LBreakout2](../lbreakout2.md)** (C, GPL-2.0, mature, inactive since 2010)
 - **[LBreakoutHD](../lbreakouthd.md)** (C++, GPL-3.0, mature)
+- **[Librerama](../librerama.md)** (GDScript, GPL-3.0, mature)
 - **[Limbs Off](../limbs_off.md)** (C++, GPL-3.0, beta, inactive since 2013)
 - **[Luola](../luola.md)** (C, GPL-2.0, mature, inactive since 2005)
 - **[Maelstrom](../maelstrom.md)** (C, C++, GPL-2.0, mature, inactive since 2002)

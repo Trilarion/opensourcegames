@@ -143,6 +143,7 @@
 - **[RogueBox Adventures](../roguebox_adventures.md)** (Python, GPL-3.0, mature, inactive since 2017)
 - **[Roguish](../roguish.md)** (JavaScript, 3-clause BSD, beta, inactive since 2015)
 - **[Room for Change](../room_for_change.md)** (Java, Apache-2.0, mature, inactive since 2013)
+- **[Rot Magus](../rot_magus.md)** (JavaScript, Apache-2.0, CC0, beta)
 - **[rpgboss](../rpgboss.md)** (Scala, JavaScript, AGPL-3.0, beta, inactive since 2017)
 - **[RuneLite](../runelite.md)** (Java, 2-clause BSD, mature)
 - **[Ryzom Core](../ryzom_core.md)** (C++, AGPL-3.0, mature)

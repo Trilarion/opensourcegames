@@ -4841,6 +4841,14 @@
    "<a href=\"https://github.com/miki151/keeperrl.git\">Source</a> - C, C++ - GPL-2.0"
   ],
   [
+   "KevEdit (<a href=\"https://github.com/cknave/kevedit\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/kevedit.md\">entry</a>)",
+   "Advanced world editor of ZZT.",
+   "",
+   "mature / active",
+   "tool, inspired by ZZT",
+   "<a href=\"https://github.com/cknave/kevedit.git\">Source</a> - C - GPL-2.0"
+  ],
+  [
    "Key Runner (<a href=\"https://web.archive.org/web/20150412095108/http://killergame.net/keyrunner/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/key_runner.md\">entry</a>)",
    "Key Runner is a 2D overhead action game where Moschata,..",
    "",
@@ -5449,6 +5457,14 @@
    "<a href=\"https://github.com/richardjs/Maelstrom.git\">Source</a> - C, C++ - GPL-2.0"
   ],
   [
+   "Mafia II: Toolkit (<a href=\"https://mafiamods.com/mods/mafia-2-toolkit/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/mafia_ii_toolkit.md\">entry</a>)",
+   "Modding tools such as a map editor, model exporter,..",
+   "",
+   "mature / active",
+   "tool, inspired by Mafia II",
+   "<a href=\"https://github.com/Greavesy1899/Mafia2Toolkit.git\">Source</a> - C# - MIT"
+  ],
+  [
    "Magarena (<a href=\"https://magarena.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/magarena.md\">entry</a>)",
    "Single-player fantasy card game played against a computer..",
    "<a href=\"https://github.com/magarena/magarena/releases/\">Link</a>",
@@ -5719,6 +5735,14 @@
    "beta / active",
    "simulation, clone, inspired by Minecraft, open content, sandbox, voxel",
    "<a href=\"https://github.com/Hopson97/MineCraft-One-Week-Challenge.git\">Source</a> - C++ - MIT"
+  ],
+  [
+   "minecraft-weekend (<a href=\"https://github.com/jdah/minecraft-weekend\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/minecraft-weekend.md\">entry</a>)",
+   "Clone of Minecraft.",
+   "",
+   "beta / active",
+   "simulation, clone, inspired by Minecraft",
+   "<a href=\"https://github.com/jdah/minecraft-weekend.git\">Source</a> - C - MIT"
   ],
   [
    "Mines (<a href=\"https://wiki.gnome.org/Apps/Mines\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/mines.md\">entry</a>)",
@@ -6007,6 +6031,14 @@
    "mature / active",
    "remake, commercial content, first-person, inspired by Blood, requires original content, shooter",
    "<a href=\"https://github.com/nukeykt/NBlood.git\">Source</a> - C, C++, Lua - GPL-2.0"
+  ],
+  [
+   "NBlood / Rednukem / PCExhumed (<a href=\"https://lerppu.net/wannabethesis/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/pcexhumed.md\">entry</a>)",
+   "Remake of Powerslave.",
+   "",
+   "beta / active",
+   "action, commercial content, inspired by Powerslave, remake",
+   "<a href=\"https://github.com/nukeykt/NBlood.git\">Source</a> - C++ - Custom"
   ],
   [
    "ncurses (<a href=\"https://invisible-island.net/ncurses/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/ncurses.md\">entry</a>)",
@@ -6353,14 +6385,6 @@
    "<a href=\"https://github.com/OpenApoc/OpenApoc.git\">Source</a> - C++ - MIT"
   ],
   [
-   "Open Creatures (<a href=\"https://web.archive.org/web/20110223210931/http://openc2e.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/open_creatures.md\">entry</a>)",
-   "Remake of Creatures.",
-   "",
-   "beta / inactive since 2010",
-   "simulation, inspired by Creatures, remake",
-   "<a href=\"https://github.com/ccdevnet/openc2e.git\">Source</a> - C, C++, Python - LGPL-2.1"
-  ],
-  [
    "Open Cube (<a href=\"http://team-cube.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/open_cube.md\">entry</a>)",
    "Remake of Cube 2: Sauerbraten.",
    "",
@@ -6639,6 +6663,14 @@
    "beta / inactive since 2014",
    "remake, commercial content, inspired by Carmageddon",
    "<a href=\"https://github.com/jeff-1amstudios/OpenC1.git\">Source</a> - C# - ?"
+  ],
+  [
+   "openc2e (<a href=\"https://web.archive.org/web/20110223210931/http://openc2e.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/openc2e.md\">entry</a>)",
+   "Remake of Creatures.",
+   "",
+   "beta / active",
+   "simulation, game engine, inspired by Creatures, remake, requires original content",
+   "<a href=\"https://github.com/openc2e/openc2e.git\">Source</a> - C, C++ - LGPL-2.1"
   ],
   [
    "OpenCity (<a href=\"http://www.opencity.info/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/opencity.md\">entry</a>)",
@@ -7025,6 +7057,14 @@
    "<a href=\"https://github.com/delight-im/OpenSoccer.git\">Source</a> - PHP - GPL-3.0"
   ],
   [
+   "OpenSolomonsKey (<a href=\"https://github.com/mdodis/OpenSolomonsKey\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/opensolomonskey.md\">entry</a>)",
+   "Clone of Solomon's Key.",
+   "",
+   "beta / active",
+   "puzzle, clone, inspired by Solomon's Key, open content",
+   "<a href=\"https://github.com/mdodis/OpenSolomonsKey.git\">Source</a> - C++ - Unlicense"
+  ],
+  [
    "OpenSpades (<a href=\"http://openspades.yvt.jp/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/openspades.md\">entry</a>)",
    "Remake of Ace of Spades.",
    "<a href=\"https://github.com/yvt/openspades/releases\">Link</a>",
@@ -7047,6 +7087,14 @@
    "mature / active",
    "library",
    "<a href=\"https://github.com/openssl/openssl.git\">Source</a> - C - Apache-2.0"
+  ],
+  [
+   "OpenSupaplex (<a href=\"https://github.com/sergiou87/open-supaplex\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/opensupaplex.md\">entry</a>)",
+   "Remake of Supaplex.",
+   "",
+   "mature / active",
+   "puzzle, free content, inspired by Supaplex, remake",
+   "<a href=\"https://github.com/sergiou87/open-supaplex.git\">Source</a> - C - GPL-3.0"
   ],
   [
    "OpenSWE1R (<a href=\"https://openswe1r.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/openswe1r.md\">entry</a>)",
@@ -7151,6 +7199,14 @@
    "beta / active",
    "remake, inspired by Pok\u00e9mon, open content",
    "<a href=\"https://github.com/OpMonTeam/OpMon.git\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
+   "opsu! (<a href=\"https://itdelatrisu.github.io/opsu/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/opsu.md\">entry</a>)",
+   "Osu! client.",
+   "",
+   "mature / active",
+   "tool, free content, inspired by Osu! Tatakae! Ouendan",
+   "<a href=\"https://github.com/itdelatrisu/opsu.git\">Source</a> - Java - GPL-3.0"
   ],
   [
    "Orbit-Hopper (<a href=\"http://www.zneaker.com/projects.html#orbit\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/orbit-hopper.md\">entry</a>)",
@@ -7673,6 +7729,14 @@
    "<a href=\"https://github.com/svkaiser/PowerslaveEX.git\">Source</a> - C, C++ - GPL-3.0"
   ],
   [
+   "PowerslaveGDX (<a href=\"http://m210.duke4.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/powerslavegdx.md\">entry</a>)",
+   "Remake of Powerslave.",
+   "",
+   "beta / active",
+   "action, commercial content, inspired by Powerslave, remake",
+   "<a href=\"https://gitlab.com/m210/PowerslaveGDX.git\">Source</a> - Java - Custom"
+  ],
+  [
    "Powerslide remake (<a href=\"https://www.moddb.com/mods/powerslideremake\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/powerslide_remake.md\">entry</a>)",
    "Remake of Powerslide.",
    "",
@@ -7719,6 +7783,14 @@
    "mature / inactive since 2009",
    "puzzle, open content",
    "<a href=\"https://gitlab.com/osgames/primrose.git\">Source</a> - C++ - Public domain"
+  ],
+  [
+   "Prince-Monogame (<a href=\"https://github.com/salvadorc17/Prince-Monogame.git\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/prince-monogame.md\">entry</a>)",
+   "Remake of Prince of Persia 2.",
+   "",
+   "beta / active",
+   "action, inspired by Prince of Persia 2, remake",
+   "<a href=\"https://github.com/salvadorc17/Prince-Monogame.git\">Source</a> - C# - GPL-2.0"
   ],
   [
    "Privateer - Gemini Gold (<a href=\"http://privateer.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/privateer-gemini_gold.md\">entry</a>)",
@@ -7945,6 +8017,14 @@
    "Python - GPL-2.0"
   ],
   [
+   "Python Kye (<a href=\"http://games.moria.org.uk/kye/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/python_kye.md\">entry</a>)",
+   "Puzzle game with arcade game elements.",
+   "<a href=\"http://games.moria.org.uk/kye/download-install\">Link</a>",
+   "mature / inactive since 2010",
+   "puzzle, inspired by Kye, remake",
+   "Python - GPL-2.0"
+  ],
+  [
    "PyTMX (<a href=\"https://pypi.org/project/PyTMX/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/pytmx.md\">entry</a>)",
    "Read Tiled Map Editor's TMX maps.",
    "",
@@ -7999,6 +8079,14 @@
    "mature / active",
    "puzzle, clone, inspired by Tetris, open content, tetris-like",
    "<a href=\"https://gitlab.gnome.org/GNOME/quadrapassel.git\">Source</a> - Vala - GPL-2.0"
+  ],
+  [
+   "Quake3e (<a href=\"https://github.com/ec-/Quake3e\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/quake3e.md\">entry</a>)",
+   "Remake of Quake 3.",
+   "",
+   "beta / active",
+   "remake, commercial content, inspired by Quake 3, multiplayer Competitive + Local + LAN, shooter",
+   "<a href=\"https://github.com/ec-/Quake3e.git\">Source</a> - C - GPL-2.0"
   ],
   [
    "QuakeJS (<a href=\"http://www.quakejs.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/quakejs.md\">entry</a>)",
@@ -8113,12 +8201,44 @@
    "<a href=\"https://github.com/RobertBeckebans/RBDOOM-3-BFG.git\">Source</a> - C, C++ - GPL-3.0"
   ],
   [
+   "Reconstruction of Super ZZT (<a href=\"https://github.com/asiekierka/reconstruction-of-super-zzt\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/reconstruction_of_super_zzt.md\">entry</a>)",
+   "Remake of Super ZZT.",
+   "",
+   "beta / active",
+   "adventure, inspired by Super ZZT, remake",
+   "<a href=\"https://github.com/asiekierka/reconstruction-of-super-zzt.git\">Source</a> - Pascal - MIT"
+  ],
+  [
+   "Reconstruction of ZZT (<a href=\"https://github.com/asiekierka/reconstruction-of-zzt\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/reconstruction_of_zzt.md\">entry</a>)",
+   "Remake of ZZT.",
+   "",
+   "beta / active",
+   "adventure, inspired by ZZT, remake",
+   "<a href=\"https://github.com/asiekierka/reconstruction-of-zzt.git\">Source</a> - Pascal - MIT"
+  ],
+  [
    "Red Eclipse (<a href=\"https://www.redeclipse.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/red_eclipse.md\">entry</a>)",
    "First person arena shooter, featuring parkour, impulse..",
    "<a href=\"https://www.redeclipse.net/download\">Link</a>",
    "mature / active",
    "action, shooter",
    "<a href=\"https://github.com/red-eclipse/base.git\">Source</a> - C++ - zlib"
+  ],
+  [
+   "RedneckGDX (<a href=\"http://m210.duke4.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/redneckgdx.md\">entry</a>)",
+   "Remake of Redneck Rampage.",
+   "",
+   "beta / active",
+   "action, commercial content, inspired by Redneck Rampage, multiplayer Online + LAN + Co-op, remake",
+   "<a href=\"https://gitlab.com/m210/RedneckGDX.git\">Source</a> - Java - Custom"
+  ],
+  [
+   "Rednukem (<a href=\"https://nukeykt.retrohost.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/rednukem.md\">entry</a>)",
+   "Remake of Redneck Rampage, Duke Nukem 3D.",
+   "",
+   "beta / active",
+   "action, commercial content, inspired by Redneck Rampage + Duke Nukem 3D, remake",
+   "<a href=\"https://github.com/nukeykt/NBlood.git\">Source</a> - C++ - Custom"
   ],
   [
    "RedShift (<a href=\"http://rsfs.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/redshift.md\">entry</a>)",
@@ -8353,6 +8473,22 @@
    "<a href=\"https://github.com/antionio/game-off-2013.git\">Source</a> - Java - Apache-2.0"
   ],
   [
+   "Rot Magus (<a href=\"https://gamejolt.com/games/rm/41491\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/rot_magus.md\">entry</a>)",
+   "An extended, browser-based remake of Magus.",
+   "",
+   "beta / active",
+   "role playing, inspired by Magus, open content, remake, roguelike, turn-based",
+   "<a href=\"https://github.com/kosinaz/Rot-Magus.git\">Source</a> - JavaScript - Apache-2.0"
+  ],
+  [
+   "Roton (<a href=\"https://github.com/SaxxonPike/roton\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/roton.md\">entry</a>)",
+   "Emulation of the ZZT and Super ZZT game creation engines.",
+   "",
+   "beta / inactive since 2019",
+   "remake, inspired by Super ZZT + ZZT",
+   "<a href=\"https://github.com/SaxxonPike/roton.git\">Source</a> - C# - ISC"
+  ],
+  [
    "RPDungeon - computer aided role playing (<a href=\"https://sourceforge.net/projects/rpdungeon/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/rpdungeon-computer_aided_role_playing.md\">entry</a>)",
    "Collection of programs and libraries for pen and paper..",
    "<a href=\"https://sourceforge.net/projects/rpdungeon/files\">Link</a>",
@@ -8439,6 +8575,14 @@
    "mature / inactive since 2011",
    "arcade, open content",
    "<a href=\"https://github.com/kig/runfield.git\">Source</a> - JavaScript - GPL-3.0"
+  ],
+  [
+   "RuZZT (<a href=\"https://github.com/yokljo/ruzzt\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/ruzzt.md\">entry</a>)",
+   "Clone of the engine of ZZT.",
+   "",
+   "beta / active",
+   "adventure, game engine, inspired by ZZT, remake",
+   "<a href=\"https://github.com/yokljo/ruzzt.git\">Source</a> - Rust - MIT"
   ],
   [
    "Ryzom Core (<a href=\"https://ryzomcore.atlassian.net/wiki/spaces/RC/overview\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/ryzom_core.md\">entry</a>)",
@@ -9177,6 +9321,14 @@
    "<a href=\"https://github.com/textadventures/squiffy.git\">Source</a> - JavaScript - MIT"
   ],
   [
+   "SR (<a href=\"https://github.com/M-HT/SR\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/sr.md\">entry</a>)",
+   "Tool to statically recompile the original game executable..",
+   "",
+   "mature / active",
+   "tool, commercial content, inspired by Albion + Septerra Core: Legacy of the Creator + Warcraft: Orcs & Humans + X-COM: Terror from the Deep + X-COM: UFO Defense",
+   "<a href=\"https://github.com/M-HT/SR.git\">Source</a> - C, Assembly - MIT"
+  ],
+  [
    "SS13 Remake (<a href=\"https://github.com/ss13remake/ss13remake\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/ss13_remake.md\">entry</a>)",
    "Remake of Space Station 13.",
    "",
@@ -9641,6 +9793,14 @@
    "<a href=\"https://github.com/matricks/teeworlds.git\">Source</a> - C, C++ - zlib"
   ],
   [
+   "TekwarGDX (<a href=\"http://m210.duke4.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/tekwargdx.md\">entry</a>)",
+   "Remake of TekWar.",
+   "",
+   "beta / active",
+   "action, commercial content, first person, inspired by TekWar, remake, shooter",
+   "<a href=\"https://gitlab.com/m210/TekwarGDX.git\">Source</a> - Java - Custom"
+  ],
+  [
    "Tenes Empanadas Graciela (<a href=\"https://github.com/wfx/teg\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/tenes_empanadas_graciela.md\">entry</a>)",
    "Clone of 'Plan Tactico y Estrategico de la Guerra', which..",
    "",
@@ -9799,6 +9959,14 @@
    "mature / active",
    "game engine, commercial content, first-person, inspired by Doom + Heretic + Hexen + Strife, multiplayer LAN, remake, requires original content, shooter",
    "<a href=\"https://github.com/team-eternity/eternity.git\">Source</a> - C, C++ - GPL-3.0"
+  ],
+  [
+   "The Force Engine (<a href=\"https://theforceengine.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/the_force_engine.md\">entry</a>)",
+   "Remake of Dark Forces, Outlaws.",
+   "",
+   "beta / active",
+   "action, commercial content, first person, game engine, inspired by Dark Forces + Outlaws, remake, requires original content, shooter",
+   "<a href=\"https://github.com/luciusDXL/TheForceEngine.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "The hunt for the lost rainbow jewels (Jewelhunt) (<a href=\"https://sourceforge.net/projects/jewelhunt/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/the_hunt_for_the_lost_rainbow_jewels_jewelhunt.md\">entry</a>)",
@@ -10257,6 +10425,14 @@
    "<a href=\"https://github.com/twisted/twisted.git\">Source</a> - Python - MIT"
   ],
   [
+   "Tyger (<a href=\"https://code.google.com/archive/p/tyger/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/tyger.md\">entry</a>)",
+   "Remake of ZZT.",
+   "<a href=\"https://code.google.com/archive/p/tyger/source/default/source\">Link</a>",
+   "beta / inactive since 2016",
+   "adventure, game engine, remake, v inspired by ZZT",
+   "Python - ?"
+  ],
+  [
    "Tyrian Remake (<a href=\"https://www.b3dgs.com/v7/page.php?lang=en&section=tyrian_remake\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/tyrian_remake.md\">entry</a>)",
    "Remake of Tyrian.",
    "",
@@ -10623,6 +10799,14 @@
    "mature / inactive since 2015",
    "role playing, inspired by Falcon's Eye, roguelike",
    "<a href=\"https://github.com/Herdinger/vulture.git\">Source</a> - C++ - NetHack General Public License"
+  ],
+  [
+   "VVVVVV (<a href=\"http://distractionware.com/blog/2020/01/vvvvvv-is-now-open-source/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/vvvvvv.md\">entry</a>)",
+   "Source code to VVVVVV.",
+   "",
+   "mature / active",
+   "platform, commercial content, inspired by VVVVVV, remake, requires original content",
+   "<a href=\"https://github.com/TerryCavanagh/vvvvvv.git\">Source</a> - ActionScript, C++ - Custom"
   ],
   [
    "WallBall (<a href=\"https://github.com/plainsightcollection/plainsightcollection.github.io\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/wallball.md\">entry</a>)",

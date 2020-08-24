@@ -50,7 +50,7 @@ osgc_name_aliases = {'4DTris': '4D-TRIS', 'fheroes2': 'Free Heroes 2', 'DrCreep'
                      'Siege of Avalon Open Source': 'Siege of Avalon : Open Source', 'ss13remake': 'SS13 Remake',
                      'shadowgrounds': 'Shadowgrounds', 'RxWars': 'Prescription Wars',
                      'Super Mario Bros And Level Editor in C#': 'Mario Objects',
-                     'tetris': 'Just another Tetris™ clone', 'twin-e': 'TwinEngine',
+                     'tetris': 'Just another Tetris™ clone', 'twin-e': 'TwinEngine', 'super-methane-brothers-gx': 'Super Methane Brothers for Wii and GameCube',
                      'CrossUO: Ultima Online': 'CrossUO', 'Doomsday': 'Doomsday Engine', 'OpMon': 'OPMon'}
 
 # conversion between licenses syntax them and us
@@ -64,7 +64,7 @@ osgc_ignored_entries = ["A Mouse's Vengeance", 'achtungkurve.com', 'AdaDoom3', '
                         'Balloon Fight', 'bladerunner (Engine within SCUMMVM)', 'Block Shooter', 'Bomb Mania Reloaded',
                         'boulder-dash', 'Cannon Fodder', 'Contra_remake', 'CosmicArk-Advanced', 'Deuteros X',
                         'datastorm', 'div-columns', 'div-pacman2600', 'div-pitfall', 'div-spaceinvaders2600', 'EXILE',
-                        'Free in the Dark',
+                        'Free in the Dark', 'Prepare Carefully',
                         'Football Manager', 'Fight Or Perish', 'EarthShakerDS', 'Entombed!', 'FreeRails 2',
                         'Glest Advanced Engine', 'FreedroidClassic', 'FreeFT', 'Future Blocks', 'HeadOverHeels',
                         'Herzog 3D', 'Homeworld SDL', 'imperialism-remake', 'Jumping Jack 2: Worryingly Familiar',

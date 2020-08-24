@@ -122,6 +122,7 @@ Phoenix (https://github.com/joulupunikki/Phoenix, https://joulupunikki.github.io
 Pico-8 (https://www.lexaloffle.com/pico-8.php): Commercial
 PKMN-FX (https://github.com/jonasdemoor/PKMN-FX.git): Code not available anymore
 Postludium (https://github.com/Pctg-x8/postludium): Very early development, no license information
+Prepare Carefully (https://github.com/edbmods/EdBPrepareCarefully.git): Mod to a commercial game
 Project Diaspora (http://pdiaspora.sourceforge.net/, https://sourceforge.net/projects/pdiaspora/): Proprietary license (see file headers)
 Project: Xenocide (https://sourceforge.net/projects/xenocide/, http://xenocide.cvs.sourceforge.net/viewvc/xenocide/): Very early development
 Promisance (https://sourceforge.net/projects/promisance/,http://promisance.sourceforge.net/): Went closed source with version >= 4.0

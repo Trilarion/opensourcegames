@@ -62,6 +62,7 @@
 - **[raylib](../raylib.md)** (C, C++, zlib, mature)
 - **[Ren'Py](../renpy.md)** (C, Python, Ren'Py, LGPL-2.1, mature)
 - **[rock-raiders-remake](../rock-raiders-remake.md)** (JavaScript, MIT, beta)
+- **[Rot Magus](../rot_magus.md)** (JavaScript, Apache-2.0, CC0, beta)
 - **[Runfield](../runfield.md)** (JavaScript, GPL-3.0, mature, inactive since 2011)
 - **[sandspiel](../sandspiel.md)** (Rust, JavaScript, TypeScript, MIT, beta)
 - **[sensitive-js](../sensitive-js.md)** (JavaScript, Custom, beta, inactive since 2017)

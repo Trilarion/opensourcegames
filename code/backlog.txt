@@ -154,6 +154,7 @@ https://code.google.com/archive/p/tecbattle/
 https://code.launchpad.net/~flosoft/s25rttr/trunk
 https://conquertheworldbycode.wordpress.com/nostalgia-2/
 https://directory.fsf.org/wiki/Collection:GNOME_Games (all of them)
+https://dosgames.com/about.php (search for public domain games with sources)
 https://dragengine.rptd.ch/
 https://eblong.com/zarf/twilight/index.html
 https://edu.kde.org/
@@ -240,7 +241,6 @@ https://github.com/Donerkebap13/DonerComponents
 https://github.com/Drasky-Vanderhoff/CommonDrops
 https://github.com/Dzierzan/OpenSA
 https://github.com/EaW-Team/equestria_dev
-https://github.com/ec-/Quake3e
 https://github.com/EliFUT/android
 https://github.com/elishacloud/Silent-Hill-2-Enhancements
 https://github.com/endlesstravel/Love2dCS
@@ -292,7 +292,6 @@ https://github.com/libretro/libretro-chailove
 https://github.com/libretro/libretro-prboom
 https://github.com/ligurio/awesome-ttygames
 https://github.com/luciopanepinto/pacman
-https://github.com/luciusDXL/TheForceEngine
 https://github.com/MarcoLizza/tofu-engine
 https://github.com/MarilynDafa/Bulllord-Engine
 https://github.com/MatthewTheGlutton/HideousDestructor
@@ -346,10 +345,10 @@ https://github.com/rizwan3d/MotoGameEngine
 https://github.com/rlguy/FantasyMapGenerator
 https://github.com/rotators/Fo1in2
 https://github.com/RoxasShadow/Sottaceto
+https://github.com/roy-t/MiniRTS
 https://github.com/rramsden/ymir
 https://github.com/sabresaurus/SabreCSG
 https://github.com/SadConsole/SadConsole
-https://github.com/salvadorc17/Prince-Monogame
 https://github.com/SanderMertens/flecs
 https://github.com/saniv/free-game-art/blob/master/foss-copyright-infringement-records.md
 https://github.com/scp-fs2open/fs2open.github.com

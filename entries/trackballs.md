@@ -10,6 +10,6 @@ _Remake of Marble Madness._
 - Code repository: https://github.com/trackballs/trackballs.git
 - Code language: C++, Scheme
 - Code license: GPL-2.0
-- Code dependencies: Guile, SDL2
+- Code dependencies: GNU Guile, SDL2
 
 ## Building

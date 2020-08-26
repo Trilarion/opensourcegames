@@ -10,7 +10,7 @@ _Abstract 2D shooter game._
 - Code repository: (see download) http://transcend.cvs.sourceforge.net (cvs)
 - Code language: C++, Dia
 - Code license: ? (GPL, Public domain)
-- Code dependencies: GLUT, X
+- Code dependencies: GLUT
 - Assets license: ? (GPL)
 - Developer: Jason Rohrer
 

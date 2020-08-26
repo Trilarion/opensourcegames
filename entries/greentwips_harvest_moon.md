@@ -2,7 +2,7 @@
 
 _Remake of Story of Seasons series._
 
-- Home: https://twitter.com/GreentwipHealth
+- Home: https://github.com/greentwip/HarvestMoon
 - State: beta
 - Keywords: remake, commercial content (?), inspired by Story of Seasons series
 - Code repository: https://github.com/greentwip/HarvestMoon.git

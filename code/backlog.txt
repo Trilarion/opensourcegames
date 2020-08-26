@@ -155,6 +155,7 @@ https://code.launchpad.net/~flosoft/s25rttr/trunk
 https://conquertheworldbycode.wordpress.com/nostalgia-2/
 https://directory.fsf.org/wiki/Collection:GNOME_Games (all of them)
 https://dosgames.com/about.php (search for public domain games with sources)
+https://dosgames.com/forum/about19706.html
 https://dragengine.rptd.ch/
 https://eblong.com/zarf/twilight/index.html
 https://edu.kde.org/
@@ -490,6 +491,7 @@ https://www.b3dgs.com/v7/page.php?lang=en&section=projects
 https://www.bennugd.org/
 https://www.blender.org/
 https://www.bsframework.io/
+https://www.celephais.net/fitzquake/
 https://www.choiceofgames.com/make-your-own-games/choicescript-intro/
 https://www.duality2d.net
 https://www.fandom.com/topics/games (look for media links, example https://creatures.fandom.com/wiki/Openc2e)

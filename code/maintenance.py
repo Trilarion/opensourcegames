@@ -8,9 +8,7 @@
     This script runs with Python 3, it could also with Python 2 with some minor tweaks probably.
 """
 
-import urllib.request
 import requests
-import http.client
 import datetime
 import json
 import textwrap

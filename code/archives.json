@@ -75,6 +75,7 @@
   "https://git.code.sf.net/p/pixellight/code",
   "https://git.code.sf.net/p/pixellight/pixellight2",
   "https://git.code.sf.net/p/pybreak360/code",
+  "https://git.code.sf.net/p/quakespasm/quakespasm.git",
   "https://git.code.sf.net/p/rickyd/code",
   "https://git.code.sf.net/p/rmoffice/code",
   "https://git.code.sf.net/p/sc2/uqm",
@@ -783,6 +784,8 @@
   "https://github.com/mozilla/BrowserQuest.git",
   "https://github.com/mpgossage/Marblez.git",
   "https://github.com/msharov/gjid.git",
+  "https://github.com/mzeilfelder/hc1.git",
+  "https://github.com/mzeilfelder/media_hc1.git",
   "https://github.com/naev/naev.git",
   "https://github.com/nbollom/pq2.git",
   "https://github.com/nem0/LumixEngine.git",
@@ -904,6 +907,7 @@
   "https://github.com/rwengine/openrw.git",
   "https://github.com/ryanb/ruby-warrior.git",
   "https://github.com/rystills/rock-raiders-remake.git",
+  "https://github.com/ryzom/ryzomcore.git",
   "https://github.com/sabetts/bratwurst.git",
   "https://github.com/sago007/annchienta.git",
   "https://github.com/salvadorc17/Prince-Monogame.git",
@@ -1358,7 +1362,6 @@
   "https://svn.code.sf.net/p/plib/code",
   "https://svn.code.sf.net/p/powermanga/code",
   "https://svn.code.sf.net/p/privateer/code",
-  "https://svn.code.sf.net/p/quakespasm/code",
   "https://svn.code.sf.net/p/rsfs/code",
   "https://svn.code.sf.net/p/sokosolve/code",
   "https://svn.code.sf.net/p/spacezero/code",
@@ -1400,8 +1403,6 @@
   "https://bitbucket.org/featheredmelody/lost-sky-project-public/src",
   "https://bitbucket.org/giszmo/glob2",
   "https://bitbucket.org/gopostal/postal-1-open-source",
-  "https://bitbucket.org/mstrobel/supremacy/src",
-  "https://bitbucket.org/mzeilfelder/trunk_hc1",
-  "https://bitbucket.org/ryzom/ryzomcore"
+  "https://bitbucket.org/mstrobel/supremacy/src"
  ]
 }

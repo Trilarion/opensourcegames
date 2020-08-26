@@ -8,7 +8,7 @@ _Jigsaw puzzle game from the KDEGames collection._
 - Code repository: https://invent.kde.org/games/palapeli.git
 - Code language: C++
 - Code license: GPL-2.0
-- Code dependencies: KDE libraries, Qt
+- Code dependencies: KDE Frameworks, Qt
 - Developer: Stefan Majewsky
 
 ## Building

@@ -96,7 +96,9 @@ code_dependencies_without_entry = {'OpenGL': 'https://www.opengl.org/',
                                    '.NET': 'https://dotnet.microsoft.com/', 'Vulkan': 'https://www.khronos.org/vulkan/',
                                    'KDE Frameworks': 'https://kde.org/products/frameworks/',
                                    'jQuery': 'https://jquery.com/',
-                                   'node.js': 'https://nodejs.org/en/'}
+                                   'node.js': 'https://nodejs.org/en/',
+                                   'GNU Guile': 'https://www.gnu.org/software/guile/',
+                                   'tkinter': 'https://docs.python.org/3/library/tk.html'}
 
 regex_sanitize_name = re.compile(r"[^A-Za-z 0-9-+]+")
 regex_sanitize_name_space_eater = re.compile(r" +")

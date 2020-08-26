@@ -11,8 +11,8 @@ _1,000 solitaire games._
 - Code repository: (see download)
 - Code language: Python
 - Code license: GPL-2.0
-- Code dependencies: Tk
+- Code dependencies: tkinter
 
-See also [PySol Fan Club Edition](https://pysolfc.sourceforge.io/) and https://sourceforge.net/projects/pysolfc/ and https://github.com/shlomif/PySolFC.
+See also [PySol Fan Club Edition](https://pysolfc.sourceforge.io/) and https://sourceforge.net/projects/pysolfc/ and https://github.com/shlomif/PySolFC
 
 ## Building

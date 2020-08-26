@@ -11,6 +11,7 @@ _Networked clone of the classical Bubble Bobble board game._
 - Code language: Python
 - Code license: MIT
 - Code dependencies: pygame
+- Developer: Armin Rigo
 
 ## Building
 

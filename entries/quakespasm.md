@@ -7,8 +7,10 @@ _Remake of Quake._
 - Download: http://quakespasm.sourceforge.net/download.htm, https://sourceforge.net/projects/quakespasm/files/
 - Platform: Windows, Linux, macOS
 - Keywords: action, commercial content, inspired by Quake, remake, requires original content (?), shooter
-- Code repository: https://svn.code.sf.net/p/quakespasm/code (svn active)
+- Code repository: https://git.code.sf.net/p/quakespasm/quakespasm.git, https://svn.code.sf.net/p/quakespasm/code (svn active)
 - Code language: C
 - Code license: GPL-2.0
+
+See also https://github.com/Shpoike/Quakespasm
 
 ## Building

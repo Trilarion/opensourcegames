@@ -6,9 +6,10 @@ _Single exe cross platform game engine using Lua._
 - State: mature
 - Platform: Windows, Linux, macOS
 - Keywords: game engine
-- Code repository: https://github.com/xriss/gamecake.git, https://bitbucket.org/xixs/lua (hg outdated), https://bitbucket.org/xixs/bin (hg)
+- Code repository: https://github.com/xriss/gamecake.git
 - Code language: C, C++, Lua
 - Code license: MIT
+- Developer: Kriss (xriss@GH, xixs@BB)
 
 ## Building
 

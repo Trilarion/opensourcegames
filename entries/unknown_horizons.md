@@ -10,7 +10,7 @@ _A 2D real time strategy simulation with an emphasis on economy and city buildin
 - Code repository: https://github.com/unknown-horizons/unknown-horizons.git, https://github.com/unknown-horizons/godot-port.git (+)
 - Code language: Python
 - Code license: GPL-2.0
-- Code dependencies: FIFE, Pillow, yaml
+- Code dependencies: FIFE, Pillow
 
 Uses the FIFE engine. Godot port: https://github.com/unknown-horizons/godot-port
 

@@ -10,7 +10,8 @@ _Simple card strategy, based on Magic: The Gathering rules._
 - Code repository: https://github.com/chubakur/wizards-magic.git, https://github.com/chubakur/wizards-magic2.git (+), https://code.google.com/archive/p/wizards-magic/source
 - Code language: Python
 - Code license: GPL-2.0
-- Code dependencies: pygame, simplejson
+- Code dependencies: pygame
+- Developer: Андрей Питько (chubakur@GH, chubakur@BB)
 
 ## Building
 

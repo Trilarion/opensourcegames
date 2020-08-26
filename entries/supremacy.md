@@ -10,6 +10,7 @@ _4X turn-based, empire-building strategy game on the galactic level._
 - Code language: C#
 - Code license: MS-RL
 - Assets license: CC-BY-SA-2.0
+- Developer: Mike Strobel
 
 Ms-RL = Microsoft Reciprocal License
 

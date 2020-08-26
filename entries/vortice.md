@@ -9,6 +9,7 @@ _Cross platform 2D and 3D .NET framework._
 - Code repository: https://github.com/amerkoleci/vortice.git
 - Code language: C#
 - Code license: MIT
+- Developer: Amer Koleci (amerkoleci@GH)
 
 ## Building
 

@@ -14,7 +14,7 @@
    "<a href=\"https://play0ad.com/download/\">Link</a>",
    "beta / active",
    "strategy, inspired by Age of Empires, multiplayer online + LAN, open content, real time",
-   "<a href=\"https://github.com/0ad/0ad.git\">Source</a> - C, C++, Javascript - GPL-2.0"
+   "<a href=\"https://github.com/0ad/0ad.git\">Source</a> - C, C++, JavaScript - GPL-2.0"
   ],
   [
    "1oom (<a href=\"https://kilgoretroutmaskreplicant.gitlab.io/plain-html/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/1oom.md\">entry</a>)",
@@ -4017,7 +4017,7 @@
    "<a href=\"https://gitlab.com/osgames/civilwar.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
-   "Greentwip's Harvest Moon (<a href=\"https://twitter.com/GreentwipHealth\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/greentwips_harvest_moon.md\">entry</a>)",
+   "Greentwip's Harvest Moon (<a href=\"https://github.com/greentwip/HarvestMoon\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/greentwips_harvest_moon.md\">entry</a>)",
    "Remake of Story of Seasons series.",
    "",
    "beta / active",
@@ -4102,7 +4102,7 @@
    "",
    "mature / inactive since 2015",
    "sports, clone, inspired by Wipeout, racing",
-   "<a href=\"https://bitbucket.org/mzeilfelder/trunk_hc1\">Source</a> - C++ - zlib"
+   "<a href=\"https://github.com/mzeilfelder/hc1.git\">Source</a> - C++ - zlib"
   ],
   [
    "H-World (<a href=\"https://sourceforge.net/projects/h-world/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/h-world.md\">entry</a>)",
@@ -4650,7 +4650,7 @@
   ],
   [
    "Javelin (<a href=\"https://javelinrl.wordpress.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/javelin.md\">entry</a>)",
-   "Single-player role-playing game that uses d20 as the rule..",
+   "Role-playing game that uses d20 as the rule system. It..",
    "<a href=\"https://github.com/tukkek/javelin/releases\">Link</a>",
    "mature / inactive since 2016",
    "role playing, open content, roguelike",
@@ -8102,7 +8102,7 @@
    "<a href=\"http://quakespasm.sourceforge.net/download.htm\">Link</a>",
    "mature / active",
    "action, commercial content, inspired by Quake, remake, requires original content, shooter",
-   "<a href=\"https://svn.code.sf.net/p/quakespasm/code\">Source</a> - C - GPL-2.0"
+   "<a href=\"https://git.code.sf.net/p/quakespasm/quakespasm.git\">Source</a> - C - GPL-2.0"
   ],
   [
    "Quartz Engine (<a href=\"https://github.com/GentenStudios/QuartzEngine/wiki\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/quartz_engine.md\">entry</a>)",
@@ -8593,12 +8593,12 @@
    "<a href=\"https://github.com/yokljo/ruzzt.git\">Source</a> - Rust - MIT"
   ],
   [
-   "Ryzom Core (<a href=\"https://ryzomcore.atlassian.net/wiki/spaces/RC/overview\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/ryzom_core.md\">entry</a>)",
+   "Ryzom Core (<a href=\"https://wiki.ryzom.dev/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/ryzom_core.md\">entry</a>)",
    "MMORPG with open world play.",
    "",
    "mature / active",
    "role playing, inspired by Ryzom, multiplayer massive + online, remake, requires server",
-   "<a href=\"https://bitbucket.org/ryzom/ryzomcore\">Source</a> - C++ - AGPL-3.0"
+   "<a href=\"https://github.com/ryzom/ryzomcore.git\">Source</a> - C++ - AGPL-3.0"
   ],
   [
    "S.C.O.U.R.G.E. (<a href=\"https://sourceforge.net/projects/scourge/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/scourge.md\">entry</a>)",

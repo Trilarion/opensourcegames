@@ -11,21 +11,28 @@ TODO are really all existing branches cloned and pulled? (see https://stackoverf
 TODO Sourceforge git clone may not work all the time (restarting the script sometimes helps..)
 
 Note: May need to set http.postBuffer (https://stackoverflow.com/questions/17683295/git-bash-error-rpc-failed-result-18-htp-code-200b-1kib-s)
+
+
+For repositories
+see https://serverfault.com/questions/544156/git-clone-fail-instead-of-prompting-for-credentials
 """
 
 import json
 
 from utils.utils import *
 from utils.archive import *
+import utils.constants as c
 
 
 def git_clone(url, folder):
+    # subprocess_run(["git", "clone", "--mirror", url, folder], shell=True, env={'GIT_TERMINAL_PROMPT': '0'})
     subprocess_run(["git", "clone", "--mirror", url, folder])
 
 
 def git_update(folder):
     os.chdir(folder)
-    subprocess_run(["git", "fetch", "--all"])
+    # subprocess_run(["git", "fetch", "--all"],  shell=True, env={'GIT_TERMINAL_PROMPT': '0'})
+    subprocess_run(["git", "fetch", "--all"], display=False)
 
 
 def svn_folder_name(url):
@@ -69,6 +76,9 @@ def run_update(type, urls, type_folder=None):
     base_folder = os.path.join(archive_folder, type_folder)
     if not os.path.exists(base_folder):
         os.mkdir(base_folder)
+    unused_base_folder = os.path.join(archive_folder, type_folder + '.unused')
+    if not os.path.exists(unused_base_folder):
+        os.mkdir(unused_base_folder)
 
     # get derived folder names
     folders = [folder_name[type](url) for url in urls]
@@ -76,9 +86,12 @@ def run_update(type, urls, type_folder=None):
     # find those folders not used anymore
     existing_folders = [x for x in os.listdir(base_folder) if os.path.isdir(os.path.join(base_folder, x))]
     unused_folders = [x for x in existing_folders if x not in folders]
-    print('{} unused archives'.format(len(unused_folders)))
-    if unused_folders:
-        print(unused_folders)
+    print('{} unused archives, move to unused folder'.format(len(unused_folders)))
+    for folder in unused_folders:
+        origin = os.path.join(base_folder, folder)
+        destination = os.path.join(unused_base_folder, folder)
+        if not os.path.exists(destination):
+            shutil.move(origin, destination)
 
     # new folder, need to clone
     new_folders = [x for x in folders if x not in existing_folders]
@@ -101,7 +114,7 @@ def run_update(type, urls, type_folder=None):
         if not os.path.isdir(folder):
             print('folder not existing, wanted to update, will skip')
             continue
-        print('update {}'.format(folder[len(base_folder):]))
+        # print('update {}'.format(folder[len(base_folder):]))
         try:
             update[type](folder)
         except RuntimeError as e:
@@ -148,7 +161,9 @@ if __name__ == '__main__':
 
     # get this folder
     root_folder = os.path.realpath(os.path.dirname(__file__))
-    archive_folder = os.path.join(root_folder, 'archive')
+    archive_folder = c.get_config('archive-folder')
+    if not archive_folder:
+        raise RuntimeError('No archive folder specified.')
 
     # read archives.json
     text = read_text(os.path.join(root_folder, 'archives.json'))

@@ -12,5 +12,6 @@ _Remake of Krush, Kill 'n' Destroy._
 - Code license: GPL-3.0
 - Code dependencies: OpenRA
 
+See also https://github.com/gp-alex/OpenKKND
 
 ## Building

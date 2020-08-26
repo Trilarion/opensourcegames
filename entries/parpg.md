@@ -6,7 +6,7 @@ _Post-Apocalyptic RPG._
 - State: beta, inactive since 2012
 - Download: http://blog.parpg.net/download/, http://wiki.parpg.net/Download
 - Keywords: role playing, inspired by Fallout 2, remake
-- Code repository: http://hg.assembla.com/parpg-core (hg), https://gitlab.com/osgames/parpg-core.git (+), http://subversion.assembla.com/svn/parpg-assets/ (svn), http://parpg-trac.cvsdude.com/parpg/browser (svn)
+- Code repository: https://gitlab.com/osgames/parpg-core.git, http://subversion.assembla.com/svn/parpg-assets/ (svn), http://parpg-trac.cvsdude.com/parpg/browser (svn)
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependencies: Blender game engine, FIFE, psyco, pygame, PyQt, PySide

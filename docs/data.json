@@ -4966,7 +4966,7 @@
    "<a href=\"https://sourceforge.net/projects/kqlives/files/\">Link</a>",
    "beta / inactive since 2011",
    "role playing",
-   "<a href=\"https://github.com/grrk-bzzt/kqlives.git\">Source</a> - C - GPL-2.0"
+   "<a href=\"https://github.com/OnlineCop/kqlives.git\">Source</a> - C - GPL-2.0"
   ],
   [
    "Krank (<a href=\"http://krank.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/krank.md\">entry</a>)",
@@ -7025,12 +7025,12 @@
    "<a href=\"https://github.com/OpenSAGE/OpenSAGE.git\">Source</a> - C# - LGPL-3.0"
   ],
   [
-   "OpenSC2K (<a href=\"https://github.com/rage8885/OpenSC2K\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/opensc2k.md\">entry</a>)",
+   "OpenSC2K (<a href=\"https://github.com/nicholas-ochoa/OpenSC2K\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/opensc2k.md\">entry</a>)",
    "Remake of SimCity 2000.",
    "",
    "beta / active",
    "simulation, inspired by SimCity 2000, remake",
-   "<a href=\"https://github.com/rage8885/OpenSC2K.git\">Source</a> - JavaScript - GPL-3.0"
+   "<a href=\"https://github.com/nicholas-ochoa/OpenSC2K.git\">Source</a> - JavaScript - GPL-3.0"
   ],
   [
    "OpenSkyscraper (<a href=\"http://openskyscraper.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/openskyscraper.md\">entry</a>)",
@@ -7398,7 +7398,7 @@
    "<a href=\"http://blog.parpg.net/download/\">Link</a>",
    "beta / inactive since 2012",
    "role playing, inspired by Fallout 2, remake",
-   "<a href=\"http://hg.assembla.com/parpg-core\">Source</a> - Python - GPL-3.0"
+   "<a href=\"https://gitlab.com/osgames/parpg-core.git\">Source</a> - Python - GPL-3.0"
   ],
   [
    "PARSEC47 (<a href=\"http://www.asahi-net.or.jp/~cs8k-cyu/windows/p47_e.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/parsec47.md\">entry</a>)",

@@ -1,5 +1,5 @@
 /.idea
 __pycache__
-/local.properties
+/local-config.ini
 /code/archive/**
 /code/lgw-import

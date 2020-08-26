@@ -11,7 +11,7 @@ _Roguelike game with a 3D user interface._
 - Code license: GPL-2.0
 - Code dependencies: SDL
 
-See also: https://github.com/q4a/scourge2, https://bitbucket.org/uzudil/scourge2/
+See also: https://github.com/q4a/scourge2
 
 ## Building
 

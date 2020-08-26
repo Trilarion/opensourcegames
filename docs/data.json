@@ -13,8 +13,8 @@
    "0 A.D. is a free, open-source, cross-platform real-time..",
    "<a href=\"https://play0ad.com/download/\">Link</a>",
    "beta / active",
-   "strategy, clone, inspired by Age of Empires, multiplayer online + LAN, open content, real time",
-   "<a href=\"https://github.com/0ad/0ad.git\">Source</a> - C++ - GPL-2.0"
+   "strategy, inspired by Age of Empires, multiplayer online + LAN, open content, real time",
+   "<a href=\"https://github.com/0ad/0ad.git\">Source</a> - C, C++, Javascript - GPL-2.0"
   ],
   [
    "1oom (<a href=\"https://kilgoretroutmaskreplicant.gitlab.io/plain-html/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/1oom.md\">entry</a>)",
@@ -276,9 +276,9 @@
    "alive (<a href=\"https://github.com/paulsapps/alive\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/alive.md\">entry</a>)",
    "Remake of Oddworld: Abe's Oddysee, Oddworld: Abe's Exoddus",
    "",
-   "beta / inactive since 2017",
+   "beta / active",
    "action, inspired by Oddworld: Abe's Oddysee + Oddworld: Abe's Exoddus, remake",
-   "<a href=\"https://github.com/paulsapps/alive.git\">Source</a> - C++ - MIT"
+   "<a href=\"https://github.com/AliveTeam/alive_reversing.git\">Source</a> - C++ - MIT"
   ],
   [
    "Allegro (<a href=\"https://liballeg.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/allegro.md\">entry</a>)",
@@ -1436,7 +1436,7 @@
    "Cattle Bity (<a href=\"https://dogballs.github.io/cattle-bity/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/cattle_bity.md\">entry</a>)",
    "Clone of Battle City.",
    "",
-   "beta / active",
+   "mature / active",
    "action, clone, commercial content, inspired by Battle City",
    "<a href=\"https://github.com/dogballs/cattle-bity.git\">Source</a> - TypeScript - MIT"
   ],
@@ -2196,7 +2196,7 @@
    "DelverEngine (<a href=\"https://github.com/Interrupt/delverengine\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/delverengine.md\">entry</a>)",
    "Remake of Delver.",
    "",
-   "beta / active",
+   "mature / active",
    "game engine, commercial content, inspired by Delver, remake",
    "<a href=\"https://github.com/Interrupt/delverengine.git\">Source</a> - Java - Custom"
   ],
@@ -2645,7 +2645,7 @@
    "Manage a corporate colony of dwarves.",
    "",
    "mature / active",
-   "strategy, commercial content, game engine",
+   "strategy, commercial content, game engine, inspired by Dwarf Fortress + Minecraft",
    "<a href=\"https://github.com/Blecki/dwarfcorp.git\">Source</a> - C# - MIT"
   ],
   [
@@ -2785,7 +2785,7 @@
    "<a href=\"https://github.com/endless-sky/endless-sky.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
-   "Enduro tribute (<a href=\"https://rafaelcastrocouto.github.io/enduro/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/enduro_tribute.md\">entry</a>)",
+   "Enduro tribute (<a href=\"https://racascou.itch.io/enduro\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/enduro_tribute.md\">entry</a>)",
    "Remake of Enduro.",
    "",
    "mature / active",
@@ -2949,7 +2949,7 @@
    "A cross-platform recreation of the Ultima VII engine.",
    "<a href=\"http://exult.sourceforge.net/download.php\">Link</a>",
    "mature / active",
-   "role playing, inspired by Ultima VII, remake",
+   "role playing, inspired by Ultima VII: The Black Gate, remake",
    "<a href=\"https://github.com/exult/exult.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -3161,7 +3161,7 @@
    "<a href=\"http://hg.code.sf.net/p/fltrator/code\">Source</a> - C++ - GPL-3.0"
   ],
   [
-   "Fluid Table Tennis (<a href=\"https://github.com/anirudhjoshi/fluid_table_tennis\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/fluid_table_tennis.md\">entry</a>)",
+   "Fluid Table Tennis (<a href=\"http://anirudhjoshi.github.io/fluid_table_tennis/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/fluid_table_tennis.md\">entry</a>)",
    "Remake of Plasma Pong.",
    "",
    "mature / inactive since 2013",
@@ -3465,9 +3465,9 @@
    "<a href=\"https://github.com/francot514/FreeSims.git\">Source</a> - C# - MPL-2.0"
   ],
   [
-   "FreeSO (<a href=\"https://web.archive.org/web/20200602032529/https://freeso.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/freeso.md\">entry</a>)",
+   "FreeSO (<a href=\"https://freeso.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/freeso.md\">entry</a>)",
    "Remake of The Sims Online.",
-   "<a href=\"https://web.archive.org/web/20200601192250/http://freeso.org/download/\">Link</a>",
+   "<a href=\"https://freeso.org/download/\">Link</a>",
    "beta / active",
    "simulation, game engine, inspired by The Sims Online, remake, requires original content",
    "<a href=\"https://github.com/riperiperi/FreeSO.git\">Source</a> - C# - MPL-2.0"
@@ -3566,7 +3566,7 @@
    "",
    "mature / inactive since 2014",
    "role playing",
-   "<a href=\"https://bitbucket.org/thesheep/fujo/src\">Source</a> - Python - CC-BY-SA-4.0"
+   "<a href=\"https://gitlab.com/osgames/fujo.git\">Source</a> - Python - CC-BY-SA-4.0"
   ],
   [
    "FunLabyrinthe (<a href=\"https://sourceforge.net/projects/funlaby/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/funlabyrinthe.md\">entry</a>)",
@@ -3893,8 +3893,8 @@
    "Roguelike citybuilder, inspired by Anno 1404, Dwarf..",
    "",
    "beta / inactive since 2012",
-   "strategy",
-   "<a href=\"https://bitbucket.org/genericcontainer/goblin-camp/src\">Source</a> - C++ - GPL-3.0"
+   "strategy, inspired by Anno 1404 + Dwarf Fortress + Dungeon Keeper",
+   "<a href=\"https://gitlab.com/osgames/goblin-camp.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
    "Goblin Hack (<a href=\"https://sourceforge.net/projects/goblinhack/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/goblin_hack.md\">entry</a>)",
@@ -4685,7 +4685,7 @@
    "Remake of Jedi Knight II: Jedi Outcast.",
    "",
    "mature / active",
-   "game engine, commercial content, first-person, inspired by Jedi Knight II: Jedi Outcast, remake, requires original content, shooter",
+   "game engine, commercial content, first-person, inspired by Star Wars Jedi Knight II: Jedi Outcast, remake, requires original content, shooter",
    "<a href=\"https://github.com/xLAva/JediOutcastLinux.git\">Source</a> - C, C++ - GPL-2.0"
   ],
   [
@@ -5093,7 +5093,7 @@
    "Breakout clone - a remake of LBreakout2 with improved..",
    "<a href=\"https://sourceforge.net/projects/lgames/files/lbreakouthd/\">Link</a>",
    "mature / active",
-   "arcade, open content",
+   "arcade, clone, inspired by Breakout, open content",
    "<a href=\"https://svn.code.sf.net/p/lgames/code\">Source</a> - C++ - GPL-3.0"
   ],
   [
@@ -6033,14 +6033,6 @@
    "<a href=\"https://github.com/nukeykt/NBlood.git\">Source</a> - C, C++, Lua - GPL-2.0"
   ],
   [
-   "NBlood / Rednukem / PCExhumed (<a href=\"https://lerppu.net/wannabethesis/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/pcexhumed.md\">entry</a>)",
-   "Remake of Powerslave.",
-   "",
-   "beta / active",
-   "action, commercial content, inspired by Powerslave, remake",
-   "<a href=\"https://github.com/nukeykt/NBlood.git\">Source</a> - C++ - Custom"
-  ],
-  [
    "ncurses (<a href=\"https://invisible-island.net/ncurses/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/ncurses.md\">entry</a>)",
    "Library for text-based user interfaces.",
    "<a href=\"https://invisible-island.net/ncurses/#downloads\">Link</a>",
@@ -6237,7 +6229,7 @@
    "Remake of Ultima VI, Ultima: Worlds of Adventure 2:..",
    "",
    "beta / inactive since 2018",
-   "game engine, inspired by Ultima VI + Ultima: Worlds of Adventure 2: Martian Dreams + Worlds of Ultima: The Savage Empire, remake, requires original content",
+   "game engine, inspired by Ultima VI: The False Prophet + Ultima: Worlds of Adventure 2: Martian Dreams + Worlds of Ultima: The Savage Empire, remake, requires original content",
    "<a href=\"https://github.com/nuvie/nuvie.git\">Source</a> - C, C++, Lua - GPL-2.0"
   ],
   [
@@ -6845,7 +6837,7 @@
    "Remake of Jedi Knight: Jedi Academy.",
    "<a href=\"https://builds.openjk.org/\">Link</a>",
    "beta / active",
-   "action, commercial content, game engine, inspired by Jedi Knight: Jedi Academy, remake, requires original content",
+   "action, commercial content, game engine, inspired by Star Wars Jedi Knight: Jedi Academy + Star Wars Jedi Knight II: Jedi Outcast, remake, requires original content",
    "<a href=\"https://github.com/JACoders/OpenJK.git\">Source</a> - C, C++ - GPL-2.0"
   ],
   [
@@ -6989,7 +6981,7 @@
    "Re-implementation of RollerCoaster Tycoon 2 (RCT2),..",
    "<a href=\"https://openrct2.org/downloads\">Link</a>",
    "mature / active",
-   "simulation, inspired by RollerCoaster Tycoon 1 + RollerCoaster Tycoon 2, remake, requires original content",
+   "simulation, inspired by RollerCoaster Tycoon + RollerCoaster Tycoon 2, remake, requires original content",
    "<a href=\"https://github.com/OpenRCT2/OpenRCT2.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
@@ -7457,6 +7449,14 @@
    "<a href=\"https://github.com/henkboom/pax-britannica.git\">Source</a> - Lua, C - MIT"
   ],
   [
+   "PCExhumed (<a href=\"https://lerppu.net/wannabethesis/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/pcexhumed.md\">entry</a>)",
+   "Remake of Powerslave.",
+   "",
+   "beta / active",
+   "action, commercial content, inspired by Powerslave, remake",
+   "<a href=\"https://github.com/nukeykt/NBlood.git\">Source</a> - C++ - Custom"
+  ],
+  [
    "PCGen (<a href=\"http://pcgen.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/pcgen.md\">entry</a>)",
    "RPG Character Generator",
    "<a href=\"http://pcgen.org/download/\">Link</a>",
@@ -7485,7 +7485,7 @@
    "Remake of Ultima VIII.",
    "<a href=\"http://pentagram.sourceforge.net/download.php\">Link</a>",
    "beta / inactive since 2018",
-   "role playing, commercial content, game engine, inspired by Ultima VIII, remake, requires original content",
+   "role playing, commercial content, game engine, inspired by Ultima VIII: Pagan, remake, requires original content",
    "<a href=\"https://github.com/pentagram-u8/pentagram.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -8204,7 +8204,7 @@
    "Reconstruction of Super ZZT (<a href=\"https://github.com/asiekierka/reconstruction-of-super-zzt\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/reconstruction_of_super_zzt.md\">entry</a>)",
    "Remake of Super ZZT.",
    "",
-   "beta / active",
+   "mature / active",
    "adventure, inspired by Super ZZT, remake",
    "<a href=\"https://github.com/asiekierka/reconstruction-of-super-zzt.git\">Source</a> - Pascal - MIT"
   ],
@@ -8212,7 +8212,7 @@
    "Reconstruction of ZZT (<a href=\"https://github.com/asiekierka/reconstruction-of-zzt\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/reconstruction_of_zzt.md\">entry</a>)",
    "Remake of ZZT.",
    "",
-   "beta / active",
+   "mature / active",
    "adventure, inspired by ZZT, remake",
    "<a href=\"https://github.com/asiekierka/reconstruction-of-zzt.git\">Source</a> - Pascal - MIT"
   ],
@@ -8239,6 +8239,14 @@
    "beta / active",
    "action, commercial content, inspired by Redneck Rampage + Duke Nukem 3D, remake",
    "<a href=\"https://github.com/nukeykt/NBlood.git\">Source</a> - C++ - Custom"
+  ],
+  [
+   "REDriver2 (<a href=\"https://github.com/SoapyMan/REDRIVER2\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/redriver2.md\">entry</a>)",
+   "Remake of Driver 2.",
+   "",
+   "beta / active",
+   "remake, commercial content, inspired by Driver 2, requires original content",
+   "<a href=\"https://github.com/SoapyMan/REDRIVER2.git\">Source</a> - C++ - MIT"
   ],
   [
    "RedShift (<a href=\"http://rsfs.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/redshift.md\">entry</a>)",
@@ -8341,7 +8349,7 @@
    "ReTux (stylized as \"reTux\" in-game) is a 2D platformer.",
    "<a href=\"http://retux.nongnu.org/download.html\">Link</a>",
    "mature / inactive since 2018",
-   "platform, open content",
+   "platform, inspired by Super Mario, open content",
    "<a href=\"https://git.savannah.nongnu.org/git/retux.git\">Source</a> - Python - GPL-3.0"
   ],
   [
@@ -9365,7 +9373,7 @@
    "Remake of Star Wars (1983 arcade game).",
    "",
    "mature / inactive since 2014",
-   "arcade, inspired by Star Wars 1983 arcade game, remake, skill",
+   "arcade, inspired by \"Star Wars \", remake, skill",
    "<a href=\"https://github.com/abhinandanramesh/Star-Wars-III.git\">Source</a> - Python - GPL-2.0"
   ],
   [
@@ -9390,7 +9398,7 @@
    "<a href=\"https://sourceforge.net/projects/stargus/files/\">Link</a>",
    "beta / inactive since 2010",
    "remake, commercial content, inspired by Starcraft, requires original content",
-   "<a href=\"https://svn.code.sf.net/p/stargus/code\">Source</a> - C++, Lua - GPL-2.0"
+   "<a href=\"https://github.com/Wargus/stargus.git\">Source</a> - C++, Lua - GPL-2.0"
   ],
   [
    "Stars! Nova (<a href=\"https://sourceforge.net/projects/stars-nova/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/stars_nova.md\">entry</a>)",
@@ -9510,7 +9518,7 @@
    "<a href=\"https://web.archive.org/web/20160704003202/http://sumwars.org:80/wiki/Download\">Link</a>",
    "beta / inactive since 2014",
    "role playing, clone, inspired by Diablo, multiplayer",
-   "<a href=\"https://bitbucket.org/sumwars/sumwars-code\">Source</a> - C, C++, Lua - GPL-3.0"
+   "<a href=\"https://gitlab.com/osgames/sumwars.git\">Source</a> - C, C++, Lua - GPL-3.0"
   ],
   [
    "sundog (<a href=\"https://github.com/laanwj/sundog\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/sundog.md\">entry</a>)",
@@ -9637,7 +9645,7 @@
    "Remake of Survivor (1986).",
    "",
    "mature / active",
-   "remake, inspired by Survivor 1986",
+   "remake, inspired by \"Survivor \"",
    "<a href=\"https://github.com/scottschiller/SURVIVOR.git\">Source</a> - JavaScript - CC-BY-NC-3.0"
   ],
   [
@@ -10045,7 +10053,7 @@
    "Remake of Where in the World Is Carmen Sandiego? (1985).",
    "",
    "beta / active",
-   "strategy, educational, inspired by Where in the World Is Carmen Sandiego? 1985, remake",
+   "strategy, educational, inspired by \"Where in the World Is Carmen Sandiego? \", remake",
    "<a href=\"https://github.com/Ponup/thiefcatcher.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
@@ -10429,7 +10437,7 @@
    "Remake of ZZT.",
    "<a href=\"https://code.google.com/archive/p/tyger/source/default/source\">Link</a>",
    "beta / inactive since 2016",
-   "adventure, game engine, remake, v inspired by ZZT",
+   "adventure, game engine, inspired by ZZT, remake",
    "Python - ?"
   ],
   [
@@ -10497,6 +10505,14 @@
    "<a href=\"https://github.com/nhydock/UlDunAd.git\">Source</a> - Python - GPL-3.0"
   ],
   [
+   "Ultima 5 Redux (<a href=\"https://u5redux.wordpress.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/ultima_5_redux.md\">entry</a>)",
+   "Remake of Ultima V: Warriors of Destiny.",
+   "",
+   "beta / active",
+   "role playing, inspired by Ultima V: Warriors of Destiny, remake",
+   "<a href=\"https://github.com/bradhannah/Ultima5Redux.git\">Source</a> - C# - MIT"
+  ],
+  [
    "Ultimate Stunts (<a href=\"http://www.ultimatestunts.nl/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/ultimate_stunts.md\">entry</a>)",
    "Remake of Stunts.",
    "<a href=\"http://www.ultimatestunts.nl/index.php?page=2\">Link</a>",
@@ -10545,12 +10561,28 @@
    "<a href=\"https://github.com/yairm210/UnCiv.git\">Source</a> - Kotlin - MPL-2.0"
   ],
   [
+   "UndertaleModTool (<a href=\"https://github.com/krzys-h/UndertaleModTool\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/undertalemodtool.md\">entry</a>)",
+   "Tool of Undertale.",
+   "",
+   "beta / active",
+   "tool, commercial content, inspired by Undertale",
+   "<a href=\"https://github.com/krzys-h/UndertaleModTool.git\">Source</a> - C# - GPL-3.0"
+  ],
+  [
    "Underworld Adventures (<a href=\"http://uwadv.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/underworld_adventures.md\">entry</a>)",
    "Project to recreate Ultima Underworld 1 on modern..",
    "<a href=\"http://uwadv.sourceforge.net/index.php?page=download\">Link</a>",
    "beta / active",
    "role playing",
    "<a href=\"https://github.com/vividos/UnderworldAdventures.git\">Source</a> - C++, Lua - GPL-2.0"
+  ],
+  [
+   "UnderworldExporter (<a href=\"https://github.com/hankmorgan/UnderworldExporter\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/underworldexporter.md\">entry</a>)",
+   "Remake of Ultima Underworld, Ultima Underworld II:..",
+   "",
+   "mature / active",
+   "role playing, commercial content, inspired by Ultima Underworld + Ultima Underworld II: Labyrinth of Worlds, remake, requires original content",
+   "<a href=\"https://github.com/hankmorgan/UnderworldExporter.git\">Source</a> - C#, C++ - MIT"
   ],
   [
    "Undum (<a href=\"http://idmillington.github.io/undum/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/undum.md\">entry</a>)",
@@ -10633,6 +10665,14 @@
    "<a href=\"https://git.code.sf.net/p/vamos/git\">Source</a> - C++, Python - GPL-3.0"
   ],
   [
+   "Vanilla-Conquer (<a href=\"https://github.com/Vanilla-Conquer/Vanilla-Conquer\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/vanilla-conquer.md\">entry</a>)",
+   "Remake of Command & Conquer, Command & Conquer: Red Alert.",
+   "",
+   "mature / active",
+   "strategy, commercial content, inspired by Command & Conquer + Command & Conquer: Red Alert, realtime, remake, requires original content",
+   "<a href=\"https://github.com/Vanilla-Conquer/Vanilla-Conquer.git\">Source</a> - C, C++, Assembly - GPL-3.0"
+  ],
+  [
    "VASSAL (<a href=\"http://www.vassalengine.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/vassal.md\">entry</a>)",
    "Game engine for creating electronic versions of..",
    "<a href=\"http://www.vassalengine.org/download.php\">Link</a>",
@@ -10665,7 +10705,7 @@
    "C - GPL-2.0"
   ],
   [
-   "Vega Strike (<a href=\"http://vegastrike.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/vega_strike.md\">entry</a>)",
+   "Vega Strike (<a href=\"https://www.vega-strike.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/vega_strike.md\">entry</a>)",
    "Vega Strike is a first-person space trading and combat..",
    "<a href=\"http://vegastrike.sourceforge.net/getfiles/\">Link</a>",
    "mature / active",
@@ -10825,6 +10865,14 @@
    "<a href=\"https://github.com/freeors/War-Of-Kingdom.git\">Source</a> - C, C++ - GPL-2.0"
   ],
   [
+   "War1 (<a href=\"https://github.com/acoto87/war1\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/war1.md\">entry</a>)",
+   "Remake of Warcraft: Orcs & Humans.",
+   "",
+   "beta / active",
+   "strategy, commercial content, inspired by Warcraft: Orcs & Humans, remake, requires original content",
+   "<a href=\"https://github.com/acoto87/war1.git\">Source</a> - C - zlib"
+  ],
+  [
    "warcraft-remake (<a href=\"https://www.b3dgs.com/v7/page.php?lang=en&section=warcraft_remake\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/warcraft-remake.md\">entry</a>)",
    "Remake of Warcraft: Orcs & Humans.",
    "",
@@ -10961,6 +11009,14 @@
    "<a href=\"https://github.com/Cirrus-Minor/witchblast.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
+   "WitchavenGDX (<a href=\"http://m210.duke4.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/witchavengdx.md\">entry</a>)",
+   "Remake of Witchaven.",
+   "",
+   "beta / active",
+   "action, commercial content, inspired by Witchaven, remake",
+   "<a href=\"https://gitlab.com/m210/WitchavenGDX.git\">Source</a> - Java - Custom"
+  ],
+  [
    "Wizardry Legacy (<a href=\"http://wl.lariennalibrary.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/wizardry_legacy.md\">entry</a>)",
    "Remake of Wizardry.",
    "<a href=\"http://wl.lariennalibrary.com/index.php?n=Main.Download\">Link</a>",
@@ -11001,6 +11057,14 @@
    "<a href=\"https://git.code.sf.net/p/wograld/gitcode\">Source</a> - C - GPL-2.0"
   ],
   [
+   "Wolf3dX (<a href=\"https://github.com/francot514/Wolf3dX\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/wolf3dx.md\">entry</a>)",
+   "Remake of Wolfenstein 3D.",
+   "",
+   "beta / active",
+   "action, commercial content, inspired by Wolfenstein 3D, remake, requires original content, shooter",
+   "<a href=\"https://github.com/francot514/Wolf3dX.git\">Source</a> - C# - GPL-2.0"
+  ],
+  [
    "Wolfpack Empire (<a href=\"http://www.wolfpackempire.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/wolfpack_empire.md\">entry</a>)",
    "Real time, multiplayer, Internet-based game, featuring..",
    "<a href=\"https://sourceforge.net/projects/empserver/files/\">Link</a>",
@@ -11031,6 +11095,14 @@
    "beta / inactive since 2009",
    "strategy",
    "<a href=\"https://github.com/fariazz/World-of-Heroes.git\">Source</a> - Python - 3-clause BSD"
+  ],
+  [
+   "World of Might and Magic (<a href=\"https://github.com/gp-alex/world-of-might-and-magic\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/world_of_might_and_magic.md\">entry</a>)",
+   "Remake of Might and Magic 6-8 game engine.",
+   "",
+   "beta / active",
+   "role playing, free content, game engine, inspired by Might and Magic VI: The Mandate of Heaven + Might and Magic VII: For Blood and Honor + Might and Magic VIII: Day of the Destroyer, remake, requires original content",
+   "<a href=\"https://github.com/gp-alex/world-of-might-and-magic.git\">Source</a> - C++ - LGPL-3.0"
   ],
   [
    "World of Phaos (<a href=\"http://worldofphaos.com/index.php?site=online_rpg\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/world_of_phaos.md\">entry</a>)",
@@ -11133,7 +11205,7 @@
    "General strategy game system.",
    "<a href=\"https://sourceforge.net/projects/xconq/files/\">Link</a>",
    "mature / inactive since 2005",
-   "strategy",
+   "strategy, inspired by Empire",
    "<a href=\"https://gitlab.com/osgames/xconq.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -11190,7 +11262,7 @@
    "<a href=\"https://www.xonotic.org/download/\">Link</a>",
    "mature / active",
    "action, clone, inspired by Nexuiz, shooter",
-   "<a href=\"https://gitlab.com/xonotic/xonotic.git\">Source</a> - C - GPL-3.0"
+   "<a href=\"https://git.xonotic.org/xonotic/xonotic.git\">Source</a> - C - GPL-3.0"
   ],
   [
    "XorCurses (<a href=\"http://jwm-art.net/?p=XorCurses\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/xorcurses.md\">entry</a>)",
@@ -11253,7 +11325,7 @@
    "A remake of the computer game Ultima IV.",
    "<a href=\"http://xu4.sourceforge.net/download.php\">Link</a>",
    "mature / inactive since 2016",
-   "role playing, inspired by Ultima IV, remake",
+   "role playing, inspired by Ultima IV: Quest of the Avatar, remake",
    "<a href=\"https://svn.code.sf.net/p/xu4/code\">Source</a> - C++ - GPL-2.0"
   ],
   [
@@ -11269,7 +11341,7 @@
    "Puzzle game similar to Sokoban but it includes Arcade..",
    "<a href=\"http://xye.sourceforge.net/download.php\">Link</a>",
    "beta / inactive since 2013",
-   "arcade, open content, sokoban-like",
+   "arcade, clone, inspired by Kye, open content, sokoban-like",
    "<a href=\"https://gitlab.com/osgames/xye.git\">Source</a> - C++ - zlib"
   ],
   [
@@ -11417,6 +11489,14 @@
    "<a href=\"https://github.com/ZeroK-RTS/Zero-K.git\">Source</a> - Lua - GPL-2.0"
   ],
   [
+   "Zeta (<a href=\"https://zeta.asie.pl/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/zeta.md\">entry</a>)",
+   "Emulator, implementing a DOS compatible environment just..",
+   "",
+   "beta / active",
+   "tool, inspired by ZZT + Super ZZT",
+   "<a href=\"https://github.com/asiekierka/zeta.git\">Source</a> - C - MIT"
+  ],
+  [
    "Zetawar (<a href=\"http://www.zetawar.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/zetawar.md\">entry</a>)",
    "A web based tactical strategy game similar to Weewar and..",
    "",
@@ -11463,6 +11543,14 @@
    "beta / active",
    "adventure, inspired by Zork, remake, text-based",
    "<a href=\"https://github.com/vatbub/zorkClone.git\">Source</a> - Java - Apache-2.0"
+  ],
+  [
+   "zztgo (<a href=\"https://benhoyt.com/writings/zzt-in-go/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/zztgo.md\">entry</a>)",
+   "Port of ZZT to Go.",
+   "",
+   "beta / active",
+   "remake, inspired by ZZT",
+   "<a href=\"https://github.com/benhoyt/zztgo.git\">Source</a> - Go - MIT"
   ]
  ]
 }

@@ -6,7 +6,7 @@ _General strategy game system._
 - Media: https://en.wikipedia.org/wiki/Xconq
 - State: mature, inactive since 2005
 - Download: https://sourceforge.net/projects/xconq/files/, https://sourceware.org/xconq/ftp.html
-- Keywords: strategy
+- Keywords: strategy, inspired by Empire
 - Code repository: https://gitlab.com/osgames/xconq.git (backup of cvs), http://xcong.cvs.sourceforge.net (cvs)
 - Code language: C++
 - Code license: GPL-2.0

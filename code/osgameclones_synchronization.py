@@ -46,10 +46,10 @@ osgc_name_aliases = {'4DTris': '4D-TRIS', 'fheroes2': 'Free Heroes 2', 'DrCreep'
                      'mewl': 'M.E.W.L.', 'LinWarrior': 'Linwarrior 3D', 'Mice Men Remix': 'Mice Men: Remix',
                      'OpenApoc': 'Open Apocalypse', 'open-cube': 'Open Cube', 'open-horizon': 'Open Horizon',
                      'opengl_test_drive_clone': 'OpenGL Test Drive Remake', "Freenukum Jump'n Run": 'Freenukum',
-                     'Play Freeciv!': 'Freeciv-web', 'ProjectX': 'Forsaken',
+                     'Play Freeciv!': 'Freeciv-web', 'ProjectX': 'Forsaken', 'Lyon': 'Roton',
                      'Siege of Avalon Open Source': 'Siege of Avalon : Open Source', 'ss13remake': 'SS13 Remake',
                      'shadowgrounds': 'Shadowgrounds', 'RxWars': 'Prescription Wars',
-                     'Super Mario Bros And Level Editor in C#': 'Mario Objects',
+                     'Super Mario Bros And Level Editor in C#': 'Mario Objects', 'Unitystation': 'unitystation',
                      'tetris': 'Just another Tetris™ clone', 'twin-e': 'TwinEngine', 'super-methane-brothers-gx': 'Super Methane Brothers for Wii and GameCube',
                      'CrossUO: Ultima Online': 'CrossUO', 'Doomsday': 'Doomsday Engine', 'OpMon': 'OPMon'}
 
@@ -57,14 +57,14 @@ osgc_name_aliases = {'4DTris': '4D-TRIS', 'fheroes2': 'Free Heroes 2', 'DrCreep'
 osgc_licenses_map = {'GPL2': 'GPL-2.0', 'GPL3': 'GPL-3.0', 'AGPL3': 'AGPL-3.0', 'LGPL3': 'LGPL-3.0',
                      'LGPL2': 'LGPL-2.0 or 2.1?', 'MPL': 'MPL-2.0', 'Apache': 'Apache-2.0',
                      'Artistic': 'Artistic License', 'Zlib': 'zlib', 'PD': 'Public domain', 'AFL3': 'AFL-3.0',
-                     'BSD2': '2-clause BSD'}
+                     'BSD2': '2-clause BSD', 'JRL': 'Java Research License'}
 
 # ignore osgc entries (for various reasons like unclear license etc.)
 osgc_ignored_entries = ["A Mouse's Vengeance", 'achtungkurve.com', 'AdaDoom3', 'Agendaroids', 'Alien 8', 'Ard-Reil',
                         'Balloon Fight', 'bladerunner (Engine within SCUMMVM)', 'Block Shooter', 'Bomb Mania Reloaded',
                         'boulder-dash', 'Cannon Fodder', 'Contra_remake', 'CosmicArk-Advanced', 'Deuteros X',
                         'datastorm', 'div-columns', 'div-pacman2600', 'div-pitfall', 'div-spaceinvaders2600', 'EXILE',
-                        'Free in the Dark', 'Prepare Carefully',
+                        'Free in the Dark', 'Prepare Carefully', 'OpenKKnD',
                         'Football Manager', 'Fight Or Perish', 'EarthShakerDS', 'Entombed!', 'FreeRails 2',
                         'Glest Advanced Engine', 'FreedroidClassic', 'FreeFT', 'Future Blocks', 'HeadOverHeels',
                         'Herzog 3D', 'Homeworld SDL', 'imperialism-remake', 'Jumping Jack 2: Worryingly Familiar',
@@ -328,9 +328,9 @@ if __name__ == "__main__":
                     osgc_urls = [utils.strip_url(url) for url in osgc_urls]
                     our_urls = our_entry['home']
                     our_urls = [utils.strip_url(url) for url in our_urls]
-                    our_urls = [url for url in our_urls if
-                                not url.startswith('github.com/')]  # they don't have them as url
                     p += compare_sets(osgc_urls, our_urls, 'url/home', 'notthem')  # if their urls are not in our urls
+                    # our_urls = [url for url in our_urls if
+                    #             not url.startswith('github.com/')]  # they don't have them as url
                     p += compare_sets(osgc_urls, our_urls[:1], 'url/home',
                                       'notus')  # if our first url is not in their urls
 

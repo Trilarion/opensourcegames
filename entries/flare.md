@@ -7,11 +7,11 @@ _Flare (Free Libre Action Roleplaying Engine) is a simple game engine built to h
 - Download: https://flarerpg.org/index.php/download/, https://github.com/clintbellanger/flare-engine/releases
 - Platform: Windows, Linux, macOS
 - Keywords: game engine, clone, framework, inspired by Diablo
-- Code repository: https://github.com/clintbellanger/flare-engine.git
+- Code repository: https://github.com/clintbellanger/flare-engine.git, https://github.com/clintbellanger/flare-game.git (+)
 - Code language: C++, Java
 - Code license: GPL-3.0
 
-See also [Get Involved](https://flarerpg.org/index.php/get-involved/). See also the [Flare game](https://github.com/clintbellanger/flare-game).
+See also [Get Involved](https://flarerpg.org/index.php/get-involved/).
 
 ## Building
 

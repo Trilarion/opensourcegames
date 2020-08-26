@@ -3,7 +3,7 @@
 _Remake of ZZT._
 
 - Home: https://github.com/asiekierka/reconstruction-of-zzt
-- State: beta
+- State: mature
 - Keywords: adventure, inspired by ZZT, remake
 - Code repository: https://github.com/asiekierka/reconstruction-of-zzt.git
 - Code language: Pascal

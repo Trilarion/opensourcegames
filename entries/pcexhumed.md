@@ -1,4 +1,4 @@
-# NBlood / Rednukem / PCExhumed
+# PCExhumed
 
 _Remake of Powerslave._
 

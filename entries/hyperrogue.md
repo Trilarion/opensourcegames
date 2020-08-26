@@ -1,6 +1,6 @@
 # HyperRogue
 
-_Roguelike inspired by the puzzle game Deadly Rooms of Death and the art of M. C. Escher, taking place in the hyperbolic plane._
+_Roguelike inspired by the puzzle game Deadly Rooms of Death, taking place in the hyperbolic plane._
 
 - Home: http://roguetemple.com/z/hyper/
 - Media: https://en.wikipedia.org/wiki/HyperRogue

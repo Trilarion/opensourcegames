@@ -13,7 +13,7 @@
 - **[Boohu](../boohu.md)** (Go, ISC, beta)
 - **[British Bingo](../british_bingo.md)** (JavaScript, GPL-3.0, mature)
 - **[Candy Box 2](../candy_box_2.md)** (TypeScript, JavaScript, GPL-3.0, mature, inactive since 2013)
-- **[Cattle Bity](../cattle_bity.md)** (TypeScript, MIT, beta)
+- **[Cattle Bity](../cattle_bity.md)** (TypeScript, MIT, mature)
 - **[cc94](../cc94.md)** (C++, Python, AGPL-3.0, beta)
 - **[Chess3D](../chess3d.md)** (JavaScript, Python, GPL-3.0, mature, inactive since 2016)
 - **[Clumsy Bird](../clumsy_bird.md)** (JavaScript, MIT, mature, inactive since 2017)

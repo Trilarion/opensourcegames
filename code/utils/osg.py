@@ -3,31 +3,53 @@ Specific functions working on the games.
 """
 
 import re
-import os
 from difflib import SequenceMatcher
-from utils import utils, constants as c
+from utils import utils
 import lark
+
+from utils.constants import *
 
 
 class ListingTransformer(lark.Transformer):
+    """
+    Transforms content parsed by grammar_listing.lark further.
+    Used for the developer and inspirations list.
+    """
 
-    def number(self, x):
-        raise lark.Discard
+    def unquoted_value(self, x):
+        return x[0].value
+
+    def quoted_value(self, x):
+        return x[0].value[1:-1]  # remove quotation marks
 
     def property(self, x):
-        return x[0].value.lower(), x[1].value
+        """
+        The key of a property will be converted to lower case and the value part is the second part
+        :param x:
+        :return:
+        """
+        return x[0].lower(), x[1:]
 
     def name(self, x):
+        """
+        The name part is treated as a property with key "name"
+        :param x:
+        :return:
+        """
         return 'name', x[0].value
 
     def entry(self, x):
+        """
+        All (key, value) tuples are inserted into a dictionary.
+        :param x:
+        :return:
+        """
         d = {}
         for key, value in x:
+            if key in d:
+                raise RuntimeError('Key in entry appears twice')
             d[key] = value
         return d
-
-    def header(self, x):
-        raise lark.Discard
 
     def start(self, x):
         return x
@@ -61,52 +83,8 @@ class EntryTransformer(lark.Transformer):
         return 'building', d
 
 
-essential_fields = ('Home', 'State', 'Keywords', 'Code repository', 'Code language', 'Code license')
-valid_fields = (
-    'Home', 'Media', 'State', 'Play', 'Download', 'Platform', 'Keywords', 'Code repository', 'Code language',
-    'Code license', 'Code dependencies', 'Assets license', 'Developer', 'Build system', 'Build instructions')
-valid_platforms = ('Windows', 'Linux', 'macOS', 'Android', 'iOS', 'Web')
-recommended_keywords = (
-    'action', 'arcade', 'adventure', 'visual novel', 'sports', 'platform', 'puzzle', 'role playing', 'simulation',
-    'strategy', 'cards', 'board', 'music', 'educational', 'tool', 'game engine', 'framework', 'library', 'remake')
-known_languages = (
-    'AGS Script', 'ActionScript', 'Ada', 'AngelScript', 'Assembly', 'Basic', 'Blender Script', 'BlitzMax', 'C', 'C#',
-    'C++', 'Clojure', 'CoffeeScript', 'ColdFusion', 'D', 'DM', 'Dart', 'Dia', 'Elm', 'Emacs Lisp', 'F#', 'GDScript',
-    'Game Maker Script', 'Go', 'Groovy', 'Haskell', 'Haxe', 'Io', 'Java', 'JavaScript', 'Kotlin', 'Lisp', 'Lua',
-    'MegaGlest Script', 'MoonScript', 'None', 'OCaml', 'Objective-C', 'PHP', 'Pascal', 'Perl', 'Python', 'QuakeC', 'R',
-    "Ren'py", 'Ruby', 'Rust', 'Scala', 'Scheme', 'Script', 'Shell', 'Swift', 'TorqueScript', 'TypeScript', 'Vala',
-    'Visual Basic', 'XUL', 'ZenScript', 'ooc')
-known_licenses = (
-    '2-clause BSD', '3-clause BSD', 'AFL-3.0', 'AGPL-3.0', 'Apache-2.0', 'Artistic License-1.0', 'Artistic License-2.0',
-    'Boost-1.0', 'CC-BY-NC-3.0', 'CC-BY-NC-SA-2.0', 'CC-BY-NC-SA-3.0', 'CC-BY-SA-3.0', 'CC-BY-NC-SA-4.0',
-    'CC-BY-SA-4.0',
-    'CC0', 'Custom', 'EPL-2.0', 'GPL-2.0', 'GPL-3.0', 'IJG', 'ISC', 'Java Research License', 'LGPL-2.0', 'LGPL-2.1',
-    'LGPL-3.0', 'MAME', 'MIT', 'MPL-1.1', 'MPL-2.0', 'MS-PL', 'MS-RL', 'NetHack General Public License', 'None',
-    'Proprietary', 'Public domain', 'SWIG license', 'Unlicense', 'WTFPL', 'wxWindows license', 'zlib')
-known_multiplayer_modes = (
-    'competitive', 'co-op', 'hotseat', 'LAN', 'local', 'massive', 'matchmaking', 'online', 'split-screen')
-
-# TODO put the abbreviations directly in the name line (parenthesis maybe), that is more natural
-code_dependencies_aliases = {'Simple DirectMedia Layer': ('SDL', 'SDL2'), 'Simple and Fast Multimedia Library': ('SFML',),
-                             'Boost (C++ Libraries)': ('Boost',), 'SGE Game Engine': ('SGE',), 'MegaGlest': ('MegaGlest Engine',)}
-code_dependencies_without_entry = {'OpenGL': 'https://www.opengl.org/',
-                                   'GLUT': 'https://www.opengl.org/resources/libraries/',
-                                   'WebGL': 'https://www.khronos.org/webgl/',
-                                   'Unity': 'https://unity.com/solutions/game',
-                                   '.NET': 'https://dotnet.microsoft.com/', 'Vulkan': 'https://www.khronos.org/vulkan/',
-                                   'KDE Frameworks': 'https://kde.org/products/frameworks/',
-                                   'jQuery': 'https://jquery.com/',
-                                   'node.js': 'https://nodejs.org/en/',
-                                   'GNU Guile': 'https://www.gnu.org/software/guile/',
-                                   'tkinter': 'https://docs.python.org/3/library/tk.html'}
-
 regex_sanitize_name = re.compile(r"[^A-Za-z 0-9-+]+")
 regex_sanitize_name_space_eater = re.compile(r" +")
-
-valid_developer_fields = ('name', 'games', 'contact', 'organization', 'home')
-valid_inspiration_fields = ('name', 'inspired entries')
-
-comment_string = '[comment]: # (partly autogenerated content, edit with care, read the manual before)'
 
 
 def name_similarity(a, b):
@@ -130,11 +108,11 @@ def entry_iterator():
     """
 
     # get all entries (ignore everything starting with underscore)
-    entries = os.listdir(c.entries_path)
+    entries = os.listdir(entries_path)
 
     # iterate over all entries
     for entry in entries:
-        entry_path = os.path.join(c.entries_path, entry)
+        entry_path = os.path.join(entries_path, entry)
 
         # ignore directories ("tocs" for example)
         if os.path.isdir(entry_path):
@@ -350,8 +328,8 @@ def assemble_infos():
         # we also allow -X with X =2..9 as possible extension (because of duplicate canonical file names)
         if canonical_file_name != entry and canonical_file_name != entry[:-5] + '.md':
             print('Warning: file {} should be {}'.format(entry, canonical_file_name))
-            source_file = os.path.join(c.entries_path, entry)
-            target_file = os.path.join(c.entries_path, canonical_file_name)
+            source_file = os.path.join(entries_path, entry)
+            target_file = os.path.join(entries_path, canonical_file_name)
             if not os.path.isfile(target_file):
                 pass
                 # os.rename(source_file, target_file)
@@ -390,9 +368,10 @@ def extract_links():
     return urls
 
 
-def read_and_parse(content_file, grammar_file, transformer):
+def read_and_parse(content_file: str, grammar_file: str, transformer: lark.Transformer):
     """
-
+    Reads a content file and a grammar file and parses the content with the grammar following by
+    transforming the parsed output and returning the transformed result.
     :param content_file:
     :param grammar_file:
     :param transformer:
@@ -410,8 +389,7 @@ def read_developer_info():
 
     :return:
     """
-    developer_file = os.path.join(c.root_path, 'developer.md')
-    grammar_file = os.path.join(c.code_path, 'grammar_listing.lark')
+    grammar_file = os.path.join(code_path, 'grammar_listing.lark')
     transformer = ListingTransformer()
     developers = read_and_parse(developer_file, grammar_file, transformer)
     # now transform a bit more
@@ -446,7 +424,7 @@ def write_developer_info(developers):
     :return:
     """
     # comment
-    content = '{}\n'.format(comment_string)
+    content = '{}\n'.format(generic_comment_string)
 
     # number of developer
     content += '# Developer ({})\n\n'.format(len(developers))
@@ -474,22 +452,26 @@ def write_developer_info(developers):
         content += '\n'
 
     # write
-    developer_file = os.path.join(c.root_path, 'developer.md')
     utils.write_text(developer_file, content)
 
 
 def read_inspirations_info():
     """
-
+    Reads the info list about the games originals/inspirations from inspirations.md using the Lark parser grammar
+    in grammar_listing.lark
     :return:
     """
-    inspirations_file = os.path.join(c.root_path, 'inspirations.md')
-    grammar_file = os.path.join(c.code_path, 'grammar_listing.lark')
+    # read inspirations
+
+    grammar_file = os.path.join(code_path, 'grammar_listing.lark')
     transformer = ListingTransformer()
     inspirations = read_and_parse(inspirations_file, grammar_file, transformer)
+
+    # now inspirations is a list of dictionaries for every entry with keys (valid_developers_fields)
+
     # now transform a bit more
     for index, inspiration in enumerate(inspirations):
-        # check for valid keys
+        # check that keys are valid keys
         for field in inspiration.keys():
             if field not in valid_inspiration_fields:
                 raise RuntimeError('Unknown field "{}" for inspiration: {}.'.format(field, inspiration['name']))
@@ -497,26 +479,27 @@ def read_inspirations_info():
         for field in ('inspired entries',):
             if field in inspiration:
                 content = inspiration[field]
-                content = content.split(',')
                 content = [x.strip() for x in content]
                 inspiration[field] = content
+
     # check for duplicate names entries
     names = [inspiration['name'] for inspiration in inspirations]
     duplicate_names = (name for name in names if names.count(name) > 1)
     duplicate_names = set(duplicate_names)  # to avoid duplicates in duplicate_names
     if duplicate_names:
         print('Warning: duplicate inspiration names: {}'.format(', '.join(duplicate_names)))
+
     return inspirations
 
 
 def write_inspirations_info(inspirations):
     """
-
+    Given an internal list of inspirations, write it into the inspirations file
     :param inspirations:
     :return:
     """
     # comment
-    content = '{}\n'.format(comment_string)
+    content = '{}\n'.format(generic_comment_string)
 
     # number of developer
     content += '# Inspirations ({})\n\n'.format(len(inspirations))
@@ -545,7 +528,6 @@ def write_inspirations_info(inspirations):
         content += '\n'
 
     # write
-    inspirations_file = os.path.join(c.root_path, 'inspirations2.md')
     utils.write_text(inspirations_file, content)
 
 

@@ -14,6 +14,8 @@ import json
 import textwrap
 import os
 import re
+
+import utils.constants
 from utils import constants as c, utils, osg
 
 
@@ -76,7 +78,7 @@ def update_readme_and_tocs(infos):
 
     # create by category
     categories_text = []
-    for keyword in osg.recommended_keywords:
+    for keyword in utils.constants.recommended_keywords:
         infos_filtered = [x for x in infos if keyword in x['keywords']]
         title = keyword.capitalize()
         name = keyword.replace(' ', '-')
@@ -88,7 +90,7 @@ def update_readme_and_tocs(infos):
 
     # create by platform
     platforms_text = []
-    for platform in osg.valid_platforms:
+    for platform in utils.constants.valid_platforms:
         infos_filtered = [x for x in infos if platform in x.get('platform', [])]
         title = platform
         name = platform.lower()
@@ -271,7 +273,7 @@ def fix_entries():
         elements = list(set(elements))
 
         # get category out
-        for keyword in osg.recommended_keywords:
+        for keyword in utils.constants.recommended_keywords:
             if keyword in elements:
                 elements.remove(keyword)
                 category = keyword
@@ -949,12 +951,12 @@ def check_code_dependencies(infos):
     """
 
     # get all names of frameworks and library also using osg.code_dependencies_aliases
-    valid_dependencies = list(osg.code_dependencies_without_entry.keys())
+    valid_dependencies = list(utils.constants.general_code_dependencies_without_entry.keys())
     for info in infos:
         if any((x in ('framework', 'library', 'game engine') for x in info['keywords'])):
             name = info['name']
-            if name in osg.code_dependencies_aliases:
-                valid_dependencies.extend(osg.code_dependencies_aliases[name])
+            if name in utils.constants.code_dependencies_aliases:
+                valid_dependencies.extend(utils.constants.code_dependencies_aliases[name])
             else:
                 valid_dependencies.append(name)
 

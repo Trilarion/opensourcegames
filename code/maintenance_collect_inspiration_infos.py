@@ -6,4 +6,4 @@ if __name__ == "__main__":
     osg.write_inspirations_info(inspirations)  # write again just to check integrity
 
     # assemble info
-    entries = osg.assemble_infos()
+    # entries = osg.assemble_infos()

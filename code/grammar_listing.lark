@@ -1,17 +1,18 @@
-start: header entry*
+start: entry*
+entry: "##" name "(" _NUMBER ")\n" property+ 
+property: "-" _key ":" _values "\n"
+_key: /(?! ).+?(?=:)(?<! )/    // key: everything until next ":", not beginning or ending with a space
+_values: [_value ("," _value)*]
+_value: quoted_value | unquoted_value
+quoted_value: /\".+?\"/   // with quotation marks, can contain commas
+unquoted_value: /(?![ \"])[^,\n]+(?<![ \"])/ // cannot contain commas, cannot start or end with quotation mark
 
-header: "# " name " (" number ")\n" _E
+name: /(?! ).+?(?= \()/    // developer name: everything until " ("
 
-entry: "## " name " (" number  ")\n" _E property+ _E
+_NUMBER: /[0-9]+/
 
-property: "- " _key ": " _value "\n"
-_key: /(?! ).+?(?=:)(?<! )/                      // key: everything until next ":", not beginning or ending with a space
-_value: /.+(?<! )/                               // everything until the end of the line, not ending with a space
-
-name: /.+?(?= \()/                               // developer name: everything until " ("
-number: /[0-9]+/
-
-COMMENT: /^\[comment\]: #.*$\n/m                 // [comment]: # xxx
-_E: /^$\n/m                                      // empty new line
-
-%ignore COMMENT
+%import common.WS
+%ignore WS
+%ignore /^\[comment\]: #.*$\n/m   // [comment]: # xxx
+%ignore /^# .+$\n/m    // the line starting with "# "
+%ignore /^$\n/m        // empty lines

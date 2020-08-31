@@ -31,7 +31,7 @@
 
 ## Achtung die Kurve! (3)
 
-- Inspired entries: Achtung, die Kurve!, Netacka, Zatacka X
+- Inspired entries: "Achtung, die Kurve!", Netacka, Zatacka X
 
 ## Advance Wars (1)
 
@@ -1311,7 +1311,7 @@
 
 ## RARS (1)
 
-- Inspired entries: TORCS, The Open Racing Car Simulator
+- Inspired entries: "The Open Racing Car Simulator, TORCS"
 
 ## Redneck Rampage (1)
 

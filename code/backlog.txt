@@ -5,14 +5,21 @@ http://cdetect.sourceforge.net/
 http://circularstudios.com/
 http://cyxdown.free.fr/bs/
 http://cyxdown.free.fr/f2b/
+https://github.com/nfprojects/nfengine
 http://dead-code.org/home/
 http://e-adventure.e-ucm.es/login/index.php (games of eAdventure)
 http://ethernet.wasted.ch/
 http://evolonline.org/about
 http://game-editor.com/Main_Page
 http://giderosmobile.com/
+https://github.com/skylicht-lab/skylicht-engine
+https://github.com/etlegacy/etlegacy
+https://github.com/Soldat/soldat
+https://github.com/guillaumechereau/goxel
 http://haxepunk.com/
 http://hcsoftware.sourceforge.net/jason-rohrer/ (various games there)
+https://github.com/cxong/cdogs-sdl
+https://github.com/terrafx/terrafx
 http://hgm.nubati.net/
 http://icculus.org/
 http://icculus.org/asciiroth/

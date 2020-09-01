@@ -399,14 +399,13 @@ def read_developer_info():
             if field not in valid_developer_fields:
                 raise RuntimeError('Unknown developer field "{}" for developer: {}.'.format(field, dev['name']))
         # strip from name or organization (just in case)
-        for field in ('name', 'organization'):
+        for field in ('name', ):
             if field in dev:
                 dev[field] = dev[field].strip()
         # split games, contact (are lists)
         for field in ('games', 'contact'):
             if field in dev:
                 content = dev[field]
-                content = content.split(',')
                 content = [x.strip() for x in content]
                 dev[field] = content
     # check for duplicate names entries
@@ -427,28 +426,31 @@ def write_developer_info(developers):
     content = '{}\n'.format(generic_comment_string)
 
     # number of developer
-    content += '# Developer ({})\n\n'.format(len(developers))
+    content += '# Developer [{}]\n\n'.format(len(developers))
 
     # sort by name
     developers.sort(key=lambda x: str.casefold(x['name']))
 
     # iterate over them
     for dev in developers:
+        keys = list(dev.keys())
         # developer name
-        content += '## {} ({})\n\n'.format(dev['name'], len(dev['games']))
+        content += '## {} [{}]\n\n'.format(dev['name'], len(dev['games']))
+        keys.remove('name')
 
-        # games
-        content += '- Games: {}\n'.format(', '.join(sorted(dev['games'], key=str.casefold)))
-
-        # all the remaining in alphabetical order
-        for field in sorted(dev.keys()):
-            if field not in ('name', 'games'):
-                value = dev[field]
-                field = field.capitalize()
-                if isinstance(value, str):
-                    content += '- {}: {}\n'.format(field, value)
-                else:
-                    content += '- {}: {}\n'.format(field, ', '.join(sorted(value, key=str.casefold)))
+        # all the remaining in alphabetical order, but 'games' first
+        keys.remove('games')
+        keys.sort()
+        keys = ['games'] + keys
+        for field in keys:
+            value = dev[field]
+            field = field.capitalize()
+            # lists get special treatment
+            if isinstance(value, list):
+                value.sort(key=str.casefold)
+                value = [x if not ',' in x else '"{}"'.format(x) for x in value]  # surround those with a comma with quotation marks
+                value = ', '.join(value)
+            content += '- {}: {}\n'.format(field, value)
         content += '\n'
 
     # write
@@ -502,29 +504,31 @@ def write_inspirations_info(inspirations):
     content = '{}\n'.format(generic_comment_string)
 
     # number of developer
-    content += '# Inspirations ({})\n\n'.format(len(inspirations))
+    content += '# Inspirations [{}]\n\n'.format(len(inspirations))
 
     # sort by name
     inspirations.sort(key=lambda x: str.casefold(x['name']))
 
     # iterate over them
     for inspiration in inspirations:
+        keys = list(inspiration.keys())
         # inspiration name
-        content += '## {} ({})\n\n'.format(inspiration['name'], len(inspiration['inspired entries']))
+        content += '## {} [{}]\n\n'.format(inspiration['name'], len(inspiration['inspired entries']))
+        keys.remove('name')
 
-        # games
-        content += '- Inspired entries: {}\n'.format(
-            ', '.join(sorted(inspiration['inspired entries'], key=str.casefold)))
-
-        # all the remaining in alphabetical order
-        for field in sorted(inspiration.keys()):
-            if field not in ('name', 'inspired entries'):
-                value = inspiration[field]
-                field = field.capitalize()
-                if isinstance(value, str):
-                    content += '- {}: {}\n'.format(field, value)
-                else:
-                    content += '- {}: {}\n'.format(field, ', '.join(sorted(value, key=str.casefold)))
+        # all the remaining in alphabetical order, but "inspired entries" first
+        keys.remove('inspired entries')
+        keys.sort()
+        keys = ['inspired entries'] + keys
+        for field in keys:
+            value = inspiration[field]
+            field = field.capitalize()
+            # lists get special treatment
+            if isinstance(value, list):
+                value.sort(key=str.casefold)
+                value = [x if not ',' in x else '"{}"'.format(x) for x in value]  # surround those with a comma with quotation marks
+                value = ', '.join(value)
+            content += '- {}: {}\n'.format(field, value)
         content += '\n'
 
     # write

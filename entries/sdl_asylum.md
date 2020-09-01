@@ -1,6 +1,6 @@
 # SDL Asylum
 
-_C port of the computer game Asylum, which was written by Andy Southgate in 1994 for the Acorn Archimedes and is now public domain._
+_C port of Asylum._
 
 - Home: http://sdl-asylum.sourceforge.net/, https://sourceforge.net/projects/sdl-asylum/
 - Media: http://asylum.acornarcade.com/
@@ -16,6 +16,7 @@ _C port of the computer game Asylum, which was written by Andy Southgate in 1994
 - Developer: Andy Southgate, Hugh Robinson
 
 [Successor of Asylum](http://asylum.acornarcade.com/) from 1994.
+Asylum was written by Andy Southgate in 1994 for the Acorn Archimedes and is now public domain.
 
 ## Building
 

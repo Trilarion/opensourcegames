@@ -1,6 +1,6 @@
 # xu4
 
-_A remake of the computer game Ultima IV._
+_A remake of Ultima IV._
 
 - Home: http://xu4.sourceforge.net/, https://sourceforge.net/projects/xu4/
 - Media: <https://en.wikipedia.org/wiki/Ultima_IV:_Quest_of_the_Avatar#Ultima_IV_on_modern_operating_systems>

@@ -92,4 +92,4 @@ general_code_dependencies_without_entry = {'OpenGL': 'https://www.opengl.org/',
 valid_developer_fields = ('name', 'games', 'contact', 'organization', 'home')
 
 # inspiration/original game information (in the file all fields will be capitalized)
-valid_inspiration_fields = ('name', 'inspired entries')
+valid_inspiration_fields = ('name', 'inspired entries', 'media')

@@ -4,6 +4,7 @@ stored Git repositories.
 """
 
 import os
+import sys
 import requests
 from bs4 import BeautifulSoup
 from utils import constants as c, utils, osg, osg_github
@@ -24,7 +25,11 @@ if __name__ == "__main__":
 
     # read developer info
     developer_info = osg.read_developer_info()
-    osg.write_developer_info(developer_info)  # write again just to make nice
+    osg.write_developer_info(developer_info)  # write again just to make it nice and as sanity check
+
+    sys.exit(0)
+
+
 
     # assemble info
     entries = osg.assemble_infos()

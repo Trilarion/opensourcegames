@@ -1,5 +1,5 @@
 start: entry*
-entry: "##" name "(" _NUMBER ")\n" property+ 
+entry: "##" name "[" _NUMBER "]\n" property+
 property: "-" _key ":" _values "\n"
 _key: /(?! ).+?(?=:)(?<! )/    // key: everything until next ":", not beginning or ending with a space
 _values: [_value ("," _value)*]
@@ -7,7 +7,7 @@ _value: quoted_value | unquoted_value
 quoted_value: /\".+?\"/   // with quotation marks, can contain commas
 unquoted_value: /(?![ \"])[^,\n]+(?<![ \"])/ // cannot contain commas, cannot start or end with quotation mark
 
-name: /(?! ).+?(?= \()/    // developer name: everything until " ("
+name: /(?! ).+?(?= \[)/    // developer name: everything until " ["
 
 _NUMBER: /[0-9]+/
 

@@ -1,6 +1,6 @@
 # Moria
 
-_Roguelike computer game inspired by J. R. R. Tolkien's novel The Lord of the Rings._
+_Roguelike inspired by Tolkien's novel The Lord of the Rings._
 
 - Home: https://umoria.org/, http://beej.us/moria/
 - Media: <https://en.wikipedia.org/wiki/Moria_(video_game)>

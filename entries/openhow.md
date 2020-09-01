@@ -3,7 +3,6 @@
 _Remake of Hogs of War._
 
 - Home: https://github.com/TalonBraveInfo/OpenHoW
-- Media: https://en.wikipedia.org/wiki/Hogs_of_War
 - State: beta
 - Platform: Windows, Linux
 - Keywords: strategy, commercial content, inspired by Hogs of War, remake, requires original content, turn-based

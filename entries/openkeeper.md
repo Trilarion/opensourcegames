@@ -1,6 +1,6 @@
 # OpenKeeper
 
-_Remake of the Dungeon Keeper II engine._
+_Remake of the Dungeon Keeper 2 engine._
 
 - Home: https://github.com/tonihele/OpenKeeper
 - State: beta

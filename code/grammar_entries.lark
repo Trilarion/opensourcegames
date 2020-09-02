@@ -1,21 +1,26 @@
-start: title description property+ (_E note)? _E building
+start: title description property+ note? building
+title: "#" /(?! ).+(?<! )/ _NL                 // not starting or ending with a space
 
-title: "#" /(?! ).+(?<! )/ "\n" _E                 // not starting or ending with a space
+description: "_" /(?! ).+(?<![ _])/ "_" _NL       // single line not ending with underscore
+property: "-" _key ":" _values _NL
+_key : /(?! ).+?(?=:)(?<! )/    // key: everything until next ":", not beginning or ending with a space
+_values : [_value ("," _value)*]
+_value : quoted_value | unquoted_value
+quoted_value : /\".+?\"/   // with quotation marks, can contain commas
+unquoted_value : /(?![ \"])[^,\n]+(?<![ \"])/ // cannot contain commas, cannot start or end with quotation mark
 
-description: "_" /(?! ).+(?<![ _])/ "_\n" _E        // single line not ending with underscore
+note.3: /(?![\-#]).*\n/+                              // Unstructured text, not starting with - or #
 
-note: /(?![\-#]).*\n/*                              // Unstructured text, not starting with - or #
+building: "## Building" _NL property* note?     // the "building" section
 
-building: "## Building\n" (_E property+)? (_E note)?     // the "building" section
 
-property: "-" _key ":" _values "\n"?                // a property on a single line "- key: value"
-_key: /(?! ).+?(?=:)(?<! )/                         // key: everything until next ":", not beginning or ending with a space
-_values: [_value ("," _value)*]                     // a comma separated list
-_value: quoted_value | unquoted_value               // quoted or unquoted values
-quoted_value: /\".+?\"/                             // with quotation marks, can contain commas
-unquoted_value: /(?![ \"])[^,\n]+(?<![ ])/        // cannot contain commas, cannot start or end with quotation mark
+_NUMBER: /[0-9]+/
 
-_E: /^$\n/m                                         // empty new line
+CR : /\r/
+LF : /\n/
+_NL : CR? LF
+WS : (" "|/\t/)+
+_EL.2 : /^$\n/m
 
-%import common.WS
 %ignore WS
+%ignore _EL

@@ -37,8 +37,10 @@ essential_fields = ('Home', 'State', 'Keywords', 'Code repository', 'Code langua
 
 # only these fields can be used currently (in this order)
 valid_fields = (
-    'Home', 'Media', 'State', 'Play', 'Download', 'Platform', 'Keywords', 'Code repository', 'Code language',
-    'Code license', 'Code dependencies', 'Assets license', 'Developer', 'Build system', 'Build instructions')
+    'Home', 'Media', 'Inspirations', 'State', 'Play', 'Download', 'Platform', 'Keywords', 'Code repository', 'Code language',
+    'Code license', 'Code dependencies', 'Assets license', 'Developer')
+
+valid_building_fields = ('Build system', 'Build instructions')
 
 # these are the only valid platforms currently (and must be given in this order)
 valid_platforms = ('Windows', 'Linux', 'macOS', 'Android', 'iOS', 'Web')

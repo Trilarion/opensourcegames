@@ -86,7 +86,7 @@ class EntryTransformer(lark.Transformer):
         """
         if not x:
             raise lark.Discard
-        return 'note', x[0].value
+        return 'note', ''.join((x.value for x in x))
 
     def building(self, x):
         d = {}
@@ -401,7 +401,7 @@ def read_and_parse(content_file: str, grammar_file: str, transformer: lark.Trans
     """
     content = utils.read_text(content_file)
     grammar = utils.read_text(grammar_file)
-    parser = lark.Lark(grammar, debug=False)
+    parser = lark.Lark(grammar, debug=False, parser='lalr')
     tree = parser.parse(content)
     return transformer.transform(tree)
 
@@ -565,7 +565,7 @@ def read_entries():
     # setup parser
     grammar_file = os.path.join(code_path, 'grammar_entries.lark')
     grammar = utils.read_text(grammar_file)
-    parser = lark.Lark(grammar, debug=False)
+    parser = lark.Lark(grammar, debug=False, parser='lalr')
 
     # setup transformer
     transformer = EntryTransformer()
@@ -576,15 +576,19 @@ def read_entries():
     # iterate over all entries
     for file, _, content in entry_iterator():
 
-        print(file)
+        if not content.endswith('\n'):
+            content += '\n'
 
         # parse and transform entry content
         try:
             tree = parser.parse(content)
             entry = transformer.transform(tree)
         except Exception as e:
+            print(file)
             print(e)
             continue
+
+        # TODO check entry
 
         # add file information
         entry['file'] = file
@@ -594,6 +598,74 @@ def read_entries():
 
     return entries
 
+def write_entries(entries):
+    """
+
+    :return:
+    """
+
+    # iterate over all entries
+    entries = entries[:20]
+    for entry in entries:
+        write_entry(entry)
+
+def write_entry(entry):
+    """
+
+    :param entry:
+    :return:
+    """
+    # TODO check entry
+
+    # get path
+    entry_path = os.path.join(entries_path, entry['file'])
+
+    # create output content
+    content = create_entry_content(entry)
+
+    # write entry
+    utils.write_text(entry_path, content)
+
+
+def create_entry_content(entry):
+    """
+
+    :param entry:
+    :return:
+    """
+
+    # title and description
+    content = '# {}\n\n_{}_\n\n'.format(entry['title'], entry['description'])
+
+    # now properties in the recommended order
+    for field in valid_fields:
+        field_name = field.lower()
+        if field_name in entry:
+            content += '- {}: {}\n'.format(field, ', '.join(entry[field_name]))
+    content += '\n'
+
+    # if there is a note, insert it
+    if 'note' in entry:
+        content += entry['note'] + '\n'
+
+    # building header
+    content += '## Building\n\n'
+
+    # building properties if present
+    has_properties = False
+    for field in valid_building_fields:
+        field_name = field.lower()
+        if field_name in entry['building']:
+            has_properties = True
+            content += '- {}: {}\n'.format(field, ', '.join(entry['building'][field_name]))
+
+    # if there is a note, insert it
+    if 'note' in entry['building']:
+        if has_properties:
+            content += '\n'
+        content += entry['building']['note'] + '\n'
+
+    return content
 
 def compare_entries_developers(entries, developers):
     """

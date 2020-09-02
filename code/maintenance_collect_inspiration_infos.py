@@ -2,6 +2,7 @@
 Maintenance of inspirations.md and synchronization with the inspirations in the entries.
 """
 
+import time
 from utils import constants as c, utils, osg, osg_ui
 
 
@@ -33,8 +34,14 @@ if __name__ == "__main__":
 
 
     # assemble info
+    t0 = time.process_time()
     entries = osg.read_entries()
-    entries = osg.assemble_infos()
+    print('took {}s'.format(time.process_time()-t0))
+    t0 = time.process_time()
+    # entries = osg.assemble_infos()
+    osg.write_entries(entries)
+    print('took {}s'.format(time.process_time()-t0))
+
 
     # assemble inspirations info from entries
     entries_inspirations = {}

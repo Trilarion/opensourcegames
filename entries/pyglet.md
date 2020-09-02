@@ -2,7 +2,7 @@
 
 _Multimedia library for Python._
 
-- Home: http://pyglet.org/,
+- Home: http://pyglet.org/
 - State: mature
 - Download: https://pypi.org/project/pyglet/
 - Platform: Windows, Linux, macOS

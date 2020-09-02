@@ -11,5 +11,3 @@ _Simple game about matching a pathogen molecular structure on a hexagonal grid._
 - Developer: Jetro Lauha
 
 ## Building
-
-Build system:

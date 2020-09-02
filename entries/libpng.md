@@ -16,5 +16,5 @@ _libpng is the official PNG reference library._
 ## Building
 
 2017-12
-- On Windows CMake fails with "No CMAKE_ASM_COMPILER could be found." on "project(.. ASM)" with MSVC 2015 as generator
+On Windows CMake fails with "No CMAKE_ASM_COMPILER could be found." on "project(.. ASM)" with MSVC 2015 as generator
 

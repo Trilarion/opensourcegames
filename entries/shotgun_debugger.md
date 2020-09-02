@@ -12,4 +12,7 @@ _Shooting game which uses a 3d engine but allows 2d gameplay._
 - Code dependencies: SDL
 - Developer: Matthew Sarnoff (Game Creation Society), Chris DeLeon (Game Creation Society), John Nesky (Game Creation Society), Gregory Peng (Game Creation Society), Jeff Thoene (Game Creation Society), Tuscan Knox (music, Game Creation Society), Michael Weber (Game Creation Society)
 
-## Building system: VisualStudio
+## Building
+
+- Build system: VisualStudio
+

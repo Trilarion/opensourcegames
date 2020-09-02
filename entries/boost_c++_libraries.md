@@ -18,7 +18,7 @@ _Boost provides free peer-reviewed portable C++ source libraries._
 Uses its own Build process
 
 2017-11 (1.65.1)
-- Much is header only, but some parts require building
-- Follow [Getting started on Windows](https://www.boost.org/doc/libs/1_65_1/more/getting_started/windows.html) or [Getting started on Unix variants](https://www.boost.org/doc/libs/1_65_1/more/getting_started/unix-variants.html)
-- Building on Windows with MSVC 2017 requires a workaround (see [issue #13197](https://svn.boost.org/trac10/ticket/13197))
-- With MSVC 2015 run "bootstrap vc14" followed by "b2 toolset=msvc-14.0 stage"
+Much is header only, but some parts require building
+Follow [Getting started on Windows](https://www.boost.org/doc/libs/1_65_1/more/getting_started/windows.html) or [Getting started on Unix variants](https://www.boost.org/doc/libs/1_65_1/more/getting_started/unix-variants.html)
+Building on Windows with MSVC 2017 requires a workaround (see [issue #13197](https://svn.boost.org/trac10/ticket/13197))
+With MSVC 2015 run "bootstrap vc14" followed by "b2 toolset=msvc-14.0 stage"

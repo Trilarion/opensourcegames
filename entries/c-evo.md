@@ -1,6 +1,6 @@
 # C-evo
 
-_C-evo is a freeware empire building game for Windows._
+_Empire building game._
 
 - Home: http://www.c-evo.org/
 - Media: https://en.wikipedia.org/wiki/C-evo
@@ -9,6 +9,6 @@ _C-evo is a freeware empire building game for Windows._
 - Keywords: strategy, clone, inspired by Civilization II, turn-based
 - Code repository: https://github.com/vn971/cevo.git (and also download http://c-evo.org/files/cevosrc.zip)
 - Code language: Pascal
-- Code license: Public domain (original project), GPL-3.0 (Github project) 
+- Code license: Public domain (original project), GPL-3.0 (Github project)
 
 ## Building

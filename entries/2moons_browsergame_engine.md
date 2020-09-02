@@ -13,4 +13,3 @@ _Space browsergame framework._
 - Developer: Jan-Otto Kröpke, Ozan Kurt, Hilarious001
 
 ## Building
-

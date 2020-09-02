@@ -28,11 +28,12 @@ if __name__ == "__main__":
     print('{} inspirations in the inspirations database'.format(len(inspirations)))
     osg.write_inspirations_info(inspirations)  # write again just to check integrity
 
-    osg_ui.run_simple_button_app('Maintenance inspirations', (('Duplicate check', duplicate_check),))
+    #osg_ui.run_simple_button_app('Maintenance inspirations', (('Duplicate check', duplicate_check),))
 
 
 
     # assemble info
+    entries = osg.read_entries()
     entries = osg.assemble_infos()
 
     # assemble inspirations info from entries

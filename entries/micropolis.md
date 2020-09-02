@@ -1,6 +1,6 @@
 # Micropolis
 
-_Micropolis is the open source version of SimCity Classic from Maxis._
+_Remake of SimCity._
 
 - Home: https://micropolisonline.com/
 - Media: <https://en.wikipedia.org/wiki/SimCity_(1989_video_game)#Micropolis>
@@ -14,4 +14,5 @@ _Micropolis is the open source version of SimCity Classic from Maxis._
 ## Building
 
 - Build system: setup.py
+
 Many various parts

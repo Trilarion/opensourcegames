@@ -20,5 +20,4 @@ Does not contain tests.
 Includes precompiled libraries for various compilers in source folder _extlibs_.
 
 2017-12
-- Windows, CMake, MSVC 2015 builds
-
+Windows, CMake, MSVC 2015 builds

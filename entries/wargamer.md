@@ -1,6 +1,6 @@
 # Wargamer
 
-_Open source development of the game Wargamer:Napoleon 1813 originally developed by Steven Green/Greenius, and published in 1999 by Empire Interactive._
+_Remake of Wargamer:Napoleon 1813._
 
 - Home: https://sourceforge.net/projects/wargamer/, http://wargamer.sourceforge.net/
 - State: mature, inactive since 2003
@@ -11,5 +11,6 @@ _Open source development of the game Wargamer:Napoleon 1813 originally developed
 - Code license: GPL-2.0
 
 May require original files?
+Wargamer: Napoleon 1813 originally developed by Steven Green/Greenius, and published in 1999 by Empire Interactive.
 
 ## Building

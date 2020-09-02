@@ -4,7 +4,7 @@ _Remake of Space Invaders and other small arcade games._
 
 - Home: https://github.com/Hopson97/Hopson-Arcade
 - State: mature
-- Platform. Linux
+- Platform: Linux
 - Keywords: arcade, inspired by Space Invaders, open content, remake
 - Code repository: https://github.com/Hopson97/Hopson-Arcade.git
 - Code language: C++

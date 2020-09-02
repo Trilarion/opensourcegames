@@ -58,11 +58,19 @@ class ListingTransformer(lark.Transformer):
 # transformer
 class EntryTransformer(lark.Transformer):
 
-    def start(self, x):
-        d = {}
-        for key, value in x:
-            d[key] = value
-        return d
+    def unquoted_value(self, x):
+        return x[0].value
+
+    def quoted_value(self, x):
+        return x[0].value[1:-1]  # remove quotation marks
+
+    def property(self, x):
+        """
+        The key of a property will be converted to lower case and the value part is the second part
+        :param x:
+        :return:
+        """
+        return x[0].lower(), x[1:]
 
     def title(self, x):
         return 'title', x[0].value
@@ -70,17 +78,31 @@ class EntryTransformer(lark.Transformer):
     def description(self, x):
         return 'description', x[0].value
 
-    def property(self, x):
-        return str.casefold(x[0].value), x[1].value
-
     def note(self, x):
+        """
+        Optional
+        :param x:
+        :return:
+        """
+        if not x:
+            raise lark.Discard
         return 'note', x[0].value
 
     def building(self, x):
         d = {}
         for key, value in x:
+            if key in d:
+                raise RuntimeError('Key in entry appears twice')
             d[key] = value
         return 'building', d
+
+    def start(self, x):
+        d = {}
+        for key, value in x:
+            if key in d:
+                raise RuntimeError('Key in entry appears twice')
+            d[key] = value
+        return d
 
 
 regex_sanitize_name = re.compile(r"[^A-Za-z 0-9-+]+")
@@ -533,6 +555,44 @@ def write_inspirations_info(inspirations):
 
     # write
     utils.write_text(inspirations_file, content)
+
+
+def read_entries():
+    """
+    Parses all entries and assembles interesting infos about them.
+    """
+
+    # setup parser
+    grammar_file = os.path.join(code_path, 'grammar_entries.lark')
+    grammar = utils.read_text(grammar_file)
+    parser = lark.Lark(grammar, debug=False)
+
+    # setup transformer
+    transformer = EntryTransformer()
+
+    # a database of all important infos about the entries
+    entries = []
+
+    # iterate over all entries
+    for file, _, content in entry_iterator():
+
+        print(file)
+
+        # parse and transform entry content
+        try:
+            tree = parser.parse(content)
+            entry = transformer.transform(tree)
+        except Exception as e:
+            print(e)
+            continue
+
+        # add file information
+        entry['file'] = file
+
+        # add to list
+        entries.append(entry)
+
+    return entries
 
 
 def compare_entries_developers(entries, developers):

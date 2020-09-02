@@ -1,6 +1,6 @@
 # Open Legend RPG
 
-_A tabletop roleplaying game (or RPG) in which the players play the part of mighty heroes and wicked villains in order to tell stories of epic proportion._
+_The players play mighty heroes and wicked villains in order to tell stories of epic proportion._
 
 - Home: https://openlegendrpg.com
 - State: mature
@@ -9,4 +9,4 @@ _A tabletop roleplaying game (or RPG) in which the players play the part of migh
 - Code language: None
 - Code license: Custom (Open Legend Community License: https://github.com/openlegend/core-rules/blob/master/LICENSE.md)
 
-
+## Building

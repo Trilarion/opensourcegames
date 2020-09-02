@@ -1,15 +1,21 @@
-start: title description property+ _E note? _E? building
+start: title description property+ (_E note)? _E building
 
-title: "# " /(?! ).+(?<! )/ "\n" _E                 // not starting or ending with a space
+title: "#" /(?! ).+(?<! )/ "\n" _E                 // not starting or ending with a space
 
 description: "_" /(?! ).+(?<![ _])/ "_\n" _E        // single line not ending with underscore
 
-property: "- " _key ": " _value "\n"                // a property on a single line "- key: value"
-_key: /(?! ).+?(?=:)/                               // key: everything until next ":"
-_value: /.+(?<! )/                                  // everything until the end of the line
-
-building: "## Building\n" _E property+ _E? note     // the "building" section
-
 note: /(?![\-#]).*\n/*                              // Unstructured text, not starting with - or #
 
+building: "## Building\n" (_E property+)? (_E note)?     // the "building" section
+
+property: "-" _key ":" _values "\n"?                // a property on a single line "- key: value"
+_key: /(?! ).+?(?=:)(?<! )/                         // key: everything until next ":", not beginning or ending with a space
+_values: [_value ("," _value)*]                     // a comma separated list
+_value: quoted_value | unquoted_value               // quoted or unquoted values
+quoted_value: /\".+?\"/                             // with quotation marks, can contain commas
+unquoted_value: /(?![ \"])[^,\n]+(?<![ ])/        // cannot contain commas, cannot start or end with quotation mark
+
 _E: /^$\n/m                                         // empty new line
+
+%import common.WS
+%ignore WS

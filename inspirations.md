@@ -16,6 +16,7 @@
 ## Abuse [1]
 
 - Inspired entries: Abuse
+- Media: <https://en.wikipedia.org/wiki/Abuse_(video_game)>
 
 ## Ace Combat: Assault Horizon [1]
 
@@ -461,6 +462,7 @@
 ## Death Rally [1]
 
 - Inspired entries: Dreerally
+- Media: https://en.wikipedia.org/wiki/Death_Rally
 
 ## Defender [2]
 
@@ -469,6 +471,7 @@
 ## Deflektor [1]
 
 - Inspired entries: Mirror Magic
+- Media: https://en.wikipedia.org/wiki/Deflektor
 
 ## Delver [1]
 
@@ -570,6 +573,7 @@
 ## E.T. the Extra-Terrestrial [1]
 
 - Inspired entries: javascript-E.T.
+- Media: <https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial_(video_game)>
 
 ## Eat The Whistle [1]
 
@@ -626,6 +630,7 @@
 ## Fallout 2 [4]
 
 - Inspired entries: Falltergeist, jsFO, PARPG, sfall
+- Media: https://en.wikipedia.org/wiki/Fallout_2
 
 ## Fallout Online [1]
 
@@ -674,6 +679,7 @@
 ## Freelancer [1]
 
 - Inspired entries: Librelancer
+- Media: <https://en.wikipedia.org/wiki/Freelancer_(video_game)>
 
 ## Frets on Fire [1]
 
@@ -710,6 +716,7 @@
 ## GoldenEye 007 [2]
 
 - Inspired entries: ges-code, GoldenEye: Source
+- Media: <https://en.wikipedia.org/wiki/GoldenEye_007_(1997_video_game)>
 
 ## Gorillas [2]
 
@@ -875,6 +882,7 @@
 ## Krush Kill 'n' Destroy [1]
 
 - Inspired entries: KKnD
+- Media: <https://en.wikipedia.org/wiki/KKnD_(video_game)>
 
 ## Kula World [1]
 
@@ -971,6 +979,7 @@
 ## Marathon [1]
 
 - Inspired entries: Aleph One
+- Media: <https://marathongame.fandom.com/wiki/Marathon_(Game)>
 
 ## Marathon 2 [1]
 
@@ -1207,10 +1216,12 @@
 ## Panzer General [2]
 
 - Inspired entries: LGeneral, Open Panzer
+- Media: https://en.wikipedia.org/wiki/Panzer_General
 
 ## Paradroid [2]
 
 - Inspired entries: FreedroidRPG, Nighthawk
+- Media: https://en.wikipedia.org/wiki/Paradroid
 
 ## Pixel Dungeon [1]
 
@@ -1323,6 +1334,7 @@
 ## RimWorld [1]
 
 - Inspired entries: Magical Life
+- Media: https://en.wikipedia.org/wiki/RimWorld
 
 ## Rise of the Triad [1]
 
@@ -1347,6 +1359,7 @@
 ## Runescape Classic [2]
 
 - Inspired entries: 2006-rebotted, Open RSC
+- Media: https://runescape.fandom.com/wiki/RuneScape_Classic
 
 ## Ryzom [1]
 
@@ -1428,9 +1441,10 @@
 
 - Inspired entries: Danger from the Deep
 
-## Simcity [8]
+## SimCity [8]
 
 - Inspired entries: 3d.city, Citybound, Cytopia, Lincity, LinCity-NG, Micropolis, micropolisJS, OpenCity
+- Media: <https://en.wikipedia.org/wiki/SimCity_(1989_video_game)>
 
 ## SimCity 2000 [1]
 
@@ -1547,10 +1561,12 @@
 ## Star Wars Jedi Knight: Dark Forces II [1]
 
 - Inspired entries: Gorc
+- Media: https://en.wikipedia.org/wiki/Star_Wars_Jedi_Knight:_Dark_Forces_II
 
 ## Star Wars Jedi Knight: Jedi Academy [1]
 
 - Inspired entries: OpenJK
+- Media: https://en.wikipedia.org/wiki/Star_Wars_Jedi_Knight:_Jedi_Academy
 
 ## Star Wars: Galactic Battlegrounds [1]
 
@@ -1635,6 +1651,7 @@
 ## Super Monkey Ball [4]
 
 - Inspired entries: irrlamb, Neverball, Nuncabola, Veraball
+- Media: <https://en.wikipedia.org/wiki/Super_Monkey_Ball_(video_game)>
 
 ## Super Smash Bros. [2]
 
@@ -1683,6 +1700,7 @@
 ## Terraria [2]
 
 - Inspired entries: LastTry, terrarium
+- Media: https://en.wikipedia.org/wiki/Terraria
 
 ## Test Drive [1]
 
@@ -1711,6 +1729,7 @@
 ## The Clue! [1]
 
 - Inspired entries: Der Clou!
+- Media: https://en.wikipedia.org/wiki/The_Clue!
 
 ## The Elder Scrolls II: Daggerfall [1]
 
@@ -1739,6 +1758,7 @@
 ## The Lost Vikings [1]
 
 - Inspired entries: freeVikings
+- Media: https://en.wikipedia.org/wiki/The_Lost_Vikings
 
 ## The Oregon Trail [1]
 
@@ -1839,6 +1859,7 @@
 ## Turmoil [1]
 
 - Inspired entries: Data Storm
+- Media: <https://en.wikipedia.org/wiki/Turmoil_(1984_video_game)>
 
 ## Turok [1]
 
@@ -1871,6 +1892,7 @@
 ## Ultima Online [2]
 
 - Inspired entries: CrossUO, Iris2
+- Media: https://en.wikipedia.org/wiki/Ultima_Online
 
 ## Ultima series [1]
 
@@ -1939,6 +1961,7 @@
 ## Warlords II [1]
 
 - Inspired entries: FreeLords
+- Media: <https://en.wikipedia.org/wiki/Warlords_(game_series)>
 
 ## Warrior Kings [1]
 
@@ -1975,6 +1998,7 @@
 ## Wizard of Wor [1]
 
 - Inspired entries: KnightOfWor
+- Media: https://en.wikipedia.org/wiki/Wizard_of_Wor
 
 ## Wizardry [1]
 

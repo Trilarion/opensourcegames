@@ -1,6 +1,6 @@
 # ENIGMA (development environment)
 
-_ENIGMA is a free development environment geared towards game development._
+_Game development environment._
 
 - Home: https://enigma-dev.org/
 - Media: https://en.wikipedia.org/wiki/Enigma_Engine

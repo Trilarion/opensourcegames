@@ -3,7 +3,6 @@
 _Remake of Freelancer._
 
 - Home: https://librelancer.net/
-- Media: <https://en.wikipedia.org/wiki/Freelancer_(video_game)>
 - State: beta
 - Download: https://librelancer.net/downloads.html
 - Platform: Windows, Linux

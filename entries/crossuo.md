@@ -3,7 +3,6 @@
 _Ultima Online client._
 
 - Home: https://crossuo.com/
-- Media: https://en.wikipedia.org/wiki/Ultima_Online
 - State: mature
 - Platform: Windows, Linux, macOS
 - Keywords: role playing, clone, free content, inspired by Ultima Online, multiplayer online, requires online access

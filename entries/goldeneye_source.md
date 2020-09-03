@@ -3,7 +3,6 @@
 _Remake of GoldenEye 007._
 
 - Home: http://geshl2.com/, https://www.moddb.com/mods/goldeneye-source
-- Media: https://en.wikipedia.org/wiki/GoldenEye_007_(1997_video_game)
 - State: mature, inactive since 2018
 - Keywords: remake, first-person, free content, inspired by GoldenEye 007, multiplayer competitive + online, shooter
 - Code repository: https://github.com/goldeneye-source/ges-code.git

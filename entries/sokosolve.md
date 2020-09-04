@@ -1,10 +1,11 @@
 # SokoSolve
 
 - Home: http://sokosolve.sourceforge.net/, https://sourceforge.net/projects/sokosolve/
+- Inspirations: Sokoban
 - State: mature, inactive since 2009
 - Download: http://sokosolve.sourceforge.net/install.html, https://sourceforge.net/projects/sokosolve/files/
 - Platform: Windows, Linux
-- Keywords: puzzle, sokoban-like
+- Keywords: puzzle
 - Code repository: https://svn.code.sf.net/p/sokosolve/code (svn), https://svn.code.sf.net/p/sokosolve/decade (svn)
 - Code language: C#
 - Code license: GPL-3.0 (communication with author)

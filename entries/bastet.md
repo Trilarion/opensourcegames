@@ -1,8 +1,9 @@
 # Bastet
 
 - Home: http://fph.altervista.org/prog/bastet.html
+- Inspirations: Tetris
 - State: beta, inactive since 2018
-- Keywords: puzzle, open content, skill, tetris-like
+- Keywords: puzzle, open content, skill
 - Code repository: https://github.com/fph/bastet.git
 - Code language: C++
 - Code license: GPL-2.0

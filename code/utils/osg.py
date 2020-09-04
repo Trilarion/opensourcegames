@@ -571,6 +571,7 @@ def read_entries():
     entries = []
 
     # iterate over all entries
+    exception_happened = False
     for file, _, content in entry_iterator():
 
         if not content.endswith('\n'):
@@ -587,10 +588,13 @@ def read_entries():
             check_entry(entry)
         except Exception as e:
             print('{} - {}'.format(file, e))
+            exception_happened = True
             continue
 
         # add to list
         entries.append(entry)
+    if exception_happened:
+        raise RuntimeError('errors while reading entries')
 
     return entries
 

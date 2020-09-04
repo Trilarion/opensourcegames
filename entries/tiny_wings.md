@@ -1,8 +1,8 @@
 # Tiny Wings
 
 - Home: https://github.com/haqu/tiny-wings
-- Inspirations: Tiny Wings
 - Media: https://en.wikipedia.org/wiki/Tiny_Wings
+- Inspirations: Tiny Wings
 - State: beta
 - Platform: macOS
 - Keywords: remake, skill

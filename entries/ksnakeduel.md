@@ -1,8 +1,9 @@
 # KSnakeDuel
 
 - Home: https://kde.org/applications/games/org.kde.ksnakeduel, https://packages.debian.org/search?keywords=ksnake
+- Inspirations: Snake
 - State: mature
-- Keywords: puzzle, open content, snake-like
+- Keywords: puzzle, open content
 - Code repository: https://invent.kde.org/games/ksnakeduel.git
 - Code language: C++
 - Code license: GPL-2.0

@@ -1,9 +1,10 @@
 # Not Pacman
 
 - Home: https://stabyourself.net/notpacman/
+- Inspirations: Pacman
 - State: mature, inactive since 2013
 - Platform: Windows, Linux, macOS
-- Keywords: action, open content, pacman-like
+- Keywords: action, open content
 - Code repository: (see home)
 - Code language: Lua
 - Code license: WTFPL

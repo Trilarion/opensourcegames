@@ -1,8 +1,8 @@
 # Race Into Space
 
 - Home: http://www.raceintospace.org/, https://sourceforge.net/projects/raceintospace/
-- Inspirations: Buzz Aldrin's Race Into Space
 - Media: https://en.wikipedia.org/wiki/Buzz_Aldrin%27s_Race_Into_Space#Source_code_release
+- Inspirations: Buzz Aldrin's Race Into Space
 - State: mature
 - Download: https://sourceforge.net/projects/raceintospace/files/
 - Platform: Windows, Linux, macOS

@@ -1,9 +1,10 @@
 # LTris
 
 - Home: http://lgames.sourceforge.net/LTris/, https://sourceforge.net/projects/lgames/
+- Inspirations: Tetris
 - State: mature, inactive since 2013
 - Download: https://sourceforge.net/projects/lgames/files/ltris/
-- Keywords: puzzle, open content, tetris-like
+- Keywords: puzzle, open content
 - Code repository: https://svn.code.sf.net/p/lgames/code (svn part of it)
 - Code language: C
 - Code license: GPL-2.0

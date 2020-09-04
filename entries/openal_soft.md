@@ -13,4 +13,3 @@ _Software implementation of the OpenAL 3D audio API._
 ## Building
 
 - Build system: CMake
-

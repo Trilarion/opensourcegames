@@ -14,4 +14,3 @@ _Role playing game engine._
 ## Building
 
 - Build system: Scons
-

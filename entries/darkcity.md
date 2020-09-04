@@ -12,4 +12,3 @@ _DarkCity is a MMORPG game, in text mode on the Internet._
 - Developer: Philippe Bousquet
 
 ## Building
-

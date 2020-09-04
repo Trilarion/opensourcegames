@@ -12,4 +12,3 @@ _Modelled after the golden oldie Archon game created by Freefall Associates and 
 - Code dependencies: GTK, Qt
 
 ## Building
-

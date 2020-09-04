@@ -3,7 +3,7 @@
 _Classic bomberman game._
 
 - Home: http://bombermaaan.sourceforge.net/, https://sourceforge.net/projects/bombermaaan/
-- State: mature, inactive since 2010 
+- State: mature, inactive since 2010
 - Download: http://bombermaaan.sourceforge.net/download.php, https://sourceforge.net/projects/bombermaaan/files/
 - Platform: Windows, Linux
 - Keywords: action, arcade
@@ -12,4 +12,3 @@ _Classic bomberman game._
 - Code license: GPL-3.0
 
 ## Building
-

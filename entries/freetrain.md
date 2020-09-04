@@ -11,4 +11,3 @@ _Rail & business simulation._
 - Code license: LGPL-2.1
 
 ## Building
-

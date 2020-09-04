@@ -14,4 +14,3 @@ _Browser strategy game._
 Main web site is unavailable. License change from GPL-3.0 to zlib between version 1.5.3 and 1.6.6.
 
 ## Building
-

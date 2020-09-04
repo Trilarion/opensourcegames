@@ -14,4 +14,3 @@ _Scene-oriented, flexible 3D engine._
 ## Building
 
 - Build system: CMake
-

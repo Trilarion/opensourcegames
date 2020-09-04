@@ -11,4 +11,3 @@ _Rapid development solution with a tiny footprint._
 - Code license: MIT
 
 ## Building
-

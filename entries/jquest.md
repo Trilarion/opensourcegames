@@ -11,4 +11,3 @@ _Java-based clone of the turn-based strategy game Konquest (developed by Russ St
 - Code license: GPL-2.0
 
 ## Building
-

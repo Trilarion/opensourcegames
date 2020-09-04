@@ -10,4 +10,3 @@ _A 2D real time strategy Mega-Lo-Mania-like god game._
 - Code license: GPL-2.0
 
 ## Building
-

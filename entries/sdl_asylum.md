@@ -4,7 +4,7 @@ _C port of Asylum._
 
 - Home: http://sdl-asylum.sourceforge.net/, https://sourceforge.net/projects/sdl-asylum/
 - Media: http://asylum.acornarcade.com/
-- State: mature, inactive since 2009 
+- State: mature, inactive since 2009
 - Download: http://sdl-asylum.sourceforge.net/main.html#Download
 - Platform: Linux
 - Keywords: action, arcade, inspired by Asylum, remake
@@ -19,4 +19,3 @@ _C port of Asylum._
 Asylum was written by Andy Southgate in 1994 for the Acorn Archimedes and is now public domain.
 
 ## Building
-

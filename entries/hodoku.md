@@ -12,4 +12,3 @@ _Sudoku generator/solver/trainer/analyzer._
 - Code license: GPL-3.0
 
 ## Building
-

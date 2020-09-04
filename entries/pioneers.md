@@ -11,4 +11,3 @@ _Emulation of the board game The Settlers of Catan, which can be played over the
 - Code license: GPL-2.0
 
 ## Building
-

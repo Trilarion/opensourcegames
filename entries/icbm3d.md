@@ -4,7 +4,7 @@ _Clone of Missile Command._
 
 - Home: http://www.newbreedsoftware.com/icbm3d/
 - State: beta, inactive since 1998
-- Download: http://www.newbreedsoftware.com/icbm3d/download/,  ftp://ftp.tuxpaint.org/unix/x/icbm3d
+- Download: http://www.newbreedsoftware.com/icbm3d/download/, ftp://ftp.tuxpaint.org/unix/x/icbm3d
 - Keywords: arcade, artillery, clone, inspired by Missile Command
 - Code repository: (see download)
 - Code language: C

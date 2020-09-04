@@ -11,4 +11,3 @@ _AntiChess is an anti chess game. You have to take your opponents piece if you c
 - Code license: MIT
 
 ## Building
-

@@ -3,7 +3,7 @@
 _Driving simulation made with drift racing in mind._
 
 - Home: http://vdrift.net/, https://sourceforge.net/projects/vdrift/
-- State: mature, inactive since 2014 
+- State: mature, inactive since 2014
 - Download: (see home)
 - Platform: Windows, Linux, macOS
 - Keywords: simulation, cars, racing

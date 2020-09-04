@@ -11,4 +11,3 @@ _Minimal GUI library for C++._
 - Code license: MIT
 
 ## Building
-

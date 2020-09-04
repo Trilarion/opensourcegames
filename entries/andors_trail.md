@@ -12,4 +12,3 @@ _Quest-driven Roguelike fantasy dungeon crawler RPG with a powerful story._
 - Code license: GPL-2.0
 
 ## Building
-

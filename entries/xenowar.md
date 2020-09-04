@@ -10,4 +10,3 @@ _Turned based strategy game for Win32 and Android OS influenced by X-COM._
 - Code license: GPL-3.0
 
 ## Building
-

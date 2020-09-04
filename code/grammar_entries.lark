@@ -1,4 +1,4 @@
-start: title description property+ note? building
+start: title _EL description _EL property+ _EL (note)? building
 title: "#" /(?! ).+(?<! )/ _NL                 // not starting or ending with a space
 
 description: "_" /(?! ).+(?<![ _])/ "_" _NL       // single line not ending with underscore
@@ -9,9 +9,9 @@ _value : quoted_value | unquoted_value
 quoted_value : /\".+?\"/   // with quotation marks, can contain commas
 unquoted_value : /(?![ \"])[^,\n]+(?<![ \"])/ // cannot contain commas, cannot start or end with quotation mark
 
-note.3: /(?![\-#]).*\n/+                              // Unstructured text, not starting with - or #
+note: /(?![\-#]).*\n/+                              // Unstructured text, not starting with - or #
 
-building: "## Building" _NL property* note?     // the "building" section
+building: "## Building" _NL (_EL property+)? (_EL note)? _EL*    // the "building" section
 
 
 _NUMBER: /[0-9]+/
@@ -20,7 +20,6 @@ CR : /\r/
 LF : /\n/
 _NL : CR? LF
 WS : (" "|/\t/)+
-_EL.2 : /^$\n/m
+_EL : /^$\n/m
 
 %ignore WS
-%ignore _EL

@@ -12,4 +12,3 @@ _Space adventure game with elements of arcade and strategy._
 - Code dependencies: pygame
 
 ## Building
-

@@ -12,4 +12,3 @@ _Role-playing game mapping program._
 - Code dependencies: wxWidgets
 
 ## Building
-

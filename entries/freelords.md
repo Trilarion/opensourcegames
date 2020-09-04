@@ -11,4 +11,3 @@ _Explore, occupy, produce armies in cities and kill your enemies._
 - Code license: GPL-2.0
 
 ## Building
-

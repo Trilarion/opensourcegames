@@ -14,4 +14,3 @@ _Twin-stick shooter_
 ## Building
 
 - Build system: CMake
-

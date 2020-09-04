@@ -12,4 +12,3 @@ _Indie Turn Based Strategy in Isometric Pixel Art._
 - Code dependencies: Godot
 
 ## Building
-

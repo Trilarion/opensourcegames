@@ -12,4 +12,3 @@ _Sequel to kobold's quest and features an octree for multi processing game mecha
 - Code dependencies: pygame
 
 ## Building
-

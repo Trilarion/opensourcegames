@@ -16,4 +16,3 @@ _Part puzzle game, part action game, and entirely a test of skill._
 Includes Neverputt, a hot-seat multiplayer miniature golf game.
 
 ## Building
-

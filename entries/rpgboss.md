@@ -12,4 +12,3 @@ _RPG game editor._
 - Code license: AGPL-3.0
 
 ## Building
-

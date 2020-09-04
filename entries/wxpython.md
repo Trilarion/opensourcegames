@@ -12,4 +12,3 @@ _Wraps the wxWidgets C++ toolkit and provides access to the user interface porti
 - Code license: wxWindows license
 
 ## Building
-

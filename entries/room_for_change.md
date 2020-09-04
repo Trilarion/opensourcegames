@@ -10,4 +10,3 @@ _Randomly generated action RPG._
 - Code license: Apache-2.0
 
 ## Building
-

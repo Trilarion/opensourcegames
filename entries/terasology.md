@@ -12,4 +12,3 @@ _Stable platform for various types of gameplay settings in a voxel world._
 Not sure if it's a game, a game engine/framework or a graphical/scene framework.
 
 ## Building
-

@@ -13,4 +13,3 @@ _A game of intergalactic exploration, warfare, and economics._
 Need to register to download sources.
 
 ## Building
-

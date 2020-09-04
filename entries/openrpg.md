@@ -12,4 +12,3 @@ _OpenRPG is an Internet application that allows people to play Role Playing Game
 - Code dependencies: CherryPy, Pillow, wxPython
 
 ## Building
-

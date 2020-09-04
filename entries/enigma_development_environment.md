@@ -14,4 +14,3 @@ _Game development environment._
 ## Building
 
 - Build instructions: https://enigma-dev.org/docs/Wiki/Install:Windows
-

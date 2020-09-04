@@ -11,4 +11,3 @@ _Source of DOOM._
 - Code license: Custom
 
 ## Building
-

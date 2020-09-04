@@ -12,4 +12,3 @@ _Arena-style first person shooter._
 - Code license: GPL-3.0 (Darkplace engine is GPL-2.0)
 
 ## Building
-

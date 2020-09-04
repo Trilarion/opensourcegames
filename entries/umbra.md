@@ -11,4 +11,3 @@ _Computer role-playing game written in Python._
 - Code license: Custom (similar to BSD)
 
 ## Building
-

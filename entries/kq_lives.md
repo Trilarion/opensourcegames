@@ -14,4 +14,3 @@ Are [KQtheBetrayer](https://sourceforge.net/projects/kqthebetrayer/) or [this gi
 warrant their own entries?
 
 ## Building
-

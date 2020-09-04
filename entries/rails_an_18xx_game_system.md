@@ -13,4 +13,3 @@ _Rails is a Java game engine intended to play any of the 18xx series of turn-bas
 ## Building
 
 - Build system: Maven
-

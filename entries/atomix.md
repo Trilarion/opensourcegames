@@ -10,4 +10,3 @@ _A puzzle game in which you have to build full molecules._
 - Code license: GPL-2.0
 
 ## Building
-

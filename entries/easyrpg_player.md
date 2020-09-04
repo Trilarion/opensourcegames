@@ -13,4 +13,3 @@ _EasyRPG Player is a program that allows to play games created with RPG Maker 20
 ## Building
 
 - Build system: Autoconf, CMake
-

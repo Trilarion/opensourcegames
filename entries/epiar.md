@@ -11,4 +11,3 @@ _Open-ended space action/trading game._
 - Code license: GPL-2.0
 
 ## Building
-

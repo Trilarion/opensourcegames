@@ -12,4 +12,3 @@ _HTML5 game framework._
 - Code license: MIT
 
 ## Building
-

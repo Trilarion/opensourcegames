@@ -13,4 +13,3 @@ _Faithful remake of, and a tribute to, Atomix, a classic puzzle game created by 
 - Developer: Mateusz Viste
 
 ## Building
-

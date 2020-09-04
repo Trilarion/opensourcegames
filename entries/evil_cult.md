@@ -10,4 +10,3 @@ _Turn-based strategy game about building your cult of followers and trying to su
 - Code license: GPL-3.0
 
 ## Building
-

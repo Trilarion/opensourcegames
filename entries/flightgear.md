@@ -15,4 +15,3 @@ _Flight simulator developed since 1997._
 ## Building
 
 - Build system: CMake
-

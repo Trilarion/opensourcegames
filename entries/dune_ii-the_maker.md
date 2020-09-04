@@ -13,4 +13,3 @@ _Clone of the good old Dune II by Westwood Studios._
 License of artwork
 
 ## Building
-

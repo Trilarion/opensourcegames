@@ -7,7 +7,7 @@ _Implements a large subset of the POSIX standard threads related API._
 - State: mature
 - Download: (see home)
 - Keywords: library
-- Code repository: https://github.com/GerHobbelt/pthread-win32.git, (cvs, see home) 
+- Code repository: https://github.com/GerHobbelt/pthread-win32.git, (cvs, see home)
 - Code language: C
 - Code license: LGPL-2.1
 

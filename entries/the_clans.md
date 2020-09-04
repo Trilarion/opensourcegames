@@ -11,4 +11,3 @@ _The Clans was a popular game written for online BBSes back in the day of their 
 - Code license: GPL-2.0
 
 ## Building
-

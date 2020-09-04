@@ -12,4 +12,3 @@ _Bungeon builder._
 - Assets license: Proprietary (partly), CC-BY (partly) (see https://github.com/miki151/keeperrl/blob/master/COPYING-MEDIA.txt)
 
 ## Building
-

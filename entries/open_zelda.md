@@ -11,4 +11,3 @@ _Open Zelda Game Development Software._
 - Assets license: proprietary (Nintendo), CC-BY-NC-SA-3.0 (game scripts), CC-BY-SA-2.5 (some artwork)
 
 ## Building
-

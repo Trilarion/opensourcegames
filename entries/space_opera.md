@@ -11,4 +11,3 @@ _Space colonization game similar to 'Master of Orion' or 'Galactic Civilizations
 - Code license: GPL-2.0
 
 ## Building
-

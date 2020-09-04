@@ -11,4 +11,3 @@ _Game framework._
 - Code dependencies: SFML
 
 ## Building
-

@@ -14,4 +14,3 @@ _Roguelike mecha RPG series._
 There are several successors.
 
 ## Building
-

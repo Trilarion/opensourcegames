@@ -14,4 +14,3 @@ _Racing game featuring Tux, the Linux Penguin._
 See also https://github.com/ellenpoe/TuxRacer-SDL2, https://github.com/wosigh/tuxracer, https://sourceforge.net/projects/extremetuxracer/, http://www.tuxracer.com/, https://github.com/gonium/fc-extremetuxracer
 
 ## Building
-

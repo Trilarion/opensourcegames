@@ -12,4 +12,3 @@ _Abstract shootem up._
 - Code dependencies: SDL
 
 ## Building
-

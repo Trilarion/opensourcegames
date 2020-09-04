@@ -15,4 +15,3 @@ See also https://github.com/alexjurkiewicz/crawl-4.0b26, https://github.com/moon
 See also https://web.archive.org/web/20150514232454/http://dungeoncrawl.org/?w.d
 
 ## Building
-

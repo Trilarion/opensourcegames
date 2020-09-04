@@ -3,7 +3,7 @@
 _Doom source port that accurately reproduces the experience of Doom as it was played in the 1990s._
 
 - Home: https://www.chocolate-doom.org/wiki/index.php/Chocolate_Doom, https://sourceforge.net/projects/chocolate-doom/
-- State: mature 
+- State: mature
 - Download: https://www.chocolate-doom.org/wiki/index.php/Downloads, https://sourceforge.net/projects/chocolate-doom/files/
 - Platform: Windows, Linux, macOS
 - Keywords: action, inspired by Doom + Heretic + Hexen + Strife, remake, shooter

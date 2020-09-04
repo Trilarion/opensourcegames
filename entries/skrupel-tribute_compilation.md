@@ -15,4 +15,3 @@ Many code comments and variable names in German.
 See also https://github.com/sepplsche/skrupel, https://github.com/skrupel
 
 ## Building
-

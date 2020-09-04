@@ -12,4 +12,3 @@ _Real Time Strategy 2D space combat game for two players over a network._
 - Code license: GPL-3.0
 
 ## Building
-

@@ -13,4 +13,3 @@ _Collection of educational activities for young children._
 - Code dependencies: NumPy, pygame
 
 ## Building
-

@@ -10,4 +10,3 @@ _Super Smash Bros-like in HTML5._
 - Code license: MIT
 
 ## Building
-

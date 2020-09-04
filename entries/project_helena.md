@@ -13,4 +13,3 @@ _Turn-based strategy/RPG game._
 Requires: [Castle Game Engine](https://castle-engine.io/index.php), [repository](https://github.com/castle-engine/castle-engine)
 
 ## Building
-

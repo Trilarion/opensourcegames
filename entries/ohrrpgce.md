@@ -12,4 +12,3 @@ _Official Hamster Republic Role Playing Game Construction Engine_
 - Code license: GPL-2.0
 
 ## Building
-

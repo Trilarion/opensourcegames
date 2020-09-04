@@ -12,4 +12,3 @@ _A web based tactical strategy game similar to Weewar and Elite Command._
 Successful [Kickstarter project](https://www.kickstarter.com/projects/djwhitt/zetawar).
 
 ## Building
-

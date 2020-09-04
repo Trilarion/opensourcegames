@@ -3,7 +3,7 @@
 _Open-source version of the classic dice game Yahtzee._
 
 - Home: http://www.openyahtzee.org/, https://sourceforge.net/projects/openyahtzee/
-- State: mature, inactive since 2016 
+- State: mature, inactive since 2016
 - Download: http://www.openyahtzee.org/wiki/download/, https://sourceforge.net/projects/openyahtzee/files/
 - Platform: Windows, Linux
 - Keywords: strategy, dice

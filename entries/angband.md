@@ -13,4 +13,3 @@ _Single-player dungeon exploration game._
 - Code dependencies: SDL
 
 ## Building
-

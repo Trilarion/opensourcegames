@@ -13,4 +13,3 @@ _Graphic adventure._
 - Code dependencies: SDL
 
 ## Building
-

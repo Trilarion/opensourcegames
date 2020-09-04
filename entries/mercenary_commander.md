@@ -11,4 +11,3 @@ _Turn based strategy, with simultaneous turns._
 - Code license: 3-clause BSD
 
 ## Building
-

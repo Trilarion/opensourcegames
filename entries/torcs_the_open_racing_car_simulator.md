@@ -3,7 +3,7 @@
 _Car racing simulation._
 
 - Home: http://torcs.sourceforge.net/, https://sourceforge.net/projects/torcs/, https://packages.debian.org/search?keywords=torcs
-- State: mature, inactive since 2016 
+- State: mature, inactive since 2016
 - Download: http://torcs.sourceforge.net/index.php?name=Sections&op=viewarticle&artid=3, https://sourceforge.net/projects/torcs/files/
 - Platform: Windows, Linux
 - Keywords: simulation, inspired by RARS, open content, racing
@@ -14,4 +14,3 @@ _Car racing simulation._
 - Assets license: FAL
 
 ## Building
-

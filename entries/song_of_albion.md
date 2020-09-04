@@ -10,4 +10,3 @@ _Medieval Celtic fantasy trilogy by Stephen Lawhead._
 - Code license: Apache-2.0
 
 ## Building
-

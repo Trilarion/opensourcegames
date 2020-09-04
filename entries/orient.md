@@ -11,4 +11,3 @@ _Prototype for an educational role-playing game for intercultural education._
 - Code license: GPL-2.0
 
 ## Building
-

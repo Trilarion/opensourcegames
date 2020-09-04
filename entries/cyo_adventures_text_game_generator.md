@@ -11,4 +11,3 @@ _Text-based game player and game generator. The games are structured as decision
 - Code license: GPL-2.0
 
 ## Building
-

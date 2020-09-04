@@ -13,4 +13,3 @@ _Urho3D is a free lightweight, cross-platform 2D and 3D game engine._
 ## Building
 
 - Build system: CMake
-

@@ -12,4 +12,3 @@ _Strategy game inspired by Battle for Wesnoth_
 - Assets license: GPL-3.0 (taken from Wesnoth)
 
 ## Building
-

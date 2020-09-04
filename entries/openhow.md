@@ -16,4 +16,3 @@ Aims at creating open content.
 ## Building
 
 - Build system: CMake
-

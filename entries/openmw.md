@@ -14,4 +14,3 @@ _Unofficial open source engine reimplementation of the game Morrowind._
 See also [OpenMW on Android](openmw_for_android.md)
 
 ## Building
-

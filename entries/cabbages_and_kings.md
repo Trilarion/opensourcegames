@@ -11,4 +11,3 @@ _Mix between action and rpg._
 - Code dependencies: pygame, wxPython
 
 ## Building
-

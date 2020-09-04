@@ -12,4 +12,3 @@ _Action-adventures in the style of the game "The Legend of Zelda"._
 - Code dependencies: SDL
 
 ## Building
-

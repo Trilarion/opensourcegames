@@ -12,4 +12,3 @@ _Cross-platform audio application programming interface (API)._
 - Code license: Proprietary (since v1.1, LGPL before)
 
 ## Building
-

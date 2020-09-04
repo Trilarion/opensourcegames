@@ -15,4 +15,3 @@ _Puzzle/action game of rescuing rabbits, inspired by Lemmings and Pingus._
 ## Building
 
 - Build system: Custom (shell script)
-

@@ -11,4 +11,3 @@ _A WWII, turn based platoon, company level war game on the Eastern Front._
 - Code license: GPL-2.0
 
 ## Building
-

@@ -3,7 +3,7 @@
 _Collection of games._
 
 - Home: http://lgames.sourceforge.net/
-- State: mature 
+- State: mature
 - Download: http://lgames.sourceforge.net/downloads.php
 - Platform: Windows, Linux, macOS
 - Keywords: action

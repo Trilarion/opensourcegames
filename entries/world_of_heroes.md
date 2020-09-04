@@ -12,4 +12,3 @@ _2D turn based strategy game, where the player commands an army in the explorati
 - Code dependencies: pygame
 
 ## Building
-

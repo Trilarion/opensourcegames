@@ -14,4 +14,3 @@ _Visual Novel._
 - Assets license: CC-NC (see readme.txt)
 
 ## Building
-

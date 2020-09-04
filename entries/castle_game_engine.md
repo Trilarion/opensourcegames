@@ -3,7 +3,7 @@
 _3D and 2D game engine using modern Object Pascal._
 
 - Home: https://castle-engine.io/
-- State: mature 
+- State: mature
 - Download: (see home)
 - Keywords: game engine, framework
 - Code repository: https://github.com/castle-engine/castle-engine.git

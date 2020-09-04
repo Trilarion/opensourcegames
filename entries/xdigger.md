@@ -13,4 +13,3 @@ _(KC85-)Digger game._
 - Developer: Alexander Lang
 
 ## Building
-

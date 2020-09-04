@@ -14,4 +14,3 @@ _Dual n-back brain training exercise._
 - Assets license: CC (caprica-letters and all the music in the latest version
 
 ## Building
-

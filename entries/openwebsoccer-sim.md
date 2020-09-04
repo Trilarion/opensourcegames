@@ -11,4 +11,3 @@ _Manage a virtual fantasy football (soccer) team and play with it against other 
 - Code license: LGPL-3.0
 
 ## Building
-

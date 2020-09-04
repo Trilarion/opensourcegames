@@ -11,4 +11,3 @@ _Solitaire game collection with 14 games._
 - Code license: GPL-3.0
 
 ## Building
-

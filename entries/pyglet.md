@@ -12,4 +12,3 @@ _Multimedia library for Python._
 - Code license: 3-clause BSD
 
 ## Building
-

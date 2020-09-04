@@ -14,4 +14,3 @@ _Cooperative multiplayer graphical RPG and adventure game._
 See also [Gridarta for Crossfire, the map editor](https://sourceforge.net/projects/gridarta/).
 
 ## Building
-

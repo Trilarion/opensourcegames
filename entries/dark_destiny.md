@@ -15,4 +15,3 @@ See also https://sourceforge.net/projects/darkdestinytools/
 Private communication with the authors in September 2018 brought the following license information: "artwork and the code can be freely used for modification and sharing".
 
 ## Building
-

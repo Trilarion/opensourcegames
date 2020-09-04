@@ -11,4 +11,3 @@ _Java port of the Palm game Space Trader. This port is based upon the C# port at
 - Code license: GPL-2.0
 
 ## Building
-

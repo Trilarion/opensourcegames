@@ -12,4 +12,3 @@ _Third game in the dungeon monkey series._
 - Developer: Joseph Hewitt
 
 ## Building
-

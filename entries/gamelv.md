@@ -11,4 +11,3 @@ _Adventure Game in Post Soviet Environment._
 - Assets license: CC-BY
 
 ## Building
-

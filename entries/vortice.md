@@ -12,4 +12,3 @@ _Cross platform 2D and 3D .NET framework._
 - Developer: Amer Koleci (amerkoleci@GH)
 
 ## Building
-

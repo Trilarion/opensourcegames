@@ -11,4 +11,3 @@ _Engine for Frogatto and Friends._
 - Code license: zlib (src folder)
 
 ## Building
-

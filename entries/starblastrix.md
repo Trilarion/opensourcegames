@@ -3,7 +3,7 @@
 _Side scrolling shoot'em up game._
 
 - Home: https://sourceforge.net/projects/starblastrix/
-- State: beta, inactive since 2006 
+- State: beta, inactive since 2006
 - Download: https://sourceforge.net/projects/starblastrix/files/
 - Platform: Windows
 - Keywords: action, 2D, shootem
@@ -12,4 +12,3 @@ _Side scrolling shoot'em up game._
 - Code license: GPL-2.0
 
 ## Building
-

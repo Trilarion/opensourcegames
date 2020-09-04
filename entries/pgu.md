@@ -15,4 +15,3 @@ _Collection of useful modules for writing games with PyGame._
 ## Building
 
 - Build system: setup.py
-

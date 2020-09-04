@@ -11,4 +11,3 @@ _A minimal text adventure engine._
 - Code license: MIT
 
 ## Building
-

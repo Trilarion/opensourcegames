@@ -10,4 +10,3 @@ _2D mission and objective-based platform game._
 - Code license: GPL-3.0
 
 ## Building
-

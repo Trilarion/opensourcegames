@@ -13,4 +13,3 @@ _OpenGL real-time strategy game._
 More like alpha.
 
 ## Building
-

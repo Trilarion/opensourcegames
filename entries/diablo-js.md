@@ -10,4 +10,3 @@ _Isometric minimal-code style game at html5 canvas and javascript._
 - Code license: MIT
 
 ## Building
-

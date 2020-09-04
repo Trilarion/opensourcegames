@@ -11,4 +11,3 @@ _Reimplementation of the zEngine, used by the games Gothic and Gothic II._
 - Code license: GPL-3.0, MIT (https://github.com/REGoth-project/REGoth-bs/blob/master/LICENSE)
 
 ## Building
-

@@ -14,4 +14,3 @@ _OpenType text shaping engine._
 ## Building
 
 - Build system: CMake
-

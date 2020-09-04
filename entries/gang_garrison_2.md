@@ -14,4 +14,3 @@ _Multiplayer 'demake' of Team Fortress 2._
 - Code dependencies: Game Maker
 
 ## Building
-

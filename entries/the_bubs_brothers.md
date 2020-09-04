@@ -14,4 +14,3 @@ _Networked clone of the classical Bubble Bobble board game._
 - Developer: Armin Rigo
 
 ## Building
-

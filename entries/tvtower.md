@@ -12,4 +12,3 @@ _A fan remake of MadTV._
 - Code license: Custom (similar to MIT, Apache)
 
 ## Building
-

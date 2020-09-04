@@ -13,4 +13,3 @@ _Little turn-based strategy game based on Pendulous shareware rules._
 See also [Pendulous](http://www.blackfalcongames.net/?p=225).
 
 ## Building
-

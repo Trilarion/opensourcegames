@@ -11,4 +11,3 @@ _Role-playing adventure game._
 - Code dependencies: Blender game engine, cairo, NumPy, PGU (https://code.google.com/archive/p/pgu/), Pillow, pygame
 
 ## Building
-

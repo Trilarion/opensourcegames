@@ -13,4 +13,3 @@ _Two or more battle programs (called "warriors") compete for control of a virtua
 See also [SDL pMars](https://corewar.co.uk/pihlaja/pmars-sdl/index.htm), [corewar.io](https://www.corewar.io/) with [sources on Github](https://github.com/corewar/corewar)
 
 ## Building
-

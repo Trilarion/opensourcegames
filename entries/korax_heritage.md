@@ -16,4 +16,3 @@ Scattered Evil: a full-fledged open-world RPG
 Korax Arena: multiplayer action with 6 classes from mid-90s games
 
 ## Building
-

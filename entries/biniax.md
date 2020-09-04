@@ -4,7 +4,7 @@ _Puzzle game._
 
 - Home: http://biniax.com/
 - Media: https://en.wikipedia.org/wiki/Biniax
-- State: mature, inactive since 2012 
+- State: mature, inactive since 2012
 - Download: http://www.tuzsuzov.com/biniax/download2.html
 - Platform: Windows, Linux, macOS, Android
 - Keywords: action, puzzle

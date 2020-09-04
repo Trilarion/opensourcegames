@@ -11,4 +11,3 @@ _A simulation of a true AI_
 - Code license: GPL-2.0
 
 ## Building
-

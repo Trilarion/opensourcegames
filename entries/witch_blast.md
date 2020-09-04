@@ -13,4 +13,3 @@ _Roguelike dungeon crawl shooter heavily inspired from Binding Of Isaac._
 - Assets license: CC-BY-NC-SA
 
 ## Building
-

@@ -11,4 +11,3 @@ _Browser based roguelike._
 - Code license: AGPL-3.0
 
 ## Building
-

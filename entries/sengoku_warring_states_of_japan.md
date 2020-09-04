@@ -14,4 +14,3 @@ _Something in-between of a turn-based/real-time strategy game set in Japan durin
 More like alpha.
 
 ## Building
-

@@ -13,4 +13,3 @@ _Pinball game._
 - Code dependencies: LÖVE
 
 ## Building
-

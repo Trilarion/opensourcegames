@@ -13,4 +13,3 @@ _Game engine targeting high end machines._
 ## Building
 
 - Build system: premake
-

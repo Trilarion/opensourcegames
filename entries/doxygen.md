@@ -14,4 +14,3 @@ _Tool for generating documentation from annotated C++ sources._
 ## Building
 
 - Build system: CMake
-

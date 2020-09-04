@@ -14,4 +14,3 @@ _3D snake game based on the light cycle portion of the film Tron._
 - Code dependencies: SDL
 
 ## Building
-

@@ -15,4 +15,3 @@ _Event-driven networking engine._
 ## Building
 
 - Build system: setup.py
-

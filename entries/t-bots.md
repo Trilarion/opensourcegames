@@ -11,4 +11,3 @@ _Robot battle game simulator._
 - Code license: GPL-2.0
 
 ## Building
-

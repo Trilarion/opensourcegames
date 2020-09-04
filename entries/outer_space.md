@@ -14,4 +14,3 @@ _On-line strategy game which takes place in the dangerous universe._
 See also https://github.com/Lukc/ospace-lukc, https://github.com/mozts2005/OuterSpace, https://github.com/OuterDeepSpace/OuterDeepSpace
 
 ## Building
-

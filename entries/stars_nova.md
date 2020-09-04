@@ -11,4 +11,3 @@ _Clone of the classic 4X space strategy game Stars!._
 - Code license: GPL-2.0
 
 ## Building
-

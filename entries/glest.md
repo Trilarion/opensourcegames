@@ -18,4 +18,3 @@ Inspired [MegaGlest](megaglest.md)
 ## Building
 
 - Build system: Autoconf
-

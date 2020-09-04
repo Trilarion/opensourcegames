@@ -12,4 +12,3 @@ _Software development tool that connects programs written in C and C++ with a va
 - Code license: SWIG license (https://raw.githubusercontent.com/swig/swig/master/LICENSE)
 
 ## Building
-

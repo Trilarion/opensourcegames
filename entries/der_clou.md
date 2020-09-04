@@ -16,4 +16,3 @@ May require original game files.
 ## Building
 
 - Build system: Make
-

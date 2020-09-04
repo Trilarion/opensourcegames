@@ -11,4 +11,3 @@ _Remake of the classic X-Com-Games._
 - Code license: GPL-2.0
 
 ## Building
-

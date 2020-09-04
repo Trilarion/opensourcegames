@@ -13,4 +13,3 @@ _2D space trading and combat game similar to the classic Escape Velocity series.
 - Assets license: CC-BY-SA
 
 ## Building
-

@@ -15,4 +15,3 @@ _Game engine library for ASCII roguelike games._
 ## Building
 
 - Build system: Make
-

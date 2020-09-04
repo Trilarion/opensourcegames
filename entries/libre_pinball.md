@@ -12,4 +12,3 @@ _Pinball game._
 - Assets license: CC0, CC-BY-SA-3.0
 
 ## Building
-

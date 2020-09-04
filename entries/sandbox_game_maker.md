@@ -11,4 +11,3 @@ _Open source easy to use standalone 3D Game Maker and 3D Game Design program cur
 - Code license: Custom (MIT, modified zlib: requires special credits and notifications)
 
 ## Building
-

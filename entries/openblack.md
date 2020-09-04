@@ -14,4 +14,3 @@ _Remake of Black & White_
 ## Building
 
 - Build system: CMake
-

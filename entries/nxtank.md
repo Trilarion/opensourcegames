@@ -13,4 +13,3 @@ _Xtank in a modern gaming engine._
 - Code dependencies: OGRE
 
 ## Building
-

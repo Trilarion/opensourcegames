@@ -11,4 +11,3 @@ _First person arena shooter, featuring parkour, impulse boosts, and more._
 - Code license: zlib
 
 ## Building
-

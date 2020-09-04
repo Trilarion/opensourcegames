@@ -13,4 +13,3 @@ _2D single-player turn-based space strategy game. The strategy revolves around 4
 Quite a lot of design documentation available.
 
 ## Building
-

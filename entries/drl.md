@@ -15,4 +15,3 @@ _Fast and furious coffee-break Roguelike game that is heavily inspired by Doom._
 Also known as DoomRL, short for Doom, the Roguelike.
 
 ## Building
-

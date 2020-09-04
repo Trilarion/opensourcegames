@@ -13,4 +13,3 @@ _3D-engine (C++/DirectX9) and a fully playable prototype of a 3rd person action/
 - Developer: Olli Sorjonen, Sami Sorjonen, Jani Kajala, Toni Aittoniemi
 
 ## Building
-

@@ -10,4 +10,3 @@ _Top-down shooter / real-time strategy hybrid game based on an old RTS game name
 - Code license: MIT
 
 ## Building
-

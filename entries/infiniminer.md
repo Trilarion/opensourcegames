@@ -12,4 +12,3 @@ _Multi-player block-based sandbox building and digging game._
 - Code license: MIT
 
 ## Building
-

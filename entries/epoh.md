@@ -10,4 +10,3 @@ _Multiplayer turn-based browser strategy game._
 - Code license: MIT
 
 ## Building
-

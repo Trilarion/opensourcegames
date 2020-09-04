@@ -13,4 +13,3 @@ _Castle of the Winds remake._
 See also Castle of the Winds in Elm.
 
 ## Building
-

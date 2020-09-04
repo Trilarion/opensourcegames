@@ -16,4 +16,3 @@ _Karaoke game._
 
 - Build system: Lazarus project
 - Build instructions: https://github.com/UltraStar-Deluxe/USDX/blob/master/README.md#5-build-and-run
-

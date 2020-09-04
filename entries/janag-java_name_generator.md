@@ -11,4 +11,3 @@ _Java random name generator for role-games, authors, and the like._
 - Code license: GPL-3.0
 
 ## Building
-

@@ -12,4 +12,3 @@ _A massive multiplayer online roleplaying game._
 Uses the Mana source engine.
 
 ## Building
-

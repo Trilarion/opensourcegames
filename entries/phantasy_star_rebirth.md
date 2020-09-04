@@ -11,4 +11,3 @@ _Oldschool 90' sega genesis style._
 - Code license: GPL-3.0
 
 ## Building
-

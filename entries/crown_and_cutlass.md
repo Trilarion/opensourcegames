@@ -11,4 +11,3 @@ _3d pirate action/adventure game in the spirit of the old Pirates! game._
 - Code license: Custom (almost identical to BSD)
 
 ## Building
-

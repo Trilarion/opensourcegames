@@ -12,4 +12,3 @@ _Game engine_
 - Code dependencies: libGDX
 
 ## Building
-

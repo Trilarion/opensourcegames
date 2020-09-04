@@ -13,4 +13,3 @@ _An MMORPG that's all about grinding and doing chores._
 ## Building
 
 - Build system: CMake
-

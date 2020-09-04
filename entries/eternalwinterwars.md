@@ -12,4 +12,3 @@ _Turn based strategy game with a medieval winter setting._
 
 
 ## Building
-

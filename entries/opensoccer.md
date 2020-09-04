@@ -10,4 +10,3 @@ _Online Soccer Manager_
 - Code license: GPL-3.0
 
 ## Building
-

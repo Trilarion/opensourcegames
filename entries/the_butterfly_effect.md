@@ -3,7 +3,7 @@
 _Realistic physics simulations._
 
 - Home: http://the-butterfly-effect.org/, https://sourceforge.net/projects/tbe/
-- State: beta 
+- State: beta
 - Download: http://the-butterfly-effect.org/#download, https://github.com/the-butterfly-effect/tbe/releases
 - Platform: Windows, Linux, macOS
 - Keywords: simulation, clone, inspired by Crazy Machines series + The Incredible Machine series, physics

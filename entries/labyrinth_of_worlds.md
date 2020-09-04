@@ -12,4 +12,3 @@ _Rewrite for modern architectures of the incredibly good game Ultima Underworld 
 - Code dependencies: OGRE
 
 ## Building
-

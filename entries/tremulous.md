@@ -4,7 +4,7 @@ _Asymmetric team-based first-person shooter with real-time strategy elements._
 
 - Home: https://web.archive.org/web/20200114115219/http://www.tremulous.net/, https://sourceforge.net/projects/tremulous/
 - Media: https://en.wikipedia.org/wiki/Tremulous
-- State: mature, inactive since 2016 
+- State: mature, inactive since 2016
 - Download: https://web.archive.org/web/20200114115222/http://tremulous.net/files/
 - Platform: Windows, Linux, macOS
 - Keywords: action, clone, inspired by Natural Selection, shooter

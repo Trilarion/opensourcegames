@@ -14,4 +14,3 @@ _A framework for turn based 4 X's game (eXplore, eXpand, eXploit, eXterminate). 
 Should this be a game engine instead? Server is written in C++. Client is written in Python.
 
 ## Building
-

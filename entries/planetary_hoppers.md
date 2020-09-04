@@ -11,4 +11,3 @@ _Multiplayer space strategy game._
 - Code license: GPL-2.0
 
 ## Building
-

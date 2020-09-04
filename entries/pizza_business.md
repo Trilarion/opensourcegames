@@ -12,4 +12,3 @@ _Start and control a pizza business / pizza restaurants, limited to a budget._
 - Code dependencies: wxWidgets
 
 ## Building
-

@@ -14,4 +14,3 @@ _MUD client._
 A [MUD client](https://en.wikipedia.org/wiki/MUD_client)
 
 ## Building
-

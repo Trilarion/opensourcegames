@@ -15,4 +15,3 @@ _J-RPG (Based on the Hero of Allacrost engine)._
 ## Building
 
 - Build system: CMake
-

@@ -13,4 +13,3 @@ _Permuted picture puzzles for kids._
 - Code dependencies: OpenGL, SDL2
 
 ## Building
-

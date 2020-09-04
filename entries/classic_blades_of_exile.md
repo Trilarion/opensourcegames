@@ -14,4 +14,3 @@ _Role-playing game created by Jeff Vogel of Spiderweb Software._
 Started as a commercial project. Part of the Exile series and released in 1997 by Spiderweb Software.
 
 ## Building
-

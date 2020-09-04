@@ -16,4 +16,3 @@ _Update of the classic DOOM engine inside DOOM 3 BFG Edition._
 Classic RBDoom 3 BFG is updating the classic DOOM engine inside DOOM 3 BFG Edition
 
 ## Building
-

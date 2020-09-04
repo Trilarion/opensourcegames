@@ -15,4 +15,3 @@ _Action-adventure dungeon crawl game._
 See also https://github.com/zear/meritous, https://github.com/bart9h/meritous, https://github.com/nop90/Meritous-3ds, https://github.com/suloku/meritous-wii, https://github.com/MattWindsor91/eMeritous, https://gitlab.com/meritous/sdl_android.git, https://gitlab.com/meritous/meritous.git
 
 ## Building
-

@@ -11,4 +11,3 @@ _Ultimate Dungeon Adventure (UlDunAd) - the extremely flexible, fun, text/graphi
 - Code dependencies: NumPy, OpenGL, Pillow, pygame, wxPython
 
 ## Building
-

@@ -11,4 +11,3 @@ _Based around the actions of RAF Bomber Command in the Second World War._
 - Code dependencies: FreeType, libpng, libtiff, Matplotlib, NumPy, SDL, zlib
 
 ## Building
-

@@ -14,4 +14,3 @@ _A turn based combat-oriented tactics RPG._
 Download of version 1.001 slightly different from last state of SVN repository.
 
 ## Building
-

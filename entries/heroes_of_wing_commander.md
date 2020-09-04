@@ -12,4 +12,3 @@ _A fan base strategy game based on the Origin's Wing Commander universe._
 - Code dependencies: NetworkX, pygame
 
 ## Building
-

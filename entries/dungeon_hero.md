@@ -12,4 +12,3 @@ _Choose between 6 unique heroes, equip yourself with powerful magic items and pr
 - Code license: MIT
 
 ## Building
-

@@ -11,4 +11,3 @@ _Role-playing game, featuring both a single-player and a multiplayer mode for ab
 - Code license: GPL-3.0
 
 ## Building
-

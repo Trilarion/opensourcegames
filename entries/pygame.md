@@ -12,4 +12,3 @@ _Library for making multimedia applications like games built on top of the SDL l
 - Code license: LGPL-2.1
 
 ## Building
-

@@ -10,4 +10,3 @@ _Multiplayer, extensible rogue-like._
 - Code license: 3-clause BSD
 
 ## Building
-

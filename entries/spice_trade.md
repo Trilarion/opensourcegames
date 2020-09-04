@@ -11,4 +11,3 @@ _Rpg/strategy/adventure game about a poor spice farmer in 12th century Baghdad a
 - Code license: LGPL-2.0
 
 ## Building
-

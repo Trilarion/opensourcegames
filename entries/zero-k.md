@@ -12,4 +12,3 @@ _A free multi-platform open source real-time strategy video game._
 - Code license: GPL-2.0
 
 ## Building
-

@@ -12,4 +12,3 @@ _Alien Assault Traders is an online, web-based, turn-based strategy space tradin
 - Developer: Mark Dickenson, Rick Thomson
 
 ## Building
-

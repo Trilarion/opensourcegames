@@ -12,4 +12,3 @@ _WW2 submarine 3D simulation._
 - Assets license: CC-BY-NC-ND
 
 ## Building
-

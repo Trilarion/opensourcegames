@@ -11,4 +11,3 @@ _Innovative, original strategy-action RPG developed in Sphere._
 - Code license: GPL-2.0
 
 ## Building
-

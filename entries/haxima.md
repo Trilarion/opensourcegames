@@ -11,4 +11,3 @@ _Ultima-like game engine (2D tile graphics) with combat, magic, NPC AI, an embed
 - Code license: GPL-3.0
 
 ## Building
-

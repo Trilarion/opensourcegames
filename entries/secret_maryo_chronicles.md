@@ -12,4 +12,3 @@ _Jump and Run game like Super Mario World with an advanced Editor._
 - Code license: GPL-3.0
 
 ## Building
-

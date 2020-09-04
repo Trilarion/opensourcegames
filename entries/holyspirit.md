@@ -12,4 +12,3 @@ _2D isometric hack'n'slash game._
 - Code dependencies: SFML
 
 ## Building
-

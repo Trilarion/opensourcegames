@@ -13,4 +13,3 @@ _Free Software implementation of the Ruby Game Scripting System (RGSS)._
 ## Building
 
 - Build system: CMake
-

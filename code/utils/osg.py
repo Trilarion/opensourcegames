@@ -605,7 +605,6 @@ def write_entries(entries):
     """
 
     # iterate over all entries
-    entries = entries[:20]
     for entry in entries:
         write_entry(entry)
 
@@ -641,29 +640,32 @@ def create_entry_content(entry):
     for field in valid_fields:
         field_name = field.lower()
         if field_name in entry:
-            content += '- {}: {}\n'.format(field, ', '.join(entry[field_name]))
+            c = entry[field_name]
+            c = ['"{}"'.format(x) if ',' in x else x for x in c]
+            content += '- {}: {}\n'.format(field, ', '.join(c))
     content += '\n'
 
     # if there is a note, insert it
     if 'note' in entry:
-        content += entry['note'] + '\n'
+        content += entry['note']
 
     # building header
-    content += '## Building\n\n'
+    content += '## Building\n'
 
     # building properties if present
     has_properties = False
     for field in valid_building_fields:
         field_name = field.lower()
         if field_name in entry['building']:
-            has_properties = True
+            if not has_properties:
+                has_properties = True
+                content += '\n'
             content += '- {}: {}\n'.format(field, ', '.join(entry['building'][field_name]))
 
     # if there is a note, insert it
     if 'note' in entry['building']:
-        if has_properties:
-            content += '\n'
-        content += entry['building']['note'] + '\n'
+        content += '\n'
+        content += entry['building']['note']
 
     return content
 

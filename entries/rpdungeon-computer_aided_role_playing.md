@@ -11,4 +11,3 @@ _Collection of programs and libraries for pen and paper role playing._
 - Code license: GPL-2.0
 
 ## Building
-

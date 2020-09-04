@@ -11,4 +11,3 @@ _Remake of the American Civil War game for DOS, originally developed by Dagger I
 
 
 ## Building
-

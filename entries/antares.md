@@ -11,4 +11,3 @@ _Port of the original Ares code base that was open sourced in 2008._
 - Code license: LGPL-3.0
 
 ## Building
-

@@ -13,4 +13,3 @@ _3D game engine._
 ## Building
 
 - Build system: VisualStudio
-

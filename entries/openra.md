@@ -12,4 +12,3 @@ _Recreates and modernizes the classic Command & Conquer real time strategy games
 - Code license: GPL-3.0
 
 ## Building
-

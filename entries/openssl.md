@@ -12,4 +12,3 @@ _Toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) p
 - Code license: Apache-2.0
 
 ## Building
-

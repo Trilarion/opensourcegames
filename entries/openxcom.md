@@ -16,4 +16,3 @@ OpenXcom requires a vanilla version of the original UFO: Enemy Unknown / X-COM: 
 ## Building
 
 - Build system: CMake
-

@@ -11,4 +11,3 @@ _Turn based strategy indie game project._
 - Code dependencies: Phaser
 
 ## Building
-

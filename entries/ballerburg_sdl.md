@@ -17,4 +17,3 @@ _Remake of the Turnbased Artillery game from 1987._
 ## Building
 
 - Build system: CMake
-

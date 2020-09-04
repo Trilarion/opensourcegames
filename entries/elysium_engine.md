@@ -12,4 +12,3 @@ _2D mmorpg maker._
 - Code license: GPL-2.0
 
 ## Building
-

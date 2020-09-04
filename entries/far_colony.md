@@ -10,4 +10,3 @@ _FAR Colony (First Autonomous Remote Colony) is a game of exploration and space 
 - Code license: GPL-3.0
 
 ## Building
-

@@ -15,4 +15,3 @@ _Multiplayer tank game._
 ## Building
 
 - Build system: Autoconf
-

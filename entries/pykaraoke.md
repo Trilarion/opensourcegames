@@ -12,4 +12,3 @@ _Karaoke player._
 - Code license: LGPL-2.1
 
 ## Building
-

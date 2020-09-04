@@ -16,4 +16,3 @@ No demo but quite a lot of code in the repository.
 See also [GStars!](https://sourceforge.net/projects/gstars/), [Frontier Project](https://sourceforge.net/projects/frontierproject/), https://github.com/vkholodkov/freestars
 
 ## Building
-

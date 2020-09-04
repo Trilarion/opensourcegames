@@ -15,4 +15,3 @@ _Strategic/trading/collectable card game._
 Requires https://fishshell.com/?
 
 ## Building
-

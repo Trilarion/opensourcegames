@@ -13,4 +13,3 @@ _Turn-based tactical war game._
 ## Building
 
 - Build system: Autoconf
-

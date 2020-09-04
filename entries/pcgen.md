@@ -11,4 +11,3 @@ _RPG Character Generator_
 - Code license: LGPL-2.1
 
 ## Building
-

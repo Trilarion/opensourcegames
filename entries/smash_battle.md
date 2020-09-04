@@ -12,4 +12,3 @@ _Old skool, 2D, platform, shootem action._
 - Code license: ?
 
 ## Building
-

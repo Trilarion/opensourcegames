@@ -12,4 +12,3 @@ _Map making utility used for role-playing games._
 - Code dependencies: wxPython
 
 ## Building
-

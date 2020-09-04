@@ -12,4 +12,3 @@ _Battlefield Java is simple grid and turned based battle simulation game for Jav
 
 
 ## Building
-

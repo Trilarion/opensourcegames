@@ -13,4 +13,3 @@ _Free implementation of Heroes of the Might and Magic II engine._
 Requires original content?
 
 ## Building
-

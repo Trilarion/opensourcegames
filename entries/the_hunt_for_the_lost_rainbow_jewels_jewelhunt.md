@@ -11,4 +11,3 @@ _The rainbow jewels have been abducted from the temple of the rainbow colors, an
 - Code license: GPL-2.0
 
 ## Building
-

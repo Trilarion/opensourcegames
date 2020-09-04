@@ -15,4 +15,3 @@ _Shooting game which uses a 3d engine but allows 2d gameplay._
 ## Building
 
 - Build system: VisualStudio
-

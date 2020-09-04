@@ -10,4 +10,3 @@ _2D action adventure game engine._
 - Code license: MIT
 
 ## Building
-

@@ -14,4 +14,3 @@ _Compiles executable finite state machines from regular languages._
 Required by [HarfBuzz](harfbuzz.md).
 
 ## Building
-

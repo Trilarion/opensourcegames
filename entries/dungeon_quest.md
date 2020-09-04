@@ -11,4 +11,3 @@ _Smashing more monsters than ever in this turn-based dungeon crawling game._
 - Code license: MIT
 
 ## Building
-

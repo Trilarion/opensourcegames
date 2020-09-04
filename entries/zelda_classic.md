@@ -12,4 +12,3 @@ _Game and editing tool for creating custom Legend of Zelda quests._
 - Code license: GPL-3.0
 
 ## Building
-

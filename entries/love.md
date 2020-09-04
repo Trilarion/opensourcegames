@@ -14,4 +14,3 @@ _Framework you can use to make 2D games in Lua._
 ## Building
 
 - Build system: CMake
-

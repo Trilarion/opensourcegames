@@ -12,4 +12,3 @@ _Point and click/touch game adventures engine._
 - Code license: MIT
 
 ## Building
-

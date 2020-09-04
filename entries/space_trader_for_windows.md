@@ -11,4 +11,3 @@ _Port to C# (.NET) of the popular game for Palm._
 - Code license: GPL-2.0
 
 ## Building
-

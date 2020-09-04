@@ -14,4 +14,3 @@ _3D slider puzzle that looks like a Rubic cube._
 
 
 ## Building
-

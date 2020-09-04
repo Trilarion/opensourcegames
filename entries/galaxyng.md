@@ -13,4 +13,3 @@ _Play by email interstellar wargame for multiple players._
 See also https://github.com/scumola/GalaxyNG, https://github.com/toddcarnes/goggle, [GalaxyView](https://sourceforge.net/projects/galaxyview/) a turn viewer for this project, https://github.com/gumpu/GalaxyNGV2
 
 ## Building
-

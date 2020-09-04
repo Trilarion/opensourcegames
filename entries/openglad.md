@@ -13,4 +13,3 @@ _An SDL port of an old DOS game called Gladiator._
 Original code released under GPL.
 
 ## Building
-

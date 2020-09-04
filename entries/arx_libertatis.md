@@ -14,4 +14,3 @@ _Port of Arx Fatalis, a 2002 first-person role-playing game / dungeon crawler._
 ## Building
 
 - Build system: CMake
-

@@ -14,4 +14,3 @@ _Single player dungeon exploration game that runs on a wide variety of computer 
 See also [NetHack Falcon's Eye](https://sourceforge.net/projects/falconseye/), a graphical modification of NetHack.
 
 ## Building
-

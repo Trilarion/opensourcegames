@@ -12,4 +12,3 @@ _Libxml2 is the XML C parser and toolkit developed for the Gnome project (but us
 - Code license: MIT
 
 ## Building
-

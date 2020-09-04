@@ -15,4 +15,3 @@ _Hardcore arcade shooter; you're free to explore the game world, land on planets
 ## Building
 
 - Build system: Gradle
-

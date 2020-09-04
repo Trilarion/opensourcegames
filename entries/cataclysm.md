@@ -12,4 +12,3 @@ _Post-apocalyptic roguelike._
 See also [Cataclysm: Dark Days Ahead](cataclysm_dark_days_ahead.md) (fork)
 
 ## Building
-

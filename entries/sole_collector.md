@@ -15,4 +15,3 @@ _3D Horror FPS Game._
 - Developer: Stephen Carlyle-Smith
 
 ## Building
-

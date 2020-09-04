@@ -11,4 +11,3 @@ _Conquer the world thanks to military forces._
 - Code license: MIT
 
 ## Building
-

@@ -11,4 +11,3 @@ _Mech Simulation Game - since 1999._
 - Code license: Apache-2.0
 
 ## Building
-

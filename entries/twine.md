@@ -11,4 +11,3 @@ _Tool for telling interactive, nonlinear stories._
 - Code license: GPL-3.0
 
 ## Building
-

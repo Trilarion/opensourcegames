@@ -13,4 +13,3 @@ _Lively, fully destructible 3D landscapes in a turn-based artillery game._
 - Code license: GPL-2.0
 
 ## Building
-

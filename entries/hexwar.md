@@ -10,4 +10,3 @@ _Simple turn based, hexagon map, strategy game in the tradition of Panzer Genera
 - Code license: MIT
 
 ## Building
-

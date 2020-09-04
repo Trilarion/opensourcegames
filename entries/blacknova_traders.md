@@ -15,4 +15,3 @@ Fork is [Red Nova Traders](https://sourceforge.net/projects/rednova/), inactive 
 See also https://github.com/myprohost/BlackNovaTrader, https://github.com/Kambyses/BlackNova-Traders
 
 ## Building
-

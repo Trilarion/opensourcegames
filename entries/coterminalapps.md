@@ -13,4 +13,3 @@ _Fun puzzle games that run on any terminal._
 - Assets license: None
 
 ## Building
-

@@ -12,4 +12,3 @@ _A cross-platform recreation of the Ultima VII engine._
 - Code license: GPL-2.0
 
 ## Building
-

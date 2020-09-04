@@ -12,4 +12,3 @@ _Arcade style game for “Boulder Dash” (C 64), “Emerald Mine” (Amiga), �
 - Code dependencies: SDL2
 
 ## Building
-

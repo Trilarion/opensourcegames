@@ -12,4 +12,3 @@ _Animated scrolling maps in pygame library._
 - Code dependencies: pygame
 
 ## Building
-

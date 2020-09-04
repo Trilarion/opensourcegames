@@ -13,4 +13,3 @@ _Python binding for the Qt framework._
 - Code dependencies: Qt
 
 ## Building
-

@@ -3,6 +3,11 @@ ftp://ftp.tuxpaint.org/unix/x/
 http://antongerdelan.net/blog/ (other projects besides TestDrive)
 http://cdetect.sourceforge.net/
 http://circularstudios.com/
+https://github.com/SadConsole/SadConsole
+https://github.com/tlgkccampbell/ultraviolet
+https://github.com/amerkoleci/Vortice.Windows
+https://github.com/horde3d/Horde3D
+https://github.com/cxong/cdogs-sdl
 http://cyxdown.free.fr/bs/
 http://cyxdown.free.fr/f2b/
 https://github.com/nfprojects/nfengine

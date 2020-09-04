@@ -10,4 +10,3 @@ _Soccer manager game in which you are not the manager or trainer, but the player
 - Code license: GPL-3.0
 
 ## Building
-

@@ -13,4 +13,3 @@ _A Little Big Adventure engine._
 ## Building
 
 - Build system: Make
-

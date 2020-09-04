@@ -14,4 +14,3 @@ _Nintendo DS emulator._
 See also: https://github.com/IceReaper/DesktopAdventuresToolkit
 
 ## Building
-

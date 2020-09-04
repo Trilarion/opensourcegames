@@ -14,4 +14,3 @@ _A classic MMO._
 See also [Server 105](https://www.meridiannext.com/) and https://github.com/OpenMeridian105/Meridian59.git, [Server 112](https://github.com/Arantis/Meridian59_112.git).
 
 ## Building
-

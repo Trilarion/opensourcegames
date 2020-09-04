@@ -11,4 +11,3 @@ _Football (a.k.a. soccer) manager game featuring many international leagues and 
 - Code license: GPL-2.0
 
 ## Building
-

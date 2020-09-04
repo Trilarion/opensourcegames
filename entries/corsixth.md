@@ -14,4 +14,3 @@ _Reimplementation of the 1997 Bullfrog business sim Theme Hospital._
 ## Building
 
 - Build system: CMake
-

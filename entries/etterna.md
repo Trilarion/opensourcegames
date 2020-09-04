@@ -14,4 +14,3 @@ _Rhythm game focused on keyboard play._
 ## Building
 
 - Build system: CMake
-

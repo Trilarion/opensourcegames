@@ -13,4 +13,3 @@ _RPG 2D game similar to RimWorld._
 - Code dependencies: MonoGame
 
 ## Building
-

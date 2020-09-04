@@ -14,4 +14,3 @@ _Roguelike, single-player role-playing game where the hero must venture through 
 Based on NetHack.
 
 ## Building
-

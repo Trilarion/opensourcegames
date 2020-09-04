@@ -13,4 +13,3 @@ _Lightweight game engine for creating 2D and 3D games._
 ## Building
 
 - Build system: QMake
-

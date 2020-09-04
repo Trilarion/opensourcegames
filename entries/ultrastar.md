@@ -16,4 +16,3 @@ See also [UltraStar Deluxe](https://usdx.eu/) and https://github.com/UltraStar-D
 
 
 ## Building
-

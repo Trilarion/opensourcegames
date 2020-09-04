@@ -13,4 +13,3 @@ _Rhythm dancing game._
 ## Building
 
 - Build system: Autoconf
-

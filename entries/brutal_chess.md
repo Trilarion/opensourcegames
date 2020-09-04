@@ -12,4 +12,3 @@ _Inspired by the once popular "Battle Chess" released by Interplay circa 1988._
 - Code license: GPL-2.0
 
 ## Building
-

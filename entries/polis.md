@@ -10,4 +10,3 @@ _Turn based strategy game, ambiented in ancient Greece._
 - Code license: GPL-3.0
 
 ## Building
-

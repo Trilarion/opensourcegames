@@ -11,4 +11,3 @@ _Lead a mercenary team hired to go on Mars and fight with different factions usi
 - Code license: GPL-2.0
 
 ## Building
-

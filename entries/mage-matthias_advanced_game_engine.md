@@ -13,4 +13,3 @@ _Game and rendering engine._
 ## Building
 
 - Build system: VisualStudio
-

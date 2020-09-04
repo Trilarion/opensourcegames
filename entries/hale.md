@@ -13,4 +13,3 @@ _A turn based RPG with deep tactical combat and character customization._
 See also [continuation](https://github.com/Trilarion/hale).
 
 ## Building
-

@@ -3,7 +3,7 @@
 _Scorched Earth clone similar to the Worms series._
 
 - Home: http://atanks.sourceforge.net/, https://sourceforge.net/projects/atanks
-- State: mature, inactive since 2016 
+- State: mature, inactive since 2016
 - Download: https://sourceforge.net/projects/atanks/files/
 - Platform: Windows, Linux
 - Keywords: action, artillery, inspired by Scorched Earth, open content, remake, wormslike

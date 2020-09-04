@@ -14,4 +14,3 @@ _Roguelike, inspired by Pixel Dungeon._
 ## Building
 
 - Build system: Gradle
-

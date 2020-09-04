@@ -11,4 +11,3 @@ _CRPG engine is a tile-based, turn-based, Lua scriptable engine that supports a 
 - Code license: GPL-2.0
 
 ## Building
-

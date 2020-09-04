@@ -13,4 +13,3 @@ _Project to recreate Ultima Underworld 1 on modern operating systems (e.g. Win32
 Requires original game files.
 
 ## Building
-

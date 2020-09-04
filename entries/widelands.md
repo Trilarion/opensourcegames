@@ -14,4 +14,3 @@ _Real-time strategy game with singleplayer campaigns and a multiplayer mode._
 ## Building
 
 - Build system: CMake
-

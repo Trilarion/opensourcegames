@@ -12,4 +12,3 @@ _Terminal control library for Unix-like systems._
 - Code license: BSD
 
 ## Building
-

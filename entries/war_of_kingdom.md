@@ -11,4 +11,3 @@ _Turn-based tactical strategy game._
 - Code dependencies: Rose (https://github.com/freeors/Rose)
 
 ## Building
-

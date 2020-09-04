@@ -12,4 +12,3 @@ _GameMaster (i.e. role-playing) utility._
 - Code dependencies: wxPython
 
 ## Building
-

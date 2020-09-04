@@ -14,4 +14,3 @@ _Massively Multiplayer On-line Role-playing Game (MMORPG)._
 Server code based on [Crossfire](crossfire.md)
 
 ## Building
-

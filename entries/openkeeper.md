@@ -13,4 +13,3 @@ _Remake of the Dungeon Keeper 2 engine._
 ## Building
 
 - Build system: Gradle
-

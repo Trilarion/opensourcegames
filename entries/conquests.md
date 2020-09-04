@@ -11,4 +11,3 @@ _4X game, similar to the Civilization series of games._
 - Code license: GPL-2.0
 
 ## Building
-

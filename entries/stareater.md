@@ -13,4 +13,3 @@ _4X strategy game in space_
 - Code dependencies: MonoGame
 
 ## Building
-

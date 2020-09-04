@@ -14,4 +14,3 @@ _Role-playing game designed to be flexible and fun._
 See also https://github.com/evilmrhenry/dragon_hunt
 
 ## Building
-

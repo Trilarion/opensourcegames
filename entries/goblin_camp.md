@@ -11,4 +11,3 @@ _Roguelike citybuilder, inspired by Anno 1404, Dwarf Fortress and Dungeon Keeper
 - Code license: GPL-3.0
 
 ## Building
-

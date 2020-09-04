@@ -14,4 +14,3 @@ _Cross-platform library mainly aimed at video game and multimedia programming._
 ## Building
 
 - Build system: CMake
-

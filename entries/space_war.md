@@ -11,4 +11,3 @@ _Simple single player turn-base game._
 - Code license: Apache-2.0
 
 ## Building
-

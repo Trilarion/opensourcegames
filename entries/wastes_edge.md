@@ -12,4 +12,3 @@ _Demo game for Adonthell._
 - Code dependencies: Adonthell
 
 ## Building
-

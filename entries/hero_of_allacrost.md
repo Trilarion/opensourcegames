@@ -13,4 +13,3 @@ _Hero of Allacrost is a 2D role-playing game inspired by classic console RPGs._
 ## Building
 
 - Build system: Autoconf
-

@@ -11,4 +11,3 @@ _Game/Dungeon Master aid for role playing._
 - Code license: GPL-2.0
 
 ## Building
-

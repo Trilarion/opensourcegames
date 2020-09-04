@@ -13,4 +13,3 @@ _City simulation game._
 See also https://github.com/BackupTheBerlios/lincity-ng-svn, https://github.com/Isaac96/lincity-ng
 
 ## Building
-

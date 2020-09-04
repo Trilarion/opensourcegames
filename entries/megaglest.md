@@ -17,4 +17,3 @@ Fork of [Glest](glest.md)
 ## Building
 
 - Build system: CMake
-

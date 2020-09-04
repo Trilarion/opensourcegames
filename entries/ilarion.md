@@ -13,4 +13,3 @@ _Free Open Source-MMORPG, with emphasis on real roleplay._
 ## Building
 
 - Build system: Gradle
-

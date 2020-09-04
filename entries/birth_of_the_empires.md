@@ -12,4 +12,3 @@ _Turn-based 4X strategy game set in space in the style of classics such as Micro
 See also [Android/Java version](https://bitbucket.org/sarkanyi/bote-libgdx/) and https://blotunga.itch.io/birth-of-the-empires
 
 ## Building
-

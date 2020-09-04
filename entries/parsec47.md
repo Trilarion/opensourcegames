@@ -12,4 +12,3 @@ _Retromodern hispeed shmashup._
 - Code dependencies: SDL
 
 ## Building
-

@@ -14,4 +14,3 @@ _Turn based strategy game._
 ## Building
 
 - Build system: Autoconf
-

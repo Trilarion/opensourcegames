@@ -14,4 +14,3 @@ _Cocos2d-x is an open-source game framework written in C++._
 ## Building
 
 - Build system: CMake
-

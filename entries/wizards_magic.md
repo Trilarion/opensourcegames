@@ -14,4 +14,3 @@ _Simple card strategy, based on Magic: The Gathering rules._
 - Developer: Андрей Питько (chubakur@GH, chubakur@BB)
 
 ## Building
-

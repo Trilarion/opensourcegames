@@ -6,7 +6,7 @@ _3D game engine and a game development platform._
 - State: mature
 - Download: (not available anymore?)
 - Keywords: framework
-- Code repository: https://git.octaforge.org/OctaForge/OctaCore.git, https://github.com/OctaForge/OF-Engine.git (mirror, archived) 
+- Code repository: https://git.octaforge.org/OctaForge/OctaCore.git, https://github.com/OctaForge/OF-Engine.git (mirror, archived)
 - Code language: C++
 - Code license: Custom (NCSA open source license)
 
@@ -17,4 +17,3 @@ See also:
 
 - Build system: Make
 - Build instructions: https://github.com/OctaForge/OF-Engine/blob/master/INSTALL.md
-

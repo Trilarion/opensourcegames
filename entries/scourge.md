@@ -14,4 +14,3 @@ _Roguelike game with a 3D user interface._
 See also: https://github.com/q4a/scourge2
 
 ## Building
-

@@ -15,4 +15,3 @@ _Open content for the Doom._
 - Assets license: 3-clause BSD
 
 ## Building
-

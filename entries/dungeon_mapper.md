@@ -11,4 +11,3 @@ _Map your dungeons for your next role playing adventure._
 - Code license: GPL-3.0
 
 ## Building
-

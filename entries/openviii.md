@@ -13,4 +13,3 @@ _Final Fantasy VIII game engine rewrite._
 - Code dependencies: MonoGame
 
 ## Building
-

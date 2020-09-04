@@ -11,4 +11,3 @@ _2D engine that runs Lua scripts._
 - Code license: zlib
 
 ## Building
-

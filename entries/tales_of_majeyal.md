@@ -13,4 +13,3 @@ _Roguelike RPG, featuring tactical turn-based combat and advanced character buil
 - Assets license: Restricted (for use "with the Tales of Maj'Eyal game only.")
 
 ## Building
-

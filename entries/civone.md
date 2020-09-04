@@ -10,4 +10,3 @@ _Exact clone of Sid Meier's Civilization._
 - Code license: CC0
 
 ## Building
-

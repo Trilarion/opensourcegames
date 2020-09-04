@@ -4,7 +4,7 @@ _2D action game in which the player controls small but witty and nimble humanoid
 
 - Home: https://www.openclonk.org/
 - Media: https://en.wikipedia.org/wiki/OpenClonk
-- State: mature 
+- State: mature
 - Download: https://www.openclonk.org/download/
 - Platform: Windows, Linux
 - Keywords: action, inspired by Clonk, remake

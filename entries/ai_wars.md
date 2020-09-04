@@ -11,4 +11,3 @@ _Turn-based strategy game, an AI client development testbed._
 - Code dependencies: Pillow, pygame
 
 ## Building
-

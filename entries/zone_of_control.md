@@ -11,4 +11,3 @@ _Turn-based hexagonal strategy game written in Rust._
 - Code license: Apache-2.0
 
 ## Building
-

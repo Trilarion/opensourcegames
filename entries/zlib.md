@@ -13,4 +13,3 @@ _zlib is a software library used for data compression._
 ## Building
 
 - Build system: CMake
-

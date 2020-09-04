@@ -12,4 +12,3 @@ _Hex and turn based strategy game, a remake of good old Panzer General 2._
 License of artwork?
 
 ## Building
-

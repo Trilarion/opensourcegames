@@ -12,4 +12,3 @@ _Clone of 'Plan Tactico y Estrategico de la Guerra', which is a pseudo-clone of 
 - Code license: GPL-2.0
 
 ## Building
-

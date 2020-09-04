@@ -12,4 +12,3 @@ _Turn Based Strategy RPG with gameplay that is similar to Fire Emblem._
 - Code dependencies: pygame
 
 ## Building
-

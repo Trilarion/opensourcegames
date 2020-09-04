@@ -12,4 +12,3 @@ _Singing game._
 - Code license: GPL-3.0
 
 ## Building
-

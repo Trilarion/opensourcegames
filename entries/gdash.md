@@ -11,4 +11,3 @@ _A Boulder Dash clone which is as close to the original as possible._
 - Code license: MIT
 
 ## Building
-

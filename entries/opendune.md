@@ -11,4 +11,3 @@ _Re-creation of the popular game "Dune II"._
 - Code license: GPL-2.0
 
 ## Building
-

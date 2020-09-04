@@ -3,7 +3,7 @@
 _Program for creating 2D scrolling games._
 
 - Home: http://sgdk2.sourceforge.net/, https://sourceforge.net/projects/sgdk2/
-- State: mature, inactive since 2017 
+- State: mature, inactive since 2017
 - Download: http://sgdk2.sourceforge.net/download.php, https://sourceforge.net/projects/sgdk2/files/
 - Platform: Windows
 - Keywords: framework, side-scrolling

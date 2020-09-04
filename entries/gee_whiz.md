@@ -11,4 +11,3 @@ _Homage to the old style Wizardry(tm) games._
 - Code license: GPL-2.0
 
 ## Building
-

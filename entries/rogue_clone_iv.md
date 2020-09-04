@@ -13,4 +13,3 @@ _Reproduction of Rogue._
 See also https://github.com/naota/rogueclone2s-utf8, https://github.com/WatermelonTeam/RogueClone
 
 ## Building
-

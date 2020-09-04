@@ -11,4 +11,3 @@ _Turn based command line fighting game for Windows and Unix-like systems._
 - Code license: GPL-3.0
 
 ## Building
-

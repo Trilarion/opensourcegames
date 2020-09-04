@@ -7,7 +7,7 @@ _Powerful, efficient, lightweight, embeddable scripting language._
 - State: mature
 - Download: http://www.lua.org/download.html
 - Keywords: library
-- Code repository: https://github.com/lua/lua.git (mirror) 
+- Code repository: https://github.com/lua/lua.git (mirror)
 - Code language: C
 - Code license: MIT
 
@@ -20,4 +20,3 @@ Who develops Lua if the actual repository is not publicly available?
 See also [toLua](http://webserver2.tecgraf.puc-rio.br/~celes/tolua/tolua-3.2.html).
 
 ## Building
-

@@ -14,4 +14,3 @@ _2D space trading and combat game, taking inspiration from the Escape Velocity s
 Also available on Steam.
 
 ## Building
-

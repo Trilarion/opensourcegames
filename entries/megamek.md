@@ -12,4 +12,3 @@ _Unofficial, online version of the Classic BattleTech board game._
 - Code license: GPL-2.0
 
 ## Building
-

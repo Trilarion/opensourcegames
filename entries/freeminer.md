@@ -12,4 +12,3 @@ _Sandbox game inspired by Minecraft._
 Fork of minetest. Home page of project currently empty. 
 
 ## Building
-

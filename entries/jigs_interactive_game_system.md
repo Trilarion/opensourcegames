@@ -10,4 +10,3 @@ _Online RPG engine built in php._
 - Code license: GPL-3.0
 
 ## Building
-

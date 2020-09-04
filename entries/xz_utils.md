@@ -18,4 +18,3 @@ Supersedes [LZMA Utils](https://tukaani.org/lzma/)
 ## Building
 
 - Build instructions: manual (see instructions in source folder windows)
-

@@ -12,4 +12,3 @@ _Adventure game based on the open source film 'Sintel'._
 - Code dependencies: Blender game engine
 
 ## Building
-

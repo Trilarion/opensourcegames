@@ -11,4 +11,3 @@ _Online multiplayer turn-based war game._
 - Code license: GPL-2.0
 
 ## Building
-

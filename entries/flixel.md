@@ -11,4 +11,3 @@ _Game-making library written in ActionScript 3._
 - Code license: MIT
 
 ## Building
-

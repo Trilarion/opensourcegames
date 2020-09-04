@@ -14,4 +14,3 @@ _Warcraft2 Mod that allows you to play Warcraft II with the Stratagus._
 Runs on the [stratagus engine](http://forums.stratagus.com/).
 
 ## Building
-

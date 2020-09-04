@@ -11,4 +11,3 @@ _Windows clone of Linux KAtomic logic game._
 - Code license: GPL-2.0
 
 ## Building
-

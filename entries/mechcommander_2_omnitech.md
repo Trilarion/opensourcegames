@@ -11,4 +11,3 @@ _Upgraded and more easily moddable version of the good old Mechcommander 2._
 - Code license: MS-PL
 
 ## Building
-

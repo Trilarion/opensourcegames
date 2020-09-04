@@ -13,4 +13,3 @@ _Futuristic real time strategy game (RTS)._
 Code repository not available (https://www.boswars.org/development.shtml).
 
 ## Building
-

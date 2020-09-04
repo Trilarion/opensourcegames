@@ -14,4 +14,3 @@ _The first serious game using the Annchienta engine._
 See also entry fo Annchienta.
 
 ## Building
-

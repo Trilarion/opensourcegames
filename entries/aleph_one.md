@@ -12,4 +12,3 @@ _Continuation of Bungie's Marathon 2 FPS game engine._
 - Code license: GPL-3.0
 
 ## Building
-

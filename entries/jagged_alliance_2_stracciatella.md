@@ -10,4 +10,3 @@ _An improved, cross-platform, stable Jagged Alliance 2 runtime._
 - Code license: Custom (various)
 
 ## Building
-

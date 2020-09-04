@@ -4,7 +4,7 @@ _Dance and rhythm game._
 
 - Home: https://www.stepmania.com/, https://sourceforge.net/projects/stepmania/
 - Media: https://en.wikipedia.org/wiki/StepMania, https://en.wikipedia.org/wiki/Dance_Dance_Revolution#Similar_games
-- State: mature 
+- State: mature
 - Download: https://sourceforge.net/projects/stepmania/files/
 - Platform: Windows
 - Keywords: music, clone, inspired by Dance Dance Revolution
@@ -16,4 +16,3 @@ _Dance and rhythm game._
 ## Building
 
 - Build system: CMake
-

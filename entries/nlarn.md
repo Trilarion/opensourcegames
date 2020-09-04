@@ -12,4 +12,3 @@ _Rewrite of Noah Morgan's classic roguelike game Larn from 1986._
 - Code license: GPL-3.0
 
 ## Building
-

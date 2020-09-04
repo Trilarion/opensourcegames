@@ -3,7 +3,7 @@
 _Racing game with rally style of driving._
 
 - Home: https://stuntrally.tuxfamily.org/, https://sourceforge.net/projects/stuntrally/
-- State: mature 
+- State: mature
 - Download: http://stuntrally.tuxfamily.org/downloads, https://sourceforge.net/projects/stuntrally/files/
 - Platform: Windows, Linux
 - Keywords: action, clone, inspired by TrackMania, racing

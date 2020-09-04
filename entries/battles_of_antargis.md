@@ -10,4 +10,3 @@ _A real-time-strategy (RTS) game._
 - Code license: GPL-2.0
 
 ## Building
-

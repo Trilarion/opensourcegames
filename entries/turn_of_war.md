@@ -13,4 +13,3 @@ _Turn of War is a fork of Dragon Wars._
 Based on [Dragon Wars](https://github.com/Fuuzetsu/dragon-wars).
 
 ## Building
-

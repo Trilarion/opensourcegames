@@ -11,4 +11,3 @@ _Multiplayer voxel RPG written in Rust and taking inspiration from games such as
 
 
 ## Building
-

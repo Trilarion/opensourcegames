@@ -11,4 +11,3 @@ _3D RTS game similar to Starcraft and Total Annihilation._
 - Code license: GPL-2.0
 
 ## Building
-

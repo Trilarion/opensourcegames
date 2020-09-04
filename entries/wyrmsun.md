@@ -16,4 +16,3 @@ _Strategy game which features elements of mythology, history and fiction._
 
 - Build system: CMake
 - Build instructions: https://github.com/Andrettin/Wyrmgus/blob/master/doc/building_on_ubuntu_16.txt, https://github.com/Andrettin/Wyrmgus/blob/master/doc/building_wyrmsun_on_debian_8.txt
-

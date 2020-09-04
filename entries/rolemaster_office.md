@@ -11,4 +11,3 @@ _PC and NPC character generator for Rolemaster RMFRP roleplaying system (from Ir
 - Code license: Apache-2.0
 
 ## Building
-

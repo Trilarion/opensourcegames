@@ -13,4 +13,3 @@ _DirectX11 real-time renderer._
 ## Building
 
 - Build system: Custom (BUILD.bat and BUILD.py)
-

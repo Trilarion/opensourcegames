@@ -13,4 +13,3 @@ _Move a jumping ball and try to reach the end of a tower avoiding the obstacles.
 - Code dependencies: Godot
 
 ## Building
-

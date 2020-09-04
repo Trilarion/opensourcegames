@@ -16,4 +16,3 @@ See also the [sourceforge project](https://sourceforge.net/projects/pioneerspace
 ## Building
 
 - Build system: Autoconf
-

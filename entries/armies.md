@@ -11,4 +11,3 @@ _Turn based strategy game. It has simple and well designed rules._
 - Code license: GPL-3.0
 
 ## Building
-

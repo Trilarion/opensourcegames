@@ -11,4 +11,3 @@ _Library that adds 2D lighting with shadowing effects._
 - Code dependencies: MonoGame
 
 ## Building
-

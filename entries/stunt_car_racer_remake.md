@@ -9,7 +9,7 @@ _Remake of Stunt Car Racer._
 - Keywords: simulation, inspired by Stunt Car Racer, racing, remake
 - Code repository: https://git.code.sf.net/p/stuntcarremake/code
 - Code language: C++
-- Code license:  Proprietary (!)
+- Code license: Proprietary (!)
 
 Uses the original Amiga track data, sound samples and algorithms for the car physics. Is this a copyright issue? Can it be avoided?
 

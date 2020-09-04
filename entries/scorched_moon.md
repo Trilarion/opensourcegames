@@ -13,4 +13,3 @@ _Open source version of Moonbase Commander._
 Old [Googlecode project](https://code.google.com/archive/p/tether/)
 
 ## Building
-

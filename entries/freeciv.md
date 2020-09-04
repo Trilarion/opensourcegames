@@ -17,4 +17,3 @@ however inactive since 2002.
 ## Building
 
 - Build system: Autoconf
-

@@ -10,4 +10,3 @@ _Fun educational game built around molecular geometry. It employs simplistic two
 - Code license: GPL-2.0
 
 ## Building
-

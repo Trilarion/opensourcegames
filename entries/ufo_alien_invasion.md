@@ -14,4 +14,3 @@ _UFO: Alien Invasion is a squad-based tactical strategy game in the tradition of
 ## Building
 
 - Build system: CMake
-

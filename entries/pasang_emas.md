@@ -14,4 +14,3 @@ _Traditional two-player board game of Brunei._
 See also [Pasang Emas for Android](https://sourceforge.net/projects/pasang-android/).
 
 ## Building
-

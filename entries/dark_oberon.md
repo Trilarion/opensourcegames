@@ -12,4 +12,3 @@ _Real-time strategy game similar to Warcraft II._
 - Code dependencies: SDL
 
 ## Building
-

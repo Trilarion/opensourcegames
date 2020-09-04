@@ -14,4 +14,3 @@ _Remake of the popular citybuilder/economic strategy - Caesar III, videogame by 
 ## Building
 
 - Build system: CMake
-

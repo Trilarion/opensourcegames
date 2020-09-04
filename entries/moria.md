@@ -12,4 +12,3 @@ _Roguelike inspired by Tolkien's novel The Lord of the Rings._
 - Code license: GPL-3.0
 
 ## Building
-

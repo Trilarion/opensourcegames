@@ -14,4 +14,3 @@ _A three-dimensional dungeon crawling adventure that borrows a lot of elements f
 ## Building
 
 - Build system: CMake
-

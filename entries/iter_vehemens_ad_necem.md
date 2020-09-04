@@ -13,4 +13,3 @@ _Graphical roguelike game with advanced bodypart and material handling, multi-co
 See also https://github.com/jarpiain/ivan-tty
 
 ## Building
-

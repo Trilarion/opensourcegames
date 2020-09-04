@@ -12,4 +12,3 @@ _Designed for 2D Platform, Strategy and Shoot'em Up games._
 - Code license: GPL-3.0
 
 ## Building
-

@@ -3,7 +3,7 @@
 _Game engine and editor._
 
 - Home: http://oge.sourceforge.net/wiki/index.php/Main_Page, https://sourceforge.net/projects/oge/
-- State: beta, inactive since 2008 
+- State: beta, inactive since 2008
 - Download: https://sourceforge.net/projects/oge/files/
 - Platform: Windows
 - Keywords: game engine, framework, game editor

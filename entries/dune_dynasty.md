@@ -13,4 +13,3 @@ _Continuation of the classic real-time strategy game Dune II by Westwood Studios
 Based on Open Dune.
 
 ## Building
-

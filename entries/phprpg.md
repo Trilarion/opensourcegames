@@ -13,4 +13,3 @@ _Multiplayer role playing game engine which shares common qualities between mult
 - Developer: Haeric, Rob Norman, Timothy Chung
 
 ## Building
-

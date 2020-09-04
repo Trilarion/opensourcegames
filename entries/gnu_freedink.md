@@ -19,4 +19,3 @@ _Dink Smallwood is an adventure/role-playing game, similar to Zelda (2D top view
 Based on RTSoft and Dan Walma works.
 
 ## Building
-

@@ -16,4 +16,3 @@ More repositories?
 ## Building
 
 - Build system: setup.py
-

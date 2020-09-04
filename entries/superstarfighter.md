@@ -12,4 +12,3 @@ _Starships that battle in a 2d top-down arena._
 - Code dependencies: Godot
 
 ## Building
-

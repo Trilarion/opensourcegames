@@ -18,4 +18,3 @@ Inspired by Oxyd.
 ## Building
 
 - Build system: Autoconf
-

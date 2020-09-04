@@ -12,4 +12,3 @@ _Engine for Heroes III, giving it new and extended possibilities._
 - Code dependencies: SDL
 
 ## Building
-

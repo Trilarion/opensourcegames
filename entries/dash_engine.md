@@ -10,4 +10,3 @@ _OpenGL engine written in the D language._
 - Code license: MIT
 
 ## Building
-

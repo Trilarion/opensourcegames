@@ -13,4 +13,3 @@ _3D puzzle game, a mixture of the games Sokoban and Kula-World._
 - Code license: Public domain
 
 ## Building
-

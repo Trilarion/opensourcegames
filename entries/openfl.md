@@ -12,4 +12,3 @@ _Software framework and platform for the creation of multi-platform applications
 - Code license: MIT
 
 ## Building
-

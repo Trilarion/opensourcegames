@@ -11,4 +11,3 @@ _An unofficial fan-made mod for the game Knights and Merchants._
 - Code license: AGPL-3.0
 
 ## Building
-

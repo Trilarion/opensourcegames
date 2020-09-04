@@ -11,4 +11,3 @@ _Tools for using hexagonal grids in GDScript._
 - Code dependencies: Godot
 
 ## Building
-

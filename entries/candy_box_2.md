@@ -15,4 +15,3 @@ _Online text-based role-playing game featuring ASCII art._
 See also [Candy Box](https://github.com/candybox2/candybox)
 
 ## Building
-

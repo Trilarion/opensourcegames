@@ -11,4 +11,3 @@ _Nostalgic glimpse in the past in a form of Commodore 64 game "Commando"._
 - Code dependencies: melonJS
 
 ## Building
-

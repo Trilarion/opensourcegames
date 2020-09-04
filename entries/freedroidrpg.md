@@ -16,4 +16,3 @@ See also [FreedroidClassic](https://sourceforge.net/projects/freedroid/files/fre
 ## Building
 
 - Build system: Make
-

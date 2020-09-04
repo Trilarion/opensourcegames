@@ -14,4 +14,3 @@ _The Battle for Wesnoth is an open source, turn-based strategy game with a high 
 ## Building
 
 - Build system: CMake
-

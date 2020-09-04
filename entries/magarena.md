@@ -11,4 +11,3 @@ _Single-player fantasy card game played against a computer opponent._
 - Code license: GPL-3.0
 
 ## Building
-

@@ -11,4 +11,3 @@ _Generate interactive and highly customizable svg maps based on voronoi diagrams
 - Code license: MIT
 
 ## Building
-

@@ -11,4 +11,3 @@ _Themeable turn-based strategy game._
 - Code license: GPL-2.0
 
 ## Building
-

@@ -11,4 +11,3 @@ _Retro-style, turn-based RPG game._
 - Code license: GPL-3.0
 
 ## Building
-

@@ -14,4 +14,3 @@ _Real time, multiplayer, Internet-based game, featuring military, diplomatic, an
 See also http://www.wolfpackempire.com/clients.html
 
 ## Building
-

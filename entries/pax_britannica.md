@@ -10,4 +10,3 @@ _One-button real-time strategy game._
 - Code license: MIT
 
 ## Building
-

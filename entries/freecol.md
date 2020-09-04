@@ -1,6 +1,6 @@
 # FreeCol
 
-_FreeCol is a turn-based strategy game based on the old game Colonization, and similar to Civilization._
+_Turn-based strategy game based on the old game Colonization, and similar to Civilization._
 
 - Home: http://www.freecol.org/, https://sourceforge.net/projects/freecol/
 - Media: https://en.wikipedia.org/wiki/FreeCol

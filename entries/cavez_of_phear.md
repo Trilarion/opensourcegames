@@ -1,6 +1,6 @@
 # CAVEZ of PHEAR
 
-_CAVEZ of PHEAR is an arcade action game based on ASCII graphics._
+_Arcade action game based on ASCII graphics._
 
 - Home: https://web.archive.org/web/20120110101219/http://www.x86.no/cavezofphear/
 - State: beta, inactive since 2011

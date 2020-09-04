@@ -1,6 +1,6 @@
 # Boulder Dash
 
-_Boulder Dash game remake, done in Java._
+_Dig through caves collecting gems._
 
 - Home: https://github.com/valeriansaliou/boulder-dash
 - State: mature, inactive since 2015

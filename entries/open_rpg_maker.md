@@ -1,6 +1,6 @@
 # Open RPG Maker
 
-_Open RPG Maker is a free and open source 2D RPG creation utility, similar to the popular RPG Maker series._
+_2D RPG creation utility, similar to the popular RPG Maker series._
 
 - Home: http://openrpgmaker.sourceforge.net/, https://sourceforge.net/projects/openrpgmaker/
 - State: beta, inactive since 2014

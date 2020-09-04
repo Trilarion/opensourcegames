@@ -1,6 +1,6 @@
 # Excellent Bifurcation
 
-_Excellent Bifurcation is an abstract vertical shooter with two sides to play on._
+_Abstract vertical shooter with two sides to play on._
 
 - Home: https://archive.org/details/ExcellentFix, https://packages.debian.org/source/excellent-bifurcation
 - State: mature, inactive since 2007

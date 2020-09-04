@@ -1,6 +1,6 @@
 # Go Ollie!
 
-_Go Ollie! is a mouse controlled platformer about an earth worm._
+_Mouse controlled platformer about an earth worm._
 
 - Home: http://www.charliedoggames.com/?page_id=62, https://web.archive.org/web/20111013005011/http://www.tweeler.com/index.php?PAGE=goollie_linux
 - State: mature, inactive since 2011

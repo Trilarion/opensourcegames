@@ -1,6 +1,6 @@
 # Simple DirectMedia Layer
 
-_Simple DirectMedia Layer is a cross-platform development library designed to provide low level access._
+_Cross-platform development library designed to provide low level access._
 
 - Home: https://www.libsdl.org/index.php
 - Media: https://en.wikipedia.org/wiki/Simple_DirectMedia_Layer

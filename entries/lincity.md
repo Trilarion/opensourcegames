@@ -1,6 +1,6 @@
 # Lincity
 
-_Lincity is a city simulation game,_
+_City simulation game._
 
 - Home: http://lincity.sourceforge.net/, https://sourceforge.net/projects/lincity/
 - Media: https://en.wikipedia.org/wiki/Lincity

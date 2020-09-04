@@ -1,6 +1,6 @@
 # Cannon Smash
 
-_Cannon Smash is a table tennis game._
+_Table tennis game._
 
 - Home: http://cannonsmash.sourceforge.net/, https://sourceforge.net/projects/cannonsmash/
 - State: beta, inactive since 2003

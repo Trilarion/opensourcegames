@@ -1,6 +1,6 @@
 # Conquest
 
-_Conquest is a real-time strategy space war game._
+_Real-time strategy space war game._
 
 - Home: https://github.com/jtrulson/conquest
 - State: mature

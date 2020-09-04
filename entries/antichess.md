@@ -1,6 +1,6 @@
 # AntiChess
 
-_AntiChess is an anti chess game. You have to take your opponents piece if you can._
+_Anti chess game._
 
 - Home: https://sourceforge.net/projects/antichess/
 - State: mature, inactive since 2003
@@ -9,5 +9,7 @@ _AntiChess is an anti chess game. You have to take your opponents piece if you c
 - Code repository: https://gitlab.com/osgames/antichess.git (backup of cvs), http://antichess.cvs.sourceforge.net/ (cvs)
 - Code language: Java
 - Code license: MIT
+
+You have to take your opponents piece if you can.
 
 ## Building

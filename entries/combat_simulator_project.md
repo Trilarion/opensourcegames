@@ -1,6 +1,6 @@
 # Combat Simulator Project
 
-_Combat Simulator Project aka CSP is an aerial combat simulator._
+_Aerial combat simulator._
 
 - Home: https://web.archive.org/web/20140215084623/https://sourceforge.net/apps/mediawiki/csp/index.php?title=Main_Page, https://sourceforge.net/projects/csp
 - State: beta, inactive since 2010

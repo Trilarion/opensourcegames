@@ -1,6 +1,6 @@
 # Ularn
 
-_Ularn is a modern port of the roguelike Larn._
+_Modern port of the roguelike Larn._
 
 - Home: http://www.ularn.org/, https://sourceforge.net/projects/ularn/
 - State: mature, inactive since 2018

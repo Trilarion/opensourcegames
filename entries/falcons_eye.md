@@ -1,6 +1,6 @@
 # Falcon's Eye
 
-_Falcon's Eye is a graphical isometric version of NetHack written by Jaakko Tapani Peltonen that keeps all of the original game-play, but adds a more graphically and musically interesting interface._
+_Graphical isometric version of NetHack written by Jaakko Tapani Peltonen that keeps all of the original game-play, but adds a more graphically and musically interesting interface._
 
 - Home: http://falconseye.sourceforge.net/, https://sourceforge.net/projects/falconseye/
 - State: mature, inactive since 2004

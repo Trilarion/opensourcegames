@@ -1,6 +1,6 @@
 # JSoko
 
-_JSoko is a sokobon style puzzle game. It includes an automatic solver and supports different skins._
+_Sokobon style puzzle game. It includes an automatic solver and supports different skins._
 
 - Home: https://www.sokoban-online.de/, https://sourceforge.net/projects/jsokoapplet/
 - State: mature

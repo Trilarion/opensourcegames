@@ -1,6 +1,6 @@
 # DarkCity
 
-_DarkCity is a MMORPG game, in text mode on the Internet._
+_MMORPG in text mode._
 
 - Home: https://sourceforge.net/projects/darkcity/
 - State: mature, inactive since 2012

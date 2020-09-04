@@ -1,6 +1,6 @@
 # Caph
 
-_Caph is a physics simulation puzzle game in which the player has to get a red and a green circle together._
+_Physics simulation puzzle game in which the player has to get a red and a green circle together._
 
 - Home: http://caphgame.sourceforge.net/, https://sourceforge.net/projects/caphgame
 - State: mature, inactive since 2010

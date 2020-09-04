@@ -1,6 +1,6 @@
 # Consomaton
 
-_Consomaton is a puzzle game revolving around cellular automata._
+_Puzzle game revolving around cellular automata._
 
 - Home: http://www.asahi-net.or.jp/~cs8k-cyu/blog/2016/06/17/consomaton/
 - State: mature, inactive since 2016

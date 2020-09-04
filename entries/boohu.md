@@ -1,6 +1,6 @@
 # Boohu
 
-_Break Out Of Hareka's Underground (Boohu) is a turn-based roguelike focusing on tactical positioning mechanisms._
+_Break Out Of Hareka's Underground is a turn-based roguelike focusing on tactical positioning mechanisms._
 
 - Home: https://download.tuxfamily.org/boohu/index.html
 - State: beta

@@ -1,6 +1,6 @@
 # Dunnet
 
-_Dunnet is a text adventure game included in Emacs._
+_Text adventure game included in Emacs._
 
 - Home: http://www.driver-aces.com/ronnie.html#dunnet
 - Media: <https://en.wikipedia.org/wiki/Dunnet_(video_game)>

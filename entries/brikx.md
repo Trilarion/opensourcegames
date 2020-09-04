@@ -1,6 +1,6 @@
 # Brikx
 
-_Brikx is a puzzle game with the goal to clear levels navigating your way around walls._
+_Puzzle game with the goal to clear levels navigating your way around walls._
 
 - Home: https://sourceforge.net/projects/brikx/
 - State: beta, inactive since 2009

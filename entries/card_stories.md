@@ -1,6 +1,6 @@
 # Card Stories
 
-_Card Stories is an online multiplayer HTML5 based game of cards that promotes creativity and imagination._
+_Online multiplayer game of cards that promotes creativity and imagination._
 
 - Home: https://web.archive.org/web/20190126033549/https://cardstories.org/
 - State: beta, inactive since 2012

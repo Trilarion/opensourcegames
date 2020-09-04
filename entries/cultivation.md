@@ -1,6 +1,6 @@
 # Cultivation
 
-_Cultivation is a 2D life simulation game created by Jason Rohrer._
+_2D life simulation._
 
 - Home: http://cultivation.sourceforge.net/, https://sourceforge.net/projects/cultivation/
 - State: mature, inactive since 2010

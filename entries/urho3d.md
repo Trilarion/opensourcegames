@@ -1,6 +1,6 @@
 # Urho3D
 
-_Urho3D is a free lightweight, cross-platform 2D and 3D game engine._
+_Lightweight, cross-platform 2D and 3D game engine._
 
 - Home: https://urho3d.github.io/
 - State: mature

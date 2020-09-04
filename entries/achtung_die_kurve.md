@@ -1,6 +1,6 @@
 # Achtung, die Kurve!
 
-_Clone of Achtung, die Kurve!, a simple skill game._
+_Simple skill game._
 
 - Home: https://kurve.se/
 - Inspirations: "Achtung, die Kurve!"

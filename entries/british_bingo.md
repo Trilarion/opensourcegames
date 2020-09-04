@@ -1,6 +1,6 @@
 # British Bingo
 
-_British Bingo is a 90-ball bingo game with 3 by 9 boards._
+_90-ball bingo game with 3 by 9 boards._
 
 - Home: https://sourceforge.net/projects/britbingo/
 - State: mature

@@ -582,21 +582,45 @@ def read_entries():
         # parse and transform entry content
         try:
             tree = parser.parse(content)
+
             entry = transformer.transform(tree)
+            # add file information
+            entry['file'] = file
+
+            check_entry(entry)
         except Exception as e:
-            print(file)
-            print(e)
+            print('{} - {}'.format(file, e))
             continue
-
-        # TODO check entry
-
-        # add file information
-        entry['file'] = file
 
         # add to list
         entries.append(entry)
 
     return entries
+
+
+def check_entry(entry):
+    """
+
+    :param entry:
+    :return:
+    """
+    message = ''
+
+    file = entry['file']
+
+    # check canonical file name
+    canonical_file_name = canonical_entry_name(entry['title']) + '.md'
+    # we also allow -X with X =2..9 as possible extension (because of duplicate canonical file names)
+    if canonical_file_name != file and canonical_file_name != file[:-5] + '.md':
+        message += 'file name should be {}\n'.format(canonical_file_name)
+
+    # title should not be also in description
+    if entry['title'] in entry['description']:
+        message += 'title included in description, should be removed'
+
+    if message:
+        raise RuntimeError(message)
+
 
 def write_entries(entries):
     """

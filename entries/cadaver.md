@@ -1,11 +1,11 @@
 # Cadaver
 
-_Remake of Cadaver._
+_Recreation of the original game._
 
 - Home: https://jotd.pagesperso-orange.fr/cadaver/
 - State: beta, inactive since 2009
 - Download: https://jotd.pagesperso-orange.fr/cadaver/bin/Cadaver-001.zip
-- Keywords: action, commercial content, inspired by Cadaver, remake
+- Keywords: action, commercial content, inspired by Cadaver, remake, requires original content
 - Code repository: (see download)
 - Code language: C++
 - Code license: GPL-2.0

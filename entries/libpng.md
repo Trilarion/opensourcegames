@@ -1,6 +1,6 @@
 # libpng
 
-_libpng is the official PNG reference library._
+_Official PNG reference library._
 
 - Home: http://libpng.org/pub/png/libpng.html, https://libpng.sourceforge.io/
 - Media: https://en.wikipedia.org/wiki/Libpng

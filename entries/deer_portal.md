@@ -1,6 +1,6 @@
 # Deer Portal
 
-_Deer Portal is a hybrid board/card game for four players driven by the four classical elements._
+_Hybrid board/card game for four players driven by the four classical elements._
 
 - Home: https://devcarpet.net/deerportal/
 - State: beta

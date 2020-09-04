@@ -1,6 +1,6 @@
 # Simple Sokoban
 
-_Simple Sokoban game aimed at playability and portability across systems._
+_Sokoban game aimed at playability and portability across systems._
 
 - Home: http://simplesok.sourceforge.net/, https://sourceforge.net/projects/simplesok/
 - State: mature, inactive since 2014

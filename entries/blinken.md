@@ -1,6 +1,6 @@
 # Blinken
 
-_Blinken is the KDE implementation of the memory game Simon Says._
+_KDE implementation of the memory game Simon Says._
 
 - Home: https://edu.kde.org/blinken/, https://github.com/KDE/blinken
 - State: mature

@@ -1,6 +1,6 @@
 # UFO: Alien Invasion
 
-_UFO: Alien Invasion is a squad-based tactical strategy game in the tradition of the old X-COM PC games_
+_Squad-based tactical strategy game in the tradition of the old X-COM PC games_
 
 - Home: https://ufoai.org/wiki/News, https://sourceforge.net/projects/ufoai/
 - Media: <https://en.wikipedia.org/wiki/UFO:_Alien_Invasion>

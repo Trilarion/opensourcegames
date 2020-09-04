@@ -1,6 +1,6 @@
 # The Ur-Quan Masters
 
-_The Ur-Quan Masters (or UQM) project ports Star Control II to modern operating systems._
+_(or UQM) project ports Star Control II to modern operating systems._
 
 - Home: http://sc2.sourceforge.net/, https://sourceforge.net/projects/sc2/
 - Media: https://en.wikipedia.org/wiki/Star_Control_II#The_Ur-Quan_Masters

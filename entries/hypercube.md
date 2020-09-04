@@ -1,6 +1,6 @@
 # Hypercube
 
-_Hypercube is a golf-like puzzle game around a tesseract (4D hypercube)._
+_Golf-like puzzle game around a tesseract (4D hypercube)._
 
 - Home: http://harmen.vanderwal.eu/hypercube/
 - State: mature, inactive since 2016

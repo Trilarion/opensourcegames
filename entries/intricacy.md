@@ -1,6 +1,6 @@
 # Intricacy
 
-_Intricacy is a multiplayer lock-picking puzzle game, in which players design locks and try to pick the locks devised by others._
+_Multiplayer lock-picking puzzle game, in which players design locks and try to pick the locks devised by others._
 
 - Home: http://mbays.freeshell.org/intricacy/
 - State: beta

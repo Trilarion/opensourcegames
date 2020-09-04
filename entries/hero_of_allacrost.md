@@ -1,6 +1,6 @@
 # Hero of Allacrost
 
-_Hero of Allacrost is a 2D role-playing game inspired by classic console RPGs._
+_2D role-playing game inspired by classic console RPGs._
 
 - Home: http://allacrost.org
 - State: mature

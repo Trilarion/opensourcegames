@@ -1,6 +1,6 @@
 # Polycode
 
-_Polycode is a C++ and Lua framework for building interactive applications._
+_C++ and Lua framework for building interactive applications._
 
 - Home: http://polycode.org/
 - State: beta

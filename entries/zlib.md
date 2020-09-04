@@ -1,6 +1,6 @@
 # zlib
 
-_zlib is a software library used for data compression._
+_Software library used for data compression._
 
 - Home: http://zlib.net/
 - Media: https://en.wikipedia.org/wiki/Zlib

@@ -1,6 +1,6 @@
 # Biogenesis
 
-_Biogenesis is an artificial life simulator, simulating organisms, their workings and their environment._
+_Artificial life simulator, simulating organisms, their workings and their environment._
 
 - Home: http://biogenesis.sourceforge.net/, https://sourceforge.net/projects/biogenesis/
 - State: beta

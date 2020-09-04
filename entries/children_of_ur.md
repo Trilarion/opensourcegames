@@ -1,6 +1,6 @@
 # Children of Ur
 
-_Children of Ur is an MMORPG._
+_MMORPG._
 
 - Home: https://www2.childrenofur.com/
 - State: beta

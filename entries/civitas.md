@@ -1,6 +1,6 @@
 # Civitas
 
-_Civitas is a city building game for kids._
+_City building game for kids._
 
 - Home: http://sourceforge.net/projects/civitas/, https://www.conexum.com.br/cosmopolita/ (Portoguese)
 - State: beta, inactive since 2017

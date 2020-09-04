@@ -39,7 +39,7 @@ if __name__ == "__main__":
     print('took {}s'.format(time.process_time()-t0))
     t0 = time.process_time()
     # entries = osg.assemble_infos()
-    osg.write_entries(entries)
+    # osg.write_entries(entries)
     print('took {}s'.format(time.process_time()-t0))
 
 

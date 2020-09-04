@@ -3,7 +3,6 @@
 _Source code to VVVVVV._
 
 - Home: http://distractionware.com/blog/2020/01/vvvvvv-is-now-open-source/
-- Media: https://en.wikipedia.org/wiki/VVVVVV
 - State: mature
 - Keywords: platform, commercial content, inspired by VVVVVV, remake, requires original content
 - Code repository: https://github.com/TerryCavanagh/vvvvvv.git

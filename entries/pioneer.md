@@ -1,6 +1,6 @@
 # Pioneer
 
-_Pioneer is a space adventure game set in our galaxy at the turn of the 31st century._
+_Space adventure game set in our galaxy at the turn of the 31st century._
 
 - Home: https://pioneerspacesim.net/
 - Media: <https://en.wikipedia.org/wiki/Pioneer_(video_game)>

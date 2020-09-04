@@ -1,6 +1,6 @@
 # LZMA SDK
 
-_The LZMA SDK provides the documentation, samples, header files, libraries, and tools you need to develop applications that use LZMA compression._
+_Provides the documentation, samples, header files, libraries, and tools you need to develop applications that use LZMA compression._
 
 - Home: https://7-zip.org/
 - Media: https://en.wikipedia.org/wiki/Lempel%E2%80%93Ziv%E2%80%93Markov_chain_algorithm

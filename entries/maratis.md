@@ -1,6 +1,6 @@
 # Maratis
 
-_Maratis is a simple cross-platform 3d engine and visual game development tool._
+_Simple cross-platform 3D engine and visual game development tool._
 
 - Home: http://www.maratis3d.org/
 - State: beta

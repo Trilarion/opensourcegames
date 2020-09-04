@@ -1,6 +1,6 @@
 # Blackvoxel
 
-_Blackvoxel is a 3D voxel sandbox game. The backstory takes place in the future, with the player finding themselves on a mysterious planet, after the crash of their spaceship.&#91;1&#93;_
+_3D voxel sandbox game._
 
 - Home: https://www.blackvoxel.com/, https://github.com/Blackvoxel/Blackvoxel
 - State: mature
@@ -12,6 +12,8 @@ _Blackvoxel is a 3D voxel sandbox game. The backstory takes place in the future,
 - Code license: GPL-3.0
 - Code dependencies: OpenGL
 - Assets license: GPL-3.0
+
+The backstory takes place in the future, with the player finding themselves on a mysterious planet, after the crash of their spaceship.
 
 ## Building
 

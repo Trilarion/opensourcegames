@@ -1,6 +1,6 @@
 # Holtz
 
-_Holtz is a collection of board games that can be played against the computer or online against other players. Holtz supports the games Zèrtz, Dvonn, Relax and Bloks._
+_Collection of board games that can be played against the computer or online against other players. Holtz supports the games Zèrtz, Dvonn, Relax and Bloks._
 
 - Home: https://sourceforge.net/projects/holtz/
 - State: mature

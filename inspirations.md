@@ -89,6 +89,7 @@
 ## Armor Alley [1]
 
 - Inspired entries: Armor Alley
+- Media: https://en.wikipedia.org/wiki/Armor_Alley
 
 ## Artemis: Spaceship Bridge Simulator [2]
 
@@ -190,6 +191,7 @@
 ## Black Shades [1]
 
 - Inspired entries: Black Shades Elite
+- Media: http://wolfire.com/blackshades.html
 
 ## Blake Stone: Planet Strike [1]
 
@@ -234,6 +236,7 @@
 ## Boulder Dash [4]
 
 - Inspired entries: Boulder Dash, CAVEZ of PHEAR, GDash, Rocks'n'Diamonds
+- Media: https://en.wikipedia.org/wiki/Boulder_Dash
 
 ## Bratwurst [1]
 
@@ -274,6 +277,7 @@
 ## Cadaver [1]
 
 - Inspired entries: Cadaver
+- Media: <https://en.wikipedia.org/wiki/Cadaver_(video_game)>
 
 ## Caesar 3 [2]
 
@@ -1945,6 +1949,7 @@
 ## VVVVVV [1]
 
 - Inspired entries: WWW
+- Media: https://en.wikipedia.org/wiki/VVVVVV
 
 ## Warcraft II [2]
 

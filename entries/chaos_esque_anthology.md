@@ -1,6 +1,6 @@
 # Chaos Esque Anthology
 
-_Chaos Esque Anthology is a first-person shooter fork of Xonotic including new weapons, maps, vehicles and more._
+_First-person shooter fork of Xonotic including new weapons, maps, vehicles and more._
 
 - Home: https://sourceforge.net/projects/chaosesqueanthology/
 - State: mature

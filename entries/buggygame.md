@@ -1,6 +1,6 @@
 # buggyGame
 
-_buggyGame is a single-player side-scrolling survival-exploration game where a moon buggy is driven across the surface of Earth and Moon._
+_Single-player side-scrolling survival-exploration game where a moon buggy is driven across the surface of Earth and Moon._
 
 - Home: https://fydo.net/projects/buggygame
 - State: beta, inactive since 2007

@@ -1,6 +1,6 @@
 # Open Zelda
 
-_Open Zelda Game Development Software._
+_Game Development Software._
 
 - Home: https://github.com/openzelda/openzelda-source, https://web.archive.org/web/20171028213428/http://openzelda.nfshost.com/
 - State: mature, inactive since 2015

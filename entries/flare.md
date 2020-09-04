@@ -1,6 +1,6 @@
 # Flare
 
-_Flare (Free Libre Action Roleplaying Engine) is a simple game engine built to handle a very specific kind of game: single-player 2D action RPGs._
+_(Free Libre Action Roleplaying Engine) is a simple game engine built to handle a very specific kind of game: single-player 2D action RPGs._
 
 - Home: https://flarerpg.org/, https://github.com/clintbellanger/flare-engine
 - State: mature

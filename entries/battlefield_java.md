@@ -1,6 +1,6 @@
 # Battlefield Java
 
-_Battlefield Java is simple grid and turned based battle simulation game for Java developers._
+_Simple grid and turned based battle simulation game for Java developers._
 
 - Home: https://sourceforge.net/projects/battlefieldjava/
 - State: beta, inactive since 2011

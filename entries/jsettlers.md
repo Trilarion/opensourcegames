@@ -1,7 +1,5 @@
 # JSettlers
 
-_Web-based version of the board game Settlers of Catan written in Java._
-
 - Home: https://sourceforge.net/projects/jsettlers/, https://sourceforge.net/projects/jsettlers2/
 - Inspirations: The Settlers III
 - State: mature
@@ -11,6 +9,7 @@ _Web-based version of the board game Settlers of Catan written in Java._
 - Code language: Java
 - Code license: GPL-3.0
 
+Web-based version of the board game Settlers of Catan written in Java.
 See also http://www.settlers-android-clone.com/, https://github.com/jsettlers/settlers-remake
 
 ## Building

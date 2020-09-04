@@ -1,7 +1,5 @@
 # X-Force: Fight For Destiny
 
-_Remake of the classic X-Com-Games._
-
 - Home: http://www.xforce-online.de/, https://sourceforge.net/projects/xforceffd/
 - Inspirations: UFO: Enemy Unknown, X-COM: Apocalypse, X-COM: Terror from the Deep, X-COM: UFO Defense
 - State: beta, inactive since 2011
@@ -10,5 +8,7 @@ _Remake of the classic X-Com-Games._
 - Code repository: https://gitlab.com/osgames/xforceffd.git (backup of svn), https://svn.code.sf.net/p/xforceffd/code (svn)
 - Code language: Pascal
 - Code license: GPL-2.0
+
+Remake of the classic X-Com-Games.
 
 ## Building

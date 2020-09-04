@@ -1,7 +1,5 @@
 # OpenSC2K
 
-_Remake of SimCity 2000._
-
 - Home: https://github.com/nicholas-ochoa/OpenSC2K
 - Inspirations: SimCity 2000
 - State: beta
@@ -12,6 +10,7 @@ _Remake of SimCity 2000._
 - Code license: GPL-3.0
 - Code dependencies: Phaser, WebGL
 
+Remake of SimCity 2000.
 Git history was removed in 2019. Copyright problems mentioned.
 
 ## Building

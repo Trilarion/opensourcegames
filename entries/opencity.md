@@ -1,7 +1,5 @@
 # OpenCity
 
-_Another 3D city simulator._
-
 - Home: http://www.opencity.info/, https://sourceforge.net/projects/opencity/
 - Media: https://en.wikipedia.org/wiki/OpenCity
 - Inspirations: SimCity
@@ -12,6 +10,7 @@ _Another 3D city simulator._
 - Code language: C++
 - Code license: GPL-2.0
 
+Another 3D city simulator.
 https://github.com/frodrigo/opencity, https://github.com/vorot93/opencity, https://github.com/AnotherFoxGuy/OpenCity
 
 Took inspiration from https://sourceforge.net/projects/freereign/.

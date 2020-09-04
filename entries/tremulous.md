@@ -1,7 +1,5 @@
 # Tremulous
 
-_Asymmetric team-based first-person shooter with real-time strategy elements._
-
 - Home: https://web.archive.org/web/20200114115219/http://www.tremulous.net/, https://sourceforge.net/projects/tremulous/
 - Media: https://en.wikipedia.org/wiki/Tremulous
 - Inspirations: Natural Selection
@@ -14,5 +12,7 @@ _Asymmetric team-based first-person shooter with real-time strategy elements._
 - Code license: GPL-2.0
 - Code dependencies: SDL
 - Assets license: CC-BY-SA-2.5
+
+Asymmetric team-based first-person shooter with real-time strategy elements.
 
 ## Building

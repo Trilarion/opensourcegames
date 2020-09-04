@@ -1,7 +1,5 @@
 # RacerJS
 
-_Clone of Lotus Esprit Turbo Challenge._
-
 - Home: https://github.com/onaluf/RacerJS
 - Inspirations: Lotus Esprit Turbo Challenge
 - State: mature, inactive since 2010
@@ -11,5 +9,7 @@ _Clone of Lotus Esprit Turbo Challenge._
 - Code language: JavaScript
 - Code license: MIT
 - Assets license: CC-BY-SA-3.0
+
+Clone of Lotus Esprit Turbo Challenge.
 
 ## Building

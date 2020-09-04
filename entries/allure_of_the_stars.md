@@ -1,7 +1,5 @@
 # Allure of the Stars
 
-_Sci-Fi roguelike and tactical squad combat game._
-
 - Home: http://www.allureofthestars.com/
 - State: beta
 - Play: http://www.allureofthestars.com/play/
@@ -11,6 +9,8 @@ _Sci-Fi roguelike and tactical squad combat game._
 - Code license: AGPL-3.0
 - Code dependencies: LambdaHack, SDL
 - Assets license: AGPL-3.0
+
+Sci-Fi roguelike and tactical squad combat game.
 
 ## Building
 

@@ -1,7 +1,5 @@
 # Cataclysm: Dark Days Ahead
 
-_Turn-based survival game set in a post-apocalyptic world._
-
 - Home: https://cataclysmdda.org/, https://discourse.cataclysmdda.org/
 - Inspirations: Cataclysm
 - State: mature
@@ -14,6 +12,7 @@ _Turn-based survival game set in a post-apocalyptic world._
 - Code dependencies: ncurses
 - Assets license: CC-BY-SA-3.0
 
+Turn-based survival game set in a post-apocalyptic world.
 Fork of [Cataclysm](cataclysm.md)
 
 ## Building

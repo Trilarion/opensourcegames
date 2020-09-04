@@ -1,7 +1,5 @@
 # Nazara Engine
 
-_General purpose game framework._
-
 - Home: https://github.com/DigitalPulseSoftware/NazaraEngine
 - State: beta
 - Platform: Windows, Linux
@@ -9,6 +7,8 @@ _General purpose game framework._
 - Code repository: https://github.com/DigitalPulseSoftware/NazaraEngine.git
 - Code language: C, C++
 - Code license: MIT
+
+General purpose game framework.
 
 ## Building
 

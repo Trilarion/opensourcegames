@@ -1,7 +1,5 @@
 # GDHexGrid
 
-_Tools for using hexagonal grids in GDScript._
-
 - Home: https://github.com/romlok/godot-gdhexgrid
 - State: mature
 - Keywords: action
@@ -9,5 +7,7 @@ _Tools for using hexagonal grids in GDScript._
 - Code language: GDScript
 - Code license: MIT
 - Code dependencies: Godot
+
+Tools for using hexagonal grids in GDScript.
 
 ## Building

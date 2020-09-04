@@ -1,7 +1,5 @@
 # DukeGDX
 
-_Remake of Duke Nukem 3D._
-
 - Home: http://m210.duke4.net/
 - Inspirations: Duke Nukem 3D
 - State: beta
@@ -10,5 +8,7 @@ _Remake of Duke Nukem 3D._
 - Code language: Java
 - Code license: GPL-3.0
 - Code dependencies: libGDX
+
+Remake of Duke Nukem 3D.
 
 ## Building

@@ -1,7 +1,5 @@
 # Free Mars
 
-_Turn based free strategy game about colonizing Mars._
-
 - Home: https://sourceforge.net/projects/freemars
 - State: mature
 - Download: https://sourceforge.net/projects/freemars/files
@@ -11,6 +9,7 @@ _Turn based free strategy game about colonizing Mars._
 - Code language: Java
 - Code license: GPL-3.0
 
+Turn based free strategy game about colonizing Mars.
 
 ## Building
 

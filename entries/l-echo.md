@@ -1,7 +1,5 @@
 # l-echo
 
-_Remake of Echochrome._
-
 - Home: https://code.google.com/archive/p/l-echo
 - Inspirations: Echochrome
 - State: beta, inactive since 2016
@@ -10,5 +8,7 @@ _Remake of Echochrome._
 - Code repository: (see download)
 - Code language: C++
 - Code license: GPL-3.0
+
+Remake of Echochrome.
 
 ## Building

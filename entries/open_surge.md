@@ -1,7 +1,5 @@
 # Open Surge
 
-_Inspired by the "Sonic the Hedgehog" universe._
-
 - Home: http://opensurge2d.org/, http://opensnc.sourceforge.net/home/index.php, http://opensnc.sourceforge.net/forum/index.php, https://sourceforge.net/projects/opensnc/
 - Inspirations: Sonic the Hedgehog
 - State: beta
@@ -12,6 +10,7 @@ _Inspired by the "Sonic the Hedgehog" universe._
 - Code license: GPL-3.0 (was GPL-2.0)
 - Code dependencies: Allegro
 
+Inspired by the "Sonic the Hedgehog" universe.
 Renamed from Open Sonic to Open Surge in 2011.
 
 ## Building

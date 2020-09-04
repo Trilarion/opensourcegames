@@ -1,7 +1,5 @@
 # Tanglet
 
-_Word game similar to Boggle._
-
 - Home: https://gottcode.org/tanglet/
 - Inspirations: Boggle
 - State: mature
@@ -12,5 +10,7 @@ _Word game similar to Boggle._
 - Code dependencies: Qt
 - Assets license: ? (GPL)
 - Developer: Graeme Gott
+
+Word game similar to Boggle.
 
 ## Building

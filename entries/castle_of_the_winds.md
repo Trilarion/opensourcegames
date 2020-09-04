@@ -1,7 +1,5 @@
 # Castle of the Winds
 
-_Remake of the original._
-
 - Home: http://game.castleofthewinds.com/, http://mordrax.github.io/cotwmtor/
 - Inspirations: Castle of the Winds
 - State: beta, inactive since 2016
@@ -11,6 +9,7 @@ _Remake of the original._
 - Code language: JavaScript
 - Code license: MIT
 
+Remake of the original.
 See also Castle of the Winds in Elm.
 
 ## Building

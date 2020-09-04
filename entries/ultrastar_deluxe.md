@@ -1,7 +1,5 @@
 # UltraStar Deluxe
 
-_Karaoke game._
-
 - Home: https://usdx.eu/, https://sourceforge.net/projects/ultrastardx/
 - Inspirations: SingStar
 - State: mature
@@ -12,6 +10,8 @@ _Karaoke game._
 - Code language: Pascal
 - Code license: GPL-2.0
 - Code dependencies: Lua, SDL2
+
+Karaoke game.
 
 ## Building
 

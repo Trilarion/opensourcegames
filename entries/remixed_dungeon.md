@@ -1,7 +1,5 @@
 # Remixed Dungeon
 
-_Roguelike, inspired by Pixel Dungeon._
-
 - Home: https://wiki.nyrds.net/, https://pixeldungeon.fandom.com/wiki/Mod-Remixed_Dungeon
 - Inspirations: Pixel Dungeon
 - State: mature
@@ -11,6 +9,8 @@ _Roguelike, inspired by Pixel Dungeon._
 - Code repository: https://github.com/NYRDS/remixed-dungeon.git
 - Code language: Java
 - Code license: GPL-3.0
+
+Roguelike, inspired by Pixel Dungeon.
 
 ## Building
 

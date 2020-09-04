@@ -1,7 +1,5 @@
 # FooBillard
 
-_3D billiard game._
-
 - Home: http://foobillard.sourceforge.net/, https://sourceforge.net/projects/foobillard/
 - State: mature, inactive since 2010
 - Download: https://sourceforge.net/projects/foobillard/files/
@@ -13,6 +11,7 @@ _3D billiard game._
 - Code dependencies: GLUT, SDL
 - Developer: Florian Berger
 
+3D billiard game.
 http://foobillardplus.sourceforge.net/, https://packages.debian.org/search?keywords=foobillardplus
 
 ## Building

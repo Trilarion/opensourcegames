@@ -1,7 +1,5 @@
 # Sentient Storage
 
-_Point & Click adventure!_
-
 - Home: https://pyweek.org/e/np8g/
 - State: mature
 - Download: (see home)
@@ -10,6 +8,8 @@ _Point & Click adventure!_
 - Code language: Python
 - Code license: Public domain
 - Code dependencies: pygame
+
+Point & Click adventure!
 
 ## Building
 

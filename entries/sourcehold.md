@@ -1,7 +1,5 @@
 # Sourcehold
 
-_Remake of Stronghold._
-
 - Home: https://github.com/sourcehold/Sourcehold
 - Inspirations: Stronghold
 - State: beta
@@ -10,6 +8,8 @@ _Remake of Stronghold._
 - Code language: C++
 - Code license: MIT
 - Code dependencies: OpenAL, SDL2
+
+Remake of Stronghold.
 
 ## Building
 

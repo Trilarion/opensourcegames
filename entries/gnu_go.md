@@ -1,7 +1,5 @@
 # GNU Go
 
-_Go‐playing program._
-
 - Home: https://www.gnu.org/software/gnugo/, https://savannah.gnu.org/projects/gnugo/
 - Media: https://en.wikipedia.org/wiki/GNU_Go
 - State: mature, inactive since 2011
@@ -12,6 +10,7 @@ _Go‐playing program._
 - Code language: C
 - Code license: GPL-3.0
 
+Go‐playing program.
 Can also be used with graphical frontends like like GoGui, qGo and CGoban 1.
 
 ## Building

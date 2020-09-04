@@ -1,7 +1,5 @@
 # Cadaver
 
-_Recreation of the original game._
-
 - Home: https://jotd.pagesperso-orange.fr/cadaver/
 - Inspirations: Cadaver
 - State: beta, inactive since 2009
@@ -10,5 +8,7 @@ _Recreation of the original game._
 - Code repository: (see download)
 - Code language: C++
 - Code license: GPL-2.0
+
+Recreation of the original game.
 
 ## Building

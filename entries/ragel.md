@@ -1,7 +1,5 @@
 # Ragel
 
-_Compiles executable finite state machines from regular languages._
-
 - Home: http://www.colm.net/open-source/ragel/
 - Media: https://en.wikipedia.org/wiki/Ragel
 - State: mature
@@ -11,6 +9,7 @@ _Compiles executable finite state machines from regular languages._
 - Code language: C++
 - Code license: MIT
 
+Compiles executable finite state machines from regular languages.
 Required by [HarfBuzz](harfbuzz.md).
 
 ## Building

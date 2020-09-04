@@ -1,7 +1,5 @@
 # M.A.R.S.
 
-_A ridiculous shooter. In one of several game modes, two opposing teams are fighting in a gravitational 2D space with a few planets, including their homes._
-
 - Home: https://sourceforge.net/projects/mars-game/, https://packages.debian.org/search?keywords=marsshooter
 - State: beta, inactive since 2016
 - Download: https://github.com/jwrdegoede/M.A.R.S./releases, https://sourceforge.net/projects/mars-game/files/
@@ -12,6 +10,8 @@ _A ridiculous shooter. In one of several game modes, two opposing teams are figh
 - Code dependencies: OpenGL, SFML
 - Assets license: CC-BY 3.0, CC-BY-SA-3.0, PD
 - Developer: Simon Schneegans, Felix Lauer
+
+A ridiculous shooter. In one of several game modes, two opposing teams are fighting in a gravitational 2D space with a few planets, including their homes.
 
 ## Building
 

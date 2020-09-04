@@ -1,7 +1,5 @@
 # libvorbis
 
-_Vorbis audio compression reference implementation._
-
 - Home: https://xiph.org/vorbis/
 - Media: https://en.wikipedia.org/wiki/Vorbis
 - State: mature
@@ -11,6 +9,8 @@ _Vorbis audio compression reference implementation._
 - Code repository: https://git.xiph.org/vorbis.git
 - Code language: C
 - Code license: 3-clause BSD
+
+Vorbis audio compression reference implementation.
 
 ## Building
 

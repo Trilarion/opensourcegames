@@ -1,7 +1,5 @@
 # XBlast
 
-_Multiplayer only side-scroller, arcade bomberman like game._
-
 - Home: http://xblast.sourceforge.net/, https://sourceforge.net/projects/xblast/
 - Inspirations: Bomberman
 - State: mature, inactive since 2005
@@ -12,6 +10,8 @@ _Multiplayer only side-scroller, arcade bomberman like game._
 - Code language: C
 - Code license: GPL-2.0
 - Developer: XBlast development team, Oliver Vogel
+
+Multiplayer only side-scroller, arcade bomberman like game.
 
 ## Building
 

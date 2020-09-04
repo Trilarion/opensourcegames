@@ -1,7 +1,5 @@
 # Lugaru
 
-_Cross-platform third-person action game with an anthropomorphic rebel bunny rabbit._
-
 - Home: https://osslugaru.gitlab.io/, http://blog.wolfire.com/2010/05/Lugaru-goes-open-source
 - Media: https://en.wikipedia.org/wiki/Lugaru
 - Inspirations: Lugaru: The Rabbit's Foot
@@ -14,6 +12,8 @@ _Cross-platform third-person action game with an anthropomorphic rebel bunny rab
 - Code license: GPL-2.0
 - Code dependencies: OpenAL, SDL2
 - Assets license: CC-BY-SA-3.0
+
+Cross-platform third-person action game with an anthropomorphic rebel bunny rabbit.
 
 ## Building
 

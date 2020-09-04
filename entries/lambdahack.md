@@ -1,7 +1,5 @@
 # LambdaHack
 
-_Game engine library for ASCII roguelike games._
-
 - Home: https://lambdahack.github.io/
 - State: beta
 - Play: https://lambdahack.github.io/
@@ -11,6 +9,8 @@ _Game engine library for ASCII roguelike games._
 - Code repository: https://github.com/LambdaHack/LambdaHack.git
 - Code language: Haskell
 - Code license: 3-clause BSD
+
+Game engine library for ASCII roguelike games.
 
 ## Building
 

@@ -1,7 +1,5 @@
 # Sole Collector
 
-_3D Horror FPS Game._
-
 - Home: https://github.com/SteveSmith16384/3DHorrorGame
 - State: beta, inactive since 2018
 - Download: https://stephensmith.itch.io/sole-collector
@@ -13,5 +11,7 @@ _3D Horror FPS Game._
 - Code dependencies: jMonkeyEngine
 - Assets license: (See readme)
 - Developer: Stephen Carlyle-Smith
+
+3D Horror FPS Game.
 
 ## Building

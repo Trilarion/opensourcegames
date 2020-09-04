@@ -1,7 +1,5 @@
 # Toppler
 
-_Remake of Nebulus._
-
 - Home: http://toppler.sourceforge.net/, https://sourceforge.net/projects/toppler/
 - Inspirations: Nebulus
 - State: mature, inactive since 2012
@@ -11,5 +9,7 @@ _Remake of Nebulus._
 - Code repository: (see download)
 - Code language: C++
 - Code license: GPL-2.0
+
+Remake of Nebulus.
 
 ## Building

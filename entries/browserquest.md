@@ -1,7 +1,5 @@
 # BrowserQuest
 
-_A Massively Multiplayer Adventure._
-
 - Home: http://browserquest.herokuapp.com/
 - Media: https://en.wikipedia.org/wiki/BrowserQuest
 - State: mature
@@ -10,6 +8,8 @@ _A Massively Multiplayer Adventure._
 - Code repository: https://github.com/mozilla/BrowserQuest.git
 - Code language: JavaScript
 - Code license: MPL-2.0
+
+A Massively Multiplayer Adventure.
 
 ## Building
 

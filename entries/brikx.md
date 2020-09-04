@@ -1,7 +1,5 @@
 # Brikx
 
-_Puzzle game with the goal to clear levels navigating your way around walls._
-
 - Home: https://sourceforge.net/projects/brikx/
 - State: beta, inactive since 2009
 - Download: https://sourceforge.net/projects/brikx/files/
@@ -13,6 +11,8 @@ _Puzzle game with the goal to clear levels navigating your way around walls._
 - Code dependencies: SDL
 - Assets license: GPL-2.0
 - Developer: Bokorn
+
+Puzzle game with the goal to clear levels navigating your way around walls.
 
 ## Building
 

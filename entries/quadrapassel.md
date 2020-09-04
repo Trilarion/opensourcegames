@@ -1,7 +1,5 @@
 # Quadrapassel
 
-_(formerly a part of GNOME Games) is a GNOME version of Tetris. It was previously named Gnometris._
-
 - Home: https://wiki.gnome.org/Apps/Quadrapassel
 - Inspirations: Tetris
 - State: mature
@@ -10,6 +8,8 @@ _(formerly a part of GNOME Games) is a GNOME version of Tetris. It was previousl
 - Code language: Vala
 - Code license: GPL-2.0
 - Assets license: GPL-2.0
+
+(formerly a part of GNOME Games) is a GNOME version of Tetris. It was previously named Gnometris.
 
 ## Building
 

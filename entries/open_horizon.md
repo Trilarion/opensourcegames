@@ -1,7 +1,5 @@
 # Open Horizon
 
-_Remake of Ace Combat: Assault Horizon._
-
 - Home: http://zxstudio.org/blog/author/razgriz/
 - Inspirations: Ace Combat: Assault Horizon
 - State: beta
@@ -12,5 +10,7 @@ _Remake of Ace Combat: Assault Horizon._
 - Code language: C++
 - Code license: MIT
 - Code dependencies: nya-engine
+
+Remake of Ace Combat: Assault Horizon.
 
 ## Building

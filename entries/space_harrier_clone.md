@@ -1,7 +1,5 @@
 # Space Harrier Clone
 
-_Clone of Space Harrier._
-
 - Home: https://brunoaor.github.io/Space-Harrier-Clone/
 - Inspirations: Space Harrier
 - State: beta, inactive since 2018
@@ -10,5 +8,7 @@ _Clone of Space Harrier._
 - Code language: C, C++
 - Code license: MIT
 - Code dependencies: SDL2
+
+Clone of Space Harrier.
 
 ## Building

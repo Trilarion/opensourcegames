@@ -1,7 +1,5 @@
 # xdigger
 
-_(KC85-)Digger game._
-
 - Home: https://www.gsp.com/cgi-bin/man.cgi?section=6&topic=xdigger#9
 - State: mature, inactive since 1999
 - Download: https://launchpad.net/debian/+source/xdigger
@@ -11,5 +9,7 @@ _(KC85-)Digger game._
 - Code language: C
 - Code license: GPL-2.0
 - Developer: Alexander Lang
+
+(KC85-)Digger game.
 
 ## Building

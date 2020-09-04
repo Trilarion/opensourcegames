@@ -1,7 +1,5 @@
 # Freya Game Engine
 
-_Engine for writing multiplayer turn based games._
-
 - Home: http://freya-engine.sourceforge.net/, https://sourceforge.net/projects/freya-engine/
 - State: beta, inactive since 2002
 - Download: https://sourceforge.net/projects/freya-engine/files/
@@ -10,5 +8,7 @@ _Engine for writing multiplayer turn based games._
 - Code language: Java
 - Code license: LGPL-2.1
 - Developer: Sasha Bilton
+
+Engine for writing multiplayer turn based games.
 
 ## Building

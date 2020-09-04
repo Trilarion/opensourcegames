@@ -1,7 +1,5 @@
 # melonJS
 
-_HTML5 game engine._
-
 - Home: http://melonjs.org/
 - State: mature
 - Download: https://github.com/melonjs/melonJS/releases
@@ -10,5 +8,7 @@ _HTML5 game engine._
 - Code repository: https://github.com/melonjs/melonJS.git
 - Code language: JavaScript
 - Code license: MIT
+
+HTML5 game engine.
 
 ## Building

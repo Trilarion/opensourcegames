@@ -1,7 +1,5 @@
 # Oolite
 
-_3D space trading and combat simulator in the spirit of Elite._
-
 - Home: http://www.oolite.org/, http://wiki.alioth.net/index.php/Oolite_Main_Page, http://aegidian.org/bb/index.php
 - Media: <https://en.wikipedia.org/wiki/Oolite_(video_game)>
 - Inspirations: Elite
@@ -14,5 +12,7 @@ _3D space trading and combat simulator in the spirit of Elite._
 - Code license: GPL-2.0
 - Code dependencies: Cocoa, SDL
 - Assets license: CC-BY-NC-SA
+
+3D space trading and combat simulator in the spirit of Elite.
 
 ## Building

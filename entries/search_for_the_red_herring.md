@@ -1,7 +1,5 @@
 # Search for the Red Herring
 
-_Search and destroy real-time strategy game game._
-
 - Home: https://pyweek.org/e/RoeBros/, https://fydo.net/projects/redherring
 - State: mature, inactive since 2006
 - Download: https://sourceforge.net/projects/sftrh/files/sftrh/
@@ -12,5 +10,7 @@ _Search and destroy real-time strategy game game._
 - Code dependencies: pygame, PygLibs
 - Assets license: FAL
 - Developer: HoleInTheHeadStudios
+
+Search and destroy real-time strategy game game.
 
 ## Building

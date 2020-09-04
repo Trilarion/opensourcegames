@@ -1,7 +1,5 @@
 # Balder2D
 
-_Multiplayer shooter in Zero Gravity._
-
 - Home: http://balder.sourceforge.net/, https://sourceforge.net/projects/balder/
 - State: beta, inactive since 2009
 - Download: https://sourceforge.net/projects/balder/files/
@@ -12,6 +10,8 @@ _Multiplayer shooter in Zero Gravity._
 - Code license: GPL-2.0
 - Assets license: GPL
 - Developer: Bjørn Hansen, Reuben Lord
+
+Multiplayer shooter in Zero Gravity.
 
 ## Building
 

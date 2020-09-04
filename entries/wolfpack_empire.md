@@ -1,7 +1,5 @@
 # Wolfpack Empire
 
-_Real time, multiplayer, Internet-based game, featuring military, diplomatic, and economic goals._
-
 - Home: http://www.wolfpackempire.com/, https://sourceforge.net/projects/empserver/
 - Media: https://web.archive.org/web/20160511001400/https://lgdb.org/game/wolfpack-empire
 - State: mature
@@ -11,6 +9,7 @@ _Real time, multiplayer, Internet-based game, featuring military, diplomatic, an
 - Code language: C
 - Code license: GPL-3.0
 
+Real time, multiplayer, Internet-based game, featuring military, diplomatic, and economic goals.
 See also http://www.wolfpackempire.com/clients.html
 
 ## Building

@@ -1,7 +1,5 @@
 # NullpoMino
 
-_Remake of Tetris._
-
 - Home: https://github.com/NullpoMino/NullpoMino
 - Inspirations: Tetris
 - State: mature
@@ -11,5 +9,7 @@ _Remake of Tetris._
 - Code repository: https://github.com/NullpoMino/NullpoMino.git
 - Code language: Java
 - Code license: 3-clause BSD
+
+Remake of Tetris.
 
 ## Building

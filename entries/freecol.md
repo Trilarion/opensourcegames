@@ -1,7 +1,5 @@
 # FreeCol
 
-_Turn-based strategy game based on the old game Colonization, and similar to Civilization._
-
 - Home: http://www.freecol.org/, https://sourceforge.net/projects/freecol/
 - Media: https://en.wikipedia.org/wiki/FreeCol
 - Inspirations: Sid Meier's Colonization
@@ -11,6 +9,8 @@ _Turn-based strategy game based on the old game Colonization, and similar to Civ
 - Code repository: https://github.com/FreeCol/freecol.git, https://git.code.sf.net/p/freecol/git (+)
 - Code language: Java
 - Code license: GPL-2.0
+
+Turn-based strategy game based on the old game Colonization, and similar to Civilization.
 
 ## Building
 

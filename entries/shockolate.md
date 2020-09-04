@@ -1,7 +1,5 @@
 # Shockolate
 
-_Remake of System Shock._
-
 - Home: https://github.com/Interrupt/systemshock
 - Inspirations: System Shock
 - State: beta
@@ -12,5 +10,7 @@ _Remake of System Shock._
 - Code language: C
 - Code license: GPL-3.0
 - Code dependencies: SDL2
+
+Remake of System Shock.
 
 ## Building

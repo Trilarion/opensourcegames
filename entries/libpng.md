@@ -1,7 +1,5 @@
 # libpng
 
-_Official PNG reference library._
-
 - Home: http://libpng.org/pub/png/libpng.html, https://libpng.sourceforge.io/
 - Media: https://en.wikipedia.org/wiki/Libpng
 - State: mature
@@ -11,6 +9,7 @@ _Official PNG reference library._
 - Code language: C
 - Code license: Custom (see LICENSE)
 
+Official PNG reference library.
 [libpng](https://sourceforge.net/p/libpng/code/ci/master/tree/LICENSE)
 
 ## Building

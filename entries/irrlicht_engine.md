@@ -1,7 +1,5 @@
 # Irrlicht Engine
 
-_High performance real time 3D engine._
-
 - Home: http://irrlicht.sourceforge.net/
 - Media: https://en.wikipedia.org/wiki/Irrlicht_Engine
 - State: mature
@@ -10,6 +8,8 @@ _High performance real time 3D engine._
 - Code repository: https://github.com/zaki/irrlicht.git (mirror), https://svn.code.sf.net/p/irrlicht/code (svn)
 - Code language: C++, C
 - Code license: zlib
+
+High performance real time 3D engine.
 
 ## Building
 

@@ -1,7 +1,5 @@
 # Bloodmasters
 
-_Top-down Arcade shooter._
-
 - Home: http://www.bloodmasters.com/, https://sourceforge.net/projects/bloodmasters/
 - State: mature, inactive since 2008
 - Download: http://www.bloodmasters.com/index.php?p=downloads
@@ -11,5 +9,7 @@ _Top-down Arcade shooter._
 - Code license: GPL-2.0
 - Code dependencies: .NET, DirectX
 - Developer: Pascal von der Heiden
+
+Top-down Arcade shooter.
 
 ## Building

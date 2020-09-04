@@ -1,7 +1,5 @@
 # OpenMOO2
 
-_Clone of Microprose game "Master of Orion II: Battle at Antares"._
-
 - Home: https://github.com/pjotrligthart/openmoo2-hg-mirror, https://web.archive.org/web/20191221224844/http://openmoo2.org/en/
 - Inspirations: Master of Orion 2
 - State: beta, inactive since 2011
@@ -12,6 +10,7 @@ _Clone of Microprose game "Master of Orion II: Battle at Antares"._
 - Code license: GPL-2.0
 - Code dependencies: pygame
 
+Clone of Microprose game "Master of Orion II: Battle at Antares".
 See also https://github.com/mimi1vx/openmoo2, https://gitlab.com/scarabeusiv/openmoo2
 
 ## Building

@@ -1,7 +1,5 @@
 # MineCraft-One-Week-Challenge
 
-_Clone of Minecraft._
-
 - Home: https://github.com/Hopson97/MineCraft-One-Week-Challenge
 - Inspirations: Minecraft
 - State: beta
@@ -10,5 +8,7 @@ _Clone of Minecraft._
 - Code language: C++
 - Code license: MIT
 - Code dependencies: SFML
+
+Clone of Minecraft.
 
 ## Building

@@ -1,7 +1,5 @@
 # Extreme Tux Racer
 
-_Racing game which forked off Tux Racer._
-
 - Home: https://sourceforge.net/projects/extremetuxracer/
 - Inspirations: TuxRacer
 - State: beta, inactive since 2018
@@ -12,6 +10,7 @@ _Racing game which forked off Tux Racer._
 - Code license: GPL-2.0
 - Assets license: GPL-2.0
 
+Racing game which forked off Tux Racer.
 It was formerly known as Planet Penguin Racer. (https://wiki.debian.org/Games/ppracer).
 
 ## Building

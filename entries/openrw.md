@@ -1,7 +1,5 @@
 # OpenRW
 
-_Un-official recreation of the classic Grand Theft Auto III game executable._
-
 - Home: https://openrw.org/
 - Media: https://en.wikipedia.org/wiki/Grand_Theft_Auto_III
 - Inspirations: Grand Theft Auto III
@@ -12,6 +10,8 @@ _Un-official recreation of the classic Grand Theft Auto III game executable._
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependencies: SDL2
+
+Un-official recreation of the classic Grand Theft Auto III game executable.
 
 ## Building
 

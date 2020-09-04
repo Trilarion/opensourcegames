@@ -1,7 +1,5 @@
 # jClassicRPG
 
-_3D RPG and framework._
-
 - Home: https://web.archive.org/web/20160420203037/http://javacrpg.sourceforge.net/, http://jcrpg.blogspot.com/, https://sourceforge.net/projects/javacrpg/
 - State: beta, inactive since 2010
 - Keywords: role playing
@@ -10,5 +8,7 @@ _3D RPG and framework._
 - Code license: LGPL-3.0
 - Code dependencies: jMonkeyEngine
 - Developer: Timong
+
+3D RPG and framework.
 
 ## Building

@@ -1,7 +1,5 @@
 # Minesweeper (in C)
 
-_Remake of Minesweeper._
-
 - Home: https://github.com/brenns10/minesweeper
 - Inspirations: Minesweeper
 - State: beta, inactive since 2015
@@ -9,5 +7,7 @@ _Remake of Minesweeper._
 - Code repository: https://github.com/brenns10/minesweeper.git
 - Code language: C
 - Code license: 3-clause BSD
+
+Remake of Minesweeper.
 
 ## Building

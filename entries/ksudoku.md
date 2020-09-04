@@ -1,7 +1,5 @@
 # Ksudoku
 
-_Program for creating and solving (manually or automatically) 2D and 3D Sudoku games._
-
 - Home: https://kde.org/applications/games/org.kde.ksudoku, http://ksudoku.sourceforge.net/, https://sourceforge.net/projects/ksudoku/
 - State: mature
 - Keywords: puzzle, open content, sudoku
@@ -10,5 +8,7 @@ _Program for creating and solving (manually or automatically) 2D and 3D Sudoku g
 - Code license: GPL-2.0
 - Assets license: GPL-2.0
 - Developer: Francesco Rossi, Johannes Bergmeier, Mick Kappenburg
+
+Program for creating and solving (manually or automatically) 2D and 3D Sudoku games.
 
 ## Building

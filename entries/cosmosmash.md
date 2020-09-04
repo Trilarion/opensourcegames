@@ -1,7 +1,5 @@
 # Cosmosmash
 
-_Remake of Astrosmash._
-
 - Home: http://perso.b2b2c.ca/~sarrazip/dev/cosmosmash.html
 - Inspirations: Astrosmash
 - State: mature, inactive since 2013
@@ -12,5 +10,7 @@ _Remake of Astrosmash._
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: SDL
+
+Remake of Astrosmash.
 
 ## Building

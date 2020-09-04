@@ -1,7 +1,5 @@
 # Syndicate Wars Port
 
-_Remake of Syndicate Wars._
-
 - Home: http://swars.vexillium.org/
 - Media: https://en.wikipedia.org/wiki/Syndicate_Wars
 - Inspirations: Syndicate Wars
@@ -13,6 +11,7 @@ _Remake of Syndicate Wars._
 - Code license: GPL-3.0
 - Code dependencies: SDL
 
+Remake of Syndicate Wars.
 Based on disassembly of original executable.
 
 ## Building

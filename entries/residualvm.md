@@ -1,7 +1,5 @@
 # ResidualVM
 
-_Remake of Grim Fandango, Escape from Monkey Island, Myst III: Exile._
-
 - Home: https://residualvm.org/
 - Inspirations: Grim Fandango, Escape from Monkey Island, Myst III: Exile
 - State: beta
@@ -11,5 +9,7 @@ _Remake of Grim Fandango, Escape from Monkey Island, Myst III: Exile._
 - Code repository: https://github.com/residualvm/residualvm.git
 - Code language: C++
 - Code license: GPL-2.0
+
+Remake of Grim Fandango, Escape from Monkey Island, Myst III: Exile.
 
 ## Building

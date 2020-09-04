@@ -1,7 +1,5 @@
 # Train
 
-_Remake of Vlak._
-
 - Home: https://github.com/nenadalm/Train
 - Media: https://www.retrogames.cz/play_487-DOS.php?language=EN
 - Inspirations: Vlak
@@ -11,6 +9,8 @@ _Remake of Vlak._
 - Code language: Java
 - Code license: 3-clause BSD
 - Code dependencies: Slick2D
+
+Remake of Vlak.
 
 ## Building
 

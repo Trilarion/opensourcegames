@@ -1,7 +1,5 @@
 # NXEngine
 
-_Remake of Cave Story._
-
 - Home: http://nxengine.sourceforge.net/, https://sourceforge.net/projects/nxengine/, https://exlmoto.ru/nxengine/
 - Media: https://en.wikipedia.org/wiki/Cave_Story#Legacy
 - Inspirations: Cave Story
@@ -13,6 +11,7 @@ _Remake of Cave Story._
 - Code license: GPL-3.0
 - Code dependencies: SDL
 
+Remake of Cave Story.
 Does it require original content?
 
 ## Building

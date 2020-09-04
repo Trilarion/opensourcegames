@@ -1,7 +1,5 @@
 # Berusky II
 
-_Logic game._
-
 - Home: https://www.anakreon.cz/berusky2.html, https://web.archive.org/web/20150103190301/https://sourceforge.net/projects/berusky2/
 - State: beta
 - Keywords: action, open content
@@ -10,6 +8,7 @@ _Logic game._
 - Code license: GPL-3.0
 - Assets license: GPL-2.0
 
+Logic game.
 Also contained in Fedora, Debian, ..
 
 ## Building

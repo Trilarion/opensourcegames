@@ -1,7 +1,5 @@
 # RickyD
 
-_Remake of Rick Dangerous._
-
 - Home: https://sourceforge.net/projects/rickyd/
 - Inspirations: Rick Dangerous
 - State: beta
@@ -10,6 +8,8 @@ _Remake of Rick Dangerous._
 - Code repository: https://git.code.sf.net/p/rickyd/code
 - Code language: C++
 - Code license: GPL-2.0
+
+Remake of Rick Dangerous.
 
 ## Building
 

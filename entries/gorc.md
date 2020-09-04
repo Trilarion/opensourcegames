@@ -1,7 +1,5 @@
 # Gorc
 
-_Remake of Star Wars Jedi Knight: Dark Forces II._
-
 - Home: https://github.com/jdmclark/
 - Inspirations: Star Wars Jedi Knight: Dark Forces II
 - State: beta
@@ -10,6 +8,8 @@ _Remake of Star Wars Jedi Knight: Dark Forces II._
 - Code language: C++
 - Code license: Apache-2.0
 - Code dependencies: SFML
+
+Remake of Star Wars Jedi Knight: Dark Forces II.
 
 ## Building
 

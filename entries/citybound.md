@@ -1,7 +1,5 @@
 # Citybound
 
-_Clone of Simcity._
-
 - Home: https://aeplay.org/citybound
 - Inspirations: SimCity
 - State: beta
@@ -10,5 +8,7 @@ _Clone of Simcity._
 - Code repository: https://github.com/citybound/citybound.git
 - Code language: Rust, JavaScript
 - Code license: AGPL-3.0
+
+Clone of Simcity.
 
 ## Building

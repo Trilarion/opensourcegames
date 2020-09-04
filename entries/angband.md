@@ -1,7 +1,5 @@
 # Angband
 
-_Single-player dungeon exploration game._
-
 - Home: http://rephial.org/
 - Media: <https://en.wikipedia.org/wiki/Angband_(video_game)>
 - State: mature
@@ -11,5 +9,7 @@ _Single-player dungeon exploration game._
 - Code language: C
 - Code license: GPL-2.0
 - Code dependencies: SDL
+
+Single-player dungeon exploration game.
 
 ## Building

@@ -1,7 +1,5 @@
 # ScummVM
 
-_Allows you to run certain classic graphical point-and-click adventure games, provided you already have their data files._
-
 - Home: https://www.scummvm.org/
 - Media: https://en.wikipedia.org/wiki/ScummVM
 - Inspirations: SCUMM
@@ -12,6 +10,7 @@ _Allows you to run certain classic graphical point-and-click adventure games, pr
 - Code language: C++
 - Code license: GPL-2.0
 
+Allows you to run certain classic graphical point-and-click adventure games, provided you already have their data files.
 Requires original data files.
 
 ## Building

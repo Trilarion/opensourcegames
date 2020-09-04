@@ -1,7 +1,5 @@
 # Python Kye
 
-_Puzzle game with arcade game elements._
-
 - Home: http://games.moria.org.uk/kye/
 - Inspirations: Kye
 - State: mature, inactive since 2010
@@ -10,5 +8,7 @@ _Puzzle game with arcade game elements._
 - Code repository: (see download)
 - Code language: Python
 - Code license: GPL-2.0
+
+Puzzle game with arcade game elements.
 
 ## Building

@@ -1,7 +1,5 @@
 # Flukz
 
-_Shoot them up game, with editable levels._
-
 - Home: http://flukz.org/wiki/doku.php?id=flukz
 - State: beta, inactive since 2014
 - Platform: Windows, Linux
@@ -11,5 +9,7 @@ _Shoot them up game, with editable levels._
 - Code license: GPL-2.0
 - Code dependencies: Qt
 - Assets license: GPL-2.0, CC-BY-SA
+
+Shoot them up game, with editable levels.
 
 ## Building

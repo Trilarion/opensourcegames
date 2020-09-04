@@ -1,7 +1,5 @@
 # OpenSkyscraper
 
-_Tower simulation game inspired by SimTower._
-
 - Home: http://openskyscraper.org/
 - Inspirations: SimTower
 - State: beta
@@ -9,6 +7,8 @@ _Tower simulation game inspired by SimTower._
 - Code repository: https://github.com/fabianschuiki/OpenSkyscraper.git
 - Code language: C++
 - Code license: GPL-2.0
+
+Tower simulation game inspired by SimTower.
 
 ## Building
 

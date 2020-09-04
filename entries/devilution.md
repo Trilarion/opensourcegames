@@ -1,7 +1,5 @@
 # Devilution
 
-_Remake of Diablo._
-
 - Home: https://github.com/diasurgical/devilution
 - Inspirations: Diablo
 - State: mature
@@ -10,6 +8,7 @@ _Remake of Diablo._
 - Code language: C, C++
 - Code license: Unlicense
 
+Remake of Diablo.
 All functions identical to the original.
 
 ## Building

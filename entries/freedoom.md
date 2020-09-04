@@ -1,7 +1,5 @@
 # Freedoom
 
-_Open content for the Doom._
-
 - Home: https://freedoom.github.io/
 - Media: https://en.wikipedia.org/wiki/Freedoom
 - Inspirations: Doom, Doom II
@@ -14,5 +12,7 @@ _Open content for the Doom._
 - Code license: None (only content)
 - Code dependencies: Doom, Pillow
 - Assets license: 3-clause BSD
+
+Open content for the Doom.
 
 ## Building

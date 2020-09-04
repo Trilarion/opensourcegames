@@ -1,7 +1,5 @@
 # Tyger
 
-_Remake of ZZT._
-
 - Home: https://code.google.com/archive/p/tyger/
 - Inspirations: ZZT
 - State: beta, inactive since 2016
@@ -11,5 +9,7 @@ _Remake of ZZT._
 - Code language: Python
 - Code license: ? (MIT)
 - Code dependencies: pygame
+
+Remake of ZZT.
 
 ## Building

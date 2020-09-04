@@ -1,7 +1,5 @@
 # PyBreak360
 
-_Clone of Arkanoid._
-
 - Home: https://sourceforge.net/projects/pybreak360/
 - Media: https://en.wikipedia.org/wiki/Arkanoid#Legacy
 - Inspirations: Arkanoid
@@ -12,5 +10,7 @@ _Clone of Arkanoid._
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependencies: pygame
+
+Clone of Arkanoid.
 
 ## Building

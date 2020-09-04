@@ -1,7 +1,5 @@
 # Magarena
 
-_Single-player fantasy card game played against a computer opponent._
-
 - Home: https://magarena.github.io/
 - Inspirations: Magic: The Gathering Online
 - State: mature
@@ -10,5 +8,7 @@ _Single-player fantasy card game played against a computer opponent._
 - Code repository: https://github.com/magarena/magarena.git
 - Code language: Java, Groovy
 - Code license: GPL-3.0
+
+Single-player fantasy card game played against a computer opponent.
 
 ## Building

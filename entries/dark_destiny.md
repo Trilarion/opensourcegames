@@ -1,7 +1,5 @@
 # Dark Destiny
 
-_Turn-based online space strategy game playable in internet browsers._
-
 - Home: http://www.darkdestiny.at/, http://www.thedarkdestiny.at/portalApp/#/, https://sourceforge.net/projects/darkdestiny/
 - State: mature, inactive since 2016
 - Keywords: strategy, multiplayer online + massive
@@ -10,6 +8,7 @@ _Turn-based online space strategy game playable in internet browsers._
 - Code license: GPL
 - Assets license: Custom (artwork can be freely used for modification and sharing)
 
+Turn-based online space strategy game playable in internet browsers.
 See also https://sourceforge.net/projects/darkdestinytools/
 
 Private communication with the authors in September 2018 brought the following license information: "artwork and the code can be freely used for modification and sharing".

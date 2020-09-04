@@ -1,7 +1,5 @@
 # Privateer - Gemini Gold
 
-_Remake of Wing Commander: Privateer._
-
 - Home: http://privateer.sourceforge.net/, https://sourceforge.net/projects/privateer/
 - Inspirations: Wing Commander: Privateer
 - State: mature, inactive since 2012
@@ -12,6 +10,7 @@ _Remake of Wing Commander: Privateer._
 - Code language: C++
 - Code license: GPL-2.0
 
+Remake of Wing Commander: Privateer.
 Uses the VegaStrike engine?
 
 ## Building

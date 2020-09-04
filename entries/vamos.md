@@ -1,7 +1,5 @@
 # Vamos
 
-_Automotive simulation framework._
-
 - Home: http://vamos.sourceforge.net/, https://sourceforge.net/projects/vamos/
 - State: beta, inactive since 2014
 - Download: https://sourceforge.net/projects/vamos/files/
@@ -11,6 +9,8 @@ _Automotive simulation framework._
 - Code language: C++, Python
 - Code license: GPL-3.0
 - Code dependencies: OpenAL, OpenGL, SDL
+
+Automotive simulation framework.
 
 ## Building
 

@@ -1,7 +1,5 @@
 # HHexen
 
-_Hacked Hexen_
-
 - Home: http://hhexen.sourceforge.net/hhexen.html, https://sourceforge.net/projects/hhexen/
 - Inspirations: Hammer of Thyrion
 - State: mature, inactive since 2013 (svn activity until 2019)
@@ -13,6 +11,7 @@ _Hacked Hexen_
 - Code license: GPL-2.0
 - Code dependencies: SDL
 
+Hacked Hexen
 Also includes HHeretic
 
 ## Building

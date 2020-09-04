@@ -1,7 +1,5 @@
 # pyskool
 
-_Remake of Skool Daze._
-
 - Home: https://pyskool.ca/
 - Media: https://en.wikipedia.org/wiki/Skool_Daze#Sequels_and_conversions
 - Inspirations: Skool Daze
@@ -13,6 +11,8 @@ _Remake of Skool Daze._
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependencies: pygame
+
+Remake of Skool Daze.
 
 ## Building
 

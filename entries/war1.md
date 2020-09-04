@@ -1,7 +1,5 @@
 # War1
 
-_Remake of Warcraft: Orcs & Humans._
-
 - Home: https://github.com/acoto87/war1
 - Inspirations: Warcraft: Orcs & Humans
 - State: beta
@@ -10,5 +8,7 @@ _Remake of Warcraft: Orcs & Humans._
 - Code language: C
 - Code license: zlib
 - Code dependencies: OpenGL
+
+Remake of Warcraft: Orcs & Humans.
 
 ## Building

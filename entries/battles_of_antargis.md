@@ -1,7 +1,5 @@
 # Battles of Antargis
 
-_A real-time-strategy (RTS) game._
-
 - Home: https://plus.google.com/101003433246259562872
 - Inspirations: Powermonger, Settlers, Warcraft
 - State: beta, inactive since 2014
@@ -9,5 +7,7 @@ _A real-time-strategy (RTS) game._
 - Code repository: https://github.com/godrin/antargis.git
 - Code language: C, C++
 - Code license: GPL-2.0
+
+A real-time-strategy (RTS) game.
 
 ## Building

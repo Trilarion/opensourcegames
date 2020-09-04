@@ -1,7 +1,5 @@
 # HyperRogue
 
-_Roguelike inspired by the puzzle game Deadly Rooms of Death, taking place in the hyperbolic plane._
-
 - Home: http://roguetemple.com/z/hyper/
 - Media: https://en.wikipedia.org/wiki/HyperRogue
 - State: mature
@@ -12,6 +10,7 @@ _Roguelike inspired by the puzzle game Deadly Rooms of Death, taking place in th
 - Code language: C++
 - Code license: GPL-2.0
 
+Roguelike inspired by the puzzle game Deadly Rooms of Death, taking place in the hyperbolic plane.
 There is also a commercial version of it.
 
 ## Building

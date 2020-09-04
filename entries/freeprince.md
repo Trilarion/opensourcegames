@@ -1,7 +1,5 @@
 # FreePrince
 
-_Remake of Prince of Persia._
-
 - Home: https://www.princed.org/
 - Inspirations: Prince of Persia
 - State: beta, inactive since 2011
@@ -10,5 +8,7 @@ _Remake of Prince of Persia._
 - Code repository: (see download)
 - Code language: C
 - Code license: GPL-2.0
+
+Remake of Prince of Persia.
 
 ## Building

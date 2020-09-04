@@ -1,7 +1,5 @@
 # Rigel Engine
 
-_Remake of Duke Nukem II._
-
 - Home: https://github.com/lethal-guitar/RigelEngine
 - Inspirations: Duke Nukem II
 - State: beta
@@ -11,6 +9,8 @@ _Remake of Duke Nukem II._
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: SDL2
+
+Remake of Duke Nukem II.
 
 ## Building
 

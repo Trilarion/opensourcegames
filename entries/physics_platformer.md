@@ -1,7 +1,5 @@
 # Physics Platformer
 
-_Physics-based multiplayer platform game._
-
 - Home: https://github.com/SteveSmith16384/PhysicsPlatformer
 - State: beta, inactive since 2019
 - Download: https://github.com/SteveSmith16384/PhysicsPlatformer/releases
@@ -10,6 +8,8 @@ _Physics-based multiplayer platform game._
 - Code repository: https://github.com/SteveSmith16384/PhysicsPlatformer.git
 - Code language: Java
 - Code license: MIT
+
+Physics-based multiplayer platform game.
 
 ## Building
 

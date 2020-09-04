@@ -1,7 +1,5 @@
 # C-Dogs SDL
 
-_Overhead run-and-gun game._
-
 - Home: https://cxong.github.io/cdogs-sdl/
 - Media: https://en.wikipedia.org/wiki/C-Dogs
 - Inspirations: C-Dogs
@@ -14,6 +12,8 @@ _Overhead run-and-gun game._
 - Code license: GPL-2.0 (parts 2-clause BSD)
 - Code dependencies: SDL2
 - Assets license: CC0, CC-BY, CC-BY-SA
+
+Overhead run-and-gun game.
 
 ## Building
 

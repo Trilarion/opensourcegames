@@ -1,7 +1,5 @@
 # Heroes of Wing Commander
 
-_A fan base strategy game based on the Origin's Wing Commander universe._
-
 - Home: https://sourceforge.net/projects/howc/
 - State: beta, inactive since 2014
 - Download: https://sourceforge.net/projects/howc/files
@@ -10,5 +8,7 @@ _A fan base strategy game based on the Origin's Wing Commander universe._
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependencies: NetworkX, pygame
+
+A fan base strategy game based on the Origin's Wing Commander universe.
 
 ## Building

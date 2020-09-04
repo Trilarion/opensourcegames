@@ -1,7 +1,5 @@
 # The Secret Chronicles of Dr. M.
 
-_Remake of Mario World._
-
 - Home: https://secretchronicles.org
 - Inspirations: Mario World
 - State: mature
@@ -12,5 +10,7 @@ _Remake of Mario World._
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependencies: SDL
+
+Remake of Mario World.
 
 ## Building

@@ -1,7 +1,5 @@
 # Danger from the Deep
 
-_WW2 submarine 3D simulation._
-
 - Home: http://dangerdeep.sourceforge.net/, https://sourceforge.net/projects/dangerdeep/
 - Inspirations: Silent Hunter 4
 - State: beta, inactive since 2011
@@ -11,5 +9,7 @@ _WW2 submarine 3D simulation._
 - Code language: C++
 - Code license: GPL-2.0
 - Assets license: CC-BY-NC-ND
+
+WW2 submarine 3D simulation.
 
 ## Building

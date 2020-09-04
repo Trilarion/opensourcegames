@@ -1,7 +1,5 @@
 # urde
 
-_Remake of Metroid Prime._
-
 - Home: https://gitlab.axiodl.com/AxioDL/urde
 - Inspirations: Metroid Prime
 - State: beta
@@ -11,6 +9,8 @@ _Remake of Metroid Prime._
 - Code repository: https://gitlab.axiodl.com/AxioDL/urde.git, https://github.com/AxioDL/urde.git
 - Code language: C, C++
 - Code license: MIT
+
+Remake of Metroid Prime.
 
 ## Building
 

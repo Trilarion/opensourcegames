@@ -1,7 +1,5 @@
 # UnderworldExporter
 
-_Remake of Ultima Underworld, Ultima Underworld II: Labyrinth of Worlds._
-
 - Home: https://github.com/hankmorgan/UnderworldExporter
 - Inspirations: Ultima Underworld, Ultima Underworld II: Labyrinth of Worlds
 - State: mature
@@ -10,5 +8,7 @@ _Remake of Ultima Underworld, Ultima Underworld II: Labyrinth of Worlds._
 - Code language: C#, C++
 - Code license: MIT
 - Code dependencies: Unity
+
+Remake of Ultima Underworld, Ultima Underworld II: Labyrinth of Worlds.
 
 ## Building

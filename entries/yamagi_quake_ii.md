@@ -1,7 +1,5 @@
 # Yamagi Quake II
 
-_Remake of Quake 2._
-
 - Home: http://www.yamagi.org/quake2/
 - Inspirations: Quake 2
 - State: mature
@@ -11,6 +9,8 @@ _Remake of Quake 2._
 - Code language: C
 - Code license: GPL-2.0
 - Code dependencies: SDL
+
+Remake of Quake 2.
 
 ## Building
 

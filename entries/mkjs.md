@@ -1,7 +1,5 @@
 # mk.js
 
-_Remake of Mortal Kombat._
-
 - Home: https://mk.mgechev.com/
 - Inspirations: Mortal Kombat
 - State: beta
@@ -10,5 +8,7 @@ _Remake of Mortal Kombat._
 - Code repository: https://github.com/mgechev/mk.js.git
 - Code language: JavaScript
 - Code license: MIT
+
+Remake of Mortal Kombat.
 
 ## Building

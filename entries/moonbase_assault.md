@@ -1,7 +1,5 @@
 # Moonbase Assault
 
-_A multiplayer FPS based on Laser Squad._
-
 - Home: https://github.com/SteveSmith16384/MoonbaseAssault
 - Inspirations: Laser Squad
 - State: beta, inactive since 2019
@@ -13,6 +11,8 @@ _A multiplayer FPS based on Laser Squad._
 - Code dependencies: jMonkeyEngine, SteveTech1
 - Assets license: (See licences against each asset folder)
 - Developer: Stephen Carlyle-Smith
+
+A multiplayer FPS based on Laser Squad.
 
 ## Building
 

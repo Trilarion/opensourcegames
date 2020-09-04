@@ -1,7 +1,5 @@
 # Vectoroids
 
-_Remake of Asteroids._
-
 - Home: http://www.newbreedsoftware.com/vectoroids/
 - Inspirations: Asteroids
 - State: mature, inactive since 2002
@@ -11,6 +9,8 @@ _Remake of Asteroids._
 - Code repository: (see download)
 - Code language: C
 - Code license: GPL-2.0
+
+Remake of Asteroids.
 
 ## Building
 

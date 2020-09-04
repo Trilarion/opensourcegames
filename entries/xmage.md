@@ -1,7 +1,5 @@
 # XMage
 
-_Clone of Magic: The Gathering Online._
-
 - Home: http://xmage.de/
 - Inspirations: Magic: The Gathering Online
 - State: mature
@@ -10,6 +8,8 @@ _Clone of Magic: The Gathering Online._
 - Code repository: https://github.com/magefree/mage.git
 - Code language: Java
 - Code license: MIT
+
+Clone of Magic: The Gathering Online.
 
 ## Building
 

@@ -1,7 +1,5 @@
 # NXEngine-evo
 
-_Remake of Cave Story._
-
 - Home: https://github.com/nxengine/nxengine-evo
 - Inspirations: Cave Story
 - State: mature
@@ -10,6 +8,8 @@ _Remake of Cave Story._
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependencies: SDL2
+
+Remake of Cave Story.
 
 ## Building
 

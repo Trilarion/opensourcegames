@@ -1,7 +1,5 @@
 # micropolisJS
 
-_A port of Micropolis to JS/HTML5._
-
 - Home: http://www.graememcc.co.uk/micropolisJS/
 - Inspirations: SimCity
 - State: mature
@@ -9,5 +7,7 @@ _A port of Micropolis to JS/HTML5._
 - Code repository: https://github.com/graememcc/micropolisJS.git
 - Code language: JavaScript
 - Code license: GPL-3.0
+
+A port of Micropolis to JS/HTML5.
 
 ## Building

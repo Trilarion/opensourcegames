@@ -1,7 +1,5 @@
 # Tux Racer
 
-_Racing game featuring Tux, the Linux Penguin._
-
 - Home: http://tuxracer.sourceforge.net/, https://sourceforge.net/projects/tuxracer/
 - Media: https://en.wikipedia.org/wiki/Tux_Racer
 - State: beta, inactive since 2001
@@ -11,6 +9,7 @@ _Racing game featuring Tux, the Linux Penguin._
 - Code language: C
 - Code license: GPL-2.0
 
+Racing game featuring Tux, the Linux Penguin.
 See also https://github.com/ellenpoe/TuxRacer-SDL2, https://github.com/wosigh/tuxracer, https://sourceforge.net/projects/extremetuxracer/, http://www.tuxracer.com/, https://github.com/gonium/fc-extremetuxracer
 
 ## Building

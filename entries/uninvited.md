@@ -1,7 +1,5 @@
 # uninvited
 
-_Remake of Uninvited._
-
 - Home: https://github.com/DavidGriffith/uninvited
 - Inspirations: Uninvited
 - State: beta, inactive since 2016
@@ -10,6 +8,8 @@ _Remake of Uninvited._
 - Code language: C, C++
 - Code license: Artistic License-2.0
 - Code dependencies: Inform
+
+Remake of Uninvited.
 
 ## Building
 

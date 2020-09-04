@@ -1,7 +1,5 @@
 # Xconq
 
-_General strategy game system._
-
 - Home: http://xconq.sourceforge.net/, http://sourceware.org/xconq/, https://sourceforge.net/projects/xconq/
 - Media: https://en.wikipedia.org/wiki/Xconq
 - Inspirations: Empire
@@ -12,6 +10,7 @@ _General strategy game system._
 - Code language: C++
 - Code license: GPL-2.0
 
+General strategy game system.
 Historic. One of the first such projects.
 
 See also https://github.com/brentjohnson/xconq

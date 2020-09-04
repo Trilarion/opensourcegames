@@ -1,7 +1,5 @@
 # sundog
 
-_Remake of SunDog: Frozen Legacy._
-
 - Home: https://github.com/laanwj/sundog
 - Media: https://en.wikipedia.org/wiki/SunDog:_Frozen_Legacy
 - Inspirations: SunDog: Frozen Legacy
@@ -13,6 +11,7 @@ _Remake of SunDog: Frozen Legacy._
 - Code license: MIT
 - Code dependencies: SDL
 
+Remake of SunDog: Frozen Legacy.
 The game was originally written in Pascal and compiled to bytecode for an abstract architecture. This project implements a bytecode interpreter in C, which runs the game.
 
 ## Building

@@ -1,7 +1,5 @@
 # Squiffy
 
-_Tool for creating multiple choice interactive fiction._
-
 - Home: https://github.com/textadventures/squiffy
 - State: mature
 - Download: https://github.com/textadventures/squiffy/releases
@@ -10,5 +8,7 @@ _Tool for creating multiple choice interactive fiction._
 - Code repository: https://github.com/textadventures/squiffy.git
 - Code language: JavaScript
 - Code license: MIT
+
+Tool for creating multiple choice interactive fiction.
 
 ## Building

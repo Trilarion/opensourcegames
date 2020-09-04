@@ -1,7 +1,5 @@
 # Boost (C++ Libraries)
 
-_Boost provides free peer-reviewed portable C++ source libraries._
-
 - Home: https://www.boost.org/
 - Media: <https://en.wikipedia.org/wiki/Boost_(C%2B%2B_libraries)>
 - State: mature
@@ -11,6 +9,7 @@ _Boost provides free peer-reviewed portable C++ source libraries._
 - Code language: C++
 - Code license: Boost-1.0
 
+Boost provides free peer-reviewed portable C++ source libraries.
 [Boost Software License 1.0](https://github.com/boostorg/boost/blob/master/LICENSE_1_0.txt)
 
 ## Building

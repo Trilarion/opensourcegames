@@ -1,7 +1,5 @@
 # SteveTech1
 
-_A realtime multiplayer 3D FPS engine._
-
 - Home: http://multiplayerfpstutorial.blogspot.com/p/introduction.html
 - State: beta, inactive since 2019
 - Platform: Windows, Linux
@@ -11,5 +9,7 @@ _A realtime multiplayer 3D FPS engine._
 - Code license: MIT
 - Code dependencies: jMonkeyEngine
 - Developer: Stephen Carlyle-Smith
+
+A realtime multiplayer 3D FPS engine.
 
 ## Building

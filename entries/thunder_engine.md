@@ -1,7 +1,5 @@
 # Thunder Engine
 
-_Lightweight game engine for creating 2D and 3D games._
-
 - Home: https://github.com/eprikazchikov/thunder
 - State: beta
 - Keywords: game engine
@@ -9,6 +7,8 @@ _Lightweight game engine for creating 2D and 3D games._
 - Code language: C++
 - Code license: Apache-2.0
 - Code dependencies: Qt
+
+Lightweight game engine for creating 2D and 3D games.
 
 ## Building
 

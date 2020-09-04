@@ -1,7 +1,5 @@
 # Isometric-Minesweeper
 
-_Clone of Minesweeper._
-
 - Home: https://github.com/Bit-Sahil04/Isometric-Minesweeper
 - Inspirations: Minesweeper
 - State: beta
@@ -10,5 +8,7 @@ _Clone of Minesweeper._
 - Code language: Python
 - Code license: MIT
 - Code dependencies: pygame
+
+Clone of Minesweeper.
 
 ## Building

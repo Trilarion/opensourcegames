@@ -1,7 +1,5 @@
 # Hero of Allacrost
 
-_2D role-playing game inspired by classic console RPGs._
-
 - Home: http://allacrost.org
 - State: mature
 - Download: https://bitbucket.org/allacrost/allacrost/downloads/
@@ -9,6 +7,8 @@ _2D role-playing game inspired by classic console RPGs._
 - Code repository: https://bitbucket.org/allacrost/allacrost (hg)
 - Code language: C++, Lua
 - Code license: GPL-2.0
+
+2D role-playing game inspired by classic console RPGs.
 
 ## Building
 

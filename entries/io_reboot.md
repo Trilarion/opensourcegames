@@ -1,7 +1,5 @@
 # IO Reboot
 
-_Clone of Infinity Loop._
-
 - Home: https://github.com/omarchehab98/io-reboot
 - Inspirations: Infinity Loop
 - State: mature, inactive since 2017
@@ -10,5 +8,7 @@ _Clone of Infinity Loop._
 - Code language: C#
 - Code license: MIT
 - Code dependencies: Unity
+
+Clone of Infinity Loop.
 
 ## Building

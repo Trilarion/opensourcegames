@@ -1,7 +1,5 @@
 # C3DE
 
-_3D game engine._
-
 - Home: https://github.com/demonixis/C3DE
 - State: beta
 - Keywords: game engine
@@ -9,6 +7,8 @@ _3D game engine._
 - Code language: C#
 - Code license: MIT
 - Code dependencies: MonoGame
+
+3D game engine.
 
 ## Building
 

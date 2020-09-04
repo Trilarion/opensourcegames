@@ -1,7 +1,5 @@
 # One Way To Go
 
-_Remake of Sensitive._
-
 - Home: https://gordebak.itch.io/onewaytogo
 - Inspirations: Sensitive
 - State: mature, inactive since 2011
@@ -10,5 +8,7 @@ _Remake of Sensitive._
 - Code language: Lua
 - Code license: GPL-3.0
 - Code dependencies: LÖVE
+
+Remake of Sensitive.
 
 ## Building

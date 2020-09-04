@@ -1,7 +1,5 @@
 # Powermanga
 
-_2D shooting arcade game._
-
 - Home: http://linux.tlk.fr/games/Powermanga, https://sourceforge.net/projects/powermanga/, https://packages.debian.org/search?keywords=powermanga
 - State: beta, inactive since 2015
 - Download: http://linux.tlk.fr/games/Powermanga/download/, https://sourceforge.net/projects/powermanga/files/
@@ -13,5 +11,7 @@ _2D shooting arcade game._
 - Code dependencies: SDL
 - Assets license: GPL
 - Developer: Bruno Ethvignot, Emmanuel Founaud, Etienne Sobole, Jean-Michel Martin de Santero, Sam Hocevar
+
+2D shooting arcade game.
 
 ## Building

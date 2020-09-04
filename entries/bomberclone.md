@@ -1,7 +1,5 @@
 # BomberClone
 
-_AtomicBomberMan clone._
-
 - Home: https://www.bomberclone.de/, https://packages.debian.org/sid/bomberclone, https://sourceforge.net/projects/bomberclone/
 - Inspirations: Atomic Bomberman
 - State: beta, inactive since 2010
@@ -13,6 +11,8 @@ _AtomicBomberMan clone._
 - Code license: GPL-2.0
 - Assets license: GPL
 - Developer: Steffen Pohle
+
+AtomicBomberMan clone.
 
 ## Building
 

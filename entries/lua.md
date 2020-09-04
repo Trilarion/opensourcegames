@@ -1,7 +1,5 @@
 # Lua
 
-_Powerful, efficient, lightweight, embeddable scripting language._
-
 - Home: http://www.lua.org/
 - Media: <https://en.wikipedia.org/wiki/Lua_(programming_language)>
 - State: mature
@@ -11,6 +9,7 @@ _Powerful, efficient, lightweight, embeddable scripting language._
 - Code language: C
 - Code license: MIT
 
+Powerful, efficient, lightweight, embeddable scripting language.
 It's a whole programming language but often used within games projects for scripting purposes (like Python).
 
 See also [LuaDist](https://github.com/LuaDist).

@@ -1,7 +1,5 @@
 # Open Jumpgate
 
-_Remake of Jumpgate: The Reconstruction Initiative._
-
 - Home: http://opengate.sourceforge.net/, https://sourceforge.net/projects/opengate/
 - Inspirations: Jumpgate: The Reconstruction Initiative
 - State: beta, inactive since 2017
@@ -10,6 +8,7 @@ _Remake of Jumpgate: The Reconstruction Initiative._
 - Code language: C++
 - Code license: GPL-2.0
 
+Remake of Jumpgate: The Reconstruction Initiative.
 Early development.
 
 ## Building

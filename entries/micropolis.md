@@ -1,7 +1,5 @@
 # Micropolis
 
-_Remake of SimCity._
-
 - Home: https://micropolisonline.com/
 - Media: <https://en.wikipedia.org/wiki/SimCity_(1989_video_game)#Micropolis>
 - Inspirations: SimCity
@@ -11,6 +9,8 @@ _Remake of SimCity._
 - Code language: C++, Java, Python
 - Code license: GPL-3.0
 - Code dependencies: PyAMF, pycairo, pygobject, pygtk, SQLAlchemy, TurboGears
+
+Remake of SimCity.
 
 ## Building
 

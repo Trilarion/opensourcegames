@@ -1,7 +1,5 @@
 # OpenHoW
 
-_Remake of Hogs of War._
-
 - Home: https://github.com/TalonBraveInfo/OpenHoW
 - Inspirations: Hogs of War
 - State: beta
@@ -12,6 +10,7 @@ _Remake of Hogs of War._
 - Code license: GPL-3.0
 - Code dependencies: OpenAL, SDL2
 
+Remake of Hogs of War.
 Aims at creating open content.
 
 ## Building

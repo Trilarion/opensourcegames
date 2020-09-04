@@ -1,7 +1,5 @@
 # Sleep Is Death
 
-_Aka Geisterfahrer is a two-player RPG game._
-
 - Home: http://sleepisdeath.net
 - State: mature, inactive since 2018
 - Keywords: role playing, multiplayer, open content
@@ -11,6 +9,8 @@ _Aka Geisterfahrer is a two-player RPG game._
 - Code dependencies: SDL
 - Assets license: ? (Public domain)
 - Developer: Jason Rohrer
+
+Aka Geisterfahrer is a two-player RPG game.
 
 ## Building
 

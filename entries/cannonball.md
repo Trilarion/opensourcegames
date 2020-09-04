@@ -1,7 +1,5 @@
 # Cannonball
 
-_Remake of Outrun._
-
 - Home: https://github.com/djyt/cannonball/wiki, http://reassembler.blogspot.com/
 - Inspirations: Outrun
 - State: beta
@@ -10,6 +8,8 @@ _Remake of Outrun._
 - Code repository: https://github.com/djyt/cannonball.git
 - Code language: C++
 - Code license: MAME
+
+Remake of Outrun.
 
 ## Building
 

@@ -1,7 +1,5 @@
 # QuakeSpasm
 
-_Remake of Quake._
-
 - Home: http://quakespasm.sourceforge.net/Quakespasm.html, https://sourceforge.net/projects/quakespasm/
 - Inspirations: Quake
 - State: mature
@@ -12,6 +10,7 @@ _Remake of Quake._
 - Code language: C
 - Code license: GPL-2.0
 
+Remake of Quake.
 See also https://github.com/Shpoike/Quakespasm
 
 ## Building

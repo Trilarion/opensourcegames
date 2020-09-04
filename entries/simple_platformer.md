@@ -1,7 +1,5 @@
 # Simple Platformer
 
-_A simple platform game designed to be extended._
-
 - Home: https://github.com/SteveSmith16384/SimplePlatformer
 - State: beta, inactive since 2019
 - Download: https://github.com/SteveSmith16384/SimplePlatformer/releases
@@ -11,6 +9,8 @@ _A simple platform game designed to be extended._
 - Code language: Java
 - Code license: MIT
 - Code dependencies: libGDX
+
+A simple platform game designed to be extended.
 
 ## Building
 

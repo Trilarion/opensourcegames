@@ -1,7 +1,5 @@
 # GemRB
 
-_Implementation of Bioware's Infinity Engine._
-
 - Home: https://gemrb.org/
 - Inspirations: Baldur's Gate, Icewind Dale, Planescape: Torment
 - State: mature
@@ -11,6 +9,8 @@ _Implementation of Bioware's Infinity Engine._
 - Code language: C++, Python
 - Code license: GPL-2.0
 - Code dependencies: OpenAL, SDL2, Twisted, zlib
+
+Implementation of Bioware's Infinity Engine.
 
 ## Building
 

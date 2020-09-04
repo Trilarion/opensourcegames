@@ -1,7 +1,5 @@
 # alive
 
-_Remake of Oddworld: Abe's Oddysee, Oddworld: Abe's Exoddus_
-
 - Home: https://github.com/paulsapps/alive
 - Inspirations: Oddworld: Abe's Oddysee, Oddworld: Abe's Exoddus
 - State: beta
@@ -11,5 +9,7 @@ _Remake of Oddworld: Abe's Oddysee, Oddworld: Abe's Exoddus_
 - Code language: C++
 - Code license: MIT
 - Code dependencies: SDL2
+
+Remake of Oddworld: Abe's Oddysee, Oddworld: Abe's Exoddus
 
 ## Building

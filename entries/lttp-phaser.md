@@ -1,7 +1,5 @@
 # lttp-phaser
 
-_Remake of Legend of Zelda - A Link to the Past._
-
 - Home: https://github.com/englercj/lttp
 - Inspirations: Legend of Zelda - A Link to the Past
 - State: beta, inactive since 2016
@@ -11,5 +9,6 @@ _Remake of Legend of Zelda - A Link to the Past._
 - Code license: MIT
 - Code dependencies: Phaser, WebGL
 
+Remake of Legend of Zelda - A Link to the Past.
 
 ## Building

@@ -1,7 +1,5 @@
 # RBDOOM-3-BFG
 
-_Remake of Doom 3._
-
 - Home: https://github.com/RobertBeckebans/RBDOOM-3-BFG
 - Inspirations: Doom 3
 - State: mature
@@ -9,5 +7,7 @@ _Remake of Doom 3._
 - Code repository: https://github.com/RobertBeckebans/RBDOOM-3-BFG.git
 - Code language: C, C++
 - Code license: GPL-3.0
+
+Remake of Doom 3.
 
 ## Building

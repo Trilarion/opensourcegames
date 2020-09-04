@@ -1,7 +1,5 @@
 # Slime Volley
 
-_2D side volleyball game._
-
 - Home: http://slime.tuxfamily.org/, https://packages.debian.org/search?keywords=slimevolley
 - Inspirations: Blobby Volley
 - State: mature, inactive since 2010
@@ -13,6 +11,8 @@ _2D side volleyball game._
 - Code license: GPL-3.0
 - Code dependencies: SDL
 - Developer: MCMic, VinDuv
+
+2D side volleyball game.
 
 ## Building
 

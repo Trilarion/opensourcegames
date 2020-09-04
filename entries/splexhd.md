@@ -1,7 +1,5 @@
 # splexhd
 
-_Remake of Supaplex._
-
 - Home: https://github.com/radu124/splexhd
 - Media: https://en.wikipedia.org/wiki/Supaplex
 - Inspirations: Supaplex
@@ -10,5 +8,7 @@ _Remake of Supaplex._
 - Code repository: https://github.com/radu124/splexhd.git
 - Code language: C++
 - Code license: GPL-2.0
+
+Remake of Supaplex.
 
 ## Building

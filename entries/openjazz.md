@@ -1,7 +1,5 @@
 # OpenJazz
 
-_Remake of Jazz Jackrabbit._
-
 - Home: http://www.alister.eu/jazz/oj/
 - Media: https://en.wikipedia.org/wiki/Jazz_Jackrabbit
 - Inspirations: Jazz Jackrabbit
@@ -13,6 +11,8 @@ _Remake of Jazz Jackrabbit._
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: SDL
+
+Remake of Jazz Jackrabbit.
 
 ## Building
 

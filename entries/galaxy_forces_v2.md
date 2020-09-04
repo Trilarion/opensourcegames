@@ -1,7 +1,5 @@
 # Galaxy Forces V2
 
-_Remake of Gravity Force._
-
 - Home: http://www.galaxy-forces.com/, https://sourceforge.net/projects/galaxyv2/
 - Inspirations: Gravity Force
 - State: mature
@@ -12,5 +10,7 @@ _Remake of Gravity Force._
 - Code license: Public domain (license.txt)
 - Assets license: Public domain (license.txt)
 - Developer: Ronnie Hedlund
+
+Remake of Gravity Force.
 
 ## Building

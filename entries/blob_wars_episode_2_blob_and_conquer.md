@@ -1,7 +1,5 @@
 # Blob Wars Episode 2 : Blob And Conquer
 
-_Blob Wars: Blob And Conquer is a 3D action game created by Parallel Realities._
-
 - Home: https://packages.debian.org/sid/games/blobandconquer, https://web.archive.org/web/20080601225609/https://www.parallelrealities.co.uk/blobAndConquer.php, https://sourceforge.net/projects/blobandconquer/
 - Media: https://www.parallelrealities.co.uk/games/blobAndConquer/
 - State: mature, inactive since 2016
@@ -12,6 +10,8 @@ _Blob Wars: Blob And Conquer is a 3D action game created by Parallel Realities._
 - Code dependencies: SDL
 - Assets license: commercial
 - Developer: Stephen Sweeney
+
+Blob Wars: Blob And Conquer is a 3D action game created by Parallel Realities.
 
 ## Building
 

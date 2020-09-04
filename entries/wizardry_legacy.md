@@ -1,7 +1,5 @@
 # Wizardry Legacy
 
-_Remake of Wizardry._
-
 - Home: http://wl.lariennalibrary.com/
 - Media: https://en.wikipedia.org/wiki/Wizardry
 - Inspirations: Wizardry
@@ -12,6 +10,8 @@ _Remake of Wizardry._
 - Code repository: https://gitlab.com/larienna/cppgame_wizardry.git
 - Code language: C++
 - Code license: GPL-3.0
+
+Remake of Wizardry.
 
 ## Building
 

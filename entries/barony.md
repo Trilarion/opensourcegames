@@ -1,7 +1,5 @@
 # Barony
 
-_3D, first-person roguelike._
-
 - Home: http://www.baronygame.com/
 - Inspirations: Barony
 - State: mature
@@ -10,5 +8,7 @@ _3D, first-person roguelike._
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependencies: OpenGL, SDL2
+
+3D, first-person roguelike.
 
 ## Building

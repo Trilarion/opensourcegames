@@ -1,7 +1,5 @@
 # RufasSlider
 
-_Collection of classic 2D slider puzzles._
-
 - Home: https://github.com/fastrgv/RufasSlider
 - State: mature
 - Download: https://github.com/fastrgv/RufasSlider/releases
@@ -11,5 +9,7 @@ _Collection of classic 2D slider puzzles._
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: OpenGL, SDL2
+
+Collection of classic 2D slider puzzles.
 
 ## Building

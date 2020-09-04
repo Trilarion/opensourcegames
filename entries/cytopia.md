@@ -1,7 +1,5 @@
 # Cytopia
 
-_Clone of Simcity._
-
 - Home: https://cytopia.net/
 - Inspirations: SimCity
 - State: beta
@@ -11,6 +9,8 @@ _Clone of Simcity._
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependencies: SDL2
+
+Clone of Simcity.
 
 ## Building
 

@@ -1,7 +1,5 @@
 # Rednukem
 
-_Remake of Redneck Rampage, Duke Nukem 3D._
-
 - Home: https://nukeykt.retrohost.net/
 - Inspirations: Redneck Rampage, Duke Nukem 3D
 - State: beta
@@ -11,6 +9,7 @@ _Remake of Redneck Rampage, Duke Nukem 3D._
 - Code license: Custom
 - Code dependencies: OpenGL, SDL, SDL2
 
+Remake of Redneck Rampage, Duke Nukem 3D.
 Reverse-engineered ports of Build games using EDuke32 engine technology and development principles
 
 ## Building

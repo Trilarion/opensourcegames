@@ -1,7 +1,5 @@
 # YSoccer
 
-_Soccer game; continuation to Sensible World of Soccer._
-
 - Home: http://ysoccer.sourceforge.net/, https://sourceforge.net/projects/ysoccer/
 - Inspirations: Sensible Soccer
 - State: mature
@@ -12,6 +10,7 @@ _Soccer game; continuation to Sensible World of Soccer._
 - Code language: Java
 - Code license: GPL-2.0 (see java/android/assets/docs/readme.htm)
 
+Soccer game; continuation to Sensible World of Soccer.
 Successor of [Yoda Soccer](https://sourceforge.net/projects/yodasoccer/).
 
 ## Building

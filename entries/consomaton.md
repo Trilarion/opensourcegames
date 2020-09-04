@@ -1,7 +1,5 @@
 # Consomaton
 
-_Puzzle game revolving around cellular automata._
-
 - Home: http://www.asahi-net.or.jp/~cs8k-cyu/blog/2016/06/17/consomaton/
 - State: mature, inactive since 2016
 - Play: http://abagames.sakura.ne.jp/16/consomaton/
@@ -12,5 +10,7 @@ _Puzzle game revolving around cellular automata._
 - Code license: MIT
 - Code dependencies: Node.js
 - Developer: Kenta Cho (ABA)
+
+Puzzle game revolving around cellular automata.
 
 ## Building

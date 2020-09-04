@@ -1,7 +1,5 @@
 # Veraball
 
-_Remake of Super Monkey Ball._
-
 - Home: https://github.com/Veraball/veraball
 - Inspirations: Super Monkey Ball
 - State: beta, inactive since 2016
@@ -13,5 +11,7 @@ _Remake of Super Monkey Ball._
 - Code license: MIT
 - Code dependencies: Godot
 - Assets license: CC-BY-SA-3.0
+
+Remake of Super Monkey Ball.
 
 ## Building

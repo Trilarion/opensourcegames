@@ -1,7 +1,5 @@
 # Pingus
 
-_Lemmings(tm)-like puzzle game._
-
 - Home: https://pingus.seul.org/
 - Media: https://en.wikipedia.org/wiki/Pingus
 - Inspirations: Lemmings
@@ -14,6 +12,7 @@ _Lemmings(tm)-like puzzle game._
 - Code license: GPL-3.0
 - Code dependencies: GTK, SDL2
 
+Lemmings(tm)-like puzzle game.
 
 ## Building
 

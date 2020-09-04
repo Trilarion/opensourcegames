@@ -1,7 +1,5 @@
 # Rot Magus
 
-_An extended, browser-based remake of Magus._
-
 - Home: https://gamejolt.com/games/rm/41491
 - Media: https://dosgames.com/game/magus/
 - Inspirations: Magus
@@ -13,5 +11,7 @@ _An extended, browser-based remake of Magus._
 - Code language: JavaScript
 - Code license: Apache-2.0, CC0
 - Code dependencies: Phaser, rot.js
+
+An extended, browser-based remake of Magus.
 
 ## Building

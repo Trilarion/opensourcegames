@@ -1,7 +1,5 @@
 # Moagg2
 
-_2D gravity game._
-
 - Home: http://moagg.sourceforge.net/, https://sourceforge.net/projects/moagg/
 - Inspirations: Space Taxi, Gravity Force
 - State: mature, inactive since 2008
@@ -14,5 +12,7 @@ _2D gravity game._
 - Code dependencies: Golden-T Game Engine, Mozilla Rhino
 - Assets license: ? (GPL)
 - Developer: Bernhard Trummer
+
+2D gravity game.
 
 ## Building

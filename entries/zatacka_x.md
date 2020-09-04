@@ -1,7 +1,5 @@
 # Zatacka X
 
-_Remake of Achtung, die Kurve!._
-
 - Home: https://github.com/simenheg/zatackax
 - Inspirations: "Achtung, die Kurve!"
 - State: beta
@@ -10,6 +8,8 @@ _Remake of Achtung, die Kurve!._
 - Code language: C
 - Code license: GPL-3.0
 - Code dependencies: SDL
+
+Remake of Achtung, die Kurve!.
 
 ## Building
 

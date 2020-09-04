@@ -1,7 +1,5 @@
 # Snelps
 
-_Real-time strategy game._
-
 - Home: https://code.google.com/archive/p/snelps/
 - State: beta, inactive since 2012
 - Keywords: strategy, real time
@@ -10,5 +8,7 @@ _Real-time strategy game._
 - Code license: LGPL-2.1
 - Code dependencies: Rubygame, SDL
 - Developer: Shawn Anderson
+
+Real-time strategy game.
 
 ## Building

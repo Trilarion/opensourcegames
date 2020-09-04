@@ -1,7 +1,5 @@
 # BetterSpades
 
-_Remake of Ace of Spades._
-
 - Home: https://aos.party/jenkins/job/BetterSpades/
 - Inspirations: Ace of Spades
 - State: beta
@@ -9,6 +7,8 @@ _Remake of Ace of Spades._
 - Code repository: https://github.com/xtreme8000/BetterSpades.git
 - Code language: C
 - Code license: GPL-3.0
+
+Remake of Ace of Spades.
 
 ## Building
 

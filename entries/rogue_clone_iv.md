@@ -1,7 +1,5 @@
 # Rogue Clone IV
 
-_Reproduction of Rogue._
-
 - Home: http://rogueclone.sourceforge.net/, https://sourceforge.net/projects/rogueclone/
 - State: mature, inactive since 2006
 - Download: https://sourceforge.net/projects/rogueclone/files/rogue%20clone/
@@ -10,6 +8,7 @@ _Reproduction of Rogue._
 - Code language: C
 - Code license: 3-clause BSD
 
+Reproduction of Rogue.
 See also https://github.com/naota/rogueclone2s-utf8, https://github.com/WatermelonTeam/RogueClone
 
 ## Building

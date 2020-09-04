@@ -1,7 +1,5 @@
 # pyglet
 
-_Multimedia library for Python._
-
 - Home: http://pyglet.org/
 - State: mature
 - Download: https://pypi.org/project/pyglet/
@@ -10,5 +8,7 @@ _Multimedia library for Python._
 - Code repository: https://github.com/pyglet/pyglet.git
 - Code language: Python
 - Code license: 3-clause BSD
+
+Multimedia library for Python.
 
 ## Building

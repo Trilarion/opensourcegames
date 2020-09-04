@@ -1,7 +1,5 @@
 # GeonBit.UI
 
-_UI extension for MonoGame-based projects._
-
 - Home: https://github.com/RonenNess/GeonBit.UI
 - State: mature
 - Platform: Windows, Linux
@@ -11,5 +9,7 @@ _UI extension for MonoGame-based projects._
 - Code license: MIT
 - Code dependencies: MonoGame
 - Developer: Ronen Ness
+
+UI extension for MonoGame-based projects.
 
 ## Building

@@ -1,7 +1,5 @@
 # LGeneral
 
-_A turn-based strategy engine heavily inspired by Panzer General._
-
 - Home: http://lgames.sourceforge.net/LGeneral/, https://sourceforge.net/projects/lgames/, https://sourceforge.net/projects/lgeneral/
 - Media: https://en.wikipedia.org/wiki/Panzer_General#LGeneral
 - Inspirations: Panzer General
@@ -13,6 +11,7 @@ _A turn-based strategy engine heavily inspired by Panzer General._
 - Code language: C
 - Code license: GPL-2.0
 
+A turn-based strategy engine heavily inspired by Panzer General.
 May require original game content.
 
 Part of LGames.

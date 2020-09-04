@@ -1,7 +1,5 @@
 # TROPHY
 
-_Car racing game with features such as shooting at other players, buying new cars._
-
 - Home: http://trophy.sourceforge.net/, https://sourceforge.net/projects/trophy/
 - State: mature, inactive since 2012
 - Download: http://trophy.sourceforge.net/index.php?body=download, https://sourceforge.net/projects/trophy/files/
@@ -11,6 +9,8 @@ _Car racing game with features such as shooting at other players, buying new car
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: ClanLib
+
+Car racing game with features such as shooting at other players, buying new cars.
 
 ## Building
 

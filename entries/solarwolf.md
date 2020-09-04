@@ -1,7 +1,5 @@
 # SolarWolf
 
-_Remake of Solar Fox._
-
 - Home: https://www.pygame.org/shredwheat/solarwolf/index.shtml
 - Inspirations: Solar Fox
 - State: mature, inactive since 2004
@@ -13,6 +11,8 @@ _Remake of Solar Fox._
 - Code license: LGPL-2.1
 - Code dependencies: pygame
 - Developer: Pete Shinners, Eero Tamminen
+
+Remake of Solar Fox.
 
 ## Building
 

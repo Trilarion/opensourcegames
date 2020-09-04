@@ -1,7 +1,5 @@
 # GDash
 
-_A Boulder Dash clone which is as close to the original as possible._
-
 - Home: https://bitbucket.org/czirkoszoltan/gdash
 - Inspirations: Boulder Dash
 - State: beta
@@ -10,5 +8,7 @@ _A Boulder Dash clone which is as close to the original as possible._
 - Code repository: https://bitbucket.org/czirkoszoltan/gdash.git
 - Code language: C++
 - Code license: MIT
+
+A Boulder Dash clone which is as close to the original as possible.
 
 ## Building

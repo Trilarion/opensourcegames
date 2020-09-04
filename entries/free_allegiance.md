@@ -1,7 +1,5 @@
 # Free Allegiance
 
-_Remake of Allegiance._
-
 - Home: https://www.freeallegiance.org/
 - Media: <https://en.wikipedia.org/wiki/Allegiance_(video_game)#Community_continuation>
 - Inspirations: Allegiance
@@ -10,6 +8,8 @@ _Remake of Allegiance._
 - Code repository: https://github.com/FreeAllegiance/Allegiance.git
 - Code language: C++
 - Code license: MIT
+
+Remake of Allegiance.
 
 ## Building
 

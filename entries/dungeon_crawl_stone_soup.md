@@ -1,7 +1,5 @@
 # Dungeon Crawl Stone Soup
 
-_Roguelike adventure through dungeons filled with dangerous monsters in a quest to find the mystifyingly fabulous Orb of Zot._
-
 - Home: http://crawl.develz.org/
 - State: mature
 - Download: http://crawl.develz.org/download.htm
@@ -11,6 +9,7 @@ _Roguelike adventure through dungeons filled with dangerous monsters in a quest 
 - Code license: GPL-2.0
 - Code dependencies: Lua, SDL
 
+Roguelike adventure through dungeons filled with dangerous monsters in a quest to find the mystifyingly fabulous Orb of Zot.
 Forked from Linley's Dungeon Crawl.
 
 ## Building

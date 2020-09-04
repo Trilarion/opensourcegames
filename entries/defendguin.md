@@ -1,7 +1,5 @@
 # Defendguin
 
-_Remake of Defender._
-
 - Home: http://www.newbreedsoftware.com/defendguin/
 - Inspirations: Defender
 - State: mature, inactive since 2009
@@ -11,5 +9,7 @@ _Remake of Defender._
 - Code repository: (see download)
 - Code language: C
 - Code license: GPL-2.0
+
+Remake of Defender.
 
 ## Building

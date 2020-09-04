@@ -1,7 +1,5 @@
 # movbizz
 
-_Remake of Movie Business._
-
 - Home: https://web.archive.org/web/20160504225838/http://movbizz.sebbmeyer.de/
 - Inspirations: Movie Business
 - State: beta, inactive since 2015
@@ -10,5 +8,7 @@ _Remake of Movie Business._
 - Code language: PHP, JavaScript
 - Code license: MIT
 - Code dependencies: Laravel
+
+Remake of Movie Business.
 
 ## Building

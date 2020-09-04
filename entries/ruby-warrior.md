@@ -1,7 +1,5 @@
 # Ruby-warrior
 
-_AI programming game._
-
 - Home: https://github.com/ryanb/ruby-warrior
 - State: beta, inactive since 2012
 - Keywords: game engine, open content, programming, roguelike
@@ -10,5 +8,7 @@ _AI programming game._
 - Code license: MIT
 - Assets license: MIT
 - Developer: Ryan Bates
+
+AI programming game.
 
 ## Building

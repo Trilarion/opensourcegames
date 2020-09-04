@@ -1,7 +1,5 @@
 # proxx
 
-_Clone of Minesweeper._
-
 - Home: https://proxx.app/
 - Inspirations: Minesweeper
 - State: mature
@@ -12,5 +10,7 @@ _Clone of Minesweeper._
 - Code language: TypeScript, JavaScript
 - Code license: Apache-2.0
 - Code dependencies: WebGL
+
+Clone of Minesweeper.
 
 ## Building

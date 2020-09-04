@@ -1,7 +1,5 @@
 # British Bingo
 
-_90-ball bingo game with 3 by 9 boards._
-
 - Home: https://sourceforge.net/projects/britbingo/
 - State: mature
 - Play: http://bbingo.eu5.net/
@@ -14,6 +12,7 @@ _90-ball bingo game with 3 by 9 boards._
 - Assets license: GPL-3.0
 - Developer: Bert Beckwith
 
+90-ball bingo game with 3 by 9 boards.
 The computer simulates your opponents who act like elderly people, e. g. by making mistakes and chatting. The number of players and the speed of the game is configurable.
 
 ## Building

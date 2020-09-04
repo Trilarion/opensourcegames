@@ -1,7 +1,5 @@
 # adventure engine
 
-_Point-n-click graphical game engine._
-
 - Home: https://github.com/isovector/adventure
 - Inspirations: Moai
 - State: mature, inactive since 2013
@@ -9,5 +7,7 @@ _Point-n-click graphical game engine._
 - Code repository: https://github.com/isovector/adventure.git
 - Code language: Lua
 - Code license: MIT
+
+Point-n-click graphical game engine.
 
 ## Building

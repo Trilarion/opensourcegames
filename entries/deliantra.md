@@ -1,7 +1,5 @@
 # Deliantra
 
-_A cooperative multiplayer RPG and adventure game set in a classical medieval environment with ubiquitous weapons and magic._
-
 - Home: http://www.deliantra.net/index.html
 - State: mature
 - Download: http://www.deliantra.net/play.html
@@ -10,6 +8,7 @@ _A cooperative multiplayer RPG and adventure game set in a classical medieval en
 - Code language: C
 - Code license: GPL-2.0
 
+A cooperative multiplayer RPG and adventure game set in a classical medieval environment with ubiquitous weapons and magic.
 See also https://github.com/pippijn/deliantra, https://github.com/jgibbons94/Deliantra-server
 
 ## Building

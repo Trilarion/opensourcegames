@@ -1,7 +1,5 @@
 # Tuxemon
 
-_Turn-based monster fighting RPG._
-
 - Home: https://www.tuxemon.org/
 - Inspirations: Pokémon
 - State: mature
@@ -12,5 +10,6 @@ _Turn-based monster fighting RPG._
 - Code license: GPL-3.0
 - Code dependencies: neteria, Pillow, pygame, PyTMX
 
+Turn-based monster fighting RPG.
 
 ## Building

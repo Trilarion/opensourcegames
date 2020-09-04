@@ -1,7 +1,5 @@
 # rock-raiders-remake
 
-_Remake of Lego Rock Raiders._
-
 - Home: http://rystills.github.io/rock-raiders-remake/
 - Inspirations: Lego Rock Raiders
 - State: beta
@@ -10,5 +8,7 @@ _Remake of Lego Rock Raiders._
 - Code repository: https://github.com/rystills/rock-raiders-remake.git
 - Code language: JavaScript
 - Code license: MIT
+
+Remake of Lego Rock Raiders.
 
 ## Building

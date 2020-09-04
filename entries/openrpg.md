@@ -1,7 +1,5 @@
 # OpenRPG
 
-_Allows people to play Role Playing Games and some miniature based war games in real-time over the Internet._
-
 - Home: http://www.rpgobjects.com/index.php?c=orpg, https://app.assembla.com/spaces/openrpg/, https://sourceforge.net/projects/openrpg/, https://app.assembla.com/wiki/show/traipse
 - State: mature, inactive since 2013
 - Download: http://www.rpgobjects.com/index.php?c=orpg&m=getorpg, https://sourceforge.net/projects/openrpg/files/
@@ -10,5 +8,7 @@ _Allows people to play Role Playing Games and some miniature based war games in 
 - Code language: Python
 - Code license: GPL-2.0
 - Code dependencies: CherryPy, Pillow, wxPython
+
+Allows people to play Role Playing Games and some miniature based war games in real-time over the Internet.
 
 ## Building

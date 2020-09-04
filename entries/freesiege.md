@@ -1,7 +1,5 @@
 # FreeSiege
 
-_Remake of Siege._
-
 - Home: http://freesiege.sourceforge.net/
 - Inspirations: Siege
 - State: beta
@@ -9,6 +7,8 @@ _Remake of Siege._
 - Code repository: https://gitlab.com/LibreGames/freesiege.git
 - Code language: C++
 - Code license: GPL-3.0
+
+Remake of Siege.
 
 ## Building
 

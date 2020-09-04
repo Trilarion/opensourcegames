@@ -1,7 +1,5 @@
 # Zaz
 
-_Remake of Zuma._
-
 - Home: http://zaz.sourceforge.net/, https://sourceforge.net/projects/zaz/
 - Inspirations: Zuma
 - State: beta, inactive since 2010
@@ -12,6 +10,8 @@ _Remake of Zuma._
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependencies: SDL
+
+Remake of Zuma.
 
 ## Building
 

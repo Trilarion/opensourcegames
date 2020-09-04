@@ -1,7 +1,5 @@
 # Open Apocalypse
 
-_Remake of X-COM: UFO Defense, X-COM: Terror from the Deep, X-COM: Apocalypse, UFO: Enemy Unknown._
-
 - Home: http://openapoc.org/
 - Inspirations: X-COM: UFO Defense, X-COM: Terror from the Deep, X-COM: Apocalypse, UFO: Enemy Unknown
 - State: beta
@@ -11,6 +9,8 @@ _Remake of X-COM: UFO Defense, X-COM: Terror from the Deep, X-COM: Apocalypse, U
 - Code language: C++
 - Code license: MIT
 - Code dependencies: SDL2
+
+Remake of X-COM: UFO Defense, X-COM: Terror from the Deep, X-COM: Apocalypse, UFO: Enemy Unknown.
 
 ## Building
 

@@ -1,7 +1,5 @@
 # Hopson-Arcade
 
-_Remake of Space Invaders and other small arcade games._
-
 - Home: https://github.com/Hopson97/Hopson-Arcade
 - Inspirations: Space Invaders
 - State: mature
@@ -11,5 +9,7 @@ _Remake of Space Invaders and other small arcade games._
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependencies: SFML
+
+Remake of Space Invaders and other small arcade games.
 
 ## Building

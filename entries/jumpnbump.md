@@ -1,7 +1,5 @@
 # Jump'n'Bump
 
-_Remake of Jump 'n Bump._
-
 - Home: https://www.icculus.org/jumpnbump/
 - Inspirations: Jump 'n Bump
 - State: mature, inactive since 2004
@@ -12,6 +10,7 @@ _Remake of Jump 'n Bump._
 - Code license: GPL-2.0
 - Code dependencies: SDL
 
+Remake of Jump 'n Bump.
 See also https://gitlab.com/LibreGames/jumpnbump (same game?)
 
 ## Building

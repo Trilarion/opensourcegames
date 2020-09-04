@@ -1,7 +1,5 @@
 # CrappyBird
 
-_Remake of Flappy Bird._
-
 - Home: https://varunpant.com/resources/CrappyBird/index.html
 - Inspirations: Flappy Bird
 - State: mature, inactive since 2017
@@ -11,5 +9,7 @@ _Remake of Flappy Bird._
 - Code language: JavaScript
 - Code license: MIT
 - Assets license: ? (not specified)
+
+Remake of Flappy Bird.
 
 ## Building

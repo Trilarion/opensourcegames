@@ -1,7 +1,5 @@
 # Tyrian Remake
 
-_Remake of Tyrian._
-
 - Home: https://www.b3dgs.com/v7/page.php?lang=en&section=tyrian_remake
 - Media: <https://en.wikipedia.org/wiki/Tyrian_(video_game)>
 - Inspirations: Tyrian
@@ -11,5 +9,7 @@ _Remake of Tyrian._
 - Code language: Java
 - Code license: GPL-2.0
 - Code dependencies: LionEngine
+
+Remake of Tyrian.
 
 ## Building

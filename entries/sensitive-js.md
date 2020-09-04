@@ -1,7 +1,5 @@
 # sensitive-js
 
-_Remake of Sensitive._
-
 - Home: https://github.com/bylexus/sensitive-js
 - Inspirations: Sensitive
 - State: beta, inactive since 2017
@@ -11,5 +9,7 @@ _Remake of Sensitive._
 - Code language: JavaScript
 - Code license: Custom (NC, https://github.com/bylexus/sensitive-js#license-information)
 - Assets license: Unknown (https://github.com/bylexus/sensitive-js#copyright-violations)
+
+Remake of Sensitive.
 
 ## Building

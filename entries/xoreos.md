@@ -1,7 +1,5 @@
 # xoreos
 
-_Reimplementation of BioWare’s Aurora engine (and derivatives) as used in their 3D games, beginning with Neverwinter Nights._
-
 - Home: https://xoreos.org/
 - Inspirations: BioWare's Aurora engine
 - State: beta
@@ -12,6 +10,7 @@ _Reimplementation of BioWare’s Aurora engine (and derivatives) as used in thei
 - Code license: GPL-3.0
 - Code dependencies: OpenGL, SDL2
 
+Reimplementation of BioWare’s Aurora engine (and derivatives) as used in their 3D games, beginning with Neverwinter Nights.
 Requires original game data.
 
 ## Building

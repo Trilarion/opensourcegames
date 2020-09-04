@@ -1,7 +1,5 @@
 # RuneLite
 
-_Remake of Old School RuneScape._
-
 - Home: https://runelite.net/
 - Media: https://en.wikipedia.org/wiki/RuneScape
 - Inspirations: Old School RuneScape
@@ -12,6 +10,7 @@ _Remake of Old School RuneScape._
 - Code language: Java
 - Code license: 2-clause BSD
 
+Remake of Old School RuneScape.
 Open source Old School RuneScape client
 
 ## Building

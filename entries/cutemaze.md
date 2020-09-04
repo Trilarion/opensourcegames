@@ -1,7 +1,5 @@
 # CuteMaze
 
-_Maze puzzle game._
-
 - Home: https://gottcode.org/cutemaze/
 - State: mature
 - Keywords: puzzle
@@ -10,5 +8,7 @@ _Maze puzzle game._
 - Code license: GPL-3.0
 - Code dependencies: Qt
 - Developer: Graeme Gott
+
+Maze puzzle game.
 
 ## Building

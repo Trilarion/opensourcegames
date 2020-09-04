@@ -1,7 +1,5 @@
 # INSTEAD
 
-_Engine for textographic games, which are a mix of interactive fiction, visual novels and classic point & click adventures._
-
 - Home: https://instead3.syscall.ru/en/, https://sourceforge.net/projects/instead/
 - State: mature
 - Download: https://instead3.syscall.ru/en/#download, https://github.com/instead-hub/instead/releases, https://sourceforge.net/projects/instead/files/
@@ -11,6 +9,8 @@ _Engine for textographic games, which are a mix of interactive fiction, visual n
 - Code language: C, Lua
 - Code license: MIT
 - Code dependencies: SDL
+
+Engine for textographic games, which are a mix of interactive fiction, visual novels and classic point & click adventures.
 
 ## Building
 

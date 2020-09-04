@@ -1,7 +1,5 @@
 # Netacka
 
-_Remake of Achtung, die Kurve!._
-
 - Home: https://pwmarcz.pl/netacka/
 - Inspirations: "Achtung, die Kurve!"
 - State: mature
@@ -11,6 +9,7 @@ _Remake of Achtung, die Kurve!._
 - Code license: MIT
 - Code dependencies: Allegro
 
+Remake of Achtung, die Kurve!.
 Also see Netacka 3D (home).
 
 ## Building

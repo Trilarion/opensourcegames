@@ -1,7 +1,5 @@
 # Klooni 1010!
 
-_Clone of the puzzle game 1010!_
-
 - Home: https://lonami.dev/klooni/
 - Inspirations: 1010!
 - State: beta
@@ -12,6 +10,8 @@ _Clone of the puzzle game 1010!_
 - Code language: Java
 - Code license: GPL-3.0
 - Code dependencies: libGDX
+
+Clone of the puzzle game 1010!
 
 ## Building
 

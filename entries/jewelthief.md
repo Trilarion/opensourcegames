@@ -1,7 +1,5 @@
 # jewelthief
 
-_Remake of Jewel Thief._
-
 - Home: http://therefactory.bplaced.net/software/#83d15f35-decf-4ebd-b880-e5edad783031
 - Inspirations: Jewel Thief
 - State: mature, inactive since 2016
@@ -12,6 +10,8 @@ _Remake of Jewel Thief._
 - Code license: GPL-3.0
 - Code dependencies: libGDX
 - Assets license: CC-BY
+
+Remake of Jewel Thief.
 
 ## Building
 

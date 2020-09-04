@@ -657,8 +657,8 @@ def create_entry_content(entry):
     :return:
     """
 
-    # title and description
-    content = '# {}\n\n_{}_\n\n'.format(entry['title'], entry['description'])
+    # title
+    content = '# {}\n\n'.format(entry['title'])
 
     # now properties in the recommended order
     for field in valid_fields:

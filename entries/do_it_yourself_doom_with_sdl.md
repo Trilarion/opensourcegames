@@ -1,7 +1,5 @@
 # Do It Yourself Doom With SDL
 
-_A DOOM clone engine._
-
 - Home: https://github.com/amroibrahim/DIYDoom
 - Inspirations: Doom
 - State: beta
@@ -11,6 +9,8 @@ _A DOOM clone engine._
 - Code language: C++
 - Code license: MIT
 - Code dependencies: SDL2
+
+A DOOM clone engine.
 
 ## Building
 

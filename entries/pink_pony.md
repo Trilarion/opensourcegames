@@ -1,7 +1,5 @@
 # Pink Pony
 
-_Clone of Tron._
-
 - Home: https://ginkgo.github.io/pink-pony/
 - Inspirations: Tron
 - State: mature, inactive since 2017
@@ -13,6 +11,8 @@ _Clone of Tron._
 - Code license: GPL-3.0
 - Code dependencies: GLFW, SDL
 - Assets license: CC0, CC-BY-3.0, CC-BY-SA-3.0 (see https://github.com/ginkgo/pink-pony#license)
+
+Clone of Tron.
 
 ## Building
 

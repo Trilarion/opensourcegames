@@ -1,7 +1,5 @@
 # Reconstruction of Super ZZT
 
-_Remake of Super ZZT._
-
 - Home: https://github.com/asiekierka/reconstruction-of-super-zzt
 - Inspirations: Super ZZT
 - State: mature
@@ -10,6 +8,7 @@ _Remake of Super ZZT._
 - Code language: Pascal
 - Code license: MIT
 
+Remake of Super ZZT.
 Source code reconstruction.
 
 ## Building

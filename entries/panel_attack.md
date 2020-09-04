@@ -1,7 +1,5 @@
 # Panel Attack
 
-_Remake of Tetris Attack._
-
 - Home: https://github.com/sharpobject/panel-attack
 - Inspirations: Tetris Attack
 - State: beta
@@ -11,5 +9,6 @@ _Remake of Tetris Attack._
 - Code license: zlib
 - Code dependencies: LÖVE
 
+Remake of Tetris Attack.
 
 ## Building

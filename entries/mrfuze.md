@@ -1,7 +1,5 @@
 # Mrfuze
 
-_Platformer._
-
 - Home: https://web.archive.org/web/20081121190409/http://pymike.4rensics.org/mrfuze/
 - State: mature, inactive since 2008
 - Keywords: platform
@@ -10,5 +8,7 @@ _Platformer._
 - Code license: LGPL-2.1
 - Code dependencies: pygame
 - Developer: PyMike
+
+Platformer.
 
 ## Building

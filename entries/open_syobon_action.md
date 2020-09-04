@@ -1,7 +1,5 @@
 # Open Syobon Action
 
-_Remake of Shobon Action._
-
 - Home: https://sourceforge.net/projects/opensyobon/
 - Inspirations: Shobon Action
 - State: beta, inactive since 2011
@@ -12,6 +10,7 @@ _Remake of Shobon Action._
 - Code license: ? (GPL-2.0?)
 - Developer: Mathew Velasquez
 
+Remake of Shobon Action.
 See also https://sourceforge.net/p/opensyobon/bugs/4/
 
 ## Building

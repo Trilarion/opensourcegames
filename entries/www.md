@@ -1,7 +1,5 @@
 # WWW
 
-_Clone of VVVVVV._
-
 - Home: https://github.com/alexdantas/www
 - Media: https://en.wikipedia.org/wiki/VVVVVV
 - Inspirations: VVVVVV
@@ -11,5 +9,7 @@ _Clone of VVVVVV._
 - Code repository: https://github.com/alexdantas/www.git
 - Code language: JavaScript
 - Code license: GPL-3.0
+
+Clone of VVVVVV.
 
 ## Building

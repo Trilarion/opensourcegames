@@ -1,7 +1,5 @@
 # Jazz² Resurrection
 
-_Remake of Jazz Jackrabbit 2._
-
 - Home: http://deat.tk/jazz2/
 - Inspirations: Jazz Jackrabbit 2
 - State: mature
@@ -11,5 +9,7 @@ _Remake of Jazz Jackrabbit 2._
 - Code language: C#, JavaScript
 - Code license: GPL-3.0
 - Code dependencies: libopenmpt, MonoGame, OpenAL
+
+Remake of Jazz Jackrabbit 2.
 
 ## Building

@@ -1,7 +1,5 @@
 # WebFun
 
-_Remake of Star Wars: Yoda Stories._
-
 - Home: https://github.com/cyco/WebFun
 - Inspirations: Star Wars: Yoda Stories
 - State: beta
@@ -10,5 +8,7 @@ _Remake of Star Wars: Yoda Stories._
 - Code repository: https://github.com/cyco/WebFun.git
 - Code language: TypeScript
 - Code license: MIT
+
+Remake of Star Wars: Yoda Stories.
 
 ## Building

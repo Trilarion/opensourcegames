@@ -1,7 +1,5 @@
 # JediOutcastLinux
 
-_Remake of Jedi Knight II: Jedi Outcast._
-
 - Home: https://github.com/xLAva/JediOutcastLinux
 - Inspirations: Star Wars Jedi Knight II: Jedi Outcast
 - State: mature
@@ -10,6 +8,8 @@ _Remake of Jedi Knight II: Jedi Outcast._
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependencies: SDL2
+
+Remake of Jedi Knight II: Jedi Outcast.
 
 ## Building
 

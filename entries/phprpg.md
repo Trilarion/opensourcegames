@@ -1,7 +1,5 @@
 # phpRPG
 
-_Multiplayer role playing game engine which shares common qualities between multiple user dungeons (MUDs), paper & pen RPGs and computer RPGs._
-
 - Home: http://phprpg.org/, https://sourceforge.net/projects/phprpg/
 - State: beta, inactive since 2006
 - Download: https://sourceforge.net/projects/phprpg/files/
@@ -11,5 +9,7 @@ _Multiplayer role playing game engine which shares common qualities between mult
 - Code language: PHP
 - Code license: GPL-2.0
 - Developer: Haeric, Rob Norman, Timothy Chung
+
+Multiplayer role playing game engine which shares common qualities between multiple user dungeons (MUDs), paper & pen RPGs and computer RPGs.
 
 ## Building

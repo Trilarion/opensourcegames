@@ -1,7 +1,5 @@
 # opsu!
 
-_Osu! client._
-
 - Home: https://itdelatrisu.github.io/opsu/
 - Inspirations: Osu! Tatakae! Ouendan
 - State: mature
@@ -10,5 +8,7 @@ _Osu! client._
 - Code language: Java
 - Code license: GPL-3.0
 - Code dependencies: OpenGL, Slick2D
+
+Osu! client.
 
 ## Building

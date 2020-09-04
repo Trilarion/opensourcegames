@@ -1,7 +1,5 @@
 # Athenaeum
 
-_Game library management tool._
-
 - Home: https://gitlab.com/librebob/athenaeum
 - State: beta
 - Platform: Linux
@@ -10,6 +8,8 @@ _Game library management tool._
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependencies: Qt
+
+Game library management tool.
 
 ## Building
 

@@ -1,7 +1,5 @@
 # Vanilla-Conquer
 
-_Remake of Command & Conquer, Command & Conquer: Red Alert._
-
 - Home: https://github.com/Vanilla-Conquer/Vanilla-Conquer
 - Inspirations: Command & Conquer, Command & Conquer: Red Alert
 - State: mature
@@ -11,6 +9,7 @@ _Remake of Command & Conquer, Command & Conquer: Red Alert._
 - Code language: C, C++, Assembly
 - Code license: GPL-3.0
 
+Remake of Command & Conquer, Command & Conquer: Red Alert.
 Based on the open sourced code for the Command & Conquer Remaster and can play the original games content standalone.
 
 ## Building

@@ -1,7 +1,5 @@
 # sfall
 
-_Engine modifications for the classic game Fallout 2 including bug fixes, support for modern operatins systems and additional features for modders._
-
 - Home: https://github.com/phobos2077/sfall
 - Inspirations: Fallout 2
 - State: mature
@@ -10,5 +8,7 @@ _Engine modifications for the classic game Fallout 2 including bug fixes, suppor
 - Code repository: https://github.com/phobos2077/sfall.git
 - Code language: C++, C
 - Code license: GPL-3.0
+
+Engine modifications for the classic game Fallout 2 including bug fixes, support for modern operatins systems and additional features for modders.
 
 ## Building

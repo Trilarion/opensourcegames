@@ -1,7 +1,5 @@
 # OpenTomb
 
-_Remake of Tomb Raider._
-
 - Home: https://opentomb.github.io/
 - Inspirations: Tomb Raider
 - State: beta
@@ -11,6 +9,8 @@ _Remake of Tomb Raider._
 - Code repository: https://github.com/opentomb/OpenTomb.git
 - Code language: C, C++, Lua
 - Code license: LGPL-3.0
+
+Remake of Tomb Raider.
 
 ## Building
 

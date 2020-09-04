@@ -1,7 +1,5 @@
 # OpenLiero
 
-_Remake of Liero._
-
 - Home: http://www.liero.be/, https://code.google.com/archive/p/liero/
 - Inspirations: Liero
 - State: mature, inactive since 2015
@@ -11,6 +9,7 @@ _Remake of Liero._
 - Code license: Custom
 - Code dependencies: SDL
 
+Remake of Liero.
 Liero 1.36. License information at http://www.liero.be/licenses/135/license.txt
 
 ## Building

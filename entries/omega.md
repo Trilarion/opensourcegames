@@ -1,7 +1,5 @@
 # Omega
 
-_Universe Simulator._
-
 - Home: https://github.com/movitto/omega
 - State: beta
 - Keywords: strategy, open content, real time, space
@@ -10,5 +8,7 @@ _Universe Simulator._
 - Code license: AGPL-3.0
 - Assets license: CC BY-SA, Public domain, GPL
 - Developer: Mohammed Morsi, Nicolas Satragno
+
+Universe Simulator.
 
 ## Building

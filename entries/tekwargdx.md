@@ -1,7 +1,5 @@
 # TekwarGDX
 
-_Remake of TekWar._
-
 - Home: http://m210.duke4.net/
 - Media: https://en.wikipedia.org/wiki/William_Shatner%27s_TekWar
 - Inspirations: TekWar
@@ -11,5 +9,7 @@ _Remake of TekWar._
 - Code language: Java
 - Code license: Custom (see buildlic.txt + GPL-3.0)
 - Code dependencies: libGDX
+
+Remake of TekWar.
 
 ## Building

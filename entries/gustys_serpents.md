@@ -1,7 +1,5 @@
 # Gusty's Serpents
 
-_Clone of Snake._
-
 - Home: http://gustysserpents.sourceforge.net/, https://sourceforge.net/projects/gustysserpents/
 - Inspirations: Snake
 - State: beta, inactive since 2014
@@ -13,5 +11,7 @@ _Clone of Snake._
 - Code license: GPL-3.0
 - Code dependencies: OGRE
 - Assets license: CC-BY-NC-SA (music)
+
+Clone of Snake.
 
 ## Building

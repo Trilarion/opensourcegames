@@ -1,7 +1,5 @@
 # HolySpirit
 
-_2D isometric hack'n'slash game._
-
 - Home: https://sourceforge.net/projects/lechemindeladam/
 - State: beta, inactive since 2013
 - Download: https://sourceforge.net/projects/lechemindeladam/files
@@ -10,5 +8,7 @@ _2D isometric hack'n'slash game._
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependencies: SFML
+
+2D isometric hack'n'slash game.
 
 ## Building

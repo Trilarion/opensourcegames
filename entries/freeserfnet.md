@@ -1,7 +1,5 @@
 # Freeserf.net
 
-_Remake of The Settlers._
-
 - Home: https://github.com/Pyrdacor/freeserf.net
 - Inspirations: The Settlers, Freeserf
 - State: mature
@@ -9,6 +7,8 @@ _Remake of The Settlers._
 - Code repository: https://github.com/Pyrdacor/freeserf.net.git
 - Code language: C#
 - Code license: GPL-3.0
+
+Remake of The Settlers.
 
 ## Building
 

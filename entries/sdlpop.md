@@ -1,7 +1,5 @@
 # SDLPoP
 
-_Remake of Prince of Persia._
-
 - Home: https://www.popot.org/get_the_games.php?game=SDLPoP
 - Inspirations: Prince of Persia
 - State: mature
@@ -10,6 +8,8 @@ _Remake of Prince of Persia._
 - Code language: C
 - Code license: GPL-3.0
 - Code dependencies: SDL
+
+Remake of Prince of Persia.
 
 ## Building
 

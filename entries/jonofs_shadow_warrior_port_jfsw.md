@@ -1,7 +1,5 @@
 # JonoF's Shadow Warrior Port (JFSW)
 
-_Remake of Shadow Warrior._
-
 - Home: http://www.jonof.id.au/jfsw/
 - Inspirations: Shadow Warrior
 - State: beta, inactive since 2005
@@ -10,5 +8,7 @@ _Remake of Shadow Warrior._
 - Code repository: https://github.com/jonof/jfsw.git
 - Code language: C
 - Code license: GPL-2.0
+
+Remake of Shadow Warrior.
 
 ## Building

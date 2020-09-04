@@ -1,7 +1,5 @@
 # Stringrolled
 
-_Aka Upsilon Cat is a puzzle platformer._
-
 - Home: https://pyweek.org/e/Rambo/
 - State: beta, inactive since 2008
 - Keywords: platform, open content, puzzle
@@ -11,5 +9,7 @@ _Aka Upsilon Cat is a puzzle platformer._
 - Code dependencies: pygame
 - Assets license: Public domain
 - Developer: Joel Bouchard Lamontagne (logicow code), Isabelle Bouchard (Windbladeicepuppy artwork), Reduz (music), Hubert Lamontagne (madbrain sound), Coda (sound)
+
+Aka Upsilon Cat is a puzzle platformer.
 
 ## Building

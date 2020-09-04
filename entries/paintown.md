@@ -1,7 +1,5 @@
 # PainTown
 
-_2D side scrolling beatem-up engine._
-
 - Home: http://paintown.org/, https://sourceforge.net/projects/paintown/
 - State: mature
 - Download: http://paintown.org/#/downloads, https://sourceforge.net/projects/paintown/files/
@@ -12,6 +10,7 @@ _2D side scrolling beatem-up engine._
 - Code license: 3-clause BSD
 - Code dependencies: Allegro, FreeType, libpng, PyQt
 
+2D side scrolling beatem-up engine.
 Android port is written in Java.
 
 ## Building

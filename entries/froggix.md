@@ -1,7 +1,5 @@
 # Froggix
 
-_Remake of Frogger._
-
 - Home: https://sourceforge.net/projects/froggix/
 - Inspirations: Frogger
 - State: beta, inactive since 2009
@@ -12,5 +10,7 @@ _Remake of Frogger._
 - Code license: GPL-3.0
 - Code dependencies: pygame
 - Developer: Paul Elms
+
+Remake of Frogger.
 
 ## Building

@@ -1,7 +1,5 @@
 # OpenBOR
 
-_2D side scrolling engine for beat em' ups, shooters like Streets of Rage, Double Dragon, Final Fight._
-
 - Home: http://www.chronocrash.com/forum/
 - Inspirations: Streets of Rage, Double Dragon, Final Fight
 - State: mature
@@ -11,6 +9,7 @@ _2D side scrolling engine for beat em' ups, shooters like Streets of Rage, Doubl
 - Code license: 3-clause BSD (https://github.com/DCurrent/openbor/blob/master/LICENSE)
 - Code dependencies: SDL2
 
+2D side scrolling engine for beat em' ups, shooters like Streets of Rage, Double Dragon, Final Fight.
 [Completed modules](http://www.chronocrash.com/forum/index.php?board=10.0)
 
 ## Building

@@ -1,7 +1,5 @@
 # Simitone
 
-_Remake of The Sims._
-
 - Home: https://github.com/riperiperi/Simitone
 - Inspirations: The Sims
 - State: beta
@@ -10,6 +8,7 @@ _Remake of The Sims._
 - Code language: C#
 - Code license: MPL-2.0
 
+Remake of The Sims.
 Simitone is a singleplayer only version of FreeSO.
 
 ## Building

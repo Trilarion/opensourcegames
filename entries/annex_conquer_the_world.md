@@ -1,7 +1,5 @@
 # Annex: Conquer the World
 
-_Fast paced combat with a diverse arsenal._
-
 - Home: http://annexconquer.com/, https://bitbucket.org/annexctw/
 - State: mature, inactive since 2014
 - Download: http://annexconquer.com/downloads/
@@ -13,5 +11,7 @@ _Fast paced combat with a diverse arsenal._
 - Code dependencies: MegaGlest Engine
 - Assets license: CC-BY-SA
 - Developer: DelphaDesign
+
+Fast paced combat with a diverse arsenal.
 
 ## Building

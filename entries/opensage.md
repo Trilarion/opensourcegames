@@ -1,7 +1,5 @@
 # OpenSAGE
 
-_Clone of Command & Conquer: Generals._
-
 - Home: https://opensage.github.io/, http://timjones.io/blog/tags/opensage/
 - Inspirations: Command & Conquer: Generals
 - State: beta
@@ -11,5 +9,7 @@ _Clone of Command & Conquer: Generals._
 - Code repository: https://github.com/OpenSAGE/OpenSAGE.git
 - Code language: C#
 - Code license: LGPL-3.0
+
+Clone of Command & Conquer: Generals.
 
 ## Building

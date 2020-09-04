@@ -1,7 +1,5 @@
 # Simon Tatham's Portable Puzzle Collection
 
-_Collection of multi-platform single-player puzzle games._
-
 - Home: http://www.chiark.greenend.org.uk/~sgtatham/puzzles/, https://chris.boyle.name/projects/android-puzzles/, https://hewgill.com/puzzles/
 - State: mature
 - Platform: Windows, Linux, macOS, Android, iOS
@@ -12,5 +10,7 @@ _Collection of multi-platform single-player puzzle games._
 - Code dependencies: GTK
 - Assets license: MIT
 - Developer: Simon Tatham
+
+Collection of multi-platform single-player puzzle games.
 
 ## Building

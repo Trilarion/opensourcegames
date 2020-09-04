@@ -1,7 +1,5 @@
 # OpenBlox
 
-_Make games with a built-in physics engine, Lego-like building blocks, and a scripting language called Lua._
-
 - Home: https://web.archive.org/web/20121114113914/http://openblox.sourceforge.net/, https://sourceforge.net/projects/openblox/
 - State: beta, inactive since 2011
 - Download: https://sourceforge.net/projects/openblox/files/
@@ -12,5 +10,7 @@ _Make games with a built-in physics engine, Lego-like building blocks, and a scr
 - Code license: GPL-3.0
 - Code dependencies: Panda3D, wxPython
 - Assets license: CC-BY-SA-3.0
+
+Make games with a built-in physics engine, Lego-like building blocks, and a scripting language called Lua.
 
 ## Building

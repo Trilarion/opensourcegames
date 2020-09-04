@@ -1,7 +1,5 @@
 # GNU Chess
 
-_Chess game._
-
 - Home: https://www.gnu.org/software/chess/, http://savannah.gnu.org/projects/chess/
 - Media: https://en.wikipedia.org/wiki/GNU_Chess
 - State: mature, inactive since 2017
@@ -14,6 +12,7 @@ _Chess game._
 - Assets license: None
 - Developer: Chua Kong Sian, Stuart Cracraft, Lukas Geyer, Simon Waters
 
+Chess game.
 Can be used together with a graphical frontend such as XBoard.
 Windows binaries via https://sourceforge.net/projects/gnuwin32/
 

@@ -1,7 +1,5 @@
 # ativayeban
 
-_Clone of Fall Down._
-
 - Home: https://github.com/Nebuleon/ativayeban
 - Inspirations: Fall Down
 - State: mature, inactive since 2015
@@ -10,5 +8,7 @@ _Clone of Fall Down._
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependencies: SDL
+
+Clone of Fall Down.
 
 ## Building

@@ -1,7 +1,5 @@
 # Granatier
 
-_Clone of Bomberman._
-
 - Home: https://invent.kde.org/games/granatier
 - Inspirations: Bomberman
 - State: mature
@@ -10,5 +8,7 @@ _Clone of Bomberman._
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: Qt
+
+Clone of Bomberman.
 
 ## Building

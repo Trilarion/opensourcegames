@@ -1,7 +1,5 @@
 # Blob Wars : Attrition
 
-_2D mission and objective-based platform game._
-
 - Home: https://github.com/stephenjsweeney/blobwarsAttrition
 - Inspirations: Blob Wars Attrition
 - State: mature
@@ -9,5 +7,7 @@ _2D mission and objective-based platform game._
 - Code repository: https://github.com/stephenjsweeney/blobwarsAttrition.git
 - Code language: C, C++
 - Code license: GPL-3.0
+
+2D mission and objective-based platform game.
 
 ## Building

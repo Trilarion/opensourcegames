@@ -1,7 +1,5 @@
 # Open Quartz
 
-_Implementation of the GPL Quake source._
-
 - Home: http://openquartz.sourceforge.net/index.html, https://sourceforge.net/projects/openquartz/
 - State: beta, inactive since 2004
 - Download: https://sourceforge.net/projects/openquartz/files/
@@ -12,6 +10,8 @@ _Implementation of the GPL Quake source._
 - Code license: GPL-2.0
 - Assets license: ? (GPL)
 - Developer: Toddd
+
+Implementation of the GPL Quake source.
 
 ## Building
 

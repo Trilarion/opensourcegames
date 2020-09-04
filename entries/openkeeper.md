@@ -1,7 +1,5 @@
 # OpenKeeper
 
-_Remake of the Dungeon Keeper 2 engine._
-
 - Home: https://github.com/tonihele/OpenKeeper
 - Inspirations: Dungeon Keeper 2
 - State: beta
@@ -10,6 +8,8 @@ _Remake of the Dungeon Keeper 2 engine._
 - Code language: Java
 - Code license: GPL-3.0
 - Code dependencies: jMonkeyEngine
+
+Remake of the Dungeon Keeper 2 engine.
 
 ## Building
 

@@ -1,7 +1,5 @@
 # KittenMaxit
 
-_Remake of Maxit._
-
 - Home: https://web.archive.org/web/20171111010947/http://ahmetk.cf/KittenMaxit/
 - Media: http://www.craigcolvin.com/Moosesoftware/maxit_rules.html
 - Inspirations: Maxit
@@ -12,6 +10,8 @@ _Remake of Maxit._
 - Code language: Java
 - Code license: MIT
 - Code dependencies: libGDX
+
+Remake of Maxit.
 
 ## Building
 

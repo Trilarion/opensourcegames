@@ -1,7 +1,5 @@
 # FreeFalcon
 
-_Clone of Falcon._
-
 - Home: https://web.archive.org/web/20130602155802/http://freefalcon.org/index/
 - Inspirations: Microprose Falcon 4.0 Combat Simulator
 - State: inactive since 2014
@@ -10,6 +8,7 @@ _Clone of Falcon._
 - Code language: C, C++
 - Code license: 2-clause BSD
 
+Clone of Falcon.
 Requires the [wixtoolset](https://wixtoolset.org/).
 
 ## Building

@@ -1,7 +1,5 @@
 # StarBlastrix
 
-_Side scrolling shoot'em up game._
-
 - Home: https://sourceforge.net/projects/starblastrix/
 - State: beta, inactive since 2006
 - Download: https://sourceforge.net/projects/starblastrix/files/
@@ -10,5 +8,7 @@ _Side scrolling shoot'em up game._
 - Code repository: https://gitlab.com/osgames/starblastrix.git (import of sources)
 - Code language: C++
 - Code license: GPL-2.0
+
+Side scrolling shoot'em up game.
 
 ## Building

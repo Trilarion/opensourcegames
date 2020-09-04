@@ -1,7 +1,5 @@
 # Ryzom Core
 
-_MMORPG with open world play._
-
 - Home: https://wiki.ryzom.dev/, https://web.archive.org/web/20160413082305/http://www.ryzomcore.org/
 - Media: https://en.wikipedia.org/wiki/Ryzom
 - Inspirations: Ryzom
@@ -12,6 +10,8 @@ _MMORPG with open world play._
 - Code language: C++
 - Code license: AGPL-3.0
 - Assets license: CC
+
+MMORPG with open world play.
 
 ## Building
 

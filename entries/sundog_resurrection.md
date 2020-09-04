@@ -1,7 +1,5 @@
 # SunDog Resurrection
 
-_Remake of SunDog: Frozen Legacy._
-
 - Home: http://www.sundogresurrectionproject.com/, https://sourceforge.net/projects/sundog/
 - Inspirations: SunDog: Frozen Legacy
 - State: beta
@@ -11,6 +9,7 @@ _Remake of SunDog: Frozen Legacy._
 - Code language: Java, Python
 - Code license: ?
 
+Remake of SunDog: Frozen Legacy.
 Where are the newer sources of the resurrection project? Why is there a NDA for taking part in the beta? Looks not very open.
 
 ## Building

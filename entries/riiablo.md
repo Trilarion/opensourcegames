@@ -1,7 +1,5 @@
 # Riiablo
 
-_Remake of Diablo II._
-
 - Home: https://github.com/collinsmith/riiablo
 - Inspirations: Diablo II
 - State: beta
@@ -10,6 +8,8 @@ _Remake of Diablo II._
 - Code language: Java
 - Code license: Apache-2.0
 - Code dependencies: libGDX, OpenGL
+
+Remake of Diablo II.
 
 ## Building
 

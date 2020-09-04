@@ -1,7 +1,5 @@
 # HTML5 Pacman
 
-_Remake of Pac-Man._
-
 - Home: https://github.com/daleharvey/pacman
 - Inspirations: Pac-Man
 - State: mature, inactive since 2013
@@ -10,5 +8,7 @@ _Remake of Pac-Man._
 - Code repository: https://github.com/daleharvey/pacman.git
 - Code language: JavaScript
 - Code license: WTFPL
+
+Remake of Pac-Man.
 
 ## Building

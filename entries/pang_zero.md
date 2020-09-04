@@ -1,7 +1,5 @@
 # Pang Zero
 
-_Reimplementation and extension of an old arcade game, Super Pang._
-
 - Home: https://sourceforge.net/projects/pangzero/, https://apocalypse.rulez.org/kozos/UpiPangBlog (Hungarian), https://web.archive.org/web/20181023103453/https://apocalypse.rulez.org/pangzero
 - Inspirations: Buster Bros
 - State: beta, inactive since 2007
@@ -12,5 +10,7 @@ _Reimplementation and extension of an old arcade game, Super Pang._
 - Code language: Perl
 - Code license: GPL-2.0
 - Code dependencies: SDL
+
+Reimplementation and extension of an old arcade game, Super Pang.
 
 ## Building

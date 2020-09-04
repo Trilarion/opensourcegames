@@ -1,7 +1,5 @@
 # Dust Racing 2D
 
-_Tile-based, 2D racing game, remake of Micro Machines._
-
 - Home: http://juzzlin.github.io/DustRacing2D/index.html
 - Inspirations: Micro Machines
 - State: mature
@@ -12,6 +10,8 @@ _Tile-based, 2D racing game, remake of Micro Machines._
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependencies: OpenGL, Qt
+
+Tile-based, 2D racing game, remake of Micro Machines.
 
 ## Building
 

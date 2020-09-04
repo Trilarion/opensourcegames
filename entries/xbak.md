@@ -1,7 +1,5 @@
 # xBaK
 
-_Remake of Betrayal at Krondor._
-
 - Home: http://xbak.sourceforge.net/
 - Inspirations: Betrayal at Krondor
 - State: beta, inactive since 2013
@@ -12,6 +10,8 @@ _Remake of Betrayal at Krondor._
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependencies: SDL
+
+Remake of Betrayal at Krondor.
 
 ## Building
 

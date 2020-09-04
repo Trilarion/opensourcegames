@@ -1,7 +1,5 @@
 # wkbre
 
-_Remake of Warrior Kings._
-
 - Home: https://github.com/AdrienTD/wkbre
 - Inspirations: Warrior Kings
 - State: beta
@@ -9,6 +7,8 @@ _Remake of Warrior Kings._
 - Code repository: https://github.com/AdrienTD/wkbre.git
 - Code language: C++, C
 - Code license: GPL-3.0
+
+Remake of Warrior Kings.
 
 ## Building
 

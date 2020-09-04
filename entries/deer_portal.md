@@ -1,7 +1,5 @@
 # Deer Portal
 
-_Hybrid board/card game for four players driven by the four classical elements._
-
 - Home: https://devcarpet.net/deerportal/
 - State: beta
 - Platform: Windows, Linux
@@ -12,5 +10,7 @@ _Hybrid board/card game for four players driven by the four classical elements._
 - Code dependencies: SFML
 - Assets license: CC-BY 4.0
 - Developer: Rafal Zawadzki, Katia Zawadzka
+
+Hybrid board/card game for four players driven by the four classical elements.
 
 ## Building

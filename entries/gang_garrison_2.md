@@ -1,7 +1,5 @@
 # Gang Garrison 2
 
-_Multiplayer 'demake' of Team Fortress 2._
-
 - Home: https://www.ganggarrison.com/
 - Media: https://en.wikipedia.org/wiki/Gang_Garrison_2
 - Inspirations: Team Fortress 2
@@ -13,5 +11,7 @@ _Multiplayer 'demake' of Team Fortress 2._
 - Code language: Game Maker Script
 - Code license: MPL-2.0
 - Code dependencies: Game Maker
+
+Multiplayer 'demake' of Team Fortress 2.
 
 ## Building

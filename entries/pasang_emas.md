@@ -1,7 +1,5 @@
 # Pasang Emas
 
-_Traditional two-player board game of Brunei._
-
 - Home: http://pasang-emas.sourceforge.net/index.xhtml, https://sourceforge.net/projects/pasang-emas/
 - State: mature
 - Download: http://pasang-emas.sourceforge.net/download.xhtml, https://sourceforge.net/projects/pasang-emas/files/
@@ -11,6 +9,7 @@ _Traditional two-player board game of Brunei._
 - Code language: Vala
 - Code license: GPL-3.0
 
+Traditional two-player board game of Brunei.
 See also [Pasang Emas for Android](https://sourceforge.net/projects/pasang-android/).
 
 ## Building

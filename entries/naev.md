@@ -1,7 +1,5 @@
 # Naev
 
-_2D space trading and combat game, taking inspiration from the Escape Velocity series._
-
 - Home: https://web.archive.org/web/20190419231822/http://blog.naev.org/, https://sourceforge.net/projects/naev/
 - Inspirations: Escape Velocity
 - State: mature
@@ -12,6 +10,7 @@ _2D space trading and combat game, taking inspiration from the Escape Velocity s
 - Code license: GPL-3.0
 - Code dependencies: libxml, OpenAL, SDL2
 
+2D space trading and combat game, taking inspiration from the Escape Velocity series.
 Also available on Steam.
 
 ## Building

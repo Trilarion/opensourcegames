@@ -1,7 +1,5 @@
 # Lords of the Fey
 
-_Strategy game inspired by Battle for Wesnoth_
-
 - Home: https://github.com/apsillers/lords-of-the-fey
 - Inspirations: The Battle for Wesnoth
 - State: beta, inactive since 2018
@@ -11,5 +9,7 @@ _Strategy game inspired by Battle for Wesnoth_
 - Code language: JavaScript
 - Code license: AGPL-3.0
 - Assets license: GPL-3.0 (taken from Wesnoth)
+
+Strategy game inspired by Battle for Wesnoth
 
 ## Building

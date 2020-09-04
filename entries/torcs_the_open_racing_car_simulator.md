@@ -1,7 +1,5 @@
 # TORCS, The Open Racing Car Simulator
 
-_Car racing simulation._
-
 - Home: http://torcs.sourceforge.net/, https://sourceforge.net/projects/torcs/, https://packages.debian.org/search?keywords=torcs
 - Inspirations: RARS
 - State: mature, inactive since 2016
@@ -13,5 +11,7 @@ _Car racing simulation._
 - Code license: GPL-2.0
 - Code dependencies: GLUT
 - Assets license: FAL
+
+Car racing simulation.
 
 ## Building

@@ -1,7 +1,5 @@
 # Clonepoint
 
-_Clone of Gunpoint._
-
 - Home: https://rohit.itch.io/clonepoint
 - Inspirations: Gunpoint
 - State: beta
@@ -12,5 +10,7 @@ _Clone of Gunpoint._
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependencies: SDL2
+
+Clone of Gunpoint.
 
 ## Building

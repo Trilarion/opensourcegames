@@ -1,7 +1,5 @@
 # TurokEX
 
-_Remake of Turok._
-
 - Home: https://github.com/svkaiser/TurokEX
 - Inspirations: Turok
 - State: beta, inactive since 2014
@@ -11,6 +9,7 @@ _Remake of Turok._
 - Code license: GPL-2.0
 - Code dependencies: SDL2
 
+Remake of Turok.
 Playable? Does it build? Sufficient development?
 
 ## Building

@@ -1,7 +1,5 @@
 # Isometric Turn-Based Strategy
 
-_Deep, complex tactical turn-based RPG._
-
 - Home: https://sourceforge.net/projects/itbs/
 - State: beta
 - Download: https://sourceforge.net/projects/itbs/files/
@@ -10,5 +8,7 @@ _Deep, complex tactical turn-based RPG._
 - Code language: Python
 - Code license: MIT
 - Code dependencies: pygame
+
+Deep, complex tactical turn-based RPG.
 
 ## Building

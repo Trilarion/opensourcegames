@@ -1,7 +1,5 @@
 # Super Tilt Bro
 
-_Clone of Super Smash Bros.._
-
 - Home: https://sgadrat.itch.io/super-tilt-bro
 - Inspirations: Super Smash Bros.
 - State: mature
@@ -12,6 +10,7 @@ _Clone of Super Smash Bros.._
 - Code language: Assembly, Python
 - Code license: WTFPL
 
+Clone of Super Smash Bros..
 Runs in browser based NES emulator.
 
 ## Building

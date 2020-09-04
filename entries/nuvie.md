@@ -1,7 +1,5 @@
 # Nuvie
 
-_Remake of Ultima VI, Ultima: Worlds of Adventure 2: Martian Dreams, Worlds of Ultima: The Savage Empire._
-
 - Home: http://nuvie.sourceforge.net/, https://sourceforge.net/projects/nuvie/
 - Inspirations: Ultima VI: The False Prophet, Ultima: Worlds of Adventure 2: Martian Dreams, Worlds of Ultima: The Savage Empire
 - State: beta, inactive since 2018
@@ -10,6 +8,7 @@ _Remake of Ultima VI, Ultima: Worlds of Adventure 2: Martian Dreams, Worlds of U
 - Code language: C, C++, Lua
 - Code license: GPL-2.0
 
+Remake of Ultima VI, Ultima: Worlds of Adventure 2: Martian Dreams, Worlds of Ultima: The Savage Empire.
 Does it include alternate graphics?
 
 ## Building

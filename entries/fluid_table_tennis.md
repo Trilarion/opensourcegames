@@ -1,7 +1,5 @@
 # Fluid Table Tennis
 
-_Remake of Plasma Pong._
-
 - Home: http://anirudhjoshi.github.io/fluid_table_tennis/
 - Inspirations: Plasma Pong
 - State: mature, inactive since 2013
@@ -10,5 +8,7 @@ _Remake of Plasma Pong._
 - Code repository: https://github.com/anirudhjoshi/fluid_table_tennis.git
 - Code language: JavaScript
 - Code license: MIT
+
+Remake of Plasma Pong.
 
 ## Building

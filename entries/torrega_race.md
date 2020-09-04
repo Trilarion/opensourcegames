@@ -1,7 +1,5 @@
 # Torrega Race
 
-_Clone of Omega Race._
-
 - Home: https://github.com/andwj/torrega
 - Inspirations: Omega Race
 - State: mature, inactive since 2015
@@ -11,5 +9,7 @@ _Clone of Omega Race._
 - Code license: GPL-3.0
 - Code dependencies: LÖVE
 - Assets license: No assets
+
+Clone of Omega Race.
 
 ## Building

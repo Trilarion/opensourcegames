@@ -1,7 +1,5 @@
 # SDL-Ball
 
-_Arcade breakout-like game._
-
 - Home: http://sdl-ball.sourceforge.net/, https://sourceforge.net/projects/sdl-ball/
 - State: mature, inactive since 2016
 - Download: http://sdl-ball.sourceforge.net/?page=download, https://sourceforge.net/projects/sdl-ball/files/
@@ -13,6 +11,8 @@ _Arcade breakout-like game._
 - Code dependencies: OpenGL, SDL
 - Assets license: ? (GPL)
 - Developer: Jimmy Christensen
+
+Arcade breakout-like game.
 
 ## Building
 

@@ -1,7 +1,5 @@
 # OpenMoM
 
-_Clone of Master of Magic._
-
 - Home: https://github.com/Jakz/openmom
 - Inspirations: Master of Magic
 - State: beta
@@ -10,6 +8,8 @@ _Clone of Master of Magic._
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependencies: SDL2
+
+Clone of Master of Magic.
 
 ## Building
 

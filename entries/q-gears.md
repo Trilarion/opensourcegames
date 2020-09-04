@@ -1,7 +1,5 @@
 # Q-Gears
 
-_Remake of Final Fantasy VII._
-
 - Home: https://github.com/q-gears/q-gears, http://q-gears.sourceforge.net/
 - Inspirations: Final Fantasy VII
 - State: beta, inactive since 2015
@@ -11,6 +9,8 @@ _Remake of Final Fantasy VII._
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependencies: OGRE
+
+Remake of Final Fantasy VII.
 
 ## Building
 

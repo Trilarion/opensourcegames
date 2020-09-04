@@ -1,7 +1,5 @@
 # Other-Life
 
-_A community based game that allows you to affect the future of the game._
-
 - Home: http://www.other-life.com/
 - Media: https://en.wikipedia.org/wiki/Eternal_Lands#Spin-offs
 - State: beta
@@ -11,6 +9,7 @@ _A community based game that allows you to affect the future of the game._
 - Code language: C, C++
 - Code license: Custom (Eternal Lands license, modified QTPL)
 
+A community based game that allows you to affect the future of the game.
 Based on [Eternal Lands](eternal_lands.md).
 
 Mainly a client to connect to Eternal Lands?

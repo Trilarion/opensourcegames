@@ -1,7 +1,5 @@
 # vitetris
 
-_Remake of Tetris._
-
 - Home: http://victornils.net/tetris/
 - Inspirations: Tetris
 - State: beta
@@ -11,6 +9,8 @@ _Remake of Tetris._
 - Code repository: https://github.com/vicgeralds/vitetris.git
 - Code language: C
 - Code license: 2-clause BSD
+
+Remake of Tetris.
 
 ## Building
 

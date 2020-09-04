@@ -1,7 +1,5 @@
 # Crossfire
 
-_Cooperative multiplayer graphical RPG and adventure game._
-
 - Home: http://crossfire.real-time.com/, https://sourceforge.net/projects/crossfire/
 - Media: <https://en.wikipedia.org/wiki/Crossfire_(1992_video_game)>
 - State: mature
@@ -11,6 +9,7 @@ _Cooperative multiplayer graphical RPG and adventure game._
 - Code language: C, Java
 - Code license: GPL-2.0
 
+Cooperative multiplayer graphical RPG and adventure game.
 See also [Gridarta for Crossfire, the map editor](https://sourceforge.net/projects/gridarta/).
 
 ## Building

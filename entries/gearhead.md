@@ -1,7 +1,5 @@
 # GearHead
 
-_Roguelike mecha RPG series._
-
 - Home: http://www.gearheadrpg.com/, https://sourceforge.net/projects/gearhead/
 - State: mature
 - Download: http://www.gearheadrpg.com/downloads/, https://sourceforge.net/projects/gearhead/files/gearhead/
@@ -11,6 +9,7 @@ _Roguelike mecha RPG series._
 - Code license: LGPL-2.1, Apache-2.0
 - Developer: Joseph Hewitt
 
+Roguelike mecha RPG series.
 There are several successors.
 
 ## Building

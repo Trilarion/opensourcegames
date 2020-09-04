@@ -1,7 +1,5 @@
 # Bombic2
 
-_Remake of Bomberman._
-
 - Home: http://bombic2.sourceforge.net/, https://sourceforge.net/projects/bombic2/
 - Inspirations: Bomberman
 - State: beta, inactive since 2010
@@ -11,6 +9,8 @@ _Remake of Bomberman._
 - Code license: GPL-2.0
 - Code dependencies: SDL
 - Developer: Karel Fiser
+
+Remake of Bomberman.
 
 ## Building
 

@@ -1,7 +1,5 @@
 # Odamex
 
-_Remake of Doom, Doom II, Heretic, Hexen._
-
 - Home: https://odamex.net/
 - Inspirations: Doom, Doom II, Heretic, Hexen
 - State: beta
@@ -9,6 +7,8 @@ _Remake of Doom, Doom II, Heretic, Hexen._
 - Code repository: https://github.com/odamex/odamex.git
 - Code language: C, C++
 - Code license: GPL-2.0
+
+Remake of Doom, Doom II, Heretic, Hexen.
 
 ## Building
 

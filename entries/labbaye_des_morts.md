@@ -1,7 +1,5 @@
 # L'Abbaye des Morts
 
-_2D exploration platformer._
-
 - Home: https://www.locomalito.com/abbaye_des_morts.php
 - State: mature, inactive since 2018
 - Platform: Windows, Linux
@@ -12,5 +10,7 @@ _2D exploration platformer._
 - Code dependencies: SDL
 - Assets license: CC-BY
 - Developer: Locomalito
+
+2D exploration platformer.
 
 ## Building

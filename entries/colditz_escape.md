@@ -1,7 +1,5 @@
 # Colditz Escape
 
-_Remake of Escape from Colditz._
-
 - Home: https://aperture-software.github.io/colditz-escape/
 - Media: https://en.wikipedia.org/wiki/Escape_from_Colditz#Adaptations
 - Inspirations: Escape from Colditz
@@ -12,6 +10,8 @@ _Remake of Escape from Colditz._
 - Code repository: https://github.com/aperture-software/colditz-escape.git
 - Code language: C
 - Code license: GPL-3.0
+
+Remake of Escape from Colditz.
 
 ## Building
 

@@ -1,7 +1,5 @@
 # LTris
 
-_Tetris clone._
-
 - Home: http://lgames.sourceforge.net/LTris/, https://sourceforge.net/projects/lgames/
 - State: mature, inactive since 2013
 - Download: https://sourceforge.net/projects/lgames/files/ltris/
@@ -12,5 +10,7 @@ _Tetris clone._
 - Code dependencies: SDL
 - Assets license: GPL-2.0
 - Developer: Michael Speck
+
+Tetris clone.
 
 ## Building

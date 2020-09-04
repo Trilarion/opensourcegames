@@ -1,7 +1,5 @@
 # Doom64EX
 
-_Remake of Doom 64._
-
 - Home: https://doom64ex.wordpress.com/
 - Inspirations: Doom 64
 - State: mature
@@ -12,6 +10,8 @@ _Remake of Doom 64._
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependencies: SDL2
+
+Remake of Doom 64.
 
 ## Building
 

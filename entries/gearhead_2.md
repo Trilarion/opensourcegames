@@ -1,7 +1,5 @@
 # GearHead 2
 
-_Futuristic roguelike, sequel to GearHead._
-
 - Home: https://www.gearheadrpg.com/
 - Inspirations: GearHead
 - State: beta
@@ -12,5 +10,7 @@ _Futuristic roguelike, sequel to GearHead._
 - Code license: LGPL-2.0
 - Assets license: ? (LGPL)
 - Developer: Joseph Hewitt
+
+Futuristic roguelike, sequel to GearHead.
 
 ## Building

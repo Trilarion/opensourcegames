@@ -1,7 +1,5 @@
 # CrossUO
 
-_Ultima Online client._
-
 - Home: https://crossuo.com/
 - Inspirations: Ultima Online
 - State: mature
@@ -11,6 +9,7 @@ _Ultima Online client._
 - Code language: C, C++
 - Code license: GPL-3.0
 
+Ultima Online client.
 Fork of OrionUO
 
 ## Building

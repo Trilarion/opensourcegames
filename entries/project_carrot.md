@@ -1,7 +1,5 @@
 # Project Carrot
 
-_Remake of Jazz Jackrabbit 2._
-
 - Home: https://carrot.soulweaver.fi/
 - Inspirations: Jazz Jackrabbit 2
 - State: beta, inactive since 2017
@@ -11,5 +9,7 @@ _Remake of Jazz Jackrabbit 2._
 - Code language: C++
 - Code license: MIT
 - Code dependencies: Qt, SFML
+
+Remake of Jazz Jackrabbit 2.
 
 ## Building

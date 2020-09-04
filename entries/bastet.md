@@ -1,7 +1,5 @@
 # Bastet
 
-_Simple ncurses-based Tetris clone using a special algorithm to give you the worst possible brick._
-
 - Home: http://fph.altervista.org/prog/bastet.html
 - State: beta, inactive since 2018
 - Keywords: puzzle, open content, skill, tetris-like
@@ -11,6 +9,7 @@ _Simple ncurses-based Tetris clone using a special algorithm to give you the wor
 - Assets license: no assets
 - Developer: Federico Poloni
 
+Simple ncurses-based Tetris clone using a special algorithm to give you the worst possible brick.
 Based on Petris (until v0.43)
 
 ## Building

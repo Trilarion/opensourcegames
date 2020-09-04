@@ -1,7 +1,5 @@
 # SokoSolve
 
-_Sokoban game with enthusiast tools._
-
 - Home: http://sokosolve.sourceforge.net/, https://sourceforge.net/projects/sokosolve/
 - State: mature, inactive since 2009
 - Download: http://sokosolve.sourceforge.net/install.html, https://sourceforge.net/projects/sokosolve/files/
@@ -12,5 +10,7 @@ _Sokoban game with enthusiast tools._
 - Code license: GPL-3.0 (communication with author)
 - Code dependencies: WinForms
 - Developer: Guy Langston
+
+Sokoban game with enthusiast tools.
 
 ## Building

@@ -1,7 +1,5 @@
 # Ostrich Riders
 
-_Remake of Joust._
-
 - Home: http://identicalsoftware.com/ostrichriders/
 - Inspirations: Joust
 - State: beta
@@ -9,6 +7,8 @@ _Remake of Joust._
 - Code repository: https://github.com/dulsi/ostrichriders.git
 - Code language: C++
 - Code license: GPL-3.0
+
+Remake of Joust.
 
 ## Building
 

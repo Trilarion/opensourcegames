@@ -1,7 +1,5 @@
 # Bombic
 
-_Remake of Bomberman, another Dynablaster clone._
-
 - Home: http://bombic.sourceforge.net/, https://sourceforge.net/projects/bombic/
 - Inspirations: Bomberman
 - State: beta, inactive since 2005
@@ -12,6 +10,8 @@ _Remake of Bomberman, another Dynablaster clone._
 - Code language: C++, Objective-C
 - Code license: GPL-2.0
 - Code dependencies: SDL
+
+Remake of Bomberman, another Dynablaster clone.
 
 ## Building
 

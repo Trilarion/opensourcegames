@@ -1,12 +1,12 @@
 # Creep Smash
 
-_Multiplayer tower defense game._
-
 - Home: https://web.archive.org/web/20120414174119/http://towerdefence.hft-stuttgart.de/, https://sourceforge.net/projects/creepsmash/
 - State: beta, inactive since 2011
 - Keywords: action, multiplayer online, open content, tower defense
 - Code repository: https://github.com/khakulov/CreepTD.git, https://svn.code.sf.net/p/creepsmash/code (svn)
 - Code language: Java
 - Code license: GPL-3.0
+
+Multiplayer tower defense game.
 
 ## Building

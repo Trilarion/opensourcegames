@@ -1,7 +1,5 @@
 # Psyco
 
-_Python specializing compiler._
-
 - Home: http://psyco.sourceforge.net/, https://sourceforge.net/projects/psyco/
 - State: mature, inactive since 2008
 - Download: http://psyco.sourceforge.net/download.html
@@ -11,6 +9,7 @@ _Python specializing compiler._
 - Code language: C
 - Code license: MIT
 
+Python specializing compiler.
 Unmaintained, refers to pypy.org
 
 ## Building

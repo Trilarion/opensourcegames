@@ -1,7 +1,5 @@
 # Evol Online
 
-_MMORPG._
-
 - Home: http://evolonline.org/
 - State: mature
 - Download: http://evolonline.org/manaplus
@@ -10,6 +8,8 @@ _MMORPG._
 - Code language: C
 - Code license: GPL-3.0
 - Code dependencies: Mana source engine
+
+MMORPG.
 
 ## Building
 

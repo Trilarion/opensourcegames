@@ -1,7 +1,5 @@
 # FLTK Recycling Game!
 
-_Simple arcade game where you control a guy who is trying to sort the garbage falling from above into three recycling containers._
-
 - Home: http://www.thregr.org/~wavexx/software/regame/
 - State: mature, inactive since 2014
 - Platform: Windows, Linux, macOS
@@ -12,5 +10,7 @@ _Simple arcade game where you control a guy who is trying to sort the garbage fa
 - Code dependencies: FLTK, libpng
 - Assets license: LGPL
 - Developer: Yuri D'Elia
+
+Simple arcade game where you control a guy who is trying to sort the garbage falling from above into three recycling containers.
 
 ## Building

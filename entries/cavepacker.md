@@ -1,7 +1,5 @@
 # CavePacker
 
-_Clone of Sokoban._
-
 - Home: http://www.caveproductions.org/
 - Inspirations: Sokoban
 - State: mature
@@ -10,6 +8,8 @@ _Clone of Sokoban._
 - Code language: JavaScript, C, C++, Lua
 - Code license: GPL-3.0
 - Code dependencies: SDL
+
+Clone of Sokoban.
 
 ## Building
 

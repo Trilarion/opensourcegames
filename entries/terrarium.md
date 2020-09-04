@@ -1,7 +1,5 @@
 # terrarium
 
-_Remake of Terraria._
-
 - Home: https://gitlab.com/hydren/terrarium
 - Media: https://en.wikipedia.org/wiki/Terraria
 - Inspirations: Terraria
@@ -11,6 +9,8 @@ _Remake of Terraria._
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: Allegro, SDL, SFML
+
+Remake of Terraria.
 
 ## Building
 

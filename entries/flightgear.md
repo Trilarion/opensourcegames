@@ -1,7 +1,5 @@
 # FlightGear
 
-_Flight simulator developed since 1997._
-
 - Home: https://www.flightgear.org/, https://sourceforge.net/projects/flightgear/
 - Media: https://en.wikipedia.org/wiki/FlightGear
 - Inspirations: Microsoft Flight Simulator
@@ -12,6 +10,8 @@ _Flight simulator developed since 1997._
 - Code repository: https://git.code.sf.net/p/flightgear/flightgear
 - Code language: C++
 - Code license: GPL-2.0
+
+Flight simulator developed since 1997.
 
 ## Building
 

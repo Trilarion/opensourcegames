@@ -1,7 +1,5 @@
 # Zelda Classic
 
-_Game and editing tool for creating custom Legend of Zelda quests._
-
 - Home: https://www.zeldaclassic.com/
 - Inspirations: Legend of Zelda
 - State: mature
@@ -11,5 +9,7 @@ _Game and editing tool for creating custom Legend of Zelda quests._
 - Code repository: https://github.com/ArmageddonGames/ZeldaClassic.git
 - Code language: C, C++
 - Code license: GPL-3.0
+
+Game and editing tool for creating custom Legend of Zelda quests.
 
 ## Building

@@ -1,7 +1,5 @@
 # Trip on the Funny Boat
 
-_Side-scrolling arcade shooter game._
-
 - Home: http://funnyboat.sourceforge.net/, https://sourceforge.net/projects/funnyboat/, https://packages.debian.org/search?keywords=funnyboat
 - State: mature, inactive since 2007
 - Download: http://funnyboat.sourceforge.net/download.php, https://sourceforge.net/projects/funnyboat/files/
@@ -14,6 +12,7 @@ _Side-scrolling arcade shooter game._
 - Assets license: Expat license
 - Developer: Puskutraktori (code, graphics and sound effects by Pekka "pekuja" Kujansuu), Olli "Hectigo" Etuaho (graphics and code), Joona "JDruid" Karjalainen (music), Konstantin Yegupov
 
+Side-scrolling arcade shooter game.
 Uses fonts by Bitstream Inc.
 
 ## Building

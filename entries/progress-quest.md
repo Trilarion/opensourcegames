@@ -1,7 +1,5 @@
 # progress-quest
 
-_Remake of Progress Quest._
-
 - Home: https://github.com/sandsmark/progress-quest
 - Inspirations: Progress Quest
 - State: mature
@@ -11,6 +9,7 @@ _Remake of Progress Quest._
 - Code license: MIT
 - Code dependencies: Qt
 
+Remake of Progress Quest.
 More or less feature parity with the original, saving/loading/etc. works.
 
 ## Building

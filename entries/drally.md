@@ -1,7 +1,5 @@
 # dRally
 
-_Remake of Death Rally._
-
 - Home: https://github.com/urxp/drally
 - Inspirations: Death Rally
 - State: beta
@@ -10,5 +8,7 @@ _Remake of Death Rally._
 - Code language: Assembly, C
 - Code license: MIT
 - Code dependencies: SDL2
+
+Remake of Death Rally.
 
 ## Building

@@ -1,7 +1,5 @@
 # XPilot NG
 
-_Remake of XPilot._
-
 - Home: http://xpilot.sourceforge.net/
 - Inspirations: XPilot
 - State: mature, inactive since 2010
@@ -11,5 +9,7 @@ _Remake of XPilot._
 - Code repository: http://xpilot.cvs.sourceforge.net/ (cvs)
 - Code language: C
 - Code license: GPL-2.0
+
+Remake of XPilot.
 
 ## Building

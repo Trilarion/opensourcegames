@@ -1,7 +1,5 @@
 # ET: Legacy
 
-_Fully compatible client and server for the online FPS game Wolfenstein: Enemy Territory._
-
 - Home: https://www.etlegacy.com/
 - Inspirations: Wolfenstein: Enemy Territory
 - State: mature
@@ -11,6 +9,8 @@ _Fully compatible client and server for the online FPS game Wolfenstein: Enemy T
 - Code repository: https://github.com/etlegacy/etlegacy.git
 - Code language: C, C++, Lua
 - Code license: GPL-3.0
+
+Fully compatible client and server for the online FPS game Wolfenstein: Enemy Territory.
 
 ## Building
 

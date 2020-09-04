@@ -1,7 +1,5 @@
 # OpenCrystalCaves
 
-_Remake of Crystal Caves._
-
 - Home: https://github.com/gurka/OpenCrystalCaves
 - Inspirations: Crystal Caves
 - State: beta, inactive since 2017
@@ -9,5 +7,7 @@ _Remake of Crystal Caves._
 - Code repository: https://github.com/gurka/OpenCrystalCaves.git
 - Code language: C++
 - Code license: MIT
+
+Remake of Crystal Caves.
 
 ## Building

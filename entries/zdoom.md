@@ -1,7 +1,5 @@
 # ZDoom
 
-_Remake of Doom, Doom II, Heretic, Hexen._
-
 - Home: http://zdoom.org/, https://sourceforge.net/projects/zdoom/
 - Inspirations: Doom, Doom II, Heretic, Hexen
 - State: mature
@@ -12,6 +10,7 @@ _Remake of Doom, Doom II, Heretic, Hexen._
 - Code language: C, C++, ZenScript
 - Code license: GPL-3.0
 
+Remake of Doom, Doom II, Heretic, Hexen.
 Maybe ZDoom and GZDoom should be splitted.
 
 ## Building

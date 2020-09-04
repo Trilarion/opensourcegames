@@ -1,7 +1,5 @@
 # ElonaFoobar
 
-_Remake of Elona._
-
 - Home: https://elonafoobar.com/en/
 - Inspirations: Elona
 - State: mature
@@ -11,6 +9,8 @@ _Remake of Elona._
 - Code language: C++, Lua
 - Code license: MIT
 - Code dependencies: SDL2
+
+Remake of Elona.
 
 ## Building
 

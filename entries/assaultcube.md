@@ -1,7 +1,5 @@
 # AssaultCube
 
-_Shooter game, based on the CUBE engine._
-
 - Home: https://assault.cubers.net/, https://sourceforge.net/projects/actiongame/ (old)
 - Media: https://en.wikipedia.org/wiki/AssaultCube
 - Inspirations: CUBE engine
@@ -12,6 +10,8 @@ _Shooter game, based on the CUBE engine._
 - Code language: C, C++
 - Code license: Custom (zlib like)
 - Code dependencies: SDL
+
+Shooter game, based on the CUBE engine.
 
 ## Building
 

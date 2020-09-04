@@ -1,7 +1,5 @@
 # OpenAlchemist
 
-_Falling block puzzle game._
-
 - Home: http://www.openalchemist.com/, https://sourceforge.net/projects/openalchemist/
 - Inspirations: NaturalChimie
 - State: beta, inactive since 2010
@@ -14,5 +12,7 @@ _Falling block puzzle game._
 - Code dependencies: ClanLib
 - Assets license: CC-BY-SA 2.0
 - Developer: Antoine Morineau (graphics), Guillaume Delhumeau (code), silkut (win32 port), MrPouit (Ubuntu packages)
+
+Falling block puzzle game.
 
 ## Building

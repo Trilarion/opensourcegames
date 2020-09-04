@@ -1,7 +1,5 @@
 # Chess3D
 
-_3D chess game with AI._
-
 - Home: http://yanngranjon.com/static/games/chess3D/
 - State: mature, inactive since 2016
 - Platform: Web
@@ -12,5 +10,7 @@ _3D chess game with AI._
 - Code dependencies: WebGL
 - Assets license: GPL-3.0
 - Developer: FrenchYann
+
+3D chess game with AI.
 
 ## Building

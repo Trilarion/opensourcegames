@@ -1,7 +1,5 @@
 # Wolf3dX
 
-_Remake of Wolfenstein 3D._
-
 - Home: https://github.com/francot514/Wolf3dX
 - Inspirations: Wolfenstein 3D
 - State: beta
@@ -10,6 +8,7 @@ _Remake of Wolfenstein 3D._
 - Code language: C#
 - Code license: GPL-2.0
 
+Remake of Wolfenstein 3D.
 Monogame implementation remake that works with any game version.
 
 ## Building

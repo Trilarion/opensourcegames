@@ -1,7 +1,5 @@
 # Boohu
 
-_Break Out Of Hareka's Underground is a turn-based roguelike focusing on tactical positioning mechanisms._
-
 - Home: https://download.tuxfamily.org/boohu/index.html
 - State: beta
 - Download: https://download.tuxfamily.org/boohu/downloads/
@@ -11,5 +9,7 @@ _Break Out Of Hareka's Underground is a turn-based roguelike focusing on tactica
 - Code language: Go
 - Code license: ISC
 - Assets license: ISC
+
+Break Out Of Hareka's Underground is a turn-based roguelike focusing on tactical positioning mechanisms.
 
 ## Building

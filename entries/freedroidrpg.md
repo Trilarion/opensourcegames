@@ -1,7 +1,5 @@
 # FreedroidRPG
 
-_Role playing game._
-
 - Home: https://www.freedroid.org/, https://sourceforge.net/projects/freedroid/
 - Media: https://de.wikipedia.org/wiki/FreedroidRPG (German)
 - Inspirations: Paradroid
@@ -12,6 +10,7 @@ _Role playing game._
 - Code language: C, C++, Lua
 - Code license: GPL-2.0
 
+Role playing game.
 See also [FreedroidClassic](https://sourceforge.net/projects/freedroid/files/freedroidClassic/).
 
 ## Building

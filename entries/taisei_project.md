@@ -1,7 +1,5 @@
 # Taisei Project
 
-_Remake of Touhou._
-
 - Home: https://taisei-project.org/
 - Inspirations: Touhou
 - State: mature
@@ -13,6 +11,8 @@ _Remake of Touhou._
 - Code language: C, Python
 - Code license: MIT
 - Code dependencies: OpenGL, SDL2
+
+Remake of Touhou.
 
 ## Building
 

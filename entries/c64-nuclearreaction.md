@@ -1,7 +1,5 @@
 # c64-nuclearreaction
 
-_Remake of Nuclear Reaction._
-
 - Home: https://github.com/maikmerten/c64-nuclearreaction
 - Inspirations: Nuclear Reaction
 - State: mature, inactive since 2014
@@ -9,5 +7,7 @@ _Remake of Nuclear Reaction._
 - Code repository: https://github.com/maikmerten/c64-nuclearreaction.git
 - Code language: C, Assembly
 - Code license: GPL-3.0
+
+Remake of Nuclear Reaction.
 
 ## Building

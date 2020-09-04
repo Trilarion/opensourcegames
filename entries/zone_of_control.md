@@ -1,7 +1,5 @@
 # Zone of Control
 
-_Turn-based hexagonal strategy game written in Rust._
-
 - Home: https://github.com/ozkriff/zoc, https://ozkriff.games/2017-08-17--devlog/
 - State: beta, inactive since 2017
 - Download: https://github.com/ozkriff/zoc/releases
@@ -9,5 +7,7 @@ _Turn-based hexagonal strategy game written in Rust._
 - Code repository: https://github.com/ozkriff/zoc.git
 - Code language: Rust
 - Code license: Apache-2.0
+
+Turn-based hexagonal strategy game written in Rust.
 
 ## Building

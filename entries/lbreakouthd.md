@@ -1,7 +1,5 @@
 # LBreakoutHD
 
-_Breakout clone - a remake of LBreakout2 with improved graphics._
-
 - Home: http://lgames.sourceforge.net/LBreakoutHD/, https://sourceforge.net/projects/lgames/
 - Inspirations: Breakout
 - State: mature
@@ -15,6 +13,7 @@ _Breakout clone - a remake of LBreakout2 with improved graphics._
 - Assets license: ? (GPL-3.0)
 - Developer: Michael Speck
 
+Breakout clone - a remake of LBreakout2 with improved graphics.
 The gameplay of LBreakout2 is (mostly) preserved and it includes all levels from LBreakout2.
 
 ## Building

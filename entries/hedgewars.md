@@ -1,7 +1,5 @@
 # Hedgewars
 
-_Clone of Worms Series._
-
 - Home: http://hedgewars.org/
 - Inspirations: Worms Series
 - State: mature
@@ -12,6 +10,8 @@ _Clone of Worms Series._
 - Code language: Lua, C, C++, Pascal, Haskell
 - Code license: GPL-2.0
 - Code dependencies: Qt, SDL
+
+Clone of Worms Series.
 
 ## Building
 

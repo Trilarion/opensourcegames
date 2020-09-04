@@ -1,7 +1,5 @@
 # Wind Waker Randomizer
 
-_Tool of The Legend of Zelda: The Wind Waker._
-
 - Home: https://github.com/LagoLunatic/wwrando
 - Inspirations: The Legend of Zelda: The Wind Waker
 - State: mature
@@ -11,6 +9,7 @@ _Tool of The Legend of Zelda: The Wind Waker._
 - Code language: Python, Assembly
 - Code license: MIT
 
+Tool of The Legend of Zelda: The Wind Waker.
 It randomizes all the items in the game so that each playthrough is unique and you never know where a particular item will be.
 
 ## Building

@@ -1,7 +1,5 @@
 # MegaGlest
 
-_Cross-platform 3D real-time strategy (RTS) game._
-
 - Home: https://megaglest.org/, https://sourceforge.net/projects/megaglest/
 - Media: https://en.wikipedia.org/wiki/MegaGlest
 - Inspirations: Glest
@@ -13,6 +11,7 @@ _Cross-platform 3D real-time strategy (RTS) game._
 - Code license: GPL-3.0
 - Assets license: CC-BY-SA
 
+Cross-platform 3D real-time strategy (RTS) game.
 Fork of [Glest](glest.md)
 
 ## Building

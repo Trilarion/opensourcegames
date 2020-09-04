@@ -1,7 +1,5 @@
 # Simple DirectMedia Layer
 
-_Cross-platform development library designed to provide low level access._
-
 - Home: https://www.libsdl.org/index.php
 - Media: https://en.wikipedia.org/wiki/Simple_DirectMedia_Layer
 - State: mature
@@ -11,6 +9,7 @@ _Cross-platform development library designed to provide low level access._
 - Code language: C
 - Code license: zlib
 
+Cross-platform development library designed to provide low level access.
 + Bindings: [C#, Lua, Python, ..](https://www.libsdl.org/languages.php)
 
 ## Building

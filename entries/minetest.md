@@ -1,7 +1,5 @@
 # Minetest
 
-_Voxel game engine._
-
 - Home: https://www.minetest.net/
 - Inspirations: Minecraft
 - State: mature
@@ -13,6 +11,8 @@ _Voxel game engine._
 - Code license: LGPL-2.1
 - Code dependencies: Irrlicht Engine
 - Assets license: CC-BY-SA-3.0
+
+Voxel game engine.
 
 ## Building
 

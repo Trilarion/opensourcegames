@@ -1,7 +1,5 @@
 # Spartan Engine
 
-_Game engine targeting high end machines._
-
 - Home: https://github.com/PanosK92/SpartanEngine
 - State: beta
 - Platform: Windows
@@ -9,6 +7,8 @@ _Game engine targeting high end machines._
 - Code repository: https://github.com/PanosK92/SpartanEngine.git
 - Code language: C, C++
 - Code license: MIT
+
+Game engine targeting high end machines.
 
 ## Building
 

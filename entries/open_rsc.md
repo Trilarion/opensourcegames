@@ -1,7 +1,5 @@
 # Open RSC
 
-_As close of a replica Runescape game experience as possible._
-
 - Home: https://runescapeclassic.dev/, https://web.archive.org/web/20200510133848/https://openrsc.com/
 - Inspirations: Runescape Classic
 - State: mature
@@ -12,6 +10,7 @@ _As close of a replica Runescape game experience as possible._
 - Code language: Java
 - Code license: GPL-3.0
 
+As close of a replica Runescape game experience as possible.
 See also the Wikipedia entry for [RuneScape](https://en.wikipedia.org/wiki/RuneScape).
 
 ## Building

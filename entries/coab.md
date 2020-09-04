@@ -1,7 +1,5 @@
 # coab
 
-_Remake of Curse of the Azure Bonds._
-
 - Home: https://github.com/simeonpilgrim/coab, https://web.archive.org/web/20150506070020/http://code.google.com/p/coab/
 - Inspirations: Curse of the Azure Bonds
 - State: mature
@@ -10,5 +8,7 @@ _Remake of Curse of the Azure Bonds._
 - Code language: C#
 - Code license: ? (BSD)
 - Code dependencies: .NET
+
+Remake of Curse of the Azure Bonds.
 
 ## Building

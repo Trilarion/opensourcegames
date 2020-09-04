@@ -1,7 +1,5 @@
 # Ghostly
 
-_Remake of Pac-Man._
-
 - Home: https://github.com/sandsmark/aicompo-tg17
 - Inspirations: Pac-Man
 - State: mature, inactive since 2016
@@ -11,6 +9,7 @@ _Remake of Pac-Man._
 - Code license: GPL-3.0
 - Code dependencies: Qt
 
+Remake of Pac-Man.
 Multiplayer Pac-Man where you control the ghosts. Designed as a programming game, but has human controls. Considered finished, but bugs will be fixed etc.
 
 ## Building

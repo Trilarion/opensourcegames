@@ -1,7 +1,5 @@
 # Quatter
 
-_Quarto board game implementation._
-
 - Home: https://luckeyproductions.itch.io/quatter
 - Media: <https://en.wikipedia.org/wiki/Quarto_(board_game)>
 - State: mature, inactive since 2018
@@ -12,5 +10,7 @@ _Quarto board game implementation._
 - Code dependencies: Urho3D
 - Assets license: CC-BY-SA
 - Developer: LucKey Productions
+
+Quarto board game implementation.
 
 ## Building

@@ -1,7 +1,5 @@
 # WallBall
 
-_Clone of JezzBall._
-
 - Home: https://github.com/plainsightcollection/plainsightcollection.github.io
 - Inspirations: JezzBall
 - State: mature
@@ -12,5 +10,7 @@ _Clone of JezzBall._
 - Code language: Haxe, JavaScript
 - Code license: GPL-3.0
 - Code dependencies: Starling
+
+Clone of JezzBall.
 
 ## Building

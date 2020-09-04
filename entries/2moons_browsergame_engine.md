@@ -1,7 +1,5 @@
 # 2Moons Browsergame Engine
 
-_Space browsergame framework._
-
 - Home: https://github.com/jkroepke/2Moons
 - State: mature
 - Download: https://github.com/jkroepke/2Moons/releases
@@ -11,5 +9,7 @@ _Space browsergame framework._
 - Code language: PHP, JavaScript
 - Code license: MIT
 - Developer: Jan-Otto Kröpke, Ozan Kurt, Hilarious001
+
+Space browsergame framework.
 
 ## Building

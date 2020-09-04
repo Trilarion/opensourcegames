@@ -1,7 +1,5 @@
 # Arcane-Engine
 
-_Real-time, physically based renderer._
-
 - Home: https://github.com/Ershany/Arcane-Engine
 - State: beta
 - Platform: Windows
@@ -10,6 +8,8 @@ _Real-time, physically based renderer._
 - Code language: C++
 - Code license: MIT
 - Code dependencies: ImGUI, OpenGL
+
+Real-time, physically based renderer.
 
 ## Building
 

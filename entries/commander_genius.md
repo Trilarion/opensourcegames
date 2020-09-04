@@ -1,7 +1,5 @@
 # Commander Genius
 
-_Remake of Commander Keen Series._
-
 - Home: http://clonekeenplus.sourceforge.net/, https://sourceforge.net/projects/clonekeenplus/
 - Inspirations: Commander Keen Series
 - State: mature
@@ -12,6 +10,7 @@ _Remake of Commander Keen Series._
 - Code language: C, C++
 - Code license: GPL-2.0
 
+Remake of Commander Keen Series.
 Many different repositories on Github with different licenses.
 
 ## Building

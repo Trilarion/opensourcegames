@@ -1,7 +1,5 @@
 # War Of Kingdom
 
-_Turn-based tactical strategy game._
-
 - Home: http://www.freeors.com/ (chinese)
 - State: beta
 - Keywords: strategy
@@ -9,5 +7,7 @@ _Turn-based tactical strategy game._
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependencies: Rose (https://github.com/freeors/Rose)
+
+Turn-based tactical strategy game.
 
 ## Building

@@ -1,7 +1,5 @@
 # OldSkool Gravity Game
 
-_Side-scroller/arcade lunar-lander-like game._
-
 - Home: https://sourceforge.net/projects/osgg/
 - State: mature, inactive since 2016
 - Download: https://sourceforge.net/projects/osgg/files/
@@ -13,6 +11,8 @@ _Side-scroller/arcade lunar-lander-like game._
 - Code dependencies: OpenGL, SDL
 - Assets license: Artistic license-1.0 (font)
 - Developer: Jimmy Christensen
+
+Side-scroller/arcade lunar-lander-like game.
 
 ## Building
 

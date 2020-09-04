@@ -1,7 +1,5 @@
 # Digbuild
 
-_Remake of Minecraft._
-
 - Home: http://blog.mezeske.com/?p=507
 - Inspirations: Minecraft
 - State: beta, inactive since 2011
@@ -10,6 +8,8 @@ _Remake of Minecraft._
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependencies: GLEW, SDL
+
+Remake of Minecraft.
 
 ## Building
 

@@ -1,7 +1,5 @@
 # Dedalus
 
-_Authoring system for generating adventure narratives._
-
 - Home: https://github.com/pistacchio/Dedalus
 - State: beta, inactive since 2018
 - Platform: Web
@@ -10,5 +8,7 @@ _Authoring system for generating adventure narratives._
 - Code language: JavaScript
 - Code license: GPL-2.0
 - Code dependencies: jQuery
+
+Authoring system for generating adventure narratives.
 
 ## Building

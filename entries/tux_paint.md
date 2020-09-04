@@ -1,7 +1,5 @@
 # Tux Paint
 
-_Drawing game intended for children ages 3 to 12. The user is presented with a blank canvas and a variety of drawing tools to help them be creative._
-
 - Home: http://tuxpaint.org/, https://sourceforge.net/projects/tuxpaint/
 - State: beta
 - Download: http://tuxpaint.org/download/, https://sourceforge.net/projects/tuxpaint/files/
@@ -12,6 +10,8 @@ _Drawing game intended for children ages 3 to 12. The user is presented with a b
 - Code license: GPL-2.0
 - Assets license: ? (GPL-2.0 + Public Domain)
 - Developer: New Breed Software, Bill Kendrick
+
+Drawing game intended for children ages 3 to 12. The user is presented with a blank canvas and a variety of drawing tools to help them be creative.
 
 ## Building
 

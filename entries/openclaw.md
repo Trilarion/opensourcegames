@@ -1,7 +1,5 @@
 # OpenClaw
 
-_Remake of Claw._
-
 - Home: https://github.com/pjasicek/OpenClaw
 - Inspirations: Claw
 - State: mature
@@ -10,6 +8,8 @@ _Remake of Claw._
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependencies: Box2D, SDL
+
+Remake of Claw.
 
 ## Building
 

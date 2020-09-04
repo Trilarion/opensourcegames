@@ -1,7 +1,5 @@
 # GLtron
 
-_3D snake game based on the light cycle portion of the film Tron._
-
 - Home: http://www.gltron.org/, https://sourceforge.net/projects/gltron/
 - Media: https://en.wikipedia.org/wiki/GLtron
 - State: beta, inactive since 2017
@@ -12,5 +10,7 @@ _3D snake game based on the light cycle portion of the film Tron._
 - Code language: C
 - Code license: GPL
 - Code dependencies: SDL
+
+3D snake game based on the light cycle portion of the film Tron.
 
 ## Building

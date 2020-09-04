@@ -1,7 +1,5 @@
 # FunLabyrinthe
 
-_Maze-game._
-
 - Home: https://sourceforge.net/projects/funlaby/
 - State: mature, inactive since 2012
 - Download: https://sourceforge.net/projects/funlaby/files/
@@ -10,5 +8,7 @@ _Maze-game._
 - Code repository: (see download)
 - Code language: Pascal
 - Code license: GPL-2.0
+
+Maze-game.
 
 ## Building

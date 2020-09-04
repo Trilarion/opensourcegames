@@ -1,7 +1,5 @@
 # Libre Pinball
 
-_Pinball game._
-
 - Home: https://github.com/Calinou/libre-pinball
 - State: beta, inactive since 2015
 - Keywords: sports, open content
@@ -10,5 +8,7 @@ _Pinball game._
 - Code license: MIT
 - Code dependencies: Godot
 - Assets license: CC0, CC-BY-SA-3.0
+
+Pinball game.
 
 ## Building

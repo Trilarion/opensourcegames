@@ -1,7 +1,5 @@
 # OpenLara
 
-_Remake of Tomb Raider._
-
 - Home: https://github.com/XProger/OpenLara
 - Inspirations: Tomb Raider
 - State: mature
@@ -12,5 +10,7 @@ _Remake of Tomb Raider._
 - Code language: C++
 - Code license: 2-clause BSD
 - Code dependencies: WebGL
+
+Remake of Tomb Raider.
 
 ## Building

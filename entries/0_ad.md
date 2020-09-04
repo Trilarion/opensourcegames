@@ -1,7 +1,5 @@
 # 0 A.D.
 
-_Real-time strategy game._
-
 - Home: https://play0ad.com/, https://sourceforge.net/projects/zero-ad/
 - Media: <https://en.wikipedia.org/wiki/0_A.D._(video_game)>
 - Inspirations: Age of Empires
@@ -16,6 +14,7 @@ _Real-time strategy game._
 - Assets license: CC-BY-SA-3.0
 - Developer: Erik Johansson, Ben Brian, Nicolas Auvray, Philip Taylor, Lancelot de Ferrière, s0600204, Kieran Pilkington, leper, Pureon
 
+Real-time strategy game.
 Engine part is called Pyrogenesis.
 
 ## Building

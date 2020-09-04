@@ -1,7 +1,5 @@
 # Trackballs
 
-_Remake of Marble Madness._
-
 - Home: https://trackballs.github.io
 - Inspirations: Marble Madness
 - State: mature
@@ -12,5 +10,7 @@ _Remake of Marble Madness._
 - Code language: C++, Scheme
 - Code license: GPL-2.0
 - Code dependencies: GNU Guile, SDL2
+
+Remake of Marble Madness.
 
 ## Building

@@ -1,7 +1,5 @@
 # Free Heroes 2
 
-_Free implementation of Heroes of the Might and Magic II engine._
-
 - Home: https://sourceforge.net/projects/fheroes2/
 - Inspirations: Heroes of Might and Magic II
 - State: beta, inactive since 2015
@@ -11,6 +9,7 @@ _Free implementation of Heroes of the Might and Magic II engine._
 - Code language: C++
 - Code license: GPL-2.0
 
+Free implementation of Heroes of the Might and Magic II engine.
 Requires original content?
 
 ## Building

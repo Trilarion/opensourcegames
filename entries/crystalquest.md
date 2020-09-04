@@ -1,7 +1,5 @@
 # CrystalQuest
 
-_Remake of Crystal Quest._
-
 - Home: https://haleymt.github.io/CrystalQuest/
 - Inspirations: Crystal Quest
 - State: mature, inactive since 2017
@@ -10,5 +8,7 @@ _Remake of Crystal Quest._
 - Code language: JavaScript
 - Code license: MIT
 - Code dependencies: jQuery
+
+Remake of Crystal Quest.
 
 ## Building

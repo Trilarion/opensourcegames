@@ -1,7 +1,5 @@
 # Netrek
 
-_Multi-player battle simulation with a Star Trek theme._
-
 - Home: https://www.netrek.org/, https://sourceforge.net/projects/netrek/, http://mactrek.sourceforge.net/Welcome.html
 - Media: https://en.wikipedia.org/wiki/Netrek
 - State: mature, inactive since 2009
@@ -13,6 +11,7 @@ _Multi-player battle simulation with a Star Trek theme._
 - Code language: C
 - Code license: Custom (permissive)
 
+Multi-player battle simulation with a Star Trek theme.
 See also [JTrek](http://ftp.netrek.org/pub/netrek/clients/jtrek/), [Netrek RES-RSA](https://launchpad.net/netrek-res-rsa), [HTML5 netrek](https://github.com/apsillers/html5-netrek)
 
 ## Building

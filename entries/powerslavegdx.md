@@ -1,7 +1,5 @@
 # PowerslaveGDX
 
-_Remake of Powerslave._
-
 - Home: http://m210.duke4.net/
 - Inspirations: Powerslave
 - State: beta
@@ -10,5 +8,7 @@ _Remake of Powerslave._
 - Code language: Java
 - Code license: Custom (see buildlic.txt and GPL-3.0)
 - Code dependencies: libGDX
+
+Remake of Powerslave.
 
 ## Building

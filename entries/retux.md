@@ -1,7 +1,5 @@
 # ReTux
 
-_(stylized as "reTux" in-game) is a 2D platformer._
-
 - Home: http://retux.nongnu.org, https://savannah.nongnu.org/projects/retux
 - Inspirations: Super Mario
 - State: mature, inactive since 2018
@@ -14,5 +12,7 @@ _(stylized as "reTux" in-game) is a 2D platformer._
 - Code dependencies: SGE
 - Assets license: ? (taken from SuperTux)
 - Developer: onpon4
+
+(stylized as "reTux" in-game) is a 2D platformer.
 
 ## Building

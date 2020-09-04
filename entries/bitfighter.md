@@ -1,7 +1,5 @@
 # Bitfighter
 
-_Outer-space combat action game._
-
 - Home: http://bitfighter.org/, https://web.archive.org/web/20141227065326/http://code.google.com/p/bitfighter/
 - State: mature
 - Download: http://bitfighter.org/downloads/
@@ -12,6 +10,8 @@ _Outer-space combat action game._
 - Code license: GPL-2.0
 - Code dependencies: SDL2
 - Assets license: GPL
+
+Outer-space combat action game.
 
 ## Building
 

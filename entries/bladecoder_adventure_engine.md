@@ -1,7 +1,5 @@
 # Bladecoder Adventure Engine
 
-_Point and click adventure game engine and editor._
-
 - Home: https://github.com/bladecoder/bladecoder-adventure-engine
 - State: mature
 - Download: https://github.com/bladecoder/bladecoder-adventure-engine/releases
@@ -11,6 +9,8 @@ _Point and click adventure game engine and editor._
 - Code language: Java
 - Code license: Apache-2.0
 - Code dependencies: libGDX
+
+Point and click adventure game engine and editor.
 
 ## Building
 

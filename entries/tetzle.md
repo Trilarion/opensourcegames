@@ -1,7 +1,5 @@
 # Tetzle
 
-_Jigsaw puzzle game._
-
 - Home: https://gottcode.org/tetzle/
 - State: mature
 - Keywords: puzzle, jigsaw
@@ -10,5 +8,7 @@ _Jigsaw puzzle game._
 - Code license: GPL-3.0
 - Code dependencies: Qt
 - Developer: Graeme Gott
+
+Jigsaw puzzle game.
 
 ## Building

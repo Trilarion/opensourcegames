@@ -1,7 +1,5 @@
 # DarkCity
 
-_MMORPG in text mode._
-
 - Home: https://sourceforge.net/projects/darkcity/
 - State: mature, inactive since 2012
 - Download: https://sourceforge.net/projects/darkcity/files/
@@ -10,5 +8,7 @@ _MMORPG in text mode._
 - Code language: PHP
 - Code license: GPL-3.0
 - Developer: Philippe Bousquet
+
+MMORPG in text mode.
 
 ## Building

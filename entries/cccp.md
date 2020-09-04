@@ -1,7 +1,5 @@
 # CCCP
 
-_Remake of Cortex Command._
-
 - Home: https://github.com/DataRealms/CCOSS
 - Inspirations: Cortex Command
 - State: beta
@@ -11,6 +9,7 @@ _Remake of Cortex Command._
 - Code license: AGPL-3.0
 - Code dependencies: Allegro
 
+Remake of Cortex Command.
 Based on the open sourced code of Cortex Command.
 
 ## Building

@@ -1,7 +1,5 @@
 # Crown and Cutlass
 
-_3d pirate action/adventure game in the spirit of the old Pirates! game._
-
 - Home: http://www.crownandcutlass.com/, https://sourceforge.net/projects/crownandcutlass/
 - Inspirations: Sid Meier's Pirates!
 - State: beta, inactive since 2009
@@ -10,5 +8,7 @@ _3d pirate action/adventure game in the spirit of the old Pirates! game._
 - Code repository: https://gitlab.com/osgames/crownandcutlass.git (backup of svn), https://svn.code.sf.net/p/crownandcutlass/code (svn)
 - Code language: C++
 - Code license: Custom (almost identical to BSD)
+
+3d pirate action/adventure game in the spirit of the old Pirates! game.
 
 ## Building

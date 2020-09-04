@@ -1,7 +1,5 @@
 # Battleround
 
-_Round based RPG._
-
 - Home: https://github.com/Leejjon/Battleround
 - State: beta, inactive since 2015
 - Platform: Android
@@ -11,6 +9,7 @@ _Round based RPG._
 - Code license: Apache-2.0
 - Code dependencies: libGDX
 
+Round based RPG.
 May be more like alpha.
 
 ## Building

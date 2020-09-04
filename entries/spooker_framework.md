@@ -1,7 +1,5 @@
 # Spooker Framework
 
-_Game framework._
-
 - Home: https://github.com/deathbeam/spooker
 - State: beta, inactive since 2014
 - Keywords: puzzle, game framework
@@ -9,5 +7,7 @@ _Game framework._
 - Code language: C#
 - Code license: MIT
 - Code dependencies: SFML
+
+Game framework.
 
 ## Building

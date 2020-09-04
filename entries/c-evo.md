@@ -1,7 +1,5 @@
 # C-evo
 
-_Empire building game._
-
 - Home: http://www.c-evo.org/
 - Media: https://en.wikipedia.org/wiki/C-evo
 - Inspirations: Civilization II
@@ -11,5 +9,7 @@ _Empire building game._
 - Code repository: https://github.com/vn971/cevo.git (and also download http://c-evo.org/files/cevosrc.zip)
 - Code language: Pascal
 - Code license: Public domain (original project), GPL-3.0 (Github project)
+
+Empire building game.
 
 ## Building

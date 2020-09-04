@@ -1,7 +1,5 @@
 # Falltergeist
 
-_Fallout 2 engine._
-
 - Home: https://falltergeist.org/
 - Inspirations: Fallout 2
 - State: beta
@@ -12,6 +10,8 @@ _Fallout 2 engine._
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependencies: GLEW, SDL2
+
+Fallout 2 engine.
 
 ## Building
 

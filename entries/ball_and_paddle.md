@@ -1,7 +1,5 @@
 # Ball and Paddle
 
-_Extensible ball and paddle game._
-
 - Home: https://www.gnu.org/software/ballandpaddle/
 - State: beta, inactive since 2009
 - Platform: Linux
@@ -12,6 +10,8 @@ _Extensible ball and paddle game._
 - Code dependencies: GNU Guile, SDL
 - Assets license: GPL
 - Developer: Eric P. Hutchins
+
+Extensible ball and paddle game.
 
 ## Building
 

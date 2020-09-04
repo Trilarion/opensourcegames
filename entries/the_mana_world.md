@@ -1,7 +1,5 @@
 # The Mana World
 
-_2D MMORPG._
-
 - Home: https://www.themanaworld.org/
 - State: mature
 - Download: https://wiki.themanaworld.org/index.php/Downloads
@@ -10,6 +8,7 @@ _2D MMORPG._
 - Code language: PHP
 - Code license: GPL-2.0
 
+2D MMORPG.
 See also [ManaPlus](http://manaplus.org/) client.
 
 ## Building

@@ -1,7 +1,5 @@
 # Omnispeak
 
-_Remake of Commander Keen Series._
-
 - Home: https://davidgow.net/keen/omnispeak.html
 - Inspirations: Commander Keen Series
 - State: mature
@@ -11,6 +9,7 @@ _Remake of Commander Keen Series._
 - Code language: C
 - Code license: GPL-2.0
 
+Remake of Commander Keen Series.
 Aims to be pixel-perfect, bug-for-bug clone.
 
 ## Building

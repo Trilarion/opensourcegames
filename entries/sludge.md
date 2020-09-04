@@ -1,7 +1,5 @@
 # Sludge
 
-_Adventure game engine._
-
 - Home: https://opensludge.github.io/
 - State: mature
 - Download: https://opensludge.github.io/download.html, https://github.com/opensludge/opensludge/releases
@@ -11,6 +9,8 @@ _Adventure game engine._
 - Code language: C, C++, Objective-C
 - Code license: LGPL-2.1
 - Code dependencies: GTK
+
+Adventure game engine.
 
 ## Building
 

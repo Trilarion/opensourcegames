@@ -1,7 +1,5 @@
 # XArchon
 
-_Modelled after the golden oldie Archon game created by Freefall Associates and distributed by Electronic Arts._
-
 - Home: http://xarchon.seul.org/
 - Inspirations: Archon: The Light and the Dark
 - State: beta, inactive since 2003
@@ -11,5 +9,7 @@ _Modelled after the golden oldie Archon game created by Freefall Associates and 
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependencies: GTK, Qt
+
+Modelled after the golden oldie Archon game created by Freefall Associates and distributed by Electronic Arts.
 
 ## Building

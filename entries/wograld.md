@@ -1,7 +1,5 @@
 # Wograld
 
-_Massively multiplayer online role-playing game._
-
 - Home: http://wograld.sourceforge.net/, https://sourceforge.net/projects/wograld/
 - State: beta (alpha?)
 - Download: https://sourceforge.net/projects/wograld/files/
@@ -11,5 +9,7 @@ _Massively multiplayer online role-playing game._
 - Code license: GPL-2.0
 - Assets license: ? (GPL)
 - Developer: Lori Angela Nagel
+
+Massively multiplayer online role-playing game.
 
 ## Building

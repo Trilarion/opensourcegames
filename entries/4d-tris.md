@@ -1,7 +1,5 @@
 # 4D-TRIS
 
-_Tetris game extended to 4 dimension._
-
 - Home: https://sourceforge.net/projects/dtris/
 - Inspirations: Tetris
 - State: mature, inactive since 2012
@@ -12,6 +10,8 @@ _Tetris game extended to 4 dimension._
 - Code license: GPL-2.0
 - Code dependencies: OpenGL, SDL
 - Developer: Simon Laszlo
+
+Tetris game extended to 4 dimension.
 
 ## Building
 

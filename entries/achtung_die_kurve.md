@@ -1,7 +1,5 @@
 # Achtung, die Kurve!
 
-_Simple skill game._
-
 - Home: https://kurve.se/
 - Inspirations: "Achtung, die Kurve!"
 - State: mature
@@ -12,6 +10,7 @@ _Simple skill game._
 - Code language: JavaScript
 - Code license: AGPL-3.0
 
+Simple skill game.
 See also [another clone](https://achtungkurve.com/).
 
 ## Building

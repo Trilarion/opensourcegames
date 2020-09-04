@@ -1,7 +1,5 @@
 # BitRiot
 
-_Clone of Bug Bomber._
-
 - Home: https://github.com/VenKamikaze/
 - Inspirations: Bug Bomber
 - State: beta, inactive since 2017
@@ -10,6 +8,8 @@ _Clone of Bug Bomber._
 - Code language: C++
 - Code license: Apache-2.0
 - Code dependencies: SDL2
+
+Clone of Bug Bomber.
 
 ## Building
 

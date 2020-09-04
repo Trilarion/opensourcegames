@@ -1,7 +1,5 @@
 # Primrose
 
-_Puzzle game._
-
 - Home: http://primrose.sourceforge.net/, https://sourceforge.net/projects/primrose/
 - State: mature, inactive since 2009
 - Download: http://primrose.sourceforge.net/download.php, https://sourceforge.net/projects/primrose/files/
@@ -13,5 +11,7 @@ _Puzzle game._
 - Code dependencies: SDL
 - Assets license: Public domain
 - Developer: Jason Rohrer
+
+Puzzle game.
 
 ## Building

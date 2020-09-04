@@ -1,7 +1,5 @@
 # Escape Towards The Unknown
 
-_Graphic adventure._
-
 - Home: https://ettu.sourceforge.io/, https://sourceforge.net/projects/ettu/
 - State: beta, inactive since 2016
 - Download: https://sourceforge.net/projects/ettu/files/
@@ -11,5 +9,7 @@ _Graphic adventure._
 - Code language: C
 - Code license: GPL-2.0
 - Code dependencies: SDL
+
+Graphic adventure.
 
 ## Building

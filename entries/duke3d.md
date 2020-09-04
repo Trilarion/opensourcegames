@@ -1,7 +1,5 @@
 # Duke3D
 
-_Remake of Duke Nukem 3D._
-
 - Home: http://icculus.org/duke3d/
 - Inspirations: Duke Nukem 3D
 - State: beta, inactive since 2009
@@ -10,5 +8,7 @@ _Remake of Duke Nukem 3D._
 - Code language: C
 - Code license: GPL-2.0
 - Code dependencies: SDL
+
+Remake of Duke Nukem 3D.
 
 ## Building

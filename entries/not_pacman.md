@@ -1,7 +1,5 @@
 # Not Pacman
 
-_Pacman-style game with gravity in which the player controls the rotation of the game field._
-
 - Home: https://stabyourself.net/notpacman/
 - State: mature, inactive since 2013
 - Platform: Windows, Linux, macOS
@@ -12,5 +10,7 @@ _Pacman-style game with gravity in which the player controls the rotation of the
 - Code dependencies: LÖVE
 - Assets license: WTFPL
 - Developer: Sam Hocevar
+
+Pacman-style game with gravity in which the player controls the rotation of the game field.
 
 ## Building

@@ -1,7 +1,5 @@
 # TermFrogger
 
-_Ascii character version of Frogger that plays in a commandline terminal._
-
 - Home: https://github.com/fastrgv/TermFrogger
 - Inspirations: Frogger
 - State: mature
@@ -12,5 +10,7 @@ _Ascii character version of Frogger that plays in a commandline terminal._
 - Code language: Ada
 - Code license: GPL-3.0
 - Assets license: None
+
+Ascii character version of Frogger that plays in a commandline terminal.
 
 ## Building

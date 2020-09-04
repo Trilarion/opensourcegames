@@ -1,7 +1,5 @@
 # Blitzkrieg
 
-_Little turn-based strategy game based on Pendulous shareware rules._
-
 - Home: https://sourceforge.net/projects/blitzkrieg/
 - State: beta, inactive since 2012
 - Download: https://sourceforge.net/projects/blitzkrieg/files/developpement/
@@ -10,6 +8,7 @@ _Little turn-based strategy game based on Pendulous shareware rules._
 - Code language: Java
 - Code license: GPL-3.0
 
+Little turn-based strategy game based on Pendulous shareware rules.
 See also [Pendulous](http://www.blackfalcongames.net/?p=225).
 
 ## Building

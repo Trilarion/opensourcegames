@@ -1,7 +1,5 @@
 # Krystal Drop
 
-_Remake of Magical Drop._
-
 - Home: http://krystaldrop.sourceforge.net/, https://sourceforge.net/projects/krystaldrop/
 - Inspirations: Magical Drop
 - State: beta, inactive since 2004
@@ -13,5 +11,7 @@ _Remake of Magical Drop._
 - Code license: GPL-2.0
 - Code dependencies: SDL
 - Developer: krys
+
+Remake of Magical Drop.
 
 ## Building

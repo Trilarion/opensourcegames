@@ -1,7 +1,5 @@
 # Enduro tribute
 
-_Remake of Enduro._
-
 - Home: https://racascou.itch.io/enduro
 - Inspirations: Enduro
 - State: mature
@@ -10,5 +8,7 @@ _Remake of Enduro._
 - Code repository: https://github.com/rafaelcastrocouto/enduro.git
 - Code language: JavaScript
 - Code license: MIT
+
+Remake of Enduro.
 
 ## Building

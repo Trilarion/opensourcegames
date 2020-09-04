@@ -1,7 +1,5 @@
 # Nighthawk
 
-_Remake of Paradroid._
-
 - Home: http://night-hawk.sourceforge.net/, https://sourceforge.net/projects/night-hawk/
 - Media: https://en.wikipedia.org/wiki/Paradroid#Other_clones_and_games_inspired_by_Paradroid
 - Inspirations: Paradroid
@@ -12,5 +10,7 @@ _Remake of Paradroid._
 - Code language: C++
 - Code license: GPL-2.0
 - Developer: Jason Nunn, Eric Gillespie
+
+Remake of Paradroid.
 
 ## Building

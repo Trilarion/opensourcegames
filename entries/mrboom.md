@@ -1,7 +1,5 @@
 # Mr.Boom
 
-_Remake of Bomberman._
-
 - Home: http://mrboom.mumblecore.org
 - Inspirations: Bomberman
 - State: mature
@@ -10,5 +8,7 @@ _Remake of Bomberman._
 - Code language: C++
 - Code license: MIT
 - Code dependencies: SDL
+
+Remake of Bomberman.
 
 ## Building

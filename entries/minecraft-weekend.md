@@ -1,7 +1,5 @@
 # minecraft-weekend
 
-_Clone of Minecraft._
-
 - Home: https://github.com/jdah/minecraft-weekend
 - Inspirations: Minecraft
 - State: beta
@@ -10,6 +8,8 @@ _Clone of Minecraft._
 - Code language: C
 - Code license: MIT
 - Code dependencies: OpenGL
+
+Clone of Minecraft.
 
 ## Building
 

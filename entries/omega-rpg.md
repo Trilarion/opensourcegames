@@ -1,7 +1,5 @@
 # Omega-rpg
 
-_Single player roguelike game._
-
 - Home: http://www.alcyone.com/max/projects/omega/, https://sourceforge.net/projects/omega-roguelike/, https://packages.debian.org/search?keywords=omega-rpg
 - State: beta, inactive since 2000
 - Keywords: framework, roguelike
@@ -9,6 +7,8 @@ _Single player roguelike game._
 - Code language: C
 - Code license: LGPL-2.0
 - Developer: Laurence R. Brothers, Sheldon Simms, David Gibbs, William Tanksley
+
+Single player roguelike game.
 
 ## Building
 

@@ -1,7 +1,5 @@
 # osu!
 
-_Clone of Osu! Tatakae! Ouendan, Taiko no Tatsujin, Beatmania IIDX._
-
 - Home: https://osu.ppy.sh/home
 - Inspirations: Osu! Tatakae! Ouendan, Taiko no Tatsujin, Beatmania IIDX
 - State: beta
@@ -13,6 +11,7 @@ _Clone of Osu! Tatakae! Ouendan, Taiko no Tatsujin, Beatmania IIDX._
 - Code license: MIT
 - Code dependencies: .NET
 
+Clone of Osu! Tatakae! Ouendan, Taiko no Tatsujin, Beatmania IIDX.
 See also: https://github.com/itdelatrisu/opsu, https://github.com/fluddokt/opsu, https://github.com/AnirudhRahul/opsu-Android
 
 ## Building

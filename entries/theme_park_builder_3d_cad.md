@@ -1,7 +1,5 @@
 # Theme Park Builder 3D CAD
 
-_Remake of Theme Park._
-
 - Home: https://sourceforge.net/projects/tpb3d/
 - Inspirations: Theme Park
 - State: beta, inactive since 2013
@@ -11,5 +9,7 @@ _Remake of Theme Park._
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependencies: OpenGL, SDL
+
+Remake of Theme Park.
 
 ## Building

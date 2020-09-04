@@ -1,7 +1,5 @@
 # Tangomon
 
-_Educational monster-battling game, similar in concept to the popular Pokemon series but with an educational twist._
-
 - Home: http://tangomon.nongnu.org, https://savannah.nongnu.org/projects/tangomon/
 - State: mature, inactive since 2017
 - Download: http://tangomon.nongnu.org/download.html
@@ -13,5 +11,7 @@ _Educational monster-battling game, similar in concept to the popular Pokemon se
 - Code dependencies: SGE
 - Assets license: various
 - Developer: onpon4
+
+Educational monster-battling game, similar in concept to the popular Pokemon series but with an educational twist.
 
 ## Building

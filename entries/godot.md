@@ -1,7 +1,5 @@
 # Godot
 
-_Multi-platform 2D and 3D open source game engine._
-
 - Home: https://godotengine.org/
 - Media: <https://en.wikipedia.org/wiki/Godot_(game_engine)>
 - State: mature
@@ -10,6 +8,8 @@ _Multi-platform 2D and 3D open source game engine._
 - Code repository: https://github.com/godotengine/godot.git
 - Code language: C, C++
 - Code license: MIT
+
+Multi-platform 2D and 3D open source game engine.
 
 ## Building
 

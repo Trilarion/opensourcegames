@@ -1,7 +1,5 @@
 # RedShift
 
-_Flight simulation game in the spirit of GL-117._
-
 - Home: http://rsfs.sourceforge.net/, https://sourceforge.net/projects/rsfs/, https://web.archive.org/web/20080725122954/http://php.scripts.psu.edu/cjh212/redshift/
 - Inspirations: GL-117
 - State: beta, inactive since 2008
@@ -10,5 +8,7 @@ _Flight simulation game in the spirit of GL-117._
 - Code language: C, C++
 - Code license: GPL-2.0
 - Developer: Christian Haag
+
+Flight simulation game in the spirit of GL-117.
 
 ## Building

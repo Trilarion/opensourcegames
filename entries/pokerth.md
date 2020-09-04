@@ -1,7 +1,5 @@
 # PokerTH
 
-_Texas Hold'em poker game playable against up to nine computer-opponents or with people all over the world._
-
 - Home: https://www.pokerth.net/, https://sourceforge.net/projects/pokerth/
 - Media: https://en.wikipedia.org/wiki/PokerTH
 - State: mature, inactive since 2017
@@ -12,5 +10,7 @@ _Texas Hold'em poker game playable against up to nine computer-opponents or with
 - Code language: C++
 - Code license: AGPL-3.0
 - Code dependencies: Qt
+
+Texas Hold'em poker game playable against up to nine computer-opponents or with people all over the world.
 
 ## Building

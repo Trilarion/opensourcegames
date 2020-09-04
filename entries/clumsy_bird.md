@@ -1,7 +1,5 @@
 # Clumsy Bird
 
-_Remake of Flappy Bird._
-
 - Home: https://ellisonleao.github.io/clumsy-bird/
 - Inspirations: Flappy Bird
 - State: mature, inactive since 2017
@@ -12,5 +10,7 @@ _Remake of Flappy Bird._
 - Code language: JavaScript
 - Code license: MIT
 - Code dependencies: melonJS
+
+Remake of Flappy Bird.
 
 ## Building

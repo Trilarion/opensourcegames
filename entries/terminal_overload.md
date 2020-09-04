@@ -1,7 +1,5 @@
 # Terminal Overload
 
-_(abbreviated TOL) Experimental online multiplayer first-person shooter game._
-
 - Home: http://www.terminal-overload.org/
 - Inspirations: Revenge Of The Cats: Ethernet
 - State: beta, inactive since 2016
@@ -12,5 +10,7 @@ _(abbreviated TOL) Experimental online multiplayer first-person shooter game._
 - Code dependencies: Torque 3D
 - Assets license: CC-BY 4.0
 - Developer: Michael "fr1tz" Goldener
+
+(abbreviated TOL) Experimental online multiplayer first-person shooter game.
 
 ## Building

@@ -1,7 +1,5 @@
 # OpenDUNE
 
-_Re-creation of the popular game "Dune II"._
-
 - Home: https://github.com/OpenDUNE/OpenDUNE
 - Inspirations: Dune 2
 - State: mature
@@ -10,5 +8,7 @@ _Re-creation of the popular game "Dune II"._
 - Code repository: https://github.com/OpenDUNE/OpenDUNE.git
 - Code language: C
 - Code license: GPL-2.0
+
+Re-creation of the popular game "Dune II".
 
 ## Building

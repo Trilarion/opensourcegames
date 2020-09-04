@@ -1,7 +1,5 @@
 # Kingdoms
 
-_Strategy game where you lead a nation throughout history.._
-
 - Home: http://anttisalonen.github.io/kingdoms/
 - State: beta, inactive since 2014
 - Download: (see home)
@@ -11,6 +9,8 @@ _Strategy game where you lead a nation throughout history.._
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependencies: Boost, libpng, SDL, zlib
+
+Strategy game where you lead a nation throughout history..
 
 ## Building
 

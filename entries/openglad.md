@@ -1,7 +1,5 @@
 # Openglad
 
-_An SDL port of an old DOS game called Gladiator._
-
 - Home: http://snowstorm.sourceforge.net/cgi-bin/site.cgi?page=home, https://sourceforge.net/projects/snowstorm/
 - Inspirations: Gladiator
 - State: mature, inactive since 2004
@@ -11,6 +9,7 @@ _An SDL port of an old DOS game called Gladiator._
 - Code language: C++
 - Code license: GPL-2.0
 
+An SDL port of an old DOS game called Gladiator.
 Original code released under GPL.
 
 ## Building

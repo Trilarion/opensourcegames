@@ -1,7 +1,5 @@
 # SuperTuxParty
 
-_Clone of Mario Party._
-
 - Home: https://gitlab.com/SuperTuxParty/SuperTuxParty, https://www.reddit.com/r/SuperTuxParty/
 - Inspirations: Mario Party
 - State: beta
@@ -13,6 +11,8 @@ _Clone of Mario Party._
 - Code license: GPL-3.0
 - Code dependencies: Godot
 - Assets license: CC-BY-3.0 (see https://gitlab.com/SuperTuxParty/SuperTuxParty/blob/dev/LICENSE-ART.md and https://gitlab.com/SuperTuxParty/SuperTuxParty/blob/dev/LICENSE-MUSIC.md)
+
+Clone of Mario Party.
 
 ## Building
 

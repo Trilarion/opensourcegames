@@ -1,7 +1,5 @@
 # UndertaleModTool
 
-_Tool of Undertale._
-
 - Home: https://github.com/krzys-h/UndertaleModTool
 - Inspirations: Undertale
 - State: beta
@@ -10,6 +8,7 @@ _Tool of Undertale._
 - Code language: C#
 - Code license: GPL-3.0
 
+Tool of Undertale.
 Tool for modding, decompiling and unpacking Undertale (and other Game Maker: Studio games)
 
 ## Building

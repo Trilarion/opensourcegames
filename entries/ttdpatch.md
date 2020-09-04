@@ -1,7 +1,5 @@
 # TTDPatch
 
-_Tool of Transport Tycoon._
-
 - Home: https://www.ttdpatch.net/
 - Inspirations: Transport Tycoon
 - State: mature, inactive since 2013
@@ -11,6 +9,7 @@ _Tool of Transport Tycoon._
 - Code language: Assembly, C, C++
 - Code license: GPL-2.0
 
+Tool of Transport Tycoon.
 Patch sets for Transport Tycoon Deluxe.
 
 ## Building

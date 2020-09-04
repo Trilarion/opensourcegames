@@ -1,7 +1,5 @@
 # Infon Battle Arena
 
-_Real-time multiplayer programming game. You control your creatures using the Lua programming language and let them compete for food and survival against other players._
-
 - Home: http://infon.dividuum.de/, https://code.google.com/archive/p/infon/
 - State: beta, inactive since 2012
 - Platform: Windows, Linux
@@ -12,5 +10,7 @@ _Real-time multiplayer programming game. You control your creatures using the Lu
 - Code dependencies: SDL
 - Assets license: GPL
 - Developer: Florian Wesch
+
+Real-time multiplayer programming game. You control your creatures using the Lua programming language and let them compete for food and survival against other players.
 
 ## Building

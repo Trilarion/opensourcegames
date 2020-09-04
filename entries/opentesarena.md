@@ -1,7 +1,5 @@
 # OpenTESArena
 
-_Re-implementation of The Elder Scrolls: Arena._
-
 - Home: https://github.com/afritz1/OpenTESArena
 - Inspirations: The Elder Scrolls: Arena
 - State: beta
@@ -11,6 +9,8 @@ _Re-implementation of The Elder Scrolls: Arena._
 - Code language: C++
 - Code license: MIT
 - Code dependencies: OpenAL, SDL2, WildMidi
+
+Re-implementation of The Elder Scrolls: Arena.
 
 ## Building
 

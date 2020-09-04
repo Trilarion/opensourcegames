@@ -1,7 +1,5 @@
 # The Eternity Engine
 
-_DOOM source port._
-
 - Home: https://eternity.youfailit.net/wiki/Main_Page
 - Inspirations: Doom, Heretic, Hexen, Strife
 - State: mature
@@ -12,6 +10,8 @@ _DOOM source port._
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependencies: SDL2
+
+DOOM source port.
 
 ## Building
 

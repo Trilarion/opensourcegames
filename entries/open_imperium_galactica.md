@@ -1,7 +1,5 @@
 # Open Imperium Galactica
 
-_Reimplementation of Imperium Galactica._
-
 - Home: http://open-ig-dev.blogspot.com/
 - Inspirations: Imperium Galactica
 - State: mature
@@ -10,5 +8,7 @@ _Reimplementation of Imperium Galactica._
 - Code repository: https://github.com/akarnokd/open-ig.git
 - Code language: Java
 - Code license: LGPL-3.0
+
+Reimplementation of Imperium Galactica.
 
 ## Building

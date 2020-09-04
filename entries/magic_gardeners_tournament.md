@@ -1,7 +1,5 @@
 # Magic Gardeners Tournament
 
-_Real-time strategy game board game._
-
 - Home: https://pyweek.org/e/TLP-2/
 - State: beta, inactive since 2007
 - Keywords: strategy, board, open content, real time
@@ -11,5 +9,7 @@ _Real-time strategy game board game._
 - Code dependencies: pygame, PygLibs
 - Assets license: ? (GPL)
 - Developer: HoleInTheHeadStudios (Team Quicksilver)
+
+Real-time strategy game board game.
 
 ## Building

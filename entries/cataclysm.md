@@ -1,7 +1,5 @@
 # Cataclysm
 
-_Post-apocalyptic roguelike._
-
 - Home: http://cataclysmrl.blogspot.com/
 - State: beta, inactive since 2012
 - Keywords: role playing, roguelike
@@ -9,6 +7,7 @@ _Post-apocalyptic roguelike._
 - Code language: C++
 - Code license: CC-BY-SA-3.0
 
+Post-apocalyptic roguelike.
 See also [Cataclysm: Dark Days Ahead](cataclysm_dark_days_ahead.md) (fork)
 
 ## Building

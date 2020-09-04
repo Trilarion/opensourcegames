@@ -1,7 +1,5 @@
 # Bombman
 
-_Remake of Atomic Bomberman._
-
 - Home: https://gitlab.com/drummyfish/
 - Inspirations: Atomic Bomberman
 - State: mature
@@ -11,5 +9,7 @@ _Remake of Atomic Bomberman._
 - Code license: CC0
 - Code dependencies: pygame
 - Assets license: CC0
+
+Remake of Atomic Bomberman.
 
 ## Building

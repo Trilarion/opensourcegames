@@ -1,7 +1,5 @@
 # asdf
 
-_Remake of Simon skill game._
-
 - Home: https://timpietrusky.github.io/asdf/
 - Inspirations: Simon
 - State: mature
@@ -11,5 +9,7 @@ _Remake of Simon skill game._
 - Code repository: https://github.com/TimPietrusky/asdf.git
 - Code language: JavaScript
 - Code license: MIT
+
+Remake of Simon skill game.
 
 ## Building

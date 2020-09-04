@@ -1,7 +1,5 @@
 # Chronoshift
 
-_Remake of Command & Conquer: Red Alert._
-
 - Home: https://github.com/TheAssemblyArmada/Chronoshift
 - Inspirations: Command & Conquer: Red Alert
 - State: beta
@@ -10,6 +8,8 @@ _Remake of Command & Conquer: Red Alert._
 - Code repository: https://github.com/TheAssemblyArmada/Chronoshift.git
 - Code language: C++
 - Code license: GPL-2.0
+
+Remake of Command & Conquer: Red Alert.
 
 ## Building
 

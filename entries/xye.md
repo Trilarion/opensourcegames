@@ -1,7 +1,5 @@
 # Xye
 
-_Puzzle game similar to Sokoban but it includes Arcade elements._
-
 - Home: http://xyegame.blogspot.com/, http://xye.sourceforge.net/, https://sourceforge.net/projects/xye/
 - Inspirations: Kye
 - State: beta, inactive since 2013
@@ -13,6 +11,8 @@ _Puzzle game similar to Sokoban but it includes Arcade elements._
 - Code dependencies: SDL
 - Assets license: Custom free license
 - Developer: Victor Hugo Soliz Kuncar
+
+Puzzle game similar to Sokoban but it includes Arcade elements.
 
 ## Building
 

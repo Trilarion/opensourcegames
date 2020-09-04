@@ -1,7 +1,5 @@
 # UltraStar
 
-_Clone of SingStar, a music video game._
-
 - Home: https://sourceforge.net/projects/ultrastar/
 - Media: https://en.wikipedia.org/wiki/UltraStar
 - State: mature, inactive since 2010
@@ -12,6 +10,7 @@ _Clone of SingStar, a music video game._
 - Code language: Pascal
 - Code license: ?
 
+Clone of SingStar, a music video game.
 See also [UltraStar Deluxe](https://usdx.eu/) and https://github.com/UltraStar-Deluxe/USDX
 
 

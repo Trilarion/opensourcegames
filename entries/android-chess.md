@@ -1,7 +1,5 @@
 # android-chess
 
-_Chess game._
-
 - Home: https://www.jwtc.nl/
 - State: mature
 - Download: https://www.jwtc.nl/downloads
@@ -10,6 +8,8 @@ _Chess game._
 - Code repository: https://github.com/jcarolus/android-chess.git
 - Code language: Java, C++
 - Code license: MIT
+
+Chess game.
 
 ## Building
 

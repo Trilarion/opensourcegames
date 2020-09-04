@@ -1,7 +1,5 @@
 # GZDoom
 
-_Remake of Doom, Doom II, Heretic, Hexen._
-
 - Home: https://zdoom.org/index, https://web.archive.org/web/20151014204540/http://www.osnanet.de/c.oelckers/gzdoom/
 - Inspirations: Doom, Doom II, Heretic, Hexen
 - State: mature
@@ -11,6 +9,8 @@ _Remake of Doom, Doom II, Heretic, Hexen._
 - Code repository: https://github.com/coelckers/gzdoom.git
 - Code language: C, C++
 - Code license: GPL-3.0
+
+Remake of Doom, Doom II, Heretic, Hexen.
 
 ## Building
 

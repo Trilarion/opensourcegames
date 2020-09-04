@@ -1,7 +1,5 @@
 # Stendhal
 
-_Multiplayer online adventure game with an old school feel._
-
 - Home: https://stendhalgame.org/, https://sourceforge.net/projects/arianne/
 - State: mature
 - Download: (see home)
@@ -10,6 +8,7 @@ _Multiplayer online adventure game with an old school feel._
 - Code language: Java
 - Code license: GPL-2.0
 
+Multiplayer online adventure game with an old school feel.
 Uses the Arianne engine.
 
 ## Building

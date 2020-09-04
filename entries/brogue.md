@@ -1,7 +1,5 @@
 # Brogue
 
-_Traditional roguelike game inspired from the original Rogue. Your quest is to find the Amulet of Yendor._
-
 - Home: http://sites.google.com/site/broguegame/, https://brogue.fandom.com/wiki/Brogue_Wiki
 - State: mature
 - Platform: Windows, Linux, macOS
@@ -9,5 +7,7 @@ _Traditional roguelike game inspired from the original Rogue. Your quest is to f
 - Code repository: https://github.com/tsadok/brogue.git
 - Code language: C
 - Code license: AGPL
+
+Traditional roguelike game inspired from the original Rogue. Your quest is to find the Amulet of Yendor.
 
 ## Building

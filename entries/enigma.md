@@ -1,7 +1,5 @@
 # Enigma
 
-_Puzzle game based on Oxyd._
-
 - Home: https://www.nongnu.org/enigma/, https://sourceforge.net/projects/enigma-game/
 - Media: <https://en.wikipedia.org/wiki/Enigma_(2007_video_game)>
 - Inspirations: Oxyd
@@ -14,6 +12,7 @@ _Puzzle game based on Oxyd._
 - Code license: GPL-2.0
 - Code dependencies: SDL
 
+Puzzle game based on Oxyd.
 Inspired by Oxyd.
 
 ## Building

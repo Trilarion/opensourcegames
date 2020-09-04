@@ -1,7 +1,5 @@
 # Dreerally
 
-_Death Rally engine reimplementation._
-
 - Home: https://dreerally.com/
 - Inspirations: Death Rally
 - State: beta
@@ -11,6 +9,7 @@ _Death Rally engine reimplementation._
 - Code license: Custom (may only be used with a copy of Death Rally)
 - Code dependencies: SDL
 
+Death Rally engine reimplementation.
 Very restrictive license.
 
 ## Building

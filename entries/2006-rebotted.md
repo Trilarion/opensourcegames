@@ -1,7 +1,5 @@
 # 2006-rebotted
 
-_Remake of Runescape Classic._
-
 - Home: https://rsrebotted.com/, https://web.archive.org/web/20200211143757/http://2006rebotted.tk/
 - Inspirations: Runescape Classic
 - State: mature
@@ -12,6 +10,7 @@ _Remake of Runescape Classic._
 - Code license: 2-clause BSD
 - Developer: Daniel Ginovker
 
+Remake of Runescape Classic.
 Open source 2006 Runescape emulation with botting.
 
 ## Building

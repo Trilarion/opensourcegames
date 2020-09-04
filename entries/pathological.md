@@ -1,7 +1,5 @@
 # Pathological
 
-_Remake of Log!cal._
-
 - Home: http://pathological.sourceforge.net/, https://sourceforge.net/projects/pathological/
 - Inspirations: Log!cal
 - State: beta, inactive since 2003
@@ -11,6 +9,8 @@ _Remake of Log!cal._
 - Code license: GPL-2.0
 - Code dependencies: pygame
 - Developer: Stephen Thorne, John-Paul Gignac
+
+Remake of Log!cal.
 
 ## Building
 

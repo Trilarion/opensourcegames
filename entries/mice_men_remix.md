@@ -1,7 +1,5 @@
 # Mice Men: Remix
 
-_Remake of Mice Men._
-
 - Home: https://github.com/synkarius/micemen
 - Inspirations: Mice Men
 - State: mature, inactive since 2016
@@ -11,6 +9,8 @@ _Remake of Mice Men._
 - Code language: Java
 - Code license: LGPL-3.0
 - Code dependencies: libGDX
+
+Remake of Mice Men.
 
 ## Building
 

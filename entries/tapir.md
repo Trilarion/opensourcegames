@@ -1,7 +1,5 @@
 # Tapir
 
-_Remake of RPG Maker._
-
 - Home: https://qnighy.github.io/tapir/
 - Inspirations: RPG Maker
 - State: beta, inactive since 2017
@@ -10,6 +8,7 @@ _Remake of RPG Maker._
 - Code language: C, Ruby
 - Code license: Apache-2.0, MIT
 
+Remake of RPG Maker.
 RGSS compatible runtime (RPG Maker XP, VX, and VX Ace)
 
 ## Building

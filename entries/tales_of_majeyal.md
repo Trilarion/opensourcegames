@@ -1,7 +1,5 @@
 # Tales of Maj'Eyal
 
-_Roguelike RPG, featuring tactical turn-based combat and advanced character building._
-
 - Home: https://te4.org/
 - Media: https://en.wikipedia.org/wiki/Tales_of_Maj%27Eyal
 - State: mature
@@ -11,5 +9,7 @@ _Roguelike RPG, featuring tactical turn-based combat and advanced character buil
 - Code language: C, Lua
 - Code license: GPL-3.0
 - Assets license: Restricted (for use "with the Tales of Maj'Eyal game only.")
+
+Roguelike RPG, featuring tactical turn-based combat and advanced character building.
 
 ## Building

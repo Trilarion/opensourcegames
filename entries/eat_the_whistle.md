@@ -1,7 +1,5 @@
 # Eat The Whistle
 
-_Football simulation game_
-
 - Home: http://www.ggsoft.org/etw/, https://sourceforge.net/projects/etw/
 - Inspirations: Eat The Whistle
 - State: mature, inactive since 2017
@@ -12,6 +10,8 @@ _Football simulation game_
 - Code language: C
 - Code license: ?
 - Code dependencies: SDL
+
+Football simulation game
 
 ## Building
 

@@ -1,7 +1,5 @@
 # Maratis
 
-_Simple cross-platform 3D engine and visual game development tool._
-
 - Home: http://www.maratis3d.org/
 - State: beta
 - Download: http://www.maratis3d.org/?page_id=57
@@ -10,6 +8,7 @@ _Simple cross-platform 3D engine and visual game development tool._
 - Code language: C++
 - Code license: GPL-2.0
 
+Simple cross-platform 3D engine and visual game development tool.
 Maratis 3.x is mature.
 
 ## Building

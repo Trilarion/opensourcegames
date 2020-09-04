@@ -1,7 +1,5 @@
 # NetHack
 
-_Single player dungeon exploration game that runs on a wide variety of computer systems._
-
 - Home: https://www.nethack.org/, https://sourceforge.net/projects/nethack/
 - Media: https://en.wikipedia.org/wiki/NetHack
 - State: mature
@@ -11,6 +9,7 @@ _Single player dungeon exploration game that runs on a wide variety of computer 
 - Code language: C
 - Code license: Custom (Nethack General Public License)
 
+Single player dungeon exploration game that runs on a wide variety of computer systems.
 See also [NetHack Falcon's Eye](https://sourceforge.net/projects/falconseye/), a graphical modification of NetHack.
 
 ## Building

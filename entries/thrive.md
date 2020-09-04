@@ -1,7 +1,5 @@
 # Thrive
 
-_Similar of Spore._
-
 - Home: https://revolutionarygamesstudio.com/
 - Inspirations: Spore
 - State: beta
@@ -12,6 +10,7 @@ _Similar of Spore._
 - Code language: C++, AngelScript, JavaScript
 - Code license: GPL-3.0
 
+Similar of Spore.
 Only the Microbe stage is playable now. Really open content?
 
 ## Building

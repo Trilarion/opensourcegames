@@ -1,7 +1,5 @@
 # Skifree-HTML5-clone
 
-_Remake of SkiFree._
-
 - Home: https://github.com/andymason/Skifree-HTML5-clone
 - Media: https://en.wikipedia.org/wiki/SkiFree
 - Inspirations: SkiFree
@@ -11,5 +9,7 @@ _Remake of SkiFree._
 - Code repository: https://github.com/andymason/Skifree-HTML5-clone.git
 - Code language: JavaScript
 - Code license: GPL-3.0
+
+Remake of SkiFree.
 
 ## Building

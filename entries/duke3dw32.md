@@ -1,7 +1,5 @@
 # Duke3d_w32
 
-_Remake of Duke Nukem 3D._
-
 - Home: http://www.rancidmeat.com/project.php3?id=1
 - Inspirations: Duke Nukem 3D
 - State: beta, inactive since 2008
@@ -11,5 +9,7 @@ _Remake of Duke Nukem 3D._
 - Code language: C
 - Code license: GPL-2.0
 - Code dependencies: SDL
+
+Remake of Duke Nukem 3D.
 
 ## Building

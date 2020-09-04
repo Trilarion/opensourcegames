@@ -1,7 +1,5 @@
 # Abe's Amazing Adventure
 
-_Side scrolling platform game._
-
 - Home: http://abe.sourceforge.net/, https://sourceforge.net/projects/abe/
 - State: mature, inactive since 2005
 - Download: https://sourceforge.net/projects/abe/files/
@@ -12,6 +10,8 @@ _Side scrolling platform game._
 - Code license: GPL-2.0
 - Code dependencies: SDL
 - Developer: Gabor Torok, Pedro Izecksohn, Alex Clark
+
+Side scrolling platform game.
 
 ## Building
 

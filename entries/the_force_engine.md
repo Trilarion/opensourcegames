@@ -1,7 +1,5 @@
 # The Force Engine
 
-_Remake of Dark Forces, Outlaws._
-
 - Home: https://theforceengine.github.io/
 - Media: https://en.wikipedia.org/wiki/Star_Wars:_Dark_Forces
 - Inspirations: Dark Forces, Outlaws
@@ -11,6 +9,8 @@ _Remake of Dark Forces, Outlaws._
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: OpenGL
+
+Remake of Dark Forces, Outlaws.
 
 ## Building
 

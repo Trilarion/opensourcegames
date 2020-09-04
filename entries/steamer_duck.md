@@ -1,7 +1,5 @@
 # Steamer Duck
 
-_Small platformer game. You play as a non-flying kind of duck. The goal is to collect eggs and coins._
-
 - Home: https://gitlab.com/drummyfish/Steamer-Duck
 - State: beta
 - Keywords: platform, open content
@@ -11,5 +9,7 @@ _Small platformer game. You play as a non-flying kind of duck. The goal is to co
 - Code dependencies: pygame
 - Assets license: CC0
 - Developer: Drummyfish
+
+Small platformer game. You play as a non-flying kind of duck. The goal is to collect eggs and coins.
 
 ## Building

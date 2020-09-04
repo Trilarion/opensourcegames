@@ -1,7 +1,5 @@
 # Teeworlds
 
-_Cartoon style 2D multiplayer platform shooter game (or third person shooter)._
-
 - Home: https://www.teeworlds.com/
 - State: beta, inactive since 2013
 - Download: https://www.teeworlds.com/?page=downloads
@@ -14,6 +12,7 @@ _Cartoon style 2D multiplayer platform shooter game (or third person shooter)._
 - Assets license: CC-BY-SA-3.0
 - Developer: Magnus Auvinen
 
+Cartoon style 2D multiplayer platform shooter game (or third person shooter).
 The game provides an arena where players fight in various multiplayer modes (capture the flag, duel, team death match, race). The player is a Tee, a little ball with hands and feet.
 
 ## Building

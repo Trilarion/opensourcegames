@@ -1,7 +1,5 @@
 # Which Way Is Up?
 
-_Puzzle platformer._
-
 - Home: http://www.oletus.fi/static/whichwayisup/, https://packages.debian.org/search?keywords=whichwayisup
 - State: beta, inactive since 2008
 - Platform: Windows, Linux
@@ -12,5 +10,7 @@ _Puzzle platformer._
 - Code dependencies: pygame
 - Assets license: CC BY 3.0
 - Developer: Olli "Hectigo" Etuaho
+
+Puzzle platformer.
 
 ## Building

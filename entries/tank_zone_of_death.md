@@ -1,7 +1,5 @@
 # Tank: Zone of Death
 
-_Clone of Battle City._
-
 - Home: https://zod.fandom.com/ru/wiki/Главная (Russian)
 - Media: <https://en.wikipedia.org/wiki/Battle_City_(video_game)>
 - Inspirations: Battle City
@@ -10,5 +8,7 @@ _Clone of Battle City._
 - Code repository: https://github.com/les-sosna/tzod.git
 - Code language: C++, Lua
 - Code license: GPL-3.0
+
+Clone of Battle City.
 
 ## Building

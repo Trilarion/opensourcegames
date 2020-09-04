@@ -1,7 +1,5 @@
 # SanAndreasUnity
 
-_Remake of Grand Theft Auto: San Andreas._
-
 - Home: https://github.com/GTA-ASM/SanAndreasUnity
 - Inspirations: Grand Theft Auto: San Andreas
 - State: mature
@@ -12,5 +10,7 @@ _Remake of Grand Theft Auto: San Andreas._
 - Code language: C#
 - Code license: MIT
 - Code dependencies: Unity
+
+Remake of Grand Theft Auto: San Andreas.
 
 ## Building

@@ -1,7 +1,5 @@
 # Secret Maryo Chronicles
 
-_Jump and Run game like Super Mario World with an advanced Editor._
-
 - Home: http://secretmaryo.org/, https://sourceforge.net/projects/smclone/
 - Media: https://en.wikipedia.org/wiki/Secret_Maryo_Chronicles
 - Inspirations: Mario World
@@ -11,5 +9,7 @@ _Jump and Run game like Super Mario World with an advanced Editor._
 - Code repository: https://github.com/FluXy/SMC.git, (svn was at https://web.archive.org/web/20081217043011/https://opensvn.csie.org/SMC/SMC/)
 - Code language: C++
 - Code license: GPL-3.0
+
+Jump and Run game like Super Mario World with an advanced Editor.
 
 ## Building

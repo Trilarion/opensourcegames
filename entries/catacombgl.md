@@ -1,7 +1,5 @@
 # CatacombGL
 
-_Remake of Catacomb 3-D._
-
 - Home: https://github.com/ArnoAnsems/CatacombGL
 - Inspirations: Catacomb 3-D
 - State: beta
@@ -11,6 +9,7 @@ _Remake of Catacomb 3-D._
 - Code license: GPL-3.0
 - Code dependencies: OpenGL
 
+Remake of Catacomb 3-D.
 CatacombGL is a Windows source port with OpenGL graphics for the 1992 game The Catacomb Abyss.
 
 ## Building

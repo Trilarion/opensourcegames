@@ -1,7 +1,5 @@
 # OpenGothic
 
-_Engine remake of Gothic II._
-
 - Home: https://github.com/Try/OpenGothic
 - Inspirations: Gothic, Gothic II
 - State: beta
@@ -11,6 +9,8 @@ _Engine remake of Gothic II._
 - Code repository: https://github.com/Try/OpenGothic.git
 - Code language: C++
 - Code license: MIT
+
+Engine remake of Gothic II.
 
 ## Building
 

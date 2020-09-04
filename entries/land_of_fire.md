@@ -1,7 +1,5 @@
 # Land of Fire
 
-_A currently playable MMORPG project._
-
 - Home: http://landoffire.org/
 - State: beta (?)
 - Keywords: role playing
@@ -9,6 +7,7 @@ _A currently playable MMORPG project._
 - Code language: Script
 - Code license: GPL-2.0
 
+A currently playable MMORPG project.
 Uses the Mana source engine.
 
 ## Building

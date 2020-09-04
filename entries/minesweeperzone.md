@@ -1,7 +1,5 @@
 # Minesweeper.Zone
 
-_Remake of Minesweeper._
-
 - Home: https://minesweeper.zone
 - Inspirations: Minesweeper
 - State: mature
@@ -10,5 +8,7 @@ _Remake of Minesweeper._
 - Code repository: https://github.com/reed-jones/minesweeper_js.git
 - Code language: JavaScript, PHP
 - Code license: MIT
+
+Remake of Minesweeper.
 
 ## Building

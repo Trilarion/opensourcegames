@@ -1,7 +1,5 @@
 # OpenMW for Android
 
-_Remake of The Elder Scrolls III: Morrowind._
-
 - Home: https://omw.xyz.is/
 - Inspirations: The Elder Scrolls III: Morrowind
 - State: mature
@@ -12,6 +10,7 @@ _Remake of The Elder Scrolls III: Morrowind._
 - Code language: Kotlin
 - Code license: GPL-3.0
 
+Remake of The Elder Scrolls III: Morrowind.
 See also [OpenMW](openmw.md).
 
 ## Building

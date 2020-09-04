@@ -1,7 +1,5 @@
 # Daggerfall Unity
 
-_Remake of The Elder Scrolls II: Daggerfall._
-
 - Home: https://www.dfworkshop.net/
 - Inspirations: The Elder Scrolls II: Daggerfall
 - State: mature
@@ -12,5 +10,7 @@ _Remake of The Elder Scrolls II: Daggerfall._
 - Code language: C#
 - Code license: MIT
 - Code dependencies: Unity
+
+Remake of The Elder Scrolls II: Daggerfall.
 
 ## Building

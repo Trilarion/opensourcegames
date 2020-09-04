@@ -1,7 +1,5 @@
 # SDL Sopwith
 
-_Port of the classic 8086 biplane shoot-em-up._
-
 - Home: http://sdl-sopwith.sourceforge.net/, https://sourceforge.net/projects/sdl-sopwith/
 - Inspirations: Sopwith
 - State: mature, inactive since 2014
@@ -13,6 +11,7 @@ _Port of the classic 8086 biplane shoot-em-up._
 - Code license: GPL-2.0
 - Code dependencies: SDL
 
+Port of the classic 8086 biplane shoot-em-up.
 See also the original [Sopwith](https://web.archive.org/web/20200131222432/http://davidlclark.com/page/sopwith)
 
 ## Building

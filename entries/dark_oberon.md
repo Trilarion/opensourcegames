@@ -1,7 +1,5 @@
 # Dark Oberon
 
-_Real-time strategy game similar to Warcraft II._
-
 - Home: http://dark-oberon.sourceforge.net/, https://sourceforge.net/projects/dark-oberon/
 - Inspirations: Warcraft II
 - State: mature, inactive since 2009
@@ -11,5 +9,7 @@ _Real-time strategy game similar to Warcraft II._
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: SDL
+
+Real-time strategy game similar to Warcraft II.
 
 ## Building

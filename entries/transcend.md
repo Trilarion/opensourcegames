@@ -1,7 +1,5 @@
 # Transcend
 
-_Abstract 2D shooter game._
-
 - Home: http://transcend.sourceforge.net/, https://sourceforge.net/projects/transcend/, https://packages.debian.org/search?keywords=transcend
 - State: beta, inactive since 2005
 - Download: https://sourceforge.net/projects/transcend/files/
@@ -13,5 +11,7 @@ _Abstract 2D shooter game._
 - Code dependencies: GLUT
 - Assets license: ? (GPL)
 - Developer: Jason Rohrer
+
+Abstract 2D shooter game.
 
 ## Building

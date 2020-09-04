@@ -1,7 +1,5 @@
 # Circus Linux!
 
-_Remake of Circus Atari._
-
 - Home: http://www.newbreedsoftware.com/circus-linux/
 - Inspirations: Circus Atari
 - State: mature, inactive since 2000
@@ -11,5 +9,7 @@ _Remake of Circus Atari._
 - Code repository: (see download)
 - Code language: C
 - Code license: GPL-2.0
+
+Remake of Circus Atari.
 
 ## Building

@@ -1,7 +1,5 @@
 # BOOM: Remake
 
-_Remake of BOOM._
-
 - Home: https://silverweed.github.io/boom/
 - Inspirations: BOOM
 - State: mature
@@ -10,6 +8,8 @@ _Remake of BOOM._
 - Code language: C++
 - Code license: Custom (non commercial)
 - Code dependencies: SFML
+
+Remake of BOOM.
 
 ## Building
 

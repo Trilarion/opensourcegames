@@ -1,7 +1,5 @@
 # Source of Tales
 
-_A massive multiplayer online roleplaying game._
-
 - Home: http://www.sourceoftales.org/
 - State: mature, inactive since 2013
 - Keywords: role playing, multiplayer online + massive
@@ -9,6 +7,7 @@ _A massive multiplayer online roleplaying game._
 - Code language: Lua
 - Code license: GPL-3.0
 
+A massive multiplayer online roleplaying game.
 Uses the Mana source engine.
 
 ## Building

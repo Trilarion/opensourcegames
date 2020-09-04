@@ -1,7 +1,5 @@
 # PCExhumed
 
-_Remake of Powerslave._
-
 - Home: https://lerppu.net/wannabethesis/, http://pcex.retrohost.net/
 - Inspirations: Powerslave
 - State: beta
@@ -11,6 +9,7 @@ _Remake of Powerslave._
 - Code license: Custom
 - Code dependencies: OpenGL, SDL, SDL2
 
+Remake of Powerslave.
 Reverse-engineered ports of Build games using EDuke32 engine technology and development principles.
 
 ## Building

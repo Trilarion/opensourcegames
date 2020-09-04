@@ -1,7 +1,5 @@
 # Craft
 
-_Clone of Minecraft._
-
 - Home: https://www.michaelfogleman.com/projects/craft/
 - Inspirations: Minecraft
 - State: mature, inactive since 2017
@@ -12,6 +10,8 @@ _Clone of Minecraft._
 - Code language: C, Python
 - Code license: MIT
 - Code dependencies: OpenGL
+
+Clone of Minecraft.
 
 ## Building
 

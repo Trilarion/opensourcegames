@@ -1,7 +1,5 @@
 # TinTin++
 
-_MUD client._
-
 - Home: https://tintin.mudhalla.net/, https://sourceforge.net/projects/tintin
 - State: mature
 - Download: https://tintin.mudhalla.net/download.php
@@ -11,6 +9,7 @@ _MUD client._
 - Code language: C
 - Code license: GPL-3.0
 
+MUD client.
 A [MUD client](https://en.wikipedia.org/wiki/MUD_client)
 
 ## Building

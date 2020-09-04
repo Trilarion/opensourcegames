@@ -1,7 +1,5 @@
 # rFXGen
 
-_FX sounds generator._
-
 - Home: https://raylibtech.itch.io/rfxgen
 - Inspirations: sfxr
 - State: mature
@@ -10,5 +8,7 @@ _FX sounds generator._
 - Code repository: https://github.com/raysan5/rfxgen.git
 - Code language: C
 - Code license: zlib
+
+FX sounds generator.
 
 ## Building

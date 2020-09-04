@@ -1,7 +1,5 @@
 # Card Stories
 
-_Online multiplayer game of cards that promotes creativity and imagination._
-
 - Home: https://web.archive.org/web/20190126033549/https://cardstories.org/
 - State: beta, inactive since 2012
 - Keywords: puzzle, cards, open content
@@ -11,5 +9,7 @@ _Online multiplayer game of cards that promotes creativity and imagination._
 - Code dependencies: Twisted
 - Assets license: CC-BY-SA-3.0
 - Developer: Farsides
+
+Online multiplayer game of cards that promotes creativity and imagination.
 
 ## Building

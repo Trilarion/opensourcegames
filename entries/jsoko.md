@@ -1,7 +1,5 @@
 # JSoko
 
-_Sokobon style puzzle game. It includes an automatic solver and supports different skins._
-
 - Home: https://www.sokoban-online.de/, https://sourceforge.net/projects/jsokoapplet/
 - State: mature
 - Download: https://sourceforge.net/projects/jsokoapplet/files/
@@ -12,5 +10,7 @@ _Sokobon style puzzle game. It includes an automatic solver and supports differe
 - Code license: GPL-3.0 (+credits +no-misrepresentation)
 - Assets license: GPL (+credits +no-misrepresentation)
 - Developer: Heiner Marxen, Matthias Meger
+
+Sokobon style puzzle game. It includes an automatic solver and supports different skins.
 
 ## Building

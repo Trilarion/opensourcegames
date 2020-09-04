@@ -1,7 +1,5 @@
 # FreeOrion
 
-_Turn-based space empire and galactic conquest game._
-
 - Home: https://www.freeorion.org/index.php/Main_Page, https://sourceforge.net/projects/freeorion/
 - Media: https://en.wikipedia.org/wiki/Master_of_Orion#External_links
 - Inspirations: Master of Orion, Master of Orion 2
@@ -13,6 +11,8 @@ _Turn-based space empire and galactic conquest game._
 - Code license: GPL-2.0
 - Code dependencies: Boost, FreeType, libvorbis, Ogg, OpenAL, OpenGL, PyLab, SDL, zlib
 - Assets license: CC-BY-SA
+
+Turn-based space empire and galactic conquest game.
 
 ## Building
 

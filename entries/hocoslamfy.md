@@ -1,7 +1,5 @@
 # Hocoslamfy
 
-_Remake of Flappy Bird._
-
 - Home: https://github.com/Nebuleon/hocoslamfy
 - Inspirations: Flappy Bird
 - State: beta, inactive since 2016
@@ -11,6 +9,8 @@ _Remake of Flappy Bird._
 - Code license: GPL-2.0
 - Code dependencies: SDL
 - Assets license: CC-BY-SA-3.0 (see https://github.com/Nebuleon/hocoslamfy/blob/master/COPYRIGHT)
+
+Remake of Flappy Bird.
 
 ## Building
 

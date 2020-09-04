@@ -1,7 +1,5 @@
 # Billiards
 
-_Cue sports simulator aiming for physical accuracy and simplicity._
-
 - Home: http://www.nongnu.org/billiards/, https://savannah.nongnu.org/projects/billiards/
 - State: beta, inactive since 2012
 - Download: http://www.nongnu.org/billiards/#downloads, http://download.savannah.nongnu.org/releases/billiards/
@@ -11,6 +9,8 @@ _Cue sports simulator aiming for physical accuracy and simplicity._
 - Code language: Lua, Objective-C
 - Code license: GPL-3.0
 - Developer: Dimitris Papavasiliou
+
+Cue sports simulator aiming for physical accuracy and simplicity.
 
 ## Building
 

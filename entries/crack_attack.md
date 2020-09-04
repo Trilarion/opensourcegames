@@ -1,7 +1,5 @@
 # Crack Attack!
 
-_Remake of Tetris Attack._
-
 - Home: https://www.nongnu.org/crack-attack/
 - Inspirations: Tetris Attack
 - State: mature, inactive since 2005
@@ -12,6 +10,7 @@ _Remake of Tetris Attack._
 - Code language: C++
 - Code license: GPL-2.0
 
+Remake of Tetris Attack.
 networking support
 
 ## Building

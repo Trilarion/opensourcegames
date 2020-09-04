@@ -1,7 +1,5 @@
 # Space Station 13
 
-_A community developed, multiplayer round-based role playing game, where players assume the role of a crew member on a space station._
-
 - Home: https://spacestation13.com/
 - Media: https://en.wikipedia.org/wiki/Space_Station_13
 - State: mature
@@ -10,6 +8,7 @@ _A community developed, multiplayer round-based role playing game, where players
 - Code language: DM
 - Code license: AGPL-3.0
 
+A community developed, multiplayer round-based role playing game, where players assume the role of a crew member on a space station.
 Uses the [Byond engine]() which is closed source!
 
 Open source versions:

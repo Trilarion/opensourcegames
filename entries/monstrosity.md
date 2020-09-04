@@ -1,7 +1,5 @@
 # Monstrosity
 
-_Slay monsters, cast spells and collect keys to escape an 8-level dungeon in this turn-based dungeon crawler._
-
 - Home: http://monstrosity.fireheadfred.com/
 - State: mature
 - Download: http://monstrosity.fireheadfred.com/
@@ -11,5 +9,7 @@ _Slay monsters, cast spells and collect keys to escape an 8-level dungeon in thi
 - Code license: MIT (repository)
 - Code dependencies: pygame
 - Assets license: Custom (music with permission by Tom Murphy)
+
+Slay monsters, cast spells and collect keys to escape an 8-level dungeon in this turn-based dungeon crawler.
 
 ## Building

@@ -1,7 +1,5 @@
 # OpenSupaplex
 
-_Remake of Supaplex._
-
 - Home: https://github.com/sergiou87/open-supaplex
 - Inspirations: Supaplex
 - State: mature
@@ -11,6 +9,8 @@ _Remake of Supaplex._
 - Code language: C
 - Code license: GPL-3.0
 - Code dependencies: SDL2
+
+Remake of Supaplex.
 
 ## Building
 

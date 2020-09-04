@@ -1,7 +1,5 @@
 # Unvanquished
 
-_FPS/RTS hybrid game powered by the Daemon engine (a combination of ioq3 and XreaL)._
-
 - Home: https://unvanquished.net/, https://sourceforge.net/projects/unvanquished/
 - Media: <https://en.wikipedia.org/wiki/Unvanquished_(video_game)>
 - Inspirations: Natural Selection
@@ -14,6 +12,8 @@ _FPS/RTS hybrid game powered by the Daemon engine (a combination of ioq3 and Xre
 - Code license: GPL-3.0
 - Code dependencies: Dæmon
 - Assets license: CC-BY-SA-2.5
+
+FPS/RTS hybrid game powered by the Daemon engine (a combination of ioq3 and XreaL).
 
 ## Building
 

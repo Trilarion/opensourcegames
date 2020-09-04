@@ -1,7 +1,5 @@
 # Orbit-Hopper
 
-_Clone of SkyRoads._
-
 - Home: http://www.zneaker.com/projects.html#orbit
 - Inspirations: SkyRoads
 - State: mature, inactive since 2019
@@ -10,5 +8,7 @@ _Clone of SkyRoads._
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: OpenGL, SDL
+
+Clone of SkyRoads.
 
 ## Building

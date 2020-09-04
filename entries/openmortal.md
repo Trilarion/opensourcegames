@@ -1,7 +1,5 @@
 # OpenMortal
 
-_Clone of Mortal Kombat._
-
 - Home: http://apocalypse.rulez.org/~upi/Mortal/, https://sourceforge.net/projects/openmortal/
 - Inspirations: Mortal Kombat
 - State: beta, inactive since 2006
@@ -12,6 +10,8 @@ _Clone of Mortal Kombat._
 - Code language: C++, Perl
 - Code license: GPL-2.0
 - Developer: UPi
+
+Clone of Mortal Kombat.
 
 ## Building
 

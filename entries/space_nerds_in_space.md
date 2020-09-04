@@ -1,7 +1,5 @@
 # Space Nerds In Space
 
-_Similar of Artemis: Spaceship Bridge Simulator._
-
 - Home: https://smcameron.github.io/space-nerds-in-space/
 - Inspirations: Artemis: Spaceship Bridge Simulator
 - State: beta
@@ -10,6 +8,8 @@ _Similar of Artemis: Spaceship Bridge Simulator._
 - Code repository: https://github.com/smcameron/space-nerds-in-space.git
 - Code language: C, Lua
 - Code license: GPL-2.0
+
+Similar of Artemis: Spaceship Bridge Simulator.
 
 ## Building
 

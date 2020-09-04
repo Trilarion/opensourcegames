@@ -1,7 +1,5 @@
 # DOOM Retro
 
-_Remake of Doom, Doom II._
-
 - Home: https://www.doomretro.com/
 - Inspirations: Doom, Doom II
 - State: mature
@@ -12,6 +10,8 @@ _Remake of Doom, Doom II._
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependencies: SDL2
+
+Remake of Doom, Doom II.
 
 ## Building
 

@@ -1,7 +1,5 @@
 # Duck Marines
 
-_Remake of ChuChu Rocket!._
-
 - Home: https://tangramgames.dk/games/duckmarines/
 - Inspirations: ChuChu Rocket!
 - State: mature, inactive since 2016
@@ -12,5 +10,7 @@ _Remake of ChuChu Rocket!._
 - Code language: Lua
 - Code license: zlib
 - Assets license: CC-BY-SA (before relicensing?), CC-BY-NC-ND-4.0 (after relicensing)
+
+Remake of ChuChu Rocket!.
 
 ## Building

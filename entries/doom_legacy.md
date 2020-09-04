@@ -1,7 +1,5 @@
 # Doom Legacy
 
-_Remake of Doom, Doom II, Heretic, Hexen._
-
 - Home: http://doomlegacy.sourceforge.net/, https://sourceforge.net/projects/doomlegacy/
 - Inspirations: Doom, Doom II, Heretic, Hexen
 - State: mature
@@ -12,5 +10,7 @@ _Remake of Doom, Doom II, Heretic, Hexen._
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: SDL
+
+Remake of Doom, Doom II, Heretic, Hexen.
 
 ## Building

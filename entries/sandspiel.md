@@ -1,7 +1,5 @@
 # sandspiel
 
-_Clone of Powder Game._
-
 - Home: https://maxbittker.com/making-sandspiel/
 - Inspirations: Powder Game
 - State: beta
@@ -13,5 +11,7 @@ _Clone of Powder Game._
 - Code license: MIT
 - Code dependencies: WebGL
 - Developer: Max Bittker
+
+Clone of Powder Game.
 
 ## Building

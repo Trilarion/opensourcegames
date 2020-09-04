@@ -1,7 +1,5 @@
 # 1oom
 
-_Master of Orion (1993) game engine recreation._
-
 - Home: https://kilgoretroutmaskreplicant.gitlab.io/plain-html/
 - Inspirations: Master of Orion
 - State: mature
@@ -13,6 +11,8 @@ _Master of Orion (1993) game engine recreation._
 - Code license: GPL-2.0
 - Code dependencies: Allegro, SDL, SDL2
 - Developer: Kilgore Trout Mask Replicant
+
+Master of Orion (1993) game engine recreation.
 
 ## Building
 

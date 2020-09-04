@@ -1,7 +1,5 @@
 # Chocolate Doom
 
-_Doom source port that accurately reproduces the experience of Doom as it was played in the 1990s._
-
 - Home: https://www.chocolate-doom.org/wiki/index.php/Chocolate_Doom, https://sourceforge.net/projects/chocolate-doom/
 - Inspirations: Doom, Heretic, Hexen, Strife
 - State: mature
@@ -12,6 +10,7 @@ _Doom source port that accurately reproduces the experience of Doom as it was pl
 - Code language: C
 - Code license: GPL-2.0
 
+Doom source port that accurately reproduces the experience of Doom as it was played in the 1990s.
 Supports a number of games and mods based on the Doom.
 
 License of assets?

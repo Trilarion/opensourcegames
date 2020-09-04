@@ -1,7 +1,5 @@
 # Online Chess Club
 
-_Web chess game._
-
 - Home: http://lgames.sourceforge.net/OCC/, https://sourceforge.net/projects/lgames/
 - State: mature
 - Download: https://sourceforge.net/projects/lgames/files/occ/
@@ -11,5 +9,7 @@ _Web chess game._
 - Code language: PHP, JavaScript
 - Code license: GPL-2.0
 - Developer: Michael Speck
+
+Web chess game.
 
 ## Building

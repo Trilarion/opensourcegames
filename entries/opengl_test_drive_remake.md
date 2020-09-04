@@ -1,7 +1,5 @@
 # OpenGL Test Drive Remake
 
-_Remake of Test Drive._
-
 - Home: https://antongerdelan.net/blog/formatted/2014_12_10_test_drive.html
 - Inspirations: Test Drive
 - State: mature, inactive since 2015
@@ -10,5 +8,7 @@ _Remake of Test Drive._
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependencies: OpenGL
+
+Remake of Test Drive.
 
 ## Building

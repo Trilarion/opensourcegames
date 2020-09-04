@@ -1,7 +1,5 @@
 # 3D Pong
 
-_Three dimensional sports game._
-
 - Home: http://www.newbreedsoftware.com/3dpong/
 - State: beta, inactive since 2004
 - Platform: Linux, macOS
@@ -10,5 +8,7 @@ _Three dimensional sports game._
 - Code language: C
 - Code license: GPL-2.0
 - Developer: New Breed Software
+
+Three dimensional sports game.
 
 ## Building

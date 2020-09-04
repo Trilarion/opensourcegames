@@ -1,7 +1,5 @@
 # Construo
 
-_Construction game._
-
 - Home: http://construo.github.io/, https://github.com/Construo/construo
 - State: beta, inactive since 2015
 - Keywords: simulation
@@ -9,6 +7,8 @@ _Construction game._
 - Code language: C++
 - Code license: GPL-3.0
 - Developer: Ingo Ruhnke
+
+Construction game.
 
 ## Building
 

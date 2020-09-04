@@ -1,7 +1,5 @@
 # Zelda: Mystery of Solarus DX
 
-_This quest is a free, open-source game that works with Solarus, an open-source Zelda-like 2D game engine._
-
 - Home: https://github.com/solarus-games/zsdx
 - State: mature
 - Keywords: role playing
@@ -10,6 +8,7 @@ _This quest is a free, open-source game that works with Solarus, an open-source 
 - Code license: GPL-3.0
 - Code dependencies: Solarus
 
+This quest is a free, open-source game that works with Solarus, an open-source Zelda-like 2D game engine.
 See also: [Solarus](../framework/solarus.md).
 
 ## Building

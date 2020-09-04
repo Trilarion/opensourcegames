@@ -1,7 +1,5 @@
 # antiyoy
 
-_???_
-
 - Home: https://github.com/yiotro/Antiyoy
 - State: beta
 - Platform: Android
@@ -10,6 +8,8 @@ _???_
 - Code language: Java
 - Code license: GPL-3.0
 - Code dependencies: libGDX
+
+???
 
 ## Building
 

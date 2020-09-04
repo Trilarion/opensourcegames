@@ -1,7 +1,5 @@
 # Atomic Tanks
 
-_Scorched Earth clone similar to the Worms series._
-
 - Home: http://atanks.sourceforge.net/, https://sourceforge.net/projects/atanks
 - Inspirations: Scorched Earth
 - State: mature, inactive since 2016
@@ -14,6 +12,8 @@ _Scorched Earth clone similar to the Worms series._
 - Code dependencies: Allegro
 - Assets license: GPL
 - Developer: Jesse Smith, Juraj Michalek, Thomas Hudson
+
+Scorched Earth clone similar to the Worms series.
 
 ## Building
 

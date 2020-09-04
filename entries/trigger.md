@@ -1,7 +1,5 @@
 # Trigger
 
-_3D car racing game._
-
 - Home: http://trigger-rally.sourceforge.net/, https://sourceforge.net/projects/trigger-rally/, https://packages.debian.org/search?keywords=trigger-rally
 - State: beta
 - Download: https://sourceforge.net/projects/trigger-rally/files/
@@ -11,5 +9,7 @@ _3D car racing game._
 - Code language: C++
 - Code license: GPL-2.0
 - Developer: Jasmine Langridge, Richard Langridge
+
+3D car racing game.
 
 ## Building

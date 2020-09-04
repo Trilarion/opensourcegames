@@ -1,7 +1,5 @@
 # CorsixTH
 
-_Reimplementation of the 1997 Bullfrog business sim Theme Hospital._
-
 - Home: http://corsixth.com/, http://forums.corsixth.com/
 - Inspirations: Theme Hospital
 - State: mature
@@ -11,6 +9,8 @@ _Reimplementation of the 1997 Bullfrog business sim Theme Hospital._
 - Code language: Lua, C++
 - Code license: MIT
 - Code dependencies: SDL2
+
+Reimplementation of the 1997 Bullfrog business sim Theme Hospital.
 
 ## Building
 

@@ -1,7 +1,5 @@
 # VCMI
 
-_Engine for Heroes III, giving it new and extended possibilities._
-
 - Home: https://vcmi.eu/, https://sourceforge.net/projects/vcmi/
 - Inspirations: Heroes of Might and Magic III
 - State: mature
@@ -11,5 +9,7 @@ _Engine for Heroes III, giving it new and extended possibilities._
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: SDL
+
+Engine for Heroes III, giving it new and extended possibilities.
 
 ## Building

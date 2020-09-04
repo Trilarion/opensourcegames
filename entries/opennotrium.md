@@ -1,7 +1,5 @@
 # OpenNotrium
 
-_Remake of Notrium._
-
 - Home: https://github.com/verhoevenv/OpenNotrium
 - Inspirations: Notrium
 - State: beta
@@ -10,5 +8,7 @@ _Remake of Notrium._
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependencies: SDL2
+
+Remake of Notrium.
 
 ## Building

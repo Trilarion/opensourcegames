@@ -1,7 +1,5 @@
 # vkQuake
 
-_Remake of Quake._
-
 - Home: https://github.com/Novum/vkQuake
 - Inspirations: Quake
 - State: mature
@@ -12,6 +10,8 @@ _Remake of Quake._
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependencies: Vulkan
+
+Remake of Quake.
 
 ## Building
 

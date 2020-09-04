@@ -1,7 +1,5 @@
 # Zed Online
 
-_Remake of Z._
-
 - Home: https://zzone.lewe.com/zed-online-game/, https://sourceforge.net/projects/zedonline/
 - Inspirations: Z
 - State: mature
@@ -9,5 +7,7 @@ _Remake of Z._
 - Code repository: http://hg.code.sf.net/p/zedonline/code (hg)
 - Code language: C++
 - Code license: ? (GPL-3.0)
+
+Remake of Z.
 
 ## Building

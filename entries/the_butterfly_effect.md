@@ -1,7 +1,5 @@
 # The Butterfly Effect
 
-_Realistic physics simulations._
-
 - Home: http://the-butterfly-effect.org/, https://sourceforge.net/projects/tbe/
 - Inspirations: Crazy Machines series, The Incredible Machine series
 - State: beta
@@ -12,6 +10,8 @@ _Realistic physics simulations._
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: Box2D, Qt
+
+Realistic physics simulations.
 
 ## Building
 

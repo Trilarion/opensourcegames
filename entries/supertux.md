@@ -1,7 +1,5 @@
 # SuperTux
 
-_Clone of Super Mario._
-
 - Home: https://www.supertux.org/
 - Media: https://en.wikipedia.org/wiki/SuperTux
 - Inspirations: Super Mario
@@ -13,5 +11,7 @@ _Clone of Super Mario._
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependencies: Boost, SDL2
+
+Clone of Super Mario.
 
 ## Building

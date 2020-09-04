@@ -1,7 +1,5 @@
 # eAdventure
 
-_Authoring tool for the creation of point-and-click games._
-
 - Home: http://e-adventure.e-ucm.es/, https://sourceforge.net/projects/e-adventure/
 - State: mature, inactive since 2014
 - Download: https://sourceforge.net/projects/e-adventure/files/
@@ -10,6 +8,7 @@ _Authoring tool for the creation of point-and-click games._
 - Code language: Java
 - Code license: GPL-3.0
 
+Authoring tool for the creation of point-and-click games.
 Check the games that it includes.
 
 ## Building

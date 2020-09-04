@@ -1,7 +1,5 @@
 # openage
 
-_Remake of Age of Empires, Age of Empires II, Star Wars: Galactic Battlegrounds._
-
 - Home: https://openage.sft.mx/
 - Inspirations: Age of Empires, Age of Empires II, Star Wars: Galactic Battlegrounds
 - State: beta
@@ -10,5 +8,7 @@ _Remake of Age of Empires, Age of Empires II, Star Wars: Galactic Battlegrounds.
 - Code language: C++, Python
 - Code license: GPL-3.0
 - Code dependencies: OpenGL, SDL
+
+Remake of Age of Empires, Age of Empires II, Star Wars: Galactic Battlegrounds.
 
 ## Building

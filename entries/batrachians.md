@@ -1,7 +1,5 @@
 # Batrachians
 
-_Remake of Frogs and Flies._
-
 - Home: https://perso.b2b2c.ca/~sarrazip/dev/batrachians.html
 - Inspirations: Frogs and Flies
 - State: beta, inactive since 2012
@@ -11,5 +9,7 @@ _Remake of Frogs and Flies._
 - Code repository: (see download)
 - Code language: C++
 - Code license: GPL-2.0
+
+Remake of Frogs and Flies.
 
 ## Building

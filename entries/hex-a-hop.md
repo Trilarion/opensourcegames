@@ -1,7 +1,5 @@
 # Hex-a-hop
 
-_Hexagonal tiles based puzzle game._
-
 - Home: http://hexahop.sourceforge.net/, https://sourceforge.net/projects/hexahop/, https://packages.debian.org/search?keywords=hex-a-hop
 - State: mature, inactive since 2013
 - Download: http://hexahop.sourceforge.net/downloads.html, https://sourceforge.net/projects/hexahop/files/
@@ -12,6 +10,8 @@ _Hexagonal tiles based puzzle game._
 - Code dependencies: SDL
 - Assets license: CC-BY-SA, GPL-2.0, Sounds: Creative Commons Sampling Plus
 - Developer: Tom Beaumont, Paul Wise, Ari Mustonen
+
+Hexagonal tiles based puzzle game.
 
 ## Building
 

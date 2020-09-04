@@ -1,7 +1,5 @@
 # VGC
 
-_Graphic Design tools._
-
 - Home: https://www.vgc.io/
 - State: beta
 - Keywords: tool
@@ -10,6 +8,7 @@ _Graphic Design tools._
 - Code license: Apache-2.0
 - Code dependencies: Qt
 
+Graphic Design tools.
 
 ## Building
 

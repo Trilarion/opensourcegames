@@ -1,7 +1,5 @@
 # Fanwor
 
-_Action-adventures in the style of the game "The Legend of Zelda"._
-
 - Home: https://fanwor.tuxfamily.org/
 - Inspirations: Legend of Zelda
 - State: mature
@@ -11,5 +9,7 @@ _Action-adventures in the style of the game "The Legend of Zelda"._
 - Code language: C
 - Code license: GPL-2.0
 - Code dependencies: SDL
+
+Action-adventures in the style of the game "The Legend of Zelda".
 
 ## Building

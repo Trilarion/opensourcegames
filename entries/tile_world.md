@@ -1,7 +1,5 @@
 # Tile World
 
-_Remake of Chip's Challenge._
-
 - Home: http://www.muppetlabs.com/~breadbox/software/tworld/
 - Inspirations: Chip's Challenge
 - State: mature, inactive since 2015
@@ -9,5 +7,7 @@ _Remake of Chip's Challenge._
 - Code repository: https://github.com/Qalthos/Tile-World.git (also see home)
 - Code language: C
 - Code license: GPL-2.0
+
+Remake of Chip's Challenge.
 
 ## Building

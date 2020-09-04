@@ -1,7 +1,5 @@
 # Sine
 
-_Remake of Asteroids._
-
 - Home: https://github.com/slx7R4GDZM/Sine
 - Inspirations: Asteroids
 - State: beta
@@ -11,6 +9,7 @@ _Remake of Asteroids._
 - Code license: MIT
 - Code dependencies: SFML
 
+Remake of Asteroids.
 See also https://github.com/slx7R4GDZM/Sine-Toolkit
 
 ## Building

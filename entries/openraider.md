@@ -1,7 +1,5 @@
 # OpenRaider
 
-_Remake of Tomb Raider._
-
 - Home: https://github.com/xythobuz/OpenRaider, http://openraider.sourceforge.net/, https://sourceforge.net/projects/openraider/
 - Inspirations: Tomb Raider
 - State: beta, inactive since 2015
@@ -12,6 +10,8 @@ _Remake of Tomb Raider._
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependencies: OpenAL, OpenGL, SDL2
+
+Remake of Tomb Raider.
 
 ## Building
 

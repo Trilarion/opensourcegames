@@ -1,7 +1,5 @@
 # Tanks of Freedom
 
-_Indie Turn Based Strategy in Isometric Pixel Art._
-
 - Home: https://tof.p1x.in/, https://w84death.itch.io/tanks-of-freedom
 - Inspirations: Advance Wars
 - State: mature
@@ -11,5 +9,7 @@ _Indie Turn Based Strategy in Isometric Pixel Art._
 - Code language: GDScript
 - Code license: MIT
 - Code dependencies: Godot
+
+Indie Turn Based Strategy in Isometric Pixel Art.
 
 ## Building

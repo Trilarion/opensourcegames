@@ -1,7 +1,5 @@
 # GoldenEye: Source
 
-_Remake of GoldenEye 007._
-
 - Home: http://geshl2.com/, https://www.moddb.com/mods/goldeneye-source
 - Inspirations: GoldenEye 007
 - State: mature, inactive since 2018
@@ -11,6 +9,7 @@ _Remake of GoldenEye 007._
 - Code license: GPL-3.0
 - Code dependencies: Source SDK
 
+Remake of GoldenEye 007.
 GoldenEye: Source is a multiplayer only total conversion modification of Half-Life 2.
 
 ## Building

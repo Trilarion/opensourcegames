@@ -1,7 +1,5 @@
 # OpenGGS
 
-_Remake of The Great Giana Sisters._
-
 - Home: https://web.archive.org/web/20190801083807/http://sourceforge.net/projects/openggs/
 - Inspirations: The Great Giana Sisters
 - State: beta, inactive since 2017
@@ -10,5 +8,7 @@ _Remake of The Great Giana Sisters._
 - Code repository: (see download)
 - Code language: C++
 - Code license: GPL-2.0
+
+Remake of The Great Giana Sisters.
 
 ## Building

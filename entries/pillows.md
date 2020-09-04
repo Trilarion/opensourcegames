@@ -1,7 +1,5 @@
 # Pillows
 
-_Save-the-world arcade game._
-
 - Home: https://fydo.net/projects/pillows
 - State: beta, inactive since 2007
 - Platform: Windows, Linux, macOS
@@ -12,5 +10,7 @@ _Save-the-world arcade game._
 - Code dependencies: pygame
 - Assets license: FAL
 - Developer: Chris Hopp
+
+Save-the-world arcade game.
 
 ## Building

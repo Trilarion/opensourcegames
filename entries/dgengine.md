@@ -1,7 +1,5 @@
 # DGEngine
 
-_Remake of Diablo._
-
 - Home: https://github.com/dgengin/DGEngine/wiki
 - Inspirations: Diablo
 - State: beta
@@ -10,6 +8,8 @@ _Remake of Diablo._
 - Code language: C++
 - Code license: zlib, GPL-3.0 (depending on the use mode)
 - Code dependencies: SFML
+
+Remake of Diablo.
 
 ## Building
 

@@ -1,7 +1,5 @@
 # Candy Box 2
 
-_Online text-based role-playing game featuring ASCII art._
-
 - Home: https://candybox2.wordpress.com/
 - Media: https://en.wikipedia.org/wiki/Candy_Box!
 - State: mature, inactive since 2013
@@ -12,6 +10,7 @@ _Online text-based role-playing game featuring ASCII art._
 - Code language: TypeScript, JavaScript
 - Code license: GPL-3.0
 
+Online text-based role-playing game featuring ASCII art.
 See also [Candy Box](https://github.com/candybox2/candybox)
 
 ## Building

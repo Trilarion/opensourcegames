@@ -1,7 +1,5 @@
 # Inexor
 
-_Remake of Cube 2: Sauerbraten._
-
 - Home: https://inexor.org/
 - Media: <https://en.wikipedia.org/wiki/Ace_of_Spades_(video_game)>
 - Inspirations: Cube 2: Sauerbraten
@@ -11,5 +9,7 @@ _Remake of Cube 2: Sauerbraten._
 - Code language: C++, JavaScript
 - Code license: zlib
 - Code dependencies: Cube 2
+
+Remake of Cube 2: Sauerbraten.
 
 ## Building

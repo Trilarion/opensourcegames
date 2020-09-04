@@ -1,7 +1,5 @@
 # OpenAL
 
-_Cross-platform audio application programming interface (API)._
-
 - Home: http://www.openal.org/
 - Media: https://en.wikipedia.org/wiki/OpenAL
 - State: mature
@@ -10,5 +8,7 @@ _Cross-platform audio application programming interface (API)._
 - Code repository: (see download)
 - Code language: C
 - Code license: Proprietary (since v1.1, LGPL before)
+
+Cross-platform audio application programming interface (API).
 
 ## Building

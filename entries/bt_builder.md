@@ -1,7 +1,5 @@
 # Bt Builder
 
-_Remake of Bard's Tale Contruction Set._
-
 - Home: http://identicalsoftware.com/btbuilder/
 - Inspirations: Bard's Tale Contruction Set
 - State: beta
@@ -10,6 +8,7 @@ _Remake of Bard's Tale Contruction Set._
 - Code language: C, C++
 - Code license: GPL-3.0
 
+Remake of Bard's Tale Contruction Set.
 Does it require original content?
 
 ## Building

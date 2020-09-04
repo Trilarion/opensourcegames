@@ -1,7 +1,5 @@
 # Gravitation
 
-_Second autobiographical game by Jason Rohrer._
-
 - Home: http://hcsoftware.sourceforge.net/gravitation/, https://sourceforge.net/projects/hcsoftware/
 - State: mature, inactive since 2008
 - Download: https://sourceforge.net/projects/hcsoftware/files/Gravitation/
@@ -13,5 +11,7 @@ _Second autobiographical game by Jason Rohrer._
 - Code dependencies: SDL
 - Assets license: Public domain
 - Developer: Jason Rohrer
+
+Second autobiographical game by Jason Rohrer.
 
 ## Building

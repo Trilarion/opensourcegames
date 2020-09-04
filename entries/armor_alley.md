@@ -1,7 +1,5 @@
 # Armor Alley
 
-_Helicopter shooter._
-
 - Home: http://www.schillmania.com/armor-alley/
 - Inspirations: Armor Alley
 - State: beta
@@ -11,5 +9,7 @@ _Helicopter shooter._
 - Code language: JavaScript
 - Code license: CC-BY-NC-3.0 (https://github.com/scottschiller/ArmorAlley/blob/master/LICENSE.txt)
 - Assets license: ISC, CC-BY-NC-3.0 (sounds, https://github.com/scottschiller/ArmorAlley/blob/master/CREDITS.txt)
+
+Helicopter shooter.
 
 ## Building

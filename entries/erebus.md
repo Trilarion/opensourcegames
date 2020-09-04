@@ -1,7 +1,5 @@
 # Erebus
 
-_RPG (Role-Playing Game), for PCs, smartphones, tablets and handhelds._
-
 - Home: http://erebusrpg.sourceforge.net/, https://sourceforge.net/projects/erebusrpg/
 - State: beta
 - Download: http://erebusrpg.sourceforge.net/#download
@@ -10,6 +8,7 @@ _RPG (Role-Playing Game), for PCs, smartphones, tablets and handhelds._
 - Code language: C++
 - Code license: GPL-3.0
 
+RPG (Role-Playing Game), for PCs, smartphones, tablets and handhelds.
 Uses Qt
 
 ## Building

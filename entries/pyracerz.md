@@ -1,7 +1,5 @@
 # pyRacerz
 
-_Racing game._
-
 - Home: http://pyracerz.sourceforge.net/, https://sourceforge.net/projects/pyracerz/
 - State: beta, inactive since 2005
 - Download: https://sourceforge.net/projects/pyracerz/files/
@@ -11,5 +9,7 @@ _Racing game._
 - Code license: GPL-2.0
 - Code dependencies: pygame
 - Developer: Jujucece
+
+Racing game.
 
 ## Building

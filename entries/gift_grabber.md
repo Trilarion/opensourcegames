@@ -1,7 +1,5 @@
 # Gift Grabber
 
-_Remake of Flag Catcher._
-
 - Home: https://ceva24.github.io/
 - Inspirations: Flag Catcher
 - State: mature
@@ -11,5 +9,7 @@ _Remake of Flag Catcher._
 - Code language: JavaScript
 - Code license: Apache-2.0
 - Code dependencies: BackBone.js
+
+Remake of Flag Catcher.
 
 ## Building

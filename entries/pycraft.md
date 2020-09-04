@@ -1,7 +1,5 @@
 # pycraft
 
-_Remake of Minecraft._
-
 - Home: https://github.com/itsapi/pycraft
 - Inspirations: Minecraft
 - State: mature, inactive since 2018
@@ -10,5 +8,7 @@ _Remake of Minecraft._
 - Code repository: https://github.com/itsapi/pycraft.git
 - Code language: C, Python
 - Code license: GPL-2.0
+
+Remake of Minecraft.
 
 ## Building

@@ -1,7 +1,5 @@
 # Pixel Wheels
 
-_2D top-down racing game._
-
 - Home: https://agateau.com/projects/pixelwheels/
 - State: beta
 - Platform: Windows, Linux, macOS, Android
@@ -11,6 +9,8 @@ _2D top-down racing game._
 - Code license: GPL-3.0
 - Assets license: CC-BY-SA-4.0
 - Developer: Aurélien Gâteau
+
+2D top-down racing game.
 
 ## Building
 

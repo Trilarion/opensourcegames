@@ -1,7 +1,5 @@
 # Tennix!
 
-_Tennis game._
-
 - Home: http://icculus.org/tennix/, http://icculus.org/tennix/pre2009/
 - State: mature
 - Keywords: sports, strategy
@@ -10,5 +8,7 @@ _Tennis game._
 - Code license: GPL-2.0
 - Code dependencies: SDL
 - Developer: Thomas Perl
+
+Tennis game.
 
 ## Building

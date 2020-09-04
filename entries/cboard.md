@@ -1,7 +1,5 @@
 # CBoard
 
-_Text-mode chess game front-end and editor for PGN (Portable Game Notation) files. It uses unicode characters to display chess pieces._
-
 - Home: http://benkibbey.wordpress.com/cboard/, https://gitlab.com/bjk/cboard/-/wikis/home
 - State: beta, inactive since 2018
 - Keywords: tool, chess, open content, text-based
@@ -11,5 +9,7 @@ _Text-mode chess game front-end and editor for PGN (Portable Game Notation) file
 - Code dependencies: ncurses
 - Assets license: None (no media)
 - Developer: Ben Kibbey
+
+Text-mode chess game front-end and editor for PGN (Portable Game Notation) files. It uses unicode characters to display chess pieces.
 
 ## Building

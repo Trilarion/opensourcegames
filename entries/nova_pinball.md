@@ -1,7 +1,5 @@
 # NOVA PINBALL
 
-_Pinball game._
-
 - Home: https://engrams.dev/nova-pinball/
 - State: beta, inactive since 2017
 - Download: https://github.com/wesleywerner/nova-pinball/releases
@@ -11,5 +9,7 @@ _Pinball game._
 - Code language: Lua
 - Code license: GPL-3.0
 - Code dependencies: LÖVE
+
+Pinball game.
 
 ## Building

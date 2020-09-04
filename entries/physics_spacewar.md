@@ -1,7 +1,5 @@
 # Physics Spacewar
 
-_Physics-based multiplayer 2D space battle game._
-
 - Home: https://github.com/SteveSmith16384/PhysicsSpaceWar
 - State: beta, inactive since 2019
 - Download: https://github.com/SteveSmith16384/PhysicsSpaceWar/releases
@@ -10,6 +8,8 @@ _Physics-based multiplayer 2D space battle game._
 - Code repository: https://github.com/SteveSmith16384/PhysicsSpaceWar.git
 - Code language: Java
 - Code license: MIT
+
+Physics-based multiplayer 2D space battle game.
 
 ## Building
 

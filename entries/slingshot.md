@@ -1,7 +1,5 @@
 # Slingshot
 
-_Gravity‐based turn based strategy game._
-
 - Home: https://web.archive.org/web/20150630125714/http://slingshot.wikispot.org/, https://sourceforge.net/projects/slingshot-game/
 - State: beta, inactive since 2007
 - Download: https://web.archive.org/web/20150630152307/http://slingshot.wikispot.org/Downloads, https://sourceforge.net/projects/slingshot-game/files/
@@ -13,5 +11,7 @@ _Gravity‐based turn based strategy game._
 - Code dependencies: pygame
 - Assets license: GPL-2.0
 - Developer: Jonathan Musther, Bart Mak
+
+Gravity‐based turn based strategy game.
 
 ## Building

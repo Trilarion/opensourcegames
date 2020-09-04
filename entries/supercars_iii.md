@@ -1,7 +1,5 @@
 # Supercars III
 
-_Remake of Super Cars._
-
 - Home: https://jotd.pagesperso-orange.fr/supercars3/
 - Inspirations: Super Cars
 - State: mature, inactive since 2014
@@ -10,5 +8,7 @@ _Remake of Super Cars._
 - Code repository: (see download)
 - Code language: Java
 - Code license: ? (JRL)
+
+Remake of Super Cars.
 
 ## Building

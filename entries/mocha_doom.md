@@ -1,7 +1,5 @@
 # Mocha Doom
 
-_Remake of Doom, Doom II, Heretic, Hexen._
-
 - Home: http://mochadoom.sourceforge.net/, https://sourceforge.net/projects/mochadoom/
 - Inspirations: Doom, Doom II, Heretic, Hexen
 - State: beta, inactive since 2012
@@ -10,5 +8,7 @@ _Remake of Doom, Doom II, Heretic, Hexen._
 - Code repository: http://mochadoom.cvs.sourceforge.net (cvs)
 - Code language: Java
 - Code license: ?
+
+Remake of Doom, Doom II, Heretic, Hexen.
 
 ## Building

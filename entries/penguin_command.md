@@ -1,7 +1,5 @@
 # Penguin Command
 
-_Game where you control 3 defensive turrets and try to intercept missiles and bombs which threaten your cities._
-
 - Home: http://www.linux-games.com/penguin-command/
 - Inspirations: Missile Command
 - State: mature, inactive since 2007
@@ -11,6 +9,8 @@ _Game where you control 3 defensive turrets and try to intercept missiles and bo
 - Code repository: (see download)
 - Code language: C
 - Code license: GPL-2.0
+
+Game where you control 3 defensive turrets and try to intercept missiles and bombs which threaten your cities.
 
 ## Building
 

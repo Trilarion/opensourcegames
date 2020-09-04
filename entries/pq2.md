@@ -1,7 +1,5 @@
 # pq2
 
-_Remake of Progress Quest._
-
 - Home: https://github.com/nbollom/pq2
 - Media: https://en.wikipedia.org/wiki/Progress_Quest#Development
 - Inspirations: Progress Quest
@@ -12,6 +10,7 @@ _Remake of Progress Quest._
 - Code license: GPL-3.0
 - Code dependencies: ncurses, Qt
 
+Remake of Progress Quest.
 Original source code is also open source.
 
 ## Building

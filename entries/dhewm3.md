@@ -1,7 +1,5 @@
 # dhewm3
 
-_Remake of Doom 3._
-
 - Home: https://dhewm3.org/
 - Inspirations: Doom 3
 - State: mature
@@ -12,6 +10,8 @@ _Remake of Doom 3._
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependencies: OpenGL
+
+Remake of Doom 3.
 
 ## Building
 

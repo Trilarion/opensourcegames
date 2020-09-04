@@ -1,7 +1,5 @@
 # Ballerburg SDL
 
-_Remake of the Turnbased Artillery game from 1987._
-
 - Home: https://baller.tuxfamily.org/
 - Media: https://en.wikipedia.org/wiki/Ballerburg
 - Inspirations: Ballerburg
@@ -12,6 +10,7 @@ _Remake of the Turnbased Artillery game from 1987._
 - Code license: GPL-3.0
 - Code dependencies: SDL2
 
+Remake of the Turnbased Artillery game from 1987.
 [Original](http://www.eckhardkruse.net/atari_st/baller.html) in the Public domain.
 
 

@@ -1,7 +1,5 @@
 # mkxp
 
-_Free Software implementation of the Ruby Game Scripting System (RGSS)._
-
 - Home: https://github.com/Ancurio/mkxp
 - Inspirations: RPG Maker
 - State: mature
@@ -10,6 +8,8 @@ _Free Software implementation of the Ruby Game Scripting System (RGSS)._
 - Code repository: https://github.com/Ancurio/mkxp.git
 - Code language: C++, C
 - Code license: GPL-2.0
+
+Free Software implementation of the Ruby Game Scripting System (RGSS).
 
 ## Building
 

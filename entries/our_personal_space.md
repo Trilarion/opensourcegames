@@ -1,7 +1,5 @@
 # Our Personal Space
 
-_Simulation game where you play as a colonist on a new planet with your new husband._
-
 - Home: http://metasepia.icecavern.net/OurPersonalSpace/index.html
 - State: mature
 - Download: (see home)
@@ -10,6 +8,8 @@ _Simulation game where you play as a colonist on a new planet with your new husb
 - Code language: Ren'py
 - Code license: GPL-3.0
 - Code dependencies: Ren'Py
+
+Simulation game where you play as a colonist on a new planet with your new husband.
 
 ## Building
 

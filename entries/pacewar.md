@@ -1,7 +1,5 @@
 # Pacewar
 
-_Simple fighting game between two teams of ships._
-
 - Home: https://pacewar.github.io/, https://web.archive.org/web/20190921134950/http://pacewar.nongnu.org/, http://savannah.nongnu.org/projects/pacewar
 - State: mature, inactive since 2017
 - Download: https://pacewar.github.io/download.html
@@ -12,5 +10,7 @@ _Simple fighting game between two teams of ships._
 - Code license: GPL-3.0
 - Code dependencies: SGE
 - Developer: onpon4
+
+Simple fighting game between two teams of ships.
 
 ## Building

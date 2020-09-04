@@ -1,7 +1,5 @@
 # Critterding
 
-_Life and evolution simulator._
-
 - Home: http://critterding.sourceforge.net/, https://sourceforge.net/projects/critterding/
 - State: beta, inactive since 2013
 - Download: https://sourceforge.net/projects/critterding/files/critterding/
@@ -11,6 +9,8 @@ _Life and evolution simulator._
 - Code license: GPL-2.0
 - Code dependencies: SDL
 - Developer: Bob Winckelmans
+
+Life and evolution simulator.
 
 ## Building
 

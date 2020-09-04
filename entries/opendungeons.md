@@ -1,7 +1,5 @@
 # OpenDungeons
 
-_Clone of Dungeon Keeper._
-
 - Home: https://opendungeons.github.io/
 - Media: https://en.wikipedia.org/wiki/Dungeon_Keeper
 - Inspirations: Dungeon Keeper
@@ -12,5 +10,7 @@ _Clone of Dungeon Keeper._
 - Code repository: https://github.com/OpenDungeons/OpenDungeons.git
 - Code language: C++
 - Code license: GPL-3.0
+
+Clone of Dungeon Keeper.
 
 ## Building

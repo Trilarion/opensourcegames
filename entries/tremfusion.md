@@ -1,7 +1,5 @@
 # Tremfusion
 
-_FPS game that is the fork of Tremulous._
-
 - Home: https://www.tremfusion.net/, https://web.archive.org/web/20121027000844/http://www.tremfusion.net:80/
 - Inspirations: Tremulous
 - State: mature, inactive since 2009
@@ -11,5 +9,7 @@ _FPS game that is the fork of Tremulous._
 - Code license: GPL-2.0
 - Code dependencies: ioquake3
 - Assets license: CC-BY-SA-2.5
+
+FPS game that is the fork of Tremulous.
 
 ## Building

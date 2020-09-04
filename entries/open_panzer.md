@@ -1,7 +1,5 @@
 # Open Panzer
 
-_Hex and turn based strategy game, a remake of good old Panzer General 2._
-
 - Home: http://www.linuxconsulting.ro/openpanzer/
 - Inspirations: Panzer General
 - State: mature
@@ -10,6 +8,7 @@ _Hex and turn based strategy game, a remake of good old Panzer General 2._
 - Code language: JavaScript
 - Code license: GPL-2.0
 
+Hex and turn based strategy game, a remake of good old Panzer General 2.
 License of artwork?
 
 ## Building

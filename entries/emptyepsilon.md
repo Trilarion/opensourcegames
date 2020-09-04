@@ -1,7 +1,5 @@
 # EmptyEpsilon
 
-_Clone of Artemis: Spaceship Bridge Simulator._
-
 - Home: https://daid.github.io/EmptyEpsilon/
 - Inspirations: Artemis: Spaceship Bridge Simulator
 - State: mature
@@ -12,6 +10,8 @@ _Clone of Artemis: Spaceship Bridge Simulator._
 - Code language: C, C++, Lua
 - Code license: GPL-2.0
 - Code dependencies: SFML
+
+Clone of Artemis: Spaceship Bridge Simulator.
 
 ## Building
 

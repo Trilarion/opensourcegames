@@ -1,7 +1,5 @@
 # OpenYandere
 
-_Clone of Yandere Simulator._
-
 - Home: https://github.com/Evilpersonwithnosoul/OpenYandere
 - Media: https://en.wikipedia.org/wiki/Yandere_Simulator
 - Inspirations: Yandere Simulator
@@ -11,5 +9,7 @@ _Clone of Yandere Simulator._
 - Code language: C#
 - Code license: GPL-3.0
 - Code dependencies: Unity
+
+Clone of Yandere Simulator.
 
 ## Building

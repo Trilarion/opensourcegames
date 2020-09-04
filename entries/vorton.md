@@ -1,7 +1,5 @@
 # Vorton
 
-_Remake of Highway Encounter._
-
 - Home: http://vorton.sourceforge.net/
 - Media: https://en.wikipedia.org/wiki/Highway_Encounter
 - Inspirations: Highway Encounter
@@ -13,6 +11,8 @@ _Remake of Highway Encounter._
 - Code language: C
 - Code license: GPL-3.0
 - Code dependencies: SDL
+
+Remake of Highway Encounter.
 
 ## Building
 

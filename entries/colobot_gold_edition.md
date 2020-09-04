@@ -1,7 +1,5 @@
 # Colobot: Gold Edition
 
-_Real-time strategy game, where you can program your units (bots) in a language called CBOT, which is similar to C++ and Java._
-
 - Home: https://colobot.info/
 - Inspirations: Colobot
 - State: mature
@@ -13,6 +11,7 @@ _Real-time strategy game, where you can program your units (bots) in a language 
 - Code dependencies: SDL2
 - Developer: Daniel Roux, TerranovaTeam
 
+Real-time strategy game, where you can program your units (bots) in a language called CBOT, which is similar to C++ and Java.
 Updated version of the Colobot original source code.
 
 ## Building

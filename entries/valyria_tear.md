@@ -1,7 +1,5 @@
 # Valyria Tear
 
-_J-RPG (Based on the Hero of Allacrost engine)._
-
 - Home: https://valyriatear.blogspot.com/
 - State: mature
 - Download: https://valyriatear.blogspot.com/p/downloads.html
@@ -11,6 +9,8 @@ _J-RPG (Based on the Hero of Allacrost engine)._
 - Code license: GPL-2.0
 - Code dependencies: Hero of Allacrost engine
 - Assets license: GPL-2.0, CC-BY-SA-3.0 (see https://github.com/ValyriaTear/ValyriaTear/blob/master/LICENSES.txt)
+
+J-RPG (Based on the Hero of Allacrost engine).
 
 ## Building
 

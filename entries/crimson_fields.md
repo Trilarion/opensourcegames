@@ -1,7 +1,5 @@
 # Crimson Fields
 
-_Turn-based tactical war game._
-
 - Home: http://crimson.seul.org/
 - Inspirations: Battle Isle series
 - State: mature, inactive since 2010
@@ -10,6 +8,8 @@ _Turn-based tactical war game._
 - Code repository: https://gitlab.com/osgames/crimson.git (import of cvs), http://crimson.seul.org/cvs.php (cvs)
 - Code language: C++
 - Code license: GPL-2.0
+
+Turn-based tactical war game.
 
 ## Building
 

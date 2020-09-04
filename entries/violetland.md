@@ -1,7 +1,5 @@
 # Violetland
 
-_Clone of Crimsonland._
-
 - Home: http://violetland.github.io/
 - Inspirations: Crimsonland
 - State: beta
@@ -12,6 +10,8 @@ _Clone of Crimsonland._
 - Code language: C++
 - Code license: GPL-3.0
 - Assets license: CC-BY-SA
+
+Clone of Crimsonland.
 
 ## Building
 

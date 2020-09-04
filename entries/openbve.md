@@ -1,7 +1,5 @@
 # OpenBVE
 
-_Clone of BVE Trainsim._
-
 - Home: https://openbve-project.net/
 - Inspirations: BVE Trainsim
 - State: mature
@@ -11,5 +9,7 @@ _Clone of BVE Trainsim._
 - Code repository: https://github.com/leezer3/OpenBVE.git
 - Code language: C#
 - Code license: Public domain
+
+Clone of BVE Trainsim.
 
 ## Building

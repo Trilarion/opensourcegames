@@ -1,7 +1,5 @@
 # ioquake3
 
-_Remake of Quake 3._
-
 - Home: https://ioquake3.org/
 - Inspirations: Quake 3
 - State: mature
@@ -13,6 +11,7 @@ _Remake of Quake 3._
 - Code license: GPL-2.0
 - Code dependencies: SDL2
 
+Remake of Quake 3.
 [Derivative games](https://ioquake3.org/extras/derivative-games/)
 
 ## Building

@@ -1,7 +1,5 @@
 # Nuncabola
 
-_Clone of Super Monkey Ball._
-
 - Home: http://uppgarn.com/nuncabola/
 - Inspirations: Neverball, Super Monkey Ball
 - State: beta
@@ -9,5 +7,7 @@ _Clone of Super Monkey Ball._
 - Code repository: (see home)
 - Code language: Java
 - Code license: GPL-2.0
+
+Clone of Super Monkey Ball.
 
 ## Building

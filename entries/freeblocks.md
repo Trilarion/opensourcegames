@@ -1,7 +1,5 @@
 # FreeBlocks
 
-_Remake of Tetris Attack._
-
 - Home: https://github.com/dorkster/freeblocks
 - Inspirations: Tetris Attack
 - State: beta, inactive since 2015
@@ -11,6 +9,8 @@ _Remake of Tetris Attack._
 - Code language: C, Java
 - Code license: GPL-3.0
 - Code dependencies: SDL2
+
+Remake of Tetris Attack.
 
 ## Building
 

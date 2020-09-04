@@ -1,7 +1,5 @@
 # Siege of Avalon : Open Source
 
-_Remake of Siege of Avalon._
-
 - Home: http://soaos.sourceforge.net/, https://sourceforge.net/projects/soaos/
 - Media: https://en.wikipedia.org/wiki/Siege_of_Avalon
 - Inspirations: Siege of Avalon
@@ -11,6 +9,7 @@ _Remake of Siege of Avalon._
 - Code language: Pascal
 - Code license: Custom (NC)
 
+Remake of Siege of Avalon.
 Aim of this project is to port the original Win32 Delphi code, over to C# using MonoGame and XNA.
 
 ## Building

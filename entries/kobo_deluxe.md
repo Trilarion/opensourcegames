@@ -1,7 +1,5 @@
 # Kobo Deluxe
 
-_2D scrolling space shooter._
-
 - Home: http://olofson.net/kobodl/
 - Inspirations: XKobo
 - State: beta, inactive since 2007
@@ -14,6 +12,7 @@ _2D scrolling space shooter._
 - Assets license: ? (GPL-2.0)
 - Developer: David Olofson, Akira Higuchi, Erik Auerswald, Jeremy Sheeley, Simon Peter, Florian Schulze, Masanao Izumo
 
+2D scrolling space shooter.
 Based on XKobo by Akira Higuchi
 
 ## Building

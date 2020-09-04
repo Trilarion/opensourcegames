@@ -1,7 +1,5 @@
 # GPL Arcade Volleyball
 
-_An SDL remake of the old DOS game Arcade Volleyball._
-
 - Home: http://gav.sourceforge.net/, https://sourceforge.net/projects/gav/
 - State: beta, inactive since 2006
 - Download: http://gav.sourceforge.net/download.php, https://sourceforge.net/projects/gav/files/
@@ -11,5 +9,7 @@ _An SDL remake of the old DOS game Arcade Volleyball._
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: SDL
+
+An SDL remake of the old DOS game Arcade Volleyball.
 
 ## Building

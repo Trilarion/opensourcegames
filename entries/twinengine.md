@@ -1,7 +1,5 @@
 # TwinEngine
 
-_A Little Big Adventure engine._
-
 - Home: https://forum.magicball.net/forumdisplay.php?f=66
 - Inspirations: Little Big Adventure
 - State: mature, inactive since 2015
@@ -10,6 +8,8 @@ _A Little Big Adventure engine._
 - Code language: C
 - Code license: GPL-2.0
 - Code dependencies: SDL
+
+A Little Big Adventure engine.
 
 ## Building
 

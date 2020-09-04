@@ -1,7 +1,5 @@
 # H-Craft Championship
 
-_Clone of Wipeout._
-
 - Home: http://www.irrgheist.com/games.htm
 - Inspirations: Wipeout
 - State: mature, inactive since 2015
@@ -10,5 +8,7 @@ _Clone of Wipeout._
 - Code language: C++
 - Code license: zlib
 - Assets license: Custom (Do not modify or distribute outside this game. See http://www.irrgheist.com/hcraftsource.htm)
+
+Clone of Wipeout.
 
 ## Building

@@ -1,7 +1,5 @@
 # Tumbly Towers
 
-_Remake of Tricky Towers._
-
 - Home: https://github.com/SteveSmith16384/TumblyTowers
 - Media: https://en.wikipedia.org/wiki/Tricky_Towers
 - Inspirations: Tricky Towers
@@ -13,6 +11,8 @@ _Remake of Tricky Towers._
 - Code language: Java
 - Code license: MIT
 - Code dependencies: JBox2D
+
+Remake of Tricky Towers.
 
 ## Building
 

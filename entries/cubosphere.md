@@ -1,7 +1,5 @@
 # Cubosphere
 
-_Remake of Kula World._
-
 - Home: https://github.com/cubosphere/cubosphere-code/projects, https://sourceforge.net/projects/cubosphere/
 - Inspirations: Kula World
 - State: beta
@@ -10,6 +8,8 @@ _Remake of Kula World._
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependencies: SDL2
+
+Remake of Kula World.
 
 ## Building
 

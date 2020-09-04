@@ -1,7 +1,5 @@
 # Keen Dreams
 
-_Remake of Commander Keen Series._
-
 - Home: https://github.com/keendreams/keen
 - Inspirations: Commander Keen Series
 - State: mature, inactive since 2014
@@ -9,5 +7,7 @@ _Remake of Commander Keen Series._
 - Code repository: https://github.com/keendreams/keen.git
 - Code language: C, Assembly, C++
 - Code license: GPL-2.0
+
+Remake of Commander Keen Series.
 
 ## Building

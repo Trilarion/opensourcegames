@@ -1,7 +1,5 @@
 # DarkPlaces
 
-_Remake of Quake._
-
 - Home: https://icculus.org/twilight/darkplaces/
 - Inspirations: Quake
 - State: mature, inactive since 2014
@@ -12,6 +10,7 @@ _Remake of Quake._
 - Code language: C
 - Code license: GPL-2.0
 
+Remake of Quake.
 svn not accessible
 
 ## Building

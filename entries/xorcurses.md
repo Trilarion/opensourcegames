@@ -1,7 +1,5 @@
 # XorCurses
 
-_Clone of XOR._
-
 - Home: http://jwm-art.net/?p=XorCurses
 - Media: <https://en.wikipedia.org/wiki/XOR_(video_game)>
 - Inspirations: XOR
@@ -12,6 +10,8 @@ _Clone of XOR._
 - Code language: C
 - Code license: GPL-3.0
 - Code dependencies: ncurses
+
+Clone of XOR.
 
 ## Building
 

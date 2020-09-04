@@ -1,7 +1,5 @@
 # OpenRTS
 
-_Isometric real-time strategy game._
-
 - Home: https://web.archive.org/web/20150412083852/https://www.pygame.org/projects/22/189/, https://web.archive.org/web/20070305102426/http://arrakis.sourceforge.net/wiki/index.php?OpenRTS, https://sourceforge.net/projects/arrakis/
 - State: beta, inactive since 2006
 - Download: https://sourceforge.net/projects/arrakis/files/
@@ -12,6 +10,7 @@ _Isometric real-time strategy game._
 - Code dependencies: PGU, pygame
 - Developer: Andreas Røsdal
 
+Isometric real-time strategy game.
 Also known as arrakis.
 
 ## Building

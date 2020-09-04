@@ -1,7 +1,5 @@
 # XBill
 
-_Pretty simple arcade game._
-
 - Home: http://www.xbill.org/
 - State: mature, inactive since 2001
 - Download: http://www.xbill.org/download/
@@ -12,6 +10,7 @@ _Pretty simple arcade game._
 - Code license: GPL-2.0
 - Developer: Brian Wellington (Psychosoft), Matias Duarte (Psychosoft)
 
+Pretty simple arcade game.
 Written in 1994. Several ports linked on the home page.
 
 ## Building

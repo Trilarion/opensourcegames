@@ -1,7 +1,5 @@
 # SLADE
 
-_Tool of Doom._
-
 - Home: http://slade.mancubus.net/
 - Inspirations: Doom
 - State: mature
@@ -12,6 +10,7 @@ _Tool of Doom._
 - Code language: C++
 - Code license: GPL-2.0
 
+Tool of Doom.
 Editor for Doom-engine based games and source ports.
 
 ## Building

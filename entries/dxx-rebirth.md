@@ -1,7 +1,5 @@
 # DXX-Rebirth
 
-_Remake of Descent, Descent II._
-
 - Home: https://www.dxx-rebirth.com/
 - Inspirations: Descent, Descent II
 - State: mature
@@ -11,5 +9,7 @@ _Remake of Descent, Descent II._
 - Code repository: https://github.com/dxx-rebirth/dxx-rebirth.git
 - Code language: C, C++, Python
 - Code license: GPL-3.0, Custom (derived from GPL-3.0)
+
+Remake of Descent, Descent II.
 
 ## Building

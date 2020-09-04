@@ -1,7 +1,5 @@
 # Stunt Rally
 
-_Racing game with rally style of driving._
-
 - Home: https://stuntrally.tuxfamily.org/, https://sourceforge.net/projects/stuntrally/
 - Inspirations: TrackMania
 - State: mature
@@ -12,6 +10,8 @@ _Racing game with rally style of driving._
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependencies: OGRE, SDL2, VDrift
+
+Racing game with rally style of driving.
 
 ## Building
 

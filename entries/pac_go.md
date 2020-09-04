@@ -1,7 +1,5 @@
 # Pac Go
 
-_Clone of Pac-Man._
-
 - Home: https://github.com/danicat/pacgo
 - Inspirations: Pac-Man
 - State: mature
@@ -10,6 +8,7 @@ _Clone of Pac-Man._
 - Code language: Go
 - Code license: MIT
 
+Clone of Pac-Man.
 Is also a tutorial to introduce people to the Go programming language.
 
 ## Building

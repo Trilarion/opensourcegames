@@ -1,7 +1,5 @@
 # xDuke
 
-_Remake of Duke Nukem 3D._
-
 - Home: http://vision.gel.ulaval.ca/~klein/duke3d/
 - Inspirations: Duke Nukem 3D
 - State: beta, inactive since 2010
@@ -10,5 +8,7 @@ _Remake of Duke Nukem 3D._
 - Code repository: (see download)
 - Code language: C
 - Code license: GPL-2.0
+
+Remake of Duke Nukem 3D.
 
 ## Building

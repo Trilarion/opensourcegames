@@ -1,7 +1,5 @@
 # Manic Digger
 
-_Remake of Minecraft._
-
 - Home: http://manicdigger.github.io/, https://sourceforge.net/projects/manicdigger/
 - Inspirations: Minecraft
 - State: mature, inactive since 2017
@@ -11,5 +9,7 @@ _Remake of Minecraft._
 - Code repository: https://github.com/manicdigger/manicdigger.git, https://git.code.sf.net/p/manicdigger/code
 - Code language: C#
 - Code license: Public domain, Unlicense (where Public domain fails)
+
+Remake of Minecraft.
 
 ## Building

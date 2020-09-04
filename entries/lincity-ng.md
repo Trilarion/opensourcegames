@@ -1,7 +1,5 @@
 # LinCity-NG
 
-_City simulation game._
-
 - Home: https://github.com/lincity-ng, https://code.google.com/archive/p/lincity-ng/, https://sourceforge.net/projects/lincity-ng.berlios/
 - Inspirations: SimCity
 - State: mature
@@ -11,6 +9,7 @@ _City simulation game._
 - Code language: C++
 - Code license: GPL-2.0
 
+City simulation game.
 See also https://github.com/BackupTheBerlios/lincity-ng-svn, https://github.com/Isaac96/lincity-ng
 
 ## Building

@@ -1,7 +1,5 @@
 # Infinite Tux
 
-_2D platformer game inspired by Infinite Mario. The game is procedurally generated every time it is replayed._
-
 - Home: https://github.com/qbancoffee/infinite-tux
 - State: mature
 - Download: https://github.com/qbancoffee/infinite-tux/releases
@@ -12,6 +10,7 @@ _2D platformer game inspired by Infinite Mario. The game is procedurally generat
 - Code license: GPL-3.0, Public domain (some parts)
 - Assets license: GPL-3.0
 
+2D platformer game inspired by Infinite Mario. The game is procedurally generated every time it is replayed.
 Based on Infinite Mario Bros.
 
 ## Building

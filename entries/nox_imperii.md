@@ -1,7 +1,5 @@
 # Nox Imperii
 
-_Similar of Escape Velocity._
-
 - Home: http://noximperii.com/
 - Inspirations: Escape Velocity, Naev
 - State: mature, inactive since 2016
@@ -11,6 +9,7 @@ _Similar of Escape Velocity._
 - Code license: GPL-3.0
 - Code dependencies: SDL
 
+Similar of Escape Velocity.
 Fork of Naev
 
 ## Building

@@ -1,7 +1,5 @@
 # thiefcatcher
 
-_Remake of Where in the World Is Carmen Sandiego? (1985)._
-
 - Home: https://github.com/Ponup/thiefcatcher
 - Media: <https://en.wikipedia.org/wiki/Where_in_the_World_Is_Carmen_Sandiego%3F_(1985_video_game)>
 - Inspirations: Where in the World Is Carmen Sandiego? (1985)
@@ -11,6 +9,8 @@ _Remake of Where in the World Is Carmen Sandiego? (1985)._
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependencies: SDL2
+
+Remake of Where in the World Is Carmen Sandiego? (1985).
 
 ## Building
 

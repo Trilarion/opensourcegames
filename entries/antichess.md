@@ -1,7 +1,5 @@
 # AntiChess
 
-_Anti chess game._
-
 - Home: https://sourceforge.net/projects/antichess/
 - State: mature, inactive since 2003
 - Download: https://sourceforge.net/projects/antichess/files/antichess/1.0/
@@ -10,6 +8,7 @@ _Anti chess game._
 - Code language: Java
 - Code license: MIT
 
+Anti chess game.
 You have to take your opponents piece if you can.
 
 ## Building

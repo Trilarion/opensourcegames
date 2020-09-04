@@ -1,7 +1,5 @@
 # Open Hexagon
 
-_Clone of Super Hexagon._
-
 - Home: https://vittorioromeo.info/projects.html
 - Inspirations: Super Hexagon
 - State: mature
@@ -9,5 +7,7 @@ _Clone of Super Hexagon._
 - Code repository: https://github.com/SuperV1234/SSVOpenHexagon.git
 - Code language: C++
 - Code license: AFL-3.0
+
+Clone of Super Hexagon.
 
 ## Building

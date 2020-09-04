@@ -1,7 +1,5 @@
 # irrlamb
 
-_Remake of Super Monkey Ball._
-
 - Home: https://github.com/jazztickets/irrlamb
 - Inspirations: Super Monkey Ball
 - State: mature
@@ -12,6 +10,8 @@ _Remake of Super Monkey Ball._
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependencies: Irrlicht Engine
+
+Remake of Super Monkey Ball.
 
 ## Building
 

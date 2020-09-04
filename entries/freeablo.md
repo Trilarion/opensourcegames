@@ -1,7 +1,5 @@
 # freeablo
 
-_Remake of Diablo._
-
 - Home: https://freeablo.org/
 - Inspirations: Diablo
 - State: beta
@@ -11,6 +9,8 @@ _Remake of Diablo._
 - Code repository: https://github.com/wheybags/freeablo.git
 - Code language: C++
 - Code license: GPL-3.0
+
+Remake of Diablo.
 
 ## Building
 

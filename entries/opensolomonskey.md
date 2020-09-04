@@ -1,7 +1,5 @@
 # OpenSolomonsKey
 
-_Clone of Solomon's Key._
-
 - Home: https://github.com/mdodis/OpenSolomonsKey
 - Media: https://en.wikipedia.org/wiki/Solomon%27s_Key
 - Inspirations: Solomon's Key
@@ -11,6 +9,8 @@ _Clone of Solomon's Key._
 - Code repository: https://github.com/mdodis/OpenSolomonsKey.git
 - Code language: C++
 - Code license: Unlicense
+
+Clone of Solomon's Key.
 
 ## Building
 

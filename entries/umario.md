@@ -1,7 +1,5 @@
 # uMario
 
-_Remake of Super Mario._
-
 - Home: "http://lukaszjakowski.pl/project,20,mario-cpp.html"
 - Inspirations: Super Mario
 - State: beta, inactive since 2016
@@ -11,6 +9,7 @@ _Remake of Super Mario._
 - Code license: GPL-2.0
 - Code dependencies: SDL2
 
+Remake of Super Mario.
 Assets free?
 
 ## Building

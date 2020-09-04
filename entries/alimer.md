@@ -1,7 +1,5 @@
 # Alimer
 
-_Cross-platform 2D and 3D game engine._
-
 - Home: https://github.com/amerkoleci/alimer
 - Inspirations: Urho3D, OGRE
 - State: beta
@@ -9,6 +7,8 @@ _Cross-platform 2D and 3D game engine._
 - Code repository: https://github.com/amerkoleci/alimer.git
 - Code language: C++
 - Code license: MIT
+
+Cross-platform 2D and 3D game engine.
 
 ## Building
 

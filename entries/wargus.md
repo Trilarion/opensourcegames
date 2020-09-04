@@ -1,7 +1,5 @@
 # Wargus
 
-_Warcraft2 Mod that allows you to play Warcraft II with the Stratagus._
-
 - Home: http://wargus.github.io/, http://wargus.stratagus.com/index.shtml
 - Inspirations: Warcraft II
 - State: mature (?)
@@ -12,6 +10,7 @@ _Warcraft2 Mod that allows you to play Warcraft II with the Stratagus._
 - Code license: GPL-2.0
 - Code dependencies: Stratagus
 
+Warcraft2 Mod that allows you to play Warcraft II with the Stratagus.
 Runs on the [stratagus engine](http://forums.stratagus.com/).
 
 ## Building

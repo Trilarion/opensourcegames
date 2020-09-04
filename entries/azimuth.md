@@ -1,7 +1,5 @@
 # Azimuth
 
-_Metroidvania with vector graphics._
-
 - Home: https://mdsteele.games/azimuth/
 - State: mature
 - Download: https://mdsteele.games/azimuth/download.html
@@ -13,6 +11,8 @@ _Metroidvania with vector graphics._
 - Code dependencies: SDL
 - Assets license: GPL-3.0
 - Developer: Matthew D. Steele
+
+Metroidvania with vector graphics.
 
 ## Building
 

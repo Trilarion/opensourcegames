@@ -1,7 +1,5 @@
 # OpenMW
 
-_Unofficial open source engine reimplementation of the game Morrowind._
-
 - Home: http://openmw.org/en/
 - Media: https://en.wikipedia.org/wiki/OpenMW
 - Inspirations: The Elder Scrolls III: Morrowind
@@ -12,6 +10,7 @@ _Unofficial open source engine reimplementation of the game Morrowind._
 - Code language: C++
 - Code license: GPL-3.0
 
+Unofficial open source engine reimplementation of the game Morrowind.
 See also [OpenMW on Android](openmw_for_android.md)
 
 ## Building

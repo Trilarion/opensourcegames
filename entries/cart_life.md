@@ -1,7 +1,5 @@
 # Cart Life
 
-_Simulation game on a pixel-grid in grayscale, with minimal detail._
-
 - Home: https://web.archive.org/web/20150619214353/http://www.richardhofmeier.com/cartlife/editions.html, http://indiegames.ch/die-geheimen-projekte-des-richard-hofmeier/
 - Media: https://en.wikipedia.org/wiki/Cart_Life
 - State: mature, inactive since 2014
@@ -12,6 +10,8 @@ _Simulation game on a pixel-grid in grayscale, with minimal detail._
 - Code language: AGS Script
 - Code license: Custom (permissive)
 - Code dependencies: Adventure Game Studio
+
+Simulation game on a pixel-grid in grayscale, with minimal detail.
 
 ## Building
 

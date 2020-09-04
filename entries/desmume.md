@@ -1,7 +1,5 @@
 # DeSmuME
 
-_Nintendo DS emulator._
-
 - Home: http://desmume.org/
 - State: mature, inactive since 2015
 - Download: http://desmume.org/download/, https://sourceforge.net/projects/desmume/files/
@@ -11,6 +9,7 @@ _Nintendo DS emulator._
 - Code language: C, C++
 - Code license: GPL-2.0
 
+Nintendo DS emulator.
 See also: https://github.com/IceReaper/DesktopAdventuresToolkit
 
 ## Building

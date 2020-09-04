@@ -1,7 +1,5 @@
 # Open Zelda
 
-_Game Development Software._
-
 - Home: https://github.com/openzelda/openzelda-source, https://web.archive.org/web/20171028213428/http://openzelda.nfshost.com/
 - Inspirations: Legend of Zelda
 - State: mature, inactive since 2015
@@ -10,5 +8,7 @@ _Game Development Software._
 - Code language: C, C++
 - Code license: zlib
 - Assets license: proprietary (Nintendo), CC-BY-NC-SA-3.0 (game scripts), CC-BY-SA-2.5 (some artwork)
+
+Game Development Software.
 
 ## Building

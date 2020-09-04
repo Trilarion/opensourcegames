@@ -1,7 +1,5 @@
 # Ball And Wall
 
-_Clone of Arkanoid._
-
 - Home: https://budnix.github.io/ball-and-wall/
 - Inspirations: Arkanoid
 - State: mature, inactive since 2015
@@ -9,5 +7,7 @@ _Clone of Arkanoid._
 - Code repository: https://github.com/budnix/ball-and-wall.git
 - Code language: JavaScript
 - Code license: MIT
+
+Clone of Arkanoid.
 
 ## Building

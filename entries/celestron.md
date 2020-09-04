@@ -1,7 +1,5 @@
 # Celestron
 
-_Top-down space shooter in the legacy of Chromium BSU._
-
 - Home: https://sourceforge.net/projects/celestron/
 - State: beta, inactive since 2012
 - Download: https://sourceforge.net/projects/celestron/files/
@@ -10,5 +8,7 @@ _Top-down space shooter in the legacy of Chromium BSU._
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependencies: NumPy, pygame
+
+Top-down space shooter in the legacy of Chromium BSU.
 
 ## Building

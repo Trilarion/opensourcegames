@@ -1,7 +1,5 @@
 # Ancient Beast
 
-_Turn based strategy indie game project._
-
 - Home: https://ancientbeast.com/
 - Inspirations: Heroes of Might and Magic III
 - State: mature
@@ -10,5 +8,7 @@ _Turn based strategy indie game project._
 - Code language: JavaScript
 - Code license: AGPL-3.0
 - Code dependencies: Phaser
+
+Turn based strategy indie game project.
 
 ## Building

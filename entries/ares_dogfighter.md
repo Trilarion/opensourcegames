@@ -1,7 +1,5 @@
 # Ares Dogfighter
 
-_3D Space Combat Game._
-
 - Home: https://github.com/SteveSmith16384/AresDogfighter
 - State: beta, inactive since 2016
 - Download: https://stephensmith.itch.io/aresdogfighter
@@ -13,5 +11,7 @@ _3D Space Combat Game._
 - Code dependencies: jMonkeyEngine
 - Assets license: (See relevant asset folders)
 - Developer: Stephen Carlyle-Smith
+
+3D Space Combat Game.
 
 ## Building

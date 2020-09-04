@@ -1,7 +1,5 @@
 # OpenRoads
 
-_Remake of SkyRoads._
-
 - Home: http://openroadsgame.com/
 - Inspirations: SkyRoads
 - State: mature, inactive since 2014
@@ -13,5 +11,7 @@ _Remake of SkyRoads._
 - Code license: MIT
 - Code dependencies: WebGL
 - Assets license: ?
+
+Remake of SkyRoads.
 
 ## Building

@@ -1,7 +1,5 @@
 # One Hour One Life
 
-_Multiplayer survival game of parenting and civilisation building._
-
 - Home: https://onehouronelife.com/, https://github.com/jasonrohrer/OneLife/
 - State: mature
 - Keywords: remake, multiplayer, online, open content
@@ -10,5 +8,7 @@ _Multiplayer survival game of parenting and civilisation building._
 - Code license: Public domain (https://github.com/jasonrohrer/OneLife/blob/master/no_copyright.txt)
 - Assets license: Public domain
 - Developer: Jason Rohrer
+
+Multiplayer survival game of parenting and civilisation building.
 
 ## Building

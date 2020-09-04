@@ -1,7 +1,5 @@
 # Cultivation
 
-_2D life simulation._
-
 - Home: http://cultivation.sourceforge.net/, https://sourceforge.net/projects/cultivation/
 - State: mature, inactive since 2010
 - Download: https://sourceforge.net/projects/cultivation/files/cultivation/
@@ -12,5 +10,7 @@ _2D life simulation._
 - Code license: Public domain (http://cultivation.sourceforge.net/)
 - Code dependencies: GLUT
 - Developer: Jason Rohrer
+
+2D life simulation.
 
 ## Building

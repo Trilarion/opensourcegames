@@ -1,7 +1,5 @@
 # OpenLoco
 
-_Remake of Chris Sawyer's Locomotion._
-
 - Home: https://github.com/OpenLoco/OpenLoco
 - Inspirations: Chris Sawyer's Locomotion
 - State: mature
@@ -12,6 +10,7 @@ _Remake of Chris Sawyer's Locomotion._
 - Code language: C++
 - Code license: MIT
 
+Remake of Chris Sawyer's Locomotion.
 The original game use the modified version of RollerCoaster Tycoon 2's engine. OpenLoco using modified version of OpenRCT2's engine.
 
 ## Building

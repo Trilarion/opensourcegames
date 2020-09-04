@@ -1,7 +1,5 @@
 # Turn of War
 
-_Fork of Dragon Wars._
-
 - Home: https://github.com/trananh1992/Turn-of-War
 - Inspirations: Dragon Wars
 - State: beta, inactive since 2014
@@ -11,6 +9,7 @@ _Fork of Dragon Wars._
 - Code language: Java
 - Code license: GPL-3.0
 
+Fork of Dragon Wars.
 Based on [Dragon Wars](https://github.com/Fuuzetsu/dragon-wars).
 
 ## Building

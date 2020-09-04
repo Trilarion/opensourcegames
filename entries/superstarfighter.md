@@ -1,7 +1,5 @@
 # SuperStarfighter
 
-_Starships that battle in a 2d top-down arena._
-
 - Home: https://notapixelstudio.github.io/superstarfighter/
 - State: beta
 - Platform: Windows, Linux, macOS
@@ -10,5 +8,7 @@ _Starships that battle in a 2d top-down arena._
 - Code language: GDScript
 - Code license: MIT
 - Code dependencies: Godot
+
+Starships that battle in a 2d top-down arena.
 
 ## Building

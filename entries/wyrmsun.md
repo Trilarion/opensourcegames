@@ -1,7 +1,5 @@
 # Wyrmsun
 
-_Strategy game which features elements of mythology, history and fiction._
-
 - Home: http://andrettin.github.io/
 - State: mature
 - Download: https://store.steampowered.com/app/370070/Wyrmsun/
@@ -11,6 +9,8 @@ _Strategy game which features elements of mythology, history and fiction._
 - Code license: GPL-2.0
 - Code dependencies: Modified Stratagus
 - Assets license: CC0, GPL-2.0 (some music and sound from Battle for Wesnoth)
+
+Strategy game which features elements of mythology, history and fiction.
 
 ## Building
 

@@ -1,7 +1,5 @@
 # Mr. Rescue
 
-_Arcade game where you rescue people from a burning building._
-
 - Home: https://tangramgames.dk/games/mrrescue/
 - State: mature, inactive since 2016
 - Download: https://github.com/SimonLarsen/mrrescue/releases (also home)
@@ -13,5 +11,7 @@ _Arcade game where you rescue people from a burning building._
 - Code dependencies: AnAL, LÖVE, slam, TSerial
 - Assets license: CC-BY-SA-3.0
 - Developer: Tangram
+
+Arcade game where you rescue people from a burning building.
 
 ## Building

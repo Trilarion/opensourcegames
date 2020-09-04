@@ -1,7 +1,5 @@
 # TOMB5
 
-_Remake of Tomb Raider Chronicles._
-
 - Home: https://github.com/TOMB5/TOMB5
 - Inspirations: Tomb Raider Chronicles
 - State: beta
@@ -10,6 +8,7 @@ _Remake of Tomb Raider Chronicles._
 - Code language: C, C++
 - Code license: MIT
 
+Remake of Tomb Raider Chronicles.
 Based on decompilation of the original binaries.
 
 ## Building

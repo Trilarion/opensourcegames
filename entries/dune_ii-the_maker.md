@@ -1,7 +1,5 @@
 # Dune II - The Maker
 
-_Clone of the good old Dune II by Westwood Studios._
-
 - Home: http://dune2themaker.fundynamic.com/
 - State: beta
 - Download: http://dune2themaker.fundynamic.com/?page_id=11
@@ -10,6 +8,7 @@ _Clone of the good old Dune II by Westwood Studios._
 - Code language: Java
 - Code license: MIT
 
+Clone of the good old Dune II by Westwood Studios.
 License of artwork
 
 ## Building

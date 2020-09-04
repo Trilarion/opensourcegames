@@ -1,7 +1,5 @@
 # Dungeon Monkey Unlimited
 
-_A turn based combat-oriented tactics RPG._
-
 - Home: https://sourceforge.net/projects/dmonkey/
 - State: mature, inactive since 2010
 - Download: https://sourceforge.net/projects/dmonkey/files/
@@ -11,6 +9,7 @@ _A turn based combat-oriented tactics RPG._
 - Code license: LGPL-2.1
 - Developer: Joseph Hewitt
 
+A turn based combat-oriented tactics RPG.
 Download of version 1.001 slightly different from last state of SVN repository.
 
 ## Building

@@ -1,7 +1,5 @@
 # DwarfCorp
 
-_Manage a corporate colony of dwarves._
-
 - Home: http://www.dwarfcorp.com/
 - Inspirations: Dwarf Fortress, Minecraft
 - State: mature
@@ -12,6 +10,8 @@ _Manage a corporate colony of dwarves._
 - Code license: MIT
 - Code dependencies: MonoGame, XNA
 - Assets license: Proprietary
+
+Manage a corporate colony of dwarves.
 
 ## Building
 

@@ -1,7 +1,5 @@
 # Gweled
 
-_Clone of Bejeweled._
-
 - Home: http://gweled.org/, https://code.launchpad.net/gweled
 - Inspirations: Bejeweled
 - State: mature
@@ -13,6 +11,8 @@ _Clone of Bejeweled._
 - Code license: GPL-2.0
 - Code dependencies: GTK
 - Developer: Daniele Napolitano, Wes Ellis
+
+Clone of Bejeweled.
 
 ## Building
 

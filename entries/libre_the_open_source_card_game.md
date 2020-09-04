@@ -1,7 +1,5 @@
 # Libre: The Open Source Card Game
 
-_Strategic/trading/collectable card game._
-
 - Home: http://librecardgame.sourceforge.net/dokuwiki/doku.php, https://sourceforge.net/projects/librecardgame/
 - State: mature, inactive since 2010
 - Download: https://sourceforge.net/projects/librecardgame/files/
@@ -12,6 +10,7 @@ _Strategic/trading/collectable card game._
 - Assets license: CC-BY-SA-3.0 (http://librecardgame.sourceforge.net/dokuwiki/licensing)
 - Developer: Gryc Ueusp
 
+Strategic/trading/collectable card game.
 Requires https://fishshell.com/?
 
 ## Building

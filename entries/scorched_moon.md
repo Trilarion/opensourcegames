@@ -1,7 +1,5 @@
 # Scorched Moon
 
-_Open source version of Moonbase Commander._
-
 - Home: https://scorched-moon.github.io/, https://github.com/Scorched-Moon
 - Inspirations: Moonbase Commander
 - State: beta
@@ -11,6 +9,7 @@ _Open source version of Moonbase Commander._
 - Code license: GPL-3.0
 - Code dependencies: PGU, pygame
 
+Open source version of Moonbase Commander.
 Old [Googlecode project](https://code.google.com/archive/p/tether/)
 
 ## Building

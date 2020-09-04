@@ -1,7 +1,5 @@
 # RufasSwap
 
-_Permuted picture puzzles for kids._
-
 - Home: https://github.com/fastrgv/RufasSwap
 - State: mature
 - Download: https://github.com/fastrgv/RufasSwap/releases
@@ -11,5 +9,7 @@ _Permuted picture puzzles for kids._
 - Code language: Ada
 - Code license: GPL-3.0
 - Code dependencies: OpenGL, SDL2
+
+Permuted picture puzzles for kids.
 
 ## Building

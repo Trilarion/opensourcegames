@@ -1,7 +1,5 @@
 # CaveExpress
 
-_Clone of Ugh!._
-
 - Home: http://www.caveproductions.org/
 - Inspirations: Ugh!
 - State: mature
@@ -11,6 +9,8 @@ _Clone of Ugh!._
 - Code license: GPL-3.0
 - Code dependencies: SDL
 - Assets license: CC-BY-SA-4.0
+
+Clone of Ugh!.
 
 ## Building
 

@@ -1,7 +1,5 @@
 # UnCiv
 
-_Civ V for Android_
-
 - Home: https://github.com/yairm210/UnCiv
 - Inspirations: Civilization V
 - State: beta
@@ -12,6 +10,8 @@ _Civ V for Android_
 - Code license: MPL-2.0
 - Code dependencies: libGDX
 - Assets license: CC-BY (see https://github.com/yairm210/UnCiv/blob/master/docs/Credits.md)
+
+Civ V for Android
 
 ## Building
 

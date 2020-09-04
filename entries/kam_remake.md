@@ -1,7 +1,5 @@
 # KaM Remake
 
-_An unofficial fan-made mod for the game Knights and Merchants._
-
 - Home: https://www.kamremake.com/
 - Inspirations: Knights and Merchants
 - State: mature
@@ -10,5 +8,7 @@ _An unofficial fan-made mod for the game Knights and Merchants._
 - Code repository: https://github.com/Kromster80/kam_remake.git
 - Code language: Pascal
 - Code license: AGPL-3.0
+
+An unofficial fan-made mod for the game Knights and Merchants.
 
 ## Building

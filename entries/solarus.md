@@ -1,7 +1,5 @@
 # Solarus
 
-_Zelda-like 2D game engine for action-rpgs._
-
 - Home: https://www.solarus-games.org/
 - Inspirations: Legend of Zelda - A Link to the Past
 - State: mature
@@ -11,6 +9,8 @@ _Zelda-like 2D game engine for action-rpgs._
 - Code language: C, C++, Lua
 - Code license: GPL-3.0
 - Assets license: CC-BY-SA
+
+Zelda-like 2D game engine for action-rpgs.
 
 ## Building
 

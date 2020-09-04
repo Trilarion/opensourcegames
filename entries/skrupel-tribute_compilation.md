@@ -1,7 +1,5 @@
 # Skrupel - Tribute Compilation
 
-_Web-based cross between amazing games like, VGAPlanets, Ascendancy an for example Master of Orion._
-
 - Home: https://sourceforge.net/projects/skrupel/
 - State: mature, inactive since 2011
 - Download: https://sourceforge.net/projects/skrupel/files
@@ -10,6 +8,7 @@ _Web-based cross between amazing games like, VGAPlanets, Ascendancy an for examp
 - Code language: PHP, JavaScript
 - Code license: GPL-2.0
 
+Web-based cross between amazing games like, VGAPlanets, Ascendancy an for example Master of Orion.
 Many code comments and variable names in German.
 
 See also https://github.com/sepplsche/skrupel, https://github.com/skrupel

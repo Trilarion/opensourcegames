@@ -1,7 +1,5 @@
 # Biniax
 
-_Puzzle game._
-
 - Home: http://biniax.com/
 - Media: https://en.wikipedia.org/wiki/Biniax
 - State: mature, inactive since 2012
@@ -12,6 +10,7 @@ _Puzzle game._
 - Code language: C
 - Code license: zlib
 
+Puzzle game.
 See also https://packages.debian.org/search?keywords=biniax, https://play.google.com/store/apps/details?id=com.biniax.sdl
 
 [Original Biniax](http://www.tuzsuzov.com/biniax/index1.htm), [Biniax mobile](http://biniax.com/mobile)

@@ -1,7 +1,5 @@
 # Dunnet
 
-_Text adventure game included in Emacs._
-
 - Home: http://www.driver-aces.com/ronnie.html#dunnet
 - Media: <https://en.wikipedia.org/wiki/Dunnet_(video_game)>
 - State: mature, inactive since 1992
@@ -10,5 +8,7 @@ _Text adventure game included in Emacs._
 - Code language: Emacs Lisp
 - Code license: GPL-3.0
 - Developer: Ron Schnell
+
+Text adventure game included in Emacs.
 
 ## Building

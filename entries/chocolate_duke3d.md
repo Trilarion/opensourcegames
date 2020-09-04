@@ -1,7 +1,5 @@
 # Chocolate Duke3D
 
-_Remake of Duke Nukem 3D._
-
 - Home: https://github.com/fabiensanglard/chocolate_duke3D
 - Inspirations: Duke Nukem 3D
 - State: beta, inactive since 2016
@@ -11,6 +9,7 @@ _Remake of Duke Nukem 3D._
 - Code license: GPL-2.0, Custom
 - Code dependencies: SDL
 
+Remake of Duke Nukem 3D.
 TODO: License conflicts, see https://github.com/fabiensanglard/chocolate_duke3D/issues/48
 
 ## Building

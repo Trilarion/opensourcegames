@@ -1,7 +1,5 @@
 # Thunder&Lightning
 
-_Short TnL, is a futuristic flight simulation and real-time strategy game inspired by Carrier Command._
-
 - Home: http://tnlgame.net/
 - Inspirations: Carrier Command
 - State: beta, inactive since 2015
@@ -11,5 +9,7 @@ _Short TnL, is a futuristic flight simulation and real-time strategy game inspir
 - Code language: C, C++, Io
 - Code license: GPL-2.0
 - Developer: Jonas Eschenburg
+
+Short TnL, is a futuristic flight simulation and real-time strategy game inspired by Carrier Command.
 
 ## Building

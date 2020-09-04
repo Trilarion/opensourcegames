@@ -1,7 +1,5 @@
 # Ecksdee
 
-_Clone of Wipeout._
-
 - Home: https://sourceforge.net/projects/ecksdee/
 - Inspirations: Wipeout
 - State: beta, inactive since 2009
@@ -10,6 +8,7 @@ _Clone of Wipeout._
 - Code language: C++
 - Code license: GPL-2.0
 
+Clone of Wipeout.
 Assets license discussion, see https://sourceforge.net/p/ecksdee/discussion/527989/thread/10ef0296/.
 
 ## Building

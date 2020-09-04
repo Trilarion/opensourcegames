@@ -1,7 +1,5 @@
 # Lincity
 
-_City simulation game._
-
 - Home: http://lincity.sourceforge.net/, https://sourceforge.net/projects/lincity/
 - Media: https://en.wikipedia.org/wiki/Lincity
 - Inspirations: SimCity
@@ -12,6 +10,7 @@ _City simulation game._
 - Code language: C
 - Code license: GPL-2.0
 
+City simulation game.
 See also https://github.com/javiercantero/lincity, https://github.com/usrshare/lincity
 
 ## Building

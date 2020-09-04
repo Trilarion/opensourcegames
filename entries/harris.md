@@ -1,7 +1,5 @@
 # Harris
 
-_Based around the actions of RAF Bomber Command in the Second World War._
-
 - Home: https://github.com/ec429/harris
 - State: beta
 - Keywords: strategy
@@ -9,5 +7,7 @@ _Based around the actions of RAF Bomber Command in the Second World War._
 - Code language: C, Python
 - Code license: GPL-3.0
 - Code dependencies: FreeType, libpng, libtiff, Matplotlib, NumPy, SDL, zlib
+
+Based around the actions of RAF Bomber Command in the Second World War.
 
 ## Building

@@ -1,7 +1,5 @@
 # OPMon
 
-_Remake of Pokémon._
-
 - Home: https://opmon-game.ga/
 - Inspirations: Pokémon
 - State: beta
@@ -12,6 +10,8 @@ _Remake of Pokémon._
 - Code license: GPL-3.0
 - Code dependencies: SFML
 - Assets license: CC-BY-SA, CC-BY (see https://github.com/OpMonTeam/OpMon-Data/blob/master/LICENSE)
+
+Remake of Pokémon.
 
 ## Building
 

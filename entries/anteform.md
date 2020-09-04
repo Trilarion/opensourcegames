@@ -1,7 +1,5 @@
 # Anteform
 
-_Similar of Ultima III: Exodus._
-
 - Home: https://feneric.itch.io/anteform
 - Inspirations: Ultima III: Exodus
 - State: beta
@@ -10,5 +8,7 @@ _Similar of Ultima III: Exodus._
 - Code language: Lua
 - Code license: GPL-3.0
 - Code dependencies: PICO-8
+
+Similar of Ultima III: Exodus.
 
 ## Building

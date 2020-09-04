@@ -1,7 +1,5 @@
 # Castle of the Winds in Elm
 
-_Remake of Castle of the Winds._
-
 - Home: http://game.castleofthewinds.com/
 - Inspirations: Castle of the Winds
 - State: beta
@@ -10,6 +8,7 @@ _Remake of Castle of the Winds._
 - Code language: Elm, JavaScript
 - Code license: MIT
 
+Remake of Castle of the Winds.
 See also Castle of the Winds.
 
 ## Building

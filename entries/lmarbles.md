@@ -1,7 +1,5 @@
 # LMarbles
 
-_Clone of Atomix._
-
 - Home: http://lgames.sourceforge.net/LMarbles/, https://sourceforge.net/projects/lgames/
 - Inspirations: Atomix
 - State: beta
@@ -10,5 +8,7 @@ _Clone of Atomix._
 - Code language: C
 - Code license: GPL-2.0
 - Code dependencies: SDL
+
+Clone of Atomix.
 
 ## Building

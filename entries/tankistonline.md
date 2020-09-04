@@ -1,7 +1,5 @@
 # TankistOnline
 
-_2D tank battle game._
-
 - Home: https://github.com/servusDei2018/TankistOnline
 - State: beta
 - Platform: Windows, Linux, macOS
@@ -11,5 +9,7 @@ _2D tank battle game._
 - Code license: GPL-3.0
 - Code dependencies: pyglet
 - Assets license: CC-BY-3.0 (some)
+
+2D tank battle game.
 
 ## Building

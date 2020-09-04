@@ -1,7 +1,5 @@
 # Empty Clip
 
-_Top down shooter._
-
 - Home: https://github.com/jazztickets/emptyclip, http://emptyclip.sourceforge.net/, https://sourceforge.net/projects/emptyclip/
 - State: mature
 - Platform: Linux
@@ -11,5 +9,7 @@ _Top down shooter._
 - Code license: GPL-2.0
 - Code dependencies: SDL2
 - Developer: Alan Witkowski
+
+Top down shooter.
 
 ## Building

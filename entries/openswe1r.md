@@ -1,7 +1,5 @@
 # OpenSWE1R
 
-_Remake of Star Wars Episode I: Racer._
-
 - Home: https://openswe1r.github.io/
 - Inspirations: Star Wars Episode I: Racer
 - State: beta
@@ -10,6 +8,8 @@ _Remake of Star Wars Episode I: Racer._
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependencies: OpenGL, SDL2
+
+Remake of Star Wars Episode I: Racer.
 
 ## Building
 

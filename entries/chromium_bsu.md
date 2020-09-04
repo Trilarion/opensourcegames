@@ -1,7 +1,5 @@
 # Chromium B.S.U.
 
-_Arcade-style, top-scrolling space shooter._
-
 - Home: http://chromium-bsu.sourceforge.net/, https://sourceforge.net/projects/chromium-bsu/
 - Media: https://en.wikipedia.org/wiki/Chromium_B.S.U.
 - State: mature
@@ -10,6 +8,8 @@ _Arcade-style, top-scrolling space shooter._
 - Code repository: https://git.code.sf.net/p/chromium-bsu/code
 - Code language: C++
 - Code license: Artistic License
+
+Arcade-style, top-scrolling space shooter.
 
 ## Building
 

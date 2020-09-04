@@ -1,7 +1,5 @@
 # Dragon Hunt
 
-_Role-playing game designed to be flexible and fun._
-
 - Home: http://emhsoft.com/dh.html, http://savannah.nongnu.org/projects/dragon-hunt
 - State: mature
 - Download: (see home)
@@ -11,6 +9,7 @@ _Role-playing game designed to be flexible and fun._
 - Code license: GPL-2.0
 - Code dependencies: pygame
 
+Role-playing game designed to be flexible and fun.
 See also https://github.com/evilmrhenry/dragon_hunt
 
 ## Building

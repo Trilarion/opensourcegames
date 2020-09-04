@@ -1,7 +1,5 @@
 # Passage
 
-_Autobiographical RPG game by Jason Rohrer._
-
 - Home: http://hcsoftware.sourceforge.net/passage/
 - State: mature, inactive since 2011
 - Download: https://sourceforge.net/projects/hcsoftware/files/Passage/
@@ -13,5 +11,7 @@ _Autobiographical RPG game by Jason Rohrer._
 - Code dependencies: SDL
 - Assets license: Public domain
 - Developer: Jason Rohrer
+
+Autobiographical RPG game by Jason Rohrer.
 
 ## Building

@@ -1,7 +1,5 @@
 # OGS Mahjong
 
-_Simple mahjong solitaire game with 3D graphics._
-
 - Home: http://opengamestudio.org/en/game/ogs-mahjong-1.html, https://sourceforge.net/projects/osrpgcreation/
 - State: mature, inactive since 2016
 - Download: https://sourceforge.net/projects/osrpgcreation/files/Mahjong/
@@ -12,6 +10,8 @@ _Simple mahjong solitaire game with 3D graphics._
 - Code license: GPL-3.0
 - Code dependencies: CEGUI, OGRE
 - Developer: Opensource Game Studio
+
+Simple mahjong solitaire game with 3D graphics.
 
 ## Building
 

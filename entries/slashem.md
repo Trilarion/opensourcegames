@@ -1,7 +1,5 @@
 # SLASH'EM
 
-_Variant of the roguelike game NetHack that offers extra features, monsters, and items._
-
 - Home: http://www.slashem.org/, http://slashem.sourceforge.net/, https://sourceforge.net/projects/slashem/
 - Media: https://en.wikipedia.org/wiki/Slash'EM
 - Inspirations: NetHack
@@ -12,6 +10,7 @@ _Variant of the roguelike game NetHack that offers extra features, monsters, and
 - Code language: C, R, C++
 - Code license: Custom (NetHack license)
 
+Variant of the roguelike game NetHack that offers extra features, monsters, and items.
 See also https://github.com/dirkz/slashem-iphone, https://github.com/Elronnd/slashem-next, https://code.google.com/archive/p/slashem-macosx/, https://github.com/blitz/slashem, https://github.com/mistydemeo/slashem,
 https://github.com/SLASHEM-Extended/SLASHEM-Extended, https://github.com/BarclayII/slashem-up
 

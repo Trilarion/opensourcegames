@@ -1,7 +1,5 @@
 # Powerslide remake
 
-_Remake of Powerslide._
-
 - Home: https://www.moddb.com/mods/powerslideremake
 - Inspirations: Powerslide
 - State: beta
@@ -11,6 +9,8 @@ _Remake of Powerslide._
 - Code language: C++
 - Code license: MIT
 - Code dependencies: OGRE, SFML
+
+Remake of Powerslide.
 
 ## Building
 

@@ -1,7 +1,5 @@
 # Fish Fillets - Next Generation
 
-_Port of the wonderful puzzle game Fish Fillets from ALTAR interactive._
-
 - Home: http://fillets.sourceforge.net/, https://sourceforge.net/projects/fillets/
 - Media: https://en.wikipedia.org/wiki/Fish_Fillets_NG
 - State: mature
@@ -13,6 +11,7 @@ _Port of the wonderful puzzle game Fish Fillets from ALTAR interactive._
 - Code license: GPL-2.0
 - Code dependencies: SDL
 
+Port of the wonderful puzzle game Fish Fillets from ALTAR interactive.
 Android port?
 
 ## Building

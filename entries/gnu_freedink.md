@@ -1,7 +1,5 @@
 # GNU FreeDink
 
-_Dink Smallwood is an adventure/role-playing game, similar to Zelda (2D top view), made by RTsoft. FreeDink is a new and portable version of the game engine._
-
 - Home: https://www.gnu.org/software/freedink/, http://savannah.gnu.org/projects/freedink
 - Media: https://en.wikipedia.org/wiki/Dink_Smallwood#GNU_FreeDink
 - Inspirations: Dink Smallwood
@@ -17,6 +15,7 @@ _Dink Smallwood is an adventure/role-playing game, similar to Zelda (2D top view
 - Assets license: CC-BY, CC-BY-SA, Free Art, GPL-3.0, Open Audio, WTFPL, zlib
 - Developer: Sylvain Beucler
 
+Dink Smallwood is an adventure/role-playing game, similar to Zelda (2D top view), made by RTsoft. FreeDink is a new and portable version of the game engine.
 Based on RTSoft and Dan Walma works.
 
 ## Building

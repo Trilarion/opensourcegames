@@ -1,7 +1,5 @@
 # Afternoon Stalker
 
-_Robot-killing video game._
-
 - Home: http://perso.b2b2c.ca/~sarrazip/dev/afternoonstalker.html
 - Inspirations: Night Stalker
 - State: mature, inactive since 2012
@@ -12,5 +10,7 @@ _Robot-killing video game._
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: SDL
+
+Robot-killing video game.
 
 ## Building

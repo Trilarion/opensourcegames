@@ -1,7 +1,5 @@
 # DesktopAdventures
 
-_Remake of Indiana Jones and his Desktop Adventures, Star Wars: Yoda Stories._
-
 - Home: https://github.com/shinyquagsire23/DesktopAdventures
 - Inspirations: Indiana Jones and his Desktop Adventures, Star Wars: Yoda Stories
 - State: beta
@@ -10,6 +8,7 @@ _Remake of Indiana Jones and his Desktop Adventures, Star Wars: Yoda Stories._
 - Code language: C
 - Code license: LGPL-2.1
 
+Remake of Indiana Jones and his Desktop Adventures, Star Wars: Yoda Stories.
 See also https://github.com/digitall/scummvm-deskadv
 
 ## Building

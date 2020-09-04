@@ -1,7 +1,5 @@
 # Intricacy
 
-_Multiplayer lock-picking puzzle game, in which players design locks and try to pick the locks devised by others._
-
 - Home: http://mbays.freeshell.org/intricacy/
 - State: beta
 - Platform: Windows, Linux, macOS
@@ -12,5 +10,7 @@ _Multiplayer lock-picking puzzle game, in which players design locks and try to 
 - Code dependencies: curses, SDL
 - Assets license: GPL-3.0
 - Developer: mbays
+
+Multiplayer lock-picking puzzle game, in which players design locks and try to pick the locks devised by others.
 
 ## Building

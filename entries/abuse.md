@@ -1,7 +1,5 @@
 # Abuse
 
-_Dark 2D side-scrolling platform game._
-
 - Home: http://abuse.zoy.org/
 - Inspirations: Abuse
 - State: mature, inactive since 2011
@@ -13,5 +11,7 @@ _Dark 2D side-scrolling platform game._
 - Code license: Public domain (parts), GPL-2.0 (parts), WTFPL (parts)
 - Code dependencies: SDL
 - Assets license: Public domain, Custom (music)
+
+Dark 2D side-scrolling platform game.
 
 ## Building

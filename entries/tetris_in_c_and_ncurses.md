@@ -1,7 +1,5 @@
 # Tetris (in C and NCURSES)
 
-_Remake of Tetris._
-
 - Home: https://brennan.io/2015/06/12/tetris-reimplementation/
 - Inspirations: Tetris
 - State: mature
@@ -10,6 +8,8 @@ _Remake of Tetris._
 - Code language: C
 - Code license: 3-clause BSD
 - Code dependencies: ncurses, SDL
+
+Remake of Tetris.
 
 ## Building
 

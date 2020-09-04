@@ -1,7 +1,5 @@
 # EternalWinterWars
 
-_Turn based strategy game with a medieval winter setting._
-
 - Home: https://github.com/hinogi/eternalwinterwars
 - State: beta, inactive since 2014
 - Platform: Android
@@ -10,5 +8,6 @@ _Turn based strategy game with a medieval winter setting._
 - Code language: Java
 - Code license: MIT
 
+Turn based strategy game with a medieval winter setting.
 
 ## Building

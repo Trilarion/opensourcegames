@@ -1,7 +1,5 @@
 # unitystation
 
-_Clone of Space Station 13._
-
 - Home: https://unitystation.org/
 - Inspirations: Space Station 13
 - State: beta
@@ -12,5 +10,7 @@ _Clone of Space Station 13._
 - Code language: C#
 - Code license: AGPL-3.0
 - Code dependencies: Unity
+
+Clone of Space Station 13.
 
 ## Building

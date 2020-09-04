@@ -1,7 +1,5 @@
 # OpenTitus
 
-_Remake of Titus the Fox._
-
 - Home: http://opentitus.sourceforge.net, https://sourceforge.net/projects/opentitus/, https://opentitus.fandom.com/wiki/OpenTitus_Wiki
 - Inspirations: Titus the Fox
 - State: beta, inactive since 2014
@@ -12,6 +10,7 @@ _Remake of Titus the Fox._
 - Code license: GPL-3.0
 - Code dependencies: SDL
 
+Remake of Titus the Fox.
 SVN of project is gone and Git is older than releases, take from download page maybe?
 
 ## Building

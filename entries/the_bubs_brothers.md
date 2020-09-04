@@ -1,7 +1,5 @@
 # The Bub's Brothers
 
-_Networked clone of the classical Bubble Bobble board game._
-
 - Home: https://bitbucket.org/arigo/bub-n-bros/ (Modernized version running the clients in browsers.), http://bub-n-bros.sourceforge.net/ (original), https://sourceforge.net/projects/bub-n-bros/
 - Inspirations: Bubble Bobble
 - State: mature, inactive since 2013
@@ -13,5 +11,7 @@ _Networked clone of the classical Bubble Bobble board game._
 - Code license: MIT
 - Code dependencies: pygame
 - Developer: Armin Rigo
+
+Networked clone of the classical Bubble Bobble board game.
 
 ## Building

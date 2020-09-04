@@ -1,7 +1,5 @@
 # Caph
 
-_Physics simulation puzzle game in which the player has to get a red and a green circle together._
-
 - Home: http://caphgame.sourceforge.net/, https://sourceforge.net/projects/caphgame
 - State: mature, inactive since 2010
 - Download: https://sourceforge.net/projects/caphgame/files/
@@ -13,5 +11,7 @@ _Physics simulation puzzle game in which the player has to get a red and a green
 - Code dependencies: SDL
 - Assets license: GPL-3.0
 - Developer: Roman Belov
+
+Physics simulation puzzle game in which the player has to get a red and a green circle together.
 
 ## Building

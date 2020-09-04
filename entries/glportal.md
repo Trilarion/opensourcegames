@@ -1,7 +1,5 @@
 # glPortal
 
-_Remake of Portal._
-
 - Home: https://glportal.de/
 - Inspirations: Portal
 - State: beta
@@ -9,6 +7,8 @@ _Remake of Portal._
 - Code repository: https://github.com/GlPortal/glPortal.git
 - Code language: C++
 - Code license: zlib
+
+Remake of Portal.
 
 ## Building
 

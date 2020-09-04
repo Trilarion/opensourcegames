@@ -1,7 +1,5 @@
 # Destination Sol
 
-_Hardcore arcade shooter; you're free to explore the game world, land on planets, fight with enemies, upgrade your ship._
-
 - Home: https://github.com/MovingBlocks/DestinationSol, http://destinationsol.org/, https://sourceforge.net/projects/destinationsol/
 - State: mature
 - Download: http://destinationsol.org/download
@@ -11,6 +9,8 @@ _Hardcore arcade shooter; you're free to explore the game world, land on planets
 - Code language: Java
 - Code license: Apache-2.0
 - Assets license: CC-NC (soundtrack)
+
+Hardcore arcade shooter; you're free to explore the game world, land on planets, fight with enemies, upgrade your ship.
 
 ## Building
 

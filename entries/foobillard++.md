@@ -1,7 +1,5 @@
 # FooBillard++
 
-_3D billiard game._
-
 - Home: http://foobillardplus.sourceforge.net/, https://sourceforge.net/projects/foobillardplus/, https://packages.debian.org/search?keywords=foobillardplus
 - Inspirations: FooBillard
 - State: mature, inactive since 2012
@@ -14,6 +12,7 @@ _3D billiard game._
 - Code dependencies: GLUT, SDL
 - Developer: Holger Schäkel
 
+3D billiard game.
 Based on [FooBillard](foobillard.md).
 
 ## Building

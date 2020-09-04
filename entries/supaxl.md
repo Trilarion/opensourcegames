@@ -1,7 +1,5 @@
 # Supaxl
 
-_Remake of Supaplex._
-
 - Home: https://eguneys.github.io/jsgames/
 - Inspirations: Supaplex
 - State: mature
@@ -11,5 +9,7 @@ _Remake of Supaplex._
 - Code license: MIT
 - Code dependencies: pixi.js
 - Assets license: Proprietary
+
+Remake of Supaplex.
 
 ## Building

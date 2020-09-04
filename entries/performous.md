@@ -1,7 +1,5 @@
 # Performous
 
-_Clone of Dance Dance Revolution, Guitar Hero, SingStar._
-
 - Home: http://performous.org/
 - Inspirations: Dance Dance Revolution, Guitar Hero, SingStar
 - State: mature
@@ -11,6 +9,8 @@ _Clone of Dance Dance Revolution, Guitar Hero, SingStar._
 - Code repository: https://github.com/performous/performous.git
 - Code language: C, C++
 - Code license: GPL-2.0
+
+Clone of Dance Dance Revolution, Guitar Hero, SingStar.
 
 ## Building
 

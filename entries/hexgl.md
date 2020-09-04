@@ -1,7 +1,5 @@
 # HexGL
 
-_Clone of Wipeout._
-
 - Home: http://hexgl.bkcore.com/
 - Inspirations: Wipeout
 - State: mature, inactive since 2016
@@ -12,5 +10,7 @@ _Clone of Wipeout._
 - Code language: JavaScript, CoffeeScript
 - Code license: MIT
 - Code dependencies: WebGL
+
+Clone of Wipeout.
 
 ## Building

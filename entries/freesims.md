@@ -1,7 +1,5 @@
 # FreeSims
 
-_Remake of The Sims._
-
 - Home: https://github.com/francot514/FreeSims
 - Inspirations: The Sims
 - State: beta
@@ -12,5 +10,7 @@ _Remake of The Sims._
 - Code language: C#
 - Code license: MPL-2.0
 - Code dependencies: MonoGame
+
+Remake of The Sims.
 
 ## Building

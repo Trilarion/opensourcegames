@@ -1,7 +1,5 @@
 # LordsAWar!
 
-_Turn-based strategy game where players strive for control of as many cities as possible._
-
 - Home: http://www.nongnu.org/lordsawar/
 - Media: <https://en.wikipedia.org/wiki/Warlords_(game_series)#LordsAWar!>
 - Inspirations: Warlords II
@@ -11,6 +9,8 @@ _Turn-based strategy game where players strive for control of as many cities as 
 - Code repository: https://git.savannah.nongnu.org/git/lordsawar.git
 - Code language: C++
 - Code license: GPL-3.0
+
+Turn-based strategy game where players strive for control of as many cities as possible.
 
 ## Building
 

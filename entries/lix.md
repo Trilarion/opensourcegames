@@ -1,7 +1,5 @@
 # Lix
 
-_Clone of Lemmings._
-
 - Home: http://www.lixgame.com
 - Inspirations: Lemmings
 - State: beta
@@ -10,5 +8,7 @@ _Clone of Lemmings._
 - Code language: D, C++
 - Code license: CC0
 - Code dependencies: Allegro
+
+Clone of Lemmings.
 
 ## Building

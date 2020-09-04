@@ -1,7 +1,5 @@
 # OpenOMF
 
-_Remake of One Must Fall: 2097._
-
 - Home: http://www.openomf.org/
 - Media: https://en.wikipedia.org/wiki/One_Must_Fall:_2097
 - Inspirations: One Must Fall: 2097
@@ -13,6 +11,7 @@ _Remake of One Must Fall: 2097._
 - Code language: C, C++
 - Code license: MIT
 
+Remake of One Must Fall: 2097.
 single player, 2 player and network play work, content from omf2097.com
 
 ## Building

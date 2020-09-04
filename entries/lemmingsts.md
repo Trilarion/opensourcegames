@@ -1,7 +1,5 @@
 # Lemmings.ts
 
-_Clone of Lemmings._
-
 - Home: https://lemmings.hmilch.net/
 - Inspirations: Lemmings
 - State: mature
@@ -10,5 +8,7 @@ _Clone of Lemmings._
 - Code repository: https://github.com/tomsoftware/Lemmings.ts.git
 - Code language: TypeScript
 - Code license: MIT
+
+Clone of Lemmings.
 
 ## Building

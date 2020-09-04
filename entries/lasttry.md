@@ -1,7 +1,5 @@
 # LastTry
 
-_Remake of Terraria._
-
 - Home: https://github.com/LastTryR/LastTry
 - Media: https://en.wikipedia.org/wiki/Terraria#Legacy
 - Inspirations: Terraria
@@ -11,6 +9,8 @@ _Remake of Terraria._
 - Code language: Java
 - Code license: MIT
 - Code dependencies: libGDX
+
+Remake of Terraria.
 
 ## Building
 

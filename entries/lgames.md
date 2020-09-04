@@ -1,7 +1,5 @@
 # LGames
 
-_Collection of games._
-
 - Home: http://lgames.sourceforge.net/
 - State: mature
 - Download: http://lgames.sourceforge.net/downloads.php
@@ -11,6 +9,7 @@ _Collection of games._
 - Code language: C++
 - Code license: GPL-2.0
 
+Collection of games.
 A collection of games rather.
 
 ## Building

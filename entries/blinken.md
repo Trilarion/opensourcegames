@@ -1,7 +1,5 @@
 # Blinken
 
-_KDE implementation of the memory game Simon Says._
-
 - Home: https://edu.kde.org/blinken/, https://github.com/KDE/blinken
 - Inspirations: Simon Says
 - State: mature
@@ -12,6 +10,8 @@ _KDE implementation of the memory game Simon Says._
 - Code dependencies: KDE Frameworks
 - Assets license: GPL-2.0, GFDL (documentation)
 - Developer: Albert Astals Cid, Danny Allen (artwork and documentation), Steve Jordi (a font)
+
+KDE implementation of the memory game Simon Says.
 
 ## Building
 

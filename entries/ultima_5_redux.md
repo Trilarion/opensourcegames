@@ -1,7 +1,5 @@
 # Ultima 5 Redux
 
-_Remake of Ultima V: Warriors of Destiny._
-
 - Home: https://u5redux.wordpress.com/
 - Inspirations: Ultima V: Warriors of Destiny
 - State: beta
@@ -9,5 +7,7 @@ _Remake of Ultima V: Warriors of Destiny._
 - Code repository: https://github.com/bradhannah/Ultima5Redux.git
 - Code language: C#
 - Code license: MIT
+
+Remake of Ultima V: Warriors of Destiny.
 
 ## Building

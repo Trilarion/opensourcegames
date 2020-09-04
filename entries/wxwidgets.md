@@ -1,7 +1,5 @@
 # wxWidgets
 
-_C++ library that lets developers create applications for Windows, Mac OS X, Linux and other platforms._
-
 - Home: http://wxwidgets.org/
 - Media: https://en.wikipedia.org/wiki/WxWidgets
 - State: mature
@@ -10,5 +8,7 @@ _C++ library that lets developers create applications for Windows, Mac OS X, Lin
 - Code repository: https://github.com/wxWidgets/wxWidgets.git
 - Code language: C++, Objective-C
 - Code license: Custom
+
+C++ library that lets developers create applications for Windows, Mac OS X, Linux and other platforms.
 
 ## Building

@@ -1,7 +1,5 @@
 # heXon
 
-_Twin-stick shooter_
-
 - Home: https://luckeyproductions.itch.io/hexon
 - State: beta
 - Platform: Linux
@@ -10,6 +8,8 @@ _Twin-stick shooter_
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: Urho3D
+
+Twin-stick shooter
 
 ## Building
 

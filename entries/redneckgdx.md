@@ -1,7 +1,5 @@
 # RedneckGDX
 
-_Remake of Redneck Rampage._
-
 - Home: http://m210.duke4.net/
 - Inspirations: Redneck Rampage
 - State: beta
@@ -10,5 +8,7 @@ _Remake of Redneck Rampage._
 - Code language: Java
 - Code license: Custom (see buildlic.txt + GPL-3.0)
 - Code dependencies: libGDX
+
+Remake of Redneck Rampage.
 
 ## Building

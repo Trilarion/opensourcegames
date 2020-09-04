@@ -1,7 +1,5 @@
 # Mechanized Assault & eXploration Reloaded
 
-_A remake of the old M.A.X. by Interplay from 1996._
-
 - Home: https://www.maxr.org/
 - Inspirations: M.A.X.
 - State: beta
@@ -11,6 +9,8 @@ _A remake of the old M.A.X. by Interplay from 1996._
 - Code language: C++, C
 - Code license: GPL-2.0
 - Assets license: CC-BY-SA
+
+A remake of the old M.A.X. by Interplay from 1996.
 
 ## Building
 

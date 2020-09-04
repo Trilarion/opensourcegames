@@ -1,7 +1,5 @@
 # ICBM3D
 
-_Clone of Missile Command._
-
 - Home: http://www.newbreedsoftware.com/icbm3d/
 - Inspirations: Missile Command
 - State: beta, inactive since 1998
@@ -11,5 +9,7 @@ _Clone of Missile Command._
 - Code language: C
 - Code license: ? (GPL-2.0 maybe but could not find it in the source code)
 - Developer: Bill Kendrick
+
+Clone of Missile Command.
 
 ## Building

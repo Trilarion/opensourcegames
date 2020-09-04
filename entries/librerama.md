@@ -1,7 +1,5 @@
 # Librerama
 
-_Clone of WarioWare._
-
 - Home: https://yeldham.itch.io/librerama
 - Inspirations: WarioWare
 - State: mature
@@ -11,5 +9,7 @@ _Clone of WarioWare._
 - Code license: GPL-3.0
 - Code dependencies: Godot
 - Assets license: CC-BY-SA-4.0
+
+Clone of WarioWare.
 
 ## Building

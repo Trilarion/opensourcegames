@@ -1,7 +1,5 @@
 # Nexuiz
 
-_First-person shooter video game._
-
 - Home: http://www.alientrap.com/games/nexuiz/, https://sourceforge.net/projects/nexuiz/
 - Media: https://en.wikipedia.org/wiki/Nexuiz
 - State: mature
@@ -12,5 +10,7 @@ _First-person shooter video game._
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: DarkPlaces (Quake engine https://github.com/xonotic/darkplaces)
+
+First-person shooter video game.
 
 ## Building

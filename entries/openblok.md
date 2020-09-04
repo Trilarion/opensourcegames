@@ -1,7 +1,5 @@
 # OpenBlok
 
-_Clone of Tetris._
-
 - Home: https://github.com/mmatyas/openblok
 - Inspirations: Tetris
 - State: beta
@@ -11,6 +9,8 @@ _Clone of Tetris._
 - Code repository: https://github.com/mmatyas/openblok.git
 - Code language: C++
 - Code license: GPL-3.0
+
+Clone of Tetris.
 
 ## Building
 

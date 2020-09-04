@@ -1,7 +1,5 @@
 # Star Ruler 2
 
-_4X/RTS set in space._
-
 - Home: http://starruler2.com/
 - Inspirations: Star Ruler 2
 - State: mature
@@ -11,6 +9,7 @@ _4X/RTS set in space._
 - Code license: MIT
 - Assets license: CC-BY-NC 2.0
 
+4X/RTS set in space.
 Music is not part of the open source release.
 
 ## Building

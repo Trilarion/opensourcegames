@@ -1,7 +1,5 @@
 # Thyme
 
-_Remake of Command & Conquer: Generals._
-
 - Home: https://github.com/TheAssemblyArmada/Thyme
 - Inspirations: Command & Conquer: Generals
 - State: beta
@@ -9,6 +7,8 @@ _Remake of Command & Conquer: Generals._
 - Code repository: https://github.com/TheAssemblyArmada/Thyme.git
 - Code language: C, C++
 - Code license: GPL-2.0
+
+Remake of Command & Conquer: Generals.
 
 ## Building
 

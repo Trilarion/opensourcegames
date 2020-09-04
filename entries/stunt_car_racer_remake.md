@@ -1,7 +1,5 @@
 # Stunt Car Racer Remake
 
-_Remake of Stunt Car Racer._
-
 - Home: http://stuntcarracerwin32.bravesites.com, https://sourceforge.net/projects/stuntcarremake/
 - Inspirations: Stunt Car Racer
 - State: beta, inactive since 2012
@@ -12,6 +10,7 @@ _Remake of Stunt Car Racer._
 - Code language: C++
 - Code license: Proprietary (!)
 
+Remake of Stunt Car Racer.
 Uses the original Amiga track data, sound samples and algorithms for the car physics. Is this a copyright issue? Can it be avoided?
 
 ## Building

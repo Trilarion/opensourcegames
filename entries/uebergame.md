@@ -1,7 +1,5 @@
 # Uebergame
 
-_Clone of ARMA: Armed Assault, ARMA 2, ARMA 3._
-
 - Home: https://duion.com/games/uebergame/main
 - Media: https://en.wikipedia.org/wiki/ARMA:_Armed_Assault
 - Inspirations: ARMA: Armed Assault, ARMA 2, ARMA 3
@@ -14,5 +12,7 @@ _Clone of ARMA: Armed Assault, ARMA 2, ARMA 3._
 - Code license: MIT
 - Code dependencies: Torque 3D
 - Assets license: ? (CC0)
+
+Clone of ARMA: Armed Assault, ARMA 2, ARMA 3.
 
 ## Building

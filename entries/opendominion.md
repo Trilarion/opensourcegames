@@ -1,7 +1,5 @@
 # OpenDominion
 
-_Clone of Dominion._
-
 - Home: https://beta.opendominion.net/
 - Inspirations: Dominion
 - State: beta
@@ -11,5 +9,7 @@ _Clone of Dominion._
 - Code language: PHP
 - Code license: AGPL-3.0
 - Code dependencies: Laravel
+
+Clone of Dominion.
 
 ## Building

@@ -1,7 +1,5 @@
 # Return of Dr. Destructo
 
-_Remake of Destructo._
-
 - Home: https://web.archive.org/web/20190630000950/http://zxstudio.org/projects/drdestructo/
 - Inspirations: Destructo
 - State: mature, inactive since 2015
@@ -11,6 +9,8 @@ _Remake of Destructo._
 - Code license: MIT
 - Code dependencies: Allegro
 - Assets license: CC-BY-SA-3.0
+
+Remake of Destructo.
 
 ## Building
 

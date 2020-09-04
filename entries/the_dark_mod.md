@@ -1,7 +1,5 @@
 # The Dark Mod
 
-_Clone of Thief._
-
 - Home: https://www.thedarkmod.com/
 - Inspirations: Thief
 - State: mature
@@ -11,6 +9,8 @@ _Clone of Thief._
 - Code repository: https://svn.thedarkmod.com/publicsvn/darkmod_src/ (svn)
 - Code language: C++
 - Code license: GPL-3.0
+
+Clone of Thief.
 
 ## Building
 

@@ -1,7 +1,5 @@
 # Turious
 
-_Turn-Based Strategy Game._
-
 - Home: https://gitorious.org/turious/turious/
 - State: beta, inactive since 2014
 - Keywords: strategy
@@ -11,5 +9,6 @@ _Turn-Based Strategy Game._
 - Code dependencies: Rosethorn
 - Developer: darkrose
 
+Turn-Based Strategy Game.
 
 ## Building

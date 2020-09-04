@@ -1,7 +1,5 @@
 # Reliquarium
 
-_Four unique 3D slider puzzles with crystal skull theme._
-
 - Home: https://github.com/fastrgv/Reliquarium
 - State: mature
 - Download: https://github.com/fastrgv/Reliquarium/releases
@@ -11,5 +9,7 @@ _Four unique 3D slider puzzles with crystal skull theme._
 - Code language: Ada
 - Code license: GPL-2.0
 - Code dependencies: OpenGL, SDL2
+
+Four unique 3D slider puzzles with crystal skull theme.
 
 ## Building

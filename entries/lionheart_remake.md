@@ -1,7 +1,5 @@
 # Lionheart Remake
 
-_Remake of Lionheart._
-
 - Home: https://www.b3dgs.com/v7/page.php?lang=en&section=lionheart_remake
 - Inspirations: Lionheart
 - State: beta, inactive since 2018
@@ -10,5 +8,7 @@ _Remake of Lionheart._
 - Code language: Java
 - Code license: GPL-3.0
 - Code dependencies: LionEngine
+
+Remake of Lionheart.
 
 ## Building

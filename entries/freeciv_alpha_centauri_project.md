@@ -1,7 +1,5 @@
 # Freeciv Alpha Centauri project
 
-_Remake of Sid Meier's Alpha Centauri._
-
 - Home: http://freecivac.sourceforge.net/, https://sourceforge.net/projects/freecivac/
 - Inspirations: Sid Meier's Alpha Centauri
 - State: beta, inactive since 2003
@@ -11,6 +9,7 @@ _Remake of Sid Meier's Alpha Centauri._
 - Code language: C
 - Code license: GPL-2.0
 
+Remake of Sid Meier's Alpha Centauri.
 Fork of Freeciv.
 
 ## Building

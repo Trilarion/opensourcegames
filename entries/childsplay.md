@@ -1,7 +1,5 @@
 # Childsplay
 
-_Collection of educational activities for young children._
-
 - Home: http://www.childsplay.mobi/, https://sourceforge.net/projects/childsplay/, https://sourceforge.net/projects/schoolsplay/
 - State: mature
 - Download: https://sourceforge.net/projects/schoolsplay/files/, https://sourceforge.net/projects/childsplay/files/
@@ -11,5 +9,7 @@ _Collection of educational activities for young children._
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependencies: NumPy, pygame
+
+Collection of educational activities for young children.
 
 ## Building

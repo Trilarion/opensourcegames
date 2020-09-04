@@ -1,7 +1,5 @@
 # Battlefield Java
 
-_Simple grid and turned based battle simulation game for Java developers._
-
 - Home: https://sourceforge.net/projects/battlefieldjava/
 - State: beta, inactive since 2011
 - Download: https://sourceforge.net/projects/battlefieldjava/files/battlefieldjava/
@@ -10,5 +8,6 @@ _Simple grid and turned based battle simulation game for Java developers._
 - Code language: Java
 - Code license: GPL-3.0
 
+Simple grid and turned based battle simulation game for Java developers.
 
 ## Building

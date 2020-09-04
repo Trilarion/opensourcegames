@@ -1,7 +1,5 @@
 # openc2e
 
-_Remake of Creatures._
-
 - Home: https://web.archive.org/web/20110223210931/http://openc2e.org/
 - Media: <https://en.wikipedia.org/wiki/Creatures_(video_game_series)>, https://creatures.fandom.com/wiki/Openc2e
 - Inspirations: Creatures
@@ -11,6 +9,7 @@ _Remake of Creatures._
 - Code language: C, C++
 - Code license: LGPL-2.1
 
+Remake of Creatures.
 Restarted in 2020.
 
 ## Building

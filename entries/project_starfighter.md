@@ -1,7 +1,5 @@
 # Project: Starfighter
 
-_2D shoot'em up game._
-
 - Home: https://pr-starfighter.github.io, http://savannah.nongnu.org/projects/starfighter
 - State: mature
 - Download: https://pr-starfighter.github.io/download.html, https://github.com/pr-starfighter/starfighter/releases
@@ -13,5 +11,7 @@ _2D shoot'em up game._
 - Code dependencies: SDL
 - Assets license: various
 - Developer: Stephen Sweeney, Richard Sweeney
+
+2D shoot'em up game.
 
 ## Building

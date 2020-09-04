@@ -1,7 +1,5 @@
 # XInvaders 3D
 
-_3D invaders game using wireframe vector graphics._
-
 - Home: https://web.archive.org/web/20110803224159/http://xinvaders3d.sourceforge.net/
 - Inspirations: ICBM3D
 - State: mature, inactive since 2000
@@ -11,5 +9,7 @@ _3D invaders game using wireframe vector graphics._
 - Code license: GPL-2.0
 - Assets license: no media
 - Developer: Don Llopis
+
+3D invaders game using wireframe vector graphics.
 
 ## Building

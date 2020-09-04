@@ -1,7 +1,5 @@
 # Waste's Edge
 
-_Demo game for Adonthell._
-
 - Home: http://adonthell.nongnu.org/download/index.html
 - State: beta
 - Download: (see home)
@@ -10,5 +8,7 @@ _Demo game for Adonthell._
 - Code language: Python
 - Code license: GPL-2.0
 - Code dependencies: Adonthell
+
+Demo game for Adonthell.
 
 ## Building

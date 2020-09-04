@@ -1,7 +1,5 @@
 # Crosswords
 
-_Based on the rules of Scrabble._
-
 - Home: http://xwords.sourceforge.net/
 - State: mature
 - Download: https://sourceforge.net/projects/xwords/files/
@@ -11,6 +9,8 @@ _Based on the rules of Scrabble._
 - Code language: Java
 - Code license: GPL-2.0
 - Developer: Eric House
+
+Based on the rules of Scrabble.
 
 ## Building
 

@@ -1,7 +1,5 @@
 # Magical Life
 
-_RPG 2D game similar to RimWorld._
-
 - Home: https://github.com/TBye101/MagicalLife
 - Inspirations: RimWorld
 - State: beta
@@ -12,5 +10,7 @@ _RPG 2D game similar to RimWorld._
 - Code language: C#
 - Code license: MIT
 - Code dependencies: MonoGame
+
+RPG 2D game similar to RimWorld.
 
 ## Building

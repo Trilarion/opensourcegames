@@ -1,7 +1,5 @@
 # mini2Dx
 
-_Framework for prototyping and building 2D games in Java._
-
 - Home: https://mini2dx.org/
 - State: mature
 - Download: https://mini2dx.org/downloads.html, https://github.com/mini2Dx/mini2Dx/releases
@@ -11,6 +9,7 @@ _Framework for prototyping and building 2D games in Java._
 - Code language: Java, C#
 - Code license: Apache-2.0
 
+Framework for prototyping and building 2D games in Java.
 
 ## Building
 

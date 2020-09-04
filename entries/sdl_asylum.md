@@ -1,7 +1,5 @@
 # SDL Asylum
 
-_C port of Asylum._
-
 - Home: http://sdl-asylum.sourceforge.net/, https://sourceforge.net/projects/sdl-asylum/
 - Media: http://asylum.acornarcade.com/
 - Inspirations: Asylum
@@ -16,6 +14,7 @@ _C port of Asylum._
 - Assets license: Public domain
 - Developer: Andy Southgate, Hugh Robinson
 
+C port of Asylum.
 [Successor of Asylum](http://asylum.acornarcade.com/) from 1994.
 Asylum was written by Andy Southgate in 1994 for the Acorn Archimedes and is now public domain.
 

@@ -1,7 +1,5 @@
 # Rescue! Max
 
-_Remake of Rescue!._
-
 - Home: http://rescue.sourceforge.net/, https://sourceforge.net/projects/rescue/
 - Inspirations: Rescue!
 - State: beta, inactive since 2013
@@ -11,5 +9,7 @@ _Remake of Rescue!._
 - Code language: Java
 - Code license: GPL-3.0
 - Developer: Yura
+
+Remake of Rescue!.
 
 ## Building

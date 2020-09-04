@@ -1,7 +1,5 @@
 # Ice Breaker
 
-_Remake of JezzBall._
-
 - Home: https://mattdm.org/icebreaker/
 - Inspirations: JezzBall
 - State: mature, inactive since 2003
@@ -12,5 +10,7 @@ _Remake of JezzBall._
 - Code language: C
 - Code license: GPL-2.0
 - Code dependencies: SDL
+
+Remake of JezzBall.
 
 ## Building

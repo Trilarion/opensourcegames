@@ -1,7 +1,5 @@
 # Killer Crates
 
-_Remake of What the Box._
-
 - Home: https://github.com/SteveSmith16384/KillerCrates
 - Inspirations: What the Box
 - State: beta, inactive since 2017
@@ -12,5 +10,7 @@ _Remake of What the Box._
 - Code language: Java
 - Code license: MIT
 - Code dependencies: jMonkeyEngine
+
+Remake of What the Box.
 
 ## Building

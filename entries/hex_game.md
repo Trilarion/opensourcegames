@@ -1,7 +1,5 @@
 # Hex Game
 
-_Hex based, tactical strategy game._
-
 - Home: https://sourceforge.net/projects/hexgamealpha/
 - State: beta
 - Keywords: strategy
@@ -9,5 +7,6 @@ _Hex based, tactical strategy game._
 - Code language: C++
 - Code license: MIT
 
+Hex based, tactical strategy game.
 
 ## Building

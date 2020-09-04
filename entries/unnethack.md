@@ -1,7 +1,5 @@
 # UnNetHack
 
-_Roguelike, single-player role-playing game where the hero must venture through the depths of the Dungeon of Doom to retrieve the Amulet of Yendor._
-
 - Home: https://unnethack.wordpress.com/, https://sourceforge.net/projects/unnethack/
 - Media: https://en.wikipedia.org/wiki/NetHack#Ports_and_forks
 - State: mature
@@ -11,6 +9,7 @@ _Roguelike, single-player role-playing game where the hero must venture through 
 - Code language: C
 - Code license: Custom (NetHack license)
 
+Roguelike, single-player role-playing game where the hero must venture through the depths of the Dungeon of Doom to retrieve the Amulet of Yendor.
 Based on NetHack.
 
 ## Building

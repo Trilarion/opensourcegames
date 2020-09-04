@@ -1,7 +1,5 @@
 # Project Dollhouse
 
-_Remake of The Sims Online._
-
 - Home: http://afr0games.com/
 - Inspirations: CorsixTH, The Sims Online
 - State: beta
@@ -11,5 +9,7 @@ _Remake of The Sims Online._
 - Code language: C#
 - Code license: MPL-2.0
 - Code dependencies: MonoGame
+
+Remake of The Sims Online.
 
 ## Building

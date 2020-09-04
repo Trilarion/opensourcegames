@@ -1,7 +1,5 @@
 # TUSSLE
 
-_Clone of Super Smash Bros.._
-
 - Home: https://projecttussle.com/
 - Inspirations: Super Smash Bros.
 - State: mature, inactive since 2017
@@ -13,6 +11,7 @@ _Clone of Super Smash Bros.._
 - Code license: GPL-3.0
 - Code dependencies: pygame
 
+Clone of Super Smash Bros..
 Just an engine. Create your own characters or download them.
 
 ## Building

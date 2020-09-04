@@ -1,7 +1,5 @@
 # The Powder Toy
 
-_Clone of Powder Game._
-
 - Home: https://powdertoy.co.uk/
 - Inspirations: Powder Game
 - State: mature
@@ -12,5 +10,7 @@ _Clone of Powder Game._
 - Code language: C++, C, Lua, Python
 - Code license: GPL-3.0
 - Code dependencies: SDL2
+
+Clone of Powder Game.
 
 ## Building

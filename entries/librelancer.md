@@ -1,7 +1,5 @@
 # Librelancer
 
-_Remake of Freelancer._
-
 - Home: https://librelancer.net/
 - Inspirations: Freelancer
 - State: beta
@@ -12,6 +10,8 @@ _Remake of Freelancer._
 - Code language: C, C#
 - Code license: MIT
 - Code dependencies: OpenGL
+
+Remake of Freelancer.
 
 ## Building
 

@@ -1,7 +1,5 @@
 # Minilens
 
-_Puzzle game where you dispose of waste and collect flowers. You can also place bombs to destroy blocks._
-
 - Home: http://kobuge-games.github.io/minilens/
 - State: mature, inactive since 2018
 - Play: https://kobuge-games.github.io/minilens/ml/
@@ -13,5 +11,7 @@ _Puzzle game where you dispose of waste and collect flowers. You can also place 
 - Code license: GPL-3.0
 - Code dependencies: Godot
 - Assets license: GPL-3.0
+
+Puzzle game where you dispose of waste and collect flowers. You can also place bombs to destroy blocks.
 
 ## Building

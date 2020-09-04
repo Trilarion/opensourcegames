@@ -1,7 +1,5 @@
 # iortcw
 
-_Merge of ioquake3 features and fixes into RTCW code bases._
-
 - Home: https://github.com/iortcw/iortcw
 - Inspirations: Return to Castle Wolfenstein
 - State: mature
@@ -13,5 +11,7 @@ _Merge of ioquake3 features and fixes into RTCW code bases._
 - Code license: GPL-3.0
 - Code dependencies: OpenAL, SDL
 - Developer: Donny Springer, Zack Middleton, James Canete
+
+Merge of ioquake3 features and fixes into RTCW code bases.
 
 ## Building

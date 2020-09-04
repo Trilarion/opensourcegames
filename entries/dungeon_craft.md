@@ -1,7 +1,5 @@
 # Dungeon Craft
 
-_Updated emulator of Forgotten Realms: Unlimited Adventures._
-
 - Home: http://uaf.sourceforge.net/, https://sourceforge.net/projects/uaf/, http://www.dianneandpaul.net/UAF/DungeonCraft.html
 - Inspirations: Forgotten Realms: Unlimited Adventures
 - State: mature
@@ -11,6 +9,7 @@ _Updated emulator of Forgotten Realms: Unlimited Adventures._
 - Code language: C++
 - Code license: GPL-2.0
 
+Updated emulator of Forgotten Realms: Unlimited Adventures.
 See also http://ua.reonis.com/index.php?topic=139.0
 
 ## Building

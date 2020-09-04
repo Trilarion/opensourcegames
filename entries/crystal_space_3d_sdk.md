@@ -1,7 +1,5 @@
 # Crystal Space 3D SDK
 
-_3D framework._
-
 - Home: http://www.crystalspace3d.org/, https://sourceforge.net/projects/crystal/
 - State: mature, inactive since 2015
 - Download: https://sourceforge.net/projects/crystal/files/
@@ -11,6 +9,8 @@ _3D framework._
 - Code language: C, C++
 - Code license: LGPL-2.1
 - Code dependencies: OpenGL
+
+3D framework.
 
 ## Building
 

@@ -1,7 +1,5 @@
 # Cabbages and Kings
 
-_Mix between action and rpg._
-
 - Home: https://github.com/Mekire/cabbages-and-kings
 - State: mature
 - Keywords: action
@@ -9,5 +7,7 @@ _Mix between action and rpg._
 - Code language: Python
 - Code license: MIT
 - Code dependencies: pygame, wxPython
+
+Mix between action and rpg.
 
 ## Building

@@ -1,7 +1,5 @@
 # Reconstruction of ZZT
 
-_Remake of ZZT._
-
 - Home: https://github.com/asiekierka/reconstruction-of-zzt
 - Inspirations: ZZT
 - State: mature
@@ -10,6 +8,7 @@ _Remake of ZZT._
 - Code language: Pascal
 - Code license: MIT
 
+Remake of ZZT.
 Source code reconstruction.
 
 ## Building

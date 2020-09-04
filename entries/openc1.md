@@ -1,7 +1,5 @@
 # OpenC1
 
-_Remake of Carmageddon._
-
 - Home: http://1amstudios.com/projects/openc1/
 - Inspirations: Carmageddon
 - State: beta, inactive since 2014
@@ -9,5 +7,7 @@ _Remake of Carmageddon._
 - Code repository: https://github.com/jeff-1amstudios/OpenC1.git
 - Code language: C#
 - Code license: ? (say's what you can't do but not what you can do)
+
+Remake of Carmageddon.
 
 ## Building

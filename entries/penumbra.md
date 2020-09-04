@@ -1,7 +1,5 @@
 # Penumbra
 
-_Library that adds 2D lighting with shadowing effects._
-
 - Home: https://github.com/discosultan/penumbra
 - State: mature
 - Keywords: library
@@ -9,5 +7,7 @@ _Library that adds 2D lighting with shadowing effects._
 - Code language: C#
 - Code license: MIT
 - Code dependencies: MonoGame
+
+Library that adds 2D lighting with shadowing effects.
 
 ## Building

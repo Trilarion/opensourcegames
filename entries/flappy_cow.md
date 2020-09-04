@@ -1,7 +1,5 @@
 # Flappy Cow
 
-_Flappy Bird style game._
-
 - Home: https://github.com/cubei/FlappyCow
 - Inspirations: Flappy Bird
 - State: mature
@@ -11,6 +9,7 @@ _Flappy Bird style game._
 - Code language: Java
 - Code license: MIT
 
+Flappy Bird style game.
 Renamed to FlutterCow because of a Google policy.
 
 ## Building

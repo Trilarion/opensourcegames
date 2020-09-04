@@ -1,7 +1,5 @@
 # Underworld Adventures
 
-_Project to recreate Ultima Underworld 1 on modern operating systems (e.g. Win32, Linux or MacOS), using the original game files._
-
 - Home: http://uwadv.sourceforge.net/, https://sourceforge.net/projects/uwadv/
 - State: beta
 - Download: http://uwadv.sourceforge.net/index.php?page=download
@@ -10,6 +8,7 @@ _Project to recreate Ultima Underworld 1 on modern operating systems (e.g. Win32
 - Code language: C++, Lua
 - Code license: GPL-2.0
 
+Project to recreate Ultima Underworld 1 on modern operating systems (e.g. Win32, Linux or MacOS), using the original game files.
 Requires original game files.
 
 ## Building

@@ -1,7 +1,5 @@
 # Mininim
 
-_Remake of Prince of Persia._
-
 - Home: http://oitofelix.github.io/mininim/
 - Inspirations: Prince of Persia
 - State: beta, inactive since 2017
@@ -12,6 +10,8 @@ _Remake of Prince of Persia._
 - Code language: C
 - Code license: GPL-3.0
 - Code dependencies: Allegro
+
+Remake of Prince of Persia.
 
 ## Building
 

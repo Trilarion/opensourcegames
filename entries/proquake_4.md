@@ -1,7 +1,5 @@
 # ProQuake 4
 
-_Remake of Quake._
-
 - Home: http://quakeone.com/proquake/
 - Inspirations: Quake
 - State: mature, inactive since 2018
@@ -11,6 +9,7 @@ _Remake of Quake._
 - Code language: C
 - Code license: GPL-2.0
 
+Remake of Quake.
 See also: http://quakeone.com/markv/
 
 ## Building

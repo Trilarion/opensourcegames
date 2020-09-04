@@ -1,7 +1,5 @@
 # Gottet
 
-_Tetris-like game._
-
 - Home: https://gottcode.org/gottet/
 - State: mature
 - Platform: Windows, Linux, macOS
@@ -12,6 +10,7 @@ _Tetris-like game._
 - Code dependencies: Qt
 - Developer: Graeme Gott
 
+Tetris-like game.
 See also https://launchpad.net/~gottcode/+archive/ubuntu/gcppa
 
 ## Building

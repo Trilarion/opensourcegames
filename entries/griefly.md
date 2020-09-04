@@ -1,7 +1,5 @@
 # Griefly
 
-_Remake of Space Station 13._
-
 - Home: https://github.com/griefly
 - Inspirations: Space Station 13
 - State: beta
@@ -10,6 +8,8 @@ _Remake of Space Station 13._
 - Code language: C++, Go, Python
 - Code license: MIT
 - Assets license: CC-BY-NC-SA (see https://github.com/griefly/griefly/blob/master/LICENSE_ASSETS.md)
+
+Remake of Space Station 13.
 
 ## Building
 

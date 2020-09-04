@@ -1,7 +1,5 @@
 # Powerslave EX
 
-_Remake of Powerslave._
-
 - Home: https://powerslaveex.wordpress.com/
 - Media: https://en.wikipedia.org/wiki/PowerSlave
 - Inspirations: Powerslave
@@ -12,5 +10,7 @@ _Remake of Powerslave._
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependencies: SDL2
+
+Remake of Powerslave.
 
 ## Building

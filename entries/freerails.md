@@ -1,7 +1,5 @@
 # FreeRails
 
-_Real time MP strategy game where players compete to build the most powerful railroad empire._
-
 - Home: http://freerails.sourceforge.net/
 - Inspirations: Railroad Tycoon
 - State: beta, inactive since 2008 (see continuation)
@@ -11,6 +9,7 @@ _Real time MP strategy game where players compete to build the most powerful rai
 - Code language: Java, C++
 - Code license: GPL-2.0
 
+Real time MP strategy game where players compete to build the most powerful railroad empire.
 See also [FreeRails II](http://freerails2.sourceforge.net/)
 
 See also [continuation in 2018](https://github.com/Trilarion/freerails)

@@ -1,7 +1,5 @@
 # Libxml2
 
-_XML C parser and toolkit developed for the Gnome project (but usable outside of the Gnome platform)._
-
 - Home: http://www.xmlsoft.org/
 - Media: https://en.wikipedia.org/wiki/Libxml2
 - State: mature
@@ -10,5 +8,7 @@ _XML C parser and toolkit developed for the Gnome project (but usable outside of
 - Code repository: https://gitlab.gnome.org/GNOME/libxml2.git
 - Code language: C
 - Code license: MIT
+
+XML C parser and toolkit developed for the Gnome project (but usable outside of the Gnome platform).
 
 ## Building

@@ -1,7 +1,5 @@
 # Der Clou!
 
-_Remake of the 1986 game They Stole a Million / The Clue!._
-
 - Home: https://sourceforge.net/projects/cosp/, https://sites.google.com/site/vascocosta/theclue
 - Inspirations: The Clue!
 - State: beta, inactive since 2017
@@ -12,6 +10,7 @@ _Remake of the 1986 game They Stole a Million / The Clue!._
 - Code license: Custom (Der Clou! Public License)
 - Code dependencies: SDL
 
+Remake of the 1986 game They Stole a Million / The Clue!.
 May require original game files.
 
 ## Building

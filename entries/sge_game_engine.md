@@ -1,7 +1,5 @@
 # SGE Game Engine
 
-_General-purpose 2D game engine._
-
 - Home: https://python-sge.github.io/, https://pypi.org/project/sge/, https://savannah.nongnu.org/projects/stellarengine
 - State: mature, inactive since 2017
 - Download: https://python-sge.github.io/download.html
@@ -10,6 +8,8 @@ _General-purpose 2D game engine._
 - Code language: Python
 - Code license: LGPL-3.0
 - Code dependencies: pygame
+
+General-purpose 2D game engine.
 
 ## Building
 

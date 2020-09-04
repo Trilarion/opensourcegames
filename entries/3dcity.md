@@ -1,7 +1,5 @@
 # 3d.city
 
-_WebGL version of micropolisJS._
-
 - Home: http://lo-th.github.io/3d.city/index.html, https://github.com/lo-th/3d.city
 - Inspirations: SimCity
 - State: mature, inactive since 2016
@@ -12,6 +10,8 @@ _WebGL version of micropolisJS._
 - Code license: GPL-3.0 (with additional terms)
 - Code dependencies: SEA3D, Three.js
 - Developer: lo-th
+
+WebGL version of micropolisJS.
 
 ## Building
 

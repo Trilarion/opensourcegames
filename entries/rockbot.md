@@ -1,7 +1,5 @@
 # Rockbot
 
-_Remake of MegaMan._
-
 - Home: https://rockbot.upperland.net/
 - Inspirations: MegaMan
 - State: mature
@@ -11,5 +9,7 @@ _Remake of MegaMan._
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: SDL
+
+Remake of MegaMan.
 
 ## Building

@@ -1,7 +1,5 @@
 # Chunk Stories
 
-_Voxel game engine._
-
 - Home: http://chunkstories.xyz/
 - Inspirations: Minecraft
 - State: beta
@@ -11,6 +9,8 @@ _Voxel game engine._
 - Code repository: https://github.com/Hugobros3/chunkstories.git
 - Code language: Kotlin, Java
 - Code license: LGPL-3.0
+
+Voxel game engine.
 
 ## Building
 

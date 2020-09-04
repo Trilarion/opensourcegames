@@ -1,7 +1,5 @@
 # Stargus
 
-_Remake of Starcraft._
-
 - Home: http://stargus.stratagus.com/, http://stargus.sourceforge.net/, https://sourceforge.net/projects/stargus/
 - Inspirations: Starcraft
 - State: beta, inactive since 2010
@@ -11,6 +9,8 @@ _Remake of Starcraft._
 - Code language: C++, Lua
 - Code license: GPL-2.0
 - Code dependencies: Stratagus
+
+Remake of Starcraft.
 
 ## Building
 

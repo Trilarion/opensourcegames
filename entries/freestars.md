@@ -1,7 +1,5 @@
 # Freestars
 
-_Project to create an easily modifiable clone of the 4X turn-based strategy game Stars!._
-
 - Home: http://freestars.sourceforge.net/, https://sourceforge.net/projects/freestars/
 - Inspirations: Stars!
 - State: beta, inactive since 2008
@@ -10,6 +8,7 @@ _Project to create an easily modifiable clone of the 4X turn-based strategy game
 - Code language: C++
 - Code license: GPL-2.0
 
+Project to create an easily modifiable clone of the 4X turn-based strategy game Stars!.
 No demo but quite a lot of code in the repository.
 
 [Original Stars!](https://en.wikipedia.org/wiki/Stars!)

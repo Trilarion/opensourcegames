@@ -1,7 +1,5 @@
 # CETech
 
-_Data driven game engine._
-
 - Home: http://cyberegoorg.gitlab.io/cetech/
 - State: beta
 - Platform: Linux, macOS
@@ -9,5 +7,7 @@ _Data driven game engine._
 - Code repository: https://github.com/cyberegoorg/cetech.git
 - Code language: C, C++
 - Code license: CC0
+
+Data driven game engine.
 
 ## Building

@@ -1,7 +1,5 @@
 # Hematite
 
-_Remake of Minecraft._
-
 - Home: http://hematite.piston.rs/
 - Inspirations: Minecraft
 - State: beta
@@ -10,5 +8,7 @@ _Remake of Minecraft._
 - Code language: Rust
 - Code license: MIT
 - Code dependencies: Piston
+
+Remake of Minecraft.
 
 ## Building

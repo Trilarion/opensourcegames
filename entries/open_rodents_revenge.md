@@ -1,7 +1,5 @@
 # Open Rodent's Revenge
 
-_Remake of Rodent's Revenge._
-
 - Home: https://github.com/pierreyoda/o2r, https://sourceforge.net/projects/o2r/
 - Inspirations: Rodent's Revenge
 - State: beta, inactive since 2018
@@ -12,5 +10,7 @@ _Remake of Rodent's Revenge._
 - Code language: C++
 - Code license: MIT (was GPL-3.0)
 - Code dependencies: Qt, SFML
+
+Remake of Rodent's Revenge.
 
 ## Building

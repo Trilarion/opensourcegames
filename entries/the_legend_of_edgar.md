@@ -1,7 +1,5 @@
 # The Legend of Edgar
 
-_2D platform game._
-
 - Home: https://www.parallelrealities.co.uk/games/edgar/, https://sourceforge.net/projects/legendofedgar/
 - State: mature
 - Download: https://www.parallelrealities.co.uk/games/edgar/#downloads-/-releases, https://github.com/riksweeney/edgar/releases
@@ -10,5 +8,7 @@ _2D platform game._
 - Code repository: https://github.com/riksweeney/edgar.git
 - Code language: C
 - Code license: GPL-2.0
+
+2D platform game.
 
 ## Building

@@ -1,7 +1,5 @@
 # PARPG
 
-_Post-Apocalyptic RPG._
-
 - Home: http://blog.parpg.net/, https://sourceforge.net/projects/parpg/
 - Inspirations: Fallout 2
 - State: beta, inactive since 2012
@@ -13,6 +11,7 @@ _Post-Apocalyptic RPG._
 - Code dependencies: Blender game engine, FIFE, psyco, pygame, PyQt, PySide
 - Assets license: CC-BY-SA
 
+Post-Apocalyptic RPG.
 See also: https://github.com/arikel/PPARPG, https://github.com/mvbarracuda/parpg_mvbarracuda, https://github.com/parpg/parpg
 
 ## Building

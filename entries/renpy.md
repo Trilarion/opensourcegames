@@ -1,7 +1,5 @@
 # Ren'Py
 
-_Visual novel engine._
-
 - Home: https://www.renpy.org/
 - State: mature
 - Download: https://www.renpy.org/latest.html
@@ -11,5 +9,7 @@ _Visual novel engine._
 - Code language: C, Python, Ren'Py
 - Code license: LGPL-2.1 (most code under MIT)
 - Code dependencies: pygame, SDL2
+
+Visual novel engine.
 
 ## Building

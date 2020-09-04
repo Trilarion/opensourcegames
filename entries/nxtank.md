@@ -1,7 +1,5 @@
 # nXtank
 
-_Xtank in a modern gaming engine._
-
 - Home: http://nxtank.sourceforge.net/, https://sourceforge.net/projects/nxtank/
 - State: beta, inactive since 2010
 - Download: https://sourceforge.net/projects/nxtank/files/
@@ -11,5 +9,7 @@ _Xtank in a modern gaming engine._
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependencies: OGRE
+
+Xtank in a modern gaming engine.
 
 ## Building

@@ -1,7 +1,5 @@
 # Microracers
 
-_Remake of Micro Machines._
-
 - Home: http://microracers.sourceforge.net/, https://sourceforge.net/projects/microracers/
 - Inspirations: Micro Machines
 - State: beta, inactive since 2005
@@ -12,6 +10,7 @@ _Remake of Micro Machines._
 - Code license: GPL-2.0
 - Developer: Ricardo Cruz
 
+Remake of Micro Machines.
 Not really beta?
 
 ## Building

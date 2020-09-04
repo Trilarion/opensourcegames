@@ -1,7 +1,5 @@
 # ENIGMA (development environment)
 
-_Game development environment._
-
 - Home: https://enigma-dev.org/
 - Media: https://en.wikipedia.org/wiki/Enigma_Engine
 - State: mature
@@ -10,6 +8,8 @@ _Game development environment._
 - Code repository: https://github.com/enigma-dev/enigma-dev.git
 - Code language: C++, C
 - Code license: GPL-3.0
+
+Game development environment.
 
 ## Building
 

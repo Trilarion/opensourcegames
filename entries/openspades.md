@@ -1,7 +1,5 @@
 # OpenSpades
 
-_Remake of Ace of Spades._
-
 - Home: http://openspades.yvt.jp/, https://sites.google.com/a/yvt.jp/openspades/ (outdated)
 - Media: <https://en.wikipedia.org/wiki/Ace_of_Spades_(video_game)>
 - Inspirations: Ace of Spades
@@ -12,6 +10,8 @@ _Remake of Ace of Spades._
 - Code repository: https://github.com/yvt/openspades.git
 - Code language: C, C++, AngelScript
 - Code license: GPL-3.0
+
+Remake of Ace of Spades.
 
 ## Building
 

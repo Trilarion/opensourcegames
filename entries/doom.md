@@ -1,7 +1,5 @@
 # DOOM
 
-_Source of Doom._
-
 - Home: https://github.com/id-Software/DOOM
 - Inspirations: Doom
 - State: mature, inactive since 2012
@@ -10,5 +8,7 @@ _Source of Doom._
 - Code repository: https://github.com/id-Software/DOOM.git
 - Code language: C
 - Code license: Custom
+
+Source of Doom.
 
 ## Building

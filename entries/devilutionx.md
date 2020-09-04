@@ -1,7 +1,5 @@
 # DevilutionX
 
-_Remake of Diablo._
-
 - Home: https://github.com/diasurgical/devilutionX, https://web.archive.org/web/20130602191141/http://iphone.keyvisuals.com/apps/doom-classic-for-iphone-source-code-available/
 - Inspirations: Diablo
 - State: mature
@@ -10,6 +8,7 @@ _Remake of Diablo._
 - Code language: C, C++
 - Code license: Unlicense
 
+Remake of Diablo.
 Improved engine recreation for modern systems.
 
 ## Building

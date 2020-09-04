@@ -1,7 +1,5 @@
 # Grobots
 
-_A real-time strategy programming game, in which you control teams of robots as they forage, reproduce and fight._
-
 - Home: http://grobots.sourceforge.net/, https://sourceforge.net/projects/grobots/
 - State: mature, inactive since 2014
 - Download: (see home)
@@ -11,6 +9,7 @@ _A real-time strategy programming game, in which you control teams of robots as 
 - Code language: C++
 - Code license: GPL-2.0
 
+A real-time strategy programming game, in which you control teams of robots as they forage, reproduce and fight.
 See also the [Java Port](https://github.com/manofsteel76667/Grobots_Java).
 
 ## Building

@@ -1,7 +1,5 @@
 # Open Fodder
 
-_Remake of Cannon Fodder._
-
 - Home: http://openfodder.com/
 - Inspirations: Cannon Fodder
 - State: mature
@@ -10,5 +8,7 @@ _Remake of Cannon Fodder._
 - Code repository: https://github.com/OpenFodder/openfodder.git
 - Code language: C, C++
 - Code license: GPL-3.0
+
+Remake of Cannon Fodder.
 
 ## Building

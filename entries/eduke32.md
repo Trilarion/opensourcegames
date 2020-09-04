@@ -1,7 +1,5 @@
 # EDuke32
 
-_Remake of Duke Nukem 3D._
-
 - Home: https://www.eduke32.com/, https://sourceforge.net/projects/eduke32/
 - Inspirations: Duke Nukem 3D
 - State: mature
@@ -10,5 +8,7 @@ _Remake of Duke Nukem 3D._
 - Code repository: (see download)
 - Code language: C, C++
 - Code license: GPL-2.0
+
+Remake of Duke Nukem 3D.
 
 ## Building

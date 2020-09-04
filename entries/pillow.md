@@ -1,7 +1,5 @@
 # Pillow
 
-_Fork of the Python Imaging Library._
-
 - Home: https://python-pillow.org/
 - State: mature
 - Download: (pip install Pillow)
@@ -10,6 +8,8 @@ _Fork of the Python Imaging Library._
 - Code repository: https://github.com/python-pillow/Pillow.git
 - Code language: C, Python
 - Code license: PIL Software License
+
+Fork of the Python Imaging Library.
 
 ## Building
 

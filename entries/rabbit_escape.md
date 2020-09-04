@@ -1,7 +1,5 @@
 # Rabbit Escape
 
-_Puzzle/action game of rescuing rabbits, inspired by Lemmings and Pingus._
-
 - Home: https://www.artificialworlds.net/rabbit-escape/
 - Inspirations: Lemmings
 - State: mature
@@ -12,6 +10,8 @@ _Puzzle/action game of rescuing rabbits, inspired by Lemmings and Pingus._
 - Code language: Java
 - Code license: GPL-2.0
 - Assets license: CC-BY-SA-3.0 (music, levels under GPL-2.0)
+
+Puzzle/action game of rescuing rabbits, inspired by Lemmings and Pingus.
 
 ## Building
 

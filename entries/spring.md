@@ -1,7 +1,5 @@
 # Spring
 
-_Game engine for real-time strategy (RTS) video games._
-
 - Home: https://springrts.com/, https://springrts.com/wiki/Main_Page, https://sourceforge.net/projects/springrts/
 - Media: https://en.wikipedia.org/wiki/Spring_Engine
 - Inspirations: Total Annihilation
@@ -12,6 +10,7 @@ _Game engine for real-time strategy (RTS) video games._
 - Code language: C++, C, Lua
 - Code license: GPL-2.0
 
+Game engine for real-time strategy (RTS) video games.
 See also [Spring 1944](http://spring1944.net/) a special scenario of the spring engine, code: https://github.com/spring1944/spring1944
 
 Or [ZeroK](http://zero-k.info/) another game using SpringRTS.

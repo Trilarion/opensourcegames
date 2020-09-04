@@ -1,7 +1,5 @@
 # TES3MP
 
-_Remake of The Elder Scrolls III: Morrowind._
-
 - Home: http://tes3mp.com/
 - Inspirations: The Elder Scrolls III: Morrowind
 - State: beta
@@ -12,6 +10,7 @@ _Remake of The Elder Scrolls III: Morrowind._
 - Code language: C++
 - Code license: GPL-3.0
 
+Remake of The Elder Scrolls III: Morrowind.
 Fork of OpenMW
 
 ## Building

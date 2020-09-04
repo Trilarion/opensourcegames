@@ -1,7 +1,6 @@
-start: title _EL description _EL property+ _EL (note)? building
+start: title _EL property+ _EL (note)? building
 title: "#" /(?! ).+(?<! )/ _NL                 // not starting or ending with a space
 
-description: "_" /(?! ).+(?<![ _])/ "_" _NL       // single line not ending with underscore
 property: "-" _key ":" _values _NL
 _key : /(?! ).+?(?=:)(?<! )/    // key: everything until next ":", not beginning or ending with a space
 _values : [_value ("," _value)*]

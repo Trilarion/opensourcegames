@@ -1,7 +1,5 @@
 # Holtz
 
-_Collection of board games that can be played against the computer or online against other players. Holtz supports the games Zèrtz, Dvonn, Relax and Bloks._
-
 - Home: https://sourceforge.net/projects/holtz/
 - State: mature
 - Download: https://sourceforge.net/projects/holtz/files/
@@ -13,5 +11,7 @@ _Collection of board games that can be played against the computer or online aga
 - Code dependencies: wxWidgets
 - Assets license: GPL
 - Developer: Florian Fischer, Martin Trautmann
+
+Collection of board games that can be played against the computer or online against other players. Holtz supports the games Zèrtz, Dvonn, Relax and Bloks.
 
 ## Building

@@ -947,6 +947,7 @@
 ## Lose Your Marbles [1]
 
 - Inspired entries: Lose Your Marbles
+- Media: https://en.wikipedia.org/wiki/Lose_Your_Marbles
 
 ## Lotus Esprit Turbo Challenge [1]
 
@@ -1020,6 +1021,7 @@
 ## Master of Orion [2]
 
 - Inspired entries: 1oom, FreeOrion
+- Media: https://en.wikipedia.org/wiki/Master_of_Orion
 
 ## Master of Orion 2 [2]
 
@@ -1660,6 +1662,7 @@
 ## Super Smash Bros. [2]
 
 - Inspired entries: Super Tilt Bro, TUSSLE
+- Media: https://en.wikipedia.org/wiki/Super_Smash_Bros.
 
 ## Supreme Commander [1]
 

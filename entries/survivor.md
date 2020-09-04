@@ -1,7 +1,5 @@
 # Survivor
 
-_Remake of Survivor (1986)._
-
 - Home: http://www.schillmania.com/survivor/
 - Inspirations: Survivor (1986)
 - State: mature

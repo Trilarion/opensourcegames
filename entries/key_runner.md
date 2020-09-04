@@ -1,7 +1,5 @@
 # Key Runner
 
-_2D overhead action game where Moschata, the Key Runner must race to retrieve the key and bring it to the lock._
-
 - Home: https://web.archive.org/web/20150412095108/http://killergame.net/keyrunner/
 - State: mature, inactive since 2013
 - Platform: Windows, Linux
@@ -12,6 +10,8 @@ _2D overhead action game where Moschata, the Key Runner must race to retrieve th
 - Code dependencies: SDL
 - Assets license: ? (GPL-2.0)
 - Developer: Russ Adams
+
+2D overhead action game where Moschata, the Key Runner must race to retrieve the key and bring it to the lock.
 
 ## Building
 

@@ -14,7 +14,6 @@
 - Assets license: CC-BY-SA-3.0
 - Developer: Erik Johansson, Ben Brian, Nicolas Auvray, Philip Taylor, Lancelot de Ferrière, s0600204, Kieran Pilkington, leper, Pureon
 
-Real-time strategy game.
 Engine part is called Pyrogenesis.
 
 ## Building

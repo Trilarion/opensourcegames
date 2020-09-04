@@ -12,8 +12,6 @@
 - Code dependencies: Allegro, SDL, SDL2
 - Developer: Kilgore Trout Mask Replicant
 
-Master of Orion (1993) game engine recreation.
-
 ## Building
 
 - Build system: Make

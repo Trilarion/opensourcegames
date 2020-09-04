@@ -1,9 +1,9 @@
 # Smash
 
-_Super Smash Bros-like in HTML5._
-
 - Home: https://github.com/guillaume-gouchon/smash.js, https://web.archive.org/web/20180428062354/http://smash.gouchon.com/
+- Inspirations: Super Smash Bros.
 - State: mature
+- Platform: Web
 - Keywords: action
 - Code repository: https://github.com/guillaume-gouchon/smash.js.git
 - Code language: JavaScript

@@ -75,9 +75,6 @@ class EntryTransformer(lark.Transformer):
     def title(self, x):
         return 'title', x[0].value
 
-    def description(self, x):
-        return 'description', x[0].value
-
     def note(self, x):
         """
         Optional
@@ -613,10 +610,6 @@ def check_entry(entry):
     # we also allow -X with X =2..9 as possible extension (because of duplicate canonical file names)
     if canonical_file_name != file and canonical_file_name != file[:-5] + '.md':
         message += 'file name should be {}\n'.format(canonical_file_name)
-
-    # title should not be also in description
-    if entry['title'] in entry['description']:
-        message += 'title included in description, should be removed'
 
     if message:
         raise RuntimeError(message)

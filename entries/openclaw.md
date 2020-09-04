@@ -3,8 +3,9 @@
 _Remake of Claw._
 
 - Home: https://github.com/pjasicek/OpenClaw
+- Inspirations: Claw
 - State: mature
-- Keywords: remake, commercial content, inspired by Claw, requires original content
+- Keywords: remake, commercial content, requires original content
 - Code repository: https://github.com/pjasicek/OpenClaw.git
 - Code language: C++
 - Code license: GPL-3.0

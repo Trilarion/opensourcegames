@@ -3,8 +3,9 @@
 _(abbreviated TOL) Experimental online multiplayer first-person shooter game._
 
 - Home: http://www.terminal-overload.org/
+- Inspirations: Revenge Of The Cats: Ethernet
 - State: beta, inactive since 2016
-- Keywords: framework, first‐person, inspired by Revenge Of The Cats: Ethernet, open content, shooter
+- Keywords: framework, first‐person, open content, shooter
 - Code repository: https://github.com/fr1tz/terminal-overload.git
 - Code language: C++, C, C#
 - Code license: GPL-3.0

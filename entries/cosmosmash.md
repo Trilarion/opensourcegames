@@ -3,10 +3,11 @@
 _Remake of Astrosmash._
 
 - Home: http://perso.b2b2c.ca/~sarrazip/dev/cosmosmash.html
+- Inspirations: Astrosmash
 - State: mature, inactive since 2013
 - Download: http://perso.b2b2c.ca/~sarrazip/dev/cosmosmash.html#download
 - Platform: Linux
-- Keywords: action, inspired by Astrosmash, remake
+- Keywords: action, remake
 - Code repository: (see download)
 - Code language: C++
 - Code license: GPL-2.0

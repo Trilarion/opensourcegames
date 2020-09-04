@@ -3,9 +3,10 @@
 _A DOOM clone engine._
 
 - Home: https://github.com/amroibrahim/DIYDoom
+- Inspirations: Doom
 - State: beta
 - Platform: Windows
-- Keywords: game engine, inspired by Doom, remake
+- Keywords: game engine, remake
 - Code repository: https://github.com/amroibrahim/DIYDoom.git
 - Code language: C++
 - Code license: MIT

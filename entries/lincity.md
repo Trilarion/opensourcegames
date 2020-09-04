@@ -4,9 +4,10 @@ _City simulation game._
 
 - Home: http://lincity.sourceforge.net/, https://sourceforge.net/projects/lincity/
 - Media: https://en.wikipedia.org/wiki/Lincity
+- Inspirations: SimCity
 - State: mature, inactive since 2005
 - Download: (see home)
-- Keywords: simulation, clone, inspired by SimCity
+- Keywords: simulation, clone
 - Code repository: https://gitlab.com/osgames/lincity.git (backup of cvs), http://lincity.cvs.sourceforge.net/ (cvs)
 - Code language: C
 - Code license: GPL-2.0

@@ -3,8 +3,9 @@
 _Tool of Undertale._
 
 - Home: https://github.com/krzys-h/UndertaleModTool
+- Inspirations: Undertale
 - State: beta
-- Keywords: tool, commercial content, inspired by Undertale
+- Keywords: tool, commercial content
 - Code repository: https://github.com/krzys-h/UndertaleModTool.git
 - Code language: C#
 - Code license: GPL-3.0

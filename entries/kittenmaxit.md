@@ -4,9 +4,10 @@ _Remake of Maxit._
 
 - Home: https://web.archive.org/web/20171111010947/http://ahmetk.cf/KittenMaxit/
 - Media: http://www.craigcolvin.com/Moosesoftware/maxit_rules.html
+- Inspirations: Maxit
 - State: beta
 - Platform: Android
-- Keywords: strategy, inspired by Maxit, remake
+- Keywords: strategy, remake
 - Code repository: https://github.com/ahmetkasif/kmaxit.git
 - Code language: Java
 - Code license: MIT

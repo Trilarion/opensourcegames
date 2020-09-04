@@ -3,10 +3,11 @@
 _Falling block puzzle game._
 
 - Home: http://www.openalchemist.com/, https://sourceforge.net/projects/openalchemist/
+- Inspirations: NaturalChimie
 - State: beta, inactive since 2010
 - Download: http://www.openalchemist.com/downloads.php, https://sourceforge.net/projects/openalchemist/files/
 - Platform: Windows, Linux
-- Keywords: puzzle, inspired by NaturalChimie, open content
+- Keywords: puzzle, open content
 - Code repository: https://svn.code.sf.net/p/openalchemist/code (svn)
 - Code language: C++
 - Code license: GPL-2.0

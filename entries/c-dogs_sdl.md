@@ -4,10 +4,11 @@ _Overhead run-and-gun game._
 
 - Home: https://cxong.github.io/cdogs-sdl/
 - Media: https://en.wikipedia.org/wiki/C-Dogs
+- Inspirations: C-Dogs
 - State: mature
 - Download: https://cxong.github.io/cdogs-sdl/downloads.html
 - Platform: Windows, Linux, macOS
-- Keywords: action, inspired by C-Dogs, remake, shooter
+- Keywords: action, remake, shooter
 - Code repository: https://github.com/cxong/cdogs-sdl.git
 - Code language: C
 - Code license: GPL-2.0 (parts 2-clause BSD)

@@ -3,8 +3,9 @@
 _Emulation of the ZZT and Super ZZT game creation engines._
 
 - Home: https://github.com/SaxxonPike/roton
+- Inspirations: Super ZZT, ZZT
 - State: beta, inactive since 2019
-- Keywords: remake, inspired by Super ZZT + ZZT
+- Keywords: remake
 - Code repository: https://github.com/SaxxonPike/roton.git
 - Code language: C#
 - Code license: ISC

@@ -3,10 +3,11 @@
 _Master of Orion (1993) game engine recreation._
 
 - Home: https://kilgoretroutmaskreplicant.gitlab.io/plain-html/
+- Inspirations: Master of Orion
 - State: mature
 - Download: https://gitlab.com/KilgoreTroutMaskReplicant/1oom/-/tags
 - Platform: Windows, Linux
-- Keywords: strategy, commercial content, engine recreation, inspired by Master of Orion, remake
+- Keywords: strategy, commercial content, engine recreation, remake
 - Code repository: https://gitlab.com/KilgoreTroutMaskReplicant/1oom.git
 - Code language: C
 - Code license: GPL-2.0

@@ -3,8 +3,9 @@
 _FPS game that is the fork of Tremulous._
 
 - Home: https://www.tremfusion.net/, https://web.archive.org/web/20121027000844/http://www.tremfusion.net:80/
+- Inspirations: Tremulous
 - State: mature, inactive since 2009
-- Keywords: remake, first-person, inspired by Tremulous, shooter
+- Keywords: remake, first-person, shooter
 - Code repository: https://github.com/Amanieu/tremfusion.git
 - Code language: C
 - Code license: GPL-2.0

@@ -3,10 +3,11 @@
 _Clone of Crimsonland._
 
 - Home: http://violetland.github.io/
+- Inspirations: Crimsonland
 - State: beta
 - Download: https://github.com/ooxi/violetland/releases
 - Platform: Windows, Linux
-- Keywords: remake, clone, inspired by Crimsonland, open content
+- Keywords: remake, clone, open content
 - Code repository: https://github.com/ooxi/violetland.git
 - Code language: C++
 - Code license: GPL-3.0

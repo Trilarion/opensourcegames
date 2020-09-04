@@ -3,8 +3,9 @@
 _Remake of Redneck Rampage, Duke Nukem 3D._
 
 - Home: https://nukeykt.retrohost.net/
+- Inspirations: Redneck Rampage, Duke Nukem 3D
 - State: beta
-- Keywords: action, commercial content, inspired by Redneck Rampage + Duke Nukem 3D, remake
+- Keywords: action, commercial content, remake
 - Code repository: https://github.com/nukeykt/NBlood.git
 - Code language: C++
 - Code license: Custom

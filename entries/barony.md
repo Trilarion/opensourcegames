@@ -3,8 +3,9 @@
 _3D, first-person roguelike._
 
 - Home: http://www.baronygame.com/
+- Inspirations: Barony
 - State: mature
-- Keywords: role playing, commercial content, inspired by Barony, multiplayer co-op + online + LAN, remake, roguelike
+- Keywords: role playing, commercial content, multiplayer co-op + online + LAN, remake, roguelike
 - Code repository: https://github.com/TurningWheel/Barony.git
 - Code language: C++
 - Code license: GPL-3.0

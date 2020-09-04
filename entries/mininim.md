@@ -3,10 +3,11 @@
 _Remake of Prince of Persia._
 
 - Home: http://oitofelix.github.io/mininim/
+- Inspirations: Prince of Persia
 - State: beta, inactive since 2017
 - Download: (see home)
 - Platform: Windows, Linux
-- Keywords: action, inspired by Prince of Persia, open content, remake
+- Keywords: action, open content, remake
 - Code repository: https://github.com/oitofelix/mininim.git
 - Code language: C
 - Code license: GPL-3.0

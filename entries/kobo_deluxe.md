@@ -3,9 +3,10 @@
 _2D scrolling space shooter._
 
 - Home: http://olofson.net/kobodl/
+- Inspirations: XKobo
 - State: beta, inactive since 2007
 - Platform: Windows, Linux, macOS
-- Keywords: action, inspired by XKobo, open content
+- Keywords: action, open content
 - Code repository: (see home)
 - Code language: C++
 - Code license: GPL-2.0, LGPL

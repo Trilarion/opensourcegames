@@ -4,9 +4,10 @@ _Space adventure game set in our galaxy at the turn of the 31st century._
 
 - Home: https://pioneerspacesim.net/
 - Media: <https://en.wikipedia.org/wiki/Pioneer_(video_game)>
+- Inspirations: Elite II
 - State: mature
 - Download: https://pioneerspacesim.net/page/download/
-- Keywords: simulation, clone, inspired by Elite II
+- Keywords: simulation, clone
 - Code repository: https://github.com/pioneerspacesim/pioneer.git
 - Code language: C, C++, Lua
 - Code license: Apache-2.0, GPL-3.0

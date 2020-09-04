@@ -3,10 +3,11 @@
 _Clone of Snake._
 
 - Home: http://gustysserpents.sourceforge.net/, https://sourceforge.net/projects/gustysserpents/
+- Inspirations: Snake
 - State: beta, inactive since 2014
 - Download: http://gustysserpents.sourceforge.net/downloads.html
 - Platform: Windows
-- Keywords: action, arcade, clone, inspired by Snake
+- Keywords: action, arcade, clone
 - Code repository: https://svn.code.sf.net/p/gustysserpents/svn (svn download might contain newer version)
 - Code language: C++
 - Code license: GPL-3.0

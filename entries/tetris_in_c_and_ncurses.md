@@ -3,8 +3,9 @@
 _Remake of Tetris._
 
 - Home: https://brennan.io/2015/06/12/tetris-reimplementation/
+- Inspirations: Tetris
 - State: mature
-- Keywords: puzzle, inspired by Tetris, open content, remake
+- Keywords: puzzle, open content, remake
 - Code repository: https://github.com/brenns10/tetris.git
 - Code language: C
 - Code license: 3-clause BSD

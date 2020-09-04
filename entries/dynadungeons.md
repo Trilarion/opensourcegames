@@ -3,8 +3,9 @@
 _Clone of Bomberman._
 
 - Home: https://github.com/akien-mga/dynadungeons
+- Inspirations: Bomberman
 - State: beta, inactive since 2018
-- Keywords: action, clone, inspired by Bomberman, multiplayer competitive, open content
+- Keywords: action, clone, multiplayer competitive, open content
 - Code repository: https://github.com/akien-mga/dynadungeons.git
 - Code language: GDScript
 - Code license: GPL-3.0

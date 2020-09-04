@@ -3,8 +3,9 @@
 _Remake of Liero._
 
 - Home: http://www.liero.be/, https://code.google.com/archive/p/liero/
+- Inspirations: Liero
 - State: mature, inactive since 2015
-- Keywords: action, arcade, free content, inspired by Liero, multiplayer split-screen, remake
+- Keywords: action, arcade, free content, multiplayer split-screen, remake
 - Code repository: https://github.com/gliptic/liero.git (Liero 1.36)
 - Code language: C++
 - Code license: Custom

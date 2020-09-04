@@ -3,9 +3,10 @@
 _Remake of Flag Catcher._
 
 - Home: https://ceva24.github.io/
+- Inspirations: Flag Catcher
 - State: mature
 - Play: https://ceva24.github.io/
-- Keywords: puzzle, inspired by Flag Catcher, remake
+- Keywords: puzzle, remake
 - Code repository: https://github.com/Ceva24/ceva24.github.io.git
 - Code language: JavaScript
 - Code license: Apache-2.0

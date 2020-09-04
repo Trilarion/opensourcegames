@@ -3,8 +3,9 @@
 _Clone of Super Monkey Ball._
 
 - Home: http://uppgarn.com/nuncabola/
+- Inspirations: Neverball, Super Monkey Ball
 - State: beta
-- Keywords: action, clone, inspired by Neverball + Super Monkey Ball, open content
+- Keywords: action, clone, open content
 - Code repository: (see home)
 - Code language: Java
 - Code license: GPL-2.0

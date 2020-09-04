@@ -3,8 +3,9 @@
 _Clone of WarioWare._
 
 - Home: https://yeldham.itch.io/librerama
+- Inspirations: WarioWare
 - State: mature
-- Keywords: arcade, clone, inspired by WarioWare, open content
+- Keywords: arcade, clone, open content
 - Code repository: https://codeberg.org/Yeldham/librerama.git
 - Code language: GDScript
 - Code license: GPL-3.0

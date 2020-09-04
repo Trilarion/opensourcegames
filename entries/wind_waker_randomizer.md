@@ -3,9 +3,10 @@
 _Tool of The Legend of Zelda: The Wind Waker._
 
 - Home: https://github.com/LagoLunatic/wwrando
+- Inspirations: The Legend of Zelda: The Wind Waker
 - State: mature
 - Download: https://github.com/LagoLunatic/wwrando/releases
-- Keywords: tool, commercial content, inspired by The Legend of Zelda: The Wind Waker
+- Keywords: tool, commercial content
 - Code repository: https://github.com/LagoLunatic/wwrando.git
 - Code language: Python, Assembly
 - Code license: MIT

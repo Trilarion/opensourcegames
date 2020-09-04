@@ -3,8 +3,9 @@
 _Word game similar to Boggle._
 
 - Home: https://gottcode.org/tanglet/
+- Inspirations: Boggle
 - State: mature
-- Keywords: puzzle, inspired by Boggle, open content
+- Keywords: puzzle, open content
 - Code repository: (see home)
 - Code language: C++
 - Code license: GPL-3.0

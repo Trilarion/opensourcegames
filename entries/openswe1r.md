@@ -3,8 +3,9 @@
 _Remake of Star Wars Episode I: Racer._
 
 - Home: https://openswe1r.github.io/
+- Inspirations: Star Wars Episode I: Racer
 - State: beta
-- Keywords: remake, commercial content, inspired by Star Wars Episode I: Racer, requires original content
+- Keywords: remake, commercial content, requires original content
 - Code repository: https://github.com/OpenSWE1R/openswe1r.git
 - Code language: C, C++
 - Code license: GPL-2.0

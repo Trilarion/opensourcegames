@@ -3,8 +3,9 @@
 _Remake of Super Mario._
 
 - Home: "http://lukaszjakowski.pl/project,20,mario-cpp.html"
+- Inspirations: Super Mario
 - State: beta, inactive since 2016
-- Keywords: platform, inspired by Super Mario, remake
+- Keywords: platform, remake
 - Code repository: https://github.com/jakowskidev/uMario_Jakowski.git
 - Code language: C++
 - Code license: GPL-2.0

@@ -3,8 +3,9 @@
 _Clone of Omega Race._
 
 - Home: https://github.com/andwj/torrega
+- Inspirations: Omega Race
 - State: mature, inactive since 2015
-- Keywords: simulation, clone, inspired by Omega Race, open content, shootem
+- Keywords: simulation, clone, open content, shootem
 - Code repository: https://github.com/andwj/torrega.git
 - Code language: Lua
 - Code license: GPL-3.0

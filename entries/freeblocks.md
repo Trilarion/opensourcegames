@@ -3,9 +3,10 @@
 _Remake of Tetris Attack._
 
 - Home: https://github.com/dorkster/freeblocks
+- Inspirations: Tetris Attack
 - State: beta, inactive since 2015
 - Platform: Linux, Android (?)
-- Keywords: puzzle, inspired by Tetris Attack, remake
+- Keywords: puzzle, remake
 - Code repository: https://github.com/dorkster/freeblocks.git
 - Code language: C, Java
 - Code license: GPL-3.0

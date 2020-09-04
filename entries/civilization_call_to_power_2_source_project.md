@@ -4,8 +4,9 @@ _Strategy game released by Activision as a sequel to Civilization: Call to Power
 
 - Home: http://ctp2.darkdust.net/, https://apolyton.net/forum/other-games/call-to-power-2/ctp2-source-code-project
 - Media: https://en.wikipedia.org/wiki/Call_to_Power_II#Source_code_release
+- Inspirations: Call to Power II
 - State: mature
-- Keywords: strategy, inspired by Call to Power II, remake, turn-based
+- Keywords: strategy, remake, turn-based
 - Code repository: https://github.com/civctp2/civctp2.git (mirror), http://ctp2.darkdust.net/anonsvn/ (svn)
 - Code language: C, C++
 - Code license: Custom (Activision CTP2 source EULA)

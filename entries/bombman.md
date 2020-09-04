@@ -3,8 +3,9 @@
 _Remake of Atomic Bomberman._
 
 - Home: https://gitlab.com/drummyfish/
+- Inspirations: Atomic Bomberman
 - State: mature
-- Keywords: action, inspired by Atomic Bomberman, open content, remake
+- Keywords: action, open content, remake
 - Code repository: https://gitlab.com/drummyfish/Bombman.git
 - Code language: Python
 - Code license: CC0

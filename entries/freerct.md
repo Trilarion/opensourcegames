@@ -3,8 +3,9 @@
 _Game which captures the look, feel and gameplay of the popular games RollerCoaster Tycoon 1 and 2._
 
 - Home: https://web.archive.org/web/*/http://www.freerct.org/, http://freerct.blogspot.com/
+- Inspirations: RollerCoaster Tycoon (1 and 2)
 - State: beta, inactive since 2016
-- Keywords: strategy, inspired by RollerCoaster Tycoon (1 and 2), remake
+- Keywords: strategy, remake
 - Code repository: https://github.com/FreeRCT/FreeRCT.git
 - Code language: C++
 - Code license: GPL-2.0

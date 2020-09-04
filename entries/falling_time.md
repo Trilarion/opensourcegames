@@ -3,8 +3,9 @@
 _Clone of Fall Down._
 
 - Home: https://github.com/cxong/FallingTime
+- Inspirations: Fall Down
 - State: mature
-- Keywords: role playing, clone, inspired by Fall Down
+- Keywords: role playing, clone
 - Code repository: https://github.com/cxong/FallingTime.git
 - Code language: C, C++
 - Code license: GPL-2.0

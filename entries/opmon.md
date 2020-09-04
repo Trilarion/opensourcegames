@@ -3,9 +3,10 @@
 _Remake of Pokémon._
 
 - Home: https://opmon-game.ga/
+- Inspirations: Pokémon
 - State: beta
 - Platform: Windows, Linux, macOS
-- Keywords: remake, inspired by Pokémon, open content
+- Keywords: remake, open content
 - Code repository: https://github.com/OpMonTeam/OpMon.git, https://github.com/OpMonTeam/OpMon-Data.git (+)
 - Code language: C++
 - Code license: GPL-3.0

@@ -3,8 +3,9 @@
 _Remake of Rise of the Triad._
 
 - Home: http://icculus.org/rott/
+- Inspirations: Rise of the Triad
 - State: mature, inactive since 2012
-- Keywords: action, inspired by Rise of the Triad, remake
+- Keywords: action, remake
 - Code repository: http://svn.icculus.org/rott/trunk/ (svn)
 - Code language: C
 - Code license: GPL-2.0

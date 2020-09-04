@@ -3,9 +3,10 @@
 _Remake of Shobon Action._
 
 - Home: https://sourceforge.net/projects/opensyobon/
+- Inspirations: Shobon Action
 - State: beta, inactive since 2011
 - Download: https://sourceforge.net/projects/opensyobon/files/
-- Keywords: remake, inspired by Shobon Action
+- Keywords: remake
 - Code repository: (see download)
 - Code language: C++
 - Code license: ? (GPL-2.0?)

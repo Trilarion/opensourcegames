@@ -3,8 +3,9 @@
 _Remake of Star Wars Jedi Knight: Dark Forces II._
 
 - Home: https://github.com/jdmclark/
+- Inspirations: Star Wars Jedi Knight: Dark Forces II
 - State: beta
-- Keywords: remake, commercial content, first-person, inspired by Star Wars Jedi Knight: Dark Forces II, requires original content, shooter
+- Keywords: remake, commercial content, first-person, requires original content, shooter
 - Code repository: https://github.com/jdmclark/gorc.git
 - Code language: C++
 - Code license: Apache-2.0

@@ -3,9 +3,10 @@
 _Clone of Lemmings._
 
 - Home: https://lemmings.hmilch.net/
+- Inspirations: Lemmings
 - State: mature
 - Platform: Web
-- Keywords: puzzle, clone, commercial content, inspired by Lemmings, requires original content
+- Keywords: puzzle, clone, commercial content, requires original content
 - Code repository: https://github.com/tomsoftware/Lemmings.ts.git
 - Code language: TypeScript
 - Code license: MIT

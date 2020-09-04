@@ -4,9 +4,10 @@ _Turn-based space empire and galactic conquest game._
 
 - Home: https://www.freeorion.org/index.php/Main_Page, https://sourceforge.net/projects/freeorion/
 - Media: https://en.wikipedia.org/wiki/Master_of_Orion#External_links
+- Inspirations: Master of Orion, Master of Orion 2
 - State: beta
 - Download: https://www.freeorion.org/index.php/Download
-- Keywords: strategy, inspired by Master of Orion + Master of Orion 2, open content, remake, turn-based
+- Keywords: strategy, open content, remake, turn-based
 - Code repository: https://github.com/freeorion/freeorion.git, https://svn.code.sf.net/p/freeorion/code (svn)
 - Code language: C++, Python
 - Code license: GPL-2.0

@@ -4,9 +4,10 @@ _Clone of XOR._
 
 - Home: http://jwm-art.net/?p=XorCurses
 - Media: <https://en.wikipedia.org/wiki/XOR_(video_game)>
+- Inspirations: XOR
 - State: beta, inactive since 2012
 - Platform: Linux
-- Keywords: puzzle, clone, inspired by XOR
+- Keywords: puzzle, clone
 - Code repository: https://github.com/jwm-art-net/XorCurses.git
 - Code language: C
 - Code license: GPL-3.0

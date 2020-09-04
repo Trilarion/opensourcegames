@@ -4,8 +4,9 @@ _Remake of Shadow Warrior._
 
 - Home: http://www.proasm.com/sw/swp.html
 - Media: https://en.wikipedia.org/wiki/Shadow_Warrior
+- Inspirations: Shadow Warrior
 - State: mature
-- Keywords: remake, commercial content (?), inspired by Shadow Warrior, requires original content (?), shooter
+- Keywords: remake, commercial content (?), requires original content (?), shooter
 - Code repository: https://github.com/Hendricks266/SWP.git
 - Code language: C, C++
 - Code license: GPL-2.0

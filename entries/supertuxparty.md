@@ -3,10 +3,11 @@
 _Clone of Mario Party._
 
 - Home: https://gitlab.com/SuperTuxParty/SuperTuxParty, https://www.reddit.com/r/SuperTuxParty/
+- Inspirations: Mario Party
 - State: beta
 - Download: https://www.reddit.com/r/SuperTuxParty/
 - Platform: Windows, Linux, macOS
-- Keywords: action, clone, entertainment, inspired by Mario Party, multiplayer split-screen, open content
+- Keywords: action, clone, entertainment, multiplayer split-screen, open content
 - Code repository: https://gitlab.com/SuperTuxParty/SuperTuxParty.git
 - Code language: GDScript
 - Code license: GPL-3.0

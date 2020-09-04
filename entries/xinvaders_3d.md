@@ -3,8 +3,9 @@
 _3D invaders game using wireframe vector graphics._
 
 - Home: https://web.archive.org/web/20110803224159/http://xinvaders3d.sourceforge.net/
+- Inspirations: ICBM3D
 - State: mature, inactive since 2000
-- Keywords: arcade, inspired by ICBM3D, open content
+- Keywords: arcade, open content
 - Code repository: https://gitlab.com/osgames/xinvaders3d.git (import of sources)
 - Code language: C
 - Code license: GPL-2.0

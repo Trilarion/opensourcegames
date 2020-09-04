@@ -3,8 +3,9 @@
 _Emulator, implementing a DOS compatible environment just large enough to run ZZT and Super ZZT._
 
 - Home: https://zeta.asie.pl/
+- Inspirations: ZZT, Super ZZT
 - State: beta
-- Keywords: tool, inspired by ZZT + Super ZZT
+- Keywords: tool
 - Code repository: https://github.com/asiekierka/zeta.git
 - Code language: C
 - Code license: MIT

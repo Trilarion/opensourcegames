@@ -3,9 +3,10 @@
 _Inspired by the "Sonic the Hedgehog" universe._
 
 - Home: http://opensurge2d.org/, http://opensnc.sourceforge.net/home/index.php, http://opensnc.sourceforge.net/forum/index.php, https://sourceforge.net/projects/opensnc/
+- Inspirations: Sonic the Hedgehog
 - State: beta
 - Download: http://opensnc.sourceforge.net/forum/viewtopic.php?id=1931, http://opensnc.sourceforge.net/home/download.php
-- Keywords: action, 2D, clone, inspired by Sonic the Hedgehog, platform
+- Keywords: action, 2D, clone, platform
 - Code repository: https://github.com/alemart/opensurge.git, https://svn.code.sf.net/p/opensnc/code (svn)
 - Code language: C
 - Code license: GPL-3.0 (was GPL-2.0)

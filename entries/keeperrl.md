@@ -3,9 +3,10 @@
 _Bungeon builder._
 
 - Home: https://keeperrl.com/, https://miki151.itch.io/keeperrl
+- Inspirations: Dungeon Keeper 2
 - State: beta
 - Platform: Windows
-- Keywords: simulation, game engine, inspired by Dungeon Keeper 2, requires original content
+- Keywords: simulation, game engine, requires original content
 - Code repository: https://github.com/miki151/keeperrl.git
 - Code language: C, C++
 - Code license: GPL-2.0

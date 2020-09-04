@@ -3,8 +3,9 @@
 _KDE implementation of the memory game Simon Says._
 
 - Home: https://edu.kde.org/blinken/, https://github.com/KDE/blinken
+- Inspirations: Simon Says
 - State: mature
-- Keywords: educational, inspired by Simon Says, memory, open content
+- Keywords: educational, memory, open content
 - Code repository: https://github.com/KDE/blinken.git
 - Code language: C++
 - Code license: GPL-2.0

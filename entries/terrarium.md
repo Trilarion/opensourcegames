@@ -4,8 +4,9 @@ _Remake of Terraria._
 
 - Home: https://gitlab.com/hydren/terrarium
 - Media: https://en.wikipedia.org/wiki/Terraria
+- Inspirations: Terraria
 - State: beta
-- Keywords: action, 2D, adventure, inspired by Terraria, remake, sandbox
+- Keywords: action, 2D, adventure, remake, sandbox
 - Code repository: https://gitlab.com/hydren/terrarium.git
 - Code language: C++
 - Code license: GPL-2.0

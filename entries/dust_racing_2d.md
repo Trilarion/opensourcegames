@@ -3,10 +3,11 @@
 _Tile-based, 2D racing game, remake of Micro Machines._
 
 - Home: http://juzzlin.github.io/DustRacing2D/index.html
+- Inspirations: Micro Machines
 - State: mature
 - Download: https://github.com/juzzlin/DustRacing2D/releases
 - Platform: Windows, Linux
-- Keywords: sports, 2D, inspired by Micro Machines, multiplayer split-screen, open content, racing, remake
+- Keywords: sports, 2D, multiplayer split-screen, open content, racing, remake
 - Code repository: https://github.com/juzzlin/DustRacing2D.git
 - Code language: C, C++
 - Code license: GPL-3.0

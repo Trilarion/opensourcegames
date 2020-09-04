@@ -3,8 +3,9 @@
 _Remake of Asteroids._
 
 - Home: https://github.com/slx7R4GDZM/Sine
+- Inspirations: Asteroids
 - State: beta
-- Keywords: action, inspired by Asteroids, remake
+- Keywords: action, remake
 - Code repository: https://github.com/slx7R4GDZM/Sine.git
 - Code language: C, C++
 - Code license: MIT

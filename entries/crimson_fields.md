@@ -3,9 +3,10 @@
 _Turn-based tactical war game._
 
 - Home: http://crimson.seul.org/
+- Inspirations: Battle Isle series
 - State: mature, inactive since 2010
 - Download: http://crimson.seul.org/download.php
-- Keywords: strategy, clone, inspired by Battle Isle series, turn-based
+- Keywords: strategy, clone, turn-based
 - Code repository: https://gitlab.com/osgames/crimson.git (import of cvs), http://crimson.seul.org/cvs.php (cvs)
 - Code language: C++
 - Code license: GPL-2.0

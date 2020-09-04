@@ -3,10 +3,11 @@
 _Football simulation game_
 
 - Home: http://www.ggsoft.org/etw/, https://sourceforge.net/projects/etw/
+- Inspirations: Eat The Whistle
 - State: mature, inactive since 2017
 - Download: https://sourceforge.net/projects/etw/files/
 - Platform: Windows, Linux, macOS
-- Keywords: simulation, football, inspired by Eat The Whistle, remake
+- Keywords: simulation, football, remake
 - Code repository: https://svn.code.sf.net/p/etw/code (svn), http://etw.cvs.sourceforge.net/viewvc/ (cvs)
 - Code language: C
 - Code license: ?

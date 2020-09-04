@@ -3,8 +3,9 @@
 _Clone of Pac-Man._
 
 - Home: https://github.com/Kerndog73/EnTT-Pacman
+- Inspirations: Pac-Man
 - State: mature
-- Keywords: puzzle, clone, inspired by Pac-Man, open content, remake
+- Keywords: puzzle, clone, open content, remake
 - Code repository: https://github.com/Kerndog73/EnTT-Pacman.git
 - Code language: C, C++
 - Code license: MIT

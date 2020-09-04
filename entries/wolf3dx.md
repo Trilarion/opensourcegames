@@ -3,8 +3,9 @@
 _Remake of Wolfenstein 3D._
 
 - Home: https://github.com/francot514/Wolf3dX
+- Inspirations: Wolfenstein 3D
 - State: beta
-- Keywords: action, commercial content, inspired by Wolfenstein 3D, remake, requires original content, shooter
+- Keywords: action, commercial content, remake, requires original content, shooter
 - Code repository: https://github.com/francot514/Wolf3dX.git
 - Code language: C#
 - Code license: GPL-2.0

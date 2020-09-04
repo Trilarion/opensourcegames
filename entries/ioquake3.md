@@ -3,10 +3,11 @@
 _Remake of Quake 3._
 
 - Home: https://ioquake3.org/
+- Inspirations: Quake 3
 - State: mature
 - Download: https://ioquake3.org/get-it/
 - Platform: Windows, Linux, macOS
-- Keywords: action, game engine, inspired by Quake 3, remake, requires original content, shooter
+- Keywords: action, game engine, remake, requires original content, shooter
 - Code repository: https://github.com/ioquake/ioq3.git
 - Code language: C
 - Code license: GPL-2.0

@@ -3,10 +3,11 @@
 _Clone of Osu! Tatakae! Ouendan, Taiko no Tatsujin, Beatmania IIDX._
 
 - Home: https://osu.ppy.sh/home
+- Inspirations: Osu! Tatakae! Ouendan, Taiko no Tatsujin, Beatmania IIDX
 - State: beta
 - Download: https://osu.ppy.sh/home/download, https://github.com/ppy/osu/releases
 - Platform: Windows, macOS, Android, iOS
-- Keywords: music, clone, free content, inspired by Osu! Tatakae! Ouendan + Taiko no Tatsujin + Beatmania IIDX
+- Keywords: music, clone, free content
 - Code repository: https://github.com/ppy/osu.git
 - Code language: C#
 - Code license: MIT

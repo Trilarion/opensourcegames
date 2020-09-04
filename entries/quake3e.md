@@ -3,8 +3,9 @@
 _Remake of Quake 3._
 
 - Home: https://github.com/ec-/Quake3e
+- Inspirations: Quake 3
 - State: beta
-- Keywords: remake, commercial content, inspired by Quake 3, multiplayer Competitive + Local + LAN, shooter
+- Keywords: remake, commercial content, multiplayer Competitive + Local + LAN, shooter
 - Code repository: https://github.com/ec-/Quake3e.git
 - Code language: C
 - Code license: GPL-2.0

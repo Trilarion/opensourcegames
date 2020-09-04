@@ -3,10 +3,11 @@
 _Remake of Mario World._
 
 - Home: https://stabyourself.net/mari0/
+- Inspirations: Mario World
 - State: mature, inactive since 2012
 - Download: https://stabyourself.net/mari0/#download
 - Platform: Windows, Linux, macOS
-- Keywords: platform, inspired by Mario World, puzzle, remake
+- Keywords: platform, puzzle, remake
 - Code repository: https://github.com/Stabyourself/mari0.git
 - Code language: Lua
 - Code license: MIT

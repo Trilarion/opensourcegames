@@ -3,8 +3,9 @@
 _Remake of Blood._
 
 - Home: https://nukeykt.retrohost.net/
+- Inspirations: Blood
 - State: mature
-- Keywords: remake, commercial content, first-person, inspired by Blood, requires original content, shooter
+- Keywords: remake, commercial content, first-person, requires original content, shooter
 - Code repository: https://github.com/nukeykt/NBlood.git
 - Code language: C, C++, Lua
 - Code license: GPL-2.0

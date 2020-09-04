@@ -3,10 +3,11 @@
 _Racing clone of TrackMania._
 
 - Home: http://maniadrive.raydium.org/, https://sourceforge.net/projects/maniadrive/
+- Inspirations: TrackMania
 - State: mature, inactive since 2008
 - Download: http://maniadrive.raydium.org/index.php?downloads=yes, https://sourceforge.net/projects/maniadrive/files/
 - Platform: Windows, Linux
-- Keywords: framework, inspired by TrackMania, open content, racing, remake
+- Keywords: framework, open content, racing, remake
 - Code repository: svn://raydium.org/raydium/trunk (svn)
 - Code language: PHP
 - Code license: GPL

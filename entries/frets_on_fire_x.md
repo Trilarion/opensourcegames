@@ -3,8 +3,9 @@
 _Remake of Guitar Hero._
 
 - Home: https://fofix.github.io/
+- Inspirations: Frets on Fire, Guitar Hero
 - State: mature
-- Keywords: music, inspired by Frets on Fire + Guitar Hero, remake
+- Keywords: music, remake
 - Code repository: https://github.com/fofix/fofix.git
 - Code language: Python
 - Code license: GPL-2.0

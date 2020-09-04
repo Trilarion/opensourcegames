@@ -3,10 +3,11 @@
 _Clone of Tron._
 
 - Home: https://ginkgo.github.io/pink-pony/
+- Inspirations: Tron
 - State: mature, inactive since 2017
 - Download: https://github.com/ginkgo/pink-pony/releases
 - Platform: Windows, Linux
-- Keywords: puzzle, clone, inspired by Tron, multiplayer split-screen, open content, racing
+- Keywords: puzzle, clone, multiplayer split-screen, open content, racing
 - Code repository: https://github.com/ginkgo/pink-pony.git
 - Code language: C++
 - Code license: GPL-3.0

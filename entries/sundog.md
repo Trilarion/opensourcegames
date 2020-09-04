@@ -4,9 +4,10 @@ _Remake of SunDog: Frozen Legacy._
 
 - Home: https://github.com/laanwj/sundog
 - Media: https://en.wikipedia.org/wiki/SunDog:_Frozen_Legacy
+- Inspirations: SunDog: Frozen Legacy
 - State: beta
 - Platform: Linux
-- Keywords: role playing, commercial content, game engine, inspired by SunDog: Frozen Legacy, remake, requires original content, simulation, space
+- Keywords: role playing, commercial content, game engine, remake, requires original content, simulation, space
 - Code repository: https://github.com/laanwj/sundog.git
 - Code language: C, C++, Python
 - Code license: MIT

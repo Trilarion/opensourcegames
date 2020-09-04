@@ -3,8 +3,9 @@
 _Remake of The Sims._
 
 - Home: https://github.com/riperiperi/Simitone
+- Inspirations: The Sims
 - State: beta
-- Keywords: remake, commercial content, inspired by The Sims, requires original content
+- Keywords: remake, commercial content, requires original content
 - Code repository: https://github.com/riperiperi/Simitone.git
 - Code language: C#
 - Code license: MPL-2.0

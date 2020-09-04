@@ -3,8 +3,9 @@
 _Clone of Wipeout._
 
 - Home: https://sourceforge.net/projects/ecksdee/
+- Inspirations: Wipeout
 - State: beta, inactive since 2009
-- Keywords: simulation, clone, inspired by Wipeout
+- Keywords: simulation, clone
 - Code repository: https://svn.code.sf.net/p/ecksdee/svn (svn)
 - Code language: C++
 - Code license: GPL-2.0

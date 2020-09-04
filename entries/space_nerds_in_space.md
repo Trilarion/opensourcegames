@@ -3,9 +3,10 @@
 _Similar of Artemis: Spaceship Bridge Simulator._
 
 - Home: https://smcameron.github.io/space-nerds-in-space/
+- Inspirations: Artemis: Spaceship Bridge Simulator
 - State: beta
 - Platform: Linux
-- Keywords: strategy, inspired by Artemis: Spaceship Bridge Simulator, multiplayer, similar
+- Keywords: strategy, multiplayer, similar
 - Code repository: https://github.com/smcameron/space-nerds-in-space.git
 - Code language: C, Lua
 - Code license: GPL-2.0

@@ -3,9 +3,10 @@
 _Remake of SimCity 2000._
 
 - Home: https://github.com/nicholas-ochoa/OpenSC2K
+- Inspirations: SimCity 2000
 - State: beta
 - Platform: Web
-- Keywords: simulation, inspired by SimCity 2000, remake
+- Keywords: simulation, remake
 - Code repository: https://github.com/nicholas-ochoa/OpenSC2K.git
 - Code language: JavaScript
 - Code license: GPL-3.0

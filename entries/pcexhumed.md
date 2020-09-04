@@ -3,8 +3,9 @@
 _Remake of Powerslave._
 
 - Home: https://lerppu.net/wannabethesis/, http://pcex.retrohost.net/
+- Inspirations: Powerslave
 - State: beta
-- Keywords: action, commercial content, inspired by Powerslave, remake
+- Keywords: action, commercial content, remake
 - Code repository: https://github.com/nukeykt/NBlood.git
 - Code language: C++
 - Code license: Custom

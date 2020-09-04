@@ -3,8 +3,9 @@
 _4X/RTS set in space._
 
 - Home: http://starruler2.com/
+- Inspirations: Star Ruler 2
 - State: mature
-- Keywords: strategy, inspired by Star Ruler 2, real time, remake
+- Keywords: strategy, real time, remake
 - Code repository: https://github.com/BlindMindStudios/StarRuler2-Source.git
 - Code language: C, C++
 - Code license: MIT

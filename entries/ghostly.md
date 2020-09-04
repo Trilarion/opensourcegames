@@ -3,8 +3,9 @@
 _Remake of Pac-Man._
 
 - Home: https://github.com/sandsmark/aicompo-tg17
+- Inspirations: Pac-Man
 - State: mature, inactive since 2016
-- Keywords: action, inspired by Pac-Man, remake
+- Keywords: action, remake
 - Code repository: https://github.com/sandsmark/aicompo-tg17.git
 - Code language: C++
 - Code license: GPL-3.0

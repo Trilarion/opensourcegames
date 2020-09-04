@@ -3,10 +3,11 @@
 _Remake of Solar Fox._
 
 - Home: https://www.pygame.org/shredwheat/solarwolf/index.shtml
+- Inspirations: Solar Fox
 - State: mature, inactive since 2004
 - Download: https://www.pygame.org/shredwheat/solarwolf/index.shtml#download
 - Platform: Windows, Linux, macOS
-- Keywords: action, arcade, inspired by Solar Fox, open content, remake
+- Keywords: action, arcade, open content, remake
 - Code repository: https://gitlab.com/osgames/solarwolf.git (import of source releases)
 - Code language: Python
 - Code license: LGPL-2.1

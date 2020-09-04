@@ -3,10 +3,11 @@
 _Remake of Super Monkey Ball._
 
 - Home: https://github.com/Veraball/veraball
+- Inspirations: Super Monkey Ball
 - State: beta, inactive since 2016
 - Download: https://github.com/Veraball/veraball/releases
 - Platform: Windows, Linux
-- Keywords: remake, inspired by Super Monkey Ball, open content
+- Keywords: remake, open content
 - Code repository: https://github.com/Veraball/veraball.git
 - Code language: GDScript
 - Code license: MIT

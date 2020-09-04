@@ -3,10 +3,11 @@
 _Remake of Minecraft._
 
 - Home: http://manicdigger.github.io/, https://sourceforge.net/projects/manicdigger/
+- Inspirations: Minecraft
 - State: mature, inactive since 2017
 - Download: https://github.com/manicdigger/manicdigger/releases
 - Platform: Windows
-- Keywords: simulation, inspired by Minecraft, remake, sandbox, voxel
+- Keywords: simulation, remake, sandbox, voxel
 - Code repository: https://github.com/manicdigger/manicdigger.git, https://git.code.sf.net/p/manicdigger/code
 - Code language: C#
 - Code license: Public domain, Unlicense (where Public domain fails)

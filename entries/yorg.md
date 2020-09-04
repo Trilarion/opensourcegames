@@ -3,8 +3,9 @@
 _3D arcade racing game featuring AI, weapons, power-ups and multiplayer._
 
 - Home: https://github.com/cflavio/yorg, https://www.ya2.it/
+- Inspirations: Micro Machines
 - State: beta
-- Keywords: game engine, clone, inspired by Micro Machines, multiplayer online + local, open content, racing
+- Keywords: game engine, clone, multiplayer online + local, open content, racing
 - Code repository: https://github.com/cflavio/yorg.git
 - Code language: Python
 - Code license: GPL-3.0

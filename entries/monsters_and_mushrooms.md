@@ -3,8 +3,9 @@
 _Remake of Millipede._
 
 - Home: https://www.pygame.org/project-Monsters+and+Mushrooms-989-.html
+- Inspirations: Millipede
 - State: mature, inactive since 2010
-- Keywords: arcade, inspired by Millipede, remake, skill
+- Keywords: arcade, remake, skill
 - Code repository: https://github.com/llopisdon/monsters_and_mushrooms.git
 - Code language: Python
 - Code license: GPL-2.0

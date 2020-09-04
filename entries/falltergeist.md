@@ -3,10 +3,11 @@
 _Fallout 2 engine._
 
 - Home: https://falltergeist.org/
+- Inspirations: Fallout 2
 - State: beta
 - Download: https://github.com/falltergeist/falltergeist/releases
 - Platform: Windows, Linux
-- Keywords: role playing, commercial content, game engine, inspired by Fallout 2, remake, requires original content
+- Keywords: role playing, commercial content, game engine, remake, requires original content
 - Code repository: https://github.com/falltergeist/falltergeist.git
 - Code language: C++
 - Code license: GPL-3.0

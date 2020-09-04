@@ -3,8 +3,9 @@
 _Remake of Stronghold._
 
 - Home: https://github.com/sourcehold/Sourcehold
+- Inspirations: Stronghold
 - State: beta
-- Keywords: remake, commercial content, inspired by Stronghold, requires original content
+- Keywords: remake, commercial content, requires original content
 - Code repository: https://github.com/sourcehold/Sourcehold.git
 - Code language: C++
 - Code license: MIT

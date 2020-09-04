@@ -3,9 +3,10 @@
 _Remake of The Sims Online._
 
 - Home: http://afr0games.com/
+- Inspirations: CorsixTH, The Sims Online
 - State: beta
 - Download: https://github.com/Afr0Games/Project-Dollhouse/releases
-- Keywords: simulation, inspired by CorsixTH + The Sims Online, remake, requires original content (?)
+- Keywords: simulation, remake, requires original content (?)
 - Code repository: https://github.com/Afr0Games/Project-Dollhouse.git
 - Code language: C#
 - Code license: MPL-2.0

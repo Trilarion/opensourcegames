@@ -3,8 +3,9 @@
 _Clone of Tetris._
 
 - Home: https://hextris.github.io/, https://hextris.io/
+- Inspirations: Tetris
 - State: mature
-- Keywords: puzzle, clone, inspired by Tetris
+- Keywords: puzzle, clone
 - Code repository: https://github.com/Hextris/Hextris.git
 - Code language: JavaScript
 - Code license: GPL-3.0

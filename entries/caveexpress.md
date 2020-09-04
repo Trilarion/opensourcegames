@@ -3,8 +3,9 @@
 _Clone of Ugh!._
 
 - Home: http://www.caveproductions.org/
+- Inspirations: Ugh!
 - State: mature
-- Keywords: platform, clone, inspired by Ugh!
+- Keywords: platform, clone
 - Code repository: https://github.com/mgerhardy/caveexpress.git
 - Code language: C
 - Code license: GPL-3.0

@@ -3,10 +3,11 @@
 _2D gravity game._
 
 - Home: http://moagg.sourceforge.net/, https://sourceforge.net/projects/moagg/
+- Inspirations: Space Taxi, Gravity Force
 - State: mature, inactive since 2008
 - Download: http://moagg.sourceforge.net/download.html, https://sourceforge.net/projects/moagg/files/
 - Platform: Windows, Linux
-- Keywords: arcade, 2D, inspired by Space Taxi + Gravity Force, open content
+- Keywords: arcade, 2D, open content
 - Code repository: https://svn.code.sf.net/p/moagg/code (svn), http://moagg.cvs.sourceforge.net (cvs)
 - Code language: Java
 - Code license: GPL-2.0

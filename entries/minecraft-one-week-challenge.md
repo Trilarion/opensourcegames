@@ -3,8 +3,9 @@
 _Clone of Minecraft._
 
 - Home: https://github.com/Hopson97/MineCraft-One-Week-Challenge
+- Inspirations: Minecraft
 - State: beta
-- Keywords: simulation, clone, inspired by Minecraft, open content, sandbox, voxel
+- Keywords: simulation, clone, open content, sandbox, voxel
 - Code repository: https://github.com/Hopson97/MineCraft-One-Week-Challenge.git
 - Code language: C++
 - Code license: MIT

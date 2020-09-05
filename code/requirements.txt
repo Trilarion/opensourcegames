@@ -1,3 +1,5 @@
 pygithub
 lark-parser
 BeautifulSoup
+PyQt5
+wikipedia

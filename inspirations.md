@@ -5,10 +5,6 @@
 
 - Inspired entries: Klooni 1010!
 
-## 3D Deathchase [1]
-
-- Inspired entries: Deathchase 3D
-
 ## A-Train [1]
 
 - Inspired entries: FreeTrain
@@ -21,50 +17,62 @@
 ## Ace Combat: Assault Horizon [1]
 
 - Inspired entries: Open Horizon
+- Media: https://en.wikipedia.org/wiki/Ace_Combat:_Assault_Horizon
 
 ## Ace of Spades [2]
 
 - Inspired entries: Iceball, OpenSpades
+- Media: <https://en.wikipedia.org/wiki/Ace_of_Spades_(video_game)>
 
 ## Achtung, die Kurve! [4]
 
 - Inspired entries: "Achtung, die Kurve!", Netacka, Zatacka, Zatacka X
+- Media: "https://en.wikipedia.org/wiki/Achtung,_die_Kurve!"
 
 ## Advance Wars [1]
 
 - Inspired entries: Tanks of Freedom
+- Media: https://en.wikipedia.org/wiki/Advance_Wars
 
 ## Age of Empires [2]
 
 - Inspired entries: 0 A.D., openage
+- Media: <https://en.wikipedia.org/wiki/Age_of_Empires_(video_game)>
 
 ## Age of Empires II [2]
 
 - Inspired entries: freeaoe, openage
+- Media: https://en.wikipedia.org/wiki/Age_of_Empires_II
 
 ## Akalabeth: World of Doom [1]
 
 - Inspired entries: Aklabeth
+- Media: https://en.wikipedia.org/wiki/Akalabeth:_World_of_Doom
 
 ## Allegiance [1]
 
 - Inspired entries: Free Allegiance
+- Media: <https://en.wikipedia.org/wiki/Allegiance_(video_game)>
 
-## Anno series [1]
+## Anno (series) [1]
 
 - Inspired entries: Unknown Horizons
+- Media: https://en.wikipedia.org/wiki/Anno_(series)
 
 ## Another World 2: Heart of the Alien [1]
 
 - Inspired entries: Heart of the Alien
+- Media: https://en.wikipedia.org/wiki/Heart_of_the_Alien
 
-## AquaStax [1]
+## Aquastax [1]
 
 - Inspired entries: aquastax
+- Media: https://en.wikipedia.org/wiki/Aquastax
 
 ## Archon: The Light and the Dark [1]
 
 - Inspired entries: XArchon
+- Media: https://en.wikipedia.org/wiki/Archon:_The_Light_and_the_Dark
 
 ## Ares [1]
 
@@ -73,18 +81,22 @@
 ## Arkanoid [2]
 
 - Inspired entries: Ball And Wall, PyBreak360
+- Media: https://en.wikipedia.org/wiki/Arkanoid
 
 ## ARMA 2 [1]
 
 - Inspired entries: Uebergame
+- Media: https://en.wikipedia.org/wiki/ARMA_2
 
 ## ARMA 3 [1]
 
 - Inspired entries: Uebergame
+- Media: https://en.wikipedia.org/wiki/ARMA_3
 
 ## ARMA: Armed Assault [1]
 
 - Inspired entries: Uebergame
+- Media: https://en.wikipedia.org/wiki/ARMA:_Armed_Assault
 
 ## Armor Alley [1]
 
@@ -468,6 +480,11 @@
 - Inspired entries: Dreerally
 - Media: https://en.wikipedia.org/wiki/Death_Rally
 
+## Deathchase [1]
+
+- Inspired entries: Deathchase 3D
+- Media: https://en.wikipedia.org/wiki/Deathchase
+
 ## Defender [2]
 
 - Inspired entries: Defendguin, Word War vi
@@ -622,6 +639,7 @@
 ## F-1 Spirit [1]
 
 - Inspired entries: F-1 Spirit
+- Media: https://en.wikipedia.org/wiki/F-1_Spirit_(series)
 
 ## Falcon's Eye [1]
 
@@ -919,6 +937,7 @@
 ## Lemmings [5]
 
 - Inspired entries: Lemmings.ts, Lemmini, Lix, Pingus, Rabbit Escape
+- Media: <https://en.wikipedia.org/wiki/Lemmings_(video_game)>
 
 ## Liero [4]
 
@@ -1455,6 +1474,7 @@
 ## SimCity 2000 [1]
 
 - Inspired entries: OpenSC2K
+- Media: https://en.wikipedia.org/wiki/SimCity_2000
 
 ## Simon [1]
 
@@ -1716,6 +1736,7 @@
 ## Tetris [9]
 
 - Inspired entries: 4D-TRIS, Hextris, Just another Tetris™ clone, NullpoMino, OpenBlok, Quadrapassel, Spludlow Tetris, Tetris (in C and NCURSES), vitetris
+- Media: https://en.wikipedia.org/wiki/Tetris
 
 ## Tetris Attack [4]
 
@@ -1875,6 +1896,7 @@
 ## TuxRacer [1]
 
 - Inspired entries: Extreme Tux Racer
+- Media: https://en.wikipedia.org/wiki/Tux_Racer
 
 ## Tyrian [2]
 

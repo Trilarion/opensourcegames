@@ -4,9 +4,10 @@ Maintenance of inspirations.md and synchronization with the inspirations in the 
 
 import time
 from utils import constants as c, utils, osg, osg_ui
+from utils import osg_wikipedia
 
 
-def duplicate_check():
+def check_for_duplicates():
     """
 
     :param inspirations:
@@ -16,23 +17,10 @@ def duplicate_check():
     inspiration_names = [x['name'] for x in inspirations]
     for index, name in enumerate(inspiration_names):
         for other_name in inspiration_names[index+1:]:
-            if osg.name_similarity(name, other_name) > similarity_threshold:
+            if osg.name_similarity(name, other_name) > 0.8:
                 print(' {} - {} is similar'.format(name, other_name))
 
-
-if __name__ == "__main__":
-
-    similarity_threshold = 0.8
-
-    # load inspirations
-    inspirations = osg.read_inspirations_info()
-    print('{} inspirations in the inspirations database'.format(len(inspirations)))
-    osg.write_inspirations_info(inspirations)  # write again just to check integrity
-
-    #osg_ui.run_simple_button_app('Maintenance inspirations', (('Duplicate check', duplicate_check),))
-
-
-
+def test():
     # assemble info
     t0 = time.process_time()
     entries = osg.read_entries()
@@ -76,3 +64,31 @@ if __name__ == "__main__":
             similar_names = [x for x in entries_inspirations.keys() if osg.name_similarity(name, x) > 0.8]
             if similar_names:
                 print(' similar names {}'.format(', '.join(similar_names)))
+
+
+def read_inspirations():
+    inspirations = osg.read_inspirations_info()
+    print('{} inspirations in the inspirations database'.format(len(inspirations)))
+
+def write_inspirations():
+    osg.write_inspirations_info(inspirations)
+    print('inspirations written')
+
+if __name__ == "__main__":
+    inspirations = osg.read_inspirations_info()
+    osg.write_inspirations_info(inspirations)
+
+    inspirations = None
+    entries = None
+
+    actions = {
+        'Read inspirations': read_inspirations,
+        'Write inspirations': write_inspirations,
+        'Check for duplicates': check_for_duplicates,
+    }
+
+
+    osg_ui.run_simple_button_app('Maintenance inspirations', actions)
+
+
+

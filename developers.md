@@ -32,7 +32,7 @@
 
 ## Alex Margarit [1]
 
-- Games: a2x
+- Games: faur
 
 ## Alexander Lang [1]
 

@@ -43,8 +43,8 @@ class InspirationMaintainer:
             print('inspirations not yet loaded')
             return
         for inspiration in self.inspirations.values():
-            if not inspiration['inspired entries']:
-                print(' {} has no inspired entries'.format(inspiration['name']))
+            if not inspiration['Inspired entries']:
+                print(' {} has no inspired entries'.format(inspiration['Name']))
         print('orphanes checked')
 
     def check_for_missing_inspirations_in_entries(self):
@@ -55,17 +55,26 @@ class InspirationMaintainer:
             print('entries not yet loaded')
             return
         for inspiration in self.inspirations.values():
-            inspiration_name = inspiration['name']
-            for entry_name in inspiration['inspired entries']:
-                x = [x for x in self.entries if x['title'] == entry_name]
+            inspiration_name = inspiration['Name']
+            for entry_name in inspiration['Inspired entries']:
+                x = [x for x in self.entries if x['Title'] == entry_name]
                 assert len(x) <= 1
                 if not x:
                     print('Entry "{}" listed in inspiration "{}" but this entry does not exist'.format(entry_name, inspiration_name))
                 else:
                     entry = x[0]
-                    if 'inspirations' not in entry or inspiration_name not in entry['inspirations']:
+                    if 'Inspirations' not in entry or inspiration_name not in entry['Inspirations']:
                         print('Entry "{}" listed in inspiration "{}" but not listed in this entry'.format(entry_name, inspiration_name))
         print('missed inspirations checked')
+
+    def check_for_wikipedia_links(self):
+        if not self.inspirations:
+            print('inspirations not yet loaded')
+            return
+        for inspiration in self.inspirations.values():
+            if 'Media' in inspiration and any(('https://en.wikipedia.org/wiki/' in x for x in inspiration['Media'])):
+                continue
+            # search in wikipedia
 
     def update_inspired_entries(self):
         if not self.inspirations:
@@ -76,15 +85,15 @@ class InspirationMaintainer:
             return
         # loop over all inspirations and delete inspired entries
         for inspiration in self.inspirations.values():
-            inspiration['inspired entries'] = []
+            inspiration['Inspired entries'] = []
         # loop over all entries and add to inspirations of entry
         for entry in self.entries:
-            entry_name = entry['title']
-            for inspiration in entry.get('inspirations', []):
+            entry_name = entry['Title']
+            for inspiration in entry.get('Inspirations', []):
                 if inspiration in self.inspirations:
-                    self.inspirations[inspiration]['inspired entries'].append(entry_name)
+                    self.inspirations[inspiration]['Inspired entries'].append(entry_name)
                 else:
-                    self.inspirations[inspiration] = {'name': inspiration, 'inspired entries': [entry_name]}
+                    self.inspirations[inspiration] = {'Name': inspiration, 'Inspired entries': [entry_name]}
         print('inspired entries updated')
 
     def read_entries(self):

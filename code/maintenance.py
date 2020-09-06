@@ -119,7 +119,7 @@ def create_toc(title, file, entries):
     # assemble rows
     rows = []
     for entry in entries:
-        rows.append('- **[{}]({})** ({})'.format(entry['name'], '../' + entry['file'], ', '.join(
+        rows.append('- **[{}]({})** ({})'.format(entry['Name'], '../' + entry['file'], ', '.join(
             entry['code language'] + entry['code license'] + entry['state'])))
 
     # sort rows (by title)
@@ -407,7 +407,7 @@ def update_statistics(infos):
         rel(number_inactive))
 
     if number_inactive > 0:
-        entries_inactive = [(x['name'], x['inactive']) for x in infos if 'inactive' in x]
+        entries_inactive = [(x['Name'], x['inactive']) for x in infos if 'inactive' in x]
         entries_inactive.sort(key=lambda x: str.casefold(x[0]))  # first sort by name
         entries_inactive.sort(key=lambda x: x[1], reverse=True)  # then sort by inactive year (more recently first)
         entries_inactive = ['{} ({})'.format(*x) for x in entries_inactive]
@@ -422,7 +422,7 @@ def update_statistics(infos):
     # number_no_language = sum(1 for x in infois if field not in x)
     # if number_no_language > 0:
     #     statistics += 'Without language tag: {} ({:.1f}%)\n\n'.format(number_no_language, rel(number_no_language))
-    #     entries_no_language = [x['name'] for x in infois if field not in x]
+    #     entries_no_language = [x['Name'] for x in infois if field not in x]
     #     entries_no_language.sort()
     #     statistics += ', '.join(entries_no_language) + '\n\n'
 
@@ -447,7 +447,7 @@ def update_statistics(infos):
     number_no_license = sum(1 for x in infos if field not in x)
     if number_no_license > 0:
         statistics += 'Without license tag: {} ({:.1f}%)\n\n'.format(number_no_license, rel(number_no_license))
-        entries_no_license = [x['name'] for x in infos if field not in x]
+        entries_no_license = [x['Name'] for x in infos if field not in x]
         entries_no_license.sort()
         statistics += ', '.join(entries_no_license) + '\n\n'
 
@@ -491,7 +491,7 @@ def update_statistics(infos):
     entries = []
     for info in infos:
         if 'download' not in info and 'play' not in info:
-            entries.append(info['name'])
+            entries.append(info['Name'])
     entries.sort(key=str.casefold)
     statistics += '{}: '.format(len(entries)) + ', '.join(entries) + '\n\n'
 
@@ -511,7 +511,7 @@ def update_statistics(infos):
                         break
             # if there were repositories, but none popular, add them to the list
             if not popular:
-                entries.append(info['name'])
+                entries.append(info['Name'])
                 # print(info[field])
     entries.sort(key=str.casefold)
     statistics += '{}: '.format(len(entries)) + ', '.join(entries) + '\n\n'
@@ -562,7 +562,7 @@ def update_statistics(infos):
     c_cpp_project_without_build_system = []
     for info in infos:
         if field not in info and ('C' in info['code language'] or 'C++' in info['code language']):
-            c_cpp_project_without_build_system.append(info['name'])
+            c_cpp_project_without_build_system.append(info['Name'])
     c_cpp_project_without_build_system.sort(key=str.casefold)
     statistics += '##### C and C++ projects without build system information ({})\n\n'.format(
         len(c_cpp_project_without_build_system)) + ', '.join(c_cpp_project_without_build_system) + '\n\n'
@@ -572,7 +572,7 @@ def update_statistics(infos):
     for info in infos:
         if field in info and 'CMake' in info[field] and (
                 'C' in info['code language'] or 'C++' in info['code language']):
-            c_cpp_project_not_cmake.append(info['name'])
+            c_cpp_project_not_cmake.append(info['Name'])
     c_cpp_project_not_cmake.sort(key=str.casefold)
     statistics += '##### C and C++ projects with a build system different from CMake ({})\n\n'.format(
         len(c_cpp_project_not_cmake)) + ', '.join(c_cpp_project_not_cmake) + '\n\n'
@@ -615,7 +615,7 @@ def export_json(infos):
     for info in infos:
 
         # game & description
-        entry = ['{} (<a href="{}">home</a>, <a href="{}">entry</a>)'.format(info['name'], info['home'][0],
+        entry = ['{} (<a href="{}">home</a>, <a href="{}">entry</a>)'.format(info['Name'], info['home'][0],
                                                                              r'https://github.com/Trilarion/opensourcegames/blob/master/entries/' +
                                                                              info['file']),
                  textwrap.shorten(info['description'], width=60, placeholder='..')]
@@ -773,10 +773,10 @@ def export_primary_code_repositories_json(infos):
                         continue
 
             if not consumed:
-                unconsumed_entries.append([info['name'], info[field]])
+                unconsumed_entries.append([info['Name'], info[field]])
                 # print output
                 if 'code repository' in info:
-                    print('Entry "{}" unconsumed repo: {}'.format(info['name'], info[field]))
+                    print('Entry "{}" unconsumed repo: {}'.format(info['Name'], info[field]))
 
     # sort them alphabetically (and remove duplicates)
     for k, v in primary_repos.items():
@@ -889,7 +889,7 @@ def update_inspirations(infos):
     # collect information
     originals = {}
     for info in infos:
-        name = info['name']
+        name = info['Name']
         keywords = info['keywords']
         ins = [x[12:] for x in keywords if x.startswith('inspired by ')]
         if ins:
@@ -924,7 +924,7 @@ def update_developer(infos):
     developer = {}
     for info in infos:
         if 'developer' in info:
-            name = info['name']
+            name = info['Name']
             devs = info['developer']
             for dev in devs:
                 if dev in developer:
@@ -954,7 +954,7 @@ def check_code_dependencies(infos):
     valid_dependencies = list(utils.constants.general_code_dependencies_without_entry.keys())
     for info in infos:
         if any((x in ('framework', 'library', 'game engine') for x in info['keywords'])):
-            name = info['name']
+            name = info['Name']
             if name in utils.constants.code_dependencies_aliases:
                 valid_dependencies.extend(utils.constants.code_dependencies_aliases[name])
             else:

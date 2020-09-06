@@ -4,103 +4,8 @@ Specific functions working on the games.
 
 import re
 from difflib import SequenceMatcher
-from utils import utils
-import lark
-
+from utils import utils, osg_parse
 from utils.constants import *
-
-
-class ListingTransformer(lark.Transformer):
-    """
-    Transforms content parsed by grammar_listing.lark further.
-    Used for the developer and inspirations list.
-    """
-
-    def unquoted_value(self, x):
-        return x[0].value
-
-    def quoted_value(self, x):
-        return x[0].value[1:-1]  # remove quotation marks
-
-    def property(self, x):
-        """
-        The key of a property will be converted to lower case and the value part is the second part
-        :param x:
-        :return:
-        """
-        return x[0].lower(), x[1:]
-
-    def name(self, x):
-        """
-        The name part is treated as a property with key "name"
-        :param x:
-        :return:
-        """
-        return 'name', x[0].value
-
-    def entry(self, x):
-        """
-        All (key, value) tuples are inserted into a dictionary.
-        :param x:
-        :return:
-        """
-        d = {}
-        for key, value in x:
-            if key in d:
-                raise RuntimeError('Key in entry appears twice')
-            d[key] = value
-        return d
-
-    def start(self, x):
-        return x
-
-
-# transformer
-class EntryTransformer(lark.Transformer):
-
-    def unquoted_value(self, x):
-        return x[0].value
-
-    def quoted_value(self, x):
-        return x[0].value[1:-1]  # remove quotation marks
-
-    def property(self, x):
-        """
-        The key of a property will be converted to lower case and the value part is the second part
-        :param x:
-        :return:
-        """
-        return x[0].lower(), x[1:]
-
-    def title(self, x):
-        return 'title', x[0].value
-
-    def note(self, x):
-        """
-        Optional
-        :param x:
-        :return:
-        """
-        if not x:
-            raise lark.Discard
-        return 'note', ''.join((x.value for x in x))
-
-    def building(self, x):
-        d = {}
-        for key, value in x:
-            if key in d:
-                raise RuntimeError('Key in entry appears twice')
-            d[key] = value
-        return 'building', d
-
-    def start(self, x):
-        d = {}
-        for key, value in x:
-            if key in d:
-                raise RuntimeError('Key in entry appears twice')
-            d[key] = value
-        return d
-
 
 regex_sanitize_name = re.compile(r"[^A-Za-z 0-9-+]+")
 regex_sanitize_name_space_eater = re.compile(r" +")
@@ -387,48 +292,32 @@ def extract_links():
     return urls
 
 
-def read_and_parse(content_file: str, grammar_file: str, transformer: lark.Transformer):
-    """
-    Reads a content file and a grammar file and parses the content with the grammar following by
-    transforming the parsed output and returning the transformed result.
-    :param content_file:
-    :param grammar_file:
-    :param transformer:
-    :return:
-    """
-    content = utils.read_text(content_file)
-    grammar = utils.read_text(grammar_file)
-    parser = lark.Lark(grammar, debug=False, parser='lalr')
-    tree = parser.parse(content)
-    return transformer.transform(tree)
-
-
-def read_developer_info():
+def read_developers():
     """
 
     :return:
     """
     grammar_file = os.path.join(code_path, 'grammar_listing.lark')
-    transformer = ListingTransformer()
-    developers = read_and_parse(developer_file, grammar_file, transformer)
+    developers = osg_parse.read_and_parse(developer_file, grammar_file, osg_parse.ListingTransformer)
+
     # now transform a bit more
     for index, dev in enumerate(developers):
         # check for valid keys
         for field in dev.keys():
             if field not in valid_developer_fields:
-                raise RuntimeError('Unknown developer field "{}" for developer: {}.'.format(field, dev['name']))
+                raise RuntimeError('Unknown developer field "{}" for developer: {}.'.format(field, dev['Name']))
         # strip from name or organization (just in case)
-        for field in ('name', ):
+        for field in ('Name', ):
             if field in dev:
                 dev[field] = dev[field].strip()
         # split games, contact (are lists)
-        for field in ('games', 'contact'):
+        for field in ('Games', 'Contact'):
             if field in dev:
                 content = dev[field]
                 content = [x.strip() for x in content]
                 dev[field] = content
     # check for duplicate names entries
-    names = [dev['name'] for dev in developers]
+    names = [dev['Name'] for dev in developers]
     duplicate_names = (name for name in names if names.count(name) > 1)
     duplicate_names = set(duplicate_names)  # to avoid duplicates in duplicate_names
     if duplicate_names:
@@ -436,7 +325,7 @@ def read_developer_info():
     return developers
 
 
-def write_developer_info(developers):
+def write_developers(developers):
     """
 
     :return:
@@ -448,19 +337,19 @@ def write_developer_info(developers):
     content += '# Developer [{}]\n\n'.format(len(developers))
 
     # sort by name
-    developers.sort(key=lambda x: str.casefold(x['name']))
+    developers.sort(key=lambda x: str.casefold(x['Name']))
 
     # iterate over them
     for dev in developers:
         keys = list(dev.keys())
         # developer name
-        content += '## {} [{}]\n\n'.format(dev['name'], len(dev['games']))
-        keys.remove('name')
+        content += '## {} [{}]\n\n'.format(dev['Name'], len(dev['games']))
+        keys.remove('Name')
 
         # all the remaining in alphabetical order, but 'games' first
-        keys.remove('games')
+        keys.remove('Games')
         keys.sort()
-        keys = ['games'] + keys
+        keys = ['Games'] + keys
         for field in keys:
             value = dev[field]
             field = field.capitalize()
@@ -484,34 +373,34 @@ def read_inspirations():
     """
     # read inspirations
 
+    # read and parse inspirations
     grammar_file = os.path.join(code_path, 'grammar_listing.lark')
-    transformer = ListingTransformer()
-    inspirations = read_and_parse(inspirations_file, grammar_file, transformer)
+    inspirations = osg_parse.read_and_parse(inspirations_file, grammar_file, osg_parse.ListingTransformer)
 
     # now inspirations is a list of dictionaries for every entry with keys (valid_developers_fields)
 
     # now transform a bit more
-    for index, inspiration in enumerate(inspirations):
+    for inspiration in inspirations:
         # check that keys are valid keys
         for field in inspiration.keys():
             if field not in valid_inspiration_fields:
-                raise RuntimeError('Unknown field "{}" for inspiration: {}.'.format(field, inspiration['name']))
+                raise RuntimeError('Unknown field "{}" for inspiration: {}.'.format(field, inspiration['Name']))
         # split lists
-        for field in ('inspired entries',):
+        for field in ('Inspired entries',):
             if field in inspiration:
                 content = inspiration[field]
                 content = [x.strip() for x in content]
                 inspiration[field] = content
 
     # check for duplicate names entries
-    names = [inspiration['name'] for inspiration in inspirations]
+    names = [inspiration['Name'] for inspiration in inspirations]
     duplicate_names = (name for name in names if names.count(name) > 1)
     duplicate_names = set(duplicate_names)  # to avoid duplicates in duplicate_names
     if duplicate_names:
         raise RuntimeError('Duplicate inspiration names: {}'.format(', '.join(duplicate_names)))
 
     # convert to dictionary
-    inspirations = {x['name']: x for x in inspirations}
+    inspirations = {x['Name']: x for x in inspirations}
 
     return inspirations
 
@@ -532,25 +421,25 @@ def write_inspirations(inspirations):
     content += '# Inspirations [{}]\n\n'.format(len(inspirations))
 
     # sort by name
-    inspirations.sort(key=lambda x: str.casefold(x['name']))
+    inspirations.sort(key=lambda x: str.casefold(x['Name']))
 
     # iterate over them
     for inspiration in inspirations:
         keys = list(inspiration.keys())
         # inspiration name
-        content += '## {} [{}]\n\n'.format(inspiration['name'], len(inspiration['inspired entries']))
-        keys.remove('name')
+        content += '## {} [{}]\n\n'.format(inspiration['Name'], len(inspiration['Inspired entries']))
+        keys.remove('Name')
 
         # all the remaining in alphabetical order, but "inspired entries" first
-        keys.remove('inspired entries')
+        keys.remove('Inspired entries')
         keys.sort()
-        keys = ['inspired entries'] + keys
+        keys = ['Inspired entries'] + keys
         for field in keys:
             value = inspiration[field]
             field = field.capitalize()
             # lists get special treatment
             if isinstance(value, list):
-                value.sort(key=str.casefold) # sorted alphabetically
+                value.sort(key=str.casefold)  # sorted alphabetically
                 value = [x if not ',' in x else '"{}"'.format(x) for x in value]  # surround those with a comma with quotation marks
                 value = ', '.join(value)
             content += '- {}: {}\n'.format(field, value)
@@ -565,13 +454,10 @@ def read_entries():
     Parses all entries and assembles interesting infos about them.
     """
 
-    # setup parser
+    # setup parser and transformer
     grammar_file = os.path.join(code_path, 'grammar_entries.lark')
     grammar = utils.read_text(grammar_file)
-    parser = lark.Lark(grammar, debug=False, parser='lalr')
-
-    # setup transformer
-    transformer = EntryTransformer()
+    parse = osg_parse.create(grammar, osg_parse.EntryTransformer)
 
     # a database of all important infos about the entries
     entries = []
@@ -585,13 +471,13 @@ def read_entries():
 
         # parse and transform entry content
         try:
-            tree = parser.parse(content)
-
-            entry = transformer.transform(tree)
+            entry = parse(content)
             # add file information
-            entry['file'] = file
+            entry['File'] = file
 
             check_entry(entry)
+
+            post_process(entry)
         except Exception as e:
             print('{} - {}'.format(file, e))
             exception_happened = True
@@ -604,6 +490,22 @@ def read_entries():
 
     return entries
 
+def post_process(entry):
+    """
+
+    :param entry:
+    :return:
+    """
+
+    # remove all parentheses from developers
+    if 'Developer' in entry:
+        devs = entry['Developer']
+        devs = [re.sub(r'\([^)]*\)', '', x).strip() for x in devs]
+        if any(not x for x in devs):
+            raise RuntimeError('Empty developer')
+        entry['Developer'] = devs
+
+
 
 def check_entry(entry):
     """
@@ -613,13 +515,18 @@ def check_entry(entry):
     """
     message = ''
 
-    file = entry['file']
+    file = entry['File']
 
     # check canonical file name
-    canonical_file_name = canonical_entry_name(entry['title']) + '.md'
+    canonical_file_name = canonical_entry_name(entry['Title']) + '.md'
     # we also allow -X with X =2..9 as possible extension (because of duplicate canonical file names)
     if canonical_file_name != file and canonical_file_name != file[:-5] + '.md':
         message += 'file name should be {}\n'.format(canonical_file_name)
+
+    # check for essential fields
+    for field in essential_fields:
+        if field not in entry:
+            message += 'essential property "{}" missing\n'.format(field)
 
     if message:
         raise RuntimeError(message)
@@ -661,20 +568,19 @@ def create_entry_content(entry):
     """
 
     # title
-    content = '# {}\n\n'.format(entry['title'])
+    content = '# {}\n\n'.format(entry['Title'])
 
     # now properties in the recommended order
     for field in valid_fields:
-        field_name = field.lower()
-        if field_name in entry:
-            c = entry[field_name]
+        if field in entry:
+            c = entry[field]
             c = ['"{}"'.format(x) if ',' in x else x for x in c]
             content += '- {}: {}\n'.format(field, ', '.join(c))
     content += '\n'
 
     # if there is a note, insert it
-    if 'note' in entry:
-        content += entry['note']
+    if 'Note' in entry:
+        content += entry['Note']
 
     # building header
     content += '## Building\n'
@@ -682,59 +588,15 @@ def create_entry_content(entry):
     # building properties if present
     has_properties = False
     for field in valid_building_fields:
-        field_name = field.lower()
-        if field_name in entry['building']:
+        if field in entry['Building']:
             if not has_properties:
                 has_properties = True
                 content += '\n'
-            content += '- {}: {}\n'.format(field, ', '.join(entry['building'][field_name]))
+            content += '- {}: {}\n'.format(field, ', '.join(entry['Building'][field]))
 
     # if there is a note, insert it
-    if 'note' in entry['building']:
+    if 'Note' in entry['Building']:
         content += '\n'
-        content += entry['building']['note']
+        content += entry['Building']['Note']
 
     return content
-
-def compare_entries_developers(entries, developers):
-    """
-    Cross checks the game entries lists and the developers lists.
-    :param entries: List of game entries
-    :param developers: List of developers
-    """
-
-    # from the entries create a dictionary with developer names
-    devs1 = {}
-    for entry in entries:
-        name = entry['name']
-        for dev in entry.get('developer', []):
-            if dev in devs1:
-                devs1[dev].append(name)
-            else:
-                devs1[dev] = [name]
-    devs1_names = set(devs1.keys())
-
-    # from the developers create a dictionary with developer names
-    devs2 = dict(zip((dev['name'] for dev in developers), (dev['games'] for dev in developers)))
-    devs2_names = set(devs2.keys())
-
-    # devs only in entries
-    for dev in devs1_names - devs2_names:
-        print('Warning: dev "{}" only in entries ({}), not in developers'.format(dev, ','.join(devs1[dev])))
-    # devs only in developers
-    for dev in devs2_names - devs1_names:
-        print('Warning: dev "{}" only in developers ({}), not in entries'.format(dev, ','.join(devs2[dev])))
-    # for those in both, check that the games lists are equal
-    for dev in devs1_names.intersection(devs2_names):
-        games1 = set(devs1[dev])
-        games2 = set(devs2[dev])
-        delta = games1 - games2
-        if delta:
-            print('Warning: dev "{}" has games in entries ({}) that are not present in developers'.format(dev,
-                                                                                                          ', '.join(
-                                                                                                              delta)))
-        delta = games2 - games1
-        if delta:
-            print('Warning: dev "{}" has games in developers ({}) that are not present in entries'.format(dev,
-                                                                                                          ', '.join(
-                                                                                                              delta)))

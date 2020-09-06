@@ -6,13 +6,14 @@ stored Git repositories.
 import os
 import sys
 import requests
+from utils import osg, osg_ui
 from bs4 import BeautifulSoup
 from utils import constants as c, utils, osg, osg_github
 
 
 def developer_info_lookup(name):
     for dev in developer_info:
-        if name == dev['name']:
+        if name == dev['Name']:
             return dev
     return None
 
@@ -21,22 +22,7 @@ def developer_info_lookup(name):
 SF_alias_list = {'Erik Johansson (aka feneur)': 'Erik Johansson', 'Itms': 'Nicolas Auvray',
                  'Wraitii': 'Lancelot de Ferrière', 'Simzer': 'Simon Laszlo', 'armin bajramovic': 'Armin Bajramovic'}
 
-if __name__ == "__main__":
-
-    # read developer info
-    developer_info = osg.read_developer_info()
-    osg.write_developer_info(developer_info)  # write again just to make it nice and as sanity check
-
-    sys.exit(0)
-
-
-
-    # assemble info
-    entries = osg.assemble_infos()
-
-    # cross-check
-    osg.compare_entries_developers(entries, developer_info)
-
+def test():
     # loop over infos
     developers = ''
     try:
@@ -44,7 +30,7 @@ if __name__ == "__main__":
         # active = False
         for entry in entries:
 
-            # if entry['name'] == 'Aleph One':
+            # if entry['Name'] == 'Aleph One':
             #    active = True
             # if not active:
             #    continue
@@ -55,7 +41,7 @@ if __name__ == "__main__":
                 break
 
             # print
-            entry_name = '{} - {}'.format(entry['file'], entry['name'])
+            entry_name = '{} - {}'.format(entry['file'], entry['Name'])
             print(entry_name)
             content = ''
 
@@ -136,3 +122,122 @@ if __name__ == "__main__":
     finally:
         # store developer info
         utils.write_text(os.path.join(c.root_path, 'collected_developer_info.txt'), developers)
+
+def compare_entries_developers(entries, developers):
+    """
+    Cross checks the game entries lists and the developers lists.
+    :param entries: List of game entries
+    :param developers: List of developers
+    """
+
+    # from the entries create a dictionary with developer names
+    devs1 = {}
+    for entry in entries:
+        name = entry['Name']
+        for dev in entry.get('developer', []):
+            if dev in devs1:
+                devs1[dev].append(name)
+            else:
+                devs1[dev] = [name]
+    devs1_names = set(devs1.keys())
+
+    # from the developers create a dictionary with developer names
+    devs2 = dict(zip((dev['Name'] for dev in developers), (dev['Games'] for dev in developers)))
+    devs2_names = set(devs2.keys())
+
+    # devs only in entries
+    for dev in devs1_names - devs2_names:
+        print('Warning: dev "{}" only in entries ({}), not in developers'.format(dev, ','.join(devs1[dev])))
+    # devs only in developers
+    for dev in devs2_names - devs1_names:
+        print('Warning: dev "{}" only in developers ({}), not in entries'.format(dev, ','.join(devs2[dev])))
+    # for those in both, check that the games lists are equal
+    for dev in devs1_names.intersection(devs2_names):
+        games1 = set(devs1[dev])
+        games2 = set(devs2[dev])
+        delta = games1 - games2
+        if delta:
+            print('Warning: dev "{}" has games in entries ({}) that are not present in developers'.format(dev,
+                                                                                                          ', '.join(
+                                                                                                              delta)))
+        delta = games2 - games1
+        if delta:
+            print('Warning: dev "{}" has games in developers ({}) that are not present in entries'.format(dev, delta))
+
+
+class DevelopersMaintainer:
+
+    def __init__(self):
+        self.developers = None
+        self.entries = None
+
+    def read_developer(self):
+        self.developers = osg.read_developers()
+        print('{} developers read'.format(len(self.developers)))
+
+    def write_developer(self):
+        if not self.developers:
+            print('developers not yet loaded')
+            return
+        osg.write_developers(self.developers)
+        print('developers written')
+
+    def check_for_duplicates(self):
+        if not self.developers:
+            print('developers not yet loaded')
+            return
+        developer_names = [x['Name'] for x in self.developers]
+        for index, name in enumerate(developer_names):
+            for other_name in developer_names[index + 1:]:
+                if osg.name_similarity(name, other_name) > 0.8:
+                    print(' {} - {} is similar'.format(name, other_name))
+        print('duplicates checked')
+
+    def check_for_orphans(self):
+        if not self.developers:
+            print('developers not yet loaded')
+            return
+        for dev in self.developers:
+            if not dev['Games']:
+                print(' {} has no "Games" field'.format(dev['Name']))
+        print('orphanes checked')
+        
+    def check_for_missing_developers_in_entries(self):
+        if not self.developers:
+            print('developer not yet loaded')
+            return
+        if not self.entries:
+            print('entries not yet loaded')
+            return
+        for dev in self.developers:
+            dev_name = dev['Name']
+            for entry_name in dev['Games']:
+                x = [x for x in self.entries if x['Title'] == entry_name]
+                assert len(x) <= 1
+                if not x:
+                    print('Entry "{}" listed as game of developer "{}" but this entry does not exist'.format(entry_name, dev_name))
+                else:
+                    entry = x[0]
+                    if 'Developer' not in entry or dev_name not in entry['Developer']:
+                        print('Entry "{}" listed in developer "{}" but not listed in that entry'.format(entry_name, dev_name))
+        print('missed developer checked')
+
+    def read_entries(self):
+        self.entries = osg.read_entries()
+        print('{} entries read'.format(len(self.entries)))
+
+
+if __name__ == "__main__":
+
+    m = DevelopersMaintainer()
+
+    actions = {
+        'Read developers': m.read_developer,
+        'Write developers': m.write_developer,
+        'Check for duplicates': m.check_for_duplicates,
+        'Check for orphans': m.check_for_orphans,
+        'Check for games in developers not listed': m.check_for_missing_developers_in_entries,
+        'Read entries': m.read_entries
+    }
+
+    osg_ui.run_simple_button_app('Maintenance developer', actions)

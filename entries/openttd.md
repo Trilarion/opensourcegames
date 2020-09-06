@@ -2,7 +2,7 @@
 
 - Home: https://www.openttd.org/
 - Media: https://en.wikipedia.org/wiki/OpenTTD
-- Inspirations: Transport Tycoon Deluxe
+- Inspirations: Transport Tycoon
 - State: mature
 - Download: https://www.openttd.org/downloads/openttd-releases/latest.html
 - Keywords: simulation, can use original content, open content (swappable), remake

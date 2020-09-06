@@ -1,7 +1,7 @@
 # Not Pacman
 
 - Home: https://stabyourself.net/notpacman/
-- Inspirations: Pacman
+- Inspirations: Pac-Man
 - State: mature, inactive since 2013
 - Platform: Windows, Linux, macOS
 - Keywords: action, open content

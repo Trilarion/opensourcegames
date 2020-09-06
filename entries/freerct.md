@@ -1,7 +1,7 @@
 # FreeRCT
 
 - Home: https://web.archive.org/web/*/http://www.freerct.org/, http://freerct.blogspot.com/
-- Inspirations: RollerCoaster Tycoon (1 and 2)
+- Inspirations: RollerCoaster Tycoon, RollerCoaster Tycoon 2
 - State: beta, inactive since 2016
 - Keywords: strategy, remake
 - Code repository: https://github.com/FreeRCT/FreeRCT.git

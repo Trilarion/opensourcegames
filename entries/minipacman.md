@@ -1,7 +1,7 @@
 # MiniPacman
 
 - Home: https://github.com/fastrgv/MiniPacman
-- Inspirations: Pacman
+- Inspirations: Pac-Man
 - State: mature
 - Download: https://github.com/fastrgv/MiniPacman/releases
 - Platform: Windows, Linux, macOS

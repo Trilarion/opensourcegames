@@ -9,7 +9,6 @@
 - Code language: C, C++
 - Code license: LGPL-2.1
 
-Remake of Creatures.
 Restarted in 2020.
 
 ## Building

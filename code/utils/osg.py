@@ -476,7 +476,7 @@ def write_developer_info(developers):
     utils.write_text(developer_file, content)
 
 
-def read_inspirations_info():
+def read_inspirations():
     """
     Reads the info list about the games originals/inspirations from inspirations.md using the Lark parser grammar
     in grammar_listing.lark
@@ -508,17 +508,23 @@ def read_inspirations_info():
     duplicate_names = (name for name in names if names.count(name) > 1)
     duplicate_names = set(duplicate_names)  # to avoid duplicates in duplicate_names
     if duplicate_names:
-        print('Warning: duplicate inspiration names: {}'.format(', '.join(duplicate_names)))
+        raise RuntimeError('Duplicate inspiration names: {}'.format(', '.join(duplicate_names)))
+
+    # convert to dictionary
+    inspirations = {x['name']: x for x in inspirations}
 
     return inspirations
 
 
-def write_inspirations_info(inspirations):
+def write_inspirations(inspirations):
     """
-    Given an internal list of inspirations, write it into the inspirations file
+    Given an internal dictionary of inspirations, write it into the inspirations file
     :param inspirations:
     :return:
     """
+    # convert dictionary to list
+    inspirations = list(inspirations.values())
+
     # comment
     content = '{}\n'.format(generic_comment_string)
 
@@ -544,7 +550,7 @@ def write_inspirations_info(inspirations):
             field = field.capitalize()
             # lists get special treatment
             if isinstance(value, list):
-                value.sort(key=str.casefold)
+                value.sort(key=str.casefold) # sorted alphabetically
                 value = [x if not ',' in x else '"{}"'.format(x) for x in value]  # surround those with a comma with quotation marks
                 value = ', '.join(value)
             content += '- {}: {}\n'.format(field, value)

@@ -1,7 +1,7 @@
 # F.LF
 
 - Home: http://project-f.github.io/, https://web.archive.org/web/20190629133825/https://www.projectf.hk/F.LF/
-- Inspirations: Little Fighter 2 (http://lf2.net/)
+- Inspirations: Little Fighter 2
 - State: mature
 - Platform: Web
 - Keywords: framework, clone, content commercial, requires original content

@@ -5,7 +5,7 @@
 - State: mature
 - Download: http://quakespasm.sourceforge.net/download.htm, https://sourceforge.net/projects/quakespasm/files/
 - Platform: Windows, Linux, macOS
-- Keywords: action, commercial content, remake, requires original content (?), shooter
+- Keywords: action, remake, commercial content, requires original content (?), shooter
 - Code repository: https://git.code.sf.net/p/quakespasm/quakespasm.git, https://svn.code.sf.net/p/quakespasm/code (svn active)
 - Code language: C
 - Code license: GPL-2.0

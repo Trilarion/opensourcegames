@@ -9,7 +9,7 @@
 - Keywords: action
 - Code repository: https://github.com/osgamearchive/gltron.git (svn and git combination), https://git.code.sf.net/p/gltron/git @add, https://svn.code.sf.net/p/gltron/code (svn), http://gltron.cvs.sourceforge.net (cvs, contained in the svn)
 - Code language: C
-- Code license: GPL
+- Code license: ? (GPL version?)
 - Code dependencies: SDL
 
 3D snake game based on the light cycle portion of the film Tron.

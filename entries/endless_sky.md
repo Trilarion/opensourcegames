@@ -1,7 +1,7 @@
 # Endless Sky
 
 - Home: https://endless-sky.github.io/
-- Media: <https://en.wikipedia.org/wiki/Escape_Velocity_(video_game)#Legacy>
+- Media: https://en.wikipedia.org/wiki/Escape_Velocity_(video_game)#Legacy
 - Inspirations: Escape Velocity
 - State: mature
 - Download: https://github.com/endless-sky/endless-sky/releases

@@ -5,7 +5,7 @@
 - Inspirations: Arx Fatalis
 - State: mature
 - Download: https://wiki.arx-libertatis.org/Download
-- Keywords: role playing, commercial content, remake, requires original content (Arx Fatalis)
+- Keywords: remake, role playing, commercial content, requires original content (Arx Fatalis)
 - Code repository: https://github.com/arx/ArxLibertatis.git
 - Code language: C++
 - Code license: GPL-3.0

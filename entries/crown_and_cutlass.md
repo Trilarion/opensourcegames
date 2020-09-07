@@ -4,7 +4,7 @@
 - Inspirations: Sid Meier's Pirates!
 - State: beta, inactive since 2009
 - Download: https://sourceforge.net/projects/crownandcutlass/files/crownandcutlass/
-- Keywords: strategy, remake
+- Keywords: remake, strategy
 - Code repository: https://gitlab.com/osgames/crownandcutlass.git (backup of svn), https://svn.code.sf.net/p/crownandcutlass/code (svn)
 - Code language: C++
 - Code license: Custom (almost identical to BSD)

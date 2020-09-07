@@ -3,7 +3,7 @@
 - Home: http://www.linuxconsulting.ro/openpanzer/
 - Inspirations: Panzer General
 - State: mature
-- Keywords: strategy, online, remake
+- Keywords: remake, strategy, online
 - Code repository: https://github.com/nicupavel/openpanzer.git
 - Code language: JavaScript
 - Code license: GPL-2.0

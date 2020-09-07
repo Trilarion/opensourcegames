@@ -3,7 +3,7 @@
 - Home: https://github.com/francot514/CivHeroes
 - Inspirations: Yu-Gi-Oh!
 - State: beta
-- Keywords: strategy, cards, clone
+- Keywords: cards, strategy, clone
 - Code repository: https://github.com/francot514/CivHeroes.git
 - Code language: C++, C#
 - Code license: GPL-2.0

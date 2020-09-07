@@ -1,7 +1,7 @@
 # OpenBOR
 
 - Home: http://www.chronocrash.com/forum/
-- Inspirations: Streets of Rage, Double Dragon, Final Fight
+- Inspirations: Double Dragon, Final Fight, Streets of Rage
 - State: mature
 - Keywords: game engine, clone, free content
 - Code repository: https://github.com/DCurrent/openbor.git

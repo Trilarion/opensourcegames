@@ -3,7 +3,7 @@
 - Home: https://sourceforge.net/projects/nsbb/
 - State: mature
 - Download: https://sourceforge.net/projects/nsbb/files/
-- Keywords: sports, non-free content, simulation
+- Keywords: simulation, sports, non-free content
 - Code repository: http://nsbb.cvs.sourceforge.net (cvs, outdated, see download)
 - Code language: C
 - Code license: Public domain

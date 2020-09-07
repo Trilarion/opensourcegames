@@ -1,7 +1,7 @@
 # Divercity
 
 - Home: https://team--rocket.github.io/divercity/
-- Inspirations: SimCity, micropolis
+- Inspirations: micropolis, SimCity
 - State: beta, inactive since 2015
 - Keywords: simulation, clone, open content
 - Code repository: https://github.com/Team--Rocket/divercity.git

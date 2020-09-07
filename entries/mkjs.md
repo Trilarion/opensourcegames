@@ -4,7 +4,7 @@
 - Inspirations: Mortal Kombat
 - State: beta
 - Platform: Web
-- Keywords: action, multiplayer, remake
+- Keywords: action, remake, multiplayer
 - Code repository: https://github.com/mgechev/mk.js.git
 - Code language: JavaScript
 - Code license: MIT

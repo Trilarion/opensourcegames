@@ -1,7 +1,7 @@
 # Allegro
 
 - Home: https://liballeg.org/
-- Media: <https://en.wikipedia.org/wiki/Allegro_(software)>
+- Media: https://en.wikipedia.org/wiki/Allegro_(software)
 - State: mature
 - Download: https://liballeg.org/download.html
 - Keywords: framework

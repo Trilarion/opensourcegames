@@ -4,7 +4,7 @@
 - State: beta, inactive since 2011
 - Download: https://smashbattle.demontpx.com/downloads/, https://sourceforge.net/projects/smashbattle/files/
 - Platform: Windows, Linux
-- Keywords: action, 2D, platform, shootem
+- Keywords: action, platform, 2D, shootem
 - Code repository: @see-download
 - Code language: C++
 - Code license: ?

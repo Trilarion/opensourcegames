@@ -1,7 +1,7 @@
 # ZAngband
 
 - Home: http://www.zangband.org/, https://sourceforge.net/projects/zangband/
-- Media: <https://en.wikipedia.org/wiki/Angband_(video_game)#Derivative_works>
+- Media: https://en.wikipedia.org/wiki/Angband_(video_game)#Derivative_works
 - State: mature, inactive since 2005
 - Download: https://sourceforge.net/projects/zangband/files/
 - Keywords: role playing, roguelike

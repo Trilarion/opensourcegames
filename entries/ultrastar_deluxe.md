@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://usdx.eu/downloads/
 - Platform: Windows, Linux, macOS
-- Keywords: music, karaoke, remake
+- Keywords: music, remake, karaoke
 - Code repository: https://github.com/UltraStar-Deluxe/USDX.git, https://github.com/UltraStar-Deluxe/legacy-sourceforge-svn-mirror.git @add, https://svn.code.sf.net/p/ultrastardx/svn (svn)
 - Code language: Pascal
 - Code license: GPL-2.0

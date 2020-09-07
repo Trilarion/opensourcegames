@@ -4,7 +4,7 @@
 - Inspirations: Magic: The Gathering Online
 - State: mature
 - Download: https://github.com/magarena/magarena/releases/
-- Keywords: role playing, cards, clone
+- Keywords: cards, role playing, clone
 - Code repository: https://github.com/magarena/magarena.git
 - Code language: Java, Groovy
 - Code license: GPL-3.0

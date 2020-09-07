@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://doom64ex.wordpress.com/downloads/
 - Platform: Windows, macOS
-- Keywords: action, commercial content, original content required, remake
+- Keywords: action, remake, commercial content, original content required
 - Code repository: https://github.com/svkaiser/Doom64EX.git
 - Code language: C, C++
 - Code license: GPL-2.0

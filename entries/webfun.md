@@ -4,7 +4,7 @@
 - Inspirations: Star Wars: Yoda Stories
 - State: beta
 - Platform: Web
-- Keywords: adventure, commercial content, game engine, remake, requires original content (?)
+- Keywords: adventure, game engine, remake, commercial content, requires original content (?)
 - Code repository: https://github.com/cyco/WebFun.git
 - Code language: TypeScript
 - Code license: MIT

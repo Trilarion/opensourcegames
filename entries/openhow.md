@@ -4,7 +4,7 @@
 - Inspirations: Hogs of War
 - State: beta
 - Platform: Windows, Linux
-- Keywords: strategy, commercial content, remake, requires original content, turn-based
+- Keywords: remake, strategy, commercial content, requires original content, turn-based
 - Code repository: https://github.com/TalonBraveInfo/OpenHoW.git
 - Code language: C, C++
 - Code license: GPL-3.0

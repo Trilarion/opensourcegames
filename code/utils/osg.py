@@ -15,17 +15,6 @@ def name_similarity(a, b):
     return SequenceMatcher(None, str.casefold(a), str.casefold(b)).ratio()
 
 
-def split_infos(infos):
-    """
-    Split into games, tools, frameworks, libraries
-    """
-    games = [x for x in infos if not any([y in x['keywords'] for y in ('tool', 'framework', 'library')])]
-    tools = [x for x in infos if 'tool' in x['keywords']]
-    frameworks = [x for x in infos if 'framework' in x['keywords']]
-    libraries = [x for x in infos if 'library' in x['keywords']]
-    return games, tools, frameworks, libraries
-
-
 def entry_iterator():
     """
 
@@ -61,235 +50,6 @@ def canonical_entry_name(name):
     name = name.replace('--', '-').replace('--', '-')
 
     return name
-
-
-def parse_entry(content):
-    """
-    Returns a dictionary of the features of the content.
-
-    Raises errors when a major error in the structure is expected, prints a warning for minor errors.
-    """
-
-    info = {}
-
-    # read name
-    regex = re.compile(r"^# (.*)")  # start of content, starting with "# " and then everything until the end of line
-    matches = regex.findall(content)
-    if len(matches) != 1 or not matches[0]:  # name must be there
-        raise RuntimeError('Name not found in entry "{}" : {}'.format(content, matches))
-    info['name'] = matches[0]
-
-    # read description
-    regex = re.compile(r"^.*\n\n_(.*)_\n")  # third line from top, everything between underscores
-    matches = regex.findall(content)
-    if len(matches) != 1 or not matches[0]:  # description must be there
-        raise RuntimeError('Description not found in entry "{}"'.format(content))
-    info['description'] = matches[0]
-
-    # first read all field names
-    regex = re.compile(r"^- (.*?): ",
-                       re.MULTILINE)  # start of each line having "- ", then everything until a colon, then ": "
-    fields = regex.findall(content)
-
-    # check that essential fields are there
-    for field in essential_fields:
-        if field not in fields:  # essential fields must be there
-            raise RuntimeError('Essential field "{}" missing in entry "{}"'.format(field, info['name']))
-
-    # check that all fields are valid fields and are existing in that order
-    index = 0
-    for field in fields:
-        while index < len(valid_fields) and field != valid_fields[index]:
-            index += 1
-        if index == len(valid_fields):  # must be valid fields and must be in the right order
-            raise RuntimeError(
-                'Field "{}" in entry "{}" either misspelled or in wrong order'.format(field, info['name']))
-
-    # iterate over found fields
-    for field in fields:
-        regex = re.compile(r"- {}: (.*)".format(field))
-        matches = regex.findall(content)
-        if len(matches) != 1:  # every field must be present only once
-            raise RuntimeError('Field "{}" in entry "{}" exist multiple times.'.format(field, info['name']))
-        v = matches[0]
-
-        # first store as is
-        info[field.lower() + '-raw'] = v
-
-        # remove parenthesis with content
-        v = re.sub(r'\([^)]*\)', '', v)
-
-        # split on ', '
-        v = v.split(', ')
-
-        # strip
-        v = [x.strip() for x in v]
-
-        # remove all being false (empty) that were for example just comments
-        v = [x for x in v if x]
-
-        # if entry is of structure <..> remove <>
-        v = [x[1:-1] if x[0] == '<' and x[-1] == '>' else x for x in v]
-
-        # empty fields will not be stored
-        if not v:
-            continue
-
-        # store in info
-        info[field.lower()] = v
-
-    # check again that essential fields made it through
-    for field in ('home', 'state', 'keywords', 'code language', 'code license'):
-        if field not in info:  # essential fields must still be inside
-            raise RuntimeError('Essential field "{}" empty in entry "{}"'.format(field, info['name']))
-
-    # now checks on the content of fields
-
-    # name and description should not have spaces at the begin or end
-    for field in ('name', 'description'):
-        v = info[field]
-        if len(v) != len(v.strip()):  # warning about that
-            print('Warning: No leading or trailing spaces in field {} in entry "{}"'.format(field, info['name']))
-
-    # state (essential field) must contain either beta or mature but not both, but at least one
-    v = info['state']
-    for t in v:
-        if t != 'beta' and t != 'mature' and not t.startswith('inactive since '):
-            raise RuntimeError('Unknown state tage "{}" in entry "{}"'.format(t, info['name']))
-    if 'beta' in v != 'mature' in v:
-        raise RuntimeError('State must be one of <"beta", "mature"> in entry "{}"'.format(info['name']))
-
-    # extract inactive year
-    phrase = 'inactive since '
-    inactive_year = [x[len(phrase):] for x in v if x.startswith(phrase)]
-    assert len(inactive_year) <= 1
-    if inactive_year:
-        info['inactive'] = inactive_year[0]
-
-    # urls in home, download, play and code repositories must start with http or https (or git) and should not contain spaces
-    for field in ['home', 'download', 'play', 'code repository']:
-        if field in info:
-            for url in info[field]:
-                if not any(
-                        [url.startswith(x) for x in ['http://', 'https://', 'git://', 'svn://', 'ftp://', 'bzr://']]):
-                    raise RuntimeError(
-                        'URL "{}" in entry "{}" does not start with http/https/git/svn/ftp/bzr'.format(url,
-                                                                                                       info['name']))
-                if ' ' in url:
-                    raise RuntimeError('URL "{}" in entry "{}" contains a space'.format(url, info['name']))
-
-    # github/gitlab repositories should end on .git and should start with https
-    if 'code repository' in info:
-        for repo in info['code repository']:
-            if any((x in repo for x in ('github', 'gitlab', 'git.tuxfamily', 'git.savannah'))):
-                if not repo.startswith('https://'):
-                    print('Warning: Repo {} in entry "{}" should start with https://'.format(repo, info['name']))
-                if not repo.endswith('.git'):
-                    print('Warning: Repo {} in entry "{}" should end on .git.'.format(repo, info['name']))
-
-    # check that all platform tags are valid tags and are existing in that order
-    if 'platform' in info:
-        index = 0
-        for platform in info['platform']:
-            while index < len(valid_platforms) and platform != valid_platforms[index]:
-                index += 1
-            if index == len(valid_platforms):  # must be valid platforms and must be in that order
-                raise RuntimeError(
-                    'Platform tag "{}" in entry "{}" either misspelled or in wrong order'.format(platform,
-                                                                                                 info['name']))
-
-    # there must be at least one keyword
-    if 'keywords' not in info:
-        raise RuntimeError('Need at least one keyword in entry "{}"'.format(info['name']))
-
-    # check for existence of at least one recommended keywords
-    fail = True
-    for recommended_keyword in recommended_keywords:
-        if recommended_keyword in info['keywords']:
-            fail = False
-            break
-    if fail:  # must be at least one recommended keyword
-        raise RuntimeError('Entry "{}" contains no recommended keyword'.format(info['name']))
-
-    # languages should be known
-    languages = info['code language']
-    for language in languages:
-        if language not in known_languages:
-            print('Warning: Language {} in entry "{}" is not a known language. Misspelled or new?'.format(language,
-                                                                                                          info['name']))
-
-    # licenses should be known
-    licenses = info['code license']
-    for license in licenses:
-        if license not in known_licenses:
-            print('Warning: License {} in entry "{}" is not a known license. Misspelled or new?'.format(license,
-                                                                                                        info['name']))
-
-    return info
-
-
-def assemble_infos():
-    """
-    Parses all entries and assembles interesting infos about them.
-    """
-
-    print('assemble game infos')
-
-    # a database of all important infos about the entries
-    infos = []
-
-    # iterate over all entries
-    for entry, _, content in entry_iterator():
-
-        # parse entry
-        info = parse_entry(content)
-
-        # add file information
-        info['file'] = entry
-
-        # check canonical file name
-        canonical_file_name = canonical_entry_name(info['name']) + '.md'
-        # we also allow -X with X =2..9 as possible extension (because of duplicate canonical file names)
-        if canonical_file_name != entry and canonical_file_name != entry[:-5] + '.md':
-            print('Warning: file {} should be {}'.format(entry, canonical_file_name))
-            source_file = os.path.join(entries_path, entry)
-            target_file = os.path.join(entries_path, canonical_file_name)
-            if not os.path.isfile(target_file):
-                pass
-                # os.rename(source_file, target_file)
-
-        # add to list
-        infos.append(info)
-
-    return infos
-
-
-def extract_links():
-    """
-    Parses all entries and extracts http(s) links from them
-    """
-
-    # regex for finding urls (can be in <> or in ]() or after a whitespace
-    regex = re.compile(r"[\s\n]<(http.+?)>|]\((http.+?)\)|[\s\n](http[^\s\n,]+?)[\s\n,]")
-
-    # iterate over all entries
-    urls = set()
-    for _, _, content in entry_iterator():
-
-        # apply regex
-        matches = regex.findall(content)
-
-        # for each match
-        for match in matches:
-
-            # for each possible clause
-            for url in match:
-
-                # if there was something (and not a sourceforge git url)
-                if url:
-                    urls.add(url)
-    urls = sorted(list(urls), key=str.casefold)
-    return urls
 
 
 def read_developers():
@@ -564,10 +324,52 @@ def check_and_process_entry(entry):
             if not any(value.startswith(x) for x in valid_url_prefixes):
                 message += 'URL "{}" in field "{}" does not start with a valid prefix'.format(value, field)
 
+    # github/gitlab repositories should end on .git and should start with https
+    for repo in entry['Code repository']:
+        if any(repo.startswith(x) for x in ('@', '?')):
+            continue
+        repo = repo.value.split(' ')[0].strip()
+        if any((x in repo for x in ('github', 'gitlab', 'git.tuxfamily', 'git.savannah'))):
+                if not repo.startswith('https://'):
+                    message += 'Repo "{}" should start with https://'.format(repo)
+                if not repo.endswith('.git'):
+                    message += 'Repo "{}" should end on .git.'.format(repo)
+
+    # check that all platform tags are valid tags and are existing in that order
+    if 'Platform' in entry:
+        index = 0
+        for platform in entry['Platform']:
+            while index < len(valid_platforms) and platform != valid_platforms[index]:
+                index += 1
+            if index == len(valid_platforms):  # must be valid platforms and must be in that order
+                message += 'Platform tag "{}" either misspelled or in wrong order'.format(platform)
+
+    # there must be at least one keyword
+    if not entry['Keywords']:
+        message += 'Need at least one keyword'
+
+    # check for existence of at least one recommended keywords
+    keywords = entry['Keywords']
+    if not any(keyword in keywords for keyword in recommended_keywords):
+        message += 'Entry contains no recommended keywords'
+
+    # languages should be known
+    languages = entry['Code language']
+    for language in languages:
+        if language not in known_languages:
+            message += 'Language "{}" is not a known code language. Misspelled or new?'.format(language)
+
+    # licenses should be known
+    licenses = entry['Code license']
+    for license in licenses:
+        if license not in known_licenses:
+            message += 'License "{}" is not a known license. Misspelled or new?'.format(license)
+
     if message:
         raise RuntimeError(message)
 
     return entry
+
 
 def extract_inactive_year(entry):
     state = entry['State']
@@ -589,6 +391,7 @@ def write_entries(entries):
     # iterate over all entries
     for entry in entries:
         write_entry(entry)
+
 
 def write_entry(entry):
     """
@@ -617,6 +420,18 @@ def create_entry_content(entry):
 
     # title
     content = '# {}\n\n'.format(entry['Title'])
+
+    # we automatically sort some fields
+    sort_fun = lambda x: str.casefold(x.value)
+    for field in ('Media', 'Inspirations', 'Code Language'):
+        if field in entry:
+            values = entry[field]
+            entry[field] = sorted(values, key=sort_fun)
+    # we also sort keywords, but first the recommend ones and then other ones
+    keywords = entry['Keywords']
+    a = [x for x in keywords if x in recommended_keywords]
+    b = [x for x in keywords if x not in recommended_keywords]
+    entry['Keywords'] = sorted(a, key=sort_fun) + sorted(b, key=sort_fun)
 
     # now properties in the recommended order
     for field in valid_properties:

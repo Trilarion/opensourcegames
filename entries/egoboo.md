@@ -1,7 +1,7 @@
 # Egoboo
 
 - Home: http://egoboo.sourceforge.net/about.html
-- Media: <https://en.wikipedia.org/wiki/Egoboo_(video_game)>
+- Media: https://en.wikipedia.org/wiki/Egoboo_(video_game)
 - State: mature, inactive since 2015
 - Download: http://egoboo.sourceforge.net/download.html
 - Keywords: role playing

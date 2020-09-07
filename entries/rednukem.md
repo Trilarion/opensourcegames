@@ -1,9 +1,9 @@
 # Rednukem
 
 - Home: https://nukeykt.retrohost.net/
-- Inspirations: Redneck Rampage, Duke Nukem 3D
+- Inspirations: Duke Nukem 3D, Redneck Rampage
 - State: beta
-- Keywords: action, commercial content, remake
+- Keywords: action, remake, commercial content
 - Code repository: https://github.com/nukeykt/NBlood.git
 - Code language: C++
 - Code license: Custom

@@ -1,6 +1,6 @@
 # S.C.O.U.R.G.E.
 
-- Home: https://sourceforge.net/projects/scourge/, <https://web.archive.org/web/20090105165051/http://scourgeweb.org/>
+- Home: https://sourceforge.net/projects/scourge/, https://web.archive.org/web/20090105165051/http://scourgeweb.org/
 - State: beta, inactive since 2008
 - Download: https://sourceforge.net/projects/scourge/files
 - Keywords: role playing, roguelike

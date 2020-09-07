@@ -4,7 +4,7 @@
 - Inspirations: Meridian 59
 - State: mature
 - Download: http://openmeridian.org/create-account/
-- Keywords: role playing, multiplayer online + massive, remake
+- Keywords: remake, role playing, multiplayer online + massive
 - Code repository: https://github.com/OpenMeridian/Meridian59.git
 - Code language: C, C++
 - Code license: GPL-2.0

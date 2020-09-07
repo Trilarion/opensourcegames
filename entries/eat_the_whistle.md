@@ -5,7 +5,7 @@
 - State: mature, inactive since 2017
 - Download: https://sourceforge.net/projects/etw/files/
 - Platform: Windows, Linux, macOS
-- Keywords: simulation, football, remake
+- Keywords: remake, simulation, football
 - Code repository: https://svn.code.sf.net/p/etw/code (svn), http://etw.cvs.sourceforge.net/viewvc/ (cvs)
 - Code language: C
 - Code license: ?

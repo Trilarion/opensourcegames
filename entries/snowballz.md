@@ -5,7 +5,7 @@
 - Keywords: strategy, open content, real time
 - Code repository: https://gitlab.com/osgames/snowballz.git (conversion of cvs), http://snowballz.cvs.sourceforge.net (cvs)
 - Code language: Python
-- Code license: GPL
+- Code license: ? (GPL version?)
 - Code dependencies: pygame, pyglet, Rabbyt
 - Assets license: GPL
 - Developer: Joey Marshall, Mikey Lubker

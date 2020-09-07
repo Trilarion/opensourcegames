@@ -3,7 +3,7 @@
 - Home: https://web.archive.org/web/20180423174517/https://truecraft.io/
 - Inspirations: Minecraft
 - State: beta, inactive since 2018
-- Keywords: simulation, open content, remake, sandbox, voxel
+- Keywords: remake, simulation, open content, sandbox, voxel
 - Code repository: https://github.com/ddevault/TrueCraft.git (archived), https://github.com/danielcrenna/TrueCraft.git @add
 - Code language: C#
 - Code license: MIT

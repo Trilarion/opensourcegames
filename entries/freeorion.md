@@ -5,7 +5,7 @@
 - Inspirations: Master of Orion, Master of Orion 2
 - State: beta
 - Download: https://www.freeorion.org/index.php/Download
-- Keywords: strategy, open content, remake, turn-based
+- Keywords: remake, strategy, open content, turn-based
 - Code repository: https://github.com/freeorion/freeorion.git, https://svn.code.sf.net/p/freeorion/code (svn)
 - Code language: C++, Python
 - Code license: GPL-2.0

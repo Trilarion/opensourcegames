@@ -3,7 +3,7 @@
 - Home: http://numptyphysics.garage.maemo.org/
 - State: beta, inactive since 2016
 - Platform: Windows, Linux, macOS
-- Keywords: puzzle, open content, physics, simulation
+- Keywords: puzzle, simulation, open content, physics
 - Code repository: https://github.com/thp/numptyphysics.git, https://github.com/svn2github/numptyphysics.git @add
 - Code language: C++
 - Code license: GPL-3.0

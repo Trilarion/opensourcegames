@@ -1,7 +1,7 @@
 # 0 A.D.
 
 - Home: https://play0ad.com/, https://sourceforge.net/projects/zero-ad/
-- Media: <https://en.wikipedia.org/wiki/0_A.D._(video_game)>
+- Media: https://en.wikipedia.org/wiki/0_A.D._(video_game)
 - Inspirations: Age of Empires
 - State: beta
 - Download: https://play0ad.com/download/

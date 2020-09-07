@@ -4,7 +4,7 @@
 - State: beta, inactive since 2012
 - Download: https://web.archive.org/web/20180523204730/http://www.thousandparsec.net/tp/download-instructions.php
 - Keywords: strategy
-- Code repository: https://github.com/thousandparsec/tpserver-cpp.git, https://github.com/thousandparsec/tpclient-pywx.git @add, (http://git.thousandparsec.net/ not available right now)
+- Code repository: https://github.com/thousandparsec/tpserver-cpp.git, https://github.com/thousandparsec/tpclient-pywx.git @add, http://git.thousandparsec.net/ (not available right now)
 - Code language: C++, Python
 - Code license: GPL-2.0
 - Code dependencies: NumPy, psyco, pygame, pyOpenSSL, wxPython

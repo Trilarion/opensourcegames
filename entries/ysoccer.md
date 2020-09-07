@@ -5,7 +5,7 @@
 - State: mature
 - Download: http://ysoccer.sourceforge.net/dloads.htm, https://sourceforge.net/projects/ysoccer/files/
 - Platform: Windows, Linux, macOS
-- Keywords: sports, remake, simulation, soccer
+- Keywords: remake, simulation, sports, soccer
 - Code repository: https://git.code.sf.net/p/ysoccer/code
 - Code language: Java
 - Code license: GPL-2.0 (see java/android/assets/docs/readme.htm)

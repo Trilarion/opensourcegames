@@ -1,7 +1,7 @@
 # Maelstrom
 
 - Home: https://www.libsdl.org/projects/Maelstrom/
-- Media: <https://en.wikipedia.org/wiki/Maelstrom_(1992_video_game)>
+- Media: https://en.wikipedia.org/wiki/Maelstrom_(1992_video_game)
 - Inspirations: Asteroids
 - State: mature, inactive since 2002
 - Download: https://www.libsdl.org/projects/Maelstrom/binary.html

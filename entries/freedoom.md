@@ -6,7 +6,7 @@
 - State: beta
 - Download: https://freedoom.github.io/download.html
 - Platform: Windows, Linux, macOS (all that are supported by the Doom)
-- Keywords: action, engine required, open content, remake
+- Keywords: action, remake, engine required, open content
 - Code repository: https://github.com/freedoom/freedoom.git
 - Code language: None (only content)
 - Code license: None (only content)

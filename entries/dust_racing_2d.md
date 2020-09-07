@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/juzzlin/DustRacing2D/releases
 - Platform: Windows, Linux
-- Keywords: sports, 2D, multiplayer split-screen, open content, racing, remake
+- Keywords: remake, sports, 2D, multiplayer split-screen, open content, racing
 - Code repository: https://github.com/juzzlin/DustRacing2D.git
 - Code language: C, C++
 - Code license: GPL-3.0

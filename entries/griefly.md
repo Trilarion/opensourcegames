@@ -3,7 +3,7 @@
 - Home: https://github.com/griefly
 - Inspirations: Space Station 13
 - State: beta
-- Keywords: role playing, remake, space
+- Keywords: remake, role playing, space
 - Code repository: https://github.com/griefly/griefly.git
 - Code language: C++, Go, Python
 - Code license: MIT

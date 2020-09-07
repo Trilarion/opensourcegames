@@ -4,7 +4,7 @@
 - Inspirations: Minesweeper
 - State: mature
 - Play: https://minesweeper.zone/
-- Keywords: puzzle, open content, remake
+- Keywords: puzzle, remake, open content
 - Code repository: https://github.com/reed-jones/minesweeper_js.git
 - Code language: JavaScript, PHP
 - Code license: MIT

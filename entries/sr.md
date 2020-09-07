@@ -6,7 +6,7 @@
 - Keywords: tool, commercial content
 - Code repository: https://github.com/M-HT/SR.git
 - Code language: C, Assembly
-- Code license: MIT, GPL-2.0, LGPL-2.0 or 2.1?
+- Code license: MIT, GPL-2.0, ? (LGPL-2.0 or 2.1?)
 - Code dependencies: OpenGL, SDL
 
 Tool to statically recompile the original game executable to create a Windows or Linux version of the game.

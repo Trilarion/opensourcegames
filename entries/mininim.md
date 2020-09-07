@@ -5,7 +5,7 @@
 - State: beta, inactive since 2017
 - Download: @see-home
 - Platform: Windows, Linux
-- Keywords: action, open content, remake
+- Keywords: action, remake, open content
 - Code repository: https://github.com/oitofelix/mininim.git
 - Code language: C
 - Code license: GPL-3.0

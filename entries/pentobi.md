@@ -4,7 +4,7 @@
 - Inspirations: Blokus
 - State: mature
 - Download: https://sourceforge.net/projects/pentobi/files/
-- Keywords: role playing, board, open content
+- Keywords: board, role playing, open content
 - Code repository: https://github.com/enz/pentobi.git
 - Code language: C++
 - Code license: GPL-3.0

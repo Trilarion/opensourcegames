@@ -3,7 +3,7 @@
 - Home: http://starruler2.com/
 - Inspirations: Star Ruler 2
 - State: mature
-- Keywords: strategy, real time, remake
+- Keywords: remake, strategy, real time
 - Code repository: https://github.com/BlindMindStudios/StarRuler2-Source.git
 - Code language: C, C++
 - Code license: MIT

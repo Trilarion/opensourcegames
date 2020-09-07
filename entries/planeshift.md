@@ -1,7 +1,7 @@
 # PlaneShift
 
 - Home: http://www.planeshift.it/, https://sourceforge.net/projects/planeshift/
-- Media: <https://en.wikipedia.org/wiki/PlaneShift_(video_game)>
+- Media: https://en.wikipedia.org/wiki/PlaneShift_(video_game)
 - State: mature
 - Download: http://www.planeshift.it/Download
 - Keywords: role playing, multiplayer online + massive

@@ -5,7 +5,7 @@
 - State: mature, inactive since 2016
 - Download: https://sourceforge.net/projects/atanks/files/
 - Platform: Windows, Linux
-- Keywords: action, artillery, open content, remake
+- Keywords: action, remake, artillery, open content
 - Code repository: https://git.code.sf.net/p/atanks/atanks, https://gitlab.com/osgames/atanks.git @add
 - Code language: C++
 - Code license: GPL-2.0

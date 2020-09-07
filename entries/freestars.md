@@ -3,7 +3,7 @@
 - Home: http://freestars.sourceforge.net/, https://sourceforge.net/projects/freestars/
 - Inspirations: Stars!
 - State: beta, inactive since 2008
-- Keywords: strategy, remake
+- Keywords: remake, strategy
 - Code repository: https://github.com/christopherredden/freestars.git (backup of svn), https://svn.code.sf.net/p/freestars/code (svn)
 - Code language: C++
 - Code license: GPL-2.0

@@ -4,7 +4,7 @@
 - State: mature, inactive since 2013
 - Download: https://sourceforge.net/projects/zeroballistics/files/
 - Platform: Windows
-- Keywords: strategy, action
+- Keywords: action, strategy
 - Code repository: https://gitlab.com/osgames/zeroballistics.git (mirror), https://svn.code.sf.net/p/zeroballistics/code (svn)
 - Code language: C++
 - Code license: MIT

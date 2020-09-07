@@ -1,7 +1,7 @@
 # Moagg2
 
 - Home: http://moagg.sourceforge.net/, https://sourceforge.net/projects/moagg/
-- Inspirations: Space Taxi, Gravity Force
+- Inspirations: Gravity Force, Space Taxi
 - State: mature, inactive since 2008
 - Download: http://moagg.sourceforge.net/download.html, https://sourceforge.net/projects/moagg/files/
 - Platform: Windows, Linux

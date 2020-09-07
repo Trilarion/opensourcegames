@@ -2,7 +2,6 @@
 
 - Home: https://octaforge.org/
 - State: mature
-- Download: (not available anymore?)
 - Keywords: framework
 - Code repository: https://git.octaforge.org/OctaForge/OctaCore.git, https://github.com/OctaForge/OF-Engine.git (mirror, archived)
 - Code language: C++

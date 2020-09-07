@@ -6,7 +6,7 @@
 - State: mature
 - Download: https://sourceforge.net/projects/raceintospace/files/
 - Platform: Windows, Linux, macOS
-- Keywords: simulation, remake, strategy, turn-based
+- Keywords: remake, simulation, strategy, turn-based
 - Code repository: https://github.com/raceintospace/raceintospace.git, http://raceintospace.cvs.sourceforge.net (cvs)
 - Code language: C, C++
 - Code license: GPL-2.0

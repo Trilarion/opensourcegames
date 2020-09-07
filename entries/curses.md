@@ -7,7 +7,7 @@
 - Keywords: library
 - Code repository: @see-home
 - Code language: C
-- Code license: BSD
+- Code license: ? (BSD version?)
 
 Terminal control library for Unix-like systems.
 

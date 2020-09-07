@@ -1,7 +1,7 @@
 # StepMania
 
 - Home: https://www.stepmania.com/, https://sourceforge.net/projects/stepmania/
-- Media: https://en.wikipedia.org/wiki/StepMania, https://en.wikipedia.org/wiki/Dance_Dance_Revolution#Similar_games
+- Media: https://en.wikipedia.org/wiki/Dance_Dance_Revolution#Similar_games, https://en.wikipedia.org/wiki/StepMania
 - Inspirations: Dance Dance Revolution
 - State: mature
 - Download: https://sourceforge.net/projects/stepmania/files/

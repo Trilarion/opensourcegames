@@ -4,7 +4,7 @@
 - State: beta, inactive since 2006
 - Download: https://sourceforge.net/projects/phprpg/files/
 - Platform: Web
-- Keywords: role playing, game engine
+- Keywords: game engine, role playing
 - Code repository: https://gitlab.com/osgames/phprpg.git (conversion from cvs), http://phprpg.cvs.sourceforge.net (cvs)
 - Code language: PHP
 - Code license: GPL-2.0

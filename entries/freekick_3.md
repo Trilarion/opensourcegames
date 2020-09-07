@@ -3,7 +3,7 @@
 - Home: https://codeflow.wordpress.com/tag/sensible-soccer/
 - Inspirations: Sensible Soccer
 - State: mature, inactive since 2015
-- Keywords: sports, free content, remake, simulation, soccer
+- Keywords: remake, simulation, sports, free content, soccer
 - Code repository: https://github.com/anttisalonen/freekick3.git
 - Code language: C++, Python
 - Code license: GPL-3.0

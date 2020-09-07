@@ -4,7 +4,7 @@
 - State: mature, inactive since 2010
 - Download: https://sourceforge.net/projects/caphgame/files/
 - Platform: Windows, Linux
-- Keywords: puzzle, open content, sandbox, simulation
+- Keywords: puzzle, simulation, open content, sandbox
 - Code repository: https://git.code.sf.net/p/caphgame/code
 - Code language: C
 - Code license: GPL-3.0

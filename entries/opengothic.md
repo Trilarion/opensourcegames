@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://github.com/Try/OpenGothic/releases
 - Platform: Windows
-- Keywords: role playing, commercial content, game engine, remake, requires original content
+- Keywords: game engine, remake, role playing, commercial content, requires original content
 - Code repository: https://github.com/Try/OpenGothic.git
 - Code language: C++
 - Code license: MIT

@@ -1,7 +1,7 @@
 # Free Allegiance
 
 - Home: https://www.freeallegiance.org/
-- Media: <https://en.wikipedia.org/wiki/Allegiance_(video_game)#Community_continuation>
+- Media: https://en.wikipedia.org/wiki/Allegiance_(video_game)#Community_continuation
 - Inspirations: Allegiance
 - State: mature
 - Keywords: remake

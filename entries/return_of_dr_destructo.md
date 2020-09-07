@@ -3,7 +3,7 @@
 - Home: https://web.archive.org/web/20190630000950/http://zxstudio.org/projects/drdestructo/
 - Inspirations: Destructo
 - State: mature, inactive since 2015
-- Keywords: action, free content, remake
+- Keywords: action, remake, free content
 - Code repository: https://github.com/MaxSavenkov/drdestructo2.git
 - Code language: C++
 - Code license: MIT

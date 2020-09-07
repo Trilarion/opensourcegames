@@ -6,7 +6,7 @@
 - Keywords: role playing, roguelike
 - Code repository: https://github.com/tsadok/brogue.git
 - Code language: C
-- Code license: AGPL
+- Code license: AGPL-3.0
 
 Traditional roguelike game inspired from the original Rogue. Your quest is to find the Amulet of Yendor.
 

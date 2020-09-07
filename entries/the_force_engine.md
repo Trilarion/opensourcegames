@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Star_Wars:_Dark_Forces
 - Inspirations: Dark Forces, Outlaws
 - State: beta
-- Keywords: action, commercial content, first person, game engine, remake, requires original content, shooter
+- Keywords: action, game engine, remake, commercial content, first person, requires original content, shooter
 - Code repository: https://github.com/luciusDXL/TheForceEngine.git
 - Code language: C++
 - Code license: GPL-2.0

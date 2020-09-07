@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Call_to_Power_II#Source_code_release
 - Inspirations: Call to Power II
 - State: mature
-- Keywords: strategy, remake, turn-based
+- Keywords: remake, strategy, turn-based
 - Code repository: https://github.com/civctp2/civctp2.git (mirror), http://ctp2.darkdust.net/anonsvn/ (svn)
 - Code language: C, C++
 - Code license: Custom (Activision CTP2 source EULA)

@@ -1,11 +1,11 @@
 # OpenXcom
 
 - Home: https://openxcom.org/
-- Media: <https://en.wikipedia.org/wiki/UFO:_Enemy_Unknown#Fan-created_content>
+- Media: https://en.wikipedia.org/wiki/UFO:_Enemy_Unknown#Fan-created_content
 - Inspirations: UFO: Enemy Unknown, X-COM: Apocalypse, X-COM: Terror from the Deep, X-COM: UFO Defense
 - State: mature
 - Download: https://openxcom.org/downloads-milestones/
-- Keywords: strategy, remake, turn-based
+- Keywords: remake, strategy, turn-based
 - Code repository: https://github.com/OpenXcom/OpenXcom.git
 - Code language: C++
 - Code license: GPL-3.0

@@ -6,7 +6,7 @@
 - State: mature
 - Download: https://github.com/aperture-software/colditz-escape/releases
 - Platform: Windows, Linux, macOS
-- Keywords: strategy, remake
+- Keywords: remake, strategy
 - Code repository: https://github.com/aperture-software/colditz-escape.git
 - Code language: C
 - Code license: GPL-3.0

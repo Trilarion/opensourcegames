@@ -4,7 +4,7 @@
 - Inspirations: The Settlers III
 - State: mature
 - Download: https://sourceforge.net/projects/jsettlers/files/, https://sourceforge.net/projects/jsettlers2/files/
-- Keywords: strategy, board, commercial content, remake, requires original content (?)
+- Keywords: board, remake, strategy, commercial content, requires original content (?)
 - Code repository: https://github.com/jdmonin/JSettlers2.git, http://jsettlers.cvs.sourceforge.net (cvs), http://jsettlers2.cvs.sourceforge.net (cvs)
 - Code language: Java
 - Code license: GPL-3.0

@@ -1,7 +1,7 @@
 # Unvanquished
 
 - Home: https://unvanquished.net/, https://sourceforge.net/projects/unvanquished/
-- Media: <https://en.wikipedia.org/wiki/Unvanquished_(video_game)>
+- Media: https://en.wikipedia.org/wiki/Unvanquished_(video_game)
 - Inspirations: Natural Selection
 - State: mature
 - Download: https://unvanquished.net/download/

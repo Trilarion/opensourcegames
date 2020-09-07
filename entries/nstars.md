@@ -5,7 +5,7 @@
 - State: beta, inactive since 2004
 - Download: https://sourceforge.net/projects/nstars/files/
 - Platform: Windows
-- Keywords: strategy, remake
+- Keywords: remake, strategy
 - Code repository: http://nstars.cvs.sourceforge.net (cvs)
 - Code language: C#
 - Code license: ?

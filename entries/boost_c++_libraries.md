@@ -1,7 +1,7 @@
 # Boost (C++ Libraries)
 
 - Home: https://www.boost.org/
-- Media: <https://en.wikipedia.org/wiki/Boost_(C%2B%2B_libraries)>
+- Media: https://en.wikipedia.org/wiki/Boost_(C%2B%2B_libraries)
 - State: mature
 - Download: https://www.boost.org/users/download/
 - Keywords: library

@@ -6,7 +6,7 @@
 - Keywords: arcade, open content
 - Code repository: @see-download
 - Code language: Python
-- Code license: GPL
+- Code license: ? (GPL version?)
 - Code dependencies: pygame
 - Assets license: ? (GPL)
 - Developer: Sixth Floor Labs

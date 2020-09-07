@@ -1,7 +1,7 @@
 # Daimonin
 
 - Home: https://www.daimonin.org/, https://sourceforge.net/projects/daimonin/
-- Media: <https://en.wikipedia.org/wiki/Crossfire_(1992_video_game)#Influence_on_other_online_games>
+- Media: https://en.wikipedia.org/wiki/Crossfire_(1992_video_game)#Influence_on_other_online_games
 - State: mature
 - Download: https://www.daimonin.org/downloads/
 - Keywords: role playing, multiplayer online + massive

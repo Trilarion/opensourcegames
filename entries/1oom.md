@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://gitlab.com/KilgoreTroutMaskReplicant/1oom/-/tags
 - Platform: Windows, Linux
-- Keywords: strategy, commercial content, engine recreation, remake
+- Keywords: remake, strategy, commercial content, engine recreation
 - Code repository: https://gitlab.com/KilgoreTroutMaskReplicant/1oom.git
 - Code language: C
 - Code license: GPL-2.0

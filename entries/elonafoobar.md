@@ -4,7 +4,7 @@
 - Inspirations: Elona
 - State: mature
 - Platform: Windows, Linux, macOS
-- Keywords: role playing, commercial content, remake, roguelike
+- Keywords: remake, role playing, commercial content, roguelike
 - Code repository: https://github.com/elonafoobar/elonafoobar.git
 - Code language: C++, Lua
 - Code license: MIT

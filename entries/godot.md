@@ -1,7 +1,7 @@
 # Godot
 
 - Home: https://godotengine.org/
-- Media: <https://en.wikipedia.org/wiki/Godot_(game_engine)>
+- Media: https://en.wikipedia.org/wiki/Godot_(game_engine)
 - State: mature
 - Download: https://godotengine.org/download
 - Keywords: framework

@@ -1,7 +1,7 @@
 # Lua
 
 - Home: http://www.lua.org/
-- Media: <https://en.wikipedia.org/wiki/Lua_(programming_language)>
+- Media: https://en.wikipedia.org/wiki/Lua_(programming_language)
 - State: mature
 - Download: http://www.lua.org/download.html
 - Keywords: library

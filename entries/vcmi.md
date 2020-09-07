@@ -4,7 +4,7 @@
 - Inspirations: Heroes of Might and Magic III
 - State: mature
 - Download: @see-home
-- Keywords: strategy, commercial content, remake, requires original content
+- Keywords: remake, strategy, commercial content, requires original content
 - Code repository: https://github.com/vcmi/vcmi.git, https://svn.code.sf.net/p/vcmi/code (svn)
 - Code language: C++
 - Code license: GPL-2.0

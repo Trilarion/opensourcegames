@@ -1,7 +1,7 @@
 # Crossfire
 
 - Home: http://crossfire.real-time.com/, https://sourceforge.net/projects/crossfire/
-- Media: <https://en.wikipedia.org/wiki/Crossfire_(1992_video_game)>
+- Media: https://en.wikipedia.org/wiki/Crossfire_(1992_video_game)
 - State: mature
 - Download: http://crossfire.real-time.com/download/index.html, https://sourceforge.net/projects/crossfire/files/
 - Keywords: role playing, multiplayer online + massive

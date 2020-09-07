@@ -3,7 +3,7 @@
 - Home: https://terasology.org/
 - Inspirations: Minecraft
 - State: mature
-- Keywords: framework, 3D, remake
+- Keywords: framework, remake, 3D
 - Code repository: https://github.com/MovingBlocks/Terasology.git
 - Code language: Java
 - Code license: Apache-2.0

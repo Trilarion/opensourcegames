@@ -1,7 +1,7 @@
 # LordsAWar!
 
 - Home: http://www.nongnu.org/lordsawar/
-- Media: <https://en.wikipedia.org/wiki/Warlords_(game_series)#LordsAWar!>
+- Media: https://en.wikipedia.org/wiki/Warlords_(game_series)#LordsAWar!
 - Inspirations: Warlords II
 - State: mature
 - Download: @see-home

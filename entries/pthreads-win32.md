@@ -5,7 +5,7 @@
 - State: mature
 - Download: @see-home
 - Keywords: library
-- Code repository: https://github.com/GerHobbelt/pthread-win32.git, (cvs, see home)
+- Code repository: https://github.com/GerHobbelt/pthread-win32.git (for cvs see home)
 - Code language: C
 - Code license: LGPL-2.1
 

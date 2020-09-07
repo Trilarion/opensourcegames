@@ -4,7 +4,7 @@
 - Inspirations: Lego Rock Raiders
 - State: beta
 - Platform: Web
-- Keywords: action, commercial content, remake, requires original content
+- Keywords: action, remake, commercial content, requires original content
 - Code repository: https://github.com/rystills/rock-raiders-remake.git
 - Code language: JavaScript
 - Code license: MIT

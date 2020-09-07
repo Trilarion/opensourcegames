@@ -2,7 +2,7 @@
 
 - Home: https://web.archive.org/web/20190126033549/https://cardstories.org/
 - State: beta, inactive since 2012
-- Keywords: puzzle, cards, open content
+- Keywords: cards, puzzle, open content
 - Code repository: https://github.com/farsides/cardstories.git, https://gitorious.org/cardstories/cardstories.git (read-only)
 - Code language: JavaScript, Python
 - Code license: AGPL-3.0

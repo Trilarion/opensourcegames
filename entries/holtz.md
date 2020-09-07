@@ -4,7 +4,7 @@
 - State: mature
 - Download: https://sourceforge.net/projects/holtz/files/
 - Platform: Windows, Linux
-- Keywords: puzzle, board, online, open content
+- Keywords: board, puzzle, online, open content
 - Code repository: https://git.code.sf.net/p/holtz/code, https://git.code.sf.net/p/holtz/website @add
 - Code language: C++
 - Code license: GPL-2.0

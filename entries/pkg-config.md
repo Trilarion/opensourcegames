@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Pkg-config
 - State: mature
 - Download: https://pkg-config.freedesktop.org/releases/
-- Keywords: tool, library
+- Keywords: library, tool
 - Code repository: https://anongit.freedesktop.org/git/pkg-config.git
 - Code language: C
 - Code license: GPL-2.0

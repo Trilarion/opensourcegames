@@ -4,7 +4,7 @@
 - Inspirations: Jazz Jackrabbit 2
 - State: mature
 - Platform: Windows, Linux, macOS, Android, Web
-- Keywords: platform, 2D, commercial content, multiplayer online, remake
+- Keywords: platform, remake, 2D, commercial content, multiplayer online
 - Code repository: https://github.com/deathkiller/jazz2.git
 - Code language: C#, JavaScript
 - Code license: GPL-3.0

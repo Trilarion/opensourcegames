@@ -1,7 +1,7 @@
 # Neverball
 
 - Home: https://neverball.org/, https://web.archive.org/web/20090105213528/http://icculus.org/neverball/
-- Media: <https://en.wikipedia.org/wiki/Super_Monkey_Ball_(video_game)#Legacy>
+- Media: https://en.wikipedia.org/wiki/Super_Monkey_Ball_(video_game)#Legacy
 - Inspirations: Super Monkey Ball
 - State: mature
 - Download: https://neverball.org/download.php

@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://github.com/falltergeist/falltergeist/releases
 - Platform: Windows, Linux
-- Keywords: role playing, commercial content, game engine, remake, requires original content
+- Keywords: game engine, remake, role playing, commercial content, requires original content
 - Code repository: https://github.com/falltergeist/falltergeist.git
 - Code language: C++
 - Code license: GPL-3.0

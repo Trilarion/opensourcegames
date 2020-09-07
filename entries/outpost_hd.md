@@ -3,7 +3,7 @@
 - Home: "https://forum.outpost2.net/index.php/topic,5718.0.html"
 - Inspirations: Outpost
 - State: beta
-- Keywords: simulation, commercial content, remake, requires original content
+- Keywords: remake, simulation, commercial content, requires original content
 - Code repository: https://github.com/OutpostUniverse/OPHD.git
 - Code language: C++
 - Code license: 3-clause BSD

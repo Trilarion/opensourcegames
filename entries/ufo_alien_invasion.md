@@ -1,7 +1,7 @@
 # UFO: Alien Invasion
 
 - Home: https://ufoai.org/wiki/News, https://sourceforge.net/projects/ufoai/
-- Media: <https://en.wikipedia.org/wiki/UFO:_Alien_Invasion>
+- Media: https://en.wikipedia.org/wiki/UFO:_Alien_Invasion
 - Inspirations: UFO: Enemy Unknown, X-COM: Apocalypse, X-COM: Terror from the Deep, X-COM: UFO Defense
 - State: mature
 - Download: https://ufoai.org/wiki/Download

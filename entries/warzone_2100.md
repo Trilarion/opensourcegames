@@ -4,7 +4,7 @@
 - Inspirations: Warzone 2100
 - State: mature
 - Download: https://sourceforge.net/projects/warzone2100/files/releases/
-- Keywords: strategy, popular, real time, remake
+- Keywords: remake, strategy, popular, real time
 - Code repository: https://github.com/Warzone2100/warzone2100.git
 - Code language: C++
 - Code license: GPL-2.0

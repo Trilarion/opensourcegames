@@ -4,7 +4,7 @@
 - Inspirations: SunDog: Frozen Legacy
 - State: beta
 - Download: http://www.sundogresurrectionproject.com/downloads.html
-- Keywords: role playing, remake, simulation, space
+- Keywords: remake, role playing, simulation, space
 - Code repository: https://svn.code.sf.net/p/sundog/code (svn), http://sundog.cvs.sourceforge.net (cvs)
 - Code language: Java, Python
 - Code license: ?

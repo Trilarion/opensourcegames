@@ -3,7 +3,7 @@
 - Home: https://scorched-moon.github.io/, https://github.com/Scorched-Moon
 - Inspirations: Moonbase Commander
 - State: beta
-- Keywords: strategy, remake
+- Keywords: remake, strategy
 - Code repository: https://github.com/Scorched-Moon/server.git, https://github.com/Scorched-Moon/client.git @add
 - Code language: Python
 - Code license: GPL-3.0

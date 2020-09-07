@@ -1,7 +1,7 @@
 # Angband
 
 - Home: http://rephial.org/
-- Media: <https://en.wikipedia.org/wiki/Angband_(video_game)>
+- Media: https://en.wikipedia.org/wiki/Angband_(video_game)
 - State: mature
 - Download: http://rephial.org/release/
 - Keywords: role playing, roguelike

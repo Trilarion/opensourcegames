@@ -1,7 +1,7 @@
 # Tank: Zone of Death
 
 - Home: https://zod.fandom.com/ru/wiki/Главная (Russian)
-- Media: <https://en.wikipedia.org/wiki/Battle_City_(video_game)>
+- Media: https://en.wikipedia.org/wiki/Battle_City_(video_game)
 - Inspirations: Battle City
 - State: beta, inactive since 2017
 - Keywords: action, clone, shooter

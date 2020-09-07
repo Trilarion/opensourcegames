@@ -3,7 +3,7 @@
 - Home: https://github.com/shinyquagsire23/DesktopAdventures
 - Inspirations: Indiana Jones and his Desktop Adventures, Star Wars: Yoda Stories
 - State: beta
-- Keywords: game engine, commercial content, remake
+- Keywords: game engine, remake, commercial content
 - Code repository: https://github.com/shinyquagsire23/DesktopAdventures.git
 - Code language: C
 - Code license: LGPL-2.1

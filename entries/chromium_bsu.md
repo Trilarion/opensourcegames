@@ -7,7 +7,8 @@
 - Keywords: action, shooter, top-down
 - Code repository: https://git.code.sf.net/p/chromium-bsu/code
 - Code language: C++
-- Code license: Artistic License
+- Code license: Artistic License-1.0 (clarified version)
+- Developer: Paul Wise
 
 Arcade-style, top-scrolling space shooter.
 

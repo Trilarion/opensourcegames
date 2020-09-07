@@ -1,6 +1,6 @@
 # Radakan
 
-- Home: <https://web.archive.org/web/20170915004555/http://radakan.org/>, https://sourceforge.net/projects/radakan/
+- Home: https://web.archive.org/web/20170915004555/http://radakan.org/, https://sourceforge.net/projects/radakan/
 - State: beta, inactive since 2014
 - Download: https://sourceforge.net/projects/radakan/files/
 - Keywords: role playing

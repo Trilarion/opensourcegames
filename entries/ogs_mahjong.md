@@ -4,7 +4,7 @@
 - State: mature, inactive since 2016
 - Download: https://sourceforge.net/projects/osrpgcreation/files/Mahjong/
 - Platform: Windows, Linux
-- Keywords: puzzle, 3D, board
+- Keywords: board, puzzle, 3D
 - Code repository: http://hg.code.sf.net/p/osrpgcreation/code (hg)
 - Code language: C++
 - Code license: GPL-3.0

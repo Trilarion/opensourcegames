@@ -4,7 +4,7 @@
 - Inspirations: Railroad Tycoon
 - State: beta, inactive since 2008 (see continuation)
 - Download: https://sourceforge.net/projects/freerails/files/jfreerails/
-- Keywords: strategy, real time, remake
+- Keywords: remake, strategy, real time
 - Code repository: http://freerails.cvs.sourceforge.net (cvs)
 - Code language: Java, C++
 - Code license: GPL-2.0

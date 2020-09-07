@@ -1,6 +1,6 @@
 # Trinity Reign
 
-- Home: <https://web.archive.org/web/20131209073248/http://trinity-reign.com/>, https://sourceforge.net/projects/ura-game/
+- Home: https://web.archive.org/web/20131209073248/http://trinity-reign.com/, https://sourceforge.net/projects/ura-game/
 - State: beta, inactive since 2013
 - Keywords: role playing
 - Code repository: https://gitlab.com/osgames/ura-game.git (backup of svn), https://svn.code.sf.net/p/ura-game/code (svn)

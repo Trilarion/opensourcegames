@@ -6,7 +6,7 @@
 - State: beta, inactive since 2017
 - Download: https://github.com/SteveSmith16384/TumblyTowers/releases
 - Platform: Windows, Linux
-- Keywords: puzzle, multiplayer, open content, remake, skill
+- Keywords: puzzle, remake, multiplayer, open content, skill
 - Code repository: https://github.com/SteveSmith16384/TumblyTowers.git
 - Code language: Java
 - Code license: MIT

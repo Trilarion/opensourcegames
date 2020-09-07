@@ -1,7 +1,7 @@
 # XorCurses
 
 - Home: http://jwm-art.net/?p=XorCurses
-- Media: <https://en.wikipedia.org/wiki/XOR_(video_game)>
+- Media: https://en.wikipedia.org/wiki/XOR_(video_game)
 - Inspirations: XOR
 - State: beta, inactive since 2012
 - Platform: Linux

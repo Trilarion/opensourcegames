@@ -2,12 +2,12 @@
 
 - Home: https://python-pillow.org/
 - State: mature
-- Download: (pip install Pillow)
+- Download: https://pypi.org/project/Pillow/
 - Platform: Windows, Linux, macOS
 - Keywords: library
 - Code repository: https://github.com/python-pillow/Pillow.git
 - Code language: C, Python
-- Code license: PIL Software License
+- Code license: Custom (PIL Software License)
 
 Fork of the Python Imaging Library.
 

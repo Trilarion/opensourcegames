@@ -4,7 +4,7 @@
 - Inspirations: SimCity 2000
 - State: beta
 - Platform: Web
-- Keywords: simulation, remake
+- Keywords: remake, simulation
 - Code repository: https://github.com/nicholas-ochoa/OpenSC2K.git
 - Code language: JavaScript
 - Code license: GPL-3.0

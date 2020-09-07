@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Witchaven
 - Inspirations: Witchaven
 - State: beta
-- Keywords: action, commercial content, remake
+- Keywords: action, remake, commercial content
 - Code repository: https://gitlab.com/m210/WitchavenGDX.git
 - Code language: Java
 - Code license: Custom (see buildlic.txt)

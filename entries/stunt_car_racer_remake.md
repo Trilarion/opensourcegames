@@ -5,7 +5,7 @@
 - State: beta, inactive since 2012
 - Download: https://sourceforge.net/projects/stuntcarremake/files/
 - Platform: Windows
-- Keywords: simulation, racing, remake
+- Keywords: remake, simulation, racing
 - Code repository: https://git.code.sf.net/p/stuntcarremake/code
 - Code language: C++
 - Code license: Proprietary (!)

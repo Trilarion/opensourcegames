@@ -3,7 +3,7 @@
 - Home: https://boardgame.io/
 - State: beta
 - Platform: Web
-- Keywords: strategy, game engine, turn-based
+- Keywords: game engine, strategy, turn-based
 - Code repository: https://github.com/boardgameio/boardgame.io.git
 - Code language: JavaScript, TypeScript
 - Code license: MIT

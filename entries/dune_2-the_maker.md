@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Dune_II#Legacy
 - Inspirations: Dune 2
 - State: beta
-- Keywords: strategy, real time, remake
+- Keywords: remake, strategy, real time
 - Code repository: https://github.com/Fundynamic/dune2themaker4j.git
 - Code language: Java
 - Code license: MIT

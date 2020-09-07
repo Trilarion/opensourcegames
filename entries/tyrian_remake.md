@@ -1,7 +1,7 @@
 # Tyrian Remake
 
 - Home: https://www.b3dgs.com/v7/page.php?lang=en&section=tyrian_remake
-- Media: <https://en.wikipedia.org/wiki/Tyrian_(video_game)>
+- Media: https://en.wikipedia.org/wiki/Tyrian_(video_game)
 - Inspirations: Tyrian
 - State: beta
 - Keywords: action, remake, scrolling, shootem

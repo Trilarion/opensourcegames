@@ -43,7 +43,7 @@ valid_fields = ('File', 'Title') + valid_properties + ('Note', 'Building')
 
 url_fields = ('Home', 'Media', 'Play', 'Download', 'Code repository')
 
-valid_url_prefixes = ('http://', 'https://', 'git://', 'svn://', 'ftp://', 'bzr://', '@see-')
+valid_url_prefixes = ('http://', 'https://', 'git://', 'svn://', 'ftp://', 'bzr://', '@see-', '@not-', '?')
 
 valid_building_properties = ('Build system', 'Build instructions')
 valid_building_fields = valid_building_properties + ('Note',)
@@ -63,8 +63,8 @@ known_languages = (
     'C++', 'Clojure', 'CoffeeScript', 'ColdFusion', 'D', 'DM', 'Dart', 'Dia', 'Elm', 'Emacs Lisp', 'F#', 'GDScript',
     'Game Maker Script', 'Go', 'Groovy', 'Haskell', 'Haxe', 'Io', 'Java', 'JavaScript', 'Kotlin', 'Lisp', 'Lua',
     'MegaGlest Script', 'MoonScript', 'None', 'OCaml', 'Objective-C', 'PHP', 'Pascal', 'Perl', 'Python', 'QuakeC', 'R',
-    "Ren'py", 'Ruby', 'Rust', 'Scala', 'Scheme', 'Script', 'Shell', 'Swift', 'TorqueScript', 'TypeScript', 'Vala',
-    'Visual Basic', 'XUL', 'ZenScript', 'ooc')
+    "Ren'Py", 'Ruby', 'Rust', 'Scala', 'Scheme', 'Script', 'Shell', 'Swift', 'TorqueScript', 'TypeScript', 'Vala',
+    'Visual Basic', 'XUL', 'ZenScript', 'ooc', '?')
 
 # known licenses, anything outside of this will result in a warning during a maintenance operation
 # only these will be used when gathering statistics
@@ -73,7 +73,7 @@ known_licenses = (
     'Boost-1.0', 'CC-BY-NC-3.0', 'CC-BY-NC-SA-2.0', 'CC-BY-NC-SA-3.0', 'CC-BY-SA-3.0', 'CC-BY-NC-SA-4.0',
     'CC-BY-SA-4.0', 'CC0', 'Custom', 'EPL-2.0', 'GPL-2.0', 'GPL-3.0', 'IJG', 'ISC', 'Java Research License', 'LGPL-2.0',
     'LGPL-2.1', 'LGPL-3.0', 'MAME', 'MIT', 'MPL-1.1', 'MPL-2.0', 'MS-PL', 'MS-RL', 'NetHack General Public License',
-    'None', 'Proprietary', 'Public domain', 'SWIG license', 'Unlicense', 'WTFPL', 'wxWindows license', 'zlib')
+    'None', 'Proprietary', 'Public domain', 'SWIG license', 'Unlicense', 'WTFPL', 'wxWindows license', 'zlib', '?')
 
 # valid multiplayer modes (can be combined with "+" )
 valid_multiplayer_modes = (

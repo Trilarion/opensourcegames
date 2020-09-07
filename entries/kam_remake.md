@@ -4,7 +4,7 @@
 - Inspirations: Knights and Merchants
 - State: mature
 - Download: https://www.kamremake.com/download/
-- Keywords: strategy, real time, remake, requires original content
+- Keywords: remake, strategy, real time, requires original content
 - Code repository: https://github.com/Kromster80/kam_remake.git
 - Code language: Pascal
 - Code license: AGPL-3.0

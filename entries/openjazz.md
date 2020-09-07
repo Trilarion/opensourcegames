@@ -6,7 +6,7 @@
 - State: beta
 - Download: http://www.alister.eu/jazz/oj/download.php
 - Platform: Windows, macOS
-- Keywords: arcade, commercial content, remake, requires original content
+- Keywords: arcade, remake, commercial content, requires original content
 - Code repository: https://github.com/AlisterT/openjazz.git
 - Code language: C++
 - Code license: GPL-2.0

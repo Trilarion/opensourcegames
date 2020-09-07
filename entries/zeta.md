@@ -1,7 +1,7 @@
 # Zeta
 
 - Home: https://zeta.asie.pl/
-- Inspirations: ZZT, Super ZZT
+- Inspirations: Super ZZT, ZZT
 - State: beta
 - Keywords: tool
 - Code repository: https://github.com/asiekierka/zeta.git

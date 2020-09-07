@@ -4,7 +4,7 @@
 - Inspirations: Black & White
 - State: beta
 - Platform: Windows, Linux
-- Keywords: simulation, commercial content, remake, requires original content (?)
+- Keywords: remake, simulation, commercial content, requires original content (?)
 - Code repository: https://github.com/openblack/openblack.git
 - Code language: C, C++
 - Code license: GPL-3.0

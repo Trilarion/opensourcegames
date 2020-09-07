@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://cataclysmdda.org/releases/
 - Platform: Windows, Linux, macOS
-- Keywords: role playing, remake, roguelike
+- Keywords: remake, role playing, roguelike
 - Code repository: https://github.com/CleverRaven/Cataclysm-DDA.git
 - Code language: C++
 - Code license: CC-BY-SA-3.0

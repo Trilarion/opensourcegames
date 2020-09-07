@@ -5,7 +5,7 @@
 - Inspirations: Glest
 - State: mature
 - Download: https://megaglest.org/download
-- Keywords: strategy, real time, remake
+- Keywords: remake, strategy, real time
 - Code repository: https://github.com/MegaGlest/megaglest-source.git
 - Code language: C, C++
 - Code license: GPL-3.0

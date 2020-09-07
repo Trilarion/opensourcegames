@@ -1,7 +1,7 @@
 # POSTAL 1 Open Source
 
 - Home: https://bitbucket.org/gopostal/workspace/projects/P1OS
-- Media: <https://en.wikipedia.org/wiki/Postal_(video_game)#Open_source>
+- Media: https://en.wikipedia.org/wiki/Postal_(video_game)#Open_source
 - Inspirations: Postal
 - State: beta, inactive since 2018
 - Keywords: remake, commercial content, requires original content, shooter

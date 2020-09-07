@@ -4,7 +4,7 @@
 - Inspirations: Forgotten Realms: Unlimited Adventures
 - State: mature
 - Download: https://sourceforge.net/projects/uaf/files/
-- Keywords: role playing, remake
+- Keywords: remake, role playing
 - Code repository: https://gitlab.com/osgames/uaf.git (mirror), http://uaf.cvs.sourceforge.net (cvs)
 - Code language: C++
 - Code license: GPL-2.0

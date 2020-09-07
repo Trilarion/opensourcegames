@@ -1,7 +1,7 @@
 # Pioneer
 
 - Home: https://pioneerspacesim.net/
-- Media: <https://en.wikipedia.org/wiki/Pioneer_(video_game)>
+- Media: https://en.wikipedia.org/wiki/Pioneer_(video_game)
 - Inspirations: Elite II
 - State: mature
 - Download: https://pioneerspacesim.net/page/download/

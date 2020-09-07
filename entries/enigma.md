@@ -1,7 +1,7 @@
 # Enigma
 
 - Home: https://www.nongnu.org/enigma/, https://sourceforge.net/projects/enigma-game/
-- Media: <https://en.wikipedia.org/wiki/Enigma_(2007_video_game)>
+- Media: https://en.wikipedia.org/wiki/Enigma_(2007_video_game)
 - Inspirations: Oxyd
 - State: mature
 - Download: http://www.nongnu.org/enigma/download.html#stable

@@ -4,7 +4,7 @@
 - Inspirations: Duke Nukem II
 - State: beta
 - Download: https://github.com/lethal-guitar/RigelEngine/releases
-- Keywords: action, commercial content, game engine, remake, requires original content, shooter
+- Keywords: action, game engine, remake, commercial content, requires original content, shooter
 - Code repository: https://github.com/lethal-guitar/RigelEngine.git
 - Code language: C++
 - Code license: GPL-2.0

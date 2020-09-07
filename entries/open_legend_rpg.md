@@ -2,7 +2,7 @@
 
 - Home: https://openlegendrpg.com
 - State: mature
-- Keywords: role playing, board, ruleset
+- Keywords: board, role playing, ruleset
 - Code repository: https://github.com/openlegend/core-rules.git
 - Code language: None
 - Code license: Custom (Open Legend Community License: https://github.com/openlegend/core-rules/blob/master/LICENSE.md)

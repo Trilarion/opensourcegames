@@ -7,7 +7,7 @@
 - Keywords: framework, clone, content commercial, requires original content
 - Code repository: https://github.com/Project-F/F.LF.git
 - Code language: JavaScript
-- Code license: CC-BY-SA-NC-3.0 (http://project-f.github.io/license.html)
+- Code license: CC-BY-NC-SA-3.0 (http://project-f.github.io/license.html)
 - Assets license: Proprietary (https://github.com/Project-F/LF2_19)
 
 Clone of Little Fighter 2.

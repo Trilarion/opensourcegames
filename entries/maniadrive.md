@@ -5,10 +5,10 @@
 - State: mature, inactive since 2008
 - Download: http://maniadrive.raydium.org/index.php?downloads=yes, https://sourceforge.net/projects/maniadrive/files/
 - Platform: Windows, Linux
-- Keywords: framework, open content, racing, remake
+- Keywords: framework, remake, open content, racing
 - Code repository: svn://raydium.org/raydium/trunk (svn)
 - Code language: PHP
-- Code license: GPL
+- Code license: ? (GPL version?)
 - Code dependencies: Raydium
 - Assets license: GPL (Music), CC BY-NC-SA, CC BY-SA
 - Developer: xfennec

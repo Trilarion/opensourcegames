@@ -5,7 +5,7 @@
 - Inspirations: Old School RuneScape
 - State: mature
 - Download: @see-home
-- Keywords: role playing, client, commercial content, multiplayer competitive + online + co-op, remake
+- Keywords: remake, role playing, client, commercial content, multiplayer competitive + online + co-op
 - Code repository: https://github.com/runelite/runelite.git
 - Code language: Java
 - Code license: 2-clause BSD

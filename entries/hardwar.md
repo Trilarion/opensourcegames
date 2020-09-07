@@ -3,7 +3,7 @@
 - Home: http://hardwar.org/
 - Inspirations: Hardwar
 - State: beta, inactive since 2015
-- Keywords: simulation, flight, remake
+- Keywords: remake, simulation, flight
 - Code repository: https://github.com/andrewfenn/Hardwar.git
 - Code language: C++
 - Code license: GPL-3.0

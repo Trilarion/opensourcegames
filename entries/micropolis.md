@@ -1,7 +1,7 @@
 # Micropolis
 
 - Home: https://micropolisonline.com/
-- Media: <https://en.wikipedia.org/wiki/SimCity_(1989_video_game)#Micropolis>
+- Media: https://en.wikipedia.org/wiki/SimCity_(1989_video_game)#Micropolis
 - Inspirations: SimCity
 - State: mature, inactive since 2015
 - Keywords: simulation, clone, online

@@ -5,7 +5,7 @@
 - State: mature, inactive since 2016
 - Download: https://github.com/SimonLarsen/duckmarines/releases
 - Platform: Windows, Linux (using LÖVE), macOS
-- Keywords: puzzle, open content (but NC and ND), remake
+- Keywords: puzzle, remake, open content (but NC and ND)
 - Code repository: https://github.com/SimonLarsen/duckmarines.git
 - Code language: Lua
 - Code license: zlib

@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://zdoom.org/downloads
 - Platform: Windows, Linux, macOS
-- Keywords: action, first-person, non-free content, remake, requires original content, shooter
+- Keywords: action, remake, first-person, non-free content, requires original content, shooter
 - Code repository: https://github.com/coelckers/gzdoom.git
 - Code language: C, C++
 - Code license: GPL-3.0

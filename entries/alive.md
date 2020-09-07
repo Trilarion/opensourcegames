@@ -1,7 +1,7 @@
 # alive
 
 - Home: https://github.com/paulsapps/alive
-- Inspirations: Oddworld: Abe's Oddysee, Oddworld: Abe's Exoddus
+- Inspirations: Oddworld: Abe's Exoddus, Oddworld: Abe's Oddysee
 - State: beta
 - Platform: Windows, Linux
 - Keywords: action, remake

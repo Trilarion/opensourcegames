@@ -1,7 +1,7 @@
 # osu!
 
 - Home: https://osu.ppy.sh/home
-- Inspirations: Osu! Tatakae! Ouendan, Taiko no Tatsujin, Beatmania IIDX
+- Inspirations: Beatmania IIDX, Osu! Tatakae! Ouendan, Taiko no Tatsujin
 - State: beta
 - Download: https://osu.ppy.sh/home/download, https://github.com/ppy/osu/releases
 - Platform: Windows, macOS, Android, iOS

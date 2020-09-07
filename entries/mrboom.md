@@ -3,7 +3,7 @@
 - Home: http://mrboom.mumblecore.org
 - Inspirations: Bomberman
 - State: mature
-- Keywords: action, clone, multiplayer online, remake
+- Keywords: action, remake, clone, multiplayer online
 - Code repository: https://github.com/Javanaise/mrboom-libretro.git
 - Code language: C++
 - Code license: MIT

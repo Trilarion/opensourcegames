@@ -1,7 +1,7 @@
 # DRL
 
 - Home: https://drl.chaosforge.org/
-- Media: <https://en.wikipedia.org/wiki/DRL_(video_game)>
+- Media: https://en.wikipedia.org/wiki/DRL_(video_game)
 - State: mature
 - Download: https://drl.chaosforge.org/downloads
 - Platform: Windows, Linux, macOS

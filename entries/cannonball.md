@@ -4,7 +4,7 @@
 - Inspirations: Outrun
 - State: beta
 - Download: https://github.com/djyt/cannonball/wiki#downloads
-- Keywords: action, commercial content, remake
+- Keywords: action, remake, commercial content
 - Code repository: https://github.com/djyt/cannonball.git
 - Code language: C++
 - Code license: MAME

@@ -4,7 +4,7 @@
 - Inspirations: Colobot
 - State: mature
 - Download: https://colobot.info/download-colobot-gold/
-- Keywords: strategy, open content, programming, real time, remake
+- Keywords: remake, strategy, open content, programming, real time
 - Code repository: https://github.com/colobot/colobot.git
 - Code language: C++
 - Code license: GPL-3.0

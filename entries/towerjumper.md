@@ -4,7 +4,7 @@
 - State: mature
 - Download: https://f-droid.org/packages/org.pipoypipagames.towerjumper/
 - Platform: Android
-- Keywords: arcade, skill, strategy
+- Keywords: arcade, strategy, skill
 - Code repository: https://github.com/Dariasteam/TowerJumper.git
 - Code language: C++, GDScript
 - Code license: GPL-3.0

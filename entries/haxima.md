@@ -4,7 +4,7 @@
 - Inspirations: Ultima series
 - State: beta
 - Download: https://sourceforge.net/projects/nazghul/files
-- Keywords: role playing, 2D, game engine
+- Keywords: game engine, role playing, 2D
 - Code repository: https://git.code.sf.net/p/nazghul/git, http://nazghul.cvs.sourceforge.net (cvs)
 - Code language: C++
 - Code license: GPL-3.0

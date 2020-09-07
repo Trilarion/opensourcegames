@@ -1,7 +1,7 @@
 # Qt
 
 - Home: https://www.qt.io/
-- Media: <https://en.wikipedia.org/wiki/Qt_(software)>
+- Media: https://en.wikipedia.org/wiki/Qt_(software)
 - State: mature
 - Download: https://www.qt.io/download
 - Keywords: framework

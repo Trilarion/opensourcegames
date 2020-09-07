@@ -326,6 +326,9 @@ def read_developers():
                 if any(not (x.startswith('http://') or x.startswith('https://')) for x in content):
                     raise RuntimeError('Invalid URL in field "{}" in developer {}.'.format(field, dev['Name']))
 
+    # convert to dictionary
+    developers = {x['Name']: x for x in developers}
+
     return developers
 
 
@@ -334,6 +337,9 @@ def write_developers(developers):
 
     :return:
     """
+    # convert dictionary to list
+    developers = list(developers.values())
+
     # comment
     content = '{}\n'.format(generic_comment_string)
 
@@ -517,7 +523,23 @@ def check_and_process_entry(entry):
     # check for essential fields
     for field in essential_fields:
         if field not in entry:
-            message += 'essential property "{}" missing\n'.format(field)
+            message += 'Essential property "{}" missing\n'.format(field)
+
+    # now the same treatment for building
+    building = entry['Building']
+    d = {}
+    for field, value in building:
+        if field in d:
+            message += 'Field "{}" appears twice\n'.format(field)
+        d[field] = value
+    building = d
+
+    # check valid fields TODO should also check order
+    for field in building.keys():
+        if field not in valid_building_fields:
+            message += 'Building field "{}" invalid\n'.format(field)
+    entry['Building'] = building
+
 
     # check canonical file name
     file = entry['File']
@@ -551,7 +573,7 @@ def write_entry(entry):
     # TODO check entry
 
     # get path
-    entry_path = os.path.join(entries_path, entry['file'])
+    entry_path = os.path.join(entries_path, entry['File'])
 
     # create output content
     content = create_entry_content(entry)
@@ -571,10 +593,11 @@ def create_entry_content(entry):
     content = '# {}\n\n'.format(entry['Title'])
 
     # now properties in the recommended order
-    for field in valid_fields:
+    for field in valid_properties:
         if field in entry:
             c = entry[field]
             c = ['"{}"'.format(x) if ',' in x else x for x in c]
+            c = [str(x) for x in c]
             content += '- {}: {}\n'.format(field, ', '.join(c))
     content += '\n'
 
@@ -587,12 +610,15 @@ def create_entry_content(entry):
 
     # building properties if present
     has_properties = False
-    for field in valid_building_fields:
+    for field in valid_building_properties:
         if field in entry['Building']:
             if not has_properties:
                 has_properties = True
                 content += '\n'
-            content += '- {}: {}\n'.format(field, ', '.join(entry['Building'][field]))
+            c = entry['Building'][field]
+            c = ['"{}"'.format(x) if ',' in x else x for x in c]
+            c = [str(x) for x in c]
+            content += '- {}: {}\n'.format(field, ', '.join(c))
 
     # if there is a note, insert it
     if 'Note' in entry['Building']:

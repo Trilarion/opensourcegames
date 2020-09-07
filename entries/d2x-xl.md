@@ -3,7 +3,7 @@
 - Home: http://www.descent2.de/, https://sourceforge.net/projects/d2x-xl/
 - Inspirations: Descent, Descent II
 - State: mature, inactive since 2015
-- Download: (see home)
+- Download: @see-home
 - Platform: Windows, Linux, macOS
 - Keywords: remake, non-free content, shooter
 - Code repository: https://svn.code.sf.net/p/d2x-xl/code (svn)

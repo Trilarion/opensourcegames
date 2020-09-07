@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://sourceforge.net/projects/chaosesqueanthology/files/
 - Keywords: strategy, first-person, open content, shooter
-- Code repository: (see download)
+- Code repository: @see-download
 - Code language: ?
 - Code license: ? (GPL did not download the iso)
 - Assets license: CC-BY (mixed with GPL)

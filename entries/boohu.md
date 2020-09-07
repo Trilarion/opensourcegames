@@ -5,7 +5,7 @@
 - Download: https://download.tuxfamily.org/boohu/downloads/
 - Platform: Web
 - Keywords: role playing, open content, roguelike
-- Code repository: https://git.tuxfamily.org/boohu/boohu.git, https://github.com/anaseto/boohu.git (+)
+- Code repository: https://git.tuxfamily.org/boohu/boohu.git, https://github.com/anaseto/boohu.git @add
 - Code language: Go
 - Code license: ISC
 - Assets license: ISC

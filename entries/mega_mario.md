@@ -6,7 +6,7 @@
 - Download: https://sourceforge.net/projects/mmario/files/
 - Platform: Windows
 - Keywords: action, platform, remake
-- Code repository: (see download)
+- Code repository: @see-download
 - Code language: C++
 - Code license: LGPL-2.1
 - Code dependencies: SDL

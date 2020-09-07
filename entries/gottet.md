@@ -5,7 +5,7 @@
 - State: mature
 - Platform: Windows, Linux, macOS
 - Keywords: tool
-- Code repository: (see home)
+- Code repository: @see-home
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependencies: Qt

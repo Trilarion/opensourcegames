@@ -6,7 +6,7 @@
 - Download: http://bub-n-bros.sourceforge.net/download.html
 - Platform: Windows, Linux, macOS
 - Keywords: board, clone, remake
-- Code repository: https://bitbucket.org/arigo/bub-n-bros (hg), https://gitlab.com/osgames/the-bubs-brothers.git (+), http://bub-n-bros.cvs.sourceforge.net (cvs)
+- Code repository: https://bitbucket.org/arigo/bub-n-bros (hg), https://gitlab.com/osgames/the-bubs-brothers.git @add, http://bub-n-bros.cvs.sourceforge.net (cvs)
 - Code language: Python
 - Code license: MIT
 - Code dependencies: pygame

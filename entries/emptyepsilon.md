@@ -6,7 +6,7 @@
 - Download: http://daid.github.io/EmptyEpsilon/#tabs=5
 - Platform: Windows
 - Keywords: role playing, clone, multiplayer online + LAN
-- Code repository: https://github.com/daid/EmptyEpsilon.git, https://github.com/daid/SeriousProton.git (+)
+- Code repository: https://github.com/daid/EmptyEpsilon.git, https://github.com/daid/SeriousProton.git @add
 - Code language: C, C++, Lua
 - Code license: GPL-2.0
 - Code dependencies: SFML

@@ -5,7 +5,7 @@
 - Download: https://code.google.com/archive/p/lambdarogue/downloads
 - Platform: Windows, Linux
 - Keywords: role playing, roguelike
-- Code repository: (see download)
+- Code repository: @see-download
 - Code language: Pascal
 - Code license: GPL-2.0
 - Developer: Mario Donick

@@ -4,7 +4,7 @@
 - Inspirations: Black Shades
 - State: beta, inactive since 2007
 - Keywords: simulation, first-person, open content, shooter
-- Code repository: (none)
+- Code repository: @not-available
 - Code language: ?
 - Code license: ? (GPL-2.0)
 - Developer: David Rosen

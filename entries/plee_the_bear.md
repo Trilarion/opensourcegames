@@ -4,7 +4,7 @@
 - State: beta, inactive since 2017
 - Download: https://sourceforge.net/projects/plee-the-bear/files/ (outdated)
 - Keywords: platform, open content
-- Code repository: https://github.com/j-jorge/plee-the-bear.git, https://github.com/j-jorge/bear.git (+)
+- Code repository: https://github.com/j-jorge/plee-the-bear.git, https://github.com/j-jorge/bear.git @add
 - Code language: Lisp, C++, Scheme, C
 - Code license: GPL-3.0
 - Code dependencies: Bear, SDL

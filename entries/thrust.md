@@ -6,7 +6,7 @@
 - Download: https://www.lysator.liu.se/~peda/thrust/src/
 - Platform: Windows, Linux
 - Keywords: arcade, remake, skill
-- Code repository: (see download)
+- Code repository: @see-download
 - Code language: C
 - Code license: GPL-2.0
 

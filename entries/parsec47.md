@@ -4,7 +4,7 @@
 - State: beta, inactive since 2003
 - Platform: Windows, Linux
 - Keywords: arcade, smashem
-- Code repository: (see home)
+- Code repository: @see-home
 - Code language: D
 - Code license: 2-clause BSD
 - Code dependencies: SDL

@@ -6,7 +6,7 @@
 - State: mature, inactive since 2011
 - Download: http://sc2.sourceforge.net/downloads.php
 - Keywords: strategy, remake, turn-based
-- Code repository: https://git.code.sf.net/p/sc2/uqm, https://gitlab.com/osgames/uqm.git (+)
+- Code repository: https://git.code.sf.net/p/sc2/uqm, https://gitlab.com/osgames/uqm.git @add
 - Code language: C
 - Code license: GPL-2.0
 

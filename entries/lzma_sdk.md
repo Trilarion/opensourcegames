@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://7-zip.org/download.html, https://7-zip.org/sdk.html
 - Keywords: library
-- Code repository: (see download)
+- Code repository: @see-download
 - Code language: C
 - Code license: LGPL-2.0
 

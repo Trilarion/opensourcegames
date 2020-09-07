@@ -4,7 +4,7 @@
 - State: beta, inactive since 2005
 - Download: https://sourceforge.net/projects/a7xpg/files/a7xpg/
 - Keywords: arcade
-- Code repository: (see home)
+- Code repository: @see-home
 - Code language: D
 - Code license: 2-clause BSD
 - Code dependencies: libvorbis, SDL

@@ -5,7 +5,7 @@
 - State: mature
 - Download: http://www.openal.org/downloads/
 - Keywords: library
-- Code repository: (see download)
+- Code repository: @see-download
 - Code language: C
 - Code license: Proprietary (since v1.1, LGPL before)
 

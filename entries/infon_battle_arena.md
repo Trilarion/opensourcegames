@@ -4,7 +4,7 @@
 - State: beta, inactive since 2012
 - Platform: Windows, Linux
 - Keywords: simulation, evolution, open content, programming, real time, strategy
-- Code repository: https://github.com/dividuum/infon.git, https://bitbucket.org/dividuum/infon.git (+)
+- Code repository: https://github.com/dividuum/infon.git, https://bitbucket.org/dividuum/infon.git @add
 - Code language: C, Lua
 - Code license: GPL-2.0
 - Code dependencies: SDL

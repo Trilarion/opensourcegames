@@ -2,10 +2,10 @@
 
 - Home: http://grobots.sourceforge.net/, https://sourceforge.net/projects/grobots/
 - State: mature, inactive since 2014
-- Download: (see home)
+- Download: @see-home
 - Platform: Windows, Linux, macOS
 - Keywords: simulation, programming
-- Code repository: http://hg.code.sf.net/p/grobots/trunk (hg), https://gitlab.com/osgames/grobots.git (+)
+- Code repository: http://hg.code.sf.net/p/grobots/trunk (hg), https://gitlab.com/osgames/grobots.git @add
 - Code language: C++
 - Code license: GPL-2.0
 

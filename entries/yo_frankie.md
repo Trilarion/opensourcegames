@@ -6,7 +6,7 @@
 - Download: https://apricot.blender.org/
 - Platform: Windows, Linux, macOS (wherever Blender runs)
 - Keywords: action
-- Code repository: (see download)
+- Code repository: @see-download
 - Code language: Blender Script
 - Code license: ?
 - Code dependencies: Blender game engine

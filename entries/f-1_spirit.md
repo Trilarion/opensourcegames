@@ -6,7 +6,7 @@
 - Download: https://braingames.jorito.net/f1spirit/f1spirit.src_0.rc9-1615.tgz
 - Platform: Windows, Linux, macOS
 - Keywords: simulation, free content, remake
-- Code repository: (see download)
+- Code repository: @see-download
 - Code language: C++
 - Code license: ?
 - Code dependencies: SDL

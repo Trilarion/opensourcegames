@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/RuneScape
 - Inspirations: Old School RuneScape
 - State: mature
-- Download: (see home)
+- Download: @see-home
 - Keywords: role playing, client, commercial content, multiplayer competitive + online + co-op, remake
 - Code repository: https://github.com/runelite/runelite.git
 - Code language: Java

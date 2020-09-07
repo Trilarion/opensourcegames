@@ -5,7 +5,7 @@
 - Download: https://sourceforge.net/projects/openblox/files/
 - Platform: Windows, Linux
 - Keywords: simulation, game maker
-- Code repository: http://hg.code.sf.net/p/openblox/openblox (hg), https://gitlab.com/osgames/openblox.git (+), http://hg.code.sf.net/p/openblox/bloxstaller (hg)
+- Code repository: http://hg.code.sf.net/p/openblox/openblox (hg), https://gitlab.com/osgames/openblox.git @add, http://hg.code.sf.net/p/openblox/bloxstaller (hg)
 - Code language: Python, Lua
 - Code license: GPL-3.0
 - Code dependencies: Panda3D, wxPython

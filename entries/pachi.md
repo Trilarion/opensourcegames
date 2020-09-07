@@ -5,7 +5,7 @@
 - Download: https://github.com/pasky/pachi/releases
 - Platform: Windows, Linux
 - Keywords: strategy, board
-- Code repository: https://github.com/pasky/pachi.git, https://repo.or.cz/pachi.git (+)
+- Code repository: https://github.com/pasky/pachi.git, https://repo.or.cz/pachi.git @add
 - Code language: C, Python
 - Code license: GPL-2.0
 

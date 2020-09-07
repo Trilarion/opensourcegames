@@ -11,6 +11,9 @@ https://github.com/cxong/cdogs-sdl
 https://moaiwebsite.github.io/
 http://cyxdown.free.fr/bs/
 http://cyxdown.free.fr/f2b/
+https://github.com/tlgkccampbell/ultraviolet
+https://github.com/ianfab/Fairy-Stockfish
+https://github.com/tomlooman/SimpleFPSTemplate
 https://github.com/nfprojects/nfengine
 http://dead-code.org/home/
 http://e-adventure.e-ucm.es/login/index.php (games of eAdventure)

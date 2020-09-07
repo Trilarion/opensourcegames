@@ -5,7 +5,7 @@
 - Download: http://www.newbreedsoftware.com/gemdropx/download/
 - Platform: Linux, macOS
 - Keywords: puzzle
-- Code repository: (see download)
+- Code repository: @see-download
 - Code language: C
 - Code license: GPL-2.0
 - Code dependencies: SDL

@@ -5,7 +5,7 @@
 - Download: https://smashbattle.demontpx.com/downloads/, https://sourceforge.net/projects/smashbattle/files/
 - Platform: Windows, Linux
 - Keywords: action, 2D, platform, shootem
-- Code repository: (see download)
+- Code repository: @see-download
 - Code language: C++
 - Code license: ?
 

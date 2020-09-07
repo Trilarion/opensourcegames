@@ -4,7 +4,7 @@
 - State: mature
 - Platform: Windows, Linux, macOS, Android, iOS
 - Keywords: remake, open content, puzzle games collection
-- Code repository: https://git.tartarus.org/simon/puzzles.git, https://github.com/chrisboyle/sgtpuzzles.git (+), https://github.com/ghewgill/puzzles.git (+)
+- Code repository: https://git.tartarus.org/simon/puzzles.git, https://github.com/chrisboyle/sgtpuzzles.git @add, https://github.com/ghewgill/puzzles.git @add
 - Code language: C
 - Code license: MIT
 - Code dependencies: GTK

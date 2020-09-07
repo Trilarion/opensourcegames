@@ -4,7 +4,7 @@
 - State: beta, inactive since 2014
 - Download: https://www.comunidadargentum.com/descargas/, https://sourceforge.net/projects/morgoao/files/
 - Keywords: role playing, multiplayer online + massive
-- Code repository: https://github.com/ao-libre/ao-server.git, https://github.com/ao-libre/ao-cliente.git (+), https://github.com/ao-libre/ao-worldeditor.git (+), http://morgoao.cvs.sourceforge.net/ (cvs)
+- Code repository: https://github.com/ao-libre/ao-server.git, https://github.com/ao-libre/ao-cliente.git @add, https://github.com/ao-libre/ao-worldeditor.git @add, http://morgoao.cvs.sourceforge.net/ (cvs)
 - Code language: Visual Basic
 - Code license: GPL-2.0, AGPL-3.0
 

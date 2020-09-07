@@ -6,7 +6,7 @@
 - State: beta, inactive since 2010
 - Download: http://swars.vexillium.org/#download
 - Keywords: action, commercial content, real time, remake, requires original content, strategy
-- Code repository: (see download)
+- Code repository: @see-download
 - Code language: C
 - Code license: GPL-3.0
 - Code dependencies: SDL

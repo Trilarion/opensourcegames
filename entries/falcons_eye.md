@@ -5,7 +5,7 @@
 - Download: https://sourceforge.net/projects/falconseye/files/
 - Platform: Windows, Linux
 - Keywords: simulation, roguelike
-- Code repository: (see download)
+- Code repository: @see-download
 - Code language: C
 - Code license: NetHack General Public License
 - Developer: Jaakko Tapani Peltonen

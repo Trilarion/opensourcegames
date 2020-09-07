@@ -5,7 +5,7 @@
 - Inspirations: Creatures
 - State: beta
 - Keywords: simulation, game engine, remake, requires original content (?)
-- Code repository: https://github.com/openc2e/openc2e.git, https://github.com/ccdevnet/openc2e.git (+), https://github.com/nornagon/openc2e.git (+)
+- Code repository: https://github.com/openc2e/openc2e.git, https://github.com/ccdevnet/openc2e.git @add, https://github.com/nornagon/openc2e.git @add
 - Code language: C, C++
 - Code license: LGPL-2.1
 

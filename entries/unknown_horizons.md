@@ -6,7 +6,7 @@
 - State: beta
 - Download: http://unknown-horizons.org/downloads/
 - Keywords: strategy, clone, turn-based
-- Code repository: https://github.com/unknown-horizons/unknown-horizons.git, https://github.com/unknown-horizons/godot-port.git (+)
+- Code repository: https://github.com/unknown-horizons/unknown-horizons.git, https://github.com/unknown-horizons/godot-port.git @add
 - Code language: Python
 - Code license: GPL-2.0
 - Code dependencies: FIFE, Pillow

@@ -3,7 +3,7 @@
 - Home: https://tukaani.org/xz/
 - Media: https://en.wikipedia.org/wiki/XZ_Utils
 - State: mature
-- Download: (see home)
+- Download: @see-home
 - Keywords: library
 - Code repository: https://git.tukaani.org/xz.git (https://git.tukaani.org/?p=xz.git)
 - Code language: C

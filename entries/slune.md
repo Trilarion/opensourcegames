@@ -4,7 +4,7 @@
 - State: mature, inactive since 2007
 - Download: http://www.lesfleursdunormal.fr/static/informatique/old/slune/download_en.html, https://pypi.org/project/Slune/
 - Keywords: action
-- Code repository: (see download)
+- Code repository: @see-download
 - Code language: Python
 - Code license: GPL-2.0
 - Code dependencies: Cal3D, GLEW, OpenGL, Py2Play, SDL

@@ -1,7 +1,7 @@
 # Forsaken
 
 - Home: http://forsakenx.github.io/, https://github.com/ForsakenX/forsaken/wiki
-- Media: <https://en.wikipedia.org/wiki/Forsaken_(video_game)>
+- Media: https://en.wikipedia.org/wiki/Forsaken_(video_game)
 - Inspirations: Forsaken
 - State: beta, inactive since 2013
 - Download: https://github.com/ForsakenX/forsaken/wiki/Download-and-installation

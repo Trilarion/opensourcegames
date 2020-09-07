@@ -7,7 +7,7 @@
 - Download: http://openarena.ws/download.php
 - Platform: Windows, Linux, macOS
 - Keywords: action, remake, shooter
-- Code repository: https://github.com/OpenArena/engine.git, https://github.com/suijingfeng/vkOpenArena.git (+)
+- Code repository: https://github.com/OpenArena/engine.git, https://github.com/suijingfeng/vkOpenArena.git @add
 - Code language: C
 - Code license: GPL-2.0
 

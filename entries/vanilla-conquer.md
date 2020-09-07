@@ -5,7 +5,7 @@
 - State: mature
 - Platform: Windows, Linux
 - Keywords: strategy, commercial content, realtime, remake, requires original content
-- Code repository: https://github.com/Vanilla-Conquer/Vanilla-Conquer.git, https://github.com/electronicarts/CnC_Remastered_Collection.git (+)
+- Code repository: https://github.com/Vanilla-Conquer/Vanilla-Conquer.git, https://github.com/electronicarts/CnC_Remastered_Collection.git @add
 - Code language: C, C++, Assembly
 - Code license: GPL-3.0
 

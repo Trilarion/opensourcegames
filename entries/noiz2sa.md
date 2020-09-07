@@ -4,7 +4,7 @@
 - State: beta, inactive since 2004
 - Platform: Windows, Linux
 - Keywords: arcade, shootem
-- Code repository: (see home)
+- Code repository: @see-home
 - Code language: C, C++
 - Code license: 2-clause BSD
 - Code dependencies: SDL

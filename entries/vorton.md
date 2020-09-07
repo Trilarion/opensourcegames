@@ -7,7 +7,7 @@
 - Download: https://sourceforge.net/projects/vorton/files/
 - Platform: Windows, Linux
 - Keywords: action, remake
-- Code repository: (see download)
+- Code repository: @see-download
 - Code language: C
 - Code license: GPL-3.0
 - Code dependencies: SDL

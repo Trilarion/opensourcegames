@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Lincity
 - Inspirations: SimCity
 - State: mature, inactive since 2005
-- Download: (see home)
+- Download: @see-home
 - Keywords: simulation, clone
 - Code repository: https://gitlab.com/osgames/lincity.git (backup of cvs), http://lincity.cvs.sourceforge.net/ (cvs)
 - Code language: C

@@ -3,7 +3,7 @@
 - Home: https://fydo.net/projects/buggygame
 - State: beta, inactive since 2007
 - Keywords: action, open content, side-scrolling
-- Code repository: (see home)
+- Code repository: @see-home
 - Code language: Python
 - Code license: GPL-2.0
 - Code dependencies: pygame

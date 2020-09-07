@@ -5,7 +5,7 @@
 - Download: https://pr-starfighter.github.io/download.html, https://github.com/pr-starfighter/starfighter/releases
 - Platform: Windows, Linux
 - Keywords: arcade, open content, shootem
-- Code repository: https://github.com/pr-starfighter/starfighter.git, https://git.savannah.nongnu.org/git/starfighter.git (+), http://cvs.savannah.nongnu.org:/web/starfighter (cvs)
+- Code repository: https://github.com/pr-starfighter/starfighter.git, https://git.savannah.nongnu.org/git/starfighter.git @add, http://cvs.savannah.nongnu.org:/web/starfighter (cvs)
 - Code language: C
 - Code license: GPL-3.0
 - Code dependencies: SDL

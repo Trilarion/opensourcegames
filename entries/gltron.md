@@ -7,7 +7,7 @@
 - Download: http://www.gltron.org/download.php
 - Platform: Windows, Linux, macOS
 - Keywords: action
-- Code repository: https://github.com/osgamearchive/gltron.git (svn and git combination), https://git.code.sf.net/p/gltron/git (+), https://svn.code.sf.net/p/gltron/code (svn), http://gltron.cvs.sourceforge.net (cvs, contained in the svn)
+- Code repository: https://github.com/osgamearchive/gltron.git (svn and git combination), https://git.code.sf.net/p/gltron/git @add, https://svn.code.sf.net/p/gltron/code (svn), http://gltron.cvs.sourceforge.net (cvs, contained in the svn)
 - Code language: C
 - Code license: GPL
 - Code dependencies: SDL

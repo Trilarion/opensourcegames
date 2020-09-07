@@ -5,7 +5,7 @@
 - Download: https://github.com/fastrgv/RufasSwap/releases
 - Platform: Windows, Linux, macOS
 - Keywords: puzzle, for kids
-- Code repository: (see download)
+- Code repository: @see-download
 - Code language: Ada
 - Code license: GPL-3.0
 - Code dependencies: OpenGL, SDL2

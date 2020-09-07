@@ -14,7 +14,7 @@ class ListingTransformer(lark.Transformer):
     """
 
     def unquoted_value(self, x):
-        return x[0].value
+        return x[0].value.strip()
 
     def quoted_value(self, x):
         return x[0].value[1:-1].strip()  # remove quotation marks and strip whitespaces
@@ -33,7 +33,7 @@ class ListingTransformer(lark.Transformer):
         :param x:
         :return:
         """
-        return 'Name', x[0].value
+        return 'Name', x[0].value.strip()
 
     def entry(self, x):
         """
@@ -56,13 +56,13 @@ class ListingTransformer(lark.Transformer):
 class EntryTransformer(lark.Transformer):
 
     def unquoted_value(self, x):
-        return x[0].value
+        return x[0].value.strip()
 
     def quoted_value(self, x):
-        return x[0].value[1:-1]  # remove quotation marks
+        return x[0].value[1:-1].strip()  # remove quotation marks
 
     def comment_value(self, x):
-        return x[0].value[1:-1]  # remove parenthesis
+        return x[0].value[1:-1].strip()  # remove parenthesis
 
     def value(self, x):
         if len(x) == 1:
@@ -77,10 +77,10 @@ class EntryTransformer(lark.Transformer):
         :param x:
         :return:
         """
-        return x[0].value, x[1:]
+        return x[0].value.strip(), x[1:]
 
     def title(self, x):
-        return 'Title', x[0].value
+        return 'Title', x[0].value.strip()
 
     def note(self, x):
         """
@@ -108,6 +108,12 @@ class ValueWithComment:
     def __init__(self, value, comment=None):
         self.value = value
         self.comment = comment
+
+    def is_empty(self):
+        return self.value == ''
+
+    def startswith(self, str):
+        return self.value.startswith(str)
 
     def __contains__(self, item):
         return item in self.value

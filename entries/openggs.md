@@ -5,7 +5,7 @@
 - State: beta, inactive since 2017
 - Download: https://web.archive.org/web/20190515074042/https://sourceforge.net/projects/openggs/files/
 - Keywords: remake, scrolling, skill
-- Code repository: (see download)
+- Code repository: @see-download
 - Code language: C++
 - Code license: GPL-2.0
 

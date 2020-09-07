@@ -5,7 +5,7 @@
 - State: beta, inactive since 2007
 - Platform: Windows, Linux, macOS
 - Keywords: action, open content
-- Code repository: (see home)
+- Code repository: @see-home
 - Code language: C++
 - Code license: GPL-2.0, LGPL
 - Code dependencies: SDL

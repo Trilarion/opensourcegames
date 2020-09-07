@@ -4,7 +4,7 @@
 - Inspirations: Progress Quest
 - State: mature
 - Keywords: arcade, remake
-- Code repository: https://github.com/arcadia-xenos/progress-quest.git, https://github.com/sandsmark/progress-quest.git (+)
+- Code repository: https://github.com/arcadia-xenos/progress-quest.git, https://github.com/sandsmark/progress-quest.git @add
 - Code language: C++
 - Code license: MIT
 - Code dependencies: Qt

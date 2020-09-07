@@ -41,6 +41,10 @@ valid_properties = ('Home', 'Media', 'Inspirations', 'State', 'Play', 'Download'
 # only these fields can be used currently (in this order)
 valid_fields = ('File', 'Title') + valid_properties + ('Note', 'Building')
 
+url_fields = ('Home', 'Media', 'Play', 'Download', 'Code repository')
+
+valid_url_prefixes = ('http://', 'https://', 'git://', 'svn://', 'ftp://', 'bzr://', '@see-')
+
 valid_building_properties = ('Build system', 'Build instructions')
 valid_building_fields = valid_building_properties + ('Note',)
 

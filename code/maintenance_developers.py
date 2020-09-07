@@ -11,13 +11,6 @@ from bs4 import BeautifulSoup
 from utils import constants as c, utils, osg, osg_github
 
 
-def developer_info_lookup(name):
-    for dev in developer_info:
-        if name == dev['Name']:
-            return dev
-    return None
-
-
 # author names in SF that aren't the author names how we have them
 SF_alias_list = {'Erik Johansson (aka feneur)': 'Erik Johansson', 'Itms': 'Nicolas Auvray',
                  'Wraitii': 'Lancelot de Ferrière', 'Simzer': 'Simon Laszlo', 'armin bajramovic': 'Armin Bajramovic'}
@@ -123,46 +116,6 @@ def test():
         # store developer info
         utils.write_text(os.path.join(c.root_path, 'collected_developer_info.txt'), developers)
 
-def compare_entries_developers(entries, developers):
-    """
-    Cross checks the game entries lists and the developers lists.
-    :param entries: List of game entries
-    :param developers: List of developers
-    """
-
-    # from the entries create a dictionary with developer names
-    devs1 = {}
-    for entry in entries:
-        name = entry['Name']
-        for dev in entry.get('developer', []):
-            if dev in devs1:
-                devs1[dev].append(name)
-            else:
-                devs1[dev] = [name]
-    devs1_names = set(devs1.keys())
-
-    # from the developers create a dictionary with developer names
-    devs2 = dict(zip((dev['Name'] for dev in developers), (dev['Games'] for dev in developers)))
-    devs2_names = set(devs2.keys())
-
-    # devs only in entries
-    for dev in devs1_names - devs2_names:
-        print('Warning: dev "{}" only in entries ({}), not in developers'.format(dev, ','.join(devs1[dev])))
-    # devs only in developers
-    for dev in devs2_names - devs1_names:
-        print('Warning: dev "{}" only in developers ({}), not in entries'.format(dev, ','.join(devs2[dev])))
-    # for those in both, check that the games lists are equal
-    for dev in devs1_names.intersection(devs2_names):
-        games1 = set(devs1[dev])
-        games2 = set(devs2[dev])
-        delta = games1 - games2
-        if delta:
-            print('Warning: dev "{}" has games in entries ({}) that are not present in developers'.format(dev,
-                                                                                                          ', '.join(
-                                                                                                              delta)))
-        delta = games2 - games1
-        if delta:
-            print('Warning: dev "{}" has games in developers ({}) that are not present in entries'.format(dev, delta))
 
 
 class DevelopersMaintainer:

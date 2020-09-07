@@ -5,7 +5,7 @@
 - Download: http://tuxfootball.sourceforge.net/index.php?plugin=EnticorePluginStaticContent&config=idx%3A3, https://sourceforge.net/projects/tuxfootball/files/
 - Platform: Windows, Linux
 - Keywords: arcade, 2D, simulation, sports
-- Code repository: https://git.code.sf.net/p/tuxfootball/code, https://gitlab.com/osgames/tuxfootball.git (+)
+- Code repository: https://git.code.sf.net/p/tuxfootball/code, https://gitlab.com/osgames/tuxfootball.git @add
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependencies: SDL

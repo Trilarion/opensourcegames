@@ -6,7 +6,7 @@
 - Download: http://clonekeenplus.sourceforge.net/download.php
 - Platform: Windows, Linux, Android
 - Keywords: action, remake
-- Code repository: https://gitlab.com/Dringgstein/Commander-Genius.git, https://github.com/albertz/commandergenius.git (+), https://github.com/pelya/commandergenius.git (+), https://github.com/gerstrong/Commander-Genius.git (+)
+- Code repository: https://gitlab.com/Dringgstein/Commander-Genius.git, https://github.com/albertz/commandergenius.git @add, https://github.com/pelya/commandergenius.git @add, https://github.com/gerstrong/Commander-Genius.git @add
 - Code language: C, C++
 - Code license: GPL-2.0
 

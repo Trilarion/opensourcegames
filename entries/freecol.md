@@ -6,7 +6,7 @@
 - State: mature
 - Download: http://www.freecol.org/download.html
 - Keywords: strategy, multiplayer, remake, turn-based
-- Code repository: https://github.com/FreeCol/freecol.git, https://git.code.sf.net/p/freecol/git (+)
+- Code repository: https://github.com/FreeCol/freecol.git, https://git.code.sf.net/p/freecol/git @add
 - Code language: Java
 - Code license: GPL-2.0
 

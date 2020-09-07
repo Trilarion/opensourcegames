@@ -5,7 +5,7 @@
 - State: mature, inactive since 2014
 - Download: https://sourceforge.net/projects/dunedynasty
 - Keywords: strategy, remake, requires original content (Dune 2)
-- Code repository: https://git.code.sf.net/p/dunedynasty/dunedynasty, https://gitlab.com/osgames/dunedynasty.git (+)
+- Code repository: https://git.code.sf.net/p/dunedynasty/dunedynasty, https://gitlab.com/osgames/dunedynasty.git @add
 - Code language: C
 - Code license: GPL-2.0
 

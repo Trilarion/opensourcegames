@@ -5,7 +5,7 @@
 - Download: http://psyco.sourceforge.net/download.html
 - Platform: Windows, Linux
 - Keywords: tool
-- Code repository: (see download)
+- Code repository: @see-download
 - Code language: C
 - Code license: MIT
 

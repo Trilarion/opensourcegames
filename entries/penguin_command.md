@@ -6,7 +6,7 @@
 - Download: https://sourceforge.net/projects/penguin-command/files/penguin-command/
 - Platform: Windows, Linux, macOS
 - Keywords: arcade
-- Code repository: (see download)
+- Code repository: @see-download
 - Code language: C
 - Code license: GPL-2.0
 

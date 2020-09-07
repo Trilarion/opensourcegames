@@ -5,7 +5,7 @@
 - State: beta
 - Platform: Windows, Linux
 - Keywords: action, remake
-- Code repository: https://github.com/AliveTeam/alive_reversing.git, https://github.com/paulsapps/alive.git (+)
+- Code repository: https://github.com/AliveTeam/alive_reversing.git, https://github.com/paulsapps/alive.git @add
 - Code language: C++
 - Code license: MIT
 - Code dependencies: SDL2

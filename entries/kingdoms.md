@@ -2,7 +2,7 @@
 
 - Home: http://anttisalonen.github.io/kingdoms/
 - State: beta, inactive since 2014
-- Download: (see home)
+- Download: @see-home
 - Platform: Linux
 - Keywords: strategy
 - Code repository: https://github.com/anttisalonen/kingdoms.git

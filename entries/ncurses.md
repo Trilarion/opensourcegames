@@ -6,7 +6,7 @@
 - Download: https://invisible-island.net/ncurses/#downloads
 - Platform: Windows, Linux
 - Keywords: library
-- Code repository: (see download)
+- Code repository: @see-download
 - Code language: C
 - Code license: MIT
 

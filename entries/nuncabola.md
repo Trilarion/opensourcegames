@@ -4,7 +4,7 @@
 - Inspirations: Neverball, Super Monkey Ball
 - State: beta
 - Keywords: action, clone, open content
-- Code repository: (see home)
+- Code repository: @see-home
 - Code language: Java
 - Code license: GPL-2.0
 

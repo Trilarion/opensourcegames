@@ -4,7 +4,7 @@
 - State: mature, inactive since 2006
 - Download: https://sourceforge.net/projects/sftrh/files/sftrh/
 - Keywords: strategy, open content, real time
-- Code repository: (see download)
+- Code repository: @see-download
 - Code language: Python
 - Code license: GPL-2.0
 - Code dependencies: pygame, PygLibs

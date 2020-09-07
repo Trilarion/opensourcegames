@@ -4,7 +4,7 @@
 - Inspirations: Minecraft
 - State: beta, inactive since 2018
 - Keywords: simulation, open content, remake, sandbox, voxel
-- Code repository: https://github.com/ddevault/TrueCraft.git (archived), https://github.com/danielcrenna/TrueCraft.git (+)
+- Code repository: https://github.com/ddevault/TrueCraft.git (archived), https://github.com/danielcrenna/TrueCraft.git @add
 - Code language: C#
 - Code license: MIT
 

@@ -5,7 +5,7 @@
 - State: mature, inactive since 2000
 - Platform: Linux
 - Keywords: library
-- Code repository: (see home)
+- Code repository: @see-home
 - Code language: C
 - Code license: BSD
 

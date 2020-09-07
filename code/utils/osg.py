@@ -534,12 +534,11 @@ def check_and_process_entry(entry):
         d[field] = value
     building = d
 
-    # check valid fields TODO should also check order
+    # check valid fields in building TODO should also check order
     for field in building.keys():
         if field not in valid_building_fields:
             message += 'Building field "{}" invalid\n'.format(field)
     entry['Building'] = building
-
 
     # check canonical file name
     file = entry['File']
@@ -548,10 +547,37 @@ def check_and_process_entry(entry):
     if canonical_file_name != file and canonical_file_name != file[:-5] + '.md':
         message += 'file name should be {}\n'.format(canonical_file_name)
 
+    # state must contain either beta or mature but not both
+    state = entry['State']
+    for t in state:
+        if t != 'beta' and t != 'mature' and not t.startswith('inactive since '):
+            message += 'Unknown state "{}"'.format(t)
+    if 'beta' in state == 'mature' in state:
+        message += 'State must be one of <"beta", "mature">'
+
+    # check urls
+    for field in url_fields:
+        values = entry.get(field, [])
+        for value in values:
+            if value.value.startswith('<') and value.value.endswith('>'):
+                value.value = value.value[1:-1]
+            if not any(value.startswith(x) for x in valid_url_prefixes):
+                message += 'URL "{}" in field "{}" does not start with a valid prefix'.format(value, field)
+
     if message:
         raise RuntimeError(message)
 
     return entry
+
+def extract_inactive_year(entry):
+    state = entry['State']
+    phrase = 'inactive since '
+    inactive_year = [x[len(phrase):] for x in state if x.startswith(phrase)]
+    assert len(inactive_year) <= 1
+    if inactive_year:
+        return inactive_year[0]
+    else:
+        return None
 
 
 def write_entries(entries):

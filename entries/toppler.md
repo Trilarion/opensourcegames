@@ -6,7 +6,7 @@
 - Download: http://toppler.sourceforge.net/#downloads, https://sourceforge.net/projects/toppler/files/
 - Platform: Windows, Linux
 - Keywords: action, puzzle, remake
-- Code repository: (see download)
+- Code repository: @see-download
 - Code language: C++
 - Code license: GPL-2.0
 

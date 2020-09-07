@@ -3,7 +3,7 @@
 - Home: http://web.archive.org/web/20061207140937/http://www.cs.uidaho.edu:80/~cass0664/fRaBs/index.html, http://abuse.zoy.org/
 - State: mature, inactive since 2016
 - Keywords: action, action-adventure, open content, side-scrolling
-- Code repository: https://github.com/antrad/Abuse_1996.git (SDL2), https://github.com/Xenoveritas/abuse.git (+), https://github.com/videogamepreservation/abuse.git (+)
+- Code repository: https://github.com/antrad/Abuse_1996.git (SDL2), https://github.com/Xenoveritas/abuse.git @add, https://github.com/videogamepreservation/abuse.git @add
 - Code language: Lisp
 - Code license: Public domain
 - Assets license: Public domain

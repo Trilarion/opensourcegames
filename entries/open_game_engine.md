@@ -5,7 +5,7 @@
 - Download: https://sourceforge.net/projects/oge/files/
 - Platform: Windows
 - Keywords: game engine, framework, game editor
-- Code repository: https://gitlab.com/osgames/oge.git (combination of cvs+svn+git), https://git.code.sf.net/p/oge/git (+), https://svn.code.sf.net/p/oge/svn (svn), http://oge.cvs.sourceforge.net (cvs)
+- Code repository: https://gitlab.com/osgames/oge.git (combination of cvs+svn+git), https://git.code.sf.net/p/oge/git @add, https://svn.code.sf.net/p/oge/svn (svn), http://oge.cvs.sourceforge.net (cvs)
 - Code language: C++
 - Code license: LGPL-2.1
 

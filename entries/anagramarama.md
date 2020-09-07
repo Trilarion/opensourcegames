@@ -3,7 +3,7 @@
 - Home: https://web.archive.org/web/20150412072808/http://www.coralquest.com/anagramarama/
 - State: beta, inactive since 2002
 - Keywords: puzzle, open content
-- Code repository: (see home)
+- Code repository: @see-home
 - Code language: C
 - Code license: GPL-2.0
 - Assets license: GPL-2.0

@@ -5,7 +5,7 @@
 - State: mature, inactive since 2015
 - Download: https://sourceforge.net/projects/sdlscavenger/files/
 - Keywords: puzzle, 2D, remake
-- Code repository: (see download)
+- Code repository: @see-download
 - Code language: C
 - Code license: GPL-2.0
 

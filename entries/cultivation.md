@@ -5,7 +5,7 @@
 - Download: https://sourceforge.net/projects/cultivation/files/cultivation/
 - Platform: Windows, Linux, macOS
 - Keywords: simulation, evolution, open content
-- Code repository: (see download)
+- Code repository: @see-download
 - Code language: C++
 - Code license: Public domain (http://cultivation.sourceforge.net/)
 - Code dependencies: GLUT

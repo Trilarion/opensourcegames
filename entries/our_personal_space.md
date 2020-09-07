@@ -2,7 +2,7 @@
 
 - Home: http://metasepia.icecavern.net/OurPersonalSpace/index.html
 - State: mature
-- Download: (see home)
+- Download: @see-home
 - Keywords: visual novel, simulation
 - Code repository: https://github.com/qirien/personal-space.git
 - Code language: Ren'py

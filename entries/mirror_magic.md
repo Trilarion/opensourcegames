@@ -4,7 +4,7 @@
 - Inspirations: Deflektor
 - State: mature
 - Keywords: puzzle, remake
-- Code repository: (see home)
+- Code repository: @see-home
 - Code language: C
 - Code license: GPL-2.0
 

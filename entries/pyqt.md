@@ -5,7 +5,7 @@
 - State: mature
 - Platform: Windows, Linux, macOS, Android, iOS
 - Keywords: library
-- Code repository: (see home)
+- Code repository: @see-home
 - Code language: C++, Python
 - Code license: GPL-3.0, Custom (Riverbank Commercial License)
 - Code dependencies: Qt

@@ -4,7 +4,7 @@
 - State: beta, inactive since 2007
 - Download: http://www.sixthfloorlabs.com/files/
 - Keywords: arcade, open content
-- Code repository: (see download)
+- Code repository: @see-download
 - Code language: Python
 - Code license: GPL
 - Code dependencies: pygame

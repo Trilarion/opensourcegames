@@ -6,7 +6,7 @@
 - Download: http://www.newbreedsoftware.com/defendguin/download/, ftp://ftp.tuxpaint.org/unix/x/defendguin
 - Platform: Windows, Linux
 - Keywords: remake
-- Code repository: (see download)
+- Code repository: @see-download
 - Code language: C
 - Code license: GPL-2.0
 

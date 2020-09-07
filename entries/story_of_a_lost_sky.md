@@ -4,7 +4,7 @@
 - State: mature
 - Download: https://bitbucket.org/featheredmelody/lost-sky-project-public/downloads/
 - Keywords: role playing
-- Code repository: https://bitbucket.org/featheredmelody/lost-sky-project-public/src (hg), https://gitlab.com/osgames/lost-sky.git (+)
+- Code repository: https://bitbucket.org/featheredmelody/lost-sky-project-public/src (hg), https://gitlab.com/osgames/lost-sky.git @add
 - Code language: Python
 - Code license: 3-clause BSD
 - Code dependencies: pygame

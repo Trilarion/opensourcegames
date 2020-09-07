@@ -5,7 +5,7 @@
 - Download: https://julianoliver.com/levelhead/install.html
 - Platform: Linux
 - Keywords: puzzle, open content
-- Code repository: (see download)
+- Code repository: @see-download
 - Code language: C++, Python
 - Code license: GPL-3.0
 - Assets license: CC-BY-SA-3.0

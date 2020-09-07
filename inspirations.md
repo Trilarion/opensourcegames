@@ -12,7 +12,7 @@
 ## Abuse [1]
 
 - Inspired entries: Abuse
-- Media: <https://en.wikipedia.org/wiki/Abuse_(video_game)>
+- Media: https://en.wikipedia.org/wiki/Abuse_(video_game)
 
 ## Ace Combat: Assault Horizon [1]
 
@@ -22,7 +22,7 @@
 ## Ace of Spades [3]
 
 - Inspired entries: BetterSpades, Iceball, OpenSpades
-- Media: <https://en.wikipedia.org/wiki/Ace_of_Spades_(video_game)>
+- Media: https://en.wikipedia.org/wiki/Ace_of_Spades_(video_game)
 
 ## Achtung, die Kurve! [4]
 
@@ -37,7 +37,7 @@
 ## Age of Empires [2]
 
 - Inspired entries: 0 A.D., openage
-- Media: <https://en.wikipedia.org/wiki/Age_of_Empires_(video_game)>
+- Media: https://en.wikipedia.org/wiki/Age_of_Empires_(video_game)
 
 ## Age of Empires II [2]
 
@@ -56,7 +56,7 @@
 ## Allegiance [1]
 
 - Inspired entries: Free Allegiance
-- Media: <https://en.wikipedia.org/wiki/Allegiance_(video_game)>
+- Media: https://en.wikipedia.org/wiki/Allegiance_(video_game)
 
 ## Anno (series) [1]
 
@@ -297,7 +297,7 @@
 ## Cadaver [1]
 
 - Inspired entries: Cadaver
-- Media: <https://en.wikipedia.org/wiki/Cadaver_(video_game)>
+- Media: https://en.wikipedia.org/wiki/Cadaver_(video_game)
 
 ## Caesar 3 [2]
 
@@ -462,6 +462,7 @@
 ## Cube 2: Sauerbraten [2]
 
 - Inspired entries: Inexor, Open Cube
+- Media: https://en.wikipedia.org/wiki/Cube_2:_Sauerbraten
 
 ## CUBE engine [1]
 
@@ -614,7 +615,7 @@
 ## E.T. the Extra-Terrestrial [1]
 
 - Inspired entries: javascript-E.T.
-- Media: <https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial_(video_game)>
+- Media: https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial_(video_game)
 
 ## Eat The Whistle [1]
 
@@ -737,7 +738,7 @@
 ## Freelancer [1]
 
 - Inspired entries: Librelancer
-- Media: <https://en.wikipedia.org/wiki/Freelancer_(video_game)>
+- Media: https://en.wikipedia.org/wiki/Freelancer_(video_game)
 
 ## Freeserf [1]
 
@@ -778,7 +779,7 @@
 ## GoldenEye 007 [2]
 
 - Inspired entries: ges-code, GoldenEye: Source
-- Media: <https://en.wikipedia.org/wiki/GoldenEye_007_(1997_video_game)>
+- Media: https://en.wikipedia.org/wiki/GoldenEye_007_(1997_video_game)
 
 ## Gorillas [2]
 
@@ -944,7 +945,7 @@
 ## Krush Kill 'n' Destroy [1]
 
 - Inspired entries: KKnD
-- Media: <https://en.wikipedia.org/wiki/KKnD_(video_game)>
+- Media: https://en.wikipedia.org/wiki/KKnD_(video_game)
 
 ## Kula World [1]
 
@@ -981,7 +982,7 @@
 ## Lemmings [5]
 
 - Inspired entries: Lemmings.ts, Lemmini, Lix, Pingus, Rabbit Escape
-- Media: <https://en.wikipedia.org/wiki/Lemmings_(video_game)>
+- Media: https://en.wikipedia.org/wiki/Lemmings_(video_game)
 
 ## Liero [4]
 
@@ -1056,7 +1057,7 @@
 ## Marathon [1]
 
 - Inspired entries: Aleph One
-- Media: <https://marathongame.fandom.com/wiki/Marathon_(Game)>
+- Media: https://marathongame.fandom.com/wiki/Marathon_(Game)
 
 ## Marathon 2 [1]
 
@@ -1507,7 +1508,7 @@
 ## Seven Kingdoms: Ancient Adversaries [1]
 
 - Inspired entries: Seven Kingdoms: Ancient Adversaries
-- Media: <https://en.wikipedia.org/wiki/Seven_Kingdoms_(video_game)>
+- Media: https://en.wikipedia.org/wiki/Seven_Kingdoms_(video_game)
 
 ## sfxr [1]
 
@@ -1528,17 +1529,17 @@
 ## Ship Simulator 2006 [1]
 
 - Inspired entries: Bridge Command
-- Media: <https://en.wikipedia.org/wiki/Ship_Simulator_(video_game)>
+- Media: https://en.wikipedia.org/wiki/Ship_Simulator_(video_game)
 
 ## Ship Simulator 2008 [1]
 
 - Inspired entries: Bridge Command
-- Media: <https://en.wikipedia.org/wiki/Ship_Simulator_(video_game)>
+- Media: https://en.wikipedia.org/wiki/Ship_Simulator_(video_game)
 
 ## Ship Simulator Extremes [1]
 
 - Inspired entries: Bridge Command
-- Media: <https://en.wikipedia.org/wiki/Ship_Simulator_(video_game)>
+- Media: https://en.wikipedia.org/wiki/Ship_Simulator_(video_game)
 
 ## Shobon Action [1]
 
@@ -1571,7 +1572,7 @@
 ## SimCity [9]
 
 - Inspired entries: 3d.city, Citybound, Cytopia, Divercity, Lincity, LinCity-NG, Micropolis, micropolisJS, OpenCity
-- Media: <https://en.wikipedia.org/wiki/SimCity_(1989_video_game)>
+- Media: https://en.wikipedia.org/wiki/SimCity_(1989_video_game)
 
 ## SimCity 2000 [1]
 
@@ -1783,7 +1784,7 @@
 ## Super Monkey Ball [4]
 
 - Inspired entries: irrlamb, Neverball, Nuncabola, Veraball
-- Media: <https://en.wikipedia.org/wiki/Super_Monkey_Ball_(video_game)>
+- Media: https://en.wikipedia.org/wiki/Super_Monkey_Ball_(video_game)
 
 ## Super Smash Bros. [3]
 
@@ -2010,7 +2011,7 @@
 ## Turmoil [1]
 
 - Inspired entries: Data Storm
-- Media: <https://en.wikipedia.org/wiki/Turmoil_(1984_video_game)>
+- Media: https://en.wikipedia.org/wiki/Turmoil_(1984_video_game)
 
 ## Turok [1]
 
@@ -2146,7 +2147,7 @@
 ## Warlords II [2]
 
 - Inspired entries: FreeLords, LordsAWar!
-- Media: <https://en.wikipedia.org/wiki/Warlords_(game_series)>
+- Media: https://en.wikipedia.org/wiki/Warlords_(game_series)
 
 ## Warrior Kings [1]
 

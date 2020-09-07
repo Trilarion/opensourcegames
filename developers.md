@@ -32,7 +32,7 @@
 
 ## Alex Margarit [1]
 
-- Games: faur
+- Games: Faur
 
 ## Alexander Lang [1]
 
@@ -590,7 +590,7 @@
 
 - Games: Hack
 
-## Jean-Baptiste Lamy  / Nekeme Prod. [1]
+## Jean-Baptiste "Jiba" Lamy [1]
 
 - Games: Slune
 

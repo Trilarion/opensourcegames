@@ -3,10 +3,11 @@ title: "#" /(?! ).+(?<! )/ _NL                 // not starting or ending with a 
 
 property: "-" _key ":" _values _NL
 _key : /(?! ).+?(?=:)(?<! )/    // key: everything until next ":", not beginning or ending with a space
-_values : [_value ("," _value)*]
-_value : quoted_value | unquoted_value
-quoted_value : /\".+?\"/   // with quotation marks, can contain commas
-unquoted_value : /(?![ \"])[^,\n]+(?<![ \"])/ // cannot contain commas, cannot start or end with quotation mark
+_values : [value ("," value)*]
+value : (quoted_value comment_value?) | (unquoted_value comment_value?)
+quoted_value : /\".*?\"/
+unquoted_value : /(?![ \"]).+?(?=,|\n| \()/
+comment_value : /(?<= )\(.+?\)/
 
 note: /(?![\-#]).*\n/+                              // Unstructured text, not starting with - or #
 

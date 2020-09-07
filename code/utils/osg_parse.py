@@ -17,7 +17,7 @@ class ListingTransformer(lark.Transformer):
         return x[0].value
 
     def quoted_value(self, x):
-        return x[0].value[1:-1]  # remove quotation marks
+        return x[0].value[1:-1].strip()  # remove quotation marks and strip whitespaces
 
     def property(self, x):
         """
@@ -61,13 +61,23 @@ class EntryTransformer(lark.Transformer):
     def quoted_value(self, x):
         return x[0].value[1:-1]  # remove quotation marks
 
+    def comment_value(self, x):
+        return x[0].value[1:-1]  # remove parenthesis
+
+    def value(self, x):
+        if len(x) == 1:
+            v = ValueWithComment(value=x[0])
+        else:
+            v = ValueWithComment(value=x[0], comment=x[1])
+        return v
+
     def property(self, x):
         """
         The key of a property will be converted to lower case and the value part is the second part
         :param x:
         :return:
         """
-        return x[0], x[1:]
+        return x[0].value, x[1:]
 
     def title(self, x):
         return 'Title', x[0].value
@@ -83,33 +93,33 @@ class EntryTransformer(lark.Transformer):
         return 'Note', ''.join((x.value for x in x))
 
     def building(self, x):
-        d = {}
-        for key, value in x:
-            if key in d:
-                raise RuntimeError('Key in entry appears twice')
-            d[key] = value
-        return 'Building', d
+        return 'Building', x
 
     def start(self, x):
-        # we do the essential fields and valid fields checks right here
-        fields = [x[0] for x in x]
-        # check for essential fields
-        for field in c.essential_fields:
-            if field not in fields:
-                raise RuntimeError('Essential field "{}" is missing'.format(field))
-        # check for valid fields (in that order)
-        index = 0
-        for field in fields:
-            while index < len(c.valid_fields) and field != c.valid_fields[index]:
-                index += 1
-            if index == len(c.valid_fields):
-                raise RuntimeError('Field "{}" either not valid or in wrong order'.format(field))
-        d = {}
-        for key, value in x:
-            if key in d:
-                raise RuntimeError('Key in entry appears twice')
-            d[key] = value
-        return d
+        return x
+
+
+class ValueWithComment:
+    """
+      All our property values can have (optional) comments. This is the class that represents them to us and implements
+      equality and 'in' operator functionality purely on the value.
+    """
+
+    def __init__(self, value, comment=None):
+        self.value = value
+        self.comment = comment
+
+    def __contains__(self, item):
+        return item in self.value
+
+    def __eq__(self, other):
+        return self.value == other
+
+    def __repr__(self):
+        if self.comment:
+            return '{} ({})'.format(self.value, self.comment)
+        else:
+            return '{}'.format(self.value)
 
 
 def parse(parser, transformer, content):

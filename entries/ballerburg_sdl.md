@@ -5,7 +5,7 @@
 - Inspirations: Ballerburg
 - State: mature
 - Keywords: action, artillery, remake
-- Code repository: https://git.tuxfamily.org/baller/baller.git, https://gitlab.com/osgames/ballerburg.git (+) (import of original source downloads)
+- Code repository: https://git.tuxfamily.org/baller/baller.git, https://gitlab.com/osgames/ballerburg.git (@add, import of original source downloads)
 - Code language: C
 - Code license: GPL-3.0
 - Code dependencies: SDL2

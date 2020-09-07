@@ -300,28 +300,32 @@ def read_developers():
     grammar_file = os.path.join(code_path, 'grammar_listing.lark')
     developers = osg_parse.read_and_parse(developer_file, grammar_file, osg_parse.ListingTransformer)
 
-    # now transform a bit more
-    for index, dev in enumerate(developers):
-        # check for valid keys
-        for field in dev.keys():
-            if field not in valid_developer_fields:
-                raise RuntimeError('Unknown developer field "{}" for developer: {}.'.format(field, dev['Name']))
-        # strip from name or organization (just in case)
-        for field in ('Name', ):
-            if field in dev:
-                dev[field] = dev[field].strip()
-        # split games, contact (are lists)
-        for field in ('Games', 'Contact'):
-            if field in dev:
-                content = dev[field]
-                content = [x.strip() for x in content]
-                dev[field] = content
+    # now developers is a list of dictionaries for every entry with some properties
+
     # check for duplicate names entries
     names = [dev['Name'] for dev in developers]
     duplicate_names = (name for name in names if names.count(name) > 1)
     duplicate_names = set(duplicate_names)  # to avoid duplicates in duplicate_names
     if duplicate_names:
         print('Warning: duplicate developer names: {}'.format(', '.join(duplicate_names)))
+
+    # check for essential, valid fields
+    for dev in developers:
+        # check that essential fields are existing
+        for field in essential_developer_fields:
+            if field not in dev:
+                raise RuntimeError('Essential field "{}" missing in developer {}'.format(field, dev['Name']))
+        # check that all fields are valid fields
+        for field in dev.keys():
+            if field not in valid_developer_fields:
+                raise RuntimeError('Invalid field "{}" in developer {}.'.format(field, dev['Name']))
+        # url fields
+        for field in url_developer_fields:
+            if field in dev:
+                content = dev[field]
+                if any(not (x.startswith('http://') or x.startswith('https://')) for x in content):
+                    raise RuntimeError('Invalid URL in field "{}" in developer {}.'.format(field, dev['Name']))
+
     return developers
 
 
@@ -343,7 +347,7 @@ def write_developers(developers):
     for dev in developers:
         keys = list(dev.keys())
         # developer name
-        content += '## {} [{}]\n\n'.format(dev['Name'], len(dev['games']))
+        content += '## {} [{}]\n\n'.format(dev['Name'], len(dev['Games']))
         keys.remove('Name')
 
         # all the remaining in alphabetical order, but 'games' first
@@ -352,7 +356,6 @@ def write_developers(developers):
         keys = ['Games'] + keys
         for field in keys:
             value = dev[field]
-            field = field.capitalize()
             # lists get special treatment
             if isinstance(value, list):
                 value.sort(key=str.casefold)
@@ -377,20 +380,7 @@ def read_inspirations():
     grammar_file = os.path.join(code_path, 'grammar_listing.lark')
     inspirations = osg_parse.read_and_parse(inspirations_file, grammar_file, osg_parse.ListingTransformer)
 
-    # now inspirations is a list of dictionaries for every entry with keys (valid_developers_fields)
-
-    # now transform a bit more
-    for inspiration in inspirations:
-        # check that keys are valid keys
-        for field in inspiration.keys():
-            if field not in valid_inspiration_fields:
-                raise RuntimeError('Unknown field "{}" for inspiration: {}.'.format(field, inspiration['Name']))
-        # split lists
-        for field in ('Inspired entries',):
-            if field in inspiration:
-                content = inspiration[field]
-                content = [x.strip() for x in content]
-                inspiration[field] = content
+    # now inspirations is a list of dictionaries for every entry with some properties
 
     # check for duplicate names entries
     names = [inspiration['Name'] for inspiration in inspirations]
@@ -398,6 +388,23 @@ def read_inspirations():
     duplicate_names = set(duplicate_names)  # to avoid duplicates in duplicate_names
     if duplicate_names:
         raise RuntimeError('Duplicate inspiration names: {}'.format(', '.join(duplicate_names)))
+
+    # check for essential, valid fields
+    for inspiration in inspirations:
+        # check that essential fields are existing
+        for field in essential_inspiration_fields:
+            if field not in inspiration:
+                raise RuntimeError('Essential field "{}" missing in inspiration {}'.format(field, inspiration['Name']))
+        # check that all fields are valid fields
+        for field in inspiration.keys():
+            if field not in valid_inspiration_fields:
+                raise RuntimeError('Invalid field "{}" in inspiration {}.'.format(field, inspiration['Name']))
+        # url fields
+        for field in url_inspiration_fields:
+            if field in inspiration:
+                content = inspiration[field]
+                if any(not (x.startswith('http://') or x.startswith('https://')) for x in content):
+                    raise RuntimeError('Invalid URL in field "{}" in inspiration {}.'.format(field, inspiration['Name']))
 
     # convert to dictionary
     inspirations = {x['Name']: x for x in inspirations}
@@ -417,7 +424,7 @@ def write_inspirations(inspirations):
     # comment
     content = '{}\n'.format(generic_comment_string)
 
-    # number of developer
+    # updated number of inspirations
     content += '# Inspirations [{}]\n\n'.format(len(inspirations))
 
     # sort by name
@@ -436,7 +443,6 @@ def write_inspirations(inspirations):
         keys = ['Inspired entries'] + keys
         for field in keys:
             value = inspiration[field]
-            field = field.capitalize()
             # lists get special treatment
             if isinstance(value, list):
                 value.sort(key=str.casefold)  # sorted alphabetically
@@ -472,15 +478,12 @@ def read_entries():
         # parse and transform entry content
         try:
             entry = parse(content)
-            # add file information
-            entry['File'] = file
-
-            check_entry(entry)
-
-            post_process(entry)
+            entry = [('File', file),] + entry # add file information to the beginning
+            entry = check_and_process_entry(entry)
         except Exception as e:
             print('{} - {}'.format(file, e))
             exception_happened = True
+            # raise RuntimeError(e)
             continue
 
         # add to list
@@ -490,46 +493,43 @@ def read_entries():
 
     return entries
 
-def post_process(entry):
-    """
 
-    :param entry:
-    :return:
-    """
-
-    # remove all parentheses from developers
-    if 'Developer' in entry:
-        devs = entry['Developer']
-        devs = [re.sub(r'\([^)]*\)', '', x).strip() for x in devs]
-        if any(not x for x in devs):
-            raise RuntimeError('Empty developer')
-        entry['Developer'] = devs
-
-
-
-def check_entry(entry):
-    """
-
-    :param entry:
-    :return:
-    """
+def check_and_process_entry(entry):
     message = ''
 
-    file = entry['File']
+    # check that all fields are valid fields and are existing in that order
+    index = 0
+    for e in entry:
+        field = e[0]
+        while index < len(valid_fields) and field != valid_fields[index]:
+            index += 1
+        if index == len(valid_fields):  # must be valid fields and must be in the right order
+            message += 'Field "{}" either misspelled or in wrong order\n'.format(field)
 
-    # check canonical file name
-    canonical_file_name = canonical_entry_name(entry['Title']) + '.md'
-    # we also allow -X with X =2..9 as possible extension (because of duplicate canonical file names)
-    if canonical_file_name != file and canonical_file_name != file[:-5] + '.md':
-        message += 'file name should be {}\n'.format(canonical_file_name)
+    # order is fine we can convert to dictionary
+    d = {}
+    for field, value in entry:
+        if field in d:
+            message += 'Field "{}" appears twice\n'.format(field)
+        d[field] = value
+    entry = d
 
     # check for essential fields
     for field in essential_fields:
         if field not in entry:
             message += 'essential property "{}" missing\n'.format(field)
 
+    # check canonical file name
+    file = entry['File']
+    canonical_file_name = canonical_entry_name(entry['Title']) + '.md'
+    # we also allow -X with X =2..9 as possible extension (because of duplicate canonical file names)
+    if canonical_file_name != file and canonical_file_name != file[:-5] + '.md':
+        message += 'file name should be {}\n'.format(canonical_file_name)
+
     if message:
         raise RuntimeError(message)
+
+    return entry
 
 
 def write_entries(entries):

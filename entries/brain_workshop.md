@@ -9,7 +9,7 @@
 - Code language: Python
 - Code license: GPL-2.0
 - Code dependencies: pyglet
-- Assets license: CC (caprica-letters and all the music in the latest version
+- Assets license: CC (caprica-letters and all the music in the latest version)
 
 Dual n-back brain training exercise.
 

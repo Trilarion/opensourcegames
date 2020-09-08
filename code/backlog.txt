@@ -3,33 +3,17 @@ ftp://ftp.tuxpaint.org/unix/x/
 http://antongerdelan.net/blog/ (other projects besides TestDrive)
 http://cdetect.sourceforge.net/
 http://circularstudios.com/
-https://github.com/SadConsole/SadConsole
-https://github.com/tlgkccampbell/ultraviolet
-https://github.com/amerkoleci/Vortice.Windows
-https://github.com/horde3d/Horde3D
-https://github.com/delaford/game
-https://github.com/cxong/cdogs-sdl
-https://moaiwebsite.github.io/
 http://cyxdown.free.fr/bs/
 http://cyxdown.free.fr/f2b/
-https://github.com/tlgkccampbell/ultraviolet
-https://github.com/ianfab/Fairy-Stockfish
-https://github.com/tomlooman/SimpleFPSTemplate
-https://github.com/nfprojects/nfengine
 http://dead-code.org/home/
 http://e-adventure.e-ucm.es/login/index.php (games of eAdventure)
 http://ethernet.wasted.ch/
 http://evolonline.org/about
 http://game-editor.com/Main_Page
 http://giderosmobile.com/
-https://github.com/skylicht-lab/skylicht-engine
-https://github.com/etlegacy/etlegacy
-https://github.com/Soldat/soldat
-https://github.com/guillaumechereau/goxel
 http://haxepunk.com/
 http://hcsoftware.sourceforge.net/jason-rohrer/ (various games there)
-https://github.com/cxong/cdogs-sdl
-https://github.com/terrafx/terrafx
+http://hge.relishgames.com/
 http://hgm.nubati.net/
 http://icculus.org/
 http://icculus.org/asciiroth/
@@ -39,7 +23,7 @@ http://icculus.org/blackshades/
 http://icculus.org/d2x/
 http://icculus.org/freespace2/
 http://icculus.org/freyja/
-http://icculus.org/hge-unix/ http://hge.relishgames.com/
+http://icculus.org/hge-unix/
 http://icculus.org/jugglemaster/
 http://icculus.org/pyddr/
 http://icculus.org/toby/
@@ -48,7 +32,6 @@ http://insideastarfilledsky.net/
 http://lazerbears.wixsite.com/lazerbears/cr-editor
 http://libagar.org/agar/index.html.en
 http://libsdl-android.sourceforge.net/
-http://libsdl-android.sourceforge.net/ (Open source games ported to Android)
 http://lukaszjakowski.pl/ (games apart from uMario)
 http://m484games.ucoz.com/
 http://martindrapeau.github.io/backbone-game-engine/
@@ -149,7 +132,7 @@ http://www.zsnes.com/ (emulator/platform)
 https://001gamecreator.com/
 https://agateau.com/games/
 https://aleph-one-marathon.github.io/
-https://alternativeto.net/ (query with only open source as opten)
+https://alternativeto.net/ (query with only open source as option)
 https://app.assembla.com/spaces/openrpg/wiki
 https://app.assembla.com/spaces/Project_Valkyrie2/wiki
 https://appimage.github.io/categories/Game
@@ -201,7 +184,8 @@ https://en.wikipedia.org/wiki/Teeworlds
 https://enigma-dev.org/about.htm
 https://faq.tuxfamily.org/Games/En
 https://fedoraproject.org/wiki/SIGs/Games#List_of_games_we_will_NOT_package
-https://flathub.org/home (use it for Linux packaging) / https://flathub.org/apps/category/Game
+https://flathub.org/apps/category/Game
+https://flathub.org/home (use it for Linux packaging)
 https://forum.freegamedev.net/viewtopic.php?f=20&t=11627
 https://forums.scummvm.org/viewtopic.php?t=13512&highlight=open+source
 https://freegamer.blogspot.com (maybe there is something interesting)
@@ -246,7 +230,8 @@ https://github.com/collections/web-games (only OS)
 https://github.com/collinhover/kaiopua
 https://github.com/cookgreen/Yuris-Revenge
 https://github.com/corewar/corewar.io
-https://github.com/Cortrah/SpaceOperaDesign, https://github.com/Cortrah/SpaceOperaRuby/blob/master/design/turnstyles.md
+https://github.com/Cortrah/SpaceOperaDesign
+https://github.com/Cortrah/SpaceOperaRuby/blob/master/design/turnstyles.md
 https://github.com/cping/LGame
 https://github.com/cymonsgames/CymonsGames (collection)
 https://github.com/DaanVanYperen/artemis-odb-contrib
@@ -284,10 +269,13 @@ https://github.com/godot-extended-libraries/godot-next
 https://github.com/godot-mega-man/Mega-Man-Engine
 https://github.com/godotengine/godot-design
 https://github.com/grantjenks/free-python-games (check all)
+https://github.com/guillaumechereau/goxel
 https://github.com/H-uru/Plasma
+https://github.com/horde3d/Horde3D
 https://github.com/Hotride/OrionUO
 https://github.com/hparcells/cards-against-humanity
 https://github.com/i42output/neoGFX
+https://github.com/ianfab/Fairy-Stockfish
 https://github.com/ictrobot/Cubes
 https://github.com/id-Software
 https://github.com/Illation/ETEngine
@@ -325,6 +313,7 @@ https://github.com/MustaphaTR/Romanovs-Vengeance
 https://github.com/MyGUI/mygui
 https://github.com/MyreMylar/pygame_gui
 https://github.com/nCine/nCine
+https://github.com/nfprojects/nfengine
 https://github.com/Noesis/UE4-ShooterGame
 https://github.com/ogarcia/opensudoku
 https://github.com/OGRECave/scape
@@ -375,8 +364,10 @@ https://github.com/senior-sigan/WHY_CPP
 https://github.com/septag/glslcc
 https://github.com/septag/rizz
 https://github.com/sinshu/managed-doom
+https://github.com/skylicht-lab/skylicht-engine
 https://github.com/skypjack/entt
 https://github.com/smlinux/nexuiz
+https://github.com/Soldat/soldat
 https://github.com/SPC-Some-Polish-Coders/PopHead
 https://github.com/SPC-Some-Polish-Coders/PopHead/
 https://github.com/Squalr/Squally
@@ -386,12 +377,15 @@ https://github.com/Suprcode/mir3-zircon
 https://github.com/Sygmei/ObEngine
 https://github.com/tainicom/Aether.Physics2D
 https://github.com/tangziwen/Cube-Engine
+https://github.com/terrafx/terrafx
 https://github.com/the-insulines
 https://github.com/theaigames
 https://github.com/TheGameCreators/GameGuruRepo
 https://github.com/Tinob/Ishiiruka (https://github.com/shiiion/Ishiiruka, https://github.com/SirMangler/PrimeHack-Updater)
 https://github.com/tizian/Cendric2
+https://github.com/tlgkccampbell/ultraviolet
 https://github.com/TomBebb/awe
+https://github.com/tomlooman/SimpleFPSTemplate
 https://github.com/topics/top-down-shooter
 https://github.com/uberspot/2048-android
 https://github.com/untakenstupidnick/nbsdgames (Blockout II)
@@ -432,6 +426,7 @@ https://libregamewiki.org/index.php?title=Libregamewiki_talk:Community_Portal&ol
 https://libregamewiki.org/Libregamewiki:Suggested_games#Likely_sources_for_more_free_games
 https://lmemsm.dreamwidth.org/8013.html (List of some of my favorite Open Source games)
 https://love2d.org/forums/viewforum.php?f=14 (check them if time)
+https://moaiwebsite.github.io/
 https://notabug.org/Calinou/awesome-gamedev#games
 https://odr.chalmers.se/handle/20.500.12380/219006
 https://osdn.net/softwaremap/trove_list.php?form_cat=80

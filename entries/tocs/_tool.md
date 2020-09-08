@@ -35,7 +35,7 @@
 - **[RPDungeon - computer aided role playing](../rpdungeon-computer_aided_role_playing.md)** (Pascal, GPL-2.0, beta, inactive since 2006)
 - **[SLADE](../slade.md)** (C++, GPL-2.0, mature)
 - **[Squiffy](../squiffy.md)** (JavaScript, MIT, mature)
-- **[SR](../sr.md)** (C, Assembly, MIT, GPL-2.0, LGPL-2.0 or 2.1?, mature)
+- **[SR](../sr.md)** (C, Assembly, MIT, GPL-2.0, ?, mature)
 - **[TTDPatch](../ttdpatch.md)** (Assembly, C, C++, GPL-2.0, mature, inactive since 2013)
 - **[Twine](../twine.md)** (JavaScript, GPL-3.0, mature)
 - **[UndertaleModTool](../undertalemodtool.md)** (C#, GPL-3.0, beta)

@@ -14,6 +14,9 @@ code_path = os.path.join(root_path, 'code')
 inspirations_file = os.path.join(root_path, 'inspirations.md')
 developer_file = os.path.join(root_path, 'developers.md')
 
+backlog_file = os.path.join(code_path, 'backlog.txt')
+rejected_file = os.path.join(code_path, 'rejected.txt')
+
 # local config
 local_config_file = os.path.join(root_path, 'local-config.ini')
 
@@ -43,7 +46,8 @@ valid_fields = ('File', 'Title') + valid_properties + ('Note', 'Building')
 
 url_fields = ('Home', 'Media', 'Play', 'Download', 'Code repository')
 
-valid_url_prefixes = ('http://', 'https://', 'git://', 'svn://', 'ftp://', 'bzr://', '@see-', '@not-', '?')
+valid_url_prefixes = ('http://', 'https://', 'git://', 'svn://', 'ftp://', 'bzr://')
+extended_valid_url_prefixes = valid_url_prefixes + ('@see-', '@not-', '?')
 
 valid_building_properties = ('Build system', 'Build instructions')
 valid_building_fields = valid_building_properties + ('Note',)

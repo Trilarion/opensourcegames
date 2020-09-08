@@ -16,7 +16,7 @@
 - **[Battleround](../battleround.md)** (Java, Apache-2.0, beta, inactive since 2015)
 - **[Betrayer's Moon Tactics](../betrayers_moon_tactics.md)** (JavaScript, GPL-2.0, beta, inactive since 2006)
 - **[Boohu](../boohu.md)** (Go, ISC, beta)
-- **[Brogue](../brogue.md)** (C, AGPL, mature)
+- **[Brogue](../brogue.md)** (C, AGPL-3.0, mature)
 - **[BrowserQuest](../browserquest.md)** (JavaScript, MPL-2.0, mature)
 - **[BStone](../bstone.md)** (C++, GPL-2.0, mature)
 - **[Candy Box 2](../candy_box_2.md)** (TypeScript, JavaScript, GPL-3.0, mature, inactive since 2013)

@@ -45,19 +45,6 @@ def extract_links():
     urls = sorted(list(urls), key=str.casefold)
     return urls
 
-def split_infos(infos):
-    """
-    Split into games, tools, frameworks, libraries
-    """
-    games = [x for x in infos if not any([y in x['keywords'] for y in ('tool', 'framework', 'library')])]
-    tools = [x for x in infos if 'tool' in x['keywords']]
-    frameworks = [x for x in infos if 'framework' in x['keywords']]
-    libraries = [x for x in infos if 'library' in x['keywords']]
-    return games, tools, frameworks, libraries
-
-
-
-
 
 
 
@@ -741,24 +728,6 @@ def sort_text_file(file, name):
     text = text.split('\n')
     text = sorted(list(set(text)), key=str.casefold)
     print('{} contains {} items'.format(name, len(text)))
-    text = '\n'.join(text)
-    utils.write_text(file, text)
-
-
-def clean_backlog(stripped_game_urls):
-    # read backlog and split
-    file = os.path.join(c.root_path, 'code', 'backlog.txt')
-    text = utils.read_text(file)
-    text = text.split('\n')
-
-    # remove those that are in stripped_game_urls
-    text = [x for x in text if utils.strip_url(x) not in stripped_game_urls]
-
-    # remove duplicates and sort
-    text = sorted(list(set(text)), key=str.casefold)
-    print('backlog contains {} items'.format(len(text)))
-
-    # join and save again
     text = '\n'.join(text)
     utils.write_text(file, text)
 

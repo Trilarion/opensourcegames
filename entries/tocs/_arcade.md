@@ -76,7 +76,7 @@
 - **[Powerslide remake](../powerslide_remake.md)** (C++, MIT, beta)
 - **[PrimeShooter](../primeshooter.md)** (JavaScript, GPL-2.0, mature, inactive since 2010)
 - **[progress-quest](../progress-quest.md)** (C++, MIT, mature)
-- **[Project Alexandria](../project_alexandria.md)** (Python, GPL, beta, inactive since 2007)
+- **[Project Alexandria](../project_alexandria.md)** (Python, ?, beta, inactive since 2007)
 - **[Project: Starfighter](../project_starfighter.md)** (C, GPL-3.0, mature)
 - **[PSY PONG 3D](../psy_pong_3d.md)** (C, GPL-3.0, beta, inactive since 2009)
 - **[PyBreak360](../pybreak360.md)** (Python, GPL-3.0, mature, inactive since 2015)

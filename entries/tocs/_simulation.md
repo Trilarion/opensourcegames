@@ -74,7 +74,7 @@
 - **[OpenSC2K](../opensc2k.md)** (JavaScript, GPL-3.0, beta)
 - **[OpenSkyscraper](../openskyscraper.md)** (C++, GPL-2.0, beta)
 - **[OpenTTD](../openttd.md)** (C++, GPL-2.0, mature)
-- **[Our Personal Space](../our_personal_space.md)** (Ren'py, GPL-3.0, mature)
+- **[Our Personal Space](../our_personal_space.md)** (Ren'Py, GPL-3.0, mature)
 - **[Outpost HD](../outpost_hd.md)** (C++, 3-clause BSD, beta)
 - **[Pioneer](../pioneer.md)** (C, C++, Lua, Apache-2.0, GPL-3.0, mature)
 - **[pq2](../pq2.md)** (C++, GPL-3.0, mature)

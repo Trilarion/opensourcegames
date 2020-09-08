@@ -321,7 +321,7 @@ def check_and_process_entry(entry):
         for value in values:
             if value.value.startswith('<') and value.value.endswith('>'):
                 value.value = value.value[1:-1]
-            if not any(value.startswith(x) for x in valid_url_prefixes):
+            if not any(value.startswith(x) for x in extended_valid_url_prefixes):
                 message += 'URL "{}" in field "{}" does not start with a valid prefix'.format(value, field)
 
     # github/gitlab repositories should end on .git and should start with https
@@ -380,7 +380,6 @@ def extract_inactive_year(entry):
         return inactive_year[0]
     else:
         return None
-
 
 def write_entries(entries):
     """
@@ -467,3 +466,37 @@ def create_entry_content(entry):
         content += entry['Building']['Note']
 
     return content
+
+
+def is_url(str):
+    """
+    Could be too generous. See https://stackoverflow.com/questions/7160737/how-to-validate-a-url-in-python-malformed-or-not for other possibilities.
+    :param str:
+    :return:
+    """
+    if any(str.startswith(x) for x in valid_url_prefixes) and not ' ' in str:
+        return True
+    return False
+
+
+def all_urls(entries):
+    """
+    Gets all urls of all entries in a dictionary (key=url value=list of entries (file name) with this url
+    :param entries: 
+    :return: 
+    """
+    urls = {}
+    # iterate over entries
+    for entry in entries:
+        file = entry['File']
+        for field in url_fields:  # TODO there are other fields, maybe just regex on the whole content
+            for value in entry.get(field, []):
+                if value.comment:
+                    value = value.value + ' ' + value.comment
+                else:
+                    value = value.value
+                for subvalue in value.split(' '):
+                    subvalue = subvalue.strip()
+                    if is_url(subvalue):
+                        urls[subvalue] = urls.get(subvalue, []) + [file]
+    return urls

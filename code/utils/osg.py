@@ -370,11 +370,16 @@ def check_and_process_entry(entry):
 
     return entry
 
+def is_inactive(entry):
+    state = entry['State']
+    phrase = 'inactive since '
+    return any(x.startswith(phrase) for x in state)
+
 
 def extract_inactive_year(entry):
     state = entry['State']
     phrase = 'inactive since '
-    inactive_year = [x[len(phrase):] for x in state if x.startswith(phrase)]
+    inactive_year = [x.value[len(phrase):] for x in state if x.startswith(phrase)]
     assert len(inactive_year) <= 1
     if inactive_year:
         return inactive_year[0]

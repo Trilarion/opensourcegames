@@ -13,7 +13,6 @@
 - Code dependencies: SDL
 
 Puzzle game based on Oxyd.
-Inspired by Oxyd.
 
 ## Building
 

@@ -16,6 +16,7 @@ developer_file = os.path.join(root_path, 'developers.md')
 
 backlog_file = os.path.join(code_path, 'backlog.txt')
 rejected_file = os.path.join(code_path, 'rejected.txt')
+statistics_file = os.path.join(root_path, 'statistics.md')
 
 # local config
 local_config_file = os.path.join(root_path, 'local-config.ini')

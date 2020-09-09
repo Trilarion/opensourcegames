@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://www.dfworkshop.net/projects/daggerfall-unity/live-builds/
 - Platform: Windows, Linux, macOS
-- Keywords: remake, role playing, requires additional content
+- Keywords: remake, role playing, requires original content
 - Code repository: https://github.com/Interkarma/daggerfall-unity.git
 - Code language: C#
 - Code license: MIT

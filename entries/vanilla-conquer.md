@@ -4,7 +4,7 @@
 - Inspirations: Command & Conquer, Command & Conquer: Red Alert
 - State: mature
 - Platform: Windows, Linux
-- Keywords: remake, strategy, commercial content, realtime, requires original content
+- Keywords: remake, strategy, commercial content, real time, requires original content
 - Code repository: https://github.com/Vanilla-Conquer/Vanilla-Conquer.git, https://github.com/electronicarts/CnC_Remastered_Collection.git @add
 - Code language: C, C++, Assembly
 - Code license: GPL-3.0

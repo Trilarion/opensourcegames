@@ -3,7 +3,6 @@
 - Home: http://libpng.org/pub/png/libpng.html, https://libpng.sourceforge.io/
 - Media: https://en.wikipedia.org/wiki/Libpng
 - State: mature
-- Download: @see-home
 - Keywords: library
 - Code repository: https://github.com/glennrp/libpng.git, https://sourceforge.net/p/libpng/code/ci/master/tree/
 - Code language: C

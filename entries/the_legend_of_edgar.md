@@ -9,6 +9,4 @@
 - Code language: C
 - Code license: GPL-2.0
 
-2D platform game.
-
 ## Building

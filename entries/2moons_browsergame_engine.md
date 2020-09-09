@@ -10,6 +10,4 @@
 - Code license: MIT
 - Developer: Jan-Otto Kröpke, Ozan Kurt, Hilarious001
 
-Space browsergame framework.
-
 ## Building

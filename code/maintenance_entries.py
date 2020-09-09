@@ -1,17 +1,40 @@
 """
-    Runs a series of maintenance operations on the collection of entry files, updating the table of content files for
-    each category as well as creating a statistics file.
+Runs a series of maintenance operations on the collection of entry files, updating the table of content files for
+each category as well as creating a statistics file.
 
-    Counts the number of records each sub-folder and updates the overview.
-    Sorts the entries in the contents files of each sub folder alphabetically.
+Counts the number of records each sub-folder and updates the overview.
+Sorts the entries in the contents files of each sub folder alphabetically.
 """
 
 import os
 import re
 import datetime
+import json
+import textwrap
 from utils import osg, osg_ui, utils, constants as c
 import requests
 
+def check_validity_backlog():
+    import requests
+
+    # read backlog and split
+    file = os.path.join(c.root_path, 'code', 'backlog.txt')
+    text = utils.read_text(file)
+    urls = text.split('\n')
+    urls = [x.split(' ')[0] for x in urls]
+
+    headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64)'}
+    for url in urls:
+        try:
+            r = requests.get(url, headers=headers, timeout=5)
+        except Exception as e:
+            print('{} gave error: {}'.format(url, e))
+        else:
+            if r.status_code != requests.codes.ok:
+                print('{} returned status code: {}'.format(url, r.status_code))
+
+            if r.is_redirect or r.history:
+                print('{} redirected to {}, {}'.format(url, r.url, r.history))
 
 def create_toc(title, file, entries):
     """
@@ -88,6 +111,78 @@ class EntriesMaintainer:
                 if content.find(check_string) >= 0:
                     print('{}: found {}'.format(os.path.basename(entry_path), check_string))
         print('checked for template leftovers')
+
+    def check_inconsistencies(self):
+        """
+
+        :return:
+        """
+        if not self.entries:
+            print('entries not yet loaded')
+            return
+        # get all keywords and print similar keywords
+        keywords = []
+        for entry in self.entries:
+            keywords.extend(entry['Keywords'])
+            if b'first\xe2\x80\x90person'.decode() in entry['Keywords']:
+                print(entry['File'])
+        keywords = [x.value for x in keywords]
+
+        # reduce those starting with "multiplayer"
+        keywords = [x if not x.startswith('multiplayer') else 'multiplayer' for x in keywords]
+
+        # check unique keywords
+        unique_keywords = list(set(keywords))
+        unique_keywords_counts = [keywords.count(l) for l in unique_keywords]
+        for index, name in enumerate(unique_keywords):
+            for other_index in range(index+1, len(unique_keywords)):
+                other_name = unique_keywords[other_index]
+                if osg.name_similarity(name, other_name) > 0.8:
+                    print(' Keywords {} ({}) - {} ({}) are similar'.format(name, unique_keywords_counts[index], other_name, unique_keywords_counts[other_index]))
+
+        # get all names of frameworks and library also using osg.code_dependencies_aliases
+        valid_dependencies = list(c.general_code_dependencies_without_entry.keys())
+        for entry in self.entries:
+            if any((x in ('framework', 'library', 'game engine') for x in entry['Keywords'])):
+                name = entry['Title']
+                if name in c.code_dependencies_aliases:
+                    valid_dependencies.extend(c.code_dependencies_aliases[name])
+                else:
+                    valid_dependencies.append(name)
+
+        # get all referenced code dependencies
+        referenced_dependencies = {}
+        for entry in self.entries:
+            deps = entry.get('Code dependencies', [])
+            for dependency in deps:
+                dependency = dependency.value
+                if dependency in referenced_dependencies:
+                    referenced_dependencies[dependency] += 1
+                else:
+                    referenced_dependencies[dependency] = 1
+
+        # delete those that are valid dependencies
+        referenced_dependencies = [(k, v) for k, v in referenced_dependencies.items() if k not in valid_dependencies]
+
+        # sort by number
+        referenced_dependencies.sort(key=lambda x: x[1], reverse=True)
+
+        # print out
+        print('Code dependencies not included as entry')
+        for dep in referenced_dependencies:
+            print('{} ({})'.format(*dep))
+
+        # if there is the "Play" field, it should have "Web" as Platform
+        for entry in self.entries:
+            name = entry['File']
+            if 'Play' in entry:
+                if not 'Platform' in entry:
+                    print('Entry "{}" has "Play" field but not "Platform" field, add it with "Web"'.format(name))
+                elif not 'Web' in entry['Platform']:
+                    print('Entry "{}" has "Play" field but not "Web" in "Platform" field'.format(name))
+        # javascript/typescript as language but not web as platform?
+
+        # if there is a @see-download there should be download fields...
 
     def clean_rejected(self):
         """
@@ -548,10 +643,171 @@ class EntriesMaintainer:
         print('statistics updated')
 
     def update_html(self):
-        pass
+        """
+        Parses all entries, collects interesting info and stores it in a json file suitable for displaying
+        with a dynamic table in a browser.
+        """
+        if not self.entries:
+            print('entries not yet loaded')
+            return
+
+        # make database out of it
+        db = {'headings': ['Game', 'Description', 'Download', 'State', 'Keywords', 'Source']}
+
+        entries = []
+        for info in self.entries:
+
+            # game & description
+            entry = ['{} (<a href="{}">home</a>, <a href="{}">entry</a>)'.format(info['Title'], info['Home'][0],
+                                                                                 r'https://github.com/Trilarion/opensourcegames/blob/master/entries/' +
+                                                                                 info['File']),
+                     textwrap.shorten(info.get('Note', ''), width=60, placeholder='..')]
+
+            # download
+            field = 'Download'
+            if field in info and info[field]:
+                entry.append('<a href="{}">Link</a>'.format(info[field][0]))
+            else:
+                entry.append('')
+
+            # state (field state is essential)
+            entry.append('{} / {}'.format(info['State'][0],
+                                          'inactive since {}'.format(osg.extract_inactive_year(info)) if osg.is_inactive(info) else 'active'))
+
+            # keywords
+            keywords = info['Keywords']
+            keywords = [x.value for x in keywords]
+            entry.append(', '.join(keywords))
+
+            # source
+            text = []
+            field = 'Code repository'
+            if field in info and info[field]:
+                text.append('<a href="{}">Source</a>'.format(info[field][0].value))
+            languages = info['Code language']
+            languages = [x.value for x in languages]
+            text.append(', '.join(languages))
+            licenses = info['Code license']
+            licenses = [x.value for x in licenses]
+            text.append(', '.join(licenses))
+            entry.append(' - '.join(text))
+
+            # append to entries
+            entries.append(entry)
+
+        # sort entries by game name
+        entries.sort(key=lambda x: str.casefold(x[0]))
+
+        db['data'] = entries
+
+        # output
+        text = json.dumps(db, indent=1)
+        utils.write_text(c.json_db_file, text)
+
+        print('HTML updated')
 
     def update_repos(self):
-        pass
+        """
+        export to json for local repository update of primary repos
+        """
+        if not self.entries:
+            print('entries not yet loaded')
+            return
+
+        primary_repos = {'git': [], 'svn': [], 'hg': []}
+        unconsumed_entries = []
+
+        # for every entry filter those that are known git repositories (add additional repositories)
+        for entry in self.entries:
+            repos = entry['Code repository']
+            repos = [x.value for x in repos]
+            # keep the first and all others containing @add
+            if not repos:
+                continue
+            repos = [repos[0]] + [x for x in repos[1:] if "@add" in x]
+            for repo in repos:
+                consumed = False
+                repo = repo.split(' ')[0].strip()
+                url = osg.git_repo(repo)
+                if url:
+                    primary_repos['git'].append(url)
+                    consumed = True
+                    continue
+                url = osg.svn_repo(repo)
+                if url:
+                    primary_repos['svn'].append(url)
+                    consumed = True
+                    continue
+                url = osg.hg_repo(repo)
+                if url:
+                    primary_repos['hg'].append(url)
+                    consumed = True
+                    continue
+
+                if not consumed:
+                    unconsumed_entries.append([entry['Title'], repo])
+                    print('Entry "{}" unconsumed repo: {}'.format(entry['File'], repo))
+
+        # sort them alphabetically (and remove duplicates)
+        for k, v in primary_repos.items():
+            primary_repos[k] = sorted(set(v))
+
+        # statistics of gits
+        git_repos = primary_repos['git']
+        print('{} Git repositories'.format(len(git_repos)))
+        for domain in (
+                'repo.or.cz', 'anongit.kde.org', 'bitbucket.org', 'git.code.sf.net', 'git.savannah', 'git.tuxfamily',
+                'github.com',
+                'gitlab.com', 'gitlab.com/osgames', 'gitlab.gnome.org'):
+            print('{} on {}'.format(sum(1 if domain in x else 0 for x in git_repos), domain))
+
+        # write them to code/git
+        json_path = os.path.join(c.root_path, 'code', 'archives.json')
+        text = json.dumps(primary_repos, indent=1)
+        utils.write_text(json_path, text)
+
+        print('Repositories updated')
+
+    def collect_git_repos(self):
+        """
+        for every entry, get all git
+        :return:
+        """
+
+        git_repos = []
+        for entry in self.entries:
+            repos = entry['Code repository']
+            repos = [x.value for x in repos]
+            for repo in repos:
+                repo = repo.split(' ')[0].strip()
+                url = osg.git_repo(repo)
+                if url:
+                    git_repos.append(repo)
+
+        # sort them alphabetically (and remove duplicates)
+        git_repos = sorted(list(set(git_repos)), key=str.casefold)
+
+        # write them to code/git
+        json_path = os.path.join(c.root_path, 'code', 'git_repositories.json')
+        text = json.dumps(git_repos, indent=1)
+        utils.write_text(json_path, text)
+
+    def special_ops(self):
+        """
+        For special operations that are one-time and may change.
+        :return:
+        """
+        if not self.entries:
+            print('entries not yet loaded')
+            return
+        # remove all downloads that only have a single entry with @see-home (this is the default anyway)
+        field = 'Download'
+        for entry in self.entries:
+            if field in entry:
+                content = entry[field]
+                if len(content) == 1 and content[0].value == '@see-home' and not content[0].comment:
+                    del entry[field]
+        print('special ops finished')
 
     def complete_run(self):
         pass
@@ -566,6 +822,7 @@ if __name__ == "__main__":
         'Write entries': m.write_entries,
         'Check template leftovers': m.check_template_leftovers,
         'Check external links': m.check_external_links,
+        'Check inconsistencies': m.check_inconsistencies,
         'Check rejected entries': m.clean_rejected,
         'Check external links (takes quite long)': m.check_external_links,
         'Clean backlog': m.clean_backlog,
@@ -573,6 +830,7 @@ if __name__ == "__main__":
         'Update statistics': m.update_statistics,
         'Update HTML': m.update_html,
         'Update repository list': m.update_repos,
+        'Special': m.special_ops,
         'Complete run': m.complete_run
     }
 

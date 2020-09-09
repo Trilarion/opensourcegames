@@ -3,7 +3,6 @@
 - Home: http://oitofelix.github.io/mininim/
 - Inspirations: Prince of Persia
 - State: beta, inactive since 2017
-- Download: @see-home
 - Platform: Windows, Linux
 - Keywords: action, remake, open content
 - Code repository: https://github.com/oitofelix/mininim.git

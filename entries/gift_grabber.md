@@ -4,6 +4,7 @@
 - Inspirations: Flag Catcher
 - State: mature
 - Play: https://ceva24.github.io/
+- Platform: Web
 - Keywords: puzzle, remake
 - Code repository: https://github.com/Ceva24/ceva24.github.io.git
 - Code language: JavaScript

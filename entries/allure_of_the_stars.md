@@ -3,6 +3,7 @@
 - Home: http://www.allureofthestars.com/
 - State: beta
 - Play: http://www.allureofthestars.com/play/
+- Platform: Web
 - Keywords: role playing, strategy, open content, roguelike, turn-based
 - Code repository: https://github.com/AllureOfTheStars/Allure.git
 - Code language: Haskell

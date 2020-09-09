@@ -4,7 +4,6 @@
 - Media: https://en.wikipedia.org/wiki/Total_Annihilation
 - Inspirations: Total Annihilation
 - State: beta, inactive since 2017
-- Download: @see-home
 - Platform: Windows, Linux, macOS
 - Keywords: remake, strategy, real time
 - Code repository: https://github.com/zuzuf/TA3D.git

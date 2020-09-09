@@ -3,7 +3,6 @@
 - Home: http://scoutshonour.com/digital/
 - Media: https://web.archive.org/web/20160507142946/https://lgdb.org/game/digital_love_story
 - State: mature
-- Download: @see-home
 - Platform: Windows, Linux, macOS
 - Keywords: adventure, visual novel
 - Code repository: https://gitlab.com/osgames/digitalalovestory.git (copy of version 1.1)

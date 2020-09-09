@@ -4,14 +4,13 @@
 - Media: https://en.wikipedia.org/wiki/Ryzom
 - Inspirations: Ryzom
 - State: mature
-- Play: https://www.ryzom.com/ (commercial)
 - Keywords: remake, role playing, multiplayer massive + online, requires server (?)
 - Code repository: https://github.com/ryzom/ryzomcore.git, https://gitlab.com/ryzom/ryzom-core.git (mirror)
 - Code language: C++
 - Code license: AGPL-3.0
 - Assets license: CC
 
-MMORPG with open world play.
+MMORPG with open world play. Play at https://www.ryzom.com/ (commercial)
 
 ## Building
 

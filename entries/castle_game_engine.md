@@ -2,7 +2,6 @@
 
 - Home: https://castle-engine.io/
 - State: mature
-- Download: @see-home
 - Keywords: framework, game engine
 - Code repository: https://github.com/castle-engine/castle-engine.git
 - Code language: Pascal

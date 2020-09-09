@@ -4,6 +4,7 @@
 - Inspirations: Flappy Bird
 - State: mature, inactive since 2017
 - Play: @see-home
+- Platform: Web
 - Keywords: puzzle, remake
 - Code repository: https://github.com/varunpant/CrappyBird.git
 - Code language: JavaScript

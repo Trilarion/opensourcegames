@@ -2,7 +2,6 @@
 
 - Home: https://love2d.org/
 - State: mature
-- Download: @see-home
 - Platform: Windows, Linux, macOS, Android, iOS
 - Keywords: framework
 - Code repository: https://github.com/love2d/love.git

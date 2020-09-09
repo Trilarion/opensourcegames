@@ -2,7 +2,6 @@
 
 - Home: https://stendhalgame.org/, https://sourceforge.net/projects/arianne/
 - State: mature
-- Download: @see-home
 - Keywords: role playing, multiplayer, online
 - Code repository: https://github.com/arianne/stendhal.git, https://git.code.sf.net/p/arianne/stendhal @add
 - Code language: Java

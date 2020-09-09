@@ -2,7 +2,6 @@
 
 - Home: http://www.emhsoft.com/singularity/
 - State: beta
-- Download: @see-home
 - Keywords: strategy
 - Code repository: https://github.com/singularity/singularity.git
 - Code language: Python

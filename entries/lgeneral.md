@@ -4,7 +4,6 @@
 - Media: https://en.wikipedia.org/wiki/Panzer_General#LGeneral
 - Inspirations: Panzer General
 - State: mature, inactive since 2017
-- Download: @see-home
 - Platform: Android
 - Keywords: remake, strategy, turn-based
 - Code repository: https://github.com/AndO3131/lgeneral.git (mirror), https://svn.code.sf.net/p/lgeneral/code (svn), http://lgeneral.cvs.sourceforge.net (cvs)

@@ -505,3 +505,54 @@ def all_urls(entries):
                     if is_url(subvalue):
                         urls[subvalue] = urls.get(subvalue, []) + [file]
     return urls
+
+
+def git_repo(repo):
+    """
+    Tests if a repo URL is a git repo, then returns the repo url.
+    """
+
+    # everything that starts with 'git://'
+    if repo.startswith('git://'):
+        return repo
+
+    # generic (https://*.git) or (http://*.git) ending on git
+    if (repo.startswith('https://') or repo.startswith('http://')) and repo.endswith('.git'):
+        return repo
+
+    # for all others we just check if they start with the typical urls of git services
+    services = ['https://git.tuxfamily.org/', 'http://git.pond.sub.org/', 'https://gitorious.org/',
+                'https://git.code.sf.net/p/']
+    if any(repo.startswith(service) for service in services):
+        return repo
+
+    # the rest is not recognized as a git url
+    return None
+
+
+def svn_repo(repo):
+    """
+    Tests if a repo URL is a svn repo, then returns the repo url.
+    """
+
+    # we can just go for known providers of svn
+    services = ('svn://', 'https://svn.code.sf.net/p/', 'http://svn.savannah.gnu.org/svn/', 'https://svn.icculus.org/', 'http://svn.icculus.org/', 'http://svn.uktrainsim.com/svn/', 'https://rpg.hamsterrepublic.com/source/wip')
+    if any(repo.startswith(service) for service in services):
+        return repo
+
+    # not svn
+    return None
+
+
+def hg_repo(repo):
+    """
+    Tests if a repo URL is a hg repo, then returns the repo url.
+    """
+    if repo.startswith('https://bitbucket.org/') and not repo.endswith('.git'):
+        return repo
+
+    if repo.startswith('http://hg.'):
+        return repo
+
+    # not hg
+    return None

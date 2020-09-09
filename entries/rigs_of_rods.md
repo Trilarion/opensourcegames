@@ -4,7 +4,6 @@
 - Media: https://en.wikipedia.org/wiki/Rigs_of_Rods
 - Inspirations: BeamNG.drive
 - State: mature
-- Download: @see-home
 - Platform: Windows
 - Keywords: simulation, cars, multiplayer online, open content
 - Code repository: https://github.com/RigsOfRods/rigs-of-rods.git

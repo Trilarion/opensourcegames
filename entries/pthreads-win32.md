@@ -3,7 +3,6 @@
 - Home: https://sourceware.org/pthreads-win32/
 - Media: https://en.wikipedia.org/wiki/POSIX_Threads#POSIX_Threads_for_Windows
 - State: mature
-- Download: @see-home
 - Keywords: library
 - Code repository: https://github.com/GerHobbelt/pthread-win32.git (for cvs see home)
 - Code language: C

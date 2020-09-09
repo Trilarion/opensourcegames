@@ -3,7 +3,6 @@
 - Home: https://runescapeclassic.dev/, https://web.archive.org/web/20200510133848/https://openrsc.com/
 - Inspirations: Runescape Classic
 - State: mature
-- Download: @see-home
 - Platform: Windows, Linux, macOS, Android
 - Keywords: remake, role playing, multiplayer online + massive
 - Code repository: https://gitlab.com/open-runescape-classic/core.git, https://gitlab.com/open-runescape-classic/single-player.git @add, https://github.com/Open-RSC/Core-Framework.git (mirror)

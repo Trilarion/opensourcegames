@@ -166,6 +166,7 @@
 - **[The Clans](../the_clans.md)** (C, GPL-2.0, beta, inactive since 2003)
 - **[The Dark Mod](../the_dark_mod.md)** (C++, GPL-3.0, mature)
 - **[The Endless Dungeons](../the_endless_dungeons.md)** (C, CC-BY-NC-SA-2.0, mature, inactive since 2015)
+- **[The Epic of Heroes](../the_epic_of_heroes.md)** (C++, GPL-3.0, beta, inactive since 2015)
 - **[The hunt for the lost rainbow jewels (Jewelhunt)](../the_hunt_for_the_lost_rainbow_jewels_jewelhunt.md)** (Java, GPL-2.0, beta)
 - **[The Mana World](../the_mana_world.md)** (PHP, GPL-2.0, mature)
 - **[TinTin++](../tintin++.md)** (C, GPL-3.0, mature)

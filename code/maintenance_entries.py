@@ -14,6 +14,7 @@ import textwrap
 from utils import osg, osg_ui, utils, constants as c
 import requests
 
+
 def check_validity_backlog():
     import requests
 
@@ -61,8 +62,6 @@ def create_toc(title, file, entries):
 
     # write to toc file
     utils.write_text(toc_file, text)
-
-    print('Readme and TOCs updated')
 
 
 def sort_text_file(file, name):
@@ -431,6 +430,8 @@ class EntriesMaintainer:
 
         # write to readme
         utils.write_text(readme_file, text)
+
+        print('Readme and TOCs updated')
 
     def update_statistics(self):
         """
@@ -821,7 +822,6 @@ if __name__ == "__main__":
         'Read entries': m.read_entries,
         'Write entries': m.write_entries,
         'Check template leftovers': m.check_template_leftovers,
-        'Check external links': m.check_external_links,
         'Check inconsistencies': m.check_inconsistencies,
         'Check rejected entries': m.clean_rejected,
         'Check external links (takes quite long)': m.check_external_links,

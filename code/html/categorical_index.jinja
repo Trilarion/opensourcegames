@@ -1,0 +1,29 @@
+{% extends "base.jinja" %}
+
+{% block content %}
+  <section class="section">
+    <div class="container">
+    <h1>{{ index['title'] }}</h1>
+    <p>
+{% set comma = joiner(",") %}
+{% for category in index['categories'] %}
+      {{ comma() }} <a href="#{{ category }}">{{ category.capitalize() }}</a> ({{ index['number_entries'][category] }})
+{% endfor %}
+    </p>
+{% for category in index['categories'] %}
+    <h2 id="{{ category }}">{{ category.capitalize() }}</h2>
+    <div class="columns">
+{% for entries_column in index['entries'][category] %}
+      <div class="column">
+        <ul>
+{% for entry in entries_column %}
+        <li>{{ entry }}</li>
+{% endfor %}
+        </ul>
+      </div>
+{% endfor %}
+    </div>
+{% endfor %}
+    </div>
+  </section>
+{% endblock %}

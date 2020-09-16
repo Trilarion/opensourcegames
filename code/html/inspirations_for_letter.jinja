@@ -1,0 +1,16 @@
+{% extends "base.jinja" %}
+
+{% block content %}
+  <section class="section">
+    <div class="container">
+    <h1>Inspirations ({{ letter.capitalize() }})</h1>
+{% for inspiration in inspirations %}
+    <p>
+    {{ inspiration['Name'] }}<br>
+    {% if 'Media' in inspiration %}Media: {{ inspiration['Media'] }}<br>{% endif %}
+    Inspired entries: {% for game in inspiration['Inspired entries'] %}{{ game }}{% endfor %}
+    </p>
+{% endfor %}
+    </div>
+  </section>
+{% endblock %}

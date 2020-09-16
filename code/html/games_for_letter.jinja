@@ -1,0 +1,24 @@
+{% extends "base.jinja" %}
+
+{% block content %}
+  <section class="section">
+    <div class="container">
+    <h1>Games ({{ letter.capitalize() }})</h1>
+{% for g in games %}
+    <p>
+    <a id="#{{ g['title-anchor'] }}">{{ g['Title'] }}</a><br>
+    Home: {{ g['Home'] }}<br>
+    {% if 'Inspirations' in g %}{% endif%}
+    {% if 'Media' in g %}{% endif%}
+    {% if 'Download' in g %}{% endif%}
+    {% if 'Play' in g %}{% endif%}
+    {% if 'Developer' in g %}{% endif%}
+    {% if 'Note' in g %}{% endif%}
+    Technical info:<br>
+    Language: {{ g['Code language'] }}<br>
+    License: {{ g['Code license'] }}
+    </p>
+{% endfor %}
+    </div>
+  </section>
+{% endblock %}

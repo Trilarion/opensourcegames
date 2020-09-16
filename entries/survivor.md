@@ -1,7 +1,7 @@
 # Survivor
 
 - Home: http://www.schillmania.com/survivor/
-- Inspirations: Survivor (1986)
+- Inspirations: "Survivor (1986)"
 - State: mature
 - Play: http://www.schillmania.com/survivor/
 - Platform: Web

@@ -1,7 +1,7 @@
 # Star-Wars-III
 
 - Home: https://github.com/abhinandanramesh/Star-Wars-III
-- Inspirations: Star Wars (1983 arcade game)
+- Inspirations: "Star Wars (1983 arcade game)"
 - State: mature, inactive since 2014
 - Keywords: arcade, remake, skill
 - Code repository: https://github.com/abhinandanramesh/Star-Wars-III.git

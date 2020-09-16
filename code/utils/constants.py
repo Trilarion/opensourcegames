@@ -10,6 +10,10 @@ root_path = os.path.realpath(os.path.join(os.path.dirname(__file__), os.path.par
 entries_path = os.path.join(root_path, 'entries')
 tocs_path = os.path.join(entries_path, 'tocs')
 code_path = os.path.join(root_path, 'code')
+web_path = os.path.join(root_path, 'docs')
+web_template_path = os.path.join(code_path, 'html')
+web_css_path = os.path.join(web_path, 'css')
+
 
 inspirations_file = os.path.join(root_path, 'inspirations.md')
 developer_file = os.path.join(root_path, 'developers.md')

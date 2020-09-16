@@ -8,6 +8,7 @@ valid_duplicates = ('Age of Empires', 'ARMA', 'Catacomb', 'Civilization', 'Compa
                     'Final Fantasy', 'Heroes of Might and Magic', 'Jazz Jackrabbit', 'Marathon', 'Master of Orion', 'Quake',
                     'RollerCoaster Tycoon', 'Star Wars Jedi Knight', 'The Settlers', 'Ultima', 'Ship Simulator')
 
+
 class InspirationMaintainer:
 
     def __init__(self):
@@ -90,6 +91,7 @@ class InspirationMaintainer:
         for entry in self.entries:
             entry_name = entry['Title']
             for inspiration in entry.get('Inspirations', []):
+                inspiration = inspiration.value
                 if inspiration in self.inspirations:
                     self.inspirations[inspiration]['Inspired entries'].append(entry_name)
                 else:

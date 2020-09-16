@@ -2,7 +2,7 @@
 
 - Home: http://unknown-horizons.org/, https://sourceforge.net/projects/unknownhorizons/
 - Media: https://en.wikipedia.org/wiki/Unknown_Horizons
-- Inspirations: Anno (series)
+- Inspirations: "Anno (series)"
 - State: beta
 - Download: http://unknown-horizons.org/downloads/
 - Keywords: strategy, clone, turn-based

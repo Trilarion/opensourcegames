@@ -252,6 +252,7 @@ https://github.com/enginmanap/limonEngine
 https://github.com/ErikLetson/torso-ninja
 https://github.com/ErikLetson/torso-ninja-2
 https://github.com/ezEngine/ezEngine
+https://github.com/fallahn/tmxlite
 https://github.com/fallahn/xygine
 https://github.com/FaronBracy/RogueSharp
 https://github.com/fegennari/3DWorld
@@ -282,6 +283,7 @@ https://github.com/Illation/ETEngine
 https://github.com/Im-dex/xray-162
 https://github.com/jasonrohrer (add gits to his games)
 https://github.com/jatinmandav/Gaming-in-Python
+https://github.com/Jaxe-Dev/RimHUD
 https://github.com/JohanLi/uncharted-waters-2
 https://github.com/JohnLamontagne/Lunar-Engine
 https://github.com/junkdog/artemis-odb
@@ -354,6 +356,7 @@ https://github.com/rotators/Fo1in2
 https://github.com/RoxasShadow/Sottaceto
 https://github.com/roy-t/MiniRTS
 https://github.com/rramsden/ymir
+https://github.com/Ruin0x11/OpenNefia
 https://github.com/sabresaurus/SabreCSG
 https://github.com/SadConsole/SadConsole
 https://github.com/SanderMertens/flecs
@@ -397,6 +400,7 @@ https://github.com/vocollapse/Blockinger
 https://github.com/WagicProject/wagic
 https://github.com/wesnoth/haldric
 https://github.com/WohlSoft/PGE-Project
+https://github.com/wojtekpil/Godot-Octahedral-Impostors
 https://github.com/xrOxygen/xray-oxygen
 https://github.com/YuriiSalimov/15-puzzle
 https://github.com/Zal0/ZGB

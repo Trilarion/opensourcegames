@@ -1,0 +1,15 @@
+{% extends "base.jinja" %}
+
+{% block content %}
+  <section class="section">
+    <div class="container">
+    <h1>Inspirations ({{ letter.capitalize() }})</h1>
+{% for developer in developers %}
+    <p>
+    {{ developer['Name'] }}<br>
+    Games: {{ developer['Games']|join(', ') }}
+    </p>
+{% endfor %}
+    </div>
+  </section>
+{% endblock %}

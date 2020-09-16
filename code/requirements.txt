@@ -3,3 +3,4 @@ lark-parser
 BeautifulSoup
 PyQt5
 wikipedia
+Jinja2

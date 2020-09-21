@@ -3,13 +3,14 @@
 {% block content %}
   <section class="section">
     <div class="container">
-    <h1>Inspirations ({{ letter.capitalize() }})</h1>
+    <h1 class="title">Inspirations ({{ letter.capitalize() }})</h1>
 {% for inspiration in inspirations %}
-    <p>
-    {{ inspiration['Name'] }}<br>
+<div class="box">
+    <h2 id="{{ inspiration['anchor-id'] }}">{{ inspiration['Name'] }}</h2><br>
     {% if 'Media' in inspiration %}Media: {{ inspiration['Media'] }}<br>{% endif %}
-    Inspired entries: {% for game in inspiration['Inspired entries'] %}{{ game }}{% endfor %}
-    </p>
+    {% set comma = joiner(", ") %}
+    Inspired entries: {% for game in inspiration['Inspired entries'] %}{{ comma() }}<a href="{{ base['url_to'](game[0]) }}">{{ game[1] }}</a>{% endfor %}
+</div>
 {% endfor %}
     </div>
   </section>

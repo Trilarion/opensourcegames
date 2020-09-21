@@ -3,12 +3,13 @@
 {% block content %}
   <section class="section">
     <div class="container">
-    <h1>Inspirations ({{ letter.capitalize() }})</h1>
+    <h1 class="title">Developers ({{ letter.capitalize() }})</h1>
 {% for developer in developers %}
-    <p>
-    {{ developer['Name'] }}<br>
-    Games: {{ developer['Games']|join(', ') }}
-    </p>
+<div class="box">
+    <h2 id="{{ developer['anchor-id'] }}">{{ developer['Name'] }}</h2><br>
+    {% set comma = joiner(", ") %}
+    Game(s):{% for game in developer['Games'] %}{{ comma() }}<a href="{{ base['url_to'](game[0]) }}">{{ game[1] }}</a>{% endfor %}
+</div>
 {% endfor %}
     </div>
   </section>

@@ -38,9 +38,9 @@ def entry_iterator():
         yield entry, entry_path, content
 
 
-def canonical_entry_name(name):
+def canonical_name(name):
     """
-    Derives a canonical game name from an actual game name (suitable for file names, ...)
+    Derives a canonical name from an actual name (suitable for file names, anchor names, ...)
     """
     name = name.casefold()
     name = name.replace('ö', 'o').replace('ä', 'a').replace('ü', 'u')
@@ -302,7 +302,7 @@ def check_and_process_entry(entry):
 
     # check canonical file name
     file = entry['File']
-    canonical_file_name = canonical_entry_name(entry['Title']) + '.md'
+    canonical_file_name = canonical_name(entry['Title']) + '.md'
     # we also allow -X with X =2..9 as possible extension (because of duplicate canonical file names)
     if canonical_file_name != file and canonical_file_name != file[:-5] + '.md':
         message += 'file name should be {}\n'.format(canonical_file_name)

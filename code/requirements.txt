@@ -4,3 +4,4 @@ BeautifulSoup
 PyQt5
 wikipedia
 Jinja2
+html5lib

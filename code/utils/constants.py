@@ -85,6 +85,14 @@ known_licenses = (
     'LGPL-2.1', 'LGPL-3.0', 'MAME', 'MIT', 'MPL-1.1', 'MPL-2.0', 'MS-PL', 'MS-RL', 'NetHack General Public License',
     'None', 'Proprietary', 'Public domain', 'SWIG license', 'Unlicense', 'WTFPL', 'wxWindows license', 'zlib', '?')
 
+license_urls = {
+    '2-clause BSD': 'https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_(%22Simplified_BSD_License%22_or_%22FreeBSD_License%22)',
+    '3-clause BSD': 'https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_(%22BSD_License_2.0%22,_%22Revised_BSD_License%22,_%22New_BSD_License%22,_or_%22Modified_BSD_License%22)',
+    'AFL-3.0': 'https://en.wikipedia.org/wiki/Academic_Free_License',
+    'AGPL-3.0': 'https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License',
+    'Apache-2.0': 'https://en.wikipedia.org/wiki/Apache_License'
+}
+
 # valid multiplayer modes (can be combined with "+" )
 valid_multiplayer_modes = (
     'competitive', 'co-op', 'hotseat', 'LAN', 'local', 'massive', 'matchmaking', 'online', 'split-screen')

@@ -4,22 +4,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ base['title'] }}</title>
-    <link rel="stylesheet" href="{{ base['paths']['css'] }}">
+    <link rel="stylesheet" href="{{ base['url_to']('css/bulma.min.css') }}">
 </head>
 <body>
 
 <nav class="container navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-menu">
     <div class="navbar-start">
-      <a class="navbar-item" href="{{ base['paths']['index'] }}">
+      <a class="navbar-item" href="{{ base['url_to']('index.html') }}">
         Home
       </a>
 
-      <a class="navbar-item" href="{{ base['paths']['index-games'] }}">
+      <a class="navbar-item" href="{{ base['url_to']('games/index.html') }}">
         Games
       </a>
 
-      <a class="navbar-item" href="{{ base['paths']['index-developers'] }}">
+      <a class="navbar-item" href="{{ base['url_to']('developers/index.html') }}">
         Developers
       </a>
 
@@ -29,26 +29,31 @@
         </a>
 
         <div class="navbar-dropdown">
-          <a class="navbar-item" href="{{ base['paths']['index-inspirations'] }}">
+          <a class="navbar-item" href="{{ base['url_to']('inspirations/index.html') }}">
             By inspiration
           </a>
-          <a class="navbar-item" href="{{ base['paths']['index-developers'] }}">
+          <a class="navbar-item" href="{{ base['url_to']('games/genres.html') }}">
             By category
           </a>
-          <a class="navbar-item" href="{{ base['paths']['index-developers'] }}">
+          <a class="navbar-item" href="{{ base['url_to']('games/languages.html') }}">
             By code language
           </a>
-          <a class="navbar-item" href="{{ base['paths']['index-developers'] }}">
+          <a class="navbar-item" href="{{ base['url_to']('games/platforms.html') }}">
             By OS support
-          </a>
-          <a class="navbar-item" href="{{ base['paths']['index-developers'] }}">
-            By dependency
           </a>
         </div>
       </div>
 
-      <a class="navbar-item" href="{{ base['paths']['index-statistics'] }}">
+      <a class="navbar-item" href="{{ base['url_to']('statistics.html') }}">
         Statistics
+      </a>
+
+      <a class="navbar-item" href="{{ base['url_to']('contribute.html') }}">
+        Contribute
+      </a>
+
+      <a class="navbar-item" href="https://github.com/Trilarion/opensourcegames">
+        On GitHub
       </a>
 
     </div>
@@ -58,10 +63,9 @@
 {% block content %}{% endblock %}
 
 <footer class="footer">
-  <div class="content has-text-centered">
-    <p>
-      Footer content {{ base['creation-date'] }}
-    </p>
+  <div class="container is-size-7">
+     <a href="https://trilarion.blogspot.com/search/label/osgames">Blog</a><br>
+     Last updated on {{ base['creation-date'] }}
   </div>
 </footer>
 </body>

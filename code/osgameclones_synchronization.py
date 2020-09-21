@@ -423,7 +423,7 @@ if __name__ == "__main__":
 
             # determine file name
             print('create new entry for {}'.format(osgc_name))
-            file_name = osg.canonical_entry_name(osgc_name) + '.md'
+            file_name = osg.canonical_name(osgc_name) + '.md'
             target_file = os.path.join(constants.entries_path, file_name)
             if os.path.isfile(target_file):
                 print('warning: file {} already existing, save under slightly different name'.format(file_name))

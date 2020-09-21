@@ -3,26 +3,29 @@
 {% block content %}
   <section class="section">
     <div class="container">
-    <h1>{{ index['title'] }}</h1>
-    <p>
+    <div class="box">
+    <h1 class="title">{{ index['title'] }}</h1>
 {% set comma = joiner(",") %}
 {% for category in index['categories'] %}
-      {{ comma() }} <a href="#{{ category }}">{{ category.capitalize() }}</a> ({{ index['number_entries'][category] }})
+      {{ comma() }} <a href="#{{ category }}" class="is-size-4">{{ category }}</a>&nbsp;with&nbsp;{{ index['number_entries'][category] }}&nbsp;item(s)
 {% endfor %}
-    </p>
+    </div>
 {% for category in index['categories'] %}
-    <h2 id="{{ category }}">{{ category.capitalize() }}</h2>
+<div class="box">
+    <h2 id="{{ category }}" class="is-size-4">{{ category }}</h2>
     <div class="columns">
 {% for entries_column in index['entries'][category] %}
       <div class="column">
         <ul>
 {% for entry in entries_column %}
-        <li>{{ entry }}</li>
+        <li><a href="{{ base['url_to'](entry['href']) }}">{{ entry['name'] }}</a> {% if 'tags' in entry %}<span class="is-light is-size-7">({{ entry['tags'] }})</span>{% endif %}</li>
 {% endfor %}
         </ul>
       </div>
 {% endfor %}
     </div>
+    <a class="is-light is-size-7" href="#">Back to top</a>
+</div>
 {% endfor %}
     </div>
   </section>

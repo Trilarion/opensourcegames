@@ -1,6 +1,6 @@
 # ResidualVM
 
-- Home: https://residualvm.org/
+- Home: https://www.residualvm.org/
 - Inspirations: Escape from Monkey Island, Grim Fandango, Myst III: Exile
 - State: beta
 - Download: https://www.residualvm.org/downloads/

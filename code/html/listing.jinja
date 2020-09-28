@@ -1,0 +1,24 @@
+{% extends "base.jinja" %}
+{% block content %}
+<section class="section">
+  <div class="container">
+    <h1 class="title">{{ listing['title'] }}</h1>
+{% for item in listing['items'] %}
+    <div class="box">
+    <nav class="level is-mobile">
+    <div class="level-left">
+      <h2 id="{{ item['anchor-id'] }}" class="title is-4">{{ item['name'] }}</h2>
+    </div>
+    <div class="level-right is-size-7">
+      <p class="level-item"><a href="{{ base['url_to']('contribute.html') }}">Edit</a></p>
+    </div>
+    </nav>
+{% for field in item['fields'] %}{% set comma = joiner(", ") %}
+    {{ macros.listing_field_title(field['title']) }}{% for entry in field['entries'] %}{{ comma() }}{{ macros.url(entry['href'], entry['name']) }}{% endfor %}<br>
+{% endfor %}
+    </div>
+{% endfor %}
+  <a class="is-light is-size-7" href="#">Back to top</a>
+  </div>
+</section>
+{% endblock %}

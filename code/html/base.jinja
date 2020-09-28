@@ -1,71 +1,40 @@
+{% import "macros.jinja" as macros -%}
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ base['title'] }}</title>
-    <link rel="stylesheet" href="{{ base['url_to']('css/bulma.min.css') }}">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ base['title'] }}</title>
+  <link rel="stylesheet" href="{{ base['url_to']('css/bulma.min.css') }}">
 </head>
 <body>
-
-<nav class="container navbar" role="navigation" aria-label="main navigation">
+<nav class="navbar container is-light" role="navigation" aria-label="main navigation">
   <div class="navbar-menu">
     <div class="navbar-start">
-      <a class="navbar-item" href="{{ base['url_to']('index.html') }}">
-        Home
-      </a>
-
-      <a class="navbar-item" href="{{ base['url_to']('games/index.html') }}">
-        Games
-      </a>
-
-      <a class="navbar-item" href="{{ base['url_to']('developers/index.html') }}">
-        Developers
-      </a>
-
+      <a class="navbar-item{% if 'index' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to']('index.html') }}">Home</a>
+      <a class="navbar-item{% if 'games' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to']('games/index.html') }}">Games</a>
+      <a class="navbar-item{% if 'developers' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to']('developers/index.html') }}">Developers</a>
       <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          Filter
-        </a>
-
+        <a class="navbar-link{% if 'filter' in base['active_nav'] %} is-active{% endif %}">Filter</a>
         <div class="navbar-dropdown">
-          <a class="navbar-item" href="{{ base['url_to']('inspirations/index.html') }}">
-            By inspiration
-          </a>
-          <a class="navbar-item" href="{{ base['url_to']('games/genres.html') }}">
-            By category
-          </a>
-          <a class="navbar-item" href="{{ base['url_to']('games/languages.html') }}">
-            By code language
-          </a>
-          <a class="navbar-item" href="{{ base['url_to']('games/platforms.html') }}">
-            By OS support
-          </a>
+          <a class="navbar-item{% if 'inspirations' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to']('inspirations/index.html') }}">By inspiration</a>
+          <a class="navbar-item{% if 'genres' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to']('games/genres.html') }}">By category</a>
+          <a class="navbar-item{% if 'code language' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to']('games/languages.html') }}">By code language</a>
+          <a class="navbar-item{% if 'platforms' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to']('games/platforms.html') }}">By OS support</a>
         </div>
       </div>
-
-      <a class="navbar-item" href="{{ base['url_to']('statistics.html') }}">
-        Statistics
-      </a>
-
-      <a class="navbar-item" href="{{ base['url_to']('contribute.html') }}">
-        Contribute
-      </a>
-
-      <a class="navbar-item" href="https://github.com/Trilarion/opensourcegames">
-        On GitHub
-      </a>
-
+      <a class="navbar-item{% if 'statistics' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to']('statistics.html') }}">Statistics</a>
+      <a class="navbar-item{% if 'contribute' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to']('contribute.html') }}">Contribute</a>
+      <a class="navbar-item" href="https://github.com/Trilarion/opensourcegames">On GitHub</a>
     </div>
   </div>
 </nav>
-
 {% block content %}{% endblock %}
-
 <footer class="footer">
   <div class="container is-size-7">
      <a href="https://trilarion.blogspot.com/search/label/osgames">Blog</a><br>
-     Last updated on {{ base['creation-date'] }}
+     Last updated on {{ base['creation-date'] }}<br>
+     Disclaimer / License
   </div>
 </footer>
 </body>

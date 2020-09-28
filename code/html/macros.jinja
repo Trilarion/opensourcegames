@@ -1,0 +1,13 @@
+{% macro url(href, name) -%}
+  {% if href %}
+    <a href="{{ base['url_to'](href) }}">{{ name }}</a>
+  {% else %}
+    {{ name }}
+  {% endif %}
+{%- endmacro %}
+
+{% macro listing_field_title(title) -%}
+{% if title %}
+    {{ title['name'] }}:
+{% endif %}
+{%- endmacro %}

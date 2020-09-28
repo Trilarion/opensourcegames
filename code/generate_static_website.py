@@ -5,20 +5,31 @@ Uses Jinja2 (see https://jinja.palletsprojects.com/en/2.11.x/)
 """
 
 # TODO index.html tiles, content
-# TODO index.html image
+# TODO index.html image (maybe downloaded and assembled from osgameclones)
 # TODO index.html only count games
 # TODO Font awesome 5 (icons for OS, for Github, Gitlab and maybe others)
 # TODO contribute.html tiles? content
 # TODO games pages links to licenses (wikipedia)
-# TODO games pages edit/contribute button
 # TODO indexes: make categories bold that have a certain amount of entries!
 # TODO everywhere: style URLs (Github, Wikipedia, Internet archive, SourceForge, ...)
-# TODO developers pages links to games and more information, styles, block around entry, edit/contribute button
-# TODO inspirations pages, add link to games and more information, styles, block around entry, edit/contribute button
+# TODO developers pages links to games and more information, styles
+# TODO inspirations pages, add link to games and more information, styles
 # TODO navbar add is active
 # TODO statistics page: better and more statistics with links where possible
 # TODO meaningful information (links, license, last updated with lower precision)
 # TODO singular, plural everywhere (game, entries, items)
+# TODO background and shadow for the boxes
+# TODO line breaks and spaces in html source and output
+# TODO rename fields (Home to Homepage, Inspirations to Inspiration)
+# TODO developers contact expand to links to Github, Sourceforge
+# TODO games keywords as labels (some as links)
+# TODO games links to licenses and languages
+# TODO platforms as labels and with links
+# TODO split games in libraries/tools/frameworks and real games
+# TODO statistics with nice graphics (pie charts in SVG) with matplotlib, seaborn, plotly?
+# TODO statistics, get it from common statistics generator
+# TODO optimize jinja for line breaks and indention
+# TODO @notices in entries
 
 import os
 import shutil
@@ -36,6 +47,19 @@ extended_alphabet = alphabet + extra
 games_path = 'games'
 inspirations_path = 'inspirations'
 developers_path = 'developers'
+
+plurals = {k: k+'s' for k in ('Assets license', 'Contact', 'Code language', 'Code license', 'Developer', 'Download', 'Inspiration', 'Game', 'Home', 'Organization', 'Platform')}
+for k in ('Media', 'Play', 'Keywords'):
+    plurals[k] = k
+for k in ('Code repository', 'Code dependency'):
+    plurals[k] = k[:-1] + 'ies'
+
+def get_plural_or_singular(name, amount):
+    if not name in plurals.keys():
+        raise RuntimeError('"{}" not a known singular!'.format(name))
+    if amount == 1:
+        return name
+    return plurals[name]
 
 html5parser = html5lib.HTMLParser(strict=True)
 
@@ -107,10 +131,13 @@ def divide_in_columns(categorized_lists, transform):
 def url_to(current, target):
     """
 
-    :param current:
+    :param current: Current path
     :param target:
     :return:
     """
+    # if it's an absolute url, just return
+    if any(target.startswith(x) for x in ('http://', 'https://')):
+        return target
     # split by slash
     if current:
         current = current.split('/')
@@ -189,31 +216,147 @@ def developer_index(developer):
         e['tags'] = n
     return e
 
+def shortcut_url(url):
 
-def add_entries_links_to_inspirations(inspirations, entries):
+    # gitlab
+    gl_prefix = 'https://gitlab.com/'
+    if url.startswith(gl_prefix):
+        return 'GL: ' + url[len(gl_prefix):]
+    # github
+    gh_prefix = 'https://github.com/'
+    if url.startswith(gh_prefix):
+        return 'GH: ' + url[len(gh_prefix):]
+
+    # sourceforge
+    sf_prefix = 'https://sourceforge.net/projects/'
+    if url.startswith(sf_prefix):
+        return 'SF: ' + url[len(sf_prefix):]
+
+    # archive link
+    ia_prefix = 'https://web.archive.org/web/'
+    if url.startswith(ia_prefix):
+        return 'Archive: ' + url[len(ia_prefix):]
+
+    # Wikipedia link
+    wp_prefix = 'https://en.wikipedia.org/wiki/'
+    if url.startswith(wp_prefix):
+        return 'WP: ' + url[len(wp_prefix):]
+
+    # cutoff common prefixes
+    for prefix in ('http://', 'https://'):
+        if url.startswith(prefix):
+            return url[len(prefix):]
+    # as is
+    return url
+
+
+def convert_inspirations(inspirations, entries):
     entries_references = {entry['Title']:entry['href'] for entry in entries}
     for inspiration in inspirations:
+        fields = []
+        # media
+        if 'Media' in inspiration:
+            entries = inspiration['Media']
+            entries = [{'href': url, 'name': shortcut_url(url)} for url in entries]
+            field = {
+                'name': 'Media',
+                'entries': entries
+            }
+            fields.append(field)
+        # inspired entries (with links to them)
         inspired_entries = inspiration['Inspired entries']
-        inspired_entries = [(entries_references[entry], entry) for entry in inspired_entries]
-        inspiration['Inspired entries'] = inspired_entries
+        entries = [{'href': entries_references[entry], 'name': entry} for entry in inspired_entries]
+        field = {
+            'name': 'Inspired {}'.format(get_plural_or_singular('Game', len(entries)).lower()),
+            'entries': entries
+        }
+        fields.append(field)
+        inspiration['fields'] = fields
+        inspiration['name'] = inspiration['Name']
 
 
-def add_entries_links_to_developers(developers, entries):
+def convert_developers(developers, entries):
     entries_references = {entry['Title']:entry['href'] for entry in entries}
     for developer in developers:
+        fields = []
+        # games field
         developed_entries = developer['Games']
-        developed_entries = [(entries_references[entry], entry) for entry in developed_entries]
-        developer['Games'] = developed_entries
+        entries = [{'href': entries_references[entry], 'name': entry} for entry in developed_entries]
+        field = {
+            'name': 'Open source {}'.format(get_plural_or_singular('Game', len(entries))),
+            'entries': entries
+        }
+        fields.append(field)
+        for field in c.optional_developer_fields:
+            if field in developer:
+                entries = developer[field]
+                if field in c.url_developer_fields:
+                    entries = [{'href': entry, 'name': shortcut_url(entry)} for entry in entries]
+                else:
+                    entries = [{'href': '', 'name': entry} for entry in entries]
+                field = {
+                    'name': get_plural_or_singular(field, len(entries)),
+                    'entries': entries
+                }
+                fields.append(field)
+        developer['fields'] = fields
+        developer['name'] = developer['Name']
 
 
-def add_inspirations_and_developers_links_to_entries(entries, inspirations, developers):
+def convert_entries(entries, inspirations, developers):
     inspirations_references = {inspiration['Name']: inspiration['href'] for inspiration in inspirations}
     developer_references = {developer['Name']: developer['href'] for developer in developers}
     for entry in entries:
-        if 'Inspirations' in entry:
-            entry['Inspirations'] = [(inspirations_references[inspiration.value], inspiration.value) for inspiration in entry['Inspirations']]
-        if 'Developer' in entry:
-            entry['Developer'] = [(developer_references[developer.value], developer.value) for developer in entry['Developer']]
+        fields = []
+        for field in ('Home', 'Inspirations', 'Media', 'Download', 'Play', 'Developer', 'Keywords'):
+            if field in entry:
+                e = entry[field]
+                if field == 'Inspirations':
+                    field = 'Inspiration'  # TODO this is a bug, rename in entries
+                if isinstance(e[0], osg.osg_parse.ValueWithComment):
+                    e = [x.value for x in e]
+                if field == 'Inspiration':
+                    e = [{'href': inspirations_references[x], 'name': x} for x in e]
+                elif field == 'Developer':
+                    e = [{'href': developer_references[x], 'name': x} for x in e]
+                elif field in c.url_fields:
+                    e = [{'href': x, 'name': shortcut_url(x)} for x in e]
+                else:
+                    e = [{'href': '', 'name': x} for x in e]
+                field = {
+                    'title': {'name': get_plural_or_singular(field, len(entries))},
+                    'entries': e
+                }
+                fields.append(field)
+        if 'Note' in entry:
+            fields.append({'entries': [{'href': '', 'name': entry['Note']}]})
+        fields.append({'title': 'Technical info', 'entries': []})
+        for field in ('Platform', 'Code language', 'Code license', 'Code repository', 'Code dependencies', 'Assets license'):
+            if field in entry:
+                e = entry[field]
+                if not e:
+                    continue
+                if field == 'Code dependencies':
+                    field = 'Code dependency'  # bug, rename field
+                if isinstance(e[0], osg.osg_parse.ValueWithComment):
+                    e = [x.value for x in e]
+                if field in c.url_fields:
+                    e = [{'href': x, 'name': shortcut_url(x)} for x in e]
+                else:
+                    e = [{'href': '', 'name': x} for x in e]
+                field = {
+                    'title': {'name': get_plural_or_singular(field, len(entries))},
+                    'entries': e
+                }
+                fields.append(field)
+        entry['fields'] = fields
+        entry['name'] = entry['Title']
+
+def add_license_links_to_entries(entries):
+    for entry in entries:
+        licenses = entry['Code license']
+        licenses = [(c.license_urls.get(license.value, ''), license.value) for license in licenses]
+        entry['Code license'] = licenses
 
 
 def generate(entries, inspirations, developers):
@@ -230,9 +373,12 @@ def generate(entries, inspirations, developers):
     preprocess(developers, 'Name', developers_path)
 
     # set internal links up
-    add_entries_links_to_inspirations(inspirations, entries)
-    add_entries_links_to_developers(developers, entries)
-    add_inspirations_and_developers_links_to_entries(entries, inspirations, developers)
+    convert_inspirations(inspirations, entries)
+    convert_developers(developers, entries)
+    convert_entries(entries, inspirations, developers)
+
+    # set external links up
+    add_license_links_to_entries(entries)
 
     # sort into categories
     games_by_alphabet = sort_into_categories(entries, extended_alphabet, lambda item, category: category == item['letter'])
@@ -260,21 +406,24 @@ def generate(entries, inspirations, developers):
 
     # multiple times used templates
     template_categorical_index = environment.get_template('categorical_index.jinja')
-    template_list = environment.get_template('list.jinja')
+    template_listing = environment.get_template('listing.jinja')
 
     # top level folder
     base['url_to'] = partial(url_to, '')
 
     # index.html
+    base['active_nav'] = 'index'
     index = {'number_games': len(entries)}
     template = environment.get_template('index.jinja')
     write(template.render(index=index), 'index.html')
 
     # contribute.html
+    base['active_nav'] = 'contribute'
     template = environment.get_template('contribute.jinja')
     write(template.render(), 'contribute.html')
 
     # statistics
+    base['active_nav'] = 'statistics'
 
     # preparation
     template = environment.get_template('statistics.jinja')
@@ -304,35 +453,38 @@ def generate(entries, inspirations, developers):
 
     # games folder
     base['url_to'] = partial(url_to, games_path)
+    base['active_nav'] = 'games'
 
     # generate games pages
-    template = environment.get_template('games_for_letter.jinja')
     for letter in extended_alphabet:
-        data = {
-            'title': 'Games with {}'.format(letter.capitalize()),
-            'games': games_by_alphabet[letter]
+        listing = {
+            'title': 'Games starting with {}'.format(letter.capitalize()),
+            'items': games_by_alphabet[letter]
         }
-        write(template.render(data=data), os.path.join(games_path, '{}.html'.format(letter.capitalize())))
+        write(template_listing.render(listing=listing), os.path.join(games_path, '{}.html'.format(letter.capitalize())))
 
     # generate games index
     index = divide_in_columns(games_by_alphabet, game_index)
-    index['title'] = 'Alphabetical index'
+    index['title'] = 'Games alphabetical index'
     index['categories'] = extended_alphabet
     write(template_categorical_index.render(index=index), os.path.join(games_path, 'index.html'))
 
     # genres
+    base['active_nav'] = 'filter genres'
     index = divide_in_columns(games_by_genre, game_index)
     index['title'] = 'Games by genre'
     index['categories'] = genres
     write(template_categorical_index.render(index=index), os.path.join(games_path, 'genres.html'))
 
     # games by language
+    base['active_nav'] = 'filter code language'
     index = divide_in_columns(games_by_language, game_index)
     index['title'] = 'Games by language'
     index['categories'] = c.known_languages
     write(template_categorical_index.render(index=index), os.path.join(games_path, 'languages.html'))
 
     # games by platform
+    base['active_nav'] = 'filter platforms'
     index = divide_in_columns(games_by_platform, game_index)
     index['title'] = 'Games by platform'
     index['categories'] = c.valid_platforms + ('Unspecified',)
@@ -340,31 +492,39 @@ def generate(entries, inspirations, developers):
 
     # inspirations folder
     base['url_to'] = partial(url_to, inspirations_path)
+    base['active_nav'] = 'filter inspirations'
 
     # inspirations
 
     # inspirations index
     index = divide_in_columns(inspirations_by_alphabet, inspiration_index)
-    index['title'] = 'Inspirations index'
+    index['title'] = 'Inspirations alphabetical index'
     index['categories'] = extended_alphabet
     write(template_categorical_index.render(index=index), os.path.join(inspirations_path, 'index.html'))
 
     # inspirations single pages
-    template = environment.get_template('inspirations_for_letter.jinja')
     for letter in extended_alphabet:
-        write(template.render(letter=letter, inspirations=inspirations_by_alphabet[letter]), os.path.join(inspirations_path, '{}.html'.format(letter.capitalize())))
+        listing = {
+            'title': 'Inspirations ({})'.format(letter.capitalize()),
+            'items': inspirations_by_alphabet[letter]
+        }
+        write(template_listing.render(listing=listing), os.path.join(inspirations_path, '{}.html'.format(letter.capitalize())))
 
     # developers folder
     base['url_to'] = partial(url_to, developers_path)
+    base['active_nav'] = 'developers'
 
     # developers single pages
-    template = environment.get_template('developers_for_letter.jinja')
     for letter in extended_alphabet:
-        write(template.render(letter=letter, developers=developers_by_alphabet[letter]), os.path.join(developers_path, '{}.html'.format(letter.capitalize())))
+        listing = {
+            'title': 'Developers ({})'.format(letter.capitalize()),
+            'items': developers_by_alphabet[letter]
+        }
+        write(template_listing.render(listing=listing), os.path.join(developers_path, '{}.html'.format(letter.capitalize())))
 
     # developers index
     index = divide_in_columns(developers_by_alphabet, developer_index)
-    index['title'] = 'Developers index'
+    index['title'] = 'Developers alphabetical index'
     index['categories'] = extended_alphabet
     write(template_categorical_index.render(index=index), os.path.join(developers_path, 'index.html'))
 

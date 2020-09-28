@@ -1,9 +1,7 @@
 {% extends "base.jinja" %}
-
 {% block content %}
-
-  <section class="section">
-    <div class="container">
+<section class="section">
+  <div class="container">
     <h1 class="title">{{ data['title'] }}</h1>
 {% set comma = joiner(",") %}
 {% for section in data['sections'] %}
@@ -24,5 +22,4 @@
     </div>
   </section>
 {% endfor %}
-
 {% endblock %}

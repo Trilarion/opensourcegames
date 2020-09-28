@@ -90,7 +90,9 @@ license_urls = {
     '3-clause BSD': 'https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_(%22BSD_License_2.0%22,_%22Revised_BSD_License%22,_%22New_BSD_License%22,_or_%22Modified_BSD_License%22)',
     'AFL-3.0': 'https://en.wikipedia.org/wiki/Academic_Free_License',
     'AGPL-3.0': 'https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License',
-    'Apache-2.0': 'https://en.wikipedia.org/wiki/Apache_License'
+    'Apache-2.0': 'https://en.wikipedia.org/wiki/Apache_License',
+    'GPL-2.0': 'https://en.wikipedia.org/wiki/GNU_General_Public_License#Version_2',
+    'GPL-3.0': 'https://en.wikipedia.org/wiki/GNU_General_Public_License#Version_3'
 }
 
 # valid multiplayer modes (can be combined with "+" )
@@ -116,10 +118,12 @@ general_code_dependencies_without_entry = {'OpenGL': 'https://www.opengl.org/',
 
 # developer information (in the file all fields will be capitalized)
 essential_developer_fields = ('Name', 'Games')
-valid_developer_fields = essential_developer_fields + ('Contact', 'Home', 'Organization')
+optional_developer_fields = ('Contact', 'Home', 'Organization')
+valid_developer_fields = essential_developer_fields + optional_developer_fields
 url_developer_fields = ('Home',)
 
 # inspiration/original game information (in the file all fields will be capitalized)
 essential_inspiration_fields = ('Name', 'Inspired entries')
-valid_inspiration_fields = essential_inspiration_fields + ('Media',)
+optional_inspiration_fields = ('Media',)
+valid_inspiration_fields = essential_inspiration_fields + optional_inspiration_fields
 url_inspiration_fields = ('Media',)

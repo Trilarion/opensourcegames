@@ -28,6 +28,9 @@ http://icculus.org/jugglemaster/
 http://icculus.org/pyddr/
 http://icculus.org/toby/
 http://iichantra.ru/en/
+https://github.com/armory3d/iron
+https://github.com/AxioDL/urde
+https://github.com/Gramps/GodotSteam
 http://insideastarfilledsky.net/
 http://lazerbears.wixsite.com/lazerbears/cr-editor
 http://libagar.org/agar/index.html.en
@@ -48,6 +51,7 @@ http://roguebasin.roguelikedevelopment.org/index.php?title=Main_Page
 http://sam.zoy.org/monsterz/
 http://senseis.xmp.net/?GoPlayingPrograms
 http://sio2interactive.com/
+https://github.com/EasyRPG/Editor-Qt
 http://slick.ninjacave.com/
 http://snowstorm.sourceforge.net/cgi-bin/site.cgi
 http://sol.gfxile.net/ambrose3d/index.html

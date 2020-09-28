@@ -4,21 +4,23 @@
   <section class="section">
     <div class="container">
     <div class="box">
-    <h1 class="title">{{ index['title'] }}</h1>
-{% set comma = joiner(",") %}
-{% for category in index['categories'] %}
-      {{ comma() }} <a href="#{{ category }}" class="is-size-4">{{ category }}</a>&nbsp;with&nbsp;{{ index['number_entries'][category] }}&nbsp;item(s)
-{% endfor %}
+    <div class="block"><h1 class="title">{{ index['title'] }}</h1></div>
+{% set comma = joiner(", ") %}
+<div class="is-size-4">
+{% for category in index['categories'] -%}
+      {{ comma() }} <a href="#{{ category }}" class="has-text-weight-semibold">{{ category }}</a>&nbsp;({{ index['number_entries'][category] }})
+{%- endfor %}
+</div>
     </div>
 {% for category in index['categories'] %}
 <div class="box">
-    <h2 id="{{ category }}" class="is-size-4">{{ category }}</h2>
+    <div class="block"><h2 id="{{ category }}" class="is-size-4 has-text-weight-semibold">{{ category }}</h2></div>
     <div class="columns">
 {% for entries_column in index['entries'][category] %}
       <div class="column">
         <ul>
 {% for entry in entries_column %}
-        <li><a href="{{ base['url_to'](entry['href']) }}">{{ entry['name'] }}</a> {% if 'tags' in entry %}<span class="is-light is-size-7">({{ entry['tags'] }})</span>{% endif %}</li>
+        <li>{{ macros.url(entry['href'], entry['name']) }} {% if 'tags' in entry %}<span class="is-light is-size-7">({{ entry['tags'] }})</span>{% endif %}</li>
 {% endfor %}
         </ul>
       </div>

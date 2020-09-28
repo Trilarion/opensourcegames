@@ -1,9 +1,9 @@
 # wkbre
 
 - Home: https://github.com/AdrienTD/wkbre
-- Inspirations: Warrior Kings
+- Inspiration: Warrior Kings
 - State: beta
-- Keywords: remake, strategy, 3D, real time, requires original content
+- Keyword: remake, strategy, 3D, real time, requires original content
 - Code repository: https://github.com/AdrienTD/wkbre.git
 - Code language: C++, C
 - Code license: GPL-3.0

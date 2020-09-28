@@ -1,15 +1,15 @@
 # Minetest
 
 - Home: https://www.minetest.net/
-- Inspirations: Minecraft
+- Inspiration: Minecraft
 - State: mature
 - Download: https://www.minetest.net/downloads/
 - Platform: Windows, Linux, macOS, Android
-- Keywords: framework, remake, open content, voxel
+- Keyword: framework, remake, open content, voxel
 - Code repository: https://github.com/minetest/minetest.git
 - Code language: C, C++, Lua
 - Code license: LGPL-2.1
-- Code dependencies: Irrlicht Engine
+- Code dependency: Irrlicht Engine
 - Assets license: CC-BY-SA-3.0
 
 Voxel game engine.
@@ -17,4 +17,4 @@ Voxel game engine.
 ## Building
 
 - Build system: CMake
-- Build instructions: https://github.com/minetest/minetest#compiling
+- Build instruction: https://github.com/minetest/minetest#compiling

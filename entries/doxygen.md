@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Doxygen
 - State: mature
 - Download: https://www.doxygen.nl/download.html
-- Keywords: library, tool, source documentation generator
+- Keyword: library, tool, source documentation generator
 - Code repository: https://github.com/doxygen/doxygen.git
 - Code language: C++
 - Code license: GPL-2.0

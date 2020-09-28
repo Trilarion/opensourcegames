@@ -1,10 +1,10 @@
 # DOOM
 
 - Home: https://github.com/id-Software/DOOM
-- Inspirations: Doom
+- Inspiration: Doom
 - State: mature, inactive since 2012
 - Platform: Linux
-- Keywords: action, game engine, first-person, shooter
+- Keyword: action, game engine, first-person, shooter
 - Code repository: https://github.com/id-Software/DOOM.git
 - Code language: C
 - Code license: Custom

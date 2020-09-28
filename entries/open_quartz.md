@@ -4,7 +4,7 @@
 - State: beta, inactive since 2004
 - Download: https://sourceforge.net/projects/openquartz/files/
 - Platform: Windows, Linux
-- Keywords: strategy, open content
+- Keyword: strategy, open content
 - Code repository: https://gitlab.com/osgames/openquartz.git (conversion of cvs), http://openquartz.cvs.sourceforge.net (cvs)
 - Code language: C
 - Code license: GPL-2.0

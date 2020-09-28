@@ -4,7 +4,7 @@
 - State: mature
 - Download: https://sourceforge.net/projects/lgames/files/occ/
 - Platform: Web
-- Keywords: strategy, chess
+- Keyword: strategy, chess
 - Code repository: https://svn.code.sf.net/p/lgames/code (svn part of it)
 - Code language: PHP, JavaScript
 - Code license: GPL-2.0

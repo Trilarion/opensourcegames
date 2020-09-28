@@ -1,9 +1,9 @@
 # Ecksdee
 
 - Home: https://sourceforge.net/projects/ecksdee/
-- Inspirations: Wipeout
+- Inspiration: Wipeout
 - State: beta, inactive since 2009
-- Keywords: simulation, clone
+- Keyword: simulation, clone
 - Code repository: https://svn.code.sf.net/p/ecksdee/svn (svn)
 - Code language: C++
 - Code license: GPL-2.0

@@ -1,15 +1,15 @@
 # The Butterfly Effect
 
 - Home: http://the-butterfly-effect.org/, https://sourceforge.net/projects/tbe/
-- Inspirations: Crazy Machines series, The Incredible Machine series
+- Inspiration: Crazy Machines series, The Incredible Machine series
 - State: beta
 - Download: http://the-butterfly-effect.org/#download, https://github.com/the-butterfly-effect/tbe/releases
 - Platform: Windows, Linux, macOS
-- Keywords: simulation, clone, physics
+- Keyword: simulation, clone, physics
 - Code repository: https://github.com/the-butterfly-effect/tbe.git
 - Code language: C++
 - Code license: GPL-2.0
-- Code dependencies: Box2D, Qt
+- Code dependency: Box2D, Qt
 
 Realistic physics simulations.
 

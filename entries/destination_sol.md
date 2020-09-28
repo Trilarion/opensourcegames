@@ -4,7 +4,7 @@
 - State: mature
 - Download: http://destinationsol.org/download
 - Platform: Windows, Linux, macOS, Android
-- Keywords: arcade, 2D, open content (?), shooter, space
+- Keyword: arcade, 2D, open content (?), shooter, space
 - Code repository: https://github.com/MovingBlocks/DestinationSol.git, https://svn.code.sf.net/p/destinationsol/code (svn)
 - Code language: Java
 - Code license: Apache-2.0

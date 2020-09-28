@@ -4,11 +4,11 @@
 - State: mature, inactive since 2016
 - Play: http://abagames.sakura.ne.jp/16/consomaton/
 - Platform: Web
-- Keywords: puzzle, programming
+- Keyword: puzzle, programming
 - Code repository: https://github.com/abagames/consomaton.git
 - Code language: TypeScript
 - Code license: MIT
-- Code dependencies: Node.js
+- Code dependency: Node.js
 - Developer: Kenta Cho (ABA)
 
 Puzzle game revolving around cellular automata.

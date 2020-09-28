@@ -4,7 +4,7 @@
 - State: mature, inactive since 2016
 - Download: http://www.openyahtzee.org/wiki/download/, https://sourceforge.net/projects/openyahtzee/files/
 - Platform: Windows, Linux
-- Keywords: strategy, dice
+- Keyword: strategy, dice
 - Code repository: https://git.code.sf.net/p/openyahtzee/code, https://gitlab.com/osgames/openyahtzee.git @add
 - Code language: C++
 - Code license: GPL-2.0

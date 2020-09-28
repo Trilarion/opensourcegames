@@ -2,7 +2,7 @@
 
 - Home: http://piepe.lv/game-lv/
 - State: beta
-- Keywords: adventure
+- Keyword: adventure
 - Code repository: https://github.com/snauts/game-lv.git
 - Code language: C++
 - Code license: GPL-2.0

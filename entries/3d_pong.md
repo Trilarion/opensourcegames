@@ -3,7 +3,7 @@
 - Home: http://www.newbreedsoftware.com/3dpong/
 - State: beta, inactive since 2004
 - Platform: Linux, macOS
-- Keywords: arcade, online, 3D
+- Keyword: arcade, 3D, online
 - Code repository: @see-home
 - Code language: C
 - Code license: GPL-2.0

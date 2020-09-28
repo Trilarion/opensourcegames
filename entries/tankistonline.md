@@ -3,11 +3,11 @@
 - Home: https://github.com/servusDei2018/TankistOnline
 - State: beta
 - Platform: Windows, Linux, macOS
-- Keywords: action, multiplayer, tank
+- Keyword: action, multiplayer, tank
 - Code repository: https://github.com/servusDei2018/TankistOnline.git
 - Code language: Python
 - Code license: GPL-3.0
-- Code dependencies: pyglet
+- Code dependency: pyglet
 - Assets license: CC-BY-3.0 (some)
 
 2D tank battle game.

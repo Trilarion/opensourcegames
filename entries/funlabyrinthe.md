@@ -4,7 +4,7 @@
 - State: mature, inactive since 2012
 - Download: https://sourceforge.net/projects/funlaby/files/
 - Platform: Windows
-- Keywords: puzzle
+- Keyword: puzzle
 - Code repository: @see-download
 - Code language: Pascal
 - Code license: GPL-2.0

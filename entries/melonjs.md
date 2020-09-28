@@ -4,7 +4,7 @@
 - State: mature
 - Download: https://github.com/melonjs/melonJS/releases
 - Platform: Web
-- Keywords: game engine
+- Keyword: game engine
 - Code repository: https://github.com/melonjs/melonJS.git
 - Code language: JavaScript
 - Code license: MIT

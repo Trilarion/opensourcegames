@@ -1,13 +1,13 @@
 # Orbit-Hopper
 
 - Home: http://www.zneaker.com/projects.html#orbit
-- Inspirations: SkyRoads
+- Inspiration: SkyRoads
 - State: mature, inactive since 2019
-- Keywords: arcade, clone
+- Keyword: arcade, clone
 - Code repository: @see-download
 - Code language: C++
 - Code license: GPL-2.0
-- Code dependencies: OpenGL, SDL
+- Code dependency: OpenGL, SDL
 
 Clone of SkyRoads.
 

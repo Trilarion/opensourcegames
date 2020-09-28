@@ -1,9 +1,9 @@
 # mkxp
 
 - Home: https://github.com/Ancurio/mkxp
-- Inspirations: RPG Maker
+- Inspiration: RPG Maker
 - State: mature
-- Keywords: framework, clone
+- Keyword: framework, clone
 - Code repository: https://github.com/Ancurio/mkxp.git
 - Code language: C++, C
 - Code license: GPL-2.0

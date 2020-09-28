@@ -2,11 +2,11 @@
 
 - Home: https://voadi.com/
 - State: beta
-- Keywords: adventure, 2D, open content
+- Keyword: adventure, 2D, open content
 - Code repository: https://gitlab.com/voadi/voadi.git
 - Code language: Lua
 - Code license: GPL-3.0
-- Code dependencies: Solarus
+- Code dependency: Solarus
 - Assets license: CC-BY-SA, GPL-3.0
 - Developer: Alex Gleason
 

@@ -3,7 +3,7 @@
 - Home: http://vdrift.net/, https://sourceforge.net/projects/vdrift/
 - State: mature, inactive since 2014
 - Platform: Windows, Linux, macOS
-- Keywords: simulation, cars, racing
+- Keyword: simulation, cars, racing
 - Code repository: https://github.com/VDrift/vdrift.git, https://svn.code.sf.net/p/vdrift/code (svn)
 - Code language: C++
 - Code license: GPL-3.0

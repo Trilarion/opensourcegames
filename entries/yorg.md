@@ -1,13 +1,13 @@
 # Yorg
 
 - Home: https://github.com/cflavio/yorg, https://www.ya2.it/
-- Inspirations: Micro Machines
+- Inspiration: Micro Machines
 - State: beta
-- Keywords: game engine, clone, multiplayer online + local, open content, racing
+- Keyword: game engine, clone, multiplayer online + local, open content, racing
 - Code repository: https://github.com/cflavio/yorg.git
 - Code language: Python
 - Code license: GPL-3.0
-- Code dependencies: Panda3D
+- Code dependency: Panda3D
 - Assets license: CC BY, CC-BY-SA
 - Developer: Flavio Calva
 

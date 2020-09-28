@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Lua_(programming_language)
 - State: mature
 - Download: http://www.lua.org/download.html
-- Keywords: library
+- Keyword: library
 - Code repository: https://github.com/lua/lua.git (mirror)
 - Code language: C
 - Code license: MIT

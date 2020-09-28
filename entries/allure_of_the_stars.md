@@ -4,11 +4,11 @@
 - State: beta
 - Play: http://www.allureofthestars.com/play/
 - Platform: Web
-- Keywords: role playing, strategy, open content, roguelike, turn-based
+- Keyword: role playing, strategy, open content, roguelike, turn-based
 - Code repository: https://github.com/AllureOfTheStars/Allure.git
 - Code language: Haskell
 - Code license: AGPL-3.0
-- Code dependencies: LambdaHack, SDL
+- Code dependency: LambdaHack, SDL
 - Assets license: AGPL-3.0
 
 Sci-Fi roguelike and tactical squad combat game.

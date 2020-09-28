@@ -5,11 +5,11 @@
 - State: mature, inactive since 2014
 - Download: https://sourceforge.net/projects/cartlife/files/OpenSores_0.1/
 - Platform: Windows, Linux
-- Keywords: simulation
+- Keyword: simulation
 - Code repository: https://github.com/gondur/cartlife_src.git
 - Code language: AGS Script
 - Code license: Custom (permissive)
-- Code dependencies: Adventure Game Studio
+- Code dependency: Adventure Game Studio
 
 Simulation game on a pixel-grid in grayscale, with minimal detail.
 

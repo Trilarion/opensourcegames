@@ -2,11 +2,11 @@
 
 - Home: https://www.stepmania.com/, https://sourceforge.net/projects/stepmania/
 - Media: https://en.wikipedia.org/wiki/Dance_Dance_Revolution#Similar_games, https://en.wikipedia.org/wiki/StepMania
-- Inspirations: Dance Dance Revolution
+- Inspiration: Dance Dance Revolution
 - State: mature
 - Download: https://sourceforge.net/projects/stepmania/files/
 - Platform: Windows
-- Keywords: music, clone
+- Keyword: music, clone
 - Code repository: https://github.com/stepmania/stepmania.git
 - Code language: C, C++, Lua
 - Code license: MIT

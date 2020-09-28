@@ -2,7 +2,7 @@
 
 - Home: http://cataclysmrl.blogspot.com/
 - State: beta, inactive since 2012
-- Keywords: role playing, roguelike
+- Keyword: role playing, roguelike
 - Code repository: https://github.com/Whales/Cataclysm.git
 - Code language: C++
 - Code license: CC-BY-SA-3.0

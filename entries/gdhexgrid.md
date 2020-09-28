@@ -2,11 +2,11 @@
 
 - Home: https://github.com/romlok/godot-gdhexgrid
 - State: mature
-- Keywords: action
+- Keyword: action
 - Code repository: https://github.com/romlok/godot-gdhexgrid.git
 - Code language: GDScript
 - Code license: MIT
-- Code dependencies: Godot
+- Code dependency: Godot
 
 Tools for using hexagonal grids in GDScript.
 

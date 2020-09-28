@@ -1,9 +1,9 @@
 # aquastax
 
 - Home: https://github.com/LongSteve/aquastax
-- Inspirations: Aquastax
+- Inspiration: Aquastax
 - State: beta
-- Keywords: puzzle, remake
+- Keyword: puzzle, remake
 - Code repository: https://github.com/LongSteve/aquastax.git
 - Code language: JavaScript
 - Code license: MIT

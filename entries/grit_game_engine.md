@@ -1,9 +1,9 @@
 # Grit Game Engine
 
 - Home: https://github.com/grit-engine/grit-engine, https://web.archive.org/web/20190902110513/http://www.gritengine.com/
-- Inspirations: Grand Theft Auto: San Andreas
+- Inspiration: Grand Theft Auto: San Andreas
 - State: beta
-- Keywords: framework, game engine, commercial content
+- Keyword: framework, game engine, commercial content
 - Code repository: https://github.com/grit-engine/grit-engine.git
 - Code language: C++, Python
 - Code license: MIT

@@ -2,7 +2,7 @@
 
 - Home: https://www.atrinik.org/, https://github.com/atrinik
 - State: mature, inactive since 2016
-- Keywords: role playing
+- Keyword: role playing
 - Code repository: https://github.com/atrinik/atrinik.git
 - Code language: C, Python
 - Code license: GPL-2.0

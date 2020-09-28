@@ -3,7 +3,7 @@
 - Home: https://sourceforge.net/projects/dmonkey/
 - State: mature, inactive since 2010
 - Download: https://sourceforge.net/projects/dmonkey/files/
-- Keywords: action, role playing, turn-based
+- Keyword: action, role playing, turn-based
 - Code repository: https://gitlab.com/osgames/dm-unlimited.git (conversion of svn), https://svn.code.sf.net/p/dmonkey/code (svn)
 - Code language: Pascal
 - Code license: LGPL-2.1

@@ -3,7 +3,7 @@
 - Home: https://pypi.org/project/PyTMX/
 - State: mature
 - Platform: Windows, Linux, macOS (all supported by pygame)
-- Keywords: library, tool
+- Keyword: library, tool
 - Code repository: https://github.com/bitcraft/PyTMX.git
 - Code language: Python
 - Code license: LGPL-3.0

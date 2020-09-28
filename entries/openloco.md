@@ -1,11 +1,11 @@
 # OpenLoco
 
 - Home: https://github.com/OpenLoco/OpenLoco
-- Inspirations: Chris Sawyer's Locomotion
+- Inspiration: Chris Sawyer's Locomotion
 - State: mature
 - Download: https://github.com/OpenLoco/OpenLoco/releases
 - Platform: Windows, macOS
-- Keywords: remake, simulation, commercial content, requires original content, transport
+- Keyword: remake, simulation, commercial content, requires original content, transport
 - Code repository: https://github.com/OpenLoco/OpenLoco.git
 - Code language: C++
 - Code license: MIT

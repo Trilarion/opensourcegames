@@ -1,15 +1,15 @@
 # Librelancer
 
 - Home: https://librelancer.net/
-- Inspirations: Freelancer
+- Inspiration: Freelancer
 - State: beta
 - Download: https://librelancer.net/downloads.html
 - Platform: Windows, Linux
-- Keywords: action, game engine, remake, simulation, space
+- Keyword: action, game engine, remake, simulation, space
 - Code repository: https://github.com/Librelancer/Librelancer.git
 - Code language: C, C#
 - Code license: MIT
-- Code dependencies: OpenGL
+- Code dependency: OpenGL
 
 Remake of Freelancer.
 

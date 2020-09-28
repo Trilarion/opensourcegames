@@ -4,7 +4,7 @@
 - State: beta, inactive since 2009
 - Download: https://sourceforge.net/projects/balder/files/
 - Platform: Linux
-- Keywords: strategy, open content
+- Keyword: strategy, open content
 - Code repository: https://svn.code.sf.net/p/balder/code (svn)
 - Code language: C++
 - Code license: GPL-2.0

@@ -1,13 +1,13 @@
 # REDriver2
 
 - Home: https://github.com/SoapyMan/REDRIVER2
-- Inspirations: Driver 2
+- Inspiration: Driver 2
 - State: beta
-- Keywords: remake, commercial content, requires original content
+- Keyword: remake, commercial content, requires original content
 - Code repository: https://github.com/SoapyMan/REDRIVER2.git
 - Code language: C++
 - Code license: MIT
-- Code dependencies: OpenGL, SDL, SDL2
+- Code dependency: OpenGL, SDL, SDL2
 
 Remake of Driver 2.
 

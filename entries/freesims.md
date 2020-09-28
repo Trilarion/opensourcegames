@@ -1,15 +1,15 @@
 # FreeSims
 
 - Home: https://github.com/francot514/FreeSims
-- Inspirations: The Sims
+- Inspiration: The Sims
 - State: beta
 - Download: https://github.com/francot514/FreeSims/releases
 - Platform: Windows
-- Keywords: remake, simulation, commercial content, requires original content
+- Keyword: remake, simulation, commercial content, requires original content
 - Code repository: https://github.com/francot514/FreeSims.git
 - Code language: C#
 - Code license: MPL-2.0
-- Code dependencies: MonoGame
+- Code dependency: MonoGame
 
 Remake of The Sims.
 

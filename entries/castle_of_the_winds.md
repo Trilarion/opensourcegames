@@ -1,11 +1,11 @@
 # Castle of the Winds
 
 - Home: http://game.castleofthewinds.com/, http://mordrax.github.io/cotwmtor/
-- Inspirations: Castle of the Winds
+- Inspiration: Castle of the Winds
 - State: beta, inactive since 2016
 - Play: http://game.castleofthewinds.com/
 - Platform: Web
-- Keywords: remake, role playing
+- Keyword: remake, role playing
 - Code repository: https://github.com/mordrax/cotwmtor.git
 - Code language: JavaScript
 - Code license: MIT

@@ -2,7 +2,7 @@
 
 - Home: http://construo.github.io/, https://github.com/Construo/construo
 - State: beta, inactive since 2015
-- Keywords: simulation
+- Keyword: simulation
 - Code repository: https://github.com/Construo/construo.git
 - Code language: C++
 - Code license: GPL-3.0

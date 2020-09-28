@@ -1,14 +1,14 @@
 # Craft
 
 - Home: https://www.michaelfogleman.com/projects/craft/
-- Inspirations: Minecraft
+- Inspiration: Minecraft
 - State: mature, inactive since 2017
 - Platform: Windows, Linux, macOS
-- Keywords: puzzle, clone, multiplayer online, open content, sandbox, voxel
+- Keyword: puzzle, clone, multiplayer online, open content, sandbox, voxel
 - Code repository: https://github.com/fogleman/Craft.git
 - Code language: C, Python
 - Code license: MIT
-- Code dependencies: OpenGL
+- Code dependency: OpenGL
 
 Clone of Minecraft.
 

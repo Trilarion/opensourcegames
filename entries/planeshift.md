@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/PlaneShift_(video_game)
 - State: mature
 - Download: http://www.planeshift.it/Download
-- Keywords: role playing, multiplayer online + massive
+- Keyword: role playing, multiplayer online + massive
 - Code repository: https://svn.code.sf.net/p/planeshift/code (svn)
 - Code language: C++
 - Code license: GPL-2.0

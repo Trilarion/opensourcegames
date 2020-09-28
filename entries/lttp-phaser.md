@@ -1,13 +1,13 @@
 # lttp-phaser
 
 - Home: https://github.com/englercj/lttp
-- Inspirations: Legend of Zelda - A Link to the Past
+- Inspiration: Legend of Zelda - A Link to the Past
 - State: beta, inactive since 2016
-- Keywords: remake, role playing, commercial content, requires original content
+- Keyword: remake, role playing, commercial content, requires original content
 - Code repository: https://github.com/englercj/lttp.git
 - Code language: TypeScript, JavaScript
 - Code license: MIT
-- Code dependencies: Phaser, WebGL
+- Code dependency: Phaser, WebGL
 
 Remake of Legend of Zelda - A Link to the Past.
 

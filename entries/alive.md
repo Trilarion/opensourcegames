@@ -1,14 +1,14 @@
 # alive
 
 - Home: https://github.com/paulsapps/alive
-- Inspirations: Oddworld: Abe's Exoddus, Oddworld: Abe's Oddysee
+- Inspiration: Oddworld: Abe's Exoddus, Oddworld: Abe's Oddysee
 - State: beta
 - Platform: Windows, Linux
-- Keywords: action, remake
+- Keyword: action, remake
 - Code repository: https://github.com/AliveTeam/alive_reversing.git, https://github.com/paulsapps/alive.git @add
 - Code language: C++
 - Code license: MIT
-- Code dependencies: SDL2
+- Code dependency: SDL2
 
 Remake of Oddworld: Abe's Oddysee, Oddworld: Abe's Exoddus
 

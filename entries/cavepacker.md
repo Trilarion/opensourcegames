@@ -1,13 +1,13 @@
 # CavePacker
 
 - Home: http://www.caveproductions.org/
-- Inspirations: Sokoban
+- Inspiration: Sokoban
 - State: mature
-- Keywords: action, clone
+- Keyword: action, clone
 - Code repository: https://github.com/mgerhardy/caveexpress.git
 - Code language: JavaScript, C, C++, Lua
 - Code license: GPL-3.0
-- Code dependencies: SDL
+- Code dependency: SDL
 
 Clone of Sokoban.
 

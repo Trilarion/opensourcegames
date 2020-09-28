@@ -3,9 +3,9 @@ Specific functions working on the games.
 """
 
 import re
+import os
 from difflib import SequenceMatcher
-from utils import utils, osg_parse
-from utils.constants import *
+from utils import utils, osg_parse, constants as c
 
 regex_sanitize_name = re.compile(r"[^A-Za-z 0-9-+]+")
 regex_sanitize_name_space_eater = re.compile(r" +")
@@ -21,11 +21,11 @@ def entry_iterator():
     """
 
     # get all entries (ignore everything starting with underscore)
-    entries = os.listdir(entries_path)
+    entries = os.listdir(c.entries_path)
 
     # iterate over all entries
     for entry in entries:
-        entry_path = os.path.join(entries_path, entry)
+        entry_path = os.path.join(c.entries_path, entry)
 
         # ignore directories ("tocs" for example)
         if os.path.isdir(entry_path):
@@ -57,8 +57,8 @@ def read_developers():
 
     :return:
     """
-    grammar_file = os.path.join(code_path, 'grammar_listing.lark')
-    developers = osg_parse.read_and_parse(developer_file, grammar_file, osg_parse.ListingTransformer)
+    grammar_file = os.path.join(c.code_path, 'grammar_listing.lark')
+    developers = osg_parse.read_and_parse(c.developer_file, grammar_file, osg_parse.ListingTransformer)
 
     # now developers is a list of dictionaries for every entry with some properties
 
@@ -72,15 +72,15 @@ def read_developers():
     # check for essential, valid fields
     for dev in developers:
         # check that essential fields are existing
-        for field in essential_developer_fields:
+        for field in c.essential_developer_fields:
             if field not in dev:
                 raise RuntimeError('Essential field "{}" missing in developer {}'.format(field, dev['Name']))
         # check that all fields are valid fields
         for field in dev.keys():
-            if field not in valid_developer_fields:
+            if field not in c.valid_developer_fields:
                 raise RuntimeError('Invalid field "{}" in developer {}.'.format(field, dev['Name']))
         # url fields
-        for field in url_developer_fields:
+        for field in c.url_developer_fields:
             if field in dev:
                 content = dev[field]
                 if any(not (x.startswith('http://') or x.startswith('https://')) for x in content):
@@ -101,7 +101,7 @@ def write_developers(developers):
     developers = list(developers.values())
 
     # comment
-    content = '{}\n'.format(generic_comment_string)
+    content = '{}\n'.format(c.generic_comment_string)
 
     # number of developer
     content += '# Developer [{}]\n\n'.format(len(developers))
@@ -131,7 +131,7 @@ def write_developers(developers):
         content += '\n'
 
     # write
-    utils.write_text(developer_file, content)
+    utils.write_text(c.developer_file, content)
 
 
 def read_inspirations():
@@ -143,8 +143,8 @@ def read_inspirations():
     # read inspirations
 
     # read and parse inspirations
-    grammar_file = os.path.join(code_path, 'grammar_listing.lark')
-    inspirations = osg_parse.read_and_parse(inspirations_file, grammar_file, osg_parse.ListingTransformer)
+    grammar_file = os.path.join(c.code_path, 'grammar_listing.lark')
+    inspirations = osg_parse.read_and_parse(c.inspirations_file, grammar_file, osg_parse.ListingTransformer)
 
     # now inspirations is a list of dictionaries for every entry with some properties
 
@@ -158,15 +158,15 @@ def read_inspirations():
     # check for essential, valid fields
     for inspiration in inspirations:
         # check that essential fields are existing
-        for field in essential_inspiration_fields:
+        for field in c.essential_inspiration_fields:
             if field not in inspiration:
                 raise RuntimeError('Essential field "{}" missing in inspiration {}'.format(field, inspiration['Name']))
         # check that all fields are valid fields
         for field in inspiration.keys():
-            if field not in valid_inspiration_fields:
+            if field not in c.valid_inspiration_fields:
                 raise RuntimeError('Invalid field "{}" in inspiration {}.'.format(field, inspiration['Name']))
         # url fields
-        for field in url_inspiration_fields:
+        for field in c.url_inspiration_fields:
             if field in inspiration:
                 content = inspiration[field]
                 if any(not (x.startswith('http://') or x.startswith('https://')) for x in content):
@@ -188,7 +188,7 @@ def write_inspirations(inspirations):
     inspirations = list(inspirations.values())
 
     # comment
-    content = '{}\n'.format(generic_comment_string)
+    content = '{}\n'.format(c.generic_comment_string)
 
     # updated number of inspirations
     content += '# Inspirations [{}]\n\n'.format(len(inspirations))
@@ -218,7 +218,7 @@ def write_inspirations(inspirations):
         content += '\n'
 
     # write
-    utils.write_text(inspirations_file, content)
+    utils.write_text(c.inspirations_file, content)
 
 
 def read_entries():
@@ -227,7 +227,7 @@ def read_entries():
     """
 
     # setup parser and transformer
-    grammar_file = os.path.join(code_path, 'grammar_entries.lark')
+    grammar_file = os.path.join(c.code_path, 'grammar_entries.lark')
     grammar = utils.read_text(grammar_file)
     parse = osg_parse.create(grammar, osg_parse.EntryTransformer)
 
@@ -267,9 +267,9 @@ def check_and_process_entry(entry):
     index = 0
     for e in entry:
         field = e[0]
-        while index < len(valid_fields) and field != valid_fields[index]:
+        while index < len(c.valid_fields) and field != c.valid_fields[index]:
             index += 1
-        if index == len(valid_fields):  # must be valid fields and must be in the right order
+        if index == len(c.valid_fields):  # must be valid fields and must be in the right order
             message += 'Field "{}" either misspelled or in wrong order\n'.format(field)
 
     # order is fine we can convert to dictionary
@@ -281,7 +281,7 @@ def check_and_process_entry(entry):
     entry = d
 
     # check for essential fields
-    for field in essential_fields:
+    for field in c.essential_fields:
         if field not in entry:
             message += 'Essential property "{}" missing\n'.format(field)
 
@@ -296,7 +296,7 @@ def check_and_process_entry(entry):
 
     # check valid fields in building TODO should also check order
     for field in building.keys():
-        if field not in valid_building_fields:
+        if field not in c.valid_building_fields:
             message += 'Building field "{}" invalid\n'.format(field)
     entry['Building'] = building
 
@@ -316,12 +316,12 @@ def check_and_process_entry(entry):
         message += 'State must be one of <"beta", "mature">'
 
     # check urls
-    for field in url_fields:
+    for field in c.url_fields:
         values = entry.get(field, [])
         for value in values:
             if value.value.startswith('<') and value.value.endswith('>'):
                 value.value = value.value[1:-1]
-            if not any(value.startswith(x) for x in extended_valid_url_prefixes):
+            if not any(value.startswith(x) for x in c.extended_valid_url_prefixes):
                 message += 'URL "{}" in field "{}" does not start with a valid prefix'.format(value, field)
 
     # github/gitlab repositories should end on .git and should start with https
@@ -339,36 +339,37 @@ def check_and_process_entry(entry):
     if 'Platform' in entry:
         index = 0
         for platform in entry['Platform']:
-            while index < len(valid_platforms) and platform != valid_platforms[index]:
+            while index < len(c.valid_platforms) and platform != c.valid_platforms[index]:
                 index += 1
-            if index == len(valid_platforms):  # must be valid platforms and must be in that order
+            if index == len(c.valid_platforms):  # must be valid platforms and must be in that order
                 message += 'Platform tag "{}" either misspelled or in wrong order'.format(platform)
 
     # there must be at least one keyword
-    if not entry['Keywords']:
+    if not entry['Keyword']:
         message += 'Need at least one keyword'
 
     # check for existence of at least one recommended keywords
-    keywords = entry['Keywords']
-    if not any(keyword in keywords for keyword in recommended_keywords):
+    keywords = entry['Keyword']
+    if not any(keyword in keywords for keyword in c.recommended_keywords):
         message += 'Entry contains no recommended keywords'
 
     # languages should be known
     languages = entry['Code language']
     for language in languages:
-        if language not in known_languages:
+        if language not in c.known_languages:
             message += 'Language "{}" is not a known code language. Misspelled or new?'.format(language)
 
     # licenses should be known
     licenses = entry['Code license']
     for license in licenses:
-        if license not in known_licenses:
+        if license not in c.known_licenses:
             message += 'License "{}" is not a known license. Misspelled or new?'.format(license)
 
     if message:
         raise RuntimeError(message)
 
     return entry
+
 
 def is_inactive(entry):
     state = entry['State']
@@ -385,6 +386,7 @@ def extract_inactive_year(entry):
         return inactive_year[0]
     else:
         return None
+
 
 def write_entries(entries):
     """
@@ -406,7 +408,7 @@ def write_entry(entry):
     # TODO check entry
 
     # get path
-    entry_path = os.path.join(entries_path, entry['File'])
+    entry_path = os.path.join(c.entries_path, entry['File'])
 
     # create output content
     content = create_entry_content(entry)
@@ -427,23 +429,23 @@ def create_entry_content(entry):
 
     # we automatically sort some fields
     sort_fun = lambda x: str.casefold(x.value)
-    for field in ('Media', 'Inspirations', 'Code Language'):
+    for field in ('Media', 'Inspiration', 'Code Language'):
         if field in entry:
             values = entry[field]
             entry[field] = sorted(values, key=sort_fun)
     # we also sort keywords, but first the recommend ones and then other ones
-    keywords = entry['Keywords']
-    a = [x for x in keywords if x in recommended_keywords]
-    b = [x for x in keywords if x not in recommended_keywords]
-    entry['Keywords'] = sorted(a, key=sort_fun) + sorted(b, key=sort_fun)
+    keywords = entry['Keyword']
+    a = [x for x in keywords if x in c.recommended_keywords]
+    b = [x for x in keywords if x not in c.recommended_keywords]
+    entry['Keyword'] = sorted(a, key=sort_fun) + sorted(b, key=sort_fun)
 
-    # now properties in the recommended order
-    for field in valid_properties:
+    # now all properties in the recommended order
+    for field in c.valid_properties:
         if field in entry:
-            c = entry[field]
-            c = ['"{}"'.format(x) if ',' in x else x for x in c]
-            c = [str(x) for x in c]
-            content += '- {}: {}\n'.format(field, ', '.join(c))
+            e = entry[field]
+            e = ['"{}"'.format(x) if any(y in x.value for y in (',', ' (')) else x for x in e]
+            e = [str(x) for x in e]
+            content += '- {}: {}\n'.format(field, ', '.join(e))
     content += '\n'
 
     # if there is a note, insert it
@@ -455,15 +457,15 @@ def create_entry_content(entry):
 
     # building properties if present
     has_properties = False
-    for field in valid_building_properties:
+    for field in c.valid_building_properties:
         if field in entry['Building']:
             if not has_properties:
                 has_properties = True
                 content += '\n'
-            c = entry['Building'][field]
-            c = ['"{}"'.format(x) if ',' in x else x for x in c]
-            c = [str(x) for x in c]
-            content += '- {}: {}\n'.format(field, ', '.join(c))
+            e = entry['Building'][field]
+            e = ['"{}"'.format(x) if ',' in x else x for x in e]
+            e = [str(x) for x in e]
+            content += '- {}: {}\n'.format(field, ', '.join(e))
 
     # if there is a note, insert it
     if 'Note' in entry['Building']:
@@ -479,7 +481,7 @@ def is_url(str):
     :param str:
     :return:
     """
-    if any(str.startswith(x) for x in valid_url_prefixes) and not ' ' in str:
+    if any(str.startswith(x) for x in c.valid_url_prefixes) and not ' ' in str:
         return True
     return False
 
@@ -494,7 +496,7 @@ def all_urls(entries):
     # iterate over entries
     for entry in entries:
         file = entry['File']
-        for field in url_fields:  # TODO there are other fields, maybe just regex on the whole content
+        for field in c.url_fields:  # TODO there are other fields, maybe just regex on the whole content
             for value in entry.get(field, []):
                 if value.comment:
                     value = value.value + ' ' + value.comment

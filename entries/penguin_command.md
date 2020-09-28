@@ -1,11 +1,11 @@
 # Penguin Command
 
 - Home: http://www.linux-games.com/penguin-command/
-- Inspirations: Missile Command
+- Inspiration: Missile Command
 - State: mature, inactive since 2007
 - Download: https://sourceforge.net/projects/penguin-command/files/penguin-command/
 - Platform: Windows, Linux, macOS
-- Keywords: arcade
+- Keyword: arcade
 - Code repository: @see-download
 - Code language: C
 - Code license: GPL-2.0

@@ -4,7 +4,7 @@
 - State: mature
 - Download: https://github.com/fastrgv/TerminalApps/releases
 - Platform: Windows, Linux, macOS
-- Keywords: puzzle, open content, text-based
+- Keyword: puzzle, open content, text-based
 - Code repository: @see-download
 - Code language: Ada
 - Code license: GPL-3.0

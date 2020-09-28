@@ -46,9 +46,9 @@
 
 - Games: Maxit
 
-## Amer Koleci [7]
+## Amer Koleci [2]
 
-- Games: Vortice
+- Games: Alimer, Vortice
 
 ## Anders Svensson [1]
 
@@ -91,7 +91,7 @@
 - Games: Advanced Strategic Command
 - Contact: armin906@SF
 
-## Armin Rigo [18]
+## Armin Rigo [1]
 
 - Games: The Bub's Brothers
 
@@ -192,7 +192,7 @@
 - Games: Advanced Strategic Command
 - Contact: Ed-von-Schleck@GH
 
-## Chua Kong Sian [9]
+## Chua Kong Sian [1]
 
 - Games: GNU Chess
 
@@ -791,7 +791,7 @@
 
 - Games: Trip on the Funny Boat
 
-## Kriss [8]
+## Kriss [1]
 
 - Games: GameCake
 
@@ -864,7 +864,7 @@
 
 - Games: Tactics Squad
 
-## Lukas Geyer [9]
+## Lukas Geyer [1]
 
 - Games: GNU Chess
 
@@ -1017,7 +1017,7 @@
 
 - Games: GJID
 
-## Mike Strobel [9]
+## Mike Strobel [1]
 
 - Games: Supremacy
 
@@ -1145,9 +1145,9 @@
 
 - Games: Runfield
 
-## Paul Wise [2]
+## Paul Wise [3]
 
-- Games: Alex the Allegator 4, Hex-a-hop
+- Games: Alex the Allegator 4, Chromium B.S.U., Hex-a-hop
 - Contact: pabs3@SF
 
 ## Pedro Izecksohn [1]
@@ -1377,7 +1377,7 @@
 
 - Games: Simon Tatham's Portable Puzzle Collection
 
-## Simon Waters [9]
+## Simon Waters [1]
 
 - Games: GNU Chess
 
@@ -1443,7 +1443,7 @@
 
 - Games: Blinken
 
-## Stuart Cracraft [9]
+## Stuart Cracraft [1]
 
 - Games: GNU Chess
 
@@ -1610,7 +1610,7 @@
 
 - Games: Necklace of the Eye
 
-## Андрей Питько [13]
+## Андрей Питько [1]
 
 - Games: Wizards Magic
 

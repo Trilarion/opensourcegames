@@ -1,10 +1,10 @@
 # mk.js
 
 - Home: https://mk.mgechev.com/
-- Inspirations: Mortal Kombat
+- Inspiration: Mortal Kombat
 - State: beta
 - Platform: Web
-- Keywords: action, remake, multiplayer
+- Keyword: action, remake, multiplayer
 - Code repository: https://github.com/mgechev/mk.js.git
 - Code language: JavaScript
 - Code license: MIT

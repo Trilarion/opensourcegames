@@ -1,9 +1,9 @@
 # Devilution
 
 - Home: https://github.com/diasurgical/devilution
-- Inspirations: Diablo
+- Inspiration: Diablo
 - State: mature
-- Keywords: action, remake, commercial content, engine recreation, requires original content (Diablo 1)
+- Keyword: action, remake, commercial content, engine recreation, requires original content (Diablo 1)
 - Code repository: https://github.com/diasurgical/devilution.git
 - Code language: C, C++
 - Code license: Unlicense

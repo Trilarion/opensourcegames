@@ -3,7 +3,7 @@
 - Home: https://github.com/anura-engine/anura
 - State: mature
 - Platform: Windows
-- Keywords: arcade, game engine
+- Keyword: arcade, game engine
 - Code repository: https://github.com/anura-engine/anura.git
 - Code language: C, C++
 - Code license: zlib (src folder)

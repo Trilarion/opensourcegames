@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://pypi.org/project/Twisted/
 - Platform: Windows, Linux
-- Keywords: library
+- Keyword: library
 - Code repository: https://github.com/twisted/twisted.git
 - Code language: Python
 - Code license: MIT

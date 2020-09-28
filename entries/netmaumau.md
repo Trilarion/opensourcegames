@@ -4,11 +4,11 @@
 - State: mature, inactive since 2015
 - Download: https://github.com/velnias75/NetMauMau/releases, https://sourceforge.net/projects/netmaumau/files/
 - Platform: Windows, Linux
-- Keywords: cards, role playing, online, open content
+- Keyword: cards, role playing, online, open content
 - Code repository: https://github.com/velnias75/NetMauMau.git
 - Code language: C++
 - Code license: LGPL-3.0
-- Code dependencies: Qt
+- Code dependency: Qt
 - Assets license: ? (LGPL)
 - Developer: Heiko Schäfer
 

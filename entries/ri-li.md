@@ -4,11 +4,11 @@
 - State: mature, inactive since 2007
 - Download: http://ri-li.sourceforge.net/download.html, https://sourceforge.net/projects/ri-li/files/
 - Platform: Windows, Linux, macOS
-- Keywords: arcade, open content
+- Keyword: arcade, open content
 - Code repository: @see-download
 - Code language: C++
 - Code license: GPL-3.0
-- Code dependencies: SDL
+- Code dependency: SDL
 - Assets license: ? (GPL)
 - Developer: Dominique Roux-Serret
 

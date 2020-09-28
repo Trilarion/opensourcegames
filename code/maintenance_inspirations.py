@@ -64,7 +64,7 @@ class InspirationMaintainer:
                     print('Entry "{}" listed in inspiration "{}" but this entry does not exist'.format(entry_name, inspiration_name))
                 else:
                     entry = x[0]
-                    if 'Inspirations' not in entry or inspiration_name not in entry['Inspirations']:
+                    if 'Inspiration' not in entry or inspiration_name not in entry['Inspiration']:
                         print('Entry "{}" listed in inspiration "{}" but not listed in this entry'.format(entry_name, inspiration_name))
         print('missed inspirations checked')
 
@@ -90,7 +90,7 @@ class InspirationMaintainer:
         # loop over all entries and add to inspirations of entry
         for entry in self.entries:
             entry_name = entry['Title']
-            for inspiration in entry.get('Inspirations', []):
+            for inspiration in entry.get('Inspiration', []):
                 inspiration = inspiration.value
                 if inspiration in self.inspirations:
                     self.inspirations[inspiration]['Inspired entries'].append(entry_name)

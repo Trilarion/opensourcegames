@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Lightweight_Java_Game_Library
 - State: mature
 - Download: https://www.lwjgl.org/download
-- Keywords: framework
+- Keyword: framework
 - Code repository: https://github.com/LWJGL/lwjgl3.git
 - Code language: Kotlin, C
 - Code license: 3-clause BSD

@@ -4,7 +4,7 @@
 - State: mature, inactive since 2007
 - Download: https://sourceforge.net/projects/worldbuilder/files/
 - Platform: Windows
-- Keywords: tool
+- Keyword: tool
 - Code repository: https://gitlab.com/osgames/worldbuilder.git (conversion of cvs), http://worldbuilder.cvs.sourceforge.net (cvs)
 - Code language: Visual Basic
 - Code license: GPL-2.0

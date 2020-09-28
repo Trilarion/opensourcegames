@@ -1,9 +1,9 @@
 # Roton
 
 - Home: https://github.com/SaxxonPike/roton
-- Inspirations: Super ZZT, ZZT
+- Inspiration: Super ZZT, ZZT
 - State: beta, inactive since 2019
-- Keywords: remake
+- Keyword: remake
 - Code repository: https://github.com/SaxxonPike/roton.git
 - Code language: C#
 - Code license: ISC

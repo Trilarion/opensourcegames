@@ -1,11 +1,11 @@
 # Defendguin
 
 - Home: http://www.newbreedsoftware.com/defendguin/
-- Inspirations: Defender
+- Inspiration: Defender
 - State: mature, inactive since 2009
 - Download: http://www.newbreedsoftware.com/defendguin/download/, ftp://ftp.tuxpaint.org/unix/x/defendguin
 - Platform: Windows, Linux
-- Keywords: remake
+- Keyword: remake
 - Code repository: @see-download
 - Code language: C
 - Code license: GPL-2.0

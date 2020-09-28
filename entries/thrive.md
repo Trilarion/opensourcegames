@@ -1,11 +1,11 @@
 # Thrive
 
 - Home: https://revolutionarygamesstudio.com/
-- Inspirations: Spore
+- Inspiration: Spore
 - State: beta
 - Download: https://revolutionarygamesstudio.com/releases/, https://github.com/Revolutionary-Games/Thrive/releases
 - Platform: Windows, Linux
-- Keywords: strategy, open content, similar
+- Keyword: strategy, open content, similar
 - Code repository: https://github.com/Revolutionary-Games/Thrive.git
 - Code language: C++, AngelScript, JavaScript
 - Code license: GPL-3.0

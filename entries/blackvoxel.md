@@ -4,11 +4,11 @@
 - State: mature
 - Download: https://www.blackvoxel.com/view.php?node=1541
 - Platform: Windows, Linux
-- Keywords: simulation, open content, sandbox, voxel
+- Keyword: simulation, open content, sandbox, voxel
 - Code repository: https://github.com/Blackvoxel/Blackvoxel.git
 - Code language: C++
 - Code license: GPL-3.0
-- Code dependencies: OpenGL
+- Code dependency: OpenGL
 - Assets license: GPL-3.0
 
 3D voxel sandbox game.

@@ -1,9 +1,9 @@
 # Ostrich Riders
 
 - Home: http://identicalsoftware.com/ostrichriders/
-- Inspirations: Joust
+- Inspiration: Joust
 - State: beta
-- Keywords: arcade, remake
+- Keyword: arcade, remake
 - Code repository: https://github.com/dulsi/ostrichriders.git
 - Code language: C++
 - Code license: GPL-3.0

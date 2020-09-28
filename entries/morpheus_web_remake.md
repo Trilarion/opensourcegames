@@ -2,14 +2,14 @@
 
 - Home: https://soapbubble.itch.io/morpheus
 - Media: https://en.wikipedia.org/wiki/Morpheus_(1998_video_game)
-- Inspirations: Morpheus
+- Inspiration: Morpheus
 - State: beta
 - Platform: Windows, Linux, Android
-- Keywords: adventure, remake, commercial content, first-person, requires original content
+- Keyword: adventure, remake, commercial content, first-person, requires original content
 - Code repository: https://github.com/soap-bubble/web.git
 - Code language: JavaScript
 - Code license: MIT
-- Code dependencies: React, Redux, Rx.js, Three.js, Tween.js
+- Code dependency: React, Redux, Rx.js, Three.js, Tween.js
 
 Remake of Morpheus.
 What is the license of the content? Does the author have the right to distribute the content?

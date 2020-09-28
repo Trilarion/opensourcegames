@@ -1,10 +1,10 @@
 # Cannonball
 
 - Home: https://github.com/djyt/cannonball/wiki, http://reassembler.blogspot.com/
-- Inspirations: Outrun
+- Inspiration: Outrun
 - State: beta
 - Download: https://github.com/djyt/cannonball/wiki#downloads
-- Keywords: action, remake, commercial content
+- Keyword: action, remake, commercial content
 - Code repository: https://github.com/djyt/cannonball.git
 - Code language: C++
 - Code license: MAME

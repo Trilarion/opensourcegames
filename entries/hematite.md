@@ -1,13 +1,13 @@
 # Hematite
 
 - Home: http://hematite.piston.rs/
-- Inspirations: Minecraft
+- Inspiration: Minecraft
 - State: beta
-- Keywords: remake, simulation, sandbox, voxel
+- Keyword: remake, simulation, sandbox, voxel
 - Code repository: https://github.com/PistonDevelopers/hematite.git
 - Code language: Rust
 - Code license: MIT
-- Code dependencies: Piston
+- Code dependency: Piston
 
 Remake of Minecraft.
 

@@ -3,7 +3,7 @@
 - Home: https://github.com/PanosK92/SpartanEngine
 - State: beta
 - Platform: Windows
-- Keywords: game engine
+- Keyword: game engine
 - Code repository: https://github.com/PanosK92/SpartanEngine.git
 - Code language: C, C++
 - Code license: MIT

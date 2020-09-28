@@ -1,9 +1,9 @@
 # KnightOfWor
 
 - Home: https://github.com/Sanguinik/KnightOfWor
-- Inspirations: Wizard of Wor
+- Inspiration: Wizard of Wor
 - State: beta, inactive since 2015
-- Keywords: arcade, remake
+- Keyword: arcade, remake
 - Code repository: https://github.com/Sanguinik/KnightOfWor.git
 - Code language: Java
 - Code license: GPL-3.0

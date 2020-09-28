@@ -1,13 +1,13 @@
 # uninvited
 
 - Home: https://github.com/DavidGriffith/uninvited
-- Inspirations: Uninvited
+- Inspiration: Uninvited
 - State: beta, inactive since 2016
-- Keywords: adventure, remake
+- Keyword: adventure, remake
 - Code repository: https://github.com/DavidGriffith/uninvited.git
 - Code language: C, C++
 - Code license: Artistic License-2.0
-- Code dependencies: Inform
+- Code dependency: Inform
 
 Remake of Uninvited.
 

@@ -3,7 +3,7 @@
 - Home: https://sourceforge.net/projects/blacknova/, https://blacknova.net/
 - State: beta, inactive since 2012
 - Download: https://sourceforge.net/projects/blacknova/files
-- Keywords: strategy
+- Keyword: strategy
 - Code repository: https://gitlab.com/osgames/blacknova.git (backup of svn), https://svn.code.sf.net/p/blacknova/code (svn)
 - Code language: PHP, JavaScript
 - Code license: GPL-2.0

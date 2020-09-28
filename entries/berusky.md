@@ -4,11 +4,11 @@
 - State: mature
 - Download: @see-home (and https://web.archive.org/web/*/https://sourceforge.net/projects/berusky/files/*)
 - Platform: Windows, Linux
-- Keywords: action, logic, open content
+- Keyword: action, logic, open content
 - Code repository: https://github.com/stransky/berusky.git
 - Code language: C++
 - Code license: GPL-3.0
-- Code dependencies: SDL
+- Code dependency: SDL
 - Assets license: GPL
 
 Logic game based on Sokoban, expanded with new items such as explosives, stones, special gates.

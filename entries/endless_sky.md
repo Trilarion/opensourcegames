@@ -2,10 +2,10 @@
 
 - Home: https://endless-sky.github.io/
 - Media: https://en.wikipedia.org/wiki/Escape_Velocity_(video_game)#Legacy
-- Inspirations: Escape Velocity
+- Inspiration: Escape Velocity
 - State: mature
 - Download: https://github.com/endless-sky/endless-sky/releases
-- Keywords: role playing, clone, popular
+- Keyword: role playing, clone, popular
 - Code repository: https://github.com/endless-sky/endless-sky.git
 - Code language: C++
 - Code license: GPL-3.0

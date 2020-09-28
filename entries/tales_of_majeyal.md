@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Tales_of_Maj%27Eyal
 - State: mature
 - Download: https://te4.org/download
-- Keywords: role playing, roguelike
+- Keyword: role playing, roguelike
 - Code repository: https://git.net-core.org/tome/t-engine4.git
 - Code language: C, Lua
 - Code license: GPL-3.0

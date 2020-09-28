@@ -2,10 +2,10 @@
 
 - Home: http://www.ta3d.org/
 - Media: https://en.wikipedia.org/wiki/Total_Annihilation
-- Inspirations: Total Annihilation
+- Inspiration: Total Annihilation
 - State: beta, inactive since 2017
 - Platform: Windows, Linux, macOS
-- Keywords: remake, strategy, real time
+- Keyword: remake, strategy, real time
 - Code repository: https://github.com/zuzuf/TA3D.git
 - Code language: C++, C, Lua
 - Code license: GPL-2.0

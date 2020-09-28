@@ -2,11 +2,11 @@
 
 - Home: https://github.com/discosultan/penumbra
 - State: mature
-- Keywords: library
+- Keyword: library
 - Code repository: https://github.com/discosultan/penumbra.git
 - Code language: C#
 - Code license: MIT
-- Code dependencies: MonoGame
+- Code dependency: MonoGame
 
 Library that adds 2D lighting with shadowing effects.
 

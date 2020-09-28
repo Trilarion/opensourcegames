@@ -2,9 +2,9 @@
 
 - Home: http://ctp2.darkdust.net/, https://apolyton.net/forum/other-games/call-to-power-2/ctp2-source-code-project
 - Media: https://en.wikipedia.org/wiki/Call_to_Power_II#Source_code_release
-- Inspirations: Call to Power II
+- Inspiration: Call to Power II
 - State: mature
-- Keywords: remake, strategy, turn-based
+- Keyword: remake, strategy, turn-based
 - Code repository: https://github.com/civctp2/civctp2.git (mirror), http://ctp2.darkdust.net/anonsvn/ (svn)
 - Code language: C, C++
 - Code license: Custom (Activision CTP2 source EULA)

@@ -1,9 +1,9 @@
 # Simitone
 
 - Home: https://github.com/riperiperi/Simitone
-- Inspirations: The Sims
+- Inspiration: The Sims
 - State: beta
-- Keywords: remake, commercial content, requires original content
+- Keyword: remake, commercial content, requires original content
 - Code repository: https://github.com/riperiperi/Simitone.git
 - Code language: C#
 - Code license: MPL-2.0

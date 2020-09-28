@@ -4,11 +4,11 @@
 - State: mature, inactive since 2011
 - Download: https://sourceforge.net/projects/hcsoftware/files/Passage/
 - Platform: Windows, Linux, macOS
-- Keywords: role playing, open content
+- Keyword: role playing, open content
 - Code repository: http://hcsoftware.cvs.sourceforge.net (cvs part of it)
 - Code language: C++
 - Code license: Public domain
-- Code dependencies: SDL
+- Code dependency: SDL
 - Assets license: Public domain
 - Developer: Jason Rohrer
 

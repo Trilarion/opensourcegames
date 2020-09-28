@@ -1,15 +1,15 @@
 # OpenRoads
 
 - Home: http://openroadsgame.com/
-- Inspirations: SkyRoads
+- Inspiration: SkyRoads
 - State: mature, inactive since 2014
 - Play: http://openroadsgame.com/
 - Platform: Web
-- Keywords: arcade, remake
+- Keyword: arcade, remake
 - Code repository: https://github.com/anprogrammer/OpenRoads.git
 - Code language: TypeScript, JavaScript
 - Code license: MIT
-- Code dependencies: WebGL
+- Code dependency: WebGL
 - Assets license: ?
 
 Remake of SkyRoads.

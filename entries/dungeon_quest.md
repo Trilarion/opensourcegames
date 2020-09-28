@@ -3,7 +3,7 @@
 - Home: https://github.com/guillaume-gouchon/dungeonquest
 - State: mature
 - Platform: Android
-- Keywords: role playing
+- Keyword: role playing
 - Code repository: https://github.com/guillaume-gouchon/dungeonquest.git
 - Code language: Java
 - Code license: MIT

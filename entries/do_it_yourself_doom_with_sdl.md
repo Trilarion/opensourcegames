@@ -1,14 +1,14 @@
 # Do It Yourself Doom With SDL
 
 - Home: https://github.com/amroibrahim/DIYDoom
-- Inspirations: Doom
+- Inspiration: Doom
 - State: beta
 - Platform: Windows
-- Keywords: game engine, remake
+- Keyword: game engine, remake
 - Code repository: https://github.com/amroibrahim/DIYDoom.git
 - Code language: C++
 - Code license: MIT
-- Code dependencies: SDL2
+- Code dependency: SDL2
 
 A DOOM clone engine.
 

@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://xiph.org/downloads/
 - Platform: Linux
-- Keywords: library
+- Keyword: library
 - Code repository: https://git.xiph.org/vorbis.git
 - Code language: C
 - Code license: 3-clause BSD

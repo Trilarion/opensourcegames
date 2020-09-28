@@ -1,16 +1,16 @@
 # Taisei Project
 
 - Home: https://taisei-project.org/
-- Inspirations: Touhou
+- Inspiration: Touhou
 - State: mature
 - Play: https://play.taisei-project.org/
 - Download: https://taisei-project.org/download, https://github.com/taisei-project/taisei/releases
 - Platform: Windows, Linux, macOS, Web
-- Keywords: action, remake, open content, shootem
+- Keyword: action, remake, open content, shootem
 - Code repository: https://github.com/taisei-project/taisei.git
 - Code language: C, Python
 - Code license: MIT
-- Code dependencies: OpenGL, SDL2
+- Code dependency: OpenGL, SDL2
 
 Remake of Touhou.
 

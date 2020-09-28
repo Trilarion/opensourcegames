@@ -5,7 +5,7 @@
 - State: mature, inactive since 2010
 - Download: https://sourceforge.net/projects/ultrastar/files/
 - Platform: Windows
-- Keywords: action, karaoke
+- Keyword: action, karaoke
 - Code repository: https://svn.code.sf.net/p/ultrastar/code (svn)
 - Code language: Pascal
 - Code license: ?

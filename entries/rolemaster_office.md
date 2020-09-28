@@ -3,7 +3,7 @@
 - Home: https://sourceforge.net/projects/rmoffice/
 - State: mature
 - Download: https://sourceforge.net/projects/rmoffice/files
-- Keywords: tool
+- Keyword: tool
 - Code repository: https://git.code.sf.net/p/rmoffice/code
 - Code language: Java
 - Code license: Apache-2.0

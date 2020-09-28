@@ -2,13 +2,13 @@
 
 - Home: https://github.com/haqu/tiny-wings
 - Media: https://en.wikipedia.org/wiki/Tiny_Wings
-- Inspirations: Tiny Wings
+- Inspiration: Tiny Wings
 - State: beta
 - Platform: macOS
-- Keywords: remake, skill
+- Keyword: remake, skill
 - Code repository: https://github.com/haqu/tiny-wings.git
 - Code language: Objective-C, C, C++
 - Code license: MIT
-- Code dependencies: Cocos2D
+- Code dependency: Cocos2D
 
 ## Building

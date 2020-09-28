@@ -3,7 +3,7 @@
 - Home: https://sourceforge.net/projects/monstergenerato/
 - State: mature
 - Download: https://sourceforge.net/projects/monstergenerato/files/
-- Keywords: tool
+- Keyword: tool
 - Code repository: https://git.code.sf.net/p/monstergenerato/code
 - Code language: Java
 - Code license: MIT

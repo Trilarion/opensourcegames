@@ -5,7 +5,7 @@
 - State: mature, inactive since 2011
 - Download: https://sourceforge.net/projects/tuxmath/files/
 - Platform: Linux
-- Keywords: educational, for kids, tux
+- Keyword: educational, for kids, tux
 - Code repository: @see-download
 - Code language: C
 - Code license: GPL-3.0

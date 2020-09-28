@@ -1,15 +1,15 @@
 # Liberal Crime Squad
 
 - Home: http://www.bay12games.com/lcs/, http://lcs.wikidot.com/, https://sourceforge.net/projects/lcsgame/
-- Inspirations: Oubliette
+- Inspiration: Oubliette
 - State: mature, inactive since 2012
 - Download: https://sourceforge.net/projects/lcsgame/files/
 - Platform: Windows, Linux
-- Keywords: strategy, console, open content
+- Keyword: strategy, console, open content
 - Code repository: https://svn.code.sf.net/p/lcsgame/code (svn)
 - Code language: C++
 - Code license: GPL-2.0
-- Code dependencies: curses, SDL2
+- Code dependency: curses, SDL2
 
 Satirical console-based political role-playing/strategy game.
 

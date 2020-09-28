@@ -1,13 +1,13 @@
 # Marblez
 
 - Home: https://www.kongregate.com/games/MarkGossage/marblez/
-- Inspirations: Toobz
+- Inspiration: Toobz
 - State: beta, inactive since 2017
-- Keywords: arcade, clone
+- Keyword: arcade, clone
 - Code repository: https://github.com/mpgossage/Marblez.git
 - Code language: C#
 - Code license: MIT
-- Code dependencies: Unity
+- Code dependency: Unity
 
 Clone of Toobz.
 

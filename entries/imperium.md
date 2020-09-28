@@ -3,7 +3,7 @@
 - Home: https://empiredirectory.net/index.php
 - State: mature
 - Download: https://empiredirectory.net/index.php/new-downloads
-- Keywords: role playing, console
+- Keyword: role playing, console
 - Code repository: @see-download
 - Code language: ?
 - Code license: ?

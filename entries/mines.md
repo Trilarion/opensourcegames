@@ -1,10 +1,10 @@
 # Mines
 
 - Home: https://wiki.gnome.org/Apps/Mines
-- Inspirations: Minesweeper
+- Inspiration: Minesweeper
 - State: mature
 - Platform: Linux
-- Keywords: strategy, clone, free content
+- Keyword: strategy, clone, free content
 - Code repository: https://gitlab.gnome.org/GNOME/gnome-mines.git
 - Code language: Vala
 - Code license: GPL-3.0

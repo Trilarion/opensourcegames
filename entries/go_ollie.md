@@ -4,11 +4,11 @@
 - State: mature, inactive since 2011
 - Download: https://web.archive.org/web/20111209123851/http://www.tweeler.com/GoOllie_13.sh
 - Platform: Windows, Linux
-- Keywords: platform, open content
+- Keyword: platform, open content
 - Code repository: @see-download
 - Code language: ?
 - Code license: GPL-3.0
-- Code dependencies: SDL
+- Code dependency: SDL
 - Assets license: CC-BY-SA-3.0
 - Developer: Tony Oakden
 

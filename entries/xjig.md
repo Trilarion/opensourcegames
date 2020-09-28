@@ -2,7 +2,7 @@
 
 - Home: https://packages.debian.org/search?keywords=xjig
 - State: mature
-- Keywords: puzzle, jigsaw, open content
+- Keyword: puzzle, jigsaw, open content
 - Code repository: @see-debian
 - Code language: C
 - Code license: Custom (attribution, no warranty)

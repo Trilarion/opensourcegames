@@ -1,13 +1,13 @@
 # BOOM: Remake
 
 - Home: https://silverweed.github.io/boom/
-- Inspirations: BOOM
+- Inspiration: BOOM
 - State: mature
-- Keywords: action, remake, swappable content
+- Keyword: action, remake, swappable content
 - Code repository: https://github.com/silverweed/lifish.git
 - Code language: C++
 - Code license: Custom (non commercial)
-- Code dependencies: SFML
+- Code dependency: SFML
 
 Remake of BOOM.
 

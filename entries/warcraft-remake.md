@@ -1,14 +1,14 @@
 # warcraft-remake
 
 - Home: https://www.b3dgs.com/v7/page.php?lang=en&section=warcraft_remake
-- Inspirations: Warcraft: Orcs & Humans
+- Inspiration: Warcraft: Orcs & Humans
 - State: beta
 - Platform: Windows, Linux, Android
-- Keywords: remake, strategy, commercial content, real time
+- Keyword: remake, strategy, commercial content, real time
 - Code repository: https://github.com/b3dgs/warcraft-remake.git
 - Code language: Java
 - Code license: GPL-2.0
-- Code dependencies: LionEngine
+- Code dependency: LionEngine
 
 Remake of Warcraft: Orcs & Humans.
 

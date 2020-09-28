@@ -1,9 +1,9 @@
 # Pac Go
 
 - Home: https://github.com/danicat/pacgo
-- Inspirations: Pac-Man
+- Inspiration: Pac-Man
 - State: mature
-- Keywords: arcade, clone, open content
+- Keyword: arcade, clone, open content
 - Code repository: https://github.com/danicat/pacgo.git
 - Code language: Go
 - Code license: MIT

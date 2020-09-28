@@ -2,11 +2,11 @@
 
 - Home: https://github.com/jtrulson/conquest
 - State: mature
-- Keywords: strategy, real time
+- Keyword: strategy, real time
 - Code repository: https://github.com/jtrulson/conquest.git
 - Code language: C++
 - Code license: MIT
-- Code dependencies: SDL2
+- Code dependency: SDL2
 
 Real-time strategy space war game.
 

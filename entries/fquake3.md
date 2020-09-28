@@ -1,13 +1,13 @@
 # FQuake3
 
 - Home: https://github.com/TIHan/FQuake3
-- Inspirations: Quake 3
+- Inspiration: Quake 3
 - State: beta, inactive since 2014
-- Keywords: action, remake, commercial content, requires original content, shooter
+- Keyword: action, remake, commercial content, requires original content, shooter
 - Code repository: https://github.com/TIHan/FQuake3.git
 - Code language: F#
 - Code license: GPL-2.0
-- Code dependencies: MonoGame
+- Code dependency: MonoGame
 
 Remake of Quake 3.
 

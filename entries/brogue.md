@@ -3,7 +3,7 @@
 - Home: http://sites.google.com/site/broguegame/, https://brogue.fandom.com/wiki/Brogue_Wiki
 - State: mature
 - Platform: Windows, Linux, macOS
-- Keywords: role playing, roguelike
+- Keyword: role playing, roguelike
 - Code repository: https://github.com/tsadok/brogue.git
 - Code language: C
 - Code license: AGPL-3.0

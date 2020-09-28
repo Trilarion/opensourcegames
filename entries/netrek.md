@@ -5,7 +5,7 @@
 - State: mature, inactive since 2009
 - Download: https://www.netrek.org/downloads/, https://www.playnetrek.org/
 - Platform: Windows, Linux, macOS
-- Keywords: action, multiplayer, online
+- Keyword: action, multiplayer, online
 - Code repository: http://netrek.cvs.sourceforge.net (cvs)
 - Code language: C
 - Code license: Custom (permissive)

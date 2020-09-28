@@ -2,11 +2,11 @@
 
 - Home: https://www.thregr.org/~wavexx/software/garith/
 - State: mature, inactive since 2013
-- Keywords: educational, open content
+- Keyword: educational, open content
 - Code repository: https://gitlab.com/wavexx/garith.git, https://github.com/wavexx/garith.git (archived)
 - Code language: C++
 - Code license: LGPL-2.1
-- Code dependencies: GLUT
+- Code dependency: GLUT
 - Assets license: LGPL
 - Developer: Yuri D'Elia
 

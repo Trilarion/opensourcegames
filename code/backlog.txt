@@ -28,9 +28,6 @@ http://icculus.org/jugglemaster/
 http://icculus.org/pyddr/
 http://icculus.org/toby/
 http://iichantra.ru/en/
-https://github.com/armory3d/iron
-https://github.com/AxioDL/urde
-https://github.com/Gramps/GodotSteam
 http://insideastarfilledsky.net/
 http://lazerbears.wixsite.com/lazerbears/cr-editor
 http://libagar.org/agar/index.html.en
@@ -51,7 +48,6 @@ http://roguebasin.roguelikedevelopment.org/index.php?title=Main_Page
 http://sam.zoy.org/monsterz/
 http://senseis.xmp.net/?GoPlayingPrograms
 http://sio2interactive.com/
-https://github.com/EasyRPG/Editor-Qt
 http://slick.ninjacave.com/
 http://snowstorm.sourceforge.net/cgi-bin/site.cgi
 http://sol.gfxile.net/ambrose3d/index.html
@@ -208,6 +204,7 @@ https://github.com/adriengivry/Overload
 https://github.com/aloisdeniel/awesome-monogame
 https://github.com/Alzter/TuxBuilder
 https://github.com/amerkoleci/Vortice.Windows
+https://github.com/armory3d/iron
 https://github.com/arturkot/the-house-game
 https://github.com/asweigart/PythonStdioGames
 https://github.com/AtomicGameEngine/AtomicGameEngine
@@ -275,6 +272,7 @@ https://github.com/GNOME/quadrapassel
 https://github.com/godot-extended-libraries/godot-next
 https://github.com/godot-mega-man/Mega-Man-Engine
 https://github.com/godotengine/godot-design
+https://github.com/Gramps/GodotSteam
 https://github.com/grantjenks/free-python-games (check all)
 https://github.com/guillaumechereau/goxel
 https://github.com/H-uru/Plasma

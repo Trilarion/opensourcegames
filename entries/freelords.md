@@ -1,10 +1,10 @@
 # FreeLords
 
 - Home: https://sourceforge.net/projects/freelords/, https://sourceforge.net/p/freelords/wiki/Home/
-- Inspirations: Warlords II
+- Inspiration: Warlords II
 - State: beta, inactive since 2017
 - Download: https://sourceforge.net/projects/freelords/files
-- Keywords: remake, strategy
+- Keyword: remake, strategy
 - Code repository: https://git.code.sf.net/p/freelords/git
 - Code language: Java
 - Code license: GPL-2.0

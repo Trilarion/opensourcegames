@@ -3,7 +3,7 @@
 - Home: https://github.com/vilbeyli/VQEngine
 - State: beta
 - Platform: Windows
-- Keywords: framework, rendering
+- Keyword: framework, rendering
 - Code repository: https://github.com/vilbeyli/VQEngine.git
 - Code language: C++
 - Code license: GPL-3.0

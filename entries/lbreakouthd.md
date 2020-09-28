@@ -1,15 +1,15 @@
 # LBreakoutHD
 
 - Home: http://lgames.sourceforge.net/LBreakoutHD/, https://sourceforge.net/projects/lgames/
-- Inspirations: Breakout
+- Inspiration: Breakout
 - State: mature
 - Download: https://sourceforge.net/projects/lgames/files/lbreakouthd/
 - Platform: Linux
-- Keywords: arcade, clone, open content
+- Keyword: arcade, clone, open content
 - Code repository: https://svn.code.sf.net/p/lgames/code (svn part of it)
 - Code language: C++
 - Code license: GPL-3.0
-- Code dependencies: SDL
+- Code dependency: SDL
 - Assets license: ? (GPL-3.0)
 - Developer: Michael Speck
 

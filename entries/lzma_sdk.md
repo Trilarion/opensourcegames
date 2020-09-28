@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Lempel%E2%80%93Ziv%E2%80%93Markov_chain_algorithm
 - State: mature
 - Download: https://7-zip.org/download.html, https://7-zip.org/sdk.html
-- Keywords: library
+- Keyword: library
 - Code repository: @see-download
 - Code language: C
 - Code license: LGPL-2.0

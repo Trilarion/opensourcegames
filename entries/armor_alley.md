@@ -1,10 +1,10 @@
 # Armor Alley
 
 - Home: http://www.schillmania.com/armor-alley/
-- Inspirations: Armor Alley
+- Inspiration: Armor Alley
 - State: beta
 - Platform: Web
-- Keywords: action, remake, strategy, content open + non-commercial, shooter
+- Keyword: action, remake, strategy, content open + non-commercial, shooter
 - Code repository: https://github.com/scottschiller/ArmorAlley.git
 - Code language: JavaScript
 - Code license: CC-BY-NC-3.0 (https://github.com/scottschiller/ArmorAlley/blob/master/LICENSE.txt)

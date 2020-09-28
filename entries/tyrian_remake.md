@@ -2,13 +2,13 @@
 
 - Home: https://www.b3dgs.com/v7/page.php?lang=en&section=tyrian_remake
 - Media: https://en.wikipedia.org/wiki/Tyrian_(video_game)
-- Inspirations: Tyrian
+- Inspiration: Tyrian
 - State: beta
-- Keywords: action, remake, scrolling, shootem
+- Keyword: action, remake, scrolling, shootem
 - Code repository: https://github.com/b3dgs/tyrian-remake.git
 - Code language: Java
 - Code license: GPL-2.0
-- Code dependencies: LionEngine
+- Code dependency: LionEngine
 
 Remake of Tyrian.
 

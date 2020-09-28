@@ -3,7 +3,7 @@
 - Home: https://rails.sourceforge.io/, https://sourceforge.net/projects/rails/
 - State: mature
 - Download: https://sourceforge.net/projects/rails/files/Rails/
-- Keywords: strategy, turn-based
+- Keyword: strategy, turn-based
 - Code repository: https://github.com/Rails-18xx/Rails.git
 - Code language: Java
 - Code license: GPL-2.0

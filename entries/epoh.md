@@ -2,7 +2,7 @@
 
 - Home: https://github.com/tautvilas/epoh
 - State: beta
-- Keywords: strategy, online
+- Keyword: strategy, online
 - Code repository: https://github.com/tautvilas/epoh.git
 - Code language: JavaScript
 - Code license: MIT

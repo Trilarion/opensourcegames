@@ -4,7 +4,7 @@
 - State: mature
 - Download: https://raysan5.itch.io/raylib
 - Platform: Windows, Linux, macOS, Android, Web
-- Keywords: framework
+- Keyword: framework
 - Code repository: https://github.com/raysan5/raylib.git, https://github.com/ChrisDill/Raylib-cs.git @add
 - Code language: C, C++
 - Code license: zlib

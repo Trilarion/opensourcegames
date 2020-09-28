@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Blender_Game_Engine
 - State: mature
 - Download: https://www.blender.org/download/
-- Keywords: framework
+- Keyword: framework
 - Code repository: git://git.blender.org/blender.git (https://developer.blender.org/diffusion/)
 - Code language: C++
 - Code license: GPL-2.0
@@ -15,4 +15,4 @@ Part of Blender.
 ## Building
 
 - Build system: CMake
-- Build instructions: https://wiki.blender.org/index.php/Dev:Doc/Building_Blender
+- Build instruction: https://wiki.blender.org/index.php/Dev:Doc/Building_Blender

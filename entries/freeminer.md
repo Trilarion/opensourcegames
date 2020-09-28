@@ -2,7 +2,7 @@
 
 - Home: https://web.archive.org/web/20170531043347/http://freeminer.org/
 - State: beta
-- Keywords: simulation
+- Keyword: simulation
 - Code repository: https://github.com/freeminer/freeminer.git
 - Code language: C++, Lua
 - Code license: GPL-3.0

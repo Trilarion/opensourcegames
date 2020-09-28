@@ -4,11 +4,11 @@
 - State: mature
 - Download: http://bitfighter.org/downloads/
 - Platform: Windows, Linux, macOS
-- Keywords: action, open content
+- Keyword: action, open content
 - Code repository: https://github.com/bitfighter/bitfighter.git
 - Code language: C, C++
 - Code license: GPL-2.0
-- Code dependencies: SDL2
+- Code dependency: SDL2
 - Assets license: GPL
 
 Outer-space combat action game.

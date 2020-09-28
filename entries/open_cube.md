@@ -1,9 +1,9 @@
 # Open Cube
 
 - Home: http://team-cube.github.io/
-- Inspirations: Cube 2: Sauerbraten
+- Inspiration: Cube 2: Sauerbraten
 - State: beta, inactive since 2017
-- Keywords: game engine, remake
+- Keyword: game engine, remake
 - Code repository: https://github.com/team-cube/open-cube.git
 - Code language: C++
 - Code license: zlib

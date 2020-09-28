@@ -4,7 +4,7 @@
 - State: mature, inactive since 2016
 - Download: https://github.com/tukkek/javelin/releases
 - Platform: Windows, Linux, macOS
-- Keywords: role playing, open content, roguelike
+- Keyword: role playing, open content, roguelike
 - Code repository: https://github.com/tukkek/javelin.git
 - Code language: Java
 - Code license: GPL-2.0

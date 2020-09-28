@@ -2,7 +2,7 @@
 
 - Home: https://octaforge.org/
 - State: mature
-- Keywords: framework
+- Keyword: framework
 - Code repository: https://git.octaforge.org/OctaForge/OctaCore.git, https://github.com/OctaForge/OF-Engine.git (mirror, archived)
 - Code language: C++
 - Code license: Custom (NCSA open source license)
@@ -14,4 +14,4 @@ See also:
 ## Building
 
 - Build system: Make
-- Build instructions: https://github.com/OctaForge/OF-Engine/blob/master/INSTALL.md
+- Build instruction: https://github.com/OctaForge/OF-Engine/blob/master/INSTALL.md

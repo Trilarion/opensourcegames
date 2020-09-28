@@ -1,9 +1,9 @@
 # GJID
 
 - Home: https://github.com/msharov/gjid
-- Inspirations: Sokoban
+- Inspiration: Sokoban
 - State: mature, inactive since 2017
-- Keywords: puzzle, open content
+- Keyword: puzzle, open content
 - Code repository: https://github.com/msharov/gjid.git
 - Code language: C++
 - Code license: MIT

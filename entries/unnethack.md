@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/NetHack#Ports_and_forks
 - State: mature
 - Download: https://sourceforge.net/projects/unnethack/files/unnethack/
-- Keywords: role playing, roguelike
+- Keyword: role playing, roguelike
 - Code repository: https://github.com/unnethack/unnethack.git, https://git.code.sf.net/p/unnethack/git, https://svn.code.sf.net/p/unnethack/code (svn old)
 - Code language: C
 - Code license: Custom (NetHack license)

@@ -1,9 +1,9 @@
 # Tile World
 
 - Home: http://www.muppetlabs.com/~breadbox/software/tworld/
-- Inspirations: Chip's Challenge
+- Inspiration: Chip's Challenge
 - State: mature, inactive since 2015
-- Keywords: remake, commercial content, requires original content
+- Keyword: remake, commercial content, requires original content
 - Code repository: https://github.com/Qalthos/Tile-World.git (also see home)
 - Code language: C
 - Code license: GPL-2.0

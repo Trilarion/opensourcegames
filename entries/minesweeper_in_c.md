@@ -1,9 +1,9 @@
 # Minesweeper (in C)
 
 - Home: https://github.com/brenns10/minesweeper
-- Inspirations: Minesweeper
+- Inspiration: Minesweeper
 - State: beta, inactive since 2015
-- Keywords: puzzle, remake, open content, text
+- Keyword: puzzle, remake, open content, text
 - Code repository: https://github.com/brenns10/minesweeper.git
 - Code language: C
 - Code license: 3-clause BSD

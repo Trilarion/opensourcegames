@@ -2,7 +2,7 @@
 
 - Home: https://github.com/mgfreshour/hexwar
 - State: beta, inactive since 2012
-- Keywords: strategy, online, turn-based
+- Keyword: strategy, online, turn-based
 - Code repository: https://github.com/mgfreshour/hexwar.git
 - Code language: Ruby, JavaScript
 - Code license: MIT

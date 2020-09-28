@@ -4,11 +4,11 @@
 - State: mature, inactive since 2016
 - Download: https://sourceforge.net/projects/osrpgcreation/files/Mahjong/
 - Platform: Windows, Linux
-- Keywords: board, puzzle, 3D
+- Keyword: board, puzzle, 3D
 - Code repository: http://hg.code.sf.net/p/osrpgcreation/code (hg)
 - Code language: C++
 - Code license: GPL-3.0
-- Code dependencies: CEGUI, OGRE
+- Code dependency: CEGUI, OGRE
 - Developer: Opensource Game Studio
 
 Simple mahjong solitaire game with 3D graphics.

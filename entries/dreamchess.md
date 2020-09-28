@@ -4,7 +4,7 @@
 - State: beta
 - Download: https://www.dreamchess.org/downloads, https://sourceforge.net/projects/dreamchess/files/
 - Platform: Windows, Linux, macOS
-- Keywords: board, strategy, chess
+- Keyword: board, strategy, chess
 - Code repository: https://github.com/dreamchess/dreamchess.git
 - Code language: C
 - Code license: GPL-3.0

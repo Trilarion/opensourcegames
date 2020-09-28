@@ -1,13 +1,13 @@
 # Mr.Boom
 
 - Home: http://mrboom.mumblecore.org
-- Inspirations: Bomberman
+- Inspiration: Bomberman
 - State: mature
-- Keywords: action, remake, clone, multiplayer online
+- Keyword: action, remake, clone, multiplayer online
 - Code repository: https://github.com/Javanaise/mrboom-libretro.git
 - Code language: C++
 - Code license: MIT
-- Code dependencies: SDL
+- Code dependency: SDL
 
 Remake of Bomberman.
 

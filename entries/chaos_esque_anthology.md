@@ -1,10 +1,10 @@
 # Chaos Esque Anthology
 
 - Home: https://sourceforge.net/projects/chaosesqueanthology/
-- Inspirations: Xonotic
+- Inspiration: Xonotic
 - State: mature
 - Download: https://sourceforge.net/projects/chaosesqueanthology/files/
-- Keywords: strategy, first-person, open content, shooter
+- Keyword: strategy, first-person, open content, shooter
 - Code repository: @see-download
 - Code language: ?
 - Code license: ? (GPL did not download the iso)

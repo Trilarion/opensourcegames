@@ -2,10 +2,10 @@
 
 - Home: https://pioneerspacesim.net/
 - Media: https://en.wikipedia.org/wiki/Pioneer_(video_game)
-- Inspirations: Elite II
+- Inspiration: Elite II
 - State: mature
 - Download: https://pioneerspacesim.net/page/download/
-- Keywords: simulation, clone
+- Keyword: simulation, clone
 - Code repository: https://github.com/pioneerspacesim/pioneer.git
 - Code language: C, C++, Lua
 - Code license: Apache-2.0, GPL-3.0

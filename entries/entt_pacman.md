@@ -1,13 +1,13 @@
 # EnTT Pacman
 
 - Home: https://github.com/Kerndog73/EnTT-Pacman
-- Inspirations: Pac-Man
+- Inspiration: Pac-Man
 - State: mature
-- Keywords: puzzle, remake, clone, open content
+- Keyword: puzzle, remake, clone, open content
 - Code repository: https://github.com/Kerndog73/EnTT-Pacman.git
 - Code language: C, C++
 - Code license: MIT
-- Code dependencies: EnTT, SDL2
+- Code dependency: EnTT, SDL2
 
 Clone of Pac-Man.
 An example of how to use the ECS part of the EnTT framework

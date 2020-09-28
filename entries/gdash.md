@@ -1,10 +1,10 @@
 # GDash
 
 - Home: https://bitbucket.org/czirkoszoltan/gdash
-- Inspirations: Boulder Dash
+- Inspiration: Boulder Dash
 - State: beta
 - Download: https://bitbucket.org/czirkoszoltan/gdash/downloads/
-- Keywords: action, remake
+- Keyword: action, remake
 - Code repository: https://bitbucket.org/czirkoszoltan/gdash.git
 - Code language: C++
 - Code license: MIT

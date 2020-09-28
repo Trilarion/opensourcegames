@@ -1,10 +1,10 @@
 # Mafia II: Toolkit
 
 - Home: https://mafiamods.com/mods/mafia-2-toolkit/
-- Inspirations: Mafia II
+- Inspiration: Mafia II
 - State: mature
 - Platform: Windows
-- Keywords: tool
+- Keyword: tool
 - Code repository: https://github.com/Greavesy1899/Mafia2Toolkit.git
 - Code language: C#
 - Code license: MIT

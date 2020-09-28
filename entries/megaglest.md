@@ -2,10 +2,10 @@
 
 - Home: https://megaglest.org/, https://sourceforge.net/projects/megaglest/
 - Media: https://en.wikipedia.org/wiki/MegaGlest
-- Inspirations: Glest
+- Inspiration: Glest
 - State: mature
 - Download: https://megaglest.org/download
-- Keywords: remake, strategy, real time
+- Keyword: remake, strategy, real time
 - Code repository: https://github.com/MegaGlest/megaglest-source.git
 - Code language: C, C++
 - Code license: GPL-3.0

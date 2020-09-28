@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Meridian_59
 - State: mature
 - Download: https://meridian59.com/play-now.php
-- Keywords: role playing, multiplayer online + massive
+- Keyword: role playing, multiplayer online + massive
 - Code repository: https://github.com/Meridian59/Meridian59.git, https://github.com/OpenMeridian/Meridian59.git @add, https://github.com/OpenMeridian105/Meridian59.git @add, https://github.com/Arantis/Meridian59_112.git @add
 - Code language: C++, C
 - Code license: GPL-2.0

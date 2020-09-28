@@ -1,10 +1,10 @@
 # Wind Waker Randomizer
 
 - Home: https://github.com/LagoLunatic/wwrando
-- Inspirations: The Legend of Zelda: The Wind Waker
+- Inspiration: The Legend of Zelda: The Wind Waker
 - State: mature
 - Download: https://github.com/LagoLunatic/wwrando/releases
-- Keywords: tool, commercial content
+- Keyword: tool, commercial content
 - Code repository: https://github.com/LagoLunatic/wwrando.git
 - Code language: Python, Assembly
 - Code license: MIT

@@ -4,7 +4,7 @@
 - State: mature
 - Download: https://sourceforge.net/projects/jsgam/files/
 - Platform: Web
-- Keywords: adventure, game engine
+- Keyword: adventure, game engine
 - Code repository: https://github.com/kreezii/jsgam.git, https://svn.code.sf.net/p/jsgam/code (svn)
 - Code language: JavaScript
 - Code license: MIT

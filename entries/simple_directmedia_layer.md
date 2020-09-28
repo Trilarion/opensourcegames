@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Simple_DirectMedia_Layer
 - State: mature
 - Download: https://www.libsdl.org/download-2.0.php
-- Keywords: library, 3D
+- Keyword: library, 3D
 - Code repository: http://hg.libsdl.org/SDL (hg)
 - Code language: C
 - Code license: zlib

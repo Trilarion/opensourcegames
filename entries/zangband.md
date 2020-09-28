@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Angband_(video_game)#Derivative_works
 - State: mature, inactive since 2005
 - Download: https://sourceforge.net/projects/zangband/files/
-- Keywords: role playing, roguelike
+- Keyword: role playing, roguelike
 - Code repository: https://gitlab.com/osgames/zangband.git (backup of cvs), http://zangband.cvs.sourceforge.net/ (cvs)
 - Code language: C
 - Code license: Custom (Modifications allowed?)

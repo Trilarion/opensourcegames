@@ -1,9 +1,9 @@
 # Gorillas-rs
 
 - Home: https://nodef0.github.io/gorillas-rs/
-- Inspirations: Gorillas
+- Inspiration: Gorillas
 - State: beta
-- Keywords: remake, artillery, clone, multiplayer hotseat, open content
+- Keyword: remake, artillery, clone, multiplayer hotseat, open content
 - Code repository: https://github.com/nodef0/gorillas-rs.git
 - Code language: Rust
 - Code license: MIT

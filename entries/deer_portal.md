@@ -3,11 +3,11 @@
 - Home: https://devcarpet.net/deerportal/
 - State: beta
 - Platform: Windows, Linux
-- Keywords: adventure, board, cards, open content
+- Keyword: adventure, board, cards, open content
 - Code repository: https://github.com/deerportal/deerportal.git
 - Code language: C++
 - Code license: zlib
-- Code dependencies: SFML
+- Code dependency: SFML
 - Assets license: CC-BY 4.0
 - Developer: Rafal Zawadzki, Katia Zawadzka
 

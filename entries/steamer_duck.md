@@ -2,11 +2,11 @@
 
 - Home: https://gitlab.com/drummyfish/Steamer-Duck
 - State: beta
-- Keywords: platform, open content
+- Keyword: platform, open content
 - Code repository: https://gitlab.com/drummyfish/Steamer-Duck.git
 - Code language: Python
 - Code license: CC0
-- Code dependencies: pygame
+- Code dependency: pygame
 - Assets license: CC0
 - Developer: Drummyfish
 

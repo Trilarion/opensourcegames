@@ -1,10 +1,10 @@
 # Lords of the Fey
 
 - Home: https://github.com/apsillers/lords-of-the-fey
-- Inspirations: The Battle for Wesnoth
+- Inspiration: The Battle for Wesnoth
 - State: beta, inactive since 2018
 - Platform: Web
-- Keywords: remake, strategy, multiplayer, open content, turn-based
+- Keyword: remake, strategy, multiplayer, open content, turn-based
 - Code repository: https://github.com/apsillers/lords-of-the-fey.git
 - Code language: JavaScript
 - Code license: AGPL-3.0

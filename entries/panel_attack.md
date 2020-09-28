@@ -1,13 +1,13 @@
 # Panel Attack
 
 - Home: https://github.com/sharpobject/panel-attack
-- Inspirations: Tetris Attack
+- Inspiration: Tetris Attack
 - State: beta
-- Keywords: remake, skill
+- Keyword: remake, skill
 - Code repository: https://github.com/sharpobject/panel-attack.git
 - Code language: Lua
 - Code license: zlib
-- Code dependencies: LÖVE
+- Code dependency: LÖVE
 
 Remake of Tetris Attack.
 

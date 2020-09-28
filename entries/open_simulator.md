@@ -3,11 +3,11 @@
 - Home: http://opensimulator.org/wiki/Main_Page
 - State: beta
 - Download: http://opensimulator.org/wiki/Download
-- Keywords: adventure, open content
+- Keyword: adventure, open content
 - Code repository: git://opensimulator.org/git/opensim
 - Code language: C#
 - Code license: ? (BSD)
-- Code dependencies: MonoGame
+- Code dependency: MonoGame
 - Assets license: ? (BSD)
 
 Server side implementation of an open virtual 3D world in which users can create their own content.

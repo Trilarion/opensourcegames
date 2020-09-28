@@ -2,11 +2,11 @@
 
 - Home: https://www.openclonk.org/
 - Media: https://en.wikipedia.org/wiki/OpenClonk
-- Inspirations: Clonk
+- Inspiration: Clonk
 - State: mature
 - Download: https://www.openclonk.org/download/
 - Platform: Windows, Linux
-- Keywords: action, remake
+- Keyword: action, remake
 - Code repository: https://github.com/openclonk/openclonk.git
 - Code language: C, C++
 - Code license: ISC

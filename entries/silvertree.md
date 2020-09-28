@@ -3,7 +3,7 @@
 - Home: https://code.google.com/archive/p/silvertree/
 - State: beta, inactive since 2007
 - Download: https://code.google.com/archive/p/silvertree/downloads
-- Keywords: role playing
+- Keyword: role playing
 - Code repository: https://github.com/LibreGamesArchive/silvertree.git, https://code.google.com/archive/p/silvertree/source/default/source
 - Code language: C++
 - Code license: GPL-3.0

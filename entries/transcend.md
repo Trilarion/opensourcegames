@@ -4,11 +4,11 @@
 - State: beta, inactive since 2005
 - Download: https://sourceforge.net/projects/transcend/files/
 - Platform: Windows, Linux, macOS
-- Keywords: arcade, music, open content, shooter
+- Keyword: arcade, music, open content, shooter
 - Code repository: @see-download http://transcend.cvs.sourceforge.net (cvs)
 - Code language: C++, Dia
 - Code license: ? (GPL, Public domain)
-- Code dependencies: GLUT
+- Code dependency: GLUT
 - Assets license: ? (GPL)
 - Developer: Jason Rohrer
 

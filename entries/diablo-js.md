@@ -2,7 +2,7 @@
 
 - Home: https://github.com/mitallast/diablo-js
 - State: mature
-- Keywords: role playing
+- Keyword: role playing
 - Code repository: https://github.com/mitallast/diablo-js.git
 - Code language: Java, JavaScript
 - Code license: MIT

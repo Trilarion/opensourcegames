@@ -2,11 +2,11 @@
 
 - Home: https://gottcode.org/cutemaze/
 - State: mature
-- Keywords: puzzle
+- Keyword: puzzle
 - Code repository: @see-home
 - Code language: C++
 - Code license: GPL-3.0
-- Code dependencies: Qt
+- Code dependency: Qt
 - Developer: Graeme Gott
 
 Maze puzzle game.

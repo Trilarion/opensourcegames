@@ -1,15 +1,15 @@
 # proxx
 
 - Home: https://proxx.app/
-- Inspirations: Minesweeper
+- Inspiration: Minesweeper
 - State: mature
 - Play: https://proxx.app/
 - Platform: Web
-- Keywords: puzzle, clone
+- Keyword: puzzle, clone
 - Code repository: https://github.com/GoogleChromeLabs/proxx.git
 - Code language: TypeScript, JavaScript
 - Code license: Apache-2.0
-- Code dependencies: WebGL
+- Code dependency: WebGL
 
 Clone of Minesweeper.
 

@@ -1,9 +1,9 @@
 # KAtomic
 
 - Home: https://kde.org/applications/en/games/org.kde.katomic, https://games.kde.org/game.php?game=katomic
-- Inspirations: Atomix
+- Inspiration: Atomix
 - State: mature
-- Keywords: puzzle, remake
+- Keyword: puzzle, remake
 - Code repository: https://invent.kde.org/games/katomic.git
 - Code language: C++
 - Code license: GPL-2.0

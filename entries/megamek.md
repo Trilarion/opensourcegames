@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/MegaMek
 - State: mature
 - Download: https://megamek.org/downloads
-- Keywords: strategy
+- Keyword: strategy
 - Code repository: https://github.com/MegaMek/megamek.git, https://git.code.sf.net/p/megamek/git
 - Code language: Java
 - Code license: GPL-2.0

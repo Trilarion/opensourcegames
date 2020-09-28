@@ -1,13 +1,13 @@
 # Zeta
 
 - Home: https://zeta.asie.pl/
-- Inspirations: Super ZZT, ZZT
+- Inspiration: Super ZZT, ZZT
 - State: beta
-- Keywords: tool
+- Keyword: tool
 - Code repository: https://github.com/asiekierka/zeta.git
 - Code language: C
 - Code license: MIT
-- Code dependencies: SDL2
+- Code dependency: SDL2
 
 Emulator, implementing a DOS compatible environment just large enough to run ZZT and Super ZZT.
 

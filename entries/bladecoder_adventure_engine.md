@@ -4,11 +4,11 @@
 - State: mature
 - Download: https://github.com/bladecoder/bladecoder-adventure-engine/releases
 - Platform: Windows, Linux, macOS, Android
-- Keywords: adventure, game engine
+- Keyword: adventure, game engine
 - Code repository: https://github.com/bladecoder/bladecoder-adventure-engine.git
 - Code language: Java
 - Code license: Apache-2.0
-- Code dependencies: libGDX
+- Code dependency: libGDX
 
 Point and click adventure game engine and editor.
 

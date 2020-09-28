@@ -4,7 +4,7 @@
 - State: beta, inactive since 2012
 - Download: http://www.nongnu.org/billiards/#downloads, http://download.savannah.nongnu.org/releases/billiards/
 - Platform: Linux
-- Keywords: simulation, sports
+- Keyword: simulation, sports
 - Code repository: https://gitlab.com/osgames/billiards.git (import of cvs), http://cvs.savannah.nongnu.org:/sources/billiards (cvs)
 - Code language: Lua, Objective-C
 - Code license: GPL-3.0

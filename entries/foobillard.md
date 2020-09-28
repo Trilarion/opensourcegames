@@ -4,11 +4,11 @@
 - State: mature, inactive since 2010
 - Download: https://sourceforge.net/projects/foobillard/files/
 - Platform: Windows, Linux
-- Keywords: simulation
+- Keyword: simulation
 - Code repository: @see-download
 - Code language: C
 - Code license: GPL-2.0
-- Code dependencies: GLUT, SDL
+- Code dependency: GLUT, SDL
 - Developer: Florian Berger
 
 3D billiard game.

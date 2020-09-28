@@ -1,13 +1,13 @@
 # CaveExpress
 
 - Home: http://www.caveproductions.org/
-- Inspirations: Ugh!
+- Inspiration: Ugh!
 - State: mature
-- Keywords: platform, clone
+- Keyword: platform, clone
 - Code repository: https://github.com/mgerhardy/caveexpress.git
 - Code language: C
 - Code license: GPL-3.0
-- Code dependencies: SDL
+- Code dependency: SDL
 - Assets license: CC-BY-SA-4.0
 
 Clone of Ugh!.

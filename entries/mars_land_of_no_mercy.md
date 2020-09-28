@@ -3,7 +3,7 @@
 - Home: https://sourceforge.net/projects/mars/
 - State: beta, inactive since 2008
 - Download: https://sourceforge.net/projects/mars/files
-- Keywords: strategy, turn-based
+- Keyword: strategy, turn-based
 - Code repository: https://gitlab.com/osgames/mars.git (backup of svn), https://svn.code.sf.net/p/mars/code (svn)
 - Code language: C++
 - Code license: GPL-2.0

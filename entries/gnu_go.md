@@ -5,7 +5,7 @@
 - State: mature, inactive since 2011
 - Download: https://www.gnu.org/software/gnugo/download.html
 - Platform: Windows, Linux, macOS
-- Keywords: board, game engine, strategy, go, online
+- Keyword: board, game engine, strategy, go, online
 - Code repository: https://git.savannah.gnu.org/git/gnugo.git, http://cvs.savannah.gnu.org:/sources/gnugo (cvs)
 - Code language: C
 - Code license: GPL-3.0

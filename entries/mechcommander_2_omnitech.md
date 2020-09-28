@@ -2,9 +2,9 @@
 
 - Home: https://github.com/Echelon9/mechcommander2-open, http://www.hard-light.net/forums/index.php?board=210.0
 - Media: https://en.wikipedia.org/wiki/MechCommander_2
-- Inspirations: MechCommander 2
+- Inspiration: MechCommander 2
 - State: beta, inactive since 2013
-- Keywords: action, remake
+- Keyword: action, remake
 - Code repository: https://github.com/Echelon9/mechcommander2-open.git
 - Code language: C++
 - Code license: MS-PL

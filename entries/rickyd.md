@@ -1,10 +1,10 @@
 # RickyD
 
 - Home: https://sourceforge.net/projects/rickyd/
-- Inspirations: Rick Dangerous
+- Inspiration: Rick Dangerous
 - State: beta
 - Download: https://sourceforge.net/projects/rickyd/files/
-- Keywords: remake
+- Keyword: remake
 - Code repository: https://git.code.sf.net/p/rickyd/code
 - Code language: C++
 - Code license: GPL-2.0

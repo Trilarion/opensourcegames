@@ -3,7 +3,7 @@
 - Home: http://www.maratis3d.org/
 - State: beta
 - Download: http://www.maratis3d.org/?page_id=57
-- Keywords: framework
+- Keyword: framework
 - Code repository: https://github.com/anael-seghezzi/Maratis-4.git, https://code.google.com/archive/p/maratis/source
 - Code language: C++
 - Code license: GPL-2.0

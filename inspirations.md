@@ -1136,9 +1136,9 @@
 
 - Inspired entries: Dust Racing 2D, Microracers, Yorg
 
-## micropolis [1]
+## micropolis [2]
 
-- Inspired entries: Divercity
+- Inspired entries: 3d.city, Divercity
 
 ## Microprose Falcon 4.0 Combat Simulator [1]
 

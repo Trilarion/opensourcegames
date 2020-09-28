@@ -2,7 +2,7 @@
 
 - Home: https://sourceforge.net/projects/hexgamealpha/
 - State: beta
-- Keywords: strategy
+- Keyword: strategy
 - Code repository: https://github.com/matthewgrimes/hexgame.git
 - Code language: C++
 - Code license: MIT

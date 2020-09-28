@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/OGRE
 - State: mature
 - Download: https://www.ogre3d.org/download/sdk
-- Keywords: framework, 3D
+- Keyword: framework, 3D
 - Code repository: https://github.com/OGRECave/ogre.git, https://svn.code.sf.net/p/ogre/code (svn)
 - Code language: C++
 - Code license: MIT

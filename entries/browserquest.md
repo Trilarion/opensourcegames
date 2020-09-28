@@ -5,7 +5,7 @@
 - State: mature
 - Play: @see-home
 - Platform: Web
-- Keywords: role playing, multiplayer online + massive
+- Keyword: role playing, multiplayer online + massive
 - Code repository: https://github.com/mozilla/BrowserQuest.git
 - Code language: JavaScript
 - Code license: MPL-2.0

@@ -1,11 +1,11 @@
 # TermFrogger
 
 - Home: https://github.com/fastrgv/TermFrogger
-- Inspirations: Frogger
+- Inspiration: Frogger
 - State: mature
 - Download: https://github.com/fastrgv/TermFrogger/releases
 - Platform: Windows, Linux, macOS
-- Keywords: arcade, open content, text-based
+- Keyword: arcade, open content, text-based
 - Code repository: @see-download
 - Code language: Ada
 - Code license: GPL-3.0

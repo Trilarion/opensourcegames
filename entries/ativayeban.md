@@ -1,13 +1,13 @@
 # ativayeban
 
 - Home: https://github.com/Nebuleon/ativayeban
-- Inspirations: Fall Down
+- Inspiration: Fall Down
 - State: mature, inactive since 2015
-- Keywords: action, clone
+- Keyword: action, clone
 - Code repository: https://github.com/Nebuleon/ativayeban.git
 - Code language: C, C++
 - Code license: GPL-2.0
-- Code dependencies: SDL
+- Code dependency: SDL
 
 Clone of Fall Down.
 

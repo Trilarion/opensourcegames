@@ -2,9 +2,9 @@
 
 - Home: https://leonicolas.github.io/ReQbert/
 - Media: https://en.wikipedia.org/wiki/Q*bert#Legacy
-- Inspirations: Q*bert
+- Inspiration: Q*bert
 - State: beta
-- Keywords: puzzle, remake
+- Keyword: puzzle, remake
 - Code repository: https://github.com/leonicolas/ReQbert.git
 - Code language: JavaScript
 - Code license: GPL-3.0

@@ -1,11 +1,11 @@
 # OpenEtG
 
 - Home: https://etg.dek.im/
-- Inspirations: Elements
+- Inspiration: Elements
 - State: beta
 - Play: https://etg.dek.im/
 - Platform: Web
-- Keywords: cards, remake
+- Keyword: cards, remake
 - Code repository: https://github.com/serprex/openEtG.git
 - Code language: JavaScript
 - Code license: MIT

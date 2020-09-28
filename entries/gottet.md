@@ -1,14 +1,14 @@
 # Gottet
 
 - Home: https://gottcode.org/gottet/
-- Inspirations: Tetris
+- Inspiration: Tetris
 - State: mature
 - Platform: Windows, Linux, macOS
-- Keywords: tool
+- Keyword: tool
 - Code repository: @see-home
 - Code language: C++
 - Code license: GPL-3.0
-- Code dependencies: Qt
+- Code dependency: Qt
 - Developer: Graeme Gott
 
 Tetris-like game.

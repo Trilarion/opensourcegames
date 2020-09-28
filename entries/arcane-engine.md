@@ -3,11 +3,11 @@
 - Home: https://github.com/Ershany/Arcane-Engine
 - State: beta
 - Platform: Windows
-- Keywords: library
+- Keyword: library
 - Code repository: https://github.com/Ershany/Arcane-Engine.git
 - Code language: C++
 - Code license: MIT
-- Code dependencies: ImGUI, OpenGL
+- Code dependency: ImGUI, OpenGL
 
 Real-time, physically based renderer.
 

@@ -1,9 +1,9 @@
 # Data Storm
 
 - Home: https://github.com/haroldo-ok/datastorm
-- Inspirations: Turmoil
+- Inspiration: Turmoil
 - State: mature, inactive since 2017
-- Keywords: platform, remake
+- Keyword: platform, remake
 - Code repository: https://github.com/haroldo-ok/datastorm.git
 - Code language: C
 - Code license: Apache-2.0

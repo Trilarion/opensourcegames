@@ -3,7 +3,7 @@
 - Home: https://web.archive.org/web/20100109033002/http://www.badsectoracula.com/games/nikwi/, https://packages.debian.org/search?keywords=nikwi
 - State: beta, inactive since 2012
 - Platform: Windows, Linux
-- Keywords: platform, open content
+- Keyword: platform, open content
 - Code repository: @see-debian
 - Code language: C++
 - Code license: GPL-2.0

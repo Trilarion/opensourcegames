@@ -3,7 +3,7 @@
 - Home: http://twinery.org/
 - State: mature
 - Platform: Web
-- Keywords: game engine, tool, interactive fiction, text-based
+- Keyword: game engine, tool, interactive fiction, text-based
 - Code repository: https://github.com/klembot/twinejs.git
 - Code language: JavaScript
 - Code license: GPL-3.0

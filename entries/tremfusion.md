@@ -1,13 +1,13 @@
 # Tremfusion
 
 - Home: https://www.tremfusion.net/, https://web.archive.org/web/20121027000844/http://www.tremfusion.net:80/
-- Inspirations: Tremulous
+- Inspiration: Tremulous
 - State: mature, inactive since 2009
-- Keywords: remake, first-person, shooter
+- Keyword: remake, first-person, shooter
 - Code repository: https://github.com/Amanieu/tremfusion.git
 - Code language: C
 - Code license: GPL-2.0
-- Code dependencies: ioquake3
+- Code dependency: ioquake3
 - Assets license: CC-BY-SA-2.5
 
 FPS game that is the fork of Tremulous.

@@ -2,11 +2,11 @@
 
 - Home: https://www.vgc.io/
 - State: beta
-- Keywords: tool
+- Keyword: tool
 - Code repository: https://github.com/vgc/vgc.git
 - Code language: C++
 - Code license: Apache-2.0
-- Code dependencies: Qt
+- Code dependency: Qt
 
 Graphic Design tools.
 

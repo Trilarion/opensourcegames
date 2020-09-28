@@ -3,11 +3,11 @@
 - Home: https://github.com/RonenNess/GeonBit.UI
 - State: mature
 - Platform: Windows, Linux
-- Keywords: library
+- Keyword: library
 - Code repository: https://github.com/RonenNess/GeonBit.UI.git
 - Code language: C#
 - Code license: MIT
-- Code dependencies: MonoGame
+- Code dependency: MonoGame
 - Developer: Ronen Ness
 
 UI extension for MonoGame-based projects.

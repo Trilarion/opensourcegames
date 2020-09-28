@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Libxml2
 - State: mature
 - Download: http://www.xmlsoft.org/downloads.html
-- Keywords: library
+- Keyword: library
 - Code repository: https://gitlab.gnome.org/GNOME/libxml2.git
 - Code language: C
 - Code license: MIT

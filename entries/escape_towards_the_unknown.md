@@ -4,11 +4,11 @@
 - State: beta, inactive since 2016
 - Download: https://sourceforge.net/projects/ettu/files/
 - Platform: Windows, macOS
-- Keywords: adventure
+- Keyword: adventure
 - Code repository: https://svn.code.sf.net/p/ettu/code (svn)
 - Code language: C
 - Code license: GPL-2.0
-- Code dependencies: SDL
+- Code dependency: SDL
 
 Graphic adventure.
 

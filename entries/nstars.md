@@ -1,11 +1,11 @@
 # NStars!
 
 - Home: http://nstars.sourceforge.net/, https://sourceforge.net/projects/nstars/
-- Inspirations: Stars!
+- Inspiration: Stars!
 - State: beta, inactive since 2004
 - Download: https://sourceforge.net/projects/nstars/files/
 - Platform: Windows
-- Keywords: remake, strategy
+- Keyword: remake, strategy
 - Code repository: http://nstars.cvs.sourceforge.net (cvs)
 - Code language: C#
 - Code license: ?

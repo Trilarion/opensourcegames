@@ -4,7 +4,7 @@
 - State: mature
 - Download: https://pypi.org/project/Pillow/
 - Platform: Windows, Linux, macOS
-- Keywords: library
+- Keyword: library
 - Code repository: https://github.com/python-pillow/Pillow.git
 - Code language: C, Python
 - Code license: Custom (PIL Software License)

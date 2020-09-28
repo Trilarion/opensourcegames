@@ -1,14 +1,14 @@
 # Not Pacman
 
 - Home: https://stabyourself.net/notpacman/
-- Inspirations: Pac-Man
+- Inspiration: Pac-Man
 - State: mature, inactive since 2013
 - Platform: Windows, Linux, macOS
-- Keywords: action, open content
+- Keyword: action, open content
 - Code repository: @see-home
 - Code language: Lua
 - Code license: WTFPL
-- Code dependencies: LÖVE
+- Code dependency: LÖVE
 - Assets license: WTFPL
 - Developer: Sam Hocevar
 

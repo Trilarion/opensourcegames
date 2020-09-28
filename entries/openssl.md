@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/OpenSSL
 - State: mature
 - Download: https://www.openssl.org/source/
-- Keywords: library
+- Keyword: library
 - Code repository: https://github.com/openssl/openssl.git (mirror), https://www.openssl.org/source/gitrepo.html
 - Code language: C
 - Code license: Apache-2.0

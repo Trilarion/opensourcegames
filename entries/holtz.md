@@ -4,11 +4,11 @@
 - State: mature
 - Download: https://sourceforge.net/projects/holtz/files/
 - Platform: Windows, Linux
-- Keywords: board, puzzle, online, open content
+- Keyword: board, puzzle, online, open content
 - Code repository: https://git.code.sf.net/p/holtz/code, https://git.code.sf.net/p/holtz/website @add
 - Code language: C++
 - Code license: GPL-2.0
-- Code dependencies: wxWidgets
+- Code dependency: wxWidgets
 - Assets license: GPL
 - Developer: Florian Fischer, Martin Trautmann
 

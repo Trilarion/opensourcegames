@@ -4,11 +4,11 @@
 - Media: https://en.wikipedia.org/wiki/PyQt
 - State: mature
 - Platform: Windows, Linux, macOS, Android, iOS
-- Keywords: library
+- Keyword: library
 - Code repository: @see-home
 - Code language: C++, Python
 - Code license: GPL-3.0, Custom (Riverbank Commercial License)
-- Code dependencies: Qt
+- Code dependency: Qt
 
 Python binding for the Qt framework.
 

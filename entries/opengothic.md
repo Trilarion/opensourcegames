@@ -1,11 +1,11 @@
 # OpenGothic
 
 - Home: https://github.com/Try/OpenGothic
-- Inspirations: Gothic, Gothic II
+- Inspiration: Gothic, Gothic II
 - State: beta
 - Download: https://github.com/Try/OpenGothic/releases
 - Platform: Windows
-- Keywords: game engine, remake, role playing, commercial content, requires original content
+- Keyword: game engine, remake, role playing, commercial content, requires original content
 - Code repository: https://github.com/Try/OpenGothic.git
 - Code language: C++
 - Code license: MIT

@@ -1,11 +1,11 @@
 # urde
 
 - Home: https://gitlab.axiodl.com/AxioDL/urde
-- Inspirations: Metroid Prime
+- Inspiration: Metroid Prime
 - State: beta
 - Download: https://github.com/AxioDL/urde/releases
 - Platform: Windows, macOS
-- Keywords: game engine, remake, commercial content, requires original content
+- Keyword: game engine, remake, commercial content, requires original content
 - Code repository: https://gitlab.axiodl.com/AxioDL/urde.git, https://github.com/AxioDL/urde.git
 - Code language: C, C++
 - Code license: MIT

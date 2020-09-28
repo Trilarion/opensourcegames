@@ -1,11 +1,11 @@
 # System Syzygy
 
 - Home: https://mdsteele.games/syzygy/
-- Inspirations: System's Twilight
+- Inspiration: System's Twilight
 - State: mature, inactive since 2018
 - Download: https://mdsteele.games/syzygy/download/
 - Platform: Windows, Linux, macOS
-- Keywords: puzzle, open content
+- Keyword: puzzle, open content
 - Code repository: https://github.com/mdsteele/syzygy.git
 - Code language: Rust
 - Code license: GPL-3.0

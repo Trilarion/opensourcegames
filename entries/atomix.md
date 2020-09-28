@@ -1,9 +1,9 @@
 # Atomix
 
 - Home: https://wiki.gnome.org/Apps/Atomix
-- Inspirations: Atomix
+- Inspiration: Atomix
 - State: mature
-- Keywords: puzzle, remake
+- Keyword: puzzle, remake
 - Code repository: https://github.com/GNOME/atomix.git
 - Code language: C
 - Code license: GPL-2.0

@@ -1,10 +1,10 @@
 # Dune Legacy
 
 - Home: http://dunelegacy.sourceforge.net, https://sourceforge.net/projects/dunelegacy/
-- Inspirations: Dune 2
+- Inspiration: Dune 2
 - State: mature
 - Download: http://dunelegacy.sourceforge.net/website/downloads.html, https://sourceforge.net/projects/dunelegacy/files
-- Keywords: remake, strategy, requires original content
+- Keyword: remake, strategy, requires original content
 - Code repository: https://git.code.sf.net/p/dunelegacy/code
 - Code language: C++
 - Code license: GPL-2.0

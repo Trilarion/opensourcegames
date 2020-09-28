@@ -1,15 +1,15 @@
 # SDL-Ball
 
 - Home: http://sdl-ball.sourceforge.net/, https://sourceforge.net/projects/sdl-ball/
-- Inspirations: Breakout
+- Inspiration: Breakout
 - State: mature, inactive since 2016
 - Download: http://sdl-ball.sourceforge.net/?page=download, https://sourceforge.net/projects/sdl-ball/files/
 - Platform: Linux
-- Keywords: arcade, open content
+- Keyword: arcade, open content
 - Code repository: https://github.com/DusteDdk/SDL-Ball.git
 - Code language: C++
 - Code license: GPL-3.0
-- Code dependencies: OpenGL, SDL
+- Code dependency: OpenGL, SDL
 - Assets license: ? (GPL)
 - Developer: Jimmy Christensen
 

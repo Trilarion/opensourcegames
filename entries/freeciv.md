@@ -2,10 +2,10 @@
 
 - Home: http://www.freeciv.org/, https://sourceforge.net/projects/freeciv/
 - Media: https://en.wikipedia.org/wiki/Freeciv
-- Inspirations: Civilization II
+- Inspiration: Civilization II
 - State: mature
 - Download: http://www.freeciv.org/download.html
-- Keywords: strategy, clone, multiplayer, turn-based
+- Keyword: strategy, clone, multiplayer, turn-based
 - Code repository: https://github.com/freeciv/freeciv.git
 - Code language: C
 - Code license: GPL-2.0

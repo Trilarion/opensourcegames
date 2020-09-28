@@ -1,9 +1,9 @@
 # Open Zelda
 
 - Home: https://github.com/openzelda/openzelda-source, https://web.archive.org/web/20171028213428/http://openzelda.nfshost.com/
-- Inspirations: Legend of Zelda
+- Inspiration: Legend of Zelda
 - State: mature, inactive since 2015
-- Keywords: action, clone, requires original content
+- Keyword: action, clone, requires original content
 - Code repository: https://github.com/openzelda/openzelda-source.git
 - Code language: C, C++
 - Code license: zlib

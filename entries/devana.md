@@ -4,7 +4,7 @@
 - State: beta
 - Download: https://sourceforge.net/projects/devana/files
 - Platform: Web
-- Keywords: strategy
+- Keyword: strategy
 - Code repository: https://gitlab.com/osgames/devana.git (snapshot of source releases)
 - Code language: PHP
 - Code license: zlib

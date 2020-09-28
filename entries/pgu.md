@@ -4,7 +4,7 @@
 - State: mature
 - Download: https://pypi.org/project/pygame-pgu/
 - Platform: Windows, Linux, macOS
-- Keywords: library
+- Keyword: library
 - Code repository: https://github.com/parogers/pgu.git
 - Code language: Python
 - Code license: LGPL-2.1

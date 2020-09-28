@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/OpenAL
 - State: mature
 - Download: http://www.openal.org/downloads/
-- Keywords: library
+- Keyword: library
 - Code repository: @see-download
 - Code language: C
 - Code license: Proprietary (since v1.1, LGPL before)

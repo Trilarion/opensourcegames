@@ -4,11 +4,11 @@
 - State: mature, inactive since 2017
 - Download: http://tangomon.nongnu.org/download.html
 - Platform: Windows, Linux
-- Keywords: educational, for kids, open content
+- Keyword: educational, for kids, open content
 - Code repository: https://git.savannah.nongnu.org/git/tangomon.git, http://cvs.savannah.nongnu.org:/web/tangomon (cvs)
 - Code language: Python
 - Code license: GPL-3.0
-- Code dependencies: SGE
+- Code dependency: SGE
 - Assets license: various
 - Developer: onpon4
 

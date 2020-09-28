@@ -4,7 +4,7 @@
 - State: mature, inactive since 2008
 - Download: http://psyco.sourceforge.net/download.html
 - Platform: Windows, Linux
-- Keywords: tool
+- Keyword: tool
 - Code repository: @see-download
 - Code language: C
 - Code license: MIT

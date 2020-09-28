@@ -3,7 +3,7 @@
 - Home: http://fsc.sourceforge.net/, https://sourceforge.net/projects/fsc/
 - State: beta, inactive since 2017
 - Download: https://sourceforge.net/projects/fsc/files
-- Keywords: strategy
+- Keyword: strategy
 - Code repository: https://gitlab.com/osgames/fsc.git (conversion of svn), https://svn.code.sf.net/p/fsc/code (svn)
 - Code language: C
 - Code license: GPL-2.0

@@ -1,9 +1,9 @@
 # zztgo
 
 - Home: https://benhoyt.com/writings/zzt-in-go/
-- Inspirations: ZZT
+- Inspiration: ZZT
 - State: beta
-- Keywords: remake
+- Keyword: remake
 - Code repository: https://github.com/benhoyt/zztgo.git
 - Code language: Go
 - Code license: MIT

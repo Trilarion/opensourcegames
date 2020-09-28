@@ -1,9 +1,9 @@
 # micropolisJS
 
 - Home: http://www.graememcc.co.uk/micropolisJS/
-- Inspirations: SimCity
+- Inspiration: SimCity
 - State: mature
-- Keywords: simulation, clone
+- Keyword: simulation, clone
 - Code repository: https://github.com/graememcc/micropolisJS.git
 - Code language: JavaScript
 - Code license: GPL-3.0

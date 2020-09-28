@@ -2,10 +2,10 @@
 
 - Home: https://github.com/mdodis/OpenSolomonsKey
 - Media: https://en.wikipedia.org/wiki/Solomon%27s_Key
-- Inspirations: Solomon's Key
+- Inspiration: Solomon's Key
 - State: beta
 - Platform: Windows, Linux
-- Keywords: puzzle, clone, open content
+- Keyword: puzzle, clone, open content
 - Code repository: https://github.com/mdodis/OpenSolomonsKey.git
 - Code language: C++
 - Code license: Unlicense

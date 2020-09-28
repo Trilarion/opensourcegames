@@ -1,9 +1,9 @@
 # JFDuke3D
 
 - Home: http://www.jonof.id.au/jfduke3d/
-- Inspirations: Duke Nukem 3D
+- Inspiration: Duke Nukem 3D
 - State: beta, inactive since 2005
-- Keywords: game engine, remake, commercial content, multiplayer LAN, shooter
+- Keyword: game engine, remake, commercial content, multiplayer LAN, shooter
 - Code repository: https://github.com/jonof/jfduke3d.git
 - Code language: C
 - Code license: GPL-2.0

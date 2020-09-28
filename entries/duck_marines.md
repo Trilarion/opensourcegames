@@ -1,11 +1,11 @@
 # Duck Marines
 
 - Home: https://tangramgames.dk/games/duckmarines/
-- Inspirations: ChuChu Rocket!
+- Inspiration: ChuChu Rocket!
 - State: mature, inactive since 2016
 - Download: https://github.com/SimonLarsen/duckmarines/releases
 - Platform: Windows, Linux (using LÖVE), macOS
-- Keywords: puzzle, remake, open content (but NC and ND)
+- Keyword: puzzle, remake, open content (but NC and ND)
 - Code repository: https://github.com/SimonLarsen/duckmarines.git
 - Code language: Lua
 - Code license: zlib

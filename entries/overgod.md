@@ -4,7 +4,7 @@
 - State: mature, inactive since 2005
 - Download: https://sourceforge.net/projects/overgod/files/
 - Platform: Windows, Linux, macOS
-- Keywords: arcade, open content
+- Keyword: arcade, open content
 - Code repository: @see-download
 - Code language: C
 - Code license: GPL-2.0

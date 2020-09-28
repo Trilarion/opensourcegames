@@ -5,7 +5,7 @@
 - State: mature, inactive since 2013
 - Download: https://sourceforge.net/projects/murderpd/files/
 - Platform: Windows, Linux
-- Keywords: adventure, visual novel
+- Keyword: adventure, visual novel
 - Code repository: https://gitlab.com/osgames/murderpd.git (copy of versions 1.0.0 - 1.3.1)
 - Code language: C++
 - Code license: GPL-3.0

@@ -1,15 +1,15 @@
 # Grimsonland
 
 - Home: http://brooklynking.github.io/Grimsonland/
-- Inspirations: Crimsonland
+- Inspiration: Crimsonland
 - State: mature, inactive since 2017
 - Play: http://brooklynking.github.io/Grimsonland/
 - Platform: Web
-- Keywords: action, clone, open content
+- Keyword: action, clone, open content
 - Code repository: https://github.com/BrooklynKing/Grimsonland.git
 - Code language: JavaScript
 - Code license: MIT (https://github.com/BrooklynKing/Grimsonland/blob/master/package.json)
-- Code dependencies: Phaser
+- Code dependency: Phaser
 
 Clone of Crimsonland.
 

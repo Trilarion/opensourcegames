@@ -1,9 +1,9 @@
 # Freeserf.net
 
 - Home: https://github.com/Pyrdacor/freeserf.net
-- Inspirations: Freeserf, The Settlers
+- Inspiration: Freeserf, The Settlers
 - State: mature
-- Keywords: remake, strategy, requires original content
+- Keyword: remake, strategy, requires original content
 - Code repository: https://github.com/Pyrdacor/freeserf.net.git
 - Code language: C#
 - Code license: GPL-3.0

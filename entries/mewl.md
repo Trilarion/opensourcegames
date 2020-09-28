@@ -1,9 +1,9 @@
 # M.E.W.L.
 
 - Home: https://github.com/LionsPhil/mewl
-- Inspirations: M.U.L.E.
+- Inspiration: M.U.L.E.
 - State: beta (more like alpha), inactive since 2015
-- Keywords: remake, strategy
+- Keyword: remake, strategy
 - Code repository: https://github.com/LionsPhil/mewl.git
 - Code language: C++
 - Code license: GPL-2.0

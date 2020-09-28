@@ -4,7 +4,7 @@
 - State: mature, inactive since 2009
 - Download: https://julianoliver.com/levelhead/install.html
 - Platform: Linux
-- Keywords: puzzle, open content
+- Keyword: puzzle, open content
 - Code repository: @see-download
 - Code language: C++, Python
 - Code license: GPL-3.0

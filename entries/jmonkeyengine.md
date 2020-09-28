@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/JMonkeyEngine
 - State: mature
 - Download: https://github.com/jMonkeyEngine/sdk/releases
-- Keywords: framework
+- Keyword: framework
 - Code repository: https://github.com/jMonkeyEngine/jmonkeyengine.git
 - Code language: Java
 - Code license: 3-clause BSD

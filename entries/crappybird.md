@@ -1,11 +1,11 @@
 # CrappyBird
 
 - Home: https://varunpant.com/resources/CrappyBird/index.html
-- Inspirations: Flappy Bird
+- Inspiration: Flappy Bird
 - State: mature, inactive since 2017
 - Play: @see-home
 - Platform: Web
-- Keywords: puzzle, remake
+- Keyword: puzzle, remake
 - Code repository: https://github.com/varunpant/CrappyBird.git
 - Code language: JavaScript
 - Code license: MIT

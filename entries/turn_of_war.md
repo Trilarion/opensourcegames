@@ -1,10 +1,10 @@
 # Turn of War
 
 - Home: https://github.com/trananh1992/Turn-of-War
-- Inspirations: Dragon Wars
+- Inspiration: Dragon Wars
 - State: beta, inactive since 2014
 - Platform: Android
-- Keywords: strategy
+- Keyword: strategy
 - Code repository: https://github.com/trananh1992/Turn-of-War.git
 - Code language: Java
 - Code license: GPL-3.0

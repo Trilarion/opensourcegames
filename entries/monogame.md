@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/MonoGame
 - State: mature
 - Download: https://www.monogame.net/downloads/
-- Keywords: framework
+- Keyword: framework
 - Code repository: https://github.com/MonoGame/MonoGame.git
 - Code language: C#
 - Code license: MS-PL, MIT

@@ -1,13 +1,13 @@
 # Granatier
 
 - Home: https://invent.kde.org/games/granatier
-- Inspirations: Bomberman
+- Inspiration: Bomberman
 - State: mature
-- Keywords: action, clone, multiplayer competitive, open content
+- Keyword: action, clone, multiplayer competitive, open content
 - Code repository: https://invent.kde.org/games/granatier.git
 - Code language: C++
 - Code license: GPL-2.0
-- Code dependencies: Qt
+- Code dependency: Qt
 
 Clone of Bomberman.
 

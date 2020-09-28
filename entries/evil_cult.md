@@ -2,7 +2,7 @@
 
 - Home: https://code.google.com/archive/p/cult/, http://www.in-fi-del.net/static/cult/index.html
 - State: mature
-- Keywords: strategy
+- Keyword: strategy
 - Code repository: https://github.com/infidel-/cult.git
 - Code language: Haxe, JavaScript
 - Code license: GPL-3.0

@@ -1,11 +1,11 @@
 # Rabbit Escape
 
 - Home: https://www.artificialworlds.net/rabbit-escape/
-- Inspirations: Lemmings
+- Inspiration: Lemmings
 - State: mature
 - Download: https://www.artificialworlds.net/rabbit-escape/#install
 - Platform: Windows, Linux, macOS, Android
-- Keywords: action, puzzle, remake
+- Keyword: action, puzzle, remake
 - Code repository: https://github.com/andybalaam/rabbit-escape.git
 - Code language: Java
 - Code license: GPL-2.0

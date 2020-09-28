@@ -2,11 +2,11 @@
 
 - Home: https://github.com/Mekire/cabbages-and-kings
 - State: mature
-- Keywords: action
+- Keyword: action
 - Code repository: https://github.com/Mekire/cabbages-and-kings.git
 - Code language: Python
 - Code license: MIT
-- Code dependencies: pygame, wxPython
+- Code dependency: pygame, wxPython
 
 Mix between action and rpg.
 

@@ -3,7 +3,7 @@
 - Home: http://potomak.github.io/gist-txt/#acebd8fe14942fab4e8e
 - State: mature, inactive since 2018
 - Platform: Web
-- Keywords: adventure, game engine, text-based
+- Keyword: adventure, game engine, text-based
 - Code repository: https://github.com/potomak/gist-txt.git
 - Code language: JavaScript
 - Code license: MIT

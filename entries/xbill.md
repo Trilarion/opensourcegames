@@ -4,7 +4,7 @@
 - State: mature, inactive since 2001
 - Download: http://www.xbill.org/download/
 - Platform: Linux
-- Keywords: arcade
+- Keyword: arcade
 - Code repository: https://gitlab.com/osgames/xbill.git (import of sources)
 - Code language: C
 - Code license: GPL-2.0

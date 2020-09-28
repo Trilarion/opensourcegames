@@ -3,7 +3,7 @@
 - Home: https://urho3d.github.io/
 - State: mature
 - Download: https://sourceforge.net/projects/urho3d/files/Urho3D/
-- Keywords: framework
+- Keyword: framework
 - Code repository: https://github.com/urho3d/Urho3D.git
 - Code language: C++, AngelScript
 - Code license: MIT

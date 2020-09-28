@@ -3,7 +3,7 @@
 - Home: https://sourceforge.net/projects/jewelhunt/
 - State: beta
 - Download: https://sourceforge.net/projects/jewelhunt/files
-- Keywords: role playing
+- Keyword: role playing
 - Code repository: https://gitlab.com/osgames/jewelhunt.git (backup of svn), https://svn.code.sf.net/p/jewelhunt/code (svn)
 - Code language: Java
 - Code license: GPL-2.0

@@ -1,9 +1,9 @@
 # Julius
 
 - Home: https://github.com/bvschaik/julius
-- Inspirations: Caesar 3
+- Inspiration: Caesar 3
 - State: mature
-- Keywords: remake, simulation
+- Keyword: remake, simulation
 - Code repository: https://github.com/bvschaik/julius.git
 - Code language: C, C++
 - Code license: AGPL-3.0

@@ -1,9 +1,9 @@
 # orona
 
 - Home: http://stephank.github.io/orona/
-- Inspirations: Bolo
+- Inspiration: Bolo
 - State: beta, inactive since 2012
-- Keywords: remake, strategy
+- Keyword: remake, strategy
 - Code repository: https://github.com/stephank/orona.git
 - Code language: CoffeeScript
 - Code license: GPL-2.0

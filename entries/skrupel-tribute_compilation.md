@@ -3,7 +3,7 @@
 - Home: https://sourceforge.net/projects/skrupel/
 - State: mature, inactive since 2011
 - Download: https://sourceforge.net/projects/skrupel/files
-- Keywords: strategy
+- Keyword: strategy
 - Code repository: https://github.com/kantoks/skrupel.git (continuation), https://gitlab.com/osgames/skrupel.git @add, http://skrupel.cvs.sourceforge.net/ (cvs)
 - Code language: PHP, JavaScript
 - Code license: GPL-2.0

@@ -4,7 +4,7 @@
 - State: mature
 - Download: https://www.jwtc.nl/downloads
 - Platform: Android
-- Keywords: strategy
+- Keyword: strategy
 - Code repository: https://github.com/jcarolus/android-chess.git
 - Code language: Java, C++
 - Code license: MIT

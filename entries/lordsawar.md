@@ -2,9 +2,9 @@
 
 - Home: http://www.nongnu.org/lordsawar/
 - Media: https://en.wikipedia.org/wiki/Warlords_(game_series)#LordsAWar!
-- Inspirations: Warlords II
+- Inspiration: Warlords II
 - State: mature
-- Keywords: strategy, turn-based
+- Keyword: strategy, turn-based
 - Code repository: https://git.savannah.nongnu.org/git/lordsawar.git
 - Code language: C++
 - Code license: GPL-3.0

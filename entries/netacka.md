@@ -1,13 +1,13 @@
 # Netacka
 
 - Home: https://pwmarcz.pl/netacka/
-- Inspirations: "Achtung, die Kurve!"
+- Inspiration: "Achtung, die Kurve!"
 - State: mature
-- Keywords: remake, skill
+- Keyword: remake, skill
 - Code repository: https://github.com/pwmarcz/netacka.git
 - Code language: C
 - Code license: MIT
-- Code dependencies: Allegro
+- Code dependency: Allegro
 
 Remake of Achtung, die Kurve!.
 Also see Netacka 3D (home).

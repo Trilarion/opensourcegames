@@ -2,7 +2,7 @@
 
 - Home: https://code.google.com/archive/p/farcolony/
 - State: beta, inactive since 2014
-- Keywords: strategy
+- Keyword: strategy
 - Code repository: https://github.com/Vakarias/farcolony.git
 - Code language: Pascal
 - Code license: GPL-3.0

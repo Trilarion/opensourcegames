@@ -1,14 +1,14 @@
 # Minima
 
 - Home: https://feneric.itch.io/minima
-- Inspirations: Ultima III: Exodus
+- Inspiration: Ultima III: Exodus
 - State: mature
 - Download: https://github.com/Feneric/Minima/releases
-- Keywords: role playing, clone
+- Keyword: role playing, clone
 - Code repository: https://github.com/Feneric/Minima.git
 - Code language: Lua
 - Code license: GPL-3.0
-- Code dependencies: PICO-8
+- Code dependency: PICO-8
 
 Clone of Ultima III: Exodus.
 

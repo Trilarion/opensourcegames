@@ -5,7 +5,7 @@
 - State: mature, inactive since 2010
 - Download: https://sourceforge.net/projects/xpilotgame/files/
 - Platform: Windows, Linux
-- Keywords: action, space
+- Keyword: action, space
 - Code repository: https://gitlab.com/osgames/xpilot.git (conversion of cvs), http://hg.code.sf.net/p/xpilotgame/www.xpilot.org (hg, website), http://xpilotgame.cvs.sourceforge.net (cvs)
 - Code language: C
 - Code license: GPL-2.0

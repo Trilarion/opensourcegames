@@ -2,7 +2,7 @@
 
 - Home: https://github.com/jbeder/yaml-cpp
 - State: mature
-- Keywords: library
+- Keyword: library
 - Code repository: https://github.com/jbeder/yaml-cpp.git
 - Code language: C++
 - Code license: MIT

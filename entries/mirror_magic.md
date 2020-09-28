@@ -1,9 +1,9 @@
 # Mirror Magic
 
 - Home: https://www.artsoft.org/mirrormagic/
-- Inspirations: Deflektor
+- Inspiration: Deflektor
 - State: mature
-- Keywords: puzzle, remake
+- Keyword: puzzle, remake
 - Code repository: @see-home
 - Code language: C
 - Code license: GPL-2.0

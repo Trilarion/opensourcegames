@@ -2,7 +2,7 @@
 
 - Home: http://facsimulation.sourceforge.net/index.html, https://sourceforge.net/projects/facsimulation/
 - State: beta, inactive since 2012
-- Keywords: simulation, flight
+- Keyword: simulation, flight
 - Code repository: https://svn.code.sf.net/p/facsimulation/code (svn)
 - Code language: C, C++
 - Code license: GPL-3.0

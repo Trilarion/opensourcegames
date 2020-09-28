@@ -4,11 +4,11 @@
 - State: mature
 - Download: https://github.com/fastrgv/RufasSwap/releases
 - Platform: Windows, Linux, macOS
-- Keywords: puzzle, for kids
+- Keyword: puzzle, for kids
 - Code repository: @see-download
 - Code language: Ada
 - Code license: GPL-3.0
-- Code dependencies: OpenGL, SDL2
+- Code dependency: OpenGL, SDL2
 
 Permuted picture puzzles for kids.
 

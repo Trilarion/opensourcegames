@@ -2,9 +2,9 @@
 
 - Home: http://soaos.sourceforge.net/, https://sourceforge.net/projects/soaos/
 - Media: https://en.wikipedia.org/wiki/Siege_of_Avalon
-- Inspirations: Siege of Avalon
+- Inspiration: Siege of Avalon
 - State: beta, inactive since 2011
-- Keywords: remake
+- Keyword: remake
 - Code repository: https://github.com/CartBlanche/Siege-of-Avalon-Open-Source.git, http://soaos.cvs.sourceforge.net (cvs)
 - Code language: Pascal
 - Code license: Custom (NC)

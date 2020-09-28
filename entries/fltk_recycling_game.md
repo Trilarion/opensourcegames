@@ -3,11 +3,11 @@
 - Home: http://www.thregr.org/~wavexx/software/regame/
 - State: mature, inactive since 2014
 - Platform: Windows, Linux, macOS
-- Keywords: arcade, open content
+- Keyword: arcade, open content
 - Code repository: https://gitlab.com/wavexx/regame.git
 - Code language: C++
 - Code license: LGPL-2.1
-- Code dependencies: FLTK, libpng
+- Code dependency: FLTK, libpng
 - Assets license: LGPL
 - Developer: Yuri D'Elia
 

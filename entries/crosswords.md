@@ -4,7 +4,7 @@
 - State: mature
 - Download: https://sourceforge.net/projects/xwords/files/
 - Platform: Android
-- Keywords: board, role playing, open content
+- Keyword: board, role playing, open content
 - Code repository: https://git.code.sf.net/p/xwords/git, https://svn.code.sf.net/p/xwords/svn (svn)
 - Code language: Java
 - Code license: GPL-2.0

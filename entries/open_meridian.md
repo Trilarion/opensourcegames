@@ -1,10 +1,10 @@
 # Open Meridian
 
 - Home: http://openmeridian.org/
-- Inspirations: Meridian 59
+- Inspiration: Meridian 59
 - State: mature
 - Download: http://openmeridian.org/create-account/
-- Keywords: remake, role playing, multiplayer online + massive
+- Keyword: remake, role playing, multiplayer online + massive
 - Code repository: https://github.com/OpenMeridian/Meridian59.git
 - Code language: C, C++
 - Code license: GPL-2.0

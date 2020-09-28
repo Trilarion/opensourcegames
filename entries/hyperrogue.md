@@ -5,7 +5,7 @@
 - State: mature
 - Download: http://roguetemple.com/z/hyper/download.php
 - Platform: Windows, Linux, macOS, Android (some versions)
-- Keywords: role playing, roguelike
+- Keyword: role playing, roguelike
 - Code repository: https://github.com/zenorogue/hyperrogue.git
 - Code language: C++
 - Code license: GPL-2.0

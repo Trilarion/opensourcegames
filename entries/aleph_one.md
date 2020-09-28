@@ -1,11 +1,11 @@
 # Aleph One
 
 - Home: https://alephone.lhowon.org/, https://github.com/Aleph-One-Marathon/alephone/wiki, https://sourceforge.net/projects/marathon/
-- Inspirations: Marathon, Marathon 2, Marathon Infinity
+- Inspiration: Marathon, Marathon 2, Marathon Infinity
 - State: mature
 - Download: https://sourceforge.net/projects/marathon/files/
 - Platform: Windows, Linux, macOS
-- Keywords: action, remake, shooter
+- Keyword: action, remake, shooter
 - Code repository: https://github.com/Aleph-One-Marathon/alephone.git, https://svn.code.sf.net/p/marathon/code (svn)
 - Code language: C++, Lua
 - Code license: GPL-3.0

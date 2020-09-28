@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Allegro_(software)
 - State: mature
 - Download: https://liballeg.org/download.html
-- Keywords: framework
+- Keyword: framework
 - Code repository: https://github.com/liballeg/allegro5.git
 - Code language: C
 - Code license: zlib

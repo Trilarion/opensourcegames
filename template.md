@@ -4,6 +4,7 @@ _{Description}_
 
 - Home: {URL}
 - Media: {URL} (optional)
+- Inspiration: {XX} (opotional)
 - State: {XX} 
 - Play: {URL} (optional)
 - Download: {URL} (optional)

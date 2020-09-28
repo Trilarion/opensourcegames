@@ -2,7 +2,7 @@
 
 - Home: http://www.zetawar.com/
 - State: mature
-- Keywords: strategy
+- Keyword: strategy
 - Code repository: https://github.com/Zetawar/zetawar.git
 - Code language: Clojure
 - Code license: MIT

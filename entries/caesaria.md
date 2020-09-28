@@ -1,11 +1,11 @@
 # CaesarIA
 
 - Home: https://bitbucket.org/dalerank/caesaria/overview, https://bitbucket.org/dalerank/caesaria/wiki/Home
-- Inspirations: Caesar 3
+- Inspiration: Caesar 3
 - State: beta
 - Download: https://bitbucket.org/dalerank/caesaria/wiki/Releases
 - Platform: Windows, Linux, macOS
-- Keywords: remake, strategy
+- Keyword: remake, strategy
 - Code repository: https://bitbucket.org/dalerank/caesaria.git, https://github.com/dalerank/caesaria-game.git
 - Code language: C++, JavaScript
 - Code license: GPL-3.0

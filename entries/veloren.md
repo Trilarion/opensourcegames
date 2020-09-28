@@ -1,9 +1,9 @@
 # Veloren
 
 - Home: https://veloren.net/
-- Inspirations: Cube World, Dwarf Fortress, Minecraft
+- Inspiration: Cube World, Dwarf Fortress, Minecraft
 - State: beta
-- Keywords: role playing, multiplayer online + LAN, open content, voxel
+- Keyword: role playing, multiplayer online + LAN, open content, voxel
 - Code repository: https://gitlab.com/veloren/veloren.git
 - Code language: Rust
 - Code license: GPL-3.0

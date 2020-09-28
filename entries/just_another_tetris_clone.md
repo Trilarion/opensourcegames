@@ -1,9 +1,9 @@
 # Just another Tetris™ clone
 
 - Home: https://github.com/spypunk/
-- Inspirations: Tetris
+- Inspiration: Tetris
 - State: mature, inactive since 2017
-- Keywords: remake, skill
+- Keyword: remake, skill
 - Code repository: https://github.com/spypunk/tetris.git
 - Code language: Java
 - Code license: WTFPL

@@ -1,13 +1,13 @@
 # Tanglet
 
 - Home: https://gottcode.org/tanglet/
-- Inspirations: Boggle
+- Inspiration: Boggle
 - State: mature
-- Keywords: puzzle, open content
+- Keyword: puzzle, open content
 - Code repository: @see-home
 - Code language: C++
 - Code license: GPL-3.0
-- Code dependencies: Qt
+- Code dependency: Qt
 - Assets license: ? (GPL)
 - Developer: Graeme Gott
 

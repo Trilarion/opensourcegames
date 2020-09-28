@@ -1,14 +1,14 @@
 # UnCiv
 
 - Home: https://github.com/yairm210/UnCiv
-- Inspirations: Civilization V
+- Inspiration: Civilization V
 - State: beta
 - Platform: Android
-- Keywords: remake, strategy, multiplayer online + hotseat, open content, turn-based
+- Keyword: remake, strategy, multiplayer online + hotseat, open content, turn-based
 - Code repository: https://github.com/yairm210/UnCiv.git
 - Code language: Kotlin
 - Code license: MPL-2.0
-- Code dependencies: libGDX
+- Code dependency: libGDX
 - Assets license: CC-BY (see https://github.com/yairm210/UnCiv/blob/master/docs/Credits.md)
 
 Civ V for Android

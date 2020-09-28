@@ -1,10 +1,10 @@
 # Python Kye
 
 - Home: http://games.moria.org.uk/kye/
-- Inspirations: Kye
+- Inspiration: Kye
 - State: mature, inactive since 2010
 - Download: http://games.moria.org.uk/kye/download-install
-- Keywords: puzzle, remake
+- Keyword: puzzle, remake
 - Code repository: @see-download
 - Code language: Python
 - Code license: GPL-2.0

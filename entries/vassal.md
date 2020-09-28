@@ -1,11 +1,11 @@
 # VASSAL
 
 - Home: http://www.vassalengine.org/, https://sourceforge.net/projects/vassalengine/
-- Inspirations: Board Game
+- Inspiration: Board Game
 - State: mature
 - Download: http://www.vassalengine.org/download.php, https://sourceforge.net/projects/vassalengine/files/
 - Platform: Windows, Linux, macOS
-- Keywords: board, framework, game engine, clone
+- Keyword: board, framework, game engine, clone
 - Code repository: https://svn.code.sf.net/p/vassalengine/svn (svn)
 - Code language: Java
 - Code license: LGPL-2.1

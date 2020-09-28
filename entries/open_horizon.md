@@ -1,15 +1,15 @@
 # Open Horizon
 
 - Home: http://zxstudio.org/blog/author/razgriz/
-- Inspirations: Ace Combat: Assault Horizon
+- Inspiration: Ace Combat: Assault Horizon
 - State: beta
 - Download: http://zxstudio.org/blog/open-horizon-downloads/
 - Platform: Windows, Linux, macOS
-- Keywords: remake, simulation, commercial content, flight, requires original content
+- Keyword: remake, simulation, commercial content, flight, requires original content
 - Code repository: https://github.com/undefined-darkness/open-horizon.git
 - Code language: C++
 - Code license: MIT
-- Code dependencies: nya-engine
+- Code dependency: nya-engine
 
 Remake of Ace Combat: Assault Horizon.
 

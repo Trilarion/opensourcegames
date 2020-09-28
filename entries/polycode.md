@@ -3,7 +3,7 @@
 - Home: http://polycode.org/
 - State: beta
 - Download: http://polycode.org/download/
-- Keywords: framework
+- Keyword: framework
 - Code repository: https://github.com/ivansafrin/Polycode.git
 - Code language: C, C++
 - Code license: MIT

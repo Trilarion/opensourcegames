@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/SWIG
 - State: mature
 - Download: http://www.swig.org/download.html
-- Keywords: library, interface generator
+- Keyword: library, interface generator
 - Code repository: https://github.com/swig/swig.git
 - Code language: C++
 - Code license: SWIG license (https://raw.githubusercontent.com/swig/swig/master/LICENSE)

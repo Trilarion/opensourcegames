@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/WxWidgets
 - State: mature
 - Download: http://wxwidgets.org/downloads/
-- Keywords: library, gui toolkit
+- Keyword: library, gui toolkit
 - Code repository: https://github.com/wxWidgets/wxWidgets.git
 - Code language: C++, Objective-C
 - Code license: Custom

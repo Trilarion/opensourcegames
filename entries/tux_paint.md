@@ -4,7 +4,7 @@
 - State: beta
 - Download: http://tuxpaint.org/download/, https://sourceforge.net/projects/tuxpaint/files/
 - Platform: Windows, Linux, macOS, Android, iOS
-- Keywords: educational, for kids, open content
+- Keyword: educational, for kids, open content
 - Code repository: ? (https://sourceforge.net/p/tuxpaint/_list/git unavailable currently)
 - Code language: C, C++
 - Code license: GPL-2.0

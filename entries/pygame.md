@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Pygame
 - State: mature
 - Download: http://www.pygame.org/download.shtml
-- Keywords: framework
+- Keyword: framework
 - Code repository: https://github.com/pygame/pygame.git
 - Code language: C, Python
 - Code license: LGPL-2.1

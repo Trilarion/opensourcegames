@@ -1,10 +1,10 @@
 # XMage
 
 - Home: http://xmage.de/
-- Inspirations: Magic: The Gathering Online
+- Inspiration: Magic: The Gathering Online
 - State: mature
 - Download: https://github.com/magefree/mage/releases
-- Keywords: cards, strategy, clone, multiplayer
+- Keyword: cards, strategy, clone, multiplayer
 - Code repository: https://github.com/magefree/mage.git
 - Code language: Java
 - Code license: MIT

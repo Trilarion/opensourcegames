@@ -1,12 +1,13 @@
 # Alimer
 
 - Home: https://github.com/amerkoleci/alimer
-- Inspirations: OGRE, Urho3D
+- Inspiration: OGRE, Urho3D
 - State: beta
-- Keywords: game engine, 2D, 3D
+- Keyword: game engine, 2D, 3D
 - Code repository: https://github.com/amerkoleci/alimer.git
 - Code language: C++
 - Code license: MIT
+- Developer: Amer Koleci
 
 Cross-platform 2D and 3D game engine.
 

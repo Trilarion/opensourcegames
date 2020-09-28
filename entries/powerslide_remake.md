@@ -1,14 +1,14 @@
 # Powerslide remake
 
 - Home: https://www.moddb.com/mods/powerslideremake
-- Inspirations: Powerslide
+- Inspiration: Powerslide
 - State: beta
 - Platform: Windows, Linux, Android
-- Keywords: arcade, remake, 3D, commercial content, multiplayer competitive + online, racing
+- Keyword: arcade, remake, 3D, commercial content, multiplayer competitive + online, racing
 - Code repository: https://bitbucket.org/dm_999/powerslideremake.git (git)
 - Code language: C++
 - Code license: MIT
-- Code dependencies: OGRE, SFML
+- Code dependency: OGRE, SFML
 
 Remake of Powerslide.
 

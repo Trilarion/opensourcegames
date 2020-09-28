@@ -4,11 +4,11 @@
 - State: beta, inactive since 2018
 - Download: https://sourceforge.net/projects/chrzaszcz/files/
 - Platform: Linux
-- Keywords: puzzle, open content
+- Keyword: puzzle, open content
 - Code repository: @see-download
 - Code language: C++
 - Code license: GPL-3.0
-- Code dependencies: SDL
+- Code dependency: SDL
 - Assets license: GPL
 
 chrząszcz (meaning beetle in Polish) is a maze game in which the player needs to pass through chambers.

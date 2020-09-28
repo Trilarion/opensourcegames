@@ -1,10 +1,10 @@
 # SuperFoulEgg
 
 - Home: https://github.com/ant512/SuperFoulEgg
-- Inspirations: Super Foul Egg
+- Inspiration: Super Foul Egg
 - State: mature, inactive since 2014
 - Platform: macOS
-- Keywords: remake
+- Keyword: remake
 - Code repository: https://github.com/ant512/SuperFoulEgg.git
 - Code language: Objective-C, C
 - Code license: MIT

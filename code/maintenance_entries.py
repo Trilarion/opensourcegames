@@ -122,8 +122,8 @@ class EntriesMaintainer:
         # get all keywords and print similar keywords
         keywords = []
         for entry in self.entries:
-            keywords.extend(entry['Keywords'])
-            if b'first\xe2\x80\x90person'.decode() in entry['Keywords']:
+            keywords.extend(entry['Keyword'])
+            if b'first\xe2\x80\x90person'.decode() in entry['Keyword']:
                 print(entry['File'])
         keywords = [x.value for x in keywords]
 
@@ -142,7 +142,7 @@ class EntriesMaintainer:
         # get all names of frameworks and library also using osg.code_dependencies_aliases
         valid_dependencies = list(c.general_code_dependencies_without_entry.keys())
         for entry in self.entries:
-            if any((x in ('framework', 'library', 'game engine') for x in entry['Keywords'])):
+            if any((x in ('framework', 'library', 'game engine') for x in entry['Keyword'])):
                 name = entry['Title']
                 if name in c.code_dependencies_aliases:
                     valid_dependencies.extend(c.code_dependencies_aliases[name])
@@ -152,7 +152,7 @@ class EntriesMaintainer:
         # get all referenced code dependencies
         referenced_dependencies = {}
         for entry in self.entries:
-            deps = entry.get('Code dependencies', [])
+            deps = entry.get('Code dependency', [])
             for dependency in deps:
                 dependency = dependency.value
                 if dependency in referenced_dependencies:
@@ -376,10 +376,10 @@ class EntriesMaintainer:
         tocs_text = ''
 
         # split into games, tools, frameworks, libraries
-        games = [x for x in self.entries if not any([y in x['Keywords'] for y in ('tool', 'framework', 'library')])]
-        tools = [x for x in self.entries if 'tool' in x['Keywords']]
-        frameworks = [x for x in self.entries if 'framework' in x['Keywords']]
-        libraries = [x for x in self.entries if 'library' in x['Keywords']]
+        games = [x for x in self.entries if not any([y in x['Keyword'] for y in ('tool', 'framework', 'library')])]
+        tools = [x for x in self.entries if 'tool' in x['Keyword']]
+        frameworks = [x for x in self.entries if 'framework' in x['Keyword']]
+        libraries = [x for x in self.entries if 'library' in x['Keyword']]
         
         # create games, tools, frameworks, libraries tocs
         title = 'Games'
@@ -405,7 +405,7 @@ class EntriesMaintainer:
         # create by category
         categories_text = []
         for keyword in c.recommended_keywords:
-            filtered = [x for x in self.entries if keyword in x['Keywords']]
+            filtered = [x for x in self.entries if keyword in x['Keyword']]
             title = keyword.capitalize()
             name = keyword.replace(' ', '-')
             file = '_{}.md'.format(name)
@@ -506,7 +506,7 @@ class EntriesMaintainer:
 
         # Keywords
         statistics += '## Keywords\n\n'
-        field = 'Keywords'
+        field = 'Keyword'
 
         # get all keywords together
         keywords = []
@@ -556,7 +556,7 @@ class EntriesMaintainer:
 
         # Code dependencies
         statistics += '## Code dependencies\n\n'
-        field = 'Code dependencies'
+        field = 'Code dependency'
 
         # get all code dependencies together
         code_dependencies = []
@@ -653,7 +653,7 @@ class EntriesMaintainer:
             return
 
         # make database out of it
-        db = {'headings': ['Game', 'Description', 'Download', 'State', 'Keywords', 'Source']}
+        db = {'headings': ['Game', 'Description', 'Download', 'State', 'Keyword', 'Source']}
 
         entries = []
         for info in self.entries:
@@ -676,7 +676,7 @@ class EntriesMaintainer:
                                           'inactive since {}'.format(osg.extract_inactive_year(info)) if osg.is_inactive(info) else 'active'))
 
             # keywords
-            keywords = info['Keywords']
+            keywords = info['Keyword']
             keywords = [x.value for x in keywords]
             entry.append(', '.join(keywords))
 

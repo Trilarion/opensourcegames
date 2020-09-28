@@ -2,10 +2,10 @@
 
 - Home: https://springrts.com/, https://springrts.com/wiki/Main_Page, https://sourceforge.net/projects/springrts/
 - Media: https://en.wikipedia.org/wiki/Spring_Engine
-- Inspirations: Total Annihilation
+- Inspiration: Total Annihilation
 - State: mature
 - Download: https://springrts.com/wiki/Download
-- Keywords: game engine, remake, strategy, real time
+- Keyword: game engine, remake, strategy, real time
 - Code repository: https://github.com/spring/spring.git, https://git.code.sf.net/p/springrts/code
 - Code language: C++, C, Lua
 - Code license: GPL-2.0

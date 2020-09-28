@@ -2,11 +2,11 @@
 
 - Home: https://github.com/estevaofon/angry-birds-python
 - State: mature, inactive since 2017
-- Keywords: role playing, skill
+- Keyword: role playing, skill
 - Code repository: https://github.com/estevaofon/angry-birds-python.git
 - Code language: Python
 - Code license: MIT
-- Code dependencies: pygame, pymunk
+- Code dependency: pygame, pymunk
 
 Angry Birds game.
 

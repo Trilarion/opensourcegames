@@ -2,7 +2,7 @@
 
 - Home: https://onehouronelife.com/, https://github.com/jasonrohrer/OneLife/
 - State: mature
-- Keywords: remake, multiplayer, online, open content
+- Keyword: remake, multiplayer, online, open content
 - Code repository: https://github.com/jasonrohrer/OneLife.git
 - Code language: C, C++, PHP
 - Code license: Public domain (https://github.com/jasonrohrer/OneLife/blob/master/no_copyright.txt)

@@ -4,7 +4,7 @@
 - Media: https://web.archive.org/web/20160507142946/https://lgdb.org/game/digital_love_story
 - State: mature
 - Platform: Windows, Linux, macOS
-- Keywords: adventure, visual novel
+- Keyword: adventure, visual novel
 - Code repository: https://gitlab.com/osgames/digitalalovestory.git (copy of version 1.1)
 - Code language: Ren'Py
 - Code license: CC-BY-NC-SA-3.0 (see home)

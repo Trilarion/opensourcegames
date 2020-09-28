@@ -1,10 +1,10 @@
 # Rescue! Max
 
 - Home: http://rescue.sourceforge.net/, https://sourceforge.net/projects/rescue/
-- Inspirations: Rescue!
+- Inspiration: Rescue!
 - State: beta, inactive since 2013
 - Download: https://sourceforge.net/projects/rescue/files/
-- Keywords: action, remake, strategy, real time, space
+- Keyword: action, remake, strategy, real time, space
 - Code repository: https://gitlab.com/osgames/rescue.git (conversion of svn), https://svn.code.sf.net/p/rescue/code (svn)
 - Code language: Java
 - Code license: GPL-3.0

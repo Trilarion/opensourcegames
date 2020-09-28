@@ -4,7 +4,7 @@
 - State: mature
 - Download: https://github.com/textadventures/squiffy/releases
 - Platform: Web
-- Keywords: game engine, tool, interactive fiction
+- Keyword: game engine, tool, interactive fiction
 - Code repository: https://github.com/textadventures/squiffy.git
 - Code language: JavaScript
 - Code license: MIT

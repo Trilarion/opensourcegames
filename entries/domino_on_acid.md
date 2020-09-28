@@ -2,7 +2,7 @@
 
 - Home: http://winterdrache.de/freeware/domino/index.html, https://sourceforge.net/projects/nddomino
 - State: mature, inactive since 2009
-- Keywords: puzzle, open content
+- Keyword: puzzle, open content
 - Code repository: https://git.code.sf.net/p/nddomino/code
 - Code language: Java
 - Code license: GPL-2.0

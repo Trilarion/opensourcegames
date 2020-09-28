@@ -3,11 +3,11 @@
 - Home: http://infon.dividuum.de/, https://code.google.com/archive/p/infon/
 - State: beta, inactive since 2012
 - Platform: Windows, Linux
-- Keywords: simulation, strategy, evolution, open content, programming, real time
+- Keyword: simulation, strategy, evolution, open content, programming, real time
 - Code repository: https://github.com/dividuum/infon.git, https://bitbucket.org/dividuum/infon.git @add
 - Code language: C, Lua
 - Code license: GPL-2.0
-- Code dependencies: SDL
+- Code dependency: SDL
 - Assets license: GPL
 - Developer: Florian Wesch
 

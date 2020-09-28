@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Boost_(C%2B%2B_libraries)
 - State: mature
 - Download: https://www.boost.org/users/download/
-- Keywords: library
+- Keyword: library
 - Code repository: https://github.com/boostorg/boost.git
 - Code language: C++
 - Code license: Boost-1.0

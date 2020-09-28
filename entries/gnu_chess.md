@@ -5,7 +5,7 @@
 - State: mature, inactive since 2017
 - Download: http://ftp.thunix.net/gnu-ftp/chess/
 - Platform: Windows, Linux, macOS
-- Keywords: game engine, strategy, chess, open content
+- Keyword: game engine, strategy, chess, open content
 - Code repository: http://svn.savannah.gnu.org/svn/chess/ (svn), http://cvs.savannah.gnu.org:/sources/chess (cvs)
 - Code language: C++
 - Code license: GPL-3.0

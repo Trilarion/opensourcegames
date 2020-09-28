@@ -1,14 +1,14 @@
 # FreeBlocks
 
 - Home: https://github.com/dorkster/freeblocks
-- Inspirations: Tetris Attack
+- Inspiration: Tetris Attack
 - State: beta, inactive since 2015
 - Platform: Linux, Android (?)
-- Keywords: puzzle, remake
+- Keyword: puzzle, remake
 - Code repository: https://github.com/dorkster/freeblocks.git
 - Code language: C, Java
 - Code license: GPL-3.0
-- Code dependencies: SDL2
+- Code dependency: SDL2
 
 Remake of Tetris Attack.
 

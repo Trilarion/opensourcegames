@@ -5,7 +5,7 @@
 - State: mature, inactive since 2015
 - Download: http://download.savannah.gnu.org/releases/liquidwar6/
 - Platform: Linux
-- Keywords: action, multiplayer
+- Keyword: action, multiplayer
 - Code repository: https://git.savannah.gnu.org/git/liquidwar6.git, https://gitlab.com/osgames/liquidwar6.git @add
 - Code language: C
 - Code license: GPL-3.0

@@ -5,11 +5,11 @@
 - State: mature
 - Download: http://fillets.sourceforge.net/download.php
 - Platform: Windows, Linux, macOS
-- Keywords: puzzle, port
+- Keyword: puzzle, port
 - Code repository: https://git.code.sf.net/p/fillets/code-fillets-ng, https://git.code.sf.net/p/fillets/code-fillets_data @add, https://git.code.sf.net/p/fillets/code-fillets_web @add, http://fillets.cvs.sourceforge.net (cvs)
 - Code language: C++
 - Code license: GPL-2.0
-- Code dependencies: SDL
+- Code dependency: SDL
 
 Port of the wonderful puzzle game Fish Fillets from ALTAR interactive.
 Android port?

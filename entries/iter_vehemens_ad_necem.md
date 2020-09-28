@@ -3,7 +3,7 @@
 - Home: https://attnam.com/, https://sourceforge.net/projects/ivan/
 - State: beta
 - Download: https://attnam.com/projects
-- Keywords: role playing, roguelike
+- Keyword: role playing, roguelike
 - Code repository: https://github.com/Attnam/ivan.git, http://ivan.cvs.sourceforge.net (cvs)
 - Code language: C++
 - Code license: GPL-2.0

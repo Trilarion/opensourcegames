@@ -7,29 +7,28 @@ Uses Jinja2 (see https://jinja.palletsprojects.com/en/2.11.x/)
 # TODO index.html tiles, content
 # TODO index.html image (maybe downloaded and assembled from osgameclones)
 # TODO index.html only count games
-# TODO Font awesome 5 (icons for OS, for Github, Gitlab and maybe others)
-# TODO contribute.html tiles? content
-# TODO games pages links to licenses (wikipedia)
+# TODO Font awesome 4 or others (icons for OS, for Github, Gitlab and maybe others like external link)
+# TODO contribute.html tiles? content?
+# TODO games: links to licenses (wikipedia)
 # TODO indexes: make categories bold that have a certain amount of entries!
 # TODO everywhere: style URLs (Github, Wikipedia, Internet archive, SourceForge, ...)
-# TODO developers pages links to games and more information, styles
-# TODO inspirations pages, add link to games and more information, styles
-# TODO navbar add is active
+# TODO developers: links to games and more information, styles
+# TODO inspirations: add link to games and more information, styles
 # TODO statistics page: better and more statistics with links where possible
 # TODO meaningful information (links, license, last updated with lower precision)
 # TODO singular, plural everywhere (game, entries, items)
-# TODO background and shadow for the boxes
-# TODO line breaks and spaces in html source and output
 # TODO rename fields (Home to Homepage, Inspirations to Inspiration)
-# TODO developers contact expand to links to Github, Sourceforge
-# TODO games keywords as labels (some as links)
-# TODO games links to licenses and languages
-# TODO platforms as labels and with links
-# TODO split games in libraries/tools/frameworks and real games
+# TODO developers: contact expand to links to Github, Sourceforge
+# TODO games: keywords as labels (some as links)
+# TODO games: links languages
+# TODO games: platforms as labels and with links
+# TODO split games in libraries/tools/frameworks and real games, add menu
 # TODO statistics with nice graphics (pie charts in SVG) with matplotlib, seaborn, plotly?
 # TODO statistics, get it from common statistics generator
-# TODO optimize jinja for line breaks and indention
-# TODO @notices in entries
+# TODO optimize jinja for line breaks and indention and minimal amount of spaces
+# TODO replace or remove @notices in entries (maybe different entries format)
+# TODO icons: for the main categories (devs, games, statistics, home, ...)
+# TODO SEO optimizations, google search ...
 
 import os
 import shutil
@@ -49,7 +48,7 @@ inspirations_path = 'inspirations'
 developers_path = 'developers'
 
 plurals = {k: k+'s' for k in ('Assets license', 'Contact', 'Code language', 'Code license', 'Developer', 'Download', 'Inspiration', 'Game', 'Home', 'Organization', 'Platform')}
-for k in ('Media', 'Play', 'Keywords'):
+for k in ('Media', 'Play', 'Keyword'):
     plurals[k] = k
 for k in ('Code repository', 'Code dependency'):
     plurals[k] = k[:-1] + 'ies'
@@ -308,10 +307,10 @@ def convert_entries(entries, inspirations, developers):
     developer_references = {developer['Name']: developer['href'] for developer in developers}
     for entry in entries:
         fields = []
-        for field in ('Home', 'Inspirations', 'Media', 'Download', 'Play', 'Developer', 'Keywords'):
+        for field in ('Home', 'Inspiration', 'Media', 'Download', 'Play', 'Developer', 'Keyword'):
             if field in entry:
                 e = entry[field]
-                if field == 'Inspirations':
+                if field == 'Inspiration':
                     field = 'Inspiration'  # TODO this is a bug, rename in entries
                 if isinstance(e[0], osg.osg_parse.ValueWithComment):
                     e = [x.value for x in e]
@@ -331,12 +330,12 @@ def convert_entries(entries, inspirations, developers):
         if 'Note' in entry:
             fields.append({'entries': [{'href': '', 'name': entry['Note']}]})
         fields.append({'title': 'Technical info', 'entries': []})
-        for field in ('Platform', 'Code language', 'Code license', 'Code repository', 'Code dependencies', 'Assets license'):
+        for field in ('Platform', 'Code language', 'Code license', 'Code repository', 'Code dependency', 'Assets license'):
             if field in entry:
                 e = entry[field]
                 if not e:
                     continue
-                if field == 'Code dependencies':
+                if field == 'Code dependency':
                     field = 'Code dependency'  # bug, rename field
                 if isinstance(e[0], osg.osg_parse.ValueWithComment):
                     e = [x.value for x in e]
@@ -386,7 +385,7 @@ def generate(entries, inspirations, developers):
     developers_by_alphabet = sort_into_categories(developers, extended_alphabet, lambda item, category: category == item['letter'])
 
     genres = [keyword.capitalize() for keyword in c.recommended_keywords]
-    games_by_genre = sort_into_categories(entries, genres, lambda item, category: category.lower() in item['Keywords'])
+    games_by_genre = sort_into_categories(entries, genres, lambda item, category: category.lower() in item['Keyword'])
     games_by_platform = sort_into_categories(entries, c.valid_platforms, lambda item, category: category in item.get('Platform', []), 'Unspecified')
     games_by_language = sort_into_categories(entries, c.known_languages, lambda item, category: category in item['Code language'])
 

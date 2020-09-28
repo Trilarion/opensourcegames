@@ -1,14 +1,14 @@
 # Colobot: Gold Edition
 
 - Home: https://colobot.info/
-- Inspirations: Colobot
+- Inspiration: Colobot
 - State: mature
 - Download: https://colobot.info/download-colobot-gold/
-- Keywords: remake, strategy, open content, programming, real time
+- Keyword: remake, strategy, open content, programming, real time
 - Code repository: https://github.com/colobot/colobot.git
 - Code language: C++
 - Code license: GPL-3.0
-- Code dependencies: SDL2
+- Code dependency: SDL2
 - Developer: Daniel Roux, TerranovaTeam
 
 Real-time strategy game, where you can program your units (bots) in a language called CBOT, which is similar to C++ and Java.

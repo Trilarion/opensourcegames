@@ -4,11 +4,11 @@
 - State: mature, inactive since 2016
 - Download: https://sourceforge.net/projects/fltrator/files/
 - Platform: Windows
-- Keywords: arcade, open content, side-scrolling
+- Keyword: arcade, open content, side-scrolling
 - Code repository: http://hg.code.sf.net/p/fltrator/code (hg)
 - Code language: C++
 - Code license: GPL-3.0
-- Code dependencies: FLTK
+- Code dependency: FLTK
 - Assets license: PD, CC BY 3.0
 
 Simple retro style arcade side-scroller game in which you steer a spaceship through a landscape with hostile rockets and other obstacles.

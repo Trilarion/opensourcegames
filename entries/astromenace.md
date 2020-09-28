@@ -1,10 +1,10 @@
 # AstroMenace
 
 - Home: https://www.viewizard.com/, https://sourceforge.net/projects/openastromenace/
-- Inspirations: AstroMenace
+- Inspiration: AstroMenace
 - State: mature
 - Download: https://viewizard.com/download.html
-- Keywords: action, remake, shooter
+- Keyword: action, remake, shooter
 - Code repository: https://github.com/viewizard/astromenace.git
 - Code language: C++, C
 - Code license: GPL-3.0

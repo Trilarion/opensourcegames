@@ -1,11 +1,11 @@
 # Zelda Classic
 
 - Home: https://www.zeldaclassic.com/
-- Inspirations: Legend of Zelda
+- Inspiration: Legend of Zelda
 - State: mature
 - Download: https://www.zeldaclassic.com/downloads/
 - Platform: Windows
-- Keywords: role playing
+- Keyword: role playing
 - Code repository: https://github.com/ArmageddonGames/ZeldaClassic.git
 - Code language: C, C++
 - Code license: GPL-3.0

@@ -2,7 +2,7 @@
 
 - Home: http://bote2.square7.ch/en/wiki/Main_Page
 - State: mature, inactive since 2016
-- Keywords: strategy
+- Keyword: strategy
 - Code repository: https://github.com/bote-team/bote.git
 - Code language: C++
 - Code license: Custom (private use allowed)

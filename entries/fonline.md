@@ -1,9 +1,9 @@
 # fonline
 
 - Home: https://fodev.net/
-- Inspirations: Fallout Online
+- Inspiration: Fallout Online
 - State: beta
-- Keywords: remake, strategy
+- Keyword: remake, strategy
 - Code repository: https://github.com/alexknvl/fonline.git, https://github.com/rotators/play-fonline-data.git @add
 - Code language: C, C++
 - Code license: GPL-3.0

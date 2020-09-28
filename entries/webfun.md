@@ -1,10 +1,10 @@
 # WebFun
 
 - Home: https://github.com/cyco/WebFun
-- Inspirations: Star Wars: Yoda Stories
+- Inspiration: Star Wars: Yoda Stories
 - State: beta
 - Platform: Web
-- Keywords: adventure, game engine, remake, commercial content, requires original content (?)
+- Keyword: adventure, game engine, remake, commercial content, requires original content (?)
 - Code repository: https://github.com/cyco/WebFun.git
 - Code language: TypeScript
 - Code license: MIT

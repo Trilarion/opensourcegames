@@ -4,11 +4,11 @@
 - State: mature, inactive since 2014
 - Download: http://annexconquer.com/downloads/
 - Platform: Windows, Linux
-- Keywords: strategy, open content, real time
+- Keyword: strategy, open content, real time
 - Code repository: https://bitbucket.org/annexctw/annex.git
 - Code language: MegaGlest Script (?)
 - Code license: GPL-3.0
-- Code dependencies: MegaGlest Engine
+- Code dependency: MegaGlest Engine
 - Assets license: CC-BY-SA
 - Developer: DelphaDesign
 

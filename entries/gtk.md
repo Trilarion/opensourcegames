@@ -4,7 +4,7 @@
 - State: mature
 - Download: https://www.gtk.org/docs/installations/
 - Platform: Windows, Linux, macOS
-- Keywords: library
+- Keyword: library
 - Code repository: https://gitlab.gnome.org/GNOME/gtk.git
 - Code language: C
 - Code license: LGPL-2.1

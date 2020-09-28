@@ -1,9 +1,9 @@
 # World of Might and Magic
 
 - Home: https://github.com/gp-alex/world-of-might-and-magic
-- Inspirations: Might and Magic VI: The Mandate of Heaven, Might and Magic VII: For Blood and Honor, Might and Magic VIII: Day of the Destroyer
+- Inspiration: Might and Magic VI: The Mandate of Heaven, Might and Magic VII: For Blood and Honor, Might and Magic VIII: Day of the Destroyer
 - State: beta
-- Keywords: game engine, remake, role playing, free content (?), requires original content
+- Keyword: game engine, remake, role playing, free content (?), requires original content
 - Code repository: https://github.com/gp-alex/world-of-might-and-magic.git
 - Code language: C++
 - Code license: LGPL-3.0

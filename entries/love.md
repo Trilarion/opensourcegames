@@ -3,7 +3,7 @@
 - Home: https://love2d.org/
 - State: mature
 - Platform: Windows, Linux, macOS, Android, iOS
-- Keywords: framework
+- Keyword: framework
 - Code repository: https://github.com/love2d/love.git
 - Code language: C++
 - Code license: zlib

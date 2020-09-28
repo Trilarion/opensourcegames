@@ -3,7 +3,7 @@
 - Home: https://sourceforge.net/projects/pio/, http://pio.sourceforge.net/
 - State: mature
 - Download: https://sourceforge.net/projects/pio/files
-- Keywords: board, strategy
+- Keyword: board, strategy
 - Code repository: https://svn.code.sf.net/p/pio/code (svn active)
 - Code language: C
 - Code license: GPL-2.0

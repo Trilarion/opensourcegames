@@ -1,10 +1,10 @@
 # KeeperRL
 
 - Home: https://keeperrl.com/, https://miki151.itch.io/keeperrl
-- Inspirations: Dungeon Keeper 2
+- Inspiration: Dungeon Keeper 2
 - State: beta
 - Platform: Windows
-- Keywords: game engine, simulation, requires original content
+- Keyword: game engine, simulation, requires original content
 - Code repository: https://github.com/miki151/keeperrl.git
 - Code language: C, C++
 - Code license: GPL-2.0

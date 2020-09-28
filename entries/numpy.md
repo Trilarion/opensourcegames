@@ -4,7 +4,7 @@
 - State: mature
 - Download: https://pypi.org/project/numpy/
 - Platform: Windows, Linux, macOS
-- Keywords: library
+- Keyword: library
 - Code repository: https://github.com/numpy/numpy.git
 - Code language: C, Python
 - Code license: 3-clause BSD

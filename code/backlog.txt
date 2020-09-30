@@ -30,6 +30,9 @@ http://icculus.org/toby/
 http://iichantra.ru/en/
 http://insideastarfilledsky.net/
 http://lazerbears.wixsite.com/lazerbears/cr-editor
+https://github.com/vini-guerrero/Godot_Game_Tools
+https://github.com/nezvers/Godot_goodies
+https://github.com/eduard-permyakov/permafrost-engine
 http://libagar.org/agar/index.html.en
 http://libsdl-android.sourceforge.net/
 http://lukaszjakowski.pl/ (games apart from uMario)

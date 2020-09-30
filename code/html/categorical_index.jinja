@@ -4,9 +4,9 @@
   <section class="section">
     <div class="container">
     <div class="box">
-    <div class="block"><h1 class="title">{{ index['title'] }}</h1></div>
+    <div class="block"><h1 class="title is-size-4">{{ index['title'] }}</h1></div>
 {% set comma = joiner(", ") %}
-<div class="is-size-4">
+<div class="is-size-5">
 {% for category in index['categories'] -%}
       {{ comma() }} <a href="#{{ category }}" class="has-text-weight-semibold">{{ category }}</a>&nbsp;({{ index['number_entries'][category] }})
 {%- endfor %}
@@ -20,7 +20,7 @@
       <div class="column">
         <ul>
 {% for entry in entries_column %}
-        <li>{{ macros.url(entry['href'], entry['name']) }} {% if 'tags' in entry %}<span class="is-light is-size-7">({{ entry['tags'] }})</span>{% endif %}</li>
+        <li>{{ macros.render_url(entry['url']) }} {% if 'tags' in entry %}{{ macros.render_text(entry['tags']) }}{% endif %}</li>
 {% endfor %}
         </ul>
       </div>

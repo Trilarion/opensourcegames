@@ -118,7 +118,7 @@ general_code_dependencies_without_entry = {'OpenGL': 'https://www.opengl.org/',
 
 # developer information (in the file all fields will be capitalized)
 essential_developer_fields = ('Name', 'Games')
-optional_developer_fields = ('Contact', 'Home', 'Organization')
+optional_developer_fields = ('Home', 'Contact', 'Organization')
 valid_developer_fields = essential_developer_fields + optional_developer_fields
 url_developer_fields = ('Home',)
 

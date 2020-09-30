@@ -3,8 +3,10 @@
 <section class="section">
   <div class="container">
     <h1 class="title">{{ listing['title'] }}</h1>
+{# iterate over items -#}
 {% for item in listing['items'] %}
     <div class="box">
+    {# item header with anchor, name and link to contribute -#}
     <nav class="level is-mobile">
     <div class="level-left">
       <h2 id="{{ item['anchor-id'] }}" class="title is-4">{{ item['name'] }}</h2>
@@ -13,10 +15,19 @@
       <p class="level-item"><a href="{{ base['url_to']('contribute.html') }}">Edit</a></p>
     </div>
     </nav>
-{% for field in item['fields'] %}{% set comma = joiner(", ") %}
-    {{ macros.listing_field_title(field['title']) }}{% for entry in field['entries'] %}{{ comma() }}{{ macros.url(entry['href'], entry['name']) }}{% endfor %}<br>
+{# iterate over fields -#}
+{% for field in item['fields'] %}
+{% if field['type'] == 'text' %}
+  {{ macros.render_text(field) }}
+{% elif field['type'] == 'enumeration' %}
+  {{ macros.render_enumeration(field) }}
+{% elif field['type'] == 'linebreak' %}
+{% else %}
+  {{ raise('Unknown field type.') }}
+{% endif %}
+<br>
 {% endfor %}
-    </div>
+ </div>
 {% endfor %}
   <a class="is-light is-size-7" href="#">Back to top</a>
   </div>

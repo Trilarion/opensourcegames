@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="{{ base['url_to']('css/bulma.min.css') }}">
 </head>
 <body>
+{# navigation bar -#}
 <nav class="navbar container is-light" role="navigation" aria-label="main navigation">
   <div class="navbar-menu">
     <div class="navbar-start">
@@ -29,7 +30,9 @@
     </div>
   </div>
 </nav>
+{# content block -#}
 {% block content %}{% endblock %}
+{# footer -#}
 <footer class="footer">
   <div class="container is-size-7">
      <a href="https://trilarion.blogspot.com/search/label/osgames">Blog</a><br>

@@ -1,13 +1,31 @@
-{% macro url(href, name) -%}
-  {% if href %}
-    <a href="{{ base['url_to'](href) }}">{{ name }}</a>
-  {% else %}
-    {{ name }}
-  {% endif %}
-{%- endmacro %}
+{# A single line of text with a line break at the end and optionally a format class. (see https://bulma.io/documentation/helpers/typography-helpers/) #}
+{%- macro render_text(text) -%}
+{%- if 'class' in text -%} {# Enhanced text #}
+  <span class="{{ text['class'] }}">{{ text['text'] }}</span>
+{%- else -%}
+  {{ text['text'] }}
+{%- endif -%}
+{%- endmacro -%}
 
-{% macro listing_field_title(title) -%}
-{% if title %}
-    {{ title['name'] }}:
-{% endif %}
-{%- endmacro %}
+{# Some text surrounded by a link tag #}
+{%- macro render_url(url) -%}
+<a href="{{ base['url_to'](url['href']) }}">{{ render_text(url['text']) }}</a>
+{%- endmacro -%}
+
+{# Renders either plain text or a link depending on the type #}
+{%- macro render_enumeration_entry(entry) -%}
+{%- if entry['type'] == 'text' -%}
+  {{ render_text(entry) }}
+{%- elif entry['type'] == 'url' -%}
+  {{ render_url(entry) }}
+{%- else -%}
+  {{ raise('Unknown entry type.') }}
+{%- endif -%}
+{%- endmacro -%}
+
+{# Renders a list of enumeration entries (either links or text) #}
+{%- macro render_enumeration(enumeration) -%}
+{%- set comma = joiner(", ") -%}
+{{ render_text(enumeration['name']) }}: {% for entry in enumeration['entries'] -%}{{ comma() }}{{ render_enumeration_entry(entry) }}{%- endfor -%}
+{%- endmacro -%}
+

@@ -9,8 +9,6 @@
 - Code license: GPL-3.0
 - Code dependency: libGDX
 
-???
-
 ## Building
 
 - Build system: Gradle

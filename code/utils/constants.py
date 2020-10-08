@@ -66,6 +66,8 @@ recommended_keywords = (
     'action', 'arcade', 'adventure', 'visual novel', 'sports', 'platform', 'puzzle', 'role playing', 'simulation',
     'strategy', 'cards', 'board', 'music', 'educational', 'tool', 'game engine', 'framework', 'library', 'remake')
 
+framework_keywords = ('tool', 'framework', 'library')
+
 # known programming languages, anything else will result in a warning during a maintenance operation
 # only these will be used when gathering statistics
 known_languages = (

@@ -1,6 +1,7 @@
 # A Planet's Revenge
 
 - Home: https://sourceforge.net/projects/aplanetsrevenge/
+- Inspiration: Space Federation: Galactic Conquest
 - State: beta, inactive since 2008
 - Download: https://sourceforge.net/projects/aplanetsrevenge/files/aplanetsrevenge/apr-1.0-alpha/
 - Keyword: strategy, text-based
@@ -9,7 +10,7 @@
 - Code license: GPL-3.0
 - Code dependency: curses
 
-A text-based, turn-based strategy game set in space. It is similar to a 4X game and is inspired by Space Federation: Galactic Conquest.
+Set in space, it is similar to a 4X game.
 
 ## Building
 

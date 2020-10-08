@@ -1,21 +1,21 @@
 # {NAME}
 
-_{Description}_
-
 - Home: {URL}
 - Media: {URL} (optional)
-- Inspiration: {XX} (opotional)
+- Inspiration: {XX} (optional)
 - State: {XX} 
 - Play: {URL} (optional)
 - Download: {URL} (optional)
 - Platform: {XX} (optional)
-- Keywords: {XX}
+- Keyword: {XX}
 - Code repository: {URL}
 - Code language: {XX}
 - Code license: {XX}
-- Code dependencies: {XX} (optional)
+- Code dependency: {XX} (optional)
 - Assets license: {XX} (optional)
 - Developer: {XX} (optional)
+
+Note
 
 ## Building
 

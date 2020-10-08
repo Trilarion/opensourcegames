@@ -2,6 +2,11 @@ ftp://ftp.tuxpaint.org/unix/ (all of them)
 ftp://ftp.tuxpaint.org/unix/x/
 http://antongerdelan.net/blog/ (other projects besides TestDrive)
 http://cdetect.sourceforge.net/
+https://github.com/godlikepanos/anki-3d-engine
+https://github.com/MrFrenik/gunslinger
+https://github.com/rockbite/talos
+https://github.com/Ogmo-Editor-3/OgmoEditor3-CE
+https://github.com/eduard-permyakov/permafrost-engine
 http://circularstudios.com/
 http://cyxdown.free.fr/bs/
 http://cyxdown.free.fr/f2b/
@@ -12,6 +17,8 @@ http://evolonline.org/about
 http://game-editor.com/Main_Page
 http://giderosmobile.com/
 http://haxepunk.com/
+https://github.com/rockbite/talos
+https://github.com/MrFrenik/gunslinger
 http://hcsoftware.sourceforge.net/jason-rohrer/ (various games there)
 http://hge.relishgames.com/
 http://hgm.nubati.net/
@@ -33,6 +40,8 @@ http://lazerbears.wixsite.com/lazerbears/cr-editor
 https://github.com/vini-guerrero/Godot_Game_Tools
 https://github.com/nezvers/Godot_goodies
 https://github.com/eduard-permyakov/permafrost-engine
+https://github.com/armory3d/iron
+https://armory3d.org/
 http://libagar.org/agar/index.html.en
 http://libsdl-android.sourceforge.net/
 http://lukaszjakowski.pl/ (games apart from uMario)

@@ -1,13 +1,11 @@
 {% extends "base.jinja" %}
 
 {% block content %}
-  <section class="hero is-light is-bold">
+  <section class="hero is-info is-bold">
   <div class="hero-body">
     <div class="container">
       <h1 class="title">Open source games list (OSGL)</h1>
-      <p class="subtitle">
-        Contains information about {{ index['number_games'] }} open source games.
-      </p>
+      <p class="subtitle">{{ macros.render_text(index['subtitle']) }}</p>
     </div>
     </div>
   </section>

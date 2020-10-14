@@ -1,6 +1,7 @@
 # Crimson Fields
 
 - Home: http://crimson.seul.org/
+- Media: https://en.wikipedia.org/wiki/Battle_Isle#Clones_and_successors
 - Inspiration: Battle Isle series
 - State: mature, inactive since 2010
 - Download: http://crimson.seul.org/download.php
@@ -9,7 +10,7 @@
 - Code language: C++
 - Code license: GPL-2.0
 
-Turn-based tactical war game.
+Tactical war game.
 
 ## Building
 

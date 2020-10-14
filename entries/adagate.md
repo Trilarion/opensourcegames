@@ -10,6 +10,7 @@
 - Code language: Ada
 - Code license: GPL-3.0
 - Code dependency: OpenGL, SDL2
+- Developer: fastrgv
 
 3D sokoban puzzle game within a Stargate / Portal fantasy setting.
 

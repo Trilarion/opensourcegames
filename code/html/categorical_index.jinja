@@ -1,34 +1,39 @@
 {% extends "base.jinja" %}
-
 {% block content %}
-  <section class="section">
-    <div class="container">
-    <div class="box">
-    <div class="block"><h1 class="title is-size-4">{{ index['title'] }}</h1></div>
-{% set comma = joiner(", ") %}
-<div class="is-size-5">
-{% for category in index['categories'] -%}
-      {{ comma() }} <a href="#{{ category }}" class="has-text-weight-semibold">{{ category }}</a>&nbsp;({{ index['number_entries'][category] }})
-{%- endfor %}
-</div>
+<section class="section">
+<div class="container">
+  <div class="box">
+    <div class="block">
+      <h1 class="title">{{ macros.render_element(index['title']) }}</h1>
+      {%- if 'subtitle' in index -%}
+      <h2 class="subtitle">{{ macros.render_element(index['subtitle']) }}</h2>
+      {%- endif -%}
     </div>
+    <div class="tags">
+    {% for category in index['categories'] -%}
+      <span class="tag is-white {% if index['number_entries'][category] > index['number_entries_per_category_threshold'] %}is-size-5{% else %}is-size-6{% endif %}">
+      <a href="#{{ category.lower() }}" class="has-text-weight-semibold mr-1">{{ macros.render_element(index['category-names'][category]) }}</a> <span class="has-text-grey">({{ index['number_entries'][category] }})</span>
+      </span>
+    {%- endfor %}
+    </div>
+  </div>
 {% for category in index['categories'] %}
 <div class="box">
-    <div class="block"><h2 id="{{ category }}" class="is-size-4 has-text-weight-semibold">{{ category }}</h2></div>
-    <div class="columns">
-{% for entries_column in index['entries'][category] %}
-      <div class="column">
-        <ul>
-{% for entry in entries_column %}
-        <li>{{ macros.render_url(entry['url']) }} {% if 'tags' in entry %}{{ macros.render_text(entry['tags']) }}{% endif %}</li>
-{% endfor %}
-        </ul>
-      </div>
-{% endfor %}
+  <div class="block"><h2 id="{{ category.lower() }}" class="is-size-3 has-text-weight-semibold">{{ macros.render_element(index['category-names'][category]) }}</h2></div>
+  <div class="columns">
+  {%- for entries_column in index['entries'][category] -%}
+    <div class="column">
+      <ul>
+      {%- for entry in entries_column -%}
+        <li>{{ macros.render_element(entry['url']) }}{%- if 'tags' in entry -%}{{ macros.render_element(entry['tags']) }}{%- endif -%}</li>
+      {%- endfor -%}
+      </ul>
     </div>
-    <a class="is-light is-size-7" href="#">Back to top</a>
+  {%- endfor -%}
+  </div>
+  <a class="is-light is-size-7" href="#">Back to top</a>
 </div>
 {% endfor %}
-    </div>
-  </section>
+</div>
+</section>
 {% endblock %}

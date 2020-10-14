@@ -7,6 +7,15 @@ https://github.com/MrFrenik/gunslinger
 https://github.com/rockbite/talos
 https://github.com/Ogmo-Editor-3/OgmoEditor3-CE
 https://github.com/eduard-permyakov/permafrost-engine
+https://github.com/codenamecpp/carnage3d
+https://github.com/WohlSoft/PGE-Project
+https://github.com/wesnoth/haldric
+https://github.com/mgerhardy/engine
+https://github.com/GDQuest/godot-visual-effects
+https://sourceforge.net/projects/freetrain/
+https://github.com/ttencate/jfxr
+https://github.com/godotengine/escoria
+https://github.com/awkwardpolygons/cartographer
 http://circularstudios.com/
 http://cyxdown.free.fr/bs/
 http://cyxdown.free.fr/f2b/

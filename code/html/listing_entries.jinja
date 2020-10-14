@@ -1,0 +1,54 @@
+{% extends "base.jinja" %}
+{% block content %}
+<section class="section">
+  <div class="container">
+    <h1 class="title">{{ listing['title'] }}</h1>
+{# iterate over items -#}
+{% for item in listing['items'] %}
+<div class="box">
+  <nav class="level">
+    <div class="level-left">
+      <div class="level-item">
+        <h2 id="{{ item['anchor-id'] }}" class="title is-4">{{ item['name'] }}</h2>
+      </div>
+    </div>
+    <div class="level-right">
+      {%- for state in item['state'] -%}
+      <div class="level-item">{{ macros.render_element(state) }}</div>
+      {%- endfor -%}
+    </div>
+  </nav>
+  <div class="block">
+  {%- if 'platform' in item -%}
+  {%- for platform in item['platform'] -%}
+  <span class="mr-2">{{ macros.render_element(platform) }}</span>
+  {%- endfor -%}
+  {%- endif -%}
+  {{ macros.render_element(item['keyword']) }}
+  {%- if 'note' in item %}{{  macros.render_element(item['note']) }}{% endif -%}
+  </div>
+  <div class="block">
+  {%- if 'inspiration' in item %}{{ macros.render_element(item['inspiration']) }}<br>{% endif -%}
+  {%- if 'developer' in item %}{{ macros.render_element(item['developer']) }}{% endif -%}
+  </div>
+  <div class="block">
+    {%- for field in ('home', 'media', 'download', 'play') -%}
+    {%- if field in item -%}{{ macros.render_element(item[field]) }}<br>{%- endif -%}
+    {%- endfor -%}
+  </div>
+  <div class="block">
+    <span class="has-text-weight-semibold">Technical info</span><br>
+    {%- for field in ('code language', 'code license', 'code repository', 'code dependency', 'assets license', 'build system') -%}
+    {%- if field in item -%}{{ macros.render_element(item[field]) }}<br>{%- endif -%}
+    {%- endfor -%}
+  </div>
+  <div class="block">
+    <a href="{{ base['url_to'](['contribute.html#games']) }}" title="Contribution guide" class="is-size-7 mr-2">Improve</a>
+    <a href="{{ item['raw-path'] }}" title="Text based entry on Github" class="is-size-7">Raw entry</a>
+  </div>
+</div>{#- of box -#}
+{% endfor %}
+  <a class="is-light is-size-7" href="#">Back to top</a>
+  </div>
+</section>
+{% endblock %}

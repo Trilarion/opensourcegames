@@ -66,7 +66,7 @@ recommended_keywords = (
     'action', 'arcade', 'adventure', 'visual novel', 'sports', 'platform', 'puzzle', 'role playing', 'simulation',
     'strategy', 'cards', 'board', 'music', 'educational', 'tool', 'game engine', 'framework', 'library', 'remake')
 
-framework_keywords = ('tool', 'framework', 'library')
+framework_keywords = ('framework', 'library', 'tool')
 
 # known programming languages, anything else will result in a warning during a maintenance operation
 # only these will be used when gathering statistics
@@ -77,6 +77,11 @@ known_languages = (
     'MegaGlest Script', 'MoonScript', 'None', 'OCaml', 'Objective-C', 'PHP', 'Pascal', 'Perl', 'Python', 'QuakeC', 'R',
     "Ren'Py", 'Ruby', 'Rust', 'Scala', 'Scheme', 'Script', 'Shell', 'Swift', 'TorqueScript', 'TypeScript', 'Vala',
     'Visual Basic', 'XUL', 'ZenScript', 'ooc', '?')
+
+language_urls = {
+    'AGS Script': 'https://en.wikipedia.org/wiki/Adventure_Game_Studio',
+    'Action Script': 'https://en.wikipedia.org/wiki/ActionScript'
+}
 
 # known licenses, anything outside of this will result in a warning during a maintenance operation
 # only these will be used when gathering statistics

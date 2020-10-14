@@ -1,7 +1,7 @@
 # Advanced Strategic Command
 
 - Home: http://www.asc-hq.org/, https://sourceforge.net/projects/asc-hq/
-- Media: https://en.wikipedia.org/wiki/Battle_Isle#Clones
+- Media: https://en.wikipedia.org/wiki/Battle_Isle#Clones_and_successors
 - Inspiration: Battle Isle series
 - State: mature
 - Keyword: strategy, clone, turn-based

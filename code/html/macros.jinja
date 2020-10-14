@@ -9,24 +9,30 @@
 
 {#  #}
 {%- macro render_icon(icon) -%}
-<span class="icon"><i class="icon-{{ icon['class'] }}"></i></span>
+<span class="icon has-text-black"><i class="icon-{{ icon }}"></i></span>
 {%- endmacro -%}
 
 {# Some text surrounded by a link tag #}
 {%- macro render_url(url) -%}
-<a href="{{ base['url_to'](url['href'], url) }}"{% if 'title' in url %} title="{{ url['title'] }}"{% endif %}>{{ render_element(url['content']) }}</a>
+<a href="{{ base['url_to'](url['href'], url) }}"{% if 'title' in url %} title="{{ url['title'] }}"{% endif %}{% if 'class' in url %} class="{{ url['class'] }}"{% endif %}>{{ render_element(url['content']) }}</a>
 {%- endmacro -%}
 
 {# Renders either plain text or a link depending on the type #}
 {%- macro render_element(entry) -%}
 {%- if entry is string -%}
-  <span>{{ entry }}</span>
+  {{ render_text({'text': entry}) }}
+{%- elif is_list(entry) -%}
+  {%- for e in entry -%}{{ render_element(e) }}{%- endfor -%}
 {%- elif entry['type'] == 'text' -%}
   {{ render_text(entry) }}
  {%- elif entry['type'] == 'icon' -%}
-  {{ render_icon(entry) }}
+  {{ render_icon(entry['class']) }}
 {%- elif entry['type'] == 'url' -%}
   {{ render_url(entry) }}
+{%- elif entry['type'] == 'enumeration' -%}
+  {{ render_enumeration(entry) }}
+{%- elif entry['type'] == 'tags' -%}
+  {{ render_tags(entry) }}
 {%- else -%}
   {{ raise('Unknown entry type: {}.'.format(entry)) }}
 {%- endif -%}
@@ -35,6 +41,9 @@
 {# Renders a list of enumeration entries (either links or text) #}
 {%- macro render_enumeration(enumeration) -%}
 {%- set divider = joiner(enumeration['divider']) -%}
-{{ render_text(enumeration['name']) }}: {% for entry in enumeration['entries'] -%}{{ divider() }}{{ render_element(entry) }}{%- endfor -%}
+{% for entry in enumeration['entries'] -%}{{ divider() }}{{ render_element(entry) }}{%- endfor -%}
 {%- endmacro -%}
 
+{%- macro render_tags(tags) -%}
+  <div class="tags has-addons">{{ render_enumeration(tags['enumeration']) }}</div>
+{%- endmacro -%}

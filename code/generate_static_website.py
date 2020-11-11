@@ -17,12 +17,11 @@ Listing:
 
 """
 
-# TODO index.html tiles, content
-# TODO index.html image (maybe downloaded and assembled from osgameclones)
-# TODO index.html only count games
-# TODO Font awesome 4 or others (icons for OS, for Github, Gitlab and maybe others like external link)
-# TODO contribute.html tiles? content?
-# TODO games: links to licenses (wikipedia)
+# TODO index.html content
+# TODO index.html only count games and frameworks separately
+# TODO more icons?
+# TODO contribute.html content
+# TODO games: links to licenses (wikipedia) complete
 # TODO indexes: make categories bold that have a certain amount of entries!
 # TODO everywhere: style URLs (Github, Wikipedia, Internet archive, SourceForge, ...)
 # TODO developers: links to games and more information, styles
@@ -48,6 +47,11 @@ Listing:
 # TODO icons: for the main categories (devs, games, statistics, home, ...)
 # TODO SEO optimizations, google search ...
 # TODO <a> rel attribute https://www.w3schools.com/TAGS/att_a_rel.asp
+# TODO recommended tags, links not going to genre
+# TODO @see-home/@see-download (ignore or replace?)
+# TODO tooltip of supported systems
+# TODO improve or send feedback?
+# TODO link dependencies
 
 import os
 import shutil
@@ -89,6 +93,15 @@ platform_icon_map = {
     'iOS': 'ios',
     'Web': 'earth',
     'Unspecified': 'device_unknown'
+}
+
+genre_icon_map = {
+    'Action': 'target',
+    'Arcade': 'pacman',
+    'Visual novel': 'book',
+    'Puzzle': 'puzzle-piece',
+    'Cards': 'spades',
+    'Music': 'music'
 }
 
 plurals = {k: k+'s' for k in ('Assets license', 'Contact', 'Code language', 'Code license', 'Developer', 'Download', 'Inspiration', 'Game', 'Keyword', 'Home', 'Organization', 'Platform')}
@@ -426,7 +439,10 @@ def convert_developers(developers, entries):
 
 def create_keyword_tag(keyword):
     if keyword in c.recommended_keywords:
-        return make_url(games_by_genres_path, make_text(keyword), '{} games'.format(keyword), 'tag is-info')
+        if keyword.capitalize() in genre_icon_map:
+            return make_url(games_by_genres_path, [make_icon(genre_icon_map[keyword.capitalize()]), make_text(keyword)], '{} games'.format(keyword), 'tag is-info')
+        else:
+            return make_url(games_by_genres_path, make_text(keyword), '{} games'.format(keyword), 'tag is-info')
     else:
         return make_text(keyword, 'tag is-light')
 
@@ -439,9 +455,9 @@ def create_state_texts(states):
         texts.append(make_text('beta', 'is-size-7 has-text-gray-light'))
     inactive = [x for x in states if x.startswith('inactive since')]
     if inactive:
-        texts.append([make_text(inactive[0], 'is-size-7 has-text-gray-light'), make_icon('bedtime')])
+        texts.append([make_text(inactive[0], 'is-size-7 has-text-gray-light'), make_icon('brightness_3')])
     else:
-        texts.append(make_text('active', 'is-size-7 has-text-weight-bold has-text-info'))
+        texts.append([make_text('active', 'is-size-7 has-text-weight-bold has-text-info'), make_icon('sun')])
     return texts
 
 
@@ -461,7 +477,7 @@ def convert_entries(entries, inspirations, developers):
             entry['note'] = make_text(entry['Note'], 'is-italic')
 
         # keywords as tags
-        e = [create_keyword_tag(x) for x in entry['Keyword']]
+        e = [create_keyword_tag(x.value) for x in entry['Keyword']]
         entry['keyword'] = make_tags(e)
 
         # other normal fields (not technical info)
@@ -583,10 +599,11 @@ def generate(entries, inspirations, developers):
         'creation-date': datetime.datetime.utcnow()
     }
 
-    # copy bulma css
+    # copy css
     utils.copy_tree(os.path.join(c.web_template_path, 'css'), c.web_css_path)
-    #os.mkdir(c.web_css_path)
-    #shutil.copy2(os.path.join(c.web_template_path, 'bulma.min.css'), c.web_css_path)
+
+    # collage_image
+    shutil.copyfile(os.path.join(c.web_template_path, 'collage_games.jpg'), os.path.join(c.web_path, 'collage_games.jpg'))
 
     # create Jinja Environment
     environment = Environment(loader=FileSystemLoader(c.web_template_path), autoescape=True)
@@ -657,7 +674,8 @@ def generate(entries, inspirations, developers):
     # generate frameworks pages
     for keyword in c.framework_keywords:
         listing = {
-            'title': keyword.capitalize(),
+            'title': framework_names[keyword],
+            'subtitle': make_url(frameworks_path + ['index.html'], 'Index'),
             'items': frameworks_by_type[keyword]
         }
         write(template_listing_entries.render(listing=listing), frameworks_path +['{}.html'.format(keyword)])
@@ -689,7 +707,7 @@ def generate(entries, inspirations, developers):
     index['title'] = make_text('Open source games')
     index['subtitle'] = make_text('Index by game genre')
     index['categories'] = genres
-    index['category-names'] = {k:k for k in index['categories']}
+    index['category-names'] = {k:[make_icon(genre_icon_map[k]), make_text(k)] if k in genre_icon_map else make_text(k) for k in index['categories']}
     index['number_entries_per_category_threshold'] = 15
     write(template_categorical_index.render(index=index), games_by_genres_path)
 

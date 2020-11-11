@@ -3,6 +3,9 @@
 <section class="section">
   <div class="container">
     <h1 class="title">{{ listing['title'] }}</h1>
+    {%- if 'subtitle' in listing -%}
+    <h2 class="subtitle">{{ macros.render_element(listing['subtitle']) }}</h2>
+    {%- endif -%}
 {# iterate over items -#}
 {% for item in listing['items'] %}
 <div class="box">

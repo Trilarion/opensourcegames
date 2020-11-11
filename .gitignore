@@ -3,3 +3,4 @@ __pycache__
 /local-config.ini
 /code/archive/**
 /code/lgw-import
+/code/html/images-download

@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'osgl';
   src:
-    url('fonts/osgl.ttf?twf6ln') format('truetype'),
-    url('fonts/osgl.woff?twf6ln') format('woff'),
-    url('fonts/osgl.svg?twf6ln#osgl') format('svg');
+    url('fonts/osgl.ttf?mzgdt7') format('truetype'),
+    url('fonts/osgl.woff?mzgdt7') format('woff'),
+    url('fonts/osgl.svg?mzgdt7#osgl') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,6 +27,12 @@ i {
 .icon-help:before {
   content: "\e908";
 }
+.icon-puzzle-piece:before {
+  content: "\e918";
+}
+.icon-book:before {
+  content: "\e919";
+}
 .icon-question:before {
   content: "\e90f";
 }
@@ -44,6 +50,12 @@ i {
 }
 .icon-idea:before {
   content: "\e90e";
+}
+.icon-brightness_3:before {
+  content: "\e914";
+}
+.icon-wb_sunny:before {
+  content: "\e917";
 }
 .icon-device_unknown:before {
   content: "\e913";
@@ -90,11 +102,17 @@ i {
 .icon-pencil:before {
   content: "\e907";
 }
+.icon-music:before {
+  content: "\e91a";
+}
 .icon-dice:before {
   content: "\e915";
 }
 .icon-pacman:before {
   content: "\e916";
+}
+.icon-spades:before {
+  content: "\e91b";
 }
 .icon-library:before {
   content: "\e921";
@@ -125,6 +143,9 @@ i {
 }
 .icon-earth:before {
   content: "\e9ca";
+}
+.icon-sun:before {
+  content: "\e9d4";
 }
 .icon-filter:before {
   content: "\ea5b";

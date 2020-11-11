@@ -7,3 +7,4 @@ Jinja2
 html5lib
 ruamel.yaml
 requests
+numpy

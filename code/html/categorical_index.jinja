@@ -19,13 +19,16 @@
   </div>
 {% for category in index['categories'] %}
 <div class="box">
-  <div class="block"><h2 id="{{ category.lower() }}" class="is-size-3 has-text-weight-semibold">{{ macros.render_element(index['category-names'][category]) }}</h2></div>
+  <div class="block"><h2 id="{{ category.lower() }}" class="is-size-4 has-text-weight-semibold">{{ macros.render_element(index['category-names'][category]) }}</h2></div>
   <div class="columns">
   {%- for entries_column in index['entries'][category] -%}
     <div class="column">
       <ul>
       {%- for entry in entries_column -%}
-        <li>{{ macros.render_element(entry['url']) }}{%- if 'tags' in entry -%}{{ macros.render_element(entry['tags']) }}{%- endif -%}</li>
+        <li>{%- if 'tags' in entry -%}{{ macros.render_element(entry['url']) }}{{ macros.render_element(entry['tags']) }}
+        {%- else -%}
+        <span class="has-text-weight-semibold">{{ macros.render_element(entry['url']) }}</span>
+        {%- endif -%}</li>
       {%- endfor -%}
       </ul>
     </div>

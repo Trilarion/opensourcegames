@@ -68,6 +68,7 @@
 - **[Atomix](../atomix.md)** (C, GPL-2.0, mature)
 - **[Atrinik](../atrinik.md)** (C, Python, GPL-2.0, mature, inactive since 2016)
 - **[Attal: Lords of doom](../attal_lords_of_doom.md)** (C++, GPL-2.0, mature, inactive since 2008)
+- **[Augustus](../augustus.md)** (C, C++, AGPL-3.0, mature)
 - **[Aussenposten](../aussenposten.md)** (JavaScript, MIT, beta, inactive since 2015)
 - **[Avanor](../avanor.md)** (C++, Lua, GPL-2.0, beta, inactive since 2008)
 - **[Azimuth](../azimuth.md)** (C, GPL-3.0, mature)

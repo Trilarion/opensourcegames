@@ -80,7 +80,17 @@ known_languages = (
 
 language_urls = {
     'AGS Script': 'https://en.wikipedia.org/wiki/Adventure_Game_Studio',
-    'Action Script': 'https://en.wikipedia.org/wiki/ActionScript'
+    'Action Script': 'https://en.wikipedia.org/wiki/ActionScript',
+    'Ada': 'https://en.wikipedia.org/wiki/Ada_(programming_language)',
+    'AngelScript': 'https://en.wikipedia.org/wiki/AngelScript',
+    'Assembly': 'https://en.wikipedia.org/wiki/Assembly_language',
+    'Basic': 'https://en.wikipedia.org/wiki/BASIC',
+    'Blender Script': 'https://en.wikipedia.org/wiki/Blender_(software)',
+    'BlitzMax': 'https://en.wikipedia.org/wiki/Blitz_BASIC',
+    'C': 'https://en.wikipedia.org/wiki/C_(programming_language)',
+    'C#': 'https://en.wikipedia.org/wiki/C_Sharp_(programming_language)',
+    'C++': 'https://en.wikipedia.org/wiki/C%2B%2B',
+    'Clojure': 'https://en.wikipedia.org/wiki/Clojure'
 }
 
 # known licenses, anything outside of this will result in a warning during a maintenance operation
@@ -92,15 +102,44 @@ known_licenses = (
     'LGPL-2.1', 'LGPL-3.0', 'MAME', 'MIT', 'MPL-1.1', 'MPL-2.0', 'MS-PL', 'MS-RL', 'NetHack General Public License',
     'None', 'Proprietary', 'Public domain', 'SWIG license', 'Unlicense', 'WTFPL', 'wxWindows license', 'zlib', '?')
 
-license_urls = {
+license_urls_repo = {
     '2-clause BSD': 'https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_(%22Simplified_BSD_License%22_or_%22FreeBSD_License%22)',
     '3-clause BSD': 'https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_(%22BSD_License_2.0%22,_%22Revised_BSD_License%22,_%22New_BSD_License%22,_or_%22Modified_BSD_License%22)',
-    'AFL-3.0': 'https://en.wikipedia.org/wiki/Academic_Free_License',
-    'AGPL-3.0': 'https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License',
-    'Apache-2.0': 'https://en.wikipedia.org/wiki/Apache_License',
-    'GPL-2.0': 'https://en.wikipedia.org/wiki/GNU_General_Public_License#Version_2',
-    'GPL-3.0': 'https://en.wikipedia.org/wiki/GNU_General_Public_License#Version_3'
+    'AFL': 'https://en.wikipedia.org/wiki/Academic_Free_License',
+    'AGPL': 'https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License',
+    'Apache': 'https://en.wikipedia.org/wiki/Apache_License',
+    'Artistic License': 'https://en.wikipedia.org/wiki/Artistic_License',
+    'Boost': 'https://en.wikipedia.org/wiki/Boost_(C%2B%2B_libraries)#License',
+    'CC': 'https://en.wikipedia.org/wiki/Creative_Commons_license',
+    'EPL': 'https://en.wikipedia.org/wiki/Eclipse_Public_License',
+    'GPL': 'https://en.wikipedia.org/wiki/GNU_General_Public_License',
+    'IJG': 'https://spdx.org/licenses/IJG.html',
+    'ISC': 'https://en.wikipedia.org/wiki/ISC_license',
+    'Java Research License': 'https://en.wikipedia.org/wiki/Java_Research_License',
+    'LGPL': 'https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License',
+    'MAME': 'https://docs.mamedev.org/license.html',
+    'MIT': 'https://en.wikipedia.org/wiki/MIT_License',
+    'MPL': 'https://en.wikipedia.org/wiki/Mozilla_Public_License',
+    'MS': 'https://en.wikipedia.org/wiki/Shared_Source_Initiative#Microsoft_Public_License_(Ms-PL)',
+    'Nethack': 'https://en.wikipedia.org/wiki/NetHack#Licensing,_ports,_and_derivative_ports',
+    'Public domain': 'https://en.wikipedia.org/wiki/Public_domain',
+    'Unlicense': 'https://en.wikipedia.org/wiki/Unlicense',
+    'WTFPL': 'https://en.wikipedia.org/wiki/WTFPL',
+    'wxWindows': 'https://en.wikipedia.org/wiki/WxWidgets#License',
+    'zlib': 'https://en.wikipedia.org/wiki/Zlib_License'
 }
+
+
+def get_license_url(license):
+    if license not in known_licenses:
+        raise RuntimeError('Unknown license')
+    for k, v in license_urls_repo.items():
+        if license.startswith(k):
+            return v
+    return None
+
+
+license_urls = {license: get_license_url(license) for license in known_licenses if get_license_url(license) is not None}
 
 # valid multiplayer modes (can be combined with "+" )
 valid_multiplayer_modes = (

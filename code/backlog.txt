@@ -2,22 +2,6 @@ ftp://ftp.tuxpaint.org/unix/ (all of them)
 ftp://ftp.tuxpaint.org/unix/x/
 http://antongerdelan.net/blog/ (other projects besides TestDrive)
 http://cdetect.sourceforge.net/
-https://github.com/godlikepanos/anki-3d-engine
-https://github.com/MrFrenik/gunslinger
-https://github.com/rockbite/talos
-https://github.com/Ogmo-Editor-3/OgmoEditor3-CE
-https://github.com/eduard-permyakov/permafrost-engine
-https://github.com/codenamecpp/carnage3d
-https://github.com/WohlSoft/PGE-Project
-https://github.com/wesnoth/haldric
-https://github.com/project-imprimis/imprimis
-https://github.com/WohlSoft/PGE-Project
-https://github.com/mgerhardy/engine
-https://github.com/GDQuest/godot-visual-effects
-https://sourceforge.net/projects/freetrain/
-https://github.com/ttencate/jfxr
-https://github.com/godotengine/escoria
-https://github.com/awkwardpolygons/cartographer
 http://circularstudios.com/
 http://cyxdown.free.fr/bs/
 http://cyxdown.free.fr/f2b/
@@ -28,8 +12,6 @@ http://evolonline.org/about
 http://game-editor.com/Main_Page
 http://giderosmobile.com/
 http://haxepunk.com/
-https://github.com/rockbite/talos
-https://github.com/MrFrenik/gunslinger
 http://hcsoftware.sourceforge.net/jason-rohrer/ (various games there)
 http://hge.relishgames.com/
 http://hgm.nubati.net/
@@ -48,11 +30,6 @@ http://icculus.org/toby/
 http://iichantra.ru/en/
 http://insideastarfilledsky.net/
 http://lazerbears.wixsite.com/lazerbears/cr-editor
-https://github.com/vini-guerrero/Godot_Game_Tools
-https://github.com/nezvers/Godot_goodies
-https://github.com/eduard-permyakov/permafrost-engine
-https://github.com/armory3d/iron
-https://armory3d.org/
 http://libagar.org/agar/index.html.en
 http://libsdl-android.sourceforge.net/
 http://lukaszjakowski.pl/ (games apart from uMario)
@@ -164,6 +141,7 @@ https://arcade.academy/
 https://archive.codeplex.com/?p=turnota
 https://archive.codeplex.com/?p=voxeliq
 https://archive.org/details/Gna_code_hosting (all of them)
+https://armory3d.org/
 https://awesomeopensource.com/categories/games
 https://blenderartists.org/t/devils-pinball/552785
 https://blends.debian.org/games/tasks/
@@ -232,6 +210,7 @@ https://github.com/arturkot/the-house-game
 https://github.com/asweigart/PythonStdioGames
 https://github.com/AtomicGameEngine/AtomicGameEngine
 https://github.com/atphalix/nexuiz
+https://github.com/awkwardpolygons/cartographer
 https://github.com/azhirnov/FrameGraph
 https://github.com/benl23x5/gloss
 https://github.com/bepu/bepuphysics2
@@ -262,6 +241,7 @@ https://github.com/cymonsgames/CymonsGames (collection)
 https://github.com/DaanVanYperen/artemis-odb-contrib
 https://github.com/danirod/jumpdontdie
 https://github.com/David20321/7DFPS (http://www.wolfire.com/receiver, not open source, for rejected list)
+https://github.com/db0/godot-card-gaming
 https://github.com/DeflatedPickle/FAOSDance
 https://github.com/delaford/game
 https://github.com/DethRaid/SanityEngine
@@ -270,6 +250,7 @@ https://github.com/Drasky-Vanderhoff/CommonDrops
 https://github.com/Dzierzan/OpenSA
 https://github.com/EasyRPG/Editor-Qt
 https://github.com/EaW-Team/equestria_dev
+https://github.com/eduard-permyakov/permafrost-engine
 https://github.com/EliFUT/android
 https://github.com/elishacloud/Silent-Hill-2-Enhancements
 https://github.com/endlesstravel/Love2dCS
@@ -289,11 +270,14 @@ https://github.com/Galapix/galapix
 https://github.com/gamearians
 https://github.com/GamedevFramework/gf
 https://github.com/gan74/Yave
+https://github.com/GDQuest/godot-visual-effects
 https://github.com/GlPortal/RadixEngine
 https://github.com/gnFur/Monofoxe
 https://github.com/GNOME/quadrapassel
+https://github.com/godlikepanos/anki-3d-engine
 https://github.com/godot-extended-libraries/godot-next
 https://github.com/godot-mega-man/Mega-Man-Engine
+https://github.com/godotengine/escoria
 https://github.com/godotengine/godot-design
 https://github.com/Gramps/GodotSteam
 https://github.com/grantjenks/free-python-games (check all)
@@ -315,6 +299,7 @@ https://github.com/JohanLi/uncharted-waters-2
 https://github.com/JohnLamontagne/Lunar-Engine
 https://github.com/junkdog/artemis-odb
 https://github.com/jwvhewitt/gearhead-caramel.git
+https://github.com/Kavex/GameDev-Resources
 https://github.com/KDE
 https://github.com/kduske/TrenchBroom
 https://github.com/kidscancode/circle_jump
@@ -335,18 +320,23 @@ https://github.com/MatthewTheGlutton/HideousDestructor
 https://github.com/McKay42/McOsu
 https://github.com/megamarc/Tilengine
 https://github.com/mewo2/terrain
+https://github.com/mgerhardy/engine
 https://github.com/mofr/Diablerie
 https://github.com/moonwards1/Moonwards-Virtual-Moon
 https://github.com/morganbengtsson/mos
 https://github.com/MrFrenik/Enjon
+https://github.com/MrFrenik/gunslinger
 https://github.com/MultiCraft/MultiCraft
 https://github.com/MustaphaTR/Romanovs-Vengeance
 https://github.com/MyGUI/mygui
 https://github.com/MyreMylar/pygame_gui
 https://github.com/nCine/nCine
+https://github.com/nezvers/Godot_goodies
 https://github.com/nfprojects/nfengine
+https://github.com/NoelFB/blah
 https://github.com/Noesis/UE4-ShooterGame
 https://github.com/ogarcia/opensudoku
+https://github.com/Ogmo-Editor-3/OgmoEditor3-CE
 https://github.com/OGRECave/scape
 https://github.com/OpenHV/OpenHV
 https://github.com/OpenMandrivaAssociation
@@ -369,6 +359,7 @@ https://github.com/pld-linux/nexuiz/blob/master/nexuiz.spec
 https://github.com/PolygonTek/BlueshiftEngine
 https://github.com/ppizarror/pygame-menu
 https://github.com/prime31/Nez-Samples
+https://github.com/project-imprimis/imprimis
 https://github.com/psuong/ig-developer-console
 https://github.com/qiciengine/qiciengine
 https://github.com/Quaver/Wobble
@@ -382,6 +373,7 @@ https://github.com/RetroAchievements/RALibretro
 https://github.com/RetroAchievements/RAWeb
 https://github.com/rizwan3d/MotoGameEngine
 https://github.com/rlguy/FantasyMapGenerator
+https://github.com/rockbite/talos
 https://github.com/rotators/Fo1in2
 https://github.com/RoxasShadow/Sottaceto
 https://github.com/roy-t/MiniRTS
@@ -420,12 +412,14 @@ https://github.com/tlgkccampbell/ultraviolet
 https://github.com/TomBebb/awe
 https://github.com/tomlooman/SimpleFPSTemplate
 https://github.com/topics/top-down-shooter
+https://github.com/ttencate/jfxr
 https://github.com/uberspot/2048-android
 https://github.com/untakenstupidnick/nbsdgames (Blockout II)
 https://github.com/untakenstupidnick/nbsdgames (Cross-platform ncurses/pdcurses based games under active development)
 https://github.com/UnterrainerInformatik/GameDevelopmentLinks
 https://github.com/Venom0us/Emberpoint
 https://github.com/videogamepreservation
+https://github.com/vini-guerrero/Godot_Game_Tools
 https://github.com/vocollapse/Blockinger
 https://github.com/WagicProject/wagic
 https://github.com/wesnoth/haldric

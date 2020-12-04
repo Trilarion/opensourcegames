@@ -8,11 +8,11 @@
     {%- endif -%}
 {# iterate over items -#}
 {% for item in listing['items'] %}
-<div class="box">
+<div id="{{ item['anchor-id'] }}" class="box">
   <nav class="level">
     <div class="level-left">
       <div class="level-item">
-        <h2 id="{{ item['anchor-id'] }}" class="title is-4">{{ item['name'] }}</h2>
+        <h2 class="title is-4">{{ item['name'] }}</h2>
       </div>
     </div>
     <div class="level-right">

@@ -299,9 +299,9 @@
 - Inspired entries: Cadaver
 - Media: https://en.wikipedia.org/wiki/Cadaver_(video_game)
 
-## Caesar 3 [2]
+## Caesar 3 [3]
 
-- Inspired entries: CaesarIA, Julius
+- Inspired entries: Augustus, CaesarIA, Julius
 
 ## Call to Power II [1]
 

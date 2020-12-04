@@ -3,12 +3,14 @@
 <section class="section">
 <div class="container">
   <div class="box">
+                            {#- title and subtitle -#}
     <div class="block">
       <h1 class="title">{{ macros.render_element(index['title']) }}</h1>
       {%- if 'subtitle' in index -%}
       <h2 class="subtitle">{{ macros.render_element(index['subtitle']) }}</h2>
       {%- endif -%}
     </div>
+                            {#- index of the categories -#}
     <div class="tags">
     {% for category in index['categories'] -%}
       <span class="tag is-white {% if index['number_entries'][category] > index['number_entries_per_category_threshold'] %}is-size-5{% else %}is-size-6{% endif %}">
@@ -17,18 +19,21 @@
     {%- endfor %}
     </div>
   </div>
+                            {#- each of the categories -#}
 {% for category in index['categories'] %}
 <div class="box">
-  <div class="block"><h2 id="{{ category.lower() }}" class="is-size-4 has-text-weight-semibold">{{ macros.render_element(index['category-names'][category]) }}</h2></div>
+  <div class="block">
+    <h2 id="{{ category.lower() }}" class="is-size-4 has-text-weight-semibold">{{ macros.render_element(index['category-names'][category]) }}</h2>
+    {%- if category in index['category-infos'] -%}{{ macros.render_element(index['category-infos'][category]) }}{%- endif -%}
+  </div>
   <div class="columns">
   {%- for entries_column in index['entries'][category] -%}
     <div class="column">
       <ul>
       {%- for entry in entries_column -%}
-        <li>{%- if 'tags' in entry -%}{{ macros.render_element(entry['url']) }}{{ macros.render_element(entry['tags']) }}
-        {%- else -%}
-        <span class="has-text-weight-semibold">{{ macros.render_element(entry['url']) }}</span>
-        {%- endif -%}</li>
+        <li>{%- if index['entry_bold'](entry) -%}<span class="has-text-weight-semibold">{%- endif -%}
+            {{ macros.render_element(entry['url']) }}{%- if 'tags' in entry -%}{{ macros.render_element(entry['tags']) }}{%- endif -%}
+            {%- if index['entry_bold'](entry) -%}</span>{%- endif -%}</li>
       {%- endfor -%}
       </ul>
     </div>

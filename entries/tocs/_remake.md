@@ -20,6 +20,7 @@
 - **[Atomic Tanks](../atomic_tanks.md)** (C++, GPL-2.0, mature, inactive since 2016)
 - **[Atomiks](../atomiks.md)** (C, GPL-3.0, mature, inactive since 2015)
 - **[Atomix](../atomix.md)** (C, GPL-2.0, mature)
+- **[Augustus](../augustus.md)** (C, C++, AGPL-3.0, mature)
 - **[Ballerburg SDL](../ballerburg_sdl.md)** (C, GPL-3.0, mature)
 - **[Barony](../barony.md)** (C++, GPL-3.0, mature)
 - **[Batrachians](../batrachians.md)** (C++, GPL-2.0, beta, inactive since 2012)

@@ -9,6 +9,7 @@ from PIL import Image
 from io import BytesIO
 import numpy as np
 
+from progress.bar import IncrementalBar
 
 def download_images():
     # import the osgameclones data
@@ -80,14 +81,19 @@ def downsize_images():
 
 
 def assemble_collage():
+    print('start assembling collage')
+
     # load all from downsized path
     files = os.listdir(downsized_path)
     files = [file for file in files if os.path.isfile(os.path.join(downsized_path, file))]
     images = []
+    bar = IncrementalBar('Loading', max=len(files))
     for file in files:
         im = Image.open(os.path.join(downsized_path, file))
         im = np.asarray(im)
         images.append(im)
+        bar.next()
+    bar.finish()
 
     # compute total amount of light in each image and only keep the N brightest
     images = [(np.sum(image), image) for image in images]
@@ -115,6 +121,7 @@ def assemble_collage():
     r = lambda x: (x + 1) % Ny
     l = lambda x: (x - 1) % Ny
     score = lambda i1, j1, i2, j2: np.linalg.norm(U[map[i1, j1]] - D[map[u(i2), j2]]) + np.linalg.norm(D[map[i1, j1]] - U[map[d(i2), j2]]) + np.linalg.norm(L[map[i1, j1]] - R[map[i2, l(j2)]]) + np.linalg.norm(R[map[i1, j1]] - L[map[i2, r(j2)]])
+    bar = IncrementalBar('Optimization', max=Ni)
     for ai in range(Ni):
         # get two non-equal random locations
         i1 = np.random.randint(Nx)
@@ -133,6 +140,9 @@ def assemble_collage():
         if x > 0 or np.exp(x / T[ai]) > np.random.uniform():
             map[i1, j1], map[i2, j2] = map[i2, j2], map[i1, j1]
             A[ai] = 1
+
+        bar.next()
+    bar.finish()
     # time evolution of acceptance rate
     Nc = int(np.floor(Ni / 20))
     for ai in range(20):
@@ -169,7 +179,7 @@ if __name__ == "__main__":
     target_width = 80
 
     Nx = 12  # vertical
-    Ny = 20  # horizontal
+    Ny = 18  # horizontal
     N = Nx * Ny
 
     # paths

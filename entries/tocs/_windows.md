@@ -16,6 +16,7 @@
 - **[Ares Dogfighter](../ares_dogfighter.md)** (Java, GPL-3.0, beta, inactive since 2016)
 - **[AssaultCube](../assaultcube.md)** (C, C++, Custom, mature, inactive since 2018)
 - **[Atomic Tanks](../atomic_tanks.md)** (C++, GPL-2.0, mature, inactive since 2016)
+- **[Augustus](../augustus.md)** (C, C++, AGPL-3.0, mature)
 - **[Aussenposten](../aussenposten.md)** (JavaScript, MIT, beta, inactive since 2015)
 - **[Azimuth](../azimuth.md)** (C, GPL-3.0, mature)
 - **[Battle Tanks](../battle_tanks.md)** (C++, GPL-2.0, mature, inactive since 2009)

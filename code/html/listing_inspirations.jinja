@@ -5,9 +5,9 @@
     <h1 class="title">{{ listing['title'] }}</h1>
 {# iterate over items -#}
 {% for item in listing['items'] %}
-<div class="box">
+<div id="{{ item['anchor-id'] }}" class="box">
   <div class="block">
-    <h2 id="{{ item['anchor-id'] }}" class="title is-4">{{ item['name'] }}</h2>
+    <h2 class="title is-4">{{ item['name'] }}</h2>
     <div class="subtitle is-size-6">{{ macros.render_element(item['inspired']) }}</div>
     {%- if 'media' in item -%}{{ macros.render_element(item['media']) }}{%- endif -%}
   </div>

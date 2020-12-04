@@ -39,6 +39,7 @@ Listing:
 # TODO games: contribute/edit, link to md file unten in klein
 # TODO games: use top level for genre and status
 # TODO games/developers/inspirations: split template
+# TODO all pages: meta/title tag
 # TODO split games in libraries/tools/frameworks and real games, add menu
 # TODO statistics with nice graphics (pie charts in SVG) with matplotlib, seaborn, plotly?
 # TODO statistics, get it from common statistics generator
@@ -72,6 +73,11 @@ frameworks_path = ['frameworks']
 inspirations_path = ['inspirations']
 developers_path = ['developers']
 
+games_index_path = games_path + ['index.html']
+frameworks_index_path = frameworks_path + ['index.html']
+inspirations_index_path = inspirations_path + ['index.html']
+developers_index_path = developers_path + ['index.html']
+
 games_by_language_path = games_path + ['languages.html']
 games_by_genres_path = games_path + ['genres.html']
 games_by_platform_path = games_path + ['platforms.html']
@@ -104,7 +110,7 @@ genre_icon_map = {
     'Music': 'music'
 }
 
-plurals = {k: k+'s' for k in ('Assets license', 'Contact', 'Code language', 'Code license', 'Developer', 'Download', 'Inspiration', 'Game', 'Keyword', 'Home', 'Organization', 'Platform')}
+plurals = {k: k+'s' for k in ('Assets license', 'Contact', 'Code language', 'Code license', 'Developer', 'Download', 'Inspiration', 'Game', 'Keyword', 'Home', 'Organization', 'Platform', 'Tag')}
 for k in ('Media', 'Play', 'State'):
     plurals[k] = k
 for k in ('Code repository', 'Code dependency'):
@@ -439,10 +445,15 @@ def convert_developers(developers, entries):
 
 def create_keyword_tag(keyword):
     if keyword in c.recommended_keywords:
-        if keyword.capitalize() in genre_icon_map:
-            return make_url(games_by_genres_path, [make_icon(genre_icon_map[keyword.capitalize()]), make_text(keyword)], '{} games'.format(keyword), 'tag is-info')
+        if keyword in c.framework_keywords:
+            url = frameworks_index_path.copy()
         else:
-            return make_url(games_by_genres_path, make_text(keyword), '{} games'.format(keyword), 'tag is-info')
+            url = games_by_genres_path.copy()
+        url[-1] += '#{}'.format(keyword)
+        if keyword.capitalize() in genre_icon_map:
+            return make_url(url, [make_icon(genre_icon_map[keyword.capitalize()]), make_text(keyword)], '{} games'.format(keyword), 'tag is-info')
+        else:
+            return make_url(url, make_text(keyword), '{} games'.format(keyword), 'tag is-info')
     else:
         return make_text(keyword, 'tag is-light')
 
@@ -503,8 +514,12 @@ def convert_entries(entries, inspirations, developers):
             e = entry['Platform']
             if isinstance(e[0], osg.osg_parse.ValueWithComment):
                 e = [x.value for x in e]
-            e = [make_url('', make_icon(platform_icon_map[x]), 'Windows') if x in platform_icon_map else make_text(x, 'is-size-7') for x in e]
-            entry['platform'] = e
+            e = [make_url('', make_icon(platform_icon_map[x]), x) if x in platform_icon_map else make_text(x, 'is-size-7') for x in e]
+            namex = make_text('{}:'.format(get_plural_or_singular('Platform', len(e))), 'has-text-weight-semibold')
+            entry['platform'] = [namex] + e
+        else:
+            namex = make_text('{}:'.format(get_plural_or_singular('Platform', 1)), 'has-text-weight-semibold')
+            entry['platform'] = [namex, make_icon(platform_icon_map['Unspecified'])]
 
         # technical info fields
         for field in ('Code language', 'Code license', 'Code repository', 'Code dependency', 'Assets license'):
@@ -664,18 +679,20 @@ def generate(entries, inspirations, developers):
 
     # frameworks by type
     index = divide_in_columns(frameworks_by_type, game_index)
-    index['title'] = make_text('Open source frameworks/tools')
-    index['subtitle'] = make_text('Alphabetical index of {} frameworks/tools'.format(len(frameworks)))
+    index['title'] = make_text('Open source game frameworks/tools')
+    index['subtitle'] = make_text('Index of {} game frameworks/tools'.format(len(frameworks)))
     index['categories'] = c.framework_keywords
     index['category-names'] = framework_names
     index['number_entries_per_category_threshold'] = 0
-    write(template_categorical_index.render(index=index), frameworks_path + ['index.html'])
+    index['entry_bold'] = lambda x: 'tags' not in x
+    index['category-infos'] = {}
+    write(template_categorical_index.render(index=index), frameworks_index_path)
 
     # generate frameworks pages
     for keyword in c.framework_keywords:
         listing = {
             'title': framework_names[keyword],
-            'subtitle': make_url(frameworks_path + ['index.html'], 'Index'),
+            'subtitle': make_url(frameworks_index_path, 'Index'),
             'items': frameworks_by_type[keyword]
         }
         write(template_listing_entries.render(listing=listing), frameworks_path +['{}.html'.format(keyword)])
@@ -698,8 +715,10 @@ def generate(entries, inspirations, developers):
     index['subtitle'] = make_text('Alphabetical index of {} games'.format(len(games)))
     index['categories'] = extended_alphabet
     index['category-names'] = extended_alphabet_names
-    index['number_entries_per_category_threshold'] = 0
-    write(template_categorical_index.render(index=index), games_path + ['index.html'])
+    index['number_entries_per_category_threshold'] = 20
+    index['entry_bold'] = lambda x: 'tags' not in x
+    index['category-infos'] = {}
+    write(template_categorical_index.render(index=index), games_index_path)
 
     # genres
     base['active_nav'] = ['filter', 'genres']
@@ -708,7 +727,9 @@ def generate(entries, inspirations, developers):
     index['subtitle'] = make_text('Index by game genre')
     index['categories'] = genres
     index['category-names'] = {k:[make_icon(genre_icon_map[k]), make_text(k)] if k in genre_icon_map else make_text(k) for k in index['categories']}
-    index['number_entries_per_category_threshold'] = 15
+    index['number_entries_per_category_threshold'] = 25
+    index['entry_bold'] = lambda x: 'tags' not in x
+    index['category-infos'] = {}
     write(template_categorical_index.render(index=index), games_by_genres_path)
 
     # games by language
@@ -719,6 +740,8 @@ def generate(entries, inspirations, developers):
     index['categories'] = c.known_languages
     index['category-names'] = {k:k for k in index['categories']}
     index['number_entries_per_category_threshold'] = 15
+    index['entry_bold'] = lambda x: 'tags' not in x
+    index['category-infos'] = {category: make_url(c.language_urls[category], 'Language information', css_class='is-size-7') for category in c.known_languages if category in c.language_urls}
     write(template_categorical_index.render(index=index), games_by_language_path)
 
     # games by platform
@@ -729,6 +752,8 @@ def generate(entries, inspirations, developers):
     index['categories'] = c.valid_platforms + ('Unspecified',)
     index['category-names'] = {k:[make_icon(platform_icon_map[k]), make_text(k)] for k in index['categories']}
     index['number_entries_per_category_threshold'] = 15
+    index['entry_bold'] = lambda x: 'tags' not in x
+    index['category-infos'] = {}
     write(template_categorical_index.render(index=index), games_by_platform_path)
 
     # inspirations folder
@@ -743,8 +768,10 @@ def generate(entries, inspirations, developers):
     index['subtitle'] = make_text('Alphabetical index of {} games used as inspirations'.format(len(inspirations)))
     index['categories'] = extended_alphabet
     index['category-names'] = extended_alphabet_names
-    index['number_entries_per_category_threshold'] = 0
-    write(template_categorical_index.render(index=index), inspirations_path + ['index.html'])
+    index['number_entries_per_category_threshold'] = 10
+    index['entry_bold'] = lambda x: 'tags' in x
+    index['category-infos'] = {}
+    write(template_categorical_index.render(index=index), inspirations_index_path)
 
     # inspirations single pages
     template_listing_inspirations = environment.get_template('listing_inspirations.jinja')
@@ -774,8 +801,10 @@ def generate(entries, inspirations, developers):
     index['subtitle'] = make_text('Alphabetical index of {} developers'.format(len(developers)))
     index['categories'] = extended_alphabet
     index['category-names'] = extended_alphabet_names
-    index['number_entries_per_category_threshold'] = 0
-    write(template_categorical_index.render(index=index), developers_path + ['index.html'])
+    index['number_entries_per_category_threshold'] = 10
+    index['entry_bold'] = lambda x: 'tags' in x
+    index['category-infos'] = {}
+    write(template_categorical_index.render(index=index), developers_index_path)
 
 
 if __name__ == "__main__":

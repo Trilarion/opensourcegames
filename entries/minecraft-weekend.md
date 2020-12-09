@@ -9,8 +9,6 @@
 - Code license: MIT
 - Code dependency: OpenGL
 
-Clone of Minecraft.
-
 ## Building
 
 - Build system: Make

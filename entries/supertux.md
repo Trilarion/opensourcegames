@@ -12,6 +12,4 @@
 - Code license: GPL-3.0
 - Code dependency: Boost, SDL2
 
-Clone of Super Mario.
-
 ## Building

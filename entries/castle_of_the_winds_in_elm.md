@@ -8,7 +8,6 @@
 - Code language: Elm, JavaScript
 - Code license: MIT
 
-Remake of Castle of the Winds.
 See also Castle of the Winds.
 
 ## Building

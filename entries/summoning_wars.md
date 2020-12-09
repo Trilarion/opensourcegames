@@ -9,6 +9,6 @@
 - Code language: C, C++, Lua
 - Code license: GPL-3.0
 
-Role-playing game, featuring both a single-player and a multiplayer mode for about 2 to 8 players.
+Featuring both a single-player and a multiplayer mode for about 2 to 8 players.
 
 ## Building

@@ -10,7 +10,6 @@
 - Code license: ? (GPL-2.0?)
 - Developer: Mathew Velasquez
 
-Remake of Shobon Action.
 See also https://sourceforge.net/p/opensyobon/bugs/4/
 
 ## Building

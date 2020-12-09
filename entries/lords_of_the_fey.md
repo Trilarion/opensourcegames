@@ -10,6 +10,4 @@
 - Code license: AGPL-3.0
 - Assets license: GPL-3.0 (taken from Wesnoth)
 
-Strategy game inspired by Battle for Wesnoth
-
 ## Building

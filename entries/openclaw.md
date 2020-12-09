@@ -9,8 +9,6 @@
 - Code license: GPL-3.0
 - Code dependency: Box2D, SDL
 
-Remake of Claw.
-
 ## Building
 
 - Build system: CMake

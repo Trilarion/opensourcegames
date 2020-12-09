@@ -9,8 +9,6 @@
 - Code license: GPL-2.0
 - Code dependency: OpenGL, SDL
 
-Role playing game engine.
-
 ## Building
 
 - Build system: Scons

@@ -9,8 +9,6 @@
 - Code license: Apache-2.0
 - Code dependency: SDL2
 
-Clone of Bug Bomber.
-
 ## Building
 
 - Build system: CMake

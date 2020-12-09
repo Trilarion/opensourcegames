@@ -9,7 +9,6 @@
 - Code license: GPL-3.0
 - Code dependency: PGU, pygame
 
-Open source version of Moonbase Commander.
 Old [Googlecode project](https://code.google.com/archive/p/tether/)
 
 ## Building

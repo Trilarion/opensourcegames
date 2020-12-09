@@ -8,8 +8,6 @@
 - Code language: Java
 - Code license: WTFPL
 
-Remake of Snake.
-
 ## Building
 
 - Build system: Maven

@@ -9,7 +9,7 @@
 - Assets license: no media
 - Developer: Thijs van Ommen
 
-Roguelike game. You drive your robot through unknown areas and have to fight other robots.
+You drive your robot through unknown areas and have to fight other robots.
 
 ## Building
 

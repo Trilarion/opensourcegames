@@ -8,6 +8,4 @@
 - Code language: C#
 - Code license: GPL-3.0
 
-Remake of Space Station 13.
-
 ## Building

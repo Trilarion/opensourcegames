@@ -10,6 +10,4 @@
 - Code dependency: Godot
 - Assets license: CC-BY-SA-4.0
 
-Clone of WarioWare.
-
 ## Building

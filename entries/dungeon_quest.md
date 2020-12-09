@@ -3,7 +3,7 @@
 - Home: https://github.com/guillaume-gouchon/dungeonquest
 - State: mature
 - Platform: Android
-- Keyword: role playing
+- Keyword: role playing, turn based, dungeon crawling
 - Code repository: https://github.com/guillaume-gouchon/dungeonquest.git
 - Code language: Java
 - Code license: MIT

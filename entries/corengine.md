@@ -8,6 +8,4 @@
 - Code language: C
 - Code license: zlib
 
-3D game engine.
-
 ## Building

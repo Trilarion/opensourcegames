@@ -9,8 +9,6 @@
 - Code license: Apache-2.0
 - Code dependency: libGDX, OpenGL
 
-Remake of Diablo II.
-
 ## Building
 
 - Build system: Gradle

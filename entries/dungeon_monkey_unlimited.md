@@ -9,7 +9,6 @@
 - Code license: LGPL-2.1
 - Developer: Joseph Hewitt
 
-A turn based combat-oriented tactics RPG.
 Download of version 1.001 slightly different from last state of SVN repository.
 
 ## Building

@@ -9,6 +9,4 @@
 - Code language: Java
 - Code license: GPL-2.0
 
-Explore, occupy, produce armies in cities and kill your enemies.
-
 ## Building

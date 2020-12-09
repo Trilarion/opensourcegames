@@ -8,6 +8,4 @@
 - Code language: Pascal
 - Code license: MIT
 
-No description available.
-
 ## Building

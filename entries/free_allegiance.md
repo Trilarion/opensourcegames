@@ -4,12 +4,10 @@
 - Media: https://en.wikipedia.org/wiki/Allegiance_(video_game)#Community_continuation
 - Inspiration: Allegiance
 - State: mature
-- Keyword: remake
+- Keyword: remake, strategy
 - Code repository: https://github.com/FreeAllegiance/Allegiance.git
 - Code language: C++
 - Code license: MIT
-
-Remake of Allegiance.
 
 ## Building
 

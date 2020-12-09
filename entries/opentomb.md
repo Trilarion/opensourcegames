@@ -10,8 +10,6 @@
 - Code language: C, C++, Lua
 - Code license: LGPL-3.0
 
-Remake of Tomb Raider.
-
 ## Building
 
 - Build system: CMake

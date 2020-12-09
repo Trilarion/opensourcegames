@@ -9,8 +9,6 @@
 - Code license: Custom (non commercial)
 - Code dependency: SFML
 
-Remake of BOOM.
-
 ## Building
 
 - Build system: CMake

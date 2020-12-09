@@ -9,8 +9,6 @@
 - Code license: GPL-3.0
 - Code dependency: Mana source engine
 
-MMORPG.
-
 ## Building
 
 

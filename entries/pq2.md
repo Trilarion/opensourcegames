@@ -10,7 +10,6 @@
 - Code license: GPL-3.0
 - Code dependency: ncurses, Qt
 
-Remake of Progress Quest.
 Original source code is also open source.
 
 ## Building

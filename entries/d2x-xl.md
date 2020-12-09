@@ -9,7 +9,6 @@
 - Code language: C++
 - Code license: Custom (see http://svn.code.sf.net/p/d2x-xl/code/trunk/LICENSE), GPL-2.0
 
-Remake of Descent, Descent II.
 See also the Descent level editor.
 
 ## Building

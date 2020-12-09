@@ -8,8 +8,6 @@
 - Code language: C++, C#
 - Code license: GPL-2.0
 
-Clone of Yu-Gi-Oh!.
-
 ## Building
 
 - Build system: Visual Studio project

@@ -5,7 +5,7 @@
 - State: mature, inactive since 2010
 - Download: http://slime.tuxfamily.org/down.php
 - Platform: Windows, Linux, macOS
-- Keyword: arcade
+- Keyword: arcade, 2D
 - Code repository: @see-download
 - Code language: C
 - Code license: GPL-3.0

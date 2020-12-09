@@ -11,6 +11,4 @@
 - Code license: MIT (was GPL-3.0)
 - Code dependency: Qt, SFML
 
-Remake of Rodent's Revenge.
-
 ## Building

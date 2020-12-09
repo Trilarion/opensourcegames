@@ -1,6 +1,7 @@
 # Crosswords
 
 - Home: http://xwords.sourceforge.net/
+- Inspiration: Scrabble
 - State: mature
 - Download: https://sourceforge.net/projects/xwords/files/
 - Platform: Android
@@ -10,7 +11,6 @@
 - Code license: GPL-2.0
 - Developer: Eric House
 
-Based on the rules of Scrabble.
 
 ## Building
 

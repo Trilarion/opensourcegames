@@ -12,7 +12,7 @@
 - Assets license: GPL-2.0
 - Developer: Bokorn
 
-Puzzle game with the goal to clear levels navigating your way around walls.
+Clear levels navigating your way around walls.
 
 ## Building
 

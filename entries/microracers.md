@@ -10,7 +10,6 @@
 - Code license: GPL-2.0
 - Developer: Ricardo Cruz
 
-Remake of Micro Machines.
 Not really beta?
 
 ## Building

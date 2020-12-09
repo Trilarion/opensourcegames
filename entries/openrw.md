@@ -11,7 +11,7 @@
 - Code license: GPL-3.0
 - Code dependency: SDL2
 
-Un-official recreation of the classic Grand Theft Auto III game executable.
+Recreation of the classic Grand Theft Auto III game executable.
 
 ## Building
 

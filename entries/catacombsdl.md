@@ -8,7 +8,6 @@
 - Code language: C
 - Code license: GPL-2.0
 
-Remake of Catacomb, Catacomb II.
 Sources of [Catacomb](https://github.com/CatacombGames/TheCatacomb).
 
 ## Building

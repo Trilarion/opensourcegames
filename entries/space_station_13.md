@@ -3,12 +3,12 @@
 - Home: https://spacestation13.com/
 - Media: https://en.wikipedia.org/wiki/Space_Station_13
 - State: mature
-- Keyword: role playing, online
+- Keyword: role playing, online, turn based, space
 - Code repository: ? (many different versions, see below)
 - Code language: DM
 - Code license: AGPL-3.0
 
-A community developed, multiplayer round-based role playing game, where players assume the role of a crew member on a space station.
+Players assume the role of a crew member on a space station.
 Uses the [Byond engine]() which is closed source!
 
 Open source versions:

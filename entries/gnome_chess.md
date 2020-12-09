@@ -4,7 +4,7 @@
 - State: mature
 - Download: https://flathub.org/apps/details/org.gnome.Chess
 - Platform: Linux
-- Keyword: strategy, chess, open content
+- Keyword: strategy, chess, open content, 2D
 - Code repository: https://gitlab.gnome.org/GNOME/gnome-chess.git
 - Code language: Vala
 - Code license: GPL-3.0

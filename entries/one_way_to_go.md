@@ -9,6 +9,4 @@
 - Code license: GPL-3.0
 - Code dependency: LÖVE
 
-Remake of Sensitive.
-
 ## Building

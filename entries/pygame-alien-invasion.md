@@ -3,7 +3,7 @@
 - Home: https://github.com/Anthonymcqueen21/Pygame---Alien-Invasion
 - State: beta, inactive since 2018
 - Platform: Windows, Linux, macOS
-- Keyword: arcade
+- Keyword: arcade, space, shootem
 - Code repository: https://github.com/Anthonymcqueen21/Pygame---Alien-Invasion.git
 - Code language: Python
 - Code license: GPL-3.0

@@ -9,6 +9,4 @@
 - Code language: Java
 - Code license: ?
 
-Remake of Doom, Doom II, Heretic, Hexen.
-
 ## Building

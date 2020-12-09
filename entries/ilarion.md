@@ -8,7 +8,7 @@
 - Code language: C++, Java, Lua
 - Code license: GPL-3.0
 
-Free Open Source-MMORPG, with emphasis on real roleplay.
+Emphasis on real roleplay.
 
 ## Building
 

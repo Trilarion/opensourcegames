@@ -8,6 +8,6 @@
 - Code license: GPL-2.0
 - Assets license: CC-BY
 
-Adventure Game in Post Soviet Environment.
+Set in post Soviet environment.
 
 ## Building

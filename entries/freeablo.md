@@ -9,8 +9,6 @@
 - Code language: C++
 - Code license: GPL-3.0
 
-Remake of Diablo.
-
 ## Building
 
 - Build system: CMake

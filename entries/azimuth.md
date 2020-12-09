@@ -1,6 +1,7 @@
 # Azimuth
 
 - Home: https://mdsteele.games/azimuth/
+- Inspiration: Metroidvania
 - State: mature
 - Download: https://mdsteele.games/azimuth/download.html
 - Platform: Windows, Linux, macOS

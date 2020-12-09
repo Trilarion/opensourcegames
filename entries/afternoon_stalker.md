@@ -11,6 +11,6 @@
 - Code license: GPL-2.0
 - Code dependency: SDL
 
-Robot-killing video game.
+Robot-killing game.
 
 ## Building

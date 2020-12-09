@@ -1,6 +1,7 @@
 # Korax' Heritage
 
 - Home: https://www.koraxheritage.com/, https://sourceforge.net/projects/korax/
+- Inspiration: Vavoom
 - State: mature
 - Download: https://www.koraxheritage.com/downloads/, https://sourceforge.net/projects/korax/files/
 - Keyword: game engine, role playing, 3D, first-person, shooter
@@ -9,7 +10,6 @@
 - Code license: ?
 - Code dependency: Hexen
 
-3D FPS-RPG engine based on Vavoom.
 Two games:
 Scattered Evil: a full-fledged open-world RPG
 Korax Arena: multiplayer action with 6 classes from mid-90s games

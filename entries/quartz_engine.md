@@ -8,8 +8,6 @@
 - Code license: 3-clause BSD
 - Code dependency: OpenGL
 
-Game engine with focus on adding content.
-
 ## Building
 
 - Build system: CMake

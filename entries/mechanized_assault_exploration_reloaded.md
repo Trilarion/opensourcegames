@@ -10,8 +10,6 @@
 - Code license: GPL-2.0
 - Assets license: CC-BY-SA
 
-A remake of the old M.A.X. by Interplay from 1996.
-
 ## Building
 
 - Build system: CMake

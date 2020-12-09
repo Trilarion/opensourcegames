@@ -10,8 +10,6 @@
 - Code language: Kotlin, Java
 - Code license: LGPL-3.0
 
-Voxel game engine.
-
 ## Building
 
 - Build system: Gradle

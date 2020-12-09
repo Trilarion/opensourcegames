@@ -9,7 +9,6 @@
 - Code language: Pascal
 - Code license: Custom (NC)
 
-Remake of Siege of Avalon.
 Aim of this project is to port the original Win32 Delphi code, over to C# using MonoGame and XNA.
 
 ## Building

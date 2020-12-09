@@ -10,6 +10,4 @@
 - Code dependency: pygame
 - Developer: Jujucece
 
-Racing game.
-
 ## Building

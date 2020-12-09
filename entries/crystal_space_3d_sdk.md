@@ -10,8 +10,6 @@
 - Code license: LGPL-2.1
 - Code dependency: OpenGL
 
-3D framework.
-
 ## Building
 
 - Build system: Make

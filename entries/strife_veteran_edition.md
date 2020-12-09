@@ -8,6 +8,4 @@
 - Code language: C, C++, Objective-C
 - Code license: GPL-3.0
 
-Remake of Strife.
-
 ## Building

@@ -12,8 +12,6 @@
 - Code dependency: GTK
 - Developer: Daniele Napolitano, Wes Ellis
 
-Clone of Bejeweled.
-
 ## Building
 
 - Build system: Make

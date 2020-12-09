@@ -10,7 +10,6 @@
 - Code license: GPL-2.0
 - Developer: Brian Wellington (Psychosoft), Matias Duarte (Psychosoft)
 
-Pretty simple arcade game.
 Written in 1994. Several ports linked on the home page.
 
 ## Building

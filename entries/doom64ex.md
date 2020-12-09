@@ -11,8 +11,6 @@
 - Code license: GPL-2.0
 - Code dependency: SDL2
 
-Remake of Doom 64.
-
 ## Building
 
 - Build system: CMake

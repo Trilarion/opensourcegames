@@ -9,8 +9,6 @@
 - Code license: LGPL-3.0
 - Code dependency: pygame
 
-General-purpose 2D game engine.
-
 ## Building
 
 - Build system: setup.py

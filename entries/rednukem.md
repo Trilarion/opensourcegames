@@ -9,7 +9,6 @@
 - Code license: Custom
 - Code dependency: OpenGL, SDL, SDL2
 
-Remake of Redneck Rampage, Duke Nukem 3D.
 Reverse-engineered ports of Build games using EDuke32 engine technology and development principles
 
 ## Building

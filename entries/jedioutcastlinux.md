@@ -9,8 +9,6 @@
 - Code license: GPL-2.0
 - Code dependency: SDL2
 
-Remake of Jedi Knight II: Jedi Outcast.
-
 ## Building
 
 - Build system: CMake

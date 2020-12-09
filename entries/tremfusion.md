@@ -10,6 +10,6 @@
 - Code dependency: ioquake3
 - Assets license: CC-BY-SA-2.5
 
-FPS game that is the fork of Tremulous.
+FPS game that is a fork of Tremulous.
 
 ## Building

@@ -11,6 +11,6 @@
 - Assets license: ? (GPL)
 - Developer: Santiago Ontañón
 
-Side scrolling arcade game. It is the sequel of the games Transball and Transball 2, all of them based in the 'Thrust' type of games.
+It is the sequel of the games Transball and Transball 2, all of them based in the 'Thrust' type of games.
 
 ## Building

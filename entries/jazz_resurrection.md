@@ -10,6 +10,4 @@
 - Code license: GPL-3.0
 - Code dependency: libopenmpt, MonoGame, OpenAL
 
-Remake of Jazz Jackrabbit 2.
-
 ## Building

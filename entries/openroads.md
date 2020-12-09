@@ -12,6 +12,4 @@
 - Code dependency: WebGL
 - Assets license: ?
 
-Remake of SkyRoads.
-
 ## Building

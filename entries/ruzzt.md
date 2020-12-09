@@ -9,6 +9,4 @@
 - Code license: MIT
 - Code dependency: SDL2
 
-Clone of the engine of ZZT.
-
 ## Building

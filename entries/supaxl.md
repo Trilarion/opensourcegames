@@ -10,6 +10,4 @@
 - Code dependency: pixi.js
 - Assets license: Proprietary
 
-Remake of Supaplex.
-
 ## Building

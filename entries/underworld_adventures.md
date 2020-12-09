@@ -1,6 +1,7 @@
 # Underworld Adventures
 
 - Home: http://uwadv.sourceforge.net/, https://sourceforge.net/projects/uwadv/
+- Inspiration: Ultima Underworld 1
 - State: beta
 - Download: http://uwadv.sourceforge.net/index.php?page=download
 - Keyword: role playing

@@ -9,6 +9,4 @@
 - Code license: MIT
 - Code dependency: SDL2
 
-Remake of Death Rally.
-
 ## Building

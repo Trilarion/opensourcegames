@@ -8,7 +8,6 @@
 - Code language: C
 - Code license: LGPL-2.1
 
-Remake of Indiana Jones and his Desktop Adventures, Star Wars: Yoda Stories.
 See also https://github.com/digitall/scummvm-deskadv
 
 ## Building

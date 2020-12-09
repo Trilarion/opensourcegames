@@ -9,6 +9,4 @@
 - Code language: JavaScript
 - Code license: GPL-3.0
 
-Remake of Q*bert.
-
 ## Building

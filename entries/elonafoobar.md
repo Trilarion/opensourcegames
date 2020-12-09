@@ -10,8 +10,6 @@
 - Code license: MIT
 - Code dependency: SDL2
 
-Remake of Elona.
-
 ## Building
 
 - Build system: CMake

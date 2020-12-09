@@ -8,6 +8,4 @@
 - Code language: CoffeeScript
 - Code license: GPL-2.0
 
-Remake of Bolo.
-
 ## Building

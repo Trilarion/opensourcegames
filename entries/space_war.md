@@ -8,6 +8,4 @@
 - Code language: Java
 - Code license: Apache-2.0
 
-Simple single player turn-base game.
-
 ## Building

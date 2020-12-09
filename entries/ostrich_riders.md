@@ -8,8 +8,6 @@
 - Code language: C++
 - Code license: GPL-3.0
 
-Remake of Joust.
-
 ## Building
 
 - Build system: Make

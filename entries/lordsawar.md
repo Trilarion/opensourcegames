@@ -9,7 +9,7 @@
 - Code language: C++
 - Code license: GPL-3.0
 
-Turn-based strategy game where players strive for control of as many cities as possible.
+Players strive for control of as many cities as possible.
 
 ## Building
 

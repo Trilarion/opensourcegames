@@ -8,7 +8,7 @@
 - Code language: C++
 - Code license: GPL-2.0
 
-Tower simulation game inspired by SimTower.
+Tower simulation game.
 
 ## Building
 

@@ -9,8 +9,6 @@
 - Code language: C++
 - Code license: GPL-3.0
 
-Renew the original The Settlers 2.
-
 ## Building
 
 - Build instruction: https://github.com/Return-To-The-Roots/s25client#how-to-build

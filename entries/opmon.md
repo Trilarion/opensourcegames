@@ -11,8 +11,6 @@
 - Code dependency: SFML
 - Assets license: CC-BY-SA, CC-BY (see https://github.com/OpMonTeam/OpMon-Data/blob/master/LICENSE)
 
-Remake of Pokémon.
-
 ## Building
 
 - Build system: CMake

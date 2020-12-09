@@ -1,6 +1,7 @@
 # Dune II - The Maker
 
 - Home: http://dune2themaker.fundynamic.com/
+- Inspiration: Dune 2
 - State: beta
 - Download: http://dune2themaker.fundynamic.com/?page_id=11
 - Keyword: strategy, real time
@@ -8,7 +9,7 @@
 - Code language: Java
 - Code license: MIT
 
-Clone of the good old Dune II by Westwood Studios.
-License of artwork
+Clone of the good old Dune II.
+License of artwork?
 
 ## Building

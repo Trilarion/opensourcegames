@@ -8,6 +8,6 @@
 - Code language: C#
 - Code license: CC0
 
-Exact clone of Sid Meier's Civilization.
+Exact clone.
 
 ## Building

@@ -8,7 +8,6 @@
 - Code license: GPL-2.0
 - Code dependency: pygame
 
-Role-playing game designed to be flexible and fun.
 See also https://github.com/evilmrhenry/dragon_hunt
 
 ## Building

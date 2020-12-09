@@ -9,6 +9,4 @@
 - Code dependency: pygame
 - Developer: PyMike
 
-Platformer.
-
 ## Building

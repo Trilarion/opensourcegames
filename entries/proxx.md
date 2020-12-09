@@ -11,6 +11,4 @@
 - Code license: Apache-2.0
 - Code dependency: WebGL
 
-Clone of Minesweeper.
-
 ## Building

@@ -8,6 +8,4 @@
 - Code language: Go
 - Code license: MIT
 
-Remake of Ladder.
-
 ## Building

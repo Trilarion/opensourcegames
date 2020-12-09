@@ -8,8 +8,6 @@
 - Code language: C, C++
 - Code license: GPL-2.0
 
-Remake of ZZT.
-
 ## Building
 
 - Build system: Make

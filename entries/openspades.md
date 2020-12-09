@@ -11,8 +11,6 @@
 - Code language: C, C++, AngelScript
 - Code license: GPL-3.0
 
-Remake of Ace of Spades.
-
 ## Building
 
 - Build system: CMake

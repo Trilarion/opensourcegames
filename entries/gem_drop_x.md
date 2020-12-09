@@ -1,6 +1,7 @@
 # Gem Drop X
 
 - Home: http://www.newbreedsoftware.com/gemdropx/, https://packages.debian.org/search?keywords=gemdropx
+- Inspiration: Tetris
 - State: beta, inactive since 2002
 - Download: http://www.newbreedsoftware.com/gemdropx/download/
 - Platform: Linux, macOS
@@ -11,6 +12,6 @@
 - Code dependency: SDL
 - Developer: Bill Kendrick
 
-Fast puzzle game. Placing gems in vertical lines destroys them and ultimately leads to completion of a level. It has been compared to "Tetris meets Space Invaders".
+Placing gems in vertical lines destroys them and ultimately leads to completion of a level. It has been compared to "Tetris meets Space Invaders".
 
 ## Building

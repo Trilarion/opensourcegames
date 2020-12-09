@@ -8,6 +8,4 @@
 - Code language: Java
 - Code license: Custom (modified zlib)
 
-Remake of Delver.
-
 ## Building

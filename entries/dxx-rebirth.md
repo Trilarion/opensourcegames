@@ -10,6 +10,4 @@
 - Code language: C, C++, Python
 - Code license: GPL-3.0, Custom (derived from GPL-3.0)
 
-Remake of Descent, Descent II.
-
 ## Building

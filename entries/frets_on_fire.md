@@ -10,7 +10,6 @@
 - Code language: Python
 - Code license: GPL-2.0
 
-Remake of Guitar Hero.
 Songs at http://fretsonfire.wikidot.com/start
 
 ## Building

@@ -5,12 +5,12 @@
 - Inspiration: Arx Fatalis
 - State: mature
 - Download: https://wiki.arx-libertatis.org/Download
-- Keyword: remake, role playing, commercial content, requires original content (Arx Fatalis)
+- Keyword: remake, role playing, commercial content, requires original content (Arx Fatalis), dungeon
 - Code repository: https://github.com/arx/ArxLibertatis.git
 - Code language: C++
 - Code license: GPL-3.0
 
-Port of Arx Fatalis, a 2002 first-person role-playing game / dungeon crawler.
+Port of Arx Fatalis.
 
 ## Building
 

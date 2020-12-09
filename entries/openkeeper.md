@@ -9,8 +9,6 @@
 - Code license: GPL-3.0
 - Code dependency: jMonkeyEngine
 
-Remake of the Dungeon Keeper 2 engine.
-
 ## Building
 
 - Build system: Gradle

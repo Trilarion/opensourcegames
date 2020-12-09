@@ -10,6 +10,4 @@
 - Code language: C#
 - Code license: LGPL-3.0
 
-Clone of Command & Conquer: Generals.
-
 ## Building

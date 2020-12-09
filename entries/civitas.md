@@ -9,6 +9,4 @@
 - Code license: GPL-2.0
 - Code dependency: Blender game engine
 
-City building game for kids.
-
 ## Building

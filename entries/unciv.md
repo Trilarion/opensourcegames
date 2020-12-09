@@ -11,8 +11,6 @@
 - Code dependency: libGDX
 - Assets license: CC-BY (see https://github.com/yairm210/UnCiv/blob/master/docs/Credits.md)
 
-Civ V for Android
-
 ## Building
 
 - Build system: Gradle

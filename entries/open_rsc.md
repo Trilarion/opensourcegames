@@ -10,7 +10,6 @@
 - Code license: GPL-3.0
 
 As close of a replica Runescape game experience as possible.
-See also the Wikipedia entry for [RuneScape](https://en.wikipedia.org/wiki/RuneScape).
 
 ## Building
 

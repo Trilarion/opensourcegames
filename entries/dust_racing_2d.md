@@ -11,7 +11,7 @@
 - Code license: GPL-3.0
 - Code dependency: OpenGL, Qt
 
-Tile-based, 2D racing game, remake of Micro Machines.
+Tile-based
 
 ## Building
 

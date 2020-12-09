@@ -9,6 +9,4 @@
 - Code dependency: pygame
 - Assets license: CC-BY-4.0
 
-Python based roguelike.
-
 ## Building

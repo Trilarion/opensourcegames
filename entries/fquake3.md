@@ -9,6 +9,4 @@
 - Code license: GPL-2.0
 - Code dependency: MonoGame
 
-Remake of Quake 3.
-
 ## Building

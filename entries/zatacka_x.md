@@ -9,8 +9,6 @@
 - Code license: GPL-3.0
 - Code dependency: SDL
 
-Remake of Achtung, die Kurve!.
-
 ## Building
 
 - Build system: Autoconf

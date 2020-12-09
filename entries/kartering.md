@@ -9,6 +9,4 @@
 - Code license: GPL-2.0, MIT, ISC
 - Code dependency: SDL2
 
-Similar of Mario Kart.
-
 ## Building

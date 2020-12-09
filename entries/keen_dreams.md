@@ -8,6 +8,4 @@
 - Code language: C, Assembly, C++
 - Code license: GPL-2.0
 
-Remake of Commander Keen Series.
-
 ## Building

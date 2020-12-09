@@ -8,6 +8,4 @@
 - Code language: C#
 - Code license: MIT
 
-Remake of Ultima V: Warriors of Destiny.
-
 ## Building

@@ -9,8 +9,6 @@
 - Code license: GPL-2.0
 - Code dependency: GLEW, SDL
 
-Remake of Minecraft.
-
 ## Building
 
 - Build system: Scons

@@ -10,8 +10,6 @@
 - Code license: GPL-3.0
 - Code dependency: OpenGL, SDL2
 
-Remake of Black & White
-
 ## Building
 
 - Build system: CMake

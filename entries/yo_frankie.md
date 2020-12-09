@@ -5,13 +5,12 @@
 - State: mature, inactive since 2009
 - Download: https://apricot.blender.org/
 - Platform: Windows, Linux, macOS (wherever Blender runs)
-- Keyword: action
+- Keyword: action, platform
 - Code repository: @see-download
 - Code language: Blender Script
 - Code license: ?
 - Code dependency: Blender game engine
 
-Platform game.
 [Download overview page](https://download.blender.org/apricot/)
 
 ## Building

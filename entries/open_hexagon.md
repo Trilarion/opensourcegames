@@ -8,6 +8,4 @@
 - Code language: C++
 - Code license: AFL-3.0
 
-Clone of Super Hexagon.
-
 ## Building

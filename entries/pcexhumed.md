@@ -9,7 +9,6 @@
 - Code license: Custom
 - Code dependency: OpenGL, SDL, SDL2
 
-Remake of Powerslave.
 Reverse-engineered ports of Build games using EDuke32 engine technology and development principles.
 
 ## Building

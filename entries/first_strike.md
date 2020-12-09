@@ -8,6 +8,6 @@
 - Code language: Java
 - Code license: MIT
 
-Conquer the world thanks to military forces.
+Conquer the world.
 
 ## Building

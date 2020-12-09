@@ -10,6 +10,4 @@
 - Assets license: GPL-2.0
 - Developer: Andy Southgate
 
-Deep space first-person shooter.
-
 ## Building

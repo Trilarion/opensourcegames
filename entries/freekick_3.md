@@ -9,6 +9,4 @@
 - Code license: GPL-3.0
 - Assets license: CC-BY-SA-3.0
 
-Remake of Sensible Soccer.
-
 ## Building

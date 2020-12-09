@@ -12,6 +12,4 @@
 - Code dependency: SDL
 - Assets license: (illegal use of Super Mario artwork and music?)
 
-Super Mario Bros. 1 clone.
-
 ## Building

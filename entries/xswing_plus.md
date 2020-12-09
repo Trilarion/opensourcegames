@@ -9,6 +9,4 @@
 - Code language: Java
 - Code license: GPL-3.0
 
-Remake of Swing.
-
 ## Building

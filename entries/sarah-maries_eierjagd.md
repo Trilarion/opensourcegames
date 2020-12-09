@@ -9,6 +9,6 @@
 - Code dependency: SDL
 - Developer: Patrick Gerdsmeier
 
-Arcade game. The player controls a girl, trying to catch good and golden eggs and avoiding bad eggs.
+The player controls a girl, trying to catch good and golden eggs and avoiding bad eggs.
 
 ## Building

@@ -9,6 +9,4 @@
 - Code license: MIT
 - Code dependency: Unity
 
-Clone of Toobz.
-
 ## Building

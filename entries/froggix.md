@@ -11,6 +11,4 @@
 - Code dependency: pygame
 - Developer: Paul Elms
 
-Remake of Frogger.
-
 ## Building

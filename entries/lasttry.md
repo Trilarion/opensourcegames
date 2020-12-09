@@ -10,8 +10,6 @@
 - Code license: MIT
 - Code dependency: libGDX
 
-Remake of Terraria.
-
 ## Building
 
 - Build system: Gradle

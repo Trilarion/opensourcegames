@@ -12,8 +12,6 @@
 - Code license: MIT
 - Code dependency: OpenGL, SDL2
 
-Remake of Touhou.
-
 ## Building
 
 - Build system: Meson

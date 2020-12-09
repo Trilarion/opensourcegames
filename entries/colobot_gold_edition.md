@@ -11,7 +11,7 @@
 - Code dependency: SDL2
 - Developer: Daniel Roux, TerranovaTeam
 
-Real-time strategy game, where you can program your units (bots) in a language called CBOT, which is similar to C++ and Java.
+You can program your units (bots) in a language called CBOT, which is similar to C++ and Java.
 Updated version of the Colobot original source code.
 
 ## Building

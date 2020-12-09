@@ -4,7 +4,7 @@
 - State: mature, inactive since 2016
 - Download: https://sourceforge.net/projects/fltrator/files/
 - Platform: Windows
-- Keyword: arcade, open content, side-scrolling
+- Keyword: arcade, open content, side-scrolling, space
 - Code repository: http://hg.code.sf.net/p/fltrator/code (hg)
 - Code language: C++
 - Code license: GPL-3.0

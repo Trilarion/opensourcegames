@@ -6,13 +6,11 @@
 - State: mature
 - Download: http://oolite.org/download/
 - Platform: Windows, Linux, macOS
-- Keyword: simulation, clone, space
+- Keyword: simulation, clone, space, 3D, trading
 - Code repository: https://github.com/OoliteProject/oolite.git
 - Code language: Objective-C, C, JavaScript
 - Code license: GPL-2.0
 - Code dependency: Cocoa, SDL
 - Assets license: CC-BY-NC-SA
-
-3D space trading and combat simulator in the spirit of Elite.
 
 ## Building

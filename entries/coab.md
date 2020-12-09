@@ -9,6 +9,4 @@
 - Code license: ? (BSD)
 - Code dependency: .NET
 
-Remake of Curse of the Azure Bonds.
-
 ## Building

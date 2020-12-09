@@ -11,8 +11,6 @@
 - Code dependency: SDL
 - Developer: Gabor Torok, Pedro Izecksohn, Alex Clark
 
-Side scrolling platform game.
-
 ## Building
 
 - Build system: Autoconf

@@ -8,6 +8,6 @@
 - Code language: C
 - Code license: AGPL-3.0
 
-Traditional roguelike game inspired from the original Rogue. Your quest is to find the Amulet of Yendor.
+Your quest is to find the Amulet of Yendor.
 
 ## Building

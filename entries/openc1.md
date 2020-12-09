@@ -8,6 +8,4 @@
 - Code language: C#
 - Code license: ? (say's what you can't do but not what you can do)
 
-Remake of Carmageddon.
-
 ## Building

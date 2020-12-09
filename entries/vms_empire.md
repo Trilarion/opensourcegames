@@ -11,6 +11,4 @@
 - Assets license: no media
 - Developer: Eric S. Raymond, Chuck Simmons, Ed James
 
-War simulation between the player and the computer.
-
 ## Building

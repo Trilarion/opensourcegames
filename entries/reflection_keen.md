@@ -8,6 +8,4 @@
 - Code language: C, Lua
 - Code license: GPL-2.0
 
-Remake of Commander Keen Series, Catacomb 3-D, Catacomb Adventure Series.
-
 ## Building

@@ -8,6 +8,4 @@
 - Code language: C, C++, Objective-C
 - Code license: 2-clause BSD
 
-Game engine mainly targeted for development of 2D games.
-
 ## Building

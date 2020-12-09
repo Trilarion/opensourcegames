@@ -9,6 +9,4 @@
 - Code license: MIT
 - Code dependency: SFML
 
-Clone of Minecraft.
-
 ## Building

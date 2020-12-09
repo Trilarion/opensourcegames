@@ -1,8 +1,9 @@
 # Atrinik
 
 - Home: https://www.atrinik.org/, https://github.com/atrinik
+- Inspiration: Daimonin, Crossfire
 - State: mature, inactive since 2016
-- Keyword: role playing
+- Keyword: role playing, 2D
 - Code repository: https://github.com/atrinik/atrinik.git
 - Code language: C, Python
 - Code license: GPL-2.0

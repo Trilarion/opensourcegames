@@ -10,8 +10,6 @@
 - Code license: GPL-2.0
 - Code dependency: Allegro, SDL, SFML
 
-Remake of Terraria.
-
 ## Building
 
 - Build system: Make

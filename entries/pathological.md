@@ -10,8 +10,6 @@
 - Code dependency: pygame
 - Developer: Stephen Thorne, John-Paul Gignac
 
-Remake of Log!cal.
-
 ## Building
 
 - Build system: Make

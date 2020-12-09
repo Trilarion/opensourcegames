@@ -10,6 +10,4 @@
 - Code license: Custom (NC, https://github.com/bylexus/sensitive-js#license-information)
 - Assets license: Unknown (https://github.com/bylexus/sensitive-js#copyright-violations)
 
-Remake of Sensitive.
-
 ## Building

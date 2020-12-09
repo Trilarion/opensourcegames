@@ -9,8 +9,6 @@
 - Code license: GPL-2.0
 - Code dependency: OpenGL, SDL2
 
-Remake of Star Wars Episode I: Racer.
-
 ## Building
 
 - Build system: CMake

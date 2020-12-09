@@ -11,6 +11,4 @@
 - Code language: C++
 - Code license: GPL-3.0
 
-Clone of Dungeon Keeper.
-
 ## Building

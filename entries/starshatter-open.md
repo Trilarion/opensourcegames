@@ -9,7 +9,6 @@
 - Code language: C++
 - Code license: 3-clause BSD
 
-Remake of Starshatter.
 Sources released by original creator in 2011.
 
 ## Building

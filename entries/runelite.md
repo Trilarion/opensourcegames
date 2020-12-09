@@ -9,7 +9,6 @@
 - Code language: Java
 - Code license: 2-clause BSD
 
-Remake of Old School RuneScape.
 Open source Old School RuneScape client
 
 ## Building

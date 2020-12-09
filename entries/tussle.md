@@ -11,7 +11,6 @@
 - Code license: GPL-3.0
 - Code dependency: pygame
 
-Clone of Super Smash Bros..
 Just an engine. Create your own characters or download them.
 
 ## Building

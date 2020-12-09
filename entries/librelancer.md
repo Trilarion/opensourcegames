@@ -11,8 +11,6 @@
 - Code license: MIT
 - Code dependency: OpenGL
 
-Remake of Freelancer.
-
 ## Building
 
 - Build system: CMake

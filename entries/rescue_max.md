@@ -10,6 +10,4 @@
 - Code license: GPL-3.0
 - Developer: Yura
 
-Remake of Rescue!.
-
 ## Building

@@ -10,8 +10,6 @@
 - Code license: MIT
 - Code dependency: libGDX
 
-A simple platform game designed to be extended.
-
 ## Building
 
 - Build system: Gradle

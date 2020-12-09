@@ -11,6 +11,4 @@
 - Code license: MIT
 - Assets license: ? (not specified)
 
-Remake of Flappy Bird.
-
 ## Building

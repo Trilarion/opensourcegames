@@ -10,8 +10,6 @@
 - Code dependency: Allegro
 - Assets license: CC-BY-SA-3.0
 
-Remake of Destructo.
-
 ## Building
 
 - Build system: CMake

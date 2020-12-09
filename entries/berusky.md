@@ -1,6 +1,7 @@
 # Berusky
 
 - Home: https://www.anakreon.cz/berusky1.html, https://web.archive.org/web/20151026223411/https://sourceforge.net/projects/berusky/
+- Inspiration: Sokoban
 - State: mature
 - Download: @see-home (and https://web.archive.org/web/*/https://sourceforge.net/projects/berusky/files/*)
 - Platform: Windows, Linux
@@ -11,7 +12,7 @@
 - Code dependency: SDL
 - Assets license: GPL
 
-Logic game based on Sokoban, expanded with new items such as explosives, stones, special gates.
+Based on Sokoban, expanded with new items such as explosives, stones, special gates.
 
 ## Building
 

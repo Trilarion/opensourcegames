@@ -11,8 +11,6 @@
 - Code license: GPL-2.0
 - Code dependency: Vulkan
 
-Remake of Quake.
-
 ## Building
 
 - Build system: Make

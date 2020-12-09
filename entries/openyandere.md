@@ -10,6 +10,4 @@
 - Code license: GPL-3.0
 - Code dependency: Unity
 
-Clone of Yandere Simulator.
-
 ## Building

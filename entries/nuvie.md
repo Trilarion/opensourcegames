@@ -8,7 +8,6 @@
 - Code language: C, C++, Lua
 - Code license: GPL-2.0
 
-Remake of Ultima VI, Ultima: Worlds of Adventure 2: Martian Dreams, Worlds of Ultima: The Savage Empire.
 Does it include alternate graphics?
 
 ## Building

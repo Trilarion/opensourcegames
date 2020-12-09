@@ -9,8 +9,6 @@
 - Code language: C++
 - Code license: GPL-2.0
 
-Remake of Rick Dangerous.
-
 ## Building
 
 - Build system: Autoconf

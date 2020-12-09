@@ -8,7 +8,6 @@
 - Code language: C, C++
 - Code license: Unlicense
 
-Remake of Diablo.
 Improved engine recreation for modern systems.
 
 ## Building

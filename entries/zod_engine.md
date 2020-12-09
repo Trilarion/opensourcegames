@@ -10,6 +10,4 @@
 - Code language: C++
 - Code license: ? (really GPL-3.0 as mentioned on homepage?)
 
-Remake of Z.
-
 ## Building

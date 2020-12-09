@@ -12,8 +12,6 @@
 - Assets license: Artistic license-1.0 (font)
 - Developer: Jimmy Christensen
 
-Side-scroller/arcade lunar-lander-like game.
-
 ## Building
 
 - Build system: Make

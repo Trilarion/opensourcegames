@@ -8,6 +8,6 @@
 - Code language: Go
 - Code license: MIT
 
-Port of ZZT to Go.
+Port of ZZT.
 
 ## Building

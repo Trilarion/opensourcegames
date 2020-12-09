@@ -9,8 +9,6 @@
 - Code license: GPL-3.0
 - Assets license: CC-BY-SA
 
-Remake of Ace of Spades.
-
 ## Building
 
 - Build system: CMake

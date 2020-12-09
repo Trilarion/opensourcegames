@@ -11,6 +11,4 @@
 - Assets license: CC BY 3.0
 - Developer: Olli "Hectigo" Etuaho
 
-Puzzle platformer.
-
 ## Building

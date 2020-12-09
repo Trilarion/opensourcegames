@@ -11,6 +11,4 @@
 - Code license: GPL-2.0
 - Code dependency: JOGL, lwjgl
 
-Remake of Quake 2.
-
 ## Building

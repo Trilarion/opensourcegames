@@ -9,7 +9,7 @@
 - Code language: Java
 - Code license: GPL-3.0
 
-Turn based free strategy game about colonizing Mars.
+About colonizing Mars.
 
 ## Building
 

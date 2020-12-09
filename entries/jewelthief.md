@@ -11,8 +11,6 @@
 - Code dependency: libGDX
 - Assets license: CC-BY
 
-Remake of Jewel Thief.
-
 ## Building
 
 - Build system: Gradle

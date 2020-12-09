@@ -10,8 +10,6 @@
 - Code license: LGPL-2.1
 - Code dependency: GTK
 
-Adventure game engine.
-
 ## Building
 
 - Build system: Make

@@ -9,8 +9,6 @@
 - Code license: MIT
 - Developer: Amer Koleci
 
-Cross-platform 2D and 3D game engine.
-
 ## Building
 
 - Build system: CMake

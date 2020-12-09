@@ -10,6 +10,4 @@
 - Code license: GPL-3.0
 - Code dependency: NumPy, pygame
 
-Collection of educational activities for young children.
-
 ## Building

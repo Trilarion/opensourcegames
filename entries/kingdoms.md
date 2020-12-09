@@ -9,8 +9,6 @@
 - Code license: GPL-3.0
 - Code dependency: Boost, libpng, SDL, zlib
 
-Strategy game where you lead a nation throughout history..
-
 ## Building
 
 - Build system: Make

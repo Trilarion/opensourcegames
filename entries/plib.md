@@ -9,8 +9,6 @@
 - Code language: C++
 - Code license: LGPL-2.0
 
-Game framework.
-
 ## Building
 
 - Build system: Autoconf

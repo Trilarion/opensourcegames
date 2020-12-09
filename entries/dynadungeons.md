@@ -10,6 +10,4 @@
 - Code dependency: Godot
 - Assets license: CC-BY-3.0 (http://opengameart.org/content/bomb-party-the-complete-set)
 
-Clone of Bomberman.
-
 ## Building

@@ -1,6 +1,7 @@
 # nXtank
 
 - Home: http://nxtank.sourceforge.net/, https://sourceforge.net/projects/nxtank/
+- Inspiration: Xtank
 - State: beta, inactive since 2010
 - Download: https://sourceforge.net/projects/nxtank/files/
 - Platform: Windows
@@ -9,7 +10,5 @@
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependency: OGRE
-
-Xtank in a modern gaming engine.
 
 ## Building

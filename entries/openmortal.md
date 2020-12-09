@@ -11,8 +11,6 @@
 - Code license: GPL-2.0
 - Developer: UPi
 
-Clone of Mortal Kombat.
-
 ## Building
 
 - Build system: Make

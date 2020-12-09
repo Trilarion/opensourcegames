@@ -9,7 +9,7 @@
 - Code language: C++
 - Code license: Boost-1.0
 
-Boost provides free peer-reviewed portable C++ source libraries.
+Portable C++ source libraries.
 [Boost Software License 1.0](https://github.com/boostorg/boost/blob/master/LICENSE_1_0.txt)
 
 ## Building

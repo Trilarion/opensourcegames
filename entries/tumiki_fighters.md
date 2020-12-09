@@ -5,13 +5,11 @@
 - State: mature, inactive since 2005
 - Download: https://sourceforge.net/projects/tumiki/files/tumiki/
 - Platform: Windows, Linux
-- Keyword: action, shooter
+- Keyword: shooter, side-scrolling, arcade
 - Code repository: https://gitlab.com/osgames/tumiki.git (import of source releases)
 - Code language: D, C++
 - Code license: 2-clause BSD
 - Code dependency: SDL
-
-Side-scrolling shooter.
 
 ## Building
 

@@ -10,8 +10,6 @@
 - Code license: 3-clause BSD
 - Code dependency: Slick2D
 
-Remake of Vlak.
-
 ## Building
 
 - Build system: Maven

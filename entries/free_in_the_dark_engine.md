@@ -1,6 +1,7 @@
 # Free in the Dark (engine)
 
 - Home: https://github.com/jmimu/FITD
+- Inspiration: Alone in the Dark series
 - State: beta
 - Keyword: adventure, game engine, remake
 - Code repository: https://github.com/jmimu/FITD.git

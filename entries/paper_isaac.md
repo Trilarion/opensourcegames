@@ -8,6 +8,4 @@
 - Code language: ooc
 - Code license: MIT
 
-Clone of The Binding of Isaac.
-
 ## Building

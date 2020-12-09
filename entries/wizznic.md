@@ -11,6 +11,4 @@
 - Code dependency: SDL
 - Assets license: GPL-3.0 (https://github.com/DusteDdk/Wizznic/blob/master/doc/media-licenses.txt)
 
-Remake of Puzznic / Brix.
-
 ## Building

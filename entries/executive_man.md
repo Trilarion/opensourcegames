@@ -10,6 +10,4 @@
 - Code language: JavaScript
 - Code license: Custom (BSD like)
 
-Remake of MegaMan.
-
 ## Building

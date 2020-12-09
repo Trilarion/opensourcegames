@@ -11,8 +11,6 @@
 - Code license: GPL-2.0
 - Code dependency: OpenAL, OpenGL, SDL2
 
-Remake of Tomb Raider.
-
 ## Building
 
 - Build system: CMake

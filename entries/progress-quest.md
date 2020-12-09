@@ -9,7 +9,6 @@
 - Code license: MIT
 - Code dependency: Qt
 
-Remake of Progress Quest.
 More or less feature parity with the original, saving/loading/etc. works.
 
 ## Building

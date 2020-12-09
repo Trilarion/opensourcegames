@@ -10,7 +10,6 @@
 - Code license: GPL-3.0
 - Code dependency: OpenAL, SDL2
 
-Remake of Hogs of War.
 Aims at creating open content.
 
 ## Building

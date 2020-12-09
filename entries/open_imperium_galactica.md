@@ -9,6 +9,4 @@
 - Code language: Java
 - Code license: LGPL-3.0
 
-Reimplementation of Imperium Galactica.
-
 ## Building

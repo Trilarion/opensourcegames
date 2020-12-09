@@ -10,6 +10,4 @@
 - Code language: C++
 - Code license: GPL-2.0
 
-Remake of Grim Fandango, Escape from Monkey Island, Myst III: Exile.
-
 ## Building

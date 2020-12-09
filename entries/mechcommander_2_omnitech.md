@@ -4,11 +4,9 @@
 - Media: https://en.wikipedia.org/wiki/MechCommander_2
 - Inspiration: MechCommander 2
 - State: beta, inactive since 2013
-- Keyword: action, remake
+- Keyword: action, remake, mech
 - Code repository: https://github.com/Echelon9/mechcommander2-open.git
 - Code language: C++
 - Code license: MS-PL
-
-Upgraded and more easily moddable version of the good old Mechcommander 2.
 
 ## Building

@@ -1,8 +1,9 @@
 # Garith
 
 - Home: https://www.thregr.org/~wavexx/software/garith/
+- Inspiration: TuxMath, arithmetic
 - State: mature, inactive since 2013
-- Keyword: educational, open content
+- Keyword: educational, open content, for kids
 - Code repository: https://gitlab.com/wavexx/garith.git, https://github.com/wavexx/garith.git (archived)
 - Code language: C++
 - Code license: LGPL-2.1
@@ -10,6 +11,6 @@
 - Assets license: LGPL
 - Developer: Yuri D'Elia
 
-Math game similar to BSD's "arithmetic" or TuxMath.
+Math game.
 
 ## Building

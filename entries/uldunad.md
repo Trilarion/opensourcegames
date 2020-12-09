@@ -8,6 +8,6 @@
 - Code license: GPL-3.0
 - Code dependency: NumPy, OpenGL, Pillow, pygame, wxPython
 
-Ultimate Dungeon Adventure (UlDunAd) - the extremely flexible, fun, text/graphical interfaced RPG.
+Ultimate Dungeon Adventure (UlDunAd)
 
 ## Building

@@ -2,6 +2,7 @@
 
 - Home: http://roguetemple.com/z/hyper/
 - Media: https://en.wikipedia.org/wiki/HyperRogue
+- Inspiration: Deadly Rooms of Death
 - State: mature
 - Download: http://roguetemple.com/z/hyper/download.php
 - Platform: Windows, Linux, macOS, Android (some versions)

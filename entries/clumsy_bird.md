@@ -11,6 +11,4 @@
 - Code license: MIT
 - Code dependency: melonJS
 
-Remake of Flappy Bird.
-
 ## Building

@@ -10,6 +10,4 @@
 - Code license: GPL-2.0
 - Code dependency: LionEngine
 
-Remake of Tyrian.
-
 ## Building

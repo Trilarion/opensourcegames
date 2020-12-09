@@ -8,7 +8,6 @@
 - Code language: Go
 - Code license: MIT
 
-Clone of Pac-Man.
 Is also a tutorial to introduce people to the Go programming language.
 
 ## Building

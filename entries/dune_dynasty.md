@@ -1,7 +1,7 @@
 # Dune Dynasty
 
 - Home: http://dunedynasty.sourceforge.net/, https://sourceforge.net/projects/dunedynasty/
-- Inspiration: Dune 2
+- Inspiration: Dune 2, Open Dune
 - State: mature, inactive since 2014
 - Download: https://sourceforge.net/projects/dunedynasty
 - Keyword: remake, strategy, requires original content (Dune 2)
@@ -9,7 +9,6 @@
 - Code language: C
 - Code license: GPL-2.0
 
-Continuation of the classic real-time strategy game Dune II by Westwood Studios.
-Based on Open Dune.
+Continuation of the classic real-time strategy game Dune II.
 
 ## Building

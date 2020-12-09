@@ -10,9 +10,7 @@
 - Code language: C++
 - Code license: GPL-2.0
 
-General strategy game system.
-Historic. One of the first such projects.
-
+One of the first such projects.
 See also https://github.com/brentjohnson/xconq
 
 ## Building

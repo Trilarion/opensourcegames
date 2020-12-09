@@ -10,6 +10,4 @@
 - Code dependency: LÖVE
 - Assets license: No assets
 
-Clone of Omega Race.
-
 ## Building

@@ -10,6 +10,4 @@
 - Code license: ? (GPL-2.0 maybe but could not find it in the source code)
 - Developer: Bill Kendrick
 
-Clone of Missile Command.
-
 ## Building

@@ -9,7 +9,6 @@
 - Code license: Custom
 - Code dependency: SDL
 
-Remake of Liero.
 Liero 1.36. License information at http://www.liero.be/licenses/135/license.txt
 
 ## Building

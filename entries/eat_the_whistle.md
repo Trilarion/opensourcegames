@@ -11,8 +11,6 @@
 - Code license: ?
 - Code dependency: SDL
 
-Football simulation game
-
 ## Building
 
 - Build system: CMake

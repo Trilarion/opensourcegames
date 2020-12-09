@@ -8,8 +8,6 @@
 - Code language: C++
 - Code license: GPL-3.0
 
-Game and rendering engine.
-
 ## Building
 
 - Build system: VisualStudio

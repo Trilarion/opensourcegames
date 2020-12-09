@@ -10,6 +10,6 @@
 - Code license: GPL-2.0
 - Code dependency: GTK, Qt
 
-Modelled after the golden oldie Archon game created by Freefall Associates and distributed by Electronic Arts.
+Modelled after the golden oldie Archon game.
 
 ## Building

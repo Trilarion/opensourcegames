@@ -11,8 +11,6 @@
 - Code license: GPL-3.0
 - Code dependency: Irrlicht Engine
 
-Remake of Super Monkey Ball.
-
 ## Building
 
 - Build system: CMake

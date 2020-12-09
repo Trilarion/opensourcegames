@@ -11,6 +11,4 @@
 - Code license: GPL-2.0
 - Code dependency: GNU Guile, SDL2
 
-Remake of Marble Madness.
-
 ## Building

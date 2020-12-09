@@ -9,7 +9,6 @@
 - Code license: GPL-3.0
 - Code dependency: Qt
 
-Remake of Pac-Man.
 Multiplayer Pac-Man where you control the ghosts. Designed as a programming game, but has human controls. Considered finished, but bugs will be fixed etc.
 
 ## Building

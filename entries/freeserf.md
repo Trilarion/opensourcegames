@@ -9,8 +9,6 @@
 - Code language: C, C++
 - Code license: GPL-3.0
 
-Clone of the brilliant simulation game The Settlers 1 aka Serf City.
-
 ## Building
 
 - Build system: CMake

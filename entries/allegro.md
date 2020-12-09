@@ -9,8 +9,6 @@
 - Code language: C
 - Code license: zlib
 
-Cross-platform library mainly aimed at video game and multimedia programming.
-
 ## Building
 
 - Build system: CMake

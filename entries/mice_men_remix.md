@@ -10,8 +10,6 @@
 - Code license: LGPL-3.0
 - Code dependency: libGDX
 
-Remake of Mice Men.
-
 ## Building
 
 - Build system: Gradle

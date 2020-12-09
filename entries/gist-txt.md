@@ -8,6 +8,4 @@
 - Code language: JavaScript
 - Code license: MIT
 
-A minimal text adventure engine.
-
 ## Building

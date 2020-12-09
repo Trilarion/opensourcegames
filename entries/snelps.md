@@ -9,6 +9,4 @@
 - Code dependency: Rubygame, SDL
 - Developer: Shawn Anderson
 
-Real-time strategy game.
-
 ## Building

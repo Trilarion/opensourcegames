@@ -13,8 +13,6 @@
 - Assets license: GPL-2.0, CC-BY-SA, Public domain
 
 A match-3 game inspired by "Tetris Attack" but more PC friendly.
-Moved from SDL1 to SDL2 with version 2.0.0 released May 1st, 2016.
-Used to have basic network functionality prior to 2.0.0.
 
 ## Building
 

@@ -10,8 +10,6 @@
 - Code language: C++, C, Lua
 - Code license: GPL-2.0
 
-Remake of Total Annihilation.
-
 ## Building
 
 - Build system: CMake

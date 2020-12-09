@@ -9,6 +9,4 @@
 - Code license: zlib
 - Assets license: Custom (Do not modify or distribute outside this game. See http://www.irrgheist.com/hcraftsource.htm)
 
-Clone of Wipeout.
-
 ## Building

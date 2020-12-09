@@ -10,7 +10,6 @@
 - Code language: Assembly, Python
 - Code license: WTFPL
 
-Clone of Super Smash Bros..
 Runs in browser based NES emulator.
 
 ## Building

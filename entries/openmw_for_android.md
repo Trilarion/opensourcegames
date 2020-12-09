@@ -10,7 +10,6 @@
 - Code language: Kotlin
 - Code license: GPL-3.0
 
-Remake of The Elder Scrolls III: Morrowind.
 See also [OpenMW](openmw.md).
 
 ## Building

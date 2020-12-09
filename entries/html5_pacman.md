@@ -9,6 +9,4 @@
 - Code language: JavaScript
 - Code license: WTFPL
 
-Remake of Pac-Man.
-
 ## Building

@@ -8,6 +8,4 @@
 - Code language: C, C++, Python
 - Code license: GPL-3.0
 
-Remake of Minecraft.
-
 ## Building

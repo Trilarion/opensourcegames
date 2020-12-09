@@ -1,6 +1,7 @@
 # Simsu
 
 - Home: https://gottcode.org/simsu/
+- Inspiration: Sudoku
 - State: mature
 - Platform: Windows, Linux, macOS
 - Keyword: puzzle, sudoku
@@ -9,7 +10,5 @@
 - Code license: GPL-3.0
 - Code dependency: Qt
 - Developer: Graeme Gott
-
-Sudoku game.
 
 ## Building

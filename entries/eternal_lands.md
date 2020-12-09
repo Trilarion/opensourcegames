@@ -9,6 +9,4 @@
 - Code language: C, C++
 - Code license: Custom (modified QTPL: https://raw.githubusercontent.com/raduprv/Eternal-Lands/master/eternal_lands_license.txt)
 
-Multiplayer, online role-playing game (MMORPG).
-
 ## Building

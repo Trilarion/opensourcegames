@@ -10,6 +10,4 @@
 - Code license: GPL-2.0
 - Developer: Karl Bartel
 
-Remake of Rampart.
-
 ## Building

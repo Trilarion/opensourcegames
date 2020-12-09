@@ -11,6 +11,4 @@
 - Code license: AGPL-3.0
 - Code dependency: Unity
 
-Clone of Space Station 13.
-
 ## Building

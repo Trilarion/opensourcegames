@@ -9,6 +9,4 @@
 - Code license: CC0
 - Code dependency: Allegro
 
-Clone of Lemmings.
-
 ## Building

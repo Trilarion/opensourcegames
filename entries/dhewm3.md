@@ -11,8 +11,6 @@
 - Code license: GPL-3.0
 - Code dependency: OpenGL
 
-Remake of Doom 3.
-
 ## Building
 
 - Build system: CMake

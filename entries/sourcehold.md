@@ -9,8 +9,6 @@
 - Code license: MIT
 - Code dependency: OpenAL, SDL2
 
-Remake of Stronghold.
-
 ## Building
 
 - Build system: CMake

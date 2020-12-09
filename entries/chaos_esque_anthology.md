@@ -10,7 +10,7 @@
 - Code license: ? (GPL did not download the iso)
 - Assets license: CC-BY (mixed with GPL)
 
-First-person shooter fork of Xonotic including new weapons, maps, vehicles and more.
+Including new weapons, maps, vehicles.
 See also: https://sourceforge.net/projects/chaosesqueanthologyvolume2/
 
 ## Building

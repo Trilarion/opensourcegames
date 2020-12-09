@@ -10,6 +10,4 @@
 - Code license: MIT
 - Code dependency: SDL2
 
-Remake of Oddworld: Abe's Oddysee, Oddworld: Abe's Exoddus
-
 ## Building

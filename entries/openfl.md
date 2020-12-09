@@ -9,6 +9,4 @@
 - Code language: Haxe
 - Code license: MIT
 
-Software framework and platform for the creation of multi-platform applications and video games.
-
 ## Building

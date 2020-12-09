@@ -7,6 +7,6 @@
 - Code language: C++
 - Code license: GPL-3.0
 
-A free, turn-based strategy game where you have to guide a hero through a fantasy world.
+Guide a hero through a fantasy world.
 
 ## Building

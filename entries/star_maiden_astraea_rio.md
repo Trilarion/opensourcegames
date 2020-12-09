@@ -11,6 +11,4 @@
 - Code dependency: Ren'Py
 - Assets license: CC-NC (see readme.txt)
 
-Visual Novel.
-
 ## Building

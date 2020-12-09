@@ -8,6 +8,4 @@
 - Code language: C#
 - Code license: MIT
 
-Remake of Minecraft.
-
 ## Building

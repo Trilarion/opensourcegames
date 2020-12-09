@@ -9,6 +9,6 @@
 - Code language: C
 - Code license: GPL-3.0
 
-Roguelike inspired by Tolkien's novel The Lord of the Rings.
+Inspired by Tolkien's novel The Lord of the Rings.
 
 ## Building

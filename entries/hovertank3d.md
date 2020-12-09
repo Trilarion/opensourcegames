@@ -8,6 +8,4 @@
 - Code language: C++, Assembly
 - Code license: GPL-2.0
 
-Remake of Hovertank 3D.
-
 ## Building

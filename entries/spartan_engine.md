@@ -8,8 +8,6 @@
 - Code language: C, C++
 - Code license: MIT
 
-Game engine targeting high end machines.
-
 ## Building
 
 - Build system: premake

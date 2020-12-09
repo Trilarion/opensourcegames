@@ -1,6 +1,7 @@
 # OGS Mahjong
 
 - Home: http://opengamestudio.org/en/game/ogs-mahjong-1.html, https://sourceforge.net/projects/osrpgcreation/
+- Inspiration: Mahjong
 - State: mature, inactive since 2016
 - Download: https://sourceforge.net/projects/osrpgcreation/files/Mahjong/
 - Platform: Windows, Linux

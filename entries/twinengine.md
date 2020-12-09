@@ -9,8 +9,6 @@
 - Code license: GPL-2.0
 - Code dependency: SDL
 
-A Little Big Adventure engine.
-
 ## Building
 
 - Build system: Make

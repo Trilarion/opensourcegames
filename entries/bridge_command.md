@@ -9,6 +9,4 @@
 - Code license: GPL-2.0
 - Code dependency: Irrlicht Engine
 
-Clone of Ship Simulator 2006, Ship Simulator 2008, Ship Simulator Extremes.
-
 ## Building

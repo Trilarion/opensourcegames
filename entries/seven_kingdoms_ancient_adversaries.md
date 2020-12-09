@@ -10,6 +10,4 @@
 - Code language: C++
 - Code license: GPL-2.0
 
-Fan continuation of Seven Kingdoms: Ancient Adversaries by Enlight Software.
-
 ## Building

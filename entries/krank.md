@@ -12,6 +12,4 @@
 - Assets license: Public domain (probably non-free backgrounds and a font in the original distribution, see debian distribution)
 - Developer: Thorsten Kohnhorst, legoluft (sound), Slava Anishenko (replacement free images)
 
-Game of dexterity.
-
 ## Building

@@ -9,8 +9,6 @@
 - Code language: Java
 - Code license: Apache-2.0
 
-Remake of Zork.
-
 ## Building
 
 - Build system: Maven

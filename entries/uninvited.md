@@ -9,8 +9,6 @@
 - Code license: Artistic License-2.0
 - Code dependency: Inform
 
-Remake of Uninvited.
-
 ## Building
 
 - Build system: Make

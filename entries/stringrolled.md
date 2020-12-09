@@ -10,6 +10,6 @@
 - Assets license: Public domain
 - Developer: Joel Bouchard Lamontagne (logicow code), Isabelle Bouchard (Windbladeicepuppy artwork), Reduz (music), Hubert Lamontagne (madbrain sound), Coda (sound)
 
-Aka Upsilon Cat is a puzzle platformer.
+aka Upsilon Cat
 
 ## Building

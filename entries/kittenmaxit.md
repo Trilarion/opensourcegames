@@ -11,8 +11,6 @@
 - Code license: MIT
 - Code dependency: libGDX
 
-Remake of Maxit.
-
 ## Building
 
 - Build system: Gradle

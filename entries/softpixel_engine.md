@@ -9,7 +9,6 @@
 - Code language: C++
 - Code license: zlib
 
-High-level real-time 3d engine.
 See also [SoftPixel Editor](https://sourceforge.net/projects/softpixeleditor/)
 
 ## Building

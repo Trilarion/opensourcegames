@@ -12,6 +12,4 @@
 - Assets license: (See relevant asset folders)
 - Developer: Stephen Carlyle-Smith
 
-3D Space Combat Game.
-
 ## Building

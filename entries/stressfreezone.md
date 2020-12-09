@@ -10,7 +10,7 @@
 - Code dependency: Lugre
 - Developer: Mark Saward, Robert Noll
 
-Space simulation focused on cooperative (non-massive)-multiplayer and intuitive gameplay, that is fun to play in short bursts, e.g. on LAN parties.
+Focused on cooperative (non-massive)-multiplayer and intuitive gameplay, that is fun to play in short bursts, e.g. on LAN parties.
 
 ## Building
 

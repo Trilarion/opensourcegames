@@ -8,8 +8,6 @@
 - Code language: C, C++
 - Code license: GPL-3.0
 
-Remake of GoldenEye 007.
-
 ## Building
 
 - Build system: CMake

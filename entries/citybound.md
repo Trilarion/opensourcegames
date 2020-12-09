@@ -9,6 +9,4 @@
 - Code language: Rust, JavaScript
 - Code license: AGPL-3.0
 
-Clone of Simcity.
-
 ## Building

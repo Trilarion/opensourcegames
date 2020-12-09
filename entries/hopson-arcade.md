@@ -10,6 +10,4 @@
 - Code license: GPL-3.0
 - Code dependency: SFML
 
-Remake of Space Invaders and other small arcade games.
-
 ## Building

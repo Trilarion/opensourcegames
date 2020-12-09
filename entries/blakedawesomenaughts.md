@@ -9,6 +9,4 @@
 - Code language: JavaScript, PHP
 - Code license: MIT
 
-Remake of Awesomenauts.
-
 ## Building

@@ -12,6 +12,6 @@
 - Assets license: CC-BY-SA-3.0
 - Developer: Tangram
 
-Arcade game where you rescue people from a burning building.
+Rescue people from a burning building.
 
 ## Building

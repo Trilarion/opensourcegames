@@ -10,7 +10,6 @@
 - Code language: C
 - Code license: GPL-2.0
 
-Remake of Quake.
-svn not accessible
+SVN repository not accessible
 
 ## Building

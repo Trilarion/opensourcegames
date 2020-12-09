@@ -1,6 +1,7 @@
 # SpaceTrader for Java
 
 - Home: https://sourceforge.net/projects/spacetraderjava/
+- Inspiration: Space Trader
 - State: mature, inactive since 2010
 - Download: https://sourceforge.net/projects/spacetraderjava/files
 - Keyword: strategy
@@ -8,6 +9,6 @@
 - Code language: Java
 - Code license: GPL-2.0
 
-Java port of the Palm game Space Trader. This port is based upon the C# port at Space Trader for Windows.
+This port is based upon the C# port at Space Trader for Windows.
 
 ## Building

@@ -9,8 +9,6 @@
 - Code language: C++
 - Code license: MIT
 
-Cocos2d-x is an open-source game framework written in C++.
-
 ## Building
 
 - Build system: CMake

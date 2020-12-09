@@ -1,6 +1,7 @@
 # Pioneers
 
 - Home: https://sourceforge.net/projects/pio/, http://pio.sourceforge.net/
+- Inspiration: Settlers of Catan
 - State: mature
 - Download: https://sourceforge.net/projects/pio/files
 - Keyword: board, strategy

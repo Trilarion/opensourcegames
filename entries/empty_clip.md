@@ -10,6 +10,4 @@
 - Code dependency: SDL2
 - Developer: Alan Witkowski
 
-Top down shooter.
-
 ## Building

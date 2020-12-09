@@ -13,6 +13,4 @@
 - Code dependency: Torque 3D
 - Assets license: ? (CC0)
 
-Clone of ARMA: Armed Assault, ARMA 2, ARMA 3.
-
 ## Building

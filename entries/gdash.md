@@ -9,6 +9,6 @@
 - Code language: C++
 - Code license: MIT
 
-A Boulder Dash clone which is as close to the original as possible.
+As close to the original as possible.
 
 ## Building

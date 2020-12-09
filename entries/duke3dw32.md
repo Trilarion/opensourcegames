@@ -10,6 +10,4 @@
 - Code license: GPL-2.0
 - Code dependency: SDL
 
-Remake of Duke Nukem 3D.
-
 ## Building

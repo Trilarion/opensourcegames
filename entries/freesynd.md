@@ -9,8 +9,6 @@
 - Code language: C++
 - Code license: GPL-2.0
 
-Reimplementation of the classic Bullfrog game, Syndicate.
-
 ## Building
 
 - Build system: CMake

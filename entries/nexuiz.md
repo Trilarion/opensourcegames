@@ -5,12 +5,10 @@
 - State: mature
 - Download: https://sourceforge.net/projects/nexuiz/files/
 - Platform: Windows
-- Keyword: action, shooter
+- Keyword: action, shooter, first person
 - Code repository: http://svn.icculus.org/nexuiz/trunk/ (svn)
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: DarkPlaces (Quake engine https://github.com/xonotic/darkplaces)
-
-First-person shooter video game.
 
 ## Building

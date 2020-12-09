@@ -11,6 +11,4 @@
 - Code license: GPL-3.0
 - Code dependency: SDL2
 
-Clone of Gunpoint.
-
 ## Building

@@ -10,6 +10,4 @@
 - Code license: GPL-3.0
 - Assets license: None
 
-Fun puzzle games that run on any terminal.
-
 ## Building

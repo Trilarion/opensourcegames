@@ -9,8 +9,6 @@
 - Code license: MIT
 - Developer: Kriss (xriss@GH, xixs@BB)
 
-Single exe cross platform game engine using Lua.
-
 ## Building
 
 - Build system: Make

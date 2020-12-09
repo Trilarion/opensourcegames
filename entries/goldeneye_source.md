@@ -9,7 +9,6 @@
 - Code license: GPL-3.0
 - Code dependency: Source SDK
 
-Remake of GoldenEye 007.
 GoldenEye: Source is a multiplayer only total conversion modification of Half-Life 2.
 
 ## Building

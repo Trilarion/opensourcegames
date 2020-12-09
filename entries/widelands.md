@@ -10,7 +10,7 @@
 - Code language: C, C++, Lua, Python
 - Code license: GPL-2.0
 
-Real-time strategy game with singleplayer campaigns and a multiplayer mode.
+Singleplayer campaigns and a multiplayer mode.
 
 ## Building
 

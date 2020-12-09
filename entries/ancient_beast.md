@@ -9,6 +9,4 @@
 - Code license: AGPL-3.0
 - Code dependency: Phaser
 
-Turn based strategy indie game project.
-
 ## Building

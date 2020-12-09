@@ -9,6 +9,4 @@
 - Code language: C, C++
 - Code license: GPL-3.0
 
-Remake of Cannon Fodder.
-
 ## Building

@@ -10,6 +10,4 @@
 - Assets license: ? (GPL)
 - Developer: HoleInTheHeadStudios (Team Quicksilver)
 
-Real-time strategy game board game.
-
 ## Building

@@ -9,7 +9,6 @@
 - Code license: MIT
 - Code dependency: Allegro
 
-Remake of Achtung, die Kurve!.
 Also see Netacka 3D (home).
 
 ## Building

@@ -1,6 +1,7 @@
 # MUSoSu
 
 - Home: http://musosu.sourceforge.net/en/index.html, https://sourceforge.net/projects/musosu/
+- Inspiration: Sudoku
 - State: beta, inactive since 2008
 - Download: https://sourceforge.net/projects/musosu/files/MUSoSu/
 - Keyword: adventure, sudoku

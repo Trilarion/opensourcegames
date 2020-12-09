@@ -8,8 +8,6 @@
 - Code language: C++
 - Code license: 3-clause BSD
 
-Remake of Outpost.
-
 ## Building
 
 - Build system: Make

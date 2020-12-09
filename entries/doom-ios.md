@@ -9,7 +9,4 @@
 - Code language: C++
 - Code license: GPL-2.0
 
-Remake of Doom, Doom II, Heretic, Hexen.
-iOS
-
 ## Building

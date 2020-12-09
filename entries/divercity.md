@@ -8,6 +8,4 @@
 - Code language: Java
 - Code license: GPL-3.0
 
-Clone of Simcity and based on micropolis.
-
 ## Building

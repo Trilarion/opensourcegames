@@ -11,8 +11,6 @@
 - Code license: GPL-3.0
 - Assets license: CC-BY-SA
 
-Clone of Crimsonland.
-
 ## Building
 
 - Build system: CMake

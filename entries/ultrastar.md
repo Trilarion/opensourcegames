@@ -2,6 +2,7 @@
 
 - Home: https://sourceforge.net/projects/ultrastar/
 - Media: https://en.wikipedia.org/wiki/UltraStar
+- Inspiration: SingStar
 - State: mature, inactive since 2010
 - Download: https://sourceforge.net/projects/ultrastar/files/
 - Platform: Windows

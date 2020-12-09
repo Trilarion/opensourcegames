@@ -10,6 +10,4 @@
 - Assets license: ? (GPL)
 - Developer: Vianney Lecroart
 
-Online multiplayer action game.
-
 ## Building

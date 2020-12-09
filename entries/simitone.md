@@ -8,7 +8,6 @@
 - Code language: C#
 - Code license: MPL-2.0
 
-Remake of The Sims.
-Simitone is a singleplayer only version of FreeSO.
+Singleplayer only version of FreeSO.
 
 ## Building

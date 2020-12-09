@@ -10,7 +10,6 @@
 - Code language: C, C++
 - Code license: GPL-2.0
 
-Remake of Commander Keen Series.
 Many different repositories on Github with different licenses.
 
 ## Building

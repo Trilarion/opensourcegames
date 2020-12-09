@@ -5,13 +5,11 @@
 - State: beta
 - Download: https://f-droid.org/packages/dev.lonami.klooni/
 - Platform: Android
-- Keyword: puzzle
+- Keyword: puzzle, clone
 - Code repository: https://github.com/LonamiWebs/Klooni1010.git
 - Code language: Java
 - Code license: GPL-3.0
 - Code dependency: libGDX
-
-Clone of the puzzle game 1010!
 
 ## Building
 

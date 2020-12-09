@@ -8,8 +8,6 @@
 - Code language: C++
 - Code license: zlib
 
-Remake of Cube 2: Sauerbraten.
-
 ## Building
 
 - Build system: Make

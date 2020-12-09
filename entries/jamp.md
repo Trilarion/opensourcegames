@@ -10,6 +10,6 @@
 - Assets license: GPL-3.0
 - Developer: David Perrenoud
 
-Physics puzzle game with a squirrel character inside a wheel-like cage.
+Game with a squirrel character inside a wheel-like cage.
 
 ## Building

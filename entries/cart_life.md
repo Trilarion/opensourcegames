@@ -11,7 +11,7 @@
 - Code license: Custom (permissive)
 - Code dependency: Adventure Game Studio
 
-Simulation game on a pixel-grid in grayscale, with minimal detail.
+On a pixel-grid in grayscale, with minimal detail.
 
 ## Building
 

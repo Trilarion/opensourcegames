@@ -8,6 +8,4 @@
 - Code language: Rust
 - Code license: MIT
 
-Clone of Gorillas.
-
 ## Building

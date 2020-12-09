@@ -10,6 +10,4 @@
 - Code language: C#
 - Code license: ?
 
-Remake of Stars!.
-
 ## Building

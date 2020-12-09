@@ -9,8 +9,6 @@
 - Code language: C, C++
 - Code license: Custom (restrictive)
 
-Game engine
-
 ## Building
 
 - Build system: Make

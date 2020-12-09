@@ -9,6 +9,4 @@
 - Code language: BlitzMax, Lua
 - Code license: Custom (similar to MIT, Apache)
 
-A fan remake of MadTV.
-
 ## Building

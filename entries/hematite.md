@@ -9,6 +9,4 @@
 - Code license: MIT
 - Code dependency: Piston
 
-Remake of Minecraft.
-
 ## Building

@@ -7,6 +7,4 @@
 - Code language: Python
 - Code license: MIT
 
-2D action adventure game engine.
-
 ## Building

@@ -10,6 +10,4 @@
 - Code language: C#
 - Code license: Public domain
 
-Clone of BVE Trainsim.
-
 ## Building

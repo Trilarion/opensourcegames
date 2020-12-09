@@ -10,6 +10,4 @@
 - Code language: C++
 - Code license: GPL-3.0
 
-Remake of Cytadela, an Amiga first person shooter from 1990's. Doom or Wolf 3D clone.
-
 ## Building

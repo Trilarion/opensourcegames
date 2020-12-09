@@ -12,6 +12,4 @@
 - Code license: MPL-2.0
 - Code dependency: Game Maker
 
-Multiplayer 'demake' of Team Fortress 2.
-
 ## Building

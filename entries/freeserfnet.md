@@ -8,8 +8,6 @@
 - Code language: C#
 - Code license: GPL-3.0
 
-Remake of The Settlers.
-
 ## Building
 
 - Build system: Visual Studio solution

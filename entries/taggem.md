@@ -8,6 +8,4 @@
 - Code language: JavaScript
 - Code license: AGPL-3.0
 
-Browser based roguelike.
-
 ## Building

@@ -8,7 +8,6 @@
 - Code language: C, C++
 - Code license: GPL-3.0
 
-Remake of Bard's Tale Contruction Set.
 Does it require original content?
 
 ## Building

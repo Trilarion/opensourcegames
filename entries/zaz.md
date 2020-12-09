@@ -11,8 +11,6 @@
 - Code license: GPL-3.0
 - Code dependency: SDL
 
-Remake of Zuma.
-
 ## Building
 
 - Build system: Autoconf

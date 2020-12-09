@@ -4,13 +4,11 @@
 - Inspiration: Doom
 - State: beta
 - Platform: Windows
-- Keyword: game engine, remake
+- Keyword: game engine, clone, remake
 - Code repository: https://github.com/amroibrahim/DIYDoom.git
 - Code language: C++
 - Code license: MIT
 - Code dependency: SDL2
-
-A DOOM clone engine.
 
 ## Building
 

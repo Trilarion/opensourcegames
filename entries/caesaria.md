@@ -5,12 +5,10 @@
 - State: beta
 - Download: https://bitbucket.org/dalerank/caesaria/wiki/Releases
 - Platform: Windows, Linux, macOS
-- Keyword: remake, strategy
+- Keyword: remake, strategy, city, simulation
 - Code repository: https://bitbucket.org/dalerank/caesaria.git, https://github.com/dalerank/caesaria-game.git
 - Code language: C++, JavaScript
 - Code license: GPL-3.0
-
-Remake of the popular citybuilder/economic strategy - Caesar III, videogame by Empressions Games.
 
 ## Building
 

@@ -8,8 +8,6 @@
 - Code language: C, C++
 - Code license: MIT
 
-General purpose game framework.
-
 ## Building
 
 - Build system: premake

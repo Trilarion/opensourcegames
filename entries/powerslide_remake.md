@@ -10,8 +10,6 @@
 - Code license: MIT
 - Code dependency: OGRE, SFML
 
-Remake of Powerslide.
-
 ## Building
 
 - Build system: CMake

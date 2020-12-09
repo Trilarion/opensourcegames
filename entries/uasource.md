@@ -9,8 +9,6 @@
 - Code license: GPL-2.0
 - Code dependency: SDL
 
-Remake of Urban Assault.
-
 ## Building
 
 - Build system: Make

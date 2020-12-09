@@ -11,6 +11,4 @@
 - Code license: 2-clause BSD
 - Code dependency: WebGL
 
-Remake of Tomb Raider.
-
 ## Building

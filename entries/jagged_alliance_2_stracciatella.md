@@ -8,6 +8,6 @@
 - Code language: C, C++
 - Code license: Custom (various)
 
-An improved, cross-platform, stable Jagged Alliance 2 runtime.
+Jagged Alliance 2 runtime.
 
 ## Building

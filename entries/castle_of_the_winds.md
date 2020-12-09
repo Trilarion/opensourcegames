@@ -10,7 +10,6 @@
 - Code language: JavaScript
 - Code license: MIT
 
-Remake of the original.
 See also Castle of the Winds in Elm.
 
 ## Building

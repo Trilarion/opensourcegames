@@ -70,17 +70,9 @@ framework_keywords = ('framework', 'library', 'tool')
 
 # known programming languages, anything else will result in a warning during a maintenance operation
 # only these will be used when gathering statistics
-known_languages = (
-    'AGS Script', 'ActionScript', 'Ada', 'AngelScript', 'Assembly', 'Basic', 'Blender Script', 'BlitzMax', 'C', 'C#',
-    'C++', 'Clojure', 'CoffeeScript', 'ColdFusion', 'D', 'DM', 'Dart', 'Dia', 'Elm', 'Emacs Lisp', 'F#', 'GDScript',
-    'Game Maker Script', 'Go', 'Groovy', 'Haskell', 'Haxe', 'Io', 'Java', 'JavaScript', 'Kotlin', 'Lisp', 'Lua',
-    'MegaGlest Script', 'MoonScript', 'None', 'OCaml', 'Objective-C', 'PHP', 'Pascal', 'Perl', 'Python', 'QuakeC', 'R',
-    "Ren'Py", 'Ruby', 'Rust', 'Scala', 'Scheme', 'Script', 'Shell', 'Swift', 'TorqueScript', 'TypeScript', 'Vala',
-    'Visual Basic', 'XUL', 'ZenScript', 'ooc', '?')
-
 language_urls = {
     'AGS Script': 'https://en.wikipedia.org/wiki/Adventure_Game_Studio',
-    'Action Script': 'https://en.wikipedia.org/wiki/ActionScript',
+    'ActionScript': 'https://en.wikipedia.org/wiki/ActionScript',
     'Ada': 'https://en.wikipedia.org/wiki/Ada_(programming_language)',
     'AngelScript': 'https://en.wikipedia.org/wiki/AngelScript',
     'Assembly': 'https://en.wikipedia.org/wiki/Assembly_language',
@@ -90,8 +82,51 @@ language_urls = {
     'C': 'https://en.wikipedia.org/wiki/C_(programming_language)',
     'C#': 'https://en.wikipedia.org/wiki/C_Sharp_(programming_language)',
     'C++': 'https://en.wikipedia.org/wiki/C%2B%2B',
-    'Clojure': 'https://en.wikipedia.org/wiki/Clojure'
+    'Clojure': 'https://en.wikipedia.org/wiki/Clojure',
+    'CoffeeScript': 'https://en.wikipedia.org/wiki/CoffeeScript',
+    'ColdFusion': 'https://en.wikipedia.org/wiki/ColdFusion_Markup_Language',
+    'D': 'https://en.wikipedia.org/wiki/D_(programming_language)',
+    'DM': 'http://www.byond.com/docs/guide/',
+    'Dart': 'https://en.wikipedia.org/wiki/Dart_(programming_language)',
+    'Elm': 'https://en.wikipedia.org/wiki/Elm_(programming_language)',
+    'Emacs Lisp': 'https://en.wikipedia.org/wiki/Emacs_Lisp',
+    'F#': 'https://en.wikipedia.org/wiki/F_Sharp_(programming_language)',
+    'GDScript': 'https://en.wikipedia.org/wiki/Godot_(game_engine)#Scripting',
+    'Game Maker Script': 'https://en.wikipedia.org/wiki/GameMaker#GameMaker_Language',
+    'Go': 'https://en.wikipedia.org/wiki/Go_(programming_language)',
+    'Groovy': 'https://en.wikipedia.org/wiki/Apache_Groovy',
+    'Haskell': 'https://en.wikipedia.org/wiki/Haskell_(programming_language)',
+    'Haxe': 'https://en.wikipedia.org/wiki/Haxe',
+    'Io': 'https://en.wikipedia.org/wiki/Io_(programming_language)',
+    'Java': 'https://en.wikipedia.org/wiki/Java_(programming_language)',
+    'JavaScript': 'https://en.wikipedia.org/wiki/JavaScript',
+    'Kotlin': 'https://en.wikipedia.org/wiki/Kotlin_(programming_language)',
+    'Lisp': 'https://en.wikipedia.org/wiki/Lisp_(programming_language)',
+    'Lua': 'https://en.wikipedia.org/wiki/Lua_(programming_language)',
+    'MoonScript': 'https://moonscript.org/',
+    'OCaml': 'https://en.wikipedia.org/wiki/OCaml',
+    'Objective-C': 'https://en.wikipedia.org/wiki/Objective-C',
+    'ooc': 'https://ooc-lang.org/',
+    'PHP': 'https://en.wikipedia.org/wiki/PHP',
+    'Pascal': 'https://en.wikipedia.org/wiki/Pascal_(programming_language)',
+    'Perl': 'https://en.wikipedia.org/wiki/Perl',
+    'Python': 'https://en.wikipedia.org/wiki/Python_(programming_language)',
+    'QuakeC': 'https://en.wikipedia.org/wiki/QuakeC',
+    "Ren'Py": 'https://en.wikipedia.org/wiki/Ren%27Py',
+    'Ruby': 'https://en.wikipedia.org/wiki/Ruby_(programming_language)',
+    'Rust': 'https://en.wikipedia.org/wiki/Rust_(programming_language)',
+    'Scala': 'https://en.wikipedia.org/wiki/Scala_(programming_language)',
+    'Scheme': 'https://en.wikipedia.org/wiki/Scheme_(programming_language)',
+    'Swift': 'https://en.wikipedia.org/wiki/Swift_(programming_language)',
+    'TorqueScript': 'https://en.wikipedia.org/wiki/Torque_(game_engine)',
+    'TypeScript': 'https://en.wikipedia.org/wiki/TypeScript',
+    'Vala': 'https://en.wikipedia.org/wiki/Vala_(programming_language)',
+    'Visual Basic': 'https://en.wikipedia.org/wiki/Visual_Basic',
+    'XUL': 'https://en.wikipedia.org/wiki/XUL',
+    'ZenScript': 'https://github.com/CraftTweaker/ZenScript'
 }
+
+known_languages = tuple(sorted(list(language_urls.keys()) + ['None', 'Script', 'Shell', '?'], key=str.casefold))
 
 # known licenses, anything outside of this will result in a warning during a maintenance operation
 # only these will be used when gathering statistics

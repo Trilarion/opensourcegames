@@ -2,7 +2,7 @@
 
 - Home: http://sheep.art.pl/Fujo
 - State: mature, inactive since 2014
-- Keyword: role playing
+- Keyword: role playing, roguelike
 - Code repository: https://gitlab.com/osgames/fujo.git
 - Code language: Python
 - Code license: CC-BY-SA-4.0

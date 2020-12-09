@@ -10,7 +10,7 @@
 - Assets license: GPL-3.0
 - Developer: Linley Henzell
 
-Real-time strategy game about escaping from a hostile computer system, by designing and building units sufficient to the task.
+About escaping from a hostile computer system, by designing and building units sufficient to the task.
 
 ## Building
 

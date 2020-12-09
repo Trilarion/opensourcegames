@@ -9,6 +9,4 @@
 - Code license: 2-clause BSD
 - Code dependency: SDL
 
-Abstract shootem up.
-
 ## Building

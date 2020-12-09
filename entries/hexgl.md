@@ -11,6 +11,4 @@
 - Code license: MIT
 - Code dependency: WebGL
 
-Clone of Wipeout.
-
 ## Building

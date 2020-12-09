@@ -1,7 +1,7 @@
 # LBreakoutHD
 
 - Home: http://lgames.sourceforge.net/LBreakoutHD/, https://sourceforge.net/projects/lgames/
-- Inspiration: Breakout
+- Inspiration: Breakout, LBreakout2
 - State: mature
 - Download: https://sourceforge.net/projects/lgames/files/lbreakouthd/
 - Platform: Linux

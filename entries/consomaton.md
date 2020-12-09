@@ -11,6 +11,6 @@
 - Code dependency: Node.js
 - Developer: Kenta Cho (ABA)
 
-Puzzle game revolving around cellular automata.
+Revolving around cellular automata.
 
 ## Building

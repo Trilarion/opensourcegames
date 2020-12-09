@@ -9,6 +9,4 @@
 - Code language: Java
 - Code license: GPL-2.0
 
-Grand Strategy Game
-
 ## Building

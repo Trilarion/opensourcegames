@@ -8,7 +8,7 @@
 - Code language: C++
 - Code license: GPL-2.0
 
-Futuristic real time strategy game (RTS).
+Futuristic real time strategy game.
 Code repository not available (https://www.boswars.org/development.shtml).
 
 ## Building

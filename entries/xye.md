@@ -12,8 +12,6 @@
 - Assets license: Custom free license
 - Developer: Victor Hugo Soliz Kuncar
 
-Puzzle game similar to Sokoban but it includes Arcade elements.
-
 ## Building
 
 - Build system: Make

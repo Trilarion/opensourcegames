@@ -10,7 +10,7 @@
 - Code dependency: Modified Stratagus
 - Assets license: CC0, GPL-2.0 (some music and sound from Battle for Wesnoth)
 
-Strategy game which features elements of mythology, history and fiction.
+Features elements of mythology, history and fiction.
 
 ## Building
 

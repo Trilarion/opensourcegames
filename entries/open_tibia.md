@@ -1,6 +1,7 @@
 # Open Tibia
 
 - Home: https://github.com/opentibia, https://sourceforge.net/projects/opentibia/
+- Inspiration: Tibia
 - State: beta, inactive since 2014
 - Download: https://sourceforge.net/projects/opentibia/files/
 - Keyword: role playing
@@ -8,7 +9,6 @@
 - Code language: C++
 - Code license: GPL-2.0
 
-Remake of Tibia
 Based on [Tibia](https://tibia.fandom.com/wiki/CipSoft_GmbH).
 
 ## Building

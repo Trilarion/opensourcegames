@@ -10,7 +10,6 @@
 - Code language: JavaScript
 - Code license: MIT
 
-Remake of Elements.
 See also https://elementsthegame.fandom.com/wiki/Elements_the_Game_Wiki
 
 ## Building

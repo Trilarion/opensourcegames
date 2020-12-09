@@ -10,6 +10,4 @@
 - Code dependency: .NET, DirectX
 - Developer: Pascal von der Heiden
 
-Top-down Arcade shooter.
-
 ## Building

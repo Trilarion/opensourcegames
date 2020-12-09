@@ -9,6 +9,4 @@
 - Code license: MIT
 - Code dependency: SDL
 
-Remake of Bomberman.
-
 ## Building

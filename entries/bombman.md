@@ -10,6 +10,4 @@
 - Code dependency: pygame
 - Assets license: CC0
 
-Remake of Atomic Bomberman.
-
 ## Building

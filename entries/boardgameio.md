@@ -8,7 +8,6 @@
 - Code language: JavaScript, TypeScript
 - Code license: MIT
 
-Engine for turn based games.
 Notable probjects: https://boardgame.io/documentation/#/notable_projects
 Platform: https://github.com/freeboardgames/FreeBoardGames.org
 

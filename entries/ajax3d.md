@@ -11,6 +11,4 @@
 - Code license: GPL-2.0
 - Developer: Eben Upton
 
-Remake of Zarch.
-
 ## Building

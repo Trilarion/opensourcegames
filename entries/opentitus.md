@@ -10,7 +10,6 @@
 - Code license: GPL-3.0
 - Code dependency: SDL
 
-Remake of Titus the Fox.
 SVN of project is gone and Git is older than releases, take from download page maybe?
 
 ## Building

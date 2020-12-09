@@ -11,7 +11,6 @@
 - Code language: C, C++
 - Code license: MIT
 
-Remake of One Must Fall: 2097.
 single player, 2 player and network play work, content from omf2097.com
 
 ## Building

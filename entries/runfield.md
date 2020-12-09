@@ -4,13 +4,13 @@
 - State: mature, inactive since 2011
 - Play: http://fhtr.org/runfield/
 - Platform: Web
-- Keyword: arcade, open content
+- Keyword: arcade, open content, 2D
 - Code repository: https://github.com/kig/runfield.git
 - Code language: JavaScript
 - Code license: GPL-3.0
 - Assets license: ? (MPL/GPL/LGPL)
 - Developer: Mozilla, Paul Rouget
 
-Simple 2D game where you control a fox and try to run as long as you can, jumping over the holes in the field.
+Control a fox and try to run as long as you can, jumping over the holes in the field.
 
 ## Building

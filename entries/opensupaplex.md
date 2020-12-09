@@ -10,8 +10,6 @@
 - Code license: GPL-3.0
 - Code dependency: SDL2
 
-Remake of Supaplex.
-
 ## Building
 
 - Build system: Make

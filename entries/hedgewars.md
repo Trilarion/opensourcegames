@@ -11,8 +11,6 @@
 - Code license: GPL-2.0
 - Code dependency: Qt, SDL
 
-Clone of Worms Series.
-
 ## Building
 
 - Build system: CMake

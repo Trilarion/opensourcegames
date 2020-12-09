@@ -9,6 +9,5 @@
 - Code language: C
 - Code license: MIT
 
-Clone of Fire Power.
 
 ## Building

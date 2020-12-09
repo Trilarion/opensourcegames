@@ -10,7 +10,7 @@
 - Code language: C++, AngelScript, JavaScript
 - Code license: GPL-3.0
 
-Similar of Spore. Only the Microbe stage is playable now. Really open content?
+Only the Microbe stage is playable now. Really open content?
 
 ## Building
 

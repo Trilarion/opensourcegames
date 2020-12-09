@@ -10,8 +10,6 @@
 - Code license: GPL-2.0
 - Developer: Anton Norup Sørensen
 
-Flight simulator.
-
 ## Building
 
 - Build system: Make

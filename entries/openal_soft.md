@@ -8,7 +8,7 @@
 - Code language: C
 - Code license: LGPL-2.0
 
-Software implementation of the OpenAL 3D audio API.
+Implementation of the OpenAL 3D audio API.
 
 ## Building
 

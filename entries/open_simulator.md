@@ -1,6 +1,7 @@
 # Open Simulator
 
 - Home: http://opensimulator.org/wiki/Main_Page
+- Inspiration: Second Life
 - State: beta
 - Download: http://opensimulator.org/wiki/Download
 - Keyword: adventure, open content

@@ -12,6 +12,4 @@
 - Assets license: (See readme)
 - Developer: Stephen Carlyle-Smith
 
-3D Horror FPS Game.
-
 ## Building

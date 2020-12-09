@@ -8,6 +8,4 @@
 - Code license: MIT
 - Code dependency: SFML
 
-Game framework.
-
 ## Building

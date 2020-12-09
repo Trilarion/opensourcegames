@@ -11,8 +11,7 @@
 - Code license: GPL-2.0
 - Code dependency: SDL
 
-Hacked Hexen
-Also includes HHeretic
+Hacked Hexen. Also includes HHeretic.
 
 ## Building
 

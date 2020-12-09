@@ -10,8 +10,6 @@
 - Code language: C++
 - Code license: GPL-2.0, LGPL-2.1, zlib, MIT, IJG, Public domain
 
-Remake of Wolfenstein 3D, Spear of Destiny.
-
 ## Building
 
 - Build system: CMake

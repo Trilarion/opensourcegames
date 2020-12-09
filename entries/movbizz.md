@@ -9,6 +9,4 @@
 - Code license: MIT
 - Code dependency: Laravel
 
-Remake of Movie Business.
-
 ## Building

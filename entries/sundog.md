@@ -11,7 +11,6 @@
 - Code license: MIT
 - Code dependency: SDL
 
-Remake of SunDog: Frozen Legacy.
-The game was originally written in Pascal and compiled to bytecode for an abstract architecture. This project implements a bytecode interpreter in C, which runs the game.
+Originally written in Pascal and compiled to bytecode for an abstract architecture. Implements a bytecode interpreter in C, which runs the game.
 
 ## Building

@@ -4,12 +4,10 @@
 - Media: https://en.wikipedia.org/wiki/Godot_(game_engine)
 - State: mature
 - Download: https://godotengine.org/download
-- Keyword: framework
+- Keyword: framework, 2D, 3D
 - Code repository: https://github.com/godotengine/godot.git
 - Code language: C, C++
 - Code license: MIT
-
-Multi-platform 2D and 3D open source game engine.
 
 ## Building
 

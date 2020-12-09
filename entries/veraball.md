@@ -12,6 +12,4 @@
 - Code dependency: Godot
 - Assets license: CC-BY-SA-3.0
 
-Remake of Super Monkey Ball.
-
 ## Building

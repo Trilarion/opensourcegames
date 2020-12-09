@@ -10,8 +10,6 @@
 - Code license: GPL-2.0
 - Code dependency: OGRE
 
-Remake of Final Fantasy VII.
-
 ## Building
 
 - Build system: CMake

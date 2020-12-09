@@ -9,8 +9,6 @@
 - Code license: GPL-3.0
 - Code dependency: SDL
 
-Clone of Sokoban.
-
 ## Building
 
 - Build system: CMake

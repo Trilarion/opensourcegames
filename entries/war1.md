@@ -9,6 +9,4 @@
 - Code license: zlib
 - Code dependency: OpenGL
 
-Remake of Warcraft: Orcs & Humans.
-
 ## Building

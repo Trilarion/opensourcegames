@@ -8,8 +8,6 @@
 - Code language: C++
 - Code license: zlib
 
-Remake of Portal.
-
 ## Building
 
 - Build system: CMake

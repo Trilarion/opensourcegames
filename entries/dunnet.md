@@ -9,6 +9,6 @@
 - Code license: GPL-3.0
 - Developer: Ron Schnell
 
-Text adventure game included in Emacs.
+Included in Emacs.
 
 ## Building

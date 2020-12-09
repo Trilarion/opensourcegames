@@ -12,8 +12,6 @@
 - Code license: MIT
 - Code dependency: JBox2D
 
-Remake of Tricky Towers.
-
 ## Building
 
 - Build instruction: Import into your favourite Java IDE. All dependencies are included.

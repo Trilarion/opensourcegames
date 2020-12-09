@@ -8,7 +8,6 @@
 - Code language: C++
 - Code license: LGPL-3.0
 
-Remake of Might and Magic 6-8 game engine.
 Based on original executable decompilation. Allows to play any of the original games built using it.
 
 ## Building

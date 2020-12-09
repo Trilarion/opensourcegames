@@ -9,6 +9,4 @@
 - Code language: TypeScript
 - Code license: MIT
 
-Remake of Star Wars: Yoda Stories.
-
 ## Building

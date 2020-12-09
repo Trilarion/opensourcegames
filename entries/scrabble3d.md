@@ -1,6 +1,7 @@
 # Scrabble3D
 
 - Home: http://scrabble.sourceforge.net/wiki/, https://sourceforge.net/projects/scrabble/
+- Inspiration: Scrabble
 - State: mature, inactive since 2015
 - Platform: Windows, Linux, macOS
 - Keyword: board, strategy
@@ -8,6 +9,6 @@
 - Code language: Pascal
 - Code license: GPL-3.0
 
-Board game with the goal to place letters on the board like in crosswords.
+Place letters on the board like in crosswords.
 
 ## Building

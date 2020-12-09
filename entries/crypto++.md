@@ -9,6 +9,6 @@
 - Code language: C++
 - Code license: Boost-1.0
 
-C++ class library of cryptographic schemes.
+Library of cryptographic schemes.
 
 ## Building

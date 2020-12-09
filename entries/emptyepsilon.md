@@ -11,8 +11,6 @@
 - Code license: GPL-2.0
 - Code dependency: SFML
 
-Clone of Artemis: Spaceship Bridge Simulator.
-
 ## Building
 
 - Build system: CMake

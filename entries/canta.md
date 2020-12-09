@@ -11,6 +11,4 @@
 - Assets license: GPL-2.0 (fonts)
 - Developer: Andreas Kattner, Stefan Huchler, Felix Rodriguez Lopez
 
-Karaoke game.
-
 ## Building

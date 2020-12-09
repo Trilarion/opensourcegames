@@ -9,7 +9,7 @@
 - Code language: C#
 - Code license: MS-PL, MIT
 
-Open Source implementation of the Microsoft XNA 4 Framework.
+Implementation of the Microsoft XNA 4 Framework.
 
 ## Building
 

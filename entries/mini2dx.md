@@ -4,7 +4,7 @@
 - State: mature
 - Download: https://mini2dx.org/downloads.html, https://github.com/mini2Dx/mini2Dx/releases
 - Platform: Windows, Linux, macOS
-- Keyword: game engine
+- Keyword: game engine, 2D
 - Code repository: https://github.com/mini2Dx/mini2Dx.git
 - Code language: Java, C#
 - Code license: Apache-2.0

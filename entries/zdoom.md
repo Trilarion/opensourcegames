@@ -10,7 +10,6 @@
 - Code language: C, C++, ZenScript
 - Code license: GPL-3.0
 
-Remake of Doom, Doom II, Heretic, Hexen.
 Maybe ZDoom and GZDoom should be splitted.
 
 ## Building

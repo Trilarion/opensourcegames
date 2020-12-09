@@ -10,7 +10,6 @@
 - Code license: GPL-2.0
 - Assets license: GPL-2.0
 
-Racing game which forked off Tux Racer.
 It was formerly known as Planet Penguin Racer. (https://wiki.debian.org/Games/ppracer).
 
 ## Building

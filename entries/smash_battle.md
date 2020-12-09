@@ -9,6 +9,4 @@
 - Code language: C++
 - Code license: ?
 
-Old skool, 2D, platform, shootem action.
-
 ## Building

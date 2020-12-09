@@ -11,6 +11,4 @@
 - Code license: MIT
 - Code dependency: MonoGame
 
-Final Fantasy VIII game engine rewrite.
-
 ## Building

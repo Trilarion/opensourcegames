@@ -9,6 +9,4 @@
 - Code dependency: Qt
 - Developer: Graeme Gott
 
-Jigsaw puzzle game.
-
 ## Building

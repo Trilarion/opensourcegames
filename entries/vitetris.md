@@ -10,8 +10,6 @@
 - Code language: C
 - Code license: 2-clause BSD
 
-Remake of Tetris.
-
 ## Building
 
 - Build system: Make

@@ -10,8 +10,6 @@
 - Code language: C++
 - Code license: GPL-3.0
 
-Remake of Minecraft.
-
 ## Building
 
 - Build system: CMake

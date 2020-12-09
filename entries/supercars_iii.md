@@ -9,6 +9,4 @@
 - Code language: Java
 - Code license: ? (JRL)
 
-Remake of Super Cars.
-
 ## Building

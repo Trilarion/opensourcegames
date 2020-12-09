@@ -11,6 +11,4 @@
 - Assets license: Public domain
 - Developer: Jason Rohrer
 
-Puzzle game.
-
 ## Building

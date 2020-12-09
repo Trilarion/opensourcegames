@@ -11,6 +11,4 @@
 - Code license: MIT (https://github.com/BrooklynKing/Grimsonland/blob/master/package.json)
 - Code dependency: Phaser
 
-Clone of Crimsonland.
-
 ## Building

@@ -9,7 +9,6 @@
 - Code language: C#
 - Code license: MIT
 
-Clone of Super Mario.
 Includes a level editor. is it related to https://archive.codeplex.com/?p=mario
 
 ## Building

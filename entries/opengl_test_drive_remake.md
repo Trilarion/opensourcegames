@@ -9,6 +9,4 @@
 - Code license: GPL-3.0
 - Code dependency: OpenGL
 
-Remake of Test Drive.
-
 ## Building

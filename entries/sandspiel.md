@@ -12,6 +12,4 @@
 - Code dependency: WebGL
 - Developer: Max Bittker
 
-Clone of Powder Game.
-
 ## Building

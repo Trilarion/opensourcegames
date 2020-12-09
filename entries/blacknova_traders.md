@@ -1,9 +1,11 @@
 # BlackNova Traders
 
 - Home: https://sourceforge.net/projects/blacknova/, https://blacknova.net/
+- Inspiration: TradeWars
 - State: beta, inactive since 2012
 - Download: https://sourceforge.net/projects/blacknova/files
-- Keyword: strategy
+- Platform: Web
+- Keyword: strategy, space, multiplayer online
 - Code repository: https://gitlab.com/osgames/blacknova.git (backup of svn), https://svn.code.sf.net/p/blacknova/code (svn)
 - Code language: PHP, JavaScript
 - Code license: GPL-2.0

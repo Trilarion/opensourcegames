@@ -13,6 +13,6 @@
 - Code dependency: Doom, Pillow
 - Assets license: 3-clause BSD
 
-Open content for the Doom.
+Open content for Doom.
 
 ## Building

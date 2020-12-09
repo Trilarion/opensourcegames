@@ -11,7 +11,6 @@
 - Code license: MIT
 - Code dependency: .NET
 
-Clone of Osu! Tatakae! Ouendan, Taiko no Tatsujin, Beatmania IIDX.
 See also: https://github.com/itdelatrisu/opsu, https://github.com/fluddokt/opsu, https://github.com/AnirudhRahul/opsu-Android
 
 ## Building

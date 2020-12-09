@@ -10,7 +10,6 @@
 - Code language: C
 - Code license: GPL-2.0
 
-A turn-based strategy engine heavily inspired by Panzer General.
 May require original game content.
 
 Part of LGames.

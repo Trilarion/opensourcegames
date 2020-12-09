@@ -10,7 +10,6 @@
 - Code language: C++
 - Code license: GPL-2.0
 
-A remake of Ultima IV.
 Ultima 4 is now [freely available](https://www.gog.com/game/ultima_4).
 
 ## Building

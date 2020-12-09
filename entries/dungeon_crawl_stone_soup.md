@@ -1,6 +1,7 @@
 # Dungeon Crawl Stone Soup
 
 - Home: http://crawl.develz.org/
+- Inspiration: Linley's Dungeon Crawl
 - State: mature
 - Download: http://crawl.develz.org/download.htm
 - Keyword: role playing, roguelike

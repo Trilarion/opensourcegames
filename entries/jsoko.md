@@ -12,6 +12,6 @@
 - Assets license: GPL (+credits +no-misrepresentation)
 - Developer: Heiner Marxen, Matthias Meger
 
-Sokobon style puzzle game. It includes an automatic solver and supports different skins.
+It includes an automatic solver and supports different skins.
 
 ## Building

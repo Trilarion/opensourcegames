@@ -12,6 +12,4 @@
 - Code dependency: WinForms
 - Developer: Guy Langston
 
-Sokoban game with enthusiast tools.
-
 ## Building

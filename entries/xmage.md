@@ -9,8 +9,6 @@
 - Code language: Java
 - Code license: MIT
 
-Clone of Magic: The Gathering Online.
-
 ## Building
 
 - Build system: Maven

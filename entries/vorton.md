@@ -12,8 +12,6 @@
 - Code license: GPL-3.0
 - Code dependency: SDL
 
-Remake of Highway Encounter.
-
 ## Building
 
 - Build system: Make

@@ -9,7 +9,6 @@
 - Code language: C
 - Code license: GPL-2.0
 
-Massively Multiplayer On-line Role-playing Game (MMORPG).
 Server code based on [Crossfire](crossfire.md)
 
 ## Building

@@ -11,7 +11,6 @@
 - Code license: GPL-3.0
 - Code dependency: SDL
 
-Remake of Cave Story.
 Does it require original content?
 
 ## Building

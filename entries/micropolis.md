@@ -10,8 +10,6 @@
 - Code license: GPL-3.0
 - Code dependency: PyAMF, pycairo, pygobject, pygtk, SQLAlchemy, TurboGears
 
-Remake of SimCity.
-
 ## Building
 
 - Build system: setup.py

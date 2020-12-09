@@ -10,6 +10,4 @@
 - Code license: LGPL-3.0
 - Code dependency: OGRE
 
-Rewrite for modern architectures of the incredibly good game Ultima Underworld 2: Labyrinth of Worlds.
-
 ## Building

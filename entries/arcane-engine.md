@@ -3,7 +3,7 @@
 - Home: https://github.com/Ershany/Arcane-Engine
 - State: beta
 - Platform: Windows
-- Keyword: library
+- Keyword: library, renderer
 - Code repository: https://github.com/Ershany/Arcane-Engine.git
 - Code language: C++
 - Code license: MIT

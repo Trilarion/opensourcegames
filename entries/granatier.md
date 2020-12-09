@@ -9,6 +9,4 @@
 - Code license: GPL-2.0
 - Code dependency: Qt
 
-Clone of Bomberman.
-
 ## Building

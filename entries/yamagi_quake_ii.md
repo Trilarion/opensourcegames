@@ -10,8 +10,6 @@
 - Code license: GPL-2.0
 - Code dependency: SDL
 
-Remake of Quake 2.
-
 ## Building
 
 - Build system: CMake

@@ -9,7 +9,6 @@
 - Code license: MIT
 - Code dependency: EnTT, SDL2
 
-Clone of Pac-Man.
 An example of how to use the ECS part of the EnTT framework
 
 ## Building

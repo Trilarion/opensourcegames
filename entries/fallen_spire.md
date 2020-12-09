@@ -8,6 +8,4 @@
 - Code license: GPL-3.0
 - Code dependency: Blender game engine, cairo, NumPy, PGU (https://code.google.com/archive/p/pgu/), Pillow, pygame
 
-Role-playing adventure game.
-
 ## Building

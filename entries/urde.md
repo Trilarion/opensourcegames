@@ -10,8 +10,6 @@
 - Code language: C, C++
 - Code license: MIT
 
-Remake of Metroid Prime.
-
 ## Building
 
 - Build system: CMake

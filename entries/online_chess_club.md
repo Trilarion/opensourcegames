@@ -10,6 +10,4 @@
 - Code license: GPL-2.0
 - Developer: Michael Speck
 
-Web chess game.
-
 ## Building

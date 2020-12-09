@@ -10,6 +10,4 @@
 - Code language: JavaScript
 - Code license: GPL-3.0
 
-Clone of VVVVVV.
-
 ## Building

@@ -9,6 +9,4 @@
 - Code license: MIT
 - Code dependency: Phaser, WebGL
 
-Remake of Legend of Zelda - A Link to the Past.
-
 ## Building

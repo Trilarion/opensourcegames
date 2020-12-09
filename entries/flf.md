@@ -10,6 +10,4 @@
 - Code license: CC-BY-NC-SA-3.0 (http://project-f.github.io/license.html)
 - Assets license: Proprietary (https://github.com/Project-F/LF2_19)
 
-Clone of Little Fighter 2.
-
 ## Building

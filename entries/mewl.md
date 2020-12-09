@@ -8,8 +8,6 @@
 - Code language: C++
 - Code license: GPL-2.0
 
-Remake of the classic multiplayer economic strategy game M.U.L.E..
-
 ## Building
 
 custom Makefile

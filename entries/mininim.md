@@ -10,8 +10,6 @@
 - Code license: GPL-3.0
 - Code dependency: Allegro
 
-Remake of Prince of Persia.
-
 ## Building
 
 - Build system: Autoconf

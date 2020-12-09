@@ -10,8 +10,6 @@
 - Code dependency: SDL
 - Assets license: CC-BY-SA-4.0
 
-Clone of Ugh!.
-
 ## Building
 
 - Build system: CMake

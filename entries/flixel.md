@@ -8,6 +8,4 @@
 - Code language: ActionScript
 - Code license: MIT
 
-Game-making library written in ActionScript 3.
-
 ## Building

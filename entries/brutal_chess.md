@@ -10,6 +10,4 @@
 - Code language: C++
 - Code license: GPL-2.0
 
-Inspired by the once popular "Battle Chess" released by Interplay circa 1988.
-
 ## Building

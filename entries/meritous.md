@@ -3,7 +3,7 @@
 - Home: http://www.asceai.net/meritous/
 - Media: https://libregamewiki.org/Meritous
 - State: mature, inactive since 2008
-- Keyword: role playing
+- Keyword: role playing, dungeon
 - Code repository: https://github.com/Nop90-Switch/Meritous-Switch.git (import of version 1.2)
 - Code language: C
 - Code license: GPL-3.0

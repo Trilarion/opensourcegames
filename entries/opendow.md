@@ -9,8 +9,6 @@
 - Code language: C
 - Code license: GPL-3.0
 
-Remake of Dogs of War.
-
 ## Building
 
 - Build system: Make

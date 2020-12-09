@@ -8,6 +8,4 @@
 - Code language: JavaScript
 - Code license: GPL-2.0
 
-Innovative, original strategy-action RPG developed in Sphere.
-
 ## Building

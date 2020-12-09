@@ -10,8 +10,6 @@
 - Code license: GPL-3.0
 - Code dependency: libGDX
 
-Sandbox tower defense game.
-
 ## Building
 
 - Build system: Gradle

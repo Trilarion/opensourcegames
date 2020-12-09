@@ -11,6 +11,4 @@
 - Code license: GPL-2.0
 - Code dependency: SDL
 
-Remake of JezzBall.
-
 ## Building

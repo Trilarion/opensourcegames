@@ -12,6 +12,4 @@
 - Code dependency: SDL
 - Developer: krys
 
-Remake of Magical Drop.
-
 ## Building

@@ -8,6 +8,4 @@
 - Code language: Python
 - Code license: Custom (similar to BSD)
 
-Computer role-playing game written in Python.
-
 ## Building

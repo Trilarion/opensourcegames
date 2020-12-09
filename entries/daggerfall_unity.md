@@ -11,6 +11,4 @@
 - Code license: MIT
 - Code dependency: Unity
 
-Remake of The Elder Scrolls II: Daggerfall.
-
 ## Building

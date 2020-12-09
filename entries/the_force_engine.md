@@ -10,8 +10,6 @@
 - Code license: GPL-2.0
 - Code dependency: OpenGL
 
-Remake of Dark Forces, Outlaws.
-
 ## Building
 
 - Build system: Visual Studio project

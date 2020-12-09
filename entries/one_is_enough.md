@@ -10,6 +10,4 @@
 - Assets license: GPL-2.0
 - Developer: Olli Etuaho
 
-Arcade game.
-
 ## Building

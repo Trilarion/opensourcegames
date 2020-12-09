@@ -11,6 +11,6 @@
 - Assets license: LGPL
 - Developer: Yuri D'Elia
 
-Simple arcade game where you control a guy who is trying to sort the garbage falling from above into three recycling containers.
+Control a guy who is trying to sort the garbage falling from above into three recycling containers.
 
 ## Building

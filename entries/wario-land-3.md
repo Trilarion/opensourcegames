@@ -10,6 +10,4 @@
 - Code license: MIT
 - Code dependency: pygame
 
-Remake of Wario Land 3.
-
 ## Building

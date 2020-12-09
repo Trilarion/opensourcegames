@@ -9,6 +9,4 @@
 - Code language: C, Python
 - Code license: GPL-2.0
 
-Remake of Minecraft.
-
 ## Building

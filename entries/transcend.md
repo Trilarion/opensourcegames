@@ -6,12 +6,10 @@
 - Platform: Windows, Linux, macOS
 - Keyword: arcade, music, open content, shooter
 - Code repository: @see-download http://transcend.cvs.sourceforge.net (cvs)
-- Code language: C++, Dia
+- Code language: C++
 - Code license: ? (GPL, Public domain)
 - Code dependency: GLUT
 - Assets license: ? (GPL)
 - Developer: Jason Rohrer
-
-Abstract 2D shooter game.
 
 ## Building

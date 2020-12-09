@@ -10,7 +10,6 @@
 - Code language: C++
 - Code license: Proprietary (!)
 
-Remake of Stunt Car Racer.
 Uses the original Amiga track data, sound samples and algorithms for the car physics. Is this a copyright issue? Can it be avoided?
 
 ## Building

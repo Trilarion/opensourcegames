@@ -6,8 +6,6 @@
 - Code repository: https://github.com/tales/sourceoftales.git
 - Code language: Lua
 - Code license: GPL-3.0
-
-A massive multiplayer online roleplaying game.
-Uses the Mana source engine.
+- Code dependency: Mana source engine
 
 ## Building

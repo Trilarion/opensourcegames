@@ -10,6 +10,4 @@
 - Code license: Custom (see buildlic.txt + GPL-3.0)
 - Code dependency: libGDX
 
-Remake of TekWar.
-
 ## Building

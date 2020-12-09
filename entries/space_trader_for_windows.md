@@ -1,6 +1,7 @@
 # Space Trader for Windows
 
 - Home: https://sourceforge.net/projects/spacetraderwin/
+- Inspiration: Space Trader
 - State: mature, inactive since 2009
 - Download: https://sourceforge.net/projects/spacetraderwin/files
 - Keyword: strategy

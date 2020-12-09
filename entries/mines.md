@@ -10,8 +10,6 @@
 - Code license: GPL-3.0
 - Developer: Gnome
 
-Clone of Minesweeper.
-
 ## Building
 
 - Build system: Meson

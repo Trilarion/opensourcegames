@@ -10,8 +10,6 @@
 - Code dependency: SDL
 - Developer: Anthony Mariette Louis Liekens, Jens Fursund, Loek, Robert Schuster, Troels Kofoed Jacobsen
 
-Simple real-time space conquering game.
-
 ## Building
 
 - Build system: Autoconf, CMake

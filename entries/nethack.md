@@ -2,6 +2,7 @@
 
 - Home: https://www.nethack.org/, https://sourceforge.net/projects/nethack/
 - Media: https://en.wikipedia.org/wiki/NetHack
+- Inspiration: Hack
 - State: mature
 - Download: https://www.nethack.org/common/index.html
 - Keyword: role playing, roguelike

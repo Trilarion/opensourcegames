@@ -9,6 +9,4 @@
 - Code language: Ruby
 - Code license: GPL-2.0
 
-Clone of The Lost Vikings.
-
 ## Building

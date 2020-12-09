@@ -9,8 +9,6 @@
 - Code language: C, C++
 - Code license: GPL-3.0
 
-Fast-paced action strategy game.
-
 ## Building
 
 - Build system: CMake, Make

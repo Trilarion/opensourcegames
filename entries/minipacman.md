@@ -11,6 +11,4 @@
 - Code license: GPL-3.0
 - Assets license: None
 
-Ascii character version of Pacman that plays in a commandline terminal.
-
 ## Building

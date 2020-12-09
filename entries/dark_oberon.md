@@ -10,6 +10,4 @@
 - Code license: GPL-2.0
 - Code dependency: SDL
 
-Real-time strategy game similar to Warcraft II.
-
 ## Building

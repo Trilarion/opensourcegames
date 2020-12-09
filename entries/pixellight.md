@@ -9,8 +9,6 @@
 - Code language: C, C++
 - Code license: MIT
 
-3D engine and application framework for any kind of 3D applications.
-
 ## Building
 
 - Build system: CMake

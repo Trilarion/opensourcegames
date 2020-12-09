@@ -9,6 +9,4 @@
 - Code language: Pascal
 - Code license: GPL-2.0
 
-Remake of the classic X-Com-Games.
-
 ## Building

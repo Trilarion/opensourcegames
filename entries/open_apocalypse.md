@@ -10,8 +10,6 @@
 - Code license: MIT
 - Code dependency: SDL2
 
-Remake of X-COM: UFO Defense, X-COM: Terror from the Deep, X-COM: Apocalypse, UFO: Enemy Unknown.
-
 ## Building
 
 - Build system: CMake

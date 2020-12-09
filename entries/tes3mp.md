@@ -1,7 +1,7 @@
 # TES3MP
 
 - Home: http://tes3mp.com/
-- Inspiration: The Elder Scrolls III: Morrowind
+- Inspiration: The Elder Scrolls III: Morrowind, OpenMW
 - State: beta
 - Download: https://github.com/TES3MP/openmw-tes3mp/releases
 - Platform: Windows, Linux, macOS
@@ -10,7 +10,6 @@
 - Code language: C++
 - Code license: GPL-3.0
 
-Remake of The Elder Scrolls III: Morrowind.
 Fork of OpenMW
 
 ## Building

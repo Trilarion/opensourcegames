@@ -10,7 +10,7 @@
 - Code license: Apache-2.0
 - Assets license: CC-NC (soundtrack)
 
-Hardcore arcade shooter; you're free to explore the game world, land on planets, fight with enemies, upgrade your ship.
+Hardcore arcade shooter.
 
 ## Building
 

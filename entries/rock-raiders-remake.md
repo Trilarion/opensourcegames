@@ -9,6 +9,4 @@
 - Code language: JavaScript
 - Code license: MIT
 
-Remake of Lego Rock Raiders.
-
 ## Building

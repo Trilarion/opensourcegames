@@ -10,8 +10,6 @@
 - Code license: GPL-3.0
 - Code dependency: SDL2
 
-Remake of Where in the World Is Carmen Sandiego? (1985).
-
 ## Building
 
 - Build system: CMake

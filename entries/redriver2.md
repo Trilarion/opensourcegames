@@ -9,6 +9,4 @@
 - Code license: MIT
 - Code dependency: OpenGL, SDL, SDL2
 
-Remake of Driver 2.
-
 ## Building

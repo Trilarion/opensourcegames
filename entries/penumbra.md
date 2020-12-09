@@ -2,7 +2,7 @@
 
 - Home: https://github.com/discosultan/penumbra
 - State: mature
-- Keyword: library
+- Keyword: library, 2D
 - Code repository: https://github.com/discosultan/penumbra.git
 - Code language: C#
 - Code license: MIT

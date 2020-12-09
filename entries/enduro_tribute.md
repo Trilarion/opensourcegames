@@ -10,6 +10,4 @@
 - Code language: JavaScript
 - Code license: MIT
 
-Remake of Enduro.
-
 ## Building

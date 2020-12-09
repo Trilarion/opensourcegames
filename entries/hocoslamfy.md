@@ -10,8 +10,6 @@
 - Code dependency: SDL
 - Assets license: CC-BY-SA-3.0 (see https://github.com/Nebuleon/hocoslamfy/blob/master/COPYRIGHT)
 
-Remake of Flappy Bird.
-
 ## Building
 
 - Build system: Make

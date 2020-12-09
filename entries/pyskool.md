@@ -12,8 +12,6 @@
 - Code license: GPL-3.0
 - Code dependency: pygame
 
-Remake of Skool Daze.
-
 ## Building
 
 - Build system: setup.py

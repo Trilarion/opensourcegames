@@ -9,6 +9,4 @@
 - Code license: Custom (see buildlic.txt and GPL-3.0)
 - Code dependency: libGDX
 
-Remake of Powerslave.
-
 ## Building

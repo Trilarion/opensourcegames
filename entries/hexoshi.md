@@ -10,6 +10,4 @@
 - Code language: Python
 - Code license: GPL-3.0
 
-Clone of Super Metroid.
-
 ## Building

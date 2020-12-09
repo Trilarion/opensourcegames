@@ -11,8 +11,6 @@
 - Code language: C, C++
 - Code license: GPL-2.0
 
-Clone of Sonic the Hedgehog.
-
 ## Building
 
 - Build system: CMake

@@ -9,6 +9,4 @@
 - Code language: Objective-C, C
 - Code license: MIT
 
-Remake of Super Foul Egg.
-
 ## Building

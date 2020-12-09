@@ -9,6 +9,4 @@
 - Code language: Java
 - Code license: MIT
 
-Remake of Dune 2.
-
 ## Building

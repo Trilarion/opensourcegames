@@ -10,7 +10,6 @@
 - Code language: C++
 - Code license: GPL-3.0
 
-Clone of the original UFO: Enemy Unknown (X-Com: UFO Defense in USA).
 OpenXcom requires a vanilla version of the original UFO: Enemy Unknown / X-COM: UFO Defense (any edition) with the latest patch.
 
 ## Building

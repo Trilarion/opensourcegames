@@ -9,6 +9,4 @@
 - Code language: Python
 - Code license: GPL-3.0
 
-Remake of the classic game Artillery Duel.
-
 ## Building

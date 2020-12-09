@@ -10,6 +10,4 @@
 - Code language: C++
 - Code license: zlib
 
-Remake of Bomberman.
-
 ## Building

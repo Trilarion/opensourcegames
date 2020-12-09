@@ -5,15 +5,13 @@
 - State: mature, inactive since 2016
 - Download: https://sourceforge.net/projects/atanks/files/
 - Platform: Windows, Linux
-- Keyword: action, remake, artillery, open content
+- Keyword: action, clone, artillery, open content
 - Code repository: https://git.code.sf.net/p/atanks/atanks, https://gitlab.com/osgames/atanks.git @add
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: Allegro
 - Assets license: GPL
 - Developer: Jesse Smith, Juraj Michalek, Thomas Hudson
-
-Scorched Earth clone similar to the Worms series.
 
 ## Building
 

@@ -8,8 +8,8 @@
 - Code repository: https://git.code.sf.net/p/snowstorm/git, https://gitlab.com/osgames/snowstorm.git @add
 - Code language: C++
 - Code license: GPL-2.0
+- Code dependency: SDL
 
-An SDL port of an old DOS game called Gladiator.
 Original code released under GPL.
 
 ## Building

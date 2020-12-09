@@ -10,6 +10,4 @@
 - Assets license: ? (GPL-3.0)
 - Developer: Fredrik Portstrom
 
-Karaoke game, designed to be lean.
-
 ## Building

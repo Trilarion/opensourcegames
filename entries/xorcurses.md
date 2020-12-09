@@ -11,8 +11,6 @@
 - Code license: GPL-3.0
 - Code dependency: ncurses
 
-Clone of XOR.
-
 ## Building
 
 - Build system: Make

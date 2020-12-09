@@ -12,8 +12,6 @@
 - Code license: GPL-2.0
 - Code dependency: SDL
 
-Remake of Jazz Jackrabbit.
-
 ## Building
 
 - Build system: Make

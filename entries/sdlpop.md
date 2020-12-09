@@ -9,8 +9,6 @@
 - Code license: GPL-3.0
 - Code dependency: SDL
 
-Remake of Prince of Persia.
-
 ## Building
 
 - Build system: CMake

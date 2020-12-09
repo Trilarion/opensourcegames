@@ -8,6 +8,4 @@
 - Code language: C, C++
 - Code license: CC0
 
-Data driven game engine.
-
 ## Building

@@ -12,6 +12,6 @@
 - Assets license: WTFPL
 - Developer: Sam Hocevar
 
-Pacman-style game with gravity in which the player controls the rotation of the game field.
+With gravity in which the player controls the rotation of the game field.
 
 ## Building

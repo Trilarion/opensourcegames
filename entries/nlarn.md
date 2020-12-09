@@ -10,6 +10,4 @@
 - Code language: C, Lua
 - Code license: GPL-3.0
 
-Rewrite of Noah Morgan's classic roguelike game Larn from 1986.
-
 ## Building

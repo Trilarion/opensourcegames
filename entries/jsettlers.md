@@ -1,7 +1,7 @@
 # JSettlers
 
 - Home: https://sourceforge.net/projects/jsettlers/, https://sourceforge.net/projects/jsettlers2/
-- Inspiration: The Settlers III
+- Inspiration: The Settlers III, Settlers of Catan
 - State: mature
 - Download: https://sourceforge.net/projects/jsettlers/files/, https://sourceforge.net/projects/jsettlers2/files/
 - Keyword: board, remake, strategy, commercial content, requires original content (?)

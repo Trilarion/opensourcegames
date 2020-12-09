@@ -10,7 +10,6 @@
 - Code license: GPL-2.0
 - Code dependency: pygame
 
-Clone of Microprose game "Master of Orion II: Battle at Antares".
 See also https://github.com/mimi1vx/openmoo2, https://gitlab.com/scarabeusiv/openmoo2
 
 ## Building

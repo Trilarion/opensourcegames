@@ -8,7 +8,6 @@
 - Code language: C
 - Code license: GPL-2.0
 
-Remake of Redneck Rampage.
 Eduke32 fork. (?)
 
 ## Building

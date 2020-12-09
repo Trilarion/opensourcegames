@@ -8,8 +8,6 @@
 - Code language: C, C++
 - Code license: AGPL-3.0
 
-Remake of Caesar 3.
-
 ## Building
 
 - Build system: CMake

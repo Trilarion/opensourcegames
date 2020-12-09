@@ -10,8 +10,6 @@
 - Code dependency: SDL
 - Developer: Karel Fiser
 
-Remake of Bomberman.
-
 ## Building
 
 - Build system: Make

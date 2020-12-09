@@ -10,8 +10,6 @@
 - Code license: GPL-2.0
 - Developer: Martin Bickel, Christian Schramm, valuial, Armin Bajramovic, Dorfdrull, Michael Moerz, Frederik Kesting, Torsten Maekler
 
-Turn based strategy game.
-
 ## Building
 
 - Build system: Autoconf

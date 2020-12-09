@@ -10,6 +10,4 @@
 - Code language: JavaScript
 - Code license: CC-BY-SA-4.0
 
-Remake of Pac-Man.
-
 ## Building

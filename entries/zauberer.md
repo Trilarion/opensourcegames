@@ -10,6 +10,6 @@
 - Assets license: 3-clause BSD
 - Developer: Eric Söderberg
 
-FPS project whose initial goal is to serve as a Free data package for engines based on the Hexen source.
+Initial goal is to serve as a Free data package for engines based on the Hexen source.
 
 ## Building

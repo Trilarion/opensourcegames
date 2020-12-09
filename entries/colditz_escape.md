@@ -11,8 +11,6 @@
 - Code language: C
 - Code license: GPL-3.0
 
-Remake of Escape from Colditz.
-
 ## Building
 
 - Build system: Make

@@ -9,6 +9,4 @@
 - Code license: GPL-2.0
 - Code dependency: SDL
 
-Action-adventures in the style of the game "The Legend of Zelda".
-
 ## Building

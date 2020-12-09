@@ -11,8 +11,6 @@
 - Code dependency: SDL
 - Assets license: CC-BY-SA-3.0
 
-Remake of Gish.
-
 ## Building
 
 - Build system: Make

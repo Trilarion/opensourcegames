@@ -8,6 +8,4 @@
 - Code language: Java
 - Code license: LGPL-3.0
 
-Remake of Nuclear Reaction.
-
 ## Building

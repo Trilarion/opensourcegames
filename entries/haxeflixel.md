@@ -8,8 +8,6 @@
 - Code language: Haxe
 - Code license: MIT
 
-Create cross-platform games easier and free.
-
 ## Building
 
 

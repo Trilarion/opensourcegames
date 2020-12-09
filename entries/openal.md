@@ -9,6 +9,6 @@
 - Code language: C
 - Code license: Proprietary (since v1.1, LGPL before)
 
-Cross-platform audio application programming interface (API).
+Audio application programming interface (API).
 
 ## Building

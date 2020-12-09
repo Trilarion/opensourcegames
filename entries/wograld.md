@@ -10,6 +10,4 @@
 - Assets license: ? (GPL)
 - Developer: Lori Angela Nagel
 
-Massively multiplayer online role-playing game.
-
 ## Building

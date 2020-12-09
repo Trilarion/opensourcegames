@@ -10,7 +10,6 @@
 - Code language: C++
 - Code license: MIT
 
-Remake of Chris Sawyer's Locomotion.
 The original game use the modified version of RollerCoaster Tycoon 2's engine. OpenLoco using modified version of OpenRCT2's engine.
 
 ## Building

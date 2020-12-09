@@ -9,8 +9,6 @@
 - Code license: GPL-2.0
 - Code dependency: libretro
 
-Remake of Quake.
-
 ## Building
 
 - Build system: Make

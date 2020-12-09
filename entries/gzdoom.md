@@ -10,8 +10,6 @@
 - Code language: C, C++
 - Code license: GPL-3.0
 
-Remake of Doom, Doom II, Heretic, Hexen.
-
 ## Building
 
 - Build system: CMake

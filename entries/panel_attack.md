@@ -9,6 +9,4 @@
 - Code license: zlib
 - Code dependency: LÖVE
 
-Remake of Tetris Attack.
-
 ## Building

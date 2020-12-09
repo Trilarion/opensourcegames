@@ -10,6 +10,6 @@
 - Assets license: CC0
 - Developer: Drummyfish
 
-Small platformer game. You play as a non-flying kind of duck. The goal is to collect eggs and coins.
+You play as a non-flying kind of duck. The goal is to collect eggs and coins.
 
 ## Building

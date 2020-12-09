@@ -11,7 +11,7 @@
 - Code license: GPL-3.0
 - Code dependency: OGRE, SDL2, VDrift
 
-Racing game with rally style of driving.
+With rally style of driving.
 
 ## Building
 

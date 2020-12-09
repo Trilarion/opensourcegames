@@ -10,6 +10,4 @@
 - Assets license: GPL
 - Developer: Joey Marshall, Mikey Lubker
 
-Real time strategy game.
-
 ## Building

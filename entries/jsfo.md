@@ -10,6 +10,4 @@
 - Code language: JavaScript, Python
 - Code license: Apache-2.0
 
-Remake of Fallout 2.
-
 ## Building

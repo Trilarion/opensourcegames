@@ -12,8 +12,6 @@
 - Assets license: ? (GPL)
 - Developer: Mateusz Viste
 
-Sokoban game aimed at playability and portability across systems.
-
 ## Building
 
 - Build system: Make

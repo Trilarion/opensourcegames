@@ -8,6 +8,4 @@
 - Code language: C++
 - Code license: GPL-2.0
 
-Themeable turn-based strategy game.
-
 ## Building

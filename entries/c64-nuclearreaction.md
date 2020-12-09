@@ -8,6 +8,4 @@
 - Code language: C, Assembly
 - Code license: GPL-3.0
 
-Remake of Nuclear Reaction.
-
 ## Building

@@ -9,6 +9,6 @@
 - Code language: C++
 - Code license: GPL-2.0
 
-Updated clone of Westwood Studios' Dune2 which uses data files from the original game.
+Updated clone of Dune2 which uses data files from the original game.
 
 ## Building

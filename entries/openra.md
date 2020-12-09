@@ -10,6 +10,4 @@
 - Code language: C#
 - Code license: GPL-3.0
 
-Recreates and modernizes the classic Command & Conquer real time strategy games.
-
 ## Building

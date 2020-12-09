@@ -10,7 +10,6 @@
 - Code license: GPL-2.0
 
 Collection of games.
-A collection of games rather.
 
 ## Building
 

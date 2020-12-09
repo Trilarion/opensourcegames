@@ -9,6 +9,4 @@
 - Code license: MIT
 - Code dependency: jQuery
 
-Remake of Crystal Quest.
-
 ## Building

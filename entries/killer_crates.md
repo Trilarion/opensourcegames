@@ -11,6 +11,4 @@
 - Code license: MIT
 - Code dependency: jMonkeyEngine
 
-Remake of What the Box.
-
 ## Building

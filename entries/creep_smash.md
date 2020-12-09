@@ -7,6 +7,4 @@
 - Code language: Java
 - Code license: GPL-3.0
 
-Multiplayer tower defense game.
-
 ## Building

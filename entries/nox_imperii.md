@@ -9,7 +9,6 @@
 - Code license: GPL-3.0
 - Code dependency: SDL
 
-Similar of Escape Velocity.
 Fork of Naev
 
 ## Building

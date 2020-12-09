@@ -9,7 +9,6 @@
 - Code language: C, C++, Assembly
 - Code license: GPL-3.0
 
-Remake of Command & Conquer, Command & Conquer: Red Alert.
 Based on the open sourced code for the Command & Conquer Remaster and can play the original games content standalone.
 
 ## Building

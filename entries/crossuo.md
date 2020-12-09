@@ -9,8 +9,7 @@
 - Code language: C, C++
 - Code license: GPL-3.0
 
-Ultima Online client.
-Fork of OrionUO
+Ultima Online client. Fork of OrionUO
 
 ## Building
 

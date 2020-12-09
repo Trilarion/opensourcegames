@@ -9,6 +9,4 @@
 - Code license: GPL-3.0
 - Code dependency: PICO-8
 
-Similar of Ultima III: Exodus.
-
 ## Building

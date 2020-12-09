@@ -12,8 +12,6 @@
 - Assets license: (See licences against each asset folder)
 - Developer: Stephen Carlyle-Smith
 
-A multiplayer FPS based on Laser Squad.
-
 ## Building
 
 - Build system: Maven

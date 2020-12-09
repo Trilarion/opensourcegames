@@ -11,8 +11,6 @@
 - Code license: GPL-3.0
 - Code dependency: SDL
 
-Remake of Betrayal at Krondor.
-
 ## Building
 
 - Build system: Autoconf

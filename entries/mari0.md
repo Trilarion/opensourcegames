@@ -12,6 +12,4 @@
 - Code dependency: LÖVE
 - Assets license: CC-BY-NC-SA-3.0
 
-Remake of Mario World.
-
 ## Building

@@ -11,6 +11,4 @@
 - Assets license: Public domain (license.txt)
 - Developer: Ronnie Hedlund
 
-Remake of Gravity Force.
-
 ## Building

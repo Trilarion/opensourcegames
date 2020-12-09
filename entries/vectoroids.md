@@ -10,8 +10,6 @@
 - Code language: C
 - Code license: GPL-2.0
 
-Remake of Asteroids.
-
 ## Building
 
 - Build system: Make

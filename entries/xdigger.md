@@ -1,6 +1,7 @@
 # xdigger
 
 - Home: https://www.gsp.com/cgi-bin/man.cgi?section=6&topic=xdigger#9
+- Inspiration: Digger
 - State: mature, inactive since 1999
 - Download: https://launchpad.net/debian/+source/xdigger
 - Platform: Linux

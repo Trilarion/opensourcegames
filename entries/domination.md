@@ -10,8 +10,7 @@
 - Code language: Java
 - Code license: GPL-3.0
 
-Is a bit like the well known board game of Risk or RisiKo.
-The Android version seems to use [Swing ME](https://sourceforge.net/projects/swingme/).
+Android version seems to use [Swing ME](https://sourceforge.net/projects/swingme/).
 
 ## Building
 

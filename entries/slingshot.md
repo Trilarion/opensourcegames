@@ -12,6 +12,6 @@
 - Assets license: GPL-2.0
 - Developer: Jonathan Musther, Bart Mak
 
-Gravity‐based turn based strategy game.
+Gravity‐based.
 
 ## Building

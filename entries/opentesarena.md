@@ -10,8 +10,6 @@
 - Code license: MIT
 - Code dependency: OpenAL, SDL2, WildMidi
 
-Re-implementation of The Elder Scrolls: Arena.
-
 ## Building
 
 - Build system: CMake

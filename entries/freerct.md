@@ -8,7 +8,6 @@
 - Code language: C++
 - Code license: GPL-2.0
 
-Game which captures the look, feel and gameplay of the popular games RollerCoaster Tycoon 1 and 2.
 Main web site is unavailable.
 
 ## Building

@@ -4,12 +4,12 @@
 - State: mature
 - Download: https://github.com/fastrgv/RufasCube/releases
 - Platform: Windows, Linux, macOS
-- Keyword: puzzle
+- Keyword: puzzle, 3D
 - Code repository: @see-download
 - Code language: Ada
 - Code license: GPL-2.0
 - Code dependency: OpenGL, SDL2
 
-3D slider puzzle that looks like a Rubic cube.
+Slider puzzle that looks like a Rubic cube.
 
 ## Building

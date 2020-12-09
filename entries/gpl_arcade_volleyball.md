@@ -1,6 +1,7 @@
 # GPL Arcade Volleyball
 
 - Home: http://gav.sourceforge.net/, https://sourceforge.net/projects/gav/
+- Inspiration: Volleyball
 - State: beta, inactive since 2006
 - Download: http://gav.sourceforge.net/download.php, https://sourceforge.net/projects/gav/files/
 - Platform: Windows, Linux, macOS

@@ -9,7 +9,6 @@
 - Code language: Java
 - Code license: MIT
 
-Flappy Bird style game.
 Renamed to FlutterCow because of a Google policy.
 
 ## Building

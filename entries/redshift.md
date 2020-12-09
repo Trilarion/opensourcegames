@@ -9,6 +9,4 @@
 - Code license: GPL-2.0
 - Developer: Christian Haag
 
-Flight simulation game in the spirit of GL-117.
-
 ## Building

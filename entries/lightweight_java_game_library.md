@@ -9,9 +9,7 @@
 - Code language: Kotlin, C
 - Code license: 3-clause BSD
 
-Java software library for video game developers.
-
 ## Building
 
-Uses gradle
+- Build system: Gradle
 

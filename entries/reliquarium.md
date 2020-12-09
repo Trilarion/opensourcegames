@@ -4,7 +4,7 @@
 - State: mature
 - Download: https://github.com/fastrgv/Reliquarium/releases
 - Platform: Windows, Linux, macOS
-- Keyword: puzzle
+- Keyword: puzzle, 3D
 - Code repository: @see-download
 - Code language: Ada
 - Code license: GPL-2.0

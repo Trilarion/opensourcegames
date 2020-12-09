@@ -9,8 +9,6 @@
 - Code license: GPL-3.0
 - Code dependency: OpenAL, Qt
 
-Remake of Space Rangers 2: Dominators.
-
 ## Building
 
 - Build system: CMake

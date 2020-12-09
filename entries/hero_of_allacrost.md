@@ -8,8 +8,6 @@
 - Code language: C++, Lua
 - Code license: GPL-2.0
 
-2D role-playing game inspired by classic console RPGs.
-
 ## Building
 
 - Build system: Autoconf

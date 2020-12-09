@@ -9,7 +9,6 @@
 - Code license: AGPL-3.0
 - Code dependency: Allegro
 
-Remake of Cortex Command.
 Based on the open sourced code of Cortex Command.
 
 ## Building

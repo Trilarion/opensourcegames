@@ -8,7 +8,6 @@
 - Code language: Pascal
 - Code license: MIT
 
-Remake of Super ZZT.
 Source code reconstruction.
 
 ## Building

@@ -8,6 +8,4 @@
 - Code language: C, C++, Pascal
 - Code license: GPL-3.0
 
-Remake of Battlecity.
-
 ## Building

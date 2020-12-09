@@ -1,6 +1,7 @@
 # Javelin
 
 - Home: https://javelinrl.wordpress.com/, https://www.reddit.com/r/javelinrl/
+- Inspiration: Jagged Alliance, Dungeon Crawl Stone Soup, Pokémon, Final Fantasy series
 - State: mature, inactive since 2016
 - Download: https://github.com/tukkek/javelin/releases
 - Platform: Windows, Linux, macOS
@@ -11,6 +12,6 @@
 - Assets license: GPL-2.0
 - Developer: Alex Henry
 
-Role-playing game that uses d20 as the rule system. It draws heavy inspiration from Jagged Alliance and Dungeon Crawl Stone Soup to Pokémon and the Final Fantasy series.
+Role-playing game that uses d20 as the rule system.
 
 ## Building

@@ -9,6 +9,4 @@
 - Code language: JavaScript
 - Code license: GPL-2.0
 
-Remake of Log!cal.
-
 ## Building

@@ -8,6 +8,6 @@
 - Code license: GPL-3.0
 - Developer: Horst Kevin, Stefan Aldinger
 
-Flight simulator that does not simulate real aircraft or historical war scenarios, only fictional ones. The game revolves around fighter aircraft.
+Does not simulate real aircraft or historical war scenarios, only fictional ones. The game revolves around fighter aircraft.
 
 ## Building

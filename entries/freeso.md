@@ -10,6 +10,4 @@
 - Code license: MPL-2.0
 - Code dependency: MonoGame
 
-Remake of The Sims Online.
-
 ## Building

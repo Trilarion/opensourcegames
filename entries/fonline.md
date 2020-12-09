@@ -8,8 +8,6 @@
 - Code language: C, C++
 - Code license: GPL-3.0
 
-Remake of Fallout Online.
-
 ## Building
 
 - Build system: CMake

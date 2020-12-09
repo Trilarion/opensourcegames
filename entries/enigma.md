@@ -12,8 +12,6 @@
 - Code license: GPL-2.0
 - Code dependency: SDL
 
-Puzzle game based on Oxyd.
-
 ## Building
 
 - Build system: Autoconf

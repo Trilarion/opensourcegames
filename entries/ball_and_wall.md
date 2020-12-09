@@ -8,6 +8,4 @@
 - Code language: JavaScript
 - Code license: MIT
 
-Clone of Arkanoid.
-
 ## Building

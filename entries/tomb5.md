@@ -8,7 +8,6 @@
 - Code language: C, C++
 - Code license: MIT
 
-Remake of Tomb Raider Chronicles.
 Based on decompilation of the original binaries.
 
 ## Building

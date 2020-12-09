@@ -8,6 +8,4 @@
 - Code language: Java
 - Code license: WTFPL
 
-Remake of Tetris.
-
 ## Building

@@ -9,6 +9,4 @@
 - Code language: JavaScript, Assembly
 - Code license: MIT
 
-Remake of E.T. the Extra-Terrestrial.
-
 ## Building

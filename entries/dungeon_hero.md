@@ -4,11 +4,9 @@
 - State: mature
 - Download: https://play.google.com/store/apps/details?id=com.glevel.dungeonhero
 - Platform: Android
-- Keyword: role playing
+- Keyword: role playing, fantasy setting
 - Code repository: https://github.com/guillaume-gouchon/dungeonhero.git
 - Code language: Java
 - Code license: MIT
-
-Choose between 6 unique heroes, equip yourself with powerful magic items and prepare your spells wisely to complete the different quests.
 
 ## Building

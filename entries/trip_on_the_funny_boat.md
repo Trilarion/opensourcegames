@@ -12,7 +12,6 @@
 - Assets license: Expat license
 - Developer: Puskutraktori (code, graphics and sound effects by Pekka "pekuja" Kujansuu), Olli "Hectigo" Etuaho (graphics and code), Joona "JDruid" Karjalainen (music), Konstantin Yegupov
 
-Side-scrolling arcade shooter game.
 Uses fonts by Bitstream Inc.
 
 ## Building

@@ -9,8 +9,6 @@
 - Code license: 3-clause BSD
 - Code dependency: ncurses, SDL
 
-Remake of Tetris.
-
 ## Building
 
 - Build system: Make

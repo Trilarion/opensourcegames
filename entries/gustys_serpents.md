@@ -12,6 +12,4 @@
 - Code dependency: OGRE
 - Assets license: CC-BY-NC-SA (music)
 
-Clone of Snake.
-
 ## Building

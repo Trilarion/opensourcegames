@@ -8,6 +8,4 @@
 - Code language: C, C++
 - Code license: MIT
 
-Remake of Star Control 2.
-
 ## Building

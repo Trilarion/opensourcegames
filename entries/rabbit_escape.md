@@ -1,7 +1,7 @@
 # Rabbit Escape
 
 - Home: https://www.artificialworlds.net/rabbit-escape/
-- Inspiration: Lemmings
+- Inspiration: Lemmings, Pingus
 - State: mature
 - Download: https://www.artificialworlds.net/rabbit-escape/#install
 - Platform: Windows, Linux, macOS, Android
@@ -11,7 +11,7 @@
 - Code license: GPL-2.0
 - Assets license: CC-BY-SA-3.0 (music, levels under GPL-2.0)
 
-Puzzle/action game of rescuing rabbits, inspired by Lemmings and Pingus.
+Game of rescuing rabbits.
 
 ## Building
 

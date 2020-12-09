@@ -9,6 +9,4 @@
 - Code language: JavaScript
 - Code license: MIT
 
-Clone of Flappy Bird.
-
 ## Building

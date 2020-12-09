@@ -9,8 +9,6 @@
 - Code license: zlib, GPL-3.0 (depending on the use mode)
 - Code dependency: SFML
 
-Remake of Diablo.
-
 ## Building
 
 - Build system: CMake

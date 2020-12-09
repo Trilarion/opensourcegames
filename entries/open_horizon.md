@@ -11,6 +11,4 @@
 - Code license: MIT
 - Code dependency: nya-engine
 
-Remake of Ace Combat: Assault Horizon.
-
 ## Building

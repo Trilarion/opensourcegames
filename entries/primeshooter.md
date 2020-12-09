@@ -2,6 +2,7 @@
 
 - Home: http://thinkinghard.com/math/integers/PrimeShooter.html
 - State: mature, inactive since 2010
+- Platform: Web
 - Keyword: arcade, educational, open content, shootem
 - Code repository: @see-home
 - Code language: JavaScript
@@ -9,6 +10,6 @@
 - Assets license: GPL-2.0
 - Developer: Philip Dorrell
 
-Abstract browser based shooter game. The player must shoot falling numbers with their divisors and scores points for clearing prime numbers.
+The player must shoot falling numbers with their divisors and scores points for clearing prime numbers.
 
 ## Building

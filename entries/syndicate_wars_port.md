@@ -11,7 +11,6 @@
 - Code license: GPL-3.0
 - Code dependency: SDL
 
-Remake of Syndicate Wars.
 Based on disassembly of original executable.
 
 ## Building

@@ -11,8 +11,6 @@
 - Code license: GPL-3.0
 - Code dependency: GLEW, SDL2
 
-Fallout 2 engine.
-
 ## Building
 
 - Build system: CMake

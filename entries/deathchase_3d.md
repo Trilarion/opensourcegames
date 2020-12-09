@@ -9,6 +9,4 @@
 - Code license: GPL-2.0
 - Code dependency: SDL
 
-Remake of 3D Deathchase.
-
 ## Building

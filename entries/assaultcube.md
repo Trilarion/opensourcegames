@@ -11,8 +11,6 @@
 - Code license: Custom (zlib like)
 - Code dependency: SDL
 
-Shooter game, based on the CUBE engine.
-
 ## Building
 
 - Build system: Make

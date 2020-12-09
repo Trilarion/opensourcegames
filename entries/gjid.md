@@ -10,7 +10,7 @@
 - Assets license: MIT
 - Developer: Mike Sharov
 
-Sokoban-style game, in which the player controls a robot called GJID. The robot volunteered to cleanup the dungeon from dangerous weapons by moving them into recycling bins.
+The player controls a robot called GJID. The robot volunteered to cleanup the dungeon from dangerous weapons by moving them into recycling bins.
 
 ## Building
 

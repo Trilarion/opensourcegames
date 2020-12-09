@@ -12,8 +12,6 @@
 - Code dependency: pygame
 - Developer: Pete Shinners, Eero Tamminen
 
-Remake of Solar Fox.
-
 ## Building
 
 - Build system: Make

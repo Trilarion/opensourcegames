@@ -11,6 +11,4 @@
 - Code license: zlib
 - Assets license: CC-BY-SA (before relicensing?), CC-BY-NC-ND-4.0 (after relicensing)
 
-Remake of ChuChu Rocket!.
-
 ## Building

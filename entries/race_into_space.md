@@ -12,7 +12,6 @@
 - Code license: GPL-2.0
 - Code dependency: libogg, libvorbis, SDL
 
-Remake of Buzz Aldrin's Race Into Space.
 Developers released the original game under GPL.
 
 ## Building

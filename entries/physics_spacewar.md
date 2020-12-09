@@ -4,12 +4,10 @@
 - State: beta, inactive since 2019
 - Download: https://github.com/SteveSmith16384/PhysicsSpaceWar/releases
 - Platform: Windows, Linux
-- Keyword: arcade, multiplayer, physics
+- Keyword: arcade, multiplayer, physics, space
 - Code repository: https://github.com/SteveSmith16384/PhysicsSpaceWar.git
 - Code language: Java
 - Code license: MIT
-
-Physics-based multiplayer 2D space battle game.
 
 ## Building
 

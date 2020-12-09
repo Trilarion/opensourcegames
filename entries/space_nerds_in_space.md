@@ -9,8 +9,6 @@
 - Code language: C, Lua
 - Code license: GPL-2.0
 
-Similar of Artemis: Spaceship Bridge Simulator.
-
 ## Building
 
 - Build system: Make

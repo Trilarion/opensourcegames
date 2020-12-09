@@ -9,8 +9,6 @@
 - Code language: C++
 - Code license: MAME
 
-Remake of Outrun.
-
 ## Building
 
 - Build system: CMake

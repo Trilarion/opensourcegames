@@ -10,8 +10,6 @@
 - Code language: Java
 - Code license: GPL-3.0
 
-Roguelike, inspired by Pixel Dungeon.
-
 ## Building
 
 - Build system: Gradle

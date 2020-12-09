@@ -13,7 +13,6 @@
 Remake of the Turnbased Artillery game from 1987.
 [Original](http://www.eckhardkruse.net/atari_st/baller.html) in the Public domain.
 
-
 ## Building
 
 - Build system: CMake

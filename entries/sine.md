@@ -9,7 +9,6 @@
 - Code license: MIT
 - Code dependency: SFML
 
-Remake of Asteroids.
 See also https://github.com/slx7R4GDZM/Sine-Toolkit
 
 ## Building

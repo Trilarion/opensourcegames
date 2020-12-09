@@ -5,13 +5,13 @@
 - Inspiration: "Anno (series)"
 - State: beta
 - Download: http://unknown-horizons.org/downloads/
-- Keyword: strategy, clone, turn-based
+- Keyword: strategy, clone, turn-based, 2D, real time
 - Code repository: https://github.com/unknown-horizons/unknown-horizons.git, https://github.com/unknown-horizons/godot-port.git @add
 - Code language: Python
 - Code license: GPL-2.0
 - Code dependency: FIFE, Pillow
 
-A 2D real time strategy simulation with an emphasis on economy and city building.
+With an emphasis on economy and city building.
 Uses the FIFE engine. Godot port: https://github.com/unknown-horizons/godot-port
 
 ## Building

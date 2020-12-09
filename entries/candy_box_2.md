@@ -10,7 +10,7 @@
 - Code language: TypeScript, JavaScript
 - Code license: GPL-3.0
 
-Online text-based role-playing game featuring ASCII art.
+Featuring ASCII art.
 See also [Candy Box](https://github.com/candybox2/candybox)
 
 ## Building

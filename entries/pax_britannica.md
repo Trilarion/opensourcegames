@@ -7,6 +7,4 @@
 - Code language: Lua, C
 - Code license: MIT
 
-One-button real-time strategy game.
-
 ## Building

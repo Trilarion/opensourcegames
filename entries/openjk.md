@@ -10,8 +10,6 @@
 - Code language: C, C++
 - Code license: GPL-2.0
 
-Remake of Jedi Knight: Jedi Academy.
-
 ## Building
 
 - Build system: CMake

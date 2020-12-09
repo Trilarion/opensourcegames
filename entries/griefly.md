@@ -9,8 +9,6 @@
 - Code license: MIT
 - Assets license: CC-BY-NC-SA (see https://github.com/griefly/griefly/blob/master/LICENSE_ASSETS.md)
 
-Remake of Space Station 13.
-
 ## Building
 
 - Build system: CMake

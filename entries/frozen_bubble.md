@@ -6,11 +6,9 @@
 - State: mature, inactive since 2012
 - Download: http://www.frozen-bubble.org/downloads/
 - Platform: Linux, macOS
-- Keyword: puzzle, clone
+- Keyword: puzzle, clone, tile-matching
 - Code repository: https://github.com/kthakore/frozen-bubble.git
 - Code language: Perl
 - Code license: GPL-2.0
-
-Clone of Puzzle Bobble, a tile-matching puzzle game.
 
 ## Building

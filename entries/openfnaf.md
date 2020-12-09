@@ -10,6 +10,4 @@
 - Code license: MIT
 - Code dependency: SFML
 
-Clone of Five Nights at Freddy's.
-
 ## Building

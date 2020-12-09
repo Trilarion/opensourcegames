@@ -10,6 +10,4 @@
 - Code license: AGPL-3.0
 - Code dependency: Laravel
 
-Clone of Dominion.
-
 ## Building

@@ -10,6 +10,4 @@
 - Code license: MIT
 - Code dependency: Qt, SFML
 
-Remake of Jazz Jackrabbit 2.
-
 ## Building

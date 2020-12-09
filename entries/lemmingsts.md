@@ -9,6 +9,4 @@
 - Code language: TypeScript
 - Code license: MIT
 
-Clone of Lemmings.
-
 ## Building

@@ -9,7 +9,7 @@
 - Code language: C++
 - Code license: GPL-3.0
 
-Real-Time Strategy (RTS) game which reduces micro-management by automatically assigning tasks to units.
+Reduces micro-management by automatically assigning tasks to units.
 
 ## Building
 

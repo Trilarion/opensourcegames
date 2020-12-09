@@ -10,6 +10,4 @@
 - Code license: GPL-3.0
 - Code dependency: PICO-8
 
-Clone of Ultima III: Exodus.
-
 ## Building

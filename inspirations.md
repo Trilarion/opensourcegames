@@ -1475,7 +1475,7 @@
 ## Runescape Classic [2]
 
 - Inspired entries: 2006-rebotted, Open RSC
-- Media: https://runescape.fandom.com/wiki/RuneScape_Classic
+- Media: https://en.wikipedia.org/wiki/RuneScape, https://runescape.fandom.com/wiki/RuneScape_Classic
 
 ## Ryzom [1]
 
@@ -1720,6 +1720,7 @@
 ## Stars! [2]
 
 - Inspired entries: Freestars, NStars!
+- Media: https://en.wikipedia.org/wiki/Stars!
 
 ## Starshatter [1]
 

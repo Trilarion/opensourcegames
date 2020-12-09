@@ -10,7 +10,6 @@
 - Code license: GPL-2.0
 - Code dependency: SDL
 
-Remake of Jump 'n Bump.
 See also https://gitlab.com/LibreGames/jumpnbump (same game?)
 
 ## Building

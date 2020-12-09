@@ -8,6 +8,4 @@
 - Code language: JavaScript
 - Code license: MIT
 
-Remake of Aquastax, the 2007 mobile puzzle game.
-
 ## Building

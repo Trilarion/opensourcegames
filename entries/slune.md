@@ -10,6 +10,4 @@
 - Code dependency: Cal3D, GLEW, OpenGL, Py2Play, SDL
 - Developer: Jean-Baptiste "Jiba" Lamy (Nekeme Prod.)
 
-Action game.
-
 ## Building

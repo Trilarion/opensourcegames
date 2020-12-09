@@ -9,6 +9,4 @@
 - Code license: GPL-3.0
 - Code dependency: OpenGL, SDL
 
-Remake of Age of Empires, Age of Empires II, Star Wars: Galactic Battlegrounds.
-
 ## Building

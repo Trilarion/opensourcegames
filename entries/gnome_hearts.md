@@ -7,6 +7,6 @@
 - Code language: Python
 - Code license: GPL-2.0
 
-Classic hearts card game for the GNOME desktop.
+Hearts card game for the GNOME desktop.
 
 ## Building

@@ -9,7 +9,6 @@
 - Code language: C++, C
 - Code license: GPL-2.0
 
-A classic MMO.
 See also [Server 105](https://www.meridiannext.com/) and https://github.com/OpenMeridian105/Meridian59.git, [Server 112](https://github.com/Arantis/Meridian59_112.git).
 
 ## Building

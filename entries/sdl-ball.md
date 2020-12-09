@@ -13,8 +13,6 @@
 - Assets license: ? (GPL)
 - Developer: Jimmy Christensen
 
-Arcade breakout-like game.
-
 ## Building
 
 - Build system: Make

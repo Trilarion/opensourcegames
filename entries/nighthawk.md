@@ -11,6 +11,6 @@
 - Code license: GPL-2.0
 - Developer: Jason Nunn, Eric Gillespie (brickviking@GH)
 
-Remake of Paradroid. May be uploaded in the future under https://github.com/brickviking
+May be uploaded in the future under https://github.com/brickviking
 
 ## Building

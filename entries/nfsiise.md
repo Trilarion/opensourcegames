@@ -10,6 +10,4 @@
 - Code license: MIT
 - Code dependency: SDL2
 
-Remake of Need For Speed II SE.
-
 ## Building

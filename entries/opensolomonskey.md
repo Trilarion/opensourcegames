@@ -10,8 +10,6 @@
 - Code language: C++
 - Code license: Unlicense
 
-Clone of Solomon's Key.
-
 ## Building
 
 - Build system: custom script

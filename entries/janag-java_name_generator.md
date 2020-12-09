@@ -8,6 +8,6 @@
 - Code language: Java
 - Code license: GPL-3.0
 
-Java random name generator for role-games, authors, and the like.
+Random name generator for role-games, authors, and the like.
 
 ## Building

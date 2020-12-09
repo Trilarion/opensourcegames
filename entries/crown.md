@@ -8,8 +8,6 @@
 - Code language: C, C++, Vala
 - Code license: MIT
 
-Data-driven game engine.
-
 ## Building
 
 - Build system: Make

@@ -8,6 +8,6 @@
 - Code license: 3-clause BSD
 - Assets license: CC-BY-SA-3.0
 
-2D puzzle game. To win you need to keep the cat out of the rain.
+Keep the cat out of the rain.
 
 ## Building

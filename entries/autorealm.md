@@ -9,6 +9,6 @@
 - Code license: GPL-3.0
 - Code dependency: wxWidgets
 
-Role-playing game mapping program.
+Role playing game mapping program.
 
 ## Building

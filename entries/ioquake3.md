@@ -11,7 +11,6 @@
 - Code license: GPL-2.0
 - Code dependency: SDL2
 
-Remake of Quake 3.
 [Derivative games](https://ioquake3.org/extras/derivative-games/)
 
 ## Building

@@ -12,6 +12,4 @@
 - Code license: Apache-2.0, CC0
 - Code dependency: Phaser, rot.js
 
-An extended, browser-based remake of Magus.
-
 ## Building

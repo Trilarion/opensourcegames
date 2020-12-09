@@ -8,7 +8,6 @@
 - Code language: C, C++
 - Code license: 2-clause BSD
 
-Clone of Falcon.
 Requires the [wixtoolset](https://wixtoolset.org/).
 
 ## Building

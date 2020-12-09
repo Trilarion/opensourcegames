@@ -1,6 +1,7 @@
 # OpenHoMM
 
 - Home: https://launchpad.net/openhomm, https://sourceforge.net/projects/heroes-rebirth/
+- Inspiration: Heroes Of Might And Magic III
 - State: beta, inactive since 2010
 - Download: https://launchpad.net/openhomm/+download
 - Keyword: strategy

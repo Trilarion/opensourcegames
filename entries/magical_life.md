@@ -5,12 +5,10 @@
 - State: beta
 - Download: https://github.com/TBye101/MagicalLife/releases
 - Platform: Windows
-- Keyword: role playing, open content
+- Keyword: role playing, open content, 2D
 - Code repository: https://github.com/TBye101/MagicalLife.git
 - Code language: C#
 - Code license: MIT
 - Code dependency: MonoGame
-
-RPG 2D game similar to RimWorld.
 
 ## Building

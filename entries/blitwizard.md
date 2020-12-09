@@ -8,6 +8,6 @@
 - Code language: C, C++, Lua
 - Code license: zlib
 
-2D engine that runs Lua scripts.
+Runs Lua scripts.
 
 ## Building

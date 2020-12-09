@@ -8,8 +8,6 @@
 - Code license: LGPL-2.0
 - Developer: Laurence R. Brothers, Sheldon Simms, David Gibbs, William Tanksley
 
-Single player roguelike game.
-
 ## Building
 
 - Build system: Make

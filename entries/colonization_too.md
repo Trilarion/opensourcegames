@@ -1,6 +1,7 @@
 # Colonization too
 
 - Home: https://sourceforge.net/projects/coltoo/
+- Inspiration: Colonization
 - State: beta, inactive since 2004
 - Download: https://sourceforge.net/projects/coltoo/files/
 - Keyword: strategy

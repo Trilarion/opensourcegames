@@ -10,6 +10,4 @@
 - Code license: MIT
 - Assets license: CC-BY-SA-3.0
 
-Clone of Lotus Esprit Turbo Challenge.
-
 ## Building

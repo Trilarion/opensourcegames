@@ -5,7 +5,7 @@
 - State: mature, inactive since 2012
 - Download: https://sourceforge.net/projects/lcsgame/files/
 - Platform: Windows, Linux
-- Keyword: strategy, console, open content
+- Keyword: strategy, console, open content, role playing
 - Code repository: https://svn.code.sf.net/p/lcsgame/code (svn)
 - Code language: C++
 - Code license: GPL-2.0

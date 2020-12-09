@@ -1,6 +1,7 @@
 # Kobold's Quest 2
 
 - Home: https://sourceforge.net/projects/koboldsquest2/
+- Inspiration: Kobold's Quest
 - State: beta, inactive since 2011
 - Download: https://sourceforge.net/projects/koboldsquest2/files/
 - Keyword: role playing

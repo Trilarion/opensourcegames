@@ -8,7 +8,7 @@
 - Code language: C++, C
 - Code license: GPL-2.0
 
-Free Software implementation of the Ruby Game Scripting System (RGSS).
+Implementation of the Ruby Game Scripting System (RGSS).
 
 ## Building
 

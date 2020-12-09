@@ -10,6 +10,4 @@
 - Code license: Custom (see buildlic.txt)
 - Code dependency: libGDX
 
-Remake of Witchaven.
-
 ## Building

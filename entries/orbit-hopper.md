@@ -9,6 +9,4 @@
 - Code license: GPL-2.0
 - Code dependency: OpenGL, SDL
 
-Clone of SkyRoads.
-
 ## Building

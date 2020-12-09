@@ -13,6 +13,6 @@
 - Assets license: ? (taken from SuperTux)
 - Developer: onpon4
 
-(stylized as "reTux" in-game) is a 2D platformer.
+stylized as "reTux" in-game
 
 ## Building

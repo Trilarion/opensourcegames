@@ -8,8 +8,6 @@
 - Code language: C++
 - Code license: MIT
 
-3D Game Engine
-
 ## Building
 
 Uses GENie as build tool.

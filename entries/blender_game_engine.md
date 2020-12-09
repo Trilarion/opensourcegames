@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Blender_Game_Engine
 - State: mature
 - Download: https://www.blender.org/download/
-- Keyword: framework
+- Keyword: framework, 3D
 - Code repository: git://git.blender.org/blender.git (https://developer.blender.org/diffusion/)
 - Code language: C++
 - Code license: GPL-2.0

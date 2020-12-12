@@ -11,7 +11,6 @@
 - **[PyKaraoke](../pykaraoke.md)** (Python, LGPL-2.1, beta, inactive since 2011)
 - **[Sinatra](../sinatra.md)** (C, GPL-3.0, mature, inactive since 2008)
 - **[StepMania](../stepmania.md)** (C, C++, Lua, MIT, mature)
-- **[Transcend](../transcend.md)** (C++, Dia, ?, beta, inactive since 2005)
+- **[Transcend](../transcend.md)** (C++, ?, beta, inactive since 2005)
 - **[UltraStar Deluxe](../ultrastar_deluxe.md)** (Pascal, GPL-2.0, mature)
 - **[Vocaluxe](../vocaluxe.md)** (C#, C++, GPL-3.0, beta, inactive since 2018)
-- **[Vortice](../vortice.md)** (C#, MIT, mature)

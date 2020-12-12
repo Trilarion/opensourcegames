@@ -1,7 +1,6 @@
 # WWW
 
 - Home: https://github.com/alexdantas/www
-- Media: https://en.wikipedia.org/wiki/VVVVVV
 - Inspiration: VVVVVV
 - State: beta, inactive since 2014
 - Platform: Web

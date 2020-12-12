@@ -8,6 +8,6 @@
 - Code language: Java
 - Code license: MIT
 
-Anti chess game: you have to take your opponents piece if you can.
+You have to take your opponents piece if you can.
 
 ## Building

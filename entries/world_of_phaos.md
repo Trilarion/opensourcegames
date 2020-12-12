@@ -3,6 +3,7 @@
 - Home: http://worldofphaos.com/index.php?site=online_rpg, https://sourceforge.net/projects/phaosrpg/
 - State: mature, inactive since 2011
 - Download: https://sourceforge.net/projects/phaosrpg/files/
+- Platform: Web
 - Keyword: role playing, online
 - Code repository: https://gitlab.com/osgames/phaosrpg.git (snapshot of source releases)
 - Code language: PHP

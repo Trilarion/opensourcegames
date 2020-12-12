@@ -1,7 +1,6 @@
 # OpenDungeons
 
 - Home: https://opendungeons.github.io/
-- Media: https://en.wikipedia.org/wiki/Dungeon_Keeper
 - Inspiration: Dungeon Keeper
 - State: beta
 - Download: http://opendungeons.github.io/downloads.html

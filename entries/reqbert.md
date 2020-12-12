@@ -4,6 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Q*bert#Legacy
 - Inspiration: Q*bert
 - State: beta
+- Platform: Web
 - Keyword: puzzle, remake
 - Code repository: https://github.com/leonicolas/ReQbert.git
 - Code language: JavaScript

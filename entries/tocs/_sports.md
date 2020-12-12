@@ -6,6 +6,8 @@
 - **[Cannon Smash](../cannon_smash.md)** (C++, GPL-2.0, beta, inactive since 2003)
 - **[Dust Racing 2D](../dust_racing_2d.md)** (C, C++, GPL-3.0, mature)
 - **[Emilia Pinball](../emilia_pinball.md)** (C++, GPL-2.0, beta)
+- **[FooBillard++](../foobillard++.md)** (C, GPL-2.0, mature, inactive since 2012)
+- **[FooBillard](../foobillard.md)** (C, GPL-2.0, mature, inactive since 2010)
 - **[Free Tennis](../free_tennis.md)** (OCaml, GPL-2.0, beta, inactive since 2005)
 - **[Freekick 3](../freekick_3.md)** (C++, Python, GPL-3.0, mature, inactive since 2015)
 - **[GPL Arcade Volleyball](../gpl_arcade_volleyball.md)** (C++, GPL-2.0, beta, inactive since 2006)

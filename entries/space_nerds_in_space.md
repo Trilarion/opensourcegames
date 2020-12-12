@@ -4,7 +4,7 @@
 - Inspiration: Artemis: Spaceship Bridge Simulator
 - State: beta
 - Platform: Linux
-- Keyword: strategy, multiplayer, similar
+- Keyword: strategy, multiplayer, remake, space
 - Code repository: https://github.com/smcameron/space-nerds-in-space.git
 - Code language: C, Lua
 - Code license: GPL-2.0

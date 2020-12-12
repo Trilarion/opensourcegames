@@ -133,7 +133,7 @@ class DevelopersMaintainer:
             print('developers not yet loaded')
             return
         osg.write_developers(self.developers)
-        print('developers written')
+        print('{} developers written'.format(len(self.developers)))
 
     def check_for_duplicates(self):
         if not self.developers:

@@ -1,7 +1,7 @@
 # openc2e
 
 - Home: https://web.archive.org/web/20110223210931/http://openc2e.org/
-- Media: https://creatures.fandom.com/wiki/Openc2e, https://en.wikipedia.org/wiki/Creatures_(video_game_series)
+- Media: https://creatures.fandom.com/wiki/Openc2e
 - Inspiration: Creatures
 - State: beta
 - Keyword: game engine, remake, simulation, requires original content (?)

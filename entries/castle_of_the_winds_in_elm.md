@@ -3,6 +3,7 @@
 - Home: http://game.castleofthewinds.com/
 - Inspiration: Castle of the Winds
 - State: beta
+- Platform: Web
 - Keyword: remake, role playing
 - Code repository: https://github.com/mordrax/cotwelm.git
 - Code language: Elm, JavaScript

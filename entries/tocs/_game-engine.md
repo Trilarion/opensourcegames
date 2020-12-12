@@ -33,6 +33,7 @@
 - **[Falltergeist](../falltergeist.md)** (C++, GPL-3.0, beta)
 - **[FIFE](../fife.md)** (C++, Python, LGPL-2.1, beta)
 - **[Flare](../flare.md)** (C++, Java, GPL-3.0, mature)
+- **[Flex Engine](../flex_engine.md)** (C++, MIT, beta)
 - **[Free in the Dark (engine)](../free_in_the_dark_engine.md)** (C, C++, GPL-2.0, beta)
 - **[FreeSO](../freeso.md)** (C#, MPL-2.0, beta)
 - **[Freya Game Engine](../freya_game_engine.md)** (Java, LGPL-2.1, beta, inactive since 2002)

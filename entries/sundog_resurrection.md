@@ -1,6 +1,7 @@
 # SunDog Resurrection
 
 - Home: http://www.sundogresurrectionproject.com/, https://sourceforge.net/projects/sundog/
+- Media: https://en.wikipedia.org/wiki/SunDog:_Frozen_Legacy#SunDog:_Resurrection_Project
 - Inspiration: SunDog: Frozen Legacy
 - State: beta
 - Download: http://www.sundogresurrectionproject.com/downloads.html

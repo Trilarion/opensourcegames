@@ -4,6 +4,7 @@
 - Inspiration: The Lost Vikings
 - State: beta
 - Download: https://sourceforge.net/projects/freevikings/files/ (outdated)
+- Platform: Windows
 - Keyword: platform, puzzle, clone
 - Code repository: https://git.code.sf.net/p/freevikings/git, http://freevikings.cvs.sourceforge.net (cvs)
 - Code language: Ruby

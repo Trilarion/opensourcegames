@@ -3,6 +3,7 @@
 - Home: https://github.com/ihofmann/open-websoccer
 - State: mature
 - Download: https://github.com/ihofmann/open-websoccer/releases
+- Platform: Web
 - Keyword: sports, strategy, online
 - Code repository: https://github.com/ihofmann/open-websoccer.git
 - Code language: PHP

@@ -3,6 +3,7 @@
 - Home: https://web.archive.org/web/20190113091506/http://janmulder.com/scripts/hangman/
 - State: mature, inactive since 2003
 - Download: https://web.archive.org/web/20170401215027/http://janmulder.co.uk/download/webhangman.zip
+- Platform: Web
 - Keyword: puzzle, hangman, open content
 - Code repository: https://gitlab.com/osgames/webhangman.git (import of sources)
 - Code language: JavaScript

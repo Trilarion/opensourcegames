@@ -1,7 +1,6 @@
 # WitchavenGDX
 
 - Home: http://m210.duke4.net/
-- Media: https://en.wikipedia.org/wiki/Witchaven
 - Inspiration: Witchaven
 - State: beta
 - Keyword: action, remake, commercial content

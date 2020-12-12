@@ -1,7 +1,7 @@
 # BlockOut II
 
 - Home: http://www.blockout.net/blockout2/, https://sourceforge.net/projects/blockout/
-- Inspiration: BlockOut
+- Inspiration: Blockout
 - State: mature, inactive since 2014
 - Download: https://sourceforge.net/projects/blockout/files/blockout/
 - Platform: Windows, Linux

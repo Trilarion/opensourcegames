@@ -1,7 +1,6 @@
 # thiefcatcher
 
 - Home: https://github.com/Ponup/thiefcatcher
-- Media: https://en.wikipedia.org/wiki/Where_in_the_World_Is_Carmen_Sandiego%3F_(1985_video_game)
 - Inspiration: "Where in the World Is Carmen Sandiego? (1985)"
 - State: beta
 - Keyword: educational, remake, strategy

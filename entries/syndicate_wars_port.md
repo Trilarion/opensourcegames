@@ -1,7 +1,6 @@
 # Syndicate Wars Port
 
 - Home: http://swars.vexillium.org/
-- Media: https://en.wikipedia.org/wiki/Syndicate_Wars
 - Inspiration: Syndicate Wars
 - State: beta, inactive since 2010
 - Download: http://swars.vexillium.org/#download

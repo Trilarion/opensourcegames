@@ -2,6 +2,7 @@
 
 - Home: https://opensoccerstar.com/
 - State: beta
+- Platform: Web
 - Keyword: sports, strategy, online
 - Code repository: https://github.com/dmecke/OpenSoccerStar.git
 - Code language: PHP

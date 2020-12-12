@@ -1,8 +1,7 @@
 # Wizznic!
 
 - Home: http://wizznic.org
-- Media: https://en.wikipedia.org/wiki/Puzznic
-- Inspiration: Puzznic / Brix
+- Inspiration: Puzznic
 - State: beta, inactive since 2016
 - Keyword: arcade, puzzle, remake
 - Code repository: https://github.com/DusteDdk/Wizznic.git

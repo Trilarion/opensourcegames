@@ -2,6 +2,7 @@
 
 - Home: https://www2.childrenofur.com/
 - State: beta
+- Platform: Web
 - Keyword: role playing, multiplayer massive + online, open content, requires server
 - Code repository: https://github.com/ChildrenOfUr/coUclient.git, https://github.com/ChildrenOfUr/coUserver.git (archived)
 - Code language: Dart, JavaScript

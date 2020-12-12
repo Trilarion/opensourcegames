@@ -1,7 +1,6 @@
 # sundog
 
 - Home: https://github.com/laanwj/sundog
-- Media: https://en.wikipedia.org/wiki/SunDog:_Frozen_Legacy
 - Inspiration: SunDog: Frozen Legacy
 - State: beta
 - Platform: Linux

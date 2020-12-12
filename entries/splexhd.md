@@ -1,7 +1,6 @@
 # splexhd
 
 - Home: https://github.com/radu124/splexhd
-- Media: https://en.wikipedia.org/wiki/Supaplex
 - Inspiration: Supaplex
 - State: beta, inactive since 2012
 - Keyword: puzzle, remake

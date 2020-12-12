@@ -1,7 +1,7 @@
 # OpenOMF
 
 - Home: http://www.openomf.org/
-- Media: https://en.wikipedia.org/wiki/One_Must_Fall:_2097
+- Media: https://en.wikipedia.org/wiki/One_Must_Fall:_2097#Legacy
 - Inspiration: One Must Fall: 2097
 - State: beta
 - Download: http://www.openomf.org/downloads/, https://github.com/omf2097/openomf/releases

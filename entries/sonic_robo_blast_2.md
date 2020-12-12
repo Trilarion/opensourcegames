@@ -1,8 +1,7 @@
 # Sonic Robo Blast 2
 
 - Home: https://www.srb2.org/
-- Media: https://en.wikipedia.org/wiki/List_of_Sonic_the_Hedgehog_video_games
-- Inspiration: Sonic the Hedgehog
+- Inspiration: Sonic the Hedgehog series
 - State: mature
 - Download: https://www.srb2.org/download/
 - Platform: Windows, Linux, macOS

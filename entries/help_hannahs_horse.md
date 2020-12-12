@@ -1,7 +1,7 @@
 # Help Hannah's Horse
 
 - Home: https://sourceforge.net/projects/hannah/, https://packages.debian.org/search?keywords=hannah
-- Inspiration: PacMan
+- Inspiration: Pac-Man
 - State: beta, inactive since 2008
 - Download: https://sourceforge.net/projects/hannah/files/
 - Platform: Windows, Linux

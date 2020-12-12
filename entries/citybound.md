@@ -4,6 +4,7 @@
 - Inspiration: SimCity
 - State: beta
 - Download: https://aeplay.org/citybound-livebuilds, https://github.com/citybound/citybound/releases
+- Platform: Windows, Linux, macOS
 - Keyword: simulation, clone, open content
 - Code repository: https://github.com/citybound/citybound.git
 - Code language: Rust, JavaScript

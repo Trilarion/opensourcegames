@@ -1,7 +1,7 @@
 # Other-Life
 
 - Home: http://www.other-life.com/
-- Media: https://en.wikipedia.org/wiki/Eternal_Lands#Spin-offs
+- Inspiration: Eternal Lands
 - State: beta
 - Download: http://www.other-life.com/downloads.php
 - Keyword: role playing, multiplayer online + massive
@@ -9,9 +9,7 @@
 - Code language: C, C++
 - Code license: Custom (Eternal Lands license, modified QTPL)
 
-A community based game that allows you to affect the future of the game.
-Based on [Eternal Lands](eternal_lands.md).
-
 Mainly a client to connect to Eternal Lands?
+Was described at https://en.wikipedia.org/wiki/Eternal_Lands#Spin-offs but not included on that page anymore.
 
 ## Building

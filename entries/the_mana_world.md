@@ -3,6 +3,7 @@
 - Home: https://www.themanaworld.org/
 - State: mature
 - Download: https://wiki.themanaworld.org/index.php/Downloads
+- Platform: Web
 - Keyword: role playing, multiplayer online + massive, 2D
 - Code repository: https://github.com/themanaworld/tmwa.git (https://github.com/themanaworld), https://gitlab.com/manaplus/manaplus.git @add
 - Code language: PHP

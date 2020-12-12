@@ -1,7 +1,7 @@
 # Ballerburg SDL
 
 - Home: https://baller.tuxfamily.org/
-- Media: https://en.wikipedia.org/wiki/Ballerburg
+- Media: https://en.wikipedia.org/wiki/Ballerburg#Legacy
 - Inspiration: Ballerburg
 - State: mature
 - Keyword: action, remake, artillery

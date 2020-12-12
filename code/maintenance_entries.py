@@ -179,7 +179,32 @@ class EntriesMaintainer:
                     print('Entry "{}" has "Play" field but not "Platform" field, add it with "Web"'.format(name))
                 elif not 'Web' in entry['Platform']:
                     print('Entry "{}" has "Play" field but not "Web" in "Platform" field'.format(name))
-        # javascript/typescript as language but not web as platform?
+
+        # javascript/typescript/php as language but not web as platform?
+        ignored = ('0_ad.md', 'aussenposten.md', 'between.md', 'caesaria.md', 'cavepacker.md', 'citybound.md', 'gorillas.md', 'ika.md', 'inexor.md', 'maniadrive.md', 'oolite.md', 'freevikings.md', 'rolisteam.md', 'rpgboss.md', 'ruby-warrior.md', 'snelps.md', 'tenes_empanadas_graciela.md', 'thrive.md')
+        for entry in self.entries:
+            name = entry['File']
+            if name in ignored:
+                continue
+            if any(language in entry['Code language'] for language in ('JavaScript', 'TypeScript', 'PHP', 'CoffeeScript')) and ('Platform' not in entry or 'Web' not in entry['Platform']):
+                print('Entry "{}" has language JavaScript/PHP but not Web as platform.'.format(name))
+
+        # space in name but not space as keyword
+        ignored = ('burgerspace.md', 'crystal_space_3d_sdk.md', 'our_personal_space.md', 'space_harrier_clone.md')
+        for entry in self.entries:
+            name = entry['File']
+            if name in ignored:
+                continue
+            title = entry['Title']
+            if 'space' in title.lower() and not 'space' in entry['Keyword']:
+                print('Entry "{}" has space in name but not as keyword.'.format(name))
+
+        # starts with j + capital letter but not java as language
+        for entry in self.entries:
+            name = entry['File']
+            title = entry['Title']
+            if title[0] == 'j' and title[1] == title[1].upper() and not 'Java' in entry['Code language']:
+                print('Entry "{}" title starts with j? but Java is not a code language.'.format(name))
 
         # if there is a @see-download there should be download fields...
 
@@ -801,13 +826,27 @@ class EntriesMaintainer:
         if not self.entries:
             print('entries not yet loaded')
             return
-        # remove all downloads that only have a single entry with @see-home (this is the default anyway)
-        field = 'Download'
-        for entry in self.entries:
-            if field in entry:
-                content = entry[field]
-                if len(content) == 1 and content[0].value == '@see-home' and not content[0].comment:
-                    del entry[field]
+
+        # list all java projects that are inactive and mature, sort by year
+        entries = [(e['Title'], e['Code license'][0], osg.extract_inactive_year(e)) for e in self.entries if 'Java' in e['Code language'] and osg.is_inactive(e) and 'mature' in e['State']]
+        entries.sort(key=lambda x: x[2])
+        for entry in entries:
+            print('{} ({}, {})'.format(*entry))
+
+        # list all java projects that are inactive and beta, sort by year
+        entries = [(e['Title'], e['Code license'][0], osg.extract_inactive_year(e)) for e in self.entries if 'Java' in e['Code language'] and osg.is_inactive(e) and 'beta' in e['State']]
+        entries.sort(key=lambda x: x[2])
+        for entry in entries:
+            print('{} ({}, {})'.format(*entry))
+
+        # # remove all downloads that only have a single entry with @see-home (this is the default anyway)
+        # field = 'Download'
+        # for entry in self.entries:
+        #     if field in entry:
+        #         content = entry[field]
+        #         if len(content) == 1 and content[0].value == '@see-home' and not content[0].comment:
+        #             del entry[field]
+
         print('special ops finished')
 
     def complete_run(self):

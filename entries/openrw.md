@@ -1,7 +1,6 @@
 # OpenRW
 
 - Home: https://openrw.org/
-- Media: https://en.wikipedia.org/wiki/Grand_Theft_Auto_III
 - Inspiration: Grand Theft Auto III
 - State: beta
 - Platform: Windows, Linux, macOS

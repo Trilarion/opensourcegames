@@ -1,7 +1,6 @@
 # OpenJazz
 
 - Home: http://www.alister.eu/jazz/oj/
-- Media: https://en.wikipedia.org/wiki/Jazz_Jackrabbit
 - Inspiration: Jazz Jackrabbit
 - State: beta
 - Download: http://www.alister.eu/jazz/oj/download.php

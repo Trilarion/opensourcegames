@@ -1,7 +1,6 @@
 # Uebergame
 
 - Home: https://duion.com/games/uebergame/main
-- Media: https://en.wikipedia.org/wiki/ARMA:_Armed_Assault
 - Inspiration: ARMA 2, ARMA 3, ARMA: Armed Assault
 - State: mature
 - Download: https://duion.com/games/uebergame/downloads

@@ -3,6 +3,7 @@
 - Home: https://eguneys.github.io/jsgames/
 - Inspiration: Supaplex
 - State: mature
+- Platform: Web
 - Keyword: puzzle, remake, content commercial, skill
 - Code repository: https://github.com/eguneys/supaxl.git
 - Code language: JavaScript

@@ -1,7 +1,7 @@
 # Head over Heels
 
 - Home: https://github.com/dougmencken/HeadOverHeels, http://www.headoverheels2.com/drupal/en/
-- Media: https://en.wikipedia.org/wiki/Head_Over_Heels_(video_game)#Legacy (this could be added)
+- Media: https://en.wikipedia.org/wiki/Head_Over_Heels_(video_game)#Legacy
 - Inspiration: Head over Heels
 - State: mature
 - Download: http://www.headoverheels2.com/drupal/en/node/161

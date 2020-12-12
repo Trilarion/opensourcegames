@@ -1,7 +1,6 @@
 # zorkClone
 
 - Home: https://github.com/vatbub/zorkClone
-- Media: https://en.wikipedia.org/wiki/Zork
 - Inspiration: Zork
 - State: beta
 - Keyword: adventure, remake, text-based

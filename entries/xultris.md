@@ -3,6 +3,7 @@
 - Home: https://github.com/mackers/xultris, https://web.archive.org/web/20181216030855/http://games.mozdev.org/xultris/
 - Inspiration: Tetris
 - State: mature, inactive since 2011
+- Platform: Web
 - Keyword: arcade
 - Code repository: https://github.com/mackers/xultris.git
 - Code language: JavaScript, XUL

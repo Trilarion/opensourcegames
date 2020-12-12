@@ -1,7 +1,6 @@
 # Prescription Wars
 
 - Home: https://github.com/gtheilman/RxWars
-- Media: https://en.wikipedia.org/wiki/Drugwars
 - Inspiration: Drugwars
 - State: mature, inactive since 2016
 - Platform: Web

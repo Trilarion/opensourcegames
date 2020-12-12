@@ -1,7 +1,7 @@
 # OpenRCT2
 
 - Home: https://openrct2.io/, https://openrct2.org/
-- Media: https://en.wikipedia.org/wiki/RollerCoaster_Tycoon_2#Development
+- Media: https://en.wikipedia.org/wiki/RollerCoaster_Tycoon_2#Legacy
 - Inspiration: RollerCoaster Tycoon, RollerCoaster Tycoon 2
 - State: mature
 - Download: https://openrct2.org/downloads

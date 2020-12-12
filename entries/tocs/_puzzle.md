@@ -113,6 +113,7 @@
 - **[RufasSlider](../rufasslider.md)** (C++, GPL-2.0, mature)
 - **[RufasSwap](../rufasswap.md)** (Ada, GPL-3.0, mature)
 - **[Secret Maryo Chronicles](../secret_maryo_chronicles.md)** (C++, GPL-3.0, mature, inactive since 2009)
+- **[Simon Tatham's Portable Puzzle Collection](../simon_tathams_portable_puzzle_collection.md)** (C, MIT, mature)
 - **[Simsu](../simsu.md)** (C++, GPL-3.0, mature)
 - **[SokoSolve](../sokosolve.md)** (C#, GPL-3.0, mature, inactive since 2009)
 - **[splexhd](../splexhd.md)** (C++, GPL-2.0, beta, inactive since 2012)

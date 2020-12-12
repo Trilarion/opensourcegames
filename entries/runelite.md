@@ -1,7 +1,6 @@
 # RuneLite
 
 - Home: https://runelite.net/
-- Media: https://en.wikipedia.org/wiki/RuneScape
 - Inspiration: Old School RuneScape
 - State: mature
 - Keyword: remake, role playing, client, commercial content, multiplayer competitive + online + co-op
@@ -9,6 +8,6 @@
 - Code language: Java
 - Code license: 2-clause BSD
 
-Open source Old School RuneScape client
+Old School RuneScape client
 
 ## Building

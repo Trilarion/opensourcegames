@@ -1,7 +1,6 @@
 # Tumbly Towers
 
 - Home: https://github.com/SteveSmith16384/TumblyTowers
-- Media: https://en.wikipedia.org/wiki/Tricky_Towers
 - Inspiration: Tricky Towers
 - State: beta, inactive since 2017
 - Download: https://github.com/SteveSmith16384/TumblyTowers/releases

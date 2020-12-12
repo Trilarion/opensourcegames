@@ -8,5 +8,6 @@
 - Code repository: @see-download (inside JAR file)
 - Code language: Java
 - Code license: GPL-2.0
+- Developer: Stephen Ostermiller
 
 ## Building

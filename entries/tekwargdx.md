@@ -1,7 +1,6 @@
 # TekwarGDX
 
 - Home: http://m210.duke4.net/
-- Media: https://en.wikipedia.org/wiki/William_Shatner%27s_TekWar
 - Inspiration: TekWar
 - State: beta
 - Keyword: action, remake, commercial content, first-person, shooter

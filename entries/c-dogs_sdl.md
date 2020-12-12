@@ -1,7 +1,7 @@
 # C-Dogs SDL
 
 - Home: https://cxong.github.io/cdogs-sdl/
-- Media: https://en.wikipedia.org/wiki/C-Dogs
+- Media: https://en.wikipedia.org/wiki/C-Dogs#Open_source
 - Inspiration: C-Dogs
 - State: mature
 - Download: https://cxong.github.io/cdogs-sdl/downloads.html

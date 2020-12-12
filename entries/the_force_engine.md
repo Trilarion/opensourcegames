@@ -1,7 +1,6 @@
 # The Force Engine
 
 - Home: https://theforceengine.github.io/
-- Media: https://en.wikipedia.org/wiki/Star_Wars:_Dark_Forces
 - Inspiration: Dark Forces, Outlaws
 - State: beta
 - Keyword: action, game engine, remake, commercial content, first-person, requires original content, shooter

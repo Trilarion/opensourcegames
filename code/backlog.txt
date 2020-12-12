@@ -9,6 +9,13 @@ http://dead-code.org/home/
 http://e-adventure.e-ucm.es/login/index.php (games of eAdventure)
 http://ethernet.wasted.ch/
 http://evolonline.org/about
+https://github.com/tlgkccampbell/ultraviolet
+https://github.com/marshallward/TiledSharp
+https://github.com/mono/CocosSharp
+https://github.com/coelckers/Raze
+https://github.com/Apostolique/Apos.Gui
+https://github.com/coelckers/Raze
+https://github.com/WohlSoft/PGE-Project
 http://game-editor.com/Main_Page
 http://giderosmobile.com/
 http://haxepunk.com/

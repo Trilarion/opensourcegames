@@ -4,7 +4,7 @@
 - Inspiration: Runescape Classic
 - State: mature
 - Download: https://github.com/2006rebotted/2006rebotted/releases
-- Keyword: remake, role playing, commercial content, multiplayer online + co-op
+- Keyword: remake, role playing, content commercial, multiplayer online + co-op
 - Code repository: https://github.com/2006rebotted/2006rebotted.git
 - Code language: Java
 - Code license: 2-clause BSD

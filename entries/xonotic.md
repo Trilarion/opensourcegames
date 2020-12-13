@@ -10,6 +10,6 @@
 - Code language: C
 - Code license: GPL-3.0 (Darkplace engine is GPL-2.0)
 
-Arena-style first person shooter.
+Arena-style first-person shooter.
 
 ## Building

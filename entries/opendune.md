@@ -4,7 +4,7 @@
 - Inspiration: Dune 2
 - State: mature
 - Download: https://github.com/OpenDUNE/OpenDUNE/releases
-- Keyword: remake, strategy, requires original content (Dune 2 game files)
+- Keyword: remake, strategy, content original required (Dune 2 game files)
 - Code repository: https://github.com/OpenDUNE/OpenDUNE.git
 - Code language: C
 - Code license: GPL-2.0

@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://builds.openjk.org/
 - Platform: Windows
-- Keyword: action, game engine, remake, commercial content, requires original content
+- Keyword: action, game engine, remake, content commercial, content original required
 - Code repository: https://github.com/JACoders/OpenJK.git
 - Code language: C, C++
 - Code license: GPL-2.0

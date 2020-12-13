@@ -4,7 +4,7 @@
 - Inspiration: Minesweeper
 - State: mature
 - Platform: Linux
-- Keyword: strategy, clone, free content
+- Keyword: strategy, clone, content open
 - Code repository: https://gitlab.gnome.org/GNOME/gnome-mines.git
 - Code language: Vala
 - Code license: GPL-3.0

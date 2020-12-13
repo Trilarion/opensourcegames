@@ -1,6 +1,7 @@
 # Rocks'n'Diamonds
 
 - Home: https://www.artsoft.org/rocksndiamonds/
+- Media: https://en.wikipedia.org/wiki/Rocks%27n%27Diamonds
 - Inspiration: Boulder Dash, Supaplex, Sokoban, Emerald Mine
 - State: mature
 - Download: https://www.artsoft.org/rocksndiamonds/download/

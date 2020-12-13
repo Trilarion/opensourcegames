@@ -4,7 +4,7 @@
 - Inspiration: Battle City
 - State: mature
 - Platform: Web
-- Keyword: action, clone, commercial content
+- Keyword: action, clone, content commercial
 - Code repository: https://github.com/dogballs/cattle-bity.git
 - Code language: TypeScript
 - Code license: MIT

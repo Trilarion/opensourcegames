@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://github.com/opentomb/OpenTomb/releases
 - Platform: Windows
-- Keyword: action, game engine, remake, commercial content, requires original content
+- Keyword: action, game engine, remake, content commercial, content original required
 - Code repository: https://github.com/opentomb/OpenTomb.git
 - Code language: C, C++, Lua
 - Code license: LGPL-3.0

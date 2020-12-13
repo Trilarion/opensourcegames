@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://ioquake3.org/get-it/
 - Platform: Windows, Linux, macOS
-- Keyword: action, game engine, remake, requires original content, shooter
+- Keyword: action, game engine, remake, content original required, shooter
 - Code repository: https://github.com/ioquake/ioq3.git
 - Code language: C
 - Code license: GPL-2.0

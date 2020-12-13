@@ -4,7 +4,7 @@
 - State: beta, inactive since 2007
 - Download: http://tacticsgame.sourceforge.net/download.html, https://sourceforge.net/projects/tacticsgame/files/
 - Platform: Windows, Linux
-- Keyword: strategy, real time
+- Keyword: strategy, real-time
 - Code repository: http://tacticsgame.cvs.sourceforge.net (cvs)
 - Code language: C++
 - Code license: GPL-2.0

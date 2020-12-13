@@ -6,7 +6,7 @@
 - State: beta
 - Download: http://www.openomf.org/downloads/, https://github.com/omf2097/openomf/releases
 - Platform: Windows, Linux
-- Keyword: action, remake, commercial content (?), free content (?), requires original content
+- Keyword: action, remake, content commercial (?), content open (?), content original required
 - Code repository: https://github.com/omf2097/openomf.git
 - Code language: C, C++
 - Code license: MIT

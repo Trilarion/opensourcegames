@@ -4,7 +4,7 @@
 - Inspiration: Space Harrier
 - State: beta, inactive since 2018
 - Platform: Windows
-- Keyword: strategy, clone, free content
+- Keyword: strategy, clone, content open
 - Code repository: https://github.com/BrunoAOR/Space-Harrier-Clone.git
 - Code language: C, C++
 - Code license: MIT

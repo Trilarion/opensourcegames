@@ -6,7 +6,7 @@
 - State: mature
 - Download: https://openrct2.org/downloads
 - Platform: Windows, Linux, macOS
-- Keyword: remake, simulation, requires original content (from RCT2)
+- Keyword: remake, simulation, content original required (from RCT2)
 - Code repository: https://github.com/OpenRCT2/OpenRCT2.git
 - Code language: C++
 - Code license: GPL-3.0

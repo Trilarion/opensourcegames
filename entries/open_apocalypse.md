@@ -4,7 +4,7 @@
 - Inspiration: UFO: Enemy Unknown, X-COM: Apocalypse, X-COM: Terror from the Deep, X-COM: UFO Defense
 - State: beta
 - Download: https://ci.appveyor.com/project/openapoc/openapoc
-- Keyword: remake, strategy, commercial content, requires original content (X-Com Apocalypse)
+- Keyword: remake, strategy, content commercial, content original required (X-Com Apocalypse)
 - Code repository: https://github.com/OpenApoc/OpenApoc.git
 - Code language: C++
 - Code license: MIT

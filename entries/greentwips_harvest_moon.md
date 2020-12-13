@@ -3,7 +3,7 @@
 - Home: https://github.com/greentwip/HarvestMoon
 - Inspiration: Story of Seasons series
 - State: beta
-- Keyword: remake, commercial content (?)
+- Keyword: remake, content commercial (?)
 - Code repository: https://github.com/greentwip/HarvestMoon.git
 - Code language: C#
 - Code license: GPL-3.0

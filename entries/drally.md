@@ -3,7 +3,7 @@
 - Home: https://github.com/urxp/drally
 - Inspiration: Death Rally
 - State: beta
-- Keyword: action, remake, commercial content, racing
+- Keyword: action, remake, content commercial, racing
 - Code repository: https://github.com/urxp/drally.git
 - Code language: Assembly, C
 - Code license: MIT

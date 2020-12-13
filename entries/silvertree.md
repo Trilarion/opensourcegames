@@ -8,7 +8,7 @@
 - Code language: C++
 - Code license: GPL-3.0
 
-Hybrid real time, turn based system.
+Hybrid real-time, turn-based system.
 
 ## Building
 

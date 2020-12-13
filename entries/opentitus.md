@@ -4,7 +4,7 @@
 - Inspiration: Titus the Fox
 - State: beta, inactive since 2014
 - Download: https://sourceforge.net/projects/opentitus/files/opentitus/
-- Keyword: remake, requires original content
+- Keyword: remake, content original required
 - Code repository: https://github.com/stople/OpenTitus.git (uptodate?)
 - Code language: C
 - Code license: GPL-3.0

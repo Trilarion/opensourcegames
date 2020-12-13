@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://github.com/OpenSAGE/OpenSAGE/releases
 - Platform: Windows, Linux, macOS
-- Keyword: game engine, strategy, clone, commercial content, real time, requires original content
+- Keyword: game engine, strategy, clone, content commercial, real-time, content original required
 - Code repository: https://github.com/OpenSAGE/OpenSAGE.git
 - Code language: C#
 - Code license: LGPL-3.0

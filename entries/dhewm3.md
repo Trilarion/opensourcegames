@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/dhewm/dhewm3/releases
 - Platform: Windows, Linux, macOS
-- Keyword: action, remake, commercial content, requires original content, shooter
+- Keyword: action, remake, content commercial, content original required, shooter
 - Code repository: https://github.com/dhewm/dhewm3.git
 - Code language: C, C++
 - Code license: GPL-3.0

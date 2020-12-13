@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://github.com/francot514/FreeSims/releases
 - Platform: Windows
-- Keyword: remake, simulation, commercial content, requires original content
+- Keyword: remake, simulation, content commercial, content original required
 - Code repository: https://github.com/francot514/FreeSims.git
 - Code language: C#
 - Code license: MPL-2.0

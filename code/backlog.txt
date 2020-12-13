@@ -9,13 +9,6 @@ http://dead-code.org/home/
 http://e-adventure.e-ucm.es/login/index.php (games of eAdventure)
 http://ethernet.wasted.ch/
 http://evolonline.org/about
-https://github.com/tlgkccampbell/ultraviolet
-https://github.com/marshallward/TiledSharp
-https://github.com/mono/CocosSharp
-https://github.com/coelckers/Raze
-https://github.com/Apostolique/Apos.Gui
-https://github.com/coelckers/Raze
-https://github.com/WohlSoft/PGE-Project
 http://game-editor.com/Main_Page
 http://giderosmobile.com/
 http://haxepunk.com/
@@ -87,6 +80,8 @@ http://www.freemmorpgmaker.com/
 http://www.gameplay3d.io/
 http://www.garagegames.com/products/torque-3d
 http://www.gnu.org/ (search for games)
+http://www.goldenstudios.or.id/products/games/index.php
+http://www.goldenstudios.or.id/products/GTGE/
 http://www.happypenguin.org/show?XKobo (offline)
 http://www.hard-light.net/
 http://www.ibiblio.org/pub/Linux/games/strategy/ (and all others)
@@ -176,19 +171,12 @@ https://en.wikipedia.org/w/index.php?title=Kdegames&action=edit&redlink=1
 https://en.wikipedia.org/w/index.php?title=Simon_Tatham%27s_Portable_Puzzle_Collection&action=edit&redlink=1
 https://en.wikipedia.org/w/index.php?title=Simple_Solitaire_Collection&action=edit&redlink=1
 https://en.wikipedia.org/w/index.php?title=Trigger_Rally&action=edit&redlink=1
-https://en.wikipedia.org/wiki/Crystal_Space
 https://en.wikipedia.org/wiki/GNOME_Games_Collection
 https://en.wikipedia.org/wiki/List_of_commercial_video_games_with_available_source_code
 https://en.wikipedia.org/wiki/List_of_free_and_open-source_Android_applications#Games
 https://en.wikipedia.org/wiki/M.U.G.E.N
 https://en.wikipedia.org/wiki/MUD#Spread (all there)
 https://en.wikipedia.org/wiki/MUD_client (all there)
-https://en.wikipedia.org/wiki/No_Gravity_(video_game)
-https://en.wikipedia.org/wiki/One_Hour_One_Life
-https://en.wikipedia.org/wiki/Passage_(video_game)
-https://en.wikipedia.org/wiki/Rocks%27n%27Diamonds
-https://en.wikipedia.org/wiki/Rogue_(video_game)
-https://en.wikipedia.org/wiki/Teeworlds
 https://enigma-dev.org/about.htm
 https://faq.tuxfamily.org/Games/En
 https://fedoraproject.org/wiki/SIGs/Games#List_of_games_we_will_NOT_package
@@ -206,12 +194,12 @@ https://gdevelop-app.com/
 https://github.com/00-Evan/shattered-pixel-dungeon
 https://github.com/00-Evan/shattered-pixel-dungeon-gdx
 https://github.com/acedogblast/Project-Uranium-Godot
-https://github.com/AdaDoom3/AdaDoom3
-https://github.com/AdamsLair/duality
 https://github.com/adriengivry/Overload
 https://github.com/aloisdeniel/awesome-monogame
 https://github.com/Alzter/TuxBuilder
 https://github.com/amerkoleci/Vortice.Windows
+https://github.com/Hotride/OrionUO
+https://github.com/Apostolique/Apos.Gui
 https://github.com/armory3d/iron
 https://github.com/arturkot/the-house-game
 https://github.com/asweigart/PythonStdioGames
@@ -306,6 +294,7 @@ https://github.com/JohanLi/uncharted-waters-2
 https://github.com/JohnLamontagne/Lunar-Engine
 https://github.com/junkdog/artemis-odb
 https://github.com/jwvhewitt/gearhead-caramel.git
+https://github.com/Kaetram/Kaetram-Open
 https://github.com/Kavex/GameDev-Resources
 https://github.com/KDE
 https://github.com/kduske/TrenchBroom
@@ -322,6 +311,7 @@ https://github.com/luciopanepinto/pacman
 https://github.com/LuminoEngine/Lumino
 https://github.com/MarcoLizza/tofu-engine
 https://github.com/MarilynDafa/Bulllord-Engine
+https://github.com/marshallward/TiledSharp
 https://github.com/Martenfur/Monofoxe
 https://github.com/MatthewTheGlutton/HideousDestructor
 https://github.com/McKay42/McOsu
@@ -329,6 +319,7 @@ https://github.com/megamarc/Tilengine
 https://github.com/mewo2/terrain
 https://github.com/mgerhardy/engine
 https://github.com/mofr/Diablerie
+https://github.com/mono/CocosSharp
 https://github.com/moonwards1/Moonwards-Virtual-Moon
 https://github.com/morganbengtsson/mos
 https://github.com/MrFrenik/Enjon
@@ -378,6 +369,7 @@ https://github.com/Renanse/Ardor3D
 https://github.com/restorer/gloomy-dungeons-2
 https://github.com/RetroAchievements/RALibretro
 https://github.com/RetroAchievements/RAWeb
+https://github.com/rhgrant10/berserk
 https://github.com/rizwan3d/MotoGameEngine
 https://github.com/rlguy/FantasyMapGenerator
 https://github.com/rockbite/talos
@@ -460,6 +452,7 @@ https://libregamewiki.org/CameliaGirls
 https://libregamewiki.org/Childish_Cannoneer
 https://libregamewiki.org/index.php?title=Libregamewiki_talk:Community_Portal&oldid=25410#Some_long_term_ideas
 https://libregamewiki.org/Libregamewiki:Suggested_games#Likely_sources_for_more_free_games
+https://lichess.org/api
 https://lmemsm.dreamwidth.org/8013.html (List of some of my favorite Open Source games)
 https://love2d.org/forums/viewforum.php?f=14 (check them if time)
 https://moaiwebsite.github.io/
@@ -541,7 +534,6 @@ https://www.blender.org/
 https://www.bsframework.io/
 https://www.celephais.net/fitzquake/
 https://www.choiceofgames.com/make-your-own-games/choicescript-intro/
-https://www.duality2d.net
 https://www.fandom.com/topics/games (look for media links, example https://creatures.fandom.com/wiki/Openc2e)
 https://www.fosshub.com/about.html
 https://www.fosslinux.com/

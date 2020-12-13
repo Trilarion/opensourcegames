@@ -5,7 +5,7 @@
 - Inspiration: Command & Conquer, Command & Conquer: Red Alert, Dune 2000
 - State: mature
 - Download: http://www.openra.net/download/
-- Keyword: remake, strategy, multiplayer online + LAN, real time
+- Keyword: remake, strategy, multiplayer online + LAN, real-time
 - Code repository: https://github.com/OpenRA/OpenRA.git
 - Code language: C#
 - Code license: GPL-3.0

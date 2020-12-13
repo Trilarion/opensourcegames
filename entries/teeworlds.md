@@ -1,6 +1,7 @@
 # Teeworlds
 
 - Home: https://www.teeworlds.com/
+- Media: https://en.wikipedia.org/wiki/Teeworlds
 - State: beta, inactive since 2013
 - Download: https://www.teeworlds.com/?page=downloads
 - Platform: Windows, Linux, macOS

@@ -4,7 +4,7 @@
 - State: beta
 - Download: https://github.com/jsettlers/settlers-remake/releases
 - Platform: Windows, Linux, macOS, Android
-- Keyword: remake, strategy, requires original content
+- Keyword: remake, strategy, content original required
 - Code repository: https://github.com/jsettlers/settlers-remake.git
 - Code language: Java
 - Code license: MIT

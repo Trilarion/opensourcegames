@@ -4,7 +4,7 @@
 - Inspiration: Doom, Doom II, Heretic, Hexen
 - State: mature, inactive since 2012
 - Platform: iOS
-- Keyword: action, remake, commercial content, requires original content, shooter
+- Keyword: action, remake, content commercial, content original required, shooter
 - Code repository: https://github.com/id-Software/DOOM-iOS.git
 - Code language: C++
 - Code license: GPL-2.0

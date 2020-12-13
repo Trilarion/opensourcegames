@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/sgadrat/super-tilt-bro/releases
 - Platform: Linux (NES emulator)
-- Keyword: platform, clone, free content, multiplayer competitive
+- Keyword: platform, clone, content open, multiplayer competitive
 - Code repository: https://github.com/sgadrat/super-tilt-bro.git
 - Code language: Assembly, Python
 - Code license: WTFPL

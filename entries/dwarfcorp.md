@@ -4,7 +4,7 @@
 - Inspiration: Dwarf Fortress, Minecraft
 - State: mature
 - Platform: Windows, Linux, macOS
-- Keyword: game engine, strategy, commercial content (?)
+- Keyword: game engine, strategy, content commercial (?)
 - Code repository: https://github.com/Blecki/dwarfcorp.git
 - Code language: C#
 - Code license: MIT

@@ -4,7 +4,7 @@
 - Inspiration: Diablo
 - State: beta
 - Platform: Windows, Linux, macOS
-- Keyword: action, remake, role playing, commercial content, requires original content
+- Keyword: action, remake, role playing, content commercial, content original required
 - Code repository: https://github.com/wheybags/freeablo.git
 - Code language: C++
 - Code license: GPL-3.0

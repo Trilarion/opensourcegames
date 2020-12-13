@@ -5,7 +5,7 @@
 - Inspiration: Total Annihilation
 - State: mature
 - Download: https://springrts.com/wiki/Download
-- Keyword: game engine, remake, strategy, real time
+- Keyword: game engine, remake, strategy, real-time
 - Code repository: https://github.com/spring/spring.git, https://git.code.sf.net/p/springrts/code
 - Code language: C++, C, Lua
 - Code license: GPL-2.0

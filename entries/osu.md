@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://osu.ppy.sh/home/download, https://github.com/ppy/osu/releases
 - Platform: Windows, macOS, Android, iOS
-- Keyword: music, clone, free content
+- Keyword: music, clone, content open
 - Code repository: https://github.com/ppy/osu.git
 - Code language: C#
 - Code license: MIT

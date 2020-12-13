@@ -1,6 +1,7 @@
 # Crystal Space 3D SDK
 
 - Home: http://www.crystalspace3d.org/, https://sourceforge.net/projects/crystal/
+- Media: https://en.wikipedia.org/wiki/Crystal_Space
 - State: mature, inactive since 2015
 - Download: https://sourceforge.net/projects/crystal/files/
 - Platform: Windows, Linux, macOS

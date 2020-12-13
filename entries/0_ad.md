@@ -6,7 +6,7 @@
 - State: beta
 - Download: https://play0ad.com/download/
 - Platform: Windows, Linux, macOS
-- Keyword: strategy, multiplayer online + LAN, open content, real time
+- Keyword: strategy, multiplayer online + LAN, open content, real-time
 - Code repository: https://github.com/0ad/0ad.git (mirror), https://svn.wildfiregames.com/public/ps/ (svn)
 - Code language: C, C++, JavaScript
 - Code license: GPL-2.0

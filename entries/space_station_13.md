@@ -3,7 +3,7 @@
 - Home: https://spacestation13.com/
 - Media: https://en.wikipedia.org/wiki/Space_Station_13
 - State: mature
-- Keyword: role playing, online, turn based, space
+- Keyword: role playing, online, turn-based, space
 - Code repository: ? (many different versions, see below)
 - Code language: DM
 - Code license: AGPL-3.0

@@ -8,7 +8,7 @@
 - Code language: Java
 - Code license: GPL-2.0
 
-A turn based RPG with deep tactical combat and character customization.
+A turn-based RPG with deep tactical combat and character customization.
 See also [continuation](https://github.com/Trilarion/hale).
 
 ## Building

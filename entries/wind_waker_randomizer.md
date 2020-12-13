@@ -4,7 +4,7 @@
 - Inspiration: The Legend of Zelda: The Wind Waker
 - State: mature
 - Download: https://github.com/LagoLunatic/wwrando/releases
-- Keyword: tool, commercial content
+- Keyword: tool, content commercial
 - Code repository: https://github.com/LagoLunatic/wwrando.git
 - Code language: Python, Assembly
 - Code license: MIT

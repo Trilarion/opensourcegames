@@ -4,7 +4,7 @@
 - State: mature, inactive since 2014
 - Download: https://github.com/a-nikolaev/curseofwar/releases
 - Platform: Windows, Linux
-- Keyword: strategy, real time
+- Keyword: strategy, real-time
 - Code repository: https://github.com/a-nikolaev/curseofwar.git
 - Code language: C, C++
 - Code license: GPL-3.0

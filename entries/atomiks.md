@@ -4,7 +4,7 @@
 - Inspiration: Atomix
 - State: mature, inactive since 2015
 - Download: https://sourceforge.net/projects/atomiks/files
-- Keyword: puzzle, remake, commercial content
+- Keyword: puzzle, remake, content commercial
 - Code repository: https://gitlab.com/osgames/atomiks.git (backup of svn), https://svn.code.sf.net/p/atomiks/code (svn)
 - Code language: C
 - Code license: GPL-3.0

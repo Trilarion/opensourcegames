@@ -4,6 +4,7 @@
 - **[Abuse](../abuse.md)** (C++, Lisp, Public domain, GPL-2.0, WTFPL, mature, inactive since 2011)
 - **[Achtung, die Kurve!](../achtung_die_kurve.md)** (JavaScript, AGPL-3.0, mature)
 - **[ACM](../acm.md)** (C, GPL-2.0, mature, inactive since 2000)
+- **[AdaDoom3](../adadoom3.md)** (Ada, GPL-3.0, beta)
 - **[Adanaxis](../adanaxis.md)** (C++, GPL-2.0, mature, inactive since 2007)
 - **[Afternoon Stalker](../afternoon_stalker.md)** (C++, GPL-2.0, mature, inactive since 2012)
 - **[Ajax3d](../ajax3d.md)** (JavaScript, GPL-2.0, beta, inactive since 2007)

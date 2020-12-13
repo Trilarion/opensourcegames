@@ -4,7 +4,7 @@
 - Inspiration: Fire Emblem
 - State: mature
 - Download: https://bitbucket.org/featheredmelody/lost-sky-project-public/downloads/
-- Keyword: role playing, turn based
+- Keyword: role playing, turn-based
 - Code repository: https://bitbucket.org/featheredmelody/lost-sky-project-public/src (hg), https://gitlab.com/osgames/lost-sky.git @add
 - Code language: Python
 - Code license: 3-clause BSD

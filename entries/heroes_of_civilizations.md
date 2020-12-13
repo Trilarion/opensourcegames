@@ -10,4 +10,4 @@
 
 ## Building
 
-- Build system: Visual Studio project
+- Build system: Visual Studio

@@ -4,7 +4,7 @@
 - Inspiration: Need For Speed II SE
 - State: mature
 - Platform: Windows, Linux
-- Keyword: remake, commercial content, racing, requires original content
+- Keyword: remake, content commercial, racing, content original required
 - Code repository: https://github.com/zaps166/NFSIISE.git
 - Code language: C
 - Code license: MIT

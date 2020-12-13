@@ -4,7 +4,7 @@
 - Inspiration: The Settlers II
 - State: mature
 - Download: https://www.siedler25.org/index.php?com=dynamic&mod=2
-- Keyword: remake, strategy, requires original content (Settlers II Gold)
+- Keyword: remake, strategy, content original required (Settlers II Gold)
 - Code repository: https://launchpad.net/s25rttr, https://github.com/Return-To-The-Roots/s25client.git @add
 - Code language: C++
 - Code license: GPL-3.0

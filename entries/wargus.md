@@ -4,7 +4,7 @@
 - Inspiration: Warcraft II
 - State: mature (?)
 - Download: http://wargus.stratagus.com/download.shtml
-- Keyword: remake, strategy, commercial content, requires original content
+- Keyword: remake, strategy, content commercial, content original required
 - Code repository: https://github.com/Wargus/wargus.git, https://code.launchpad.net/wargus (bzr)
 - Code language: C++, Lua
 - Code license: GPL-2.0

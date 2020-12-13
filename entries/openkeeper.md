@@ -3,7 +3,7 @@
 - Home: https://github.com/tonihele/OpenKeeper
 - Inspiration: Dungeon Keeper 2
 - State: beta
-- Keyword: game engine, remake, simulation, commercial content, requires original content
+- Keyword: game engine, remake, simulation, content commercial, content original required
 - Code repository: https://github.com/tonihele/OpenKeeper.git
 - Code language: Java
 - Code license: GPL-3.0

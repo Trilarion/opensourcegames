@@ -3,7 +3,7 @@
 - Home: https://github.com/acoto87/war1
 - Inspiration: Warcraft: Orcs & Humans
 - State: beta
-- Keyword: remake, strategy, commercial content, requires original content
+- Keyword: remake, strategy, content commercial, content original required
 - Code repository: https://github.com/acoto87/war1.git
 - Code language: C
 - Code license: zlib

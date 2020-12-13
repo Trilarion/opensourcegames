@@ -13,4 +13,4 @@ Multi-platform toolkit for creating graphical user interfaces.
 
 ## Building
 
-- Build system: meson
+- Build system: Meson

@@ -5,7 +5,7 @@
 - State: beta, inactive since 2015
 - Download: https://github.com/xythobuz/OpenRaider/releases
 - Platform: macOS
-- Keyword: action, remake, requires original content (?)
+- Keyword: action, remake, content original required (?)
 - Code repository: https://github.com/xythobuz/OpenRaider.git, http://openraider.cvs.sourceforge.net (cvs)
 - Code language: C, C++
 - Code license: GPL-2.0

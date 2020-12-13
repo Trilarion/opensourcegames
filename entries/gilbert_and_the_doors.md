@@ -14,4 +14,4 @@
 
 ## Building
 
-- Build system: none
+- Build system: None

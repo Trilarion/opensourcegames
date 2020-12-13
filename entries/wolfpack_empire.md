@@ -4,7 +4,7 @@
 - Media: https://web.archive.org/web/20160511001400/https://lgdb.org/game/wolfpack-empire
 - State: mature
 - Download: https://sourceforge.net/projects/empserver/files/
-- Keyword: strategy, online, real time, multiplayer
+- Keyword: strategy, online, real-time, multiplayer
 - Code repository: http://git.pond.sub.org/empserver (http://git.pond.sub.org/?p=empserver;a=summary)
 - Code language: C
 - Code license: GPL-3.0

@@ -105,6 +105,7 @@ Mining Haze (http://sourceforge.net/projects/mininghaze/): Very early developmen
 Mining Haze (https://sourceforge.net/projects/mininghaze/): Early development
 MonoStrategy (https://monostrategy.codeplex.com/, https://codeplexarchive.blob.core.windows.net/archive/projects/monostrategy/monostrategy.zip): Early development (alpha), Not playable, requires original content, abandoned
 Moopy (https://code.google.com/archive/p/moopy/, https://code.google.com/archive/p/moopy/source/default/source): Early development stage
+Mugen (https://en.wikipedia.org/wiki/Mugen_(engine), https://github.com/fanyer/mugen, http://www.elecbyte.com/mugendocs/mugen.html): Freeware but not open source (https://www.reddit.com/r/mugen/comments/ernvwb/is_mugen_open_source/)
 MultiGame (https://github.com/whendricso/MultiGame): Commercial
 Neverputt (): Part of Neverball or never really offered separately
 New RAW (http://sourceforge.net/projects/newraw/, http://svn.code.sf.net/p/newraw/code/): Early development, requires original content, abandoned

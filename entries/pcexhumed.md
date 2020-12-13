@@ -3,7 +3,7 @@
 - Home: https://lerppu.net/wannabethesis/, http://pcex.retrohost.net/
 - Inspiration: Powerslave
 - State: beta
-- Keyword: action, remake, commercial content
+- Keyword: action, remake, content commercial
 - Code repository: https://github.com/nukeykt/NBlood.git
 - Code language: C++
 - Code license: Custom

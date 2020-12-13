@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://github.com/AxioDL/urde/releases
 - Platform: Windows, macOS
-- Keyword: game engine, remake, commercial content, requires original content
+- Keyword: game engine, remake, content commercial, content original required
 - Code repository: https://gitlab.axiodl.com/AxioDL/urde.git, https://github.com/AxioDL/urde.git
 - Code language: C, C++
 - Code license: MIT

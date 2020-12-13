@@ -5,7 +5,7 @@
 - Inspiration: "Anno (series)"
 - State: beta
 - Download: http://unknown-horizons.org/downloads/
-- Keyword: strategy, clone, turn-based, 2D, real time
+- Keyword: strategy, clone, turn-based, 2D, real-time
 - Code repository: https://github.com/unknown-horizons/unknown-horizons.git, https://github.com/unknown-horizons/godot-port.git @add
 - Code language: Python
 - Code license: GPL-2.0

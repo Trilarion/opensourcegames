@@ -5,7 +5,7 @@
 - Inspiration: Cave Story
 - State: mature
 - Download: https://github.com/EXL/NXEngine/releases
-- Keyword: platform, remake, free content
+- Keyword: platform, remake, content open
 - Code repository: https://github.com/EXL/NXEngine.git
 - Code language: C, C++
 - Code license: GPL-3.0

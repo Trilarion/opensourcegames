@@ -6,7 +6,7 @@
 - Code repository: https://github.com/CireG/Zauberer.git
 - Code language: None
 - Code license: ISC
-- Code dependency: Hexen-based
+- Code dependency: Hexen
 - Assets license: 3-clause BSD
 - Developer: Eric Söderberg
 

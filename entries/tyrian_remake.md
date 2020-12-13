@@ -3,7 +3,7 @@
 - Home: https://www.b3dgs.com/v7/page.php?lang=en&section=tyrian_remake
 - Inspiration: Tyrian
 - State: beta
-- Keyword: action, remake, scrolling, shootem
+- Keyword: action, remake, scrolling, shooter
 - Code repository: https://github.com/b3dgs/tyrian-remake.git
 - Code language: Java
 - Code license: GPL-2.0

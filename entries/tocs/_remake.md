@@ -4,6 +4,7 @@
 - **[1oom](../1oom.md)** (C, GPL-2.0, mature)
 - **[2006-rebotted](../2006-rebotted.md)** (Java, 2-clause BSD, mature)
 - **[Abuse](../abuse.md)** (C++, Lisp, Public domain, GPL-2.0, WTFPL, mature, inactive since 2011)
+- **[AdaDoom3](../adadoom3.md)** (Ada, GPL-3.0, beta)
 - **[Afternoon Stalker](../afternoon_stalker.md)** (C++, GPL-2.0, mature, inactive since 2012)
 - **[Ajax3d](../ajax3d.md)** (JavaScript, GPL-2.0, beta, inactive since 2007)
 - **[Aklabeth](../aklabeth.md)** (C, GPL-2.0, mature, inactive since 2004)

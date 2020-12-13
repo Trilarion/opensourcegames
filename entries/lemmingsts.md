@@ -4,7 +4,7 @@
 - Inspiration: Lemmings
 - State: mature
 - Platform: Web
-- Keyword: puzzle, clone, commercial content, requires original content
+- Keyword: puzzle, clone, content commercial, content original required
 - Code repository: https://github.com/tomsoftware/Lemmings.ts.git
 - Code language: TypeScript
 - Code license: MIT

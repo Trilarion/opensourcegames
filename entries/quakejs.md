@@ -5,7 +5,7 @@
 - State: mature
 - Play: http://www.quakejs.com/
 - Platform: Web
-- Keyword: remake, first-person, requires original content (?), shooter
+- Keyword: remake, first-person, content original required (?), shooter
 - Code repository: https://github.com/inolen/quakejs.git
 - Code language: JavaScript
 - Code license: MIT

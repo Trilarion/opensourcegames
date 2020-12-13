@@ -5,7 +5,7 @@
 - State: beta
 - Play: https://soapbubble.online/morpheus/
 - Platform: Web
-- Keyword: adventure, remake, commercial content, first-person, requires original content
+- Keyword: adventure, remake, content commercial, first-person, content original required
 - Code repository: https://github.com/soap-bubble/web.git
 - Code language: JavaScript
 - Code license: MIT

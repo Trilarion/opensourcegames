@@ -3,7 +3,7 @@
 - Home: https://github.com/movitto/omega
 - State: beta
 - Platform: Web
-- Keyword: strategy, open content, real time, space
+- Keyword: strategy, open content, real-time, space
 - Code repository: https://github.com/movitto/omega.git
 - Code language: JavaScript, Ruby
 - Code license: AGPL-3.0

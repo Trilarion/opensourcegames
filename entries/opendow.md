@@ -3,7 +3,7 @@
 - Home: https://github.com/rofl0r/openDOW
 - Inspiration: Dogs of War
 - State: beta
-- Keyword: remake, strategy, real time
+- Keyword: remake, strategy, real-time
 - Code repository: https://github.com/rofl0r/openDOW.git
 - Code language: C
 - Code license: GPL-3.0

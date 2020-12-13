@@ -13,4 +13,4 @@ Modding tools such as a map editor, model exporter, material editor of Mafia II.
 
 ## Building
 
-- Build system: Visual Studio project
+- Build system: Visual Studio

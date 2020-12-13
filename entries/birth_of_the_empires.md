@@ -3,7 +3,7 @@
 - Home: http://bote2.square7.ch/en/wiki/Main_Page
 - Inspiration: Master of Orion 2, Star Trek: Birth of the Federation
 - State: mature, inactive since 2016
-- Keyword: strategy, turn based, 4X, space
+- Keyword: strategy, turn-based, 4X, space
 - Code repository: https://github.com/bote-team/bote.git
 - Code language: C++
 - Code license: Custom (private use allowed)

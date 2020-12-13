@@ -14,4 +14,4 @@ Sudoku puzzle game (generator and solver).
 
 ## Building
 
-- Build system: none
+- Build system: None

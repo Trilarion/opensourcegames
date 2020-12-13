@@ -4,7 +4,7 @@
 - Inspiration: Syndicate Wars
 - State: beta, inactive since 2010
 - Download: http://swars.vexillium.org/#download
-- Keyword: action, remake, strategy, commercial content, real time, requires original content
+- Keyword: action, remake, strategy, content commercial, real-time, content original required
 - Code repository: @see-download
 - Code language: C
 - Code license: GPL-3.0

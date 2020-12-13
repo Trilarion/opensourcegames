@@ -6,7 +6,7 @@
 - Play: https://play.taisei-project.org/
 - Download: https://taisei-project.org/download, https://github.com/taisei-project/taisei/releases
 - Platform: Windows, Linux, macOS, Web
-- Keyword: action, remake, open content, shootem
+- Keyword: action, remake, open content, shooter
 - Code repository: https://github.com/taisei-project/taisei.git
 - Code language: C, Python
 - Code license: MIT

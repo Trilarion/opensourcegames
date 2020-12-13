@@ -15,4 +15,4 @@ Original was part of the [Microsoft Entertainment Pack 3](https://en.wikipedia.o
 
 ## Building
 
-- Build system: Xcode project
+- Build system: Xcode

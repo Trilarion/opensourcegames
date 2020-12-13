@@ -4,7 +4,7 @@
 - State: mature
 - Play: http://www.in-fi-del.net/static/cult/index.html
 - Platform: Web
-- Keyword: strategy, turn based
+- Keyword: strategy, turn-based
 - Code repository: https://github.com/infidel-/cult.git
 - Code language: Haxe, JavaScript
 - Code license: GPL-3.0

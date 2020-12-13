@@ -3,7 +3,7 @@
 - Home: https://github.com/Marisa-Chan/UA_source
 - Inspiration: Urban Assault
 - State: beta
-- Keyword: remake, commercial content, requires original content
+- Keyword: remake, content commercial, content original required
 - Code repository: https://github.com/Marisa-Chan/UA_source.git
 - Code language: C++
 - Code license: GPL-2.0

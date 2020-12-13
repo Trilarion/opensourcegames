@@ -3,7 +3,7 @@
 - Home: https://github.com/SoapyMan/REDRIVER2
 - Inspiration: Driver 2
 - State: beta
-- Keyword: remake, commercial content, requires original content
+- Keyword: remake, content commercial, content original required
 - Code repository: https://github.com/SoapyMan/REDRIVER2.git
 - Code language: C++
 - Code license: MIT

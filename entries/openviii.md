@@ -4,7 +4,7 @@
 - Inspiration: Final Fantasy VIII
 - State: beta
 - Platform: Windows, Linux
-- Keyword: game engine, remake, role playing, commercial content, requires original content
+- Keyword: game engine, remake, role playing, content commercial, content original required
 - Code repository: https://github.com/MaKiPL/OpenVIII-monogame.git
 - Code language: C#
 - Code license: MIT

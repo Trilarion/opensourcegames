@@ -3,7 +3,7 @@
 - Home: https://github.com/yuv422/cosmo-engine
 - Inspiration: Cosmo's Cosmic Adventure
 - State: beta
-- Keyword: platform, remake, commercial content, requires original content
+- Keyword: platform, remake, content commercial, content original required
 - Code repository: https://github.com/yuv422/cosmo-engine.git
 - Code language: C
 - Code license: GPL-2.0

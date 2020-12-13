@@ -53,6 +53,7 @@
 - **[Monsters and Mushrooms](../monsters_and_mushrooms.md)** (Python, GPL-2.0, mature, inactive since 2010)
 - **[Mr. Rescue](../mr_rescue.md)** (Lua, zlib, mature, inactive since 2016)
 - **[Nighthawk](../nighthawk.md)** (C++, GPL-2.0, mature, inactive since 2004)
+- **[No Gravity](../no_gravity.md)** (C, GPL-2.0, mature, inactive since 2006)
 - **[Noiz2sa](../noiz2sa.md)** (C, C++, 2-clause BSD, beta, inactive since 2004)
 - **[OldSkool Gravity Game](../oldskool_gravity_game.md)** (C++, GPL-3.0, mature, inactive since 2016)
 - **[One is enough](../one_is_enough.md)** (Python, GPL-2.0, beta, inactive since 2008)

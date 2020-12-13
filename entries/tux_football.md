@@ -1,7 +1,7 @@
 # Tux Football
 
 - Home: http://tuxfootball.sourceforge.net/, https://sourceforge.net/projects/tuxfootball/
-- Inspiration: Sensible Soccer, Kick Off
+- Inspiration: Kick Off, Sensible Soccer
 - State: beta, inactive since 2012
 - Download: http://tuxfootball.sourceforge.net/index.php?plugin=EnticorePluginStaticContent&config=idx%3A3, https://sourceforge.net/projects/tuxfootball/files/
 - Platform: Windows, Linux

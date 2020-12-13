@@ -5,7 +5,7 @@
 - Play: https://kobuge-games.github.io/minilens/ml/
 - Download: https://github.com/KOBUGE-Games/minilens/releases
 - Platform: Windows, Linux, macOS, Android, Web
-- Keyword: platform, puzzle, open content
+- Keyword: platform, puzzle, content open
 - Code repository: https://github.com/KOBUGE-Games/minilens.git
 - Code language: GDScript
 - Code license: GPL-3.0

@@ -3,7 +3,7 @@
 - Home: http://www.thregr.org/~wavexx/software/regame/
 - State: mature, inactive since 2014
 - Platform: Windows, Linux, macOS
-- Keyword: arcade, open content
+- Keyword: arcade, content open
 - Code repository: https://gitlab.com/wavexx/regame.git
 - Code language: C++
 - Code license: LGPL-2.1

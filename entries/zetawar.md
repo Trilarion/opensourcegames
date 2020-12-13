@@ -1,7 +1,7 @@
 # Zetawar
 
 - Home: http://www.zetawar.com/
-- Inspiration: Weewar, Elite Command
+- Inspiration: Elite Command, Weewar
 - State: mature
 - Platform: Web
 - Keyword: strategy

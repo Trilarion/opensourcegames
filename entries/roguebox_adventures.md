@@ -4,7 +4,7 @@
 - State: mature, inactive since 2017
 - Download: https://rogueboxadventures.tuxfamily.org/download.html
 - Platform: Windows, Linux
-- Keyword: role playing, open content, roguelike, 2D
+- Keyword: role playing, 2D, content open, roguelike
 - Code repository: https://git.tuxfamily.org/rba/rogueboxadventures.git
 - Code language: Python
 - Code license: GPL-3.0

@@ -4,7 +4,7 @@
 - Inspiration: Space Federation: Galactic Conquest
 - State: beta, inactive since 2008
 - Download: https://sourceforge.net/projects/aplanetsrevenge/files/aplanetsrevenge/apr-1.0-alpha/
-- Keyword: strategy, text-based, space
+- Keyword: strategy, space, text-based
 - Code repository: https://gitlab.com/osgames/aplanetsrevenge.git (copy of last source release)
 - Code language: Python
 - Code license: GPL-3.0

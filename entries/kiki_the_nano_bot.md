@@ -2,7 +2,7 @@
 
 - Home: http://kiki.sourceforge.net/, https://sourceforge.net/projects/kiki/
 - Media: https://en.wikipedia.org/wiki/Kiki_the_nano_bot
-- Inspiration: Sokoban, Kula World
+- Inspiration: Kula World, Sokoban
 - State: mature, inactive since 2007
 - Download: http://kiki.sourceforge.net/download/index.html
 - Platform: Windows, macOS

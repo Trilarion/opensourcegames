@@ -4,7 +4,7 @@
 - Inspiration: Powder Game
 - State: mature
 - Platform: Windows, Linux, macOS, Android
-- Keyword: simulation, clone, open content
+- Keyword: simulation, clone, content open
 - Code repository: https://github.com/The-Powder-Toy/The-Powder-Toy.git
 - Code language: C++, C, Lua, Python
 - Code license: GPL-3.0

@@ -4,7 +4,7 @@
 - State: beta, inactive since 2008
 - Download: https://sourceforge.net/projects/krank/files/
 - Platform: Windows, Linux, macOS
-- Keyword: role playing, skill, open content, skill
+- Keyword: role playing, content open, skill
 - Code repository: https://svn.code.sf.net/p/krank/code (svn), http://krank.cvs.sourceforge.net (cvs)
 - Code language: Python
 - Code license: Public domain

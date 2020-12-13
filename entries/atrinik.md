@@ -1,7 +1,7 @@
 # Atrinik
 
 - Home: https://www.atrinik.org/, https://github.com/atrinik
-- Inspiration: Daimonin, Crossfire
+- Inspiration: Crossfire, Daimonin
 - State: mature, inactive since 2016
 - Keyword: role playing, 2D
 - Code repository: https://github.com/atrinik/atrinik.git

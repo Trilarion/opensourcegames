@@ -2,7 +2,7 @@
 
 - Home: http://www.freecol.org/, https://sourceforge.net/projects/freecol/
 - Media: https://en.wikipedia.org/wiki/FreeCol
-- Inspiration: Sid Meier's Colonization, Civilization
+- Inspiration: Civilization, Sid Meier's Colonization
 - State: mature
 - Download: http://www.freecol.org/download.html
 - Keyword: remake, strategy, multiplayer, turn-based

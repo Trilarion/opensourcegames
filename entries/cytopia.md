@@ -4,7 +4,7 @@
 - Inspiration: SimCity
 - State: beta
 - Download: https://cytopia.net/download/
-- Keyword: simulation, clone, open content
+- Keyword: simulation, clone, content open
 - Code repository: https://github.com/CytopiaTeam/Cytopia.git
 - Code language: C++
 - Code license: GPL-3.0

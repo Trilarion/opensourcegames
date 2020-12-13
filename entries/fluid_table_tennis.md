@@ -5,7 +5,7 @@
 - State: mature, inactive since 2013
 - Play: http://anirudhjoshi.github.io/fluid_table_tennis/
 - Platform: Web
-- Keyword: arcade, remake, multiplayer competitive + local, open content
+- Keyword: arcade, remake, content open, multiplayer competitive + local
 - Code repository: https://github.com/anirudhjoshi/fluid_table_tennis.git
 - Code language: JavaScript
 - Code license: MIT

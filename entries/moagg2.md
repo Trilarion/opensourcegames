@@ -5,7 +5,7 @@
 - State: mature, inactive since 2008
 - Download: http://moagg.sourceforge.net/download.html, https://sourceforge.net/projects/moagg/files/
 - Platform: Windows, Linux
-- Keyword: arcade, 2D, open content
+- Keyword: arcade, 2D, content open
 - Code repository: https://svn.code.sf.net/p/moagg/code (svn), http://moagg.cvs.sourceforge.net (cvs)
 - Code language: Java
 - Code license: GPL-2.0

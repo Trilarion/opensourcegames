@@ -3,7 +3,7 @@
 - Home: https://openswe1r.github.io/
 - Inspiration: Star Wars Episode I: Racer
 - State: beta
-- Keyword: remake, content commercial, content original required
+- Keyword: remake, content commercial + original required
 - Code repository: https://github.com/OpenSWE1R/openswe1r.git
 - Code language: C, C++
 - Code license: GPL-2.0

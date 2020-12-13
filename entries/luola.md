@@ -4,7 +4,7 @@
 - Inspiration: V-Wing
 - State: mature, inactive since 2005
 - Platform: Windows, Linux, macOS
-- Keyword: arcade, open content
+- Keyword: arcade, content open
 - Code repository: https://github.com/callaa/luola.git
 - Code language: C
 - Code license: GPL-2.0

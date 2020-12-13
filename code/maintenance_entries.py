@@ -11,7 +11,7 @@ import re
 import datetime
 import json
 import textwrap
-from utils import osg, osg_ui, utils, constants as c
+from utils import osg, osg_ui, osg_parse, utils, constants as c
 import requests
 
 
@@ -205,6 +205,13 @@ class EntriesMaintainer:
             title = entry['Title']
             if title[0] == 'j' and title[1] == title[1].upper() and not 'Java' in entry['Code language']:
                 print('Entry "{}" title starts with j? but Java is not a code language.'.format(name))
+
+        # search for duplicate keywords
+        for entry in self.entries:
+            keywords = entry['Keyword']
+            duplicates = [keyword for keyword in keywords if keywords.count(keyword) > 1]
+            if duplicates:
+                print('"{}" has duplicate keywords: {}'.format(entry['File'], duplicates))
 
         # if there is a @see-download there should be download fields...
 
@@ -508,6 +515,11 @@ class EntriesMaintainer:
         unique_languages = set(languages)
         unique_languages = [(l, languages.count(l) / len(languages)) for l in unique_languages]
         unique_languages.sort(key=lambda x: str.casefold(x[0]))  # first sort by name
+
+        # print languages to console
+        print('\nLanguages\n')
+        print('\n'.join('{} ({:.1f}%)'.format(x[0], x[1] * 100) for x in unique_languages))
+
         unique_languages.sort(key=lambda x: x[1], reverse=True)  # then sort by occurrence (highest occurrence first)
         unique_languages = ['- {} ({:.1f}%)\n'.format(x[0], x[1] * 100) for x in unique_languages]
         statistics += '##### Language frequency\n\n' + ''.join(unique_languages) + '\n'
@@ -525,6 +537,11 @@ class EntriesMaintainer:
         unique_licenses = set(licenses)
         unique_licenses = [(l, licenses.count(l) / len(licenses)) for l in unique_licenses]
         unique_licenses.sort(key=lambda x: str.casefold(x[0]))  # first sort by name
+
+        # print licenses to console
+        print('\nLicenses\n')
+        print('\n'.join('{} ({:.1f}%)'.format(x[0], x[1] * 100) for x in unique_licenses))
+
         unique_licenses.sort(key=lambda x: -x[1])  # then sort by occurrence (highest occurrence first)
         unique_licenses = ['- {} ({:.1f}%)\n'.format(x[0], x[1] * 100) for x in unique_licenses]
         statistics += '##### Licenses frequency\n\n' + ''.join(unique_licenses) + '\n'
@@ -545,6 +562,11 @@ class EntriesMaintainer:
         unique_keywords = set(keywords)
         unique_keywords = [(l, keywords.count(l) / len(keywords)) for l in unique_keywords]
         unique_keywords.sort(key=lambda x: str.casefold(x[0]))  # first sort by name
+
+        # print keywords to console
+        print('\nKeywords\n')
+        print('\n'.join('{} ({:.1f}%)'.format(x[0], x[1] * 100) for x in unique_keywords))
+
         unique_keywords.sort(key=lambda x: -x[1])  # then sort by occurrence (highest occurrence first)
         unique_keywords = ['- {} ({:.1f}%)'.format(x[0], x[1] * 100) for x in unique_keywords]
         statistics += '##### Keywords frequency\n\n' + '\n'.join(unique_keywords) + '\n\n'
@@ -598,6 +620,11 @@ class EntriesMaintainer:
         unique_code_dependencies = [(l, code_dependencies.count(l) / len(code_dependencies)) for l in
                                     unique_code_dependencies]
         unique_code_dependencies.sort(key=lambda x: str.casefold(x[0]))  # first sort by name
+
+        # print code dependencies to console
+        print('\nCode dependencies\n')
+        print('\n'.join('{} ({:.1f}%)'.format(x[0], x[1] * 100) for x in unique_code_dependencies))
+
         unique_code_dependencies.sort(key=lambda x: -x[1])  # then sort by occurrence (highest occurrence first)
         unique_code_dependencies = ['- {} ({:.1f}%)'.format(x[0], x[1] * 100) for x in unique_code_dependencies]
         statistics += '##### Code dependencies frequency\n\n' + '\n'.join(unique_code_dependencies) + '\n\n'
@@ -619,6 +646,11 @@ class EntriesMaintainer:
         unique_build_systems = set(build_systems)
         unique_build_systems = [(l, build_systems.count(l) / len(build_systems)) for l in unique_build_systems]
         unique_build_systems.sort(key=lambda x: str.casefold(x[0]))  # first sort by name
+
+        # print build systems to console
+        print('\nBuild systems\n')
+        print('\n'.join('{} ({:.1f}%)'.format(x[0], x[1] * 100) for x in unique_build_systems))
+
         unique_build_systems.sort(key=lambda x: -x[1])  # then sort by occurrence (highest occurrence first)
         unique_build_systems = ['- {} ({:.1f}%)'.format(x[0], x[1] * 100) for x in unique_build_systems]
         statistics += '##### Build systems frequency ({})\n\n'.format(len(build_systems)) + '\n'.join(
@@ -827,25 +859,21 @@ class EntriesMaintainer:
             print('entries not yet loaded')
             return
 
-        # list all java projects that are inactive and mature, sort by year
-        entries = [(e['Title'], e['Code license'][0], osg.extract_inactive_year(e)) for e in self.entries if 'Java' in e['Code language'] and osg.is_inactive(e) and 'mature' in e['State']]
-        entries.sort(key=lambda x: x[2])
-        for entry in entries:
-            print('{} ({}, {})'.format(*entry))
-
-        # list all java projects that are inactive and beta, sort by year
-        entries = [(e['Title'], e['Code license'][0], osg.extract_inactive_year(e)) for e in self.entries if 'Java' in e['Code language'] and osg.is_inactive(e) and 'beta' in e['State']]
-        entries.sort(key=lambda x: x[2])
-        for entry in entries:
-            print('{} ({}, {})'.format(*entry))
-
-        # # remove all downloads that only have a single entry with @see-home (this is the default anyway)
-        # field = 'Download'
-        # for entry in self.entries:
-        #     if field in entry:
-        #         content = entry[field]
-        #         if len(content) == 1 and content[0].value == '@see-home' and not content[0].comment:
-        #             del entry[field]
+        # combine content keywords
+        n = len('content ')
+        for entry in self.entries:
+            keywords = entry['Keyword']
+            content = [keyword for keyword in keywords if keyword.startswith('content')]
+            if len(content) > 1:
+                # remove from keywords
+                keywords = [keyword for keyword in keywords if keyword not in content]
+                # remove prefix
+                content = [str(keyword)[n:].strip() for keyword in content]
+                # join with +
+                content = 'content {}'.format(' + '.join(content))
+                keywords.append(osg_parse.ValueWithComment(content))
+                entry['Keyword'] = keywords
+                print('fixed "{}"'.format(entry['File']))
 
         print('special ops finished')
 

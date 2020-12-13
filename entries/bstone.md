@@ -1,7 +1,7 @@
 # BStone
 
 - Home: https://bibendovsky.github.io/bstone/
-- Inspiration: Blake Stone: Planet Strike, Blake Stone: Aliens of Gold
+- Inspiration: Blake Stone: Aliens of Gold, Blake Stone: Planet Strike
 - State: mature
 - Download: https://github.com/bibendovsky/bstone/releases
 - Platform: Windows

@@ -4,7 +4,7 @@
 - State: mature, inactive since 2003
 - Download: https://sourceforge.net/projects/allegator/files/
 - Platform: Windows, Linux, macOS
-- Keyword: platform, open content
+- Keyword: platform, content open
 - Code repository: https://git.code.sf.net/p/allegator/alex4
 - Code language: C
 - Code license: GPL-2.0

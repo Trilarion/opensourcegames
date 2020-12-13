@@ -4,7 +4,7 @@
 - Inspiration: The Elder Scrolls: Arena
 - State: beta
 - Platform: Windows, Linux, macOS
-- Keyword: game engine, remake, content commercial, content original required
+- Keyword: game engine, remake, content commercial + original required
 - Code repository: https://github.com/afritz1/OpenTESArena.git
 - Code language: C++
 - Code license: MIT

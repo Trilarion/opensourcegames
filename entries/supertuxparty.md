@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://www.reddit.com/r/SuperTuxParty/
 - Platform: Windows, Linux, macOS
-- Keyword: action, clone, entertainment, multiplayer split-screen, open content
+- Keyword: action, clone, content open, entertainment, multiplayer split-screen
 - Code repository: https://gitlab.com/SuperTuxParty/SuperTuxParty.git
 - Code language: GDScript
 - Code license: GPL-3.0

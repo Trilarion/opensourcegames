@@ -5,7 +5,7 @@
 - State: mature, inactive since 2010
 - Download: https://sourceforge.net/projects/lgames/files/lbreakout2/
 - Platform: Linux
-- Keyword: arcade, open content
+- Keyword: arcade, content open
 - Code repository: https://svn.code.sf.net/p/lgames/code (svn part of it)
 - Code language: C
 - Code license: GPL-2.0

@@ -3,7 +3,7 @@
 - Home: http://www.darkdestiny.at/, http://www.thedarkdestiny.at/portalApp/#/, https://sourceforge.net/projects/darkdestiny/
 - State: mature, inactive since 2016
 - Platform: Web
-- Keyword: strategy, multiplayer online + massive, turn-based, space
+- Keyword: strategy, multiplayer online + massive, space, turn-based
 - Code repository: https://gitlab.com/osgames/darkdestiny.git (import of svn), https://svn.code.sf.net/p/darkdestiny/code (svn)
 - Code language: Java, JavaScript
 - Code license: ? (GPL version?)

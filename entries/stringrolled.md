@@ -2,7 +2,7 @@
 
 - Home: https://pyweek.org/e/Rambo/
 - State: beta, inactive since 2008
-- Keyword: platform, puzzle, open content
+- Keyword: platform, puzzle, content open
 - Code repository: https://gitlab.com/osgames/stringrolled.git (import of sources)
 - Code language: Python
 - Code license: Public domain

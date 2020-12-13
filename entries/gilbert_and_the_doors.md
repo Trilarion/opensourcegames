@@ -4,7 +4,7 @@
 - State: mature, inactive since 2018
 - Download: https://drive.google.com/uc?export=download&id=1Qgt-LmuLVRQ5yQ7Lg0QB61eZDoMnLTOl
 - Platform: Windows, Linux
-- Keyword: strategy, open content, side-scrolling, platform, 2D
+- Keyword: platform, strategy, 2D, content open, side-scrolling
 - Code repository: https://gitlab.com/osgames/gilbert-and-the-doors.git (import of sources)
 - Code language: C
 - Code license: GPL-3.0

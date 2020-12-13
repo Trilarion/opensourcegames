@@ -4,7 +4,7 @@
 - Inspiration: Duke Nukem 3D
 - State: beta, inactive since 2010
 - Download: http://vision.gel.ulaval.ca/~klein/duke3d/xDuke_19.7.1_Source_Code.rar
-- Keyword: remake, content commercial, multiplayer LAN + online, content original required
+- Keyword: remake, content commercial + original required, multiplayer LAN + online
 - Code repository: @see-download
 - Code language: C
 - Code license: GPL-2.0

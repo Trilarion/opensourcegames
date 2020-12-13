@@ -6,7 +6,7 @@
 - State: mature, inactive since 2002
 - Download: https://www.libsdl.org/projects/Maelstrom/binary.html
 - Platform: Windows, Linux, macOS
-- Keyword: action, arcade, remake, shooter, clone
+- Keyword: action, arcade, remake, clone, shooter
 - Code repository: https://github.com/richardjs/Maelstrom.git (see also https://www.libsdl.org/projects/Maelstrom/source.html)
 - Code language: C, C++
 - Code license: GPL-2.0

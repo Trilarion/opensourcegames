@@ -4,7 +4,7 @@
 - State: beta
 - Download: https://f-droid.org/packages/com.gpl.rpg.AndorsTrail/
 - Platform: Android
-- Keyword: role playing, roguelike, dungeon
+- Keyword: role playing, dungeon, roguelike
 - Code repository: https://github.com/Zukero/andors-trail.git
 - Code language: Java
 - Code license: GPL-2.0

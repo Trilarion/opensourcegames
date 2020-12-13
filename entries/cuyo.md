@@ -1,7 +1,7 @@
 # Cuyo
 
 - Home: https://www.karimmi.de/cuyo/, https://web.archive.org/web/20120817234225/http://www.mathematik.uni-tuebingen.de/~peter/cuyo/, https://packages.debian.org/sid/cuyo
-- Inspiration: Tetris, Puyo Puyo
+- Inspiration: Puyo Puyo, Tetris
 - State: mature, inactive since 2014
 - Download: http://download.savannah.gnu.org/releases/cuyo/
 - Platform: Linux

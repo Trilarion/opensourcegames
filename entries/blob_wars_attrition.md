@@ -3,7 +3,7 @@
 - Home: https://github.com/stephenjsweeney/blobwarsAttrition
 - Inspiration: Blob Wars Attrition
 - State: mature
-- Keyword: platform, content commercial, content original required, 2D
+- Keyword: platform, 2D, content commercial + original required
 - Code repository: https://github.com/stephenjsweeney/blobwarsAttrition.git
 - Code language: C, C++
 - Code license: GPL-3.0

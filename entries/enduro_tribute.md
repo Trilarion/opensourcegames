@@ -5,7 +5,7 @@
 - State: mature
 - Play: https://rafaelcastrocouto.github.io/enduro/
 - Platform: Web
-- Keyword: remake, open content
+- Keyword: remake, content open
 - Code repository: https://github.com/rafaelcastrocouto/enduro.git
 - Code language: JavaScript
 - Code license: MIT

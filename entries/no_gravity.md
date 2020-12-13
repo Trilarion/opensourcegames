@@ -5,11 +5,11 @@
 - State: mature, inactive since 2006
 - Download: https://sourceforge.net/projects/nogravity/files/
 - Platform: Windows, Linux
-- Keyword: arcade, shooter, 3D, space
+- Keyword: arcade, 3D, shooter, space
 - Code repository: http://nogravity.cvs.sourceforge.net (cvs)
 - Code language: C
 - Code license: GPL-2.0
 
 ## Building
 
-- Build system: VisualStudio
+- Build system: Visual Studio

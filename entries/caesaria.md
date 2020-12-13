@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://bitbucket.org/dalerank/caesaria/wiki/Releases
 - Platform: Windows, Linux, macOS
-- Keyword: remake, strategy, city, simulation
+- Keyword: remake, simulation, strategy, city
 - Code repository: https://bitbucket.org/dalerank/caesaria.git, https://github.com/dalerank/caesaria-game.git
 - Code language: C++, JavaScript
 - Code license: GPL-3.0

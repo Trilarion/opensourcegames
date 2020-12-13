@@ -2,7 +2,7 @@
 
 - Home: https://inconsolation.wordpress.com/2015/03/10/scrap-go-forth-and-scavenge-aggressively/
 - State: mature, inactive since 2017
-- Keyword: strategy, open content, roguelike
+- Keyword: strategy, content open, roguelike
 - Code repository: https://github.com/thijsvanommen/scrap.git
 - Code language: C, C++
 - Code license: GPL-2.0

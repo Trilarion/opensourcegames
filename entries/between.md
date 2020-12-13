@@ -4,7 +4,7 @@
 - State: beta, inactive since 2010
 - Download: https://sourceforge.net/projects/hcsoftware/files/Between/
 - Platform: Linux
-- Keyword: puzzle, multiplayer, open content
+- Keyword: puzzle, content open, multiplayer
 - Code repository: @see-download
 - Code language: PHP, C++
 - Code license: ? (really PD)

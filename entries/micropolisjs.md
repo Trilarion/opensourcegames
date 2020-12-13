@@ -1,7 +1,7 @@
 # micropolisJS
 
 - Home: http://www.graememcc.co.uk/micropolisJS/
-- Inspiration: SimCity, Micropolis
+- Inspiration: Micropolis, SimCity
 - State: mature
 - Platform: Web
 - Keyword: simulation, clone

@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/Turulomio/glparchis/releases, https://sourceforge.net/projects/glparchis/files/glparchis/
 - Platform: Windows, Linux
-- Keyword: board, strategy, open content
+- Keyword: board, strategy, content open
 - Code repository: https://github.com/turulomio/glparchis.git
 - Code language: Python
 - Code license: GPL-3.0

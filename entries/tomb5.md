@@ -3,7 +3,7 @@
 - Home: https://github.com/TOMB5/TOMB5
 - Inspiration: Tomb Raider Chronicles
 - State: beta
-- Keyword: remake, content commercial, content original required
+- Keyword: remake, content commercial + original required
 - Code repository: https://github.com/TOMB5/TOMB5.git
 - Code language: C, C++
 - Code license: MIT

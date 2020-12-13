@@ -4,7 +4,7 @@
 - Inspiration: Minesweeper
 - State: mature
 - Platform: Windows (?), Linux
-- Keyword: puzzle, open content
+- Keyword: puzzle, content open
 - Code repository: https://invent.kde.org/games/kmines.git
 - Code language: C++
 - Code license: GPL-2.0

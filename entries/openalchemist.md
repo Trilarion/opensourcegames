@@ -5,7 +5,7 @@
 - State: beta, inactive since 2010
 - Download: http://www.openalchemist.com/downloads.php, https://sourceforge.net/projects/openalchemist/files/
 - Platform: Windows, Linux
-- Keyword: puzzle, open content
+- Keyword: puzzle, content open
 - Code repository: https://svn.code.sf.net/p/openalchemist/code (svn)
 - Code language: C++
 - Code license: GPL-2.0

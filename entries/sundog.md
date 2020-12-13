@@ -4,7 +4,7 @@
 - Inspiration: SunDog: Frozen Legacy
 - State: beta
 - Platform: Linux
-- Keyword: game engine, remake, role playing, simulation, content commercial, content original required, space
+- Keyword: game engine, remake, role playing, simulation, content commercial + original required, space
 - Code repository: https://github.com/laanwj/sundog.git
 - Code language: C, C++, Python
 - Code license: MIT

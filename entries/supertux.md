@@ -6,7 +6,7 @@
 - State: beta
 - Download: https://www.supertux.org/download.html, https://github.com/SuperTux/supertux/releases
 - Platform: Windows, Linux, macOS
-- Keyword: platform, clone, open content
+- Keyword: platform, clone, content open
 - Code repository: https://github.com/SuperTux/supertux.git
 - Code language: C++
 - Code license: GPL-3.0

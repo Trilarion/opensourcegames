@@ -5,7 +5,7 @@
 - State: mature, inactive since 2018
 - Download: https://mdsteele.games/syzygy/download/
 - Platform: Windows, Linux, macOS
-- Keyword: puzzle, open content
+- Keyword: puzzle, content open
 - Code repository: https://github.com/mdsteele/syzygy.git
 - Code language: Rust
 - Code license: GPL-3.0

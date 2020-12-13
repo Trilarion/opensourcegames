@@ -5,7 +5,7 @@
 - Inspiration: Master of Monsters, Warsong
 - State: mature
 - Download: http://www.wesnoth.org/#download
-- Keyword: strategy, clone, multiplayer, turn-based, fantasy setting
+- Keyword: strategy, clone, multiplayer, setting fantasy, turn-based
 - Code repository: https://github.com/wesnoth/wesnoth.git
 - Code language: C, C++, Java, Python, Lua
 - Code license: GPL-2.0

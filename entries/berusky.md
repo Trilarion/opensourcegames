@@ -5,7 +5,7 @@
 - State: mature
 - Download: @see-home (and https://web.archive.org/web/*/https://sourceforge.net/projects/berusky/files/*)
 - Platform: Windows, Linux
-- Keyword: action, logic, open content
+- Keyword: action, content open, logic
 - Code repository: https://github.com/stransky/berusky.git
 - Code language: C++
 - Code license: GPL-3.0

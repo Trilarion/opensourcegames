@@ -5,7 +5,7 @@
 - State: beta, inactive since 2009
 - Download: https://sourceforge.net/projects/aatrade/files/
 - Platform: Web
-- Keyword: strategy, online, turn-based, space
+- Keyword: strategy, online, space, turn-based
 - Code repository: https://github.com/tarnus/aatraders.git, https://gitlab.com/osgames/aatraders.git @add
 - Code language: PHP
 - Code license: GPL-2.0

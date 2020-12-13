@@ -4,7 +4,7 @@
 - Inspiration: Second Life
 - State: beta
 - Download: http://opensimulator.org/wiki/Download
-- Keyword: adventure, open content
+- Keyword: adventure, content open
 - Code repository: git://opensimulator.org/git/opensim
 - Code language: C#
 - Code license: ? (BSD)

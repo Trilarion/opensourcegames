@@ -4,7 +4,7 @@
 - State: mature, inactive since 2011
 - Download: https://web.archive.org/web/20111209123851/http://www.tweeler.com/GoOllie_13.sh
 - Platform: Windows, Linux
-- Keyword: platform, open content
+- Keyword: platform, content open
 - Code repository: @see-download
 - Code language: ?
 - Code license: GPL-3.0

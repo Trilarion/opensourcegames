@@ -3,7 +3,7 @@
 - Home: http://rickadams.org/adventure/, https://github.com/brandon-rhodes/python-adventure
 - Media: https://en.wikipedia.org/wiki/Colossal_Cave_Adventure
 - State: mature
-- Keyword: adventure, text
+- Keyword: adventure, text-based
 - Code repository: https://github.com/brandon-rhodes/python-adventure.git
 - Code language: Python
 - Code license: Apache-2.0

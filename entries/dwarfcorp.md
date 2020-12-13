@@ -15,4 +15,4 @@ Manage a corporate colony of dwarves.
 
 ## Building
 
-- Build system: VisualStudio
+- Build system: Visual Studio

@@ -2,7 +2,7 @@
 
 - Home: http://harmen.vanderwal.eu/hypercube/
 - State: mature, inactive since 2016
-- Keyword: puzzle, open content
+- Keyword: puzzle, content open
 - Code repository: https://gitlab.com/osgames/hypercube.git (import of sources)
 - Code language: Java
 - Code license: GPL-2.0

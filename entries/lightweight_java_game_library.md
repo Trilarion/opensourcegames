@@ -12,4 +12,3 @@
 ## Building
 
 - Build system: Gradle
-

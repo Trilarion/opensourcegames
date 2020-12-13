@@ -3,7 +3,7 @@
 - Home: https://agateau.com/projects/pixelwheels/
 - State: beta
 - Platform: Windows, Linux, macOS, Android
-- Keyword: game engine, open content, racing, 2D, top-down
+- Keyword: game engine, 2D, content open, racing, top-down
 - Code repository: https://github.com/agateau/pixelwheels.git
 - Code language: Java
 - Code license: GPL-3.0

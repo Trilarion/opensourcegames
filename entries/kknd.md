@@ -5,7 +5,7 @@
 - Inspiration: Krush Kill 'n' Destroy
 - State: beta
 - Platform: Windows, Linux, macOS
-- Keyword: remake, content commercial, content original required (?)
+- Keyword: remake, "content commercial + original required (?)"
 - Code repository: https://github.com/IceReaper/KKnD.git
 - Code language: C#
 - Code license: GPL-3.0

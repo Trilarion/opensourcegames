@@ -3,7 +3,7 @@
 - Home: https://codeparade.itch.io/marblemarcher
 - State: mature
 - Platform: Windows, Linux
-- Keyword: puzzle, open content, 3D
+- Keyword: puzzle, 3D, content open
 - Code repository: https://github.com/HackerPoet/MarbleMarcher.git, https://github.com/WAUthethird/Marble-Marcher-Community-Edition.git @add
 - Code language: C++
 - Code license: GPL-2.0

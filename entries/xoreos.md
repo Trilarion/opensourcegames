@@ -4,7 +4,7 @@
 - Inspiration: BioWare's Aurora engine
 - State: beta
 - Download: https://xoreos.org/downloads/index.html
-- Keyword: framework, remake, content commercial, engine recreation, content original required
+- Keyword: framework, remake, content commercial + original required, engine recreation
 - Code repository: https://github.com/xoreos/xoreos.git
 - Code language: C++
 - Code license: GPL-3.0

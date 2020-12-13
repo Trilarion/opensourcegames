@@ -3,7 +3,7 @@
 - Home: http://www.chronocrash.com/forum/
 - Inspiration: Double Dragon, Final Fight, Streets of Rage
 - State: mature
-- Keyword: game engine, clone, content open, 2D
+- Keyword: game engine, 2D, clone, content open
 - Code repository: https://github.com/DCurrent/openbor.git
 - Code language: C, C++
 - Code license: 3-clause BSD (https://github.com/DCurrent/openbor/blob/master/LICENSE)

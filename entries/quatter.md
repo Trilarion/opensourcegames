@@ -3,7 +3,7 @@
 - Home: https://luckeyproductions.itch.io/quatter
 - Media: https://en.wikipedia.org/wiki/Quarto_(board_game)
 - State: mature, inactive since 2018
-- Keyword: board, strategy, open content
+- Keyword: board, strategy, content open
 - Code repository: https://gitlab.com/luckeyproductions/Quatter.git
 - Code language: C++
 - Code license: GPL-2.0

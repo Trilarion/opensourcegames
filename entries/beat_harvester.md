@@ -2,7 +2,7 @@
 
 - Home: https://web.archive.org/web/20190813223336/http://www.hectigo.net/games/beatharvester/
 - State: beta, inactive since 2009
-- Keyword: action, 2D, open content, shooter
+- Keyword: action, 2D, content open, shooter
 - Code repository: @see-home
 - Code language: Python
 - Code license: GPL-2.0

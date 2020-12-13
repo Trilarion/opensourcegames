@@ -3,7 +3,7 @@
 - Home: https://github.com/cflavio/yorg, https://www.ya2.it/
 - Inspiration: Micro Machines
 - State: beta
-- Keyword: game engine, clone, multiplayer online + local, open content, racing, 3D
+- Keyword: game engine, 3D, clone, content open, multiplayer online + local, racing
 - Code repository: https://github.com/cflavio/yorg.git
 - Code language: Python
 - Code license: GPL-3.0

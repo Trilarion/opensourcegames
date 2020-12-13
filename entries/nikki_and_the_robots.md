@@ -2,7 +2,7 @@
 
 - Home: https://github.com/nikki-and-the-robots/nikki
 - State: mature, inactive since 2012
-- Keyword: platform, open content
+- Keyword: platform, content open
 - Code repository: https://github.com/nikki-and-the-robots/nikki.git
 - Code language: Haskell
 - Code license: LGPL-3.0

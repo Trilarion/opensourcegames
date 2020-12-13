@@ -4,7 +4,7 @@
 - State: beta
 - Download: https://github.com/subchannel13/Stareater/releases
 - Platform: Windows, Linux, macOS
-- Keyword: strategy, turn-based, space, 4X
+- Keyword: strategy, 4X, space, turn-based
 - Code repository: https://github.com/subchannel13/Stareater.git
 - Code language: C#
 - Code license: GPL-3.0

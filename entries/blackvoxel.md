@@ -4,7 +4,7 @@
 - State: mature
 - Download: https://www.blackvoxel.com/view.php?node=1541
 - Platform: Windows, Linux
-- Keyword: simulation, open content, sandbox, voxel, 3D
+- Keyword: simulation, 3D, content open, sandbox, voxel
 - Code repository: https://github.com/Blackvoxel/Blackvoxel.git
 - Code language: C++
 - Code license: GPL-3.0

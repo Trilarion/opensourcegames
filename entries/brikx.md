@@ -4,7 +4,7 @@
 - State: beta, inactive since 2009
 - Download: https://sourceforge.net/projects/brikx/files/
 - Platform: Linux
-- Keyword: puzzle, open content
+- Keyword: puzzle, content open
 - Code repository: @see-download
 - Code language: C++
 - Code license: GPL-2.0

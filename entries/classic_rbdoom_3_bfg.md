@@ -6,7 +6,7 @@
 - State: mature
 - Download: https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG/releases
 - Platform: Windows, Linux
-- Keyword: action, game engine, remake, content commercial, first-person, content original required, shooter
+- Keyword: action, game engine, remake, content commercial + original required, first-person, shooter
 - Code repository: https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG.git
 - Code language: C, C++
 - Code license: GPL-3.0

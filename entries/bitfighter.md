@@ -4,7 +4,7 @@
 - State: mature
 - Download: http://bitfighter.org/downloads/
 - Platform: Windows, Linux, macOS
-- Keyword: action, open content, space
+- Keyword: action, content open, space
 - Code repository: https://github.com/bitfighter/bitfighter.git
 - Code language: C, C++
 - Code license: GPL-2.0

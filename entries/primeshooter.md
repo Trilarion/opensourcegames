@@ -3,7 +3,7 @@
 - Home: http://thinkinghard.com/math/integers/PrimeShooter.html
 - State: mature, inactive since 2010
 - Platform: Web
-- Keyword: arcade, educational, open content, shooter
+- Keyword: arcade, educational, content open, shooter
 - Code repository: @see-home
 - Code language: JavaScript
 - Code license: GPL-2.0

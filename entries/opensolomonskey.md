@@ -4,11 +4,11 @@
 - Inspiration: Solomon's Key
 - State: beta
 - Platform: Windows, Linux
-- Keyword: puzzle, clone, open content
+- Keyword: puzzle, clone, content open
 - Code repository: https://github.com/mdodis/OpenSolomonsKey.git
 - Code language: C++
 - Code license: Unlicense
 
 ## Building
 
-- Build system: custom script
+- Build system: Custom

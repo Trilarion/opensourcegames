@@ -5,7 +5,7 @@
 - State: beta, inactive since 2013
 - Download: https://www.teeworlds.com/?page=downloads
 - Platform: Windows, Linux, macOS
-- Keyword: platform, 2D, online, open content, shooter
+- Keyword: platform, 2D, content open, online, shooter
 - Code repository: https://github.com/matricks/teeworlds.git
 - Code language: C, C++
 - Code license: zlib

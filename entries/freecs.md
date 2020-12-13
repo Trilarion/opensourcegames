@@ -4,7 +4,7 @@
 - Inspiration: Counter-Strike
 - State: mature
 - Download: https://sourceforge.net/projects/freecs-1-5/files/
-- Keyword: action, remake, first-person, multiplayer online + LAN, content original required, shooter
+- Keyword: action, remake, content original required, first-person, multiplayer online + LAN, shooter
 - Code repository: https://git.code.sf.net/p/freecs-1-5/code
 - Code language: QuakeC
 - Code license: GPL-2.0

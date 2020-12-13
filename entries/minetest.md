@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://www.minetest.net/downloads/
 - Platform: Windows, Linux, macOS, Android
-- Keyword: framework, remake, open content, voxel
+- Keyword: framework, remake, content open, voxel
 - Code repository: https://github.com/minetest/minetest.git
 - Code language: C, C++, Lua
 - Code license: LGPL-2.1

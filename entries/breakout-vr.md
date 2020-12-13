@@ -3,7 +3,7 @@
 - Home: https://github.com/marksteelz3/Atari-VR---Breakout
 - Inspiration: Breakout
 - State: beta, inactive since 2017
-- Keyword: action, clone, 3D
+- Keyword: action, 3D, clone
 - Code repository: https://github.com/marksteelz3/Atari-VR---Breakout.git
 - Code language: C#
 - Code license: MIT

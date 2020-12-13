@@ -5,7 +5,7 @@
 - State: mature
 - Play: https://kurve.se/
 - Platform: Web
-- Keyword: action, clone, multiplayer local, open content
+- Keyword: action, clone, content open, multiplayer local
 - Code repository: https://github.com/SimonAlling/kurve.git
 - Code language: JavaScript
 - Code license: AGPL-3.0

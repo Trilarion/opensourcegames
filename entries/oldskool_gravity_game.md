@@ -4,7 +4,7 @@
 - State: mature, inactive since 2016
 - Download: https://sourceforge.net/projects/osgg/files/
 - Platform: Windows, Linux
-- Keyword: arcade, open content, side-scrolling
+- Keyword: arcade, content open, side-scrolling
 - Code repository: https://github.com/DusteDdk/osgg.git, https://gitlab.com/osgames/osgg.git @add (conversion of svn), https://svn.code.sf.net/p/osgg/code (svn)
 - Code language: C++
 - Code license: GPL-3.0

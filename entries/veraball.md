@@ -5,7 +5,7 @@
 - State: beta, inactive since 2016
 - Download: https://github.com/Veraball/veraball/releases
 - Platform: Windows, Linux
-- Keyword: remake, open content
+- Keyword: remake, content open
 - Code repository: https://github.com/Veraball/veraball.git
 - Code language: GDScript
 - Code license: MIT

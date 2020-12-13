@@ -3,7 +3,7 @@
 - Home: https://kde.org/applications/games/org.kde.ksnakeduel, https://packages.debian.org/search?keywords=ksnake
 - Inspiration: Snake
 - State: mature
-- Keyword: puzzle, open content, skill
+- Keyword: puzzle, content open, skill
 - Code repository: https://invent.kde.org/games/ksnakeduel.git
 - Code language: C++
 - Code license: GPL-2.0

@@ -4,7 +4,7 @@
 - State: mature, inactive since 2013
 - Download: https://sourceforge.net/projects/zeroballistics/files/
 - Platform: Windows
-- Keyword: action, strategy, first-person, shooter, multiplayer only
+- Keyword: action, strategy, first-person, multiplayer only, shooter
 - Code repository: https://gitlab.com/osgames/zeroballistics.git (mirror), https://svn.code.sf.net/p/zeroballistics/code (svn)
 - Code language: C++
 - Code license: MIT

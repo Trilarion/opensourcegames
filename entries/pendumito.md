@@ -4,7 +4,7 @@
 - Inspiration: Webhangman
 - State: mature, inactive since 2003
 - Platform: Web
-- Keyword: tool, hangman, open content
+- Keyword: tool, content open, hangman
 - Code repository: https://gitlab.com/osgames/pendumito.git (import of sources)
 - Code language: JavaScript
 - Code license: GPL-2.0

@@ -2,7 +2,7 @@
 
 - Home: http://sleepisdeath.net
 - State: mature, inactive since 2018
-- Keyword: role playing, multiplayer, open content
+- Keyword: role playing, content open, multiplayer
 - Code repository: https://github.com/jasonrohrer/SleepIsDeath.git
 - Code language: C++
 - Code license: ? (Public domain)

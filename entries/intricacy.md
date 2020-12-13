@@ -3,7 +3,7 @@
 - Home: http://mbays.freeshell.org/intricacy/
 - State: beta
 - Platform: Windows, Linux, macOS
-- Keyword: puzzle, open content, text-based
+- Keyword: puzzle, content open, text-based
 - Code repository: https://repo.or.cz/intricacy.git
 - Code language: Haskell
 - Code license: GPL-3.0

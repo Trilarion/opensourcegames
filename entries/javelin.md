@@ -1,11 +1,11 @@
 # Javelin
 
 - Home: https://javelinrl.wordpress.com/, https://www.reddit.com/r/javelinrl/
-- Inspiration: Jagged Alliance, Dungeon Crawl Stone Soup, Pokémon, Final Fantasy series
+- Inspiration: Dungeon Crawl Stone Soup, Final Fantasy series, Jagged Alliance, Pokémon
 - State: mature, inactive since 2016
 - Download: https://github.com/tukkek/javelin/releases
 - Platform: Windows, Linux, macOS
-- Keyword: role playing, open content, roguelike
+- Keyword: role playing, content open, roguelike
 - Code repository: https://github.com/tukkek/javelin.git
 - Code language: Java
 - Code license: GPL-2.0

@@ -4,7 +4,7 @@
 - State: mature
 - Download: https://play.google.com/store/apps/details?id=com.serwylo.lexica, https://f-droid.org/packages/com.serwylo.lexica/
 - Platform: Android
-- Keyword: puzzle, open content
+- Keyword: puzzle, content open
 - Code repository: https://github.com/lexica/lexica.git
 - Code language: Java
 - Code license: GPL-3.0

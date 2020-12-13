@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://github.com/TBye101/MagicalLife/releases
 - Platform: Windows
-- Keyword: role playing, open content, 2D
+- Keyword: role playing, 2D, content open
 - Code repository: https://github.com/TBye101/MagicalLife.git
 - Code language: C#
 - Code license: MIT

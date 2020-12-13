@@ -12,4 +12,4 @@ Game engine utilizing the Direct3D 12 API.
 
 ## Building
 
-- Build system: VisualStudio
+- Build system: Visual Studio

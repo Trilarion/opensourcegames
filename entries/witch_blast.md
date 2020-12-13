@@ -4,7 +4,7 @@
 - Inspiration: The Binding of Isaac
 - State: beta, inactive since 2015
 - Download: https://github.com/Cirrus-Minor/witchblast/releases
-- Keyword: remake, role playing, open content, roguelike
+- Keyword: remake, role playing, content open, roguelike
 - Code repository: https://github.com/Cirrus-Minor/witchblast.git
 - Code language: C++
 - Code license: GPL-3.0

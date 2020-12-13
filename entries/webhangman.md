@@ -4,7 +4,7 @@
 - State: mature, inactive since 2003
 - Download: https://web.archive.org/web/20170401215027/http://janmulder.co.uk/download/webhangman.zip
 - Platform: Web
-- Keyword: puzzle, hangman, open content
+- Keyword: puzzle, content open, hangman
 - Code repository: https://gitlab.com/osgames/webhangman.git (import of sources)
 - Code language: JavaScript
 - Code license: GPL-2.0

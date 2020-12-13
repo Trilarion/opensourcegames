@@ -1,7 +1,7 @@
 # TES3MP
 
 - Home: http://tes3mp.com/
-- Inspiration: The Elder Scrolls III: Morrowind, OpenMW
+- Inspiration: OpenMW, The Elder Scrolls III: Morrowind
 - State: beta
 - Download: https://github.com/TES3MP/openmw-tes3mp/releases
 - Platform: Windows, Linux, macOS

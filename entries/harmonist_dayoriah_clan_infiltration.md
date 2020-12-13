@@ -4,7 +4,7 @@
 - State: beta
 - Download: https://download.tuxfamily.org/harmonist/releases/
 - Platform: Windows, Linux, macOS, Web
-- Keyword: library, open content, roguelike, text
+- Keyword: library, content open, roguelike, text-based
 - Code repository: https://git.tuxfamily.org/harmonist/harmonist.git, https://github.com/anaseto/harmonist.git @add
 - Code language: Go
 - Code license: ISC

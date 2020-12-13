@@ -4,7 +4,7 @@
 - State: mature, inactive since 2007
 - Download: http://ri-li.sourceforge.net/download.html, https://sourceforge.net/projects/ri-li/files/
 - Platform: Windows, Linux, macOS
-- Keyword: arcade, open content
+- Keyword: arcade, content open
 - Code repository: @see-download
 - Code language: C++
 - Code license: GPL-3.0

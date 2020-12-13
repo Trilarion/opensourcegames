@@ -4,7 +4,7 @@
 - State: mature, inactive since 2011
 - Play: http://fhtr.org/runfield/
 - Platform: Web
-- Keyword: arcade, open content, 2D
+- Keyword: arcade, 2D, content open
 - Code repository: https://github.com/kig/runfield.git
 - Code language: JavaScript
 - Code license: GPL-3.0

@@ -4,7 +4,7 @@
 - State: mature, inactive since 2014
 - Download: http://annexconquer.com/downloads/
 - Platform: Windows, Linux
-- Keyword: strategy, open content, real-time
+- Keyword: strategy, content open, real-time
 - Code repository: https://bitbucket.org/annexctw/annex.git
 - Code language: Lua (MegaGlest Script ?)
 - Code license: GPL-3.0

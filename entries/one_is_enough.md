@@ -2,7 +2,7 @@
 
 - Home: http://www.hectigo.net/games/oneisenough/, https://packages.debian.org/search?keywords=oneisenough
 - State: beta, inactive since 2008
-- Keyword: arcade, open content
+- Keyword: arcade, content open
 - Code repository: @see-home
 - Code language: Python
 - Code license: GPL-2.0

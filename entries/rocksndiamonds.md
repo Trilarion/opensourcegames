@@ -2,7 +2,7 @@
 
 - Home: https://www.artsoft.org/rocksndiamonds/
 - Media: https://en.wikipedia.org/wiki/Rocks%27n%27Diamonds
-- Inspiration: Boulder Dash, Supaplex, Sokoban, Emerald Mine
+- Inspiration: Boulder Dash, Emerald Mine, Sokoban, Supaplex
 - State: mature
 - Download: https://www.artsoft.org/rocksndiamonds/download/
 - Keyword: action, puzzle, remake

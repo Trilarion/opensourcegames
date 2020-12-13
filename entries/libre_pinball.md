@@ -2,7 +2,7 @@
 
 - Home: https://github.com/Calinou/libre-pinball
 - State: beta, inactive since 2015
-- Keyword: sports, open content
+- Keyword: sports, content open
 - Code repository: https://github.com/Calinou/libre-pinball.git
 - Code language: GDScript
 - Code license: MIT

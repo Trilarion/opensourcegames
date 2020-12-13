@@ -4,7 +4,7 @@
 - State: mature, inactive since 2008
 - Download: https://sourceforge.net/projects/hcsoftware/files/Gravitation/
 - Platform: Windows, Linux, macOS
-- Keyword: adventure, open content
+- Keyword: adventure, content open
 - Code repository: @see-download (maybe some repositories at SF)
 - Code language: C++
 - Code license: Public domain

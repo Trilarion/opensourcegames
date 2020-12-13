@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Zachtronics#Infiniminer
 - State: mature, inactive since 2016
 - Download: https://code.google.com/archive/p/infiniminer/source/default/source
-- Keyword: simulation, blocks, sandbox, multiplayer online
+- Keyword: simulation, blocks, multiplayer online, sandbox
 - Code repository: https://github.com/craftworkgames/infiniminer.git
 - Code language: C#
 - Code license: MIT

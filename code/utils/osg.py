@@ -383,7 +383,7 @@ def extract_inactive_year(entry):
     inactive_year = [x.value[len(phrase):] for x in state if x.startswith(phrase)]
     assert len(inactive_year) <= 1
     if inactive_year:
-        return inactive_year[0]
+        return int(inactive_year[0])
     else:
         return None
 

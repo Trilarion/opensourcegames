@@ -3,7 +3,7 @@
 - Home: https://github.com/sandsmark/freeaoe
 - Inspiration: Age of Empires II
 - State: beta
-- Keyword: remake, strategy, content commercial, real-time, content original required
+- Keyword: remake, strategy, content commercial + original required, real-time
 - Code repository: https://github.com/sandsmark/freeaoe.git
 - Code language: C++
 - Code license: GPL-3.0

@@ -3,7 +3,7 @@
 - Home: https://wiki.gnome.org/Apps/Quadrapassel
 - Inspiration: Tetris
 - State: mature
-- Keyword: puzzle, clone, open content
+- Keyword: puzzle, clone, content open
 - Code repository: https://gitlab.gnome.org/GNOME/quadrapassel.git
 - Code language: Vala
 - Code license: GPL-2.0

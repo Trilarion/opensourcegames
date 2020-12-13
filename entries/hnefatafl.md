@@ -2,7 +2,7 @@
 
 - Home: https://web.archive.org/web/20180901233504/http://hnefatafl.se/ (Swedish), https://sourceforge.net/projects/hnefatafl/
 - State: beta, inactive since 2014
-- Keyword: board, strategy, open content
+- Keyword: board, strategy, content open
 - Code repository: https://gitlab.com/soderlund/hnefatafl.git
 - Code language: C
 - Code license: ISC

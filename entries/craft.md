@@ -4,7 +4,7 @@
 - Inspiration: Minecraft
 - State: mature, inactive since 2017
 - Platform: Windows, Linux, macOS
-- Keyword: puzzle, clone, multiplayer online, open content, sandbox, voxel
+- Keyword: puzzle, clone, content open, multiplayer online, sandbox, voxel
 - Code repository: https://github.com/fogleman/Craft.git
 - Code language: C, Python
 - Code license: MIT

@@ -3,7 +3,7 @@
 - Home: https://www.gnu.org/software/ballandpaddle/
 - State: beta, inactive since 2009
 - Platform: Linux
-- Keyword: action, open content
+- Keyword: action, content open
 - Code repository: https://gitlab.com/osgames/ballandpaddle.git (conversion of bzr), http://bzr.savannah.gnu.org/r/ballandpaddle/ (bzr)
 - Code language: C++, Scheme
 - Code license: GPL-3.0

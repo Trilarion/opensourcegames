@@ -4,7 +4,7 @@
 - Inspiration: Pac-Man
 - State: mature, inactive since 2013
 - Platform: Windows, Linux, macOS
-- Keyword: action, open content
+- Keyword: action, content open
 - Code repository: @see-home
 - Code language: Lua
 - Code license: WTFPL

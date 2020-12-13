@@ -3,7 +3,7 @@
 - Home: https://underww.itch.io/procedural-map-generator
 - State: mature, inactive since 2018
 - Platform: Windows
-- Keyword: tool, open content
+- Keyword: tool, content open
 - Code repository: https://github.com/marukrap/ProceduralMapGenerator.git
 - Code language: C++
 - Code license: MIT

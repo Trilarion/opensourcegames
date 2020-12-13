@@ -3,7 +3,7 @@
 - Home: https://gitlab.com/drummyfish/
 - Inspiration: Atomic Bomberman
 - State: mature
-- Keyword: action, remake, open content
+- Keyword: action, remake, content open
 - Code repository: https://gitlab.com/drummyfish/Bombman.git
 - Code language: Python
 - Code license: CC0

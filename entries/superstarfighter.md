@@ -3,7 +3,7 @@
 - Home: https://notapixelstudio.github.io/superstarfighter/
 - State: beta
 - Platform: Windows, Linux, macOS
-- Keyword: framework, multiplayer local, 2D, top-down
+- Keyword: framework, 2D, multiplayer local, top-down
 - Code repository: https://github.com/notapixelstudio/superstarfighter.git
 - Code language: GDScript
 - Code license: MIT

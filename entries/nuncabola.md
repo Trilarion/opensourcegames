@@ -3,7 +3,7 @@
 - Home: http://uppgarn.com/nuncabola/
 - Inspiration: Neverball, Super Monkey Ball
 - State: beta
-- Keyword: action, clone, open content
+- Keyword: action, clone, content open
 - Code repository: @see-home
 - Code language: Java
 - Code license: GPL-2.0

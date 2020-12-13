@@ -13,4 +13,4 @@ Real-time, physically based renderer.
 
 ## Building
 
-- Build system: VisualStudio
+- Build system: Visual Studio

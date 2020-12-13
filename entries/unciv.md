@@ -4,7 +4,7 @@
 - Inspiration: Civilization V
 - State: beta
 - Platform: Android
-- Keyword: remake, strategy, multiplayer online + hotseat, open content, turn-based
+- Keyword: remake, strategy, content open, multiplayer online + hotseat, turn-based
 - Code repository: https://github.com/yairm210/UnCiv.git
 - Code language: Kotlin
 - Code license: MPL-2.0

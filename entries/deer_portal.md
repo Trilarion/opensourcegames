@@ -3,7 +3,7 @@
 - Home: https://devcarpet.net/deerportal/
 - State: beta
 - Platform: Windows, Linux
-- Keyword: adventure, board, cards, open content
+- Keyword: adventure, board, cards, content open
 - Code repository: https://github.com/deerportal/deerportal.git
 - Code language: C++
 - Code license: zlib

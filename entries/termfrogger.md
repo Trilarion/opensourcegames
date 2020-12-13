@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/fastrgv/TermFrogger/releases
 - Platform: Windows, Linux, macOS
-- Keyword: arcade, open content, text-based
+- Keyword: arcade, content open, text-based
 - Code repository: @see-download
 - Code language: Ada
 - Code license: GPL-3.0

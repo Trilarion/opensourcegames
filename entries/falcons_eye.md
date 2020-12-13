@@ -5,7 +5,7 @@
 - State: mature, inactive since 2004
 - Download: https://sourceforge.net/projects/falconseye/files/
 - Platform: Windows, Linux
-- Keyword: simulation, roguelike, remake, isometric
+- Keyword: remake, simulation, isometric, roguelike
 - Code repository: @see-download
 - Code language: C
 - Code license: NetHack General Public License

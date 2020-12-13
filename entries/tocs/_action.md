@@ -84,6 +84,7 @@
 - **[dRally](../drally.md)** (Assembly, C, MIT, beta)
 - **[Duke3D](../duke3d.md)** (C, GPL-2.0, beta, inactive since 2009)
 - **[Duke3d_w32](../duke3dw32.md)** (C, GPL-2.0, beta, inactive since 2008)
+- **[DukeGDX](../dukegdx.md)** (Java, GPL-3.0, beta)
 - **[Dungeon Monkey Unlimited](../dungeon_monkey_unlimited.md)** (Pascal, LGPL-2.1, mature, inactive since 2010)
 - **[DynaDungeons](../dynadungeons.md)** (GDScript, GPL-3.0, beta, inactive since 2018)
 - **[EDuke32](../eduke32.md)** (C, C++, GPL-2.0, mature)

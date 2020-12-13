@@ -5,7 +5,7 @@
 - State: mature, inactive since 2017
 - Download: http://tangomon.nongnu.org/download.html
 - Platform: Windows, Linux
-- Keyword: educational, for kids, open content
+- Keyword: educational, content open, for kids
 - Code repository: https://git.savannah.nongnu.org/git/tangomon.git, http://cvs.savannah.nongnu.org:/web/tangomon (cvs)
 - Code language: Python
 - Code license: GPL-3.0

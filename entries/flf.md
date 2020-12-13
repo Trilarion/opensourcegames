@@ -4,7 +4,7 @@
 - Inspiration: Little Fighter 2
 - State: mature
 - Platform: Web
-- Keyword: framework, clone, content commercial, content original required
+- Keyword: framework, clone, content commercial + original required
 - Code repository: https://github.com/Project-F/F.LF.git
 - Code language: JavaScript
 - Code license: CC-BY-NC-SA-3.0 (http://project-f.github.io/license.html)

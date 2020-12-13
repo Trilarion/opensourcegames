@@ -4,7 +4,7 @@
 - State: beta
 - Download: http://spacezero.sourceforge.net/index.html#download, https://sourceforge.net/projects/spacezero/files/
 - Platform: Linux
-- Keyword: strategy, real-time, space, 2D, multiplayer network
+- Keyword: strategy, 2D, multiplayer network, real-time, space
 - Code repository: https://svn.code.sf.net/p/spacezero/code (svn)
 - Code language: C
 - Code license: GPL-3.0

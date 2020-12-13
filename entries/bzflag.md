@@ -6,7 +6,7 @@
 - State: mature
 - Download: https://www.bzflag.org/downloads/
 - Platform: Windows, Linux, macOS
-- Keyword: action, clone, shooter, multiplayer, tank
+- Keyword: action, clone, multiplayer, shooter, tank
 - Code repository: https://github.com/BZFlag-Dev/bzflag.git, https://svn.code.sf.net/p/bzflag/code (svn)
 - Code language: C++
 - Code license: LGPL-2.1, MPL-2.0

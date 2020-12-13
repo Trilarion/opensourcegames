@@ -4,7 +4,7 @@
 - Inspiration: Dominion
 - State: beta
 - Platform: Web
-- Keyword: strategy, clone, multiplayer online, open content, text-based
+- Keyword: strategy, clone, content open, multiplayer online, text-based
 - Code repository: https://github.com/OpenDominion/OpenDominion.git
 - Code language: PHP
 - Code license: AGPL-3.0

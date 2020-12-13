@@ -18,6 +18,7 @@
 - **[eAdventure](../eadventure.md)** (Java, GPL-3.0, mature, inactive since 2014)
 - **[Escape Towards The Unknown](../escape_towards_the_unknown.md)** (C, GPL-2.0, beta, inactive since 2016)
 - **[Fanwor](../fanwor.md)** (C, GPL-2.0, mature)
+- **[fRaBs](../frabs.md)** (Lisp, Public domain, mature, inactive since 2016)
 - **[Free in the Dark (engine)](../free_in_the_dark_engine.md)** (C, C++, GPL-2.0, beta)
 - **[GameLV](../gamelv.md)** (C++, GPL-2.0, beta)
 - **[gist-txt](../gist-txt.md)** (JavaScript, MIT, mature, inactive since 2018)

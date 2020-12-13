@@ -3,7 +3,7 @@
 - Home: https://web.archive.org/web/20190426224042/http://www.braingames.getput.com/stransball2/default.asp
 - Inspiration: Transball
 - State: mature, inactive since 2005
-- Keyword: arcade, open content, side-scrolling
+- Keyword: arcade, content open, side-scrolling
 - Code repository: @see-home
 - Code language: C++
 - Code license: GPL-2.0

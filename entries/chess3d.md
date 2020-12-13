@@ -3,7 +3,7 @@
 - Home: http://yanngranjon.com/static/games/chess3D/
 - State: mature, inactive since 2016
 - Platform: Web
-- Keyword: board, strategy, chess, open content, 3D
+- Keyword: board, strategy, 3D, chess, content open
 - Code repository: https://github.com/FrenchYann/Chess3D.git
 - Code language: JavaScript, Python
 - Code license: GPL-3.0

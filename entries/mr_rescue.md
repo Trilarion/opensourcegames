@@ -4,7 +4,7 @@
 - State: mature, inactive since 2016
 - Download: https://github.com/SimonLarsen/mrrescue/releases (also home)
 - Platform: Windows, Linux, macOS
-- Keyword: arcade, platform, open content
+- Keyword: arcade, platform, content open
 - Code repository: https://github.com/SimonLarsen/mrrescue.git
 - Code language: Lua
 - Code license: zlib

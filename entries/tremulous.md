@@ -6,7 +6,7 @@
 - State: mature, inactive since 2016
 - Download: https://web.archive.org/web/20200114115222/http://tremulous.net/files/
 - Platform: Windows, Linux, macOS
-- Keyword: action, clone, shooter, team-based, first-person, real-time
+- Keyword: action, clone, first-person, real-time, shooter, team-based
 - Code repository: https://github.com/darklegion/tremulous.git, http://tremulous.cvs.sourceforge.net (cvs)
 - Code language: C
 - Code license: GPL-2.0

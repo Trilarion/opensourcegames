@@ -4,7 +4,7 @@
 - State: beta, inactive since 2010
 - Download: https://sourceforge.net/projects/csp/files/
 - Platform: Windows
-- Keyword: simulation, flight, action
+- Keyword: action, simulation, flight
 - Code repository: https://git.code.sf.net/p/csp/git, https://svn.code.sf.net/p/csp/svn (svn)
 - Code language: C++
 - Code license: GPL-2.0

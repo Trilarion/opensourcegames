@@ -4,7 +4,7 @@
 - Inspiration: Space Invaders
 - State: mature
 - Platform: Linux
-- Keyword: arcade, remake, open content
+- Keyword: arcade, remake, content open
 - Code repository: https://github.com/Hopson97/Hopson-Arcade.git
 - Code language: C++
 - Code license: GPL-3.0

@@ -5,7 +5,7 @@
 - State: mature, inactive since 2016
 - Download: http://torcs.sourceforge.net/index.php?name=Sections&op=viewarticle&artid=3, https://sourceforge.net/projects/torcs/files/
 - Platform: Windows, Linux
-- Keyword: simulation, open content, racing
+- Keyword: simulation, content open, racing
 - Code repository: https://git.code.sf.net/p/torcs/code, https://gitlab.com/osgames/torcs.git @add
 - Code language: C++
 - Code license: GPL-2.0

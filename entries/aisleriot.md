@@ -4,7 +4,7 @@
 - State: mature
 - Download: https://github.com/GNOME/aisleriot/releases
 - Platform: Linux
-- Keyword: arcade, cards, open content
+- Keyword: arcade, cards, content open
 - Code repository: https://github.com/GNOME/aisleriot.git
 - Code language: C, Scheme
 - Code license: GPL-3.0

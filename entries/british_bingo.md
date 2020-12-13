@@ -5,7 +5,7 @@
 - Play: http://bbingo.eu5.net/
 - Download: https://sourceforge.net/projects/britbingo/files/
 - Platform: Web
-- Keyword: action, board, open content
+- Keyword: action, board, content open
 - Code repository: @see-download
 - Code language: JavaScript
 - Code license: GPL-3.0

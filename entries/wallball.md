@@ -5,7 +5,7 @@
 - State: mature
 - Play: https://montrose.is/#wallball
 - Platform: Web
-- Keyword: simulation, clone, open content, skill
+- Keyword: simulation, clone, content open, skill
 - Code repository: https://github.com/plainsightcollection/plainsightcollection.github.io.git
 - Code language: Haxe, JavaScript
 - Code license: GPL-3.0

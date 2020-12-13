@@ -4,7 +4,7 @@
 - State: mature, inactive since 2009
 - Download: https://sourceforge.net/projects/btanks/files/
 - Platform: Windows, Linux, macOS
-- Keyword: action, arcade, content commercial, 2D, tank
+- Keyword: action, arcade, 2D, content commercial, tank
 - Code repository: https://github.com/whoozle/btanks.git, https://svn.code.sf.net/p/btanks/code (svn)
 - Code language: C++
 - Code license: GPL-2.0

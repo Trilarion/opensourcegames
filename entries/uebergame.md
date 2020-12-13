@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://duion.com/games/uebergame/downloads
 - Platform: Windows
-- Keyword: action, clone, open content, shooter
+- Keyword: action, clone, content open, shooter
 - Code repository: https://github.com/Duion/Uebergame.git
 - Code language: TorqueScript, C#
 - Code license: MIT

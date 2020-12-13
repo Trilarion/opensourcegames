@@ -13,4 +13,4 @@ Post-processing graphics injector.
 
 ## Building
 
-- Build system: VisualStudio
+- Build system: Visual Studio

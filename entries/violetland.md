@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://github.com/ooxi/violetland/releases
 - Platform: Windows, Linux
-- Keyword: remake, clone, open content
+- Keyword: remake, clone, content open
 - Code repository: https://github.com/ooxi/violetland.git
 - Code language: C++
 - Code license: GPL-3.0

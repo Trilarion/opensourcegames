@@ -4,7 +4,7 @@
 - State: mature, inactive since 2010
 - Download: https://sourceforge.net/projects/foobillard/files/
 - Platform: Windows, Linux
-- Keyword: simulation, 3D, sports
+- Keyword: simulation, sports, 3D
 - Code repository: @see-download
 - Code language: C
 - Code license: GPL-2.0

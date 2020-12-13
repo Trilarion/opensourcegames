@@ -4,7 +4,7 @@
 - Inspiration: X-Moto
 - State: mature, inactive since 2006
 - Download: https://web.archive.org/web/20091226074342/http://bloboats.blobtrox.net/download.php
-- Keyword: action, open content, racing, side-scrolling
+- Keyword: action, content open, racing, side-scrolling
 - Code repository: https://salsa.debian.org/games-team/bloboats.git (see alsodownload)
 - Code language: C++
 - Code license: GPL-2.0

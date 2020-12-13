@@ -4,7 +4,7 @@
 - State: beta
 - Download: https://sourceforge.net/projects/trigger-rally/files/
 - Platform: Windows, Linux
-- Keyword: action, cars, racing, 3D
+- Keyword: action, 3D, cars, racing
 - Code repository: https://svn.code.sf.net/p/trigger-rally/code (svn active)
 - Code language: C++
 - Code license: GPL-2.0

@@ -3,7 +3,7 @@
 - Home: https://sourceforge.net/projects/mars-game/, https://packages.debian.org/search?keywords=marsshooter
 - State: beta, inactive since 2016
 - Download: https://github.com/jwrdegoede/M.A.R.S./releases, https://sourceforge.net/projects/mars-game/files/
-- Keyword: platform, 2D, open content, shooter, top-down
+- Keyword: platform, 2D, content open, shooter, top-down
 - Code repository: https://github.com/jwrdegoede/M.A.R.S..git, https://github.com/thelaui/M.A.R.S..git @add, https://svn.code.sf.net/p/mars-game/code (svn)
 - Code language: C++, C
 - Code license: GPL-3.0

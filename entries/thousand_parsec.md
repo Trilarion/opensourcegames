@@ -3,7 +3,7 @@
 - Home: https://web.archive.org/web/20180516211349/http://www.thousandparsec.net/tp/, https://sourceforge.net/projects/thousandparsec/
 - State: beta, inactive since 2012
 - Download: https://web.archive.org/web/20180523204730/http://www.thousandparsec.net/tp/download-instructions.php
-- Keyword: strategy, framework, 4X, space
+- Keyword: framework, strategy, 4X, space
 - Code repository: https://github.com/thousandparsec/tpserver-cpp.git, https://github.com/thousandparsec/tpclient-pywx.git @add, http://git.thousandparsec.net/ (not available right now)
 - Code language: C++, Python
 - Code license: GPL-2.0

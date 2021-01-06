@@ -9,7 +9,7 @@
 - Code language: Python
 - Code license: GPL-2.0
 - Code dependency: pygame
-- Developer: Андрей Питько (chubakur@GH, chubakur@BB)
+- Developer: Андрей Питько
 
 Simple card strategy, based on Magic: The Gathering rules.
 

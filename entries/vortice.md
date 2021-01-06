@@ -7,6 +7,6 @@
 - Code repository: https://github.com/amerkoleci/vortice.git
 - Code language: C#
 - Code license: MIT
-- Developer: Amer Koleci (amerkoleci@GH)
+- Developer: Amer Koleci
 
 ## Building

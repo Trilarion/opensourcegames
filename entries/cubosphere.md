@@ -8,6 +8,7 @@
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependency: SDL2
+- Developer: Helix, Exosphere, Georgios Mixalis, brutalis, patryk1303, Promitheas Avgerinos
 
 ## Building
 

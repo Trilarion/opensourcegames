@@ -9,5 +9,6 @@
 - Code repository: https://git.code.sf.net/p/blobwars/code, https://gitlab.com/osgames/blobwars.git @add, https://src.fedoraproject.org/rpms/blobwars.git @add, https://github.com/OSSGames/GAME-SDL-ACTION-Blobwars_Metal_Blob_Solid.git
 - Code language: C++
 - Code license: GPL-2.0
+- Developer: Hans de Goede, Guus Sliepen, Stephen Sweeney
 
 ## Building

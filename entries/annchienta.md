@@ -7,6 +7,7 @@
 - Code repository: https://github.com/sago007/annchienta.git, https://svn.code.sf.net/p/annchienta/code (svn)
 - Code language: C++
 - Code license: GPL-3.0
+- Developer: Jasper Van der Jeugt, qubodup
 
 ## Building
 

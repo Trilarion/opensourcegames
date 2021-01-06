@@ -191,6 +191,13 @@ https://gamejolt.com/ (search there)
 https://games.kde.org/ (all of them)
 https://games.kde.org/old/kde_arcade.php
 https://gdevelop-app.com/
+https://github.com/FaronBracy/RogueSharp
+https://github.com/jmorton06/Lumos
+https://github.com/codenamecpp/carnage3d
+https://github.com/zhangdoa/InnocenceEngine
+https://github.com/marukrap/RoguelikeDevResources
+http://www.gjt.org/ (all there)
+https://github.blog/2014-01-06-github-game-off-ii-winners/
 https://github.com/00-Evan/shattered-pixel-dungeon
 https://github.com/00-Evan/shattered-pixel-dungeon-gdx
 https://github.com/acedogblast/Project-Uranium-Godot

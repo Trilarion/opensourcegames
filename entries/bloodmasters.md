@@ -8,6 +8,6 @@
 - Code language: C#
 - Code license: GPL-2.0
 - Code dependency: .NET, DirectX
-- Developer: Pascal von der Heiden
+- Developer: Pascal van der Heiden
 
 ## Building

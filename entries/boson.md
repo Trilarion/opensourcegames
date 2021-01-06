@@ -8,6 +8,7 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: OpenGL
+- Developer: Andreas Beckermann, Ben Adler, Thomas Capricelli, Rivo Laks, Felix Seeger, Krzysztof Kosz, Mickael Marchand, Scott MacDonald, Timo Huebel, Nils Trzebin
 
 More like alpha.
 

@@ -8,7 +8,7 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL
-- Developer: Matthew Sarnoff (Game Creation Society), Chris DeLeon (Game Creation Society), John Nesky (Game Creation Society), Gregory Peng (Game Creation Society), Jeff Thoene (Game Creation Society), Tuscan Knox (music, Game Creation Society), Michael Weber (Game Creation Society)
+- Developer: Matthew Sarnoff, Chris DeLeon, John Nesky, Gregory Peng, Jeff Thoene, Tuscan Knox (music), Michael Weber
 
 ## Building
 

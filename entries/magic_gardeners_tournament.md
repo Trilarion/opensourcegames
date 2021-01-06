@@ -8,6 +8,6 @@
 - Code license: GPL-2.0
 - Code dependency: pygame, PygLibs
 - Assets license: ? (GPL)
-- Developer: HoleInTheHeadStudios (Team Quicksilver)
+- Developer: HoleInTheHeadStudios
 
 ## Building

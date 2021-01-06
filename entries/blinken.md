@@ -9,7 +9,7 @@
 - Code license: GPL-2.0
 - Code dependency: KDE Frameworks
 - Assets license: GPL-2.0, GFDL (documentation)
-- Developer: Albert Astals Cid, Danny Allen (artwork and documentation), Steve Jordi (a font)
+- Developer: Albert Astals Cid, Danny Allen (artwork, documentation), Steve Jordi (font)
 
 KDE implementation of the memory game Simon Says.
 

@@ -9,7 +9,7 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Assets license: GPL
-- Developer: Bjørn Hansen, Reuben Lord
+- Developer: Bjørn Hansen, Reuben Lord, Ryan Bundy
 
 Multiplayer shooter in Zero Gravity.
 

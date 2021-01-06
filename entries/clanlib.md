@@ -7,6 +7,7 @@
 - Code repository: https://github.com/sphair/ClanLib.git
 - Code language: C, C++
 - Code license: zlib
+- Developer: Mark Page, Kenneth Gangsto
 
 Medium level development kit.
 Which games use ClanLib?

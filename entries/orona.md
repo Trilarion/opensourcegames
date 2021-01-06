@@ -9,6 +9,6 @@
 - Code repository: https://github.com/stephank/orona.git
 - Code language: CoffeeScript
 - Code license: GPL-2.0
-- Developer: Stéphan Kochen (stephenk@GH, https://stephank.nl/)
+- Developer: Stéphan Kochen
 
 ## Building

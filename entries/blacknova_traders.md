@@ -9,6 +9,7 @@
 - Code repository: https://gitlab.com/osgames/blacknova.git (backup of svn), https://svn.code.sf.net/p/blacknova/code (svn)
 - Code language: PHP, JavaScript
 - Code license: GPL-2.0
+- Developer: Ron Harwood, David Rowlands, TheMightyDude, Adam Fort, Kelly Shane Harrelson, Paul Ogle, Ramjet, The Kabal, Brian Gustin
 
 Web-based, multi-player space exploration game inspired by the popular BBS game of TradeWars.
 Fork is [Red Nova Traders](https://sourceforge.net/projects/rednova/), inactive since 2006.

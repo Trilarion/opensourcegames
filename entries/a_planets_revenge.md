@@ -9,6 +9,7 @@
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependency: curses
+- Developer: Michael Harmer
 
 Similar to a 4X game.
 

@@ -10,6 +10,7 @@
 - Code language: C++, Objective-C
 - Code license: GPL-2.0
 - Code dependency: SDL
+- Developer: Bernard, Michal Marek, Petr Gajdusek
 
 Remake of Bomberman, another Dynablaster clone.
 

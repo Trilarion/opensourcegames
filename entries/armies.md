@@ -7,5 +7,6 @@
 - Code repository: https://gitlab.com/osgames/armies.git (backup of source release)
 - Code language: C++
 - Code license: GPL-3.0
+- Developer: Germán Blando
 
 ## Building

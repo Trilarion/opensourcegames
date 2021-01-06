@@ -8,6 +8,7 @@
 - Code repository: https://github.com/osgamearchive/D-Fend-Reloaded.git (import of source releases)
 - Code language: Pascal
 - Code license: GPL-3.0
+- Developer: Alexander Herzog
 
 Graphical environment for DOSBox.
 

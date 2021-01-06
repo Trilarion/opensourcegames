@@ -8,7 +8,7 @@
 - Code license: Public domain
 - Code dependency: pygame
 - Assets license: Public domain
-- Developer: Joel Bouchard Lamontagne (logicow code), Isabelle Bouchard (Windbladeicepuppy artwork), Reduz (music), Hubert Lamontagne (madbrain sound), Coda (sound)
+- Developer: Joel Bouchard Lamontagne (code), Isabelle Bouchard (artwork), Reduz (music), Hubert Lamontagne (sound), Coda (sound)
 
 aka Upsilon Cat
 

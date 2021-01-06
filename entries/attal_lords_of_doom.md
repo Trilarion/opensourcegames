@@ -7,5 +7,6 @@
 - Code repository: https://gitlab.com/osgames/attal.git (backup of cvs), http://attal.cvs.sourceforge.net/ (cvs)
 - Code language: C++
 - Code license: GPL-2.0
+- Developer: Audoux, lusum, Gilles Oppeneau, alexandre, Verrier Cyrille, Forest Darling, Quentin DUSOULIER, leyral, Raphael Goulais, timfelgentreff, tribunal
 
 ## Building

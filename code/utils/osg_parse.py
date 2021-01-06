@@ -21,11 +21,11 @@ class ListingTransformer(lark.Transformer):
 
     def property(self, x):
         """
-        The key of a property will be converted to lower case and the value part is the second part
+        Key is first part, values are following.
         :param x:
         :return:
         """
-        return x[0], x[1:]
+        return x[0].value, x[1:]
 
     def name(self, x):
         """

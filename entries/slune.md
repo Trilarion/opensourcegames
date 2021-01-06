@@ -8,6 +8,6 @@
 - Code language: Python
 - Code license: GPL-2.0
 - Code dependency: Cal3D, GLEW, OpenGL, Py2Play, SDL
-- Developer: Jean-Baptiste "Jiba" Lamy (Nekeme Prod.)
+- Developer: Jean-Baptiste "Jiba" Lamy
 
 ## Building

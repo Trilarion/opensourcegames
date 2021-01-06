@@ -10,7 +10,7 @@
 - Code license: GPL-2.0
 - Code dependency: KDE Frameworks
 - Assets license: GPL, GFDL
-- Developer: Nicolas Hadacek, Mikhail Kourinny, Mauricio Piacentini, Dmitry Suzdalev, Mike McBride (documentation update for KDE 2.0), Philip Rodrigues (some changes for KDE 3.2)
+- Developer: Nicolas Hadacek, Mikhail Kourinny, Mauricio Piacentini, Dmitry Suzdalev, Mike McBride (documentation), Philip Rodrigues (minor)
 
 From the KDEGames division of the KDE Project.
 

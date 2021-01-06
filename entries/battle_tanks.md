@@ -9,6 +9,7 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Assets license: Proprietary
+- Developer: Vladimir Menshakov, Methos, Vladimir Zhuravlev
 
 Fast 2D tank arcade game with multiplayer and split-screen modes.
 

@@ -7,6 +7,7 @@
 - Code repository: https://gitlab.com/osgames/cyoadventures.git (import of download), https://svn.code.sf.net/p/cyoadventures/code (svn only one revision same as download)
 - Code language: Ada
 - Code license: GPL-2.0
+- Developer: Matt Davison
 
 Text-based game player and game generator. The games are structured as decision trees.
 

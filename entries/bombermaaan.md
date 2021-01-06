@@ -9,5 +9,6 @@
 - Code repository: https://gitlab.com/osgames/bombermaaan.git (import of svn), https://svn.code.sf.net/p/bombermaaan/code (svn)
 - Code language: C++
 - Code license: GPL-3.0
+- Developer: Fury, Bernd A., JEROME BIGOT, baptiste sansierra, Eggomat
 
 ## Building

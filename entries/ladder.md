@@ -10,4 +10,6 @@
 - Code license: GPL-2.0
 - Developer: Stephen Ostermiller
 
+Small compatibility release in 2020.
+
 ## Building

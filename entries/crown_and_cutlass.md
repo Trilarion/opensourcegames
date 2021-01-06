@@ -8,6 +8,7 @@
 - Code repository: https://gitlab.com/osgames/crownandcutlass.git (backup of svn), https://svn.code.sf.net/p/crownandcutlass/code (svn)
 - Code language: C++
 - Code license: Custom (almost identical to BSD)
+- Developer: Collin Sanford, David Thulson, Benjamin Coppock
 
 Pirate action/adventure game in the spirit of the old Pirates! game.
 

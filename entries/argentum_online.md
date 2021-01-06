@@ -7,6 +7,7 @@
 - Code repository: https://github.com/ao-libre/ao-server.git, https://github.com/ao-libre/ao-cliente.git @add, https://github.com/ao-libre/ao-worldeditor.git @add, http://morgoao.cvs.sourceforge.net/ (cvs)
 - Code language: Visual Basic
 - Code license: GPL-2.0, AGPL-3.0
+- Developer: Pablo Ignacio Márquez, Amraphen, AOSecProj, Ignacio Arminas, Juan Dalmasso, BrianPr, Luciano Contartese, Mauro Segoviano, Samuel Fernandez, Jotabe, Leandro Mendoza, Marco Vanotti, Mateo, Pato, BoxStar
 
 See also: [spin-off](https://github.com/horacioMartinez/argentumonline.io), [server mod](https://sourceforge.net/projects/aoserverbyshura/).
 

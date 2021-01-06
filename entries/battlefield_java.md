@@ -7,6 +7,7 @@
 - Code repository: https://github.com/bsutton/BattlefieldJava.git, https://git.code.sf.net/p/battlefieldjava/git, http://battlefieldjava.cvs.sourceforge.net (cvs)
 - Code language: Java
 - Code license: GPL-3.0
+- Developer: Brett
 
 Simple grid and turned based battle simulation game.
 

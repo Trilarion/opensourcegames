@@ -9,5 +9,6 @@
 - Code repository: https://gitlab.com/osgames/brutalchess.git (import of svn), https://svn.code.sf.net/p/brutalchess/code (svn)
 - Code language: C++
 - Code license: GPL-2.0
+- Developer: Michael Cook, Joe Flint, neilpa
 
 ## Building

@@ -10,7 +10,7 @@
 - Code license: GPL-2.0
 - Code dependency: SDL
 - Assets license: GPL-2.0
-- Developer: Bokorn
+- Developer: Bokorn, glezmen
 
 Clear levels navigating your way around walls.
 

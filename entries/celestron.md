@@ -9,5 +9,6 @@
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependency: NumPy, pygame
+- Developer: Daniel Foerster
 
 ## Building

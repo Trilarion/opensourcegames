@@ -8,5 +8,6 @@
 - Code repository: https://git.code.sf.net/p/csp/git, https://svn.code.sf.net/p/csp/svn (svn)
 - Code language: C++
 - Code license: GPL-2.0
+- Developer: Matt Boddicker, delta, Mark Rose, Martin Hoffmann, Scott Flicker, Brandon Bohn, dust, Emyr James, Niklas, cinbody, Laurent GERVAL, michael minault, Philipp H, Henrik, Clément Bourdarias, Renner, Thomas Schütze, Michal Holcik, th3flyboy, vi
 
 ## Building

@@ -8,5 +8,6 @@
 - Code repository: https://gitlab.com/osgames/conquests.git (archive)
 - Code language: C++
 - Code license: GPL-2.0
+- Developer: Mark
 
 ## Building

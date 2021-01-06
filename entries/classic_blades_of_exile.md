@@ -7,9 +7,8 @@
 - Code repository: https://github.com/calref/cboe.git
 - Code language: C++
 - Code license: GPL-2.0
-- Developer: Spiderweb Software (Jeff Vogel)
+- Developer: Jeff Vogel
 
-Created by Jeff Vogel of Spiderweb Software.
 Started as a commercial project. Part of the Exile series and released in 1997 by Spiderweb Software.
 
 ## Building

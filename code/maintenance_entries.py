@@ -859,21 +859,29 @@ class EntriesMaintainer:
             print('entries not yet loaded')
             return
 
-        # combine content keywords
-        n = len('content ')
+        # cvs without any git
         for entry in self.entries:
-            keywords = entry['Keyword']
-            content = [keyword for keyword in keywords if keyword.startswith('content')]
-            if len(content) > 1:
-                # remove from keywords
-                keywords = [keyword for keyword in keywords if keyword not in content]
-                # remove prefix
-                content = [str(keyword)[n:].strip() for keyword in content]
-                # join with +
-                content = 'content {}'.format(' + '.join(content))
-                keywords.append(osg_parse.ValueWithComment(content))
-                entry['Keyword'] = keywords
-                print('fixed "{}"'.format(entry['File']))
+            repos = entry['Code repository']
+            cvs = [repo for repo in repos if 'cvs' in repo]
+            git = [repo for repo in repos if 'git' in repo]
+            if len(cvs) > 0 and len(git) == 0:
+                print('Entry "{}" with repos: {}'.format(entry['File'], repos))
+
+        # # combine content keywords
+        # n = len('content ')
+        # for entry in self.entries:
+        #     keywords = entry['Keyword']
+        #     content = [keyword for keyword in keywords if keyword.startswith('content')]
+        #     if len(content) > 1:
+        #         # remove from keywords
+        #         keywords = [keyword for keyword in keywords if keyword not in content]
+        #         # remove prefix
+        #         content = [str(keyword)[n:].strip() for keyword in content]
+        #         # join with +
+        #         content = 'content {}'.format(' + '.join(content))
+        #         keywords.append(osg_parse.ValueWithComment(content))
+        #         entry['Keyword'] = keywords
+        #         print('fixed "{}"'.format(entry['File']))
 
         print('special ops finished')
 

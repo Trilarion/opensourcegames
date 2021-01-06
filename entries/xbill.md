@@ -8,7 +8,7 @@
 - Code repository: https://gitlab.com/osgames/xbill.git (import of sources)
 - Code language: C
 - Code license: GPL-2.0
-- Developer: Brian Wellington (Psychosoft), Matias Duarte (Psychosoft)
+- Developer: Brian Wellington, Matias Duarte
 
 Written in 1994. Several ports linked on the home page.
 

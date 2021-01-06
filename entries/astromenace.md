@@ -8,7 +8,7 @@
 - Code repository: https://github.com/viewizard/astromenace.git
 - Code language: C++, C
 - Code license: GPL-3.0
-- Developer: Mikkhail Kurin
+- Developer: Mikkhail Kurin, viewizard
 
 ## Building
 

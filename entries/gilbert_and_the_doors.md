@@ -10,7 +10,7 @@
 - Code license: GPL-3.0
 - Code dependency: Electro L.I.B, SDL
 - Assets license: GPL-3.0
-- Developer: Daniel Champagne (Electro L.I.B)
+- Developer: Daniel Champagne
 
 ## Building
 

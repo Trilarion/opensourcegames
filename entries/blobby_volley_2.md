@@ -8,6 +8,7 @@
 - Code repository: https://svn.code.sf.net/p/blobby/code (svn)
 - Code language: C++
 - Code license: GPL-2.0
+- Developer: danielknobe, Jonathan Sieber, CvX!, Erik Schultheis, Sven Rech
 
 Continuation of the famous Blobby Volley 1.x arcade game.
 

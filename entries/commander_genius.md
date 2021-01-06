@@ -9,6 +9,7 @@
 - Code repository: https://gitlab.com/Dringgstein/Commander-Genius.git, https://github.com/albertz/commandergenius.git @add, https://github.com/pelya/commandergenius.git @add, https://github.com/gerstrong/Commander-Genius.git @add
 - Code language: C, C++
 - Code license: GPL-2.0
+- Developer: Gerstrong, Albert Zeyer, Casey Bird, Gagster, NY00123, Sergii Pylypenko
 
 Many different repositories on Github with different licenses.
 

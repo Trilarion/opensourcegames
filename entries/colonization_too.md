@@ -8,6 +8,7 @@
 - Code repository: https://gitlab.com/osgames/coltoo.git (backup of cvs), http://coltoo.cvs.sourceforge.net/ (cvs)
 - Code language: C++
 - Code license: GPL-2.0
+- Developer: John D. Dilley, Gustavo Bonis Calvo, Chainsword, kayne2000, Peter Kocsis, Pasi Lackman
 
 Design and develop of a sequel to the original game.
 

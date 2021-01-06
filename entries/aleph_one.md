@@ -9,6 +9,7 @@
 - Code repository: https://github.com/Aleph-One-Marathon/alephone.git, https://svn.code.sf.net/p/marathon/code (svn)
 - Code language: C++, Lua
 - Code license: GPL-3.0
+- Developer: Christian Bauer, Jeremiah Morris, Jesse Simko, Loren Petrich, Alexander Strange, Gregory Smith, Aaron Davies, Jeremy Parsons, Catherine Seppanen, Daniel Blezek, hogdotmac, Jason Yates, Mike Benonis, Michael D. Adams, Nigel, Alexei Svitkine, Solra Bizna, 0xMk, Chris Hellberg
 
 Continuation of Bungie's Marathon 2 FPS game engine.
 

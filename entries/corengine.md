@@ -7,5 +7,6 @@
 - Code repository: @see-download
 - Code language: C
 - Code license: zlib
+- Developer: CorEduard
 
 ## Building

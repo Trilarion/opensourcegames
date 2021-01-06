@@ -1,6 +1,6 @@
 # Atomic Tanks
 
-- Home: http://atanks.sourceforge.net/, https://sourceforge.net/projects/atanks
+- Home: http://atanks.sourceforge.net/, https://sourceforge.net/projects/atanks/
 - Inspiration: Scorched Earth, Worms
 - State: mature, inactive since 2016
 - Download: https://sourceforge.net/projects/atanks/files/
@@ -11,7 +11,7 @@
 - Code license: GPL-2.0
 - Code dependency: Allegro
 - Assets license: GPL
-- Developer: Jesse Smith, Juraj Michalek, Thomas Hudson
+- Developer: Jesse Smith, Juraj Michalek, Thomas Hudson, Billy Buerger, Sven Eden, CtHx Ъ, Keilaron, Neil Graeme Matthews, ubr47k
 
 ## Building
 

@@ -260,6 +260,35 @@ def read_entries():
     return entries
 
 
+def read_entry(file):
+    """
+    Reads a single entry
+    :param file: the entry file (without path)
+    :return: the entry
+    """
+
+    # setup parser and transformer
+    grammar_file = os.path.join(c.code_path, 'grammar_entries.lark')
+    grammar = utils.read_text(grammar_file)
+    parse = osg_parse.create(grammar, osg_parse.EntryTransformer)
+
+    # read entry file
+    content = utils.read_text(os.path.join(c.entries_path, file))
+    if not content.endswith('\n'):
+        content += '\n'
+
+    # parse and transform entry content
+    try:
+        entry = parse(content)
+        entry = [('File', file),] + entry # add file information to the beginning
+        entry = check_and_process_entry(entry)
+    except Exception as e:
+        print('{} - {}'.format(file, e))
+        raise RuntimeError(e)
+
+    return entry
+
+
 def check_and_process_entry(entry):
     message = ''
 

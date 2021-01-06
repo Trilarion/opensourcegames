@@ -8,5 +8,6 @@
 - Code repository: https://gitlab.com/osgames/bmtactics.git (copy of source releases)
 - Code language: JavaScript
 - Code license: GPL-2.0
+- Developer: Kevin Lemoine, Zachary Murray, Freaky Picasso, Franklin Buskirk, Morgan Smith, Tobias Theuer, Joseph Baffaro, Andrew Beal
 
 ## Building

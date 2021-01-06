@@ -6,5 +6,6 @@
 - Code repository: https://github.com/khakulov/CreepTD.git, https://svn.code.sf.net/p/creepsmash/code (svn)
 - Code language: Java
 - Code license: GPL-3.0
+- Developer: Chf
 
 ## Building

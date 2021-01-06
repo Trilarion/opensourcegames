@@ -7,7 +7,7 @@
 - Code repository: https://github.com/xriss/gamecake.git
 - Code language: C, C++, Lua
 - Code license: MIT
-- Developer: Kriss (xriss@GH, xixs@BB)
+- Developer: Kriss
 
 ## Building
 

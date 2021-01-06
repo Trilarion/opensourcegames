@@ -9,6 +9,6 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: OpenGL
-- Developer: Kanna Yoshihiro
+- Developer: Kanna Yoshihiro, yotsuya san, Takayuki KUSANO
 
 ## Building

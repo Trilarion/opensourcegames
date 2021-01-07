@@ -8,6 +8,7 @@
 - Code repository: https://svn.code.sf.net/p/freesynd/code (svn)
 - Code language: C++
 - Code license: GPL-2.0
+- Developer: Benoit Blancard, Joost Peters, Trent Waddington, Stuart Bingë, Joey Parrish, Maik Wagner
 
 ## Building
 

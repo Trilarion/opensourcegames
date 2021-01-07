@@ -7,6 +7,7 @@
 - Code repository: https://github.com/Attnam/ivan.git, http://ivan.cvs.sourceforge.net (cvs)
 - Code language: C++
 - Code license: GPL-2.0
+- Developer: Heikki Sairanen, Timo Kiviluoto, Tuukka Virtaperko
 
 Graphical roguelike game with advanced bodypart and material handling, multi-colored lighting and, above all, deep gameplay.
 See also https://github.com/jarpiain/ivan-tty

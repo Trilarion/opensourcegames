@@ -8,6 +8,7 @@
 - Code repository: https://gitlab.com/osgames/devana.git (snapshot of source releases)
 - Code language: PHP
 - Code license: zlib
+- Developer: devland
 
 Browser strategy game.
 Main web site is unavailable. License change from GPL-3.0 to zlib between version 1.5.3 and 1.6.6.

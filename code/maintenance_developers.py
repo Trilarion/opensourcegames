@@ -2,6 +2,8 @@
 Checks the entries and tries to detect additional developer content, by retrieving websites or logging information from
 stored Git repositories.
 """
+# TODO bag of words (split, strip, lowercase) on dev names and try to detect sex and nationality
+# TODO for duplicate names, create ignore list
 
 from utils import osg_ui
 from utils import osg

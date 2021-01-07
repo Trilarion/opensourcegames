@@ -9,6 +9,6 @@
 - Code language: C++
 - Code license: Public domain (license.txt)
 - Assets license: Public domain (license.txt)
-- Developer: Ronnie Hedlund
+- Developer: Ronnie Hedlund, Benny, Omar Soriano
 
 ## Building

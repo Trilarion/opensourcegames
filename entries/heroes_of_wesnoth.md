@@ -6,6 +6,7 @@
 - Code repository: https://code.launchpad.net/heroesofwesnoth (bzr), https://svn.code.sf.net/p/heroesofwesnoth/code (svn), https://gitorious.org/heroes-of-wesnoth/mainline.git (read-only)
 - Code language: C++
 - Code license: GPL-3.0
+- Developer: Jonan
 
 Guide a hero through a fantasy world.
 

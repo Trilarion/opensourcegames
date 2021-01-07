@@ -11,6 +11,7 @@
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependency: SDL
+- Developer: Andreas Lochmann, Daniel Heck, Raoul Bourquin, Ronald Lamprecht, ged, itroll, Sidney Markowitz, bernh_t
 
 ## Building
 

@@ -10,7 +10,7 @@
 - Code license: Public domain
 - Code dependency: SDL
 - Assets license: Public domain
-- Developer: Jason Rohrer
+- Developer: Jason Rohrer, las30
 
 Second autobiographical game by Jason Rohrer.
 

@@ -9,6 +9,7 @@
 - Code repository: http://gusanos.cvs.sourceforge.net (cvs)
 - Code language: C++
 - Code license: GPL-2.0
+- Developer: Erik Lindroos, basara, nymacro, JonSully, darka, setrodox, AK47
 
 Clone of the DOS game Liero.
 

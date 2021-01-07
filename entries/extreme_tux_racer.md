@@ -9,6 +9,7 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Assets license: GPL-2.0
+- Developer: Steven Bell, Marko Lindqvist, Cedric Heintz, Charles Goodwin, Kristian Picon, Mr. X, RKSimon, erin, Jean-Vivien Maurice
 
 It was formerly known as Planet Penguin Racer. (https://wiki.debian.org/Games/ppracer).
 

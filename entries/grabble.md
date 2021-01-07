@@ -7,6 +7,7 @@
 - Code repository: @see-download
 - Code language: Java
 - Code license: ?
+- Developer: CMG Lee
 
 Anagrams-playing game.
 

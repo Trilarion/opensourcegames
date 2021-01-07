@@ -14,7 +14,7 @@ prefix = 'https://sourceforge.net/projects/'
 # author names in SF that aren't the author names how we have them
 SF_alias_list = {'Erik Johansson (aka feneur)': 'Erik Johansson', 'Itms': 'Nicolas Auvray', 'baris yuksel': 'Baris Yuksel',
                  'Wraitii': 'Lancelot de Ferrière', 'Simzer': 'Simon Laszlo', 'armin bajramovic': 'Armin Bajramovic',
-                 'bleu tailfly': 'bleutailfly', 'dlh': 'DLH', 'Bjorn Hansen': 'Bjørn Hansen'}
+                 'bleu tailfly': 'bleutailfly', 'dlh': 'DLH', 'Bjorn Hansen': 'Bjørn Hansen', 'Louens Veen': 'Lourens Veen'}
 
 SF_ignore_list = ('', 'Arianne Integration Bot')
 

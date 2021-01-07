@@ -8,6 +8,7 @@
 - Code repository: https://svn.code.sf.net/p/freemars/code (svn active)
 - Code language: Java
 - Code license: GPL-3.0
+- Developer: arikande
 
 About colonizing Mars.
 

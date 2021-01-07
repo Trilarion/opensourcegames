@@ -8,6 +8,7 @@
 - Code repository: https://github.com/fifengine/fifengine.git
 - Code language: C++, Python
 - Code license: LGPL-2.1
+- Developer: mvBarracuda, Wayne Prasek, vtchill, CheeseSucker, Klaus Blindert
 
 ## Building
 

@@ -10,6 +10,7 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL
+- Developer: alley, Riccardo Bernardini, Tommaso Schiavinotto, Cesare Zavattari, Riccardo Vianello, Tim Douglas
 
 An SDL remake of the old DOS game Arcade Volleyball.
 

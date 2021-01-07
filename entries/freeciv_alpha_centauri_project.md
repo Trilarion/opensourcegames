@@ -8,6 +8,7 @@
 - Code repository: https://gitlab.com/osgames/freecivac.git (conversion to cvs), http://freecivac.cvs.sourceforge.net (cvs)
 - Code language: C
 - Code license: GPL-2.0
+- Developer: Ben Webb, rcb, Stewart Adcock
 
 Fork of Freeciv.
 

@@ -8,6 +8,7 @@
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: Qt
+- Developer: Mark
 
 ## Building
 

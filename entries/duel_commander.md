@@ -8,6 +8,7 @@
 - Code repository: https://gitlab.com/osgames/duelcommander.git (snapshot of source releases)
 - Code language: C
 - Code license: GPL-3.0
+- Developer: Tommi Helander
 
 Command line fighting game.
 

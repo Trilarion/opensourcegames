@@ -907,7 +907,7 @@ if __name__ == "__main__":
         'Update repository list': m.update_repos,
         'Special': m.special_ops,
         'Complete run': m.complete_run
-    }
+    } # TODO sort developers alphabetically and remove duplicate entries
 
     osg_ui.run_simple_button_app('Entries developer', actions)
 

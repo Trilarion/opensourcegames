@@ -9,6 +9,7 @@
 - Code repository: https://svn.code.sf.net/p/dopewars/code (svn)
 - Code language: C
 - Code license: GPL-2.0
+- Developer: Ben Webb, Ocelot Mantis
 
 ## Building
 

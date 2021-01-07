@@ -9,5 +9,6 @@
 - Code repository: https://svn.code.sf.net/p/uhexen2/code (svn active), http://uhexen2.cvs.sourceforge.net (cvs)
 - Code language: C
 - Code license: GPL-2.0
+- Developer: Ozkan Sezer, Steven, BSzili, Levent Yavas, svdijk, turkeystuffer
 
 ## Building

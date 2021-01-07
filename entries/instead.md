@@ -9,6 +9,7 @@
 - Code language: C, Lua
 - Code license: MIT
 - Code dependency: SDL
+- Developer: Peter Kosyh
 
 Engine for textographic games, which are a mix of interactive fiction, visual novels and classic point & click adventures.
 

@@ -11,6 +11,7 @@
 - Code license: GPL-2.0
 - Code dependency: Boost, FreeType, libvorbis, Ogg, OpenAL, OpenGL, PyLab, SDL, zlib
 - Assets license: CC-BY-SA
+- Developer: Dilvish, Geoff Topping, Marcel Metz, Mark Saward, Zach Laine, Vezzra, Isaac Supeene, eleazzaar, Jonathan Siwek, Markus Sinner, MatGB, Alexander Kuehn, Mathias Koehler
 
 ## Building
 

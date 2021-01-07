@@ -8,6 +8,7 @@
 - Code language: Python
 - Code license: MIT
 - Code dependency: pygame
+- Developer: Casey Duncan, Eric Bieschke
 
 Space adventure game with elements of arcade and strategy.
 

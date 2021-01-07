@@ -6,5 +6,6 @@
 - Code repository: https://github.com/matthewgrimes/hexgame.git
 - Code language: C++
 - Code license: MIT
+- Developer: laonious
 
 ## Building

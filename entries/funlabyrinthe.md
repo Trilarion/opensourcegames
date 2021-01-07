@@ -8,5 +8,6 @@
 - Code repository: @see-download
 - Code language: Pascal
 - Code license: GPL-2.0
+- Developer: Sébastien Jean Robert Doeraene, jpaul_d
 
 ## Building

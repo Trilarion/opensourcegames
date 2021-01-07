@@ -7,5 +7,6 @@
 - Code repository: https://gitlab.com/osgames/h-world.git (backup of cvs), http://h-world.cvs.sourceforge.net (cvs)
 - Code language: C, Lua
 - Code license: GPL-2.0
+- Developer: Hajo, ABCGi, Radomir Dopieralski
 
 ## Building

@@ -7,6 +7,7 @@
 - Code repository: https://svn.code.sf.net/p/ecksdee/svn (svn)
 - Code language: C++
 - Code license: GPL-2.0
+- Developer: Genjix, orogor, Vincent Knecht, dex, Mat Sutcliffe
 
 Assets license discussion, see https://sourceforge.net/p/ecksdee/discussion/527989/thread/10ef0296/.
 

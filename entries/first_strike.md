@@ -7,6 +7,7 @@
 - Code repository: https://gitlab.com/osgames/firststrike.git (mirror), https://svn.code.sf.net/p/firststrikegame/code (svn)
 - Code language: Java
 - Code license: MIT
+- Developer: Jocelyn Chaumel
 
 Conquer the world.
 

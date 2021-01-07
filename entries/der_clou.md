@@ -9,6 +9,7 @@
 - Code language: C
 - Code license: Custom (Der Clou! Public License)
 - Code dependency: SDL
+- Developer: Kaweh Kazemi, Oliver Gantert, Lucas Schaller, Felipe Gerhard, Thomas Trummer, saschak, Philipp Gühring, Ronny Thiemann
 
 Remake of the 1986 game They Stole a Million / The Clue!.
 May require original game files.

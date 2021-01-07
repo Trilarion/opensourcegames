@@ -7,6 +7,7 @@
 - Code repository: https://gitlab.com/osgames/dungeonmap.git (backup of svn), https://svn.code.sf.net/p/dungeonmap/code (svn)
 - Code language: C++
 - Code license: GPL-3.0
+- Developer: Anders Reggestad
 
 Map your dungeons for your next role playing adventure.
 

@@ -8,6 +8,7 @@
 - Code repository: https://github.com/dreamchess/dreamchess.git
 - Code language: C
 - Code license: GPL-3.0
+- Developer: Kris McAulay, Walter van Niftrik
 
 ## Building
 

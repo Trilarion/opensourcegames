@@ -8,6 +8,7 @@
 - Code repository: https://gitlab.com/osgames/uaf.git (mirror), http://uaf.cvs.sourceforge.net (cvs)
 - Code language: C++
 - Code license: GPL-2.0
+- Developer: Richard Turner, manikus, Paul Stevens, Paul R. Stevens, LurchBrick, nologgie, Tarlanon
 
 Updated emulator of Forgotten Realms: Unlimited Adventures.
 See also http://ua.reonis.com/index.php?topic=139.0

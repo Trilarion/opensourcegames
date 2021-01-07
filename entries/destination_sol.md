@@ -9,6 +9,7 @@
 - Code language: Java
 - Code license: Apache-2.0
 - Assets license: CC-NC (soundtrack)
+- Developer: Rasmus Praestholm, Milosh Petrov
 
 Hardcore arcade shooter.
 

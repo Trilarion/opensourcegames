@@ -8,5 +8,6 @@
 - Code language: Python
 - Code license: MIT
 - Code dependency: pygame
+- Developer: laonious, Brian Davis
 
 ## Building

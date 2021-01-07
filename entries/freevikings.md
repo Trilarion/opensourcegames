@@ -9,5 +9,6 @@
 - Code repository: https://git.code.sf.net/p/freevikings/git, http://freevikings.cvs.sourceforge.net (cvs)
 - Code language: Ruby
 - Code license: GPL-2.0
+- Developer: Jakub Pavlík
 
 ## Building

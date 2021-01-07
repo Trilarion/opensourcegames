@@ -9,6 +9,7 @@
 - Code repository: https://gitlab.com/osgames/rogueclone.git (backup of cvs), http://rogueclone.cvs.sourceforge.net (cvs)
 - Code language: C
 - Code license: 3-clause BSD
+- Developer: Michael Lehotay, Nick Straguzzi
 
 See also https://github.com/naota/rogueclone2s-utf8, https://github.com/WatermelonTeam/RogueClone
 

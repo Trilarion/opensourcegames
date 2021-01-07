@@ -8,6 +8,7 @@
 - Code repository: https://git.code.sf.net/p/pasang-emas/code
 - Code language: Vala
 - Code license: GPL-3.0
+- Developer: Nor Jaidi Tuah
 
 Traditional two-player board game of Brunei.
 See also [Pasang Emas for Android](https://sourceforge.net/projects/pasang-android/).

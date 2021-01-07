@@ -9,5 +9,6 @@
 - Code repository: http://nstars.cvs.sourceforge.net (cvs)
 - Code language: C#
 - Code license: ?
+- Developer: Nathaniel Woods
 
 ## Building

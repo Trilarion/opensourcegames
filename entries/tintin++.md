@@ -8,6 +8,7 @@
 - Code repository: https://github.com/scandum/tintin.git
 - Code language: C
 - Code license: GPL-3.0
+- Developer: Scandum
 
 MUD client.
 A [MUD client](https://en.wikipedia.org/wiki/MUD_client)

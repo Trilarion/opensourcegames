@@ -8,6 +8,7 @@
 - Code repository: https://gitlab.com/osgames/sopwith3.git (conversion of cvs), http://sopwith3.cvs.sourceforge.net (cvs)
 - Code language: C, C++, Objective-C
 - Code license: GPL-2.0
+- Developer: Jornand de Buisonjé, Andrew Jenner
 
 ## Building
 

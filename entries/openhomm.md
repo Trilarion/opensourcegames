@@ -9,6 +9,7 @@
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: Qt, SDL
+- Developer: crackedmind, Ice
 
 Open source clone of 'Heroes Of Might And Magic III' engine.
 Requires ownership of Heroes of Might and Magic III.

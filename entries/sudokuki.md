@@ -10,6 +10,6 @@
 - Code language: C, Java
 - Code license: GPL-3.0
 - Assets license: GPL-3.0
-- Developer: Sylvain Vedrenne
+- Developer: Sylvain Vedrenne, ApeHanger, Dmitry Salnikov, Daneih Ismail, "Fumiaki NAKANISHI (中西史明)", Janis Eisaks, Rafael Fontenelle, Stavros, Jeroen Broks
 
 ## Building

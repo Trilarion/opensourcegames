@@ -8,6 +8,7 @@
 - Code repository: https://github.com/SpaceTraderGame/SpaceTrader-Windows.git, http://spacetraderwin.cvs.sourceforge.net (cvs)
 - Code language: C#
 - Code license: GPL-2.0
+- Developer: Jay French, David Pierron
 
 Port to C# (.NET) of the popular game for Palm.
 

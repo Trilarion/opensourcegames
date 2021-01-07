@@ -9,6 +9,7 @@
 - Code repository: https://github.com/osgamearchive/slashem.git (archived conversion of cvs), http://slashem.cvs.sourceforge.net (cvs)
 - Code language: C, C++
 - Code license: Custom (NetHack license)
+- Developer: J. Ali Harlow, Warren Cheung, Clive Crous, Paul Hurtley, Pekka Rousu
 
 Variant of the roguelike game NetHack that offers extra features, monsters, and items.
 See also https://github.com/dirkz/slashem-iphone, https://github.com/Elronnd/slashem-next, https://code.google.com/archive/p/slashem-macosx/, https://github.com/blitz/slashem, https://github.com/mistydemeo/slashem,

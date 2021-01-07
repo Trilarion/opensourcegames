@@ -10,6 +10,7 @@
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependency: OGRE, SDL2, VDrift
+- Developer: Crystal Hammer
 
 With rally style of driving.
 

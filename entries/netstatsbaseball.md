@@ -8,7 +8,7 @@
 - Code language: C
 - Code license: Public domain
 - Assets license: (player pictures are from baseball-reference.com)
-- Developer: Marshal Lake
+- Developer: Marshall Lake
 
 Major League Baseball Simulation.
 

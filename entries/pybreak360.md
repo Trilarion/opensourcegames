@@ -10,5 +10,6 @@
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependency: pygame
+- Developer: gino
 
 ## Building

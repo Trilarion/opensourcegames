@@ -8,5 +8,6 @@
 - Code repository: https://gitlab.com/osgames/spaceopera.git (backup of svn), https://svn.code.sf.net/p/spaceopera/code (svn)
 - Code language: Java
 - Code license: GPL-2.0
+- Developer: Lorenz Beyeler
 
 ## Building

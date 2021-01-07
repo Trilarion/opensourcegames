@@ -11,6 +11,7 @@
 - Code language: C, C++, Lua
 - Code license: MIT
 - Assets license: CC-BY-NC
+- Developer: Chris Danford, Glenn Maynard, Colby Klein, Steve Checkoway, AJ Kelly, Alex Davidov, John Bauer, Adam Lowman, Josh Allen, Bronstad, buchan, Charles Lohr, Tracy Ward, Eric Holniker, Tom Jackson, Dan Colardeau, Jason Walsh, Eric Gustafson, Greg Cotton, Hugo Hromic, Steven Towle, Mike Calfin, Kevin Slaughter, Fred Wulff, Sean Burke, Skyone, Steve, Nemezis Edge, tvStatic, vdl, Wolfman, Geoff Benson, Xsoft, Andrew Arsenault
 
 Dance and rhythm game.
 

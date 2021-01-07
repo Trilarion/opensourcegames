@@ -9,6 +9,7 @@
 - Code repository: https://git.code.sf.net/p/sc2/uqm, https://gitlab.com/osgames/uqm.git @add
 - Code language: C
 - Code license: GPL-2.0
+- Developer: Alex Volkov, Mika Kolehmainen, Chris Nelson, Michael Martin, Serge van den Boom
 
 (or UQM) project ports Star Control II to modern operating systems.
 See also [Ur-Quan Masters HD](https://sourceforge.net/projects/urquanmastershd/)

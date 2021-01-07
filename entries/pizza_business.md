@@ -9,6 +9,7 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: wxWidgets
+- Developer: Tony Granberg, Dan Poineau, Johnny Salazar, Jeff Koerner, Saurabh Gupta
 
 Start and control a pizza business / pizza restaurants, limited to a budget.
 

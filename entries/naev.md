@@ -9,6 +9,7 @@
 - Code language: C, Lua
 - Code license: GPL-3.0
 - Code dependency: libxml, OpenAL, SDL2
+- Developer: bobbens, Deiz, BTAxis
 
 Also available on Steam.
 

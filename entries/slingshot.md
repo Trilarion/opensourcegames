@@ -10,7 +10,7 @@
 - Code license: GPL-2.0
 - Code dependency: pygame
 - Assets license: GPL-2.0
-- Developer: Jonathan Musther, Bart Mak
+- Developer: Jonathan Musther, Bart Mak, SpeckFleck, Greg*
 
 Gravity‐based.
 

@@ -8,6 +8,7 @@
 - Code language: C++, Lua
 - Code license: MIT
 - Code dependency: SDL
+- Developer: matle, P_Hansson
 
 Something in-between of a turn-based/real-time strategy game set in Japan during the 16th and 17th centuries when warlords fought for control of the Japanese islands.
 More like alpha.

@@ -8,6 +8,7 @@
 - Code repository: https://github.com/Warzone2100/warzone2100.git
 - Code language: C++
 - Code license: GPL-2.0
+- Developer: Buginator, Cyp, pastdue, Per I Mathisen, Christian Ohm, vexed, Stephen Swaney, wzdev-ci, Freddie, Kreuvf, Giel van Schijndel, Mysteryem, Elio Gubser, Safety0ff
 
 Full campaign with optional (but strongly recommended!), videos, battle against four factions, multi-player and single-player skirmish modes, and an extensive tech tree and a full unit designer.
 

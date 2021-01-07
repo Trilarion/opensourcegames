@@ -8,5 +8,6 @@
 - Code language: C, C++
 - Code license: 2-clause BSD
 - Code dependency: SDL
+- Developer: Evil Mr Henry
 
 ## Building

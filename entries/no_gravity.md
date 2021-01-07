@@ -9,6 +9,7 @@
 - Code repository: http://nogravity.cvs.sourceforge.net (cvs)
 - Code language: C
 - Code license: GPL-2.0
+- Developer: Stephane Denis, Matt Williams
 
 ## Building
 

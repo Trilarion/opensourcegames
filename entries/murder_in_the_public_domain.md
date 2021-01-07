@@ -9,6 +9,7 @@
 - Code repository: https://gitlab.com/osgames/murderpd.git (copy of versions 1.0.0 - 1.3.1)
 - Code language: C++
 - Code license: GPL-3.0
+- Developer: Chris Ohmstede
 
 A murder mystery game or visual novel built from public domain movies, sounds, pictures, and images.
 

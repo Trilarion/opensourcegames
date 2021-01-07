@@ -9,6 +9,7 @@
 - Code language: C
 - Code license: GPL-3.0
 - Code dependency: SDL
+- Developer: Eirik Stople
 
 SVN of project is gone and Git is older than releases, take from download page maybe?
 

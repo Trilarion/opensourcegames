@@ -7,6 +7,7 @@
 - Code repository: https://git.code.sf.net/p/opengate/code
 - Code language: C++
 - Code license: GPL-2.0
+- Developer: Christoph Brill, spom_spom, Daniel S.
 
 Early development.
 

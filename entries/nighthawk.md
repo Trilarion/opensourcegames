@@ -9,7 +9,7 @@
 - Code repository: https://gitlab.com/osgames/night-hawk.git (conversion of cvs), http://night-hawk.cvs.sourceforge.net (cvs)
 - Code language: C++
 - Code license: GPL-2.0
-- Developer: Jason Nunn, Eric Gillespie
+- Developer: Jason Nunn, Eric Gillespie, Dion Bonner, Eskild Hustvedt
 
 May be uploaded in the future under https://github.com/brickviking
 

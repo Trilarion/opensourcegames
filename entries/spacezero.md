@@ -8,5 +8,6 @@
 - Code repository: https://svn.code.sf.net/p/spacezero/code (svn)
 - Code language: C
 - Code license: GPL-3.0
+- Developer: mrevenga
 
 ## Building

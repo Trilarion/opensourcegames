@@ -14,7 +14,9 @@ prefix = 'https://sourceforge.net/projects/'
 # author names in SF that aren't the author names how we have them
 SF_alias_list = {'Erik Johansson (aka feneur)': 'Erik Johansson', 'Itms': 'Nicolas Auvray', 'baris yuksel': 'Baris Yuksel',
                  'Wraitii': 'Lancelot de Ferrière', 'Simzer': 'Simon Laszlo', 'armin bajramovic': 'Armin Bajramovic',
-                 'bleu tailfly': 'bleutailfly', 'dlh': 'DLH', 'Bjorn Hansen': 'Bjørn Hansen', 'Louens Veen': 'Lourens Veen'}
+                 'bleu tailfly': 'bleutailfly', 'dlh': 'DLH', 'Bjorn Hansen': 'Bjørn Hansen', 'Louens Veen': 'Lourens Veen',
+                 'linley_henzell': 'Linley Henzell', 'Patrice DUHAMEL': 'Patrice Duhamel', 'Etienne SOBOLE': 'Etienne Sobole',
+                 'L. H.    [Lubomír]': 'L. H. Lubomír'}
 
 SF_ignore_list = ('', 'Arianne Integration Bot')
 
@@ -75,7 +77,8 @@ def sourceforge_import():
                 url_members = 'https://sourceforge.net/p/' + url[len(prefix):] + '_members/'
                 response = requests.get(url_members)
                 if response.status_code != 200:
-                    raise RuntimeError('url {} not accessible'.format(url_members))
+                    print('error: url {} not accessible, status {}'.format(url_members, response.status_code))
+                    raise RuntimeError()
                 soup = BeautifulSoup(response.text, 'html.parser')
                 authors = soup.find('div', id='content_base').find('table').find_all('tr')
                 authors = [author.find_all('td') for author in authors]
@@ -84,8 +87,11 @@ def sourceforge_import():
                     # sometimes author already contains the full url, sometimes not
                     url_author = 'https://sourceforge.net' + author if not author.startswith('http') else author
                     response = requests.get(url_author)
+                    if response.status_code != 200 and author not in ('/u/favorito/',):
+                        print('error: url {} not accessible, status {}'.format(url_author, response.status_code))
+                        raise RuntimeError()
                     url_author = response.url  # could be different now
-                    if 'auth/?return_to' in url_author:
+                    if 'auth/?return_to' in url_author or response.status_code != 200:
                         # for some reason authorisation is forbidden or page was not available (happens for example for /u/kantaros)
                         author_name = author[3:-1]
                         nickname = author_name
@@ -96,6 +102,7 @@ def sourceforge_import():
                         nickname = soup.find('dl', class_='personal-data').find('dd').get_text()
                         nickname = nickname.replace('\n', '').strip()
                     nickname += '@SF' # our indication of the platform to search for
+                    author_name = author_name.strip() # names can still have white spaces before or after
 
                     if author_name in SF_ignore_list:
                         continue
@@ -119,7 +126,7 @@ def sourceforge_import():
                             all_developers_changed = True
                     else:
                         print('   dev "{}" ({}) added to developer database'.format(author_name, nickname))
-                        all_developers[author_name] = {'Name': author_name, 'Contact': nickname, 'Games': [entry['Title']]}
+                        all_developers[author_name] = {'Name': author_name, 'Contact': [nickname], 'Games': [entry['Title']]}
                         all_developers_changed = True
 
             if entry_changed:

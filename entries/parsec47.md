@@ -8,6 +8,7 @@
 - Code language: D
 - Code license: 2-clause BSD
 - Code dependency: SDL
+- Developer: Evil Mr Henry
 
 Retromodern hispeed shmashup.
 

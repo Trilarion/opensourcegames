@@ -8,5 +8,6 @@
 - Code repository: https://gitlab.com/osgames/starblastrix.git (import of sources)
 - Code language: C++
 - Code license: GPL-2.0
+- Developer: lbprogramming
 
 ## Building

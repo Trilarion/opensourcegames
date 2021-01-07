@@ -10,6 +10,7 @@
 - Code language: Python
 - Code license: GPL-2.0
 - Code dependency: FIFE, Pillow
+- Developer: Chris Oelmueller, Nihathrael, Andre R., Christoph Egger, totycro uhyi, Tobias  Schröfel
 
 With an emphasis on economy and city building.
 Uses the FIFE engine. Godot port: https://github.com/unknown-horizons/godot-port

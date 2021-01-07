@@ -40,9 +40,9 @@ def retrieve_repo_info(repos):
     for repo in repos:
         repo = normalize_repo_name(repo)
         r = g.get_repo(repo)
-        e = {'archived': r.archived, 'contributors': repo_get_contributors(r), 'description': r.description,
-             'language': r.language, 'last modified': r.last_modified, 'open issues count': r.open_issues_count,
-             'stars count': r.stargazers_count, 'topics': r.topics, 'repo': repo}
+        e = {'archived': r.archived, 'contributors': repo_get_contributors(r), 'created': r.created_at, 'description': r.description,
+             'forks': r.forks_count, 'language': r.language, 'last modified': r.last_modified, 'name': r.name,
+             'open issues count': r.open_issues_count, 'owner': r.owner, 'stars': r.stargazers_count, 'topics': r.get_topics(), 'repo': repo}
         result.append(e)
     if single_repo:
         result = result[0]

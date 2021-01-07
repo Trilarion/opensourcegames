@@ -8,6 +8,7 @@
 - Code repository: https://gitlab.com/osgames/softpixelengine.git (import of svn), https://svn.code.sf.net/p/softpixelengine/code (svn)
 - Code language: C++
 - Code license: zlib
+- Developer: Lukas Hermanns
 
 See also [SoftPixel Editor](https://sourceforge.net/projects/softpixeleditor/)
 

@@ -8,5 +8,6 @@
 - Code language: C
 - Code license: GPL-2.0
 - Code dependency: SDL
+- Developer: Michael Speck
 
 ## Building

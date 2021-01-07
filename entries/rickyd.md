@@ -8,6 +8,7 @@
 - Code repository: https://git.code.sf.net/p/rickyd/code
 - Code language: C++
 - Code license: GPL-2.0
+- Developer: Paulo Assis
 
 ## Building
 

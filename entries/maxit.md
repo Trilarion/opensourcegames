@@ -9,6 +9,6 @@
 - Code repository: https://github.com/textbrowser/maxit.git
 - Code language: C++
 - Code license: 3-clause BSD (https://github.com/textbrowser/maxit/blob/master/LICENSE)
-- Developer: Alexis Megas
+- Developer: Alexis Megas, Guess Who
 
 ## Building

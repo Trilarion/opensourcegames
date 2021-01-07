@@ -8,6 +8,7 @@
 - Code repository: http://webchess.bzr.sourceforge.net/bzrroot/webchess (bzr), http://webchess.cvs.sourceforge.net (cvs)
 - Code language: PHP
 - Code license: GPL-3.0
+- Developer: Rodrigo Flores, Jonathan Evraire, Andy Baskett, Dadi Jonsson, Felipe Rayel, Maksim Savin, Michel van der Kemp, Nathan Kelley
 
 Allows you to play chess with other users.
 

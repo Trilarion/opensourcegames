@@ -10,6 +10,7 @@
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependency: OpenAL, OpenGL, SDL2
+- Developer: Terry 'Mongoose' Hendrix II
 
 ## Building
 

@@ -9,6 +9,7 @@
 - Code repository: https://github.com/wesnoth/wesnoth.git
 - Code language: C, C++, Java, Python, Lua
 - Code license: GPL-2.0
+- Developer: David White, Nils Kneuper, Iris Morelle, vultraz, Martin Hrubý, Sergey Popov, Pentarctagon
 
 High fantasy theme.
 

@@ -8,5 +8,6 @@
 - Code repository: https://gitlab.com/osgames/machinations.git (backup of cvs), http://machinations.cvs.sourceforge.net/ (cvs)
 - Code language: C++
 - Code license: GPL-2.0
+- Developer: Tom Pittlik, Jon Sargeant, Jindrich kolman, Sebastian P., Abraham B. Hart, Manoel Junqueira
 
 ## Building

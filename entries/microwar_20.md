@@ -10,5 +10,6 @@
 - Code language: Python
 - Code license: 3-clause BSD
 - Code dependency: pygame
+- Developer: Pierre-Alain Dorange, Frank Blandon, Jean Karim Bockstael, Talamon70
 
 ## Building

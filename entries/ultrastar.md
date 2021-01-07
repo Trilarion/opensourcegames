@@ -10,6 +10,7 @@
 - Code repository: https://svn.code.sf.net/p/ultrastar/code (svn)
 - Code language: Pascal
 - Code license: ?
+- Developer: Corvus
 
 Clone of SingStar, a music video game.
 See also [UltraStar Deluxe](https://usdx.eu/) and https://github.com/UltraStar-Deluxe/USDX

@@ -11,7 +11,7 @@
 - Code license: GPL-2.0
 - Code dependency: Golden-T Game Engine, Mozilla Rhino
 - Assets license: ? (GPL)
-- Developer: Bernhard Trummer
+- Developer: Bernhard Trummer, Andreas Granig, Kevin Krammer
 
 2D gravity game.
 

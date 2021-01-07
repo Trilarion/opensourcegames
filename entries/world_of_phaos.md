@@ -9,6 +9,7 @@
 - Code language: PHP
 - Code license: GPL-2.0
 - Assets license: Restricted (see license)
+- Developer: Zeke Walker, Andrew Whiteman, Draghir, David Slimp, Thunder Doom, Ferencz Tamas
 
 Online Roleplaying Game browser based, which takes place in the high fantasy world Kallen.
 See also https://github.com/CarnosOS/PhaosRPG, https://github.com/thetopfew/phaos

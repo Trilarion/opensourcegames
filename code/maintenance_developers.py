@@ -33,7 +33,7 @@ class DevelopersMaintainer:
         developer_names = list(self.developers.keys())
         for index, name in enumerate(developer_names):
             for other_name in developer_names[index + 1:]:
-                if osg.name_similarity(name, other_name) > 0.8:
+                if osg.name_similarity(str.casefold(name), str.casefold(other_name)) > 0.85:
                     print(' {} - {} is similar'.format(name, other_name))
         print('duplicates checked')
 

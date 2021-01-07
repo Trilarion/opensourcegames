@@ -10,6 +10,7 @@
 - Code license: CC-BY-NC-SA-2.0
 - Code dependency: Allegro
 - Assets license: CC-BY-NC-SA-2.0
+- Developer: LitmusDragon
 
 Free random dungeon game RPG (Roguelike)
 

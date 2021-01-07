@@ -9,6 +9,7 @@
 - Code language: Python
 - Code license: LGPL-3.0
 - Code dependency: pygame
+- Developer: coffeefizzle
 
 Sequel to kobold's quest and features an octree for multi processing game mechanics.
 

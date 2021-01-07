@@ -10,5 +10,6 @@
 - Code language: Perl
 - Code license: GPL-2.0
 - Code dependency: SDL
+- Developer: UPi
 
 ## Building

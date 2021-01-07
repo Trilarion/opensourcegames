@@ -9,6 +9,7 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: ClanLib
+- Developer: Andrew Mustun, Michael Mustun, Colin Pitrat, Matthieu Lecesne, Mark Zequeida, Trevor Cordes
 
 With features such as shooting at other players, buying new cars.
 

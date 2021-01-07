@@ -9,6 +9,7 @@
 - Code repository: https://git.code.sf.net/p/ysoccer/code
 - Code language: Java
 - Code license: GPL-2.0 (see java/android/assets/docs/readme.htm)
+- Developer: Daniele, Massimo Modica
 
 Soccer game; continuation to Sensible World of Soccer.
 Successor of [Yoda Soccer](https://sourceforge.net/projects/yodasoccer/).

@@ -9,6 +9,7 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL
+- Developer: Sean Ford, Zardus, Jonny D
 
 Original code released under GPL.
 

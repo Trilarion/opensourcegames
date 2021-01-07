@@ -9,6 +9,7 @@
 - Code language: None
 - Code license: ?
 - Code dependency: Hexen
+- Developer: Crimson Wizard, Jānis Legzdiņš, Francisco Ortega, RambOrc, Camper, Remi Spaans
 
 Two games:
 Scattered Evil: a full-fledged open-world RPG

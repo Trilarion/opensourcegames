@@ -7,6 +7,7 @@
 - Code repository: https://github.com/Rails-18xx/Rails.git
 - Code language: Java
 - Code license: GPL-2.0
+- Developer: Dr. Martin Brumm, Brett Lentz, Chris Shaffer, Erik Vos, Frederick Weld, Iain, Freek Dijkstra, Michael Alexander, Stefan Frey, Chris
 
 Rails is a Java game engine intended to play any of the 18xx series of turn-based board games.
 

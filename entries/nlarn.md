@@ -9,5 +9,6 @@
 - Code repository: https://github.com/nlarn/nlarn.git
 - Code language: C, Lua
 - Code license: GPL-3.0
+- Developer: Joachim de Groot, jpeg
 
 ## Building

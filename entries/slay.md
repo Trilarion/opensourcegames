@@ -7,5 +7,6 @@
 - Code repository: https://gitlab.com/osgames/slaygame.git (snapshot of source releases)
 - Code language: Java
 - Code license: GPL-3.0
+- Developer: phill
 
 ## Building

@@ -9,5 +9,6 @@
 - Code repository: https://github.com/manicdigger/manicdigger.git, https://git.code.sf.net/p/manicdigger/code
 - Code language: C#
 - Code license: Public domain, Unlicense (where Public domain fails)
+- Developer: exe, Anton Neverdovsky, liquidhot, TKwisl, Zero X42
 
 ## Building

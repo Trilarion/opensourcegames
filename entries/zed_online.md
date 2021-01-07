@@ -7,5 +7,6 @@
 - Code repository: http://hg.code.sf.net/p/zedonline/code (hg)
 - Code language: C++
 - Code license: ? (GPL-3.0)
+- Developer: DaMarkov
 
 ## Building

@@ -9,6 +9,7 @@
 - Code repository: https://github.com/spring/spring.git, https://git.code.sf.net/p/springrts/code
 - Code language: C++, C, Lua
 - Code license: GPL-2.0
+- Developer: abma, Eshed, -jK-, Tobi Vollebregt, Robin Vobruba, Betalord, Robin Westberg, Stefan Johansson, JeeZ, jcnossen, George Hilios, Karl-R., Yeha
 
 See also [Spring 1944](http://spring1944.net/) a special scenario of the spring engine, code: https://github.com/spring1944/spring1944
 

@@ -10,5 +10,6 @@
 - Code repository: https://gitlab.com/osgames/kiki.git (conversion of cvs), http://kiki.cvs.sourceforge.net (cvs)
 - Code language: C++
 - Code license: Public domain
+- Developer: Thorsten Kohnhorst, micha
 
 ## Building

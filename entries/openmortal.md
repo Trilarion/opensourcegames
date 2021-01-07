@@ -9,7 +9,7 @@
 - Code repository: https://gitlab.com/osgames/openmortal.git (conversion of cvs), http://openmortal.cvs.sourceforge.net (cvs)
 - Code language: C++, Perl
 - Code license: GPL-2.0
-- Developer: UPi
+- Developer: UPi, arvind, Kami, openmortaldev, Gabor Sebestyen
 
 ## Building
 

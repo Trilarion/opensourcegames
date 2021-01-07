@@ -8,6 +8,7 @@
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependency: wxPython
+- Developer: Mike
 
 Map making utility used for role-playing games.
 

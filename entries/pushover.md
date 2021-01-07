@@ -8,6 +8,7 @@
 - Code repository: https://github.com/pushover/pushover.github.io.git
 - Code language: C++, C, Lua
 - Code license: GPL-3.0
+- Developer: Andreas Röver, Volker Diels-Grabsch, Wojtek Dabrowski
 
 ## Building
 

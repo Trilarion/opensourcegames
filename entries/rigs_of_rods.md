@@ -10,6 +10,7 @@
 - Code language: C, C++, AngelScript
 - Code license: GPL-3.0
 - Code dependency: OGRE
+- Developer: pricorde, tdev
 
 Drive, fly and sail various vehicles.
 

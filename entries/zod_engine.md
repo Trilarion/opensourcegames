@@ -9,5 +9,6 @@
 - Code repository: http://hg.code.sf.net/p/zod/zod_engine (hg)
 - Code language: C++
 - Code license: ? (really GPL-3.0 as mentioned on homepage?)
+- Developer: Mike Nigh
 
 ## Building

@@ -8,5 +8,6 @@
 - Code repository: https://svn.code.sf.net/p/xswingplus/code (svn)
 - Code language: Java
 - Code license: GPL-3.0
+- Developer: tobse
 
 ## Building

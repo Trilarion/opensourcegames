@@ -10,5 +10,6 @@
 - Code language: C++
 - Code license: MIT (was GPL-3.0)
 - Code dependency: Qt, SFML
+- Developer: Pierre
 
 ## Building

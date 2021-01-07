@@ -8,5 +8,6 @@
 - Code repository: @see-download
 - Code language: C
 - Code license: GPL-2.0
+- Developer: Barry Mead, Marc Le Douarain
 
 ## Building

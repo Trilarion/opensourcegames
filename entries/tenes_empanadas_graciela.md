@@ -9,6 +9,7 @@
 - Code repository: https://github.com/wfx/teg.git
 - Code language: C, JavaScript, Perl
 - Code license: GPL-2.0
+- Developer: Ricardo Quesada, Wolfgang Morawetz
 
 Clone of 'Plan Tactico y Estrategico de la Guerra', which is a pseudo-clone of Risk.
 

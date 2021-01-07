@@ -9,7 +9,7 @@
 - Code language: C
 - Code license: GPL-2.0
 - Assets license: ? (GPL)
-- Developer: Toddd
+- Developer: Toddd, Mapes, Seth Galbraith, David Costanzo, Gargoylol, Charles Galbraith, Bill Currie
 
 Implementation of the GPL Quake source.
 

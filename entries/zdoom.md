@@ -9,6 +9,7 @@
 - Code repository: https://github.com/coelckers/gzdoom.git, https://git.code.sf.net/p/zdoom/gzdoom
 - Code language: C, C++, ZenScript
 - Code license: GPL-3.0
+- Developer: Jan Engelhardt, Randy Heit
 
 Maybe ZDoom and GZDoom should be splitted.
 

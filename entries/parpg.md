@@ -10,6 +10,7 @@
 - Code license: GPL-3.0
 - Code dependency: Blender game engine, FIFE, psyco, pygame, PyQt, PySide
 - Assets license: CC-BY-SA
+- Developer: Karsten Bock, mvBarracuda
 
 Post-Apocalyptic RPG.
 See also: https://github.com/arikel/PPARPG, https://github.com/mvbarracuda/parpg_mvbarracuda, https://github.com/parpg/parpg

@@ -9,6 +9,7 @@
 - Code repository: https://gitlab.com/osgames/opencity.git (combination of cvs and svn), https://svn.code.sf.net/p/opencity/code (svn), http://opencity.cvs.sourceforge.net (cvs)
 - Code language: C++
 - Code license: GPL-2.0
+- Developer: Duong Khang NGUYEN, frodrigo
 
 Another 3D city simulator.
 https://github.com/frodrigo/opencity, https://github.com/vorot93/opencity, https://github.com/AnotherFoxGuy/OpenCity

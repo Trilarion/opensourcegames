@@ -10,6 +10,7 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL
+- Developer: Christoph Brill, tenk, Jason Wood
 
 ## Building
 

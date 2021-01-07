@@ -9,6 +9,7 @@
 - Code repository: https://svn.code.sf.net/p/privateer/code (svn)
 - Code language: C++
 - Code license: GPL-2.0
+- Developer: Daston, John Cordell, Patrick Horn, AppCoder, CybaGirl, James Carthew, hellcatv, Klauss++, maddanio, Michael Strein, Matthew Kruer, Pheonix Rising, Dan Vigliotti, Travis Baldree, Andrew Westrate
 
 Uses the VegaStrike engine?
 

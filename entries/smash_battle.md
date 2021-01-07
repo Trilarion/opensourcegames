@@ -8,5 +8,6 @@
 - Code repository: @see-download
 - Code language: C++
 - Code license: ?
+- Developer: Bert Hekman, Jeroen Groeneweg
 
 ## Building

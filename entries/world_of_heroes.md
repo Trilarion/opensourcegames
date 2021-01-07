@@ -8,6 +8,7 @@
 - Code language: Python
 - Code license: 3-clause BSD
 - Code dependency: pygame
+- Developer: Pablo Farias Navarro
 
 The player commands an army in the exploration and conquest of unknown realms, gathering resources and fighting enemies.
 

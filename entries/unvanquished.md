@@ -12,6 +12,7 @@
 - Code license: GPL-3.0
 - Code dependency: Dæmon
 - Assets license: CC-BY-SA-2.5
+- Developer: Dolce Triade, Thomas Debesse, kharnov, Viech
 
 FPS/RTS hybrid game powered by the Daemon engine (a combination of ioq3 and XreaL).
 

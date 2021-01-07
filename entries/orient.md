@@ -7,6 +7,7 @@
 - Code repository: https://gitlab.com/osgames/orient.git (snapshot of sources in download)
 - Code language: C#, Java
 - Code license: GPL-2.0
+- Developer: Michael Kriegel
 
 Prototype for an educational role-playing game for intercultural education.
 

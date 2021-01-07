@@ -9,5 +9,6 @@
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: OpenGL, SDL
+- Developer: AlabamaCajun, Jonathan Wilson, The_Cook
 
 ## Building

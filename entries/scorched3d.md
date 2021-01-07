@@ -10,5 +10,6 @@
 - Code repository: https://github.com/osgamearchive/scorched3d.git (combination of cvs+svn+git), https://git.code.sf.net/p/scorched3d/git @add, https://svn.code.sf.net/p/scorched3d/code (svn), http://scorched3d.cvs.sourceforge.net (cvs)
 - Code language: C++
 - Code license: GPL-2.0
+- Developer: Gavin Camp, Robert Hand, Cameron Smith, Paul Vint, David Beleznay, Joris Beugnies
 
 ## Building

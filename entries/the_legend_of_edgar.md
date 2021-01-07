@@ -8,5 +8,6 @@
 - Code repository: https://github.com/riksweeney/edgar.git
 - Code language: C
 - Code license: GPL-2.0
+- Developer: Richard Sweeney
 
 ## Building

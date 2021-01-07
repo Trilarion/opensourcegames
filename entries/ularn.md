@@ -7,6 +7,7 @@
 - Code repository: https://github.com/joshbressers/ularn.git
 - Code language: C, C++
 - Code license: GPL-2.0
+- Developer: Josh Bressers, Scott Neugroschl
 
 Modern port of the roguelike Larn.
 See also Nlarn.

@@ -6,6 +6,7 @@
 - Code repository: https://git.code.sf.net/p/lipsofsuna/code, https://gitlab.com/osgames/lipsofsuna.git @add
 - Code language: C
 - Code license: GPL-3.0
+- Developer: Ari Mustonen, Francisco Athens, Ryan Swart
 
 Tongue-in-cheek action RPG.
 

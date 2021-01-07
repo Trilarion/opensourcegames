@@ -9,6 +9,7 @@
 - Code language: C++, Lua
 - Code license: GPL-2.0
 - Code dependency: Stratagus
+- Developer: n0.obAtroN, Jimmy Salmon, Iuri Fiedoruk, Andreas, DeX, Forrest, Bursig Rafal, Martin Gerhardy, Tpimp
 
 ## Building
 

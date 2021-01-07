@@ -7,6 +7,7 @@
 - Code repository: https://github.com/nuvie/nuvie.git, https://svn.code.sf.net/p/nuvie/code (svn)
 - Code language: C, C++, Lua
 - Code license: GPL-2.0
+- Developer: Eric Fry, Dominik Reichardt, kirben, Jeremy Newman, Pieter Christiaan Luteijn, Malignant Manor, Jonathan E. Wright, Markus Niemistö, J. Applegate, Sam Matthews, Michael Fink, Willem Jan Palenstijn
 
 Does it include alternate graphics?
 

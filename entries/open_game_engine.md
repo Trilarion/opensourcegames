@@ -8,6 +8,7 @@
 - Code repository: https://gitlab.com/osgames/oge.git (combination of cvs+svn+git), https://git.code.sf.net/p/oge/git @add, https://svn.code.sf.net/p/oge/svn (svn), http://oge.cvs.sourceforge.net (cvs)
 - Code language: C++
 - Code license: LGPL-2.1
+- Developer: Steven 'lazalong' Gay, petrocket, Chris Jones, Vincenzo Greco, mehdix, Serdar Dere, Ralph Little
 
 Game engine and editor.
 

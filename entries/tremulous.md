@@ -12,5 +12,6 @@
 - Code license: GPL-2.0
 - Code dependency: SDL
 - Assets license: CC-BY-SA-2.5
+- Developer: Tim Angus, DASPRiD, Nick Jansens, Robin Marshall, Jan, Michael McInerney, Soup
 
 ## Building

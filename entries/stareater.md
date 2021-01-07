@@ -9,5 +9,6 @@
 - Code language: C#
 - Code license: GPL-3.0
 - Code dependency: MonoGame
+- Developer: EmP
 
 ## Building

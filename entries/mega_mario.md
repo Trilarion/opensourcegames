@@ -11,5 +11,6 @@
 - Code license: LGPL-2.1
 - Code dependency: SDL
 - Assets license: (illegal use of Super Mario artwork and music?)
+- Developer: JOKER VAN HAELN
 
 ## Building

@@ -9,6 +9,7 @@
 - Code repository: https://gitlab.com/osgames/xconq.git (backup of cvs), http://xcong.cvs.sourceforge.net (cvs)
 - Code language: C++
 - Code license: GPL-2.0
+- Developer: Elijah Meeks, Matthew Skala, Massimo Campostrini, Lincoln Peters
 
 One of the first such projects.
 See also https://github.com/brentjohnson/xconq

@@ -8,6 +8,7 @@
 - Code language: Python
 - Code license: GPL-2.0
 - Code dependency: CherryPy, Pillow, wxPython
+- Developer: chris davis, Todd Faris, Thomas Baleno, Christopher Rouse, David Byron, Digital Xero, Dj Gilcrease, Travis Casey, Chris Blocher, Mark Tarrabain, Rome Reginelli, Mojo Xanadu, Robert T Childers, Stefanos Armstrong, Ben Collins-Sussman, Ted Berg
 
 Allows people to play Role Playing Games and some miniature based war games in real-time over the Internet.
 

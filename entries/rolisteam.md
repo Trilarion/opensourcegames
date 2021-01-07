@@ -8,6 +8,7 @@
 - Code repository: https://github.com/Rolisteam/rolisteam.git (https://github.com/Rolisteam)
 - Code language: C++, JavaScript
 - Code license: GPL-2.0
+- Developer: obiwankennedy
 
 Virtual tabletop software.
 

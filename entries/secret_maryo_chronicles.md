@@ -9,6 +9,7 @@
 - Code repository: https://github.com/FluXy/SMC.git (svn was at https://web.archive.org/web/20081217043011/https://opensvn.csie.org/SMC/SMC/)
 - Code language: C++
 - Code license: GPL-3.0
+- Developer: Florian Richter, M Gagnon, Robert W, Mancus1984, Muammar El Khatib, shadowsnipes, Tristan Heaven
 
 Jump and Run game like Super Mario World with an advanced Editor.
 

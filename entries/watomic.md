@@ -8,6 +8,7 @@
 - Code repository: https://gitlab.com/osgames/watomic.git (snapshot of source releases)
 - Code language: Pascal
 - Code license: GPL-2.0
+- Developer: Federico
 
 Windows clone of Linux KAtomic logic game.
 

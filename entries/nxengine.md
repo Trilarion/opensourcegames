@@ -10,6 +10,7 @@
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependency: SDL
+- Developer: Caitlin Shaw
 
 Does it require original content?
 

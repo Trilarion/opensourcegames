@@ -10,6 +10,7 @@
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: SDL
+- Developer: Remigiusz Dybka
 
 ## Building
 

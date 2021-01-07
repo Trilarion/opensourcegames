@@ -9,7 +9,7 @@
 - Code license: GPL-3.0
 - Code dependency: Bear, SDL
 - Assets license: CC BY-SA-3.0
-- Developer: Julien Jorge, Sébastien Angibaud
+- Developer: Julien Jorge, Sébastien Angibaud, mothsart
 
 Player controls a bear in single or multiplayer mode.
 

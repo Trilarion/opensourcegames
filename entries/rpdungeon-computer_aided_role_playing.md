@@ -7,6 +7,7 @@
 - Code repository: https://gitlab.com/osgames/rpdungeon.git (backup of svn), https://svn.code.sf.net/p/rpdungeon/code (svn)
 - Code language: Pascal
 - Code license: GPL-2.0
+- Developer: Mattias Gaertner, michabaum
 
 Collection of programs and libraries for pen and paper role playing.
 

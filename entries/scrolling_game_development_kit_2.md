@@ -8,5 +8,6 @@
 - Code repository: https://git.code.sf.net/p/sgdk2/git, https://gitlab.com/osgames/sgdk2.git @add, https://svn.code.sf.net/p/sgdk2/code (svn - contained in git)
 - Code language: C#
 - Code license: GPL-2.0
+- Developer: Benjamin Marty
 
 ## Building

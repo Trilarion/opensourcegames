@@ -8,6 +8,7 @@
 - Code language: Python
 - Code license: Custom
 - Code dependency: DirectPython, Panda3D
+- Developer: Taldor, trapdoor, Wombbat
 
 Single player RPG game, set in a dark fantasy setting where four unique races struggle for survival.
 See also https://github.com/shadowislord/radakan (Java version).

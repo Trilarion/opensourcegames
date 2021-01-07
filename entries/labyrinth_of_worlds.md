@@ -9,5 +9,6 @@
 - Code language: C++
 - Code license: LGPL-3.0
 - Code dependency: OGRE
+- Developer: Marc A. Pelletier, Willem Jan Palenstijn
 
 ## Building

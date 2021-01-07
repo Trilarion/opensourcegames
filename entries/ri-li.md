@@ -10,7 +10,7 @@
 - Code license: GPL-3.0
 - Code dependency: SDL
 - Assets license: ? (GPL)
-- Developer: Dominique Roux-Serret
+- Developer: Dominique Roux-Serret, Roux-Serret Dominique
 
 Drive a toy wood train engine across many levels.
 

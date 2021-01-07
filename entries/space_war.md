@@ -7,5 +7,6 @@
 - Code repository: https://git.code.sf.net/p/space-war-2/git
 - Code language: Java
 - Code license: Apache-2.0
+- Developer: Honza J.
 
 ## Building

@@ -8,5 +8,6 @@
 - Code repository: https://gitlab.com/osgames/xforceffd.git (backup of svn), https://svn.code.sf.net/p/xforceffd/code (svn)
 - Code language: Pascal
 - Code license: GPL-2.0
+- Developer: Dirk_F, Christian Reich, gnfalex, Martin Kanich, Natter, Sebastian Gingter
 
 ## Building

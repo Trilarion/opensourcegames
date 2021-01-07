@@ -8,6 +8,7 @@
 - Code repository: https://github.com/supertuxkart/stk-code.git, https://svn.code.sf.net/p/supertuxkart/code (svn)
 - Code language: C++, C
 - Code license: GPL-3.0
+- Developer: Alayan, M Gagnon, Ben Au, Deve, jean-manuel clemençon, Christian Zigotzky, Néd J., Matthew Trescott, Stephen, Unitraxx
 
 Kart racing game.
 

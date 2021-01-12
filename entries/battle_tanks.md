@@ -5,11 +5,11 @@
 - Download: https://sourceforge.net/projects/btanks/files/
 - Platform: Windows, Linux, macOS
 - Keyword: action, arcade, 2D, content commercial, tank
-- Code repository: https://github.com/whoozle/btanks.git, https://svn.code.sf.net/p/btanks/code (svn)
+- Code repository: https://github.com/whoozle/btanks.git (@created 2012, @stars 10, @forks 0), https://svn.code.sf.net/p/btanks/code (svn)
 - Code language: C++
 - Code license: GPL-2.0
 - Assets license: Proprietary
-- Developer: Vladimir Menshakov, Methos, Vladimir Zhuravlev
+- Developer: Vladimir Menshakov, Methos, Vladimir Zhuravlev, Vladimir
 
 Fast 2D tank arcade game with multiplayer and split-screen modes.
 

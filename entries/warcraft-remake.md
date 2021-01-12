@@ -5,9 +5,10 @@
 - State: beta
 - Platform: Windows, Linux, Android
 - Keyword: remake, strategy, content commercial, real-time
-- Code repository: https://github.com/b3dgs/warcraft-remake.git
+- Code repository: https://github.com/b3dgs/warcraft-remake.git (@created 2013, @stars 84, @forks 26)
 - Code language: Java
 - Code license: GPL-2.0
 - Code dependency: LionEngine
+- Developer: Pierre-Alexandre
 
 ## Building

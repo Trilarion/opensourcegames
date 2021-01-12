@@ -5,8 +5,9 @@
 - State: mature
 - Platform: Web
 - Keyword: framework, clone, content open
-- Code repository: https://github.com/oojmed/floppy-birb.git
+- Code repository: https://github.com/oojmed/floppy-birb.git (@created 2019, @stars 0, @forks 0)
 - Code language: JavaScript
 - Code license: MIT
+- Developer: CanadaHonk
 
 ## Building

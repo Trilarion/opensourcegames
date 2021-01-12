@@ -6,10 +6,11 @@
 - Download: https://librelancer.net/downloads.html
 - Platform: Windows, Linux
 - Keyword: action, game engine, remake, simulation, space
-- Code repository: https://github.com/Librelancer/Librelancer.git
+- Code repository: https://github.com/Librelancer/Librelancer.git (@created 2015, @stars 289, @forks 25)
 - Code language: C, C#
 - Code license: MIT
 - Code dependency: OpenGL
+- Developer: Callum, Laz, Bohdan Starosta, Alex
 
 ## Building
 

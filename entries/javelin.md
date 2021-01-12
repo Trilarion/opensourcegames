@@ -6,7 +6,7 @@
 - Download: https://github.com/tukkek/javelin/releases
 - Platform: Windows, Linux, macOS
 - Keyword: role playing, content open, roguelike
-- Code repository: https://github.com/tukkek/javelin.git
+- Code repository: https://github.com/tukkek/javelin.git (@created 2015, @stars 50, @forks 5)
 - Code language: Java
 - Code license: GPL-2.0
 - Assets license: GPL-2.0

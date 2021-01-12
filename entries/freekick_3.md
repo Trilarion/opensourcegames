@@ -4,9 +4,10 @@
 - Inspiration: Sensible Soccer
 - State: mature, inactive since 2015
 - Keyword: remake, simulation, sports, content open, soccer
-- Code repository: https://github.com/anttisalonen/freekick3.git
+- Code repository: https://github.com/anttisalonen/freekick3.git (@created 2012, @stars 55, @forks 14)
 - Code language: C++, Python
 - Code license: GPL-3.0
 - Assets license: CC-BY-SA-3.0
+- Developer: anttisalonen
 
 ## Building

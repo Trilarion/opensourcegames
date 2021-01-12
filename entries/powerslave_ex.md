@@ -6,9 +6,10 @@
 - State: beta, inactive since 2017
 - Platform: Windows, Linux, macOS
 - Keyword: remake, content commercial (?)
-- Code repository: https://github.com/svkaiser/PowerslaveEX.git
+- Code repository: https://github.com/svkaiser/PowerslaveEX.git (@created 2017, @stars 109, @forks 22)
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependency: SDL2
+- Developer: Samuel
 
 ## Building

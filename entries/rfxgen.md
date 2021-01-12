@@ -5,9 +5,10 @@
 - State: mature
 - Platform: Windows
 - Keyword: tool
-- Code repository: https://github.com/raysan5/rfxgen.git
+- Code repository: https://github.com/raysan5/rfxgen.git (@created 2017, @stars 213, @forks 14)
 - Code language: C
 - Code license: zlib
+- Developer: Ray
 
 FX sounds generator.
 

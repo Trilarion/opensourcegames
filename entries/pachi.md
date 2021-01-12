@@ -5,9 +5,10 @@
 - Download: https://github.com/pasky/pachi/releases
 - Platform: Windows, Linux
 - Keyword: board, strategy
-- Code repository: https://github.com/pasky/pachi.git, https://repo.or.cz/pachi.git @add
+- Code repository: https://github.com/pasky/pachi.git (@created 2013, @stars 394, @forks 107), https://repo.or.cz/pachi.git @add
 - Code language: C, Python
 - Code license: GPL-2.0
+- Developer: Petr Baudis, lemonsqueeze, Stanislaw Halik, Josef Moudrik, Jiri Daněk, Pierre
 
 Go-playing program.
 It has no built‐in human interface, so a Go client like GoGui, qGo or CGoban 1 is required.

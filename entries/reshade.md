@@ -5,9 +5,10 @@
 - Download: https://reshade.me/releases
 - Platform: Windows
 - Keyword: tool
-- Code repository: https://github.com/crosire/reshade.git
+- Code repository: https://github.com/crosire/reshade.git (@created 2016, @stars 1731, @forks 285)
 - Code language: C++
 - Code license: 3-clause BSD
+- Developer: crosire, Seri, Thalixte, Frans Bouma
 
 Post-processing graphics injector.
 

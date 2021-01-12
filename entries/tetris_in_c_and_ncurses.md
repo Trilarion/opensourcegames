@@ -4,10 +4,11 @@
 - Inspiration: Tetris
 - State: mature
 - Keyword: puzzle, remake, content open
-- Code repository: https://github.com/brenns10/tetris.git
+- Code repository: https://github.com/brenns10/tetris.git (@created 2015, @stars 124, @forks 41)
 - Code language: C
 - Code license: 3-clause BSD
 - Code dependency: ncurses, SDL
+- Developer: Stephen Brennan
 
 ## Building
 

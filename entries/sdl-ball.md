@@ -6,12 +6,12 @@
 - Download: http://sdl-ball.sourceforge.net/?page=download, https://sourceforge.net/projects/sdl-ball/files/
 - Platform: Linux
 - Keyword: arcade, content open
-- Code repository: https://github.com/DusteDdk/SDL-Ball.git
+- Code repository: https://github.com/DusteDdk/SDL-Ball.git (@created 2014, @stars 7, @forks 4)
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: OpenGL, SDL
 - Assets license: ? (GPL)
-- Developer: Jimmy Christensen, Anders Birkedam, Quinton Reeves
+- Developer: Jimmy Christensen, Anders Birkedam, Quinton Reeves, Jimmy
 
 ## Building
 

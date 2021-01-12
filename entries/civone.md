@@ -4,9 +4,10 @@
 - Inspiration: Civilization
 - State: beta
 - Keyword: remake, strategy, content commercial + original required
-- Code repository: https://github.com/SWY1985/CivOne.git
+- Code repository: https://github.com/SWY1985/CivOne.git (@created 2015, @stars 174, @forks 42)
 - Code language: C#
 - Code license: CC0
+- Developer: Christoph Donges, Jake Brown, Jakob Mulvad Nielsen
 
 Exact clone.
 

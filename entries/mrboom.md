@@ -4,9 +4,10 @@
 - Inspiration: Bomberman
 - State: mature
 - Keyword: action, remake, clone, multiplayer online
-- Code repository: https://github.com/Javanaise/mrboom-libretro.git
-- Code language: C++
+- Code repository: https://github.com/Javanaise/mrboom-libretro.git (@created 2017, @stars 158, @forks 44)
+- Code language: C++, C
 - Code license: MIT
 - Code dependency: SDL
+- Developer: frranck, Autechre, SimpleTease, Vladimir Serbinenko, webgeek1234
 
 ## Building

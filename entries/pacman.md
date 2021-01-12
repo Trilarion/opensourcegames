@@ -5,10 +5,11 @@
 - State: beta
 - Download: https://github.com/ebuc99/pacman/releases, https://github.com/ebuc99/pacman_win/releases
 - Keyword: arcade
-- Code repository: https://github.com/ebuc99/pacman.git
-- Code language: C++
+- Code repository: https://github.com/ebuc99/pacman.git (@created 2015, @stars 37, @forks 17)
+- Code language: C++, Shell
 - Code license: GPL-2.0
 - Code dependency: SDL
+- Developer: ebuc99, Martin, Keith Bowes
 
 Very close to the original from Namco.
 

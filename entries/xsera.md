@@ -4,8 +4,9 @@
 - Inspiration: Ares
 - State: beta, inactive since 2010
 - Keyword: strategy, real-time, shooter
-- Code repository: https://github.com/prophile/xsera.git
+- Code repository: https://github.com/prophile/xsera.git (@created 2008, @stars 11, @forks 5)
 - Code language: C, Lua
 - Code license: MIT
+- Developer: Adam Hintz, Alistair Lynn, Scott McClaugherty, Andrew M
 
 ## Building

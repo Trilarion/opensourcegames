@@ -5,10 +5,11 @@
 - Download: http://pychess.org/download/, https://github.com/pychess/pychess/releases
 - Platform: Windows, Linux
 - Keyword: puzzle, chess, content open
-- Code repository: https://github.com/pychess/pychess.git, https://github.com/gbtami/pychess-variants.git @add
-- Code language: Python
+- Code repository: https://github.com/pychess/pychess.git (@created 2015, @stars 403, @forks 121), https://github.com/gbtami/pychess-variants.git @add (@created 2019, @stars 80, @forks 26)
+- Code language: Python, TypeScript
 - Code license: GPL-3.0
 - Assets license: ? (GPL)
+- Developer: Bajusz Tamás, Thomas Dybdahl Ahle, Peter Thomson, Matthew Gatto, ecrucru, Justin Blanchard, Leonardo Gregianin, John Cheetham, Thijs Vermeir, Jonast, gregp, igor2x, Mathieu CAROFF, Christopher King, Mickaël Schoentgen, Boris Boutkov, CouchTomato87, Ada Joule, "Ka (upkah)", fjscabral, Marken Foo, renyhp, Little-Magician, notruck, Fabian Fichter, Tiago Hermano
 
 Graphical front-end that works with xboard-compatible engines such as GNU Chess and stockfish, and also comes with its own chess engine if no other is available.
 PyChess is also capable of online play using the FICS server. Features include hints, different chess variants, and themeable chess pieces.

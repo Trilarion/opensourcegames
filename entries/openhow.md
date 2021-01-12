@@ -5,10 +5,11 @@
 - State: beta
 - Platform: Windows, Linux
 - Keyword: remake, strategy, content commercial + original required, turn-based
-- Code repository: https://github.com/TalonBraveInfo/OpenHoW.git
+- Code repository: https://github.com/TalonBraveInfo/OpenHoW.git (@created 2017, @stars 141, @forks 9)
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependency: OpenAL, SDL2
+- Developer: Mark Sowden, DummkopfOfHachtenduden, Daniel Collins, Bonerlord, Stefano
 
 Aims at creating content open.
 

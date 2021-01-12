@@ -8,7 +8,7 @@
 - Code language: C
 - Code license: GPL-2.0
 - Assets license: no media
-- Developer: Don Llopis
+- Developer: Don E. Llopis
 
 Using wireframe vector graphics.
 

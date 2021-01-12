@@ -6,9 +6,9 @@
 - Download: https://github.com/manicdigger/manicdigger/releases
 - Platform: Windows
 - Keyword: remake, simulation, sandbox, voxel
-- Code repository: https://github.com/manicdigger/manicdigger.git, https://git.code.sf.net/p/manicdigger/code
+- Code repository: https://github.com/manicdigger/manicdigger.git (@created 2014, @stars 231, @forks 60), https://git.code.sf.net/p/manicdigger/code
 - Code language: C#
 - Code license: Public domain, Unlicense (where Public domain fails)
-- Developer: exe, Anton Neverdovsky, liquidhot, TKwisl, Zero X42
+- Developer: exe, Anton Neverdovsky, liquidhot, TKwisl, Zero X42, pgtest2, croxxx, James Likier, Joshi1999, andybrown87, Meinrad Recheis, TobiMob, em, code32
 
 ## Building

@@ -6,9 +6,10 @@
 - Download: https://github.com/Try/OpenGothic/releases
 - Platform: Windows
 - Keyword: game engine, remake, role playing, content commercial + original required
-- Code repository: https://github.com/Try/OpenGothic.git
+- Code repository: https://github.com/Try/OpenGothic.git (@created 2019, @stars 268, @forks 24)
 - Code language: C++
 - Code license: MIT
+- Developer: Try, ErrorFlexXx, Álvaro "da3m0n"
 
 Engine remake of Gothic II.
 

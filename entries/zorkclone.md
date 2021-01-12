@@ -4,9 +4,10 @@
 - Inspiration: Zork
 - State: beta
 - Keyword: adventure, remake, text-based
-- Code repository: https://github.com/vatbub/zorkClone.git
+- Code repository: https://github.com/vatbub/zorkClone.git (@created 2016, @stars 11, @forks 3)
 - Code language: Java
 - Code license: Apache-2.0
+- Developer: Frederik Kammel
 
 ## Building
 

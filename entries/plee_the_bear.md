@@ -4,12 +4,12 @@
 - State: beta, inactive since 2017
 - Download: https://sourceforge.net/projects/plee-the-bear/files/ (outdated)
 - Keyword: platform, 2D, content open
-- Code repository: https://github.com/j-jorge/plee-the-bear.git, https://github.com/j-jorge/bear.git @add
+- Code repository: https://github.com/j-jorge/plee-the-bear.git (@created 2013, @stars 10, @forks 6), https://github.com/j-jorge/bear.git @add (@created 2013, @stars 16, @forks 5)
 - Code language: Lisp, C++, Scheme, C
 - Code license: GPL-3.0
 - Code dependency: Bear, SDL
 - Assets license: CC BY-SA-3.0
-- Developer: Julien Jorge, Sébastien Angibaud, mothsart
+- Developer: Julien Jorge, Sébastien Angibaud, mothsart, j-jorge, -
 
 Player controls a bear in single or multiplayer mode.
 

@@ -4,9 +4,10 @@
 - State: mature
 - Platform: Linux, Android
 - Keyword: library
-- Code repository: https://github.com/ptitSeb/gl4es.git
+- Code repository: https://github.com/ptitSeb/gl4es.git (@created 2014, @stars 306, @forks 65)
 - Code language: C
 - Code license: MIT
+- Developer: ptitSeb, Ryan Hileman, rajdakin, Daytona675x, Iscle, mittorn, Jānis Rūcis
 
 OpenGL for GLES Hardware.
 

@@ -5,10 +5,10 @@
 - Inspiration: Battle Isle series
 - State: mature
 - Keyword: strategy, clone, turn-based
-- Code repository: https://github.com/ValHaris/asc-hq.git
+- Code repository: https://github.com/ValHaris/asc-hq.git (@created 2019, @stars 11, @forks 2)
 - Code language: C++
 - Code license: GPL-2.0
-- Developer: Martin Bickel, Christian Schramm, valuial, Armin Bajramovic, Dorfdrull, Michael Moerz, Frederik Kesting, Torsten Maekler
+- Developer: Martin Bickel, Christian Schramm, valuial, Armin Bajramovic, Dorfdrull, Michael Moerz, Frederik Kesting, Torsten Maekler, ValHaris
 
 ## Building
 

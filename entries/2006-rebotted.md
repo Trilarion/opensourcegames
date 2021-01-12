@@ -5,10 +5,10 @@
 - State: mature
 - Download: https://github.com/2006rebotted/2006rebotted/releases
 - Keyword: remake, role playing, content commercial, multiplayer online + co-op
-- Code repository: https://github.com/2006rebotted/2006rebotted.git
+- Code repository: https://github.com/2006rebotted/2006rebotted.git (@created 2019, @stars 65, @forks 119)
 - Code language: Java
 - Code license: 2-clause BSD
-- Developer: Daniel Ginovker
+- Developer: Daniel Ginovker, Danial, Mr Extremez, Josh Shippam, Gptaqbc, Olivier, Damion, Ben Maher, DPSCryptic, MitchvanWijngaarden, Arisu, Sandro Coutinho
 
 Remake of Runescape Classic.
 Open source 2006 Runescape emulation with botting.

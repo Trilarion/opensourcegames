@@ -5,11 +5,11 @@
 - State: beta, inactive since 2014
 - Download: https://sourceforge.net/projects/opentitus/files/opentitus/
 - Keyword: remake, content original required
-- Code repository: https://github.com/stople/OpenTitus.git (uptodate?)
+- Code repository: https://github.com/stople/OpenTitus.git (uptodate?, @created 2012, @stars 13, @forks 3)
 - Code language: C
 - Code license: GPL-3.0
 - Code dependency: SDL
-- Developer: Eirik Stople
+- Developer: Eirik Stople, stople
 
 SVN of project is gone and Git is older than releases, take from download page maybe?
 

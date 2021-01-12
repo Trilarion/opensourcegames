@@ -5,9 +5,10 @@
 - State: beta, inactive since 2018
 - Platform: Windows, Linux
 - Keyword: remake, first-person, shooter
-- Code repository: https://github.com/inexorgame/vulkan-renderer.git, https://github.com/inexorgame/inexor-core.git @add (archived)
+- Code repository: https://github.com/inexorgame/vulkan-renderer.git (@created 2019, @stars 173, @forks 6), https://github.com/inexorgame/inexor-core.git @add (archived, @archived, @created 2014, @stars 8, @forks 0)
 - Code language: C++, JavaScript
 - Code license: zlib
 - Code dependency: Cube 2
+- Developer: Johannes Schneider, yeetari, Iceflower, Moritz Bock, Malte H, Karolin Varner, Andreas Schaeffer, Michael Keck, killme, DarkDeepBlue
 
 ## Building

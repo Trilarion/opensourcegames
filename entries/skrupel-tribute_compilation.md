@@ -5,10 +5,10 @@
 - Download: https://sourceforge.net/projects/skrupel/files
 - Platform: Web
 - Keyword: strategy
-- Code repository: https://github.com/kantoks/skrupel.git (continuation), https://gitlab.com/osgames/skrupel.git @add, http://skrupel.cvs.sourceforge.net/ (cvs)
+- Code repository: https://github.com/kantoks/skrupel.git (continuation, @created 2011, @stars 15, @forks 8), https://gitlab.com/osgames/skrupel.git @add, http://skrupel.cvs.sourceforge.net/ (cvs)
 - Code language: PHP, JavaScript
 - Code license: GPL-2.0
-- Developer: Bernd Kantoks, DoubleMalt, Dready, Björn Finke, JANNiS, syox1, weaselchen
+- Developer: Bernd Kantoks, DoubleMalt, Dready, Björn Finke, JANNiS, syox1, weaselchen, Husten, cincrement, finke, Christian Neff
 
 Web-based cross between amazing games like, VGAPlanets, Ascendancy an for example Master of Orion.
 Many code comments and variable names in German.

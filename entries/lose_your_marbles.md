@@ -6,8 +6,9 @@
 - Play: https://guarded-dawn-9844.herokuapp.com/
 - Platform: Web
 - Keyword: remake
-- Code repository: https://github.com/eguneys/lose-your-marbles.git
+- Code repository: https://github.com/eguneys/lose-your-marbles.git (@created 2014, @stars 18, @forks 9)
 - Code language: JavaScript
 - Code license: MIT
+- Developer: eguneys
 
 ## Building

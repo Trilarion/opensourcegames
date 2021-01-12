@@ -5,9 +5,10 @@
 - State: mature
 - Download: http://www.lua.org/download.html
 - Keyword: library
-- Code repository: https://github.com/lua/lua.git (mirror)
+- Code repository: https://github.com/lua/lua.git (mirror, @created 2012, @stars 3987, @forks 961)
 - Code language: C
 - Code license: MIT
+- Developer: Roberto Ierusalimschy, wceles, .
 
 Powerful, efficient, lightweight, embeddable scripting language.
 It's a whole programming language but often used within games projects for scripting purposes (like Python).

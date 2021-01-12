@@ -5,10 +5,11 @@
 - State: mature
 - Platform: Windows, Linux, macOS
 - Keyword: puzzle, remake, content open (?)
-- Code repository: https://github.com/sergiou87/open-supaplex.git
+- Code repository: https://github.com/sergiou87/open-supaplex.git (@created 2020, @stars 68, @forks 10)
 - Code language: C
 - Code license: GPL-3.0
 - Code dependency: SDL2
+- Developer: Sergio Padrino, Cillié Malan, Alexey Sokolov, Román Jiménez
 
 ## Building
 

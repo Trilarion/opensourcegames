@@ -5,9 +5,10 @@
 - Download: https://github.com/SteveSmith16384/PhysicsSpaceWar/releases
 - Platform: Windows, Linux
 - Keyword: arcade, multiplayer, physics, space
-- Code repository: https://github.com/SteveSmith16384/PhysicsSpaceWar.git
+- Code repository: https://github.com/SteveSmith16384/PhysicsSpaceWar.git (@created 2019, @stars 3, @forks 0)
 - Code language: Java
 - Code license: MIT
+- Developer: Steve Smith
 
 ## Building
 

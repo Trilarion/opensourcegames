@@ -4,10 +4,11 @@
 - Inspiration: Ultima Underworld, Ultima Underworld II: Labyrinth of Worlds
 - State: mature
 - Keyword: remake, role playing, content commercial + original required
-- Code repository: https://github.com/hankmorgan/UnderworldExporter.git
+- Code repository: https://github.com/hankmorgan/UnderworldExporter.git (@created 2014, @stars 204, @forks 16)
 - Code language: C#, C++
 - Code license: MIT
 - Code dependency: Unity
+- Developer: hankmorgan
 
 Remake of Ultima Underworld, Ultima Underworld II: Labyrinth of Worlds.
 

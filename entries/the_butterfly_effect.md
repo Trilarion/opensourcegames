@@ -6,11 +6,11 @@
 - Download: http://the-butterfly-effect.org/#download, https://github.com/the-butterfly-effect/tbe/releases
 - Platform: Windows, Linux, macOS
 - Keyword: simulation, clone, physics
-- Code repository: https://github.com/the-butterfly-effect/tbe.git
+- Code repository: https://github.com/the-butterfly-effect/tbe.git (@created 2015, @stars 59, @forks 8)
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: Box2D, Qt
-- Developer: Klaas van Gend, Peter van Ginneken, Aschwin Marsman, Quinten Marsman
+- Developer: Klaas van Gend, Peter van Ginneken, Aschwin Marsman, Quinten Marsman, Wuzzy, lspacenl, Rutger van Sleen
 
 Realistic physics simulations.
 

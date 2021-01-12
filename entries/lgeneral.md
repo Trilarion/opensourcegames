@@ -6,7 +6,7 @@
 - State: mature, inactive since 2017
 - Platform: Android
 - Keyword: remake, strategy, turn-based
-- Code repository: https://github.com/AndO3131/lgeneral.git (mirror), https://svn.code.sf.net/p/lgeneral/code (svn), http://lgeneral.cvs.sourceforge.net (cvs)
+- Code repository: https://github.com/AndO3131/lgeneral.git (mirror, @created 2018, @stars 0, @forks 0), https://svn.code.sf.net/p/lgeneral/code (svn), http://lgeneral.cvs.sourceforge.net (cvs)
 - Code language: C
 - Code license: GPL-2.0
 - Developer: Michael Speck, Leo Savernik, Peter Ivanyi, Victor Sergienko

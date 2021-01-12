@@ -4,10 +4,11 @@
 - State: mature, inactive since 2018
 - Platform: Windows, Linux, macOS (all that pygame supports)
 - Keyword: library
-- Code repository: https://github.com/bitcraft/pyscroll.git
+- Code repository: https://github.com/bitcraft/pyscroll.git (@created 2014, @stars 116, @forks 16)
 - Code language: Python
 - Code license: LGPL-3.0
 - Code dependency: pygame
+- Developer: Leif Theden, Łukasz Langa
 
 Animated scrolling maps in pygame library.
 

@@ -5,10 +5,10 @@
 - Play: http://www.in-fi-del.net/static/cult/index.html
 - Platform: Web
 - Keyword: strategy, turn-based
-- Code repository: https://github.com/infidel-/cult.git
+- Code repository: https://github.com/infidel-/cult.git (@created 2015, @stars 13, @forks 4)
 - Code language: Haxe, JavaScript
 - Code license: GPL-3.0
-- Developer: Max Kowarski (lead),  Chris Oelmueller
+- Developer: Max Kowarski (lead), Chris Oelmueller
 
 Build your cult of followers and try to summon Elder God.
 

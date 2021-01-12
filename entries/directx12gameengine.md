@@ -4,9 +4,10 @@
 - State: beta
 - Platform: Windows
 - Keyword: game engine
-- Code repository: https://github.com/Aminator/DirectX12GameEngine.git
+- Code repository: https://github.com/Aminator/DirectX12GameEngine.git (@created 2018, @stars 174, @forks 25)
 - Code language: C#
 - Code license: MIT
+- Developer: Amin Delavar
 
 Game engine utilizing the Direct3D 12 API.
 

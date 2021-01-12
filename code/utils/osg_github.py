@@ -2,7 +2,7 @@
 Everything specific to the Github API (via PyGithub).
 """
 
-from github import Github
+from github import Github, GithubException
 
 
 def normalize_repo_name(repo):
@@ -26,7 +26,7 @@ def repo_get_contributors(repo):
     return contributors
 
 
-def retrieve_repo_info(repos):
+def retrieve_repo_info(repos, token=None):
     """
     For a list of Github repos, retrieves repo information.
 
@@ -36,10 +36,16 @@ def retrieve_repo_info(repos):
     if single_repo:
         repos = (repos,)
     result = []
-    g = Github()
+    if token:
+        g = Github(token)
+    else:
+        g = Github()
     for repo in repos:
         repo = normalize_repo_name(repo)
-        r = g.get_repo(repo)
+        try:
+            r = g.get_repo(repo)
+        except GithubException as e:
+            raise RuntimeError(e) # TODO what to do if repo does not exist?
         e = {'archived': r.archived, 'contributors': repo_get_contributors(r), 'created': r.created_at, 'description': r.description,
              'forks': r.forks_count, 'language': r.language, 'last modified': r.last_modified, 'name': r.name,
              'open issues count': r.open_issues_count, 'owner': r.owner, 'stars': r.stargazers_count, 'topics': r.get_topics(), 'repo': repo}

@@ -14,7 +14,7 @@ web_path = os.path.join(root_path, 'docs')
 web_template_path = os.path.join(code_path, 'html')
 web_css_path = os.path.join(web_path, 'css')
 
-
+private_properties_file = os.path.join(root_path, 'private.properties')
 inspirations_file = os.path.join(root_path, 'inspirations.md')
 developer_file = os.path.join(root_path, 'developers.md')
 

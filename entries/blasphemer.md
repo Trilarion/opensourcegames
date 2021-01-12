@@ -4,12 +4,12 @@
 - Media: https://www.indiedb.com/games/blasphemer
 - State: mature, inactive since 2017
 - Keyword: action, content open, first-person, shooter
-- Code repository: https://github.com/Blasphemer/blasphemer.git
-- Code language: None (only assets)
+- Code repository: https://github.com/Blasphemer/blasphemer.git (@created 2015, @stars 37, @forks 7)
+- Code language: None (only assets), Python
 - Code license: None (only assets)
 - Code dependency: Heretic
 - Assets license: 3-clause BSD
-- Developer: G. Wessner, Jute Gyte
+- Developer: G. Wessner, Jute Gyte, Blasphemer
 
 Initial goal is to serve as a Free data package for engines based on the GPLed Heretic source.
 The IWAD data is released under a 3-clause BSD license. Its theme is dark fantasy with inspirations from metal music and horror.

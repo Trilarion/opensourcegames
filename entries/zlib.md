@@ -4,9 +4,10 @@
 - Media: https://en.wikipedia.org/wiki/Zlib
 - State: mature
 - Keyword: library
-- Code repository: https://github.com/madler/zlib.git
+- Code repository: https://github.com/madler/zlib.git (@created 2011, @stars 2726, @forks 1520)
 - Code language: C
 - Code license: zlib
+- Developer: Mark Adler, jrn
 
 Software library used for data compression.
 

@@ -4,7 +4,7 @@
 - Inspiration: Stars!
 - State: beta, inactive since 2008
 - Keyword: remake, strategy, 4X
-- Code repository: https://github.com/christopherredden/freestars.git (backup of svn), https://svn.code.sf.net/p/freestars/code (svn)
+- Code repository: https://github.com/christopherredden/freestars.git (backup of svn, @created 2015, @stars 1, @forks 0), https://svn.code.sf.net/p/freestars/code (svn)
 - Code language: C++
 - Code license: GPL-2.0
 - Developer: LEit, Orca, OWK, Brandon Bergren, Dejan Lozanovic, EdorFaus, Gman, hatterson, Vambola Kotkas, Oewyn, Pieter Hulshoff, Scaalp, Sotek, TomT64

@@ -6,11 +6,12 @@
 - Download: https://blockattack.net/download/
 - Platform: Windows, Linux
 - Keyword: puzzle, clone, match 3, sliding blocks
-- Code repository: https://github.com/blockattack/blockattack-game.git
+- Code repository: https://github.com/blockattack/blockattack-game.git (@created 2015, @stars 25, @forks 3)
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL2
 - Assets license: GPL-2.0, CC-BY-SA, Public domain
+- Developer: Poul Sander
 
 A match-3 game inspired by "Tetris Attack" but more PC friendly.
 

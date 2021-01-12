@@ -4,9 +4,10 @@
 - State: mature, inactive since 2018
 - Platform: Windows
 - Keyword: tool, content open
-- Code repository: https://github.com/marukrap/ProceduralMapGenerator.git
+- Code repository: https://github.com/marukrap/ProceduralMapGenerator.git (@created 2017, @stars 149, @forks 12)
 - Code language: C++
 - Code license: MIT
+- Developer: Maru
 
 Procedural map generator for roguelike games.
 

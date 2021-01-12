@@ -7,10 +7,11 @@
 - Download: https://neverball.org/download.php
 - Platform: Windows, macOS
 - Keyword: action, clone
-- Code repository: https://github.com/Neverball/neverball.git, https://github.com/Neverball/neverball-docs.git @add, https://github.com/Neverball/neverball-music.git @add
+- Code repository: https://github.com/Neverball/neverball.git (@created 2013, @stars 198, @forks 58), https://github.com/Neverball/neverball-docs.git @add (@created 2013, @stars 4, @forks 3), https://github.com/Neverball/neverball-music.git @add (@created 2017, @stars 3, @forks 0)
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependency: SDL
+- Developer: Jānis Rūcis, Mehdi Yousfi-Monod, Florian Priester, Robert Kooima, Ian Walker, Byron Johnson, Paul Ruediger, Cheeseness, Laurent Moussault, htnever, Clément Guérin, georgwachter, camthesaxman, gunchleoc, nicolaschaufette
 
 Part puzzle game, part action game, and entirely a test of skill.
 Includes Neverputt, a hot-seat multiplayer miniature golf game.

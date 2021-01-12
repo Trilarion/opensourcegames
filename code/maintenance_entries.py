@@ -6,6 +6,11 @@ Counts the number of records each sub-folder and updates the overview.
 Sorts the entries in the contents files of each sub folder alphabetically.
 """
 
+# TODO check for within an entry for similar dev names
+# TODO special mode (load all and safe all)
+# TODO sort devs alphabetically upon save (if not done yet)
+# TODO statistics on git repositories (created, stars, forks) and meaningful categories
+
 import os
 import re
 import datetime

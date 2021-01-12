@@ -5,11 +5,11 @@
 - Download: https://pacewar.github.io/download.html
 - Platform: Windows, Linux
 - Keyword: action, content open
-- Code repository: https://github.com/pacewar/pacewar.git, https://git.savannah.nongnu.org/git/pacewar.git @add, http://cvs.savannah.nongnu.org:/web/pacewar (cvs)
+- Code repository: https://github.com/pacewar/pacewar.git (@created 2020, @stars 2, @forks 0), https://git.savannah.nongnu.org/git/pacewar.git @add, http://cvs.savannah.nongnu.org:/web/pacewar (cvs)
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependency: SGE
-- Developer: onpon4
+- Developer: onpon4, The Diligent Circle 丸
 
 Simple fighting game between two teams of ships.
 

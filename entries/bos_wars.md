@@ -4,7 +4,7 @@
 - State: mature, inactive since 2013
 - Download: https://www.boswars.org/download.shtml
 - Keyword: strategy, real-time
-- Code repository: https://github.com/OneSleepyDev/boswars_osd.git, https://github.com/OneSleepyDev/boswars_osd_archive.git @add
+- Code repository: https://github.com/OneSleepyDev/boswars_osd.git (@created 2016, @stars 1, @forks 0), https://github.com/OneSleepyDev/boswars_osd_archive.git @add (@created 2017, @stars 0, @forks 0)
 - Code language: C++
 - Code license: GPL-2.0
 

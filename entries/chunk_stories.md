@@ -6,9 +6,10 @@
 - Download: http://chunkstories.xyz/downloads.php
 - Platform: Windows, Linux, macOS
 - Keyword: game engine, simulation, sandbox, voxel
-- Code repository: https://github.com/Hugobros3/chunkstories.git
+- Code repository: https://github.com/Hugobros3/chunkstories.git (@created 2018, @stars 195, @forks 8)
 - Code language: Kotlin, Java
 - Code license: LGPL-3.0
+- Developer: Hugo Devillers, landru27
 
 ## Building
 

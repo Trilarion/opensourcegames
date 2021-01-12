@@ -5,10 +5,11 @@
 - State: beta
 - Platform: Linux
 - Keyword: game engine, remake, role playing, simulation, content commercial + original required, space
-- Code repository: https://github.com/laanwj/sundog.git
+- Code repository: https://github.com/laanwj/sundog.git (@created 2017, @stars 40, @forks 9)
 - Code language: C, C++, Python
 - Code license: MIT
 - Code dependency: SDL
+- Developer: Wladimir J. van der Laan, Thomas BERNARD
 
 Originally written in Pascal and compiled to bytecode for an abstract architecture. Implements a bytecode interpreter in C, which runs the game.
 

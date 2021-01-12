@@ -4,9 +4,10 @@
 - State: beta, inactive since 2014
 - Platform: Android
 - Keyword: strategy, setting medieval, turn-based
-- Code repository: https://github.com/hinogi/eternalwinterwars.git
+- Code repository: https://github.com/hinogi/eternalwinterwars.git (@created 2014, @stars 1, @forks 0)
 - Code language: Java
 - Code license: MIT
+- Developer: Sebastian Lutter, Manuel, Matthias Ton
 
 Medieval winter setting.
 

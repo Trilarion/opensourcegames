@@ -5,7 +5,7 @@
 - Play: http://fhtr.org/runfield/
 - Platform: Web
 - Keyword: arcade, 2D, content open
-- Code repository: https://github.com/kig/runfield.git
+- Code repository: https://github.com/kig/runfield.git (@created 2011, @stars 29, @forks 17)
 - Code language: JavaScript
 - Code license: GPL-3.0
 - Assets license: ? (MPL/GPL/LGPL)

@@ -4,9 +4,10 @@
 - Inspiration: Super ZZT, ZZT
 - State: beta, inactive since 2019
 - Keyword: remake
-- Code repository: https://github.com/SaxxonPike/roton.git
+- Code repository: https://github.com/SaxxonPike/roton.git (@created 2015, @stars 15, @forks 1)
 - Code language: C#
 - Code license: ISC
+- Developer: Tony Konzel, Ian Burgmyer
 
 Emulation of the ZZT and Super ZZT game creation engines.
 Roton is an emulation of the ZZT and Super ZZT game creation engines written in C#.

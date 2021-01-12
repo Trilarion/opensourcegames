@@ -5,10 +5,10 @@
 - Download: https://pypi.org/project/pygame-pgu/
 - Platform: Windows, Linux, macOS
 - Keyword: library
-- Code repository: https://github.com/parogers/pgu.git
+- Code repository: https://github.com/parogers/pgu.git (@created 2015, @stars 60, @forks 26)
 - Code language: Python
 - Code license: LGPL-2.1
-- Developer: Phil Hassey, Peter Rogers
+- Developer: Phil Hassey, Peter Rogers, Joao S. O. Bueno
 
 Collection of useful modules for writing games with PyGame.
 

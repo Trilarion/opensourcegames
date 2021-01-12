@@ -6,8 +6,9 @@
 - Play: http://www.schillmania.com/survivor/
 - Platform: Web
 - Keyword: remake
-- Code repository: https://github.com/scottschiller/SURVIVOR.git
+- Code repository: https://github.com/scottschiller/SURVIVOR.git (@created 2012, @stars 110, @forks 31)
 - Code language: JavaScript
 - Code license: CC-BY-NC-3.0
+- Developer: Scott Schiller
 
 ## Building

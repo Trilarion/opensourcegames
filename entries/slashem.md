@@ -6,7 +6,7 @@
 - State: beta, inactive since 2007
 - Download: http://slashem.sourceforge.net/stable.html, https://sourceforge.net/projects/slashem/files/
 - Keyword: role playing, clone, roguelike
-- Code repository: https://github.com/osgamearchive/slashem.git (archived conversion of cvs), http://slashem.cvs.sourceforge.net (cvs)
+- Code repository: https://github.com/osgamearchive/slashem.git (archived conversion of cvs, @archived, @created 2019, @stars 2, @forks 0), http://slashem.cvs.sourceforge.net (cvs)
 - Code language: C, C++
 - Code license: Custom (NetHack license)
 - Developer: J. Ali Harlow, Warren Cheung, Clive Crous, Paul Hurtley, Pekka Rousu

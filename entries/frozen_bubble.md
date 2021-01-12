@@ -7,8 +7,9 @@
 - Download: http://www.frozen-bubble.org/downloads/
 - Platform: Linux, macOS
 - Keyword: puzzle, clone, matching
-- Code repository: https://github.com/kthakore/frozen-bubble.git
+- Code repository: https://github.com/kthakore/frozen-bubble.git (@created 2009, @stars 100, @forks 26)
 - Code language: Perl
 - Code license: GPL-2.0
+- Developer: gcottenc, kmx, Lars Dɪᴇᴄᴋᴏᴡ 迪拉斯, Dirk Stöcker, Tobias Leich
 
 ## Building

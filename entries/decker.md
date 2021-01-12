@@ -4,10 +4,10 @@
 - State: beta, inactive since 2013
 - Download: https://sourceforge.net/projects/decker/files
 - Keyword: role playing
-- Code repository: https://github.com/jpmalkiewicz/decker.git (import), https://svn.code.sf.net/p/decker/code (svn)
+- Code repository: https://github.com/jpmalkiewicz/decker.git (import, @created 2018, @stars 1, @forks 0), https://svn.code.sf.net/p/decker/code (svn)
 - Code language: Java
 - Code license: GPL-2.0
-- Developer: Shawn Overcash, zyphrus, Bence Dobos, Jeremy Reeves, Gonzalo Bianchi, Lexaeus, Michael John Marsh, Will Sommer
+- Developer: Shawn Overcash, zyphrus, Bence Dobos, Jeremy Reeves, Gonzalo Bianchi, Lexaeus, Michael John Marsh, Will Sommer, David Barnett, Vasilij Savin
 
 Cyberspace hacking RPG where you hack into corporate systems to perform missions for rival corporations.
 Is there a C++ version?

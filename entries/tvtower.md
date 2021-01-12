@@ -5,8 +5,9 @@
 - Inspiration: Mad TV
 - State: mature
 - Keyword: remake, strategy
-- Code repository: https://github.com/TVTower/TVTower.git
+- Code repository: https://github.com/TVTower/TVTower.git (@created 2014, @stars 73, @forks 23)
 - Code language: BlitzMax, Lua
 - Code license: Custom (similar to MIT, Apache)
+- Developer: Ronny Otto, STARSCrazy, Alexander Nittka, Brucey, Sjaele, XtrmPrgrmmr
 
 ## Building

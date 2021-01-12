@@ -4,9 +4,10 @@
 - Media: https://en.wikipedia.org/wiki/POSIX_Threads#POSIX_Threads_for_Windows
 - State: mature
 - Keyword: library
-- Code repository: https://github.com/GerHobbelt/pthread-win32.git (for cvs see home)
+- Code repository: https://github.com/GerHobbelt/pthread-win32.git (for cvs see home, @created 2011, @stars 155, @forks 99)
 - Code language: C
 - Code license: LGPL-2.1
+- Developer: rocso, Ger Hobbelt
 
 Implements a large subset of the POSIX standard threads related API.
 

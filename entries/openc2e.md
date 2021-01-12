@@ -5,9 +5,10 @@
 - Inspiration: Creatures
 - State: beta
 - Keyword: game engine, remake, simulation, content original required (?)
-- Code repository: https://github.com/openc2e/openc2e.git, https://github.com/ccdevnet/openc2e.git @add, https://github.com/nornagon/openc2e.git @add
+- Code repository: https://github.com/openc2e/openc2e.git (@created 2020, @stars 49, @forks 8), https://github.com/ccdevnet/openc2e.git @add (@created 2008, @stars 53, @forks 24), https://github.com/nornagon/openc2e.git @add (@created 2013, @stars 3, @forks 0)
 - Code language: C, C++
 - Code license: LGPL-2.1
+- Developer: Alyssa Milburn, ligfx, bdonlan, Jeremy Rose, Eric Goodwin
 
 Restarted in 2020.
 

@@ -5,10 +5,11 @@
 - Inspiration: Progress Quest
 - State: mature
 - Keyword: remake, simulation
-- Code repository: https://github.com/nbollom/pq2.git
+- Code repository: https://github.com/nbollom/pq2.git (@created 2016, @stars 12, @forks 3)
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: ncurses, Qt
+- Developer: TheFatNinja
 
 Original source code is also open source.
 

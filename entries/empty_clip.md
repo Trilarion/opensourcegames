@@ -4,10 +4,10 @@
 - State: mature
 - Platform: Linux
 - Keyword: role playing, 2D, shooter, top-down
-- Code repository: https://github.com/jazztickets/emptyclip.git, https://git.code.sf.net/p/emptyclip/code
+- Code repository: https://github.com/jazztickets/emptyclip.git (@created 2017, @stars 1, @forks 1), https://git.code.sf.net/p/emptyclip/code
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL2
-- Developer: Alan Witkowski, jazztickets
+- Developer: Alan Witkowski, jazztickets, christmode
 
 ## Building

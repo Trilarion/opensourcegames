@@ -6,9 +6,10 @@
 - Download: https://github.com/GTA-ASM/SanAndreasUnity/releases
 - Platform: Windows, Linux, Android
 - Keyword: remake, content commercial, multiplayer online + LAN
-- Code repository: https://github.com/GTA-ASM/SanAndreasUnity.git
+- Code repository: https://github.com/GTA-ASM/SanAndreasUnity.git (@created 2018, @stars 704, @forks 103)
 - Code language: C#
 - Code license: MIT
 - Code dependency: Unity
+- Developer: in0finite
 
 ## Building

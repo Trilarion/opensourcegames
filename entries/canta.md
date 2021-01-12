@@ -4,7 +4,7 @@
 - State: beta, inactive since 2011
 - Platform: Windows, Linux
 - Keyword: music, content open, karaoke
-- Code repository: https://github.com/spiderbit/canta.git
+- Code repository: https://github.com/spiderbit/canta.git (@created 2010, @stars 14, @forks 1)
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependency: GStreamer, Soya3D

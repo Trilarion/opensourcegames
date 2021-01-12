@@ -6,11 +6,11 @@
 - Download: https://github.com/xythobuz/OpenRaider/releases
 - Platform: macOS
 - Keyword: action, remake, content original required (?)
-- Code repository: https://github.com/xythobuz/OpenRaider.git, http://openraider.cvs.sourceforge.net (cvs)
+- Code repository: https://github.com/xythobuz/OpenRaider.git (@created 2013, @stars 71, @forks 11), http://openraider.cvs.sourceforge.net (cvs)
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependency: OpenAL, OpenGL, SDL2
-- Developer: Terry 'Mongoose' Hendrix II
+- Developer: Terry 'Mongoose' Hendrix II, Thomas Buck, Carsten Teibes
 
 ## Building
 

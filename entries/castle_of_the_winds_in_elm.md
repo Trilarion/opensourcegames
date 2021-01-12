@@ -5,9 +5,10 @@
 - State: beta
 - Platform: Web
 - Keyword: remake, role playing
-- Code repository: https://github.com/mordrax/cotwelm.git
+- Code repository: https://github.com/mordrax/cotwelm.git (@created 2016, @stars 88, @forks 7)
 - Code language: Elm, JavaScript
 - Code license: MIT
+- Developer: Joseph Ni, Dušan Juretić
 
 See also Castle of the Winds.
 

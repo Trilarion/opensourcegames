@@ -4,10 +4,11 @@
 - State: mature
 - Platform: Windows, Linux
 - Keyword: puzzle, 3D, content open
-- Code repository: https://github.com/HackerPoet/MarbleMarcher.git, https://github.com/WAUthethird/Marble-Marcher-Community-Edition.git @add
+- Code repository: https://github.com/HackerPoet/MarbleMarcher.git (@created 2018, @stars 2155, @forks 138), https://github.com/WAUthethird/Marble-Marcher-Community-Edition.git @add (@created 2019, @stars 171, @forks 16)
 - Code language: C++
 - Code license: GPL-2.0
 - Assets license: ? (GPL-2.0)
+- Developer: HackerPoet, FW, Mykhailo Moroz, William Unsworth, Bryce Wilson, Ott Toomet, Selicre
 
 Showcasing a fully ray marched graphics and making use of fractals and a fractal collision engine.
 

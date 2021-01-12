@@ -5,9 +5,10 @@
 - Download: https://mini2dx.org/downloads.html, https://github.com/mini2Dx/mini2Dx/releases
 - Platform: Windows, Linux, macOS
 - Keyword: game engine, 2D
-- Code repository: https://github.com/mini2Dx/mini2Dx.git
+- Code repository: https://github.com/mini2Dx/mini2Dx.git (@created 2013, @stars 367, @forks 38)
 - Code language: Java, C#
 - Code license: Apache-2.0
+- Developer: Thomas Cashman, Augusto Zanellato, Thomas Youngson, Wayne Leroux
 
 Framework for prototyping and building 2D games in Java.
 

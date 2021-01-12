@@ -5,9 +5,10 @@
 - State: beta
 - Platform: Windows, Linux
 - Keyword: puzzle, clone, content open
-- Code repository: https://github.com/mdodis/OpenSolomonsKey.git
+- Code repository: https://github.com/mdodis/OpenSolomonsKey.git (@created 2019, @stars 14, @forks 1)
 - Code language: C++
 - Code license: Unlicense
+- Developer: Michael Dodis, immortalx74
 
 ## Building
 

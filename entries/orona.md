@@ -6,7 +6,7 @@
 - Play: http://stephank.github.io/orona/bolo.html
 - Platform: Web
 - Keyword: remake, strategy
-- Code repository: https://github.com/stephank/orona.git
+- Code repository: https://github.com/stephank/orona.git (@archived, @created 2010, @stars 257, @forks 37)
 - Code language: CoffeeScript
 - Code license: GPL-2.0
 - Developer: Stéphan Kochen

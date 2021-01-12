@@ -5,8 +5,9 @@
 - Inspiration: Jet-Story
 - State: beta
 - Keyword: action, remake
-- Code repository: https://github.com/adamenkov/jet-story.git
+- Code repository: https://github.com/adamenkov/jet-story.git (@created 2016, @stars 3, @forks 1)
 - Code language: Assembly, C, C++
 - Code license: MIT
+- Developer: Evgeny Adamenkov
 
 ## Building

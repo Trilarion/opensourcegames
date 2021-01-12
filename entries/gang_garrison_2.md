@@ -7,9 +7,10 @@
 - Download: https://www.ganggarrison.com/downloads.html
 - Platform: Windows
 - Keyword: action, clone, content open, demake, multiplayer online
-- Code repository: https://github.com/Gang-Garrison-2/Gang-Garrison-2.git
+- Code repository: https://github.com/Gang-Garrison-2/Gang-Garrison-2.git (@created 2014, @stars 32, @forks 44)
 - Code language: Game Maker Script
 - Code license: MPL-2.0
 - Code dependency: Game Maker
+- Developer: Medo42, Andrea, Alexander Nadeau, jason, Michael Lin, PrOF-kk, Lennert Claeys, ASBenz, Derpduck, BasedUser, qoh
 
 ## Building

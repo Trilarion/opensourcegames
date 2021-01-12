@@ -4,9 +4,10 @@
 - Inspiration: Lemmings
 - State: beta
 - Keyword: puzzle, 2D, clone, content open, multiplayer online
-- Code repository: https://github.com/SimonN/LixD.git, https://github.com/SimonN/Lix.git @add
+- Code repository: https://github.com/SimonN/LixD.git (@created 2015, @stars 64, @forks 10), https://github.com/SimonN/Lix.git @add (@created 2011, @stars 34, @forks 7)
 - Code language: D, C++
 - Code license: CC0
 - Code dependency: Allegro
+- Developer: Simon Naarmann, Georg Os., ccexplore, Phil, Julian Ospald
 
 ## Building

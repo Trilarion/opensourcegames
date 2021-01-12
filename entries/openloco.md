@@ -6,9 +6,10 @@
 - Download: https://github.com/OpenLoco/OpenLoco/releases
 - Platform: Windows, macOS
 - Keyword: remake, simulation, content commercial + original required, transport
-- Code repository: https://github.com/OpenLoco/OpenLoco.git
+- Code repository: https://github.com/OpenLoco/OpenLoco.git (@created 2018, @stars 449, @forks 61)
 - Code language: C++
 - Code license: MIT
+- Developer: Aaron van Geffen, Marijn van der Werf, Ted John, Duncan, Michał Janiszewski, Peter Gaal, Svelbeard, Justin Gottula, Michael Steenbeek, Richard Jenkins, Kane, Zcooger, ceeac, ζeh Matt, TELK
 
 The original game use the modified version of RollerCoaster Tycoon 2's engine. OpenLoco using modified version of OpenRCT2's engine.
 

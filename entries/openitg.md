@@ -5,9 +5,10 @@
 - State: beta, inactive since 2017
 - Platform: Linux
 - Keyword: music, entertainment
-- Code repository: https://github.com/openitg/openitg.git
+- Code repository: https://github.com/openitg/openitg.git (@archived, @created 2011, @stars 141, @forks 77)
 - Code language: C, C++
 - Code license: MIT
+- Developer: spigwitmer, vyhd, August Gustavsson, Carl Myers, DataBeaver, Toni Spets, mooinglemur, Kate Gray
 
 Rhythm dancing game.
 

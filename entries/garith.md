@@ -4,7 +4,7 @@
 - Inspiration: arithmetic, TuxMath
 - State: mature, inactive since 2013
 - Keyword: educational, content open, for kids
-- Code repository: https://gitlab.com/wavexx/garith.git, https://github.com/wavexx/garith.git (archived)
+- Code repository: https://gitlab.com/wavexx/garith.git, https://github.com/wavexx/garith.git (archived, @archived, @created 2014, @stars 1, @forks 0)
 - Code language: C++
 - Code license: LGPL-2.1
 - Code dependency: GLUT

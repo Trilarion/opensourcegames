@@ -4,10 +4,10 @@
 - State: mature
 - Platform: Windows, Linux, macOS
 - Keyword: game engine
-- Code repository: https://github.com/xriss/gamecake.git
+- Code repository: https://github.com/xriss/gamecake.git (@created 2016, @stars 21, @forks 4)
 - Code language: C, C++, Lua
 - Code license: MIT
-- Developer: Kriss
+- Developer: Kriss, shi
 
 ## Building
 

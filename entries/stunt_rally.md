@@ -6,11 +6,11 @@
 - Download: http://stuntrally.tuxfamily.org/downloads, https://sourceforge.net/projects/stuntrally/files/
 - Platform: Windows, Linux
 - Keyword: action, clone, racing
-- Code repository: https://github.com/stuntrally/stuntrally.git
+- Code repository: https://github.com/stuntrally/stuntrally.git (@created 2011, @stars 308, @forks 79)
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependency: OGRE, SDL2, VDrift
-- Developer: Crystal Hammer
+- Developer: Crystal Hammer, Tapio Vierros, ahmedismaiel, Rémi Verschelde, Alan Szlosek Jr, Dmitry Marakasov
 
 With rally style of driving.
 

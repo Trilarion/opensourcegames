@@ -7,9 +7,10 @@
 - Download: https://github.com/aperture-software/colditz-escape/releases
 - Platform: Windows, Linux, macOS
 - Keyword: remake, strategy
-- Code repository: https://github.com/aperture-software/colditz-escape.git
+- Code repository: https://github.com/aperture-software/colditz-escape.git (@created 2015, @stars 19, @forks 4)
 - Code language: C
 - Code license: GPL-3.0
+- Developer: Aperture Software, picryott
 
 ## Building
 

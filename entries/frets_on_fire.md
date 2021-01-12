@@ -6,7 +6,7 @@
 - Download: https://sourceforge.net/projects/fretsonfire/files/
 - Platform: Windows, Linux, macOS
 - Keyword: music, remake
-- Code repository: https://github.com/skyostil/fretsonfire.git, https://svn.code.sf.net/p/fretsonfire/code (svn old)
+- Code repository: https://github.com/skyostil/fretsonfire.git (@created 2014, @stars 22, @forks 8), https://svn.code.sf.net/p/fretsonfire/code (svn old)
 - Code language: Python
 - Code license: GPL-2.0
 - Developer: Joonas Kerttula, Sami Kyöstilä, Alex Samonte

@@ -7,10 +7,11 @@
 - Download: https://pyskool.ca/downloads/, https://pypi.org/project/pyskool/
 - Platform: Linux
 - Keyword: remake
-- Code repository: https://github.com/skoolkid/pyskool.git
+- Code repository: https://github.com/skoolkid/pyskool.git (@created 2013, @stars 14, @forks 4)
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependency: pygame
+- Developer: Richard Dymond
 
 ## Building
 

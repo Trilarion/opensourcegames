@@ -5,10 +5,11 @@
 - Download: https://github.com/SteveSmith16384/SimplePlatformer/releases
 - Platform: Windows, Linux
 - Keyword: arcade, platform
-- Code repository: https://github.com/SteveSmith16384/SimplePlatformer.git
+- Code repository: https://github.com/SteveSmith16384/SimplePlatformer.git (@created 2019, @stars 4, @forks 2)
 - Code language: Java
 - Code license: MIT
 - Code dependency: libGDX
+- Developer: Steve Smith
 
 ## Building
 

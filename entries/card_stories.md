@@ -4,11 +4,11 @@
 - State: beta, inactive since 2012
 - Platform: Web
 - Keyword: cards, puzzle, content open, multiplayer online
-- Code repository: https://github.com/farsides/cardstories.git, https://gitorious.org/cardstories/cardstories.git (read-only)
+- Code repository: https://github.com/farsides/cardstories.git (@created 2011, @stars 9, @forks 3), https://gitorious.org/cardstories/cardstories.git (read-only)
 - Code language: JavaScript, Python
 - Code license: AGPL-3.0
 - Code dependency: Twisted
 - Assets license: CC-BY-SA-3.0
-- Developer: Farsides
+- Developer: Farsides, Matjaz Gregoric, Adolfo R. Brandes, Xavier Antoviaque, Chris McCormick, Rogerio Hilbert Lima
 
 ## Building

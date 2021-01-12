@@ -5,8 +5,9 @@
 - State: mature
 - Platform: Web
 - Keyword: puzzle, clone, content commercial + original required
-- Code repository: https://github.com/tomsoftware/Lemmings.ts.git
+- Code repository: https://github.com/tomsoftware/Lemmings.ts.git (@created 2017, @stars 43, @forks 6)
 - Code language: TypeScript
 - Code license: MIT
+- Developer: Thomas Zeugner
 
 ## Building

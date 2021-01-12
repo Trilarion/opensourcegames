@@ -4,10 +4,10 @@
 - State: mature
 - Platform: Windows, Linux
 - Keyword: game engine
-- Code repository: https://github.com/sphair/ClanLib.git
+- Code repository: https://github.com/sphair/ClanLib.git (@created 2013, @stars 277, @forks 64)
 - Code language: C, C++
 - Code license: zlib
-- Developer: Mark Page, Kenneth Gangsto
+- Developer: Mark Page, Magnus Norddahl, Kenneth Gangstø, Grizmu, Artem, Chu Chin Kuan, Lethal Ghost, roothorick, authenticate, xantares, Pyrdacor, Jeremy Cochoy
 
 Medium level development kit.
 Which games use ClanLib?

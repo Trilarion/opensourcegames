@@ -4,8 +4,9 @@
 - Inspiration: Blob Wars Attrition
 - State: mature
 - Keyword: platform, 2D, content commercial + original required
-- Code repository: https://github.com/stephenjsweeney/blobwarsAttrition.git
+- Code repository: https://github.com/stephenjsweeney/blobwarsAttrition.git (@created 2018, @stars 16, @forks 5)
 - Code language: C, C++
 - Code license: GPL-3.0
+- Developer: Stephen J Sweeney
 
 ## Building

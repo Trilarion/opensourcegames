@@ -5,8 +5,9 @@
 - Inspiration: MechCommander 2
 - State: beta, inactive since 2013
 - Keyword: action, remake, mech
-- Code repository: https://github.com/Echelon9/mechcommander2-open.git
+- Code repository: https://github.com/Echelon9/mechcommander2-open.git (@created 2012, @stars 22, @forks 6)
 - Code language: C++
 - Code license: MS-PL
+- Developer: Echelon9
 
 ## Building

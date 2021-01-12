@@ -5,8 +5,9 @@
 - Inspiration: Dune 2
 - State: beta
 - Keyword: remake, strategy, real-time
-- Code repository: https://github.com/Fundynamic/dune2themaker4j.git
+- Code repository: https://github.com/Fundynamic/dune2themaker4j.git (@created 2012, @stars 46, @forks 18)
 - Code language: Java
 - Code license: MIT
+- Developer: Stefan Hendriks, Arjen van der Ende
 
 ## Building

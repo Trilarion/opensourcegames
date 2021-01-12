@@ -5,9 +5,10 @@
 - State: beta, inactive since 2017
 - Platform: Windows, Linux, macOS, Android, iOS, Web
 - Keyword: framework, 2D
-- Code repository: https://github.com/flixel-gdx/flixel-gdx.git
+- Code repository: https://github.com/flixel-gdx/flixel-gdx.git (@created 2013, @stars 145, @forks 45)
 - Code language: Java
 - Code license: 3-clause BSD
 - Code dependency: libGDX
+- Developer: Ka Wing Chin, Thomas Weston
 
 ## Building

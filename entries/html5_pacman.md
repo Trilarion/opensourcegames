@@ -5,8 +5,9 @@
 - State: mature, inactive since 2013
 - Platform: Web
 - Keyword: remake, skill
-- Code repository: https://github.com/daleharvey/pacman.git
+- Code repository: https://github.com/daleharvey/pacman.git (@created 2010, @stars 602, @forks 366)
 - Code language: JavaScript
 - Code license: WTFPL
+- Developer: Dale  Harvey
 
 ## Building

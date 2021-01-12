@@ -4,11 +4,12 @@
 - Inspiration: Fall Down
 - State: mature
 - Keyword: role playing, clone
-- Code repository: https://github.com/cxong/FallingTime.git
+- Code repository: https://github.com/cxong/FallingTime.git (@created 2015, @stars 16, @forks 9)
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependency: SDL2
 - Assets license: CC0, CC-BY, CC-BY-SA (https://github.com/cxong/FallingTime/blob/master/COPYRIGHT)
+- Developer: Cong, Rémi Verschelde
 
 ## Building
 

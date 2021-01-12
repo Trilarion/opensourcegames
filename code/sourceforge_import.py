@@ -16,7 +16,12 @@ SF_alias_list = {'Erik Johansson (aka feneur)': 'Erik Johansson', 'Itms': 'Nicol
                  'Wraitii': 'Lancelot de Ferrière', 'Simzer': 'Simon Laszlo', 'armin bajramovic': 'Armin Bajramovic',
                  'bleu tailfly': 'bleutailfly', 'dlh': 'DLH', 'Bjorn Hansen': 'Bjørn Hansen', 'Louens Veen': 'Lourens Veen',
                  'linley_henzell': 'Linley Henzell', 'Patrice DUHAMEL': 'Patrice Duhamel', 'Etienne SOBOLE': 'Etienne Sobole',
-                 'L. H.    [Lubomír]': 'L. H. Lubomír'}
+                 'L. H.    [Lubomír]': 'L. H. Lubomír', 'davidjoffe': 'David Joffe', 'EugeneLoza': 'Eugene Loza',
+                 'Kenneth Gangsto': 'Kenneth Gangstø', 'Lucas GAUTHERON': 'Lucas Gautheron', 'Per I Mathisen': 'Per Inge Mathisen',
+                 'wrtlprnft': 'Wrzlprnft', 'daniel_santos': 'Daniel Santos', 'Dark_Sylinc': 'darksylinc',
+                 'Don Llopis': 'Don E. Llopis', 'dwachs': 'Dwachs', 'Pierre-Loup Griffais': 'Pierre-Loup A. Griffais',
+                 'Richard Gobeille': 'Richard C. Gobeille', 'timfelgentreff': 'Tim Felgentreff',
+                 'Dr. Martin Brumm': 'Martin Brumm', 'Dr. Wolf-Dieter Beelitz': 'Wolf-Dieter Beelitz'}
 
 SF_ignore_list = ('', 'Arianne Integration Bot')
 

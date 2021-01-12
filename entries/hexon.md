@@ -4,10 +4,11 @@
 - State: beta
 - Platform: Linux
 - Keyword: role playing, shooter
-- Code repository: https://gitlab.com/luckeyproductions/heXon.git, https://github.com/LucKeyProductions/heXon.git (outdated)
+- Code repository: https://gitlab.com/luckeyproductions/heXon.git, https://github.com/LucKeyProductions/heXon.git (outdated, @created 2015, @stars 54, @forks 10)
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: Urho3D
+- Developer: 魔大农, Thorbjørn Lindeijer, Richel Bilderbeek
 
 Twin-stick shooter
 

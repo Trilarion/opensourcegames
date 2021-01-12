@@ -4,11 +4,12 @@
 - State: mature
 - Download: https://store.steampowered.com/app/370070/Wyrmsun/
 - Keyword: strategy, real-time
-- Code repository: https://github.com/andrettin/wyrmsun.git, https://github.com/Andrettin/Wyrmgus.git @add
+- Code repository: https://github.com/andrettin/wyrmsun.git (@created 2014, @stars 164, @forks 26), https://github.com/Andrettin/Wyrmgus.git @add (@created 2014, @stars 56, @forks 15)
 - Code language: Lua, C++
 - Code license: GPL-2.0
 - Code dependency: Modified Stratagus
 - Assets license: CC0, GPL-2.0 (some music and sound from Battle for Wesnoth)
+- Developer: Andrettin, Marcelo Fernandez, Pawonashi, BeWorld, Rémi Verschelde, Dmitry Marakasov, Szunti
 
 Features elements of mythology, history and fiction.
 

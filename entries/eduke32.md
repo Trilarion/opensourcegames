@@ -8,6 +8,6 @@
 - Code repository: @see-download
 - Code language: C, C++
 - Code license: GPL-2.0
-- Developer: Pierre-Loup Griffais, Richard Gobeille, Helixhorned, Hendricks266, hnt_tss, Qbix
+- Developer: Pierre-Loup A. Griffais, Richard C. Gobeille, Helixhorned, Hendricks266, hnt_tss, Qbix
 
 ## Building

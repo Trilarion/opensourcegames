@@ -6,10 +6,11 @@
 - Download: https://github.com/dhewm/dhewm3/releases
 - Platform: Windows, Linux, macOS
 - Keyword: action, remake, content commercial + original required, shooter
-- Code repository: https://github.com/dhewm/dhewm3.git
+- Code repository: https://github.com/dhewm/dhewm3.git (@created 2012, @stars 1189, @forks 237)
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependency: OpenGL
+- Developer: Daniel Gibson, Nick Andrews, Scott Wakeling, Turo Lamminen, Yamagi
 
 ## Building
 

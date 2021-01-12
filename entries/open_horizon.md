@@ -6,9 +6,10 @@
 - Download: http://zxstudio.org/blog/open-horizon-downloads/
 - Platform: Windows, Linux, macOS
 - Keyword: remake, simulation, content commercial + original required, flight
-- Code repository: https://github.com/undefined-darkness/open-horizon.git
+- Code repository: https://github.com/undefined-darkness/open-horizon.git (@created 2014, @stars 130, @forks 12)
 - Code language: C++
 - Code license: MIT
 - Code dependency: nya-engine
+- Developer: undefined-darkness
 
 ## Building

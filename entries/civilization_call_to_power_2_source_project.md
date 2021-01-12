@@ -5,9 +5,10 @@
 - Inspiration: Call to Power II
 - State: mature
 - Keyword: remake, strategy, turn-based
-- Code repository: https://github.com/civctp2/civctp2.git (mirror), http://ctp2.darkdust.net/anonsvn/ (svn)
+- Code repository: https://github.com/civctp2/civctp2.git (mirror, @created 2018, @stars 27, @forks 17), http://ctp2.darkdust.net/anonsvn/ (svn)
 - Code language: C, C++
 - Code license: Custom (Activision CTP2 source EULA)
+- Developer: LynxAbraxas, Martin Gühmann, William Deurwaarder, ptitSeb, Andriy B. Kmit', henshall828, Mariusz, civctp2
 
 Strategy game released by Activision as a sequel to Civilization: Call to Power, which itself was a successor to the Civilization series by Sid Meier.
 May require ownership of original content?

@@ -5,9 +5,10 @@
 - State: beta, inactive since 2018
 - Platform: Windows
 - Keyword: strategy, clone, content open
-- Code repository: https://github.com/BrunoAOR/Space-Harrier-Clone.git
+- Code repository: https://github.com/BrunoAOR/Space-Harrier-Clone.git (@created 2018, @stars 10, @forks 1)
 - Code language: C, C++
 - Code license: MIT
 - Code dependency: SDL2
+- Developer: Bruno Ortiz
 
 ## Building

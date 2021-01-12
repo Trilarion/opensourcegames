@@ -4,12 +4,12 @@
 - State: beta
 - Platform: Windows, Linux
 - Keyword: adventure, board, cards, content open
-- Code repository: https://github.com/deerportal/deerportal.git
+- Code repository: https://github.com/deerportal/deerportal.git (@created 2015, @stars 27, @forks 9)
 - Code language: C++
 - Code license: zlib
 - Code dependency: SFML
 - Assets license: CC-BY 4.0
-- Developer: Rafal Zawadzki, Katia Zawadzka
+- Developer: Katia Zawadzka, Rafał Zawadzki, rafalon, ukata
 
 Hybrid board/card game for four players driven by the four classical elements.
 

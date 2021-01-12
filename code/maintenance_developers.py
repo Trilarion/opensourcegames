@@ -4,9 +4,12 @@ stored Git repositories.
 """
 # TODO bag of words (split, strip, lowercase) on dev names and try to detect sex and nationality
 # TODO for duplicate names, create ignore list
+# TODO split devs with multiple gh or sf accounts (unlikely), start with most (like name Adam) - naming convention @01 etc.
+# TODO check for devs without contact after gitlab/bitbucket/..
+# TODO gitlab/bitbucket import
 
-from utils import osg_ui
-from utils import osg
+import time
+from utils import osg, osg_ui
 
 
 class DevelopersMaintainer:
@@ -30,12 +33,13 @@ class DevelopersMaintainer:
         if not self.developers:
             print('developers not yet loaded')
             return
+        start_time = time.process_time()
         developer_names = list(self.developers.keys())
         for index, name in enumerate(developer_names):
             for other_name in developer_names[index + 1:]:
                 if osg.name_similarity(str.casefold(name), str.casefold(other_name)) > 0.85:
                     print(' {} - {} is similar'.format(name, other_name))
-        print('duplicates checked')
+        print('duplicates checked (took {:.3f}s)'.format(time.process_time()-start_time))
 
     def check_for_orphans(self):
         if not self.developers:
@@ -44,7 +48,7 @@ class DevelopersMaintainer:
         for dev in self.developers.values():
             if not dev['Games']:
                 print(' {} has no games'.format(dev['Name']))
-        print('orphanes checked')
+        print('orphans checked')
         
     def check_for_missing_developers_in_entries(self):
         if not self.developers:
@@ -81,12 +85,12 @@ class DevelopersMaintainer:
             entry_name = entry['Title']
             entry_devs = entry.get('Developer', [])
             for entry_dev in entry_devs:
-                entry_dev = entry_dev.value  # ignored the comment
+                entry_dev = entry_dev.value  # ignore a possible comment
                 if entry_dev in self.developers:
                     self.developers[entry_dev]['Games'].append(entry_name)
                 else:
                     # completely new developer
-                    self.developers[entry_dev] = {'Name': entry_dev, 'Games': entry_name}
+                    self.developers[entry_dev] = {'Name': entry_dev, 'Games': [entry_name]}
         print('developers updated')
 
     def read_entries(self):

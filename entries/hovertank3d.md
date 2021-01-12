@@ -4,7 +4,7 @@
 - Inspiration: Hovertank 3D
 - State: mature, inactive since 2014
 - Keyword: action, remake, content original required
-- Code repository: https://github.com/FlatRockSoft/Hovertank3D.git
+- Code repository: https://github.com/FlatRockSoft/Hovertank3D.git (@created 2014, @stars 196, @forks 49)
 - Code language: C++, Assembly
 - Code license: GPL-2.0
 

@@ -4,9 +4,10 @@
 - Inspiration: Slot Racers
 - State: mature, inactive since 2008
 - Keyword: arcade, remake
-- Code repository: https://github.com/Zillode/Slot-Racers.git
-- Code language: C
+- Code repository: https://github.com/Zillode/Slot-Racers.git (@created 2008, @stars 3, @forks 0)
+- Code language: C, C++
 - Code license: GPL-3.0
+- Developer: Zillode
 
 ## Building
 

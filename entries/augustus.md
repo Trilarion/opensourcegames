@@ -6,12 +6,12 @@
 - Download: https://github.com/Keriew/augustus/releases
 - Platform: Windows, Linux, macOS
 - Keyword: remake, simulation, content commercial, engine recreation, fork Julius
-- Code repository: https://github.com/Keriew/augustus.git
+- Code repository: https://github.com/Keriew/augustus.git (@created 2020, @stars 311, @forks 33)
 - Code language: C, C++
 - Code license: AGPL-3.0
 - Code dependency: SDL2
 - Assets license: Commercial
-- Developer: Keriew, whgest
+- Developer: Keriew, whgest, Bianca van Schaik, José Cadete, William Hardy Gest, devnoname120, Vittorio Mattei, HoratioVex, rsn8887, HyperJeanJean, Alexey, nwtour
 
 ## Building
 

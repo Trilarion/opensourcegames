@@ -4,9 +4,10 @@
 - Inspiration: Tomb Raider Chronicles
 - State: beta
 - Keyword: remake, content commercial + original required
-- Code repository: https://github.com/TOMB5/TOMB5.git
+- Code repository: https://github.com/TOMB5/TOMB5.git (@created 2017, @stars 384, @forks 34)
 - Code language: C, C++
 - Code license: MIT
+- Developer: Gh0stBlade, Tom Niget, Timur Gagiev, Ilya, Revo
 
 Based on decompilation of the original binaries.
 

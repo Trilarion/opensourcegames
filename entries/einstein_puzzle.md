@@ -4,10 +4,11 @@
 - Inspiration: Sherlock
 - State: mature, inactive since 2005
 - Keyword: puzzle
-- Code repository: https://github.com/lksj/einstein-puzzle.git
+- Code repository: https://github.com/lksj/einstein-puzzle.git (@created 2015, @stars 14, @forks 14)
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL
+- Developer: Alex Karabanov
 
 Based on an old DOS game called Sherlock, based on the “zebra puzzle” or “Einstein’s puzzle”.
 

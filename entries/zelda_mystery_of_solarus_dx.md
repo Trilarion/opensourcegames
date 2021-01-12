@@ -3,10 +3,11 @@
 - Home: https://github.com/solarus-games/zsdx
 - State: mature
 - Keyword: role playing
-- Code repository: https://gitlab.com/solarus-games/zsdx.git, https://github.com/solarus-games/zsdx.git (old)
+- Code repository: https://gitlab.com/solarus-games/zsdx.git, https://github.com/solarus-games/zsdx.git (old, @archived, @created 2013, @stars 157, @forks 45)
 - Code language: Lua
 - Code license: GPL-3.0
 - Code dependency: Solarus
+- Developer: Christopho, Peter De Wachter, Thomas Noury, Vlag, rypervenche, legrostazon, Renkineko, Vincent Breitmoser
 
 Works with Solarus, an open-source Zelda-like 2D game engine.
 

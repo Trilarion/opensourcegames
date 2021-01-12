@@ -5,8 +5,9 @@
 - State: beta
 - Platform: Web
 - Keyword: action, remake, multiplayer
-- Code repository: https://github.com/mgechev/mk.js.git
+- Code repository: https://github.com/mgechev/mk.js.git (@created 2013, @stars 839, @forks 259)
 - Code language: JavaScript
 - Code license: MIT
+- Developer: Minko Gechev
 
 ## Building

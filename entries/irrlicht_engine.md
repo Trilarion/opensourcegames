@@ -5,7 +5,7 @@
 - State: mature
 - Download: http://irrlicht.sourceforge.net/?page_id=10
 - Keyword: framework, 3D, real-time
-- Code repository: https://github.com/zaki/irrlicht.git (mirror), https://svn.code.sf.net/p/irrlicht/code (svn)
+- Code repository: https://github.com/zaki/irrlicht.git (mirror, @created 2010, @stars 374, @forks 121), https://svn.code.sf.net/p/irrlicht/code (svn)
 - Code language: C++, C
 - Code license: zlib
 

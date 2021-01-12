@@ -6,10 +6,11 @@
 - Play: http://openroadsgame.com/
 - Platform: Web
 - Keyword: arcade, remake
-- Code repository: https://github.com/anprogrammer/OpenRoads.git
+- Code repository: https://github.com/anprogrammer/OpenRoads.git (@created 2014, @stars 99, @forks 6)
 - Code language: TypeScript, JavaScript
 - Code license: MIT
 - Code dependency: WebGL
 - Assets license: ?
+- Developer: Daniel Church
 
 ## Building

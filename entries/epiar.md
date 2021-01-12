@@ -4,9 +4,10 @@
 - State: beta
 - Download: https://web.archive.org/web/20161106210633/http://epiar.net/download
 - Keyword: action, space, trading
-- Code repository: https://github.com/cthielen/Epiar.git
+- Code repository: https://github.com/cthielen/Epiar.git (@created 2009, @stars 9, @forks 1)
 - Code language: C, C++, Lua
 - Code license: GPL-2.0
+- Developer: Matt Zweig, Christopher Thielen, Mao Yu, ebos, DuMuT6p, arke, moses7, Gerard Sweeney
 
 Open-ended space action/trading game.
 

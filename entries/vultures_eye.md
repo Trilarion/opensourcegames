@@ -4,10 +4,10 @@
 - Inspiration: Falcon's Eye
 - State: mature, inactive since 2015
 - Keyword: role playing, roguelike
-- Code repository: https://github.com/Herdinger/vulture.git
-- Code language: C++
+- Code repository: https://github.com/Herdinger/vulture.git (@created 2019, @stars 2, @forks 0)
+- Code language: C++, C
 - Code license: NetHack General Public License
-- Developer: Clive Crous
+- Developer: Clive Crous, Eduard Strehlau
 
 Fork of Falcon's Eye.
 

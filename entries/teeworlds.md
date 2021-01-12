@@ -6,12 +6,12 @@
 - Download: https://www.teeworlds.com/?page=downloads
 - Platform: Windows, Linux, macOS
 - Keyword: platform, 2D, content open, online, shooter
-- Code repository: https://github.com/matricks/teeworlds.git
+- Code repository: https://github.com/matricks/teeworlds.git (@created 2010, @stars 270, @forks 85)
 - Code language: C, C++
 - Code license: zlib
 - Code dependency: SDL
 - Assets license: CC-BY-SA-3.0
-- Developer: Magnus Auvinen
+- Developer: Magnus Auvinen, oy, Jakob Fries, Joel de Vahl, Johan Althoff, Matthew Swain, Dominik D. Geyer, Phobos99, larsfu, BeaR, heinrich5991, Shereef Marzouk, SushiTee, MyDopefish, Emir Marincic, chi1, van fstd
 
 Cartoon style 2D multiplayer platform shooter game (or third person shooter).
 The game provides an arena where players fight in various multiplayer modes (capture the flag, duel, team death match, race). The player is a Tee, a little ball with hands and feet.

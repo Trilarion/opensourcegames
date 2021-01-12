@@ -6,10 +6,11 @@
 - Download: https://github.com/juzzlin/DustRacing2D/releases
 - Platform: Windows, Linux
 - Keyword: remake, sports, 2D, content open, multiplayer split-screen, racing
-- Code repository: https://github.com/juzzlin/DustRacing2D.git
+- Code repository: https://github.com/juzzlin/DustRacing2D.git (@created 2015, @stars 195, @forks 52)
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependency: OpenGL, Qt
+- Developer: Jussi Lind, Wuzzy, Pino Toscano
 
 Tile-based
 

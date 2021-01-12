@@ -4,10 +4,11 @@
 - Inspiration: BOOM
 - State: mature
 - Keyword: action, remake, content swappable
-- Code repository: https://github.com/silverweed/lifish.git
+- Code repository: https://github.com/silverweed/lifish.git (@created 2015, @stars 20, @forks 3)
 - Code language: C++
 - Code license: Custom (non commercial)
 - Code dependency: SFML
+- Developer: Silverweed
 
 ## Building
 

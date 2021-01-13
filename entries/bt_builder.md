@@ -1,7 +1,7 @@
 # Bt Builder
 
 - Home: http://identicalsoftware.com/btbuilder/
-- Inspiration: Bard's Tale Contruction Set
+- Inspiration: The Bard's Tale Construction Set
 - State: beta
 - Keyword: remake, tool
 - Code repository: https://github.com/dulsi/btbuilder.git (@created 2012, @stars 26, @forks 4)

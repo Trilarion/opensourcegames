@@ -53,6 +53,7 @@ Listing:
 # TODO tooltip of supported systems
 # TODO improve or send feedback?
 # TODO link dependencies
+# TODO top 50 list from Github via their stars with download links (add to entries)
 
 import os
 import shutil

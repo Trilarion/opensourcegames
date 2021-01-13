@@ -2,12 +2,11 @@
 Maintenance of inspirations.md and synchronization with the inspirations in the entries.
 """
 
-# TODO wikipedia search and match
-# TODO mark those that are contained in the database
 # TODO search fandom
+# TODO which inspirations have wikipedia entries with open source games category by aren't included
 
 import time
-from utils import osg, osg_ui, osg_wikipedia
+from utils import osg, osg_ui, osg_wikipedia, constants as c
 
 valid_duplicates = ('Age of Empires', 'ARMA', 'Catacomb', 'Civilization', 'Company of Heroes', 'Descent', 'Duke Nukem', 'Dungeon Keeper',
                     'Final Fantasy', 'Heroes of Might and Magic', 'Jazz Jackrabbit', 'Marathon', 'Master of Orion', 'Quake',
@@ -80,30 +79,59 @@ class InspirationMaintainer:
             print('inspirations not yet loaded')
             return
         for inspiration in self.inspirations.values():
+            if 'Included' in inspiration:
+                continue
             if 'Media' in inspiration and any(('https://en.wikipedia.org/wiki/' in x for x in inspiration['Media'])):
                 continue
             name = inspiration['Name']
             # search in wikipedia
             results = osg_wikipedia.search(inspiration['Name'])
+
             # throw out all (disambiguation) pages
             results = [r for r in results if not any(x in r for x in ('disambiguation', 'film'))]
 
-            # the simple ones
-            results = [r for r in results if 'video game' in r]
-            if len(results) == 1 and 'series' not in name:
-                pages = osg_wikipedia.pages(results)
-                page = pages[0]
-                url = page.url
-                # add url to Media field
+            # throw out those too dissimilar
+            results = [r for r in results if osg.name_similarity(str.casefold(inspiration['Name']), str.casefold(r)) > 0.6]
+
+            # get pages for the remaining
+            pages = osg_wikipedia.pages(results)
+
+            # throw out those that are no video games
+            pages = [page for page in pages if any('video games' in category for category in page.categories)]
+
+            # sort by similarity to title and only keep highest
+            pages.sort(key=lambda page: osg.name_similarity(str.casefold(name), str.casefold(page.title)))
+            pages = pages[:min(1, len(pages))]
+
+            # if there is still one left, use it
+            if pages:
+                url = pages[0].url
                 inspiration['Media'] = inspiration.get('Media', []) + [url]
-                print('{}: {}'.format(name, url))
+                print('{} : {}'.format(name, url))
 
-
-
-            # check for name similarity
-            # results = [r for r in results if any(x in r for x in ('video game', 'series')) or osg.name_similarity(str.casefold(inspiration['Name']), str.casefold(r)) > 0.8]
-            # results = [r for r in results if any(x in r for x in ('video game', 'series'))]
-            # print('{}: {}'.format(inspiration['Name'], results))
+    def update_included_entries(self):
+        if not self.inspirations:
+            print('inspirations not yet loaded')
+            return
+        if not self.entries:
+            print('entries not yet loaded')
+            return
+        # get all entry names
+        entry_names = [entry['Title'] for entry in self.entries]
+        # loop over all inspirations
+        for inspiration in self.inspirations.values():
+            name = inspiration['Name']
+            included = name in entry_names and name not in inspiration['Inspired entries']
+            if included:
+                if 'Included' not in inspiration:
+                    print('{} is included but was not marked as such'.format(name))
+                for field in c.optional_inspiration_fields:
+                    if field in inspiration:
+                        del inspiration[field]
+                inspiration['Included'] = 'Yes'
+            elif 'Included' in inspiration:
+                print('{} was marked as included but is not anymore'.format(name))
+                del inspiration['Included']
 
     def update_inspired_entries(self):
         if not self.inspirations:
@@ -142,6 +170,7 @@ if __name__ == "__main__":
         'Check for orphans': m.check_for_orphans,
         'Check for inspirations not listed': m.check_for_missing_inspirations_in_entries,
         'Check for wikipedia links': m.check_for_wikipedia_links,
+        'Update included entries': m.update_included_entries,
         'Update inspirations from entries': m.update_inspired_entries,
         'Read entries': m.read_entries
     }

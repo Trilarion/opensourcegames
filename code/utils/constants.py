@@ -205,6 +205,6 @@ url_developer_fields = ('Home',)
 
 # inspiration/original game information (in the file all fields will be capitalized)
 essential_inspiration_fields = ('Name', 'Inspired entries')
-optional_inspiration_fields = ('Media',)
+optional_inspiration_fields = ('Media','Included')
 valid_inspiration_fields = essential_inspiration_fields + optional_inspiration_fields
 url_inspiration_fields = ('Media',)

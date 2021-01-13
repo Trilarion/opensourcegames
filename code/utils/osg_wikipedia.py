@@ -20,6 +20,9 @@ def search(search_term, results=3):
 def pages(titles):
     pages = []
     for title in titles:
-        page = wikipedia.page(title, auto_suggest=False)
+        try:
+            page = wikipedia.page(title, auto_suggest=False)
+        except wikipedia.exceptions.DisambiguationError:
+            continue # here we silently eat the exception
         pages.append(page)
     return pages

@@ -7,7 +7,7 @@ Sorts the entries in the contents files of each sub folder alphabetically.
 """
 
 # TODO check for within an entry for similar dev names
-# TODO wikipedia (media search)
+# TODO wikipedia (media search) for popular ones at least
 # TODO google search (for homepages or media entries) for popular ones at least
 
 import os

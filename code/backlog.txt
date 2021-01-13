@@ -23,6 +23,8 @@ https://github.com/septag/rizz
 https://github.com/EvilPudding/candle
 https://github.com/TorqueGameEngines/Torque3D
 https://github.com/polymonster/pmtech
+https://en.wikipedia.org/wiki/Black_Shades (open source)
+https://en.wikipedia.org/wiki/Category:Open-source_video_games (all of them)
 http://icculus.org/
 http://icculus.org/asciiroth/
 http://icculus.org/avp/

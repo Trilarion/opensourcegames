@@ -1,7 +1,7 @@
 # Cannonball
 
 - Home: https://github.com/djyt/cannonball/wiki, http://reassembler.blogspot.com/
-- Inspiration: Outrun
+- Inspiration: Out Run
 - State: beta
 - Download: https://github.com/djyt/cannonball/wiki#downloads
 - Keyword: action, remake, content commercial

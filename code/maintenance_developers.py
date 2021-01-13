@@ -7,6 +7,7 @@ stored Git repositories.
 # TODO split devs with multiple gh or sf accounts (unlikely), start with most (like name Adam) - naming convention @01 etc.
 # TODO check for devs without contact after gitlab/bitbucket/..
 # TODO gitlab/bitbucket import
+# TODO wikipedia search for all with more than 3 games
 
 import time
 from utils import osg, osg_ui

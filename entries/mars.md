@@ -9,7 +9,7 @@
 - Code license: GPL-3.0
 - Code dependency: OpenGL, SFML
 - Assets license: CC-BY 3.0, CC-BY-SA-3.0, PD
-- Developer: Simon Schneegans, Felix Lauer, Mars-Core-Team, Sciuorus, Hans de Goede
+- Developer: Felix Lauer, Hans de Goede, Mars-Core-Team, Sciuorus, Simon Schneegans
 
 A ridiculous shooter. In one of several game modes, two opposing teams are fighting in a gravitational 2D space with a few planets, including their homes.
 

@@ -7,6 +7,6 @@
 - Code repository: https://gitlab.com/osgames/freya-engine.git (conversion of cvs), http://freya-engine.cvs.sourceforge.net (cvs)
 - Code language: Java
 - Code license: LGPL-2.1
-- Developer: Sasha Bilton, Bruce Ordway, Mauricio M. de Almeida, Eric T. Benoit, Jeannette Bilton, Martin Klang, Naganand, pigeonflight, Alexander Sapountzis
+- Developer: Alexander Sapountzis, Bruce Ordway, Eric T. Benoit, Jeannette Bilton, Martin Klang, Mauricio M. de Almeida, Naganand, pigeonflight, Sasha Bilton
 
 ## Building

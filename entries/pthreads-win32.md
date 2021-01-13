@@ -7,7 +7,7 @@
 - Code repository: https://github.com/GerHobbelt/pthread-win32.git (for cvs see home, @created 2011, @stars 155, @forks 99)
 - Code language: C
 - Code license: LGPL-2.1
-- Developer: rocso, Ger Hobbelt
+- Developer: Ger Hobbelt, rocso
 
 Implements a large subset of the POSIX standard threads related API.
 

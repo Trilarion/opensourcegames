@@ -8,7 +8,7 @@
 - Code license: GPL-3.0
 - Code dependency: Allegro
 - Assets license: GPL-3.0
-- Developer: Linley Henzell, linleyh, suve, Kyle Finlay, Code., Brandon McCaig, Simon Puchert
+- Developer: Brandon McCaig, Code., Kyle Finlay, Linley Henzell, linleyh, Simon Puchert, suve
 
 About escaping from a hostile computer system, by designing and building units sufficient to the task.
 

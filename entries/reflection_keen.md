@@ -7,6 +7,6 @@
 - Code repository: https://github.com/NY00123/refkeen.git (@created 2014, @stars 70, @forks 6)
 - Code language: C, Lua
 - Code license: GPL-2.0
-- Developer: NY00123, Braden Obrzut, keendreams
+- Developer: Braden Obrzut, keendreams, NY00123
 
 ## Building

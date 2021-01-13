@@ -8,7 +8,7 @@
 - Code language: C
 - Code license: GPL-2.0, Custom
 - Code dependency: SDL
-- Developer: Fabien, darealshinji, Rohit Nirmal
+- Developer: darealshinji, Fabien, Rohit Nirmal
 
 Remake of Duke Nukem 3D.
 TODO: License conflicts, see https://github.com/fabiensanglard/chocolate_duke3D/issues/48

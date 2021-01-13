@@ -7,7 +7,7 @@
 - Code repository: https://github.com/vayerx/shadowgrounds.git (@created 2011, @stars 46, @forks 16)
 - Code language: C++
 - Code license: Custom (NC https://github.com/vayerx/shadowgrounds/blob/linux/LICENSE.txt)
-- Developer: Vasiliy Yeremeyev, Alexander Richardson, Radegast
+- Developer: Alexander Richardson, Radegast, Vasiliy Yeremeyev
 
 Content license?
 

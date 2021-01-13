@@ -10,6 +10,6 @@
 - Code language: C++, C
 - Code license: 2-clause BSD
 - Code dependency: WebGL
-- Developer: Timur Gagiev, Gh0stBlade, Manuel Alfayate Corchete, Torsten Kammer, vanfanel2, vaguerant, SaracenOne, Pablo Maiolo
+- Developer: Gh0stBlade, Manuel Alfayate Corchete, Pablo Maiolo, SaracenOne, Timur Gagiev, Torsten Kammer, vaguerant, vanfanel2
 
 ## Building

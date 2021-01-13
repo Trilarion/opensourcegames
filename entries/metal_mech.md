@@ -8,6 +8,6 @@
 - Code repository: https://gitlab.com/osgames/metalmech.git (backup of cvs), http://metalmech.cvs.sourceforge.net/ (cvs)
 - Code language: PHP
 - Code license: GPL-2.0
-- Developer: Dzmitry Haiduchonak, Fokker, Gedece, Robert Ryll, s600, Maravilla Gil Salvador
+- Developer: Dzmitry Haiduchonak, Fokker, Gedece, Maravilla Gil Salvador, Robert Ryll, s600
 
 ## Building

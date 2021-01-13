@@ -7,7 +7,7 @@
 - Code repository: https://gitlab.com/osgames/openrpgmaker.git (snapshot of source releases)
 - Code language: C++
 - Code license: GPL-3.0
-- Developer: "Justin (Tuxinator) Davis", Tobin Davis, Ithior
+- Developer: Ithior, "Justin (Tuxinator) Davis", Tobin Davis
 
 2D RPG creation utility, similar to the popular RPG Maker series.
 

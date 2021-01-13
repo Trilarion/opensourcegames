@@ -9,7 +9,7 @@
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependency: OGRE
-- Developer: Paul, Jérôme Arzel, Chris Rizzitello, Tobias Peters, Elias Hogstvedt, Bryce Groff
+- Developer: Bryce Groff, Chris Rizzitello, Elias Hogstvedt, Jérôme Arzel, Paul, Tobias Peters
 
 ## Building
 

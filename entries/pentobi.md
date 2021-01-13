@@ -10,7 +10,7 @@
 - Code license: GPL-3.0
 - Code dependency: Qt
 - Assets license: ? (GPL)
-- Developer: Markus Enzenberger, Allan Nordhøy, "Weblate (bot)", Juhani Numminen
+- Developer: Allan Nordhøy, Juhani Numminen, Markus Enzenberger, "Weblate (bot)"
 
 Blokus‐playing program. Blokus is an abstract tile-placement board game with tiles shaped like polyominoes and simple rules.
 In addition to the classic version of Blokus, Pentobi also supports a number of game variants and similar games: Blokus Duo, Blokus Trigon, Blokus Junior, Nexos, GembloQ and Callisto.

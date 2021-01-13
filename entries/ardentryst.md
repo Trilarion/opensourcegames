@@ -8,7 +8,7 @@
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependency: pygame
-- Developer: Nathan Mills, Henry Hirsch, Elle, Miguel de Dios Matias
+- Developer: Elle, Henry Hirsch, Miguel de Dios Matias, Nathan Mills
 
 Focused not just on fighting, but on story and character development.
 

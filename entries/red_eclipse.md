@@ -7,7 +7,7 @@
 - Code repository: https://github.com/red-eclipse/base.git (@created 2019, @stars 2, @forks 0)
 - Code language: C++
 - Code license: zlib
-- Developer: Lee Salzman, Quinton Reeves, Henrik Pihl, Jeroen Boukens, Martin Erik Werner, Hugo Locurcio, favorito, Dale Weiler, Hirato Kirata, W!CK3D, lucky strike, Mike L., Fleeky Flanco, quaker66, baby-rabbit, Robert Forder, L. H. Lubomír, stefan, John, Georges Grondin, ulukai, Joshua Blocher, jojo, Alex Foster, Beha, bonifarz, shirepirate, TheAssassin, Maxim Therrien, zaquest, freezurbern, Iceflower, Robert Alm Nilsson, Sławomir Błauciak, Delph, Edoardo Spadolini, Pocak, Alex George, swooboo
+- Developer: Alex Foster, Alex George, baby-rabbit, Beha, bonifarz, Dale Weiler, Delph, Edoardo Spadolini, favorito, Fleeky Flanco, freezurbern, Georges Grondin, Henrik Pihl, Hirato Kirata, Hugo Locurcio, Iceflower, Jeroen Boukens, John, jojo, Joshua Blocher, L. H. Lubomír, Lee Salzman, lucky strike, Martin Erik Werner, Maxim Therrien, Mike L., Pocak, quaker66, Quinton Reeves, Robert Alm Nilsson, Robert Forder, shirepirate, stefan, swooboo, Sławomir Błauciak, TheAssassin, ulukai, W!CK3D, zaquest
 
 First person arena shooter, featuring parkour, impulse boosts, and more.
 

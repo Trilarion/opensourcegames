@@ -8,7 +8,7 @@
 - Code license: Public domain
 - Code dependency: pygame
 - Assets license: Public domain
-- Developer: Joel Bouchard Lamontagne (code), Isabelle Bouchard (artwork), Reduz (music), Hubert Lamontagne (sound), Coda (sound)
+- Developer: Coda (sound), Hubert Lamontagne (sound), Isabelle Bouchard (artwork), Joel Bouchard Lamontagne (code), Reduz (music)
 
 aka Upsilon Cat
 

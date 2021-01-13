@@ -9,7 +9,7 @@
 - Code repository: https://github.com/widelands/widelands.git (mirror, @created 2019, @stars 271, @forks 63), https://launchpad.net/widelands (bzr)
 - Code language: C, C++, Lua, Python
 - Code license: GPL-2.0
-- Developer: gunchleoc, Holger Rapp, Benedikt Straub, hessenfarmer, Toni Förster, Notabilis, kaputtnik, TinoM, Joachim Breitner, Nicolai Hähnle, Matthias Horne, esigra, Niektory, András Eisenberger, Mark Scott, MiroslavR, Gabriel Margiani, Borim7, matthiakl, Lucki, Jonas Mörschbach, flegmaatikko, Raul Ferriz, Ferdinand Thiessen, Simon Eilting, maucher, ab-tools, pospec4444, Martin, Peter Waller, tppq, tibor95, Ryan Schmidt
+- Developer: ab-tools, András Eisenberger, Benedikt Straub, Borim7, esigra, Ferdinand Thiessen, flegmaatikko, Gabriel Margiani, gunchleoc, hessenfarmer, Holger Rapp, Joachim Breitner, Jonas Mörschbach, kaputtnik, Lucki, Mark Scott, Martin, matthiakl, Matthias Horne, maucher, MiroslavR, Nicolai Hähnle, Niektory, Notabilis, Peter Waller, pospec4444, Raul Ferriz, Ryan Schmidt, Simon Eilting, tibor95, TinoM, Toni Förster, tppq
 
 Singleplayer campaigns and a multiplayer mode.
 

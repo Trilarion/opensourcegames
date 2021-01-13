@@ -10,7 +10,7 @@
 - Code language: C, C++
 - Code license: GPL-3.0
 - Assets license: CC-BY-SA
-- Developer: Mark Vejvoda, titi(ger), Tom Reynolds, BogoMips, m0elle, nosogo, Paul Wise, titiger, filux, titi_son, Karl Goetz, William Edwards, Andy Alt, James Sherratt
+- Developer: Andy Alt, BogoMips, filux, James Sherratt, Karl Goetz, m0elle, Mark Vejvoda, nosogo, Paul Wise, titi(ger), titi_son, titiger, Tom Reynolds, William Edwards
 
 Fork of [Glest](glest.md)
 

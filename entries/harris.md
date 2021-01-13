@@ -7,7 +7,7 @@
 - Code language: C, Python
 - Code license: GPL-3.0
 - Code dependency: FreeType, libpng, libtiff, Matplotlib, NumPy, SDL, zlib
-- Developer: Sound and Fury, Dmitry Marakasov
+- Developer: Dmitry Marakasov, Sound and Fury
 
 Based around the actions of RAF Bomber Command in the Second World War.
 

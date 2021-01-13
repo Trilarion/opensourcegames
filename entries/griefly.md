@@ -8,7 +8,7 @@
 - Code language: C++, Go, Python
 - Code license: MIT
 - Assets license: CC-BY-NC-SA (see https://github.com/griefly/griefly/blob/master/LICENSE_ASSETS.md)
-- Developer: Alexander, shelltitan, mechmind, crazzymad777, NinjaDanz3r, Valerii Malov, fluorescent-net, Markus Yusuf
+- Developer: Alexander, crazzymad777, fluorescent-net, Markus Yusuf, mechmind, NinjaDanz3r, shelltitan, Valerii Malov
 
 ## Building
 

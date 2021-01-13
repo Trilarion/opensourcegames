@@ -11,7 +11,7 @@
 - Code license: GPL-3.0
 - Code dependency: OpenGL, SDL
 - Assets license: ? (GPL)
-- Developer: Jimmy Christensen, Anders Birkedam, Quinton Reeves, Jimmy
+- Developer: Anders Birkedam, Jimmy, Jimmy Christensen, Quinton Reeves
 
 ## Building
 

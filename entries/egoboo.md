@@ -8,7 +8,7 @@
 - Code repository: https://github.com/egoboo/egoboo.git (@created 2014, @stars 77, @forks 17), https://svn.code.sf.net/p/egoboo/svn (svn)
 - Code language: C++, C
 - Code license: GPL-3.0
-- Developer: Michael Heilmann, JohanJansen, penguinflyer5234
+- Developer: JohanJansen, Michael Heilmann, penguinflyer5234
 
 ## Building
 

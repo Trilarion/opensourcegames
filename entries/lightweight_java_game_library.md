@@ -8,7 +8,7 @@
 - Code repository: https://github.com/LWJGL/lwjgl3.git (@created 2012, @stars 3024, @forks 458)
 - Code language: Kotlin, C, Java
 - Code license: 3-clause BSD
-- Developer: Ioannis Tsakpinis, Kai Burjack, Leon Linhart, Brian Matzon, Heiko Brumme
+- Developer: Brian Matzon, Heiko Brumme, Ioannis Tsakpinis, Kai Burjack, Leon Linhart
 
 ## Building
 

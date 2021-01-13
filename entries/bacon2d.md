@@ -7,7 +7,7 @@
 - Code language: C++
 - Code license: MIT
 - Code dependency: Qt
-- Developer: Roger Zanoni, Ken VanDine, Rodrigo Oliveira, Tomaz Noleto, Ragner Magalhaes, Paulo Pinheiro
+- Developer: Ken VanDine, Paulo Pinheiro, Ragner Magalhaes, Rodrigo Oliveira, Roger Zanoni, Tomaz Noleto
 
 2D Game Engine for QML.
 

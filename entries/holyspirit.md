@@ -8,7 +8,7 @@
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: SFML
-- Developer: Gregouar, akuma , Naisse Corentin, Igor, killpatate, LowGeek, Martin Bussy-Pâris, Merwin, vymdiesel david
+- Developer: akuma, Gregouar, Igor, killpatate, LowGeek, Martin Bussy-Pâris, Merwin, Naisse Corentin, vymdiesel david
 
 2D isometric hack'n'slash game.
 

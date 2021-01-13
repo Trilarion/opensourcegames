@@ -10,7 +10,7 @@
 - Code license: GPL-2.0 (LGPL?)
 - Code dependency: SDL
 - Assets license: ? (GPL-2.0)
-- Developer: David Olofson, Akira Higuchi, Erik Auerswald, Jeremy Sheeley, Simon Peter, Florian Schulze, Masanao Izumo
+- Developer: Akira Higuchi, David Olofson, Erik Auerswald, Florian Schulze, Jeremy Sheeley, Masanao Izumo, Simon Peter
 
 Based on XKobo by Akira Higuchi
 

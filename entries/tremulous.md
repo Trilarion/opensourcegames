@@ -12,6 +12,6 @@
 - Code license: GPL-2.0
 - Code dependency: SDL
 - Assets license: CC-BY-SA-2.5
-- Developer: Tim Angus, DASPRiD, Nick Jansens, Robin Marshall, Jan, Michael McInerney, Soup, Zack Middleton, Thilo Schulz, M. Kristall, James Canete, Tony White, norfenstein, Jack Slater, Pan7, Simon McVittie, Ensiform, Jeremiah Sypult, hairball, Anthony Pesch, Richard Allen, cmf028
+- Developer: Anthony Pesch, cmf028, DASPRiD, Ensiform, hairball, Jack Slater, James Canete, Jan, Jeremiah Sypult, M. Kristall, Michael McInerney, Nick Jansens, norfenstein, Pan7, Richard Allen, Robin Marshall, Simon McVittie, Soup, Thilo Schulz, Tim Angus, Tony White, Zack Middleton
 
 ## Building

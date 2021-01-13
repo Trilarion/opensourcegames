@@ -9,7 +9,7 @@
 - Code repository: https://github.com/skyostil/fretsonfire.git (@created 2014, @stars 22, @forks 8), https://svn.code.sf.net/p/fretsonfire/code (svn old)
 - Code language: Python
 - Code license: GPL-2.0
-- Developer: Joonas Kerttula, Sami Kyöstilä, Alex Samonte
+- Developer: Alex Samonte, Joonas Kerttula, Sami Kyöstilä
 
 Songs at http://fretsonfire.wikidot.com/start
 

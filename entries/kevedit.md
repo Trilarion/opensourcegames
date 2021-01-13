@@ -9,7 +9,7 @@
 - Code language: C
 - Code license: GPL-2.0
 - Code dependency: SDL2
-- Developer: cknave, Adrian Siekierka, Chris Mounce
+- Developer: Adrian Siekierka, Chris Mounce, cknave
 
 Advanced world editor of ZZT.
 

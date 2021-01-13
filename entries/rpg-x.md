@@ -9,7 +9,7 @@
 - Code repository: https://github.com/UberGames/rpgxEF.git (@created 2011, @stars 11, @forks 8)
 - Code language: C
 - Code license: GPL-2.0
-- Developer: Walter Julius Hennecke, harryyoung
+- Developer: harryyoung, Walter Julius Hennecke
 
 ## Building
 

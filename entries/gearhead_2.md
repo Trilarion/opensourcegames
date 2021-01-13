@@ -9,7 +9,7 @@
 - Code language: Pascal
 - Code license: LGPL-2.0
 - Assets license: ? (LGPL)
-- Developer: Joseph Hewitt, jwvhewitt, Francisco Muñoz
+- Developer: Francisco Muñoz, Joseph Hewitt, jwvhewitt
 
 Futuristic roguelike, sequel to GearHead.
 

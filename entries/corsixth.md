@@ -9,7 +9,7 @@
 - Code language: Lua, C++
 - Code license: MIT
 - Code dependency: SDL2
-- Developer: Stephen E. Baker, Alberth289346, Edvin, lewri, Grimdoc, mugmuggy, Chrystalyst, Jørgen P. Tjernø, Toby, Miika-Petteri Matikainen, Chris James, Ryan, MarkL, William Gatens, Erlend Mongstad, Pavel Schoffer, Jaco, Alan Woolley, wolfy1339, YoungSeok Yoon, Anton Shestakov, phillipp, benckx, bobcanthelpyou, Víctor "IlDucci", DavidFair, Zbyněk Schwarz, altiereslima, Artem Polishchuk, Antoine Lemaire, emorrp1, Alexander Bessman, Josh Keegan, Mounir Lamouri, James Russell, yangfl, Peter Waller
+- Developer: Alan Woolley, Alberth289346, Alexander Bessman, altiereslima, Antoine Lemaire, Anton Shestakov, Artem Polishchuk, benckx, bobcanthelpyou, Chris James, Chrystalyst, DavidFair, Edvin, emorrp1, Erlend Mongstad, Grimdoc, Jaco, James Russell, Josh Keegan, Jørgen P. Tjernø, lewri, MarkL, Miika-Petteri Matikainen, Mounir Lamouri, mugmuggy, Pavel Schoffer, Peter Waller, phillipp, Ryan, Stephen E. Baker, Toby, Víctor "IlDucci", William Gatens, wolfy1339, yangfl, YoungSeok Yoon, Zbyněk Schwarz
 
 ## Building
 

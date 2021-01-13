@@ -9,7 +9,7 @@
 - Code repository: https://github.com/freeciv/freeciv-web.git (@created 2013, @stars 1363, @forks 251)
 - Code language: JavaScript, Java, Python
 - Code license: AGPL-3.0
-- Developer: Andreas Røsdal, Sveinung Kvilhaugsvik, Máximo Castañeda, Marko Lindqvist, Gerik Bonaert, mchenryc, Louis Moureaux, chris1869, Jacob Rask, Tom von Schwerdtner, cpetry
+- Developer: Andreas Røsdal, chris1869, cpetry, Gerik Bonaert, Jacob Rask, Louis Moureaux, Marko Lindqvist, mchenryc, Máximo Castañeda, Sveinung Kvilhaugsvik, Tom von Schwerdtner
 
 Version of Freeciv playable online in any modern web browser.
 Modifies [Freeciv](freeciv.md) slightly and uses it as server.

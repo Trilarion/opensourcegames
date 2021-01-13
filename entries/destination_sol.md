@@ -9,7 +9,7 @@
 - Code language: Java
 - Code license: Apache-2.0
 - Assets license: CC-NC (soundtrack)
-- Developer: Rasmus Praestholm, Milosh Petrov, vampcat, Jindřich Dítě, Nicholas Bates, oniatus, BenjaminAmos, Simon Crutchley, TheGhostInTheMachine, IsaacLic, Mpcs, Ronald Blake, Malanius Privierre, Avalancs, AndyTechGuy, Rulasmur, Nika Burimenko, Zachary Pendarvis, Linus van Elswijk, Arpit Kamboj, Rostyslav Zatserkovnyi, Zweihander 101, Adam, Tobias, Todd Chavez, PrivateAlpha, Dejan Petrović, Sigma-One
+- Developer: Adam, AndyTechGuy, Arpit Kamboj, Avalancs, BenjaminAmos, Dejan Petrović, IsaacLic, Jindřich Dítě, Linus van Elswijk, Malanius Privierre, Milosh Petrov, Mpcs, Nicholas Bates, Nika Burimenko, oniatus, PrivateAlpha, Rasmus Praestholm, Ronald Blake, Rostyslav Zatserkovnyi, Rulasmur, Sigma-One, Simon Crutchley, TheGhostInTheMachine, Tobias, Todd Chavez, vampcat, Zachary Pendarvis, Zweihander 101
 
 Hardcore arcade shooter.
 

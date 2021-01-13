@@ -10,7 +10,7 @@
 - Code language: Java
 - Code license: GPL-2.0
 - Assets license: CC-BY-SA-3.0 (music, levels under GPL-2.0)
-- Developer: Andy Balaam, colonelfazackerley, tttppp, CodeSmith00
+- Developer: Andy Balaam, CodeSmith00, colonelfazackerley, tttppp
 
 Game of rescuing rabbits.
 

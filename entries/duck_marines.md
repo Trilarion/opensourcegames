@@ -10,6 +10,6 @@
 - Code language: Lua
 - Code license: zlib
 - Assets license: CC-BY-SA (before relicensing?), CC-BY-NC-ND-4.0 (after relicensing)
-- Developer: Simon Larsen, Jordan Christiansen
+- Developer: Jordan Christiansen, Simon Larsen
 
 ## Building

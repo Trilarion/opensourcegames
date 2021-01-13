@@ -7,7 +7,7 @@
 - Code repository: https://github.com/grit-engine/grit-engine.git (@created 2016, @stars 93, @forks 21)
 - Code language: C++, Python
 - Code license: MIT
-- Developer: Dave Cunningham, Augusto P. Moura, Alexey Shmakov, Bas Timmer, lavrod
+- Developer: Alexey Shmakov, Augusto P. Moura, Bas Timmer, Dave Cunningham, lavrod
 
 Tool of Grand Theft Auto: San Andreas.
 Contains asset extraction tools for GTA:SA https://github.com/grit-engine/grit-engine/tree/master/gtasa

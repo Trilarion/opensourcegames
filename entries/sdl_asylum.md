@@ -12,7 +12,7 @@
 - Code license: GPL-3.0
 - Code dependency: OpenGL, SDL
 - Assets license: Public domain
-- Developer: Andy Southgate, Hugh Robinson, blotwell
+- Developer: Andy Southgate, blotwell, Hugh Robinson
 
 C port of Asylum.
 [Successor of Asylum](http://asylum.acornarcade.com/) from 1994.

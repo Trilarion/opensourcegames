@@ -9,7 +9,7 @@
 - Code repository: https://gitlab.axiodl.com/AxioDL/urde.git, https://github.com/AxioDL/urde.git (@created 2015, @stars 234, @forks 19)
 - Code language: C, C++
 - Code license: MIT
-- Developer: Jack Andersen, Phillip Stephens, LC, Luke Street
+- Developer: Jack Andersen, LC, Luke Street, Phillip Stephens
 
 ## Building
 

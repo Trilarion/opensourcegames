@@ -11,6 +11,6 @@
 - Code language: JavaScript
 - Code license: Apache-2.0, CC0
 - Code dependency: Phaser, rot.js
-- Developer: Kosina Zoltán, Cong
+- Developer: Cong, Kosina Zoltán
 
 ## Building

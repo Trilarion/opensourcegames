@@ -7,6 +7,6 @@
 - Code language: Lua
 - Code license: GPL-3.0
 - Code dependency: Mana source engine
-- Developer: Jessica Beller, Przemysław Grzywacz, jurkan, Stefan Beller, Thorbjørn Lindeijer
+- Developer: Jessica Beller, jurkan, Przemysław Grzywacz, Stefan Beller, Thorbjørn Lindeijer
 
 ## Building

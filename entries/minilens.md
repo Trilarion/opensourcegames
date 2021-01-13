@@ -11,7 +11,7 @@
 - Code license: GPL-3.0
 - Code dependency: Godot
 - Assets license: GPL-3.0
-- Developer: Bojidar Marinov, Alket Rexhepi, Johannes Danneker, Rémi Verschelde, Obani Gemini, Dana Olson, Sebastian Holc
+- Developer: Alket Rexhepi, Bojidar Marinov, Dana Olson, Johannes Danneker, Obani Gemini, Rémi Verschelde, Sebastian Holc
 
 Puzzle game where you dispose of waste and collect flowers. You can also place bombs to destroy blocks.
 

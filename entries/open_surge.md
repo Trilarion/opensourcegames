@@ -9,7 +9,7 @@
 - Code language: C
 - Code license: GPL-3.0 (was GPL-2.0)
 - Code dependency: Allegro
-- Developer: Alexandre Martins, Arthur Blot, Christopher Martinus, Christian Zigotzky, Francesco, Reimund Renner, Szymon Weihs, Tomires, SecularSteve, Halatnikov, Stylix58
+- Developer: Alexandre Martins, Arthur Blot, Christian Zigotzky, Christopher Martinus, Francesco, Halatnikov, Reimund Renner, SecularSteve, Stylix58, Szymon Weihs, Tomires
 
 Renamed from Open Sonic to Open Surge in 2011.
 

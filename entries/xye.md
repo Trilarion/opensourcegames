@@ -10,7 +10,7 @@
 - Code license: zlib
 - Code dependency: SDL
 - Assets license: Custom free license
-- Developer: Victor Hugo Soliz Kuncar, Vexorian
+- Developer: Vexorian, Victor Hugo Soliz Kuncar
 
 ## Building
 

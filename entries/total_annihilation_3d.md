@@ -9,7 +9,7 @@
 - Code repository: https://github.com/zuzuf/TA3D.git (@created 2017, @stars 29, @forks 6)
 - Code language: C++, C, Lua
 - Code license: GPL-2.0
-- Developer: zuzuf, Damien GERARD
+- Developer: Damien GERARD, zuzuf
 
 ## Building
 

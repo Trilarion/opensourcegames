@@ -8,6 +8,6 @@
 - Code repository: http://mochadoom.cvs.sourceforge.net (cvs)
 - Code language: Java
 - Code license: ?
-- Developer: Velktron, Finn Wilcox, Jodwin
+- Developer: Finn Wilcox, Jodwin, Velktron
 
 ## Building

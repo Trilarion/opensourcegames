@@ -9,7 +9,7 @@
 - Code repository: https://gitlab.com/osgames/xblast.git (conversion of cvs), http://xblast.cvs.sourceforge.net (cvs)
 - Code language: C
 - Code license: GPL-2.0
-- Developer: XBlast development team, Oliver Vogel, Gerfried Fuchs, ALu, Stefan Stiasny, Frank Zago, Fernando Benites, larsl, Kruno Sever, rado, Ricardo Cruz, tenderflake
+- Developer: ALu, Fernando Benites, Frank Zago, Gerfried Fuchs, Kruno Sever, larsl, Oliver Vogel, rado, Ricardo Cruz, Stefan Stiasny, tenderflake, XBlast development team
 
 ## Building
 

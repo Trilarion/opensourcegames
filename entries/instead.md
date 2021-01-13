@@ -9,7 +9,7 @@
 - Code language: C, Lua
 - Code license: MIT
 - Code dependency: SDL
-- Developer: Peter Kosyh, Alexander Yakovlev, Dmitry Marakasov, Mehdi Sadeghi, Michael Steele, Jorge Gómez Sanz, Sam Protsenko, wimh
+- Developer: Alexander Yakovlev, Dmitry Marakasov, Jorge Gómez Sanz, Mehdi Sadeghi, Michael Steele, Peter Kosyh, Sam Protsenko, wimh
 
 Engine for textographic games, which are a mix of interactive fiction, visual novels and classic point & click adventures.
 

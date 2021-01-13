@@ -8,7 +8,7 @@
 - Code repository: https://svn.code.sf.net/p/therush/code (svn)
 - Code language: C++
 - Code license: GPL-2.0
-- Developer: Cedric Guillemet, Adrien Destugues, MCMic
+- Developer: Adrien Destugues, Cedric Guillemet, MCMic
 
 ## Building
 

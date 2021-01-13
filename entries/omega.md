@@ -8,7 +8,7 @@
 - Code language: JavaScript, Ruby
 - Code license: AGPL-3.0
 - Assets license: CC BY-SA, Public domain, GPL
-- Developer: Mohammed Morsi, Nicolas Satragno, Mo Morsi, Nina Satragno
+- Developer: Mo Morsi, Mohammed Morsi, Nicolas Satragno, Nina Satragno
 
 Universe Simulator.
 

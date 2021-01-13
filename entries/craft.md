@@ -9,7 +9,7 @@
 - Code language: C, Python
 - Code license: MIT
 - Code dependency: OpenGL
-- Developer: Michael Fogleman, Brian Mathews, Dylan Knutson
+- Developer: Brian Mathews, Dylan Knutson, Michael Fogleman
 
 ## Building
 

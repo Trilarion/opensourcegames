@@ -9,7 +9,7 @@
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependency: OpenAL, SDL2
-- Developer: Mark Sowden, DummkopfOfHachtenduden, Daniel Collins, Bonerlord, Stefano
+- Developer: Bonerlord, Daniel Collins, DummkopfOfHachtenduden, Mark Sowden, Stefano
 
 Aims at creating content open.
 

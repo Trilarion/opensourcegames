@@ -7,7 +7,7 @@
 - Code repository: https://gitlab.com/osgames/civilwar.git (backup of cvs), http://civilwar.cvs.sourceforge.net (cvs)
 - Code language: C++
 - Code license: GPL-2.0
-- Developer: Steven Green, Jim Schultz
+- Developer: Jim Schultz, Steven Green
 
 Remake of the American Civil War game for DOS, originally developed by Dagger Interactive Technologies and Greenius, published by Empire Interactive in 1995.
 

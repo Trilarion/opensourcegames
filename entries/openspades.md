@@ -9,7 +9,7 @@
 - Code repository: https://github.com/yvt/openspades.git (@created 2013, @stars 746, @forks 171)
 - Code language: C, C++, AngelScript
 - Code license: GPL-3.0
-- Developer: yvt, Ilia, Flávio Monteiro, Marco Schlumpp, Nick Renieris, David CARLIER, Masaki Yamahata, Kent Delante, Hanju Yoo, ArionWT, teodor6140, NotAFile, Damien Flament, Chameleonhider, Dmitry Marakasov, João Rodrigues, John Ericson, Dennis Barzakovsky
+- Developer: ArionWT, Chameleonhider, Damien Flament, David CARLIER, Dennis Barzakovsky, Dmitry Marakasov, Flávio Monteiro, Hanju Yoo, Ilia, John Ericson, João Rodrigues, Kent Delante, Marco Schlumpp, Masaki Yamahata, Nick Renieris, NotAFile, teodor6140, yvt
 
 ## Building
 

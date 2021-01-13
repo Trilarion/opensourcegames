@@ -8,7 +8,7 @@
 - Code repository: https://gitlab.com/osgames/tuxracer.git (backup of cvs), http://tuxracer.cvs.sourceforge.net/ (cvs)
 - Code language: C
 - Code license: GPL-2.0
-- Developer: Jasmin Patry, James Barnard, Eric Hall, Ingo Ruhnke, Patrick Gilhuly, Vincent C.H. Ma
+- Developer: Eric Hall, Ingo Ruhnke, James Barnard, Jasmin Patry, Patrick Gilhuly, Vincent C.H. Ma
 
 Racing game featuring Tux, the Linux Penguin.
 See also https://github.com/ellenpoe/TuxRacer-SDL2, https://github.com/wosigh/tuxracer, https://sourceforge.net/projects/extremetuxracer/, http://www.tuxracer.com/, https://github.com/gonium/fc-extremetuxracer

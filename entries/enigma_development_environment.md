@@ -8,7 +8,7 @@
 - Code repository: https://github.com/enigma-dev/enigma-dev.git (@created 2012, @stars 196, @forks 80)
 - Code language: C++, C
 - Code license: GPL-3.0
-- Developer: Robert Colton, Josh Ventura, polygone, Harijs Grinbergs, forthevin, k.vanberendonck, Seth N. Hetu, Greg Williamson, time-killer-games, IsmAvatar, faissaloo, Alasdair Morrison, RemoveRusky, Heathtech, ssss, Justin Rissler, Jean-Pierre Sabbagh, Zach Reedy, Russell Johnston
+- Developer: Alasdair Morrison, faissaloo, forthevin, Greg Williamson, Harijs Grinbergs, Heathtech, IsmAvatar, Jean-Pierre Sabbagh, Josh Ventura, Justin Rissler, k.vanberendonck, polygone, RemoveRusky, Robert Colton, Russell Johnston, Seth N. Hetu, ssss, time-killer-games, Zach Reedy
 
 Game development environment.
 

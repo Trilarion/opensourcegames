@@ -9,7 +9,7 @@
 - Code language: Java
 - Code license: MIT
 - Code dependency: libGDX
-- Developer: Egor Dorichev, Matt, logotie, Nufflee, Michael Pollind, Peter Storm, Daniel Eliasinski
+- Developer: Daniel Eliasinski, Egor Dorichev, logotie, Matt, Michael Pollind, Nufflee, Peter Storm
 
 ## Building
 

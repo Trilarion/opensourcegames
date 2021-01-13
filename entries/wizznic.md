@@ -9,6 +9,6 @@
 - Code license: GPL-3.0
 - Code dependency: SDL
 - Assets license: GPL-3.0 (https://github.com/DusteDdk/Wizznic/blob/master/doc/media-licenses.txt)
-- Developer: Jimmy, Artur Rojek
+- Developer: Artur Rojek, Jimmy
 
 ## Building

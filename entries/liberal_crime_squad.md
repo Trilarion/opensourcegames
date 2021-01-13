@@ -10,7 +10,7 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: curses, SDL2
-- Developer: Chris Johnson, Jonathan Stickles Fox, Ciprian ilies, Ari Rahikkala, Niklas Blomkvist, Brett Flannigan, Callum Davies,  CoronelNiel, Craig Rickel, Christoph Franck, dreadmullet, David Tomandl, Firewolf, Alex Mooney, InfernoZeus, Future, Maciej Murakowski, Kurper, Kalle Viiri, LiteralKa, Matthew Downie, Nick Dumas, Nyx, Puzzlemaker, Allan Murray, Servant Corps, seth--, antagonist, Vherid Direhv, Adrian Irving-Beer, Rich McGrew
+- Developer: Adrian Irving-Beer, Alex Mooney, Allan Murray, antagonist, Ari Rahikkala, Brett Flannigan, Callum Davies, Chris Johnson, Christoph Franck, Ciprian ilies, CoronelNiel, Craig Rickel, David Tomandl, dreadmullet, Firewolf, Future, InfernoZeus, Jonathan Stickles Fox, Kalle Viiri, Kurper, LiteralKa, Maciej Murakowski, Matthew Downie, Nick Dumas, Niklas Blomkvist, Nyx, Puzzlemaker, Rich McGrew, Servant Corps, seth--, Vherid Direhv
 
 Satirical console-based political role-playing/strategy game.
 

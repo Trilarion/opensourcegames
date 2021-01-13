@@ -9,7 +9,7 @@
 - Code license: GPL-2.0
 - Code dependency: SDL
 - Assets license: CC-BY-SA, GPL-2.0, Sounds: Creative Commons Sampling Plus
-- Developer: Tom Beaumont, Paul Wise, Ari Mustonen, remaxim
+- Developer: Ari Mustonen, Paul Wise, remaxim, Tom Beaumont
 
 Hexagonal tiles based puzzle game.
 

@@ -9,7 +9,7 @@
 - Code repository: https://github.com/spring/spring.git (@created 2008, @stars 2049, @forks 669), https://git.code.sf.net/p/springrts/code
 - Code language: C++, C, Lua
 - Code license: GPL-2.0
-- Developer: abma, Eshed, -jK-, Tobi Vollebregt, Robin Vobruba, Betalord, Robin Westberg, Stefan Johansson, JeeZ, jcnossen, George Hilios, Karl-R., Yeha, hoijui, zerver, Eshed Shaham, Chris Han, Marek Baczyński, Gajo Petrovic, jk3064, rtri, sprunk, Johan Rehnberg, rlcevg, MadrMan, René Fritze, SpliFF, GoogleFrog, N0U, MajBoredom, Jose Luis Cercós Pita, Tom J Nowell, Dmitry Marakasov, FLOZi, Hugh Perkins, TurBoss, DeadnightWarrior, psarkozy, gnibu, Dylan Petonke, yokosou, Beherith, Samuel Nicholas, Simon Logic, Rainer Müller, 12345swordy, Dmytry, Licho, esainane, Matt Peterson, LunaMoo, Achim Königs, daftalx, Daniel, Yaribz, Bernd Schmidt
+- Developer: -jK-, 12345swordy, abma, Achim Königs, Beherith, Bernd Schmidt, Betalord, Chris Han, daftalx, Daniel, DeadnightWarrior, Dmitry Marakasov, Dmytry, Dylan Petonke, esainane, Eshed, Eshed Shaham, FLOZi, Gajo Petrovic, George Hilios, gnibu, GoogleFrog, hoijui, Hugh Perkins, jcnossen, JeeZ, jk3064, Johan Rehnberg, Jose Luis Cercós Pita, Karl-R., Licho, LunaMoo, MadrMan, MajBoredom, Marek Baczyński, Matt Peterson, N0U, psarkozy, Rainer Müller, René Fritze, rlcevg, Robin Vobruba, Robin Westberg, rtri, Samuel Nicholas, Simon Logic, SpliFF, sprunk, Stefan Johansson, Tobi Vollebregt, Tom J Nowell, TurBoss, Yaribz, Yeha, yokosou, zerver
 
 See also [Spring 1944](http://spring1944.net/) a special scenario of the spring engine, code: https://github.com/spring1944/spring1944
 

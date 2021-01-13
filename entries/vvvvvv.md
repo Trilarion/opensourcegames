@@ -8,7 +8,7 @@
 - Code language: ActionScript, C++
 - Code license: Custom
 - Code dependency: Adobe AIR, SDL2
-- Developer: Misa, Ethan Lee, Terry Cavanagh, Dav999-v, leo60228, Ally, Fredrik Ljungdahl, Matt Penny, ePirat, Matt Aaldenberg, Nichole Mattera, Tynan Richards, Allison Fleischer, Charlie, Daniel Lee, Rémi Verschelde
+- Developer: Allison Fleischer, Ally, Charlie, Daniel Lee, Dav999-v, ePirat, Ethan Lee, Fredrik Ljungdahl, leo60228, Matt Aaldenberg, Matt Penny, Misa, Nichole Mattera, Rémi Verschelde, Terry Cavanagh, Tynan Richards
 
 Source code to VVVVVV.
 

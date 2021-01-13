@@ -8,7 +8,7 @@
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: OpenAL, Qt
-- Developer: Konstantin Oblaukhov, Kakadu, Alexander Akulich
+- Developer: Alexander Akulich, Kakadu, Konstantin Oblaukhov
 
 ## Building
 

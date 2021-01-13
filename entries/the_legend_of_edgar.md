@@ -8,6 +8,6 @@
 - Code repository: https://github.com/riksweeney/edgar.git (@created 2015, @stars 75, @forks 19)
 - Code language: C
 - Code license: GPL-2.0
-- Developer: Richard Sweeney, riksweeney, zorian, Rémi Verschelde, Bernhard M. Wiedemann
+- Developer: Bernhard M. Wiedemann, Richard Sweeney, riksweeney, Rémi Verschelde, zorian
 
 ## Building

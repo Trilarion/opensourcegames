@@ -8,7 +8,7 @@
 - Code language: C
 - Code license: GPL-3.0
 - Code dependency: SDL
-- Developer: Edgar Simo-Serra, Sean Hildebrand, Bas Fournier, Kinniken, Nathan Loewen, Felix Schneider, Ludovic Bellière, perey, PhoenixRiver, unavowed, Alexandru Moșoi, HatlessAtlas, Luka Vandervelden, Ian Douglas Scott, geever, Nicolas Kaiser, William Leiserson, Reynir Björnsson, Old T. Man, Sudarshan S, AvanWolf, The Diligent Circle 丸, Cypher, Pat Erley, Anatolis, BSoD-naev, rkulhanek, Justin Nicholson, Kevin Zheng, Paul Wise, Eric Man, toams, brognam, Peter Johnson
+- Developer: Alexandru Moșoi, Anatolis, AvanWolf, Bas Fournier, brognam, BSoD-naev, Cypher, Edgar Simo-Serra, Eric Man, Felix Schneider, geever, HatlessAtlas, Ian Douglas Scott, Justin Nicholson, Kevin Zheng, Kinniken, Ludovic Bellière, Luka Vandervelden, Nathan Loewen, Nicolas Kaiser, Old T. Man, Pat Erley, Paul Wise, perey, Peter Johnson, PhoenixRiver, Reynir Björnsson, rkulhanek, Sean Hildebrand, Sudarshan S, The Diligent Circle 丸, toams, unavowed, William Leiserson
 
 Fork of Naev
 

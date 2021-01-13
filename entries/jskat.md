@@ -9,7 +9,7 @@
 - Code language: Java
 - Code license: GPL-3.0 (GUI), Apache-2.0 (base)
 - Assets license: GPL-3.0
-- Developer: Jan Schäfer, Markus J. Luzius, Daniel Loreck, Sascha Laurien, mjluzius, Martin Rothe, dlor, Harisudhan
+- Developer: Daniel Loreck, dlor, Harisudhan, Jan Schäfer, Markus J. Luzius, Martin Rothe, mjluzius, Sascha Laurien
 
 German card game Skat and variations thereof.
 

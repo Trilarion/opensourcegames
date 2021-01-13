@@ -10,7 +10,7 @@
 - Code repository: https://github.com/BZFlag-Dev/bzflag.git (@created 2015, @stars 201, @forks 64), https://svn.code.sf.net/p/bzflag/code (svn)
 - Code language: C++
 - Code license: LGPL-2.1, MPL-2.0
-- Developer: blast007, Sean Morrison, Bullet Catcher, Tim Riker, Vladimir Jimenez, Tupone Alfredo, Bryan Jennings, Bernt Hansen, Steven Mertens, Frank Thilo, Cobra_Fast, Chris Schoeneman, Dave Brosius, David Wollner, Daniel Remenak, Alexander Boyd, Joe Van Overberghe, Flash, Kyle Mills, kingrobot, alezakos, L4m3r, Joshua Bodine, Mark Thomas, mdskpr, Frank Evers, Thomas Stauer, Dave Rodgers, Jeffery Myers, Jeff Makey, Alfredo Tupone, jwmelto, Mike Miller, Zehra
+- Developer: Alexander Boyd, alezakos, Alfredo Tupone, Bernt Hansen, blast007, Bryan Jennings, Bullet Catcher, Chris Schoeneman, Cobra_Fast, Daniel Remenak, Dave Brosius, Dave Rodgers, David Wollner, Flash, Frank Evers, Frank Thilo, Jeff Makey, Jeffery Myers, Joe Van Overberghe, Joshua Bodine, jwmelto, kingrobot, Kyle Mills, L4m3r, Mark Thomas, mdskpr, Mike Miller, Sean Morrison, Steven Mertens, Thomas Stauer, Tim Riker, Tupone Alfredo, Vladimir Jimenez, Zehra
 
 ## Building
 

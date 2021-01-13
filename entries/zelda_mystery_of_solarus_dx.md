@@ -7,7 +7,7 @@
 - Code language: Lua
 - Code license: GPL-3.0
 - Code dependency: Solarus
-- Developer: Christopho, Peter De Wachter, Thomas Noury, Vlag, rypervenche, legrostazon, Renkineko, Vincent Breitmoser
+- Developer: Christopho, legrostazon, Peter De Wachter, Renkineko, rypervenche, Thomas Noury, Vincent Breitmoser, Vlag
 
 Works with Solarus, an open-source Zelda-like 2D game engine.
 

@@ -6,7 +6,7 @@
 - Code repository: https://github.com/erincatto/Box2D.git (@created 2015, @stars 4634, @forks 910)
 - Code language: C, C++, Objective-C
 - Code license: zlib
-- Developer: Erin Catto, Jarrod Mosen, Isaac Burns
+- Developer: Erin Catto, Isaac Burns, Jarrod Mosen
 
 
 ## Building

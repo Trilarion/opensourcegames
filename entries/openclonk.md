@@ -10,7 +10,7 @@
 - Code repository: https://github.com/openclonk/openclonk.git (@created 2013, @stars 219, @forks 45)
 - Code language: C, C++
 - Code license: ISC
-- Developer: Sven, Maikel de Vries, isilkor, Armin Burgmeier, David Dormagen, Tobias Zwick, gitMarky, Lukas Werling, Felix Wagner, Meowtimer, boni, Peter Wortmann, jcaesar, Fulgen301, Benjamin Herr, Armin Scheurens, Ewan Mellor, Kevin Zheng, Philipp Kern, Linus Heckemann, Urschel, Fabian Pietsch, ckanibal, Tushar Maheshwari
+- Developer: Armin Burgmeier, Armin Scheurens, Benjamin Herr, boni, ckanibal, David Dormagen, Ewan Mellor, Fabian Pietsch, Felix Wagner, Fulgen301, gitMarky, isilkor, jcaesar, Kevin Zheng, Linus Heckemann, Lukas Werling, Maikel de Vries, Meowtimer, Peter Wortmann, Philipp Kern, Sven, Tobias Zwick, Tushar Maheshwari, Urschel
 
 Player controls small but witty and nimble humanoid beings.
 

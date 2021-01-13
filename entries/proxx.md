@@ -10,6 +10,6 @@
 - Code language: TypeScript, JavaScript
 - Code license: Apache-2.0
 - Code dependency: WebGL
-- Developer: Surma, Jake Archibald, Mariko Kosaka, Paul Kinlan
+- Developer: Jake Archibald, Mariko Kosaka, Paul Kinlan, Surma
 
 ## Building

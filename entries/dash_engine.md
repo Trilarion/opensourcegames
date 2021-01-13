@@ -6,7 +6,7 @@
 - Code repository: https://github.com/Circular-Studios/Dash.git (@created 2014, @stars 404, @forks 73)
 - Code language: D
 - Code license: MIT
-- Developer: Colden Cullen, Tyler Wozniak, Eric Christenson, Timothy Reynolds, Brandon Littell, Derin Yarsuvat, Sean Brennan, Daniel Jost
+- Developer: Brandon Littell, Colden Cullen, Daniel Jost, Derin Yarsuvat, Eric Christenson, Sean Brennan, Timothy Reynolds, Tyler Wozniak
 
 OpenGL engine written in the D language.
 

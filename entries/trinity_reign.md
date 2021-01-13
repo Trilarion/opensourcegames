@@ -6,7 +6,7 @@
 - Code repository: https://gitlab.com/osgames/ura-game.git (backup of svn), https://svn.code.sf.net/p/ura-game/code (svn)
 - Code language: C++
 - Code license: GPL-3.0
-- Developer: cig, Danny, Yill, Lucas Thode, Don King Resurrected, Shawn Krisman
+- Developer: cig, Danny, Don King Resurrected, Lucas Thode, Shawn Krisman, Yill
 
 ## Building
 

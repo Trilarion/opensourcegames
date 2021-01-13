@@ -8,7 +8,7 @@
 - Code language: C++
 - Code license: AGPL-3.0
 - Code dependency: Allegro
-- Developer: MaximDude, Gareth YR, orengg, Basxto, Evgeniy VIgovskiy, pawnishoovy, Dan Tabar
+- Developer: Basxto, Dan Tabar, Evgeniy VIgovskiy, Gareth YR, MaximDude, orengg, pawnishoovy
 
 Based on the open sourced code of Cortex Command.
 

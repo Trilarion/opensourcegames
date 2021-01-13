@@ -8,7 +8,7 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: OpenGL
-- Developer: goblinhack, Richard Franks, anatoly techtonik, paul.radioactive, Roger Koot, Neil McGill
+- Developer: anatoly techtonik, goblinhack, Neil McGill, paul.radioactive, Richard Franks, Roger Koot
 
 ## Building
 

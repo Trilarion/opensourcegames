@@ -8,7 +8,7 @@
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: wxWidgets
-- Developer: Andy Gryc, Bérenger Morel, Denis Conruyt, falerion, John Dullea, Keith Davies, Rick Crew, CALLIES Vincent, Tom Deprez, mcondon, Thomas 'Chad' Boyer, Jakim Friant, Martijn Sanders, Grzegorz Kaczorek, Josh Flachsbart, Steve-the-ripper, Mikhail Maximov
+- Developer: Andy Gryc, Bérenger Morel, CALLIES Vincent, Denis Conruyt, falerion, Grzegorz Kaczorek, Jakim Friant, John Dullea, Josh Flachsbart, Keith Davies, Martijn Sanders, mcondon, Mikhail Maximov, Rick Crew, Steve-the-ripper, Thomas 'Chad' Boyer, Tom Deprez
 
 Role playing game mapping program.
 

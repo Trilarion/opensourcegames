@@ -10,7 +10,7 @@
 - Code license: GPL-3.0
 - Code dependency: SFML
 - Assets license: CC-BY-NC-SA
-- Developer: Sébastien, Cong, crumblingstatue
+- Developer: Cong, crumblingstatue, Sébastien
 
 Roguelike dungeon crawl shooter heavily inspired from Binding Of Isaac.
 

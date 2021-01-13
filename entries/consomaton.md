@@ -9,7 +9,7 @@
 - Code language: TypeScript
 - Code license: MIT
 - Code dependency: Node.js
-- Developer: Kenta Cho, ABA Games
+- Developer: ABA Games, Kenta Cho
 
 Revolving around cellular automata.
 

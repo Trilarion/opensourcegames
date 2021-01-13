@@ -10,6 +10,6 @@
 - Code language: C
 - Code license: GPL-3.0
 - Code dependency: SDL2
-- Developer: Chad Cuddigan, Azamat H. Hackimov, donnierussellii, icosahedral-dragon, Ingo van Lil, Markku Rikola, Ben S., Vasily Postnicov, Daniel Gibson, JP Cimalando, Manuel K, Wladimir J. van der Laan, Mikko Kaistinen, Michał Janiszewski
+- Developer: Azamat H. Hackimov, Ben S., Chad Cuddigan, Daniel Gibson, donnierussellii, icosahedral-dragon, Ingo van Lil, JP Cimalando, Manuel K, Markku Rikola, Michał Janiszewski, Mikko Kaistinen, Vasily Postnicov, Wladimir J. van der Laan
 
 ## Building

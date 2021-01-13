@@ -10,7 +10,7 @@
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependency: SDL2
-- Developer: Zohar Malamant, Tatsh, Manuel K, alexey.lysiuk, Pavel Lobashov
+- Developer: alexey.lysiuk, Manuel K, Pavel Lobashov, Tatsh, Zohar Malamant
 
 ## Building
 

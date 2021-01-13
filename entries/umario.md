@@ -8,7 +8,7 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL2
-- Developer: Łukasz Jakowski, Tony Narlock
+- Developer: Tony Narlock, Łukasz Jakowski
 
 Assets free?
 

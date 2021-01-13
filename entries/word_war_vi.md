@@ -9,7 +9,7 @@
 - Code repository: https://github.com/smcameron/wordwarvi.git (@created 2012, @stars 81, @forks 14)
 - Code language: C
 - Code license: GPL-2.0
-- Developer: smcameron, Jeremy Van Grinsven
+- Developer: Jeremy Van Grinsven, smcameron
 
 Word War vi is a retro-styled old school side-scrolling shooter reminiscent of Defender or Scramble, with an "Emacs vs. vi" theme.
 

@@ -7,7 +7,7 @@
 - Code repository: https://github.com/DigitalPulseSoftware/NazaraEngine.git (@created 2012, @stars 278, @forks 54)
 - Code language: C, C++
 - Code license: MIT
-- Developer: Jérôme Leclercq, Gawaboumga, Rémi Bèges, Alexandre Janniaux, Apjue, Adrien, Faymoon, GigAnon, Tao Schreiner, REMqb
+- Developer: Adrien, Alexandre Janniaux, Apjue, Faymoon, Gawaboumga, GigAnon, Jérôme Leclercq, REMqb, Rémi Bèges, Tao Schreiner
 
 ## Building
 

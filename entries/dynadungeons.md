@@ -9,6 +9,6 @@
 - Code license: GPL-3.0
 - Code dependency: Godot
 - Assets license: CC-BY-3.0 (http://opengameart.org/content/bomb-party-the-complete-set)
-- Developer: Rémi Verschelde, deliciousfudge
+- Developer: deliciousfudge, Rémi Verschelde
 
 ## Building

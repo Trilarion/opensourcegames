@@ -11,7 +11,7 @@
 - Code license: AGPL-3.0
 - Code dependency: SDL2
 - Assets license: Commercial
-- Developer: Keriew, whgest, Bianca van Schaik, José Cadete, William Hardy Gest, devnoname120, Vittorio Mattei, HoratioVex, rsn8887, HyperJeanJean, Alexey, nwtour
+- Developer: Alexey, Bianca van Schaik, devnoname120, HoratioVex, HyperJeanJean, José Cadete, Keriew, nwtour, rsn8887, Vittorio Mattei, whgest, William Hardy Gest
 
 ## Building
 

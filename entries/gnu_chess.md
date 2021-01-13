@@ -10,7 +10,7 @@
 - Code language: C++
 - Code license: GPL-3.0
 - Assets license: None
-- Developer: Chua Kong Sian, Stuart Cracraft, Lukas Geyer, Simon Waters
+- Developer: Chua Kong Sian, Lukas Geyer, Simon Waters, Stuart Cracraft
 
 Can be used together with a graphical frontend such as XBoard.
 Windows binaries via https://sourceforge.net/projects/gnuwin32/

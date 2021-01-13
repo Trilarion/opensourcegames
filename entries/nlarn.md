@@ -9,6 +9,6 @@
 - Code repository: https://github.com/nlarn/nlarn.git (@created 2018, @stars 29, @forks 4)
 - Code language: C, Lua
 - Code license: GPL-3.0
-- Developer: Joachim de Groot, jpeg, j-p-e-g
+- Developer: j-p-e-g, Joachim de Groot, jpeg
 
 ## Building

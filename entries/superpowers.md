@@ -8,6 +8,6 @@
 - Code repository: https://github.com/superpowers/superpowers-core.git (@created 2015, @stars 1470, @forks 128)
 - Code language: TypeScript
 - Code license: ISC
-- Developer: Elisée Maurer, Nicolas Gauthier, Florent POUJOL, Paul, David Llanos, Victor Nogueira
+- Developer: David Llanos, Elisée Maurer, Florent POUJOL, Nicolas Gauthier, Paul, Victor Nogueira
 
 ## Building

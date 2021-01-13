@@ -8,7 +8,7 @@
 - Code language: C++, C
 - Code license: GPL-3.0
 - Code dependency: SDL2
-- Developer: Epifanov Ivan, cat, Alexander Schlarb, Clownacy, Tim, Carsten Teibes
+- Developer: Alexander Schlarb, Carsten Teibes, cat, Clownacy, Epifanov Ivan, Tim
 
 ## Building
 

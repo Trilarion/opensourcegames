@@ -7,6 +7,6 @@
 - Code repository: https://github.com/CamHenlin/Roguish.git (@created 2015, @stars 51, @forks 17)
 - Code language: JavaScript
 - Code license: 3-clause BSD
-- Developer: Cameron Henlin, Ryan Wise, Jordan Butler
+- Developer: Cameron Henlin, Jordan Butler, Ryan Wise
 
 ## Building

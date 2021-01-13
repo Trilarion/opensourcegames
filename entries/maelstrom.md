@@ -12,7 +12,7 @@
 - Code license: GPL-2.0
 - Code dependency: SDL
 - Assets license: CC-BY-3.0
-- Developer: Richard Schneider, posophe
+- Developer: posophe, Richard Schneider
 
 ## Building
 

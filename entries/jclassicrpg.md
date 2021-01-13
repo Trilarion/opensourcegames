@@ -7,6 +7,6 @@
 - Code language: Java
 - Code license: LGPL-3.0
 - Code dependency: jMonkeyEngine
-- Developer: Timong, Pal Illes, Laszlo Szucs, Mike Kienenberger, qubodup
+- Developer: Laszlo Szucs, Mike Kienenberger, Pal Illes, qubodup, Timong
 
 ## Building

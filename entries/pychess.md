@@ -9,7 +9,7 @@
 - Code language: Python, TypeScript
 - Code license: GPL-3.0
 - Assets license: ? (GPL)
-- Developer: Bajusz Tamás, Thomas Dybdahl Ahle, Peter Thomson, Matthew Gatto, ecrucru, Justin Blanchard, Leonardo Gregianin, John Cheetham, Thijs Vermeir, Jonast, gregp, igor2x, Mathieu CAROFF, Christopher King, Mickaël Schoentgen, Boris Boutkov, CouchTomato87, Ada Joule, "Ka (upkah)", fjscabral, Marken Foo, renyhp, Little-Magician, notruck, Fabian Fichter, Tiago Hermano
+- Developer: Ada Joule, Bajusz Tamás, Boris Boutkov, Christopher King, CouchTomato87, ecrucru, Fabian Fichter, fjscabral, gregp, igor2x, John Cheetham, Jonast, Justin Blanchard, "Ka (upkah)", Leonardo Gregianin, Little-Magician, Marken Foo, Mathieu CAROFF, Matthew Gatto, Mickaël Schoentgen, notruck, Peter Thomson, renyhp, Thijs Vermeir, Thomas Dybdahl Ahle, Tiago Hermano
 
 Graphical front-end that works with xboard-compatible engines such as GNU Chess and stockfish, and also comes with its own chess engine if no other is available.
 PyChess is also capable of online play using the FICS server. Features include hints, different chess variants, and themeable chess pieces.

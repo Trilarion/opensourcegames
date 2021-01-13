@@ -8,7 +8,7 @@
 - Code language: C, C++, Lua
 - Code license: GPL-3.0
 - Code dependency: SDL2
-- Developer: Helix, Exosphere, Georgios Mixalis, brutalis, patryk1303, Promitheas Avgerinos, Valeri, QwertyChouskie
+- Developer: brutalis, Exosphere, Georgios Mixalis, Helix, patryk1303, Promitheas Avgerinos, QwertyChouskie, Valeri
 
 ## Building
 

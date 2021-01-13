@@ -7,7 +7,7 @@
 - Code repository: https://github.com/VDrift/vdrift.git (@created 2010, @stars 230, @forks 78), https://svn.code.sf.net/p/vdrift/code (svn)
 - Code language: C++
 - Code license: GPL-3.0
-- Developer: Joe Venzon, chris, Alex Barroso, Alonso Cardenas Marquez, Giles Williams, Alex Romosan, Lars Sanford, Geo, Gonéri Le Bouder, Teemu Haapoja, Julian, kcid, logzero, Massimo Danieli, Nathan Samson, Rikard, portets, anonymous, slowDan, stan, Matthew Nicholson, Timothy Furlong, cologne, Vegar, ny, Antonio Vazquez, Peter Szücs, Bengt Lüers, isidoro ghezzi
+- Developer: Alex Barroso, Alex Romosan, Alonso Cardenas Marquez, anonymous, Antonio Vazquez, Bengt Lüers, chris, cologne, Geo, Giles Williams, Gonéri Le Bouder, isidoro ghezzi, Joe Venzon, Julian, kcid, Lars Sanford, logzero, Massimo Danieli, Matthew Nicholson, Nathan Samson, ny, Peter Szücs, portets, Rikard, slowDan, stan, Teemu Haapoja, Timothy Furlong, Vegar
 
 Driving simulation made with drift racing in mind.
 

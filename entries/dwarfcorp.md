@@ -10,7 +10,7 @@
 - Code license: MIT
 - Code dependency: MonoGame, XNA
 - Assets license: Proprietary
-- Developer: Matthew Klingensmith, Solsund, Chris Cajas, Makeshiftrobot, "Yueran (Aaron) Yuan", Daniel Roethlisberger
+- Developer: Chris Cajas, Daniel Roethlisberger, Makeshiftrobot, Matthew Klingensmith, Solsund, "Yueran (Aaron) Yuan"
 
 Manage a corporate colony of dwarves.
 

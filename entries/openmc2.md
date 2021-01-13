@@ -7,6 +7,6 @@
 - Code repository: https://github.com/LRFLEW/OpenMC2.git (@created 2016, @stars 89, @forks 5)
 - Code language: C++
 - Code license: GPL-3.0
-- Developer: LRFLEW, Duncan
+- Developer: Duncan, LRFLEW
 
 ## Building

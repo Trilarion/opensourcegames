@@ -8,7 +8,7 @@
 - Code language: Python
 - Code license: LGPL-3.0
 - Code dependency: pygame
-- Developer: The Diligent Circle 丸, Adrián Matejov, Emilio Coppola
+- Developer: Adrián Matejov, Emilio Coppola, The Diligent Circle 丸
 
 ## Building
 

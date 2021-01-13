@@ -8,6 +8,6 @@
 - Code license: GPL-2.0
 - Code dependency: libx, libxpm, xaw3dg
 - Assets license: GPL-2.0
-- Developer: Paul Hicks, Bernard Kennedy
+- Developer: Bernard Kennedy, Paul Hicks
 
 ## Building

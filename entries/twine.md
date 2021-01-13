@@ -7,7 +7,7 @@
 - Code repository: https://github.com/klembot/twinejs.git (@created 2018, @stars 656, @forks 130)
 - Code language: JavaScript
 - Code license: GPL-3.0
-- Developer: Chris Klimas, Leon, Thomas M. Edwards, Valentin Rocher, Ross Smith, Colin McMillan, Jordi Mallach, Moritz Rebbert
+- Developer: Chris Klimas, Colin McMillan, Jordi Mallach, Leon, Moritz Rebbert, Ross Smith, Thomas M. Edwards, Valentin Rocher
 
 Tool for telling interactive, nonlinear stories.
 

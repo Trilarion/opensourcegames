@@ -10,7 +10,7 @@
 - Code license: AGPL-3.0
 - Code dependency: LambdaHack, SDL
 - Assets license: AGPL-3.0
-- Developer: Mikolaj Konarski, Andres Löh, Dan Keefe
+- Developer: Andres Löh, Dan Keefe, Mikolaj Konarski
 
 Sci-Fi roguelike and tactical squad combat game.
 

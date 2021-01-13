@@ -9,7 +9,7 @@
 - Code language: C++, Java, Python
 - Code license: 3-clause BSD
 - Code dependency: Allegro, FreeType, libpng, PyQt
-- Developer: Juvinious, Jon Rafkind, drafkind, Kwadroke of "The Wired", scristopher, juvinious
+- Developer: drafkind, Jon Rafkind, Juvinious, juvinious, Kwadroke of "The Wired", scristopher
 
 Android port is written in Java.
 

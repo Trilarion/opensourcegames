@@ -9,7 +9,7 @@
 - Code repository: https://github.com/exult/exult.git (@created 2016, @stars 309, @forks 36)
 - Code language: C++
 - Code license: GPL-2.0
-- Developer: Jeff Freedman, Marzo Sette Torres Junior, Willem Jan Palenstijn, Dominik Reichardt, wench, Max Horn, Tristan Tarrant, Kirben, Malignant Manor, Phillip T. George, AurelienMarchand, David Ludwig, Dragon-Baroque, cybersphinx
+- Developer: AurelienMarchand, cybersphinx, David Ludwig, Dominik Reichardt, Dragon-Baroque, Jeff Freedman, Kirben, Malignant Manor, Marzo Sette Torres Junior, Max Horn, Phillip T. George, Tristan Tarrant, wench, Willem Jan Palenstijn
 
 A cross-platform recreation of the Ultima VII engine.
 

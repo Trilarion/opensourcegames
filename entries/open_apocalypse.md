@@ -1,7 +1,7 @@
 # Open Apocalypse
 
 - Home: http://openapoc.org/
-- Inspiration: UFO: Enemy Unknown, X-COM: Apocalypse, X-COM: Terror from the Deep, X-COM: UFO Defense
+- Inspiration: X-COM: UFO Defense, X-COM: Apocalypse, X-COM: Terror from the Deep
 - State: beta
 - Download: https://ci.appveyor.com/project/openapoc/openapoc
 - Keyword: remake, strategy, "content commercial + original required (X-Com Apocalypse)"
@@ -9,7 +9,7 @@
 - Code language: C++
 - Code license: MIT
 - Code dependency: SDL2
-- Developer: Jonathan Hamilton, Istrebitel, Daniel, Marq Watkin, Francisco Altoe, Ivan Shibanov, FilmBoy84, redv, emptyVoid, Jari, Code., Alexey Rogachevskiy, ShadowDancer, Xracer, Steve Schnepp, Kirill Mishustin, SiemensSchuckert, Vasiliy Panasenko, sparkstar, 5thAvenue, Silviu Ghita
+- Developer: 5thAvenue, Alexey Rogachevskiy, Code., Daniel, emptyVoid, FilmBoy84, Francisco Altoe, Istrebitel, Ivan Shibanov, Jari, Jonathan Hamilton, Kirill Mishustin, Marq Watkin, redv, ShadowDancer, SiemensSchuckert, Silviu Ghita, sparkstar, Steve Schnepp, Vasiliy Panasenko, Xracer
 
 ## Building
 

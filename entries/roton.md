@@ -7,7 +7,7 @@
 - Code repository: https://github.com/SaxxonPike/roton.git (@created 2015, @stars 15, @forks 1)
 - Code language: C#
 - Code license: ISC
-- Developer: Tony Konzel, Ian Burgmyer
+- Developer: Ian Burgmyer, Tony Konzel
 
 Emulation of the ZZT and Super ZZT game creation engines.
 Roton is an emulation of the ZZT and Super ZZT game creation engines written in C#.

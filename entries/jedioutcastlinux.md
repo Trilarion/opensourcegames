@@ -8,7 +8,7 @@
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependency: SDL2
-- Developer: xLAva, Luis N. Polasek, Szilárd Biró
+- Developer: Luis N. Polasek, Szilárd Biró, xLAva
 
 ## Building
 

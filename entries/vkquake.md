@@ -10,7 +10,7 @@
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependency: Vulkan
-- Developer: Axel Gneiting, Ozkan Sezer, bviktor
+- Developer: Axel Gneiting, bviktor, Ozkan Sezer
 
 ## Building
 

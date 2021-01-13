@@ -10,6 +10,6 @@
 - Code license: GPL-3.0
 - Code dependency: SDL
 - Assets license: various
-- Developer: Stephen Sweeney, Richard Sweeney, The Diligent Circle 丸, Guus Sliepen, Richard Smith, Alistair Findlay, Ian Gilham
+- Developer: Alistair Findlay, Guus Sliepen, Ian Gilham, Richard Smith, Richard Sweeney, Stephen Sweeney, The Diligent Circle 丸
 
 ## Building

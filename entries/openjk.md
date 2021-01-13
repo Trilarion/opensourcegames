@@ -9,7 +9,7 @@
 - Code repository: https://github.com/JACoders/OpenJK.git (@created 2013, @stars 1517, @forks 493)
 - Code language: C, C++
 - Code license: GPL-2.0
-- Developer: Ensiform, Alex Lo, razor, Nick, redsaurus, Willi Schinmeyer, Boris I. Bendovsky, Simon McVittie, Szilárd Biró, Dion Williams, Nathaniel Brandes, Zack Middleton, Alex Nordlund, Anonymous Maarten, Alexandre Blin, Joel Teichroeb, Archangel35757, Harry Jeffery, Taahir Ahmed, Lourens Elzinga, Brandon Largeau, Scooper, ouned
+- Developer: Alex Lo, Alex Nordlund, Alexandre Blin, Anonymous Maarten, Archangel35757, Boris I. Bendovsky, Brandon Largeau, Dion Williams, Ensiform, Harry Jeffery, Joel Teichroeb, Lourens Elzinga, Nathaniel Brandes, Nick, ouned, razor, redsaurus, Scooper, Simon McVittie, Szilárd Biró, Taahir Ahmed, Willi Schinmeyer, Zack Middleton
 
 ## Building
 

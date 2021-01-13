@@ -9,7 +9,7 @@
 - Code repository: http://netrek.cvs.sourceforge.net (cvs)
 - Code language: C
 - Code license: Custom (permissive)
-- Developer: Dave Ahn, James Cameron, Kurt Siegl, Bob Tanner, Dave Pinkney, David Swasey, Alec Habig, Jeff Nowakowski, Stephen Thorne, Karthik Arumugham, Stas Pirogov, Gerard Lim, Bill Balcerski, 324523, Steve Sheldon, Niclas Fredriksson, Michael Wyatt, Trent Piepho, Zachary Uram
+- Developer: 324523, Alec Habig, Bill Balcerski, Bob Tanner, Dave Ahn, Dave Pinkney, David Swasey, Gerard Lim, James Cameron, Jeff Nowakowski, Karthik Arumugham, Kurt Siegl, Michael Wyatt, Niclas Fredriksson, Stas Pirogov, Stephen Thorne, Steve Sheldon, Trent Piepho, Zachary Uram
 
 Multi-player battle simulation with a Star Trek theme.
 See also [JTrek](http://ftp.netrek.org/pub/netrek/clients/jtrek/), [Netrek RES-RSA](https://launchpad.net/netrek-res-rsa), [HTML5 netrek](https://github.com/apsillers/html5-netrek)

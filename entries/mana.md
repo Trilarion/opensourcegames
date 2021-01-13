@@ -7,7 +7,7 @@
 - Code repository: https://github.com/mana/manaserv.git (https://github.com/mana, @archived, @created 2011, @stars 114, @forks 42), https://github.com/tales/tales-client.git @add (@archived, @created 2013, @stars 13, @forks 5)
 - Code language: C++
 - Code license: GPL-2.0
-- Developer: Thorbjørn Lindeijer, Guillaume Melquiond, ko2fan, nymacro, Charles Miller, Andreas Habel, Jared Adams, Rogier Polak, Stefan Beller, Blue112, Björn Steinbrink, Mashu, Przemysław Grzywacz
+- Developer: Andreas Habel, Björn Steinbrink, Blue112, Charles Miller, Guillaume Melquiond, Jared Adams, ko2fan, Mashu, nymacro, Przemysław Grzywacz, Rogier Polak, Stefan Beller, Thorbjørn Lindeijer
 
 ## Building
 

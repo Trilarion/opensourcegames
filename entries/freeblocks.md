@@ -9,7 +9,7 @@
 - Code language: C, Java
 - Code license: GPL-3.0
 - Code dependency: SDL2
-- Developer: Justin Jacobs, Cong
+- Developer: Cong, Justin Jacobs
 
 ## Building
 

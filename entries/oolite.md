@@ -12,6 +12,6 @@
 - Code license: GPL-2.0
 - Code dependency: Cocoa, SDL
 - Assets license: CC-BY-NC-SA
-- Developer: Jens Ayton, cim, AnotherCommander, Kaks, Kevin Anthoney, Konstantinos Sykas, phkb, jobi-wan, DaymareOn, Nick Rogers, Eric Walch
+- Developer: AnotherCommander, cim, DaymareOn, Eric Walch, Jens Ayton, jobi-wan, Kaks, Kevin Anthoney, Konstantinos Sykas, Nick Rogers, phkb
 
 ## Building

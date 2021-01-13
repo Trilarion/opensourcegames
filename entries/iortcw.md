@@ -10,7 +10,7 @@
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependency: OpenAL, SDL
-- Developer: Donny Springer, Zack Middleton, James Canete, MAN-AT-ARMS, Simon McVittie, pkubaj
+- Developer: Donny Springer, James Canete, MAN-AT-ARMS, pkubaj, Simon McVittie, Zack Middleton
 
 Merge of ioquake3 features and fixes into RTCW code bases.
 

@@ -8,7 +8,7 @@
 - Code repository: https://github.com/valeriansaliou/boulder-dash.git (@created 2015, @stars 11, @forks 8)
 - Code language: Java
 - Code license: MIT
-- Developer: Valerian Saliou, Colin LEVERGER
+- Developer: Colin LEVERGER, Valerian Saliou
 
 Dig through caves collecting gems.
 

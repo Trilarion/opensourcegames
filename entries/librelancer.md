@@ -10,7 +10,7 @@
 - Code language: C, C#
 - Code license: MIT
 - Code dependency: OpenGL
-- Developer: Callum, Laz, Bohdan Starosta, Alex
+- Developer: Alex, Bohdan Starosta, Callum, Laz
 
 ## Building
 

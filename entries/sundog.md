@@ -9,7 +9,7 @@
 - Code language: C, C++, Python
 - Code license: MIT
 - Code dependency: SDL
-- Developer: Wladimir J. van der Laan, Thomas BERNARD
+- Developer: Thomas BERNARD, Wladimir J. van der Laan
 
 Originally written in Pascal and compiled to bytecode for an abstract architecture. Implements a bytecode interpreter in C, which runs the game.
 

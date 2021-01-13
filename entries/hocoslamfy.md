@@ -9,7 +9,7 @@
 - Code license: GPL-2.0
 - Code dependency: SDL
 - Assets license: CC-BY-SA-3.0 (see https://github.com/Nebuleon/hocoslamfy/blob/master/COPYRIGHT)
-- Developer: Nebuleon, Ivan
+- Developer: Ivan, Nebuleon
 
 ## Building
 

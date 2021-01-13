@@ -8,6 +8,6 @@
 - Code language: C++, C
 - Code license: MIT
 - Code dependency: SDL
-- Developer: frranck, Autechre, SimpleTease, Vladimir Serbinenko, webgeek1234
+- Developer: Autechre, frranck, SimpleTease, Vladimir Serbinenko, webgeek1234
 
 ## Building

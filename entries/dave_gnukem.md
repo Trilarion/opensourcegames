@@ -10,6 +10,6 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL
-- Developer: Evil Mr Henry, David Joffe
+- Developer: David Joffe, Evil Mr Henry
 
 ## Building

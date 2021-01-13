@@ -10,7 +10,7 @@
 - Code license: GPL-2.0
 - Code dependency: SDL2
 - Assets license: GPL
-- Developer: eykamp, raptor, Samuel Williams, Bryan Conrad, Vittorio Giovara, Rémi Verschelde, bobdaduck, Naleo Hyde, Carl Hewett, Pascal Terjan
+- Developer: bobdaduck, Bryan Conrad, Carl Hewett, eykamp, Naleo Hyde, Pascal Terjan, raptor, Rémi Verschelde, Samuel Williams, Vittorio Giovara
 
 ## Building
 

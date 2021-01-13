@@ -9,7 +9,7 @@
 - Code license: GPL-2.0
 - Code dependency: Hero of Allacrost engine
 - Assets license: GPL-2.0, CC-BY-SA-3.0 (see https://github.com/ValyriaTear/ValyriaTear/blob/master/LICENSES.txt)
-- Developer: Yohann Ferreira, authenticate, Tyler Olsen, Nik N, gunchleoc, logzero, Eric Anholt, Jason Smestad, fujimo-t, Christopher Berman, p-groarke, Sérgio Lopes, Alexander Kjäll, Rémi Verschelde, Dmitry Marakasov, Michael Murphy
+- Developer: Alexander Kjäll, authenticate, Christopher Berman, Dmitry Marakasov, Eric Anholt, fujimo-t, gunchleoc, Jason Smestad, logzero, Michael Murphy, Nik N, p-groarke, Rémi Verschelde, Sérgio Lopes, Tyler Olsen, Yohann Ferreira
 
 J-RPG (Based on the Hero of Allacrost engine).
 

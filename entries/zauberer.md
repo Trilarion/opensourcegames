@@ -8,7 +8,7 @@
 - Code license: ISC
 - Code dependency: Hexen
 - Assets license: 3-clause BSD
-- Developer: Eric Söderberg, Ayub Ahmed, Snakecharmer
+- Developer: Ayub Ahmed, Eric Söderberg, Snakecharmer
 
 Initial goal is to serve as a Free data package for engines based on the Hexen source.
 

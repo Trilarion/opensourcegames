@@ -6,7 +6,7 @@
 - Code repository: https://gitlab.com/osgames/omega-roguelike.git (conversion of cvs), http://omega-roguelike.cvs.sourceforge.net (cvs)
 - Code language: C
 - Code license: LGPL-2.0
-- Developer: Laurence R. Brothers, Sheldon Simms, David Gibbs, William Tanksley, Eric Shafto, Jay Kint, Rick Cooley, Guus Sliepen, Tom Breton, Hal Bonnin, Josh Kelley
+- Developer: David Gibbs, Eric Shafto, Guus Sliepen, Hal Bonnin, Jay Kint, Josh Kelley, Laurence R. Brothers, Rick Cooley, Sheldon Simms, Tom Breton, William Tanksley
 
 ## Building
 

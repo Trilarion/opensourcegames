@@ -8,7 +8,7 @@
 - Code repository: https://github.com/jazzyjester/Mario-Game.git (@created 2015, @stars 46, @forks 28)
 - Code language: C#
 - Code license: MIT
-- Developer: Ronny Remesnik, M1S2
+- Developer: M1S2, Ronny Remesnik
 
 Includes a level editor. is it related to https://archive.codeplex.com/?p=mario
 

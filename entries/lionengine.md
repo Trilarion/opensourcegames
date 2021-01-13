@@ -8,7 +8,7 @@
 - Code repository: https://github.com/b3dgs/lionengine.git (@created 2013, @stars 104, @forks 17)
 - Code language: Java
 - Code license: GPL-3.0
-- Developer: Pierre-Alexandre, Nuno Jesus, Дмитрий Рябов
+- Developer: Nuno Jesus, Pierre-Alexandre, Дмитрий Рябов
 
 Designed for 2D Platform, Strategy and Shoot'em Up games.
 

@@ -9,7 +9,7 @@
 - Code license: GPL-3.0
 - Code dependency: Box2D, SDL2
 - Assets license: GPL-3.0
-- Developer: Tim Edmonds, Thomas Perl, albanobattistella, hoijui
+- Developer: albanobattistella, hoijui, Thomas Perl, Tim Edmonds
 
 Drawing puzzle game, where the goal is to draw shapes on a drawing to get two given objects to touch.
 

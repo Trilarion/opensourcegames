@@ -10,7 +10,7 @@
 - Code license: zlib
 - Code dependency: AnAL, LÖVE, slam, TSerial
 - Assets license: CC-BY-SA-3.0
-- Developer: Tangram, Simon Larsen
+- Developer: Simon Larsen, Tangram
 
 Rescue people from a burning building.
 

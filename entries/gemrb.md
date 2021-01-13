@@ -9,7 +9,7 @@
 - Code language: C++, Python
 - Code license: GPL-2.0
 - Code dependency: OpenAL, SDL2, Twisted, zlib
-- Developer: Jaka Kranjc, Brad Allred, Balrog994, Tom Prince, fizzet, Jaroslav Benkovský, Willem Jan Palenstijn, Alyssa Milburn, Marcel, chilvence, Tomsod, Dmitry, Kevin Michael Frick, peschwa, caillean7, gtoptsid, Nikolai Vincent Vaags, Version 5 Games, Dennis Schridde, Jan Petykiewicz, Mounir Lamouri, fenuks, Beren Minor, Azamat H. Hackimov, ifyGecko, m7600, nerd-rage, Taras
+- Developer: Alyssa Milburn, Azamat H. Hackimov, Balrog994, Beren Minor, Brad Allred, caillean7, chilvence, Dennis Schridde, Dmitry, fenuks, fizzet, gtoptsid, ifyGecko, Jaka Kranjc, Jan Petykiewicz, Jaroslav Benkovský, Kevin Michael Frick, m7600, Marcel, Mounir Lamouri, nerd-rage, Nikolai Vincent Vaags, peschwa, Taras, Tom Prince, Tomsod, Version 5 Games, Willem Jan Palenstijn
 
 Implementation of Bioware's Infinity Engine.
 

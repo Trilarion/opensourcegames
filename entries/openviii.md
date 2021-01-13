@@ -9,6 +9,6 @@
 - Code language: C#
 - Code license: MIT
 - Code dependency: MonoGame
-- Developer: Robert Russell, Marcin Gomulak, Albeoris, Benjamin Fuu
+- Developer: Albeoris, Benjamin Fuu, Marcin Gomulak, Robert Russell
 
 ## Building

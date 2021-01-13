@@ -1,7 +1,7 @@
 # NFSIISE
 
 - Home: https://github.com/zaps166/NFSIISE
-- Inspiration: Need For Speed II SE
+- Inspiration: Need For Speed II
 - State: mature
 - Platform: Windows, Linux
 - Keyword: remake, content commercial + original required, racing

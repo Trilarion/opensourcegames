@@ -10,7 +10,7 @@
 - Code language: C, C++, Lua
 - Code license: GPL-2.0
 - Code dependency: SFML
-- Developer: daid, oznogon, capt-t, Jaime van Kessel, Fouindor, Christian Zenker, StarryWisdom, Xansta, Wrongtown, aBlueShadow, muerteFR, Amir Arad, Thomas L., InterestingJohn, vslotman, Scott Mcleod, JonathanILevi, Garrett Guillotte, Thomas, Triqueon, pryankster, gcask, NinjaSpectre, thorgod, Ryan Bahm, Erik de Bruijn, k9lego, Piglit, Edoardo Morandi, Kevin Primm, Ghostkeeper
+- Developer: aBlueShadow, Amir Arad, capt-t, Christian Zenker, daid, Edoardo Morandi, Erik de Bruijn, Fouindor, Garrett Guillotte, gcask, Ghostkeeper, InterestingJohn, Jaime van Kessel, JonathanILevi, k9lego, Kevin Primm, muerteFR, NinjaSpectre, oznogon, Piglit, pryankster, Ryan Bahm, Scott Mcleod, StarryWisdom, Thomas, Thomas L., thorgod, Triqueon, vslotman, Wrongtown, Xansta
 
 ## Building
 

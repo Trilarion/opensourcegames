@@ -7,7 +7,7 @@
 - Code repository: https://github.com/ptitSeb/gl4es.git (@created 2014, @stars 306, @forks 65)
 - Code language: C
 - Code license: MIT
-- Developer: ptitSeb, Ryan Hileman, rajdakin, Daytona675x, Iscle, mittorn, Jānis Rūcis
+- Developer: Daytona675x, Iscle, Jānis Rūcis, mittorn, ptitSeb, rajdakin, Ryan Hileman
 
 OpenGL for GLES Hardware.
 

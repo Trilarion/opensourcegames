@@ -9,6 +9,6 @@
 - Code repository: https://git.code.sf.net/p/golly/code
 - Code language: C++, Java
 - Code license: GPL-2.0
-- Developer: Andrew Trevorrow, Adam P. Goucher, Dave Greene, Maks Verver, Tomas Rokicki, Chris Rowett, Alan Hensel, Brenton Bostick, William R. Buckley, Jason Summers, Robert Munafo, Scorbie, tim_hutton
+- Developer: Adam P. Goucher, Alan Hensel, Andrew Trevorrow, Brenton Bostick, Chris Rowett, Dave Greene, Jason Summers, Maks Verver, Robert Munafo, Scorbie, tim_hutton, Tomas Rokicki, William R. Buckley
 
 ## Building

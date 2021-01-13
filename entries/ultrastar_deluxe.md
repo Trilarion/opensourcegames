@@ -10,7 +10,7 @@
 - Code language: Pascal
 - Code license: GPL-2.0
 - Code dependency: Lua, SDL2
-- Developer: Stefan L., Brian Chalega da Silva, brunzel, Canni, K.-M. Schindler, Whiteshark, blindy, Benedikt Krueger, Dawid Dembowski, Eddie, Holger Kuhn, jay binks, joachimdieterich.com, lotan_rm, MezzoX, Mog, mota23, Felix Kaechele, Simon Ruderich, Alexander, Tobias Gunkel, basisbit, s09bQ5, RattleSN4K3, djazz, Alexander Sulfrian, Hermann Döppes, ePirat, Markus, brianch, Karl-Michael Schindler, Valérianne, Markus Böhning, GaryCXJk, shazzzzam, Jose Riha
+- Developer: Alexander, Alexander Sulfrian, basisbit, Benedikt Krueger, blindy, Brian Chalega da Silva, brianch, brunzel, Canni, Dawid Dembowski, djazz, Eddie, ePirat, Felix Kaechele, GaryCXJk, Hermann Döppes, Holger Kuhn, jay binks, joachimdieterich.com, Jose Riha, K.-M. Schindler, Karl-Michael Schindler, lotan_rm, Markus, Markus Böhning, MezzoX, Mog, mota23, RattleSN4K3, s09bQ5, shazzzzam, Simon Ruderich, Stefan L., Tobias Gunkel, Valérianne, Whiteshark
 
 Karaoke game.
 

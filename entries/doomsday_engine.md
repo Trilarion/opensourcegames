@@ -9,7 +9,7 @@
 - Code repository: https://github.com/skyjake/Doomsday-Engine.git (@created 2011, @stars 167, @forks 20), https://git.code.sf.net/p/deng/code @add
 - Code language: C, C++
 - Code license: GPL-2.0 (see source files), GPL-3.0, LGPL-3.0 (core)
-- Developer: Daniel Swanson, Jaakko Keränen, Roman Hargrave, Christopher Bruns
+- Developer: Christopher Bruns, Daniel Swanson, Jaakko Keränen, Roman Hargrave
 
 Mixed license usage.
 

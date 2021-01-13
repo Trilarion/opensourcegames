@@ -8,7 +8,7 @@
 - Code license: GPL-2.0
 - Code dependency: SDL
 - Assets license: GPL
-- Developer: Mark Snellgrove, Mark Harman
+- Developer: Mark Harman, Mark Snellgrove
 
 Fly an airplane, fire missiles, drop bombs, destroy enemy buildings and planes.
 

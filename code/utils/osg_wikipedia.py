@@ -4,6 +4,7 @@ Using https://github.com/goldsmith/Wikipedia
 """
 
 import wikipedia
+wikipedia.set_lang('en') # just in case that isn't so already
 
 
 def search(search_term, results=3):
@@ -14,3 +15,11 @@ def search(search_term, results=3):
     :return:
     """
     return wikipedia.search(search_term, results=results)
+
+
+def pages(titles):
+    pages = []
+    for title in titles:
+        page = wikipedia.page(title, auto_suggest=False)
+        pages.append(page)
+    return pages

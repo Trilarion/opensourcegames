@@ -7,7 +7,7 @@
 - Code repository: https://github.com/FreeFalcon/freefalcon-central.git (@created 2013, @stars 116, @forks 76)
 - Code language: C, C++
 - Code license: 2-clause BSD
-- Developer: Vinny Diehl, PlutoniumHeart, Peter
+- Developer: Peter, PlutoniumHeart, Vinny Diehl
 
 Requires the [wixtoolset](https://wixtoolset.org/).
 

@@ -9,6 +9,6 @@
 - Code language: Objective-C, C, C++
 - Code license: MIT
 - Code dependency: Cocos2D
-- Developer: Sergey Tikhonov, Edward Palmer
+- Developer: Edward Palmer, Sergey Tikhonov
 
 ## Building

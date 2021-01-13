@@ -12,7 +12,7 @@
 - Code license: GPL-2.0 (parts 2-clause BSD)
 - Code dependency: SDL2
 - Assets license: CC0, CC-BY, CC-BY-SA
-- Developer: Cong, Lucas Martin-King, Carsten Teibes, Matthias Mailänder, Antoine Musso, Justin Jacobs, William, Veikko Soininen
+- Developer: Antoine Musso, Carsten Teibes, Cong, Justin Jacobs, Lucas Martin-King, Matthias Mailänder, Veikko Soininen, William
 
 Overhead run-and-gun game.
 

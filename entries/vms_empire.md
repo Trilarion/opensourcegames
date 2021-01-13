@@ -9,6 +9,6 @@
 - Code license: GPL-2.0
 - Code dependency: ncurses
 - Assets license: no media
-- Developer: Eric S. Raymond, Chuck Simmons, Ed James
+- Developer: Chuck Simmons, Ed James, Eric S. Raymond
 
 ## Building

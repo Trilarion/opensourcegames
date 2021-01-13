@@ -9,7 +9,7 @@
 - Code repository: https://github.com/ArmageddonGames/ZeldaClassic.git (@created 2015, @stars 289, @forks 50)
 - Code language: C, C++
 - Code license: GPL-3.0
-- Developer: venrob, ZoriaRPG, Saffith, evouga, Gleeok, Peter Hull
+- Developer: evouga, Gleeok, Peter Hull, Saffith, venrob, ZoriaRPG
 
 Game and editing tool for creating custom Legend of Zelda quests.
 

@@ -8,6 +8,6 @@
 - Code language: C++, C
 - Code license: MIT
 - Code dependency: OpenGL, SDL, SDL2
-- Developer: Ilya, Mark Ludwig, André Vicente Milack
+- Developer: André Vicente Milack, Ilya, Mark Ludwig
 
 ## Building

@@ -8,7 +8,7 @@
 - Code repository: https://svn.code.sf.net/p/d2x-xl/code (svn)
 - Code language: C++
 - Code license: Custom (see http://svn.code.sf.net/p/d2x-xl/code/trunk/LICENSE), GPL-2.0
-- Developer: karx11erx, Sirius, Aus-RED-5, Ian Taylor
+- Developer: Aus-RED-5, Ian Taylor, karx11erx, Sirius
 
 See also the Descent level editor.
 

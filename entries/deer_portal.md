@@ -9,7 +9,7 @@
 - Code license: zlib
 - Code dependency: SFML
 - Assets license: CC-BY 4.0
-- Developer: Katia Zawadzka, Rafał Zawadzki, rafalon, ukata
+- Developer: Katia Zawadzka, rafalon, Rafał Zawadzki, ukata
 
 Hybrid board/card game for four players driven by the four classical elements.
 

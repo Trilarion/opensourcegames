@@ -10,7 +10,7 @@
 - Code license: GPL-2.0
 - Code dependency: pyglet
 - Assets license: CC (caprica-letters and all the music in the latest version)
-- Developer: Paul, DavidF, Ashwin Menon, Jonathan Toomim, Rahul Patel, Samantha McVey, Paul Hoskinson, xantares
+- Developer: Ashwin Menon, DavidF, Jonathan Toomim, Paul, Paul Hoskinson, Rahul Patel, Samantha McVey, xantares
 
 Dual n-back brain training exercise.
 

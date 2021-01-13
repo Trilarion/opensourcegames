@@ -7,7 +7,7 @@
 - Code repository: https://github.com/GlPortal/glPortal.git (@created 2014, @stars 292, @forks 94)
 - Code language: C++
 - Code license: zlib
-- Developer: Henry Hirsch, JulianThijssen, Celeste Wouters, Juraj Oravec, Geert Custers, Simon Larsen, xantares, Ahmed Hussein, Amir Uqdah, Stephan Vedder, Bowen Yan, PM, Nilay, Aleksey Bykhun, Hermann Rolfes
+- Developer: Ahmed Hussein, Aleksey Bykhun, Amir Uqdah, Bowen Yan, Celeste Wouters, Geert Custers, Henry Hirsch, Hermann Rolfes, JulianThijssen, Juraj Oravec, Nilay, PM, Simon Larsen, Stephan Vedder, xantares
 
 ## Building
 

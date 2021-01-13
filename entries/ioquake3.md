@@ -10,7 +10,7 @@
 - Code language: C
 - Code license: GPL-2.0
 - Code dependency: SDL2
-- Developer: Zack Middleton, Tim Angus, Thilo Schulz, Ludwig Nussel, James Canete, Ryan C. Gordon, Jack Slater, Tony White, Simon McVittie, Pan7, Thomas Köppe, Jeremiah Sypult, Ensiform, hairball, Dominic Fandrey, Tom Kidd, Anthony Pesch, Mickaël Thomas, ToKu, MAN-AT-ARMS, Richard Allen, cmf028, Eugene C.
+- Developer: Anthony Pesch, cmf028, Dominic Fandrey, Ensiform, Eugene C., hairball, Jack Slater, James Canete, Jeremiah Sypult, Ludwig Nussel, MAN-AT-ARMS, Mickaël Thomas, Pan7, Richard Allen, Ryan C. Gordon, Simon McVittie, Thilo Schulz, Thomas Köppe, Tim Angus, ToKu, Tom Kidd, Tony White, Zack Middleton
 
 [Derivative games](https://ioquake3.org/extras/derivative-games/)
 

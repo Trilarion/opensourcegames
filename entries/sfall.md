@@ -8,7 +8,7 @@
 - Code repository: https://github.com/phobos2077/sfall.git (@created 2015, @stars 140, @forks 14)
 - Code language: C++, C
 - Code license: GPL-3.0
-- Developer: NovaRain, Vlad, Mr.Stalin, vlad-saritasa, Vennor
+- Developer: Mr.Stalin, NovaRain, Vennor, Vlad, vlad-saritasa
 
 Engine modifications for the classic game Fallout 2 including bug fixes, support for modern operatins systems and additional features for modders.
 

@@ -7,7 +7,7 @@
 - Code repository: https://github.com/sulix/omnispeak.git (@created 2012, @stars 224, @forks 18)
 - Code language: C
 - Code license: GPL-2.0
-- Developer: David Gow, NY00123, owenmpierce, Martin Fiedler, Szilárd Biró
+- Developer: David Gow, Martin Fiedler, NY00123, owenmpierce, Szilárd Biró
 
 Aims to be pixel-perfect, bug-for-bug clone.
 

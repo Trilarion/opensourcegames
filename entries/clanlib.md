@@ -7,7 +7,7 @@
 - Code repository: https://github.com/sphair/ClanLib.git (@created 2013, @stars 277, @forks 64)
 - Code language: C, C++
 - Code license: zlib
-- Developer: Mark Page, Magnus Norddahl, Kenneth Gangstø, Grizmu, Artem, Chu Chin Kuan, Lethal Ghost, roothorick, authenticate, xantares, Pyrdacor, Jeremy Cochoy
+- Developer: Artem, authenticate, Chu Chin Kuan, Grizmu, Jeremy Cochoy, Kenneth Gangstø, Lethal Ghost, Magnus Norddahl, Mark Page, Pyrdacor, roothorick, xantares
 
 Medium level development kit.
 Which games use ClanLib?

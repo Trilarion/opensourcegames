@@ -8,7 +8,7 @@
 - Code repository: https://github.com/crossuo/crossuo.git (@created 2019, @stars 111, @forks 23)
 - Code language: C, C++
 - Code license: GPL-3.0
-- Developer: Hotride, Val, Danny Angelo Carminati Grein, GarantEEG, John, Everton Fernando Patitucci da Silva, Artem Ivanov, Deuce, Münir Ozan Topcu, Sascha, Solandus, Olivier Abdesselam, Nic84, Jakub Linhart
+- Developer: Artem Ivanov, Danny Angelo Carminati Grein, Deuce, Everton Fernando Patitucci da Silva, GarantEEG, Hotride, Jakub Linhart, John, Münir Ozan Topcu, Nic84, Olivier Abdesselam, Sascha, Solandus, Val
 
 ## Building
 

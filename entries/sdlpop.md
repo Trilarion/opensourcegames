@@ -8,7 +8,7 @@
 - Code language: C
 - Code license: GPL-3.0
 - Code dependency: SDL
-- Developer: Dávid Nagy, Pieter Valkema, Kees Cook, Ryzee119, Enrique P. Calot, Błażej Szczygieł, Robert Crossfield
+- Developer: Błażej Szczygieł, Dávid Nagy, Enrique P. Calot, Kees Cook, Pieter Valkema, Robert Crossfield, Ryzee119
 
 ## Building
 

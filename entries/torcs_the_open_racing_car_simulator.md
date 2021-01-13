@@ -11,7 +11,7 @@
 - Code license: GPL-2.0
 - Code dependency: GLUT
 - Assets license: FAL
-- Developer: Bernhard Wymann, Eric Espie, Christophe Guionneau, Christos Dimitrakakis, Rémi Coulom
+- Developer: Bernhard Wymann, Christophe Guionneau, Christos Dimitrakakis, Eric Espie, Rémi Coulom
 
 Car racing simulation.
 

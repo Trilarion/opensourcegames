@@ -8,6 +8,6 @@
 - Code language: C
 - Code license: GPL-2.0, MIT, ISC
 - Code dependency: SDL2
-- Developer: martin, Lars-Ivar Hesselberg Simonsen, Emil Sandstø, Jo Emil Holen
+- Developer: Emil Sandstø, Jo Emil Holen, Lars-Ivar Hesselberg Simonsen, martin
 
 ## Building

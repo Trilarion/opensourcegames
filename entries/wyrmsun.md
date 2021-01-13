@@ -9,7 +9,7 @@
 - Code license: GPL-2.0
 - Code dependency: Modified Stratagus
 - Assets license: CC0, GPL-2.0 (some music and sound from Battle for Wesnoth)
-- Developer: Andrettin, Marcelo Fernandez, Pawonashi, BeWorld, Rémi Verschelde, Dmitry Marakasov, Szunti
+- Developer: Andrettin, BeWorld, Dmitry Marakasov, Marcelo Fernandez, Pawonashi, Rémi Verschelde, Szunti
 
 Features elements of mythology, history and fiction.
 

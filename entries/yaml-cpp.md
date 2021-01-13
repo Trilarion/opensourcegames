@@ -6,7 +6,7 @@
 - Code repository: https://github.com/jbeder/yaml-cpp.git (@created 2015, @stars 2417, @forks 844)
 - Code language: C++
 - Code license: MIT
-- Developer: Jesse Beder, Chen, Andy Maloney, Rosen Penev, Ted Lyngmo, Matthew Woehlke, Jens Breitbart, Scott Wolchok
+- Developer: Andy Maloney, Chen, Jens Breitbart, Jesse Beder, Matthew Woehlke, Rosen Penev, Scott Wolchok, Ted Lyngmo
 
 YAML parser and emitter in C++ matching the YAML 1.2 spec.
 

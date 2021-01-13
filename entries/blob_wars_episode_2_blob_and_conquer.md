@@ -9,7 +9,7 @@
 - Code license: GPL-2.0
 - Code dependency: SDL
 - Assets license: commercial
-- Developer: Stephen Sweeney, Hans de Goede, Guus Sliepen, Alba Mendez
+- Developer: Alba Mendez, Guus Sliepen, Hans de Goede, Stephen Sweeney
 
 Created by Parallel Realities.
 

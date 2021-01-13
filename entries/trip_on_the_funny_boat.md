@@ -10,7 +10,7 @@
 - Code license: GPL-2.0
 - Code dependency: PixelPerfect
 - Assets license: Expat license
-- Developer: Puskutraktori (code, graphics, sound), Olli "Hectigo" Etuaho (graphics, code), Joona "JDruid" Karjalainen (music), Konstantin Yegupov, Pekuja, Olli Etuaho
+- Developer: Joona "JDruid" Karjalainen (music), Konstantin Yegupov, Olli "Hectigo" Etuaho (graphics, code), Olli Etuaho, Pekuja, Puskutraktori (code, graphics, sound)
 
 Uses fonts by Bitstream Inc.
 

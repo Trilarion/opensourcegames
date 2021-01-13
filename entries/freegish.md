@@ -10,7 +10,7 @@
 - Code license: GPL-2.0
 - Code dependency: SDL
 - Assets license: CC-BY-SA-3.0
-- Developer: FrozenCow, blinry, Luboš Novák, Joris van de Donk, Asmageddon, James Le Cuirot, Adam Mizerski
+- Developer: Adam Mizerski, Asmageddon, blinry, FrozenCow, James Le Cuirot, Joris van de Donk, Luboš Novák
 
 ## Building
 

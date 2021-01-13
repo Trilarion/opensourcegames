@@ -8,7 +8,7 @@
 - Code repository: https://github.com/etternagame/etterna.git (@created 2017, @stars 213, @forks 81)
 - Code language: C, C++, Lua
 - Code license: MIT
-- Developer: MinaciousGrace, AJ Kelly, Jason Felds, poco0317, Nicolas, Kyzentun, Colby Klein, James, Devin J. Pohly, Thai Pangsakulyanont, tertu, roothorick, xwidghet, Alberto Ramos, TheROPFather, Misterkister, Henrik "Henke37" Andersson, Matt Gardner, Jonathan Payne, caiohsr14, Matthew Martens, vyhd, Andrew Plotner, quietly-turning, "hanubeki (@803832)", johnreactor, Yome, Shenjoku, SpaceGorilla, foxfire667, Johannes Brandt Nielsen, Alexander Griffin, Aldo Fregoso, Luizsan, sillybear, Renaud Lepage, Manu Evans, cerbocb, Prcuvu, Diego Ahumada, ZipFile, psmay, RGates94, phantom10111, Arvaneth, Nathan G, A.C, Colin, kangalioo, shavit, sinefuse, Mikko Murtokangas, Vincent Laviron, Supreeeme, dadcop2, Jolomann, Fire, spigwitmer, External69, Raymund Zacharias, handbeezy, Thumbsy
+- Developer: A.C, AJ Kelly, Alberto Ramos, Aldo Fregoso, Alexander Griffin, Andrew Plotner, Arvaneth, caiohsr14, cerbocb, Colby Klein, Colin, dadcop2, Devin J. Pohly, Diego Ahumada, External69, Fire, foxfire667, handbeezy, "hanubeki (@803832)", Henrik "Henke37" Andersson, James, Jason Felds, Johannes Brandt Nielsen, johnreactor, Jolomann, Jonathan Payne, kangalioo, Kyzentun, Luizsan, Manu Evans, Matt Gardner, Matthew Martens, Mikko Murtokangas, MinaciousGrace, Misterkister, Nathan G, Nicolas, phantom10111, poco0317, Prcuvu, psmay, quietly-turning, Raymund Zacharias, Renaud Lepage, RGates94, roothorick, shavit, Shenjoku, sillybear, sinefuse, SpaceGorilla, spigwitmer, Supreeeme, tertu, Thai Pangsakulyanont, TheROPFather, Thumbsy, Vincent Laviron, vyhd, xwidghet, Yome, ZipFile
 
 Rhythm game focused on keyboard play.
 

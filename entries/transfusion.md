@@ -8,6 +8,6 @@
 - Code repository: http://hg.code.sf.net/p/blood/code (hg)
 - Code language: C
 - Code license: GPL-2.0
-- Developer: Mathieu Olivier, William Weilep, Cruaich, Da Weezle, Dave Turner, Greg E, Luke Ashdown, Forest Hale, Predator, Timothy Hale
+- Developer: Cruaich, Da Weezle, Dave Turner, Forest Hale, Greg E, Luke Ashdown, Mathieu Olivier, Predator, Timothy Hale, William Weilep
 
 ## Building

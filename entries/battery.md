@@ -7,7 +7,7 @@
 - Code repository: https://github.com/GaidamakUA/BatteryReborn.git (new approach, @created 2019, @stars 3, @forks 1)
 - Code language: Java
 - Code license: EPL-2.0 (new approach), Custom (old see _README.txt)
-- Developer: Maxim Markaitis, em7em7em, Ian Gusev, Yurii Mazurevich
+- Developer: em7em7em, Ian Gusev, Maxim Markaitis, Yurii Mazurevich
 
 Control an airplane in a top-down view and shoot down enemy planes, helicopters and tanks.
 

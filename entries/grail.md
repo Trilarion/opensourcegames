@@ -8,7 +8,7 @@
 - Code language: C++, Lua
 - Code license: GPL-3.0
 - Code dependency: SDL
-- Developer: Henning Hasemann, feelydj
+- Developer: feelydj, Henning Hasemann
 
 ## Building
 

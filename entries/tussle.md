@@ -10,7 +10,7 @@
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependency: pygame
-- Developer: eaglgenes101, digiholic
+- Developer: digiholic, eaglgenes101
 
 Just an engine. Create your own characters or download them.
 

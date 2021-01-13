@@ -8,7 +8,7 @@
 - Code language: C++
 - Code license: MIT
 - Code dependency: OpenAL, SDL2
-- Developer: metalvoidzz, FilipJanitor, Jakob Sinclair
+- Developer: FilipJanitor, Jakob Sinclair, metalvoidzz
 
 ## Building
 

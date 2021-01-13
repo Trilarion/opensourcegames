@@ -9,6 +9,6 @@
 - Code license: AGPL-3.0
 - Code dependency: Twisted
 - Assets license: CC-BY-SA-3.0
-- Developer: Farsides, Matjaz Gregoric, Adolfo R. Brandes, Xavier Antoviaque, Chris McCormick, Rogerio Hilbert Lima
+- Developer: Adolfo R. Brandes, Chris McCormick, Farsides, Matjaz Gregoric, Rogerio Hilbert Lima, Xavier Antoviaque
 
 ## Building

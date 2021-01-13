@@ -10,7 +10,7 @@
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependency: OGRE, SDL2, VDrift
-- Developer: Crystal Hammer, Tapio Vierros, ahmedismaiel, Rémi Verschelde, Alan Szlosek Jr, Dmitry Marakasov
+- Developer: ahmedismaiel, Alan Szlosek Jr, Crystal Hammer, Dmitry Marakasov, Rémi Verschelde, Tapio Vierros
 
 With rally style of driving.
 

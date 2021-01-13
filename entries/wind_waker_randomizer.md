@@ -8,7 +8,7 @@
 - Code repository: https://github.com/LagoLunatic/wwrando.git (@created 2018, @stars 212, @forks 39)
 - Code language: Python, Assembly
 - Code license: MIT
-- Developer: LagoLunatic, wooferzfg, Nabil Boutemeur, Dereck Miller, JarheadHME
+- Developer: Dereck Miller, JarheadHME, LagoLunatic, Nabil Boutemeur, wooferzfg
 
 Tool of The Legend of Zelda: The Wind Waker.
 It randomizes all the items in the game so that each playthrough is unique and you never know where a particular item will be.

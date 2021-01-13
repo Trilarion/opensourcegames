@@ -8,7 +8,7 @@
 - Code repository: https://github.com/rpgboss/rpgboss.git (@created 2012, @stars 311, @forks 156)
 - Code language: Scala, JavaScript
 - Code license: AGPL-3.0
-- Developer: Tommy C. Li, Hendrik Weiler, ravedragon, Caranille, NothingForgotten
+- Developer: Caranille, Hendrik Weiler, NothingForgotten, ravedragon, Tommy C. Li
 
 RPG game editor.
 

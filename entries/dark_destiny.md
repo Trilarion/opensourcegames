@@ -8,7 +8,7 @@
 - Code language: Java, JavaScript
 - Code license: ? (GPL version?)
 - Assets license: Custom (artwork can be freely used for modification and sharing)
-- Developer: DesertRatX, Zhdophanti, Ciannicay, Craft4, Martin Tschöpe, Albrecht Vogt, ThoHai
+- Developer: Albrecht Vogt, Ciannicay, Craft4, DesertRatX, Martin Tschöpe, ThoHai, Zhdophanti
 
 See also https://sourceforge.net/projects/darkdestinytools/
 

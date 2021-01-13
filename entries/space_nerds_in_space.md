@@ -8,7 +8,7 @@
 - Code repository: https://github.com/smcameron/space-nerds-in-space.git (@created 2012, @stars 509, @forks 54)
 - Code language: C, Lua
 - Code license: GPL-2.0
-- Developer: smcameron, Jeremy Van Grinsven, MCMic, Andrew Conrad, Justin Warwick, Michael Aldridge, Iván Sánchez Ortega
+- Developer: Andrew Conrad, Iván Sánchez Ortega, Jeremy Van Grinsven, Justin Warwick, MCMic, Michael Aldridge, smcameron
 
 ## Building
 

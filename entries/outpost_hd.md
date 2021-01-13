@@ -7,7 +7,7 @@
 - Code repository: https://github.com/OutpostUniverse/OPHD.git (@created 2018, @stars 40, @forks 9)
 - Code language: C++
 - Code license: 3-clause BSD
-- Developer: Daniel Stevens, Leeor Dicker, Brett, cugone
+- Developer: Brett, cugone, Daniel Stevens, Leeor Dicker
 
 ## Building
 

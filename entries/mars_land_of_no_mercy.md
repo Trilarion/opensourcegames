@@ -7,7 +7,7 @@
 - Code repository: https://gitlab.com/osgames/mars.git (backup of svn), https://svn.code.sf.net/p/mars/code (svn)
 - Code language: C++
 - Code license: GPL-2.0
-- Developer: Davide Coppola, Angelo Theodorou, Alonso Cardenas Marquez, Enetheru, dekki, Dominique Leuenberger, discojonny, Elye Ball, ender_saka, Voller
+- Developer: Alonso Cardenas Marquez, Angelo Theodorou, Davide Coppola, dekki, discojonny, Dominique Leuenberger, Elye Ball, ender_saka, Enetheru, Voller
 
 Lead a mercenary team hired to go on Mars and fight with different factions using mechs and others military vehicles.
 

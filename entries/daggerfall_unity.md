@@ -10,6 +10,6 @@
 - Code language: C#
 - Code license: MIT
 - Code dependency: Unity
-- Developer: Gavin Clayton, Andy B, Nystul-the-Magician, Allofich, TheLacus, Matt, Lypyl, Etienne, numidium, JayH2971, Ferital, Joris van Eijden, Pierre Etchemaïté, bansheexyz, Mike B., BadLuckBurt, ifkopifko, midopa, Galactic Chimp, Kirill Smirnov, GethN7, Justin Steele, Andy Blower, electrorobobody, Dominik Madarász, murderbeard, DFIronman
+- Developer: Allofich, Andy B, Andy Blower, BadLuckBurt, bansheexyz, DFIronman, Dominik Madarász, electrorobobody, Etienne, Ferital, Galactic Chimp, Gavin Clayton, GethN7, ifkopifko, JayH2971, Joris van Eijden, Justin Steele, Kirill Smirnov, Lypyl, Matt, midopa, Mike B., murderbeard, numidium, Nystul-the-Magician, Pierre Etchemaïté, TheLacus
 
 ## Building

@@ -458,7 +458,7 @@ def create_entry_content(entry):
 
     # we automatically sort some fields
     sort_fun = lambda x: str.casefold(x.value)
-    for field in ('Media', 'Inspiration', 'Code Language'):
+    for field in ('Media', 'Inspiration', 'Code Language', 'Developer', 'Build system'):
         if field in entry:
             values = entry[field]
             entry[field] = sorted(values, key=sort_fun)

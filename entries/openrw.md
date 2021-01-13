@@ -9,7 +9,7 @@
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependency: SDL2
-- Developer: Daniel Evans, Anonymous Maarten, shfil, Jannik Vogel, tsjost, darkf, Christoph Heiss, NFSMONSTR, Paul Kocialkowski, Lucas, haphzd, aldoxtor, mole99, qkolj, Marco Schmidt, Sven Stucki
+- Developer: aldoxtor, Anonymous Maarten, Christoph Heiss, Daniel Evans, darkf, haphzd, Jannik Vogel, Lucas, Marco Schmidt, mole99, NFSMONSTR, Paul Kocialkowski, qkolj, shfil, Sven Stucki, tsjost
 
 Recreation of the classic Grand Theft Auto III game executable.
 

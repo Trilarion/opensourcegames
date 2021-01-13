@@ -7,6 +7,6 @@
 - Code repository: https://github.com/Techbot/JiGS-PHP-RPG-engine.git (@created 2012, @stars 35, @forks 14)
 - Code language: JavaScript, PHP
 - Code license: GPL-3.0
-- Developer: Rob Stocker, Lisa Corcoran, Justin Kelly
+- Developer: Justin Kelly, Lisa Corcoran, Rob Stocker
 
 ## Building

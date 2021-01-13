@@ -8,6 +8,6 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL2
-- Developer: Alan Witkowski, jazztickets, christmode
+- Developer: Alan Witkowski, christmode, jazztickets
 
 ## Building

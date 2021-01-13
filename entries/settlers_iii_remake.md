@@ -8,7 +8,7 @@
 - Code repository: https://github.com/jsettlers/settlers-remake.git (@created 2014, @stars 315, @forks 93)
 - Code language: Java
 - Code license: MIT
-- Developer: Andreas Eberle, Stephan Bauer, Tom Pratt, andreasb242, Rudolf Polzer, Ivan Voronin, Paul Wedeck, JKatzwinkel, Thomas Zeugner, Simulant87, Michael Zangl, nptr, Bo Henriksen, PayDay1, abledbody, KaiN
+- Developer: abledbody, Andreas Eberle, andreasb242, Bo Henriksen, Ivan Voronin, JKatzwinkel, KaiN, Michael Zangl, nptr, Paul Wedeck, PayDay1, Rudolf Polzer, Simulant87, Stephan Bauer, Thomas Zeugner, Tom Pratt
 
 ## Building
 

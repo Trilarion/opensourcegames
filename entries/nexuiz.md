@@ -10,6 +10,6 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: DarkPlaces (Quake engine https://github.com/xonotic/darkplaces)
-- Developer: Andreas Kirsch, Dan Korostelev, Benjamin Darling, esteel, Forest Hale, SavageX, Kristian Johansson, Rudolf Polzer, SeienAbunae, Lee Vermeulen, Saulo Gil, Morphed, Hans Dampf, RazorWind Team projects
+- Developer: Andreas Kirsch, Benjamin Darling, Dan Korostelev, esteel, Forest Hale, Hans Dampf, Kristian Johansson, Lee Vermeulen, Morphed, RazorWind Team projects, Rudolf Polzer, Saulo Gil, SavageX, SeienAbunae
 
 ## Building

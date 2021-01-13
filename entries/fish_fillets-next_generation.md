@@ -11,7 +11,7 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL
-- Developer: Ivo Danihelka, adascor, Leonid Myravjev, Simone Cociancich, Damyan Ivanov, MaBu, Pavel Danihelka, Ronny Standtke, Syonax
+- Developer: adascor, Damyan Ivanov, Ivo Danihelka, Leonid Myravjev, MaBu, Pavel Danihelka, Ronny Standtke, Simone Cociancich, Syonax
 
 Android port?
 

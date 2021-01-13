@@ -10,7 +10,7 @@
 - Code language: Lua, C, C++, Pascal, Haskell
 - Code license: GPL-2.0
 - Code dependency: Qt, SDL
-- Developer: unC0Rr, Wuzzy, Vittorio Giovara, sheepluva, Richard Deurwaarder, Mario Liebisch, Anton Malmygin, Periklis Ntanasis, Displacer, Medo42, Henrik Rostedt, redgrinner, szabibibi, Carlos Vives, kryptan, greno4ka, Drew Gottlieb, Tiy, Jose Riha, Gianfranco Costamagna, foxprite, Wolfgang Steffens, szczur90, Mitchell Kember, Tobias Neumann, raptor, Ondrej Skopek, Mayur Pawashe, Joe Doyle, Tomek, Nichita Uțiu, Marcin Mielniczuk, Rowan Decker, Martin Bede, CCCBBBAAAHIGHSCORE
+- Developer: Anton Malmygin, Carlos Vives, CCCBBBAAAHIGHSCORE, Displacer, Drew Gottlieb, foxprite, Gianfranco Costamagna, greno4ka, Henrik Rostedt, Joe Doyle, Jose Riha, kryptan, Marcin Mielniczuk, Mario Liebisch, Martin Bede, Mayur Pawashe, Medo42, Mitchell Kember, Nichita Uțiu, Ondrej Skopek, Periklis Ntanasis, raptor, redgrinner, Richard Deurwaarder, Rowan Decker, sheepluva, szabibibi, szczur90, Tiy, Tobias Neumann, Tomek, unC0Rr, Vittorio Giovara, Wolfgang Steffens, Wuzzy
 
 ## Building
 

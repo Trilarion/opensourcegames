@@ -9,7 +9,7 @@
 - Code language: C
 - Code license: GPL-2.0
 - Code dependency: SDL
-- Developer: Gabor Torok, Pedro Izecksohn, Alex Clark
+- Developer: Alex Clark, Gabor Torok, Pedro Izecksohn
 
 ## Building
 

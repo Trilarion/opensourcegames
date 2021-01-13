@@ -8,7 +8,7 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL
-- Developer: Matthew Sarnoff, Chris DeLeon, John Nesky, Gregory Peng, Jeff Thoene, Tuscan Knox (music), Michael Weber
+- Developer: Chris DeLeon, Gregory Peng, Jeff Thoene, John Nesky, Matthew Sarnoff, Michael Weber, Tuscan Knox (music)
 
 ## Building
 

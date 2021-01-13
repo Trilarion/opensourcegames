@@ -8,7 +8,7 @@
 - Code repository: https://github.com/infidel-/cult.git (@created 2015, @stars 13, @forks 4)
 - Code language: Haxe, JavaScript
 - Code license: GPL-3.0
-- Developer: Max Kowarski (lead), Chris Oelmueller
+- Developer: Chris Oelmueller, Max Kowarski (lead)
 
 Build your cult of followers and try to summon Elder God.
 

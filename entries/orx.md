@@ -8,7 +8,7 @@
 - Code repository: https://github.com/orx/orx.git (@created 2015, @stars 606, @forks 58)
 - Code language: C
 - Code license: zlib
-- Developer: iarwain, Philippe Simons, Zor, Sausage Johnson, Andrew, Geoffrey Clark
+- Developer: Andrew, Geoffrey Clark, iarwain, Philippe Simons, Sausage Johnson, Zor
 
 Plugin-based, data-driven 2D-oriented game engine.
 

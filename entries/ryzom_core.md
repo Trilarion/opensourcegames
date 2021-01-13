@@ -9,7 +9,7 @@
 - Code language: C++
 - Code license: AGPL-3.0
 - Assets license: CC
-- Developer: Jan Boon, nimetu, Matt Raykowski, Guillaume Dupuy, Ulukyn, dfighter1985, Riasan, NO-BREAK SPACE OÜ, Cédric OCHS, StudioEtrange, Gary, liria, Shubham Meena, ThibG, Rodolphe Bréard, Tobias Peters, Geels12, Michaël Witrant, dnk-88
+- Developer: Cédric OCHS, dfighter1985, dnk-88, Gary, Geels12, Guillaume Dupuy, Jan Boon, liria, Matt Raykowski, Michaël Witrant, nimetu, NO-BREAK SPACE OÜ, Riasan, Rodolphe Bréard, Shubham Meena, StudioEtrange, ThibG, Tobias Peters, Ulukyn
 
 MMORPG with open world play. Play at https://www.ryzom.com/ (commercial)
 

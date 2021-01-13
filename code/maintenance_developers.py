@@ -39,7 +39,7 @@ class DevelopersMaintainer:
             for other_name in developer_names[index + 1:]:
                 if osg.name_similarity(str.casefold(name), str.casefold(other_name)) > 0.85:
                     print(' {} - {} is similar'.format(name, other_name))
-        print('duplicates checked (took {:.3f}s)'.format(time.process_time()-start_time))
+        print('duplicates checked (took {:.1f}s)'.format(time.process_time()-start_time))
 
     def check_for_orphans(self):
         if not self.developers:

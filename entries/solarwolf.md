@@ -10,7 +10,7 @@
 - Code language: Python
 - Code license: LGPL-2.1
 - Code dependency: pygame
-- Developer: Pete Shinners, Eero Tamminen
+- Developer: Eero Tamminen, Pete Shinners
 
 ## Building
 

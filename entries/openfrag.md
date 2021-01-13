@@ -7,7 +7,7 @@
 - Code repository: https://svn.code.sf.net/p/openfrag/code (svn)
 - Code language: C++, Lua
 - Code license: GPL-2.0
-- Developer: Sander Bisschops, Geert Schoots, IFASS, Levia, Simon de la Court, b1n, Captnoord, Frank Oosterhuis, Frank, Lukas Tönne, Jack Coulter, Matt Williams, Lythaniel, Alex Trujillo, Luke Papaj, Simon G, Micah, Andreas Osowski, Ivan Nikolaev, Pedro Azevedo, yaen, Yossi mozgerashvily
+- Developer: Alex Trujillo, Andreas Osowski, b1n, Captnoord, Frank, Frank Oosterhuis, Geert Schoots, IFASS, Ivan Nikolaev, Jack Coulter, Levia, Lukas Tönne, Luke Papaj, Lythaniel, Matt Williams, Micah, Pedro Azevedo, Sander Bisschops, Simon de la Court, Simon G, yaen, Yossi mozgerashvily
 
 ## Building
 

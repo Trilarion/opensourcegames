@@ -7,7 +7,7 @@
 - Code repository: https://github.com/jpmalkiewicz/decker.git (import, @created 2018, @stars 1, @forks 0), https://svn.code.sf.net/p/decker/code (svn)
 - Code language: Java
 - Code license: GPL-2.0
-- Developer: Shawn Overcash, zyphrus, Bence Dobos, Jeremy Reeves, Gonzalo Bianchi, Lexaeus, Michael John Marsh, Will Sommer, David Barnett, Vasilij Savin
+- Developer: Bence Dobos, David Barnett, Gonzalo Bianchi, Jeremy Reeves, Lexaeus, Michael John Marsh, Shawn Overcash, Vasilij Savin, Will Sommer, zyphrus
 
 Cyberspace hacking RPG where you hack into corporate systems to perform missions for rival corporations.
 Is there a C++ version?

@@ -8,7 +8,7 @@
 - Code language: C++, C
 - Code license: Custom
 - Code dependency: SDL
-- Developer: gliptic, Anders Höckersten
+- Developer: Anders Höckersten, gliptic
 
 Liero 1.36. License information at http://www.liero.be/licenses/135/license.txt
 

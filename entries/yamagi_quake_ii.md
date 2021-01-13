@@ -9,7 +9,7 @@
 - Code language: C
 - Code license: GPL-2.0
 - Code dependency: SDL
-- Developer: Yamagi, Daniel Gibson, Denis Pauk, svdijk, David CARLIER, Boris I. Bendovsky, Christoph Mallon, VALGUSK, A. J. Ricoveri, Bradley Clemetson, Simon McVittie, David Reid, Larry Davis, Mathyn, Spirrwell, Jarvik7, Krzysztof Kondrak, JoBergeron, Joshua Scoggins, earth-metal, Elkan Roelen, Ricardo Garcia, nia
+- Developer: A. J. Ricoveri, Boris I. Bendovsky, Bradley Clemetson, Christoph Mallon, Daniel Gibson, David CARLIER, David Reid, Denis Pauk, earth-metal, Elkan Roelen, Jarvik7, JoBergeron, Joshua Scoggins, Krzysztof Kondrak, Larry Davis, Mathyn, nia, Ricardo Garcia, Simon McVittie, Spirrwell, svdijk, VALGUSK, Yamagi
 
 ## Building
 

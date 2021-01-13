@@ -8,7 +8,7 @@
 - Code license: GPL-3.0
 - Code dependency: SDL
 - Assets license: ? (GPL-3.0)
-- Developer: Bruno Ethvignot, Jérôme Bolot, Jean-Michel Martin de Santero, Laurent Guyon, Régis Parret, David Igreja, Dmitry Smagin
+- Developer: Bruno Ethvignot, David Igreja, Dmitry Smagin, Jean-Michel Martin de Santero, Jérôme Bolot, Laurent Guyon, Régis Parret
 
 Brick Breaker.
 

@@ -8,7 +8,7 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Assets license: GPL-2.0
-- Developer: Matthias Kiefer, Benjamin Meyer, Stas Verberkt
+- Developer: Benjamin Meyer, Matthias Kiefer, Stas Verberkt
 
 Snake Duel for KDE (KSnake) is a snake game in the KDEGames division of KDE 4.
 In KDE 4.x it was called KSnakeRace.

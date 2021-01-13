@@ -9,7 +9,7 @@
 - Code language: Lua
 - Code license: MIT
 - Code dependency: LÖVE
-- Developer: Rami Sabbagh, trabitboy, boredom101, Phil Hagelberg, Egor Dorichev, Lucas Henrique, Marcuss2, Fernando Carmona Varo, Pablo Ariel Mayobre, Filippo, Joshua Minor, Thirite, abledbody, Trevor Martin
+- Developer: abledbody, boredom101, Egor Dorichev, Fernando Carmona Varo, Filippo, Joshua Minor, Lucas Henrique, Marcuss2, Pablo Ariel Mayobre, Phil Hagelberg, Rami Sabbagh, Thirite, trabitboy, Trevor Martin
 
 Fantasy computer that you can use to make, play and share tiny retro-looking games and programs.
 Games made by it: https://liko-12.github.io/Disks/

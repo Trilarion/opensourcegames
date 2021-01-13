@@ -9,7 +9,7 @@
 - Code repository: https://github.com/etlegacy/etlegacy.git (@created 2020, @stars 168, @forks 34)
 - Code language: C, C++, Lua
 - Code license: GPL-3.0
-- Developer: IR4T4, Remy Marquis, Aranud, Jacker, Radegast, rafal1137, ETLegacyTransifexRobot, isRyven, Konrad Mosoń, Thunder, Zack Middleton, Tai Chi Minh Ralph Eastwood, Ensiform, Szilárd Biró, saukko28, Ron Driessen, Timo Smit, laaksonenl, Dmitry Tsarevich, Seth Willits, Dušan Jocić, Reiner Herrmann, harleking, Nicolas Boutet, zedar187, kuromiii, solchanel, Lukasz Stolcman, Dominic Fandrey, Thomas Köppe, Artem Vorotnikov, Keith Miller, Tim Angus, Hermann Rolfes, Mads Boddum
+- Developer: Aranud, Artem Vorotnikov, Dmitry Tsarevich, Dominic Fandrey, Dušan Jocić, Ensiform, ETLegacyTransifexRobot, harleking, Hermann Rolfes, IR4T4, isRyven, Jacker, Keith Miller, Konrad Mosoń, kuromiii, laaksonenl, Lukasz Stolcman, Mads Boddum, Nicolas Boutet, Radegast, rafal1137, Reiner Herrmann, Remy Marquis, Ron Driessen, saukko28, Seth Willits, solchanel, Szilárd Biró, Tai Chi Minh Ralph Eastwood, Thomas Köppe, Thunder, Tim Angus, Timo Smit, Zack Middleton, zedar187
 
 Fully compatible client and server for the online FPS game Wolfenstein: Enemy Territory.
 

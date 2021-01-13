@@ -9,6 +9,6 @@
 - Code language: C#
 - Code license: MPL-2.0
 - Code dependency: MonoGame
-- Developer: riperiperi, ddfczm, Mats Vederhus, TheArchitectFreeSO, Tony Bark, dotequals, Cosmatevs, Todd Hertzelle, Jeremy Glazebrook, simptomo, Franco Franks, Sim
+- Developer: Cosmatevs, ddfczm, dotequals, Franco Franks, Jeremy Glazebrook, Mats Vederhus, riperiperi, Sim, simptomo, TheArchitectFreeSO, Todd Hertzelle, Tony Bark
 
 ## Building

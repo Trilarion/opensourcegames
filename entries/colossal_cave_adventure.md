@@ -7,7 +7,7 @@
 - Code repository: https://github.com/brandon-rhodes/python-adventure.git (@created 2014, @stars 87, @forks 33)
 - Code language: Python
 - Code license: Apache-2.0
-- Developer: William Crowther, Don Woods, Jim Gilloghy (C port), Brandon Rhodes
+- Developer: Brandon Rhodes, Don Woods, Jim Gilloghy (C port), William Crowther
 
 Original Colossal Caves adventure game, but in Python 3.
 More repositories?

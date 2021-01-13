@@ -11,7 +11,7 @@
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependency: SDL2
-- Developer: George Kalampokis, Robert Beckebans, Daniel Gibson, shawn, Tobias Frost, Jonathan Young, Biel Bestué de Luna, Radegast, Andreas Bergmeier, r-a-sattarov, Wintermute 0110, Codes4Fun, Yamagi, Darren Salt, Pat Raynor, David Foerster
+- Developer: Andreas Bergmeier, Biel Bestué de Luna, Codes4Fun, Daniel Gibson, Darren Salt, David Foerster, George Kalampokis, Jonathan Young, Pat Raynor, r-a-sattarov, Radegast, Robert Beckebans, shawn, Tobias Frost, Wintermute 0110, Yamagi
 
 Update of the classic DOOM engine inside DOOM 3 BFG Edition.
 Classic RBDoom 3 BFG is updating the classic DOOM engine inside DOOM 3 BFG Edition

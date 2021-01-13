@@ -8,7 +8,7 @@
 - Code repository: https://github.com/jdmonin/JSettlers2.git (@created 2012, @stars 110, @forks 59), http://jsettlers.cvs.sourceforge.net (cvs), http://jsettlers2.cvs.sourceforge.net (cvs)
 - Code language: Java
 - Code license: GPL-3.0
-- Developer: Chad McHenry, Robert Thomas, Jeremy D. Monin, Paul Bilnoski, generateui, colinwerner, Luis Ramirez, Alessandro D'Ottavio
+- Developer: Alessandro D'Ottavio, Chad McHenry, colinwerner, generateui, Jeremy D. Monin, Luis Ramirez, Paul Bilnoski, Robert Thomas
 
 Web-based version of the board game Settlers of Catan written in Java.
 See also http://www.settlers-android-clone.com/, https://github.com/jsettlers/settlers-remake

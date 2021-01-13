@@ -9,6 +9,6 @@
 - Code repository: https://github.com/NullpoMino/NullpoMino.git (@created 2016, @stars 369, @forks 53)
 - Code language: Java
 - Code license: 3-clause BSD
-- Developer: Robin Kirkman, Code.
+- Developer: Code., Robin Kirkman
 
 ## Building

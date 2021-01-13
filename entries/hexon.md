@@ -8,7 +8,7 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: Urho3D
-- Developer: 魔大农, Thorbjørn Lindeijer, Richel Bilderbeek
+- Developer: Richel Bilderbeek, Thorbjørn Lindeijer, 魔大农
 
 Twin-stick shooter
 

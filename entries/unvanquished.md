@@ -12,7 +12,7 @@
 - Code license: GPL-3.0
 - Code dependency: Dæmon
 - Assets license: CC-BY-SA-2.5
-- Developer: Dolce Triade, Thomas Debesse, kharnov, Viech, Darren Salt, Corentin Wallez, cmf028, Amanieu d'Antras, Tim, gimhael, Mattia Basaglia, Paweł Redman, Sixthly, Veyrdite, TimePath, Gireen, hurf blurf, gmcode, Dmitry Tsarevich, Zack Middleton, slipher, Theodoros Theodoridis, Trinitrotoluene-, neumond, jaytersen, caldazar-at, M. Kristall, Anthony J. Bentley, DeLift, maek, Dimitriio, cu-kai, Jani Mäkinen, Zachary L, DefaultUser, David CARLIER
+- Developer: Amanieu d'Antras, Anthony J. Bentley, caldazar-at, cmf028, Corentin Wallez, cu-kai, Darren Salt, David CARLIER, DefaultUser, DeLift, Dimitriio, Dmitry Tsarevich, Dolce Triade, gimhael, Gireen, gmcode, hurf blurf, Jani Mäkinen, jaytersen, kharnov, M. Kristall, maek, Mattia Basaglia, neumond, Paweł Redman, Sixthly, slipher, Theodoros Theodoridis, Thomas Debesse, Tim, TimePath, Trinitrotoluene-, Veyrdite, Viech, Zachary L, Zack Middleton
 
 FPS/RTS hybrid game powered by the Daemon engine (a combination of ioq3 and XreaL).
 

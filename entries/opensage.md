@@ -9,6 +9,6 @@
 - Code repository: https://github.com/OpenSAGE/OpenSAGE.git (@created 2017, @stars 676, @forks 77)
 - Code language: C#
 - Code license: LGPL-3.0
-- Developer: Tim Jones, Michael Schnabel, Stephan Vedder, Paavo Huhtala, Daniel Sklenitzka, Daan Meijer, Birgit, Lanyi, Markus Hiller, Jana Mohn, hashkitten, Voldie
+- Developer: Birgit, Daan Meijer, Daniel Sklenitzka, hashkitten, Jana Mohn, Lanyi, Markus Hiller, Michael Schnabel, Paavo Huhtala, Stephan Vedder, Tim Jones, Voldie
 
 ## Building

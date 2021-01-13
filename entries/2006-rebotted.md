@@ -8,7 +8,7 @@
 - Code repository: https://github.com/2006rebotted/2006rebotted.git (@created 2019, @stars 65, @forks 119)
 - Code language: Java
 - Code license: 2-clause BSD
-- Developer: Daniel Ginovker, Danial, Mr Extremez, Josh Shippam, Gptaqbc, Olivier, Damion, Ben Maher, DPSCryptic, MitchvanWijngaarden, Arisu, Sandro Coutinho
+- Developer: Arisu, Ben Maher, Damion, Danial, Daniel Ginovker, DPSCryptic, Gptaqbc, Josh Shippam, MitchvanWijngaarden, Mr Extremez, Olivier, Sandro Coutinho
 
 Remake of Runescape Classic.
 Open source 2006 Runescape emulation with botting.

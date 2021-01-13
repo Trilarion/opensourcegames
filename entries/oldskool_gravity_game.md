@@ -10,7 +10,7 @@
 - Code license: GPL-3.0
 - Code dependency: OpenGL, SDL
 - Assets license: Artistic license-1.0 (font)
-- Developer: Jimmy Christensen, Jimmy, Dmitry Marakasov
+- Developer: Dmitry Marakasov, Jimmy, Jimmy Christensen
 
 ## Building
 

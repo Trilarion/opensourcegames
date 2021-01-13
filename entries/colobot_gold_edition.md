@@ -9,7 +9,7 @@
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: SDL2
-- Developer: Daniel Roux, TerranovaTeam, krzys_h, Piotr Dziwiński, Programerus, Krzysztof Dermont, Tomasz Kapuściński, Didier Raboud, tomangelo, melex750, Mateusz Przybył, Michał Konopacki, Marcin Zawadzki, adiblol, AbigailBuccaneer, Michał Zieliński, piotrwalkusz1, Muzscaly, Victor Vieux, Alexander Monakov, Oleg Kosmakov, xiendev, Raptor Parkowski, José Robson Mariano Alves, MatiRg, Alexander "Ananace" Olofsson
+- Developer: AbigailBuccaneer, adiblol, Alexander "Ananace" Olofsson, Alexander Monakov, Daniel Roux, Didier Raboud, José Robson Mariano Alves, krzys_h, Krzysztof Dermont, Marcin Zawadzki, Mateusz Przybył, MatiRg, melex750, Michał Konopacki, Michał Zieliński, Muzscaly, Oleg Kosmakov, Piotr Dziwiński, piotrwalkusz1, Programerus, Raptor Parkowski, TerranovaTeam, tomangelo, Tomasz Kapuściński, Victor Vieux, xiendev
 
 You can program your units (bots) in a language called CBOT, which is similar to C++ and Java.
 Updated version of the Colobot original source code.

@@ -9,7 +9,7 @@
 - Code repository: https://svn.code.sf.net/p/vassalengine/svn (svn)
 - Code language: Java
 - Code license: LGPL-2.1
-- Developer: Rodney Kinney, Joel Uckelman, Arnaud Bouis, Julien Cassignol, Aaron Liebling, Ben Smith, Brian Kemp, Bob Davison, Bo Leer-Andersen, Carlo Fedeli, Martin Hubley, Nick Kobelja, Andy McMaster, Daniel Takai, David Sullivan, Dennis Jorgenson, Eric Lloyd, Ken Stevens, Federico Corso, George Hayward, Jim Cotugno, John, Jim Urbas, Lance Leung, CAMELOT, Michael Kiefte, Anthony Galica, Dominik Derwinski, matt brennan, Joseph Tilley, Pieter Geerkens, Jonathan C. Dietrich, Meng Tan, Santiago Rodrigez Pozo, Scott Tooker, Jerry, Brent Easton, Tim Byrne, Tim_McCarron, Tom Repetti, Torsten Spindler, Carl Bartlett, Jon, Jeff Coyle, wlk
+- Developer: Aaron Liebling, Andy McMaster, Anthony Galica, Arnaud Bouis, Ben Smith, Bo Leer-Andersen, Bob Davison, Brent Easton, Brian Kemp, CAMELOT, Carl Bartlett, Carlo Fedeli, Daniel Takai, David Sullivan, Dennis Jorgenson, Dominik Derwinski, Eric Lloyd, Federico Corso, George Hayward, Jeff Coyle, Jerry, Jim Cotugno, Jim Urbas, Joel Uckelman, John, Jon, Jonathan C. Dietrich, Joseph Tilley, Julien Cassignol, Ken Stevens, Lance Leung, Martin Hubley, matt brennan, Meng Tan, Michael Kiefte, Nick Kobelja, Pieter Geerkens, Rodney Kinney, Santiago Rodrigez Pozo, Scott Tooker, Tim Byrne, Tim_McCarron, Tom Repetti, Torsten Spindler, wlk
 
 Game engine for creating electronic versions of traditional board and card games.
 Quite a few [VASSAL modules](http://www.vassalengine.org/wiki/Category:Modules).

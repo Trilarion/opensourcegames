@@ -8,7 +8,7 @@
 - Code repository: https://gitlab.com/osgames/theclans.git (backup of cvs), http://theclans.cvs.sourceforge.net/ (cvs)
 - Code language: C
 - Code license: GPL-2.0
-- Developer: Allen Ussher, Stephen James Hurd, Tim Nordell, Rob Swindell
+- Developer: Allen Ussher, Rob Swindell, Stephen James Hurd, Tim Nordell
 
 The Clans was a popular game written for online BBSes back in the day of their great popularity.
 

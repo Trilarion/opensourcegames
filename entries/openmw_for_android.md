@@ -9,7 +9,7 @@
 - Code repository: https://github.com/xyzz/openmw-android.git (@created 2018, @stars 170, @forks 20)
 - Code language: Kotlin, Java
 - Code license: GPL-3.0
-- Developer: xyzz, sandstranger, Bret Curtis, Licaon_Kter
+- Developer: Bret Curtis, Licaon_Kter, sandstranger, xyzz
 
 See also [OpenMW](openmw.md).
 

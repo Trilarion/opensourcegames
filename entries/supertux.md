@@ -11,6 +11,6 @@
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: Boost, SDL2
-- Developer: Ingo Ruhnke, Tobias Markus, serano01, Matthias Braun, Hume2, Christoph Sommer, LMH0013, Ryan Flegel, Wolfgang Becker, Max Teufel, Mathnerd314, weluvgoatz, Jacob Burroughs, Carsten Wirtz, Ondřej Hošek, Benjamin Leduc , Alzter, Timothy Goya, ‮, Zwatotem, Savsish, Semphriss, leper, Bill Kendrick, Martin van Zijl, Christian Hagemeier, Karkus, Sebastian Neubauer, brmbrmcar, divVerent, Omer I.S., Ocelot, 165your4, Bobby Youstra, Daniel Butum, MiroslavR, Matthew, Shawn Anastasio, Matt McCutchen, Sergii Pylypenko, Andy Alt
+- Developer: 165your4, Alzter, Andy Alt, Benjamin Leduc, Bill Kendrick, Bobby Youstra, brmbrmcar, Carsten Wirtz, Christian Hagemeier, Christoph Sommer, Daniel Butum, divVerent, Hume2, Ingo Ruhnke, Jacob Burroughs, Karkus, leper, LMH0013, Martin van Zijl, Mathnerd314, Matt McCutchen, Matthew, Matthias Braun, Max Teufel, MiroslavR, Ocelot, Omer I.S., Ondřej Hošek, Ryan Flegel, Savsish, Sebastian Neubauer, Semphriss, serano01, Sergii Pylypenko, Shawn Anastasio, Timothy Goya, Tobias Markus, weluvgoatz, Wolfgang Becker, Zwatotem, ‮
 
 ## Building

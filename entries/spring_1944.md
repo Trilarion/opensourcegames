@@ -9,7 +9,7 @@
 - Code license: GPL-2.0, CC-BY-NC-3.0 (https://github.com/spring1944/spring1944/blob/master/docs/License.txt)
 - Code dependency: Spring RTS engine
 - Assets license: CC-BY-NC-3.0
-- Developer: yuritch, FLOZi, jal76, Eshed Shaham, Ben Tyler, Jose Luis Cercós Pita, PepeAmpere, buumi, Fedja Beader, Elí Santiago, frju365
+- Developer: Ben Tyler, buumi, Elí Santiago, Eshed Shaham, Fedja Beader, FLOZi, frju365, jal76, Jose Luis Cercós Pita, PepeAmpere, yuritch
 
 Gameplay is a mix of Company of Heroes and Supreme Commander
 

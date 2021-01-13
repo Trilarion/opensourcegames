@@ -7,7 +7,7 @@
 - Code repository: https://github.com/idmillington/undum.git (@created 2010, @stars 290, @forks 82)
 - Code language: JavaScript
 - Code license: MIT
-- Developer: Ian Millington, Alexander Yakovlev, Juhana Leinonen, Bruno Dias, David Eyk
+- Developer: Alexander Yakovlev, Bruno Dias, David Eyk, Ian Millington, Juhana Leinonen
 
 Client-side framework for narrative hypertext interactive fiction.
 

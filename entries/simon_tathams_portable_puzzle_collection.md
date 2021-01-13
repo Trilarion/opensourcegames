@@ -9,6 +9,6 @@
 - Code license: MIT
 - Code dependency: GTK
 - Assets license: MIT
-- Developer: Simon Tatham, sgtatham, Chris Boyle, Jacob Nevins, jonaskoelker, doopl, Kevin Lyles, Ben Hutchings, Franklin Wei, neclepsio, Peter Steinberger, Greg Hewgill, Tim Brückmann, Eric Chen, Sergey Gavrilyuk, Alexander Edge, Orta Therox, Kent Sutherland, Scott Talbot, toco, Alex Burgel, Guy Kogus
+- Developer: Alex Burgel, Alexander Edge, Ben Hutchings, Chris Boyle, doopl, Eric Chen, Franklin Wei, Greg Hewgill, Guy Kogus, Jacob Nevins, jonaskoelker, Kent Sutherland, Kevin Lyles, neclepsio, Orta Therox, Peter Steinberger, Scott Talbot, Sergey Gavrilyuk, sgtatham, Simon Tatham, Tim Brückmann, toco
 
 ## Building

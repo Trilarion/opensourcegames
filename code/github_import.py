@@ -25,7 +25,7 @@ name_aliases = {'Andreas Rosdal': 'Andreas Røsdal', 'davefancella': 'Dave Fance
                 'buginator': 'Buginator', 'CiprianKhlud': 'Ciprian Khlud', 'dericpage': 'Deric Page',
                 'DI Murat Sari': 'Murat Sari', 'DolceTriade': 'Dolce Triade', 'DreamingPsion': 'Dreaming Psion',
                 'edwardlii': 'Edward Lii', 'erik-vos': 'Erik Vos', 'joevenzon': 'Joe Venzon', 'noamgat': 'Noam Gat',
-                'Dr. Martin Brumm': 'Martin Brumm'}
+                'Dr. Martin Brumm': 'Martin Brumm', 'South Bound Apps (Android)': 'South Bound Apps'}
 
 
 def collect_github_entries():

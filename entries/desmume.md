@@ -8,7 +8,7 @@
 - Code repository: https://github.com/TASVideos/desmume.git (@created 2016, @stars 917, @forks 197)
 - Code language: C, C++
 - Code license: GPL-2.0
-- Developer: zeromus, Roger Manuel, linkmauve, SuuperW, Jules-A, Autechre, retr0s4ge, Salz, Adam Sampson, Mattia Rombi, davg-qqq, Matthias Gatto
+- Developer: Adam Sampson, Autechre, davg-qqq, Jules-A, linkmauve, Matthias Gatto, Mattia Rombi, retr0s4ge, Roger Manuel, Salz, SuuperW, zeromus
 
 Nintendo DS emulator.
 See also: https://github.com/IceReaper/DesktopAdventuresToolkit

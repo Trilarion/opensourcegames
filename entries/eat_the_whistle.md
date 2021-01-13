@@ -10,7 +10,7 @@
 - Code language: C
 - Code license: ?
 - Code dependency: SDL
-- Developer: Gabriele Greco, Andrea Carolfi, Sam Hocevar
+- Developer: Andrea Carolfi, Gabriele Greco, Sam Hocevar
 
 ## Building
 

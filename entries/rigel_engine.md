@@ -9,7 +9,7 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL2
-- Developer: Nikolai Wuttke, Pratik Anand, s-martin, Alain Martin
+- Developer: Alain Martin, Nikolai Wuttke, Pratik Anand, s-martin
 
 ## Building
 

@@ -11,6 +11,6 @@
 - Code license: MIT
 - Code dependency: LÖVE
 - Assets license: CC-BY-NC-SA-3.0
-- Developer: Maurice, lexikiq
+- Developer: lexikiq, Maurice
 
 ## Building

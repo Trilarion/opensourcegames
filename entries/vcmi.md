@@ -8,7 +8,7 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL
-- Developer: Mateusz B, Michał W. Urbańczyk, Alex V.S., Rafal R, beegee, DAroo, Tom Zielinski, Frank Zago, Ivan Savenko, Paracelsus, Glazunov Vadim, Rickard Westerlund, Laszlo Ozsvart, Bartosz Bielecki, stopiccot, teZeriusz, Ori Bar, Trevor Standley, yupsi, Alexander Shishkin, DjWarmonger, Michał Wawrzyniec Urbańczyk, Mateusz Baran, Arseniy Shestakov, Dydzio, Henning Koehler, Vadim Markovtsev, Mikhail Paulyshka, Andrii Danylchenko, Fay, Michał Kalinowski, Macron1Robot, Piotr, Zyx-2000, Sandy, Alexey Petruchik, Victor, Karol Rudnik, Vadim Glazunov, josch, Dmitry, Andrzej Żak, Toney Sui, linuxrocks123, Michał Janiszewski, Ewilhan, rhn, John Bolton, O01eg, karliss, Mikko, Alex Dunn, Uladzislau Susha, xyzz, edeksumo, red1939, David Zéni, Artem, Krzesimir Nowak, tohava
+- Developer: Alex Dunn, Alex V.S., Alexander Shishkin, Alexey Petruchik, Andrii Danylchenko, Andrzej Żak, Arseniy Shestakov, Artem, Bartosz Bielecki, beegee, DAroo, David Zéni, DjWarmonger, Dmitry, Dydzio, edeksumo, Ewilhan, Fay, Frank Zago, Glazunov Vadim, Henning Koehler, Ivan Savenko, John Bolton, josch, karliss, Karol Rudnik, Krzesimir Nowak, Laszlo Ozsvart, linuxrocks123, Macron1Robot, Mateusz B, Mateusz Baran, Michał Janiszewski, Michał Kalinowski, Michał W. Urbańczyk, Michał Wawrzyniec Urbańczyk, Mikhail Paulyshka, Mikko, O01eg, Ori Bar, Paracelsus, Piotr, Rafal R, red1939, rhn, Rickard Westerlund, Sandy, stopiccot, teZeriusz, tohava, Tom Zielinski, Toney Sui, Trevor Standley, Uladzislau Susha, Vadim Glazunov, Vadim Markovtsev, Victor, xyzz, yupsi, Zyx-2000
 
 Engine for Heroes III, giving it new and extended possibilities.
 

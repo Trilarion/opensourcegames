@@ -10,7 +10,7 @@
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependency: SDL2
-- Developer: Brad Harding, David CARLIER, duganchen, Michael Francis, Jason M Carlough, alexey.lysiuk, Alun Bestor, Julia Nechaevskaya, Jonathan Nicholas, ryan-sg, Roman Fomin, Fabian Greffrath, Ryan Cook, Manuel K, Roman Kalashnikov
+- Developer: alexey.lysiuk, Alun Bestor, Brad Harding, David CARLIER, duganchen, Fabian Greffrath, Jason M Carlough, Jonathan Nicholas, Julia Nechaevskaya, Manuel K, Michael Francis, Roman Fomin, Roman Kalashnikov, Ryan Cook, ryan-sg
 
 ## Building
 

@@ -10,7 +10,7 @@
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: CEGUI, OGRE
-- Developer: Opensource Game Studio, Kai SD, kornerr, AleXXandEr, kornerrjenkins, xmorph
+- Developer: AleXXandEr, Kai SD, kornerr, kornerrjenkins, Opensource Game Studio, xmorph
 
 Simple mahjong solitaire game with 3D graphics.
 

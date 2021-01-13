@@ -9,6 +9,6 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL
-- Developer: Iuri Fiedoruk, Farley Knight
+- Developer: Farley Knight, Iuri Fiedoruk
 
 ## Building

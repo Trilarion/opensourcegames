@@ -9,7 +9,7 @@
 - Code language: C, C++, Objective-C
 - Code license: LGPL-2.1
 - Code dependency: GTK
-- Developer: ptitSeb, BigMc, Sebastian Krzyszkowiak
+- Developer: BigMc, ptitSeb, Sebastian Krzyszkowiak
 
 ## Building
 

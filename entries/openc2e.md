@@ -8,7 +8,7 @@
 - Code repository: https://github.com/openc2e/openc2e.git (@created 2020, @stars 49, @forks 8), https://github.com/ccdevnet/openc2e.git @add (@created 2008, @stars 53, @forks 24), https://github.com/nornagon/openc2e.git @add (@created 2013, @stars 3, @forks 0)
 - Code language: C, C++
 - Code license: LGPL-2.1
-- Developer: Alyssa Milburn, ligfx, bdonlan, Jeremy Rose, Eric Goodwin
+- Developer: Alyssa Milburn, bdonlan, Eric Goodwin, Jeremy Rose, ligfx
 
 Restarted in 2020.
 

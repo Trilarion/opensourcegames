@@ -8,7 +8,7 @@
 - Code language: C, C++
 - Code license: 3-clause BSD (https://github.com/DCurrent/openbor/blob/master/LICENSE)
 - Code dependency: SDL2
-- Developer: Damon V. Caskey, SumolX, utunnels, White Dragon, Bryan Cain, Malik, Wasin Thonkaew, CRxTRDude, Carlos Donizete Froes, Jan Beich
+- Developer: Bryan Cain, Carlos Donizete Froes, CRxTRDude, Damon V. Caskey, Jan Beich, Malik, SumolX, utunnels, Wasin Thonkaew, White Dragon
 
 2D side-scrolling engine for beat em' ups, shooters like Streets of Rage, Double Dragon, Final Fight.
 [Completed modules](http://www.chronocrash.com/forum/index.php?board=10.0)

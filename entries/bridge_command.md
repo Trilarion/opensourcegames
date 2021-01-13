@@ -8,6 +8,6 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: Irrlicht Engine
-- Developer: James Packer, whoopsie, ceeac, David Elir Evans
+- Developer: ceeac, David Elir Evans, James Packer, whoopsie
 
 ## Building

@@ -8,7 +8,7 @@
 - Code repository: https://github.com/REGoth-project/REGoth-bs.git (@created 2019, @stars 312, @forks 30), https://github.com/REGoth-project/REGoth.git @add (@created 2016, @stars 581, @forks 59)
 - Code language: C++
 - Code license: GPL-3.0, MIT (https://github.com/REGoth-project/REGoth-bs/blob/master/LICENSE)
-- Developer: Andre Taulien, charlydelta, Markus Worchel, Bude, GigaGrunch, Markus Obereisenbuchner, Francesco Bertolaccini, Alexander Stillich, CommanderJax, Taler, Sergiy Kukunin, Lena Siess, Alexander Akulich, Michael Langfermann, Jan Lukas Gernert, Andrei Preda, aaeberharter, kapitaenzufall, rose27, MevLyshkin, ousnius, Felix Bytow, PLJohnny
+- Developer: aaeberharter, Alexander Akulich, Alexander Stillich, Andre Taulien, Andrei Preda, Bude, charlydelta, CommanderJax, Felix Bytow, Francesco Bertolaccini, GigaGrunch, Jan Lukas Gernert, kapitaenzufall, Lena Siess, Markus Obereisenbuchner, Markus Worchel, MevLyshkin, Michael Langfermann, ousnius, PLJohnny, rose27, Sergiy Kukunin, Taler
 
 Reimplementation of the zEngine, used by the games Gothic and Gothic II.
 

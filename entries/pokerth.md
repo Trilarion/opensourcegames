@@ -10,7 +10,7 @@
 - Code language: C++
 - Code license: AGPL-3.0
 - Code dependency: Qt
-- Developer: Felix Hammer, Florian Thauer, Lothar May, Kai Philipp, Erhard List, floty, albmed, gunchleoc
+- Developer: albmed, Erhard List, Felix Hammer, Florian Thauer, floty, gunchleoc, Kai Philipp, Lothar May
 
 Texas Hold'em poker game playable against up to nine computer-opponents or with people all over the world.
 

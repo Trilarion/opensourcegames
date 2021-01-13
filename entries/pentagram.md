@@ -9,7 +9,7 @@
 - Code repository: https://github.com/pentagram-u8/pentagram.git (@created 2016, @stars 35, @forks 6), https://svn.code.sf.net/p/pentagram/code (svn)
 - Code language: C++
 - Code license: GPL-2.0
-- Developer: Willem Jan Palenstijn, btietz, colourles, Darke, Dominik Reichardt, Max Horn, kirben, Matthew Jimenez, wench, Kirben
+- Developer: btietz, colourles, Darke, Dominik Reichardt, kirben, Kirben, Matthew Jimenez, Max Horn, wench, Willem Jan Palenstijn
 
 ## Building
 

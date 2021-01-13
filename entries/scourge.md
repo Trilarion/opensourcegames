@@ -8,7 +8,7 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL
-- Developer: Gabor Torok, Maarten Vanraes, Breakable, Alexander Kjäll, Charles Goodwin, CoD, David C., Diego J. Romero López, Mat L, Vambola Kotkas, Luca Perri, leadgolem, Dennis Murczak, FreeLikeGNU, Pál Zoltán Illés, Raphael Bosshard, retrix, Vincent FIACK
+- Developer: Alexander Kjäll, Breakable, Charles Goodwin, CoD, David C., Dennis Murczak, Diego J. Romero López, FreeLikeGNU, Gabor Torok, leadgolem, Luca Perri, Maarten Vanraes, Mat L, Pál Zoltán Illés, Raphael Bosshard, retrix, Vambola Kotkas, Vincent FIACK
 
 See also: https://github.com/q4a/scourge2
 

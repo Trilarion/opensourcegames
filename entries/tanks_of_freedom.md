@@ -8,6 +8,6 @@
 - Code language: GDScript
 - Code license: MIT
 - Code dependency: Godot
-- Developer: Krzysztof Jankowski, WermooZ, Wojciech Chojnacki, Poussinou, Potravni, Wasin Thonkaew
+- Developer: Krzysztof Jankowski, Potravni, Poussinou, Wasin Thonkaew, WermooZ, Wojciech Chojnacki
 
 ## Building

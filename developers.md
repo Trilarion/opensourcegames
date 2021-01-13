@@ -50510,7 +50510,7 @@
 - Games: Cataclysm: Dark Days Ahead
 - Contact: Soup-de-Loop@GH
 
-## South Bound Apps (Android) [1]
+## South Bound Apps [1]
 
 - Games: Memory Game
 - Contact: soboapps@GH

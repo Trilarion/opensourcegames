@@ -9,7 +9,7 @@
 - Code repository: https://github.com/freeciv/freeciv.git (@created 2017, @stars 565, @forks 124)
 - Code language: C
 - Code license: GPL-2.0
-- Developer: evyscr, Andreas Røsdal, Daniel Markstedt, Jason Dorje Short, Jacob Nevins, Raimar Falke, Reinier Post, Per I Mathisen, Vasco Alexandre da Silva Costa, Marko Lindqvist, Christian Prochaska, James Canete, Nathan Brazil, William Allen Simpson, Sveinung Kvilhaugsvik, ◢ Ϻ⚸Яℨ⚔ ◣, rdmark, Per Inge Mathisen, jcreusand, Emmet Hikory, eneg, igx31, Eric S. Raymond, Kevin Scannell, zekoz, Louis Moureaux, infyquest, katajanmarja, Michael Stefaniuc, Frédéric Rodrigo, Ihnatus, Konstantin Vedeneev, David Fernandez
+- Developer: Andreas Røsdal, Christian Prochaska, Daniel Markstedt, David Fernandez, Emmet Hikory, eneg, Eric S. Raymond, evyscr, Frédéric Rodrigo, igx31, Ihnatus, infyquest, Jacob Nevins, James Canete, Jason Dorje Short, jcreusand, katajanmarja, Kevin Scannell, Konstantin Vedeneev, Louis Moureaux, Marko Lindqvist, Michael Stefaniuc, Nathan Brazil, Per I Mathisen, Per Inge Mathisen, Raimar Falke, rdmark, Reinier Post, Sveinung Kvilhaugsvik, Vasco Alexandre da Silva Costa, William Allen Simpson, zekoz, ◢ Ϻ⚸Яℨ⚔ ◣
 
 Empire-building strategy game inspired by the history of human civilization.
 See also [FreeCivAC](http://freecivac.sourceforge.net/) which is a patch to FreeCiv to incorporate Alpha Centauri behavior

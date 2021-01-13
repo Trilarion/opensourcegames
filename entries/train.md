@@ -9,7 +9,7 @@
 - Code language: Java
 - Code license: 3-clause BSD
 - Code dependency: Slick2D
-- Developer: Miloslav Nenadál, Jiří Bobrek
+- Developer: Jiří Bobrek, Miloslav Nenadál
 
 ## Building
 

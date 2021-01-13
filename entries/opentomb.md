@@ -9,7 +9,7 @@
 - Code repository: https://github.com/opentomb/OpenTomb.git (@created 2015, @stars 1015, @forks 115)
 - Code language: C, C++, Lua
 - Code license: LGPL-3.0
-- Developer: TeslaRus, Gh0stBlade, Adrien RICCIARDI, vvs-, Federico Barlotti, Tom Niget, Gabriel Mtz, Steffen Ohrendorf, Filipe Freire, Torsten Kammer, Timur Gagiev, Sai-sai, Tom Pritchard
+- Developer: Adrien RICCIARDI, Federico Barlotti, Filipe Freire, Gabriel Mtz, Gh0stBlade, Sai-sai, Steffen Ohrendorf, TeslaRus, Timur Gagiev, Tom Niget, Tom Pritchard, Torsten Kammer, vvs-
 
 ## Building
 

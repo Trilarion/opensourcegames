@@ -7,6 +7,6 @@
 - Code repository: https://gitlab.com/osgames/goblin-camp.git, https://github.com/y2s82/goblin_camp.git @add (@created 2018, @stars 22, @forks 12)
 - Code language: C++
 - Code license: GPL-3.0
-- Developer: Cat Plus Plus, y2s82, rdittrich97, Noel Maersk, gencontain, David Humphrey, Dan Smythe
+- Developer: Cat Plus Plus, Dan Smythe, David Humphrey, gencontain, Noel Maersk, rdittrich97, y2s82
 
 ## Building

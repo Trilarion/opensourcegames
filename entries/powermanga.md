@@ -10,6 +10,6 @@
 - Code license: GPL-3.0
 - Code dependency: SDL
 - Assets license: GPL
-- Developer: Bruno Ethvignot, Emmanuel Founaud, Etienne Sobole, Jean-Michel Martin de Santero, Sam Hocevar, Patrice Duhamel
+- Developer: Bruno Ethvignot, Emmanuel Founaud, Etienne Sobole, Jean-Michel Martin de Santero, Patrice Duhamel, Sam Hocevar
 
 ## Building

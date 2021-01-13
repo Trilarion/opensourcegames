@@ -9,7 +9,7 @@
 - Code repository: https://github.com/sirjuddington/SLADE.git (@created 2012, @stars 395, @forks 67)
 - Code language: C++
 - Code license: GPL-2.0
-- Developer: Simon Judd, Gaerzi, Eevee, alexey.lysiuk, Monsterovich, Blue-Shadow, "Max Waine (Nightdive Studios)", Sergio Jiménez Herena, Kevin Caccamo, SteelT, Kyle Evans, Matthew McAllister, mykola-ambar, Jan Engelhardt, Kaito Sinclaire, James Le Cuirot, Lucy Phipps
+- Developer: alexey.lysiuk, Blue-Shadow, Eevee, Gaerzi, James Le Cuirot, Jan Engelhardt, Kaito Sinclaire, Kevin Caccamo, Kyle Evans, Lucy Phipps, Matthew McAllister, "Max Waine (Nightdive Studios)", Monsterovich, mykola-ambar, Sergio Jiménez Herena, Simon Judd, SteelT
 
 Tool of Doom.
 Editor for Doom-engine based games and source ports.

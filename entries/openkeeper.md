@@ -8,7 +8,7 @@
 - Code language: Java
 - Code license: GPL-3.0
 - Code dependency: jMonkeyEngine
-- Developer: Toni Helenius, ufdada, ArchDemons, belgianguy, Petteri Loisko
+- Developer: ArchDemons, belgianguy, Petteri Loisko, Toni Helenius, ufdada
 
 ## Building
 

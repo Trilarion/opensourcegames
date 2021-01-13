@@ -7,7 +7,7 @@
 - Code repository: https://github.com/HaxeFlixel/flixel.git (@created 2011, @stars 1341, @forks 263)
 - Code language: Haxe
 - Code license: MIT
-- Developer: Jens Fischer, Zaphod, Samuel Batista, Lars Doucet, Joe Williamson, Steve, Tim I Hely, Nick, TiagoLr, Chris, Kevin Leung, Justo Delgado, Sergey Miryanov, Jimmy Delas, Tilman Schmidt, Tiago Ling Alexandre, Geokureli, Werdn, Rudi Bonfiglioli, Florian Dormont, Sruloart, Adriano Lima, KJB, Fernando Bevilacqua, Pekka Heikkinen, SergioB, Joshua Granick, Anders Nissen, Robin Arys, davidcollado, Aaron Hill, ArtBIT, Kevin Purcell, Paul Gene Thompson, shinji-yoshida, Leonardo Cavaletti, Valerio Santinelli, Max, Vasco Freitas, Dlean Jeans, Josh Schonstal, Elliott Smith, Yura, Aleph0Null, Brian Newtz
+- Developer: Aaron Hill, Adriano Lima, Aleph0Null, Anders Nissen, ArtBIT, Brian Newtz, Chris, davidcollado, Dlean Jeans, Elliott Smith, Fernando Bevilacqua, Florian Dormont, Geokureli, Jens Fischer, Jimmy Delas, Joe Williamson, Josh Schonstal, Joshua Granick, Justo Delgado, Kevin Leung, Kevin Purcell, KJB, Lars Doucet, Leonardo Cavaletti, Max, Nick, Paul Gene Thompson, Pekka Heikkinen, Robin Arys, Rudi Bonfiglioli, Samuel Batista, Sergey Miryanov, SergioB, shinji-yoshida, Sruloart, Steve, Tiago Ling Alexandre, TiagoLr, Tilman Schmidt, Tim I Hely, Valerio Santinelli, Vasco Freitas, Werdn, Yura, Zaphod
 
 ## Building
 

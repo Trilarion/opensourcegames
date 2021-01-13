@@ -7,7 +7,7 @@
 - Code language: Python
 - Code license: MIT
 - Code dependency: PGU, pygame, Twisted
-- Developer: Marcus Møller, Irtorius
+- Developer: Irtorius, Marcus Møller
 
 ORPG (online role-playing-game) engine that allows everyone to create their own ORPG adventure within minutes.
 Is this an engine or a game?

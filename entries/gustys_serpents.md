@@ -11,6 +11,6 @@
 - Code license: GPL-3.0
 - Code dependency: OGRE
 - Assets license: CC-BY-NC-SA (music)
-- Developer: Augustin Preda, Alex
+- Developer: Alex, Augustin Preda
 
 ## Building

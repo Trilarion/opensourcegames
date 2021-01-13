@@ -8,7 +8,7 @@
 - Code language: Java
 - Code license: GPL-3.0
 - Code dependency: OpenGL, Slick2D
-- Developer: Jeffrey Han, Robin, mad-s, Peter Tissen, Pavel Kolchev, tPenguinLTG, Terrence Park, Lance Selga, iceblade112
+- Developer: iceblade112, Jeffrey Han, Lance Selga, mad-s, Pavel Kolchev, Peter Tissen, Robin, Terrence Park, tPenguinLTG
 
 Osu! client.
 

@@ -11,7 +11,7 @@
 - Code language: C, Python
 - Code license: MIT
 - Code dependency: OpenGL, SDL2
-- Developer: Andrei Alexeyev, laochailan, Igor Molchanov, mia, Alice D, Ola Kruzel, Samuel P.
+- Developer: Alice D, Andrei Alexeyev, Igor Molchanov, laochailan, mia, Ola Kruzel, Samuel P.
 
 ## Building
 

@@ -9,6 +9,6 @@
 - Code license: LGPL-2.1
 - Code dependency: Minetest
 - Assets license: CC-BY-SA-3.0
-- Developer: Paramat, sofar, celeron55, PilzAdam, sfan5, tenplus1, BlockMen, SmallJoker, Jean-Patrick Guerrero, rubenwardy, Ezhh, ShadowNinja, An0n3m0us, TumeniNodes, Tim, Nathanaël Courant, Mircea Kitsune, Craig Davison, Thomas--S, red-001, CSPS-HaydenWoods, ‮, Maciej Kasatkin, Paul Ouellette, Hugo Locurcio, Diego Martínez, DS, Elijah Duffy, Fernando Carmona Varo, IFRFSX, Wuzzy, Amaz, Casimir, Jordan Snelling, Maksim, Le Platos, TicklishHoneyBee, Jat15
+- Developer: Amaz, An0n3m0us, BlockMen, Casimir, celeron55, Craig Davison, CSPS-HaydenWoods, Diego Martínez, DS, Elijah Duffy, Ezhh, Fernando Carmona Varo, Hugo Locurcio, IFRFSX, Jat15, Jean-Patrick Guerrero, Jordan Snelling, Le Platos, Maciej Kasatkin, Maksim, Mircea Kitsune, Nathanaël Courant, Paramat, Paul Ouellette, PilzAdam, red-001, rubenwardy, sfan5, ShadowNinja, SmallJoker, sofar, tenplus1, Thomas--S, TicklishHoneyBee, Tim, TumeniNodes, Wuzzy, ‮
 
 ## Building

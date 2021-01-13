@@ -11,7 +11,7 @@
 - Code license: GPL-3.0
 - Code dependency: SDL
 - Assets license: GPL-3.0
-- Developer: Matthew D. Steele, Lucas O. Wagner
+- Developer: Lucas O. Wagner, Matthew D. Steele
 
 Metroidvania with vector graphics.
 

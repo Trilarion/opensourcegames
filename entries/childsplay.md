@@ -9,6 +9,6 @@
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependency: NumPy, pygame
-- Developer: Stas Zytkiewicz, Chris_147, Matias A. Graña, Robert Wadley, Alexander Kolotov, Christiaan de Wit, Peter Govers, Rene Dohmen
+- Developer: Alexander Kolotov, Chris_147, Christiaan de Wit, Matias A. Graña, Peter Govers, Rene Dohmen, Robert Wadley, Stas Zytkiewicz
 
 ## Building

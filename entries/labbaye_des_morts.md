@@ -9,6 +9,6 @@
 - Code license: GPL-3.0
 - Code dependency: SDL
 - Assets license: CC-BY
-- Developer: Locomalito, David Lara, Carsten Teibes, Dmitry Marakasov, Manuel Alfayate Corchete
+- Developer: Carsten Teibes, David Lara, Dmitry Marakasov, Locomalito, Manuel Alfayate Corchete
 
 ## Building

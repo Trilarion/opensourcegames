@@ -8,7 +8,7 @@
 - Code repository: https://gitlab.com/osgames/lincity.git (backup of cvs), http://lincity.cvs.sourceforge.net/ (cvs)
 - Code language: C
 - Code license: GPL-2.0
-- Developer: Gregory Sharp, Corey Keasling, Taj Morton
+- Developer: Corey Keasling, Gregory Sharp, Taj Morton
 
 See also https://github.com/javiercantero/lincity, https://github.com/usrshare/lincity
 

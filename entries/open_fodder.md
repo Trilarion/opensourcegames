@@ -8,6 +8,6 @@
 - Code repository: https://github.com/OpenFodder/openfodder.git (@created 2012, @stars 316, @forks 32)
 - Code language: C, C++
 - Code license: GPL-3.0
-- Developer: Robert Crossfield, drnovice
+- Developer: drnovice, Robert Crossfield
 
 ## Building

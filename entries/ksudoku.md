@@ -7,7 +7,7 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Assets license: GPL-2.0
-- Developer: Francesco Rossi, Johannes Bergmeier, Mick Kappenburg, Francesco <redsh> Rossi, black8eagles, calenlas, Mick
+- Developer: black8eagles, calenlas, Francesco <redsh> Rossi, Francesco Rossi, Johannes Bergmeier, Mick, Mick Kappenburg
 
 Program for creating and solving (manually or automatically) 2D and 3D Sudoku games.
 

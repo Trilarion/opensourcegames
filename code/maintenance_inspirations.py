@@ -2,11 +2,17 @@
 Maintenance of inspirations.md and synchronization with the inspirations in the entries.
 """
 
-from utils import osg, osg_ui
+# TODO wikipedia search and match
+# TODO mark those that are contained in the database
+# TODO search fandom
+
+import time
+from utils import osg, osg_ui, osg_wikipedia
 
 valid_duplicates = ('Age of Empires', 'ARMA', 'Catacomb', 'Civilization', 'Company of Heroes', 'Descent', 'Duke Nukem', 'Dungeon Keeper',
                     'Final Fantasy', 'Heroes of Might and Magic', 'Jazz Jackrabbit', 'Marathon', 'Master of Orion', 'Quake',
-                    'RollerCoaster Tycoon', 'Star Wars Jedi Knight', 'The Settlers', 'Ultima', 'Ship Simulator')
+                    'RollerCoaster Tycoon', 'Star Wars Jedi Knight', 'The Settlers', 'Ultima', 'Ship Simulator', 'Prince of Persia',
+                    'Panzer General', 'LBreakout', 'Jagged Alliance')
 
 
 class InspirationMaintainer:
@@ -30,14 +36,15 @@ class InspirationMaintainer:
         if not self.inspirations:
             print('inspirations not yet loaded')
             return
+        start_time = time.process_time()
         inspiration_names = list(self.inspirations.keys())
         for index, name in enumerate(inspiration_names):
             for other_name in inspiration_names[index + 1:]:
                 if any((name.startswith(x) and other_name.startswith(x) for x in valid_duplicates)):
                     continue
-                if osg.name_similarity(name, other_name) > 0.8:
+                if osg.name_similarity(str.casefold(name), str.casefold(other_name)) > 0.9:
                     print(' {} - {} is similar'.format(name, other_name))
-        print('duplicates checked')
+        print('duplicates checked took {:.1f}s'.format(time.process_time()-start_time))
 
     def check_for_orphans(self):
         if not self.inspirations:
@@ -75,7 +82,28 @@ class InspirationMaintainer:
         for inspiration in self.inspirations.values():
             if 'Media' in inspiration and any(('https://en.wikipedia.org/wiki/' in x for x in inspiration['Media'])):
                 continue
+            name = inspiration['Name']
             # search in wikipedia
+            results = osg_wikipedia.search(inspiration['Name'])
+            # throw out all (disambiguation) pages
+            results = [r for r in results if not any(x in r for x in ('disambiguation', 'film'))]
+
+            # the simple ones
+            results = [r for r in results if 'video game' in r]
+            if len(results) == 1 and 'series' not in name:
+                pages = osg_wikipedia.pages(results)
+                page = pages[0]
+                url = page.url
+                # add url to Media field
+                inspiration['Media'] = inspiration.get('Media', []) + [url]
+                print('{}: {}'.format(name, url))
+
+
+
+            # check for name similarity
+            # results = [r for r in results if any(x in r for x in ('video game', 'series')) or osg.name_similarity(str.casefold(inspiration['Name']), str.casefold(r)) > 0.8]
+            # results = [r for r in results if any(x in r for x in ('video game', 'series'))]
+            # print('{}: {}'.format(inspiration['Name'], results))
 
     def update_inspired_entries(self):
         if not self.inspirations:
@@ -113,6 +141,7 @@ if __name__ == "__main__":
         'Check for duplicates': m.check_for_duplicates,
         'Check for orphans': m.check_for_orphans,
         'Check for inspirations not listed': m.check_for_missing_inspirations_in_entries,
+        'Check for wikipedia links': m.check_for_wikipedia_links,
         'Update inspirations from entries': m.update_inspired_entries,
         'Read entries': m.read_entries
     }

@@ -10,6 +10,6 @@
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependency: OGRE
-- Developer: Quadrofonic, Richard Hendricks, OneOfAmorphis, ryanismean
+- Developer: OneOfAmorphis, Quadrofonic, Richard Hendricks, ryanismean
 
 ## Building

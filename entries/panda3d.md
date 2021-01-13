@@ -8,7 +8,7 @@
 - Code repository: https://github.com/panda3d/panda3d.git (@created 2013, @stars 2562, @forks 597)
 - Code language: C++, C
 - Code license: 3-clause BSD
-- Developer: David Rose, rdb, darrenr555, Dave, Sam Edwards, jyelon, Joe Shochet, gyedo, zpavlov, Mitchell Stokes, enn0x, Samir Naik, redmondurbino, D. Lawrence, Fireclaw, kpatelPro, tobspr, Derzsi Dániel, Bei Yang, Mike Christel, M. Ian Graham, Ed Swartz, deflected, DangerousYams, Younguk Kim, LD, zhaohuang, joehager, Jon Parise, treeform, Jason Hancock, kamgha, Brian Lach, Michael Wass, Christopher He, wolfgangp, John Cote, Leandro Benedet Garcia, Rishabh Tewari, Kyle Smith, Schwarzbaer, sean5470
+- Developer: Bei Yang, Brian Lach, Christopher He, D. Lawrence, DangerousYams, darrenr555, Dave, David Rose, deflected, Derzsi Dániel, Ed Swartz, enn0x, Fireclaw, gyedo, Jason Hancock, Joe Shochet, joehager, John Cote, Jon Parise, jyelon, kamgha, kpatelPro, Kyle Smith, LD, Leandro Benedet Garcia, M. Ian Graham, Michael Wass, Mike Christel, Mitchell Stokes, rdb, redmondurbino, Rishabh Tewari, Sam Edwards, Samir Naik, Schwarzbaer, sean5470, tobspr, treeform, wolfgangp, Younguk Kim, zhaohuang, zpavlov
 
 For Python and C++ programs.
 

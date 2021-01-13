@@ -9,7 +9,7 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL
-- Developer: Luismv, HaveAPinch
+- Developer: HaveAPinch, Luismv
 
 Real-time tactical simulation in which the player controls up to sixteen soldiers in a futuristic environment.
 

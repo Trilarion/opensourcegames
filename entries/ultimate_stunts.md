@@ -9,7 +9,7 @@
 - Code repository: https://svn.code.sf.net/p/ultimatestunts/code (svn), http://ultimatestunts.cvs.sourceforge.net (cvs)
 - Code language: C++
 - Code license: GPL-2.0
-- Developer: CJP, M Gagnon, Borbola Balázs, Neil Zanella
+- Developer: Borbola Balázs, CJP, M Gagnon, Neil Zanella
 
 ## Building
 

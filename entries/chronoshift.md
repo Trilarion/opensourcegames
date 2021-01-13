@@ -8,7 +8,7 @@
 - Code repository: https://github.com/TheAssemblyArmada/Chronoshift.git (@archived, @created 2018, @stars 140, @forks 19)
 - Code language: C++
 - Code license: GPL-2.0
-- Developer: OmniBlade, Toms, Olivier Abdesselam
+- Developer: Olivier Abdesselam, OmniBlade, Toms
 
 ## Building
 

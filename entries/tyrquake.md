@@ -8,7 +8,7 @@
 - Code language: C
 - Code license: GPL-2.0
 - Code dependency: libretro
-- Developer: Autechre, Ozkan Sezer, AdrianoML, jdgleaver, Vladimir Serbinenko, Tatsuya79, Andrés, Emery Hemingway, Michael Lelli, Swingflip
+- Developer: AdrianoML, Andrés, Autechre, Emery Hemingway, jdgleaver, Michael Lelli, Ozkan Sezer, Swingflip, Tatsuya79, Vladimir Serbinenko
 
 ## Building
 

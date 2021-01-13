@@ -10,7 +10,7 @@
 - Code language: C, C++
 - Code license: Custom (zlib like)
 - Code dependency: SDL
-- Developer: Sebastian, flow, RandumKiwi, driAn, Rafael C. Barreto, Bukz, Lee Salzman, Mr.Floppy, GeneralDisarray, makkE, Glen Masgai, Nieb, Ronald Reagan, sireus, Cleaner, Toca, Ricky Ratzlaff, Cristian Vlasceanu, stef, Andrew D, Julian, Rick, Elliot Lockwood, Lucas Gautheron, Alejandro V. Garcia, "szyk (grenadier)", RonaldReagan, Cristian
+- Developer: Alejandro V. Garcia, Andrew D, Bukz, Cleaner, Cristian, Cristian Vlasceanu, driAn, Elliot Lockwood, flow, GeneralDisarray, Glen Masgai, Julian, Lee Salzman, Lucas Gautheron, makkE, Mr.Floppy, Nieb, Rafael C. Barreto, RandumKiwi, Rick, Ricky Ratzlaff, Ronald Reagan, RonaldReagan, Sebastian, sireus, stef, "szyk (grenadier)", Toca
 
 ## Building
 

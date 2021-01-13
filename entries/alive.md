@@ -9,6 +9,6 @@
 - Code language: C++
 - Code license: MIT
 - Code dependency: SDL2
-- Developer: Paul, d3nwah, Michael Grima, mouzedrift, UltraStars3000, pryon, THEONLYDarkShadow, L. P., GproKaru, Kari1993, FrozenFish24, Jay Peet
+- Developer: d3nwah, FrozenFish24, GproKaru, Jay Peet, Kari1993, L. P., Michael Grima, mouzedrift, Paul, pryon, THEONLYDarkShadow, UltraStars3000
 
 ## Building

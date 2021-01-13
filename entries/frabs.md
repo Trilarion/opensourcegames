@@ -8,7 +8,7 @@
 - Code language: Lisp, C++, C
 - Code license: Public domain
 - Assets license: Public domain
-- Developer: Xenoveritas, AntonioR Software
+- Developer: AntonioR Software, Xenoveritas
 
 Free Abuse, is a liberated version of a 1995 shareware game Abuse.
 Abuse was mostly released into public domain, with the exception of music, sounds effects and data exclusive to the commercial (registered) version,

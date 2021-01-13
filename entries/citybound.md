@@ -9,6 +9,6 @@
 - Code repository: https://github.com/citybound/citybound.git (@created 2016, @stars 6282, @forks 233)
 - Code language: Rust, JavaScript
 - Code license: AGPL-3.0
-- Developer: Anselm Eickhoff, Vladimir, O01eg, Ben Wang, Rasmus Larsen, Martin Risell Lilja
+- Developer: Anselm Eickhoff, Ben Wang, Martin Risell Lilja, O01eg, Rasmus Larsen, Vladimir
 
 ## Building

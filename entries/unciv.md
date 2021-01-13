@@ -10,7 +10,7 @@
 - Code license: MPL-2.0
 - Code dependency: libGDX
 - Assets license: CC-BY (see https://github.com/yairm210/UnCiv/blob/master/docs/Credits.md)
-- Developer: Yair Morgenstern, Giuseppe D'Addio, Duan Tao, Jack Rainy, lishaoxia1985, Federico Luongo, Am-per-Sand, SomeTroglodyte, lyrjie, proteus-anguinus, Alexander Korolyov, mrimvo, HadeanLake, Yann, 9kgsofrice, Roumaan, armandberger, givehub99, Prosta4okua, RadioMagnetofonStereofoniczny, sveckarel, Marerjh, dic1911, Vladimir Tanakov, pikkolpk, Fantaziu Ion, Oleg, vhj, Oheto, Väinö Mäkelä, paontv, sulai, rayray61, wrov, Freshy, Runo Hawk, StepanIvasyn, GGGuenni, RCalleti, u-ndefine, Daniel Bälz, LeMoonStar, Augusto Oliveira, Brian Gainor, Bryan W. Weber, Coruna, F4R3LB3ST, Kensvin, Kentalot, NoNZeeZ, coding-human, jnecus, Voytee
+- Developer: 9kgsofrice, Alexander Korolyov, Am-per-Sand, armandberger, Augusto Oliveira, Brian Gainor, Bryan W. Weber, coding-human, Coruna, Daniel Bälz, dic1911, Duan Tao, F4R3LB3ST, Fantaziu Ion, Federico Luongo, Freshy, GGGuenni, Giuseppe D'Addio, givehub99, HadeanLake, Jack Rainy, jnecus, Kensvin, Kentalot, LeMoonStar, lishaoxia1985, lyrjie, Marerjh, mrimvo, NoNZeeZ, Oheto, Oleg, paontv, pikkolpk, Prosta4okua, proteus-anguinus, RadioMagnetofonStereofoniczny, rayray61, RCalleti, Roumaan, Runo Hawk, SomeTroglodyte, StepanIvasyn, sulai, sveckarel, u-ndefine, vhj, Vladimir Tanakov, Voytee, Väinö Mäkelä, wrov, Yair Morgenstern, Yann
 
 ## Building
 

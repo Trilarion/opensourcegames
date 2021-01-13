@@ -11,7 +11,7 @@
 - Code license: GPL-2.0
 - Code dependency: Boost, FreeType, libvorbis, Ogg, OpenAL, OpenGL, PyLab, SDL, zlib
 - Assets license: CC-BY-SA
-- Developer: Dilvish, Geoff Topping, Marcel Metz, Mark Saward, Zach Laine, Vezzra, Isaac Supeene, eleazzaar, Jonathan Siwek, Markus Sinner, MatGB, Alexander Kuehn, Mathias Koehler, Geoff, LGM-Doyle, dbenage-cx, Morlic-fo, O01eg, agrrr3, Andrey, Ouaz, Mat Bowles, TheSilentOne1, isupeene, Deepsloth, Shmuale Mark, Nagilum23, Oberlus, mel-odious, Dmitry Tsarevich, Rob Gill, Mitten-O, Daria, PaddiLu, alleryn, memem359, Sergey Alirzaev, V-ktor, Vincent Legoll, Szunti, aschuch247, Captain-HM, Peter WONG, swaqvalley, vperus, Voker57, Miron Moderau, Timothée Ravier
+- Developer: agrrr3, Alexander Kuehn, alleryn, Andrey, aschuch247, Captain-HM, Daria, dbenage-cx, Deepsloth, Dilvish, Dmitry Tsarevich, eleazzaar, Geoff, Geoff Topping, Isaac Supeene, isupeene, Jonathan Siwek, LGM-Doyle, Marcel Metz, Mark Saward, Markus Sinner, Mat Bowles, MatGB, Mathias Koehler, mel-odious, memem359, Miron Moderau, Mitten-O, Morlic-fo, Nagilum23, O01eg, Oberlus, Ouaz, PaddiLu, Peter WONG, Rob Gill, Sergey Alirzaev, Shmuale Mark, swaqvalley, Szunti, TheSilentOne1, Timothée Ravier, V-ktor, Vezzra, Vincent Legoll, Voker57, vperus, Zach Laine
 
 ## Building
 

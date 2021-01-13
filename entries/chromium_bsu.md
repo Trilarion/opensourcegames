@@ -8,7 +8,7 @@
 - Code repository: https://git.code.sf.net/p/chromium-bsu/code
 - Code language: C++
 - Code license: Artistic License-1.0 (clarified version)
-- Developer: Paul Wise, brianwredfern, Max Horn, Keyboard Sage, Mark B. Allan, Sam Hocevar
+- Developer: brianwredfern, Keyboard Sage, Mark B. Allan, Max Horn, Paul Wise, Sam Hocevar
 
 Arcade-style, top-scrolling space shooter.
 

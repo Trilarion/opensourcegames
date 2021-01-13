@@ -9,7 +9,7 @@
 - Code language: C++
 - Code license: MIT
 - Code dependency: OpenAL, SDL2, WildMidi
-- Developer: Aaron, kcat, Robert MacGregor, Thunderforge, Allofich, MinganMuon, Dozayon, Malcolm Mallardi
+- Developer: Aaron, Allofich, Dozayon, kcat, Malcolm Mallardi, MinganMuon, Robert MacGregor, Thunderforge
 
 ## Building
 

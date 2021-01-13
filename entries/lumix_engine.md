@@ -7,7 +7,7 @@
 - Code repository: https://github.com/nem0/LumixEngine.git (@created 2013, @stars 2281, @forks 280), https://github.com/nem0/lumixengine_data.git (related)
 - Code language: C++
 - Code license: MIT
-- Developer: Mikulas Florek, tluqo, Maxim Kolganov, James Webb, Jakub Lukasik, Dominik Madarász, timbaker, Benjamin Wolf
+- Developer: Benjamin Wolf, Dominik Madarász, Jakub Lukasik, James Webb, Maxim Kolganov, Mikulas Florek, timbaker, tluqo
 
 ## Building
 

@@ -8,6 +8,6 @@
 - Code repository: https://github.com/OpenDUNE/OpenDUNE.git (@created 2012, @stars 1328, @forks 111)
 - Code language: C
 - Code license: GPL-2.0
-- Developer: Patric Stout, glx22, Thomas BERNARD, wangds, Xaroth, Olaf van der Spek, drnovice, Máximo Castañeda, KO Myung-Hun
+- Developer: drnovice, glx22, KO Myung-Hun, Máximo Castañeda, Olaf van der Spek, Patric Stout, Thomas BERNARD, wangds, Xaroth
 
 ## Building

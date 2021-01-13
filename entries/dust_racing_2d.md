@@ -10,7 +10,7 @@
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependency: OpenGL, Qt
-- Developer: Jussi Lind, Wuzzy, Pino Toscano
+- Developer: Jussi Lind, Pino Toscano, Wuzzy
 
 Tile-based
 

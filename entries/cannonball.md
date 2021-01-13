@@ -8,7 +8,7 @@
 - Code repository: https://github.com/djyt/cannonball.git (@created 2012, @stars 361, @forks 84)
 - Code language: C++
 - Code license: MAME
-- Developer: reassembler, Manuel Alfayate Corchete, Santhosh Raju
+- Developer: Manuel Alfayate Corchete, reassembler, Santhosh Raju
 
 ## Building
 

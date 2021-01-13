@@ -11,7 +11,7 @@
 - Code language: C
 - Code license: ? (GPL version?)
 - Code dependency: SDL
-- Developer: Andreas Umbach, Jonathan Atkins, Andy Howe, Martin Donlon, Nou Phabmixay, Nicolas Deniaud, nicolas zimmermann, Todd Kirby, Tim Peeler, Darrell Walisser, andi75, kkaisershot
+- Developer: andi75, Andreas Umbach, Andy Howe, Darrell Walisser, Jonathan Atkins, kkaisershot, Martin Donlon, Nicolas Deniaud, nicolas zimmermann, Nou Phabmixay, Tim Peeler, Todd Kirby
 
 3D snake game based on the light cycle portion of the film Tron.
 

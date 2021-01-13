@@ -8,6 +8,6 @@
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: OpenGL, SDL2
-- Developer: Ciprian, WALL OF JUSTICE, Lutz Kellen, DrWhoCares, David CARLIER, Sheridan Kane Rathbun, Pegasus Epsilon, Linus Heckemann, ptitSeb, Gilgatex, akp, Phillip Whelan
+- Developer: akp, Ciprian, David CARLIER, DrWhoCares, Gilgatex, Linus Heckemann, Lutz Kellen, Pegasus Epsilon, Phillip Whelan, ptitSeb, Sheridan Kane Rathbun, WALL OF JUSTICE
 
 ## Building

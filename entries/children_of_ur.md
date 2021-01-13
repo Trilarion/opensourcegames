@@ -8,7 +8,7 @@
 - Code language: Dart, JavaScript
 - Code license: MIT
 - Assets license: MIT
-- Developer: Robert Blackhart, Paul VanKeuren, Andy Castille, Courtney B Reid, Craig S. Cottingham, Brian Grey
+- Developer: Andy Castille, Brian Grey, Courtney B Reid, Craig S. Cottingham, Paul VanKeuren, Robert Blackhart
 
 Code for the server may not be up-to-date.
 See also Glitch the Game, released source code.

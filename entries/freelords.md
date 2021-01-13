@@ -8,6 +8,6 @@
 - Code repository: https://git.code.sf.net/p/freelords/git
 - Code language: Java
 - Code license: GPL-2.0
-- Developer: Andrea Paternesi, premkumar bhaskal, Ulf Lorenz, Arno Kemner, Eugenio Laghi, Janet Hunt, Kivi, Mariusz Pielak, Asad Qureshi, Renn, Sartios
+- Developer: Andrea Paternesi, Arno Kemner, Asad Qureshi, Eugenio Laghi, Janet Hunt, Kivi, Mariusz Pielak, premkumar bhaskal, Renn, Sartios, Ulf Lorenz
 
 ## Building

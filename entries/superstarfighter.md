@@ -8,7 +8,7 @@
 - Code language: GDScript
 - Code license: MIT
 - Code dependency: Godot
-- Developer: Matteo Abrate, SalvoB, ekorina, Urtzi Odriozola
+- Developer: ekorina, Matteo Abrate, SalvoB, Urtzi Odriozola
 
 Starships that battle in a 2d top-down arena.
 

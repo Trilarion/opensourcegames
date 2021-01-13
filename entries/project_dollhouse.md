@@ -9,6 +9,6 @@
 - Code language: C#
 - Code license: MPL-2.0
 - Code dependency: MonoGame
-- Developer: riperiperi, Mats Vederhus, ddfczm, Tony Bark
+- Developer: ddfczm, Mats Vederhus, riperiperi, Tony Bark
 
 ## Building

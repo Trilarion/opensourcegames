@@ -8,6 +8,6 @@
 - Code language: Rust
 - Code license: MIT
 - Code dependency: Piston
-- Developer: Sven Nilsen, Eduard-Mihai Burtescu, Carlos Cobo, Matt Ickstadt, Dzmitry Malyshau, Fenhl, Nikita Pekin
+- Developer: Carlos Cobo, Dzmitry Malyshau, Eduard-Mihai Burtescu, Fenhl, Matt Ickstadt, Nikita Pekin, Sven Nilsen
 
 ## Building

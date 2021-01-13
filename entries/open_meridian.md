@@ -8,7 +8,7 @@
 - Code repository: https://github.com/OpenMeridian/Meridian59.git (@created 2013, @stars 106, @forks 69)
 - Code language: C, C++
 - Code license: GPL-2.0
-- Developer: skittles1, Daenks, Clint Banzhaf, M59Gar, Meridian59, Matthew Trey, Morbus, FSU-Phil, PKChrisChan, Ashton, tsShergill, Mark Sturm, broodhill, theanax, Roy, xFirekatx, siwithaneye, M59Khan, Sarevok, Andrew Chrapko
+- Developer: Andrew Chrapko, Ashton, broodhill, Clint Banzhaf, Daenks, FSU-Phil, M59Gar, M59Khan, Mark Sturm, Matthew Trey, Meridian59, Morbus, PKChrisChan, Roy, Sarevok, siwithaneye, skittles1, theanax, tsShergill, xFirekatx
 
 Meridian 59 is a long-running medieval fantasy combat and adventure MMO.
 

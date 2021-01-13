@@ -8,7 +8,7 @@
 - Code language: C++, C
 - Code license: GPL-3.0
 - Code dependency: Source SDK
-- Developer: Joe Ludwig, Jonathan White, Jørgen P. Tjernø, ardneran, Jonas Termansen, Neico, Alan Edwardes
+- Developer: Alan Edwardes, ardneran, Joe Ludwig, Jonas Termansen, Jonathan White, Jørgen P. Tjernø, Neico
 
 GoldenEye: Source is a multiplayer only total conversion modification of Half-Life 2.
 

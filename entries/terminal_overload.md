@@ -9,7 +9,7 @@
 - Code license: GPL-3.0
 - Code dependency: Torque 3D
 - Assets license: CC-BY 4.0
-- Developer: Michael "fr1tz" Goldener, Michael Goldener, Luis Anton Rebollo, Daniel Buckmaster, David Wyand, SilentMike, Brian Roberts, bank, Vincent Gee, Lukas Joergensen, bpay, Timmy, James Urquhart, Areloch, Andrew Mac, Andrey Syrokomskiy
+- Developer: Andrew Mac, Andrey Syrokomskiy, Areloch, bank, bpay, Brian Roberts, Daniel Buckmaster, David Wyand, James Urquhart, Luis Anton Rebollo, Lukas Joergensen, Michael "fr1tz" Goldener, Michael Goldener, SilentMike, Timmy, Vincent Gee
 
 (abbreviated TOL) Experimental online multiplayer first-person shooter game.
 

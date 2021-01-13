@@ -8,7 +8,7 @@
 - Code repository: https://github.com/openitg/openitg.git (@archived, @created 2011, @stars 141, @forks 77)
 - Code language: C, C++
 - Code license: MIT
-- Developer: spigwitmer, vyhd, August Gustavsson, Carl Myers, DataBeaver, Toni Spets, mooinglemur, Kate Gray
+- Developer: August Gustavsson, Carl Myers, DataBeaver, Kate Gray, mooinglemur, spigwitmer, Toni Spets, vyhd
 
 Rhythm dancing game.
 

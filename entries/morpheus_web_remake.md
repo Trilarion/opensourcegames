@@ -10,7 +10,7 @@
 - Code language: JavaScript
 - Code license: MIT
 - Code dependency: React, Redux, Rx.js, Three.js, Tween.js
-- Developer: John Dean, Zeke Sikelianos, Kevin Sawicki
+- Developer: John Dean, Kevin Sawicki, Zeke Sikelianos
 
 What is the license of the content? Does the author have the right to distribute the content?
 

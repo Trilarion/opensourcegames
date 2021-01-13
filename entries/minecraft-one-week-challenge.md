@@ -8,6 +8,6 @@
 - Code language: C++, C
 - Code license: MIT
 - Code dependency: SFML
-- Developer: Matthew Hopson, Sebastian, Eausa, kiroma
+- Developer: Eausa, kiroma, Matthew Hopson, Sebastian
 
 ## Building

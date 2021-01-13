@@ -8,7 +8,7 @@
 - Code repository: https://github.com/freeserf/freeserf.git (@created 2011, @stars 255, @forks 44)
 - Code language: C, C++
 - Code license: GPL-3.0
-- Developer: Jon Lund Steffensen, Yury Klushin, Thomas Zeugner
+- Developer: Jon Lund Steffensen, Thomas Zeugner, Yury Klushin
 
 ## Building
 

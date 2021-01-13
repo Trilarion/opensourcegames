@@ -10,6 +10,6 @@
 - Code language: Java
 - Code license: GPL-2.0
 - Code dependency: JOGL, lwjgl
-- Developer: Carsten Weisse, Holger Zickner, Rene Stoeckel, David Sanders, Kenneth B. Russell
+- Developer: Carsten Weisse, David Sanders, Holger Zickner, Kenneth B. Russell, Rene Stoeckel
 
 ## Building

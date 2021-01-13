@@ -7,7 +7,7 @@
 - Code repository: https://github.com/calref/cboe.git (@created 2013, @stars 115, @forks 38)
 - Code language: C++
 - Code license: GPL-2.0
-- Developer: Jeff Vogel, Celtic Minstrel, Keira Dueck, Menshin, Ben Scott, Mark Clark, Rémi Verschelde, C.W. Betts
+- Developer: Ben Scott, C.W. Betts, Celtic Minstrel, Jeff Vogel, Keira Dueck, Mark Clark, Menshin, Rémi Verschelde
 
 Started as a commercial project. Part of the Exile series and released in 1997 by Spiderweb Software.
 

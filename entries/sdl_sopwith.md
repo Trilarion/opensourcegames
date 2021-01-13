@@ -10,7 +10,7 @@
 - Code language: C
 - Code license: GPL-2.0
 - Code dependency: SDL
-- Developer: Simon Howard, Jesse Smith
+- Developer: Jesse Smith, Simon Howard
 
 Port of the classic 8086 biplane shoot-em-up.
 See also the original [Sopwith](https://web.archive.org/web/20200131222432/http://davidlclark.com/page/sopwith)

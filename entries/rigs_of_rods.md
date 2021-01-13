@@ -10,7 +10,7 @@
 - Code language: C, C++, AngelScript
 - Code license: GPL-3.0
 - Code dependency: OGRE
-- Developer: pricorde, tdev, ulteq, Petr Ohlídal, Edgar, Hiradur, tritonas00, mikadou, Speciesx, Michael, Artem Vorotnikov, Chris Ritchey, Pavel Rojtberg, Billel Adam, Tim Göttlicher
+- Developer: Artem Vorotnikov, Billel Adam, Chris Ritchey, Edgar, Hiradur, Michael, mikadou, Pavel Rojtberg, Petr Ohlídal, pricorde, Speciesx, tdev, Tim Göttlicher, tritonas00, ulteq
 
 Drive, fly and sail various vehicles.
 

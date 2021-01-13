@@ -8,7 +8,7 @@
 - Code language: C#
 - Code license: MIT
 - Code dependency: MonoGame
-- Developer: Ronen Ness, Ronen
+- Developer: Ronen, Ronen Ness
 
 UI extension for MonoGame-based projects.
 

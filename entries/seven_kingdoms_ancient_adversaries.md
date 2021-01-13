@@ -9,6 +9,6 @@
 - Code repository: https://github.com/the3dfxdude/7kaa.git (@created 2013, @stars 168, @forks 51)
 - Code language: C++
 - Code license: GPL-2.0
-- Developer: the3dfxdude, MicroVirus, unavowed, L. Alberto Giménez, runtime-x86, 7k2, alexstreit, Timothy Rink, Steve Lavoie, Jiří Moravec, themerion, Lenny Andreu, Jeff
+- Developer: 7k2, alexstreit, Jeff, Jiří Moravec, L. Alberto Giménez, Lenny Andreu, MicroVirus, runtime-x86, Steve Lavoie, the3dfxdude, themerion, Timothy Rink, unavowed
 
 ## Building

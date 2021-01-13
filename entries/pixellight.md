@@ -8,7 +8,7 @@
 - Code repository: https://github.com/PixelLightFoundation/pixellight.git (@created 2014, @stars 101, @forks 31), https://git.code.sf.net/p/pixellight/code @add, https://git.code.sf.net/p/pixellight/pixellight2 @add
 - Code language: C, C++
 - Code license: MIT
-- Developer: Christian Ofenberg, Thomas Mühsam, NightFox, Stefan Buschmann, Stephan Wezel, cin, deaf.seven, Frank Deinzer, Christian Petry, katoun, Maximilian Reß, Jens Schmer, Michael Bernard, Stephan Lemnitzer, cpetry
+- Developer: Christian Ofenberg, Christian Petry, cin, cpetry, deaf.seven, Frank Deinzer, Jens Schmer, katoun, Maximilian Reß, Michael Bernard, NightFox, Stefan Buschmann, Stephan Lemnitzer, Stephan Wezel, Thomas Mühsam
 
 ## Building
 

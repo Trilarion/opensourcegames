@@ -8,7 +8,7 @@
 - Code repository: https://gitlab.com/osgames/wargamer.git (backup of cvs), http://wargamer.cvs.sourceforge.net/ (cvs)
 - Code language: C++
 - Code license: GPL-2.0
-- Developer: Steven Green, Tim Carne, Shane D., Greg Moorer, Curt Northey, Jim Schultz, Eugen Udrea, James Broad, John Gilbert, John-Paul Treen, Patrick Dahlin, Rajiv Guilder, Richard O'Grady, Martin Newman, Jason, Thierry MICHEL, mitchell nolte, Luciano Bassotti, Victor L. Harpley, Vladimir Anisimov, John Duquette
+- Developer: Curt Northey, Eugen Udrea, Greg Moorer, James Broad, Jason, Jim Schultz, John Duquette, John Gilbert, John-Paul Treen, Luciano Bassotti, Martin Newman, mitchell nolte, Patrick Dahlin, Rajiv Guilder, Richard O'Grady, Shane D., Steven Green, Thierry MICHEL, Tim Carne, Victor L. Harpley, Vladimir Anisimov
 
 May require original files?
 Wargamer: Napoleon 1813 originally developed by Steven Green/Greenius, and published in 1999 by Empire Interactive.

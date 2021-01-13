@@ -8,6 +8,6 @@
 - Code language: C
 - Code license: MIT
 - Code dependency: SFML
-- Developer: Ian, darkhaven3
+- Developer: darkhaven3, Ian
 
 ## Building

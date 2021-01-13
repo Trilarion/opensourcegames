@@ -7,6 +7,6 @@
 - Code repository: https://github.com/Interrupt/delverengine.git (@created 2018, @stars 588, @forks 51)
 - Code language: Java
 - Code license: Custom (modified zlib)
-- Developer: Chad Cuddigan, Joshua Skelton, Felix Siebeneicker, Jeff, jazz mickle
+- Developer: Chad Cuddigan, Felix Siebeneicker, jazz mickle, Jeff, Joshua Skelton
 
 ## Building

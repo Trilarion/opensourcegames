@@ -8,7 +8,7 @@
 - Code language: C++, Python
 - Code license: MIT
 - Code dependency: Qt
-- Developer: Martin Horner, martin
+- Developer: martin, Martin Horner
 
 More or less feature parity with the original, saving/loading/etc. works.
 

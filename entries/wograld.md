@@ -8,6 +8,6 @@
 - Code language: C
 - Code license: GPL-2.0
 - Assets license: ? (GPL)
-- Developer: Lori Angela Nagel, Wograldin, jastiv, Ritacon, yakgorgon, mozart kittie
+- Developer: jastiv, Lori Angela Nagel, mozart kittie, Ritacon, Wograldin, yakgorgon
 
 ## Building

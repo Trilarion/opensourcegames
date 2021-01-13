@@ -9,7 +9,7 @@
 - Code language: C++, Lua
 - Code license: MIT
 - Code dependency: SDL2
-- Developer: KI, Ruin0x11, Vorlent, Sora, Morgan Fouque
+- Developer: KI, Morgan Fouque, Ruin0x11, Sora, Vorlent
 
 ## Building
 

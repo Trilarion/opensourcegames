@@ -8,7 +8,7 @@
 - Code repository: @see-download
 - Code language: C
 - Code license: MIT
-- Developer: Armin Rigo, Kjetil Jacobsen, David Fraser, Jonathan M. Franz, Michael Hudson-Doyle, Petru Paler, Riaan Booysen, Tim Hochberg, Christian Tismer
+- Developer: Armin Rigo, Christian Tismer, David Fraser, Jonathan M. Franz, Kjetil Jacobsen, Michael Hudson-Doyle, Petru Paler, Riaan Booysen, Tim Hochberg
 
 Python specializing compiler.
 Unmaintained, refers to pypy.org

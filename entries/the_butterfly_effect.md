@@ -10,7 +10,7 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: Box2D, Qt
-- Developer: Klaas van Gend, Peter van Ginneken, Aschwin Marsman, Quinten Marsman, Wuzzy, lspacenl, Rutger van Sleen
+- Developer: Aschwin Marsman, Klaas van Gend, lspacenl, Peter van Ginneken, Quinten Marsman, Rutger van Sleen, Wuzzy
 
 Realistic physics simulations.
 

@@ -8,7 +8,7 @@
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: Box2D, SDL
-- Developer: Petr Jašíček, Dmitrii Dementev, Pavel Löbl, Denis Papec, Bakasura
+- Developer: Bakasura, Denis Papec, Dmitrii Dementev, Pavel Löbl, Petr Jašíček
 
 ## Building
 

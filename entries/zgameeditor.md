@@ -7,6 +7,6 @@
 - Code repository: https://github.com/VilleKrumlinde/zgameeditor.git (@created 2015, @stars 52, @forks 9)
 - Code language: Pascal
 - Code license: MIT
-- Developer: VilleKrumlinde, Rado1 Cervenka, Christian Budde
+- Developer: Christian Budde, Rado1 Cervenka, VilleKrumlinde
 
 ## Building

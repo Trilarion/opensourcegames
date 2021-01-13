@@ -10,7 +10,7 @@
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: GLEW, SDL2
-- Developer: Dmitry Alekseev, Epifanov Ivan, Vlad, Vadim Balashoff, Sergei Maximov, Dreamer, Radegast, Adam, Rohit Nirmal, 667bdrm, Aleksandr Vorobiev, poxu, Zervox, Michał Janiszewski, Mikhail Paulyshka, shsorbom, s7jones, teep0, Adam Kewley, Ivan Romanov
+- Developer: 667bdrm, Adam, Adam Kewley, Aleksandr Vorobiev, Dmitry Alekseev, Dreamer, Epifanov Ivan, Ivan Romanov, Michał Janiszewski, Mikhail Paulyshka, poxu, Radegast, Rohit Nirmal, s7jones, Sergei Maximov, shsorbom, teep0, Vadim Balashoff, Vlad, Zervox
 
 ## Building
 

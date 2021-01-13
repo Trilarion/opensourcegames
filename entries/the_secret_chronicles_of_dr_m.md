@@ -10,6 +10,6 @@
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: SDL
-- Developer: Marvin Gülker, Florian Richter, Chris Jacobsen, Brian Allen Vanderburg II, Lauri Ojansivu, Luiji Maryo, Ryan Gonzalez, Taran Lynn, hgdagon, Tristan Heaven, Robert W, Justin Rissler, David CARLIER
+- Developer: Brian Allen Vanderburg II, Chris Jacobsen, David CARLIER, Florian Richter, hgdagon, Justin Rissler, Lauri Ojansivu, Luiji Maryo, Marvin Gülker, Robert W, Ryan Gonzalez, Taran Lynn, Tristan Heaven
 
 ## Building

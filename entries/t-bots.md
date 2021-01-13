@@ -7,7 +7,7 @@
 - Code repository: https://gitlab.com/osgames/tbots.git (backup of cvs), https://tbots.cvs.sourceforge.net (cvs)
 - Code language: C
 - Code license: GPL-2.0
-- Developer: Sebastien LEIX, Aitonfrere, Cedric STANUS, Mike Cotterman, Glenn Nilsen
+- Developer: Aitonfrere, Cedric STANUS, Glenn Nilsen, Mike Cotterman, Sebastien LEIX
 
 Robot battle game simulator.
 

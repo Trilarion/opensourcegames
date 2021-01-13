@@ -9,7 +9,7 @@
 - Code language: C, C++, Lua
 - Code license: GPL-3.0
 - Assets license: CC-BY-SA
-- Developer: Christopho, Vlag, Morwenn, Maxs, std::gregwar, Thomas Noury, BenObiWan, Michel Hermier, Samuel Lepetit, Diarandor, Olivier Cléro, 19oj19, Shin-NiL, bin仔, xethm55, legrostazon, clemzio, Matthias Mailänder, Vincent Breitmoser, joshuarobinson, Claire Moore, rcjx
+- Developer: 19oj19, BenObiWan, bin仔, Christopho, Claire Moore, clemzio, Diarandor, joshuarobinson, legrostazon, Matthias Mailänder, Maxs, Michel Hermier, Morwenn, Olivier Cléro, rcjx, Samuel Lepetit, Shin-NiL, std::gregwar, Thomas Noury, Vincent Breitmoser, Vlag, xethm55
 
 ## Building
 

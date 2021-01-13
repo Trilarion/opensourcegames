@@ -7,7 +7,7 @@
 - Code repository: https://github.com/diasurgical/devilution.git (@created 2018, @stars 8095, @forks 940)
 - Code language: C, C++
 - Code license: Unlicense
-- Developer: Anders Jenbo, qndel, Andi, Robin, Sergey Semushin, Dennis Duda, squidcc, JustAnotherGuid, Gleb Mazovetskiy, nomdenom, Adam Stachowicz, BorisTheBrave, Adam Heinermann, Manuel K, Marco, Joan Karadimov
+- Developer: Adam Heinermann, Adam Stachowicz, Anders Jenbo, Andi, BorisTheBrave, Dennis Duda, Gleb Mazovetskiy, Joan Karadimov, JustAnotherGuid, Manuel K, Marco, nomdenom, qndel, Robin, Sergey Semushin, squidcc
 
 All functions identical to the original.
 

@@ -8,6 +8,6 @@
 - Code repository: http://elysium.cvs.sourceforge.net (cvs)
 - Code language: C
 - Code license: GPL-2.0
-- Developer: pingu, Daniel Araújo
+- Developer: Daniel Araújo, pingu
 
 ## Building

@@ -8,7 +8,7 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Assets license: ? (GPL-2.0)
-- Developer: HackerPoet, FW, Mykhailo Moroz, William Unsworth, Bryce Wilson, Ott Toomet, Selicre
+- Developer: Bryce Wilson, FW, HackerPoet, Mykhailo Moroz, Ott Toomet, Selicre, William Unsworth
 
 Showcasing a fully ray marched graphics and making use of fractals and a fractal collision engine.
 

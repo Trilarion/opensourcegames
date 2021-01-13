@@ -9,7 +9,7 @@
 - Code repository: https://github.com/chocolate-doom/chocolate-doom.git (@created 2009, @stars 1002, @forks 356)
 - Code language: C
 - Code license: GPL-2.0
-- Developer: Simon Howard, James Haley, Jonathan Dowland, rtc, Kaiser, Zvonimir Buzanic, Turo Lamminen, Fabian Greffrath, "James Haley (Nightdive Studios)", Mike Swanson, Samuel, Alex Mayfield, nukeykt, Michael Francis, CapnClever, Julia Nechaevskaya, linguica, Alexandre-Xavier Labonté-Lamoureux, David CARLIER, Azarien, Jan Engelhardt, James Canete, Rodrigo Rebello, William Breathitt Gray, alexey.lysiuk, Jason Benaim
+- Developer: Alex Mayfield, Alexandre-Xavier Labonté-Lamoureux, alexey.lysiuk, Azarien, CapnClever, David CARLIER, Fabian Greffrath, James Canete, James Haley, "James Haley (Nightdive Studios)", Jan Engelhardt, Jason Benaim, Jonathan Dowland, Julia Nechaevskaya, Kaiser, linguica, Michael Francis, Mike Swanson, nukeykt, Rodrigo Rebello, rtc, Samuel, Simon Howard, Turo Lamminen, William Breathitt Gray, Zvonimir Buzanic
 
 Doom source port that accurately reproduces the experience of Doom as it was played in the 1990s.
 Supports a number of games and mods based on the Doom.

@@ -7,7 +7,7 @@
 - Code repository: https://github.com/mkalus/janag.git (@archived, @created 2014, @stars 4, @forks 4)
 - Code language: Java
 - Code license: GPL-3.0
-- Developer: Max, Javier A. Ortiz Bultron
+- Developer: Javier A. Ortiz Bultron, Max
 
 Random name generator for role-games, authors, and the like.
 

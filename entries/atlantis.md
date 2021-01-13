@@ -7,7 +7,7 @@
 - Code repository: https://github.com/Atlantis-PBEM/Atlantis.git (@created 2011, @stars 50, @forks 31), https://svn.code.sf.net/p/atlantis/code (svn)
 - Code language: C++
 - Code license: GPL-2.0
-- Developer: Stephen Baillie, Loriaki, T Gerigk, Enno Rehling, Artem Trytiak
+- Developer: Artem Trytiak, Enno Rehling, Loriaki, Stephen Baillie, T Gerigk
 
 PBEM Game engine which is used to create many different strategy wargames today and for the past decade.
 Game engine? Implementations?

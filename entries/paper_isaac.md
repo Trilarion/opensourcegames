@@ -7,6 +7,6 @@
 - Code repository: https://github.com/fasterthanlime/isaac-paper.git (@created 2013, @stars 54, @forks 3)
 - Code language: ooc
 - Code license: MIT
-- Developer: "Amos Wenger (old)", Nat Schlagmann, Ohmyne, nickvecellio
+- Developer: "Amos Wenger (old)", Nat Schlagmann, nickvecellio, Ohmyne
 
 ## Building

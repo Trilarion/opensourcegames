@@ -7,7 +7,7 @@
 - Code language: C++
 - Code license: 3-clause BSD
 - Code dependency: OpenGL
-- Developer: Vyom Fadia, Barney Wilks, "Austin (SonosFuer)", Alexandre Plateau, Gerold55, Xaleth, "Toby plowy (Toby109tt)"
+- Developer: Alexandre Plateau, "Austin (SonosFuer)", Barney Wilks, Gerold55, "Toby plowy (Toby109tt)", Vyom Fadia, Xaleth
 
 ## Building
 

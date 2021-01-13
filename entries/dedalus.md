@@ -8,7 +8,7 @@
 - Code language: JavaScript
 - Code license: GPL-2.0
 - Code dependency: jQuery
-- Developer: pistacchio, maxlepper
+- Developer: maxlepper, pistacchio
 
 Authoring system for generating adventure narratives.
 

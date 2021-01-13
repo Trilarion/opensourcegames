@@ -9,6 +9,6 @@
 - Code language: C++, JavaScript
 - Code license: zlib
 - Code dependency: Cube 2
-- Developer: Johannes Schneider, yeetari, Iceflower, Moritz Bock, Malte H, Karolin Varner, Andreas Schaeffer, Michael Keck, killme, DarkDeepBlue
+- Developer: Andreas Schaeffer, DarkDeepBlue, Iceflower, Johannes Schneider, Karolin Varner, killme, Malte H, Michael Keck, Moritz Bock, yeetari
 
 ## Building

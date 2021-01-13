@@ -9,7 +9,7 @@
 - Code language: C
 - Code license: GPL-2.0
 - Code dependency: SDL
-- Developer: Nick McConnell, Anna Sidwell, Chris Carr, Erik Osheim, backwardsEric, Peter Denison, fizzix, Ben Semmler, ajps, David Barr, Kusunose Toru, Tim Schumacher, Mikolaj Konarski, artes-liberales, Alex Mooney, Colin Woodbury, Dag Arneson, pete-mack, Bardur Arantsson, CJNyfalt, LostTemplar, jenschou, 3m4r, Cuboideb, kjfletch, David Medley, ridiculousfish, Eastwind921, LuthienCeleste, Ryan Schmidt, Spenser Black, sulkasormi
+- Developer: 3m4r, ajps, Alex Mooney, Anna Sidwell, artes-liberales, backwardsEric, Bardur Arantsson, Ben Semmler, Chris Carr, CJNyfalt, Colin Woodbury, Cuboideb, Dag Arneson, David Barr, David Medley, Eastwind921, Erik Osheim, fizzix, jenschou, kjfletch, Kusunose Toru, LostTemplar, LuthienCeleste, Mikolaj Konarski, Nick McConnell, pete-mack, Peter Denison, ridiculousfish, Ryan Schmidt, Spenser Black, sulkasormi, Tim Schumacher
 
 Single-player dungeon exploration game.
 

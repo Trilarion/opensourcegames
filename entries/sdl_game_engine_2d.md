@@ -7,6 +7,6 @@
 - Code repository: https://gitlab.com/osgames/sge2d.git (backup of svn), https://svn.code.sf.net/p/sge2d/code (svn)
 - Code language: C
 - Code license: MIT
-- Developer: Heiko Irrgang, Agnostic Entertainment, Christoph Frick
+- Developer: Agnostic Entertainment, Christoph Frick, Heiko Irrgang
 
 ## Building

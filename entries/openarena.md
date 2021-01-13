@@ -10,7 +10,7 @@
 - Code repository: https://github.com/OpenArena/engine.git (@created 2014, @stars 135, @forks 31), https://github.com/suijingfeng/vkOpenArena.git @add (@created 2018, @stars 52, @forks 4)
 - Code language: C
 - Code license: GPL-2.0
-- Developer: Thilo Schulz, Tim Angus, Zack Middleton, Ludwig Nussel, Jack Slater, Ryan C. Gordon, James Canete, Tony White, leilei-, Poul Sander, hairball, Jeremiah Sypult, Ensiform, Anthony Pesch, Richard Allen, Sui Jingfeng
+- Developer: Anthony Pesch, Ensiform, hairball, Jack Slater, James Canete, Jeremiah Sypult, leilei-, Ludwig Nussel, Poul Sander, Richard Allen, Ryan C. Gordon, Sui Jingfeng, Thilo Schulz, Tim Angus, Tony White, Zack Middleton
 
 ## Building
 

@@ -10,7 +10,7 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL
-- Developer: AlisterT, Carsten Teibes, StanB123, Scott, Fabian Greffrath, Mike Purvis, Przemysław Buczkowski
+- Developer: AlisterT, Carsten Teibes, Fabian Greffrath, Mike Purvis, Przemysław Buczkowski, Scott, StanB123
 
 ## Building
 

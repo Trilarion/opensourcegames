@@ -9,6 +9,6 @@
 - Code license: GPL-3.0
 - Code dependency: GStreamer, Soya3D
 - Assets license: GPL-2.0 (fonts)
-- Developer: Andreas Kattner, Stefan Huchler, Felix Rodriguez Lopez
+- Developer: Andreas Kattner, Felix Rodriguez Lopez, Stefan Huchler
 
 ## Building

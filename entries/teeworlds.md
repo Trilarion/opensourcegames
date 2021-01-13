@@ -11,7 +11,7 @@
 - Code license: zlib
 - Code dependency: SDL
 - Assets license: CC-BY-SA-3.0
-- Developer: Magnus Auvinen, oy, Jakob Fries, Joel de Vahl, Johan Althoff, Matthew Swain, Dominik D. Geyer, Phobos99, larsfu, BeaR, heinrich5991, Shereef Marzouk, SushiTee, MyDopefish, Emir Marincic, chi1, van fstd
+- Developer: BeaR, chi1, Dominik D. Geyer, Emir Marincic, heinrich5991, Jakob Fries, Joel de Vahl, Johan Althoff, larsfu, Magnus Auvinen, Matthew Swain, MyDopefish, oy, Phobos99, Shereef Marzouk, SushiTee, van fstd
 
 Cartoon style 2D multiplayer platform shooter game (or third person shooter).
 The game provides an arena where players fight in various multiplayer modes (capture the flag, duel, team death match, race). The player is a Tee, a little ball with hands and feet.

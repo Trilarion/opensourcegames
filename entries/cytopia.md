@@ -9,7 +9,7 @@
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: SDL2
-- Developer: SimplyLiz, M Mograbi, Vincent-Olivier Roch, Pablo Antonio Camacho Jr., Edgar, Elizabeth Sherrock, Bogi79, Restyled Commits, KINGTUT10101, bangboomboomboom, Mario, Steven Gann, yukyduky, Paragoumba, kollix, "Weblate (bot)", syanush
+- Developer: bangboomboomboom, Bogi79, Edgar, Elizabeth Sherrock, KINGTUT10101, kollix, M Mograbi, Mario, Pablo Antonio Camacho Jr., Paragoumba, Restyled Commits, SimplyLiz, Steven Gann, syanush, Vincent-Olivier Roch, "Weblate (bot)", yukyduky
 
 ## Building
 

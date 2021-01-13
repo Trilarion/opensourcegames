@@ -15,6 +15,14 @@ http://haxepunk.com/
 http://hcsoftware.sourceforge.net/jason-rohrer/ (various games there)
 http://hge.relishgames.com/
 http://hgm.nubati.net/
+https://en.wikipedia.org/wiki/Catacomb_(video_game) (released under GNU)
+https://github.com/JCWasmx86/Conquer
+https://github.com/SaeruHikari/SakuraEngine
+https://github.com/zhangdoa/InnocenceEngine
+https://github.com/septag/rizz
+https://github.com/EvilPudding/candle
+https://github.com/TorqueGameEngines/Torque3D
+https://github.com/polymonster/pmtech
 http://icculus.org/
 http://icculus.org/asciiroth/
 http://icculus.org/avp/

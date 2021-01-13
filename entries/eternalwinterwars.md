@@ -7,7 +7,7 @@
 - Code repository: https://github.com/hinogi/eternalwinterwars.git (@created 2014, @stars 1, @forks 0)
 - Code language: Java
 - Code license: MIT
-- Developer: Sebastian Lutter, Manuel, Matthias Ton
+- Developer: Manuel, Matthias Ton, Sebastian Lutter
 
 Medieval winter setting.
 

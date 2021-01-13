@@ -7,6 +7,6 @@
 - Code repository: https://github.com/prophile/xsera.git (@created 2008, @stars 11, @forks 5)
 - Code language: C, Lua
 - Code license: MIT
-- Developer: Adam Hintz, Alistair Lynn, Scott McClaugherty, Andrew M
+- Developer: Adam Hintz, Alistair Lynn, Andrew M, Scott McClaugherty
 
 ## Building

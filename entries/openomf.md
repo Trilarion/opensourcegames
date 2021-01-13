@@ -10,7 +10,7 @@
 - Code repository: https://github.com/omf2097/openomf.git (@created 2013, @stars 239, @forks 28)
 - Code language: C, C++
 - Code license: MIT
-- Developer: Tuomas Virtanen, Andrew Thompson, animehunter, Martti Rannanjärvi, Alexander Weps, Giuseppe Deda, Andreas Gnau, TheOnlyJoey
+- Developer: Alexander Weps, Andreas Gnau, Andrew Thompson, animehunter, Giuseppe Deda, Martti Rannanjärvi, TheOnlyJoey, Tuomas Virtanen
 
 single player, 2 player and network play work, content from omf2097.com
 

@@ -9,7 +9,7 @@
 - Code repository: https://github.com/NYRDS/remixed-dungeon.git (@created 2014, @stars 155, @forks 64)
 - Code language: Java
 - Code license: GPL-3.0
-- Developer: Mikhael-Danilov, ThEnigma314, swooboo, PavelProvotorov, Rodrigo Pan, Watabou, DeadDie44, Olexandr Nesterenko, anunknowperson, Nathan Wolfe, nima-s
+- Developer: anunknowperson, DeadDie44, Mikhael-Danilov, Nathan Wolfe, nima-s, Olexandr Nesterenko, PavelProvotorov, Rodrigo Pan, swooboo, ThEnigma314, Watabou
 
 ## Building
 

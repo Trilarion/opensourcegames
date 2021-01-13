@@ -9,7 +9,7 @@
 - Code repository: https://gitlab.com/osgames/zangband.git (backup of cvs), http://zangband.cvs.sourceforge.net/ (cvs)
 - Code language: C
 - Code license: Custom (Modifications allowed?)
-- Developer: Ross Morgan-Linial, Robert Ruehlmann, Steven Fuerst, Chris Kern, Mitsuhiro Itakura, Willem Siemelink, topi ylinen
+- Developer: Chris Kern, Mitsuhiro Itakura, Robert Ruehlmann, Ross Morgan-Linial, Steven Fuerst, topi ylinen, Willem Siemelink
 
 Available for almost any computer and operating system.
 Based on Angband.

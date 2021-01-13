@@ -10,7 +10,7 @@
 - Code language: Python
 - Code license: GPL-3.0
 - Assets license: GPL-2.0
-- Developer: Mariano Muñoz, Turulomio, Nadia Adam
+- Developer: Mariano Muñoz, Nadia Adam, Turulomio
 
 Is played with a dice and 4 pawns per player. Players have to move their pawns out of their nest, around the whole board, into the destination of the player's color.
 

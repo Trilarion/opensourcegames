@@ -9,7 +9,7 @@
 - Code repository: https://github.com/AndO3131/lgeneral.git (mirror, @created 2018, @stars 0, @forks 0), https://svn.code.sf.net/p/lgeneral/code (svn), http://lgeneral.cvs.sourceforge.net (cvs)
 - Code language: C
 - Code license: GPL-2.0
-- Developer: Michael Speck, Leo Savernik, Peter Ivanyi, Victor Sergienko
+- Developer: Leo Savernik, Michael Speck, Peter Ivanyi, Victor Sergienko
 
 May require original game content.
 

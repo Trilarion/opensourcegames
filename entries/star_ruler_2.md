@@ -8,7 +8,7 @@
 - Code language: C, C++
 - Code license: MIT
 - Assets license: CC-BY-NC 2.0
-- Developer: Amy Ackermann, Lucas de Vries, David CARLIER
+- Developer: Amy Ackermann, David CARLIER, Lucas de Vries
 
 Music is not part of the open source release.
 

@@ -10,7 +10,7 @@
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependency: SDL2
-- Developer: "James Haley (Nightdive Studios)", Ioan Chera, "Max Waine (Nightdive Studios)", Stephen McGranahan, David Hill, Xaser Acheron, Mike Swanson, Shannon Freeman, "Alison Watson (Nightdive Studios)", anotak
+- Developer: "Alison Watson (Nightdive Studios)", anotak, David Hill, Ioan Chera, "James Haley (Nightdive Studios)", "Max Waine (Nightdive Studios)", Mike Swanson, Shannon Freeman, Stephen McGranahan, Xaser Acheron
 
 DOOM source port.
 

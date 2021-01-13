@@ -8,7 +8,7 @@
 - Code language: C++
 - Code license: Apache-2.0
 - Code dependency: SDL2
-- Developer: VenKamikaze, Luke Hoschke
+- Developer: Luke Hoschke, VenKamikaze
 
 ## Building
 

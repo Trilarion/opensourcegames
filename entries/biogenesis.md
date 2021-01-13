@@ -7,7 +7,7 @@
 - Code repository: https://git.code.sf.net/p/biogenesis/git
 - Code language: Java
 - Code license: GPL-2.0
-- Developer: Joan Queralt Molina, AdaM, Joan Queralt, MarcoA, Richard David Williams, Tyler
+- Developer: AdaM, Joan Queralt, Joan Queralt Molina, MarcoA, Richard David Williams, Tyler
 
 Artificial life simulator, simulating organisms, their workings and their environment.
 

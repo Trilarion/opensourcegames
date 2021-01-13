@@ -9,7 +9,7 @@
 - Code language: C++, Shell
 - Code license: GPL-2.0
 - Code dependency: SDL
-- Developer: ebuc99, Martin, Keith Bowes
+- Developer: ebuc99, Keith Bowes, Martin
 
 Very close to the original from Namco.
 

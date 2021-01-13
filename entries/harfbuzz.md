@@ -7,7 +7,7 @@
 - Code repository: https://github.com/harfbuzz/harfbuzz.git (@created 2012, @stars 1775, @forks 385)
 - Code language: C++
 - Code license: MIT
-- Developer: Behdad Esfahbod, ebraminio, Michiharu Ariza, Garret Rieger, Khaled Hosny, n8willis, David Corbett, rsheeter, Owen Taylor, Qunxin Liu, jfkthame, fanc999, Simon Cozens, ckitagawa-work, Tim-Philipp Müller, Bruce Mitchener, mhosken, Konstantin Ritt, Dominik Röttsches, Evgeniy Reizner, Christoph Reiter, Elie Roux, Sascha Brawer, Cosimo Lupo, Frédéric Wang, Mathieu Duponchelle, Caleb Maclennan, Xavier Claessens, Eric Muller, The Phantom Derpstorm, Alfie John, HinTak, Roozbeh Pournader, Sebastian Rasmussen, Dominik Schlösser, Carlo Bramini, Collin Fair, Simon Sapin, prrace, bungeman
+- Developer: Alfie John, Behdad Esfahbod, Bruce Mitchener, bungeman, Caleb Maclennan, Carlo Bramini, Christoph Reiter, ckitagawa-work, Collin Fair, Cosimo Lupo, David Corbett, Dominik Röttsches, Dominik Schlösser, ebraminio, Elie Roux, Eric Muller, Evgeniy Reizner, fanc999, Frédéric Wang, Garret Rieger, HinTak, jfkthame, Khaled Hosny, Konstantin Ritt, Mathieu Duponchelle, mhosken, Michiharu Ariza, n8willis, Owen Taylor, prrace, Qunxin Liu, Roozbeh Pournader, rsheeter, Sascha Brawer, Sebastian Rasmussen, Simon Cozens, Simon Sapin, The Phantom Derpstorm, Tim-Philipp Müller, Xavier Claessens
 
 OpenType text shaping engine.
 

@@ -10,6 +10,6 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL
-- Developer: Thierry Van Elsuwe, Ville Bergholm, Alex Raftis, Calum Robinson, Chippo, Geoff Bathauer, Steven A. Martin, Denis Fabrice, Dennis Meuwissen, Trevor Primmett, Sergey Cremez, Jussi Pakkanen, Robert Bäuml, Planky, Gabor Sebestyen, A.J. Freda, Steven McGranahan, Anthony Cole, Wesley Johnson
+- Developer: A.J. Freda, Alex Raftis, Anthony Cole, Calum Robinson, Chippo, Denis Fabrice, Dennis Meuwissen, Gabor Sebestyen, Geoff Bathauer, Jussi Pakkanen, Planky, Robert Bäuml, Sergey Cremez, Steven A. Martin, Steven McGranahan, Thierry Van Elsuwe, Trevor Primmett, Ville Bergholm, Wesley Johnson
 
 ## Building

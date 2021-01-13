@@ -10,6 +10,6 @@
 - Code language: JavaScript
 - Code license: MIT
 - Code dependency: melonJS
-- Developer: Ellison, shinriyo, Olivier Biot, sunzhuoshi
+- Developer: Ellison, Olivier Biot, shinriyo, sunzhuoshi
 
 ## Building

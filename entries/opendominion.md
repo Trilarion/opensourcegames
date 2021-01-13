@@ -9,6 +9,6 @@
 - Code language: PHP
 - Code license: AGPL-3.0
 - Code dependency: Laravel
-- Developer: WaveHack, Cody Kinsey, John Strömblom, Christopher Smith, barmmie, James Hodgson, Jake, Kender2, Guilherme Portela, Gustavo Straube, MJBrennan
+- Developer: barmmie, Christopher Smith, Cody Kinsey, Guilherme Portela, Gustavo Straube, Jake, James Hodgson, John Strömblom, Kender2, MJBrennan, WaveHack
 
 ## Building

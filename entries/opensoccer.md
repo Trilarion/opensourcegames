@@ -7,7 +7,7 @@
 - Code repository: https://github.com/delight-im/OpenSoccer.git (@created 2014, @stars 47, @forks 26)
 - Code language: PHP
 - Code license: GPL-3.0
-- Developer: Marco, cosme12
+- Developer: cosme12, Marco
 
 Online Soccer Manager
 

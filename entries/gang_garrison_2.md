@@ -11,6 +11,6 @@
 - Code language: Game Maker Script
 - Code license: MPL-2.0
 - Code dependency: Game Maker
-- Developer: Medo42, Andrea, Alexander Nadeau, jason, Michael Lin, PrOF-kk, Lennert Claeys, ASBenz, Derpduck, BasedUser, qoh
+- Developer: Alexander Nadeau, Andrea, ASBenz, BasedUser, Derpduck, jason, Lennert Claeys, Medo42, Michael Lin, PrOF-kk, qoh
 
 ## Building

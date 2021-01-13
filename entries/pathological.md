@@ -8,7 +8,7 @@
 - Code language: Python
 - Code license: GPL-2.0
 - Code dependency: pygame
-- Developer: Stephen Thorne, John-Paul Gignac
+- Developer: John-Paul Gignac, Stephen Thorne
 
 ## Building
 

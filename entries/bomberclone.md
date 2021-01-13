@@ -10,7 +10,7 @@
 - Code language: C
 - Code license: GPL-2.0
 - Assets license: GPL
-- Developer: Steffen Pohle, Patrick, Martijn de Boer
+- Developer: Martijn de Boer, Patrick, Steffen Pohle
 
 ## Building
 

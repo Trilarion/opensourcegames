@@ -9,6 +9,6 @@
 - Code language: C
 - Code license: GPL-2.0
 - Code dependency: SDL
-- Developer: Carl Reinke, Yuri Kunde Schlesner, schmerm
+- Developer: Carl Reinke, schmerm, Yuri Kunde Schlesner
 
 ## Building

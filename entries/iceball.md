@@ -8,7 +8,7 @@
 - Code language: C, Lua
 - Code license: GPL-3.0
 - Assets license: CC-BY-SA
-- Developer: iamgreaser, Leagsaidh Gordon, BR-, James Hofmann, Dany M, Felix Kaaman, Francois Truphemus, Hammaad K., Adrian Siekierka, John Ericson
+- Developer: Adrian Siekierka, BR-, Dany M, Felix Kaaman, Francois Truphemus, Hammaad K., iamgreaser, James Hofmann, John Ericson, Leagsaidh Gordon
 
 ## Building
 

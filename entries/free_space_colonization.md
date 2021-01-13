@@ -8,7 +8,7 @@
 - Code language: C
 - Code license: GPL-2.0
 - Code dependency: SDL
-- Developer: Paul Mueller, Koen Pijnenburg
+- Developer: Koen Pijnenburg, Paul Mueller
 
 It is played on randomly generated maps, the aim is to build an empire and rule most of the galaxy.
 

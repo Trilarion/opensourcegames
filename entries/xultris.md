@@ -8,7 +8,7 @@
 - Code repository: https://github.com/mackers/xultris.git (@created 2010, @stars 7, @forks 3)
 - Code language: JavaScript, XUL
 - Code license: MPL-1.1
-- Developer: David McNamara, Mike Schuette, Brian King
+- Developer: Brian King, David McNamara, Mike Schuette
 
 Tetris variant implemented as a Mozilla Firefox extension.
 

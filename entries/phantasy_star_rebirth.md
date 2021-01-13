@@ -7,7 +7,7 @@
 - Code repository: http://hg.code.sf.net/p/phantasy/code (hg), https://gitlab.com/osgames/phantasy.git @add
 - Code language: C++
 - Code license: GPL-3.0
-- Developer: Jack Bohlen, Paul, Kami, Cool Spot
+- Developer: Cool Spot, Jack Bohlen, Kami, Paul
 
 Oldschool 90' sega genesis style.
 

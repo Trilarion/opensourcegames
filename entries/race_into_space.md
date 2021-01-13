@@ -11,7 +11,7 @@
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependency: libogg, libvorbis, SDL
-- Developer: Will Glynn, Krzysztof A. Kościuszkiewicz, Michael McCarty, Pace Willisson, Leon Baradat, Bryant Moscon, Cartmancakes, Bart Buyens, James, Benjamin Weps, Todd Lang, Nik_akd, Erik Anderson, Philip Giuliano, William Sherwin, Michael K McCarty, Ryan Yoakum, Petr Menšík, Hendrik W., Ryan Schmidt, Joseph Wang
+- Developer: Bart Buyens, Benjamin Weps, Bryant Moscon, Cartmancakes, Erik Anderson, Hendrik W., James, Joseph Wang, Krzysztof A. Kościuszkiewicz, Leon Baradat, Michael K McCarty, Michael McCarty, Nik_akd, Pace Willisson, Petr Menšík, Philip Giuliano, Ryan Schmidt, Ryan Yoakum, Todd Lang, Will Glynn, William Sherwin
 
 Developers released the original game under GPL.
 

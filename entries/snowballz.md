@@ -8,6 +8,6 @@
 - Code license: ? (GPL version?)
 - Code dependency: pygame, pyglet, Rabbyt
 - Assets license: GPL
-- Developer: Joey Marshall, Mikey Lubker, Darkflame, Daren, Matthew Powell, DunkFordyce, geekwad, Jared, Benjamin P. Jung, Matthew Marshall, Sean R. Lynch, Wansti
+- Developer: Benjamin P. Jung, Daren, Darkflame, DunkFordyce, geekwad, Jared, Joey Marshall, Matthew Marshall, Matthew Powell, Mikey Lubker, Sean R. Lynch, Wansti
 
 ## Building

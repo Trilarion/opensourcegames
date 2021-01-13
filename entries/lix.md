@@ -8,6 +8,6 @@
 - Code language: D, C++
 - Code license: CC0
 - Code dependency: Allegro
-- Developer: Simon Naarmann, Georg Os., ccexplore, Phil, Julian Ospald
+- Developer: ccexplore, Georg Os., Julian Ospald, Phil, Simon Naarmann
 
 ## Building

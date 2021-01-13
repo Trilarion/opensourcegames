@@ -9,7 +9,7 @@
 - Code language: Java
 - Code license: Apache-2.0
 - Code dependency: libGDX
-- Developer: Rafael Garcia, Edu Garcia, danigm
+- Developer: danigm, Edu Garcia, Rafael Garcia
 
 ## Building
 

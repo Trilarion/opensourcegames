@@ -10,6 +10,6 @@
 - Code language: C#
 - Code license: MIT
 - Code dependency: MonoGame
-- Developer: Thomas Bye, Aaron , Imgbot, Lynngr
+- Developer: Aaron, Imgbot, Lynngr, Thomas Bye
 
 ## Building

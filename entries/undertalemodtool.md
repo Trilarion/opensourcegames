@@ -7,7 +7,7 @@
 - Code repository: https://github.com/krzys-h/UndertaleModTool.git (@created 2018, @stars 289, @forks 57)
 - Code language: C#
 - Code license: GPL-3.0
-- Developer: krzys_h, Kneesnap, colinator27, Grossley, Nikita Krapivin
+- Developer: colinator27, Grossley, Kneesnap, krzys_h, Nikita Krapivin
 
 Tool of Undertale.
 Tool for modding, decompiling and unpacking Undertale (and other Game Maker: Studio games)

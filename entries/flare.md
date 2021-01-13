@@ -9,7 +9,7 @@
 - Code repository: https://github.com/clintbellanger/flare-engine.git (@created 2018, @stars 18, @forks 7), https://github.com/clintbellanger/flare-game.git @add (@created 2018, @stars 35, @forks 11)
 - Code language: C++, Java, Python
 - Code license: GPL-3.0
-- Developer: Justin Jacobs, Clint Bellanger, Stefan Beller, Igor Paliychuk, Henrik Andersson, Thane Brimhall, Ryan Dansie, Manuel A. Fernandez Montecelo, Matthew Krohn, Hans Joachim Desserud, sujiniku, Pawonashi, feelydj, Ludo, David Bariod, Dmitry Marakasov, Daniel Santos, gunchleoc, blazindragon, Sergey Basalaev, Matthias Krüger, JanetHunt, Joseph Bleau, Nojan, Stefano Peris, piotrrak, Queria Sa-Tas, Paul Wortmann, Milan, henrik-m, Bas Doodeman, Thomas Glamsch, Evgen Pavlov, Grisha, dallatower, Chris Oelmueller, Gabriel Pettier, Dmitriy A. Perlow, DoKel, Mikaláï Valér'evič Sakalóuskĩ, Quentin Stiévenart
+- Developer: Bas Doodeman, blazindragon, Chris Oelmueller, Clint Bellanger, dallatower, Daniel Santos, David Bariod, Dmitriy A. Perlow, Dmitry Marakasov, DoKel, Evgen Pavlov, feelydj, Gabriel Pettier, Grisha, gunchleoc, Hans Joachim Desserud, Henrik Andersson, henrik-m, Igor Paliychuk, JanetHunt, Joseph Bleau, Justin Jacobs, Ludo, Manuel A. Fernandez Montecelo, Matthew Krohn, Matthias Krüger, Mikaláï Valér'evič Sakalóuskĩ, Milan, Nojan, Paul Wortmann, Pawonashi, piotrrak, Quentin Stiévenart, Queria Sa-Tas, Ryan Dansie, Sergey Basalaev, Stefan Beller, Stefano Peris, sujiniku, Thane Brimhall, Thomas Glamsch
 
 Flare (Free Libre Action Roleplaying Engine) is a simple game engine built to handle a very specific kind of game: single-player 2D action RPGs.
 See also [Get Involved](https://flarerpg.org/index.php/get-involved/).

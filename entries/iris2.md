@@ -8,7 +8,7 @@
 - Code language: C, C++, Lua
 - Code license: GPL-3.0
 - Code dependency: OGRE
-- Developer: SiENcE, Ghoulsblade, Hagish
+- Developer: Ghoulsblade, Hagish, SiENcE
 
 2D/3D client for playing the MMORPG Ultima Online on Freeshards.
 

@@ -9,7 +9,7 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Assets license: CC-BY-NC-ND
-- Developer: LuisB, Thorsten Jordan, Matthew L, Olivier H
+- Developer: LuisB, Matthew L, Olivier H, Thorsten Jordan
 
 WW2 submarine simulation.
 

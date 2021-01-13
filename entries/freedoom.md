@@ -12,7 +12,7 @@
 - Code license: None (only content)
 - Code dependency: Doom, Pillow
 - Assets license: 3-clause BSD
-- Developer: Mike Swanson, Simon Howard, Catoptromancy, Kevin Caccamo, RjY, Ayub Ahmed, Samuel Oliver, raymoohawk, Xindage, mc776, Alexandre-Xavier Labonté-Lamoureux, Steven Elliott, Erick Tenorio, Mechadon, Fabian Greffrath, andwj, AlteriusZhang, Fernando Carmona Varo, Wereknight, HorroMovieGuy, Hugo Locurcio, jewellds
+- Developer: Alexandre-Xavier Labonté-Lamoureux, AlteriusZhang, andwj, Ayub Ahmed, Catoptromancy, Erick Tenorio, Fabian Greffrath, Fernando Carmona Varo, HorroMovieGuy, Hugo Locurcio, jewellds, Kevin Caccamo, mc776, Mechadon, Mike Swanson, raymoohawk, RjY, Samuel Oliver, Simon Howard, Steven Elliott, Wereknight, Xindage
 
 Open content for Doom.
 

@@ -8,6 +8,6 @@
 - Code license: GPL-2.0
 - Code dependency: SDL
 - Assets license: GPL
-- Developer: Jonas Spillmann, Lukas Löhrer, Patrick J. Naughton, Chris Laurel
+- Developer: Chris Laurel, Jonas Spillmann, Lukas Löhrer, Patrick J. Naughton
 
 ## Building

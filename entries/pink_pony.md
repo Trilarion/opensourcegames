@@ -11,7 +11,7 @@
 - Code license: GPL-3.0
 - Code dependency: GLFW, SDL
 - Assets license: CC0, CC-BY-3.0, CC-BY-SA-3.0 (see https://github.com/ginkgo/pink-pony#license)
-- Developer: Thomas Weber, qubodup
+- Developer: qubodup, Thomas Weber
 
 ## Building
 

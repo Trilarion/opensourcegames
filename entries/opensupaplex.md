@@ -9,7 +9,7 @@
 - Code language: C
 - Code license: GPL-3.0
 - Code dependency: SDL2
-- Developer: Sergio Padrino, Cillié Malan, Alexey Sokolov, Román Jiménez
+- Developer: Alexey Sokolov, Cillié Malan, Román Jiménez, Sergio Padrino
 
 ## Building
 

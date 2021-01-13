@@ -11,7 +11,7 @@
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependency: SDL
-- Developer: Jānis Rūcis, Mehdi Yousfi-Monod, Florian Priester, Robert Kooima, Ian Walker, Byron Johnson, Paul Ruediger, Cheeseness, Laurent Moussault, htnever, Clément Guérin, georgwachter, camthesaxman, gunchleoc, nicolaschaufette
+- Developer: Byron Johnson, camthesaxman, Cheeseness, Clément Guérin, Florian Priester, georgwachter, gunchleoc, htnever, Ian Walker, Jānis Rūcis, Laurent Moussault, Mehdi Yousfi-Monod, nicolaschaufette, Paul Ruediger, Robert Kooima
 
 Part puzzle game, part action game, and entirely a test of skill.
 Includes Neverputt, a hot-seat multiplayer miniature golf game.

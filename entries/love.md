@@ -7,7 +7,7 @@
 - Code repository: https://github.com/love2d/love.git (@created 2019, @stars 1141, @forks 105)
 - Code language: C++
 - Code license: zlib
-- Developer: Alex Szpakowski, Bart van Strien, Bill Meltsner, Matthias Richter, Miku AuahDark, Dylan Katz, Martin Felis, Joel Schumacher, Boolsheet, Pablo Ariel Mayobre, Shawn Schafer, xpol, Matt, James Watkins-Harvey, Tanner Rogalsky, Bobbyjoness, Kyle McLamb
+- Developer: Alex Szpakowski, Bart van Strien, Bill Meltsner, Bobbyjoness, Boolsheet, Dylan Katz, James Watkins-Harvey, Joel Schumacher, Kyle McLamb, Martin Felis, Matt, Matthias Richter, Miku AuahDark, Pablo Ariel Mayobre, Shawn Schafer, Tanner Rogalsky, xpol
 
 Framework you can use to make 2D games in Lua.
 

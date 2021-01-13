@@ -10,7 +10,7 @@
 - Code license: GPL-3.0
 - Code dependency: Panda3D, wxPython
 - Assets license: CC-BY-SA-3.0
-- Developer: DangerOnTheRanger, Alfredzo Nash, Bednesti, brutustodd, Chris Bradley, Danny Green, TheEnd, Oliver Frye
+- Developer: Alfredzo Nash, Bednesti, brutustodd, Chris Bradley, DangerOnTheRanger, Danny Green, Oliver Frye, TheEnd
 
 Make games with a built-in physics engine, Lego-like building blocks, and a scripting language called Lua.
 

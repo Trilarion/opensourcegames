@@ -15,16 +15,6 @@ http://haxepunk.com/
 http://hcsoftware.sourceforge.net/jason-rohrer/ (various games there)
 http://hge.relishgames.com/
 http://hgm.nubati.net/
-https://en.wikipedia.org/wiki/Catacomb_(video_game) (released under GNU)
-https://github.com/JCWasmx86/Conquer
-https://github.com/SaeruHikari/SakuraEngine
-https://github.com/zhangdoa/InnocenceEngine
-https://github.com/septag/rizz
-https://github.com/EvilPudding/candle
-https://github.com/TorqueGameEngines/Torque3D
-https://github.com/polymonster/pmtech
-https://en.wikipedia.org/wiki/Black_Shades (open source)
-https://en.wikipedia.org/wiki/Category:Open-source_video_games (all of them)
 http://icculus.org/
 http://icculus.org/asciiroth/
 http://icculus.org/avp/
@@ -89,6 +79,7 @@ http://www.finkproject.org/index.php?phpLang=en (do they have games)
 http://www.freemmorpgmaker.com/
 http://www.gameplay3d.io/
 http://www.garagegames.com/products/torque-3d
+http://www.gjt.org/ (all there)
 http://www.gnu.org/ (search for games)
 http://www.goldenstudios.or.id/products/games/index.php
 http://www.goldenstudios.or.id/products/GTGE/
@@ -181,6 +172,9 @@ https://en.wikipedia.org/w/index.php?title=Kdegames&action=edit&redlink=1
 https://en.wikipedia.org/w/index.php?title=Simon_Tatham%27s_Portable_Puzzle_Collection&action=edit&redlink=1
 https://en.wikipedia.org/w/index.php?title=Simple_Solitaire_Collection&action=edit&redlink=1
 https://en.wikipedia.org/w/index.php?title=Trigger_Rally&action=edit&redlink=1
+https://en.wikipedia.org/wiki/Black_Shades (open source)
+https://en.wikipedia.org/wiki/Catacomb_(video_game) (released under GNU)
+https://en.wikipedia.org/wiki/Category:Open-source_video_games (all of them)
 https://en.wikipedia.org/wiki/GNOME_Games_Collection
 https://en.wikipedia.org/wiki/List_of_commercial_video_games_with_available_source_code
 https://en.wikipedia.org/wiki/List_of_free_and_open-source_Android_applications#Games
@@ -201,12 +195,6 @@ https://gamejolt.com/ (search there)
 https://games.kde.org/ (all of them)
 https://games.kde.org/old/kde_arcade.php
 https://gdevelop-app.com/
-https://github.com/FaronBracy/RogueSharp
-https://github.com/jmorton06/Lumos
-https://github.com/codenamecpp/carnage3d
-https://github.com/zhangdoa/InnocenceEngine
-https://github.com/marukrap/RoguelikeDevResources
-http://www.gjt.org/ (all there)
 https://github.blog/2014-01-06-github-game-off-ii-winners/
 https://github.com/00-Evan/shattered-pixel-dungeon
 https://github.com/00-Evan/shattered-pixel-dungeon-gdx
@@ -269,6 +257,7 @@ https://github.com/enduro2d/enduro2d
 https://github.com/enginmanap/limonEngine
 https://github.com/ErikLetson/torso-ninja
 https://github.com/ErikLetson/torso-ninja-2
+https://github.com/EvilPudding/candle
 https://github.com/ezEngine/ezEngine
 https://github.com/fallahn/tmxlite
 https://github.com/fallahn/xygine
@@ -306,6 +295,8 @@ https://github.com/Im-dex/xray-162
 https://github.com/jasonrohrer (add gits to his games)
 https://github.com/jatinmandav/Gaming-in-Python
 https://github.com/Jaxe-Dev/RimHUD
+https://github.com/JCWasmx86/Conquer
+https://github.com/jmorton06/Lumos
 https://github.com/JohanLi/uncharted-waters-2
 https://github.com/JohnLamontagne/Lunar-Engine
 https://github.com/junkdog/artemis-odb
@@ -329,6 +320,7 @@ https://github.com/MarcoLizza/tofu-engine
 https://github.com/MarilynDafa/Bulllord-Engine
 https://github.com/marshallward/TiledSharp
 https://github.com/Martenfur/Monofoxe
+https://github.com/marukrap/RoguelikeDevResources
 https://github.com/MatthewTheGlutton/HideousDestructor
 https://github.com/McKay42/McOsu
 https://github.com/megamarc/Tilengine
@@ -373,6 +365,7 @@ https://github.com/pixijs/pixi.js
 https://github.com/pld-linux
 https://github.com/pld-linux/nexuiz/blob/master/nexuiz.spec
 https://github.com/PolygonTek/BlueshiftEngine
+https://github.com/polymonster/pmtech
 https://github.com/ppizarror/pygame-menu
 https://github.com/prime31/Nez-Samples
 https://github.com/project-imprimis/imprimis
@@ -399,8 +392,10 @@ https://github.com/rramsden/ymir
 https://github.com/Ruin0x11/OpenNefia
 https://github.com/sabresaurus/SabreCSG
 https://github.com/SadConsole/SadConsole
+https://github.com/SaeruHikari/SakuraEngine
 https://github.com/SanderMertens/flecs
 https://github.com/saniv/free-game-art/blob/master/foss-copyright-infringement-records.md
+https://github.com/scottcgi/Mojoc
 https://github.com/scp-fs2open/fs2open.github.com
 https://github.com/search?p=1&q=sunrider&type=Repositories, sunrider
 https://github.com/senior-sigan/WHY_CPP
@@ -430,6 +425,7 @@ https://github.com/tlgkccampbell/ultraviolet
 https://github.com/TomBebb/awe
 https://github.com/tomlooman/SimpleFPSTemplate
 https://github.com/topics/top-down-shooter
+https://github.com/TorqueGameEngines/Torque3D
 https://github.com/ttencate/jfxr
 https://github.com/uberspot/2048-android
 https://github.com/untakenstupidnick/nbsdgames (Blockout II)
@@ -440,6 +436,7 @@ https://github.com/videogamepreservation
 https://github.com/vini-guerrero/Godot_Game_Tools
 https://github.com/vocollapse/Blockinger
 https://github.com/WagicProject/wagic
+https://github.com/weigert/TinyEngine
 https://github.com/wesnoth/haldric
 https://github.com/WohlSoft/PGE-Project
 https://github.com/wojtekpil/Godot-Octahedral-Impostors
@@ -447,6 +444,7 @@ https://github.com/xrOxygen/xray-oxygen
 https://github.com/YuriiSalimov/15-puzzle
 https://github.com/Zal0/ZGB
 https://github.com/zcaliptium/gdinv
+https://github.com/zhangdoa/InnocenceEngine
 https://github.com/zurn/zapper (or any other tapper clone)
 https://gitlab.com/LibreGames
 https://gitlab.com/nyov/nyovs-nexuiz

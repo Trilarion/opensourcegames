@@ -11,7 +11,7 @@
 - **[Free Tennis](../free_tennis.md)** (OCaml, GPL-2.0, beta, inactive since 2005)
 - **[Freekick 3](../freekick_3.md)** (C++, Python, GPL-3.0, mature, inactive since 2015)
 - **[GPL Arcade Volleyball](../gpl_arcade_volleyball.md)** (C++, GPL-2.0, beta, inactive since 2006)
-- **[H-Craft Championship](../h-craft_championship.md)** (C++, zlib, mature, inactive since 2015)
+- **[H-Craft Championship](../h-craft_championship.md)** (C++, C, zlib, mature, inactive since 2015)
 - **[HoverRace](../hoverrace.md)** (C++, Custom, mature, inactive since 2016)
 - **[Libre Pinball](../libre_pinball.md)** (GDScript, MIT, beta, inactive since 2015)
 - **[NetStatsBaseball](../netstatsbaseball.md)** (C, Public domain, mature)

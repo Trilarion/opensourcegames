@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'osgl';
   src:
-    url('fonts/osgl.ttf?mzgdt7') format('truetype'),
-    url('fonts/osgl.woff?mzgdt7') format('woff'),
-    url('fonts/osgl.svg?mzgdt7#osgl') format('svg');
+    url('fonts/osgl.ttf?ibzhc9') format('truetype'),
+    url('fonts/osgl.woff?ibzhc9') format('woff'),
+    url('fonts/osgl.svg?ibzhc9#osgl') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -24,23 +24,158 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-help:before {
-  content: "\e908";
+.icon-question:before {
+  content: "\f128";
+}
+.icon-star:before {
+  content: "\f005";
+}
+.icon-star-o:before {
+  content: "\f006";
+}
+.icon-magic:before {
+  content: "\f0d0";
+}
+.icon-rotate-left:before {
+  content: "\f0e2";
+}
+.icon-undo:before {
+  content: "\f0e2";
+}
+.icon-star-half-empty:before {
+  content: "\f123";
+}
+.icon-star-half-full:before {
+  content: "\f123";
+}
+.icon-star-half-o:before {
+  content: "\f123";
+}
+.icon-code-fork:before {
+  content: "\f126";
 }
 .icon-puzzle-piece:before {
-  content: "\e918";
+  content: "\f12e";
+}
+.icon-rocket1:before {
+  content: "\f135";
+}
+.icon-graduation-cap:before {
+  content: "\f19d";
+}
+.icon-mortar-board:before {
+  content: "\f19d";
+}
+.icon-automobile:before {
+  content: "\f1b9";
+}
+.icon-car:before {
+  content: "\f1b9";
+}
+.icon-user-secret:before {
+  content: "\f21b";
+}
+.icon-tripadvisor:before {
+  content: "\f262";
+}
+.icon-fort-awesome:before {
+  content: "\f286";
 }
 .icon-book:before {
   content: "\e919";
-}
-.icon-question:before {
-  content: "\e90f";
 }
 .icon-laptop:before {
   content: "\e90c";
 }
 .icon-language:before {
   content: "\e90d";
+}
+.icon-wrench1:before {
+  content: "\e91c";
+}
+.icon-home:before {
+  content: "\e90a";
+}
+.icon-pencil:before {
+  content: "\e907";
+}
+.icon-music:before {
+  content: "\e91a";
+}
+.icon-dice:before {
+  content: "\e915";
+}
+.icon-pacman:before {
+  content: "\e916";
+}
+.icon-spades:before {
+  content: "\e91b";
+}
+.icon-library:before {
+  content: "\e921";
+}
+.icon-stack:before {
+  content: "\e92e";
+}
+.icon-price-tag:before {
+  content: "\e935";
+}
+.icon-price-tags:before {
+  content: "\e936";
+}
+.icon-users:before {
+  content: "\e972";
+}
+.icon-wrench:before {
+  content: "\e991";
+}
+.icon-magic-wand:before {
+  content: "\e997";
+}
+.icon-stats-dots:before {
+  content: "\e99b";
+}
+.icon-rocket:before {
+  content: "\e9a5";
+}
+.icon-briefcase:before {
+  content: "\e9ae";
+}
+.icon-target:before {
+  content: "\e9b3";
+}
+.icon-earth:before {
+  content: "\e9ca";
+}
+.icon-sun:before {
+  content: "\e9d4";
+}
+.icon-filter:before {
+  content: "\ea5b";
+}
+.icon-new-tab:before {
+  content: "\ea7e";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-tux:before {
+  content: "\eabd";
+}
+.icon-appleinc:before {
+  content: "\eabe";
+}
+.icon-finder:before {
+  content: "\eabf";
+}
+.icon-android:before {
+  content: "\eac0";
+}
+.icon-windows8:before {
+  content: "\eac2";
+}
+.icon-help:before {
+  content: "\e908";
 }
 .icon-bulb:before {
   content: "\e90e";
@@ -95,79 +230,4 @@ i {
 }
 .icon-gitlab:before {
   content: "\e906";
-}
-.icon-home:before {
-  content: "\e90a";
-}
-.icon-pencil:before {
-  content: "\e907";
-}
-.icon-music:before {
-  content: "\e91a";
-}
-.icon-dice:before {
-  content: "\e915";
-}
-.icon-pacman:before {
-  content: "\e916";
-}
-.icon-spades:before {
-  content: "\e91b";
-}
-.icon-library:before {
-  content: "\e921";
-}
-.icon-price-tag:before {
-  content: "\e935";
-}
-.icon-price-tags:before {
-  content: "\e936";
-}
-.icon-users:before {
-  content: "\e972";
-}
-.icon-wrench:before {
-  content: "\e991";
-}
-.icon-stats-dots:before {
-  content: "\e99b";
-}
-.icon-rocket:before {
-  content: "\e9a5";
-}
-.icon-briefcase:before {
-  content: "\e9ae";
-}
-.icon-target:before {
-  content: "\e9b3";
-}
-.icon-earth:before {
-  content: "\e9ca";
-}
-.icon-sun:before {
-  content: "\e9d4";
-}
-.icon-filter:before {
-  content: "\ea5b";
-}
-.icon-new-tab:before {
-  content: "\ea7e";
-}
-.icon-github:before {
-  content: "\eab0";
-}
-.icon-tux:before {
-  content: "\eabd";
-}
-.icon-appleinc:before {
-  content: "\eabe";
-}
-.icon-finder:before {
-  content: "\eabf";
-}
-.icon-android:before {
-  content: "\eac0";
-}
-.icon-windows8:before {
-  content: "\eac2";
 }

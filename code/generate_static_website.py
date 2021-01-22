@@ -17,48 +17,57 @@ Listing:
 
 """
 
-# TODO index.html content
-# TODO index.html only count games and frameworks separately
-# TODO more icons?
-# TODO contribute.html content
-# TODO games: links to licenses (wikipedia) complete
-# TODO indexes: make categories bold that have a certain amount of entries!
-# TODO everywhere: style URLs (Github, Wikipedia, Internet archive, SourceForge, ...)
-# TODO developers: links to games and more information, styles
-# TODO inspirations: add link to games and more information, styles
-# TODO statistics page: better and more statistics with links where possible
-# TODO meaningful information (links, license, last updated with lower precision)
-# TODO singular, plural everywhere (game, entries, items)
+# TODO index.html add content
+# TODO contribute.html add content
+
+# TODO more icons - (categories, stars, forks)
 # TODO rename fields (Home to Homepage, Inspirations to Inspiration)
-# TODO developers: contact expand to links to Github, Sourceforge
-# TODO games: keywords as labels (some as links)
-# TODO games: links languages
-# TODO games: platforms as labels and with links
-# TODO games: Building, Build system missing
-# TODO games: links to md files
-# TODO games: contribute/edit, link to md file unten in klein
-# TODO games: use top level for genre and status
-# TODO games/developers/inspirations: split template
-# TODO all pages: meta/title tag
-# TODO split games in libraries/tools/frameworks and real games, add menu
-# TODO statistics with nice graphics (pie charts in SVG) with matplotlib, seaborn, plotly?
-# TODO statistics, get it from common statistics generator
-# TODO optimize jinja for line breaks and indention and minimal amount of spaces
-# TODO replace or remove @notices in entries (maybe different entries format)
-# TODO icons: for the main categories (devs, games, statistics, home, ...)
+# TODO replace or remove @notices in entries (maybe different entries format) ??
 # TODO SEO optimizations, google search ...
+# TODO sitemap
+# TODO Google search console
 # TODO <a> rel attribute https://www.w3schools.com/TAGS/att_a_rel.asp
-# TODO recommended tags, links not going to genre
-# TODO @see-home/@see-download (ignore or replace?)
-# TODO tooltip of supported systems
-# TODO improve or send feedback?
-# TODO link dependencies
-# TODO top 50 list from Github via their stars with download links (add to entries)
+# TODO naming: improve or send feedback?
+# TODO menu (before On Github, Blog)
+
+# TODO everywhere: style URLs (Github, Wikipedia, Internet archive, SourceForge, ...)
+# TODO everywhere: singular, plural (game, entries, items)
+# TODO everywhere: meta/title tag
+# TODO everywhere: optimize jinja for line breaks and indention and minimal amount of spaces (and space)
+
+# TODO inspirations: icon full lamp (not contained in icomoon.io)
+# TODO inspirations: if included, link instead to game
+
+# TODO statistics: better and more statistics with links where possible
+# TODO statistics: with nice graphics (pie charts in SVG) with matplotlib, seaborn, plotly?
+# TODO statistics: get it from common statistics generator
+
+# TODO footer: last updated with lower precision + link to license
+
+# TODO frameworks: icons
+
+# TODO games: keywords as labels (some as links)
+# TODO games: links for languages
+# TODO games: platforms as labels and with links
+# TODO games: Build system with links like licenses
+# TODO games: contribute/edit, link to md file unten in klein
+# TODO games: use top level for genre and status ??
+# TODo games: developers if more than a single line (collapse, expand?) without JS?
+# TODO games: mature, active not blue (link) maybe red or just bold black and beta inactive gray?
+# TODO games: code repositories (stars and forks)
+# TODO games: @see-home/@see-download/@add (ignore or replace?)
+# TODO games/frameworks: tooltip of supported OS
+# TODO games: link to dependencies (either if existing or if url)
+# TODO games: top 50 list from Github via their stars with download links (add to entries) and with screenshot
+# TODO games: add screenshot ability (add screenshot to database, at least for top 50)
+# TODO games: javascript table
+# TODO games/frameworks: bug, recommended tags, links not going to genre
 
 import os
 import shutil
 import math
 import datetime
+import time
 from functools import partial
 from utils import osg, constants as c, utils
 from jinja2 import Environment, FileSystemLoader
@@ -68,6 +77,8 @@ alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 extra = '0'
 extended_alphabet = alphabet + extra
 extended_alphabet_names = {k: k for k in extended_alphabet}
+alphabet_replacements = {'Á': 'A', 'Å': 'A', 'É': 'E', 'Ł': 'L', 'Ľ': 'L', 'А': 'A', 'Б': 'B', 'Д': 'D', 'И': 'I', 'К': 'K', 'П': 'P'}
+
 
 games_path = ['games']
 frameworks_path = ['frameworks']
@@ -104,11 +115,20 @@ platform_icon_map = {
 
 genre_icon_map = {
     'Action': 'target',
+    'Adventure': 'dice',
     'Arcade': 'pacman',
-    'Visual novel': 'book',
+    'Educational': 'graduation-cap',
+    'Game engine': 'car',
     'Puzzle': 'puzzle-piece',
+    'Remake': 'undo',
+    'Role playing': 'user-secret',
+    'Simulation': 'rocket1',
+    'Strategy': 'fort-awesome',
     'Cards': 'spades',
-    'Music': 'music'
+    'Music': 'music',
+    'Visual novel': 'book',
+    'Framework': 'stack',
+    'Library': 'library'
 }
 
 plurals = {k: k+'s' for k in ('Assets license', 'Contact', 'Code language', 'Code license', 'Developer', 'Download', 'Inspiration', 'Game', 'Keyword', 'Home', 'Organization', 'Platform', 'Tag')}
@@ -255,6 +275,8 @@ def preprocess(list, key, url):
 
         # for alphabetic sorting
         start = item[key][0].upper()
+        # special treatment of some variables
+        start = alphabet_replacements.get(start, start)
         if not start in alphabet:
             start = extra
         item['letter'] = start
@@ -394,6 +416,8 @@ def developer_profile_link(link):
         return make_url('https://github.com/{}'.format(link[:-3]), make_icon('github'), 'Profile on Github')
     if link.endswith('@GL'):
         return make_url('https://gitlab.com/{}'.format(link[:-3]), make_icon('gitlab'), 'Profile on Gitlab')
+    if link.endswith('@BB'):
+        return make_url('https://bitbucket.org/{}/'.format(link[:-3]), make_icon('bitbucket'), 'Profile on BitBucket')
     raise RuntimeError('Unknown profile link {}'.format(link))
 
 
@@ -810,6 +834,8 @@ def generate(entries, inspirations, developers):
 
 if __name__ == "__main__":
 
+    start_time = time.process_time()
+
     # clean the output directory
     print('clean current static website')
     utils.recreate_directory(c.web_path)
@@ -830,3 +856,6 @@ if __name__ == "__main__":
     # re-generate static website
     print('re-generate static website')
     generate(entries, inspirations, developers)
+
+    # timing
+    print('took {:.3f}s'.format(time.process_time()-start_time))

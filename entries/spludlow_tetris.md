@@ -3,9 +3,8 @@
 - Home: https://tetris.spludlow.co.uk/
 - Inspiration: Tetris
 - State: mature, inactive since 2018
-- Download: https://www.spludlow.co.uk/Install/Downloads.aspx
+- Download: https://www.spludlow.co.uk/Install/Downloads.aspx, https://www.spludlow.co.uk/Source/Spludlow.Tetris/
 - Keyword: puzzle, clone, content open, multiplayer online + LAN + split-screen
-- Code repository: @see-download (and https://www.spludlow.co.uk/Source/Spludlow.Tetris/)
 - Code language: C#
 - Code license: GPL-3.0
 

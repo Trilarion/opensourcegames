@@ -5,7 +5,6 @@
 - Download: https://sourceforge.net/projects/chrzaszcz/files/
 - Platform: Linux
 - Keyword: puzzle, content open
-- Code repository: @see-download
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: SDL

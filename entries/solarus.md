@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://www.solarus-games.org/en/solarus/download
 - Keyword: action, framework, game engine, remake, role playing, 2D
-- Code repository: https://gitlab.com/solarus-games/solarus.git, https://github.com/solarus-games/solarus.git (archived, @archived, @created 2012, @stars 667, @forks 131)
+- Code repository: https://gitlab.com/solarus-games/solarus.git, https://github.com/solarus-games/solarus.git (@archived, @created 2012, @stars 667, @forks 131)
 - Code language: C, C++, Lua
 - Code license: GPL-3.0
 - Assets license: CC-BY-SA

@@ -42817,6 +42817,7 @@
 ## Philip Dorrell [1]
 
 - Games: PrimeShooter
+- Home: http://thinkinghard.com/index.html
 
 ## Philip Dubé [1]
 
@@ -45686,6 +45687,7 @@
 ## Richard T. Jones [1]
 
 - Games: Bouncy the Hungry Rabbit
+- Home: http://www.mechanicalcat.net/richard, https://pyweek.org/u/richard/
 
 ## Richard Turner [1]
 

@@ -6,7 +6,6 @@
 - Download: http://briquolo.free.fr/en/download.html
 - Platform: Windows, Linux
 - Keyword: action, clone
-- Code repository: @see-download
 - Code language: C++
 - Code license: GPL-3.0
 

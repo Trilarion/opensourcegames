@@ -2,8 +2,8 @@
 
 - Home: http://mbays.freeshell.org/kuklomenos/
 - State: beta, inactive since 2012
+- Download: http://mbays.freeshell.org/kuklomenos/#downloads
 - Keyword: arcade, content open, shooter
-- Code repository: @see-home
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: SDL

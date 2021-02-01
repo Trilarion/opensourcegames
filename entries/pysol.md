@@ -6,7 +6,6 @@
 - Download: http://www.pysol.org/#download
 - Platform: Windows, Linux, macOS
 - Keyword: cards, strategy
-- Code repository: @see-download
 - Code language: Python
 - Code license: GPL-2.0
 - Code dependency: tkinter

@@ -6,7 +6,6 @@
 - Download: https://sourceforge.net/projects/britbingo/files/
 - Platform: Web
 - Keyword: action, board, content open
-- Code repository: @see-download
 - Code language: JavaScript
 - Code license: GPL-3.0
 - Assets license: GPL-3.0

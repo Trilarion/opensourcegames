@@ -1,6 +1,7 @@
 # Evil Cult
 
 - Home: https://code.google.com/archive/p/cult/
+- Media: https://trilarion.blogspot.com/2020/12/review-of-evil-cult.html
 - State: mature
 - Play: http://www.in-fi-del.net/static/cult/index.html
 - Platform: Web

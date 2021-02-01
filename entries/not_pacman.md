@@ -3,9 +3,9 @@
 - Home: https://stabyourself.net/notpacman/
 - Inspiration: Pac-Man
 - State: mature, inactive since 2013
+- Download: https://stabyourself.net/notpacman/#download
 - Platform: Windows, Linux, macOS
 - Keyword: action, content open
-- Code repository: @see-home
 - Code language: Lua
 - Code license: WTFPL
 - Code dependency: LÖVE

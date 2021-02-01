@@ -6,7 +6,6 @@
 - Download: https://sourceforge.net/projects/hannah/files/
 - Platform: Windows, Linux
 - Keyword: action, arcade, content open, for kids
-- Code repository: @see-download
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL

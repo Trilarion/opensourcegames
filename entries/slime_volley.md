@@ -6,7 +6,6 @@
 - Download: http://slime.tuxfamily.org/down.php
 - Platform: Windows, Linux, macOS
 - Keyword: arcade, 2D
-- Code repository: @see-download
 - Code language: C
 - Code license: GPL-3.0
 - Code dependency: SDL

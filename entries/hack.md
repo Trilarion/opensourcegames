@@ -4,7 +4,6 @@
 - Media: https://en.wikipedia.org/wiki/Hack_(video_game)
 - State: mature, inactive since 1985
 - Keyword: role playing, roguelike, text-based
-- Code repository: @see-debian (bsdgames)
 - Code language: C
 - Code license: 3-clause BSD
 - Developer: Jay Fenlason

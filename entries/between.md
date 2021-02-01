@@ -5,7 +5,6 @@
 - Download: https://sourceforge.net/projects/hcsoftware/files/Between/
 - Platform: Linux
 - Keyword: puzzle, content open, multiplayer
-- Code repository: @see-download
 - Code language: PHP, C++
 - Code license: ? (really PD)
 - Code dependency: SDL

@@ -235,7 +235,7 @@ def read_entries():
     entries = []
 
     # iterate over all entries
-    exception_happened = False
+    exception_happened = None
     for file, _, content in entry_iterator():
 
         if not content.endswith('\n'):
@@ -248,14 +248,14 @@ def read_entries():
             entry = check_and_process_entry(entry)
         except Exception as e:
             print('{} - {}'.format(file, e))
-            exception_happened = True
-            # raise RuntimeError(e)
+            exception_happened = e # just store last one
             continue
 
         # add to list
         entries.append(entry)
     if exception_happened:
-        raise RuntimeError('errors while reading entries')
+        print('error(s) while reading entries')
+        raise exception_happened
 
     return entries
 
@@ -354,7 +354,7 @@ def check_and_process_entry(entry):
                 message += 'URL "{}" in field "{}" does not start with a valid prefix'.format(value, field)
 
     # github/gitlab repositories should end on .git and should start with https
-    for repo in entry['Code repository']:
+    for repo in entry.get('Code repository', []):
         if any(repo.startswith(x) for x in ('@', '?')):
             continue
         repo = repo.value.split(' ')[0].strip()

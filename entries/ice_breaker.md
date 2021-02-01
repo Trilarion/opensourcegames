@@ -6,7 +6,6 @@
 - Download: https://mattdm.org/icebreaker/download.shtml
 - Platform: Windows, Linux
 - Keyword: arcade, remake
-- Code repository: @see-download
 - Code language: C
 - Code license: GPL-2.0
 - Code dependency: SDL

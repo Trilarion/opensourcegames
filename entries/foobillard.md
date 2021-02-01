@@ -5,7 +5,6 @@
 - Download: https://sourceforge.net/projects/foobillard/files/
 - Platform: Windows, Linux
 - Keyword: simulation, sports, 3D
-- Code repository: @see-download
 - Code language: C
 - Code license: GPL-2.0
 - Code dependency: GLUT, SDL

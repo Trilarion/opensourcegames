@@ -3,7 +3,6 @@
 - Home: https://gitlab.com/SuperTuxParty/SuperTuxParty, https://www.reddit.com/r/SuperTuxParty/
 - Inspiration: Mario Party
 - State: beta
-- Download: https://www.reddit.com/r/SuperTuxParty/
 - Platform: Windows, Linux, macOS
 - Keyword: action, clone, content open, entertainment, multiplayer split-screen
 - Code repository: https://gitlab.com/SuperTuxParty/SuperTuxParty.git

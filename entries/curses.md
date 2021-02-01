@@ -5,9 +5,9 @@
 - State: mature, inactive since 2000
 - Platform: Linux
 - Keyword: library
-- Code repository: @see-home
 - Code language: C
 - Code license: ? (BSD version?)
+- Developer: Ken Arnold
 
 Terminal control library for Unix-like systems.
 

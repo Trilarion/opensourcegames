@@ -21,14 +21,13 @@ Listing:
 # TODO contribute.html add content
 
 # TODO more icons - (categories, stars, forks)
-# TODO rename fields (Home to Homepage, Inspirations to Inspiration)
 # TODO replace or remove @notices in entries (maybe different entries format) ??
 # TODO SEO optimizations, google search ...
 # TODO sitemap
 # TODO Google search console
 # TODO <a> rel attribute https://www.w3schools.com/TAGS/att_a_rel.asp
-# TODO naming: improve or send feedback?
-# TODO menu (before On Github, Blog)
+# TODO naming: improve or send feedback? or edit? or contribute?
+# TODO menu (before On Github, Blog) or just in the footer
 
 # TODO everywhere: style URLs (Github, Wikipedia, Internet archive, SourceForge, ...)
 # TODO everywhere: singular, plural (game, entries, items)
@@ -42,7 +41,7 @@ Listing:
 # TODO statistics: with nice graphics (pie charts in SVG) with matplotlib, seaborn, plotly?
 # TODO statistics: get it from common statistics generator
 
-# TODO footer: last updated with lower precision + link to license
+# TODO footer: clean up, link to Github project
 
 # TODO frameworks: icons
 
@@ -131,8 +130,8 @@ genre_icon_map = {
     'Library': 'library'
 }
 
-plurals = {k: k+'s' for k in ('Assets license', 'Contact', 'Code language', 'Code license', 'Developer', 'Download', 'Inspiration', 'Game', 'Keyword', 'Home', 'Organization', 'Platform', 'Tag')}
-for k in ('Media', 'Play', 'State'):
+plurals = {k: k+'s' for k in ('Assets license', 'Contact', 'Code language', 'Code license', 'Developer', 'Download', 'Inspiration', 'Game', 'Keyword', 'Home', 'Homepage', 'Organization', 'Platform', 'Tag')}
+for k in ('Media', 'Play', 'Play online', 'State'):
     plurals[k] = k
 for k in ('Code repository', 'Code dependency'):
     plurals[k] = k[:-1] + 'ies'
@@ -373,6 +372,7 @@ def make_url(href, content, title=None, css_class=None):
         url['class'] = css_class
     return url
 
+
 def make_icon(css_class):
     return {
         'type': 'icon',
@@ -389,10 +389,12 @@ def make_text(content, css_class=None):
         text['class'] = css_class
     return text
 
+
 def make_nothing():
     return {
         'type': 'nothing'
     }
+
 
 def make_enumeration(entries, divider=', '):
     enumeration = {
@@ -401,6 +403,7 @@ def make_enumeration(entries, divider=', '):
         'divider': divider
     }
     return enumeration
+
 
 def make_tags(entries):
     return {
@@ -526,11 +529,18 @@ def convert_entries(entries, inspirations, developers):
                 if field == 'Inspiration':
                     e = [make_url(inspirations_references[x], make_text(x, 'has-text-weight-semibold')) for x in e]
                 elif field == 'Developer':
-                    e = [make_url(developer_references[x], make_text(x, 'has-text-weight-semibold')) for x in e]
+                    if len(e) > 10: # many devs, print smaller
+                        e = [make_url(developer_references[x], make_text(x, 'has-text-weight-semibold is-size-7')) for x in e]
+                    else:
+                        e = [make_url(developer_references[x], make_text(x, 'has-text-weight-semibold')) for x in e]
                 elif field in c.url_fields:
                     e = [make_url(x, shortcut_url(x, name)) for x in e]
                 else:
                     e = [make_text(x) for x in e]
+                if field == 'Home': # Home -> Homepage
+                    field = 'Homepage'
+                elif field == 'Play': # Play -> Play online
+                    field = 'Play online'
                 namex = make_text('{}: '.format(get_plural_or_singular(field, len(e))), 'has-text-weight-semibold')
                 entry[field.lower()] = [namex, make_enumeration(e, divider)]
 
@@ -556,7 +566,7 @@ def convert_entries(entries, inspirations, developers):
                 if isinstance(e[0], osg.osg_parse.ValueWithComment):
                     e = [x.value for x in e]
                 if field == 'Code language':
-                    e = [make_url(code_language_references[x], make_text(x, 'is-size-7')) for x in e]
+                    e = [make_url(code_language_references[x.value], make_text(x, 'is-size-7')) for x in e]
                 elif field == 'Code license' or field == 'Assets license':
                     e = [make_url(c.license_urls[x], x, css_class='is-size-7') if x in c.license_urls else make_text(x, 'is-size-7') for x in e]
                 elif field in c.url_fields:
@@ -636,7 +646,7 @@ def generate(entries, inspirations, developers):
     # base dictionary
     base = {
         'title': 'OSGL',
-        'creation-date': datetime.datetime.utcnow()
+        'creation-date': datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M')
     }
 
     # copy css

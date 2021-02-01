@@ -5,7 +5,6 @@
 - State: mature, inactive since 2004
 - Download: https://sourceforge.net/projects/aklabeth/files/aklabeth/
 - Keyword: remake
-- Code repository: @see-download
 - Code language: C
 - Code license: GPL-2.0
 - Developer: kantharos, Paul Robson

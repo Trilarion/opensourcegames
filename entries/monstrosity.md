@@ -2,7 +2,6 @@
 
 - Home: http://monstrosity.fireheadfred.com/
 - State: mature
-- Download: http://monstrosity.fireheadfred.com/
 - Keyword: role playing
 - Code repository: https://gitlab.com/osgames/monstrosity.git (sources from website plus license)
 - Code language: Python

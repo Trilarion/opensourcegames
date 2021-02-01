@@ -6,7 +6,6 @@
 - Download: http://perso.b2b2c.ca/~sarrazip/dev/afternoonstalker.html#download
 - Platform: Linux
 - Keyword: action, remake, clone
-- Code repository: @see-download
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL

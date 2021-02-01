@@ -35,7 +35,7 @@
   {%- if 'developer' in item %}{{ macros.render_element(item['developer']) }}{% endif -%}
   </div>
   <div class="block">
-    {%- for field in ('home', 'media', 'download', 'play') -%}
+    {%- for field in ('homepage', 'media', 'download', 'play online') -%}
     {%- if field in item -%}{{ macros.render_element(item[field]) }}<br>{%- endif -%}
     {%- endfor -%}
   </div>

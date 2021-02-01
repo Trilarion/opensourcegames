@@ -5,7 +5,7 @@
 - Download: https://sourceforge.net/projects/transcend/files/
 - Platform: Windows, Linux, macOS
 - Keyword: arcade, music, content open, shooter
-- Code repository: @see-download http://transcend.cvs.sourceforge.net (cvs)
+- Code repository: http://transcend.cvs.sourceforge.net (cvs)
 - Code language: C++
 - Code license: ? (GPL, Public domain)
 - Code dependency: GLUT

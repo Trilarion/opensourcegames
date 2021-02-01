@@ -5,7 +5,6 @@
 - Download: https://github.com/fastrgv/RufasSlider/releases
 - Platform: Windows, Linux, macOS
 - Keyword: puzzle, 2D, slider
-- Code repository: @see-download
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: OpenGL, SDL2

@@ -4,7 +4,6 @@
 - State: mature
 - Download: https://empiredirectory.net/index.php/new-downloads
 - Keyword: role playing, console
-- Code repository: @see-download
 - Code language: ?
 - Code license: ?
 

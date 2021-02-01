@@ -5,7 +5,6 @@
 - Download: https://sourceforge.net/projects/overgod/files/
 - Platform: Windows, Linux, macOS
 - Keyword: arcade, content open, space
-- Code repository: @see-download
 - Code language: C
 - Code license: GPL-2.0
 - Assets license: ? (GPL)

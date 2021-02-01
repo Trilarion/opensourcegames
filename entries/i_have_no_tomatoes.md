@@ -6,7 +6,6 @@
 - Download: http://tomatoes.sourceforge.net/downloads.html
 - Platform: Windows, Linux, macOS
 - Keyword: arcade, remake, scrolling
-- Code repository: @see-download
 - Code language: C++
 - Code license: zlib
 - Developer: Mika Halttunen, Paul Wise

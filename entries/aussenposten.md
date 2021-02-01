@@ -5,7 +5,6 @@
 - Download: http://aussenposten.gamejs.org/download.html
 - Platform: Windows, Linux
 - Keyword: strategy, content open, real-time
-- Code repository: @see-download
 - Code language: JavaScript
 - Code license: MIT
 - Code dependency: GameJs

@@ -5,7 +5,6 @@
 - Download: http://ri-li.sourceforge.net/download.html, https://sourceforge.net/projects/ri-li/files/
 - Platform: Windows, Linux, macOS
 - Keyword: arcade, content open
-- Code repository: @see-download
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: SDL

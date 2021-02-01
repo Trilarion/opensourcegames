@@ -6,7 +6,6 @@
 - Download: https://sourceforge.net/projects/tuxmath/files/
 - Platform: Linux
 - Keyword: educational, for kids, tux
-- Code repository: @see-download
 - Code language: C
 - Code license: GPL-3.0
 - Developer: David Bruce, Richard June, Samuel N. Hart, William Kendrick

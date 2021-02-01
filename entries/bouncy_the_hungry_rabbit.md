@@ -3,7 +3,6 @@
 - Home: https://pyweek.org/e/bouncy/, https://packages.debian.org/sid/bouncy
 - State: mature, inactive since 2007
 - Keyword: arcade, content open, for kids
-- Code repository: @see-home
 - Code language: Python
 - Code license: GPL-2.0
 - Code dependency: pygame

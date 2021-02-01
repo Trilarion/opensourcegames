@@ -4,7 +4,6 @@
 - State: mature, inactive since 2006
 - Download: https://sourceforge.net/projects/grabble/files/
 - Keyword: puzzle
-- Code repository: @see-download
 - Code language: Java
 - Code license: ?
 - Developer: CMG Lee

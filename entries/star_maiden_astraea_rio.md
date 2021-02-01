@@ -5,7 +5,6 @@
 - State: mature
 - Download: http://www.mediafire.com/file/jog3fcfxgsyd03f/Astraea_Rio-1.05-all.zip/file
 - Keyword: adventure, visual novel, for adults
-- Code repository: @see-download
 - Code language: Ren'Py
 - Code license: MIT
 - Code dependency: Ren'Py

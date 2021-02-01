@@ -863,38 +863,50 @@ class EntriesMaintainer:
             print('entries not yet loaded')
             return
 
-        # collect statistics on git repositories
-        created = {}
-        stars = []
-        forks = []
+        # remove download urls that are also in home
         for entry in self.entries:
-            repos = entry['Code repository']
-            comments = [x.comment for x in repos if x.value.startswith('https://github.com/') and x.comment]
-            for comment in comments:
-                comment = comment.split(',')
-                comment = [c.strip() for c in comment]
-                comment = [c for c in comment if c.startswith('@')]
-                if comment:
-                    try:
-                        comment = [c.split(' ') for c in comment]
-                        comment = [c[1] for c in comment if len(c) > 1]
-                    except Exception:
-                        print(comment)
-                        raise
-                    created[comment[0]] = created.get(comment[0], 0) + 1
-                    stars.append(comment[1])
-                    forks.append(comment[2])
+            homes = entry['Home']
+            downloads = entry.get('Download', [])
+            downloads = [download for download in downloads if download not in homes]
+            if downloads:
+                entry['Download'] = downloads
+            if not downloads and 'Download' in entry:
+                del entry['Download']
 
-        for key, value in sorted(created.items(), key=lambda x: x[0]):
-            print("{} : {}".format(key, value))
 
-        import numpy as np
-        np.set_printoptions(suppress=True)
-        stars = np.array(stars, dtype=np.float)
-        forks = np.array(forks, dtype=np.float)
-        q = np.arange(0, 1, 0.1)
-        print(np.quantile(stars, q))
-        print(np.quantile(forks, q))
+        # # collect statistics on git repositories
+        # created = {}
+        # stars = []
+        # forks = []
+        # for entry in self.entries:
+        #     repos = entry['Code repository']
+        #     comments = [x.comment for x in repos if x.value.startswith('https://github.com/') and x.comment]
+        #     for comment in comments:
+        #         comment = comment.split(',')
+        #         comment = [c.strip() for c in comment]
+        #         comment = [c for c in comment if c.startswith('@')]
+        #         if comment:
+        #             try:
+        #                 comment = [c.split(' ') for c in comment]
+        #                 comment = [c[1] for c in comment if len(c) > 1]
+        #             except Exception:
+        #                 print(comment)
+        #                 raise
+        #             created[comment[0]] = created.get(comment[0], 0) + 1
+        #             stars.append(comment[1])
+        #             forks.append(comment[2])
+        #
+        # for key, value in sorted(created.items(), key=lambda x: x[0]):
+        #     print("{} : {}".format(key, value))
+        #
+        # import numpy as np
+        # np.set_printoptions(suppress=True)
+        # stars = np.array(stars, dtype=np.float)
+        # forks = np.array(forks, dtype=np.float)
+        # q = np.arange(0, 1, 0.333)
+        # print(q)
+        # print(np.quantile(stars, q))
+        # print(np.quantile(forks, q))
 
         # # cvs without any git
         # for entry in self.entries:

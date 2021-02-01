@@ -6,7 +6,6 @@
 - Download: http://www.newbreedsoftware.com/vectoroids/download/, ftp://ftp.tuxpaint.org/unix/x/vectoroids
 - Platform: Windows, Linux
 - Keyword: arcade, remake
-- Code repository: @see-download
 - Code language: C
 - Code license: GPL-2.0
 

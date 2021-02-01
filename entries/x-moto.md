@@ -4,7 +4,6 @@
 - Media: https://en.wikipedia.org/wiki/X-Moto
 - Inspiration: Elasto Mania
 - State: mature, inactive since 2014
-- Download: https://xmoto.tuxfamily.org/
 - Platform: Windows, Linux, macOS
 - Keyword: action, remake, 2D, racing
 - Code repository: https://svn.tuxfamily.org/viewvc.cgi/xmoto_xmoto/ (svn lost)

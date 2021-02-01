@@ -4,7 +4,6 @@
 - Media: https://en.wikipedia.org/wiki/Lugaru
 - Inspiration: Lugaru: The Rabbit's Foot
 - State: mature
-- Download: https://osslugaru.gitlab.io/
 - Platform: Windows, Linux, macOS
 - Keyword: action, remake
 - Code repository: https://gitlab.com/osslugaru/lugaru.git

@@ -4,7 +4,6 @@
 - State: beta, inactive since 2005
 - Download: https://sourceforge.net/projects/a7xpg/files/a7xpg/
 - Keyword: arcade, flight, space
-- Code repository: @see-home
 - Code language: D
 - Code license: 2-clause BSD
 - Code dependency: libvorbis, SDL

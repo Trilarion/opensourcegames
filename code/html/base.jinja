@@ -21,6 +21,7 @@
           <a class="navbar-item{% if 'genres' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'genres.html']) }}">{{ macros.render_icon('price-tag') }}<span>By category</span></a>
           <a class="navbar-item{% if 'code language' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'languages.html']) }}">{{ macros.render_icon('language') }}<span>By code language</span></a>
           <a class="navbar-item{% if 'platforms' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'platforms.html']) }}">{{ macros.render_icon('laptop') }}<span>By OS support</span></a>
+          <a class="navbar-item{% if 'top-50' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'top50.html']) }}">{{ macros.render_icon('star') }}<span>GitHub Stars Top 50</span></a>
         </div>
       </div>
       <a class="navbar-item{% if 'frameworks' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['frameworks', 'index.html']) }}">{{ macros.render_icon('wrench') }}<span>Frameworks/Tools</span></a>
@@ -43,7 +44,7 @@
     <div class="block">
       Disclaimer: The content on this site is the result of voluntary work and may be outdated or incorrect.
       The content is licensed <a href="https://github.com/Trilarion/opensourcegames/blob/master/LICENSE">CC-0</a>. Icons and ... <br>
-      Last updated on {{ base['creation-date'] }}
+      Last updated: {{ base['creation-date'] }}
     </div>
   </div>
 </footer>

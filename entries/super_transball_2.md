@@ -4,7 +4,6 @@
 - Inspiration: Transball
 - State: mature, inactive since 2005
 - Keyword: arcade, content open, side-scrolling
-- Code repository: @see-home
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL

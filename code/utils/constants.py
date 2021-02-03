@@ -53,13 +53,15 @@ valid_fields = ('File', 'Title') + valid_properties + ('Note', 'Building')
 url_fields = ('Home', 'Media', 'Play', 'Download', 'Code repository')
 
 valid_url_prefixes = ('http://', 'https://', 'git://', 'svn://', 'ftp://', 'bzr://')
-extended_valid_url_prefixes = valid_url_prefixes + ('@see-', '@not-', '?')
 
 valid_building_properties = ('Build system', 'Build instruction')
 valid_building_fields = valid_building_properties + ('Note',)
 
 # these are the only valid platforms currently (and must be given in this order)
 valid_platforms = ('Windows', 'Linux', 'macOS', 'Android', 'iOS', 'Web')
+
+# these fields are not allowed to have comments
+fields_without_comments = ('Inspiration', 'Play', 'Download', 'Platform', 'Code dependency')
 
 # at least one of these must be used for every entry, this gives the principal categories and the order of the categories
 recommended_keywords = (

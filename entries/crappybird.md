@@ -9,7 +9,6 @@
 - Code repository: https://github.com/varunpant/CrappyBird.git (@created 2014, @stars 30, @forks 48)
 - Code language: JavaScript
 - Code license: MIT
-- Assets license: ? (not specified)
 - Developer: Varun
 
 ## Building

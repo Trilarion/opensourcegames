@@ -6,7 +6,7 @@
 - Platform: Windows, Linux
 - Keyword: strategy, content open, real-time
 - Code repository: https://bitbucket.org/annexctw/annex.git
-- Code language: Lua (MegaGlest Script ?)
+- Code language: Lua
 - Code license: GPL-3.0
 - Code dependency: MegaGlest Engine
 - Assets license: CC-BY-SA

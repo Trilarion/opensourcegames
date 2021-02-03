@@ -1,7 +1,7 @@
 # Wograld
 
 - Home: http://wograld.sourceforge.net/, https://sourceforge.net/projects/wograld/
-- State: beta (alpha?)
+- State: beta (@alpha)
 - Download: https://sourceforge.net/projects/wograld/files/
 - Keyword: role playing, content open, multiplayer online + massive
 - Code repository: https://git.code.sf.net/p/wograld/gitcode, http://wograld.cvs.sourceforge.net (cvs)

@@ -5,7 +5,7 @@
 - State: mature, inactive since 2018
 - Download: https://home.hccnet.nl/h.g.muller/fairymax.tar.gz
 - Keyword: simulation, chess
-- Code repository: ? (http://hgm.nubati.net/cgi-bin/gitweb.cgi?p=fairymax.git)
+- Code repository: http://hgm.nubati.net/cgi-bin/gitweb.cgi?p=fairymax.git (git clone url?)
 - Code language: C
 - Code license: Custom (permissive)
 - Developer: Harm Geert Muller

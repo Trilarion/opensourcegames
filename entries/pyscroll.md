@@ -2,7 +2,7 @@
 
 - Home: https://pypi.org/project/pyscroll/
 - State: mature, inactive since 2018
-- Platform: Windows, Linux, macOS (all that pygame supports)
+- Platform: Windows, Linux, macOS
 - Keyword: library
 - Code repository: https://github.com/bitcraft/pyscroll.git (@created 2014, @stars 116, @forks 16)
 - Code language: Python

@@ -4,7 +4,6 @@
 - Media: https://en.wikipedia.org/wiki/Space_Station_13
 - State: mature
 - Keyword: role playing, online, space, turn-based
-- Code repository: ? (many different versions, see below)
 - Code language: DM
 - Code license: AGPL-3.0
 

@@ -3,7 +3,7 @@
 - Home: https://github.com/dorkster/freeblocks
 - Inspiration: Tetris Attack
 - State: beta, inactive since 2015
-- Platform: Linux, Android (?)
+- Platform: Linux, Android
 - Keyword: puzzle, remake
 - Code repository: https://github.com/dorkster/freeblocks.git (@created 2012, @stars 23, @forks 2)
 - Code language: C, Java

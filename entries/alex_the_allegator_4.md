@@ -10,7 +10,7 @@
 - Code license: GPL-2.0
 - Code dependency: Allegro
 - Assets license: GPL-2.0
-- Developer: Anders Svensson (@audio), Johan Peitz (@design, @programming, @graphics), Paul Wise
+- Developer: Anders Svensson (@audio), Johan Peitz (@design, @code, @graphics), Paul Wise
 
 Retro-style platformer.
 

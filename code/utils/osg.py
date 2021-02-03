@@ -301,7 +301,7 @@ def check_and_process_entry(entry):
         if index == len(c.valid_fields):  # must be valid fields and must be in the right order
             message += 'Field "{}" either misspelled or in wrong order\n'.format(field)
 
-    # order is fine we can convert to dictionary
+    # order is fine we can convert now to dictionary
     d = {}
     for field, value in entry:
         if field in d:
@@ -336,6 +336,13 @@ def check_and_process_entry(entry):
     if canonical_file_name != file and canonical_file_name != file[:-5] + '.md':
         message += 'file name should be {}\n'.format(canonical_file_name)
 
+    # check that fields without comments have no comments, set to field without comment
+    for field in c.fields_without_comments:
+        if field in entry:
+            content = entry[field]
+            if any(item.has_comment() for item in content):
+                message += 'field without comments {} has comment\n'.format(field)
+
     # state must contain either beta or mature but not both
     state = entry['State']
     for t in state:
@@ -350,7 +357,7 @@ def check_and_process_entry(entry):
         for value in values:
             if value.value.startswith('<') and value.value.endswith('>'):
                 value.value = value.value[1:-1]
-            if not any(value.startswith(x) for x in c.extended_valid_url_prefixes):
+            if not any(value.startswith(x) for x in c.valid_url_prefixes):
                 message += 'URL "{}" in field "{}" does not start with a valid prefix'.format(value, field)
 
     # github/gitlab repositories should end on .git and should start with https

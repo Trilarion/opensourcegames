@@ -5,7 +5,7 @@
 - Inspiration: Deadly Rooms of Death
 - State: mature
 - Download: http://roguetemple.com/z/hyper/download.php
-- Platform: Windows, Linux, macOS, Android (some versions)
+- Platform: Windows, Linux, macOS, Android
 - Keyword: role playing, roguelike
 - Code repository: https://github.com/zenorogue/hyperrogue.git (@created 2015, @stars 261, @forks 35)
 - Code language: C++

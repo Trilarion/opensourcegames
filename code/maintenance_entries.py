@@ -593,7 +593,7 @@ class EntriesMaintainer:
         field = 'Code repository'
         for entry in self.entries:
             popular = False
-            for repo in entry[field]:
+            for repo in entry.get(field, []):
                 for popular_repo in popular_code_repositories:
                     if popular_repo in repo.value:
                         popular = True
@@ -781,7 +781,7 @@ class EntriesMaintainer:
 
         # for every entry filter those that are known git repositories (add additional repositories)
         for entry in self.entries:
-            repos = entry['Code repository']
+            repos = entry.get('Code repository', [])
             repos = [x.value for x in repos]
             # keep the first and all others containing @add
             if not repos:
@@ -868,6 +868,8 @@ class EntriesMaintainer:
             values = [value for entry in self.entries for value in entry.get(field, [])]
             if isinstance(values[0], osg_parse.ValueWithComment):
                 comments = [value.comment for value in values if value.comment]
+                # split by comma
+                comments = [c.strip() for comment in comments for c in comment.split(',')]
                 print('field {} has {} comments'.format(field, len(comments)))
                 for comment in set(comments):
                     print('  {} - {}'.format(comment, comments.count(comment)))

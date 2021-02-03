@@ -5,7 +5,7 @@
 - Download: http://tuxpaint.org/download/, https://sourceforge.net/projects/tuxpaint/files/
 - Platform: Windows, Linux, macOS, Android, iOS
 - Keyword: educational, content open, for kids
-- Code repository: ? (https://sourceforge.net/p/tuxpaint/_list/git unavailable currently)
+- Code repository: https://sourceforge.net/p/tuxpaint/_list/git (unavailable currently)
 - Code language: C, C++
 - Code license: GPL-2.0
 - Assets license: ? (GPL-2.0 + Public Domain)

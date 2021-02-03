@@ -4,10 +4,6 @@ http://antongerdelan.net/blog/ (other projects besides TestDrive)
 http://cdetect.sourceforge.net/
 http://circularstudios.com/
 http://cyxdown.free.fr/bs/
-https://projects.tuxfamily.org/ (all of them)
-https://www.artsoft.org/rocksndiamonds/
-https://web.archive.org/web/20171228172756/http://www.oletus.fi/static/whichwayisup/
-https://gitlab.com/luckeyproductions/games (all of them)
 http://cyxdown.free.fr/f2b/
 http://dead-code.org/home/
 http://e-adventure.e-ucm.es/login/index.php (games of eAdventure)
@@ -181,6 +177,7 @@ https://en.wikipedia.org/wiki/Catacomb_(video_game) (released under GNU)
 https://en.wikipedia.org/wiki/Category:Open-source_video_games (all of them)
 https://en.wikipedia.org/wiki/GNOME_Games_Collection
 https://en.wikipedia.org/wiki/List_of_commercial_video_games_with_available_source_code
+https://en.wikipedia.org/wiki/List_of_cult_video_games (all of them)
 https://en.wikipedia.org/wiki/List_of_free_and_open-source_Android_applications#Games
 https://en.wikipedia.org/wiki/M.U.G.E.N
 https://en.wikipedia.org/wiki/MUD#Spread (all there)
@@ -349,7 +346,6 @@ https://github.com/ogarcia/opensudoku
 https://github.com/Ogmo-Editor-3/OgmoEditor3-CE
 https://github.com/OGRECave/scape
 https://github.com/openfl/starling
-https://github.com/OpenHV/OpenHV
 https://github.com/OpenMandrivaAssociation
 https://github.com/OpenMandrivaAssociation/nexuiz/blob/master/nexuiz.spec
 https://github.com/OpenRA/d2
@@ -378,6 +374,7 @@ https://github.com/qiciengine/qiciengine
 https://github.com/Quaver/Wobble
 https://github.com/quinnvoker/qurobullet
 https://github.com/rakugoteam/Rakugo
+https://github.com/RandyGaul/qu3e
 https://github.com/rds1983/Jord
 https://github.com/rds1983/Myra
 https://github.com/redomar/JavaGame
@@ -413,6 +410,7 @@ https://github.com/Soldat/soldat
 https://github.com/SPC-Some-Polish-Coders/PopHead
 https://github.com/SPC-Some-Polish-Coders/PopHead/
 https://github.com/Squalr/Squally
+https://github.com/SSBMTonberry/tileson
 https://github.com/stackos/Viry3D
 https://github.com/stolencatkarma/CataclysmLD
 https://github.com/Suprcode/mir3-zircon
@@ -451,6 +449,7 @@ https://github.com/zcaliptium/gdinv
 https://github.com/zhangdoa/InnocenceEngine
 https://github.com/zurn/zapper (or any other tapper clone)
 https://gitlab.com/LibreGames
+https://gitlab.com/luckeyproductions/games (all of them)
 https://gitlab.com/nyov/nyovs-nexuiz
 https://gitlab.com/vgstation/vgstation-old (and vgstation in general)
 https://gitlab.com/xonlegacy/xonlegacy
@@ -484,6 +483,7 @@ https://packages.debian.org/sid/games/etw
 https://pixeldoctrine.com/index.html (more than just slime volleyball)
 https://play.google.com/store/apps/dev?id=8387589286898375037 (where is the source, not open source otherwise)
 https://playcanvas.com/
+https://projects.tuxfamily.org/ (all of them)
 https://pygame.org/project-Dododu-1134-.html
 https://pygame.org/project-Lands+of+Elderlore-294-.html
 https://pygame.org/project-LOF-2296-.html
@@ -546,6 +546,7 @@ https://web.archive.org/web/20060411054656/http://home.gna.org/oomadness/en/inde
 https://web.archive.org/web/20150526225753/http://sourceforge.net/projects/mameosx/
 https://web.archive.org/web/20150527150705/http://sourceforge.net/p/forge/community-docs/SourceForge%20Games/ (schon erledigt)
 https://web.archive.org/web/20170714065728/http://users.olis.net.au/zel/
+https://web.archive.org/web/20171228172756/http://www.oletus.fi/static/whichwayisup/
 https://wiki.debian.org/Games/Unsuitable
 https://www.adventuregamestudio.co.uk/
 https://www.allegro.cc/depot/strategy/ (and all other genres there)
@@ -560,6 +561,7 @@ https://www.fosshub.com/about.html
 https://www.fosslinux.com/
 https://www.freegamesutopia.com/
 https://www.frictionalgames.com/forum/forum-28.html
+https://www.gamingonlinux.com/free-games/ (all of them that are open source)
 https://www.glitchthegame.com/ (Glitch the game, by Tiny Speck Inc. public domain)
 https://www.libretro.com/
 https://www.libsdl.org/

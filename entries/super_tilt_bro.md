@@ -4,7 +4,7 @@
 - Inspiration: Super Smash Bros.
 - State: mature
 - Download: https://github.com/sgadrat/super-tilt-bro/releases
-- Platform: Linux (NES emulator)
+- Platform: Web
 - Keyword: platform, clone, content open, multiplayer competitive
 - Code repository: https://github.com/sgadrat/super-tilt-bro.git (@created 2016, @stars 71, @forks 5)
 - Code language: Assembly, Python

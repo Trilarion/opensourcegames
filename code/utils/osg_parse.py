@@ -112,6 +112,9 @@ class ValueWithComment:
     def is_empty(self):
         return self.value == ''
 
+    def has_comment(self):
+        return self.comment is not None
+
     def startswith(self, str):
         return self.value.startswith(str)
 

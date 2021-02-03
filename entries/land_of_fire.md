@@ -2,6 +2,7 @@
 
 - Home: http://landoffire.org/
 - State: beta (?)
+- Platform: Web
 - Keyword: role playing, multiplayer online + massive
 - Code repository: https://github.com/landoffire/lof-tmwa-server-data.git (@created 2016, @stars 1, @forks 1), https://github.com/landoffire/lof-tmwa-client-data.git @add (@created 2016, @stars 1, @forks 2)
 - Code language: Script, PHP

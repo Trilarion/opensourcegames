@@ -5,8 +5,8 @@
 - State: mature, inactive since 2017
 - Keyword: action, content open, first-person, shooter
 - Code repository: https://github.com/Blasphemer/blasphemer.git (@created 2015, @stars 37, @forks 7)
-- Code language: None (only assets), Python
-- Code license: None (only assets)
+- Code language: None (content only)
+- Code license: None (content only)
 - Code dependency: Heretic
 - Assets license: 3-clause BSD
 - Developer: Blasphemer, G. Wessner, Jute Gyte

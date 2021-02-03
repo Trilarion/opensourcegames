@@ -8,7 +8,7 @@
 - Keyword: remake, simulation, racing
 - Code repository: https://git.code.sf.net/p/stuntcarremake/code
 - Code language: C++
-- Code license: Proprietary (!)
+- Code license: Proprietary
 - Developer: Daniel Vernon, FluffyFreak
 
 Uses the original Amiga track data, sound samples and algorithms for the car physics. Is this a copyright issue? Can it be avoided?

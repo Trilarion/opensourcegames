@@ -8,6 +8,7 @@
 - **[Biniax](../biniax.md)** (C, zlib, mature, inactive since 2012)
 - **[Bladecoder Adventure Engine](../bladecoder_adventure_engine.md)** (Java, Apache-2.0, mature)
 - **[Blitwizard](../blitwizard.md)** (C, C++, Lua, zlib, beta, inactive since 2015)
+- **[CaveExpress](../caveexpress.md)** (C, JavaScript, GPL-3.0, mature)
 - **[Commander Genius](../commander_genius.md)** (C, C++, GPL-2.0, mature)
 - **[Crosswords](../crosswords.md)** (Java, GPL-2.0, mature)
 - **[DemiGod](../demigod.md)** (Java, GPL-3.0, beta, inactive since 2013)

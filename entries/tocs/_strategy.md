@@ -156,6 +156,7 @@
 - **[OpenDungeons](../opendungeons.md)** (C++, GPL-3.0, beta)
 - **[OpenHoMM](../openhomm.md)** (C++, GPL-3.0, beta, inactive since 2010)
 - **[OpenHoW](../openhow.md)** (C, C++, GPL-3.0, beta)
+- **[OpenHV](../openhv.md)** (C#, Lua, GPL-3.0, beta)
 - **[OpenMoM](../openmom.md)** (C, C++, GPL-3.0, beta)
 - **[OpenMOO2](../openmoo2.md)** (Python, GPL-2.0, beta, inactive since 2011)
 - **[OpenRA](../openra.md)** (C#, GPL-3.0, mature)

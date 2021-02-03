@@ -566,7 +566,7 @@ def convert_entries(entries, inspirations, developers):
                 if isinstance(e[0], osg.osg_parse.ValueWithComment):
                     e = [x.value for x in e]
                 if field == 'Code language':
-                    e = [make_url(code_language_references[x.value], make_text(x, 'is-size-7')) for x in e]
+                    e = [make_url(code_language_references[x], make_text(x, 'is-size-7')) for x in e]
                 elif field == 'Code license' or field == 'Assets license':
                     e = [make_url(c.license_urls[x], x, css_class='is-size-7') if x in c.license_urls else make_text(x, 'is-size-7') for x in e]
                 elif field in c.url_fields:

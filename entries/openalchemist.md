@@ -11,7 +11,7 @@
 - Code license: GPL-2.0
 - Code dependency: ClanLib
 - Assets license: CC-BY-SA 2.0
-- Developer: Antoine Morineau (graphics), Gecko667, guigoz, Guillaume Delhumeau (code), MrPouit (Ubuntu packages), silkut (win32 port)
+- Developer: Antoine Morineau (@graphics), Gecko667, guigoz, Guillaume Delhumeau (@code), MrPouit (@packaging), silkut (@port)
 
 Falling block puzzle game.
 

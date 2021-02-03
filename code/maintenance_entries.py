@@ -863,15 +863,24 @@ class EntriesMaintainer:
             print('entries not yet loaded')
             return
 
-        # remove download urls that are also in home
-        for entry in self.entries:
-            homes = entry['Home']
-            downloads = entry.get('Download', [])
-            downloads = [download for download in downloads if download not in homes]
-            if downloads:
-                entry['Download'] = downloads
-            if not downloads and 'Download' in entry:
-                del entry['Download']
+        # which fields have lots of comments
+        for field in c.valid_fields:
+            values = [value for entry in self.entries for value in entry.get(field, [])]
+            if isinstance(values[0], osg_parse.ValueWithComment):
+                comments = [value.comment for value in values if value.comment]
+                print('field {} has {} comments'.format(field, len(comments)))
+                for comment in set(comments):
+                    print('  {} - {}'.format(comment, comments.count(comment)))
+
+        # # remove download urls that are also in home
+        # for entry in self.entries:
+        #     homes = entry['Home']
+        #     downloads = entry.get('Download', [])
+        #     downloads = [download for download in downloads if download not in homes]
+        #     if downloads:
+        #         entry['Download'] = downloads
+        #     if not downloads and 'Download' in entry:
+        #         del entry['Download']
 
 
         # # collect statistics on git repositories

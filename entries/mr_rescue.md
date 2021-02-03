@@ -2,7 +2,7 @@
 
 - Home: https://tangramgames.dk/games/mrrescue/
 - State: mature, inactive since 2016
-- Download: https://github.com/SimonLarsen/mrrescue/releases (also home)
+- Download: https://github.com/SimonLarsen/mrrescue/releases
 - Platform: Windows, Linux, macOS
 - Keyword: arcade, platform, content open
 - Code repository: https://github.com/SimonLarsen/mrrescue.git (@created 2012, @stars 407, @forks 74)

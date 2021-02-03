@@ -1,6 +1,6 @@
 # Doxygen
 
-- Home: https://www.doxygen.nl/index.html, https://web.archive.org/web/20181202085648/http://www.stack.nl/~dimitri/doxygen/ (previously)
+- Home: https://www.doxygen.nl/index.html, https://web.archive.org/web/20181202085648/http://www.stack.nl/~dimitri/doxygen/
 - Media: https://en.wikipedia.org/wiki/Doxygen
 - State: mature
 - Download: https://www.doxygen.nl/download.html

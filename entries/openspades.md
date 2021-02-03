@@ -1,6 +1,6 @@
 # OpenSpades
 
-- Home: http://openspades.yvt.jp/, https://sites.google.com/a/yvt.jp/openspades/ (outdated)
+- Home: http://openspades.yvt.jp/, https://sites.google.com/a/yvt.jp/openspades/
 - Inspiration: Ace of Spades
 - State: beta
 - Download: https://github.com/yvt/openspades/releases

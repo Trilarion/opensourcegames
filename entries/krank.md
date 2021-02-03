@@ -10,6 +10,6 @@
 - Code license: Public domain
 - Code dependency: pygame
 - Assets license: Public domain (probably non-free backgrounds and a font in the original distribution, see debian distribution)
-- Developer: legoluft (sound), Roberto, Slava Anishenko (artwork), Sven Thoennissen, Thorsten Kohnhorst
+- Developer: legoluft (@audio), Roberto, Slava Anishenko (@artwork), Sven Thoennissen, Thorsten Kohnhorst
 
 ## Building

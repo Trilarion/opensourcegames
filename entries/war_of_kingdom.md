@@ -1,6 +1,6 @@
 # War Of Kingdom
 
-- Home: http://www.freeors.com/ (chinese)
+- Home: http://www.freeors.com/ (Chinese)
 - State: beta
 - Keyword: strategy, turn-based
 - Code repository: https://github.com/freeors/War-Of-Kingdom.git (@created 2012, @stars 62, @forks 26)

@@ -2,7 +2,7 @@
 
 - Home: https://web.archive.org/web/20180201004909/http://www.stuff-o-matic.com:80/plee-the-bear/, https://sourceforge.net/projects/plee-the-bear/
 - State: beta, inactive since 2017
-- Download: https://sourceforge.net/projects/plee-the-bear/files/ (outdated)
+- Download: https://sourceforge.net/projects/plee-the-bear/files/
 - Keyword: platform, 2D, content open
 - Code repository: https://github.com/j-jorge/plee-the-bear.git (@created 2013, @stars 10, @forks 6), https://github.com/j-jorge/bear.git @add (@created 2013, @stars 16, @forks 5)
 - Code language: Lisp, C++, Scheme, C

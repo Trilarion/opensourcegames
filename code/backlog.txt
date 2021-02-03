@@ -7,6 +7,7 @@ http://cyxdown.free.fr/bs/
 https://projects.tuxfamily.org/ (all of them)
 https://www.artsoft.org/rocksndiamonds/
 https://web.archive.org/web/20171228172756/http://www.oletus.fi/static/whichwayisup/
+https://gitlab.com/luckeyproductions/games (all of them)
 http://cyxdown.free.fr/f2b/
 http://dead-code.org/home/
 http://e-adventure.e-ucm.es/login/index.php (games of eAdventure)

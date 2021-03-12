@@ -8,7 +8,6 @@
 - Code repository: https://github.com/nigels-com/glew.git (@created 2013, @stars 1708, @forks 432)
 - Code language: C, C++, Perl
 - Code license: 3-clause BSD
-- Developer: dimi309, Dāvis, Marcel Metz, Nigel Stewart, Tamas Kenez, TheVice, Wes Tarro, xantares
 
 OpenGL extension loading library.
 

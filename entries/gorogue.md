@@ -4,7 +4,7 @@
 - State: mature
 - Download: https://github.com/Chris3606/GoRogue/releases
 - Platform: Windows
-- Keyword: library, tool, 2D, roguelike
+- Keyword: tool, 2D, roguelike
 - Code repository: https://github.com/Chris3606/GoRogue.git (@created 2017, @stars 310, @forks 15)
 - Code language: C#
 - Code license: MIT

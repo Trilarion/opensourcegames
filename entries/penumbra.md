@@ -7,7 +7,6 @@
 - Code language: C#
 - Code license: MIT
 - Code dependency: MonoGame
-- Developer: Jaanus Varus, Marcel Härtel
 
 Library that adds 2D lighting with shadowing effects.
 

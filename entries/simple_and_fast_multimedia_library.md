@@ -8,7 +8,6 @@
 - Code repository: https://github.com/SFML/SFML.git (@created 2011, @stars 6480, @forks 1246)
 - Code language: C++
 - Code license: zlib (core)
-- Developer: Austin Kramer, binary1248, Bruno Van de Velde, Ceylo, Corentin Schreiber, David CARLIER, Dmitry Marakasov, Foaly, James Cowgill, Jan Haller, Jonathan De Wachter, Jonny Paton, Laurent Gomila, Lukas Dürrenberger, Marco Antognini, Mario Liebisch, Radek Dutkiewicz, Stefan Schindler
 
 SFML provides a simple interface to the various components of your PC.
 

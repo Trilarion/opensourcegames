@@ -52,6 +52,7 @@
 - **[Apricots](../apricots.md)** (C++, GPL-2.0, beta, inactive since 2003)
 - **[aquastax](../aquastax.md)** (JavaScript, MIT, beta)
 - **[Arashi-JS](../arashi-js.md)** (JavaScript, GPL-2.0, beta, inactive since 2010)
+- **[Arcane-Engine](../arcane-engine.md)** (C++, MIT, beta)
 - **[Ardentryst](../ardentryst.md)** (Python, GPL-3.0, mature, inactive since 2009)
 - **[Ares Dogfighter](../ares_dogfighter.md)** (Java, GPL-3.0, beta, inactive since 2016)
 - **[Argentum Online](../argentum_online.md)** (Visual Basic, GPL-2.0, AGPL-3.0, beta, inactive since 2014)

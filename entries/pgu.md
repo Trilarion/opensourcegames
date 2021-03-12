@@ -8,7 +8,6 @@
 - Code repository: https://github.com/parogers/pgu.git (@created 2015, @stars 60, @forks 26)
 - Code language: Python
 - Code license: LGPL-2.1
-- Developer: Joao S. O. Bueno, Peter Rogers, Phil Hassey
 
 Collection of useful modules for writing games with PyGame.
 

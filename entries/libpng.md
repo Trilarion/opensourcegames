@@ -7,7 +7,6 @@
 - Code repository: https://github.com/glennrp/libpng.git (@created 2012, @stars 634, @forks 346), https://sourceforge.net/p/libpng/code/ci/master/tree/
 - Code language: C
 - Code license: Custom (see LICENSE)
-- Developer: Cosmin Truta, David Capello, John Bowler, mattsarett, Viktor Szakats
 
 Official PNG reference library.
 [libpng](https://sourceforge.net/p/libpng/code/ci/master/tree/LICENSE)

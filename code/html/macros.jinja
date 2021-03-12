@@ -3,13 +3,13 @@
 {%- if 'class' in text -%} {# Enhanced text #}
   <span class="{{ text['class'] }}">{{ text['text'] }}</span>
 {%- else -%}
-  <span>{{ text['text'] }}</span>
+  {{ text['text'] }}{# <span>{{ text['text'] }}</span> #}
 {%- endif -%}
 {%- endmacro -%}
 
 {#  #}
 {%- macro render_icon(icon) -%}
-<span class="icon has-text-black"><i class="icon-{{ icon }}"></i></span>
+<span class="icon has-text-black" {% if 'title' in icon %} title="{{ icon['title'] }}"{% endif %}><i class="icon-{{ icon['class'] }}"></i></span>
 {%- endmacro -%}
 
 {# Some text surrounded by a link tag #}
@@ -26,7 +26,7 @@
 {%- elif entry['type'] == 'text' -%}
   {{ render_text(entry) }}
  {%- elif entry['type'] == 'icon' -%}
-  {{ render_icon(entry['class']) }}
+  {{ render_icon(entry) }}
 {%- elif entry['type'] == 'url' -%}
   {{ render_url(entry) }}
 {%- elif entry['type'] == 'enumeration' -%}

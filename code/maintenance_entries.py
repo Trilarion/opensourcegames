@@ -863,16 +863,16 @@ class EntriesMaintainer:
             print('entries not yet loaded')
             return
 
-        # which fields have lots of comments
-        for field in c.valid_fields:
-            values = [value for entry in self.entries for value in entry.get(field, [])]
-            if isinstance(values[0], osg_parse.ValueWithComment):
-                comments = [value.comment for value in values if value.comment]
-                # split by comma
-                comments = [c.strip() for comment in comments for c in comment.split(',')]
-                print('field {} has {} comments'.format(field, len(comments)))
-                for comment in set(comments):
-                    print('  {} - {}'.format(comment, comments.count(comment)))
+        # # which fields have lots of comments
+        # for field in c.valid_fields:
+        #     values = [value for entry in self.entries for value in entry.get(field, [])]
+        #     if isinstance(values[0], osg_parse.ValueWithComment):
+        #         comments = [value.comment for value in values if value.comment]
+        #         # split by comma
+        #         comments = [c.strip() for comment in comments for c in comment.split(',')]
+        #         print('field {} has {} comments'.format(field, len(comments)))
+        #         for comment in set(comments):
+        #             print('  {} - {}'.format(comment, comments.count(comment)))
 
         # # remove download urls that are also in home
         # for entry in self.entries:
@@ -884,36 +884,42 @@ class EntriesMaintainer:
         #     if not downloads and 'Download' in entry:
         #         del entry['Download']
 
+        # remove developers from all that have library as keyword
+        for entry in self.entries:
+            if 'library' in entry['Keyword']:
+                devs = entry.get('Developer', [])
+                if devs:
+                    print('entry {} is library and has {} developer'.format(entry['File'], len(devs)))
+                    del entry['Developer']
 
         # # collect statistics on git repositories
-        # created = {}
-        # stars = []
-        # forks = []
+        # stats = {}
         # for entry in self.entries:
-        #     repos = entry['Code repository']
+        #     repos = entry.get('Code repository', [])
         #     comments = [x.comment for x in repos if x.value.startswith('https://github.com/') and x.comment]
         #     for comment in comments:
-        #         comment = comment.split(',')
-        #         comment = [c.strip() for c in comment]
-        #         comment = [c for c in comment if c.startswith('@')]
-        #         if comment:
-        #             try:
-        #                 comment = [c.split(' ') for c in comment]
-        #                 comment = [c[1] for c in comment if len(c) > 1]
-        #             except Exception:
-        #                 print(comment)
-        #                 raise
-        #             created[comment[0]] = created.get(comment[0], 0) + 1
-        #             stars.append(comment[1])
-        #             forks.append(comment[2])
+        #         for part in comment.split(','):
+        #             part = part.strip()
+        #             if not part.startswith('@'):
+        #                 continue
+        #             part = part.split(' ')
+        #             key = part[0][1:]  # without the @
+        #             value = part[1] if len(part) > 1 else None
+        #             stats[key] = stats.get(key, []) + [value]
+        # # process statistics
+        # stats['archived'] = len(stats['archived'])
+        # created = stats['created']
+        # stats['created'] = {}
+        # for year in created:
+        #     stats['created'][year] = stats['created'].get(year, 0) + 1
         #
-        # for key, value in sorted(created.items(), key=lambda x: x[0]):
+        # for key, value in sorted(stats['created'].items(), key=lambda x: x[0]):
         #     print("{} : {}".format(key, value))
         #
         # import numpy as np
         # np.set_printoptions(suppress=True)
-        # stars = np.array(stars, dtype=np.float)
-        # forks = np.array(forks, dtype=np.float)
+        # stars = np.array(stats['stars'], dtype=np.float)
+        # forks = np.array(stats['forks'], dtype=np.float)
         # q = np.arange(0, 1, 0.333)
         # print(q)
         # print(np.quantile(stars, q))

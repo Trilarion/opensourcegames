@@ -103,10 +103,17 @@ class DevelopersMaintainer:
         if not self.entries:
             print('entries not yet loaded')
             return
-        for entry in self.entries:
-            for developer in entry.get('Developer', []):
-                if developer.comment:
-                    print('{:<25} - {:<25} - {}'.format(entry['File'], developer.value, developer.comment))
+
+        # remove all developer that are orphans
+        remove = [k for k, v in self.developers.items() if not v['Games']]
+        for k in remove:
+            del self.developers[k]
+
+        # # comments for developers
+        # for entry in self.entries:
+        #     for developer in entry.get('Developer', []):
+        #         if developer.comment:
+        #             print('{:<25} - {:<25} - {}'.format(entry['File'], developer.value, developer.comment))
 
 
 if __name__ == "__main__":

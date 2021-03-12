@@ -7,7 +7,6 @@
 - Code repository: https://github.com/ocornut/imgui.git (@created 2014, @stars 26420, @forks 4388)
 - Code language: C, C++
 - Code license: MIT
-- Developer: Andrew Willmott, Andrés, Bruce Mitchener, Daniel Collin, Elias Daler, Giovanni Zito, Giuseppe Barbieri, Håvard Mathisen, Jefferson Montgomery, Jim Tilander, Konstantin Podsvirov, Louis Schnellbach, Marcell Kiss, Max Thrun, Michał Cichoń, Mikko Mononen, Nicolas Guillemot, omar, ParticlePeter, Rokas Kupstys, Sam Hocevar, Sepehr Taghdisian, ShironekoBen, Yaroslav Bunyak, Бранимир Караџић
 
 Minimal GUI library for C++.
 

@@ -8,7 +8,6 @@
 - Code language: Python
 - Code license: LGPL-3.0
 - Code dependency: pygame
-- Developer: Leif Theden, Łukasz Langa
 
 Animated scrolling maps in pygame library.
 

@@ -92,6 +92,7 @@ developers_index_path = developers_path + ['index.html']
 games_by_language_path = games_path + ['languages.html']
 games_by_genres_path = games_path + ['genres.html']
 games_by_platform_path = games_path + ['platforms.html']
+games_top50_path = games_path + ['top50.html']
 
 platform_color = {
     'Windows': 'is-danger',
@@ -160,8 +161,10 @@ html5parser = html5lib.HTMLParser(strict=True)
 def raise_helper(msg):
     raise Exception(msg)
 
+
 def is_list(obj):
     return isinstance(obj, list)
+
 
 def write(text, file):
     """
@@ -318,6 +321,7 @@ def developer_index(developer):
         e['tags'] = make_text('({})'.format(n), 'is-light is-size-7')
     return e
 
+
 def shortcut_url(url, name):
 
     # remove slash at the end
@@ -373,11 +377,46 @@ def make_url(href, content, title=None, css_class=None):
     return url
 
 
-def make_icon(css_class):
-    return {
+def make_repo_url(x, name):
+    # parse comments
+    comments = []
+    if x.has_comment():
+        for c in x.comment.split(','):
+            c = c.strip()
+            if not c.startswith('@'):
+                continue
+            c = c.split(' ')
+            key = c[0][1:] # without the @
+            if len(c) > 1:
+                value = c[1]
+            if key == 'archived':
+                comments.append(make_text('archived', css_class='is-size-7'))
+            if key == 'created':
+                comments.append(make_text('since {}'.format(value), css_class='is-size-7'))
+            if key == 'stars':
+                value = int(value)
+                if value > 200:
+                    comments.append(make_icon('star', 'top rated'))
+                elif value > 30:
+                    comments.append(make_icon('star-half-full', 'medium rated'))
+                else:
+                    comments.append(make_icon('star-o', 'low rated'))
+    # this is the default element
+    url = make_url(x.value, shortcut_url(x.value, name), css_class='is-size-7')
+    if comments:
+        return make_enumeration([url, make_enumeration(comments)], '')
+    else:
+        return url
+
+
+def make_icon(css_class, title=None):
+    icon = {
         'type': 'icon',
         'class': css_class,
     }
+    if title:
+        icon['title'] = title
+    return icon
 
 
 def make_text(content, css_class=None):
@@ -563,9 +602,11 @@ def convert_entries(entries, inspirations, developers):
                 divider = ', '
                 if not e:
                     continue
-                if isinstance(e[0], osg.osg_parse.ValueWithComment):
+                if isinstance(e[0], osg.osg_parse.ValueWithComment) and field != 'Code repository':
                     e = [x.value for x in e]
-                if field == 'Code language':
+                if field == 'Code repository':
+                    e = [make_repo_url(x, name) for x in e]
+                elif field == 'Code language':
                     e = [make_url(code_language_references[x], make_text(x, 'is-size-7')) for x in e]
                 elif field == 'Code license' or field == 'Assets license':
                     e = [make_url(c.license_urls[x], x, css_class='is-size-7') if x in c.license_urls else make_text(x, 'is-size-7') for x in e]
@@ -595,6 +636,32 @@ def add_license_links_to_entries(entries):
         licenses = entry['Code license']
         licenses = [(c.license_urls.get(license.value, ''), license.value) for license in licenses]
         entry['Code license'] = licenses
+
+
+def get_top50_games(games):
+    top50_games = []
+    for game in games:
+        # get stars of repositories
+        stars = 0
+        for repo in game.get('Code repository', []):
+            if repo.has_comment():
+                for c in repo.comment.split(','):
+                    c = c.strip()
+                    if not c.startswith('@'):
+                        continue
+                    c = c.split(' ')
+                    key = c[0][1:]  # without the @
+                    if len(c) > 1:
+                        value = c[1]
+                    if key == 'stars':
+                        value = int(value)
+                        if value > stars:
+                            stars = value
+        top50_games.append((game, stars))
+    top50_games.sort(key=lambda x:x[1], reverse=True)
+    top50_games = top50_games[:50]
+    top50_games =[game for game, stars in top50_games]
+    return top50_games
 
 
 def generate(entries, inspirations, developers):
@@ -642,6 +709,10 @@ def generate(entries, inspirations, developers):
     games_by_platform = sort_into_categories(entries, c.valid_platforms, lambda item, category: category in item.get('Platform', []), 'Unspecified')
     games_by_language = sort_into_categories(entries, c.known_languages, lambda item, category: category in item['Code language'])
     frameworks_by_type = sort_into_categories(frameworks, c.framework_keywords, lambda item, category: category in item['Keyword'])
+
+    # extract top 50 Github stars games
+    top50_games = get_top50_games(games)
+
 
     # base dictionary
     base = {
@@ -790,6 +861,14 @@ def generate(entries, inspirations, developers):
     index['entry_bold'] = lambda x: 'tags' not in x
     index['category-infos'] = {}
     write(template_categorical_index.render(index=index), games_by_platform_path)
+
+    # top 50 games
+    base['active_nav'] = ['filter', 'top50']
+    listing = {
+        'title': 'Top 50 games (stars)',
+        'items': top50_games
+    }
+    write(template_listing_entries.render(listing=listing), games_top50_path)
 
     # inspirations folder
     base['url_to'] = partial(url_to, inspirations_path)

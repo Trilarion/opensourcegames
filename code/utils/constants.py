@@ -187,6 +187,8 @@ valid_multiplayer_modes = (
 code_dependencies_aliases = {'Simple DirectMedia Layer': ('SDL', 'SDL2'), 'Simple and Fast Multimedia Library': ('SFML',),
                              'Boost (C++ Libraries)': ('Boost',), 'SGE Game Engine': ('SGE',), 'MegaGlest': ('MegaGlest Engine',)}
 
+# no developers needed for libraries
+
 # these are code dependencies that won't get their own entry, because they are not centered on gaming
 general_code_dependencies_without_entry = {'OpenGL': 'https://www.opengl.org/',
                                    'GLUT': 'https://www.opengl.org/resources/libraries/',

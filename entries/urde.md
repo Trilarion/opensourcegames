@@ -2,7 +2,7 @@
 
 - Home: https://axiodl.com/
 - Inspiration: Metroid Prime
-- State: Alpha
+- State: beta
 - Download: https://releases.axiodl.com
 - Platform: Windows, macOS, Linux
 - Keyword: game engine, remake, content commercial + original required
@@ -10,6 +10,8 @@
 - Code language: C, C++
 - Code license: MIT
 - Developer: Jack Andersen, LC, Luke Street, Phillip Stephens
+
+More like alpha.
 
 ## Building
 

@@ -1185,7 +1185,7 @@
 - **[Unknown Horizons](../unknown_horizons.md)** (Python, GDScript, GPL-2.0, beta)
 - **[UnNetHack](../unnethack.md)** (C, Custom, mature)
 - **[Unvanquished](../unvanquished.md)** (C, C++, GPL-3.0, mature)
-- **[urde](../urde.md)** (C, C++, MIT, beta)
+- **[Metaforce](../metaforce.md)** (C, C++, MIT, beta)
 - **[Valyria Tear](../valyria_tear.md)** (Lua, C++, C, GPL-2.0, mature)
 - **[Vamos](../vamos.md)** (C++, Python, GPL-3.0, beta, inactive since 2014)
 - **[Vanilla-Conquer](../vanilla-conquer.md)** (C, C++, Assembly, GPL-3.0, mature)

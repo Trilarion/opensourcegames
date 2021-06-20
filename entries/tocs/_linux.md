@@ -215,6 +215,7 @@
 - **[Mari0](../mari0.md)** (Lua, MIT, mature, inactive since 2012)
 - **[Maxit](../maxit.md)** (C++, 3-clause BSD, mature, inactive since 2014)
 - **[Me and My Shadow](../me_and_my_shadow.md)** (C++, GPL-3.0, beta)
+- **[Metaforce](../metaforce.md)** (C, C++, MIT, beta)
 - **[Mindustry](../mindustry.md)** (Java, GPL-3.0, mature)
 - **[Mines](../mines.md)** (Vala, GPL-3.0, mature)
 - **[Minetest](../minetest.md)** (C, C++, Lua, LGPL-2.1, mature)

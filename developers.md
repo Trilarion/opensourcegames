@@ -21286,7 +21286,7 @@
 
 ## Jack Andersen [1]
 
-- Games: urde
+- Games: Metaforce
 - Contact: jackoalan@GH
 
 ## Jack Bohlen [1]
@@ -28143,7 +28143,7 @@
 
 ## LC [2]
 
-- Games: libGDX, urde
+- Games: libGDX, Metaforce
 - Contact: lioncash@GH
 - Home: https://twitter.com/Lioncache
 
@@ -29509,7 +29509,7 @@
 
 ## Luke Street [1]
 
-- Games: urde
+- Games: Metaforce
 - Contact: encounter@GH
 
 ## Luke-Jr [1]
@@ -39138,7 +39138,7 @@
 
 ## Phillip Stephens [1]
 
-- Games: urde
+- Games: Metaforce
 - Contact: Antidote@GH
 - Home: https://axiodl.com
 

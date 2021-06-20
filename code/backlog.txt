@@ -197,6 +197,7 @@ https://games.kde.org/ (all of them)
 https://games.kde.org/old/kde_arcade.php
 https://gdevelop-app.com/
 https://github.blog/2014-01-06-github-game-off-ii-winners/
+https://github.blog/2021-05-19-ludum-dare-48-staff-picks/
 https://github.com/00-Evan/shattered-pixel-dungeon
 https://github.com/00-Evan/shattered-pixel-dungeon-gdx
 https://github.com/acedogblast/Project-Uranium-Godot
@@ -271,6 +272,7 @@ https://github.com/Galapix/galapix
 https://github.com/gamearians
 https://github.com/GamedevFramework/gf
 https://github.com/gan74/Yave
+https://github.com/GarageGames/Torque3D
 https://github.com/GDQuest/godot-visual-effects
 https://github.com/GlPortal/RadixEngine
 https://github.com/gnFur/Monofoxe
@@ -311,6 +313,7 @@ https://github.com/kimkulling/osre
 https://github.com/klaussilveira/ioquake3.js
 https://github.com/Kosmonaut3d/DeferredEngine
 https://github.com/kyzfrintin/Godot-Mixing-Desk
+https://github.com/Legion-Engine/Legion-Engine
 https://github.com/LgLinus/StrategyGame
 https://github.com/libretro/libretro-chailove
 https://github.com/libretro/libretro-prboom
@@ -328,7 +331,9 @@ https://github.com/megamarc/Tilengine
 https://github.com/mewo2/terrain
 https://github.com/mgerhardy/engine
 https://github.com/mofr/Diablerie
+https://github.com/momentum-mod/game
 https://github.com/mono/CocosSharp
+https://github.com/MonoGame/MonoGame.Samples
 https://github.com/moonwards1/Moonwards-Virtual-Moon
 https://github.com/morganbengtsson/mos
 https://github.com/MrFrenik/Enjon
@@ -340,6 +345,7 @@ https://github.com/MyreMylar/pygame_gui
 https://github.com/nCine/nCine
 https://github.com/nezvers/Godot_goodies
 https://github.com/nfprojects/nfengine
+https://github.com/NickMcConnell/FAangband
 https://github.com/NoelFB/blah
 https://github.com/Noesis/UE4-ShooterGame
 https://github.com/ogarcia/opensudoku
@@ -361,6 +367,7 @@ https://github.com/PavelDoGreat/WebGL-Fluid-Simulation
 https://github.com/perbone/luascript
 https://github.com/Phyronnaz/VoxelPlugin
 https://github.com/PixelGuys/Cubyz
+https://github.com/PixelVision8/PixelVision8
 https://github.com/pixijs/pixi.js
 https://github.com/pld-linux
 https://github.com/pld-linux/nexuiz/blob/master/nexuiz.spec
@@ -402,7 +409,9 @@ https://github.com/search?p=1&q=sunrider&type=Repositories, sunrider
 https://github.com/senior-sigan/WHY_CPP
 https://github.com/septag/glslcc
 https://github.com/septag/rizz
+https://github.com/SimonDarksideJ/XNAGameStudio
 https://github.com/sinshu/managed-doom
+https://github.com/SirRamEsq/SmartShape2D
 https://github.com/skylicht-lab/skylicht-engine
 https://github.com/skypjack/entt
 https://github.com/smlinux/nexuiz
@@ -421,6 +430,8 @@ https://github.com/terrafx/terrafx
 https://github.com/the-insulines
 https://github.com/theaigames
 https://github.com/TheGameCreators/GameGuruRepo
+https://github.com/Three-Horned-Helmet/mega-rpg
+https://github.com/timi-liuliang/echo
 https://github.com/Tinob/Ishiiruka (https://github.com/shiiion/Ishiiruka, https://github.com/SirMangler/PrimeHack-Updater)
 https://github.com/tizian/Cendric2
 https://github.com/tlgkccampbell/ultraviolet

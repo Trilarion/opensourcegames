@@ -13,23 +13,23 @@
 <nav class="navbar container is-light" aria-label="main navigation">
   <div class="navbar-menu">
     <div class="navbar-start">
-      <a class="navbar-item{% if 'index' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['index.html']) }}">{{ macros.render_icon('home') }}<span>Home</span></a>
-      <a class="navbar-item{% if 'games' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'index.html']) }}">{{ macros.render_icon('dice') }}<span>Games</span></a>
+      <a class="navbar-item{% if 'index' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['index.html']) }}">{{ macros.render_icon({'class':'home'}) }}<span>Home</span></a>
+      <a class="navbar-item{% if 'games' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'index.html']) }}">{{ macros.render_icon({'class':'dice'}) }}<span>Games</span></a>
       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link{% if 'filter' in base['active_nav'] %} is-active{% endif %}">{{ macros.render_icon('filter') }}<span>Filter</span></a>
         <div class="navbar-dropdown">
-          <a class="navbar-item{% if 'genres' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'genres.html']) }}">{{ macros.render_icon('price-tag') }}<span>By category</span></a>
-          <a class="navbar-item{% if 'code language' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'languages.html']) }}">{{ macros.render_icon('language') }}<span>By code language</span></a>
-          <a class="navbar-item{% if 'platforms' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'platforms.html']) }}">{{ macros.render_icon('laptop') }}<span>By OS support</span></a>
-          <a class="navbar-item{% if 'top-50' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'top50.html']) }}">{{ macros.render_icon('star') }}<span>GitHub Stars Top 50</span></a>
+          <a class="navbar-item{% if 'genres' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'genres.html']) }}">{{ macros.render_icon({'class':'price-tag'}) }}<span>By category</span></a>
+          <a class="navbar-item{% if 'code language' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'languages.html']) }}">{{ macros.render_icon({'class':'language'}) }}<span>By code language</span></a>
+          <a class="navbar-item{% if 'platforms' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'platforms.html']) }}">{{ macros.render_icon({'class':'laptop'}) }}<span>By OS support</span></a>
+          <a class="navbar-item{% if 'top-50' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'top50.html']) }}">{{ macros.render_icon({'class':'star'}) }}<span>GitHub Stars Top 50</span></a>
         </div>
       </div>
-      <a class="navbar-item{% if 'frameworks' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['frameworks', 'index.html']) }}">{{ macros.render_icon('wrench') }}<span>Frameworks/Tools</span></a>
-      <a class="navbar-item{% if 'developers' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['developers', 'index.html']) }}">{{ macros.render_icon('users') }}<span>Developers</span></a>
-      <a class="navbar-item{% if 'inspirations' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['inspirations', 'index.html']) }}">{{ macros.render_icon('bulb') }}<span>Inspirations</span></a>
-      <a class="navbar-item{% if 'statistics' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['statistics.html']) }}">{{ macros.render_icon('stats-dots') }}<span>Statistics</span></a>
-      <a class="navbar-item{% if 'contribute' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['contribute.html']) }}">{{ macros.render_icon('pencil') }}<span>Contribute</span></a>
-      <a class="navbar-item" href="https://github.com/Trilarion/opensourcegames">{{ macros.render_icon('github') }}<span>On GitHub</span></a>
+      <a class="navbar-item{% if 'frameworks' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['frameworks', 'index.html']) }}">{{ macros.render_icon({'class':'wrench'}) }}<span>Frameworks/Tools</span></a>
+      <a class="navbar-item{% if 'developers' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['developers', 'index.html']) }}">{{ macros.render_icon({'class':'users'}) }}<span>Developers</span></a>
+      <a class="navbar-item{% if 'inspirations' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['inspirations', 'index.html']) }}">{{ macros.render_icon({'class':'bulb'}) }}<span>Inspirations</span></a>
+      <a class="navbar-item{% if 'statistics' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['statistics.html']) }}">{{ macros.render_icon({'class':'stats-dots'}) }}<span>Statistics</span></a>
+      <a class="navbar-item{% if 'contribute' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['contribute.html']) }}">{{ macros.render_icon({'class':'pencil'}) }}<span>Contribute</span></a>
+      <a class="navbar-item" href="https://github.com/Trilarion/opensourcegames">{{ macros.render_icon({'class':'github'}) }}<span>On GitHub</span></a>
     </div>
   </div>
 </nav>

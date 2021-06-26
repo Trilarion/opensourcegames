@@ -17,25 +17,26 @@ Listing:
 
 """
 
-# TODO index.html add content
+# TODO index.html add small introductory text
+# TODO index: icons not shown
 # TODO contribute.html add content
 
-# TODO more icons - (categories, stars, forks)
-# TODO replace or remove @notices in entries (maybe different entries format) ??
+# TODO update Bulma
+
+# TODO more icons - (missing categories, index.html without icons)
+# TODO replace or remove @notices in entries (maybe different entries format)
 # TODO SEO optimizations, google search ...
 # TODO sitemap
 # TODO Google search console
 # TODO <a> rel attribute https://www.w3schools.com/TAGS/att_a_rel.asp
-# TODO naming: improve or send feedback? or edit? or contribute?
-# TODO menu (before On Github, Blog) or just in the footer
 
 # TODO everywhere: style URLs (Github, Wikipedia, Internet archive, SourceForge, ...)
 # TODO everywhere: singular, plural (game, entries, items)
 # TODO everywhere: meta/title tag
-# TODO everywhere: optimize jinja for line breaks and indention and minimal amount of spaces (and space)
+# TODO everywhere: optimize jinja for line breaks and indention and minimal amount of spaces (and size of files) and minimal amount of repetition of tags
 
 # TODO inspirations: icon full lamp (not contained in icomoon.io)
-# TODO inspirations: if included, link instead to game
+# TODO inspirations: if included in the database, link instead to game
 
 # TODO statistics: better and more statistics with links where possible
 # TODO statistics: with nice graphics (pie charts in SVG) with matplotlib, seaborn, plotly?
@@ -43,17 +44,16 @@ Listing:
 
 # TODO footer: clean up, link to Github project
 
-# TODO frameworks: icons
+# TODO frameworks: icons for frameworks/libraryies/tools
+
+# TODO filter by category: icons too large (overlapping)
 
 # TODO games: keywords as labels (some as links)
-# TODO games: links for languages
-# TODO games: platforms as labels and with links
+# TODO games: platforms as labels and with links (links don't work)
 # TODO games: Build system with links like licenses
-# TODO games: contribute/edit, link to md file unten in klein
-# TODO games: use top level for genre and status ??
 # TODo games: developers if more than a single line (collapse, expand?) without JS?
-# TODO games: mature, active not blue (link) maybe red or just bold black and beta inactive gray?
-# TODO games: code repositories (stars and forks)
+# TODO games: mature, active not blue (link) maybe red or just bold black and beta inactive gray? and add tooltips
+# TODO games: code repositories (stars and forks), list all comma-separated (should be ()) instead
 # TODO games: @see-home/@see-download/@add (ignore or replace?)
 # TODO games/frameworks: tooltip of supported OS
 # TODO games: link to dependencies (either if existing or if url)

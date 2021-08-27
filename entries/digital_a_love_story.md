@@ -1,6 +1,6 @@
 # Digital: A Love Story
 
-- Home: http://scoutshonour.com/digital/
+- Home: https://scoutshonour.com/digital/
 - Media: https://web.archive.org/web/20160507142946/https://lgdb.org/game/digital_love_story
 - State: mature
 - Platform: Windows, Linux, macOS

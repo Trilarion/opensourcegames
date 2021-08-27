@@ -1,6 +1,6 @@
 # KGoldrunner
 
-- Home: https://kde.org/applications/en/games/org.kde.kgoldrunner
+- Home: https://apps.kde.org/kgoldrunner/
 - Inspiration: Lode Runner
 - State: mature
 - Keyword: action, remake

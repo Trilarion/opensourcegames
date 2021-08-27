@@ -1,6 +1,6 @@
 # KAtomic
 
-- Home: https://kde.org/applications/en/games/org.kde.katomic, https://games.kde.org/game.php?game=katomic
+- Home: https://kde.org/applications/en/games/org.kde.katomic, https://games.kde.org/games/katomic/
 - Inspiration: Atomix
 - State: mature
 - Keyword: puzzle, remake

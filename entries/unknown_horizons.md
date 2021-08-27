@@ -1,6 +1,6 @@
 # Unknown Horizons
 
-- Home: http://unknown-horizons.org/, https://sourceforge.net/projects/unknownhorizons/
+- Home: https://unknown-horizons.org/, https://sourceforge.net/projects/unknownhorizons/
 - Media: https://en.wikipedia.org/wiki/Unknown_Horizons
 - Inspiration: "Anno (series)"
 - State: beta

@@ -1,23 +1,4 @@
-{# A single piece of text optionally with a format class. (see https://bulma.io/documentation/helpers/typography-helpers/) #}
-{%- macro render_text(text) -%}
-{%- if 'class' in text -%} {# Enhanced text #}
-  <span class="{{ text['class'] }}">{{ text['text'] }}</span>
-{%- else -%}
-  {{ text['text'] }}{# <span>{{ text['text'] }}</span> #}
-{%- endif -%}
-{%- endmacro -%}
-
-{#  #}
-{%- macro render_icon(icon) -%}
-<span class="icon has-text-black" {% if 'title' in icon %} title="{{ icon['title'] }}"{% endif %}><i class="icon-{{ icon['class'] }}"></i></span>
-{%- endmacro -%}
-
-{# Some text surrounded by a link tag #}
-{%- macro render_url(url) -%}
-<a href="{{ base['url_to'](url['href'], url) }}"{% if 'title' in url %} title="{{ url['title'] }}"{% endif %}{% if 'class' in url %} class="{{ url['class'] }}"{% endif %}>{{ render_element(url['content']) }}</a>
-{%- endmacro -%}
-
-{# Renders either plain text or a link depending on the type #}
+{# Renders either as plain text or everything else depending on the type #}
 {%- macro render_element(entry) -%}
 {%- if entry is string -%}
   {{ render_text({'text': entry}) }}
@@ -33,17 +14,44 @@
   {{ render_enumeration(entry) }}
 {%- elif entry['type'] == 'tags' -%}
   {{ render_tags(entry) }}
+{%- elif entry['type'] == 'enclose' -%}
+  {{ render_enclose(entry) }}
 {%- else -%}
   {{ raise('Unknown entry type: {}.'.format(entry)) }}
 {%- endif -%}
 {%- endmacro -%}
 
+{# A single piece of text optionally with a format class. (see https://bulma.io/documentation/helpers/typography-helpers/) #}
+{%- macro render_text(text) -%}
+{%- if 'class' in text -%} {# Enhanced text #}
+  <span class="{{ text['class'] }}">{{ text['text'] }}</span>
+{%- else -%}
+  {{ text['text'] }}{# <span>{{ text['text'] }}</span> #}
+{%- endif -%}
+{%- endmacro -%}
+
+{# Renders an icon #}
+{%- macro render_icon(icon) -%}
+<span class="icon has-text-black" {% if 'title' in icon %} title="{{ icon['title'] }}"{% endif %}><i class="icon-{{ icon['class'] }}"></i></span>
+{%- endmacro -%}
+
+{# Some text surrounded by a link tag #}
+{%- macro render_url(url) -%}
+<a href="{{ base['url_to'](url['href'], url) }}"{% if 'title' in url %} title="{{ url['title'] }}"{% endif %}{% if 'class' in url %} class="{{ url['class'] }}"{% endif %}>{{ render_element(url['content']) }}</a>
+{%- endmacro -%}
+
 {# Renders a list of enumeration entries (either links or text) #}
 {%- macro render_enumeration(enumeration) -%}
 {%- set divider = joiner(enumeration['divider']) -%}
-{% for entry in enumeration['entries'] -%}{{ divider() }}{{ render_element(entry) }}{%- endfor -%}
+{%- for entry in enumeration['entries'] -%}{{ divider() }}{{ render_element(entry) }}{%- endfor -%}
 {%- endmacro -%}
 
+{# #}
 {%- macro render_tags(tags) -%}
   <div class="tags has-addons">{{ render_enumeration(tags['enumeration']) }}</div>
+{%- endmacro -%}
+
+{# #}
+{%- macro render_enclose(enclose) -%}
+{{ enclose['left'] }}{{ render_element(enclose['entry']) }}{{ enclose['right'] }}
 {%- endmacro -%}

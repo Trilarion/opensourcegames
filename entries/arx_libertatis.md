@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Arx_Fatalis#Development
 - Inspiration: Arx Fatalis
 - State: mature
-- Download: https://wiki.arx-libertatis.org/Download
+- Download: https://arx-libertatis.org/download
 - Keyword: remake, role playing, "content commercial + original required (Arx Fatalis)", dungeon
 - Code repository: https://github.com/arx/ArxLibertatis.git (@created 2011, @stars 583, @forks 91)
 - Code language: C++

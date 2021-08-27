@@ -201,6 +201,22 @@ general_code_dependencies_without_entry = {'OpenGL': 'https://www.opengl.org/',
                                    'GNU Guile': 'https://www.gnu.org/software/guile/',
                                    'tkinter': 'https://docs.python.org/3/library/tk.html'}
 
+# build system urls
+build_system_urls = {
+    'CMake': 'https://cmake.org/',
+    'Make': 'https://en.wikipedia.org/wiki/Make_(software)',
+    'Autoconf': 'https://en.wikipedia.org/wiki/Autoconf',
+    'Gradle': 'https://gradle.org/',
+    'Visual Studio': 'https://en.wikipedia.org/wiki/Microsoft_Visual_Studio',
+    'setup.py': 'https://packaging.python.org/tutorials/packaging-projects/#configuring-metadata',
+    'Scons': 'https://scons.org/',
+    'Ant': 'http://ant.apache.org/',
+    'Maven': 'https://maven.apache.org/index.html',
+    'Meson': 'https://mesonbuild.com/',
+    'premake': 'https://premake.github.io/',
+    'QMake': 'https://doc.qt.io/qt-5/qmake-manual.html',
+}
+
 # developer information (in the file all fields will be capitalized)
 essential_developer_fields = ('Name', 'Games')
 optional_developer_fields = ('Home', 'Contact', 'Organization')

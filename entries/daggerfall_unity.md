@@ -3,7 +3,7 @@
 - Home: https://www.dfworkshop.net/
 - Inspiration: The Elder Scrolls II: Daggerfall
 - State: mature
-- Download: https://www.dfworkshop.net/projects/daggerfall-unity/live-builds/
+- Download: https://github.com/Interkarma/daggerfall-unity/releases
 - Platform: Windows, Linux, macOS
 - Keyword: remake, role playing, content original required
 - Code repository: https://github.com/Interkarma/daggerfall-unity.git (@created 2015, @stars 919, @forks 173)

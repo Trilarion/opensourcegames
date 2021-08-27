@@ -13,4 +13,4 @@ Prototype for an educational role-playing game for intercultural education.
 
 ## Building
 
-- Build system: VisualStudio, Ant
+- Build system: Visual Studio, Ant

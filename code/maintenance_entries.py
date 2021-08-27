@@ -379,6 +379,8 @@ class EntriesMaintainer:
                     continue  # even though verify is False, these errors still get through
                 print('{}: {} - exception {}'.format(names, url, error_name))
 
+        print('external links checked')
+
     def update_readme_tocs(self):
         """
         Recounts entries in sub categories and writes them to the readme.

@@ -18,4 +18,4 @@ OpenRA mod with freely licensed pixelart building upon the unreleased [Hard Vacu
 
 ## Building
 
-- Build system: make, msbuild
+- Build system: Make, msbuild

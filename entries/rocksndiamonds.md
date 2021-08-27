@@ -4,7 +4,8 @@
 - Media: https://en.wikipedia.org/wiki/Rocks%27n%27Diamonds
 - Inspiration: Boulder Dash, Emerald Mine, Sokoban, Supaplex
 - State: mature
-- Download: https://www.artsoft.org/rocksndiamonds/download/
+- Download: https://www.artsoft.org/rocksndiamonds/download/, https://f-droid.org/en/packages/org.artsoft.rocksndiamonds/
+- Platform: Windows, Linux, macOS, Android
 - Keyword: action, puzzle, remake
 - Code repository: https://git.artsoft.org/rocksndiamonds.git
 - Code language: C

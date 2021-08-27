@@ -1,9 +1,9 @@
 # Commander Genius
 
-- Home: http://clonekeenplus.sourceforge.net/, https://sourceforge.net/projects/clonekeenplus/
+- Home: https://clonekeenplus.sourceforge.io/, https://sourceforge.net/projects/clonekeenplus/
 - Inspiration: Commander Keen Series
 - State: mature
-- Download: http://clonekeenplus.sourceforge.net/download.php
+- Download: https://clonekeenplus.sourceforge.io/download.php
 - Platform: Windows, Linux, Android
 - Keyword: action, remake
 - Code repository: https://gitlab.com/Dringgstein/Commander-Genius.git, https://github.com/albertz/commandergenius.git @add (@created 2009, @stars 31, @forks 249), https://github.com/pelya/commandergenius.git @add (@created 2009, @stars 442, @forks 224), https://github.com/gerstrong/Commander-Genius.git @add (@created 2011, @stars 140, @forks 29)

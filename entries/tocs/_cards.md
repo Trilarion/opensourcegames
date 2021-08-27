@@ -18,3 +18,4 @@
 - **[Tressette](../tressette.md)** (C++, GPL-2.0, mature, inactive since 2017)
 - **[Wizards Magic](../wizards_magic.md)** (Python, GPL-2.0, mature, inactive since 2012)
 - **[XMage](../xmage.md)** (Java, MIT, mature)
+- **[XSkat](../xskat.md)** (Java, Custom, mature)

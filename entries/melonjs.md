@@ -1,6 +1,6 @@
 # melonJS
 
-- Home: http://melonjs.org/
+- Home: https://melonjs.org/
 - State: mature
 - Download: https://github.com/melonjs/melonJS/releases
 - Platform: Web

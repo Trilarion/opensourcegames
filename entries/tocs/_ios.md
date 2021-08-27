@@ -14,5 +14,6 @@
 - **[PyQt](../pyqt.md)** (C++, Python, GPL-3.0, Custom, mature)
 - **[Ren'Py](../renpy.md)** (C, Python, Ren'Py, LGPL-2.1, mature)
 - **[Simon Tatham's Portable Puzzle Collection](../simon_tathams_portable_puzzle_collection.md)** (C, MIT, mature)
+- **[The Battle for Wesnoth](../the_battle_for_wesnoth.md)** (C, C++, Java, Python, Lua, GPL-2.0, mature)
 - **[Tux Paint](../tux_paint.md)** (C, C++, GPL-2.0, beta)
 - **[Yet Another Engine](../yet_another_engine.md)** (MoonScript, Java, Lua, MIT, beta, inactive since 2016)

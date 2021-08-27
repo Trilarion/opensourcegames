@@ -1,6 +1,6 @@
 # Crosswords
 
-- Home: http://xwords.sourceforge.net/
+- Home: https://xwords.sourceforge.io/
 - Inspiration: Scrabble
 - State: mature
 - Download: https://sourceforge.net/projects/xwords/files/

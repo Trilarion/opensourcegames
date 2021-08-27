@@ -3,6 +3,7 @@
 
 - **[3Dc](../3dc.md)** (C, GPL-2.0, mature, inactive since 2000)
 - **[British Bingo](../british_bingo.md)** (JavaScript, GPL-3.0, mature)
+- **[Catan Dice Game](../catan_dice_game.md)** (Java, GPL-3.0, mature)
 - **[Chess3D](../chess3d.md)** (JavaScript, Python, GPL-3.0, mature, inactive since 2016)
 - **[Crosswords](../crosswords.md)** (Java, GPL-2.0, mature)
 - **[Deer Portal](../deer_portal.md)** (C++, zlib, beta)

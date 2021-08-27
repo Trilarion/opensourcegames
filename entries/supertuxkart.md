@@ -3,7 +3,8 @@
 - Home: https://supertuxkart.net/Main_Page, https://sourceforge.net/projects/supertuxkart/
 - Inspiration: Mario Kart
 - State: mature
-- Download: https://supertuxkart.net/Download
+- Download: https://supertuxkart.net/Download, https://f-droid.org/en/packages/org.supertuxkart.stk/
+- Platform: Windows, Linux, macOS, Android
 - Keyword: action, clone, racing
 - Code repository: https://github.com/supertuxkart/stk-code.git (@created 2014, @stars 3137, @forks 903), https://svn.code.sf.net/p/supertuxkart/code (svn)
 - Code language: C++, C

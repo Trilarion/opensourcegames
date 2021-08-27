@@ -37,15 +37,14 @@
 {% block content %}{% endblock %}
                                 {#- footer -#}
 <footer class="footer">
-  <div class="container is-size-7">
-    <div class="block">
-      Follow the <a href="https://trilarion.blogspot.com/search/label/osgames">Blog</a><br>
-    </div>
-    <div class="block">
-      Disclaimer: The content on this site is the result of voluntary work and may be outdated or incorrect.
-      The content is licensed <a href="https://github.com/Trilarion/opensourcegames/blob/master/LICENSE">CC-0</a>. Icons and ... <br>
-      Last updated: {{ base['creation-date'] }}
-    </div>
+  <div class="container content is-size-7">
+      <p>The <a href="https://github.com/Trilarion/opensourcegames">Open source games list (OSGL)</a> is a collection of open source game descriptions focusing on technical aspects.
+      The content on this site is the result of voluntary work and may be outdated or incorrect.<br>
+      For giving feedback or improving the content see the <a href="contribute.html">contribution guidelines</a> or read the <a href="https://trilarion.blogspot.com/search/label/osgames">Blog</a>.</p>
+      <p>The content (games descriptions) is licensed <a href="https://github.com/Trilarion/opensourcegames/blob/master/LICENSE">CC-0</a>.
+      Used icons are licensed under CC BY-SA 3.0 (<a href="https://github.com/somerandomdude/Iconic">Iconic</a> or <a href="http://designmodo.com/linecons-free/">Linecons</a>), CC0 1.0 (<a href="https://simpleicons.org/">Simple Icons</a>),
+      CC BY 4.0 (<a href="https://github.com/FortAwesome/Font-Awesome">Font Awesome</a> or <a href="https://icomoon.io/#icons-icomoon">IcoMoon Free</a>), CC BY-SA 4.0 (<a href="http://www.entypo.com/">Entypo+</a>) or Apache License 2.0 (<a href="https://material.io/resources/icons">Material Icons</a>).
+      This website is built using Python, Lark, Jinja2 and Bulma. Last updated: {{ base['creation-date'] }}</p>
   </div>
 </footer>
 </body>

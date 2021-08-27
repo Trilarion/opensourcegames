@@ -1,6 +1,6 @@
 # Frets on Fire X
 
-- Home: https://fofix.github.io/
+- Home: https://fofix.org/
 - Inspiration: Frets on Fire, Guitar Hero
 - State: mature
 - Keyword: music, remake

@@ -1,6 +1,6 @@
 # MechCommander 2 Omnitech
 
-- Home: https://github.com/Echelon9/mechcommander2-open, http://www.hard-light.net/forums/index.php?board=210.0
+- Home: https://github.com/Echelon9/mechcommander2-open, https://www.hard-light.net/forums/index.php?board=210.0
 - Media: https://en.wikipedia.org/wiki/MechCommander_2
 - Inspiration: MechCommander 2
 - State: beta, inactive since 2013

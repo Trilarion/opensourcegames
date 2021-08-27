@@ -1,6 +1,6 @@
 # FLTK Recycling Game!
 
-- Home: http://www.thregr.org/~wavexx/software/regame/
+- Home: https://www.thregr.org/~wavexx/software/regame/
 - State: mature, inactive since 2014
 - Platform: Windows, Linux, macOS
 - Keyword: arcade, content open

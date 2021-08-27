@@ -1,8 +1,8 @@
 # LGames
 
-- Home: http://lgames.sourceforge.net/
+- Home: https://lgames.sourceforge.io/
 - State: mature
-- Download: http://lgames.sourceforge.net/downloads.php
+- Download: https://lgames.sourceforge.io/downloads.php
 - Platform: Windows, Linux, macOS
 - Keyword: action
 - Code repository: https://svn.code.sf.net/p/lgames/code (svn)

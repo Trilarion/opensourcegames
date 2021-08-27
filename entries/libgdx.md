@@ -1,9 +1,8 @@
 # libGDX
 
-- Home: https://libgdx.badlogicgames.com/
+- Home: https://libgdx.com/
 - Media: https://en.wikipedia.org/wiki/LibGDX
 - State: mature
-- Download: https://libgdx.badlogicgames.com/download.html
 - Keyword: framework
 - Code repository: https://github.com/libgdx/libgdx.git (@created 2012, @stars 17910, @forks 6110)
 - Code language: Java, C++, C

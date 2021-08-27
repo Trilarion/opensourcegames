@@ -11,6 +11,6 @@
 - Developer: Syll
 
 Little turn-based strategy game based on Pendulous shareware rules.
-See also [Pendulous](http://www.blackfalcongames.net/?p=225).
+See also [Pendulous](https://www.blackfalcongames.net/?p=225).
 
 ## Building

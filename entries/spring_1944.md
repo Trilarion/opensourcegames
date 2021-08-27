@@ -1,6 +1,6 @@
 # Spring: 1944
 
-- Home: http://spring1944.net
+- Home: https://spring1944.net/
 - Inspiration: Company of Heroes, Company of Heroes 2, Company of Heroes: Opposing Fronts, Company of Heroes: Tales of Valor, Supreme Commander
 - State: mature
 - Keyword: strategy, clone, real-time

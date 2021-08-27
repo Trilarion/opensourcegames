@@ -1,6 +1,6 @@
 # Cart Life
 
-- Home: https://web.archive.org/web/20150619214353/http://www.richardhofmeier.com/cartlife/editions.html, http://indiegames.ch/die-geheimen-projekte-des-richard-hofmeier/
+- Home: https://web.archive.org/web/20150619214353/http://www.richardhofmeier.com/cartlife/editions.html, https://indiegames.ch/die-geheimen-projekte-des-richard-hofmeier/
 - Media: https://en.wikipedia.org/wiki/Cart_Life
 - State: mature, inactive since 2014
 - Download: https://sourceforge.net/projects/cartlife/files/OpenSores_0.1/

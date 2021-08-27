@@ -1,7 +1,7 @@
 # MegaMek
 
 - Home: https://www.megamek.org/, https://sourceforge.net/projects/megamek/
-- Media: https://en.wikipedia.org/wiki/MegaMek
+- Media: https://en.wikipedia.org/wiki/BattleTech#Spin-offs
 - Inspiration: BattleTech
 - State: mature
 - Download: https://megamek.org/downloads

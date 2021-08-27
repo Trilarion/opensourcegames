@@ -17,50 +17,53 @@ Listing:
 
 """
 
-# TODO index.html add small introductory text
-# TODO index: icons not shown
+# pre-release
+
+# project LICENSE file not auto recognized by Github (use https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md instead)
+
 # TODO contribute.html add content
 
-# TODO update Bulma
-
-# TODO more icons - (missing categories, index.html without icons)
+# TODO more icons - missing categories
 # TODO replace or remove @notices in entries (maybe different entries format)
-# TODO SEO optimizations, google search ...
-# TODO sitemap
-# TODO Google search console
-# TODO <a> rel attribute https://www.w3schools.com/TAGS/att_a_rel.asp
 
-# TODO everywhere: style URLs (Github, Wikipedia, Internet archive, SourceForge, ...)
 # TODO everywhere: singular, plural (game, entries, items)
-# TODO everywhere: meta/title tag
-# TODO everywhere: optimize jinja for line breaks and indention and minimal amount of spaces (and size of files) and minimal amount of repetition of tags
-
-# TODO inspirations: icon full lamp (not contained in icomoon.io)
-# TODO inspirations: if included in the database, link instead to game
 
 # TODO statistics: better and more statistics with links where possible
 # TODO statistics: with nice graphics (pie charts in SVG) with matplotlib, seaborn, plotly?
 # TODO statistics: get it from common statistics generator
 
-# TODO footer: clean up, link to Github project
-
 # TODO frameworks: icons for frameworks/libraryies/tools
 
 # TODO filter by category: icons too large (overlapping)
 
-# TODO games: keywords as labels (some as links)
-# TODO games: platforms as labels and with links (links don't work)
-# TODO games: Build system with links like licenses
-# TODo games: developers if more than a single line (collapse, expand?) without JS?
-# TODO games: mature, active not blue (link) maybe red or just bold black and beta inactive gray? and add tooltips
-# TODO games: code repositories (stars and forks), list all comma-separated (should be ()) instead
 # TODO games: @see-home/@see-download/@add (ignore or replace?)
-# TODO games/frameworks: tooltip of supported OS
-# TODO games: link to dependencies (either if existing or if url)
 # TODO games: top 50 list from Github via their stars with download links (add to entries) and with screenshot
 # TODO games: add screenshot ability (add screenshot to database, at least for top 50)
+
+# release
+
+# TODO update Bulma
+# TODO everywhere: optimize jinja for line breaks and indention and minimal amount of spaces (and size of files) and minimal amount of repetition of tags
+
+# post-release
+
+# TODO everywhere: meta/title tag
+# TODO everywhere: style URLs (Github, Wikipedia, Internet archive, SourceForge, ...)
+
+# TODO inspirations: icon full lamp (not contained in icomoon.io)
+
+# TODO games: developers if more than a single line (collapse, expand?) without JS? (https://stackoverflow.com/questions/41220717/collapse-without-javascript, https://codeconvey.com/html-expand-collapse-text-without-javascript/)
+# TODO games: technical info (collapse on click)
+# TODO games: link to dependencies (either if existing or if url)
 # TODO games: javascript table
-# TODO games/frameworks: bug, recommended tags, links not going to genre
+# TODO games: repositories comments have too much space after( and before )
+
+# TODO SEO optimizations, google search ...
+# TODO sitemap
+# TODO Google search console
+# TODO <a> rel attribute https://www.w3schools.com/TAGS/att_a_rel.asp
+
+# TODO inspirations: if included in the database, link instead to game
 
 import os
 import shutil
@@ -179,6 +182,7 @@ def write(text, file):
         html5parser.parse(text)
     except Exception as e:
         utils.write_text(os.path.join(c.web_path, 'invalid.html'), text)  # for further checking with https://validator.w3.org/
+        print('probem with file {}, see invalid.html'.format(file))
         raise RuntimeError(e)
     # output file
     file = os.path.join(c.web_path, *file)
@@ -404,7 +408,7 @@ def make_repo_url(x, name):
     # this is the default element
     url = make_url(x.value, shortcut_url(x.value, name), css_class='is-size-7')
     if comments:
-        return make_enumeration([url, make_enumeration(comments)], '')
+        return make_enumeration([url, make_enclose(make_enumeration(comments), '(', ')')], '')
     else:
         return url
 
@@ -433,6 +437,16 @@ def make_nothing():
     return {
         'type': 'nothing'
     }
+
+
+def make_enclose(entry, left, right):
+    enclose = {
+        'type': 'enclose',
+        'entry': entry,
+        'left': left,
+        'right': right
+    }
+    return enclose
 
 
 def make_enumeration(entries, divider=', '):
@@ -530,10 +544,10 @@ def create_state_texts(states):
     if 'mature' in states:
         texts.append(make_text('mature', 'is-size-7 has-text-weight-bold has-text-info'))
     else:
-        texts.append(make_text('beta', 'is-size-7 has-text-gray-light'))
+        texts.append(make_text('beta', 'is-size-7 has-text-gray-lighter'))
     inactive = [x for x in states if x.startswith('inactive since')]
     if inactive:
-        texts.append([make_text(inactive[0], 'is-size-7 has-text-gray-light'), make_icon('brightness_3')])
+        texts.append([make_text(inactive[0], 'is-size-7 has-text-gray-lighter'), make_icon('brightness_3')])
     else:
         texts.append([make_text('active', 'is-size-7 has-text-weight-bold has-text-info'), make_icon('sun')])
     return texts
@@ -576,9 +590,9 @@ def convert_entries(entries, inspirations, developers):
                     e = [make_url(x, shortcut_url(x, name)) for x in e]
                 else:
                     e = [make_text(x) for x in e]
-                if field == 'Home': # Home -> Homepage
+                if field == 'Home':  # Home -> Homepage
                     field = 'Homepage'
-                elif field == 'Play': # Play -> Play online
+                elif field == 'Play':  # Play -> Play online
                     field = 'Play online'
                 namex = make_text('{}: '.format(get_plural_or_singular(field, len(e))), 'has-text-weight-semibold')
                 entry[field.lower()] = [namex, make_enumeration(e, divider)]
@@ -588,12 +602,11 @@ def convert_entries(entries, inspirations, developers):
             e = entry['Platform']
             if isinstance(e[0], osg.osg_parse.ValueWithComment):
                 e = [x.value for x in e]
-            e = [make_url('', make_icon(platform_icon_map[x]), x) if x in platform_icon_map else make_text(x, 'is-size-7') for x in e]
-            namex = make_text('{}:'.format(get_plural_or_singular('Platform', len(e))), 'has-text-weight-semibold')
-            entry['platform'] = [namex] + e
         else:
-            namex = make_text('{}:'.format(get_plural_or_singular('Platform', 1)), 'has-text-weight-semibold')
-            entry['platform'] = [namex, make_icon(platform_icon_map['Unspecified'])]
+            e = ['Unspecified']
+        e = [make_url(games_by_platform_path[:-1] + ['{}#{}'.format(games_by_platform_path[-1], x.lower())], make_icon(platform_icon_map[x]), x) if x in platform_icon_map else make_text(x, 'is-size-7') for x in e]
+        namex = make_text('{}:'.format(get_plural_or_singular('Platform', len(e))), 'has-text-weight-semibold')
+        entry['platform'] = [namex] + e
 
         # technical info fields
         for field in ('Code language', 'Code license', 'Code repository', 'Code dependency', 'Assets license'):
@@ -624,7 +637,7 @@ def convert_entries(entries, inspirations, developers):
             divider = ', '
             if isinstance(e[0], osg.osg_parse.ValueWithComment):
                 e = [x.value for x in e]
-            e = [make_text(x, 'is-size-7') for x in e]
+            e = [make_url(c.build_system_urls[x], x, css_class='is-size-7') if x in c.build_system_urls else make_text(x, 'is-size-7') for x in e]
             namex = make_text('{}: '.format(field), 'is-size-7')
             entry[field.lower()] = [namex, make_enumeration(e, divider)]
 
@@ -865,7 +878,8 @@ def generate(entries, inspirations, developers):
     # top 50 games
     base['active_nav'] = ['filter', 'top50']
     listing = {
-        'title': 'Top 50 games (stars)',
+        'title': 'GitHub Stars Top 50',
+        'subtitle': '50 highest rated (by stars on Github) open source games in the database',
         'items': top50_games
     }
     write(template_listing_entries.render(listing=listing), games_top50_path)

@@ -3,6 +3,7 @@
 - Home: https://tof.p1x.in/, https://w84death.itch.io/tanks-of-freedom
 - Inspiration: Advance Wars
 - State: mature
+- Platform: Windows, Linux, macOS, Android
 - Keyword: strategy, clone, content open, isometric, multiplayer hotseat + online, turn-based
 - Code repository: https://github.com/w84death/Tanks-of-Freedom.git (@created 2015, @stars 878, @forks 127)
 - Code language: GDScript

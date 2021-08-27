@@ -161,6 +161,7 @@ https://directory.fsf.org/wiki/Collection:GNOME_Games (all of them)
 https://dosgames.com/about.php (search for public domain games with sources)
 https://dosgames.com/forum/about19706.html
 https://dragengine.rptd.ch/
+https://drodin.com/ (all games there)
 https://eblong.com/zarf/twilight/index.html
 https://edu.kde.org/
 https://empiredirectory.net/
@@ -201,6 +202,7 @@ https://github.blog/2021-05-19-ludum-dare-48-staff-picks/
 https://github.com/00-Evan/shattered-pixel-dungeon
 https://github.com/00-Evan/shattered-pixel-dungeon-gdx
 https://github.com/acedogblast/Project-Uranium-Godot
+https://github.com/adriengivry/overload
 https://github.com/adriengivry/Overload
 https://github.com/aloisdeniel/awesome-monogame
 https://github.com/Alzter/TuxBuilder
@@ -269,11 +271,13 @@ https://github.com/flathub (all repositories which are games there)
 https://github.com/FUSEEProjectTeam/Fusee
 https://github.com/fynnfluegge/oreon-engine
 https://github.com/Galapix/galapix
+https://github.com/Gamaen (all their repositories)
 https://github.com/gamearians
 https://github.com/GamedevFramework/gf
 https://github.com/gan74/Yave
 https://github.com/GarageGames/Torque3D
 https://github.com/GDQuest/godot-visual-effects
+https://github.com/Gforcex/OpenGraphic (all open source game engines there)
 https://github.com/GlPortal/RadixEngine
 https://github.com/gnFur/Monofoxe
 https://github.com/GNOME/quadrapassel
@@ -322,6 +326,7 @@ https://github.com/luciopanepinto/pacman
 https://github.com/LuminoEngine/Lumino
 https://github.com/MarcoLizza/tofu-engine
 https://github.com/MarilynDafa/Bulllord-Engine
+https://github.com/mars-sim/mars-sim
 https://github.com/marshallward/TiledSharp
 https://github.com/Martenfur/Monofoxe
 https://github.com/marukrap/RoguelikeDevResources
@@ -348,6 +353,7 @@ https://github.com/nfprojects/nfengine
 https://github.com/NickMcConnell/FAangband
 https://github.com/NoelFB/blah
 https://github.com/Noesis/UE4-ShooterGame
+https://github.com/oers/reversatile
 https://github.com/ogarcia/opensudoku
 https://github.com/Ogmo-Editor-3/OgmoEditor3-CE
 https://github.com/OGRECave/scape
@@ -380,6 +386,7 @@ https://github.com/psuong/ig-developer-console
 https://github.com/qiciengine/qiciengine
 https://github.com/Quaver/Wobble
 https://github.com/quinnvoker/qurobullet
+https://github.com/rafaelcastrocouto/foda
 https://github.com/rakugoteam/Rakugo
 https://github.com/RandyGaul/qu3e
 https://github.com/rds1983/Jord
@@ -397,6 +404,7 @@ https://github.com/rotators/Fo1in2
 https://github.com/RoxasShadow/Sottaceto
 https://github.com/roy-t/MiniRTS
 https://github.com/rramsden/ymir
+https://github.com/RSamaium/RPG-JS
 https://github.com/Ruin0x11/OpenNefia
 https://github.com/sabresaurus/SabreCSG
 https://github.com/SadConsole/SadConsole
@@ -426,6 +434,7 @@ https://github.com/Suprcode/mir3-zircon
 https://github.com/Sygmei/ObEngine
 https://github.com/tainicom/Aether.Physics2D
 https://github.com/tangziwen/Cube-Engine
+https://github.com/teeworlds/teeworlds
 https://github.com/terrafx/terrafx
 https://github.com/the-insulines
 https://github.com/theaigames
@@ -444,6 +453,7 @@ https://github.com/uberspot/2048-android
 https://github.com/untakenstupidnick/nbsdgames (Blockout II)
 https://github.com/untakenstupidnick/nbsdgames (Cross-platform ncurses/pdcurses based games under active development)
 https://github.com/UnterrainerInformatik/GameDevelopmentLinks
+https://github.com/UPBGE/upbge
 https://github.com/Venom0us/Emberpoint
 https://github.com/videogamepreservation
 https://github.com/vini-guerrero/Godot_Game_Tools
@@ -491,6 +501,7 @@ https://notabug.org/Calinou/awesome-gamedev#games
 https://odr.chalmers.se/handle/20.500.12380/219006
 https://osdn.net/softwaremap/trove_list.php?form_cat=80
 https://packages.debian.org/sid/games/etw
+https://pipoypipagames.itch.io/cows-revenge (https://github.com/Dariasteam/Cows-Revenge)
 https://pixeldoctrine.com/index.html (more than just slime volleyball)
 https://play.google.com/store/apps/dev?id=8387589286898375037 (where is the source, not open source otherwise)
 https://playcanvas.com/
@@ -541,7 +552,6 @@ https://sourceforge.net/projects/tbswwengine/
 https://sourceforge.net/projects/terratenebrae/
 https://sourceforge.net/projects/tyrant/
 https://sourceforge.net/projects/untitled-rpg/
-https://sourceforge.net/projects/wesnoth-on-android/
 https://sourceforge.net/projects/wme/
 https://sourceforge.net/projects/wowrl/
 https://sourceforge.net/projects/wwiig/
@@ -574,6 +584,7 @@ https://www.freegamesutopia.com/
 https://www.frictionalgames.com/forum/forum-28.html
 https://www.gamingonlinux.com/free-games/ (all of them that are open source)
 https://www.glitchthegame.com/ (Glitch the game, by Tiny Speck Inc. public domain)
+https://www.gog.com/forum/general/free_open_source_games (and suggestions therein)
 https://www.libretro.com/
 https://www.libsdl.org/
 https://www.moddb.com/ (scrape, look for open source)

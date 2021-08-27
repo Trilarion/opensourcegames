@@ -1,9 +1,9 @@
 # Irrlicht Engine
 
-- Home: http://irrlicht.sourceforge.net/
+- Home: https://irrlicht.sourceforge.io/
 - Media: https://en.wikipedia.org/wiki/Irrlicht_Engine
 - State: mature
-- Download: http://irrlicht.sourceforge.net/?page_id=10
+- Download: https://irrlicht.sourceforge.io/?page_id=10
 - Keyword: framework, 3D, real-time
 - Code repository: https://github.com/zaki/irrlicht.git (mirror, @created 2010, @stars 374, @forks 121), https://svn.code.sf.net/p/irrlicht/code (svn)
 - Code language: C++, C

@@ -1,6 +1,6 @@
 # Open Apocalypse
 
-- Home: http://openapoc.org/
+- Home: https://openapoc.org/
 - Inspiration: X-COM: Apocalypse, X-COM: Terror from the Deep, X-COM: UFO Defense
 - State: beta
 - Download: https://ci.appveyor.com/project/openapoc/openapoc

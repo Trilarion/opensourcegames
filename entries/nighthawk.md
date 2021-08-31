@@ -1,10 +1,10 @@
 # Nighthawk
 
-- Home: http://night-hawk.sourceforge.net/, https://sourceforge.net/projects/night-hawk/
+- Home: https://night-hawk.sourceforge.io/, https://sourceforge.net/projects/night-hawk/
 - Media: https://en.wikipedia.org/wiki/Paradroid#Other_clones_and_games_inspired_by_Paradroid
 - Inspiration: Paradroid
 - State: mature, inactive since 2004
-- Download: http://night-hawk.sourceforge.net/dl.php
+- Download: https://night-hawk.sourceforge.io/dl.php
 - Keyword: arcade, puzzle, remake, shooter
 - Code repository: https://gitlab.com/osgames/night-hawk.git (conversion of cvs), http://night-hawk.cvs.sourceforge.net (cvs)
 - Code language: C++

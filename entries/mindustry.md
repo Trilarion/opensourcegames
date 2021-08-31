@@ -1,6 +1,6 @@
 # Mindustry
 
-- Home: https://mindustrygame.github.io/
+- Home: https://anuke.itch.io/mindustry, https://mindustrygame.github.io/
 - State: mature
 - Download: https://play.google.com/store/apps/details?id=io.anuke.mindustry, https://f-droid.org/packages/io.anuke.mindustry/, https://anuke.itch.io/mindustry
 - Platform: Windows, Linux, Android

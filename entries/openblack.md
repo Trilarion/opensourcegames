@@ -1,6 +1,6 @@
 # openblack
 
-- Home: https://github.com/openblack/openblack, https://www.bwfiles.com/
+- Home: https://github.com/openblack/openblack, https://forum.bwgame.net/
 - Inspiration: Black & White
 - State: beta
 - Platform: Windows, Linux

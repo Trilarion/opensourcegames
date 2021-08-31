@@ -1,6 +1,6 @@
 # Palapeli
 
-- Home: https://kde.org/applications/games/org.kde.palapeli
+- Home: https://apps.kde.org/palapeli/
 - State: mature
 - Keyword: puzzle, jigsaw
 - Code repository: https://invent.kde.org/games/palapeli.git

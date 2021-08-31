@@ -13,7 +13,7 @@ PBEM Game engine which is used to create many different strategy wargames today 
 Game engine? Implementations?
 
 See also:
-[Atlantis Little Helper](https://sourceforge.net/projects/alh/), [Dev group](https://groups.yahoo.com/neo/groups/atlantisdev/info), [Atlantis 1.0](https://github.com/ennorehling/atlantis).
+[Atlantis Little Helper](https://sourceforge.net/projects/alh/), [Dev group](https://web.archive.org/web/20201214185644/https://groups.yahoo.com/neo/groups/atlantisdev/info), [Atlantis 1.0](https://github.com/ennorehling/atlantis).
 
 https://github.com/essenbee/atlantis, https://github.com/AtlaClient/AtlaClient
 

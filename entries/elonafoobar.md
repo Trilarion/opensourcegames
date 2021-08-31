@@ -1,6 +1,6 @@
 # ElonaFoobar
 
-- Home: https://elonafoobar.com/en/
+- Home: https://web.archive.org/web/20210228181935/https://elonafoobar.com/en/
 - Inspiration: Elona
 - State: mature
 - Platform: Windows, Linux, macOS

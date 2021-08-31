@@ -1,9 +1,8 @@
 # BrowserQuest
 
-- Home: http://browserquest.herokuapp.com/
+- Home: https://web.archive.org/web/20210714055307/http://browserquest.herokuapp.com/
 - Media: https://en.wikipedia.org/wiki/BrowserQuest
 - State: mature
-- Play: http://browserquest.herokuapp.com/
 - Platform: Web
 - Keyword: adventure, role playing, multiplayer online + massive
 - Code repository: https://github.com/mozilla/BrowserQuest.git (@created 2011, @stars 8603, @forks 2567)

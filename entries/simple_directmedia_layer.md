@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://www.libsdl.org/download-2.0.php
 - Keyword: library, 3D
-- Code repository: http://hg.libsdl.org/SDL (hg)
+- Code repository: https://github.com/libsdl-org/SDL.git
 - Code language: C
 - Code license: zlib
 

@@ -9,7 +9,7 @@
 - Code language: GDScript
 - Code license: GPL-3.0
 - Code dependency: Godot
-- Assets license: CC-BY-3.0 (see https://gitlab.com/SuperTuxParty/SuperTuxParty/blob/dev/LICENSE-ART.md and https://gitlab.com/SuperTuxParty/SuperTuxParty/blob/dev/LICENSE-MUSIC.md)
+- Assets license: CC-BY-3.0 (see https://gitlab.com/SuperTuxParty/SuperTuxParty/-/tree/dev/licenses)
 
 ## Building
 

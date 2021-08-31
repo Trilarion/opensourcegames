@@ -2,7 +2,7 @@
 
 - Home: https://github.com/retrowars/retrowars
 - State: beta
-- Download: https://f-droid.org/de/packages/com.serwylo.retrowars/
+- Download: https://f-droid.org//packages/com.serwylo.retrowars/
 - Platform: Android
 - Keyword: arcade, skill
 - Code repository: https://github.com/retrowars/retrowars.git

@@ -1,6 +1,6 @@
 # Der Clou!
 
-- Home: https://sourceforge.net/projects/cosp/, https://sites.google.com/site/vascocosta/theclue
+- Home: https://sourceforge.net/projects/cosp/, https://web.archive.org/web/20210213180047/https://sites.google.com/site/vascocosta/theclue
 - Inspiration: The Clue!
 - State: beta, inactive since 2017
 - Download: https://sourceforge.net/projects/cosp/files/

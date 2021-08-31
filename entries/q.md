@@ -1,6 +1,6 @@
 # Q
 
-- Home: https://secure.plaimi.net/games/quizbot.html
+- Home: https://plaimi.net/games/quizbot.html
 - State: mature, inactive since 2013
 - Platform: Windows, Linux, macOS
 - Keyword: educational, quiz

@@ -2,7 +2,7 @@
 
 - Home: https://gcompris.net/index-en.html
 - State: mature
-- Download: https://gcompris.net/downloads-en.html, https://f-droid.org/de/packages/net.gcompris.full/
+- Download: https://gcompris.net/downloads-en.html, https://f-droid.org//packages/net.gcompris.full/
 - Platform: Windows, Linux, macOS, Android
 - Keyword: educational, content open (?), for kids
 - Code repository: https://invent.kde.org/education/gcompris.git, https://gitlab.gnome.org/Archive/gcompris.git @archive

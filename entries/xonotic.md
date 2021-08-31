@@ -1,10 +1,10 @@
 # Xonotic
 
-- Home: https://www.xonotic.org/
+- Home: https://xonotic.org/
 - Media: https://en.wikipedia.org/wiki/Xonotic
 - Inspiration: Nexuiz
 - State: mature
-- Download: https://www.xonotic.org/download/
+- Download: https://xonotic.org/download/
 - Keyword: action, clone, first-person, shooter
 - Code repository: https://git.xonotic.org/xonotic/xonotic.git, https://gitlab.com/xonotic/xonotic.git @add, https://gitlab.com/xonotic/xonotic-data.pk3dir.git
 - Code language: C

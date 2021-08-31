@@ -1,8 +1,8 @@
 # HaxeFlixel
 
-- Home: https://haxeflixel.com/
+- Home: https://web.archive.org/web/20210829140810/https://haxeflixel.com/
 - State: mature
-- Download: https://haxeflixel.com/documentation/getting-started/
+- Download: https://web.archive.org/web/20210829064248/https://haxeflixel.com/documentation/getting-started/
 - Keyword: framework
 - Code repository: https://github.com/HaxeFlixel/flixel.git (@created 2011, @stars 1341, @forks 263)
 - Code language: Haxe

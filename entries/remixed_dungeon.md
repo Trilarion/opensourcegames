@@ -1,6 +1,6 @@
 # Remixed Dungeon
 
-- Home: https://wiki.nyrds.net/, https://pixeldungeon.fandom.com/wiki/Mod-Remixed_Dungeon
+- Home: https://wiki.nyrds.net/, https://pixeldungeon.fandom.com/wiki/Remixed_Dungeon
 - Inspiration: Pixel Dungeon
 - State: mature
 - Download: https://play.google.com/store/apps/details?id=com.nyrds.pixeldungeon.ml&referrer=utm_source%3Dgithub%26utm_content%3Dreadme

@@ -11,6 +11,4 @@
 - Code license: GPL-2.0
 - Developer: Guy Rutenberg, Journeyman, smcgill
 
-Infos about [Yahtzee](https://en.wikipedia.org/wiki/Yahtzee).
-
 ## Building

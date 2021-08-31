@@ -1,8 +1,10 @@
 # Freeminer
 
-- Home: https://web.archive.org/web/20170531043347/http://freeminer.org/
+- Home: https://freeminer.org/, https://web.archive.org/web/20170531043347/http://freeminer.org/
 - Inspiration: Minecraft
 - State: beta
+- Download: https://f-droid.org//packages/org.freeminer.freeminer/
+- Platform: Windows, Linux, Android
 - Keyword: simulation
 - Code repository: https://github.com/freeminer/freeminer.git (@created 2013, @stars 296, @forks 69)
 - Code language: C++, Lua

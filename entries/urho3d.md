@@ -1,6 +1,6 @@
 # Urho3D
 
-- Home: https://urho3d.github.io/
+- Home: https://urho3d.io/
 - State: mature
 - Download: https://sourceforge.net/projects/urho3d/files/Urho3D/
 - Keyword: framework, 2D, 3D

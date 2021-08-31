@@ -3,7 +3,7 @@
 - Home: https://www.minetest.net/
 - Inspiration: Minecraft
 - State: mature
-- Download: https://www.minetest.net/downloads/
+- Download: https://www.minetest.net/downloads/, https://f-droid.org//packages/net.minetest.minetest/
 - Platform: Windows, Linux, macOS, Android
 - Keyword: framework, remake, content open, voxel
 - Code repository: https://github.com/minetest/minetest.git (@created 2011, @stars 5670, @forks 1314)

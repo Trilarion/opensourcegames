@@ -1,6 +1,6 @@
 # Hero of Allacrost
 
-- Home: http://allacrost.org
+- Home: https://web.archive.org/web/20201126135328/http://allacrost.org/
 - State: mature
 - Download: https://bitbucket.org/allacrost/allacrost/downloads/
 - Keyword: role playing, 2D

@@ -1,6 +1,6 @@
 # Stratagus
 
-- Home: https://wargus.github.io/stratagus.html
+- Home: https://stratagus.com/stratagus.html
 - State: mature
 - Platform: Windows, Linux, macOS
 - Keyword: game engine, strategy, real-time

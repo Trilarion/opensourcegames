@@ -13,6 +13,7 @@
 - **[ouzel](../ouzel.md)** (C, C++, Objective-C, 2-clause BSD, beta)
 - **[PyQt](../pyqt.md)** (C++, Python, GPL-3.0, Custom, mature)
 - **[Ren'Py](../renpy.md)** (C, Python, Ren'Py, LGPL-2.1, mature)
+- **[Shattered Pixel Dungeon](../shattered_pixel_dungeon.md)** (Java, GPL-3.0, mature)
 - **[Simon Tatham's Portable Puzzle Collection](../simon_tathams_portable_puzzle_collection.md)** (C, MIT, mature)
 - **[The Battle for Wesnoth](../the_battle_for_wesnoth.md)** (C, C++, Java, Python, Lua, GPL-2.0, mature)
 - **[Tux Paint](../tux_paint.md)** (C, C++, GPL-2.0, beta)

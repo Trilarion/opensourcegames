@@ -199,7 +199,6 @@ https://games.kde.org/old/kde_arcade.php
 https://gdevelop-app.com/
 https://github.blog/2014-01-06-github-game-off-ii-winners/
 https://github.blog/2021-05-19-ludum-dare-48-staff-picks/
-https://github.com/00-Evan/shattered-pixel-dungeon
 https://github.com/00-Evan/shattered-pixel-dungeon-gdx
 https://github.com/acedogblast/Project-Uranium-Godot
 https://github.com/adriengivry/overload
@@ -393,7 +392,6 @@ https://github.com/rds1983/Jord
 https://github.com/rds1983/Myra
 https://github.com/redomar/JavaGame
 https://github.com/Renanse/Ardor3D
-https://github.com/restorer/gloomy-dungeons-2
 https://github.com/RetroAchievements/RALibretro
 https://github.com/RetroAchievements/RAWeb
 https://github.com/rhgrant10/berserk

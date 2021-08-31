@@ -1,6 +1,6 @@
 # buggyGame
 
-- Home: https://fydo.net/projects/buggygame
+- Home: https://web.archive.org/web/20210125003448/https://fydo.net/projects/buggygame
 - State: beta, inactive since 2007
 - Keyword: action, content open, side-scrolling, space
 - Code language: Python

@@ -1,6 +1,6 @@
 # XorCurses
 
-- Home: http://jwm-art.net/?p=XorCurses
+- Home: https://web.archive.org/web/20200924115723/http://jwm-art.net/?p=XorCurses
 - Inspiration: XOR
 - State: beta, inactive since 2012
 - Platform: Linux

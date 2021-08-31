@@ -118,6 +118,7 @@
 - **[skifree.js](../skifreejs.md)** (JavaScript, MIT, mature, inactive since 2016)
 - **[Skrupel - Tribute Compilation](../skrupel-tribute_compilation.md)** (PHP, JavaScript, GPL-2.0, mature, inactive since 2011)
 - **[Smash](../smash.md)** (JavaScript, MIT, mature)
+- **[Sokoban](../sokoban.md)** (CoffeeScript, AGPL-3.0, mature)
 - **[Squiffy](../squiffy.md)** (JavaScript, MIT, mature)
 - **[Supaxl](../supaxl.md)** (JavaScript, MIT, mature)
 - **[Super Tilt Bro](../super_tilt_bro.md)** (Assembly, Python, WTFPL, mature)

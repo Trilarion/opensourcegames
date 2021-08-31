@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Dink_Smallwood#GNU_FreeDink
 - Inspiration: Dink Smallwood
 - State: mature, inactive since 2012
-- Play: https://play.freedink.org/
+- Play: https://web.archive.org/web/20201025225430/https://play.freedink.org/
 - Download: https://www.gnu.org/software/freedink/get, http://ftp.gnu.org/gnu/freedink/
 - Platform: Windows, Linux, macOS, Web
 - Keyword: adventure, remake, role playing, 2D, "content open (?) + original required (?)", top-down

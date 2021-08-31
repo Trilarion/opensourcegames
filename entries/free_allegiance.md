@@ -1,6 +1,6 @@
 # Free Allegiance
 
-- Home: https://www.freeallegiance.org/
+- Home: https://web.archive.org/web/20210807221323/https://www.freeallegiance.org/
 - Media: https://en.wikipedia.org/wiki/Allegiance_(video_game)#Community_continuation
 - Inspiration: Allegiance
 - State: mature

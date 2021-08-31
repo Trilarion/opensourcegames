@@ -3,7 +3,7 @@
 - Home: https://www.pokerth.net/, https://sourceforge.net/projects/pokerth/
 - Media: https://en.wikipedia.org/wiki/PokerTH
 - State: mature, inactive since 2017
-- Download: https://www.pokerth.net/download
+- Download: https://www.pokerth.net/app.php/download
 - Platform: Windows, Linux, macOS, Android
 - Keyword: strategy, online, poker
 - Code repository: https://github.com/pokerth/pokerth.git (@created 2012, @stars 354, @forks 152), https://svn.code.sf.net/p/pokerth/code (svn)

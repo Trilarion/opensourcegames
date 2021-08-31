@@ -1,9 +1,8 @@
 # Azimuth
 
-- Home: https://mdsteele.games/azimuth/
+- Home: https://web.archive.org/web/20210703111943/https://mdsteele.games/azimuth/
 - Inspiration: Metroidvania
 - State: mature
-- Download: https://mdsteele.games/azimuth/download.html
 - Platform: Windows, Linux, macOS
 - Keyword: adventure, content open, shooter, top-down
 - Code repository: https://github.com/mdsteele/azimuth.git (@created 2012, @stars 25, @forks 8)

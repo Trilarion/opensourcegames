@@ -1,6 +1,6 @@
 # CorsixTH
 
-- Home: http://corsixth.com/, http://forums.corsixth.com/
+- Home: http://corsixth.com/, https://web.archive.org/web/20191118152552/http://forums.corsixth.com/
 - Inspiration: Theme Hospital
 - State: mature
 - Download: https://github.com/CorsixTH/CorsixTH/releases

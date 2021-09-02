@@ -1,6 +1,6 @@
 # Pillows
 
-- Home: https://fydo.net/projects/pillows
+- Home: https://web.archive.org/web/20210125013414/https://fydo.net/projects/pillows
 - State: beta, inactive since 2007
 - Platform: Windows, Linux, macOS
 - Keyword: arcade, content open

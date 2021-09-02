@@ -472,7 +472,7 @@
 - **[TrueCraft](../truecraft.md)** (C#, MIT, beta, inactive since 2018)
 - **[Tumbly Towers](../tumbly_towers.md)** (Java, MIT, beta, inactive since 2017)
 - **[TurokEX](../turokex.md)** (C++, C, GPL-2.0, beta, inactive since 2014)
-- **[Tuxemon](../tuxemon.md)** (Python, GPL-3.0, mature)
+- **[Tuxemon](../tuxemon.md)** (Python, GPL-3.0, beta)
 - **[TVTower](../tvtower.md)** (BlitzMax, Lua, Custom, mature)
 - **[twin-e](../twin-e.md)** (C, GPL-2.0, beta, inactive since 2015)
 - **[TwinEngine](../twinengine.md)** (C, GPL-2.0, mature, inactive since 2015)

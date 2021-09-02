@@ -8,6 +8,7 @@
 - **[OpenITG](../openitg.md)** (C, C++, MIT, beta, inactive since 2017)
 - **[osu!](../osu.md)** (C#, MIT, beta)
 - **[Performous](../performous.md)** (C, C++, GPL-2.0, mature)
+- **[PianOli](../pianoli.md)** (Java, GPL-3.0, mature)
 - **[PyKaraoke](../pykaraoke.md)** (Python, LGPL-2.1, beta, inactive since 2011)
 - **[Sinatra](../sinatra.md)** (C, GPL-3.0, mature, inactive since 2008)
 - **[StepMania](../stepmania.md)** (C, C++, Lua, MIT, mature)

@@ -1,6 +1,6 @@
 # KMines
 
-- Home: https://kde.org/applications/games/org.kde.kmines, https://games.kde.org/game.php?game=kmines, https://docs.kde.org/stable5/en/kdegames/kmines/
+- Home: https://kde.org/applications/games/org.kde.kmines, https://games.kde.org/game.php?game=kmines, https://docs.kde.org/stable5/en/kmines/kmines/index.html
 - Inspiration: Minesweeper
 - State: mature
 - Platform: Linux

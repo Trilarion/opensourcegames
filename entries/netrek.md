@@ -3,7 +3,7 @@
 - Home: https://www.netrek.org/, https://sourceforge.net/projects/netrek/, http://mactrek.sourceforge.net/Welcome.html
 - Media: https://en.wikipedia.org/wiki/Netrek
 - State: mature, inactive since 2009
-- Download: https://www.netrek.org/downloads/, https://www.playnetrek.org/
+- Download: https://www.netrek.org/downloads/, http://www.playnetrek.org/
 - Platform: Windows, Linux, macOS
 - Keyword: action, multiplayer, online
 - Code repository: http://netrek.cvs.sourceforge.net (cvs)

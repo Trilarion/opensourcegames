@@ -1,5 +1,6 @@
 ftp://ftp.tuxpaint.org/unix/ (all of them)
 ftp://ftp.tuxpaint.org/unix/x/
+http://androidsoft.org/ (all of them)
 http://antongerdelan.net/blog/ (other projects besides TestDrive)
 http://cdetect.sourceforge.net/
 http://circularstudios.com/
@@ -185,6 +186,7 @@ https://en.wikipedia.org/wiki/MUD#Spread (all there)
 https://en.wikipedia.org/wiki/MUD_client (all there)
 https://enigma-dev.org/about.htm
 https://faq.tuxfamily.org/Games/En
+https://fede0d.github.io/games/ (all of them)
 https://fedoraproject.org/wiki/SIGs/Games#List_of_games_we_will_NOT_package
 https://flathub.org/apps/category/Game
 https://flathub.org/home (use it for Linux packaging)
@@ -201,8 +203,8 @@ https://github.blog/2014-01-06-github-game-off-ii-winners/
 https://github.blog/2021-05-19-ludum-dare-48-staff-picks/
 https://github.com/00-Evan/shattered-pixel-dungeon-gdx
 https://github.com/acedogblast/Project-Uranium-Godot
-https://github.com/adriengivry/overload
 https://github.com/adriengivry/Overload
+https://github.com/adriengivry/overload
 https://github.com/aloisdeniel/awesome-monogame
 https://github.com/Alzter/TuxBuilder
 https://github.com/amerkoleci/Vortice.Windows
@@ -223,7 +225,6 @@ https://github.com/bsmr-games (also contains copies)
 https://github.com/Calinou/awesome-gamedev
 https://github.com/CatacombGames/
 https://github.com/cflewis/Infinite-Mario-Bros
-https://github.com/Chluverman/android-gltron
 https://github.com/codenamecpp/carnage3d
 https://github.com/coelckers/Raze
 https://github.com/collections/game-engines (only OS)
@@ -556,6 +557,7 @@ https://sourceforge.net/projects/wwiig/
 https://sourceforge.net/projects/ztab/
 https://stabyourself.net/ (all projects there)
 https://stendhalgame.org/wiki/Marauroa
+https://stephensmith.itch.io/ (all of them)
 https://tangramgames.dk/games/ (all)
 https://threejs.org/
 https://unity.com/

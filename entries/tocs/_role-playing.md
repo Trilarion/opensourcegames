@@ -182,7 +182,7 @@
 - **[The Mana World](../the_mana_world.md)** (PHP, C++, GPL-2.0, mature)
 - **[TinTin++](../tintin++.md)** (C, GPL-3.0, mature)
 - **[Trinity Reign](../trinity_reign.md)** (C++, GPL-3.0, beta, inactive since 2013)
-- **[Tuxemon](../tuxemon.md)** (Python, GPL-3.0, mature)
+- **[Tuxemon](../tuxemon.md)** (Python, GPL-3.0, beta)
 - **[TuxKart](../tuxkart.md)** (C++, GPL-2.0, beta, inactive since 2004)
 - **[Ularn](../ularn.md)** (C, C++, GPL-2.0, mature, inactive since 2018)
 - **[UlDunAd](../uldunad.md)** (Python, GPL-3.0, beta, inactive since 2011)

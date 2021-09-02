@@ -1,6 +1,6 @@
 # Nox Imperii
 
-- Home: http://noximperii.com/
+- Home: https://web.archive.org/web/20200812112828/http://noximperii.com/
 - Inspiration: Escape Velocity, Naev
 - State: mature, inactive since 2016
 - Keyword: sports, content open, similar

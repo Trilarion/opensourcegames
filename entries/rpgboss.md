@@ -1,6 +1,6 @@
 # rpgboss
 
-- Home: https://rpgboss.com/
+- Home: https://web.archive.org/web/20210411074243/https://rpgboss.com/
 - State: beta, inactive since 2017
 - Download: https://github.com/rpgboss/rpgboss/releases
 - Platform: Windows, Linux, macOS

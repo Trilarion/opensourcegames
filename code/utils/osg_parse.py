@@ -130,6 +130,7 @@ class ValueWithComment:
         else:
             return '{}'.format(self.value)
 
+
 def parse(parser, transformer, content):
     tree = parser.parse(content)
     value = transformer.transform(tree)

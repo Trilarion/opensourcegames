@@ -1,6 +1,6 @@
 # Land of Fire
 
-- Home: http://landoffire.org/
+- Home: https://web.archive.org/web/20201108094318/http://landoffire.org/
 - State: beta (?)
 - Platform: Web
 - Keyword: role playing, multiplayer online + massive

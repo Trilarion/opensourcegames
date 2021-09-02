@@ -2,8 +2,9 @@
 
 - Home: https://www.tuxemon.org/
 - Inspiration: Pokémon
-- State: mature
+- State: beta
 - Download: https://www.tuxemon.org/download.html
+- Platform: Windows, Linux, macOS, Android
 - Keyword: remake, role playing, turn-based
 - Code repository: https://github.com/Tuxemon/Tuxemon.git (@created 2014, @stars 518, @forks 130)
 - Code language: Python

@@ -1,9 +1,9 @@
 # ReTux
 
-- Home: http://retux.nongnu.org, https://savannah.nongnu.org/projects/retux
+- Home: https://retux-game.github.io/, https://savannah.nongnu.org/projects/retux
 - Inspiration: Super Mario
 - State: mature, inactive since 2018
-- Download: http://retux.nongnu.org/download.html
+- Download: https://retux-game.github.io/download.html
 - Platform: Windows, Linux
 - Keyword: platform, 2D, content open
 - Code repository: https://git.savannah.nongnu.org/git/retux.git, http://cvs.savannah.nongnu.org:/web/retux (cvs)

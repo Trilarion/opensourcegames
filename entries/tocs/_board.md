@@ -13,6 +13,7 @@
 - **[GNU Go](../gnu_go.md)** (C, GPL-3.0, mature, inactive since 2011)
 - **[Hnefatafl](../hnefatafl.md)** (C, ISC, beta, inactive since 2014)
 - **[Holtz](../holtz.md)** (C++, GPL-2.0, mature)
+- **[Ithaka Board Game](../ithaka_board_game.md)** (Java, GPL-3.0, mature)
 - **[JSettlers](../jsettlers.md)** (Java, GPL-3.0, mature)
 - **[Magic Gardeners Tournament](../magic_gardeners_tournament.md)** (Python, GPL-2.0, beta, inactive since 2007)
 - **[OGS Mahjong](../ogs_mahjong.md)** (C++, GPL-3.0, mature, inactive since 2016)

@@ -1,6 +1,6 @@
 # OpenDominion
 
-- Home: https://beta.opendominion.net/
+- Home: https://www.opendominion.net/
 - Inspiration: Dominion
 - State: beta
 - Platform: Web

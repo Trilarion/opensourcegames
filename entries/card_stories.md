@@ -4,7 +4,7 @@
 - State: beta, inactive since 2012
 - Platform: Web
 - Keyword: cards, puzzle, content open, multiplayer online
-- Code repository: https://github.com/farsides/cardstories.git (@created 2011, @stars 9, @forks 3), https://gitorious.org/cardstories/cardstories.git (read-only)
+- Code repository: https://github.com/farsides/cardstories.git (@created 2011, @stars 9, @forks 3)
 - Code language: JavaScript, Python
 - Code license: AGPL-3.0
 - Code dependency: Twisted

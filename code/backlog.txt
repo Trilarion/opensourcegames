@@ -284,6 +284,7 @@ https://github.com/GNOME/quadrapassel
 https://github.com/godlikepanos/anki-3d-engine
 https://github.com/godot-extended-libraries/godot-next
 https://github.com/godot-mega-man/Mega-Man-Engine
+https://github.com/godotengine/awesome-godot#games
 https://github.com/godotengine/escoria
 https://github.com/godotengine/godot-design
 https://github.com/Gramps/GodotSteam

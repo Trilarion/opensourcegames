@@ -3025,14 +3025,6 @@
    "<a href=\"https://github.com/infidel-/cult.git\">Source</a> - Haxe, JavaScript - GPL-3.0"
   ],
   [
-   "Evol Online (<a href=\"http://evolonline.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/evol_online.md\">entry</a>)",
-   "",
-   "<a href=\"http://evolonline.org/manaplus\">Link</a>",
-   "mature / active",
-   "role playing, multiplayer online + massive",
-   "<a href=\"https://gitlab.com/evol/evol-all.git\">Source</a> - C - GPL-3.0"
-  ],
-  [
    "Excellent Bifurcation (<a href=\"https://archive.org/details/ExcellentFix\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/excellent_bifurcation.md\">entry</a>)",
    "Abstract vertical shooter with two sides to play on.",
    "",
@@ -4027,7 +4019,7 @@
   [
    "GNU Chess (<a href=\"https://www.gnu.org/software/chess/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/gnu_chess.md\">entry</a>)",
    "Can be used together with a graphical frontend such as..",
-   "<a href=\"http://ftp.thunix.net/gnu-ftp/chess/\">Link</a>",
+   "<a href=\"http://ftp.gnu.org/gnu/chess/\">Link</a>",
    "mature / inactive since 2017",
    "game engine, strategy, chess, content open",
    "<a href=\"http://svn.savannah.gnu.org/svn/chess/\">Source</a> - C++ - GPL-3.0"
@@ -4309,8 +4301,8 @@
    "",
    "<a href=\"http://uhexen2.sourceforge.net/download.html\">Link</a>",
    "mature / active",
-   "action, remake, shooter",
-   "<a href=\"https://svn.code.sf.net/p/uhexen2/code\">Source</a> - C - GPL-2.0"
+   "action, remake, content original required, shooter",
+   "<a href=\"https://github.com/sezero/uhexen2.git\">Source</a> - C - GPL-2.0"
   ],
   [
    "Hardwar (<a href=\"https://hardwar.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/hardwar.md\">entry</a>)",
@@ -4494,7 +4486,7 @@
    "<a href=\"http://hhexen.sourceforge.net/hhexen.html#s2\">Link</a>",
    "mature / inactive since 2013",
    "strategy, content commercial + original required, first-person, shooter",
-   "<a href=\"https://svn.code.sf.net/p/hhexen/code\">Source</a> - C - GPL-2.0"
+   "<a href=\"https://github.com/sezero/hhexen.git\">Source</a> - C - GPL-2.0"
   ],
   [
    "Hnefatafl (<a href=\"https://web.archive.org/web/20180901233504/http://hnefatafl.se/ (Swedish)\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/hnefatafl.md\">entry</a>)",
@@ -5087,14 +5079,6 @@
    "beta / active",
    "remake, strategy",
    "<a href=\"https://github.com/ahmetkasif/kmaxit.git\">Source</a> - Java - MIT"
-  ],
-  [
-   "KKnD (<a href=\"https://www.kknd-game.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/kknd.md\">entry</a>)",
-   "See also https://github.com/gp-alex/OpenKKND",
-   "",
-   "beta / active",
-   "remake, content commercial + original required (?)",
-   "<a href=\"https://github.com/IceReaper/KKnD.git\">Source</a> - C# - GPL-3.0"
   ],
   [
    "Klooni 1010! (<a href=\"https://lonami.dev/klooni/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/klooni_1010.md\">entry</a>)",
@@ -5729,6 +5713,14 @@
    "<a href=\"https://github.com/mana/manaserv.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
+   "ManaPlus (<a href=\"https://manaplus.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/manaplus.md\">entry</a>)",
+   "Is this the client? Where is the server?",
+   "",
+   "mature / active",
+   "role playing, 2D, multiplayer online + massive",
+   "<a href=\"https://gitlab.com/evol/evol-all.git\">Source</a> - C - GPL-3.0"
+  ],
+  [
    "ManiaDrive (<a href=\"http://maniadrive.raydium.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/maniadrive.md\">entry</a>)",
    "[Discussion of the music..",
    "<a href=\"http://maniadrive.raydium.org/index.php?downloads=yes\">Link</a>",
@@ -6137,7 +6129,7 @@
    "<a href=\"https://github.com/llopisdon/monsters_and_mushrooms.git\">Source</a> - Python - GPL-2.0"
   ],
   [
-   "Monstrosity (<a href=\"http://monstrosity.fireheadfred.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/monstrosity.md\">entry</a>)",
+   "Monstrosity (<a href=\"https://web.archive.org/web/20190529124313/http://monstrosity.fireheadfred.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/monstrosity.md\">entry</a>)",
    "Slay monsters, cast spells and collect keys to escape an..",
    "",
    "mature / active",
@@ -6405,7 +6397,7 @@
    "",
    "<a href=\"https://f-droid.org/de/packages/com.netthreads.android.noiz2/\">Link</a>",
    "mature / inactive since 2015",
-   "action, shooter, 2D",
+   "action, 2D, shooter",
    "<a href=\"https://github.com/alistairrutherford/noiz2-droid.git\">Source</a> - Java - 2-clause BSD"
   ],
   [
@@ -7111,6 +7103,14 @@
    "beta / active",
    "game engine, remake, simulation, content commercial + original required",
    "<a href=\"https://github.com/tonihele/OpenKeeper.git\">Source</a> - Java - GPL-3.0"
+  ],
+  [
+   "OpenKrush (<a href=\"https://www.kknd-game.com/index.php\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/openkrush.md\">entry</a>)",
+   "",
+   "",
+   "beta / active",
+   "remake, content commercial + original required",
+   "<a href=\"https://github.com/IceReaper/OpenKrush.git\">Source</a> - C# - GPL-3.0"
   ],
   [
    "OpenLara (<a href=\"https://github.com/XProger/OpenLara\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/openlara.md\">entry</a>)",
@@ -7845,7 +7845,7 @@
    "",
    "<a href=\"https://f-droid.org/de/packages/com.nicobrailo.pianoli/\">Link</a>",
    "mature / active",
-   "for kids, music",
+   "music, for kids",
    "<a href=\"https://github.com/nicolasbrailo/PianOli.git\">Source</a> - Java - GPL-3.0"
   ],
   [
@@ -8517,7 +8517,7 @@
    "",
    "<a href=\"https://f-droid.org/de/packages/com.kaeruct.raumballer/\">Link</a>",
    "mature / active",
-   "action, shooter, 2D, arcade",
+   "action, arcade, 2D, shooter",
    "<a href=\"https://github.com/KaeruCT/RaumBaller.git\">Source</a> - Java - GPL-3.0"
   ],
   [
@@ -8685,7 +8685,7 @@
    "",
    "<a href=\"https://f-droid.org/de/packages/ro.hume.cosmin.retrostack/\">Link</a>",
    "mature / active",
-   "skill, arcade",
+   "arcade, skill",
    "<a href=\"https://codeberg.org/cosmin/retro-stack-gdx.git\">Source</a> - Kotlin - GPL-3.0"
   ],
   [
@@ -9645,7 +9645,7 @@
    "",
    "<a href=\"https://f-droid.org/de/packages/de.fgerbig.spacepeng/\">Link</a>",
    "mature / inactive since 2017",
-   "action, space, shooter",
+   "action, shooter, space",
    "<a href=\"https://gitlab.com/fgerbig/SpacePeng.git\">Source</a> - Java - GPL-3.0"
   ],
   [
@@ -10777,8 +10777,8 @@
    "<a href=\"https://gitlab.com/osgames/tumiki.git\">Source</a> - D, C++ - 2-clause BSD"
   ],
   [
-   "Turious (<a href=\"https://gitorious.org/turious/turious/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/turious.md\">entry</a>)",
-   "",
+   "Turious (<a href=\"https://gitlab.com/osgames/turious\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/turious.md\">entry</a>)",
+   "Originally hosted on gitorious.org/turious/turious",
    "",
    "beta / inactive since 2014",
    "strategy, turn-based",

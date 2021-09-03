@@ -3,7 +3,7 @@
 - Home: https://www.gnu.org/software/chess/, http://savannah.gnu.org/projects/chess/
 - Media: https://en.wikipedia.org/wiki/GNU_Chess
 - State: mature, inactive since 2017
-- Download: http://ftp.thunix.net/gnu-ftp/chess/
+- Download: http://ftp.gnu.org/gnu/chess/
 - Platform: Windows, Linux, macOS
 - Keyword: game engine, strategy, chess, content open
 - Code repository: http://svn.savannah.gnu.org/svn/chess/ (svn), http://cvs.savannah.gnu.org:/sources/chess (cvs)

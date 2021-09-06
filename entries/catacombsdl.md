@@ -9,8 +9,6 @@
 - Code license: GPL-2.0
 - Developer: Braden Obrzut
 
-Sources of [Catacomb](https://github.com/CatacombGames/TheCatacomb).
-
 ## Building
 
 - Build system: CMake

@@ -168,3 +168,8 @@ WolfenDoom (https://github.com/Realm667/WolfenDoom): All rights reserved
 XQuest 2 (http://www.swallowtail.org/xquest/, http://www.swallowtail.org/xquest/xquest_1.3_src.tar.gz): License is not really open source (see LICENSE.DOC in https://web.archive.org/web/20170320015957/http://www.swallowtail.org/xquest/xquest_1.3_src.tar.gz)
 xrick (http://www.bigorno.net/xrick): No open source license/unclear license (see file README in http://www.bigorno.net/xrick/xrick-021212.zip)
 zedragon (https://github.com/charlierobson/zedragon.git): License not found, Assembly, not sure which OS is supported, no release, not much guidance
+Stunt Car Racer Remake (http://stuntcarracerwin32.bravesites.com, https://sourceforge.net/projects/stuntcarremake/, https://git.code.sf.net/p/stuntcarremake/code): License unclear, author confirmed that there is not license and didn't answer when asked if there could one be added (see https://github.com/Trilarion/opensourcegames/issues/244)
+Yuris Revenge (https://github.com/cookgreen/Yuris-Revenge): Mod to OpenRA
+Space Opera Ruby (https://github.com/Cortrah/SpaceOperaRuby): No license given, too small
+Receiver (https://github.com/David20321/7DFPS, http://www.wolfire.com/receiver): All rights reserved.
+Equestria at War mod (https://github.com/EaW-Team/equestria_dev): Mod for Equestria at War

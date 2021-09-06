@@ -1,5 +1,5 @@
 """
-Everything specific to the Github API (via PyGithub).
+Everything specific to the Github API (via PyGithub - https://pygithub.readthedocs.io/en/latest/index.html).
 """
 
 from github import Github, GithubException
@@ -53,3 +53,12 @@ def retrieve_repo_info(repos, token=None):
     if single_repo:
         result = result[0]
     return result
+
+
+def get_user(login, token=None):
+    if token:
+        g = Github(token)
+    else:
+        g = Github()
+    user = g.get_user(login)
+    return user

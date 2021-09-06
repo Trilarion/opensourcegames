@@ -314,12 +314,13 @@ def clean_lgw_content():
     entries = remove_parenthized_content(entries, ('assets license', 'code language', 'code license', 'engine', 'genre', 'last active', 'library'))
     entries = remove_prefix_suffix(entries, ('code license', 'assets license'), ('"', 'GNU', ), ('"', '[3]', '[2]', '[1]', 'only'))
     entries = replace_content(entries, ('code license', 'assets license'), 'GPL', ('General Public License', ))
-    entries = replace_content(entries, ('code license', 'assets license'), 'GPL-2.0', ('GPLv2', ))  # for LGW GPLv2 would be the correct writing
+    entries = replace_content(entries, ('code license', 'assets license'), 'GPL-2', ('GPLv2', ))  # for LGW GPLv2 would be the correct writing
     entries = replace_content(entries, ('code license', 'assets license'), 'GPL-2', ('GPLv2', 'GPL v2', 'GPL version 2.0', 'GPL 2.0', 'General Public License v2', 'GPL version 2', 'Gplv2', 'GPL 2'))
-    entries = replace_content(entries, ('code license', 'assets license'), 'GPL-2', ('GPL v2 or later', 'GPL 2+', 'GPL v2+', 'GPL version 2 or later'))
-    entries = replace_content(entries, ('code license', 'assets license'), 'GPL-3.0', ('GPLv3', ))  # for LGW GPLv3 would be the correct writing
+    entries = replace_content(entries, ('code license', 'assets license'), 'GPL-2', ('GPL v2 or later', 'GPL 2+', 'GPL v2+', 'GPLv2+', 'GPL version 2 or later'))
+    entries = replace_content(entries, ('code license', 'assets license'), 'GPL-3', ('GPLv3', ))  # for LGW GPLv3 would be the correct writing
     entries = replace_content(entries, ('code license', 'assets license'), 'GPL-3', ('GPL v3', 'GNU GPL v3', 'GPL 3'))
-    entries = replace_content(entries, ('code license', 'assets license'), 'GPL-3', ('GPL v3+', 'GPL v.3 or later', 'GPL v3 or later'))
+    entries = replace_content(entries, ('code license', 'assets license'), 'GPL-3', ('GPL v3+', 'GPLv3+', 'GPL v.3 or later', 'GPL v3 or later'))
+    entries = replace_content(entries, ('code license', 'assets license'), 'AGPL-3', ('AGPLv3', 'AGPL', 'Affero General Public License v3.0'))
     entries = replace_content(entries, ('code license', 'assets license'), 'Public domain', ('public domain', 'Public Domain'))
     entries = replace_content(entries, ('code license', 'assets license'), 'zlib', ('zlib/libpng license', 'Zlib License'))
     entries = replace_content(entries, ('code license', 'assets license'), 'BSD', ('Original BSD License', ))
@@ -376,4 +377,4 @@ if __name__ == "__main__":
     # parse_lgw_content()
 
     # stage three
-    clean_lgw_content()
+    # clean_lgw_content()

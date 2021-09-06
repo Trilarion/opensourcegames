@@ -40,7 +40,7 @@ def collect_github_entries():
     # loop over entries
     files = []
     for entry in entries:
-        urls = [x for x in entry['Code repository'] if x.startswith(prefix)]
+        urls = [x for x in entry.get('Code repository', []) if x.startswith(prefix)]
         if urls:
             files.append(entry['File'])
 
@@ -78,7 +78,7 @@ def github_import():
             for repo in repos:
                 print('  GH repo {}'.format(repo))
 
-                info = osg_github.retrieve_repo_info(repo, private_properties['github-token'])
+                info = osg_github.retrieve_repo_info(repo, token=private_properties['github-token'])
 
                 new_comments = []
                 # is archived
@@ -174,10 +174,56 @@ def github_import():
         print('developers database updated')
 
 
+def github_starring_synchronization():
+    """
+
+    :return:
+    """
+    private_properties = json.loads(utils.read_text(c.private_properties_file))
+
+    files = json.loads(utils.read_text(gh_entries_file))
+
+    # loop over each entry and collect list of repos
+    all_repos = []
+    for index, file in enumerate(files):
+
+        # read entry
+        entry = osg.read_entry(file)
+
+        # get repos
+        code_repositories = entry.get('Code repository', [])
+        repos = [x.value for x in code_repositories if x.startswith(prefix)]
+        repos[0] += ' @add'
+        repos = [x for x in repos if '@add' in x]
+        repos = [x.split(' ')[0] for x in repos]
+        repos = [x for x in repos if x not in ignored_repos]
+        all_repos.extend(repos)
+    all_repos = set(all_repos)
+    print('found {} Github repos'.format(len(all_repos)))
+
+    # get my Github user
+    user = osg_github.get_user(private_properties['github-name'], token=private_properties['github-token'])
+
+    # get starred repos
+    starred = user.get_starred()
+    starred = [repo.clone_url for repo in starred]
+    starred = set(starred)
+    print('starred {} Github repos'.format(len(starred)))
+
+    # and now the difference
+    unstarred = all_repos - starred
+    print('not yet starred {} repos'.format(len(unstarred)))
+    print(', '.join(unstarred))
+
+
+
 if __name__ == "__main__":
 
     # collect entries
     # collect_github_entries()
 
     # import information from gh
-    github_import()
+    # github_import()
+
+    # which github repos haven't I starred
+    github_starring_synchronization()

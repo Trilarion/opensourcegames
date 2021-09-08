@@ -22,6 +22,7 @@
 - **[Candy Memory](../candy_memory.md)** (Java, GPL-2.0, mature, inactive since 2018)
 - **[CAVEZ of PHEAR](../cavez_of_phear.md)** (C, GPL-3.0, beta, inactive since 2011)
 - **[Critical Velocity](../critical_velocity.md)** (Java, Apache-2.0, mature, inactive since 2017)
+- **[Cross The Road](../cross_the_road.md)** (Elm, AGPL-3.0, mature)
 - **[Destination Sol](../destination_sol.md)** (Java, Apache-2.0, mature)
 - **[Dodge](../dodge.md)** (Java, GPL-3.0, mature, inactive since 2012)
 - **[FLTK Recycling Game!](../fltk_recycling_game.md)** (C++, LGPL-2.1, mature, inactive since 2014)

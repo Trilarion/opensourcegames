@@ -3,7 +3,7 @@
 - Home: https://github.com/danirod/jumpdontdie
 - State: mature
 - Platform: Windows, Linux, macOS
-- Keyword: plattform
+- Keyword: platform
 - Code repository: https://github.com/danirod/jumpdontdie.git
 - Code language: Java
 - Code license: GPL-3.0

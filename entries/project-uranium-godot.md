@@ -2,7 +2,7 @@
 
 - Home: https://github.com/acedogblast/Project-Uranium-Godot, https://github.com/acedogblast/Project-Uranium-Godot/wiki
 - Inspiration: Pokemon Uranium
-- State: beta 
+- State: beta
 - Platform: Windows, Linux, macOS
 - Keyword: role playing, content commercial + original required
 - Code repository: https://github.com/acedogblast/Project-Uranium-Godot.git

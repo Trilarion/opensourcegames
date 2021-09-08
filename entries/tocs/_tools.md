@@ -5,6 +5,7 @@
 - **[AutoREALM](../autorealm.md)** (C++, GPL-3.0, mature)
 - **[Bt Builder](../bt_builder.md)** (C, C++, GPL-3.0, beta)
 - **[C.Y.O. Adventures, text game generator](../cyo_adventures_text_game_generator.md)** (Ada, GPL-2.0, beta, inactive since 2012)
+- **[Cartographer](../cartographer.md)** (GDScript, Apache-2.0, mature)
 - **[CBoard](../cboard.md)** (C, GPL-2.0, beta, inactive since 2018)
 - **[D-Fend Reloaded](../d-fend_reloaded.md)** (Pascal, GPL-3.0, mature, inactive since 2015)
 - **[Dedalus](../dedalus.md)** (JavaScript, GPL-2.0, beta, inactive since 2018)

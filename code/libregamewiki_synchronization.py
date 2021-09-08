@@ -42,13 +42,13 @@ lgw_name_aliases = {'Eat the Whistle': 'Eat The Whistle', 'Scorched 3D': 'Scorch
                     'TORCS': 'TORCS, The Open Racing Car Simulator', 'Vertigo (game)': 'Vertigo',
                     'XInvaders3D': 'XInvaders 3D', 'LambdaRogue': 'LambdaRogue: The Book of Stars',
                     'Maniadrive': 'ManiaDrive',
-                    'Which Way Is Up': 'Which Way Is Up?'}
+                    'Which Way Is Up': 'Which Way Is Up?', 'CannonSmash': 'Cannon Smash', 'UFO:Alien Invasion': 'UFO: Alien Invasion'}
 lgw_ignored_entries = ['Hetris', '8 Kingdoms', 'Antigravitaattori', 'Arena of Honour', 'Arkhart', 'Ascent of Justice',
                        'Balazar III', 'Balder3D', 'Barbie Seahorse Adventures', 'Barrage', 'Gnome Batalla Naval',
                        'Blocks',
                        'Brickshooter', 'Bweakfwu', 'Cheese Boys', 'Clippers', 'Codewars', 'CRAFT: The Vicious Vikings',
-                       'DQM', 'EmMines', 'Eskimo-run', 'Feuerkraft', 'Fight or Perish', 'Flatland', 'Forest patrol',
-                       'Free Reign', 'GalaxyMage',
+                       'DQM', 'EmMines', 'Eskimo-run', 'Farlands', 'Feuerkraft', 'Fight or Perish', 'Flatland', 'Forest patrol',
+                       'Flare: Empyrean Campaign', 'Free Reign', 'GalaxyMage',
                        'Gloss', 'GRUB Invaders', 'Howitzer Skirmish', 'Imperium: Sticks', 'Interstate Outlaws',
                        'GNOME Games', 'KDE Games', 'LegacyClone', 'Memonix', 'Ninjapix', 'Neverputt', 'Militia Defense',
                        'Sudoku86',
@@ -142,23 +142,23 @@ if __name__ == "__main__":
     print('mandatory lgw fields: {}'.format(sorted(list(mandatory_fields))))
 
     # read our database
-    our_entries = osg.assemble_infos()
+    our_entries = osg.read_entries()
     print('{} entries with us'.format(len(our_entries)))
 
     # just the names
     lgw_names = set([x['name'] for x in lgw_entries])
-    our_names = set([x['name'] for x in our_entries])
+    our_names = set([x['Title'] for x in our_entries])
     common_names = lgw_names & our_names
     lgw_names -= common_names
     our_names -= common_names
     print('{} in both, {} only in LGW, {} only with us'.format(len(common_names), len(lgw_names), len(our_names)))
 
     # find similar names among the rest
-    print('similar names')
+    print('similar names (them - us')
     for lgw_name in lgw_names:
         for our_name in our_names:
             if osg.name_similarity(lgw_name, our_name) > similarity_threshold:
-                print('{} - {}'.format(lgw_name, our_name))
+                print('"{}" - "{}"'.format(lgw_name, our_name))
 
     newly_created_entries = 0
     # iterate over their entries
@@ -168,7 +168,7 @@ if __name__ == "__main__":
 
         is_included = False
         for our_entry in our_entries:
-            our_name = our_entry['name']
+            our_name = our_entry['Title']
 
             # find those that entries in LGW that are also in our database and compare them
             if lgw_name == our_name:
@@ -177,6 +177,8 @@ if __name__ == "__main__":
                 name = lgw_name
 
                 p = ''
+
+                # TODO key names have changed on our side
 
                 # platform
                 key = 'platform'
@@ -212,6 +214,7 @@ if __name__ == "__main__":
 
         if not is_included:
             # a new entry, that we have never seen, maybe we should make an entry of our own
+            # TODO we could use the write capabilities to write the entry in our own format, the hardcoded format here might be brittle, on the other hand we can also write slightly wrong stuff here without problems
 
             if newly_created_entries >= maximal_newly_created_entries:
                 continue
@@ -228,9 +231,6 @@ if __name__ == "__main__":
 
             # add name
             entry = '# {}\n\n'.format(lgw_name)
-
-            # add empty description
-            entry += '_{}_\n\n'.format(lgw_entry['description'])
 
             # empty home (mandatory on our side)
             home = lgw_entry.get('home', None)
@@ -250,7 +250,7 @@ if __name__ == "__main__":
                 keywords.append('open content')
             keywords.sort(key=str.casefold)
             if keywords:
-                entry += '- Keywords: {}\n'.format(', '.join(keywords))
+                entry += '- Keyword: {}\n'.format(', '.join(keywords))
 
             # code repository (mandatory but not scraped from lgw)
             entry += '- Code repository: {}\n'.format(lgw_entry.get('repo', ''))
@@ -271,7 +271,7 @@ if __name__ == "__main__":
             code_dependencies.extend(lgw_entry.get('library', []))
             code_dependencies.sort(key=str.casefold)
             if code_dependencies:
-                entry += '- Code dependencies: {}\n'.format(', '.join(code_dependencies))
+                entry += '- Code dependency: {}\n'.format(', '.join(code_dependencies))
 
             # assets licenses (only if existing)
             if 'assets license' in lgw_entry:
@@ -280,14 +280,19 @@ if __name__ == "__main__":
                 licenses.sort(key=str.casefold)
                 entry += '- Assets license: {}\n'.format(', '.join(licenses))
 
+            # developer
+            if 'developer' in lgw_entry:
+                entry += '- Developer: {}\n'.format(', '.join(lgw_entry['developer']))
+
+            # add empty description (not anymore)
+            entry += '\n_{}_\n\n'.format(lgw_entry['description'])
+
             # external links
             ext_links = lgw_entry['external links']
             if ext_links:
                 entry += '\nLinks: {}\n'.format('\n '.join(['{}: {}'.format(x[1], x[0]) for x in ext_links]))
 
-            # free text
-            if 'developer' in lgw_entry:
-                entry += '\nDeveloper: {}\n'.format(', '.join(lgw_entry['developer']))
+            # linux packages
             if 'linux-packages' in lgw_entry:
                 entry += '{}\n'.format(lgw_entry['linux-packages'])
 

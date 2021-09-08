@@ -78,6 +78,7 @@ language_urls = {
     'Ada': 'https://en.wikipedia.org/wiki/Ada_(programming_language)',
     'AngelScript': 'https://en.wikipedia.org/wiki/AngelScript',
     'Assembly': 'https://en.wikipedia.org/wiki/Assembly_language',
+    'AWK': 'https://en.wikipedia.org/wiki/AWK',
     'Basic': 'https://en.wikipedia.org/wiki/BASIC',
     'Blender Script': 'https://en.wikipedia.org/wiki/Blender_(software)',
     'BlitzMax': 'https://en.wikipedia.org/wiki/Blitz_BASIC',

@@ -8,8 +8,6 @@ http://cyxdown.free.fr/bs/
 http://cyxdown.free.fr/f2b/
 http://dead-code.org/home/
 http://e-adventure.e-ucm.es/login/index.php (games of eAdventure)
-https://github.com/gongminmin/KlayGE
-https://github.com/rds1983/Myra
 http://ethernet.wasted.ch/
 http://evolonline.org/about
 http://game-editor.com/Main_Page
@@ -22,7 +20,6 @@ http://icculus.org/
 http://icculus.org/asciiroth/
 http://icculus.org/avp/
 http://icculus.org/bitstream/
-http://icculus.org/blackshades/
 http://icculus.org/d2x/
 http://icculus.org/freespace2/
 http://icculus.org/freyja/
@@ -61,6 +58,7 @@ http://sumwars.org/wiki/Main_Page
 http://svn.assembla.com/svn/gdpl/
 http://turbu-rpg.com/
 http://web.archive.org/web/20071218214256/http://users.tkk.fi/~eye/roguelike/nethack.html
+http://wiki.gp2x.org/articles/g/a/m/Category:Games.html (all of them)
 http://wiki.scummvm.org/index.php/HOWTO-Fangames
 http://ww12.atomicgameengine.com
 http://www.13thmonkey.org/~boris/jgame/
@@ -147,7 +145,6 @@ https://arcade.academy/
 https://archive.codeplex.com/?p=turnota
 https://archive.codeplex.com/?p=voxeliq
 https://archive.org/details/Gna_code_hosting (all of them)
-https://armory3d.org/
 https://awesomeopensource.com/categories/games
 https://blenderartists.org/t/devils-pinball/552785
 https://blends.debian.org/games/tasks/
@@ -170,7 +167,6 @@ https://edu.kde.org/
 https://empiredirectory.net/
 https://empiredirectory.net/index.php/downloads/viewdownload/6-server-software/13-empire-server
 https://emulation.gametechwiki.com/index.php/Main_Page
-https://sr.ht/projects?search=%23game
 https://en.wikipedia.org/w/index.php?title=GNU_Backgammon&action=edit&redlink=1
 https://en.wikipedia.org/w/index.php?title=Golden_Age_of_Civilizations&action=edit&redlink=1
 https://en.wikipedia.org/w/index.php?title=Kdegames&action=edit&redlink=1
@@ -201,11 +197,6 @@ https://gamejolt.com/ (search there)
 https://games.kde.org/ (all of them)
 https://games.kde.org/old/kde_arcade.php
 https://gdevelop-app.com/
-https://github.com/Garux/netradiant-custom
-https://github.com/polymonster/pmtech
-https://github.com/Legion-Engine/Legion-Engine
-https://github.com/PixelGuys/Cubyz
-https://github.com/KranX/Vangers
 https://github.blog/2014-01-06-github-game-off-ii-winners/
 https://github.blog/2021-05-19-ludum-dare-48-staff-picks/
 https://github.com/aloisdeniel/awesome-monogame
@@ -255,6 +246,7 @@ https://github.com/gamearians
 https://github.com/GamedevFramework/gf
 https://github.com/gan74/Yave
 https://github.com/GarageGames/Torque3D
+https://github.com/Garux/netradiant-custom
 https://github.com/GDQuest/godot-visual-effects
 https://github.com/Gforcex/OpenGraphic (all open source game engines there)
 https://github.com/GlPortal/RadixEngine
@@ -266,6 +258,7 @@ https://github.com/godot-mega-man/Mega-Man-Engine
 https://github.com/godotengine/awesome-godot#games
 https://github.com/godotengine/escoria
 https://github.com/godotengine/godot-design
+https://github.com/gongminmin/KlayGE
 https://github.com/Gramps/GodotSteam
 https://github.com/grantjenks/free-python-games (check all)
 https://github.com/guillaumechereau/goxel
@@ -296,6 +289,7 @@ https://github.com/kidscancode/circle_jump
 https://github.com/kimkulling/osre
 https://github.com/klaussilveira/ioquake3.js
 https://github.com/Kosmonaut3d/DeferredEngine
+https://github.com/KranX/Vangers
 https://github.com/kyzfrintin/Godot-Mixing-Desk
 https://github.com/Legion-Engine/Legion-Engine
 https://github.com/LgLinus/StrategyGame
@@ -535,6 +529,7 @@ https://sourceforge.net/projects/wme/
 https://sourceforge.net/projects/wowrl/
 https://sourceforge.net/projects/wwiig/
 https://sourceforge.net/projects/ztab/
+https://sr.ht/projects?search=%23game
 https://stabyourself.net/ (all projects there)
 https://stendhalgame.org/wiki/Marauroa
 https://stephensmith.itch.io/ (all of them)

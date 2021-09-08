@@ -44,11 +44,14 @@ Eleconics (https://sourceforge.net/projects/eleconics/): No license found
 Element Games Engine (https://github.com/fredwen2008/Element-Games-Engine): No license information
 EmMines (http://eaglemode.sourceforge.net/): Part of a too large application (eaglemode). Could not access Source code. Maybe later.
 Entombed! (http://www.newbreedsoftware.com/entombed/, ftp://ftp.tuxpaint.org/unix/x/entombed/entombed-2007.07.04.tar.gz): Game very small
+Equestria at War mod (https://github.com/EaW-Team/equestria_dev): Mod for Equestria at War
 Eskimo-run (https://sourceforge.net/projects/eskimo-run): Very early development. Inactive for many years.
 EXILE (http://forums.datarealms.com/viewtopic.php?f=82&t=19266, https://github.com/Geti/EXILE.git): Early development stage
+Farlands (https://github.com/D00Med/farlands): subgame/mod for Minetest
 Feuerkraft (http://www.nongnu.org/feuerkraft, http://savannah.nongnu.org/projects/feuerkraft/): Very early development. Inactive since a long time.
 Fight or Perish (http://www.newbreedsoftware.com/fop/): Very early development. Inactive since a long time.
 Fight Or Perish (http://www.newbreedsoftware.com/fop/, ftp://ftp.tuxpaint.org/unix/x/fop/src/fop-0.5.tar.gz): Early development stage
+Flare: Empyrean Campaign (http://flarerpg.org/index.php/mods/flare-empyrean/): Mod/scenario to Flare
 Flatland (http://idusale.tk/juegos/Flatland.html): Not available anymore
 fleet0ps (https://sourceforge.net/projects/fleet0ps/): Very early development
 Football Manager (https://github.com/autismuk/Football-Manager.git): Very early development stage
@@ -131,6 +134,7 @@ pyspaceinvaders (https://github.com/map0logo/pyspaceinvaders.git): Too small
 PyTouhou (http://pytouhou.linkmauve.fr/,http://hg.linkmauve.fr/touhou): Sources not available anymore
 Racer (http://racer.sourceforge.net/, http://sourceforge.net/projects/racer/): Very early development, Inactive
 realmforge (https://sourceforge.net/projects/realmforge/): Went commercial
+Receiver (https://github.com/David20321/7DFPS, http://www.wolfire.com/receiver): All rights reserved.
 Robotypo (http://robotypo.appspot.com/index.html, https://code.google.com/archive/p/robotypo/): Very early development, No license, long abandoned
 RPG Paper Maker (http://rpg-paper-maker.com/?i=1, https://github.com/RPG-Paper-Maker/RPG-Paper-Maker.git): Closed, proprietary source, usage free for non-commercial use
 Ruby OMF 2097 Remake (http://rubyomf2097.rubyforge.org/, svn://rubyforge.org/var/svn/rubyomf2097): No source code found, web site offline
@@ -145,10 +149,12 @@ Snipes (https://www.vogons.org/viewtopic.php?f=7&t=49073, https://github.com/Dav
 Sokoban (https://sourceforge.net/projects/sokoban/): Proprietary license
 Solar Empire (https://sourceforge.net/projects/solar-empire/, https://git.code.sf.net/p/solar-empire/code): No license found
 Solaris (https://sourceforge.net/projects/solaristhegame/, https://svn.code.sf.net/p/solaristhegame/code/): Very early development stage
+Space Opera Ruby (https://github.com/Cortrah/SpaceOperaRuby): No license given, too small
 Space Station 14 (http://www.spacestation14.com/): Offline, contains no clear game
 Spaceship Duel (https://archive.codeplex.com/?p=spaceshipduel, https://spaceshipduel.codeplex.com/SourceControl/latest): Cannot download archive from codeplex
 SSTPong (http://sstpong.sourceforge.net/, https://sourceforge.net/projects/sstpong/): Very early development
 Starlane Empire (https://gna.org/projects/starlane/, http://cvs.gna.org/cvsweb/starlane/?cvsroot=starlane): No sources available, see issue #18, gna.org lost
+Stunt Car Racer Remake (http://stuntcarracerwin32.bravesites.com, https://sourceforge.net/projects/stuntcarremake/, https://git.code.sf.net/p/stuntcarremake/code): License unclear, author confirmed that there is not license and didn't answer when asked if there could one be added (see https://github.com/Trilarion/opensourcegames/issues/244)
 Styx (http://retrospec.sgn.net/game/styx, http://retrospec.sgn.net/game-links.php?link=styx): Unclear license information, not open source in our sense, see other entries from retrospec here
 Sudoku86 (http://sudoku86.sourceforge.net/): Does only run under DOS. Not the preferred OS for this database.
 Super Mario Bros With SFML in C# (https://mario.codeplex.com/, https://mario.codeplex.com/SourceControl/latest): Codeplex cannot access archive, therefore no source, might be just a previous state of Mario Objects
@@ -167,9 +173,5 @@ WarGame (https://archive.codeplex.com/?p=wargame): Unclear license, could not co
 WolfenDoom (https://github.com/Realm667/WolfenDoom): All rights reserved
 XQuest 2 (http://www.swallowtail.org/xquest/, http://www.swallowtail.org/xquest/xquest_1.3_src.tar.gz): License is not really open source (see LICENSE.DOC in https://web.archive.org/web/20170320015957/http://www.swallowtail.org/xquest/xquest_1.3_src.tar.gz)
 xrick (http://www.bigorno.net/xrick): No open source license/unclear license (see file README in http://www.bigorno.net/xrick/xrick-021212.zip)
-zedragon (https://github.com/charlierobson/zedragon.git): License not found, Assembly, not sure which OS is supported, no release, not much guidance
-Stunt Car Racer Remake (http://stuntcarracerwin32.bravesites.com, https://sourceforge.net/projects/stuntcarremake/, https://git.code.sf.net/p/stuntcarremake/code): License unclear, author confirmed that there is not license and didn't answer when asked if there could one be added (see https://github.com/Trilarion/opensourcegames/issues/244)
 Yuris Revenge (https://github.com/cookgreen/Yuris-Revenge): Mod to OpenRA
-Space Opera Ruby (https://github.com/Cortrah/SpaceOperaRuby): No license given, too small
-Receiver (https://github.com/David20321/7DFPS, http://www.wolfire.com/receiver): All rights reserved.
-Equestria at War mod (https://github.com/EaW-Team/equestria_dev): Mod for Equestria at War
+zedragon (https://github.com/charlierobson/zedragon.git): License not found, Assembly, not sure which OS is supported, no release, not much guidance

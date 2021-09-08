@@ -312,24 +312,25 @@ def clean_lgw_content():
 
     # content replacements
     entries = remove_parenthized_content(entries, ('assets license', 'code language', 'code license', 'engine', 'genre', 'last active', 'library'))
-    entries = remove_prefix_suffix(entries, ('code license', 'assets license'), ('"', 'GNU', ), ('"', '[3]', '[2]', '[1]', 'only'))
+    entries = remove_prefix_suffix(entries, ('code license', 'assets license'), ('"', 'GNU'), ('"', '[3]', '[2]', '[1]', 'only', ' license'))
     entries = replace_content(entries, ('code license', 'assets license'), 'GPL', ('General Public License', ))
-    entries = replace_content(entries, ('code license', 'assets license'), 'GPL-2', ('GPLv2', ))  # for LGW GPLv2 would be the correct writing
+    entries = replace_content(entries, ('code license', 'assets license'), 'GPL-2.0', ('GPLv2', ))  # for LGW GPLv2 would be the correct writing
     entries = replace_content(entries, ('code license', 'assets license'), 'GPL-2', ('GPLv2', 'GPL v2', 'GPL version 2.0', 'GPL 2.0', 'General Public License v2', 'GPL version 2', 'Gplv2', 'GPL 2'))
     entries = replace_content(entries, ('code license', 'assets license'), 'GPL-2', ('GPL v2 or later', 'GPL 2+', 'GPL v2+', 'GPLv2+', 'GPL version 2 or later'))
-    entries = replace_content(entries, ('code license', 'assets license'), 'GPL-3', ('GPLv3', ))  # for LGW GPLv3 would be the correct writing
-    entries = replace_content(entries, ('code license', 'assets license'), 'GPL-3', ('GPL v3', 'GNU GPL v3', 'GPL 3'))
+    entries = replace_content(entries, ('code license', 'assets license'), 'GPL-3.0', ('GPLv3', ))  # for LGW GPLv3 would be the correct writing
+    entries = replace_content(entries, ('code license', 'assets license'), 'GPL-3', ('GPL v3', 'GNU GPL v3', 'GPL 3', 'General Public License 3', 'General Public License v3.0'))
     entries = replace_content(entries, ('code license', 'assets license'), 'GPL-3', ('GPL v3+', 'GPLv3+', 'GPL v.3 or later', 'GPL v3 or later'))
-    entries = replace_content(entries, ('code license', 'assets license'), 'AGPL-3', ('AGPLv3', 'AGPL', 'Affero General Public License v3.0'))
+    entries = replace_content(entries, ('code license', 'assets license'), 'AGPL-3.0', ('AGPLv3', 'AGPL', 'Affero General Public License v3.0', 'AGPL v3'))
     entries = replace_content(entries, ('code license', 'assets license'), 'Public domain', ('public domain', 'Public Domain'))
     entries = replace_content(entries, ('code license', 'assets license'), 'zlib', ('zlib/libpng license', 'Zlib License'))
     entries = replace_content(entries, ('code license', 'assets license'), 'BSD', ('Original BSD License', ))
     entries = replace_content(entries, ('code license', 'assets license'), 'CC-BY-SA-3.0', ('Creative Commons Attribution-ShareAlike 3.0 Unported License', 'CC-BY-SA 3.0', 'CC BY-SA 3.0'))
     entries = replace_content(entries, ('code license', 'assets license'), 'CC-BY-SA', ('CC BY-SA',))
     entries = replace_content(entries, ('code license', 'assets license'), 'MIT', ('MIT License', 'MIT"'))
+    entries = replace_content(entries, ('assets license', ), 'no media', ('No media', 'no media?'))
     entries = replace_content(entries, 'platform', 'macOS', ('Mac', ))
     entries = remove_prefix_suffix(entries, ('code language', 'developer'), (), ('[3]', '[2]', '[1]'))
-    entries = ignore_content(entries, 'code language', ('HTML5', 'HTML', 'English', 'XML', 'WML'))
+    entries = ignore_content(entries, 'code language', ('HTML5', 'HTML', 'English', 'XML', 'WML', 'CSS'))
     entries = replace_content(entries, 'code language', 'Lua', ('lua', 'LUA'))
     entries = remove_prefix_suffix(entries, 'genre', (), ('game', 'games'))
     entries = lower_case_content(entries, 'genre')
@@ -340,8 +341,8 @@ def clean_lgw_content():
     entries = replace_content(entries, 'genre', 'turn based, strategy', ('tbs',))
     entries = ignore_content(entries, 'categories', ('GPL', 'C++', 'C', 'ECMAScript', 'Python', 'Java', 'CC BY-SA', 'Lua', 'LGPL', 'CC-BY', 'BSD', 'MIT', 'Qt', 'SDL', 'OpenGL', 'Pygame', 'PD', 'GLUT', 'Haskell', 'Allegro', 'Ruby', 'Zlib/libpng', 'OpenAL', 'Perl', 'Free Pascal', 'LÖVE', 'HTML5', 'Id Tech 1'))
     entries = replace_content(entries, 'library', 'pygame', ('Pygame', ))
-    entries = replace_content(entries, 'library', 'Qt', ('QT', ))
-    entries = ignore_content(entries, 'library', ('C++', 'Lua', 'Mozilla Firefox'))
+    entries = replace_content(entries, 'library', 'Qt', ('QT', 'Qt4'))
+    entries = ignore_content(entries, 'library', ('C++', 'Lua', 'Mozilla Firefox', 'DirectX', 'Boost'))
     entries = ignore_nonnumbers(entries, 'last active')
     entries = ignore_content(entries, 'last active', ('2019', ))
     entries = ignore_content(entries, 'platform', ('DOS', ))
@@ -361,7 +362,7 @@ def clean_lgw_content():
             else:
                 flat_content.append(c)
         statistics = utils.unique_elements_and_occurrences(flat_content)
-        print('{}: {}'.format(field, ', '.join(statistics)))
+        print('{}: {}\n'.format(field, ', '.join(statistics)))
 
     # save entries
     text = json.dumps(entries, indent=1)

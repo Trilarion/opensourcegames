@@ -11,4 +11,3 @@
 Terrain editor for Godot.
 
 ## Building
-

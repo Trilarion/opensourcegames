@@ -431,7 +431,6 @@
 - **[Stargus](../stargus.md)** (C++, Lua, GPL-2.0, beta, inactive since 2010)
 - **[starshatter-open](../starshatter-open.md)** (C++, 3-clause BSD, beta, inactive since 2015)
 - **[Strife: Veteran Edition](../strife_veteran_edition.md)** (C, C++, Objective-C, GPL-3.0, beta, inactive since 2016)
-- **[Stunt Car Racer Remake](../stunt_car_racer_remake.md)** (C++, Proprietary, beta, inactive since 2012)
 - **[SunDog Resurrection](../sundog_resurrection.md)** (Java, Python, ?, beta)
 - **[sundog](../sundog.md)** (C, C++, Python, MIT, beta)
 - **[Supaxl](../supaxl.md)** (JavaScript, MIT, mature)

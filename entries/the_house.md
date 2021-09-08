@@ -1,7 +1,7 @@
 # The House
 
 - Home: https://github.com/arturkot/the-house-game
-- State: mature, inactive since 2019 
+- State: mature, inactive since 2019
 - Play: http://the-house.arturkot.pl/
 - Platform: Web
 - Keyword: adventure

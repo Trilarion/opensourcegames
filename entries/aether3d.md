@@ -6,7 +6,7 @@
 - Keyword: framework, game engine, 3D
 - Code repository: https://github.com/bioglaze/aether3d.git
 - Code language: C++
-- Code license: Zlib
+- Code license: zlib
 
 ## Building
 

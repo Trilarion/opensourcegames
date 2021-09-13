@@ -55,5 +55,6 @@
 - **[uninvited](../uninvited.md)** (C, C++, Artistic License-2.0, beta, inactive since 2016)
 - **[unitystation](../unitystation.md)** (C#, AGPL-3.0, beta)
 - **[Vegan on a Desert Island](../vegan_on_a_desert_island.md)** (Lua, GPL-3.0, beta)
+- **[Venzone](../venzone.md)** (Haskell, GPL-3.0, mature)
 - **[WebFun](../webfun.md)** (TypeScript, MIT, beta)
 - **[zorkClone](../zorkclone.md)** (Java, Apache-2.0, beta)

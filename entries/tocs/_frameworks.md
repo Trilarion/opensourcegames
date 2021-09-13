@@ -37,6 +37,7 @@
 - **[Lightweight Java Game Library](../lightweight_java_game_library.md)** (Kotlin, C, Java, 3-clause BSD, mature)
 - **[LIKO-12](../liko-12.md)** (Lua, MIT, mature)
 - **[Loon Game](../loon_game.md)** (Java, C#, Apache-2.0, beta)
+- **[Love2dCS](../love2dcs.md)** (C#, C++, MIT, mature)
 - **[Lumix Engine](../lumix_engine.md)** (C++, MIT, beta)
 - **[LÖVE](../love.md)** (C++, zlib, mature)
 - **[Mana](../mana.md)** (C++, GPL-2.0, beta)

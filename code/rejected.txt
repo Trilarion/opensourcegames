@@ -64,6 +64,7 @@ Fruit War (http://fruitwar.sourceforge.net/, https://sourceforge.net/projects/fr
 Future Blocks (https://github.com/fogleman/FutureBlocks.git): Needs DosBox, simple Tetris clone (nice, but maybe too minimal)
 GalaxyMage (https://www.galaxymage.org/, http://gna.org/projects/tactics): No source code available anymore, not on IA nor on gna project site.
 GNOME Games (): Has been separated into individual packages. Will add them separately.
+GPSFish (https://gps.tanaka.ecc.u-tokyo.ac.jp/gpsshogi/index.php?GPSFish): Too special
 Grow (https://sourceforge.net/projects/grow/): Insufficient content
 GRUB Invaders (http://www.erikyyy.de/invaders/): Requires use of the GRUB bootloader (also not really original)
 Heroes: Rebirth (
@@ -97,6 +98,7 @@ Lemmix (http://www.ericenzwaan.nl/eric/lemmings/lemmix.htm, http://www.ericenzwa
 Lightbringer Engine (https://sourceforge.net/projects/lightbringer2015/): Very early development
 linball (http://linball.sourceforge.net/, https://sourceforge.net/projects/linball/): Very early development stage
 Lixoo 2D adventure game engine (https://sourceforge.net/projects/lixoo/): Very early development, long abandoned (since 2004)
+Look Around the Corner (https://github.com/dougo/shufflecomp): too small
 luminesk5 (https://github.com/kaikai2/luminesk5.git): No clear license information found. Not clear if runnable or if playable.
 MAGE Adventure Game Engine (https://sourceforge.net/projects/mage/, https://web.archive.org/web/20030808135304/http://mage.rulez.org/): Very early development, long abandoned (since 2001)
 Manic Miner (http://retrospec.sgn.net/game/mm): Unclear license (freeware?), probably many from retrospec.sgn.net
@@ -163,6 +165,7 @@ Terra Reconstructed (https://sourceforge.net/projects/terrastrategy/, http://mor
 Tesseract Trainer (http://www.mushware.com/): Sources lost, license unclear, very early development, long abandoned
 The Fortress (https://sourceforge.net/projects/fortress/, https://fortressgame.wordpress.com/about/): Very early development, long abandoned
 thromolusng (https://github.com/segfaulthunter/thromolusng.git): Very early development, not playable, no build instructions, abandoned since 2010
+TinyXXXX (https://sites.google.com/view/arduino-collection/arduboy): For Arduino (unsupported platform here)
 Tranzam (http://retrospec.sgn.net/game/tranzam, http://retrospec.sgn.net/download/files/TranzAm.1.1.zip): see other retrospec.sgn.net entries, license unclear, probably not open source as we want it
 TunnelWars (http://www.ratajik.net/TunnelWars/): Platform is OS2, not interesting for us
 Uncharted waters 2 remake (https://github.com/Jackyjjc/Uncharted-waters-2-remake.git, https://web.archive.org/web/20140504171546/http://jackyjjc.com/category/dk2-dev-journal/): Source got lost

@@ -41,7 +41,7 @@ lgw_name_aliases = {'Eat the Whistle': 'Eat The Whistle', 'Scorched 3D': 'Scorch
                     'PyRacerz': 'pyRacerz', 'Starfighter': 'Project: Starfighter',
                     'TORCS': 'TORCS, The Open Racing Car Simulator', 'Vertigo (game)': 'Vertigo',
                     'XInvaders3D': 'XInvaders 3D', 'LambdaRogue': 'LambdaRogue: The Book of Stars',
-                    'Maniadrive': 'ManiaDrive',
+                    'Maniadrive': 'ManiaDrive', 'Story of Seasons': "Greentwip's Harvest Moon", 'TinyTris': 'Tiny Tris',
                     'Which Way Is Up': 'Which Way Is Up?', 'CannonSmash': 'Cannon Smash', 'UFO:Alien Invasion': 'UFO: Alien Invasion'}
 lgw_ignored_entries = ['Hetris', '8 Kingdoms', 'Antigravitaattori', 'Arena of Honour', 'Arkhart', 'Ascent of Justice',
                        'Balazar III', 'Balder3D', 'Barbie Seahorse Adventures', 'Barrage', 'Gnome Batalla Naval',
@@ -51,9 +51,9 @@ lgw_ignored_entries = ['Hetris', '8 Kingdoms', 'Antigravitaattori', 'Arena of Ho
                        'Flare: Empyrean Campaign', 'Free Reign', 'GalaxyMage',
                        'Gloss', 'GRUB Invaders', 'Howitzer Skirmish', 'Imperium: Sticks', 'Interstate Outlaws',
                        'GNOME Games', 'KDE Games', 'LegacyClone', 'Memonix', 'Ninjapix', 'Neverputt', 'Militia Defense',
-                       'Sudoku86',
+                       'Sudoku86', 'Look Around the Corner', 'GPSFish',
                        'Terminal Overload release history', 'Scions of Darkness', 'Sedtris', 'SilChess', 'SSTPong',
-                       'Tesseract Trainer', 'TunnelWars', 'The Fortress']
+                       'Tesseract Trainer', 'TunnelWars', 'The Fortress', 'Tunnel']
 
 licenses_map = {'GPLv2': 'GPL-2.0', 'GPLv2+': 'GPL-2.0', 'GPLv3': 'GPL-3.0', 'GPLv3+': 'GPL-3.0'}
 

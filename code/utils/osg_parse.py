@@ -98,7 +98,7 @@ class EntryTransformer(lark.Transformer):
     def start(self, x):
         return x
 
-
+# TODO turns out ValueWithComment does not really solve problem but actually creates even some, are there alternatives like inheriting from string?
 class ValueWithComment:
     """
       All our property values can have (optional) comments. This is the class that represents them to us and implements
@@ -130,6 +130,8 @@ class ValueWithComment:
         else:
             return '{}'.format(self.value)
 
+    def __hash__(self):
+        return hash(self.value)
 
 def parse(parser, transformer, content):
     tree = parser.parse(content)

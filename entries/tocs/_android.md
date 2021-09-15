@@ -136,6 +136,7 @@
 - **[UnCiv](../unciv.md)** (Kotlin, MPL-2.0, beta)
 - **[Vector Pinball](../vector_pinball.md)** (Java, GPL-3.0, mature)
 - **[Virus Attack](../virus_attack.md)** (Java, AGPL-3.0, mature)
+- **[Wagic, the Homebrew](../wagic_the_homebrew.md)** (C++, C, Objective-C, 3-clause BSD, beta)
 - **[warcraft-remake](../warcraft-remake.md)** (Java, GPL-2.0, beta)
 - **[Xenowar](../xenowar.md)** (C, C++, GPL-3.0, mature, inactive since 2014)
 - **[XSkat](../xskat.md)** (Java, Custom, mature)

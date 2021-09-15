@@ -3,6 +3,7 @@
 
 - **[2006-rebotted](../2006-rebotted.md)** (Java, 2-clause BSD, mature)
 - **[Allure of the Stars](../allure_of_the_stars.md)** (Haskell, AGPL-3.0, beta)
+- **[Ambermoon.net](../ambermoonnet.md)** (C#, GPL-3.0, mature)
 - **[Andor's Trail](../andors_trail.md)** (Java, GPL-2.0, beta)
 - **[Angband](../angband.md)** (C, GPL-2.0, mature)
 - **[Angry Birds in Python](../angry_birds_in_python.md)** (Python, MIT, mature, inactive since 2017)

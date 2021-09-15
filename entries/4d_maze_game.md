@@ -9,8 +9,6 @@
 - Code license: Public domain
 - Developer: John McIntosh
 
-Navigate a 4D maze.
-
 ## Building
 
 - Build system: None

@@ -12,8 +12,6 @@
 - Assets license: GPL-2.0
 - Developer: Anders Svensson (@audio), Johan Peitz (@design, @code, @graphics), Paul Wise
 
-Retro-style platformer.
-
 ## Building
 
 - Build system: Make

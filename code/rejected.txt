@@ -165,6 +165,7 @@ Terra Reconstructed (https://sourceforge.net/projects/terrastrategy/, http://mor
 Tesseract Trainer (http://www.mushware.com/): Sources lost, license unclear, very early development, long abandoned
 The Fortress (https://sourceforge.net/projects/fortress/, https://fortressgame.wordpress.com/about/): Very early development, long abandoned
 thromolusng (https://github.com/segfaulthunter/thromolusng.git): Very early development, not playable, no build instructions, abandoned since 2010
+TinyEngine (https://github.com/weigert/TinyEngine): Not enough game related, very small
 TinyXXXX (https://sites.google.com/view/arduino-collection/arduboy): For Arduino (unsupported platform here)
 Tranzam (http://retrospec.sgn.net/game/tranzam, http://retrospec.sgn.net/download/files/TranzAm.1.1.zip): see other retrospec.sgn.net entries, license unclear, probably not open source as we want it
 TunnelWars (http://www.ratajik.net/TunnelWars/): Platform is OS2, not interesting for us
@@ -176,5 +177,6 @@ WarGame (https://archive.codeplex.com/?p=wargame): Unclear license, could not co
 WolfenDoom (https://github.com/Realm667/WolfenDoom): All rights reserved
 XQuest 2 (http://www.swallowtail.org/xquest/, http://www.swallowtail.org/xquest/xquest_1.3_src.tar.gz): License is not really open source (see LICENSE.DOC in https://web.archive.org/web/20170320015957/http://www.swallowtail.org/xquest/xquest_1.3_src.tar.gz)
 xrick (http://www.bigorno.net/xrick): No open source license/unclear license (see file README in http://www.bigorno.net/xrick/xrick-021212.zip)
+Yave (https://github.com/gan74/Yave): General graphics engine, not game centered in any way and experimental
 Yuris Revenge (https://github.com/cookgreen/Yuris-Revenge): Mod to OpenRA
 zedragon (https://github.com/charlierobson/zedragon.git): License not found, Assembly, not sure which OS is supported, no release, not much guidance

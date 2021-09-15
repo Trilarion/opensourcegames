@@ -13,6 +13,7 @@
 - **[Doxygen](../doxygen.md)** (C++, GPL-2.0, mature)
 - **[Dungeon Mapper](../dungeon_mapper.md)** (C++, GPL-3.0, beta, inactive since 2013)
 - **[Fantasy Map Generator](../fantasy_map_generator.md)** (JavaScript, MIT, mature)
+- **[GBDK](../gbdk.md)** (C, Assembly, C++, MIT, mature)
 - **[GM Tools](../gm_tools.md)** (C++, GPL-2.0, beta, inactive since 2004)
 - **[GoRogue](../gorogue.md)** (C#, MIT, mature)
 - **[JaNaG - Java Name Generator](../janag-java_name_generator.md)** (Java, GPL-3.0, mature, inactive since 2016)

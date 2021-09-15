@@ -9,6 +9,4 @@
 - Code license: MIT
 - Developer: Sandy Maguire
 
-Graphical game engine.
-
 ## Building

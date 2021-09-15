@@ -41,6 +41,14 @@
    "<a href=\"https://github.com/gabrielecirulli/2048.git\">Source</a> - JavaScript, Java - MIT"
   ],
   [
+   "2048 Python (<a href=\"https://github.com/yangshun/2048-python\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/2048_python.md\">entry</a>)",
+   "",
+   "",
+   "mature / active",
+   "remake, open content",
+   "<a href=\"https://github.com/yangshun/2048-python.git\">Source</a> - Python - MIT"
+  ],
+  [
    "2H4U (<a href=\"https://sourceforge.net/projects/toohardforyou/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/2h4u.md\">entry</a>)",
    "Mix between a Tetris-like game and a wall breaker.",
    "<a href=\"https://sourceforge.net/projects/toohardforyou/files/\">Link</a>",
@@ -138,11 +146,19 @@
   ],
   [
    "Abuse (<a href=\"http://abuse.zoy.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/abuse.md\">entry</a>)",
-   "Dark game.",
+   "",
    "<a href=\"http://abuse.zoy.org/wiki/download\">Link</a>",
    "mature / inactive since 2011",
    "action, platform, remake, 2D, content swappable, side-scrolling",
    "<a href=\"svn://svn.zoy.org/abuse/abuse/trunk\">Source</a> - C++, Lisp - Public domain, GPL-2.0, WTFPL"
+  ],
+  [
+   "Abuse 1996 (<a href=\"http://antonior-software.blogspot.com/2016/05/abuse-1996-sdl-port-09a.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/abuse_1996.md\">entry</a>)",
+   "",
+   "",
+   "mature / inactive since 2016",
+   "remake, free content",
+   "<a href=\"https://github.com/antrad/Abuse_1996.git\">Source</a> - C++, Lisp - Custom, Public domain, GPL-2.0, WTFPL"
   ],
   [
    "Achtung, die Kurve! (<a href=\"https://kurve.se/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/achtung_die_kurve.md\">entry</a>)",
@@ -319,6 +335,14 @@
    "beta / active",
    "role playing, strategy, content open, roguelike, turn-based",
    "<a href=\"https://github.com/AllureOfTheStars/Allure.git\">Source</a> - Haskell - AGPL-3.0"
+  ],
+  [
+   "Ambermoon.net (<a href=\"https://github.com/pyrdacor/ambermoon.net\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/ambermoonnet.md\">entry</a>)",
+   "",
+   "<a href=\"https://github.com/Pyrdacor/Ambermoon.net#download\">Link</a>",
+   "mature / active",
+   "remake, commercial content, role playing",
+   "<a href=\"https://github.com/Pyrdacor/Ambermoon.net.git\">Source</a> - C# - GPL-3.0"
   ],
   [
    "Amphetamine (<a href=\"https://packages.debian.org/stable/games/amphetamine\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/amphetamine.md\">entry</a>)",
@@ -505,7 +529,7 @@
    "<a href=\"https://github.com/SteveSmith16384/AresDogfighter.git\">Source</a> - Java - GPL-3.0"
   ],
   [
-   "Argentum Online (<a href=\"https://www.comunidadargentum.com/ (Spanish)\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/argentum_online.md\">entry</a>)",
+   "Argentum Online (<a href=\"https://www.comunidadargentum.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/argentum_online.md\">entry</a>)",
    "See also: [spin-..",
    "<a href=\"https://www.comunidadargentum.com/descargas/\">Link</a>",
    "beta / inactive since 2014",
@@ -994,11 +1018,11 @@
   ],
   [
    "Blender game engine (<a href=\"https://www.blender.org/features/game-creation/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/blender_game_engine.md\">entry</a>)",
-   "Included in Blender is a complete game engine, allowing..",
+   "Is it still included? (git://git.blender.org/blender.git..",
    "<a href=\"https://www.blender.org/download/\">Link</a>",
    "mature / active",
    "framework, 3D",
-   "<a href=\"git://git.blender.org/blender.git\">Source</a> - C++ - GPL-2.0"
+   "<a href=\"https://github.com/UPBGE/upbge.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
    "Blinken (<a href=\"https://edu.kde.org/blinken/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/blinken.md\">entry</a>)",
@@ -2953,6 +2977,14 @@
    "<a href=\"https://bitbucket.org/ecwolf/ecwolf.git\">Source</a> - C++ - GPL-2.0, LGPL-2.1, zlib, MIT, IJG, Public domain"
   ],
   [
+   "EdisonEngine (<a href=\"https://github.com/stohrendorf/EdisonEngine\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/edisonengine.md\">entry</a>)",
+   "",
+   "<a href=\"https://github.com/stohrendorf/EdisonEngine/releases\">Link</a>",
+   "beta / active",
+   "action, game engine, remake, content commercial + original required",
+   "<a href=\"https://github.com/stohrendorf/EdisonEngine.git\">Source</a> - C++, Python - LGPL-3.0"
+  ],
+  [
    "EDuke32 (<a href=\"https://www.eduke32.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/eduke32.md\">entry</a>)",
    "",
    "<a href=\"https://dukeworld.com/eduke32/synthesis/latest/?s=d&o=d&dir=eduke32/synthesis/latest\">Link</a>",
@@ -2988,7 +3020,7 @@
    "Elysium Engine (<a href=\"http://elysium.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/elysium_engine.md\">entry</a>)",
    "",
    "<a href=\"https://sourceforge.net/projects/elysium/files/\">Link</a>",
-   "beta (@alpha) / inactive since 2006",
+   "beta / inactive since 2006",
    "game engine, role playing, 2D, multiplayer online + massive",
    "<a href=\"http://elysium.cvs.sourceforge.net\">Source</a> - C - GPL-2.0"
   ],
@@ -3937,6 +3969,14 @@
    "<a href=\"https://gitlab.com/wavexx/garith.git\">Source</a> - C++ - LGPL-2.1"
   ],
   [
+   "GBDK (<a href=\"https://gbdk-2020.github.io/gbdk-2020/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/gbdk.md\">entry</a>)",
+   "Short for \"Gameboy Development Kit\"",
+   "<a href=\"https://github.com/gbdk-2020/gbdk-2020/releases\">Link</a>",
+   "mature / active",
+   "library, tool",
+   "<a href=\"https://github.com/gbdk-2020/gbdk-2020.git\">Source</a> - C, Assembly, C++ - MIT"
+  ],
+  [
    "GCompris (<a href=\"https://gcompris.net/index-en.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/gcompris.md\">entry</a>)",
    "Educational software suite offering numerous activities..",
    "<a href=\"https://gcompris.net/downloads-en.html\">Link</a>",
@@ -4689,7 +4729,7 @@
    "<a href=\"https://github.com/sezero/hhexen.git\">Source</a> - C - GPL-2.0"
   ],
   [
-   "Hnefatafl (<a href=\"https://web.archive.org/web/20180901233504/http://hnefatafl.se/ (Swedish)\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/hnefatafl.md\">entry</a>)",
+   "Hnefatafl (<a href=\"https://web.archive.org/web/20180901233504/http://hnefatafl.se/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/hnefatafl.md\">entry</a>)",
    "Implementation of a Norse board game. It supports..",
    "",
    "beta / inactive since 2014",
@@ -4735,6 +4775,14 @@
    "mature / active",
    "arcade, remake, content open",
    "<a href=\"https://github.com/Hopson97/Hopson-Arcade.git\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
+   "Horde3D (<a href=\"https://github.com/horde3d/Horde3D\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/horde3d.md\">entry</a>)",
+   "Graphics engine.",
+   "",
+   "mature / active",
+   "library, 3D",
+   "<a href=\"https://github.com/horde3d/Horde3D.git\">Source</a> - C++ - EPL-2.0"
   ],
   [
    "HoverRace (<a href=\"https://web.archive.org/web/20200310133907/http://www.hoverrace.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/hoverrace.md\">entry</a>)",
@@ -4825,7 +4873,7 @@
    "<a href=\"https://github.com/andyfriesen/ika.git\">Source</a> - C++, Python, PHP, C# - GPL-2.0"
   ],
   [
-   "Ilarion (<a href=\"https://illarion.org/general/de_startpage.php (German)\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/ilarion.md\">entry</a>)",
+   "Ilarion (<a href=\"https://illarion.org/general/de_startpage.php\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/ilarion.md\">entry</a>)",
    "Emphasis on real roleplay.",
    "<a href=\"https://illarion.org/illarion/de_java_download.php\">Link</a>",
    "mature / active",
@@ -4845,7 +4893,7 @@
    "",
    "",
    "mature / inactive since 2001",
-   "first person, shooter, open content, action",
+   "action, first person, open content, shooter",
    "C - 4-clause BSD"
   ],
   [
@@ -4897,6 +4945,14 @@
    "<a href=\"https://github.com/dividuum/infon.git\">Source</a> - C, Lua - GPL-2.0"
   ],
   [
+   "Innocence Engine (<a href=\"https://github.com/zhangdoa/InnocenceEngine\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/innocence_engine.md\">entry</a>)",
+   "",
+   "<a href=\"https://github.com/zhangdoa/InnocenceEngine/releases\">Link</a>",
+   "beta / active",
+   "game engine",
+   "<a href=\"https://github.com/zhangdoa/InnocenceEngine.git\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
    "INSTEAD (<a href=\"https://instead3.syscall.ru/en/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/instead.md\">entry</a>)",
    "Engine for textographic games, which are a mix of..",
    "<a href=\"https://instead3.syscall.ru/en/#download\">Link</a>",
@@ -4945,7 +5001,7 @@
    "<a href=\"https://github.com/kblaschke/Iris2.git\">Source</a> - C, C++, Lua - GPL-3.0"
   ],
   [
-   "Iron Seed (<a href=\"https://web.archive.org/web/20150725164943/http://www.ironseed.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/iron_seed.md\">entry</a>)",
+   "Ironseed (<a href=\"https://web.archive.org/web/20150725164943/http://www.ironseed.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/ironseed.md\">entry</a>)",
    "",
    "<a href=\"https://web.archive.org/web/20150802151352/http://www.ironseed.com/ironseed-v1.20.0016-2013-03-17.zip\">Link</a>",
    "mature / inactive since 2013",
@@ -5329,6 +5385,14 @@
    "<a href=\"https://github.com/ahmetkasif/kmaxit.git\">Source</a> - Java - MIT"
   ],
   [
+   "KlayGE (<a href=\"http://www.klayge.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/klayge.md\">entry</a>)",
+   "",
+   "<a href=\"http://www.klayge.org/downloads/\">Link</a>",
+   "mature / active",
+   "game engine",
+   "<a href=\"https://github.com/gongminmin/KlayGE.git\">Source</a> - C++ - GPL-2.0"
+  ],
+  [
    "Klooni 1010! (<a href=\"https://lonami.dev/klooni/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/klooni_1010.md\">entry</a>)",
    "",
    "<a href=\"https://f-droid.org/packages/dev.lonami.klooni/\">Link</a>",
@@ -5500,7 +5564,7 @@
    "Land of Fire (<a href=\"https://web.archive.org/web/20201108094318/http://landoffire.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/land_of_fire.md\">entry</a>)",
    "",
    "",
-   "beta (?) / active",
+   "beta / active",
    "role playing, multiplayer online + massive",
    "<a href=\"https://github.com/landoffire/lof-tmwa-server-data.git\">Source</a> - Script, PHP - GPL-2.0"
   ],
@@ -5705,7 +5769,7 @@
    "<a href=\"https://github.com/lincity-ng/lincity-ng.git\">Source</a> - C++ - GPL-2.0"
   ],
   [
-   "Linley's Dungeon Crawl (<a href=\"http://www.dungeoncrawl.org/ (https://web.archive.org/web/20180727134558/http://www.dungeoncrawl.org/)\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/linleys_dungeon_crawl.md\">entry</a>)",
+   "Linley's Dungeon Crawl (<a href=\"http://www.dungeoncrawl.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/linleys_dungeon_crawl.md\">entry</a>)",
    "Roguelike molded in the tradition of the early greats of..",
    "<a href=\"http://www.dungeoncrawl.org/?d\">Link</a>",
    "mature / inactive since 2006",
@@ -5900,7 +5964,7 @@
    "M.E.W.L. (<a href=\"https://github.com/LionsPhil/mewl\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/mewl.md\">entry</a>)",
    "",
    "",
-   "beta (@alpha) / inactive since 2015",
+   "beta / inactive since 2015",
    "remake, strategy",
    "<a href=\"https://github.com/LionsPhil/mewl.git\">Source</a> - C++ - GPL-2.0"
   ],
@@ -6369,6 +6433,14 @@
    "<a href=\"http://mochadoom.cvs.sourceforge.net\">Source</a> - Java - ?"
   ],
   [
+   "Monofoxe (<a href=\"https://github.com/Martenfur/Monofoxe\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/monofoxe.md\">entry</a>)",
+   "",
+   "<a href=\"https://github.com/Martenfur/Monofoxe/releases\">Link</a>",
+   "mature / active",
+   "game engine",
+   "<a href=\"https://github.com/Martenfur/Monofoxe.git\">Source</a> - C# - MIT"
+  ],
+  [
    "MonoGame (<a href=\"https://www.monogame.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/monogame.md\">entry</a>)",
    "Implementation of the Microsoft XNA 4 Framework.",
    "<a href=\"https://www.monogame.net/downloads/\">Link</a>",
@@ -6553,6 +6625,14 @@
    "<a href=\"https://github.com/zenorogue/noteye.git\">Source</a> - C++ - GPL-3.0"
   ],
   [
+   "neoGFX (<a href=\"https://neogfx.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/neogfx.md\">entry</a>)",
+   "",
+   "",
+   "beta / active",
+   "game engine",
+   "<a href=\"https://github.com/i42output/neoGFX.git\">Source</a> - C++ - GPL-3.0"
+  ],
+  [
    "Netacka (<a href=\"https://pwmarcz.pl/netacka/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/netacka.md\">entry</a>)",
    "Also see Netacka 3D (home).",
    "",
@@ -6610,7 +6690,7 @@
   ],
   [
    "Nexuiz (<a href=\"http://www.alientrap.com/games/nexuiz/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/nexuiz.md\">entry</a>)",
-   "See https://github.com/atphalix/nexuiz",
+   "See https://github.com/atphalix/nexuiz,..",
    "<a href=\"https://sourceforge.net/projects/nexuiz/files/\">Link</a>",
    "mature / active",
    "action, first-person, shooter",
@@ -7857,6 +7937,14 @@
    "<a href=\"https://github.com/adriengivry/Overload.git\">Source</a> - C, C++ - MIT"
   ],
   [
+   "Oxygen Engine (<a href=\"https://github.com/i-love-kfc/xray-oxygen\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/oxygen_engine.md\">entry</a>)",
+   "https://github.com/xrOxygen/xray-oxygen is gone",
+   "",
+   "mature / active",
+   "game engine",
+   "<a href=\"https://github.com/i-love-kfc/xray-oxygen.git\">Source</a> - C++, C - Apache-2.0"
+  ],
+  [
    "Pac Go (<a href=\"https://github.com/danicat/pacgo\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/pac_go.md\">entry</a>)",
    "Is also a tutorial to introduce people to the Go..",
    "",
@@ -8341,7 +8429,7 @@
    "",
    "<a href=\"https://code.google.com/archive/p/kuviman/downloads\">Link</a>",
    "beta / inactive since 2011",
-   "first person, shooter, open content, action",
+   "action, first person, open content, shooter",
    "Python - GPL-3.0"
   ],
   [
@@ -8549,7 +8637,7 @@
    "",
    "",
    "mature / inactive since 2015",
-   "open content, puzzle",
+   "puzzle, open content",
    "<a href=\"https://bitbucket.org/Knitter/puzzlemoppet.git\">Source</a> - C++ - WTFPL"
   ],
   [
@@ -8801,6 +8889,14 @@
    "<a href=\"https://gitlab.com/osgames/radakan.git\">Source</a> - Python - Custom"
   ],
   [
+   "RadixEngine (<a href=\"https://github.com/GlPortal/RadixEngine\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/radixengine.md\">entry</a>)",
+   "",
+   "<a href=\"https://github.com/GlPortal/RadixEngine/releases\">Link</a>",
+   "mature / active",
+   "game engine, 3D",
+   "<a href=\"https://github.com/GlPortal/RadixEngine.git\">Source</a> - C++ - zlib"
+  ],
+  [
    "Ragel (<a href=\"http://www.colm.net/open-source/ragel/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/ragel.md\">entry</a>)",
    "Compiles executable finite state machines from regular..",
    "",
@@ -8825,7 +8921,7 @@
    "<a href=\"https://github.com/styx/Raincat.git\">Source</a> - Haskell - 3-clause BSD"
   ],
   [
-   "ransack (<a href=\"https://github.com/dsallen7/ransack-python\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/ransack.md\">entry</a>)",
+   "ransack (<a href=\"https://www.pygame.org/project-Ransack-2408-.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/ransack.md\">entry</a>)",
    "",
    "",
    "mature / inactive since 2016",
@@ -8905,12 +9001,12 @@
    "<a href=\"https://github.com/nukeykt/NBlood.git\">Source</a> - C++ - Custom"
   ],
   [
-   "REDriver2 (<a href=\"https://github.com/SoapyMan/REDRIVER2\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/redriver2.md\">entry</a>)",
+   "REDriver2 (<a href=\"https://github.com/OpenDriver2/REDRIVER2\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/redriver2.md\">entry</a>)",
    "",
    "",
    "beta / active",
    "remake, content commercial + original required",
-   "<a href=\"https://github.com/SoapyMan/REDRIVER2.git\">Source</a> - C++, C - MIT"
+   "<a href=\"https://github.com/OpenDriver2/REDRIVER2.git\">Source</a> - C++, C - MIT"
   ],
   [
    "RedShift (<a href=\"http://rsfs.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/redshift.md\">entry</a>)",
@@ -9609,7 +9705,7 @@
    "<a href=\"https://github.com/TobiasBielefeld/Simple-Brick-Games.git\">Source</a> - Java - GPL-3.0"
   ],
   [
-   "Simple DirectMedia Layer (<a href=\"https://www.libsdl.org/index.php\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/simple_directmedia_layer.md\">entry</a>)",
+   "Simple DirectMedia Layer (<a href=\"https://www.libsdl.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/simple_directmedia_layer.md\">entry</a>)",
    "Cross-platform development library designed to provide low..",
    "<a href=\"https://www.libsdl.org/download-2.0.php\">Link</a>",
    "mature / active",
@@ -10333,7 +10429,7 @@
    "",
    "<a href=\"https://github.com/victords/super-bombinhas/releases\">Link</a>",
    "mature / active",
-   "open content, platform, 2D",
+   "platform, 2D, open content",
    "<a href=\"https://github.com/victords/super-bombinhas.git\">Source</a> - Ruby - GPL-3.0"
   ],
   [
@@ -10545,7 +10641,7 @@
    "<a href=\"https://github.com/tangomon-game/tangomon.git\">Source</a> - Python - GPL-3.0"
   ],
   [
-   "Tank: Zone of Death (<a href=\"https://zod.fandom.com/ru/wiki/\u0413\u043b\u0430\u0432\u043d\u0430\u044f (Russian)\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/tank_zone_of_death.md\">entry</a>)",
+   "Tank: Zone of Death (<a href=\"https://zod.fandom.com/ru/wiki/\u0413\u043b\u0430\u0432\u043d\u0430\u044f\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/tank_zone_of_death.md\">entry</a>)",
    "",
    "",
    "beta / inactive since 2017",
@@ -10693,7 +10789,7 @@
    "",
    "<a href=\"https://thp.io/2013/tetrepetete/tetrepetete-2.0.0.tar.gz\">Link</a>",
    "mature / active",
-   "open content, puzzle, tetris-like",
+   "puzzle, open content, tetris-like",
    "C++ - GPL-2.0"
   ],
   [
@@ -10973,7 +11069,7 @@
    "",
    "",
    "mature / active",
-   "open content, puzzle, tetris-like",
+   "puzzle, open content, tetris-like",
    "C - GPL-3.0"
   ],
   [
@@ -11025,6 +11121,22 @@
    "C - GPL-2.0"
   ],
   [
+   "Torque 2D (<a href=\"https://torque3d.org/torque2d/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/torque_2d.md\">entry</a>)",
+   "",
+   "<a href=\"https://github.com/TorqueGameEngines/Torque2D/releases\">Link</a>",
+   "mature / active",
+   "game engine, 2D",
+   "<a href=\"https://github.com/TorqueGameEngines/Torque2D.git\">Source</a> - C++, C - MIT"
+  ],
+  [
+   "Torque 3D (<a href=\"https://torque3d.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/torque_3d.md\">entry</a>)",
+   "",
+   "<a href=\"http://wiki.torque3d.org/main:downloads\">Link</a>",
+   "mature / active",
+   "game engine, 3D",
+   "<a href=\"https://github.com/TorqueGameEngines/Torque3D.git\">Source</a> - C++, C - MIT"
+  ],
+  [
    "Torrega Race (<a href=\"https://github.com/andwj/torrega\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/torrega_race.md\">entry</a>)",
    "",
    "",
@@ -11037,7 +11149,7 @@
    "",
    "",
    "mature / inactive since 2017",
-   "action, scrolling, arcade, 2D",
+   "action, arcade, 2D, scrolling",
    "<a href=\"https://github.com/ErikLetson/torso-ninja.git\">Source</a> - Python - GPL-3.0"
   ],
   [
@@ -11045,7 +11157,7 @@
    "",
    "",
    "mature / inactive since 2017",
-   "action, scrolling, arcade, 2D",
+   "action, arcade, 2D, scrolling",
    "<a href=\"https://github.com/ErikLetson/torso-ninja-2.git\">Source</a> - Python - GPL-3.0"
   ],
   [
@@ -11113,7 +11225,7 @@
    "<a href=\"https://github.com/darklegion/tremulous.git\">Source</a> - C - GPL-2.0"
   ],
   [
-   "Tressette (<a href=\"https://invido.it/progetti/tressette_progetto.html (Italian)\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/tressette.md\">entry</a>)",
+   "Tressette (<a href=\"https://invido.it/progetti/tressette_progetto.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/tressette.md\">entry</a>)",
    "Italian card game.",
    "<a href=\"https://invido.it/download/tressette_download.html\">Link</a>",
    "mature / inactive since 2017",
@@ -11476,7 +11588,7 @@
    "Umoria (<a href=\"https://umoria.org/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/umoria.md\">entry</a>)",
    "Inspired by Tolkien's novel The Lord of the Rings.",
    "<a href=\"https://umoria.org/download/\">Link</a>",
-   "mature (inactive between 2008-2016) / active",
+   "mature / active",
    "role playing, content open, roguelike",
    "<a href=\"https://github.com/dungeons-of-moria/umoria.git\">Source</a> - C, C++ - GPL-3.0"
   ],
@@ -11761,7 +11873,7 @@
    "C - GPL-3.0"
   ],
   [
-   "Voxelands (<a href=\"https://web.archive.org/web/20180616063819/http://www.voxelands.com/ (https://www.patreon.com/posts/well-thats-end-20312788)\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/voxelands.md\">entry</a>)",
+   "Voxelands (<a href=\"https://web.archive.org/web/20180616063819/http://www.voxelands.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/voxelands.md\">entry</a>)",
    "",
    "<a href=\"https://web.archive.org/web/20180305020950/https://www.voxelands.com/download.html\">Link</a>",
    "beta / active",
@@ -11793,6 +11905,14 @@
    "<a href=\"https://github.com/TerryCavanagh/vvvvvv.git\">Source</a> - ActionScript, C++ - Custom"
   ],
   [
+   "Wagic, the Homebrew (<a href=\"https://wololo.net/forum/index.php\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/wagic_the_homebrew.md\">entry</a>)",
+   "",
+   "<a href=\"https://github.com/WagicProject/wagic/releases\">Link</a>",
+   "beta / active",
+   "cards, game engine",
+   "<a href=\"https://github.com/WagicProject/wagic.git\">Source</a> - C++, C, Objective-C - 3-clause BSD"
+  ],
+  [
    "WallBall (<a href=\"https://github.com/plainsightcollection/plainsightcollection.github.io\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/wallball.md\">entry</a>)",
    "",
    "",
@@ -11801,7 +11921,7 @@
    "<a href=\"https://github.com/plainsightcollection/plainsightcollection.github.io.git\">Source</a> - Haxe, JavaScript - GPL-3.0"
   ],
   [
-   "War Of Kingdom (<a href=\"http://www.freeors.com/ (Chinese)\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/war_of_kingdom.md\">entry</a>)",
+   "War Of Kingdom (<a href=\"http://www.freeors.com/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/war_of_kingdom.md\">entry</a>)",
    "Rose is at https://github.com/freeors/Rose",
    "",
    "beta / active",
@@ -11836,7 +11956,7 @@
    "Wargus (<a href=\"http://wargus.github.io/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/wargus.md\">entry</a>)",
    "Warcraft2 Mod that allows you to play Warcraft II with the..",
    "<a href=\"http://wargus.stratagus.com/download.shtml\">Link</a>",
-   "mature (?) / active",
+   "mature / active",
    "remake, strategy, content commercial + original required",
    "<a href=\"https://github.com/Wargus/wargus.git\">Source</a> - C++, Lua, C - GPL-2.0"
   ],
@@ -11996,7 +12116,7 @@
    "Wograld (<a href=\"http://wograld.sourceforge.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/wograld.md\">entry</a>)",
    "",
    "<a href=\"https://sourceforge.net/projects/wograld/files/\">Link</a>",
-   "beta (@alpha) / active",
+   "beta / active",
    "role playing, content open, multiplayer online + massive",
    "<a href=\"https://git.code.sf.net/p/wograld/gitcode\">Source</a> - C - GPL-2.0"
   ],
@@ -12249,6 +12369,14 @@
    "<a href=\"http://xpilot.cvs.sourceforge.net/\">Source</a> - C - GPL-2.0"
   ],
   [
+   "XRay engine (<a href=\"https://github.com/Im-dex/xray-162\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/xray_engine.md\">entry</a>)",
+   "",
+   "",
+   "mature / inactive since 2018",
+   "game engine",
+   "<a href=\"https://github.com/Im-dex/xray-162.git\">Source</a> - C++, C - Apache-2.0"
+  ],
+  [
    "XScavenger (<a href=\"https://www.linuxmotors.com/scavenger/index.html\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/xscavenger.md\">entry</a>)",
    "",
    "<a href=\"https://sourceforge.net/projects/sdlscavenger/files/\">Link</a>",
@@ -12341,7 +12469,7 @@
    "",
    "",
    "mature / active",
-   "first person, shooter, open content, action",
+   "action, first person, open content, shooter",
    "<a href=\"https://github.com/carlini/js13k2019-yet-another-doom-clone.git\">Source</a> - JavaScript, Python - GPL-3.0"
   ],
   [
@@ -12495,6 +12623,14 @@
    "mature / active",
    "framework, editor",
    "<a href=\"https://github.com/VilleKrumlinde/zgameeditor.git\">Source</a> - Pascal - MIT"
+  ],
+  [
+   "ZGB (<a href=\"https://github.com/Zal0/ZGB/wiki\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/zgb.md\">entry</a>)",
+   "",
+   "<a href=\"https://github.com/Zal0/ZGB/releases\">Link</a>",
+   "mature / active",
+   "game engine, emulator",
+   "<a href=\"https://github.com/Zal0/ZGB.git\">Source</a> - C, Assembly, C++ - MIT"
   ],
   [
    "zlib (<a href=\"http://zlib.net/\">home</a>, <a href=\"https://github.com/Trilarion/opensourcegames/blob/master/entries/zlib.md\">entry</a>)",

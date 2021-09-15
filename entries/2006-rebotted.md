@@ -10,8 +10,7 @@
 - Code license: 2-clause BSD
 - Developer: Arisu, Ben Maher, Damion, Danial, Daniel Ginovker, DPSCryptic, Gptaqbc, Josh Shippam, MitchvanWijngaarden, Mr Extremez, Olivier, Sandro Coutinho
 
-Remake of Runescape Classic.
-Open source 2006 Runescape emulation with botting.
+Remake of Runescape Classic. Open source 2006 Runescape emulation with botting.
 
 ## Building
 

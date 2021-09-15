@@ -46,12 +46,13 @@ osgc_name_aliases = {'4DTris': '4D-TRIS', 'fheroes2': 'Free Heroes 2', 'DrCreep'
                      'mewl': 'M.E.W.L.', 'LinWarrior': 'Linwarrior 3D', 'Mice Men Remix': 'Mice Men: Remix',
                      'OpenApoc': 'Open Apocalypse', 'open-cube': 'Open Cube', 'open-horizon': 'Open Horizon',
                      'opengl_test_drive_clone': 'OpenGL Test Drive Remake', "Freenukum Jump'n Run": 'Freenukum',
-                     'Play Freeciv!': 'Freeciv-web', 'ProjectX': 'Forsaken', 'Lyon': 'Roton',
+                     'Play Freeciv!': 'Freeciv-web', 'ProjectX': 'Forsaken', 'Lyon': 'Roton', 'Mafia II: Toolkit': 'Mafia: Toolkit',
                      'Siege of Avalon Open Source': 'Siege of Avalon : Open Source', 'ss13remake': 'SS13 Remake',
-                     'shadowgrounds': 'Shadowgrounds', 'RxWars': 'Prescription Wars',
+                     'shadowgrounds': 'Shadowgrounds', 'RxWars': 'Prescription Wars', 'REDRIVER2': 'REDriver2',
                      'Super Mario Bros And Level Editor in C#': 'Mario Objects', 'Unitystation': 'unitystation',
                      'tetris': 'Just another Tetris™ clone', 'twin-e': 'TwinEngine', 'super-methane-brothers-gx': 'Super Methane Brothers for Wii and GameCube',
-                     'CrossUO: Ultima Online': 'CrossUO', 'Doomsday': 'Doomsday Engine', 'OpMon': 'OPMon'}
+                     'CrossUO: Ultima Online': 'CrossUO', 'Doomsday': 'Doomsday Engine', 'OpMon': 'OPMon',
+                     '2048-python': '2048 Python'}
 
 # conversion between licenses syntax them and us
 osgc_licenses_map = {'GPL2': 'GPL-2.0', 'GPL3': 'GPL-3.0', 'AGPL3': 'AGPL-3.0', 'LGPL3': 'LGPL-3.0',
@@ -98,10 +99,10 @@ def unique_field_contents(entries, field):
 def compare_sets(a, b, name, limit=None):
     """
 
-    :param limit:
-    :param a:
-    :param b:
-    :param name:
+    :param limit: 'notus', 'notthem'
+    :param a: them
+    :param b: us
+    :param name: prefix in output
     :return:
     """
     p = ''
@@ -123,6 +124,7 @@ if __name__ == "__main__":
     # some parameter
     similarity_threshold = 0.8
     maximal_newly_created_entries = 40
+    check_similar_names = False
 
     # paths
     root_path = os.path.realpath(os.path.join(os.path.dirname(__file__), os.path.pardir))
@@ -234,23 +236,24 @@ if __name__ == "__main__":
     print('osgc-content: {}'.format(unique_field_contents(osgc_entries, 'content')))
 
     # read our database
-    our_entries = osg.assemble_infos()
+    our_entries = osg.read_entries()
     print('{} entries with us'.format(len(our_entries)))
 
     # just the names
     osgc_names = set([x['name'] for x in osgc_entries])
-    our_names = set([x['name'] for x in our_entries])
+    our_names = set([x['Title'] for x in our_entries])
     common_names = osgc_names & our_names
     osgc_names -= common_names
     our_names -= common_names
     print('{} in both, {} only in osgameclones, {} only with us'.format(len(common_names), len(osgc_names),
                                                                         len(our_names)))
     # find similar names among the rest
-    # print('look for similar names')
-    # for osgc_name in osgc_names:
-    #    for our_name in our_names:
-    #        if osg.name_similarity(osgc_name, our_name) > similarity_threshold:
-    #            print(' {} - {}'.format(osgc_name, our_name))
+    if check_similar_names:
+        print('look for similar names (theirs - ours)')
+        for osgc_name in osgc_names:
+           for our_name in our_names:
+               if osg.name_similarity(osgc_name, our_name) > similarity_threshold:
+                   print(' {} - {}'.format(osgc_name, our_name))
 
     newly_created_entries = 0
     # iterate over their entries
@@ -259,7 +262,7 @@ if __name__ == "__main__":
 
         is_included = False
         for our_entry in our_entries:
-            our_name = our_entry['name']
+            our_name = our_entry['Title']
 
             # find those that entries in osgameclones that are also in our database and compare them
             if osgc_name == our_name:
@@ -269,19 +272,21 @@ if __name__ == "__main__":
 
                 p = ''
 
+                # TODO key names have changed on our side
+
                 # compare their lang with our code language
                 if 'lang' in osgc_entry:
                     osgc_languages = osgc_entry['lang']
                     if type(osgc_languages) == str:
                         osgc_languages = [osgc_languages]
-                    our_languages = our_entry['code language']  # essential field
+                    our_languages = [x.value for x in our_entry['Code language']]  # essential field
                     p += compare_sets(osgc_languages, our_languages, 'code language')
 
                 # compare their license with our code and assets license
                 if 'license' in osgc_entry:
                     osgc_licenses = osgc_entry['license']
-                    our_code_licenses = our_entry['code license']  # essential field
-                    our_assets_licenses = our_entry.get('assets license', [])
+                    our_code_licenses = [x.value for x in our_entry['Code license']]  # essential field
+                    our_assets_licenses = [x.value for x in our_entry.get('Assets license', [])]
                     p += compare_sets(osgc_licenses, our_code_licenses + our_assets_licenses, 'licenses', 'notthem')
                     p += compare_sets(osgc_licenses, our_code_licenses, 'licenses', 'notus')
 
@@ -291,7 +296,7 @@ if __name__ == "__main__":
                     osgc_frameworks = osgc_entry['framework']
                     if type(osgc_frameworks) == str:
                         osgc_frameworks = [osgc_frameworks]
-                    our_frameworks = our_entry.get('code dependencies', [])
+                    our_frameworks = [x.value for x in our_entry.get('Code dependency', [])]
                     our_frameworks = [x.casefold() for x in our_frameworks]
                     our_frameworks = [x if x not in our_framework_replacements else our_framework_replacements[x] for x
                                       in our_frameworks]
@@ -307,14 +312,14 @@ if __name__ == "__main__":
                     osgc_repos = [x for x in osgc_repos if not x.startswith(
                         'sourceforge.net/projects/')]  # we don't need the general sites there
                     # osgc_repos = [x for x in osgc_repos if not x.startswith('https://sourceforge.net/projects/')] # ignore some
-                    our_repos = our_entry.get('code repository', [])
-                    our_repos = [utils.strip_url(url) for url in our_repos]
+                    our_repos = our_entry.get('Code repository', [])
+                    our_repos = [utils.strip_url(url.value) for url in our_repos]
                     our_repos = [x for x in our_repos if not x.startswith(
                         'gitlab.com/osgames/')]  # we do not yet spread our own deeds (but we will some day)
                     our_repos = [x for x in our_repos if
                                  'cvs.sourceforge.net' not in x and 'svn.code.sf.net/p/' not in x]  # no cvs or svn anymore
-                    our_downloads = our_entry.get('download', [])
-                    our_downloads = [utils.strip_url(url) for url in our_downloads]
+                    our_downloads = our_entry.get('Download', [])
+                    our_downloads = [utils.strip_url(url.value) for url in our_downloads]
                     p += compare_sets(osgc_repos, our_repos + our_downloads, 'repo',
                                       'notthem')  # if their repos are not in our downloads or repos
                     p += compare_sets(osgc_repos, our_repos[:1], 'repo',
@@ -326,8 +331,8 @@ if __name__ == "__main__":
                     if type(osgc_urls) == str:
                         osgc_urls = [osgc_urls]
                     osgc_urls = [utils.strip_url(url) for url in osgc_urls]
-                    our_urls = our_entry['home']
-                    our_urls = [utils.strip_url(url) for url in our_urls]
+                    our_urls = our_entry['Home']
+                    our_urls = [utils.strip_url(url.value) for url in our_urls]
                     p += compare_sets(osgc_urls, our_urls, 'url/home', 'notthem')  # if their urls are not in our urls
                     # our_urls = [url for url in our_urls if
                     #             not url.startswith('github.com/')]  # they don't have them as url
@@ -337,7 +342,7 @@ if __name__ == "__main__":
                 # compare their status with our state (playable can be beta/mature with us, but not playable must be beta)
                 if 'status' in osgc_entry:
                     osgc_status = osgc_entry['status']
-                    our_status = our_entry['state']  # essential field
+                    our_status = our_entry['State']  # essential field
                     if osgc_status != 'playable' and 'mature' in our_status:
                         p += ' status : mismatch : them {}, us mature\n'.format(osgc_status)
 
@@ -345,7 +350,7 @@ if __name__ == "__main__":
                 if 'development' in osgc_entry:
                     osgc_development = osgc_entry['development']
                     our_inactive = 'inactive' in our_entry
-                    our_status = our_entry['state']  # essential field
+                    our_status = our_entry['State']  # essential field
                     if osgc_development == 'halted' and not our_inactive:
                         p += ' development : mismatch : them halted - us not inactive\n'
                     if osgc_development in ['very active', 'active'] and our_inactive:
@@ -353,8 +358,8 @@ if __name__ == "__main__":
                     if osgc_development == 'complete' and 'mature' not in our_status:
                         p += ' development : mismatch : them complete, us not mature\n'
 
-                # compare their originals to our keywords (inspired by)
-                our_keywords = our_entry['keywords']
+                # compare their originals to our keywords (inspired by)  TODO inspired by is now separate field (Inspiration)
+                our_keywords = [x.value for x in our_entry['Keyword']]
                 if 'originals' in osgc_entry:
                     osgc_originals = osgc_entry['originals']
                     osgc_originals = [x.replace(',', '') for x in
@@ -406,6 +411,7 @@ if __name__ == "__main__":
         if not is_included:
             # a new entry, that we have never seen, maybe we should make an entry of our own
             # continue
+            # TODO we could use the write capabilities to write the entry in our own format, the hardcoded format here might be brittle, on the other hand we can also write slightly wrong stuff here without problems
 
             if newly_created_entries >= maximal_newly_created_entries:
                 continue
@@ -433,10 +439,6 @@ if __name__ == "__main__":
 
             # add name
             entry = '# {}\n\n'.format(osgc_name)
-
-            # add description
-            description = '{} of {}.'.format(game_type.capitalize(), ', '.join(osgc_entry['originals']))
-            entry += '_{}_\n\n'.format(description)
 
             # home
             home = osgc_entry.get('url', None)
@@ -476,7 +478,7 @@ if __name__ == "__main__":
                 osgc_content = ', '.join(osgc_content)
                 keywords.append(osgc_content)
             if keywords:
-                entry += '- Keywords: {}\n'.format(', '.join(keywords))
+                entry += '- Keyword: {}\n'.format(', '.join(keywords))
 
             # code repository (mandatory on our side)
             repo = osgc_entry.get('repo', None)
@@ -496,11 +498,15 @@ if __name__ == "__main__":
                 osgc_frameworks = osgc_entry['framework']
                 if type(osgc_frameworks) == str:
                     osgc_frameworks = [osgc_frameworks]
-                entry += '- Code dependencies: {}\n'.format(', '.join(osgc_frameworks))
+                entry += '- Code dependency: {}\n'.format(', '.join(osgc_frameworks))
+
+            # add description
+            description = '{} of {}.'.format(game_type.capitalize(), ', '.join(osgc_entry['originals']))
+            entry += '\n{}\n\n'.format(description)
 
             # write info (if existing)
             if 'info' in osgc_entry:
-                entry += '\n{}\n'.format(osgc_entry['info'])
+                entry += '\n{}\n\n'.format(osgc_entry['info'])
 
             # write ## Building
             entry += '\n## Building\n'
@@ -512,10 +518,10 @@ if __name__ == "__main__":
     # now iterate over our entries and test if we can add anything to them
     print('entry that could be added to them')
     for our_entry in our_entries:
-        our_name = our_entry['name']
+        our_name = our_entry['Title']
 
         # only if contains a keyword starting with "inspired by" and not "tool", "framework" or "library"
-        our_keywords = our_entry['keywords']
+        our_keywords = our_entry['Keyword']
         if not any([x.startswith('inspired by ') for x in our_keywords]):
             continue
         if any([x in ['tool', 'library', 'framework'] for x in our_keywords]):

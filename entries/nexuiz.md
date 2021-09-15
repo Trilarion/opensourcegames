@@ -12,6 +12,6 @@
 - Code dependency: DarkPlaces
 - Developer: Andreas Kirsch, Benjamin Darling, Dan Korostelev, esteel, Forest Hale, Hans Dampf, Kristian Johansson, Lee Vermeulen, Morphed, RazorWind Team projects, Rudolf Polzer, Saulo Gil, SavageX, SeienAbunae
 
-See https://github.com/atphalix/nexuiz
+See https://github.com/atphalix/nexuiz, https://gitlab.com/nyov/nyovs-nexuiz
 
 ## Building

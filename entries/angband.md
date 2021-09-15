@@ -11,6 +11,4 @@
 - Code dependency: SDL
 - Developer: 3m4r, ajps, Alex Mooney, Anna Sidwell, artes-liberales, backwardsEric, Bardur Arantsson, Ben Semmler, Chris Carr, CJNyfalt, Colin Woodbury, Cuboideb, Dag Arneson, David Barr, David Medley, Eastwind921, Erik Osheim, fizzix, jenschou, kjfletch, Kusunose Toru, LostTemplar, LuthienCeleste, Mikolaj Konarski, Nick McConnell, pete-mack, Peter Denison, ridiculousfish, Ryan Schmidt, Spenser Black, sulkasormi, Tim Schumacher
 
-Single-player dungeon exploration game.
-
 ## Building

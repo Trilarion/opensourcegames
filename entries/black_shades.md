@@ -1,6 +1,7 @@
 # Black Shades
 
 - Home: http://www.icculus.org/blackshades/, https://sr.ht/~cnx/blackshades/
+- Media: http://wolfire.com/blackshades.html, https://en.wikipedia.org/wiki/Black_Shades
 - State: mature
 - Platform: Windows, Linux, macOS
 - Keyword: simulation, first-person, shooter

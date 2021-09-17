@@ -52,7 +52,8 @@ osgc_name_aliases = {'4DTris': '4D-TRIS', 'fheroes2': 'Free Heroes 2', 'DrCreep'
                      'Super Mario Bros And Level Editor in C#': 'Mario Objects', 'Unitystation': 'unitystation',
                      'tetris': 'Just another Tetris™ clone', 'twin-e': 'TwinEngine', 'super-methane-brothers-gx': 'Super Methane Brothers for Wii and GameCube',
                      'CrossUO: Ultima Online': 'CrossUO', 'Doomsday': 'Doomsday Engine', 'OpMon': 'OPMon',
-                     '2048-python': '2048 Python'}
+                     '2048-python': '2048 Python', 'Free Heroes 2 - Enhanced': 'Free Heroes 2', 'ironseed_fpc': 'ironseed',
+                     'KKnD': 'OpenKrush'}
 
 # conversion between licenses syntax them and us
 osgc_licenses_map = {'GPL2': 'GPL-2.0', 'GPL3': 'GPL-3.0', 'AGPL3': 'AGPL-3.0', 'LGPL3': 'LGPL-3.0',
@@ -358,18 +359,15 @@ if __name__ == "__main__":
                     if osgc_development == 'complete' and 'mature' not in our_status:
                         p += ' development : mismatch : them complete, us not mature\n'
 
-                # compare their originals to our keywords (inspired by)  TODO inspired by is now separate field (Inspiration)
-                our_keywords = [x.value for x in our_entry['Keyword']]
+                # get our keywords
+                our_keywords = [x.value for x in our_entry['Keyword']] # essential
+
+                # compare their originals to our inspirations
+                our_originals = [x.value for x in our_entry.get('Inspiration', [])]
                 if 'originals' in osgc_entry:
                     osgc_originals = osgc_entry['originals']
                     osgc_originals = [x.replace(',', '') for x in
                                       osgc_originals]  # we cannot have ',' or parts in parentheses in original names
-                    our_originals = [x for x in our_keywords if x.startswith('inspired by ')]
-                    if our_originals:
-                        assert len(our_originals) == 1, '{}: {}'.format(our_name, our_originals)
-                        our_originals = our_originals[0][11:].split('+')
-                        our_originals = [x.strip() for x in our_originals]
-                    our_originals = [x for x in our_originals if x not in ['Doom II']]  # ignore same
                     p += compare_sets(osgc_originals, our_originals, 'originals')
 
                 # compare their multiplayer with our keywords (multiplayer) (only lowercase comparison)
@@ -444,6 +442,13 @@ if __name__ == "__main__":
             home = osgc_entry.get('url', None)
             entry += '- Home: {}\n'.format(home)
 
+            # inspiration
+            if 'originals' in osgc_entry:
+                osgc_originals = osgc_entry['originals']
+                if type(osgc_originals) == str:
+                    osgc_originals = [osgc_originals]
+                entry += '- Inspiration: {}\n'.format(', '.join(osgc_originals))
+
             # state
             entry += '- State: {}'.format(osgc_status)
             if 'development' in osgc_entry:
@@ -463,11 +468,6 @@ if __name__ == "__main__":
             keywords = []
             if game_type:
                 keywords.append(game_type)
-            if 'originals' in osgc_entry:
-                osgc_originals = osgc_entry['originals']
-                if type(osgc_originals) == str:
-                    osgc_originals = [osgc_originals]
-                keywords.append('inspired by {}'.format(' + '.join(osgc_originals)))
             if 'multiplayer' in osgc_entry:
                 osgc_multiplayer = osgc_entry['multiplayer']
                 if type(osgc_multiplayer) == str:

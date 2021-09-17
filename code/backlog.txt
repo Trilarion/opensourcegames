@@ -1,31 +1,11 @@
-ftp://ftp.tuxpaint.org/unix/ (all of them)
-ftp://ftp.tuxpaint.org/unix/x/
-http://androidsoft.org/ (all of them)
-http://antongerdelan.net/blog/ (other projects besides TestDrive)
 http://cdetect.sourceforge.net/
-http://circularstudios.com/
-http://cyxdown.free.fr/bs/
-http://cyxdown.free.fr/f2b/
 http://dead-code.org/home/
-http://e-adventure.e-ucm.es/login/index.php (games of eAdventure)
 http://ethernet.wasted.ch/
 http://game-editor.com/Main_Page
 http://giderosmobile.com/
 http://haxepunk.com/
-http://hcsoftware.sourceforge.net/jason-rohrer/ (various games there)
 http://hge.relishgames.com/
 http://hgm.nubati.net/
-http://icculus.org/
-http://icculus.org/asciiroth/
-http://icculus.org/avp/
-http://icculus.org/bitstream/
-http://icculus.org/d2x/
-http://icculus.org/freespace2/
-http://icculus.org/freyja/
-http://icculus.org/hge-unix/
-http://icculus.org/jugglemaster/
-http://icculus.org/pyddr/
-http://icculus.org/toby/
 http://iichantra.ru/en/
 http://insideastarfilledsky.net/
 http://lazerbears.wixsite.com/lazerbears/cr-editor
@@ -40,7 +20,6 @@ http://openapoc.pmprog.co.uk/
 http://pathfinder.wikia.com/wiki/Pathfinder_Roleplaying_Game
 http://playir.com/
 http://pyopengl.sourceforge.net/
-http://pypy.org/ (search for games)
 http://rcbasic.com/
 http://retrospec.sgn.net
 http://roguebasin.roguelikedevelopment.org/index.php?title=Main_Page
@@ -80,23 +59,11 @@ http://www.finkproject.org/index.php?phpLang=en (do they have games)
 http://www.freemmorpgmaker.com/
 http://www.gameplay3d.io/
 http://www.garagegames.com/products/torque-3d
-http://www.gjt.org/ (all there)
-http://www.gnu.org/ (search for games)
 http://www.goldenstudios.or.id/products/games/index.php
 http://www.goldenstudios.or.id/products/GTGE/
 http://www.happypenguin.org/show?XKobo (offline)
 http://www.hard-light.net/
-http://www.ibiblio.org/pub/Linux/games/strategy/ (and all others)
 http://www.ifwiki.org/index.php/Main_Page
-http://www.indiedb.com/engines/aqua
-http://www.indiedb.com/engines/bloxel/downloads
-http://www.indiedb.com/engines/dragonsource
-http://www.indiedb.com/engines/gameleon
-http://www.indiedb.com/engines/mirage-legacy-2d-orpg-engine
-http://www.indiedb.com/engines/mugen
-http://www.indiedb.com/engines/prospekt-source
-http://www.indiedb.com/engines/ymir
-http://www.indiedb.com/engines/zweide/downloads
 http://www.isogenicengine.com/
 http://www.j4game.com/
 http://www.kiwijs.org/
@@ -114,11 +81,6 @@ http://www.ossblog.org/fun-play-open-source-turn-based-strategy-games/ (and othe
 http://www.paulscode.com/games/
 http://www.ph2.net/zugspiel/
 http://www.plasmapong.com/plasma-pong/plasma-pong/
-http://www.roguebasin.com (all)
-http://www.roguebasin.com/index.php?title=Advanced_Rogue
-http://www.roguebasin.com/index.php?title=Category:Roguelike_games
-http://www.roguebasin.com/index.php?title=UltraRogue
-http://www.roguebasin.com/index.php?title=XRogue
 http://www.rpgtoolkit.net/
 http://www.rtsoft.com/novashell/
 http://www.sandboxgamemaker.com/
@@ -224,6 +186,7 @@ https://github.com/craftworkgames/MonoGame.Extended
 https://github.com/cymonsgames/CymonsGames (collection)
 https://github.com/DaanVanYperen/artemis-odb-contrib
 https://github.com/db0/godot-card-gaming
+https://github.com/dgcor/DGEngine.core
 https://github.com/Donerkebap13/DonerComponents
 https://github.com/Drasky-Vanderhoff/CommonDrops
 https://github.com/Dzierzan/OpenSA
@@ -295,7 +258,6 @@ https://github.com/McKay42/McOsu
 https://github.com/megamarc/Tilengine
 https://github.com/mewo2/terrain
 https://github.com/mgerhardy/engine
-https://github.com/mofr/Diablerie
 https://github.com/momentum-mod/game
 https://github.com/mono/CocosSharp
 https://github.com/MonoGame/MonoGame.Samples
@@ -308,6 +270,7 @@ https://github.com/MustaphaTR/Romanovs-Vengeance
 https://github.com/MyGUI/mygui
 https://github.com/MyreMylar/pygame_gui
 https://github.com/nCine/nCine
+https://github.com/netwarm007/GameEngineFromScratch
 https://github.com/nezvers/Godot_goodies
 https://github.com/nfprojects/nfengine
 https://github.com/NickMcConnell/FAangband
@@ -431,12 +394,6 @@ https://itch.io/ (scrape, look for open source)
 https://jcrpg.blogspot.de/
 https://jotd.pagesperso-orange.fr/ (several games)
 https://kde.org/applications/games/ (all of them)
-https://lgdb.org/ (ask on reddit for archived version)
-https://lgdb.org/engine/rawgl
-https://lgdb.org/game/katawa_shoujo
-https://lgdb.org/game/our-personal-space
-https://lgdb.org/game/sunrider
-https://lgdb.org/game/visions_other_side
 https://libregamewiki.org/Alexei:_Part_IX
 https://libregamewiki.org/CameliaGirls
 https://libregamewiki.org/Childish_Cannoneer
@@ -457,19 +414,6 @@ https://pixeldoctrine.com/index.html (more than just slime volleyball)
 https://play.google.com/store/apps/dev?id=8387589286898375037 (where is the source, not open source otherwise)
 https://playcanvas.com/
 https://projects.tuxfamily.org/ (all of them)
-https://pygame.org/project-Dododu-1134-.html
-https://pygame.org/project-Lands+of+Elderlore-294-.html
-https://pygame.org/project-LOF-2296-.html
-https://pygame.org/project-Mines+of+Elderlore-674-.html
-https://pygame.org/project-Monstrosity-2993-.html
-https://pygame.org/project-Phantasy+Star+Rebirth-1704-.html
-https://pygame.org/project-The+Cabbages-2077-.html
-https://pypi.org/project/CherryPy/
-https://pypi.org/project/neteria/
-https://pypi.org/project/networkx/
-https://pypi.org/project/PyAMF/
-https://pypi.org/project/SQLAlchemy/
-https://pypi.org/project/TurboGears/
 https://pyweek.org/4/entries/ (Ascent of Justice)
 https://repology.org/ (for looking up other repositories of games)
 https://revolutionarygamesstudio.com/ Trhive
@@ -537,10 +481,6 @@ https://www.gamingonlinux.com/free-games/ (all of them that are open source)
 https://www.glitchthegame.com/ (Glitch the game, by Tiny Speck Inc. public domain)
 https://www.gog.com/forum/general/free_open_source_games (and suggestions therein)
 https://www.libretro.com/
-https://www.moddb.com/ (scrape, look for open source)
-https://www.moddb.com/engines/pyrogenesis
-https://www.moddb.com/engines/sage-strategy-action-game-engine
-https://www.moddb.com/mods/ (search for all)
 https://www.musztardasarepska.pl/wgdown/
 https://www.ness-engine.com/
 https://www.old-games.ru/forum/threads/nekommercheskie-analogi-izvestnyx-igr.40868/page-9

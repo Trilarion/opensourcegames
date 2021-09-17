@@ -8,6 +8,6 @@
 - Code repository: https://github.com/Martenfur/Monofoxe.git
 - Code language: C#
 - Code license: MIT
-- Code dependency: Monogame
+- Code dependency: MonoGame
 
 ## Building

@@ -10,7 +10,7 @@
 - Code repository: https://github.com/freedoom/freedoom.git (@created 2012, @stars 535, @forks 112)
 - Code language: None (content only)
 - Code license: None (content only)
-- Code dependency: Doom, Pillow
+- Code dependency: Doom engine, Pillow
 - Assets license: 3-clause BSD
 - Developer: Alexandre-Xavier Labonté-Lamoureux, AlteriusZhang, andwj, Ayub Ahmed, Catoptromancy, Erick Tenorio, Fabian Greffrath, Fernando Carmona Varo, HorroMovieGuy, Hugo Locurcio, jewellds, Kevin Caccamo, mc776, Mechadon, Mike Swanson, raymoohawk, RjY, Samuel Oliver, Simon Howard, Steven Elliott, Wereknight, Xindage
 

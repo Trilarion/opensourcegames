@@ -10,4 +10,4 @@
 
 ## Building
 
-- Build system: Make, VisualStudio, XCode
+- Build system: Make, Visual Studio, Xcode

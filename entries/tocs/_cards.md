@@ -5,6 +5,7 @@
 - **[BetterSpades](../betterspades.md)** (C, GPL-3.0, beta)
 - **[Card Stories](../card_stories.md)** (JavaScript, Python, AGPL-3.0, beta, inactive since 2012)
 - **[Deer Portal](../deer_portal.md)** (C++, zlib, beta)
+- **[Forge](../forge.md)** (Java, GPL-3.0, mature)
 - **[Gnome Hearts](../gnome_hearts.md)** (Python, GPL-2.0, mature, inactive since 2015)
 - **[Heroes of Civilizations](../heroes_of_civilizations.md)** (C++, C#, GPL-2.0, beta)
 - **[JSkat](../jskat.md)** (Java, GPL-3.0, Apache-2.0, beta)

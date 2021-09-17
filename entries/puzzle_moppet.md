@@ -8,7 +8,7 @@
 - Code repository: https://bitbucket.org/Knitter/puzzlemoppet.git
 - Code language: C++
 - Code license: WTFPL
-- Code dependency: Irrlicht
+- Code dependency: Irrlicht engine
 - Assets license: CC-BY-SA-3.0, GPL-3, WTFPL
 - Developer: Sérgio Lopes
 

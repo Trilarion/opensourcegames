@@ -16,6 +16,7 @@
 - **[Candy Memory](../candy_memory.md)** (Java, GPL-2.0, mature, inactive since 2018)
 - **[Catan Dice Game](../catan_dice_game.md)** (Java, GPL-3.0, mature)
 - **[CaveExpress](../caveexpress.md)** (C, JavaScript, GPL-3.0, mature)
+- **[ClassiCube](../classicube.md)** (C, 3-clause BSD, mature)
 - **[Commander Genius](../commander_genius.md)** (C, C++, GPL-2.0, mature)
 - **[Critical Velocity](../critical_velocity.md)** (Java, Apache-2.0, mature, inactive since 2017)
 - **[Crosswords](../crosswords.md)** (Java, GPL-2.0, mature)

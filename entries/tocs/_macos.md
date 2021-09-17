@@ -36,6 +36,7 @@
 - **[Chunk Stories](../chunk_stories.md)** (Kotlin, Java, LGPL-3.0, beta)
 - **[Circus Linux!](../circus_linux.md)** (C, GPL-2.0, mature, inactive since 2000)
 - **[Citybound](../citybound.md)** (Rust, JavaScript, AGPL-3.0, beta)
+- **[ClassiCube](../classicube.md)** (C, 3-clause BSD, mature)
 - **[Colditz Escape](../colditz_escape.md)** (C, GPL-3.0, mature)
 - **[CoTerminalApps](../coterminalapps.md)** (Ada, GPL-3.0, mature)
 - **[Craft](../craft.md)** (C, Python, MIT, mature, inactive since 2017)

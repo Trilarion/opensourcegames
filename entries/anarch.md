@@ -2,7 +2,7 @@
 
 - Home: https://gitlab.com/drummyfish/anarch
 - State: mature
-- Keyword: action, first person, open content, shooter
+- Keyword: action, first-person, open content, shooter
 - Code repository: https://gitlab.com/drummyfish/anarch.git
 - Code language: C
 - Code license: CC0

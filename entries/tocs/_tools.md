@@ -20,6 +20,7 @@
 - **[KevEdit](../kevedit.md)** (C, GPL-2.0, mature)
 - **[Libre: The Open Source Card Game](../libre_the_open_source_card_game.md)** (Python, AGPL-3.0, mature, inactive since 2010)
 - **[Mafia: Toolkit](../mafia_toolkit.md)** (C#, MIT, mature)
+- **[Memoria](../memoria.md)** (C#, MIT, mature)
 - **[Monster Generator](../monster_generator.md)** (Java, MIT, mature)
 - **[Necklace of the Eye](../necklace_of_the_eye.md)** (C++, GPL-3.0, mature, inactive since 2016)
 - **[opsu!](../opsu.md)** (Java, GPL-3.0, mature)

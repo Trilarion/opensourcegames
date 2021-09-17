@@ -3,6 +3,7 @@
 
 - **[3D Pong](../3d_pong.md)** (C, GPL-2.0, beta, inactive since 2004)
 - **[A7Xpg](../a7xpg.md)** (D, 2-clause BSD, beta, inactive since 2005)
+- **[Achtung, die Kurve!](../achtung_die_kurve.md)** (JavaScript, AGPL-3.0, mature)
 - **[Airstrike](../airstrike.md)** (C, GPL-2.0, beta, inactive since 2014)
 - **[Aisleriot](../aisleriot.md)** (C, Scheme, GPL-3.0, mature)
 - **[antiyoy](../antiyoy.md)** (Java, GPL-3.0, beta)
@@ -21,6 +22,7 @@
 - **[Bouncy the Hungry Rabbit](../bouncy_the_hungry_rabbit.md)** (Python, GPL-2.0, mature, inactive since 2007)
 - **[Candy Memory](../candy_memory.md)** (Java, GPL-2.0, mature, inactive since 2018)
 - **[CAVEZ of PHEAR](../cavez_of_phear.md)** (C, GPL-3.0, beta, inactive since 2011)
+- **[Columns](../columns.md)** (C++, zlib, mature)
 - **[Critical Velocity](../critical_velocity.md)** (Java, Apache-2.0, mature, inactive since 2017)
 - **[Cross The Road](../cross_the_road.md)** (Elm, AGPL-3.0, mature)
 - **[Destination Sol](../destination_sol.md)** (Java, Apache-2.0, mature)

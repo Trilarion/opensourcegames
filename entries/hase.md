@@ -3,7 +3,7 @@
 - Home: https://github.com/theZiz/hase
 - Inspiration: Hedgewars, Warheads, Worms
 - State: beta
-- Keyword: strategy, artillery, open content, turn based
+- Keyword: strategy, artillery, open content, turn-based
 - Code repository: https://github.com/theZiz/hase.git
 - Code language: C
 - Code license: GPL-3.0

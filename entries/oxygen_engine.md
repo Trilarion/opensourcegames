@@ -12,4 +12,4 @@ https://github.com/xrOxygen/xray-oxygen is gone
 
 ## Building
 
-- Build system: VisualStudio
+- Build system: Visual Studio

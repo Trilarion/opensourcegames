@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://www.ezquake.com/downloads.html
 - Platform: Windows, Linux, macOS
-- Keyword: remake, shooter
+- Keyword: action, remake, shooter
 - Code repository: https://github.com/ezQuake/ezquake-source.git (@created 2010, @stars 171, @forks 86)
 - Code language: C, C++
 - Code license: GPL-2.0

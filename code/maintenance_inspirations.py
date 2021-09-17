@@ -3,7 +3,8 @@ Maintenance of inspirations.md and synchronization with the inspirations in the 
 """
 
 # TODO search fandom
-# TODO which inspirations have wikipedia entries with open source games category by aren't included
+# TODO which inspirations have wikipedia entries with open source games category but aren't included
+# TODO if update included entries are included, update entries with media too
 
 import time
 from utils import osg, osg_ui, osg_wikipedia, constants as c

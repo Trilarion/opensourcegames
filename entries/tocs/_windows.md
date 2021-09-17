@@ -64,6 +64,7 @@
 - **[Citybound](../citybound.md)** (Rust, JavaScript, AGPL-3.0, beta)
 - **[ClanLib](../clanlib.md)** (C, C++, zlib, mature)
 - **[Classic RBDoom 3 BFG](../classic_rbdoom_3_bfg.md)** (C, C++, GPL-3.0, mature)
+- **[ClassiCube](../classicube.md)** (C, 3-clause BSD, mature)
 - **[Clonepoint](../clonepoint.md)** (C++, GPL-3.0, beta)
 - **[Colditz Escape](../colditz_escape.md)** (C, GPL-3.0, mature)
 - **[Combat Simulator Project](../combat_simulator_project.md)** (C++, GPL-2.0, beta, inactive since 2010)

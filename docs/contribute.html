@@ -12,7 +12,7 @@
 <body><nav class="navbar container is-light" aria-label="main navigation">
   <div class="navbar-menu">
     <div class="navbar-start">
-      <a class="navbar-item is-active" href="index.html"><span class="icon is-large has-text-black" ><i class="icon-home"></i></span><span>Home</span></a>
+      <a class="navbar-item" href="index.html"><span class="icon is-large has-text-black" ><i class="icon-home"></i></span><span>Home</span></a>
       <a class="navbar-item" href="games/index.html"><span class="icon is-large has-text-black" ><i class="icon-dice"></i></span><span>Games</span></a>
       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link"><span class="icon is-large has-text-black" ><i class="icon-filter"></i></span><span>Filter</span></a>
@@ -27,27 +27,44 @@
       <a class="navbar-item" href="developers/index.html"><span class="icon is-large has-text-black" ><i class="icon-users"></i></span><span>Developers</span></a>
       <a class="navbar-item" href="inspirations/index.html"><span class="icon is-large has-text-black" ><i class="icon-bulb"></i></span><span>Inspirations</span></a>
       <a class="navbar-item" href="statistics.html"><span class="icon is-large has-text-black" ><i class="icon-stats-dots"></i></span><span>Statistics</span></a>
-      <a class="navbar-item" href="contribute.html"><span class="icon is-large has-text-black" ><i class="icon-pencil"></i></span><span>Contribute</span></a>
+      <a class="navbar-item is-active" href="contribute.html"><span class="icon is-large has-text-black" ><i class="icon-pencil"></i></span><span>Contribute</span></a>
       <a class="navbar-item" href="https://github.com/Trilarion/opensourcegames"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span><span>On GitHub</span></a>
     </div>
   </div>
 </nav>
-  <section class="hero is-info is-bold">
-  <div class="hero-body">
-    <div class="container content">
-      <h1 class="title">Open source games list (OSGL)</h1>
-      <p class="subtitle">Contains information about 1437 open source games and 182 frameworks/tools.</p>
-      <p>The content of this site is based on a collection of open source game descriptions stored on <a href="https://github.com/Trilarion/opensourcegames">Github</a>.
-        The descriptions concentrate on technical and general aspects of the games. Lots of sorting options are available and a list of inspirations and developers is cross-referenced.
-        This work is a best-effort based result and will surely contain inaccurate information.<br>
-        Please help improve the content (see <a href="contribute.html">contribution guidelines</a>).
-      </p>
-      <figure class="image is-2by1">
-        <img src="collage_games.jpg" alt="">
-      </figure>
+<section class="section">
+  <div class="container">
+    <div class="box content">
+      <h1 class="title is-size-4">Contribution guide</h1>
+      <p>Please help improve the content of this site. The preferred way to contribute or give feedback is:</p>
+      <ul>
+        <li>Open an <a href="https://github.com/Trilarion/opensourcegames/issues">issue at the Github page</a>.</li>
+        <li>Fork the Github project and create a <a href="https://github.com/Trilarion/opensourcegames/pulls">pull request</a> (if you are familiar with that).</li>
+        <li>Send an email to ...</li>
+      </ul>
     </div>
+    <div class="box">
+      <div class="block">
+        <h2 id="games">Improving games/frameworks/tools information</h2>
+        <p>Entries for open source games, gaming engines and gaming tools are stored as human readable text version in a markdown format (<a href="">example</a>).
+        For each entry, the database content can be seen when clicking on "Raw entry" below the entry. You can suggest corrections or updates to an entry or a list of entries in one of the following ways:</p>
+      </div>
     </div>
-  </section>
+    <div class="box">
+      <div class="block">
+        <h2 id="developers">Improving developers information</h2>
+        <p>The developer information is stored in a single big file (<a href="">developer database</a>) and relates developers to open source games they have participated in. Additionally, developer profiles on GitHub, SourceForge or BitBucket are linked on
+        a developer information and again on the game entries, in the developers field, all developers are listed. The relation between developers and games is stored twice to allow for both search directions, i.e. find all developers of a game or all games of a developer.
+        A consistency check will run regularly on the content and will give precedence to the developer names stored in the games entries (the games list stored in the developer information will be overwritten).</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="block">
+        <h2 id="inspirations">Improving inspirations information</h2>
+      </div>
+    </div>
+  </div>
+</section>
 <footer class="footer">
   <div class="container content is-size-7">
     <p>The <a href="https://github.com/Trilarion/opensourcegames">Open source games list (OSGL)</a> is a collection of open source game descriptions focusing on technical aspects.

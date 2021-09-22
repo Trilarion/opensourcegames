@@ -43574,9 +43574,9 @@
 - Games: Godot
 - Contact: samgreen@GH
 
-## Sam Hocevar [4]
+## Sam Hocevar [5]
 
-- Games: Chromium B.S.U., Eat The Whistle, Not Pacman, Powermanga
+- Games: Chromium B.S.U., Eat The Whistle, Monsterz, Not Pacman, Powermanga
 - Contact: samhocevar@GH, sammy@SF
 - Home: http://sam.hocevar.net/
 

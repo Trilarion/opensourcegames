@@ -1731,6 +1731,10 @@
 - Inspired entries: OpenNotrium
 - Media: https://en.wikipedia.org/wiki/Notrium
 
+## NScripter [1]
+
+- Inspired entries: ONScripter
+
 ## Nuclear Reaction [2]
 
 - Inspired entries: c64-nuclearreaction, chainreaction
@@ -2396,7 +2400,6 @@
 
 - Inspired entries: Sourcehold
 - Media: https://en.wikipedia.org/wiki/Stronghold_(2001_video_game)
-
 
 ## Stunts [1]
 

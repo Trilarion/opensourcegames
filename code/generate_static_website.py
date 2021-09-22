@@ -19,7 +19,7 @@ Listing:
 
 # pre-release
 
-# project LICENSE file not auto recognized by Github (use https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md instead)
+# TODO minimize size (html tag optimization) jinja template optimization
 
 # TODO contribute.html add content
 
@@ -32,7 +32,7 @@ Listing:
 # TODO statistics: with nice graphics (pie charts in SVG) with matplotlib, seaborn, plotly?
 # TODO statistics: get it from common statistics generator
 
-# TODO frameworks: icons for frameworks/libraryies/tools
+# TODO frameworks: icons for frameworks/libraries/tools
 
 # TODO filter by category: icons too large (overlapping)
 
@@ -57,6 +57,16 @@ Listing:
 # TODO games: link to dependencies (either if existing or if url)
 # TODO games: javascript table
 # TODO games: repositories comments have too much space after( and before )
+
+# TODO languages: C# redirects to C
+
+# TODO keywords: explain most common ones
+
+# TODO categories: use icon-text as in https://bulma.io/documentation/elements/icon/ instead of is-large
+
+# TODO info: show only first line of info (which should be a short description if present)
+
+# TODO developers: anchors to non-latin written developers do not work (chinese names have simply xxxxx)
 
 # TODO SEO optimizations, google search ...
 # TODO sitemap

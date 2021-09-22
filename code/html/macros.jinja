@@ -6,7 +6,7 @@
   {%- for e in entry -%}{{ render_element(e) }}{%- endfor -%}
 {%- elif entry['type'] == 'text' -%}
   {{ render_text(entry) }}
- {%- elif entry['type'] == 'icon' -%}
+{%- elif entry['type'] == 'icon' -%}
   {{ render_icon(entry) }}
 {%- elif entry['type'] == 'url' -%}
   {{ render_url(entry) }}
@@ -32,7 +32,7 @@
 
 {# Renders an icon #}
 {%- macro render_icon(icon) -%}
-<span class="icon has-text-black" {% if 'title' in icon %} title="{{ icon['title'] }}"{% endif %}><i class="icon-{{ icon['class'] }}"></i></span>
+<span class="icon is-large has-text-black" {% if 'title' in icon %} title="{{ icon['title'] }}"{% endif %}><i class="icon-{{ icon['class'] }}"></i></span>
 {%- endmacro -%}
 
 {# Some text surrounded by a link tag #}

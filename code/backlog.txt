@@ -1,43 +1,8 @@
-http://cdetect.sourceforge.net/
-http://dead-code.org/home/
-http://ethernet.wasted.ch/
-http://game-editor.com/Main_Page
-http://giderosmobile.com/
-http://haxepunk.com/
-http://hge.relishgames.com/
-http://hgm.nubati.net/
-http://iichantra.ru/en/
-http://insideastarfilledsky.net/
-http://lazerbears.wixsite.com/lazerbears/cr-editor
-http://libagar.org/agar/index.html.en
-http://libsdl-android.sourceforge.net/
-http://lukaszjakowski.pl/ (games apart from uMario)
-http://m484games.ucoz.com/
-http://martindrapeau.github.io/backbone-game-engine/
-http://media.pyweek.org/dl/7/ (all of them)
-http://onscripter.osdn.jp/onscripter.html
-http://openapoc.pmprog.co.uk/
-http://pathfinder.wikia.com/wiki/Pathfinder_Roleplaying_Game
-http://playir.com/
-http://pyopengl.sourceforge.net/
-http://rcbasic.com/
-http://retrospec.sgn.net
-http://roguebasin.roguelikedevelopment.org/index.php?title=Main_Page
-http://sam.zoy.org/monsterz/
-http://senseis.xmp.net/?GoPlayingPrograms
-http://sio2interactive.com/
-http://slick.ninjacave.com/
-http://snowstorm.sourceforge.net/cgi-bin/site.cgi
 http://sol.gfxile.net/ambrose3d/index.html
-http://stage.gamecreation.org/ (all of them)
-http://stellarengine.nongnu.org/games.html (all the games)
 http://storygamecreator.webs.com/
-http://sumwars.org/wiki/Main_Page
 http://svn.assembla.com/svn/gdpl/
 http://turbu-rpg.com/
 http://web.archive.org/web/20071218214256/http://users.tkk.fi/~eye/roguelike/nethack.html
-http://wiki.gp2x.org/articles/g/a/m/Category:Games.html (all of them)
-http://wiki.scummvm.org/index.php/HOWTO-Fangames
 http://wiki.stellarforces.com/
 http://ww12.atomicgameengine.com
 http://www.13thmonkey.org/~boris/jgame/
@@ -55,7 +20,6 @@ http://www.divgo.net/
 http://www.dosbox.com/download.php?main=1
 http://www.drpetter.se/project_sfxr.html
 http://www.dungeoncrawl.org/?d.l
-http://www.finkproject.org/index.php?phpLang=en (do they have games)
 http://www.freemmorpgmaker.com/
 http://www.gameplay3d.io/
 http://www.garagegames.com/products/torque-3d
@@ -77,7 +41,6 @@ http://www.myandroidonline.com/category/games/
 http://www.netgore.com/
 http://www.newbreedsoftware.com/ (all)
 http://www.oletus.fi/games/
-http://www.ossblog.org/fun-play-open-source-turn-based-strategy-games/ (and others there)
 http://www.paulscode.com/games/
 http://www.ph2.net/zugspiel/
 http://www.plasmapong.com/plasma-pong/plasma-pong/
@@ -87,9 +50,6 @@ http://www.sandboxgamemaker.com/
 http://www.scirra.com/construct-classic
 http://www.siedler25.org/index.php?com=dynamic&mod=1&lang=en&PHPSESSID=0hmj4aug1fqa80jbk15kcafh71
 http://www.silversecond.com/WolfRPGEditor/
-http://www.sourceforge.net/projects/ika
-http://www.sourceforge.net/projects/lgames (all of them)
-http://www.sourceforge.net/projects/stratagus
 http://www.spheredev.org/
 http://www.surfline.ne.jp/hachi/xsoldier.html
 http://www.usgo.org/go-software
@@ -99,7 +59,6 @@ http://www.zsnes.com/ (emulator/platform)
 https://001gamecreator.com/
 https://agateau.com/games/
 https://aleph-one-marathon.github.io/
-https://alternativeto.net/ (query with only open source as option)
 https://app.assembla.com/spaces/openrpg/wiki
 https://app.assembla.com/spaces/Project_Valkyrie2/wiki
 https://appimage.github.io/categories/Game
@@ -107,26 +66,20 @@ https://appimage.org/
 https://arcade.academy/
 https://archive.codeplex.com/?p=turnota
 https://archive.codeplex.com/?p=voxeliq
-https://archive.org/details/Gna_code_hosting (all of them)
-https://awesomeopensource.com/categories/games
-https://awesomeopensource.com/projects/strategy-game (and others there)
-https://awesomeopensource.com/projects/strategy/turn-based (and others there)
 https://blenderartists.org/t/devils-pinball/552785
 https://blends.debian.org/games/tasks/
 https://blends.debian.org/games/tasks/racing
 https://carrot.soulweaver.fi/#links
 https://cocainediesel.fun/
 https://code.google.com/archive/p/galacticthrone/
+https://code.google.com/archive/p/gamekit/
 https://code.google.com/archive/p/primitivewars/
 https://code.google.com/archive/p/scummgen/
 https://code.google.com/archive/p/tecbattle/
 https://code.launchpad.net/~flosoft/s25rttr/trunk
 https://conquertheworldbycode.wordpress.com/nostalgia-2/
-https://directory.fsf.org/wiki/Collection:GNOME_Games (all of them)
-https://dosgames.com/about.php (search for public domain games with sources)
 https://dosgames.com/forum/about19706.html
 https://dragengine.rptd.ch/
-https://drodin.com/ (all games there)
 https://eblong.com/zarf/twilight/index.html
 https://edu.kde.org/
 https://empiredirectory.net/
@@ -138,30 +91,12 @@ https://en.wikipedia.org/w/index.php?title=Kdegames&action=edit&redlink=1
 https://en.wikipedia.org/w/index.php?title=Simon_Tatham%27s_Portable_Puzzle_Collection&action=edit&redlink=1
 https://en.wikipedia.org/w/index.php?title=Simple_Solitaire_Collection&action=edit&redlink=1
 https://en.wikipedia.org/w/index.php?title=Trigger_Rally&action=edit&redlink=1
-https://en.wikipedia.org/wiki/Catacomb_(video_game) (released under GNU)
-https://en.wikipedia.org/wiki/Category:Open-source_video_games (all of them)
-https://en.wikipedia.org/wiki/GNOME_Games_Collection
-https://en.wikipedia.org/wiki/List_of_commercial_video_games_released_as_freeware
-https://en.wikipedia.org/wiki/List_of_commercial_video_games_with_available_source_code
-https://en.wikipedia.org/wiki/List_of_cult_video_games (all of them)
-https://en.wikipedia.org/wiki/List_of_free_and_open-source_Android_applications#Games
 https://en.wikipedia.org/wiki/M.U.G.E.N
-https://en.wikipedia.org/wiki/MUD#Spread (all there)
-https://en.wikipedia.org/wiki/MUD_client (all there)
 https://enigma-dev.org/about.htm
-https://faq.tuxfamily.org/Games/En
-https://fede0d.github.io/games/ (all of them)
 https://fedoraproject.org/wiki/SIGs/Games#List_of_games_we_will_NOT_package
-https://flathub.org/apps/category/Game
-https://flathub.org/home (use it for Linux packaging)
 https://forum.freegamedev.net/viewtopic.php?f=20&t=11627
 https://forums.scummvm.org/viewtopic.php?t=13512&highlight=open+source
-https://freegamer.blogspot.com (maybe there is something interesting)
 https://futurepinball.com/
-https://fydo.net/projects/island-rescue (and other projects there)
-https://gamejolt.com/ (search there)
-https://games.kde.org/ (all of them)
-https://games.kde.org/old/kde_arcade.php
 https://gdevelop-app.com/
 https://github.blog/2014-01-06-github-game-off-ii-winners/
 https://github.blog/2021-05-19-ludum-dare-48-staff-picks/
@@ -175,15 +110,7 @@ https://github.com/bsmr-games (also contains copies)
 https://github.com/Calinou/awesome-gamedev
 https://github.com/codenamecpp/carnage3d
 https://github.com/coelckers/Raze
-https://github.com/collections/game-engines (only OS)
-https://github.com/collections/javascript-game-engines (only OS)
-https://github.com/collections/pixel-art-tools (tools)
-https://github.com/collections/productivity-tools (maybe for statistical purposes)
-https://github.com/collections/software-development-tools (maybe we can apply some of them across the board)
-https://github.com/collections/tools-for-open-source (maybe we can apply some)
-https://github.com/collections/web-games (only OS)
 https://github.com/craftworkgames/MonoGame.Extended
-https://github.com/cymonsgames/CymonsGames (collection)
 https://github.com/DaanVanYperen/artemis-odb-contrib
 https://github.com/db0/godot-card-gaming
 https://github.com/dgcor/DGEngine.core
@@ -197,7 +124,6 @@ https://github.com/EliFUT/android
 https://github.com/elishacloud/Silent-Hill-2-Enhancements
 https://github.com/enginmanap/limonEngine
 https://github.com/EvilPudding/candle
-https://github.com/flathub (all repositories which are games there)
 https://github.com/FUSEEProjectTeam/Fusee
 https://github.com/Gamaen (all their repositories)
 https://github.com/gamearians
@@ -212,7 +138,6 @@ https://github.com/godotengine/awesome-godot#games
 https://github.com/godotengine/escoria
 https://github.com/godotengine/godot-design
 https://github.com/Gramps/GodotSteam
-https://github.com/grantjenks/free-python-games (check all)
 https://github.com/guillaumechereau/goxel
 https://github.com/H-uru/Plasma
 https://github.com/Hotride/OrionUO (and all other Ultima Online clients and server emulators)
@@ -288,8 +213,6 @@ https://github.com/OpenRA/OpenRAModSDK
 https://github.com/opensourcedesign
 https://github.com/opentrack/opentrack
 https://github.com/OrionFive/Hospitality
-https://github.com/OSSGames
-https://github.com/OSSGames (all there, but we should have them already)
 https://github.com/ozkriff/zemeroth
 https://github.com/Patapom/GodComplex
 https://github.com/PavelDoGreat/WebGL-Fluid-Simulation
@@ -345,7 +268,6 @@ https://github.com/SirRamEsq/SmartShape2D
 https://github.com/skylicht-lab/skylicht-engine
 https://github.com/skypjack/entt
 https://github.com/smlinux/nexuiz
-https://github.com/SPC-Some-Polish-Coders/PopHead
 https://github.com/SPC-Some-Polish-Coders/PopHead/
 https://github.com/Squalr/Squally
 https://github.com/SSBMTonberry/tileson
@@ -392,8 +314,6 @@ https://gottcode.org/ (all)
 https://invent.kde.org/games
 https://itch.io/ (scrape, look for open source)
 https://jcrpg.blogspot.de/
-https://jotd.pagesperso-orange.fr/ (several games)
-https://kde.org/applications/games/ (all of them)
 https://libregamewiki.org/Alexei:_Part_IX
 https://libregamewiki.org/CameliaGirls
 https://libregamewiki.org/Childish_Cannoneer
@@ -405,17 +325,13 @@ https://love2d.org/forums/viewforum.php?f=14 (check them if time)
 https://moaiwebsite.github.io/
 https://notabug.org/Calinou/awesome-gamedev#games
 https://odr.chalmers.se/handle/20.500.12380/219006
-https://opensourcesoftwaredirectory.com/Games/Strategy-games (and all others there)
-https://opensourcesoftwaredirectory.com/games/strategy-games (and others there)
 https://osdn.net/softwaremap/trove_list.php?form_cat=80
 https://packages.debian.org/sid/games/etw
 https://pipoypipagames.itch.io/cows-revenge (https://github.com/Dariasteam/Cows-Revenge)
 https://pixeldoctrine.com/index.html (more than just slime volleyball)
 https://play.google.com/store/apps/dev?id=8387589286898375037 (where is the source, not open source otherwise)
 https://playcanvas.com/
-https://projects.tuxfamily.org/ (all of them)
 https://pyweek.org/4/entries/ (Ascent of Justice)
-https://repology.org/ (for looking up other repositories of games)
 https://revolutionarygamesstudio.com/ Trhive
 https://rpgmaker.net/engines/rpg20xx/
 https://rpgmaker.net/games/2664/
@@ -423,50 +339,15 @@ https://salsa.debian.org/games-team/etw
 https://scorched-moon.github.io/site/
 https://scratch.mit.edu/ (https://en.scratch-wiki.info/wiki/Scratch_Source_Code)
 https://senseis.xmp.net/?GNUGo
-https://sites.google.com/site/syllablesoftware/games (List of games (with screenshots) that have been ported to Syllable OS)
-https://sourceforge.net/directory/games/games/os:windows/
-https://sourceforge.net/directory/games/turnbasedstrategy/ (and the general games directory, maybe even sourceforge metadata, see https://github.com/chpwssn/sourceforge-items, https://github.com/JesseWeinstein/sourceforge-items-cache)
-https://sourceforge.net/projects/dices/
-https://sourceforge.net/projects/dsa-hl.berlios/
-https://sourceforge.net/projects/lgames/files/barrage/
-https://sourceforge.net/projects/moeng/
-https://sourceforge.net/projects/openzelda/
-https://sourceforge.net/projects/palomino-sim/ (http://www.jimbrooks.org/archive/software/palomino/)
-https://sourceforge.net/projects/pipmak/
-https://sourceforge.net/projects/qua/
-https://sourceforge.net/projects/quest/
-https://sourceforge.net/projects/roguelike/ (collection of other rogue-like sources https://sourceforge.net/projects/roguelike/files/, https://web.archive.org/web/20180418191859/http://rogue.rogueforge.net/)
-https://sourceforge.net/projects/rpgstudio/
-https://sourceforge.net/projects/rpgtoolkit/
-https://sourceforge.net/projects/rptools.berlios/
-https://sourceforge.net/projects/solarconflict/
-https://sourceforge.net/projects/spaxehilk/
-https://sourceforge.net/projects/sphere/
-https://sourceforge.net/projects/tbswwengine/
-https://sourceforge.net/projects/terratenebrae/
-https://sourceforge.net/projects/tyrant/
-https://sourceforge.net/projects/untitled-rpg/
-https://sourceforge.net/projects/wme/
-https://sourceforge.net/projects/wowrl/
-https://sourceforge.net/projects/wwiig/
-https://sourceforge.net/projects/ztab/
 https://sr.ht/projects?search=%23game
-https://stabyourself.net/ (all projects there)
 https://stendhalgame.org/wiki/Marauroa
-https://stephensmith.itch.io/ (all of them)
-https://tangramgames.dk/games/ (all)
-https://threejs.org/
 https://verge-rpg.com/
 https://voltisoft.com/miragelegacy
 https://web.archive.org/web/20060411054656/http://home.gna.org/oomadness/en/index.html
 https://web.archive.org/web/20060812164344/http://rubyforge.org/ (games from rubyforge)
-https://web.archive.org/web/20150526225753/http://sourceforge.net/projects/mameosx/
-https://web.archive.org/web/20150527150705/http://sourceforge.net/p/forge/community-docs/SourceForge%20Games/ (schon erledigt)
 https://web.archive.org/web/20170714065728/http://users.olis.net.au/zel/
 https://web.archive.org/web/20171228172756/http://www.oletus.fi/static/whichwayisup/
-https://wiki.debian.org/Games/Unsuitable
 https://www.adventuregamestudio.co.uk/
-https://www.allegro.cc/depot/strategy/ (and all other genres there)
 https://www.b3dgs.com/v7/page.php?lang=en&section=projects
 https://www.bennugd.org/
 https://www.bsframework.io/
@@ -477,23 +358,16 @@ https://www.fosshub.com/about.html
 https://www.fosslinux.com/
 https://www.freegamesutopia.com/
 https://www.frictionalgames.com/forum/forum-28.html
-https://www.gamingonlinux.com/free-games/ (all of them that are open source)
 https://www.glitchthegame.com/ (Glitch the game, by Tiny Speck Inc. public domain)
-https://www.gog.com/forum/general/free_open_source_games (and suggestions therein)
 https://www.libretro.com/
 https://www.musztardasarepska.pl/wgdown/
 https://www.ness-engine.com/
 https://www.old-games.ru/forum/threads/nekommercheskie-analogi-izvestnyx-igr.40868/page-9
-https://www.openhub.net/ (search for games)
 https://www.piston.rs/
-https://www.reddit.com/r/opensource/comments/cs6m3y/a_list_of_fossrelated_projects_people_to_follow/
-https://www.reddit.com/r/opensourcegames/
 https://www.reddit.com/r/opensourcegames/comments/celw6c/top_3_open_source_pinball_games_2015/
-https://www.renpy.org/ (also all projects linked there)
 https://www.scirra.com/construct2
 https://www.seul.org/~grumbel/tmp/clanlib/games.html
 https://www.tapatalk.com/groups/imperilist/
-https://www.tuxfamily.org/ (if there are games)
 https://www.wurfelengine.net/
 https://zdoom.org/downloads (gzdoom, lzdoom)
 https://zope.readthedocs.io/en/latest/

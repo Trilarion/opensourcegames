@@ -9,16 +9,15 @@
 {% endfor %}
     </div>
   </section>
-
 {% for section in data['sections'] %}
   <section class="section">
     <div class="container">
     <h2 id="">{{ section['title'] }}</h2>
-        <ul>
-{% for item in section['items'] %}
-        <li>{{ item }}</li>
-{% endfor %}
-        </ul>
+    <ul>
+    {% for item in section['items'] -%}
+    <li>{{ item }}</li>
+    {% endfor -%}
+    </ul>
     </div>
   </section>
 {% endfor %}

@@ -1,6 +1,84 @@
+more work
+
+http://hgm.nubati.net/ (winboard)
+http://insideastarfilledsky.net/ (source may be somewhere else)
+
 multiple
 
 http://androidsoft.org/
 http://antongerdelan.net/blog/ (other projects besides TestDrive)
 http://e-adventure.e-ucm.es/login/index.php (games of eAdventure)
 http://hcsoftware.sourceforge.net/jason-rohrer/ (split games there)
+http://lukaszjakowski.pl/ (games apart from uMario)
+http://media.pyweek.org/dl/7/ (all of them)
+http://stage.gamecreation.org/ (all of them)
+http://stellarengine.nongnu.org/games.html (all the games)
+http://wiki.gp2x.org/articles/g/a/m/Category:Games.html (all of them)
+http://wiki.scummvm.org/index.php/HOWTO-Fangames
+http://www.finkproject.org/index.php?phpLang=en (do they have games)
+http://www.ossblog.org/fun-play-open-source-turn-based-strategy-games/ (and others there)
+https://archive.org/details/Gna_code_hosting (all of them)
+https://awesomeopensource.com/categories/games
+https://awesomeopensource.com/projects/strategy-game (and others there)
+https://awesomeopensource.com/projects/strategy/turn-based (and others there)
+https://directory.fsf.org/wiki/Collection:GNOME_Games (all of them)
+https://dosgames.com/about.php (search for public domain games with sources)
+https://drodin.com/ (all games there)
+https://fede0d.github.io/games/ (all of them)
+https://faq.tuxfamily.org/Games/En
+https://flathub.org/apps/category/Game
+https://fydo.net/projects/island-rescue (and other projects there)
+https://gamejolt.com/ (search there)
+https://games.kde.org/ (all of them)
+https://games.kde.org/old/kde_arcade.php
+https://freegamer.blogspot.com (maybe there is something interesting)
+https://github.com/cymonsgames/CymonsGames (collection)
+https://github.com/grantjenks/free-python-games (check all)
+https://github.com/OSSGames (all there, but we should have them already)
+https://jotd.pagesperso-orange.fr/ (several games)
+https://kde.org/applications/games/ (all of them)
+https://opensourcesoftwaredirectory.com/Games/Strategy-games (and all others there)
+https://opensourcesoftwaredirectory.com/games/strategy-games (and others there)
+https://projects.tuxfamily.org/ (all of them)
+https://www.tuxfamily.org/ (if there are games)
+https://repology.org/ (for looking up other repositories of games)
+https://sites.google.com/site/syllablesoftware/games (List of games (with screenshots) that have been ported to Syllable OS)
+https://sourceforge.net/directory/games/games/os:windows/
+https://sourceforge.net/directory/games/turnbasedstrategy/ (and the general games directory, maybe even sourceforge metadata, see https://github.com/chpwssn/sourceforge-items, https://github.com/JesseWeinstein/sourceforge-items-cache)
+https://stabyourself.net/ (all projects there)
+https://stephensmith.itch.io/ (all of them)
+https://tangramgames.dk/games/ (all)
+https://wiki.debian.org/Games/Unsuitable
+https://www.allegro.cc/depot/strategy/ (and all other genres there)
+https://www.gamingonlinux.com/free-games/ (all of them that are open source)
+https://www.gog.com/forum/general/free_open_source_games (and suggestions therein)
+https://www.openhub.net/ (search for games)
+https://www.reddit.com/r/opensource/comments/cs6m3y/a_list_of_fossrelated_projects_people_to_follow/
+https://www.reddit.com/r/opensourcegames/
+https://www.renpy.org/ (also all projects linked there)
+
+github collections
+
+https://github.com/collections/game-engines (only OS)
+https://github.com/collections/javascript-game-engines (only OS)
+https://github.com/collections/pixel-art-tools (tools)
+https://github.com/collections/productivity-tools (maybe for statistical purposes)
+https://github.com/collections/software-development-tools (maybe we can apply some of them across the board)
+https://github.com/collections/tools-for-open-source (maybe we can apply some)
+https://github.com/collections/web-games (only OS)
+https://github.com/flathub (all repositories which are games there)
+
+wikipedia
+
+https://en.wikipedia.org/wiki/Category:Open-source_video_games (all of them)
+https://en.wikipedia.org/wiki/GNOME_Games_Collection
+https://en.wikipedia.org/wiki/List_of_commercial_video_games_released_as_freeware
+https://en.wikipedia.org/wiki/List_of_commercial_video_games_with_available_source_code
+https://en.wikipedia.org/wiki/List_of_cult_video_games (all of them)
+https://en.wikipedia.org/wiki/List_of_free_and_open-source_Android_applications#Games
+https://en.wikipedia.org/wiki/MUD#Spread (all there)
+https://en.wikipedia.org/wiki/MUD_client (all there)
+
+special
+
+https://alternativeto.net/ (query with only open source as option)

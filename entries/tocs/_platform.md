@@ -5,6 +5,7 @@
 - **[Abuse](../abuse.md)** (C++, Lisp, Public domain, GPL-2.0, WTFPL, mature, inactive since 2011)
 - **[Alex the Allegator 4](../alex_the_allegator_4.md)** (C, GPL-2.0, mature, inactive since 2003)
 - **[Amphetamine](../amphetamine.md)** (C, GPL-2.0, beta, inactive since 2008)
+- **[Backbone Game Engine](../backbone_game_engine.md)** (JavaScript, MIT, beta, inactive since 2016)
 - **[Beat Feet](../beat_feet.md)** (Kotlin, GPL-3.0, mature)
 - **[Blob Wars : Attrition](../blob_wars_attrition.md)** (C, C++, GPL-3.0, mature)
 - **[Blob Wars Episode 2 : Blob And Conquer](../blob_wars_episode_2_blob_and_conquer.md)** (C++, GPL-2.0, mature, inactive since 2016)
@@ -67,4 +68,5 @@
 - **[Which Way Is Up?](../which_way_is_up.md)** (Python, GPL-2.0, beta, inactive since 2008)
 - **[WWW](../www.md)** (JavaScript, GPL-3.0, beta, inactive since 2014)
 - **[XEvil](../xevil.md)** (C++, GPL-2.0, mature)
+- **[YKnytt](../yknytt.md)** (C#, MIT, beta)
 - **[Yo Frankie!](../yo_frankie.md)** (Blender Script, ?, mature, inactive since 2009)

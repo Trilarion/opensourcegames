@@ -1,6 +1,6 @@
 # Aleph One
 
-- Home: https://alephone.lhowon.org/, https://github.com/Aleph-One-Marathon/alephone/wiki, https://sourceforge.net/projects/marathon/
+- Home: https://alephone.lhowon.org/, https://aleph-one-marathon.github.io/, https://github.com/Aleph-One-Marathon/alephone/wiki, https://sourceforge.net/projects/marathon/
 - Inspiration: Marathon, Marathon 2: Durandal, Marathon Infinity
 - State: mature
 - Download: https://sourceforge.net/projects/marathon/files/

@@ -2,6 +2,16 @@ more work
 
 http://hgm.nubati.net/ (winboard)
 http://insideastarfilledsky.net/ (source may be somewhere else)
+https://empiredirectory.net/
+https://empiredirectory.net/index.php/downloads/viewdownload/6-server-software/13-empire-server
+http://www.divgo.net/ (in spanish difficult to detect sources)
+https://github.com/neuromancer/re-private-eye.git (moved to scummvm) and is part of scummvm
+http://www.hard-light.net/ (Free Space Open, Knossos, Mods, https://github.com/scp-fs2open/fs2open.github.com, https://wiki.hard-light.net/index.php/Getting_started)
+
+roguelike
+
+http://web.archive.org/web/20071218214256/http://users.tkk.fi/~eye/roguelike/nethack.html
+http://www.dungeoncrawl.org/?d.l
 
 multiple
 
@@ -56,6 +66,30 @@ https://www.openhub.net/ (search for games)
 https://www.reddit.com/r/opensource/comments/cs6m3y/a_list_of_fossrelated_projects_people_to_follow/
 https://www.reddit.com/r/opensourcegames/
 https://www.renpy.org/ (also all projects linked there)
+https://gottcode.org/ (all)
+https://love2d.org/forums/viewforum.php?f=14 (check them if time)
+http://www.linux-games.com/ (all there)
+http://www.newbreedsoftware.com/ (all)
+http://www.computerchess.org.uk/ccrl/4040/rating_list_all.html
+https://appimage.github.io/categories/Game
+https://edu.kde.org/
+https://fedoraproject.org/wiki/SIGs/Games#List_of_games_we_will_NOT_package
+https://forum.freegamedev.net/viewtopic.php?f=20&t=11627
+https://forums.scummvm.org/viewtopic.php?t=13512&highlight=open+source
+https://invent.kde.org/games
+https://itch.io/ (scrape, look for open source)
+https://lmemsm.dreamwidth.org/8013.html (List of some of my favorite Open Source games)
+https://notabug.org/Calinou/awesome-gamedev#games
+https://sr.ht/projects?search=%23game
+https://www.fandom.com/topics/games (look for media links, example https://creatures.fandom.com/wiki/Openc2e)
+https://www.fosshub.com/about.html
+https://www.fosslinux.com/
+https://www.freegamesutopia.com/
+https://arcade.academy/
+https://blends.debian.org/games/tasks/
+https://blends.debian.org/games/tasks/racing
+http://www.goldenstudios.or.id/products/games/index.php
+http://www.goldenstudios.or.id/products/GTGE/
 
 github collections
 
@@ -82,3 +116,7 @@ https://en.wikipedia.org/wiki/MUD_client (all there)
 special
 
 https://alternativeto.net/ (query with only open source as option)
+
+github topics
+
+https://github.com/topics/game-engine (etc.)

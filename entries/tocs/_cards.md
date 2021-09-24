@@ -18,6 +18,7 @@
 - **[Simple-Solitaire](../simple-solitaire.md)** (Java, GPL-3.0, mature)
 - **[Tressette](../tressette.md)** (C++, GPL-2.0, mature, inactive since 2017)
 - **[Wagic, the Homebrew](../wagic_the_homebrew.md)** (C++, C, Objective-C, 3-clause BSD, beta)
+- **[Walic](../walic.md)** (Kotlin, Apache-2.0, mature)
 - **[Wizards Magic](../wizards_magic.md)** (Python, GPL-2.0, mature, inactive since 2012)
 - **[XMage](../xmage.md)** (Java, MIT, mature)
 - **[XSkat](../xskat.md)** (Java, Custom, mature)

@@ -17,9 +17,7 @@ Listing:
 
 """
 
-# pre-release
-
-# TODO minimize size (html tag optimization) jinja template optimization
+# TODO minimize tag usage: jinja template optimization for line breaks and indention and minimal amount of spaces (and size of files) and minimal amount of repetition of tags
 
 # TODO contribute.html add content
 
@@ -40,12 +38,7 @@ Listing:
 # TODO games: top 50 list from Github via their stars with download links (add to entries) and with screenshot
 # TODO games: add screenshot ability (add screenshot to database, at least for top 50)
 
-# release
-
 # TODO update Bulma
-# TODO everywhere: optimize jinja for line breaks and indention and minimal amount of spaces (and size of files) and minimal amount of repetition of tags
-
-# post-release
 
 # TODO everywhere: meta/title tag
 # TODO everywhere: style URLs (Github, Wikipedia, Internet archive, SourceForge, ...)
@@ -57,6 +50,10 @@ Listing:
 # TODO games: link to dependencies (either if existing or if url)
 # TODO games: javascript table
 # TODO games: repositories comments have too much space after( and before )
+
+# TODO add sitemap
+
+# TODO mobile view: optimize layout for mobile view
 
 # TODO languages: C# redirects to C
 

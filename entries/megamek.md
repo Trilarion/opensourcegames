@@ -5,7 +5,7 @@
 - Inspiration: BattleTech
 - State: mature
 - Download: https://megamek.org/downloads
-- Keyword: strategy, mech
+- Keyword: strategy, mech, turn-based
 - Code repository: https://github.com/MegaMek/megamek.git (@created 2015, @stars 161, @forks 92), https://git.code.sf.net/p/megamek/git
 - Code language: Java
 - Code license: GPL-2.0

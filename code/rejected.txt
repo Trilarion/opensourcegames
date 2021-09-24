@@ -23,6 +23,7 @@ Berserk (https://github.com/EgorOrachyov/Berserk): No license information found
 biju-game (https://github.com/fdfragoso/biju-game, http://crocidb.com/labs/biju-game/, https://github.com/CrociDB/biju-game): Very early development, No license added
 Brickshooter (http://bilious.homelinux.org/~paxed/brickshooter/): Homepage offline, sources not archived on the web archive, version very low 0.0.4 (might be too early)
 Bweakfwu (https://github.com/plaimi/bweakfwu, https://secure.plaimi.net/games/bweakfwu): Very early development stage, abandoned
+BYOND (http://www.byond.com/, https://web.archive.org/web/20200223231337/http://www.byond.com/download/): Not open source (also DreamMaker, DreamSeeker). Maybe even games with DM script might be difficult to set up. Website of offline. Discontinued?
 Camelia Girls (https://web.archive.org/web/20140523011334/http://pigux.com:80/cameliagirls/): Sources not available
 Cheese Boys (http://sourceforge.net/projects/cheeseboys/, http://cheeseboys.keul.it/, https://github.com/keul/Cheese-Boys, http://www.pygame.org/project-Cheese+Boys-692-.html): Very early development, Abandoned, License unclear
 Clippers (http://sourceforge.net/projects/clippers/): No license attached to source code (will contact)
@@ -80,6 +81,7 @@ ImperiumAO (https://sourceforge.net/projects/impao, https://www.imperiumao.com.a
 Inline-Engine (https://github.com/petiaccja/Inline-Engine): Commercial license
 Interstate Outlaws (http://www.interstateoutlaws.com/): Very early development, No clear indication of license with source code, Abandoned since long time
 Ironclad (https://github.com/mikera/ironclad): No license information, asked but did not get a reply
+J4Game (http://www.j4game.com/): Says GPL, but no source found, download only compiled jar file.
 Java Fabled Lands (http://flapp.sourceforge.net/, https://sourceforge.net/projects/flapp/): No license information available, content might not be free (see https://github.com/Trilarion/opensourcegames/issues/57)
 Java Isometric Engine (https://sourceforge.net/projects/jisoman/): Early development, no license information with source, long abandoned
 Java Settlers of Catan (https://sourceforge.net/projects/javasettlers/): No license information, very early development
@@ -138,6 +140,7 @@ Promisance (https://sourceforge.net/projects/promisance/,http://promisance.sourc
 pyspaceinvaders (https://github.com/map0logo/pyspaceinvaders.git): Too small
 PyTouhou (http://pytouhou.linkmauve.fr/,http://hg.linkmauve.fr/touhou): Sources not available anymore
 Racer (http://racer.sourceforge.net/, http://sourceforge.net/projects/racer/): Very early development, Inactive
+re3 (https://github.com/GTAmodding/re3): No suitable open source license (see https://github.com/GTAmodding/re3#license)
 realmforge (https://sourceforge.net/projects/realmforge/): Went commercial
 Receiver (https://github.com/David20321/7DFPS, http://www.wolfire.com/receiver): All rights reserved.
 retrospec (http://retrospec.sgn.net): No license information found for games with source code there
@@ -157,11 +160,15 @@ Snipes (https://www.vogons.org/viewtopic.php?f=7&t=49073, https://github.com/Dav
 Sokoban (https://sourceforge.net/projects/sokoban/): Proprietary license
 Solar Empire (https://sourceforge.net/projects/solar-empire/, https://git.code.sf.net/p/solar-empire/code): No license found
 Solaris (https://sourceforge.net/projects/solaristhegame/, https://svn.code.sf.net/p/solaristhegame/code/): Very early development stage
+Sonic-1-2-2013-Decompilation (https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation.git): No suitable open source license (see https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation/blob/main/LICENSE.md)
+Sonic-CD-11-Decompilation (https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation.git): No suitable open source license (see https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation/blob/master/LICENSE.md)
 Space Opera Ruby (https://github.com/Cortrah/SpaceOperaRuby): No license given, too small
 Space Station 14 (http://www.spacestation14.com/): Offline, contains no clear game
 Spaceship Duel (https://archive.codeplex.com/?p=spaceshipduel, https://spaceshipduel.codeplex.com/SourceControl/latest): Cannot download archive from codeplex
 SSTPong (http://sstpong.sourceforge.net/, https://sourceforge.net/projects/sstpong/): Very early development
 Starlane Empire (https://gna.org/projects/starlane/, http://cvs.gna.org/cvsweb/starlane/?cvsroot=starlane): No sources available, see issue #18, gna.org lost
+Stellar Forces (http://wiki.stellarforces.com/): No license or sources found.
+Story Game Create (https://storygamecreator.webs.com/): No license nor sources found.
 Stunt Car Racer Remake (http://stuntcarracerwin32.bravesites.com, https://sourceforge.net/projects/stuntcarremake/, https://git.code.sf.net/p/stuntcarremake/code): License unclear, author confirmed that there is not license and didn't answer when asked if there could one be added (see https://github.com/Trilarion/opensourcegames/issues/244)
 Styx (http://retrospec.sgn.net/game/styx, http://retrospec.sgn.net/game-links.php?link=styx): Unclear license information, not open source in our sense, see other entries from retrospec here
 Sudoku86 (http://sudoku86.sourceforge.net/): Does only run under DOS. Not the preferred OS for this database.

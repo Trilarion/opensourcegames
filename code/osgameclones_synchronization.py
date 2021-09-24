@@ -53,7 +53,7 @@ osgc_name_aliases = {'4DTris': '4D-TRIS', 'fheroes2': 'Free Heroes 2', 'DrCreep'
                      'tetris': 'Just another Tetris™ clone', 'twin-e': 'TwinEngine', 'super-methane-brothers-gx': 'Super Methane Brothers for Wii and GameCube',
                      'CrossUO: Ultima Online': 'CrossUO', 'Doomsday': 'Doomsday Engine', 'OpMon': 'OPMon',
                      '2048-python': '2048 Python', 'Free Heroes 2 - Enhanced': 'Free Heroes 2', 'ironseed_fpc': 'ironseed',
-                     'KKnD': 'OpenKrush'}
+                     'KKnD': 'OpenKrush', 'bab-be-u': 'BAB BE U', 'ironseed': 'Ironseed', 'urde': 'Metaforce'}
 
 # conversion between licenses syntax them and us
 osgc_licenses_map = {'GPL2': 'GPL-2.0', 'GPL3': 'GPL-3.0', 'AGPL3': 'AGPL-3.0', 'LGPL3': 'LGPL-3.0',
@@ -79,7 +79,8 @@ osgc_ignored_entries = ["A Mouse's Vengeance", 'achtungkurve.com', 'AdaDoom3', '
                         'Styx', 'Super Mario Bros With SFML in C#', 'thromolusng', 'Tile World 2', 'Tranzam',
                         'Voxelstein 3D', 'XQuest 2',
                         'xrick', 'zedragon', 'Uncharted waters 2 remake', 'Desktop Adventures Engine for ScummVM',
-                        'Open Sonic', 'Aladdin_DirectX', 'Alive_Reversing']
+                        'Open Sonic', 'Aladdin_DirectX', 'Alive_Reversing', 're3', 'Sonic-1-2-2013-Decompilation',
+                        'Sonic-CD-11-Decompilation', 'Stunt Car Racer Remake']
 
 
 def unique_field_contents(entries, field):
@@ -500,9 +501,9 @@ if __name__ == "__main__":
                     osgc_frameworks = [osgc_frameworks]
                 entry += '- Code dependency: {}\n'.format(', '.join(osgc_frameworks))
 
-            # add description
-            description = '{} of {}.'.format(game_type.capitalize(), ', '.join(osgc_entry['originals']))
-            entry += '\n{}\n\n'.format(description)
+            # add description (already put into Inspiration)
+            # description = '{} of {}.'.format(game_type.capitalize(), ', '.join(osgc_entry['originals']))
+            # entry += '\n{}\n\n'.format(description)
 
             # write info (if existing)
             if 'info' in osgc_entry:

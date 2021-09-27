@@ -4,7 +4,7 @@
 - State: beta
 - Platform: Web
 - Keyword: role playing, content open, multiplayer massive + online, requires server
-- Code repository: https://github.com/ChildrenOfUr/coUclient.git (@archived, @created 2013, @stars 73, @forks 13), https://github.com/ChildrenOfUr/coUserver.git (archived)
+- Code repository: https://github.com/ChildrenOfUr/coUclient.git (@archived, @created 2013, @stars 75, @forks 13), https://github.com/ChildrenOfUr/coUserver.git (archived)
 - Code language: Dart, JavaScript
 - Code license: MIT
 - Assets license: MIT

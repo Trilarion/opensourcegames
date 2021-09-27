@@ -4,7 +4,7 @@
 - Inspiration: Flappy Bird
 - State: beta, inactive since 2016
 - Keyword: arcade, remake, skill
-- Code repository: https://github.com/Nebuleon/hocoslamfy.git (@archived, @created 2014, @stars 9, @forks 12)
+- Code repository: https://github.com/Nebuleon/hocoslamfy.git (@archived, @created 2014, @stars 10, @forks 14)
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependency: SDL

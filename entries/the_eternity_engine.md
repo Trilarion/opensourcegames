@@ -6,11 +6,11 @@
 - Download: https://github.com/team-eternity/eternity/releases
 - Platform: Windows, Linux, macOS
 - Keyword: game engine, remake, "content commercial (?) + original required", first-person, multiplayer LAN, shooter
-- Code repository: https://github.com/team-eternity/eternity.git (@created 2014, @stars 132, @forks 23)
+- Code repository: https://github.com/team-eternity/eternity.git (@created 2014, @stars 147, @forks 24)
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependency: SDL2
-- Developer: "Alison Watson (Nightdive Studios)", anotak, David Hill, Ioan Chera, "James Haley (Nightdive Studios)", "Max Waine (Nightdive Studios)", Mike Swanson, Shannon Freeman, Stephen McGranahan, Xaser Acheron
+- Developer: Alison Watson, "Alison Watson (Nightdive Studios)", anotak, David Hill, Ioan Chera, "James Haley (Nightdive Studios)", "Max Waine (Nightdive Studios)", Mike Swanson, Shannon Freeman, Stephen McGranahan, Xaser Acheron
 
 DOOM source port.
 

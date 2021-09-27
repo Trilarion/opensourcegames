@@ -4,7 +4,7 @@
 - Inspiration: Alone in the Dark series
 - State: beta
 - Keyword: adventure, game engine, remake
-- Code repository: https://github.com/jmimu/FITD.git (@created 2017, @stars 14, @forks 3)
+- Code repository: https://github.com/jmimu/FITD.git (@created 2017, @stars 21, @forks 4)
 - Code language: C, C++
 - Code license: GPL-2.0
 - Developer: jmimu

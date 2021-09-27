@@ -7,6 +7,8 @@ https://empiredirectory.net/index.php/downloads/viewdownload/6-server-software/1
 http://www.divgo.net/ (in spanish difficult to detect sources)
 https://github.com/neuromancer/re-private-eye.git (moved to scummvm) and is part of scummvm
 http://www.hard-light.net/ (Free Space Open, Knossos, Mods, https://github.com/scp-fs2open/fs2open.github.com, https://wiki.hard-light.net/index.php/Getting_started)
+http://svn.assembla.com/svn/gdpl/ (not sure what links there and what kind of game it is, license?)
+https://web.archive.org/web/20161230103538/http://www.linuxdevcenter.com/pub/a/linux/2003/04/24/exult.html
 
 roguelike
 
@@ -90,6 +92,11 @@ https://blends.debian.org/games/tasks/
 https://blends.debian.org/games/tasks/racing
 http://www.goldenstudios.or.id/products/games/index.php
 http://www.goldenstudios.or.id/products/GTGE/
+https://gitorious.org/index-list.html (are there other interesting games)
+http://www.dianneandpaul.net/CSBwin/
+http://www.lesfleursdunormal.fr/static/informatique/old/index_en.html
+http://www.oletus.fi/games/
+http://www.paulscode.com/games/
 
 github collections
 
@@ -116,6 +123,10 @@ https://en.wikipedia.org/wiki/MUD_client (all there)
 special
 
 https://alternativeto.net/ (query with only open source as option)
+http://www.happypenguin.org (linux game tomb)
+https://web.archive.org/web/20121010121342/http://www.happypenguin.org/list?sort=title
+https://www.ifwiki.org/index.php/Main_Page (is there software contained or contents with CC license maybe that could be converted...)
+https://web.archive.org/web/20161215063433/http://www.linuxdevcenter.com/topics/linux/games
 
 github topics
 

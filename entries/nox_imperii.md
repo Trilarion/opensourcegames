@@ -4,7 +4,7 @@
 - Inspiration: Escape Velocity, Naev
 - State: mature, inactive since 2016
 - Keyword: sports, content open, similar
-- Code repository: https://github.com/Kinniken/NoxImperii.git (@created 2016, @stars 11, @forks 3)
+- Code repository: https://github.com/Kinniken/NoxImperii.git (@created 2016, @stars 13, @forks 3)
 - Code language: C
 - Code license: GPL-3.0
 - Code dependency: SDL

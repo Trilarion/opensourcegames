@@ -5,7 +5,7 @@
 - Download: https://f-droid.org/de/packages/br.odb.knights/
 - Platform: Android
 - Keyword: strategy
-- Code repository: https://github.com/TheFakeMontyOnTheRun/knightsofalentejo.git
+- Code repository: https://github.com/TheFakeMontyOnTheRun/knightsofalentejo.git (@created 2015, @stars 9, @forks 2)
 - Code language: Java, C++
 - Code license: 2-clause BSD
 

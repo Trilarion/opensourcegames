@@ -5,7 +5,7 @@
 - State: beta
 - Download: http://uwadv.sourceforge.net/index.php?page=download
 - Keyword: role playing
-- Code repository: https://github.com/vividos/UnderworldAdventures.git (@created 2019, @stars 13, @forks 1), http://uwadv.cvs.sourceforge.net/ (cvs)
+- Code repository: https://github.com/vividos/UnderworldAdventures.git (@created 2019, @stars 19, @forks 1), http://uwadv.cvs.sourceforge.net/ (cvs)
 - Code language: C++, Lua
 - Code license: GPL-2.0
 - Developer: Aisha Fenton, Dirk Manders, Jim Cameron, Kasper Fauerby, Michael Fink, Radoslaw Grzanka, vividos, Willem Jan Palenstijn

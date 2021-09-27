@@ -4,10 +4,11 @@
 - State: mature
 - Platform: Windows, Linux, macOS
 - Keyword: platform
-- Code repository: https://github.com/danirod/jumpdontdie.git
+- Code repository: https://github.com/danirod/jumpdontdie.git (@created 2015, @stars 42, @forks 31)
 - Code language: Java
 - Code license: GPL-3.0
 - Code dependency: libGDX, Scene2D, Box2D
+- Developer: Dani Rodríguez, Nelson
 
 Demo game.
 

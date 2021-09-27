@@ -4,7 +4,7 @@
 - State: beta, inactive since 2019
 - Platform: Windows, Linux
 - Keyword: game engine, 3D, first-person, multiplayer, real-time, shooter
-- Code repository: https://github.com/SteveSmith16384/SteveTech1.git (@created 2019, @stars 7, @forks 1)
+- Code repository: https://github.com/SteveSmith16384/SteveTech1.git (@created 2019, @stars 10, @forks 2)
 - Code language: Java
 - Code license: MIT
 - Code dependency: jMonkeyEngine

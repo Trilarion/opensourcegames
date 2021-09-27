@@ -6,7 +6,7 @@
 - Download: https://github.com/pierreyoda/o2r/releases, https://sourceforge.net/projects/o2r/files/
 - Platform: Windows, Linux, macOS
 - Keyword: remake
-- Code repository: https://github.com/pierreyoda/o2r.git (@created 2017, @stars 19, @forks 0), https://svn.code.sf.net/p/o2r/code (svn)
+- Code repository: https://github.com/pierreyoda/o2r.git (@created 2017, @stars 21, @forks 0), https://svn.code.sf.net/p/o2r/code (svn)
 - Code language: C++
 - Code license: MIT (was GPL-3.0)
 - Code dependency: Qt, SFML

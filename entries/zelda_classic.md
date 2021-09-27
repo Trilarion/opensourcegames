@@ -6,10 +6,10 @@
 - Download: https://www.zeldaclassic.com/downloads/
 - Platform: Windows
 - Keyword: role playing
-- Code repository: https://github.com/ArmageddonGames/ZeldaClassic.git (@created 2015, @stars 289, @forks 50)
+- Code repository: https://github.com/ArmageddonGames/ZeldaClassic.git (@created 2015, @stars 318, @forks 58)
 - Code language: C, C++
 - Code license: GPL-3.0
-- Developer: evouga, Gleeok, Peter Hull, Saffith, venrob, ZoriaRPG
+- Developer: DimiPZC, Emily, evouga, Gleeok, Peter Hull, Saffith, SyrianBallaS, venrob, ZoriaRPG
 
 Game and editing tool for creating custom Legend of Zelda quests.
 

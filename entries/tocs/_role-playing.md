@@ -39,7 +39,7 @@
 - **[DarkCity](../darkcity.md)** (PHP, GPL-3.0, mature, inactive since 2012)
 - **[Dawn](../dawn.md)** (C++, Lua, GPL-3.0, beta, inactive since 2011)
 - **[Decker](../decker.md)** (Java, GPL-2.0, beta, inactive since 2013)
-- **[Delaford](../delaford.md)** (JavaScript, MIT, beta)
+- **[Delaford](../delaford.md)** (JavaScript, PHP, MIT, beta)
 - **[Deliantra](../deliantra.md)** (C, GPL-2.0, mature)
 - **[DemiGod](../demigod.md)** (Java, GPL-3.0, beta, inactive since 2013)
 - **[diablo-js](../diablo-js.md)** (Java, JavaScript, MIT, mature)

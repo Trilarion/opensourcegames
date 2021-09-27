@@ -6,7 +6,7 @@
 - State: mature
 - Download: https://sourceforge.net/projects/unnethack/files/unnethack/
 - Keyword: role playing, roguelike
-- Code repository: https://github.com/unnethack/unnethack.git (@created 2014, @stars 70, @forks 19), https://git.code.sf.net/p/unnethack/git, https://svn.code.sf.net/p/unnethack/code (svn old)
+- Code repository: https://github.com/unnethack/unnethack.git (@created 2014, @stars 76, @forks 21), https://git.code.sf.net/p/unnethack/git, https://svn.code.sf.net/p/unnethack/code (svn old)
 - Code language: C
 - Code license: Custom (NetHack license)
 - Developer: aaxelb, copperwater, David Haft, Fredrik Ljungdahl, Guanpeng Xu, Guest41, guest41, gurr, Karl Garrison, kdgarris, Mikko Juola, NHTangles, Pasi Kallinen, Patric Mueller, Raz, tedav, Tung Nguyen, xororand

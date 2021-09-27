@@ -5,7 +5,7 @@
 - Play: http://heroinedusk.com/demo/
 - Platform: Web
 - Keyword: role playing, open content
-- Code repository: https://github.com/clintbellanger/heroine-dusk.git
+- Code repository: https://github.com/clintbellanger/heroine-dusk.git (@created 2013, @stars 96, @forks 23)
 - Code language: JavaScript
 - Code license: GPL-3.0
 - Assets license: CC-BY 3.0, CC-BY-SA-3.0

@@ -4,9 +4,10 @@
 - State: mature, inactive since 2015
 - Platform: Windows, Linux, Android
 - Keyword: arcade, skill
-- Code repository: https://github.com/FEDE0D/Planet-Rider.git
+- Code repository: https://github.com/FEDE0D/Planet-Rider.git (@created 2015, @stars 29, @forks 8)
 - Code language: GDScript
 - Code license: GPL-3.0
 - Code dependency: Godot
+- Developer: Federico
 
 ## Building

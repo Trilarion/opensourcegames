@@ -4,9 +4,10 @@
 - State: beta
 - Download: https://github.com/bioglaze/aether3d/releases
 - Keyword: framework, game engine, 3D
-- Code repository: https://github.com/bioglaze/aether3d.git
+- Code repository: https://github.com/bioglaze/aether3d.git (@created 2015, @stars 183, @forks 11)
 - Code language: C++
 - Code license: zlib
+- Developer: Timo Wiren
 
 ## Building
 

@@ -4,9 +4,9 @@
 - Inspiration: Minecraft
 - State: beta, inactive since 2018
 - Keyword: remake, simulation, content open, sandbox, voxel
-- Code repository: https://github.com/ddevault/TrueCraft.git (@archived, @created 2014, @stars 2068, @forks 275), https://github.com/danielcrenna/TrueCraft.git @add
+- Code repository: https://github.com/ddevault/TrueCraft.git (@archived, @created 2014, @stars 2163, @forks 288), https://github.com/danielcrenna/TrueCraft.git @add
 - Code language: C#
 - Code license: MIT
-- Developer: cubrr, Daniel V., Drew DeVault, Flynn, gbear605, Justin Yanke, Marian Dziubiak, Mitchell Kutchuk, Robin Kanters, Ross Lancaster, William Moorehouse
+- Developer: cubrr, Daniel V., Drew DeVault, Flynn, gbear605, Justin Yanke, Kim Chase, Marian Dziubiak, Mitchell Kutchuk, Robin Kanters, Ross Lancaster, William Moorehouse
 
 ## Building

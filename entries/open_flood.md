@@ -5,7 +5,7 @@
 - Download: https://play.google.com/store/apps/details?id=com.gunshippenguin.openflood, https://f-droid.org/packages/com.gunshippenguin.openflood/
 - Platform: Android
 - Keyword: puzzle
-- Code repository: https://github.com/GunshipPenguin/open_flood.git (@created 2016, @stars 119, @forks 52)
+- Code repository: https://github.com/GunshipPenguin/open_flood.git (@created 2016, @stars 124, @forks 54)
 - Code language: Java
 - Code license: MIT
 - Developer: Rhys Rustad-Elliott

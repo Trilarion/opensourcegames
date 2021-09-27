@@ -4,7 +4,7 @@
 - State: beta
 - Platform: Web
 - Keyword: framework, role playing, online
-- Code repository: https://github.com/Techbot/JiGS-PHP-RPG-engine.git (@created 2012, @stars 35, @forks 14)
+- Code repository: https://github.com/Techbot/JiGS-PHP-RPG-engine.git (@created 2012, @stars 37, @forks 16)
 - Code language: JavaScript, PHP
 - Code license: GPL-3.0
 - Developer: Justin Kelly, Lisa Corcoran, Rob Stocker

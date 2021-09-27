@@ -5,9 +5,10 @@
 - Download: https://f-droid.org/de/packages/de.tobiasbielefeld.brickgames/
 - Platform: Android
 - Keyword: arcade, skill
-- Code repository: https://github.com/TobiasBielefeld/Simple-Brick-Games.git
+- Code repository: https://github.com/TobiasBielefeld/Simple-Brick-Games.git (@created 2016, @stars 40, @forks 28)
 - Code language: Java
 - Code license: GPL-3.0
+- Developer: Tobias Bielefeld, xin
 
 ## Building
 

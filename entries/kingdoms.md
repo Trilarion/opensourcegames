@@ -4,7 +4,7 @@
 - State: beta, inactive since 2014
 - Platform: Linux
 - Keyword: strategy
-- Code repository: https://github.com/anttisalonen/kingdoms.git (@created 2010, @stars 24, @forks 2)
+- Code repository: https://github.com/anttisalonen/kingdoms.git (@created 2010, @stars 25, @forks 2)
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: Boost, libpng, SDL, zlib

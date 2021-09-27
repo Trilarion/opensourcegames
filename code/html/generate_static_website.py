@@ -17,6 +17,10 @@ Listing:
 
 """
 
+# TODO game engines should be sorted with frameworks/tools, not with games (they aren't games or are they?)
+
+# TODO if the only change is a change in last updated, do not change it (we can probably check with git diff for it) or checksums
+
 # TODO minimize tag usage: jinja template optimization for line breaks and indention and minimal amount of spaces (and size of files) and minimal amount of repetition of tags
 
 # TODO contribute.html add content
@@ -743,8 +747,10 @@ def generate(entries, inspirations, developers):
     # copy css
     utils.copy_tree(os.path.join(c.web_template_path, 'css'), c.web_css_path)
 
-    # collage_image
+    # collage_image and google search console token
     shutil.copyfile(os.path.join(c.web_template_path, 'collage_games.jpg'), os.path.join(c.web_path, 'collage_games.jpg'))
+    shutil.copyfile(os.path.join(c.web_template_path, 'google1f8a3863114cbcb3.html'), os.path.join(c.web_path, 'google1f8a3863114cbcb3.html'))
+
 
     # create Jinja Environment
     environment = Environment(loader=FileSystemLoader(c.web_template_path), autoescape=True)

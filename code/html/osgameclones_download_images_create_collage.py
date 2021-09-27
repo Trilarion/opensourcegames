@@ -184,9 +184,9 @@ if __name__ == "__main__":
 
     # paths
     root_path = os.path.realpath(os.path.join(os.path.dirname(__file__), os.path.pardir))
-    download_path = os.path.join(root_path, 'code', 'html', 'images-download')
+    download_path = os.path.join(root_path, 'code', '', 'images-download')
     downsized_path = os.path.join(download_path, 'downsized')
-    output_file = os.path.join(root_path, 'code', 'html', 'collage_games.jpg')
+    output_file = os.path.join(root_path, 'code', '', 'collage_games.jpg')
     if not os.path.exists(download_path):
         os.mkdir(download_path)
     if not os.path.exists(downsized_path):

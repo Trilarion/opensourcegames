@@ -152,7 +152,7 @@
 - **[Freeciv Alpha Centauri project](../freeciv_alpha_centauri_project.md)** (C, GPL-2.0, beta, inactive since 2003)
 - **[FreeCol](../freecol.md)** (Java, GPL-2.0, mature)
 - **[FreeCS](../freecs.md)** (QuakeC, GPL-2.0, mature)
-- **[Freedoom](../freedoom.md)** (None, None, beta)
+- **[Freedoom](../freedoom.md)** (None, Python, None, beta)
 - **[freegish](../freegish.md)** (C, GPL-2.0, beta, inactive since 2017)
 - **[Freekick 3](../freekick_3.md)** (C++, Python, GPL-3.0, mature, inactive since 2015)
 - **[FreeLords](../freelords.md)** (Java, GPL-2.0, beta, inactive since 2017)

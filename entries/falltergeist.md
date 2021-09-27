@@ -6,7 +6,7 @@
 - Download: https://github.com/falltergeist/falltergeist/releases
 - Platform: Windows, Linux
 - Keyword: game engine, remake, role playing, content commercial + original required
-- Code repository: https://github.com/falltergeist/falltergeist.git (@created 2012, @stars 656, @forks 74)
+- Code repository: https://github.com/falltergeist/falltergeist.git (@created 2012, @stars 699, @forks 79)
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: GLEW, SDL2

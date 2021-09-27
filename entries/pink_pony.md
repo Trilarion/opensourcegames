@@ -6,7 +6,7 @@
 - Download: https://github.com/ginkgo/pink-pony/releases
 - Platform: Windows, Linux
 - Keyword: puzzle, clone, content open, multiplayer split-screen, racing
-- Code repository: https://github.com/ginkgo/pink-pony.git (@created 2009, @stars 32, @forks 2)
+- Code repository: https://github.com/ginkgo/pink-pony.git (@created 2009, @stars 35, @forks 4)
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: GLFW, SDL

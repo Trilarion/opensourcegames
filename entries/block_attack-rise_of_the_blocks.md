@@ -6,7 +6,7 @@
 - Download: https://blockattack.net/download/
 - Platform: Windows, Linux
 - Keyword: puzzle, clone, match 3, sliding blocks
-- Code repository: https://github.com/blockattack/blockattack-game.git (@created 2015, @stars 25, @forks 3)
+- Code repository: https://github.com/blockattack/blockattack-game.git (@created 2015, @stars 28, @forks 4)
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL2

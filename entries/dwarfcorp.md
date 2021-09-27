@@ -5,7 +5,7 @@
 - State: mature
 - Platform: Windows, Linux, macOS
 - Keyword: game engine, strategy, content commercial (?)
-- Code repository: https://github.com/Blecki/dwarfcorp.git (@created 2015, @stars 458, @forks 54)
+- Code repository: https://github.com/Blecki/dwarfcorp.git (@created 2015, @stars 473, @forks 60)
 - Code language: C#
 - Code license: MIT
 - Code dependency: MonoGame, XNA

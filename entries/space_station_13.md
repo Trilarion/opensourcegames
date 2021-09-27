@@ -1,17 +1,17 @@
 # Space Station 13
 
-- Home: https://spacestation13.com/
+- Home: https://spacestation13.com/, https://tgstation13.org/
 - Media: https://en.wikipedia.org/wiki/Space_Station_13
 - State: mature
 - Keyword: role playing, online, space, turn-based
+- Code repository: https://github.com/tgstation/tgstation.git (@created 2012, @stars 1170, @forks 3368)
 - Code language: DM
 - Code license: AGPL-3.0
+- Developer: 4dplanner, 81Denton, aaaa1023, ACCount, actions-user, akenworthy87, Aki Ito, Akrilla, Alek2ander, Aleksej Komarov, Alex, Alexander Dorogov, Alisa Ulan, AMonkeyThatCodes, anconfuzedrock, AndrewJacksonThe2nd, Anonmare, AnturK, Aranclanos, ArcaneDefence, ArcaneMusic, Arkatos1, arsserpentarium, as334, ATH1909, Ava, Azarak, Barhandar, bawhoppen, BeeSting12, Bjorn Neergaard, Bobbahbrown, Bobylein, BordListian, Boredone, Buggy123, cacogen, Cael Aislinn, Carl Ivanov, carlarctg, carshalash, Celotajs, Cheridan, Chuckleberry Finn, CitrusGender, Coconutwarrior97, Coffee, coiax, CollenN, Core0verload, CosmicScientist, Couls, CRITAWAKETS, Cruix, Cuboos, danno "big fucking moron" brando, Davidj361, Dax Dupont, Deantwo, deathride58, Degirin2120, Delimusca, Dennok, Dex, Donkie, Dorsisdwarf, dragomagol, duncathan salt, EdgeLordExe, EgorDinamit, El-moo, Emil, Emmanuel S., Emmett Gaines, EOBGames, Ergovisavi, erwgd, esainane, EuroNumbers, Expletive, F Devine, Faerdan, FantasticFwoosh, Farquaar, Fayrik, Fel, Fhaxaris, Fikou, Firecage, Fox McCloud, FrozenGuy5, Gallyus, Gamer Menace, Gamer025, Ghilker, Ghom, Gilles Coremans, granpawalton, GuillaumePrata, GunHog, Haevacht, hornygranny, Iamgoofball, Ikarrus, imsxz, imtakingabreakdontatme, Incoming5643, IndieanaJones, InsaneRed, interestingusernam3, itseasytosee, Jalleo, Joan Lung, John Willard, JohnTheDonut, Jonathan Rubenstein, Jordan Brown, Jordie, jughu, KazeEspada, Kelenius, Khub, Kierany9, kilkun, kingofkosmos, Kokonut, KorPhaeron, Krysonism, Kyle Spier-Swenson, Kylerace, Kyrah Abattoir, LaharlMontogmmery, Lan, LatD, LemonInTheDark, Leo, Lexorion, Liam Baloh, Maarten van den Berg, MacBlaze1, Maersk Aerospace, ManeaterMildred, manofpepsi, Marc R. Uchniat, Matt Smith, Maurukas, Menshin, Mercenaryblue, Mervill, Metacide, Mickyan, Mike Long, mloc, MMMiracles, Mothblocks, Mr Potato Shaman, MrMelbert, MrPerson, msgerbs, NamelessFairy, necromanceranne, Neerti, nemvar, nicbn, Nichlas Pihl, Nick, Nickolas Gupton, NightRed, NikNakFlak, Nivek Hutchison, Nodrak, norill, nullbear, NullQuery, octareenroon91, Oisin100, Okand37, oranges, paprka, PatchouliKnowledge, peoplearestrange, Perakp, Pete Goodfellow, phil235, Pieter-Jan Briers, pireamaineach, PKPenguin321, plapatin, PlayerDeer, prodirus, Profakos, pubby, QualityVan, Radacitus, RandomGamer123, RandomMarine, RaveRadbury, Razharas, Remie Richards, Ricotez, Rob Bailey, Robustin, Rohesie, Rolan7, Ryll Ryll, Sabbat, Sawu, scoopscoop, Seris02, Seth Scherer, SgtHunk, Shdorsh, ShizCalev, silicons, skoglol, SmArtKar, Son-of-Space, SouDescolado, SpaceManiac, Sparkezel, spessbandit, spessbro, spookydonut, Steelpoint, SteelSlayer, Strathcona, Strommer Kilian, subject217, Sugarette, Supermichael777, SuperSayu, swindly, Tacolizard, Tastyfish, TechnoAlchemist, TehZombehz, TemporalOroboros, tgstation-server, Thalpy, thebleh, TheCarlSaganExpress, TheChosenEvilOne, TheVekter, Thunder12345, Tim, Timberpoes, Time-Green, TiviPlus, tkdrg, Tlaltecuhtli, Tokiko1, Tony, tralezab, Trevor Serpas, TrustyGun, Twaticus, uomo, Urumasi, Vile Beggar, Vincent, vincentiusvin, vista-, vuonojenmustaturska, Wallem, WarlockD, Watermelon914, Wayland-Smithy, wesoda25, Whoneedspacee, William Wallace, WJohn, XDTM, Xerux, xxalpha, Y0SH1M4S73R, YakumoChen, Yenwodyah, YotaXP, YoYoBatty, YPOQ, Zelacks, zxaber, Zytolg, 小月猫
 
 Players assume the role of a crew member on a space station.
-Uses the [Byond engine]() which is closed source!
 
-Open source versions:
-+ https://tgstation13.org/ https://github.com/tgstation/tgstation
+Uses the Byond engine which is closed source.
 + https://baystation12.net/ https://github.com/Baystation12/Baystation12/
 + https://www.paradisestation.org/forum/ https://github.com/ParadiseSS13/Paradise
 + https://github.com/ss13remake/ss13remake

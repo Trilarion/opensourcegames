@@ -201,7 +201,8 @@ general_code_dependencies_without_entry = {'OpenGL': 'https://www.opengl.org/',
                                    'jQuery': 'https://jquery.com/',
                                    'node.js': 'https://nodejs.org/en/',
                                    'GNU Guile': 'https://www.gnu.org/software/guile/',
-                                   'tkinter': 'https://docs.python.org/3/library/tk.html'}
+                                   'tkinter': 'https://docs.python.org/3/library/tk.html',
+                                   'Boost': 'https://www.boost.org/'}
 
 # build system urls
 build_system_urls = {

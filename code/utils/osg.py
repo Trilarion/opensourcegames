@@ -124,8 +124,12 @@ def write_developers(developers):
             value = dev[field]
             # lists get special treatment
             if isinstance(value, list):
+                # remove duplicates
+                value = list(set(value))
+                # sort
                 value.sort(key=str.casefold)
-                value = [x if not ',' in x else '"{}"'.format(x) for x in value]  # surround those with a comma with quotation marks
+                # surround those with a comma with quotation marks
+                value = [x if not ',' in x else '"{}"'.format(x) for x in value]
                 value = ', '.join(value)
             content += '- {}: {}\n'.format(field, value)
         content += '\n'

@@ -4,7 +4,7 @@
 - Inspiration: Super ZZT, ZZT
 - State: beta, inactive since 2019
 - Keyword: remake
-- Code repository: https://github.com/SaxxonPike/roton.git (@created 2015, @stars 15, @forks 1)
+- Code repository: https://github.com/SaxxonPike/roton.git (@created 2015, @stars 16, @forks 0)
 - Code language: C#
 - Code license: ISC
 - Developer: Ian Burgmyer, Tony Konzel

@@ -6,7 +6,7 @@
 - Download: https://play.google.com/store/apps/details?id=is.xyz.omw, https://f-droid.org/packages/is.xyz.omw/
 - Platform: Android
 - Keyword: remake, content commercial
-- Code repository: https://github.com/xyzz/openmw-android.git (@created 2018, @stars 170, @forks 20)
+- Code repository: https://github.com/xyzz/openmw-android.git (@created 2018, @stars 216, @forks 31)
 - Code language: Kotlin, Java
 - Code license: GPL-3.0
 - Developer: Bret Curtis, Licaon_Kter, sandstranger, xyzz

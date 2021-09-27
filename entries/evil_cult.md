@@ -6,7 +6,7 @@
 - Play: http://www.in-fi-del.net/static/cult/index.html
 - Platform: Web
 - Keyword: strategy, turn-based
-- Code repository: https://github.com/infidel-/cult.git (@created 2015, @stars 13, @forks 4)
+- Code repository: https://github.com/infidel-/cult.git (@created 2015, @stars 15, @forks 4)
 - Code language: Haxe, JavaScript
 - Code license: GPL-3.0
 - Developer: Chris Oelmueller, Max Kowarski (@lead)

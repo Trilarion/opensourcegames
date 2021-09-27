@@ -7,11 +7,11 @@
 - Download: https://sourceforge.net/projects/raceintospace/files/
 - Platform: Windows, Linux, macOS
 - Keyword: remake, simulation, strategy, space, turn-based
-- Code repository: https://github.com/raceintospace/raceintospace.git (@created 2011, @stars 106, @forks 38), http://raceintospace.cvs.sourceforge.net (cvs)
+- Code repository: https://github.com/raceintospace/raceintospace.git (@created 2011, @stars 109, @forks 43), http://raceintospace.cvs.sourceforge.net (cvs)
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependency: libogg, libvorbis, SDL
-- Developer: Bart Buyens, Benjamin Weps, Bryant Moscon, Cartmancakes, Erik Anderson, Hendrik W., James, Joseph Wang, Krzysztof A. Kościuszkiewicz, Leon Baradat, Michael K McCarty, Michael McCarty, Nik_akd, Pace Willisson, Petr Menšík, Philip Giuliano, Ryan Schmidt, Ryan Yoakum, Todd Lang, Will Glynn, William Sherwin
+- Developer: Bart Buyens, Benjamin Weps, Bryant Moscon, Cartmancakes, Erik Anderson, Hendrik W., James, Joseph Wang, Krzysztof A. Kościuszkiewicz, Leon Baradat, Michael K McCarty, Michael McCarty, Nik_akd, Pace Willisson, Petr Menšík, Philip Giuliano, Ryan Schmidt, Ryan Yoakum, Todd Lang, Tushar Maheshwari, Will Glynn, William Sherwin
 
 Developers released the original game under GPL.
 

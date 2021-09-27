@@ -4,7 +4,7 @@
 - Inspiration: Bomberman
 - State: beta, inactive since 2018
 - Keyword: action, clone, content open, multiplayer competitive
-- Code repository: https://github.com/akien-mga/dynadungeons.git (@created 2015, @stars 162, @forks 29)
+- Code repository: https://github.com/akien-mga/dynadungeons.git (@created 2015, @stars 168, @forks 32)
 - Code language: GDScript
 - Code license: GPL-3.0
 - Code dependency: Godot

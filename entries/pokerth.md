@@ -6,7 +6,7 @@
 - Download: https://www.pokerth.net/app.php/download
 - Platform: Windows, Linux, macOS, Android
 - Keyword: strategy, online, poker
-- Code repository: https://github.com/pokerth/pokerth.git (@created 2012, @stars 354, @forks 152), https://svn.code.sf.net/p/pokerth/code (svn)
+- Code repository: https://github.com/pokerth/pokerth.git (@created 2012, @stars 378, @forks 157), https://svn.code.sf.net/p/pokerth/code (svn)
 - Code language: C++
 - Code license: AGPL-3.0
 - Code dependency: Qt

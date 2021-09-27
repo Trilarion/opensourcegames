@@ -81,7 +81,7 @@
 - **[Fish Rings for Android](../fish_rings_for_android.md)** (Java, GPL-3.0, mature, inactive since 2015)
 - **[fonline](../fonline.md)** (C, C++, C#, GPL-3.0, beta)
 - **[Forge](../forge.md)** (Java, GPL-3.0, mature)
-- **[Foursies](../foursies.md)** (Elm, GPL-3.0, mature, inactive since 2016)
+- **[Foursies](../foursies.md)** (Elm, JavaScript, GPL-3.0, mature, inactive since 2016)
 - **[Free Allegiance](../free_allegiance.md)** (C++, MIT, mature)
 - **[Free Heroes 2](../free_heroes_2.md)** (C++, GPL-2.0, beta, inactive since 2015)
 - **[Free Mars](../free_mars.md)** (Java, GPL-3.0, mature)

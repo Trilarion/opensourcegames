@@ -7,10 +7,10 @@
 - Download: http://roguetemple.com/z/hyper/download.php
 - Platform: Windows, Linux, macOS, Android
 - Keyword: role playing, roguelike
-- Code repository: https://github.com/zenorogue/hyperrogue.git (@created 2015, @stars 261, @forks 35)
+- Code repository: https://github.com/zenorogue/hyperrogue.git (@created 2015, @stars 314, @forks 46)
 - Code language: C++
 - Code license: GPL-2.0
-- Developer: Alexandre Moine, Arthur O'Dwyer, Dmitry Marakasov, Dorota Celińska-Kopczyńska, still-flow, Zeno Rogue
+- Developer: Alexandre Moine, Arthur O'Dwyer, blargdag, Dmitry Marakasov, Dorota Celińska-Kopczyńska, Jesse Ruderman, still-flow, Zeno Rogue
 
 Roguelike inspired by the puzzle game Deadly Rooms of Death, taking place in the hyperbolic plane.
 There is also a commercial version of it.

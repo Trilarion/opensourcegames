@@ -4,7 +4,7 @@
 - Inspiration: Curse of the Azure Bonds
 - State: mature
 - Keyword: remake, role playing
-- Code repository: https://github.com/simeonpilgrim/coab.git (@created 2015, @stars 49, @forks 13)
+- Code repository: https://github.com/simeonpilgrim/coab.git (@created 2015, @stars 52, @forks 13)
 - Code language: C#, C
 - Code license: ? (BSD)
 - Code dependency: .NET

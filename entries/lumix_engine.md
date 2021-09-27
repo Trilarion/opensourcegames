@@ -4,10 +4,10 @@
 - State: beta
 - Download: https://github.com/nem0/LumixEngine/releases
 - Keyword: framework, 3D
-- Code repository: https://github.com/nem0/LumixEngine.git (@created 2013, @stars 2281, @forks 280), https://github.com/nem0/lumixengine_data.git (related)
+- Code repository: https://github.com/nem0/LumixEngine.git (@created 2013, @stars 2543, @forks 314), https://github.com/nem0/lumixengine_data.git (related)
 - Code language: C++
 - Code license: MIT
-- Developer: Benjamin Wolf, Dominik Madarász, Jakub Lukasik, James Webb, Maxim Kolganov, Mikulas Florek, timbaker, tluqo
+- Developer: Benjamin Wolf, Dominik Madarász, Jakub Lukasik, James Webb, Maxim Kolganov, Mikulas Florek, Mitchell de Rijcke, timbaker, tluqo
 
 ## Building
 

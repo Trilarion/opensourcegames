@@ -4,7 +4,7 @@
 - Inspiration: Joust
 - State: beta
 - Keyword: arcade, remake
-- Code repository: https://github.com/dulsi/ostrichriders.git (@created 2016, @stars 6, @forks 2)
+- Code repository: https://github.com/dulsi/ostrichriders.git (@created 2016, @stars 7, @forks 2)
 - Code language: C++
 - Code license: GPL-3.0
 - Developer: dulsi, Rémi Verschelde

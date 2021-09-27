@@ -5,7 +5,6 @@ repositories to be checked out. Works on bare repositories.
 
 import json
 import re
-import urllib.parse
 
 from utils.utils import *
 from utils.archive import *

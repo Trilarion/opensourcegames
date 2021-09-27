@@ -5,7 +5,7 @@
 - State: beta
 - Platform: Web
 - Keyword: remake, role playing
-- Code repository: https://github.com/mordrax/cotwelm.git (@created 2016, @stars 88, @forks 7)
+- Code repository: https://github.com/mordrax/cotwelm.git (@created 2016, @stars 92, @forks 8)
 - Code language: Elm, JavaScript
 - Code license: MIT
 - Developer: Dušan Juretić, Joseph Ni

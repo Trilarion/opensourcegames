@@ -6,7 +6,7 @@
 - Play: http://game.castleofthewinds.com/
 - Platform: Web
 - Keyword: remake, role playing
-- Code repository: https://github.com/mordrax/cotwmtor.git (@created 2015, @stars 16, @forks 2)
+- Code repository: https://github.com/mordrax/cotwmtor.git (@created 2015, @stars 17, @forks 2)
 - Code language: JavaScript
 - Code license: MIT
 - Developer: Joseph Ni

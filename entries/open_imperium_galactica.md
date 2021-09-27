@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/akarnokd/open-ig/releases
 - Keyword: remake, strategy, turn-based
-- Code repository: https://github.com/akarnokd/open-ig.git (@created 2015, @stars 163, @forks 39)
+- Code repository: https://github.com/akarnokd/open-ig.git (@created 2015, @stars 168, @forks 42)
 - Code language: Java
 - Code license: LGPL-3.0
 - Developer: David Karnok, Péter Kovács, Robikz

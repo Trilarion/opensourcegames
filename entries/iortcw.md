@@ -6,7 +6,7 @@
 - Download: https://github.com/iortcw/iortcw/releases
 - Platform: Windows, Linux, macOS
 - Keyword: remake, first-person, shooter
-- Code repository: https://github.com/iortcw/iortcw.git (@created 2015, @stars 309, @forks 42)
+- Code repository: https://github.com/iortcw/iortcw.git (@created 2015, @stars 347, @forks 50)
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependency: OpenAL, SDL

@@ -13,9 +13,17 @@
 <body>
                                 {#- navigation bar -#}
 <nav class="navbar container is-light" aria-label="main navigation">
-  <div class="navbar-menu">
+  <div class="navbar-brand">
+    <a class="navbar-item{% if 'index' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['index.html']) }}">{{ macros.render_icon({'class':'home'}) }}<span>OSGL</span></a>
+    <a class="navbar-item" href="https://github.com/Trilarion/opensourcegames">{{ macros.render_icon({'class':'github'}) }}<span>On GitHub</span></a>
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu is-active">
     <div class="navbar-start">
-      <a class="navbar-item{% if 'index' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['index.html']) }}">{{ macros.render_icon({'class':'home'}) }}<span>Home</span></a>
       <a class="navbar-item{% if 'games' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'index.html']) }}">{{ macros.render_icon({'class':'dice'}) }}<span>Games</span></a>
       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link{% if 'filter' in base['active_nav'] %} is-active{% endif %}">{{ macros.render_icon({'class':'filter'}) }}<span>Filter</span></a>
@@ -31,7 +39,6 @@
       <a class="navbar-item{% if 'inspirations' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['inspirations', 'index.html']) }}">{{ macros.render_icon({'class':'bulb'}) }}<span>Inspirations</span></a>
       <a class="navbar-item{% if 'statistics' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['statistics.html']) }}">{{ macros.render_icon({'class':'stats-dots'}) }}<span>Statistics</span></a>
       <a class="navbar-item{% if 'contribute' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['contribute.html']) }}">{{ macros.render_icon({'class':'pencil'}) }}<span>Contribute</span></a>
-      <a class="navbar-item" href="https://github.com/Trilarion/opensourcegames">{{ macros.render_icon({'class':'github'}) }}<span>On GitHub</span></a>
     </div>
   </div>
 </nav>

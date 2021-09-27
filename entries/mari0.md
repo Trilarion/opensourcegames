@@ -6,7 +6,7 @@
 - Download: https://stabyourself.net/mari0/#download
 - Platform: Windows, Linux, macOS
 - Keyword: platform, puzzle, remake
-- Code repository: https://github.com/Stabyourself/mari0.git (@created 2012, @stars 350, @forks 58)
+- Code repository: https://github.com/Stabyourself/mari0.git (@created 2012, @stars 416, @forks 61)
 - Code language: Lua
 - Code license: MIT
 - Code dependency: LÖVE

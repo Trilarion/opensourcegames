@@ -4,7 +4,7 @@
 - Inspiration: Ultima V: Warriors of Destiny
 - State: beta
 - Keyword: remake, role playing
-- Code repository: https://github.com/bradhannah/Ultima5Redux.git (@created 2019, @stars 25, @forks 2)
+- Code repository: https://github.com/bradhannah/Ultima5Redux.git (@created 2019, @stars 28, @forks 4)
 - Code language: C#
 - Code license: MIT
 - Developer: Brad Hannah, MrMan4th

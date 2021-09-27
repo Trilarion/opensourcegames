@@ -5,7 +5,7 @@
 - State: mature, inactive since 2015
 - Download: http://egoboo.sourceforge.net/download.html
 - Keyword: role playing, 3D, dungeon, roguelike
-- Code repository: https://github.com/egoboo/egoboo.git (@created 2014, @stars 77, @forks 17), https://svn.code.sf.net/p/egoboo/svn (svn)
+- Code repository: https://github.com/egoboo/egoboo.git (@created 2014, @stars 86, @forks 18), https://svn.code.sf.net/p/egoboo/svn (svn)
 - Code language: C++, C
 - Code license: GPL-3.0
 - Developer: JohanJansen, Michael Heilmann, penguinflyer5234

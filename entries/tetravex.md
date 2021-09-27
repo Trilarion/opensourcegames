@@ -6,7 +6,7 @@
 - Download: https://github.com/Lisergishnu/TetraVex/releases
 - Platform: macOS
 - Keyword: puzzle, port
-- Code repository: https://github.com/Lisergishnu/TetraVex.git (@created 2016, @stars 1, @forks 1)
+- Code repository: https://github.com/Lisergishnu/TetraVex.git (@created 2016, @stars 2, @forks 1)
 - Code language: Swift
 - Code license: GPL-3.0
 - Code dependency: Cocoa

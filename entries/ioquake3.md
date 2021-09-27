@@ -6,7 +6,7 @@
 - Download: https://ioquake3.org/get-it/
 - Platform: Windows, Linux, macOS
 - Keyword: action, game engine, remake, content original required, shooter
-- Code repository: https://github.com/ioquake/ioq3.git (@created 2012, @stars 1693, @forks 424)
+- Code repository: https://github.com/ioquake/ioq3.git (@created 2012, @stars 1840, @forks 439)
 - Code language: C
 - Code license: GPL-2.0
 - Code dependency: SDL2

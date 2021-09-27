@@ -9,7 +9,7 @@
 - **[Deer Portal](../deer_portal.md)** (C++, zlib, beta)
 - **[Domination](../domination.md)** (Java, GPL-3.0, mature)
 - **[DreamChess](../dreamchess.md)** (C, GPL-3.0, beta)
-- **[Foursies](../foursies.md)** (Elm, GPL-3.0, mature, inactive since 2016)
+- **[Foursies](../foursies.md)** (Elm, JavaScript, GPL-3.0, mature, inactive since 2016)
 - **[glParchis](../glparchis.md)** (Python, GPL-3.0, mature)
 - **[GNU Go](../gnu_go.md)** (C, GPL-3.0, mature, inactive since 2011)
 - **[Hnefatafl](../hnefatafl.md)** (C, ISC, beta, inactive since 2014)

@@ -4,7 +4,7 @@
 - Inspiration: Master of Orion 2, Star Trek: Birth of the Federation
 - State: mature, inactive since 2016
 - Keyword: strategy, 4X, space, turn-based
-- Code repository: https://github.com/bote-team/bote.git (@created 2013, @stars 19, @forks 4)
+- Code repository: https://github.com/bote-team/bote.git (@created 2013, @stars 20, @forks 4)
 - Code language: C++
 - Code license: Custom (private use allowed)
 - Developer: anonymissimus, Iceflower, Malvoisin, Reg, Vuto-BotE

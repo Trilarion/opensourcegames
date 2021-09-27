@@ -4,9 +4,10 @@
 - Media: https://en.wikipedia.org/wiki/Horde3D
 - State: mature
 - Keyword: library, 3D
-- Code repository: https://github.com/horde3d/Horde3D.git
+- Code repository: https://github.com/horde3d/Horde3D.git (@created 2013, @stars 1119, @forks 279)
 - Code language: C++
 - Code license: EPL-2.0
+- Developer: Alexander Giatsintov, Christoph Schulz, Denilson das Mercês Amorim, Emanuele Bertoldi, Jean-Claude Monnin, mjt, Volker Vogelhuber
 
 Graphics engine.
 

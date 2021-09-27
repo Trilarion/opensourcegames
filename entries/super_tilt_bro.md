@@ -6,7 +6,7 @@
 - Download: https://github.com/sgadrat/super-tilt-bro/releases
 - Platform: Web
 - Keyword: platform, clone, content open, multiplayer competitive
-- Code repository: https://github.com/sgadrat/super-tilt-bro.git (@created 2016, @stars 71, @forks 5)
+- Code repository: https://github.com/sgadrat/super-tilt-bro.git (@created 2016, @stars 83, @forks 7)
 - Code language: Assembly, Python
 - Code license: WTFPL
 

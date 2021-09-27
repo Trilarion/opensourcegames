@@ -5,7 +5,7 @@
 - State: beta, inactive since 2017
 - Download: https://sourceforge.net/projects/cosp/files/
 - Keyword: action, adventure, clone
-- Code repository: https://github.com/vcosta/derclou.git (@created 2012, @stars 15, @forks 7), http://cosp.cvs.sourceforge.net (cvs)
+- Code repository: https://github.com/vcosta/derclou.git (@created 2012, @stars 17, @forks 9), http://cosp.cvs.sourceforge.net (cvs)
 - Code language: C
 - Code license: Custom (Der Clou! Public License)
 - Code dependency: SDL

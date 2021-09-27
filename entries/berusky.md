@@ -6,7 +6,7 @@
 - Download: https://web.archive.org/web/*/https://sourceforge.net/projects/berusky/files/*
 - Platform: Windows, Linux
 - Keyword: action, content open, logic
-- Code repository: https://github.com/stransky/berusky.git (@created 2011, @stars 16, @forks 4)
+- Code repository: https://github.com/stransky/berusky.git (@created 2011, @stars 17, @forks 4)
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: SDL

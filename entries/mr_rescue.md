@@ -5,7 +5,7 @@
 - Download: https://github.com/SimonLarsen/mrrescue/releases
 - Platform: Windows, Linux, macOS
 - Keyword: arcade, platform, content open
-- Code repository: https://github.com/SimonLarsen/mrrescue.git (@created 2012, @stars 407, @forks 74)
+- Code repository: https://github.com/SimonLarsen/mrrescue.git (@created 2012, @stars 412, @forks 70)
 - Code language: Lua
 - Code license: zlib
 - Code dependency: AnAL, LÖVE, slam, TSerial

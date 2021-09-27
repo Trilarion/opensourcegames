@@ -5,9 +5,9 @@
 - State: mature
 - Download: https://www.openfl.org/learn/docs/getting-started/
 - Keyword: framework
-- Code repository: https://github.com/openfl/openfl.git (@created 2013, @stars 1536, @forks 349)
+- Code repository: https://github.com/openfl/openfl.git (@created 2013, @stars 1614, @forks 356)
 - Code language: Haxe
 - Code license: MIT
-- Developer: Alexey Vinokurov, Andreas Rønning, andresa88, Ben Morris, Brian Gunn, bW8kZmFt, Chris Speciale, codetoko, crayfellow, Dan Korostelev, Danny Wilson, David Hamiter, Dimitri Pomier, Greg Caldwell, guruas3, Hendrik Klindworth, Ilia Glazkov, Ilya Malanin, james4k, Jay Sistar, Jean-Denis Boivin, Jens Fischer, Josh Tynjala, Joshua Granick, Joshua McKenty, Justin Espedal, Justo Delgado, kanewallmann, Kaspars Jaudzems, kixkev, KixSevenson, Klug76, Lars Doucet, Leander1P, Luke Mitchell, m0rkeulv, Markus, Milton Candelero, NenadBojkovski, Nick, Nikolay Sukharev, Nilsen Filc, Pablo Martin, player-03, Rainy, Thomas BAUDON, tuna, Valentin Lemière, Zaphod, Łukasz Modliński
+- Developer: Alexey Vinokurov, Andreas Rønning, andresa88, Ben Morris, Brian Gunn, bW8kZmFt, Chris Speciale, codetoko, crayfellow, Dan Korostelev, Danny Wilson, David Hamiter, Dimitri Pomier, Greg Caldwell, guruas3, Hendrik Klindworth, Ilia Glazkov, Ilya Malanin, james4k, Jay Sistar, Jean-Denis Boivin, Jens Fischer, Josh Tynjala, Joshua Granick, Joshua McKenty, Justin Espedal, Justo Delgado, Kane Wallmann, kanewallmann, Kaspars Jaudzems, kixkev, KixSevenson, Klug76, Lars Doucet, Leander1P, Luke Mitchell, m0rkeulv, Markus, mastef, Milton Candelero, NenadBojkovski, Nick, Nikolay Sukharev, Nilsen Filc, Pablo Martin, player-03, Rainy, tbyrne-imag, Thomas BAUDON, tuna, Valentin Lemière, Zaphod, Łukasz Modliński
 
 ## Building

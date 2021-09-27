@@ -4,7 +4,7 @@
 - Inspiration: Age of Empires, Age of Empires II, Star Wars: Galactic Battlegrounds
 - State: beta
 - Keyword: game engine, remake, strategy, content commercial + original required, real-time
-- Code repository: https://github.com/SFTtech/openage.git (@created 2013, @stars 10104, @forks 974)
+- Code repository: https://github.com/SFTtech/openage.git (@created 2013, @stars 10547, @forks 1023)
 - Code language: C++, Python
 - Code license: GPL-3.0
 - Code dependency: OpenGL, SDL

@@ -158,7 +158,7 @@ def sourceforge_import():
 if __name__ == "__main__":
 
     # collect entries
-    # collect_sourceforge_entries()
+    collect_sourceforge_entries()
 
     # import information from sf
-    sourceforge_import()
+    # sourceforge_import()

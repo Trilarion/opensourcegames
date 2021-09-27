@@ -3,6 +3,7 @@ Checks the entries and tries to detect additional developer content, by retrievi
 stored Git repositories.
 """
 # TODO bag of words (split, strip, lowercase) on dev names and try to detect sex and nationality
+# TODO name is not unique (not even on GH) so maybe add name to profile name
 # TODO for duplicate names, create ignore list
 # TODO split devs with multiple gh or sf accounts (unlikely), start with most (like name Adam) - naming convention @01 etc.
 # TODO check for devs without contact after gitlab/bitbucket/..
@@ -43,6 +44,9 @@ class DevelopersMaintainer:
         print('duplicates checked (took {:.1f}s)'.format(time.process_time()-start_time))
 
     def check_for_orphans(self):
+        """
+        List developers without games.
+        """
         if not self.developers:
             print('developers not yet loaded')
             return
@@ -50,6 +54,16 @@ class DevelopersMaintainer:
             if not dev['Games']:
                 print(' {} has no games'.format(dev['Name']))
         print('orphans checked')
+
+    def remove_orphans(self):
+        """
+        Remove developers without games.
+        """
+        if not self.developers:
+            print('developers not yet loaded')
+            return
+        self.developers = {k: v for k,v in self.developers.items() if v['Games']}
+        print('orphans removed ({} devs left)'.format(len(self.developers)))
         
     def check_for_missing_developers_in_entries(self):
         if not self.developers:
@@ -125,6 +139,7 @@ if __name__ == "__main__":
         'Write developers': m.write_developer,
         'Check for duplicates': m.check_for_duplicates,
         'Check for orphans': m.check_for_orphans,
+        'Remove orphans': m.remove_orphans,
         'Check for games in developers not listed': m.check_for_missing_developers_in_entries,
         'Update developers from entries': m.update_developers_from_entries,
         'Special': m.special_ops,

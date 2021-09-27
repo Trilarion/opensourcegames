@@ -5,7 +5,7 @@
 - State: mature
 - Platform: Windows, Linux, macOS, Android, Web
 - Keyword: platform, clone
-- Code repository: https://github.com/mgerhardy/caveexpress.git (@created 2014, @stars 105, @forks 22)
+- Code repository: https://github.com/mgerhardy/caveexpress.git (@created 2014, @stars 117, @forks 22)
 - Code language: C, JavaScript
 - Code license: GPL-3.0
 - Code dependency: SDL

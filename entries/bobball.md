@@ -6,9 +6,10 @@
 - Download: https://f-droid.org//packages/org.bobstuff.bobball/
 - Platform: Android
 - Keyword: arcade, skill
-- Code repository: https://github.com/bobthekingofegypt/BobBall.git
+- Code repository: https://github.com/bobthekingofegypt/BobBall.git (@created 2012, @stars 19, @forks 5)
 - Code language: Java
 - Code license: 2-clause BSD
+- Developer: Bob, rnauber, wesen
 
 ## Building
 

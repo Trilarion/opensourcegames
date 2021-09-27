@@ -6,9 +6,10 @@
 - Download: https://f-droid.org/en/packages/de.saschahlusiak.freebloks/
 - Platform: Android
 - Keyword: strategy
-- Code repository: https://github.com/shlusiak/Freebloks-Android.git
+- Code repository: https://github.com/shlusiak/Freebloks-Android.git (@created 2012, @stars 34, @forks 25)
 - Code language: Kotlin, C++
 - Code license: GPL-2.0
+- Developer: Michał Janiszewski, Sascha Hlusiak
 
 ## Building
 

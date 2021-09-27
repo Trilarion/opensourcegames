@@ -4,10 +4,10 @@
 - Inspiration: Outpost
 - State: beta
 - Keyword: remake, simulation, content commercial + original required
-- Code repository: https://github.com/OutpostUniverse/OPHD.git (@created 2018, @stars 40, @forks 9)
+- Code repository: https://github.com/OutpostUniverse/OPHD.git (@created 2018, @stars 47, @forks 12)
 - Code language: C++
 - Code license: 3-clause BSD
-- Developer: Brett, cugone, Daniel Stevens, Leeor Dicker
+- Developer: belgianguy, Brett, cugone, Daniel Stevens, Leeor Dicker, Robert Toth
 
 ## Building
 

@@ -4,7 +4,7 @@
 - Inspiration: Ace of Spades
 - State: beta
 - Keyword: cards, remake, content open, multiplayer online
-- Code repository: https://github.com/xtreme8000/BetterSpades.git (@created 2016, @stars 109, @forks 17)
+- Code repository: https://github.com/xtreme8000/BetterSpades.git (@created 2016, @stars 129, @forks 22)
 - Code language: C
 - Code license: GPL-3.0
 - Developer: xtreme8000

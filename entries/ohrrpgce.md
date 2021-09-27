@@ -5,8 +5,8 @@
 - State: mature
 - Download: https://rpg.hamsterrepublic.com/ohrrpgce/Downloads
 - Keyword: framework
-- Code repository: https://bitbucket.org/rbv/ohrrpgce-svn.git (mirror), https://github.com/ohrrpgce/ohrrpgce.git @add (@created 2019, @stars 22, @forks 3), https://rpg.hamsterrepublic.com/source/wip @add (svn)
-- Code language: Basic, Visual Basic
+- Code repository: https://bitbucket.org/rbv/ohrrpgce-svn.git (mirror), https://github.com/ohrrpgce/ohrrpgce.git @add (@created 2019, @stars 32, @forks 7), https://rpg.hamsterrepublic.com/source/wip @add (svn)
+- Code language: Basic
 - Code license: GPL-2.0
 - Developer: James Paige, Ralph Versteegen
 

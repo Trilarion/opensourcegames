@@ -4,10 +4,10 @@
 - Inspiration: M.U.L.E.
 - State: beta (@alpha), inactive since 2015
 - Keyword: remake, strategy
-- Code repository: https://github.com/LionsPhil/mewl.git (@created 2015, @stars 5, @forks 0)
+- Code repository: https://github.com/LionsPhil/mewl.git (@created 2015, @stars 5, @forks 1)
 - Code language: C++
 - Code license: GPL-2.0
-- Developer: Philip Boulain
+- Developer: LionsPhil, Philip Boulain
 
 ## Building
 

@@ -5,8 +5,9 @@
 - Download: http://game-editor.com/Download
 - Platform: Windows, Linux, macOS, iOS
 - Keyword: framework, 2D, editor, engine
-- Code repository: https://github.com/game-editor/game-editor.git
+- Code repository: https://github.com/game-editor/game-editor.git (@created 2013, @stars 24, @forks 15)
 - Code language: C, C++
 - Code license: GPL-3.0
+- Developer: Leland Dawson
 
 ## Building

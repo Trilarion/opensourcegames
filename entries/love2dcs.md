@@ -5,9 +5,10 @@
 - State: mature
 - Platform: Windows, Linux, macOS
 - Keyword: framework, 2D
-- Code repository: https://github.com/endlesstravel/Love2dCS.git
+- Code repository: https://github.com/endlesstravel/Love2dCS.git (@created 2017, @stars 111, @forks 5)
 - Code language: C#, C++
 - Code license: MIT
+- Developer: Yx
 
 C# wrapper for LÖVE
 

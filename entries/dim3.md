@@ -4,8 +4,9 @@
 - State: beta, inactive since 2014
 - Platform: Windows, Linux, macOS
 - Keyword: game engine, 3D
-- Code repository: https://github.com/andrewzx1/dim3.git
+- Code repository: https://github.com/andrewzx1/dim3.git (@created 2015, @stars 2, @forks 0)
 - Code language: C
 - Code license: MIT
+- Developer: Brian Barnes
 
 ## Building

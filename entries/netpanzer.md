@@ -4,7 +4,7 @@
 - State: beta
 - Download: https://www.netpanzer.info/page/download/
 - Keyword: strategy, multiplayer, online, real-time
-- Code repository: https://github.com/BackupTheBerlios/netpanzer-svn.git (not up to date?, @created 2015, @stars 0, @forks 0), https://svn.code.sf.net/p/netpanzerfp/code (svn)
+- Code repository: https://github.com/BackupTheBerlios/netpanzer-svn.git (not up to date?, @created 2015, @stars 1, @forks 0), https://svn.code.sf.net/p/netpanzerfp/code (svn)
 - Code language: C++
 - Code license: GPL-2.0
 

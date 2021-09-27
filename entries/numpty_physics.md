@@ -4,7 +4,7 @@
 - State: beta, inactive since 2016
 - Platform: Windows, Linux, macOS
 - Keyword: puzzle, simulation, content open, physics
-- Code repository: https://github.com/thp/numptyphysics.git (@created 2012, @stars 13, @forks 12), https://github.com/svn2github/numptyphysics.git @add (@created 2017, @stars 0, @forks 0)
+- Code repository: https://github.com/thp/numptyphysics.git (@created 2012, @stars 21, @forks 14), https://github.com/svn2github/numptyphysics.git @add (@created 2017, @stars 1, @forks 0)
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: Box2D, SDL2

@@ -4,7 +4,7 @@
 - Inspiration: Asteroids
 - State: beta
 - Keyword: action, remake
-- Code repository: https://github.com/slx7R4GDZM/Sine.git (@created 2016, @stars 4, @forks 1)
+- Code repository: https://github.com/slx7R4GDZM/Sine.git (@created 2016, @stars 6, @forks 2)
 - Code language: C, C++
 - Code license: MIT
 - Code dependency: SFML

@@ -6,7 +6,7 @@
 - Download: https://github.com/bradharding/doomretro/releases
 - Platform: Windows
 - Keyword: action, remake, content commercial + original required
-- Code repository: https://github.com/bradharding/doomretro.git (@created 2013, @stars 326, @forks 52)
+- Code repository: https://github.com/bradharding/doomretro.git (@created 2013, @stars 413, @forks 58)
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependency: SDL2

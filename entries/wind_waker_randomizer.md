@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/LagoLunatic/wwrando/releases
 - Keyword: tool, content commercial
-- Code repository: https://github.com/LagoLunatic/wwrando.git (@created 2018, @stars 212, @forks 39)
+- Code repository: https://github.com/LagoLunatic/wwrando.git (@created 2018, @stars 256, @forks 50)
 - Code language: Python, Assembly
 - Code license: MIT
 - Developer: Dereck Miller, JarheadHME, LagoLunatic, Nabil Boutemeur, wooferzfg

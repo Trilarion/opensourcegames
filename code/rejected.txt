@@ -95,6 +95,7 @@ KZap (http://kzap.sourceforge.net/): Very early development
 L5R-RPU:L5R Role-Playing Utilitites (https://sourceforge.net/projects/l5r-rpgu/): Early development, no license information with source, long abandoned (since 2007)
 Last Hope A medieval Web Game (https://sourceforge.net/projects/lasthope/, https://web.archive.org/web/20051030000341/http://www.ano-lasthope.org:80/): Very early development
 LastNinja (http://lastninja.sourceforge.net/, https://sourceforge.net/projects/lastninja/): Early development, Abandoned, Needs original material that is probably not obtainable legally
+Layabox (http://www.layabox.com/en/): Closed source
 LegacyClone (http://sourceforge.net/projects/legacyclone/): Very early development
 legion (https://github.com/mahho/legion.git): No compatible license found
 Lemmix (http://www.ericenzwaan.nl/eric/lemmings/lemmix.htm, http://www.ericenzwaan.nl/eric/lemmings/LemOpenSource.zip): Custom license, requires original content that is probably not obtainable legally
@@ -112,10 +113,12 @@ Militia Defense (https://love2d.org/forums/viewtopic.php?f=5&t=380): Does not ex
 Mindlence RPG Game Library (https://sourceforge.net/projects/mindlence-game/): Very early development
 Mining Haze (http://sourceforge.net/projects/mininghaze/): Very early development
 Mining Haze (https://sourceforge.net/projects/mininghaze/): Early development
+Moai (https://moaiwebsite.github.io/, https://github.com/moai/moai-dev): All rights reserved
 MonoStrategy (https://monostrategy.codeplex.com/, https://codeplexarchive.blob.core.windows.net/archive/projects/monostrategy/monostrategy.zip): Early development (alpha), Not playable, requires original content, abandoned
 Moopy (https://code.google.com/archive/p/moopy/, https://code.google.com/archive/p/moopy/source/default/source): Early development stage
 Mugen (https://en.wikipedia.org/wiki/Mugen_(engine), https://github.com/fanyer/mugen, http://www.elecbyte.com/mugendocs/mugen.html): Freeware but not open source (https://www.reddit.com/r/mugen/comments/ernvwb/is_mugen_open_source/)
 MultiGame (https://github.com/whendricso/MultiGame): Commercial
+NetGore (http://www.netgore.com/, https://github.com/Spodii/netgore): No license information found.
 Neverputt (): Part of Neverball or never really offered separately
 New RAW (http://sourceforge.net/projects/newraw/, http://svn.code.sf.net/p/newraw/code/): Early development, requires original content, abandoned
 Ninjapix (http://pyedpypers.org/pyday/?p=27): Sources lost, Homepage offline, Internet archive hasn't stored sources

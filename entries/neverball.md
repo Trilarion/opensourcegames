@@ -7,7 +7,7 @@
 - Download: https://neverball.org/download.php
 - Platform: Windows, macOS
 - Keyword: action, clone
-- Code repository: https://github.com/Neverball/neverball.git (@created 2013, @stars 198, @forks 58), https://github.com/Neverball/neverball-docs.git @add (@created 2013, @stars 4, @forks 3), https://github.com/Neverball/neverball-music.git @add (@created 2017, @stars 3, @forks 0)
+- Code repository: https://github.com/Neverball/neverball.git (@created 2013, @stars 218, @forks 61), https://github.com/Neverball/neverball-docs.git @add (@created 2013, @stars 6, @forks 4), https://github.com/Neverball/neverball-music.git @add (@created 2017, @stars 5, @forks 1)
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependency: SDL

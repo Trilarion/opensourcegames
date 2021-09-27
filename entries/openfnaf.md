@@ -4,7 +4,7 @@
 - Inspiration: Five Nights at Freddy's
 - State: beta
 - Keyword: role playing, clone, content open (?)
-- Code repository: https://github.com/MotoLegacy/OpenFNaF.git (@created 2019, @stars 21, @forks 1)
+- Code repository: https://github.com/MotoLegacy/OpenFNaF.git (@created 2019, @stars 27, @forks 2)
 - Code language: C
 - Code license: MIT
 - Code dependency: SFML

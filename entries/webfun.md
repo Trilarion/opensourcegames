@@ -5,7 +5,7 @@
 - State: beta
 - Platform: Web
 - Keyword: adventure, game engine, remake, "content commercial + original required (?)"
-- Code repository: https://github.com/cyco/WebFun.git (@created 2015, @stars 6, @forks 0)
+- Code repository: https://github.com/cyco/WebFun.git (@created 2015, @stars 10, @forks 0)
 - Code language: TypeScript
 - Code license: MIT
 - Developer: Christoph Leimbrock

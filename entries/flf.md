@@ -5,10 +5,10 @@
 - State: mature
 - Platform: Web
 - Keyword: framework, clone, content commercial + original required
-- Code repository: https://github.com/Project-F/F.LF.git (@created 2015, @stars 172, @forks 27)
+- Code repository: https://github.com/Project-F/F.LF.git (@created 2015, @stars 204, @forks 33)
 - Code language: JavaScript
 - Code license: CC-BY-NC-SA-3.0 (http://project-f.github.io/license.html)
 - Assets license: Proprietary (https://github.com/Project-F/LF2_19)
-- Developer: Chris Tsang, Mark Wissink
+- Developer: Bobby Ng, Chris Tsang, Mark Wissink
 
 ## Building

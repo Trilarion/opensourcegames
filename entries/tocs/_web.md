@@ -42,7 +42,7 @@
 - **[Dark Destiny](../dark_destiny.md)** (Java, JavaScript, ?, mature, inactive since 2016)
 - **[DarkCity](../darkcity.md)** (PHP, GPL-3.0, mature, inactive since 2012)
 - **[Dedalus](../dedalus.md)** (JavaScript, GPL-2.0, beta, inactive since 2018)
-- **[Delaford](../delaford.md)** (JavaScript, MIT, beta)
+- **[Delaford](../delaford.md)** (JavaScript, PHP, MIT, beta)
 - **[Devana](../devana.md)** (PHP, zlib, beta)
 - **[diablo-js](../diablo-js.md)** (Java, JavaScript, MIT, mature)
 - **[Enduro tribute](../enduro_tribute.md)** (JavaScript, MIT, mature)

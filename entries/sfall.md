@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/phobos2077/sfall/releases
 - Keyword: game engine, remake, "content commercial + original required (full original game)"
-- Code repository: https://github.com/phobos2077/sfall.git (@created 2015, @stars 140, @forks 14)
+- Code repository: https://github.com/phobos2077/sfall.git (@created 2015, @stars 167, @forks 21)
 - Code language: C++, C
 - Code license: GPL-3.0
 - Developer: Mr.Stalin, NovaRain, Vennor, Vlad, vlad-saritasa

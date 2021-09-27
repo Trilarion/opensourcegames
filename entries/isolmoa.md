@@ -5,8 +5,9 @@
 - Download: https://f-droid.org/de/packages/org.valos.isolmoa/
 - Platform: Android
 - Keyword: strategy
-- Code repository: https://github.com/valos/Isolmoa.git
+- Code repository: https://github.com/valos/Isolmoa.git (@created 2013, @stars 4, @forks 0)
 - Code language: JavaScript, Java
 - Code license: GPL-3.0
+- Developer: Valéry Febvre
 
 ## Building

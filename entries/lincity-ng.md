@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://bintray.com/lincityng/LinCity-NG/LinCity-NG, https://sourceforge.net/projects/lincity-ng.berlios/files/
 - Keyword: simulation, city, clone
-- Code repository: https://github.com/lincity-ng/lincity-ng.git (@created 2015, @stars 248, @forks 63)
+- Code repository: https://github.com/lincity-ng/lincity-ng.git (@created 2015, @stars 277, @forks 68)
 - Code language: C++
 - Code license: GPL-2.0
 - Developer: Wolfgang Becker

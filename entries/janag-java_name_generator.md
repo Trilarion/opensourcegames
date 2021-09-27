@@ -4,7 +4,7 @@
 - State: mature, inactive since 2016
 - Download: https://www.beimax.de/fileadmin/downloads/janag/JaNaG_GUI.jar, https://sourceforge.net/projects/janag.berlios/files
 - Keyword: tool
-- Code repository: https://github.com/mkalus/janag.git (@archived, @created 2014, @stars 4, @forks 4)
+- Code repository: https://github.com/mkalus/janag.git (@archived, @created 2014, @stars 4, @forks 5)
 - Code language: Java
 - Code license: GPL-3.0
 - Developer: Javier A. Ortiz Bultron, Max

@@ -5,7 +5,7 @@
 - Download: https://download.tuxfamily.org/harmonist/releases/
 - Platform: Windows, Linux, macOS, Web
 - Keyword: role playing, content open, roguelike, text-based
-- Code repository: https://git.tuxfamily.org/harmonist/harmonist.git, https://github.com/anaseto/harmonist.git @add (@created 2019, @stars 48, @forks 5)
+- Code repository: https://git.tuxfamily.org/harmonist/harmonist.git, https://github.com/anaseto/harmonist.git @add (@created 2019, @stars 68, @forks 6)
 - Code language: Go
 - Code license: ISC
 - Assets license: ISC

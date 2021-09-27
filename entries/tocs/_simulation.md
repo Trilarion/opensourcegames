@@ -125,3 +125,4 @@
 - **[WallBall](../wallball.md)** (Haxe, JavaScript, GPL-3.0, mature)
 - **[YSoccer](../ysoccer.md)** (Java, GPL-2.0, mature)
 - **[Zen!](../zen.md)** (Java, GPL-2.0, mature)
+- **[Zugspiel](../zugspiel.md)** (C++, GPL-2.0, beta, inactive since 2004)

@@ -6,7 +6,7 @@
 - Download: https://f-droid.org//packages/org.zamedev.gloomydungeons2.opensource/
 - Platform: Android
 - Keyword: action, 3D, shooter
-- Code repository: https://github.com/restorer/gloomy-dungeons-2.git
+- Code repository: https://github.com/restorer/gloomy-dungeons-2.git (@created 2014, @stars 78, @forks 40)
 - Code language: Java
 - Code license: MIT
 

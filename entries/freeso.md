@@ -5,10 +5,10 @@
 - State: beta
 - Download: https://freeso.org/download/
 - Keyword: game engine, remake, simulation, content original required
-- Code repository: https://github.com/riperiperi/FreeSO.git (@created 2015, @stars 515, @forks 70)
+- Code repository: https://github.com/riperiperi/FreeSO.git (@created 2015, @stars 570, @forks 75)
 - Code language: C#
 - Code license: MPL-2.0
 - Code dependency: MonoGame
-- Developer: Cosmatevs, ddfczm, dotequals, Franco Franks, Jeremy Glazebrook, Mats Vederhus, riperiperi, Sim, simptomo, TheArchitectFreeSO, Todd Hertzelle, Tony Bark
+- Developer: andrewknoll, Cosmatevs, ddfczm, dotequals, Franco Franks, Jeremy Glazebrook, Mats Vederhus, riperiperi, Sim, simptomo, TheArchitectFreeSO, Todd Hertzelle, Tony Bark
 
 ## Building

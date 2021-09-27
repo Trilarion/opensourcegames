@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://github.com/djyt/cannonball/wiki#downloads
 - Keyword: action, remake, content commercial
-- Code repository: https://github.com/djyt/cannonball.git (@created 2012, @stars 361, @forks 84)
+- Code repository: https://github.com/djyt/cannonball.git (@created 2012, @stars 404, @forks 90)
 - Code language: C++
 - Code license: MAME
 - Developer: Manuel Alfayate Corchete, reassembler, Santhosh Raju

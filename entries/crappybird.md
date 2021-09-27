@@ -6,7 +6,7 @@
 - Play: https://varunpant.com/resources/CrappyBird/index.html
 - Platform: Web
 - Keyword: puzzle, remake
-- Code repository: https://github.com/varunpant/CrappyBird.git (@created 2014, @stars 30, @forks 48)
+- Code repository: https://github.com/varunpant/CrappyBird.git (@created 2014, @stars 35, @forks 58)
 - Code language: JavaScript
 - Code license: MIT
 - Developer: Varun

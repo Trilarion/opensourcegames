@@ -5,7 +5,7 @@
 - State: beta
 - Platform: Windows
 - Keyword: remake, content commercial
-- Code repository: https://github.com/ArnoAnsems/CatacombGL.git (@created 2018, @stars 41, @forks 3)
+- Code repository: https://github.com/ArnoAnsems/CatacombGL.git (@created 2018, @stars 56, @forks 4)
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: OpenGL

@@ -7,7 +7,7 @@
 - Download: https://www.openomf.org/downloads/, https://github.com/omf2097/openomf/releases
 - Platform: Windows, Linux
 - Keyword: action, remake, "content commercial (?) + open (?) + original required"
-- Code repository: https://github.com/omf2097/openomf.git (@created 2013, @stars 239, @forks 28)
+- Code repository: https://github.com/omf2097/openomf.git (@created 2013, @stars 255, @forks 30)
 - Code language: C, C++
 - Code license: MIT
 - Developer: Alexander Weps, Andreas Gnau, Andrew Thompson, animehunter, Giuseppe Deda, Martti Rannanjärvi, TheOnlyJoey, Tuomas Virtanen

@@ -4,7 +4,7 @@
 - Inspiration: Super ZZT, ZZT
 - State: beta
 - Keyword: tool
-- Code repository: https://github.com/asiekierka/zeta.git (@created 2020, @stars 25, @forks 1)
+- Code repository: https://github.com/asiekierka/zeta.git (@created 2020, @stars 34, @forks 2)
 - Code language: C
 - Code license: MIT
 - Code dependency: SDL2

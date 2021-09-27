@@ -6,7 +6,7 @@
 - Download: https://f-droid.org//packages/org.olgsoft.apipepanic/
 - Platform: Android
 - Keyword: strategy
-- Code repository: https://github.com/rnauber/pipepanic-android.git
+- Code repository: https://github.com/rnauber/pipepanic-android.git (@created 2015, @stars 18, @forks 8)
 - Code language: Java, JavaScript
 - Code license: MIT
 

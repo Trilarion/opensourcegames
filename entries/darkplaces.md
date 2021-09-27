@@ -6,9 +6,10 @@
 - Download: https://icculus.org/twilight/darkplaces/download.html
 - Platform: Windows, Linux, macOS
 - Keyword: game engine, remake
-- Code repository: https://gitlab.com/xonotic/darkplaces.git, https://github.com/xonotic/darkplaces.git (@mirror), https://svn.icculus.org/twilight/trunk/darkplaces/ (svn), svn://svn.icculus.org/twilight/trunk (utilities)
+- Code repository: https://gitlab.com/xonotic/darkplaces.git, https://github.com/xonotic/darkplaces.git (@created 2014, @stars 118, @forks 32), https://svn.icculus.org/twilight/trunk/darkplaces/ (svn), svn://svn.icculus.org/twilight/trunk (utilities)
 - Code language: C
 - Code license: GPL-2.0
+- Developer: David Knapp, divVerent
 
 SVN repository not accessible anymore.
 

@@ -4,7 +4,7 @@
 - Inspiration: Ultima Online
 - State: beta, inactive since 2017
 - Keyword: remake, role playing, 2D, 3D, content open (?), requires server
-- Code repository: https://github.com/kblaschke/Iris2.git (@created 2017, @stars 8, @forks 9)
+- Code repository: https://github.com/kblaschke/Iris2.git (@created 2017, @stars 11, @forks 12)
 - Code language: C, C++, Lua
 - Code license: GPL-3.0
 - Code dependency: OGRE

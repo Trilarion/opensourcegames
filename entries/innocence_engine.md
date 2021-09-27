@@ -4,9 +4,10 @@
 - State: beta
 - Download: https://github.com/zhangdoa/InnocenceEngine/releases
 - Keyword: game engine
-- Code repository: https://github.com/zhangdoa/InnocenceEngine.git
+- Code repository: https://github.com/zhangdoa/InnocenceEngine.git (@created 2017, @stars 156, @forks 16)
 - Code language: C++
 - Code license: GPL-3.0
+- Developer: zhangdoa
 
 ## Building
 

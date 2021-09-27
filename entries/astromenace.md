@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://viewizard.com/download.html
 - Keyword: action, remake, 3D, shooter, space
-- Code repository: https://github.com/viewizard/astromenace.git (@created 2018, @stars 99, @forks 14)
+- Code repository: https://github.com/viewizard/astromenace.git (@created 2018, @stars 132, @forks 20)
 - Code language: C++, C
 - Code license: GPL-3.0
 - Developer: Alistair Findlay, Dmitry Marakasov, Mikhail Kurinnoi, Mikkhail Kurin, viewizard

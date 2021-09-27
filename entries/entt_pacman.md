@@ -4,7 +4,7 @@
 - Inspiration: Pac-Man
 - State: mature
 - Keyword: puzzle, remake, clone, content open
-- Code repository: https://github.com/Kerndog73/EnTT-Pacman.git (@created 2018, @stars 100, @forks 12)
+- Code repository: https://github.com/Kerndog73/EnTT-Pacman.git (@created 2018, @stars 120, @forks 12)
 - Code language: C, C++
 - Code license: MIT
 - Code dependency: EnTT, SDL2

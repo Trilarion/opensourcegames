@@ -5,10 +5,10 @@
 - State: mature
 - Download: https://github.com/orx/orx/releases
 - Keyword: framework, 2D
-- Code repository: https://github.com/orx/orx.git (@created 2015, @stars 606, @forks 58)
+- Code repository: https://github.com/orx/orx.git (@created 2015, @stars 765, @forks 63)
 - Code language: C
 - Code license: zlib
-- Developer: Andrew, Geoffrey Clark, iarwain, Philippe Simons, Sausage Johnson, Zor
+- Developer: Andrew, Andrey, Geoffrey Clark, iarwain, Jonas Öhrn, Philippe Simons, Sausage Johnson, Zor
 
 Plugin-based, data-driven 2D-oriented game engine.
 

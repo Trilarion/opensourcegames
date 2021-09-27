@@ -5,7 +5,7 @@
 - Inspiration: Gish
 - State: beta, inactive since 2017
 - Keyword: arcade, platform, remake, content open, side-scrolling
-- Code repository: https://github.com/freegish/freegish.git (@created 2014, @stars 41, @forks 9)
+- Code repository: https://github.com/freegish/freegish.git (@created 2014, @stars 46, @forks 11)
 - Code language: C
 - Code license: GPL-2.0
 - Code dependency: SDL

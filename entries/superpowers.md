@@ -5,7 +5,7 @@
 - Download: https://sparklinlabs.itch.io/superpowers
 - Platform: Web
 - Keyword: framework, 2D, 3D
-- Code repository: https://github.com/superpowers/superpowers-core.git (@created 2015, @stars 1470, @forks 128)
+- Code repository: https://github.com/superpowers/superpowers-core.git (@archived, @created 2015, @stars 1533, @forks 133)
 - Code language: TypeScript
 - Code license: ISC
 - Developer: David Llanos, Elisée Maurer, Florent POUJOL, Nicolas Gauthier, Paul, Victor Nogueira

@@ -1,6 +1,12 @@
 """
 Uses the Github API to learn more about the Github projects.
+
+Updates for example, the starring information.
 """
+
+# TODO remove Boost C++ developers and others libraries that aren't that interesting
+# TODO remove developers again?
+# TODo try to identify main developers (number of commits or change of lines...)
 
 import os
 import json
@@ -8,19 +14,26 @@ from utils import constants as c, utils, osg, osg_parse, osg_github
 
 gh_entries_file = os.path.join(c.code_path, 'github_entries.txt')
 prefix = 'https://github.com/'
+MINIMAL_CONTRIBUTIONS = 5
 
-blog_alias = {'http://k776.tumblr.com/': 'https://k776.tumblr.com/', 'http://timpetricola.com': 'https://timpetricola.com',
-              'http:/code.schwitzer.ca': 'https://code.schwitzer.ca/', 'http:\\www.vampier.net': 'https://www.vampier.net/'}
+blog_alias = {'http://k776.tumblr.com/': 'https://k776.tumblr.com/',
+              'http://timpetricola.com': 'https://timpetricola.com',
+              'http:/code.schwitzer.ca': 'https://code.schwitzer.ca/',
+              'http:\\www.vampier.net': 'https://www.vampier.net/'}
 ignored_blogs = ('https://uto.io',)
 
 ignored_languages = ('CSS', 'HTML', 'CMake', 'XSLT', 'ShaderLab')
-language_aliases = {'VBA': 'Visual Basic', 'Common Lisp': 'Lisp', 'Game Maker Language': 'Game Maker Script', 'NewLisp': 'Lisp'}
+language_aliases = {'VBA': 'Visual Basic', 'Common Lisp': 'Lisp', 'Game Maker Language': 'Game Maker Script',
+                    'NewLisp': 'Lisp', 'Awk': 'AWK', 'Visual Basic': 'Basic', 'FreeBasic': 'Basic'}
 
-ignored_repos = ('https://github.com/jtc0de/Blitwizard.git','https://github.com/IceReaper/KKnD.git',
-                 'https://github.com/KaidemonLP/Open-Fortress-Source.git', 'https://github.com/danielcrenna/TrueCraft.git')
+# these gave some errors (but you may try them again or remove them from this list)
+ignored_repos = ('https://github.com/jtc0de/Blitwizard.git',
+                 'https://github.com/KaidemonLP/Open-Fortress-Source.git',
+                 'https://github.com/danielcrenna/TrueCraft.git')
 
 name_aliases = {'Andreas Rosdal': 'Andreas Røsdal', 'davefancella': 'Dave Fancella', 'himiloshpetrov': 'Milosh Petrov',
-                'Jeremy Monin': 'Jeremy D. Monin', 'lennertclaeys': 'Lennert Claeys', 'malignantmanor': 'Malignant Manor',
+                'Jeremy Monin': 'Jeremy D. Monin', 'lennertclaeys': 'Lennert Claeys',
+                'malignantmanor': 'Malignant Manor',
                 'turulomio': 'Turulomio', '_Shaman': 'Shaman', 'alexandreSalconiDenis': 'Alexandre Salconi-Denis',
                 'buginator': 'Buginator', 'CiprianKhlud': 'Ciprian Khlud', 'dericpage': 'Deric Page',
                 'DI Murat Sari': 'Murat Sari', 'DolceTriade': 'Dolce Triade', 'DreamingPsion': 'Dreaming Psion',
@@ -30,7 +43,8 @@ name_aliases = {'Andreas Rosdal': 'Andreas Røsdal', 'davefancella': 'Dave Fance
 
 def collect_github_entries():
     """
-    Reads the entries of the database and collects all entries with github as repository
+    Reads the entries of the database and collects all entries with a Github repository. Just for convenience to limit
+    the number of entries to iterate on later.
     """
 
     # read entries
@@ -51,8 +65,7 @@ def collect_github_entries():
 
 def github_import():
     """
-
-    :return:
+    Import various information from Github repositories (like contributors) or stars for Github repos
     """
     private_properties = json.loads(utils.read_text(c.private_properties_file))
 
@@ -65,7 +78,7 @@ def github_import():
     try:
         # loop over each entry
         for index, file in enumerate(files):
-            print(' process {}'.format(file))
+            print(' process {} ({})'.format(file, index))
 
             # read entry
             entry = osg.read_entry(file)
@@ -84,9 +97,10 @@ def github_import():
                 # is archived
                 if info['archived']:
                     if not osg.is_inactive(entry):
-                        print('warning: repo is archived but not inactive state??')
+                        print('warning: repo is archived but not inactive state, check state')
                     # add archive to repo comment
                     new_comments.append('@archived')
+                # TODO check for repos that aren't archived anymore but are marked as such
 
                 # add created comment
                 new_comments.append('@created {}'.format(info['created'].year))
@@ -105,7 +119,7 @@ def github_import():
                 if comments:
                     comments = comments.split(',')
                     comments = [c.strip() for c in comments]
-                    comments = [c for c in comments if not c.startswith('@')] # delete old ones
+                    comments = [c for c in comments if not c.startswith('@')]  # delete old ones
                     comments += new_comments
                 else:
                     comments = new_comments
@@ -122,13 +136,14 @@ def github_import():
                 for contributor in info['contributors']:
                     if contributor.type != 'User':
                         continue
-                    if contributor.contributions < 4:
+                    if contributor.contributions < MINIMAL_CONTRIBUTIONS:
                         continue
                     # contributor.login/name/blog
                     name = contributor.name
                     if not name:
                         name = contributor.login
                     name = name_aliases.get(name, name)
+                    name = name.strip()  # sometimes they have trailing spaces (for whatever reason)
                     nickname = '{}@GH'.format(contributor.login)
                     blog = contributor.blog
                     if blog:
@@ -154,13 +169,13 @@ def github_import():
                             dev['Contact'] = dev.get('Contact', []) + [nickname]
                         if blog and blog not in dev.get('Home', []):
                             dev['Home'] = dev.get('Home', []) + [blog]
-                        # TODO add to games entries!
+                        if entry['Title'] not in dev['Games']:
+                            dev['Games'].append(entry['Title'])
                     else:
                         print('   dev "{}" ({}) added to developer database'.format(name, nickname))
                         all_developers[name] = {'Name': name, 'Contact': [nickname], 'Games': [entry['Title']]}
                         if blog:
                             all_developers[name]['Home'] = [blog]
-
 
             entry['Code repository'] = code_repositories
             osg.write_entry(entry)
@@ -176,8 +191,7 @@ def github_import():
 
 def github_starring_synchronization():
     """
-
-    :return:
+    Which Github repositories haven't I starred yet.
     """
     private_properties = json.loads(utils.read_text(c.private_properties_file))
 
@@ -186,7 +200,6 @@ def github_starring_synchronization():
     # loop over each entry and collect list of repos
     all_repos = []
     for index, file in enumerate(files):
-
         # read entry
         entry = osg.read_entry(file)
 
@@ -216,14 +229,12 @@ def github_starring_synchronization():
     print(', '.join(unstarred))
 
 
-
 if __name__ == "__main__":
-
-    # collect entries
+    # collect entries (run this only once)
     # collect_github_entries()
 
     # import information from gh
-    # github_import()
+    github_import()
 
     # which github repos haven't I starred
-    github_starring_synchronization()
+    # github_starring_synchronization()

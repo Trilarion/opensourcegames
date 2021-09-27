@@ -4,8 +4,9 @@
 - Inspiration: Radix: Beyond the Void
 - State: mature
 - Keyword: action, remake, content commercial + original required, shooter
-- Code repository: https://github.com/jval1972/Rad-X.git
+- Code repository: https://github.com/jval1972/Rad-X.git (@created 2020, @stars 11, @forks 3)
 - Code language: Pascal, C
 - Code license: GPL-2.0
+- Developer: jval1972
 
 ## Building

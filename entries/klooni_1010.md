@@ -6,7 +6,7 @@
 - Download: https://f-droid.org/packages/dev.lonami.klooni/
 - Platform: Android
 - Keyword: puzzle, clone
-- Code repository: https://github.com/LonamiWebs/Klooni1010.git (@created 2017, @stars 158, @forks 64)
+- Code repository: https://github.com/LonamiWebs/Klooni1010.git (@created 2017, @stars 178, @forks 70)
 - Code language: Java
 - Code license: GPL-3.0
 - Code dependency: libGDX

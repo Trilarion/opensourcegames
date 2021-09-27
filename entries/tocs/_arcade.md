@@ -125,7 +125,7 @@
 - **[Smolpxl](../smolpxl.md)** (JavaScript, AGPL-3.0, mature)
 - **[snake](../snake.md)** (Java, WTFPL, mature, inactive since 2017)
 - **[SolarWolf](../solarwolf.md)** (Python, LGPL-2.1, mature, inactive since 2004)
-- **[Sootl](../sootl.md)** (Elm, GPL-2.0, beta, inactive since 2016)
+- **[Sootl](../sootl.md)** (Elm, JavaScript, GPL-2.0, beta, inactive since 2016)
 - **[Star-Wars-III](../star-wars-iii.md)** (Python, GPL-2.0, mature, inactive since 2014)
 - **[StarMines: The Next Generation](../starmines_the_next_generation.md)** (Scala, GPL-3.0, mature)
 - **[Starun](../starun.md)** (Java, GPL-3.0, mature, inactive since 2017)

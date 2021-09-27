@@ -2,7 +2,7 @@
 # Visual novel
 
 - **[Digital: A Love Story](../digital_a_love_story.md)** (Ren'Py, CC-BY-NC-SA-3.0, mature)
-- **[INSTEAD](../instead.md)** (C, Lua, MIT, mature)
+- **[INSTEAD](../instead.md)** (C, Lua, Java, MIT, mature)
 - **[Murder In The Public Domain](../murder_in_the_public_domain.md)** (C++, GPL-3.0, mature, inactive since 2013)
 - **[ONScripter](../onscripter.md)** (C++, GPL-2.0, mature, inactive since 2020)
 - **[Our Personal Space](../our_personal_space.md)** (Ren'Py, GPL-3.0, mature)

@@ -69,7 +69,7 @@ GNOME Games (): Has been separated into individual packages. Will add them separ
 GPSFish (https://gps.tanaka.ecc.u-tokyo.ac.jp/gpsshogi/index.php?GPSFish): Too special
 Grow (https://sourceforge.net/projects/grow/): Insufficient content
 GRUB Invaders (http://www.erikyyy.de/invaders/): Requires use of the GRUB bootloader (also not really original)
-Heroes: Rebirth (
+Heroes: Rebirth (): ?
 Herzog 3D (http://herzog3d.sourceforge.net/, https://sourceforge.net/p/herzog3d/code/HEAD/tree/): Very early development
 HistoryLine (https://github.com/oliverdb/Historyline): Very early development, no license information
 Homeworld SDL (https://github.com/aheadley/homeworld): Not open source compliant license (see https://github.com/aheadley/homeworld/blob/master/README)

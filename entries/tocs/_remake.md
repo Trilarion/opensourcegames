@@ -47,6 +47,7 @@
 - **[Cadaver](../cadaver.md)** (C++, GPL-2.0, beta, inactive since 2009)
 - **[CaesarIA](../caesaria.md)** (C++, JavaScript, C, GPL-3.0, beta)
 - **[Cannonball](../cannonball.md)** (C++, MAME, beta)
+- **[Carnage3D](../carnage3d.md)** (C++, C, MIT, beta)
 - **[Castle of the Winds in Elm](../castle_of_the_winds_in_elm.md)** (Elm, JavaScript, MIT, beta)
 - **[Castle of the Winds](../castle_of_the_winds.md)** (JavaScript, MIT, beta, inactive since 2016)
 - **[Castle-Combat](../castle-combat.md)** (Python, GPL-2.0, beta, inactive since 2006)

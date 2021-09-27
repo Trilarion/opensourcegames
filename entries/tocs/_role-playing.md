@@ -91,7 +91,7 @@
 - **[HyperRogue](../hyperrogue.md)** (C++, GPL-2.0, mature)
 - **[ika](../ika.md)** (C++, Python, PHP, C#, GPL-2.0, beta, inactive since 2007)
 - **[Ilarion](../ilarion.md)** (C++, Java, Lua, GPL-3.0, mature)
-- **[Illarion](../illarion.md)** (C++, Java, AGPL-3.0, GPL-3.0, mature)
+- **[Illarion](../illarion.md)** (C++, Java, Lua, AGPL-3.0, GPL-3.0, mature)
 - **[Imperium](../imperium.md)** (?, ?, mature)
 - **[Intersect](../intersect.md)** (C#, MIT, GPL-2.0, beta)
 - **[Iris2](../iris2.md)** (C, C++, Lua, GPL-3.0, beta, inactive since 2017)

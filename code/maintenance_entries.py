@@ -221,8 +221,7 @@ class EntriesMaintainer:
 
     def clean_rejected(self):
         """
-
-        :return:
+        Only sorts the rejected games list file.
         """
         # sort rejected games list file
         sort_text_file(os.path.join(c.root_path, 'code', 'rejected.txt'), 'rejected games list')

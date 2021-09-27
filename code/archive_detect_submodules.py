@@ -5,9 +5,9 @@ repositories to be checked out. Works on bare repositories.
 
 import json
 import re
-
-from utils.utils import *
-from utils.archive import *
+import os
+import urllib
+from utils import constants as c, utils as u, archive as a
 
 if __name__ == '__main__':
 
@@ -15,23 +15,25 @@ if __name__ == '__main__':
 
     # get this folder
     root_folder = os.path.realpath(os.path.dirname(__file__))
-    archive_folder = os.path.join(root_folder, 'archive')
+    archive_folder = c.get_config('archive-folder')
+    base_folder = os.path.join(archive_folder, 'git')
 
     # read archives.json
-    text = read_text(os.path.join(root_folder, 'archives.json'))
+    text = u.read_text(os.path.join(root_folder, 'archives.json'))
     archives = json.loads(text)
 
     # loop over all git archives
     submodules = []
     for repo in archives['git']:
-        git_folder = git_folder_name(repo)
+        print('process {}'.format(repo))
+        git_folder = a.git_folder_name(repo)
         folder = os.path.join(archive_folder, 'git', git_folder)
         if not os.path.isdir(folder):
             print('Warning: folder {} does not exist'.format(git_folder))
             continue
         os.chdir(folder)
         try:
-            content = subprocess_run(['git', 'show', 'HEAD:.gitmodules'], False)
+            content = u.subprocess_run(['git', 'show', 'HEAD:.gitmodules'], False)
         except:
             continue
         matches = regex_submodules.findall(content)
@@ -55,4 +57,4 @@ if __name__ == '__main__':
 
     # store them
     print('found {} submodules'.format(len(submodules)))
-    write_text(os.path.join(root_folder, 'archives.git-submodules.json'), json.dumps(submodules, indent=1))
+    u.write_text(os.path.join(root_folder, 'archives.git-submodules.json'), json.dumps(submodules, indent=1))

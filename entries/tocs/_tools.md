@@ -41,7 +41,7 @@
 - **[SR](../sr.md)** (C, Assembly, MIT, GPL-2.0, ?, mature)
 - **[TTDPatch](../ttdpatch.md)** (Assembly, C, C++, GPL-2.0, mature, inactive since 2013)
 - **[Turbu](../turbu.md)** (Pascal, MPL-1.1, beta, inactive since 2013)
-- **[Twine](../twine.md)** (JavaScript, GPL-3.0, mature)
+- **[Twine](../twine.md)** (JavaScript, TypeScript, GPL-3.0, mature)
 - **[UndertaleModTool](../undertalemodtool.md)** (C#, GPL-3.0, beta)
 - **[VGC](../vgc.md)** (C++, Apache-2.0, beta)
 - **[Wind Waker Randomizer](../wind_waker_randomizer.md)** (Python, Assembly, MIT, mature)

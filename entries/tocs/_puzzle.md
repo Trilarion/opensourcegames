@@ -97,7 +97,7 @@
 - **[OGS Mahjong](../ogs_mahjong.md)** (C++, GPL-3.0, mature, inactive since 2016)
 - **[One Way To Go](../one_way_to_go.md)** (Lua, GPL-3.0, mature, inactive since 2011)
 - **[Open Flood](../open_flood.md)** (Java, MIT, mature, inactive since 2018)
-- **[Open Hexagon](../open_hexagon.md)** (C++, AFL-3.0, mature)
+- **[Open Hexagon](../open_hexagon.md)** (C++, C, AFL-3.0, mature)
 - **[OpenAlchemist](../openalchemist.md)** (C++, GPL-2.0, beta, inactive since 2010)
 - **[OpenBlok](../openblok.md)** (C++, GPL-3.0, beta)
 - **[OpenNotrium](../opennotrium.md)** (C++, GPL-3.0, beta)

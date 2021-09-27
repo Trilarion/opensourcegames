@@ -7,15 +7,14 @@ Uses 'git clone --mirror' to set up the git locally.
 
 Warning: This may take a long time on the first run and may need a lot of storage space!
 
-TODO are really all existing branches cloned and pulled? (see https://stackoverflow.com/questions/67699/how-to-clone-all-remote-branches-in-git)
-TODO Sourceforge git clone may not work all the time (restarting the script sometimes helps..)
-
 Note: May need to set http.postBuffer (https://stackoverflow.com/questions/17683295/git-bash-error-rpc-failed-result-18-htp-code-200b-1kib-s)
-
 
 For repositories
 see https://serverfault.com/questions/544156/git-clone-fail-instead-of-prompting-for-credentials
 """
+
+# TODO are really all existing branches cloned and pulled? (see https://stackoverflow.com/questions/67699/how-to-clone-all-remote-branches-in-git)
+# TODO Sourceforge git clone may not work all the time (restarting the script sometimes helps..)
 
 import json
 
@@ -174,7 +173,7 @@ if __name__ == '__main__':
     archives_git_submodules = json.loads(text)
 
     # run update on submodules
-    # run_update('git', archives_git_submodules, 'git-submodules')
+    run_update('git', archives_git_submodules, 'git-submodules')
 
     # update
     for type in archives:

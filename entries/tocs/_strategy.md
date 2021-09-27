@@ -246,7 +246,7 @@
 - **[T-Bots](../t-bots.md)** (C, GPL-2.0, beta, inactive since 2004)
 - **[Tactics Squad](../tactics_squad.md)** (C++, GPL-2.0, beta, inactive since 2007)
 - **[Tanks of Freedom](../tanks_of_freedom.md)** (GDScript, MIT, mature)
-- **[Tenes Empanadas Graciela](../tenes_empanadas_graciela.md)** (C, JavaScript, Perl, GPL-2.0, beta, inactive since 2015)
+- **[Tenes Empanadas Graciela](../tenes_empanadas_graciela.md)** (C, JavaScript, Perl, C++, GPL-2.0, beta, inactive since 2015)
 - **[Tennix!](../tennix.md)** (C, C++, GPL-2.0, mature)
 - **[The Battle for Wesnoth](../the_battle_for_wesnoth.md)** (C, C++, Java, Python, Lua, GPL-2.0, mature)
 - **[The Epic of Heroes](../the_epic_of_heroes.md)** (C++, GPL-3.0, beta, inactive since 2015)

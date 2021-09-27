@@ -36,7 +36,7 @@
 - **[Minilens](../minilens.md)** (GDScript, GPL-3.0, mature, inactive since 2018)
 - **[Mr. Rescue](../mr_rescue.md)** (Lua, zlib, mature, inactive since 2016)
 - **[Mrfuze](../mrfuze.md)** (Python, LGPL-2.1, mature, inactive since 2008)
-- **[Nikki and the Robots](../nikki_and_the_robots.md)** (Haskell, LGPL-3.0, mature, inactive since 2012)
+- **[Nikki and the Robots](../nikki_and_the_robots.md)** (Haskell, Lisp, LGPL-3.0, mature, inactive since 2012)
 - **[Nikwi](../nikwi.md)** (C++, GPL-2.0, beta, inactive since 2012)
 - **[NXEngine-evo](../nxengine-evo.md)** (C++, C, GPL-3.0, mature)
 - **[NXEngine](../nxengine.md)** (C, C++, GPL-3.0, mature)

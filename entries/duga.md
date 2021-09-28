@@ -1,7 +1,7 @@
 # DUGA
 
 - Home: https://github.com/MaxwellSalmon/DUGA/
-- Inspiration: Wolfenstein
+- Inspiration: Castle Wolfenstein
 - State: beta, inactive since 2018
 - Keyword: action, first-person, open content, shooter
 - Code repository: https://github.com/MaxwellSalmon/DUGA.git (@created 2018, @stars 108, @forks 19)

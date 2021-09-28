@@ -18,7 +18,7 @@ def read_rejected_file():
     text = u.read_text(rejected_file)
     rejected = []
     for line in text.split('\n'):
-        print(line)
+        # print(line)
         matches = matcher.findall(line)[0]  # we know there will be exactly one match on every line
         name = matches[0].strip()
         links = matches[1].split(',')

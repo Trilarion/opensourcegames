@@ -1,7 +1,7 @@
 # Extreme Tux Racer
 
 - Home: https://sourceforge.net/projects/extremetuxracer/
-- Inspiration: TuxRacer
+- Inspiration: Tux Racer
 - State: beta, inactive since 2018
 - Download: https://sourceforge.net/projects/extremetuxracer/files/
 - Keyword: platform, 3D, content open, racing

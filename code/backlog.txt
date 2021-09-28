@@ -88,3 +88,5 @@ https://www.tapatalk.com/groups/imperilist/
 https://www.wurfelengine.net/
 https://zdoom.org/downloads (gzdoom, lzdoom)
 https://zope.readthedocs.io/en/latest/
+https://github.com/jmorton06/Lumos
+http://crazycarscpc.free.fr/

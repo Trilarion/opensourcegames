@@ -8,5 +8,6 @@
 - Code language: C
 - Code license: MIT
 - Code dependency: Allegro
+- Developer: Kronoman
 
 ## Building

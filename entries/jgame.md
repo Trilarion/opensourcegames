@@ -7,6 +7,7 @@
 - Keyword: game engine, 2D
 - Code language: Java
 - Code license: 3-clause BSD
+- Developer: Boris van Schooten
 
 ## Building
 

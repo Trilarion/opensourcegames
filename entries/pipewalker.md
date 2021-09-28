@@ -9,6 +9,7 @@
 - Code license: GPL-3.0
 - Code dependency: SDL
 - Assets license: GPL-3.0
+- Developer: Artem
 
 ## Building
 

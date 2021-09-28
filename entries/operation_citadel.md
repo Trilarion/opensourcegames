@@ -1,6 +1,6 @@
 # Operation Citadel
 
-- Home: http://kursk.sourceforge.net/, https://sourceforge.net/projects/kursk
+- Home: http://kursk.sourceforge.net/, https://sourceforge.net/projects/kursk/
 - State: beta, inactive since 2000
 - Download: https://sourceforge.net/projects/kursk/files
 - Keyword: strategy, turn-based

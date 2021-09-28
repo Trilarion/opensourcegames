@@ -1,7 +1,7 @@
 # Gloomy Dungeons 2
 
 - Home: https://mobile.zame-dev.org/gloomy-ii/
-- Inspiration: Doom, Wolfenstein
+- Inspiration: Doom, Castle Wolfenstein
 - State: mature
 - Download: https://f-droid.org//packages/org.zamedev.gloomydungeons2.opensource/
 - Platform: Android

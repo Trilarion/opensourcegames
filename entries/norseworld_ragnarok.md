@@ -7,6 +7,6 @@
 - Code repository: https://github.com/Serg-Norseman/NorseWorld-Ragnarok.git (@created 2015, @stars 22, @forks 5)
 - Code language: C#
 - Code license: GPL-3.0
-- Developer: Sergey Zhdanovskih
+- Developer: Ilya Bely, Serg V. Zhdanovskih, Sergey Zhdanovskih
 
 ## Building

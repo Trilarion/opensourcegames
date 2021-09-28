@@ -1,6 +1,6 @@
 # Free Mars
 
-- Home: https://sourceforge.net/projects/freemars
+- Home: https://sourceforge.net/projects/freemars/
 - State: mature
 - Download: https://sourceforge.net/projects/freemars/files
 - Platform: Windows, Linux, macOS

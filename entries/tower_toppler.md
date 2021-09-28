@@ -7,5 +7,6 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL
+- Developer: Andreas Röver, Dylan Thurston, Pasi Kallinen
 
 ## Building

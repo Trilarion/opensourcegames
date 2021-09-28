@@ -1,6 +1,6 @@
 # Mpango
 
-- Home: https://sourceforge.net/projects/mpango, http://mpango.sourceforge.net/
+- Home: https://sourceforge.net/projects/mpango/, http://mpango.sourceforge.net/
 - State: beta, inactive since 2013
 - Download: https://sourceforge.net/projects/mpango/files/
 - Keyword: strategy, multiplayer online + massive, turn-based

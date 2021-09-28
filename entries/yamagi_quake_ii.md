@@ -1,7 +1,7 @@
 # Yamagi Quake II
 
 - Home: http://www.yamagi.org/quake2/
-- Inspiration: Quake 2
+- Inspiration: Quake II
 - State: mature
 - Platform: Windows, Linux
 - Keyword: action, remake, shooter

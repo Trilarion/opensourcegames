@@ -8,6 +8,6 @@
 - Code repository: https://svn.code.sf.net/p/trigger-rally/code (svn active)
 - Code language: C++
 - Code license: GPL-2.0
-- Developer: Andrei, Emanuele Sorce, Jasmine Langridge, Martin Scherer, Onsemeliot, qubodup, Richard Langridge
+- Developer: Andrei, Emanuele Sorce, Jasmine Langridge, marsch84, Martin Scherer, Onsemeliot, qubodup, Richard Langridge
 
 ## Building

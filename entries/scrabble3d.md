@@ -8,7 +8,7 @@
 - Code repository: https://gitlab.com/osgames/scrabble3d.git (conversion of svn), https://github.com/Scrabble3D/3.1.git @add (@created 2015, @stars 2, @forks 0), https://svn.code.sf.net/p/scrabble/code (svn)
 - Code language: Pascal
 - Code license: GPL-3.0
-- Developer: Scotty
+- Developer: Heiko Tietze, Scotty
 
 Place letters on the board like in crosswords.
 

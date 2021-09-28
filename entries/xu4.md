@@ -9,7 +9,7 @@
 - Code repository: https://svn.code.sf.net/p/xu4/code (svn)
 - Code language: C++
 - Code license: GPL-2.0
-- Developer: Andrew Taylor, Dallen Wilson, Dan Weber, Daniel Santos, Darren Janeczek, Dominik Reichardt, Doug Day, Gregory Saunders, Joshua Stewart, kirben, Michael Ryan, Nodling, Steve Saunders, Steven Jay Cohen, Trenton Schulz
+- Developer: Andrew Taylor, Dallen Wilson, Dan Weber, Daniel Santos, Darren Janeczek, Dominik Reichardt, Doug Day, Gregory Saunders, Joshua Stewart, Karl Robillard, kirben, Michael Ryan, Nodling, Steve Saunders, Steven Jay Cohen, Trenton Schulz
 
 Ultima 4 is now [freely available](https://www.gog.com/game/ultima_4).
 

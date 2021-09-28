@@ -12,7 +12,7 @@
 - Code license: GPL-2.0
 - Code dependency: libogg, libvorbis, libxml2, OpenAL, SDL2, zlib
 - Assets license: CC-BY-SA-3.0
-- Developer: Ben Brian, Erik Johansson, Kieran Pilkington, Lancelot de Ferrière, leper, Nicolas Auvray, Philip Taylor, Pureon, s0600204
+- Developer: Ben Brian, Erik Johansson, Kieran Pilkington, Lancelot de Ferrière, leper, Nicolas Auvray, Philip Taylor, Pureon, s0600204, Stanislas Dolcini
 
 Engine part is called Pyrogenesis.
 

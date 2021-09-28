@@ -1,7 +1,7 @@
 # Quake3e
 
 - Home: https://github.com/ec-/Quake3e
-- Inspiration: Quake 3
+- Inspiration: Quake III Arena
 - State: beta
 - Keyword: remake, content commercial, multiplayer Competitive + Local + LAN, shooter
 - Code repository: https://github.com/ec-/Quake3e.git (@created 2016, @stars 737, @forks 81)

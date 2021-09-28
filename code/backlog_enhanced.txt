@@ -1,5 +1,6 @@
 more work
 
+https://sourceforge.net/p/uhexen2/code/HEAD/tree/ Hexen II: Hammer of Thyrion
 http://hgm.nubati.net/ (winboard)
 http://insideastarfilledsky.net/ (source may be somewhere else)
 https://empiredirectory.net/
@@ -9,6 +10,7 @@ https://github.com/neuromancer/re-private-eye.git (moved to scummvm) and is part
 http://www.hard-light.net/ (Free Space Open, Knossos, Mods, https://github.com/scp-fs2open/fs2open.github.com, https://wiki.hard-light.net/index.php/Getting_started)
 http://svn.assembla.com/svn/gdpl/ (not sure what links there and what kind of game it is, license?)
 https://web.archive.org/web/20161230103538/http://www.linuxdevcenter.com/pub/a/linux/2003/04/24/exult.html
+http://barbarian.1987.free.fr/indexEN.htm (many version, source license?)
 
 roguelike
 
@@ -120,6 +122,10 @@ https://en.wikipedia.org/wiki/List_of_cult_video_games (all of them)
 https://en.wikipedia.org/wiki/List_of_free_and_open-source_Android_applications#Games
 https://en.wikipedia.org/wiki/MUD#Spread (all there)
 https://en.wikipedia.org/wiki/MUD_client (all there)
+
+osdn
+
+https://osdn.net/
 
 special
 

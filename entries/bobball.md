@@ -1,7 +1,7 @@
 # BobBall
 
 - Home: https://github.com/bobthekingofegypt/BobBall
-- Inspiration: Jezzball
+- Inspiration: JezzBall
 - State: mature, inactive since 2017
 - Download: https://f-droid.org//packages/org.bobstuff.bobball/
 - Platform: Android

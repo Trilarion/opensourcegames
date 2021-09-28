@@ -7,6 +7,6 @@
 - Code repository: https://git.code.sf.net/p/ogrian/code
 - Code language: C++
 - Code license: MIT
-- Developer: Jeremiah D. Powell
+- Developer: Jeremiah D. Powell, Mike Prosser, Wh-
 
 ## Building

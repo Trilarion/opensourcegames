@@ -1,7 +1,7 @@
 # ioquake3
 
 - Home: https://ioquake3.org/
-- Inspiration: Quake 3
+- Inspiration: Quake III Arena
 - State: mature
 - Download: https://ioquake3.org/get-it/
 - Platform: Windows, Linux, macOS

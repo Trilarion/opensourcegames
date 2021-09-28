@@ -1,7 +1,7 @@
 # Carnage3D
 
 - Home: https://github.com/codenamecpp/carnage3d
-- Inspiration: Grand Theft Auto 1
+- Inspiration: Grand Theft Auto
 - State: beta
 - Platform: Windows, Linux
 - Keyword: action, remake, content commercial + original required

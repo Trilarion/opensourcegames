@@ -1,7 +1,7 @@
 # QuakeJS
 
 - Home: http://www.quakejs.com/
-- Inspiration: ioquake3, Quake 3
+- Inspiration: ioquake3, Quake III Arena
 - State: mature
 - Play: http://www.quakejs.com/
 - Platform: Web

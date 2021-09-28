@@ -8,7 +8,7 @@
 - Code language: ?
 - Code license: ? (GPL did not download the iso)
 - Assets license: CC-BY (mixed with GPL)
-- Developer: ChaosEsqueTeam, Htimsy Rogerg, KlokWerk, PerlJamZ10
+- Developer: ChaosEsqueTeam, Htimsy Rogerg, KlokWerk, PerlJamZ10, Sir Ranjid
 
 Including new weapons, maps, vehicles.
 See also: https://sourceforge.net/projects/chaosesqueanthologyvolume2/

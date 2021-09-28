@@ -2,7 +2,7 @@
 
 - Home: http://openarena.ws/smfnews.php
 - Media: https://en.wikipedia.org/wiki/OpenArena
-- Inspiration: Quake 3
+- Inspiration: Quake III Arena
 - State: mature, inactive since 2012
 - Download: http://openarena.ws/download.php
 - Platform: Windows, Linux, macOS

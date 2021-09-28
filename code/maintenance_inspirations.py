@@ -5,6 +5,7 @@ Maintenance of inspirations.md and synchronization with the inspirations in the 
 # TODO search fandom
 # TODO which inspirations have wikipedia entries with open source games category but aren't included
 # TODO if update included entries are included, update entries with media too
+# TODO series always with lowercase
 
 import time
 from utils import osg, osg_ui, osg_wikipedia, constants as c
@@ -76,6 +77,9 @@ class InspirationMaintainer:
         print('missed inspirations checked')
 
     def check_for_wikipedia_links(self):
+        """
+        Check the inspirations that haven't yet have a Wikipedia link in their Media field by searching for them on Wikipedia.
+        """
         if not self.inspirations:
             print('inspirations not yet loaded')
             return

@@ -196,3 +196,5 @@ xrick (http://www.bigorno.net/xrick): No open source license/unclear license (se
 Yave (https://github.com/gan74/Yave): General graphics engine, not game centered in any way and experimental
 Yuris Revenge (https://github.com/cookgreen/Yuris-Revenge): Mod to OpenRA
 zedragon (https://github.com/charlierobson/zedragon.git): License not found, Assembly, not sure which OS is supported, no release, not much guidance
+rawgl (https://github.com/cyxx/rawgl): All rights reserved by Gregory Montoir. No FOSS license.
+The Great Escape in C (https://github.com/dpt/The-Great-Escape-in-C): All rights reserved by David Thomas. No FOSS license.

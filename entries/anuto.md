@@ -1,7 +1,7 @@
 # Anuto
 
 - Home: https://github.com/reloZid/android-anuto
-- Inspiration: tower defense
+- Inspiration: Tower defense
 - State: mature
 - Download: https://f-droid.org/en/packages/ch.logixisland.anuto/
 - Platform: Android

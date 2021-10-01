@@ -6,7 +6,7 @@
 - Download: http://gav.sourceforge.net/download.php, https://sourceforge.net/projects/gav/files/
 - Platform: Windows, Linux, macOS
 - Keyword: action, arcade, sports
-- Code repository: https://gitlab.com/osgames/gav.git (conversion of cvs), http://gav.cvs.sourceforge.net (cvs)
+- Code repository: https://gitlab.com/osgames/gav.git (conversion of cvs, @created 2019, @stars 1, @forks 0), http://gav.cvs.sourceforge.net (cvs)
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL

@@ -5,8 +5,8 @@
 - State: mature, inactive since 2006
 - Download: http://www.dungeoncrawl.org/?d, ftp://ftp.dungeoncrawl.org/
 - Keyword: role playing, roguelike
-- Code repository: https://gitlab.com/osgames/dungeoncrawl.git (snapshot of source releases)
-- Code language: C
+- Code repository: https://gitlab.com/osgames/dungeoncrawl.git (snapshot of source releases, @created 2018, @stars 1, @forks 0)
+- Code language: C, C++
 - Code license: Custom (Crawl General Public License)
 
 Roguelike molded in the tradition of the early greats of the genre: Rogue, Hack, and Moria.

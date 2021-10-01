@@ -4,7 +4,7 @@
 - State: beta, inactive since 2008
 - Download: https://sourceforge.net/projects/sengdokuwsj/files
 - Keyword: strategy
-- Code repository: https://gitlab.com/osgames/sengoku.git (import of source releases)
+- Code repository: https://gitlab.com/osgames/sengoku.git (import of source releases, @created 2019, @stars 1, @forks 0)
 - Code language: C++, Lua
 - Code license: MIT
 - Code dependency: SDL

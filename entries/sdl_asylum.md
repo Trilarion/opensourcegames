@@ -7,7 +7,7 @@
 - Download: http://sdl-asylum.sourceforge.net/main.html#Download
 - Platform: Linux
 - Keyword: action, arcade, remake
-- Code repository: https://gitlab.com/osgames/sdl-asylum.git (import of svn), https://svn.code.sf.net/p/sdl-asylum/code (svn)
+- Code repository: https://gitlab.com/osgames/sdl-asylum.git (import of svn, @created 2019, @stars 1, @forks 0), https://svn.code.sf.net/p/sdl-asylum/code (svn)
 - Code language: C
 - Code license: GPL-3.0
 - Code dependency: OpenGL, SDL

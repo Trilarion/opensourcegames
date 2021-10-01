@@ -6,8 +6,8 @@
 - State: mature, inactive since 2004
 - Download: https://night-hawk.sourceforge.io/dl.php
 - Keyword: arcade, puzzle, remake, shooter
-- Code repository: https://gitlab.com/osgames/night-hawk.git (conversion of cvs), http://night-hawk.cvs.sourceforge.net (cvs)
-- Code language: C++
+- Code repository: https://gitlab.com/osgames/night-hawk.git (conversion of cvs, @created 2019, @stars 1, @forks 0), http://night-hawk.cvs.sourceforge.net (cvs)
+- Code language: C++, C
 - Code license: GPL-2.0
 - Developer: Dion Bonner, Eric Gillespie, Eskild Hustvedt, Jason Nunn
 

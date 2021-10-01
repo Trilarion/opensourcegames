@@ -6,7 +6,7 @@
 - Download: https://sourceforge.net/projects/tumiki/files/tumiki/
 - Platform: Windows, Linux
 - Keyword: arcade, shooter, side-scrolling
-- Code repository: https://gitlab.com/osgames/tumiki.git (import of source releases)
+- Code repository: https://gitlab.com/osgames/tumiki.git (import of source releases, @created 2019, @stars 1, @forks 0)
 - Code language: D, C++
 - Code license: 2-clause BSD
 - Code dependency: SDL

@@ -5,8 +5,8 @@
 - Inspiration: Terraria
 - State: beta
 - Keyword: action, adventure, remake, 2D, sandbox
-- Code repository: https://gitlab.com/hydren/terrarium.git
-- Code language: C++
+- Code repository: https://gitlab.com/hydren/terrarium.git (@created 2018, @stars 7, @forks 3)
+- Code language: C++, Shell
 - Code license: GPL-2.0
 - Code dependency: Allegro, SDL, SFML
 

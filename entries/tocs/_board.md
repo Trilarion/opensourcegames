@@ -25,5 +25,5 @@
 - **[Pioneers](../pioneers.md)** (C, GPL-2.0, mature)
 - **[Quatter](../quatter.md)** (C++, GPL-2.0, mature, inactive since 2018)
 - **[Scrabble3D](../scrabble3d.md)** (Pascal, GPL-3.0, mature, inactive since 2015)
-- **[The Bub's Brothers](../the_bubs_brothers.md)** (Python, MIT, mature, inactive since 2013)
+- **[The Bub's Brothers](../the_bubs_brothers.md)** (Python, C, MIT, mature, inactive since 2013)
 - **[VASSAL](../vassal.md)** (Java, LGPL-2.1, mature)

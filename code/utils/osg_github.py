@@ -43,6 +43,7 @@ def retrieve_repo_info(repos, token=None):
     for repo in repos:
         repo = normalize_repo_name(repo)
         try:
+            # get repo
             r = g.get_repo(repo)
         except GithubException as e:
             raise RuntimeError(e) # TODO what to do if repo does not exist?

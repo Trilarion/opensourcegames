@@ -4,7 +4,7 @@
 - State: beta, inactive since 2014
 - Download: https://sourceforge.net/projects/radakan/files/
 - Keyword: role playing, setting fantasy
-- Code repository: https://gitlab.com/osgames/radakan.git (backup of svn), https://svn.code.sf.net/p/radakan/code (svn)
+- Code repository: https://gitlab.com/osgames/radakan.git (backup of svn, @created 2018, @stars 1, @forks 0), https://svn.code.sf.net/p/radakan/code (svn)
 - Code language: Python
 - Code license: Custom
 - Code dependency: DirectPython, Panda3D

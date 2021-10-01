@@ -5,7 +5,7 @@
 - State: beta, inactive since 2008
 - Download: https://sourceforge.net/projects/aplanetsrevenge/files/aplanetsrevenge/apr-1.0-alpha/
 - Keyword: strategy, space, text-based
-- Code repository: https://gitlab.com/osgames/aplanetsrevenge.git (copy of last source release)
+- Code repository: https://gitlab.com/osgames/aplanetsrevenge.git (copy of last source release, @created 2018, @stars 1, @forks 0)
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependency: curses

@@ -4,7 +4,7 @@
 - State: mature, inactive since 2016
 - Platform: Web
 - Keyword: strategy, multiplayer online + massive, space, turn-based
-- Code repository: https://gitlab.com/osgames/darkdestiny.git (import of svn), https://svn.code.sf.net/p/darkdestiny/code (svn)
+- Code repository: https://gitlab.com/osgames/darkdestiny.git (import of svn, @created 2019, @stars 1, @forks 0), https://svn.code.sf.net/p/darkdestiny/code (svn)
 - Code language: Java, JavaScript
 - Code license: ? (GPL version?)
 - Assets license: Custom (artwork can be freely used for modification and sharing)

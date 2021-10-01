@@ -5,7 +5,7 @@
 - Download: https://f-droid.org//packages/com.alaskalinuxuser.criticalvelocity/
 - Platform: Android
 - Keyword: arcade, 2D, scrolling, skill
-- Code repository: https://gitlab.com/alaskalinuxuser/app_critical_velocity.git
+- Code repository: https://gitlab.com/alaskalinuxuser/app_critical_velocity.git (@created 2018, @stars 2, @forks 1)
 - Code language: Java
 - Code license: Apache-2.0
 

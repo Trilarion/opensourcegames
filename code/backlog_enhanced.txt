@@ -11,6 +11,7 @@ http://www.hard-light.net/ (Free Space Open, Knossos, Mods, https://github.com/s
 http://svn.assembla.com/svn/gdpl/ (not sure what links there and what kind of game it is, license?)
 https://web.archive.org/web/20161230103538/http://www.linuxdevcenter.com/pub/a/linux/2003/04/24/exult.html
 http://barbarian.1987.free.fr/indexEN.htm (many version, source license?)
+https://github.com/Warsow, https://www.warsow.net/ (what part of it is open source and what is not?)
 
 roguelike
 

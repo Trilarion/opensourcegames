@@ -6,8 +6,8 @@
 - Download: http://torcs.sourceforge.net/index.php?name=Sections&op=viewarticle&artid=3, https://sourceforge.net/projects/torcs/files/
 - Platform: Windows, Linux
 - Keyword: simulation, content open, racing
-- Code repository: https://git.code.sf.net/p/torcs/code, https://gitlab.com/osgames/torcs.git @add
-- Code language: C++
+- Code repository: https://git.code.sf.net/p/torcs/code, https://gitlab.com/osgames/torcs.git @add (@created 2019, @stars 1, @forks 0)
+- Code language: C++, C, PHP
 - Code license: GPL-2.0
 - Code dependency: GLUT
 - Assets license: FAL

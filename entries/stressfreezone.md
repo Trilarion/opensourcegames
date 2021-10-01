@@ -4,7 +4,7 @@
 - State: beta, inactive since 2007
 - Download: https://web.archive.org/web/20130606103829/http://ghoulsblade.schattenkind.net/sfz/LATEST_SFZ_SOURCE.zip
 - Keyword: simulation, multiplayer online, space
-- Code repository: https://gitlab.com/osgames/stressfreezone.git (import of sources)
+- Code repository: https://gitlab.com/osgames/stressfreezone.git (import of sources, @created 2019, @stars 1, @forks 0)
 - Code language: C++, Lua
 - Code license: GPL-3.0
 - Code dependency: Lugre

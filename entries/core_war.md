@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Core_War
 - State: mature
 - Keyword: simulation, programming
-- Code repository: https://gitlab.com/osgames/corewar.git (conversion from cvs), http://corewar.cvs.sourceforge.net (cvs)
+- Code repository: https://gitlab.com/osgames/corewar.git (conversion from cvs, @created 2019, @stars 1, @forks 0), http://corewar.cvs.sourceforge.net (cvs)
 - Code language: C, Java
 - Code license: GPL-2.0 (C part), 2-clause BSD (Java part)
 - Developer: alexander sasha wait, Anton Marsden, Björn Günzel, Brian Haskin, Ilmari Karonen, Pavel Šavara

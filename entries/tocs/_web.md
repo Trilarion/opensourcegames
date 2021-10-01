@@ -37,7 +37,7 @@
 - **[CommandoJS](../commandojs.md)** (JavaScript, CoffeeScript, MIT, beta, inactive since 2012)
 - **[Consomaton](../consomaton.md)** (TypeScript, MIT, mature, inactive since 2016)
 - **[CrappyBird](../crappybird.md)** (JavaScript, MIT, mature, inactive since 2017)
-- **[Cross The Road](../cross_the_road.md)** (Elm, AGPL-3.0, mature)
+- **[Cross The Road](../cross_the_road.md)** (Elm, JavaScript, AGPL-3.0, mature)
 - **[CrystalQuest](../crystalquest.md)** (JavaScript, MIT, mature, inactive since 2017)
 - **[Dark Destiny](../dark_destiny.md)** (Java, JavaScript, ?, mature, inactive since 2016)
 - **[DarkCity](../darkcity.md)** (PHP, GPL-3.0, mature, inactive since 2012)

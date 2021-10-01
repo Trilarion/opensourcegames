@@ -5,7 +5,7 @@
 - State: beta, inactive since 2014
 - Download: https://web.archive.org/web/20160704003202/http://sumwars.org:80/wiki/Download
 - Keyword: role playing, clone, multiplayer
-- Code repository: https://gitlab.com/osgames/sumwars.git
+- Code repository: https://gitlab.com/osgames/sumwars.git (@created 2019, @stars 1, @forks 0)
 - Code language: C, C++, Lua
 - Code license: GPL-3.0
 

@@ -4,7 +4,7 @@
 - State: beta
 - Download: https://decoherence.itch.io/project-helena, https://sourceforge.net/projects/projecthelena/files
 - Keyword: role playing, strategy, turn-based
-- Code repository: https://gitlab.com/EugeneLoza/Project-Helena.git
+- Code repository: https://gitlab.com/EugeneLoza/Project-Helena.git (@created 2018, @stars 1, @forks 0)
 - Code language: Pascal
 - Code license: GPL-3.0
 - Developer: Eugene Loza

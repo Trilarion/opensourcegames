@@ -5,7 +5,7 @@
 - Download: https://sourceforge.net/projects/catmother/files/
 - Platform: Windows
 - Keyword: action, adventure, content open (?)
-- Code repository: https://gitlab.com/osgames/catmother.git (import of svn), https://svn.code.sf.net/p/catmother/code (svn)
+- Code repository: https://gitlab.com/osgames/catmother.git (import of svn, @created 2019, @stars 1, @forks 0), https://svn.code.sf.net/p/catmother/code (svn)
 - Code language: C++
 - Code license: 3-clause BSD, GPL-2.0 (not sure which of them actually)
 - Developer: James Marshall, Jani Kajala, naaier, Olli Sorjonen, Sami Sorjonen, shodan123, Toni Aittoniemi

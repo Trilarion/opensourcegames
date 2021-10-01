@@ -4,7 +4,7 @@
 - State: beta, inactive since 2008
 - Download: https://sourceforge.net/projects/qonk/files/
 - Keyword: strategy, real-time
-- Code repository: https://gitlab.com/osgames/qonk.git (conversion of svn), https://svn.code.sf.net/p/qonk/code (svn)
+- Code repository: https://gitlab.com/osgames/qonk.git (conversion of svn, @created 2019, @stars 1, @forks 0), https://svn.code.sf.net/p/qonk/code (svn)
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL

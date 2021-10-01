@@ -5,7 +5,7 @@
 - State: beta, inactive since 2012
 - Download: http://blog.parpg.net/download/, http://wiki.parpg.net/Download
 - Keyword: remake, role playing
-- Code repository: https://gitlab.com/osgames/parpg-core.git, https://subversion.assembla.com/svn/parpg-assets/ (svn), http://parpg-trac.cvsdude.com/parpg/browser (svn)
+- Code repository: https://gitlab.com/osgames/parpg-core.git (@created 2019, @stars 1, @forks 0), https://subversion.assembla.com/svn/parpg-assets/ (svn), http://parpg-trac.cvsdude.com/parpg/browser (svn)
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependency: Blender game engine, FIFE, psyco, pygame, PyQt, PySide

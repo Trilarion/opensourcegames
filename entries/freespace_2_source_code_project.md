@@ -6,7 +6,7 @@
 - State: mature
 - Download: http://scp.indiegames.us/downloads.php
 - Platform: Windows, Linux, macOS
-- Keyword: simulation, remake, content commercial + original required
+- Keyword: remake, simulation, content commercial + original required
 - Code repository: https://github.com/scp-fs2open/fs2open.github.com.git
 - Code language: C, C++
 - Code license: Unlicense

@@ -5,8 +5,8 @@
 - State: beta, inactive since 2001
 - Download: https://sourceforge.net/projects/tuxracer/files/
 - Keyword: action, racing
-- Code repository: https://gitlab.com/osgames/tuxracer.git (backup of cvs), http://tuxracer.cvs.sourceforge.net/ (cvs)
-- Code language: C
+- Code repository: https://gitlab.com/osgames/tuxracer.git (backup of cvs, @created 2018, @stars 1, @forks 0), http://tuxracer.cvs.sourceforge.net/ (cvs)
+- Code language: C, C++
 - Code license: GPL-2.0
 - Developer: Eric Hall, Ingo Ruhnke, James Barnard, Jasmin Patry, Patrick Gilhuly, Vincent C.H. Ma
 

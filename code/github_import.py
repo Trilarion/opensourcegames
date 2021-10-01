@@ -4,7 +4,6 @@ Uses the Github API to learn more about the Github projects.
 Updates for example, the starring information.
 """
 
-# TODO remove Boost C++ developers and others libraries that aren't that interesting
 # TODO remove developers again?
 # TODo try to identify main developers (number of commits or change of lines...)
 

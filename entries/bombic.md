@@ -6,7 +6,7 @@
 - Download: https://sourceforge.net/projects/bombic/files/bombic/
 - Platform: Linux, macOS
 - Keyword: action, remake
-- Code repository: https://gitlab.com/osgames/bombic.git (conversion of svn), https://svn.code.sf.net/p/bombic/code (svn)
+- Code repository: https://gitlab.com/osgames/bombic.git (conversion of svn, @created 2019, @stars 1, @forks 0), https://svn.code.sf.net/p/bombic/code (svn)
 - Code language: C++, Objective-C
 - Code license: GPL-2.0
 - Code dependency: SDL

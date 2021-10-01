@@ -5,7 +5,7 @@
 - State: beta, inactive since 2013
 - Download: http://xye.sourceforge.net/download.php, https://sourceforge.net/projects/xye/files/
 - Keyword: arcade, clone, content open
-- Code repository: https://gitlab.com/osgames/xye.git (conversion of svn), https://svn.code.sf.net/p/xye/code (svn)
+- Code repository: https://gitlab.com/osgames/xye.git (conversion of svn, @created 2019, @stars 1, @forks 0), https://svn.code.sf.net/p/xye/code (svn)
 - Code language: C++
 - Code license: zlib
 - Code dependency: SDL

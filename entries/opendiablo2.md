@@ -4,7 +4,7 @@
 - Inspiration: Diablo 2
 - State: mature
 - Platform: Windows, Linux, macOS
-- Keyword: role playing, action, remake, content commercial + original required
+- Keyword: action, remake, role playing, content commercial + original required
 - Code repository: https://github.com/OpenDiablo2/OpenDiablo2.git
 - Code language: Go
 - Code license: GPL-3.0

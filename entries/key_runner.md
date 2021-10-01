@@ -4,8 +4,8 @@
 - State: mature, inactive since 2013
 - Platform: Windows, Linux
 - Keyword: action, 2D, content open
-- Code repository: https://gitlab.com/osgames/keyrunner.git (import of sources)
-- Code language: C++
+- Code repository: https://gitlab.com/osgames/keyrunner.git (import of sources, @created 2019, @stars 1, @forks 0)
+- Code language: C++, Shell
 - Code license: GPL-3.0
 - Code dependency: SDL
 - Assets license: ? (GPL-2.0)

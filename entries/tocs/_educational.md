@@ -4,7 +4,7 @@
 - **[4D Maze Game](../4d_maze_game.md)** (Java, Public domain, mature, inactive since 2008)
 - **[Blinken](../blinken.md)** (C++, GPL-2.0, mature)
 - **[Childsplay](../childsplay.md)** (Python, GPL-3.0, mature)
-- **[Garith](../garith.md)** (C++, LGPL-2.1, mature, inactive since 2013)
+- **[Garith](../garith.md)** (C++, Perl, LGPL-2.1, mature, inactive since 2013)
 - **[GCompris](../gcompris.md)** (C, Python, GPL-3.0, mature)
 - **[ORIENT](../orient.md)** (C#, Java, GPL-2.0, mature, inactive since 2009)
 - **[Prescription Wars](../prescription_wars.md)** (ColdFusion, JavaScript, GPL-3.0, mature, inactive since 2016)

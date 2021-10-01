@@ -6,7 +6,7 @@
 - Download: https://sourceforge.net/projects/blacknova/files
 - Platform: Web
 - Keyword: strategy, multiplayer online, space
-- Code repository: https://gitlab.com/osgames/blacknova.git (backup of svn), https://svn.code.sf.net/p/blacknova/code (svn)
+- Code repository: https://gitlab.com/osgames/blacknova.git (backup of svn, @created 2018, @stars 1, @forks 0), https://svn.code.sf.net/p/blacknova/code (svn)
 - Code language: PHP, JavaScript
 - Code license: GPL-2.0
 - Developer: Adam Fort, Brian Gustin, David Rowlands, Kelly Shane Harrelson, Paul Ogle, Ramjet, Ron Harwood, The Kabal, TheMightyDude

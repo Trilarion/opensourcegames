@@ -2,7 +2,7 @@
 
 - Home: https://github.com/turican0/remc2
 - Inspiration: Magic Carpet 2
-- State: mature 
+- State: mature
 - Download: https://github.com/turican0/remc2/releases
 - Platform: Windows
 - Keyword: action, remake, content commercial + original required

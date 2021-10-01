@@ -6,7 +6,7 @@
 - Download: https://f-droid.org//packages/com.gitlab.ardash.appleflinger.android/
 - Platform: Android
 - Keyword: arcade, artillery, skill
-- Code repository: https://gitlab.com/ar-/apple-flinger.git
+- Code repository: https://gitlab.com/ar-/apple-flinger.git (@created 2017, @stars 28, @forks 16)
 - Code language: Java
 - Code license: GPL-3.0
 

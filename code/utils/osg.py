@@ -485,6 +485,7 @@ def create_entry_content(entry):
             e = entry[field]
             e = ['"{}"'.format(x) if any(y in x.value for y in (',', ' (')) else x for x in e]
             e = [str(x) for x in e]
+            e = list(dict.fromkeys(e))  # this removes duplicates while keeping the sorting order
             content += '- {}: {}\n'.format(field, ', '.join(e))
     content += '\n'
 

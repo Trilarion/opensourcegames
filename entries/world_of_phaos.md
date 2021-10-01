@@ -5,7 +5,7 @@
 - Download: https://sourceforge.net/projects/phaosrpg/files/
 - Platform: Web
 - Keyword: role playing, online
-- Code repository: https://gitlab.com/osgames/phaosrpg.git (snapshot of source releases)
+- Code repository: https://gitlab.com/osgames/phaosrpg.git (snapshot of source releases, @created 2018, @stars 1, @forks 0)
 - Code language: PHP
 - Code license: GPL-2.0
 - Assets license: Restricted (see license)

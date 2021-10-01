@@ -5,8 +5,8 @@
 - Download: http://www.kibosh.org/pykaraoke/downloads.php, https://sourceforge.net/projects/pykaraoke/files/
 - Platform: Windows, Linux, macOS
 - Keyword: music, karaoke, social
-- Code repository: https://gitlab.com/osgames/pykaraoke.git (conversion of cvs), http://pykaraoke.cvs.sourceforge.net (cvs)
-- Code language: Python
+- Code repository: https://gitlab.com/osgames/pykaraoke.git (conversion of cvs, @created 2019, @stars 1, @forks 0), http://pykaraoke.cvs.sourceforge.net (cvs)
+- Code language: Python, C
 - Code license: LGPL-2.1
 - Developer: Alvise Spano', David Rose, John S., Kelvin Lawson, William W. Ferrell
 

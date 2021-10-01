@@ -6,7 +6,7 @@
 - Download: http://openmortal.sourceforge.net/download.html
 - Platform: Windows, Linux, macOS
 - Keyword: action, clone
-- Code repository: https://gitlab.com/osgames/openmortal.git (conversion of cvs), http://openmortal.cvs.sourceforge.net (cvs)
+- Code repository: https://gitlab.com/osgames/openmortal.git (conversion of cvs, @created 2019, @stars 1, @forks 0), http://openmortal.cvs.sourceforge.net (cvs)
 - Code language: C++, Perl
 - Code license: GPL-2.0
 - Developer: arvind, Gabor Sebestyen, Kami, openmortaldev, UPi

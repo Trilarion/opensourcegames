@@ -5,9 +5,9 @@
 - State: beta
 - Download: http://opensimulator.org/wiki/Download
 - Keyword: adventure, content open
-- Code repository: git://opensimulator.org/git/opensim
+- Code repository: https://github.com/opensim/opensim.git
 - Code language: C#
-- Code license: ? (BSD)
+- Code license: 3-clause BSD
 - Code dependency: MonoGame
 - Assets license: ? (BSD)
 

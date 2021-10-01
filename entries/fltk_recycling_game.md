@@ -4,7 +4,7 @@
 - State: mature, inactive since 2014
 - Platform: Windows, Linux, macOS
 - Keyword: arcade, content open
-- Code repository: https://gitlab.com/wavexx/regame.git
+- Code repository: https://gitlab.com/wavexx/regame.git (@created 2018, @stars 1, @forks 0)
 - Code language: C++
 - Code license: LGPL-2.1
 - Code dependency: FLTK, libpng

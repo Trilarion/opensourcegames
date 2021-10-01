@@ -4,7 +4,7 @@
 - State: mature, inactive since 2013
 - Download: http://www.rpgobjects.com/index.php?c=orpg&m=getorpg, https://sourceforge.net/projects/openrpg/files/
 - Keyword: framework, role playing
-- Code repository: https://gitlab.com/osgames/openrpg.git (conversion), https://svn.code.sf.net/p/openrpg/svn (svn), http://openrpg.cvs.sourceforge.net (cvs)
+- Code repository: https://gitlab.com/osgames/openrpg.git (conversion, @created 2019, @stars 1, @forks 0), https://svn.code.sf.net/p/openrpg/svn (svn), http://openrpg.cvs.sourceforge.net (cvs)
 - Code language: Python
 - Code license: GPL-2.0
 - Code dependency: CherryPy, Pillow, wxPython

@@ -4,7 +4,7 @@
 - State: beta, inactive since 2017
 - Download: https://sourceforge.net/projects/fsc/files
 - Keyword: strategy, 4X, space
-- Code repository: https://gitlab.com/osgames/fsc.git (conversion of svn), https://svn.code.sf.net/p/fsc/code (svn)
+- Code repository: https://gitlab.com/osgames/fsc.git (conversion of svn, @created 2019, @stars 1, @forks 0), https://svn.code.sf.net/p/fsc/code (svn)
 - Code language: C
 - Code license: GPL-2.0
 - Code dependency: SDL

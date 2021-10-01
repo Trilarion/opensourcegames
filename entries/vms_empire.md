@@ -4,7 +4,7 @@
 - Media: http://www.classicempire.com/history.html
 - State: mature, inactive since 2014
 - Keyword: strategy, content open, turn-based
-- Code repository: https://gitlab.com/esr/vms-empire.git
+- Code repository: https://gitlab.com/esr/vms-empire.git (@created 2019, @stars 4, @forks 1)
 - Code language: C
 - Code license: GPL-2.0
 - Code dependency: ncurses

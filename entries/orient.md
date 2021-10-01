@@ -4,7 +4,7 @@
 - State: mature, inactive since 2009
 - Download: https://sourceforge.net/projects/orient-ecircus/files
 - Keyword: educational, role playing
-- Code repository: https://gitlab.com/osgames/orient.git (snapshot of sources in download)
+- Code repository: https://gitlab.com/osgames/orient.git (snapshot of sources in download, @created 2018, @stars 1, @forks 0)
 - Code language: C#, Java
 - Code license: GPL-2.0
 - Developer: Michael Kriegel

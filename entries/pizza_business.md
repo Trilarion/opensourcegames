@@ -5,7 +5,7 @@
 - State: mature, inactive since 2003
 - Download: https://sourceforge.net/projects/pizza-business/files
 - Keyword: strategy, clone
-- Code repository: https://gitlab.com/osgames/pizza-business.git (backup of cvs), http://pizza-business.cvs.sourceforge.net/ (cvs)
+- Code repository: https://gitlab.com/osgames/pizza-business.git (backup of cvs, @created 2018, @stars 1, @forks 0), http://pizza-business.cvs.sourceforge.net/ (cvs)
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: wxWidgets

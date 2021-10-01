@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://sourceforge.net/projects/uaf/files/
 - Keyword: remake, role playing
-- Code repository: https://gitlab.com/osgames/uaf.git (mirror), http://uaf.cvs.sourceforge.net (cvs)
+- Code repository: https://gitlab.com/osgames/uaf.git (mirror, @created 2018, @stars 1, @forks 0), http://uaf.cvs.sourceforge.net (cvs)
 - Code language: C++
 - Code license: GPL-2.0
 - Developer: LurchBrick, manikus, nologgie, Paul R. Stevens, Paul Stevens, Richard Turner, Tarlanon

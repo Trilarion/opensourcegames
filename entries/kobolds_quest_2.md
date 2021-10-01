@@ -5,7 +5,7 @@
 - State: beta, inactive since 2011
 - Download: https://sourceforge.net/projects/koboldsquest2/files/
 - Keyword: role playing
-- Code repository: https://gitlab.com/osgames/koboldsquest2.git (snapshot of source release)
+- Code repository: https://gitlab.com/osgames/koboldsquest2.git (snapshot of source release, @created 2018, @stars 1, @forks 0)
 - Code language: Python
 - Code license: LGPL-3.0
 - Code dependency: pygame

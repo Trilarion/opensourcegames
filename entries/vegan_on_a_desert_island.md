@@ -3,7 +3,7 @@
 - Home: https://voadi.com/
 - State: beta
 - Keyword: adventure, 2D, content open
-- Code repository: https://gitlab.com/voadi/voadi.git
+- Code repository: https://gitlab.com/voadi/voadi.git (@created 2018, @stars 37, @forks 9)
 - Code language: Lua
 - Code license: GPL-3.0
 - Code dependency: Solarus

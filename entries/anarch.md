@@ -3,8 +3,8 @@
 - Home: https://gitlab.com/drummyfish/anarch
 - State: mature
 - Keyword: action, first-person, open content, shooter
-- Code repository: https://gitlab.com/drummyfish/anarch.git
-- Code language: C
+- Code repository: https://gitlab.com/drummyfish/anarch.git (@created 2019, @stars 65, @forks 5)
+- Code language: C, C++
 - Code license: CC0
 - Code dependency: raycastlib
 - Assets license: CC0

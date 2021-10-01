@@ -5,8 +5,8 @@
 - State: mature
 - Platform: Windows, Linux, macOS
 - Keyword: adventure, visual novel
-- Code repository: https://gitlab.com/osgames/digitalalovestory.git (copy of version 1.1)
-- Code language: Ren'Py
+- Code repository: https://gitlab.com/osgames/digitalalovestory.git (copy of version 1.1, @created 2018, @stars 1, @forks 0)
+- Code language: Ren'Py, Python
 - Code license: CC-BY-NC-SA-3.0 (see home)
 
 A computer mystery/romance set five minutes into the future of 1988.

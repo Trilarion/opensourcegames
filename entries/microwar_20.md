@@ -6,7 +6,7 @@
 - Download: https://sourceforge.net/projects/microwar/files/
 - Platform: Windows, macOS
 - Keyword: action, shooter
-- Code repository: https://gitlab.com/osgames/microwar.git (import of source downloads)
+- Code repository: https://gitlab.com/osgames/microwar.git (import of source downloads, @created 2019, @stars 1, @forks 0)
 - Code language: Python
 - Code license: 3-clause BSD
 - Code dependency: pygame

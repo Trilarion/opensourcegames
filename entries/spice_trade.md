@@ -5,7 +5,7 @@
 - Download: https://sourceforge.net/projects/spicetrade/files/
 - Platform: Windows, Linux, macOS
 - Keyword: adventure, role playing
-- Code repository: https://gitlab.com/osgames/spicetrade.git (copy of source downloads)
+- Code repository: https://gitlab.com/osgames/spicetrade.git (copy of source downloads, @created 2018, @stars 2, @forks 1)
 - Code language: Java
 - Code license: LGPL-2.1
 - Developer: Dzamil Kamanger, Goran Mrdja, Juha Holopainen, Kalle Hamm, Michiko Isogai, Sade Kahra

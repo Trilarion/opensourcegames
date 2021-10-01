@@ -4,7 +4,7 @@
 - State: beta
 - Platform: Linux
 - Keyword: role playing, shooter
-- Code repository: https://gitlab.com/luckeyproductions/games/heXon.git
+- Code repository: https://gitlab.com/luckeyproductions/games/heXon.git (@created 2018, @stars 4, @forks 1)
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: Urho3D

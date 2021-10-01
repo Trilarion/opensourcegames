@@ -4,7 +4,7 @@
 - State: mature, inactive since 2014
 - Platform: Windows, Linux, macOS
 - Keyword: simulation, programming
-- Code repository: http://hg.code.sf.net/p/grobots/trunk (hg), https://gitlab.com/osgames/grobots.git @add
+- Code repository: http://hg.code.sf.net/p/grobots/trunk (hg), https://gitlab.com/osgames/grobots.git @add (@created 2019, @stars 1, @forks 0)
 - Code language: C++
 - Code license: GPL-2.0
 - Developer: Devon Schudy, Hector A Escobedo, Warren Schudy

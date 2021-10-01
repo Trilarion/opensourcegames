@@ -5,7 +5,7 @@
 - Download: https://sourceforge.net/projects/endlessdungeons/files/
 - Platform: Windows
 - Keyword: role playing
-- Code repository: https://gitlab.com/osgames/endlessdungeons.git (archive of source releases)
+- Code repository: https://gitlab.com/osgames/endlessdungeons.git (archive of source releases, @created 2018, @stars 1, @forks 1)
 - Code language: C
 - Code license: CC-BY-NC-SA-2.0
 - Code dependency: Allegro

@@ -5,7 +5,7 @@
 - State: beta
 - Platform: Windows, Linux, macOS
 - Keyword: action, clone, content open, entertainment, multiplayer split-screen
-- Code repository: https://gitlab.com/SuperTuxParty/SuperTuxParty.git
+- Code repository: https://gitlab.com/SuperTuxParty/SuperTuxParty.git (@created 2018, @stars 81, @forks 23)
 - Code language: GDScript
 - Code license: GPL-3.0
 - Code dependency: Godot

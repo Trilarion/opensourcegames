@@ -6,7 +6,7 @@
 - Download: http://www.tuzsuzov.com/biniax/download2.html
 - Platform: Windows, Linux, macOS, Android
 - Keyword: action, puzzle
-- Code repository: https://gitlab.com/osgames/biniax.git (import of source releases)
+- Code repository: https://gitlab.com/osgames/biniax.git (import of source releases, @created 2019, @stars 1, @forks 0)
 - Code language: C
 - Code license: zlib
 

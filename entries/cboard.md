@@ -3,7 +3,7 @@
 - Home: http://benkibbey.wordpress.com/cboard/, https://gitlab.com/bjk/cboard/-/wikis/home
 - State: beta, inactive since 2018
 - Keyword: tool, chess, content none, text-based
-- Code repository: https://gitlab.com/bjk/cboard.git, https://repo.or.cz/w/cboard.git
+- Code repository: https://gitlab.com/bjk/cboard.git (@created 2018, @stars 2, @forks 0), https://repo.or.cz/w/cboard.git
 - Code language: C
 - Code license: GPL-2.0
 - Code dependency: ncurses

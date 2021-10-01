@@ -4,7 +4,7 @@
 - State: beta, inactive since 2006
 - Download: https://sourceforge.net/projects/rpdungeon/files
 - Keyword: tool
-- Code repository: https://gitlab.com/osgames/rpdungeon.git (backup of svn), https://svn.code.sf.net/p/rpdungeon/code (svn)
+- Code repository: https://gitlab.com/osgames/rpdungeon.git (backup of svn, @created 2018, @stars 1, @forks 0), https://svn.code.sf.net/p/rpdungeon/code (svn)
 - Code language: Pascal
 - Code license: GPL-2.0
 - Developer: Mattias Gaertner, michabaum

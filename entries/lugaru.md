@@ -6,7 +6,7 @@
 - State: mature
 - Platform: Windows, Linux, macOS
 - Keyword: action, remake
-- Code repository: https://gitlab.com/osslugaru/lugaru.git
+- Code repository: https://gitlab.com/osslugaru/lugaru.git (@created 2016, @stars 61, @forks 22)
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: OpenAL, SDL2

@@ -6,8 +6,8 @@
 - Download: https://web.archive.org/web/20180305020950/https://www.voxelands.com/download.html
 - Platform: Windows, Linux
 - Keyword: remake, simulation, sandbox, voxel
-- Code repository: https://gitlab.com/voxelands/voxelands.git
-- Code language: C++
+- Code repository: https://gitlab.com/voxelands/voxelands.git (@created 2015, @stars 70, @forks 28)
+- Code language: C++, C
 - Code license: GPL-3.0
 
 ## Building

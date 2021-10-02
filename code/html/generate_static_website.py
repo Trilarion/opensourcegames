@@ -747,9 +747,9 @@ def generate(entries, inspirations, developers):
     # copy css
     utils.copy_tree(os.path.join(c.web_template_path, 'css'), c.web_css_path)
 
-    # collage_image and google search console token
-    shutil.copyfile(os.path.join(c.web_template_path, 'collage_games.jpg'), os.path.join(c.web_path, 'collage_games.jpg'))
-    shutil.copyfile(os.path.join(c.web_template_path, 'google1f8a3863114cbcb3.html'), os.path.join(c.web_path, 'google1f8a3863114cbcb3.html'))
+    # collage_image and google search console token and favicon.svg
+    for file in ('collage_games.jpg', 'google1f8a3863114cbcb3.html', 'favicon.svg'):
+        shutil.copyfile(os.path.join(c.web_template_path, file), os.path.join(c.web_path, file))
 
 
     # create Jinja Environment

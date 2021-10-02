@@ -105,7 +105,6 @@
 - **[Sopwith 3](../sopwith_3.md)** (C, C++, Objective-C, GPL-2.0, beta, inactive since 2003)
 - **[Speed Dreams](../speed_dreams.md)** (C++, GPL-2.0, mature)
 - **[StressFreeZone](../stressfreezone.md)** (C++, Lua, GPL-3.0, beta, inactive since 2007)
-- **[SunDog Resurrection](../sundog_resurrection.md)** (Java, Python, ?, beta)
 - **[sundog](../sundog.md)** (C, C++, Python, MIT, beta)
 - **[T-Bots](../t-bots.md)** (C, C++, GPL-2.0, beta, inactive since 2004)
 - **[The Butterfly Effect](../the_butterfly_effect.md)** (C++, GPL-2.0, beta)

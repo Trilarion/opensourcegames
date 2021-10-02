@@ -467,7 +467,6 @@
 - **[Stargus](../stargus.md)** (C++, Lua, GPL-2.0, beta, inactive since 2010)
 - **[starshatter-open](../starshatter-open.md)** (C++, 3-clause BSD, beta, inactive since 2015)
 - **[Strife: Veteran Edition](../strife_veteran_edition.md)** (C, C++, Objective-C, GPL-3.0, beta, inactive since 2016)
-- **[SunDog Resurrection](../sundog_resurrection.md)** (Java, Python, ?, beta)
 - **[sundog](../sundog.md)** (C, C++, Python, MIT, beta)
 - **[Supaxl](../supaxl.md)** (JavaScript, MIT, mature)
 - **[Super Methane Brothers for Wii and GameCube](../super_methane_brothers_for_wii_and_gamecube.md)** (C++, GPL-2.0, beta, inactive since 2018)

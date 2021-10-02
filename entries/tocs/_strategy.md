@@ -224,7 +224,7 @@
 - **[Slay](../slay.md)** (Java, GPL-3.0, beta, inactive since 2010)
 - **[Slingshot](../slingshot.md)** (Python, GPL-2.0, beta, inactive since 2007)
 - **[Snelps](../snelps.md)** (Ruby, LGPL-2.1, beta, inactive since 2012)
-- **[Snowballz](../snowballz.md)** (Python, ?, beta, inactive since 2007)
+- **[Snowballz](../snowballz.md)** (Python, GPL-2.0, beta, inactive since 2007)
 - **[Song of Albion](../song_of_albion.md)** (C, C++, Apache-2.0, mature, inactive since 2011)
 - **[Space Faring](../space_faring.md)** (Java, GPL-3.0, beta)
 - **[Space Harrier Clone](../space_harrier_clone.md)** (C, C++, MIT, beta, inactive since 2018)

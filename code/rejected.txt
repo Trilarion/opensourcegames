@@ -185,6 +185,7 @@ Story Game Create (https://storygamecreator.webs.com/): No license nor sources f
 Stunt Car Racer Remake (http://stuntcarracerwin32.bravesites.com, https://sourceforge.net/projects/stuntcarremake/, https://git.code.sf.net/p/stuntcarremake/code): License unclear, author confirmed that there is not license and didn't answer when asked if there could one be added (see https://github.com/Trilarion/opensourcegames/issues/244)
 Styx (http://retrospec.sgn.net/game/styx, http://retrospec.sgn.net/game-links.php?link=styx): Unclear license information, not open source in our sense, see other entries from retrospec here
 Sudoku86 (http://sudoku86.sourceforge.net/): Does only run under DOS. Not the preferred OS for this database.
+SunDog Resurrection (http://www.sundogresurrectionproject.com/, https://sourceforge.net/projects/sundog/): Sources old and in alpha state and without license information, newer sources difficult to get (sign NDA ...) not pursued further, see issue #243
 Super Mario Bros With SFML in C# (https://mario.codeplex.com/, https://mario.codeplex.com/SourceControl/latest): Codeplex cannot access archive, therefore no source, might be just a previous state of Mario Objects
 Sworsorc (https://github.com/cjeffery/sworsorc, https://svn.code.sf.net/p/alteraterra/code/): Proprietary license (copyright headers in files)
 tecbattle (https://code.google.com/archive/p/tecbattle/): Not advanced enough, no license information.

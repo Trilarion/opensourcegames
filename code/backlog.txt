@@ -92,3 +92,8 @@ https://www.tapatalk.com/groups/imperilist/
 https://www.wurfelengine.net/
 https://zdoom.org/downloads (gzdoom, lzdoom)
 https://zope.readthedocs.io/en/latest/
+https://github.com/QodotPlugin/qodot-plugin
+https://github.com/gecko0307/dagon
+https://github.com/open-telemetry/opentelemetry-cpp
+https://github.com/googleforgames/open-match
+https://github.com/hiitiger/goverlay

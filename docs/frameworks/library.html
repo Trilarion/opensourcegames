@@ -9,701 +9,380 @@
   <link rel="stylesheet" href="../css/bulma.min.css">
   <link rel="stylesheet" href="../css/osgl.min.css">
   <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <script type="text/javascript" src="../js/osgl.js"></script>
 </head>
 <body><nav class="navbar container is-light" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item" href="../index.html"><span class="icon is-large has-text-black" ><i class="icon-home"></i></span><span>OSGL</span></a>
-    <a class="navbar-item" href="https://github.com/Trilarion/opensourcegames"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span><span>On GitHub</span></a>
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+    <a class="navbar-item" href="../index.html"><span class="icon has-text-black"><i class="icon-home"></i></span><span>OSGL</span></a>
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
     </a>
   </div>
-  <div class="navbar-menu is-active">
+  <div class="navbar-menu" id="navMenu">
     <div class="navbar-start">
-      <a class="navbar-item" href="../games/index.html"><span class="icon is-large has-text-black" ><i class="icon-dice"></i></span><span>Games</span></a>
+      <a class="navbar-item" href="../games/index.html"><span class="icon has-text-black"><i class="icon-dice"></i></span><span>Games</span></a>
       <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link"><span class="icon is-large has-text-black" ><i class="icon-filter"></i></span><span>Filter</span></a>
+        <a class="navbar-link"><span class="icon has-text-black"><i class="icon-filter"></i></span><span>Filter</span></a>
         <div class="navbar-dropdown">
-          <a class="navbar-item" href="../games/genres.html"><span class="icon is-large has-text-black" ><i class="icon-price-tag"></i></span><span>By category</span></a>
-          <a class="navbar-item" href="../games/languages.html"><span class="icon is-large has-text-black" ><i class="icon-language"></i></span><span>By code language</span></a>
-          <a class="navbar-item" href="../games/platforms.html"><span class="icon is-large has-text-black" ><i class="icon-laptop"></i></span><span>By OS support</span></a>
-          <a class="navbar-item" href="../games/top50.html"><span class="icon is-large has-text-black" ><i class="icon-star"></i></span><span>GitHub Stars Top 50</span></a>
+          <a class="navbar-item" href="../games/genres.html"><span class="icon has-text-black"><i class="icon-price-tag"></i></span><span>By category</span></a>
+          <a class="navbar-item" href="../games/languages.html"><span class="icon has-text-black"><i class="icon-language"></i></span><span>By code language</span></a>
+          <a class="navbar-item" href="../games/platforms.html"><span class="icon has-text-black"><i class="icon-laptop"></i></span><span>By OS support</span></a>
+          <a class="navbar-item" href="../games/top50.html"><span class="icon has-text-black"><i class="icon-star"></i></span><span>GitHub Stars Top 50</span></a>
         </div>
       </div>
-      <a class="navbar-item is-active" href="index.html"><span class="icon is-large has-text-black" ><i class="icon-wrench"></i></span><span>Frameworks/Tools</span></a>
-      <a class="navbar-item" href="../developers/index.html"><span class="icon is-large has-text-black" ><i class="icon-users"></i></span><span>Developers</span></a>
-      <a class="navbar-item" href="../inspirations/index.html"><span class="icon is-large has-text-black" ><i class="icon-bulb"></i></span><span>Inspirations</span></a>
-      <a class="navbar-item" href="../statistics.html"><span class="icon is-large has-text-black" ><i class="icon-stats-dots"></i></span><span>Statistics</span></a>
-      <a class="navbar-item" href="../contribute.html"><span class="icon is-large has-text-black" ><i class="icon-pencil"></i></span><span>Contribute</span></a>
+      <a class="navbar-item is-active" href="index.html"><span class="icon has-text-black"><i class="icon-wrench"></i></span><span>Frameworks/Tools</span></a>
+      <a class="navbar-item" href="../developers/index.html"><span class="icon has-text-black"><i class="icon-users"></i></span><span>Developers</span></a>
+      <a class="navbar-item" href="../inspirations/index.html"><span class="icon has-text-black"><i class="icon-bulb"></i></span><span>Inspirations</span></a>
+      <a class="navbar-item" href="../statistics.html"><span class="icon has-text-black"><i class="icon-stats-dots"></i></span><span>Statistics</span></a>
+      <a class="navbar-item" href="../contribute.html"><span class="icon has-text-black"><i class="icon-pencil"></i></span><span>Contribute</span></a>
+      <a class="navbar-item" href="https://github.com/Trilarion/opensourcegames"><span class="icon has-text-black"><i class="icon-github"></i></span><span>On GitHub</span></a>
     </div>
   </div>
 </nav>
-<section class="section">
   <div class="container">
-    <h1 class="title">Libraries</h1><h2 class="subtitle"><a href="index.html">Index</a></h2>
-<div id="aposgui" class="box">
-  <nav class="level">
+    <div class="box"><p class="title is-4">Libraries</p><p class="subtitle is-6"><a href="index.html">Index</a></p></div>
+<div id="aposgui" class="box"><nav class="level">
     <div class="level-left">
-      <div class="level-item">
-        <h2 class="title is-4">Apos.Gui</h2>
-      </div>
+      <div class="level-item title is-4">Apos.Gui</div>
     </div>
-    <div class="level-right"><div class="level-item">
-  <span class="is-size-7 has-text-gray-lighter">beta</span></div><div class="level-item">
-  <span class="is-size-7 has-text-weight-bold has-text-info">active</span><span class="icon is-large has-text-black" ><i class="icon-sun"></i></span></div></div>
-  </nav>
-  <div class="block"><span class="mr-2">
-  <span class="has-text-weight-semibold">Platform:</span></span><span class="mr-2"><a href="../games/platforms.html#unspecified" title="Unspecified"><span class="icon is-large has-text-black" ><i class="icon-device_unknown"></i></span></a></span><div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon is-large has-text-black" ><i class="icon-library"></i></span>library</a>
+    <div class="level-right is-size-7"><div class="level-item">Platform:<a href="../games/platforms.html#unspecified" title="Unspecified"><span class="icon has-text-black"><i class="icon-device_unknown"></i></span></a></div><div class="level-item">beta</div><div class="level-item">
+  <span class="has-text-weight-bold">active</span><span class="icon has-text-black"><i class="icon-sun"></i></span></div></div>
+  </nav><div class="block">
+    <div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon has-text-black"><i class="icon-library"></i></span>library</a>
   <span class="tag is-light">user interface</span></div>
-  <span class="is-italic">And maybe other Apos projects at https://github.com/Apostolique
-
-</span></div>
-  <div class="block"></div>
-  <div class="block">
-  <span class="has-text-weight-semibold">Homepage: </span><a href="https://apostolique.github.io/Apos.Gui/">apostolique.github.io/Apos.Gui</a><br></div>
-  <div class="block">
-    <span class="has-text-weight-semibold">Technical info</span><br>
-  <span class="is-size-7">Code languages: </span><a href="../games/languages.html#c">
-  <span class="is-size-7">C#</span></a><br>
-  <span class="is-size-7">Code licenses: </span><a href="https://en.wikipedia.org/wiki/MIT_License" class="is-size-7">MIT</a><br>
-  <span class="is-size-7">Code repositories: </span><a href="https://github.com/Apostolique/Apos.Gui.git" class="is-size-7">Apostolique/Apos.Gui.git<span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a><br></div>
-  <div class="block">
-    <a href="../contribute.html#games" title="Contribution guide" class="is-size-7 mr-2">Improve</a>
-    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/aposgui.md" title="Text based entry on Github" class="is-size-7">Raw entry</a>
+  </div><div class="block">Homepage: <a href="https://apostolique.github.io/Apos.Gui/">apostolique.github.io/Apos.Gui</a><br></div><div class="block is-size-7">
+    <span class="has-text-weight-semibold">Technical information</span><br>Code languages: <a href="../games/languages.html#c">C#</a><br>Code licenses: <a href="https://en.wikipedia.org/wiki/MIT_License">MIT</a><br>Code repositories: <a href="https://github.com/Apostolique/Apos.Gui.git">Apostolique/Apos.Gui.git<span class="icon has-text-black"><i class="icon-github"></i></span></a><br></div><div class="block is-size-7 has-text-right">
+    <a href="../contribute.html#games" title="Contribution guide" class="mr-2">Improve</a>
+    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/aposgui.md" title="Text based entry on Github">Raw entry</a>
   </div>
 </div>
-<div id="box2d" class="box">
-  <nav class="level">
+<div id="box2d" class="box"><nav class="level">
     <div class="level-left">
-      <div class="level-item">
-        <h2 class="title is-4">Box2D</h2>
-      </div>
+      <div class="level-item title is-4">Box2D</div>
     </div>
-    <div class="level-right"><div class="level-item">
-  <span class="is-size-7 has-text-weight-bold has-text-info">mature</span></div><div class="level-item">
-  <span class="is-size-7 has-text-weight-bold has-text-info">active</span><span class="icon is-large has-text-black" ><i class="icon-sun"></i></span></div></div>
-  </nav>
-  <div class="block"><span class="mr-2">
-  <span class="has-text-weight-semibold">Platform:</span></span><span class="mr-2"><a href="../games/platforms.html#unspecified" title="Unspecified"><span class="icon is-large has-text-black" ><i class="icon-device_unknown"></i></span></a></span><div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon is-large has-text-black" ><i class="icon-library"></i></span>library</a>
+    <div class="level-right is-size-7"><div class="level-item">Platform:<a href="../games/platforms.html#unspecified" title="Unspecified"><span class="icon has-text-black"><i class="icon-device_unknown"></i></span></a></div><div class="level-item">
+  <span class="has-text-weight-bold">mature</span></div><div class="level-item">
+  <span class="has-text-weight-bold">active</span><span class="icon has-text-black"><i class="icon-sun"></i></span></div></div>
+  </nav><div class="block">
+    <div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon has-text-black"><i class="icon-library"></i></span>library</a>
   <span class="tag is-light">2D</span>
   <span class="tag is-light">physics</span></div>
-  <span class="is-italic">
-</span></div>
-  <div class="block">
-  <span class="has-text-weight-semibold">Developers: </span><a href="../developers/E.html#erin_catto">
-  <span class="has-text-weight-semibold">Erin Catto</span></a>, <a href="../developers/I.html#isaac_burns">
-  <span class="has-text-weight-semibold">Isaac Burns</span></a>, <a href="../developers/J.html#jarrod_mosen">
-  <span class="has-text-weight-semibold">Jarrod Mosen</span></a></div>
-  <div class="block">
-  <span class="has-text-weight-semibold">Homepage: </span><a href="https://box2d.org/">box2d.org</a><br></div>
-  <div class="block">
-    <span class="has-text-weight-semibold">Technical info</span><br>
-  <span class="is-size-7">Code languages: </span><a href="../games/languages.html#c">
-  <span class="is-size-7">C</span></a>, <a href="../games/languages.html#c++">
-  <span class="is-size-7">C++</span></a>, <a href="../games/languages.html#objective-c">
-  <span class="is-size-7">Objective-C</span></a><br>
-  <span class="is-size-7">Code licenses: </span><a href="https://en.wikipedia.org/wiki/Zlib_License" class="is-size-7">zlib</a><br>
-  <span class="is-size-7">Code repositories: </span><a href="https://github.com/erincatto/Box2D.git" class="is-size-7">erincatto/Box2D.git<span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a>(
-  <span class="is-size-7">since 2015</span>, <span class="icon is-large has-text-black"  title="top rated"><i class="icon-star"></i></span>)<br>
-  <span class="is-size-7">Build system: </span><a href="https://premake.github.io/" class="is-size-7">premake</a><br></div>
-  <div class="block">
-    <a href="../contribute.html#games" title="Contribution guide" class="is-size-7 mr-2">Improve</a>
-    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/box2d.md" title="Text based entry on Github" class="is-size-7">Raw entry</a>
+  </div><div class="block">Homepage: <a href="https://box2d.org/">box2d.org</a><br>Developers: <a href="../developers/E.html#erin_catto">Erin Catto</a>, <a href="../developers/I.html#isaac_burns">Isaac Burns</a>, <a href="../developers/J.html#jarrod_mosen">Jarrod Mosen</a><br></div><div class="block is-size-7">
+    <span class="has-text-weight-semibold">Technical information</span><br>Code languages: <a href="../games/languages.html#c">C</a>, <a href="../games/languages.html#c++">C++</a>, <a href="../games/languages.html#objective-c">Objective-C</a><br>Code licenses: <a href="https://en.wikipedia.org/wiki/Zlib_License">zlib</a><br>Code repositories: <a href="https://github.com/erincatto/Box2D.git">erincatto/Box2D.git<span class="icon has-text-black"><i class="icon-github"></i></span></a>(since 2015, <span class="icon has-text-black" title="top rated"><i class="icon-star"></i></span>)<br>
+  <span class="is-size-7">Build system: </span><a href="https://premake.github.io/" class="is-size-7">premake</a><br></div><div class="block is-size-7 has-text-right">
+    <a href="../contribute.html#games" title="Contribution guide" class="mr-2">Improve</a>
+    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/box2d.md" title="Text based entry on Github">Raw entry</a>
   </div>
 </div>
-<div id="curses" class="box">
-  <nav class="level">
+<div id="curses" class="box"><nav class="level">
     <div class="level-left">
-      <div class="level-item">
-        <h2 class="title is-4">curses</h2>
-      </div>
+      <div class="level-item title is-4">curses</div>
     </div>
-    <div class="level-right"><div class="level-item">
-  <span class="is-size-7 has-text-weight-bold has-text-info">mature</span></div><div class="level-item">
-  <span class="is-size-7 has-text-gray-lighter">inactive since 2000</span><span class="icon is-large has-text-black" ><i class="icon-brightness_3"></i></span></div></div>
-  </nav>
-  <div class="block"><span class="mr-2">
-  <span class="has-text-weight-semibold">Platform:</span></span><span class="mr-2"><a href="../games/platforms.html#linux" title="Linux"><span class="icon is-large has-text-black" ><i class="icon-tux"></i></span></a></span><div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon is-large has-text-black" ><i class="icon-library"></i></span>library</a></div>
-  <span class="is-italic">Terminal control library for Unix-like systems.
-
-</span></div>
-  <div class="block"></div>
-  <div class="block">
-  <span class="has-text-weight-semibold">Homepage: </span><a href="http://www.rocketaware.com/uint/curses/">www.rocketaware.com/uint/curses</a><br>
-  <span class="has-text-weight-semibold">Media: </span><a href="https://en.wikipedia.org/wiki/Curses_%28programming_library%29">curses<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a><br></div>
-  <div class="block">
-    <span class="has-text-weight-semibold">Technical info</span><br>
-  <span class="is-size-7">Code languages: </span><a href="../games/languages.html#c">
-  <span class="is-size-7">C</span></a><br>
-  <span class="is-size-7">Code licenses: </span>
-  <span class="is-size-7">?</span><br></div>
-  <div class="block">
-    <a href="../contribute.html#games" title="Contribution guide" class="is-size-7 mr-2">Improve</a>
-    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/curses.md" title="Text based entry on Github" class="is-size-7">Raw entry</a>
+    <div class="level-right is-size-7"><div class="level-item">Platform:<a href="../games/platforms.html#linux" title="Linux"><span class="icon has-text-black"><i class="icon-tux"></i></span></a></div><div class="level-item">
+  <span class="has-text-weight-bold">mature</span></div><div class="level-item">inactive since 2000<span class="icon has-text-black"><i class="icon-brightness_3"></i></span></div></div>
+  </nav><div class="block">
+    <div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon has-text-black"><i class="icon-library"></i></span>library</a></div>
+  </div><div class="block">Homepage: <a href="http://www.rocketaware.com/uint/curses/">www.rocketaware.com/uint/curses</a><br>Media: <a href="https://en.wikipedia.org/wiki/Curses_%28programming_library%29">curses<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a><br></div><div class="block is-size-7">
+    <span class="has-text-weight-semibold">Technical information</span><br>Code languages: <a href="../games/languages.html#c">C</a><br>Code licenses: ?<br></div><div class="block is-size-7 has-text-right">
+    <a href="../contribute.html#games" title="Contribution guide" class="mr-2">Improve</a>
+    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/curses.md" title="Text based entry on Github">Raw entry</a>
   </div>
 </div>
-<div id="dear_imgui" class="box">
-  <nav class="level">
+<div id="dear_imgui" class="box"><nav class="level">
     <div class="level-left">
-      <div class="level-item">
-        <h2 class="title is-4">Dear ImGui</h2>
-      </div>
+      <div class="level-item title is-4">Dear ImGui</div>
     </div>
-    <div class="level-right"><div class="level-item">
-  <span class="is-size-7 has-text-weight-bold has-text-info">mature</span></div><div class="level-item">
-  <span class="is-size-7 has-text-weight-bold has-text-info">active</span><span class="icon is-large has-text-black" ><i class="icon-sun"></i></span></div></div>
-  </nav>
-  <div class="block"><span class="mr-2">
-  <span class="has-text-weight-semibold">Platform:</span></span><span class="mr-2"><a href="../games/platforms.html#unspecified" title="Unspecified"><span class="icon is-large has-text-black" ><i class="icon-device_unknown"></i></span></a></span><div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon is-large has-text-black" ><i class="icon-library"></i></span>library</a></div>
-  <span class="is-italic">Minimal GUI library for C++.
-
-</span></div>
-  <div class="block">
-  <span class="has-text-weight-semibold">Developers: </span><a href="../developers/A.html#andrew_willmott">
-  <span class="has-text-weight-semibold is-size-7">Andrew Willmott</span></a>, <a href="../developers/B.html#bruce_mitchener">
-  <span class="has-text-weight-semibold is-size-7">Bruce Mitchener</span></a>, <a href="../developers/E.html#elias_daler">
-  <span class="has-text-weight-semibold is-size-7">Elias Daler</span></a>, <a href="../developers/G.html#giuseppe_barbieri">
-  <span class="has-text-weight-semibold is-size-7">Giuseppe Barbieri</span></a>, <a href="../developers/H.html#hvard_mathisen">
-  <span class="has-text-weight-semibold is-size-7">Håvard Mathisen</span></a>, <a href="../developers/J.html#jefferson_montgomery">
-  <span class="has-text-weight-semibold is-size-7">Jefferson Montgomery</span></a>, <a href="../developers/J.html#jim_tilander">
-  <span class="has-text-weight-semibold is-size-7">Jim Tilander</span></a>, <a href="../developers/K.html#konstantin_podsvirov">
-  <span class="has-text-weight-semibold is-size-7">Konstantin Podsvirov</span></a>, <a href="../developers/L.html#louis_schnellbach">
-  <span class="has-text-weight-semibold is-size-7">Louis Schnellbach</span></a>, <a href="../developers/M.html#marcell_kiss">
-  <span class="has-text-weight-semibold is-size-7">Marcell Kiss</span></a>, <a href="../developers/M.html#max_thrun">
-  <span class="has-text-weight-semibold is-size-7">Max Thrun</span></a>, <a href="../developers/M.html#micha_cicho">
-  <span class="has-text-weight-semibold is-size-7">Michał Cichoń</span></a>, <a href="../developers/M.html#mikko_mononen">
-  <span class="has-text-weight-semibold is-size-7">Mikko Mononen</span></a>, <a href="../developers/O.html#omar">
-  <span class="has-text-weight-semibold is-size-7">omar</span></a>, <a href="../developers/P.html#particlepeter">
-  <span class="has-text-weight-semibold is-size-7">ParticlePeter</span></a>, <a href="../developers/R.html#rokas_kupstys">
-  <span class="has-text-weight-semibold is-size-7">Rokas Kupstys</span></a>, <a href="../developers/S.html#sam_hocevar">
-  <span class="has-text-weight-semibold is-size-7">Sam Hocevar</span></a>, <a href="../developers/S.html#sepehr_taghdisian">
-  <span class="has-text-weight-semibold is-size-7">Sepehr Taghdisian</span></a>, <a href="../developers/S.html#shironekoben">
-  <span class="has-text-weight-semibold is-size-7">ShironekoBen</span></a>, <a href="../developers/B.html#_xx">
-  <span class="has-text-weight-semibold is-size-7">Бранимир Караџић</span></a></div>
-  <div class="block">
-  <span class="has-text-weight-semibold">Homepage: </span><a href="https://github.com/ocornut/imgui">ocornut/imgui<span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a><br>
-  <span class="has-text-weight-semibold">Download: </span><a href="https://github.com/ocornut/imgui/releases">ocornut/imgui/releases<span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a><br></div>
-  <div class="block">
-    <span class="has-text-weight-semibold">Technical info</span><br>
-  <span class="is-size-7">Code languages: </span><a href="../games/languages.html#c">
-  <span class="is-size-7">C</span></a>, <a href="../games/languages.html#c++">
-  <span class="is-size-7">C++</span></a><br>
-  <span class="is-size-7">Code licenses: </span><a href="https://en.wikipedia.org/wiki/MIT_License" class="is-size-7">MIT</a><br>
-  <span class="is-size-7">Code repositories: </span><a href="https://github.com/ocornut/imgui.git" class="is-size-7">ocornut/imgui.git<span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a>(
-  <span class="is-size-7">since 2014</span>, <span class="icon is-large has-text-black"  title="top rated"><i class="icon-star"></i></span>)<br></div>
-  <div class="block">
-    <a href="../contribute.html#games" title="Contribution guide" class="is-size-7 mr-2">Improve</a>
-    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/dear_imgui.md" title="Text based entry on Github" class="is-size-7">Raw entry</a>
+    <div class="level-right is-size-7"><div class="level-item">Platform:<a href="../games/platforms.html#unspecified" title="Unspecified"><span class="icon has-text-black"><i class="icon-device_unknown"></i></span></a></div><div class="level-item">
+  <span class="has-text-weight-bold">mature</span></div><div class="level-item">
+  <span class="has-text-weight-bold">active</span><span class="icon has-text-black"><i class="icon-sun"></i></span></div></div>
+  </nav><div class="block">
+    <div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon has-text-black"><i class="icon-library"></i></span>library</a></div>
+  </div><div class="block">Homepage: <a href="https://github.com/ocornut/imgui">ocornut/imgui<span class="icon has-text-black"><i class="icon-github"></i></span></a><br>Download: <a href="https://github.com/ocornut/imgui/releases">ocornut/imgui/releases<span class="icon has-text-black"><i class="icon-github"></i></span></a><br>Developers: <a href="../developers/A.html#andrew_willmott">
+  <span class="is-size-7">Andrew Willmott</span></a>, <a href="../developers/B.html#bruce_mitchener">
+  <span class="is-size-7">Bruce Mitchener</span></a>, <a href="../developers/E.html#elias_daler">
+  <span class="is-size-7">Elias Daler</span></a>, <a href="../developers/G.html#giuseppe_barbieri">
+  <span class="is-size-7">Giuseppe Barbieri</span></a>, <a href="../developers/H.html#hvard_mathisen">
+  <span class="is-size-7">Håvard Mathisen</span></a>, <a href="../developers/J.html#jefferson_montgomery">
+  <span class="is-size-7">Jefferson Montgomery</span></a>, <a href="../developers/J.html#jim_tilander">
+  <span class="is-size-7">Jim Tilander</span></a>, <a href="../developers/K.html#konstantin_podsvirov">
+  <span class="is-size-7">Konstantin Podsvirov</span></a>, <a href="../developers/L.html#louis_schnellbach">
+  <span class="is-size-7">Louis Schnellbach</span></a>, <a href="../developers/M.html#marcell_kiss">
+  <span class="is-size-7">Marcell Kiss</span></a>, <a href="../developers/M.html#max_thrun">
+  <span class="is-size-7">Max Thrun</span></a>, <a href="../developers/M.html#micha_cicho">
+  <span class="is-size-7">Michał Cichoń</span></a>, <a href="../developers/M.html#mikko_mononen">
+  <span class="is-size-7">Mikko Mononen</span></a>, <a href="../developers/O.html#omar">
+  <span class="is-size-7">omar</span></a>, <a href="../developers/P.html#particlepeter">
+  <span class="is-size-7">ParticlePeter</span></a>, <a href="../developers/R.html#rokas_kupstys">
+  <span class="is-size-7">Rokas Kupstys</span></a>, <a href="../developers/S.html#sam_hocevar">
+  <span class="is-size-7">Sam Hocevar</span></a>, <a href="../developers/S.html#sepehr_taghdisian">
+  <span class="is-size-7">Sepehr Taghdisian</span></a>, <a href="../developers/S.html#shironekoben">
+  <span class="is-size-7">ShironekoBen</span></a>, <a href="../developers/B.html#_xx">
+  <span class="is-size-7">Бранимир Караџић</span></a><br></div><div class="block is-size-7">
+    <span class="has-text-weight-semibold">Technical information</span><br>Code languages: <a href="../games/languages.html#c">C</a>, <a href="../games/languages.html#c++">C++</a><br>Code licenses: <a href="https://en.wikipedia.org/wiki/MIT_License">MIT</a><br>Code repositories: <a href="https://github.com/ocornut/imgui.git">ocornut/imgui.git<span class="icon has-text-black"><i class="icon-github"></i></span></a>(since 2014, <span class="icon has-text-black" title="top rated"><i class="icon-star"></i></span>)<br></div><div class="block is-size-7 has-text-right">
+    <a href="../contribute.html#games" title="Contribution guide" class="mr-2">Improve</a>
+    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/dear_imgui.md" title="Text based entry on Github">Raw entry</a>
   </div>
 </div>
-<div id="directpython" class="box">
-  <nav class="level">
+<div id="directpython" class="box"><nav class="level">
     <div class="level-left">
-      <div class="level-item">
-        <h2 class="title is-4">DirectPython</h2>
-      </div>
+      <div class="level-item title is-4">DirectPython</div>
     </div>
-    <div class="level-right"><div class="level-item">
-  <span class="is-size-7 has-text-gray-lighter">beta</span></div><div class="level-item">
-  <span class="is-size-7 has-text-gray-lighter">inactive since 2007</span><span class="icon is-large has-text-black" ><i class="icon-brightness_3"></i></span></div></div>
-  </nav>
-  <div class="block"><span class="mr-2">
-  <span class="has-text-weight-semibold">Platform:</span></span><span class="mr-2"><a href="../games/platforms.html#windows" title="Windows"><span class="icon is-large has-text-black" ><i class="icon-windows"></i></span></a></span><div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon is-large has-text-black" ><i class="icon-library"></i></span>library</a></div>
-  <span class="is-italic">C++ extension to Python, which provides basic access to DirectX.
-
-</span></div>
-  <div class="block"></div>
-  <div class="block">
-  <span class="has-text-weight-semibold">Homepages: </span><a href="http://directpython.sourceforge.net/">directpython.sourceforge.net</a>, <a href="http://directpython11.sourceforge.net/">directpython11.sourceforge.net</a><br>
-  <span class="has-text-weight-semibold">Downloads: </span><a href="https://sourceforge.net/projects/directpython/files/">directpython/files<span class="icon is-large has-text-black" ><i class="icon-sourceforge"></i></span></a>, <a href="https://sourceforge.net/projects/directpython11/files/">directpython11/files<span class="icon is-large has-text-black" ><i class="icon-sourceforge"></i></span></a><br></div>
-  <div class="block">
-    <span class="has-text-weight-semibold">Technical info</span><br>
-  <span class="is-size-7">Code languages: </span><a href="../games/languages.html#c++">
-  <span class="is-size-7">C++</span></a><br>
-  <span class="is-size-7">Code licenses: </span><a href="https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_(%22Simplified_BSD_License%22_or_%22FreeBSD_License%22)" class="is-size-7">2-clause BSD</a><br>
-  <span class="is-size-7">Code repositories: </span><a href="http://hg.code.sf.net/p/directpython11/code" class="is-size-7">hg.code.sf.net/p/directpython11/code</a><br></div>
-  <div class="block">
-    <a href="../contribute.html#games" title="Contribution guide" class="is-size-7 mr-2">Improve</a>
-    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/directpython.md" title="Text based entry on Github" class="is-size-7">Raw entry</a>
+    <div class="level-right is-size-7"><div class="level-item">Platform:<a href="../games/platforms.html#windows" title="Windows"><span class="icon has-text-black"><i class="icon-windows"></i></span></a></div><div class="level-item">beta</div><div class="level-item">inactive since 2007<span class="icon has-text-black"><i class="icon-brightness_3"></i></span></div></div>
+  </nav><div class="block">
+    <div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon has-text-black"><i class="icon-library"></i></span>library</a></div>
+  </div><div class="block">Homepages: <a href="http://directpython.sourceforge.net/">directpython.sourceforge.net</a>, <a href="http://directpython11.sourceforge.net/">directpython11.sourceforge.net</a><br>Downloads: <a href="https://sourceforge.net/projects/directpython/files/">directpython/files<span class="icon has-text-black"><i class="icon-sourceforge"></i></span></a>, <a href="https://sourceforge.net/projects/directpython11/files/">directpython11/files<span class="icon has-text-black"><i class="icon-sourceforge"></i></span></a><br></div><div class="block is-size-7">
+    <span class="has-text-weight-semibold">Technical information</span><br>Code languages: <a href="../games/languages.html#c++">C++</a><br>Code licenses: <a href="https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_(%22Simplified_BSD_License%22_or_%22FreeBSD_License%22)">2-clause BSD</a><br>Code repositories: <a href="http://hg.code.sf.net/p/directpython11/code">hg.code.sf.net/p/directpython11/code</a><br></div><div class="block is-size-7 has-text-right">
+    <a href="../contribute.html#games" title="Contribution guide" class="mr-2">Improve</a>
+    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/directpython.md" title="Text based entry on Github">Raw entry</a>
   </div>
 </div>
-<div id="freetype" class="box">
-  <nav class="level">
+<div id="freetype" class="box"><nav class="level">
     <div class="level-left">
-      <div class="level-item">
-        <h2 class="title is-4">FreeType</h2>
-      </div>
+      <div class="level-item title is-4">FreeType</div>
     </div>
-    <div class="level-right"><div class="level-item">
-  <span class="is-size-7 has-text-weight-bold has-text-info">mature</span></div><div class="level-item">
-  <span class="is-size-7 has-text-weight-bold has-text-info">active</span><span class="icon is-large has-text-black" ><i class="icon-sun"></i></span></div></div>
-  </nav>
-  <div class="block"><span class="mr-2">
-  <span class="has-text-weight-semibold">Platform:</span></span><span class="mr-2"><a href="../games/platforms.html#unspecified" title="Unspecified"><span class="icon is-large has-text-black" ><i class="icon-device_unknown"></i></span></a></span><div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon is-large has-text-black" ><i class="icon-library"></i></span>library</a></div>
-  <span class="is-italic">Capable of producing high-quality output (glyph images) of most vector and bitmap font formats.
-
-</span></div>
-  <div class="block"></div>
-  <div class="block">
-  <span class="has-text-weight-semibold">Homepage: </span><a href="https://www.freetype.org/">www.freetype.org</a><br>
-  <span class="has-text-weight-semibold">Media: </span><a href="https://en.wikipedia.org/wiki/FreeType">FreeType<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a><br>
-  <span class="has-text-weight-semibold">Download: </span><a href="https://www.freetype.org/download.html">www.freetype.org/download.html</a><br></div>
-  <div class="block">
-    <span class="has-text-weight-semibold">Technical info</span><br>
-  <span class="is-size-7">Code languages: </span><a href="../games/languages.html#c">
-  <span class="is-size-7">C</span></a><br>
-  <span class="is-size-7">Code licenses: </span><a href="https://en.wikipedia.org/wiki/GNU_General_Public_License" class="is-size-7">GPL-2.0</a>, 
-  <span class="is-size-7">Custom</span><br>
-  <span class="is-size-7">Code repositories: </span><a href="https://git.savannah.gnu.org/git/freetype/freetype2.git" class="is-size-7">git.savannah.gnu.org/git/freetype/freetype2.git</a>, <a href="https://git.savannah.gnu.org/git/freetype/freetype2-demos.git @add" class="is-size-7">git.savannah.gnu.org/git/freetype/freetype2-demos.git @add</a><br>
-  <span class="is-size-7">Build system: </span><a href="https://cmake.org/" class="is-size-7">CMake</a><br></div>
-  <div class="block">
-    <a href="../contribute.html#games" title="Contribution guide" class="is-size-7 mr-2">Improve</a>
-    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/freetype.md" title="Text based entry on Github" class="is-size-7">Raw entry</a>
+    <div class="level-right is-size-7"><div class="level-item">Platform:<a href="../games/platforms.html#unspecified" title="Unspecified"><span class="icon has-text-black"><i class="icon-device_unknown"></i></span></a></div><div class="level-item">
+  <span class="has-text-weight-bold">mature</span></div><div class="level-item">
+  <span class="has-text-weight-bold">active</span><span class="icon has-text-black"><i class="icon-sun"></i></span></div></div>
+  </nav><div class="block">
+    <div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon has-text-black"><i class="icon-library"></i></span>library</a></div>
+  </div><div class="block">Homepage: <a href="https://www.freetype.org/">www.freetype.org</a><br>Media: <a href="https://en.wikipedia.org/wiki/FreeType">FreeType<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a><br>Download: <a href="https://www.freetype.org/download.html">www.freetype.org/download.html</a><br></div><div class="block is-size-7">
+    <span class="has-text-weight-semibold">Technical information</span><br>Code languages: <a href="../games/languages.html#c">C</a><br>Code licenses: <a href="https://en.wikipedia.org/wiki/GNU_General_Public_License">GPL-2.0</a>, Custom<br>Code repositories: <a href="https://git.savannah.gnu.org/git/freetype/freetype2.git">git.savannah.gnu.org/git/freetype/freetype2.git</a>, <a href="https://git.savannah.gnu.org/git/freetype/freetype2-demos.git @add">git.savannah.gnu.org/git/freetype/freetype2-demos.git @add</a><br>
+  <span class="is-size-7">Build system: </span><a href="https://cmake.org/" class="is-size-7">CMake</a><br></div><div class="block is-size-7 has-text-right">
+    <a href="../contribute.html#games" title="Contribution guide" class="mr-2">Improve</a>
+    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/freetype.md" title="Text based entry on Github">Raw entry</a>
   </div>
 </div>
-<div id="gbdk" class="box">
-  <nav class="level">
+<div id="gbdk" class="box"><nav class="level">
     <div class="level-left">
-      <div class="level-item">
-        <h2 class="title is-4">GBDK</h2>
-      </div>
+      <div class="level-item title is-4">GBDK</div>
     </div>
-    <div class="level-right"><div class="level-item">
-  <span class="is-size-7 has-text-weight-bold has-text-info">mature</span></div><div class="level-item">
-  <span class="is-size-7 has-text-weight-bold has-text-info">active</span><span class="icon is-large has-text-black" ><i class="icon-sun"></i></span></div></div>
-  </nav>
-  <div class="block"><span class="mr-2">
-  <span class="has-text-weight-semibold">Platforms:</span></span><span class="mr-2"><a href="../games/platforms.html#windows" title="Windows"><span class="icon is-large has-text-black" ><i class="icon-windows"></i></span></a></span><span class="mr-2"><a href="../games/platforms.html#linux" title="Linux"><span class="icon is-large has-text-black" ><i class="icon-tux"></i></span></a></span><span class="mr-2"><a href="../games/platforms.html#macos" title="macOS"><span class="icon is-large has-text-black" ><i class="icon-appleinc"></i></span></a></span><div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon is-large has-text-black" ><i class="icon-library"></i></span>library</a><a href="index.html#tool" title="tool games" class="tag is-info">tool</a></div>
-  <span class="is-italic">Short for &#34;Gameboy Development Kit&#34;
-
-</span></div>
-  <div class="block">
-  <span class="has-text-weight-semibold">Developers: </span><a href="../developers/B.html#basxto">
-  <span class="has-text-weight-semibold">Basxto</span></a>, <a href="../developers/B.html#bbbbbr">
-  <span class="has-text-weight-semibold">bbbbbr</span></a>, <a href="../developers/D.html#daniel_rammelt">
-  <span class="has-text-weight-semibold">Daniel Rammelt</span></a>, <a href="../developers/D.html#david_galloway">
-  <span class="has-text-weight-semibold">David Galloway</span></a>, <a href="../developers/J.html#jim_huang">
-  <span class="has-text-weight-semibold">Jim Huang</span></a>, <a href="../developers/M.html#michael_hope">
-  <span class="has-text-weight-semibold">Michael Hope</span></a>, <a href="../developers/S.html#sandeep_dutta">
-  <span class="has-text-weight-semibold">Sandeep Dutta</span></a>, <a href="../developers/T.html#toxa">
-  <span class="has-text-weight-semibold">Toxa</span></a>, <a href="../developers/Z.html#zalo">
-  <span class="has-text-weight-semibold">Zalo</span></a></div>
-  <div class="block">
-  <span class="has-text-weight-semibold">Homepages: </span><a href="https://gbdk-2020.github.io/gbdk-2020/">gbdk-2020.github.io/gbdk-2020</a>, <a href="http://gbdk.sourceforge.net/">gbdk.sourceforge.net</a>, <a href="https://sourceforge.net/projects/gbdk/">gbdk<span class="icon is-large has-text-black" ><i class="icon-sourceforge"></i></span></a><br>
-  <span class="has-text-weight-semibold">Download: </span><a href="https://github.com/gbdk-2020/gbdk-2020/releases">gbdk-2020/gbdk-2020/releases<span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a><br></div>
-  <div class="block">
-    <span class="has-text-weight-semibold">Technical info</span><br>
-  <span class="is-size-7">Code languages: </span><a href="../games/languages.html#c">
-  <span class="is-size-7">C</span></a>, <a href="../games/languages.html#assembly">
-  <span class="is-size-7">Assembly</span></a>, <a href="../games/languages.html#c++">
-  <span class="is-size-7">C++</span></a><br>
-  <span class="is-size-7">Code licenses: </span><a href="https://en.wikipedia.org/wiki/MIT_License" class="is-size-7">MIT</a><br>
-  <span class="is-size-7">Code repositories: </span><a href="https://github.com/gbdk-2020/gbdk-2020.git" class="is-size-7">gbdk-2020/gbdk-2020.git<span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a>(
-  <span class="is-size-7">since 2020</span>, <span class="icon is-large has-text-black"  title="top rated"><i class="icon-star"></i></span>)<br>
-  <span class="is-size-7">Build system: </span><a href="https://en.wikipedia.org/wiki/Make_(software)" class="is-size-7">Make</a><br></div>
-  <div class="block">
-    <a href="../contribute.html#games" title="Contribution guide" class="is-size-7 mr-2">Improve</a>
-    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/gbdk.md" title="Text based entry on Github" class="is-size-7">Raw entry</a>
+    <div class="level-right is-size-7"><div class="level-item">Platforms:<a href="../games/platforms.html#windows" title="Windows"><span class="icon has-text-black"><i class="icon-windows"></i></span></a><a href="../games/platforms.html#linux" title="Linux"><span class="icon has-text-black"><i class="icon-tux"></i></span></a><a href="../games/platforms.html#macos" title="macOS"><span class="icon has-text-black"><i class="icon-appleinc"></i></span></a></div><div class="level-item">
+  <span class="has-text-weight-bold">mature</span></div><div class="level-item">
+  <span class="has-text-weight-bold">active</span><span class="icon has-text-black"><i class="icon-sun"></i></span></div></div>
+  </nav><div class="block">
+    <div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon has-text-black"><i class="icon-library"></i></span>library</a><a href="index.html#tool" title="tool games" class="tag is-info">tool</a></div>
+  </div><div class="block">Homepages: <a href="https://gbdk-2020.github.io/gbdk-2020/">gbdk-2020.github.io/gbdk-2020</a>, <a href="http://gbdk.sourceforge.net/">gbdk.sourceforge.net</a>, <a href="https://sourceforge.net/projects/gbdk/">gbdk<span class="icon has-text-black"><i class="icon-sourceforge"></i></span></a><br>Download: <a href="https://github.com/gbdk-2020/gbdk-2020/releases">gbdk-2020/gbdk-2020/releases<span class="icon has-text-black"><i class="icon-github"></i></span></a><br>Developers: <a href="../developers/B.html#basxto">Basxto</a>, <a href="../developers/B.html#bbbbbr">bbbbbr</a>, <a href="../developers/D.html#daniel_rammelt">Daniel Rammelt</a>, <a href="../developers/D.html#david_galloway">David Galloway</a>, <a href="../developers/J.html#jim_huang">Jim Huang</a>, <a href="../developers/M.html#michael_hope">Michael Hope</a>, <a href="../developers/S.html#sandeep_dutta">Sandeep Dutta</a>, <a href="../developers/T.html#toxa">Toxa</a>, <a href="../developers/Z.html#zalo">Zalo</a><br></div><div class="block is-size-7">
+    <span class="has-text-weight-semibold">Technical information</span><br>Code languages: <a href="../games/languages.html#c">C</a>, <a href="../games/languages.html#assembly">Assembly</a>, <a href="../games/languages.html#c++">C++</a><br>Code licenses: <a href="https://en.wikipedia.org/wiki/MIT_License">MIT</a><br>Code repositories: <a href="https://github.com/gbdk-2020/gbdk-2020.git">gbdk-2020/gbdk-2020.git<span class="icon has-text-black"><i class="icon-github"></i></span></a>(since 2020, <span class="icon has-text-black" title="top rated"><i class="icon-star"></i></span>)<br>
+  <span class="is-size-7">Build system: </span><a href="https://en.wikipedia.org/wiki/Make_(software)" class="is-size-7">Make</a><br></div><div class="block is-size-7 has-text-right">
+    <a href="../contribute.html#games" title="Contribution guide" class="mr-2">Improve</a>
+    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/gbdk.md" title="Text based entry on Github">Raw entry</a>
   </div>
 </div>
-<div id="geonbitui" class="box">
-  <nav class="level">
+<div id="geonbitui" class="box"><nav class="level">
     <div class="level-left">
-      <div class="level-item">
-        <h2 class="title is-4">GeonBit.UI</h2>
-      </div>
+      <div class="level-item title is-4">GeonBit.UI</div>
     </div>
-    <div class="level-right"><div class="level-item">
-  <span class="is-size-7 has-text-weight-bold has-text-info">mature</span></div><div class="level-item">
-  <span class="is-size-7 has-text-weight-bold has-text-info">active</span><span class="icon is-large has-text-black" ><i class="icon-sun"></i></span></div></div>
-  </nav>
-  <div class="block"><span class="mr-2">
-  <span class="has-text-weight-semibold">Platforms:</span></span><span class="mr-2"><a href="../games/platforms.html#windows" title="Windows"><span class="icon is-large has-text-black" ><i class="icon-windows"></i></span></a></span><span class="mr-2"><a href="../games/platforms.html#linux" title="Linux"><span class="icon is-large has-text-black" ><i class="icon-tux"></i></span></a></span><div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon is-large has-text-black" ><i class="icon-library"></i></span>library</a></div>
-  <span class="is-italic">UI extension for MonoGame-based projects.
-
-</span></div>
-  <div class="block">
-  <span class="has-text-weight-semibold">Developer: </span><a href="../developers/R.html#ronen">
-  <span class="has-text-weight-semibold">Ronen</span></a></div>
-  <div class="block">
-  <span class="has-text-weight-semibold">Homepage: </span><a href="https://github.com/RonenNess/GeonBit.UI">RonenNess/GeonBit.UI<span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a><br></div>
-  <div class="block">
-    <span class="has-text-weight-semibold">Technical info</span><br>
-  <span class="is-size-7">Code languages: </span><a href="../games/languages.html#c">
-  <span class="is-size-7">C#</span></a><br>
-  <span class="is-size-7">Code licenses: </span><a href="https://en.wikipedia.org/wiki/MIT_License" class="is-size-7">MIT</a><br>
-  <span class="is-size-7">Code repositories: </span><a href="https://github.com/RonenNess/GeonBit.UI.git" class="is-size-7">RonenNess/GeonBit.UI.git<span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a>(
-  <span class="is-size-7">since 2016</span>, <span class="icon is-large has-text-black"  title="top rated"><i class="icon-star"></i></span>)<br>
-  <span class="is-size-7">Code dependencies: </span>
-  <span class="is-size-7">MonoGame</span><br></div>
-  <div class="block">
-    <a href="../contribute.html#games" title="Contribution guide" class="is-size-7 mr-2">Improve</a>
-    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/geonbitui.md" title="Text based entry on Github" class="is-size-7">Raw entry</a>
+    <div class="level-right is-size-7"><div class="level-item">Platforms:<a href="../games/platforms.html#windows" title="Windows"><span class="icon has-text-black"><i class="icon-windows"></i></span></a><a href="../games/platforms.html#linux" title="Linux"><span class="icon has-text-black"><i class="icon-tux"></i></span></a></div><div class="level-item">
+  <span class="has-text-weight-bold">mature</span></div><div class="level-item">
+  <span class="has-text-weight-bold">active</span><span class="icon has-text-black"><i class="icon-sun"></i></span></div></div>
+  </nav><div class="block">
+    <div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon has-text-black"><i class="icon-library"></i></span>library</a></div>
+  </div><div class="block">Homepage: <a href="https://github.com/RonenNess/GeonBit.UI">RonenNess/GeonBit.UI<span class="icon has-text-black"><i class="icon-github"></i></span></a><br>Developer: <a href="../developers/R.html#ronen">Ronen</a><br></div><div class="block is-size-7">
+    <span class="has-text-weight-semibold">Technical information</span><br>Code languages: <a href="../games/languages.html#c">C#</a><br>Code licenses: <a href="https://en.wikipedia.org/wiki/MIT_License">MIT</a><br>Code repositories: <a href="https://github.com/RonenNess/GeonBit.UI.git">RonenNess/GeonBit.UI.git<span class="icon has-text-black"><i class="icon-github"></i></span></a>(since 2016, <span class="icon has-text-black" title="top rated"><i class="icon-star"></i></span>)<br>Code dependencies: MonoGame<br></div><div class="block is-size-7 has-text-right">
+    <a href="../contribute.html#games" title="Contribution guide" class="mr-2">Improve</a>
+    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/geonbitui.md" title="Text based entry on Github">Raw entry</a>
   </div>
 </div>
-<div id="horde3d" class="box">
-  <nav class="level">
+<div id="horde3d" class="box"><nav class="level">
     <div class="level-left">
-      <div class="level-item">
-        <h2 class="title is-4">Horde3D</h2>
-      </div>
+      <div class="level-item title is-4">Horde3D</div>
     </div>
-    <div class="level-right"><div class="level-item">
-  <span class="is-size-7 has-text-weight-bold has-text-info">mature</span></div><div class="level-item">
-  <span class="is-size-7 has-text-weight-bold has-text-info">active</span><span class="icon is-large has-text-black" ><i class="icon-sun"></i></span></div></div>
-  </nav>
-  <div class="block"><span class="mr-2">
-  <span class="has-text-weight-semibold">Platform:</span></span><span class="mr-2"><a href="../games/platforms.html#unspecified" title="Unspecified"><span class="icon is-large has-text-black" ><i class="icon-device_unknown"></i></span></a></span><div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon is-large has-text-black" ><i class="icon-library"></i></span>library</a>
+    <div class="level-right is-size-7"><div class="level-item">Platform:<a href="../games/platforms.html#unspecified" title="Unspecified"><span class="icon has-text-black"><i class="icon-device_unknown"></i></span></a></div><div class="level-item">
+  <span class="has-text-weight-bold">mature</span></div><div class="level-item">
+  <span class="has-text-weight-bold">active</span><span class="icon has-text-black"><i class="icon-sun"></i></span></div></div>
+  </nav><div class="block">
+    <div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon has-text-black"><i class="icon-library"></i></span>library</a>
   <span class="tag is-light">3D</span></div>
-  <span class="is-italic">Graphics engine.
-
-</span></div>
-  <div class="block">
-  <span class="has-text-weight-semibold">Developers: </span><a href="../developers/A.html#alexander_giatsintov">
-  <span class="has-text-weight-semibold">Alexander Giatsintov</span></a>, <a href="../developers/C.html#christoph_schulz">
-  <span class="has-text-weight-semibold">Christoph Schulz</span></a>, <a href="../developers/D.html#denilson_das_mercs_amorim">
-  <span class="has-text-weight-semibold">Denilson das Mercês Amorim</span></a>, <a href="../developers/E.html#emanuele_bertoldi">
-  <span class="has-text-weight-semibold">Emanuele Bertoldi</span></a>, <a href="../developers/J.html#jean-claude_monnin">
-  <span class="has-text-weight-semibold">Jean-Claude Monnin</span></a>, <a href="../developers/M.html#mjt">
-  <span class="has-text-weight-semibold">mjt</span></a>, <a href="../developers/V.html#volker_vogelhuber">
-  <span class="has-text-weight-semibold">Volker Vogelhuber</span></a></div>
-  <div class="block">
-  <span class="has-text-weight-semibold">Homepage: </span><a href="https://github.com/horde3d/Horde3D">horde3d/Horde3D<span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a><br>
-  <span class="has-text-weight-semibold">Media: </span><a href="https://en.wikipedia.org/wiki/Horde3D">Horde3D<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a><br></div>
-  <div class="block">
-    <span class="has-text-weight-semibold">Technical info</span><br>
-  <span class="is-size-7">Code languages: </span><a href="../games/languages.html#c++">
-  <span class="is-size-7">C++</span></a><br>
-  <span class="is-size-7">Code licenses: </span><a href="https://en.wikipedia.org/wiki/Eclipse_Public_License" class="is-size-7">EPL-2.0</a><br>
-  <span class="is-size-7">Code repositories: </span><a href="https://github.com/horde3d/Horde3D.git" class="is-size-7">horde3d/Horde3D.git<span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a>(
-  <span class="is-size-7">since 2013</span>, <span class="icon is-large has-text-black"  title="top rated"><i class="icon-star"></i></span>)<br>
-  <span class="is-size-7">Build system: </span><a href="https://cmake.org/" class="is-size-7">CMake</a><br></div>
-  <div class="block">
-    <a href="../contribute.html#games" title="Contribution guide" class="is-size-7 mr-2">Improve</a>
-    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/horde3d.md" title="Text based entry on Github" class="is-size-7">Raw entry</a>
+  </div><div class="block">Homepage: <a href="https://github.com/horde3d/Horde3D">horde3d/Horde3D<span class="icon has-text-black"><i class="icon-github"></i></span></a><br>Media: <a href="https://en.wikipedia.org/wiki/Horde3D">Horde3D<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a><br>Developers: <a href="../developers/A.html#alexander_giatsintov">Alexander Giatsintov</a>, <a href="../developers/C.html#christoph_schulz">Christoph Schulz</a>, <a href="../developers/D.html#denilson_das_mercs_amorim">Denilson das Mercês Amorim</a>, <a href="../developers/E.html#emanuele_bertoldi">Emanuele Bertoldi</a>, <a href="../developers/J.html#jean-claude_monnin">Jean-Claude Monnin</a>, <a href="../developers/M.html#mjt">mjt</a>, <a href="../developers/V.html#volker_vogelhuber">Volker Vogelhuber</a><br></div><div class="block is-size-7">
+    <span class="has-text-weight-semibold">Technical information</span><br>Code languages: <a href="../games/languages.html#c++">C++</a><br>Code licenses: <a href="https://en.wikipedia.org/wiki/Eclipse_Public_License">EPL-2.0</a><br>Code repositories: <a href="https://github.com/horde3d/Horde3D.git">horde3d/Horde3D.git<span class="icon has-text-black"><i class="icon-github"></i></span></a>(since 2013, <span class="icon has-text-black" title="top rated"><i class="icon-star"></i></span>)<br>
+  <span class="is-size-7">Build system: </span><a href="https://cmake.org/" class="is-size-7">CMake</a><br></div><div class="block is-size-7 has-text-right">
+    <a href="../contribute.html#games" title="Contribution guide" class="mr-2">Improve</a>
+    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/horde3d.md" title="Text based entry on Github">Raw entry</a>
   </div>
 </div>
-<div id="ncurses" class="box">
-  <nav class="level">
+<div id="ncurses" class="box"><nav class="level">
     <div class="level-left">
-      <div class="level-item">
-        <h2 class="title is-4">ncurses</h2>
-      </div>
+      <div class="level-item title is-4">ncurses</div>
     </div>
-    <div class="level-right"><div class="level-item">
-  <span class="is-size-7 has-text-weight-bold has-text-info">mature</span></div><div class="level-item">
-  <span class="is-size-7 has-text-weight-bold has-text-info">active</span><span class="icon is-large has-text-black" ><i class="icon-sun"></i></span></div></div>
-  </nav>
-  <div class="block"><span class="mr-2">
-  <span class="has-text-weight-semibold">Platforms:</span></span><span class="mr-2"><a href="../games/platforms.html#windows" title="Windows"><span class="icon is-large has-text-black" ><i class="icon-windows"></i></span></a></span><span class="mr-2"><a href="../games/platforms.html#linux" title="Linux"><span class="icon is-large has-text-black" ><i class="icon-tux"></i></span></a></span><div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon is-large has-text-black" ><i class="icon-library"></i></span>library</a></div>
-  <span class="is-italic">Library for text-based user interfaces.
-
-</span></div>
-  <div class="block"></div>
-  <div class="block">
-  <span class="has-text-weight-semibold">Homepages: </span><a href="https://invisible-island.net/ncurses/">invisible-island.net/ncurses</a>, <a href="https://www.gnu.org/software/ncurses/ncurses.html">www.gnu.org/software/ncurses/ncurses.html</a><br>
-  <span class="has-text-weight-semibold">Media: </span><a href="https://en.wikipedia.org/wiki/Ncurses">ncurses<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a><br>
-  <span class="has-text-weight-semibold">Download: </span><a href="https://invisible-island.net/ncurses/#downloads">invisible-island.net/ncurses/#downloads</a><br></div>
-  <div class="block">
-    <span class="has-text-weight-semibold">Technical info</span><br>
-  <span class="is-size-7">Code languages: </span><a href="../games/languages.html#c">
-  <span class="is-size-7">C</span></a><br>
-  <span class="is-size-7">Code licenses: </span><a href="https://en.wikipedia.org/wiki/MIT_License" class="is-size-7">MIT</a><br>
-  <span class="is-size-7">Build system: </span><a href="https://en.wikipedia.org/wiki/Autoconf" class="is-size-7">Autoconf</a><br></div>
-  <div class="block">
-    <a href="../contribute.html#games" title="Contribution guide" class="is-size-7 mr-2">Improve</a>
-    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/ncurses.md" title="Text based entry on Github" class="is-size-7">Raw entry</a>
+    <div class="level-right is-size-7"><div class="level-item">Platforms:<a href="../games/platforms.html#windows" title="Windows"><span class="icon has-text-black"><i class="icon-windows"></i></span></a><a href="../games/platforms.html#linux" title="Linux"><span class="icon has-text-black"><i class="icon-tux"></i></span></a></div><div class="level-item">
+  <span class="has-text-weight-bold">mature</span></div><div class="level-item">
+  <span class="has-text-weight-bold">active</span><span class="icon has-text-black"><i class="icon-sun"></i></span></div></div>
+  </nav><div class="block">
+    <div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon has-text-black"><i class="icon-library"></i></span>library</a></div>
+  </div><div class="block">Homepages: <a href="https://invisible-island.net/ncurses/">invisible-island.net/ncurses</a>, <a href="https://www.gnu.org/software/ncurses/ncurses.html">www.gnu.org/software/ncurses/ncurses.html</a><br>Media: <a href="https://en.wikipedia.org/wiki/Ncurses">ncurses<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a><br>Download: <a href="https://invisible-island.net/ncurses/#downloads">invisible-island.net/ncurses/#downloads</a><br></div><div class="block is-size-7">
+    <span class="has-text-weight-semibold">Technical information</span><br>Code languages: <a href="../games/languages.html#c">C</a><br>Code licenses: <a href="https://en.wikipedia.org/wiki/MIT_License">MIT</a><br>
+  <span class="is-size-7">Build system: </span><a href="https://en.wikipedia.org/wiki/Autoconf" class="is-size-7">Autoconf</a><br></div><div class="block is-size-7 has-text-right">
+    <a href="../contribute.html#games" title="Contribution guide" class="mr-2">Improve</a>
+    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/ncurses.md" title="Text based entry on Github">Raw entry</a>
   </div>
 </div>
-<div id="penumbra" class="box">
-  <nav class="level">
+<div id="penumbra" class="box"><nav class="level">
     <div class="level-left">
-      <div class="level-item">
-        <h2 class="title is-4">Penumbra</h2>
-      </div>
+      <div class="level-item title is-4">Penumbra</div>
     </div>
-    <div class="level-right"><div class="level-item">
-  <span class="is-size-7 has-text-weight-bold has-text-info">mature</span></div><div class="level-item">
-  <span class="is-size-7 has-text-weight-bold has-text-info">active</span><span class="icon is-large has-text-black" ><i class="icon-sun"></i></span></div></div>
-  </nav>
-  <div class="block"><span class="mr-2">
-  <span class="has-text-weight-semibold">Platform:</span></span><span class="mr-2"><a href="../games/platforms.html#unspecified" title="Unspecified"><span class="icon is-large has-text-black" ><i class="icon-device_unknown"></i></span></a></span><div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon is-large has-text-black" ><i class="icon-library"></i></span>library</a>
+    <div class="level-right is-size-7"><div class="level-item">Platform:<a href="../games/platforms.html#unspecified" title="Unspecified"><span class="icon has-text-black"><i class="icon-device_unknown"></i></span></a></div><div class="level-item">
+  <span class="has-text-weight-bold">mature</span></div><div class="level-item">
+  <span class="has-text-weight-bold">active</span><span class="icon has-text-black"><i class="icon-sun"></i></span></div></div>
+  </nav><div class="block">
+    <div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon has-text-black"><i class="icon-library"></i></span>library</a>
   <span class="tag is-light">2D</span></div>
-  <span class="is-italic">Library that adds 2D lighting with shadowing effects.
-
-</span></div>
-  <div class="block">
-  <span class="has-text-weight-semibold">Developers: </span><a href="../developers/J.html#jaanus_varus">
-  <span class="has-text-weight-semibold">Jaanus Varus</span></a>, <a href="../developers/M.html#marcel_hartel">
-  <span class="has-text-weight-semibold">Marcel Härtel</span></a></div>
-  <div class="block">
-  <span class="has-text-weight-semibold">Homepage: </span><a href="https://github.com/discosultan/penumbra">discosultan/penumbra<span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a><br></div>
-  <div class="block">
-    <span class="has-text-weight-semibold">Technical info</span><br>
-  <span class="is-size-7">Code languages: </span><a href="../games/languages.html#c">
-  <span class="is-size-7">C#</span></a><br>
-  <span class="is-size-7">Code licenses: </span><a href="https://en.wikipedia.org/wiki/MIT_License" class="is-size-7">MIT</a><br>
-  <span class="is-size-7">Code repositories: </span><a href="https://github.com/discosultan/penumbra.git" class="is-size-7">discosultan/penumbra.git<span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a>(
-  <span class="is-size-7">since 2015</span>, <span class="icon is-large has-text-black"  title="top rated"><i class="icon-star"></i></span>)<br>
-  <span class="is-size-7">Code dependencies: </span>
-  <span class="is-size-7">MonoGame</span><br></div>
-  <div class="block">
-    <a href="../contribute.html#games" title="Contribution guide" class="is-size-7 mr-2">Improve</a>
-    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/penumbra.md" title="Text based entry on Github" class="is-size-7">Raw entry</a>
+  </div><div class="block">Homepage: <a href="https://github.com/discosultan/penumbra">discosultan/penumbra<span class="icon has-text-black"><i class="icon-github"></i></span></a><br>Developers: <a href="../developers/J.html#jaanus_varus">Jaanus Varus</a>, <a href="../developers/M.html#marcel_hartel">Marcel Härtel</a><br></div><div class="block is-size-7">
+    <span class="has-text-weight-semibold">Technical information</span><br>Code languages: <a href="../games/languages.html#c">C#</a><br>Code licenses: <a href="https://en.wikipedia.org/wiki/MIT_License">MIT</a><br>Code repositories: <a href="https://github.com/discosultan/penumbra.git">discosultan/penumbra.git<span class="icon has-text-black"><i class="icon-github"></i></span></a>(since 2015, <span class="icon has-text-black" title="top rated"><i class="icon-star"></i></span>)<br>Code dependencies: MonoGame<br></div><div class="block is-size-7 has-text-right">
+    <a href="../contribute.html#games" title="Contribution guide" class="mr-2">Improve</a>
+    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/penumbra.md" title="Text based entry on Github">Raw entry</a>
   </div>
 </div>
-<div id="pgu" class="box">
-  <nav class="level">
+<div id="pgu" class="box"><nav class="level">
     <div class="level-left">
-      <div class="level-item">
-        <h2 class="title is-4">PGU</h2>
-      </div>
+      <div class="level-item title is-4">PGU</div>
     </div>
-    <div class="level-right"><div class="level-item">
-  <span class="is-size-7 has-text-weight-bold has-text-info">mature</span></div><div class="level-item">
-  <span class="is-size-7 has-text-weight-bold has-text-info">active</span><span class="icon is-large has-text-black" ><i class="icon-sun"></i></span></div></div>
-  </nav>
-  <div class="block"><span class="mr-2">
-  <span class="has-text-weight-semibold">Platforms:</span></span><span class="mr-2"><a href="../games/platforms.html#windows" title="Windows"><span class="icon is-large has-text-black" ><i class="icon-windows"></i></span></a></span><span class="mr-2"><a href="../games/platforms.html#linux" title="Linux"><span class="icon is-large has-text-black" ><i class="icon-tux"></i></span></a></span><span class="mr-2"><a href="../games/platforms.html#macos" title="macOS"><span class="icon is-large has-text-black" ><i class="icon-appleinc"></i></span></a></span><div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon is-large has-text-black" ><i class="icon-library"></i></span>library</a></div>
-  <span class="is-italic">Collection of useful modules for writing games with PyGame.
-
-</span></div>
-  <div class="block">
-  <span class="has-text-weight-semibold">Developer: </span><a href="../developers/P.html#peter_rogers">
-  <span class="has-text-weight-semibold">Peter Rogers</span></a></div>
-  <div class="block">
-  <span class="has-text-weight-semibold">Homepages: </span><a href="https://github.com/parogers/pgu">parogers/pgu<span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a>, <a href="https://code.google.com/archive/p/pgu/">code.google.com/archive/p/pgu</a><br>
-  <span class="has-text-weight-semibold">Download: </span><a href="https://pypi.org/project/pygame-pgu/">pypi.org/project/pygame-pgu</a><br></div>
-  <div class="block">
-    <span class="has-text-weight-semibold">Technical info</span><br>
-  <span class="is-size-7">Code languages: </span><a href="../games/languages.html#python">
-  <span class="is-size-7">Python</span></a><br>
-  <span class="is-size-7">Code licenses: </span><a href="https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License" class="is-size-7">LGPL-2.1</a><br>
-  <span class="is-size-7">Code repositories: </span><a href="https://github.com/parogers/pgu.git" class="is-size-7">parogers/pgu.git<span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a>(
-  <span class="is-size-7">since 2015</span>, <span class="icon is-large has-text-black"  title="medium rated"><i class="icon-star-half-full"></i></span>)<br>
-  <span class="is-size-7">Build system: </span><a href="https://packaging.python.org/tutorials/packaging-projects/#configuring-metadata" class="is-size-7">setup.py</a><br></div>
-  <div class="block">
-    <a href="../contribute.html#games" title="Contribution guide" class="is-size-7 mr-2">Improve</a>
-    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/pgu.md" title="Text based entry on Github" class="is-size-7">Raw entry</a>
+    <div class="level-right is-size-7"><div class="level-item">Platforms:<a href="../games/platforms.html#windows" title="Windows"><span class="icon has-text-black"><i class="icon-windows"></i></span></a><a href="../games/platforms.html#linux" title="Linux"><span class="icon has-text-black"><i class="icon-tux"></i></span></a><a href="../games/platforms.html#macos" title="macOS"><span class="icon has-text-black"><i class="icon-appleinc"></i></span></a></div><div class="level-item">
+  <span class="has-text-weight-bold">mature</span></div><div class="level-item">
+  <span class="has-text-weight-bold">active</span><span class="icon has-text-black"><i class="icon-sun"></i></span></div></div>
+  </nav><div class="block">
+    <div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon has-text-black"><i class="icon-library"></i></span>library</a></div>
+  </div><div class="block">Homepages: <a href="https://github.com/parogers/pgu">parogers/pgu<span class="icon has-text-black"><i class="icon-github"></i></span></a>, <a href="https://code.google.com/archive/p/pgu/">code.google.com/archive/p/pgu</a><br>Download: <a href="https://pypi.org/project/pygame-pgu/">pypi.org/project/pygame-pgu</a><br>Developer: <a href="../developers/P.html#peter_rogers">Peter Rogers</a><br></div><div class="block is-size-7">
+    <span class="has-text-weight-semibold">Technical information</span><br>Code languages: <a href="../games/languages.html#python">Python</a><br>Code licenses: <a href="https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License">LGPL-2.1</a><br>Code repositories: <a href="https://github.com/parogers/pgu.git">parogers/pgu.git<span class="icon has-text-black"><i class="icon-github"></i></span></a>(since 2015, <span class="icon has-text-black" title="medium rated"><i class="icon-star-half-full"></i></span>)<br>
+  <span class="is-size-7">Build system: </span><a href="https://packaging.python.org/tutorials/packaging-projects/#configuring-metadata" class="is-size-7">setup.py</a><br></div><div class="block is-size-7 has-text-right">
+    <a href="../contribute.html#games" title="Contribution guide" class="mr-2">Improve</a>
+    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/pgu.md" title="Text based entry on Github">Raw entry</a>
   </div>
 </div>
-<div id="pyscroll" class="box">
-  <nav class="level">
+<div id="pyscroll" class="box"><nav class="level">
     <div class="level-left">
-      <div class="level-item">
-        <h2 class="title is-4">pyscroll</h2>
-      </div>
+      <div class="level-item title is-4">pyscroll</div>
     </div>
-    <div class="level-right"><div class="level-item">
-  <span class="is-size-7 has-text-weight-bold has-text-info">mature</span></div><div class="level-item">
-  <span class="is-size-7 has-text-gray-lighter">inactive since 2018</span><span class="icon is-large has-text-black" ><i class="icon-brightness_3"></i></span></div></div>
-  </nav>
-  <div class="block"><span class="mr-2">
-  <span class="has-text-weight-semibold">Platforms:</span></span><span class="mr-2"><a href="../games/platforms.html#windows" title="Windows"><span class="icon is-large has-text-black" ><i class="icon-windows"></i></span></a></span><span class="mr-2"><a href="../games/platforms.html#linux" title="Linux"><span class="icon is-large has-text-black" ><i class="icon-tux"></i></span></a></span><span class="mr-2"><a href="../games/platforms.html#macos" title="macOS"><span class="icon is-large has-text-black" ><i class="icon-appleinc"></i></span></a></span><div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon is-large has-text-black" ><i class="icon-library"></i></span>library</a></div>
-  <span class="is-italic">Animated scrolling maps in pygame library.
-
-</span></div>
-  <div class="block">
-  <span class="has-text-weight-semibold">Developers: </span><a href="../developers/L.html#leif_theden">
-  <span class="has-text-weight-semibold">Leif Theden</span></a>, <a href="../developers/L.html#ukasz_langa">
-  <span class="has-text-weight-semibold">Łukasz Langa</span></a></div>
-  <div class="block">
-  <span class="has-text-weight-semibold">Homepage: </span><a href="https://pypi.org/project/pyscroll/">pypi.org/project/pyscroll</a><br></div>
-  <div class="block">
-    <span class="has-text-weight-semibold">Technical info</span><br>
-  <span class="is-size-7">Code languages: </span><a href="../games/languages.html#python">
-  <span class="is-size-7">Python</span></a><br>
-  <span class="is-size-7">Code licenses: </span><a href="https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License" class="is-size-7">LGPL-3.0</a><br>
-  <span class="is-size-7">Code repositories: </span><a href="https://github.com/bitcraft/pyscroll.git" class="is-size-7">bitcraft/pyscroll.git<span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a>(
-  <span class="is-size-7">since 2014</span>, <span class="icon is-large has-text-black"  title="medium rated"><i class="icon-star-half-full"></i></span>)<br>
-  <span class="is-size-7">Code dependencies: </span>
-  <span class="is-size-7">pygame</span><br></div>
-  <div class="block">
-    <a href="../contribute.html#games" title="Contribution guide" class="is-size-7 mr-2">Improve</a>
-    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/pyscroll.md" title="Text based entry on Github" class="is-size-7">Raw entry</a>
+    <div class="level-right is-size-7"><div class="level-item">Platforms:<a href="../games/platforms.html#windows" title="Windows"><span class="icon has-text-black"><i class="icon-windows"></i></span></a><a href="../games/platforms.html#linux" title="Linux"><span class="icon has-text-black"><i class="icon-tux"></i></span></a><a href="../games/platforms.html#macos" title="macOS"><span class="icon has-text-black"><i class="icon-appleinc"></i></span></a></div><div class="level-item">
+  <span class="has-text-weight-bold">mature</span></div><div class="level-item">inactive since 2018<span class="icon has-text-black"><i class="icon-brightness_3"></i></span></div></div>
+  </nav><div class="block">
+    <div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon has-text-black"><i class="icon-library"></i></span>library</a></div>
+  </div><div class="block">Homepage: <a href="https://pypi.org/project/pyscroll/">pypi.org/project/pyscroll</a><br>Developers: <a href="../developers/L.html#leif_theden">Leif Theden</a>, <a href="../developers/L.html#ukasz_langa">Łukasz Langa</a><br></div><div class="block is-size-7">
+    <span class="has-text-weight-semibold">Technical information</span><br>Code languages: <a href="../games/languages.html#python">Python</a><br>Code licenses: <a href="https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License">LGPL-3.0</a><br>Code repositories: <a href="https://github.com/bitcraft/pyscroll.git">bitcraft/pyscroll.git<span class="icon has-text-black"><i class="icon-github"></i></span></a>(since 2014, <span class="icon has-text-black" title="medium rated"><i class="icon-star-half-full"></i></span>)<br>Code dependencies: pygame<br></div><div class="block is-size-7 has-text-right">
+    <a href="../contribute.html#games" title="Contribution guide" class="mr-2">Improve</a>
+    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/pyscroll.md" title="Text based entry on Github">Raw entry</a>
   </div>
 </div>
-<div id="pytmx" class="box">
-  <nav class="level">
+<div id="pytmx" class="box"><nav class="level">
     <div class="level-left">
-      <div class="level-item">
-        <h2 class="title is-4">PyTMX</h2>
-      </div>
+      <div class="level-item title is-4">PyTMX</div>
     </div>
-    <div class="level-right"><div class="level-item">
-  <span class="is-size-7 has-text-weight-bold has-text-info">mature</span></div><div class="level-item">
-  <span class="is-size-7 has-text-weight-bold has-text-info">active</span><span class="icon is-large has-text-black" ><i class="icon-sun"></i></span></div></div>
-  </nav>
-  <div class="block"><span class="mr-2">
-  <span class="has-text-weight-semibold">Platforms:</span></span><span class="mr-2"><a href="../games/platforms.html#windows" title="Windows"><span class="icon is-large has-text-black" ><i class="icon-windows"></i></span></a></span><span class="mr-2"><a href="../games/platforms.html#linux" title="Linux"><span class="icon is-large has-text-black" ><i class="icon-tux"></i></span></a></span><span class="mr-2"><a href="../games/platforms.html#macos" title="macOS"><span class="icon is-large has-text-black" ><i class="icon-appleinc"></i></span></a></span><div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon is-large has-text-black" ><i class="icon-library"></i></span>library</a><a href="index.html#tool" title="tool games" class="tag is-info">tool</a></div>
-  <span class="is-italic">Read Tiled Map Editor&#39;s TMX maps.
-
-</span></div>
-  <div class="block">
-  <span class="has-text-weight-semibold">Developer: </span><a href="../developers/L.html#leif_theden">
-  <span class="has-text-weight-semibold">Leif Theden</span></a></div>
-  <div class="block">
-  <span class="has-text-weight-semibold">Homepage: </span><a href="https://pypi.org/project/PyTMX/">pypi.org/project/PyTMX</a><br></div>
-  <div class="block">
-    <span class="has-text-weight-semibold">Technical info</span><br>
-  <span class="is-size-7">Code languages: </span><a href="../games/languages.html#python">
-  <span class="is-size-7">Python</span></a><br>
-  <span class="is-size-7">Code licenses: </span><a href="https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License" class="is-size-7">LGPL-3.0</a><br>
-  <span class="is-size-7">Code repositories: </span><a href="https://github.com/bitcraft/PyTMX.git" class="is-size-7">bitcraft/PyTMX.git<span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a>(
-  <span class="is-size-7">since 2012</span>, <span class="icon is-large has-text-black"  title="top rated"><i class="icon-star"></i></span>)<br></div>
-  <div class="block">
-    <a href="../contribute.html#games" title="Contribution guide" class="is-size-7 mr-2">Improve</a>
-    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/pytmx.md" title="Text based entry on Github" class="is-size-7">Raw entry</a>
+    <div class="level-right is-size-7"><div class="level-item">Platforms:<a href="../games/platforms.html#windows" title="Windows"><span class="icon has-text-black"><i class="icon-windows"></i></span></a><a href="../games/platforms.html#linux" title="Linux"><span class="icon has-text-black"><i class="icon-tux"></i></span></a><a href="../games/platforms.html#macos" title="macOS"><span class="icon has-text-black"><i class="icon-appleinc"></i></span></a></div><div class="level-item">
+  <span class="has-text-weight-bold">mature</span></div><div class="level-item">
+  <span class="has-text-weight-bold">active</span><span class="icon has-text-black"><i class="icon-sun"></i></span></div></div>
+  </nav><div class="block">
+    <div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon has-text-black"><i class="icon-library"></i></span>library</a><a href="index.html#tool" title="tool games" class="tag is-info">tool</a></div>
+  </div><div class="block">Homepage: <a href="https://pypi.org/project/PyTMX/">pypi.org/project/PyTMX</a><br>Developer: <a href="../developers/L.html#leif_theden">Leif Theden</a><br></div><div class="block is-size-7">
+    <span class="has-text-weight-semibold">Technical information</span><br>Code languages: <a href="../games/languages.html#python">Python</a><br>Code licenses: <a href="https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License">LGPL-3.0</a><br>Code repositories: <a href="https://github.com/bitcraft/PyTMX.git">bitcraft/PyTMX.git<span class="icon has-text-black"><i class="icon-github"></i></span></a>(since 2012, <span class="icon has-text-black" title="top rated"><i class="icon-star"></i></span>)<br></div><div class="block is-size-7 has-text-right">
+    <a href="../contribute.html#games" title="Contribution guide" class="mr-2">Improve</a>
+    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/pytmx.md" title="Text based entry on Github">Raw entry</a>
   </div>
 </div>
-<div id="simple_and_fast_multimedia_library" class="box">
-  <nav class="level">
+<div id="simple_and_fast_multimedia_library" class="box"><nav class="level">
     <div class="level-left">
-      <div class="level-item">
-        <h2 class="title is-4">Simple and Fast Multimedia Library</h2>
-      </div>
+      <div class="level-item title is-4">Simple and Fast Multimedia Library</div>
     </div>
-    <div class="level-right"><div class="level-item">
-  <span class="is-size-7 has-text-weight-bold has-text-info">mature</span></div><div class="level-item">
-  <span class="is-size-7 has-text-weight-bold has-text-info">active</span><span class="icon is-large has-text-black" ><i class="icon-sun"></i></span></div></div>
-  </nav>
-  <div class="block"><span class="mr-2">
-  <span class="has-text-weight-semibold">Platform:</span></span><span class="mr-2"><a href="../games/platforms.html#unspecified" title="Unspecified"><span class="icon is-large has-text-black" ><i class="icon-device_unknown"></i></span></a></span><div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon is-large has-text-black" ><i class="icon-library"></i></span>library</a></div>
-  <span class="is-italic">SFML provides a simple interface to the various components of your PC.
-
-</span></div>
-  <div class="block">
-  <span class="has-text-weight-semibold">Developers: </span><a href="../developers/B.html#bendegz_cs">
-  <span class="has-text-weight-semibold is-size-7">Bendegúz Ács</span></a>, <a href="../developers/B.html#binary1248">
-  <span class="has-text-weight-semibold is-size-7">binary1248</span></a>, <a href="../developers/B.html#bruno_van_de_velde">
-  <span class="has-text-weight-semibold is-size-7">Bruno Van de Velde</span></a>, <a href="../developers/C.html#ceylo">
-  <span class="has-text-weight-semibold is-size-7">Ceylo</span></a>, <a href="../developers/C.html#corentin_schreiber">
-  <span class="has-text-weight-semibold is-size-7">Corentin Schreiber</span></a>, <a href="../developers/F.html#foaly">
-  <span class="has-text-weight-semibold is-size-7">Foaly</span></a>, <a href="../developers/J.html#jan_haller">
-  <span class="has-text-weight-semibold is-size-7">Jan Haller</span></a>, <a href="../developers/J.html#jonathan_de_wachter">
-  <span class="has-text-weight-semibold is-size-7">Jonathan De Wachter</span></a>, <a href="../developers/J.html#jonny_paton">
-  <span class="has-text-weight-semibold is-size-7">Jonny Paton</span></a>, <a href="../developers/J.html#jqdg">
-  <span class="has-text-weight-semibold is-size-7">jqdg</span></a>, <a href="../developers/L.html#laurent_gomila">
-  <span class="has-text-weight-semibold is-size-7">Laurent Gomila</span></a>, <a href="../developers/L.html#lukas_durrenberger">
-  <span class="has-text-weight-semibold is-size-7">Lukas Dürrenberger</span></a>, <a href="../developers/M.html#marco_antognini">
-  <span class="has-text-weight-semibold is-size-7">Marco Antognini</span></a>, <a href="../developers/M.html#mario_liebisch">
-  <span class="has-text-weight-semibold is-size-7">Mario Liebisch</span></a>, <a href="../developers/R.html#radek_dutkiewicz">
-  <span class="has-text-weight-semibold is-size-7">Radek Dutkiewicz</span></a>, <a href="../developers/S.html#stefan_schindler">
-  <span class="has-text-weight-semibold is-size-7">Stefan Schindler</span></a></div>
-  <div class="block">
-  <span class="has-text-weight-semibold">Homepage: </span><a href="https://www.sfml-dev.org/">www.sfml-dev.org</a><br>
-  <span class="has-text-weight-semibold">Media: </span><a href="https://en.wikipedia.org/wiki/Simple_and_Fast_Multimedia_Library">Simple and Fast Multimedia Library<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a><br>
-  <span class="has-text-weight-semibold">Download: </span><a href="https://www.sfml-dev.org/download.php">www.sfml-dev.org/download.php</a><br></div>
-  <div class="block">
-    <span class="has-text-weight-semibold">Technical info</span><br>
-  <span class="is-size-7">Code languages: </span><a href="../games/languages.html#c++">
-  <span class="is-size-7">C++</span></a><br>
-  <span class="is-size-7">Code licenses: </span><a href="https://en.wikipedia.org/wiki/Zlib_License" class="is-size-7">zlib</a><br>
-  <span class="is-size-7">Code repositories: </span><a href="https://github.com/SFML/SFML.git" class="is-size-7">SFML/SFML.git<span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a>(
-  <span class="is-size-7">since 2011</span>, <span class="icon is-large has-text-black"  title="top rated"><i class="icon-star"></i></span>)<br>
-  <span class="is-size-7">Build system: </span><a href="https://cmake.org/" class="is-size-7">CMake</a><br></div>
-  <div class="block">
-    <a href="../contribute.html#games" title="Contribution guide" class="is-size-7 mr-2">Improve</a>
-    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/simple_and_fast_multimedia_library.md" title="Text based entry on Github" class="is-size-7">Raw entry</a>
+    <div class="level-right is-size-7"><div class="level-item">Platform:<a href="../games/platforms.html#unspecified" title="Unspecified"><span class="icon has-text-black"><i class="icon-device_unknown"></i></span></a></div><div class="level-item">
+  <span class="has-text-weight-bold">mature</span></div><div class="level-item">
+  <span class="has-text-weight-bold">active</span><span class="icon has-text-black"><i class="icon-sun"></i></span></div></div>
+  </nav><div class="block">
+    <div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon has-text-black"><i class="icon-library"></i></span>library</a></div>
+  </div><div class="block">Homepage: <a href="https://www.sfml-dev.org/">www.sfml-dev.org</a><br>Media: <a href="https://en.wikipedia.org/wiki/Simple_and_Fast_Multimedia_Library">Simple and Fast Multimedia Library<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a><br>Download: <a href="https://www.sfml-dev.org/download.php">www.sfml-dev.org/download.php</a><br>Developers: <a href="../developers/B.html#bendegz_cs">
+  <span class="is-size-7">Bendegúz Ács</span></a>, <a href="../developers/B.html#binary1248">
+  <span class="is-size-7">binary1248</span></a>, <a href="../developers/B.html#bruno_van_de_velde">
+  <span class="is-size-7">Bruno Van de Velde</span></a>, <a href="../developers/C.html#ceylo">
+  <span class="is-size-7">Ceylo</span></a>, <a href="../developers/C.html#corentin_schreiber">
+  <span class="is-size-7">Corentin Schreiber</span></a>, <a href="../developers/F.html#foaly">
+  <span class="is-size-7">Foaly</span></a>, <a href="../developers/J.html#jan_haller">
+  <span class="is-size-7">Jan Haller</span></a>, <a href="../developers/J.html#jonathan_de_wachter">
+  <span class="is-size-7">Jonathan De Wachter</span></a>, <a href="../developers/J.html#jonny_paton">
+  <span class="is-size-7">Jonny Paton</span></a>, <a href="../developers/J.html#jqdg">
+  <span class="is-size-7">jqdg</span></a>, <a href="../developers/L.html#laurent_gomila">
+  <span class="is-size-7">Laurent Gomila</span></a>, <a href="../developers/L.html#lukas_durrenberger">
+  <span class="is-size-7">Lukas Dürrenberger</span></a>, <a href="../developers/M.html#marco_antognini">
+  <span class="is-size-7">Marco Antognini</span></a>, <a href="../developers/M.html#mario_liebisch">
+  <span class="is-size-7">Mario Liebisch</span></a>, <a href="../developers/R.html#radek_dutkiewicz">
+  <span class="is-size-7">Radek Dutkiewicz</span></a>, <a href="../developers/S.html#stefan_schindler">
+  <span class="is-size-7">Stefan Schindler</span></a><br></div><div class="block is-size-7">
+    <span class="has-text-weight-semibold">Technical information</span><br>Code languages: <a href="../games/languages.html#c++">C++</a><br>Code licenses: <a href="https://en.wikipedia.org/wiki/Zlib_License">zlib</a><br>Code repositories: <a href="https://github.com/SFML/SFML.git">SFML/SFML.git<span class="icon has-text-black"><i class="icon-github"></i></span></a>(since 2011, <span class="icon has-text-black" title="top rated"><i class="icon-star"></i></span>)<br>
+  <span class="is-size-7">Build system: </span><a href="https://cmake.org/" class="is-size-7">CMake</a><br></div><div class="block is-size-7 has-text-right">
+    <a href="../contribute.html#games" title="Contribution guide" class="mr-2">Improve</a>
+    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/simple_and_fast_multimedia_library.md" title="Text based entry on Github">Raw entry</a>
   </div>
 </div>
-<div id="simple_directmedia_layer" class="box">
-  <nav class="level">
+<div id="simple_directmedia_layer" class="box"><nav class="level">
     <div class="level-left">
-      <div class="level-item">
-        <h2 class="title is-4">Simple DirectMedia Layer</h2>
-      </div>
+      <div class="level-item title is-4">Simple DirectMedia Layer</div>
     </div>
-    <div class="level-right"><div class="level-item">
-  <span class="is-size-7 has-text-weight-bold has-text-info">mature</span></div><div class="level-item">
-  <span class="is-size-7 has-text-weight-bold has-text-info">active</span><span class="icon is-large has-text-black" ><i class="icon-sun"></i></span></div></div>
-  </nav>
-  <div class="block"><span class="mr-2">
-  <span class="has-text-weight-semibold">Platform:</span></span><span class="mr-2"><a href="../games/platforms.html#unspecified" title="Unspecified"><span class="icon is-large has-text-black" ><i class="icon-device_unknown"></i></span></a></span><div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon is-large has-text-black" ><i class="icon-library"></i></span>library</a>
+    <div class="level-right is-size-7"><div class="level-item">Platform:<a href="../games/platforms.html#unspecified" title="Unspecified"><span class="icon has-text-black"><i class="icon-device_unknown"></i></span></a></div><div class="level-item">
+  <span class="has-text-weight-bold">mature</span></div><div class="level-item">
+  <span class="has-text-weight-bold">active</span><span class="icon has-text-black"><i class="icon-sun"></i></span></div></div>
+  </nav><div class="block">
+    <div class="tags has-addons"><a href="index.html#library" title="library games" class="tag is-info"><span class="icon has-text-black"><i class="icon-library"></i></span>library</a>
   <span class="tag is-light">3D</span></div>
-  <span class="is-italic">Cross-platform development library designed to provide low level access.
-+ Bindings: [C#, Lua, Python, ..](https://www.libsdl.org/languages.php)
-
-</span></div>
-  <div class="block">
-  <span class="has-text-weight-semibold">Developers: </span><a href="../developers/A.html#alex_baines">
-  <span class="has-text-weight-semibold is-size-7">Alex Baines</span></a>, <a href="../developers/A.html#alex_szpakowski">
-  <span class="has-text-weight-semibold is-size-7">Alex Szpakowski</span></a>, <a href="../developers/A.html#alfred-valve">
-  <span class="has-text-weight-semibold is-size-7">alfred-valve</span></a>, <a href="../developers/A.html#alon_zakai">
-  <span class="has-text-weight-semibold is-size-7">Alon Zakai</span></a>, <a href="../developers/A.html#andreas_schiffler">
-  <span class="has-text-weight-semibold is-size-7">Andreas Schiffler</span></a>, <a href="../developers/A.html#anthony_pesch">
-  <span class="has-text-weight-semibold is-size-7">Anthony Pesch</span></a>, <a href="../developers/B.html#bavison">
-  <span class="has-text-weight-semibold is-size-7">bavison</span></a>, <a href="../developers/B.html#beuc">
-  <span class="has-text-weight-semibold is-size-7">Beuc</span></a>, <a href="../developers/B.html#boris_gjenero">
-  <span class="has-text-weight-semibold is-size-7">Boris Gjenero</span></a>, <a href="../developers/B.html#brandon_schaefer">
-  <span class="has-text-weight-semibold is-size-7">Brandon Schaefer</span></a>, <a href="../developers/C.html#cacodemon345">
-  <span class="has-text-weight-semibold is-size-7">Cacodemon345</span></a>, <a href="../developers/C.html#cameron_cawley">
-  <span class="has-text-weight-semibold is-size-7">Cameron Cawley</span></a>, <a href="../developers/C.html#cameron_gutman">
-  <span class="has-text-weight-semibold is-size-7">Cameron Gutman</span></a>, <a href="../developers/C.html#charlie_birks">
-  <span class="has-text-weight-semibold is-size-7">Charlie Birks</span></a>, <a href="../developers/C.html#christian_rauch">
-  <span class="has-text-weight-semibold is-size-7">Christian Rauch</span></a>, <a href="../developers/D.html#daniel_gibson">
-  <span class="has-text-weight-semibold is-size-7">Daniel Gibson</span></a>, <a href="../developers/D.html#david_gow">
-  <span class="has-text-weight-semibold is-size-7">David Gow</span></a>, <a href="../developers/D.html#david_ludwig">
-  <span class="has-text-weight-semibold is-size-7">David Ludwig</span></a>, <a href="../developers/D.html#dimitriy_ryazantcev">
-  <span class="has-text-weight-semibold is-size-7">Dimitriy Ryazantcev</span></a>, <a href="../developers/E.html#edward_rudd">
-  <span class="has-text-weight-semibold is-size-7">Edward Rudd</span></a>, <a href="../developers/E.html#epifanov_ivan">
-  <span class="has-text-weight-semibold is-size-7">Epifanov Ivan</span></a>, <a href="../developers/E.html#erik_yuzwa">
-  <span class="has-text-weight-semibold is-size-7">Erik Yuzwa</span></a>, <a href="../developers/E.html#ethan_lee">
-  <span class="has-text-weight-semibold is-size-7">Ethan Lee</span></a>, <a href="../developers/G.html#gabriel_jacobo">
-  <span class="has-text-weight-semibold is-size-7">Gabriel Jacobo</span></a>, <a href="../developers/J.html#jaylon_gowie">
-  <span class="has-text-weight-semibold is-size-7">Jaylon Gowie</span></a>, <a href="../developers/J.html#jimb_esser">
-  <span class="has-text-weight-semibold is-size-7">Jimb Esser</span></a>, <a href="../developers/J.html#joel_linn">
-  <span class="has-text-weight-semibold is-size-7">Joel Linn</span></a>, <a href="../developers/J.html#julian_uy">
-  <span class="has-text-weight-semibold is-size-7">Julian Uy</span></a>, <a href="../developers/J.html#jrgen_p_tjern">
-  <span class="has-text-weight-semibold is-size-7">Jørgen P. Tjernø</span></a>, <a href="../developers/K.html#kenmays">
-  <span class="has-text-weight-semibold is-size-7">kenmays</span></a>, <a href="../developers/K.html#kyle_schaefer">
-  <span class="has-text-weight-semibold is-size-7">Kyle Schaefer</span></a>, <a href="../developers/M.html#manuel_alfayate_corchete">
-  <span class="has-text-weight-semibold is-size-7">Manuel Alfayate Corchete</span></a>, <a href="../developers/M.html#mathieu_eyraud">
-  <span class="has-text-weight-semibold is-size-7">Mathieu Eyraud</span></a>, <a href="../developers/O.html#ozkan_sezer">
-  <span class="has-text-weight-semibold is-size-7">Ozkan Sezer</span></a>, <a href="../developers/P.html#paul_cercueil">
-  <span class="has-text-weight-semibold is-size-7">Paul Cercueil</span></a>, <a href="../developers/P.html#philipp_wiesemann">
-  <span class="has-text-weight-semibold is-size-7">Philipp Wiesemann</span></a>, <a href="../developers/R.html#ryan_c_gordon">
-  <span class="has-text-weight-semibold is-size-7">Ryan C. Gordon</span></a>, <a href="../developers/S.html#sam_lantinga">
-  <span class="has-text-weight-semibold is-size-7">Sam Lantinga</span></a>, <a href="../developers/S.html#sdl_wiki_bot">
-  <span class="has-text-weight-semibold is-size-7">SDL Wiki Bot</span></a>, <a href="../developers/S.html#sebastian_krzyszkowiak">
-  <span class="has-text-weight-semibold is-size-7">Sebastian Krzyszkowiak</span></a>, <a href="../developers/S.html#simon_mcvittie">
-  <span class="has-text-weight-semibold is-size-7">Simon McVittie</span></a>, <a href="../developers/S.html#sylvain_becker">
-  <span class="has-text-weight-semibold is-size-7">Sylvain Becker</span></a>, <a href="../developers/T.html#taras">
-  <span class="has-text-weight-semibold is-size-7">Taras</span></a>, <a href="../developers/Z.html#zack_middleton">
-  <span class="has-text-weight-semibold is-size-7">Zack Middleton</span></a>, <a href="../developers/Z.html#zenios">
-  <span class="has-text-weight-semibold is-size-7">zenios</span></a></div>
-  <div class="block">
-  <span class="has-text-weight-semibold">Homepage: </span><a href="https://www.libsdl.org/index.php">www.libsdl.org/index.php</a><br>
-  <span class="has-text-weight-semibold">Media: </span><a href="https://en.wikipedia.org/wiki/Simple_DirectMedia_Layer">Simple DirectMedia Layer<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a><br>
-  <span class="has-text-weight-semibold">Download: </span><a href="https://www.libsdl.org/download-2.0.php">www.libsdl.org/download-2.0.php</a><br></div>
-  <div class="block">
-    <span class="has-text-weight-semibold">Technical info</span><br>
-  <span class="is-size-7">Code languages: </span><a href="../games/languages.html#c">
-  <span class="is-size-7">C</span></a><br>
-  <span class="is-size-7">Code licenses: </span><a href="https://en.wikipedia.org/wiki/Zlib_License" class="is-size-7">zlib</a><br>
-  <span class="is-size-7">Code repositories: </span><a href="https://github.com/libsdl-org/SDL.git" class="is-size-7">libsdl-org/SDL.git<span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a>(
-  <span class="is-size-7">since 2021</span>, <span class="icon is-large has-text-black"  title="top rated"><i class="icon-star"></i></span>)<br>
-  <span class="is-size-7">Build system: </span><a href="https://cmake.org/" class="is-size-7">CMake</a><br></div>
-  <div class="block">
-    <a href="../contribute.html#games" title="Contribution guide" class="is-size-7 mr-2">Improve</a>
-    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/simple_directmedia_layer.md" title="Text based entry on Github" class="is-size-7">Raw entry</a>
+  </div><div class="block">Homepage: <a href="https://www.libsdl.org/index.php">www.libsdl.org/index.php</a><br>Media: <a href="https://en.wikipedia.org/wiki/Simple_DirectMedia_Layer">Simple DirectMedia Layer<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a><br>Download: <a href="https://www.libsdl.org/download-2.0.php">www.libsdl.org/download-2.0.php</a><br>Developers: <a href="../developers/A.html#alex_baines">
+  <span class="is-size-7">Alex Baines</span></a>, <a href="../developers/A.html#alex_szpakowski">
+  <span class="is-size-7">Alex Szpakowski</span></a>, <a href="../developers/A.html#alfred-valve">
+  <span class="is-size-7">alfred-valve</span></a>, <a href="../developers/A.html#alon_zakai">
+  <span class="is-size-7">Alon Zakai</span></a>, <a href="../developers/A.html#andreas_schiffler">
+  <span class="is-size-7">Andreas Schiffler</span></a>, <a href="../developers/A.html#anthony_pesch">
+  <span class="is-size-7">Anthony Pesch</span></a>, <a href="../developers/B.html#bavison">
+  <span class="is-size-7">bavison</span></a>, <a href="../developers/B.html#beuc">
+  <span class="is-size-7">Beuc</span></a>, <a href="../developers/B.html#boris_gjenero">
+  <span class="is-size-7">Boris Gjenero</span></a>, <a href="../developers/B.html#brandon_schaefer">
+  <span class="is-size-7">Brandon Schaefer</span></a>, <a href="../developers/C.html#cacodemon345">
+  <span class="is-size-7">Cacodemon345</span></a>, <a href="../developers/C.html#cameron_cawley">
+  <span class="is-size-7">Cameron Cawley</span></a>, <a href="../developers/C.html#cameron_gutman">
+  <span class="is-size-7">Cameron Gutman</span></a>, <a href="../developers/C.html#charlie_birks">
+  <span class="is-size-7">Charlie Birks</span></a>, <a href="../developers/C.html#christian_rauch">
+  <span class="is-size-7">Christian Rauch</span></a>, <a href="../developers/D.html#daniel_gibson">
+  <span class="is-size-7">Daniel Gibson</span></a>, <a href="../developers/D.html#david_gow">
+  <span class="is-size-7">David Gow</span></a>, <a href="../developers/D.html#david_ludwig">
+  <span class="is-size-7">David Ludwig</span></a>, <a href="../developers/D.html#dimitriy_ryazantcev">
+  <span class="is-size-7">Dimitriy Ryazantcev</span></a>, <a href="../developers/E.html#edward_rudd">
+  <span class="is-size-7">Edward Rudd</span></a>, <a href="../developers/E.html#epifanov_ivan">
+  <span class="is-size-7">Epifanov Ivan</span></a>, <a href="../developers/E.html#erik_yuzwa">
+  <span class="is-size-7">Erik Yuzwa</span></a>, <a href="../developers/E.html#ethan_lee">
+  <span class="is-size-7">Ethan Lee</span></a>, <a href="../developers/G.html#gabriel_jacobo">
+  <span class="is-size-7">Gabriel Jacobo</span></a>, <a href="../developers/J.html#jaylon_gowie">
+  <span class="is-size-7">Jaylon Gowie</span></a>, <a href="../developers/J.html#jimb_esser">
+  <span class="is-size-7">Jimb Esser</span></a>, <a href="../developers/J.html#joel_linn">
+  <span class="is-size-7">Joel Linn</span></a>, <a href="../developers/J.html#julian_uy">
+  <span class="is-size-7">Julian Uy</span></a>, <a href="../developers/J.html#jrgen_p_tjern">
+  <span class="is-size-7">Jørgen P. Tjernø</span></a>, <a href="../developers/K.html#kenmays">
+  <span class="is-size-7">kenmays</span></a>, <a href="../developers/K.html#kyle_schaefer">
+  <span class="is-size-7">Kyle Schaefer</span></a>, <a href="../developers/M.html#manuel_alfayate_corchete">
+  <span class="is-size-7">Manuel Alfayate Corchete</span></a>, <a href="../developers/M.html#mathieu_eyraud">
+  <span class="is-size-7">Mathieu Eyraud</span></a>, <a href="../developers/O.html#ozkan_sezer">
+  <span class="is-size-7">Ozkan Sezer</span></a>, <a href="../developers/P.html#paul_cercueil">
+  <span class="is-size-7">Paul Cercueil</span></a>, <a href="../developers/P.html#philipp_wiesemann">
+  <span class="is-size-7">Philipp Wiesemann</span></a>, <a href="../developers/R.html#ryan_c_gordon">
+  <span class="is-size-7">Ryan C. Gordon</span></a>, <a href="../developers/S.html#sam_lantinga">
+  <span class="is-size-7">Sam Lantinga</span></a>, <a href="../developers/S.html#sdl_wiki_bot">
+  <span class="is-size-7">SDL Wiki Bot</span></a>, <a href="../developers/S.html#sebastian_krzyszkowiak">
+  <span class="is-size-7">Sebastian Krzyszkowiak</span></a>, <a href="../developers/S.html#simon_mcvittie">
+  <span class="is-size-7">Simon McVittie</span></a>, <a href="../developers/S.html#sylvain_becker">
+  <span class="is-size-7">Sylvain Becker</span></a>, <a href="../developers/T.html#taras">
+  <span class="is-size-7">Taras</span></a>, <a href="../developers/Z.html#zack_middleton">
+  <span class="is-size-7">Zack Middleton</span></a>, <a href="../developers/Z.html#zenios">
+  <span class="is-size-7">zenios</span></a><br></div><div class="block is-size-7">
+    <span class="has-text-weight-semibold">Technical information</span><br>Code languages: <a href="../games/languages.html#c">C</a><br>Code licenses: <a href="https://en.wikipedia.org/wiki/Zlib_License">zlib</a><br>Code repositories: <a href="https://github.com/libsdl-org/SDL.git">libsdl-org/SDL.git<span class="icon has-text-black"><i class="icon-github"></i></span></a>(since 2021, <span class="icon has-text-black" title="top rated"><i class="icon-star"></i></span>)<br>
+  <span class="is-size-7">Build system: </span><a href="https://cmake.org/" class="is-size-7">CMake</a><br></div><div class="block is-size-7 has-text-right">
+    <a href="../contribute.html#games" title="Contribution guide" class="mr-2">Improve</a>
+    <a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/simple_directmedia_layer.md" title="Text based entry on Github">Raw entry</a>
   </div>
 </div>
-  <a class="is-light is-size-7" href="#">Back to top</a>
+  <p class="is-size-7 has-text-right"><a href="#">Back to top</a></p>
   </div>
-</section>
-<footer class="footer">
-  <div class="container content is-size-7">
-    <p>The <a href="https://github.com/Trilarion/opensourcegames">Open source games list (OSGL)</a> is a collection of open source game descriptions focusing on technical aspects.
-    The content on this site is the result of voluntary work and may be outdated or incorrect.<br>
-    For giving feedback or improving the content see the <a href="contribute.html">contribution guidelines</a> or read the <a href="https://trilarion.blogspot.com/search/label/osgames">Blog</a>.</p>
-    <p>The content (games descriptions) is licensed <a href="https://github.com/Trilarion/opensourcegames/blob/master/LICENSE">CC-0</a>.
-    Used icons are licensed under CC BY-SA 3.0 (<a href="https://github.com/somerandomdude/Iconic">Iconic</a> or <a href="http://designmodo.com/linecons-free/">Linecons</a>), CC0 1.0 (<a href="https://simpleicons.org/">Simple Icons</a>),
-    CC BY 4.0 (<a href="https://github.com/FortAwesome/Font-Awesome">Font Awesome</a> or <a href="https://icomoon.io/#icons-icomoon">IcoMoon Free</a>), CC BY-SA 4.0 (<a href="http://www.entypo.com/">Entypo+</a>) or Apache License 2.0 (<a href="https://material.io/resources/icons">Material Icons</a>).
-    This website is built using Python, Lark, Jinja2 and Bulma. Last updated: 2021-10-02 13:39</p>
-  </div>
+<footer class="footer container content is-size-7">
+  <p>The <a href="https://github.com/Trilarion/opensourcegames">Open source games list (OSGL)</a> is a collection of open source game descriptions focusing on technical aspects.
+  The content on this site is the result of voluntary work and may be outdated or incorrect. For giving feedback or improving the content see the
+  <a href="contribute.html">contribution guidelines</a> or read the <a href="https://trilarion.blogspot.com/search/label/osgames">Blog</a>.</p>
+  <p>The content (games descriptions) is licensed <a href="https://github.com/Trilarion/opensourcegames/blob/master/LICENSE">CC-0</a>.
+  Used icons are licensed under CC BY-SA 3.0 (<a href="https://github.com/somerandomdude/Iconic">Iconic</a> or <a href="http://designmodo.com/linecons-free/">Linecons</a>), CC0 1.0 (<a href="https://simpleicons.org/">Simple Icons</a>),
+  CC BY 4.0 (<a href="https://github.com/FortAwesome/Font-Awesome">Font Awesome</a> or <a href="https://icomoon.io/#icons-icomoon">IcoMoon Free</a>), CC BY-SA 4.0 (<a href="http://www.entypo.com/">Entypo+</a>) or Apache License 2.0 (<a href="https://material.io/resources/icons">Material Icons</a>).
+  This website is built using Python, Lark, Jinja2 and Bulma. Last updated: 2021-10-05 11:16</p>
 </footer>
 </body>
 </html>

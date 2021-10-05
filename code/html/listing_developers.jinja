@@ -1,16 +1,14 @@
 {% extends "base.jinja" %}
 {% block content %}
-<section class="section">
   <div class="container">
-    <h1 class="title">{{ listing['title'] }}</h1>
-{#- iterate over items -#}
-{% for item in listing['items'] %}
+    <p class="title is-4">{{ listing['title'] }}</p>
+                    {#- iterate over items, each one as a box-#}
+    {% for item in listing['items'] %}
     <div id="{{ item['anchor-id'] }}" class="box">
+                    {#- name and contact elements on one line, as a level -#}
       <div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">{{ item['name'] }}</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">{{ item['name'] }}</p></div>
         </div>
       <div class="level-right is-size-5">
       {%- for contact in item['contact'] -%}
@@ -18,18 +16,18 @@
       {%- endfor -%}
       </div>
     </div>
+                    {#- games as a separate element -#}
     <div class="block">{{ macros.render_element(item['games']) }}</div>
-      <div class="block">
-        {%- for field in ('organization',) -%}
-        {%- if field in item %}{{ macros.render_element(item[field]) }}{% endif -%}
-        {%- endfor -%}
-      </div>
-      <div class="block">
-        <a href="{{ base['url_to'](['contribute.html#developers']) }}" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+                    {#- other elements -#}
+    <div class="block">
+      {%- for field in ('organization',) -%}
+      {%- if field in item %}{{ macros.render_element(item[field]) }}{% endif -%}
+      {%- endfor -%}
+    </div>
+                    {#- improve link -#}
+    <p class="is-size-7 has-text-right"><a href="{{ base['url_to'](['contribute.html#developers']) }}" title="Contribution guide">Improve</a></p>
     </div>
   {% endfor -%}
-  <a class="is-light is-size-7" href="#">Back to top</a>
+  <p class="is-size-7 has-text-right"><a href="#">Back to top</a></p>
   </div>
-</section>
 {% endblock %}

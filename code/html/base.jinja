@@ -10,20 +10,20 @@
   <link rel="stylesheet" href="{{ base['url_to'](['css', 'bulma.min.css']) }}">
   <link rel="stylesheet" href="{{ base['url_to'](['css', 'osgl.min.css']) }}">
   <link rel="icon" type="image/svg+xml" href="{{ base['url_to'](['favicon.svg']) }}">
+  <script type="text/javascript" src="{{ base['url_to'](['js', 'osgl.js']) }}"></script>
 </head>
 <body>
                                 {#- navigation bar -#}
 <nav class="navbar container is-light" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item{% if 'index' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['index.html']) }}">{{ macros.render_icon({'class':'home'}) }}<span>OSGL</span></a>
-    <a class="navbar-item" href="https://github.com/Trilarion/opensourcegames">{{ macros.render_icon({'class':'github'}) }}<span>On GitHub</span></a>
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
     </a>
   </div>
-  <div class="navbar-menu is-active">
+  <div class="navbar-menu" id="navMenu">
     <div class="navbar-start">
       <a class="navbar-item{% if 'games' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'index.html']) }}">{{ macros.render_icon({'class':'dice'}) }}<span>Games</span></a>
       <div class="navbar-item has-dropdown is-hoverable">
@@ -40,22 +40,21 @@
       <a class="navbar-item{% if 'inspirations' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['inspirations', 'index.html']) }}">{{ macros.render_icon({'class':'bulb'}) }}<span>Inspirations</span></a>
       <a class="navbar-item{% if 'statistics' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['statistics.html']) }}">{{ macros.render_icon({'class':'stats-dots'}) }}<span>Statistics</span></a>
       <a class="navbar-item{% if 'contribute' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['contribute.html']) }}">{{ macros.render_icon({'class':'pencil'}) }}<span>Contribute</span></a>
+      <a class="navbar-item" href="https://github.com/Trilarion/opensourcegames">{{ macros.render_icon({'class':'github'}) }}<span>On GitHub</span></a>
     </div>
   </div>
 </nav>
                                 {#- content block -#}
 {% block content %}{% endblock %}
                                 {#- footer -#}
-<footer class="footer">
-  <div class="container content is-size-7">
-    <p>The <a href="https://github.com/Trilarion/opensourcegames">Open source games list (OSGL)</a> is a collection of open source game descriptions focusing on technical aspects.
-    The content on this site is the result of voluntary work and may be outdated or incorrect.<br>
-    For giving feedback or improving the content see the <a href="contribute.html">contribution guidelines</a> or read the <a href="https://trilarion.blogspot.com/search/label/osgames">Blog</a>.</p>
-    <p>The content (games descriptions) is licensed <a href="https://github.com/Trilarion/opensourcegames/blob/master/LICENSE">CC-0</a>.
-    Used icons are licensed under CC BY-SA 3.0 (<a href="https://github.com/somerandomdude/Iconic">Iconic</a> or <a href="http://designmodo.com/linecons-free/">Linecons</a>), CC0 1.0 (<a href="https://simpleicons.org/">Simple Icons</a>),
-    CC BY 4.0 (<a href="https://github.com/FortAwesome/Font-Awesome">Font Awesome</a> or <a href="https://icomoon.io/#icons-icomoon">IcoMoon Free</a>), CC BY-SA 4.0 (<a href="http://www.entypo.com/">Entypo+</a>) or Apache License 2.0 (<a href="https://material.io/resources/icons">Material Icons</a>).
-    This website is built using Python, Lark, Jinja2 and Bulma. Last updated: {{ base['creation-date'] }}</p>
-  </div>
+<footer class="footer container content is-size-7">
+  <p>The <a href="https://github.com/Trilarion/opensourcegames">Open source games list (OSGL)</a> is a collection of open source game descriptions focusing on technical aspects.
+  The content on this site is the result of voluntary work and may be outdated or incorrect. For giving feedback or improving the content see the
+  <a href="contribute.html">contribution guidelines</a> or read the <a href="https://trilarion.blogspot.com/search/label/osgames">Blog</a>.</p>
+  <p>The content (games descriptions) is licensed <a href="https://github.com/Trilarion/opensourcegames/blob/master/LICENSE">CC-0</a>.
+  Used icons are licensed under CC BY-SA 3.0 (<a href="https://github.com/somerandomdude/Iconic">Iconic</a> or <a href="http://designmodo.com/linecons-free/">Linecons</a>), CC0 1.0 (<a href="https://simpleicons.org/">Simple Icons</a>),
+  CC BY 4.0 (<a href="https://github.com/FortAwesome/Font-Awesome">Font Awesome</a> or <a href="https://icomoon.io/#icons-icomoon">IcoMoon Free</a>), CC BY-SA 4.0 (<a href="http://www.entypo.com/">Entypo+</a>) or Apache License 2.0 (<a href="https://material.io/resources/icons">Material Icons</a>).
+  This website is built using Python, Lark, Jinja2 and Bulma. Last updated: {{ base['creation-date'] }}</p>
 </footer>
 </body>
 </html>

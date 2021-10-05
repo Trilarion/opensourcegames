@@ -13,6 +13,7 @@ code_path = os.path.join(root_path, 'code')
 web_path = os.path.join(root_path, 'docs')
 web_template_path = os.path.join(code_path, 'html')
 web_css_path = os.path.join(web_path, 'css')
+web_js_path = os.path.join(web_path, 'js')
 
 private_properties_file = os.path.join(root_path, 'private.properties')
 inspirations_file = os.path.join(root_path, 'inspirations.md')
@@ -68,7 +69,8 @@ recommended_keywords = (
     'action', 'arcade', 'adventure', 'visual novel', 'sports', 'platform', 'puzzle', 'role playing', 'simulation',
     'strategy', 'cards', 'board', 'music', 'educational', 'tool', 'game engine', 'framework', 'library', 'remake')
 
-framework_keywords = ('framework', 'library', 'tool')
+# non game keywords take precedence
+non_game_keywords = ('framework', 'library', 'tool')
 
 # known programming languages, anything else will result in a warning during a maintenance operation
 # only these will be used when gathering statistics

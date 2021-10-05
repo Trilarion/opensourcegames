@@ -171,17 +171,15 @@ def copy_tree(source, destination):
     """
     # this gave an FileNotFoundError: [Errno 2] No such file or directory: '' on Windows
     # distutils.dir_util.copy_tree(archive_path, git_path)
+    os.makedirs(destination, exist_ok=True)
     for dirpath, dirnames, filenames in os.walk(source):
         # first create all the directory on destination
-        directories_to_be_created = [os.path.join(destination, os.path.relpath(os.path.join(dirpath, x), source)) for x
-                                     in dirnames]
-        for directory in directories_to_be_created:
+        for directory in (os.path.join(destination, os.path.relpath(os.path.join(dirpath, x), source)) for x in dirnames):
             os.makedirs(directory, exist_ok=True)
         # second copy all the files
-        filepaths_source = [os.path.join(dirpath, x) for x in filenames]
-        filepaths_destination = [os.path.join(destination, os.path.relpath(x, source)) for x in filepaths_source]
-        for src, dst in zip(filepaths_source, filepaths_destination):
-            shutil.copyfile(src, dst)
+        for source_file in (os.path.join(dirpath, x) for x in filenames):
+            destination_file = os.path.join(destination, os.path.relpath(source_file, source))
+            shutil.copyfile(source_file, destination_file)
 
 
 def download_url(url, destination):

@@ -9,1133 +9,655 @@
   <link rel="stylesheet" href="../css/bulma.min.css">
   <link rel="stylesheet" href="../css/osgl.min.css">
   <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <script type="text/javascript" src="../js/osgl.js"></script>
 </head>
 <body><nav class="navbar container is-light" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item" href="../index.html"><span class="icon is-large has-text-black" ><i class="icon-home"></i></span><span>OSGL</span></a>
-    <a class="navbar-item" href="https://github.com/Trilarion/opensourcegames"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span><span>On GitHub</span></a>
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+    <a class="navbar-item" href="../index.html"><span class="icon has-text-black"><i class="icon-home"></i></span><span>OSGL</span></a>
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
     </a>
   </div>
-  <div class="navbar-menu is-active">
+  <div class="navbar-menu" id="navMenu">
     <div class="navbar-start">
-      <a class="navbar-item" href="../games/index.html"><span class="icon is-large has-text-black" ><i class="icon-dice"></i></span><span>Games</span></a>
+      <a class="navbar-item" href="../games/index.html"><span class="icon has-text-black"><i class="icon-dice"></i></span><span>Games</span></a>
       <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link"><span class="icon is-large has-text-black" ><i class="icon-filter"></i></span><span>Filter</span></a>
+        <a class="navbar-link"><span class="icon has-text-black"><i class="icon-filter"></i></span><span>Filter</span></a>
         <div class="navbar-dropdown">
-          <a class="navbar-item" href="../games/genres.html"><span class="icon is-large has-text-black" ><i class="icon-price-tag"></i></span><span>By category</span></a>
-          <a class="navbar-item" href="../games/languages.html"><span class="icon is-large has-text-black" ><i class="icon-language"></i></span><span>By code language</span></a>
-          <a class="navbar-item" href="../games/platforms.html"><span class="icon is-large has-text-black" ><i class="icon-laptop"></i></span><span>By OS support</span></a>
-          <a class="navbar-item" href="../games/top50.html"><span class="icon is-large has-text-black" ><i class="icon-star"></i></span><span>GitHub Stars Top 50</span></a>
+          <a class="navbar-item" href="../games/genres.html"><span class="icon has-text-black"><i class="icon-price-tag"></i></span><span>By category</span></a>
+          <a class="navbar-item" href="../games/languages.html"><span class="icon has-text-black"><i class="icon-language"></i></span><span>By code language</span></a>
+          <a class="navbar-item" href="../games/platforms.html"><span class="icon has-text-black"><i class="icon-laptop"></i></span><span>By OS support</span></a>
+          <a class="navbar-item" href="../games/top50.html"><span class="icon has-text-black"><i class="icon-star"></i></span><span>GitHub Stars Top 50</span></a>
         </div>
       </div>
-      <a class="navbar-item" href="../frameworks/index.html"><span class="icon is-large has-text-black" ><i class="icon-wrench"></i></span><span>Frameworks/Tools</span></a>
-      <a class="navbar-item" href="../developers/index.html"><span class="icon is-large has-text-black" ><i class="icon-users"></i></span><span>Developers</span></a>
-      <a class="navbar-item is-active" href="index.html"><span class="icon is-large has-text-black" ><i class="icon-bulb"></i></span><span>Inspirations</span></a>
-      <a class="navbar-item" href="../statistics.html"><span class="icon is-large has-text-black" ><i class="icon-stats-dots"></i></span><span>Statistics</span></a>
-      <a class="navbar-item" href="../contribute.html"><span class="icon is-large has-text-black" ><i class="icon-pencil"></i></span><span>Contribute</span></a>
+      <a class="navbar-item" href="../frameworks/index.html"><span class="icon has-text-black"><i class="icon-wrench"></i></span><span>Frameworks/Tools</span></a>
+      <a class="navbar-item" href="../developers/index.html"><span class="icon has-text-black"><i class="icon-users"></i></span><span>Developers</span></a>
+      <a class="navbar-item is-active" href="index.html"><span class="icon has-text-black"><i class="icon-bulb"></i></span><span>Inspirations</span></a>
+      <a class="navbar-item" href="../statistics.html"><span class="icon has-text-black"><i class="icon-stats-dots"></i></span><span>Statistics</span></a>
+      <a class="navbar-item" href="../contribute.html"><span class="icon has-text-black"><i class="icon-pencil"></i></span><span>Contribute</span></a>
+      <a class="navbar-item" href="https://github.com/Trilarion/opensourcegames"><span class="icon has-text-black"><i class="icon-github"></i></span><span>On GitHub</span></a>
     </div>
   </div>
 </nav>
-<section class="section">
   <div class="container">
-    <h1 class="title">Inspirations (S)</h1>
-            <div id="stalker_call_of_pripyat" class="box">
+    <p class="title is-4">Inspirations (S)</p><div id="stalker_call_of_pripyat" class="box">
       <div class="block">
-        <h2 class="title is-4">S.T.A.L.K.E.R: Call of Pripyat</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#openxray">
-  <span class="has-text-weight-semibold">OpenXRay</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/S.T.A.L.K.E.R.:_Call_of_Pripyat">S.T.A.L.K.E.R: Call of Pripyat<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">S.T.A.L.K.E.R: Call of Pripyat</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#openxray">OpenXRay</a></p>Media: <a href="https://en.wikipedia.org/wiki/S.T.A.L.K.E.R.:_Call_of_Pripyat">S.T.A.L.K.E.R: Call of Pripyat<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="scorched_earth" class="box">
       <div class="block">
-        <h2 class="title is-4">Scorched Earth</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/A.html#atomic_tanks">
-  <span class="has-text-weight-semibold">Atomic Tanks</span></a>, <a href="../games/S.html#scorched3d">
-  <span class="has-text-weight-semibold">Scorched3D</span></a>, <a href="../games/S.html#soldat">
-  <span class="has-text-weight-semibold">Soldat</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Scorched_Earth_(video_game)">Scorched Earth<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Scorched Earth</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/A.html#atomic_tanks">Atomic Tanks</a>, <a href="../games/S.html#scorched3d">Scorched3D</a>, <a href="../games/S.html#soldat">Soldat</a></p>Media: <a href="https://en.wikipedia.org/wiki/Scorched_Earth_(video_game)">Scorched Earth<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="scrabble" class="box">
       <div class="block">
-        <h2 class="title is-4">Scrabble</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/C.html#crosswords">
-  <span class="has-text-weight-semibold">Crosswords</span></a>, <a href="../games/S.html#scrabble3d">
-  <span class="has-text-weight-semibold">Scrabble3D</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Scrabble</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/C.html#crosswords">Crosswords</a>, <a href="../games/S.html#scrabble3d">Scrabble3D</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="scumm" class="box">
       <div class="block">
-        <h2 class="title is-4">SCUMM</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../frameworks/framework.html#scummvm">
-  <span class="has-text-weight-semibold">ScummVM</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">SCUMM</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../frameworks/framework.html#scummvm">ScummVM</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="sea_dogs_to_each_his_own" class="box">
       <div class="block">
-        <h2 class="title is-4">Sea Dogs: To Each His Own</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../frameworks/framework.html#storm_engine">
-  <span class="has-text-weight-semibold">Storm Engine</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Sea Dogs: To Each His Own</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../frameworks/framework.html#storm_engine">Storm Engine</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="second_life" class="box">
       <div class="block">
-        <h2 class="title is-4">Second Life</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/O.html#open_simulator">
-  <span class="has-text-weight-semibold">Open Simulator</span></a>, <a href="../games/V.html#vircadia">
-  <span class="has-text-weight-semibold">Vircadia</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Second_Life">Second Life<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Second Life</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/O.html#open_simulator">Open Simulator</a>, <a href="../games/V.html#vircadia">Vircadia</a></p>Media: <a href="https://en.wikipedia.org/wiki/Second_Life">Second Life<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="sensible_soccer" class="box">
       <div class="block">
-        <h2 class="title is-4">Sensible Soccer</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/F.html#freekick_3">
-  <span class="has-text-weight-semibold">Freekick 3</span></a>, <a href="../games/T.html#tux_football">
-  <span class="has-text-weight-semibold">Tux Football</span></a>, <a href="../games/Y.html#ysoccer">
-  <span class="has-text-weight-semibold">YSoccer</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Sensible_World_of_Soccer">Sensible Soccer<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Sensible Soccer</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/F.html#freekick_3">Freekick 3</a>, <a href="../games/T.html#tux_football">Tux Football</a>, <a href="../games/Y.html#ysoccer">YSoccer</a></p>Media: <a href="https://en.wikipedia.org/wiki/Sensible_World_of_Soccer">Sensible Soccer<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="sensitive" class="box">
       <div class="block">
-        <h2 class="title is-4">Sensitive</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/O.html#one_way_to_go">
-  <span class="has-text-weight-semibold">One Way To Go</span></a>, <a href="../games/S.html#sensitive-js">
-  <span class="has-text-weight-semibold">sensitive-js</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Sensitive</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/O.html#one_way_to_go">One Way To Go</a>, <a href="../games/S.html#sensitive-js">sensitive-js</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="septerra_core_legacy_of_the_creator" class="box">
       <div class="block">
-        <h2 class="title is-4">Septerra Core: Legacy of the Creator</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../frameworks/tool.html#sr">
-  <span class="has-text-weight-semibold">SR</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Septerra Core: Legacy of the Creator</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../frameworks/tool.html#sr">SR</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="settlers" class="box">
       <div class="block">
-        <h2 class="title is-4">Settlers</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#battles_of_antargis">
-  <span class="has-text-weight-semibold">Battles of Antargis</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/The_Settlers">Settlers<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Settlers</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#battles_of_antargis">Battles of Antargis</a></p>Media: <a href="https://en.wikipedia.org/wiki/The_Settlers">Settlers<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="settlers_of_catan" class="box">
       <div class="block">
-        <h2 class="title is-4">Settlers of Catan</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/J.html#jsettlers">
-  <span class="has-text-weight-semibold">JSettlers</span></a>, <a href="../games/P.html#pioneers">
-  <span class="has-text-weight-semibold">Pioneers</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Settlers of Catan</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/J.html#jsettlers">JSettlers</a>, <a href="../games/P.html#pioneers">Pioneers</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="seven_kingdoms_ancient_adversaries" class="box">
       <div class="block">
-        <h2 class="title is-4">Seven Kingdoms: Ancient Adversaries</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#seven_kingdoms_ancient_adversaries">
-  <span class="has-text-weight-semibold">Seven Kingdoms: Ancient Adversaries</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Seven_Kingdoms_(video_game)">Seven Kingdoms: Ancient Adversaries<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Seven Kingdoms: Ancient Adversaries</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#seven_kingdoms_ancient_adversaries">Seven Kingdoms: Ancient Adversaries</a></p>Media: <a href="https://en.wikipedia.org/wiki/Seven_Kingdoms_(video_game)">Seven Kingdoms: Ancient Adversaries<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="sfxr" class="box">
       <div class="block">
-        <h2 class="title is-4">sfxr</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../frameworks/tool.html#rfxgen">
-  <span class="has-text-weight-semibold">rFXGen</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">sfxr</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../frameworks/tool.html#rfxgen">rFXGen</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="shadow_of_the_beast" class="box">
       <div class="block">
-        <h2 class="title is-4">Shadow of the Beast</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#shadow-of-the-beast-html5">
-  <span class="has-text-weight-semibold">shadow-of-the-beast-html5</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Shadow_of_the_Beast_(1989_video_game)">Shadow of the Beast<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Shadow of the Beast</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#shadow-of-the-beast-html5">shadow-of-the-beast-html5</a></p>Media: <a href="https://en.wikipedia.org/wiki/Shadow_of_the_Beast_(1989_video_game)">Shadow of the Beast<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="shadow_warrior" class="box">
       <div class="block">
-        <h2 class="title is-4">Shadow Warrior</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/J.html#jonofs_shadow_warrior_port_jfsw">
-  <span class="has-text-weight-semibold">JonoF&#39;s Shadow Warrior Port (JFSW)</span></a>, <a href="../games/R.html#raze">
-  <span class="has-text-weight-semibold">Raze</span></a>, <a href="../games/S.html#swp">
-  <span class="has-text-weight-semibold">SWP</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Shadow_Warrior">Shadow Warrior<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Shadow Warrior</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/J.html#jonofs_shadow_warrior_port_jfsw">JonoF&#39;s Shadow Warrior Port (JFSW)</a>, <a href="../games/R.html#raze">Raze</a>, <a href="../games/S.html#swp">SWP</a></p>Media: <a href="https://en.wikipedia.org/wiki/Shadow_Warrior">Shadow Warrior<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="shadowgrounds_survivor" class="box">
       <div class="block">
-        <h2 class="title is-4">Shadowgrounds: Survivor</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#shadowgrounds">
-  <span class="has-text-weight-semibold">Shadowgrounds</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Shadowgrounds:_Survivor">Shadowgrounds: Survivor<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Shadowgrounds: Survivor</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#shadowgrounds">Shadowgrounds</a></p>Media: <a href="https://en.wikipedia.org/wiki/Shadowgrounds:_Survivor">Shadowgrounds: Survivor<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="sherlock" class="box">
       <div class="block">
-        <h2 class="title is-4">Sherlock</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/E.html#einstein_puzzle">
-  <span class="has-text-weight-semibold">Einstein Puzzle</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Sherlock</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/E.html#einstein_puzzle">Einstein Puzzle</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="ship_simulator_2006" class="box">
       <div class="block">
-        <h2 class="title is-4">Ship Simulator 2006</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#bridge_command">
-  <span class="has-text-weight-semibold">Bridge Command</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Ship_Simulator_(video_game)">Ship Simulator 2006<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Ship Simulator 2006</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#bridge_command">Bridge Command</a></p>Media: <a href="https://en.wikipedia.org/wiki/Ship_Simulator_(video_game)">Ship Simulator 2006<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="ship_simulator_2008" class="box">
       <div class="block">
-        <h2 class="title is-4">Ship Simulator 2008</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#bridge_command">
-  <span class="has-text-weight-semibold">Bridge Command</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Ship_Simulator_(video_game)">Ship Simulator 2008<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Ship Simulator 2008</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#bridge_command">Bridge Command</a></p>Media: <a href="https://en.wikipedia.org/wiki/Ship_Simulator_(video_game)">Ship Simulator 2008<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="ship_simulator_extremes" class="box">
       <div class="block">
-        <h2 class="title is-4">Ship Simulator Extremes</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#bridge_command">
-  <span class="has-text-weight-semibold">Bridge Command</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Ship_Simulator_(video_game)">Ship Simulator Extremes<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Ship Simulator Extremes</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#bridge_command">Bridge Command</a></p>Media: <a href="https://en.wikipedia.org/wiki/Ship_Simulator_(video_game)">Ship Simulator Extremes<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="shobon_action" class="box">
       <div class="block">
-        <h2 class="title is-4">Shobon Action</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#open_syobon_action">
-  <span class="has-text-weight-semibold">Open Syobon Action</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Syobon_Action">Shobon Action<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Shobon Action</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#open_syobon_action">Open Syobon Action</a></p>Media: <a href="https://en.wikipedia.org/wiki/Syobon_Action">Shobon Action<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="sid_meiers_alpha_centauri" class="box">
       <div class="block">
-        <h2 class="title is-4">Sid Meier&#39;s Alpha Centauri</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/F.html#freeciv_alpha_centauri_project">
-  <span class="has-text-weight-semibold">Freeciv Alpha Centauri project</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Sid_Meier%27s_Alpha_Centauri">Sid Meier&#39;s Alpha Centauri<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Sid Meier&#39;s Alpha Centauri</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/F.html#freeciv_alpha_centauri_project">Freeciv Alpha Centauri project</a></p>Media: <a href="https://en.wikipedia.org/wiki/Sid_Meier%27s_Alpha_Centauri">Sid Meier&#39;s Alpha Centauri<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="sid_meiers_colonization" class="box">
       <div class="block">
-        <h2 class="title is-4">Sid Meier&#39;s Colonization</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/C.html#cc94">
-  <span class="has-text-weight-semibold">cc94</span></a>, <a href="../games/F.html#freecol">
-  <span class="has-text-weight-semibold">FreeCol</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Sid_Meier%27s_Colonization">Sid Meier&#39;s Colonization<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Sid Meier&#39;s Colonization</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/C.html#cc94">cc94</a>, <a href="../games/F.html#freecol">FreeCol</a></p>Media: <a href="https://en.wikipedia.org/wiki/Sid_Meier%27s_Colonization">Sid Meier&#39;s Colonization<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="sid_meiers_pirates" class="box">
       <div class="block">
-        <h2 class="title is-4">Sid Meier&#39;s Pirates!</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/C.html#crown_and_cutlass">
-  <span class="has-text-weight-semibold">Crown and Cutlass</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Sid_Meier%27s_Pirates!_(2004_video_game)">Sid Meier&#39;s Pirates!<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Sid Meier&#39;s Pirates!</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/C.html#crown_and_cutlass">Crown and Cutlass</a></p>Media: <a href="https://en.wikipedia.org/wiki/Sid_Meier%27s_Pirates!_(2004_video_game)">Sid Meier&#39;s Pirates!<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="siege" class="box">
       <div class="block">
-        <h2 class="title is-4">Siege</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/F.html#freesiege">
-  <span class="has-text-weight-semibold">FreeSiege</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Siege</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/F.html#freesiege">FreeSiege</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="siege_of_avalon" class="box">
       <div class="block">
-        <h2 class="title is-4">Siege of Avalon</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#siege_of_avalon_open_source">
-  <span class="has-text-weight-semibold">Siege of Avalon : Open Source</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Siege_of_Avalon">Siege of Avalon<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Siege of Avalon</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#siege_of_avalon_open_source">Siege of Avalon : Open Source</a></p>Media: <a href="https://en.wikipedia.org/wiki/Siege_of_Avalon">Siege of Avalon<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="silent_hunter_4" class="box">
       <div class="block">
-        <h2 class="title is-4">Silent Hunter 4</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/D.html#danger_from_the_deep">
-  <span class="has-text-weight-semibold">Danger from the Deep</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Silent_Hunter_4:_Wolves_of_the_Pacific">Silent Hunter 4<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Silent Hunter 4</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/D.html#danger_from_the_deep">Danger from the Deep</a></p>Media: <a href="https://en.wikipedia.org/wiki/Silent_Hunter_4:_Wolves_of_the_Pacific">Silent Hunter 4<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="simcity" class="box">
       <div class="block">
-        <h2 class="title is-4">SimCity</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/0.html#3dcity">
-  <span class="has-text-weight-semibold">3d.city</span></a>, <a href="../games/C.html#citybound">
-  <span class="has-text-weight-semibold">Citybound</span></a>, <a href="../games/C.html#cytopia">
-  <span class="has-text-weight-semibold">Cytopia</span></a>, <a href="../games/D.html#divercity">
-  <span class="has-text-weight-semibold">Divercity</span></a>, <a href="../games/L.html#lincity">
-  <span class="has-text-weight-semibold">Lincity</span></a>, <a href="../games/L.html#lincity-ng">
-  <span class="has-text-weight-semibold">LinCity-NG</span></a>, <a href="../games/M.html#micropolis">
-  <span class="has-text-weight-semibold">Micropolis</span></a>, <a href="../games/M.html#micropolisjs">
-  <span class="has-text-weight-semibold">micropolisJS</span></a>, <a href="../games/O.html#opencity">
-  <span class="has-text-weight-semibold">OpenCity</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/SimCity_(1989_video_game)">SimCity<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">SimCity</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/0.html#3dcity">3d.city</a>, <a href="../games/C.html#citybound">Citybound</a>, <a href="../games/C.html#cytopia">Cytopia</a>, <a href="../games/D.html#divercity">Divercity</a>, <a href="../games/L.html#lincity">Lincity</a>, <a href="../games/L.html#lincity-ng">LinCity-NG</a>, <a href="../games/M.html#micropolis">Micropolis</a>, <a href="../games/M.html#micropolisjs">micropolisJS</a>, <a href="../games/O.html#opencity">OpenCity</a></p>Media: <a href="https://en.wikipedia.org/wiki/SimCity_(1989_video_game)">SimCity<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="simcity_2000" class="box">
       <div class="block">
-        <h2 class="title is-4">SimCity 2000</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#opensc2k">
-  <span class="has-text-weight-semibold">OpenSC2K</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/SimCity_2000">SimCity 2000<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">SimCity 2000</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#opensc2k">OpenSC2K</a></p>Media: <a href="https://en.wikipedia.org/wiki/SimCity_2000">SimCity 2000<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="simon" class="box">
       <div class="block">
-        <h2 class="title is-4">Simon</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/A.html#asdf">
-  <span class="has-text-weight-semibold">asdf</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Simon</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/A.html#asdf">asdf</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="simon_says" class="box">
       <div class="block">
-        <h2 class="title is-4">Simon Says</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#blinken">
-  <span class="has-text-weight-semibold">Blinken</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Simon Says</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#blinken">Blinken</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="simtower" class="box">
       <div class="block">
-        <h2 class="title is-4">SimTower</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#openskyscraper">
-  <span class="has-text-weight-semibold">OpenSkyscraper</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/SimTower">SimTower<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">SimTower</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#openskyscraper">OpenSkyscraper</a></p>Media: <a href="https://en.wikipedia.org/wiki/SimTower">SimTower<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="singstar" class="box">
       <div class="block">
-        <h2 class="title is-4">SingStar</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/P.html#performous">
-  <span class="has-text-weight-semibold">Performous</span></a>, <a href="../games/U.html#ultrastar_deluxe">
-  <span class="has-text-weight-semibold">UltraStar Deluxe</span></a>, <a href="../games/U.html#ultrastar_play">
-  <span class="has-text-weight-semibold">UltraStar Play</span></a>, <a href="../games/V.html#vocaluxe">
-  <span class="has-text-weight-semibold">Vocaluxe</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/SingStar">SingStar<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">SingStar</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/P.html#performous">Performous</a>, <a href="../games/U.html#ultrastar_deluxe">UltraStar Deluxe</a>, <a href="../games/U.html#ultrastar_play">UltraStar Play</a>, <a href="../games/V.html#vocaluxe">Vocaluxe</a></p>Media: <a href="https://en.wikipedia.org/wiki/SingStar">SingStar<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="skat" class="box">
       <div class="block">
-        <h2 class="title is-4">Skat</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/X.html#xskat">
-  <span class="has-text-weight-semibold">XSkat</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Skat</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/X.html#xskat">XSkat</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="skifree" class="box">
       <div class="block">
-        <h2 class="title is-4">SkiFree</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/S.html#skifree-html5-clone">
-  <span class="has-text-weight-semibold">Skifree-HTML5-clone</span></a>, <a href="../games/S.html#skifreejs">
-  <span class="has-text-weight-semibold">skifree.js</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/SkiFree">SkiFree<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">SkiFree</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/S.html#skifree-html5-clone">Skifree-HTML5-clone</a>, <a href="../games/S.html#skifreejs">skifree.js</a></p>Media: <a href="https://en.wikipedia.org/wiki/SkiFree">SkiFree<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="skool_daze" class="box">
       <div class="block">
-        <h2 class="title is-4">Skool Daze</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/P.html#pyskool">
-  <span class="has-text-weight-semibold">pyskool</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Skool_Daze">Skool Daze<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Skool Daze</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/P.html#pyskool">pyskool</a></p>Media: <a href="https://en.wikipedia.org/wiki/Skool_Daze">Skool Daze<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="skyroads" class="box">
       <div class="block">
-        <h2 class="title is-4">SkyRoads</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/O.html#openroads">
-  <span class="has-text-weight-semibold">OpenRoads</span></a>, <a href="../games/O.html#orbit-hopper">
-  <span class="has-text-weight-semibold">Orbit-Hopper</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">SkyRoads</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/O.html#openroads">OpenRoads</a>, <a href="../games/O.html#orbit-hopper">Orbit-Hopper</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="slime_volleyball" class="box">
       <div class="block">
-        <h2 class="title is-4">Slime Volleyball</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#slime_volleyball">
-  <span class="has-text-weight-semibold">Slime Volleyball</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Slime Volleyball</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#slime_volleyball">Slime Volleyball</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="slot_racers" class="box">
       <div class="block">
-        <h2 class="title is-4">Slot Racers</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#slot-racers">
-  <span class="has-text-weight-semibold">Slot-Racers</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Slot_Racers">Slot Racers<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Slot Racers</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#slot-racers">Slot-Racers</a></p>Media: <a href="https://en.wikipedia.org/wiki/Slot_Racers">Slot Racers<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="snake" class="box">
       <div class="block">
-        <h2 class="title is-4">Snake</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/A.html#armagetron_advanced">
-  <span class="has-text-weight-semibold">Armagetron Advanced</span></a>, <a href="../games/G.html#gltron">
-  <span class="has-text-weight-semibold">GLtron</span></a>, <a href="../games/G.html#gustys_serpents">
-  <span class="has-text-weight-semibold">Gusty&#39;s Serpents</span></a>, <a href="../games/K.html#ksnakeduel">
-  <span class="has-text-weight-semibold">KSnakeDuel</span></a>, <a href="../games/M.html#mopesnake">
-  <span class="has-text-weight-semibold">Mop(e)snake</span></a>, <a href="../games/S.html#snake">
-  <span class="has-text-weight-semibold">snake</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Snake</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/A.html#armagetron_advanced">Armagetron Advanced</a>, <a href="../games/G.html#gltron">GLtron</a>, <a href="../games/G.html#gustys_serpents">Gusty&#39;s Serpents</a>, <a href="../games/K.html#ksnakeduel">KSnakeDuel</a>, <a href="../games/M.html#mopesnake">Mop(e)snake</a>, <a href="../games/S.html#snake">snake</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="sokoban" class="box">
       <div class="block">
-        <h2 class="title is-4">Sokoban</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/A.html#adagate">
-  <span class="has-text-weight-semibold">AdaGate</span></a>, <a href="../games/B.html#berusky">
-  <span class="has-text-weight-semibold">Berusky</span></a>, <a href="../games/C.html#cavepacker">
-  <span class="has-text-weight-semibold">CavePacker</span></a>, <a href="../games/G.html#gjid">
-  <span class="has-text-weight-semibold">GJID</span></a>, <a href="../games/J.html#jsoko">
-  <span class="has-text-weight-semibold">JSoko</span></a>, <a href="../games/K.html#kiki_the_nano_bot">
-  <span class="has-text-weight-semibold">kiki the nano bot</span></a>, <a href="../games/P.html#puzzle_moppet">
-  <span class="has-text-weight-semibold">Puzzle Moppet</span></a>, <a href="../games/R.html#rocksndiamonds">
-  <span class="has-text-weight-semibold">Rocks&#39;n&#39;Diamonds</span></a>, <a href="../games/S.html#simple_sokoban">
-  <span class="has-text-weight-semibold">Simple Sokoban</span></a>, <a href="../games/S.html#sokoban">
-  <span class="has-text-weight-semibold">Sokoban</span></a>, <a href="../games/S.html#sokosolve">
-  <span class="has-text-weight-semibold">SokoSolve</span></a>, <a href="../games/X.html#xye">
-  <span class="has-text-weight-semibold">Xye</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Sokoban">Sokoban<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Sokoban</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/A.html#adagate">AdaGate</a>, <a href="../games/B.html#berusky">Berusky</a>, <a href="../games/C.html#cavepacker">CavePacker</a>, <a href="../games/G.html#gjid">GJID</a>, <a href="../games/J.html#jsoko">JSoko</a>, <a href="../games/K.html#kiki_the_nano_bot">kiki the nano bot</a>, <a href="../games/P.html#puzzle_moppet">Puzzle Moppet</a>, <a href="../games/R.html#rocksndiamonds">Rocks&#39;n&#39;Diamonds</a>, <a href="../games/S.html#simple_sokoban">Simple Sokoban</a>, <a href="../games/S.html#sokoban">Sokoban</a>, <a href="../games/S.html#sokosolve">SokoSolve</a>, <a href="../games/X.html#xye">Xye</a></p>Media: <a href="https://en.wikipedia.org/wiki/Sokoban">Sokoban<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="solar_fox" class="box">
       <div class="block">
-        <h2 class="title is-4">Solar Fox</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#solarwolf">
-  <span class="has-text-weight-semibold">SolarWolf</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Solar_Fox">Solar Fox<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Solar Fox</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#solarwolf">SolarWolf</a></p>Media: <a href="https://en.wikipedia.org/wiki/Solar_Fox">Solar Fox<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="solomons_key" class="box">
       <div class="block">
-        <h2 class="title is-4">Solomon&#39;s Key</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#opensolomonskey">
-  <span class="has-text-weight-semibold">OpenSolomonsKey</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Solomon%27s_Key">Solomon&#39;s Key<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Solomon&#39;s Key</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#opensolomonskey">OpenSolomonsKey</a></p>Media: <a href="https://en.wikipedia.org/wiki/Solomon%27s_Key">Solomon&#39;s Key<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="sonic_the_hedgehog_series" class="box">
       <div class="block">
-        <h2 class="title is-4">Sonic the Hedgehog series</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/O.html#open_surge">
-  <span class="has-text-weight-semibold">Open Surge</span></a>, <a href="../games/S.html#sonic_robo_blast_2">
-  <span class="has-text-weight-semibold">Sonic Robo Blast 2</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/List_of_Sonic_the_Hedgehog_video_games">Sonic the Hedgehog series<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Sonic the Hedgehog series</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/O.html#open_surge">Open Surge</a>, <a href="../games/S.html#sonic_robo_blast_2">Sonic Robo Blast 2</a></p>Media: <a href="https://en.wikipedia.org/wiki/List_of_Sonic_the_Hedgehog_video_games">Sonic the Hedgehog series<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="sopwith" class="box">
       <div class="block">
-        <h2 class="title is-4">Sopwith</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/S.html#sdl_sopwith">
-  <span class="has-text-weight-semibold">SDL Sopwith</span></a>, <a href="../games/S.html#sopwith_3">
-  <span class="has-text-weight-semibold">Sopwith 3</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Sopwith_(video_game)">Sopwith<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
+        <p class="title is-4">Sopwith</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/S.html#sdl_sopwith">SDL Sopwith</a>, <a href="../games/S.html#sopwith_3">Sopwith 3</a></p>Media: <a href="https://en.wikipedia.org/wiki/Sopwith_(video_game)">Sopwith<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
+    </div>
+    <div id="space_empires_iv" class="box">
       <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Space Empires IV</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/F.html#freee">FrEee</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="space_federation_galactic_conquest" class="box">
       <div class="block">
-        <h2 class="title is-4">Space Federation: Galactic Conquest</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/A.html#a_planets_revenge">
-  <span class="has-text-weight-semibold">A Planet&#39;s Revenge</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Space Federation: Galactic Conquest</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/A.html#a_planets_revenge">A Planet&#39;s Revenge</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="space_harrier" class="box">
       <div class="block">
-        <h2 class="title is-4">Space Harrier</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#space_harrier_clone">
-  <span class="has-text-weight-semibold">Space Harrier Clone</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Space_Harrier">Space Harrier<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Space Harrier</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#space_harrier_clone">Space Harrier Clone</a></p>Media: <a href="https://en.wikipedia.org/wiki/Space_Harrier">Space Harrier<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="space_invaders" class="box">
       <div class="block">
-        <h2 class="title is-4">Space Invaders</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/H.html#hopson-arcade">
-  <span class="has-text-weight-semibold">Hopson-Arcade</span></a>, <a href="../games/M.html#microwar_20">
-  <span class="has-text-weight-semibold">MicroWar 2.0</span></a>, <a href="../games/X.html#xinvaders_3d">
-  <span class="has-text-weight-semibold">XInvaders 3D</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Space_Invaders">Space Invaders<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Space Invaders</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/H.html#hopson-arcade">Hopson-Arcade</a>, <a href="../games/M.html#microwar_20">MicroWar 2.0</a>, <a href="../games/X.html#xinvaders_3d">XInvaders 3D</a></p>Media: <a href="https://en.wikipedia.org/wiki/Space_Invaders">Space Invaders<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="space_rangers_2_dominators" class="box">
       <div class="block">
-        <h2 class="title is-4">Space Rangers 2: Dominators</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#opensr">
-  <span class="has-text-weight-semibold">OpenSR</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Space_Rangers_2:_Dominators">Space Rangers 2: Dominators<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Space Rangers 2: Dominators</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#opensr">OpenSR</a></p>Media: <a href="https://en.wikipedia.org/wiki/Space_Rangers_2:_Dominators">Space Rangers 2: Dominators<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="space_station_13" class="box">
       <div class="block">
-        <h2 class="title is-4">Space Station 13</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/G.html#griefly">
-  <span class="has-text-weight-semibold">Griefly</span></a>, <a href="../games/S.html#ss13_remake">
-  <span class="has-text-weight-semibold">SS13 Remake</span></a>, <a href="../games/U.html#unitystation">
-  <span class="has-text-weight-semibold">unitystation</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Space Station 13</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/G.html#griefly">Griefly</a>, <a href="../games/S.html#ss13_remake">SS13 Remake</a>, <a href="../games/U.html#unitystation">unitystation</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="space_taxi" class="box">
       <div class="block">
-        <h2 class="title is-4">Space Taxi</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/M.html#moagg2">
-  <span class="has-text-weight-semibold">Moagg2</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Space_Taxi">Space Taxi<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Space Taxi</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/M.html#moagg2">Moagg2</a></p>Media: <a href="https://en.wikipedia.org/wiki/Space_Taxi">Space Taxi<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="space_trader" class="box">
       <div class="block">
-        <h2 class="title is-4">Space Trader</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/S.html#space_trader_for_android">
-  <span class="has-text-weight-semibold">Space Trader for Android</span></a>, <a href="../games/S.html#space_trader_for_windows">
-  <span class="has-text-weight-semibold">Space Trader for Windows</span></a>, <a href="../games/S.html#spacetrader_for_java">
-  <span class="has-text-weight-semibold">SpaceTrader for Java</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Space_Trader">Space Trader<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Space Trader</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/S.html#space_trader_for_android">Space Trader for Android</a>, <a href="../games/S.html#space_trader_for_windows">Space Trader for Windows</a>, <a href="../games/S.html#spacetrader_for_java">SpaceTrader for Java</a></p>Media: <a href="https://en.wikipedia.org/wiki/Space_Trader">Space Trader<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="spear_of_destiny" class="box">
       <div class="block">
-        <h2 class="title is-4">Spear of Destiny</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/E.html#ecwolf">
-  <span class="has-text-weight-semibold">ECWolf</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Spear of Destiny</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/E.html#ecwolf">ECWolf</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="speed_haste" class="box">
       <div class="block">
-        <h2 class="title is-4">Speed Haste</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/G.html#glspeed">
-  <span class="has-text-weight-semibold">GLSpeed</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Speed_Haste">Speed Haste<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Speed Haste</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/G.html#glspeed">GLSpeed</a></p>Media: <a href="https://en.wikipedia.org/wiki/Speed_Haste">Speed Haste<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="spore" class="box">
       <div class="block">
-        <h2 class="title is-4">Spore</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/T.html#thrive">
-  <span class="has-text-weight-semibold">Thrive</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Spore</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/T.html#thrive">Thrive</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="star_control_2" class="box">
       <div class="block">
-        <h2 class="title is-4">Star Control 2</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/S.html#star-control2">
-  <span class="has-text-weight-semibold">star-control2</span></a>, <a href="../games/T.html#the_ur-quan_masters">
-  <span class="has-text-weight-semibold">The Ur-Quan Masters</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Star_Control_II">Star Control 2<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Star Control 2</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/S.html#star-control2">star-control2</a>, <a href="../games/T.html#the_ur-quan_masters">The Ur-Quan Masters</a></p>Media: <a href="https://en.wikipedia.org/wiki/Star_Control_II">Star Control 2<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="star_ruler_2" class="box">
       <div class="block">
-        <h2 class="title is-4">Star Ruler 2</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#star_ruler_2">
-  <span class="has-text-weight-semibold">Star Ruler 2</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Star_Ruler#Sequel">Star Ruler 2<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Star Ruler 2</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#star_ruler_2">Star Ruler 2</a></p>Media: <a href="https://en.wikipedia.org/wiki/Star_Ruler#Sequel">Star Ruler 2<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="star_trek_birth_of_the_federation" class="box">
       <div class="block">
-        <h2 class="title is-4">Star Trek: Birth of the Federation</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#birth_of_the_empires">
-  <span class="has-text-weight-semibold">Birth of the Empires</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Star_Trek:_Birth_of_the_Federation">Star Trek: Birth of the Federation<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Star Trek: Birth of the Federation</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#birth_of_the_empires">Birth of the Empires</a></p>Media: <a href="https://en.wikipedia.org/wiki/Star_Trek:_Birth_of_the_Federation">Star Trek: Birth of the Federation<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="star_trek_voyager_elite_force" class="box">
       <div class="block">
-        <h2 class="title is-4">Star Trek: Voyager – Elite Force</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/R.html#rpg-x">
-  <span class="has-text-weight-semibold">RPG-X</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Star_Trek:_Voyager_–_Elite_Force">Star Trek: Voyager – Elite Force<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Star Trek: Voyager – Elite Force</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/R.html#rpg-x">RPG-X</a></p>Media: <a href="https://en.wikipedia.org/wiki/Star_Trek:_Voyager_–_Elite_Force">Star Trek: Voyager – Elite Force<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="star_wars_1983_arcade_game" class="box">
       <div class="block">
-        <h2 class="title is-4">Star Wars (1983 arcade game)</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#star-wars-iii">
-  <span class="has-text-weight-semibold">Star-Wars-III</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Star_Wars_Trilogy_Arcade">Star Wars (1983 arcade game)<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Star Wars (1983 arcade game)</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#star-wars-iii">Star-Wars-III</a></p>Media: <a href="https://en.wikipedia.org/wiki/Star_Wars_Trilogy_Arcade">Star Wars (1983 arcade game)<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="star_wars_episode_i_racer" class="box">
       <div class="block">
-        <h2 class="title is-4">Star Wars Episode I: Racer</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#openswe1r">
-  <span class="has-text-weight-semibold">OpenSWE1R</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Star_Wars_Racer_Revenge">Star Wars Episode I: Racer<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Star Wars Episode I: Racer</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#openswe1r">OpenSWE1R</a></p>Media: <a href="https://en.wikipedia.org/wiki/Star_Wars_Racer_Revenge">Star Wars Episode I: Racer<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="star_wars_jedi_knight_ii_jedi_outcast" class="box">
       <div class="block">
-        <h2 class="title is-4">Star Wars Jedi Knight II: Jedi Outcast</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/J.html#jedioutcastlinux">
-  <span class="has-text-weight-semibold">JediOutcastLinux</span></a>, <a href="../games/O.html#openjk">
-  <span class="has-text-weight-semibold">OpenJK</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Star_Wars_Jedi_Knight_II:_Jedi_Outcast">Star Wars Jedi Knight II: Jedi Outcast<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Star Wars Jedi Knight II: Jedi Outcast</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/J.html#jedioutcastlinux">JediOutcastLinux</a>, <a href="../games/O.html#openjk">OpenJK</a></p>Media: <a href="https://en.wikipedia.org/wiki/Star_Wars_Jedi_Knight_II:_Jedi_Outcast">Star Wars Jedi Knight II: Jedi Outcast<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="star_wars_jedi_knight_dark_forces_ii" class="box">
       <div class="block">
-        <h2 class="title is-4">Star Wars Jedi Knight: Dark Forces II</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/G.html#gorc">
-  <span class="has-text-weight-semibold">Gorc</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Star_Wars_Jedi_Knight:_Dark_Forces_II">Star Wars Jedi Knight: Dark Forces II<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Star Wars Jedi Knight: Dark Forces II</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/G.html#gorc">Gorc</a></p>Media: <a href="https://en.wikipedia.org/wiki/Star_Wars_Jedi_Knight:_Dark_Forces_II">Star Wars Jedi Knight: Dark Forces II<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="star_wars_jedi_knight_jedi_academy" class="box">
       <div class="block">
-        <h2 class="title is-4">Star Wars Jedi Knight: Jedi Academy</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/J.html#jediacademylinux">
-  <span class="has-text-weight-semibold">JediAcademyLinux</span></a>, <a href="../games/O.html#openjk">
-  <span class="has-text-weight-semibold">OpenJK</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Star_Wars_Jedi_Knight:_Jedi_Academy">Star Wars Jedi Knight: Jedi Academy<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Star Wars Jedi Knight: Jedi Academy</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/J.html#jediacademylinux">JediAcademyLinux</a>, <a href="../games/O.html#openjk">OpenJK</a></p>Media: <a href="https://en.wikipedia.org/wiki/Star_Wars_Jedi_Knight:_Jedi_Academy">Star Wars Jedi Knight: Jedi Academy<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="star_wars_galactic_battlegrounds" class="box">
       <div class="block">
-        <h2 class="title is-4">Star Wars: Galactic Battlegrounds</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#openage">
-  <span class="has-text-weight-semibold">openage</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Star_Wars:_Galactic_Battlegrounds">Star Wars: Galactic Battlegrounds<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Star Wars: Galactic Battlegrounds</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#openage">openage</a></p>Media: <a href="https://en.wikipedia.org/wiki/Star_Wars:_Galactic_Battlegrounds">Star Wars: Galactic Battlegrounds<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="star_wars_knights_of_the_old_republic" class="box">
       <div class="block">
-        <h2 class="title is-4">Star Wars: Knights of the Old Republic</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/R.html#reone">
-  <span class="has-text-weight-semibold">reone</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Star_Wars:_Knights_of_the_Old_Republic">Star Wars: Knights of the Old Republic<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Star Wars: Knights of the Old Republic</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/R.html#reone">reone</a></p>Media: <a href="https://en.wikipedia.org/wiki/Star_Wars:_Knights_of_the_Old_Republic">Star Wars: Knights of the Old Republic<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="star_wars_knights_of_the_old_republic_ii_the_sith_lords" class="box">
       <div class="block">
-        <h2 class="title is-4">Star Wars: Knights of the Old Republic II – The Sith Lords</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/R.html#reone">
-  <span class="has-text-weight-semibold">reone</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Star_Wars_Knights_of_the_Old_Republic_II:_The_Sith_Lords">Star Wars: Knights of the Old Republic II – The Sith Lords<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Star Wars: Knights of the Old Republic II – The Sith Lords</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/R.html#reone">reone</a></p>Media: <a href="https://en.wikipedia.org/wiki/Star_Wars_Knights_of_the_Old_Republic_II:_The_Sith_Lords">Star Wars: Knights of the Old Republic II – The Sith Lords<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="star_wars_yoda_stories" class="box">
       <div class="block">
-        <h2 class="title is-4">Star Wars: Yoda Stories</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/D.html#desktopadventures">
-  <span class="has-text-weight-semibold">DesktopAdventures</span></a>, <a href="../games/W.html#webfun">
-  <span class="has-text-weight-semibold">WebFun</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Star_Wars:_Yoda_Stories">Star Wars: Yoda Stories<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Star Wars: Yoda Stories</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/D.html#desktopadventures">DesktopAdventures</a>, <a href="../games/W.html#webfun">WebFun</a></p>Media: <a href="https://en.wikipedia.org/wiki/Star_Wars:_Yoda_Stories">Star Wars: Yoda Stories<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="starcraft" class="box">
       <div class="block">
-        <h2 class="title is-4">StarCraft</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/M.html#machinations">
-  <span class="has-text-weight-semibold">Machinations</span></a>, <a href="../games/O.html#openhv">
-  <span class="has-text-weight-semibold">OpenHV</span></a>, <a href="../games/S.html#stargus">
-  <span class="has-text-weight-semibold">Stargus</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/StarCraft">StarCraft<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">StarCraft</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/M.html#machinations">Machinations</a>, <a href="../games/O.html#openhv">OpenHV</a>, <a href="../games/S.html#stargus">Stargus</a></p>Media: <a href="https://en.wikipedia.org/wiki/StarCraft">StarCraft<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="stardew_valley" class="box">
       <div class="block">
-        <h2 class="title is-4">Stardew Valley</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#open_valley">
-  <span class="has-text-weight-semibold">Open Valley</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Stardew_Valley">Stardew Valley<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Stardew Valley</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#open_valley">Open Valley</a></p>Media: <a href="https://en.wikipedia.org/wiki/Stardew_Valley">Stardew Valley<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="stars" class="box">
       <div class="block">
-        <h2 class="title is-4">Stars!</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/F.html#freestars">
-  <span class="has-text-weight-semibold">Freestars</span></a>, <a href="../games/N.html#nstars">
-  <span class="has-text-weight-semibold">NStars!</span></a>, <a href="../games/S.html#stars_nova">
-  <span class="has-text-weight-semibold">Stars! Nova</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Stars!">Stars!<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Stars!</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/F.html#freestars">Freestars</a>, <a href="../games/N.html#nstars">NStars!</a>, <a href="../games/S.html#stars_nova">Stars! Nova</a></p>Media: <a href="https://en.wikipedia.org/wiki/Stars!">Stars!<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="starshatter" class="box">
       <div class="block">
-        <h2 class="title is-4">Starshatter</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#starshatter-open">
-  <span class="has-text-weight-semibold">starshatter-open</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Starshatter">Starshatter<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Starshatter</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#starshatter-open">starshatter-open</a></p>Media: <a href="https://en.wikipedia.org/wiki/Starshatter">Starshatter<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="stepmania" class="box">
       <div class="block">
-        <h2 class="title is-4">StepMania</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#openitg">
-  <span class="has-text-weight-semibold">OpenITG</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">StepMania</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#openitg">OpenITG</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="story_of_seasons_series" class="box">
       <div class="block">
-        <h2 class="title is-4">Story of Seasons series</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/G.html#greentwips_harvest_moon">
-  <span class="has-text-weight-semibold">Greentwip&#39;s Harvest Moon</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Story_of_Seasons_(video_game)">Story of Seasons series<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Story of Seasons series</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/G.html#greentwips_harvest_moon">Greentwip&#39;s Harvest Moon</a></p>Media: <a href="https://en.wikipedia.org/wiki/Story_of_Seasons_(video_game)">Story of Seasons series<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="streets_of_rage" class="box">
       <div class="block">
-        <h2 class="title is-4">Streets of Rage</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#openbor">
-  <span class="has-text-weight-semibold">OpenBOR</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Streets_of_Rage">Streets of Rage<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Streets of Rage</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#openbor">OpenBOR</a></p>Media: <a href="https://en.wikipedia.org/wiki/Streets_of_Rage">Streets of Rage<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="strife" class="box">
       <div class="block">
-        <h2 class="title is-4">Strife</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/C.html#chocolate_doom">
-  <span class="has-text-weight-semibold">Chocolate Doom</span></a>, <a href="../games/S.html#strife_veteran_edition">
-  <span class="has-text-weight-semibold">Strife: Veteran Edition</span></a>, <a href="../games/T.html#the_eternity_engine">
-  <span class="has-text-weight-semibold">The Eternity Engine</span></a>, <a href="../games/Z.html#zandronum">
-  <span class="has-text-weight-semibold">Zandronum</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Strife_(1996_video_game)">Strife<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Strife</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/C.html#chocolate_doom">Chocolate Doom</a>, <a href="../games/S.html#strife_veteran_edition">Strife: Veteran Edition</a>, <a href="../games/T.html#the_eternity_engine">The Eternity Engine</a>, <a href="../games/Z.html#zandronum">Zandronum</a></p>Media: <a href="https://en.wikipedia.org/wiki/Strife_(1996_video_game)">Strife<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="stronghold" class="box">
       <div class="block">
-        <h2 class="title is-4">Stronghold</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#sourcehold">
-  <span class="has-text-weight-semibold">Sourcehold</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Stronghold_(2001_video_game)">Stronghold<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Stronghold</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#sourcehold">Sourcehold</a></p>Media: <a href="https://en.wikipedia.org/wiki/Stronghold_(2001_video_game)">Stronghold<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="stunts" class="box">
       <div class="block">
-        <h2 class="title is-4">Stunts</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/U.html#ultimate_stunts">
-  <span class="has-text-weight-semibold">Ultimate Stunts</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Stunts</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/U.html#ultimate_stunts">Ultimate Stunts</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="sudoku" class="box">
       <div class="block">
-        <h2 class="title is-4">Sudoku</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/H.html#hodoku">
-  <span class="has-text-weight-semibold">HoDoKu</span></a>, <a href="../games/M.html#musosu">
-  <span class="has-text-weight-semibold">MUSoSu</span></a>, <a href="../games/S.html#simsu">
-  <span class="has-text-weight-semibold">Simsu</span></a>, <a href="../games/S.html#sudokuki">
-  <span class="has-text-weight-semibold">Sudokuki</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Sudoku</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/H.html#hodoku">HoDoKu</a>, <a href="../games/M.html#musosu">MUSoSu</a>, <a href="../games/S.html#simsu">Simsu</a>, <a href="../games/S.html#sudokuki">Sudokuki</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="sundog_frozen_legacy" class="box">
       <div class="block">
-        <h2 class="title is-4">SunDog: Frozen Legacy</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#sundog">
-  <span class="has-text-weight-semibold">sundog</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/SunDog:_Frozen_Legacy">SunDog: Frozen Legacy<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">SunDog: Frozen Legacy</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#sundog">sundog</a></p>Media: <a href="https://en.wikipedia.org/wiki/SunDog:_Frozen_Legacy">SunDog: Frozen Legacy<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="supaplex" class="box">
       <div class="block">
-        <h2 class="title is-4">Supaplex</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/O.html#opensupaplex">
-  <span class="has-text-weight-semibold">OpenSupaplex</span></a>, <a href="../games/R.html#rocksndiamonds">
-  <span class="has-text-weight-semibold">Rocks&#39;n&#39;Diamonds</span></a>, <a href="../games/S.html#splexhd">
-  <span class="has-text-weight-semibold">splexhd</span></a>, <a href="../games/S.html#supaxl">
-  <span class="has-text-weight-semibold">Supaxl</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Supaplex">Supaplex<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Supaplex</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/O.html#opensupaplex">OpenSupaplex</a>, <a href="../games/R.html#rocksndiamonds">Rocks&#39;n&#39;Diamonds</a>, <a href="../games/S.html#splexhd">splexhd</a>, <a href="../games/S.html#supaxl">Supaxl</a></p>Media: <a href="https://en.wikipedia.org/wiki/Supaplex">Supaplex<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="super_cars" class="box">
       <div class="block">
-        <h2 class="title is-4">Super Cars</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#supercars_iii">
-  <span class="has-text-weight-semibold">Supercars III</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Super_Cars">Super Cars<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Super Cars</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#supercars_iii">Supercars III</a></p>Media: <a href="https://en.wikipedia.org/wiki/Super_Cars">Super Cars<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="super_foul_egg" class="box">
       <div class="block">
-        <h2 class="title is-4">Super Foul Egg</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#superfoulegg">
-  <span class="has-text-weight-semibold">SuperFoulEgg</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Super_Foul_Egg">Super Foul Egg<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Super Foul Egg</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#superfoulegg">SuperFoulEgg</a></p>Media: <a href="https://en.wikipedia.org/wiki/Super_Foul_Egg">Super Foul Egg<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="super_hexagon" class="box">
       <div class="block">
-        <h2 class="title is-4">Super Hexagon</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#open_hexagon">
-  <span class="has-text-weight-semibold">Open Hexagon</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Super_Hexagon">Super Hexagon<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Super Hexagon</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#open_hexagon">Open Hexagon</a></p>Media: <a href="https://en.wikipedia.org/wiki/Super_Hexagon">Super Hexagon<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="super_mario" class="box">
       <div class="block">
-        <h2 class="title is-4">Super Mario</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/I.html#infinite_mario_bros">
-  <span class="has-text-weight-semibold">Infinite Mario Bros</span></a>, <a href="../games/M.html#mario_objects">
-  <span class="has-text-weight-semibold">Mario Objects</span></a>, <a href="../games/M.html#mega_mario">
-  <span class="has-text-weight-semibold">Mega Mario</span></a>, <a href="../games/R.html#retux">
-  <span class="has-text-weight-semibold">ReTux</span></a>, <a href="../games/S.html#super_bombinhas">
-  <span class="has-text-weight-semibold">Super Bombinhas</span></a>, <a href="../games/S.html#supertux">
-  <span class="has-text-weight-semibold">SuperTux</span></a>, <a href="../games/U.html#umario">
-  <span class="has-text-weight-semibold">uMario</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Super_Mario_Bros.">Super Mario<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Super Mario</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/I.html#infinite_mario_bros">Infinite Mario Bros</a>, <a href="../games/M.html#mario_objects">Mario Objects</a>, <a href="../games/M.html#mega_mario">Mega Mario</a>, <a href="../games/R.html#retux">ReTux</a>, <a href="../games/S.html#super_bombinhas">Super Bombinhas</a>, <a href="../games/S.html#supertux">SuperTux</a>, <a href="../games/U.html#umario">uMario</a></p>Media: <a href="https://en.wikipedia.org/wiki/Super_Mario_Bros.">Super Mario<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="super_methane_brothers" class="box">
       <div class="block">
-        <h2 class="title is-4">Super Methane Brothers</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/S.html#super_methane_brothers">
-  <span class="has-text-weight-semibold">Super Methane Brothers</span></a>, <a href="../games/S.html#super_methane_brothers_for_wii_and_gamecube">
-  <span class="has-text-weight-semibold">Super Methane Brothers for Wii and GameCube</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Super_Methane_Bros.">Super Methane Brothers<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Super Methane Brothers</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/S.html#super_methane_brothers">Super Methane Brothers</a>, <a href="../games/S.html#super_methane_brothers_for_wii_and_gamecube">Super Methane Brothers for Wii and GameCube</a></p>Media: <a href="https://en.wikipedia.org/wiki/Super_Methane_Bros.">Super Methane Brothers<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="super_metroid" class="box">
       <div class="block">
-        <h2 class="title is-4">Super Metroid</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/H.html#hexoshi">
-  <span class="has-text-weight-semibold">Hexoshi</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Super_Metroid">Super Metroid<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Super Metroid</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/H.html#hexoshi">Hexoshi</a></p>Media: <a href="https://en.wikipedia.org/wiki/Super_Metroid">Super Metroid<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="super_monkey_ball" class="box">
       <div class="block">
-        <h2 class="title is-4">Super Monkey Ball</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/I.html#irrlamb">
-  <span class="has-text-weight-semibold">irrlamb</span></a>, <a href="../games/N.html#neverball">
-  <span class="has-text-weight-semibold">Neverball</span></a>, <a href="../games/N.html#nuncabola">
-  <span class="has-text-weight-semibold">Nuncabola</span></a>, <a href="../games/V.html#veraball">
-  <span class="has-text-weight-semibold">Veraball</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Super_Monkey_Ball_(video_game)">Super Monkey Ball<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Super Monkey Ball</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/I.html#irrlamb">irrlamb</a>, <a href="../games/N.html#neverball">Neverball</a>, <a href="../games/N.html#nuncabola">Nuncabola</a>, <a href="../games/V.html#veraball">Veraball</a></p>Media: <a href="https://en.wikipedia.org/wiki/Super_Monkey_Ball_(video_game)">Super Monkey Ball<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="super_pang" class="box">
       <div class="block">
-        <h2 class="title is-4">Super Pang</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/P.html#pang_zero">
-  <span class="has-text-weight-semibold">Pang Zero</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Super Pang</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/P.html#pang_zero">Pang Zero</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="super_smash_bros" class="box">
       <div class="block">
-        <h2 class="title is-4">Super Smash Bros.</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/S.html#smash">
-  <span class="has-text-weight-semibold">Smash</span></a>, <a href="../games/S.html#super_tilt_bro">
-  <span class="has-text-weight-semibold">Super Tilt Bro</span></a>, <a href="../games/T.html#tussle">
-  <span class="has-text-weight-semibold">TUSSLE</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Super_Smash_Bros.">Super Smash Bros.<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Super Smash Bros.</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/S.html#smash">Smash</a>, <a href="../games/S.html#super_tilt_bro">Super Tilt Bro</a>, <a href="../games/T.html#tussle">TUSSLE</a></p>Media: <a href="https://en.wikipedia.org/wiki/Super_Smash_Bros.">Super Smash Bros.<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="super_zzt" class="box">
       <div class="block">
-        <h2 class="title is-4">Super ZZT</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/R.html#reconstruction_of_super_zzt">
-  <span class="has-text-weight-semibold">Reconstruction of Super ZZT</span></a>, <a href="../games/R.html#roton">
-  <span class="has-text-weight-semibold">Roton</span></a>, <a href="../frameworks/tool.html#zeta">
-  <span class="has-text-weight-semibold">Zeta</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Super ZZT</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/R.html#reconstruction_of_super_zzt">Reconstruction of Super ZZT</a>, <a href="../games/R.html#roton">Roton</a>, <a href="../frameworks/tool.html#zeta">Zeta</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="supertux" class="box">
       <div class="block">
-        <h2 class="title is-4">SuperTux</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/T.html#tux_builder">
-  <span class="has-text-weight-semibold">Tux Builder</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">SuperTux</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/T.html#tux_builder">Tux Builder</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="supreme_commander" class="box">
       <div class="block">
-        <h2 class="title is-4">Supreme Commander</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/S.html#spring_1944">
-  <span class="has-text-weight-semibold">Spring: 1944</span></a>, <a href="../games/Z.html#zero-k">
-  <span class="has-text-weight-semibold">Zero-K</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Supreme Commander</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/S.html#spring_1944">Spring: 1944</a>, <a href="../games/Z.html#zero-k">Zero-K</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="survivor_1986" class="box">
       <div class="block">
-        <h2 class="title is-4">Survivor (1986)</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#survivor">
-  <span class="has-text-weight-semibold">Survivor</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Survivor (1986)</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#survivor">Survivor</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="swarm_assault" class="box">
       <div class="block">
-        <h2 class="title is-4">Swarm Assault</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#opensa">
-  <span class="has-text-weight-semibold">OpenSA</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Swarm Assault</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#opensa">OpenSA</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="swing" class="box">
       <div class="block">
-        <h2 class="title is-4">Swing</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/X.html#xswing_plus">
-  <span class="has-text-weight-semibold">XSwing Plus</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Swing</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/X.html#xswing_plus">XSwing Plus</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="syndicate" class="box">
       <div class="block">
-        <h2 class="title is-4">Syndicate</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/F.html#freesynd">
-  <span class="has-text-weight-semibold">FreeSynd</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Syndicate_Wars">Syndicate<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Syndicate</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/F.html#freesynd">FreeSynd</a></p>Media: <a href="https://en.wikipedia.org/wiki/Syndicate_Wars">Syndicate<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="syndicate_wars" class="box">
       <div class="block">
-        <h2 class="title is-4">Syndicate Wars</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#syndicate_wars_port">
-  <span class="has-text-weight-semibold">Syndicate Wars Port</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Syndicate_Wars">Syndicate Wars<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Syndicate Wars</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#syndicate_wars_port">Syndicate Wars Port</a></p>Media: <a href="https://en.wikipedia.org/wiki/Syndicate_Wars">Syndicate Wars<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="system_shock" class="box">
       <div class="block">
-        <h2 class="title is-4">System Shock</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#shockolate">
-  <span class="has-text-weight-semibold">Shockolate</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/System_Shock">System Shock<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">System Shock</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#shockolate">Shockolate</a></p>Media: <a href="https://en.wikipedia.org/wiki/System_Shock">System Shock<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="systems_twilight" class="box">
       <div class="block">
-        <h2 class="title is-4">System&#39;s Twilight</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#system_syzygy">
-  <span class="has-text-weight-semibold">System Syzygy</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/System%27s_Twilight">System&#39;s Twilight<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">System&#39;s Twilight</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#system_syzygy">System Syzygy</a></p>Media: <a href="https://en.wikipedia.org/wiki/System%27s_Twilight">System&#39;s Twilight<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
-    <a class="is-light is-size-7" href="#">Back to top</a>
+    <p class="is-size-7 has-text-right"><a href="#">Back to top</a></p>
   </div>
-</section>
-<footer class="footer">
-  <div class="container content is-size-7">
-    <p>The <a href="https://github.com/Trilarion/opensourcegames">Open source games list (OSGL)</a> is a collection of open source game descriptions focusing on technical aspects.
-    The content on this site is the result of voluntary work and may be outdated or incorrect.<br>
-    For giving feedback or improving the content see the <a href="contribute.html">contribution guidelines</a> or read the <a href="https://trilarion.blogspot.com/search/label/osgames">Blog</a>.</p>
-    <p>The content (games descriptions) is licensed <a href="https://github.com/Trilarion/opensourcegames/blob/master/LICENSE">CC-0</a>.
-    Used icons are licensed under CC BY-SA 3.0 (<a href="https://github.com/somerandomdude/Iconic">Iconic</a> or <a href="http://designmodo.com/linecons-free/">Linecons</a>), CC0 1.0 (<a href="https://simpleicons.org/">Simple Icons</a>),
-    CC BY 4.0 (<a href="https://github.com/FortAwesome/Font-Awesome">Font Awesome</a> or <a href="https://icomoon.io/#icons-icomoon">IcoMoon Free</a>), CC BY-SA 4.0 (<a href="http://www.entypo.com/">Entypo+</a>) or Apache License 2.0 (<a href="https://material.io/resources/icons">Material Icons</a>).
-    This website is built using Python, Lark, Jinja2 and Bulma. Last updated: 2021-10-02 13:39</p>
-  </div>
+<footer class="footer container content is-size-7">
+  <p>The <a href="https://github.com/Trilarion/opensourcegames">Open source games list (OSGL)</a> is a collection of open source game descriptions focusing on technical aspects.
+  The content on this site is the result of voluntary work and may be outdated or incorrect. For giving feedback or improving the content see the
+  <a href="contribute.html">contribution guidelines</a> or read the <a href="https://trilarion.blogspot.com/search/label/osgames">Blog</a>.</p>
+  <p>The content (games descriptions) is licensed <a href="https://github.com/Trilarion/opensourcegames/blob/master/LICENSE">CC-0</a>.
+  Used icons are licensed under CC BY-SA 3.0 (<a href="https://github.com/somerandomdude/Iconic">Iconic</a> or <a href="http://designmodo.com/linecons-free/">Linecons</a>), CC0 1.0 (<a href="https://simpleicons.org/">Simple Icons</a>),
+  CC BY 4.0 (<a href="https://github.com/FortAwesome/Font-Awesome">Font Awesome</a> or <a href="https://icomoon.io/#icons-icomoon">IcoMoon Free</a>), CC BY-SA 4.0 (<a href="http://www.entypo.com/">Entypo+</a>) or Apache License 2.0 (<a href="https://material.io/resources/icons">Material Icons</a>).
+  This website is built using Python, Lark, Jinja2 and Bulma. Last updated: 2021-10-05 11:16</p>
 </footer>
 </body>
 </html>

@@ -9,466 +9,283 @@
   <link rel="stylesheet" href="../css/bulma.min.css">
   <link rel="stylesheet" href="../css/osgl.min.css">
   <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <script type="text/javascript" src="../js/osgl.js"></script>
 </head>
 <body><nav class="navbar container is-light" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item" href="../index.html"><span class="icon is-large has-text-black" ><i class="icon-home"></i></span><span>OSGL</span></a>
-    <a class="navbar-item" href="https://github.com/Trilarion/opensourcegames"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span><span>On GitHub</span></a>
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+    <a class="navbar-item" href="../index.html"><span class="icon has-text-black"><i class="icon-home"></i></span><span>OSGL</span></a>
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
     </a>
   </div>
-  <div class="navbar-menu is-active">
+  <div class="navbar-menu" id="navMenu">
     <div class="navbar-start">
-      <a class="navbar-item" href="../games/index.html"><span class="icon is-large has-text-black" ><i class="icon-dice"></i></span><span>Games</span></a>
+      <a class="navbar-item" href="../games/index.html"><span class="icon has-text-black"><i class="icon-dice"></i></span><span>Games</span></a>
       <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link"><span class="icon is-large has-text-black" ><i class="icon-filter"></i></span><span>Filter</span></a>
+        <a class="navbar-link"><span class="icon has-text-black"><i class="icon-filter"></i></span><span>Filter</span></a>
         <div class="navbar-dropdown">
-          <a class="navbar-item" href="../games/genres.html"><span class="icon is-large has-text-black" ><i class="icon-price-tag"></i></span><span>By category</span></a>
-          <a class="navbar-item" href="../games/languages.html"><span class="icon is-large has-text-black" ><i class="icon-language"></i></span><span>By code language</span></a>
-          <a class="navbar-item" href="../games/platforms.html"><span class="icon is-large has-text-black" ><i class="icon-laptop"></i></span><span>By OS support</span></a>
-          <a class="navbar-item" href="../games/top50.html"><span class="icon is-large has-text-black" ><i class="icon-star"></i></span><span>GitHub Stars Top 50</span></a>
+          <a class="navbar-item" href="../games/genres.html"><span class="icon has-text-black"><i class="icon-price-tag"></i></span><span>By category</span></a>
+          <a class="navbar-item" href="../games/languages.html"><span class="icon has-text-black"><i class="icon-language"></i></span><span>By code language</span></a>
+          <a class="navbar-item" href="../games/platforms.html"><span class="icon has-text-black"><i class="icon-laptop"></i></span><span>By OS support</span></a>
+          <a class="navbar-item" href="../games/top50.html"><span class="icon has-text-black"><i class="icon-star"></i></span><span>GitHub Stars Top 50</span></a>
         </div>
       </div>
-      <a class="navbar-item" href="../frameworks/index.html"><span class="icon is-large has-text-black" ><i class="icon-wrench"></i></span><span>Frameworks/Tools</span></a>
-      <a class="navbar-item" href="../developers/index.html"><span class="icon is-large has-text-black" ><i class="icon-users"></i></span><span>Developers</span></a>
-      <a class="navbar-item is-active" href="index.html"><span class="icon is-large has-text-black" ><i class="icon-bulb"></i></span><span>Inspirations</span></a>
-      <a class="navbar-item" href="../statistics.html"><span class="icon is-large has-text-black" ><i class="icon-stats-dots"></i></span><span>Statistics</span></a>
-      <a class="navbar-item" href="../contribute.html"><span class="icon is-large has-text-black" ><i class="icon-pencil"></i></span><span>Contribute</span></a>
+      <a class="navbar-item" href="../frameworks/index.html"><span class="icon has-text-black"><i class="icon-wrench"></i></span><span>Frameworks/Tools</span></a>
+      <a class="navbar-item" href="../developers/index.html"><span class="icon has-text-black"><i class="icon-users"></i></span><span>Developers</span></a>
+      <a class="navbar-item is-active" href="index.html"><span class="icon has-text-black"><i class="icon-bulb"></i></span><span>Inspirations</span></a>
+      <a class="navbar-item" href="../statistics.html"><span class="icon has-text-black"><i class="icon-stats-dots"></i></span><span>Statistics</span></a>
+      <a class="navbar-item" href="../contribute.html"><span class="icon has-text-black"><i class="icon-pencil"></i></span><span>Contribute</span></a>
+      <a class="navbar-item" href="https://github.com/Trilarion/opensourcegames"><span class="icon has-text-black"><i class="icon-github"></i></span><span>On GitHub</span></a>
     </div>
   </div>
 </nav>
-<section class="section">
   <div class="container">
-    <h1 class="title">Inspirations (B)</h1>
-            <div id="baba_is_you" class="box">
+    <p class="title is-4">Inspirations (B)</p><div id="baba_is_you" class="box">
       <div class="block">
-        <h2 class="title is-4">Baba Is You</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#bab_be_u">
-  <span class="has-text-weight-semibold">BAB BE U</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Baba_Is_You">Baba Is You<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Baba Is You</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#bab_be_u">BAB BE U</a></p>Media: <a href="https://en.wikipedia.org/wiki/Baba_Is_You">Baba Is You<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="baldurs_gate" class="box">
       <div class="block">
-        <h2 class="title is-4">Baldur&#39;s Gate</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../frameworks/framework.html#gemrb">
-  <span class="has-text-weight-semibold">GemRB</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Baldur%27s_Gate_(video_game)">Baldur&#39;s Gate<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Baldur&#39;s Gate</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../frameworks/framework.html#gemrb">GemRB</a></p>Media: <a href="https://en.wikipedia.org/wiki/Baldur%27s_Gate_(video_game)">Baldur&#39;s Gate<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="ballerburg" class="box">
       <div class="block">
-        <h2 class="title is-4">Ballerburg</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#ballerburg_sdl">
-  <span class="has-text-weight-semibold">Ballerburg SDL</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Ballerburg">Ballerburg<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Ballerburg</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#ballerburg_sdl">Ballerburg SDL</a></p>Media: <a href="https://en.wikipedia.org/wiki/Ballerburg">Ballerburg<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="barony" class="box">
       <div class="block">
-        <h2 class="title is-4">Barony</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#barony">
-  <span class="has-text-weight-semibold">Barony</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Barony</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#barony">Barony</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="battle_chess" class="box">
       <div class="block">
-        <h2 class="title is-4">Battle Chess</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#brutal_chess">
-  <span class="has-text-weight-semibold">Brutal Chess</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Battle_Chess">Battle Chess<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Battle Chess</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#brutal_chess">Brutal Chess</a></p>Media: <a href="https://en.wikipedia.org/wiki/Battle_Chess">Battle Chess<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="battle_city" class="box">
       <div class="block">
-        <h2 class="title is-4">Battle City</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/B.html#battle_city">
-  <span class="has-text-weight-semibold">Battle City</span></a>, <a href="../games/C.html#cattle_bity">
-  <span class="has-text-weight-semibold">Cattle Bity</span></a>, <a href="../games/T.html#tank_zone_of_death">
-  <span class="has-text-weight-semibold">Tank: Zone of Death</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Battle_City">Battle City<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Battle City</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/B.html#battle_city">Battle City</a>, <a href="../games/C.html#cattle_bity">Cattle Bity</a>, <a href="../games/T.html#tank_zone_of_death">Tank: Zone of Death</a></p>Media: <a href="https://en.wikipedia.org/wiki/Battle_City">Battle City<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="battle_isle_series" class="box">
       <div class="block">
-        <h2 class="title is-4">Battle Isle series</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/A.html#advanced_strategic_command">
-  <span class="has-text-weight-semibold">Advanced Strategic Command</span></a>, <a href="../games/C.html#crimson_fields">
-  <span class="has-text-weight-semibold">Crimson Fields</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Battle_Isle">Battle Isle series<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Battle Isle series</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/A.html#advanced_strategic_command">Advanced Strategic Command</a>, <a href="../games/C.html#crimson_fields">Crimson Fields</a></p>Media: <a href="https://en.wikipedia.org/wiki/Battle_Isle">Battle Isle series<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="battle_zone" class="box">
       <div class="block">
-        <h2 class="title is-4">Battle Zone</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#bzflag">
-  <span class="has-text-weight-semibold">BZFlag</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Battle Zone</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#bzflag">BZFlag</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="battletech" class="box">
       <div class="block">
-        <h2 class="title is-4">BattleTech</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/M.html#megamek">
-  <span class="has-text-weight-semibold">MegaMek</span></a>, <a href="../games/M.html#mekwars">
-  <span class="has-text-weight-semibold">MekWars</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/BattleTech_(video_game)">BattleTech<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">BattleTech</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/M.html#megamek">MegaMek</a>, <a href="../games/M.html#mekwars">MekWars</a></p>Media: <a href="https://en.wikipedia.org/wiki/BattleTech_(video_game)">BattleTech<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="beamngdrive" class="box">
       <div class="block">
-        <h2 class="title is-4">BeamNG.drive</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/R.html#rigs_of_rods">
-  <span class="has-text-weight-semibold">Rigs of Rods</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/BeamNG.drive">BeamNG.drive<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">BeamNG.drive</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/R.html#rigs_of_rods">Rigs of Rods</a></p>Media: <a href="https://en.wikipedia.org/wiki/BeamNG.drive">BeamNG.drive<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="beatmania_iidx" class="box">
       <div class="block">
-        <h2 class="title is-4">Beatmania IIDX</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#osu">
-  <span class="has-text-weight-semibold">osu!</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Beatmania_IIDX">Beatmania IIDX<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Beatmania IIDX</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#osu">osu!</a></p>Media: <a href="https://en.wikipedia.org/wiki/Beatmania_IIDX">Beatmania IIDX<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="bejeweled" class="box">
       <div class="block">
-        <h2 class="title is-4">Bejeweled</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/G.html#gweled">
-  <span class="has-text-weight-semibold">Gweled</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Bejeweled">Bejeweled<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Bejeweled</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/G.html#gweled">Gweled</a></p>Media: <a href="https://en.wikipedia.org/wiki/Bejeweled">Bejeweled<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="betrayal_at_krondor" class="box">
       <div class="block">
-        <h2 class="title is-4">Betrayal at Krondor</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/X.html#xbak">
-  <span class="has-text-weight-semibold">xBaK</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Betrayal_at_Krondor">Betrayal at Krondor<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Betrayal at Krondor</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/X.html#xbak">xBaK</a></p>Media: <a href="https://en.wikipedia.org/wiki/Betrayal_at_Krondor">Betrayal at Krondor<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="biowares_aurora_engine" class="box">
       <div class="block">
-        <h2 class="title is-4">BioWare&#39;s Aurora engine</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../frameworks/framework.html#xoreos">
-  <span class="has-text-weight-semibold">xoreos</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">BioWare&#39;s Aurora engine</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../frameworks/framework.html#xoreos">xoreos</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="black_white" class="box">
       <div class="block">
-        <h2 class="title is-4">Black &amp; White</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#openblack">
-  <span class="has-text-weight-semibold">openblack</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Black_%26_White_(video_game)">Black &amp; White<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Black &amp; White</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#openblack">openblack</a></p>Media: <a href="https://en.wikipedia.org/wiki/Black_%26_White_(video_game)">Black &amp; White<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="black_shades" class="box">
       <div class="block">
-        <h2 class="title is-4">Black Shades</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#black_shades_elite">
-  <span class="has-text-weight-semibold">Black Shades Elite</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Black Shades</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#black_shades_elite">Black Shades Elite</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="blake_stone_aliens_of_gold" class="box">
       <div class="block">
-        <h2 class="title is-4">Blake Stone: Aliens of Gold</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#bstone">
-  <span class="has-text-weight-semibold">BStone</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Blake_Stone:_Planet_Strike">Blake Stone: Aliens of Gold<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Blake Stone: Aliens of Gold</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#bstone">BStone</a></p>Media: <a href="https://en.wikipedia.org/wiki/Blake_Stone:_Planet_Strike">Blake Stone: Aliens of Gold<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="blake_stone_planet_strike" class="box">
       <div class="block">
-        <h2 class="title is-4">Blake Stone: Planet Strike</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#bstone">
-  <span class="has-text-weight-semibold">BStone</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Blake_Stone:_Planet_Strike">Blake Stone: Planet Strike<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Blake Stone: Planet Strike</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#bstone">BStone</a></p>Media: <a href="https://en.wikipedia.org/wiki/Blake_Stone:_Planet_Strike">Blake Stone: Planet Strike<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="blasteroids" class="box">
       <div class="block">
-        <h2 class="title is-4">Blasteroids</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/M.html#maelstrom">
-  <span class="has-text-weight-semibold">Maelstrom</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Blasteroids">Blasteroids<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Blasteroids</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/M.html#maelstrom">Maelstrom</a></p>Media: <a href="https://en.wikipedia.org/wiki/Blasteroids">Blasteroids<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="blob_wars_attrition" class="box">
       <div class="block">
-        <h2 class="title is-4">Blob Wars Attrition</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#blob_wars_attrition">
-  <span class="has-text-weight-semibold">Blob Wars : Attrition</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Blob Wars Attrition</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#blob_wars_attrition">Blob Wars : Attrition</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="blobby_volley" class="box">
       <div class="block">
-        <h2 class="title is-4">Blobby Volley</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#slime_volley">
-  <span class="has-text-weight-semibold">Slime Volley</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Blobby_Volley">Blobby Volley<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Blobby Volley</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/S.html#slime_volley">Slime Volley</a></p>Media: <a href="https://en.wikipedia.org/wiki/Blobby_Volley">Blobby Volley<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="blockout" class="box">
       <div class="block">
-        <h2 class="title is-4">Blockout</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/B.html#blockout_ii">
-  <span class="has-text-weight-semibold">BlockOut II</span></a>, <a href="../games/T.html#t3">
-  <span class="has-text-weight-semibold">T^3</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Blockout">Blockout<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Blockout</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/B.html#blockout_ii">BlockOut II</a>, <a href="../games/T.html#t3">T^3</a></p>Media: <a href="https://en.wikipedia.org/wiki/Blockout">Blockout<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="blokus" class="box">
       <div class="block">
-        <h2 class="title is-4">Blokus</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/P.html#pentobi">
-  <span class="has-text-weight-semibold">Pentobi</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Blokus</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/P.html#pentobi">Pentobi</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="blood" class="box">
       <div class="block">
-        <h2 class="title is-4">Blood</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/N.html#nblood">
-  <span class="has-text-weight-semibold">NBlood</span></a>, <a href="../games/R.html#raze">
-  <span class="has-text-weight-semibold">Raze</span></a>, <a href="../games/T.html#transfusion">
-  <span class="has-text-weight-semibold">Transfusion</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Blood</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/N.html#nblood">NBlood</a>, <a href="../games/R.html#raze">Raze</a>, <a href="../games/T.html#transfusion">Transfusion</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="board_game" class="box">
       <div class="block">
-        <h2 class="title is-4">Board Game</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../frameworks/framework.html#vassal">
-  <span class="has-text-weight-semibold">VASSAL</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Board Game</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../frameworks/framework.html#vassal">VASSAL</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="bobby_carrot" class="box">
       <div class="block">
-        <h2 class="title is-4">Bobby Carrot</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#bobby">
-  <span class="has-text-weight-semibold">Bobby</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Bobby_Carrot">Bobby Carrot<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Bobby Carrot</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#bobby">Bobby</a></p>Media: <a href="https://en.wikipedia.org/wiki/Bobby_Carrot">Bobby Carrot<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="boggle" class="box">
       <div class="block">
-        <h2 class="title is-4">Boggle</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/T.html#tanglet">
-  <span class="has-text-weight-semibold">Tanglet</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Boggle</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/T.html#tanglet">Tanglet</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="bolo" class="box">
       <div class="block">
-        <h2 class="title is-4">Bolo</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#orona">
-  <span class="has-text-weight-semibold">orona</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Bolo</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#orona">orona</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="bomberman" class="box">
       <div class="block">
-        <h2 class="title is-4">Bomberman</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/B.html#bombermaaan">
-  <span class="has-text-weight-semibold">Bombermaaan</span></a>, <a href="../games/B.html#bombic">
-  <span class="has-text-weight-semibold">Bombic</span></a>, <a href="../games/B.html#bombic2">
-  <span class="has-text-weight-semibold">Bombic2</span></a>, <a href="../games/D.html#dynadungeons">
-  <span class="has-text-weight-semibold">DynaDungeons</span></a>, <a href="../games/G.html#granatier">
-  <span class="has-text-weight-semibold">Granatier</span></a>, <a href="../games/I.html#i_have_no_tomatoes">
-  <span class="has-text-weight-semibold">I Have No Tomatoes</span></a>, <a href="../games/M.html#mrboom">
-  <span class="has-text-weight-semibold">Mr.Boom</span></a>, <a href="../games/S.html#sdl_bomber">
-  <span class="has-text-weight-semibold">SDL Bomber</span></a>, <a href="../games/X.html#xblast">
-  <span class="has-text-weight-semibold">XBlast</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Bomberman">Bomberman<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Bomberman</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/B.html#bombermaaan">Bombermaaan</a>, <a href="../games/B.html#bombic">Bombic</a>, <a href="../games/B.html#bombic2">Bombic2</a>, <a href="../games/D.html#dynadungeons">DynaDungeons</a>, <a href="../games/G.html#granatier">Granatier</a>, <a href="../games/I.html#i_have_no_tomatoes">I Have No Tomatoes</a>, <a href="../games/M.html#mrboom">Mr.Boom</a>, <a href="../games/S.html#sdl_bomber">SDL Bomber</a>, <a href="../games/X.html#xblast">XBlast</a></p>Media: <a href="https://en.wikipedia.org/wiki/Bomberman">Bomberman<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="boom" class="box">
       <div class="block">
-        <h2 class="title is-4">BOOM</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#boom_remake">
-  <span class="has-text-weight-semibold">BOOM: Remake</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">BOOM</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#boom_remake">BOOM: Remake</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="boulder_dash" class="box">
       <div class="block">
-        <h2 class="title is-4">Boulder Dash</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/B.html#boulder_dash">
-  <span class="has-text-weight-semibold">Boulder Dash</span></a>, <a href="../games/C.html#cavez_of_phear">
-  <span class="has-text-weight-semibold">CAVEZ of PHEAR</span></a>, <a href="../games/G.html#gdash">
-  <span class="has-text-weight-semibold">GDash</span></a>, <a href="../games/R.html#rocksndiamonds">
-  <span class="has-text-weight-semibold">Rocks&#39;n&#39;Diamonds</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Boulder_Dash">Boulder Dash<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Boulder Dash</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/B.html#boulder_dash">Boulder Dash</a>, <a href="../games/C.html#cavez_of_phear">CAVEZ of PHEAR</a>, <a href="../games/G.html#gdash">GDash</a>, <a href="../games/R.html#rocksndiamonds">Rocks&#39;n&#39;Diamonds</a></p>Media: <a href="https://en.wikipedia.org/wiki/Boulder_Dash">Boulder Dash<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="bratwurst" class="box">
       <div class="block">
-        <h2 class="title is-4">Bratwurst</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#bratwurst">
-  <span class="has-text-weight-semibold">bratwurst</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Bratwurst</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#bratwurst">bratwurst</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="breakout" class="box">
       <div class="block">
-        <h2 class="title is-4">Breakout</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/B.html#breakout-vr">
-  <span class="has-text-weight-semibold">Breakout-VR</span></a>, <a href="../games/B.html#briquolo">
-  <span class="has-text-weight-semibold">BRIQUOLO</span></a>, <a href="../games/L.html#lbreakout2">
-  <span class="has-text-weight-semibold">LBreakout2</span></a>, <a href="../games/L.html#lbreakouthd">
-  <span class="has-text-weight-semibold">LBreakoutHD</span></a>, <a href="../games/M.html#movenoid">
-  <span class="has-text-weight-semibold">MoveNoid</span></a>, <a href="../games/S.html#sdl-ball">
-  <span class="has-text-weight-semibold">SDL-Ball</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Breakout</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/B.html#breakout-vr">Breakout-VR</a>, <a href="../games/B.html#briquolo">BRIQUOLO</a>, <a href="../games/L.html#lbreakout2">LBreakout2</a>, <a href="../games/L.html#lbreakouthd">LBreakoutHD</a>, <a href="../games/M.html#movenoid">MoveNoid</a>, <a href="../games/S.html#sdl-ball">SDL-Ball</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="bubble_bobble" class="box">
       <div class="block">
-        <h2 class="title is-4">Bubble Bobble</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/T.html#the_bubs_brothers">
-  <span class="has-text-weight-semibold">The Bub&#39;s Brothers</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Bubble_Bobble">Bubble Bobble<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Bubble Bobble</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/T.html#the_bubs_brothers">The Bub&#39;s Brothers</a></p>Media: <a href="https://en.wikipedia.org/wiki/Bubble_Bobble">Bubble Bobble<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="bug_bomber" class="box">
       <div class="block">
-        <h2 class="title is-4">Bug Bomber</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#bitriot">
-  <span class="has-text-weight-semibold">BitRiot</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Bug Bomber</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#bitriot">BitRiot</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="burgertime" class="box">
       <div class="block">
-        <h2 class="title is-4">BurgerTime</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#burgerspace">
-  <span class="has-text-weight-semibold">BurgerSpace</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/BurgerTime">BurgerTime<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">BurgerTime</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/B.html#burgerspace">BurgerSpace</a></p>Media: <a href="https://en.wikipedia.org/wiki/BurgerTime">BurgerTime<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="buster_bros" class="box">
       <div class="block">
-        <h2 class="title is-4">Buster Bros</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/P.html#pang_zero">
-  <span class="has-text-weight-semibold">Pang Zero</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Buster_Bros._Collection">Buster Bros<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Buster Bros</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/P.html#pang_zero">Pang Zero</a></p>Media: <a href="https://en.wikipedia.org/wiki/Buster_Bros._Collection">Buster Bros<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="buzz_aldrins_race_into_space" class="box">
       <div class="block">
-        <h2 class="title is-4">Buzz Aldrin&#39;s Race Into Space</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/R.html#race_into_space">
-  <span class="has-text-weight-semibold">Race Into Space</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Buzz_Aldrin%27s_Race_Into_Space">Buzz Aldrin&#39;s Race Into Space<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Buzz Aldrin&#39;s Race Into Space</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/R.html#race_into_space">Race Into Space</a></p>Media: <a href="https://en.wikipedia.org/wiki/Buzz_Aldrin%27s_Race_Into_Space">Buzz Aldrin&#39;s Race Into Space<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="bve_trainsim" class="box">
       <div class="block">
-        <h2 class="title is-4">BVE Trainsim</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#openbve">
-  <span class="has-text-weight-semibold">OpenBVE</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/BVE_Trainsim">BVE Trainsim<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">BVE Trainsim</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#openbve">OpenBVE</a></p>Media: <a href="https://en.wikipedia.org/wiki/BVE_Trainsim">BVE Trainsim<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
-    <a class="is-light is-size-7" href="#">Back to top</a>
+    <p class="is-size-7 has-text-right"><a href="#">Back to top</a></p>
   </div>
-</section>
-<footer class="footer">
-  <div class="container content is-size-7">
-    <p>The <a href="https://github.com/Trilarion/opensourcegames">Open source games list (OSGL)</a> is a collection of open source game descriptions focusing on technical aspects.
-    The content on this site is the result of voluntary work and may be outdated or incorrect.<br>
-    For giving feedback or improving the content see the <a href="contribute.html">contribution guidelines</a> or read the <a href="https://trilarion.blogspot.com/search/label/osgames">Blog</a>.</p>
-    <p>The content (games descriptions) is licensed <a href="https://github.com/Trilarion/opensourcegames/blob/master/LICENSE">CC-0</a>.
-    Used icons are licensed under CC BY-SA 3.0 (<a href="https://github.com/somerandomdude/Iconic">Iconic</a> or <a href="http://designmodo.com/linecons-free/">Linecons</a>), CC0 1.0 (<a href="https://simpleicons.org/">Simple Icons</a>),
-    CC BY 4.0 (<a href="https://github.com/FortAwesome/Font-Awesome">Font Awesome</a> or <a href="https://icomoon.io/#icons-icomoon">IcoMoon Free</a>), CC BY-SA 4.0 (<a href="http://www.entypo.com/">Entypo+</a>) or Apache License 2.0 (<a href="https://material.io/resources/icons">Material Icons</a>).
-    This website is built using Python, Lark, Jinja2 and Bulma. Last updated: 2021-10-02 13:39</p>
-  </div>
+<footer class="footer container content is-size-7">
+  <p>The <a href="https://github.com/Trilarion/opensourcegames">Open source games list (OSGL)</a> is a collection of open source game descriptions focusing on technical aspects.
+  The content on this site is the result of voluntary work and may be outdated or incorrect. For giving feedback or improving the content see the
+  <a href="contribute.html">contribution guidelines</a> or read the <a href="https://trilarion.blogspot.com/search/label/osgames">Blog</a>.</p>
+  <p>The content (games descriptions) is licensed <a href="https://github.com/Trilarion/opensourcegames/blob/master/LICENSE">CC-0</a>.
+  Used icons are licensed under CC BY-SA 3.0 (<a href="https://github.com/somerandomdude/Iconic">Iconic</a> or <a href="http://designmodo.com/linecons-free/">Linecons</a>), CC0 1.0 (<a href="https://simpleicons.org/">Simple Icons</a>),
+  CC BY 4.0 (<a href="https://github.com/FortAwesome/Font-Awesome">Font Awesome</a> or <a href="https://icomoon.io/#icons-icomoon">IcoMoon Free</a>), CC BY-SA 4.0 (<a href="http://www.entypo.com/">Entypo+</a>) or Apache License 2.0 (<a href="https://material.io/resources/icons">Material Icons</a>).
+  This website is built using Python, Lark, Jinja2 and Bulma. Last updated: 2021-10-05 11:16</p>
 </footer>
 </body>
 </html>

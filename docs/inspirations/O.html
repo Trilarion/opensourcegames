@@ -9,195 +9,133 @@
   <link rel="stylesheet" href="../css/bulma.min.css">
   <link rel="stylesheet" href="../css/osgl.min.css">
   <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <script type="text/javascript" src="../js/osgl.js"></script>
 </head>
 <body><nav class="navbar container is-light" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item" href="../index.html"><span class="icon is-large has-text-black" ><i class="icon-home"></i></span><span>OSGL</span></a>
-    <a class="navbar-item" href="https://github.com/Trilarion/opensourcegames"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span><span>On GitHub</span></a>
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+    <a class="navbar-item" href="../index.html"><span class="icon has-text-black"><i class="icon-home"></i></span><span>OSGL</span></a>
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
     </a>
   </div>
-  <div class="navbar-menu is-active">
+  <div class="navbar-menu" id="navMenu">
     <div class="navbar-start">
-      <a class="navbar-item" href="../games/index.html"><span class="icon is-large has-text-black" ><i class="icon-dice"></i></span><span>Games</span></a>
+      <a class="navbar-item" href="../games/index.html"><span class="icon has-text-black"><i class="icon-dice"></i></span><span>Games</span></a>
       <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link"><span class="icon is-large has-text-black" ><i class="icon-filter"></i></span><span>Filter</span></a>
+        <a class="navbar-link"><span class="icon has-text-black"><i class="icon-filter"></i></span><span>Filter</span></a>
         <div class="navbar-dropdown">
-          <a class="navbar-item" href="../games/genres.html"><span class="icon is-large has-text-black" ><i class="icon-price-tag"></i></span><span>By category</span></a>
-          <a class="navbar-item" href="../games/languages.html"><span class="icon is-large has-text-black" ><i class="icon-language"></i></span><span>By code language</span></a>
-          <a class="navbar-item" href="../games/platforms.html"><span class="icon is-large has-text-black" ><i class="icon-laptop"></i></span><span>By OS support</span></a>
-          <a class="navbar-item" href="../games/top50.html"><span class="icon is-large has-text-black" ><i class="icon-star"></i></span><span>GitHub Stars Top 50</span></a>
+          <a class="navbar-item" href="../games/genres.html"><span class="icon has-text-black"><i class="icon-price-tag"></i></span><span>By category</span></a>
+          <a class="navbar-item" href="../games/languages.html"><span class="icon has-text-black"><i class="icon-language"></i></span><span>By code language</span></a>
+          <a class="navbar-item" href="../games/platforms.html"><span class="icon has-text-black"><i class="icon-laptop"></i></span><span>By OS support</span></a>
+          <a class="navbar-item" href="../games/top50.html"><span class="icon has-text-black"><i class="icon-star"></i></span><span>GitHub Stars Top 50</span></a>
         </div>
       </div>
-      <a class="navbar-item" href="../frameworks/index.html"><span class="icon is-large has-text-black" ><i class="icon-wrench"></i></span><span>Frameworks/Tools</span></a>
-      <a class="navbar-item" href="../developers/index.html"><span class="icon is-large has-text-black" ><i class="icon-users"></i></span><span>Developers</span></a>
-      <a class="navbar-item is-active" href="index.html"><span class="icon is-large has-text-black" ><i class="icon-bulb"></i></span><span>Inspirations</span></a>
-      <a class="navbar-item" href="../statistics.html"><span class="icon is-large has-text-black" ><i class="icon-stats-dots"></i></span><span>Statistics</span></a>
-      <a class="navbar-item" href="../contribute.html"><span class="icon is-large has-text-black" ><i class="icon-pencil"></i></span><span>Contribute</span></a>
+      <a class="navbar-item" href="../frameworks/index.html"><span class="icon has-text-black"><i class="icon-wrench"></i></span><span>Frameworks/Tools</span></a>
+      <a class="navbar-item" href="../developers/index.html"><span class="icon has-text-black"><i class="icon-users"></i></span><span>Developers</span></a>
+      <a class="navbar-item is-active" href="index.html"><span class="icon has-text-black"><i class="icon-bulb"></i></span><span>Inspirations</span></a>
+      <a class="navbar-item" href="../statistics.html"><span class="icon has-text-black"><i class="icon-stats-dots"></i></span><span>Statistics</span></a>
+      <a class="navbar-item" href="../contribute.html"><span class="icon has-text-black"><i class="icon-pencil"></i></span><span>Contribute</span></a>
+      <a class="navbar-item" href="https://github.com/Trilarion/opensourcegames"><span class="icon has-text-black"><i class="icon-github"></i></span><span>On GitHub</span></a>
     </div>
   </div>
 </nav>
-<section class="section">
   <div class="container">
-    <h1 class="title">Inspirations (O)</h1>
-            <div id="oddworld_abes_exoddus" class="box">
+    <p class="title is-4">Inspirations (O)</p><div id="oddworld_abes_exoddus" class="box">
       <div class="block">
-        <h2 class="title is-4">Oddworld: Abe&#39;s Exoddus</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/A.html#alive">
-  <span class="has-text-weight-semibold">alive</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Oddworld:_Abe%27s_Exoddus">Oddworld: Abe&#39;s Exoddus<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Oddworld: Abe&#39;s Exoddus</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/A.html#alive">alive</a></p>Media: <a href="https://en.wikipedia.org/wiki/Oddworld:_Abe%27s_Exoddus">Oddworld: Abe&#39;s Exoddus<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="oddworld_abes_oddysee" class="box">
       <div class="block">
-        <h2 class="title is-4">Oddworld: Abe&#39;s Oddysee</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/A.html#alive">
-  <span class="has-text-weight-semibold">alive</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Oddworld:_Abe%27s_Oddysee">Oddworld: Abe&#39;s Oddysee<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Oddworld: Abe&#39;s Oddysee</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/A.html#alive">alive</a></p>Media: <a href="https://en.wikipedia.org/wiki/Oddworld:_Abe%27s_Oddysee">Oddworld: Abe&#39;s Oddysee<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="ogre" class="box">
       <div class="block">
-        <h2 class="title is-4">OGRE</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/A.html#alimer">
-  <span class="has-text-weight-semibold">Alimer</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">OGRE</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/A.html#alimer">Alimer</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="old_school_runescape" class="box">
       <div class="block">
-        <h2 class="title is-4">Old School RuneScape</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/R.html#runelite">
-  <span class="has-text-weight-semibold">RuneLite</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Old_School_RuneScape">Old School RuneScape<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Old School RuneScape</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/R.html#runelite">RuneLite</a></p>Media: <a href="https://en.wikipedia.org/wiki/Old_School_RuneScape">Old School RuneScape<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="omega_race" class="box">
       <div class="block">
-        <h2 class="title is-4">Omega Race</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/S.html#starmines_the_next_generation">
-  <span class="has-text-weight-semibold">StarMines: The Next Generation</span></a>, <a href="../games/T.html#torrega_race">
-  <span class="has-text-weight-semibold">Torrega Race</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Omega_Race">Omega Race<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Omega Race</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../games/S.html#starmines_the_next_generation">StarMines: The Next Generation</a>, <a href="../games/T.html#torrega_race">Torrega Race</a></p>Media: <a href="https://en.wikipedia.org/wiki/Omega_Race">Omega Race<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="one_must_fall_2097" class="box">
       <div class="block">
-        <h2 class="title is-4">One Must Fall: 2097</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#openomf">
-  <span class="has-text-weight-semibold">OpenOMF</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/One_Must_Fall:_2097">One Must Fall: 2097<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">One Must Fall: 2097</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#openomf">OpenOMF</a></p>Media: <a href="https://en.wikipedia.org/wiki/One_Must_Fall:_2097">One Must Fall: 2097<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="open_dune" class="box">
       <div class="block">
-        <h2 class="title is-4">Open Dune</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/D.html#dune_dynasty">
-  <span class="has-text-weight-semibold">Dune Dynasty</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Open Dune</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/D.html#dune_dynasty">Dune Dynasty</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="openmw" class="box">
       <div class="block">
-        <h2 class="title is-4">OpenMW</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/T.html#tes3mp">
-  <span class="has-text-weight-semibold">TES3MP</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">OpenMW</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/T.html#tes3mp">TES3MP</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="osu_tatakae_ouendan" class="box">
       <div class="block">
-        <h2 class="title is-4">Osu! Tatakae! Ouendan</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired games: </span><a href="../frameworks/tool.html#opsu">
-  <span class="has-text-weight-semibold">opsu!</span></a>, <a href="../games/O.html#osu">
-  <span class="has-text-weight-semibold">osu!</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Osu!_Tatakae!_Ouendan">Osu! Tatakae! Ouendan<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Osu! Tatakae! Ouendan</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired games: </span><a href="../frameworks/tool.html#opsu">opsu!</a>, <a href="../games/O.html#osu">osu!</a></p>Media: <a href="https://en.wikipedia.org/wiki/Osu!_Tatakae!_Ouendan">Osu! Tatakae! Ouendan<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="oubliette" class="box">
       <div class="block">
-        <h2 class="title is-4">Oubliette</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/L.html#liberal_crime_squad">
-  <span class="has-text-weight-semibold">Liberal Crime Squad</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Oubliette</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/L.html#liberal_crime_squad">Liberal Crime Squad</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="out_run" class="box">
       <div class="block">
-        <h2 class="title is-4">Out Run</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/C.html#cannonball">
-  <span class="has-text-weight-semibold">Cannonball</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Out_Run">Out Run<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Out Run</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/C.html#cannonball">Cannonball</a></p>Media: <a href="https://en.wikipedia.org/wiki/Out_Run">Out Run<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="outlaws" class="box">
       <div class="block">
-        <h2 class="title is-4">Outlaws</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/T.html#the_force_engine">
-  <span class="has-text-weight-semibold">The Force Engine</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Outlaws</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/T.html#the_force_engine">The Force Engine</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="outpost" class="box">
       <div class="block">
-        <h2 class="title is-4">Outpost</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#outpost_hd">
-  <span class="has-text-weight-semibold">Outpost HD</span></a></div></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Outpost</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/O.html#outpost_hd">Outpost HD</a></p></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
     <div id="oxyd" class="box">
       <div class="block">
-        <h2 class="title is-4">Oxyd</h2>
-        <div class="subtitle is-size-6">
-  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/E.html#enigma">
-  <span class="has-text-weight-semibold">Enigma</span></a></div>Media: <a href="https://en.wikipedia.org/wiki/Oxyd">Oxyd<span class="icon is-large has-text-black" ><i class="icon-wikipedia"></i></span></a></div>
-      <div class="block">
-      <a href="../contribute.html#inspirations" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+        <p class="title is-4">Oxyd</p>
+        <p class="subtitle is-6">
+  <span class="has-text-weight-semibold">Inspired game: </span><a href="../games/E.html#enigma">Enigma</a></p>Media: <a href="https://en.wikipedia.org/wiki/Oxyd">Oxyd<span class="icon has-text-black"><i class="icon-wikipedia"></i></span></a></div><p class="is-size-7 has-text-right"><a href="../contribute.html#inspirations" title="Contribution guide">Improve</a></p>
     </div>
-    <a class="is-light is-size-7" href="#">Back to top</a>
+    <p class="is-size-7 has-text-right"><a href="#">Back to top</a></p>
   </div>
-</section>
-<footer class="footer">
-  <div class="container content is-size-7">
-    <p>The <a href="https://github.com/Trilarion/opensourcegames">Open source games list (OSGL)</a> is a collection of open source game descriptions focusing on technical aspects.
-    The content on this site is the result of voluntary work and may be outdated or incorrect.<br>
-    For giving feedback or improving the content see the <a href="contribute.html">contribution guidelines</a> or read the <a href="https://trilarion.blogspot.com/search/label/osgames">Blog</a>.</p>
-    <p>The content (games descriptions) is licensed <a href="https://github.com/Trilarion/opensourcegames/blob/master/LICENSE">CC-0</a>.
-    Used icons are licensed under CC BY-SA 3.0 (<a href="https://github.com/somerandomdude/Iconic">Iconic</a> or <a href="http://designmodo.com/linecons-free/">Linecons</a>), CC0 1.0 (<a href="https://simpleicons.org/">Simple Icons</a>),
-    CC BY 4.0 (<a href="https://github.com/FortAwesome/Font-Awesome">Font Awesome</a> or <a href="https://icomoon.io/#icons-icomoon">IcoMoon Free</a>), CC BY-SA 4.0 (<a href="http://www.entypo.com/">Entypo+</a>) or Apache License 2.0 (<a href="https://material.io/resources/icons">Material Icons</a>).
-    This website is built using Python, Lark, Jinja2 and Bulma. Last updated: 2021-10-02 13:39</p>
-  </div>
+<footer class="footer container content is-size-7">
+  <p>The <a href="https://github.com/Trilarion/opensourcegames">Open source games list (OSGL)</a> is a collection of open source game descriptions focusing on technical aspects.
+  The content on this site is the result of voluntary work and may be outdated or incorrect. For giving feedback or improving the content see the
+  <a href="contribute.html">contribution guidelines</a> or read the <a href="https://trilarion.blogspot.com/search/label/osgames">Blog</a>.</p>
+  <p>The content (games descriptions) is licensed <a href="https://github.com/Trilarion/opensourcegames/blob/master/LICENSE">CC-0</a>.
+  Used icons are licensed under CC BY-SA 3.0 (<a href="https://github.com/somerandomdude/Iconic">Iconic</a> or <a href="http://designmodo.com/linecons-free/">Linecons</a>), CC0 1.0 (<a href="https://simpleicons.org/">Simple Icons</a>),
+  CC BY 4.0 (<a href="https://github.com/FortAwesome/Font-Awesome">Font Awesome</a> or <a href="https://icomoon.io/#icons-icomoon">IcoMoon Free</a>), CC BY-SA 4.0 (<a href="http://www.entypo.com/">Entypo+</a>) or Apache License 2.0 (<a href="https://material.io/resources/icons">Material Icons</a>).
+  This website is built using Python, Lark, Jinja2 and Bulma. Last updated: 2021-10-05 11:16</p>
 </footer>
 </body>
 </html>

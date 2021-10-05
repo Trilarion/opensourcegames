@@ -8,7 +8,7 @@
 - Keyword: platform, 2D, content open, online, shooter
 - Code repository: https://github.com/teeworlds/teeworlds.git (@created 2010, @stars 1667, @forks 504)
 - Code language: C, C++
-- Code license: zlib (sources under src/engine/external partly under BSD)
+- Code license: zlib (src/engine/external partly under BSD)
 - Code dependency: SDL
 - Assets license: CC-BY-SA-3.0
 - Developer: BeaR, chi1, Dominik D. Geyer, Emir Marincic, heinrich5991, Jakob Fries, Joel de Vahl, Johan Althoff, larsfu, Magnus Auvinen, Matt, Matthew Swain, MyDopefish, oy, Phobos99, Shereef Marzouk, SushiTee, van fstd

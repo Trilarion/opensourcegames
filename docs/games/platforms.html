@@ -9,61 +9,53 @@
   <link rel="stylesheet" href="../css/bulma.min.css">
   <link rel="stylesheet" href="../css/osgl.min.css">
   <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <script type="text/javascript" src="../js/osgl.js"></script>
 </head>
 <body><nav class="navbar container is-light" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item" href="../index.html"><span class="icon is-large has-text-black" ><i class="icon-home"></i></span><span>OSGL</span></a>
-    <a class="navbar-item" href="https://github.com/Trilarion/opensourcegames"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span><span>On GitHub</span></a>
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+    <a class="navbar-item" href="../index.html"><span class="icon has-text-black"><i class="icon-home"></i></span><span>OSGL</span></a>
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
     </a>
   </div>
-  <div class="navbar-menu is-active">
+  <div class="navbar-menu" id="navMenu">
     <div class="navbar-start">
-      <a class="navbar-item" href="index.html"><span class="icon is-large has-text-black" ><i class="icon-dice"></i></span><span>Games</span></a>
+      <a class="navbar-item" href="index.html"><span class="icon has-text-black"><i class="icon-dice"></i></span><span>Games</span></a>
       <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link is-active"><span class="icon is-large has-text-black" ><i class="icon-filter"></i></span><span>Filter</span></a>
+        <a class="navbar-link is-active"><span class="icon has-text-black"><i class="icon-filter"></i></span><span>Filter</span></a>
         <div class="navbar-dropdown">
-          <a class="navbar-item" href="genres.html"><span class="icon is-large has-text-black" ><i class="icon-price-tag"></i></span><span>By category</span></a>
-          <a class="navbar-item" href="languages.html"><span class="icon is-large has-text-black" ><i class="icon-language"></i></span><span>By code language</span></a>
-          <a class="navbar-item is-active" href="platforms.html"><span class="icon is-large has-text-black" ><i class="icon-laptop"></i></span><span>By OS support</span></a>
-          <a class="navbar-item" href="top50.html"><span class="icon is-large has-text-black" ><i class="icon-star"></i></span><span>GitHub Stars Top 50</span></a>
+          <a class="navbar-item" href="genres.html"><span class="icon has-text-black"><i class="icon-price-tag"></i></span><span>By category</span></a>
+          <a class="navbar-item" href="languages.html"><span class="icon has-text-black"><i class="icon-language"></i></span><span>By code language</span></a>
+          <a class="navbar-item is-active" href="platforms.html"><span class="icon has-text-black"><i class="icon-laptop"></i></span><span>By OS support</span></a>
+          <a class="navbar-item" href="top50.html"><span class="icon has-text-black"><i class="icon-star"></i></span><span>GitHub Stars Top 50</span></a>
         </div>
       </div>
-      <a class="navbar-item" href="../frameworks/index.html"><span class="icon is-large has-text-black" ><i class="icon-wrench"></i></span><span>Frameworks/Tools</span></a>
-      <a class="navbar-item" href="../developers/index.html"><span class="icon is-large has-text-black" ><i class="icon-users"></i></span><span>Developers</span></a>
-      <a class="navbar-item" href="../inspirations/index.html"><span class="icon is-large has-text-black" ><i class="icon-bulb"></i></span><span>Inspirations</span></a>
-      <a class="navbar-item" href="../statistics.html"><span class="icon is-large has-text-black" ><i class="icon-stats-dots"></i></span><span>Statistics</span></a>
-      <a class="navbar-item" href="../contribute.html"><span class="icon is-large has-text-black" ><i class="icon-pencil"></i></span><span>Contribute</span></a>
+      <a class="navbar-item" href="../frameworks/index.html"><span class="icon has-text-black"><i class="icon-wrench"></i></span><span>Frameworks/Tools</span></a>
+      <a class="navbar-item" href="../developers/index.html"><span class="icon has-text-black"><i class="icon-users"></i></span><span>Developers</span></a>
+      <a class="navbar-item" href="../inspirations/index.html"><span class="icon has-text-black"><i class="icon-bulb"></i></span><span>Inspirations</span></a>
+      <a class="navbar-item" href="../statistics.html"><span class="icon has-text-black"><i class="icon-stats-dots"></i></span><span>Statistics</span></a>
+      <a class="navbar-item" href="../contribute.html"><span class="icon has-text-black"><i class="icon-pencil"></i></span><span>Contribute</span></a>
+      <a class="navbar-item" href="https://github.com/Trilarion/opensourcegames"><span class="icon has-text-black"><i class="icon-github"></i></span><span>On GitHub</span></a>
     </div>
   </div>
 </nav>
-<section class="section">
 <div class="container">
   <div class="box"><div class="block">
-      <h1 class="title">Open source games and frameworks</h1><h2 class="subtitle">Index by supported platform</h2></div><div class="tags">
-    <span class="tag is-white is-size-5">
-      <a href="#windows" class="has-text-weight-semibold mr-1"><span class="icon is-large has-text-black" ><i class="icon-windows"></i></span>Windows</a> <span class="has-text-grey">(529)</span>
-      </span><span class="tag is-white is-size-5">
-      <a href="#linux" class="has-text-weight-semibold mr-1"><span class="icon is-large has-text-black" ><i class="icon-tux"></i></span>Linux</a> <span class="has-text-grey">(502)</span>
-      </span><span class="tag is-white is-size-5">
-      <a href="#macos" class="has-text-weight-semibold mr-1"><span class="icon is-large has-text-black" ><i class="icon-appleinc"></i></span>macOS</a> <span class="has-text-grey">(296)</span>
-      </span><span class="tag is-white is-size-5">
-      <a href="#android" class="has-text-weight-semibold mr-1"><span class="icon is-large has-text-black" ><i class="icon-android"></i></span>Android</a> <span class="has-text-grey">(150)</span>
-      </span><span class="tag is-white is-size-5">
-      <a href="#ios" class="has-text-weight-semibold mr-1"><span class="icon is-large has-text-black" ><i class="icon-ios"></i></span>iOS</a> <span class="has-text-grey">(21)</span>
-      </span><span class="tag is-white is-size-5">
-      <a href="#web" class="has-text-weight-semibold mr-1"><span class="icon is-large has-text-black" ><i class="icon-earth"></i></span>Web</a> <span class="has-text-grey">(152)</span>
-      </span><span class="tag is-white is-size-5">
-      <a href="#unspecified" class="has-text-weight-semibold mr-1"><span class="icon is-large has-text-black" ><i class="icon-device_unknown"></i></span>Unspecified</a> <span class="has-text-grey">(828)</span>
+      <p class="title is-4">Open source games and frameworks</p><p class="subtitle is-6">Index by supported platform</p></div><div class="tags">
+    <span class="tag is-white is-size-5"><span class="icon has-text-black"><i class="icon-windows"></i></span><a href="#windows" class="has-text-weight-semibold">Windows</a> <span class="has-text-grey">(530)</span>
+      </span><span class="tag is-white is-size-5"><span class="icon has-text-black"><i class="icon-tux"></i></span><a href="#linux" class="has-text-weight-semibold">Linux</a> <span class="has-text-grey">(503)</span>
+      </span><span class="tag is-white is-size-5"><span class="icon has-text-black"><i class="icon-appleinc"></i></span><a href="#macos" class="has-text-weight-semibold">macOS</a> <span class="has-text-grey">(297)</span>
+      </span><span class="tag is-white is-size-5"><span class="icon has-text-black"><i class="icon-android"></i></span><a href="#android" class="has-text-weight-semibold">Android</a> <span class="has-text-grey">(150)</span>
+      </span><span class="tag is-white is-size-5"><span class="icon has-text-black"><i class="icon-ios"></i></span><a href="#ios" class="has-text-weight-semibold">iOS</a> <span class="has-text-grey">(21)</span>
+      </span><span class="tag is-white is-size-5"><span class="icon has-text-black"><i class="icon-earth"></i></span><a href="#web" class="has-text-weight-semibold">Web</a> <span class="has-text-grey">(152)</span>
+      </span><span class="tag is-white is-size-5"><span class="icon has-text-black"><i class="icon-device_unknown"></i></span><a href="#unspecified" class="has-text-weight-semibold">Unspecified</a> <span class="has-text-grey">(829)</span>
       </span>
     </div>
   </div>
-<div class="box">
-  <div class="block">
-    <h2 id="windows" class="is-size-4 has-text-weight-semibold"><span class="icon is-large has-text-black" ><i class="icon-windows"></i></span>Windows</h2></div>
+<div id="windows" class="box">
+  <div class="block"><span class="icon has-text-black"><i class="icon-windows"></i></span><span class="title is-4">Windows</span><br>530 entries</div>
   <div class="columns"><div class="column">
       <ul><li><a href="0.html#0_ad">0 A.D.</a>
   <span class="is-light is-size-7">(beta)</span></li><li><span class="has-text-weight-semibold"><a href="0.html#1oom">1oom</a></span></li><li><span class="has-text-weight-semibold"><a href="0.html#3dworld">3DWorld</a></span></li><li><a href="0.html#4d_maze_game">4D Maze Game</a>
@@ -113,7 +105,8 @@
   <span class="is-light is-size-7">(beta, inactive since 2013)</span></li><li><a href="D.html#d2x-xl">D2X-XL</a>
   <span class="is-light is-size-7">(inactive since 2015)</span></li><li><a href="D.html#daedalus">Daedalus</a>
   <span class="is-light is-size-7">(inactive since 2018)</span></li><li><span class="has-text-weight-semibold"><a href="D.html#daggerfall_unity">Daggerfall Unity</a></span></li><li><a href="D.html#darkplaces">DarkPlaces</a>
-  <span class="is-light is-size-7">(inactive since 2014)</span></li><li><span class="has-text-weight-semibold"><a href="D.html#dave_gnukem">Dave Gnukem</a></span></li><li><a href="D.html#deer_portal">Deer Portal</a>
+  <span class="is-light is-size-7">(inactive since 2014)</span></li><li><span class="has-text-weight-semibold"><a href="D.html#dave_gnukem">Dave Gnukem</a></span></li><li><a href="D.html#ddracenetwork">DDraceNetwork</a>
+  <span class="is-light is-size-7">(beta)</span></li><li><a href="D.html#deer_portal">Deer Portal</a>
   <span class="is-light is-size-7">(beta)</span></li><li><a href="D.html#defendguin">Defendguin</a>
   <span class="is-light is-size-7">(inactive since 2009)</span></li><li><span class="has-text-weight-semibold"><a href="D.html#destination_sol">Destination Sol</a></span></li><li><span class="has-text-weight-semibold"><a href="D.html#dhewm3">dhewm3</a></span></li><li><span class="has-text-weight-semibold"><a href="D.html#digital_a_love_story">Digital: A Love Story</a></span></li><li><a href="D.html#dim3">dim3</a>
   <span class="is-light is-size-7">(beta, inactive since 2014)</span></li><li><a href="D.html#directx12gameengine">DirectX12GameEngine</a>
@@ -171,10 +164,10 @@
   <span class="is-light is-size-7">(beta, inactive since 2013)</span></li><li><a href="H.html#hodoku">HoDoKu</a>
   <span class="is-light is-size-7">(inactive since 2013)</span></li><li><span class="has-text-weight-semibold"><a href="H.html#holtz">Holtz</a></span></li><li><a href="H.html#hoverrace">HoverRace</a>
   <span class="is-light is-size-7">(inactive since 2016)</span></li><li><span class="has-text-weight-semibold"><a href="H.html#hyperrogue">HyperRogue</a></span></li><li><a href="I.html#i_have_no_tomatoes">I Have No Tomatoes</a>
-  <span class="is-light is-size-7">(inactive since 2004)</span></li><li><a href="I.html#ice_breaker">Ice Breaker</a>
-  <span class="is-light is-size-7">(inactive since 2003)</span></li></ul>
+  <span class="is-light is-size-7">(inactive since 2004)</span></li></ul>
     </div><div class="column">
-      <ul><li><a href="I.html#iichantra">iiChantra</a>
+      <ul><li><a href="I.html#ice_breaker">Ice Breaker</a>
+  <span class="is-light is-size-7">(inactive since 2003)</span></li><li><a href="I.html#iichantra">iiChantra</a>
   <span class="is-light is-size-7">(beta, inactive since 2012)</span></li><li><a href="I.html#ika">ika</a>
   <span class="is-light is-size-7">(beta, inactive since 2007)</span></li><li><a href="I.html#inexor">Inexor</a>
   <span class="is-light is-size-7">(beta, inactive since 2018)</span></li><li><a href="I.html#infinite_mario_bros">Infinite Mario Bros</a>
@@ -334,7 +327,7 @@
   <span class="is-light is-size-7">(inactive since 2017)</span></li><li><a href="T.html#tankistonline">TankistOnline</a>
   <span class="is-light is-size-7">(beta)</span></li><li><span class="has-text-weight-semibold"><a href="T.html#tanks_of_freedom">Tanks of Freedom</a></span></li><li><a href="T.html#team_tactics">Team Tactics</a>
   <span class="is-light is-size-7">(beta, inactive since 2016)</span></li><li><a href="T.html#teeworlds">Teeworlds</a>
-  <span class="is-light is-size-7">(beta, inactive since 2013)</span></li><li><span class="has-text-weight-semibold"><a href="T.html#termfrogger">TermFrogger</a></span></li><li><span class="has-text-weight-semibold"><a href="T.html#terminalapps">TerminalApps</a></span></li><li><a href="T.html#tes3mp">TES3MP</a>
+  <span class="is-light is-size-7">(beta)</span></li><li><span class="has-text-weight-semibold"><a href="T.html#termfrogger">TermFrogger</a></span></li><li><span class="has-text-weight-semibold"><a href="T.html#terminalapps">TerminalApps</a></span></li><li><a href="T.html#tes3mp">TES3MP</a>
   <span class="is-light is-size-7">(beta)</span></li><li><span class="has-text-weight-semibold"><a href="T.html#tetrepetete">Tetrepetete</a></span></li><li><span class="has-text-weight-semibold"><a href="T.html#the_battle_for_wesnoth">The Battle for Wesnoth</a></span></li><li><a href="T.html#the_bubs_brothers">The Bub&#39;s Brothers</a>
   <span class="is-light is-size-7">(inactive since 2013)</span></li><li><a href="T.html#the_butterfly_effect">The Butterfly Effect</a>
   <span class="is-light is-size-7">(beta)</span></li><li><span class="has-text-weight-semibold"><a href="T.html#the_dark_mod">The Dark Mod</a></span></li><li><a href="T.html#the_endless_dungeons">The Endless Dungeons</a>
@@ -410,12 +403,10 @@
   <span class="is-light is-size-7">(beta)</span></li><li><a href="../frameworks/tool.html#world_builder">World Builder</a>
   <span class="is-light is-size-7">(inactive since 2007)</span></li></ul>
     </div></div>
-  <a class="is-light is-size-7" href="#">Back to top</a>
+  <p class="is-size-7 has-text-right"><a href="#">Back to top</a></p>
 </div>
-
-<div class="box">
-  <div class="block">
-    <h2 id="linux" class="is-size-4 has-text-weight-semibold"><span class="icon is-large has-text-black" ><i class="icon-tux"></i></span>Linux</h2></div>
+<div id="linux" class="box">
+  <div class="block"><span class="icon has-text-black"><i class="icon-tux"></i></span><span class="title is-4">Linux</span><br>503 entries</div>
   <div class="columns"><div class="column">
       <ul><li><a href="0.html#0_ad">0 A.D.</a>
   <span class="is-light is-size-7">(beta)</span></li><li><span class="has-text-weight-semibold"><a href="0.html#1oom">1oom</a></span></li><li><a href="0.html#3d_pong">3D Pong</a>
@@ -473,7 +464,8 @@
   <span class="is-light is-size-7">(inactive since 2014)</span></li><li><a href="C.html#cytadela">Cytadela</a>
   <span class="is-light is-size-7">(beta, inactive since 2013)</span></li><li><a href="D.html#d2x-xl">D2X-XL</a>
   <span class="is-light is-size-7">(inactive since 2015)</span></li><li><span class="has-text-weight-semibold"><a href="D.html#daggerfall_unity">Daggerfall Unity</a></span></li><li><a href="D.html#darkplaces">DarkPlaces</a>
-  <span class="is-light is-size-7">(inactive since 2014)</span></li><li><span class="has-text-weight-semibold"><a href="D.html#dave_gnukem">Dave Gnukem</a></span></li><li><a href="D.html#deer_portal">Deer Portal</a>
+  <span class="is-light is-size-7">(inactive since 2014)</span></li><li><span class="has-text-weight-semibold"><a href="D.html#dave_gnukem">Dave Gnukem</a></span></li><li><a href="D.html#ddracenetwork">DDraceNetwork</a>
+  <span class="is-light is-size-7">(beta)</span></li><li><a href="D.html#deer_portal">Deer Portal</a>
   <span class="is-light is-size-7">(beta)</span></li><li><a href="D.html#defendguin">Defendguin</a>
   <span class="is-light is-size-7">(inactive since 2009)</span></li><li><span class="has-text-weight-semibold"><a href="D.html#destination_sol">Destination Sol</a></span></li><li><span class="has-text-weight-semibold"><a href="D.html#dhewm3">dhewm3</a></span></li><li><span class="has-text-weight-semibold"><a href="D.html#digital_a_love_story">Digital: A Love Story</a></span></li><li><a href="D.html#dim3">dim3</a>
   <span class="is-light is-size-7">(beta, inactive since 2014)</span></li><li><span class="has-text-weight-semibold"><a href="D.html#domination">Domination</a></span></li><li><a href="D.html#donut">donut</a>
@@ -519,10 +511,10 @@
   <span class="is-light is-size-7">(inactive since 2014)</span></li><li><a href="G.html#gusanos">GUSANOS</a>
   <span class="is-light is-size-7">(beta, inactive since 2006)</span></li><li><span class="has-text-weight-semibold"><a href="G.html#gweled">Gweled</a></span></li><li><span class="has-text-weight-semibold"><a href="G.html#gzdoom">GZDoom</a></span></li><li><span class="has-text-weight-semibold"><a href="H.html#hammer_of_thyrion">Hammer of Thyrion</a></span></li><li><a href="H.html#hardwar">Hardwar</a>
   <span class="is-light is-size-7">(beta, inactive since 2015)</span></li><li><a href="H.html#harmonist_dayoriah_clan_infiltration">Harmonist: Dayoriah Clan Infiltration</a>
-  <span class="is-light is-size-7">(beta)</span></li><li><span class="has-text-weight-semibold"><a href="H.html#head_over_heels">Head over Heels</a></span></li><li><span class="has-text-weight-semibold"><a href="H.html#hedgewars">Hedgewars</a></span></li><li><a href="H.html#help_hannahs_horse">Help Hannah&#39;s Horse</a>
-  <span class="is-light is-size-7">(beta, inactive since 2008)</span></li></ul>
+  <span class="is-light is-size-7">(beta)</span></li><li><span class="has-text-weight-semibold"><a href="H.html#head_over_heels">Head over Heels</a></span></li><li><span class="has-text-weight-semibold"><a href="H.html#hedgewars">Hedgewars</a></span></li></ul>
     </div><div class="column">
-      <ul><li><a href="H.html#hexon">heXon</a>
+      <ul><li><a href="H.html#help_hannahs_horse">Help Hannah&#39;s Horse</a>
+  <span class="is-light is-size-7">(beta, inactive since 2008)</span></li><li><a href="H.html#hexon">heXon</a>
   <span class="is-light is-size-7">(beta)</span></li><li><a href="H.html#hexoshi">Hexoshi</a>
   <span class="is-light is-size-7">(beta, inactive since 2016)</span></li><li><a href="H.html#hhexen">HHexen</a>
   <span class="is-light is-size-7">(inactive since 2013)</span></li><li><a href="H.html#hodoku">HoDoKu</a>
@@ -678,7 +670,7 @@
   <span class="is-light is-size-7">(inactive since 2017)</span></li><li><a href="T.html#tankistonline">TankistOnline</a>
   <span class="is-light is-size-7">(beta)</span></li><li><span class="has-text-weight-semibold"><a href="T.html#tanks_of_freedom">Tanks of Freedom</a></span></li><li><a href="T.html#team_tactics">Team Tactics</a>
   <span class="is-light is-size-7">(beta, inactive since 2016)</span></li><li><a href="T.html#teeworlds">Teeworlds</a>
-  <span class="is-light is-size-7">(beta, inactive since 2013)</span></li><li><a href="T.html#tenes_empanadas_graciela">Tenes Empanadas Graciela</a>
+  <span class="is-light is-size-7">(beta)</span></li><li><a href="T.html#tenes_empanadas_graciela">Tenes Empanadas Graciela</a>
   <span class="is-light is-size-7">(beta, inactive since 2015)</span></li><li><span class="has-text-weight-semibold"><a href="T.html#termfrogger">TermFrogger</a></span></li><li><span class="has-text-weight-semibold"><a href="T.html#terminalapps">TerminalApps</a></span></li><li><a href="T.html#tes3mp">TES3MP</a>
   <span class="is-light is-size-7">(beta)</span></li><li><span class="has-text-weight-semibold"><a href="T.html#the_battle_for_wesnoth">The Battle for Wesnoth</a></span></li><li><a href="T.html#the_bubs_brothers">The Bub&#39;s Brothers</a>
   <span class="is-light is-size-7">(inactive since 2013)</span></li><li><a href="T.html#the_butterfly_effect">The Butterfly Effect</a>
@@ -752,12 +744,10 @@
   <span class="is-light is-size-7">(inactive since 2013)</span></li><li><a href="../frameworks/framework.html#superstarfighter">SuperStarfighter</a>
   <span class="is-light is-size-7">(beta)</span></li><li><span class="has-text-weight-semibold"><a href="../frameworks/framework.html#vassal">VASSAL</a></span></li></ul>
     </div></div>
-  <a class="is-light is-size-7" href="#">Back to top</a>
+  <p class="is-size-7 has-text-right"><a href="#">Back to top</a></p>
 </div>
-
-<div class="box">
-  <div class="block">
-    <h2 id="macos" class="is-size-4 has-text-weight-semibold"><span class="icon is-large has-text-black" ><i class="icon-appleinc"></i></span>macOS</h2></div>
+<div id="macos" class="box">
+  <div class="block"><span class="icon has-text-black"><i class="icon-appleinc"></i></span><span class="title is-4">macOS</span><br>297 entries</div>
   <div class="columns"><div class="column">
       <ul><li><a href="0.html#0_ad">0 A.D.</a>
   <span class="is-light is-size-7">(beta)</span></li><li><a href="0.html#3d_pong">3D Pong</a>
@@ -783,7 +773,8 @@
   <span class="is-light is-size-7">(inactive since 2010)</span></li><li><a href="C.html#cytadela">Cytadela</a>
   <span class="is-light is-size-7">(beta, inactive since 2013)</span></li><li><a href="D.html#d2x-xl">D2X-XL</a>
   <span class="is-light is-size-7">(inactive since 2015)</span></li><li><span class="has-text-weight-semibold"><a href="D.html#daggerfall_unity">Daggerfall Unity</a></span></li><li><a href="D.html#darkplaces">DarkPlaces</a>
-  <span class="is-light is-size-7">(inactive since 2014)</span></li><li><span class="has-text-weight-semibold"><a href="D.html#dave_gnukem">Dave Gnukem</a></span></li><li><span class="has-text-weight-semibold"><a href="D.html#destination_sol">Destination Sol</a></span></li><li><span class="has-text-weight-semibold"><a href="D.html#dhewm3">dhewm3</a></span></li><li><span class="has-text-weight-semibold"><a href="D.html#digital_a_love_story">Digital: A Love Story</a></span></li><li><a href="D.html#dim3">dim3</a>
+  <span class="is-light is-size-7">(inactive since 2014)</span></li><li><span class="has-text-weight-semibold"><a href="D.html#dave_gnukem">Dave Gnukem</a></span></li><li><a href="D.html#ddracenetwork">DDraceNetwork</a>
+  <span class="is-light is-size-7">(beta)</span></li><li><span class="has-text-weight-semibold"><a href="D.html#destination_sol">Destination Sol</a></span></li><li><span class="has-text-weight-semibold"><a href="D.html#dhewm3">dhewm3</a></span></li><li><span class="has-text-weight-semibold"><a href="D.html#digital_a_love_story">Digital: A Love Story</a></span></li><li><a href="D.html#dim3">dim3</a>
   <span class="is-light is-size-7">(beta, inactive since 2014)</span></li><li><span class="has-text-weight-semibold"><a href="D.html#domination">Domination</a></span></li><li><span class="has-text-weight-semibold"><a href="D.html#doom_legacy">Doom Legacy</a></span></li><li><span class="has-text-weight-semibold"><a href="D.html#doom64ex">Doom64EX</a></span></li><li><span class="has-text-weight-semibold"><a href="D.html#doomsday_engine">Doomsday Engine</a></span></li><li><a href="D.html#dreamchess">DreamChess</a>
   <span class="is-light is-size-7">(beta)</span></li><li><span class="has-text-weight-semibold"><a href="D.html#drl">DRL</a></span></li><li><a href="D.html#duck_marines">Duck Marines</a>
   <span class="is-light is-size-7">(inactive since 2016)</span></li><li><span class="has-text-weight-semibold"><a href="D.html#dungeon">Dungeon</a></span></li><li><span class="has-text-weight-semibold"><a href="D.html#dwarfcorp">DwarfCorp</a></span></li><li><a href="E.html#eat_the_whistle">Eat The Whistle</a>
@@ -810,10 +801,10 @@
   <span class="is-light is-size-7">(inactive since 2008)</span></li><li><a href="G.html#grobots">Grobots</a>
   <span class="is-light is-size-7">(inactive since 2014)</span></li><li><span class="has-text-weight-semibold"><a href="G.html#gzdoom">GZDoom</a></span></li><li><span class="has-text-weight-semibold"><a href="H.html#hammer_of_thyrion">Hammer of Thyrion</a></span></li><li><a href="H.html#hardwar">Hardwar</a>
   <span class="is-light is-size-7">(beta, inactive since 2015)</span></li><li><a href="H.html#harmonist_dayoriah_clan_infiltration">Harmonist: Dayoriah Clan Infiltration</a>
-  <span class="is-light is-size-7">(beta)</span></li><li><a href="H.html#hodoku">HoDoKu</a>
-  <span class="is-light is-size-7">(inactive since 2013)</span></li></ul>
+  <span class="is-light is-size-7">(beta)</span></li></ul>
     </div><div class="column">
-      <ul><li><span class="has-text-weight-semibold"><a href="H.html#hyperrogue">HyperRogue</a></span></li><li><a href="I.html#i_have_no_tomatoes">I Have No Tomatoes</a>
+      <ul><li><a href="H.html#hodoku">HoDoKu</a>
+  <span class="is-light is-size-7">(inactive since 2013)</span></li><li><span class="has-text-weight-semibold"><a href="H.html#hyperrogue">HyperRogue</a></span></li><li><a href="I.html#i_have_no_tomatoes">I Have No Tomatoes</a>
   <span class="is-light is-size-7">(inactive since 2004)</span></li><li><a href="I.html#infinite_mario_bros">Infinite Mario Bros</a>
   <span class="is-light is-size-7">(inactive since 2010)</span></li><li><span class="has-text-weight-semibold"><a href="I.html#infinite_tux">Infinite Tux</a></span></li><li><span class="has-text-weight-semibold"><a href="I.html#instead">INSTEAD</a></span></li><li><a href="I.html#intersect">Intersect</a>
   <span class="is-light is-size-7">(beta)</span></li><li><a href="I.html#intricacy">Intricacy</a>
@@ -875,10 +866,10 @@
   <span class="is-light is-size-7">(inactive since 2013)</span></li><li><span class="has-text-weight-semibold"><a href="Q.html#quakespasm">QuakeSpasm</a></span></li><li><span class="has-text-weight-semibold"><a href="R.html#rabbit_escape">Rabbit Escape</a></span></li><li><span class="has-text-weight-semibold"><a href="R.html#race_into_space">Race Into Space</a></span></li><li><a href="R.html#recursive_runner">Recursive Runner</a>
   <span class="is-light is-size-7">(beta, inactive since 2017)</span></li><li><span class="has-text-weight-semibold"><a href="R.html#reliquarium">Reliquarium</a></span></li><li><a href="R.html#residualvm">ResidualVM</a>
   <span class="is-light is-size-7">(beta)</span></li><li><a href="R.html#ri-li">Ri-li</a>
-  <span class="is-light is-size-7">(inactive since 2007)</span></li><li><span class="has-text-weight-semibold"><a href="R.html#rocksndiamonds">Rocks&#39;n&#39;Diamonds</a></span></li><li><a href="R.html#rpgboss">rpgboss</a>
-  <span class="is-light is-size-7">(beta, inactive since 2017)</span></li></ul>
+  <span class="is-light is-size-7">(inactive since 2007)</span></li><li><span class="has-text-weight-semibold"><a href="R.html#rocksndiamonds">Rocks&#39;n&#39;Diamonds</a></span></li></ul>
     </div><div class="column">
-      <ul><li><a href="R.html#ruby-warrior">Ruby-warrior</a>
+      <ul><li><a href="R.html#rpgboss">rpgboss</a>
+  <span class="is-light is-size-7">(beta, inactive since 2017)</span></li><li><a href="R.html#ruby-warrior">Ruby-warrior</a>
   <span class="is-light is-size-7">(beta, inactive since 2012)</span></li><li><span class="has-text-weight-semibold"><a href="R.html#rufascube">RufasCube</a></span></li><li><span class="has-text-weight-semibold"><a href="R.html#rufasslider">RufasSlider</a></span></li><li><span class="has-text-weight-semibold"><a href="R.html#rufasswap">RufasSwap</a></span></li><li><a href="S.html#scrabble3d">Scrabble3D</a>
   <span class="is-light is-size-7">(inactive since 2015)</span></li><li><a href="S.html#settlers_iii_remake">Settlers III remake</a>
   <span class="is-light is-size-7">(beta)</span></li><li><span class="has-text-weight-semibold"><a href="S.html#shattered_pixel_dungeon">Shattered Pixel Dungeon</a></span></li><li><a href="S.html#shockolate">Shockolate</a>
@@ -897,7 +888,7 @@
   <span class="is-light is-size-7">(beta)</span></li><li><a href="S.html#system_syzygy">System Syzygy</a>
   <span class="is-light is-size-7">(inactive since 2018)</span></li><li><span class="has-text-weight-semibold"><a href="T.html#taisei_project">Taisei Project</a></span></li><li><a href="T.html#tankistonline">TankistOnline</a>
   <span class="is-light is-size-7">(beta)</span></li><li><span class="has-text-weight-semibold"><a href="T.html#tanks_of_freedom">Tanks of Freedom</a></span></li><li><a href="T.html#teeworlds">Teeworlds</a>
-  <span class="is-light is-size-7">(beta, inactive since 2013)</span></li><li><span class="has-text-weight-semibold"><a href="T.html#termfrogger">TermFrogger</a></span></li><li><span class="has-text-weight-semibold"><a href="T.html#terminalapps">TerminalApps</a></span></li><li><a href="T.html#tes3mp">TES3MP</a>
+  <span class="is-light is-size-7">(beta)</span></li><li><span class="has-text-weight-semibold"><a href="T.html#termfrogger">TermFrogger</a></span></li><li><span class="has-text-weight-semibold"><a href="T.html#terminalapps">TerminalApps</a></span></li><li><a href="T.html#tes3mp">TES3MP</a>
   <span class="is-light is-size-7">(beta)</span></li><li><a href="T.html#tetravex">TetraVex</a>
   <span class="is-light is-size-7">(beta)</span></li><li><span class="has-text-weight-semibold"><a href="T.html#the_battle_for_wesnoth">The Battle for Wesnoth</a></span></li><li><a href="T.html#the_bubs_brothers">The Bub&#39;s Brothers</a>
   <span class="is-light is-size-7">(inactive since 2013)</span></li><li><a href="T.html#the_butterfly_effect">The Butterfly Effect</a>
@@ -931,12 +922,10 @@
   <span class="is-light is-size-7">(inactive since 2012)</span></li><li><span class="has-text-weight-semibold"><a href="../frameworks/tool.html#slade">SLADE</a></span></li><li><a href="../frameworks/framework.html#superstarfighter">SuperStarfighter</a>
   <span class="is-light is-size-7">(beta)</span></li><li><span class="has-text-weight-semibold"><a href="../frameworks/framework.html#vassal">VASSAL</a></span></li></ul>
     </div></div>
-  <a class="is-light is-size-7" href="#">Back to top</a>
+  <p class="is-size-7 has-text-right"><a href="#">Back to top</a></p>
 </div>
-
-<div class="box">
-  <div class="block">
-    <h2 id="android" class="is-size-4 has-text-weight-semibold"><span class="icon is-large has-text-black" ><i class="icon-android"></i></span>Android</h2></div>
+<div id="android" class="box">
+  <div class="block"><span class="icon has-text-black"><i class="icon-android"></i></span><span class="title is-4">Android</span><br>150 entries</div>
   <div class="columns"><div class="column">
       <ul><li><a href="A.html#andors_trail">Andor&#39;s Trail</a>
   <span class="is-light is-size-7">(beta)</span></li><li><span class="has-text-weight-semibold"><a href="A.html#android-chess">android-chess</a></span></li><li><a href="A.html#antiyoy">antiyoy</a>
@@ -1021,12 +1010,10 @@
   <span class="is-light is-size-7">(beta, inactive since 2016)</span></li><li><span class="has-text-weight-semibold"><a href="Z.html#zen">Zen!</a></span></li><li><a href="../frameworks/framework.html#flixel-gdx">flixel-gdx</a>
   <span class="is-light is-size-7">(beta, inactive since 2017)</span></li><li><span class="has-text-weight-semibold"><a href="../frameworks/framework.html#gideros">Gideros</a></span></li><li><span class="has-text-weight-semibold"><a href="../frameworks/framework.html#haxepunk">HaxePunk</a></span></li><li><span class="has-text-weight-semibold"><a href="../frameworks/framework.html#liko-12">LIKO-12</a></span></li><li><span class="has-text-weight-semibold"><a href="../frameworks/framework.html#love">LÖVE</a></span></li><li><span class="has-text-weight-semibold"><a href="../frameworks/framework.html#minetest">Minetest</a></span></li><li><span class="has-text-weight-semibold"><a href="../frameworks/tool.html#opsu">opsu!</a></span></li><li><span class="has-text-weight-semibold"><a href="../frameworks/framework.html#raylib">raylib</a></span></li><li><span class="has-text-weight-semibold"><a href="../frameworks/framework.html#renpy">Ren&#39;Py</a></span></li></ul>
     </div></div>
-  <a class="is-light is-size-7" href="#">Back to top</a>
+  <p class="is-size-7 has-text-right"><a href="#">Back to top</a></p>
 </div>
-
-<div class="box">
-  <div class="block">
-    <h2 id="ios" class="is-size-4 has-text-weight-semibold"><span class="icon is-large has-text-black" ><i class="icon-ios"></i></span>iOS</h2></div>
+<div id="ios" class="box">
+  <div class="block"><span class="icon has-text-black"><i class="icon-ios"></i></span><span class="title is-4">iOS</span><br>21 entries</div>
   <div class="columns"><div class="column">
       <ul><li><a href="D.html#doom-ios">DOOM-iOS</a>
   <span class="is-light is-size-7">(inactive since 2012)</span></li><li><a href="E.html#esenthel_engine">Esenthel Engine</a>
@@ -1047,12 +1034,10 @@
   <span class="is-light is-size-7">(beta, inactive since 2017)</span></li><li><a href="../frameworks/framework.html#game_editor">Game Editor</a>
   <span class="is-light is-size-7">(inactive since 2014)</span></li><li><span class="has-text-weight-semibold"><a href="../frameworks/framework.html#haxepunk">HaxePunk</a></span></li><li><span class="has-text-weight-semibold"><a href="../frameworks/framework.html#love">LÖVE</a></span></li><li><span class="has-text-weight-semibold"><a href="../frameworks/framework.html#renpy">Ren&#39;Py</a></span></li></ul>
     </div></div>
-  <a class="is-light is-size-7" href="#">Back to top</a>
+  <p class="is-size-7 has-text-right"><a href="#">Back to top</a></p>
 </div>
-
-<div class="box">
-  <div class="block">
-    <h2 id="web" class="is-size-4 has-text-weight-semibold"><span class="icon is-large has-text-black" ><i class="icon-earth"></i></span>Web</h2></div>
+<div id="web" class="box">
+  <div class="block"><span class="icon has-text-black"><i class="icon-earth"></i></span><span class="title is-4">Web</span><br>152 entries</div>
   <div class="columns"><div class="column">
       <ul><li><span class="has-text-weight-semibold"><a href="0.html#2048">2048</a></span></li><li><a href="0.html#3dcity">3d.city</a>
   <span class="is-light is-size-7">(inactive since 2016)</span></li><li><span class="has-text-weight-semibold"><a href="A.html#achtung_die_kurve">Achtung, die Kurve!</a></span></li><li><a href="A.html#ajax3d">Ajax3d</a>
@@ -1159,12 +1144,10 @@
   <span class="is-light is-size-7">(inactive since 2003)</span></li><li><span class="has-text-weight-semibold"><a href="../frameworks/framework.html#phaser">Phaser</a></span></li><li><span class="has-text-weight-semibold"><a href="../frameworks/framework.html#raylib">raylib</a></span></li><li><span class="has-text-weight-semibold"><a href="../frameworks/framework.html#renpy">Ren&#39;Py</a></span></li><li><span class="has-text-weight-semibold"><a href="../frameworks/tool.html#squiffy">Squiffy</a></span></li><li><span class="has-text-weight-semibold"><a href="../frameworks/framework.html#superpowers">Superpowers</a></span></li><li><span class="has-text-weight-semibold"><a href="../frameworks/tool.html#twine">Twine</a></span></li><li><a href="../frameworks/framework.html#undum">Undum</a>
   <span class="is-light is-size-7">(inactive since 2018)</span></li></ul>
     </div></div>
-  <a class="is-light is-size-7" href="#">Back to top</a>
+  <p class="is-size-7 has-text-right"><a href="#">Back to top</a></p>
 </div>
-
-<div class="box">
-  <div class="block">
-    <h2 id="unspecified" class="is-size-4 has-text-weight-semibold"><span class="icon is-large has-text-black" ><i class="icon-device_unknown"></i></span>Unspecified</h2></div>
+<div id="unspecified" class="box">
+  <div class="block"><span class="icon has-text-black"><i class="icon-device_unknown"></i></span><span class="title is-4">Unspecified</span><br>829 entries</div>
   <div class="columns"><div class="column">
       <ul><li><span class="has-text-weight-semibold"><a href="0.html#2006-rebotted">2006-rebotted</a></span></li><li><span class="has-text-weight-semibold"><a href="0.html#2048_python">2048 Python</a></span></li><li><a href="0.html#2h4u">2H4U</a>
   <span class="is-light is-size-7">(inactive since 2007)</span></li><li><a href="0.html#3dc">3Dc</a>
@@ -1318,7 +1301,8 @@
   <span class="is-light is-size-7">(beta, inactive since 2017)</span></li><li><a href="F.html#free_tennis">Free Tennis</a>
   <span class="is-light is-size-7">(beta, inactive since 2005)</span></li><li><a href="F.html#freeaoe">freeaoe</a>
   <span class="is-light is-size-7">(beta)</span></li><li><span class="has-text-weight-semibold"><a href="F.html#freeciv">Freeciv</a></span></li><li><a href="F.html#freeciv_alpha_centauri_project">Freeciv Alpha Centauri project</a>
-  <span class="is-light is-size-7">(beta, inactive since 2003)</span></li><li><span class="has-text-weight-semibold"><a href="F.html#freecol">FreeCol</a></span></li><li><span class="has-text-weight-semibold"><a href="F.html#freecs">FreeCS</a></span></li><li><span class="has-text-weight-semibold"><a href="F.html#freedroidrpg">FreedroidRPG</a></span></li><li><a href="F.html#freefalcon">FreeFalcon</a>
+  <span class="is-light is-size-7">(beta, inactive since 2003)</span></li><li><span class="has-text-weight-semibold"><a href="F.html#freecol">FreeCol</a></span></li><li><span class="has-text-weight-semibold"><a href="F.html#freecs">FreeCS</a></span></li><li><span class="has-text-weight-semibold"><a href="F.html#freedroidrpg">FreedroidRPG</a></span></li><li><a href="F.html#freee">FrEee</a>
+  <span class="is-light is-size-7">(beta)</span></li><li><a href="F.html#freefalcon">FreeFalcon</a>
   <span class="is-light is-size-7">(inactive since 2014)</span></li><li><a href="F.html#freegish">freegish</a>
   <span class="is-light is-size-7">(beta, inactive since 2017)</span></li><li><a href="F.html#freekick_3">Freekick 3</a>
   <span class="is-light is-size-7">(inactive since 2015)</span></li><li><a href="F.html#freelords">FreeLords</a>
@@ -1746,21 +1730,16 @@
   <span class="is-light is-size-7">(beta)</span></li><li><a href="../frameworks/tool.html#zeta">Zeta</a>
   <span class="is-light is-size-7">(beta)</span></li><li><span class="has-text-weight-semibold"><a href="../frameworks/framework.html#zgameeditor">ZGameEditor</a></span></li></ul>
     </div></div>
-  <a class="is-light is-size-7" href="#">Back to top</a>
-</div>
-
-</div>
-</section>
-<footer class="footer">
-  <div class="container content is-size-7">
-    <p>The <a href="https://github.com/Trilarion/opensourcegames">Open source games list (OSGL)</a> is a collection of open source game descriptions focusing on technical aspects.
-    The content on this site is the result of voluntary work and may be outdated or incorrect.<br>
-    For giving feedback or improving the content see the <a href="contribute.html">contribution guidelines</a> or read the <a href="https://trilarion.blogspot.com/search/label/osgames">Blog</a>.</p>
-    <p>The content (games descriptions) is licensed <a href="https://github.com/Trilarion/opensourcegames/blob/master/LICENSE">CC-0</a>.
-    Used icons are licensed under CC BY-SA 3.0 (<a href="https://github.com/somerandomdude/Iconic">Iconic</a> or <a href="http://designmodo.com/linecons-free/">Linecons</a>), CC0 1.0 (<a href="https://simpleicons.org/">Simple Icons</a>),
-    CC BY 4.0 (<a href="https://github.com/FortAwesome/Font-Awesome">Font Awesome</a> or <a href="https://icomoon.io/#icons-icomoon">IcoMoon Free</a>), CC BY-SA 4.0 (<a href="http://www.entypo.com/">Entypo+</a>) or Apache License 2.0 (<a href="https://material.io/resources/icons">Material Icons</a>).
-    This website is built using Python, Lark, Jinja2 and Bulma. Last updated: 2021-10-02 13:39</p>
-  </div>
+  <p class="is-size-7 has-text-right"><a href="#">Back to top</a></p>
+</div></div>
+<footer class="footer container content is-size-7">
+  <p>The <a href="https://github.com/Trilarion/opensourcegames">Open source games list (OSGL)</a> is a collection of open source game descriptions focusing on technical aspects.
+  The content on this site is the result of voluntary work and may be outdated or incorrect. For giving feedback or improving the content see the
+  <a href="contribute.html">contribution guidelines</a> or read the <a href="https://trilarion.blogspot.com/search/label/osgames">Blog</a>.</p>
+  <p>The content (games descriptions) is licensed <a href="https://github.com/Trilarion/opensourcegames/blob/master/LICENSE">CC-0</a>.
+  Used icons are licensed under CC BY-SA 3.0 (<a href="https://github.com/somerandomdude/Iconic">Iconic</a> or <a href="http://designmodo.com/linecons-free/">Linecons</a>), CC0 1.0 (<a href="https://simpleicons.org/">Simple Icons</a>),
+  CC BY 4.0 (<a href="https://github.com/FortAwesome/Font-Awesome">Font Awesome</a> or <a href="https://icomoon.io/#icons-icomoon">IcoMoon Free</a>), CC BY-SA 4.0 (<a href="http://www.entypo.com/">Entypo+</a>) or Apache License 2.0 (<a href="https://material.io/resources/icons">Material Icons</a>).
+  This website is built using Python, Lark, Jinja2 and Bulma. Last updated: 2021-10-05 11:16</p>
 </footer>
 </body>
 </html>

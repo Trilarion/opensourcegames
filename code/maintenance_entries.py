@@ -9,6 +9,7 @@ Sorts the entries in the contents files of each sub folder alphabetically.
 # TODO check for within an entry for similar dev names
 # TODO wikipedia (media search) for popular ones at least
 # TODO google search (for homepages or media entries) for popular ones at least
+# TODO search for xxx.sourceforge.net or io but not sourceforge.net/xxx in homepages as convenience
 
 import os
 import re

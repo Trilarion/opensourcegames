@@ -1,22 +1,19 @@
 {% extends "base.jinja" %}
 {% block content %}
-<section class="section">
   <div class="container">
-    <h1 class="title">{{ listing['title'] }}</h1>
-            {# iterate over items -#}
+    <p class="title is-4">{{ listing['title'] }}</p>
+                    {#- iterate over items, each one as a box-#}
     {%- for item in listing['items'] -%}
     <div id="{{ item['anchor-id'] }}" class="box">
       <div class="block">
-        <h2 class="title is-4">{{ item['name'] }}</h2>
-        <div class="subtitle is-size-6">{{ macros.render_element(item['inspired']) }}</div>
+        <p class="title is-4">{{ item['name'] }}</p>
+        <p class="subtitle is-6">{{ macros.render_element(item['inspired']) }}</p>
         {%- if 'media' in item -%}{{ macros.render_element(item['media']) }}{%- endif -%}
       </div>
-      <div class="block">
-      <a href="{{ base['url_to'](['contribute.html#inspirations']) }}" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+                    {#- improve link -#}
+      <p class="is-size-7 has-text-right"><a href="{{ base['url_to'](['contribute.html#inspirations']) }}" title="Contribution guide">Improve</a></p>
     </div>
     {% endfor -%}
-  <a class="is-light is-size-7" href="#">Back to top</a>
+  <p class="is-size-7 has-text-right"><a href="#">Back to top</a></p>
   </div>
-</section>
 {% endblock %}

@@ -32,7 +32,7 @@
 
 {# Renders an icon #}
 {%- macro render_icon(icon) -%}
-<span class="icon is-large has-text-black" {% if 'title' in icon %} title="{{ icon['title'] }}"{% endif %}><i class="icon-{{ icon['class'] }}"></i></span>
+<span class="icon has-text-black"{% if 'title' in icon %} title="{{ icon['title'] }}"{% endif %}><i class="icon-{{ icon['class'] }}"></i></span>
 {%- endmacro -%}
 
 {# Some text surrounded by a link tag #}

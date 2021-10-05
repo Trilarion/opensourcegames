@@ -9,1141 +9,598 @@
   <link rel="stylesheet" href="../css/bulma.min.css">
   <link rel="stylesheet" href="../css/osgl.min.css">
   <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <script type="text/javascript" src="../js/osgl.js"></script>
 </head>
 <body><nav class="navbar container is-light" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item" href="../index.html"><span class="icon is-large has-text-black" ><i class="icon-home"></i></span><span>OSGL</span></a>
-    <a class="navbar-item" href="https://github.com/Trilarion/opensourcegames"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span><span>On GitHub</span></a>
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+    <a class="navbar-item" href="../index.html"><span class="icon has-text-black"><i class="icon-home"></i></span><span>OSGL</span></a>
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
     </a>
   </div>
-  <div class="navbar-menu is-active">
+  <div class="navbar-menu" id="navMenu">
     <div class="navbar-start">
-      <a class="navbar-item" href="../games/index.html"><span class="icon is-large has-text-black" ><i class="icon-dice"></i></span><span>Games</span></a>
+      <a class="navbar-item" href="../games/index.html"><span class="icon has-text-black"><i class="icon-dice"></i></span><span>Games</span></a>
       <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link"><span class="icon is-large has-text-black" ><i class="icon-filter"></i></span><span>Filter</span></a>
+        <a class="navbar-link"><span class="icon has-text-black"><i class="icon-filter"></i></span><span>Filter</span></a>
         <div class="navbar-dropdown">
-          <a class="navbar-item" href="../games/genres.html"><span class="icon is-large has-text-black" ><i class="icon-price-tag"></i></span><span>By category</span></a>
-          <a class="navbar-item" href="../games/languages.html"><span class="icon is-large has-text-black" ><i class="icon-language"></i></span><span>By code language</span></a>
-          <a class="navbar-item" href="../games/platforms.html"><span class="icon is-large has-text-black" ><i class="icon-laptop"></i></span><span>By OS support</span></a>
-          <a class="navbar-item" href="../games/top50.html"><span class="icon is-large has-text-black" ><i class="icon-star"></i></span><span>GitHub Stars Top 50</span></a>
+          <a class="navbar-item" href="../games/genres.html"><span class="icon has-text-black"><i class="icon-price-tag"></i></span><span>By category</span></a>
+          <a class="navbar-item" href="../games/languages.html"><span class="icon has-text-black"><i class="icon-language"></i></span><span>By code language</span></a>
+          <a class="navbar-item" href="../games/platforms.html"><span class="icon has-text-black"><i class="icon-laptop"></i></span><span>By OS support</span></a>
+          <a class="navbar-item" href="../games/top50.html"><span class="icon has-text-black"><i class="icon-star"></i></span><span>GitHub Stars Top 50</span></a>
         </div>
       </div>
-      <a class="navbar-item" href="../frameworks/index.html"><span class="icon is-large has-text-black" ><i class="icon-wrench"></i></span><span>Frameworks/Tools</span></a>
-      <a class="navbar-item is-active" href="index.html"><span class="icon is-large has-text-black" ><i class="icon-users"></i></span><span>Developers</span></a>
-      <a class="navbar-item" href="../inspirations/index.html"><span class="icon is-large has-text-black" ><i class="icon-bulb"></i></span><span>Inspirations</span></a>
-      <a class="navbar-item" href="../statistics.html"><span class="icon is-large has-text-black" ><i class="icon-stats-dots"></i></span><span>Statistics</span></a>
-      <a class="navbar-item" href="../contribute.html"><span class="icon is-large has-text-black" ><i class="icon-pencil"></i></span><span>Contribute</span></a>
+      <a class="navbar-item" href="../frameworks/index.html"><span class="icon has-text-black"><i class="icon-wrench"></i></span><span>Frameworks/Tools</span></a>
+      <a class="navbar-item is-active" href="index.html"><span class="icon has-text-black"><i class="icon-users"></i></span><span>Developers</span></a>
+      <a class="navbar-item" href="../inspirations/index.html"><span class="icon has-text-black"><i class="icon-bulb"></i></span><span>Inspirations</span></a>
+      <a class="navbar-item" href="../statistics.html"><span class="icon has-text-black"><i class="icon-stats-dots"></i></span><span>Statistics</span></a>
+      <a class="navbar-item" href="../contribute.html"><span class="icon has-text-black"><i class="icon-pencil"></i></span><span>Contribute</span></a>
+      <a class="navbar-item" href="https://github.com/Trilarion/opensourcegames"><span class="icon has-text-black"><i class="icon-github"></i></span><span>On GitHub</span></a>
     </div>
   </div>
 </nav>
-<section class="section">
   <div class="container">
-    <h1 class="title">Open source game developers (U)</h1>
-    <div id="u-ndefine" class="box">
-      <div class="level">
+    <p class="title is-4">Open source game developers (U)</p>
+    <div id="u-ndefine" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">u-ndefine</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">u-ndefine</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/u-ndefine" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/U.html#unciv">
-  <span class="has-text-weight-semibold">UnCiv</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/u-ndefine" title="User u-ndefine on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/U.html#unciv">UnCiv</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="u32i64" class="box">
-      <div class="level">
+    <div id="u32i64" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">u32i64</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">u32i64</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/u32i64" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../frameworks/framework.html#godot">
-  <span class="has-text-weight-semibold">Godot</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/u32i64" title="User u32i64 on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../frameworks/framework.html#godot">Godot</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="uberwaffe" class="box">
-      <div class="level">
+    <div id="uberwaffe" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">UberWaffe</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">UberWaffe</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/UberWaffe" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/O.html#openra">
-  <span class="has-text-weight-semibold">OpenRA</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/UberWaffe" title="User UberWaffe on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/O.html#openra">OpenRA</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="ubr47k" class="box">
-      <div class="level">
+    <div id="ubr47k" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">ubr47k</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">ubr47k</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://sourceforge.net/u/ubr47k/profile/" title="Profile on Sourceforge"><span class="icon is-large has-text-black" ><i class="icon-sourceforge"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/A.html#atomic_tanks">
-  <span class="has-text-weight-semibold">Atomic Tanks</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://sourceforge.net/u/ubr47k/profile/" title="User ubr47k on Sourceforge"><span class="icon has-text-black"><i class="icon-sourceforge"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/A.html#atomic_tanks">Atomic Tanks</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="ufdada" class="box">
-      <div class="level">
+    <div id="ufdada" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">ufdada</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">ufdada</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/ufdada" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/O.html#openkeeper">
-  <span class="has-text-weight-semibold">OpenKeeper</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/ufdada" title="User ufdada on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/O.html#openkeeper">OpenKeeper</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="ufo_alien_invasion" class="box">
-      <div class="level">
+    <div id="ufo_alien_invasion" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">UFO: Alien Invasion</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">UFO: Alien Invasion</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/ufoai" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/U.html#ufo_alien_invasion">
-  <span class="has-text-weight-semibold">UFO: Alien Invasion</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/ufoai" title="User ufoai on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/U.html#ufo_alien_invasion">UFO: Alien Invasion</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="ufoai" class="box">
-      <div class="level">
+    <div id="ufoai" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">UFOAI</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">UFOAI</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://sourceforge.net/u/ufoai/profile/" title="Profile on Sourceforge"><span class="icon is-large has-text-black" ><i class="icon-sourceforge"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/U.html#ufo_alien_invasion">
-  <span class="has-text-weight-semibold">UFO: Alien Invasion</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://sourceforge.net/u/ufoai/profile/" title="User ufoai on Sourceforge"><span class="icon has-text-black"><i class="icon-sourceforge"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/U.html#ufo_alien_invasion">UFO: Alien Invasion</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="ufshaikh" class="box">
-      <div class="level">
+    <div id="ufshaikh" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">ufshaikh</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">ufshaikh</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/ufshaikh" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/D.html#dungeon_crawl_stone_soup">
-  <span class="has-text-weight-semibold">Dungeon Crawl Stone Soup</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/ufshaikh" title="User ufshaikh on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/D.html#dungeon_crawl_stone_soup">Dungeon Crawl Stone Soup</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="ujjwal_mishra" class="box">
-      <div class="level">
+    <div id="ujjwal_mishra" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">ujjwal mishra</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">ujjwal mishra</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/ujjman" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../frameworks/framework.html#terasology">
-  <span class="has-text-weight-semibold">Terasology</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/ujjman" title="User ujjman on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../frameworks/framework.html#terasology">Terasology</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="ukata" class="box">
-      <div class="level">
+    <div id="ukata" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">ukata</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">ukata</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/ukata" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/D.html#deer_portal">
-  <span class="has-text-weight-semibold">Deer Portal</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/ukata" title="User ukata on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/D.html#deer_portal">Deer Portal</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="uladzislau_susha" class="box">
-      <div class="level">
+    <div id="uladzislau_susha" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">Uladzislau Susha</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">Uladzislau Susha</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/Haryaalcar" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/V.html#vcmi">
-  <span class="has-text-weight-semibold">VCMI</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/Haryaalcar" title="User Haryaalcar on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/V.html#vcmi">VCMI</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="ulf_hermann" class="box">
-      <div class="level">
+    <div id="ulf_hermann" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">Ulf Hermann</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">Ulf Hermann</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/ulfhermann" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/O.html#openttd">
-  <span class="has-text-weight-semibold">OpenTTD</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/ulfhermann" title="User ulfhermann on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/O.html#openttd">OpenTTD</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="ulf_lorenz" class="box">
-      <div class="level">
+    <div id="ulf_lorenz" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">Ulf Lorenz</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">Ulf Lorenz</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://sourceforge.net/u/ulflor/profile/" title="Profile on Sourceforge"><span class="icon is-large has-text-black" ><i class="icon-sourceforge"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/F.html#freelords">
-  <span class="has-text-weight-semibold">FreeLords</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://sourceforge.net/u/ulflor/profile/" title="User ulflor on Sourceforge"><span class="icon has-text-black"><i class="icon-sourceforge"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/F.html#freelords">FreeLords</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="ulherman" class="box">
-      <div class="level">
+    <div id="ulherman" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">ulherman</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">ulherman</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/ulherman" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../frameworks/framework.html#qt">
-  <span class="has-text-weight-semibold">Qt</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/ulherman" title="User ulherman on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../frameworks/framework.html#qt">Qt</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="uli_schlachter" class="box">
-      <div class="level">
+    <div id="uli_schlachter" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">Uli Schlachter</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">Uli Schlachter</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/psychon" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../frameworks/framework.html#qt">
-  <span class="has-text-weight-semibold">Qt</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/psychon" title="User psychon on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../frameworks/framework.html#qt">Qt</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="ulteq" class="box">
-      <div class="level">
+    <div id="ulteq" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">ulteq</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">ulteq</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/ulteq" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/R.html#rigs_of_rods">
-  <span class="has-text-weight-semibold">Rigs of Rods</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/ulteq" title="User ulteq on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/R.html#rigs_of_rods">Rigs of Rods</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="ultrastars3000" class="box">
-      <div class="level">
+    <div id="ultrastars3000" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">UltraStars3000</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">UltraStars3000</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/UltraStars3000" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/A.html#alive">
-  <span class="has-text-weight-semibold">alive</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/UltraStars3000" title="User UltraStars3000 on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/A.html#alive">alive</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="ulukai" class="box">
-      <div class="level">
+    <div id="ulukai" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">ulukai</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">ulukai</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://sourceforge.net/u/ulukai5/profile/" title="Profile on Sourceforge"><span class="icon is-large has-text-black" ><i class="icon-sourceforge"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/R.html#red_eclipse">
-  <span class="has-text-weight-semibold">Red Eclipse</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://sourceforge.net/u/ulukai5/profile/" title="User ulukai5 on Sourceforge"><span class="icon has-text-black"><i class="icon-sourceforge"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/R.html#red_eclipse">Red Eclipse</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="ulukyn" class="box">
-      <div class="level">
+    <div id="ulukyn" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">Ulukyn</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">Ulukyn</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/ulukyn" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/R.html#ryzom_core">
-  <span class="has-text-weight-semibold">Ryzom Core</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/ulukyn" title="User ulukyn on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/R.html#ryzom_core">Ryzom Core</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="umang_kalra" class="box">
-      <div class="level">
+    <div id="umang_kalra" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">Umang Kalra</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">Umang Kalra</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/theoway" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../frameworks/framework.html#godot">
-  <span class="has-text-weight-semibold">Godot</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/theoway" title="User theoway on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../frameworks/framework.html#godot">Godot</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="umdlye" class="box">
-      <div class="level">
+    <div id="umdlye" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">Umdlye</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">Umdlye</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/Umdlye" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/O.html#openrct2">
-  <span class="has-text-weight-semibold">OpenRCT2</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/Umdlye" title="User Umdlye on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/O.html#openrct2">OpenRCT2</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="unai_corzo" class="box">
-      <div class="level">
+    <div id="unai_corzo" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">Unai Corzo</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">Unai Corzo</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/unaiic" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/S.html#stockfish">
-  <span class="has-text-weight-semibold">Stockfish</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/unaiic" title="User unaiic on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/S.html#stockfish">Stockfish</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="unavowed" class="box">
-      <div class="level">
+    <div id="unavowed" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">unavowed</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">unavowed</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/unavowed" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed games:</span><a href="../games/N.html#naev">
-  <span class="has-text-weight-semibold">Naev</span></a>, <a href="../games/N.html#nox_imperii">
-  <span class="has-text-weight-semibold">Nox Imperii</span></a>, <a href="../games/P.html#pioneer">
-  <span class="has-text-weight-semibold">Pioneer</span></a>, <a href="../games/S.html#seven_kingdoms_ancient_adversaries">
-  <span class="has-text-weight-semibold">Seven Kingdoms: Ancient Adversaries</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/unavowed" title="User unavowed on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed games: </span><a href="../games/N.html#naev">Naev</a>, <a href="../games/N.html#nox_imperii">Nox Imperii</a>, <a href="../games/P.html#pioneer">Pioneer</a>, <a href="../games/S.html#seven_kingdoms_ancient_adversaries">Seven Kingdoms: Ancient Adversaries</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="unc0rr" class="box">
-      <div class="level">
+    <div id="unc0rr" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">unC0Rr</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">unC0Rr</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/unC0Rr" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/H.html#hedgewars">
-  <span class="has-text-weight-semibold">Hedgewars</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/unC0Rr" title="User unC0Rr on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/H.html#hedgewars">Hedgewars</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="unclouded" class="box">
-      <div class="level">
+    <div id="unclouded" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">unclouded</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">unclouded</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://sourceforge.net/u/unclouded/profile/" title="Profile on Sourceforge"><span class="icon is-large has-text-black" ><i class="icon-sourceforge"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/F.html#freecol">
-  <span class="has-text-weight-semibold">FreeCol</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://sourceforge.net/u/unclouded/profile/" title="User unclouded on Sourceforge"><span class="icon has-text-black"><i class="icon-sourceforge"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/F.html#freecol">FreeCol</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="undefined-darkness" class="box">
-      <div class="level">
+    <div id="undefined-darkness" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">undefined-darkness</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">undefined-darkness</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/undefined-darkness" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/O.html#open_horizon">
-  <span class="has-text-weight-semibold">Open Horizon</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/undefined-darkness" title="User undefined-darkness on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/O.html#open_horizon">Open Horizon</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="undernorthernsky" class="box">
-      <div class="level">
+    <div id="undernorthernsky" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">undernorthernsky</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">undernorthernsky</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/undernorthernsky" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/F.html#fife">
-  <span class="has-text-weight-semibold">FIFE</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/undernorthernsky" title="User undernorthernsky on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/F.html#fife">FIFE</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="undescriptdev" class="box">
-      <div class="level">
+    <div id="undescriptdev" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">UndescriptDev</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">UndescriptDev</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/UndescriptDev" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/S.html#seven_kingdoms_ancient_adversaries">
-  <span class="has-text-weight-semibold">Seven Kingdoms: Ancient Adversaries</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/UndescriptDev" title="User UndescriptDev on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/S.html#seven_kingdoms_ancient_adversaries">Seven Kingdoms: Ancient Adversaries</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="unelsson" class="box">
-      <div class="level">
+    <div id="unelsson" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">unelsson</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">unelsson</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/unelsson" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed games:</span><a href="../games/O.html#openmw">
-  <span class="has-text-weight-semibold">OpenMW</span></a>, <a href="../games/T.html#tes3mp">
-  <span class="has-text-weight-semibold">TES3MP</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/unelsson" title="User unelsson on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed games: </span><a href="../games/O.html#openmw">OpenMW</a>, <a href="../games/T.html#tes3mp">TES3MP</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="unfainthful" class="box">
-      <div class="level">
+    <div id="unfainthful" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">Unfainthful</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">Unfainthful</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/Unfainthful" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/O.html#oxygen_engine">
-  <span class="has-text-weight-semibold">Oxygen Engine</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/Unfainthful" title="User Unfainthful on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/O.html#oxygen_engine">Oxygen Engine</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="unislash" class="box">
-      <div class="level">
+    <div id="unislash" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">Unislash</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">Unislash</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://sourceforge.net/u/unislash/profile/" title="Profile on Sourceforge"><span class="icon is-large has-text-black" ><i class="icon-sourceforge"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/D.html#daimonin">
-  <span class="has-text-weight-semibold">Daimonin</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://sourceforge.net/u/unislash/profile/" title="User unislash on Sourceforge"><span class="icon has-text-black"><i class="icon-sourceforge"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/D.html#daimonin">Daimonin</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="unitraxx" class="box">
-      <div class="level">
+    <div id="unitraxx" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">Unitraxx</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">Unitraxx</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://sourceforge.net/u/unitraxx/profile/" title="Profile on Sourceforge"><span class="icon is-large has-text-black" ><i class="icon-sourceforge"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/S.html#supertuxkart">
-  <span class="has-text-weight-semibold">SuperTuxKart</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://sourceforge.net/u/unitraxx/profile/" title="User unitraxx on Sourceforge"><span class="icon has-text-black"><i class="icon-sourceforge"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/S.html#supertuxkart">SuperTuxKart</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="unknown" class="box">
-      <div class="level">
+    <div id="unknown" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">Unknown</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">Unknown</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/AccountAlias" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/C.html#cataclysm_dark_days_ahead">
-  <span class="has-text-weight-semibold">Cataclysm: Dark Days Ahead</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/AccountAlias" title="User AccountAlias on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/C.html#cataclysm_dark_days_ahead">Cataclysm: Dark Days Ahead</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="unknownscribe" class="box">
-      <div class="level">
+    <div id="unknownscribe" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">UnknownScribe</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">UnknownScribe</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/DanielStephens" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/U.html#unknown_horizons">
-  <span class="has-text-weight-semibold">Unknown Horizons</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/DanielStephens" title="User DanielStephens on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/U.html#unknown_horizons">Unknown Horizons</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="unknownshadow200" class="box">
-      <div class="level">
+    <div id="unknownshadow200" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">UnknownShadow200</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">UnknownShadow200</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/UnknownShadow200" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/C.html#classicube">
-  <span class="has-text-weight-semibold">ClassiCube</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/UnknownShadow200" title="User UnknownShadow200 on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/C.html#classicube">ClassiCube</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="unrud" class="box">
-      <div class="level">
+    <div id="unrud" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">Unrud</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">Unrud</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/Unrud" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/O.html#openra">
-  <span class="has-text-weight-semibold">OpenRA</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/Unrud" title="User Unrud on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/O.html#openra">OpenRA</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="untrustedlife" class="box">
-      <div class="level">
+    <div id="untrustedlife" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">Untrustedlife</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">Untrustedlife</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/Untrustedlife" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/T.html#thrive">
-  <span class="has-text-weight-semibold">Thrive</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/Untrustedlife" title="User Untrustedlife on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/T.html#thrive">Thrive</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="uomo" class="box">
-      <div class="level">
+    <div id="uomo" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">uomo</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">uomo</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/uomo91" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/S.html#space_station_13">
-  <span class="has-text-weight-semibold">Space Station 13</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/uomo91" title="User uomo91 on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/S.html#space_station_13">Space Station 13</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="up-left" class="box">
-      <div class="level">
+    <div id="up-left" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">up-left</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">up-left</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/up-left" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/Y.html#yknytt">
-  <span class="has-text-weight-semibold">YKnytt</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/up-left" title="User up-left on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/Y.html#yknytt">YKnytt</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="upi" class="box">
-      <div class="level">
+    <div id="upi" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">UPi</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">UPi</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://sourceforge.net/u/upi/profile/" title="Profile on Sourceforge"><span class="icon is-large has-text-black" ><i class="icon-sourceforge"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed games:</span><a href="../games/O.html#openmortal">
-  <span class="has-text-weight-semibold">OpenMortal</span></a>, <a href="../games/P.html#pang_zero">
-  <span class="has-text-weight-semibold">Pang Zero</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://sourceforge.net/u/upi/profile/" title="User upi on Sourceforge"><span class="icon has-text-black"><i class="icon-sourceforge"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed games: </span><a href="../games/O.html#openmortal">OpenMortal</a>, <a href="../games/P.html#pang_zero">Pang Zero</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="upthorn" class="box">
-      <div class="level">
+    <div id="upthorn" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">upthorn</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">upthorn</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/upthorn" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed games:</span><a href="../frameworks/framework.html#scummvm">
-  <span class="has-text-weight-semibold">ScummVM</span></a>, <a href="../games/T.html#the_battle_for_wesnoth">
-  <span class="has-text-weight-semibold">The Battle for Wesnoth</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/upthorn" title="User upthorn on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed games: </span><a href="../frameworks/framework.html#scummvm">ScummVM</a>, <a href="../games/T.html#the_battle_for_wesnoth">The Battle for Wesnoth</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="uqs" class="box">
-      <div class="level">
+    <div id="uqs" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">uqs</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">uqs</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/uqs" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed games:</span><a href="../games/O.html#openxcom">
-  <span class="has-text-weight-semibold">OpenXcom</span></a>, <a href="../games/R.html#return_to_the_roots">
-  <span class="has-text-weight-semibold">Return to the Roots</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/uqs" title="User uqs on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed games: </span><a href="../games/O.html#openxcom">OpenXcom</a>, <a href="../games/R.html#return_to_the_roots">Return to the Roots</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="urbancmc" class="box">
-      <div class="level">
+    <div id="urbancmc" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">UrbanCMC</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">UrbanCMC</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/UrbanCMC" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/C.html#cataclysm_dark_days_ahead">
-  <span class="has-text-weight-semibold">Cataclysm: Dark Days Ahead</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/UrbanCMC" title="User UrbanCMC on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/C.html#cataclysm_dark_days_ahead">Cataclysm: Dark Days Ahead</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="urgru" class="box">
-      <div class="level">
+    <div id="urgru" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">urgru</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">urgru</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://sourceforge.net/u/urgru/profile/" title="Profile on Sourceforge"><span class="icon is-large has-text-black" ><i class="icon-sourceforge"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed games:</span><a href="../games/M.html#megamek">
-  <span class="has-text-weight-semibold">MegaMek</span></a>, <a href="../games/M.html#mekwars">
-  <span class="has-text-weight-semibold">MekWars</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://sourceforge.net/u/urgru/profile/" title="User urgru on Sourceforge"><span class="icon has-text-black"><i class="icon-sourceforge"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed games: </span><a href="../games/M.html#megamek">MegaMek</a>, <a href="../games/M.html#mekwars">MekWars</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="urho3d-travis-ci" class="box">
-      <div class="level">
+    <div id="urho3d-travis-ci" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">urho3d-travis-ci</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">urho3d-travis-ci</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/urho3d-travis-ci" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../frameworks/framework.html#urho3d">
-  <span class="has-text-weight-semibold">Urho3D</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/urho3d-travis-ci" title="User urho3d-travis-ci on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../frameworks/framework.html#urho3d">Urho3D</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="uriblass" class="box">
-      <div class="level">
+    <div id="uriblass" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">uriblass</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">uriblass</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/uriblass" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/S.html#stockfish">
-  <span class="has-text-weight-semibold">Stockfish</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/uriblass" title="User uriblass on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/S.html#stockfish">Stockfish</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="urjasvi_suthar" class="box">
-      <div class="level">
+    <div id="urjasvi_suthar" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">Urjasvi Suthar</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">Urjasvi Suthar</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/BlackGoku36" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../frameworks/framework.html#armory">
-  <span class="has-text-weight-semibold">Armory</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/BlackGoku36" title="User BlackGoku36 on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../frameworks/framework.html#armory">Armory</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="urs_wolfer" class="box">
-      <div class="level">
+    <div id="urs_wolfer" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">Urs Wolfer</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">Urs Wolfer</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/uwolfer" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/B.html#blinken">
-  <span class="has-text-weight-semibold">Blinken</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/uwolfer" title="User uwolfer on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/B.html#blinken">Blinken</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="urschel" class="box">
-      <div class="level">
+    <div id="urschel" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">Urschel</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">Urschel</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/Urschel" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/O.html#openclonk">
-  <span class="has-text-weight-semibold">OpenClonk</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/Urschel" title="User Urschel on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/O.html#openclonk">OpenClonk</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="urtzi_odriozola" class="box">
-      <div class="level">
+    <div id="urtzi_odriozola" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">Urtzi Odriozola</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">Urtzi Odriozola</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/urtzai" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../frameworks/framework.html#superstarfighter">
-  <span class="has-text-weight-semibold">SuperStarfighter</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/urtzai" title="User urtzai on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../frameworks/framework.html#superstarfighter">SuperStarfighter</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="urumasi" class="box">
-      <div class="level">
+    <div id="urumasi" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">Urumasi</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">Urumasi</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/Urumasi" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/S.html#space_station_13">
-  <span class="has-text-weight-semibold">Space Station 13</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/Urumasi" title="User Urumasi on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/S.html#space_station_13">Space Station 13</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="uselesstoucan" class="box">
-      <div class="level">
+    <div id="uselesstoucan" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">UselessToucan</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">UselessToucan</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/UselessToucan" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/O.html#osu">
-  <span class="has-text-weight-semibold">osu!</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/UselessToucan" title="User UselessToucan on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/O.html#osu">osu!</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="usman_akhtar" class="box">
-      <div class="level">
+    <div id="usman_akhtar" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">Usman Akhtar</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">Usman Akhtar</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/akhtar-u" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/R.html#runelite">
-  <span class="has-text-weight-semibold">RuneLite</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/akhtar-u" title="User akhtar-u on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/R.html#runelite">RuneLite</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="utkarsh" class="box">
-      <div class="level">
+    <div id="utkarsh" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">Utkarsh</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">Utkarsh</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/simpuid" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../frameworks/framework.html#godot">
-  <span class="has-text-weight-semibold">Godot</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/simpuid" title="User simpuid on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../frameworks/framework.html#godot">Godot</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="utkarsh_gautam" class="box">
-      <div class="level">
+    <div id="utkarsh_gautam" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">Utkarsh Gautam</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">Utkarsh Gautam</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/utkarshgautamnyu" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/V.html#vircadia">
-  <span class="has-text-weight-semibold">Vircadia</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/utkarshgautamnyu" title="User utkarshgautamnyu on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/V.html#vircadia">Vircadia</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="utunnels" class="box">
-      <div class="level">
+    <div id="utunnels" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">utunnels</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">utunnels</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/utunnels" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed games:</span><a href="../games/C.html#cataclysm_dark_days_ahead">
-  <span class="has-text-weight-semibold">Cataclysm: Dark Days Ahead</span></a>, <a href="../games/O.html#openbor">
-  <span class="has-text-weight-semibold">OpenBOR</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/utunnels" title="User utunnels on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed games: </span><a href="../games/C.html#cataclysm_dark_days_ahead">Cataclysm: Dark Days Ahead</a>, <a href="../games/O.html#openbor">OpenBOR</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="uwadmin12" class="box">
-      <div class="level">
+    <div id="uwadmin12" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">uwadmin12</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">uwadmin12</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/uwadmin12" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/R.html#reone">
-  <span class="has-text-weight-semibold">reone</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/uwadmin12" title="User uwadmin12 on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/R.html#reone">reone</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="uwe_hermann" class="box">
-      <div class="level">
+    <div id="uwe_hermann" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">Uwe Hermann</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">Uwe Hermann</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://sourceforge.net/u/uh1763/profile/" title="Profile on Sourceforge"><span class="icon is-large has-text-black" ><i class="icon-sourceforge"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/C.html#civil">
-  <span class="has-text-weight-semibold">Civil</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://sourceforge.net/u/uh1763/profile/" title="User uh1763 on Sourceforge"><span class="icon has-text-black"><i class="icon-sourceforge"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/C.html#civil">Civil</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="uyghur" class="box">
-      <div class="level">
+    <div id="uyghur" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">Uyghur</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">Uyghur</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/gheyret" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
-    </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/A.html#aisleriot">
-  <span class="has-text-weight-semibold">Aisleriot</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/gheyret" title="User gheyret on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/A.html#aisleriot">Aisleriot</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
   
-    <div id="uzhosnah" class="box">
-      <div class="level">
+    <div id="uzhosnah" class="box"><div class="level">
         <div class="level-left">
-          <div class="level-item">
-            <h2 class="title is-4">uzhosnah</h2>
-          </div>
+          <div class="level-item"><p class="title is-4">uzhosnah</p></div>
         </div>
-      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/uzhosnah" title="Profile on Github"><span class="icon is-large has-text-black" ><i class="icon-github"></i></span></a></div></div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/uzhosnah" title="User uzhosnah on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/E.html#ezquake">ezQuake</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
-    <div class="block">
-  <span class="has-text-weight-semibold">Developed game:</span><a href="../games/E.html#ezquake">
-  <span class="has-text-weight-semibold">ezQuake</span></a></div>
-      <div class="block"></div>
-      <div class="block">
-        <a href="../contribute.html#developers" title="Contribution guide" class="is-size-7">Improve</a>
-      </div>
+  
+    <div id="ustun_ergenoglu" class="box"><div class="level">
+        <div class="level-left">
+          <div class="level-item"><p class="title is-4">Üstün Ergenoglu</p></div>
+        </div>
+      <div class="level-right is-size-5"><div class="level-item"><a href="https://github.com/rgngl" title="User rgngl on Github"><span class="icon has-text-black"><i class="icon-github"></i></span></a></div></div>
+    </div><div class="block">
+  <span class="has-text-weight-semibold">Developed game: </span><a href="../games/G.html#gameplay">GamePlay</a></div><div class="block"></div><p class="is-size-7 has-text-right"><a href="../contribute.html#developers" title="Contribution guide">Improve</a></p>
     </div>
-  <a class="is-light is-size-7" href="#">Back to top</a>
+  <p class="is-size-7 has-text-right"><a href="#">Back to top</a></p>
   </div>
-</section>
-<footer class="footer">
-  <div class="container content is-size-7">
-    <p>The <a href="https://github.com/Trilarion/opensourcegames">Open source games list (OSGL)</a> is a collection of open source game descriptions focusing on technical aspects.
-    The content on this site is the result of voluntary work and may be outdated or incorrect.<br>
-    For giving feedback or improving the content see the <a href="contribute.html">contribution guidelines</a> or read the <a href="https://trilarion.blogspot.com/search/label/osgames">Blog</a>.</p>
-    <p>The content (games descriptions) is licensed <a href="https://github.com/Trilarion/opensourcegames/blob/master/LICENSE">CC-0</a>.
-    Used icons are licensed under CC BY-SA 3.0 (<a href="https://github.com/somerandomdude/Iconic">Iconic</a> or <a href="http://designmodo.com/linecons-free/">Linecons</a>), CC0 1.0 (<a href="https://simpleicons.org/">Simple Icons</a>),
-    CC BY 4.0 (<a href="https://github.com/FortAwesome/Font-Awesome">Font Awesome</a> or <a href="https://icomoon.io/#icons-icomoon">IcoMoon Free</a>), CC BY-SA 4.0 (<a href="http://www.entypo.com/">Entypo+</a>) or Apache License 2.0 (<a href="https://material.io/resources/icons">Material Icons</a>).
-    This website is built using Python, Lark, Jinja2 and Bulma. Last updated: 2021-10-02 13:39</p>
-  </div>
+<footer class="footer container content is-size-7">
+  <p>The <a href="https://github.com/Trilarion/opensourcegames">Open source games list (OSGL)</a> is a collection of open source game descriptions focusing on technical aspects.
+  The content on this site is the result of voluntary work and may be outdated or incorrect. For giving feedback or improving the content see the
+  <a href="contribute.html">contribution guidelines</a> or read the <a href="https://trilarion.blogspot.com/search/label/osgames">Blog</a>.</p>
+  <p>The content (games descriptions) is licensed <a href="https://github.com/Trilarion/opensourcegames/blob/master/LICENSE">CC-0</a>.
+  Used icons are licensed under CC BY-SA 3.0 (<a href="https://github.com/somerandomdude/Iconic">Iconic</a> or <a href="http://designmodo.com/linecons-free/">Linecons</a>), CC0 1.0 (<a href="https://simpleicons.org/">Simple Icons</a>),
+  CC BY 4.0 (<a href="https://github.com/FortAwesome/Font-Awesome">Font Awesome</a> or <a href="https://icomoon.io/#icons-icomoon">IcoMoon Free</a>), CC BY-SA 4.0 (<a href="http://www.entypo.com/">Entypo+</a>) or Apache License 2.0 (<a href="https://material.io/resources/icons">Material Icons</a>).
+  This website is built using Python, Lark, Jinja2 and Bulma. Last updated: 2021-10-05 11:16</p>
 </footer>
 </body>
 </html>

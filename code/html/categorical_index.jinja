@@ -1,35 +1,36 @@
 {% extends "base.jinja" %}
 {% block content %}
-<section class="section">
 <div class="container">
   <div class="box">
                             {#- title and subtitle -#}
     <div class="block">
-      <h1 class="title">{{ macros.render_element(index['title']) }}</h1>
-      {%- if 'subtitle' in index -%}
-      <h2 class="subtitle">{{ macros.render_element(index['subtitle']) }}</h2>
-      {%- endif -%}
+      <p class="title is-4">{{ macros.render_element(index['title']) }}</p>
+      {%- if 'subtitle' in index %}<p class="subtitle is-6">{{ macros.render_element(index['subtitle']) }}</p>{% endif -%}
     </div>
-                            {#- index of the categories -#}
+                            {#- index of the categories as tags -#}
     <div class="tags">
     {% for category in index['categories'] -%}
       <span class="tag is-white {% if index['number_entries'][category] > index['number_entries_per_category_threshold'] %}is-size-5{% else %}is-size-6{% endif %}">
-      <a href="#{{ category.lower() }}" class="has-text-weight-semibold mr-1">{{ macros.render_element(index['category-names'][category]) }}</a> <span class="has-text-grey">({{ index['number_entries'][category] }})</span>
+      {%- if category in index['category-icons'] %}{{ macros.render_element(index['category-icons'][category]) }}{% endif -%}
+      <a href="#{{ category.lower() }}" class="has-text-weight-semibold">{{ macros.render_element(index['category-names'][category]) }}</a> <span class="has-text-grey">({{ index['number_entries'][category] }})</span>
       </span>
     {%- endfor %}
     </div>
   </div>
-                            {#- each of the categories -#}
+                            {#- each of the categories one box -#}
 {% for category in index['categories'] %}
-<div class="box">
+<div id="{{ category.lower() }}" class="box">
   <div class="block">
-    <h2 id="{{ category.lower() }}" class="is-size-4 has-text-weight-semibold">{{ macros.render_element(index['category-names'][category]) }}</h2>
-    {%- if category in index['category-infos'] -%}{{ macros.render_element(index['category-infos'][category]) }}{%- endif -%}
+    {%- if category in index['category-icons'] %}{{ macros.render_element(index['category-icons'][category]) }}{% endif -%}
+    <span class="title is-4">{{ macros.render_element(index['category-names'][category]) }}</span>
+    {%- if category in index['category-infos'] -%}<br>{{ macros.render_element(index['category-infos'][category]) }}{%- endif -%}
   </div>
   <div class="columns">
+                            {#- each of the entry sets one column -#}
   {%- for entries_column in index['entries'][category] -%}
     <div class="column">
       <ul>
+                            {#- for each entry one link -#}
       {%- for entry in entries_column -%}
         <li>{%- if index['entry_bold'](entry) -%}<span class="has-text-weight-semibold">{%- endif -%}
             {{ macros.render_element(entry['url']) }}{%- if 'tags' in entry -%}{{ macros.render_element(entry['tags']) }}{%- endif -%}
@@ -39,9 +40,8 @@
     </div>
   {%- endfor -%}
   </div>
-  <a class="is-light is-size-7" href="#">Back to top</a>
+  <p class="is-size-7 has-text-right"><a href="#">Back to top</a></p>
 </div>
-{% endfor %}
+{%- endfor -%}
 </div>
-</section>
 {% endblock %}

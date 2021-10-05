@@ -210,3 +210,4 @@ xrick (http://www.bigorno.net/xrick): No open source license/unclear license (se
 Yave (https://github.com/gan74/Yave): General graphics engine, not game centered in any way and experimental
 Yuris Revenge (https://github.com/cookgreen/Yuris-Revenge): Mod to OpenRA
 zedragon (https://github.com/charlierobson/zedragon.git): License not found, Assembly, not sure which OS is supported, no release, not much guidance
+Imperia (http://imperiagame.wordpress.com/, https://sourceforge.net/projects/imperia/): No sources found, no clear license information found (old download at https://www.indiedb.com/games/imperia/downloads/imperia-alpha-v401b-setup-files)

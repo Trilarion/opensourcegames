@@ -79,6 +79,7 @@ HistoryLine (https://github.com/oliverdb/Historyline): Very early development, n
 Homeworld SDL (https://github.com/aheadley/homeworld): Not open source compliant license (see https://github.com/aheadley/homeworld/blob/master/README)
 Howitzer Skirmish (http://howski.sourceforge.net/): No source code
 Ikariam (https://github.com/advocaite/ikariam, https://github.com/TheOnly92/Ikariem): No license information found, no assets license information found
+Imperia (http://imperiagame.wordpress.com/, https://sourceforge.net/projects/imperia/): No sources found, no clear license information found (old download at https://www.indiedb.com/games/imperia/downloads/imperia-alpha-v401b-setup-files)
 imperialism-remake (http://remake.twelvepm.de/, https://github.com/Trilarion/imperialism-Remake): Too minimal (I must know)
 Imperium: Sticks (http://rtciv.sourceforge.net/, http://sourceforge.net/projects/rtciv): No source code available
 ImperiumAO (https://sourceforge.net/projects/impao, https://www.imperiumao.com.ar/): Only engine is open source, engine is ORE
@@ -210,4 +211,3 @@ xrick (http://www.bigorno.net/xrick): No open source license/unclear license (se
 Yave (https://github.com/gan74/Yave): General graphics engine, not game centered in any way and experimental
 Yuris Revenge (https://github.com/cookgreen/Yuris-Revenge): Mod to OpenRA
 zedragon (https://github.com/charlierobson/zedragon.git): License not found, Assembly, not sure which OS is supported, no release, not much guidance
-Imperia (http://imperiagame.wordpress.com/, https://sourceforge.net/projects/imperia/): No sources found, no clear license information found (old download at https://www.indiedb.com/games/imperia/downloads/imperia-alpha-v401b-setup-files)

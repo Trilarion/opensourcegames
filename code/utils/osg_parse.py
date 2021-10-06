@@ -14,10 +14,10 @@ class ListingTransformer(lark.Transformer):
     """
 
     def unquoted_value(self, x):
-        return x[0].value.strip()
+        return x[0].strip()
 
     def quoted_value(self, x):
-        return x[0].value[1:-1].strip()  # remove quotation marks and strip whitespaces
+        return x[0][1:-1].strip()  # remove quotation marks and strip whitespaces
 
     def property(self, x):
         """
@@ -25,7 +25,7 @@ class ListingTransformer(lark.Transformer):
         :param x:
         :return:
         """
-        return x[0].value, x[1:]
+        return x[0], x[1:]
 
     def name(self, x):
         """
@@ -33,7 +33,7 @@ class ListingTransformer(lark.Transformer):
         :param x:
         :return:
         """
-        return 'Name', x[0].value.strip()
+        return 'Name', x[0].strip()
 
     def entry(self, x):
         """
@@ -56,19 +56,25 @@ class ListingTransformer(lark.Transformer):
 class EntryTransformer(lark.Transformer):
 
     def unquoted_value(self, x):
-        return x[0].value.strip()
+        return x[0].strip()
 
     def quoted_value(self, x):
-        return x[0].value[1:-1].strip()  # remove quotation marks
+        return x[0][1:-1].strip()  # remove quotation marks
 
     def comment_value(self, x):
-        return x[0].value[1:-1].strip()  # remove parenthesis
+        return x[0][1:-1].strip()  # remove parenthesis
 
     def value(self, x):
+        """
+        This also stores the comment if needed.
+
+        :param x:
+        :return:
+        """
         if len(x) == 1:
-            v = ValueWithComment(value=x[0])
+            v = x[0]
         else:
-            v = ValueWithComment(value=x[0], comment=x[1])
+            v = Value(*x)
         return v
 
     def property(self, x):
@@ -77,10 +83,10 @@ class EntryTransformer(lark.Transformer):
         :param x:
         :return:
         """
-        return x[0].value.strip(), x[1:]
+        return x[0].strip(), x[1:]
 
     def title(self, x):
-        return 'Title', x[0].value.strip()
+        return 'Title', x[0].strip()
 
     def note(self, x):
         """
@@ -90,7 +96,7 @@ class EntryTransformer(lark.Transformer):
         """
         if not x:
             raise lark.Discard
-        return 'Note', ''.join((x.value for x in x))
+        return 'Note', ''.join(x)
 
     def building(self, x):
         return 'Building', x
@@ -98,40 +104,16 @@ class EntryTransformer(lark.Transformer):
     def start(self, x):
         return x
 
-# TODO turns out ValueWithComment does not really solve problem but actually creates even some, are there alternatives like inheriting from string?
-class ValueWithComment:
+
+class Value(str):
     """
-      All our property values can have (optional) comments. This is the class that represents them to us and implements
-      equality and 'in' operator functionality purely on the value.
+    A value is a string with some additional meta object (a comment) but mostly behaves as a string.
     """
 
-    def __init__(self, value, comment=None):
-        self.value = value
-        self.comment = comment
-
-    def is_empty(self):
-        return self.value == ''
-
-    def has_comment(self):
-        return self.comment is not None
-
-    def startswith(self, str):
-        return self.value.startswith(str)
-
-    def __contains__(self, item):
-        return item in self.value
-
-    def __eq__(self, other):
-        return self.value == other
-
-    def __repr__(self):
-        if self.comment:
-            return '{} ({})'.format(self.value, self.comment)
-        else:
-            return '{}'.format(self.value)
-
-    def __hash__(self):
-        return hash(self.value)
+    def __new__(cls, value, comment):
+        obj = str.__new__(cls, value)
+        obj.comment = comment
+        return obj
 
 def parse(parser, transformer, content):
     tree = parser.parse(content)

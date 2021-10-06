@@ -76,7 +76,7 @@ def sourceforge_import():
             # read full entry
             entry = osg.read_entry(file)
             developers = entry.get('Developer', [])
-            urls = [x.value for x in entry['Home'] if x.startswith('https://sourceforge.net/projects/')]
+            urls = [x for x in entry['Home'] if x.startswith('https://sourceforge.net/projects/')]
 
             # do we need to save it again
             entry_changed = False
@@ -133,7 +133,7 @@ def sourceforge_import():
                     # look author up in entry developers field, if not existing add
                     if author_name not in developers:
                         print('   dev "{}" added to entry {}'.format(author_name, file))
-                        entry['Developer'] = entry.get('Developer', []) + [osg_parse.ValueWithComment(author_name)]
+                        entry['Developer'] = entry.get('Developer', []) + [author_name]
                         entry_changed = True
                         developers = entry.get('Developer', [])  # update developers
 

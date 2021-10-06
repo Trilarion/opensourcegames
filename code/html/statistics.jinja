@@ -1,12 +1,13 @@
 {% extends "base.jinja" %}
 {% block content %}
-  <div class="container">
-    <p class="title is-4">{{ data['title'] }}</p>
+<div class="container">
+  <div class="box"><p class="title is-4">{{ data['title'] }}</p></div>
 {% set comma = joiner(",") %}
 {% for section in data['sections'] %}
     {{ comma() }} <a href="#">{{ section['title'] }}</a>
 {% endfor %}
     </div>
+                            {#- each statistics section -#}
 {% for section in data['sections'] %}
   <section class="section">
     <div class="container">

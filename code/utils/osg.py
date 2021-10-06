@@ -340,11 +340,11 @@ def check_and_process_entry(entry):
     if canonical_file_name != file and canonical_file_name != file[:-5] + '.md':
         message += 'file name should be {}\n'.format(canonical_file_name)
 
-    # check that fields without comments have no comments, set to field without comment
+    # check that fields without comments have no comments (i.e. are no Values)
     for field in c.fields_without_comments:
         if field in entry:
             content = entry[field]
-            if any(item.has_comment() for item in content):
+            if any(isinstance(item, osg_parse.Value) for item in content):
                 message += 'field without comments {} has comment\n'.format(field)
 
     # state must contain either beta or mature but not both
@@ -359,8 +359,8 @@ def check_and_process_entry(entry):
     for field in c.url_fields:
         values = entry.get(field, [])
         for value in values:
-            if value.value.startswith('<') and value.value.endswith('>'):
-                value.value = value.value[1:-1]
+            if value.startswith('<') and value.endswith('>'):
+                value = value[1:-1]
             if not any(value.startswith(x) for x in c.valid_url_prefixes):
                 message += 'URL "{}" in field "{}" does not start with a valid prefix'.format(value, field)
 
@@ -368,7 +368,7 @@ def check_and_process_entry(entry):
     for repo in entry.get('Code repository', []):
         if any(repo.startswith(x) for x in ('@', '?')):
             continue
-        repo = repo.value.split(' ')[0].strip()
+        repo = repo.split(' ')[0].strip()
         if any((x in repo for x in ('github', 'gitlab', 'git.tuxfamily', 'git.savannah'))):
                 if not repo.startswith('https://'):
                     message += 'Repo "{}" should start with https://'.format(repo)
@@ -420,7 +420,7 @@ def is_inactive(entry):
 def extract_inactive_year(entry):
     state = entry['State']
     phrase = 'inactive since '
-    inactive_year = [x.value[len(phrase):] for x in state if x.startswith(phrase)]
+    inactive_year = [x[len(phrase):] for x in state if x.startswith(phrase)]
     assert len(inactive_year) <= 1
     if inactive_year:
         return int(inactive_year[0])
@@ -457,9 +457,29 @@ def write_entry(entry):
     utils.write_text(entry_path, content)
 
 
-def create_entry_content(entry):
+def render_value(value):
     """
 
+    :param value:
+    :return:
+    """
+    if isinstance(value, osg_parse.Value):
+        comment = value.comment
+    else:
+        comment = None
+    if any(x in value for x in (',', ' (')):
+        value = '"{}"'.format(value)
+    if comment:
+        return '{} ({})'.format(value, comment)
+    else:
+        return value
+
+
+def create_entry_content(entry):
+    """
+    Creates the entry content from an internal representation as dictionary with fields to a text file representation
+    that can be stored in the md files. It should be compatible with the gramar and reading a file and re-creating the
+    content should not change the content. Importanly, the comments of the values have to be added here.
     :param entry:
     :return:
     """
@@ -468,7 +488,7 @@ def create_entry_content(entry):
     content = '# {}\n\n'.format(entry['Title'])
 
     # we automatically sort some fields
-    sort_fun = lambda x: str.casefold(x.value)
+    sort_fun = lambda x: str.casefold(x)
     for field in ('Media', 'Inspiration', 'Code Language', 'Developer', 'Build system'):
         if field in entry:
             values = entry[field]
@@ -479,12 +499,11 @@ def create_entry_content(entry):
     b = [x for x in keywords if x not in c.recommended_keywords]
     entry['Keyword'] = sorted(a, key=sort_fun) + sorted(b, key=sort_fun)
 
-    # now all properties in the recommended order
+    # now all properties are in the recommended order
     for field in c.valid_properties:
         if field in entry:
             e = entry[field]
-            e = ['"{}"'.format(x) if any(y in x.value for y in (',', ' (')) else x for x in e]
-            e = [str(x) for x in e]
+            e = [render_value(x) for x in e]
             e = list(dict.fromkeys(e))  # this removes duplicates while keeping the sorting order
             content += '- {}: {}\n'.format(field, ', '.join(e))
     content += '\n'
@@ -504,8 +523,8 @@ def create_entry_content(entry):
                 has_properties = True
                 content += '\n'
             e = entry['Building'][field]
-            e = ['"{}"'.format(x) if ',' in x else x for x in e]
-            e = [str(x) for x in e]
+            e = [render_value(x) for x in e]
+            e = list(dict.fromkeys(e))  # this removes duplicates while keeping the sorting order
             content += '- {}: {}\n'.format(field, ', '.join(e))
 
     # if there is a note, insert it
@@ -533,16 +552,14 @@ def all_urls(entries):
     :param entries: 
     :return: 
     """
+    # TODO there are other fields than c.url_fields and also in comments, maybe just regex on the whole content
+    # TODO this might be part of the external link check or it might not, check for duplicate code
     urls = {}
     # iterate over entries
     for entry in entries:
         file = entry['File']
-        for field in c.url_fields:  # TODO there are other fields, maybe just regex on the whole content
+        for field in c.url_fields:
             for value in entry.get(field, []):
-                if value.comment:
-                    value = value.value + ' ' + value.comment
-                else:
-                    value = value.value
                 for subvalue in value.split(' '):
                     subvalue = subvalue.strip()
                     if is_url(subvalue):

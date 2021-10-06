@@ -281,14 +281,14 @@ if __name__ == "__main__":
                     osgc_languages = osgc_entry['lang']
                     if type(osgc_languages) == str:
                         osgc_languages = [osgc_languages]
-                    our_languages = [x.value for x in our_entry['Code language']]  # essential field
+                    our_languages = our_entry['Code language']
                     p += compare_sets(osgc_languages, our_languages, 'code language')
 
                 # compare their license with our code and assets license
                 if 'license' in osgc_entry:
                     osgc_licenses = osgc_entry['license']
-                    our_code_licenses = [x.value for x in our_entry['Code license']]  # essential field
-                    our_assets_licenses = [x.value for x in our_entry.get('Assets license', [])]
+                    our_code_licenses = our_entry['Code license']  # essential field
+                    our_assets_licenses = our_entry.get('Assets license', [])
                     p += compare_sets(osgc_licenses, our_code_licenses + our_assets_licenses, 'licenses', 'notthem')
                     p += compare_sets(osgc_licenses, our_code_licenses, 'licenses', 'notus')
 
@@ -298,7 +298,7 @@ if __name__ == "__main__":
                     osgc_frameworks = osgc_entry['framework']
                     if type(osgc_frameworks) == str:
                         osgc_frameworks = [osgc_frameworks]
-                    our_frameworks = [x.value for x in our_entry.get('Code dependency', [])]
+                    our_frameworks = our_entry.get('Code dependency', [])
                     our_frameworks = [x.casefold() for x in our_frameworks]
                     our_frameworks = [x if x not in our_framework_replacements else our_framework_replacements[x] for x
                                       in our_frameworks]
@@ -315,13 +315,13 @@ if __name__ == "__main__":
                         'sourceforge.net/projects/')]  # we don't need the general sites there
                     # osgc_repos = [x for x in osgc_repos if not x.startswith('https://sourceforge.net/projects/')] # ignore some
                     our_repos = our_entry.get('Code repository', [])
-                    our_repos = [utils.strip_url(url.value) for url in our_repos]
+                    our_repos = [utils.strip_url(url) for url in our_repos]
                     our_repos = [x for x in our_repos if not x.startswith(
                         'gitlab.com/osgames/')]  # we do not yet spread our own deeds (but we will some day)
                     our_repos = [x for x in our_repos if
                                  'cvs.sourceforge.net' not in x and 'svn.code.sf.net/p/' not in x]  # no cvs or svn anymore
                     our_downloads = our_entry.get('Download', [])
-                    our_downloads = [utils.strip_url(url.value) for url in our_downloads]
+                    our_downloads = [utils.strip_url(url) for url in our_downloads]
                     p += compare_sets(osgc_repos, our_repos + our_downloads, 'repo',
                                       'notthem')  # if their repos are not in our downloads or repos
                     p += compare_sets(osgc_repos, our_repos[:1], 'repo',
@@ -334,7 +334,7 @@ if __name__ == "__main__":
                         osgc_urls = [osgc_urls]
                     osgc_urls = [utils.strip_url(url) for url in osgc_urls]
                     our_urls = our_entry['Home']
-                    our_urls = [utils.strip_url(url.value) for url in our_urls]
+                    our_urls = [utils.strip_url(url) for url in our_urls]
                     p += compare_sets(osgc_urls, our_urls, 'url/home', 'notthem')  # if their urls are not in our urls
                     # our_urls = [url for url in our_urls if
                     #             not url.startswith('github.com/')]  # they don't have them as url
@@ -361,10 +361,10 @@ if __name__ == "__main__":
                         p += ' development : mismatch : them complete, us not mature\n'
 
                 # get our keywords
-                our_keywords = [x.value for x in our_entry['Keyword']] # essential
+                our_keywords = our_entry['Keyword'] # essential
 
                 # compare their originals to our inspirations
-                our_originals = [x.value for x in our_entry.get('Inspiration', [])]
+                our_originals = our_entry.get('Inspiration', [])
                 if 'originals' in osgc_entry:
                     osgc_originals = osgc_entry['originals']
                     osgc_originals = [x.replace(',', '') for x in

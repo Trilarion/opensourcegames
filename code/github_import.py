@@ -82,7 +82,7 @@ def github_import():
             # read entry
             entry = osg.read_entry(file)
             code_repositories = entry['Code repository']
-            repos = [x.value for x in code_repositories if x.startswith(prefix)]
+            repos = [x for x in code_repositories if x.startswith(prefix)]
             repos[0] += ' @add'
             repos = [x for x in repos if '@add' in x]
             repos = [x.split(' ')[0] for x in repos]
@@ -112,7 +112,7 @@ def github_import():
 
                 # update comment
                 for r in code_repositories:
-                    if r.value.startswith(repo):
+                    if r.startswith(repo):
                         break
                 comments = r.comment
                 if comments:
@@ -128,7 +128,7 @@ def github_import():
                 language = info['language']
                 language = language_aliases.get(language, language)
                 if language and language not in entry['Code language'] and language not in ignored_languages:
-                    entry['Code language'].append(osg_parse.ValueWithComment(language))
+                    entry['Code language'].append(language)
                     print('  added to languages: {}'.format(language))
 
                 # contributors
@@ -155,7 +155,7 @@ def github_import():
                     # look up author in entry developers
                     if name not in entry.get('Developer', []):
                         print('   dev "{}" added to entry {}'.format(name, file))
-                        entry['Developer'] = entry.get('Developer', []) + [osg_parse.ValueWithComment(name)]
+                        entry['Developer'] = entry.get('Developer', []) + [name]
 
                     # look up author in developers data base
                     if name in all_developers:
@@ -204,7 +204,7 @@ def github_starring_synchronization():
 
         # get repos
         code_repositories = entry.get('Code repository', [])
-        repos = [x.value for x in code_repositories if x.startswith(prefix)]
+        repos = [x for x in code_repositories if x.startswith(prefix)]
         repos[0] += ' @add'
         repos = [x for x in repos if '@add' in x]
         repos = [x.split(' ')[0] for x in repos]

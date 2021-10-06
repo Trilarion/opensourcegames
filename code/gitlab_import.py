@@ -54,7 +54,7 @@ def gitlab_import():
             # read entry
             entry = osg.read_entry(file)
             code_repositories = entry['Code repository']
-            repos = [x.value for x in code_repositories if x.startswith(prefix)]
+            repos = [x for x in code_repositories if x.startswith(prefix)]
             repos[0] += ' @add'
             repos = [x for x in repos if '@add' in x]
             repos = [x.split(' ')[0] for x in repos]
@@ -77,7 +77,7 @@ def gitlab_import():
 
                 # search for repository
                 for r in code_repositories:
-                    if r.value.startswith(repo):
+                    if r.startswith(repo):
                         break
 
                 # update comment
@@ -94,7 +94,7 @@ def gitlab_import():
                 # language in languages
                 for language, usage in info['languages'].items():
                     if language in c.known_languages and usage > 5 and language not in entry['Code language']:
-                        entry['Code language'].append(osg_parse.ValueWithComment(language))
+                        entry['Code language'].append(language)
                         print('  added to languages: {}'.format(language))
 
             entry['Code repository'] = code_repositories
@@ -125,7 +125,7 @@ def gitlab_starring_synchronization():
 
         # get repos
         code_repositories = entry.get('Code repository', [])
-        repos = [x.value for x in code_repositories if x.startswith(prefix)]
+        repos = [x for x in code_repositories if x.startswith(prefix)]
         repos[0] += ' @add'
         repos = [x for x in repos if '@add' in x]
         repos = [x.split(' ')[0] for x in repos]

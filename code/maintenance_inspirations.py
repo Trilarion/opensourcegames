@@ -152,7 +152,6 @@ class InspirationMaintainer:
         for entry in self.entries:
             entry_name = entry['Title']
             for inspiration in entry.get('Inspiration', []):
-                inspiration = inspiration.value
                 if inspiration in self.inspirations:
                     self.inspirations[inspiration]['Inspired entries'].append(entry_name)
                 else:

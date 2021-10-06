@@ -100,7 +100,6 @@ class DevelopersMaintainer:
             entry_name = entry['Title']
             entry_devs = entry.get('Developer', [])
             for entry_dev in entry_devs:
-                entry_dev = entry_dev.value  # ignore a possible comment
                 if entry_dev in self.developers:
                     self.developers[entry_dev]['Games'].append(entry_name)
                 else:
@@ -127,7 +126,7 @@ class DevelopersMaintainer:
         # for entry in self.entries:
         #     for developer in entry.get('Developer', []):
         #         if developer.comment:
-        #             print('{:<25} - {:<25} - {}'.format(entry['File'], developer.value, developer.comment))
+        #             print('{:<25} - {:<25} - {}'.format(entry['File'], developer, developer.comment))
 
 
 if __name__ == "__main__":

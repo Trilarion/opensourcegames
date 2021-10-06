@@ -68,9 +68,10 @@ fields_without_comments = ('Inspiration', 'Play', 'Download', 'Platform', 'Code 
 recommended_keywords = (
     'action', 'arcade', 'adventure', 'visual novel', 'sports', 'platform', 'puzzle', 'role playing', 'simulation',
     'strategy', 'cards', 'board', 'music', 'educational', 'tool', 'game engine', 'framework', 'library', 'remake')
+# TODO unmake remake a recommended keyword (should be the same as clone maybe), i.e. add another recommended keyword if only remake is in there
 
-# non game keywords take precedence
-non_game_keywords = ('framework', 'library', 'tool')
+# non game keywords take precedence over other (game) recommended keywords, at most one of them per entry
+non_game_keywords = ('framework', 'game engine', 'library', 'tool')
 
 # known programming languages, anything else will result in a warning during a maintenance operation
 # only these will be used when gathering statistics

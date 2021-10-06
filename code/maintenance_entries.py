@@ -56,7 +56,6 @@ def create_toc(title, file, entries):
     rows = []
     for entry in entries:
         info = entry['Code language'] + entry['Code license'] + entry['State']
-        info = [x.value for x in info]
         rows.append('- **[{}]({})** ({})'.format(entry['Title'], '../' + entry['File'], ', '.join(info)))
 
     # sort rows (by title)
@@ -130,7 +129,6 @@ class EntriesMaintainer:
             keywords.extend(entry['Keyword'])
             if b'first\xe2\x80\x90person'.decode() in entry['Keyword']:
                 print(entry['File'])
-        keywords = [x.value for x in keywords]
 
         # reduce those starting with "multiplayer"
         keywords = [x if not x.startswith('multiplayer') else 'multiplayer' for x in keywords]
@@ -159,7 +157,6 @@ class EntriesMaintainer:
         for entry in self.entries:
             deps = entry.get('Code dependency', [])
             for dependency in deps:
-                dependency = dependency.value
                 if dependency in referenced_dependencies:
                     referenced_dependencies[dependency] += 1
                 else:
@@ -516,7 +513,6 @@ class EntriesMaintainer:
         languages = []
         for entry in self.entries:
             languages.extend(entry[field])
-        languages = [x.value for x in languages]
 
         unique_languages = set(languages)
         unique_languages = [(l, languages.count(l) / len(languages)) for l in unique_languages]
@@ -538,7 +534,6 @@ class EntriesMaintainer:
         licenses = []
         for entry in self.entries:
             licenses.extend(entry[field])
-        licenses = [x.value for x in licenses]
 
         unique_licenses = set(licenses)
         unique_licenses = [(l, licenses.count(l) / len(licenses)) for l in unique_licenses]
@@ -560,7 +555,6 @@ class EntriesMaintainer:
         keywords = []
         for entry in self.entries:
             keywords.extend(entry[field])
-        keywords = [x.value for x in keywords]
 
         # reduce those starting with "multiplayer"
         keywords = [x if not x.startswith('multiplayer') else 'multiplayer' for x in keywords]
@@ -597,7 +591,7 @@ class EntriesMaintainer:
             popular = False
             for repo in entry.get(field, []):
                 for popular_repo in popular_code_repositories:
-                    if popular_repo in repo.value:
+                    if popular_repo in repo:
                         popular = True
                         break
             # if there were repositories, but none popular, add them to the list
@@ -618,7 +612,6 @@ class EntriesMaintainer:
             if field in entry:
                 code_dependencies.extend(entry[field])
                 entries_with_code_dependency += 1
-        code_dependencies = [x.value for x in code_dependencies]
         statistics += 'With code dependency field {} ({:.1f}%)\n\n'.format(entries_with_code_dependency,
                                                                            rel(entries_with_code_dependency))
 
@@ -644,7 +637,6 @@ class EntriesMaintainer:
         for entry in self.entries:
             if field in entry['Building']:
                 build_systems.extend(entry['Building'][field])
-        build_systems = [x.value for x in build_systems]
 
         statistics += 'Build systems information available for {:.1f}% of all projects.\n\n'.format(
             rel(len(build_systems)))
@@ -690,7 +682,6 @@ class EntriesMaintainer:
         for entry in self.entries:
             if field in entry:
                 platforms.extend(entry[field])
-        platforms = [x.value for x in platforms]
 
         statistics += 'Platform information available for {:.1f}% of all projects.\n\n'.format(rel(len(platforms)))
 
@@ -708,67 +699,12 @@ class EntriesMaintainer:
 
     def update_html(self):
         """
-        Parses all entries, collects interesting info and stores it in a json file suitable for displaying
-        with a dynamic table in a browser.
         """
         if not self.entries:
             print('entries not yet loaded')
             return
 
-        # make database out of it
-        db = {'headings': ['Game', 'Description', 'Download', 'State', 'Keyword', 'Source']}
-
-        entries = []
-        for info in self.entries:
-
-            # game & description
-            entry = ['{} (<a href="{}">home</a>, <a href="{}">entry</a>)'.format(info['Title'], info['Home'][0],
-                                                                                 r'https://github.com/Trilarion/opensourcegames/blob/master/entries/' +
-                                                                                 info['File']),
-                     textwrap.shorten(info.get('Note', ''), width=60, placeholder='..')]
-
-            # download
-            field = 'Download'
-            if field in info and info[field]:
-                entry.append('<a href="{}">Link</a>'.format(info[field][0]))
-            else:
-                entry.append('')
-
-            # state (field state is essential)
-            entry.append('{} / {}'.format(info['State'][0],
-                                          'inactive since {}'.format(osg.extract_inactive_year(info)) if osg.is_inactive(info) else 'active'))
-
-            # keywords
-            keywords = info['Keyword']
-            keywords = [x.value for x in keywords]
-            entry.append(', '.join(keywords))
-
-            # source
-            text = []
-            field = 'Code repository'
-            if field in info and info[field]:
-                text.append('<a href="{}">Source</a>'.format(info[field][0].value))
-            languages = info['Code language']
-            languages = [x.value for x in languages]
-            text.append(', '.join(languages))
-            licenses = info['Code license']
-            licenses = [x.value for x in licenses]
-            text.append(', '.join(licenses))
-            entry.append(' - '.join(text))
-
-            # append to entries
-            entries.append(entry)
-
-        # sort entries by game name
-        entries.sort(key=lambda x: str.casefold(x[0]))
-
-        db['data'] = entries
-
-        # output
-        text = json.dumps(db, indent=1)
-        utils.write_text(c.json_db_file, text)
-
-        print('HTML updated')
+        print('HTML not updated')
 
     def update_repos(self):
         """
@@ -784,7 +720,6 @@ class EntriesMaintainer:
         # for every entry filter those that are known git repositories (add additional repositories)
         for entry in self.entries:
             repos = entry.get('Code repository', [])
-            repos = [x.value for x in repos]
             # keep the first and all others containing @add
             if not repos:
                 continue
@@ -841,7 +776,6 @@ class EntriesMaintainer:
         git_repos = []
         for entry in self.entries:
             repos = entry['Code repository']
-            repos = [x.value for x in repos]
             for repo in repos:
                 repo = repo.split(' ')[0].strip()
                 url = osg.git_repo(repo)
@@ -898,7 +832,7 @@ class EntriesMaintainer:
         # stats = {}
         # for entry in self.entries:
         #     repos = entry.get('Code repository', [])
-        #     comments = [x.comment for x in repos if x.value.startswith('https://github.com/') and x.comment]
+        #     comments = [x.comment for x in repos if x.startswith('https://github.com/') and x.comment]
         #     for comment in comments:
         #         for part in comment.split(','):
         #             part = part.strip()

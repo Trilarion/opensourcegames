@@ -1,7 +1,7 @@
 # OpenRA
 
 - Home: http://www.openra.net/
-- Media: https://en.wikipedia.org/wiki/Command_%26_Conquer:_Red_Alert#Open_source_remake
+- Media: https://en.wikipedia.org/wiki/Command_%26_Conquer:_Red_Alert#Open_Source
 - Inspiration: Command & Conquer, Command & Conquer: Red Alert, Dune 2000
 - State: mature
 - Download: http://www.openra.net/download/

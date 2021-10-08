@@ -616,3 +616,54 @@ def hg_repo(repo):
 
     # not hg
     return None
+
+
+def read_screenshots_overview():
+    """
+
+    :return:
+    """
+    # read screenshots readme and parse
+    overview = {}
+    text = utils.read_text(c.screenshots_file)
+    for entry in text.split('\n# ')[1:]:  # skip first paragraph
+        lines = entry.split('\n')  # split into lines
+        name = lines[0]
+        if name not in overview:
+            overview[name] = {}
+        lines = [line for line in lines[1:] if line]  # include only non-empty lines
+        # for every screenshot
+        for line in lines:
+            values = line.split(' ')  # split into values
+            values = [value for value in values if value]
+            id = int(values[0])  # id (must be there)
+            width = int(values[1])  # width can be 0, will be updated
+            height = int(values[2])  # height can be 0, will be updated
+            if len(values) > 3:  # optional an url
+                url = values[3]
+            else:
+                url = None
+            overview[name][id] = [width, height, url]
+    return overview
+
+
+def write_screenshots_overview(overview):
+    """
+
+    :param overview:
+    :return:
+    """
+    # get preamble
+    text = utils.read_text(c.screenshots_file)
+    text = text.split('\n# ')[0] + '\n'
+
+    for name, a in overview.items():
+        t = '# {}\n\n'.format(name)
+        for id, ai in a.items():
+            if ai[-1] is None:
+                ai = ai[:-1]
+            t += ' '.join(['{:02d}'.format(id)] + [str(x) for x in ai]) + '\n'
+        t += '\n'
+        text += t
+
+    utils.write_text(c.screenshots_file, text)

@@ -10,6 +10,12 @@ Sitemaps is not needed, only for large projects with lots of JavaScript und many
 # TODO most people only come to the main page, put more information there (direct links to genres, ...)
 # TODO put more explanations on the category pages and the categories (number and short sentences)
 
+# TODO text description automaticall generated from keywords, state, and technical informations for example: First-person action shooter written in C++, inspired by ... but inactive for 7 years.
+
+# TODO statistics should have disclaimer (warning or info box) about accuracy with link to contribute guidelines
+
+# TODO game move developer to technical information and maybe rename technical information to details
+
 # TODO game engines should be sorted with frameworks/tools, not with games (they aren't games or are they?)
 
 # TODO if the only change is a change in last updated, do not change it (we can probably check with git diff for it) or checksums
@@ -22,6 +28,8 @@ Sitemaps is not needed, only for large projects with lots of JavaScript und many
 # TODO replace or remove @notices in entries (maybe different entries format)
 
 # TODO everywhere: singular, plural (game, entries, items)
+
+# TODO games: platform icons and mature, state larger (but maybe not on mobile)
 
 # TODO statistics: better and more statistics with links where possible
 # TODO statistics: with nice graphics (pie charts in SVG) with matplotlib
@@ -74,6 +82,8 @@ Sitemaps is not needed, only for large projects with lots of JavaScript und many
 
 # TODO add dynamic table (what to include)
 
+# TODO meta titles for all pages, make them nice because they appear in search results! (https://www.contentpowered.com/blog/good-ctr-search-console/)
+
 import os
 import shutil
 import math
@@ -100,12 +110,14 @@ games_path = ['games']
 non_games_path = ['frameworks']
 inspirations_path = ['inspirations']
 developers_path = ['developers']
+statistics_path = ['statistics']
 
 # derived paths
 games_index_path = games_path + ['index.html']
 non_games_index_path = non_games_path + ['index.html']
 inspirations_index_path = inspirations_path + ['index.html']
 developers_index_path = developers_path + ['index.html']
+statistics_index_path = statistics_path + ['index.html']
 
 games_by_language_path = games_path + ['languages.html']
 games_by_genres_path = games_path + ['genres.html']
@@ -548,6 +560,20 @@ def make_tags(entries):
     }
 
 
+def make_detail(summary, detail):
+    """
+
+    :param summary:
+    :param detail:
+    :return:
+    """
+    return {
+        'type': 'detail',
+        'summary': summary,
+        'detail': detail
+    }
+
+
 def developer_profile_link(link):
     """
     Creates links to developer profiles.
@@ -637,10 +663,12 @@ def create_keyword_tag(keyword):
         else:
             url = games_by_genres_path.copy()
         url[-1] += '#{}'.format(keyword)
-        if keyword.capitalize() in genre_icon_map:
-            return make_url(url, [make_icon(genre_icon_map[keyword.capitalize()]), make_text(keyword)], '{} games'.format(keyword), 'tag is-info')
-        else:
-            return make_url(url, make_text(keyword), '{} games'.format(keyword), 'tag is-info')
+        # TODO are icons looking good in the keyword tags (I somehow doubt it), maybe put them separately somewhere?
+        #if keyword.capitalize() in genre_icon_map:
+        #    return make_url(url, [make_icon(genre_icon_map[keyword.capitalize()]), make_text(keyword)], '{} games'.format(keyword), 'tag is-info')
+        #else:
+        #    return make_url(url, make_text(keyword), '{} games'.format(keyword), 'tag is-info')
+        return make_url(url, make_text(keyword), '{} games'.format(keyword), 'tag is-info')
     else:
         return make_text(keyword, 'tag is-light')
 
@@ -698,10 +726,7 @@ def convert_entries(entries, inspirations, developers):
                 if field == 'Inspiration':
                     e = [make_url(inspirations_references[x], make_text(x)) for x in e]
                 elif field == 'Developer':
-                    if len(e) > 10: # many devs, print smaller
-                        e = [make_url(developer_references[x], make_text(x, 'is-size-7')) for x in e]
-                    else:
-                        e = [make_url(developer_references[x], make_text(x)) for x in e]
+                    e = [make_url(developer_references[x], make_text(x)) for x in e]
                 elif field in c.url_fields:
                     e = [make_url(x, shortcut_url(x, name)) for x in e]
                 else:
@@ -777,7 +802,7 @@ def get_top50_games(games):
     for game in games:
         # get stars of repositories
         stars = 0
-        for repo in game.get('Code repository', []):
+        for repo in game.get('Code repository', [])[:1]:  # take at most one
             if isinstance(repo, osg_parse.Value):
                 for c in repo.comment.split(','):
                     c = c.strip()
@@ -796,6 +821,25 @@ def get_top50_games(games):
     top50_games = top50_games[:50]  # get top 50
     top50_games =[game for game, stars in top50_games]
     return top50_games
+
+
+def add_screenshot_information(entries):
+    """
+
+    :param entries:
+    :return:
+    """
+    # read screenshot information
+    overview = osg.read_screenshots_overview()
+
+    # iterate over entries
+    for entry in entries:
+        # get screenshots entry
+        name = osg.canonical_name(entry['Title'])  # TODO should be stored upon loading I guess
+        screenshots = overview.get(name, {})
+        screenshots = [{'width': s[0], 'height': s[1], 'url': s[2], 'file': ['screenshots', '{}_{:02d}.jpg'.format(name, id)]} for id, s in screenshots.items()]
+        if screenshots: # TODO url None should be treated here or in the jinja template
+            entry['screenshots'] = screenshots
 
 
 def generate(entries, inspirations, developers):
@@ -856,6 +900,12 @@ def generate(entries, inspirations, developers):
     utils.copy_tree(os.path.join(c.web_template_path, 'css'), c.web_css_path)
     utils.copy_tree(os.path.join(c.web_template_path, 'js'), c.web_js_path)
 
+    # copy screenshots path
+    files = [file for file in os.listdir(c.screenshots_path) if file.endswith('.jpg')]
+    os.makedirs(c.web_screenshots_path, exist_ok=True)
+    for file in files:
+        shutil.copyfile(os.path.join(c.screenshots_path, file), os.path.join(c.web_screenshots_path, file))
+
     # collage_image and google search console token and favicon.svg
     for file in ('collage_games.jpg', 'google1f8a3863114cbcb3.html', 'favicon.svg'):
         shutil.copyfile(os.path.join(c.web_template_path, file), os.path.join(c.web_path, file))
@@ -884,7 +934,8 @@ def generate(entries, inspirations, developers):
     template = environment.get_template('contribute.jinja')
     write(template.render(), ['contribute.html'])
 
-    # statistics page
+    # statistics page in statistics folder
+    base['url_to'] = partial(url_to, statistics_path)
     base['active_nav'] = 'statistics'
 
     # statistics preparation
@@ -896,16 +947,17 @@ def generate(entries, inspirations, developers):
 
     # build-systems
     build_systems_stat = stat.get_build_systems(entries)
-    # TODO replace all entries < 10 with "others"
-    # TODO make Pie chart out of it
+    build_systems_stat = stat.truncate_stats(build_systems_stat, 10)
+    stat.export_pie_chart([stat for stat in build_systems_stat if stat[0] != 'N/A'], os.path.join(c.web_path, 'statistics', 'build_systems.svg'))
     section = {
         'title': 'Build system',
-        'items': ['{} ({})'.format(*item) for item in build_systems_stat]
+        'items': ['{} ({})'.format(*item) for item in build_systems_stat],
+        'chart': statistics_path + ['build_systems.svg']
     }
     data['sections'].append(section)
 
     # render and write statistics page
-    write(template.render(data=data), ['statistics.html'])
+    write(template.render(data=data), statistics_index_path)
 
     # non-games folder
     base['url_to'] = partial(url_to, non_games_path)
@@ -998,6 +1050,9 @@ def generate(entries, inspirations, developers):
 
     # top 50 games
     base['active_nav'] = ['filter', 'top50']
+    # there are no other games coming afterwards, can actually number them
+    for index, game in enumerate(top50_games):
+        game['name'] = '{}. '.format(index+1) + game['name']
     listing = {
         'title': 'GitHub Stars Top 50',
         'subtitle': '50 highest rated (by stars on Github) open source games in the database',
@@ -1066,10 +1121,13 @@ if __name__ == "__main__":
     print('clean current static website')
     utils.recreate_directory(c.web_path)
 
-    # load entries, inspirations and developers and sort them
+    # load entries, inspirations and developers and sort them alphabetically
     print('load entries, inspirations and developers')
     entries = osg.read_entries()
     entries.sort(key=lambda x: str.casefold(x['Title']))
+
+    # add screenshot information
+    add_screenshot_information(entries)
 
     inspirations = osg.read_inspirations()
     inspirations = list(inspirations.values())

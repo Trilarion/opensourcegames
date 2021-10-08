@@ -12,6 +12,7 @@
   <section class="section">
     <div class="container">
     <p id="" class="title is-4">{{ section['title'] }}</p>
+    {% if 'chart' in section %}<img src="{{ base['url_to'](section['chart']) }}">{% endif %}
     <ul>
     {% for item in section['items'] -%}
     <li>{{ item }}</li>

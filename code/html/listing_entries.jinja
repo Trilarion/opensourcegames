@@ -23,15 +23,27 @@
   </div>
                     {#- important fields in a certain order -#}
   <div class="block">
-  {%- for field in ('homepage', 'media', 'inspiration', 'download', 'play online', 'developer') -%}
+  {%- for field in ('homepage', 'media', 'inspiration', 'download', 'play online') -%}
     {%- if field in item -%}{{ macros.render_element(item[field]) }}<br>{%- endif -%}
   {%- endfor -%}
   </div>
+                    {#- screenshots if available -#}
+  {%- if 'screenshots' in item%}<nav class="level">
+  {%- for screenshot in item['screenshots'] -%}
+    <div class="level-item"><a href="{{ screenshot['url'] }}"><img src="{{ base['url_to'](screenshot['file']) }}" width="{{ screenshot['width'] }}" height="{{ screenshot['height'] }}" alt=""></a></div>
+  {%- endfor -%}
+  </nav>{% endif -%}
                     {#- technical fields -#}
   <div class="block is-size-7">
-    <span class="has-text-weight-semibold">Technical information</span><br>
-    {%- for field in ('code language', 'code license', 'code repository', 'code dependency', 'assets license', 'build system') -%}
-    {%- if field in item -%}{{ macros.render_element(item[field]) }}<br>{%- endif -%}
+    <span class="has-text-weight-semibold">Details</span><br>
+    {%- for field in ('code language', 'code license', 'code repository', 'code dependency', 'assets license', 'build system', 'developer') -%}
+    {%- if field in item -%}
+      {%- if item[field][1]['entries']|length > 10 -%}
+      <details><summary>{{ macros.render_element(item[field][0]) }} ({{ item[field][1]['entries']|length }})</summary>{{ macros.render_element(item[field][1]) }}</details>
+      {%- else -%}
+      {{ macros.render_element(item[field]) }}
+      {%- endif -%}
+    <br>{%- endif -%}
     {%- endfor -%}
   </div>
                     {#- improve, raw -#}

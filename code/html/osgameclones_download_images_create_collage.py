@@ -55,6 +55,7 @@ def download_images():
             except:
                 pass
 
+
 def downsize_images():
     scale_factor = 10
     for file in os.listdir(download_path):

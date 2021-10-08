@@ -3,6 +3,9 @@ Central place to calculate statistics about the entries. Used for updating the s
 of the website.
 """
 
+import os
+import matplotlib.pyplot as plt
+
 
 def get_build_systems(entries):
     """
@@ -12,7 +15,7 @@ def get_build_systems(entries):
     """
     build_systems = []
     for entry in entries:
-        build_systems.extend(entry['Building'].get('Build system', ['n/a']))
+        build_systems.extend(entry['Building'].get('Build system', ['N/A']))
 
     unique_build_systems = set(build_systems)
 
@@ -21,3 +24,35 @@ def get_build_systems(entries):
     build_systems_stat.sort(key=lambda x: -x[1])  # then sort by occurrence (highest occurrence first)
 
     return build_systems_stat
+
+
+def truncate_stats(stat, threshold, name='Other'):
+    """
+    Combines all entries (name, count) with a count below the threshold and appends a new entry
+    """
+    a, b = [], []
+    for s in stat:
+        (a, b)[s[1] < threshold].append(s)
+    c = 0
+    for s in b:
+        c += s[1]
+    a.append([name, c])
+    return a
+
+
+def export_pie_chart(stat, file):
+    """
+
+    :param stat:
+    :return:
+    """
+    labels = [x[0] for x in stat]
+    sizes = [x[1] for x in stat]
+
+    fig, ax = plt.subplots(figsize=[4,4], tight_layout=True)
+    ax.pie(sizes, labels=labels, autopct='%1.1f%%', pctdistance=0.8, shadow=True, labeldistance=1.2)
+    # create output directory if necessary
+    containing_dir = os.path.dirname(file)
+    if not os.path.isdir(containing_dir):
+        os.mkdir(containing_dir)
+    plt.savefig(file, transparent=True)

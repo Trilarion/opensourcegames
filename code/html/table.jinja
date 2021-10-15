@@ -1,3 +1,29 @@
 {% extends "base.jinja" %}
 {% block content %}
+  <div class="container">
+  <div class="box">
+    <div class="block">
+      <p class="title is-4">Table</p>
+      <p class="subtitle is-6">Sortable and searchable.</p>
+    </div>
+   </div>
+   <table class="table is-narrow is-hoverable"></table>
+  </div>
+  <script>
+    fetch("data/entries.json").then(response => response.json()).then(data => {
+      let table = new simpleDatatables.DataTable(".table", {
+        perPage: 50,
+        perPageSelect: [30, 50, 100],
+        footer: true,
+        data: {
+          headings: data["headings"],
+          data: data["data"]
+        },
+      });
+
+      table.on('datatable.init', function(args) {
+        table.columns().sort(0);
+      });
+    })
+  </script>
 {% endblock %}

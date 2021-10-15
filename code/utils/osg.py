@@ -657,9 +657,13 @@ def write_screenshots_overview(overview):
     text = utils.read_text(c.screenshots_file)
     text = text.split('\n# ')[0] + '\n'
 
-    for name, a in overview.items():
+    # write out each entry sorted by name
+    for name in sorted(overview.keys()):
+        a = overview[name]
         t = '# {}\n\n'.format(name)
-        for id, ai in a.items():
+        # write out each line sorted by id
+        for id in sorted(a.keys()):
+            ai = a[id]
             if ai[-1] is None:
                 ai = ai[:-1]
             t += ' '.join(['{:02d}'.format(id)] + [str(x) for x in ai]) + '\n'

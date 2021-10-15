@@ -7,10 +7,13 @@
   <meta name="author" content="Trilarion">
   <meta name="description" content="Infos and technical information about many open source games and frameworks.">
   <title>{{ base['title'] }}</title>
-  <link rel="stylesheet" href="{{ base['url_to'](['css', 'bulma.min.css']) }}">
-  <link rel="stylesheet" href="{{ base['url_to'](['css', 'osgl.min.css']) }}">
+  {%- for css in base['css'] %}
+  <link rel="stylesheet" href="{{ base['url_to'](['css', css]) }}">
+  {%- endfor %}
   <link rel="icon" type="image/svg+xml" href="{{ base['url_to'](['favicon.svg']) }}">
-  <script type="text/javascript" src="{{ base['url_to'](['js', 'osgl.js']) }}"></script>
+  {%- for js in base['js'] %}
+  <script type="text/javascript" src="{{ base['url_to'](['js', js]) }}"></script>
+  {%- endfor %}
 </head>
 <body>
                                 {#- navigation bar -#}

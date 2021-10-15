@@ -7,6 +7,14 @@ Sitemaps is not needed, only for large projects with lots of JavaScript und many
 
 """
 
+# TODO simple data table with columns: name (homepage as link), keywords (at least essential ones), inspiration, language, code license
+
+# TODO languages: ? at the end sort
+
+# TODO too many spans, especially for text (maybe just plain text), also text with URLs inside is difficult (but why)
+
+# TODO keywords: content, multiplayer replace by icons (open, commercial (dollar signs))
+
 # TODO most people only come to the main page, put more information there (direct links to genres, ...)
 # TODO put more explanations on the category pages and the categories (number and short sentences)
 
@@ -30,6 +38,13 @@ Sitemaps is not needed, only for large projects with lots of JavaScript und many
 # TODO everywhere: singular, plural (game, entries, items)
 
 # TODO games: platform icons and mature, state larger (but maybe not on mobile)
+
+# TODO games: platform information larger printed, keyword tags underlined to indicate links
+# TODO devs: icons mark as links (how? ask on ux.stackexchange.com?)
+
+# TODO everywhere: better link replacements
+
+# TODO game: first homepage link bold
 
 # TODO statistics: better and more statistics with links where possible
 # TODO statistics: with nice graphics (pie charts in SVG) with matplotlib
@@ -89,6 +104,7 @@ import shutil
 import math
 import datetime
 import time
+import json
 from functools import partial
 from utils import osg, constants as c, utils, osg_statistics as stat, osg_parse
 from jinja2 import Environment, FileSystemLoader
@@ -172,7 +188,7 @@ non_game_category_names = {
     'tool': 'Tools',
     'framework': 'Frameworks',
     'library': 'Libraries',
-    'game engine': 'Game Engine'
+    'game engine': 'Game Engines'
 }
 
 # we check the output html structure every time
@@ -842,6 +858,37 @@ def add_screenshot_information(entries):
             entry['screenshots'] = screenshots
 
 
+def create_table_json_data(entries):
+    """
+    We assume that everything including internal is setup correctly.
+    Columns are Title, Link (entry, first homepage), State, Essential Keywords, Language, License
+    :param entries:
+    :return:
+    """
+    # create json structure
+    db = {'headings': ['Title', 'State', 'Tags', 'Platform', 'Language', 'License']}
+    data = []
+    for entry in entries:
+        title = '<a href="{}">{}</a> (<a href="{}">Entry</a>)'.format(entry['Home'][0], entry['Title'], url_to([], entry['href']))
+        state = ', '.join(entry['State'])
+        tags = entry['Keyword']
+        tags = [tag for tag in tags if tag in c.recommended_keywords]
+        tags = ', '.join(tags)
+        platform = entry.get('Platform', ['-'])
+        platform = ', '.join(platform)
+        language = ', '.join(entry['Code language'])
+        license = [x[-1] for x in entry['Code license']]
+        license = ', '.join(license)
+        data.append([title, state, tags, platform, language, license])
+    data.sort(key=lambda x: str.casefold(x[0]))
+    db['data'] = data
+
+    # write out
+    text = json.dumps(db, indent=1)
+    os.makedirs(c.web_data_path, exist_ok=True)
+    utils.write_text(os.path.join(c.web_data_path, 'entries.json'), text)
+
+
 def generate(entries, inspirations, developers):
     """
     Regenerates the whole static website given an already imported set of entries, inspirations and developers.
@@ -874,6 +921,9 @@ def generate(entries, inspirations, developers):
     # set external links up
     add_license_links_to_entries(games)
 
+    # create entries.json for the table
+    create_table_json_data(entries)
+
     # sort into categories
     sorter = lambda item, category: category == item['letter']
     games_by_alphabet = sort_into_categories(games, extended_alphabet, sorter)
@@ -893,7 +943,9 @@ def generate(entries, inspirations, developers):
     # base dictionary
     base = {
         'title': 'OSGL',
-        'creation-date': datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M')
+        'creation-date': datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M'),
+        'css': ['bulma.min.css', 'osgl.min.css'],
+        'js': ['osgl.js']
     }
 
     # copy css and js
@@ -925,16 +977,18 @@ def generate(entries, inspirations, developers):
 
     # index.html
     base['active_nav'] = 'index'
-    index = {'subtitle': make_text('Contains information about {} open source games and {} frameworks/tools.'.format(len(games), len(non_games))) }
+    index = {'subtitle': make_text('Contains information about {} open source games and {} game engines/tools.'.format(len(games), len(non_games))) }
     template = environment.get_template('index.jinja')
     write(template.render(index=index), ['index.html'])
 
     # contribute page
+    base['title'] = 'OSGL | Contributions'
     base['active_nav'] = 'contribute'
     template = environment.get_template('contribute.jinja')
     write(template.render(), ['contribute.html'])
 
     # statistics page in statistics folder
+    base['title'] = 'OSGL | Statistics'
     base['url_to'] = partial(url_to, statistics_path)
     base['active_nav'] = 'statistics'
 
@@ -960,6 +1014,7 @@ def generate(entries, inspirations, developers):
     write(template.render(data=data), statistics_index_path)
 
     # non-games folder
+    base['title'] = 'OSGL | Game engines, frameworks, tools'
     base['url_to'] = partial(url_to, non_games_path)
     base['active_nav'] = 'frameworks'
 
@@ -985,6 +1040,7 @@ def generate(entries, inspirations, developers):
         write(template_listing_entries.render(listing=listing), non_games_path + ['{}.html'.format(keyword)])
 
     # games folder
+    base['title'] = 'OSGL | Games | Alphabetical'
     base['url_to'] = partial(url_to, games_path)
     base['active_nav'] = 'games'
 
@@ -999,7 +1055,7 @@ def generate(entries, inspirations, developers):
     # generate games index
     index = divide_in_three_columns_and_transform(games_by_alphabet, game_index)
     index['title'] = make_text('Open source games')
-    index['subtitle'] = make_text('Alphabetical index of informations about {} games'.format(len(games)))
+    index['subtitle'] = [make_text('Alphabetical index of informations about {} games (or see the '.format(len(games))), make_url(['table.html'], 'table'), ')']
     index['categories'] = extended_alphabet
     index['category-names'] = extended_alphabet_names
     index['category-icons'] = {}
@@ -1009,10 +1065,11 @@ def generate(entries, inspirations, developers):
     write(template_categorical_index.render(index=index), games_index_path)
 
     # genres
+    base['title'] = 'OSGL | Games | Genres'
     base['active_nav'] = ['filter', 'genres']
     index = divide_in_three_columns_and_transform(games_by_genre, game_index)
     index['title'] = make_text('Open source games')
-    index['subtitle'] = make_text('Index by game genre')
+    index['subtitle'] = [make_text('Index by game genre (or see the '), make_url(['table.html'], 'table'), ')']
     index['categories'] = genres
     index['category-names'] = {k: make_text(k) for k in index['categories']}
     index['category-icons'] = {k: make_icon(genre_icon_map[k]) for k in index['categories'] if k in genre_icon_map}
@@ -1022,10 +1079,11 @@ def generate(entries, inspirations, developers):
     write(template_categorical_index.render(index=index), games_by_genres_path)
 
     # games by language
+    base['title'] = 'OSGL | Games | Programming language'
     base['active_nav'] = ['filter', 'code language']
     index = divide_in_three_columns_and_transform(games_by_language, game_index)
     index['title'] = 'Open source games and frameworks'
-    index['subtitle'] = make_text('Index by programming language')
+    index['subtitle'] = [make_text('Index by programming language (or see the '), make_url(['table.html'], 'table'), ')']
     index['categories'] = c.known_languages
     index['category-names'] = {k:k for k in index['categories']}
     index['category-icons'] = {}
@@ -1035,10 +1093,11 @@ def generate(entries, inspirations, developers):
     write(template_categorical_index.render(index=index), games_by_language_path)
 
     # games by platform
+    base['title'] = 'OSGL | Games | Supported Platform'
     base['active_nav'] = ['filter', 'platforms']
     index = divide_in_three_columns_and_transform(games_by_platform, game_index)
     index['title'] = 'Open source games and frameworks'
-    index['subtitle'] = make_text('Index by supported platform')
+    index['subtitle'] = [make_text('Index by supported platform (or see the '), make_url(['table.html'], 'table'), ')']
     index['categories'] = c.valid_platforms + ('Unspecified',)
     index['category-names'] = {k: make_text(k) for k in index['categories']}
     index['category-icons'] = {k: make_icon(platform_icon_map[k]) for k in index['categories']}
@@ -1049,6 +1108,7 @@ def generate(entries, inspirations, developers):
     write(template_categorical_index.render(index=index), games_by_platform_path)
 
     # top 50 games
+    base['title'] = 'OSGL | Games | GitHub Top 50'
     base['active_nav'] = ['filter', 'top50']
     # there are no other games coming afterwards, can actually number them
     for index, game in enumerate(top50_games):
@@ -1061,6 +1121,7 @@ def generate(entries, inspirations, developers):
     write(template_listing_entries.render(listing=listing), games_top50_path)
 
     # inspirations folder
+    base['title'] = 'OSGL | Inspirational games'
     base['url_to'] = partial(url_to, inspirations_path)
     base['active_nav'] = 'inspirations'
 
@@ -1088,6 +1149,7 @@ def generate(entries, inspirations, developers):
         write(template_listing_inspirations.render(listing=listing), inspirations_path + ['{}.html'.format(letter.capitalize())])
 
     # developers folder
+    base['title'] = 'OSGL | Games | Developers'
     base['url_to'] = partial(url_to, developers_path)
     base['active_nav'] = 'developers'
 
@@ -1111,6 +1173,15 @@ def generate(entries, inspirations, developers):
     index['entry_bold'] = lambda x: 'tags' in x
     index['category-infos'] = {}
     write(template_categorical_index.render(index=index), developers_index_path)
+
+    # dynamic table (is in top level folder)
+    base['title'] = 'OSGL | Entries | Table'
+    base['url_to'] = partial(url_to, [])
+    base['css'].append('simple-datatables.css')
+    base['js'].append('simple-datatables.js')
+    base['active_nav'] = []
+    template = environment.get_template('table.jinja')
+    write(template.render(), ['table.html'])
 
 
 if __name__ == "__main__":

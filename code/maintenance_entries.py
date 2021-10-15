@@ -42,6 +42,7 @@ def check_validity_backlog():
             if r.is_redirect or r.history:
                 print('{} redirected to {}, {}'.format(url, r.url, r.history))
 
+
 def create_toc(title, file, entries):
     """
 
@@ -697,15 +698,6 @@ class EntriesMaintainer:
 
         print('statistics updated')
 
-    def update_html(self):
-        """
-        """
-        if not self.entries:
-            print('entries not yet loaded')
-            return
-
-        print('HTML not updated')
-
     def update_repos(self):
         """
         export to json for local repository update of primary repos
@@ -905,7 +897,6 @@ if __name__ == "__main__":
         'Clean backlog': m.clean_backlog,
         'Update Readme and TOCs': m.update_readme_tocs,
         'Update statistics': m.update_statistics,
-        'Update HTML': m.update_html,
         'Update repository list': m.update_repos,
         'Special': m.special_ops,
         'Complete run': m.complete_run

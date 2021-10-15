@@ -7,15 +7,17 @@ import configparser
 
 # paths
 root_path = os.path.realpath(os.path.join(os.path.dirname(__file__), os.path.pardir, os.path.pardir))
+code_path = os.path.join(root_path, 'code')
+web_template_path = os.path.join(code_path, 'html')
 entries_path = os.path.join(root_path, 'entries')
 tocs_path = os.path.join(entries_path, 'tocs')
-code_path = os.path.join(root_path, 'code')
-web_path = os.path.join(root_path, 'docs')
 screenshots_path = os.path.join(entries_path, 'screenshots')
-web_template_path = os.path.join(code_path, 'html')
+
+web_path = os.path.join(root_path, 'docs')
 web_css_path = os.path.join(web_path, 'css')
 web_js_path = os.path.join(web_path, 'js')
 web_screenshots_path = os.path.join(web_path, 'screenshots')
+web_data_path = os.path.join(web_path, 'data')
 
 private_properties_file = os.path.join(root_path, 'private.properties')
 inspirations_file = os.path.join(root_path, 'inspirations.md')

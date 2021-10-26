@@ -30,7 +30,7 @@
                     {#- screenshots if available -#}
   {%- if 'screenshots' in item%}<nav class="level">
   {%- for screenshot in item['screenshots'] -%}
-    <div class="level-item"><a href="{{ screenshot['url'] }}"><img src="{{ base['url_to'](screenshot['file']) }}" width="{{ screenshot['width'] }}" height="{{ screenshot['height'] }}" alt=""></a></div>
+    <div class="level-item">{% if screenshot['url'] %}<a href="{{ screenshot['url'] }}">{% endif %}<img src="{{ base['url_to'](screenshot['file']) }}" width="{{ screenshot['width'] }}" height="{{ screenshot['height'] }}" alt="">{% if screenshot['url'] %}</a>{% endif %}</div>
   {%- endfor -%}
   </nav>{% endif -%}
                     {#- technical fields -#}

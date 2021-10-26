@@ -6,7 +6,7 @@
 - Download: https://github.com/ebuc99/pacman/releases, https://github.com/ebuc99/pacman_win/releases
 - Keyword: arcade
 - Code repository: https://github.com/ebuc99/pacman.git (@created 2015, @stars 40, @forks 19)
-- Code language: C++, Shell
+- Code language: C++, Script
 - Code license: GPL-2.0
 - Code dependency: SDL
 - Developer: ebuc99, Keith Bowes, Martin

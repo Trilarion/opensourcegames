@@ -7,13 +7,13 @@
       <p class="subtitle is-6">Sortable and searchable.</p>
     </div>
    </div>
-   <table class="table is-narrow is-hoverable"></table>
+   <table class="table is-narrow is-hoverable is-size-6"></table>
   </div>
   <script>
     fetch("data/entries.json").then(response => response.json()).then(data => {
       let table = new simpleDatatables.DataTable(".table", {
-        perPage: 50,
-        perPageSelect: [30, 50, 100],
+        perPage: 30,
+        perPageSelect: [10, 30, 50],
         footer: true,
         data: {
           headings: data["headings"],
@@ -22,7 +22,12 @@
       });
 
       table.on('datatable.init', function(args) {
+        // sort by first column
         table.columns().sort(0);
+        // use the urls search part for the search input field of the table
+        if (window.location.search) {
+          document.getElementsByClassName("dataTable-input").item(0).value = window.location.search.substring(1).replace("+", " ");
+        }
       });
     })
   </script>

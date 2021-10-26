@@ -1,6 +1,6 @@
 # Stockfish
 
-- Home: https://github.com/official-stockfish
+- Home: https://stockfishchess.org/
 - State: mature
 - Keyword: strategy, chess
 - Code repository: https://github.com/official-stockfish/Stockfish.git (@created 2014, @stars 5358, @forks 1249)

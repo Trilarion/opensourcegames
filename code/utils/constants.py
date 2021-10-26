@@ -75,6 +75,9 @@ recommended_keywords = (
     'strategy', 'cards', 'board', 'music', 'educational', 'tool', 'game engine', 'framework', 'library', 'remake')
 # TODO unmake remake a recommended keyword (should be the same as clone maybe), i.e. add another recommended keyword if only remake is in there
 
+# interesting keywords = recommend keywords + some popular keywords
+interesting_keywords = recommended_keywords + ('2D', '3D', 'clone', 'first-person', 'real-time', 'roguelike', 'shooter', 'space', 'turn-based')
+
 # non game keywords take precedence over other (game) recommended keywords, at most one of them per entry
 non_game_keywords = ('framework', 'game engine', 'library', 'tool')
 
@@ -128,6 +131,7 @@ language_urls = {
     'Rust': 'https://en.wikipedia.org/wiki/Rust_(programming_language)',
     'Scala': 'https://en.wikipedia.org/wiki/Scala_(programming_language)',
     'Scheme': 'https://en.wikipedia.org/wiki/Scheme_(programming_language)',
+    'Script': 'https://en.wikipedia.org/wiki/Scripting_language',  # for all script/shell dialects that aren't listed separately
     'Swift': 'https://en.wikipedia.org/wiki/Swift_(programming_language)',
     'TorqueScript': 'https://en.wikipedia.org/wiki/Torque_(game_engine)',
     'TypeScript': 'https://en.wikipedia.org/wiki/TypeScript',
@@ -137,7 +141,7 @@ language_urls = {
     'ZenScript': 'https://github.com/CraftTweaker/ZenScript'
 }
 
-known_languages = tuple(sorted(list(language_urls.keys()) + ['None', 'Script', 'Shell', '?'], key=str.casefold))
+known_languages = tuple(sorted(list(language_urls.keys()), key=str.casefold)) + ('None', '?')
 
 # known licenses, anything outside of this will result in a warning during a maintenance operation
 # only these will be used when gathering statistics

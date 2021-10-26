@@ -1,103 +1,80 @@
 """
-Generates the static website
+Generates the static website.
 
-Uses Jinja2 (see https://jinja.palletsprojects.com/en/2.11.x/)
+Uses
 
-Sitemaps is not needed, only for large projects with lots of JavaScript und many undiscoverable pages.
+- Jinja2 (https://jinja.palletsprojects.com/en/2.11.x/)
+- Simple-DataTables (https://github.com/fiduswriter/Simple-DataTables)
+
+Sitemap is not needed, only for large projects with lots of JavaScript und many pages that aren't discoverable.
 
 """
 
-# TODO simple data table with columns: name (homepage as link), keywords (at least essential ones), inspiration, language, code license
+# TODO table: state, os, license smaller
+# TODO table: search window width larger
 
-# TODO languages: ? at the end sort
+# TODO categories: index and (number) no space in between, maybe span around index
+# TODO categories: put more explanations on the category pages and the categories (number and short sentences)
+# TODO categories: missing categories icons
+# TODO categories: use icon-text as in https://bulma.io/documentation/elements/icon/ instead of is-large
 
-# TODO too many spans, especially for text (maybe just plain text), also text with URLs inside is difficult (but why)
+# TODO top level tab (search tab) goes to table
 
 # TODO keywords: content, multiplayer replace by icons (open, commercial (dollar signs))
+# TODO keywords: explain most common ones
 
-# TODO most people only come to the main page, put more information there (direct links to genres, ...)
-# TODO put more explanations on the category pages and the categories (number and short sentences)
+# TODO general: most people only come to the main page, put more information there (direct links to genres, ...)
+# TODO general: if the only change is a change in last updated, do not change it (we can probably check with git diff for it) or checksums
+# TODO general: minimize tag usage: jinja template optimization for line breaks and indention and minimal amount of spaces (and size of files) and minimal amount of repetition of tags
+# TODO general: too many spans, especially for text (maybe just plain text), also text with URLs inside is difficult (but why)
+# TODO general: replace or remove @notices in entries
+# TODO general: check singular, plural (game, entries, items) although support is already quite good for that
+# TODO general: better link replacements
+# TODO general: update Bulma (already at latest version)
+# TODO general: meta/title+description tag
+# TODO general: meta description of the pages, fill them
+# TODO general: style URLs (Github, Wikipedia, Internet archive, SourceForge, ...)
+# TODO general: optimize layout for mobile view (quite good already)
+# TODO general: meta titles for all pages, make them nice because they appear in search results! (https://www.contentpowered.com/blog/good-ctr-search-console/)
+# TODO general: <a> rel attribute https://www.w3schools.com/TAGS/att_a_rel.asp
 
-# TODO text description automaticall generated from keywords, state, and technical informations for example: First-person action shooter written in C++, inspired by ... but inactive for 7 years.
+# TODO idea: text description automatically generate from keywords, state, and technical informations for example: First-person action shooter written in C++, inspired by ... but inactive for 7 years.
 
-# TODO statistics should have disclaimer (warning or info box) about accuracy with link to contribute guidelines
-
-# TODO game move developer to technical information and maybe rename technical information to details
-
-# TODO game engines should be sorted with frameworks/tools, not with games (they aren't games or are they?)
-
-# TODO if the only change is a change in last updated, do not change it (we can probably check with git diff for it) or checksums
-
-# TODO minimize tag usage: jinja template optimization for line breaks and indention and minimal amount of spaces (and size of files) and minimal amount of repetition of tags
-
-# TODO contribute.html add content
-
-# TODO more icons - missing categories
-# TODO replace or remove @notices in entries (maybe different entries format)
-
-# TODO everywhere: singular, plural (game, entries, items)
-
-# TODO games: platform icons and mature, state larger (but maybe not on mobile)
-
-# TODO games: platform information larger printed, keyword tags underlined to indicate links
-# TODO devs: icons mark as links (how? ask on ux.stackexchange.com?)
-
-# TODO everywhere: better link replacements
-
-# TODO game: first homepage link bold
-
+# TODO statistics: should have disclaimer (warning or info box) about accuracy with link to contribute guidelines
 # TODO statistics: better and more statistics with links where possible
 # TODO statistics: with nice graphics (pie charts in SVG) with matplotlib
 # TODO statistics: get it from common statistics generator
 
-# TODO frameworks: icons for frameworks/libraries/tools
-
-# TODO filter by category: icons too large (overlapping)
-
+# TODO games: developer details is too small to click on some devices, maybe details is-size6 instead
+# TODO games: platform icons and mature, state make them all larger (but maybe not on mobile)
+# TODO games: keyword tags underlined to indicate links
+# TODO games: first homepage link bold
 # TODO games: @see-home/@see-download/@add (ignore or replace?)
 # TODO games: top 50 list from Github via their stars with download links (add to entries) and with screenshot
 # TODO games: add screenshot ability (add screenshot to database, at least for top 50)
+# TODO games: screenshot render directly with make_img
 # TODO games: order: homepage, inspiration, download, developer
-
-# TODO update Bulma
-
-# TODO everywhere: meta/title tag
-# TODO everywhere: style URLs (Github, Wikipedia, Internet archive, SourceForge, ...)
-
-# TODO inspirations: icon full lamp (not contained in icomoon.io)
-
 # TODO games: developers if more than a single line (collapse, expand?) without JS? (https://stackoverflow.com/questions/41220717/collapse-without-javascript, https://codeconvey.com/html-expand-collapse-text-without-javascript/)
 # TODO games: technical info (collapse on click)
 # TODO games: link to dependencies (either if existing or if url)
 # TODO games: javascript table
 # TODO games: repositories comments have too much space after( and before )
+# TODO games: show or not show info?? show only first line of info (which should be a short description or make it a field (only for popular ones), otherwise rely on keywords)
+# TODO games: cross-references for code dependencies if included
 
-# TODO mobile view: optimize layout for mobile view
+# TODO contribute: contribute.html add content
 
-# TODO languages: C# redirects to C
-
-# TODO keywords: explain most common ones
-
-# TODO categories: use icon-text as in https://bulma.io/documentation/elements/icon/ instead of is-large
-
-# TODO meta description of the pages, fill them
-
-# TODO info: show only first line of info (which should be a short description or make it a field (only for popular ones), otherwise rely on keywords)
-
+# TODO devs: icons mark as links (how? ask on ux.stackexchange.com?)
 # TODO developers: anchors to non-latin written developers do not work (chinese names have simply xxxxx)
 
-# TODO SEO optimizations, google search ...
-# TODO sitemap
-# TODO Google search console
-# TODO <a> rel attribute https://www.w3schools.com/TAGS/att_a_rel.asp
+# TODO frameworks: icons for frameworks/libraries/tools
 
+# TODO filter by category: icons too large (overlapping)
+
+# TODO top50: only those that are active (and mature? and remove python of the week maybe ignore list)
+
+# TODO inspirations: icon full lamp (not contained in icomoon.io)
 # TODO inspirations: if included in the database, link instead to game (cross-reference)
-
-# TODO cross-references for code dependencies if included
-
-# TODO add dynamic table (what to include)
-
-# TODO meta titles for all pages, make them nice because they appear in search results! (https://www.contentpowered.com/blog/good-ctr-search-console/)
 
 import os
 import shutil
@@ -180,8 +157,8 @@ genre_icon_map = {
     'Library': 'library'
 }
 
-# cross-references to the langue pages
-code_language_references = {l: games_by_language_path[:-1] + ['{}#{}'.format(games_by_language_path[-1], osg.canonical_name(l))] for l in c.known_languages}
+# cross-references to the language pages
+code_language_references = {language: games_by_language_path[:-1] + ['{}#{}'.format(games_by_language_path[-1], language.lower())] for language in c.known_languages}
 
 # map of internal non game names to display names (which are in plural)
 non_game_category_names = {
@@ -194,6 +171,9 @@ non_game_category_names = {
 # we check the output html structure every time
 html5parser = html5lib.HTMLParser(strict=True)
 
+# file hashes for detecting changes
+previous_files = {}
+
 # pluralization (mostly with s, but there are a few exceptions)
 plurals = {k: k+'s' for k in ('Assets license', 'Contact', 'Code language', 'Code license', 'Developer', 'Download', 'Inspiration', 'Game', 'Keyword', 'Home', 'Homepage', 'Organization', 'Platform', 'Tag')}
 for k in ('Media', 'Play', 'Play online', 'State'):
@@ -204,13 +184,25 @@ for k in ('Code repository', 'Code dependency'):
 
 def get_plural_or_singular(name, amount):
     """
-    Gets the pluarization of a known word for a known amount. Helper function.
+    Gets the pluralization of a known word for a known amount. Helper function.
     """
     if not name in plurals.keys():
         raise RuntimeError('"{}" not a known singular!'.format(name))
     if amount == 1:
         return name
     return plurals[name]
+
+
+def file_hash(text):
+    """
+    Removes the last updated ... line from html file and the data line from svg and then computes a hash.
+    :param text:
+    :return:
+    """
+    text = text.split('\n')
+    text = [t for t in text if not any(t.startswith(prefix) for prefix in ('  This website is built ', '    <dc:date>'))]
+    text = ''.join(text)
+    return hash(text)
 
 
 def raise_helper(msg):
@@ -227,21 +219,29 @@ def write(text, file):
     :param text:
     :param file:
     """
-    # validate text
+    # output file
     if isinstance(file, str):
         file = [file]
-    try:
-        html5parser.parse(text)
-    except Exception as e:
-        utils.write_text(os.path.join(c.web_path, 'invalid.html'), text)  # for further checking with https://validator.w3.org/
-        print('problem with file {}, see invalid.html'.format(file))
-        raise RuntimeError(e)
-    # output file
     file = os.path.join(c.web_path, *file)
+
+    # check file hash and use previous version
+    if file in previous_files and previous_files[file]['hash'] == file_hash(text):
+        # no significant change, use previous version instead
+        text = previous_files[file]['text']
+    else:
+        # validate text
+        try:
+            html5parser.parse(text)
+        except Exception as e:
+            utils.write_text(os.path.join(c.web_path, 'invalid.html'), text)  # for further checking with https://validator.w3.org/
+            print('problem with file {}, see invalid.html'.format(file))
+            raise RuntimeError(e)
+
     # create output directory if necessary
     containing_dir = os.path.dirname(file)
     if not os.path.isdir(containing_dir):
         os.mkdir(containing_dir)
+
     # write text
     utils.write_text(file, text)
 
@@ -844,7 +844,7 @@ def add_screenshot_information(entries):
 
     :param entries:
     :return:
-    """
+d    """
     # read screenshot information
     overview = osg.read_screenshots_overview()
 
@@ -853,8 +853,8 @@ def add_screenshot_information(entries):
         # get screenshots entry
         name = osg.canonical_name(entry['Title'])  # TODO should be stored upon loading I guess
         screenshots = overview.get(name, {})
-        screenshots = [{'width': s[0], 'height': s[1], 'url': s[2], 'file': ['screenshots', '{}_{:02d}.jpg'.format(name, id)]} for id, s in screenshots.items()]
-        if screenshots: # TODO url None should be treated here or in the jinja template
+        screenshots = [{'width': s[0], 'height': s[1], 'url': s[2] if s[2] and not s[2].startswith('!') else None, 'file': ['screenshots', '{}_{:02d}.jpg'.format(name, id)]} for id, s in screenshots.items()]
+        if screenshots: # TODO inline from the template to just have an element that is rendered for screenshot (make_image missing for that still)
             entry['screenshots'] = screenshots
 
 
@@ -869,15 +869,15 @@ def create_table_json_data(entries):
     db = {'headings': ['Title', 'State', 'Tags', 'Platform', 'Language', 'License']}
     data = []
     for entry in entries:
-        title = '<a href="{}">{}</a> (<a href="{}">Entry</a>)'.format(entry['Home'][0], entry['Title'], url_to([], entry['href']))
+        title = '<a href="{}" class="has-text-weight-semibold">{}</a> <a href="{}"><i class="icon-new-tab"></i></a>'.format(url_to([], entry['href']), entry['Title'], entry['Home'][0])
         state = ', '.join(entry['State'])
         tags = entry['Keyword']
-        tags = [tag for tag in tags if tag in c.recommended_keywords]
+        tags = [tag for tag in tags if tag in c.interesting_keywords]
         tags = ', '.join(tags)
         platform = entry.get('Platform', ['-'])
         platform = ', '.join(platform)
         language = ', '.join(entry['Code language'])
-        license = [x[-1] for x in entry['Code license']]
+        license = [x[-1] for x in entry['Code license']]  # undo license links again
         license = ', '.join(license)
         data.append([title, state, tags, platform, language, license])
     data.sort(key=lambda x: str.casefold(x[0]))
@@ -919,7 +919,7 @@ def generate(entries, inspirations, developers):
     convert_entries(non_games, inspirations, developers)
 
     # set external links up
-    add_license_links_to_entries(games)
+    add_license_links_to_entries(entries)
 
     # create entries.json for the table
     create_table_json_data(entries)
@@ -1002,7 +1002,14 @@ def generate(entries, inspirations, developers):
     # build-systems
     build_systems_stat = stat.get_build_systems(entries)
     build_systems_stat = stat.truncate_stats(build_systems_stat, 10)
-    stat.export_pie_chart([stat for stat in build_systems_stat if stat[0] != 'N/A'], os.path.join(c.web_path, 'statistics', 'build_systems.svg'))
+    file = os.path.join(c.web_path, 'statistics', 'build_systems.svg')
+    stat.export_pie_chart([statistic for statistic in build_systems_stat if statistic[0] != 'N/A'], file)
+    # read back and check if identical with old version (up to date)
+    text = utils.read_text(file)
+    if file in previous_files and previous_files[file]['hash'] == file_hash(text):
+        # use old version instead
+        text = previous_files[file]['text']
+        utils.write_text(file, text)
     section = {
         'title': 'Build system',
         'items': ['{} ({})'.format(*item) for item in build_systems_stat],
@@ -1187,6 +1194,15 @@ def generate(entries, inspirations, developers):
 if __name__ == "__main__":
 
     start_time = time.process_time()
+
+    # create dictionary of file hashes
+    print('estimate file hashes')
+    for dirpath, dirnames, filenames in os.walk(c.web_path):
+        for file in filenames:
+            if any(file.endswith(ext) for ext in ('.html', '.svg')):
+                file = os.path.join(dirpath, file)
+                text = utils.read_text(file)
+                previous_files[file] = {'hash': file_hash(text), 'text': text}
 
     # clean the output directory
     print('clean current static website')

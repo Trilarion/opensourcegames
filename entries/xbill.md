@@ -6,7 +6,7 @@
 - Platform: Linux
 - Keyword: arcade
 - Code repository: https://gitlab.com/osgames/xbill.git (import of sources, @created 2019, @stars 1, @forks 0)
-- Code language: C, Shell
+- Code language: C, Script
 - Code license: GPL-2.0
 - Developer: Brian Wellington, Matias Duarte
 

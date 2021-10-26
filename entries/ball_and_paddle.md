@@ -5,7 +5,7 @@
 - Platform: Linux
 - Keyword: action, content open
 - Code repository: https://gitlab.com/osgames/ballandpaddle.git (conversion of bzr, @created 2019, @stars 1, @forks 0), http://bzr.savannah.gnu.org/r/ballandpaddle/ (bzr)
-- Code language: C++, Scheme, Shell
+- Code language: C++, Scheme, Script
 - Code license: GPL-3.0
 - Code dependency: GNU Guile, SDL
 - Assets license: GPL

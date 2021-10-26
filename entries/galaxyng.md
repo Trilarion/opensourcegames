@@ -5,7 +5,7 @@
 - Download: https://sourceforge.net/projects/galaxyng/files
 - Keyword: strategy, multiplayer email, turn-based
 - Code repository: https://gitlab.com/osgames/galaxyng.git (backup of cvs, @created 2018, @stars 1, @forks 0), http://galaxyng.cvs.sourceforge.net/ (cvs)
-- Code language: C, PHP, Shell
+- Code language: C, PHP, Script
 - Code license: GPL-2.0
 - Developer: Bogdan Mincu, Chris Shaffer, Frans Slothouber, Geoff Lamperd, Ian Evans, Ken Weinert, Matthew Messana, Paul Heinzlreiter, ref, Steven Webb, Thomas Odaker
 

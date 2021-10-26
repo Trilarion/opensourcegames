@@ -100,3 +100,11 @@ https://www.wurfelengine.net/
 https://zdoom.org/downloads (gzdoom, lzdoom)
 https://zope.readthedocs.io/en/latest/
 https://github.com/loudsmilestudios/TetraForce
+https://github.com/mgerhardy/engine
+https://github.com/carlbirch/BirchEngine
+https://github.com/search?utf8=%E2%9C%93&q=freesynd&type=
+https://github.com/videogamepreservation
+https://github.com/loudsmilestudios/TetraForce
+https://github.com/groverburger/g3d
+https://github.com/BayatGames/RedRunner
+https://github.com/yrgo/awesome-educational-games

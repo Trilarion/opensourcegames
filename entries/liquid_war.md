@@ -7,7 +7,7 @@
 - Platform: Linux
 - Keyword: action, multiplayer
 - Code repository: https://git.savannah.gnu.org/git/liquidwar6.git, https://gitlab.com/osgames/liquidwar6.git @add (@created 2019, @stars 1, @forks 0)
-- Code language: C, Shell
+- Code language: C, Script
 - Code license: GPL-3.0
 
 Multi-player action game based on particle flow mechanic.

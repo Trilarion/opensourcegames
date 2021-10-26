@@ -55,4 +55,4 @@ def export_pie_chart(stat, file):
     containing_dir = os.path.dirname(file)
     if not os.path.isdir(containing_dir):
         os.mkdir(containing_dir)
-    plt.savefig(file, transparent=True)
+    plt.savefig(file, transparent=True)  # TODO can we also just generate svg in text form and save later?

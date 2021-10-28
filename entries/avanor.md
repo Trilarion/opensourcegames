@@ -9,6 +9,4 @@
 - Code license: GPL-2.0
 - Developer: Brian Angeletti, Siarhei Siamashka, Vadim Gaidukevich
 
-Relatively easy to win but feature rich fantasy roguelike game with a highly interactive world.
-
 ## Building

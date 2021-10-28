@@ -2,12 +2,12 @@
 
 - Home: https://www.gnu.org/software/freedink/, http://savannah.gnu.org/projects/freedink
 - Media: https://en.wikipedia.org/wiki/Dink_Smallwood#GNU_FreeDink
-- Inspiration: Dink Smallwood
+- Inspiration: Dink Smallwood, Legend of Zelda
 - State: mature, inactive since 2012
 - Play: https://web.archive.org/web/20201025225430/https://play.freedink.org/
 - Download: https://www.gnu.org/software/freedink/get, http://ftp.gnu.org/gnu/freedink/
 - Platform: Windows, Linux, macOS, Web
-- Keyword: adventure, remake, role playing, 2D, "content open (?) + original required (?)", top-down
+- Keyword: adventure, remake, role playing, 2D, content open + original required ??, top-down
 - Code repository: https://git.savannah.gnu.org/git/freedink.git, https://git.savannah.gnu.org/git/freedink/dfarc.git @add, https://git.savannah.gnu.org/git/freedink/dink-data.git @add, https://git.savannah.gnu.org/git/freedink/freedink-data.git @add, http://cvs.savannah.gnu.org:/sources/freedink (cvs)
 - Code language: C
 - Code license: GPL-3.0

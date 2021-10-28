@@ -10,6 +10,4 @@
 - Code dependency: pygame
 - Developer: Elle, Henry Hirsch, Miguel de Dios Matias, Nathan Mills
 
-Focused not just on fighting, but on story and character development.
-
 ## Building

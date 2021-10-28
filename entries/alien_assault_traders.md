@@ -11,6 +11,6 @@
 - Code license: GPL-2.0
 - Developer: Mark Dickenson, Rick Thomson, tarnus
 
-Trading game forked off the source of both Black Nova Traders and Nova Game Systems software and inspired by the popular BBS game of TradeWars.
+Off the source of both Black Nova Traders and Nova Game Systems software and inspired by the popular BBS game of TradeWars.
 
 ## Building

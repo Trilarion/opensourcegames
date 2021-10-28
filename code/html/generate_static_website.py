@@ -10,71 +10,58 @@ Sitemap is not needed, only for large projects with lots of JavaScript und many 
 
 """
 
+# TODO tab: top level tab (search tab) should go to table (table should have it active as nav) with search icon
+# TODO tab: new filter tab (playable in a browser) with tiles (https://bulma.io/documentation/layout/tiles/) sorted by genre
+# TODO tab: new filter tab (my top 100) with games I really like (mature and I tried them and there is a download for each of them) and some categories with explanation why and possible link to a review on the blog (like evil cult)
+
 # TODO table: state, os, license smaller
-# TODO table: search window width larger
+# TODO table: search window width larger (asked at the Github repo of the simple datatable, could not find easily in code)
 
-# TODO categories: index and (number) no space in between, maybe span around index
 # TODO categories: put more explanations on the category pages and the categories (number and short sentences)
-# TODO categories: missing categories icons
-# TODO categories: use icon-text as in https://bulma.io/documentation/elements/icon/ instead of is-large
-
-# TODO top level tab (search tab) goes to table
 
 # TODO keywords: content, multiplayer replace by icons (open, commercial (dollar signs))
-# TODO keywords: explain most common ones
+# TODO keywords: explain most common ones (as alt-text maybe?)
 
 # TODO general: most people only come to the main page, put more information there (direct links to genres, ...)
-# TODO general: if the only change is a change in last updated, do not change it (we can probably check with git diff for it) or checksums
 # TODO general: minimize tag usage: jinja template optimization for line breaks and indention and minimal amount of spaces (and size of files) and minimal amount of repetition of tags
 # TODO general: too many spans, especially for text (maybe just plain text), also text with URLs inside is difficult (but why)
 # TODO general: replace or remove @notices in entries
-# TODO general: check singular, plural (game, entries, items) although support is already quite good for that
-# TODO general: better link replacements
+# TODO general: check singular, plural (game, entries, items) although support is already quite good for that (Code Languages, ...)
+# TODO general: better link replacements for showing the urls of links
+# TODO general: style URLs (Github, Wikipedia, Internet archive, SourceForge, ...)
 # TODO general: update Bulma (already at latest version)
 # TODO general: meta/title+description tag
 # TODO general: meta description of the pages, fill them
-# TODO general: style URLs (Github, Wikipedia, Internet archive, SourceForge, ...)
 # TODO general: optimize layout for mobile view (quite good already)
 # TODO general: meta titles for all pages, make them nice because they appear in search results! (https://www.contentpowered.com/blog/good-ctr-search-console/)
 # TODO general: <a> rel attribute https://www.w3schools.com/TAGS/att_a_rel.asp
 
 # TODO idea: text description automatically generate from keywords, state, and technical informations for example: First-person action shooter written in C++, inspired by ... but inactive for 7 years.
 
-# TODO statistics: should have disclaimer (warning or info box) about accuracy with link to contribute guidelines
+# TODO statistics: should have disclaimer (warning or info box) about accuracy with link to contribute guidelines at the top
 # TODO statistics: better and more statistics with links where possible
-# TODO statistics: with nice graphics (pie charts in SVG) with matplotlib
 # TODO statistics: get it from common statistics generator
+# TODO statistics: normalization, what if there are multiple entries per field (pie chart would be wrong, better to show bar chart instead)
 
-# TODO games: developer details is too small to click on some devices, maybe details is-size6 instead
-# TODO games: platform icons and mature, state make them all larger (but maybe not on mobile)
+# TODO games: developer details is too small to click on some devices, maybe details is-size6 instead (make technical details size 6 but with more)
 # TODO games: keyword tags underlined to indicate links
-# TODO games: first homepage link bold
 # TODO games: @see-home/@see-download/@add (ignore or replace?)
-# TODO games: top 50 list from Github via their stars with download links (add to entries) and with screenshot
-# TODO games: add screenshot ability (add screenshot to database, at least for top 50)
-# TODO games: screenshot render directly with make_img
+# TODO games: top 50 list from Github via their stars with download links (add to entries)
 # TODO games: order: homepage, inspiration, download, developer
-# TODO games: developers if more than a single line (collapse, expand?) without JS? (https://stackoverflow.com/questions/41220717/collapse-without-javascript, https://codeconvey.com/html-expand-collapse-text-without-javascript/)
-# TODO games: technical info (collapse on click)
 # TODO games: link to dependencies (either if existing or if url)
-# TODO games: javascript table
-# TODO games: repositories comments have too much space after( and before )
-# TODO games: show or not show info?? show only first line of info (which should be a short description or make it a field (only for popular ones), otherwise rely on keywords)
+# TODO games: repositories comments have too much space after( and before ) (use icons without span and with pr-0 on the icon
+# TODO games: show or not show additional game description (info field)?? show only first line of info (which should be a short description or make it a field (only for popular ones), otherwise rely on keywords)
 # TODO games: cross-references for code dependencies if included
 
 # TODO contribute: contribute.html add content
 
-# TODO devs: icons mark as links (how? ask on ux.stackexchange.com?)
 # TODO developers: anchors to non-latin written developers do not work (chinese names have simply xxxxx)
-
-# TODO frameworks: icons for frameworks/libraries/tools
-
-# TODO filter by category: icons too large (overlapping)
-
-# TODO top50: only those that are active (and mature? and remove python of the week maybe ignore list)
+# TODO developers: top category with top developers (with at least 4 games contributed to)
 
 # TODO inspirations: icon full lamp (not contained in icomoon.io)
 # TODO inspirations: if included in the database, link instead to game (cross-reference)
+# TODO inspirations: top category with top inspirations (with at least 4 inspired games)
+# TODO inspirations: add media links and genres, maybe also years and original developer
 
 import os
 import shutil
@@ -117,6 +104,8 @@ games_by_genres_path = games_path + ['genres.html']
 games_by_platform_path = games_path + ['platforms.html']
 games_top50_path = games_path + ['top50.html']
 
+github_top50_ignored_repos = ('https://github.com/Hopson97/MineCraft-One-Week-Challenge.git', 'https://github.com/jdah/minecraft-weekend.git')
+
 # TODO currently not used, use?
 platform_color = {
     'Windows': 'is-danger',
@@ -141,8 +130,8 @@ platform_icon_map = {
 # map from genre name to icon name
 genre_icon_map = {
     'Action': 'target',
-    'Adventure': 'dice',
     'Arcade': 'pacman',
+    'Adventure': 'dice',
     'Educational': 'graduation-cap',
     'Game engine': 'car',
     'Puzzle': 'puzzle-piece',
@@ -151,8 +140,11 @@ genre_icon_map = {
     'Simulation': 'rocket1',
     'Strategy': 'fort-awesome',
     'Cards': 'spades',
+    'Board': 'chess',
     'Music': 'music',
     'Visual novel': 'book',
+    'Platform': 'directions_run',
+    'Sports': 'soccer-court',
     'Framework': 'stack',
     'Library': 'library'
 }
@@ -408,28 +400,29 @@ def shortcut_url(url, name):
     # gitlab
     gl_prefix = 'https://gitlab.com/'
     if url.startswith(gl_prefix):
-        return [make_text(url[len(gl_prefix):]), make_icon('gitlab')]
+        return [make_icon('gitlab', css='is-link'), make_text(url[len(gl_prefix):])]
 
     # github
     gh_prefix = 'https://github.com/'
     if url.startswith(gh_prefix):
-        return [make_text(url[len(gh_prefix):]), make_icon('github')]
+        return [make_icon('github', css='is-link'), make_text(url[len(gh_prefix):])]
 
     # sourceforge
     sf_prefix = 'https://sourceforge.net/projects/'
     if url.startswith(sf_prefix):
-        return [make_text(url[len(sf_prefix):]), make_icon('sourceforge')]
+        return [make_icon('sourceforge', css='is-link'), make_text(url[len(sf_prefix):])]
 
     # archive link
     ia_prefix = 'https://web.archive.org/web/'
     if url.startswith(ia_prefix):
-        return 'Archive: ' + url[len(ia_prefix):]
+        # return 'Archive: ' + url[len(ia_prefix):]
+        return [make_icon('library', css='is-link'), make_text(url[len(ia_prefix):])]
 
     # Wikipedia link
     wp_prefix = 'https://en.wikipedia.org/wiki/'
     if url.startswith(wp_prefix):
         # return 'WP: ' + url[len(wp_prefix):]
-        return [make_text(name), make_icon('wikipedia')]
+        return [make_icon('wikipedia', css='is-link'), make_text(name)]
 
     # cutoff common prefixes
     for prefix in ('http://', 'https://'):
@@ -500,16 +493,19 @@ def make_repo_url(x, name):
         return url
 
 
-def make_icon(css_class, title=None):
+def make_icon(id, title=None, css=None):
     """
 
-    :param css_class:
+    :param id:
     :param title:
     :return:
     """
+    if not css:
+        css = 'has-text-black'  # safeguard
     icon = {
         'type': 'icon',
-        'class': css_class,
+        'id': id,
+        'css': css
     }
     if title:
         icon['title'] = title
@@ -576,17 +572,19 @@ def make_tags(entries):
     }
 
 
-def make_detail(summary, detail):
+def make_img(file, width, height):
     """
 
-    :param summary:
-    :param detail:
+    :param file:
+    :param width:
+    :param height:
     :return:
     """
     return {
-        'type': 'detail',
-        'summary': summary,
-        'detail': detail
+        'type': 'image',
+        'file': file,
+        'width': width,
+        'height': height
     }
 
 
@@ -598,13 +596,13 @@ def developer_profile_link(link):
     :return: A URL to a profile page.
     """
     if link.endswith('@SF'):
-        return make_url('https://sourceforge.net/u/{}/profile/'.format(link[:-3]), make_icon('sourceforge'), 'User {} on Sourceforge'.format(link[:-3]))
+        return make_url('https://sourceforge.net/u/{}/profile/'.format(link[:-3]), make_icon('sourceforge', css='has-text-link'), 'User {} on Sourceforge'.format(link[:-3]))
     if link.endswith('@GH'):
-        return make_url('https://github.com/{}'.format(link[:-3]), make_icon('github'), 'User {} on Github'.format(link[:-3]))
+        return make_url('https://github.com/{}'.format(link[:-3]), make_icon('github', css='has-text-link'), 'User {} on Github'.format(link[:-3]))
     if link.endswith('@GL'):
-        return make_url('https://gitlab.com/{}'.format(link[:-3]), make_icon('gitlab'), 'User {} on Gitlab'.format(link[:-3]))
+        return make_url('https://gitlab.com/{}'.format(link[:-3]), make_icon('gitlab', css='has-text-link'), 'User {} on Gitlab'.format(link[:-3]))
     if link.endswith('@BB'):
-        return make_url('https://bitbucket.org/{}/'.format(link[:-3]), make_icon('bitbucket'), 'User {} on BitBucket'.format(link[:-3]))
+        return make_url('https://bitbucket.org/{}/'.format(link[:-3]), make_icon('bitbucket', css='has-text-link'), 'User {} on BitBucket'.format(link[:-3]))
     raise RuntimeError('Unknown profile link {}'.format(link))
 
 
@@ -684,7 +682,7 @@ def create_keyword_tag(keyword):
         #    return make_url(url, [make_icon(genre_icon_map[keyword.capitalize()]), make_text(keyword)], '{} games'.format(keyword), 'tag is-info')
         #else:
         #    return make_url(url, make_text(keyword), '{} games'.format(keyword), 'tag is-info')
-        return make_url(url, make_text(keyword), '{} games'.format(keyword), 'tag is-info')
+        return make_url(url, make_text(keyword), '{} games'.format(keyword), 'tag is-info') # TODO underline tag
     else:
         return make_text(keyword, 'tag is-light')
 
@@ -749,6 +747,8 @@ def convert_entries(entries, inspirations, developers):
                     e = [make_text(x) for x in e]
                 if field == 'Home':  # Home -> Homepage
                     field = 'Homepage'
+                    # first entry bold
+                    e[0]['class'] = 'has-text-weight-semibold'
                 elif field == 'Play':  # Play -> Play online
                     field = 'Play online'
                 namex = make_text('{}: '.format(get_plural_or_singular(field, len(e))))
@@ -759,10 +759,10 @@ def convert_entries(entries, inspirations, developers):
             e = entry['Platform']
         else:
             e = ['Unspecified']
-        e = [make_url(games_by_platform_path[:-1] + ['{}#{}'.format(games_by_platform_path[-1], x.lower())], make_icon(platform_icon_map[x]), x) if x in platform_icon_map else make_text(x) for x in e]
-        namex = make_text('{}:'.format(get_plural_or_singular('Platform', len(e))))
-        # entry['platform'] = [namex] + e
-        entry['state'].insert(0, [namex] + e)
+        e = [make_url(games_by_platform_path[:-1] + ['{}#{}'.format(games_by_platform_path[-1], x.lower())], make_icon(platform_icon_map[x], css='has-text-link is-size-6'), x) if x in platform_icon_map else make_text(x) for x in e]
+        # namex = make_text('{}: '.format(get_plural_or_singular('Platform', len(e))))
+        # entry['state'].insert(0, [namex] + e)
+        entry['state'].insert(0, e)
 
         # technical info fields
         for field in ('Code language', 'Code license', 'Code repository', 'Code dependency', 'Assets license'):
@@ -789,8 +789,8 @@ def convert_entries(entries, inspirations, developers):
         if field in entry['Building']:
             e = entry['Building'][field]
             divider = ', '
-            e = [make_url(c.build_system_urls[x], x, css_class='is-size-7') if x in c.build_system_urls else make_text(x, 'is-size-7') for x in e]
-            namex = make_text('{}: '.format(field), 'is-size-7')
+            e = [make_url(c.build_system_urls[x], x) if x in c.build_system_urls else make_text(x) for x in e]
+            namex = make_text('{}: '.format(field))
             entry[field.lower()] = [namex, make_enumeration(e, divider)]
 
         entry['raw-path'] = 'https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/' + entry['File']
@@ -819,6 +819,8 @@ def get_top50_games(games):
         # get stars of repositories
         stars = 0
         for repo in game.get('Code repository', [])[:1]:  # take at most one
+            if repo in github_top50_ignored_repos:
+                continue
             if isinstance(repo, osg_parse.Value):
                 for c in repo.comment.split(','):
                     c = c.strip()
@@ -852,9 +854,23 @@ d    """
     for entry in entries:
         # get screenshots entry
         name = osg.canonical_name(entry['Title'])  # TODO should be stored upon loading I guess
-        screenshots = overview.get(name, {})
-        screenshots = [{'width': s[0], 'height': s[1], 'url': s[2] if s[2] and not s[2].startswith('!') else None, 'file': ['screenshots', '{}_{:02d}.jpg'.format(name, id)]} for id, s in screenshots.items()]
-        if screenshots: # TODO inline from the template to just have an element that is rendered for screenshot (make_image missing for that still)
+        info = overview.get(name, {})
+        screenshots = []
+        for id, item in info.items():
+            width = item[0]
+            height = item[1]
+            if item[2] and not item[2].startswith('!'):
+                url = item[2]
+            else:
+                url = None
+            file = ['screenshots', '{}_{:02d}.jpg'.format(name, id)]
+            img = make_img(file, width, height)
+            if url:
+                screenshot = make_url(url, img)
+            else:
+                screenshot = img
+            screenshots.append(screenshot)
+        if screenshots:
             entry['screenshots'] = screenshots
 
 
@@ -999,6 +1015,24 @@ def generate(entries, inspirations, developers):
         'sections': []
     }
 
+    # supported platforms
+    supported_platforms_stat = stat.get_supported_platforms(entries)
+    file = os.path.join(c.web_path, 'statistics', 'supported_platforms.svg')
+    stat.export_pie_chart([statistic for statistic in supported_platforms_stat if statistic[0] != 'N/A'], file)
+    # read back and check if identical with old version (up to date)
+    text = utils.read_text(file)
+    if file in previous_files and previous_files[file]['hash'] == file_hash(text):
+        # use old version instead
+        text = previous_files[file]['text']
+        utils.write_text(file, text)
+    section = {
+        'title': 'Supported platforms',
+        'id': osg.canonical_name('Supported platforms'),
+        'items': ['{} ({})'.format(*item) for item in supported_platforms_stat],
+        'chart': statistics_path + ['supported_platforms.svg']
+    }
+    data['sections'].append(section)
+
     # build-systems
     build_systems_stat = stat.get_build_systems(entries)
     build_systems_stat = stat.truncate_stats(build_systems_stat, 10)
@@ -1012,6 +1046,7 @@ def generate(entries, inspirations, developers):
         utils.write_text(file, text)
     section = {
         'title': 'Build system',
+        'id': osg.canonical_name('Build system'),
         'items': ['{} ({})'.format(*item) for item in build_systems_stat],
         'chart': statistics_path + ['build_systems.svg']
     }
@@ -1188,7 +1223,9 @@ def generate(entries, inspirations, developers):
     base['js'].append('simple-datatables.js')
     base['active_nav'] = []
     template = environment.get_template('table.jinja')
-    write(template.render(), ['table.html'])
+    index['tags'] = make_text(', '.join(c.interesting_keywords))
+    index['platforms'] = make_text(', '.join(c.valid_platforms))
+    write(template.render(index=index), ['table.html'])
 
 
 if __name__ == "__main__":

@@ -16,6 +16,8 @@
   {{ render_tags(entry) }}
 {%- elif entry['type'] == 'enclose' -%}
   {{ render_enclose(entry) }}
+{%- elif entry['type'] == 'image' -%}
+  {{ render_image(entry) }}
 {%- else -%}
   {{ raise('Unknown entry type: {}.'.format(entry)) }}
 {%- endif -%}
@@ -32,7 +34,12 @@
 
 {# Renders an icon #}
 {%- macro render_icon(icon) -%}
-<span class="icon has-text-black"{% if 'title' in icon %} title="{{ icon['title'] }}"{% endif %}><i class="icon-{{ icon['class'] }}"></i></span>
+<span class="icon {{ icon['css'] }}"{% if 'title' in icon %} title="{{ icon['title'] }}"{% endif %}><i class="icon-{{ icon['id'] }}"></i></span>
+{%- endmacro -%}
+
+{# Renders an image #}
+{%- macro render_image(image) -%}
+<img src="{{ base['url_to'](image['file']) }}" width="{{ image['width'] }}" height="{{ image['height'] }}" alt="">
 {%- endmacro -%}
 
 {# Some text surrounded by a link tag #}

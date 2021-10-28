@@ -7,6 +7,25 @@ import os
 import matplotlib.pyplot as plt
 
 
+def get_supported_platforms(entries):
+    """
+
+    :param entries:
+    :return:
+    """
+    supported_platforms = []
+    for entry in entries:
+        supported_platforms.extend((entry.get('Platform', ['N/A'])))
+
+    unique_supported_platforms = set(supported_platforms)
+
+    supported_platforms_stat = [(l, supported_platforms.count(l)) for l in unique_supported_platforms]
+    supported_platforms_stat.sort(key=lambda x: str.casefold(x[0]))  # first sort by name
+    supported_platforms_stat.sort(key=lambda x: -x[1])  # then sort by occurrence (highest occurrence first)
+
+    return supported_platforms_stat
+
+
 def get_build_systems(entries):
     """
     Given a list of entries, calculates statistics about the used build systems and returns the statistics as

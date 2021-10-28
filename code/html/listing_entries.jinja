@@ -2,8 +2,9 @@
 {% block content %}
   <div class="container">
     <div class="box"><p class="title is-4">{{ listing['title'] }}</p>
-    {%- if 'subtitle' in listing %}<p class="subtitle is-6">{{ macros.render_element(listing['subtitle']) }}</p>{% endif -%}</div>
-                    {#- iterate over items -#}
+    {% if 'subtitle' in listing %}<p class="subtitle is-6">{{ macros.render_element(listing['subtitle']) }}</p>{% endif %}
+    </div>
+                    {#- iterate over items #}
 {% for item in listing['items'] %}
 <div id="{{ item['anchor-id'] }}" class="box">
                     {#- title and platform, activity, state as a level item (all on one line) -#}
@@ -17,24 +18,24 @@
       {%- endfor -%}
     </div>
   </nav>
-                    {#- keywords as tags, no note currently -#}
+                    {#- keywords as tags, no note currently #}
   <div class="block">
     {{ macros.render_element(item['keyword']) }}
   </div>
-                    {#- important fields in a certain order -#}
+                    {#- important fields in a certain order #}
   <div class="block">
   {%- for field in ('homepage', 'media', 'inspiration', 'download', 'play online') -%}
     {%- if field in item -%}{{ macros.render_element(item[field]) }}<br>{%- endif -%}
   {%- endfor -%}
   </div>
-                    {#- screenshots if available -#}
+                    {#- screenshots if available #}
   {%- if 'screenshots' in item%}<nav class="level">
   {%- for screenshot in item['screenshots'] -%}
-    <div class="level-item">{% if screenshot['url'] %}<a href="{{ screenshot['url'] }}">{% endif %}<img src="{{ base['url_to'](screenshot['file']) }}" width="{{ screenshot['width'] }}" height="{{ screenshot['height'] }}" alt="">{% if screenshot['url'] %}</a>{% endif %}</div>
+    <div class="level-item">{{ macros.render_element(screenshot) }}</div>
   {%- endfor -%}
   </nav>{% endif -%}
-                    {#- technical fields -#}
-  <div class="block is-size-7">
+                    {#- technical fields #}
+  <div class="block is-size-6">
     <span class="has-text-weight-semibold">Details</span><br>
     {%- for field in ('code language', 'code license', 'code repository', 'code dependency', 'assets license', 'build system', 'developer') -%}
     {%- if field in item -%}
@@ -46,7 +47,7 @@
     <br>{%- endif -%}
     {%- endfor -%}
   </div>
-                    {#- improve, raw -#}
+                    {#- improve, raw #}
   <div class="block is-size-7 has-text-right">
     <a href="{{ base['url_to'](['contribute.html#games']) }}" title="Contribution guide" class="mr-2">Improve</a>
     <a href="{{ item['raw-path'] }}" title="Text based entry on Github">Raw entry</a>

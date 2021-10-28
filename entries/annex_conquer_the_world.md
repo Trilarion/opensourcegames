@@ -4,14 +4,12 @@
 - State: mature, inactive since 2014
 - Download: http://annexconquer.com/downloads/
 - Platform: Windows, Linux
-- Keyword: strategy, content open, real-time
+- Keyword: strategy, content open, real-time, action
 - Code repository: https://bitbucket.org/annexctw/annex.git
 - Code language: Lua
 - Code license: GPL-3.0
 - Code dependency: MegaGlest Engine
 - Assets license: CC-BY-SA
 - Developer: DelphaDesign
-
-Fast paced combat with a diverse arsenal.
 
 ## Building

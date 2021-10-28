@@ -11,8 +11,6 @@
 - Code license: GPL-3.0
 - Developer: adejr, Chris Gray, Daniel Scharrer, David Stejskal, Dimoks, Dreamer, Eli2, Erik Lund, Frederik Gelder, Jan-Hendrik Peters, Jonathan Powell, Lubosz Sarnecki, Olzaq, Philippe Cavalaria, Thomas L
 
-Port of Arx Fatalis.
-
 ## Building
 
 - Build system: CMake

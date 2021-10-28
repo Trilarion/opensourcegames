@@ -11,6 +11,6 @@
 - Assets license: Custom (level design, see Readme)
 - Developer: Mateusz Viste
 
-Faithful remake of, and a tribute to, Atomix, a classic puzzle game created by Softtouch & RoSt and published in 1990 by the Thalion Software company.
+Remake of Atomix created by Softtouch & RoSt and published in 1990 by the Thalion Software company.
 
 ## Building

@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'osgl';
   src:
-    url('fonts/osgl.ttf?ibzhc9') format('truetype'),
-    url('fonts/osgl.woff?ibzhc9') format('woff'),
-    url('fonts/osgl.svg?ibzhc9#osgl') format('svg');
+    url('fonts/osgl.ttf?3tqk9h') format('truetype'),
+    url('fonts/osgl.woff?3tqk9h') format('woff'),
+    url('fonts/osgl.svg?3tqk9h#osgl') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -24,14 +24,53 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-soccer-shoe:before {
+  content: "\e90f";
+}
+.icon-soccer-shoe1:before {
+  content: "\e918";
+}
+.icon-soccer-court:before {
+  content: "\e91d";
+}
+.icon-soccer-court1:before {
+  content: "\e91e";
+}
+.icon-strategy:before {
+  content: "\e91f";
+}
+.icon-horse:before {
+  content: "\e91f";
+}
+.icon-chess:before {
+  content: "\e91f";
+}
+.icon-piece:before {
+  content: "\e91f";
+}
+.icon-bulb:before {
+  content: "\e90e";
+}
+.icon-lamp:before {
+  content: "\e90e";
+}
+.icon-idea:before {
+  content: "\e90e";
+}
 .icon-question:before {
   content: "\f128";
+}
+.icon-search:before {
+  content: "\f002";
 }
 .icon-star:before {
   content: "\f005";
 }
 .icon-star-o:before {
   content: "\f006";
+}
+.icon-external-link:before {
+  content: "\f08e";
 }
 .icon-magic:before {
   content: "\f0d0";
@@ -60,6 +99,9 @@ i {
 .icon-rocket1:before {
   content: "\f135";
 }
+.icon-external-link-square:before {
+  content: "\f14c";
+}
 .icon-graduation-cap:before {
   content: "\f19d";
 }
@@ -71,6 +113,12 @@ i {
 }
 .icon-car:before {
   content: "\f1b9";
+}
+.icon-futbol-o:before {
+  content: "\f1e3";
+}
+.icon-soccer-ball-o:before {
+  content: "\f1e3";
 }
 .icon-user-secret:before {
   content: "\f21b";
@@ -89,6 +137,9 @@ i {
 }
 .icon-language:before {
   content: "\e90d";
+}
+.icon-heart-fill:before {
+  content: "\e920";
 }
 .icon-wrench1:before {
   content: "\e91c";
@@ -177,14 +228,11 @@ i {
 .icon-help:before {
   content: "\e908";
 }
-.icon-bulb:before {
-  content: "\e90e";
+.icon-directions_run:before {
+  content: "\e922";
 }
-.icon-lamp:before {
-  content: "\e90e";
-}
-.icon-idea:before {
-  content: "\e90e";
+.icon-directions_walk:before {
+  content: "\e923";
 }
 .icon-brightness_3:before {
   content: "\e914";

@@ -1,24 +1,35 @@
 {% extends "base.jinja" %}
 {% block content %}
 <div class="container">
-  <div class="box"><p class="title is-4">{{ data['title'] }}</p></div>
+  <div class="box">
+    <div class="block"><p class="title is-4">{{ data['title'] }}</p></div>
 {% set comma = joiner(",") %}
 {% for section in data['sections'] %}
-    {{ comma() }} <a href="#">{{ section['title'] }}</a>
+    {{ comma() }} <a href="#{{ section['id'] }}">{{ section['title'] }}</a>
 {% endfor %}
-    </div>
+  </div>
+
+  <article class="message is-warning">
+    <div class="message-header"><p>Warning</p></div>
+    <div class="message-body">Statistics can be inaccurate.</div>
+  </article>
                             {#- each statistics section -#}
 {% for section in data['sections'] %}
-  <section class="section">
-    <div class="container">
-    <p id="" class="title is-4">{{ section['title'] }}</p>
-    {% if 'chart' in section %}<img src="{{ base['url_to'](section['chart']) }}">{% endif %}
-    <ul>
-    {% for item in section['items'] -%}
-    <li>{{ item }}</li>
-    {% endfor -%}
-    </ul>
-    </div>
-  </section>
+  <div id="{{ section['id'] }}" class="box">
+    <p class="title is-4">{{ section['title'] }}</p>
+    <nav class="level">
+      {% if 'chart' in section %}<div class="level-item"><img src="{{ base['url_to'](section['chart']) }}"></div>{% endif %}
+      <div class="level-item">
+        <ul>
+          <ol type="1">
+{% for item in section['items'] -%}
+            <li>{{ item }}</li>
+{% endfor -%}
+          </ol>
+        </ul>
+      </div>
+    </nav>
+  </div>
 {% endfor %}
+</div>
 {% endblock %}

@@ -15,7 +15,7 @@
 </head>
 <body><nav class="navbar container is-light" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item" href="index.html"><span class="icon has-text-black"><i class="icon-home"></i></span><span>OSGL</span></a>
+    <a class="navbar-item" href="index.html"><span class="icon "><i class="icon-home"></i></span><span>OSGL</span></a>
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
@@ -24,39 +24,49 @@
   </div>
   <div class="navbar-menu" id="navMenu">
     <div class="navbar-start">
-      <a class="navbar-item" href="games/index.html"><span class="icon has-text-black"><i class="icon-dice"></i></span><span>Games</span></a>
+      <a class="navbar-item" href="games/index.html"><span class="icon "><i class="icon-dice"></i></span><span>Games</span></a>
       <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link"><span class="icon has-text-black"><i class="icon-filter"></i></span><span>Filter</span></a>
+        <a class="navbar-link"><span class="icon "><i class="icon-filter"></i></span><span>Filter</span></a>
         <div class="navbar-dropdown">
-          <a class="navbar-item" href="games/genres.html"><span class="icon has-text-black"><i class="icon-price-tag"></i></span><span>By category</span></a>
-          <a class="navbar-item" href="games/languages.html"><span class="icon has-text-black"><i class="icon-language"></i></span><span>By code language</span></a>
-          <a class="navbar-item" href="games/platforms.html"><span class="icon has-text-black"><i class="icon-laptop"></i></span><span>By OS support</span></a>
-          <a class="navbar-item" href="games/top50.html"><span class="icon has-text-black"><i class="icon-star"></i></span><span>GitHub Stars Top 50</span></a>
+          <a class="navbar-item" href="games/genres.html"><span class="icon "><i class="icon-price-tag"></i></span><span>By category</span></a>
+          <a class="navbar-item" href="games/languages.html"><span class="icon "><i class="icon-language"></i></span><span>By code language</span></a>
+          <a class="navbar-item" href="games/platforms.html"><span class="icon "><i class="icon-laptop"></i></span><span>By OS support</span></a>
+          <a class="navbar-item" href="games/top50.html"><span class="icon "><i class="icon-star"></i></span><span>GitHub Stars Top 50</span></a>
         </div>
       </div>
-      <a class="navbar-item" href="frameworks/index.html"><span class="icon has-text-black"><i class="icon-wrench"></i></span><span>Frameworks/Tools</span></a>
-      <a class="navbar-item" href="developers/index.html"><span class="icon has-text-black"><i class="icon-users"></i></span><span>Developers</span></a>
-      <a class="navbar-item" href="inspirations/index.html"><span class="icon has-text-black"><i class="icon-bulb"></i></span><span>Inspirations</span></a>
-      <a class="navbar-item" href="statistics/index.html"><span class="icon has-text-black"><i class="icon-stats-dots"></i></span><span>Statistics</span></a>
-      <a class="navbar-item" href="contribute.html"><span class="icon has-text-black"><i class="icon-pencil"></i></span><span>Contribute</span></a>
-      <a class="navbar-item" href="https://github.com/Trilarion/opensourcegames"><span class="icon has-text-black"><i class="icon-github"></i></span><span>On GitHub</span></a>
+      <a class="navbar-item" href="frameworks/index.html"><span class="icon "><i class="icon-wrench"></i></span><span>Frameworks/Tools</span></a>
+      <a class="navbar-item" href="developers/index.html"><span class="icon "><i class="icon-users"></i></span><span>Developers</span></a>
+      <a class="navbar-item" href="inspirations/index.html"><span class="icon "><i class="icon-bulb"></i></span><span>Inspirations</span></a>
+      <a class="navbar-item" href="statistics/index.html"><span class="icon "><i class="icon-stats-dots"></i></span><span>Statistics</span></a>
+      <a class="navbar-item" href="contribute.html"><span class="icon "><i class="icon-pencil"></i></span><span>Contribute</span></a>
+      <a class="navbar-item" href="https://github.com/Trilarion/opensourcegames"><span class="icon "><i class="icon-github"></i></span><span>On GitHub</span></a>
     </div>
   </div>
 </nav>
   <div class="container">
   <div class="box">
     <div class="block">
-      <p class="title is-4">Table</p>
-      <p class="subtitle is-6">Sortable and searchable.</p>
+      <p class="title is-4">Table of all entries</p>
+      <p class="subtitle is-6">Games, engines, tools sortable and searchable (filter by any combination of words).</p>
     </div>
-   </div>
-   <table class="table is-narrow is-hoverable is-size-6"></table>
+  </div>
+  <div class="box">
+    <table class="table is-narrow is-hoverable"></table>
+    <ul>
+      <li><span class="has-text-weight-bold">Title:</span> name with link to OSGL entry (external link to game website)</li>
+      <li><span class="has-text-weight-bold">State:</span> mature or beta, if inactive then "inactive since year"</li>
+      <li><span class="has-text-weight-bold">Tags:</span> action, arcade, adventure, visual novel, sports, platform, puzzle, role playing, simulation, strategy, cards, board, music, educational, tool, game engine, framework, library, remake, 2D, 3D, clone, first-person, real-time, roguelike, shooter, space, turn-based</li>
+      <li><span class="has-text-weight-bold">Platform:</span> Windows, Linux, macOS, Android, iOS, Web</li>
+      <li><span class="has-text-weight-bold">Language:</span> C, C++, Java, Python, JavaScript, ..</li>
+      <li><span class="has-text-weight-bold">License:</span> MIT, GPL, BSD, ..</li>
+    </ul>
+  </div>
   </div>
   <script>
     fetch("data/entries.json").then(response => response.json()).then(data => {
       let table = new simpleDatatables.DataTable(".table", {
-        perPage: 30,
-        perPageSelect: [10, 30, 50],
+        perPage: 20,
+        perPageSelect: [10, 20, 40],
         footer: true,
         data: {
           headings: data["headings"],
@@ -81,7 +91,7 @@
   <p>The content (games descriptions) is licensed <a href="https://github.com/Trilarion/opensourcegames/blob/master/LICENSE">CC-0</a>.
   Used icons are licensed under CC BY-SA 3.0 (<a href="https://github.com/somerandomdude/Iconic">Iconic</a> or <a href="http://designmodo.com/linecons-free/">Linecons</a>), CC0 1.0 (<a href="https://simpleicons.org/">Simple Icons</a>),
   CC BY 4.0 (<a href="https://github.com/FortAwesome/Font-Awesome">Font Awesome</a> or <a href="https://icomoon.io/#icons-icomoon">IcoMoon Free</a>), CC BY-SA 4.0 (<a href="http://www.entypo.com/">Entypo+</a>) or Apache License 2.0 (<a href="https://material.io/resources/icons">Material Icons</a>).
-  This website is built using Python, Lark, Jinja2 and Bulma. Last updated: 2021-10-26 19:43</p>
+  This website is built using Python, Lark, Jinja2 and Bulma. Last updated: 2021-11-02 11:49</p>
 </footer>
 </body>
 </html>

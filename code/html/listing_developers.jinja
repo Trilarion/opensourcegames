@@ -1,33 +1,33 @@
 {% extends "base.jinja" %}
 {% block content %}
   <div class="container">
-    <p class="title is-4">{{ listing['title'] }}</p>
+    <div class="box"><p class="title is-4">{{ listing['title'] }}</p></div>
                     {#- iterate over items, each one as a box-#}
-    {% for item in listing['items'] %}
+{% for item in listing['items'] %}
     <div id="{{ item['anchor-id'] }}" class="box">
                     {#- name and contact elements on one line, as a level -#}
       <div class="level">
         <div class="level-left">
           <div class="level-item"><p class="title is-4">{{ item['name'] }}</p></div>
         </div>
-      <div class="level-right is-size-5">
-      {%- for contact in item['contact'] -%}
-      <div class="level-item">{{ macros.render_element(contact) }}</div>
-      {%- endfor -%}
+      <div class="level-right is-size-4">
+{%- for contact in item['contact'] -%}
+        <div class="level-item">{{ macros.render_element(contact) }}</div>
+{%- endfor -%}
       </div>
     </div>
                     {#- games as a separate element -#}
     <div class="block">{{ macros.render_element(item['games']) }}</div>
                     {#- other elements -#}
     <div class="block">
-      {%- for field in ('organization',) -%}
+{%- for field in ('organization',) -%}
       {%- if field in item %}{{ macros.render_element(item[field]) }}{% endif -%}
-      {%- endfor -%}
+{%- endfor -%}
     </div>
                     {#- improve link -#}
     <p class="is-size-7 has-text-right"><a href="{{ base['url_to'](['contribute.html#developers']) }}" title="Contribution guide">Improve</a></p>
     </div>
-  {% endfor -%}
+{% endfor -%}
   <p class="is-size-7 has-text-right"><a href="#">Back to top</a></p>
   </div>
 {% endblock %}

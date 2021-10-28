@@ -11,7 +11,6 @@
 - Assets license: CC-BY-SA
 
 Base building game with artificial life simulation.
-
 License information could be added to game download.
 
 ## Building

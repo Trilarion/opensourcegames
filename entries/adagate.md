@@ -11,6 +11,6 @@
 - Code dependency: OpenGL, SDL2
 - Developer: fastrgv
 
-Stargate / Portal fantasy setting.
+Stargate / Portal setting.
 
 ## Building

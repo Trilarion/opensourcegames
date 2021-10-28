@@ -17,6 +17,28 @@ from running the game or from youtube play videos.
 
 01 103 128 https://cloud.githubusercontent.com/assets/1175750/8614312/280e5dc2-26f1-11e5-9f1f-5891c3ca8b26.png
 
+# 3dcity
+
+01 366 128 !https://camo.githubusercontent.com/4bf2182f1fbc1bfa25fe09b1af4af55b07e3275ecd4955da92c77bf8bc8d9f11/687474703a2f2f6c6f2d74682e6769746875622e696f2f33642e636974792f696d672f7072657669657730322e6a7067
+02 366 128 !https://camo.githubusercontent.com/e4cd0881e7acee4be727339f18e47af5c0e5745422586e15ebf7ac34e1317f00/687474703a2f2f6c6f2d74682e6769746875622e696f2f33642e636974792f696d672f7072657669657730332e6a7067
+03 366 128 !https://camo.githubusercontent.com/1d50e833fdf9589dbdb0e5aafc502a7cd131f7b7fc0fe783f63fe10e4d487c53/687474703a2f2f6c6f2d74682e6769746875622e696f2f33642e636974792f696d672f7072657669657730312e6a7067
+
+# achtung_die_kurve
+
+01 149 128
+
+# adadoom3
+
+01 192 128 https://raw.githubusercontent.com/AdaDoom3/AdaDoom3/master/Object/EP2PUGuX0AA2Pz_.jpg
+
+# aleph_one
+
+01 180 128 https://alephone.lhowon.org/images/marathon_collage.png
+
+# ares_dogfighter
+
+01 0 0 !https://camo.githubusercontent.com/e56aff5d80614a785dfda737ec7b3cb20ddf4ea4d1574430e7a14e28c7f796c9/687474703a2f2f6d656469612e696e64696564622e636f6d2f63616368652f696d616765732f67616d65732f312f35322f35313935382f7468756d625f36323078323030302f33312e706e67
+
 # awkaster
 
 01 169 128 https://raw.githubusercontent.com/TheMozg/awk-raycaster/master/screenshot.png
@@ -29,6 +51,10 @@ from running the game or from youtube play videos.
 
 01 382 128 https://cataclysmdda.org/assets/images/showcase-ultica.png
 
+# chocolate_doom
+
+01 170 128 https://www.chocolate-doom.org/wiki/images/a/a7/Chocolate-doom.png
+
 # citybound
 
 01 225 128 https://uploads-ssl.webflow.com/58ef666b690e1f31ad12a43a/5c24208c35af3ace29d8ff05_Screenshot%202018-12-26%20at%2014.39.29.476.png
@@ -38,6 +64,10 @@ from running the game or from youtube play videos.
 
 01 192 128 !https://camo.githubusercontent.com/efe711fd9c38213716cf53eb961cc79d7d0bdca12e3565515143d55ca3a7ad96/687474703a2f2f692e696d6775722e636f6d2f536c62767436352e706e67
 
+# colossal_cave_adventure
+
+01 159 128
+
 # corsixth
 
 01 206 128 !https://camo.githubusercontent.com/3265ac28138825f4e38ebeb2e8450b82a628ec01254e0455f576b7ad0181d0c5/68747470733a2f2f692e696d6775722e636f6d2f714856363055692e706e67
@@ -45,6 +75,10 @@ from running the game or from youtube play videos.
 # craft
 
 01 171 128 https://i.imgur.com/SH7wcas.png
+
+# der_clou
+
+01 106 128 https://a.fsdn.com/con/app/proj/cosp/screenshots/24590_boxshot_1.jpg/max/max/1
 
 # devilution
 
@@ -72,6 +106,10 @@ from running the game or from youtube play videos.
 
 01 213 128
 
+# fanwor
+
+01 171 128
+
 # freeablo
 
 01 232 128
@@ -81,9 +119,21 @@ from running the game or from youtube play videos.
 01 227 128 https://raw.githubusercontent.com/freeciv/freeciv-web/develop/freeciv-web/src/main/webapp/javascript/webgl/freeciv-webgl.png
 02 218 128 https://raw.githubusercontent.com/freeciv/freeciv-web/develop/scripts/freeciv-web-screenshot.png
 
+# gnu_freedink
+
+01 167 128 https://www.gnu.org/software/freedink/screenshots/raspberry-pi.png
+
+# gzdoom
+
+01 228 128 https://zdoom.org/assets/images/projects/doom.jpg
+
 # hematite
 
 01 255 128 https://raw.githubusercontent.com/PistonDevelopers/hematite/master/screenshot.png
+
+# hexgl
+
+01 217 128
 
 # hextris
 
@@ -109,9 +159,17 @@ from running the game or from youtube play videos.
 02 288 128 https://mindustrygame.github.io/images/2.png
 03 290 128 https://mindustrygame.github.io/images/3.png
 
+# mkjs
+
+01 193 128
+
 # nethack
 
 01 198 128 https://upload.wikimedia.org/wikipedia/commons/0/00/Nethack_releasing_a_djinni.png
+
+# open_simulator
+
+01 174 128 http://opensimulator.org/images/0/0d/Oscc13_001_002_grady_booch.png
 
 # opendune
 
@@ -154,6 +212,10 @@ from running the game or from youtube play videos.
 01 210 128 http://pixeldungeon.watabou.ru/screens/level_up.png
 02 210 128 http://pixeldungeon.watabou.ru/screens/shop.png
 
+# privateer-gemini_gold
+
+01 171 128 http://privateer.sourceforge.net/images/screenshot-1-approaching-planet-under-attack.png
+
 # runelite
 
 01 160 128 !https://runelite.net/img/features/mousehighlight.png
@@ -188,6 +250,12 @@ from running the game or from youtube play videos.
 
 01 118 128 https://stockfishchess.org/images/logo/icon_512x512.png
 
+# supertux
+
+01 228 128 https://www.supertux.org/images/0_6_0/0_6_0_5.png
+02 228 128 https://www.supertux.org/images/0_6_0/0_6_0_17.png
+03 228 128 https://www.supertux.org/images/0_6_0/0_6_0_2.png
+
 # supertuxkart
 
 01 238 128 https://supertuxkart.net/images/f/f9/Stk093_CandelaCity.jpg
@@ -206,10 +274,19 @@ from running the game or from youtube play videos.
 02 228 128 https://www.wesnoth.org/images/sshots/wesnoth-1.14.0-2.jpg
 03 228 128 https://www.wesnoth.org/images/sshots/wesnoth-1.14.0-3.jpg
 
+# the_house
+
+01 155 128
+
 # the_powder_toy
 
 01 307 128 https://powdertoy.co.uk/Themes/Next/Design/Images/Screen2.png
 02 307 128 https://powdertoy.co.uk/Themes/Next/Design/Images/Screen1.png
+
+# thrive
+
+01 234 128 !https://camo.githubusercontent.com/fc14c156d22d41e2dde35e414223ff3b1900c2c59d7fcb73bd55cffc8610ed0b/68747470733a2f2f72616e646f6d74687269766566696c65732e622d63646e2e6e65742f73637265656e73686f74732f6769746875625f73637265656e73686f745f312e706e67
+02 234 128 !https://camo.githubusercontent.com/4e8b03c4f3f682d26142728b9f27ac3a22c143a542912c7a0c922fe5e44802f2/68747470733a2f2f72616e646f6d74687269766566696c65732e622d63646e2e6e65742f73637265656e73686f74732f6769746875625f73637265656e73686f745f322e706e67
 
 # truecraft
 
@@ -222,9 +299,23 @@ from running the game or from youtube play videos.
 02 242 128 https://img.itch.zone/aW1hZ2UvNTIzMzIzLzcxOTkwMDAucG5n/original/BVUTYb.png
 03 242 128 https://img.itch.zone/aW1hZ2UvNTIzMzIzLzcxOTkwMDEucG5n/original/f35Vyd.png
 
+# unitystation
+
+01 214 128
+
+# unknown_horizons
+
+01 228 128 https://unknown-horizons.org/static/screenshots/2019-01-11.23-36-47.502394.png
+
 # vcmi
 
 01 338 128 https://vcmi.eu/img/2017/09/vcmionmac.jpg
+
+# veloren
+
+01 228 128 !https://user-content.gitlab-static.net/a3e00076279b6f541828b7a4735776d97a04038c/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3534313330373730383134363538313531392f3731323239353630353137303630323037352f6c6f676f2e706e67
+02 228 128 !https://veloren.net/processed_images/dea13f8adf85b3d400.jpg
+03 228 128 !https://veloren.net/processed_images/399a6574e3b558e200.jpg
 
 # vvvvvv
 
@@ -235,4 +326,18 @@ from running the game or from youtube play videos.
 01 171 128 !https://wz2100.net/img/screenshots/wz2100-CAM_3A50.webp
 02 178 128 https://wz2100.net/img/screenshots/base_build.webp
 03 184 128 https://wz2100.net/img/screenshots/multiplayer_massive_battle.webp
+
+# widelands
+
+01 208 128 !https://camo.githubusercontent.com/bbaa21fb583ce1d264bbcca4501319e458d0153094524fdbc00541ccdb990999/68747470733a2f2f7777772e776964656c616e64732e6f72672f7374617469632f696d672f77656c636f6d652e6a7067
+02 228 128 https://www.widelands.org/wlmedia/wlscreens/screens/Widelands%201.0/Main_Menu.jpg
+03 228 128 https://www.widelands.org/wlmedia/wlscreens/screens/Widelands%201.0/Invisible_Buildings_1.jpg
+
+# xmage
+
+01 281 128 https://user-images.githubusercontent.com/8344157/117028249-940d9e80-ad0e-11eb-84da-70fdbe41e0f2.png
+
+# zdoom
+
+01 228 128 https://zdoom.org/assets/images/projects/doom.jpg
 

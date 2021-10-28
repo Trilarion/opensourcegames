@@ -2579,7 +2579,7 @@
   [
    "<a href=\"games/0.html#54321\" class=\"has-text-weight-semibold\">54321</a> <a href=\"http://old.nklein.com/products/54321/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2001",
-   "puzzle",
+   "puzzle, 3D",
    "-",
    "C++",
    "Custom"
@@ -2835,7 +2835,7 @@
   [
    "<a href=\"games/A.html#angry_birds_in_python\" class=\"has-text-weight-semibold\">Angry Birds in Python</a> <a href=\"https://github.com/estevaofon/angry-birds-python\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2017",
-   "role playing",
+   "arcade, remake",
    "-",
    "Python",
    "MIT"
@@ -2843,7 +2843,7 @@
   [
    "<a href=\"games/A.html#annex_conquer_the_world\" class=\"has-text-weight-semibold\">Annex: Conquer the World</a> <a href=\"http://annexconquer.com/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2014",
-   "strategy, real-time",
+   "strategy, real-time, action",
    "Windows, Linux",
    "Lua",
    "GPL-3.0"
@@ -3051,7 +3051,7 @@
   [
    "<a href=\"games/A.html#atrinik\" class=\"has-text-weight-semibold\">Atrinik</a> <a href=\"https://www.atrinik.org/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2016",
-   "role playing, 2D",
+   "role playing, 2D, 2D",
    "-",
    "C, Python",
    "GPL-2.0"
@@ -3099,7 +3099,7 @@
   [
    "<a href=\"games/A.html#azimuth\" class=\"has-text-weight-semibold\">Azimuth</a> <a href=\"https://web.archive.org/web/20210703111943/https://mdsteele.games/azimuth/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
-   "adventure, shooter",
+   "action, platform, shooter",
    "Windows, Linux, macOS",
    "C",
    "GPL-3.0"
@@ -5387,7 +5387,7 @@
   [
    "<a href=\"games/F.html#fanwor\" class=\"has-text-weight-semibold\">Fanwor</a> <a href=\"https://fanwor.tuxfamily.org/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
-   "adventure, remake",
+   "action, adventure, remake",
    "-",
    "C",
    "GPL-2.0"
@@ -6539,7 +6539,7 @@
   [
    "<a href=\"games/H.html#hexgl\" class=\"has-text-weight-semibold\">HexGL</a> <a href=\"http://hexgl.bkcore.com/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2016",
-   "role playing, clone",
+   "simulation, clone",
    "Web",
    "JavaScript, CoffeeScript",
    "MIT"
@@ -8619,7 +8619,7 @@
   [
    "<a href=\"games/O.html#open_simulator\" class=\"has-text-weight-semibold\">Open Simulator</a> <a href=\"http://opensimulator.org/wiki/Main_Page\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
-   "adventure",
+   "simulation",
    "-",
    "C#",
    "3-clause BSD"
@@ -12451,7 +12451,7 @@
   [
    "<a href=\"games/V.html#venzone\" class=\"has-text-weight-semibold\">Venzone</a> <a href=\"http://ariis.it/static/articles/venzone/page.html\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
-   "adventure, platform",
+   "platform",
    "-",
    "Haskell",
    "GPL-3.0"

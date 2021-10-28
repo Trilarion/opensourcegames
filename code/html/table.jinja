@@ -3,17 +3,27 @@
   <div class="container">
   <div class="box">
     <div class="block">
-      <p class="title is-4">Table</p>
-      <p class="subtitle is-6">Sortable and searchable.</p>
+      <p class="title is-4">Table of all entries</p>
+      <p class="subtitle is-6">Games, engines, tools sortable and searchable (filter by any combination of words).</p>
     </div>
-   </div>
-   <table class="table is-narrow is-hoverable is-size-6"></table>
+  </div>
+  <div class="box">
+    <table class="table is-narrow is-hoverable"></table>
+    <ul>
+      <li><span class="has-text-weight-bold">Title:</span> name with link to OSGL entry (external link to game website)</li>
+      <li><span class="has-text-weight-bold">State:</span> mature or beta, if inactive then "inactive since year"</li>
+      <li><span class="has-text-weight-bold">Tags:</span> {{ macros.render_element(index['tags']) }}</li>
+      <li><span class="has-text-weight-bold">Platform:</span> {{ macros.render_element(index['platforms']) }}</li>
+      <li><span class="has-text-weight-bold">Language:</span> C, C++, Java, Python, JavaScript, ..</li>
+      <li><span class="has-text-weight-bold">License:</span> MIT, GPL, BSD, ..</li>
+    </ul>
+  </div>
   </div>
   <script>
     fetch("data/entries.json").then(response => response.json()).then(data => {
       let table = new simpleDatatables.DataTable(".table", {
-        perPage: 30,
-        perPageSelect: [10, 30, 50],
+        perPage: 20,
+        perPageSelect: [10, 20, 40],
         footer: true,
         data: {
           headings: data["headings"],

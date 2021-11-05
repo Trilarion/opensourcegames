@@ -3,8 +3,8 @@
 - Home: https://2009scape.org/
 - Media: https://en.wikipedia.org/wiki/0_A.D._(video_game)
 - Inspiration: RuneScape
-- State: beta
-- Download: https://play0ad.com/download/
+- State: complete
+- Download: https://2009scape.org/
 - Platform: Windows, Linux, macOS
 - Keyword: remake, role playing, content commercial, multiplayer online + co-op
 - Code repository: https://gitlab.com/2009scape/2009scape (@created 2017, @stars 18, @forks 37)

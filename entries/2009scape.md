@@ -11,7 +11,6 @@
 - Code language: Java
 - Code license: AGPL
 - Code dependency: Java
-- Assets license: CC-BY-SA-3.0
 - Developer: ceikry, skelsoft, Badhad, Avi Weinstock, Woahscam, Von Hresvelg, downthecrop, phil lips, NixWigton, vk, Kermit Frog
 
 ## Building

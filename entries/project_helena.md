@@ -12,3 +12,5 @@
 Requires: [Castle Game Engine](https://castle-engine.io/index.php), [repository](https://github.com/castle-engine/castle-engine)
 
 ## Building
+
+- Build instruction: https://gitlab.com/EugeneLoza/Project-Helena/-/blob/master/readme_compile.txt

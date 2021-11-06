@@ -1,7 +1,5 @@
 # Project Helena
 
-_{Description}_ A turn-based strategy game where the Player has to eliminate enemy bots on a randomly-generated map.
-
 - Home: https://decoherence.itch.io/project-helena
 - Inspiration: X-COM: Enemy Unknown
 - State: beta, inactive since 2018
@@ -13,6 +11,8 @@ _{Description}_ A turn-based strategy game where the Player has to eliminate ene
 - Code license: GPL-3.0
 - Code dependency: libogg, libvorbis, OpenAL, libpng, libfreetype, GTK2
 - Developer: Eugene Loza
+
+A turn-based strategy game where the Player has to eliminate enemy bots on a randomly-generated map.
 
 Requires: [Castle Game Engine](https://castle-engine.io/index.php), [repository](https://github.com/castle-engine/castle-engine)
 

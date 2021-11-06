@@ -11,6 +11,8 @@
 - Code dependency: libogg, libvorbis, OpenAL, libpng, libfreetype, GTK2
 - Developer: Eugene Loza
 
+A peaceful 3D maze exploration game.
+
 Requires: [Castle Game Engine](https://castle-engine.io/index.php), [repository](https://github.com/castle-engine/castle-engine)
 
 ## Building

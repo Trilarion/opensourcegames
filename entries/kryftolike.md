@@ -1,7 +1,5 @@
 # Kryftolike
 
-_{Description}_ Explore infinite maze looking for treasure and hiding from monsters.
-
 - Home: https://decoherence.itch.io/kryftolike
 - State: mature
 - Download: https://decoherence.itch.io/kryftolike
@@ -12,6 +10,8 @@ _{Description}_ Explore infinite maze looking for treasure and hiding from monst
 - Code license: GPL-3.0
 - Code dependency: libogg, libvorbis, OpenAL, libpng, libfreetype, GTK2
 - Developer: Eugene Loza
+
+Explore infinite maze looking for treasure and hiding from monsters.
 
 Requires: [Castle Game Engine](https://castle-engine.io/index.php), [repository](https://github.com/castle-engine/castle-engine)
 

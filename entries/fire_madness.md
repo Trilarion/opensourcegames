@@ -1,7 +1,5 @@
 # Fire Madness
 
-_{Description}_ FireMadness is a top-down bullet hell shooter
-
 - Home: https://decoherence.itch.io/fire-maddness
 - Inspiration: CrossFire (1981 by Jay Sullivan)
 - State: mature, inactive since 2016
@@ -13,6 +11,8 @@ _{Description}_ FireMadness is a top-down bullet hell shooter
 - Code license: GPL-3.0
 - Code dependency: libogg, libvorbis, OpenAL, libpng, libfreetype, GTK2
 - Developer: Eugene Loza
+
+FireMadness is a top-down bullet hell shooter
 
 Requires: [Castle Game Engine](https://castle-engine.io/index.php), [repository](https://github.com/castle-engine/castle-engine)
 

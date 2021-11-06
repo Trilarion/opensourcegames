@@ -5,7 +5,7 @@
 - State: beta, inactive since 2018
 - Download: https://decoherence.itch.io/project-helena
 - Platform: Windows, Linux
-- Keyword: role playing, strategy, turn-based
+- Keywords: role playing, 2D, strategy, turn-based
 - Code repository: https://gitlab.com/EugeneLoza/Project-Helena.git (@created 2018, @stars 1, @forks 0)
 - Code language: Pascal
 - Code license: GPL-3.0

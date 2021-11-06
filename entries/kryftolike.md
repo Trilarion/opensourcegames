@@ -4,7 +4,7 @@
 - State: mature
 - Download: https://decoherence.itch.io/kryftolike
 - Platform: Windows, Linux, Android
-- Keyword: adventure, turn-based, roguelite
+- Keywords: adventure, 2D, turn-based, roguelite
 - Code repository: https://gitlab.com/EugeneLoza/kryftolike (@created 2021, @stars 4, @forks 0)
 - Code language: Pascal
 - Code license: GPL-3.0

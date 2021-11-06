@@ -13,6 +13,7 @@ Sitemap is not needed, only for large projects with lots of JavaScript und many 
 # TODO tab: top level tab (search tab) should go to table (table should have it active as nav) with search icon
 # TODO tab: new filter tab (playable in a browser) with tiles (https://bulma.io/documentation/layout/tiles/) sorted by genre
 # TODO tab: new filter tab (my top 100) with games I really like (mature and I tried them and there is a download for each of them) and some categories with explanation why and possible link to a review on the blog (like evil cult)
+# TODO tab: new filter tab (for kids)
 
 # TODO table: state, os, license smaller
 # TODO table: search window width larger (asked at the Github repo of the simple datatable, could not find easily in code)
@@ -52,6 +53,7 @@ Sitemap is not needed, only for large projects with lots of JavaScript und many 
 # TODO games: repositories comments have too much space after( and before ) (use icons without span and with pr-0 on the icon
 # TODO games: show or not show additional game description (info field)?? show only first line of info (which should be a short description or make it a field (only for popular ones), otherwise rely on keywords)
 # TODO games: cross-references for code dependencies if included
+# TODO games: "for adults" tagged need a special icon warning (not safe for work or something)
 
 # TODO contribute: contribute.html add content
 

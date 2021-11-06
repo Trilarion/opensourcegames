@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://sourceforge.net/projects/marathon/files/
 - Platform: Windows, Linux, macOS
-- Keyword: action, remake, first-person, shooter, content original required + commercial
+- Keyword: action, remake, content original required + commercial, first-person, shooter
 - Code repository: https://github.com/Aleph-One-Marathon/alephone.git (@created 2015, @stars 336, @forks 63), https://svn.code.sf.net/p/marathon/code (svn)
 - Code language: C++, Lua
 - Code license: GPL-3.0

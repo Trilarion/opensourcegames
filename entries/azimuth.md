@@ -4,7 +4,7 @@
 - Inspiration: Metroidvania
 - State: mature
 - Platform: Windows, Linux, macOS
-- Keyword: action, platform, content open, shooter, top-down, side-scrolling
+- Keyword: action, platform, content open, shooter, side-scrolling, top-down
 - Code repository: https://github.com/mdsteele/azimuth.git (@created 2012, @stars 29, @forks 9)
 - Code language: C
 - Code license: GPL-3.0

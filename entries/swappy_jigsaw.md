@@ -1,7 +1,9 @@
 # Swappy Jigsaw
 
+_{Description}_ A simple jigsaw puzzle game where you have to put together 84 images split into several pieces.
+
 - Home: https://decoherence.itch.io/swappy-jigsaw
-- State: mature
+- State: mature, inactive since 2019
 - Download: https://decoherence.itch.io/swappy-jigsaw
 - Platform: Windows, Linux
 - Keyword: puzzle

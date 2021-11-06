@@ -1,11 +1,14 @@
 # Fire Madness
 
+_{Description}_ FireMadness is a top-down bullet hell shooter
+
 - Home: https://decoherence.itch.io/fire-maddness
-- State: mature
+- Inspiration: CrossFire (1981 by Jay Sullivan)
+- State: mature, inactive since 2016
 - Download: https://decoherence.itch.io/fire-maddness
 - Platform: Windows, Linux
 - Keyword: action
-- Code repository: https://gitlab.com/EugeneLoza/FireMadness (@created 2021, @stars 0, @forks 0)
+- Code repository: https://gitlab.com/EugeneLoza/FireMadness (@created 2016, @stars 0, @forks 0)
 - Code language: Pascal
 - Code license: GPL-3.0
 - Code dependency: libogg, libvorbis, OpenAL, libpng, libfreetype, GTK2

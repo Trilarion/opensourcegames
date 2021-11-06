@@ -1,5 +1,7 @@
 # Project Helena
 
+_{Description}_ A turn-based strategy game where the Player has to eliminate enemy bots on a randomly-generated map.
+
 - Home: https://decoherence.itch.io/project-helena
 - Inspiration: X-COM: Enemy Unknown
 - State: beta, inactive since 2018

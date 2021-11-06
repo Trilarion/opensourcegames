@@ -1,5 +1,7 @@
 # Kryftolike
 
+_{Description}_ Explore infinite maze looking for treasure and hiding from monsters.
+
 - Home: https://decoherence.itch.io/kryftolike
 - State: mature
 - Download: https://decoherence.itch.io/kryftolike

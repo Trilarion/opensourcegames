@@ -1,8 +1,8 @@
 # Project Helena
 
-- Home: https://gitlab.com/EugeneLoza/Project-Helena, https://sourceforge.net/projects/projecthelena/
-- State: beta
-- Download: https://decoherence.itch.io/project-helena, https://sourceforge.net/projects/projecthelena/files
+- Home: https://decoherence.itch.io/project-helena
+- State: beta, inactive since 2018
+- Download: https://decoherence.itch.io/project-helena
 - Keyword: role playing, strategy, turn-based
 - Code repository: https://gitlab.com/EugeneLoza/Project-Helena.git (@created 2018, @stars 1, @forks 0)
 - Code language: Pascal

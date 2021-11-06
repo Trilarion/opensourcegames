@@ -1,7 +1,5 @@
 # Foxy Misfortunes
 
-_{Description}_ A simple top-down shooter game where clothes are hit points
-
 - Home: https://decoherence.itch.io/foxy-misfortunes
 - State: mature
 - Download: https://decoherence.itch.io/foxy-misfortunes
@@ -12,6 +10,8 @@ _{Description}_ A simple top-down shooter game where clothes are hit points
 - Code license: GPL-3.0
 - Code dependency: libogg, libvorbis, OpenAL, libpng, libfreetype, GTK2
 - Developer: Eugene Loza
+
+A simple top-down shooter game where clothes are hit points
 
 Requires: [Castle Game Engine](https://castle-engine.io/index.php), [repository](https://github.com/castle-engine/castle-engine)
 

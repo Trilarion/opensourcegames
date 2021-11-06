@@ -4,7 +4,7 @@
 - State: mature, inactive since 2019
 - Download: https://decoherence.itch.io/swappy-jigsaw
 - Platform: Windows, Linux
-- Keyword: puzzle
+- Keywords: puzzle
 - Code repository: https://gitlab.com/EugeneLoza/swappy-jigsaw (@created 2018, @stars 0, @forks 1)
 - Code language: Pascal
 - Code license: GPL-3.0

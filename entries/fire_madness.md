@@ -5,7 +5,7 @@
 - State: mature, inactive since 2016
 - Download: https://decoherence.itch.io/fire-maddness
 - Platform: Windows, Linux
-- Keyword: action
+- Keywords: action, 2D, top-down
 - Code repository: https://gitlab.com/EugeneLoza/FireMadness (@created 2016, @stars 0, @forks 0)
 - Code language: Pascal
 - Code license: GPL-3.0

@@ -3,6 +3,7 @@
 
 - **[Andor's Trail](../andors_trail.md)** (Java, GPL-2.0, beta)
 - **[android-chess](../android-chess.md)** (Java, C++, MIT, mature)
+- **[AnKi 3D engine](../anki_3d_engine.md)** (C++, 3-clause BSD, beta)
 - **[antiyoy](../antiyoy.md)** (Java, GPL-3.0, beta)
 - **[Anuto](../anuto.md)** (Java, GPL-2.0, mature)
 - **[Apple Flinger](../apple_flinger.md)** (Java, GPL-3.0, mature)
@@ -39,6 +40,7 @@
 - **[Fish Rings for Android](../fish_rings_for_android.md)** (Java, GPL-3.0, mature, inactive since 2015)
 - **[Flappy Cow](../flappy_cow.md)** (Java, MIT, mature)
 - **[flixel-gdx](../flixel-gdx.md)** (Java, 3-clause BSD, beta, inactive since 2017)
+- **[Foxy Misfortunes](../foxy_misfortunes.md)** (Pascal, GPL-3.0, mature)
 - **[FreeBlocks](../freeblocks.md)** (C, Java, GPL-3.0, beta, inactive since 2015)
 - **[Freebloks 3D for Android](../freebloks_3d_for_android.md)** (Kotlin, C++, GPL-2.0, mature)
 - **[Freeminer](../freeminer.md)** (C++, Lua, GPL-3.0, beta)
@@ -63,6 +65,7 @@
 - **[jewelthief](../jewelthief.md)** (Java, GPL-3.0, mature, inactive since 2016)
 - **[KittenMaxit](../kittenmaxit.md)** (Java, MIT, beta)
 - **[Klooni 1010!](../klooni_1010.md)** (Java, GPL-3.0, beta)
+- **[Kryftolike](../kryftolike.md)** (Pascal, GPL-3.0, mature)
 - **[KungFoo Barracuda](../kungfoo_barracuda.md)** (C++, GPL-3.0, mature, inactive since 2016)
 - **[Lexica](../lexica.md)** (Java, GPL-3.0, mature)
 - **[LGeneral](../lgeneral.md)** (C, GPL-2.0, mature, inactive since 2017)

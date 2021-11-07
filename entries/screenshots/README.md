@@ -37,7 +37,7 @@ from running the game or from youtube play videos.
 
 # ares_dogfighter
 
-01 0 0 !https://camo.githubusercontent.com/e56aff5d80614a785dfda737ec7b3cb20ddf4ea4d1574430e7a14e28c7f796c9/687474703a2f2f6d656469612e696e64696564622e636f6d2f63616368652f696d616765732f67616d65732f312f35322f35313935382f7468756d625f36323078323030302f33312e706e67
+01 180 128 !https://camo.githubusercontent.com/e56aff5d80614a785dfda737ec7b3cb20ddf4ea4d1574430e7a14e28c7f796c9/687474703a2f2f6d656469612e696e64696564622e636f6d2f63616368652f696d616765732f67616d65732f312f35322f35313935382f7468756d625f36323078323030302f33312e706e67
 
 # awkaster
 
@@ -110,6 +110,14 @@ from running the game or from youtube play videos.
 
 01 171 128
 
+# fire_madness
+
+01 171 128 https://img.itch.zone/aW1hZ2UvMTUzNDUxLzcwMzI0Ni5wbmc=/original/i7aMe9.png
+
+# foxy_misfortunes
+
+01 228 128 https://img.itch.zone/aW1hZ2UvMTI1NzUwMi83MzY2OTgxLnBuZw==/original/A%2FWBGx.png
+
 # freeablo
 
 01 232 128
@@ -152,6 +160,12 @@ from running the game or from youtube play videos.
 01 228 128 https://img.itch.zone/aW1hZ2UvMzUxNjMxLzE3NTA4MzAucG5n/original/Rrwyp%2B.png
 02 228 128 https://img.itch.zone/aW1hZ2UvMzUxNjMxLzE3NTA4MzEucG5n/original/yxtSSc.png
 03 228 128 https://img.itch.zone/aW1hZ2UvMzUxNjMxLzE3NTA4MzMucG5n/original/hvoJSz.png
+
+# mazer
+
+01 228 128 https://img.itch.zone/aW1hZ2UvMTUzNjY5LzcwNDIxMy5qcGc=/original/nN3RD6.jpg
+02 227 128 https://img.itch.zone/aW1hZ2UvMTUzNjY5LzcwNDIxNC5qcGc=/original/eRYkbV.jpg
+03 227 128 https://img.itch.zone/aW1hZ2UvMTUzNjY5LzcwNDIxMS5qcGc=/original/Tkqb7J.jpg
 
 # mindustry
 
@@ -216,6 +230,11 @@ from running the game or from youtube play videos.
 
 01 171 128 http://privateer.sourceforge.net/images/screenshot-1-approaching-planet-under-attack.png
 
+# project_helena
+
+01 166 128 https://img.itch.zone/aW1hZ2UvMTUzNDU1LzcwMzI5MC5wbmc=/original/3xMozU.png
+02 166 128 https://img.itch.zone/aW1hZ2UvMTUzNDU1LzcwMzI4Ny5wbmc=/original/hJYOB4.png
+
 # runelite
 
 01 160 128 !https://runelite.net/img/features/mousehighlight.png
@@ -261,6 +280,12 @@ from running the game or from youtube play videos.
 01 238 128 https://supertuxkart.net/images/f/f9/Stk093_CandelaCity.jpg
 02 238 128 https://supertuxkart.net/images/4/4e/Supertuxkart-0.9-screenshot-2.jpg
 03 238 128 https://supertuxkart.net/images/1/1d/Stk093_Abyss.jpg
+
+# swappy_jigsaw
+
+01 205 128 https://img.itch.zone/aW1hZ2UvMzU1MzY4LzE3NzM0MzgucG5n/original/%2Fc5mIl.png
+02 206 128 https://img.itch.zone/aW1hZ2UvMzU1MzY4LzE3NzM0MzkucG5n/original/bJ9Tx%2F.png
+03 206 128 https://img.itch.zone/aW1hZ2UvMzU1MzY4LzE3NzM0NTMucG5n/original/Bupf8A.png
 
 # teeworlds
 

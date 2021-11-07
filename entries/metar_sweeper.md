@@ -5,7 +5,7 @@
 - State: beta, inactive since 2015
 - Download: https://decoherence.itch.io/metar-sweeper#download
 - Platform: Windows, Linux
-- Keywords: puzzle
+- Keyword: puzzle
 - Code repository: https://gitlab.com/EugeneLoza/Metar-Sweeper.git (@created 2015, @stars 1, @forks 0)
 - Code language: Pascal
 - Code license: GPL-3.0

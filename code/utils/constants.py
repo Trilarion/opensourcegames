@@ -216,6 +216,9 @@ general_code_dependencies_without_entry = {'OpenGL': 'https://www.opengl.org/',
                                    'tkinter': 'https://docs.python.org/3/library/tk.html',
                                    'Boost': 'https://www.boost.org/'}
 
+# they are too abundant and quite general
+ignored_code_dependencies = ('libogg', 'libvorbis', 'OpenAL', 'libpng', 'libfreetype')
+
 # build system urls
 build_system_urls = {
     'CMake': 'https://cmake.org/',

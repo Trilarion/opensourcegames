@@ -2513,6 +2513,14 @@
    "2-clause BSD"
   ],
   [
+   "<a href=\"games/0.html#2009scape\" class=\"has-text-weight-semibold\">2009scape</a> <a href=\"https://2009scape.org/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "remake, role playing",
+   "Windows, Linux, macOS",
+   "Java, Kotlin",
+   "AGPL-3.0"
+  ],
+  [
    "<a href=\"games/0.html#2048\" class=\"has-text-weight-semibold\">2048</a> <a href=\"https://play2048.co/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "puzzle",
@@ -2843,7 +2851,7 @@
   [
    "<a href=\"games/A.html#annex_conquer_the_world\" class=\"has-text-weight-semibold\">Annex: Conquer the World</a> <a href=\"http://annexconquer.com/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2014",
-   "strategy, real-time, action",
+   "action, strategy, real-time",
    "Windows, Linux",
    "Lua",
    "GPL-3.0"
@@ -3051,7 +3059,7 @@
   [
    "<a href=\"games/A.html#atrinik\" class=\"has-text-weight-semibold\">Atrinik</a> <a href=\"https://www.atrinik.org/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2016",
-   "role playing, 2D, 2D",
+   "role playing, 2D",
    "-",
    "C, Python",
    "GPL-2.0"
@@ -5417,6 +5425,14 @@
    "GPL-3.0"
   ],
   [
+   "<a href=\"games/F.html#fire_madness\" class=\"has-text-weight-semibold\">Fire Madness</a> <a href=\"https://decoherence.itch.io/fire-maddness\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2016",
+   "action, 2D, shooter",
+   "Windows, Linux",
+   "Pascal",
+   "GPL-3.0"
+  ],
+  [
    "<a href=\"games/F.html#fire_strike_retro\" class=\"has-text-weight-semibold\">Fire Strike Retro</a> <a href=\"https://eightsines.com/fire-strike/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "action, 3D, shooter",
@@ -5550,6 +5566,14 @@
    "board, strategy",
    "-",
    "Elm, JavaScript",
+   "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/F.html#foxy_misfortunes\" class=\"has-text-weight-semibold\">Foxy Misfortunes</a> <a href=\"https://decoherence.itch.io/foxy-misfortunes\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "action, 2D, shooter",
+   "Windows, Linux, Android",
+   "Pascal",
    "GPL-3.0"
   ],
   [
@@ -7201,6 +7225,14 @@
    "MIT"
   ],
   [
+   "<a href=\"games/K.html#kryftolike\" class=\"has-text-weight-semibold\">Kryftolike</a> <a href=\"https://decoherence.itch.io/kryftolike\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "role playing, 2D, turn-based",
+   "Windows, Linux, Android",
+   "Pascal",
+   "GPL-3.0"
+  ],
+  [
    "<a href=\"games/K.html#krystal_drop\" class=\"has-text-weight-semibold\">Krystal Drop</a> <a href=\"http://krystaldrop.sourceforge.net/\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2004",
    "puzzle, remake",
@@ -7713,6 +7745,14 @@
    "3-clause BSD"
   ],
   [
+   "<a href=\"games/M.html#mazer\" class=\"has-text-weight-semibold\">Mazer</a> <a href=\"https://decoherence.itch.io/mazer\"><i class=\"icon-new-tab\"></i></a>",
+   "beta, inactive since 2018",
+   "puzzle, 3D",
+   "Windows, Linux",
+   "Pascal",
+   "GPL-3.0"
+  ],
+  [
    "<a href=\"games/M.html#mc2\" class=\"has-text-weight-semibold\">mc2</a> <a href=\"https://alariq.github.io/mc2-website/\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "remake, strategy, real-time",
@@ -7815,6 +7855,14 @@
    "Web",
    "PHP",
    "GPL-2.0"
+  ],
+  [
+   "<a href=\"games/M.html#metar_sweeper\" class=\"has-text-weight-semibold\">Metar Sweeper</a> <a href=\"https://decoherence.itch.io/metar-sweeper\"><i class=\"icon-new-tab\"></i></a>",
+   "beta, inactive since 2015",
+   "puzzle",
+   "Windows, Linux",
+   "Pascal",
+   "GPL-3.0"
   ],
   [
    "<a href=\"games/M.html#mewl\" class=\"has-text-weight-semibold\">M.E.W.L.</a> <a href=\"https://github.com/LionsPhil/mewl\"><i class=\"icon-new-tab\"></i></a>",
@@ -9769,10 +9817,10 @@
    "MPL-2.0"
   ],
   [
-   "<a href=\"games/P.html#project_helena\" class=\"has-text-weight-semibold\">Project Helena</a> <a href=\"https://gitlab.com/EugeneLoza/Project-Helena\"><i class=\"icon-new-tab\"></i></a>",
-   "beta",
-   "role playing, strategy, turn-based",
-   "-",
+   "<a href=\"games/P.html#project_helena\" class=\"has-text-weight-semibold\">Project Helena</a> <a href=\"https://decoherence.itch.io/project-helena\"><i class=\"icon-new-tab\"></i></a>",
+   "beta, inactive since 2018",
+   "role playing, strategy, 2D, turn-based",
+   "Windows, Linux",
    "Pascal",
    "GPL-3.0"
   ],
@@ -10282,7 +10330,7 @@
   ],
   [
    "<a href=\"games/R.html#roguebox_adventures\" class=\"has-text-weight-semibold\">RogueBox Adventures</a> <a href=\"https://rogueboxadventures.tuxfamily.org/\"><i class=\"icon-new-tab\"></i></a>",
-   "mature, inactive since 2017",
+   "mature",
    "role playing, 2D, roguelike",
    "Windows, Linux",
    "Python",
@@ -11367,6 +11415,14 @@
    "Web",
    "JavaScript",
    "CC-BY-NC-3.0"
+  ],
+  [
+   "<a href=\"games/S.html#swappy_jigsaw\" class=\"has-text-weight-semibold\">Swappy Jigsaw</a> <a href=\"https://decoherence.itch.io/swappy-jigsaw\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2019",
+   "puzzle",
+   "Windows, Linux",
+   "Pascal",
+   "GPL-3.0"
   ],
   [
    "<a href=\"games/S.html#swp\" class=\"has-text-weight-semibold\">SWP</a> <a href=\"http://www.proasm.com/sw/swp.html\"><i class=\"icon-new-tab\"></i></a>",

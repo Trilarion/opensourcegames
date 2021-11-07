@@ -2,16 +2,14 @@
 
 - Home: https://decoherence.itch.io/mazer
 - State: beta, inactive since 2018
-- Download: https://decoherence.itch.io/mazer
+- Download: https://decoherence.itch.io/mazer#download
 - Platform: Windows, Linux
-- Keywords: puzzle, 3D
-- Code repository: https://gitlab.com/EugeneLoza/Mazer (@created 2015, @stars 0, @forks 0)
+- Keywords: puzzle, 3D, maze
+- Code repository: https://gitlab.com/EugeneLoza/Mazer.git (@created 2015, @stars 0, @forks 0)
 - Code language: Pascal
 - Code license: GPL-3.0
-- Code dependency: libogg, libvorbis, OpenAL, libpng, libfreetype, GTK2
+- Code dependency: Castle Game Engine, GTK2
 - Developer: Eugene Loza
-
-A peaceful 3D maze exploration game.
 
 Requires: [Castle Game Engine](https://castle-engine.io/index.php), [repository](https://github.com/castle-engine/castle-engine)
 

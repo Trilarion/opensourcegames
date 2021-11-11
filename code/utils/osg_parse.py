@@ -14,10 +14,20 @@ class ListingTransformer(lark.Transformer):
     """
 
     def unquoted_value(self, x):
-        return x[0].strip()
+        """
+
+        :param x:
+        :return:
+        """
+        return str(x[0]).strip()  # strip whitespaces
 
     def quoted_value(self, x):
-        return x[0][1:-1].strip()  # remove quotation marks and strip whitespaces
+        """
+
+        :param x:
+        :return:
+        """
+        return str(x[0])[1:-1].strip()  # remove quotation marks and strip whitespaces
 
     def property(self, x):
         """
@@ -25,7 +35,7 @@ class ListingTransformer(lark.Transformer):
         :param x:
         :return:
         """
-        return x[0], x[1:]
+        return str(x[0]).strip(), x[1:]
 
     def name(self, x):
         """
@@ -33,7 +43,7 @@ class ListingTransformer(lark.Transformer):
         :param x:
         :return:
         """
-        return 'Name', x[0].strip()
+        return 'Name', str(x[0]).strip()
 
     def entry(self, x):
         """
@@ -49,20 +59,43 @@ class ListingTransformer(lark.Transformer):
         return d
 
     def start(self, x):
+        """
+
+        :param x:
+        :return:
+        """
         return x
 
 
 # transformer
 class EntryTransformer(lark.Transformer):
+    """
+
+    """
 
     def unquoted_value(self, x):
-        return x[0].strip()
+        """
+
+        :param x:
+        :return:
+        """
+        return str(x[0]).strip()  # remove whitespaces
 
     def quoted_value(self, x):
-        return x[0][1:-1].strip()  # remove quotation marks
+        """
+
+        :param x:
+        :return:
+        """
+        return str(x[0])[1:-1].strip()  # remove quotation marks and whitespaces
 
     def comment_value(self, x):
-        return x[0][1:-1].strip()  # remove parenthesis
+        """
+
+        :param x:
+        :return:
+        """
+        return str(x[0])[1:-1].strip()  # remove parenthesis
 
     def value(self, x):
         """
@@ -72,7 +105,7 @@ class EntryTransformer(lark.Transformer):
         :return:
         """
         if len(x) == 1:
-            v = x[0]
+            v = str(x[0])
         else:
             v = Value(*x)
         return v
@@ -83,9 +116,14 @@ class EntryTransformer(lark.Transformer):
         :param x:
         :return:
         """
-        return x[0].strip(), x[1:]
+        return str(x[0]).strip(), x[1:]
 
     def title(self, x):
+        """
+
+        :param x:
+        :return:
+        """
         return 'Title', x[0].strip()
 
     def note(self, x):
@@ -99,9 +137,19 @@ class EntryTransformer(lark.Transformer):
         return 'Note', ''.join(x)
 
     def building(self, x):
+        """
+
+        :param x:
+        :return:
+        """
         return 'Building', x
 
     def start(self, x):
+        """
+
+        :param x:
+        :return:
+        """
         return x
 
 

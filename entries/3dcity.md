@@ -1,6 +1,6 @@
 # 3d.city
 
-- Home: http://lo-th.github.io/3d.city/index.html, https://github.com/lo-th/3d.city
+- Home: http://lo-th.github.io/3d.city/index.html
 - Inspiration: Micropolis, SimCity
 - State: mature, inactive since 2016
 - Play: http://lo-th.github.io/3d.city/index.html

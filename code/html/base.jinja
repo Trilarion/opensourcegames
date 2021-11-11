@@ -28,7 +28,8 @@
   </div>
   <div class="navbar-menu" id="navMenu">
     <div class="navbar-start">
-      <a class="navbar-item{% if 'games' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'index.html']) }}">{{ macros.render_icon({'id':'dice'}) }}<span>Games</span></a>
+      <a class="navbar-item{% if 'games' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'index.html']) }}">{{ macros.render_icon({'id':'dice'}) }}<span>All Games</span></a>
+      <a class="navbar-item{% if 'table' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['table.html']) }}">{{ macros.render_icon({'id':'search'}) }}<span>Table</span></a>
       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link{% if 'filter' in base['active_nav'] %} is-active{% endif %}">{{ macros.render_icon({'id':'filter'}) }}<span>Filter</span></a>
         <div class="navbar-dropdown">
@@ -36,6 +37,8 @@
           <a class="navbar-item{% if 'code language' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'languages.html']) }}">{{ macros.render_icon({'id':'language'}) }}<span>By code language</span></a>
           <a class="navbar-item{% if 'platforms' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'platforms.html']) }}">{{ macros.render_icon({'id':'laptop'}) }}<span>By OS support</span></a>
           <a class="navbar-item{% if 'top-50' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'top50.html']) }}">{{ macros.render_icon({'id':'star'}) }}<span>GitHub Stars Top 50</span></a>
+          <a class="navbar-item{% if 'web' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'web.html']) }}">{{ macros.render_icon({'id':'earth'}) }}<span>Playable browser games</span></a>
+          <a class="navbar-item{% if 'kids' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'kids.html']) }}">{{ macros.render_icon({'id':'child'}) }}<span>For Kids</span></a>
         </div>
       </div>
       <a class="navbar-item{% if 'frameworks' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['frameworks', 'index.html']) }}">{{ macros.render_icon({'id':'wrench'}) }}<span>Frameworks/Tools</span></a>

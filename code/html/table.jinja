@@ -8,15 +8,17 @@
     </div>
   </div>
   <div class="box">
+    <details><summary>Table description</summary>
+      <ul>
+        <li><span class="has-text-weight-bold">Title:</span> name with link to OSGL entry (external link to game website)</li>
+        <li><span class="has-text-weight-bold">State:</span> mature or beta, if inactive then "inactive since year"</li>
+        <li><span class="has-text-weight-bold">Tags:</span> {{ macros.render_element(index['tags']) }}</li>
+        <li><span class="has-text-weight-bold">Platform:</span> {{ macros.render_element(index['platforms']) }}</li>
+        <li><span class="has-text-weight-bold">Language:</span> C, C++, Java, Python, JavaScript, ..</li>
+        <li><span class="has-text-weight-bold">License:</span> MIT, GPL, BSD, ..</li>
+      </ul>
+    </details>
     <table class="table is-narrow is-hoverable"></table>
-    <ul>
-      <li><span class="has-text-weight-bold">Title:</span> name with link to OSGL entry (external link to game website)</li>
-      <li><span class="has-text-weight-bold">State:</span> mature or beta, if inactive then "inactive since year"</li>
-      <li><span class="has-text-weight-bold">Tags:</span> {{ macros.render_element(index['tags']) }}</li>
-      <li><span class="has-text-weight-bold">Platform:</span> {{ macros.render_element(index['platforms']) }}</li>
-      <li><span class="has-text-weight-bold">Language:</span> C, C++, Java, Python, JavaScript, ..</li>
-      <li><span class="has-text-weight-bold">License:</span> MIT, GPL, BSD, ..</li>
-    </ul>
   </div>
   </div>
   <script>

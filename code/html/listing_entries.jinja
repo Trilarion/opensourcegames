@@ -7,6 +7,12 @@
                     {#- iterate over items #}
 {% for item in listing['items'] %}
 <div id="{{ item['anchor-id'] }}" class="box">
+  {%- if 'for adults' in item['Keyword'] %}
+  <article class="message is-warning is-size-7">
+    <div class="message-header"><p>Warning</p></div>
+    <div class="message-body">This entry is marked as "for adults" and may feature explicit content.</div>
+  </article>
+  {%- endif %}
                     {#- title and platform, activity, state as a level item (all on one line) -#}
   <nav class="level">
     <div class="level-left">
@@ -40,7 +46,7 @@
     {%- for field in ('code language', 'code license', 'code repository', 'code dependency', 'assets license', 'build system', 'developer') -%}
     {%- if field in item -%}
       {%- if item[field][1]['entries']|length > 10 -%}
-      <details><summary>{{ macros.render_element(item[field][0]) }} ({{ item[field][1]['entries']|length }})</summary>{{ macros.render_element(item[field][1]) }}</details>
+      <details><summary>{{ macros.render_element(item[field][0]) }} ({{ item[field][1]['entries']|length }})</summary><br>{{ macros.render_element(item[field][1]) }}</details>
       {%- else -%}
       {{ macros.render_element(item[field]) }}
       {%- endif -%}

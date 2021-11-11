@@ -22,7 +22,8 @@
   </div>
   <div class="navbar-menu" id="navMenu">
     <div class="navbar-start">
-      <a class="navbar-item" href="../games/index.html"><span class="icon "><i class="icon-dice"></i></span><span>Games</span></a>
+      <a class="navbar-item" href="../games/index.html"><span class="icon "><i class="icon-dice"></i></span><span>All Games</span></a>
+      <a class="navbar-item" href="../table.html"><span class="icon "><i class="icon-search"></i></span><span>Table</span></a>
       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link"><span class="icon "><i class="icon-filter"></i></span><span>Filter</span></a>
         <div class="navbar-dropdown">
@@ -30,6 +31,8 @@
           <a class="navbar-item" href="../games/languages.html"><span class="icon "><i class="icon-language"></i></span><span>By code language</span></a>
           <a class="navbar-item" href="../games/platforms.html"><span class="icon "><i class="icon-laptop"></i></span><span>By OS support</span></a>
           <a class="navbar-item" href="../games/top50.html"><span class="icon "><i class="icon-star"></i></span><span>GitHub Stars Top 50</span></a>
+          <a class="navbar-item" href="../games/web.html"><span class="icon "><i class="icon-earth"></i></span><span>Playable browser games</span></a>
+          <a class="navbar-item" href="../games/kids.html"><span class="icon "><i class="icon-child"></i></span><span>For Kids</span></a>
         </div>
       </div>
       <a class="navbar-item" href="../frameworks/index.html"><span class="icon "><i class="icon-wrench"></i></span><span>Frameworks/Tools</span></a>
@@ -41,21 +44,26 @@
     </div>
   </div>
 </nav>
-<div class="container">
+<div class="container content">
   <div class="box">
     <div class="block"><p class="title is-4">Statistics</p></div>
+    <div class="block">
+    <ol type="1">
+      <li><a href="#supported_platforms">Supported platforms</a></li>
 
+      <li><a href="#code_languages">Code languages</a></li>
 
-     <a href="#supported_platforms">Supported platforms</a>
+      <li><a href="#code_licenses">Code licenses</a></li>
 
-    , <a href="#build_system">Build system</a>
+      <li><a href="#build_systems">Build systems</a></li>
 
-  </div>
-
-  <article class="message is-warning">
+    </ol>
+    </div>
+  <article class="message is-warning is-size-7">
     <div class="message-header"><p>Warning</p></div>
     <div class="message-body">Statistics can be inaccurate.</div>
   </article>
+  </div>
   <div id="supported_platforms" class="box">
     <p class="title is-4">Supported platforms</p>
     <nav class="level">
@@ -74,10 +82,72 @@
         </ul>
       </div>
     </nav>
+    <p class="is-size-7 has-text-right"><a href="#">Back to top</a></p>
   </div>
 
-  <div id="build_system" class="box">
-    <p class="title is-4">Build system</p>
+  <div id="code_languages" class="box">
+    <p class="title is-4">Code languages</p>
+    <nav class="level">
+      <div class="level-item"><img src="code_languages.svg"></div>
+      <div class="level-item">
+        <ul>
+          <ol type="1">
+<li>C++ (726)</li>
+<li>C (519)</li>
+<li>Java (218)</li>
+<li>Python (161)</li>
+<li>JavaScript (130)</li>
+<li>C# (91)</li>
+<li>Lua (89)</li>
+<li>Pascal (39)</li>
+<li>PHP (33)</li>
+<li>GDScript (20)</li>
+<li>Script (20)</li>
+<li>Objective-C (19)</li>
+<li>TypeScript (17)</li>
+<li>Assembly (15)</li>
+<li>Ada (11)</li>
+<li>Kotlin (11)</li>
+<li>Rust (11)</li>
+<li>Other (118)</li>
+</ol>
+        </ul>
+      </div>
+    </nav>
+    <p class="is-size-7 has-text-right"><a href="#">Back to top</a></p>
+  </div>
+
+  <div id="code_licenses" class="box">
+    <p class="title is-4">Code licenses</p>
+    <nav class="level">
+      <div class="level-item"><img src="code_licenses.svg"></div>
+      <div class="level-item">
+        <ul>
+          <ol type="1">
+<li>GPL-2.0 (540)</li>
+<li>GPL-3.0 (474)</li>
+<li>MIT (281)</li>
+<li>Custom (52)</li>
+<li>Apache-2.0 (47)</li>
+<li>zlib (43)</li>
+<li>3-clause BSD (38)</li>
+<li>AGPL-3.0 (32)</li>
+<li>LGPL-2.1 (27)</li>
+<li>? (26)</li>
+<li>LGPL-3.0 (22)</li>
+<li>Public domain (21)</li>
+<li>2-clause BSD (18)</li>
+<li>MPL-2.0 (10)</li>
+<li>Other (72)</li>
+</ol>
+        </ul>
+      </div>
+    </nav>
+    <p class="is-size-7 has-text-right"><a href="#">Back to top</a></p>
+  </div>
+
+  <div id="build_systems" class="box">
+    <p class="title is-4">Build systems</p>
     <nav class="level">
       <div class="level-item"><img src="build_systems.svg"></div>
       <div class="level-item">
@@ -97,6 +167,7 @@
         </ul>
       </div>
     </nav>
+    <p class="is-size-7 has-text-right"><a href="#">Back to top</a></p>
   </div>
 
 </div>
@@ -107,7 +178,7 @@
   <p>The content (games descriptions) is licensed <a href="https://github.com/Trilarion/opensourcegames/blob/master/LICENSE">CC-0</a>.
   Used icons are licensed under CC BY-SA 3.0 (<a href="https://github.com/somerandomdude/Iconic">Iconic</a> or <a href="http://designmodo.com/linecons-free/">Linecons</a>), CC0 1.0 (<a href="https://simpleicons.org/">Simple Icons</a>),
   CC BY 4.0 (<a href="https://github.com/FortAwesome/Font-Awesome">Font Awesome</a> or <a href="https://icomoon.io/#icons-icomoon">IcoMoon Free</a>), CC BY-SA 4.0 (<a href="http://www.entypo.com/">Entypo+</a>) or Apache License 2.0 (<a href="https://material.io/resources/icons">Material Icons</a>).
-  This website is built using Python, Lark, Jinja2 and Bulma. Last updated: 2021-11-07 11:46</p>
+  This website is built using Python, Lark, Jinja2 and Bulma. Last updated: 2021-11-11 13:30</p>
 </footer>
 </body>
 </html>

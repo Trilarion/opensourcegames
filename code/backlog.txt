@@ -110,3 +110,6 @@ https://www.tapatalk.com/groups/imperilist/
 https://www.wurfelengine.net/
 https://zdoom.org/downloads (gzdoom, lzdoom)
 https://zope.readthedocs.io/en/latest/
+https://github.com/damian-pastorini/reldens
+https://github.com/tainicom/Aether.Physics2D
+https://github.com/jarikomppa/soloud

@@ -10,13 +10,11 @@ Sitemap is not needed, only for large projects with lots of JavaScript und many 
 
 """
 
-# TODO tab: top level tab (search tab) should go to table (table should have it active as nav) with search icon
-# TODO tab: new filter tab (playable in a browser) with tiles (https://bulma.io/documentation/layout/tiles/) sorted by genre
-# TODO tab: new filter tab (my top 100) with games I really like (mature and I tried them and there is a download for each of them) and some categories with explanation why and possible link to a review on the blog (like evil cult)
-# TODO tab: new filter tab (for kids)
+# TODO tab: new filter tab (playable in a browser) with tiles (https://bulma.io/documentation/layout/tiles/) sorted by genre (just as normal list so far, no tiles yet)
+# TODO tab: new filter tab (my top 100) with games I really like (mature and I tried them and there is a download for each of them) and some categories with explanation why and possible link to a review on the blog (like evil cult), still need to to that
 
 # TODO table: state, os, license smaller
-# TODO table: search window width larger (asked at the Github repo of the simple datatable, could not find easily in code)
+# TODO table: search window width larger (asked at the Github repo of the simple datatable - no answer so far, could not find easily in code)
 
 # TODO categories: put more explanations on the category pages and the categories (number and short sentences)
 
@@ -58,11 +56,12 @@ Sitemap is not needed, only for large projects with lots of JavaScript und many 
 # TODO contribute: contribute.html add content
 
 # TODO developers: anchors to non-latin written developers do not work (chinese names have simply xxxxx)
-# TODO developers: top category with top developers (with at least 4 games contributed to)
+# TODO developers: developers without a name (or with a zero width name)
+# TODO developers: level with github, sourceforge links in one item (on mobile on one line)
+# TODO developers: gitlab and bitbucket user profiles
 
 # TODO inspirations: icon full lamp (not contained in icomoon.io)
 # TODO inspirations: if included in the database, link instead to game (cross-reference)
-# TODO inspirations: top category with top inspirations (with at least 4 inspired games)
 # TODO inspirations: add media links and genres, maybe also years and original developer
 
 import os
@@ -105,6 +104,8 @@ games_by_language_path = games_path + ['languages.html']
 games_by_genres_path = games_path + ['genres.html']
 games_by_platform_path = games_path + ['platforms.html']
 games_top50_path = games_path + ['top50.html']
+games_kids_path = games_path + ['kids.html']
+games_web_path = games_path + ['web.html']
 
 github_top50_ignored_repos = ('https://github.com/Hopson97/MineCraft-One-Week-Challenge.git', 'https://github.com/jdah/minecraft-weekend.git')
 
@@ -368,7 +369,7 @@ def inspiration_index(inspiration):
     }
     n = len(inspiration['Inspired entries'])
     if n > 1:
-        e['tags'] = make_text('({})'.format(n), 'is-light is-size-7')
+        e['tags'] = make_text('({})'.format(n), 'is-light')
     return e
 
 
@@ -783,7 +784,7 @@ def convert_entries(entries, inspirations, developers):
                     e = [make_url(x, shortcut_url(x, name)) for x in e]
                 else:
                     e = [make_text(x) for x in e]
-                namex = make_text('{}: '.format(get_plural_or_singular(field, len(entries))))
+                namex = make_text('{}: '.format(get_plural_or_singular(field.capitalize(), len(entries))))
                 entry[field.lower()] = [namex, make_enumeration(e, divider)]
 
         # build system
@@ -895,7 +896,7 @@ def create_table_json_data(entries):
         platform = entry.get('Platform', ['-'])
         platform = ', '.join(platform)
         language = ', '.join(entry['Code language'])
-        license = [x[-1] for x in entry['Code license']]  # undo license links again
+        license = entry['Code license']
         license = ', '.join(license)
         data.append([title, state, tags, platform, language, license])
     data.sort(key=lambda x: str.casefold(x[0]))
@@ -905,6 +906,30 @@ def create_table_json_data(entries):
     text = json.dumps(db, indent=1)
     os.makedirs(c.web_data_path, exist_ok=True)
     utils.write_text(os.path.join(c.web_data_path, 'entries.json'), text)
+
+
+def create_statistics_section(entries, field, title, file_name, chartmaker, sub_field=None):
+    """
+    Creates a statistics section for a given field name from entries and a given chart type (see stat.export_xxx_chart)
+    :return:
+    """
+    statistics = stat.get_field_statistics(entries, field, sub_field)
+    statistics = stat.truncate_stats(statistics, 10)
+    file = os.path.join(c.web_path, 'statistics', file_name)
+    chartmaker([s for s in statistics if s[0] != 'N/A'], file)
+    # read back and check if identical with old version (up to date)
+    text = utils.read_text(file)
+    if file in previous_files and previous_files[file]['hash'] == file_hash(text):
+        # use old version instead
+        text = previous_files[file]['text']
+        utils.write_text(file, text)
+    section = {
+        'title': title,
+        'id': osg.canonical_name(title),
+        'items': ['{} ({})'.format(*item) for item in statistics],
+        'chart': statistics_path + [file_name]
+    }
+    return section
 
 
 def generate(entries, inspirations, developers):
@@ -936,11 +961,33 @@ def generate(entries, inspirations, developers):
     convert_entries(games, inspirations, developers)
     convert_entries(non_games, inspirations, developers)
 
-    # set external links up
-    add_license_links_to_entries(entries)
-
     # create entries.json for the table
     create_table_json_data(entries)
+
+    # create statistics data
+    statistics_data = {
+        'title': 'Statistics',
+        'sections': []
+    }
+
+    # supported platforms
+    section = create_statistics_section(entries, 'Platform', 'Supported platforms', 'supported_platforms.svg', partial(stat.export_bar_chart, aspect_ratio=0.7, tick_label_rotation=45))
+    statistics_data['sections'].append(section)
+
+    # code languages
+    section = create_statistics_section(entries, 'Code language', 'Code languages', 'code_languages.svg', partial(stat.export_bar_chart, aspect_ratio=1.5, tick_label_rotation=45))
+    statistics_data['sections'].append(section)
+
+    # code license
+    section = create_statistics_section(entries, 'Code license', 'Code licenses', 'code_licenses.svg', partial(stat.export_bar_chart, aspect_ratio=1.5, tick_label_rotation=45))
+    statistics_data['sections'].append(section)
+
+    # build-systems
+    section = create_statistics_section(entries, 'Build system', 'Build systems', 'build_systems.svg', stat.export_pie_chart, sub_field='Building')
+    statistics_data['sections'].append(section)
+
+    # set external links up (statistics and entries.json doesn't work anymore beyond that point)
+    add_license_links_to_entries(entries)
 
     # sort into categories
     sorter = lambda item, category: category == item['letter']
@@ -1012,50 +1059,8 @@ def generate(entries, inspirations, developers):
 
     # statistics preparation
     template = environment.get_template('statistics.jinja')
-    data = {
-        'title': 'Statistics',
-        'sections': []
-    }
-
-    # supported platforms
-    supported_platforms_stat = stat.get_supported_platforms(entries)
-    file = os.path.join(c.web_path, 'statistics', 'supported_platforms.svg')
-    stat.export_pie_chart([statistic for statistic in supported_platforms_stat if statistic[0] != 'N/A'], file)
-    # read back and check if identical with old version (up to date)
-    text = utils.read_text(file)
-    if file in previous_files and previous_files[file]['hash'] == file_hash(text):
-        # use old version instead
-        text = previous_files[file]['text']
-        utils.write_text(file, text)
-    section = {
-        'title': 'Supported platforms',
-        'id': osg.canonical_name('Supported platforms'),
-        'items': ['{} ({})'.format(*item) for item in supported_platforms_stat],
-        'chart': statistics_path + ['supported_platforms.svg']
-    }
-    data['sections'].append(section)
-
-    # build-systems
-    build_systems_stat = stat.get_build_systems(entries)
-    build_systems_stat = stat.truncate_stats(build_systems_stat, 10)
-    file = os.path.join(c.web_path, 'statistics', 'build_systems.svg')
-    stat.export_pie_chart([statistic for statistic in build_systems_stat if statistic[0] != 'N/A'], file)
-    # read back and check if identical with old version (up to date)
-    text = utils.read_text(file)
-    if file in previous_files and previous_files[file]['hash'] == file_hash(text):
-        # use old version instead
-        text = previous_files[file]['text']
-        utils.write_text(file, text)
-    section = {
-        'title': 'Build system',
-        'id': osg.canonical_name('Build system'),
-        'items': ['{} ({})'.format(*item) for item in build_systems_stat],
-        'chart': statistics_path + ['build_systems.svg']
-    }
-    data['sections'].append(section)
-
     # render and write statistics page
-    write(template.render(data=data), statistics_index_path)
+    write(template.render(data=statistics_data), statistics_index_path)
 
     # non-games folder
     base['title'] = 'OSGL | Game engines, frameworks, tools'
@@ -1099,7 +1104,7 @@ def generate(entries, inspirations, developers):
     # generate games index
     index = divide_in_three_columns_and_transform(games_by_alphabet, game_index)
     index['title'] = make_text('Open source games')
-    index['subtitle'] = [make_text('Alphabetical index of informations about {} games (or see the '.format(len(games))), make_url(['table.html'], 'table'), ')']
+    index['subtitle'] = [make_text('Alphabetical index of {} games.'.format(len(games_by_alphabet)))]
     index['categories'] = extended_alphabet
     index['category-names'] = extended_alphabet_names
     index['category-icons'] = {}
@@ -1113,7 +1118,7 @@ def generate(entries, inspirations, developers):
     base['active_nav'] = ['filter', 'genres']
     index = divide_in_three_columns_and_transform(games_by_genre, game_index)
     index['title'] = make_text('Open source games')
-    index['subtitle'] = [make_text('Index by game genre (or see the '), make_url(['table.html'], 'table'), ')']
+    index['subtitle'] = [make_text('Index by game genre.')]
     index['categories'] = genres
     index['category-names'] = {k: make_text(k) for k in index['categories']}
     index['category-icons'] = {k: make_icon(genre_icon_map[k]) for k in index['categories'] if k in genre_icon_map}
@@ -1127,7 +1132,7 @@ def generate(entries, inspirations, developers):
     base['active_nav'] = ['filter', 'code language']
     index = divide_in_three_columns_and_transform(games_by_language, game_index)
     index['title'] = 'Open source games and frameworks'
-    index['subtitle'] = [make_text('Index by programming language (or see the '), make_url(['table.html'], 'table'), ')']
+    index['subtitle'] = [make_text('Index by programming language.')]
     index['categories'] = c.known_languages
     index['category-names'] = {k:k for k in index['categories']}
     index['category-icons'] = {}
@@ -1141,7 +1146,7 @@ def generate(entries, inspirations, developers):
     base['active_nav'] = ['filter', 'platforms']
     index = divide_in_three_columns_and_transform(games_by_platform, game_index)
     index['title'] = 'Open source games and frameworks'
-    index['subtitle'] = [make_text('Index by supported platform (or see the '), make_url(['table.html'], 'table'), ')']
+    index['subtitle'] = [make_text('Index by supported platform.')]
     index['categories'] = c.valid_platforms + ('Unspecified',)
     index['category-names'] = {k: make_text(k) for k in index['categories']}
     index['category-icons'] = {k: make_icon(platform_icon_map[k]) for k in index['categories']}
@@ -1150,6 +1155,28 @@ def generate(entries, inspirations, developers):
     index['category-infos'] = {}
     index['category-infos'] = {category: make_text('{} entries'.format(len(games_by_platform[category]))) for category in index['categories']}
     write(template_categorical_index.render(index=index), games_by_platform_path)
+
+    # for kids games
+    base['title'] = 'OSGL | Games | For Kids'
+    base['active_nav'] = ['filter', 'kids']
+    kids_games = [game for game in games if 'for kids' in game['Keyword']]
+    listing = {
+        'title': 'Games for Kids',
+        'subtitle': '{} games suitable for kids.'.format(len(kids_games)),
+        'items': kids_games
+    }
+    write(template_listing_entries.render(listing=listing), games_kids_path)
+
+    # playable in browser
+    base['title'] = 'OSGL | Games | Web play'
+    base['active_nav'] = ['filter', 'web']
+    web_games = [game for game in games if 'Play' in game and 'Web' in game['Platform']]
+    listing = {
+        'title': 'Playable browser games',
+        'subtitle': '{} games that can be played in your browser right away.'.format(len(web_games)),
+        'items': web_games
+    }
+    write(template_listing_entries.render(listing=listing), games_web_path)
 
     # top 50 games
     base['title'] = 'OSGL | Games | GitHub Top 50'
@@ -1171,18 +1198,6 @@ def generate(entries, inspirations, developers):
 
     # inspirations
 
-    # inspirations index
-    index = divide_in_three_columns_and_transform(inspirations_by_alphabet, inspiration_index)
-    index['title'] = 'Inspirations'
-    index['subtitle'] = make_text('Alphabetical index of {} games used as inspirations'.format(len(inspirations)))
-    index['categories'] = extended_alphabet
-    index['category-names'] = extended_alphabet_names
-    index['category-icons'] = {}
-    index['number_entries_per_category_threshold'] = 10
-    index['entry_bold'] = lambda x: 'tags' in x
-    index['category-infos'] = {}
-    write(template_categorical_index.render(index=index), inspirations_index_path)
-
     # inspirations single pages
     template_listing_inspirations = environment.get_template('listing_inspirations.jinja')
     for letter in extended_alphabet:
@@ -1191,6 +1206,21 @@ def generate(entries, inspirations, developers):
             'items': inspirations_by_alphabet[letter]
         }
         write(template_listing_inspirations.render(listing=listing), inspirations_path + ['{}.html'.format(letter.capitalize())])
+
+    # inspirations index
+    extended_alphabet_names['_'] = 'Most used'
+    top_inspirations = [inspiration for inspiration in inspirations if len(inspiration['Inspired entries']) >= 4]
+    inspirations_by_alphabet['_'] = top_inspirations
+    index = divide_in_three_columns_and_transform(inspirations_by_alphabet, inspiration_index)
+    index['title'] = 'Inspirations'
+    index['subtitle'] = make_text('Alphabetical index of {} games used as inspirations'.format(len(inspirations)))
+    index['categories'] = '_' + extended_alphabet
+    index['category-names'] = extended_alphabet_names
+    index['category-icons'] = {}
+    index['number_entries_per_category_threshold'] = 10
+    index['entry_bold'] = lambda x: 'tags' in x
+    index['category-infos'] = {}
+    write(template_categorical_index.render(index=index), inspirations_index_path)
 
     # developers folder
     base['title'] = 'OSGL | Games | Developers'
@@ -1207,10 +1237,13 @@ def generate(entries, inspirations, developers):
         write(template_listing_developers.render(listing=listing), developers_path + ['{}.html'.format(letter.capitalize())])
 
     # developers index
+    extended_alphabet_names['_'] = 'Most active'
+    top_developers = [developer for developer in developers if len(developer['Games']) >= 4]
+    developers_by_alphabet['_'] = top_developers
     index = divide_in_three_columns_and_transform(developers_by_alphabet, developer_index)
     index['title'] = 'Open source game developers'
     index['subtitle'] = make_text('Alphabetical index of {} developers'.format(len(developers)))
-    index['categories'] = extended_alphabet
+    index['categories'] = '_' + extended_alphabet
     index['category-names'] = extended_alphabet_names
     index['category-icons'] = {}
     index['number_entries_per_category_threshold'] = 10
@@ -1223,7 +1256,7 @@ def generate(entries, inspirations, developers):
     base['url_to'] = partial(url_to, [])
     base['css'].append('simple-datatables.css')
     base['js'].append('simple-datatables.js')
-    base['active_nav'] = []
+    base['active_nav'] = 'table'
     template = environment.get_template('table.jinja')
     index['tags'] = make_text(', '.join(c.interesting_keywords))
     index['platforms'] = make_text(', '.join(c.valid_platforms))

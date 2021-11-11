@@ -1,18 +1,20 @@
 {% extends "base.jinja" %}
 {% block content %}
-<div class="container">
+<div class="container content">
   <div class="box">
     <div class="block"><p class="title is-4">{{ data['title'] }}</p></div>
-{% set comma = joiner(",") %}
-{% for section in data['sections'] %}
-    {{ comma() }} <a href="#{{ section['id'] }}">{{ section['title'] }}</a>
+    <div class="block">
+    <ol type="1">
+{%- for section in data['sections'] %}
+      <li><a href="#{{ section['id'] }}">{{ section['title'] }}</a></li>
 {% endfor %}
-  </div>
-
-  <article class="message is-warning">
+    </ol>
+    </div>
+  <article class="message is-warning is-size-7">
     <div class="message-header"><p>Warning</p></div>
     <div class="message-body">Statistics can be inaccurate.</div>
   </article>
+  </div>
                             {#- each statistics section -#}
 {% for section in data['sections'] %}
   <div id="{{ section['id'] }}" class="box">
@@ -29,6 +31,7 @@
         </ul>
       </div>
     </nav>
+    <p class="is-size-7 has-text-right"><a href="#">Back to top</a></p>
   </div>
 {% endfor %}
 </div>

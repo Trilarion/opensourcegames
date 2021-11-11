@@ -2675,7 +2675,7 @@
   [
    "<a href=\"games/A.html#adaventure\" class=\"has-text-weight-semibold\">AdaVenture</a> <a href=\"https://github.com/fastrgv/AdaVenture\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
-   "adventure",
+   "adventure, for kids",
    "-",
    "Ada",
    "GPL-3.0"
@@ -3571,7 +3571,7 @@
   [
    "<a href=\"games/B.html#bouncy_the_hungry_rabbit\" class=\"has-text-weight-semibold\">Bouncy the Hungry Rabbit</a> <a href=\"https://pyweek.org/e/bouncy/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2007",
-   "arcade",
+   "arcade, for kids",
    "-",
    "Python",
    "GPL-2.0"
@@ -3755,7 +3755,7 @@
   [
    "<a href=\"games/C.html#candy_memory\" class=\"has-text-weight-semibold\">Candy Memory</a> <a href=\"https://github.com/tube42/candymem\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2018",
-   "arcade",
+   "arcade, for kids",
    "Android",
    "Java",
    "GPL-2.0"
@@ -4003,7 +4003,7 @@
   [
    "<a href=\"games/C.html#childsplay\" class=\"has-text-weight-semibold\">Childsplay</a> <a href=\"http://www.childsplay.mobi/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
-   "adventure, educational",
+   "adventure, educational, for kids",
    "Windows, Linux",
    "Python",
    "GPL-3.0"
@@ -4099,7 +4099,7 @@
   [
    "<a href=\"games/C.html#civitas\" class=\"has-text-weight-semibold\">Civitas</a> <a href=\"http://sourceforge.net/projects/civitas/\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2017",
-   "simulation",
+   "simulation, for kids",
    "-",
    "Java, Blender Script",
    "GPL-2.0"
@@ -5571,7 +5571,7 @@
   [
    "<a href=\"games/F.html#foxy_misfortunes\" class=\"has-text-weight-semibold\">Foxy Misfortunes</a> <a href=\"https://decoherence.itch.io/foxy-misfortunes\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
-   "action, 2D, shooter",
+   "action, 2D, for adults, shooter",
    "Windows, Linux, Android",
    "Pascal",
    "GPL-3.0"
@@ -5987,7 +5987,7 @@
   [
    "<a href=\"games/G.html#garith\" class=\"has-text-weight-semibold\">Garith</a> <a href=\"https://www.thregr.org/~wavexx/software/garith/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2013",
-   "educational",
+   "educational, for kids",
    "-",
    "C++, Perl",
    "LGPL-2.1"
@@ -5995,7 +5995,7 @@
   [
    "<a href=\"games/G.html#gcompris\" class=\"has-text-weight-semibold\">GCompris</a> <a href=\"https://gcompris.net/index-en.html\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
-   "educational",
+   "educational, for kids",
    "Windows, Linux, macOS, Android",
    "C, Python",
    "GPL-3.0"
@@ -6491,7 +6491,7 @@
   [
    "<a href=\"games/H.html#help_hannahs_horse\" class=\"has-text-weight-semibold\">Help Hannah's Horse</a> <a href=\"https://sourceforge.net/projects/hannah/\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2008",
-   "action, arcade",
+   "action, arcade, for kids",
    "Windows, Linux",
    "C++",
    "GPL-2.0"
@@ -7067,7 +7067,7 @@
   [
    "<a href=\"games/K.html#kai_opua\" class=\"has-text-weight-semibold\">Kai \u2018Opua</a> <a href=\"https://github.com/collinhover/kaiopua\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2013",
-   "puzzle",
+   "puzzle, for kids",
    "Web",
    "JavaScript",
    "MIT"
@@ -7819,7 +7819,7 @@
   [
    "<a href=\"games/M.html#memory_game\" class=\"has-text-weight-semibold\">Memory Game</a> <a href=\"https://github.com/sromku/memory-game\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
-   "arcade",
+   "arcade, for kids",
    "Android",
    "Java",
    "Apache-2.0"
@@ -9523,7 +9523,7 @@
   [
    "<a href=\"games/P.html#pianoli\" class=\"has-text-weight-semibold\">PianOli</a> <a href=\"https://github.com/nicolasbrailo/PianOli\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
-   "music",
+   "music, for kids",
    "Android",
    "Java",
    "GPL-3.0"
@@ -10411,7 +10411,7 @@
   [
    "<a href=\"games/R.html#rufasswap\" class=\"has-text-weight-semibold\">RufasSwap</a> <a href=\"https://github.com/fastrgv/RufasSwap\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
-   "puzzle",
+   "puzzle, for kids",
    "Windows, Linux, macOS",
    "Ada",
    "GPL-3.0"
@@ -10459,7 +10459,7 @@
   [
    "<a href=\"games/S.html#sarah-maries_eierjagd\" class=\"has-text-weight-semibold\">Sarah-Maries Eierjagd</a> <a href=\"http://eier.gerdsmeier.net/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2005",
-   "arcade",
+   "arcade, for kids",
    "-",
    "C++",
    "GPL-2.0"
@@ -11147,7 +11147,7 @@
   [
    "<a href=\"games/S.html#star_maiden_astraea_rio\" class=\"has-text-weight-semibold\">Star Maiden Astraea Rio</a> <a href=\"http://nyaatrap.blog.fc2.com/blog-entry-20.html\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
-   "adventure, visual novel",
+   "adventure, visual novel, for adults",
    "-",
    "Ren'Py",
    "MIT"
@@ -11507,7 +11507,7 @@
   [
    "<a href=\"games/T.html#tangomon\" class=\"has-text-weight-semibold\">Tangomon</a> <a href=\"https://tangomon-game.github.io/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2017",
-   "educational",
+   "educational, for kids",
    "Windows, Linux",
    "Python",
    "GPL-3.0"
@@ -12179,7 +12179,7 @@
   [
    "<a href=\"games/T.html#tux_of_math_command\" class=\"has-text-weight-semibold\">Tux of Math Command</a> <a href=\"https://web.archive.org/web/20180423060214/http://tux4kids.alioth.debian.org/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2011",
-   "educational",
+   "educational, for kids",
    "Linux",
    "C",
    "GPL-3.0"
@@ -12187,7 +12187,7 @@
   [
    "<a href=\"games/T.html#tux_paint\" class=\"has-text-weight-semibold\">Tux Paint</a> <a href=\"http://tuxpaint.org/\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
-   "educational",
+   "educational, for kids",
    "Windows, Linux, macOS, Android, iOS",
    "C, C++",
    "GPL-2.0"

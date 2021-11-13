@@ -24,7 +24,7 @@ Sitemap is not needed, only for large projects with lots of JavaScript und many 
 # TODO general: most people only come to the main page, put more information there (direct links to genres, ...)
 # TODO general: minimize tag usage: jinja template optimization for line breaks and indention and minimal amount of spaces (and size of files) and minimal amount of repetition of tags
 # TODO general: too many spans, especially for text (maybe just plain text), also text with URLs inside is difficult (but why)
-# TODO general: replace or remove @notices in entries
+# TODO general: replace or remove @notices like @add in entries (these notices should go to () comments anyway
 # TODO general: check singular, plural (game, entries, items) although support is already quite good for that (Code Languages, ...)
 # TODO general: better link replacements for showing the urls of links
 # TODO general: style URLs (Github, Wikipedia, Internet archive, SourceForge, ...)
@@ -107,7 +107,11 @@ games_top50_path = games_path + ['top50.html']
 games_kids_path = games_path + ['kids.html']
 games_web_path = games_path + ['web.html']
 
-github_top50_ignored_repos = ('https://github.com/Hopson97/MineCraft-One-Week-Challenge.git', 'https://github.com/jdah/minecraft-weekend.git')
+# those either are repos with many projects in it or are projects that have commericla content and there is no binary
+# release or there is only a commercial binary release, so you cannot play them right away for free
+github_top50_ignored_repos = ('https://github.com/Hopson97/MineCraft-One-Week-Challenge.git', 'https://github.com/jdah/minecraft-weekend.git', 'https://github.com/TerryCavanagh/vvvvvv.git',
+                              'https://github.com/nicholas-ochoa/OpenSC2K.git', 'https://github.com/BlindMindStudios/StarRuler2-Source.git', 'https://github.com/TheMozg/awk-raycaster.git',
+                              'https://github.com/PistonDevelopers/hematite.git', 'https://github.com/keendreams/keen.git', 'https://github.com/ddevault/TrueCraft.git')
 
 # TODO currently not used, use?
 platform_color = {
@@ -982,6 +986,10 @@ def generate(entries, inspirations, developers):
     section = create_statistics_section(entries, 'Code license', 'Code licenses', 'code_licenses.svg', partial(stat.export_bar_chart, aspect_ratio=1.5, tick_label_rotation=45))
     statistics_data['sections'].append(section)
 
+    # code dependencies
+    section = create_statistics_section(entries, 'Code dependency', 'Code dependencies', 'code_dependencies.svg', partial(stat.export_bar_chart, aspect_ratio=1.5, tick_label_rotation=45))
+    statistics_data['sections'].append(section)
+
     # build-systems
     section = create_statistics_section(entries, 'Build system', 'Build systems', 'build_systems.svg', stat.export_pie_chart, sub_field='Building')
     statistics_data['sections'].append(section)
@@ -1186,7 +1194,7 @@ def generate(entries, inspirations, developers):
         game['name'] = '{}. '.format(index+1) + game['name']
     listing = {
         'title': 'GitHub Stars Top 50',
-        'subtitle': '50 highest rated (by stars on Github) open source games in the database',
+        'subtitle': '50 highest rated (by stars on Github) playable open source games in the database', # that can be played online or downloaded
         'items': top50_games
     }
     write(template_listing_entries.render(listing=listing), games_top50_path)

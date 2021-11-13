@@ -9,6 +9,6 @@
 - Code license: GPL-3.0
 - Code dependency: OpenGL, SDL2
 
-Permuted picture puzzles for kids.
+Permuted picture puzzle.
 
 ## Building

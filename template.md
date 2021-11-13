@@ -15,9 +15,9 @@
 - Assets license: {XX} (optional)
 - Developer: {XX} (optional)
 
-Note
+Notes
 
 ## Building
 
 - Build system: {XX} (optional)
-- Build instructions: {XX} (optional)
+- Build instruction: {XX} (optional)

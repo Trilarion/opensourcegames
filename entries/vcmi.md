@@ -3,6 +3,7 @@
 - Home: https://vcmi.eu/, https://sourceforge.net/projects/vcmi/
 - Inspiration: Heroes of Might and Magic III
 - State: mature
+- Platform: Windows, Linux, macOS, Android
 - Keyword: remake, strategy, content commercial + original required
 - Code repository: https://github.com/vcmi/vcmi.git (@created 2014, @stars 2458, @forks 310), https://svn.code.sf.net/p/vcmi/code (svn)
 - Code language: C++

@@ -1,8 +1,9 @@
 # Hextris
 
-- Home: https://hextris.github.io/, https://hextris.io/
+- Home: https://hextris.github.io/
 - Inspiration: Tetris
 - State: mature
+- Play: https://hextris.io/
 - Platform: Web
 - Keyword: puzzle, clone
 - Code repository: https://github.com/Hextris/Hextris.git (@created 2014, @stars 1786, @forks 619)

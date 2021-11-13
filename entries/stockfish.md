@@ -2,6 +2,8 @@
 
 - Home: https://stockfishchess.org/
 - State: mature
+- Download: https://stockfishchess.org/download/
+- Platform: Windows, Linux, macOS, Android, iOS
 - Keyword: strategy, chess
 - Code repository: https://github.com/official-stockfish/Stockfish.git (@created 2014, @stars 5358, @forks 1249)
 - Code language: C++

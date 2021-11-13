@@ -3,6 +3,7 @@
 - Home: https://github.com/diasurgical/devilutionX, https://web.archive.org/web/20130602191141/http://iphone.keyvisuals.com/apps/doom-classic-for-iphone-source-code-available/
 - Inspiration: Diablo
 - State: mature
+- Download: https://github.com/diasurgical/devilutionX/releases
 - Keyword: action, remake, "content commercial + original required (Diablo 1)", engine recreation
 - Code repository: https://github.com/diasurgical/devilutionX.git (@created 2018, @stars 4731, @forks 481)
 - Code language: C, C++

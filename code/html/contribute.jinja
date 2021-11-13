@@ -1,36 +1,53 @@
 {% extends "base.jinja" %}
 {% block content %}
-<section class="section">
-  <div class="container">
-    <div class="box">
-      <h1 class="title is-size-4">Contribution guide</h1>
-      <p>Please help improve the content of this site. The preferred way to contribute or give feedback is:</p>
+<div class="container content">
+  <div class="box">
+    <div class="block">
+      <h1 class="title is-4">Contribution guide</h1>
+      <p class="subtitle is-6">Improve or add entries, give feedback.</p>
+    </div>
+    <div class="block">
+      <p>Please help improve the content of this site or give feedback. The preferred actions are:</p>
       <ul>
-        <li>Open an <a href="https://github.com/Trilarion/opensourcegames/issues">issue at the Github page</a>.</li>
-        <li>Fork the Github project and create a <a href="https://github.com/Trilarion/opensourcegames/pulls">pull request</a> (if you are familiar with that).</li>
-        <li>Send an email to ...</li>
+        <li>Create an <a href="https://github.com/Trilarion/opensourcegames/issues">issue at the GitHub page</a>.
+          Recommended for smaller changes.</li>
+        <li>Fork the GitHub project and create a <a href="https://github.com/Trilarion/opensourcegames/pulls">pull request</a>.
+          Recommended for larger changes and if you are familiar with pull requests on GitHub repositories.</li>
       </ul>
-    </div>
-    <div class="box">
-      <div class="block">
-        <h2 id="games">Improving games/frameworks/tools information</h2>
-        <p>Entries for open source games, gaming engines and gaming tools are stored as human readable text version in a markdown format (<a href="">example</a>).
-        For each entry, the database content can be seen when clicking on "Raw entry" below the entry. You can suggest corrections or updates to an entry or a list of entries in one of the following ways:</p>
-      </div>
-    </div>
-    <div class="box">
-      <div class="block">
-        <h2 id="developers">Improving developers information</h2>
-        <p>The developer information is stored in a single big file (<a href="">developer database</a>) and relates developers to open source games they have participated in. Additionally, developer profiles on GitHub, SourceForge or BitBucket are linked on
-        a developer information and again on the game entries, in the developers field, all developers are listed. The relation between developers and games is stored twice to allow for both search directions, i.e. find all developers of a game or all games of a developer.
-        A consistency check will run regularly on the content and will give precedence to the developer names stored in the games entries (the games list stored in the developer information will be overwritten).</p>
-      </div>
-    </div>
-    <div class="box">
-      <div class="block">
-        <h2 id="inspirations">Improving inspirations information</h2>
-      </div>
+      <p>See also the <a href="https://github.com/Trilarion/opensourcegames/blob/master/CONTRIBUTING.md">Contribution guidelines</a> on GitHub.</p>
     </div>
   </div>
-</section>
+                            {#- Improving entries #}
+  <div class="box">
+    <div class="block">
+      <h2 id="games" class="is-size-5">Improving games/frameworks/tools information</h2>
+      <p>Entries for open source games, gaming engines and gaming tools are stored as human readable text version in a
+      markdown format (<a href="https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/0_ad.md">example</a>).
+      For each entry, the database content can be seen when clicking on "Raw entry" below the entry. You can suggest
+      corrections or updates to an entry or a list of entries in one of the preferred way specified above (issue at the issue tracker
+      or GitHub pull request).<br>
+      Please refer to the <a href="https://github.com/Trilarion/opensourcegames/blob/master/CONTRIBUTING.md">Contribution guidelines</a>
+      before. For suggesting screenshots, please add a message to <a href="https://github.com/Trilarion/opensourcegames/issues/327">this issue</a>.</p>
+    </div>
+  </div>
+                            {#- Improving developer information #}
+  <div class="box">
+    <div class="block">
+      <h2 id="developers" class="is-size-5">Improving developers information</h2>
+      <p>The developer information relates developers to open source games they have participated in. Developer profiles
+      on GitHub, SourceForge or BitBucket are linked on a developer information and also on the game entries in the developers field.
+      Please suggest changes or additions to the developer section within an issue at the issue tracker (see above).</p>
+    </div>
+  </div>
+                            {#- Improving inspiration information #}
+  <div class="box">
+    <div class="block">
+      <h2 id="inspirations" class="is-size-5">Improving inspirations information</h2>
+      <p>Inspirations are short pieces of information that collect links to inspirations website or Wikipedia websites
+      and also link to all entries that have this game as inspiration. Please only edit entries "Inspiration" fields to
+      indicate that a game has a certain inspiration. If not sure, suggest changes or additions to inspirations within
+      an issue at the issue tracker (see above).</p>
+    </div>
+  </div>
+</div>
 {% endblock %}

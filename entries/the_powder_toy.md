@@ -3,6 +3,7 @@
 - Home: https://powdertoy.co.uk/
 - Inspiration: Powder Game
 - State: mature
+- Download: https://powdertoy.co.uk/Download.html
 - Platform: Windows, Linux, macOS, Android
 - Keyword: simulation, clone, content open
 - Code repository: https://github.com/The-Powder-Toy/The-Powder-Toy.git (@created 2010, @stars 2997, @forks 627)

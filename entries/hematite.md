@@ -4,7 +4,7 @@
 - Inspiration: Minecraft
 - State: beta
 - Keyword: remake, simulation, sandbox, voxel
-- Code repository: https://github.com/PistonDevelopers/hematite.git (@created 2014, @stars 1520, @forks 104)
+- Code repository: https://github.com/PistonDevelopers/hematite.git (@created 2014, @stars 1520, @forks 104), https://github.com/PistonDevelopers/hematite_server.git
 - Code language: Rust
 - Code license: MIT
 - Code dependency: Piston

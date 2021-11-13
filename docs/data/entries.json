@@ -7036,7 +7036,7 @@
    "<a href=\"games/J.html#julius\" class=\"has-text-weight-semibold\">Julius</a> <a href=\"https://github.com/bvschaik/julius\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "remake, simulation",
-   "-",
+   "Windows, Linux, macOS, Android, Web",
    "C, C++",
    "AGPL-3.0"
   ],
@@ -7819,7 +7819,7 @@
   [
    "<a href=\"games/M.html#memory_game\" class=\"has-text-weight-semibold\">Memory Game</a> <a href=\"https://github.com/sromku/memory-game\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
-   "arcade, for kids",
+   "puzzle, for kids",
    "Android",
    "Java",
    "Apache-2.0"
@@ -10924,7 +10924,7 @@
    "<a href=\"games/S.html#soldat\" class=\"has-text-weight-semibold\">Soldat</a> <a href=\"https://www.soldat.pl/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "action, 2D, shooter",
-   "-",
+   "Windows",
    "C, Pascal",
    "MIT"
   ],
@@ -11244,7 +11244,7 @@
    "<a href=\"games/S.html#stockfish\" class=\"has-text-weight-semibold\">Stockfish</a> <a href=\"https://stockfishchess.org/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "strategy",
-   "-",
+   "Windows, Linux, macOS, Android, iOS",
    "C++",
    "GPL-3.0"
   ],
@@ -12460,7 +12460,7 @@
    "<a href=\"games/V.html#vcmi\" class=\"has-text-weight-semibold\">VCMI</a> <a href=\"https://vcmi.eu/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "remake, strategy",
-   "-",
+   "Windows, Linux, macOS, Android",
    "C++",
    "GPL-2.0"
   ],

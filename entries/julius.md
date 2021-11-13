@@ -3,6 +3,8 @@
 - Home: https://github.com/bvschaik/julius
 - Inspiration: Caesar 3
 - State: mature
+- Download: https://github.com/bvschaik/julius/releases, https://play.google.com/store/apps/details?id=com.github.bvschaik.julius
+- Platform: Windows, Linux, macOS, Android, Web
 - Keyword: remake, simulation
 - Code repository: https://github.com/bvschaik/julius.git (@created 2017, @stars 1505, @forks 189)
 - Code language: C, C++

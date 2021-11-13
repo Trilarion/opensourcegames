@@ -3,6 +3,7 @@
 - Home: https://github.com/yairm210/UnCiv, https://yairm210.itch.io/unciv
 - Inspiration: Civilization V
 - State: beta
+- Download: https://yairm210.itch.io/unciv, https://f-droid.org/en/packages/com.unciv.app/
 - Platform: Windows, Linux, macOS, Android
 - Keyword: remake, strategy, content open, multiplayer online + hotseat, turn-based
 - Code repository: https://github.com/yairm210/UnCiv.git (@created 2017, @stars 2535, @forks 740)

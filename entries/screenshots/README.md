@@ -31,6 +31,11 @@ from running the game or from youtube play videos.
 
 01 192 128 https://raw.githubusercontent.com/AdaDoom3/AdaDoom3/master/Object/EP2PUGuX0AA2Pz_.jpg
 
+# adaventure
+
+01 228 128 https://github.com/fastrgv/AdaVenture/raw/master/av1.jpg
+02 228 128 https://github.com/fastrgv/AdaVenture/raw/master/nuAV.jpg
+
 # aleph_one
 
 01 180 128 https://alephone.lhowon.org/images/marathon_collage.png
@@ -43,13 +48,26 @@ from running the game or from youtube play videos.
 
 01 169 128 https://raw.githubusercontent.com/TheMozg/awk-raycaster/master/screenshot.png
 
+# bouncy_the_hungry_rabbit
+
+01 165 128 https://s3.eu-west-2.amazonaws.com/media.pyweek.org/3/bouncy/toon-shaded.jpg
+
 # browserquest
 
 01 188 128
 
+# candy_memory
+
+01 72 128 https://github.com/tube42/candymem/raw/master/extra/screen.png
+
 # cataclysm_dark_days_ahead
 
 01 382 128 https://cataclysmdda.org/assets/images/showcase-ultica.png
+
+# childsplay
+
+01 165 128 http://www.childsplay.mobi/images/screenshots/CP_menu_small.gif
+02 165 128 http://www.childsplay.mobi/images/screenshots/CP_menu_big.gif
 
 # chocolate_doom
 
@@ -59,6 +77,11 @@ from running the game or from youtube play videos.
 
 01 225 128 https://uploads-ssl.webflow.com/58ef666b690e1f31ad12a43a/5c24208c35af3ace29d8ff05_Screenshot%202018-12-26%20at%2014.39.29.476.png
 02 226 128 https://uploads-ssl.webflow.com/58ef666b690e1f31ad12a43a/5c2430cb35af3a5e2bd90d16_microeconomy%20screenshot.png
+
+# civitas
+
+01 228 128 https://a.fsdn.com/con/app/proj/civitas/screenshots/citta_titulo.png/max/max/1
+02 228 128 https://a.fsdn.com/con/app/proj/civitas/screenshots/citta_game.png/max/max/1
 
 # clumsy_bird
 
@@ -127,6 +150,16 @@ from running the game or from youtube play videos.
 01 227 128 https://raw.githubusercontent.com/freeciv/freeciv-web/develop/freeciv-web/src/main/webapp/javascript/webgl/freeciv-webgl.png
 02 218 128 https://raw.githubusercontent.com/freeciv/freeciv-web/develop/scripts/freeciv-web-screenshot.png
 
+# garith
+
+01 85 128 https://www.thregr.org/~wavexx/software/garith/images/garith.png
+
+# gcompris
+
+01 197 128 https://gcompris.net/screenshots_qt/small/root.png
+02 197 128 https://gcompris.net/screenshots_qt/small/babyshapes.png
+03 197 128 https://gcompris.net/screenshots_qt/small/ballcatch.png
+
 # gnu_freedink
 
 01 167 128 https://www.gnu.org/software/freedink/screenshots/raspberry-pi.png
@@ -134,6 +167,11 @@ from running the game or from youtube play videos.
 # gzdoom
 
 01 228 128 https://zdoom.org/assets/images/projects/doom.jpg
+
+# help_hannahs_horse
+
+01 171 128 https://a.fsdn.com/con/app/proj/hannah/screenshots/Menu-2.0.png/max/max/1
+02 171 128 https://a.fsdn.com/con/app/proj/hannah/screenshots/level1_2.png/max/max/1
 
 # hematite
 
@@ -221,6 +259,10 @@ from running the game or from youtube play videos.
 
 01 273 128
 
+# pianoli
+
+01 72 128
+
 # pixel_dungeon
 
 01 210 128 http://pixeldungeon.watabou.ru/screens/level_up.png
@@ -235,6 +277,10 @@ from running the game or from youtube play videos.
 01 166 128 https://img.itch.zone/aW1hZ2UvMTUzNDU1LzcwMzI5MC5wbmc=/original/3xMozU.png
 02 166 128 https://img.itch.zone/aW1hZ2UvMTUzNDU1LzcwMzI4Ny5wbmc=/original/hJYOB4.png
 
+# rufasswap
+
+01 128 128
+
 # runelite
 
 01 160 128 !https://runelite.net/img/features/mousehighlight.png
@@ -244,6 +290,10 @@ from running the game or from youtube play videos.
 
 01 185 128 https://maxbittker.com/d7b85169861f541f032471a791afdc52/fsg.gif
 02 171 128 https://maxbittker.com/static/bc5412ec2cb771ce209bb170d2cd159d/e17e5/castle.png
+
+# sarah-maries_eierjagd
+
+01 171 128
 
 # shattered_pixel_dungeon
 
@@ -287,6 +337,10 @@ from running the game or from youtube play videos.
 02 206 128 https://img.itch.zone/aW1hZ2UvMzU1MzY4LzE3NzM0MzkucG5n/original/bJ9Tx%2F.png
 03 206 128 https://img.itch.zone/aW1hZ2UvMzU1MzY4LzE3NzM0NTMucG5n/original/Bupf8A.png
 
+# tangomon
+
+01 228 128 https://tangomon-game.github.io/images/screenshot1.png
+
 # teeworlds
 
 01 228 128 https://www.teeworlds.com/images/screens/screenshot_jungle2.png
@@ -317,6 +371,15 @@ from running the game or from youtube play videos.
 
 01 239 128 !https://web.archive.org/web/20180629090748im_/https://sr.ht/2V_g.png
 02 228 128 !https://web.archive.org/web/20180629084743im_/https://sr.ht/NWwz.png
+
+# tux_of_math_command
+
+01 171 128 https://a.fsdn.com/con/app/proj/tuxmath/screenshots/133379.jpg/max/max/1
+02 171 128 https://a.fsdn.com/con/app/proj/tuxmath/screenshots/133373.jpg/max/max/1
+
+# tux_paint
+
+01 165 128 http://tuxpaint.org/gallery/images/after-rain-by-parag-chaukulkar.png
 
 # unciv
 

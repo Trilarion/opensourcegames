@@ -3,6 +3,7 @@
 - Home: https://runelite.net/
 - Inspiration: Old School RuneScape
 - State: mature
+- Download: https://github.com/runelite/launcher/releases
 - Keyword: remake, role playing, client, content commercial, multiplayer competitive + online + co-op
 - Code repository: https://github.com/runelite/runelite.git (@created 2016, @stars 3392, @forks 4252)
 - Code language: Java

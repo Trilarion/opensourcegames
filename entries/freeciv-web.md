@@ -4,6 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Freeciv#Freeciv_WebGL_3D_and_Freeciv-web
 - Inspiration: Civilization II, Freeciv
 - State: mature
+- Play: https://github.com/freeciv/freeciv-web#live-servers
 - Platform: Web
 - Keyword: strategy, clone, online, turn-based
 - Code repository: https://github.com/freeciv/freeciv-web.git (@created 2013, @stars 1600, @forks 263)

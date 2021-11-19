@@ -2,7 +2,7 @@
 
 - Home: https://cxong.github.io/cdogs-sdl/
 - Media: https://en.wikipedia.org/wiki/C-Dogs#Open_source
-- Inspiration: C-Dogs
+- Inspiration: C-Dogs, Spear of Destiny, Wolfenstein 3D
 - State: mature
 - Download: https://cxong.github.io/cdogs-sdl/downloads.html
 - Platform: Windows, Linux, macOS

@@ -11,6 +11,7 @@ Sorts the entries in the contents files of each sub folder alphabetically.
 # TODO google search (for homepages or media entries) for popular ones at least
 # TODO search for xxx.sourceforge.net or io but not sourceforge.net/xxx in homepages as convenience
 # TODO all with download or play field but without platform field
+# TODO sort developers alphabetically and remove duplicate entries
 
 import os
 import re
@@ -901,7 +902,7 @@ if __name__ == "__main__":
         'Update repository list': m.update_repos,
         'Special': m.special_ops,
         'Complete run': m.complete_run
-    } # TODO sort developers alphabetically and remove duplicate entries
+    }
 
     osg_ui.run_simple_button_app('Entries developer', actions)
 

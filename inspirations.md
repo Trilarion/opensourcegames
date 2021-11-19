@@ -567,10 +567,10 @@
 - Inspired entries: Spring: 1944
 - Media: https://en.wikipedia.org/wiki/Company_of_Heroes:_Tales_of_Valor
 
-## Conflict: Vietnam [1]
+## Conflict in Vietnam [1]
 
 - Inspired entries: Command Series Engine
-- Media: https://en.wikipedia.org/wiki/Conflict:_Vietnam
+- Media: https://www.mobygames.com/game/conflict-in-vietnam
 
 ## CorsixTH [1]
 
@@ -1932,7 +1932,7 @@
 - Inspired entries: Fluid Table Tennis
 - Media: https://en.wikipedia.org/wiki/Plasma_Pong
 
-## Pokemon Uranium [1]
+## Pokémon Uranium [1]
 
 - Inspired entries: Project-Uranium-Godot
 - Media: https://en.wikipedia.org/wiki/Pok%C3%A9mon_Uranium

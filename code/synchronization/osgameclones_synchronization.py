@@ -32,28 +32,28 @@ info -> after fields
 updated not used
 images not used
 video: not used
-
-TODO also ignore our rejected entries
 """
+
+# TODO also ignore our rejected entries
 
 import ruamel.yaml as yaml
 import os
 from utils import constants, utils, osg
 
-# should change on osgameclones
-osgc_name_aliases = {'4DTris': '4D-TRIS', 'fheroes2': 'Free Heroes 2', 'DrCreep': 'The Castles of Dr. Creep',
+# mapping from their names to our names (means that likely the names should change on osgameclones)
+osgc_name_aliases = {'4DTris': '4D-TRIS', 'fheroes2': 'Free Heroes 2',
                      'Duke3d_win32': 'Duke3d_w32', 'GNOME Atomix': 'Atomix', 'Head over Heels 2': 'Head over Heels',
                      'mewl': 'M.E.W.L.', 'LinWarrior': 'Linwarrior 3D', 'Mice Men Remix': 'Mice Men: Remix',
-                     'OpenApoc': 'Open Apocalypse', 'open-cube': 'Open Cube', 'open-horizon': 'Open Horizon',
-                     'opengl_test_drive_clone': 'OpenGL Test Drive Remake', "Freenukum Jump'n Run": 'Freenukum',
+                     'OpenApoc': 'Open Apocalypse', 'open-cube': 'Open Cube', 'Heart of the Alien Redux': 'Heart of the Alien',
+                     'opengl_test_drive_clone': 'OpenGL Test Drive Remake', 'Dune 2 - The Maker': 'Dune II - The Maker',
                      'Play Freeciv!': 'Freeciv-web', 'ProjectX': 'Forsaken', 'Lyon': 'Roton', 'Mafia II: Toolkit': 'Mafia: Toolkit',
                      'Siege of Avalon Open Source': 'Siege of Avalon : Open Source', 'ss13remake': 'SS13 Remake',
                      'shadowgrounds': 'Shadowgrounds', 'RxWars': 'Prescription Wars', 'REDRIVER2': 'REDriver2',
                      'Super Mario Bros And Level Editor in C#': 'Mario Objects', 'Unitystation': 'unitystation',
                      'tetris': 'Just another Tetris™ clone', 'twin-e': 'TwinEngine', 'super-methane-brothers-gx': 'Super Methane Brothers for Wii and GameCube',
-                     'CrossUO: Ultima Online': 'CrossUO', 'Doomsday': 'Doomsday Engine', 'OpMon': 'OPMon',
-                     '2048-python': '2048 Python', 'Free Heroes 2 - Enhanced': 'Free Heroes 2', 'ironseed_fpc': 'ironseed',
-                     'KKnD': 'OpenKrush', 'bab-be-u': 'BAB BE U', 'ironseed': 'Ironseed', 'urde': 'Metaforce'}
+                     'CrossUO: Ultima Online': 'CrossUO', 'OpMon': 'OPMon', '3DGE': 'EDGE', 'ironseed_fpc': 'Ironseed',
+                     '2048-python': '2048 Python', 'Free Heroes 2 - Enhanced': 'Free Heroes 2',
+                     'KKnD': 'OpenKrush', 'bab-be-u': 'BAB BE U', 'urde': 'Metaforce'}
 
 # conversion between licenses syntax them and us
 osgc_licenses_map = {'GPL2': 'GPL-2.0', 'GPL3': 'GPL-3.0', 'AGPL3': 'AGPL-3.0', 'LGPL3': 'LGPL-3.0',
@@ -61,30 +61,32 @@ osgc_licenses_map = {'GPL2': 'GPL-2.0', 'GPL3': 'GPL-3.0', 'AGPL3': 'AGPL-3.0', 
                      'Artistic': 'Artistic License', 'Zlib': 'zlib', 'PD': 'Public domain', 'AFL3': 'AFL-3.0',
                      'BSD2': '2-clause BSD', 'JRL': 'Java Research License'}
 
-# ignore osgc entries (for various reasons like unclear license etc.)
+# ignored osgc entries (for various reasons like unclear license etc.)
+# TODO they should probably rather be in our rejected list with a reason given, also some can be unrejected
 osgc_ignored_entries = ["A Mouse's Vengeance", 'achtungkurve.com', 'AdaDoom3', 'Agendaroids', 'Alien 8', 'Ard-Reil',
                         'Balloon Fight', 'bladerunner (Engine within SCUMMVM)', 'Block Shooter', 'Bomb Mania Reloaded',
                         'boulder-dash', 'Cannon Fodder', 'Contra_remake', 'CosmicArk-Advanced', 'Deuteros X',
                         'datastorm', 'div-columns', 'div-pacman2600', 'div-pitfall', 'div-spaceinvaders2600', 'EXILE',
-                        'Free in the Dark', 'Prepare Carefully', 'OpenKKnD',
+                        'Free in the Dark', 'Prepare Carefully', 'OpenKKnD', '64doom',
                         'Football Manager', 'Fight Or Perish', 'EarthShakerDS', 'Entombed!', 'FreeRails 2',
                         'Glest Advanced Engine', 'FreedroidClassic', 'FreeFT', 'Future Blocks', 'HeadOverHeels',
                         'Herzog 3D', 'Homeworld SDL', 'imperialism-remake', 'Jumping Jack 2: Worryingly Familiar',
                         'Jumping Jack: Further Adventures', 'Jumpman', 'legion', 'KZap', 'LastNinja', 'Lemmix', 'LixD',
                         'luminesk5', 'Manic Miner', 'Meridian 59 Server 105', 'Meridian 59 German Server 112',
                         'Mining Haze', 'OpenGeneral', 'MonoStrategy', 'New RAW', 'OpenDeathValley', 'OpenOutcast',
-                        'openStrato', 'OpenPop', 'pacman',
-                        'Phavon', 'Project: Xenocide', 'pyspaceinvaders', 'PyTouhou', 'Racer',
+                        'openStrato', 'OpenPop', 'pacman', 'Phavon', 'Project: Xenocide', 'pyspaceinvaders', 'PyTouhou', 'Racer',
                         'Ruby OMF 2097 Remake', 'Snipes', 'Spaceship Duel', 'Space Station 14', 'Starlane Empire',
                         'Styx', 'Super Mario Bros With SFML in C#', 'thromolusng', 'Tile World 2', 'Tranzam',
-                        'Voxelstein 3D', 'XQuest 2',
+                        'Voxelstein 3D', 'XQuest 2', 'OpenC1', 'coab',
                         'xrick', 'zedragon', 'Uncharted waters 2 remake', 'Desktop Adventures Engine for ScummVM',
-                        'Open Sonic', 'Aladdin_DirectX', 'Alive_Reversing', 're3', 'Sonic-1-2-2013-Decompilation',
+                        'Open Sonic', 'Aladdin_DirectX', 'Alive_Reversing', 'Sonic-1-2-2013-Decompilation',
                         'Sonic-CD-11-Decompilation', 'Stunt Car Racer Remake']
 
 
 def unique_field_contents(entries, field):
     """
+    Iterates through a list of dictionaries, adds the field content to a unique content set and then returns the set
+    as ordered list.
     """
     unique_content = set()
     for entry in entries:
@@ -100,12 +102,12 @@ def unique_field_contents(entries, field):
 
 def compare_sets(a, b, name, limit=None):
     """
-
+    Given two sets, a and b, calculates the differences of each with respect to the other and prints the differences out.
     :param limit: 'notus', 'notthem'
     :param a: them
     :param b: us
     :param name: prefix in output
-    :return:
+    :return: String that summarizes the differences.
     """
     p = ''
     if not isinstance(a, set):
@@ -129,10 +131,10 @@ if __name__ == "__main__":
     check_similar_names = False
 
     # paths
-    root_path = os.path.realpath(os.path.join(os.path.dirname(__file__), os.path.pardir))
+    root_path = os.path.realpath(os.path.join(os.path.dirname(__file__), os.path.pardir, os.path.pardir))
 
     # import the osgameclones data
-    osgc_path = os.path.realpath(os.path.join(root_path, os.path.pardir, 'osgameclones.git', 'games'))
+    osgc_path = os.path.realpath(os.path.join(root_path, os.path.pardir, '11_osgameclones.git', 'games'))
     osgc_files = os.listdir(osgc_path)
 
     # iterate over all yaml files in osgameclones/data folder and load contents
@@ -150,7 +152,7 @@ if __name__ == "__main__":
         osgc_entries.extend(_)
     print('Currently {} entries in osgameclones'.format(len(osgc_entries)))
 
-    # check: print all git repos with untypical structure
+    # check: print all git repos in osgameclones with untypical structure
     untypical_structure = ''
     for osgc_entry in osgc_entries:
         name = osgc_entry['name']
@@ -162,7 +164,7 @@ if __name__ == "__main__":
                 if 'github' in repo and any((repo.endswith(x) for x in ('/', '.git'))):
                     untypical_structure += ' {} : {}\n'.format(osgc_entry['name'], repo)
     if untypical_structure:
-        print('Git repos with untypical URL\n{}'.format(untypical_structure))
+        print('Git repos in osgc with untypical URL\n{}'.format(untypical_structure))
 
     # which fields do they have
     osgc_fields = set()
@@ -190,14 +192,14 @@ if __name__ == "__main__":
     _ = [x['name'] for x in osgc_entries if x['name'] in osgc_ignored_entries]  # those that will be ignored
     _ = set(osgc_ignored_entries) - set(_)  # those that shall be ignored minus those that will be ignored
     if _:
-        print('Can un-ignore {}'.format(_))
+        print('Can un-ignore {} because not contained anymore in osgc with this name.'.format(_))
     osgc_entries = [x for x in osgc_entries if x['name'] not in osgc_ignored_entries]
 
     # fix names and licenses (so they are not longer detected as deviations downstreams)
     _ = [x['name'] for x in osgc_entries if x['name'] in osgc_name_aliases.keys()]  # those that will be renamed
     _ = set(osgc_name_aliases.keys()) - set(_)  # those that shall be renamed minus those that will be renamed
     if _:
-        print('Can un-rename {}'.format(_))
+        print('Can un-rename {} because not contained anymore in osgc with this name.'.format(_))
     for index, entry in enumerate(osgc_entries):
         name = entry['name']
         if name in osgc_name_aliases:
@@ -206,14 +208,13 @@ if __name__ == "__main__":
             osgc_licenses = entry['license']
             osgc_licenses = [osgc_licenses_map.get(x, x) for x in osgc_licenses]
             entry['license'] = osgc_licenses
-        # fix content (add suffix content)
+        # fix content (add prefix content)
         if 'content' in entry:
             osgc_content = entry['content']
             if isinstance(osgc_content, str):
                 osgc_content = [osgc_content]
-            osgc_content = [x + ' content' for x in osgc_content]
+            osgc_content = ['content ' + x for x in osgc_content]
             entry['content'] = osgc_content
-        osgc_entries[index] = entry  # TODO is this necessary or is the entry modified anyway?
 
     # which fields do they have
     osgc_fields = set()

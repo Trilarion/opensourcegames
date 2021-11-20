@@ -38,10 +38,11 @@
           <a class="navbar-item{% if 'platforms' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'platforms.html']) }}">{{ macros.render_icon({'id':'laptop'}) }}<span>By OS support</span></a>
           <a class="navbar-item{% if 'top-50' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'top50.html']) }}">{{ macros.render_icon({'id':'star'}) }}<span>GitHub Stars Top 50</span></a>
           <a class="navbar-item{% if 'web' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'web.html']) }}">{{ macros.render_icon({'id':'earth'}) }}<span>Playable browser games</span></a>
+          <a class="navbar-item{% if 'libre' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'libre.html']) }}">{{ macros.render_icon({'id':'heart'}) }}<span>Open code + artwork</span></a>
           <a class="navbar-item{% if 'kids' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'kids.html']) }}">{{ macros.render_icon({'id':'child'}) }}<span>For Kids</span></a>
         </div>
       </div>
-      <a class="navbar-item{% if 'frameworks' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['frameworks', 'index.html']) }}">{{ macros.render_icon({'id':'wrench'}) }}<span>Frameworks/Tools</span></a>
+      <a class="navbar-item{% if 'frameworks' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['frameworks', 'index.html']) }}">{{ macros.render_icon({'id':'wrench'}) }}<span>Engines/Tools</span></a>
       <a class="navbar-item{% if 'developers' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['developers', 'index.html']) }}">{{ macros.render_icon({'id':'users'}) }}<span>Developers</span></a>
       <a class="navbar-item{% if 'inspirations' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['inspirations', 'index.html']) }}">{{ macros.render_icon({'id':'bulb'}) }}<span>Inspirations</span></a>
       <a class="navbar-item{% if 'statistics' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['statistics', 'index.html']) }}">{{ macros.render_icon({'id':'stats-dots'}) }}<span>Statistics</span></a>

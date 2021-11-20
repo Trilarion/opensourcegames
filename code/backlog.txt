@@ -113,3 +113,23 @@ https://zope.readthedocs.io/en/latest/
 https://github.com/damian-pastorini/reldens
 https://github.com/tainicom/Aether.Physics2D
 https://github.com/jarikomppa/soloud
+https://github.com/shakiba/planck.js
+https://github.com/CodeArtemis/TriggerRally
+https://github.com/dulsi (all there)
+http://majestyofomega.codeplex.com/
+http://bote.codeplex.com/
+https://github.com/Kaetram/Kaetram-Open
+https://github.com/michaelday008/AnyRPGCore
+https://gdevelop-app.com/
+http://freshmeat.sourceforge.net/tags/turn-based-strategy (good for older ones)
+https://dtf.ru/games/657893-perechislenie-otlichnyh-open-source-proektov-o-kotoryh-vy-mogli-ne-znat
+https://github.com/Squalr/Squally
+https://defold.com/
+https://archive.org/details/open_source_software
+https://sourceforge.net/blog/games-for-the-holidays/
+https://rpgmaker.net/engines/
+https://www.edopedia.com/blog/open-source-html5-and-javascript-game-engines/
+https://forums.tigsource.com/index.php?topic=15906.0
+https://www.androidauthority.com/best-open-source-apps-for-android-861665/
+https://www.nexusmods.com/games (if one can filter by open source)
+https://www.networkworld.com/article/2222642/the-death-of-an-html5-game-breeds-an-open-source-project.html

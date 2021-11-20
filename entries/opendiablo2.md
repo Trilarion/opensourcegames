@@ -1,7 +1,7 @@
 # OpenDiablo2
 
 - Home: https://opendiablo2.com/
-- Inspiration: Diablo 2
+- Inspiration: Diablo II
 - State: mature
 - Platform: Windows, Linux, macOS
 - Keyword: action, remake, role playing, content commercial + original required

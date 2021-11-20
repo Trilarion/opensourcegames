@@ -13,6 +13,10 @@ https://web.archive.org/web/20161230103538/http://www.linuxdevcenter.com/pub/a/l
 http://barbarian.1987.free.fr/indexEN.htm (many version, source license?)
 https://github.com/Warsow, https://www.warsow.net/ (what part of it is open source and what is not?)
 
+some games available on Fedora, Legend of Edgar, Shippy 1984 and Seahorse Adventures for example
+
+http://identicalsoftware.com/gamerzilla/
+
 roguelike
 
 http://web.archive.org/web/20071218214256/http://users.tkk.fi/~eye/roguelike/nethack.html

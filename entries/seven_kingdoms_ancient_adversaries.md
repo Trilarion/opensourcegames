@@ -1,11 +1,12 @@
 # Seven Kingdoms: Ancient Adversaries
 
 - Home: https://7kfans.com/
+- Media: https://en.wikipedia.org/wiki/Seven_Kingdoms_(video_game)#Open_source_project
 - Inspiration: Seven Kingdoms: Ancient Adversaries
 - State: mature
 - Download: https://www.7kfans.com/wiki/index.php/Download, https://sourceforge.net/projects/skfans/files/, https://github.com/the3dfxdude/7kaa/releases
 - Platform: Windows, Linux
-- Keyword: remake, strategy
+- Keyword: remake, strategy, real-time
 - Code repository: https://github.com/the3dfxdude/7kaa.git (@created 2013, @stars 180, @forks 56)
 - Code language: C++
 - Code license: GPL-2.0

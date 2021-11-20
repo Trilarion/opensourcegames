@@ -13,6 +13,21 @@ Sorts the entries in the contents files of each sub folder alphabetically.
 # TODO all with download or play field but without platform field
 # TODO sort developers alphabetically and remove duplicate entries
 
+# TODO consistency: output to file
+# TODO consistency: no platform field
+# TODO consistency: web in platform but no play field
+# TODO consistency: not only web in platform and no download field
+# TODO consistency: no code repository
+# TODO consistency: first code repository not git
+# TODO consistency: no popular first code repository
+# TODO consistency: unknown code language
+# TODO consistency: unknown code license
+# TODO consistency: unknown assets license
+# TODO consistency: free assets license but not content open
+# TODO consistency: content commercial and not commercial assets license
+# TODO consistency: java as language but build system not gradle
+# TODO consistency: c/c++ as language but build system not cmake
+
 import os
 import re
 import datetime

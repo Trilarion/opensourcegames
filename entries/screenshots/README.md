@@ -17,28 +17,84 @@ from running the game or from youtube play videos.
 
 01 103 128 https://cloud.githubusercontent.com/assets/1175750/8614312/280e5dc2-26f1-11e5-9f1f-5891c3ca8b26.png
 
+# 3dc
+
+01 130 128 https://screenshots.debian.net/shrine/screenshot/6135/simage/large-d47b3d720a3c120436ca7ac38a4884fe.png
+
 # 3dcity
 
 01 366 128 !https://camo.githubusercontent.com/4bf2182f1fbc1bfa25fe09b1af4af55b07e3275ecd4955da92c77bf8bc8d9f11/687474703a2f2f6c6f2d74682e6769746875622e696f2f33642e636974792f696d672f7072657669657730322e6a7067
 02 366 128 !https://camo.githubusercontent.com/e4cd0881e7acee4be727339f18e47af5c0e5745422586e15ebf7ac34e1317f00/687474703a2f2f6c6f2d74682e6769746875622e696f2f33642e636974792f696d672f7072657669657730332e6a7067
 03 366 128 !https://camo.githubusercontent.com/1d50e833fdf9589dbdb0e5aafc502a7cd131f7b7fc0fe783f63fe10e4d487c53/687474703a2f2f6c6f2d74682e6769746875622e696f2f33642e636974792f696d672f7072657669657730312e6a7067
 
+# 54321
+
+01 171 128 http://old.nklein.com/products/54321/screenshot/main.png
+
+# abuse_1996
+
+01 443 128 http://i.imgur.com/CyyNz1p.png
+
 # achtung_die_kurve
 
 01 149 128
 
+# acm
+
+01 171 128 https://screenshots.debian.net/shrine/screenshot/2158/simage/large-a81b5d50658008da079e978d0cc2f717.png
+02 190 128 https://screenshots.debian.net/shrine/screenshot/21317/simage/large-af9f545ce31bcce4efcb71a8f2e1c1d3.png
+
 # adadoom3
 
 01 192 128 https://raw.githubusercontent.com/AdaDoom3/AdaDoom3/master/Object/EP2PUGuX0AA2Pz_.jpg
+
+# adanaxis
+
+01 171 128 !https://web.archive.org/web/20141109031706im_/http://www.mushware.com/album_picm.php?pic_id=8
+02 171 128 !https://web.archive.org/web/20131028150943im_/http://www.mushware.com/album_picm.php?pic_id=6
 
 # adaventure
 
 01 228 128 https://github.com/fastrgv/AdaVenture/raw/master/av1.jpg
 02 228 128 https://github.com/fastrgv/AdaVenture/raw/master/nuAV.jpg
 
+# advanced_strategic_command
+
+01 171 128 !https://web.archive.org/web/20161203140357im_/http://www.asc-hq.org/screenshots/screen05.jpg
+02 171 128 !https://web.archive.org/web/20161203140357im_/http://www.asc-hq.org/screenshots/screen07.jpg
+
+# airstrike
+
+01 171 128 http://icculus.org/airstrike/screenshots/screenshot6.png
+02 171 128 http://icculus.org/airstrike/screenshots/screenshot5.png
+
+# aisleriot
+
+01 228 128 https://wiki.gnome.org/Apps/Aisleriot?action=AttachFile&do=get&target=aisleriot-3.10.png
+
 # aleph_one
 
 01 180 128 https://alephone.lhowon.org/images/marathon_collage.png
+
+# alex_the_allegator_4
+
+01 171 128 http://allegator.sourceforge.net/images/ss_alex4.gif
+
+# allure_of_the_stars
+
+01 228 128 https://raw.githubusercontent.com/AllureOfTheStars/media/master/screenshot/allureofthestars.com.second.attempt.1280.gif
+
+# amphetamine
+
+01 171 128 https://screenshots.debian.net/shrine/screenshot/1020/simage/large-7f8f0ceedfcfd147738f153ab81dff82.png
+
+# anagramarama
+
+01 165 128 https://web.archive.org/web/20070417220847if_/http://www.omega.clara.net:80/anagramarama/images/screenshot-full.gif
+
+# ancient_beast
+
+01 228 128 !https://camo.githubusercontent.com/73a15c42a2e0f49ae4b9734a8c4a197221dcedf412464ea241b9f479e6edfe84/68747470733a2f2f7261772e6769746875622e636f6d2f467265657a696e674d6f6f6e2f416e6369656e7442656173742d576562736974652f6d61737465722f6d756c74696d656469612f73637265656e73686f74732f76302e332532304461726b253230466f726573742e6a7067
 
 # ares_dogfighter
 
@@ -48,6 +104,11 @@ from running the game or from youtube play videos.
 
 01 169 128 https://raw.githubusercontent.com/TheMozg/awk-raycaster/master/screenshot.png
 
+# bos_wars
+
+01 171 128 https://www.boswars.org/images/boswars-2.6-0.jpg
+02 171 128 https://www.boswars.org/images/boswars-2.4-0.jpg
+
 # bouncy_the_hungry_rabbit
 
 01 165 128 https://s3.eu-west-2.amazonaws.com/media.pyweek.org/3/bouncy/toon-shaded.jpg
@@ -55,6 +116,15 @@ from running the game or from youtube play videos.
 # browserquest
 
 01 188 128
+
+# c-evo
+
+01 171 128 http://www.c-evo.org/shot1.jpg
+02 171 128 http://www.c-evo.org/shot3.jpg
+
+# caesaria
+
+01 328 128 https://bitbucket.org/repo/gxxkpE/images/3827970980-trt2.jpg
 
 # candy_memory
 

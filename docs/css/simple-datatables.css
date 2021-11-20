@@ -31,6 +31,11 @@
 
 .dataTable-input {
 	padding: 6px 12px;
+	width: 100%;
+}
+
+.dataTable-search {
+	width: 400px;
 }
 
 .dataTable-info {

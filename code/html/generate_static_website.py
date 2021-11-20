@@ -17,6 +17,7 @@ Sitemap is not needed, only for large projects with lots of JavaScript und many 
 # TODO table: search window width larger (asked at the Github repo of the simple datatable - no answer so far, could not find easily in code)
 
 # TODO categories: put more explanations on the category pages and the categories (number and short sentences)
+# TODO categories: use moon year as shortcut for inactive, only make an alt tag for the moon (inactive since)
 
 # TODO keywords: content, multiplayer replace by icons (open, commercial (dollar signs))
 # TODO keywords: explain most common ones (as alt-text maybe?)
@@ -41,6 +42,8 @@ Sitemap is not needed, only for large projects with lots of JavaScript und many 
 # TODO statistics: better and more statistics with links where possible
 # TODO statistics: get it from common statistics generator
 # TODO statistics: normalization, what if there are multiple entries per field (pie chart would be wrong, better to show bar chart instead)
+# TODO statistics: state (beta, mature x active, inactive)
+# TODO statistics: non essential keywords
 
 # TODO games: developer details is too small to click on some devices, maybe details is-size6 instead (make technical details size 6 but with more)
 # TODO games: keyword tags underlined to indicate links
@@ -52,8 +55,10 @@ Sitemap is not needed, only for large projects with lots of JavaScript und many 
 # TODO games: show or not show additional game description (info field)?? show only first line of info (which should be a short description or make it a field (only for popular ones), otherwise rely on keywords)
 # TODO games: cross-references for code dependencies if included
 # TODO games: "for adults" tagged need a special icon warning (not safe for work or something)
+# TODO games: use genre icon after the game title (or before)
+# TODO games: use moon or sun icon before inactive, not afterwards
 
-# TODO contribute: contribute.html add content
+# TODO contribute: contribute.html add content (especially what volunteers can be done)
 
 # TODO developers: anchors to non-latin written developers do not work (chinese names have simply xxxxx)
 # TODO developers: developers without a name (or with a zero width name)
@@ -86,6 +91,9 @@ extended_alphabet_names[extra] = '0-9'
 # especially for developers, replacements from other alphabets
 alphabet_replacements = {'Á': 'A', 'Å': 'A', 'Ä': 'A', 'É': 'E', 'ⴹ': 'E', 'Ł': 'L', 'Ľ': 'L', 'А': 'A', 'Б': 'B', 'Д': 'D', 'И': 'I', 'К': 'K', 'П': 'P', 'Ö': 'O', 'Ü': 'U', 'ζ': 'Z'}
 
+TOP_INSPIRATION_THRESHOLD = 4  # at least that many inspired games
+TOP_DEVELOPER_THRESHOLD = 4    # at least that many developed games
+
 # the subfolder structure
 games_path = ['games']
 non_games_path = ['frameworks']
@@ -106,8 +114,9 @@ games_by_platform_path = games_path + ['platforms.html']
 games_top50_path = games_path + ['top50.html']
 games_kids_path = games_path + ['kids.html']
 games_web_path = games_path + ['web.html']
+games_libre_path = games_path + ['libre.html']
 
-# those either are repos with many projects in it or are projects that have commericla content and there is no binary
+# those either are repos with many projects in it or are projects that have commercial content and there is no binary
 # release or there is only a commercial binary release, so you cannot play them right away for free
 github_top50_ignored_repos = ('https://github.com/Hopson97/MineCraft-One-Week-Challenge.git', 'https://github.com/jdah/minecraft-weekend.git', 'https://github.com/TerryCavanagh/vvvvvv.git',
                               'https://github.com/nicholas-ochoa/OpenSC2K.git', 'https://github.com/BlindMindStudios/StarRuler2-Source.git', 'https://github.com/TheMozg/awk-raycaster.git',
@@ -341,15 +350,14 @@ def preprocess(items, key, url):
         item['href'] = url + ['{}.html#{}'.format(start, anchor)]
 
 
-def game_index(entry):
+def entry_index(entry):
     """
-
-    :param entry:
-    :return:
+    Prepares an entry for being an index in a categorical index page.
     """
     e = {
         'url': make_url(entry['href'], entry['Title']),
-        'anchor-id': entry['anchor-id']
+        'anchor-id': entry['anchor-id'],
+        'bold': 'mature' in entry['State']
     }
     tags = []
     if 'beta' in entry['State']:
@@ -363,15 +371,14 @@ def game_index(entry):
 
 def inspiration_index(inspiration):
     """
-
-    :param inspiration:
-    :return:
+    Prepares an inspiration for being an index in a categorical index page.
     """
+    n = len(inspiration['Inspired entries'])
     e = {
         'url': make_url(inspiration['href'], inspiration['Name']),
         'anchor-id': inspiration['anchor-id'],
+        'bold': n >= TOP_INSPIRATION_THRESHOLD
     }
-    n = len(inspiration['Inspired entries'])
     if n > 1:
         e['tags'] = make_text('({})'.format(n), 'is-light')
     return e
@@ -379,15 +386,14 @@ def inspiration_index(inspiration):
 
 def developer_index(developer):
     """
-
-    :param developer:
-    :return:
+    Prepares a developer for being an index in a categorical index page.
     """
+    n = len(developer['Games'])
     e = {
         'url': make_url(developer['href'], developer['Name']),
-        'anchor-id': developer['anchor-id']
+        'anchor-id': developer['anchor-id'],
+        'bold': n >= TOP_DEVELOPER_THRESHOLD
     }
-    n = len(developer['Games'])
     if n > 1:
         e['tags'] = make_text('({})'.format(n), 'is-light is-size-7')
     return e
@@ -674,7 +680,7 @@ def convert_developers(developers, entries):
 
 def create_keyword_tag(keyword):
     """
-
+    Creates the tag element for a single keyword.
     :param keyword:
     :return:
     """
@@ -686,10 +692,8 @@ def create_keyword_tag(keyword):
         url[-1] += '#{}'.format(keyword)
         # TODO are icons looking good in the keyword tags (I somehow doubt it), maybe put them separately somewhere?
         #if keyword.capitalize() in genre_icon_map:
-        #    return make_url(url, [make_icon(genre_icon_map[keyword.capitalize()]), make_text(keyword)], '{} games'.format(keyword), 'tag is-info')
-        #else:
-        #    return make_url(url, make_text(keyword), '{} games'.format(keyword), 'tag is-info')
-        return make_url(url, make_text(keyword), '{} games'.format(keyword), 'tag is-info') # TODO underline tag
+        #    return make_url(url, [make_icon(genre_icon_map[keyword.capitalize()]), make_text(keyword)], '{} games'.format(keyword), 'tag is-light is-link')
+        return make_url(url, make_text(keyword), '{} games'.format(keyword), 'tag is-light is-link') # TODO underline tag needs <u> and it should be generalized
     else:
         return make_text(keyword, 'tag is-light')
 
@@ -1076,14 +1080,13 @@ def generate(entries, inspirations, developers):
     base['active_nav'] = 'frameworks'
 
     # non-games by type
-    index = divide_in_three_columns_and_transform(non_games_by_type, game_index)
+    index = divide_in_three_columns_and_transform(non_games_by_type, entry_index)
     index['title'] = make_text('Open source game frameworks/tools')
     index['subtitle'] = make_text('Index of {} game frameworks/tools'.format(len(non_games)))
     index['categories'] = c.non_game_keywords
     index['category-names'] = non_game_category_names
     index['category-icons'] = {}
     index['number_entries_per_category_threshold'] = 0
-    index['entry_bold'] = lambda x: 'tags' not in x
     index['category-infos'] = {}
     write(template_categorical_index.render(index=index), non_games_index_path)
 
@@ -1110,56 +1113,52 @@ def generate(entries, inspirations, developers):
         write(template_listing_entries.render(listing=listing), games_path + ['{}.html'.format(letter.capitalize())])
 
     # generate games index
-    index = divide_in_three_columns_and_transform(games_by_alphabet, game_index)
+    index = divide_in_three_columns_and_transform(games_by_alphabet, entry_index)
     index['title'] = make_text('Open source games')
     index['subtitle'] = [make_text('Alphabetical index of {} games.'.format(len(games_by_alphabet)))]
     index['categories'] = extended_alphabet
     index['category-names'] = extended_alphabet_names
     index['category-icons'] = {}
     index['number_entries_per_category_threshold'] = 20
-    index['entry_bold'] = lambda x: 'tags' not in x
     index['category-infos'] = {letter: make_text('{} games'.format(len(games_by_alphabet[letter]))) for letter in extended_alphabet}
     write(template_categorical_index.render(index=index), games_index_path)
 
     # genres
     base['title'] = 'OSGL | Games | Genres'
     base['active_nav'] = ['filter', 'genres']
-    index = divide_in_three_columns_and_transform(games_by_genre, game_index)
+    index = divide_in_three_columns_and_transform(games_by_genre, entry_index)
     index['title'] = make_text('Open source games')
     index['subtitle'] = [make_text('Index by game genre.')]
     index['categories'] = genres
     index['category-names'] = {k: make_text(k) for k in index['categories']}
     index['category-icons'] = {k: make_icon(genre_icon_map[k]) for k in index['categories'] if k in genre_icon_map}
     index['number_entries_per_category_threshold'] = 50
-    index['entry_bold'] = lambda x: 'tags' not in x
     index['category-infos'] = {genre: make_text('{} games'.format(len(games_by_genre[genre]))) for genre in genres}
     write(template_categorical_index.render(index=index), games_by_genres_path)
 
     # games by language
     base['title'] = 'OSGL | Games | Programming language'
     base['active_nav'] = ['filter', 'code language']
-    index = divide_in_three_columns_and_transform(games_by_language, game_index)
+    index = divide_in_three_columns_and_transform(games_by_language, entry_index)
     index['title'] = 'Open source games and frameworks'
     index['subtitle'] = [make_text('Index by programming language.')]
     index['categories'] = c.known_languages
     index['category-names'] = {k:k for k in index['categories']}
     index['category-icons'] = {}
     index['number_entries_per_category_threshold'] = 15
-    index['entry_bold'] = lambda x: 'tags' not in x
     index['category-infos'] = {category: make_url(c.language_urls[category], 'Language information', css_class='is-size-7') for category in c.known_languages if category in c.language_urls}
     write(template_categorical_index.render(index=index), games_by_language_path)
 
     # games by platform
     base['title'] = 'OSGL | Games | Supported Platform'
     base['active_nav'] = ['filter', 'platforms']
-    index = divide_in_three_columns_and_transform(games_by_platform, game_index)
+    index = divide_in_three_columns_and_transform(games_by_platform, entry_index)
     index['title'] = 'Open source games and frameworks'
     index['subtitle'] = [make_text('Index by supported platform.')]
     index['categories'] = c.valid_platforms + ('Unspecified',)
     index['category-names'] = {k: make_text(k) for k in index['categories']}
     index['category-icons'] = {k: make_icon(platform_icon_map[k]) for k in index['categories']}
     index['number_entries_per_category_threshold'] = 15
-    index['entry_bold'] = lambda x: 'tags' not in x
     index['category-infos'] = {}
     index['category-infos'] = {category: make_text('{} entries'.format(len(games_by_platform[category]))) for category in index['categories']}
     write(template_categorical_index.render(index=index), games_by_platform_path)
@@ -1186,7 +1185,18 @@ def generate(entries, inspirations, developers):
     }
     write(template_listing_entries.render(listing=listing), games_web_path)
 
-    # top 50 games
+    # completely free games
+    base['title'] = 'OSGL | Games | Free code and artwork'
+    base['active_nav'] = ['filter', 'libre']
+    libre_games = [game for game in games if 'content open' in game['Keyword']]
+    listing = {
+        'title': 'Completely free games',
+        'subtitle': '{} games with open/libre code and artwork.'.format(len(libre_games)),
+        'items': libre_games
+    }
+    write(template_listing_entries.render(listing=listing), games_libre_path)
+
+    # top 50 github games
     base['title'] = 'OSGL | Games | GitHub Top 50'
     base['active_nav'] = ['filter', 'top50']
     # there are no other games coming afterwards, can actually number them
@@ -1217,7 +1227,7 @@ def generate(entries, inspirations, developers):
 
     # inspirations index
     extended_alphabet_names['_'] = 'Most used'
-    top_inspirations = [inspiration for inspiration in inspirations if len(inspiration['Inspired entries']) >= 4]
+    top_inspirations = [inspiration for inspiration in inspirations if len(inspiration['Inspired entries']) >= TOP_INSPIRATION_THRESHOLD]
     inspirations_by_alphabet['_'] = top_inspirations
     index = divide_in_three_columns_and_transform(inspirations_by_alphabet, inspiration_index)
     index['title'] = 'Inspirations'
@@ -1226,7 +1236,6 @@ def generate(entries, inspirations, developers):
     index['category-names'] = extended_alphabet_names
     index['category-icons'] = {}
     index['number_entries_per_category_threshold'] = 10
-    index['entry_bold'] = lambda x: 'tags' in x
     index['category-infos'] = {}
     write(template_categorical_index.render(index=index), inspirations_index_path)
 
@@ -1246,7 +1255,7 @@ def generate(entries, inspirations, developers):
 
     # developers index
     extended_alphabet_names['_'] = 'Most active'
-    top_developers = [developer for developer in developers if len(developer['Games']) >= 4]
+    top_developers = [developer for developer in developers if len(developer['Games']) >= TOP_DEVELOPER_THRESHOLD]
     developers_by_alphabet['_'] = top_developers
     index = divide_in_three_columns_and_transform(developers_by_alphabet, developer_index)
     index['title'] = 'Open source game developers'
@@ -1255,7 +1264,6 @@ def generate(entries, inspirations, developers):
     index['category-names'] = extended_alphabet_names
     index['category-icons'] = {}
     index['number_entries_per_category_threshold'] = 10
-    index['entry_bold'] = lambda x: 'tags' in x
     index['category-infos'] = {}
     write(template_categorical_index.render(index=index), developers_index_path)
 

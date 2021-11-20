@@ -6,6 +6,7 @@ Maintenance of inspirations.md and synchronization with the inspirations in the 
 # TODO which inspirations have wikipedia entries with open source games category but aren't included
 # TODO if update included entries are included, update entries with media too
 # TODO series always with lowercase
+# TODO names of inspirations not unique (for example Battle Zone exists multiple times)
 
 import time
 from utils import osg, osg_ui, osg_wikipedia, constants as c
@@ -23,10 +24,16 @@ class InspirationMaintainer:
         self.entries = None
 
     def read_inspirations(self):
+        """
+        Read stored inspirations.
+        """
         self.inspirations = osg.read_inspirations()
         print('{} inspirations read'.format(len(self.inspirations)))
 
     def write_inspirations(self):
+        """
+        Write inspirations to file.
+        """
         if not self.inspirations:
             print('inspirations not yet loaded')
             return
@@ -34,6 +41,9 @@ class InspirationMaintainer:
         print('inspirations written')
 
     def check_for_duplicates(self):
+        """
+        Check for inspiration names that sound similar (using a name similarity measure).
+        """
         if not self.inspirations:
             print('inspirations not yet loaded')
             return
@@ -48,6 +58,9 @@ class InspirationMaintainer:
         print('duplicates checked took {:.1f}s'.format(time.process_time()-start_time))
 
     def check_for_orphans(self):
+        """
+        Check for inspirations without inspired entries.
+        """
         if not self.inspirations:
             print('inspirations not yet loaded')
             return
@@ -57,15 +70,21 @@ class InspirationMaintainer:
         print('orphanes checked')
 
     def check_for_missing_inspirations_in_entries(self):
+        """
+        Checks that all entries listed in the inspirations also list that inspiration as inspiration.
+        """
         if not self.inspirations:
             print('inspirations not yet loaded')
             return
         if not self.entries:
             print('entries not yet loaded')
             return
+        # loop over all inspirations
         for inspiration in self.inspirations.values():
             inspiration_name = inspiration['Name']
+            # loop over all entry names stored in that inspiration
             for entry_name in inspiration['Inspired entries']:
+                # get all these entries
                 x = [x for x in self.entries if x['Title'] == entry_name]
                 assert len(x) <= 1
                 if not x:
@@ -74,7 +93,7 @@ class InspirationMaintainer:
                     entry = x[0]
                     if 'Inspiration' not in entry or inspiration_name not in entry['Inspiration']:
                         print('Entry "{}" listed in inspiration "{}" but not listed in this entry'.format(entry_name, inspiration_name))
-        print('missed inspirations checked')
+        print('missed inspirations in entries checked')
 
     def check_for_wikipedia_links(self):
         """
@@ -113,8 +132,12 @@ class InspirationMaintainer:
                 url = pages[0].url
                 inspiration['Media'] = inspiration.get('Media', []) + [url]
                 print('{} : {}'.format(name, url))
+        print('finished checking for Wikipedia links')
 
     def update_included_entries(self):
+        """
+        Inspirations that are also included entries (they can act as inspirations).
+        """
         if not self.inspirations:
             print('inspirations not yet loaded')
             return
@@ -137,8 +160,12 @@ class InspirationMaintainer:
             elif 'Included' in inspiration:
                 print('{} was marked as included but is not anymore'.format(name))
                 del inspiration['Included']
+        print('entries also acting as inspirations (included entries) updated')
 
     def update_inspired_entries(self):
+        """
+        Add inspiration information from entries (overwriting the information in the inspiration/inspired entries fields.
+        """
         if not self.inspirations:
             print('inspirations not yet loaded')
             return
@@ -159,6 +186,9 @@ class InspirationMaintainer:
         print('inspired entries updated')
 
     def read_entries(self):
+        """
+        Reads entries.
+        """
         self.entries = osg.read_entries()
         print('{} entries read'.format(len(self.entries)))
 

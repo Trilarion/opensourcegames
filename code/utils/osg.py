@@ -294,6 +294,11 @@ def read_entry(file):
 
 
 def check_and_process_entry(entry):
+    """
+
+    :param entry:
+    :return:
+    """
     message = ''
 
     # check that all fields are valid fields and are existing in that order
@@ -478,8 +483,8 @@ def render_value(value):
 def create_entry_content(entry):
     """
     Creates the entry content from an internal representation as dictionary with fields to a text file representation
-    that can be stored in the md files. It should be compatible with the gramar and reading a file and re-creating the
-    content should not change the content. Importanly, the comments of the values have to be added here.
+    that can be stored in the md files. It should be compatible with the grammar and reading a file and re-creating the
+    content should not change the content. Importantly, the comments of the values have to be added here.
     :param entry:
     :return:
     """

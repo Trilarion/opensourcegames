@@ -38,7 +38,10 @@ video: not used
 
 import ruamel.yaml as yaml
 import os
-from utils import constants, utils, osg
+import requests
+from io import BytesIO
+from PIL import Image
+from utils import constants as c, utils as u, osg, osg_rejected
 
 # mapping from their names to our names (means that likely the names should change on osgameclones)
 osgc_name_aliases = {'4DTris': '4D-TRIS', 'fheroes2': 'Free Heroes 2',
@@ -62,25 +65,14 @@ osgc_licenses_map = {'GPL2': 'GPL-2.0', 'GPL3': 'GPL-3.0', 'AGPL3': 'AGPL-3.0', 
                      'BSD2': '2-clause BSD', 'JRL': 'Java Research License'}
 
 # ignored osgc entries (for various reasons like unclear license etc.)
-# TODO they should probably rather be in our rejected list with a reason given, also some can be unrejected
+# TODO need to check them again and add to rejected list (if I find out why), also ask for appropriate licenses
 osgc_ignored_entries = ["A Mouse's Vengeance", 'achtungkurve.com', 'AdaDoom3', 'Agendaroids', 'Alien 8', 'Ard-Reil',
                         'Balloon Fight', 'bladerunner (Engine within SCUMMVM)', 'Block Shooter', 'Bomb Mania Reloaded',
-                        'boulder-dash', 'Cannon Fodder', 'Contra_remake', 'CosmicArk-Advanced', 'Deuteros X',
-                        'datastorm', 'div-columns', 'div-pacman2600', 'div-pitfall', 'div-spaceinvaders2600', 'EXILE',
-                        'Free in the Dark', 'Prepare Carefully', 'OpenKKnD', '64doom',
-                        'Football Manager', 'Fight Or Perish', 'EarthShakerDS', 'Entombed!', 'FreeRails 2',
-                        'Glest Advanced Engine', 'FreedroidClassic', 'FreeFT', 'Future Blocks', 'HeadOverHeels',
-                        'Herzog 3D', 'Homeworld SDL', 'imperialism-remake', 'Jumping Jack 2: Worryingly Familiar',
-                        'Jumping Jack: Further Adventures', 'Jumpman', 'legion', 'KZap', 'LastNinja', 'Lemmix', 'LixD',
-                        'luminesk5', 'Manic Miner', 'Meridian 59 Server 105', 'Meridian 59 German Server 112',
-                        'Mining Haze', 'OpenGeneral', 'MonoStrategy', 'New RAW', 'OpenDeathValley', 'OpenOutcast',
-                        'openStrato', 'OpenPop', 'pacman', 'Phavon', 'Project: Xenocide', 'pyspaceinvaders', 'PyTouhou', 'Racer',
-                        'Ruby OMF 2097 Remake', 'Snipes', 'Spaceship Duel', 'Space Station 14', 'Starlane Empire',
-                        'Styx', 'Super Mario Bros With SFML in C#', 'thromolusng', 'Tile World 2', 'Tranzam',
-                        'Voxelstein 3D', 'XQuest 2', 'OpenC1', 'coab',
-                        'xrick', 'zedragon', 'Uncharted waters 2 remake', 'Desktop Adventures Engine for ScummVM',
-                        'Open Sonic', 'Aladdin_DirectX', 'Alive_Reversing', 'Sonic-1-2-2013-Decompilation',
-                        'Sonic-CD-11-Decompilation', 'Stunt Car Racer Remake']
+                        'boulder-dash', 'Cannon Fodder', 'Contra_remake', 'CosmicArk-Advanced', 'datastorm', 'Deuteros X',
+                        'div-columns', 'div-pacman2600', 'div-pitfall', 'div-spaceinvaders2600', 'FreedroidClassic',
+                        'FreeRails 2', 'Glest Advanced Engine', 'HeadOverHeels', 'Jumping Jack 2: Worryingly Familiar',
+                        'Jumping Jack: Further Adventures', 'LixD', 'Meridian 59 German Server 112',
+                        'Meridian 59 Server 105', 'OpenGeneral', 'OpenKKnD', 'Tile World 2', 'BattleCity']
 
 
 def unique_field_contents(entries, field):
@@ -123,17 +115,49 @@ def compare_sets(a, b, name, limit=None):
     return p
 
 
+def create_many_to_one_mapping(map):
+    """
+
+    :return:
+    """
+    result = {}
+    for k, v in map.items():
+        for key in k:
+            result[key] = v
+    return result
+
+# conversion of osgc status to our state
+osgc_status_map = create_many_to_one_mapping({(None,): '?', ('playable',): 'mature', ('semi-playable', 'unplayable'): 'beta'})
+
+
 if __name__ == "__main__":
 
     # some parameter
     similarity_threshold = 0.8
-    maximal_newly_created_entries = 40
+    maximal_newly_created_entries = 0
     check_similar_names = False
+    download_missing_screenshots = False
 
     # paths
     root_path = os.path.realpath(os.path.join(os.path.dirname(__file__), os.path.pardir, os.path.pardir))
 
-    # import the osgameclones data
+    # read our database
+    our_entries = osg.read_entries()
+    print('{} entries with us'.format(len(our_entries)))
+
+    # read our list of rejected entries and add to specifically ignored entries
+    our_rejected_entries = osg_rejected.read_rejected_file()
+    our_rejected_entries = [entry['Title'] for entry in our_rejected_entries]  # only keep titles
+    print('{} ignored entries with us'.format(len(our_rejected_entries)))
+    _ = set(osgc_ignored_entries).intersection(set(our_rejected_entries))
+    if _:
+        print('Specific ignored entries {} can be unignored, because already rejected by us.'.format(_))
+    # print(sorted(list(set(osgc_ignored_entries) - _), key=str.casefold))  # just copy the output of this line into osgc_ignored_entries
+
+    # read screenshots
+    screenshots = osg.read_screenshots_overview()
+
+    # import osgameclones data
     osgc_path = os.path.realpath(os.path.join(root_path, os.path.pardir, '11_osgameclones.git', 'games'))
     osgc_files = os.listdir(osgc_path)
 
@@ -150,7 +174,7 @@ if __name__ == "__main__":
 
         # add to entries
         osgc_entries.extend(_)
-    print('Currently {} entries in osgameclones'.format(len(osgc_entries)))
+    print('{} entries in osgameclones'.format(len(osgc_entries)))
 
     # check: print all git repos in osgameclones with untypical structure
     untypical_structure = ''
@@ -179,21 +203,22 @@ if __name__ == "__main__":
         osgc_content = [entry[field] for entry in osgc_entries if field in entry]
         # flatten
         flat_content = []
-        for c in osgc_content:
-            if isinstance(c, list):
-                flat_content.extend(c)
+        for content in osgc_content:
+            if isinstance(content, list):
+                flat_content.extend(content)
             else:
-                flat_content.append(c)
-        statistics = utils.unique_elements_and_occurrences(flat_content)
+                flat_content.append(content)
+        statistics = u.unique_elements_and_occurrences(flat_content)
         statistics.sort(key=str.casefold)
         print('{}: {}'.format(field, ', '.join(statistics)))
 
-    # eliminate the ignored entries
-    _ = [x['name'] for x in osgc_entries if x['name'] in osgc_ignored_entries]  # those that will be ignored
+    # eliminate the ignored or rejected entries from them
+    # TODO for rejected entries we should actually have a test that also checks for the URLs because names could be not unique
+    _ = [x['name'] for x in osgc_entries if x['name'] in osgc_ignored_entries + our_rejected_entries]  # those that will be ignored
     _ = set(osgc_ignored_entries) - set(_)  # those that shall be ignored minus those that will be ignored
     if _:
         print('Can un-ignore {} because not contained anymore in osgc with this name.'.format(_))
-    osgc_entries = [x for x in osgc_entries if x['name'] not in osgc_ignored_entries]
+    osgc_entries = [x for x in osgc_entries if x['name'] not in osgc_ignored_entries + our_rejected_entries]
 
     # fix names and licenses (so they are not longer detected as deviations downstreams)
     _ = [x['name'] for x in osgc_entries if x['name'] in osgc_name_aliases.keys()]  # those that will be renamed
@@ -238,18 +263,13 @@ if __name__ == "__main__":
     print('osgc-framework: {}'.format(unique_field_contents(osgc_entries, 'framework')))
     print('osgc-content: {}'.format(unique_field_contents(osgc_entries, 'content')))
 
-    # read our database
-    our_entries = osg.read_entries()
-    print('{} entries with us'.format(len(our_entries)))
-
     # just the names
     osgc_names = set([x['name'] for x in osgc_entries])
     our_names = set([x['Title'] for x in our_entries])
     common_names = osgc_names & our_names
     osgc_names -= common_names
     our_names -= common_names
-    print('{} in both, {} only in osgameclones, {} only with us'.format(len(common_names), len(osgc_names),
-                                                                        len(our_names)))
+    print('{} both, {} only osgameclones, {} only us'.format(len(common_names), len(osgc_names), len(our_names)))
     # find similar names among the rest
     if check_similar_names:
         print('look for similar names (theirs - ours)')
@@ -273,7 +293,47 @@ if __name__ == "__main__":
                 # a match, check the fields
                 name = osgc_name
 
-                p = ''
+                # check if screenshots can be added
+                if download_missing_screenshots and 'images' in osgc_entry:
+                    their_images = osgc_entry['images'][:3]  # only first three images
+                    our_file = our_entry['File'][:-3]  # without trailing ".md"
+                    our_screenshots = screenshots.get(our_file, {})
+                    our_urls = [x[2] for x in our_screenshots.values()]
+                    their_images = [x for x in their_images if x not in our_urls]
+                    their_images = their_images[:3-len(our_urls)]  # only fill up to 3
+                    for image_url in their_images:
+                        # download image
+                        try:
+                            r = requests.get(image_url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64)'}, timeout=5, allow_redirects=True)
+                        except Exception:
+                            # SSLError or other
+                            continue
+                        image_url = r.url  # just in case it got redirected
+                        if r.status_code == requests.codes.ok:
+                            try:
+                                im = Image.open(BytesIO(r.content))
+                            except Exception:
+                                # PIL.UNidentifiedImageError
+                                continue
+                            if im.mode != 'RGB':
+                                im = im.convert('RGB')
+                            width = im.width
+                            height = im.height
+                            target_height = 128
+                            target_width = int(width / height * target_height)
+                            im_resized = im.resize((target_width, target_height), resample=Image.LANCZOS)
+                            idx = len(our_screenshots) + 1
+                            if any([image_url.startswith(x) for x in ('https://camo.githubusercontent', 'https://web.archive.org', ' https://user-content.gitlab', 'https://user-images.githubusercontent')]) or width <= 320:
+                                image_url = '!' + image_url
+                            our_screenshots[idx] = [target_width, target_height, image_url]
+                            outfile = os.path.join(c.screenshots_path, '{}_{:02d}.jpg'.format(our_file, idx));
+                            im_resized.save(outfile)
+                    if our_screenshots:
+                        screenshots[our_file] = our_screenshots
+                    osg.write_screenshots_overview(screenshots)
+
+
+                p = ''  # contains a summary of all differences, if empty, no differences are found
 
                 # TODO key names have changed on our side
 
@@ -311,18 +371,18 @@ if __name__ == "__main__":
                     osgc_repos = osgc_entry['repo']
                     if type(osgc_repos) == str:
                         osgc_repos = [osgc_repos]
-                    osgc_repos = [utils.strip_url(url) for url in osgc_repos]
+                    osgc_repos = [u.strip_url(url) for url in osgc_repos]
                     osgc_repos = [x for x in osgc_repos if not x.startswith(
                         'sourceforge.net/projects/')]  # we don't need the general sites there
                     # osgc_repos = [x for x in osgc_repos if not x.startswith('https://sourceforge.net/projects/')] # ignore some
                     our_repos = our_entry.get('Code repository', [])
-                    our_repos = [utils.strip_url(url) for url in our_repos]
+                    our_repos = [u.strip_url(url) for url in our_repos]
                     our_repos = [x for x in our_repos if not x.startswith(
                         'gitlab.com/osgames/')]  # we do not yet spread our own deeds (but we will some day)
                     our_repos = [x for x in our_repos if
                                  'cvs.sourceforge.net' not in x and 'svn.code.sf.net/p/' not in x]  # no cvs or svn anymore
                     our_downloads = our_entry.get('Download', [])
-                    our_downloads = [utils.strip_url(url) for url in our_downloads]
+                    our_downloads = [u.strip_url(url) for url in our_downloads]
                     p += compare_sets(osgc_repos, our_repos + our_downloads, 'repo',
                                       'notthem')  # if their repos are not in our downloads or repos
                     p += compare_sets(osgc_repos, our_repos[:1], 'repo',
@@ -333,9 +393,9 @@ if __name__ == "__main__":
                     osgc_urls = osgc_entry['url']
                     if type(osgc_urls) == str:
                         osgc_urls = [osgc_urls]
-                    osgc_urls = [utils.strip_url(url) for url in osgc_urls]
+                    osgc_urls = [u.strip_url(url) for url in osgc_urls]
                     our_urls = our_entry['Home']
-                    our_urls = [utils.strip_url(url) for url in our_urls]
+                    our_urls = [u.strip_url(url) for url in our_urls]
                     p += compare_sets(osgc_urls, our_urls, 'url/home', 'notthem')  # if their urls are not in our urls
                     # our_urls = [url for url in our_urls if
                     #             not url.startswith('github.com/')]  # they don't have them as url
@@ -410,61 +470,55 @@ if __name__ == "__main__":
 
         if not is_included:
             # a new entry, that we have never seen, maybe we should make an entry of our own
-            # continue
             # TODO we could use the write capabilities to write the entry in our own format, the hardcoded format here might be brittle, on the other hand we can also write slightly wrong stuff here without problems
 
             if newly_created_entries >= maximal_newly_created_entries:
                 continue
 
             game_type = osgc_entry.get('type', None)
-            osgc_status = osgc_entry.get('status', None)
-
-            # we sort some out here (maybe we want to have a closer look at them later)
-            if osgc_status == 'unplayable':
-                # for now not the unplayable ones
-                continue
-            if 'license' not in osgc_entry or 'As-is' in osgc_entry['license']:
-                # for now not the ones without license or with as-is license
-                continue
+            osgc_status = [osgc_status_map[osgc_entry.get('status', None)]]
 
             # determine file name
             print('create new entry for {}'.format(osgc_name))
             file_name = osg.canonical_name(osgc_name) + '.md'
-            target_file = os.path.join(constants.entries_path, file_name)
+            target_file = os.path.join(c.entries_path, file_name)
             if os.path.isfile(target_file):
                 print('warning: file {} already existing, save under slightly different name'.format(file_name))
-                target_file = os.path.join(constants.entries_path, file_name[:-3] + '-duplicate.md')
+                target_file = os.path.join(c.entries_path, file_name[:-3] + '-duplicate.md')
                 if os.path.isfile(target_file):
                     continue  # just for safety reasons
 
-            # add name
-            entry = '# {}\n\n'.format(osgc_name)
+            # add Title and File
+            entry = {'Title': osgc_name, 'File': file_name}
 
-            # home
-            home = osgc_entry.get('url', None)
-            entry += '- Home: {}\n'.format(home)
+            # add home
+            if 'url' in osgc_entry:
+                home = osgc_entry['url']
+                if type(home) == str:
+                    home = [home]
+                entry['Home'] = home
 
-            # inspiration
+            # add inspiration
             if 'originals' in osgc_entry:
                 osgc_originals = osgc_entry['originals']
                 if type(osgc_originals) == str:
                     osgc_originals = [osgc_originals]
-                entry += '- Inspiration: {}\n'.format(', '.join(osgc_originals))
+                entry['Inspiration'] = osgc_originals
 
-            # state
-            entry += '- State: {}'.format(osgc_status)
-            if 'development' in osgc_entry:
-                if osgc_entry['development'] == 'halted':
-                    entry += ', inactive since XX'
-            entry += '\n'
+            # add state
+            if osgc_entry.get('development', None) == 'halted':
+                osgc_status.append('inactive since XX')
+            entry['State'] = osgc_status
 
             # language tags
             lang = osgc_entry.get('lang', [])
             if type(lang) == str:
                 lang = [lang]
+            # code language (mandatory on our side)
+            entry['Code language'] = lang
             # platform 'Web' if language == JavaScript or TypeScript
             if len(lang) == 1 and lang[0] in ('JavaScript', 'TypeScript'):
-                entry += '- Platform: Web\n'
+                entry['Platform'] = ['Web']
 
             # keywords
             keywords = []
@@ -477,56 +531,55 @@ if __name__ == "__main__":
                 keywords.append('multiplayer {}'.format(' + '.join(osgc_multiplayer)))
             if 'content' in osgc_entry:
                 osgc_content = osgc_entry['content']  # it's a list
-                osgc_content = ', '.join(osgc_content)
-                keywords.append(osgc_content)
+                keywords.extend(osgc_content)
             if keywords:
-                entry += '- Keyword: {}\n'.format(', '.join(keywords))
+                entry['Keyword'] = keywords
 
             # code repository (mandatory on our side)
-            repo = osgc_entry.get('repo', None)
+            repo = osgc_entry.get('repo', [])
             if repo and repo.startswith('https://git') and not repo.endswith('.git'):
                 # we have them with .git on github/gitlab
                 repo += '.git'
-            entry += '- Code repository: {}\n'.format(repo)
-
-            # code language (mandatory on our side)
-            entry += '- Code language: {}\n'.format(', '.join(lang))
+            if type(repo) == str:
+                repo = [repo]
+            entry['Code repository'] = repo
 
             # code license
-            entry += '- Code license: {}\n'.format(', '.join(osgc_entry['license']))
+            entry['Code license'] = osgc_entry['license']
 
             # code dependencies (if existing)
             if 'framework' in osgc_entry:
                 osgc_frameworks = osgc_entry['framework']
                 if type(osgc_frameworks) == str:
                     osgc_frameworks = [osgc_frameworks]
-                entry += '- Code dependency: {}\n'.format(', '.join(osgc_frameworks))
-
-            # add description (already put into Inspiration)
-            # description = '{} of {}.'.format(game_type.capitalize(), ', '.join(osgc_entry['originals']))
-            # entry += '\n{}\n\n'.format(description)
+                entry['Code dependency'] = osgc_frameworks
 
             # write info (if existing)
             if 'info' in osgc_entry:
-                entry += '\n{}\n\n'.format(osgc_entry['info'])
+                entry['Note'] = osgc_entry['info']
 
-            # write ## Building
-            entry += '\n## Building\n'
+            # add empty building
+            entry['Building'] = {}
 
             # finally write to file
-            utils.write_text(target_file, entry)
+            print(entry)
+            osg.write_entry(entry)
             newly_created_entries += 1
 
+    # save updated screenshots if they could have chenged
+    if download_missing_screenshots:
+        osg.write_screenshots_overview(screenshots)
+
     # now iterate over our entries and test if we can add anything to them
-    print('entry that could be added to them')
+    print('entries that could be added to them:')
     for our_entry in our_entries:
         our_name = our_entry['Title']
 
-        # only if contains a keyword starting with "inspired by" and not "tool", "framework" or "library"
+        # only if contains Inspiration and not "tool", "framework" or "library"
         our_keywords = our_entry['Keyword']
-        if not any([x.startswith('inspired by ') for x in our_keywords]):
+        if not 'Inspiration' in our_entry:
             continue
-        if any([x in ['tool', 'library', 'framework'] for x in our_keywords]):
+        if any([x in ['tool', 'library', 'framework', 'game engine'] for x in our_keywords]):
             continue
 
         is_included = False
@@ -538,6 +591,4 @@ if __name__ == "__main__":
 
         if not is_included:
             # that could be added to them
-            print('- [{}]({})'.format(our_name,
-                                      'https://github.com/Trilarion/opensourcegames/blob/master/entries/' + our_entry[
-                                          'file']))
+            print('- [{}]({})'.format(our_name, 'https://github.com/Trilarion/opensourcegames/blob/master/entries/' + our_entry['File']))

@@ -211,4 +211,13 @@ xrick (http://www.bigorno.net/xrick): No open source license/unclear license (se
 Yave (https://github.com/gan74/Yave): General graphics engine, not game centered in any way and experimental
 Yuris Revenge (https://github.com/cookgreen/Yuris-Revenge): Mod to OpenRA
 zedragon (https://github.com/charlierobson/zedragon.git): License not found, Assembly, not sure which OS is supported, no release, not much guidance
-64doom (https://github.com/jnmartin84/64doom.git): Target platform (N64) is not supported platform.
+64doom (https://github.com/jnmartin84/64doom.git): Target platform (N64) is not supported platform
+Civ-Remake (https://github.com/aarnwri/Civ-Remake.git): No real content, no license information
+Babaliba (https://github.com/compilersoftware/babaliba): No real content, no license information
+Citadel (https://github.com/JosiahJack/Citadel): No license information. Relies on Unity.
+Digimon World Project Ark (https://github.com/dwProjectark/Digimon-World-Project-Ark): No license information. Relies on Unity.
+DXBall (https://github.com/nomanHasan/DXBall.git): No license information. Very early development. Abandoned for a long time.
+F-Zero Clone (https://github.com/chipbell4/F-Zero-Clone): No license information. Very early development. Abandoned for a long time.
+Escalade (https://github.com/mdr/escalade): No license information. Very early development. Abandoned for a long time.
+Bermuda Syndrome (https://github.com/cyxx/bermuda): No license information. Author has no interest in open source licensing (personal contact). Since its a decompilation, it may also be illegal.
+ccleste (https://github.com/lemon32767/ccleste): No open source license. Author has not interest in open source licensing (https://github.com/lemon32767/ccleste/issues/11). Copied from someone else without license there either.

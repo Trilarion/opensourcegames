@@ -133,3 +133,7 @@ https://forums.tigsource.com/index.php?topic=15906.0
 https://www.androidauthority.com/best-open-source-apps-for-android-861665/
 https://www.nexusmods.com/games (if one can filter by open source)
 https://www.networkworld.com/article/2222642/the-death-of-an-html5-game-breeds-an-open-source-project.html
+https://github.com/actsl/kiss_sdl
+https://github.com/MrFrenik/gunslinger
+https://github.com/TheBoneJarmer/TiledCS
+http://www.linux-games.com/castle-combat/

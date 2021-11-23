@@ -17,8 +17,9 @@ if __name__ == "__main__":
             continue
         if not file.endswith('.jpg'):
             print('Screenshot with unexpected extension: {}'.format(file))
+            continue
         # read with pillow and get width and height
-        with Image.open(path)as im:
+        with Image.open(path) as im:
             sz = [im.width, im.height]
             if sz[1] != HEIGHT:
                 print('Screenshot with unexpected height: {} {}'.format(file, sz[1]))

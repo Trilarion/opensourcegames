@@ -27,6 +27,7 @@ Sorts the entries in the contents files of each sub folder alphabetically.
 # TODO consistency: content commercial and not commercial assets license
 # TODO consistency: java as language but build system not gradle
 # TODO consistency: c/c++ as language but build system not cmake
+# TODO consistency: entry without screenshot
 
 import os
 import re

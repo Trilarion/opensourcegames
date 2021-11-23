@@ -3993,6 +3993,14 @@
    "?"
   ],
   [
+   "<a href=\"games/C.html#chariot\" class=\"has-text-weight-semibold\">Chariot</a> <a href=\"https://github.com/ChariotEngine/Chariot\"><i class=\"icon-new-tab\"></i></a>",
+   "beta, inactive since 218",
+   "remake, real-time, strategy",
+   "-",
+   "Rust",
+   "MIT"
+  ],
+  [
    "<a href=\"games/C.html#chess3d\" class=\"has-text-weight-semibold\">Chess3D</a> <a href=\"http://yanngranjon.com/static/games/chess3D/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2016",
    "board, strategy, 3D",
@@ -4089,6 +4097,14 @@
    "AGPL-3.0"
   ],
   [
+   "<a href=\"games/C.html#civ2-clone\" class=\"has-text-weight-semibold\">Civ2-clone</a> <a href=\"https://github.com/axx0/Civ2-clone\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "remake, strategy, turn-based",
+   "-",
+   "C#",
+   "GPL-3.0"
+  ],
+  [
    "<a href=\"games/C.html#civil\" class=\"has-text-weight-semibold\">Civil</a> <a href=\"http://civil.sourceforge.net/\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2003",
    "strategy, turn-based",
@@ -4183,6 +4199,14 @@
    "-",
    "C++",
    "GPL-2.0"
+  ],
+  [
+   "<a href=\"games/C.html#coloris\" class=\"has-text-weight-semibold\">Coloris</a> <a href=\"https://github.com/DanijelAskov/coloris\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2020",
+   "clone, puzzle",
+   "-",
+   "Java",
+   "GPL-3.0"
   ],
   [
    "<a href=\"games/C.html#colossal_cave_adventure\" class=\"has-text-weight-semibold\">Colossal Cave Adventure</a> <a href=\"http://rickadams.org/adventure/\"><i class=\"icon-new-tab\"></i></a>",

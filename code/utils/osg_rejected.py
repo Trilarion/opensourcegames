@@ -2,7 +2,6 @@
 Handling of rejected file information.
 """
 
-import os
 import re
 from utils import constants as c, utils as u
 
@@ -11,11 +10,11 @@ matcher = re.compile(r'(.*)? \((.*)?\): (.*)')  # general structure: name (link,
 
 def read_rejected_file():
     """
-
-    :return:
+    Read list of rejected games informations.
+    Uses very simple parsing.
+    :return: List of dictionaries with keys: Title, URLs, Description
     """
-    rejected_file = os.path.join(c.root_path, 'code', 'rejected.txt')
-    text = u.read_text(rejected_file)
+    text = u.read_text(c.rejected_file)
     rejected = []
     for line in text.split('\n'):
         # print(line)
@@ -30,15 +29,15 @@ def read_rejected_file():
 
 def write_rejected_file(rejected):
     """
-
-    :param rejected:
+    Write list of rejected entries to file.
+    Sorts by title.
+    :param rejected: List of dictionaries with keys: Title, URLs, Descriotn
     """
     # sort by name
-    rejected.sort(key=lambda x: str.casefold(x[0]))
+    rejected.sort(key=lambda x: str.casefold(x['Title']))
     # expand single items
-    rejected = ['{} ({}): {}'.format(item[0], ', '.join(item[1]), item[2]) for item in rejected]
+    rejected = ['{} ({}): {}'.format(item['Title'], ', '.join(item['URLs']), item['Description']) for item in rejected]
     # join with newlines
     rejected = '\n'.join(rejected)
     # write to file
-    rejected_file = os.path.join(c.root_path, 'code', 'rejected.txt')
-    u.write_text(rejected_file, rejected)
+    u.write_text(c.rejected_file, rejected)

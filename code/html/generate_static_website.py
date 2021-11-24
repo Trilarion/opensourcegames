@@ -14,7 +14,6 @@ Sitemap is not needed, only for large projects with lots of JavaScript und many 
 # TODO tab: new filter tab (my top 100) with games I really like (mature and I tried them and there is a download for each of them) and some categories with explanation why and possible link to a review on the blog (like evil cult), still need to to that
 
 # TODO table: state, os, license smaller
-# TODO table: search window width larger (asked at the Github repo of the simple datatable - no answer so far, could not find easily in code)
 
 # TODO categories: put more explanations on the category pages and the categories (number and short sentences)
 # TODO categories: use moon year as shortcut for inactive, only make an alt tag for the moon (inactive since)
@@ -700,21 +699,20 @@ def create_keyword_tag(keyword):
 
 def create_state_texts(states):
     """
-
+    State texts for level items on the right
     :param states:
     :return:
     """
-    texts = []
     if 'mature' in states:
-        texts.append(make_text('mature', 'has-text-weight-bold'))
+        state = make_text('mature', 'has-text-weight-bold')
     else:
-        texts.append(make_text('beta'))
+        state = make_text('beta')
     inactive = [x for x in states if x.startswith('inactive since')]
     if inactive:
-        texts.append([make_text(inactive[0], ''), make_icon('brightness_3')])
+        activity = [make_icon('brightness_3'), make_text(inactive[0], '')]
     else:
-        texts.append([make_text('active', 'has-text-weight-bold'), make_icon('sun')])
-    return texts
+        activity = [make_icon('sun'), make_text('active', 'has-text-weight-bold')]
+    return [state, activity]
 
 
 def convert_entries(entries, inspirations, developers):

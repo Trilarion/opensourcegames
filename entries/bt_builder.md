@@ -7,7 +7,7 @@
 - Code repository: https://github.com/dulsi/btbuilder.git (@created 2012, @stars 29, @forks 4)
 - Code language: C, C++
 - Code license: GPL-3.0
-- Developer: dulsi
+- Developer: Dennis Payne
 
 Does it require original content?
 

@@ -141,3 +141,19 @@ https://github.com/actsl/kiss_sdl
 https://github.com/MrFrenik/gunslinger
 https://github.com/TheBoneJarmer/TiledCS
 http://www.linux-games.com/castle-combat/
+https://github.com/Kavex/GameDev-Resources
+https://github.com/kripken/BananaBread
+https://github.com/cfoust/sour
+https://github.com/moddio/taro
+https://github.com/increpare/PuzzleScript
+https://github.com/platzhersh/pacman-canvas
+https://github.com/kripken/BananaBread
+https://github.com/halftheopposite/TOSIOS
+https://github.com/Relintai/broken_seals
+https://github.com/excaliburjs/Excalibur
+https://github.com/MattSurabian/DuckHunt-JS
+https://github.com/godotengine/tps-demo
+https://github.com/ClarkThyLord/Voxel-Core
+Pinball Disk Room
+Seahorse Adventures
+AlchemyQuest

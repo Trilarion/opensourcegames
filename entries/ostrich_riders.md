@@ -7,7 +7,7 @@
 - Code repository: https://github.com/dulsi/ostrichriders.git (@created 2016, @stars 7, @forks 2)
 - Code language: C++
 - Code license: GPL-3.0
-- Developer: dulsi, Rémi Verschelde
+- Developer: Dennis Payne, Rémi Verschelde
 
 ## Building
 

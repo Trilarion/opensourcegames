@@ -14533,9 +14533,10 @@
 - Games: S.C.O.U.R.G.E.
 - Contact: lordtoran@SF
 
-## Dennis Payne [1]
+## Dennis Payne [4]
 
-- Games: Mojotron: Robot Wars
+- Games: Mojotron: Robot Wars, Bt Builder, Ostrich Riders, Tuxemon
+- Contact: dulsi@GH, dulsi@GL
 
 ## Dennis Schridde [2]
 
@@ -16014,11 +16015,6 @@
 
 - Games: UFO: Alien Invasion
 - Contact: aduke1@SF
-
-## dulsi [3]
-
-- Games: Bt Builder, Ostrich Riders, Tuxemon
-- Contact: dulsi@GH
 
 ## Dumitru Stama [1]
 

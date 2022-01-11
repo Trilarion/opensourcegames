@@ -3,14 +3,14 @@
 - Home: https://manaplus.org/
 - State: mature
 - Platform: Windows, Linux, macOS
-- Keyword: role playing, 2D, multiplayer online + massive
-- Code repository: https://gitlab.com/evol/evol-all.git (@created 2015, @stars 9, @forks 8)
-- Code language: C, Script
+- Keyword: framework, role playing, 2D, multiplayer online + massive
+- Code repository: https://gitlab.com/manaplus/manaplus.git (@created 2015, @stars 28, @forks 15)
+- Code language: C++
 - Code license: GPL-3.0
-- Code dependency: Mana source engine
+- Code dependency: SDL, libxml, libcurl, libpng, zlib
 
-Is this the client? Where is the server?
+Client-only, currently supports supports Evol2, Hercules and tmwAthena servers.
 
 ## Building
 
-
+- Build system: CMake

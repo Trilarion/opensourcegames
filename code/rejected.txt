@@ -1,4 +1,5 @@
 1000 AD (https://sourceforge.net/projects/ad1000/, http://game.1000ad.net/): No license information
+64doom (https://github.com/jnmartin84/64doom.git): Target platform (N64) is not supported platform
 8 Kingdoms (https://sourceforge.net/projects/kralovstvi/, https://svn.code.sf.net/p/kralovstvi/code/): No license found
 Adventure Game Biege (https://sourceforge.net/projects/biege/): No license information next to source code, no contact possibility (https://github.com/Trilarion/opensourcegames/issues/61)
 Aeron (https://sourceforge.net/projects/aeron/, https://svn.code.sf.net/p/aeron/code/): Very early development
@@ -14,11 +15,13 @@ Arena of Honour (https://sourceforge.net/projects/aoh/): No clear license with t
 Arkhart (http://gna.org/projects/arkhart/, http://arkhart.nekeme.net/): Sources lost (gna.org)
 Arthur's Knights (http://ainenn.org/KingArthur/, https://sourceforge.net/projects/king-arthur/): Unclear license, author could not be contacted
 Atral Clades (https://sourceforge.net/projects/astralclades/, https://svn.code.sf.net/p/astralclades/code/): No clear license information
+Babaliba (https://github.com/compilersoftware/babaliba): No real content, no license information
 Balazar III (https://web.archive.org/web/20180521213818/http://www.lesfleursdunormal.fr/static/informatique/old/balazar_iii/index_en.html, http://gna.org/svn/?group=balazar): Early development, sources lost (gna.org) - a pity, was fine otherwise
 Balder3D (): Very early development, Balder2D instead
 Barbie Seahorse Adventures (http://www.imitationpickles.org/barbie/, https://pyweek.org/e/toba4/): Source is all rights reserved (source in svn has license allegedly, but it lost)
 BattleChess (https://sourceforge.net/projects/battlechess/): No source code found
 Begin2 (https://sourceforge.net/projects/begin2/, https://svn.code.sf.net/p/begin2/code/): No source available
+Bermuda Syndrome (https://github.com/cyxx/bermuda): No license information. Author has no interest in open source licensing (personal contact). Since its a decompilation, it may also be illegal.
 Berserk (https://github.com/EgorOrachyov/Berserk): No license information found
 biju-game (https://github.com/fdfragoso/biju-game, http://crocidb.com/labs/biju-game/, https://github.com/CrociDB/biju-game): Very early development, No license added
 BlockOut II for Playstation Vita (https://github.com/bomblik/BlockOut_II_PSVITA): Does not target supported OS.
@@ -26,7 +29,10 @@ Brickshooter (http://bilious.homelinux.org/~paxed/brickshooter/): Homepage offli
 Bweakfwu (https://github.com/plaimi/bweakfwu, https://secure.plaimi.net/games/bweakfwu): Very early development stage, abandoned
 BYOND (http://www.byond.com/, https://web.archive.org/web/20200223231337/http://www.byond.com/download/): Not open source (also DreamMaker, DreamSeeker). Maybe even games with DM script might be difficult to set up. Website of offline. Discontinued?
 Camelia Girls (https://web.archive.org/web/20140523011334/http://pigux.com:80/cameliagirls/): Sources not available
+ccleste (https://github.com/lemon32767/ccleste): No open source license. Author has not interest in open source licensing (https://github.com/lemon32767/ccleste/issues/11). Copied from someone else without license there either.
 Cheese Boys (http://sourceforge.net/projects/cheeseboys/, http://cheeseboys.keul.it/, https://github.com/keul/Cheese-Boys, http://www.pygame.org/project-Cheese+Boys-692-.html): Very early development, Abandoned, License unclear
+Citadel (https://github.com/JosiahJack/Citadel): No license information. Relies on Unity.
+Civ-Remake (https://github.com/aarnwri/Civ-Remake.git): No real content, no license information
 Clippers (http://sourceforge.net/projects/clippers/): No license attached to source code (will contact)
 coab (https://github.com/simeonpilgrim/coab, http://code.google.com/p/coab/): No license information found. Tried to contact the author. See issues on Github.
 Codewars (http://sourceforge.net/projects/codewars): Very early development phase (especially client)
@@ -40,8 +46,10 @@ dart-rpg (https://github.com/brad811/dart-rpg): No license information found
 Desktop Adventures Engine for ScummVM (https://github.com/digitall/scummvm-deskadv.git): GPL-2.0 but early development and inactive since long time
 DeuterosX (https://sourceforge.net/projects/deuterosx/): No license information found, no contact with the author (https://github.com/Trilarion/opensourcegames/issues/25), long abandoned
 Digger (https://github.com/lutzroeder/digger): No license information
+Digimon World Project Ark (https://github.com/dwProjectark/Digimon-World-Project-Ark): No license information. Relies on Unity.
 DQM (http://idusale.tk): Homepage redirects to unrelated site
 Drop Shock (http://www.tinywarz.com/index.php, https://sourceforge.net/projects/dropshock/, https://git.code.sf.net/p/dropshock/code): No license found
+DXBall (https://github.com/nomanHasan/DXBall.git): No license information. Very early development. Abandoned for a long time.
 EarthShakerDS (http://simianzombie.com/posts/2011/05/10/earth-shaker-ds-released, https://github.com/ant512/EarthShakerDS.git): Target only Nintendo DS as hardware platform
 EconLegacy (https://sourceforge.net/projects/econlegacy/): Very early development
 Eleconics (https://sourceforge.net/projects/eleconics/): No license found
@@ -49,8 +57,10 @@ Element Games Engine (https://github.com/fredwen2008/Element-Games-Engine): No l
 EmMines (http://eaglemode.sourceforge.net/): Part of a too large application (eaglemode). Could not access Source code. Maybe later.
 Entombed! (http://www.newbreedsoftware.com/entombed/, ftp://ftp.tuxpaint.org/unix/x/entombed/entombed-2007.07.04.tar.gz): Game very small
 Equestria at War mod (https://github.com/EaW-Team/equestria_dev): Mod for Equestria at War
+Escalade (https://github.com/mdr/escalade): No license information. Very early development. Abandoned for a long time.
 Eskimo-run (https://sourceforge.net/projects/eskimo-run): Very early development. Inactive for many years.
 EXILE (http://forums.datarealms.com/viewtopic.php?f=82&t=19266, https://github.com/Geti/EXILE.git): Early development stage
+F-Zero Clone (https://github.com/chipbell4/F-Zero-Clone): No license information. Very early development. Abandoned for a long time.
 Farlands (https://github.com/D00Med/farlands): subgame/mod for Minetest
 Feuerkraft (http://www.nongnu.org/feuerkraft, http://savannah.nongnu.org/projects/feuerkraft/): Very early development. Inactive since a long time.
 Fight or Perish (http://www.newbreedsoftware.com/fop/): Very early development. Inactive since a long time.
@@ -211,13 +221,3 @@ xrick (http://www.bigorno.net/xrick): No open source license/unclear license (se
 Yave (https://github.com/gan74/Yave): General graphics engine, not game centered in any way and experimental
 Yuris Revenge (https://github.com/cookgreen/Yuris-Revenge): Mod to OpenRA
 zedragon (https://github.com/charlierobson/zedragon.git): License not found, Assembly, not sure which OS is supported, no release, not much guidance
-64doom (https://github.com/jnmartin84/64doom.git): Target platform (N64) is not supported platform
-Civ-Remake (https://github.com/aarnwri/Civ-Remake.git): No real content, no license information
-Babaliba (https://github.com/compilersoftware/babaliba): No real content, no license information
-Citadel (https://github.com/JosiahJack/Citadel): No license information. Relies on Unity.
-Digimon World Project Ark (https://github.com/dwProjectark/Digimon-World-Project-Ark): No license information. Relies on Unity.
-DXBall (https://github.com/nomanHasan/DXBall.git): No license information. Very early development. Abandoned for a long time.
-F-Zero Clone (https://github.com/chipbell4/F-Zero-Clone): No license information. Very early development. Abandoned for a long time.
-Escalade (https://github.com/mdr/escalade): No license information. Very early development. Abandoned for a long time.
-Bermuda Syndrome (https://github.com/cyxx/bermuda): No license information. Author has no interest in open source licensing (personal contact). Since its a decompilation, it may also be illegal.
-ccleste (https://github.com/lemon32767/ccleste): No open source license. Author has not interest in open source licensing (https://github.com/lemon32767/ccleste/issues/11). Copied from someone else without license there either.

@@ -216,8 +216,8 @@ general_code_dependencies_without_entry = {'OpenGL': 'https://www.opengl.org/',
                                    'tkinter': 'https://docs.python.org/3/library/tk.html',
                                    'Boost': 'https://www.boost.org/'}
 
-# they are too abundant and quite general
-ignored_code_dependencies = ('libogg', 'libvorbis', 'OpenAL', 'libpng', 'libfreetype')
+# they are too abundant and quite general (and we should remove them if they occur)
+ignored_code_dependencies = ('OpenAL', 'libcurl', 'libfreetype', 'libogg', 'libpng', 'libvorbis', 'libxml', 'zlib')
 
 # build system urls
 build_system_urls = {

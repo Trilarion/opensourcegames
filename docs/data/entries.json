@@ -3995,7 +3995,7 @@
   [
    "<a href=\"games/C.html#chariot\" class=\"has-text-weight-semibold\">Chariot</a> <a href=\"https://github.com/ChariotEngine/Chariot\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 218",
-   "remake, real-time, strategy",
+   "remake, strategy, real-time",
    "-",
    "Rust",
    "MIT"
@@ -4203,7 +4203,7 @@
   [
    "<a href=\"games/C.html#coloris\" class=\"has-text-weight-semibold\">Coloris</a> <a href=\"https://github.com/DanijelAskov/coloris\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2020",
-   "clone, puzzle",
+   "puzzle, clone",
    "-",
    "Java",
    "GPL-3.0"
@@ -7649,6 +7649,14 @@
    "MIT"
   ],
   [
+   "<a href=\"games/L.html#lpairs\" class=\"has-text-weight-semibold\">LPairs</a> <a href=\"https://lgames.sourceforge.io/LPairs/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2021",
+   "puzzle",
+   "Windows, Linux",
+   "C++",
+   "GPL-3.0"
+  ],
+  [
    "<a href=\"games/L.html#ltris\" class=\"has-text-weight-semibold\">LTris</a> <a href=\"http://lgames.sourceforge.net/LTris/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2013",
    "puzzle, clone",
@@ -7748,8 +7756,8 @@
    "<a href=\"games/M.html#manaplus\" class=\"has-text-weight-semibold\">ManaPlus</a> <a href=\"https://manaplus.org/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "role playing, 2D",
-   "Windows, Linux, macOS",
-   "C, Script",
+   "Windows, Linux, macOS, Android",
+   "C++",
    "GPL-3.0"
   ],
   [
@@ -8207,6 +8215,14 @@
    "Web",
    "JavaScript",
    "MIT"
+  ],
+  [
+   "<a href=\"games/M.html#moubootaur_legends\" class=\"has-text-weight-semibold\">Moubootaur Legends</a> <a href=\"https://moubootaurlegends.org/\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "role playing, 2D",
+   "Windows, Linux",
+   "C, C++, Script",
+   "GPL-3.0"
   ],
   [
    "<a href=\"games/M.html#movbizz\" class=\"has-text-weight-semibold\">movbizz</a> <a href=\"https://web.archive.org/web/20160504225838/http://movbizz.sebbmeyer.de/\"><i class=\"icon-new-tab\"></i></a>",
@@ -11892,8 +11908,8 @@
    "<a href=\"games/T.html#the_mana_world\" class=\"has-text-weight-semibold\">The Mana World</a> <a href=\"https://www.themanaworld.org/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "role playing, 2D",
-   "Web",
-   "PHP, C++",
+   "Windows, Linux, macOS, Android, Web",
+   "C++, Script",
    "GPL-2.0"
   ],
   [

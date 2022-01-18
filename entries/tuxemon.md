@@ -10,7 +10,7 @@
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependency: neteria, Pillow, pygame, PyTMX
-- Developer: Adam Chevalier, Andrzej Bylicki, boredom101, Carlos Ramos Carreño, Charlie Murphy, chiefexb, Clonewayx, David, Derek J. Clark, dtdannen, Dennis Payne, freshreplicant, Houston Hare, Hugop, hyperdriveguy, IBPX, Keri Zane Volans, Kurt Stine, Leif Theden, luckymouse0, MasterOChaos, Michael Moroni, Mircea Kitsune, presstabstart, SandytheLizard, Sanglorian, superman2k5, tamashihoshi, Tom Elssjö, Tome, Valentin Chaboche, vXtreniusX, "Weblate (bot)", William Edwards, Yair Morgenstern, zapashcanon, ZhongQian TiaoGong
+- Developer: Adam Chevalier, Andrzej Bylicki, boredom101, Carlos Ramos Carreño, Charlie Murphy, chiefexb, Clonewayx, David, Dennis Payne, Derek J. Clark, dtdannen, freshreplicant, Houston Hare, Hugop, hyperdriveguy, IBPX, Keri Zane Volans, Kurt Stine, Leif Theden, luckymouse0, MasterOChaos, Michael Moroni, Mircea Kitsune, presstabstart, SandytheLizard, Sanglorian, superman2k5, tamashihoshi, Tom Elssjö, Tome, Valentin Chaboche, vXtreniusX, "Weblate (bot)", William Edwards, Yair Morgenstern, zapashcanon, ZhongQian TiaoGong
 
 Turn-based monster fighting RPG.
 

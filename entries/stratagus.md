@@ -1,6 +1,6 @@
 # Stratagus
 
-- Home: https://stratagus.com/stratagus.html
+- Home: https://stratagus.com/stratagus.html, https://sourceforge.net/projects/stratagus/ (@former)
 - State: mature
 - Platform: Windows, Linux, macOS
 - Keyword: game engine, strategy, real-time

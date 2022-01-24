@@ -151,3 +151,21 @@ Pinball Disk Room
 Seahorse Adventures
 https://gitlab.com/evol (planned merge of https://evolonline.org/ into THe Mana World rEvolt project)
 https://gitlab.com/themanaworld/evolved/ (port of Evol Online to the new engine of The Mana World)
+https://github.com/moddio/taro
+https://github.com/hugoam/two
+https://github.com/Areso/1255-burgomaster
+https://github.com/kripken/BananaBread
+https://github.com/amzeratul/halley
+https://github.com/gurkenlabs/litiengine
+https://github.com/jobtalle/Koi
+https://github.com/ct-js/ct-js
+https://github.com/kripken/BananaBread
+https://github.com/damian-pastorini/reldens
+https://github.com/ondras/rot.js
+https://github.com/damian-pastorini/reldens
+https://github.com/untoldengine/UntoldEngine
+https://github.com/shinyquagsire23/OpenJKDF2
+https://github.com/GDQuest/godot-steering-ai-framework
+https://github.com/moddio/taro
+https://github.com/shinyquagsire23/OpenJKDF2
+https://github.com/ct-js/ct-js

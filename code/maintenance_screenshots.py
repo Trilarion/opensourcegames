@@ -9,7 +9,7 @@ HEIGHT = 128
 
 if __name__ == "__main__":
 
-    # read available screenhots (and get widths and heights)
+    # read available screenshots (and get widths and heights)
     files = {}
     for file in os.listdir(c.screenshots_path):
         path = os.path.join(c.screenshots_path, file)

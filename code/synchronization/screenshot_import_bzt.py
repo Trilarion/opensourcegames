@@ -1,27 +1,6 @@
 """
 Import of the screenshots by bzt in https://forum.freegamedev.net/viewtopic.php?f=20&t=12175
 
-work on atrinik
-HTTPSConnectionPool(host='www.atrinik.org', port=443): Max retries exceeded with url: /index4d0c.png?action=gallery;sa=viewpic;id=38 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1131)')))
-
-
-work on batrachians
-HTTPSConnectionPool(host='perso.b2b2c.ca', port=443): Max retries exceeded with url: /~sarrazip/dev/images/batrachians-1.png (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1131)')))
-
-
-work on burgerspace
-HTTPSConnectionPool(host='perso.b2b2c.ca', port=443): Max retries exceeded with url: /~sarrazip/dev/images/burgerspace-1.png (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1131)')))
-
-
-work on carnage3d
-C:\Users\Jaggy\miniconda3\envs\py38_generic\lib\site-packages\PIL\Image.py:975: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
-  warnings.warn(
-
-work on decker
-HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=5)
-
-work on gnome_hearts
-HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20160314002856im_/http://www.jejik.com/images/hearts/hearts_medium.png (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001CC12F414F0>, 'Connection to web.archive.org timed out. (connect timeout=5)'))
 """
 
 # TODO do not add if already 3, but print warning instead

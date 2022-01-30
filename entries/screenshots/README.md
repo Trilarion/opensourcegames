@@ -260,6 +260,10 @@ from running the game or from youtube play videos.
 
 01 157 128 https://wiki.gnome.org/Apps/Atomix?action=AttachFile&do=get&target=atomix-screenshot.png
 
+# atrinik
+
+01 162 128 https://www.atrinik.org/index4d0c.png
+
 # attal_lords_of_doom
 
 01 171 128 !https://a.fsdn.com/con/app/proj/attal/screenshots/55969.jpg/245/183/1
@@ -312,6 +316,10 @@ from running the game or from youtube play videos.
 # batalla_naval
 
 01 111 128 http://batnav.sourceforge.net/shots/grab-gbnclient.jpeg
+
+# batrachians
+
+01 170 128 !https://perso.b2b2c.ca/~sarrazip/dev/images/batrachians-1.png
 
 # battery
 
@@ -521,6 +529,10 @@ from running the game or from youtube play videos.
 # buggygame
 
 01 163 128 !https://web.archive.org/web/20210111175350im_/https://fydo.net/wp-content/uploads/2007/08/buggygame-1.thumbnail.jpg
+
+# burgerspace
+
+01 165 128 !https://perso.b2b2c.ca/~sarrazip/dev/images/burgerspace-1.png
 
 # bygfoot
 
@@ -909,6 +921,10 @@ from running the game or from youtube play videos.
 # ddracenetwork
 
 01 204 128 https://ddnet.tw/Teetrader.png
+
+# decker
+
+01 171 128 https://web.archive.org/web/20131227230135im_/http://www10.caro.net/dsi/decker/matrix.jpg
 
 # defendguin
 
@@ -1680,6 +1696,10 @@ from running the game or from youtube play videos.
 # gnome_chess
 
 01 197 128 https://people.gnome.org/~mcatanzaro/gnome-chess.png
+
+# gnome_hearts
+
+01 167 128 https://web.archive.org/web/20160314002856im_/http://www.jejik.com/images/hearts/hearts_medium.png
 
 # gnu_freedink
 

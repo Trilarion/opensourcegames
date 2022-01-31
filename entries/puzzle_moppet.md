@@ -1,16 +1,16 @@
 # Puzzle Moppet
 
-- Home: https://garnetgames.com/puzzlemoppet/
+- Home: https://github.com/karjonas/puzzle-moppet
 - Inspiration: Sokoban
-- State: mature, inactive since 2015
+- State: mature
 - Platform: Windows, Linux, macOS
 - Keyword: puzzle, open content
-- Code repository: https://bitbucket.org/Knitter/puzzlemoppet.git
+- Code repository: https://github.com/karjonas/puzzle-moppet
 - Code language: C++
 - Code license: WTFPL
-- Code dependency: Irrlicht engine
+- Code dependency: Irrlicht engine, ODE, OpenAL
 - Assets license: CC-BY-SA-3.0, GPL-3, WTFPL
-- Developer: Sérgio Lopes
+- Developer: Jonas Karlsson, KIAaze, Sérgio Lopes
 
 ## Building
 

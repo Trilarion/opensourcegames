@@ -2582,6 +2582,10 @@ from running the game or from youtube play videos.
 01 210 128 http://pixeldungeon.watabou.ru/screens/level_up.png
 02 210 128 http://pixeldungeon.watabou.ru/screens/shop.png
 
+# pixel_wheels
+
+01 228 128 https://github.com/agateau/pixelwheels/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4-gun.png
+
 # pizza_business
 
 01 165 128 http://pizza-business.sourceforge.net/gtk1.png
@@ -2624,6 +2628,10 @@ from running the game or from youtube play videos.
 # proxx
 
 01 227 128 !https://user-images.githubusercontent.com/234957/57080494-8caff680-6cea-11e9-8477-54ea0e1670e2.png
+
+# puzzle_moppet
+
+01 346 128 https://github.com/karjonas/Puzzle-Moppet/raw/master/banner.png
 
 # pybreak360
 

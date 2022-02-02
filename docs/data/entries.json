@@ -1665,14 +1665,6 @@
    "GPL-2.0"
   ],
   [
-   "<a href=\"frameworks/game engine.html#pixel_wheels\" class=\"has-text-weight-semibold\">Pixel Wheels</a> <a href=\"https://agateau.com/projects/pixelwheels/\"><i class=\"icon-new-tab\"></i></a>",
-   "beta",
-   "game engine, 2D",
-   "Windows, Linux, macOS, Android",
-   "Java",
-   "GPL-3.0"
-  ],
-  [
    "<a href=\"frameworks/game engine.html#pixellight\" class=\"has-text-weight-semibold\">PixelLight</a> <a href=\"https://www.pixellight.org/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2012",
    "game engine, 3D",
@@ -9705,6 +9697,14 @@
    "GPL-3.0"
   ],
   [
+   "<a href=\"games/P.html#pixel_wheels\" class=\"has-text-weight-semibold\">Pixel Wheels</a> <a href=\"https://agateau.com/projects/pixelwheels/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "arcade, 2D",
+   "Windows, Linux, macOS, Android",
+   "Java",
+   "GPL-3.0"
+  ],
+  [
    "<a href=\"games/P.html#pizza_business\" class=\"has-text-weight-semibold\">Pizza Business</a> <a href=\"http://pizza-business.sourceforge.net/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2003",
    "strategy, clone",
@@ -9977,8 +9977,8 @@
    "GPL-3.0"
   ],
   [
-   "<a href=\"games/P.html#puzzle_moppet\" class=\"has-text-weight-semibold\">Puzzle Moppet</a> <a href=\"https://garnetgames.com/puzzlemoppet/\"><i class=\"icon-new-tab\"></i></a>",
-   "mature, inactive since 2015",
+   "<a href=\"games/P.html#puzzle_moppet\" class=\"has-text-weight-semibold\">Puzzle Moppet</a> <a href=\"https://github.com/karjonas/puzzle-moppet\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
    "puzzle",
    "Windows, Linux, macOS",
    "C++",

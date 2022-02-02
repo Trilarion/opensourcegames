@@ -32,6 +32,7 @@ if __name__ == "__main__":
 
     # read overview
     overview = osg.read_screenshots_overview()
+    print('entries with screenshots {}'.format(len(overview)))
 
     # compare both
 

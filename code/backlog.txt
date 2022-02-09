@@ -169,3 +169,6 @@ https://github.com/GDQuest/godot-steering-ai-framework
 https://github.com/moddio/taro
 https://github.com/shinyquagsire23/OpenJKDF2
 https://github.com/ct-js/ct-js
+https://github.com/Grimmys/rpg_tactical_fantasy_game
+https://github.com/Stephane-D/SGDK
+https://github.com/SamVanheer/halflife-updated

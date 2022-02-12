@@ -8,7 +8,7 @@
 - Code repository: https://bitbucket.org/dm_999/powerslideremake.git (git)
 - Code language: C++
 - Code license: MIT
-- Code dependency: OGRE, SFML
+- Code dependency: OGRE, SFML, SimpleINI, JSON++, Lua, OpenAL
 
 ## Building
 

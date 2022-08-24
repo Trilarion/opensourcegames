@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/victords/super-bombinhas/releases
 - Platform: Windows, Linux
-- Keyword: platform, 2D, open content
+- Keyword: platform, 2D, content open
 - Code repository: https://github.com/victords/super-bombinhas.git (@created 2019, @stars 240, @forks 11)
 - Code language: Ruby
 - Code license: GPL-3.0

@@ -3,7 +3,7 @@
 - Home: http://ariel.ucs.unimelb.edu.au/~gjo/
 - Inspiration: Flight Sim Toolkit
 - State: beta, inactive since 2001
-- Keyword: remake, simulation, free content
+- Keyword: remake, simulation, content open
 - Code language: C
 - Code license: GPL-2.0
 - Code dependency: SDL

@@ -4,7 +4,7 @@
 - State: mature, inactive since 2017
 - Play: http://heroinedusk.com/demo/
 - Platform: Web
-- Keyword: role playing, open content
+- Keyword: role playing, content open
 - Code repository: https://github.com/clintbellanger/heroine-dusk.git (@created 2013, @stars 96, @forks 23)
 - Code language: JavaScript
 - Code license: GPL-3.0

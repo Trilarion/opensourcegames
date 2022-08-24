@@ -1395,7 +1395,7 @@
   [
    "<a href=\"frameworks/game engine.html#limonengine\" class=\"has-text-weight-semibold\">LimonEngine</a> <a href=\"https://github.com/enginmanap/limonEngine\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
-   "game engine, 3D, shooter",
+   "game engine, 3D, first-person, shooter",
    "Windows, Linux, macOS",
    "C, C++",
    "LGPL-3.0"
@@ -1407,6 +1407,14 @@
    "Windows, Linux, macOS, Android",
    "Java",
    "GPL-3.0"
+  ],
+  [
+   "<a href=\"frameworks/game engine.html#litiengine\" class=\"has-text-weight-semibold\">LITIENGINE</a> <a href=\"https://litiengine.com/\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "game engine, 2D",
+   "Windows, Linux, macOS",
+   "Java",
+   "MIT"
   ],
   [
    "<a href=\"frameworks/game engine.html#mage-matthias_advanced_game_engine\" class=\"has-text-weight-semibold\">MAGE - Matthias Advanced Game Engine</a> <a href=\"https://github.com/matt77hias/MAGE\"><i class=\"icon-new-tab\"></i></a>",
@@ -5139,7 +5147,7 @@
   [
    "<a href=\"games/E.html#edge\" class=\"has-text-weight-semibold\">EDGE</a> <a href=\"https://github.com/3dfxdev/EDGE\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
-   "remake",
+   "action, remake, shooter",
    "Windows",
    "C++, C",
    "GPL-2.0"
@@ -10499,7 +10507,7 @@
   [
    "<a href=\"games/R.html#rottexpr\" class=\"has-text-weight-semibold\">rottexpr</a> <a href=\"https://github.com/LTCHIPS/rottexpr\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
-   "remake, shooter",
+   "action, remake, shooter",
    "-",
    "C",
    "GPL-2.0"
@@ -13375,6 +13383,14 @@
    "Android",
    "Java",
    "GPL-2.0"
+  ],
+  [
+   "<a href=\"games/Z.html#zeq2_lite\" class=\"has-text-weight-semibold\">ZEQ2 Lite</a> <a href=\"https://zeq2.com/lite/\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "action",
+   "Windows",
+   "Script",
+   "?"
   ],
   [
    "<a href=\"games/Z.html#zero-k\" class=\"has-text-weight-semibold\">Zero-K</a> <a href=\"http://zero-k.info/\"><i class=\"icon-new-tab\"></i></a>",

@@ -1,6 +1,7 @@
 # Pixel Dungeon
 
 - Home: http://pixeldungeon.watabou.ru/
+- Inspiration: Brogue
 - State: mature, inactive since 2015
 - Download: https://f-droid.org//packages/com.watabou.pixeldungeon/
 - Platform: Windows, Linux, macOS, Android

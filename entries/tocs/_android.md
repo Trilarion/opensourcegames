@@ -99,7 +99,7 @@
 - **[PianOli](../pianoli.md)** (Java, GPL-3.0, mature)
 - **[PipePanic](../pipepanic.md)** (Java, JavaScript, MIT, mature, inactive since 2016)
 - **[Pixel Dungeon](../pixel_dungeon.md)** (Java, GPL-3.0, mature, inactive since 2015)
-- **[Pixel Wheels](../pixel_wheels.md)** (Java, GPL-3.0, beta)
+- **[Pixel Wheels](../pixel_wheels.md)** (Java, GPL-3.0, mature)
 - **[Planet Conquest](../planet_conquest.md)** (Java, GPL-3.0, mature, inactive since 2017)
 - **[Planet Rider](../planet_rider.md)** (GDScript, GPL-3.0, mature, inactive since 2015)
 - **[Playir](../playir.md)** (C++, Apache-2.0, mature, inactive since 2014)

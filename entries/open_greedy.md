@@ -3,7 +3,7 @@
 - Home: http://troel.net/opengreedy/
 - Inspiration: Pac-Man
 - State: beta, inactive since 2017
-- Keyword: arcade, clone, free content
+- Keyword: arcade, clone, content open
 - Code repository: https://github.com/atroel/open-greedy.git (@created 2014, @stars 7, @forks 2)
 - Code language: C
 - Code license: GPL-2.0

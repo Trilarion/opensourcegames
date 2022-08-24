@@ -118,7 +118,7 @@
 - **[Primrose](../primrose.md)** (C++, Public domain, mature, inactive since 2009)
 - **[proxx](../proxx.md)** (TypeScript, JavaScript, Apache-2.0, mature)
 - **[Pushover](../pushover.md)** (C++, C, Lua, GPL-3.0, beta, inactive since 2018)
-- **[Puzzle Moppet](../puzzle_moppet.md)** (C++, WTFPL, mature, inactive since 2015)
+- **[Puzzle Moppet](../puzzle_moppet.md)** (C++, WTFPL, mature)
 - **[PyBreak360](../pybreak360.md)** (Python, GPL-3.0, mature, inactive since 2015)
 - **[PyChess](../pychess.md)** (Python, TypeScript, GPL-3.0, mature)
 - **[Python Kye](../python_kye.md)** (Python, GPL-2.0, mature, inactive since 2010)

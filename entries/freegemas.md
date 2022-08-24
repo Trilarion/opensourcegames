@@ -3,7 +3,7 @@
 - Home: https://github.com/JoseTomasTocino/freegemas, https://code.google.com/archive/p/freegemas/
 - Inspiration: Bejeweled
 - State: mature
-- Keyword: puzzle, clone, open content
+- Keyword: puzzle, clone, content open
 - Code repository: https://github.com/JoseTomasTocino/freegemas.git
 - Code language: C++
 - Code license: GPL-2.0

@@ -218,7 +218,7 @@ class EntriesMaintainer:
                 continue
             title = entry['Title']
             if 'space' in title.lower() and not 'space' in entry['Keyword']:
-                print('Entry "{}" has space in name but not as keyword.'.format(name))
+                print('Entry "{}" has "space" in name but not as keyword.'.format(name))
 
         # starts with j + capital letter but not java as language
         for entry in self.entries:

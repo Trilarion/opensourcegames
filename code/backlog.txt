@@ -47,27 +47,38 @@ https://gdevelop-app.com/
 https://github.blog/2014-01-06-github-game-off-ii-winners/
 https://github.blog/2021-05-19-ludum-dare-48-staff-picks/
 https://github.com/actsl/kiss_sdl
+https://github.com/amzeratul/halley
+https://github.com/Areso/1255-burgomaster
 https://github.com/BayatGames/RedRunner
+https://github.com/blue-nebula/base
 https://github.com/carlbirch/BirchEngine
 https://github.com/cfoust/sour
 https://github.com/ClarkThyLord/Voxel-Core
 https://github.com/CodeArtemis/TriggerRally
 https://github.com/codenamecpp/carnage3d#other-gta-12-re-implementations
+https://github.com/ct-js/ct-js
 https://github.com/damian-pastorini/reldens
 https://github.com/design1online/WTF-Adventure
 https://github.com/domeengine/dome
 https://github.com/dtrajko/MoravaEngine
 https://github.com/dulsi (all there)
 https://github.com/excaliburjs/Excalibur
+https://github.com/GDQuest/godot-steering-ai-framework
 https://github.com/gecko0307/dagon
+https://github.com/godot-extended-libraries/godot-realistic-water
 https://github.com/godotengine/tps-demo
 https://github.com/googleforgames/open-match
+https://github.com/grapfx
+https://github.com/Grimmys/rpg_tactical_fantasy_game
 https://github.com/groverburger/g3d
 https://github.com/halftheopposite/TOSIOS
 https://github.com/hiitiger/goverlay
+https://github.com/hugoam/two
 https://github.com/increpare/PuzzleScript
 https://github.com/jarikomppa/soloud
 https://github.com/jmorton06/Lumos
+https://github.com/jobtalle/Koi
+https://github.com/jpaver/opengametools
 https://github.com/Kaetram/Kaetram-Open
 https://github.com/Kavex/GameDev-Resources
 https://github.com/kripken/BananaBread
@@ -78,22 +89,29 @@ https://github.com/michaelday008/AnyRPGCore
 https://github.com/minetest/irrlicht
 https://github.com/moddio/taro
 https://github.com/MrFrenik/gunslinger
+https://github.com/ondras/rot.js
 https://github.com/open-telemetry/opentelemetry-cpp
 https://github.com/QodotPlugin/qodot-plugin
 https://github.com/Razakhel/RaZ
 https://github.com/Relintai/broken_seals
 https://github.com/samdauwe/BabylonCpp
+https://github.com/SamVanheer/halflife-updated
 https://github.com/SasLuca/rayfork
 https://github.com/search?utf8=%E2%9C%93&q=freesynd&type=
 https://github.com/shakiba/planck.js
 https://github.com/ShenMian/Clementine
+https://github.com/shinyquagsire23/OpenJKDF2
 https://github.com/Squalr/Squally
+https://github.com/Stephane-D/SGDK
 https://github.com/tainicom/Aether.Physics2D
 https://github.com/TheBoneJarmer/TiledCS
 https://github.com/tobspr/shapez.io
+https://github.com/untoldengine/UntoldEngine
 https://github.com/videogamepreservation
 https://github.com/yrgo/awesome-educational-games
 https://github.com/Zylann/godot_heightmap_plugin
+https://gitlab.com/evol (planned merge of https://evolonline.org/ into THe Mana World rEvolt project)
+https://gitlab.com/themanaworld/evolved/ (port of Evol Online to the new engine of The Mana World)
 https://libregamewiki.org/Alexei:_Part_IX
 https://libregamewiki.org/CameliaGirls
 https://libregamewiki.org/Childish_Cannoneer
@@ -149,26 +167,3 @@ https://zdoom.org/downloads (gzdoom, lzdoom)
 https://zope.readthedocs.io/en/latest/
 Pinball Disk Room
 Seahorse Adventures
-https://gitlab.com/evol (planned merge of https://evolonline.org/ into THe Mana World rEvolt project)
-https://gitlab.com/themanaworld/evolved/ (port of Evol Online to the new engine of The Mana World)
-https://github.com/moddio/taro
-https://github.com/hugoam/two
-https://github.com/Areso/1255-burgomaster
-https://github.com/kripken/BananaBread
-https://github.com/amzeratul/halley
-https://github.com/gurkenlabs/litiengine
-https://github.com/jobtalle/Koi
-https://github.com/ct-js/ct-js
-https://github.com/kripken/BananaBread
-https://github.com/damian-pastorini/reldens
-https://github.com/ondras/rot.js
-https://github.com/damian-pastorini/reldens
-https://github.com/untoldengine/UntoldEngine
-https://github.com/shinyquagsire23/OpenJKDF2
-https://github.com/GDQuest/godot-steering-ai-framework
-https://github.com/moddio/taro
-https://github.com/shinyquagsire23/OpenJKDF2
-https://github.com/ct-js/ct-js
-https://github.com/Grimmys/rpg_tactical_fantasy_game
-https://github.com/Stephane-D/SGDK
-https://github.com/SamVanheer/halflife-updated

@@ -94,6 +94,7 @@
 - **[Physics Platformer](../physics_platformer.md)** (Java, MIT, beta, inactive since 2019)
 - **[Physics Spacewar](../physics_spacewar.md)** (Java, MIT, beta, inactive since 2019)
 - **[Pillows](../pillows.md)** (Python, GPL-2.0, beta, inactive since 2007)
+- **[Pixel Wheels](../pixel_wheels.md)** (Java, GPL-3.0, mature)
 - **[Planet Rider](../planet_rider.md)** (GDScript, GPL-3.0, mature, inactive since 2015)
 - **[Poland can into Space](../poland_can_into_space.md)** (Java, NPOSL-3.0, mature, inactive since 2018)
 - **[Powermanga](../powermanga.md)** (C, GPL-3.0, beta, inactive since 2015)

@@ -3,7 +3,7 @@
 - Home: https://pangeasoft.net/nano/
 - Inspiration: Nanosaur
 - State: mature
-- Keyword: action, remake, commercial content
+- Keyword: action, remake, content commercial
 - Code repository: https://github.com/jorio/Nanosaur.git
 - Code language: C
 - Code license: CC-BY-NC-SA-4.0

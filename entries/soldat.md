@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://www.soldat.pl/en/downloads/
 - Platform: Windows
-- Keyword: action, 2D, open content, shooter
+- Keyword: action, 2D, content open, shooter
 - Code repository: https://github.com/Soldat/soldat.git (@created 2018, @stars 1275, @forks 69)
 - Code language: C, Pascal
 - Code license: MIT

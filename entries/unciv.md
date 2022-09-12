@@ -4,7 +4,7 @@
 - Inspiration: Civilization V
 - State: mature
 - Download: https://play.google.com/store/apps/details?id=com.unciv.app, https://yairm210.itch.io/unciv, https://f-droid.org/en/packages/com.unciv.app/, https://flathub.org/apps/details/io.github.yairm210.unciv
-- Platform: Windows, Linux, macOS, Android, Raspberry Pi
+- Platform: Windows, Linux, macOS, Android
 - Keyword: remake, strategy, content open, multiplayer online + hotseat, turn-based, 4X, moddable
 - Code repository: https://github.com/yairm210/Unciv.git (@created 2017, @stars 4036, @forks 1018)
 - Code language: Kotlin

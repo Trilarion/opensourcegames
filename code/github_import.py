@@ -78,10 +78,9 @@ def github_import():
     all_developers = osg.read_developers()
     print(' {} developers read'.format(len(all_developers)))
 
-    # all exceptions that happen will be eaten (but will end the execution)
-    try:
-        # loop over each entry
-        for index, file in enumerate(files):
+    # loop over each entry
+    for index, file in enumerate(files):
+        try:
             print(' process {} ({})'.format(file, index))
 
             # read entry
@@ -187,14 +186,14 @@ def github_import():
 
             entry['Code repository'] = code_repositories
             osg.write_entry(entry)
-    except:
-        raise
-    finally:
-        # shorten file list
-        utils.write_text(gh_entries_file, json.dumps(files[index:], indent=1))
+        except:
+            pass # KEep going to other entries
+    
+    # shorten file list
+    utils.write_text(gh_entries_file, json.dumps(files[index:], indent=1))
 
-        osg.write_developers(all_developers)
-        print('developers database updated')
+    osg.write_developers(all_developers)
+    print('developers database updated')
 
 
 def github_starring_synchronization():

@@ -17,5 +17,4 @@ Framework you can use to make 2D games in Lua, mainly targeted towards mobile
 ## Building
 
 - Build system: platform dependant
-- Build instruction: clone repository `git clone --recursive https://github.com/coronalabs/corona.git
-` and follow instructions in `platform/<platform>/README.md`
+- Build instruction: clone repository `git clone --recursive https://github.com/coronalabs/corona.git` and follow instructions in `platform/<platform>/README.md`

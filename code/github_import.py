@@ -9,6 +9,7 @@ Updates for example, the starring information.
 
 import os
 import json
+from random import sample
 from utils import constants as c, utils, osg, osg_parse, osg_github
 
 gh_entries_file = os.path.join(c.code_path, 'github_entries.txt')
@@ -66,9 +67,13 @@ def github_import():
     """
     Import various information from Github repositories (like contributors) or stars for Github repos
     """
-    private_properties = json.loads(utils.read_text(c.private_properties_file))
 
     files = json.loads(utils.read_text(gh_entries_file))
+
+    # Github rate limiting limits us to 1000 queries an hour, so take a random sampling
+    if len(files) > 1000:
+        files = sample(files, 5)
+
 
     all_developers = osg.read_developers()
     print(' {} developers read'.format(len(all_developers)))
@@ -89,8 +94,12 @@ def github_import():
             repos = [x for x in repos if x not in ignored_repos]
             for repo in repos:
                 print('  GH repo {}'.format(repo))
+                token = os.environ["GITHUB_TOKEN"]
+                if not token:
+                    private_properties = json.loads(utils.read_text(c.private_properties_file))
+                    token = private_properties['github-token']
 
-                info = osg_github.retrieve_repo_info(repo, token=private_properties['github-token'])
+                info = osg_github.retrieve_repo_info(repo, token=token)
 
                 new_comments = []
                 # is archived
@@ -230,7 +239,7 @@ def github_starring_synchronization():
 
 if __name__ == "__main__":
     # collect entries (run this only once)
-    # collect_github_entries()
+    collect_github_entries()
 
     # import information from gh
     github_import()

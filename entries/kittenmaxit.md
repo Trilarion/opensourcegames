@@ -6,7 +6,7 @@
 - State: beta
 - Platform: Android
 - Keyword: remake, strategy
-- Code repository: https://github.com/ahmetkasif/kmaxit.git (@created 2015, @stars 9, @forks 1)
+- Code repository: https://github.com/ahmetkasif/kmaxit.git (@created 2015, @stars 10, @forks 1)
 - Code language: Java
 - Code license: MIT
 - Code dependency: libGDX

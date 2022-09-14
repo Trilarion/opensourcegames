@@ -4,7 +4,7 @@
 - State: mature, inactive since 2018
 - Platform: Windows, Linux, macOS
 - Keyword: library
-- Code repository: https://github.com/bitcraft/pyscroll.git (@created 2014, @stars 131, @forks 18)
+- Code repository: https://github.com/bitcraft/pyscroll.git (@created 2014, @stars 150, @forks 21)
 - Code language: Python
 - Code license: LGPL-3.0
 - Code dependency: pygame

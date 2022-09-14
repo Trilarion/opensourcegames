@@ -5,10 +5,10 @@
 - Download: https://f-droid.org//packages/com.serwylo.retrowars/
 - Platform: Android
 - Keyword: arcade, skill
-- Code repository: https://github.com/retrowars/retrowars.git (@created 2021, @stars 23, @forks 3)
+- Code repository: https://github.com/retrowars/retrowars.git (@created 2021, @stars 106, @forks 9)
 - Code language: Kotlin
 - Code license: GPL-3.0
-- Developer: Peter Serwylo
+- Developer: Allan Nordhøy, liimee, Novores, Peter Serwylo, SecularSteve
 
 ## Building
 

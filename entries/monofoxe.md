@@ -5,7 +5,7 @@
 - Download: https://github.com/Martenfur/Monofoxe/releases
 - Platform: Windows
 - Keyword: game engine
-- Code repository: https://github.com/Martenfur/Monofoxe.git (@created 2019, @stars 199, @forks 17)
+- Code repository: https://github.com/Martenfur/Monofoxe.git (@created 2019, @stars 273, @forks 18)
 - Code language: C#
 - Code license: MIT
 - Code dependency: MonoGame

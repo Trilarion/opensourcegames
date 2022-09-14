@@ -5,10 +5,10 @@
 - State: mature
 - Download: https://www.siedler25.org/index.php?com=dynamic&mod=2
 - Keyword: remake, strategy, content original required (Settlers II Gold)
-- Code repository: https://launchpad.net/s25rttr, https://github.com/Return-To-The-Roots/s25client.git @add (@created 2013, @stars 324, @forks 58)
+- Code repository: https://launchpad.net/s25rttr, https://github.com/Return-To-The-Roots/s25client.git @add (@created 2013, @stars 381, @forks 59)
 - Code language: C++
 - Code license: GPL-3.0
-- Developer: Alexander Grund, Flow86, hoffmeistert, jh, Joakim L. Gilje, Johannes Doerfert, JonathanSteinbuch, MarcusSt, Matthias Mailänder, OLiverRttR, Shawn8901, Spike, stefson, Timm Hoffmeister, uqs
+- Developer: Alexander Grund, Flow86, hoffmeistert, jh, Joakim L. Gilje, Johannes Doerfert, JonathanSteinbuch, KaiN, MarcusSt, Matthias Mailänder, OLiverRttR, Shawn8901, Spike, stefson, Timm Hoffmeister, uqs
 
 ## Building
 

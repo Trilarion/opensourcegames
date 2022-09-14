@@ -6,7 +6,7 @@
 - State: mature
 - Download: https://github.com/EXL/NXEngine/releases
 - Keyword: platform, remake, content open
-- Code repository: https://github.com/EXL/NXEngine.git (@created 2014, @stars 92, @forks 26)
+- Code repository: https://github.com/EXL/NXEngine.git (@created 2014, @stars 131, @forks 31)
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependency: SDL

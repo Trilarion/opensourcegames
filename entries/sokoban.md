@@ -7,9 +7,9 @@
 - Download: https://f-droid.org//packages/dev.obfusk.sokobang/, https://f-droid.org//packages/com.mobilepearls.sokoban/
 - Platform: Android, Web
 - Keyword: puzzle, content open
-- Code repository: https://github.com/obfusk/sokobang.git (@created 2014, @stars 4, @forks 0)
+- Code repository: https://github.com/obfusk/sokobang.git (@created 2014, @stars 6, @forks 0)
 - Code language: CoffeeScript
 - Code license: AGPL-3.0
-- Developer: Felix C. Stegerman
+- Developer: FC Stegerman, Felix C. Stegerman
 
 ## Building

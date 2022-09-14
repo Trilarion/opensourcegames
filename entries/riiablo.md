@@ -4,7 +4,7 @@
 - Inspiration: Diablo II
 - State: beta
 - Keyword: remake, content commercial
-- Code repository: https://github.com/collinsmith/riiablo.git (@created 2015, @stars 475, @forks 55)
+- Code repository: https://github.com/collinsmith/riiablo.git (@created 2015, @stars 609, @forks 74)
 - Code language: Java
 - Code license: Apache-2.0
 - Code dependency: libGDX, OpenGL

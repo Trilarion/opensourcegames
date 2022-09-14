@@ -5,7 +5,7 @@
 - Download: https://instead3.syscall.ru/en/#download, https://github.com/instead-hub/instead/releases, https://sourceforge.net/projects/instead/files/, https://f-droid.org/de/packages/com.silentlexx.instead/, https://f-droid.org/de/packages/org.emunix.insteadlauncher/
 - Platform: Windows, Linux, macOS, Android
 - Keyword: adventure, game engine, visual novel, text-based
-- Code repository: https://github.com/instead-hub/instead.git (@created 2014, @stars 172, @forks 34), https://github.com/btimofeev/instead-launcher-android.git @add (@created 2018, @stars 20, @forks 4), https://svn.code.sf.net/p/instead/code (svn old)
+- Code repository: https://github.com/instead-hub/instead.git (@created 2014, @stars 193, @forks 36), https://github.com/btimofeev/instead-launcher-android.git @add (@created 2018, @stars 22, @forks 5), https://svn.code.sf.net/p/instead/code (svn old)
 - Code language: C, Lua, Java
 - Code license: MIT
 - Code dependency: SDL

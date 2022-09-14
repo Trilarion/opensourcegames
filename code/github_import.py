@@ -70,9 +70,9 @@ def github_import():
 
     files = json.loads(utils.read_text(gh_entries_file))
 
-    # Github rate limiting limits us to 1000 queries an hour, so take a random sampling
-    if len(files) > 1000:
-        files = sample(files, 5)
+    # Github rate limiting limits us to 1000 queries an hour, currently let's limit it to 100.
+    if len(files) > 100:
+        files = sample(files, 100)
 
 
     all_developers = osg.read_developers()
@@ -187,7 +187,8 @@ def github_import():
             entry['Code repository'] = code_repositories
             osg.write_entry(entry)
         except:
-            pass # KEep going to other entries
+            print(f"Error processing repo {file}")
+            pass # Keep going to other entries
     
     # shorten file list
     utils.write_text(gh_entries_file, json.dumps(files[index:], indent=1))

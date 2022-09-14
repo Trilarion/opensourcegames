@@ -4,7 +4,7 @@
 - Inspiration: Worms Series
 - State: beta, inactive since 2018
 - Keyword: platform, artillery, clone
-- Code repository: https://github.com/yeKcim/warmux.git (see trunk directory, @created 2016, @stars 104, @forks 14)
+- Code repository: https://github.com/yeKcim/warmux.git (see trunk directory, @created 2016, @stars 112, @forks 14)
 - Code language: C++
 - Code license: GPL-2.0
 - Developer: yeKcim

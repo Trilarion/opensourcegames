@@ -7,11 +7,11 @@
 - Download: https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG/releases
 - Platform: Windows, Linux
 - Keyword: action, game engine, remake, content commercial + original required, first-person, shooter
-- Code repository: https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG.git (@created 2017, @stars 105, @forks 12)
+- Code repository: https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG.git (@created 2017, @stars 140, @forks 16)
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependency: SDL2
-- Developer: Andreas Bergmeier, Biel Bestué de Luna, Codes4Fun, Daniel Gibson, Darren Salt, David Foerster, George Kalampokis, Jonathan Young, Pat Raynor, r-a-sattarov, Radegast, Robert Beckebans, shawn, Tobias Frost, Wintermute 0110, Yamagi
+- Developer: Andreas Bergmeier, Biel Bestué de Luna, Codes4Fun, Daniel Gibson, Darren Salt, David Foerster, George Kalampokis, Jan Šimek, Jonathan Young, Pat Raynor, r-a-sattarov, Radegast, Robert Beckebans, shawn, Tobias Frost, Wintermute 0110, Yamagi
 
 Update of the classic DOOM engine inside DOOM 3 BFG Edition.
 Classic RBDoom 3 BFG is updating the classic DOOM engine inside DOOM 3 BFG Edition

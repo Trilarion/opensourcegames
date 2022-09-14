@@ -4,7 +4,7 @@
 - State: mature
 - Download: https://store.steampowered.com/app/370070/Wyrmsun/
 - Keyword: strategy, real-time
-- Code repository: https://github.com/andrettin/wyrmsun.git (@created 2014, @stars 204, @forks 31), https://github.com/Andrettin/Wyrmgus.git @add (@created 2014, @stars 63, @forks 16)
+- Code repository: https://github.com/andrettin/wyrmsun.git (@created 2014, @stars 234, @forks 34), https://github.com/Andrettin/Wyrmgus.git @add (@created 2014, @stars 72, @forks 19)
 - Code language: Lua, C++
 - Code license: GPL-2.0
 - Code dependency: Modified Stratagus

@@ -5,10 +5,10 @@
 - State: mature
 - Download: https://www.lwjgl.org/download
 - Keyword: framework
-- Code repository: https://github.com/LWJGL/lwjgl3.git (@created 2012, @stars 3392, @forks 502)
+- Code repository: https://github.com/LWJGL/lwjgl3.git (@created 2012, @stars 3914, @forks 557)
 - Code language: Kotlin, C, Java
 - Code license: 3-clause BSD
-- Developer: Brian Matzon, Heiko Brumme, Ioannis Tsakpinis, Kai Burjack, Leon Linhart
+- Developer: Brian Matzon, Heiko Brumme, Ioannis Tsakpinis, Kai Burjack, Leon Linhart, Tim
 
 ## Building
 

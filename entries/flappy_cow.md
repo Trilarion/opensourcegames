@@ -5,7 +5,7 @@
 - State: mature
 - Platform: Android
 - Keyword: remake, skill
-- Code repository: https://github.com/cubei/FlappyCow.git (@created 2014, @stars 258, @forks 191)
+- Code repository: https://github.com/cubei/FlappyCow.git (@created 2014, @stars 270, @forks 195)
 - Code language: Java
 - Code license: MIT
 - Developer: Lars Harmsen, repat

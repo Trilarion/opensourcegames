@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/OpenDUNE/OpenDUNE/releases
 - Keyword: remake, strategy, content original required (Dune 2 game files)
-- Code repository: https://github.com/OpenDUNE/OpenDUNE.git (@created 2012, @stars 1383, @forks 119)
+- Code repository: https://github.com/OpenDUNE/OpenDUNE.git (@created 2012, @stars 1478, @forks 133)
 - Code language: C
 - Code license: GPL-2.0
 - Developer: drnovice, glx22, KO Myung-Hun, Loïc Guilloux, Máximo Castañeda, Olaf van der Spek, Patric Stout, Thomas BERNARD, wangds, Xaroth

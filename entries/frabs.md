@@ -4,7 +4,7 @@
 - Inspiration: Abuse
 - State: mature, inactive since 2016
 - Keyword: action, adventure, content open, side-scrolling
-- Code repository: https://github.com/antrad/Abuse_1996.git (SDL2, @created 2016, @stars 96, @forks 20), https://github.com/Xenoveritas/abuse.git @add (@created 2014, @stars 60, @forks 13), https://github.com/videogamepreservation/abuse.git @add (@archived, @created 2015, @stars 47, @forks 21)
+- Code repository: https://github.com/antrad/Abuse_1996.git (SDL2, @created 2016, @stars 108, @forks 23), https://github.com/Xenoveritas/abuse.git @add (@created 2014, @stars 91, @forks 14), https://github.com/videogamepreservation/abuse.git @add (@archived, @created 2015, @stars 61, @forks 21)
 - Code language: Lisp, C++, C
 - Code license: Public domain
 - Assets license: Public domain

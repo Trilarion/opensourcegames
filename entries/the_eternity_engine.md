@@ -6,7 +6,7 @@
 - Download: https://github.com/team-eternity/eternity/releases
 - Platform: Windows, Linux, macOS
 - Keyword: game engine, remake, "content commercial (?) + original required", first-person, multiplayer LAN, shooter
-- Code repository: https://github.com/team-eternity/eternity.git (@created 2014, @stars 147, @forks 24)
+- Code repository: https://github.com/team-eternity/eternity.git (@created 2014, @stars 175, @forks 33)
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependency: SDL2

@@ -34,6 +34,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          cd code
+          pip install -r requirements.txt
+          cd ..
           python3 code/github_import.py
 
       - name: Push changes

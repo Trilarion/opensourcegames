@@ -6,7 +6,7 @@
 - Code repository: https://git.octaforge.org/OctaForge/OctaCore.git, https://github.com/OctaForge/OF-Engine.git (mirror, @archived, @created 2011, @stars 53, @forks 11)
 - Code language: C++
 - Code license: Custom (NCSA open source license)
-- Developer: Daniel Kolesa, Lee Salzman, plankatron
+- Developer: Daniel Kolesa, Lee Salzman, plankatron, q66
 
 Game engine and a game development platform.
 See also:

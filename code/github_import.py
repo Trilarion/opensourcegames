@@ -9,6 +9,7 @@ Updates for example, the starring information.
 
 import os
 import json
+from random import sample
 from utils import constants as c, utils, osg, osg_parse, osg_github
 
 gh_entries_file = os.path.join(c.code_path, 'github_entries.txt')
@@ -66,17 +67,20 @@ def github_import():
     """
     Import various information from GitHub repositories (like contributors) or stars for GitHub repos
     """
-    private_properties = json.loads(utils.read_text(c.private_properties_file))
 
     files = json.loads(utils.read_text(gh_entries_file))
+
+    # Github rate limiting limits us to 1000 queries an hour, currently let's limit it to 100.
+    if len(files) > 100:
+        files = sample(files, 100)
+
 
     all_developers = osg.read_developers()
     print(' {} developers read'.format(len(all_developers)))
 
-    # all exceptions that happen will be eaten (but will end the execution)
-    try:
-        # loop over each entry
-        for index, file in enumerate(files):
+    # loop over each entry
+    for index, file in enumerate(files):
+        try:
             print(' process {} ({})'.format(file, index))
 
             # read entry
@@ -89,8 +93,12 @@ def github_import():
             repos = [x for x in repos if x not in ignored_repos]
             for repo in repos:
                 print('  GH repo {}'.format(repo))
+                token = os.environ["GITHUB_TOKEN"]
+                if not token:
+                    private_properties = json.loads(utils.read_text(c.private_properties_file))
+                    token = private_properties['github-token']
 
-                info = osg_github.retrieve_repo_info(repo, token=private_properties['github-token'])
+                info = osg_github.retrieve_repo_info(repo, token=token)
                 if info is None:
                     continue
 
@@ -182,14 +190,15 @@ def github_import():
 
             entry['Code repository'] = code_repositories
             osg.write_entry(entry)
-    except:
-        raise
-    finally:
-        # shorten file list
-        utils.write_text(gh_entries_file, json.dumps(files[index:], indent=1))
+        except:
+            print(f"Error processing repo {file}")
+            pass # Keep going to other entries
+    
+    # shorten file list
+    utils.write_text(gh_entries_file, json.dumps(files[index:], indent=1))
 
-        osg.write_developers(all_developers)
-        print('developers database updated')
+    osg.write_developers(all_developers)
+    print('developers database updated')
 
 
 def github_starring_synchronization():
@@ -234,10 +243,10 @@ def github_starring_synchronization():
 
 if __name__ == "__main__":
     # collect entries (run this only once)
-    # collect_github_entries()
+    collect_github_entries()
 
     # import information from gh
     github_import()
 
-    # which GitHub repos have I not yet starred
+    # which github repos haven't I starred
     # github_starring_synchronization()

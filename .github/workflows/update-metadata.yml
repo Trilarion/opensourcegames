@@ -9,13 +9,22 @@ on:
     branches: 
   pull_request:
     branches: 
+    
+  #schedule:
+  #  - cron: "13 * * * *"    
+  
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:  
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   parse-metadata:
+    # The type of runner that the job will run on  
     runs-on: ubuntu-latest
 
+    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it    
       - uses: actions/checkout@v3
 
       - uses: actions/setup-python@v4
@@ -35,6 +44,20 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git commit -m "Update statistics" -a
+          
+	  # Runs a set of commands using the runners shell
+      - name: Update files
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd code
+          pip install -r requirements.txt
+          cd ..
+          python3 code/github_import.py
+
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -m "Update metadata" -a          
 
       - name: Push changes
         uses: ad-m/github-push-action@master

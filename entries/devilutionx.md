@@ -5,10 +5,10 @@
 - State: mature
 - Download: https://github.com/diasurgical/devilutionX/releases
 - Keyword: action, remake, "content commercial + original required (Diablo 1)", engine recreation
-- Code repository: https://github.com/diasurgical/devilutionX.git (@created 2018, @stars 4731, @forks 481)
+- Code repository: https://github.com/diasurgical/devilutionX.git (@created 2018, @stars 6022, @forks 619)
 - Code language: C, C++
 - Code license: Unlicense
-- Developer: 4aron5un, AAS, Adam Heinermann, Adam Stachowicz, Alex Sweet, Anders Jenbo, Andi, Andrew James, ApertureSecurity, BC Ko, Benny, Benny Franco Dennis, BorisTheBrave, Chance4us, danie1kr, Dennis Duda, Epifanov Ivan, FluffyQuack, Gianluca Boiano, Gleb Mazovetskiy, gogogogi, Grigory Sokolov, Guillaume Roche, Joan Karadimov, John Törnblom, Jonathan Mercier-Ganady, Juliano Leal Goncalves, JustAnotherGuid, Karina Betzabe Romero Ulloa, Manuel K, Marcin Konicki, Marco, Marek, Marlon Beijer, Mathieu Maret, Max Desiatov, mnml, MrHuu, NikoVP, nomdenom, nsm53project, obligaron, pionere, Psojed, qndel, Robin, rsn8887, Sergey Semushin, Siddharth singh chouhan, squidcc, Stephen C. Wills, thebigMuh, Trevor Philip, Trihedraf, Trung Lê, Vladimir Olteanu, vladtepesch, Yuri Pourre, Łukasz Łapiński
+- Developer: 4aron5un, AAS, Adam Heinermann, Adam Stachowicz, Alex Sweet, Anders Jenbo, Andi, Andrew James, ApertureSecurity, BC Ko, Benny, Benny Franco Dennis, Bernd Stellwag, BorisTheBrave, Bubio, Cesar Canassa, Chance4us, DakkJaniels, danie1kr, Dennis Duda, Epifanov Ivan, Felipe Wannmacher, FluffyQuack, Gianluca Boiano, Gleb Mazovetskiy, gogogogi, Grigory Sokolov, Guillaume Roche, Joan Karadimov, JoBergeron, Joerg Wissen, John Törnblom, Jonathan Mercier-Ganady, Juliano Leal Goncalves, JustAnotherGuid, k-bar, Karina Betzabe Romero Ulloa, KPhoenix, Licaon_Kter, Manuel K, Marcin Konicki, Marco, Marek, Marlon Beijer, Mathew, Mathieu Maret, Max Desiatov, Mikołaj Piróg, mnml, MrHuu, Nicholas Calaway, NikoVP, nomdenom, nsm53project, obligaron, Oleksandr Kalko, pionere, Psojed, qndel, Robin, rsn8887, Sergey Semushin, sheng-luwei, Siddharth singh chouhan, Siddharth Singh Chouhan, SimonCeder, squidcc, Stephen C. Wills, thebigMuh, Thomas Christlieb, Trevor Philip, Trihedraf, Trung Lê, Tytannial, Vladimir Olteanu, vladtepesch, Yuri Pourre, Łukasz Łapiński
 
 Improved engine recreation for modern systems.
 

@@ -4,7 +4,7 @@
 - State: beta
 - Platform: Windows, Linux, macOS
 - Keyword: framework, 2D, multiplayer local, top-down
-- Code repository: https://github.com/notapixelstudio/superstarfighter.git (@created 2018, @stars 214, @forks 22)
+- Code repository: https://github.com/notapixelstudio/superstarfighter.git (@created 2018, @stars 359, @forks 25)
 - Code language: GDScript
 - Code license: MIT
 - Code dependency: Godot

@@ -5,7 +5,7 @@
 - State: beta, inactive since 2017
 - Platform: Web
 - Keyword: action, remake
-- Code repository: https://github.com/bylexus/sensitive-js.git (@created 2017, @stars 3, @forks 1)
+- Code repository: https://github.com/bylexus/sensitive-js.git (@created 2017, @stars 4, @forks 2)
 - Code language: JavaScript
 - Code license: Custom (NC, https://github.com/bylexus/sensitive-js#license-information)
 - Assets license: Unknown (https://github.com/bylexus/sensitive-js#copyright-violations)

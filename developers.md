@@ -30818,7 +30818,7 @@
 
 - Games: DevilutionX
 - Contact: KarinaRomero@GH
-- Home: https://www.linkedin.com/in/karina-betzabe-romero-ulloa-0834b363, https://www.linkedin.com/in/karina-betzabe-romero-ulloa-0834b363 
+- Home: https://www.linkedin.com/in/karina-betzabe-romero-ulloa-0834b363
 
 ## Karkus [1]
 

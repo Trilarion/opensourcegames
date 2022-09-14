@@ -41456,7 +41456,7 @@
 ## Nate [2]
 
 - Games: TankistOnline, The Powder Toy
-- Contact: ief015@GH, servusDei2018@GH, servusdei2018@GH
+- Contact: ief015@GH, servusdei2018@GH, servusDei2018@GH
 - Home: https://servusdei.github.io, https://servusdei2018.github.io
 
 ## Nate Fries [1]

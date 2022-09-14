@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-github-metadata:
+  update_github_metadata:
     runs-on: ubuntu-latest
 
     steps:

@@ -6,7 +6,7 @@
 - Play: https://candybox2.github.io/
 - Platform: Web
 - Keyword: role playing, asciiart, text-based
-- Code repository: https://github.com/candybox2/candybox2.github.io.git (@created 2017, @stars 352, @forks 75)
+- Code repository: https://github.com/candybox2/candybox2.github.io.git (@created 2017, @stars 407, @forks 97)
 - Code language: TypeScript, JavaScript
 - Code license: GPL-3.0
 - Developer: Andrei Kvapil

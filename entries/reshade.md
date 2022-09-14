@@ -5,7 +5,7 @@
 - Download: https://reshade.me/releases
 - Platform: Windows
 - Keyword: tool
-- Code repository: https://github.com/crosire/reshade.git (@created 2016, @stars 2178, @forks 354)
+- Code repository: https://github.com/crosire/reshade.git (@created 2016, @stars 2764, @forks 426)
 - Code language: C++
 - Code license: 3-clause BSD
 - Developer: crosire, Frans Bouma, kingeric1992, Seri, Thalixte

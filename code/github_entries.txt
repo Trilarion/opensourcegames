@@ -1,3 +1,3 @@
 [
- "goblin_hack.md"
+ "hextris.md"
 ]

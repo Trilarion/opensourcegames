@@ -6,7 +6,7 @@
 - Download: https://f-droid.org//packages/com.shatteredpixel.shatteredpixeldungeon/
 - Platform: Windows, Linux, macOS, Android, iOS
 - Keyword: role playing, roguelike
-- Code repository: https://github.com/00-Evan/shattered-pixel-dungeon.git (@created 2014, @stars 1449, @forks 510)
+- Code repository: https://github.com/00-Evan/shattered-pixel-dungeon.git (@created 2014, @stars 2276, @forks 683)
 - Code language: Java
 - Code license: GPL-3.0
 - Developer: Evan Debenham, Watabou

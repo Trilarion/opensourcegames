@@ -3,7 +3,7 @@
 - Home: https://github.com/solarus-games/zsdx
 - State: mature
 - Keyword: role playing
-- Code repository: https://gitlab.com/solarus-games/zsdx.git (@created 2018, @stars 17, @forks 7), https://github.com/solarus-games/zsdx.git (old, @archived, @created 2013, @stars 163, @forks 45)
+- Code repository: https://gitlab.com/solarus-games/zsdx.git (@created 2018, @stars 17, @forks 7), https://github.com/solarus-games/zsdx.git (old, @archived, @created 2013, @stars 169, @forks 48)
 - Code language: Lua
 - Code license: GPL-3.0
 - Code dependency: Solarus

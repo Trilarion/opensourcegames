@@ -11,6 +11,6 @@
 - Code license: GPL-2.0
 - Developer: Ben Armstrong, Bert, Bjorn Stabell, Dick Balaska, Jarrod L. Miller, XPilot Admins
 
-See also [XPilot5](http://www.buckosoft.com/xpilot/xpilot5/), [JXPilot](https://sourceforge.net/projects/jxpilot/) or [XPilot-AI](/http://xpilot-ai.org/).
+See also [XPilot5](https://www.buckosoft.com/xpilot/xpilot5/), [JXPilot](https://sourceforge.net/projects/jxpilot/) or [XPilot-AI](http://xpilot-ai.org/).
 
 ## Building

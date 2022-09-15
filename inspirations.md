@@ -512,7 +512,7 @@
 
 ## Civilization V [1]
 
-- Inspired entries: UnCiv
+- Inspired entries: Unciv
 - Media: https://en.wikipedia.org/wiki/Civilization_V
 
 ## Claw [1]
@@ -2850,7 +2850,7 @@
 
 ## Tomb Raider [4]
 
-- Inspired entries: EdisonEngine, OpenLara, OpenRaider, OpenTomb
+- Inspired entries: CroftEngine, OpenLara, OpenRaider, OpenTomb
 - Media: https://en.wikipedia.org/wiki/Tomb_Raider_(1996_video_game)
 
 ## Tomb Raider Chronicles [1]

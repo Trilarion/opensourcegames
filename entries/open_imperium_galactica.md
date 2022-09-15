@@ -1,6 +1,6 @@
 # Open Imperium Galactica
 
-- Home: http://open-ig-dev.blogspot.com/
+- Home: https://open-ig-dev.blogspot.com/
 - Inspiration: Imperium Galactica
 - State: mature
 - Download: https://github.com/akarnokd/open-ig/releases

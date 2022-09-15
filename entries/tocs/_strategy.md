@@ -269,7 +269,7 @@
 - **[TVTower](../tvtower.md)** (BlitzMax, Lua, Custom, mature)
 - **[UFO2000](../ufo2000.md)** (C, C++, Lua, GPL-2.0, mature, inactive since 2012)
 - **[UFO: Alien Invasion](../ufo_alien_invasion.md)** (C, C++, GPL-2.0, mature)
-- **[UnCiv](../unciv.md)** (Kotlin, MPL-2.0, beta)
+- **[Unciv](../unciv.md)** (Kotlin, MPL-2.0, mature)
 - **[Unknown Horizons](../unknown_horizons.md)** (Python, GDScript, GPL-2.0, beta)
 - **[Vanilla-Conquer](../vanilla-conquer.md)** (C, C++, Assembly, GPL-3.0, mature)
 - **[VCMI](../vcmi.md)** (C++, GPL-2.0, mature)

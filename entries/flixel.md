@@ -1,8 +1,8 @@
 # Flixel
 
-- Home: http://flixel.org/
+- Home: https://web.archive.org/web/20220509133103/http://www.flixel.org/
 - State: mature
-- Download: http://flixel.org/download.html
+- Download: https://web.archive.org/web/20220331061121/http://www.flixel.org/download.html
 - Keyword: framework
 - Code repository: https://github.com/AdamAtomic/flixel.git (@created 2009, @stars 1116, @forks 201)
 - Code language: ActionScript

@@ -15,7 +15,7 @@
 - **[Cosmo-Engine](../cosmo-engine.md)** (C, GPL-2.0, beta)
 - **[Data Storm](../data_storm.md)** (C, Apache-2.0, mature, inactive since 2017)
 - **[Dave Gnukem](../dave_gnukem.md)** (C++, GPL-2.0, mature)
-- **[DDraceNetwork](../ddracenetwork.md)** (C, C++, zlib, beta)
+- **[DDraceNetwork](../ddracenetwork.md)** (C, C++, zlib, mature)
 - **[Executive Man](../executive_man.md)** (JavaScript, Custom, mature, inactive since 2017)
 - **[Extreme Tux Racer](../extreme_tux_racer.md)** (C++, GPL-2.0, beta, inactive since 2018)
 - **[freegish](../freegish.md)** (C, GPL-2.0, beta, inactive since 2017)

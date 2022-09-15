@@ -1,9 +1,9 @@
 # ezQuake
 
-- Home: https://www.ezquake.com/
+- Home: http://www.ezquake.com/
 - Inspiration: Quake
 - State: mature
-- Download: https://www.ezquake.com/downloads.html
+- Download: http://www.ezquake.com/downloads.html
 - Platform: Windows, Linux, macOS
 - Keyword: action, remake, shooter
 - Code repository: https://github.com/ezQuake/ezquake-source.git (@created 2010, @stars 199, @forks 94)

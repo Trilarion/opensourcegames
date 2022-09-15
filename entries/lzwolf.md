@@ -1,6 +1,6 @@
 # LZWolf
 
-- Home: http://wolf3d.net/lzwolf/
+- Home: https://web.archive.org/web/20220319204404/http://wolf3d.net/lzwolf/
 - Inspiration: Wolfenstein 3D
 - State: mature
 - Keyword: action, remake, content commercial + original required, shooter

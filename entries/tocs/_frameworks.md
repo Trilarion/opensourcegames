@@ -81,6 +81,7 @@
 - **[SDL Game Engine 2D](../sdl_game_engine_2d.md)** (C, MIT, beta, inactive since 2014)
 - **[SGE Game Engine](../sge_game_engine.md)** (Python, LGPL-3.0, mature, inactive since 2017)
 - **[SoftPixel Engine](../softpixel_engine.md)** (C++, C, zlib, mature, inactive since 2013)
+- **[Solar2D](../solar2d.md)** (C++, MIT, mature)
 - **[Solarus](../solarus.md)** (C, C++, Lua, GPL-3.0, mature)
 - **[Storm Engine](../storm_engine.md)** (C++, GPL-3.0, mature)
 - **[Superpowers](../superpowers.md)** (TypeScript, ISC, mature)

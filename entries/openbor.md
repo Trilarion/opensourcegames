@@ -11,7 +11,7 @@
 - Developer: Bryan Cain, Carlos Donizete Froes, CRxTRDude, Damon V. Caskey, Jan Beich, Kratus, Malik, SumolX, utunnels, Wasin Thonkaew, White Dragon
 
 2D side-scrolling engine for beat em' ups, shooters like Streets of Rage, Double Dragon, Final Fight.
-[Completed modules](http://www.chronocrash.com/forum/index.php?board=10.0)
+[Completed modules](http://www.chronocrash.com/forum/forums/modules.18/)
 
 ## Building
 

@@ -1,6 +1,6 @@
 # micropolisJS
 
-- Home: http://www.graememcc.co.uk/micropolisJS/
+- Home: https://www.graememcc.co.uk/micropolisJS/
 - Inspiration: Micropolis, SimCity
 - State: mature
 - Platform: Web

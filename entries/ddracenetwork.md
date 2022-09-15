@@ -6,7 +6,7 @@
 - Download: https://ddnet.tw/downloads/
 - Platform: Windows, Linux, macOS
 - Keyword: platform, 2D, content open, multiplayer co-op, online
-- Code repository: https://github.com/ddnet/ddnet
+- Code repository: https://github.com/ddnet/ddnet.git
 - Code language: C, C++
 - Code license: zlib (src/engine/external partly BSD)
 - Code dependency: SDL, Vulkan

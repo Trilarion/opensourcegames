@@ -4,7 +4,8 @@
 - Media: https://en.wikipedia.org/wiki/Unknown_Horizons
 - Inspiration: "Anno (series)"
 - State: beta
-- Download: http://unknown-horizons.org/downloads/
+- Download: https://unknown-horizons.org/downloads/
+- Platform: Windows, Linux
 - Keyword: strategy, 2D, clone, real-time, turn-based
 - Code repository: https://github.com/unknown-horizons/unknown-horizons.git (@created 2010, @stars 1246, @forks 227), https://github.com/unknown-horizons/godot-port.git @add (@created 2019, @stars 332, @forks 45)
 - Code language: Python, GDScript

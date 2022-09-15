@@ -1,6 +1,6 @@
 # Chess3D
 
-- Home: http://yanngranjon.com/static/games/chess3D/
+- Home: https://yanngranjon.com/static/games/chess3D/
 - State: mature, inactive since 2016
 - Platform: Web
 - Keyword: board, strategy, 3D, chess, content open

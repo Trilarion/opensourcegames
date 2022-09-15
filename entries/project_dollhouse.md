@@ -1,6 +1,6 @@
 # Project Dollhouse
 
-- Home: http://afr0games.com/
+- Home: https://github.com/Afr0Games/Project-Dollhouse
 - Inspiration: CorsixTH, The Sims Online
 - State: beta
 - Download: https://github.com/Afr0Games/Project-Dollhouse/releases

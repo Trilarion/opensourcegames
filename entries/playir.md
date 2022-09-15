@@ -1,6 +1,6 @@
 # Playir
 
-- Home: http://playir.com/
+- Home: https://playir.com/
 - State: mature, inactive since 2014
 - Platform: Android, iOS, Web
 - Keyword: game engine

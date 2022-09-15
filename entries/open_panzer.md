@@ -1,6 +1,6 @@
 # Open Panzer
 
-- Home: http://www.linuxconsulting.ro/openpanzer/
+- Home: https://web.archive.org/web/20220710010922/http://www.linuxconsulting.ro/openpanzer/
 - Inspiration: Panzer General 2
 - State: mature
 - Platform: Web

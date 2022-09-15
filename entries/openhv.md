@@ -1,7 +1,7 @@
 # OpenHV
 
 - Home: https://openhv.itch.io/openhv
-- Media: https://www.gamingonlinux.com/2020/09/a-cancelled-old-rts-named-hard-vacuum-gets-revived-with-openra
+- Media: https://www.gamingonlinux.com/2020/09/a-cancelled-old-rts-named-hard-vacuum-gets-revived-with-openra/
 - Inspiration: Command & Conquer, Dune 2, KKND, StarCraft
 - State: beta
 - Download: https://github.com/OpenHV/OpenHV/releases

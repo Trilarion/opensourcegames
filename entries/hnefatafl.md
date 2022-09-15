@@ -1,6 +1,6 @@
 # Hnefatafl
 
-- Home: https://web.archive.org/web/20180901233504/http://hnefatafl.se/ (Swedish), https://sourceforge.net/projects/hnefatafl/
+- Home: http://hnefatafl.se/ (@lang Swedish), https://sourceforge.net/projects/hnefatafl/
 - State: beta, inactive since 2014
 - Keyword: board, strategy, content open
 - Code repository: https://gitlab.com/soderlund/hnefatafl.git (@created 2018, @stars 1, @forks 1)

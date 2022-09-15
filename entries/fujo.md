@@ -1,6 +1,6 @@
 # Fujo
 
-- Home: http://sheep.art.pl/Fujo
+- Home: https://web.archive.org/web/20210415073630/http://sheep.art.pl/Fujo
 - State: mature, inactive since 2014
 - Keyword: role playing, roguelike
 - Code repository: https://gitlab.com/osgames/fujo.git (@created 2018, @stars 1, @forks 0)

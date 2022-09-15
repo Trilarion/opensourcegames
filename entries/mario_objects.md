@@ -10,6 +10,6 @@
 - Code license: MIT
 - Developer: M1S2, Ronny Remesnik
 
-Includes a level editor. is it related to https://archive.codeplex.com/?p=mario
+Includes a level editor. Is it related to https://archive.codeplex.com/?p=mario
 
 ## Building

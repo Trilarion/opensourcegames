@@ -3,7 +3,7 @@
 - Home: https://rephial.org/
 - Media: https://en.wikipedia.org/wiki/Angband_(video_game)
 - State: mature
-- Download: https://rephial.org/release/
+- Download: https://rephial.org/release
 - Keyword: role playing, roguelike
 - Code repository: https://github.com/angband/angband.git (@created 2010, @stars 964, @forks 286)
 - Code language: C

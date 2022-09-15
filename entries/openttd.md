@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/OpenTTD
 - Inspiration: Transport Tycoon
 - State: mature
-- Download: https://www.openttd.org/downloads/openttd-releases/latest.html
+- Download: https://www.openttd.org/downloads/openttd-releases/latest
 - Keyword: remake, simulation, "content original possible + open (swappable)"
 - Code repository: https://github.com/OpenTTD/OpenTTD.git (@created 2018, @stars 3613, @forks 509)
 - Code language: C++

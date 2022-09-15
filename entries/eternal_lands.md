@@ -1,9 +1,9 @@
 # Eternal Lands
 
-- Home: http://www.eternal-lands.com/
+- Home: https://www.eternal-lands.com/
 - Media: https://en.wikipedia.org/wiki/Eternal_Lands
 - State: mature
-- Download: http://www.eternal-lands.com/page/download.php
+- Download: https://www.eternal-lands.com/page/download.php
 - Keyword: role playing, multiplayer online + massive
 - Code repository: https://github.com/raduprv/Eternal-Lands.git (@created 2011, @stars 103, @forks 51)
 - Code language: C, C++

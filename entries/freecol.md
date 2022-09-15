@@ -1,10 +1,10 @@
 # FreeCol
 
-- Home: http://www.freecol.org/, https://sourceforge.net/projects/freecol/
+- Home: https://www.freecol.org/, https://sourceforge.net/projects/freecol/
 - Media: https://en.wikipedia.org/wiki/FreeCol
 - Inspiration: Civilization, Sid Meier's Colonization
 - State: mature
-- Download: http://www.freecol.org/download.html
+- Download: https://www.freecol.org/download.html
 - Keyword: remake, strategy, multiplayer, turn-based
 - Code repository: https://github.com/FreeCol/freecol.git (@created 2017, @stars 360, @forks 95), https://git.code.sf.net/p/freecol/git @add
 - Code language: Java

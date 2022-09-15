@@ -1,8 +1,8 @@
 # Erebus
 
-- Home: http://erebusrpg.sourceforge.net/, https://sourceforge.net/projects/erebusrpg/
+- Home: https://erebusrpg.sourceforge.io/, https://sourceforge.net/projects/erebusrpg/
 - State: beta
-- Download: http://erebusrpg.sourceforge.net/#download
+- Download: https://erebusrpg.sourceforge.io/#download
 - Keyword: role playing
 - Code repository: https://git.code.sf.net/p/erebusrpg/code
 - Code language: C++

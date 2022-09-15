@@ -4,7 +4,7 @@
 - Inspiration: Delver
 - State: mature
 - Keyword: game engine, remake, content commercial
-- Code repository: https://github.com/Interrupt/delverengine.git (@created 2018, @stars 658, @forks 61)
+- Code repository: https://github.com/Interrupt/delverengine.git (@created 2018, @stars 710, @forks 68)
 - Code language: Java
 - Code license: Custom (modified zlib)
 - Developer: Chad Cuddigan, Felix Siebeneicker, jazz mickle, Jeff, Joshua Skelton

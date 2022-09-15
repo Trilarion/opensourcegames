@@ -4,9 +4,9 @@
 - Inspiration: Quake
 - State: beta
 - Keyword: action, remake, content open, shooter
-- Code repository: https://github.com/MissLav/LibreQuake.git (@created 2019, @stars 114, @forks 14)
+- Code repository: https://github.com/MissLav/LibreQuake.git (@created 2019, @stars 156, @forks 19)
 - Code language: Python
 - Code license: 3-clause BSD
-- Developer: MissLav, ZungryWare
+- Developer: MissLav, MissLavender, ZungryWare
 
 ## Building

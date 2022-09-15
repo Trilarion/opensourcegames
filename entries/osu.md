@@ -6,7 +6,7 @@
 - Download: https://osu.ppy.sh/home/download, https://github.com/ppy/osu/releases
 - Platform: Windows, macOS, Android, iOS
 - Keyword: music, clone, content open
-- Code repository: https://github.com/ppy/osu.git (@created 2014, @stars 10703, @forks 1717)
+- Code repository: https://github.com/ppy/osu.git (@created 2014, @stars 10704, @forks 1717)
 - Code language: C#
 - Code license: MIT
 - Code dependency: .NET

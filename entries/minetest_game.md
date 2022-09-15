@@ -4,7 +4,7 @@
 - Inspiration: Minetest
 - State: mature
 - Keyword: simulation, content open, sandbox
-- Code repository: https://github.com/minetest/minetest_game.git (@created 2012, @stars 1245, @forks 525)
+- Code repository: https://github.com/minetest/minetest_game.git (@created 2012, @stars 1246, @forks 525)
 - Code language: Lua
 - Code license: LGPL-2.1
 - Code dependency: Minetest engine

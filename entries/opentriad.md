@@ -4,7 +4,7 @@
 - Inspiration: Triple Triad
 - State: beta, inactive since 2017
 - Keyword: cards, remake
-- Code repository: https://github.com/benjaminfoo/OpenTriad.git (@created 2015, @stars 36, @forks 11)
+- Code repository: https://github.com/benjaminfoo/OpenTriad.git (@created 2015, @stars 35, @forks 11)
 - Code language: Java
 - Code license: GPL-3.0
 - Developer: Benjamin Fuu

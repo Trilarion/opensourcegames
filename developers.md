@@ -61617,6 +61617,12 @@
 - Contact: wooferzfg@GH
 - Home: https://www.wooferzfg.me
 
+## Wouter van Oortmerssen [1]
+
+- Games: Cube
+- Contact: aardappel@GH, aardappel@SF
+- Home: https://strlen.com/
+
 ## Woox [1]
 
 - Games: RuneLite

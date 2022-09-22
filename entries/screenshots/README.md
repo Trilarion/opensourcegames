@@ -920,7 +920,7 @@ from running the game or from youtube play videos.
 
 # ddracenetwork
 
-01 204 128 https://ddnet.tw/Teetrader.png
+01 204 128 https://ddnet.org/Teetrader.png
 
 # decker
 

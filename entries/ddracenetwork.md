@@ -1,9 +1,9 @@
 # DDraceNetwork
 
-- Home: https://ddnet.tw/
+- Home: https://ddnet.org/
 - Inspiration: Teeworlds
 - State: mature
-- Download: https://ddnet.tw/downloads/
+- Download: https://ddnet.org/downloads/
 - Platform: Windows, Linux, macOS
 - Keyword: platform, 2D, content open, multiplayer co-op, online
 - Code repository: https://github.com/ddnet/ddnet.git

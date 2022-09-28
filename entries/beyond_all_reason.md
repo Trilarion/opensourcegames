@@ -1,9 +1,9 @@
 # Beyond All Reason
 
 - Home: https://www.beyondallreason.info/
-- Media: https://en.wikipedia.org/wiki/Zero-K
+- Media: https://totalannihilation.fandom.com/wiki/Beyond_All_Reason
 - Inspiration: Total Annihilation
-- State: alpha
+- State: Alpha
 - Download: https://www.beyondallreason.info/download
 - Keyword: strategy, real-time
 - Code repository: https://github.com/beyond-all-reason/Beyond-All-Reason.git (@created 2015, @stars 715, @forks 95)

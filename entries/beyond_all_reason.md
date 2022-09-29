@@ -12,3 +12,4 @@
 - Developer: Avaristimo, badosu, BAR-eL-bArTo, Beherith, Beherrit, Born2Crawl, CopyyyCattt, Damgam, DeadlyPants253, dmytro-lytvyn, drivver44, ecraven, Fjoersteller, ForbodingAngel, fruehling76, Fx-Doo, gajop, gYanBasic, icexuick, Jazcash, L-e-x-o-n, lhog, M0nty-BAR, MasterBel2, Mitvit, MooseOnTheLoose, Mrlinkwii, Nikuksis, p2004a, pandaro, peppy, PtaQQ, rafidka, raph-amiard, resopmok, rlcevg, Ruwetuin, silentwings, simeonpfeiffer, Sipke82, sprunk, Teifion, tomjn, triton13, tulipe7, tzaeru, WatchTheFort, Zecrus2
 
 ## Building 
+- Build system: Make, mingw, g++

@@ -159,6 +159,7 @@
 - **[Tumbly Towers](../tumbly_towers.md)** (Java, MIT, beta, inactive since 2017)
 - **[Tux Memory](../tux_memory.md)** (Java, GPL-3.0, mature, inactive since 2014)
 - **[vitetris](../vitetris.md)** (C, 2-clause BSD, beta)
+- **[Waterkube](../waterkube.md)** (Go, MIT, mature)
 - **[WebHangman](../webhangman.md)** (JavaScript, GPL-2.0, mature, inactive since 2003)
 - **[Which Way Is Up?](../which_way_is_up.md)** (Python, GPL-2.0, beta, inactive since 2008)
 - **[Wizznic!](../wizznic.md)** (C, GPL-3.0, beta, inactive since 2016)

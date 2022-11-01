@@ -148,6 +148,7 @@
 - **[Storm Engine](../storm_engine.md)** (C++, GPL-3.0, mature)
 - **[Stratagus](../stratagus.md)** (C++, GPL-2.0, mature)
 - **[sundog](../sundog.md)** (C, C++, Python, MIT, beta)
+- **[Tabletop Club](../tabletop_club.md)** (GDScript, MIT, beta)
 - **[Tapir](../tapir.md)** (C, Ruby, Apache-2.0, MIT, beta, inactive since 2017)
 - **[The Eternity Engine](../the_eternity_engine.md)** (C, C++, GPL-3.0, mature)
 - **[The Force Engine](../the_force_engine.md)** (C++, GPL-2.0, beta)

@@ -43,6 +43,8 @@
 - **[Craft](../craft.md)** (C, Python, MIT, mature, inactive since 2017)
 - **[CrossUO](../crossuo.md)** (C, C++, GPL-3.0, mature)
 - **[Crystal Space 3D SDK](../crystal_space_3d_sdk.md)** (C, C++, LGPL-2.1, mature, inactive since 2015)
+- **[Cube 2: Sauerbraten](../cube_2_sauerbraten.md)** (C, C++, Custom, mature, inactive since 2020)
+- **[Cube](../cube.md)** (C, C++, Custom, mature, inactive since 2005)
 - **[Cultivation](../cultivation.md)** (C++, Public domain, mature, inactive since 2010)
 - **[Cytadela](../cytadela.md)** (C++, GPL-3.0, beta, inactive since 2013)
 - **[D2X-XL](../d2x-xl.md)** (C++, Custom, GPL-2.0, mature, inactive since 2015)

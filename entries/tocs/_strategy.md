@@ -24,6 +24,7 @@
 - **[Battle City](../battle_city.md)** (C, C++, Pascal, GPL-3.0, mature, inactive since 2013)
 - **[Battlefield Java](../battlefield_java.md)** (Java, GPL-3.0, beta, inactive since 2011)
 - **[Battles of Antargis](../battles_of_antargis.md)** (C, C++, GPL-2.0, beta, inactive since 2014)
+- **[Beyond All Reason](../beyond_all_reason.md)** (Lua, GPL-2.0, beta)
 - **[Birth of the Empires](../birth_of_the_empires.md)** (C++, Custom, mature, inactive since 2016)
 - **[BitRiot](../bitriot.md)** (C++, Apache-2.0, beta, inactive since 2017)
 - **[BlackNova Traders](../blacknova_traders.md)** (PHP, JavaScript, GPL-2.0, beta, inactive since 2012)

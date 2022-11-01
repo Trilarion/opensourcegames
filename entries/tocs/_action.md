@@ -78,6 +78,8 @@
 - **[Creep Smash](../creep_smash.md)** (Java, GPL-3.0, beta, inactive since 2011)
 - **[CroftEngine](../croftengine.md)** (C++, Python, LGPL-3.0, beta)
 - **[Cross The Road](../cross_the_road.md)** (Elm, JavaScript, AGPL-3.0, mature)
+- **[Cube 2: Sauerbraten](../cube_2_sauerbraten.md)** (C, C++, Custom, mature, inactive since 2020)
+- **[Cube](../cube.md)** (C, C++, Custom, mature, inactive since 2005)
 - **[Der Clou!](../der_clou.md)** (C, Custom, beta, inactive since 2017)
 - **[Devilution](../devilution.md)** (C, C++, Unlicense, mature)
 - **[DevilutionX](../devilutionx.md)** (C, C++, Unlicense, mature)

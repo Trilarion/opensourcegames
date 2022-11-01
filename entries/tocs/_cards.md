@@ -17,6 +17,7 @@
 - **[OpenTriad](../opentriad.md)** (Java, GPL-3.0, beta, inactive since 2017)
 - **[PySol](../pysol.md)** (Python, GPL-2.0, mature, inactive since 2004)
 - **[Simple-Solitaire](../simple-solitaire.md)** (Java, GPL-3.0, mature)
+- **[Tabletop Club](../tabletop_club.md)** (GDScript, MIT, beta)
 - **[Tressette](../tressette.md)** (C++, GPL-2.0, mature, inactive since 2017)
 - **[Wagic, the Homebrew](../wagic_the_homebrew.md)** (C++, C, Objective-C, 3-clause BSD, beta)
 - **[Walic](../walic.md)** (Kotlin, Apache-2.0, mature)

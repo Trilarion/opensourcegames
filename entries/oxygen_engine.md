@@ -9,8 +9,6 @@
 - Code license: Apache-2.0
 - Developer: Alex, Anton Kovalev, Anton Tsukanov, Borshig, Collectioner, darkhpp, ForserX, Georgiy-Timoshin, Giperion, Graff46, Ilya, Kozlov Dennis, Krodin, LtPetrov, Mortan, mrmnwar, qweasdd136963, RainbowZerg, Seakad, shriveledDude, Unfainthful, Viнt@rь, Vlad, Xottab_DUTY, Пётр
 
-https://github.com/xrOxygen/xray-oxygen is gone
-
 ## Building
 
 - Build system: Visual Studio

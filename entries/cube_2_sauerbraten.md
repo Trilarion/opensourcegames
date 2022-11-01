@@ -11,7 +11,7 @@
 - Code language: C, C++
 - Code license: Custom (zlib like)
 - Code dependency: SDL
-- Developer: Wouter van Oortmerssen, Lee Salzman, Mike Dysart, Robert Pointon, Quinton Reeves
+- Developer: Lee Salzman, Mike Dysart, Quinton Reeves, Robert Pointon, Wouter van Oortmerssen
 
 Successor to Cube.
 Fast-paced FPS with in-game, collaborative level editor.

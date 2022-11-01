@@ -9,6 +9,7 @@
 - **[FreeType](../freetype.md)** (C, GPL-2.0, Custom, mature)
 - **[GBDK](../gbdk.md)** (C, Assembly, C++, MIT, mature)
 - **[GeonBit.UI](../geonbitui.md)** (C#, MIT, mature)
+- **[Gorgon](../gorgon.md)** (C#, MIT, mature)
 - **[Horde3D](../horde3d.md)** (C++, EPL-2.0, mature)
 - **[ncurses](../ncurses.md)** (C, MIT, mature)
 - **[Penumbra](../penumbra.md)** (C#, MIT, mature)

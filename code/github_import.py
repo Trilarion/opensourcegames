@@ -1,5 +1,5 @@
 """
-Uses the Github API to learn more about the Github projects.
+Uses the GitHub API to learn more about the GitHub projects.
 
 Updates for example, the starring information.
 """
@@ -42,7 +42,7 @@ name_aliases = {'Andreas Rosdal': 'Andreas Røsdal', 'davefancella': 'Dave Fance
 
 def collect_github_entries():
     """
-    Reads the entries of the database and collects all entries with a Github repository. Just for convenience to limit
+    Reads the entries of the database and collects all entries with a GitHub repository. Just for convenience to limit
     the number of entries to iterate on later.
     """
 
@@ -64,7 +64,7 @@ def collect_github_entries():
 
 def github_import():
     """
-    Import various information from Github repositories (like contributors) or stars for Github repos
+    Import various information from GitHub repositories (like contributors) or stars for GitHub repos
     """
     private_properties = json.loads(utils.read_text(c.private_properties_file))
 
@@ -157,7 +157,7 @@ def github_import():
                         print('   dev "{}" added to entry {}'.format(name, file))
                         entry['Developer'] = entry.get('Developer', []) + [name]
 
-                    # look up author in developers data base
+                    # look up author in developers database
                     if name in all_developers:
                         dev = all_developers[name]
                         if not nickname in dev.get('Contact', []):
@@ -190,7 +190,7 @@ def github_import():
 
 def github_starring_synchronization():
     """
-    Which Github repositories haven't I starred yet.
+    Which Github repositories haven't I starred yet?
     """
     private_properties = json.loads(utils.read_text(c.private_properties_file))
 
@@ -213,7 +213,7 @@ def github_starring_synchronization():
     all_repos = set(all_repos)
     print('found {} Github repos'.format(len(all_repos)))
 
-    # get my Github user
+    # get my GitHub user
     user = osg_github.get_user(private_properties['github-name'], token=private_properties['github-token'])
 
     # get starred repos
@@ -225,7 +225,7 @@ def github_starring_synchronization():
     # and now the difference
     unstarred = all_repos - starred
     print('not yet starred {} repos'.format(len(unstarred)))
-    print(', '.join(unstarred))
+    print('\n'.join(unstarred))
 
 
 if __name__ == "__main__":
@@ -235,5 +235,5 @@ if __name__ == "__main__":
     # import information from gh
     github_import()
 
-    # which github repos haven't I starred
+    # which GitHub repos have I not yet starred
     # github_starring_synchronization()

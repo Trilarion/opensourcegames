@@ -8,6 +8,7 @@
 - Code language: C
 - Code license: CC-BY-NC-SA-4.0
 - Code dependency: OpenGL, SDL2
+- Developer: Iliyas Jorio
 
 Nanosaur for modern operating systems (macOS, Windows, Linux), approved by Pangea Software.
 

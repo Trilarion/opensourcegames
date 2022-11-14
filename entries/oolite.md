@@ -7,7 +7,7 @@
 - Download: http://oolite.org/download/
 - Platform: Windows, Linux, macOS
 - Keyword: simulation, 3D, clone, space, trading
-- Code repository: https://github.com/OoliteProject/oolite.git (@created 2013, @stars 387, @forks 61)
+- Code repository: https://github.com/OoliteProject/oolite.git (@created 2013, @stars 422, @forks 64)
 - Code language: Objective-C, C, JavaScript
 - Code license: GPL-2.0
 - Code dependency: Cocoa, SDL

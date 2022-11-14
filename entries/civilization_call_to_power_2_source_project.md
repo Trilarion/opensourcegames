@@ -5,7 +5,7 @@
 - Inspiration: Call to Power II
 - State: mature
 - Keyword: remake, strategy, turn-based
-- Code repository: https://github.com/civctp2/civctp2.git (mirror, @created 2018, @stars 30, @forks 18), http://ctp2.darkdust.net/anonsvn/ (svn)
+- Code repository: https://github.com/civctp2/civctp2.git (mirror, @created 2018, @stars 46, @forks 19), http://ctp2.darkdust.net/anonsvn/ (svn)
 - Code language: C, C++
 - Code license: Custom (Activision CTP2 source EULA)
 - Developer: Andriy B. Kmit', Andriy Kmit', civctp2, henshall828, LynxAbraxas, Mariusz, Martin Gühmann, ptitSeb, William Deurwaarder

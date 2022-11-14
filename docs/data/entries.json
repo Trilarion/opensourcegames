@@ -217,6 +217,14 @@
    "zlib"
   ],
   [
+   "<a href=\"frameworks/framework.html#gbdk\" class=\"has-text-weight-semibold\">GBDK</a> <a href=\"https://gbdk-2020.github.io/gbdk-2020/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "framework",
+   "Windows, Linux, macOS",
+   "C, Assembly, C++",
+   "MIT"
+  ],
+  [
    "<a href=\"frameworks/framework.html#gemrb\" class=\"has-text-weight-semibold\">GemRB</a> <a href=\"https://gemrb.org/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "framework, remake, 2D",
@@ -1857,6 +1865,14 @@
    "MIT"
   ],
   [
+   "<a href=\"frameworks/game engine.html#tabletop_club\" class=\"has-text-weight-semibold\">Tabletop Club</a> <a href=\"https://tabletop-club.readthedocs.io/en/latest/index.html\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "cards, game engine",
+   "-",
+   "GDScript",
+   "MIT"
+  ],
+  [
    "<a href=\"frameworks/game engine.html#tapir\" class=\"has-text-weight-semibold\">Tapir</a> <a href=\"https://qnighy.github.io/tapir/\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2017",
    "game engine, remake",
@@ -2065,18 +2081,18 @@
    "GPL-2.0, Custom"
   ],
   [
-   "<a href=\"frameworks/library.html#gbdk\" class=\"has-text-weight-semibold\">GBDK</a> <a href=\"https://gbdk-2020.github.io/gbdk-2020/\"><i class=\"icon-new-tab\"></i></a>",
-   "mature",
-   "library, tool",
-   "Windows, Linux, macOS",
-   "C, Assembly, C++",
-   "MIT"
-  ],
-  [
    "<a href=\"frameworks/library.html#geonbitui\" class=\"has-text-weight-semibold\">GeonBit.UI</a> <a href=\"https://github.com/RonenNess/GeonBit.UI\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "library",
    "Windows, Linux",
+   "C#",
+   "MIT"
+  ],
+  [
+   "<a href=\"frameworks/library.html#gorgon\" class=\"has-text-weight-semibold\">Gorgon</a> <a href=\"https://tape-worm.net/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "library",
+   "Windows",
    "C#",
    "MIT"
   ],
@@ -3305,6 +3321,14 @@
    "?"
   ],
   [
+   "<a href=\"games/B.html#beyond_all_reason\" class=\"has-text-weight-semibold\">Beyond All Reason</a> <a href=\"https://www.beyondallreason.info/\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "strategy, real-time",
+   "-",
+   "Lua",
+   "GPL-2.0"
+  ],
+  [
    "<a href=\"games/B.html#billiards\" class=\"has-text-weight-semibold\">Billiards</a> <a href=\"http://www.nongnu.org/billiards/\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2012",
    "simulation, sports",
@@ -3365,7 +3389,7 @@
    "beta, inactive since 2007",
    "simulation, first-person, shooter",
    "-",
-   "C",
+   "C, C++",
    "GPL-2.0"
   ],
   [
@@ -4457,6 +4481,22 @@
    "MIT"
   ],
   [
+   "<a href=\"games/C.html#cube\" class=\"has-text-weight-semibold\">Cube</a> <a href=\"http://cubeengine.com/cube.php\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2005",
+   "action, first-person, shooter",
+   "Windows, Linux, macOS",
+   "C, C++",
+   "Custom"
+  ],
+  [
+   "<a href=\"games/C.html#cube_2_sauerbraten\" class=\"has-text-weight-semibold\">Cube 2: Sauerbraten</a> <a href=\"http://sauerbraten.org/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2020",
+   "action, first-person, shooter",
+   "Windows, Linux, macOS",
+   "C, C++",
+   "Custom"
+  ],
+  [
    "<a href=\"games/C.html#cubosphere\" class=\"has-text-weight-semibold\">Cubosphere</a> <a href=\"https://github.com/cubosphere/cubosphere-code/projects\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "puzzle, remake",
@@ -4609,7 +4649,7 @@
    "GPL-3.0"
   ],
   [
-   "<a href=\"games/D.html#ddracenetwork\" class=\"has-text-weight-semibold\">DDraceNetwork</a> <a href=\"https://ddnet.tw/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/D.html#ddracenetwork\" class=\"has-text-weight-semibold\">DDraceNetwork</a> <a href=\"https://ddnet.org/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "platform, 2D",
    "Windows, Linux, macOS",
@@ -5601,7 +5641,7 @@
    "GPL-2.0"
   ],
   [
-   "<a href=\"games/F.html#forge\" class=\"has-text-weight-semibold\">Forge</a> <a href=\"https://git.cardforge.org/core-developers/forge\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/F.html#forge\" class=\"has-text-weight-semibold\">Forge</a> <a href=\"https://web.archive.org/web/20201111225132/https://www.slightlymagic.net/wiki/Forge\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "cards, strategy, clone",
    "-",
@@ -8221,7 +8261,7 @@
    "beta",
    "adventure, remake, first-person",
    "Web",
-   "JavaScript",
+   "JavaScript, TypeScript",
    "MIT"
   ],
   [
@@ -9349,7 +9389,7 @@
    "beta",
    "remake",
    "Windows, Linux, macOS",
-   "C++",
+   "C++, GDScript",
    "GPL-3.0"
   ],
   [
@@ -10201,7 +10241,7 @@
    "GPL-3.0"
   ],
   [
-   "<a href=\"games/R.html#raze\" class=\"has-text-weight-semibold\">Raze</a> <a href=\"https://github.com/coelckers/Raze\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/R.html#raze\" class=\"has-text-weight-semibold\">Raze</a> <a href=\"https://github.com/ZDoom/Raze\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "action, remake, shooter",
    "-",
@@ -10245,7 +10285,7 @@
    "mature",
    "action, shooter",
    "-",
-   "C++",
+   "C++, C",
    "zlib"
   ],
   [
@@ -12871,6 +12911,14 @@
    "-",
    "Python",
    "GPL-2.0"
+  ],
+  [
+   "<a href=\"games/W.html#waterkube\" class=\"has-text-weight-semibold\">Waterkube</a> <a href=\"https://waterkube.dev/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "puzzle",
+   "Windows, Linux",
+   "Go",
+   "MIT"
   ],
   [
    "<a href=\"games/W.html#watomic\" class=\"has-text-weight-semibold\">WAtomic</a> <a href=\"http://watomic.sourceforge.net/\"><i class=\"icon-new-tab\"></i></a>",

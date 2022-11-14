@@ -4,7 +4,7 @@
 - State: mature
 - Download: https://catchchallenger.herman-brule.com/download.html
 - Keyword: role playing, multiplayer local + massive
-- Code repository: https://github.com/alphaonex86/CatchChallenger.git (@created 2012, @stars 49, @forks 11)
+- Code repository: https://github.com/alphaonex86/CatchChallenger.git (@created 2012, @stars 48, @forks 11)
 - Code language: C++, C
 - Code license: GPL-3.0
 - Developer: BRULE Herman Jacques Roger, rrfvtgb

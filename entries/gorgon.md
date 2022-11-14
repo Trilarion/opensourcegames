@@ -8,6 +8,7 @@
 - Code repository: https://github.com/Tape-Worm/Gorgon.git
 - Code language: C#
 - Code license: MIT
+- Developer: Michael Winsor
 
 ## Building
 

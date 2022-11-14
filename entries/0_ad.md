@@ -7,7 +7,7 @@
 - Download: https://play0ad.com/download/
 - Platform: Windows, Linux, macOS
 - Keyword: strategy, content open, multiplayer online + LAN, real-time
-- Code repository: https://github.com/0ad/0ad.git (mirror, @created 2010, @stars 1945, @forks 423), https://svn.wildfiregames.com/public/ps/ (svn)
+- Code repository: https://github.com/0ad/0ad.git (mirror, @created 2010, @stars 2209, @forks 476), https://svn.wildfiregames.com/public/ps/ (svn)
 - Code language: C, C++, JavaScript
 - Code license: GPL-2.0
 - Code dependency: libogg, libvorbis, libxml2, OpenAL, SDL2, zlib

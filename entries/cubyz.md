@@ -8,6 +8,7 @@
 - Code language: Java
 - Code license: GPL-3.0
 - Code dependency: LWJGL
+- Developer: Hannes Albrecht, IntegratedQuantum, Marco Santos, tillpp, ZaUserA, Zen1th
 
 ## Building
 

@@ -6,11 +6,11 @@
 - State: mature
 - Download: https://ufoai.org/wiki/Download
 - Keyword: strategy, clone, turn-based
-- Code repository: https://github.com/ufoai/ufoai.git (mirror, @created 2011, @stars 129, @forks 47), https://git.code.sf.net/p/ufoai/code
+- Code repository: https://github.com/ufoai/ufoai.git (mirror, @created 2011, @stars 141, @forks 49), https://git.code.sf.net/p/ufoai/code
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependency: Quake II engine, SDL
-- Developer: aDuke1, Alexander Tishin, anthraxx, bayo, BTAxis, CH, DarkRain, DarkRainX, drane, Duke, Forest Hale, geever, Holger 'ShipIt' Gellrich, hwoarangmy, Ihor Hrytsenko, Internecivus Raptus, Kostia Romanov, Kracken, Maksym Kobieliev, Martin Gerhardy, Muton-UfoAI, Nate Wright, NateWr, radius75, Rudolfo Pinewood, rxadmin, Sander van Grieken, Sergii Pylypenko, Solbu, Tamás Fehérvári, Tron, UFO: Alien Invasion, UFOAI
+- Developer: aDuke1, Alexander Tishin, AndrewRSmart, anthraxx, bayo, BTAxis, CH, DarkRain, DarkRainX, drane, Duke, Forest Hale, geever, Holger 'ShipIt' Gellrich, hwoarangmy, Ihor Hrytsenko, Internecivus Raptus, Kostia Romanov, Kracken, Maksym Kobieliev, Martin Gerhardy, Muton-UfoAI, Nate Wright, NateWr, radius75, Rudolfo Pinewood, rxadmin, Sander van Grieken, Sergii Pylypenko, Solbu, Tamás Fehérvári, Tron, UFO: Alien Invasion, UFOAI
 
 Squad-based tactical strategy game in the tradition of the old X-COM PC games.
 

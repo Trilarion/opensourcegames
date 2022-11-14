@@ -5,9 +5,9 @@
 - State: beta, inactive since 2007
 - Keyword: simulation, content open, first-person, shooter
 - Code repository: https://github.com/bkeys/blackshadeselite.git
-- Code language: C
+- Code language: C, C++
 - Code license: GPL-2.0
-- Developer: David Rosen
+- Developer: "Brigham Keys, Esq.", David Rosen
 
 Fork of the game Black Shades.
 

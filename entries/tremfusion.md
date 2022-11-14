@@ -4,7 +4,7 @@
 - Inspiration: Tremulous
 - State: mature, inactive since 2009
 - Keyword: remake, first-person, shooter
-- Code repository: https://github.com/Amanieu/tremfusion.git (@created 2013, @stars 12, @forks 9)
+- Code repository: https://github.com/Amanieu/tremfusion.git (@created 2013, @stars 13, @forks 8)
 - Code language: C
 - Code license: GPL-2.0
 - Code dependency: ioquake3

@@ -6,7 +6,7 @@
 - Download: https://duion.com/games/uebergame/downloads
 - Platform: Windows
 - Keyword: action, clone, content open, shooter
-- Code repository: https://github.com/Duion/Uebergame.git (@created 2014, @stars 95, @forks 28)
+- Code repository: https://github.com/Duion/Uebergame.git (@created 2014, @stars 108, @forks 29)
 - Code language: TorqueScript, C#
 - Code license: MIT
 - Code dependency: Torque 3D

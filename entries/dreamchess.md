@@ -5,10 +5,10 @@
 - Download: https://www.dreamchess.org/downloads, https://sourceforge.net/projects/dreamchess/files/
 - Platform: Windows, Linux, macOS
 - Keyword: board, strategy, 3D, chess
-- Code repository: https://github.com/dreamchess/dreamchess.git (@created 2015, @stars 53, @forks 18)
+- Code repository: https://github.com/dreamchess/dreamchess.git (@created 2015, @stars 68, @forks 20)
 - Code language: C
 - Code license: GPL-3.0
-- Developer: Allan Nordhøy, Kris McAulay, Lautaro Bernabé Otaño, MrSiggler, Walter van Niftrik
+- Developer: Allan Nordhøy, IllusiveMan196, Kris McAulay, Lautaro Bernabé Otaño, MrSiggler, SecularSteve, Walter van Niftrik
 
 ## Building
 

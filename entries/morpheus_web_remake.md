@@ -7,7 +7,7 @@
 - Platform: Web
 - Keyword: adventure, remake, content commercial + original required, first-person
 - Code repository: https://github.com/soap-bubble/web.git (@created 2017, @stars 5, @forks 0)
-- Code language: JavaScript
+- Code language: JavaScript, TypeScript
 - Code license: MIT
 - Code dependency: React, Redux, Rx.js, Three.js, Tween.js
 - Developer: Jessica Lord, John Dean, Kevin Sawicki, Zeke Sikelianos

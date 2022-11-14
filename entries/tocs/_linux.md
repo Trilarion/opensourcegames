@@ -328,7 +328,7 @@
 - **[OpenSupaplex](../opensupaplex.md)** (C, GPL-3.0, mature)
 - **[OpenTESArena](../opentesarena.md)** (C++, MIT, beta)
 - **[OpenVIII](../openviii.md)** (C#, MIT, beta)
-- **[OPMon](../opmon.md)** (C++, GPL-3.0, beta)
+- **[OPMon](../opmon.md)** (C++, GDScript, GPL-3.0, beta)
 - **[opsu!](../opsu.md)** (Java, GPL-3.0, mature)
 - **[Oreon Engine](../oreon_engine.md)** (Java, GPL-3.0, mature)
 - **[ouzel](../ouzel.md)** (C, C++, Objective-C, 2-clause BSD, beta)

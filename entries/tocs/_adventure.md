@@ -33,7 +33,7 @@
 - **[javascript-E.T.](../javascript-et.md)** (JavaScript, Assembly, MIT, beta, inactive since 2017)
 - **[L'Abbaye des Morts](../labbaye_des_morts.md)** (C, GPL-3.0, mature, inactive since 2018)
 - **[LBA2 Remake](../lba2_remake.md)** (TypeScript, MIT, beta)
-- **[Morpheus Web Remake](../morpheus_web_remake.md)** (JavaScript, MIT, beta)
+- **[Morpheus Web Remake](../morpheus_web_remake.md)** (JavaScript, TypeScript, MIT, beta)
 - **[Murder In The Public Domain](../murder_in_the_public_domain.md)** (C++, GPL-3.0, mature, inactive since 2013)
 - **[MUSoSu](../musosu.md)** (Java, GPL-3.0, beta, inactive since 2008)
 - **[Privateer - Gemini Gold](../privateer-gemini_gold.md)** (C++, GPL-2.0, mature, inactive since 2012)

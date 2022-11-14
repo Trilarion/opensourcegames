@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/CorsixTH/CorsixTH/releases
 - Keyword: remake, simulation, strategy, content commercial + original required
-- Code repository: https://github.com/CorsixTH/CorsixTH.git (@created 2013, @stars 2454, @forks 281)
+- Code repository: https://github.com/CorsixTH/CorsixTH.git (@created 2013, @stars 2636, @forks 292)
 - Code language: Lua, C++
 - Code license: MIT
 - Code dependency: SDL2

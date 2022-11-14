@@ -5,7 +5,7 @@
 - Play: https://the-house.arturkot.pl/
 - Platform: Web
 - Keyword: adventure
-- Code repository: https://github.com/arturkot/the-house-game.git (@created 2012, @stars 113, @forks 32)
+- Code repository: https://github.com/arturkot/the-house-game.git (@created 2012, @stars 138, @forks 38)
 - Code language: JavaScript
 - Code license: MIT
 - Developer: Artur Kot

@@ -7,7 +7,7 @@
 - Download: https://github.com/OpenHV/OpenHV/releases
 - Platform: Windows, Linux, macOS
 - Keyword: strategy, content open, multiplayer online + LAN, real-time
-- Code repository: https://github.com/OpenHV/OpenHV.git (@created 2019, @stars 131, @forks 11)
+- Code repository: https://github.com/OpenHV/OpenHV.git (@created 2019, @stars 289, @forks 18)
 - Code language: C#, Lua
 - Code license: GPL-3.0
 - Code dependency: OpenRA

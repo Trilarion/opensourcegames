@@ -4,7 +4,7 @@
 - State: beta
 - Platform: Windows, Linux
 - Keyword: adventure, board, cards, content open
-- Code repository: https://github.com/deerportal/deerportal.git (@created 2015, @stars 27, @forks 9)
+- Code repository: https://github.com/deerportal/deerportal.git (@created 2015, @stars 30, @forks 10)
 - Code language: C++
 - Code license: zlib
 - Code dependency: SFML

@@ -7,7 +7,7 @@
 - Code repository: https://github.com/dulsi/thrust.git
 - Code language: C
 - Code license: GPL-2.0
-- Developer: Dennis Payne
+- Developer: Dennis Payne, dulsi
 
 ## Building
 

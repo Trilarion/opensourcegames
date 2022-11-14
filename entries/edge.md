@@ -9,6 +9,7 @@
 - Code repository: https://github.com/3dfxdev/EDGE.git
 - Code language: C++, C
 - Code license: GPL-2.0
+- Developer: alexey.lysiuk, Benjamin Moir, Brendoe1, ChillyWillyGuru, Chris, Corbin, Damir Srpčič, dashodanger, Dorota Kadłubowska, Magnus Norddahl, ryan-sg, usernameak
 
 ## Building
 

@@ -4,7 +4,7 @@
 - State: beta
 - Platform: Windows
 - Keyword: game engine, rendering
-- Code repository: https://github.com/Ershany/Arcane-Engine.git (@created 2016, @stars 311, @forks 25)
+- Code repository: https://github.com/Ershany/Arcane-Engine.git (@created 2016, @stars 369, @forks 27)
 - Code language: C++
 - Code license: MIT
 - Code dependency: ImGUI, OpenGL

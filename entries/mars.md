@@ -4,7 +4,7 @@
 - State: beta, inactive since 2016
 - Download: https://github.com/jwrdegoede/M.A.R.S./releases, https://sourceforge.net/projects/mars-game/files/
 - Keyword: platform, 2D, content open, shooter, top-down
-- Code repository: https://github.com/jwrdegoede/M.A.R.S..git (@created 2013, @stars 4, @forks 2), https://github.com/thelaui/M.A.R.S..git @add (@created 2012, @stars 146, @forks 40), https://svn.code.sf.net/p/mars-game/code (svn)
+- Code repository: https://github.com/jwrdegoede/M.A.R.S..git (@created 2013, @stars 4, @forks 2), https://github.com/thelaui/M.A.R.S..git @add (@created 2012, @stars 156, @forks 41), https://svn.code.sf.net/p/mars-game/code (svn)
 - Code language: C++, C
 - Code license: GPL-3.0
 - Code dependency: OpenGL, SFML

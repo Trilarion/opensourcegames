@@ -5,7 +5,7 @@
 - Download: https://f-droid.org/de/packages/se.tube42.kidsmem.android/
 - Platform: Android
 - Keyword: arcade, for kids
-- Code repository: https://github.com/tube42/candymem.git (@created 2015, @stars 16, @forks 3)
+- Code repository: https://github.com/tube42/candymem.git (@created 2015, @stars 17, @forks 3)
 - Code language: Java
 - Code license: GPL-2.0
 

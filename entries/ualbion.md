@@ -8,5 +8,6 @@
 - Code repository: https://github.com/csinkers/ualbion.git
 - Code language: C#
 - Code license: MIT
+- Developer: Cam Sinclair
 
 ## Building

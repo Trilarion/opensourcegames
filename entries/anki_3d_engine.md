@@ -7,6 +7,7 @@
 - Code repository: https://github.com/godlikepanos/anki-3d-engine.git
 - Code language: C++
 - Code license: 3-clause BSD
+- Developer: akalugin, Panagiotis Christopoulos Charitos, SergioAlapontARM
 
 ## Building
 

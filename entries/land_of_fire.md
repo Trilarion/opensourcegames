@@ -8,6 +8,6 @@
 - Code language: Script, PHP
 - Code license: GPL-2.0
 - Code dependency: Mana source engine
-- Developer: Andrei Karas, Bernard Hugonnet, Bill Reese, Björn Steinbrink, Charles Miller, Daniel Foerster, Dennis Friis, Dino Paskvan, dweems, hackgrid, Jared Adams, Jarrett Thomas, javila, Jessica Beller, kadilin, katajanmarja, Kess Vargavind, Krzysztof Daszuta, MadCamel, Mashu, o11c, Scott Ellis, Stefan Beller, Thibault Payet, Thorbjørn Lindeijer, Turmfalke2, tux9th, Vincent Petithory, wombatism, Wushin
+- Developer: Andrei Karas, Bernard Hugonnet, Bill Reese, Björn Steinbrink, Charles Miller, Daniel Foerster, Dennis Friis, Dino Paskvan, dweems, hackgrid, Jared Adams, Jarrett Thomas, javila, Jessica Beller, kadilin, katajanmarja, Kess Vargavind, Krzysztof Daszuta, MadCamel, Mashu, Mateusz Kaduk, o11c, Scott Ellis, Stefan Beller, Thibault Payet, Thorbjørn Lindeijer, Turmfalke2, tux9th, Vincent Petithory, wombatism, Wushin
 
 ## Building

@@ -5,7 +5,7 @@
 - State: mature, inactive since 2018
 - Platform: Windows, Linux, macOS
 - Keyword: puzzle, content open
-- Code repository: https://github.com/mdsteele/syzygy.git (@created 2016, @stars 42, @forks 2)
+- Code repository: https://github.com/mdsteele/syzygy.git (@created 2016, @stars 45, @forks 2)
 - Code language: Rust
 - Code license: GPL-3.0
 - Assets license: GPL-3.0

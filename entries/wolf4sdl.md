@@ -8,6 +8,7 @@
 - Code language: C
 - Code license: GPL-2.0
 - Code dependency: SDL
+- Developer: 11001011101001011, AlumiuN, brosseaualex, Chokster37
 
 Vanilla-style port of Wolfenstein 3D into SDL
 

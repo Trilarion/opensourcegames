@@ -5,7 +5,7 @@
 - State: beta, inactive since 2015
 - Download: https://github.com/Cirrus-Minor/witchblast/releases
 - Keyword: remake, role playing, content open, roguelike
-- Code repository: https://github.com/Cirrus-Minor/witchblast.git (@created 2014, @stars 179, @forks 24)
+- Code repository: https://github.com/Cirrus-Minor/witchblast.git (@created 2014, @stars 190, @forks 25)
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: SFML

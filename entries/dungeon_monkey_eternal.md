@@ -3,7 +3,7 @@
 - Home: https://github.com/jwvhewitt/dmeternal
 - State: mature, inactive since 2016
 - Keyword: role playing
-- Code repository: https://github.com/jwvhewitt/dmeternal.git (@created 2013, @stars 49, @forks 9)
+- Code repository: https://github.com/jwvhewitt/dmeternal.git (@created 2013, @stars 54, @forks 12)
 - Code language: Python
 - Code license: GPL-2.0
 - Code dependency: pygame, pyglet

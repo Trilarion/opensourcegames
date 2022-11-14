@@ -7,6 +7,7 @@
 - Code language: C++
 - Code license: zlib
 - Code dependency: SDL
+- Developer: ahugeat, Julien Bernard, magestik, NiiRoZz
 
 ## Building
 

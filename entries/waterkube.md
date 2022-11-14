@@ -8,6 +8,7 @@
 - Code repository: https://github.com/waterkube/waterkube.git
 - Code language: Go
 - Code license: MIT
+- Developer: Peter Takacs
 
 
 ## Building

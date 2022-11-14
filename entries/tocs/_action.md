@@ -220,7 +220,7 @@
 - **[Raptor: Call of the Shadows](../raptor_call_of_the_shadows.md)** (C, GPL-3.0, beta)
 - **[RaumBaller](../raumballer.md)** (Java, GPL-3.0, mature)
 - **[Raze](../raze.md)** (C++, GPL-2.0, mature)
-- **[Red Eclipse](../red_eclipse.md)** (C++, zlib, mature)
+- **[Red Eclipse](../red_eclipse.md)** (C++, C, zlib, mature)
 - **[RedneckGDX](../redneckgdx.md)** (Java, Custom, beta)
 - **[Rednukem](../rednukem.md)** (C++, Custom, beta)
 - **[remc2](../remc2.md)** (C, GPL-3.0, mature)

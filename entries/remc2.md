@@ -10,6 +10,7 @@
 - Code language: C
 - Code license: GPL-3.0
 - Code dependency: SDL
+- Developer: GrimSqueaker, Tim Hobbs, turican0
 
 Reverse engineering of Magic Carpet 2 from Assembler.
 

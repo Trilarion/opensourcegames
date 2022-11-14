@@ -7,5 +7,6 @@
 - Code language: GDScript
 - Code license: AGPL-3.0
 - Code dependency: Godot
+- Developer: Craig Smith, Divided by Zer0, jinchuan ma
 
 ## Building

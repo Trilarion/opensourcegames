@@ -8,6 +8,7 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL2
+- Developer: Fabien, Steven Noonan
 
 This is an Another World VM implementation. Based on Gregory Montoir's original work, the codebase has been cleaned up.
 

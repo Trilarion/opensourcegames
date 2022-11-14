@@ -5,7 +5,7 @@
 - Download: https://github.com/openMSX/openMSX/releases, https://sourceforge.net/projects/openmsx/files/
 - Platform: Windows, macOS, Android
 - Keyword: action, emulator
-- Code repository: https://github.com/openMSX/openMSX.git (@created 2015, @stars 270, @forks 60), https://git.code.sf.net/p/openmsx/openmsx (old), https://svn.code.sf.net/p/openmsx/code (old svn)
+- Code repository: https://github.com/openMSX/openMSX.git (@created 2015, @stars 320, @forks 72), https://git.code.sf.net/p/openmsx/openmsx (old), https://svn.code.sf.net/p/openmsx/code (old svn)
 - Code language: C++
 - Code license: GPL-2.0
 - Developer: Albert Beevendorp, Alex Wulms, Arnold Metselaar, boukichi, D15C0DE, David Heremans, Edwin, Eric Boon, Filip H.F. "FiXato" Slagter, Herman Oudejans, Joost Yervante Damad, Laurens Holst, Maarten ter Huurne, Manuel Bilderbeek, Max Feingold, Patrick van Arkel, peterhanraets, Reikan, Sandy Pleyte, sdsnatcher73, Sean Young, Wouter Vermaelen

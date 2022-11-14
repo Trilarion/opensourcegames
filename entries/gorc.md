@@ -4,7 +4,7 @@
 - Inspiration: Star Wars Jedi Knight: Dark Forces II
 - State: beta
 - Keyword: remake, content commercial + original required, first-person, shooter
-- Code repository: https://github.com/jdmclark/gorc.git (@created 2013, @stars 91, @forks 9)
+- Code repository: https://github.com/jdmclark/gorc.git (@created 2013, @stars 101, @forks 10)
 - Code language: C++
 - Code license: Apache-2.0
 - Code dependency: SFML

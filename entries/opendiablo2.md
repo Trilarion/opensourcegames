@@ -8,6 +8,7 @@
 - Code repository: https://github.com/OpenDiablo2/OpenDiablo2.git
 - Code language: Go
 - Code license: GPL-3.0
+- Developer: Alexei Yatskov, AndrejMijic, Brendan Porter, danhale-git, David Carrell, Diego M., gravestench, Gürkan Kaymak, Huw Griffiths, Intyre, juander-ux, Julien Ganichot, Kacper Drobny, leahiel, liberodark, M.Sz., Matheus Cardoso, "Maxime Lavigne (malavv)", ndechiara, nicholas-eden, Panagiotis Georgiadis, presiyan-ivanov, Robin, Thomas Christlieb, Tim Sarbin, Will, Ziemas
 
 ## Building
 

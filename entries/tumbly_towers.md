@@ -6,11 +6,11 @@
 - Download: https://github.com/SteveSmith16384/TumblyTowers/releases
 - Platform: Windows, Linux
 - Keyword: puzzle, remake, content open, multiplayer, skill
-- Code repository: https://github.com/SteveSmith16384/TumblyTowers.git (@created 2019, @stars 4, @forks 0)
+- Code repository: https://github.com/SteveSmith16384/TumblyTowers.git (@created 2019, @stars 4, @forks 1)
 - Code language: Java
 - Code license: MIT
 - Code dependency: JBox2D
-- Developer: Steve Smith
+- Developer: Stephen Smith, Steve Smith
 
 ## Building
 

@@ -155,10 +155,10 @@ class EntryTransformer(lark.Transformer):
 
 class Value(str):
     """
-    A value is a string with some additional meta object (a comment) but mostly behaves as a string.
+    A value is a string with an additional meta-object (a comment) but mostly behaves as a string.
     """
 
-    def __new__(cls, value, comment):
+    def __new__(cls, value, comment=None):
         obj = str.__new__(cls, value)
         obj.comment = comment
         return obj

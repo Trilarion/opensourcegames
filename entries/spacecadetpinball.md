@@ -11,6 +11,7 @@
 - Code language: C++
 - Code license: MIT
 - Code dependency: SDL2
+- Developer: MaikelChan, Muzychenko Andrey
 
 Reverse engineering of 3D Pinball for Windows – Space Cadet
 

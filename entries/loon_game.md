@@ -5,7 +5,7 @@
 - Download: https://github.com/cping/LGame/releases
 - Platform: Windows, Linux, macOS
 - Keyword: framework, 2D, 3D
-- Code repository: https://github.com/cping/LGame.git (@created 2012, @stars 476, @forks 163)
+- Code repository: https://github.com/cping/LGame.git (@created 2012, @stars 503, @forks 168)
 - Code language: Java, C#
 - Code license: Apache-2.0
 - Developer: cping

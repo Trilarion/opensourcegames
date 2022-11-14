@@ -5,9 +5,9 @@
 - State: mature
 - Download: https://triplea-game.org/download/
 - Keyword: strategy
-- Code repository: https://github.com/triplea-game/triplea.git (@created 2015, @stars 290, @forks 100), https://svn.code.sf.net/p/triplea/code (svn)
+- Code repository: https://github.com/triplea-game/triplea.git (@created 2015, @stars 567, @forks 159), https://svn.code.sf.net/p/triplea/code (svn)
 - Code language: Java
 - Code license: GPL-2.0
-- Developer: alkexr, asvitkine, axisalliescontango, beelee1, Bernát Gábor, butterw, cbung, Cernelius, CharlieAtlas, Chris Duncan, ComradeKev, CrazyGerman, Dan Van Atta, Edwin van der Wal, Elreigh, emmanuel-perlow, frigoref, FrostionAAA, Keith Heppell, Kevin Moore, Lane Schwartz, Logan Bender, MelvinWM, Michael Hoover, Navalland2, Nikolaos Themelis, Ordo Flammae, Panther P2, Panther Too, prastle, redrum, regularkyd, RogerCooper, RoiEX, Ron, Sean Bridges, Simon Lenz, simon33-2, sneakingcoward, squid, Steven Soloff, trevan, tripleabuilderbot, WCSumpton, Wisconsin
+- Developer: alkexr, asvitkine, axisalliescontango, beelee1, Bernát Gábor, butterw, cbung, Cernelius, CharlieAtlas, Chris Duncan, codywestgard, ComradeKev, CrazyGerman, Dan Van Atta, Edwin van der Wal, Elreigh, emmanuel-perlow, frigoref, FrostionAAA, Keith Heppell, Kevin Moore, Lane Schwartz, Logan Bender, MelvinWM, Michael Hoover, Navalland2, Nikolaos Themelis, Ordo Flammae, Panther P2, Panther Too, prastle, redrum, regularkyd, RogerCooper, RoiEX, Ron, Sean Bridges, Simon Lenz, simon33-2, sneakingcoward, squid, Steven Soloff, trevan, tripleabuilderbot, WCSumpton, Wisconsin
 
 ## Building

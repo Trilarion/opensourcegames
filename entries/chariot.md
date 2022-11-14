@@ -8,5 +8,6 @@
 - Code language: Rust
 - Code license: MIT
 - Code dependency: SDL2
+- Developer: Alexandre Oliveira, Kevin Fuller, phrohdoh
 
 ## Building

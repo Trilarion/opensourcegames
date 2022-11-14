@@ -4,7 +4,7 @@
 - Inspiration: "Achtung, die Kurve!"
 - State: mature
 - Keyword: remake, skill
-- Code repository: https://github.com/pwmarcz/netacka.git (@created 2017, @stars 7, @forks 1)
+- Code repository: https://github.com/pwmarcz/netacka.git (@created 2017, @stars 9, @forks 1)
 - Code language: C
 - Code license: MIT
 - Code dependency: Allegro

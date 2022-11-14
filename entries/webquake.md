@@ -9,5 +9,6 @@
 - Code repository: https://github.com/Triang3l/WebQuake.git
 - Code language: JavaScript
 - Code license: GPL-2.0
+- Developer: Triang3l
 
 ## Building

@@ -6,7 +6,7 @@
 - Play: http://xproger.info/projects/OpenLara/
 - Platform: Windows, Linux, macOS, Android, iOS, Web
 - Keyword: action, remake, skill
-- Code repository: https://github.com/XProger/OpenLara.git (@created 2016, @stars 2704, @forks 230)
+- Code repository: https://github.com/XProger/OpenLara.git (@created 2016, @stars 4015, @forks 355)
 - Code language: C++, C
 - Code license: 2-clause BSD
 - Code dependency: WebGL

@@ -5,7 +5,7 @@
 - State: beta
 - Platform: Windows, Linux, macOS
 - Keyword: action, game engine, remake, content commercial + original required
-- Code repository: https://github.com/rwengine/openrw.git (@created 2015, @stars 1187, @forks 133)
+- Code repository: https://github.com/rwengine/openrw.git (@created 2015, @stars 1305, @forks 142)
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependency: SDL2

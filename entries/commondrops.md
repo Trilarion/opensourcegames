@@ -8,6 +8,7 @@
 - Code language: C++
 - Code license: MIT
 - Code dependency: SFML
+- Developer: Alejandro Kondrasky
 
 ## Building
 

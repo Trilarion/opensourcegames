@@ -10,7 +10,7 @@
 - Code license: MIT
 - Code dependency: jMonkeyEngine, SteveTech1
 - Assets license: (See licences against each asset folder)
-- Developer: Stephen Carlyle-Smith, Steve Smith
+- Developer: Stephen Carlyle-Smith, Stephen Smith, Steve Smith
 
 ## Building
 

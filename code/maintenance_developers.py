@@ -9,6 +9,7 @@ stored Git repositories.
 # TODO check for devs without contact after gitlab/bitbucket/..
 # TODO gitlab/bitbucket import
 # TODO wikipedia search for all with more than 3 games
+# TODO link check also for developers (also similar links w/wo slash at the end or http(s))
 
 import time
 from utils import osg, osg_ui

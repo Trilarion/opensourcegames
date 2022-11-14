@@ -8,6 +8,7 @@
 - Code repository: https://github.com/plowteam/donut.git
 - Code language: C, C++
 - Code license: GPL-3.0
+- Developer: Layla, Matt Stevens
 
 ## Building
 

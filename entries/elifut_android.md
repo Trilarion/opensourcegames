@@ -8,6 +8,7 @@
 - Code repository: https://github.com/EliFUT/android.git
 - Code language: Java, Kotlin
 - Code license: Apache-2.0
+- Developer: Felipe Lima
 
 ## Building
 

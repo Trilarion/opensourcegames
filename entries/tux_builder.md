@@ -5,7 +5,7 @@
 - State: beta
 - Platform: Windows, Linux, macOS
 - Keyword: platform
-- Code repository: https://github.com/Alzter/TuxBuilder.git (@created 2019, @stars 175, @forks 20)
+- Code repository: https://github.com/Alzter/TuxBuilder.git (@created 2019, @stars 194, @forks 23)
 - Code language: GDScript
 - Code license: GPL-3.0
 - Code dependency: Godot

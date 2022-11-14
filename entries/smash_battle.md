@@ -8,6 +8,6 @@
 - Code repository: https://github.com/DemonTPx/smashbattle.git
 - Code language: C++
 - Code license: GPL-2.0
-- Developer: Bert Hekman, Jeroen Groeneweg
+- Developer: Bert Hekman, Jeroen Groeneweg, Jordy Moos, Ray Burgemeestre
 
 ## Building

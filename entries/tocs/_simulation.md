@@ -7,7 +7,7 @@
 - **[Augustus](../augustus.md)** (C, C++, AGPL-3.0, mature)
 - **[Billiards](../billiards.md)** (Lua, Objective-C, GPL-3.0, beta, inactive since 2012)
 - **[Biogenesis](../biogenesis.md)** (Java, GPL-2.0, beta)
-- **[Black Shades Elite](../black_shades_elite.md)** (C, GPL-2.0, beta, inactive since 2007)
+- **[Black Shades Elite](../black_shades_elite.md)** (C, C++, GPL-2.0, beta, inactive since 2007)
 - **[Black Shades](../black_shades.md)** (C, GPL-3.0, mature)
 - **[Blackvoxel](../blackvoxel.md)** (C++, GPL-3.0, mature)
 - **[Bridge Command](../bridge_command.md)** (C++, GPL-2.0, mature)

@@ -6,7 +6,7 @@
 - Play: https://etg.dek.im/
 - Platform: Web
 - Keyword: cards, remake
-- Code repository: https://github.com/serprex/openEtG.git (@created 2013, @stars 34, @forks 19)
+- Code repository: https://github.com/serprex/openEtG.git (@created 2013, @stars 50, @forks 19)
 - Code language: JavaScript
 - Code license: MIT
 - Developer: Philip Dubé, Trevor Sayre, Wesley M. Botello-Smith

@@ -8,6 +8,7 @@
 - Code repository: https://github.com/Garux/netradiant-custom.git
 - Code language: C++, C
 - Code license: GPL-2.0
+- Developer: Ben Noordhuis, divVerent, Garux, germangar, Jānis Rūcis, mhofstra, Thomas Debesse, Thomas Köppe, Timothee "TTimo" Besset
 
 Level editor for id Tech based games.
 

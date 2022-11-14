@@ -10,6 +10,6 @@
 - Code language: Java
 - Code license: MIT
 - Code dependency: jMonkeyEngine
-- Developer: Steve Smith
+- Developer: Stephen Smith, Steve Smith
 
 ## Building

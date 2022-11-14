@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Colossal_Cave_Adventure
 - State: mature
 - Keyword: adventure, text-based
-- Code repository: https://github.com/brandon-rhodes/python-adventure.git (@created 2014, @stars 117, @forks 37)
+- Code repository: https://github.com/brandon-rhodes/python-adventure.git (@created 2014, @stars 131, @forks 39)
 - Code language: Python
 - Code license: Apache-2.0
 - Developer: Brandon Rhodes, Don Woods, Jim Gilloghy (@port), William Crowther

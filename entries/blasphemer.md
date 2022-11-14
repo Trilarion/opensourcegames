@@ -4,7 +4,7 @@
 - Media: https://www.indiedb.com/games/blasphemer
 - State: mature, inactive since 2017
 - Keyword: action, content open, first-person, shooter
-- Code repository: https://github.com/Blasphemer/blasphemer.git (@created 2015, @stars 50, @forks 8)
+- Code repository: https://github.com/Blasphemer/blasphemer.git (@created 2015, @stars 64, @forks 8)
 - Code language: None (content only), Python
 - Code license: None (content only)
 - Code dependency: Heretic

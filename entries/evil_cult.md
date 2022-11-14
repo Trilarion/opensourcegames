@@ -6,7 +6,7 @@
 - Play: https://www.infidel.rocks/static/cult/index.html
 - Platform: Web
 - Keyword: strategy, turn-based
-- Code repository: https://github.com/infidel-/cult.git (@created 2015, @stars 15, @forks 4)
+- Code repository: https://github.com/infidel-/cult.git (@created 2015, @stars 16, @forks 5)
 - Code language: Haxe, JavaScript
 - Code license: GPL-3.0
 - Developer: Chris Oelmueller, Max Kowarski (@lead)

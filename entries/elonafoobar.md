@@ -5,7 +5,7 @@
 - State: mature
 - Platform: Windows, Linux, macOS
 - Keyword: remake, role playing, content commercial, roguelike
-- Code repository: https://github.com/elonafoobar/elonafoobar.git (@archived, @created 2018, @stars 141, @forks 35)
+- Code repository: https://github.com/elonafoobar/elonafoobar.git (@archived, @created 2018, @stars 147, @forks 32)
 - Code language: C++, Lua
 - Code license: MIT
 - Code dependency: SDL2

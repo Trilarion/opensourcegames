@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://freeso.org/download/
 - Keyword: game engine, remake, simulation, content original required
-- Code repository: https://github.com/riperiperi/FreeSO.git (@created 2015, @stars 570, @forks 75)
+- Code repository: https://github.com/riperiperi/FreeSO.git (@created 2015, @stars 692, @forks 81)
 - Code language: C#
 - Code license: MPL-2.0
 - Code dependency: MonoGame

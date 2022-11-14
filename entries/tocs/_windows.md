@@ -348,7 +348,7 @@
 - **[OpenTomb](../opentomb.md)** (C, C++, Lua, LGPL-3.0, beta)
 - **[OpenTyrian](../opentyrian.md)** (C, GPL-2.0, beta, inactive since 2018)
 - **[OpenVIII](../openviii.md)** (C#, MIT, beta)
-- **[OPMon](../opmon.md)** (C++, GPL-3.0, beta)
+- **[OPMon](../opmon.md)** (C++, GDScript, GPL-3.0, beta)
 - **[opsu!](../opsu.md)** (Java, GPL-3.0, mature)
 - **[Oreon Engine](../oreon_engine.md)** (Java, GPL-3.0, mature)
 - **[osu!](../osu.md)** (C#, MIT, beta)

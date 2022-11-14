@@ -6,6 +6,7 @@ Counts the number of records each sub-folder and updates the overview.
 Sorts the entries in the contents files of each sub folder alphabetically.
 """
 
+# TODO replace all "".format() with f""
 # TODO check for within an entry for similar dev names
 # TODO wikipedia (media search) for popular ones at least
 # TODO google search (for homepages or media entries) for popular ones at least

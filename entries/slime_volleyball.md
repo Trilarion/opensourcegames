@@ -4,7 +4,7 @@
 - Inspiration: Slime Volleyball
 - State: beta
 - Keyword: arcade, clone, content open, multiplayer competitive + split-screen, skill
-- Code repository: https://github.com/highfestiva/life.git (includes multiple games, @created 2016, @stars 6, @forks 0)
+- Code repository: https://github.com/highfestiva/life.git (includes multiple games, @created 2016, @stars 9, @forks 0)
 - Code language: C++
 - Code license: 3-clause BSD
 - Developer: highfestiva, Jonas Byström

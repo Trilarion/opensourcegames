@@ -21,7 +21,7 @@ blog_alias = {'http://k776.tumblr.com/': 'https://k776.tumblr.com/',
               'http:\\www.vampier.net': 'https://www.vampier.net/'}
 ignored_blogs = ('https://uto.io',)
 
-ignored_languages = ('CSS', 'HTML', 'CMake', 'XSLT', 'ShaderLab')
+ignored_languages = ('CSS', 'HTML', 'CMake', 'XSLT', 'ShaderLab', 'Shell')
 language_aliases = {'VBA': 'Visual Basic', 'Common Lisp': 'Lisp', 'Game Maker Language': 'Game Maker Script',
                     'NewLisp': 'Lisp', 'Awk': 'AWK', 'Visual Basic': 'Basic', 'FreeBasic': 'Basic'}
 
@@ -91,6 +91,8 @@ def github_import():
                 print('  GH repo {}'.format(repo))
 
                 info = osg_github.retrieve_repo_info(repo, token=private_properties['github-token'])
+                if info is None:
+                    continue
 
                 new_comments = []
                 # is archived
@@ -114,6 +116,8 @@ def github_import():
                 for r in code_repositories:
                     if r.startswith(repo):
                         break
+                if type(r) is not osg_parse.Value:
+                    r = osg_parse.Value(r)  # if there was no comment yet, make one
                 comments = r.comment
                 if comments:
                     comments = comments.split(',')

@@ -8,7 +8,7 @@
 - Code repository: https://github.com/ttdpatch/ttdpatch.git (@created 2017, @stars 7, @forks 2)
 - Code language: Assembly, C, C++
 - Code license: GPL-2.0
-- Developer: Csaba Varga, Dale McCoy, Jonathan G Rennison, Steven Hoefel
+- Developer: Csaba Varga, Dale McCoy, Jonathan G Rennison, Steven Hoefel, uzurpatorex
 
 Tool of Transport Tycoon.
 Patch sets for Transport Tycoon Deluxe.

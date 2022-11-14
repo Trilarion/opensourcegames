@@ -4,7 +4,7 @@
 - State: mature, inactive since 2013
 - Platform: Windows, Linux
 - Keyword: game engine
-- Code repository: https://github.com/nicolasgramlich/AndEngine.git (@created 2011, @stars 3110, @forks 1389)
+- Code repository: https://github.com/nicolasgramlich/AndEngine.git (@created 2011, @stars 3141, @forks 1372)
 - Code language: Java
 - Code license: Apache-2.0
 - Developer: Janne Sinivirta, Michal Stawinski, Nicolas Gramlich, rodrigo moraes

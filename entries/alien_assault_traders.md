@@ -6,7 +6,7 @@
 - Download: https://sourceforge.net/projects/aatrade/files/
 - Platform: Web
 - Keyword: strategy, online, space, turn-based
-- Code repository: https://github.com/tarnus/aatraders.git (@created 2013, @stars 4, @forks 5), https://gitlab.com/osgames/aatraders.git @add (@created 2018, @stars 1, @forks 0)
+- Code repository: https://github.com/tarnus/aatraders.git (@created 2013, @stars 5, @forks 4), https://gitlab.com/osgames/aatraders.git @add (@created 2018, @stars 1, @forks 0)
 - Code language: PHP
 - Code license: GPL-2.0
 - Developer: Mark Dickenson, Rick Thomson, tarnus

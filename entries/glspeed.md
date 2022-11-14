@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/jval1972/Speed#downloads
 - Keyword: remake, simulation, content commercial + original required, racing
-- Code repository: https://github.com/jval1972/Speed.git (@created 2020, @stars 6, @forks 0)
+- Code repository: https://github.com/jval1972/Speed.git (@created 2020, @stars 9, @forks 2)
 - Code language: Pascal, C
 - Code license: GPL-2.0
 - Code dependency: OpenGL, Doom engine

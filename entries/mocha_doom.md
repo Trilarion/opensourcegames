@@ -8,6 +8,6 @@
 - Code repository: https://github.com/AXDOOMER/mochadoom.git, http://mochadoom.cvs.sourceforge.net (cvs)
 - Code language: Java
 - Code license: GPL-3.0
-- Developer: Finn Wilcox, Jodwin, Velktron
+- Developer: Alexandre-Xavier Labonté-Lamoureux, Finn Wilcox, Good Sign, Jodwin, Velktron
 
 ## Building

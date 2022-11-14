@@ -8,6 +8,7 @@
 - Code repository: https://github.com/guillaumechereau/goxel.git
 - Code language: C, C++
 - Code license: GPL-3.0
+- Developer: Guillaume Chereau, ntfwc, Ugurcan Sari
 
 ## Building
 

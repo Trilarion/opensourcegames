@@ -6,7 +6,7 @@
 - Download: https://f-droid.org//packages/com.drodin.tuxrider/
 - Platform: Android
 - Keyword: arcade, 3D, content open, racing, skill
-- Code repository: https://github.com/drodin/TuxRider.git (@created 2010, @stars 28, @forks 14)
+- Code repository: https://github.com/drodin/TuxRider.git (@created 2010, @stars 31, @forks 15)
 - Code language: C
 - Code license: GPL-2.0
 - Developer: drodin

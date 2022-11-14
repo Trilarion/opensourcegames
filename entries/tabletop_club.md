@@ -7,6 +7,7 @@
 - Code language: GDScript
 - Code license: MIT
 - Code dependency: Godot
+- Developer: drwhut, Heimen Stoffels, Leona 'leo' Gottfried, Sean Kuehl, "Weblate (bot)"
 
 ## Building
 

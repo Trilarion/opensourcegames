@@ -8,6 +8,7 @@
 - Code repository: https://github.com/gurkenlabs/litiengine.git
 - Code language: Java
 - Code license: MIT
+- Developer: Calvin M.T., ddreimane, Gamebuster, Jannis Weis, jdeblander, jluech, Matthias, niels89, Steffen, TheRamenChef
 
 ## Building
 

@@ -32,8 +32,18 @@ jobs:
           cd code
           pip install -r requirements.txt
 
-      - name: Parse
+      - name: Parse entries
         run: |
           cd code
-          python3 -c "from  utils.osg import read_entries; read_entries()"
+          python3 -c "from utils.osg import read_entries; read_entries()"
+
+      - name: Parse inspirations
+        run: |
+          cd code
+          python3 -c "from utils.osg import read_inspirations; read_inspirations()"
+          
+      - name: Parse developers
+        run: |
+          cd code
+          python3 -c "from utils.osg import read_developers; read_developers()"
   

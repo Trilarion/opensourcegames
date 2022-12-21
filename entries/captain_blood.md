@@ -6,7 +6,7 @@
 - State: mature
 - Platform: Windows
 - Keyword: action, adventure, content original required
-- Code repository: https://github.com/storm-devs/captain-blood
+- Code repository: https://github.com/storm-devs/captain-blood.git
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: PhysX

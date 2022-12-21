@@ -1,0 +1,43 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Update metadata
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "master" branch
+  push:
+    branches: 
+  pull_request:
+    branches: 
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  parse-metadata:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Pip install
+        run: |
+          cd code
+          pip install -r requirements.txt
+
+      - name: Update statistics
+        run: |
+          cd code
+          python3 -c "from maintenance_entries import EntriesMaintainer; maintainer = EntriesMaintainer(); maintainer.read_entries(); maintainer.update_statistics()"
+
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -m "Update statistics" -a
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}

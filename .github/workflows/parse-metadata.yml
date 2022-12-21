@@ -46,4 +46,3 @@ jobs:
         run: |
           cd code
           python3 -c "from utils.osg import read_developers; read_developers()"
-  

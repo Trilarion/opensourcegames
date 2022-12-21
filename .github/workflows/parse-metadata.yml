@@ -28,10 +28,12 @@ jobs:
           python-version: '3.10'
 
       - name: Pip install
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cd code
           pip install -r requirements.txt
+
+      - name: Parse
+        run: |
+          cd code
           python3 -c "from  utils.osg import read_entries; read_entries()"
   

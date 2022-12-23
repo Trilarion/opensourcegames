@@ -16,4 +16,3 @@ C++ and Lua framework for building interactive applications.
 - Build system: CMake
 
 [Build Instructions](https://github.com/ivansafrin/Polycode/blob/master/BUILD.md)
-

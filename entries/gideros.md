@@ -10,5 +10,4 @@
 - Code license: ? (different for each part MIT, LPGL)
 - Developer: Anthony Ball, Antonio Calatrava, Apollo144, Arturs Sosins, Atılım Çetin, bugcaptor, Görkem Çetin, hitonn, John Blackburn, keszegh, Lucas Souchet, Marcelo Silva, mokalux, MultiPain, Nicolas Bouquet, Nikolay Yevstakhov, Paul Reilly, paul-reilly, tkhnoman, totebo
 
-
 ## Building

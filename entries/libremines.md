@@ -13,7 +13,6 @@
 - Assets license: CC-BY-SA-4.0
 - Developer: Bollos00, SecularSteve
 
-
 ## Building
 
 - Build system: CMake

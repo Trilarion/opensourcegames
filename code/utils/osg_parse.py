@@ -132,9 +132,10 @@ class EntryTransformer(lark.Transformer):
         :param x:
         :return:
         """
+        x = ''.join(x).strip()
         if not x:
             raise lark.Discard
-        return 'Note', ''.join(x)
+        return 'Note', x
 
     def building(self, x):
         """

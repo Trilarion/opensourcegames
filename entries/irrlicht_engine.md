@@ -12,4 +12,3 @@
 ## Building
 
 Includes manually created MSVC project files in the source folder.
-

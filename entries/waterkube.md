@@ -10,7 +10,6 @@
 - Code license: MIT
 - Developer: Peter Takacs
 
-
 ## Building
 
 - Build system: Make

@@ -15,4 +15,3 @@ Plugin-based, data-driven 2D-oriented game engine.
 ## Building
 
 Custom build generation script written in REBOL (see folder "code/build").
-

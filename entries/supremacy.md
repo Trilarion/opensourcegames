@@ -11,6 +11,6 @@
 - Developer: Mike Strobel
 
 Empire-building strategy game on the galactic level.
-See also the [forum](https://www.armadafleetcommand.com/onscreen/botf/viewforum.php?f=300) with recent activity. 
+See also the [forum](https://www.armadafleetcommand.com/onscreen/botf/viewforum.php?f=300) with recent activity.
 
 ## Building

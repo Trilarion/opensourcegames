@@ -12,5 +12,3 @@
 Play as a colonist on a new planet with your new husband.
 
 ## Building
-
-

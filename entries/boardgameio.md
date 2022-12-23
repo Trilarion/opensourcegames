@@ -15,5 +15,3 @@ Notable projects: https://boardgame.io/documentation/#/notable_projects
 Platform: https://github.com/freeboardgames/FreeBoardGames.org
 
 ## Building
-
-

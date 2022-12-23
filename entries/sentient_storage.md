@@ -10,5 +10,3 @@
 - Developer: Blake O'Hare, Christine Sandquist, ikanreed, SpearsDRacona
 
 ## Building
-
-

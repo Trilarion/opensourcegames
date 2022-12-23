@@ -13,4 +13,3 @@ Desktop/Android/BlackBerry/iOS/HTML5 Java game development framework.
 ## Building
 
 Maven, gradle
-

@@ -24,4 +24,3 @@ Engine is called Pyrogenesis.
 See [instructions](https://trac.wildfiregames.com/wiki/GettingStartedProgrammers)
 
 Has solution files for MSVC 2015, might also use premake.
-

@@ -13,5 +13,3 @@ Open source version of the engine used in the Alone in the Dark and sequels.
 Requires original, proprietary content.
 
 ## Building
-
-

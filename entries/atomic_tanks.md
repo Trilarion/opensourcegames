@@ -14,5 +14,3 @@
 - Developer: Billy Buerger, CtHx Ъ, Jesse Smith, Juraj Michalek, Keilaron, Neil Graeme Matthews, Sven Eden, Thomas Hudson, ubr47k
 
 ## Building
-
-

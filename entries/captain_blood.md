@@ -1,13 +1,13 @@
 # Captain Blood
 
-- Home: https://www.gamespot.com/games/captain-blood/
+- Home: https://github.com/storm-devs/captain-blood
 - Media: https://en.wikipedia.org/wiki/Age_of_Pirates:_Captain_Blood
 - Inspiration: Age of Pirates: Captain Blood, God of War
 - State: mature
 - Platform: Windows
 - Keyword: action, adventure, content original required
-- Code repository: https://github.com/storm-devs/captain-blood
-- Code language: C++
+- Code repository: https://github.com/storm-devs/captain-blood.git
+- Code language: C++, C
 - Code license: GPL-3.0
 - Code dependency: PhysX
 

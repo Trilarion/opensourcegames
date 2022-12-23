@@ -12,5 +12,3 @@
 Implementation of the Microsoft XNA 4 Framework.
 
 ## Building
-
-

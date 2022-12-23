@@ -13,4 +13,3 @@
 ## Building
 
 See the [Hammer script](https://github.com/worldforge/hammer) build tool.
-

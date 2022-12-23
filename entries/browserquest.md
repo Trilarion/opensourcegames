@@ -11,5 +11,3 @@
 - Developer: Aaron Hill, Dylen Brandon Rivera, Franck Lecollinet, Guillaume Lecollinet, Lukas Shawford, Myles Recny, Steve Gricci, William Bowers
 
 ## Building
-
-

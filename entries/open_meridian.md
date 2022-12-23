@@ -13,5 +13,3 @@
 Meridian 59 is a long-running medieval fantasy combat and adventure MMO.
 
 ## Building
-
-

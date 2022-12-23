@@ -12,7 +12,6 @@
 
 Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nukem 3D, Blood, Redneck Rampage, Shadow Warrior and Exhumed/Powerslave in a single package.
 
-
 ## Building
 
 - Build system: CMake

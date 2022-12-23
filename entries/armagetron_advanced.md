@@ -14,5 +14,3 @@
 Simple action game modeled after the lightcycle sequence of the movie Tron.
 
 ## Building
-
-

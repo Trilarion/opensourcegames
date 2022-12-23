@@ -498,7 +498,7 @@ def create_entry_content(entry):
         if field in entry:
             values = entry[field]
             entry[field] = sorted(values, key=sort_fun)
-    # we also sort keywords, but first the recommend ones and then other ones
+    # we also sort keywords, but first the recommended ones and then other ones
     keywords = entry['Keyword']
     a = [x for x in keywords if x in c.recommended_keywords]
     b = [x for x in keywords if x not in c.recommended_keywords]
@@ -515,7 +515,7 @@ def create_entry_content(entry):
 
     # if there is a note, insert it
     if 'Note' in entry:
-        content += entry['Note']
+        content += entry['Note'].strip() + '\n\n'
 
     # building header
     content += '## Building\n'

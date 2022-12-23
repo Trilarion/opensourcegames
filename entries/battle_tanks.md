@@ -14,5 +14,3 @@
 Fast 2D tank arcade game with multiplayer and split-screen modes.
 
 ## Building
-
-

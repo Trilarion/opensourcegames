@@ -18,4 +18,3 @@ Modifies [Freeciv](freeciv.md) slightly and uses it as server.
 ## Building
 
 Maven, Docker
-

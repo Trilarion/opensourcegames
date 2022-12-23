@@ -9,5 +9,3 @@
 - Developer: Andrzej Kilijański, Benedikt Magnus, Eugene Loza, Jan Adamec, Kagamma, Matthias, Michalis Kamburelis, Sven, Tomasz W
 
 ## Building
-
-

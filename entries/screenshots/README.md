@@ -1982,6 +1982,12 @@ from running the game or from youtube play videos.
 
 01 204 128 http://lemmini.de/lemmini_screenshot_win.png
 
+# remnants_of_the_precursors
+
+01 0 0 https://img.itch.zone/aW1hZ2UvMTc1MzcwLzgxODM2My5qcGc=/original/f7%2Fd9g.jpg
+02 0 0 https://img.itch.zone/aW1hZ2UvMTc1MzcwLzgxODM3My5wbmc=/original/hR1W%2Bh.png
+03 0 0 https://img.itch.zone/aW1hZ2UvMTc1MzcwLzgxODM1Ny5qcGc=/original/FdNZv8.jpg
+
 # lgeneral
 
 01 170 128 https://lgames.sourceforge.io/LGeneral/ss0.jpg

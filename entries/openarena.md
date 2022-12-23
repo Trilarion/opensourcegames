@@ -13,5 +13,3 @@
 - Developer: Anthony Pesch, Ensiform, hairball, Jack Slater, James Canete, Jeremiah Sypult, leilei-, Ludwig Nussel, Poul Sander, Richard Allen, Ryan C. Gordon, Sui Jingfeng, Thilo Schulz, Tim Angus, Tony White, Zack Middleton, zturtleman
 
 ## Building
-
-

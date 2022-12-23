@@ -11,5 +11,3 @@
 - Developer: Estevao Fonseca
 
 ## Building
-
-

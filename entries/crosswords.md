@@ -11,7 +11,6 @@
 - Code license: GPL-2.0
 - Developer: Eric House
 
-
 ## Building
 
 - Build system: Gradle

@@ -10,5 +10,3 @@
 - Developer: BRULE Herman Jacques Roger, rrfvtgb
 
 ## Building
-
-

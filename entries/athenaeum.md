@@ -12,5 +12,3 @@
 Game library management tool.
 
 ## Building
-
-

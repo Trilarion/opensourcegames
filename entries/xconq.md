@@ -15,5 +15,3 @@ One of the first such projects.
 See also https://github.com/brentjohnson/xconq
 
 ## Building
-
-

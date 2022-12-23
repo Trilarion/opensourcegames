@@ -13,5 +13,3 @@
 Dig through caves collecting gems.
 
 ## Building
-
-

@@ -221,3 +221,9 @@ xrick (http://www.bigorno.net/xrick): No open source license/unclear license (se
 Yave (https://github.com/gan74/Yave): General graphics engine, not game centered in any way and experimental
 Yuris Revenge (https://github.com/cookgreen/Yuris-Revenge): Mod to OpenRA
 zedragon (https://github.com/charlierobson/zedragon.git): License not found, Assembly, not sure which OS is supported, no release, not much guidance
+2ooM (https://toom.sourceforge.net/home/): Pre-alpha
+Atari8bit_StarRaiders (https://github.com/sidneycadot/Atari8bit_StarRaiders.git): No license, not playable
+BattleCity2014 (https://github.com/ggc87/BattleCity2014.git): No license, unclear state
+Bedlam 2: Absolute Bedlam (https://github.com/8street/Bedlam2.git): No license
+BloonsTowerDefense6 (https://github.com/wtfaremyinitials/BloonsTowerDefense6): No license, alpha, abandoned
+Blues (https://github.com/cyxx/blues): No license, archived

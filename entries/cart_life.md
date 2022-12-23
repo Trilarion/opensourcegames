@@ -15,5 +15,3 @@
 On a pixel-grid in grayscale, with minimal detail.
 
 ## Building
-
-

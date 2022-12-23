@@ -12,5 +12,3 @@
 See also: [spin-off](https://github.com/horacioMartinez/argentumonline.io), [server mod](https://sourceforge.net/projects/aoserverbyshura/).
 
 ## Building
-
-

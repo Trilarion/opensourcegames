@@ -13,5 +13,3 @@
 Allows you to play chess with other users.
 
 ## Building
-
-

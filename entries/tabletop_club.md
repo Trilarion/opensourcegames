@@ -10,5 +10,3 @@
 - Developer: drwhut, Heimen Stoffels, Leona 'leo' Gottfried, Sean Kuehl, "Weblate (bot)"
 
 ## Building
-
-

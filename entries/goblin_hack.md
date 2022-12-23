@@ -11,5 +11,3 @@
 - Developer: anatoly techtonik, goblinhack, GoblinHack, Neil McGill, paul.radioactive, Richard Franks, Roger Koot
 
 ## Building
-
-

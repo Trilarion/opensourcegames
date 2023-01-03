@@ -62,6 +62,7 @@ https://github.com/design1online/WTF-Adventure
 https://github.com/domeengine/dome
 https://github.com/dtrajko/MoravaEngine
 https://github.com/dulsi (all there)
+https://github.com/emileb/d3es-multithread
 https://github.com/excaliburjs/Excalibur
 https://github.com/GDQuest/godot-steering-ai-framework
 https://github.com/gecko0307/dagon
@@ -71,11 +72,13 @@ https://github.com/googleforgames/open-match
 https://github.com/grapfx
 https://github.com/Grimmys/rpg_tactical_fantasy_game
 https://github.com/groverburger/g3d
+https://github.com/gustaYo/vue-chess
 https://github.com/halftheopposite/TOSIOS
 https://github.com/hiitiger/goverlay
 https://github.com/hugoam/two
 https://github.com/increpare/PuzzleScript
 https://github.com/jarikomppa/soloud
+https://github.com/jhasse/jngl
 https://github.com/jmorton06/Lumos
 https://github.com/jobtalle/Koi
 https://github.com/jpaver/opengametools
@@ -83,7 +86,6 @@ https://github.com/Kaetram/Kaetram-Open
 https://github.com/Kavex/GameDev-Resources
 https://github.com/kripken/BananaBread
 https://github.com/loudsmilestudios/TetraForce
-https://github.com/MattSurabian/DuckHunt-JS
 https://github.com/mgerhardy/engine
 https://github.com/michaelday008/AnyRPGCore
 https://github.com/minetest/irrlicht
@@ -91,9 +93,11 @@ https://github.com/moddio/taro
 https://github.com/MrFrenik/gunslinger
 https://github.com/ondras/rot.js
 https://github.com/open-telemetry/opentelemetry-cpp
+https://github.com/piqueserver/piqueserver
 https://github.com/QodotPlugin/qodot-plugin
 https://github.com/Razakhel/RaZ
 https://github.com/Relintai/broken_seals
+https://github.com/remance/Masendor
 https://github.com/samdauwe/BabylonCpp
 https://github.com/SamVanheer/halflife-updated
 https://github.com/SasLuca/rayfork

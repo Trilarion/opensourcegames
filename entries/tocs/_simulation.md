@@ -32,6 +32,7 @@
 - **[Eat The Whistle](../eat_the_whistle.md)** (C, ?, mature, inactive since 2017)
 - **[Ecksdee](../ecksdee.md)** (C++, GPL-2.0, beta, inactive since 2009)
 - **[EliFUT Android](../elifut_android.md)** (Java, Kotlin, Apache-2.0, mature)
+- **[Elite remake](../elite_remake.md)** (C, 3-clause BSD, mature, inactive since 2008)
 - **[Emilia Pinball](../emilia_pinball.md)** (C++, GPL-2.0, beta)
 - **[F-1 Spirit](../f-1_spirit.md)** (C++, ?, beta, inactive since 2009)
 - **[Fairy-Max](../fairy-max.md)** (C, Custom, mature, inactive since 2018)

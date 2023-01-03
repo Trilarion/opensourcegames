@@ -9,6 +9,4 @@
 - Code language: C
 - Code license: Custom
 
-Source of Doom.
-
 ## Building

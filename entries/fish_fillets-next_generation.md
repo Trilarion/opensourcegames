@@ -6,7 +6,7 @@
 - State: mature
 - Download: http://fillets.sourceforge.net/download.php
 - Platform: Windows, Linux, macOS
-- Keyword: puzzle, port
+- Keyword: puzzle, content open, port
 - Code repository: https://git.code.sf.net/p/fillets/code-fillets-ng, https://git.code.sf.net/p/fillets/code-fillets_data @add, https://git.code.sf.net/p/fillets/code-fillets_web @add, http://fillets.cvs.sourceforge.net (cvs)
 - Code language: C++
 - Code license: GPL-2.0

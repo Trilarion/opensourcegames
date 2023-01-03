@@ -7,7 +7,6 @@ Uses
 - Simple-DataTables (https://github.com/fiduswriter/Simple-DataTables)
 
 Sitemap is not needed, only for large projects with lots of JavaScript und many pages that aren't discoverable.
-
 """
 
 # TODO tab: new filter tab (playable in a browser) with tiles (https://bulma.io/documentation/layout/tiles/) sorted by genre (just as normal list so far, no tiles yet)

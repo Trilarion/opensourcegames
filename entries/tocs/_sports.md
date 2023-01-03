@@ -4,6 +4,7 @@
 - **[Billiards](../billiards.md)** (Lua, Objective-C, GPL-3.0, beta, inactive since 2012)
 - **[Bygfoot](../bygfoot.md)** (Java, GPL-2.0, beta)
 - **[Cannon Smash](../cannon_smash.md)** (C++, GPL-2.0, beta, inactive since 2003)
+- **[Core Breach](../core_breach.md)** (C, Objective-C, GPL-2.0, mature, inactive since 2012)
 - **[Dust Racing 2D](../dust_racing_2d.md)** (C, C++, GPL-3.0, mature)
 - **[Emilia Pinball](../emilia_pinball.md)** (C++, GPL-2.0, beta)
 - **[FooBillard++](../foobillard++.md)** (C, GPL-2.0, mature, inactive since 2012)

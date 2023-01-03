@@ -1,4 +1,4 @@
-# fonline
+# FOnline
 
 - Home: https://fodev.net/
 - Inspiration: Fallout Online

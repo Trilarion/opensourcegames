@@ -5,6 +5,7 @@
 - **[adventure engine](../adventure_engine.md)** (Lua, MIT, mature, inactive since 2013)
 - **[Bladecoder Adventure Engine](../bladecoder_adventure_engine.md)** (Java, Apache-2.0, mature)
 - **[BrowserQuest](../browserquest.md)** (JavaScript, MPL-2.0, mature)
+- **[Captain Blood](../captain_blood.md)** (C++, C, GPL-3.0, mature)
 - **[Cat Mother Dead Justice](../cat_mother_dead_justice.md)** (C++, 3-clause BSD, GPL-2.0, beta, inactive since 2003)
 - **[Childsplay](../childsplay.md)** (Python, GPL-3.0, mature)
 - **[Colossal Cave Adventure](../colossal_cave_adventure.md)** (Python, Apache-2.0, mature)

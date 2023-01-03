@@ -4,9 +4,9 @@
 - Media: https://fr.wikipedia.org/wiki/Belote
 - State: beta
 - Download: https://mvnrepository.com/artifact/com.gitlab.bsarter.belote
-- Platform: Windows, Linux, macOs
+- Platform: Windows, Linux, macOS
 - Keyword: cards
-- Code repository: https://gitlab.com/bsarter/Belote
+- Code repository: https://gitlab.com/bsarter/Belote.git
 - Code language: Java
 - Code license: GPL-3.0
 - Code dependency: Apache-POI, DarkLaf

@@ -36,6 +36,7 @@
 - **[Esenthel Engine](../esenthel_engine.md)** (C, C++, Custom, beta)
 - **[EternalWinterWars](../eternalwinterwars.md)** (Java, MIT, beta, inactive since 2014)
 - **[ezEngine](../ezengine.md)** (C++, JavaScript, MIT, mature)
+- **[Fallout 2 Community Edition](../fallout_2_community_edition.md)** (C++, Custom, mature)
 - **[Fire Strike Retro](../fire_strike_retro.md)** (Java, Haxe, JavaScript, Ruby, PHP, MIT, mature)
 - **[Fish Rings for Android](../fish_rings_for_android.md)** (Java, GPL-3.0, mature, inactive since 2015)
 - **[Flappy Cow](../flappy_cow.md)** (Java, MIT, mature)

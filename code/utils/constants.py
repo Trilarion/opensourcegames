@@ -125,6 +125,7 @@ language_urls = {
     'MoonScript': 'https://moonscript.org/',
     'OCaml': 'https://en.wikipedia.org/wiki/OCaml',
     'Objective-C': 'https://en.wikipedia.org/wiki/Objective-C',
+    'Odin': 'http://odin-lang.org/',
     'ooc': 'https://ooc-lang.org/',
     'PHP': 'https://en.wikipedia.org/wiki/PHP',
     'Pascal': 'https://en.wikipedia.org/wiki/Pascal_(programming_language)',

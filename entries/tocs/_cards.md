@@ -2,6 +2,7 @@
 # Cards
 
 - **[Aisleriot](../aisleriot.md)** (C, Scheme, GPL-3.0, mature)
+- **[Belote](../belote.md)** (Java, GPL-3.0, beta)
 - **[BetterSpades](../betterspades.md)** (C, GPL-3.0, beta)
 - **[Card Stories](../card_stories.md)** (JavaScript, Python, AGPL-3.0, beta, inactive since 2012)
 - **[Deer Portal](../deer_portal.md)** (C++, zlib, beta)

@@ -444,7 +444,7 @@ def write_entries(entries):
         write_entry(entry)
 
 
-def write_entry(entry):
+def write_entry(entry, overwrite=True):
     """
 
     :param entry:
@@ -454,6 +454,8 @@ def write_entry(entry):
 
     # get path
     entry_path = os.path.join(c.entries_path, entry['File'])
+    if not overwrite and os.path.isfile(entry_path):
+        raise RuntimeError(f'File {entry_path} already existing and do not want to overwrite it.')
 
     # create output content
     content = create_entry_content(entry)

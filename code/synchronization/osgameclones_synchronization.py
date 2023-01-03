@@ -59,7 +59,9 @@ osgc_name_aliases = {'4DTris': '4D-TRIS', 'fheroes2': 'Free Heroes 2',
                      'super-methane-brothers-gx': 'Super Methane Brothers for Wii and GameCube',
                      'CrossUO: Ultima Online': 'CrossUO', 'OpMon': 'OPMon', '3DGE': 'EDGE', 'ironseed_fpc': 'Ironseed',
                      '2048-python': '2048 Python', 'Free Heroes 2 - Enhanced': 'Free Heroes 2',
-                     'KKnD': 'OpenKrush', 'bab-be-u': 'BAB BE U', 'urde': 'Metaforce', 'BananiaJS': 'Banania', 'CCOSS': 'Cortex Command - open source'}
+                     'KKnD': 'OpenKrush', 'bab-be-u': 'BAB BE U', 'urde': 'Metaforce', 'BananiaJS': 'Banania', 'CCOSS': 'Cortex Command - open source',
+                     'Dune 2 - The Maker - Java version': 'Dune II - The Maker', 'Doom': 'DOOM', 'Eat the Whistle': 'Eat The Whistle',
+                     'Fish Fillets NG': 'Fish Fillets - Next Generation'}
 
 # conversion between licenses syntax them and us
 osgc_licenses_map = {'GPL2': 'GPL-2.0', 'GPL3': 'GPL-3.0', 'AGPL3': 'AGPL-3.0', 'LGPL3': 'LGPL-3.0',
@@ -76,7 +78,8 @@ osgc_ignored_entries = ["A Mouse's Vengeance", 'achtungkurve.com', 'AdaDoom3', '
                         'div-columns', 'div-pacman2600', 'div-pitfall', 'div-spaceinvaders2600', 'FreedroidClassic',
                         'FreeRails 2', 'Glest Advanced Engine', 'HeadOverHeels', 'Jumping Jack 2: Worryingly Familiar',
                         'Jumping Jack: Further Adventures', 'LixD', 'Meridian 59 German Server 112',
-                        'Meridian 59 Server 105', 'OpenGeneral', 'OpenKKnD', 'Tile World 2', 'BattleCity', '1JETPACK.EXE']
+                        'Meridian 59 Server 105', 'OpenGeneral', 'OpenKKnD', 'Tile World 2', 'BattleCity', '1JETPACK.EXE',
+                        'D3es', 'Doom Classic for iOS']
 
 
 def unique_field_contents(entries, field):
@@ -572,7 +575,7 @@ if __name__ == "__main__":
 
             # finally write to file
             print(entry)
-            osg.write_entry(entry)
+            osg.write_entry(entry, False)
             newly_created_entries += 1
 
     # save updated screenshots if they could have changed

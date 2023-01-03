@@ -3,7 +3,7 @@
 - Home: https://dune2themaker.fundynamic.com
 - Media: https://en.wikipedia.org/wiki/Dune_II#Legacy
 - Inspiration: Dune 2
-- State: beta
+- State: beta, inactive since 2020
 - Download: https://dune2themaker.fundynamic.com/releases/
 - Platform: Windows
 - Keyword: remake, strategy, real-time
@@ -12,7 +12,7 @@
 - Code license: MIT
 - Developer: Arjen van der Ende, Stefan Hendriks
 
-Clone of the good old Dune II.
+Clone of Dune II.
 License of artwork?
 
 ## Building

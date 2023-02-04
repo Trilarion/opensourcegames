@@ -343,7 +343,7 @@ def check_and_process_entry(entry):
     canonical_file_name = canonical_name(entry['Title']) + '.md'
     # we also allow -X with X =2..9 as possible extension (because of duplicate canonical file names)
     if canonical_file_name != file and canonical_file_name != file[:-5] + '.md':
-        message += 'file name should be {}\n'.format(canonical_file_name)
+        message += 'File name should be {}\n'.format(canonical_file_name)
 
     # check that fields without comments have no comments (i.e. are no Values)
     for field in c.fields_without_comments:

@@ -75,6 +75,12 @@ https://github.com/groverburger/g3d
 https://github.com/gustaYo/vue-chess
 https://github.com/halftheopposite/TOSIOS
 https://github.com/hiitiger/goverlay
+https://github.com/GlistEngine/GlistEngine
+https://github.com/solenum/exengine
+https://github.com/alexbatalov/fallout1-re
+https://github.com/channingbreeze/games
+https://github.com/ArchaicQuest/ArchaicQuest-II
+https://github.com/alexbatalov/fallout2-re
 https://github.com/hugoam/two
 https://github.com/increpare/PuzzleScript
 https://github.com/jarikomppa/soloud
@@ -171,3 +177,6 @@ https://zdoom.org/downloads (gzdoom, lzdoom)
 https://zope.readthedocs.io/en/latest/
 Pinball Disk Room
 Seahorse Adventures
+https://github.com/LittleWhite-tb/PaciWar
+https://github.com/videogamepreservation
+https://github.com/ian-wigley/Xenon

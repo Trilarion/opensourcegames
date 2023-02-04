@@ -61,7 +61,9 @@ osgc_name_aliases = {'4DTris': '4D-TRIS', 'fheroes2': 'Free Heroes 2',
                      '2048-python': '2048 Python', 'Free Heroes 2 - Enhanced': 'Free Heroes 2',
                      'KKnD': 'OpenKrush', 'bab-be-u': 'BAB BE U', 'urde': 'Metaforce', 'BananiaJS': 'Banania', 'CCOSS': 'Cortex Command - open source',
                      'Dune 2 - The Maker - Java version': 'Dune II - The Maker', 'Doom': 'DOOM', 'Eat the Whistle': 'Eat The Whistle',
-                     'Fish Fillets NG': 'Fish Fillets - Next Generation'}
+                     'Fish Fillets NG': 'Fish Fillets - Next Generation', 'Minesweeper (Vue.js)': 'Minesweeper Vue.js',
+                     'Minesweeper (DouglasMeyer)': 'Minesweeper DouglasMeyer', 'OpenMF': 'MafiaUnity',
+                     'OpenRW "Open ReWrite"': 'OpenRW'}
 
 # conversion between licenses syntax them and us
 osgc_licenses_map = {'GPL2': 'GPL-2.0', 'GPL3': 'GPL-3.0', 'AGPL3': 'AGPL-3.0', 'LGPL3': 'LGPL-3.0',

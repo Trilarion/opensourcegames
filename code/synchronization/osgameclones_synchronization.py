@@ -61,9 +61,9 @@ osgc_name_aliases = {'4DTris': '4D-TRIS', 'fheroes2': 'Free Heroes 2',
                      '2048-python': '2048 Python', 'Free Heroes 2 - Enhanced': 'Free Heroes 2',
                      'KKnD': 'OpenKrush', 'bab-be-u': 'BAB BE U', 'urde': 'Metaforce', 'BananiaJS': 'Banania', 'CCOSS': 'Cortex Command - open source',
                      'Dune 2 - The Maker - Java version': 'Dune II - The Maker', 'Doom': 'DOOM', 'Eat the Whistle': 'Eat The Whistle',
-                     'Fish Fillets NG': 'Fish Fillets - Next Generation', 'Minesweeper (Vue.js)': 'Minesweeper Vue.js',
-                     'Minesweeper (DouglasMeyer)': 'Minesweeper DouglasMeyer', 'OpenMF': 'MafiaUnity',
-                     'OpenRW "Open ReWrite"': 'OpenRW'}
+                     'Fish Fillets NG': 'Fish Fillets - Next Generation',
+                     'OpenMF': 'MafiaUnity', 'OpenRW "Open ReWrite"': 'OpenRW', 'OpenArena (gladiator management game)': 'OpenArena',
+                     'Nodes of Yesnod remake': 'Nodes-of-Yesod'}
 
 # conversion between licenses syntax them and us
 osgc_licenses_map = {'GPL2': 'GPL-2.0', 'GPL3': 'GPL-3.0', 'AGPL3': 'AGPL-3.0', 'LGPL3': 'LGPL-3.0',
@@ -76,12 +76,12 @@ osgc_licenses_map = {'GPL2': 'GPL-2.0', 'GPL3': 'GPL-3.0', 'AGPL3': 'AGPL-3.0', 
 osgc_ignored_entries = ["A Mouse's Vengeance", 'achtungkurve.com', 'AdaDoom3', 'Agendaroids', 'Alien 8', 'Ard-Reil',
                         'Balloon Fight', 'bladerunner (Engine within SCUMMVM)', 'Block Shooter', 'Bomb Mania Reloaded',
                         'boulder-dash', 'Cannon Fodder', 'Contra_remake', 'CosmicArk-Advanced', 'datastorm',
-                        'Deuteros X',
+                        'Deuteros X', 'Minesweeper (DouglasMeyer)', 'Minesweeper (Vue.js)',
                         'div-columns', 'div-pacman2600', 'div-pitfall', 'div-spaceinvaders2600', 'FreedroidClassic',
                         'FreeRails 2', 'Glest Advanced Engine', 'HeadOverHeels', 'Jumping Jack 2: Worryingly Familiar',
                         'Jumping Jack: Further Adventures', 'LixD', 'Meridian 59 German Server 112',
                         'Meridian 59 Server 105', 'OpenGeneral', 'OpenKKnD', 'Tile World 2', 'BattleCity', '1JETPACK.EXE',
-                        'D3es', 'Doom Classic for iOS']
+                        'D3es', 'Doom Classic for iOS', 'Prince of Persia (JS) - princejs.com', 'PseuWoW', 'Raptor (JS)']
 
 
 def unique_field_contents(entries, field):
@@ -232,7 +232,7 @@ if __name__ == "__main__":
         print('Can un-ignore {} because not contained anymore in osgc with this name.'.format(_))
     osgc_entries = [x for x in osgc_entries if x['name'] not in osgc_ignored_entries + our_rejected_entries]
 
-    # fix names and licenses (so they are not longer detected as deviations downstreams)
+    # fix names and licenses (so they are no longer detected as deviations downstreams)
     _ = [x['name'] for x in osgc_entries if x['name'] in osgc_name_aliases.keys()]  # those that will be renamed
     _ = set(osgc_name_aliases.keys()) - set(_)  # those that shall be renamed minus those that will be renamed
     if _:

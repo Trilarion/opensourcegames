@@ -299,3 +299,28 @@ OpenLGR (https://github.com/james-knippes/openlgr.git): Not a separate project, 
 Nether Earth Remake (https://web.archive.org/web/20190608221012/http://www.braingames.getput.com/nether/): No license information, abandoned
 openstrike (https://github.com/AMDmi3/openstrike.git): GPL but abandoned and in early game state not playable, if continued activity should be included
 OpenNFS1 (https://github.com/jeff-1amstudios/OpenNFS1.git): No license information, opened issue about it but no answer yet
+Minesweeper Vue.js (https://github.com/aashrafh/minesweeper): No license information, opened issue about it but no answer yet
+opentesarena (https://github.com/pralinor/opentesarenapp.git): No license information, abandoned, very early development
+Phantasy (https://github.com/rafael-esper/Phantasy.git): No license information, abandoned
+JLud2D (https://github.com/rafael-esper/JLud2D): No license information, opened issue about it but no answer yet
+OutRun CPC (http://outruncpc.free.fr/): No license information, abandoned
+Pendomotion (https://github.com/Pafycio/Pendomotion.git): No license information, opened issue about it but no answer yet, looks promising
+Pipemania (https://github.com/zbiq13/Pipemania.git): No license information, abandoned
+PokeTraveler (https://github.com/pokemium/PokeTraveler.git): No license information, abandoned, archived
+Pokémon Polished Crystal (https://github.com/Rangi42/polishedcrystal.git, https://hax.iimarckus.org/topic/6874/): No license information, unlikely because disassembly of commercial code
+Prince of Persia Apple II (http://jordanmechner.com/books/journals, https://github.com/jmechner/Prince-of-Persia-Apple-II.git): No license information, unlikely to ever change, unsupported OS
+Prince of Persia JS - princejs.com (https://princejs.com/, https://github.com/oklemenz/PrinceJS.git): No license information, opened issue about it but no answer yet, looks great
+pucpr-ld-mario3 (https://github.com/jvlppm/pucpr-ld-mario3.git): No license information, no source code, very early development, abandoned
+Sea-Wolf (https://github.com/DanJP2016/Sea-Wolf.git): No license information, opened issue about it but no answer yet, looks fun
+Rtype (https://github.com/leurqum/Rtype.git): No license information, opened issue about it and too many people are involved, abandoned, will remain all rights reserved forever
+Robbo (https://github.com/Zibx/robbo.git): No license information, opened issue about it but no answer yet, looks promising
+Py1945 (https://code.google.com/archive/p/py1945game/source/default/source, https://code.google.com/archive/p/py1945game/): No license information, abandoned, very early development
+Reevengi (https://github.com/pmandin/reevengi.git): Just a background image viewer for some Resident Evil games, no game or general game tool
+REminiscence (http://cyxdown.free.fr/reminiscence/): No license information, abandoned, not on Github but on Sourceforge
+Robotron (https://notendur.hi.is/~odv1/Robotron/, https://github.com/Ernir/robotron.git): All rights reserved as answer to issue about it
+Rampart-Android (https://github.com/dwmai/Rampart-Android.git): No license information, opened issue about it
+ReC98 (https://rec98.nmlgc.net/, https://github.com/nmlgc/ReC98.git): All rights reserved, decompilation
+Ruby Raid (https://github.com/zukunftsalick/ruby-raid.git): No license information, abandoned, very early development
+roadfighter (https://github.com/ptitSeb/roadfighter.git): No license information, remake?, abandoned, looks promising
+Raptor JS (https://github.com/robgietema/raptor.git): No license information, abandoned
+pucpr-ld-parodius (https://github.com/jvlppm/pucpr-ld-parodius.git): No license information, no code

@@ -110,6 +110,7 @@ language_urls = {
     'Elm': 'https://en.wikipedia.org/wiki/Elm_(programming_language)',
     'Emacs Lisp': 'https://en.wikipedia.org/wiki/Emacs_Lisp',
     'F#': 'https://en.wikipedia.org/wiki/F_Sharp_(programming_language)',
+    'Fortran': 'https://en.wikipedia.org/wiki/Fortran',
     'GDScript': 'https://en.wikipedia.org/wiki/Godot_(game_engine)#Scripting',
     'Game Maker Script': 'https://en.wikipedia.org/wiki/GameMaker#GameMaker_Language',
     'Go': 'https://en.wikipedia.org/wiki/Go_(programming_language)',
@@ -149,7 +150,7 @@ language_urls = {
 
 known_languages = tuple(sorted(list(language_urls.keys()), key=str.casefold)) + ('None', '?')
 
-# known licenses, anything outside of this will result in a warning during a maintenance operation
+# known licenses, anything else will result in a warning during a maintenance operation
 # only these will be used when gathering statistics
 known_licenses = (
     '2-clause BSD', '3-clause BSD', '4-clause BSD', 'AFL-3.0', 'AGPL-3.0', 'Apache-2.0', 'Artistic License-1.0', 'Artistic License-2.0',

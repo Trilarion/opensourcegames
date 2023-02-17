@@ -4,7 +4,7 @@
 - Inspiration: Tyrian
 - State: beta, inactive since 2018
 - Platform: Windows
-- Keyword: action, remake, shooter
+- Keyword: action, remake, shooter, arcade
 - Code repository: https://github.com/opentyrian/opentyrian.git (@created 2020, @stars 279, @forks 46)
 - Code language: C
 - Code license: GPL-2.0

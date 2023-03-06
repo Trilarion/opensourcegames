@@ -324,3 +324,9 @@ Ruby Raid (https://github.com/zukunftsalick/ruby-raid.git): No license informati
 roadfighter (https://github.com/ptitSeb/roadfighter.git): No license information, remake?, abandoned, looks promising
 Raptor JS (https://github.com/robgietema/raptor.git): No license information, abandoned
 pucpr-ld-parodius (https://github.com/jvlppm/pucpr-ld-parodius.git): No license information, no code
+Secret Agent Remake (https://sourceforge.net/projects/secretagentremake/): No license information, inactive since 2015, looks promising could try to contact a maintainer
+SimUnity2 (https://github.com/LazyDuchess/SimUnity2.git): No license information, archived
+sm64ex (https://github.com/sm64pc/sm64ex.git): No license information, based on reverse-engineering, contributions from many different contributors
+Shining Soul Remake (https://github.com/CharlieIsMyName/ShiningSoulRemake.git): No license information, inactive since 2016, uses proprietary content, early development
+Sonic Adventure Toolset (https://github.com/sonicretro/sa_tools.git, http://info.sonicretro.org/SA_Tools): Tools for only a single game, no direct license information, could open an issue
+Shining Force 2 Reverse Engineer (https://github.com/ShiningForceCentral/SF2RE.git): No license information, reverse engineering / disassembly, most probably not FOSS licensable

@@ -63,7 +63,7 @@ osgc_name_aliases = {'4DTris': '4D-TRIS', 'fheroes2': 'Free Heroes 2',
                      'Dune 2 - The Maker - Java version': 'Dune II - The Maker', 'Doom': 'DOOM', 'Eat the Whistle': 'Eat The Whistle',
                      'Fish Fillets NG': 'Fish Fillets - Next Generation',
                      'OpenMF': 'MafiaUnity', 'OpenRW "Open ReWrite"': 'OpenRW', 'OpenArena (gladiator management game)': 'OpenArena',
-                     'Nodes of Yesnod remake': 'Nodes-of-Yesod'}
+                     'Nodes of Yesnod remake': 'Nodes-of-Yesod', 'Serious-Sam-Android': 'Serious Sam Android'}
 
 # conversion between licenses syntax them and us
 osgc_licenses_map = {'GPL2': 'GPL-2.0', 'GPL3': 'GPL-3.0', 'AGPL3': 'AGPL-3.0', 'LGPL3': 'LGPL-3.0',
@@ -81,7 +81,8 @@ osgc_ignored_entries = ["A Mouse's Vengeance", 'achtungkurve.com', 'AdaDoom3', '
                         'FreeRails 2', 'Glest Advanced Engine', 'HeadOverHeels', 'Jumping Jack 2: Worryingly Familiar',
                         'Jumping Jack: Further Adventures', 'LixD', 'Meridian 59 German Server 112',
                         'Meridian 59 Server 105', 'OpenGeneral', 'OpenKKnD', 'Tile World 2', 'BattleCity', '1JETPACK.EXE',
-                        'D3es', 'Doom Classic for iOS', 'Prince of Persia (JS) - princejs.com', 'PseuWoW', 'Raptor (JS)']
+                        'D3es', 'Doom Classic for iOS', 'Prince of Persia (JS) - princejs.com', 'PseuWoW', 'Raptor (JS)',
+                        'Shining Force 2 Reverse Engineer (SF2RE)']
 
 
 def unique_field_contents(entries, field):

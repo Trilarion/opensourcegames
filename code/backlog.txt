@@ -185,6 +185,7 @@ https://github.com/HackerN64/HackerSM64
 https://github.com/RetroReversing/retroReversing
 https://github.com/man-in-black382/PathFinder
 https://github.com/pspdev/psp-packages
+https://www.jaapsch.net/puzzles/javascript/lightjcl.htm
 https://github.blog/2023-02-03-ludum-dare-52-staff-picks/
 https://github.com/doldecomp/melee
 https://github.com/Oyun-Teknolojileri/ToolKit
@@ -194,6 +195,9 @@ https://github.com/jonof/jfbuild
 https://github.com/andrejnau/FlyCube
 https://felipepepe.medium.com/the-history-of-rpg-maker-its-games-c93685f41ae6
 https://github.com/videogamepreservation
+https://github.com/kenamick/savagewheels
+https://github.com/AMDmi3/funnyboat
+https://github.com/KranX/Vangers
 https://notwood.net/sgiflight/
 https://bluerenga.blog/
 https://www.eurogamer.net/from-abandoned-board-game-to-birthing-a-genre-football-manager-at-40
@@ -214,3 +218,14 @@ https://github.com/n64decomp/perfect_dark
 https://github.com/libsm64/libsm64
 https://github.com/doublespeakgames/adarkroom
 https://web.archive.org/web/20190106035150/http://www2.braingames.getput.com/
+https://github.com/YoYoGames/GameMaker-HTML5
+https://github.com/shibbo/Petari
+https://github.com/MrFrenik/gunslinger
+https://github.com/Clownacy/clownmdemu
+https://github.com/Illation/ETEngine
+https://github.com/adityaravishankar/command-and-conquer
+https://github.com/DaoCloud/dao-2048
+https://github.com/DavidSM64/Diddy-Kong-Racing
+https://github.com/CodeArtemis/TriggerRally
+https://github.com/orangeduck/Corange
+https://github.com/Zone-organization/Nuclear-Engine

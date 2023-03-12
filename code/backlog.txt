@@ -229,3 +229,8 @@ https://github.com/DavidSM64/Diddy-Kong-Racing
 https://github.com/CodeArtemis/TriggerRally
 https://github.com/orangeduck/Corange
 https://github.com/Zone-organization/Nuclear-Engine
+http://sundogresurrectionproject.com/
+https://github.com/fogleman/Craft
+https://github.com/fogleman/Minecraft
+https://github.com/fogleman/nes
+https://github.com/Poussinou/FLOSS-Games-on-Steam

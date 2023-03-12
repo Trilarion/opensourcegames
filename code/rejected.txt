@@ -330,3 +330,25 @@ sm64ex (https://github.com/sm64pc/sm64ex.git): No license information, based on 
 Shining Soul Remake (https://github.com/CharlieIsMyName/ShiningSoulRemake.git): No license information, inactive since 2016, uses proprietary content, early development
 Sonic Adventure Toolset (https://github.com/sonicretro/sa_tools.git, http://info.sonicretro.org/SA_Tools): Tools for only a single game, no direct license information, could open an issue
 Shining Force 2 Reverse Engineer (https://github.com/ShiningForceCentral/SF2RE.git): No license information, reverse engineering / disassembly, most probably not FOSS licensable
+Space-rangers (https://github.com/markevich/Space-rangers.git): No license information, abandoned, very early development?
+spaceroads (https://github.com/sebhd/spaceroads.git): No license information, abandoned, very early development?
+SpaceTwitch (https://github.com/KirbyAu2/SpaceTwitch.git): No license information, abandoned, very early development?
+Speedball 2 (http://bringerp.free.fr/RE/Speedball2/remake.php5): No license information, based on disassembly, but very impressive all games at http://bringerp.free.fr/RE/
+srceng-android (https://github.com/nillerusr/srceng-android.git): no license information, no information at all, not sure what it is: a game, a launcher, a streaming client
+stuntcarremake (https://github.com/ptitSeb/stuntcarremake.git): based on Stunt Car Racer Remake source base which is rejected too because of missing license
+Super Mario War (https://github.com/erlehmann/Super-Mario-War.git): No license information, opened issue about it, long abandoned
+Super Methane Brothers homebrew edition (https://github.com/carstene1ns/super-methane-brothers.git): Unsupported platform (Wii, GameCube)
+SuperMarioBros-C (https://github.com/MitchellSternke/SuperMarioBros-C.git): No license information, based on disassembly
+SwtPacMan (https://github.com/fogleman/SwtPacMan.git): No license information, long abandoned
+The-Great-Escape-in-C (https://github.com/dpt/The-Great-Escape-in-C.git): Strange license information, may be based on disassembly, opened issue about it
+THREEPunchOut (https://github.com/MattSzik/THREEPunchOut.git): No license information, long abandoned, opened issue about it
+Tron (https://github.com/momajd/Tron.git): No license information, long abandoned
+turnabout (https://github.com/sch/turnabout.git): No license information, long abandoned, early development
+TypeScript Xenon (https://github.com/ian-wigley/Xenon.git): No license information, opened issue about it
+UGH-remake (https://bitbucket.org/Andy51/ugh-remake): No license information, long abandoned, unsupported platform
+UiirJS (https://github.com/jaggedsoft/UiirJS.git): No licnese information, long abandoned, early development
+viper (https://github.com/bjornharrtell/viper.git): No license information, long abandoned, archived
+X-Settlers (https://github.com/Skarmux/X-Settlers.git): FOSS but too early development, not playable by far, should be watched, inactive since 2020
+OpenS4 (https://github.com/MadShadow-/OpenS4): FOSS but too early development, not playable by far, should be watched, inactive since 2020
+xit (https://github.com/qfel13/xit.git, https://qfel13.pl/xit/): No license information, opened issue about it, looks promising
+zSILENCER (https://github.com/zsilencer/zSILENCER.git, http://zsilencer.com/): No license information, opened issue about it, looks promising

@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://github.com/open-goal/jak-project/releases
 - Platform: Windows, Linux
-- Keyword: remake, content commercial + original required, engine, platform
+- Keyword: platform, remake, content commercial + original required, engine
 - Code repository: https://github.com/open-goal/jak-project.git
 - Code language: Lisp, C++
 - Code license: ISC

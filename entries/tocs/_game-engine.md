@@ -137,6 +137,7 @@
 - **[RuZZT](../ruzzt.md)** (Rust, MIT, beta)
 - **[Sanity Engine](../sanity_engine.md)** (C++, MPL-2.0, beta)
 - **[ScummVM](../scummvm.md)** (C++, GPL-2.0, mature)
+- **[Serious Sam Classic](../serious_sam_classic.md)** (C++, GPL-2.0, mature)
 - **[sfall](../sfall.md)** (C++, C, GPL-3.0, mature)
 - **[SGE Game Engine](../sge_game_engine.md)** (Python, LGPL-3.0, mature, inactive since 2017)
 - **[Sludge](../sludge.md)** (C, C++, Objective-C, LGPL-2.1, mature)

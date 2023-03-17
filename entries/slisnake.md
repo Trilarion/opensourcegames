@@ -5,7 +5,7 @@
 - State: mature, inactive since 2020
 - Download: https://github.com/cricri-pingouin/SliSnake/releases
 - Platform: Windows
-- Keyword: remake, content free, arcade
+- Keyword: arcade, remake, content free
 - Code repository: https://github.com/cricri-pingouin/SliSnake.git
 - Code language: Pascal
 - Code license: GPL-3.0

@@ -10,7 +10,7 @@
 - Code language: C
 - Code license: GPL-3.0
 - Assets license: GPL-3.0
-- Developer: Tom Rune Flo, Dmitry Marakasov
+- Developer: Dmitry Marakasov, Tom Rune Flo
 
 ## Building
 

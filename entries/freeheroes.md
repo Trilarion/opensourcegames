@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://github.com/mapron/FreeHeroes/releases
 - Platform: Windows
-- Keyword: remake, content commercial + original required, strategy
+- Keyword: remake, strategy, content commercial + original required
 - Code repository: https://github.com/mapron/FreeHeroes.git
 - Code language: C++
 - Code license: MIT

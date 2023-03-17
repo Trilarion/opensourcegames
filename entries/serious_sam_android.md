@@ -5,7 +5,7 @@
 - State: mature, inactive since 2020
 - Download: https://github.com/aarcangeli/Serious-Sam-Android/releases
 - Platform: Android
-- Keyword: remake, content commercial + original required, adventure
+- Keyword: adventure, remake, content commercial + original required
 - Code repository: https://github.com/aarcangeli/Serious-Sam-Android.git
 - Code language: C, C++
 - Code license: GPL-2.0

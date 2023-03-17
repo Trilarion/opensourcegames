@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/tx00100xt/SeriousSamClassic/releases, https://github.com/tx00100xt/SeriousSamClassic-VK/releases
 - Platform: Windows, Linux
-- Keyword: game engine, action, first-person, shooter, content original required
+- Keyword: action, game engine, content original required, first-person, shooter
 - Code repository: https://github.com/tx00100xt/SeriousSamClassic.git, https://github.com/tx00100xt/SeriousSamClassic-VK.git (add)
 - Code language: C++
 - Code license: GPL-2.0

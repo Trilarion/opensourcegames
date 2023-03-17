@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://stonekingdoms.itch.io/stone-kingdoms-rts, https://flathub.org/apps/details/io.gitlab.stone_kingdoms.StoneKingdoms
 - Platform: Windows, Linux
-- Keyword: clone, content commercial, strategy, realtime
+- Keyword: strategy, clone, content commercial, realtime
 - Code repository: https://gitlab.com/stone-kingdoms/stone-kingdoms.git
 - Code language: Lua
 - Code license: Apache-2.0

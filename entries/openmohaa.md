@@ -3,7 +3,7 @@
 - Home: https://openmohaa.sourceforge.net/, https://sourceforge.net/projects/openmohaa/
 - Inspiration: Medal of Honor: Allied Assault
 - State: beta
-- Keyword: remake, action, shooter
+- Keyword: action, remake, shooter
 - Code repository: https://github.com/openmoh/openmohaa.git
 - Code language: C, C++
 - Code license: GPL-2.0

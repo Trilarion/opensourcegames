@@ -47,6 +47,7 @@
 - **[Twine](../twine.md)** (JavaScript, TypeScript, GPL-3.0, mature)
 - **[UndertaleModTool](../undertalemodtool.md)** (C#, GPL-3.0, beta)
 - **[VGC](../vgc.md)** (C++, Apache-2.0, beta)
+- **[WAGE](../wage.md)** (Java, MIT, mature, inactive since 2017)
 - **[Wind Waker Randomizer](../wind_waker_randomizer.md)** (Python, Assembly, MIT, mature)
 - **[World Builder](../world_builder.md)** (Visual Basic, GPL-2.0, mature, inactive since 2007)
 - **[Zeta](../zeta.md)** (C, MIT, beta)

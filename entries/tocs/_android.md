@@ -121,6 +121,7 @@
 - **[Rott94](../rott94.md)** (C, C++, GPL-2.0, beta)
 - **[SanAndreasUnity](../sanandreasunity.md)** (C#, MIT, mature)
 - **[Seafood Berserker!](../seafood_berserker.md)** (Java, GPL-3.0, mature, inactive since 2018)
+- **[Serious Sam Android](../serious_sam_android.md)** (C, C++, GPL-2.0, mature, inactive since 2020)
 - **[Settlers III remake](../settlers_iii_remake.md)** (Java, MIT, beta)
 - **[Shattered Pixel Dungeon](../shattered_pixel_dungeon.md)** (Java, GPL-3.0, mature)
 - **[Simon Tatham's Portable Puzzle Collection](../simon_tathams_portable_puzzle_collection.md)** (C, MIT, mature)

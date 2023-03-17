@@ -4,7 +4,7 @@
 - Inspiration: Gish
 - State: mature, inactive since 2010
 - Download: http://www.crypticsea.com/download/gishsource153.zip
-- Keyword: content commercial, arcade, platform, puzzle
+- Keyword: arcade, platform, puzzle, content commercial
 - Code language: C
 - Code license: GPL-2.0
 

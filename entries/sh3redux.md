@@ -3,7 +3,7 @@
 - Home: http://sh3redux.blogspot.com/
 - Inspiration: Silent Hill 3
 - State: beta, inactive since 2019
-- Keyword: remake, content commercial + original required, simulation
+- Keyword: remake, simulation, content commercial + original required
 - Code repository: https://github.com/Palm-Studios/sh3redux.git
 - Code language: C, C++
 - Code license: GPL-3.0

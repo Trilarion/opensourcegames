@@ -3,7 +3,7 @@
 - Home: https://cyber.dabamos.de/programming/fortran/oregon/
 - Inspiration: The Oregon Trail
 - State: mature
-- Keyword: clone, adventure
+- Keyword: adventure, clone
 - Code language: Fortran
 - Code license: ISC
 

@@ -1,4 +1,4 @@
-# pyskool
+# Pyskool
 
 - Home: https://pyskool.ca/
 - Media: https://en.wikipedia.org/wiki/Skool_Daze#Sequels_and_conversions

@@ -65,7 +65,7 @@ osgc_name_aliases = {'4DTris': '4D-TRIS', 'fheroes2': 'Free Heroes 2',
                      'OpenMF': 'MafiaUnity', 'OpenRW "Open ReWrite"': 'OpenRW', 'OpenArena (gladiator management game)': 'OpenArena',
                      'Nodes of Yesnod remake': 'Nodes-of-Yesod', 'Serious-Sam-Android': 'Serious Sam Android', 'UnCiv': 'Unciv',
                      'LBA1 Classic (Community)': 'Little Big Adventure 1 - Engine source code', 'LBA2 Classic (Community)': 'Little Big Adventure 2 - Engine source code',
-                     'OpenE2140': 'Earth 2140 on OpenRA', 'opene2140': 'OpenE2140'}
+                     'OpenE2140': 'Earth 2140 on OpenRA', 'opene2140': 'OpenE2140', 'Warcraft 2000: Nuclear Epidemic': 'Warcraft 2000 Nuclear Epidemic'}
 
 # conversion between licenses syntax them and us
 osgc_licenses_map = {'GPL2': 'GPL-2.0', 'GPL3': 'GPL-3.0', 'AGPL3': 'AGPL-3.0', 'LGPL3': 'LGPL-3.0',

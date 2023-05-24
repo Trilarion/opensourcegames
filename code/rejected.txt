@@ -22,7 +22,7 @@ Balazar III (https://web.archive.org/web/20180521213818/http://www.lesfleursduno
 Balder3D (): Very early development, Balder2D instead
 Barbie Seahorse Adventures (http://www.imitationpickles.org/barbie/, https://pyweek.org/e/toba4/): Source is all rights reserved (source in svn has license allegedly, but it lost)
 BattleChess (https://sourceforge.net/projects/battlechess/): No source code found
-BattleCity2014 (https://github.com/ggc87/BattleCity2014.git): No license, unclear state
+BattleCity2014 (https://github.com/ggc87/BattleCity2014.git): No license, unclear state, opened issue, one author left the decision to another who never answered
 Bedlam 2: Absolute Bedlam (https://github.com/8street/Bedlam2.git): No license
 Begin2 (https://sourceforge.net/projects/begin2/, https://svn.code.sf.net/p/begin2/code/): No source available
 Bermuda Syndrome (https://github.com/cyxx/bermuda): No license information. Author has no interest in open source licensing (personal contact). Since its a decompilation, it may also be illegal.
@@ -184,8 +184,6 @@ Militia Defense (https://love2d.org/forums/viewtopic.php?f=5&t=380): Does not ex
 Mindlence RPG Game Library (https://sourceforge.net/projects/mindlence-game/): Very early development
 Minesweeper (https://github.com/rachelreese/Minesweeper.git): No license information, abandoned, very early development
 Minesweeper DouglasMeyer (http://www.douglas-meyer.name/minesweeper/, https://github.com/DouglasMeyer/minesweeper.git): No license information, opened issue about it but no answer yet, looks promising
-Minesweeper Vue.js (https://github.com/aashrafh/minesweeper): No license information
-Minesweeper Vue.js (https://github.com/aashrafh/minesweeper): No license information, opened issue about it but no answer yet
 Mining Haze (http://sourceforge.net/projects/mininghaze/): Very early development
 Mining Haze (https://sourceforge.net/projects/mininghaze/): Early development
 Missile Command (https://github.com/chadpaulson/missile-command.git): No license information, opened issue about it but no answer yet
@@ -261,7 +259,6 @@ REminiscence (http://cyxdown.free.fr/reminiscence/): No license information, aba
 retrospec (http://retrospec.sgn.net): No license information found for games with source code there
 Revenge Of The Cats Ethernet (http://ethernet.wasted.ch/): Code only licenses under Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 which is too restrictive for our purpose
 roadfighter (https://github.com/ptitSeb/roadfighter.git): No license information, remake?, abandoned, looks promising
-Robbo (https://github.com/Zibx/robbo.git): No license information, opened issue about it but no answer yet, looks promising
 Robotron (https://notendur.hi.is/~odv1/Robotron/, https://github.com/Ernir/robotron.git): All rights reserved as answer to issue about it
 Robotypo (http://robotypo.appspot.com/index.html, https://code.google.com/archive/p/robotypo/): Very early development, No license, long inactive
 RPG Paper Maker (http://rpg-paper-maker.com/?i=1, https://github.com/RPG-Paper-Maker/RPG-Paper-Maker.git): Closed, proprietary source, usage free for non-commercial use
@@ -274,7 +271,6 @@ Scions of Darkness (): No link found.
 sCoreForge Pathfinder Character Creator (https://sourceforge.net/projects/scoreforge/): No license found
 Scoreus (https://web.archive.org/web/20120618143653/http://scoreos.org:80/about, https://code.google.com/archive/p/scoreos/, https://github.com/Lozza999/scoreos.git, https://code.google.com/archive/p/scoreos/): Source code not found
 scummgen (https://code.google.com/archive/p/scummgen/, https://github.com/sronsse/scummgen): Somewhat advanced but no license information within the download. Maybe GPL.
-Sea-Wolf (https://github.com/DanJP2016/Sea-Wolf.git): No license information, opened issue about it but no answer yet, looks fun
 Secret Agent Remake (https://sourceforge.net/projects/secretagentremake/): No license information, inactive since 2015, looks promising could try to contact a maintainer
 Sedtris (http://uuner.doslash.org/forfun/): Obscure language for a game, not very well documented, there are so many Tetris clones out there already
 Shining Force 2 Reverse Engineer (https://github.com/ShiningForceCentral/SF2RE.git): No license information, reverse engineering / disassembly, most probably not FOSS licensable
@@ -318,7 +314,7 @@ tecbattle (https://code.google.com/archive/p/tecbattle/): Not advanced enough, n
 Terra Reconstructed (https://sourceforge.net/projects/terrastrategy/, http://mori.pyco.eu/drupal): No license information, very early development, long inactive
 Tesseract Trainer (http://www.mushware.com/): Sources lost, license unclear, very early development, long inactive
 The Fortress (https://sourceforge.net/projects/fortress/, https://fortressgame.wordpress.com/about/): Very early development, long inactive
-The Great Escape in C (https://github.com/dpt/The-Great-Escape-in-C): All rights reserved by David Thomas. No FOSS license.
+The Great Escape in C (https://github.com/dpt/The-Great-Escape-in-C): All rights reserved by David Thomas. No FOSS license. Opened issue and confirmed.
 The Legend Of Zelda - Navi's Quest (http://www.zeldaroth.fr/us/dlnsq.php): No license information, no contact information, inactive
 The Legend Of Zelda - Oni Link Begins (http://www.zeldaroth.fr/us/zolb.php): No license information, could ask Vincent Jouillat for permission
 The Legend Of Zelda - Picross (http://www.zeldaroth.fr/us/dlpicross.php): No license information, could ask Vincent Jouillat for permission
@@ -353,3 +349,14 @@ Yave (https://github.com/gan74/Yave): General graphics engine, not game centered
 Yuris Revenge (https://github.com/cookgreen/Yuris-Revenge): Mod to OpenRA
 zedragon (https://github.com/charlierobson/zedragon.git): License not found, Assembly, not sure which OS is supported, no release, not much guidance
 zSILENCER (https://github.com/zsilencer/zSILENCER.git, http://zsilencer.com/): No license information, opened issue about it, looks promising
+Willow-Game-Remake (https://github.com/Kwintenvdb/Willow-Game-Remake): No license information, abandoned for a long time, not playable?
+SeriousSamClassic (https://github.com/tx00100xt/SeriousSamClassic.git): just a fork of Serious engine (https://github.com/Croteam-official/Serious-Engine.git)
+VBEditor (https://github.com/kran27/VBEditor.git): No license information, Specific tool and not a game, very early development, archived
+vitaRTCW (https://github.com/Rinnegatamante/vitaRTCW.git): Unsupported OS (PSVita)
+Warcraft 2000 Nuclear Epidemic (https://github.com/agend/warcraft-2000-nuclear-epidemic.git): No clear license information, opened issue about it, long abandoned
+wbt (https://github.com/awlzac/wbt.git): No license information, added to existing issue about it
+wbta (https://github.com/awlzac/wbta.git): No license information, added to existing issue about it, see wbt
+WarsmashModEngine (https://github.com/Retera/WarsmashModEngine.git): No a full replacement of a game
+Van Buren Project (https://code.google.com/archive/p/van-buren-project/): No license agreement, abandoned, uses Neoaxis engine
+VirtueOS (https://github.com/clienthax/VirtueOS.git): No license information, abandoned, added to already existing issue, answer said too many devs who cannot be contacted anymore, won't get a license
+zombie apocalypse html5 (https://github.com/andymason/zombie-apocalypse-html5.git): No license information, abandoned, early development

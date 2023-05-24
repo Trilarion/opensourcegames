@@ -184,6 +184,44 @@ https://rpgmaker.net/engines/rpg20xx/
 https://rpgmaker.net/games/2664/
 https://salsa.debian.org/games-team/etw
 https://scorched-moon.github.io/site/
+https://github.com/wwwtyro/Astray
+https://github.com/tgfrerer/island
+https://github.com/increpare/PuzzleScript
+https://github.com/ExplosionEngine/Explosion
+https://github.com/R74nCom/sandboxels
+https://github.com/DragonJoker/Castor3D
+https://github.com/volcoma/EtherealEngine
+https://github.com/TomMalbran/games
+https://github.com/CatDogEngine/CatDogEngine
+https://github.com/stevinz/awesome-game-engine-dev
+https://github.com/CodeArtemis/TriggerRally
+https://github.com/MohitSethi99/ArcGameEngine
+https://github.com/tgfrerer/island
+https://github.com/inanevin/LinaEngine
+https://github.com/Aerolab/blockrain.js
+https://github.com/Casmo/tower-defense
+https://github.com/jakesgordon/javascript-racer
+https://github.com/kenrick95/c4
+https://github.com/olistic/warriorjs
+https://github.com/thinkpixellab/agent8ball
+https://github.com/particle-clicker/particle-clicker
+https://github.com/cadaver/turso3d
+https://github.com/ajanata/PretendYoureXyzzy
+https://github.com/n64decomp/perfect_dark
+https://github.com/eukara/freecs
+https://github.com/juliangarnier/3D-Hartwig-chess-set
+https://github.com/cadaver/turso3d
+https://github.com/chvin/react-tetris
+https://github.com/skidding/flatris
+https://github.com/DaoCloud/dao-2048
+https://github.com/michelpereira/awesome-open-source-games
+https://github.com/michelpereira/awesome-games-of-coding
+https://github.com/chvin/react-tetris
+https://github.com/DavidSM64/Diddy-Kong-Racing
+https://github.com/magwo/elevatorsaga
+https://github.com/zeldaret/tmc
+https://github.com/iamkun/tower_game
+https://github.com/gd4Ark/2048
 https://scratch.mit.edu/ (https://en.scratch-wiki.info/wiki/Scratch_Source_Code)
 https://senseis.xmp.net/?GNUGo
 https://sourceforge.net/blog/games-for-the-holidays/
@@ -199,6 +237,9 @@ https://web.archive.org/web/20190106035150/http://www2.braingames.getput.com/
 https://www.adventuregamestudio.co.uk/
 https://www.androidauthority.com/best-open-source-apps-for-android-861665/
 https://www.b3dgs.com/v7/page.php?lang=en&section=projects
+https://github.com/deathkiller/jazz2-native
+https://github.com/phisko/kengine
+https://web.archive.org/web/20161209004445/https://notabug.org/koz.ross/awesome-gamedev
 https://www.babylonjs.com/
 https://www.bennugd.org/
 https://www.bsframework.io/
@@ -225,3 +266,4 @@ https://zdoom.org/downloads (gzdoom, lzdoom)
 https://zope.readthedocs.io/en/latest/
 Pinball Disk Room
 Seahorse Adventures
+https://github.com/khanhduy1407/BlueBoy2D

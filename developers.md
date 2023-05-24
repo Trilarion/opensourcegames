@@ -12530,7 +12530,7 @@
 
 ## d3nwah [1]
 
-- Games: alive
+- Games: R.E.L.I.V.E.
 - Contact: d3nwah@GH
 
 ## Da Weezle [1]
@@ -14669,7 +14669,7 @@
 
 ## deanff [1]
 
-- Games: alive
+- Games: R.E.L.I.V.E.
 - Contact: deanff@GH
 
 ## Deantwo [1]
@@ -15687,11 +15687,11 @@
 - Games: COCOS2D-X
 - Contact: MrCapone@GH
 
-## Dmitry Marakasov [21]
+## Dmitry Marakasov [22]
 
-- Games: AstroMenace, CaesarIA, Endless Sky, Flare, Freeminer, Harris, HyperRogue, INSTEAD, L'Abbaye des Morts, Minetest, OldSkool Gravity Game, OpenMW, OpenSpades, OpenXcom, Spring, Stunt Rally, SuperTuxKart, TES3MP, Valyria Tear, Vangers, Wyrmsun
+- Games: AstroMenace, CaesarIA, CAVEZ of PHEAR, Endless Sky, Flare, Freeminer, Harris, HyperRogue, INSTEAD, L'Abbaye des Morts, Minetest, OldSkool Gravity Game, OpenMW, OpenSpades, OpenXcom, Spring, Stunt Rally, SuperTuxKart, TES3MP, Valyria Tear, Vangers, Wyrmsun
 - Contact: AMDmi3@GH
-- Home: http://amdmi3.ru, https://amdmi3.ru/
+- Home: https://amdmi3.ru/
 
 ## Dmitry Panin [1]
 
@@ -19035,7 +19035,7 @@
 
 - Games: EasyRPG Editor, EasyRPG Player
 - Contact: fdelapena@GH
-- Home: https://gitLAB.com/fdelapena/, https://gitlab.com/fdelapena/
+- Home: https://gitlab.com/fdelapena/
 
 ## fdrpgrsync [1]
 
@@ -20516,7 +20516,7 @@
 
 ## FrozenFish24 [1]
 
-- Games: alive
+- Games: R.E.L.I.V.E.
 - Contact: FrozenFish24@GH
 
 ## FrozenGuy5 [1]
@@ -22116,7 +22116,7 @@
 
 ## GproKaru [1]
 
-- Games: alive
+- Games: R.E.L.I.V.E.
 - Contact: GproKaru@GH
 
 ## Gptaqbc [1]
@@ -24003,7 +24003,7 @@
 ## HoLLy [1]
 
 - Games: osu!
-- Contact: holly-hacker@GH, HoLLy-HaCKeR@GH
+- Contact: HoLLy-HaCKeR@GH, holly-hacker@GH
 - Home: https://variant9.dev
 
 ## Holomanga [1]
@@ -26932,7 +26932,7 @@
 
 ## Jay Peet [1]
 
-- Games: alive
+- Games: R.E.L.I.V.E.
 - Contact: JayPeet@GH
 - Home: https://www.jaytechmedia.com
 
@@ -31012,7 +31012,7 @@
 
 ## Kari1993 [1]
 
-- Games: alive
+- Games: R.E.L.I.V.E.
 - Contact: Kari1993@GH
 
 ## Karim Ahmed [1]
@@ -33098,7 +33098,7 @@
 
 ## L. P. [1]
 
-- Games: alive
+- Games: R.E.L.I.V.E.
 - Contact: Nemin32@GH
 
 ## L.J. Lim [1]
@@ -34276,7 +34276,7 @@
 
 ## Lior Halphon [1]
 
-- Games: alive
+- Games: R.E.L.I.V.E.
 - Contact: LIJI32@GH
 
 ## lipk [1]
@@ -39534,7 +39534,7 @@
 
 ## Michael Grima [1]
 
-- Games: alive
+- Games: R.E.L.I.V.E.
 - Contact: mlgthatsme@GH
 - Home: https://michaelgrima.com
 
@@ -41364,7 +41364,7 @@
 
 ## mouzedrift [1]
 
-- Games: alive
+- Games: R.E.L.I.V.E.
 - Contact: mouzedrift@GH
 
 ## Moved to: https://github.com/BKrajancic [1]
@@ -45463,7 +45463,7 @@
 
 ## Paul [8]
 
-- Games: alive, Augustus, Brain Workshop, ezQuake, Julius, Phantasy Star Rebirth, Q-Gears, Superpowers
+- Games: Augustus, Brain Workshop, ezQuake, Julius, Phantasy Star Rebirth, Q-Gears, R.E.L.I.V.E., Superpowers
 - Contact: devnoname120@GH, dreamcatcher1@SF, Pangoraw@GH, paulolav@GH, paulsapps@GH, ptarcher@GH, radix-@SF
 - Home: https://ber.gp, https://qwerty-fr.org, https://twitter.com/devnoname120, https://www.ber.gp
 
@@ -47728,7 +47728,7 @@
 
 ## pryon [1]
 
-- Games: alive
+- Games: R.E.L.I.V.E.
 - Contact: pryon@GH
 
 ## Przemek Tomczyk [1]
@@ -49815,7 +49815,7 @@
 
 ## Richard Dymond [1]
 
-- Games: pyskool
+- Games: Pyskool
 - Contact: skoolkid@GH
 - Home: https://skoolkit.ca
 
@@ -51209,7 +51209,7 @@
 
 ## Rory Fewell [1]
 
-- Games: alive
+- Games: R.E.L.I.V.E.
 - Contact: rozniak@GH
 - Home: http://www.oddmatics.uk
 
@@ -58074,7 +58074,7 @@
 
 ## THEONLYDarkShadow [1]
 
-- Games: alive
+- Games: R.E.L.I.V.E.
 - Contact: THEONLYDarkShadow@GH
 
 ## TheOnlyJoey [1]
@@ -60922,7 +60922,7 @@
 
 ## UltraStars3000 [1]
 
-- Games: alive
+- Games: R.E.L.I.V.E.
 - Contact: UltraStars3000@GH
 
 ## ulukai [1]
@@ -61665,7 +61665,7 @@
 
 ## Victor Lopez [1]
 
-- Games: Greentwip's Harvest Moon
+- Games: Honey Town
 - Contact: VictorJL@GH
 
 ## Victor Nogueira [1]
@@ -62077,7 +62077,7 @@
 
 ## Vittorio Romeo [2]
 
-- Games: alive, Open Hexagon
+- Games: Open Hexagon, R.E.L.I.V.E.
 - Contact: SuperV1234@GH, vittorioromeo@GH
 - Home: http://vittorioromeo.com, http://vittorioromeo.info
 

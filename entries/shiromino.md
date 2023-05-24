@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://github.com/shiromino/shiromino/releases
 - Platform: Windows
-- Keyword: clone, content open, puzzle, arcade, tetris-like
+- Keyword: arcade, puzzle, clone, content open, tetris-like
 - Code repository: https://github.com/shiromino/shiromino.git
 - Code language: C++
 - Code license: MIT

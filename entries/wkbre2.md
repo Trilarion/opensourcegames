@@ -4,7 +4,7 @@
 - Inspiration: Warrior Kings
 - State: beta
 - Download: https://github.com/AdrienTD/wkbre2/releases
-- Keyword: remake, content commercial, strategy, real-time
+- Keyword: remake, strategy, content commercial, real-time
 - Code repository: https://github.com/AdrienTD/wkbre2.git
 - Code language: C++
 - Code license: GPL-3.0

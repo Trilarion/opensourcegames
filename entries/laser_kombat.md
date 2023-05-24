@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/sharkwouter/laserkombat/releases
 - Platform: Windows, Linux
-- Keyword: clone, content free, puzzle
+- Keyword: puzzle, clone, content free
 - Code repository: https://github.com/sharkwouter/laserkombat.git
 - Code language: C++
 - Code license: GPL-3.0

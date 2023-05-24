@@ -273,6 +273,7 @@ Scoreus (https://web.archive.org/web/20120618143653/http://scoreos.org:80/about,
 scummgen (https://code.google.com/archive/p/scummgen/, https://github.com/sronsse/scummgen): Somewhat advanced but no license information within the download. Maybe GPL.
 Secret Agent Remake (https://sourceforge.net/projects/secretagentremake/): No license information, inactive since 2015, looks promising could try to contact a maintainer
 Sedtris (http://uuner.doslash.org/forfun/): Obscure language for a game, not very well documented, there are so many Tetris clones out there already
+SeriousSamClassic (https://github.com/tx00100xt/SeriousSamClassic.git): just a fork of Serious engine (https://github.com/Croteam-official/Serious-Engine.git)
 Shining Force 2 Reverse Engineer (https://github.com/ShiningForceCentral/SF2RE.git): No license information, reverse engineering / disassembly, most probably not FOSS licensable
 Shining Soul Remake (https://github.com/CharlieIsMyName/ShiningSoulRemake.git): No license information, inactive since 2016, uses proprietary content, early development
 SilChess (http://eaglemode.sourceforge.net/): Depends on Eaglemode ZUI which may be a too large dependency, difficult to get the source out by itself (maybe later)
@@ -335,11 +336,20 @@ UGH-remake (https://bitbucket.org/Andy51/ugh-remake): No license information, lo
 UiirJS (https://github.com/jaggedsoft/UiirJS.git): No licnese information, long abandoned, early development
 UltraStar (https://sourceforge.net/projects/ultrastar/): No license information found. Tried to contact the author. See issues on Github.
 Uncharted waters 2 remake (https://github.com/Jackyjjc/Uncharted-waters-2-remake.git, https://web.archive.org/web/20140504171546/http://jackyjjc.com/category/dk2-dev-journal/): Source got lost
+Van Buren Project (https://code.google.com/archive/p/van-buren-project/): No license agreement, abandoned, uses Neoaxis engine
+VBEditor (https://github.com/kran27/VBEditor.git): No license information, Specific tool and not a game, very early development, archived
 VegaTrek (https://sourceforge.net/projects/vegatrek/, https://svn.code.sf.net/p/vegatrek/code/): Unclear licensing, copyright of assets questionable
 viper (https://github.com/bjornharrtell/viper.git): No license information, long abandoned, archived
+VirtueOS (https://github.com/clienthax/VirtueOS.git): No license information, abandoned, added to already existing issue, answer said too many devs who cannot be contacted anymore, won't get a license
 Visions from the Other Side (http://www.insani.org/mukou.html): Source not available
+vitaRTCW (https://github.com/Rinnegatamante/vitaRTCW.git): Unsupported OS (PSVita)
 Voxelstein 3D (http://voxelstein3d.sourceforge.net/): Very early development
+Warcraft 2000 Nuclear Epidemic (https://github.com/agend/warcraft-2000-nuclear-epidemic.git): No clear license information, opened issue about it, long abandoned
 WarGame (https://archive.codeplex.com/?p=wargame): Unclear license, could not contact authors
+WarsmashModEngine (https://github.com/Retera/WarsmashModEngine.git): No a full replacement of a game
+wbt (https://github.com/awlzac/wbt.git): No license information, added to existing issue about it
+wbta (https://github.com/awlzac/wbta.git): No license information, added to existing issue about it, see wbt
+Willow-Game-Remake (https://github.com/Kwintenvdb/Willow-Game-Remake): No license information, abandoned for a long time, not playable?
 WolfenDoom (https://github.com/Realm667/WolfenDoom): All rights reserved
 X-Settlers (https://github.com/Skarmux/X-Settlers.git): FOSS but too early development, not playable by far, should be watched, inactive since 2020
 xit (https://github.com/qfel13/xit.git, https://qfel13.pl/xit/): No license information, opened issue about it, looks promising
@@ -348,15 +358,5 @@ xrick (http://www.bigorno.net/xrick): No open source license/unclear license (se
 Yave (https://github.com/gan74/Yave): General graphics engine, not game centered in any way and experimental
 Yuris Revenge (https://github.com/cookgreen/Yuris-Revenge): Mod to OpenRA
 zedragon (https://github.com/charlierobson/zedragon.git): License not found, Assembly, not sure which OS is supported, no release, not much guidance
-zSILENCER (https://github.com/zsilencer/zSILENCER.git, http://zsilencer.com/): No license information, opened issue about it, looks promising
-Willow-Game-Remake (https://github.com/Kwintenvdb/Willow-Game-Remake): No license information, abandoned for a long time, not playable?
-SeriousSamClassic (https://github.com/tx00100xt/SeriousSamClassic.git): just a fork of Serious engine (https://github.com/Croteam-official/Serious-Engine.git)
-VBEditor (https://github.com/kran27/VBEditor.git): No license information, Specific tool and not a game, very early development, archived
-vitaRTCW (https://github.com/Rinnegatamante/vitaRTCW.git): Unsupported OS (PSVita)
-Warcraft 2000 Nuclear Epidemic (https://github.com/agend/warcraft-2000-nuclear-epidemic.git): No clear license information, opened issue about it, long abandoned
-wbt (https://github.com/awlzac/wbt.git): No license information, added to existing issue about it
-wbta (https://github.com/awlzac/wbta.git): No license information, added to existing issue about it, see wbt
-WarsmashModEngine (https://github.com/Retera/WarsmashModEngine.git): No a full replacement of a game
-Van Buren Project (https://code.google.com/archive/p/van-buren-project/): No license agreement, abandoned, uses Neoaxis engine
-VirtueOS (https://github.com/clienthax/VirtueOS.git): No license information, abandoned, added to already existing issue, answer said too many devs who cannot be contacted anymore, won't get a license
 zombie apocalypse html5 (https://github.com/andymason/zombie-apocalypse-html5.git): No license information, abandoned, early development
+zSILENCER (https://github.com/zsilencer/zSILENCER.git, http://zsilencer.com/): No license information, opened issue about it, looks promising

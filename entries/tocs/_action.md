@@ -313,6 +313,8 @@
 - **[Word War vi](../word_war_vi.md)** (C, GPL-2.0, mature)
 - **[X-Moto](../x-moto.md)** (C++, GPL-2.0, mature, inactive since 2014)
 - **[xdigger](../xdigger.md)** (C, GPL-2.0, mature, inactive since 1999)
+- **[xGreed](../xgreed.md)** (Pascal, Custom, beta)
+- **[XL Engine](../xl_engine.md)** (C++, MIT, beta, inactive since 2018)
 - **[Xonotic](../xonotic.md)** (C, C++, GPL-3.0, mature)
 - **[XPilot NG](../xpilot_ng.md)** (C, GPL-2.0, mature, inactive since 2010)
 - **[XPilot](../xpilot.md)** (C, C++, GPL-2.0, mature, inactive since 2010)

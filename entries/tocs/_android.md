@@ -129,6 +129,7 @@
 - **[Simple-Solitaire](../simple-solitaire.md)** (Java, GPL-3.0, mature)
 - **[Sokoban](../sokoban.md)** (CoffeeScript, AGPL-3.0, mature)
 - **[Solar2D](../solar2d.md)** (C++, MIT, mature)
+- **[Sonic Robo Blast 2](../sonic_robo_blast_2.md)** (C, C++, GPL-2.0, mature)
 - **[Space Trader for Android](../space_trader_for_android.md)** (Java, GPL-3.0, mature, inactive since 2016)
 - **[SpacePeng!](../spacepeng.md)** (Java, GPL-3.0, mature, inactive since 2017)
 - **[Starun](../starun.md)** (Java, GPL-3.0, mature, inactive since 2017)

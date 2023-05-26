@@ -1801,6 +1801,14 @@
    "MIT"
   ],
   [
+   "<a href=\"frameworks/game engine.html#serious_sam_classic\" class=\"has-text-weight-semibold\">Serious Sam Classic</a> <a href=\"http://www.croteam.com/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "action, game engine, first-person, shooter",
+   "Windows, Linux",
+   "C++",
+   "GPL-2.0"
+  ],
+  [
    "<a href=\"frameworks/game engine.html#sfall\" class=\"has-text-weight-semibold\">sfall</a> <a href=\"https://github.com/phobos2077/sfall\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "game engine, remake",
@@ -2497,6 +2505,14 @@
    "Apache-2.0"
   ],
   [
+   "<a href=\"frameworks/tool.html#wage\" class=\"has-text-weight-semibold\">WAGE</a> <a href=\"https://github.com/asvitkine/wage-engine\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2017",
+   "remake, tool",
+   "-",
+   "Java",
+   "MIT"
+  ],
+  [
    "<a href=\"frameworks/tool.html#wind_waker_randomizer\" class=\"has-text-weight-semibold\">Wind Waker Randomizer</a> <a href=\"https://github.com/LagoLunatic/wwrando\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "tool",
@@ -2807,14 +2823,6 @@
    "Web",
    "PHP",
    "GPL-2.0"
-  ],
-  [
-   "<a href=\"games/A.html#alive\" class=\"has-text-weight-semibold\">alive</a> <a href=\"https://github.com/paulsapps/alive\"><i class=\"icon-new-tab\"></i></a>",
-   "beta",
-   "action, remake",
-   "Windows, Linux",
-   "C++",
-   "MIT"
   ],
   [
    "<a href=\"games/A.html#allure_of_the_stars\" class=\"has-text-weight-semibold\">Allure of the Stars</a> <a href=\"http://allureofthestars.com/\"><i class=\"icon-new-tab\"></i></a>",
@@ -4057,10 +4065,10 @@
    "GPL-3.0"
   ],
   [
-   "<a href=\"games/C.html#cavez_of_phear\" class=\"has-text-weight-semibold\">CAVEZ of PHEAR</a> <a href=\"https://web.archive.org/web/20120110101219/http://www.x86.no/cavezofphear/\"><i class=\"icon-new-tab\"></i></a>",
-   "beta, inactive since 2011",
+   "<a href=\"games/C.html#cavez_of_phear\" class=\"has-text-weight-semibold\">CAVEZ of PHEAR</a> <a href=\"https://github.com/AMDmi3/cavezofphear\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
    "action, arcade",
-   "-",
+   "Linux",
    "C",
    "GPL-3.0"
   ],
@@ -4817,6 +4825,14 @@
    "GPL-2.0"
   ],
   [
+   "<a href=\"games/D.html#deathlord_relorded\" class=\"has-text-weight-semibold\">Deathlord Relorded</a> <a href=\"https://github.com/hasseily/Deathlord-Relorded\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "remake, role playing",
+   "-",
+   "C, C++",
+   "AGPL-3.0"
+  ],
+  [
    "<a href=\"games/D.html#decker\" class=\"has-text-weight-semibold\">Decker</a> <a href=\"https://web.archive.org/web/20110926115405/http://www10.caro.net:80/dsi/decker/\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2013",
    "role playing",
@@ -5161,6 +5177,14 @@
    "GPL-3.0"
   ],
   [
+   "<a href=\"games/D.html#dstroy\" class=\"has-text-weight-semibold\">Dstroy</a> <a href=\"http://narroin.free.fr/dstroy/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2009",
+   "puzzle, clone",
+   "Windows, Linux",
+   "C++",
+   "GPL-2.0"
+  ],
+  [
    "<a href=\"games/D.html#duck_hunt_js\" class=\"has-text-weight-semibold\">Duck Hunt JS</a> <a href=\"https://github.com/MattSurabian/DuckHunt-JS\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "arcade, remake",
@@ -5366,6 +5390,14 @@
    "action, clone",
    "-",
    "GDScript",
+   "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/E.html#earth_2140_on_openra\" class=\"has-text-weight-semibold\">Earth 2140 on OpenRA</a> <a href=\"https://github.com/michaeldgg2/OpenE2140\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "remake, strategy",
+   "-",
+   "C#",
    "GPL-3.0"
   ],
   [
@@ -6081,6 +6113,22 @@
    "GPL-2.0"
   ],
   [
+   "<a href=\"games/F.html#freeheroes\" class=\"has-text-weight-semibold\">FreeHeroes</a> <a href=\"https://github.com/mapron/FreeHeroes\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "remake, strategy",
+   "Windows",
+   "C++",
+   "MIT"
+  ],
+  [
+   "<a href=\"games/F.html#freehl\" class=\"has-text-weight-semibold\">FreeHL</a> <a href=\"https://github.com/eukara/freehl\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "remake",
+   "-",
+   "C, C++",
+   "ISC"
+  ],
+  [
    "<a href=\"games/F.html#freekick_3\" class=\"has-text-weight-semibold\">Freekick 3</a> <a href=\"https://codeflow.wordpress.com/tag/sensible-soccer/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2015",
    "remake, simulation, sports",
@@ -6281,6 +6329,14 @@
    "GPL-2.0"
   ],
   [
+   "<a href=\"games/F.html#future_cop_mit\" class=\"has-text-weight-semibold\">Future Cop: MIT</a> <a href=\"https://github.com/Ghoster738/Future-Cop-MIT\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "remake",
+   "-",
+   "C++, C",
+   "MIT"
+  ],
+  [
    "<a href=\"games/G.html#galaxy_forces_v2\" class=\"has-text-weight-semibold\">Galaxy Forces V2</a> <a href=\"http://www.galaxy-forces.com/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "action, remake, 2D",
@@ -6425,6 +6481,14 @@
    "GPL-3.0"
   ],
   [
+   "<a href=\"games/G.html#gish\" class=\"has-text-weight-semibold\">Gish</a> <a href=\"http://crypticsea.blogspot.com/2010/05/gish-open-source.html\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2010",
+   "arcade, platform, puzzle",
+   "-",
+   "C",
+   "GPL-2.0"
+  ],
+  [
    "<a href=\"games/G.html#gjid\" class=\"has-text-weight-semibold\">GJID</a> <a href=\"https://github.com/msharov/gjid\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2017",
    "puzzle",
@@ -6455,6 +6519,14 @@
    "-",
    "C++, Script",
    "GPL-2.0"
+  ],
+  [
+   "<a href=\"games/G.html#glkeeper_grimlands_keeper\" class=\"has-text-weight-semibold\">GLKeeper (GrimLands Keeper)</a> <a href=\"https://github.com/codenamecpp/GLKeeper\"><i class=\"icon-new-tab\"></i></a>",
+   "beta, inactive since 2020",
+   "remake",
+   "-",
+   "C++",
+   "MIT"
   ],
   [
    "<a href=\"games/G.html#globulation_2\" class=\"has-text-weight-semibold\">Globulation 2</a> <a href=\"https://globulation2.org/wiki/Main_Page\"><i class=\"icon-new-tab\"></i></a>",
@@ -6585,6 +6657,14 @@
    "GPL-2.0"
   ],
   [
+   "<a href=\"games/G.html#gods_deluxe\" class=\"has-text-weight-semibold\">Gods Deluxe</a> <a href=\"http://jotd.pagesperso-orange.fr/gods/index.html\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2020",
+   "platform, remake",
+   "-",
+   "Java",
+   "MIT"
+  ],
+  [
    "<a href=\"games/G.html#goldeneye_source\" class=\"has-text-weight-semibold\">GoldenEye: Source</a> <a href=\"http://geshl2.com/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2018",
    "remake, first-person, shooter",
@@ -6673,14 +6753,6 @@
    "GPL-2.0"
   ],
   [
-   "<a href=\"games/G.html#greentwips_harvest_moon\" class=\"has-text-weight-semibold\">Greentwip's Harvest Moon</a> <a href=\"https://github.com/Greentwip/HoneyTown\"><i class=\"icon-new-tab\"></i></a>",
-   "beta",
-   "remake",
-   "-",
-   "C#",
-   "GPL-3.0"
-  ],
-  [
    "<a href=\"games/G.html#griefly\" class=\"has-text-weight-semibold\">Griefly</a> <a href=\"https://github.com/griefly\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "remake, role playing, space",
@@ -6703,6 +6775,14 @@
    "Windows, Linux, macOS",
    "C++",
    "GPL-2.0"
+  ],
+  [
+   "<a href=\"games/G.html#gta2net\" class=\"has-text-weight-semibold\">gta2net</a> <a href=\"https://github.com/peon501/GTA2.NET\"><i class=\"icon-new-tab\"></i></a>",
+   "beta, inactive since 2017",
+   "remake",
+   "-",
+   "C#",
+   "MIT"
   ],
   [
    "<a href=\"games/G.html#gusanos\" class=\"has-text-weight-semibold\">GUSANOS</a> <a href=\"http://gusanos.sourceforge.net/\"><i class=\"icon-new-tab\"></i></a>",
@@ -6791,6 +6871,14 @@
    "-",
    "C, Python",
    "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/H.html#harvest_moon_20\" class=\"has-text-weight-semibold\">Harvest Moon 2.0</a> <a href=\"https://github.com/Kenny-Haworth/Harvest-Moon-2.0\"><i class=\"icon-new-tab\"></i></a>",
+   "beta, inactive since 2020",
+   "role playing, clone",
+   "-",
+   "GDScript",
+   "MIT"
   ],
   [
    "<a href=\"games/H.html#hase\" class=\"has-text-weight-semibold\">Hase</a> <a href=\"https://github.com/theZiz/hase\"><i class=\"icon-new-tab\"></i></a>",
@@ -6985,6 +7073,14 @@
    "GPL-3.0"
   ],
   [
+   "<a href=\"games/H.html#honey_town\" class=\"has-text-weight-semibold\">Honey Town</a> <a href=\"https://github.com/Greentwip/HoneyTown\"><i class=\"icon-new-tab\"></i></a>",
+   "beta, inactive since 2020",
+   "remake, role playing",
+   "-",
+   "C#",
+   "GPL-3.0"
+  ],
+  [
    "<a href=\"games/H.html#hopson-arcade\" class=\"has-text-weight-semibold\">Hopson-Arcade</a> <a href=\"https://github.com/Hopson97/Hopson-Arcade\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "arcade, remake",
@@ -7001,7 +7097,7 @@
    "Custom"
   ],
   [
-   "<a href=\"games/H.html#hovertank3d\" class=\"has-text-weight-semibold\">Hovertank3D</a> <a href=\"https://github.com/FlatRockSoft/Hovertank3D\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/H.html#hovertank_3d\" class=\"has-text-weight-semibold\">Hovertank 3D</a> <a href=\"https://github.com/FlatRockSoft/Hovertank3D\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2014",
    "action, remake",
    "-",
@@ -7015,6 +7111,14 @@
    "Web",
    "JavaScript",
    "WTFPL"
+  ],
+  [
+   "<a href=\"games/H.html#hurrican\" class=\"has-text-weight-semibold\">Hurrican</a> <a href=\"https://www.winterworks.de/project/hurrican/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "platform, remake",
+   "-",
+   "C++",
+   "MIT"
   ],
   [
    "<a href=\"games/H.html#hypercube\" class=\"has-text-weight-semibold\">Hypercube</a> <a href=\"http://harmen.vanderwal.eu/hypercube/\"><i class=\"icon-new-tab\"></i></a>",
@@ -7321,6 +7425,14 @@
    "MIT"
   ],
   [
+   "<a href=\"games/J.html#jetpac\" class=\"has-text-weight-semibold\">JetPac</a> <a href=\"https://github.com/ian-wigley/JetPac\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2015",
+   "arcade, remake, shooter",
+   "-",
+   "C#",
+   "MIT"
+  ],
+  [
    "<a href=\"games/J.html#jewelthief\" class=\"has-text-weight-semibold\">jewelthief</a> <a href=\"http://therefactory.bplaced.net/software/#83d15f35-decf-4ebd-b880-e5edad783031\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2016",
    "arcade, remake",
@@ -7449,6 +7561,14 @@
    "GPL-2.0"
   ],
   [
+   "<a href=\"games/K.html#keeperfx\" class=\"has-text-weight-semibold\">KeeperFX</a> <a href=\"https://lubiki.keeperklan.com/html/dk_keeperfx.php\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "strategy, real-time",
+   "-",
+   "C, C++",
+   "GPL-2.0"
+  ],
+  [
    "<a href=\"games/K.html#key_runner\" class=\"has-text-weight-semibold\">Key Runner</a> <a href=\"https://web.archive.org/web/20150412095108/http://killergame.net/keyrunner/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2013",
    "action, 2D",
@@ -7569,6 +7689,14 @@
    "MIT"
   ],
   [
+   "<a href=\"games/K.html#kroz\" class=\"has-text-weight-semibold\">Kroz</a> <a href=\"https://github.com/tangentforks/kroz\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 1990",
+   "adventure",
+   "-",
+   "Pascal",
+   "GPL-2.0"
+  ],
+  [
    "<a href=\"games/K.html#kryftolike\" class=\"has-text-weight-semibold\">Kryftolike</a> <a href=\"https://decoherence.itch.io/kryftolike\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "role playing, 2D, turn-based",
@@ -7625,6 +7753,22 @@
    "GPL-3.0"
   ],
   [
+   "<a href=\"games/L.html#lab3dsdl\" class=\"has-text-weight-semibold\">LAB3D/SDL</a> <a href=\"https://icculus.org/LAB3D/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2013",
+   "action, remake, shooter",
+   "-",
+   "C",
+   "Custom"
+  ],
+  [
+   "<a href=\"games/L.html#lab3dsdl_ktpanda\" class=\"has-text-weight-semibold\">LAB3D/SDL (ktpanda)</a> <a href=\"https://ktpanda.org/software/lab3d_sdl/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2015",
+   "action, remake, shooter",
+   "-",
+   "C",
+   "Custom"
+  ],
+  [
    "<a href=\"games/L.html#labbaye_des_morts\" class=\"has-text-weight-semibold\">L'Abbaye des Morts</a> <a href=\"https://locomalito.com/abbaye_des_morts.php\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2018",
    "adventure, platform, 2D",
@@ -7673,6 +7817,14 @@
    "GPL-2.0"
   ],
   [
+   "<a href=\"games/L.html#laser_kombat\" class=\"has-text-weight-semibold\">Laser Kombat</a> <a href=\"https://github.com/sharkwouter/laserkombat\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "puzzle, clone",
+   "Windows, Linux",
+   "C++",
+   "GPL-3.0"
+  ],
+  [
    "<a href=\"games/L.html#lasttry\" class=\"has-text-weight-semibold\">LastTry</a> <a href=\"https://github.com/egordorichev/LastTry\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2017",
    "action, remake",
@@ -7702,6 +7854,14 @@
    "arcade, clone",
    "Linux",
    "C++",
+   "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/L.html#legiongame\" class=\"has-text-weight-semibold\">LegionGame</a> <a href=\"https://github.com/bsoja/LegionGame\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "remake, role playing",
+   "-",
+   "C#",
    "GPL-3.0"
   ],
   [
@@ -7881,6 +8041,22 @@
    "GPL-3.0"
   ],
   [
+   "<a href=\"games/L.html#little_big_adventure_1-engine_source_code\" class=\"has-text-weight-semibold\">Little Big Adventure 1 - Engine source code</a> <a href=\"https://github.com/2point21/lba1-classic-community\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "adventure, remake",
+   "-",
+   "Assembly, C",
+   "GPL-2.0"
+  ],
+  [
+   "<a href=\"games/L.html#little_big_adventure_2-engine_source_code\" class=\"has-text-weight-semibold\">Little Big Adventure 2 - Engine source code</a> <a href=\"https://github.com/2point21/lba2-classic-community\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "adventure, remake",
+   "-",
+   "Assembly, C++",
+   "GPL-2.0"
+  ],
+  [
    "<a href=\"games/L.html#lix\" class=\"has-text-weight-semibold\">Lix</a> <a href=\"https://www.lixgame.com/\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "puzzle, 2D, clone",
@@ -7895,6 +8071,14 @@
    "-",
    "C",
    "GPL-2.0"
+  ],
+  [
+   "<a href=\"games/L.html#lode_runner_2020\" class=\"has-text-weight-semibold\">Lode Runner 2020</a> <a href=\"https://mapema.hu/en/hobby/lode-runner/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "remake",
+   "Windows, Linux, Web",
+   "C++, C, Java",
+   "MIT"
   ],
   [
    "<a href=\"games/L.html#lona\" class=\"has-text-weight-semibold\">Lona</a> <a href=\"https://lufte.github.io/lona/\"><i class=\"icon-new-tab\"></i></a>",
@@ -7927,6 +8111,14 @@
    "Web",
    "JavaScript",
    "MIT"
+  ],
+  [
+   "<a href=\"games/L.html#loz\" class=\"has-text-weight-semibold\">LOZ</a> <a href=\"https://github.com/aldonunez/Loz\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "remake, role playing",
+   "-",
+   "C++, C#",
+   "Apache-2.0"
   ],
   [
    "<a href=\"games/L.html#lpairs\" class=\"has-text-weight-semibold\">LPairs</a> <a href=\"https://lgames.sourceforge.io/LPairs/\"><i class=\"icon-new-tab\"></i></a>",
@@ -8025,6 +8217,14 @@
    "MIT"
   ],
   [
+   "<a href=\"games/M.html#magnetar\" class=\"has-text-weight-semibold\">Magnetar</a> <a href=\"https://github.com/joankaradimov/Magnetar\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "remake, strategy, real-time",
+   "-",
+   "C, C++",
+   "MIT"
+  ],
+  [
    "<a href=\"games/M.html#mah-jong\" class=\"has-text-weight-semibold\">Mah-Jong</a> <a href=\"http://mahjong.julianbradfield.org/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "strategy",
@@ -8047,6 +8247,14 @@
    "Windows",
    "C#",
    "Public domain, Unlicense"
+  ],
+  [
+   "<a href=\"games/M.html#marble_madness_3d\" class=\"has-text-weight-semibold\">Marble Madness 3d</a> <a href=\"https://github.com/davido262/marble-madness-3d\"><i class=\"icon-new-tab\"></i></a>",
+   "beta, inactive since 2012",
+   "arcade, remake",
+   "-",
+   "C++",
+   "LGPL-2.1"
   ],
   [
    "<a href=\"games/M.html#marble_marcher\" class=\"has-text-weight-semibold\">Marble Marcher</a> <a href=\"https://codeparade.itch.io/marblemarcher\"><i class=\"icon-new-tab\"></i></a>",
@@ -8297,6 +8505,14 @@
    "GPL-3.0"
   ],
   [
+   "<a href=\"games/M.html#minecraft\" class=\"has-text-weight-semibold\">Minecraft</a> <a href=\"https://github.com/benkyd/Minecraft\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "simulation, clone",
+   "-",
+   "C++, C",
+   "MIT"
+  ],
+  [
    "<a href=\"games/M.html#minecraft-one-week-challenge\" class=\"has-text-weight-semibold\">MineCraft-One-Week-Challenge</a> <a href=\"https://github.com/Hopson97/MineCraft-One-Week-Challenge\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "simulation, clone",
@@ -8463,6 +8679,14 @@
    "-",
    "Python",
    "MIT"
+  ],
+  [
+   "<a href=\"games/M.html#monty_mole_pc_remake\" class=\"has-text-weight-semibold\">Monty Mole PC remake</a> <a href=\"http://montymole.sourceforge.net\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2012",
+   "arcade, remake",
+   "-",
+   "C++",
+   "GPL-2.0"
   ],
   [
    "<a href=\"games/M.html#moon-buggy\" class=\"has-text-weight-semibold\">Moon-buggy</a> <a href=\"https://www.seehuhn.de/pages/moon-buggy\"><i class=\"icon-new-tab\"></i></a>",
@@ -8721,6 +8945,14 @@
    "GPL-2.0"
   ],
   [
+   "<a href=\"games/N.html#nitrosharp\" class=\"has-text-weight-semibold\">Nitrosharp</a> <a href=\"https://github.com/CommitteeOfZero/nitrosharp\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "remake, visual novel",
+   "-",
+   "C#",
+   "MIT"
+  ],
+  [
    "<a href=\"games/N.html#nlarn\" class=\"has-text-weight-semibold\">NLarn</a> <a href=\"https://nlarn.github.io/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "remake, role playing, roguelike",
@@ -8735,6 +8967,14 @@
    "Windows, Linux",
    "C",
    "GPL-2.0"
+  ],
+  [
+   "<a href=\"games/N.html#nodes-of-yesod\" class=\"has-text-weight-semibold\">Nodes-of-Yesod</a> <a href=\"https://github.com/ian-wigley/Nodes-of-Yesod\"><i class=\"icon-new-tab\"></i></a>",
+   "beta, inactive since 2015",
+   "arcade, platform, remake",
+   "-",
+   "C#",
+   "MIT"
   ],
   [
    "<a href=\"games/N.html#noiz2-droid\" class=\"has-text-weight-semibold\">noiz2-droid</a> <a href=\"https://github.com/alistairrutherford/noiz2-droid\"><i class=\"icon-new-tab\"></i></a>",
@@ -8841,6 +9081,14 @@
    "GPL-3.0"
   ],
   [
+   "<a href=\"games/O.html#oceanpop\" class=\"has-text-weight-semibold\">OceanPop</a> <a href=\"https://sharkwouter.github.io/oceanpop/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "puzzle, clone",
+   "Windows, Linux",
+   "C++",
+   "MIT"
+  ],
+  [
    "<a href=\"games/O.html#ogrian_carpet\" class=\"has-text-weight-semibold\">Ogrian Carpet</a> <a href=\"http://ogrian.sourceforge.net/\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2018",
    "action",
@@ -8919,6 +9167,14 @@
    "Windows, Linux, macOS",
    "Objective-C, C, JavaScript",
    "GPL-2.0"
+  ],
+  [
+   "<a href=\"games/O.html#open76\" class=\"has-text-weight-semibold\">Open76</a> <a href=\"https://github.com/r1sc/Open76\"><i class=\"icon-new-tab\"></i></a>",
+   "beta, inactive since 2020",
+   "remake",
+   "-",
+   "C#",
+   "GPL-3.0"
   ],
   [
    "<a href=\"games/O.html#open_apocalypse\" class=\"has-text-weight-semibold\">Open Apocalypse</a> <a href=\"https://openapoc.org/\"><i class=\"icon-new-tab\"></i></a>",
@@ -9129,12 +9385,36 @@
    "GPL-2.0"
   ],
   [
-   "<a href=\"games/O.html#openarena\" class=\"has-text-weight-semibold\">OpenArena</a> <a href=\"http://openarena.ws/smfnews.php\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/O.html#openarena\" class=\"has-text-weight-semibold\">OpenArena</a> <a href=\"https://gitlab.com/Mige5/openarena\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "simulation, clone",
+   "-",
+   "Java",
+   "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/O.html#openarenax\" class=\"has-text-weight-semibold\">OpenArena</a> <a href=\"http://openarena.ws/smfnews.php\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2012",
    "action, remake, first-person, shooter",
    "Windows, Linux, macOS",
    "C",
    "GPL-2.0"
+  ],
+  [
+   "<a href=\"games/O.html#openawe\" class=\"has-text-weight-semibold\">OpenAWE</a> <a href=\"https://github.com/OpenAWE-Project/OpenAWE\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "action, remake, shooter",
+   "-",
+   "C++",
+   "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/O.html#openbiohazard2\" class=\"has-text-weight-semibold\">OpenBiohazard2</a> <a href=\"https://github.com/samuelyuan/OpenBiohazard2\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "action, remake",
+   "-",
+   "Go",
+   "MIT"
   ],
   [
    "<a href=\"games/O.html#openblack\" class=\"has-text-weight-semibold\">openblack</a> <a href=\"https://github.com/openblack/openblack\"><i class=\"icon-new-tab\"></i></a>",
@@ -9158,6 +9438,14 @@
    "simulation",
    "Windows, Linux",
    "Python, Lua",
+   "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/O.html#openbound\" class=\"has-text-weight-semibold\">OpenBound</a> <a href=\"https://github.com/WickedPeanuts/OpenBound\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "arcade, remake",
+   "-",
+   "C#",
    "GPL-3.0"
   ],
   [
@@ -9201,6 +9489,30 @@
    "MIT"
   ],
   [
+   "<a href=\"games/O.html#opend2\" class=\"has-text-weight-semibold\">OpenD2</a> <a href=\"https://github.com/eezstreet/OpenD2\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "action, remake",
+   "Windows, Linux",
+   "C, C++",
+   "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/O.html#opendarkengine\" class=\"has-text-weight-semibold\">openDarkEngine</a> <a href=\"https://github.com/volca02/openDarkEngine\"><i class=\"icon-new-tab\"></i></a>",
+   "beta, inactive since 2018",
+   "action, remake",
+   "-",
+   "C++",
+   "GPL-2.0"
+  ],
+  [
+   "<a href=\"games/O.html#opendf\" class=\"has-text-weight-semibold\">opendf</a> <a href=\"https://github.com/kcat/opendf\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "remake, role playing",
+   "-",
+   "C++",
+   "GPL-3.0"
+  ],
+  [
    "<a href=\"games/O.html#opendiablo2\" class=\"has-text-weight-semibold\">OpenDiablo2</a> <a href=\"https://opendiablo2.com/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "action, remake, role playing",
@@ -9225,6 +9537,22 @@
    "GPL-3.0"
   ],
   [
+   "<a href=\"games/O.html#opendr\" class=\"has-text-weight-semibold\">OpenDR</a> <a href=\"https://github.com/drogoganor/OpenDR\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "remake, strategy, real-time",
+   "-",
+   "C#",
+   "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/O.html#opendrakan\" class=\"has-text-weight-semibold\">OpenDrakan</a> <a href=\"https://github.com/Zalasus/opendrakan\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "action, remake",
+   "-",
+   "C++",
+   "GPL-3.0"
+  ],
+  [
    "<a href=\"games/O.html#opendune\" class=\"has-text-weight-semibold\">OpenDUNE</a> <a href=\"https://github.com/OpenDUNE/OpenDUNE\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "remake, strategy",
@@ -9239,6 +9567,22 @@
    "Windows, Linux",
    "C++",
    "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/O.html#opene2140\" class=\"has-text-weight-semibold\">OpenE2140</a> <a href=\"https://gitlab.com/opene2140/opene2140\"><i class=\"icon-new-tab\"></i></a>",
+   "beta, inactive since 2020",
+   "remake, strategy",
+   "-",
+   "C++",
+   "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/O.html#openenroth\" class=\"has-text-weight-semibold\">OpenEnroth</a> <a href=\"https://github.com/OpenEnroth/OpenEnroth\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "remake, role playing",
+   "Windows, Linux, macOS",
+   "C++",
+   "LGPL-3.0"
   ],
   [
    "<a href=\"games/O.html#openetg\" class=\"has-text-weight-semibold\">OpenEtG</a> <a href=\"https://etg.dek.im/\"><i class=\"icon-new-tab\"></i></a>",
@@ -9297,6 +9641,30 @@
    "GPL-2.0"
   ],
   [
+   "<a href=\"games/O.html#opengoal\" class=\"has-text-weight-semibold\">OpenGOAL</a> <a href=\"https://opengoal.dev/\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "platform, remake",
+   "Windows, Linux",
+   "Lisp, C++",
+   "ISC"
+  ],
+  [
+   "<a href=\"games/O.html#opengoo\" class=\"has-text-weight-semibold\">OpenGoo</a> <a href=\"https://github.com/Mandarancio/OpenGOO\"><i class=\"icon-new-tab\"></i></a>",
+   "beta, inactive since 2016",
+   "remake, simulation",
+   "-",
+   "C, C++",
+   "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/O.html#opengta\" class=\"has-text-weight-semibold\">OpenGTA</a> <a href=\"http://ogta.fifengine.de/\"><i class=\"icon-new-tab\"></i></a>",
+   "beta, inactive since 2007",
+   "action, remake",
+   "-",
+   "C++",
+   "Custom"
+  ],
+  [
    "<a href=\"games/O.html#openhomm\" class=\"has-text-weight-semibold\">OpenHoMM</a> <a href=\"https://launchpad.net/openhomm\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2010",
    "strategy",
@@ -9335,6 +9703,14 @@
    "Windows, macOS",
    "C++",
    "GPL-2.0"
+  ],
+  [
+   "<a href=\"games/O.html#openjkdf2\" class=\"has-text-weight-semibold\">OpenJKDF2</a> <a href=\"https://github.com/shinyquagsire23/OpenJKDF2\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "action, remake, shooter",
+   "-",
+   "C",
+   "ISC"
   ],
   [
    "<a href=\"games/O.html#openkrush\" class=\"has-text-weight-semibold\">OpenKrush</a> <a href=\"https://www.kknd-game.com/index.php\"><i class=\"icon-new-tab\"></i></a>",
@@ -9385,6 +9761,14 @@
    "GPL-3.0"
   ],
   [
+   "<a href=\"games/O.html#openmohaa\" class=\"has-text-weight-semibold\">OpenMoHAA</a> <a href=\"https://openmohaa.sourceforge.net/\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "action, remake, shooter",
+   "-",
+   "C, C++",
+   "GPL-2.0"
+  ],
+  [
    "<a href=\"games/O.html#openmom\" class=\"has-text-weight-semibold\">OpenMoM</a> <a href=\"https://github.com/Jakz/openmom\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "strategy, clone",
@@ -9425,11 +9809,35 @@
    "GPL-3.0"
   ],
   [
+   "<a href=\"games/O.html#opennefia\" class=\"has-text-weight-semibold\">OpenNefia</a> <a href=\"https://github.com/OpenNefia/OpenNefia\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "remake, role playing",
+   "Windows",
+   "C#, Lua",
+   "MIT"
+  ],
+  [
+   "<a href=\"games/O.html#opennitemare3d\" class=\"has-text-weight-semibold\">OpenNitemare3D</a> <a href=\"https://github.com/BBQGiraffe/OpenNitemare3D\"><i class=\"icon-new-tab\"></i></a>",
+   "beta, inactive since 2021",
+   "action, remake, shooter",
+   "-",
+   "C#",
+   "GPL-3.0"
+  ],
+  [
    "<a href=\"games/O.html#opennotrium\" class=\"has-text-weight-semibold\">OpenNotrium</a> <a href=\"https://github.com/verhoevenv/OpenNotrium\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "action, puzzle, remake",
    "-",
    "C++",
+   "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/O.html#opennox\" class=\"has-text-weight-semibold\">OpenNox</a> <a href=\"https://www.patreon.com/opennox\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "action, remake",
+   "-",
+   "C, Go",
    "GPL-3.0"
   ],
   [
@@ -9569,6 +9977,14 @@
    "GPL-3.0"
   ],
   [
+   "<a href=\"games/O.html#opents2\" class=\"has-text-weight-semibold\">OpenTS2</a> <a href=\"https://github.com/LazyDuchess/OpenTS2\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "simulation",
+   "-",
+   "C#",
+   "MPL-2.0"
+  ],
+  [
    "<a href=\"games/O.html#openttd\" class=\"has-text-weight-semibold\">OpenTTD</a> <a href=\"https://www.openttd.org/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "remake, simulation",
@@ -9579,10 +9995,34 @@
   [
    "<a href=\"games/O.html#opentyrian\" class=\"has-text-weight-semibold\">OpenTyrian</a> <a href=\"https://github.com/opentyrian/opentyrian\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2018",
-   "action, remake, shooter",
+   "action, arcade, remake, shooter",
    "Windows",
    "C",
    "GPL-2.0"
+  ],
+  [
+   "<a href=\"games/O.html#opentyrian2000\" class=\"has-text-weight-semibold\">OpenTyrian2000</a> <a href=\"https://github.com/KScl/opentyrian2000\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "action, arcade, remake, shooter",
+   "-",
+   "C",
+   "GPL-2.0"
+  ],
+  [
+   "<a href=\"games/O.html#openvice\" class=\"has-text-weight-semibold\">OpenVice</a> <a href=\"https://github.com/clashbyte/openvice\"><i class=\"icon-new-tab\"></i></a>",
+   "beta, inactive since 2021",
+   "action, remake",
+   "-",
+   "C#",
+   "?"
+  ],
+  [
+   "<a href=\"games/O.html#openwar\" class=\"has-text-weight-semibold\">OpenWar</a> <a href=\"https://github.com/andreas-jonsson/openwar\"><i class=\"icon-new-tab\"></i></a>",
+   "beta, inactive since 2018",
+   "remake, strategy, real-time",
+   "-",
+   "Go, C",
+   "GPL-3.0"
   ],
   [
    "<a href=\"games/O.html#openwebsoccer-sim\" class=\"has-text-weight-semibold\">OpenWebSoccer-Sim</a> <a href=\"https://github.com/ihofmann/open-websoccer\"><i class=\"icon-new-tab\"></i></a>",
@@ -9639,6 +10079,22 @@
    "Web",
    "JavaScript",
    "GPL-2.0"
+  ],
+  [
+   "<a href=\"games/O.html#ordoor\" class=\"has-text-weight-semibold\">Ordoor</a> <a href=\"https://code.ur.gs/lupine/ordoor\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "remake, strategy",
+   "-",
+   "Go",
+   "MIT"
+  ],
+  [
+   "<a href=\"games/O.html#oregon_77\" class=\"has-text-weight-semibold\">OREGON 77</a> <a href=\"https://cyber.dabamos.de/programming/fortran/oregon/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "adventure, clone",
+   "-",
+   "Fortran",
+   "ISC"
   ],
   [
    "<a href=\"games/O.html#orient\" class=\"has-text-weight-semibold\">ORIENT</a> <a href=\"https://web.archive.org/web/20131114051805/http://www.e-circus.org/\"><i class=\"icon-new-tab\"></i></a>",
@@ -9713,6 +10169,14 @@
    "GPL-2.0"
   ],
   [
+   "<a href=\"games/O.html#overgrowth\" class=\"has-text-weight-semibold\">Overgrowth</a> <a href=\"https://github.com/WolfireGames/overgrowth\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "action",
+   "-",
+   "C, C++",
+   "Apache-2.0"
+  ],
+  [
    "<a href=\"games/P.html#pac_go\" class=\"has-text-weight-semibold\">Pac Go</a> <a href=\"https://github.com/danicat/pacgo\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "arcade, clone",
@@ -9751,6 +10215,14 @@
    "Web",
    "JavaScript",
    "CC-BY-SA-4.0"
+  ],
+  [
+   "<a href=\"games/P.html#pacman_\" class=\"has-text-weight-semibold\">Pacman \u5403\u8c46\u6e38\u620f</a> <a href=\"https://github.com/mumuy/pacman\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "arcade, remake",
+   "Web",
+   "JavaScript",
+   "MIT"
   ],
   [
    "<a href=\"games/P.html#palapeli\" class=\"has-text-weight-semibold\">Palapeli</a> <a href=\"https://apps.kde.org/palapeli/\"><i class=\"icon-new-tab\"></i></a>",
@@ -10017,6 +10489,14 @@
    "GPL-3.0"
   ],
   [
+   "<a href=\"games/P.html#planet_lander\" class=\"has-text-weight-semibold\">Planet Lander</a> <a href=\"https://github.com/maxerbox/Planet-Lander-with-pygame\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2020",
+   "simulation, clone, space",
+   "-",
+   "Python",
+   "MIT"
+  ],
+  [
    "<a href=\"games/P.html#planet_rider\" class=\"has-text-weight-semibold\">Planet Rider</a> <a href=\"https://fede0d.github.io/game/2015/10/31/planet-rider.html\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2015",
    "arcade",
@@ -10225,6 +10705,14 @@
    "GPL-3.0"
   ],
   [
+   "<a href=\"games/P.html#project_porcupine\" class=\"has-text-weight-semibold\">Project Porcupine</a> <a href=\"https://github.com/OrderOfThePorcupine/ProjectPorcupine\"><i class=\"icon-new-tab\"></i></a>",
+   "beta, inactive since 2019",
+   "strategy, space",
+   "-",
+   "C#",
+   "GPL-3.0"
+  ],
+  [
    "<a href=\"games/P.html#project_starfighter\" class=\"has-text-weight-semibold\">Project: Starfighter</a> <a href=\"https://pr-starfighter.github.io\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "arcade, 2D, shooter",
@@ -10254,6 +10742,14 @@
    "arcade, 3D",
    "-",
    "C",
+   "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/P.html#psydoom\" class=\"has-text-weight-semibold\">PsyDoom</a> <a href=\"https://github.com/BodbDearg/PsyDoom\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "action, remake, shooter",
+   "Windows, Linux, macOS",
+   "C, C++",
    "GPL-3.0"
   ],
   [
@@ -10313,7 +10809,7 @@
    "LGPL-2.1"
   ],
   [
-   "<a href=\"games/P.html#pyskool\" class=\"has-text-weight-semibold\">pyskool</a> <a href=\"https://pyskool.ca/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/P.html#pyskool\" class=\"has-text-weight-semibold\">Pyskool</a> <a href=\"https://pyskool.ca/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "remake",
    "Linux",
@@ -10393,6 +10889,14 @@
    "GPL-2.0"
   ],
   [
+   "<a href=\"games/Q.html#quick_curver\" class=\"has-text-weight-semibold\">Quick Curver</a> <a href=\"https://github.com/vimpostor/quickcurver\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "arcade, clone",
+   "Windows, Linux",
+   "C++",
+   "GPL-3.0"
+  ],
+  [
    "<a href=\"games/R.html#rabbit_escape\" class=\"has-text-weight-semibold\">Rabbit Escape</a> <a href=\"https://www.artificialworlds.net/rabbit-escape/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "action, puzzle, remake",
@@ -10455,6 +10959,14 @@
    "-",
    "Python",
    "MIT"
+  ],
+  [
+   "<a href=\"games/R.html#raptor\" class=\"has-text-weight-semibold\">Raptor</a> <a href=\"https://github.com/skynettx/raptor\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "arcade, remake",
+   "-",
+   "C, C++",
+   "GPL-2.0"
   ],
   [
    "<a href=\"games/R.html#raptor_call_of_the_shadows\" class=\"has-text-weight-semibold\">Raptor: Call of the Shadows</a> <a href=\"https://github.com/aroldanju/raptor-call-of-the-shadows\"><i class=\"icon-new-tab\"></i></a>",
@@ -10577,6 +11089,14 @@
    "GPL-2.0"
   ],
   [
+   "<a href=\"games/R.html#relive\" class=\"has-text-weight-semibold\">R.E.L.I.V.E.</a> <a href=\"https://aliveteam.github.io\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "action, remake",
+   "Windows, Linux, macOS",
+   "C++",
+   "MIT"
+  ],
+  [
    "<a href=\"games/R.html#remc2\" class=\"has-text-weight-semibold\">remc2</a> <a href=\"https://github.com/turican0/remc2\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "action, remake",
@@ -10665,6 +11185,14 @@
    "GPL-3.0"
   ],
   [
+   "<a href=\"games/R.html#rfk-inform\" class=\"has-text-weight-semibold\">rfk-inform</a> <a href=\"https://gitlab.com/DavidGriffith/rfk-inform\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "remake",
+   "-",
+   "Script",
+   "Artistic License-2.0"
+  ],
+  [
    "<a href=\"games/R.html#ri-li\" class=\"has-text-weight-semibold\">Ri-li</a> <a href=\"http://ri-li.sourceforge.net/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2007",
    "arcade",
@@ -10703,6 +11231,22 @@
    "-",
    "C",
    "GPL-2.0"
+  ],
+  [
+   "<a href=\"games/R.html#rlvm\" class=\"has-text-weight-semibold\">rlvm</a> <a href=\"http://www.rlvm.net/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "remake, visual novel",
+   "Linux, macOS",
+   "C++",
+   "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/R.html#robbo\" class=\"has-text-weight-semibold\">Robbo</a> <a href=\"http://dizaina.net/z/robbo/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2016",
+   "arcade, remake",
+   "-",
+   "JavaScript",
+   "MPL-2.0"
   ],
   [
    "<a href=\"games/R.html#robot_redemption\" class=\"has-text-weight-semibold\">Robot Redemption</a> <a href=\"https://www.moddb.com/mods/robot-redemption\"><i class=\"icon-new-tab\"></i></a>",
@@ -10881,6 +11425,14 @@
    "GPL-2.0"
   ],
   [
+   "<a href=\"games/S.html#sccopter\" class=\"has-text-weight-semibold\">sccopter</a> <a href=\"https://github.com/fr0zi/sccopter\"><i class=\"icon-new-tab\"></i></a>",
+   "beta, inactive since 2019",
+   "remake, simulation",
+   "-",
+   "C, C++",
+   "MIT"
+  ],
+  [
    "<a href=\"games/S.html#scorched3d\" class=\"has-text-weight-semibold\">Scorched3D</a> <a href=\"http://www.scorched3d.co.uk/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2014",
    "strategy, 3D, clone, turn-based",
@@ -10921,6 +11473,14 @@
    "GPL-2.0"
   ],
   [
+   "<a href=\"games/S.html#scsharp\" class=\"has-text-weight-semibold\">SCSharp</a> <a href=\"https://github.com/toshok/scsharp\"><i class=\"icon-new-tab\"></i></a>",
+   "beta, inactive since 2011",
+   "remake, strategy, real-time",
+   "-",
+   "C#",
+   "MIT"
+  ],
+  [
    "<a href=\"games/S.html#sdl-ball\" class=\"has-text-weight-semibold\">SDL-Ball</a> <a href=\"http://sdl-ball.sourceforge.net/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2016",
    "arcade",
@@ -10959,6 +11519,14 @@
    "-",
    "C",
    "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/S.html#sea-wolf\" class=\"has-text-weight-semibold\">Sea-Wolf</a> <a href=\"https://github.com/DanJP2016/Sea-Wolf\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "arcade, remake",
+   "-",
+   "JavaScript",
+   "MIT"
   ],
   [
    "<a href=\"games/S.html#seafood_berserker\" class=\"has-text-weight-semibold\">Seafood Berserker!</a> <a href=\"https://quaap.com/D/SeafoodBerserker\"><i class=\"icon-new-tab\"></i></a>",
@@ -11009,6 +11577,22 @@
    "Public domain"
   ],
   [
+   "<a href=\"games/S.html#serious_engine\" class=\"has-text-weight-semibold\">Serious Engine</a> <a href=\"https://github.com/Croteam-official/Serious-Engine\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2017",
+   "adventure",
+   "-",
+   "C, C++",
+   "GPL-2.0"
+  ],
+  [
+   "<a href=\"games/S.html#serious_sam_android\" class=\"has-text-weight-semibold\">Serious Sam Android</a> <a href=\"https://github.com/aarcangeli/Serious-Sam-Android\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2020",
+   "adventure, remake",
+   "Android",
+   "C, C++",
+   "GPL-2.0"
+  ],
+  [
    "<a href=\"games/S.html#settlers_iii_remake\" class=\"has-text-weight-semibold\">Settlers III remake</a> <a href=\"https://github.com/jsettlers/settlers-remake\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "remake, strategy",
@@ -11023,6 +11607,14 @@
    "Windows, Linux",
    "C++",
    "GPL-2.0"
+  ],
+  [
+   "<a href=\"games/S.html#sh3redux\" class=\"has-text-weight-semibold\">sh3redux</a> <a href=\"http://sh3redux.blogspot.com/\"><i class=\"icon-new-tab\"></i></a>",
+   "beta, inactive since 2019",
+   "remake, simulation",
+   "-",
+   "C, C++",
+   "GPL-3.0"
   ],
   [
    "<a href=\"games/S.html#shadow-of-the-beast-html5\" class=\"has-text-weight-semibold\">shadow-of-the-beast-html5</a> <a href=\"http://spleennooname.github.io/shadow-of-the-beast-html5/\"><i class=\"icon-new-tab\"></i></a>",
@@ -11057,6 +11649,22 @@
    "GPL-3.0"
   ],
   [
+   "<a href=\"games/S.html#ship_of_harkinian\" class=\"has-text-weight-semibold\">Ship of Harkinian</a> <a href=\"https://www.shipofharkinian.com/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "adventure, remake",
+   "-",
+   "C, C++",
+   "MIT"
+  ],
+  [
+   "<a href=\"games/S.html#shiromino\" class=\"has-text-weight-semibold\">shiromino</a> <a href=\"https://github.com/shiromino/shiromino\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "arcade, puzzle, clone",
+   "Windows",
+   "C++",
+   "MIT"
+  ],
+  [
    "<a href=\"games/S.html#shockolate\" class=\"has-text-weight-semibold\">Shockolate</a> <a href=\"https://github.com/Interrupt/systemshock\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "remake",
@@ -11079,6 +11687,14 @@
    "-",
    "Pascal",
    "Custom"
+  ],
+  [
+   "<a href=\"games/S.html#signus_the_artefact_wars\" class=\"has-text-weight-semibold\">Signus: The Artefact Wars</a> <a href=\"https://github.com/signus-game/signus\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "remake, strategy, turn-based",
+   "Windows, Linux",
+   "C++",
+   "GPL-2.0"
   ],
   [
    "<a href=\"games/S.html#silvertree\" class=\"has-text-weight-semibold\">SilverTree</a> <a href=\"https://code.google.com/archive/p/silvertree/\"><i class=\"icon-new-tab\"></i></a>",
@@ -11225,6 +11841,30 @@
    "?"
   ],
   [
+   "<a href=\"games/S.html#slijewel\" class=\"has-text-weight-semibold\">SliJewel</a> <a href=\"https://github.com/cricri-pingouin/SliJewel\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2020",
+   "puzzle, remake",
+   "Windows",
+   "Pascal",
+   "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/S.html#slilights\" class=\"has-text-weight-semibold\">SliLights</a> <a href=\"https://github.com/cricri-pingouin/SliLights\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2021",
+   "puzzle, remake",
+   "Windows",
+   "Pascal",
+   "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/S.html#slilumns\" class=\"has-text-weight-semibold\">SliLumns</a> <a href=\"https://github.com/cricri-pingouin/SliLumns\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2020",
+   "remake",
+   "Windows",
+   "Pascal",
+   "GPL-3.0"
+  ],
+  [
    "<a href=\"games/S.html#slime_volley\" class=\"has-text-weight-semibold\">Slime Volley</a> <a href=\"http://slime.tuxfamily.org/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2010",
    "arcade, 2D",
@@ -11241,12 +11881,60 @@
    "3-clause BSD"
   ],
   [
+   "<a href=\"games/S.html#slimind\" class=\"has-text-weight-semibold\">SliMind</a> <a href=\"https://github.com/cricri-pingouin/SliMind\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2020",
+   "puzzle, remake",
+   "Windows",
+   "Pascal",
+   "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/S.html#slimine\" class=\"has-text-weight-semibold\">SliMine</a> <a href=\"https://github.com/cricri-pingouin/SliMine\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2020",
+   "puzzle, remake",
+   "Windows",
+   "Pascal",
+   "GPL-3.0"
+  ],
+  [
    "<a href=\"games/S.html#slingshot\" class=\"has-text-weight-semibold\">Slingshot</a> <a href=\"https://web.archive.org/web/20150630125714/http://slingshot.wikispot.org/\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2007",
    "strategy, turn-based",
    "Windows, Linux, macOS",
    "Python",
    "GPL-2.0"
+  ],
+  [
+   "<a href=\"games/S.html#slipeg\" class=\"has-text-weight-semibold\">SliPeg</a> <a href=\"https://github.com/cricri-pingouin/SliPeg\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2020",
+   "puzzle, remake",
+   "Windows",
+   "Pascal",
+   "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/S.html#slisame\" class=\"has-text-weight-semibold\">SliSame</a> <a href=\"https://github.com/cricri-pingouin/SliSame\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2020",
+   "puzzle, remake",
+   "Windows",
+   "Pascal",
+   "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/S.html#slisnake\" class=\"has-text-weight-semibold\">SliSnake</a> <a href=\"https://github.com/cricri-pingouin/SliSnake\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2020",
+   "arcade, remake",
+   "Windows",
+   "Pascal",
+   "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/S.html#slitris\" class=\"has-text-weight-semibold\">SliTris</a> <a href=\"https://github.com/cricri-pingouin/SliTris\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2020",
+   "arcade, puzzle, remake",
+   "Windows",
+   "Pascal",
+   "GPL-3.0"
   ],
   [
    "<a href=\"games/S.html#slot-racers\" class=\"has-text-weight-semibold\">Slot-Racers</a> <a href=\"https://web.archive.org/web/20111005084008/http://zillode.be:80/index.php?page=finishedprojects&id=5\"><i class=\"icon-new-tab\"></i></a>",
@@ -11337,6 +12025,14 @@
    "LGPL-2.1"
   ],
   [
+   "<a href=\"games/S.html#soldank\" class=\"has-text-weight-semibold\">Soldank</a> <a href=\"https://github.com/smokku/soldank\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "action, remake, 2D, shooter",
+   "-",
+   "Rust",
+   "MIT"
+  ],
+  [
    "<a href=\"games/S.html#soldat\" class=\"has-text-weight-semibold\">Soldat</a> <a href=\"https://www.soldat.pl/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "action, 2D, shooter",
@@ -11364,7 +12060,7 @@
    "<a href=\"games/S.html#sonic_robo_blast_2\" class=\"has-text-weight-semibold\">Sonic Robo Blast 2</a> <a href=\"https://www.srb2.org/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "platform, clone",
-   "Windows, Linux, macOS",
+   "Windows, Linux, macOS, Android",
    "C, C++",
    "GPL-2.0"
   ],
@@ -11505,6 +12201,14 @@
    "GPL-2.0"
   ],
   [
+   "<a href=\"games/S.html#spelling_bee\" class=\"has-text-weight-semibold\">Spelling Bee</a> <a href=\"https://spelling-b.netlify.app\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "puzzle, clone",
+   "-",
+   "JavaScript, TypeScript",
+   "MIT"
+  ],
+  [
    "<a href=\"games/S.html#spice_trade\" class=\"has-text-weight-semibold\">Spice Trade</a> <a href=\"https://sourceforge.net/projects/spicetrade/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2005",
    "adventure, role playing",
@@ -11543,6 +12247,14 @@
    "-",
    "Lua",
    "GPL-2.0, CC-BY-NC-3.0"
+  ],
+  [
+   "<a href=\"games/S.html#srb2kart\" class=\"has-text-weight-semibold\">SRB2Kart</a> <a href=\"https://wiki.srb2.org/wiki/SRB2Kart\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "arcade, clone",
+   "Windows, Linux, macOS",
+   "C, C++",
+   "GPL-2.0"
   ],
   [
    "<a href=\"games/S.html#ss13_remake\" class=\"has-text-weight-semibold\">SS13 Remake</a> <a href=\"https://github.com/ss13remake/ss13remake\"><i class=\"icon-new-tab\"></i></a>",
@@ -11673,6 +12385,14 @@
    "GPL-3.0"
   ],
   [
+   "<a href=\"games/S.html#stone_kingdoms\" class=\"has-text-weight-semibold\">Stone Kingdoms</a> <a href=\"https://gitlab.com/stone-kingdoms/stone-kingdoms\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "strategy, clone",
+   "Windows, Linux",
+   "Lua",
+   "Apache-2.0"
+  ],
+  [
    "<a href=\"games/S.html#story_of_a_lost_sky\" class=\"has-text-weight-semibold\">Story of a Lost Sky</a> <a href=\"https://www.pygame.org/project-Story+of+a+Lost+Sky-1106-.html\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "role playing, turn-based",
@@ -11729,6 +12449,14 @@
    "GPL-3.0"
   ],
   [
+   "<a href=\"games/S.html#sundog_frozen_legacy\" class=\"has-text-weight-semibold\">Sundog: Frozen Legacy</a> <a href=\"https://github.com/laanwj/sundog\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "remake, role playing, space",
+   "-",
+   "C, Python",
+   "MIT"
+  ],
+  [
    "<a href=\"games/S.html#sundog_resurrection\" class=\"has-text-weight-semibold\">SunDog Resurrection</a> <a href=\"http://www.sundogresurrectionproject.com/\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "action, remake, space",
@@ -11751,6 +12479,14 @@
    "Windows, Linux",
    "Ruby",
    "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/S.html#super_mario_bros_x\" class=\"has-text-weight-semibold\">Super Mario Bros. X</a> <a href=\"https://www.smbxgame.com\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2020",
+   "arcade, clone",
+   "-",
+   "Visual Basic",
+   "MIT"
   ],
   [
    "<a href=\"games/S.html#super_methane_brothers\" class=\"has-text-weight-semibold\">Super Methane Brothers</a> <a href=\"http://methane.sourceforge.net/\"><i class=\"icon-new-tab\"></i></a>",
@@ -12249,11 +12985,35 @@
    "GPL-3.0"
   ],
   [
+   "<a href=\"games/T.html#thextech\" class=\"has-text-weight-semibold\">TheXTech</a> <a href=\"https://wohlsoft.ru/projects/TheXTech/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "arcade, clone",
+   "Windows, Linux, macOS",
+   "C++",
+   "GPL-3.0"
+  ],
+  [
    "<a href=\"games/T.html#thiefcatcher\" class=\"has-text-weight-semibold\">thiefcatcher</a> <a href=\"https://github.com/Ponup/thiefcatcher\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "educational, remake, strategy",
    "-",
    "C++",
+   "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/T.html#threes-c\" class=\"has-text-weight-semibold\">Threes-C</a> <a href=\"https://github.com/harshjv/threes-c\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2015",
+   "arcade, clone",
+   "-",
+   "C, Objective-C",
+   "MIT"
+  ],
+  [
+   "<a href=\"games/T.html#threesel\" class=\"has-text-weight-semibold\">Threes.el</a> <a href=\"https://github.com/xuchunyang/threes.el\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "puzzle, clone",
+   "-",
+   "Emacs Lisp",
    "GPL-3.0"
   ],
   [
@@ -12697,6 +13457,14 @@
    "GPL-2.0"
   ],
   [
+   "<a href=\"games/U.html#uchuserver\" class=\"has-text-weight-semibold\">UchuServer</a> <a href=\"https://github.com/UchuServer/Uchu\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "adventure, remake",
+   "-",
+   "C#",
+   "AGPL-3.0"
+  ],
+  [
    "<a href=\"games/U.html#uebergame\" class=\"has-text-weight-semibold\">Uebergame</a> <a href=\"https://duion.com/games/uebergame/main\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "action, clone, shooter",
@@ -12825,6 +13593,14 @@
    "Artistic License-2.0"
   ],
   [
+   "<a href=\"games/U.html#unitypacmania\" class=\"has-text-weight-semibold\">UnityPacmania</a> <a href=\"https://github.com/stuart73/UnityPacmania\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "arcade, clone",
+   "-",
+   "C#",
+   "Custom"
+  ],
+  [
    "<a href=\"games/U.html#unitystation\" class=\"has-text-weight-semibold\">unitystation</a> <a href=\"https://unitystation.org/\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "adventure, clone",
@@ -12835,9 +13611,17 @@
   [
    "<a href=\"games/U.html#unknown_horizons\" class=\"has-text-weight-semibold\">Unknown Horizons</a> <a href=\"https://unknown-horizons.org/\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
-   "strategy, 2D, clone, real-time, turn-based",
+   "strategy, 2D, clone, real-time",
    "Windows, Linux",
-   "Python, GDScript",
+   "Python",
+   "GPL-2.0"
+  ],
+  [
+   "<a href=\"games/U.html#unknown_horizons_godot_engine_port\" class=\"has-text-weight-semibold\">Unknown Horizons Godot Engine Port</a> <a href=\"http://unknown-horizons.org/\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "strategy, 2D, clone, real-time",
+   "-",
+   "GDScript",
    "GPL-2.0"
   ],
   [
@@ -12855,6 +13639,14 @@
    "Windows, Linux, macOS",
    "C, C++",
    "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/U.html#utengine\" class=\"has-text-weight-semibold\">UTEngine</a> <a href=\"https://github.com/dpjudas/UTEngine\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "action, remake, shooter",
+   "-",
+   "C++",
+   "zlib"
   ],
   [
    "<a href=\"games/V.html#valyria_tear\" class=\"has-text-weight-semibold\">Valyria Tear</a> <a href=\"https://valyriatear.blogspot.com/\"><i class=\"icon-new-tab\"></i></a>",
@@ -12886,6 +13678,14 @@
    "remake, strategy, real-time",
    "Windows, Linux",
    "C, C++, Assembly",
+   "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/V.html#vault13\" class=\"has-text-weight-semibold\">Vault13</a> <a href=\"https://github.com/pingw33n/vault13\"><i class=\"icon-new-tab\"></i></a>",
+   "beta, inactive since 2020",
+   "remake, strategy",
+   "-",
+   "Rust",
    "GPL-3.0"
   ],
   [
@@ -13097,6 +13897,14 @@
    "GPL-2.0"
   ],
   [
+   "<a href=\"games/W.html#warcraft_remake\" class=\"has-text-weight-semibold\">Warcraft Remake</a> <a href=\"https://www.b3dgs.com/v7/page.php?lang=en&section=warcraft_remake\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "remake, strategy, real-time",
+   "-",
+   "Java",
+   "GPL-3.0"
+  ],
+  [
    "<a href=\"games/W.html#wargamer\" class=\"has-text-weight-semibold\">Wargamer</a> <a href=\"https://sourceforge.net/projects/wargamer/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2003",
    "strategy",
@@ -13139,7 +13947,7 @@
   [
    "<a href=\"games/W.html#warzone_2100\" class=\"has-text-weight-semibold\">Warzone 2100</a> <a href=\"http://wz2100.net/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
-   "remake, strategy, real-time",
+   "strategy, real-time",
    "-",
    "C++",
    "GPL-2.0"
@@ -13217,6 +14025,14 @@
    "GPL-3.0"
   ],
   [
+   "<a href=\"games/W.html#winwar\" class=\"has-text-weight-semibold\">WinWar</a> <a href=\"https://github.com/CAMongrel/WinWar\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "remake, strategy, real-time",
+   "-",
+   "C#",
+   "MIT"
+  ],
+  [
    "<a href=\"games/W.html#witch_blast\" class=\"has-text-weight-semibold\">Witch Blast</a> <a href=\"https://github.com/Cirrus-Minor/witchblast\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2015",
    "remake, role playing, roguelike",
@@ -13262,6 +14078,14 @@
    "remake, strategy, 3D, real-time",
    "-",
    "C++, C",
+   "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/W.html#wkbre2\" class=\"has-text-weight-semibold\">wkbre2</a> <a href=\"https://github.com/AdrienTD/wkbre2\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "remake, strategy, real-time",
+   "-",
+   "C++",
    "GPL-3.0"
   ],
   [
@@ -13441,6 +14265,14 @@
    "GPL-2.0"
   ],
   [
+   "<a href=\"games/X.html#xgreed\" class=\"has-text-weight-semibold\">xGreed</a> <a href=\"https://sourceforge.net/projects/xgreed/\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "action, remake, first-person, shooter",
+   "-",
+   "Pascal",
+   "Custom"
+  ],
+  [
    "<a href=\"games/X.html#xinvaders_3d\" class=\"has-text-weight-semibold\">XInvaders 3D</a> <a href=\"https://web.archive.org/web/20110803224159/http://xinvaders3d.sourceforge.net/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2000",
    "arcade, 3D",
@@ -13455,6 +14287,14 @@
    "-",
    "C",
    "Custom"
+  ],
+  [
+   "<a href=\"games/X.html#xl_engine\" class=\"has-text-weight-semibold\">XL Engine</a> <a href=\"https://web.archive.org/web/20200402162232/http://xlengine.com/\"><i class=\"icon-new-tab\"></i></a>",
+   "beta, inactive since 2018",
+   "action, remake",
+   "-",
+   "C++",
+   "MIT"
   ],
   [
    "<a href=\"games/X.html#xmage\" class=\"has-text-weight-semibold\">XMage</a> <a href=\"http://xmage.de/\"><i class=\"icon-new-tab\"></i></a>",
@@ -13655,6 +14495,14 @@
    "-",
    "C++",
    "?"
+  ],
+  [
+   "<a href=\"games/Z.html#zelda3\" class=\"has-text-weight-semibold\">zelda3</a> <a href=\"https://github.com/snesrev/zelda3\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "remake",
+   "-",
+   "C",
+   "MIT"
   ],
   [
    "<a href=\"games/Z.html#zelda_classic\" class=\"has-text-weight-semibold\">Zelda Classic</a> <a href=\"https://www.zeldaclassic.com/\"><i class=\"icon-new-tab\"></i></a>",

@@ -1,16 +1,13 @@
-AlchemyQuest
 http://bote.codeplex.com/
 http://crazycarscpc.free.fr/
 http://freshmeat.sourceforge.net/tags/turn-based-strategy (good for older ones)
 http://majestyofomega.codeplex.com/
-http://www.plasmapong.com/plasma-pong/plasma-pong/
 http://www.rpgtoolkit.net/
 http://www.rtsoft.com/novashell/
 http://www.sandboxgamemaker.com/
 http://www.scirra.com/construct-classic
 http://www.silversecond.com/WolfRPGEditor/
 http://www.spheredev.org/
-http://www.surfline.ne.jp/hachi/xsoldier.html
 http://www.usgo.org/go-software
 http://www.vbgore.com/Main_Page
 http://www.zsnes.com/ (emulator/platform)
@@ -19,6 +16,7 @@ https://agateau.com/games/
 https://app.assembla.com/spaces/openrpg/wiki
 https://app.assembla.com/spaces/Project_Valkyrie2/wiki
 https://archive.codeplex.com/?p=turnota
+http://www.interq.or.jp/libra/oohara/
 https://archive.codeplex.com/?p=voxeliq
 https://archive.org/details/open_source_software
 https://blenderartists.org/t/devils-pinball/552785
@@ -49,12 +47,10 @@ https://github.blog/2014-01-06-github-game-off-ii-winners/
 https://github.blog/2021-05-19-ludum-dare-48-staff-picks/
 https://github.blog/2023-02-03-ludum-dare-52-staff-picks/
 https://github.com/actsl/kiss_sdl
-https://github.com/Aerolab/blockrain.js
-https://github.com/ajanata/PretendYoureXyzzy
+https://github.com/Caerind/AwesomeCppGameDev
+https://github.com/alexbatalov/fallout1-ce
 https://github.com/alexbatalov/fallout1-re
 https://github.com/alexbatalov/fallout2-re
-https://github.com/AMDmi3/funnyboat
-https://github.com/amzeratul/halley
 https://github.com/andrejnau/FlyCube
 https://github.com/ArchaicQuest/ArchaicQuest-II
 https://github.com/Areso/1255-burgomaster

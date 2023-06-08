@@ -268,6 +268,7 @@ Ruby Raid (https://github.com/zukunftsalick/ruby-raid.git): No license informati
 RuneSword II (https://sourceforge.net/projects/runesword/, http://runesword.sourceforge.net/, https://github.com/mattiascibien/Runesword.net, https://github.com/aceofspades19/Runesword-II-OS.Net, http://www.runesword.com/rs2.html): No license found
 Schwertreiter (https://sourceforge.net/projects/schwertreiter/): No license information, early development, long inactive
 Scions of Darkness (): No link found.
+Plasma Pong (http://www.plasmapong.com/plasma-pong/plasma-pong/): Website not up anymore, could not find sources or licenses anywhere, probably never was open source (see fluid table tennis for an open source variant)
 sCoreForge Pathfinder Character Creator (https://sourceforge.net/projects/scoreforge/): No license found
 Scoreus (https://web.archive.org/web/20120618143653/http://scoreos.org:80/about, https://code.google.com/archive/p/scoreos/, https://github.com/Lozza999/scoreos.git, https://code.google.com/archive/p/scoreos/): Source code not found
 scummgen (https://code.google.com/archive/p/scummgen/, https://github.com/sronsse/scummgen): Somewhat advanced but no license information within the download. Maybe GPL.

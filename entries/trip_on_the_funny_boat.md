@@ -1,11 +1,11 @@
 # Trip on the Funny Boat
 
 - Home: http://funnyboat.sourceforge.net/, https://sourceforge.net/projects/funnyboat/, https://packages.debian.org/search?keywords=funnyboat
-- State: mature, inactive since 2007
+- State: mature, inactive since 2020
 - Download: http://funnyboat.sourceforge.net/download.php, https://sourceforge.net/projects/funnyboat/files/
 - Platform: Windows, Linux
 - Keyword: arcade, content open, shooter, side-scrolling
-- Code repository: https://svn.code.sf.net/p/funnyboat/code (svn)
+- Code repository: https://github.com/AMDmi3/funnyboat.git, https://svn.code.sf.net/p/funnyboat/code (svn)
 - Code language: Python
 - Code license: GPL-2.0
 - Code dependency: PixelPerfect

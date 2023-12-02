@@ -5,7 +5,7 @@
 - State: beta
 - Platform: Windows, Linux, Android
 - Keyword: arcade, remake, 3D, content commercial, multiplayer competitive + online, racing
-- Code repository: https://bitbucket.org/dm_999/powerslideremake.git (git)
+- Code repository: https://github.com/dm999/powerslideremake (git)
 - Code language: C++
 - Code license: MIT
 - Code dependency: OGRE, SFML, SimpleINI, JSON++, Lua, OpenAL

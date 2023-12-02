@@ -5,7 +5,7 @@
 - Download: https://lionengine.b3dgs.com/v9-0/page.php?lang=en&section=downloads
 - Platform: Windows, Linux, macOS, Android
 - Keyword: action, game engine, 2D
-- Code repository: https://github.com/b3dgs/lionengine.git (@created 2013, @stars 114, @forks 18)
+- Code repository: https://github.com/b3dgs/lionengine.git (@created 2013, @stars 125, @forks 20)
 - Code language: Java
 - Code license: GPL-3.0
 - Developer: Nuno Jesus, Pierre-Alexandre, Дмитрий Рябов

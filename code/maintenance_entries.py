@@ -6,6 +6,7 @@ Counts the number of records each sub-folder and updates the overview.
 Sorts the entries in the contents files of each sub folder alphabetically.
 """
 
+# TODO replace all "".format() with f""
 # TODO check for within an entry for similar dev names
 # TODO wikipedia (media search) for popular ones at least
 # TODO google search (for homepages or media entries) for popular ones at least
@@ -218,7 +219,7 @@ class EntriesMaintainer:
                 continue
             title = entry['Title']
             if 'space' in title.lower() and not 'space' in entry['Keyword']:
-                print('Entry "{}" has space in name but not as keyword.'.format(name))
+                print('Entry "{}" has "space" in name but not as keyword.'.format(name))
 
         # starts with j + capital letter but not java as language
         for entry in self.entries:

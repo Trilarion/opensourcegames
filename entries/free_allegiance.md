@@ -5,7 +5,7 @@
 - Inspiration: Allegiance
 - State: mature
 - Keyword: remake, strategy
-- Code repository: https://github.com/FreeAllegiance/Allegiance.git (@created 2017, @stars 58, @forks 24)
+- Code repository: https://github.com/FreeAllegiance/Allegiance.git (@created 2017, @stars 72, @forks 25)
 - Code language: C++
 - Code license: MIT
 - Developer: Austin Harris, BogDan Vatra, Kirth Gersen, lanslans, Loran, Nick Pirocanac, pvandommelen, Radulfr4, Tim Joiner

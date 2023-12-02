@@ -4,7 +4,7 @@
 - State: mature
 - Download: https://valyriatear.blogspot.com/p/downloads.html
 - Keyword: role playing, japanese, popular
-- Code repository: https://github.com/ValyriaTear/ValyriaTear.git (@created 2012, @stars 191, @forks 61)
+- Code repository: https://github.com/ValyriaTear/ValyriaTear.git (@created 2012, @stars 206, @forks 64)
 - Code language: Lua, C++, C
 - Code license: GPL-2.0
 - Code dependency: Hero of Allacrost engine

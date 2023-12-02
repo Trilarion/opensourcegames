@@ -5,7 +5,7 @@
 - State: beta
 - Platform: Web
 - Keyword: action, remake, content commercial + original required
-- Code repository: https://github.com/rystills/rock-raiders-remake.git (@created 2015, @stars 52, @forks 5)
+- Code repository: https://github.com/rystills/rock-raiders-remake.git (@created 2015, @stars 53, @forks 5)
 - Code language: JavaScript
 - Code license: MIT
 - Developer: Ryan Stillings, Scarabol

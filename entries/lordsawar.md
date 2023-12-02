@@ -15,5 +15,4 @@ Players strive for control of as many cities as possible.
 
 - Build system: Autoconf
 
-Windows executable is created as cross-compile, see source file "WINDOWS" 
-
+Windows executable is created as cross-compile, see source file "WINDOWS"

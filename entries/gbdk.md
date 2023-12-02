@@ -4,11 +4,11 @@
 - State: mature
 - Download: https://github.com/gbdk-2020/gbdk-2020/releases
 - Platform: Windows, Linux, macOS
-- Keyword: library, tool
-- Code repository: https://github.com/gbdk-2020/gbdk-2020.git (@created 2020, @stars 654, @forks 43)
+- Keyword: framework
+- Code repository: https://github.com/gbdk-2020/gbdk-2020.git (@created 2020, @stars 1098, @forks 69)
 - Code language: C, Assembly, C++
 - Code license: MIT
-- Developer: Basxto, bbbbbr, Daniel Rammelt, David Galloway, Jim Huang, Michael Hope, Sandeep Dutta, Toxa, Zalo
+- Developer: Basxto, bbbbbr, Daniel Rammelt, DaSalba, David Galloway, Federico Zanetello, Jim Huang, Michael Hope, Michel Iwaniec, Sandeep Dutta, Spence Churchill, Toxa, Zalo
 
 Short for "Gameboy Development Kit"
 

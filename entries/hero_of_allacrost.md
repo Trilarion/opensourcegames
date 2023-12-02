@@ -2,7 +2,7 @@
 
 - Home: https://web.archive.org/web/20201126135328/http://allacrost.org/
 - State: mature
-- Download: https://bitbucket.org/allacrost/allacrost/downloads/
+- Download: https://web.archive.org/web/20200622035731/https://bitbucket.org/allacrost/allacrost/downloads/
 - Keyword: role playing, 2D
 - Code repository: https://bitbucket.org/allacrost/allacrost (hg)
 - Code language: C++, Lua

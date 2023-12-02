@@ -13,7 +13,7 @@
 - Assets license: GPL-3.0, CC-BY-SA 4.0
 
 Server only, can be played online with the ManaPlus or any other compatible game client.
-Combined repository https://gitlab.com/TMW2/evol-all.git 
+Combined repository https://gitlab.com/TMW2/evol-all.git
 
 ## Building
 

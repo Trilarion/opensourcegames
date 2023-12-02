@@ -4,7 +4,7 @@
 - Inspiration: MechCommander 2
 - State: beta
 - Keyword: remake, strategy, real-time
-- Code repository: https://github.com/alariq/mc2.git (@created 2016, @stars 78, @forks 10)
+- Code repository: https://github.com/alariq/mc2.git (@created 2016, @stars 102, @forks 13)
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: SDL2

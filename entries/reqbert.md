@@ -9,6 +9,6 @@
 - Code repository: https://github.com/leonicolas/ReQbert.git (@created 2011, @stars 14, @forks 5)
 - Code language: JavaScript
 - Code license: GPL-3.0
-- Developer: Leonardo Nicolas
+- Developer: Leonardo Berardino, Leonardo Nicolas
 
 ## Building

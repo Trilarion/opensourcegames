@@ -4,7 +4,7 @@
 - Inspiration: Xargon
 - State: mature, inactive since 2015
 - Keyword: remake, content original required (freeware)
-- Code repository: https://github.com/Malvineous/xargon.git (@created 2011, @stars 27, @forks 4)
+- Code repository: https://github.com/Malvineous/xargon.git (@created 2011, @stars 28, @forks 5)
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: SDL

@@ -8,7 +8,7 @@
 - Code repository: https://github.com/SteveSmith16384/PhysicsPlatformer.git (@created 2019, @stars 3, @forks 0)
 - Code language: Java
 - Code license: MIT
-- Developer: Steve Smith
+- Developer: Stephen Smith, Steve Smith
 
 Physics-based multiplayer platform game.
 

@@ -4,7 +4,7 @@
 - State: mature
 - Platform: Web
 - Keyword: role playing, isometric
-- Code repository: https://github.com/mitallast/diablo-js.git (@created 2012, @stars 853, @forks 174)
+- Code repository: https://github.com/mitallast/diablo-js.git (@created 2012, @stars 903, @forks 197)
 - Code language: Java, JavaScript
 - Code license: MIT
 - Developer: Alexey Korchevsky

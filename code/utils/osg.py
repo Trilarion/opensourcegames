@@ -343,7 +343,7 @@ def check_and_process_entry(entry):
     canonical_file_name = canonical_name(entry['Title']) + '.md'
     # we also allow -X with X =2..9 as possible extension (because of duplicate canonical file names)
     if canonical_file_name != file and canonical_file_name != file[:-5] + '.md':
-        message += 'file name should be {}\n'.format(canonical_file_name)
+        message += 'File name should be {}\n'.format(canonical_file_name)
 
     # check that fields without comments have no comments (i.e. are no Values)
     for field in c.fields_without_comments:
@@ -444,7 +444,7 @@ def write_entries(entries):
         write_entry(entry)
 
 
-def write_entry(entry):
+def write_entry(entry, overwrite=True):
     """
 
     :param entry:
@@ -454,6 +454,8 @@ def write_entry(entry):
 
     # get path
     entry_path = os.path.join(c.entries_path, entry['File'])
+    if not overwrite and os.path.isfile(entry_path):
+        raise RuntimeError(f'File {entry_path} already existing and do not want to overwrite it.')
 
     # create output content
     content = create_entry_content(entry)
@@ -498,7 +500,7 @@ def create_entry_content(entry):
         if field in entry:
             values = entry[field]
             entry[field] = sorted(values, key=sort_fun)
-    # we also sort keywords, but first the recommend ones and then other ones
+    # we also sort keywords, but first the recommended ones and then other ones
     keywords = entry['Keyword']
     a = [x for x in keywords if x in c.recommended_keywords]
     b = [x for x in keywords if x not in c.recommended_keywords]
@@ -515,7 +517,7 @@ def create_entry_content(entry):
 
     # if there is a note, insert it
     if 'Note' in entry:
-        content += entry['Note']
+        content += entry['Note'].strip() + '\n\n'
 
     # building header
     content += '## Building\n'

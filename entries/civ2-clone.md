@@ -8,6 +8,7 @@
 - Code language: C#
 - Code license: GPL-3.0
 - Code dependency: Eto.Forms
+- Developer: axx, reubene
 
 [Eto.Forms](https://github.com/picoe/Eto)
 

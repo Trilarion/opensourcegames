@@ -5,11 +5,11 @@
 - Download: https://pr-starfighter.github.io/download.html, https://github.com/pr-starfighter/starfighter/releases
 - Platform: Windows, Linux
 - Keyword: arcade, 2D, content open, shooter
-- Code repository: https://github.com/pr-starfighter/starfighter.git (@created 2019, @stars 19, @forks 9), https://git.savannah.nongnu.org/git/starfighter.git @add, http://web.cvs.savannah.nongnu.org/viewvc/starfighter/ (cvs)
+- Code repository: https://github.com/pr-starfighter/starfighter.git (@created 2019, @stars 25, @forks 10), https://git.savannah.nongnu.org/git/starfighter.git @add, http://web.cvs.savannah.nongnu.org/viewvc/starfighter/ (cvs)
 - Code language: C
 - Code license: GPL-3.0
 - Code dependency: SDL
 - Assets license: various
-- Developer: Alistair Findlay, Guus Sliepen, Ian Gilham, Jorge Maldonado Ventura, Richard Smith, Richard Sweeney, Stephen Sweeney, The Diligent Circle 丸
+- Developer: Alistair Findlay, Guus Sliepen, Ian Gilham, Jorge Maldonado Ventura, Matthias Mailänder, Richard Smith, Richard Sweeney, Stephen Sweeney, The Diligent Circle 丸
 
 ## Building

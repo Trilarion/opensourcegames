@@ -1,6 +1,6 @@
 pygithub
 lark-parser
-BeautifulSoup
+BeautifulSoup4
 PyQt5
 wikipedia
 Jinja2

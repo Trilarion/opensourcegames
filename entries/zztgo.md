@@ -4,7 +4,7 @@
 - Inspiration: ZZT
 - State: beta
 - Keyword: remake
-- Code repository: https://github.com/benhoyt/zztgo.git (@created 2020, @stars 15, @forks 4)
+- Code repository: https://github.com/benhoyt/zztgo.git (@created 2020, @stars 18, @forks 4)
 - Code language: Go
 - Code license: MIT
 - Developer: Ben Hoyt

@@ -5,7 +5,7 @@
 - Play: http://abagames.sakura.ne.jp/16/consomaton/
 - Platform: Web
 - Keyword: puzzle, programming
-- Code repository: https://github.com/abagames/consomaton.git (@created 2016, @stars 24, @forks 0)
+- Code repository: https://github.com/abagames/consomaton.git (@created 2016, @stars 24, @forks 1)
 - Code language: TypeScript
 - Code license: MIT
 - Code dependency: Node.js

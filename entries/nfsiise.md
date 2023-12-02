@@ -5,7 +5,7 @@
 - State: mature
 - Platform: Windows, Linux
 - Keyword: remake, content commercial + original required, racing
-- Code repository: https://github.com/zaps166/NFSIISE.git (@created 2014, @stars 322, @forks 28)
+- Code repository: https://github.com/zaps166/NFSIISE.git (@created 2014, @stars 391, @forks 32)
 - Code language: C
 - Code license: MIT
 - Code dependency: SDL2

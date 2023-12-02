@@ -4,7 +4,7 @@
 - State: beta, inactive since 2012
 - Download: https://sourceforge.net/projects/pipewalker/files/pipewalker/0.9.4/
 - Platform: Windows
-- Keyword: puzzle, open content
+- Keyword: puzzle, content open
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: SDL

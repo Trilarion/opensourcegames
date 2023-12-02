@@ -5,7 +5,7 @@
 - Download: https://f-droid.org/de/packages/org.happysanta.gd/
 - Platform: Android
 - Keyword: arcade, skill
-- Code repository: https://github.com/evgenyzinoviev/gravitydefied.git (@created 2015, @stars 84, @forks 21)
+- Code repository: https://github.com/evgenyzinoviev/gravitydefied.git (@created 2015, @stars 104, @forks 23)
 - Code language: Java
 - Code license: GPL-2.0
 

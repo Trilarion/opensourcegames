@@ -4,7 +4,7 @@
 - State: mature, inactive since 2018
 - Platform: Web
 - Keyword: adventure, game engine, text-based
-- Code repository: https://github.com/potomak/gist-txt.git (@created 2015, @stars 59, @forks 12)
+- Code repository: https://github.com/potomak/gist-txt.git (@created 2015, @stars 67, @forks 12)
 - Code language: JavaScript
 - Code license: MIT
 - Developer: Giovanni Cappellotto

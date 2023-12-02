@@ -7,7 +7,6 @@ Uses
 - Simple-DataTables (https://github.com/fiduswriter/Simple-DataTables)
 
 Sitemap is not needed, only for large projects with lots of JavaScript und many pages that aren't discoverable.
-
 """
 
 # TODO tab: new filter tab (playable in a browser) with tiles (https://bulma.io/documentation/layout/tiles/) sorted by genre (just as normal list so far, no tiles yet)
@@ -692,7 +691,8 @@ def create_keyword_tag(keyword):
         # TODO are icons looking good in the keyword tags (I somehow doubt it), maybe put them separately somewhere?
         #if keyword.capitalize() in genre_icon_map:
         #    return make_url(url, [make_icon(genre_icon_map[keyword.capitalize()]), make_text(keyword)], '{} games'.format(keyword), 'tag is-light is-link')
-        return make_url(url, make_text(keyword), '{} games'.format(keyword), 'tag is-light is-link') # TODO underline tag needs <u> and it should be generalized
+        tooltip = non_game_category_names[keyword] if keyword in non_game_category_names else '{} games'.format(keyword.capitalize())
+        return make_url(url, make_text(keyword), tooltip, 'tag is-light is-link') # TODO underline tag needs <u> and it should be generalized
     else:
         return make_text(keyword, 'tag is-light')
 
@@ -1079,8 +1079,8 @@ def generate(entries, inspirations, developers):
 
     # non-games by type
     index = divide_in_three_columns_and_transform(non_games_by_type, entry_index)
-    index['title'] = make_text('Open source game frameworks/tools')
-    index['subtitle'] = make_text('Index of {} game frameworks/tools'.format(len(non_games)))
+    index['title'] = make_text('Open source game engines/frameworks/tools')
+    index['subtitle'] = make_text('Index of {} game engines/frameworks/tools'.format(len(non_games)))
     index['categories'] = c.non_game_keywords
     index['category-names'] = non_game_category_names
     index['category-icons'] = {}
@@ -1113,7 +1113,7 @@ def generate(entries, inspirations, developers):
     # generate games index
     index = divide_in_three_columns_and_transform(games_by_alphabet, entry_index)
     index['title'] = make_text('Open source games')
-    index['subtitle'] = [make_text('Alphabetical index of {} games.'.format(len(games_by_alphabet)))]
+    index['subtitle'] = [make_text('Alphabetical index of {} games.'.format(len(games)))]
     index['categories'] = extended_alphabet
     index['category-names'] = extended_alphabet_names
     index['category-icons'] = {}

@@ -5,7 +5,7 @@
 - Inspiration: Vlak
 - State: beta
 - Keyword: remake, skill
-- Code repository: https://github.com/nenadalm/Train.git (@created 2012, @stars 4, @forks 1)
+- Code repository: https://github.com/nenadalm/Train.git (@created 2012, @stars 3, @forks 1)
 - Code language: Java
 - Code license: 3-clause BSD
 - Code dependency: Slick2D

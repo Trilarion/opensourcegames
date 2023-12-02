@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://xoreos.org/downloads/index.html
 - Keyword: framework, remake, content commercial + original required, engine recreation
-- Code repository: https://github.com/xoreos/xoreos.git (@created 2010, @stars 902, @forks 112)
+- Code repository: https://github.com/xoreos/xoreos.git (@created 2010, @stars 1000, @forks 118)
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: OpenGL, SDL2

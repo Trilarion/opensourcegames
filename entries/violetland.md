@@ -6,7 +6,7 @@
 - Download: https://github.com/ooxi/violetland/releases
 - Platform: Windows, Linux
 - Keyword: remake, clone, content open
-- Code repository: https://github.com/ooxi/violetland.git (@created 2012, @stars 47, @forks 13)
+- Code repository: https://github.com/ooxi/violetland.git (@created 2012, @stars 53, @forks 13)
 - Code language: C++
 - Code license: GPL-3.0
 - Assets license: CC-BY-SA

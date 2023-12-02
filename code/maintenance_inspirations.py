@@ -7,6 +7,7 @@ Maintenance of inspirations.md and synchronization with the inspirations in the 
 # TODO if update included entries are included, update entries with media too
 # TODO series always with lowercase
 # TODO names of inspirations not unique (for example Battle Zone exists multiple times)
+# TODO link check
 
 import time
 from utils import osg, osg_ui, osg_wikipedia, constants as c

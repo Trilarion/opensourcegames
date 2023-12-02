@@ -9,6 +9,6 @@
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL
-- Developer: Ciprian Khlud, Roman Kurbatov, SandySandy
+- Developer: a1exsh, Andrey Starodubtsev, Andrii Kurdiumov, Arkadiy Illarionov, Arthusppp, Ciprian Khlud, dimag0g, emotionalamoeba, eos428, felix642, Hiciak, Ihar Hubchyk, Ivan Mitev, Ivan Shibanov, Killbrum, Matthew Pfluger, Michael, Oleg Derevenetz, Oroty, Pavel, Roman Kurbatov, SandySandy, Taras, tau3, undef21, vasilenkoalexey, vincent-grosbois, Zenseii
 
 ## Building

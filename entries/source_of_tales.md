@@ -1,6 +1,6 @@
 # Source of Tales
 
-- Home: http://www.sourceoftales.org/
+- Home: https://www.sourceoftales.org/
 - State: mature, inactive since 2013
 - Keyword: role playing, multiplayer online + massive
 - Code repository: https://github.com/tales/sourceoftales.git (@archived, @created 2012, @stars 59, @forks 20)

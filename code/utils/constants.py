@@ -75,6 +75,11 @@ recommended_keywords = (
     'strategy', 'cards', 'board', 'music', 'educational', 'tool', 'game engine', 'framework', 'library', 'remake')
 # TODO unmake remake a recommended keyword (should be the same as clone maybe), i.e. add another recommended keyword if only remake is in there
 
+# entries where we do not want to show developers (because these lists are too long and too general)
+entries_without_developers = ('Box2D', 'Dear ImGui', 'DirectPython', 'FreeType', 'Horde3D', 'ncurses', 'Penumbra', 'Simple and Fast Multimedia Library',
+                              'Simple DirectMedia Layer', 'Allegro', 'Crystal Space 3D SDK', 'Dash Engine', 'Delta Engine', 'libGDX', 'MonoGame', 'OGRE',
+                              'Panda3D', 'Phaser', 'Qt', 'raylib', 'ScummVM', 'Urho3D')
+
 # interesting keywords = recommend keywords + some popular keywords
 interesting_keywords = recommended_keywords + ('2D', '3D', 'clone', 'first-person', 'real-time', 'roguelike', 'shooter', 'space', 'turn-based', 'for kids', 'for adults')
 
@@ -105,6 +110,7 @@ language_urls = {
     'Elm': 'https://en.wikipedia.org/wiki/Elm_(programming_language)',
     'Emacs Lisp': 'https://en.wikipedia.org/wiki/Emacs_Lisp',
     'F#': 'https://en.wikipedia.org/wiki/F_Sharp_(programming_language)',
+    'Fortran': 'https://en.wikipedia.org/wiki/Fortran',
     'GDScript': 'https://en.wikipedia.org/wiki/Godot_(game_engine)#Scripting',
     'Game Maker Script': 'https://en.wikipedia.org/wiki/GameMaker#GameMaker_Language',
     'Go': 'https://en.wikipedia.org/wiki/Go_(programming_language)',
@@ -120,6 +126,7 @@ language_urls = {
     'MoonScript': 'https://moonscript.org/',
     'OCaml': 'https://en.wikipedia.org/wiki/OCaml',
     'Objective-C': 'https://en.wikipedia.org/wiki/Objective-C',
+    'Odin': 'http://odin-lang.org/',
     'ooc': 'https://ooc-lang.org/',
     'PHP': 'https://en.wikipedia.org/wiki/PHP',
     'Pascal': 'https://en.wikipedia.org/wiki/Pascal_(programming_language)',
@@ -143,11 +150,11 @@ language_urls = {
 
 known_languages = tuple(sorted(list(language_urls.keys()), key=str.casefold)) + ('None', '?')
 
-# known licenses, anything outside of this will result in a warning during a maintenance operation
+# known licenses, anything else will result in a warning during a maintenance operation
 # only these will be used when gathering statistics
 known_licenses = (
     '2-clause BSD', '3-clause BSD', '4-clause BSD', 'AFL-3.0', 'AGPL-3.0', 'Apache-2.0', 'Artistic License-1.0', 'Artistic License-2.0',
-    'Boost-1.0', 'CC-BY-NC-3.0', 'CC-BY-NC-SA-2.0', 'CC-BY-NC-SA-3.0', 'CC-BY-SA-3.0', 'CC-BY-NC-SA-4.0',
+    'Boost-1.0', 'CC-BY-NC-3.0', 'CC-BY-NC-SA-2.0', 'CC-BY-NC-SA-3.0', 'CC-BY-SA-3.0', 'CC-BY-NC-SA-4.0', 'CC-BY-NC-ND-4.0',
     'CC-BY-SA-4.0', 'CC0', 'Custom', 'EPL-2.0', 'GPL-2.0', 'GPL-3.0', 'IJG', 'ISC', 'Java Research License', 'LGPL-2.0',
     'LGPL-2.1', 'LGPL-3.0', 'MAME', 'MIT', 'MPL-1.1', 'MPL-2.0', 'MS-PL', 'MS-RL', 'NetHack General Public License',
     'None', 'NPOSL-3.0', 'Proprietary', 'Public domain', 'SWIG license', 'Unlicense', 'WTFPL', 'wxWindows license', 'zlib', '?')

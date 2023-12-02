@@ -7,12 +7,12 @@
 - Download: https://unvanquished.net/download/
 - Platform: Windows, Linux, macOS
 - Keyword: action, shooter
-- Code repository: https://github.com/Unvanquished/Unvanquished.git (@created 2011, @stars 676, @forks 131), https://github.com/DaemonEngine/Daemon.git @add (@created 2015, @stars 182, @forks 32)
+- Code repository: https://github.com/Unvanquished/Unvanquished.git (@created 2011, @stars 797, @forks 142), https://github.com/DaemonEngine/Daemon.git @add (@created 2015, @stars 227, @forks 44)
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependency: Dæmon
 - Assets license: CC-BY-SA-2.5
-- Developer: Amanieu d'Antras, Anthony J. Bentley, caldazar-at, cmf028, Corentin Wallez, cu-kai, Darren Salt, David CARLIER, DefaultUser, DeLift, Dimitriio, Dmitry Tsarevich, Dolce Triade, gimhael, Gireen, gmcode, hurf blurf, Jani Mäkinen, jaytersen, kharnov, M. Kristall, maek, Mattia Basaglia, Maximilian Stahlberg, Morel Bérenger, necessarily-equal, neumond, Paweł Redman, Sixthly, slipher, Theodoros Theodoridis, Thomas Debesse, Tim, TimePath, Trinitrotoluene-, Veyrdite, Viech, Zachary L, Zack Middleton
+- Developer: Amanieu d'Antras, Anthony J. Bentley, caldazar-at, cmf028, Corentin Wallez, cu-kai, Darren Salt, David CARLIER, DefaultUser, DeLift, Dimitriio, Dmitry Tsarevich, Dolce Triade, gimhael, Gireen, gmcode, hurf blurf, Jani Mäkinen, jaytersen, kharnov, M. Kristall, maek, Mattia Basaglia, Maximilian Stahlberg, Morel Bérenger, necessarily-equal, neumond, Paweł Redman, Sixthly, slipher, sweet235, Theodoros Theodoridis, Thomas Debesse, Tim, TimePath, Trinitrotoluene-, Veyrdite, Viech, Zachary L, Zack Middleton, zturtleman
 
 FPS/RTS hybrid game powered by the Daemon engine (a combination of ioq3 and XreaL).
 

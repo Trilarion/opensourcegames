@@ -9,6 +9,7 @@
 - Code repository: https://github.com/ssenegas/kickoff.git
 - Code language: Java
 - Code license: MIT
+- Developer: Sébastien Sénégas
 
 ## Building
 

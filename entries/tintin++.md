@@ -5,7 +5,7 @@
 - Download: https://tintin.mudhalla.net/download.php
 - Platform: Windows, Linux, macOS, Android
 - Keyword: role playing, client, MUD
-- Code repository: https://github.com/scandum/tintin.git (@created 2019, @stars 105, @forks 31)
+- Code repository: https://github.com/scandum/tintin.git (@created 2019, @stars 141, @forks 51)
 - Code language: C
 - Code license: GPL-3.0
 - Developer: Scandum, scandum

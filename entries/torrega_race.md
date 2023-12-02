@@ -9,6 +9,6 @@
 - Code license: GPL-3.0
 - Code dependency: LÖVE
 - Assets license: No assets
-- Developer: andwj
+- Developer: Andrew Apted, andwj
 
 ## Building

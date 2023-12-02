@@ -5,7 +5,7 @@
 - State: mature
 - Platform: Windows, Linux
 - Keyword: action, clone
-- Code repository: https://github.com/mgerhardy/caveexpress.git (@created 2014, @stars 117, @forks 22)
+- Code repository: https://github.com/mgerhardy/caveexpress.git (@created 2014, @stars 131, @forks 23)
 - Code language: JavaScript, C, C++, Lua
 - Code license: GPL-3.0
 - Code dependency: SDL

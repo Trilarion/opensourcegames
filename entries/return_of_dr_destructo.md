@@ -4,7 +4,7 @@
 - Inspiration: Destructo
 - State: mature, inactive since 2015
 - Keyword: action, remake, content open
-- Code repository: https://github.com/MaxSavenkov/drdestructo2.git (@created 2015, @stars 27, @forks 4)
+- Code repository: https://github.com/MaxSavenkov/drdestructo2.git (@created 2015, @stars 28, @forks 4)
 - Code language: C++
 - Code license: MIT
 - Code dependency: Allegro

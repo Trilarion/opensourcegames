@@ -18,4 +18,3 @@ See also: https://github.com/arikel/PPARPG, https://github.com/mvbarracuda/parpg
 ## Building
 
 See <http://wiki.parpg.net/Department:Programming>
-

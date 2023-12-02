@@ -1,8 +1,9 @@
 """
-Everything specific to the Github API (via PyGithub - https://pygithub.readthedocs.io/en/latest/index.html).
+Everything specific to the GitHub API (via PyGithub - https://pygithub.readthedocs.io/en/latest/index.html).
 """
 
 from github import Github, GithubException
+from github.GithubException import UnknownObjectException
 
 
 def normalize_repo_name(repo):
@@ -28,9 +29,9 @@ def repo_get_contributors(repo):
 
 def retrieve_repo_info(repos, token=None):
     """
-    For a list of Github repos, retrieves repo information.
+    For a list of GitHub repos, retrieves repo information.
 
-    Repos must be have the style xxx/yyy example: "PyGithub/PyGithub"
+    Repos must have the style xxx/yyy example: "PyGithub/PyGithub"
     """
     single_repo = isinstance(repos, str)
     if single_repo:
@@ -46,7 +47,11 @@ def retrieve_repo_info(repos, token=None):
             # get repo
             r = g.get_repo(repo)
         except GithubException as e:
-            raise RuntimeError(e) # TODO what to do if repo does not exist?
+            if type(e) == UnknownObjectException:
+                print(f'repo "{repo}" does not exist on GitHub')
+                return None
+            else:
+                raise RuntimeError(e)
         e = {'archived': r.archived, 'contributors': repo_get_contributors(r), 'created': r.created_at, 'description': r.description,
              'forks': r.forks_count, 'language': r.language, 'last modified': r.last_modified, 'name': r.name,
              'open issues count': r.open_issues_count, 'owner': r.owner, 'stars': r.stargazers_count, 'topics': r.get_topics(), 'repo': repo}

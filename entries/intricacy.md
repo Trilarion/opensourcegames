@@ -1,6 +1,6 @@
 # Intricacy
 
-- Home: http://mbays.freeshell.org/intricacy/
+- Home: https://web.archive.org/web/20220716101841/http://mbays.freeshell.org/intricacy/
 - State: beta
 - Platform: Windows, Linux, macOS
 - Keyword: puzzle, content open, text-based

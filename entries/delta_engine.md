@@ -3,7 +3,7 @@
 - Home: https://deltaengine.net/, https://github.com/DeltaEngine
 - State: mature, inactive since 2015
 - Keyword: framework
-- Code repository: https://github.com/DeltaEngine/DeltaEngine.git (@created 2012, @stars 127, @forks 31)
+- Code repository: https://github.com/DeltaEngine/DeltaEngine.git (@created 2012, @stars 132, @forks 31)
 - Code language: C#
 - Code license: Apache-2.0
 

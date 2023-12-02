@@ -5,7 +5,7 @@
 - State: beta
 - Platform: macOS
 - Keyword: remake, skill
-- Code repository: https://github.com/haqu/tiny-wings.git (@created 2011, @stars 823, @forks 175)
+- Code repository: https://github.com/haqu/tiny-wings.git (@created 2011, @stars 818, @forks 175)
 - Code language: Objective-C, C, C++
 - Code license: MIT
 - Code dependency: Cocos2D

@@ -47,16 +47,25 @@ from utils import constants as c, utils as u, osg, osg_rejected
 osgc_name_aliases = {'4DTris': '4D-TRIS', 'fheroes2': 'Free Heroes 2',
                      'Duke3d_win32': 'Duke3d_w32', 'GNOME Atomix': 'Atomix', 'Head over Heels 2': 'Head over Heels',
                      'mewl': 'M.E.W.L.', 'LinWarrior': 'Linwarrior 3D', 'Mice Men Remix': 'Mice Men: Remix',
-                     'OpenApoc': 'Open Apocalypse', 'open-cube': 'Open Cube', 'Heart of the Alien Redux': 'Heart of the Alien',
+                     'OpenApoc': 'Open Apocalypse', 'open-cube': 'Open Cube',
+                     'Heart of the Alien Redux': 'Heart of the Alien',
                      'opengl_test_drive_clone': 'OpenGL Test Drive Remake', 'Dune 2 - The Maker': 'Dune II - The Maker',
-                     'Play Freeciv!': 'Freeciv-web', 'ProjectX': 'Forsaken', 'Lyon': 'Roton', 'Mafia II: Toolkit': 'Mafia: Toolkit',
+                     'Play Freeciv!': 'Freeciv-web', 'ProjectX': 'Forsaken', 'Lyon': 'Roton',
+                     'Mafia II: Toolkit': 'Mafia: Toolkit',
                      'Siege of Avalon Open Source': 'Siege of Avalon : Open Source', 'ss13remake': 'SS13 Remake',
                      'shadowgrounds': 'Shadowgrounds', 'RxWars': 'Prescription Wars', 'REDRIVER2': 'REDriver2',
                      'Super Mario Bros And Level Editor in C#': 'Mario Objects', 'Unitystation': 'unitystation',
-                     'tetris': 'Just another Tetris™ clone', 'twin-e': 'TwinEngine', 'super-methane-brothers-gx': 'Super Methane Brothers for Wii and GameCube',
+                     'tetris': 'Just another Tetris™ clone', 'twin-e': 'TwinEngine',
+                     'super-methane-brothers-gx': 'Super Methane Brothers for Wii and GameCube',
                      'CrossUO: Ultima Online': 'CrossUO', 'OpMon': 'OPMon', '3DGE': 'EDGE', 'ironseed_fpc': 'Ironseed',
                      '2048-python': '2048 Python', 'Free Heroes 2 - Enhanced': 'Free Heroes 2',
-                     'KKnD': 'OpenKrush', 'bab-be-u': 'BAB BE U', 'urde': 'Metaforce'}
+                     'KKnD': 'OpenKrush', 'bab-be-u': 'BAB BE U', 'urde': 'Metaforce', 'BananiaJS': 'Banania', 'CCOSS': 'Cortex Command - open source',
+                     'Dune 2 - The Maker - Java version': 'Dune II - The Maker', 'Doom': 'DOOM', 'Eat the Whistle': 'Eat The Whistle',
+                     'Fish Fillets NG': 'Fish Fillets - Next Generation',
+                     'OpenMF': 'MafiaUnity', 'OpenRW "Open ReWrite"': 'OpenRW', 'OpenArena (gladiator management game)': 'OpenArena',
+                     'Nodes of Yesnod remake': 'Nodes-of-Yesod', 'Serious-Sam-Android': 'Serious Sam Android', 'UnCiv': 'Unciv',
+                     'LBA1 Classic (Community)': 'Little Big Adventure 1 - Engine source code', 'LBA2 Classic (Community)': 'Little Big Adventure 2 - Engine source code',
+                     'OpenE2140': 'Earth 2140 on OpenRA', 'opene2140': 'OpenE2140', 'Warcraft 2000: Nuclear Epidemic': 'Warcraft 2000 Nuclear Epidemic'}
 
 # conversion between licenses syntax them and us
 osgc_licenses_map = {'GPL2': 'GPL-2.0', 'GPL3': 'GPL-3.0', 'AGPL3': 'AGPL-3.0', 'LGPL3': 'LGPL-3.0',
@@ -68,11 +77,14 @@ osgc_licenses_map = {'GPL2': 'GPL-2.0', 'GPL3': 'GPL-3.0', 'AGPL3': 'AGPL-3.0', 
 # TODO need to check them again and add to rejected list (if I find out why), also ask for appropriate licenses
 osgc_ignored_entries = ["A Mouse's Vengeance", 'achtungkurve.com', 'AdaDoom3', 'Agendaroids', 'Alien 8', 'Ard-Reil',
                         'Balloon Fight', 'bladerunner (Engine within SCUMMVM)', 'Block Shooter', 'Bomb Mania Reloaded',
-                        'boulder-dash', 'Cannon Fodder', 'Contra_remake', 'CosmicArk-Advanced', 'datastorm', 'Deuteros X',
+                        'boulder-dash', 'Cannon Fodder', 'Contra_remake', 'CosmicArk-Advanced', 'datastorm',
+                        'Deuteros X', 'Minesweeper (DouglasMeyer)', 'Minesweeper (Vue.js)',
                         'div-columns', 'div-pacman2600', 'div-pitfall', 'div-spaceinvaders2600', 'FreedroidClassic',
                         'FreeRails 2', 'Glest Advanced Engine', 'HeadOverHeels', 'Jumping Jack 2: Worryingly Familiar',
                         'Jumping Jack: Further Adventures', 'LixD', 'Meridian 59 German Server 112',
-                        'Meridian 59 Server 105', 'OpenGeneral', 'OpenKKnD', 'Tile World 2', 'BattleCity']
+                        'Meridian 59 Server 105', 'OpenGeneral', 'OpenKKnD', 'Tile World 2', 'BattleCity', '1JETPACK.EXE',
+                        'D3es', 'Doom Classic for iOS', 'Prince of Persia (JS) - princejs.com', 'PseuWoW', 'Raptor (JS)',
+                        'Shining Force 2 Reverse Engineer (SF2RE)', 'Super Methane Brothers (homebrew edition)']
 
 
 def unique_field_contents(entries, field):
@@ -126,15 +138,16 @@ def create_many_to_one_mapping(map):
             result[key] = v
     return result
 
-# conversion of osgc status to our state
-osgc_status_map = create_many_to_one_mapping({(None,): '?', ('playable',): 'mature', ('semi-playable', 'unplayable'): 'beta'})
 
+# conversion of osgc status to our state
+osgc_status_map = create_many_to_one_mapping(
+    {(None,): '?', ('playable',): 'mature', ('semi-playable', 'unplayable'): 'beta'})
 
 if __name__ == "__main__":
 
     # some parameter
     similarity_threshold = 0.8
-    maximal_newly_created_entries = 0
+    maximal_newly_created_entries = 20
     check_similar_names = False
     download_missing_screenshots = False
 
@@ -158,7 +171,8 @@ if __name__ == "__main__":
     screenshots = osg.read_screenshots_overview()
 
     # import osgameclones data
-    osgc_path = os.path.realpath(os.path.join(root_path, os.path.pardir, '11_osgameclones.git', 'games'))
+    osgc_path = os.path.realpath(os.path.join(root_path, os.path.pardir, '11_osgameclones.git',
+                                              'games'))  # this is specific for my local constellation
     osgc_files = os.listdir(osgc_path)
 
     # iterate over all yaml files in osgameclones/data folder and load contents
@@ -214,13 +228,14 @@ if __name__ == "__main__":
 
     # eliminate the ignored or rejected entries from them
     # TODO for rejected entries we should actually have a test that also checks for the URLs because names could be not unique
-    _ = [x['name'] for x in osgc_entries if x['name'] in osgc_ignored_entries + our_rejected_entries]  # those that will be ignored
+    _ = [x['name'] for x in osgc_entries if
+         x['name'] in osgc_ignored_entries + our_rejected_entries]  # those that will be ignored
     _ = set(osgc_ignored_entries) - set(_)  # those that shall be ignored minus those that will be ignored
     if _:
         print('Can un-ignore {} because not contained anymore in osgc with this name.'.format(_))
     osgc_entries = [x for x in osgc_entries if x['name'] not in osgc_ignored_entries + our_rejected_entries]
 
-    # fix names and licenses (so they are not longer detected as deviations downstreams)
+    # fix names and licenses (so they are no longer detected as deviations downstreams)
     _ = [x['name'] for x in osgc_entries if x['name'] in osgc_name_aliases.keys()]  # those that will be renamed
     _ = set(osgc_name_aliases.keys()) - set(_)  # those that shall be renamed minus those that will be renamed
     if _:
@@ -274,9 +289,9 @@ if __name__ == "__main__":
     if check_similar_names:
         print('look for similar names (theirs - ours)')
         for osgc_name in osgc_names:
-           for our_name in our_names:
-               if osg.name_similarity(osgc_name, our_name) > similarity_threshold:
-                   print(' {} - {}'.format(osgc_name, our_name))
+            for our_name in our_names:
+                if osg.name_similarity(osgc_name, our_name) > similarity_threshold:
+                    print(' {} - {}'.format(osgc_name, our_name))
 
     newly_created_entries = 0
     # iterate over their entries
@@ -300,11 +315,12 @@ if __name__ == "__main__":
                     our_screenshots = screenshots.get(our_file, {})
                     our_urls = [x[2] for x in our_screenshots.values()]
                     their_images = [x for x in their_images if x not in our_urls]
-                    their_images = their_images[:3-len(our_urls)]  # only fill up to 3
+                    their_images = their_images[:3 - len(our_urls)]  # only fill up to 3
                     for image_url in their_images:
                         # download image
                         try:
-                            r = requests.get(image_url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64)'}, timeout=5, allow_redirects=True)
+                            r = requests.get(image_url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64)'},
+                                             timeout=5, allow_redirects=True)
                         except Exception:
                             # SSLError or other
                             continue
@@ -323,7 +339,9 @@ if __name__ == "__main__":
                             target_width = int(width / height * target_height)
                             im_resized = im.resize((target_width, target_height), resample=Image.LANCZOS)
                             idx = len(our_screenshots) + 1
-                            if any([image_url.startswith(x) for x in ('https://camo.githubusercontent', 'https://web.archive.org', ' https://user-content.gitlab', 'https://user-images.githubusercontent')]) or width <= 320:
+                            if any([image_url.startswith(x) for x in (
+                            'https://camo.githubusercontent', 'https://web.archive.org', ' https://user-content.gitlab',
+                            'https://user-images.githubusercontent')]) or width <= 320:
                                 image_url = '!' + image_url
                             our_screenshots[idx] = [target_width, target_height, image_url]
                             outfile = os.path.join(c.screenshots_path, '{}_{:02d}.jpg'.format(our_file, idx));
@@ -331,7 +349,6 @@ if __name__ == "__main__":
                     if our_screenshots:
                         screenshots[our_file] = our_screenshots
                     osg.write_screenshots_overview(screenshots)
-
 
                 p = ''  # contains a summary of all differences, if empty, no differences are found
 
@@ -422,7 +439,7 @@ if __name__ == "__main__":
                         p += ' development : mismatch : them complete, us not mature\n'
 
                 # get our keywords
-                our_keywords = our_entry['Keyword'] # essential
+                our_keywords = our_entry['Keyword']  # essential
 
                 # compare their originals to our inspirations
                 our_originals = our_entry.get('Inspiration', [])
@@ -545,7 +562,7 @@ if __name__ == "__main__":
             entry['Code repository'] = repo
 
             # code license
-            entry['Code license'] = osgc_entry['license']
+            entry['Code license'] = osgc_entry.get('license', ['unspecified'])
 
             # code dependencies (if existing)
             if 'framework' in osgc_entry:
@@ -563,10 +580,10 @@ if __name__ == "__main__":
 
             # finally write to file
             print(entry)
-            osg.write_entry(entry)
+            osg.write_entry(entry, False)
             newly_created_entries += 1
 
-    # save updated screenshots if they could have chenged
+    # save updated screenshots if they could have changed
     if download_missing_screenshots:
         osg.write_screenshots_overview(screenshots)
 
@@ -591,4 +608,6 @@ if __name__ == "__main__":
 
         if not is_included:
             # that could be added to them
-            print('- [{}]({})'.format(our_name, 'https://github.com/Trilarion/opensourcegames/blob/master/entries/' + our_entry['File']))
+            print('- [{}]({})'.format(our_name,
+                                      'https://github.com/Trilarion/opensourcegames/blob/master/entries/' + our_entry[
+                                          'File']))

@@ -3,8 +3,8 @@
 - Home: https://github.com/jaihysc/Jactorio
 - Inspiration: Factorio
 - State: beta
-- Keyword: simulation, clone, commercial content
-- Code repository: https://github.com/jaihysc/Jactorio.git (@created 2019, @stars 18, @forks 1)
+- Keyword: simulation, clone, content commercial
+- Code repository: https://github.com/jaihysc/Jactorio.git (@created 2019, @stars 32, @forks 1)
 - Code language: C++
 - Code license: MIT
 - Code dependency: SDL2

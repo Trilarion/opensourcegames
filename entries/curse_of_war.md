@@ -5,7 +5,7 @@
 - Download: https://github.com/a-nikolaev/curseofwar/releases
 - Platform: Windows, Linux
 - Keyword: strategy, real-time
-- Code repository: https://github.com/a-nikolaev/curseofwar.git (@created 2013, @stars 254, @forks 31)
+- Code repository: https://github.com/a-nikolaev/curseofwar.git (@created 2013, @stars 280, @forks 31)
 - Code language: C, C++
 - Code license: GPL-3.0
 - Developer: a-nikolaev, Alexey Nikolaev, Anton Balashov

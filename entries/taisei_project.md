@@ -7,7 +7,7 @@
 - Download: https://taisei-project.org/download, https://github.com/taisei-project/taisei/releases
 - Platform: Windows, Linux, macOS, Web
 - Keyword: action, remake, content open, shooter
-- Code repository: https://github.com/taisei-project/taisei.git (@created 2010, @stars 537, @forks 57)
+- Code repository: https://github.com/taisei-project/taisei.git (@created 2010, @stars 690, @forks 70)
 - Code language: C, Python
 - Code license: MIT
 - Code dependency: OpenGL, SDL2

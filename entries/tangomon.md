@@ -6,7 +6,7 @@
 - Download: https://tangomon-game.github.io/download.html
 - Platform: Windows, Linux
 - Keyword: educational, content open, for kids
-- Code repository: https://github.com/tangomon-game/tangomon.git (@created 2020, @stars 2, @forks 0), https://git.savannah.nongnu.org/git/tangomon.git @add, http://cvs.savannah.nongnu.org:/web/tangomon (cvs)
+- Code repository: https://github.com/tangomon-game/tangomon.git (@created 2020, @stars 4, @forks 0), https://git.savannah.nongnu.org/git/tangomon.git @add, http://cvs.savannah.nongnu.org:/web/tangomon (cvs)
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependency: SGE

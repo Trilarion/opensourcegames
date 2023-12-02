@@ -7,7 +7,7 @@
 - Download: https://sourceforge.net/projects/raceintospace/files/
 - Platform: Windows, Linux, macOS
 - Keyword: remake, simulation, strategy, space, turn-based
-- Code repository: https://github.com/raceintospace/raceintospace.git (@created 2011, @stars 109, @forks 43), http://raceintospace.cvs.sourceforge.net (cvs)
+- Code repository: https://github.com/raceintospace/raceintospace.git (@created 2011, @stars 137, @forks 44), http://raceintospace.cvs.sourceforge.net (cvs)
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependency: libogg, libvorbis, SDL

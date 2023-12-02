@@ -6,7 +6,7 @@
 - Play: http://ajxs.github.io/jsFO/
 - Platform: Web
 - Keyword: remake, role playing, content commercial + original required
-- Code repository: https://github.com/ajxs/jsFO.git (@created 2015, @stars 24, @forks 3)
+- Code repository: https://github.com/ajxs/jsFO.git (@created 2015, @stars 30, @forks 5)
 - Code language: JavaScript, Python
 - Code license: Apache-2.0
 - Developer: Anthony

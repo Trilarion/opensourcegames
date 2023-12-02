@@ -6,13 +6,12 @@
 - Download: https://github.com/Bollos00/LibreMines/releases
 - Platform: Windows, Linux
 - Keyword: puzzle
-- Code repository: https://github.com/Bollos00/LibreMines.git (@created 2020, @stars 38, @forks 6)
+- Code repository: https://github.com/Bollos00/LibreMines.git (@created 2020, @stars 58, @forks 8)
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: Qt
 - Assets license: CC-BY-SA-4.0
-- Developer: Bollos00
-
+- Developer: Bollos00, SecularSteve
 
 ## Building
 

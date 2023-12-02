@@ -10,5 +10,3 @@
 And maybe other Apos projects at https://github.com/Apostolique
 
 ## Building
-
-

@@ -5,11 +5,9 @@
 - State: mature
 - Platform: Web
 - Keyword: adventure, role playing, multiplayer online + massive
-- Code repository: https://github.com/browserquest/BrowserQuest.git, https://github.com/nenuadrian/BrowserQuest.git @add, https://github.com/mozilla/BrowserQuest.git @add (@created 2011, @stars 8757, @forks 2625)
+- Code repository: https://github.com/browserquest/BrowserQuest.git, https://github.com/nenuadrian/BrowserQuest.git @add, https://github.com/mozilla/BrowserQuest.git @add (@created 2011, @stars 8968, @forks 2796)
 - Code language: JavaScript
 - Code license: MPL-2.0
-- Developer: Franck Lecollinet, Guillaume Lecollinet, Myles Recny
+- Developer: Aaron Hill, Dylen Brandon Rivera, Franck Lecollinet, Guillaume Lecollinet, Lukas Shawford, Myles Recny, Steve Gricci, William Bowers
 
 ## Building
-
-

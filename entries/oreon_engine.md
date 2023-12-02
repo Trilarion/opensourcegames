@@ -5,7 +5,7 @@
 - Download: https://github.com/fynnfluegge/oreon-engine/releases
 - Platform: Windows, Linux, macOS
 - Keyword: game engine
-- Code repository: https://github.com/fynnfluegge/oreon-engine.git (@created 2015, @stars 470, @forks 180)
+- Code repository: https://github.com/fynnfluegge/oreon-engine.git (@created 2015, @stars 566, @forks 182)
 - Code language: Java
 - Code license: GPL-3.0
 - Developer: Adrian Romanelli, Fynn Flügge

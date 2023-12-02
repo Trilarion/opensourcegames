@@ -14,7 +14,6 @@
 Racing game featuring the Linux kernel mascot, Tux.
 The codebase was eventually forked by the GoTH development team as the basis for SuperTuxKart.
 
-
 ## Building
 
 - Build system: Autoconf

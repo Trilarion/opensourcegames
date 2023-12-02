@@ -6,7 +6,7 @@
 - Play: http://www.quakejs.com/
 - Platform: Web
 - Keyword: remake, content original required (?), first-person, shooter
-- Code repository: https://github.com/inolen/quakejs.git (@created 2013, @stars 1152, @forks 132)
+- Code repository: https://github.com/inolen/quakejs.git (@created 2013, @stars 1229, @forks 146)
 - Code language: JavaScript
 - Code license: MIT
 - Developer: Anthony Pesch

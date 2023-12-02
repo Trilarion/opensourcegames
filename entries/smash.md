@@ -5,7 +5,7 @@
 - State: mature
 - Platform: Web
 - Keyword: action
-- Code repository: https://github.com/guillaume-gouchon/smash.js.git (@created 2014, @stars 3, @forks 2)
+- Code repository: https://github.com/guillaume-gouchon/smash.js.git (@created 2014, @stars 5, @forks 2)
 - Code language: JavaScript
 - Code license: MIT
 - Developer: Guillaume

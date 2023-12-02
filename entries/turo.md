@@ -8,6 +8,6 @@
 - Code repository: https://github.com/HassanHeydariNasab/turo.git (@created 2018, @stars 19, @forks 5)
 - Code language: PHP, GDScript
 - Code license: GPL-3.0
-- Developer: Hasan Hejdari Nasab
+- Developer: Hasan Hejdari Nasab, Hassan Heydari Nasab
 
 ## Building

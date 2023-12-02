@@ -10,6 +10,6 @@
 - Code license: MIT
 - Code dependency: jMonkeyEngine
 - Assets license: (See readme)
-- Developer: Stephen Carlyle-Smith, Steve Smith
+- Developer: Stephen Carlyle-Smith, Stephen Smith, Steve Smith
 
 ## Building

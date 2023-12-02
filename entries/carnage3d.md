@@ -8,6 +8,7 @@
 - Code repository: https://github.com/codenamecpp/carnage3d.git
 - Code language: C++, C
 - Code license: MIT
+- Developer: Marcin Michalski, me, neuromancer
 
 ## Building
 

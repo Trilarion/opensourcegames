@@ -7,6 +7,7 @@
 - Code repository: https://github.com/DanijelAskov/coloris.git
 - Code language: Java
 - Code license: GPL-3.0
+- Developer: Danijel Askov, Thunderforge
 
 ## Building
 

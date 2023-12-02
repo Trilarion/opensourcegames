@@ -5,7 +5,7 @@
 - Inspiration: Glest
 - State: mature
 - Keyword: remake, strategy, 3D, real-time
-- Code repository: https://github.com/MegaGlest/megaglest-source.git (@created 2013, @stars 274, @forks 76)
+- Code repository: https://github.com/MegaGlest/megaglest-source.git (@created 2013, @stars 304, @forks 87)
 - Code language: C, C++
 - Code license: GPL-3.0
 - Assets license: CC-BY-SA

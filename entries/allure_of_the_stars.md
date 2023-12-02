@@ -1,11 +1,11 @@
 # Allure of the Stars
 
-- Home: http://www.allureofthestars.com/
+- Home: http://allureofthestars.com/
 - State: beta
-- Play: http://www.allureofthestars.com/play/
+- Play: http://allureofthestars.com/play/
 - Platform: Web
 - Keyword: role playing, strategy, content open, roguelike, turn-based
-- Code repository: https://github.com/AllureOfTheStars/Allure.git (@created 2010, @stars 154, @forks 10)
+- Code repository: https://github.com/AllureOfTheStars/Allure.git (@created 2010, @stars 185, @forks 14)
 - Code language: Haskell
 - Code license: AGPL-3.0
 - Code dependency: LambdaHack, SDL

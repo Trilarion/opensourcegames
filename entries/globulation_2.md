@@ -12,6 +12,3 @@
 Reduces micro-management by automatically assigning tasks to units.
 
 ## Building
-
-
-

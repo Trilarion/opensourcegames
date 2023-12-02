@@ -12,5 +12,3 @@
 Collection of games.
 
 ## Building
-
-

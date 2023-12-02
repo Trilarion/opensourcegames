@@ -1,9 +1,9 @@
 # FreeType
 
-- Home: https://www.freetype.org/
+- Home: https://freetype.org/
 - Media: https://en.wikipedia.org/wiki/FreeType
 - State: mature
-- Download: https://www.freetype.org/download.html
+- Download: https://freetype.org/download.html
 - Keyword: library
 - Code repository: https://git.savannah.gnu.org/git/freetype/freetype2.git (http://git.savannah.gnu.org/cgit/freetype/), https://git.savannah.gnu.org/git/freetype/freetype2-demos.git @add
 - Code language: C

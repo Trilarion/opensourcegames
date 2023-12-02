@@ -1,5 +1,5 @@
 """
-Uses the Github API to learn more about the Github projects.
+Uses the GitHub API to learn more about the GitHub projects.
 
 Updates for example, the starring information.
 """
@@ -9,6 +9,7 @@ Updates for example, the starring information.
 
 import os
 import json
+from random import sample
 from utils import constants as c, utils, osg, osg_parse, osg_github
 
 gh_entries_file = os.path.join(c.code_path, 'github_entries.txt')
@@ -21,7 +22,7 @@ blog_alias = {'http://k776.tumblr.com/': 'https://k776.tumblr.com/',
               'http:\\www.vampier.net': 'https://www.vampier.net/'}
 ignored_blogs = ('https://uto.io',)
 
-ignored_languages = ('CSS', 'HTML', 'CMake', 'XSLT', 'ShaderLab')
+ignored_languages = ('CSS', 'HTML', 'CMake', 'XSLT', 'ShaderLab', 'Shell')
 language_aliases = {'VBA': 'Visual Basic', 'Common Lisp': 'Lisp', 'Game Maker Language': 'Game Maker Script',
                     'NewLisp': 'Lisp', 'Awk': 'AWK', 'Visual Basic': 'Basic', 'FreeBasic': 'Basic'}
 
@@ -42,7 +43,7 @@ name_aliases = {'Andreas Rosdal': 'Andreas Røsdal', 'davefancella': 'Dave Fance
 
 def collect_github_entries():
     """
-    Reads the entries of the database and collects all entries with a Github repository. Just for convenience to limit
+    Reads the entries of the database and collects all entries with a GitHub repository. Just for convenience to limit
     the number of entries to iterate on later.
     """
 
@@ -64,19 +65,22 @@ def collect_github_entries():
 
 def github_import():
     """
-    Import various information from Github repositories (like contributors) or stars for Github repos
+    Import various information from GitHub repositories (like contributors) or stars for GitHub repos
     """
-    private_properties = json.loads(utils.read_text(c.private_properties_file))
 
     files = json.loads(utils.read_text(gh_entries_file))
+
+    # Github rate limiting limits us to 1000 queries an hour, currently let's limit it to 100.
+    if len(files) > 100:
+        files = sample(files, 100)
+
 
     all_developers = osg.read_developers()
     print(' {} developers read'.format(len(all_developers)))
 
-    # all exceptions that happen will be eaten (but will end the execution)
-    try:
-        # loop over each entry
-        for index, file in enumerate(files):
+    # loop over each entry
+    for index, file in enumerate(files):
+        try:
             print(' process {} ({})'.format(file, index))
 
             # read entry
@@ -89,8 +93,14 @@ def github_import():
             repos = [x for x in repos if x not in ignored_repos]
             for repo in repos:
                 print('  GH repo {}'.format(repo))
+                token = os.environ["GITHUB_TOKEN"]
+                if not token:
+                    private_properties = json.loads(utils.read_text(c.private_properties_file))
+                    token = private_properties['github-token']
 
-                info = osg_github.retrieve_repo_info(repo, token=private_properties['github-token'])
+                info = osg_github.retrieve_repo_info(repo, token=token)
+                if info is None:
+                    continue
 
                 new_comments = []
                 # is archived
@@ -114,6 +124,8 @@ def github_import():
                 for r in code_repositories:
                     if r.startswith(repo):
                         break
+                if type(r) is not osg_parse.Value:
+                    r = osg_parse.Value(r)  # if there was no comment yet, make one
                 comments = r.comment
                 if comments:
                     comments = comments.split(',')
@@ -157,7 +169,7 @@ def github_import():
                         print('   dev "{}" added to entry {}'.format(name, file))
                         entry['Developer'] = entry.get('Developer', []) + [name]
 
-                    # look up author in developers data base
+                    # look up author in developers database
                     if name in all_developers:
                         dev = all_developers[name]
                         if not nickname in dev.get('Contact', []):
@@ -178,19 +190,20 @@ def github_import():
 
             entry['Code repository'] = code_repositories
             osg.write_entry(entry)
-    except:
-        raise
-    finally:
-        # shorten file list
-        utils.write_text(gh_entries_file, json.dumps(files[index:], indent=1))
+        except:
+            print(f"Error processing repo {file}")
+            pass # Keep going to other entries
+    
+    # shorten file list
+    utils.write_text(gh_entries_file, json.dumps(files[index:], indent=1))
 
-        osg.write_developers(all_developers)
-        print('developers database updated')
+    osg.write_developers(all_developers)
+    print('developers database updated')
 
 
 def github_starring_synchronization():
     """
-    Which Github repositories haven't I starred yet.
+    Which Github repositories haven't I starred yet?
     """
     private_properties = json.loads(utils.read_text(c.private_properties_file))
 
@@ -213,7 +226,7 @@ def github_starring_synchronization():
     all_repos = set(all_repos)
     print('found {} Github repos'.format(len(all_repos)))
 
-    # get my Github user
+    # get my GitHub user
     user = osg_github.get_user(private_properties['github-name'], token=private_properties['github-token'])
 
     # get starred repos
@@ -225,12 +238,12 @@ def github_starring_synchronization():
     # and now the difference
     unstarred = all_repos - starred
     print('not yet starred {} repos'.format(len(unstarred)))
-    print(', '.join(unstarred))
+    print('\n'.join(unstarred))
 
 
 if __name__ == "__main__":
     # collect entries (run this only once)
-    # collect_github_entries()
+    collect_github_entries()
 
     # import information from gh
     github_import()

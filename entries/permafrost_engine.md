@@ -6,6 +6,7 @@
 - Code repository: https://github.com/eduard-permyakov/permafrost-engine.git
 - Code language: C, Python
 - Code license: GPL-3.0
+- Developer: eduard-permyakov
 
 ## Building
 

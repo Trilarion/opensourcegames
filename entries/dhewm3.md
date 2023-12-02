@@ -6,7 +6,7 @@
 - Download: https://github.com/dhewm/dhewm3/releases
 - Platform: Windows, Linux, macOS
 - Keyword: action, remake, content commercial + original required, shooter
-- Code repository: https://github.com/dhewm/dhewm3.git (@created 2012, @stars 1344, @forks 258)
+- Code repository: https://github.com/dhewm/dhewm3.git (@created 2012, @stars 1511, @forks 295)
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependency: OpenGL

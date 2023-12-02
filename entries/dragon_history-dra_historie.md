@@ -12,6 +12,3 @@ Czech adventure game.
 Runs in ScummVM or Dosbox
 
 ## Building
-
-
-

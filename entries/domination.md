@@ -16,5 +16,3 @@ Android version seems to use [Swing ME](https://sourceforge.net/projects/swingme
 ## Building
 
 - Build system: Ant
-
-

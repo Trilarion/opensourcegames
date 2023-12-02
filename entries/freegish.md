@@ -5,12 +5,12 @@
 - Inspiration: Gish
 - State: beta, inactive since 2017
 - Keyword: arcade, platform, remake, content open, side-scrolling
-- Code repository: https://github.com/freegish/freegish.git (@created 2014, @stars 46, @forks 11)
+- Code repository: https://github.com/freegish/freegish.git (@created 2014, @stars 58, @forks 15)
 - Code language: C
 - Code license: GPL-2.0
 - Code dependency: SDL
 - Assets license: CC-BY-SA-3.0
-- Developer: Adam Mizerski, Asmageddon, blinry, FrozenCow, James Le Cuirot, Joris van de Donk, Luboš Novák
+- Developer: Adam Mizerski, Asmageddon, blinry, Bob van der Linden, EXL, FrozenCow, James Le Cuirot, Joris van de Donk, Luboš Novák, Wouter Wijsman
 
 ## Building
 

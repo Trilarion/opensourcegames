@@ -8,7 +8,7 @@
 - Code repository: https://github.com/SteveSmith16384/PhysicsSpaceWar.git (@created 2019, @stars 3, @forks 0)
 - Code language: Java
 - Code license: MIT
-- Developer: Steve Smith
+- Developer: Stephen Smith, Steve Smith
 
 ## Building
 

@@ -9,5 +9,6 @@
 - Code language: C#
 - Code license: Apache-2.0
 - Code dependency: Unity
+- Developer: Dominik Madarász, Dávid Svitana
 
 ## Building

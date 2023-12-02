@@ -5,7 +5,7 @@
 - Download: https://f-droid.org/de/packages/info.meoblast001.thugaim/
 - Platform: Android
 - Keyword: action, shooter, space
-- Code repository: https://github.com/meoblast001/thugaim.git (@created 2013, @stars 10, @forks 4)
+- Code repository: https://github.com/meoblast001/thugaim.git (@created 2013, @stars 11, @forks 3)
 - Code language: Java
 - Code license: MIT
 - Developer: Braden Walters

@@ -4,10 +4,10 @@
 - State: beta
 - Platform: Windows
 - Keyword: game engine
-- Code repository: https://github.com/PanosK92/SpartanEngine.git (@created 2016, @stars 1102, @forks 102)
+- Code repository: https://github.com/PanosK92/SpartanEngine.git (@created 2016, @stars 1540, @forks 135)
 - Code language: C, C++
 - Code license: MIT
-- Developer: Panos Karabelas
+- Developer: Ignacio Martinez, Iker Galardi, Panos Karabelas
 
 ## Building
 

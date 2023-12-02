@@ -342,6 +342,10 @@ from running the game or from youtube play videos.
 
 01 170 128 !https://web.archive.org/web/20150412110531im_/http://www.hectigo.net/games/beatharvester/screenshot.png
 
+# belote
+
+01 171 128 !?
+
 # berusky
 
 01 170 128 !https://www.anakreon.cz/theme/Stred1m.gif
@@ -920,7 +924,7 @@ from running the game or from youtube play videos.
 
 # ddracenetwork
 
-01 204 128 https://ddnet.tw/Teetrader.png
+01 204 128 https://ddnet.org/Teetrader.png
 
 # decker
 
@@ -2685,6 +2689,12 @@ from running the game or from youtube play videos.
 01 160 128 https://raw.githubusercontent.com/turican0/remc2/wikiimg/2019-03-24%2016_24_21-Remake%20Magic%20Carpet%202.png
 02 161 128 https://raw.githubusercontent.com/turican0/remc2/wikiimg/2019-03-21%2020_46_03-Window.png
 03 160 128 https://raw.githubusercontent.com/turican0/remc2/wikiimg/2019-03-20%2019_20_08-Remake%20Magic%20Carpet%202.png
+
+# remnants_of_the_precursors
+
+01 198 128 https://img.itch.zone/aW1hZ2UvMTc1MzcwLzgxODM2My5qcGc=/original/f7%2Fd9g.jpg
+02 206 128 https://img.itch.zone/aW1hZ2UvMTc1MzcwLzgxODM3My5wbmc=/original/hR1W%2Bh.png
+03 198 128 https://img.itch.zone/aW1hZ2UvMTc1MzcwLzgxODM1Ny5qcGc=/original/FdNZv8.jpg
 
 # rescue_max
 

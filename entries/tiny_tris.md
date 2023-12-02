@@ -2,7 +2,7 @@
 
 - Home: https://sites.google.com/view/tinytris
 - State: mature
-- Keyword: puzzle, open content, tetris-like
+- Keyword: puzzle, content open, tetris-like
 - Code repository: 
 - Code language: C
 - Code license: GPL-3.0

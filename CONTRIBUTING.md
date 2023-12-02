@@ -10,7 +10,7 @@ or if you are not familiar with pull requests.
 Please create one issue for each entry that is to be modified/added and provide all the information that is required to
 update or create a new entry.
 
-Exception: For reporting screenshot URLs, please use [this issue]().
+Exception: For reporting screenshot URLs, please use [this issue](https://github.com/Trilarion/opensourcegames/issues/327).
 
 ### 2. Fork the repository and submit a pull request
 
@@ -55,14 +55,14 @@ Description of the fields in the [template](template.md). Comments start with "/
 - Assets license: {XX}    // (optional) license(s) of the assets (artwork, ..)
 - Developer: {XX}         // (optional) list of developer names
 
-Notes // whatever you want to put up here, focused on the technical aspects
+Notes // whatever you want to put up here, focused on the technical aspects of the game that isn't contained above, keep it short
 
 ## Building
 
 - Build system: {XX}       // (optional) typically one of {CMake, Autoconf, Gradle, ..} but can be more
 - Build instruction: {XX}  // (optional) link(s) to build instructions offered by the project
 
-Notes // addition build instructions or technical comments you want to put here
+Notes // addition build instructions or technical comments about building the project that you want to put here
 </pre>
 
 ### Important conventions (please read carefully!)

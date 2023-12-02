@@ -5,10 +5,10 @@
 - Download: https://github.com/subchannel13/Stareater/releases
 - Platform: Windows, Linux, macOS
 - Keyword: strategy, 4X, space, turn-based
-- Code repository: https://github.com/subchannel13/Stareater.git (@created 2015, @stars 22, @forks 5)
+- Code repository: https://github.com/subchannel13/Stareater.git (@created 2015, @stars 28, @forks 7)
 - Code language: C#
 - Code license: GPL-3.0
 - Code dependency: MonoGame
-- Developer: EmP, Ivan, Ivan Vučica
+- Developer: EmP, Ivan, Ivan Kravarščan, Ivan Vučica
 
 ## Building

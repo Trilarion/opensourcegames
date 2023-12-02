@@ -9,6 +9,7 @@
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: Qt
+- Developer: Carsten Teibes, Diego Pedraza, fdelapena, Gabriel, Lobomon, Marcel Hellwig, Mariano Javier Suligoy, Matthew Fioravante
 
 Editor for EasyRPG.
 

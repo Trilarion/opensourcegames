@@ -15,5 +15,3 @@ See also https://packages.debian.org/search?keywords=biniax, https://play.google
 [Original Biniax](http://www.tuzsuzov.com/biniax/index1.htm), [Biniax mobile](http://biniax.com/mobile)
 
 ## Building
-
-

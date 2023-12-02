@@ -12,5 +12,3 @@
 2D Game Engine for JavaFX.
 
 ## Building
-
-

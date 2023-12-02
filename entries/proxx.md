@@ -6,7 +6,7 @@
 - Play: https://proxx.app/
 - Platform: Web
 - Keyword: puzzle, clone
-- Code repository: https://github.com/GoogleChromeLabs/proxx.git (@created 2019, @stars 1136, @forks 104)
+- Code repository: https://github.com/GoogleChromeLabs/proxx.git (@created 2019, @stars 1205, @forks 114)
 - Code language: TypeScript, JavaScript
 - Code license: Apache-2.0
 - Code dependency: WebGL

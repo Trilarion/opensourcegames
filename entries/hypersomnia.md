@@ -16,4 +16,4 @@ Adrenaline-packed shooter that brings competitive gaming to the open-source comm
 ## Building
 
 - Build system: CMake
-- Build instruction: Refer to [repository's README.](https://github.com/TeamHypersomnia/Hypersomnia#how-to-build)
+- Build instruction: https://github.com/TeamHypersomnia/Hypersomnia#how-to-build

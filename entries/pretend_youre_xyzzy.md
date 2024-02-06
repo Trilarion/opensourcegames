@@ -11,4 +11,3 @@
 - Code license: 2-clause BSD
 
 ## Building
-

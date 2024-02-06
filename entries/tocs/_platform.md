@@ -50,6 +50,7 @@
 - **[OpenGOAL](../opengoal.md)** (Lisp, C++, ISC, beta)
 - **[Physics Platformer](../physics_platformer.md)** (Java, MIT, beta, inactive since 2019)
 - **[Plee the Bear](../plee_the_bear.md)** (Lisp, C++, Scheme, C, GPL-3.0, beta, inactive since 2017)
+- **[Red Runner](../red_runner.md)** (C#, MIT, mature)
 - **[Reflection Keen](../reflection_keen.md)** (C, Lua, GPL-2.0, mature)
 - **[Replica Island](../replica_island.md)** (Java, Apache-2.0, mature, inactive since 2011)
 - **[ReTux](../retux.md)** (Python, GPL-3.0, mature, inactive since 2018)

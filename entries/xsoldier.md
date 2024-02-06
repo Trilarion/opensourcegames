@@ -11,4 +11,3 @@
 - Developer: Yuusuke Hashimoto
 
 ## Building
-

@@ -125,7 +125,7 @@ Herzog 3D (http://herzog3d.sourceforge.net/, https://sourceforge.net/p/herzog3d/
 Historyline (https://conquertheworldbycode.wordpress.com/nostalgia-2/, https://github.com/oliverdb/Historyline.git): No license information, inactive, very early development
 HistoryLine (https://github.com/oliverdb/Historyline): Very early development, no license information
 hobbitgfx (https://richardcarlsson.blogspot.co.uk/2014/11/the-hobbit-1982-game-graphics-engine-in.html, https://github.com/richcarl/hobbitgfx.git): No license information, inactive
-hode (http://cyxdown.free.fr/hode/, https://github.com/usineur/hode.git): No license information, opened issue about it but no answer yet
+hode (http://cyxdown.free.fr/hode/, https://github.com/usineur/hode.git): No license information, opened issue about it, issue got closed without reply
 Homeworld SDL (https://github.com/aheadley/homeworld): Not open source compliant license (see https://github.com/aheadley/homeworld/blob/master/README)
 Howitzer Skirmish (http://howski.sourceforge.net/): No source code
 Ikariam (https://github.com/advocaite/ikariam, https://github.com/TheOnly92/Ikariem): No license information found, no assets license information found
@@ -203,6 +203,7 @@ Ninjapix (http://pyedpypers.org/pyday/?p=27): Sources lost, Homepage offline, In
 Octopus (https://github.com/roger-wetzel/Octopus.git): Requires Apple TV4 which is too exotic hardware requirement
 Omega Race Remake (https://github.com/UnforgivenRob/Omega-Race-Remake.git): No license information, abandoned, not playable?
 Open BattleChess (https://github.com/blueveno/openbattlechess.git): No license information, abandoned, not playable?
+open game tools (https://github.com/jpaver/opengametools): Too specialized (for voxels) and too much programming related, not useful for many games
 Open General (http://www.open-general.com/, https://sourceforge.net/projects/opengeneral/, https://svn.code.sf.net/p/opengeneral/code/): Proprietary license (see credits.txt)
 Open Portal Engine (https://github.com/lpuglia/Open-Portal.git): No license information, opened issue about it but no answer yet, looks promising
 Open Sonic (http://opensnc.sourceforge.net/home/index.php): Commercial content, already contained in Open Surge
@@ -224,12 +225,14 @@ OutRun CPC (http://outruncpc.free.fr/): No license information, abandoned
 pacman (https://github.com/snozza/pacman.git): Playable? We already have so many pacmans
 Pathfinder Roleplaying Game (http://pathfinder.wikia.com/wiki/Pathfinder_Roleplaying_Game, https://en.wikipedia.org/wiki/Pathfinder_Roleplaying_Game): Not a video game, only a rule set
 Pendomotion (https://github.com/Pafycio/Pendomotion.git): No license information, opened issue about it but no answer yet, looks promising
+Perfect Dark (https://github.com/n64decomp/perfect_dark): Says MIT, but likely isn't, rather is decompilation of proprietary code, opened issue at osgl
 Phantasy (https://github.com/rafael-esper/Phantasy.git): No license information, abandoned
 Phavon (http://phavon.sourceforge.net/, http://phavon.cvs.sourceforge.net/viewvc/phavon/): Very early development
 Phoenix (https://github.com/joulupunikki/Phoenix, https://joulupunikki.github.io/Phoenix/#Copyright): Only waive liability, otherwise all rights reserved
 Pico-8 (https://www.lexaloffle.com/pico-8.php): Commercial
 Pipemania (https://github.com/zbiq13/Pipemania.git): No license information, abandoned
 PKMN-FX (https://github.com/jonasdemoor/PKMN-FX.git): Code not available anymore
+Plasma Pong (http://www.plasmapong.com/plasma-pong/plasma-pong/): Website not up anymore, could not find sources or licenses anywhere, probably never was open source (see fluid table tennis for an open source variant)
 PokeTraveler (https://github.com/pokemium/PokeTraveler.git): No license information, abandoned, archived
 Pokémon Polished Crystal (https://github.com/Rangi42/polishedcrystal.git, https://hax.iimarckus.org/topic/6874/): No license information, unlikely because disassembly of commercial code
 Postludium (https://github.com/Pctg-x8/postludium): Very early development, no license information
@@ -268,7 +271,6 @@ Ruby Raid (https://github.com/zukunftsalick/ruby-raid.git): No license informati
 RuneSword II (https://sourceforge.net/projects/runesword/, http://runesword.sourceforge.net/, https://github.com/mattiascibien/Runesword.net, https://github.com/aceofspades19/Runesword-II-OS.Net, http://www.runesword.com/rs2.html): No license found
 Schwertreiter (https://sourceforge.net/projects/schwertreiter/): No license information, early development, long inactive
 Scions of Darkness (): No link found.
-Plasma Pong (http://www.plasmapong.com/plasma-pong/plasma-pong/): Website not up anymore, could not find sources or licenses anywhere, probably never was open source (see fluid table tennis for an open source variant)
 sCoreForge Pathfinder Character Creator (https://sourceforge.net/projects/scoreforge/): No license found
 Scoreus (https://web.archive.org/web/20120618143653/http://scoreos.org:80/about, https://code.google.com/archive/p/scoreos/, https://github.com/Lozza999/scoreos.git, https://code.google.com/archive/p/scoreos/): Source code not found
 scummgen (https://code.google.com/archive/p/scummgen/, https://github.com/sronsse/scummgen): Somewhat advanced but no license information within the download. Maybe GPL.

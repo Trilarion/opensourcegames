@@ -14,6 +14,7 @@
 - **[GPL Arcade Volleyball](../gpl_arcade_volleyball.md)** (C++, GPL-2.0, beta, inactive since 2006)
 - **[H-Craft Championship](../h-craft_championship.md)** (C++, C, zlib, mature, inactive since 2015)
 - **[HoverRace](../hoverrace.md)** (C++, Custom, mature, inactive since 2016)
+- **[Kolf](../kolf.md)** (C, GPL-2.0, mature)
 - **[Libre Pinball](../libre_pinball.md)** (GDScript, MIT, beta, inactive since 2015)
 - **[NetStatsBaseball](../netstatsbaseball.md)** (C, Public domain, mature)
 - **[NOVA PINBALL](../nova_pinball.md)** (Lua, GPL-3.0, beta, inactive since 2017)

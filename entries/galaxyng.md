@@ -1,6 +1,6 @@
 # GalaxyNG
 
-- Home: http://galaxyng.sourceforge.net/, https://sourceforge.net/projects/galaxyng/
+- Home: https://galaxyng.sourceforge.net/, https://sourceforge.net/projects/galaxyng/
 - State: mature, inactive since 2005
 - Download: https://sourceforge.net/projects/galaxyng/files
 - Keyword: strategy, multiplayer email, turn-based

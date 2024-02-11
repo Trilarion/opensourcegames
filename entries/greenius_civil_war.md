@@ -1,6 +1,6 @@
 # Greenius' Civil War
 
-- Home: http://civilwar.sourceforge.net/, https://sourceforge.net/projects/civilwar/, https://www.greenius.co.uk/personal/steven/civilwar.html
+- Home: https://civilwar.sourceforge.net/, https://sourceforge.net/projects/civilwar/, https://www.greenius.co.uk/personal/steven/civilwar.html
 - Inspiration: American Civil War
 - State: beta, inactive since 2001
 - Keyword: remake, strategy

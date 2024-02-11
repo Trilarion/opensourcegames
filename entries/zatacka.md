@@ -1,9 +1,9 @@
 # Zatacka
 
-- Home: http://zatacka.sourceforge.net/, https://sourceforge.net/projects/zatacka/
+- Home: https://zatacka.sourceforge.net/, https://sourceforge.net/projects/zatacka/
 - Inspiration: "Achtung, die Kurve!"
 - State: beta, inactive since 2007
-- Download: http://zatacka.sourceforge.net/index.php?id=download, https://sourceforge.net/projects/zatacka/files/
+- Download: https://zatacka.sourceforge.net/index.php?id=download, https://sourceforge.net/projects/zatacka/files/
 - Platform: Windows, Linux
 - Keyword: arcade, 2D, multiplayer
 - Code repository: http://zatacka.cvs.sourceforge.net (cvs)

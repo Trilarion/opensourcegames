@@ -1,9 +1,9 @@
 # Open Surge
 
-- Home: http://opensurge2d.org/, http://opensnc.sourceforge.net/home/index.php, http://opensnc.sourceforge.net/forum/index.php, https://sourceforge.net/projects/opensnc/
+- Home: http://opensurge2d.org/, https://opensnc.sourceforge.net/home/index.php, https://forum.opensurge2d.org/, https://sourceforge.net/projects/opensnc/
 - Inspiration: Sonic the Hedgehog series
 - State: beta
-- Download: http://opensnc.sourceforge.net/forum/viewtopic.php?id=1931, http://opensnc.sourceforge.net/home/download.php
+- Download: https://opensurge2d.org/#download, https://forum.opensurge2d.org/viewtopic.php?id=1931, https://opensnc.sourceforge.net/home/download.php
 - Keyword: action, platform, 2D, clone
 - Code repository: https://github.com/alemart/opensurge.git (@created 2018, @stars 233, @forks 26), https://svn.code.sf.net/p/opensnc/code (svn)
 - Code language: C

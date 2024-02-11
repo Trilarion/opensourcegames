@@ -1,6 +1,6 @@
 # Dungeon Craft
 
-- Home: http://uaf.sourceforge.net/, https://sourceforge.net/projects/uaf/, http://www.dianneandpaul.net/UAF/DungeonCraft.html
+- Home: https://uaf.sourceforge.net/, https://sourceforge.net/projects/uaf/, http://www.dianneandpaul.net/UAF/DungeonCraft.html
 - Inspiration: Forgotten Realms: Unlimited Adventures
 - State: mature
 - Download: https://sourceforge.net/projects/uaf/files/

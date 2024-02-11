@@ -1,6 +1,6 @@
 # Cube 2: Sauerbraten
 
-- Home: http://sauerbraten.org/, https://sourceforge.net/projects/sauerbraten/, http://cubeengine.com/wiki/
+- Home: http://sauerbraten.org/, https://sourceforge.net/projects/sauerbraten/, http://cubeengine.com/wiki/Main_Page
 - Media: https://en.wikipedia.org/wiki/Cube_2:_Sauerbraten
 - Inspiration: Cube
 - State: mature, inactive since 2020

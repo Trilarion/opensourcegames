@@ -1,6 +1,6 @@
 # Battle Tanks
 
-- Home: http://btanks.sourceforge.net/blog/, https://sourceforge.net/projects/btanks/
+- Home: https://btanks.sourceforge.net/blog/, https://sourceforge.net/projects/btanks/
 - State: mature, inactive since 2009
 - Download: https://sourceforge.net/projects/btanks/files/
 - Platform: Windows, Linux, macOS

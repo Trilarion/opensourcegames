@@ -1,10 +1,10 @@
 # SDL Asylum
 
-- Home: http://sdl-asylum.sourceforge.net/, https://sourceforge.net/projects/sdl-asylum/
+- Home: https://sdl-asylum.sourceforge.net/, https://sourceforge.net/projects/sdl-asylum/
 - Media: http://asylum.acornarcade.com/
 - Inspiration: Asylum
 - State: mature, inactive since 2009
-- Download: http://sdl-asylum.sourceforge.net/main.html#Download
+- Download: https://sdl-asylum.sourceforge.net/main.html#Download
 - Platform: Linux
 - Keyword: action, arcade, remake
 - Code repository: https://gitlab.com/osgames/sdl-asylum.git (import of svn, @created 2019, @stars 1, @forks 0), https://svn.code.sf.net/p/sdl-asylum/code (svn)

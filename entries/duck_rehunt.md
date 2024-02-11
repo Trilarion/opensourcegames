@@ -1,6 +1,6 @@
 # Duck Rehunt
 
-- Home: https://pygame.org/project-Duck+Rehunt-1862-.html
+- Home: https://www.pygame.org/project-Duck+Rehunt-1862-.html
 - Inspiration: Duck Hunt
 - State: beta, inactive since 2011
 - Keyword: arcade, remake, skill

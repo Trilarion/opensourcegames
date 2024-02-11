@@ -1,6 +1,6 @@
 # Super Methane Brothers
 
-- Home: http://methane.sourceforge.net/
+- Home: https://methane.sourceforge.net/
 - Media: https://en.wikipedia.org/wiki/Super_Methane_Bros.
 - Inspiration: Super Methane Brothers
 - State: mature, inactive since 2011

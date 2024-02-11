@@ -1,6 +1,6 @@
 # Fall of Imiryn
 
-- Home: http://annchienta.sourceforge.net/?page=fall_of_imiryn
+- Home: https://annchienta.sourceforge.net/?page=fall_of_imiryn
 - State: beta, inactive since 2009
 - Download: https://sourceforge.net/projects/annchienta/files/annchienta/current/
 - Keyword: role playing

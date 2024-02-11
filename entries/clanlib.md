@@ -1,6 +1,6 @@
 # ClanLib
 
-- Home: http://www.clanlib.org/, https://directory.fsf.org/wiki/Clanlib, https://sourceforge.net/projects/clanlib/, https://www.seul.org/~grumbel/tmp/clanlib/intro.html
+- Home: https://web.archive.org/web/20180130011212/http://www.clanlib.org/, https://directory.fsf.org/wiki/Clanlib, https://sourceforge.net/projects/clanlib/, https://web.archive.org/web/20210928101152/https://www.seul.org/~grumbel/tmp/clanlib/intro.html
 - State: mature
 - Platform: Windows, Linux
 - Keyword: game engine

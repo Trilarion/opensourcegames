@@ -1,9 +1,9 @@
 # Hedgewars
 
-- Home: http://hedgewars.org/
+- Home: https://hedgewars.org/
 - Inspiration: Worms Series
 - State: mature
-- Download: http://hedgewars.org/download.html
+- Download: https://hedgewars.org/download.html
 - Platform: Windows, Linux, iOS
 - Keyword: action, artillery, clone, turn-based
 - Code repository: http://hg.hedgewars.org/hedgewars/ (hg), https://github.com/hedgewars/hw.git @add (@created 2013, @stars 430, @forks 98)

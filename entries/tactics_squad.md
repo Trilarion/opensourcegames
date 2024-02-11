@@ -1,8 +1,8 @@
 # Tactics Squad
 
-- Home: http://tacticsgame.sourceforge.net/, https://sourceforge.net/projects/tacticsgame/
+- Home: https://tacticsgame.sourceforge.net/, https://sourceforge.net/projects/tacticsgame/
 - State: beta, inactive since 2007
-- Download: http://tacticsgame.sourceforge.net/download.html, https://sourceforge.net/projects/tacticsgame/files/
+- Download: https://tacticsgame.sourceforge.net/download.html, https://sourceforge.net/projects/tacticsgame/files/
 - Platform: Windows, Linux
 - Keyword: strategy, real-time
 - Code repository: http://tacticsgame.cvs.sourceforge.net (cvs)

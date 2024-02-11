@@ -1,6 +1,6 @@
 # Brogue
 
-- Home: http://sites.google.com/site/broguegame/, https://brogue.fandom.com/wiki/Brogue_Wiki
+- Home: https://sites.google.com/site/broguegame/, https://brogue.fandom.com/wiki/Brogue_Wiki
 - State: mature
 - Platform: Windows, Linux, macOS
 - Keyword: role playing, roguelike

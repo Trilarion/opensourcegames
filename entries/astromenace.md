@@ -1,6 +1,6 @@
 # AstroMenace
 
-- Home: https://www.viewizard.com/, https://sourceforge.net/projects/openastromenace/
+- Home: https://viewizard.com/, https://sourceforge.net/projects/openastromenace/
 - Inspiration: AstroMenace
 - State: mature
 - Download: https://viewizard.com/download.html

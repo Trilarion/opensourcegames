@@ -1,6 +1,6 @@
 # Golly
 
-- Home: http://golly.sourceforge.net/, https://sourceforge.net/projects/golly/
+- Home: https://golly.sourceforge.net/, https://sourceforge.net/projects/golly/
 - Inspiration: Game of Life
 - State: mature
 - Download: https://sourceforge.net/projects/golly/files/, https://play.google.com/store/apps/details?id=net.sf.golly

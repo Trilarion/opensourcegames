@@ -1,6 +1,6 @@
 # Emilia Pinball
 
-- Home: http://pinball.sourceforge.net/, https://sourceforge.net/projects/pinball/
+- Home: https://pinball.sourceforge.net/, https://sourceforge.net/projects/pinball/
 - State: beta
 - Download: https://sourceforge.net/projects/pinball/files/
 - Platform: Windows, Linux, macOS

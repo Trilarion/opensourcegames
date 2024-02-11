@@ -1,6 +1,6 @@
 # Vorton
 
-- Home: http://vorton.sourceforge.net/
+- Home: https://vorton.sourceforge.net/
 - Inspiration: Highway Encounter
 - State: beta, inactive since 2004
 - Download: https://sourceforge.net/projects/vorton/files/

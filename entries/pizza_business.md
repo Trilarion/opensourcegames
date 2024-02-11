@@ -1,6 +1,6 @@
 # Pizza Business
 
-- Home: http://pizza-business.sourceforge.net/, https://sourceforge.net/projects/pizza-business/
+- Home: https://pizza-business.sourceforge.net/, https://sourceforge.net/projects/pizza-business/
 - Inspiration: Pizza Tycoon
 - State: mature, inactive since 2003
 - Download: https://sourceforge.net/projects/pizza-business/files

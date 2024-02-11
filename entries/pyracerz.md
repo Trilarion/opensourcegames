@@ -1,6 +1,6 @@
 # pyRacerz
 
-- Home: http://pyracerz.sourceforge.net/, https://sourceforge.net/projects/pyracerz/
+- Home: https://pyracerz.sourceforge.net/, https://sourceforge.net/projects/pyracerz/
 - State: beta, inactive since 2005
 - Download: https://sourceforge.net/projects/pyracerz/files/
 - Keyword: framework, racing

@@ -1,6 +1,6 @@
 # FreeSiege
 
-- Home: http://freesiege.sourceforge.net/
+- Home: https://freesiege.sourceforge.net/
 - Inspiration: Siege
 - State: beta
 - Keyword: puzzle, remake, strategy

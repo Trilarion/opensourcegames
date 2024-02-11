@@ -1,6 +1,6 @@
 # Xconq
 
-- Home: http://xconq.sourceforge.net/, http://sourceware.org/xconq/, https://sourceforge.net/projects/xconq/
+- Home: https://xconq.sourceforge.net/, http://sourceware.org/xconq/, https://sourceforge.net/projects/xconq/
 - Media: https://en.wikipedia.org/wiki/Xconq
 - Inspiration: Empire
 - State: mature, inactive since 2005

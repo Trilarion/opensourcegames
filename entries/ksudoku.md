@@ -1,6 +1,6 @@
 # Ksudoku
 
-- Home: https://kde.org/applications/games/org.kde.ksudoku, http://ksudoku.sourceforge.net/, https://sourceforge.net/projects/ksudoku/
+- Home: https://kde.org/applications/games/org.kde.ksudoku, https://ksudoku.sourceforge.net/, https://sourceforge.net/projects/ksudoku/
 - State: mature
 - Keyword: puzzle, content open, sudoku
 - Code repository: https://anongit.kde.org/ksudoku.git, https://svn.code.sf.net/p/ksudoku/code (svn old)

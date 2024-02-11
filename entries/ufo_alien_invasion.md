@@ -6,7 +6,7 @@
 - State: mature
 - Download: https://ufoai.org/wiki/Download
 - Keyword: strategy, clone, turn-based
-- Code repository: https://github.com/ufoai/ufoai.git (mirror, @created 2011, @stars 141, @forks 49), https://git.code.sf.net/p/ufoai/code
+- Code repository: https://github.com/ufoaiorg/ufoai.git (mirror, @created 2011, @stars 141, @forks 49), https://git.code.sf.net/p/ufoai/code
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependency: Quake II engine, SDL

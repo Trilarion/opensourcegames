@@ -12,4 +12,4 @@
 ## Building
 
 - Build system: premake
-- Build instruction: https://github.com/NazaraEngine/NazaraEngine/blob/master/INSTALL.md
+- Build instruction: https://github.com/NazaraEngine/NazaraEngine/blob/main/INSTALL.md

@@ -1,6 +1,6 @@
 # NStars!
 
-- Home: http://nstars.sourceforge.net/, https://sourceforge.net/projects/nstars/
+- Home: https://nstars.sourceforge.net/, https://sourceforge.net/projects/nstars/
 - Inspiration: Stars!
 - State: beta, inactive since 2004
 - Download: https://sourceforge.net/projects/nstars/files/

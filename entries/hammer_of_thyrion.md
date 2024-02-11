@@ -1,9 +1,9 @@
 # Hammer of Thyrion
 
-- Home: http://uhexen2.sourceforge.net/, https://sourceforge.net/projects/uhexen2/
+- Home: https://uhexen2.sourceforge.net/, https://sourceforge.net/projects/uhexen2/
 - Inspiration: Hexen II
 - State: mature
-- Download: http://uhexen2.sourceforge.net/download.html
+- Download: https://uhexen2.sourceforge.net/download.html
 - Platform: Windows, Linux, macOS
 - Keyword: action, remake, content original required (?), shooter
 - Code repository: https://github.com/sezero/uhexen2.git (@created 2019, @stars 40, @forks 8), https://git.code.sf.net/p/uhexen2/uhexen2 @add, http://uhexen2.cvs.sourceforge.net (cvs)

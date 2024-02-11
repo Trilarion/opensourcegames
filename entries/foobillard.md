@@ -1,6 +1,6 @@
 # FooBillard
 
-- Home: http://foobillard.sourceforge.net/, https://sourceforge.net/projects/foobillard/
+- Home: https://foobillard.sourceforge.net/, https://sourceforge.net/projects/foobillard/
 - State: mature, inactive since 2010
 - Download: https://sourceforge.net/projects/foobillard/files/
 - Platform: Windows, Linux

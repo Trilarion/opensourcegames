@@ -1,6 +1,6 @@
 # Atomiks
 
-- Home: http://atomiks.sourceforge.net/, https://sourceforge.net/projects/atomiks/
+- Home: https://atomiks.sourceforge.net/, https://sourceforge.net/projects/atomiks/
 - Inspiration: Atomix
 - State: mature, inactive since 2015
 - Download: https://sourceforge.net/projects/atomiks/files

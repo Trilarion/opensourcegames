@@ -1,8 +1,8 @@
 # Blobby Volley 2
 
-- Home: http://blobby.sourceforge.net/, https://sourceforge.net/projects/blobby/
-- State: mature, inactive since 2017
-- Download: https://sourceforge.net/projects/blobby/files/
+- Home: http://blobbyvolley.de/ (german), https://sourceforge.net/projects/blobby/
+- State: mature
+- Download: http://blobbyvolley.de/download.php, https://sourceforge.net/projects/blobby/files/
 - Platform: Windows, Linux, macOS
 - Keyword: action, arcade
 - Code repository: https://svn.code.sf.net/p/blobby/code (svn)

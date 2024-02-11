@@ -1,6 +1,6 @@
 # OpenRaider
 
-- Home: https://github.com/xythobuz/OpenRaider, http://openraider.sourceforge.net/, https://sourceforge.net/projects/openraider/
+- Home: https://github.com/xythobuz/OpenRaider, https://openraider.sourceforge.net/, https://sourceforge.net/projects/openraider/
 - Inspiration: Tomb Raider
 - State: beta, inactive since 2015
 - Download: https://github.com/xythobuz/OpenRaider/releases

@@ -1,6 +1,6 @@
 # Barony
 
-- Home: http://www.baronygame.com/
+- Home: https://github.com/TurningWheel/Barony
 - Inspiration: Barony
 - State: mature
 - Keyword: remake, role playing, 3D, content commercial, first-person, multiplayer co-op + online + LAN, roguelike

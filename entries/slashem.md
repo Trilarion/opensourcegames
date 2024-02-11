@@ -1,10 +1,10 @@
 # SLASH'EM
 
-- Home: http://www.slashem.org/, http://slashem.sourceforge.net/, https://sourceforge.net/projects/slashem/
+- Home: http://www.slashem.org/, https://slashem.sourceforge.net/, https://sourceforge.net/projects/slashem/
 - Media: https://en.wikipedia.org/wiki/Slash'EM
 - Inspiration: NetHack
 - State: beta, inactive since 2007
-- Download: http://slashem.sourceforge.net/stable.html, https://sourceforge.net/projects/slashem/files/
+- Download: https://slashem.sourceforge.net/stable.html, https://sourceforge.net/projects/slashem/files/
 - Keyword: role playing, clone, roguelike
 - Code repository: https://github.com/osgamearchive/slashem.git (archived conversion of cvs, @archived, @created 2019, @stars 3, @forks 0), http://slashem.cvs.sourceforge.net (cvs)
 - Code language: C, C++

@@ -1,6 +1,6 @@
 # Gravitation
 
-- Home: http://hcsoftware.sourceforge.net/gravitation/, https://sourceforge.net/projects/hcsoftware/
+- Home: https://hcsoftware.sourceforge.net/gravitation/, https://sourceforge.net/projects/hcsoftware/
 - State: mature, inactive since 2008
 - Download: https://sourceforge.net/projects/hcsoftware/files/Gravitation/
 - Platform: Windows, Linux, macOS

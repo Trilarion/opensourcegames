@@ -1,6 +1,6 @@
 # GUSANOS
 
-- Home: http://gusanos.sourceforge.net/, https://sourceforge.net/projects/gusanos/
+- Home: https://gusanos.sourceforge.net/, https://sourceforge.net/projects/gusanos/
 - Inspiration: Liero, Worms
 - State: beta, inactive since 2006
 - Download: https://sourceforge.net/projects/gusanos/files/

@@ -1,6 +1,6 @@
 # Rogue Clone IV
 
-- Home: http://rogueclone.sourceforge.net/, https://sourceforge.net/projects/rogueclone/
+- Home: https://rogueclone.sourceforge.net/, https://sourceforge.net/projects/rogueclone/
 - Media: https://en.wikipedia.org/wiki/Rogue_(video_game)
 - Inspiration: Rogue
 - State: mature, inactive since 2006

@@ -1,6 +1,6 @@
 # LGeneral
 
-- Home: http://lgames.sourceforge.net/LGeneral/, https://sourceforge.net/projects/lgames/, https://sourceforge.net/projects/lgeneral/
+- Home: https://lgames.sourceforge.net/LGeneral/, https://sourceforge.net/projects/lgames/, https://sourceforge.net/projects/lgeneral/
 - Media: https://en.wikipedia.org/wiki/Panzer_General#LGeneral
 - Inspiration: Panzer General
 - State: mature, inactive since 2017

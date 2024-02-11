@@ -1,6 +1,6 @@
 # Open Jumpgate
 
-- Home: http://opengate.sourceforge.net/, https://sourceforge.net/projects/opengate/
+- Home: https://opengate.sourceforge.net/, https://sourceforge.net/projects/opengate/
 - Inspiration: Jumpgate: The Reconstruction Initiative
 - State: beta, inactive since 2017
 - Keyword: remake, role playing, simulation, multiplayer online, space

@@ -1,9 +1,9 @@
 # Xye
 
-- Home: http://xyegame.blogspot.com/, http://xye.sourceforge.net/, https://sourceforge.net/projects/xye/
+- Home: http://xyegame.blogspot.com/, https://xye.sourceforge.net/, https://sourceforge.net/projects/xye/
 - Inspiration: Kye, Sokoban
 - State: beta, inactive since 2013
-- Download: http://xye.sourceforge.net/download.php, https://sourceforge.net/projects/xye/files/
+- Download: https://xye.sourceforge.net/download.php, https://sourceforge.net/projects/xye/files/
 - Keyword: arcade, clone, content open
 - Code repository: https://gitlab.com/osgames/xye.git (conversion of svn, @created 2019, @stars 1, @forks 0), https://svn.code.sf.net/p/xye/code (svn)
 - Code language: C++

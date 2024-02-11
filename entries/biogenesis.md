@@ -1,6 +1,6 @@
 # Biogenesis
 
-- Home: http://biogenesis.sourceforge.net/, https://sourceforge.net/projects/biogenesis/
+- Home: https://biogenesis.sourceforge.net/, https://sourceforge.net/projects/biogenesis/
 - State: beta
 - Download: https://sourceforge.net/projects/biogenesis/files/
 - Keyword: simulation

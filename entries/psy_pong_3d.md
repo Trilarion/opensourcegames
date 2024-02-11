@@ -1,6 +1,6 @@
 # PSY PONG 3D
 
-- Home: http://psypong3d.sourceforge.net/, https://sourceforge.net/projects/psypong3d/
+- Home: https://psypong3d.sourceforge.net/, https://sourceforge.net/projects/psypong3d/
 - Inspiration: Pong
 - State: beta, inactive since 2009
 - Download: https://sourceforge.net/projects/psypong3d/files/

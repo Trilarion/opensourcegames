@@ -1,6 +1,6 @@
 # Fictional Air Combat
 
-- Home: http://facsimulation.sourceforge.net/index.html, https://sourceforge.net/projects/facsimulation/
+- Home: https://facsimulation.sourceforge.net/index.html, https://sourceforge.net/projects/facsimulation/
 - State: beta, inactive since 2012
 - Keyword: simulation, flight
 - Code repository: https://svn.code.sf.net/p/facsimulation/code (svn)

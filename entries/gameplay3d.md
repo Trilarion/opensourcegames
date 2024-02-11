@@ -1,6 +1,6 @@
 # GamePlay
 
-- Home: http://www.gameplay3d.io/
+- Home: https://www.gameplay3d.io/
 - State: mature, inactive since 2016
 - Platform: Windows, Linux, macOS, Android, iOS
 - Keyword: game engine, 2D, 3D

@@ -1,6 +1,6 @@
 # Avanor
 
-- Home: http://avanor.sourceforge.net/, https://sourceforge.net/projects/avanor/
+- Home: https://avanor.sourceforge.net/, https://sourceforge.net/projects/avanor/
 - State: beta, inactive since 2008
 - Download: https://sourceforge.net/projects/avanor/files
 - Keyword: role playing, roguelike

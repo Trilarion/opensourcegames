@@ -1,6 +1,6 @@
 # Trigger Rally
 
-- Home: http://triggerrally.com/, http://trigger-rally.sourceforge.net/, https://sourceforge.net/projects/trigger-rally/, https://packages.debian.org/search?keywords=trigger-rally
+- Home: http://triggerrally.com/, https://trigger-rally.sourceforge.net/, https://sourceforge.net/projects/trigger-rally/, https://packages.debian.org/search?keywords=trigger-rally
 - State: beta
 - Download: https://sourceforge.net/projects/trigger-rally/files/
 - Platform: Windows, Linux

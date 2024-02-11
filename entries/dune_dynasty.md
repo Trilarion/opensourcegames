@@ -1,6 +1,6 @@
 # Dune Dynasty
 
-- Home: http://dunedynasty.sourceforge.net/, https://sourceforge.net/projects/dunedynasty/
+- Home: https://dunedynasty.sourceforge.net/, https://sourceforge.net/projects/dunedynasty/
 - Inspiration: Dune 2, Open Dune
 - State: mature, inactive since 2014
 - Download: https://sourceforge.net/projects/dunedynasty

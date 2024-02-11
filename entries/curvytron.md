@@ -1,6 +1,6 @@
 # Curvytron
 
-- Home: http://www.curvytron.com/#/
+- Home: https://www.curvytron.com/#/
 - Inspiration: "Achtung, die Kurve!"
 - State: mature, inactive since 2015
 - Keyword: arcade, clone, content open, multiplayer, skill

@@ -1,6 +1,6 @@
 # Mega Mario
 
-- Home: http://mmario.sourceforge.net/, https://sourceforge.net/projects/mmario/
+- Home: https://mmario.sourceforge.net/, https://sourceforge.net/projects/mmario/
 - Inspiration: Super Mario
 - State: mature, inactive since 2012
 - Download: https://sourceforge.net/projects/mmario/files/

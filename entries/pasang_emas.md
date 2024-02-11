@@ -1,8 +1,8 @@
 # Pasang Emas
 
-- Home: http://pasang-emas.sourceforge.net/index.xhtml, https://sourceforge.net/projects/pasang-emas/
+- Home: https://pasang-emas.sourceforge.net/index.xhtml, https://sourceforge.net/projects/pasang-emas/
 - State: mature
-- Download: http://pasang-emas.sourceforge.net/download.xhtml, https://sourceforge.net/projects/pasang-emas/files/
+- Download: https://pasang-emas.sourceforge.net/download.xhtml, https://sourceforge.net/projects/pasang-emas/files/
 - Platform: Linux
 - Keyword: board, strategy
 - Code repository: https://git.code.sf.net/p/pasang-emas/code

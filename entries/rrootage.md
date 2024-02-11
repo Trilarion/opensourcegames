@@ -1,6 +1,6 @@
 # rRootage
 
-- Home: http://www.asahi-net.or.jp/~cs8k-cyu/windows/rr_e.html, http://rrootage.sourceforge.net/, https://sourceforge.net/projects/rrootage/
+- Home: http://www.asahi-net.or.jp/~cs8k-cyu/windows/rr_e.html, https://rrootage.sourceforge.net/, https://sourceforge.net/projects/rrootage/
 - State: beta, inactive since 2004
 - Download: https://sourceforge.net/projects/rrootage/files/
 - Platform: Windows, Linux

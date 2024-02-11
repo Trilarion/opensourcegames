@@ -1,6 +1,6 @@
 # Vamos
 
-- Home: http://vamos.sourceforge.net/, https://sourceforge.net/projects/vamos/
+- Home: https://vamos.sourceforge.net/, https://sourceforge.net/projects/vamos/
 - State: beta, inactive since 2014
 - Download: https://sourceforge.net/projects/vamos/files/
 - Platform: Linux

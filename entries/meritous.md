@@ -1,6 +1,6 @@
 # Meritous
 
-- Home: http://www.asceai.net/meritous/
+- Home: https://www.asceai.net/meritous/
 - Media: https://libregamewiki.org/Meritous
 - State: mature, inactive since 2008
 - Download: https://f-droid.org//packages/net.asceai.meritous/

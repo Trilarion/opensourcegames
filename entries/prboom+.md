@@ -1,6 +1,6 @@
 # PrBoom+
 
-- Home: http://prboom-plus.sourceforge.net/, https://sourceforge.net/projects/prboom-plus/
+- Home: https://prboom-plus.sourceforge.net/, https://sourceforge.net/projects/prboom-plus/
 - Inspiration: Doom, Doom II, Heretic, Hexen
 - State: mature, inactive since 2016
 - Download: https://sourceforge.net/projects/prboom-plus/files/

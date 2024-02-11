@@ -1,6 +1,6 @@
 # Transcend
 
-- Home: http://transcend.sourceforge.net/, https://sourceforge.net/projects/transcend/, https://packages.debian.org/search?keywords=transcend
+- Home: https://transcend.sourceforge.net/, https://sourceforge.net/projects/transcend/, https://packages.debian.org/search?keywords=transcend
 - State: beta, inactive since 2005
 - Download: https://sourceforge.net/projects/transcend/files/
 - Platform: Windows, Linux, macOS

@@ -1,6 +1,6 @@
 # Gigalomania
 
-- Home: http://gigalomania.sourceforge.net/, https://sourceforge.net/projects/gigalomania/
+- Home: https://gigalomania.sourceforge.net/, https://sourceforge.net/projects/gigalomania/
 - Inspiration: Mega-Lo-Mania
 - State: mature
 - Keyword: remake, strategy, 2D, real-time

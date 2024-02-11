@@ -1,6 +1,6 @@
 # Cubosphere
 
-- Home: https://github.com/cubosphere/cubosphere-code/projects, https://sourceforge.net/projects/cubosphere/
+- Home: https://github.com/cubosphere/cubosphere-code, https://sourceforge.net/projects/cubosphere/
 - Inspiration: Kula World
 - State: beta
 - Keyword: puzzle, remake

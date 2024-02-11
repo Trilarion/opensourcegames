@@ -1,6 +1,6 @@
 # Conquests
 
-- Home: http://conquests.sourceforge.net/, https://sourceforge.net/projects/conquests/
+- Home: https://conquests.sourceforge.net/, https://sourceforge.net/projects/conquests/
 - Inspiration: Civilization series
 - State: mature, inactive since 2012
 - Download: https://launchpad.net/conquests/+download

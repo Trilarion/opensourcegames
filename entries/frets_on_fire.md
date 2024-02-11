@@ -1,6 +1,6 @@
 # Frets on Fire
 
-- Home: http://fretsonfire.sourceforge.net/, https://sourceforge.net/projects/fretsonfire/
+- Home: https://fretsonfire.sourceforge.net/, https://sourceforge.net/projects/fretsonfire/
 - Inspiration: Guitar Hero
 - State: mature, inactive since 2008
 - Download: https://sourceforge.net/projects/fretsonfire/files/

@@ -1,6 +1,6 @@
 # GBDK
 
-- Home: https://gbdk-2020.github.io/gbdk-2020/, http://gbdk.sourceforge.net/, https://sourceforge.net/projects/gbdk/
+- Home: https://gbdk-2020.github.io/gbdk-2020/, https://gbdk.sourceforge.net/, https://sourceforge.net/projects/gbdk/
 - State: mature
 - Download: https://github.com/gbdk-2020/gbdk-2020/releases
 - Platform: Windows, Linux, macOS

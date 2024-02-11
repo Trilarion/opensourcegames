@@ -1,6 +1,6 @@
 # xdigger
 
-- Home: https://www.freebsd.org/cgi/man.cgi?query=xdigger
+- Home: https://man.freebsd.org/cgi/man.cgi?query=xdigger
 - Inspiration: Digger
 - State: mature, inactive since 1999
 - Download: https://launchpad.net/debian/+source/xdigger

@@ -1,6 +1,6 @@
 # D2X-XL
 
-- Home: http://www.descent2.de/, https://sourceforge.net/projects/d2x-xl/
+- Home: https://www.descent2.de/, https://sourceforge.net/projects/d2x-xl/
 - Inspiration: Descent, Descent II
 - State: mature, inactive since 2015
 - Platform: Windows, Linux, macOS

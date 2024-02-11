@@ -1,6 +1,6 @@
 # Bombic
 
-- Home: http://bombic.sourceforge.net/, https://sourceforge.net/projects/bombic/
+- Home: https://bombic.sourceforge.net/, https://sourceforge.net/projects/bombic/
 - Inspiration: Bomberman
 - State: beta, inactive since 2005
 - Download: https://sourceforge.net/projects/bombic/files/bombic/

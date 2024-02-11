@@ -1,6 +1,6 @@
 # XBlast
 
-- Home: http://xblast.sourceforge.net/, https://sourceforge.net/projects/xblast/
+- Home: https://xblast.sourceforge.net/, https://sourceforge.net/projects/xblast/
 - Inspiration: Bomberman
 - State: mature, inactive since 2005
 - Download: https://sourceforge.net/projects/xblast/files/

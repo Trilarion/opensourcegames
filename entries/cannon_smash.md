@@ -1,6 +1,6 @@
 # Cannon Smash
 
-- Home: http://cannonsmash.sourceforge.net/, https://sourceforge.net/projects/cannonsmash/
+- Home: https://cannonsmash.sourceforge.net/, https://sourceforge.net/projects/cannonsmash/
 - State: beta, inactive since 2003
 - Download: https://sourceforge.net/projects/cannonsmash/files/
 - Platform: Windows, Linux

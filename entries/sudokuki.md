@@ -1,6 +1,6 @@
 # Sudokuki
 
-- Home: http://sudokuki.sourceforge.net/, https://sourceforge.net/projects/sudokuki/
+- Home: https://sudokuki.sourceforge.net/, https://sourceforge.net/projects/sudokuki/
 - Inspiration: Sudoku
 - State: mature, inactive since 2016
 - Download: https://sourceforge.net/projects/sudokuki/files/

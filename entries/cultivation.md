@@ -1,6 +1,6 @@
 # Cultivation
 
-- Home: http://cultivation.sourceforge.net/, https://sourceforge.net/projects/cultivation/
+- Home: https://cultivation.sourceforge.net/, https://sourceforge.net/projects/cultivation/
 - Inspiration: Game of Life
 - State: mature, inactive since 2010
 - Download: https://sourceforge.net/projects/cultivation/files/cultivation/

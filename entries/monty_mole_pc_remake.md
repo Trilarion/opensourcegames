@@ -1,6 +1,6 @@
 # Monty Mole PC remake
 
-- Home: http://montymole.sourceforge.net, https://sourceforge.net/projects/montymole/
+- Home: https://montymole.sourceforge.net, https://sourceforge.net/projects/montymole/
 - Inspiration: Monty Mole
 - State: mature, inactive since 2012
 - Keyword: arcade, remake

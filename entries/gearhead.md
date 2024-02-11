@@ -1,8 +1,8 @@
 # GearHead
 
-- Home: http://www.gearheadrpg.com/, https://sourceforge.net/projects/gearhead/
+- Home: https://www.gearheadrpg.com/, https://sourceforge.net/projects/gearhead/
 - State: mature
-- Download: http://www.gearheadrpg.com/downloads/, https://sourceforge.net/projects/gearhead/files/gearhead/
+- Download: https://www.gearheadrpg.com/?page_id=21, https://sourceforge.net/projects/gearhead/files/gearhead/
 - Keyword: role playing, roguelike
 - Code repository: https://github.com/jwvhewitt/gearhead-1.git (@created 2016, @stars 79, @forks 15), https://svn.code.sf.net/p/gearhead/code (svn)
 - Code language: Pascal

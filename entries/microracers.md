@@ -1,6 +1,6 @@
 # Microracers
 
-- Home: http://microracers.sourceforge.net/, https://sourceforge.net/projects/microracers/
+- Home: https://microracers.sourceforge.net/, https://sourceforge.net/projects/microracers/
 - Inspiration: Micro Machines
 - State: beta, inactive since 2005
 - Download: https://sourceforge.net/projects/microracers/files/microracers/

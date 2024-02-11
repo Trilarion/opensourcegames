@@ -1,6 +1,6 @@
 # SDL Sopwith
 
-- Home: http://sdl-sopwith.sourceforge.net/, https://sourceforge.net/projects/sdl-sopwith/
+- Home: https://sdl-sopwith.sourceforge.net/, https://sourceforge.net/projects/sdl-sopwith/
 - Inspiration: Sopwith
 - State: mature, inactive since 2014
 - Download: https://sourceforge.net/projects/sdl-sopwith/files/

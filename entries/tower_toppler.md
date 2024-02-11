@@ -1,6 +1,6 @@
 # Tower Toppler
 
-- Home: http://toppler.sourceforge.net/, https://sourceforge.net/projects/toppler/
+- Home: https://toppler.sourceforge.net/, https://sourceforge.net/projects/toppler/
 - Inspiration: Nebulus
 - State: mature, inactive since 2012
 - Keyword: arcade, remake, skill

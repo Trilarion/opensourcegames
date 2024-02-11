@@ -1,6 +1,6 @@
 # Mop(e)snake
 
-- Home: http://mopesnake.sourceforge.net/, https://sourceforge.net/projects/mopesnake/
+- Home: https://mopesnake.sourceforge.net/, https://sourceforge.net/projects/mopesnake/
 - Inspiration: Snake
 - State: beta, inactive since 2009
 - Keyword: arcade, content open

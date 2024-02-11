@@ -1,6 +1,6 @@
 # Falcon's Eye
 
-- Home: http://falconseye.sourceforge.net/, https://sourceforge.net/projects/falconseye/
+- Home: https://falconseye.sourceforge.net/, https://sourceforge.net/projects/falconseye/
 - Inspiration: NetHack
 - State: mature, inactive since 2004
 - Download: https://sourceforge.net/projects/falconseye/files/

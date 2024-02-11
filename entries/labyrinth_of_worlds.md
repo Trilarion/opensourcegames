@@ -1,6 +1,6 @@
 # Labyrinth of Worlds
 
-- Home: http://low.sourceforge.net/index.php, https://sourceforge.net/projects/low/
+- Home: https://low.sourceforge.net/index.php, https://sourceforge.net/projects/low/
 - Inspiration: Ultima Underworld II: Labyrinth of Worlds
 - State: beta, inactive since 2010
 - Download: https://sourceforge.net/projects/low/files

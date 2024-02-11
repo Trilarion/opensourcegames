@@ -1,8 +1,8 @@
 # Boson
 
-- Home: http://boson.sourceforge.net/index.php, https://sourceforge.net/projects/boson/
+- Home: https://boson.sourceforge.net/index.php, https://sourceforge.net/projects/boson/
 - State: beta, inactive since 2006
-- Download: http://boson.sourceforge.net/download.php, https://sourceforge.net/projects/boson/files
+- Download: https://boson.sourceforge.net/download.php, https://sourceforge.net/projects/boson/files
 - Keyword: strategy, real-time
 - Code repository: https://gitlab.com/osgames/boson.git (backup of svn, @created 2018, @stars 1, @forks 1), https://svn.code.sf.net/p/boson/code (svn)
 - Code language: C++, C

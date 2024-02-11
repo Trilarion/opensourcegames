@@ -16,4 +16,4 @@
 - **[Transcend](../transcend.md)** (C++, ?, beta, inactive since 2005)
 - **[UltraStar Deluxe](../ultrastar_deluxe.md)** (Pascal, GPL-2.0, mature)
 - **[UltraStar Play](../ultrastar_play.md)** (C#, MIT, beta)
-- **[Vocaluxe](../vocaluxe.md)** (C#, C++, GPL-3.0, beta, inactive since 2018)
+- **[Vocaluxe](../vocaluxe.md)** (C#, C++, GPL-3.0, beta)

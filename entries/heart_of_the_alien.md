@@ -1,6 +1,6 @@
 # Heart of the Alien
 
-- Home: http://hota.sourceforge.net/, https://sourceforge.net/projects/hota/
+- Home: https://hota.sourceforge.net/, https://sourceforge.net/projects/hota/
 - Inspiration: Another World 2: Heart of the Alien
 - State: beta, inactive since 2005
 - Download: https://sourceforge.net/projects/hota/files/

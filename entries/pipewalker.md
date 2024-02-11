@@ -1,6 +1,6 @@
 # PipeWalker
 
-- Home: http://pipewalker.sourceforge.net/, https://sourceforge.net/projects/pipewalker/
+- Home: https://pipewalker.sourceforge.net/, https://sourceforge.net/projects/pipewalker/
 - State: beta, inactive since 2012
 - Download: https://sourceforge.net/projects/pipewalker/files/pipewalker/0.9.4/
 - Platform: Windows

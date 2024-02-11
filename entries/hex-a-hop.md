@@ -1,8 +1,8 @@
 # Hex-a-hop
 
-- Home: http://hexahop.sourceforge.net/, https://sourceforge.net/projects/hexahop/, https://packages.debian.org/search?keywords=hex-a-hop
+- Home: https://hexahop.sourceforge.net/, https://sourceforge.net/projects/hexahop/, https://packages.debian.org/search?keywords=hex-a-hop
 - State: mature, inactive since 2013
-- Download: http://hexahop.sourceforge.net/downloads.html, https://sourceforge.net/projects/hexahop/files/
+- Download: https://hexahop.sourceforge.net/downloads.html, https://sourceforge.net/projects/hexahop/files/
 - Keyword: puzzle, content open
 - Code repository: https://git.code.sf.net/p/hexahop/code, https://git.code.sf.net/p/hexahop/website
 - Code language: C++

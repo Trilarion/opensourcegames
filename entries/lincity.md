@@ -1,6 +1,6 @@
 # Lincity
 
-- Home: http://lincity.sourceforge.net/, https://sourceforge.net/projects/lincity/
+- Home: https://lincity.sourceforge.net/, https://sourceforge.net/projects/lincity/
 - Media: https://en.wikipedia.org/wiki/Lincity
 - Inspiration: SimCity
 - State: mature, inactive since 2005

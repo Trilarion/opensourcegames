@@ -1,6 +1,6 @@
 # Free Tennis
 
-- Home: http://freetennis.sourceforge.net/, https://sourceforge.net/projects/freetennis/, https://packages.debian.org/search?keywords=freetennis
+- Home: https://freetennis.sourceforge.net/, https://sourceforge.net/projects/freetennis/, https://packages.debian.org/search?keywords=freetennis
 - State: beta, inactive since 2005
 - Download: https://sourceforge.net/projects/freetennis/files/
 - Keyword: sports, strategy, content open

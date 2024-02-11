@@ -1,9 +1,9 @@
 # Bombermaaan
 
-- Home: http://bombermaaan.sourceforge.net/, https://sourceforge.net/projects/bombermaaan/
+- Home: https://bombermaaan.sourceforge.net/, https://sourceforge.net/projects/bombermaaan/
 - Inspiration: Bomberman
 - State: mature, inactive since 2010
-- Download: http://bombermaaan.sourceforge.net/download.php, https://sourceforge.net/projects/bombermaaan/files/
+- Download: https://bombermaaan.sourceforge.net/download.php, https://sourceforge.net/projects/bombermaaan/files/
 - Platform: Windows, Linux
 - Keyword: action, arcade
 - Code repository: https://gitlab.com/osgames/bombermaaan.git (import of svn, @created 2019, @stars 1, @forks 0), https://svn.code.sf.net/p/bombermaaan/code (svn)

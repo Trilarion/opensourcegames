@@ -1,6 +1,6 @@
 # Cytadela
 
-- Home: http://cytadela.sourceforge.net/
+- Home: https://cytadela.sourceforge.net/
 - Inspiration: Cytadela
 - State: beta, inactive since 2013
 - Download: https://sourceforge.net/projects/cytadela/files/

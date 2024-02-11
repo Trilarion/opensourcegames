@@ -1,6 +1,6 @@
 # LTris
 
-- Home: http://lgames.sourceforge.net/LTris/, https://sourceforge.net/projects/lgames/
+- Home: https://lgames.sourceforge.net/LTris/, https://sourceforge.net/projects/lgames/
 - Inspiration: Tetris
 - State: mature, inactive since 2013
 - Download: https://sourceforge.net/projects/lgames/files/ltris/

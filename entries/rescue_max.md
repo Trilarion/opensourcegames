@@ -1,6 +1,6 @@
 # Rescue! Max
 
-- Home: http://rescue.sourceforge.net/, https://sourceforge.net/projects/rescue/
+- Home: https://rescue.sourceforge.net/, https://sourceforge.net/projects/rescue/
 - Inspiration: Rescue!
 - State: beta, inactive since 2013
 - Download: https://sourceforge.net/projects/rescue/files/

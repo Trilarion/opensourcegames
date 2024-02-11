@@ -1,6 +1,6 @@
 # Freeciv Alpha Centauri project
 
-- Home: http://freecivac.sourceforge.net/, https://sourceforge.net/projects/freecivac/
+- Home: https://freecivac.sourceforge.net/, https://sourceforge.net/projects/freecivac/
 - Inspiration: Sid Meier's Alpha Centauri
 - State: beta, inactive since 2003
 - Download: https://sourceforge.net/projects/freecivac/files/Stable%20Releases/

@@ -8,3 +8,5 @@ html5lib
 ruamel.yaml
 requests
 numpy
+pillow
+matplotlib

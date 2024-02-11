@@ -1,9 +1,9 @@
 # SDL-Ball
 
-- Home: http://sdl-ball.sourceforge.net/, https://sourceforge.net/projects/sdl-ball/
+- Home: https://sdl-ball.sourceforge.net/, https://sourceforge.net/projects/sdl-ball/
 - Inspiration: Breakout
 - State: mature, inactive since 2016
-- Download: http://sdl-ball.sourceforge.net/?page=download, https://sourceforge.net/projects/sdl-ball/files/
+- Download: https://sdl-ball.sourceforge.net/?page=download, https://sourceforge.net/projects/sdl-ball/files/
 - Platform: Linux
 - Keyword: arcade, content open
 - Code repository: https://github.com/DusteDdk/SDL-Ball.git (@created 2014, @stars 10, @forks 6)

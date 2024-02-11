@@ -1,6 +1,6 @@
 # Space Opera
 
-- Home: https://sourceforge.net/projects/spaceopera/, http://spaceopera.sourceforge.net/
+- Home: https://sourceforge.net/projects/spaceopera/, https://spaceopera.sourceforge.net/
 - Inspiration: Galactic Civilizations, Master of Orion
 - State: beta, inactive since 2008
 - Download: https://sourceforge.net/projects/spaceopera/files

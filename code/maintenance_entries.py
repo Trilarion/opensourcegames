@@ -34,7 +34,6 @@ import os
 import re
 import datetime
 import json
-import textwrap
 from utils import osg, osg_ui, osg_parse, utils, constants as c
 import requests
 
@@ -304,7 +303,7 @@ class EntriesMaintainer:
         """
 
         # regex for finding urls (can be in <> or in ]() or after a whitespace
-        regex = re.compile(r"[\s\n]<(http.+?)>|\]\((http.+?)\)|[\s\n](http[^\s\n,]+?)[\s\n\)]")
+        regex = re.compile(r"[\s]<(http.+?)>|\]\((http.+?)\)[^\)]|[\s](http.+?)[\s,]")
 
         # ignore the following patterns (they give false positives here)
         ignored_urls = (
@@ -312,7 +311,7 @@ class EntriesMaintainer:
         'https://git.xiph.org/vorbis.git', 'http://svn.uktrainsim.com/svn/openrails', 'https://www.srb2.org/',
         'http://wiki.srb2.org/')
 
-        # some do redirect, but we nedertheless want the original URL in the database
+        # some do redirect, but we nevertheless want the original URL in the database
         redirect_okay = ('https://octaforge.org/', 'https://svn.openttd.org/', 'https://godotengine.org/download')
 
         # extract all links from entries

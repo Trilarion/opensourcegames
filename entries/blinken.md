@@ -1,6 +1,6 @@
 # Blinken
 
-- Home: https://edu.kde.org/blinken/, https://github.com/KDE/blinken
+- Home: https://apps.kde.org/blinken/, https://github.com/KDE/blinken
 - Inspiration: Simon Says
 - State: mature
 - Keyword: educational, content open, memory

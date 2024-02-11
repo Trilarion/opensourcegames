@@ -1,6 +1,6 @@
 # Doom Legacy
 
-- Home: http://doomlegacy.sourceforge.net/, https://sourceforge.net/projects/doomlegacy/
+- Home: https://doomlegacy.sourceforge.net/, https://sourceforge.net/projects/doomlegacy/
 - Inspiration: Doom, Doom II, Heretic, Hexen
 - State: mature
 - Download: https://sourceforge.net/projects/doomlegacy/files/

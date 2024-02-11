@@ -1,6 +1,6 @@
 # HoDoKu
 
-- Home: http://hodoku.sourceforge.net/en/index.php, https://sourceforge.net/projects/hodoku/
+- Home: https://hodoku.sourceforge.net/en/index.php, https://sourceforge.net/projects/hodoku/
 - Inspiration: Sudoku
 - State: mature, inactive since 2013
 - Download: https://sourceforge.net/projects/hodoku/files/

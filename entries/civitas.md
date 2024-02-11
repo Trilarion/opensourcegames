@@ -1,6 +1,6 @@
 # Civitas
 
-- Home: http://sourceforge.net/projects/civitas/, https://www.conexum.com.br/cosmopolita/ (Portoguese)
+- Home: https://sourceforge.net/projects/civitas/, https://www.conexum.com.br/cosmopolita/ (Portoguese)
 - State: beta, inactive since 2017
 - Download: https://sourceforge.net/projects/civitas/files/
 - Keyword: simulation, city, for kids, online

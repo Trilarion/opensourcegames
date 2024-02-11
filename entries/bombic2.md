@@ -1,6 +1,6 @@
 # Bombic2
 
-- Home: http://bombic2.sourceforge.net/, https://sourceforge.net/projects/bombic2/
+- Home: https://bombic2.sourceforge.net/, https://sourceforge.net/projects/bombic2/
 - Inspiration: Bomberman
 - State: beta, inactive since 2010
 - Keyword: action, remake

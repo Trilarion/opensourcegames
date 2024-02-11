@@ -1,6 +1,6 @@
 # Passage
 
-- Home: http://hcsoftware.sourceforge.net/passage/
+- Home: https://hcsoftware.sourceforge.net/passage/
 - Media: https://en.wikipedia.org/wiki/Passage_(video_game)
 - State: mature, inactive since 2011
 - Download: https://sourceforge.net/projects/hcsoftware/files/Passage/

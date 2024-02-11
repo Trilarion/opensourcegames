@@ -1,9 +1,9 @@
 # HHexen
 
-- Home: http://hhexen.sourceforge.net/hhexen.html, https://sourceforge.net/projects/hhexen/
+- Home: https://hhexen.sourceforge.net/hhexen.html, https://sourceforge.net/projects/hhexen/
 - Inspiration: Hammer of Thyrion
 - State: mature, inactive since 2013 (svn activity until 2019)
-- Download: http://hhexen.sourceforge.net/hhexen.html#s2, https://sourceforge.net/projects/hhexen/files/
+- Download: https://hhexen.sourceforge.net/hhexen.html#s2, https://sourceforge.net/projects/hhexen/files/
 - Platform: Linux
 - Keyword: strategy, content commercial + original required, first-person, shooter
 - Code repository: https://github.com/sezero/hhexen.git (@created 2019, @stars 7, @forks 3), https://github.com/sezero/hheretic.git @add https://git.code.sf.net/p/hhexen/hhexen @add (@created 2019, @stars 4, @forks 1), https://git.code.sf.net/p/hhexen/hheretic @add

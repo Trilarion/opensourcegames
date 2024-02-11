@@ -1,8 +1,8 @@
 # Psyco
 
-- Home: http://psyco.sourceforge.net/, https://sourceforge.net/projects/psyco/
+- Home: https://psyco.sourceforge.net/, https://sourceforge.net/projects/psyco/
 - State: mature, inactive since 2008
-- Download: http://psyco.sourceforge.net/download.html
+- Download: https://psyco.sourceforge.net/download.html
 - Platform: Windows, Linux
 - Keyword: tool
 - Code language: C

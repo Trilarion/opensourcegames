@@ -1,6 +1,6 @@
 # Bygfoot
 
-- Home: http://bygfoot.sourceforge.net/new/, https://sourceforge.net/projects/bygfoot/
+- Home: https://bygfoot.sourceforge.io/new/, https://sourceforge.net/projects/bygfoot/
 - State: beta
 - Download: https://sourceforge.net/projects/bygfoot/files/
 - Keyword: simulation, sports, strategy, soccer

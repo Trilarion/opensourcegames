@@ -1,6 +1,6 @@
 # Open Quartz
 
-- Home: http://openquartz.sourceforge.net/index.html, https://sourceforge.net/projects/openquartz/
+- Home: https://openquartz.sourceforge.net/index.html, https://sourceforge.net/projects/openquartz/
 - State: beta, inactive since 2004
 - Download: https://sourceforge.net/projects/openquartz/files/
 - Platform: Windows, Linux

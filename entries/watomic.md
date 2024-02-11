@@ -1,6 +1,6 @@
 # WAtomic
 
-- Home: http://watomic.sourceforge.net/, https://sourceforge.net/projects/watomic/
+- Home: https://watomic.sourceforge.net/, https://sourceforge.net/projects/watomic/
 - Inspiration: Atomix
 - State: mature, inactive since 2005
 - Download: https://sourceforge.net/projects/watomic/files/

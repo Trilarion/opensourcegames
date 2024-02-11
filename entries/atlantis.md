@@ -1,6 +1,6 @@
 # Atlantis
 
-- Home: http://www.prankster.com/project/, https://web.archive.org/web/20151024232821/https://sourceforge.net/projects/atlantis/, https://web.archive.org/web/20140516211231/http://www.atlantis-pbem.org/
+- Home: https://www.prankster.com/project/, https://web.archive.org/web/20151024232821/https://sourceforge.net/projects/atlantis/, https://web.archive.org/web/20140516211231/http://www.atlantis-pbem.org/
 - Media: https://en.wikipedia.org/wiki/Atlantis_PbeM
 - State: mature, inactive since 2016
 - Keyword: framework

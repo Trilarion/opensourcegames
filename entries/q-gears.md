@@ -1,6 +1,6 @@
 # Q-Gears
 
-- Home: https://github.com/q-gears/q-gears, http://q-gears.sourceforge.net/
+- Home: https://github.com/q-gears/q-gears, https://q-gears.sourceforge.net/
 - Inspiration: Final Fantasy VII
 - State: beta, inactive since 2015
 - Download: https://sourceforge.net/projects/q-gears/files/

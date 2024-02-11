@@ -1,6 +1,6 @@
 # NXEngine
 
-- Home: http://nxengine.sourceforge.net/, https://sourceforge.net/projects/nxengine/, https://exlmoto.ru/nxengine/
+- Home: https://nxengine.sourceforge.net/, https://sourceforge.net/projects/nxengine/, https://exlmoto.ru/nxengine/
 - Media: https://en.wikipedia.org/wiki/Cave_Story#Legacy
 - Inspiration: Cave Story
 - State: mature

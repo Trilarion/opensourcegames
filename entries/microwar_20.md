@@ -1,6 +1,6 @@
 # MicroWar 2.0
 
-- Home: http://microwar.sourceforge.net/, https://sourceforge.net/projects/microwar/
+- Home: https://microwar.sourceforge.net/, https://sourceforge.net/projects/microwar/
 - Inspiration: Space Invaders
 - State: mature, inactive since 2009
 - Download: https://sourceforge.net/projects/microwar/files/

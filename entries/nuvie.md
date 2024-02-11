@@ -1,6 +1,6 @@
 # Nuvie
 
-- Home: http://nuvie.sourceforge.net/, https://sourceforge.net/projects/nuvie/
+- Home: https://nuvie.sourceforge.net/, https://sourceforge.net/projects/nuvie/
 - Inspiration: Ultima VI: The False Prophet, Ultima: Worlds of Adventure 2: Martian Dreams, Worlds of Ultima: The Savage Empire
 - State: beta, inactive since 2018
 - Keyword: game engine, remake, content original required

@@ -1,6 +1,6 @@
 # xBaK
 
-- Home: http://xbak.sourceforge.net/
+- Home: https://xbak.sourceforge.net/
 - Inspiration: Betrayal at Krondor
 - State: beta, inactive since 2013
 - Download: https://sourceforge.net/projects/xbak/files/xbak/

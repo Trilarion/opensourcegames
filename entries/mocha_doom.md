@@ -1,6 +1,6 @@
 # Mocha Doom
 
-- Home: http://mochadoom.sourceforge.net/, https://sourceforge.net/projects/mochadoom/
+- Home: https://mochadoom.sourceforge.net/, https://sourceforge.net/projects/mochadoom/
 - Inspiration: Doom, Doom II, Heretic, Hexen
 - State: beta, inactive since 2012
 - Download: https://sourceforge.net/projects/mochadoom/files/

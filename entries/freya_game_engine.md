@@ -1,6 +1,6 @@
 # Freya Game Engine
 
-- Home: http://freya-engine.sourceforge.net/, https://sourceforge.net/projects/freya-engine/
+- Home: https://freya-engine.sourceforge.net/, https://sourceforge.net/projects/freya-engine/
 - State: beta, inactive since 2002
 - Download: https://sourceforge.net/projects/freya-engine/files/
 - Keyword: game engine, strategy, multiplayer online, turn-based

@@ -1,6 +1,6 @@
 # Online Chess Club
 
-- Home: http://lgames.sourceforge.net/OCC/, https://sourceforge.net/projects/lgames/
+- Home: https://lgames.sourceforge.net/OCC/, https://sourceforge.net/projects/lgames/
 - State: mature
 - Download: https://sourceforge.net/projects/lgames/files/occ/
 - Platform: Web

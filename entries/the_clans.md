@@ -1,6 +1,6 @@
 # The Clans
 
-- Home: http://theclans.sourceforge.net/, https://sourceforge.net/projects/theclans/
+- Home: https://theclans.sourceforge.net/, https://sourceforge.net/projects/theclans/
 - Inspiration: The Clans
 - State: beta, inactive since 2003
 - Download: https://sourceforge.net/projects/theclans/files

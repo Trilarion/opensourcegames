@@ -1,6 +1,6 @@
 # Krank
 
-- Home: http://krank.sourceforge.net/, https://sourceforge.net/projects/krank/, https://packages.debian.org/search?keywords=krank
+- Home: https://krank.sourceforge.net/, https://sourceforge.net/projects/krank/, https://packages.debian.org/search?keywords=krank
 - State: beta, inactive since 2008
 - Download: https://sourceforge.net/projects/krank/files/
 - Platform: Windows, Linux, macOS

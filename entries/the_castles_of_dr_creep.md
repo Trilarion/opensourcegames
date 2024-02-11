@@ -1,6 +1,6 @@
 # The Castles of Dr. Creep
 
-- Home: http://creep.sourceforge.net/, https://sourceforge.net/projects/creep/
+- Home: https://creep.sourceforge.net/, https://sourceforge.net/projects/creep/
 - Inspiration: The Castles of Dr. Creep
 - State: mature
 - Download: https://github.com/segrax/DrCreep/releases, https://sourceforge.net/projects/creep/files/

@@ -1,8 +1,8 @@
 # Open RPG Maker
 
-- Home: http://openrpgmaker.sourceforge.net/, https://sourceforge.net/projects/openrpgmaker/
+- Home: https://openrpgmaker.sourceforge.net/, https://sourceforge.net/projects/openrpgmaker/
 - State: beta, inactive since 2014
-- Download: http://openrpgmaker.sourceforge.net/wiki/index.php/Download, https://sourceforge.net/projects/openrpgmaker/files/
+- Download: https://openrpgmaker.sourceforge.net/wiki/index.php/Download, https://sourceforge.net/projects/openrpgmaker/files/
 - Keyword: framework, role playing, 2D
 - Code repository: https://gitlab.com/osgames/openrpgmaker.git (snapshot of source releases, @created 2018, @stars 2, @forks 0)
 - Code language: C++

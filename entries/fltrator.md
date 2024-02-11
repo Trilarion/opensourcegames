@@ -1,6 +1,6 @@
 # FLTrator
 
-- Home: http://fltrator.sourceforge.net/, https://sourceforge.net/projects/fltrator/
+- Home: https://fltrator.sourceforge.net/, https://sourceforge.net/projects/fltrator/
 - State: mature, inactive since 2016
 - Download: https://sourceforge.net/projects/fltrator/files/
 - Platform: Windows

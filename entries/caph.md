@@ -1,6 +1,6 @@
 # Caph
 
-- Home: http://caphgame.sourceforge.net/, https://sourceforge.net/projects/caphgame/
+- Home: https://caphgame.sourceforge.net/, https://sourceforge.net/projects/caphgame/
 - State: mature, inactive since 2010
 - Download: https://sourceforge.net/projects/caphgame/files/
 - Platform: Windows, Linux

@@ -1,6 +1,6 @@
 # Wargamer
 
-- Home: https://sourceforge.net/projects/wargamer/, http://wargamer.sourceforge.net/
+- Home: https://sourceforge.net/projects/wargamer/, https://wargamer.sourceforge.net/
 - Inspiration: Wargamer:Napoleon 1813
 - State: mature, inactive since 2003
 - Download: https://sourceforge.net/projects/wargamer/files/

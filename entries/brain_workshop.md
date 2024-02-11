@@ -1,8 +1,8 @@
 # Brain Workshop
 
-- Home: http://brainworkshop.sourceforge.net/, https://sourceforge.net/projects/brainworkshop/
+- Home: https://brainworkshop.sourceforge.net/, https://sourceforge.net/projects/brainworkshop/
 - State: mature, inactive since 2011
-- Download: http://brainworkshop.sourceforge.net/download.html, https://sourceforge.net/projects/brainworkshop/files/brainworkshop/
+- Download: https://brainworkshop.sourceforge.net/download.html, https://sourceforge.net/projects/brainworkshop/files/brainworkshop/
 - Platform: Windows, Linux, macOS
 - Keyword: puzzle
 - Code repository: https://github.com/brain-workshop/brainworkshop.git (@created 2017, @stars 157, @forks 29), https://gitlab.com/osgames/brain-workshop.git @add (@created 2019, @stars 1, @forks 0), https://svn.code.sf.net/p/brainworkshop/code (svn)

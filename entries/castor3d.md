@@ -1,6 +1,6 @@
 # Castor3D
 
-- Home: https://dragonjoker.github.io/Castor3D
+- Home: https://dragonjoker.github.io/Castor3D/
 - State: beta
 - Download: https://github.com/DragonJoker/Castor3D/releases
 - Platform: Windows

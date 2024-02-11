@@ -1,6 +1,6 @@
 # Simple Sokoban
 
-- Home: http://simplesok.sourceforge.net/, https://sourceforge.net/projects/simplesok/
+- Home: https://simplesok.sourceforge.net/, https://sourceforge.net/projects/simplesok/
 - Inspiration: Sokoban
 - State: mature, inactive since 2014
 - Download: https://sourceforge.net/projects/simplesok/files/

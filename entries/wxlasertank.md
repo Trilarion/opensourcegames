@@ -1,6 +1,6 @@
 # wxLaserTank
 
-- Home: http://wxlasertank.sourceforge.net, https://sourceforge.net/projects/wxlasertank/
+- Home: https://wxlasertank.sourceforge.net, https://sourceforge.net/projects/wxlasertank/
 - Inspiration: LaserTank
 - State: mature, inactive since 2009
 - Keyword: remake, content open

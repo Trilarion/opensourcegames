@@ -1,6 +1,6 @@
 # Murder In The Public Domain
 
-- Home: http://murderpd.sourceforge.net/, https://sourceforge.net/projects/murderpd/
+- Home: https://murderpd.sourceforge.net/, https://sourceforge.net/projects/murderpd/
 - Media: https://web.archive.org/web/20160507143138/https://lgdb.org/game/murder_public_domain
 - State: mature, inactive since 2013
 - Download: https://sourceforge.net/projects/murderpd/files/

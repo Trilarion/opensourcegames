@@ -1,6 +1,6 @@
 # Pioneers
 
-- Home: https://sourceforge.net/projects/pio/, http://pio.sourceforge.net/
+- Home: https://sourceforge.net/projects/pio/, https://pio.sourceforge.net/
 - Inspiration: Settlers of Catan
 - State: mature
 - Download: https://sourceforge.net/projects/pio/files

@@ -1,8 +1,8 @@
 # Ri-li
 
-- Home: http://ri-li.sourceforge.net/, https://sourceforge.net/projects/ri-li/
+- Home: https://ri-li.sourceforge.net/, https://sourceforge.net/projects/ri-li/
 - State: mature, inactive since 2007
-- Download: http://ri-li.sourceforge.net/download.html, https://sourceforge.net/projects/ri-li/files/
+- Download: https://ri-li.sourceforge.net/download.html, https://sourceforge.net/projects/ri-li/files/
 - Platform: Windows, Linux, macOS
 - Keyword: arcade, content open
 - Code language: C++

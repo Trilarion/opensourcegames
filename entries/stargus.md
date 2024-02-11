@@ -1,6 +1,6 @@
 # Stargus
 
-- Home: http://stargus.stratagus.com/, http://stargus.sourceforge.net/, https://sourceforge.net/projects/stargus/
+- Home: http://stargus.stratagus.com/, https://stargus.sourceforge.net/, https://sourceforge.net/projects/stargus/
 - Inspiration: StarCraft
 - State: beta, inactive since 2010
 - Download: https://sourceforge.net/projects/stargus/files/

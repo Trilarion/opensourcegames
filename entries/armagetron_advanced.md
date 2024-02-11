@@ -1,10 +1,10 @@
 # Armagetron Advanced
 
-- Home: http://www.armagetronad.org/, https://sourceforge.net/projects/armagetronad/
+- Home: https://www.armagetronad.org/, https://sourceforge.net/projects/armagetronad/
 - Media: https://en.wikipedia.org/wiki/Armagetron_Advanced
 - Inspiration: Snake
 - State: mature
-- Download: http://www.armagetronad.org/downloads.php
+- Download: https://www.armagetronad.org/downloads.php
 - Keyword: action
 - Code repository: https://gitlab.com/armagetronad/armagetronad.git (@created 2018, @stars 5, @forks 8), https://github.com/ArmagetronAd/armagetronad.git (@created 2019, @stars 34, @forks 2), https://svn.code.sf.net/p/armagetronad/code (svn)
 - Code language: C++

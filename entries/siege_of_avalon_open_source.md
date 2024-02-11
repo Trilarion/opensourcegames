@@ -1,6 +1,6 @@
 # Siege of Avalon : Open Source
 
-- Home: http://soaos.sourceforge.net/, https://sourceforge.net/projects/soaos/
+- Home: https://soaos.sourceforge.net/, https://sourceforge.net/projects/soaos/
 - Media: https://en.wikipedia.org/wiki/Siege_of_Avalon
 - Inspiration: Siege of Avalon
 - State: beta, inactive since 2011

@@ -1,6 +1,6 @@
 # Balder2D
 
-- Home: http://balder.sourceforge.net/, https://sourceforge.net/projects/balder/
+- Home: https://balder.sourceforge.net/, https://sourceforge.net/projects/balder/
 - State: beta, inactive since 2009
 - Download: https://sourceforge.net/projects/balder/files/
 - Platform: Linux

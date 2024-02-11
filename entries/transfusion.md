@@ -1,6 +1,6 @@
 # Transfusion
 
-- Home: http://blood.sourceforge.net/transfusion.php, http://www.transfusion-game.com/, https://sourceforge.net/projects/blood/
+- Home: https://blood.sourceforge.net/transfusion.php, http://www.transfusion-game.com/, https://sourceforge.net/projects/blood/
 - Inspiration: Blood
 - State: beta, inactive since 2007
 - Download: https://sourceforge.net/projects/blood/files/

@@ -1,6 +1,6 @@
 # Batalla Naval
 
-- Home: http://batnav.sourceforge.net/batnav-en.html, https://sourceforge.net/projects/batnav/
+- Home: https://batnav.sourceforge.net/batnav-en.html, https://sourceforge.net/projects/batnav/
 - State: mature, inactive since 2002
 - Download: https://sourceforge.net/projects/batnav/files/
 - Keyword: arcade, multiplayer

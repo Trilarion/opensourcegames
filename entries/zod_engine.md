@@ -1,6 +1,6 @@
 # Zod Engine
 
-- Home: http://zod.sourceforge.net/, https://sourceforge.net/projects/zod/
+- Home: https://zod.sourceforge.net/, https://sourceforge.net/projects/zod/
 - Inspiration: Z
 - State: mature, inactive since 2018
 - Download: https://sourceforge.net/projects/zod/files/

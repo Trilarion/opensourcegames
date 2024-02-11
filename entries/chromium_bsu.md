@@ -1,9 +1,9 @@
 # Chromium B.S.U.
 
-- Home: http://chromium-bsu.sourceforge.net/, https://sourceforge.net/projects/chromium-bsu/
+- Home: https://chromium-bsu.sourceforge.io/, https://sourceforge.net/projects/chromium-bsu/
 - Media: https://en.wikipedia.org/wiki/Chromium_B.S.U.
 - State: mature
-- Download: http://chromium-bsu.sourceforge.net/download.html, https://sourceforge.net/projects/chromium-bsu/files/
+- Download: https://chromium-bsu.sourceforge.io/download.html, https://sourceforge.net/projects/chromium-bsu/files/
 - Keyword: action, shooter, top-down
 - Code repository: https://git.code.sf.net/p/chromium-bsu/code
 - Code language: C++

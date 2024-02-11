@@ -1,6 +1,6 @@
 # DirectPython
 
-- Home: http://directpython.sourceforge.net/, http://directpython11.sourceforge.net/
+- Home: https://directpython.sourceforge.net/, https://directpython11.sourceforge.net/
 - State: beta, inactive since 2007
 - Download: https://sourceforge.net/projects/directpython/files/, https://sourceforge.net/projects/directpython11/files/
 - Platform: Windows

@@ -1,9 +1,9 @@
 # YSoccer
 
-- Home: http://ysoccer.sourceforge.net/, https://sourceforge.net/projects/ysoccer/
+- Home: https://ysoccer.sourceforge.net/, https://sourceforge.net/projects/ysoccer/
 - Inspiration: Sensible Soccer
 - State: mature
-- Download: http://ysoccer.sourceforge.net/dloads.htm, https://sourceforge.net/projects/ysoccer/files/
+- Download: https://ysoccer.sourceforge.net/dloads.htm, https://sourceforge.net/projects/ysoccer/files/
 - Platform: Windows, Linux, macOS
 - Keyword: remake, simulation, sports, soccer
 - Code repository: https://git.code.sf.net/p/ysoccer/code

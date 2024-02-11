@@ -1,6 +1,6 @@
 # Alex the Allegator 4
 
-- Home: http://allegator.sourceforge.net/, https://sourceforge.net/projects/allegator/
+- Home: https://allegator.sourceforge.net/, https://sourceforge.net/projects/allegator/
 - State: mature, inactive since 2003
 - Download: https://sourceforge.net/projects/allegator/files/
 - Platform: Windows, Linux, macOS

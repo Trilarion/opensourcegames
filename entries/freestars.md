@@ -1,6 +1,6 @@
 # Freestars
 
-- Home: http://freestars.sourceforge.net/, https://sourceforge.net/projects/freestars/
+- Home: https://freestars.sourceforge.net/, https://sourceforge.net/projects/freestars/
 - Inspiration: Stars!
 - State: beta, inactive since 2008
 - Keyword: remake, strategy, 4X

@@ -1,6 +1,6 @@
 # Scrabble3D
 
-- Home: http://scrabble.sourceforge.net/wiki/, https://sourceforge.net/projects/scrabble/
+- Home: https://scrabble.sourceforge.net/wiki/, https://sourceforge.net/projects/scrabble/
 - Inspiration: Scrabble
 - State: mature, inactive since 2015
 - Platform: Windows, Linux, macOS

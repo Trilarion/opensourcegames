@@ -1,9 +1,11 @@
 """
-
+Updates the readme for screenshots
 """
+
 import os
 from PIL import Image
-from utils import constants as c, utils as u, osg
+
+from utils import constants as c, osg
 
 HEIGHT = 128
 

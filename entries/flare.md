@@ -3,7 +3,7 @@
 - Home: https://flarerpg.org/, https://github.com/clintbellanger/flare-engine
 - Inspiration: Diablo
 - State: mature
-- Download: https://flarerpg.org/index.php/download/, https://github.com/clintbellanger/flare-engine/releases
+- Download: https://flarerpg.org/download/, https://github.com/clintbellanger/flare-engine/releases
 - Platform: Windows, Linux, macOS
 - Keyword: framework, game engine, clone
 - Code repository: https://github.com/clintbellanger/flare-engine.git (@created 2018, @stars 25, @forks 8), https://github.com/clintbellanger/flare-game.git @add (@created 2018, @stars 53, @forks 21)

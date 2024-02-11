@@ -1,6 +1,6 @@
 # Doomsday Engine
 
-- Home: http://dengine.net/, https://sourceforge.net/projects/deng/
+- Home: https://dengine.net/, https://sourceforge.net/projects/deng/
 - Inspiration: Doom, Doom II, Heretic, Hexen
 - State: mature
 - Download: https://sourceforge.net/projects/deng/files/

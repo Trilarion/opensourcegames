@@ -1,6 +1,6 @@
 # PARSEC47
 
-- Home: http://www.asahi-net.or.jp/~cs8k-cyu/windows/p47_e.html, http://parsec47.sourceforge.net/, https://sourceforge.net/projects/parsec47/
+- Home: http://www.asahi-net.or.jp/~cs8k-cyu/windows/p47_e.html, https://parsec47.sourceforge.net/, https://sourceforge.net/projects/parsec47/
 - State: beta, inactive since 2003
 - Download: https://sourceforge.net/projects/parsec47/files/
 - Platform: Windows, Linux

@@ -1,6 +1,6 @@
 # Daedalus
 
-- Home: http://www.astrolog.org/labyrnth/daedalus.htm
+- Home: https://www.astrolog.org/labyrnth/daedalus.htm
 - State: mature, inactive since 2018
 - Platform: Windows
 - Keyword: puzzle, maze

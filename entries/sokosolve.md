@@ -1,9 +1,9 @@
 # SokoSolve
 
-- Home: http://sokosolve.sourceforge.net/, https://sourceforge.net/projects/sokosolve/
+- Home: https://sokosolve.sourceforge.net/, https://sourceforge.net/projects/sokosolve/
 - Inspiration: Sokoban
 - State: mature, inactive since 2009
-- Download: http://sokosolve.sourceforge.net/install.html, https://sourceforge.net/projects/sokosolve/files/
+- Download: https://sokosolve.sourceforge.net/install.html, https://sourceforge.net/projects/sokosolve/files/
 - Platform: Windows, Linux
 - Keyword: puzzle
 - Code repository: https://svn.code.sf.net/p/sokosolve/code (svn), https://svn.code.sf.net/p/sokosolve/decade (svn)

@@ -36,7 +36,7 @@
 - **[Bitfighter](../bitfighter.md)** (C, C++, GPL-2.0, mature)
 - **[BlakedAwesomenaughts](../blakedawesomenaughts.md)** (JavaScript, PHP, MIT, beta, inactive since 2015)
 - **[Blasphemer](../blasphemer.md)** (None, Python, None, mature, inactive since 2017)
-- **[Blobby Volley 2](../blobby_volley_2.md)** (C++, GPL-2.0, mature, inactive since 2017)
+- **[Blobby Volley 2](../blobby_volley_2.md)** (C++, GPL-2.0, mature)
 - **[Bloboats](../bloboats.md)** (C++, GPL-2.0, mature, inactive since 2006)
 - **[Blue Nebula](../blue_nebula.md)** (C, C++, zlib, mature)
 - **[Bombermaaan](../bombermaaan.md)** (C++, GPL-3.0, mature, inactive since 2010)

@@ -1,6 +1,6 @@
 # Grobots
 
-- Home: http://grobots.sourceforge.net/, https://sourceforge.net/projects/grobots/
+- Home: https://grobots.sourceforge.net/, https://sourceforge.net/projects/grobots/
 - State: mature, inactive since 2014
 - Platform: Windows, Linux, macOS
 - Keyword: simulation, programming

@@ -1,8 +1,8 @@
 # Annex: Conquer the World
 
-- Home: http://annexconquer.com/, https://bitbucket.org/annexctw/
+- Home: https://web.archive.org/web/20200513025753/http://annexconquer.com/, https://bitbucket.org/annexctw/
 - State: mature, inactive since 2014
-- Download: http://annexconquer.com/downloads/
+- Download: https://web.archive.org/web/20200130203822/http://annexconquer.com:80/downloads/
 - Platform: Windows, Linux
 - Keyword: action, strategy, content open, real-time
 - Code repository: https://bitbucket.org/annexctw/annex.git

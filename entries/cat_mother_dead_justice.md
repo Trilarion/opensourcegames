@@ -1,6 +1,6 @@
 # Cat Mother Dead Justice
 
-- Home: http://catmother.sourceforge.net/, https://sourceforge.net/projects/catmother/
+- Home: https://catmother.sourceforge.net/, https://sourceforge.net/projects/catmother/
 - State: beta, inactive since 2003
 - Download: https://sourceforge.net/projects/catmother/files/
 - Platform: Windows

@@ -1,6 +1,6 @@
 # Tux Racer
 
-- Home: http://tuxracer.sourceforge.net/, https://sourceforge.net/projects/tuxracer/
+- Home: https://tuxracer.sourceforge.net/, https://sourceforge.net/projects/tuxracer/
 - Media: https://en.wikipedia.org/wiki/Tux_Racer
 - State: beta, inactive since 2001
 - Download: https://sourceforge.net/projects/tuxracer/files/

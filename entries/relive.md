@@ -6,7 +6,7 @@
 - Download: https://github.com/AliveTeam/alive_reversing/releases
 - Platform: Windows, Linux, macOS
 - Keyword: action, remake, content commercial + original required
-- Code repository: https://github.com/AliveTeam/alive_reversing.git (@created 2018, @stars 232, @forks 40), https://github.com/paulsapps/alive.git @add (@created 2015, @stars 104, @forks 8)
+- Code repository: https://github.com/AliveTeam/alive_reversing.git (@created 2018, @stars 232, @forks 40), https://github.com/MrSapps/alive.git @add (@created 2015, @stars 104, @forks 8)
 - Code language: C++
 - Code license: MIT
 - Code dependency: SDL2

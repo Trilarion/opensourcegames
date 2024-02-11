@@ -1,10 +1,10 @@
 # Vega Strike
 
-- Home: https://www.vega-strike.org/, http://vegastrike.sourceforge.net/, https://sourceforge.net/projects/vegastrike/
+- Home: https://www.vega-strike.org/, https://vegastrike.sourceforge.net/, https://sourceforge.net/projects/vegastrike/
 - Media: https://en.wikipedia.org/wiki/Vega_Strike
 - Inspiration: Elite
 - State: mature
-- Download: http://vegastrike.sourceforge.net/getfiles/
+- Download: https://vegastrike.sourceforge.net/getfiles/
 - Keyword: framework, content open (?), first-person, space
 - Code repository: https://github.com/vegastrike/Vega-Strike-Engine-Source.git (https://github.com/vegastrike mirror, @created 2015, @stars 213, @forks 40), https://svn.code.sf.net/p/vegastrike/code (svn)
 - Code language: C++

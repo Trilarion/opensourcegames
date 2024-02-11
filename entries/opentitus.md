@@ -1,6 +1,6 @@
 # OpenTitus
 
-- Home: http://opentitus.sourceforge.net, https://sourceforge.net/projects/opentitus/, https://opentitus.fandom.com/wiki/OpenTitus_Wiki
+- Home: https://opentitus.sourceforge.net, https://sourceforge.net/projects/opentitus/, https://opentitus.fandom.com/wiki/OpenTitus_Wiki
 - Inspiration: Titus the Fox
 - State: beta, inactive since 2014
 - Download: https://sourceforge.net/projects/opentitus/files/opentitus/

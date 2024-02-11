@@ -1,6 +1,6 @@
 # LBreakout2
 
-- Home: http://lgames.sourceforge.net/LBreakout2/, https://sourceforge.net/projects/lgames/, https://packages.debian.org/search?keywords=lbreakout2
+- Home: https://lgames.sourceforge.net/LBreakout2/, https://sourceforge.net/projects/lgames/, https://packages.debian.org/search?keywords=lbreakout2
 - Inspiration: Breakout, LBreakout
 - State: mature, inactive since 2010
 - Download: https://sourceforge.net/projects/lgames/files/lbreakout2/

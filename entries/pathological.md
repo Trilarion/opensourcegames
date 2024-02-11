@@ -1,6 +1,6 @@
 # Pathological
 
-- Home: http://pathological.sourceforge.net/, https://sourceforge.net/projects/pathological/
+- Home: https://pathological.sourceforge.net/, https://sourceforge.net/projects/pathological/
 - Inspiration: Log!cal
 - State: beta, inactive since 2003
 - Keyword: puzzle, remake

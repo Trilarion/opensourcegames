@@ -1,10 +1,10 @@
 # The Ur-Quan Masters
 
-- Home: http://sc2.sourceforge.net/, https://sourceforge.net/projects/sc2/
+- Home: https://sc2.sourceforge.net/, https://sourceforge.net/projects/sc2/
 - Media: https://en.wikipedia.org/wiki/Star_Control_II#The_Ur-Quan_Masters
 - Inspiration: Star Control 2
 - State: mature, inactive since 2011
-- Download: http://sc2.sourceforge.net/downloads.php
+- Download: https://sc2.sourceforge.net/downloads.php
 - Keyword: remake, strategy, turn-based
 - Code repository: https://git.code.sf.net/p/sc2/uqm, https://gitlab.com/osgames/uqm.git @add (@created 2019, @stars 1, @forks 0)
 - Code language: C

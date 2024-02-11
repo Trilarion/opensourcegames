@@ -1,6 +1,6 @@
 # nXtank
 
-- Home: http://nxtank.sourceforge.net/, https://sourceforge.net/projects/nxtank/
+- Home: https://nxtank.sourceforge.net/, https://sourceforge.net/projects/nxtank/
 - Inspiration: Xtank
 - State: beta, inactive since 2010
 - Download: https://sourceforge.net/projects/nxtank/files/

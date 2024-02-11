@@ -1,6 +1,6 @@
 # Free Space Colonization
 
-- Home: http://fsc.sourceforge.net/, https://sourceforge.net/projects/fsc/
+- Home: https://fsc.sourceforge.net/, https://sourceforge.net/projects/fsc/
 - State: beta, inactive since 2017
 - Download: https://sourceforge.net/projects/fsc/files
 - Keyword: strategy, 4X, space

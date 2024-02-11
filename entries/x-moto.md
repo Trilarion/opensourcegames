@@ -1,6 +1,6 @@
 # X-Moto
 
-- Home: https://xmoto.tuxfamily.org/, http://xmoto.sourceforge.net/, https://directory.fsf.org/wiki/X-Moto
+- Home: https://xmoto.tuxfamily.org/, https://xmoto.sourceforge.net/, https://directory.fsf.org/wiki/X-Moto
 - Media: https://en.wikipedia.org/wiki/X-Moto
 - Inspiration: Elasto Mania
 - State: mature, inactive since 2014

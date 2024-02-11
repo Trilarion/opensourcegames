@@ -1,6 +1,6 @@
 # Ogrian Carpet
 
-- Home: http://ogrian.sourceforge.net/, https://sourceforge.net/projects/ogrian/
+- Home: https://ogrian.sourceforge.net/, https://sourceforge.net/projects/ogrian/
 - Inspiration: Magic Carpet
 - State: beta, inactive since 2018
 - Keyword: action, content open

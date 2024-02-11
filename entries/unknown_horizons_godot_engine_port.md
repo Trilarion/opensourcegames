@@ -1,6 +1,6 @@
 # Unknown Horizons Godot Engine Port
 
-- Home: http://unknown-horizons.org/
+- Home: https://unknown-horizons.org/
 - Inspiration: "Anno (series)"
 - State: beta
 - Keyword: strategy, 2D, clone, content open, real-time

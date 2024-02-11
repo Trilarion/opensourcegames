@@ -1,6 +1,6 @@
 # Colossal Cave Adventure
 
-- Home: http://rickadams.org/adventure/, https://github.com/brandon-rhodes/python-adventure
+- Home: https://rickadams.org/adventure/, https://github.com/brandon-rhodes/python-adventure
 - Media: https://en.wikipedia.org/wiki/Colossal_Cave_Adventure
 - State: mature
 - Keyword: adventure, text-based

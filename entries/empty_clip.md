@@ -1,6 +1,6 @@
 # Empty Clip
 
-- Home: https://github.com/jazztickets/emptyclip, http://emptyclip.sourceforge.net/, https://sourceforge.net/projects/emptyclip/
+- Home: https://github.com/jazztickets/emptyclip, https://emptyclip.sourceforge.net/, https://sourceforge.net/projects/emptyclip/
 - State: mature
 - Platform: Linux
 - Keyword: role playing, 2D, shooter, top-down

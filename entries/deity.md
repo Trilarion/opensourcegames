@@ -1,6 +1,6 @@
 # Deity
 
-- Home: http://deity.sourceforge.net/, https://sourceforge.net/projects/deity/
+- Home: https://deity.sourceforge.net/, https://sourceforge.net/projects/deity/
 - State: mature, inactive since 2014
 - Download: https://sourceforge.net/projects/deity/files
 - Keyword: tool

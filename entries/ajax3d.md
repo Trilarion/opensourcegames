@@ -1,6 +1,6 @@
 # Ajax3d
 
-- Home: http://ajax3d.sourceforge.net/, https://sourceforge.net/projects/ajax3d/
+- Home: https://ajax3d.sourceforge.net/, https://sourceforge.net/projects/ajax3d/
 - Inspiration: Zarch
 - State: beta, inactive since 2007
 - Download: https://sourceforge.net/projects/ajax3d/files/ajax3d/

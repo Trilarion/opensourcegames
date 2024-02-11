@@ -1,6 +1,6 @@
 # Slay
 
-- Home: https://sourceforge.net/projects/slaygame/, http://slaygame.sourceforge.net/
+- Home: https://sourceforge.net/projects/slaygame/, https://slaygame.sourceforge.net/
 - State: beta, inactive since 2010
 - Download: https://sourceforge.net/projects/slaygame/files
 - Keyword: strategy, turn-based

@@ -1,9 +1,10 @@
 # GoldenEye: Source
 
-- Home: http://geshl2.com/, https://www.moddb.com/mods/goldeneye-source
+- Home: https://www.geshl2.com/, https://www.moddb.com/mods/goldeneye-source
 - Inspiration: GoldenEye 007
 - State: mature, inactive since 2018
-- Keyword: remake, content open, first-person, multiplayer competitive + online, shooter
+- Download: https://www.geshl2.com/download/
+- Keyword: action, remake, content open, first-person, multiplayer competitive + online, requires original engine (?), shooter
 - Code repository: https://github.com/goldeneye-source/ges-code.git (@created 2014, @stars 188, @forks 25)
 - Code language: C++, C
 - Code license: GPL-3.0

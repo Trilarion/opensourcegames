@@ -1,6 +1,6 @@
 # Jake2
 
-- Home: http://bytonic.de/html/jake2.html, https://sourceforge.net/projects/jake2/
+- Home: https://bytonic.de/html/jake2.html, https://sourceforge.net/projects/jake2/
 - Inspiration: Quake II
 - State: beta, inactive since 2006
 - Download: https://bytonic.de/html/download.html

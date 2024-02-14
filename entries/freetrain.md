@@ -1,6 +1,6 @@
 # FreeTrain
 
-- Home: https://freetrain.sourceforge.net/, https://sourceforge.net/projects/freetrain/
+- Home: https://web.archive.org/web/20230212122201/https://freetrain.sourceforge.net/, https://sourceforge.net/projects/freetrain/
 - Inspiration: A-Train
 - State: beta, inactive since 2009
 - Download: https://sourceforge.net/projects/freetrain/files/

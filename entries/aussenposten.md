@@ -2,7 +2,7 @@
 
 - Home: https://web.archive.org/web/20200206173823/http://aussenposten.gamejs.org/, https://forum.freegamedev.net/viewtopic.php?t=5910&p=64059
 - State: beta, inactive since 2015
-- Download: http://aussenposten.gamejs.org/download.html
+- Download: https://web.archive.org/web/20221206081951/http://aussenposten.gamejs.org/download.html
 - Platform: Windows, Linux
 - Keyword: strategy, content open, real-time
 - Code language: JavaScript

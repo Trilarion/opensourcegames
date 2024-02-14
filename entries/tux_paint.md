@@ -1,8 +1,8 @@
 # Tux Paint
 
-- Home: http://tuxpaint.org/, https://sourceforge.net/projects/tuxpaint/
+- Home: https://tuxpaint.org/, https://sourceforge.net/projects/tuxpaint/
 - State: beta
-- Download: http://tuxpaint.org/download/, https://sourceforge.net/projects/tuxpaint/files/
+- Download: https://tuxpaint.org/download/, https://sourceforge.net/projects/tuxpaint/files/
 - Platform: Windows, Linux, macOS, Android, iOS
 - Keyword: educational, content open, for kids
 - Code repository: https://sourceforge.net/p/tuxpaint/_list/git (unavailable currently)

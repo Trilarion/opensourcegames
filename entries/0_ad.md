@@ -19,6 +19,4 @@ Engine is called Pyrogenesis.
 ## Building
 
 - Build system: CMAKE (NVTT), Custom (Makefile for FCollada, SpiderMonkey), Premake (engine)
-- Build instruction: https://trac.wildfiregames.com/wiki/BuildInstructions
-
-See [instructions](https://trac.wildfiregames.com/wiki/GettingStartedProgrammers)
+- Build instruction: https://web.archive.org/web/20230922073212/https://trac.wildfiregames.com/wiki/BuildInstructions

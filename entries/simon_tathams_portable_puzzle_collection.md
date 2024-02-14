@@ -1,6 +1,6 @@
 # Simon Tatham's Portable Puzzle Collection
 
-- Home: http://www.chiark.greenend.org.uk/~sgtatham/puzzles/, https://chris.boyle.name/projects/android-puzzles/, https://hewgill.com/puzzles/
+- Home: https://www.chiark.greenend.org.uk/~sgtatham/puzzles/, https://chris.boyle.name/projects/android-puzzles/, https://hewgill.com/puzzles/
 - State: mature
 - Platform: Windows, Linux, macOS, Android, iOS
 - Keyword: puzzle, remake, content open

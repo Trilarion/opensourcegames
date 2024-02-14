@@ -1,6 +1,6 @@
 # Infiniminer
 
-- Home: http://www.zachtronics.com/infiniminer/, https://code.google.com/archive/p/infiniminer/
+- Home: https://www.zachtronics.com/infiniminer/, https://code.google.com/archive/p/infiniminer/
 - Media: https://en.wikipedia.org/wiki/Zachtronics#Infiniminer
 - State: mature, inactive since 2016
 - Download: https://code.google.com/archive/p/infiniminer/source/default/source

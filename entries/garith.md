@@ -1,6 +1,6 @@
 # Garith
 
-- Home: https://www.thregr.org/~wavexx/software/garith/
+- Home: https://www.thregr.org/wavexx/software/garith/
 - Inspiration: arithmetic, TuxMath
 - State: mature, inactive since 2013
 - Keyword: educational, content open, for kids

@@ -14,6 +14,6 @@
 Web-based, multi-player space exploration game inspired by the popular BBS game of TradeWars.
 Fork is [Red Nova Traders](https://sourceforge.net/projects/rednova/), inactive since 2006.
 
-See also https://github.com/myprohost/BlackNovaTrader, https://github.com/Kambyses/BlackNova-Traders
+See also https://github.com/cheevauva/blacknovatraders, https://github.com/Kambyses/BlackNova-Traders
 
 ## Building

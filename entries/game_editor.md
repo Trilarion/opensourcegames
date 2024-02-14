@@ -1,8 +1,8 @@
 # Game Editor
 
-- Home: http://game-editor.com/Main_Page
+- Home: http://game-editor.com/static/Main_Page.html
 - State: mature, inactive since 2014
-- Download: http://game-editor.com/Download
+- Download: http://game-editor.com/static/Download.html
 - Platform: Windows, Linux, macOS, iOS
 - Keyword: framework, 2D, editor, engine
 - Code repository: https://github.com/game-editor/game-editor.git (@created 2013, @stars 25, @forks 18)

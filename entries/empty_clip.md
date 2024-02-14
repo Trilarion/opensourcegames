@@ -1,10 +1,11 @@
 # Empty Clip
 
-- Home: https://github.com/jazztickets/emptyclip, https://emptyclip.sourceforge.net/, https://sourceforge.net/projects/emptyclip/
+- Home: https://empty-clip.gitlab.io/index.html, https://web.archive.org/web/20220502160228/https://emptyclip.sourceforge.net/, https://web.archive.org/web/20220420161918/https://sourceforge.net/projects/emptyclip/
 - State: mature
-- Platform: Linux
-- Keyword: role playing, 2D, shooter, top-down
-- Code repository: https://github.com/jazztickets/emptyclip.git (@created 2017, @stars 1, @forks 1), https://git.code.sf.net/p/emptyclip/code
+- Download: https://gitlab.com/empty-clip/code/-/releases
+- Platform: Windows, Linux
+- Keyword: action, 2D, role-playing, shooter, top-down
+- Code repository: https://gitlab.com/empty-clip/code.git
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL2

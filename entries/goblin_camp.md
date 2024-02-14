@@ -1,6 +1,6 @@
 # Goblin Camp
 
-- Home: http://www.goblincamp.com/, https://web.archive.org/web/20151106001905/https://bitbucket.org/genericcontainer/goblin-camp
+- Home: https://www.goblincamp.com/, https://web.archive.org/web/20151106001905/https://bitbucket.org/genericcontainer/goblin-camp
 - Inspiration: Anno 1404, Dungeon Keeper, Dwarf Fortress
 - State: beta, inactive since 2012
 - Keyword: strategy, city, roguelike

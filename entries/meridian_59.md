@@ -1,6 +1,6 @@
 # Meridian 59
 
-- Home: http://meridian59.com/, https://meridian59.de/
+- Home: https://meridian59.com/, https://meridian59.de/
 - Media: https://en.wikipedia.org/wiki/Meridian_59
 - State: mature
 - Download: https://meridian59.com/play-now.php

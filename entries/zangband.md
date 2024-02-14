@@ -1,6 +1,6 @@
 # ZAngband
 
-- Home: http://www.zangband.org/, https://sourceforge.net/projects/zangband/
+- Home: https://web.archive.org/web/20220527225941/http://www.zangband.org/, https://sourceforge.net/projects/zangband/
 - Media: https://en.wikipedia.org/wiki/Angband_(video_game)#Derivative_works
 - Inspiration: Angband
 - State: mature, inactive since 2005

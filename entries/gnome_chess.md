@@ -2,7 +2,7 @@
 
 - Home: https://wiki.gnome.org/Apps/Chess
 - State: mature
-- Download: https://flathub.org/apps/details/org.gnome.Chess
+- Download: https://flathub.org/apps/org.gnome.Chess
 - Platform: Linux
 - Keyword: strategy, 2D, chess, content open
 - Code repository: https://gitlab.gnome.org/GNOME/gnome-chess.git

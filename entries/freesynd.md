@@ -1,6 +1,6 @@
 # FreeSynd
 
-- Home: https://freesynd.sourceforge.net/, https://sourceforge.net/projects/freesynd/
+- Home: https://freesynd.sourceforge.io/, https://sourceforge.net/projects/freesynd/
 - Inspiration: Syndicate
 - State: beta, inactive since 2017
 - Download: https://sourceforge.net/projects/freesynd/files/

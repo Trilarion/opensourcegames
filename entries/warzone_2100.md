@@ -1,9 +1,9 @@
 # Warzone 2100
 
-- Home: http://wz2100.net/, https://sourceforge.net/projects/warzone2100/
+- Home: https://wz2100.net/, https://sourceforge.net/projects/warzone2100/
 - Inspiration: Warzone 2100
 - State: mature
-- Download: https://sourceforge.net/projects/warzone2100/files/releases/
+- Download: https://github.com/Warzone2100/warzone2100/releases, https://sourceforge.net/projects/warzone2100/files/releases/
 - Keyword: strategy, popular, real-time
 - Code repository: https://github.com/Warzone2100/warzone2100.git (@created 2010, @stars 2425, @forks 451)
 - Code language: C++

@@ -1,8 +1,8 @@
 # PainTown
 
-- Home: http://paintown.org/, https://sourceforge.net/projects/paintown/
+- Home: https://paintown.org/, https://sourceforge.net/projects/paintown/
 - State: mature
-- Download: http://paintown.org/#/downloads, https://sourceforge.net/projects/paintown/files/
+- Download: https://paintown.org/#download, https://sourceforge.net/projects/paintown/files/
 - Platform: Windows, Linux, macOS, Android
 - Keyword: action, arcade, game engine, 2D, fight, scrolling
 - Code repository: https://github.com/kazzmir/paintown.git (@created 2015, @stars 92, @forks 35), https://svn.code.sf.net/p/paintown/code (svn)

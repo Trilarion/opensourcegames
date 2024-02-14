@@ -1,7 +1,8 @@
 # TecnoballZ
 
-- Home: http://linux.tlk.fr/games/TecnoballZ/, https://packages.debian.org/search?keywords=tecnoballz, https://code.google.com/archive/p/tecnoballz/
+- Home: https://linux.tlk.fr/games/TecnoballZ/, https://packages.debian.org/search?keywords=tecnoballz, https://code.google.com/archive/p/tecnoballz/
 - State: beta, inactive since 2016
+- Download: https://linux.tlk.fr/games/TecnoballZ/download/
 - Keyword: arcade, content open
 - Code repository: https://github.com/brunonymous/tecnoballz.git (@created 2015, @stars 5, @forks 3)
 - Code language: C++

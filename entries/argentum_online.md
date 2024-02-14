@@ -1,8 +1,8 @@
 # Argentum Online
 
-- Home: https://www.comunidadargentum.com/ (Spanish), http://www.argentumonline.com.ar/ (Spanish), https://sourceforge.net/projects/morgoao/, https://github.com/argentumonline, https://github.com/ao-libre
+- Home: https://www.comunidadargentum.com/ (Spanish), https://www.ao20.com.ar/ (Spanish), https://sourceforge.net/projects/morgoao/, https://github.com/argentumonline, https://github.com/ao-libre
 - State: beta, inactive since 2014
-- Download: https://www.comunidadargentum.com/descargas/, https://sourceforge.net/projects/morgoao/files/
+- Download: https://github.com/ao-libre/ao-cliente/releases, https://sourceforge.net/projects/morgoao/files/
 - Keyword: role playing, 2D, multiplayer online + massive
 - Code repository: https://github.com/ao-libre/ao-server.git (@created 2018, @stars 50, @forks 44), https://github.com/ao-libre/ao-cliente.git @add (@created 2018, @stars 60, @forks 74), https://github.com/ao-libre/ao-worldeditor.git @add (@created 2020, @stars 5, @forks 10), http://morgoao.cvs.sourceforge.net/ (cvs)
 - Code language: Visual Basic

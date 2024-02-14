@@ -11,7 +11,6 @@
 - Developer: Florian Berger, Kein-Hong Man
 
 3D billiard game.
-http://foobillardplus.sourceforge.net/, https://packages.debian.org/search?keywords=foobillardplus
 
 ## Building
 

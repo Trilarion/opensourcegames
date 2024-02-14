@@ -11,6 +11,6 @@
 - Developer: Alessandro D'Ottavio, Chad McHenry, colinwerner, generateui, Jeremy D. Monin, Luis Ramirez, Paul Bilnoski, Robert Thomas
 
 Web-based version of the board game Settlers of Catan written in Java.
-See also http://www.settlers-android-clone.com/, https://github.com/jsettlers/settlers-remake
+See also https://www.settlers-android-clone.com/, https://github.com/jsettlers/settlers-remake
 
 ## Building

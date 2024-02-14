@@ -1,6 +1,6 @@
 # OpenITG
 
-- Home: http://openitg.gr-p.com/, https://github.com/openitg/openitg/wiki
+- Home: https://openitg.gr-p.com/, https://github.com/openitg/openitg/wiki
 - Inspiration: StepMania
 - State: beta, inactive since 2017
 - Platform: Linux

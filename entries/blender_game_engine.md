@@ -15,4 +15,4 @@ Part of Blender.
 ## Building
 
 - Build system: CMake
-- Build instruction: https://wiki.blender.org/wiki/Building_Blender
+- Build instruction: https://developer.blender.org/docs/handbook/building_blender/

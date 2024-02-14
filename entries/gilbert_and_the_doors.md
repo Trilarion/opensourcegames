@@ -2,7 +2,7 @@
 
 - Home: https://sites.google.com/view/gilbert-and-the-doors
 - State: mature, inactive since 2018
-- Download: https://drive.google.com/uc?export=download&id=1Qgt-LmuLVRQ5yQ7Lg0QB61eZDoMnLTOl
+- Download: http://drive.google.com/uc?export=download&id=1chP3Yrey-jWJBz9bRllmsKBPVgxysCFQ
 - Platform: Windows, Linux
 - Keyword: platform, strategy, 2D, content open, side-scrolling
 - Code repository: https://gitlab.com/osgames/gilbert-and-the-doors.git (import of sources, @created 2019, @stars 1, @forks 0)

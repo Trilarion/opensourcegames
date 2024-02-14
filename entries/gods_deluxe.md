@@ -1,6 +1,6 @@
 # Gods Deluxe
 
-- Home: http://jotd.pagesperso-orange.fr/gods/index.html
+- Home: https://web.archive.org/web/20231001195258/http://jotd.pagesperso-orange.fr/gods/index.html
 - Inspiration: Gods
 - State: mature, inactive since 2020
 - Keyword: platform, remake, content free

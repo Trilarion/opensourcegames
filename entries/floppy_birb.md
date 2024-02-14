@@ -1,6 +1,6 @@
 # Floppy Birb
 
-- Home: https://oojmed.com/floppy-birb/
+- Home: https://web.archive.org/web/20221108214423/https://oojmed.com/floppy-birb/
 - Inspiration: Flappy Bird
 - State: mature
 - Platform: Web

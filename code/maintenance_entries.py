@@ -296,6 +296,7 @@ class EntriesMaintainer:
 
         print('backlog cleaned')
 
+
     def check_external_links(self):
         """
         Checks all external links it can find for validity. Prints those with non OK HTTP responses. Does only need to be run
@@ -303,16 +304,20 @@ class EntriesMaintainer:
         """
 
         # regex for finding urls (can be in <> or in ]() or after a whitespace
-        regex = re.compile(r"[\s]<(http.+?)>|\]\((http.+?)\)[^\)]|[\s](http.+?)[\s,]")
+        # regex = re.compile(r"[\s]<(http.+?)>|\]\((http.+?)\)[^\)]|[\s](http.+?)[\s,]")
+        regex = re.compile(r"\s<(http.+?)>|\]\((http\S+)\)|\s(http[^\(]+?)[\s,^\)]|\s(http\S+?\(\S+?\))[\s,]")
 
         # ignore the following patterns (they give false positives here)
         ignored_urls = (
         'https://git.tukaani.org/xz.git', 'https://git.code.sf.net/', 'http://hg.hedgewars.org/hedgewars/',
         'https://git.xiph.org/vorbis.git', 'http://svn.uktrainsim.com/svn/openrails', 'https://www.srb2.org/',
-        'http://wiki.srb2.org/')
+        'http://wiki.srb2.org/', 'https://web.archive.org/web/', 'https://www.comunidadargentum.com/',
+        'http://www.argentumonline.com.ar/', 'https://www.atrinik.org/', 'https://mvnrepository.com/artifact/com.gitlab.bsarter.belote',
+        'http://aegidian.org/bb/index.php')
+        # especially the webarchive links will be checked separately
 
         # some do redirect, but we nevertheless want the original URL in the database
-        redirect_okay = ('https://octaforge.org/', 'https://svn.openttd.org/', 'https://godotengine.org/download')
+        redirect_okay = ('https://octaforge.org/', 'https://svn.openttd.org/', 'https://godotengine.org/download', 'http://drive.google.com/uc?export=download&id=1chP3Yrey-jWJBz9bRllmsKBPVgxysCFQ')
 
         # extract all links from entries
         import urllib3
@@ -344,9 +349,9 @@ class EntriesMaintainer:
                         if url.startswith('http://cvs.savannah.gnu.org:/sources/'):
                             url = 'http://cvs.savannah.gnu.org/viewvc/' + url[37:] + '/'
 
-                        # generally ".git" at the end is not working well, except sometimes
+                        # generally ".git" at the end is not working well, except sometimes it actually does
                         if url.endswith('.git') and not any((url.startswith(x) for x in (
-                        'https://repo.or.cz', 'https://git.tuxfamily.org/fanwor/fanwor'))):
+                        'https://repo.or.cz', 'https://git.tuxfamily.org'))):
                             url = url[:-4]
 
                         if url in urls:

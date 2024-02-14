@@ -1,9 +1,9 @@
 # GPL Arcade Volleyball
 
-- Home: https://gav.sourceforge.net/, https://sourceforge.net/projects/gav/
+- Home: https://web.archive.org/web/20230208004126/https://gav.sourceforge.net/, https://sourceforge.net/projects/gav/
 - Inspiration: Volleyball
 - State: beta, inactive since 2006
-- Download: https://gav.sourceforge.net/download.php, https://sourceforge.net/projects/gav/files/
+- Download: https://sourceforge.net/projects/gav/files/
 - Platform: Windows, Linux, macOS
 - Keyword: action, arcade, sports
 - Code repository: https://gitlab.com/osgames/gav.git (conversion of cvs, @created 2019, @stars 1, @forks 0), http://gav.cvs.sourceforge.net (cvs)

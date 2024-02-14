@@ -10,7 +10,7 @@
 - Code language: C
 - Code license: zlib
 
-See also https://packages.debian.org/search?keywords=biniax, https://play.google.com/store/apps/details?id=com.biniax.sdl
+See also https://packages.debian.org/search?keywords=biniax
 
 [Original Biniax](http://www.tuzsuzov.com/biniax/index1.htm), [Biniax mobile](http://biniax.com/mobile)
 

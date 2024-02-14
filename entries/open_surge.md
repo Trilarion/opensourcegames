@@ -1,6 +1,6 @@
 # Open Surge
 
-- Home: http://opensurge2d.org/, https://opensnc.sourceforge.net/home/index.php, https://forum.opensurge2d.org/, https://sourceforge.net/projects/opensnc/
+- Home: https://opensurge2d.org/, https://opensnc.sourceforge.net/home/index.php, https://forum.opensurge2d.org/, https://sourceforge.net/projects/opensnc/
 - Inspiration: Sonic the Hedgehog series
 - State: beta
 - Download: https://opensurge2d.org/#download, https://forum.opensurge2d.org/viewtopic.php?id=1931, https://opensnc.sourceforge.net/home/download.php

@@ -1,6 +1,6 @@
 # CaesarIA
 
-- Home: https://bitbucket.org/dalerank/caesaria/overview, https://bitbucket.org/dalerank/caesaria/wiki/Home
+- Home: https://bitbucket.org/dalerank/caesaria/wiki/Home, https://web.archive.org/web/20181202070727/https://bitbucket.org/dalerank/caesaria/overview
 - Inspiration: Caesar 3
 - State: beta
 - Download: https://bitbucket.org/dalerank/caesaria/wiki/Releases

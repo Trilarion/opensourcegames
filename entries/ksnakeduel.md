@@ -1,6 +1,6 @@
 # KSnakeDuel
 
-- Home: https://kde.org/applications/games/org.kde.ksnakeduel, https://packages.debian.org/search?keywords=ksnake
+- Home: https://apps.kde.org/ksnakeduel/, https://packages.debian.org/search?keywords=ksnake
 - Inspiration: Snake
 - State: mature
 - Keyword: puzzle, content open, skill

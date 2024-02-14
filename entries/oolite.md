@@ -1,6 +1,6 @@
 # Oolite
 
-- Home: http://www.oolite.org/, http://wiki.alioth.net/index.php/Oolite_Main_Page, http://aegidian.org/bb/index.php
+- Home: http://www.oolite.org/, https://wiki.alioth.net/index.php/Oolite_Main_Page, http://aegidian.org/bb/index.php
 - Media: https://en.wikipedia.org/wiki/Oolite_(video_game)
 - Inspiration: Elite
 - State: mature

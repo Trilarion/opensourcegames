@@ -1,6 +1,6 @@
 # Lode Runner 2020
 
-- Home: https://mapema.hu/en/hobby/lode-runner/
+- Home: https://mapema.hu/en/docs/hobby/lode-runner/game
 - Inspiration: Lode Runner
 - State: mature
 - Play: https://mapema.hu/en/hobby/lode-runner/game/

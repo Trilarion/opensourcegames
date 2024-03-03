@@ -40,7 +40,7 @@ def collect_sourceforge_entries():
 
     # read entries
     entries = osg.read_entries()
-    print('{} entries read'.format(len(entries)))
+    print(f'{len(entries)} entries read')
 
     # loop over entries
     files = []
@@ -50,7 +50,7 @@ def collect_sourceforge_entries():
             files.append(entry['File'])
 
     # write to file
-    print('{} entries with sourceforge projects'.format(len(files)))
+    print(f'{len(files)} entries with sourceforge projects')
     utils.write_text(sf_entries_file, json.dumps(files, indent=1))
 
 
@@ -64,14 +64,14 @@ def sourceforge_import():
 
     # read developer information
     all_developers = osg.read_developers()
-    print(' {} developers read'.format(len(all_developers)))
+    print(f' {len(all_developers)} developers read')
     all_developers_changed = False
 
     # all exceptions that happen will be eaten (but will end the execution)
     try:
         # loop over each entry with a sourceforge project
         for index, file in enumerate(files):
-            print(' process {} ({})'.format(file, index))
+            print(f' process {file} ({index})')
 
             # read full entry
             entry = osg.read_entry(file)
@@ -83,7 +83,7 @@ def sourceforge_import():
 
             # for all sourceforge project urls in this entry
             for url in urls:
-                print('  sf project {}'.format(url))
+                print(f'  sf project {url}')
 
                 if not url.endswith('/'):
                     print('error: sf project does not end with slash')
@@ -96,7 +96,7 @@ def sourceforge_import():
                 url_members = 'https://sourceforge.net/p/' + project_name + '/_members/'
                 response = requests.get(url_members)
                 if response.status_code != 200:
-                    print('error: url {} not accessible, status {}'.format(url_members, response.status_code))
+                    print(f'error: url {url_members} not accessible, status {response.status_code}')
                     raise RuntimeError()
                 soup = BeautifulSoup(response.text, 'html.parser')
                 authors = soup.find('div', id='content_base').find('table').find_all('tr')
@@ -109,7 +109,7 @@ def sourceforge_import():
                     # get the personal author page from sourceforge
                     response = requests.get(url_author)
                     if response.status_code != 200 and author not in ('/u/favorito/',):
-                        print('error: url {} not accessible, status {}'.format(url_author, response.status_code))
+                        print(f'error: url {url_author} not accessible, status {response.status_code}')
                         raise RuntimeError()
                     url_author = response.url  # could be different now (redirect)
                     if 'auth/?return_to' in url_author or response.status_code != 200:
@@ -132,7 +132,7 @@ def sourceforge_import():
 
                     # look author up in entry developers field, if not existing add
                     if author_name not in developers:
-                        print('   dev "{}" added to entry {}'.format(author_name, file))
+                        print(f'   dev "{author_name}" added to entry {file}')
                         entry['Developer'] = entry.get('Developer', []) + [author_name]
                         entry_changed = True
                         developers = entry.get('Developer', [])  # update developers
@@ -142,7 +142,7 @@ def sourceforge_import():
                         # get existing developer information
                         dev = all_developers[author_name]
                         if nickname not in dev.get('Contact', []):
-                            print(' existing dev "{}" added nickname ({}) to developer database'.format(author_name, nickname))
+                            print(f' existing dev "{author_name}" added nickname ({nickname}) to developer database')
                             # check that name has not already @SF contact
                             if any(x.endswith('@SF') for x in dev.get('Contact', [])):
                                 print('warning: already different SF contact existing')
@@ -150,7 +150,7 @@ def sourceforge_import():
                             all_developers_changed = True
                     else:
                         # new developer entry in the developers data base
-                        print('   dev "{}" ({}) added to developer database'.format(author_name, nickname))
+                        print(f'   dev "{author_name}" ({nickname}) added to developer database')
                         all_developers[author_name] = {'Name': author_name, 'Contact': [nickname], 'Games': [entry['Title']]}
                         all_developers_changed = True
 

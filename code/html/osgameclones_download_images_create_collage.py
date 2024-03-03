@@ -30,7 +30,7 @@ def download_images():
         # add to entries
         entries.extend(_)
 
-    print('imported {} entries'.format(len(entries)))
+    print(f'imported {len(entries)} entries')
 
     # collect all image informations
     images = []
@@ -38,7 +38,7 @@ def download_images():
         if 'images' in entry:
             images.extend(entry['images'])
 
-    print('contain {} image links'.format(len(images)))
+    print(f'contain {len(images)} image links')
 
     # download them all
     for url in images:
@@ -51,7 +51,7 @@ def download_images():
                 if r.status_code == requests.codes.ok:
                     im = Image.open(BytesIO(r.content))
                     im.save(outfile)
-                    print('saved {}'.format(url))
+                    print(f'saved {url}')
             except:
                 pass
 
@@ -67,7 +67,7 @@ def downsize_images():
             continue
         im = Image.open(file_path)
         if im.mode != 'RGB':
-            print('{} - {}'.format(file, im.mode))
+            print(f'{file} - {im.mode}')
             continue
         width = im.width
         height = im.height
@@ -78,7 +78,7 @@ def downsize_images():
         box[3] += box[1]
         im_resized = im.resize((target_width, target_height), resample=Image.LANCZOS, box=box)
         im_resized.save(outfile)
-        print('saved {}'.format(file))
+        print(f'saved {file}')
 
 
 def assemble_collage():
@@ -147,7 +147,7 @@ def assemble_collage():
     # time evolution of acceptance rate
     Nc = int(np.floor(Ni / 20))
     for ai in range(20):
-        print('{}: {}'.format(ai, np.mean(A[ai*Nc:(ai+1)*Nc])))
+        print(f'{ai}: {np.mean(A[ai * Nc:(ai + 1) * Nc])}')
 
     # shift brightest to center
     B = np.zeros((Nx, Ny))

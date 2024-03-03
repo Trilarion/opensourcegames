@@ -1,4 +1,4 @@
-﻿"""
+﻿﻿"""
 
 osgameclones has the following fields:
 'updated', 'video', 'repo', 'license', 'originals', 'status', 'multiplayer', 'info', 'lang', 'feed', 'content', 'images', 'url', 'name', 'framework', 'type', 'development'
@@ -120,10 +120,10 @@ def compare_sets(a, b, name, limit=None):
         b = set(b)
     d = sorted(list(a - b))
     if d and limit != 'notus':
-        p += ' {} : us :  {}\n'.format(name, ', '.join(d))
+        p += f" {name} : us :  {', '.join(d)}\n"
     d = sorted(list(b - a))
     if d and limit != 'notthem':
-        p += ' {} : them : {}\n'.format(name, ', '.join(d))
+        p += f" {name} : them : {', '.join(d)}\n"
     return p
 
 
@@ -156,15 +156,15 @@ if __name__ == "__main__":
 
     # read our database
     our_entries = osg.read_entries()
-    print('{} entries with us'.format(len(our_entries)))
+    print(f'{len(our_entries)} entries with us')
 
     # read our list of rejected entries and add to specifically ignored entries
     our_rejected_entries = osg_rejected.read_rejected_file()
     our_rejected_entries = [entry['Title'] for entry in our_rejected_entries]  # only keep titles
-    print('{} ignored entries with us'.format(len(our_rejected_entries)))
+    print(f'{len(our_rejected_entries)} ignored entries with us')
     _ = set(osgc_ignored_entries).intersection(set(our_rejected_entries))
     if _:
-        print('Specific ignored entries {} can be unignored, because already rejected by us.'.format(_))
+        print(f'Specific ignored entries {_} can be unignored, because already rejected by us.')
     # print(sorted(list(set(osgc_ignored_entries) - _), key=str.casefold))  # just copy the output of this line into osgc_ignored_entries
 
     # read screenshots
@@ -188,7 +188,7 @@ if __name__ == "__main__":
 
         # add to entries
         osgc_entries.extend(_)
-    print('{} entries in osgameclones'.format(len(osgc_entries)))
+    print(f'{len(osgc_entries)} entries in osgameclones')
 
     # check: print all git repos in osgameclones with untypical structure
     untypical_structure = ''
@@ -200,16 +200,16 @@ if __name__ == "__main__":
                 osgc_repos = [osgc_repos]
             for repo in osgc_repos:
                 if 'github' in repo and any((repo.endswith(x) for x in ('/', '.git'))):
-                    untypical_structure += ' {} : {}\n'.format(osgc_entry['name'], repo)
+                    untypical_structure += f" {osgc_entry['name']} : {repo}\n"
     if untypical_structure:
-        print('Git repos in osgc with untypical URL\n{}'.format(untypical_structure))
+        print(f'Git repos in osgc with untypical URL\n{untypical_structure}')
 
     # which fields do they have
     osgc_fields = set()
     for osgc_entry in osgc_entries:
         osgc_fields.update(osgc_entry.keys())
     osgc_fields = sorted(list(osgc_fields))
-    print('Unique osgc-fields\n {}'.format(', '.join(osgc_fields)))
+    print(f"Unique osgc-fields\n {', '.join(osgc_fields)}")
 
     for field in osgc_fields:
         if field in ('video', 'feed', 'url', 'repo', 'info', 'updated', 'images', 'name', 'originals'):
@@ -224,7 +224,7 @@ if __name__ == "__main__":
                 flat_content.append(content)
         statistics = u.unique_elements_and_occurrences(flat_content)
         statistics.sort(key=str.casefold)
-        print('{}: {}'.format(field, ', '.join(statistics)))
+        print(f"{field}: {', '.join(statistics)}")
 
     # eliminate the ignored or rejected entries from them
     # TODO for rejected entries we should actually have a test that also checks for the URLs because names could be not unique
@@ -232,14 +232,14 @@ if __name__ == "__main__":
          x['name'] in osgc_ignored_entries + our_rejected_entries]  # those that will be ignored
     _ = set(osgc_ignored_entries) - set(_)  # those that shall be ignored minus those that will be ignored
     if _:
-        print('Can un-ignore {} because not contained anymore in osgc with this name.'.format(_))
+        print(f'Can un-ignore {_} because not contained anymore in osgc with this name.')
     osgc_entries = [x for x in osgc_entries if x['name'] not in osgc_ignored_entries + our_rejected_entries]
 
     # fix names and licenses (so they are no longer detected as deviations downstreams)
     _ = [x['name'] for x in osgc_entries if x['name'] in osgc_name_aliases.keys()]  # those that will be renamed
     _ = set(osgc_name_aliases.keys()) - set(_)  # those that shall be renamed minus those that will be renamed
     if _:
-        print('Can un-rename {} because not contained anymore in osgc with this name.'.format(_))
+        print(f'Can un-rename {_} because not contained anymore in osgc with this name.')
     for index, entry in enumerate(osgc_entries):
         name = entry['name']
         if name in osgc_name_aliases:
@@ -260,23 +260,23 @@ if __name__ == "__main__":
     osgc_fields = set()
     for osgc_entry in osgc_entries:
         osgc_fields.update(osgc_entry.keys())
-    print('unique osgc-fields: {}'.format(osgc_fields))
+    print(f'unique osgc-fields: {osgc_fields}')
 
     # which fields are mandatory
     for osgc_entry in osgc_entries:
         remove_fields = [field for field in osgc_fields if field not in osgc_entry]
         osgc_fields -= set(remove_fields)
-    print('mandatory osfg-fields: {}'.format(osgc_fields))
+    print(f'mandatory osfg-fields: {osgc_fields}')
 
     # some field statistics
-    print('osgc-development: {}'.format(unique_field_contents(osgc_entries, 'development')))
-    print('osgc-multiplayer: {}'.format(unique_field_contents(osgc_entries, 'multiplayer')))
-    print('osgc-type: {}'.format(unique_field_contents(osgc_entries, 'type')))
-    print('osgc-languages: {}'.format(unique_field_contents(osgc_entries, 'lang')))
-    print('osgc-licenses: {}'.format(unique_field_contents(osgc_entries, 'license')))
-    print('osgc-status: {}'.format(unique_field_contents(osgc_entries, 'status')))
-    print('osgc-framework: {}'.format(unique_field_contents(osgc_entries, 'framework')))
-    print('osgc-content: {}'.format(unique_field_contents(osgc_entries, 'content')))
+    print(f"osgc-development: {unique_field_contents(osgc_entries, 'development')}")
+    print(f"osgc-multiplayer: {unique_field_contents(osgc_entries, 'multiplayer')}")
+    print(f"osgc-type: {unique_field_contents(osgc_entries, 'type')}")
+    print(f"osgc-languages: {unique_field_contents(osgc_entries, 'lang')}")
+    print(f"osgc-licenses: {unique_field_contents(osgc_entries, 'license')}")
+    print(f"osgc-status: {unique_field_contents(osgc_entries, 'status')}")
+    print(f"osgc-framework: {unique_field_contents(osgc_entries, 'framework')}")
+    print(f"osgc-content: {unique_field_contents(osgc_entries, 'content')}")
 
     # just the names
     osgc_names = set([x['name'] for x in osgc_entries])
@@ -284,14 +284,14 @@ if __name__ == "__main__":
     common_names = osgc_names & our_names
     osgc_names -= common_names
     our_names -= common_names
-    print('{} both, {} only osgameclones, {} only us'.format(len(common_names), len(osgc_names), len(our_names)))
+    print(f'{len(common_names)} both, {len(osgc_names)} only osgameclones, {len(our_names)} only us')
     # find similar names among the rest
     if check_similar_names:
         print('look for similar names (theirs - ours)')
         for osgc_name in osgc_names:
             for our_name in our_names:
                 if osg.name_similarity(osgc_name, our_name) > similarity_threshold:
-                    print(' {} - {}'.format(osgc_name, our_name))
+                    print(f' {osgc_name} - {our_name}')
 
     newly_created_entries = 0
     # iterate over their entries
@@ -344,7 +344,7 @@ if __name__ == "__main__":
                             'https://user-images.githubusercontent')]) or width <= 320:
                                 image_url = '!' + image_url
                             our_screenshots[idx] = [target_width, target_height, image_url]
-                            outfile = c.screenshots_path / '{}_{:02d}.jpg'.format(our_file, idx);
+                            outfile = c.screenshots_path / f'{our_file}_{idx:02d}.jpg';
                             im_resized.save(outfile)
                     if our_screenshots:
                         screenshots[our_file] = our_screenshots
@@ -424,7 +424,7 @@ if __name__ == "__main__":
                     osgc_status = osgc_entry['status']
                     our_status = our_entry['State']  # essential field
                     if osgc_status != 'playable' and 'mature' in our_status:
-                        p += ' status : mismatch : them {}, us mature\n'.format(osgc_status)
+                        p += f' status : mismatch : them {osgc_status}, us mature\n'
 
                 # compare their development with our state
                 if 'development' in osgc_entry:
@@ -434,7 +434,7 @@ if __name__ == "__main__":
                     if osgc_development == 'halted' and not our_inactive:
                         p += ' development : mismatch : them halted - us not inactive\n'
                     if osgc_development in ['very active', 'active'] and our_inactive:
-                        p += ' development : mismatch : them {}, us inactive\n'.format(osgc_development)
+                        p += f' development : mismatch : them {osgc_development}, us inactive\n'
                     if osgc_development == 'complete' and 'mature' not in our_status:
                         p += ' development : mismatch : them complete, us not mature\n'
 
@@ -483,7 +483,7 @@ if __name__ == "__main__":
                                       'notthem')  # only to us because we have more then them
 
                 if p:
-                    print('{}\n{}'.format(name, p))
+                    print(f'{name}\n{p}')
 
         if not is_included:
             # a new entry, that we have never seen, maybe we should make an entry of our own
@@ -496,11 +496,11 @@ if __name__ == "__main__":
             osgc_status = [osgc_status_map[osgc_entry.get('status', None)]]
 
             # determine file name
-            print('create new entry for {}'.format(osgc_name))
+            print(f'create new entry for {osgc_name}')
             file_name = osg.canonical_name(osgc_name) + '.md'
             target_file = c.entries_path / file_name
             if os.path.isfile(target_file):
-                print('warning: file {} already existing, save under slightly different name'.format(file_name))
+                print(f'warning: file {file_name} already existing, save under slightly different name')
                 target_file = c.entries_path / file_name[:-3] + '-duplicate.md'
                 if os.path.isfile(target_file):
                     continue  # just for safety reasons
@@ -545,7 +545,7 @@ if __name__ == "__main__":
                 osgc_multiplayer = osgc_entry['multiplayer']
                 if type(osgc_multiplayer) == str:
                     osgc_multiplayer = [osgc_multiplayer]
-                keywords.append('multiplayer {}'.format(' + '.join(osgc_multiplayer)))
+                keywords.append(f"multiplayer {' + '.join(osgc_multiplayer)}")
             if 'content' in osgc_entry:
                 osgc_content = osgc_entry['content']  # it's a list
                 keywords.extend(osgc_content)

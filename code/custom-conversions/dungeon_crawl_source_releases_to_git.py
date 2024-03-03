@@ -32,11 +32,11 @@ def subprocess_run(cmd):
     """
     result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     if result.returncode:
-        print("error {} in call {}".format(result.returncode, cmd))
+        print(f"error {result.returncode} in call {cmd}")
         print(result.stderr.decode('ascii'))
         sys.exit(-1)
     else:
-        print('  output: {}'.format(result.stdout.decode('ascii')))
+        print(f"  output: {result.stdout.decode('ascii')}")
 
 def single_revision():
     """
@@ -55,7 +55,7 @@ def single_revision():
             shutil.copyfileobj(response, tmp_file)
 
     # unpack source files and delete archive
-    print('extract {} to temp'.format(os.path.basename(ftp_link)))
+    print(f'extract {os.path.basename(ftp_link)} to temp')
     extract_sources(tmp_file.name, os.path.splitext(ftp_link)[1], temp_path)
     os.remove(tmp_file.name)
 
@@ -65,7 +65,7 @@ def single_revision():
     while len(names) == 1:
         nonempty_temp_path = nonempty_temp_path / names[0]
         names = nonempty_temp_path.iterdir()
-    print('  working in "{}" relative to temp'.format(os.path.relpath(nonempty_temp_path, temp_path)))
+    print(f'  working in "{os.path.relpath(nonempty_temp_path, temp_path)}" relative to temp')
 
     # if no original date is indicated, get it from the files (latest of last modified)
     global original_date
@@ -78,7 +78,7 @@ def single_revision():
                 if lastmodified > latest_last_modified:
                     latest_last_modified = lastmodified
         original_date = datetime.datetime.fromtimestamp(latest_last_modified).strftime('%Y-%m-%d')
-        print('  extracted original date from files: {}'.format(original_date))
+        print(f'  extracted original date from files: {original_date}')
 
     # clear git path without deleting '.git'
     print('clear git')
@@ -104,10 +104,10 @@ def single_revision():
     # perform the commit
     print('git commit')
     os.chdir(git_path)
-    message = 'version {} ({}) on {}'.format(version, ftp_link, original_date)
-    print('  message "{}"'.format(message))
+    message = f'version {version} ({ftp_link}) on {original_date}'
+    print(f'  message "{message}"')
     # subprocess_run(['git', 'commit', '--message={}'.format(message), '--author={}'.format(author), '--date={}'.format(original_date), '--dry-run'])
-    subprocess_run(['git', 'commit', '--message={}'.format(message), '--author={}'.format(author), '--date={}'.format(original_date)])
+    subprocess_run(['git', 'commit', f'--message={message}', f'--author={author}', f'--date={original_date}'])
 
 
 if __name__ == "__main__":

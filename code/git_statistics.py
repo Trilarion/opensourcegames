@@ -23,13 +23,13 @@ if __name__ == "__main__":
     # get git archives
     text = u.read_text(archives_path)
     archives = json.loads(text)
-    print('process {} git archives'.format(len(archives)))
+    print(f'process {len(archives)} git archives')
 
     # loop over them
     for count, archive in enumerate(archives, 1):
 
         # printer iteration info
-        print('{}/{} - {}'.format(count, len(archives), archive))
+        print(f'{count}/{len(archives)} - {archive}')
 
         # recreate temp folder
         u.recreate_directory(temp_path)
@@ -48,4 +48,4 @@ if __name__ == "__main__":
         info = [x.split(', ') for x in info]
         committers = set([x[0] for x in info])
 
-        print(' commits: {}, committers {}'.format(number_commits, len(committers)))
+        print(f' commits: {number_commits}, committers {len(committers)}')

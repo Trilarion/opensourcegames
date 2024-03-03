@@ -24,7 +24,7 @@ if __name__ == "__main__":
     rejected = osg_rejected.read_rejected_file()
 
     # read awesome list
-    print('read {}'.format(AWESOME_LIST))
+    print(f'read {AWESOME_LIST}')
     r = requests.get(AWESOME_LIST, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64)'}, timeout=20, allow_redirects=True)
     if r.status_code != requests.codes.ok:
         raise RuntimeError('Cannot download awesome list.')
@@ -43,7 +43,7 @@ if __name__ == "__main__":
             url = matches[1]
             description = matches[2]
             entries.append({'Title': title, 'URL': url, 'Description': description, 'Category': category})
-    print('contains {} entries'.format(len(entries)))
+    print(f'contains {len(entries)} entries')
 
     # remove those from the ignored list
     entries = [entry for entry in entries if not any(entry['Title'] == x for x in IGNORED)]
@@ -51,10 +51,10 @@ if __name__ == "__main__":
     # remove those that are in our rejected list
     rejected_titles = [x['Title'] for x in rejected]
     entries = [entry for entry in entries if entry['Title'] not in rejected_titles]
-    print('after filtering for rejected and ignored entries {}'.format(len(entries)))
+    print(f'after filtering for rejected and ignored entries {len(entries)}')
 
     # a bit of statistics about this awesome list
-    print('contains {} entries in {} categories'.format(len(entries), len(text)))
+    print(f'contains {len(entries)} entries in {len(text)} categories')
     n = [0, 0]
     for entry in entries:
         if entry['URL'].startswith('https://github.com/'):
@@ -65,7 +65,7 @@ if __name__ == "__main__":
 
     # read our database
     our_entries = osg.read_entries()
-    print('{} entries read (osgl)'.format(len(our_entries)))
+    print(f'{len(our_entries)} entries read (osgl)')
 
     # go through this awesome list entries one by one and compare to our list
     index = 1
@@ -80,7 +80,7 @@ if __name__ == "__main__":
             if title_equal or url_present:
                 similar_entries.append(our_entry)
         if not similar_entries:
-            print('Unknown entry ({}) "{}" {} - {} - {}'.format(index, entry['Title'], entry['URL'], entry['Category'], entry['Description']))
+            print(f"Unknown entry ({index}) \"{entry['Title']}\" {entry['URL']} - {entry['Category']} - {entry['Description']}")
             index += 1
 
 

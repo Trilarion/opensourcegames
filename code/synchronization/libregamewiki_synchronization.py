@@ -1,4 +1,4 @@
-﻿"""
+﻿﻿"""
 Once data from libregamewiki is imported, synchronize with our database, i.e. identify the entries both have in common,
 estimate the differences in the entries both have in common, suggest to add the entries they have not in common to each
 other.
@@ -74,10 +74,10 @@ def compare_sets(a, b, name, limit=None):
         b = set(b)
     d = sorted(list(a - b))
     if d and limit != 'notus':
-        p += ' {} : us :  {}\n'.format(name, ', '.join(d))
+        p += f" {name} : us :  {', '.join(d)}\n"
     d = sorted(list(b - a))
     if d and limit != 'notthem':
-        p += ' {} : them : {}\n'.format(name, ', '.join(d))
+        p += f" {name} : them : {', '.join(d)}\n"
     return p
 
 
@@ -99,14 +99,14 @@ if __name__ == "__main__":
     _ = [x['name'] for x in lgw_entries if x['name'] in lgw_ignored_entries]  # those that will be ignored
     _ = set(lgw_ignored_entries) - set(_)  # those that shall be ignored minus those that will be ignored
     if _:
-        print('Can un-ignore {}'.format(_))
+        print(f'Can un-ignore {_}')
     lgw_entries = [x for x in lgw_entries if x['name'] not in lgw_ignored_entries]
 
     # perform name and code language replacements
     _ = [x['name'] for x in lgw_entries if x['name'] in lgw_name_aliases.keys()]  # those that will be renamed
     _ = set(lgw_name_aliases.keys()) - set(_)  # those that shall be renamed minus those that will be renamed
     if _:
-        print('Can un-rename {}'.format(_))
+        print(f'Can un-rename {_}')
     for index, lgw_entry in enumerate(lgw_entries):
         if lgw_entry['name'] in lgw_name_aliases:
             lgw_entry['name'] = lgw_name_aliases[lgw_entry['name']]
@@ -132,18 +132,18 @@ if __name__ == "__main__":
     unique_fields = set()
     for lgw_entry in lgw_entries:
         unique_fields.update(lgw_entry.keys())
-    print('unique lgw fields: {}'.format(sorted(list(unique_fields))))
+    print(f'unique lgw fields: {sorted(list(unique_fields))}')
 
     # which fields are mandatory
     mandatory_fields = unique_fields.copy()
     for lgw_entry in lgw_entries:
         remove_fields = [field for field in mandatory_fields if field not in lgw_entry]
         mandatory_fields -= set(remove_fields)
-    print('mandatory lgw fields: {}'.format(sorted(list(mandatory_fields))))
+    print(f'mandatory lgw fields: {sorted(list(mandatory_fields))}')
 
     # read our database
     our_entries = osg.read_entries()
-    print('{} entries with us'.format(len(our_entries)))
+    print(f'{len(our_entries)} entries with us')
 
     # just the names
     lgw_names = set([x['name'] for x in lgw_entries])
@@ -151,14 +151,14 @@ if __name__ == "__main__":
     common_names = lgw_names & our_names
     lgw_names -= common_names
     our_names -= common_names
-    print('{} in both, {} only in LGW, {} only with us'.format(len(common_names), len(lgw_names), len(our_names)))
+    print(f'{len(common_names)} in both, {len(lgw_names)} only in LGW, {len(our_names)} only with us')
 
     # find similar names among the rest
     print('similar names (them - us')
     for lgw_name in lgw_names:
         for our_name in our_names:
             if osg.name_similarity(lgw_name, our_name) > similarity_threshold:
-                print('"{}" - "{}"'.format(lgw_name, our_name))
+                print(f'"{lgw_name}" - "{our_name}"')
 
     newly_created_entries = 0
     # iterate over their entries
@@ -210,7 +210,7 @@ if __name__ == "__main__":
                 # TODO developer (need to introduce a field with us first)
 
                 if p:
-                    print('{}\n{}'.format(name, p))
+                    print(f'{name}\n{p}')
 
         if not is_included:
             # a new entry, that we have never seen, maybe we should make an entry of our own
@@ -220,29 +220,29 @@ if __name__ == "__main__":
                 continue
 
             # determine file name
-            print('create new entry for {}'.format(lgw_name))
+            print(f'create new entry for {lgw_name}')
             file_name = osg.canonical_name(lgw_name) + '.md'
             target_file = constants.entries_path / file_name
             if os.path.isfile(target_file):
-                print('warning: file {} already existing, save under slightly different name'.format(file_name))
+                print(f'warning: file {file_name} already existing, save under slightly different name')
                 target_file = constants.entries_path / file_name[:-3] + '-duplicate.md'
                 if os.path.isfile(target_file):
                     continue  # just for safety reasons
 
             # add name
-            entry = '# {}\n\n'.format(lgw_name)
+            entry = f'# {lgw_name}\n\n'
 
             # empty home (mandatory on our side)
             home = lgw_entry.get('home', None)
             dev_home = lgw_entry.get('dev home', None)
-            entry += '- Home: {}\n'.format(', '.join([x for x in [home, dev_home] if x]))
+            entry += f"- Home: {', '.join([x for x in [home, dev_home] if x])}\n"
 
             # state mandatory on our side
             entry += '- State: \n'
 
             # platform, if existing
             if 'platform' in lgw_entry:
-                entry += '- Platform: {}\n'.format(', '.join(lgw_entry['platform']))
+                entry += f"- Platform: {', '.join(lgw_entry['platform'])}\n"
 
             # keywords (genre) (also mandatory)
             keywords = lgw_entry.get('genre', [])
@@ -250,42 +250,42 @@ if __name__ == "__main__":
                 keywords.append('open content')
             keywords.sort(key=str.casefold)
             if keywords:
-                entry += '- Keyword: {}\n'.format(', '.join(keywords))
+                entry += f"- Keyword: {', '.join(keywords)}\n"
 
             # code repository (mandatory but not scraped from lgw)
-            entry += '- Code repository: {}\n'.format(lgw_entry.get('repo', ''))
+            entry += f"- Code repository: {lgw_entry.get('repo', '')}\n"
 
             # code language, mandatory on our side
             languages = lgw_entry.get('code language', [])
             languages.sort(key=str.casefold)
-            entry += '- Code language: {}\n'.format(', '.join(languages))
+            entry += f"- Code language: {', '.join(languages)}\n"
 
             # code license, mandatory on our side
             licenses = lgw_entry.get('code license', [])
             licenses = [licenses_map[x] if x in licenses_map else x for x in licenses]
             licenses.sort(key=str.casefold)
-            entry += '- Code license: {}\n'.format(', '.join(licenses))
+            entry += f"- Code license: {', '.join(licenses)}\n"
 
             # code dependencies (only if existing)
             code_dependencies = lgw_entry.get('engine', [])
             code_dependencies.extend(lgw_entry.get('library', []))
             code_dependencies.sort(key=str.casefold)
             if code_dependencies:
-                entry += '- Code dependency: {}\n'.format(', '.join(code_dependencies))
+                entry += f"- Code dependency: {', '.join(code_dependencies)}\n"
 
             # assets licenses (only if existing)
             if 'assets license' in lgw_entry:
                 licenses = lgw_entry.get('assets license', [])
                 licenses = [licenses_map[x] if x in licenses_map else x for x in licenses]
                 licenses.sort(key=str.casefold)
-                entry += '- Assets license: {}\n'.format(', '.join(licenses))
+                entry += f"- Assets license: {', '.join(licenses)}\n"
 
             # developer
             if 'developer' in lgw_entry:
-                entry += '- Developer: {}\n'.format(', '.join(lgw_entry['developer']))
+                entry += f"- Developer: {', '.join(lgw_entry['developer'])}\n"
 
             # add empty description (not anymore)
-            entry += '\n_{}_\n\n'.format(lgw_entry['description'])
+            entry += f"\n_{lgw_entry['description']}_\n\n"
 
             # external links
             ext_links = lgw_entry['external links']
@@ -294,7 +294,7 @@ if __name__ == "__main__":
 
             # linux packages
             if 'linux-packages' in lgw_entry:
-                entry += '{}\n'.format(lgw_entry['linux-packages'])
+                entry += f"{lgw_entry['linux-packages']}\n"
 
             # write ## Building
             entry += '\n## Building\n'

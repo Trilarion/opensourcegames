@@ -12,7 +12,7 @@ if __name__ == '__main__':
 
     # base path is the directory containing this file
     base_path = pathlib.Path(__file__)
-    print('base path={}'.format(base_path))
+    print(f'base path={base_path}')
 
     # recreate archive path
     archive_path = base_path / 'downloads'
@@ -22,7 +22,7 @@ if __name__ == '__main__':
     # load source releases urls
     with open(base_path / 'phaos.json', 'r') as f:
         urls = json.load(f)
-    print('will process {} urls'.format(len(urls)))
+    print(f'will process {len(urls)} urls')
     if len(urls) != len(set(urls)):
         raise RuntimeError("urls list contains duplicates")
 
@@ -46,7 +46,7 @@ if __name__ == '__main__':
         if destination.exists():
             continue
         # download
-        print('  download {}'.format(os.path.basename(destination)))
+        print(f'  download {os.path.basename(destination)}')
         with urllib.request.urlopen(url) as response:
             with open(destination, 'wb') as f:
                 shutil.copyfileobj(response, f)
@@ -56,7 +56,7 @@ if __name__ == '__main__':
     print('unzip downloaded archives')
     unzipped_archives = [x[:-4] for x in archives] # folder is archive name without .zip
     for archive, unzipped_archive in zip(archives, unzipped_archives):
-        print('  unzip {}'.format(os.path.basename(archive)))
+        print(f'  unzip {os.path.basename(archive)}')
         # only if not yet existing
         if unzipped_archive.exists():
             continue
@@ -78,7 +78,7 @@ if __name__ == '__main__':
     db.sort(key=lambda x:x[3])
     print('proposed order')
     for url, _, version, _, date in db:
-        print('  date={} version={}'.format(date, version))
+        print(f'  date={date} version={version}')
 
     # git init
     git_path = base_path / 'phaosrpg'
@@ -94,7 +94,7 @@ if __name__ == '__main__':
     print('process revisions')
     git_author = 'eproductions3 <eproductions3@user.sourceforge.net>'
     for url, archive_path, version, _, date in db:
-        print('  process version={}'.format(version))
+        print(f'  process version={version}')
 
         # clear git path without deleting .git
         print('    clear git')
@@ -120,6 +120,6 @@ if __name__ == '__main__':
         # perform the commit
         print('git commit')
         os.chdir(git_path)
-        message = 'version {} ({}) on {}'.format(version, url, date)
-        print('  message "{}"'.format(message))
-        subprocess_run(['git', 'commit', '--message={}'.format(message), '--author={}'.format(git_author), '--date={}'.format(date)])
+        message = f'version {version} ({url}) on {date}'
+        print(f'  message "{message}"')
+        subprocess_run(['git', 'commit', f'--message={message}', f'--author={git_author}', f'--date={date}'])

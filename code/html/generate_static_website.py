@@ -67,6 +67,7 @@ Sitemap is not needed, only for large projects with lots of JavaScript und many 
 # TODO inspirations: if included in the database, link instead to game (cross-reference)
 # TODO inspirations: add media links and genres, maybe also years and original developer
 
+import os
 import pathlib
 import shutil
 import math
@@ -167,7 +168,7 @@ genre_icon_map = {
 }
 
 # cross-references to the language pages
-code_language_references = {language: games_by_language_path[:-1] + ['{}#{}'.format(games_by_language_path[-1], language.lower())] for language in c.known_languages}
+code_language_references = {language: games_by_language_path[:-1] + [f'{games_by_language_path[-1]}#{language.lower()}'] for language in c.known_languages}
 
 # map of internal non game names to display names (which are in plural)
 non_game_category_names = {
@@ -196,7 +197,7 @@ def get_plural_or_singular(name, amount):
     Gets the pluralization of a known word for a known amount. Helper function.
     """
     if not name in plurals.keys():
-        raise RuntimeError('"{}" not a known singular!'.format(name))
+        raise RuntimeError(f'"{name}" not a known singular!')
     if amount == 1:
         return name
     return plurals[name]
@@ -231,7 +232,7 @@ def write(text, file):
     # output file
     if isinstance(file, str):
         file = [file]
-    file = c.web_path / *file
+    file = c.web_path / file
 
     # check file hash and use previous version
     if file in previous_files and previous_files[file]['hash'] == file_hash(text):
@@ -243,7 +244,7 @@ def write(text, file):
             html5parser.parse(text)
         except Exception as e:
             utils.write_text(c.web_path / 'invalid.html', text)  # for further checking with https://validator.w3.org/
-            print('problem with file {}, see invalid.html'.format(file))
+            print(f'problem with file {file}, see invalid.html')
             raise RuntimeError(e)
 
     # create output directory if necessary
@@ -348,7 +349,7 @@ def preprocess(items, key, url):
         if not start in alphabet:
             start = extra
         item['letter'] = start
-        item['href'] = url + ['{}.html#{}'.format(start, anchor)]
+        item['href'] = url + [f'{start}.html#{anchor}']
 
 
 def entry_index(entry):
@@ -364,9 +365,9 @@ def entry_index(entry):
     if 'beta' in entry['State']:
         tags.append('beta')
     if osg.is_inactive(entry):
-        tags.append('inactive since {}'.format(osg.extract_inactive_year(entry)))
+        tags.append(f'inactive since {osg.extract_inactive_year(entry)}')
     if tags:
-        e['tags'] = make_text('({})'.format(', '.join(tags)), 'is-light is-size-7')
+        e['tags'] = make_text(f"({', '.join(tags)})", 'is-light is-size-7')
     return e
 
 
@@ -381,7 +382,7 @@ def inspiration_index(inspiration):
         'bold': n >= TOP_INSPIRATION_THRESHOLD
     }
     if n > 1:
-        e['tags'] = make_text('({})'.format(n), 'is-light')
+        e['tags'] = make_text(f'({n})', 'is-light')
     return e
 
 
@@ -396,7 +397,7 @@ def developer_index(developer):
         'bold': n >= TOP_DEVELOPER_THRESHOLD
     }
     if n > 1:
-        e['tags'] = make_text('({})'.format(n), 'is-light is-size-7')
+        e['tags'] = make_text(f'({n})', 'is-light is-size-7')
     return e
 
 
@@ -490,7 +491,7 @@ def make_repo_url(x, name):
             if key == 'archived':
                 comments.append(make_text('archived'))
             if key == 'created':
-                comments.append(make_text('since {}'.format(value)))
+                comments.append(make_text(f'since {value}'))
             if key == 'stars':
                 value = int(value)
                 if value > 200:
@@ -610,14 +611,14 @@ def developer_profile_link(link):
     :return: A URL to a profile page.
     """
     if link.endswith('@SF'):
-        return make_url('https://sourceforge.net/u/{}/profile/'.format(link[:-3]), make_icon('sourceforge', css='has-text-link'), 'User {} on Sourceforge'.format(link[:-3]))
+        return make_url(f'https://sourceforge.net/u/{link[:-3]}/profile/', make_icon('sourceforge', css='has-text-link'), f'User {link[:-3]} on Sourceforge')
     if link.endswith('@GH'):
-        return make_url('https://github.com/{}'.format(link[:-3]), make_icon('github', css='has-text-link'), 'User {} on Github'.format(link[:-3]))
+        return make_url(f'https://github.com/{link[:-3]}', make_icon('github', css='has-text-link'), f'User {link[:-3]} on Github')
     if link.endswith('@GL'):
-        return make_url('https://gitlab.com/{}'.format(link[:-3]), make_icon('gitlab', css='has-text-link'), 'User {} on Gitlab'.format(link[:-3]))
+        return make_url(f'https://gitlab.com/{link[:-3]}', make_icon('gitlab', css='has-text-link'), f'User {link[:-3]} on Gitlab')
     if link.endswith('@BB'):
-        return make_url('https://bitbucket.org/{}/'.format(link[:-3]), make_icon('bitbucket', css='has-text-link'), 'User {} on BitBucket'.format(link[:-3]))
-    raise RuntimeError('Unknown profile link {}'.format(link))
+        return make_url(f'https://bitbucket.org/{link[:-3]}/', make_icon('bitbucket', css='has-text-link'), f'User {link[:-3]} on BitBucket')
+    raise RuntimeError(f'Unknown profile link {link}')
 
 
 def convert_inspirations(inspirations, entries):
@@ -641,7 +642,7 @@ def convert_inspirations(inspirations, entries):
         # inspired entries (with links to them)
         inspired_entries = inspiration['Inspired entries']
         entries = [make_url(entries_references[entry], make_text(entry)) for entry in inspired_entries]
-        name = make_text('Inspired {}: '.format(get_plural_or_singular('Game', len(entries)).lower()), 'has-text-weight-semibold')
+        name = make_text(f"Inspired {get_plural_or_singular('Game', len(entries)).lower()}: ", 'has-text-weight-semibold')
         inspiration['inspired'] = [name, make_enumeration(entries)]
 
 
@@ -660,7 +661,7 @@ def convert_developers(developers, entries):
         # games
         developed_entries = developer['Games']
         entries = [make_url(entries_references[entry], make_text(entry)) for entry in developed_entries]
-        name = make_text('Developed {}: '.format(get_plural_or_singular('Game', len(entries)).lower()), 'has-text-weight-semibold')
+        name = make_text(f"Developed {get_plural_or_singular('Game', len(entries)).lower()}: ", 'has-text-weight-semibold')
         developer['games'] = [name, make_enumeration(entries)]
 
         # contacts
@@ -690,11 +691,11 @@ def create_keyword_tag(keyword):
             url = non_games_index_path.copy()
         else:
             url = games_by_genres_path.copy()
-        url[-1] += '#{}'.format(keyword)
+        url[-1] += f'#{keyword}'
         # TODO are icons looking good in the keyword tags (I somehow doubt it), maybe put them separately somewhere?
         #if keyword.capitalize() in genre_icon_map:
         #    return make_url(url, [make_icon(genre_icon_map[keyword.capitalize()]), make_text(keyword)], '{} games'.format(keyword), 'tag is-light is-link')
-        tooltip = non_game_category_names[keyword] if keyword in non_game_category_names else '{} games'.format(keyword.capitalize())
+        tooltip = non_game_category_names[keyword] if keyword in non_game_category_names else f'{keyword.capitalize()} games'
         return make_url(url, make_text(keyword), tooltip, 'tag is-light is-link') # TODO underline tag needs <u> and it should be generalized
     else:
         return make_text(keyword, 'tag is-light')
@@ -763,7 +764,7 @@ def convert_entries(entries, inspirations, developers):
                     e[0]['class'] = 'has-text-weight-semibold'
                 elif field == 'Play':  # Play -> Play online
                     field = 'Play online'
-                namex = make_text('{}: '.format(get_plural_or_singular(field, len(e))))
+                namex = make_text(f'{get_plural_or_singular(field, len(e))}: ')
                 entry[field.lower()] = [namex, make_enumeration(e, divider)]
 
         # platforms
@@ -771,7 +772,7 @@ def convert_entries(entries, inspirations, developers):
             e = entry['Platform']
         else:
             e = ['Unspecified']
-        e = [make_url(games_by_platform_path[:-1] + ['{}#{}'.format(games_by_platform_path[-1], x.lower())], make_icon(platform_icon_map[x], css='has-text-link is-size-6'), x) if x in platform_icon_map else make_text(x) for x in e]
+        e = [make_url(games_by_platform_path[:-1] + [f'{games_by_platform_path[-1]}#{x.lower()}'], make_icon(platform_icon_map[x], css='has-text-link is-size-6'), x) if x in platform_icon_map else make_text(x) for x in e]
         # namex = make_text('{}: '.format(get_plural_or_singular('Platform', len(e))))
         # entry['state'].insert(0, [namex] + e)
         entry['state'].insert(0, e)
@@ -793,7 +794,7 @@ def convert_entries(entries, inspirations, developers):
                     e = [make_url(x, shortcut_url(x, name)) for x in e]
                 else:
                     e = [make_text(x) for x in e]
-                namex = make_text('{}: '.format(get_plural_or_singular(field.capitalize(), len(entries))))
+                namex = make_text(f'{get_plural_or_singular(field.capitalize(), len(entries))}: ')
                 entry[field.lower()] = [namex, make_enumeration(e, divider)]
 
         # build system
@@ -802,10 +803,10 @@ def convert_entries(entries, inspirations, developers):
             e = entry['Building'][field]
             divider = ', '
             e = [make_url(c.build_system_urls[x], x) if x in c.build_system_urls else make_text(x) for x in e]
-            namex = make_text('{}: '.format(field))
+            namex = make_text(f'{field}: ')
             entry[field.lower()] = [namex, make_enumeration(e, divider)]
 
-        entry['raw-path'] = 'https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/' + entry['File']
+        entry['raw-path'] = 'https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/' + entry['File'].name
 
 
 def add_license_links_to_entries(entries):
@@ -875,7 +876,7 @@ d    """
                 url = item[2]
             else:
                 url = None
-            file = ['screenshots', '{}_{:02d}.jpg'.format(name, id)]
+            file = ['screenshots', f'{name}_{id:02d}.jpg']
             img = make_img(file, width, height)
             if url:
                 screenshot = make_url(url, img)
@@ -897,7 +898,7 @@ def create_table_json_data(entries):
     db = {'headings': ['Title', 'State', 'Tags', 'Platform', 'Language', 'License']}
     data = []
     for entry in entries:
-        title = '<a href="{}" class="has-text-weight-semibold">{}</a> <a href="{}"><i class="icon-new-tab"></i></a>'.format(url_to([], entry['href']), entry['Title'], entry['Home'][0])
+        title = f"<a href=\"{url_to([], entry['href'])}\" class=\"has-text-weight-semibold\">{entry['Title']}</a> <a href=\"{entry['Home'][0]}\"><i class=\"icon-new-tab\"></i></a>"
         state = ', '.join(entry['State'])
         tags = entry['Keyword']
         tags = [tag for tag in tags if tag in c.interesting_keywords]
@@ -913,7 +914,7 @@ def create_table_json_data(entries):
 
     # write out
     text = json.dumps(db, indent=1)
-    c.web_data_path.mkdir(parent=True, exist_ok=True)
+    c.web_data_path.mkdir(parents=True, exist_ok=True)
     utils.write_text(c.web_data_path / 'entries.json', text)
 
 
@@ -924,7 +925,7 @@ def create_statistics_section(entries, field, title, file_name, chartmaker, sub_
     """
     statistics = stat.get_field_statistics(entries, field, sub_field)
     statistics = stat.truncate_stats(statistics, 10)
-    file = c.web_path / 'statistics', file_name
+    file = c.web_path / 'statistics' / file_name
     chartmaker([s for s in statistics if s[0] != 'N/A'], file)
     # read back and check if identical with old version (up to date)
     text = utils.read_text(file)
@@ -959,7 +960,7 @@ def generate(entries, inspirations, developers):
     # TODO preprocess doesn't set the urls for frameworks correctly fix here, do better later
     for non_game in non_games:
         keyword = [keyword for keyword in c.non_game_keywords if keyword in non_game['Keyword']][0]
-        non_game['href'] = non_games_path + ['{}.html#{}'.format(keyword, non_game['anchor-id'])]
+        non_game['href'] = non_games_path + [f"{keyword}.html#{non_game['anchor-id']}"]
     entries = games + non_games
     preprocess(inspirations, 'Name', inspirations_path)
     preprocess(developers, 'Name', developers_path)
@@ -1032,7 +1033,7 @@ def generate(entries, inspirations, developers):
 
     # copy screenshots path
     files = [file for file in c.screenshots_path.iterdir() if file.endswith('.jpg')]
-    c.web_screenshots_path.mkdir(parent=True, exist_ok=True)
+    c.web_screenshots_path.mkdir(parents=True, exist_ok=True)
     for file in files:
         shutil.copyfile(c.screenshots_path / file, c.web_screenshots_path / file)
 
@@ -1055,7 +1056,7 @@ def generate(entries, inspirations, developers):
 
     # index.html
     base['active_nav'] = 'index'
-    index = {'subtitle': make_text('Contains information about {} open source games and {} game engines/tools.'.format(len(games), len(non_games))) }
+    index = {'subtitle': make_text(f'Contains information about {len(games)} open source games and {len(non_games)} game engines/tools.') }
     template = environment.get_template('index.jinja')
     write(template.render(index=index), ['index.html'])
 
@@ -1083,7 +1084,7 @@ def generate(entries, inspirations, developers):
     # non-games by type
     index = divide_in_three_columns_and_transform(non_games_by_type, entry_index)
     index['title'] = make_text('Open source game engines/frameworks/tools')
-    index['subtitle'] = make_text('Index of {} game engines/frameworks/tools'.format(len(non_games)))
+    index['subtitle'] = make_text(f'Index of {len(non_games)} game engines/frameworks/tools')
     index['categories'] = c.non_game_keywords
     index['category-names'] = non_game_category_names
     index['category-icons'] = {}
@@ -1098,7 +1099,7 @@ def generate(entries, inspirations, developers):
             'subtitle': make_url(non_games_index_path, 'Index'),
             'items': non_games_by_type[keyword]
         }
-        write(template_listing_entries.render(listing=listing), non_games_path + ['{}.html'.format(keyword)])
+        write(template_listing_entries.render(listing=listing), non_games_path + [f'{keyword}.html'])
 
     # games folder
     base['title'] = 'OSGL | Games | Alphabetical'
@@ -1108,20 +1109,20 @@ def generate(entries, inspirations, developers):
     # generate games pages
     for letter in extended_alphabet:
         listing = {
-            'title': 'Games starting with {}'.format(letter.capitalize()),
+            'title': f'Games starting with {letter.capitalize()}',
             'items': games_by_alphabet[letter]
         }
-        write(template_listing_entries.render(listing=listing), games_path + ['{}.html'.format(letter.capitalize())])
+        write(template_listing_entries.render(listing=listing), games_path + [f'{letter.capitalize()}.html'])
 
     # generate games index
     index = divide_in_three_columns_and_transform(games_by_alphabet, entry_index)
     index['title'] = make_text('Open source games')
-    index['subtitle'] = [make_text('Alphabetical index of {} games.'.format(len(games)))]
+    index['subtitle'] = [make_text(f'Alphabetical index of {len(games)} games.')]
     index['categories'] = extended_alphabet
     index['category-names'] = extended_alphabet_names
     index['category-icons'] = {}
     index['number_entries_per_category_threshold'] = 20
-    index['category-infos'] = {letter: make_text('{} games'.format(len(games_by_alphabet[letter]))) for letter in extended_alphabet}
+    index['category-infos'] = {letter: make_text(f'{len(games_by_alphabet[letter])} games') for letter in extended_alphabet}
     write(template_categorical_index.render(index=index), games_index_path)
 
     # genres
@@ -1134,7 +1135,7 @@ def generate(entries, inspirations, developers):
     index['category-names'] = {k: make_text(k) for k in index['categories']}
     index['category-icons'] = {k: make_icon(genre_icon_map[k]) for k in index['categories'] if k in genre_icon_map}
     index['number_entries_per_category_threshold'] = 50
-    index['category-infos'] = {genre: make_text('{} games'.format(len(games_by_genre[genre]))) for genre in genres}
+    index['category-infos'] = {genre: make_text(f'{len(games_by_genre[genre])} games') for genre in genres}
     write(template_categorical_index.render(index=index), games_by_genres_path)
 
     # games by language
@@ -1161,7 +1162,7 @@ def generate(entries, inspirations, developers):
     index['category-icons'] = {k: make_icon(platform_icon_map[k]) for k in index['categories']}
     index['number_entries_per_category_threshold'] = 15
     index['category-infos'] = {}
-    index['category-infos'] = {category: make_text('{} entries'.format(len(games_by_platform[category]))) for category in index['categories']}
+    index['category-infos'] = {category: make_text(f'{len(games_by_platform[category])} entries') for category in index['categories']}
     write(template_categorical_index.render(index=index), games_by_platform_path)
 
     # for kids games
@@ -1170,7 +1171,7 @@ def generate(entries, inspirations, developers):
     kids_games = [game for game in games if 'for kids' in game['Keyword']]
     listing = {
         'title': 'Games for Kids',
-        'subtitle': '{} games suitable for kids.'.format(len(kids_games)),
+        'subtitle': f'{len(kids_games)} games suitable for kids.',
         'items': kids_games
     }
     write(template_listing_entries.render(listing=listing), games_kids_path)
@@ -1181,7 +1182,7 @@ def generate(entries, inspirations, developers):
     web_games = [game for game in games if 'Play' in game and 'Web' in game['Platform']]
     listing = {
         'title': 'Playable browser games',
-        'subtitle': '{} games that can be played in your browser right away.'.format(len(web_games)),
+        'subtitle': f'{len(web_games)} games that can be played in your browser right away.',
         'items': web_games
     }
     write(template_listing_entries.render(listing=listing), games_web_path)
@@ -1192,7 +1193,7 @@ def generate(entries, inspirations, developers):
     libre_games = [game for game in games if 'content open' in game['Keyword']]
     listing = {
         'title': 'Completely free games',
-        'subtitle': '{} games with open/libre code and artwork.'.format(len(libre_games)),
+        'subtitle': f'{len(libre_games)} games with open/libre code and artwork.',
         'items': libre_games
     }
     write(template_listing_entries.render(listing=listing), games_libre_path)
@@ -1202,7 +1203,7 @@ def generate(entries, inspirations, developers):
     base['active_nav'] = ['filter', 'top50']
     # there are no other games coming afterwards, can actually number them
     for index, game in enumerate(top50_games):
-        game['name'] = '{}. '.format(index+1) + game['name']
+        game['name'] = f'{index + 1}. ' + game['name']
     listing = {
         'title': 'GitHub Stars Top 50',
         'subtitle': '50 highest rated (by stars on Github) playable open source games in the database', # that can be played online or downloaded
@@ -1221,10 +1222,10 @@ def generate(entries, inspirations, developers):
     template_listing_inspirations = environment.get_template('listing_inspirations.jinja')
     for letter in extended_alphabet:
         listing = {
-            'title': 'Inspirations ({})'.format(letter.capitalize()),
+            'title': f'Inspirations ({letter.capitalize()})',
             'items': inspirations_by_alphabet[letter]
         }
-        write(template_listing_inspirations.render(listing=listing), inspirations_path + ['{}.html'.format(letter.capitalize())])
+        write(template_listing_inspirations.render(listing=listing), inspirations_path + [f'{letter.capitalize()}.html'])
 
     # inspirations index
     extended_alphabet_names['_'] = 'Most used'
@@ -1232,7 +1233,7 @@ def generate(entries, inspirations, developers):
     inspirations_by_alphabet['_'] = top_inspirations
     index = divide_in_three_columns_and_transform(inspirations_by_alphabet, inspiration_index)
     index['title'] = 'Inspirations'
-    index['subtitle'] = make_text('Alphabetical index of {} games used as inspirations'.format(len(inspirations)))
+    index['subtitle'] = make_text(f'Alphabetical index of {len(inspirations)} games used as inspirations')
     index['categories'] = '_' + extended_alphabet
     index['category-names'] = extended_alphabet_names
     index['category-icons'] = {}
@@ -1249,10 +1250,10 @@ def generate(entries, inspirations, developers):
     template_listing_developers = environment.get_template('listing_developers.jinja')
     for letter in extended_alphabet:
         listing = {
-            'title': 'Open source game developers ({})'.format(letter.capitalize()),
+            'title': f'Open source game developers ({letter.capitalize()})',
             'items': developers_by_alphabet[letter]
         }
-        write(template_listing_developers.render(listing=listing), developers_path + ['{}.html'.format(letter.capitalize())])
+        write(template_listing_developers.render(listing=listing), developers_path + [f'{letter.capitalize()}.html'])
 
     # developers index
     extended_alphabet_names['_'] = 'Most active'
@@ -1260,7 +1261,7 @@ def generate(entries, inspirations, developers):
     developers_by_alphabet['_'] = top_developers
     index = divide_in_three_columns_and_transform(developers_by_alphabet, developer_index)
     index['title'] = 'Open source game developers'
-    index['subtitle'] = make_text('Alphabetical index of {} developers'.format(len(developers)))
+    index['subtitle'] = make_text(f'Alphabetical index of {len(developers)} developers')
     index['categories'] = '_' + extended_alphabet
     index['category-names'] = extended_alphabet_names
     index['category-icons'] = {}
@@ -1286,10 +1287,10 @@ if __name__ == "__main__":
 
     # create dictionary of file hashes
     print('estimate file hashes')
-    for dirpath, dirnames, filenames in os.walk(c.web_path):
+    for dirpath, dirnames, filenames in os.walk(c.web_path):  # TODO in Python 3.12 Path.walk() exists
         for file in filenames:
             if any(file.endswith(ext) for ext in ('.html', '.svg')):
-                file = dirpath / file
+                file = pathlib.Path(dirpath) / file
                 text = utils.read_text(file)
                 previous_files[file] = {'hash': file_hash(text), 'text': text}
 
@@ -1322,4 +1323,4 @@ if __name__ == "__main__":
     generate(entries, inspirations, developers)
 
     # timing
-    print('took {:.3f}s'.format(time.process_time()-start_time))
+    print(f'took {time.process_time() - start_time:.3f}s')

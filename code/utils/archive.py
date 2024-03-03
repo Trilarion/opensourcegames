@@ -16,7 +16,7 @@ def derive_folder_name(url, replaces):
         if url.startswith(generic):
             url = url[len(generic):]
             return sanitize(url)
-    raise Exception('malformed url: {}'.format(url))
+    raise Exception(f'malformed url: {url}')
 
 
 def git_folder_name(url):

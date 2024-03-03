@@ -33,11 +33,11 @@ if __name__ == '__main__':
     # loop over all git archives
     submodules = []
     for repo in archives['git']:
-        print('process {}'.format(repo))
+        print(f'process {repo}')
         git_folder = a.git_folder_name(repo)
         folder = archive_folder / 'git' / git_folder
         if not folder.is_dir():
-            print('Warning: folder {} does not exist'.format(git_folder))
+            print(f'Warning: folder {git_folder} does not exist')
             continue
         os.chdir(folder)
         try:
@@ -64,5 +64,5 @@ if __name__ == '__main__':
     submodules = [x for x in submodules if not any([x.startswith(y) for y in ('.', 'git@')])]
 
     # store them
-    print('found {} submodules'.format(len(submodules)))
+    print(f'found {len(submodules)} submodules')
     u.write_text(code_folder / 'archives.git-submodules.json', json.dumps(submodules, indent=1))

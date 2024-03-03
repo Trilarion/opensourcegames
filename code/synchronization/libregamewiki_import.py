@@ -50,7 +50,7 @@ def download_lgw_content():
     # remove all those that start with user
     games = [game for game in games if not any(game[1].startswith(x) for x in ('User:', 'Template:', 'Bullet'))]
 
-    print('current number of games in LGW {}'.format(len(games)))
+    print(f'current number of games in LGW {len(games)}')
 
     for game in games:
         print(game[1])
@@ -284,14 +284,14 @@ def clean_lgw_content():
     unique_fields = set()
     for entry in entries:
         unique_fields.update(entry.keys())
-    print('unique lgw fields: {}'.format(sorted(list(unique_fields))))
+    print(f'unique lgw fields: {sorted(list(unique_fields))}')
 
     # which fields are mandatory
     mandatory_fields = unique_fields.copy()
     for entry in entries:
         remove_fields = [field for field in mandatory_fields if field not in entry]
         mandatory_fields -= set(remove_fields)
-    print('mandatory lgw fields: {}'.format(sorted(list(mandatory_fields))))
+    print(f'mandatory lgw fields: {sorted(list(mandatory_fields))}')
 
     # statistics before
     print('field contents before')
@@ -308,7 +308,7 @@ def clean_lgw_content():
             else:
                 flat_content.append(c)
         statistics = utils.unique_elements_and_occurrences(flat_content)
-        print('{}: {}'.format(field, ', '.join(statistics)))
+        print(f"{field}: {', '.join(statistics)}")
 
     # content replacements
     entries = remove_parenthized_content(entries, ('assets license', 'code language', 'code license', 'engine', 'genre', 'last active', 'library'))
@@ -362,7 +362,7 @@ def clean_lgw_content():
             else:
                 flat_content.append(c)
         statistics = utils.unique_elements_and_occurrences(flat_content)
-        print('{}: {}\n'.format(field, ', '.join(statistics)))
+        print(f"{field}: {', '.join(statistics)}\n")
 
     # save entries
     text = json.dumps(entries, indent=1)

@@ -29,7 +29,7 @@ class InspirationMaintainer:
         Read stored inspirations.
         """
         self.inspirations = osg.read_inspirations()
-        print('{} inspirations read'.format(len(self.inspirations)))
+        print(f'{len(self.inspirations)} inspirations read')
 
     def write_inspirations(self):
         """
@@ -55,8 +55,8 @@ class InspirationMaintainer:
                 if any((name.startswith(x) and other_name.startswith(x) for x in valid_duplicates)):
                     continue
                 if osg.name_similarity(str.casefold(name), str.casefold(other_name)) > 0.9:
-                    print(' {} - {} is similar'.format(name, other_name))
-        print('duplicates checked took {:.1f}s'.format(time.process_time()-start_time))
+                    print(f' {name} - {other_name} is similar')
+        print(f'duplicates checked took {time.process_time() - start_time:.1f}s')
 
     def check_for_orphans(self):
         """
@@ -67,7 +67,7 @@ class InspirationMaintainer:
             return
         for inspiration in self.inspirations.values():
             if not inspiration['Inspired entries']:
-                print(' {} has no inspired entries'.format(inspiration['Name']))
+                print(f" {inspiration['Name']} has no inspired entries")
         print('orphanes checked')
 
     def check_for_missing_inspirations_in_entries(self):
@@ -89,11 +89,11 @@ class InspirationMaintainer:
                 x = [x for x in self.entries if x['Title'] == entry_name]
                 assert len(x) <= 1, f'{len(x)} entries found for inspiration "{inspiration_name}" with listed inspired entry "{entry_name}", expect exactly one.'
                 if not x:
-                    print('Entry "{}" listed in inspiration "{}" but this entry does not exist'.format(entry_name, inspiration_name))
+                    print(f'Entry "{entry_name}" listed in inspiration "{inspiration_name}" but this entry does not exist')
                 else:
                     entry = x[0]
                     if 'Inspiration' not in entry or inspiration_name not in entry['Inspiration']:
-                        print('Entry "{}" listed in inspiration "{}" but not listed in this entry'.format(entry_name, inspiration_name))
+                        print(f'Entry "{entry_name}" listed in inspiration "{inspiration_name}" but not listed in this entry')
         print('missed inspirations in entries checked')
 
     def check_for_wikipedia_links(self):
@@ -132,7 +132,7 @@ class InspirationMaintainer:
             if pages:
                 url = pages[0].url
                 inspiration['Media'] = inspiration.get('Media', []) + [url]
-                print('{} : {}'.format(name, url))
+                print(f'{name} : {url}')
         print('finished checking for Wikipedia links')
 
     def update_included_entries(self):
@@ -153,13 +153,13 @@ class InspirationMaintainer:
             included = name in entry_names and name not in inspiration['Inspired entries']
             if included:
                 if 'Included' not in inspiration:
-                    print('{} is included but was not marked as such'.format(name))
+                    print(f'{name} is included but was not marked as such')
                 for field in c.optional_inspiration_fields:
                     if field in inspiration:
                         del inspiration[field]
                 inspiration['Included'] = 'Yes'
             elif 'Included' in inspiration:
-                print('{} was marked as included but is not anymore'.format(name))
+                print(f'{name} was marked as included but is not anymore')
                 del inspiration['Included']
         print('entries also acting as inspirations (included entries) updated')
 
@@ -191,7 +191,7 @@ class InspirationMaintainer:
         Reads entries.
         """
         self.entries = osg.read_entries()
-        print('{} entries read'.format(len(self.entries)))
+        print(f'{len(self.entries)} entries read')
 
 
 if __name__ == "__main__":

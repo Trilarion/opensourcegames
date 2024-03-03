@@ -40,9 +40,9 @@ if __name__ == "__main__":
         for existing_name in existing_names:
             s = similarity(test_name.lower(), existing_name.lower())
             if s > similarity_threshold:
-                matches.append('{} ({:.2f})'.format(existing_name, s))
+                matches.append(f'{existing_name} ({s:.2f})')
         # were matches found
         if matches:
-            print('{} maybe included in {}'.format(test_name, ', '.join(matches)))
+            print(f"{test_name} maybe included in {', '.join(matches)}")
         else:
-            print('{} not included'.format(test_name))
+            print(f'{test_name} not included')

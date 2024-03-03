@@ -124,7 +124,7 @@ def special_treatment(destination, revision):
         folder = destination / 'EmpireOfSteam'
         if folder.is_dir():
             # move to empire path
-            empire = empire_path / 'r{:04d}'.format(revision)
+            empire = empire_path / f'r{revision:04d}'
             shutil.move(folder, empire)
 
     # holy editor cleanup
@@ -232,10 +232,10 @@ def checkout(revision_start, revision_end=None):
             print('not enough free disc space, will exit')
             sys.exit(-1)
 
-        print('checking out revision {}'.format(revision))
+        print(f'checking out revision {revision}')
 
         # create destination directory
-        destination = svn_checkout_path / 'r{:04d}'.format(revision)
+        destination = svn_checkout_path / f'r{revision:04d}'
         if destination.exists():
             shutil.rmtree(destination)
 
@@ -244,14 +244,14 @@ def checkout(revision_start, revision_end=None):
         # sometimes checkout fails for reasons like "svn: E000024: Can't open file '/svn/p/lechemindeladam/code/db/revs/1865': Too many open files", we try again and again in these cases
         while True:
             try:
-                subprocess_run(['svn', 'export', '-r{}'.format(revision), svn_url, destination])
+                subprocess_run(['svn', 'export', f'-r{revision}', svn_url, destination])
                 break
             except:
                 print('problem with export, will try again')
                 if destination.is_dir():
                     shutil.rmtree(destination)
 
-        print('checkout took {:.1f}s'.format(time.time() - start_time))
+        print(f'checkout took {time.time() - start_time:.1f}s')
 
 
 def fix_revision(revision_start, revision_end=None):
@@ -266,12 +266,12 @@ def fix_revision(revision_start, revision_end=None):
     sizes = {}
 
     for revision in range(revision_start, revision_end + 1):
-        print('fixing revision {}'.format(revision))
+        print(f'fixing revision {revision}')
 
         # destination directory
-        destination = svn_checkout_path / 'r{:04d}'.format(revision)
+        destination = svn_checkout_path / f'r{revision:04d}'
         if not destination.exists():
-            raise RuntimeError('cannot fix revision {}, directory does not exist'.format(revision))
+            raise RuntimeError(f'cannot fix revision {revision}, directory does not exist')
 
         # special treatment
         special_treatment(destination, revision)
@@ -326,12 +326,12 @@ def read_logs():
     os.chdir(svn_checkout_path)
     start_time = time.time()
     log = subprocess_run(['svn', 'log', svn_url], display=False)
-    print('read log took {:.1f}s'.format(time.time() - start_time))
+    print(f'read log took {time.time() - start_time:.1f}s')
     # process log
     log = log.split('\r\n------------------------------------------------------------------------\r\n')
     # not the last one
     log = log[:-2]
-    print('{} log entries'.format(len(log)))
+    print(f'{len(log)} log entries')
 
     # process log entries
     log = [x.split('\r\n') for x in log]
@@ -363,12 +363,12 @@ def gitify(revision_start, revision_end):
     assert revision_end >= revision_start
 
     for revision in range(revision_start, revision_end + 1):
-        print('adding revision {} to git'.format(revision))
+        print(f'adding revision {revision} to git')
 
         # svn folder
-        svn_folder = svn_checkout_path / 'r{:04d}'.format(revision)
+        svn_folder = svn_checkout_path / f'r{revision:04d}'
         if not svn_folder.exists():
-            raise RuntimeError('cannot add revision {}, directory does not exist'.format(revision))
+            raise RuntimeError(f'cannot add revision {revision}, directory does not exist')
 
         # clear git path
         print('git clear path')
@@ -394,19 +394,19 @@ def gitify(revision_start, revision_end):
         # check if there is something to commit
         status = subprocess_run(['git', 'status', '--porcelain'])
         if not status:
-            print(' nothing to commit for revision {}, will skip'.format(revision))
+            print(f' nothing to commit for revision {revision}, will skip')
             continue
 
         # perform the commit
         print('git commit')
         log = logs[revision]  # revision, author, date, message
-        message = log[3] + '\r\nsvn-revision: {}'.format(revision)
-        print('  message "{}"'.format(message))
+        message = log[3] + f'\r\nsvn-revision: {revision}'
+        print(f'  message "{message}"')
         author = authors[log[1]]
         author = '{} <{}>'.format(*author)
-        cmd = ['git', 'commit', '--allow-empty-message', '--message={}'.format(message), '--author={}'.format(author),
-               '--date={}'.format(log[2])]
-        print('  cmd: {}'.format(' '.join(cmd)))
+        cmd = ['git', 'commit', '--allow-empty-message', f'--message={message}', f'--author={author}',
+               f'--date={log[2]}']
+        print(f"  cmd: {' '.join(cmd)}")
         subprocess_run(cmd)
 
 
@@ -418,7 +418,7 @@ if __name__ == "__main__":
 
     # base path is the directory containing this file
     base_path = pathlib.Path(__file__) / 'conversion'
-    print('base path={}'.format(base_path))
+    print(f'base path={base_path}')
 
     # derived paths
     svn_checkout_path = base_path / 'svn'

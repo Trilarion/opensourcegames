@@ -65,24 +65,24 @@ def read_developers():
     duplicate_names = (name for name in names if names.count(name) > 1)
     duplicate_names = set(duplicate_names)  # to avoid duplicates in duplicate_names
     if duplicate_names:
-        print('Warning: duplicate developer names: {}'.format(', '.join(duplicate_names)))
+        print(f"Warning: duplicate developer names: {', '.join(duplicate_names)}")
 
     # check for essential, valid fields
     for dev in developers:
         # check that essential fields are existing
         for field in c.essential_developer_fields:
             if field not in dev:
-                raise RuntimeError('Essential field "{}" missing in developer {}'.format(field, dev['Name']))
+                raise RuntimeError(f"Essential field \"{field}\" missing in developer {dev['Name']}")
         # check that all fields are valid fields
         for field in dev.keys():
             if field not in c.valid_developer_fields:
-                raise RuntimeError('Invalid field "{}" in developer {}.'.format(field, dev['Name']))
+                raise RuntimeError(f"Invalid field \"{field}\" in developer {dev['Name']}.")
         # url fields
         for field in c.url_developer_fields:
             if field in dev:
                 content = dev[field]
                 if any(not (x.startswith('http://') or x.startswith('https://')) for x in content):
-                    raise RuntimeError('Invalid URL in field "{}" in developer {}.'.format(field, dev['Name']))
+                    raise RuntimeError(f"Invalid URL in field \"{field}\" in developer {dev['Name']}.")
 
     # convert to dictionary
     developers = {x['Name']: x for x in developers}
@@ -99,10 +99,10 @@ def write_developers(developers):
     developers = list(developers.values())
 
     # comment
-    content = '{}\n'.format(c.generic_comment_string)
+    content = f'{c.generic_comment_string}\n'
 
     # number of developer
-    content += '# Developer [{}]\n\n'.format(len(developers))
+    content += f'# Developer [{len(developers)}]\n\n'
 
     # sort by name
     developers.sort(key=lambda x: str.casefold(x['Name']))
@@ -111,7 +111,7 @@ def write_developers(developers):
     for dev in developers:
         keys = list(dev.keys())
         # developer name
-        content += '## {} [{}]\n\n'.format(dev['Name'], len(dev['Games']))
+        content += f"## {dev['Name']} [{len(dev['Games'])}]\n\n"
         keys.remove('Name')
 
         # all the remaining in alphabetical order, but 'games' first
@@ -127,9 +127,9 @@ def write_developers(developers):
                 # sort
                 value.sort(key=str.casefold)
                 # surround those with a comma with quotation marks
-                value = [x if not ',' in x else '"{}"'.format(x) for x in value]
+                value = [x if not ',' in x else f'"{x}"' for x in value]
                 value = ', '.join(value)
-            content += '- {}: {}\n'.format(field, value)
+            content += f'- {field}: {value}\n'
         content += '\n'
 
     # write
@@ -155,24 +155,24 @@ def read_inspirations():
     duplicate_names = (name for name in names if names.count(name) > 1)
     duplicate_names = set(duplicate_names)  # to avoid duplicates in duplicate_names
     if duplicate_names:
-        raise RuntimeError('Duplicate inspiration names: {}'.format(', '.join(duplicate_names)))
+        raise RuntimeError(f"Duplicate inspiration names: {', '.join(duplicate_names)}")
 
     # check for essential, valid fields
     for inspiration in inspirations:
         # check that essential fields are existing
         for field in c.essential_inspiration_fields:
             if field not in inspiration:
-                raise RuntimeError('Essential field "{}" missing in inspiration {}'.format(field, inspiration['Name']))
+                raise RuntimeError(f"Essential field \"{field}\" missing in inspiration {inspiration['Name']}")
         # check that all fields are valid fields
         for field in inspiration.keys():
             if field not in c.valid_inspiration_fields:
-                raise RuntimeError('Invalid field "{}" in inspiration {}.'.format(field, inspiration['Name']))
+                raise RuntimeError(f"Invalid field \"{field}\" in inspiration {inspiration['Name']}.")
         # url fields
         for field in c.url_inspiration_fields:
             if field in inspiration:
                 content = inspiration[field]
                 if any(not (x.startswith('http://') or x.startswith('https://')) for x in content):
-                    raise RuntimeError('Invalid URL in field "{}" in inspiration {}.'.format(field, inspiration['Name']))
+                    raise RuntimeError(f"Invalid URL in field \"{field}\" in inspiration {inspiration['Name']}.")
 
     # convert to dictionary
     inspirations = {x['Name']: x for x in inspirations}
@@ -190,10 +190,10 @@ def write_inspirations(inspirations):
     inspirations = list(inspirations.values())
 
     # comment
-    content = '{}\n'.format(c.generic_comment_string)
+    content = f'{c.generic_comment_string}\n'
 
     # updated number of inspirations
-    content += '# Inspirations [{}]\n\n'.format(len(inspirations))
+    content += f'# Inspirations [{len(inspirations)}]\n\n'
 
     # sort by name
     inspirations.sort(key=lambda x: str.casefold(x['Name']))
@@ -202,7 +202,7 @@ def write_inspirations(inspirations):
     for inspiration in inspirations:
         keys = list(inspiration.keys())
         # inspiration name
-        content += '## {} [{}]\n\n'.format(inspiration['Name'], len(inspiration['Inspired entries']))
+        content += f"## {inspiration['Name']} [{len(inspiration['Inspired entries'])}]\n\n"
         keys.remove('Name')
 
         # all the remaining in alphabetical order, but "inspired entries" first
@@ -214,9 +214,9 @@ def write_inspirations(inspirations):
             # lists get special treatment
             if isinstance(value, list):
                 value.sort(key=str.casefold)  # sorted alphabetically
-                value = [x if not ',' in x else '"{}"'.format(x) for x in value]  # surround those with a comma with quotation marks
+                value = [x if not ',' in x else f'"{x}"' for x in value]  # surround those with a comma with quotation marks
                 value = ', '.join(value)
-            content += '- {}: {}\n'.format(field, value)
+            content += f'- {field}: {value}\n'
         content += '\n'
 
     # write
@@ -249,7 +249,7 @@ def read_entries():
             entry = [('File', file),] + entry # add file information to the beginning
             entry = check_and_process_entry(entry)
         except Exception as e:
-            print('{} - {}'.format(file, e))
+            print(f'{file} - {e}')
             exception_happened = e # just store last one
             continue
 
@@ -285,7 +285,7 @@ def read_entry(file):
         entry = [('File', file),] + entry # add file information to the beginning
         entry = check_and_process_entry(entry)
     except Exception as e:
-        print('{} - {}'.format(file, e))
+        print(f'{file} - {e}')
         raise RuntimeError(e)
 
     return entry
@@ -306,34 +306,34 @@ def check_and_process_entry(entry):
         while index < len(c.valid_fields) and field != c.valid_fields[index]:
             index += 1
         if index == len(c.valid_fields):  # must be valid fields and must be in the right order
-            message += 'Field "{}" either misspelled or in wrong order\n'.format(field)
+            message += f'Field "{field}" either misspelled or in wrong order\n'
 
     # order is fine we can convert now to dictionary
     d = {}
     for field, value in entry:
         if field in d:
-            message += 'Field "{}" appears twice\n'.format(field)
+            message += f'Field "{field}" appears twice\n'
         d[field] = value
     entry = d
 
     # check for essential fields
     for field in c.essential_fields:
         if field not in entry:
-            message += 'Essential property "{}" missing\n'.format(field)
+            message += f'Essential property "{field}" missing\n'
 
     # now the same treatment for building
     building = entry['Building']
     d = {}
     for field, value in building:
         if field in d:
-            message += 'Field "{}" appears twice\n'.format(field)
+            message += f'Field "{field}" appears twice\n'
         d[field] = value
     building = d
 
     # check valid fields in building TODO should also check order
     for field in building.keys():
         if field not in c.valid_building_fields:
-            message += 'Building field "{}" invalid\n'.format(field)
+            message += f'Building field "{field}" invalid\n'
     entry['Building'] = building
 
     # check canonical file name
@@ -341,20 +341,20 @@ def check_and_process_entry(entry):
     canonical_file_name = canonical_name(entry['Title']) + '.md'
     # we also allow -X with X =2..9 as possible extension (because of duplicate canonical file names)
     if canonical_file_name != file.name and canonical_file_name != file.name[:-5] + '.md':
-        message += 'File name should be {}\n'.format(canonical_file_name)
+        message += f'File name should be {canonical_file_name}\n'
 
     # check that fields without comments have no comments (i.e. are no Values)
     for field in c.fields_without_comments:
         if field in entry:
             content = entry[field]
             if any(isinstance(item, osg_parse.Value) for item in content):
-                message += 'field without comments {} has comment\n'.format(field)
+                message += f'field without comments {field} has comment\n'
 
     # state must contain either beta or mature but not both
     state = entry['State']
     for t in state:
         if t != 'beta' and t != 'mature' and not t.startswith('inactive since '):
-            message += 'Unknown state "{}"'.format(t)
+            message += f'Unknown state "{t}"'
     if 'beta' in state == 'mature' in state:
         message += 'State must be one of <"beta", "mature">'
 
@@ -365,7 +365,7 @@ def check_and_process_entry(entry):
             if value.startswith('<') and value.endswith('>'):
                 value = value[1:-1]
             if not any(value.startswith(x) for x in c.valid_url_prefixes):
-                message += 'URL "{}" in field "{}" does not start with a valid prefix'.format(value, field)
+                message += f'URL "{value}" in field "{field}" does not start with a valid prefix'
 
     # github/gitlab repositories should end on .git and should start with https
     for repo in entry.get('Code repository', []):
@@ -374,9 +374,9 @@ def check_and_process_entry(entry):
         repo = repo.split(' ')[0].strip()
         if any((x in repo for x in ('github', 'gitlab', 'git.tuxfamily', 'git.savannah'))):
                 if not repo.startswith('https://'):
-                    message += 'Repo "{}" should start with https://'.format(repo)
+                    message += f'Repo "{repo}" should start with https://'
                 if not repo.endswith('.git'):
-                    message += 'Repo "{}" should end on .git.'.format(repo)
+                    message += f'Repo "{repo}" should end on .git.'
 
     # check that all platform tags are valid tags and are existing in that order
     if 'Platform' in entry:
@@ -385,7 +385,7 @@ def check_and_process_entry(entry):
             while index < len(c.valid_platforms) and platform != c.valid_platforms[index]:
                 index += 1
             if index == len(c.valid_platforms):  # must be valid platforms and must be in that order
-                message += 'Platform tag "{}" either misspelled or in wrong order'.format(platform)
+                message += f'Platform tag "{platform}" either misspelled or in wrong order'
 
     # there must be at least one keyword
     if not entry['Keyword']:
@@ -400,13 +400,13 @@ def check_and_process_entry(entry):
     languages = entry['Code language']
     for language in languages:
         if language not in c.known_languages:
-            message += 'Language "{}" is not a known code language. Misspelled or new?'.format(language)
+            message += f'Language "{language}" is not a known code language. Misspelled or new?'
 
     # licenses should be known
     licenses = entry['Code license']
     for license in licenses:
         if license not in c.known_licenses:
-            message += 'License "{}" is not a known license. Misspelled or new?'.format(license)
+            message += f'License "{license}" is not a known license. Misspelled or new?'
 
     if message:
         raise RuntimeError(message)
@@ -473,9 +473,9 @@ def render_value(value):
     else:
         comment = None
     if any(x in value for x in (',', ' (')):
-        value = '"{}"'.format(value)
+        value = f'"{value}"'
     if comment:
-        return '{} ({})'.format(value, comment)
+        return f'{value} ({comment})'
     else:
         return value
 
@@ -490,7 +490,7 @@ def create_entry_content(entry):
     """
 
     # title
-    content = '# {}\n\n'.format(entry['Title'])
+    content = f"# {entry['Title']}\n\n"
 
     # we automatically sort some fields
     sort_fun = lambda x: str.casefold(x)
@@ -510,7 +510,7 @@ def create_entry_content(entry):
             e = entry[field]
             e = [render_value(x) for x in e]
             e = list(dict.fromkeys(e))  # this removes duplicates while keeping the sorting order
-            content += '- {}: {}\n'.format(field, ', '.join(e))
+            content += f"- {field}: {', '.join(e)}\n"
     content += '\n'
 
     # if there is a note, insert it
@@ -530,7 +530,7 @@ def create_entry_content(entry):
             e = entry['Building'][field]
             e = [render_value(x) for x in e]
             e = list(dict.fromkeys(e))  # this removes duplicates while keeping the sorting order
-            content += '- {}: {}\n'.format(field, ', '.join(e))
+            content += f"- {field}: {', '.join(e)}\n"
 
     # if there is a note, insert it
     if 'Note' in entry['Building']:
@@ -665,13 +665,13 @@ def write_screenshots_overview(overview):
     # write out each entry sorted by name
     for name in sorted(overview.keys()):
         a = overview[name]
-        t = '# {}\n\n'.format(name)
+        t = f'# {name}\n\n'
         # write out each line sorted by id
         for id in sorted(a.keys()):
             ai = a[id]
             if ai[-1] is None:
                 ai = ai[:-1]
-            t += ' '.join(['{:02d}'.format(id)] + [str(x) for x in ai]) + '\n'
+            t += ' '.join([f'{id:02d}'] + [str(x) for x in ai]) + '\n'
         t += '\n'
         text += t
 

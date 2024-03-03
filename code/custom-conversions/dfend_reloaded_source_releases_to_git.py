@@ -14,11 +14,11 @@ def subprocess_run(cmd):
     """
     result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     if result.returncode:
-        print("error {} in call {}".format(result.returncode, cmd))
+        print(f"error {result.returncode} in call {cmd}")
         print(result.stderr.decode('ascii'))
         sys.exit(-1)
     else:
-        print('  output: {}'.format(result.stdout.decode('ascii')))
+        print(f"  output: {result.stdout.decode('ascii')}")
 
 def single_release(zip):
     """
@@ -28,8 +28,8 @@ def single_release(zip):
     # get version
     matches = version_regex.findall(zip)
     version = matches[0]
-    print(' version {}'.format(version))
-    ftp_link = 'https://sourceforge.net/projects/dfendreloaded/files/D-Fend%20Reloaded/D-Fend%20Reloaded%20{}/'.format(version)
+    print(f' version {version}')
+    ftp_link = f'https://sourceforge.net/projects/dfendreloaded/files/D-Fend%20Reloaded/D-Fend%20Reloaded%20{version}/'
 
     # clear git path without deleting '.git'
     for item in git_path.iterdir():
@@ -61,7 +61,7 @@ def single_release(zip):
                 # print('{}, {}'.format(filepath, datetime.datetime.fromtimestamp(latest_last_modified).strftime('%Y-%m-%d')))
 
     original_date = datetime.datetime.fromtimestamp(latest_last_modified).strftime('%Y-%m-%d')
-    print(' last modified: {}'.format(original_date))
+    print(f' last modified: {original_date}')
 
     # update the git index (add unstaged, remove deleted, ...)
     print('git add')
@@ -71,9 +71,9 @@ def single_release(zip):
     # perform the commit
     print('git commit')
     os.chdir(git_path)
-    message = 'version {} from {} ({})'.format(version, original_date, ftp_link)
-    print('  message "{}"'.format(message))
-    subprocess_run(['git', 'commit', '--message={}'.format(message), '--author={}'.format(author), '--date={}'.format(original_date)])
+    message = f'version {version} from {original_date} ({ftp_link})'
+    print(f'  message "{message}"')
+    subprocess_run(['git', 'commit', f'--message={message}', f'--author={author}', f'--date={original_date}'])
 
 
 if __name__ == "__main__":
@@ -94,10 +94,10 @@ if __name__ == "__main__":
     # get all files in the source releases path and sort them
     zips = source_releases_path.iterdir()
     zips = [file for file in zips if os.path.isfile(source_releases_path / file)]
-    print('found {} source releases'.format(len(zips)))
+    print(f'found {len(zips)} source releases')
     zips.sort()
 
     # iterate over them and do revisions
     for counter, zip in enumerate(zips):
-        print('{}/{}'.format(counter, len(zips)))
+        print(f'{counter}/{len(zips)}')
         single_release(zip)

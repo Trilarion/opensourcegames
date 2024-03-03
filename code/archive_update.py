@@ -72,7 +72,7 @@ def hg_update(folder):
 def run_update(type, urls, type_folder=None):
     if type_folder is None:
         type_folder = type
-    print('update {} {} archives'.format(len(urls), type))
+    print(f'update {len(urls)} {type} archives')
     base_folder = archive_folder / type_folder
     if not base_folder.exists():
         base_folder.mkdir()
@@ -86,7 +86,7 @@ def run_update(type, urls, type_folder=None):
     # find those folders not used anymore
     existing_folders = [x for x in base_folder.iterdir() if (base_folder / x).is_dir()]
     unused_folders = [x for x in existing_folders if x not in folders]
-    print('{} unused archives, move to unused folder'.format(len(unused_folders)))
+    print(f'{len(unused_folders)} unused archives, move to unused folder')
     for folder in unused_folders:
         origin = base_folder / folder
         destination = unused_base_folder / folder
@@ -95,14 +95,14 @@ def run_update(type, urls, type_folder=None):
 
     # new folder, need to clone
     new_folders = [x for x in folders if x not in existing_folders]
-    print('{} new archives, will clone'.format(len(new_folders)))
+    print(f'{len(new_folders)} new archives, will clone')
 
     # add root to folders
     folders = [base_folder / x for x in folders]
     os.chdir(base_folder)
     for folder, url in zip(folders, urls):
         if not folder.is_dir():
-            print('clone {} into {}'.format(url, folder.relative_to(base_folder)))
+            print(f'clone {url} into {folder.relative_to(base_folder)}')
             try:
                 clone[type](url, folder)
             except RuntimeError as e:
@@ -110,7 +110,7 @@ def run_update(type, urls, type_folder=None):
 
     # at the end update them all
     for folder in folders:
-        print('update {}'.format(os.path.basename(folder)))
+        print(f'update {os.path.basename(folder)}')
         if not folder.is_dir():
             print('folder not existing, wanted to update, will skip')
             continue
@@ -122,7 +122,7 @@ def run_update(type, urls, type_folder=None):
 
 
 def run_info(type, urls):
-    print('collect info on {}'.format(type))
+    print(f'collect info on {type}')
 
     # get derived folder names
     folders = [type / folder_name[type](url) for url in urls]

@@ -27,7 +27,7 @@ if __name__ == "__main__":
     # iterate over all new info
     for entry in info:
         name = entry[0]
-        print('work on {}'.format(name))
+        print(f'work on {name}')
         url = entry[1]
 
         # is contained?
@@ -62,7 +62,7 @@ if __name__ == "__main__":
                     url = '!' + url
                 our_screenshots[idx] = [target_width, target_height, url]
                 # store
-                outfile = c.screenshots_path +'2' / '{}_{:02d}.jpg'.format(name, idx)
+                outfile = c.screenshots_path +'2' / f'{name}_{idx:02d}.jpg'
                 im_resized.save(outfile)
         if our_screenshots:
             screenshots[name] = our_screenshots

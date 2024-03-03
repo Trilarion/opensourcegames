@@ -3,7 +3,6 @@ Central place to calculate statistics about the entries. Used for updating the s
 of the website.
 """
 
-import pathlib
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -71,7 +70,7 @@ def export_pie_chart(stat, file):
     ax.pie(sizes, labels=labels, autopct='%1.1f%%', pctdistance=0.8, shadow=True, labeldistance=1.2, normalize=True)
 
     # create output directory if necessary
-    containing_dir = os.path.dirname(file)
+    containing_dir = file.parent
     if not containing_dir.is_dir():
         containing_dir.mkdir()
 
@@ -95,7 +94,7 @@ def export_bar_chart(stat, file, aspect_ratio = 1, tick_label_rotation=0):
     plt.xticks(rotation=tick_label_rotation)
 
     # create output directory if necessary
-    containing_dir = os.path.dirname(file)
+    containing_dir = file.parent
     if not containing_dir.is_dir():
         containing_dir.mkdir()
 

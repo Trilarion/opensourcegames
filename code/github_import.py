@@ -49,7 +49,7 @@ def collect_github_entries():
 
     # read entries
     entries = osg.read_entries()
-    print('{} entries read'.format(len(entries)))
+    print(f'{len(entries)} entries read')
 
     # loop over entries
     files = []
@@ -59,7 +59,7 @@ def collect_github_entries():
             files.append(entry['File'])
 
     # write to file
-    print('{} entries with github repos'.format(len(files)))
+    print(f'{len(files)} entries with github repos')
     utils.write_text(gh_entries_file, json.dumps(files, indent=1))
 
 
@@ -76,12 +76,12 @@ def github_import():
 
 
     all_developers = osg.read_developers()
-    print(' {} developers read'.format(len(all_developers)))
+    print(f' {len(all_developers)} developers read')
 
     # loop over each entry
     for index, file in enumerate(files):
         try:
-            print(' process {} ({})'.format(file, index))
+            print(f' process {file} ({index})')
 
             # read entry
             entry = osg.read_entry(file)
@@ -92,7 +92,7 @@ def github_import():
             repos = [x.split(' ')[0] for x in repos]
             repos = [x for x in repos if x not in ignored_repos]
             for repo in repos:
-                print('  GH repo {}'.format(repo))
+                print(f'  GH repo {repo}')
                 token = os.environ["GITHUB_TOKEN"]
                 if not token:
                     private_properties = json.loads(utils.read_text(c.private_properties_file))
@@ -112,13 +112,13 @@ def github_import():
                 # TODO check for repos that aren't archived anymore but are marked as such
 
                 # add created comment
-                new_comments.append('@created {}'.format(info['created'].year))
+                new_comments.append(f"@created {info['created'].year}")
 
                 # add stars
-                new_comments.append('@stars {}'.format(info['stars']))
+                new_comments.append(f"@stars {info['stars']}")
 
                 # add forks
-                new_comments.append('@forks {}'.format(info['forks']))
+                new_comments.append(f"@forks {info['forks']}")
 
                 # update comment
                 for r in code_repositories:
@@ -141,7 +141,7 @@ def github_import():
                 language = language_aliases.get(language, language)
                 if language and language not in entry['Code language'] and language not in ignored_languages:
                     entry['Code language'].append(language)
-                    print('  added to languages: {}'.format(language))
+                    print(f'  added to languages: {language}')
 
                 # contributors
                 for contributor in info['contributors']:
@@ -155,7 +155,7 @@ def github_import():
                         name = contributor.login
                     name = name_aliases.get(name, name)
                     name = name.strip()  # sometimes they have trailing spaces (for whatever reason)
-                    nickname = '{}@GH'.format(contributor.login)
+                    nickname = f'{contributor.login}@GH'
                     blog = contributor.blog
                     if blog:
                         blog = blog_alias[blog] if blog in blog_alias else blog
@@ -166,14 +166,14 @@ def github_import():
 
                     # look up author in entry developers
                     if name not in entry.get('Developer', []):
-                        print('   dev "{}" added to entry {}'.format(name, file))
+                        print(f'   dev "{name}" added to entry {file}')
                         entry['Developer'] = entry.get('Developer', []) + [name]
 
                     # look up author in developers database
                     if name in all_developers:
                         dev = all_developers[name]
                         if not nickname in dev.get('Contact', []):
-                            print(' existing dev "{}" added nickname ({}) to developer database'.format(name, nickname))
+                            print(f' existing dev "{name}" added nickname ({nickname}) to developer database')
                             # check that name has not already @GH contact
                             if any(x.endswith('@GH') for x in dev.get('Contact', [])):
                                 print('warning: already GH contact')
@@ -183,7 +183,7 @@ def github_import():
                         if entry['Title'] not in dev['Games']:
                             dev['Games'].append(entry['Title'])
                     else:
-                        print('   dev "{}" ({}) added to developer database'.format(name, nickname))
+                        print(f'   dev "{name}" ({nickname}) added to developer database')
                         all_developers[name] = {'Name': name, 'Contact': [nickname], 'Games': [entry['Title']]}
                         if blog:
                             all_developers[name]['Home'] = [blog]
@@ -224,7 +224,7 @@ def github_starring_synchronization():
         repos = [x for x in repos if x not in ignored_repos]
         all_repos.extend(repos)
     all_repos = set(all_repos)
-    print('found {} Github repos'.format(len(all_repos)))
+    print(f'found {len(all_repos)} Github repos')
 
     # get my GitHub user
     user = osg_github.get_user(private_properties['github-name'], token=private_properties['github-token'])
@@ -233,11 +233,11 @@ def github_starring_synchronization():
     starred = user.get_starred()
     starred = [repo.clone_url for repo in starred]
     starred = set(starred)
-    print('starred {} Github repos'.format(len(starred)))
+    print(f'starred {len(starred)} Github repos')
 
     # and now the difference
     unstarred = all_repos - starred
-    print('not yet starred {} repos'.format(len(unstarred)))
+    print(f'not yet starred {len(unstarred)} repos')
     print('\n'.join(unstarred))
 
 

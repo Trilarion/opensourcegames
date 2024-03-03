@@ -3,6 +3,7 @@ Utilities for the tools. Only depending on standard Python or third party module
 """
 
 import os
+import pathlib
 import shutil
 import subprocess
 import tarfile
@@ -154,12 +155,12 @@ def subprocess_run(cmd, display=True, shell=False, env={}):
     result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=shell, env=dict(os.environ, **env))  # TODO use the cwd argument as in https://stackoverflow.com/questions/1685157/how-can-i-specify-working-directory-for-a-subprocess/1685166#1685166
     if result.returncode:
         if display:
-            print("error {} in call {}".format(result.returncode, cmd))
+            print(f"error {result.returncode} in call {cmd}")
             print(result.stdout.decode('cp1252'))
             print(result.stderr.decode('cp1252'))
         raise RuntimeError()
     if display:
-        print('  output: {}'.format(result.stdout.decode('cp1252')))
+        print(f"  output: {result.stdout.decode('cp1252')}")
     return result.stdout.decode('cp1252')
 
 
@@ -171,13 +172,13 @@ def copy_tree(source, destination):
     """
     # this gave an FileNotFoundError: [Errno 2] No such file or directory: '' on Windows
     # distutils.dir_util.copy_tree(archive_path, git_path)
-    destination.mkdir(parent=True, exist_ok=True)
-    for dirpath, dirnames, filenames in os.walk(source):
+    destination.mkdir(parents=True, exist_ok=True)
+    for dirpath, dirnames, filenames in os.walk(source):  # TODO replace os.walk with path.walk (Python 3.12)
         # first create all the directory on destination
         for directory in (destination / os.path.relpath(os.path.join(dirpath, x, source)) for x in dirnames):
-            directory.mkdir(parent=True, exist_ok=True)
+            directory.mkdir(parents=True, exist_ok=True)
         # second copy all the files
-        for source_file in (dirpath / x for x in filenames):
+        for source_file in (pathlib.Path(dirpath) / x for x in filenames):
             destination_file = destination / os.path.relpath(source_file, source)
             shutil.copyfile(source_file, destination_file)
 
@@ -306,5 +307,5 @@ def unique_elements_and_occurrences(elements):
             print(e)
     unique_elements = list(unique_elements.items())
     unique_elements.sort(key=lambda x: -x[1])
-    unique_elements = ['{}({})'.format(k, v) for k, v in unique_elements]
+    unique_elements = [f'{k}({v})' for k, v in unique_elements]
     return unique_elements

@@ -23,14 +23,14 @@ class DevelopersMaintainer:
 
     def read_developer(self):
         self.developers = osg.read_developers()
-        print('{} developers read'.format(len(self.developers)))
+        print(f'{len(self.developers)} developers read')
 
     def write_developer(self):
         if not self.developers:
             print('developers not yet loaded')
             return
         osg.write_developers(self.developers)
-        print('{} developers written'.format(len(self.developers)))
+        print(f'{len(self.developers)} developers written')
 
     def check_for_duplicates(self):
         if not self.developers:
@@ -41,8 +41,8 @@ class DevelopersMaintainer:
         for index, name in enumerate(developer_names):
             for other_name in developer_names[index + 1:]:
                 if osg.name_similarity(str.casefold(name), str.casefold(other_name)) > 0.85:
-                    print(' {} - {} is similar'.format(name, other_name))
-        print('duplicates checked (took {:.1f}s)'.format(time.process_time()-start_time))
+                    print(f' {name} - {other_name} is similar')
+        print(f'duplicates checked (took {time.process_time() - start_time:.1f}s)')
 
     def check_for_orphans(self):
         """
@@ -53,7 +53,7 @@ class DevelopersMaintainer:
             return
         for dev in self.developers.values():
             if not dev['Games']:
-                print(' {} has no games'.format(dev['Name']))
+                print(f" {dev['Name']} has no games")
         print('orphans checked')
 
     def remove_orphans(self):
@@ -64,7 +64,7 @@ class DevelopersMaintainer:
             print('developers not yet loaded')
             return
         self.developers = {k: v for k,v in self.developers.items() if v['Games']}
-        print('orphans removed ({} devs left)'.format(len(self.developers)))
+        print(f'orphans removed ({len(self.developers)} devs left)')
         
     def check_for_missing_developers_in_entries(self):
         if not self.developers:
@@ -79,11 +79,11 @@ class DevelopersMaintainer:
                 x = [x for x in self.entries if x['Title'] == entry_name]
                 assert len(x) <= 1
                 if not x:
-                    print('Entry "{}" listed as game of developer "{}" but this entry does not exist'.format(entry_name, dev_name))
+                    print(f'Entry "{entry_name}" listed as game of developer "{dev_name}" but this entry does not exist')
                 else:
                     entry = x[0]
                     if 'Developer' not in entry or dev_name not in entry['Developer']:
-                        print('Entry "{}" listed in developer "{}" but not listed in that entry'.format(entry_name, dev_name))
+                        print(f'Entry "{entry_name}" listed in developer "{dev_name}" but not listed in that entry')
         print('missed developer checked')
 
     def update_developers_from_entries(self):
@@ -110,7 +110,7 @@ class DevelopersMaintainer:
 
     def read_entries(self):
         self.entries = osg.read_entries()
-        print('{} entries read'.format(len(self.entries)))
+        print(f'{len(self.entries)} entries read')
 
     def special_ops(self):
         # need entries loaded

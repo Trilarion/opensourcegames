@@ -36,7 +36,7 @@ def write_rejected_file(rejected):
     # sort by name
     rejected.sort(key=lambda x: str.casefold(x['Title']))
     # expand single items
-    rejected = ['{} ({}): {}'.format(item['Title'], ', '.join(item['URLs']), item['Description']) for item in rejected]
+    rejected = [f"{item['Title']} ({', '.join(item['URLs'])}): {item['Description']}" for item in rejected]
     # join with newlines
     rejected = '\n'.join(rejected)
     # write to file

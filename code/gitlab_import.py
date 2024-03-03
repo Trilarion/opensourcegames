@@ -20,7 +20,7 @@ def collect_gitlab_entries():
 
     # read entries
     entries = osg.read_entries()
-    print('{} entries read'.format(len(entries)))
+    print(f'{len(entries)} entries read')
 
     # loop over entries
     files = []
@@ -30,7 +30,7 @@ def collect_gitlab_entries():
             files.append(entry['File'])
 
     # write to file
-    print('{} entries with gitlab repos'.format(len(files)))
+    print(f'{len(files)} entries with gitlab repos')
     utils.write_text(gl_entries_file, json.dumps(files, indent=1))
 
 
@@ -43,13 +43,13 @@ def gitlab_import():
     files = json.loads(utils.read_text(gl_entries_file))
 
     all_developers = osg.read_developers()
-    print(' {} developers read'.format(len(all_developers)))
+    print(f' {len(all_developers)} developers read')
 
     # all exceptions that happen will be eaten (but will end the execution)
     try:
         # loop over each entry
         for index, file in enumerate(files):
-            print(' process {} ({})'.format(file, index))
+            print(f' process {file} ({index})')
 
             # read entry
             entry = osg.read_entry(file)
@@ -60,20 +60,20 @@ def gitlab_import():
             repos = [x.split(' ')[0] for x in repos]
             repos = [x for x in repos if x not in ignored_repos]
             for repo in repos:
-                print('  GH repo {}'.format(repo))
+                print(f'  GH repo {repo}')
 
                 info = osg_gitlab.retrieve_repo_info(repo)
 
                 new_comments = []
 
                 # add created comment
-                new_comments.append('@created {}'.format(info['created'].year))
+                new_comments.append(f"@created {info['created'].year}")
 
                 # add stars
-                new_comments.append('@stars {}'.format(info['stars']))
+                new_comments.append(f"@stars {info['stars']}")
 
                 # add forks
-                new_comments.append('@forks {}'.format(info['forks']))
+                new_comments.append(f"@forks {info['forks']}")
 
                 # search for repository
                 for r in code_repositories:
@@ -95,7 +95,7 @@ def gitlab_import():
                 for language, usage in info['languages'].items():
                     if language in c.known_languages and usage > 5 and language not in entry['Code language']:
                         entry['Code language'].append(language)
-                        print('  added to languages: {}'.format(language))
+                        print(f'  added to languages: {language}')
 
             entry['Code repository'] = code_repositories
             osg.write_entry(entry)
@@ -132,7 +132,7 @@ def gitlab_starring_synchronization():
         repos = [x for x in repos if x not in ignored_repos]
         all_repos.extend(repos)
     all_repos = set(all_repos)
-    print('found {} Gitlab repos'.format(len(all_repos)))
+    print(f'found {len(all_repos)} Gitlab repos')
 
 
 

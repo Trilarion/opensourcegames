@@ -1,8 +1,8 @@
 # Vertigo
 
-- Home: http://stjerneskud.info/vertigo/
+- Home: https://web.archive.org/web/20230924192552/http://stjerneskud.info/vertigo/
 - State: beta, inactive since 2002
-- Download: http://stjerneskud.info/vertigo/download.html
+- Download: https://web.archive.org/web/20230924192552/http://stjerneskud.info/vertigo/
 - Platform: Linux
 - Keyword: remake, simulation, flight
 - Code repository: https://gitlab.com/osgames/vertigo.git (import of sources, @created 2019, @stars 1, @forks 0)

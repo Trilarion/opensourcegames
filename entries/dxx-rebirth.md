@@ -3,7 +3,6 @@
 - Home: https://www.dxx-rebirth.com/
 - Inspiration: Descent, Descent II
 - State: mature
-- Download: https://www.dxx-rebirth.com/download-dxx-rebirth/
 - Platform: Windows, Linux
 - Keyword: remake, first-person, shooter
 - Code repository: https://github.com/dxx-rebirth/dxx-rebirth.git (@created 2013, @stars 362, @forks 90)

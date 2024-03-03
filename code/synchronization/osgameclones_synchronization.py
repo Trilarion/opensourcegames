@@ -37,7 +37,7 @@ video: not used
 # TODO also ignore our rejected entries
 
 import ruamel.yaml as yaml
-import os
+import pathlib
 import requests
 from io import BytesIO
 from PIL import Image
@@ -152,7 +152,7 @@ if __name__ == "__main__":
     download_missing_screenshots = False
 
     # paths
-    root_path = os.path.realpath(os.path.join(os.path.dirname(__file__), os.path.pardir, os.path.pardir))
+    root_path = os.path.realpath(os.path.dirname(__file__) / os.path.pardir, os.path.pardir)
 
     # read our database
     our_entries = osg.read_entries()
@@ -173,13 +173,13 @@ if __name__ == "__main__":
     # import osgameclones data
     osgc_path = os.path.realpath(os.path.join(root_path, os.path.pardir, '11_osgameclones.git',
                                               'games'))  # this is specific for my local constellation
-    osgc_files = os.listdir(osgc_path)
+    osgc_files = osgc_path.iterdir()
 
     # iterate over all yaml files in osgameclones/data folder and load contents
     osgc_entries = []
     for file in osgc_files:
         # read yaml
-        with open(os.path.join(osgc_path, file), 'r', encoding='utf-8') as stream:
+        with open(osgc_path / file, 'r', encoding='utf-8') as stream:
             try:
                 _ = yaml.safe_load(stream)
             except Exception as exc:
@@ -344,7 +344,7 @@ if __name__ == "__main__":
                             'https://user-images.githubusercontent')]) or width <= 320:
                                 image_url = '!' + image_url
                             our_screenshots[idx] = [target_width, target_height, image_url]
-                            outfile = os.path.join(c.screenshots_path, '{}_{:02d}.jpg'.format(our_file, idx));
+                            outfile = c.screenshots_path / '{}_{:02d}.jpg'.format(our_file, idx);
                             im_resized.save(outfile)
                     if our_screenshots:
                         screenshots[our_file] = our_screenshots
@@ -498,10 +498,10 @@ if __name__ == "__main__":
             # determine file name
             print('create new entry for {}'.format(osgc_name))
             file_name = osg.canonical_name(osgc_name) + '.md'
-            target_file = os.path.join(c.entries_path, file_name)
+            target_file = c.entries_path / file_name
             if os.path.isfile(target_file):
                 print('warning: file {} already existing, save under slightly different name'.format(file_name))
-                target_file = os.path.join(c.entries_path, file_name[:-3] + '-duplicate.md')
+                target_file = c.entries_path / file_name[:-3] + '-duplicate.md'
                 if os.path.isfile(target_file):
                     continue  # just for safety reasons
 

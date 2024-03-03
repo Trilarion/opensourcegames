@@ -11,6 +11,6 @@
 - Developer: LurchBrick, manikus, nologgie, Paul R. Stevens, Paul Stevens, Richard Turner, Tarlanon
 
 Updated emulator of Forgotten Realms: Unlimited Adventures.
-See also http://ua.reonis.com/index.php?topic=139.0
+See also https://web.archive.org/web/20160828075350/http://ua.reonis.com/index.php?topic=139.0
 
 ## Building

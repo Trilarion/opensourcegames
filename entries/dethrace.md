@@ -1,6 +1,6 @@
 # Dethrace
 
-- Home: https://twitter.com/dethrace_labs
+- Home: https://github.com/dethrace-labs/dethrace
 - Inspiration: Carmageddon
 - State: beta
 - Download: https://github.com/dethrace-labs/dethrace/releases

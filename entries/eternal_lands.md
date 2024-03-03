@@ -1,7 +1,6 @@
 # Eternal Lands
 
 - Home: https://www.eternal-lands.com/
-- Media: https://en.wikipedia.org/wiki/Eternal_Lands
 - State: mature
 - Download: https://www.eternal-lands.com/page/download.php
 - Keyword: role playing, multiplayer online + massive

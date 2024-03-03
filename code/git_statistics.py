@@ -9,17 +9,19 @@ uses git log --format="%an, %at, %cn, %ct" --all ti get commits, committers and 
 """
 
 import json
-from utils.utils import *
+import os
+
+from utils import constants as c, utils as u
 
 if __name__ == "__main__":
 
     # paths
-    file_path = os.path.realpath(os.path.dirname(__file__))
-    archives_path = os.path.join(file_path, 'git_repositories.json')
-    temp_path = os.path.join(file_path, 'temp')
+    code_path = c.root_path / 'code'
+    archives_path = code_path / 'git_repositories.json'
+    temp_path = code_path / 'temp'
 
     # get git archives
-    text = read_text(archives_path)
+    text = u.read_text(archives_path)
     archives = json.loads(text)
     print('process {} git archives'.format(len(archives)))
 
@@ -30,14 +32,14 @@ if __name__ == "__main__":
         print('{}/{} - {}'.format(count, len(archives), archive))
 
         # recreate temp folder
-        recreate_directory(temp_path)
+        u.recreate_directory(temp_path)
         os.chdir(temp_path)
 
         # clone git in temp folder
-        subprocess_run(["git", "clone", "--mirror", archive, temp_path])
+        u.subprocess_run(["git", "clone", "--mirror", archive, temp_path])
 
         # get commits, etc. info
-        info = subprocess_run(["git", "log", '--format="%an, %at, %cn, %ct"'])
+        info = u.subprocess_run(["git", "log", '--format="%an, %at, %cn, %ct"'])
 
         info = info.split('\n')
         info = info[:-1]  # last line is empty

@@ -87,7 +87,7 @@ class InspirationMaintainer:
             for entry_name in inspiration['Inspired entries']:
                 # get all these entries
                 x = [x for x in self.entries if x['Title'] == entry_name]
-                assert len(x) <= 1
+                assert len(x) <= 1, f'{len(x)} entries found for inspiration "{inspiration_name}" with listed inspired entry "{entry_name}", expect exactly one.'
                 if not x:
                     print('Entry "{}" listed in inspiration "{}" but this entry does not exist'.format(entry_name, inspiration_name))
                 else:

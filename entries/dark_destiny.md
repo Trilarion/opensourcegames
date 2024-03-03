@@ -1,6 +1,6 @@
 # Dark Destiny
 
-- Home: http://www.darkdestiny.at/, http://www.thedarkdestiny.at/portalApp/#/, https://sourceforge.net/projects/darkdestiny/
+- Home: http://www.darkdestiny.at/, https://sourceforge.net/projects/darkdestiny/
 - State: mature, inactive since 2016
 - Platform: Web
 - Keyword: strategy, multiplayer online + massive, space, turn-based

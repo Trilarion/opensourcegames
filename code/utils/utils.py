@@ -72,7 +72,7 @@ def unzip_keep_last_modified(archive, destination):
             name, date_time = zip_entry.filename, zip_entry.date_time
             date_time = time.mktime(date_time + (0, 0, -1))
             zip.extract(zip_entry, destination)
-            os.utime(os.path.join(destination, name), (date_time, date_time))
+            os.utime(destination / name, (date_time, date_time))
 
 
 def detect_archive_type(name):
@@ -99,7 +99,7 @@ def folder_size(path):
     size = 0
     for dirpath, dirnames, filenames in os.walk(path):
         for file in filenames:
-            size += os.path.getsize(os.path.join(dirpath, file))
+            size += os.path.getsize(dirpath / file)
     return size
 
 
@@ -139,7 +139,7 @@ def determine_latest_last_modified_date(folder):
     latest_last_modified = 0
     for dirpath, dirnames, filenames in os.walk(folder):
         for filename in filenames:
-            filepath = os.path.join(dirpath, filename)
+            filepath = dirpath / filename
             lastmodified = os.path.getmtime(filepath)
             if lastmodified > latest_last_modified:
                 latest_last_modified = lastmodified
@@ -151,7 +151,7 @@ def subprocess_run(cmd, display=True, shell=False, env={}):
     Runs a cmd via subprocess and displays the std output in case of success or the std error output in case of failure
     where it also stops execution.
     """
-    result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=shell, env=dict(os.environ, **env))
+    result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=shell, env=dict(os.environ, **env))  # TODO use the cwd argument as in https://stackoverflow.com/questions/1685157/how-can-i-specify-working-directory-for-a-subprocess/1685166#1685166
     if result.returncode:
         if display:
             print("error {} in call {}".format(result.returncode, cmd))
@@ -171,14 +171,14 @@ def copy_tree(source, destination):
     """
     # this gave an FileNotFoundError: [Errno 2] No such file or directory: '' on Windows
     # distutils.dir_util.copy_tree(archive_path, git_path)
-    os.makedirs(destination, exist_ok=True)
+    destination.mkdir(parent=True, exist_ok=True)
     for dirpath, dirnames, filenames in os.walk(source):
         # first create all the directory on destination
-        for directory in (os.path.join(destination, os.path.relpath(os.path.join(dirpath, x), source)) for x in dirnames):
-            os.makedirs(directory, exist_ok=True)
+        for directory in (destination / os.path.relpath(os.path.join(dirpath, x, source)) for x in dirnames):
+            directory.mkdir(parent=True, exist_ok=True)
         # second copy all the files
-        for source_file in (os.path.join(dirpath, x) for x in filenames):
-            destination_file = os.path.join(destination, os.path.relpath(source_file, source))
+        for source_file in (dirpath / x for x in filenames):
+            destination_file = destination / os.path.relpath(source_file, source)
             shutil.copyfile(source_file, destination_file)
 
 
@@ -206,12 +206,12 @@ def git_clear_path(git_path):
     """
     Clears all in a path except the '.git' directory
     """
-    for item in os.listdir(git_path):
+    for item in git_path.iterdir():
         # ignore '.git
         if item == '.git':
             continue
-        item = os.path.join(git_path, item)
-        if os.path.isdir(item):
+        item = git_path / item
+        if item.is_dir():
             shutil.rmtree(item, onerror=handleRemoveReadonly)
         else:
             os.remove(item)
@@ -221,11 +221,11 @@ def recreate_directory(path):
     """
     Recreates a directory (deletes before if existing)
     """
-    if os.path.isdir(path):
+    if path.is_dir():
         shutil.rmtree(path, onerror=handleRemoveReadonly)
     for attempts in range(10):
         try:
-            os.mkdir(path)
+            path.mkdir()
         except PermissionError:
             time.sleep(0.1)
             continue
@@ -248,13 +248,13 @@ def unzip(zip_file, destination_directory):
     with zipfile.ZipFile(zip_file, 'r') as zip:
         for info in zip.infolist():
             name, date_time = info.filename, info.date_time
-            name = os.path.join(destination_directory, name)
+            name = destination_directory / name
             zip.extract(info, destination_directory)
 
             # still need to adjust the dt o/w item will have the current dt
             date_time = time.mktime(info.date_time + (0, 0, -1))
 
-            if os.path.isdir(name):
+            if name.is_dir():
                 # changes to dir dt will have no effect right now since files are
                 # being created inside of it; hold the dt and apply it later
                 dirs[name] = date_time

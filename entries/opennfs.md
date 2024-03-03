@@ -1,6 +1,6 @@
 # OpenNFS
 
-- Home: https://opennfs.com/
+- Home: https://github.com/OpenNFS/OpenNFS
 - Inspiration: Need For Speed III: Hot Pursuit
 - State: beta
 - Keyword: game engine, remake, cars, content commercial + original required, racing

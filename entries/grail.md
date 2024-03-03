@@ -1,6 +1,6 @@
 # Grail
 
-- Home: http://leetless.de/tag-Grail.html
+- Home: https://web.archive.org/web/20211130143112/http://leetless.de/tag-Grail.html
 - State: beta, inactive since 2013
 - Platform: Linux
 - Keyword: adventure, game engine, 2D, point & click

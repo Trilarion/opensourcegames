@@ -1,7 +1,7 @@
 # SCSharp
 
 - Home: https://github.com/toshok/scsharp
-- Inspiration: Starcraft
+- Inspiration: StarCraft
 - State: beta, inactive since 2011
 - Keyword: remake, strategy, content commercial + original required, real-time
 - Code repository: https://github.com/toshok/scsharp.git

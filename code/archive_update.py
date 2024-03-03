@@ -17,6 +17,7 @@ see https://serverfault.com/questions/544156/git-clone-fail-instead-of-prompting
 # TODO Sourceforge git clone may not work all the time (restarting the script sometimes helps..)
 
 import json
+import pathlib
 
 from utils.utils import *
 from utils.archive import *
@@ -72,24 +73,24 @@ def run_update(type, urls, type_folder=None):
     if type_folder is None:
         type_folder = type
     print('update {} {} archives'.format(len(urls), type))
-    base_folder = os.path.join(archive_folder, type_folder)
-    if not os.path.exists(base_folder):
-        os.mkdir(base_folder)
-    unused_base_folder = os.path.join(archive_folder, type_folder + '.unused')
-    if not os.path.exists(unused_base_folder):
-        os.mkdir(unused_base_folder)
+    base_folder = archive_folder / type_folder
+    if not base_folder.exists():
+        base_folder.mkdir()
+    unused_base_folder = archive_folder / (type_folder + '.unused')
+    if not unused_base_folder.exists():
+        unused_base_folder.mkdir()
 
     # get derived folder names
     folders = [folder_name[type](url) for url in urls]
 
     # find those folders not used anymore
-    existing_folders = [x for x in os.listdir(base_folder) if os.path.isdir(os.path.join(base_folder, x))]
+    existing_folders = [x for x in base_folder.iterdir() if (base_folder / x).is_dir()]
     unused_folders = [x for x in existing_folders if x not in folders]
     print('{} unused archives, move to unused folder'.format(len(unused_folders)))
     for folder in unused_folders:
-        origin = os.path.join(base_folder, folder)
-        destination = os.path.join(unused_base_folder, folder)
-        if not os.path.exists(destination):
+        origin = base_folder / folder
+        destination = unused_base_folder / folder
+        if not destination.exists():
             shutil.move(origin, destination)
 
     # new folder, need to clone
@@ -97,11 +98,11 @@ def run_update(type, urls, type_folder=None):
     print('{} new archives, will clone'.format(len(new_folders)))
 
     # add root to folders
-    folders = [os.path.join(base_folder, x) for x in folders]
+    folders = [base_folder / x for x in folders]
     os.chdir(base_folder)
     for folder, url in zip(folders, urls):
-        if not os.path.isdir(folder):
-            print('clone {} into {}'.format(url, folder[len(base_folder):]))
+        if not folder.is_dir():
+            print('clone {} into {}'.format(url, folder.relative_to(base_folder)))
             try:
                 clone[type](url, folder)
             except RuntimeError as e:
@@ -110,7 +111,7 @@ def run_update(type, urls, type_folder=None):
     # at the end update them all
     for folder in folders:
         print('update {}'.format(os.path.basename(folder)))
-        if not os.path.isdir(folder):
+        if not folder.is_dir():
             print('folder not existing, wanted to update, will skip')
             continue
         # print('update {}'.format(folder[len(base_folder):]))
@@ -124,14 +125,14 @@ def run_info(type, urls):
     print('collect info on {}'.format(type))
 
     # get derived folder names
-    folders = [os.path.join(type, folder_name[type](url)) for url in urls]
+    folders = [type / folder_name[type](url) for url in urls]
 
     # collect information
     info = []
     for folder in folders:
         print(folder)
-        path = os.path.join(archive_folder, folder)
-        size = folder_size(path) if os.path.isdir(path) else -1
+        path = archive_folder / folder
+        size = folder_size(path) if path.is_dir() else -1
         info.append([size, folder])
     return info
 
@@ -159,17 +160,19 @@ if __name__ == '__main__':
     }
 
     # get this folder
-    root_folder = os.path.realpath(os.path.dirname(__file__))
+    code_folder = c.root_path / 'code'
     archive_folder = c.get_config('archive-folder')
     if not archive_folder:
         raise RuntimeError('No archive folder specified.')
+    else:
+        archive_folder = pathlib.Path(archive_folder)
 
     # read archives.json
-    text = read_text(os.path.join(root_folder, 'archives.json'))
+    text = read_text(code_folder / 'archives.json')
     archives = json.loads(text)
 
     # read archives.git-submodules.json
-    text = read_text(os.path.join(root_folder, 'archives.git-submodules.json'))
+    text = read_text(code_folder / 'archives.git-submodules.json')
     archives_git_submodules = json.loads(text)
 
     # run update on submodules
@@ -189,4 +192,4 @@ if __name__ == '__main__':
         infos.extend(run_info(type, urls))
     infos.sort(key=lambda x: x[0], reverse=True)
     text = json.dumps(infos, indent=1)
-    write_text(os.path.join(archive_folder, 'infos.json'), text)
+    write_text(archive_folder / 'infos.json', text)

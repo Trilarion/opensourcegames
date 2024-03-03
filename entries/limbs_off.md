@@ -1,6 +1,6 @@
 # Limbs Off
 
-- Home: https://plaimi.net/games/limbs-off.html
+- Home: https://web.archive.org/web/20230923033826/https://plaimi.net/games/limbs-off.html
 - State: beta, inactive since 2013
 - Keyword: arcade
 - Code repository: https://github.com/plaimi/limbs-off.git (@created 2011, @stars 20, @forks 3)

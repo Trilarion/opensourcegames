@@ -1,6 +1,6 @@
 # Flukz
 
-- Home: http://flukz.org/wiki/doku.php?id=flukz
+- Home: https://web.archive.org/web/20230922012513/http://flukz.org/wiki/doku.php?id=flukz
 - State: beta, inactive since 2014
 - Platform: Windows, Linux
 - Keyword: action, content open, shooter, top-down

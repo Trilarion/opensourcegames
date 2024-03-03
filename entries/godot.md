@@ -13,4 +13,4 @@
 ## Building
 
 - Build system: Scons
-- Build instruction: https://docs.godotengine.org/en/latest/development/compiling/
+- Build instruction: https://docs.godotengine.org/en/latest/contributing/development/index.html#buildsystem-and-work-environment

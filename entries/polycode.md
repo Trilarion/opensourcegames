@@ -1,8 +1,8 @@
 # Polycode
 
-- Home: http://polycode.org/
+- Home: https://web.archive.org/web/20230107010613/http://polycode.org/
 - State: beta
-- Download: http://polycode.org/download/
+- Download: https://web.archive.org/web/20221006173327/http://polycode.org/download/
 - Keyword: framework
 - Code repository: https://github.com/ivansafrin/Polycode.git (@created 2010, @stars 2369, @forks 350)
 - Code language: C, C++

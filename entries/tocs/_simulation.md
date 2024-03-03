@@ -85,7 +85,7 @@
 - **[Open Rails](../open_rails.md)** (C#, GPL-3.0, mature)
 - **[Open Simulator](../open_simulator.md)** (C#, 3-clause BSD, beta)
 - **[Open Valley](../open_valley.md)** (C++, CC-BY-NC-SA-4.0, beta)
-- **[OpenArena](../openarena-2.md)** (Java, GPL-3.0, beta)
+- **[OpenArena](../openarena.md)** (Java, GPL-3.0, beta)
 - **[openblack](../openblack.md)** (C, C++, GPL-3.0, beta)
 - **[OpenBlox](../openblox.md)** (Python, Lua, GPL-3.0, beta, inactive since 2011)
 - **[OpenBVE](../openbve.md)** (C#, Public domain, mature)

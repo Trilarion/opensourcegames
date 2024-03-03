@@ -1,8 +1,9 @@
 """
 Updates the readme for screenshots
+
+rejected.txt contains the screenshots we do not want to show (because they do not feature content, but rather logos only)
 """
 
-import os
 from PIL import Image
 
 from utils import constants as c, osg
@@ -13,21 +14,18 @@ if __name__ == "__main__":
 
     # read available screenshots (and get widths and heights)
     files = {}
-    for file in os.listdir(c.screenshots_path):
-        path = os.path.join(c.screenshots_path, file)
-        if os.path.isdir(path) or path == c.screenshots_file:
-            continue
-        if not file.endswith('.jpg'):
-            print('Screenshot with unexpected extension: {}'.format(file))
+    for file in c.screenshots_path.iterdir():
+        # only work on jpg files
+        if file.is_dir() or not file.suffix == '.jpg':
             continue
         # read with pillow and get width and height
-        with Image.open(path) as im:
+        with Image.open(file) as im:
             sz = [im.width, im.height]
             if sz[1] != HEIGHT:
                 print('Screenshot with unexpected height: {} {}'.format(file, sz[1]))
         # parse file name (name_xx.jpg)
-        name = file[:-7]
-        id = int(file[-6:-4])
+        name = file.name[:-7]
+        id = int(file.name[-6:-4])
         if name not in files:
             files[name] = {}
         files[name][id] = sz

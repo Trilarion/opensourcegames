@@ -13,9 +13,9 @@ def local_module(module_base, file_path, module):
     """
     module = module.split('.')
     module[-1] += '.py'
-    pathA = os.path.join(module_base, *module)
-    pathB = os.path.join(file_path, *module)
-    return os.path.exists(pathA) or os.path.exists(pathB)
+    pathA = module_base / *module
+    pathB = file_path / *module
+    return pathA.exists() or pathB.exists()
 
 
 if __name__ == "__main__":
@@ -41,10 +41,10 @@ if __name__ == "__main__":
     for dirpath, dirnames, filenames in os.walk(root_folder):
         for file in ('setup.py', 'requirements.txt'):
             if file in filenames:
-                setup_files.append(os.path.join(dirpath, file))
+                setup_files.append(dirpath / file)
         filenames = [x for x in filenames if x.endswith('.py') or x.endswith('.pyw') or x.endswith('.cry')]
         if filenames:
-            filenames = [os.path.join(dirpath, x) for x in filenames]
+            filenames = [dirpath / x for x in filenames]
             python_files.extend(filenames)
     print('found {} Python files'.format(len(python_files)))
     if setup_files:

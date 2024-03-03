@@ -1,6 +1,6 @@
 # phpRPG
 
-- Home: http://phprpg.org/, https://sourceforge.net/projects/phprpg/
+- Home: https://web.archive.org/web/20220628022750/http://phprpg.org/, https://sourceforge.net/projects/phprpg/
 - State: beta, inactive since 2006
 - Download: https://sourceforge.net/projects/phprpg/files/
 - Platform: Web

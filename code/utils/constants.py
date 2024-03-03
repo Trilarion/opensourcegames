@@ -2,35 +2,36 @@
 Paths, properties.
 """
 
-import os
+import pathlib
 import configparser
 
 # paths
-root_path = os.path.realpath(os.path.join(os.path.dirname(__file__), os.path.pardir, os.path.pardir))
-code_path = os.path.join(root_path, 'code')
-web_template_path = os.path.join(code_path, 'html')
-entries_path = os.path.join(root_path, 'entries')
-tocs_path = os.path.join(entries_path, 'tocs')
-screenshots_path = os.path.join(entries_path, 'screenshots')
+root_path = pathlib.Path(__file__).parent.parent.parent  # from here three times up
+code_path = root_path / 'code'
+web_template_path = code_path / 'html'
+entries_path = root_path / 'entries'
+tocs_path = entries_path / 'tocs'
+screenshots_path = entries_path / 'screenshots'
 
-web_path = os.path.join(root_path, 'docs')
-web_css_path = os.path.join(web_path, 'css')
-web_js_path = os.path.join(web_path, 'js')
-web_screenshots_path = os.path.join(web_path, 'screenshots')
-web_data_path = os.path.join(web_path, 'data')
+web_path = root_path / 'docs'
+web_css_path = web_path / 'css'
+web_js_path = web_path / 'js'
+web_screenshots_path = web_path / 'screenshots'
+web_data_path = web_path / 'data'
 
-private_properties_file = os.path.join(root_path, 'private.properties')
-inspirations_file = os.path.join(root_path, 'inspirations.md')
-developer_file = os.path.join(root_path, 'developers.md')
+# files
+private_properties_file = root_path / 'private.properties'
+inspirations_file = root_path / 'inspirations.md'
+developer_file = root_path / 'developers.md'
 
-backlog_file = os.path.join(code_path, 'backlog.txt')
-rejected_file = os.path.join(code_path, 'rejected.txt')
-statistics_file = os.path.join(root_path, 'statistics.md')
-screenshots_file = os.path.join(screenshots_path, 'README.md')
-json_db_file = os.path.join(root_path, 'docs', 'data.json')
+backlog_file = code_path / 'backlog.txt'
+rejected_file = code_path / 'rejected.txt'
+statistics_file = root_path / 'statistics.md'
+screenshots_file = screenshots_path / 'README.md'
+json_db_file = root_path / 'docs', 'data.json'
 
 # local config
-local_config_file = os.path.join(root_path, 'local-config.ini')
+local_config_file = root_path / 'local-config.ini'
 
 config = configparser.ConfigParser()
 config.read(local_config_file)

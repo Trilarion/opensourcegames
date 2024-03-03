@@ -23,7 +23,7 @@ TODO also ignore our rejected entries
 """
 
 import json
-import os
+import pathlib
 from utils import constants, utils, osg
 
 lgw_name_aliases = {'Eat the Whistle': 'Eat The Whistle', 'Scorched 3D': 'Scorched3D',
@@ -88,8 +88,8 @@ if __name__ == "__main__":
     maximal_newly_created_entries = 40
 
     # paths
-    lgw_import_path = os.path.join(constants.root_path, 'code', '../lgw-import')
-    lgw_entries_file = os.path.join(lgw_import_path, '_lgw.cleaned.json')
+    lgw_import_path = constants.root_path / 'lgw-import'
+    lgw_entries_file = lgw_import_path / '_lgw.cleaned.json'
 
     # import lgw import
     text = utils.read_text(lgw_entries_file)
@@ -222,10 +222,10 @@ if __name__ == "__main__":
             # determine file name
             print('create new entry for {}'.format(lgw_name))
             file_name = osg.canonical_name(lgw_name) + '.md'
-            target_file = os.path.join(constants.entries_path, file_name)
+            target_file = constants.entries_path / file_name
             if os.path.isfile(target_file):
                 print('warning: file {} already existing, save under slightly different name'.format(file_name))
-                target_file = os.path.join(constants.entries_path, file_name[:-3] + '-duplicate.md')
+                target_file = constants.entries_path / file_name[:-3] + '-duplicate.md'
                 if os.path.isfile(target_file):
                     continue  # just for safety reasons
 

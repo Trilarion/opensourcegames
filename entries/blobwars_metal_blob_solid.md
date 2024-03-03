@@ -1,7 +1,6 @@
 # Blobwars: Metal Blob Solid
 
 - Home: https://sourceforge.net/projects/blobwars/
-- Media: https://en.wikipedia.org/wiki/Blob_Wars#Blob_Wars:_Metal_Blob_Solid
 - State: mature
 - Download: https://sourceforge.net/projects/blobwars/files/
 - Platform: Windows

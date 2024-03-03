@@ -1,9 +1,9 @@
 # COCOS2D-X
 
-- Home: https://cocos2d-x.org/cocos2dx
+- Home: https://www.cocos.com/en/cocos2d-x
 - Media: https://en.wikipedia.org/wiki/Cocos2d
 - State: mature
-- Download: https://cocos2d-x.org/download
+- Download: https://www.cocos.com/en/cocos2dx-download
 - Keyword: framework
 - Code repository: https://github.com/cocos2d/cocos2d-x.git (@created 2010, @stars 16573, @forks 7050)
 - Code language: C++

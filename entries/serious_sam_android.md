@@ -1,7 +1,7 @@
 # Serious Sam Android
 
 - Home: https://github.com/aarcangeli/Serious-Sam-Android
-- Inspiration: Serious Sam: the Second Encounter
+- Inspiration: Serious Sam: The Second Encounter
 - State: mature, inactive since 2020
 - Download: https://github.com/aarcangeli/Serious-Sam-Android/releases
 - Platform: Android

@@ -5,7 +5,7 @@ Import of the screenshots by bzt in https://forum.freegamedev.net/viewtopic.php?
 
 # TODO do not add if already 3, but print warning instead
 
-import os
+import pathlib
 import requests
 from io import BytesIO
 from PIL import Image
@@ -13,13 +13,13 @@ from utils import utils as u, constants as c, osg as osg
 
 if __name__ == "__main__":
     # paths
-    root_path = os.path.realpath(os.path.join(os.path.dirname(__file__), os.path.pardir, os.path.pardir))
+    root_path = os.path.realpath(os.path.dirname(__file__) / os.path.pardir, os.path.pardir)
 
     # read content of screenshots_bzt.txt
-    info = u.read_text(os.path.join(root_path, 'code', 'synchronization', 'screenshots_bzt.txt'))
-    info = info.split('\n') # split on line end
+    info = u.read_text(root_path / 'code' / 'synchronization' / 'screenshots_bzt.txt')
+    info = info.split('\n')  # split on end of line
     info = [entry.split('\t') for entry in info] # split on tabs
-    info = [[entry[0].strip(), entry[-1].strip()] for entry in info] # only keep first and last (in case multiple tabs were used)
+    info = [[entry[0].strip(), entry[-1].strip()] for entry in info]  # only keep first and last (in case multiple tabs were used)
 
     # read our screenshots
     screenshots = osg.read_screenshots_overview()
@@ -62,7 +62,7 @@ if __name__ == "__main__":
                     url = '!' + url
                 our_screenshots[idx] = [target_width, target_height, url]
                 # store
-                outfile = os.path.join(c.screenshots_path +'2', '{}_{:02d}.jpg'.format(name, idx))
+                outfile = c.screenshots_path +'2' / '{}_{:02d}.jpg'.format(name, idx)
                 im_resized.save(outfile)
         if our_screenshots:
             screenshots[name] = our_screenshots

@@ -3,7 +3,7 @@ Helps me with importing source revisions into Git
 """
 
 import shutil
-import os
+import pathlib
 import subprocess
 import tarfile
 import zipfile
@@ -44,9 +44,9 @@ def single_revision():
     """
     # remove temp path completely and create again
     print('clear temp')
-    if os.path.isdir(temp_path):
+    if temp_path.is_dir():
         shutil.rmtree(temp_path)
-    os.mkdir(temp_path)
+    temp_path.mkdir()
 
     # download archive
     print('download archive from ftp')
@@ -61,10 +61,10 @@ def single_revision():
 
     # we need to go up in temp_path until we find the first non-empty directory
     nonempty_temp_path = temp_path
-    names = os.listdir(nonempty_temp_path)
+    names = nonempty_temp_path.iterdir()
     while len(names) == 1:
-        nonempty_temp_path = os.path.join(nonempty_temp_path, names[0])
-        names = os.listdir(nonempty_temp_path)
+        nonempty_temp_path = nonempty_temp_path / names[0]
+        names = nonempty_temp_path.iterdir()
     print('  working in "{}" relative to temp'.format(os.path.relpath(nonempty_temp_path, temp_path)))
 
     # if no original date is indicated, get it from the files (latest of last modified)
@@ -73,7 +73,7 @@ def single_revision():
         latest_last_modified = 0
         for dirpath, dirnames, filenames in os.walk(nonempty_temp_path):
             for filename in filenames:
-                filepath = os.path.join(dirpath, filename)
+                filepath = dirpath / filename
                 lastmodified = os.path.getmtime(filepath)
                 if lastmodified > latest_last_modified:
                     latest_last_modified = lastmodified
@@ -82,12 +82,12 @@ def single_revision():
 
     # clear git path without deleting '.git'
     print('clear git')
-    for item in os.listdir(git_path):
+    for item in git_path.iterdir():
         # ignore '.git
         if item == '.git':
             continue
-        item = os.path.join(git_path, item)
-        if os.path.isdir(item):
+        item = git_path / item
+        if item.is_dir():
             shutil.rmtree(item)
         else:
             os.remove(item)

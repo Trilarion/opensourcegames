@@ -10,6 +10,6 @@
 - Code license: CC-BY-NC-SA-3.0 (see home)
 
 A computer mystery/romance set five minutes into the future of 1988.
-See also https://loveconquersallgam.es/tagged/digital%3A-a-love-story
+See also https://web.archive.org/web/20200527170101/https://loveconquersallgam.es/tagged/digital%3A-a-love-story
 
 ## Building

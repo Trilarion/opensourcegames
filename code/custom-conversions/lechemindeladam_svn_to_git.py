@@ -17,8 +17,8 @@ def remove_folders(base_folder, names):
     if isinstance(names, str):
         names = (names,)
     for name in names:
-        folder = os.path.join(base_folder, name)
-        if os.path.isdir(folder):
+        folder = base_folder / name
+        if folder.is_dir():
             shutil.rmtree(folder)
 
 
@@ -26,7 +26,7 @@ def remove_files(base_folder, names):
     if isinstance(names, str):
         names = (names,)
     for name in names:
-        file = os.path.join(base_folder, name)
+        file = base_folder / name
         if os.path.isfile(file):
             os.remove(file)
 
@@ -38,53 +38,53 @@ def special_treatment(destination, revision):
 
     # copy content of trunk to base
     if 2270 <= revision <= 2420:
-        source = os.path.join(destination, 'trunk')
-        if os.path.isdir(source):
+        source = destination / 'trunk'
+        if source.is_dir():
             copy_tree(source, destination)
             shutil.rmtree(source)
 
     # copy all important files from Holyspirit/Holyspirit and delete it
     if 5 <= revision <= 330:
-        source = os.path.join(destination, 'Holyspirit', 'Holyspirit')
-        if os.path.isdir(source):
+        source = destination / 'Holyspirit', 'Holyspirit'
+        if source.is_dir():
             if revision >= 8:
-                shutil.copytree(os.path.join(source, 'Data'), os.path.join(destination, 'Data'))
-            files = [x for x in os.listdir(source) if x.endswith('.txt')]
+                shutil.copytree(source / 'Data', destination / 'Data')
+            files = [x for x in source.iterdir() if x.endswith('.txt')]
             for file in files:
-                shutil.copy(os.path.join(source, file), destination)
+                shutil.copy(source / file, destination)
             # remove it
-            shutil.rmtree(os.path.join(destination, 'Holyspirit'))
+            shutil.rmtree(destination / 'Holyspirit')
 
     # copy all important files from Holyspirit and delete it
     if 337 <= revision <= 2268:
-        source = os.path.join(destination, 'Holyspirit')
-        if os.path.isdir(source):
-            data = os.path.join(source, 'Data')
-            if os.path.isdir(data):
-                # shutil.copytree(data, os.path.join(destination, 'Data'))
+        source = destination / 'Holyspirit'
+        if source.is_dir():
+            data = source / 'Data'
+            if data.is_dir():
+                # shutil.copytree(data, destination / 'Data')
                 shutil.move(data, destination)
-            target = os.path.join(destination, 'Meta')
-            if not os.path.isdir(target):
-                os.mkdir(target)
-            files = [x for x in os.listdir(source) if x.endswith('.txt') or x.endswith('.conf') or x.endswith('.ini')]
+            target = destination / 'Meta'
+            if not target.is_dir():
+                target.mkdir()
+            files = [x for x in source.iterdir() if x.endswith('.txt') or x.endswith('.conf') or x.endswith('.ini')]
             for file in files:
-                shutil.move(os.path.join(source, file), target)
+                shutil.move(source / file, target)
             # remove it
             shutil.rmtree(source)
 
     # copy data folder vom HolySpiritJE and delete it
     if 2012 <= revision <= 2269:
-        source = os.path.join(destination, 'HolyspiritJE')
-        if os.path.isdir(source):
-            data = os.path.join(source, 'Data')
-            if os.path.isdir(data):
-                shutil.move(data, os.path.join(destination, 'DataJE'))
-            target = os.path.join(destination, 'MetaJE')
-            if not os.path.isdir(target):
-                os.mkdir(target)
-            files = [x for x in os.listdir(source) if x.endswith('.txt') or x.endswith('.conf') or x.endswith('.ini')]
+        source = destination / 'HolyspiritJE'
+        if source.is_dir():
+            data = source / 'Data'
+            if data.is_dir():
+                shutil.move(data, destination / 'DataJE')
+            target = destination / 'MetaJE'
+            if not target.is_dir():
+                target.mkdir()
+            files = [x for x in source.iterdir() if x.endswith('.txt') or x.endswith('.conf') or x.endswith('.ini')]
             for file in files:
-                shutil.move(os.path.join(source, file), target)
+                shutil.move(source / file, target)
             # remove it
             shutil.rmtree(source)
 
@@ -98,15 +98,15 @@ def special_treatment(destination, revision):
 
     # remove Launcher/release
     if 413 <= revision <= 2420:
-        source = os.path.join(destination, 'Launcher')
+        source = destination / 'Launcher'
         remove_folders(source, ('bin', 'debug', 'release', 'obj'))
 
     # delete all *.dll, *.exe in base folder
     if 3 <= revision <= 9:
-        files = os.listdir(destination)
+        files = destination.iterdir()
         for file in files:
             if file.endswith('.exe') or file.endswith('.dll'):
-                os.remove(os.path.join(destination, file))
+                os.remove(destination / file)
 
     # delete "cross" folder
     if 42 <= revision <= 43:
@@ -116,47 +116,47 @@ def special_treatment(destination, revision):
     if 374 <= revision <= 2267:
         remove_folders(destination, 'Photos')
     if 2268 <= revision <= 2420:
-        source = os.path.join(destination, 'Media')
+        source = destination / 'Media'
         remove_folders(source, 'Photos')
 
     # move empire of steam out
     if 1173 <= revision <= 2420:
-        folder = os.path.join(destination, 'EmpireOfSteam')
-        if os.path.isdir(folder):
+        folder = destination / 'EmpireOfSteam'
+        if folder.is_dir():
             # move to empire path
-            empire = os.path.join(empire_path, 'r{:04d}'.format(revision))
+            empire = empire_path / 'r{:04d}'.format(revision)
             shutil.move(folder, empire)
 
     # holy editor cleanup
     if 1078 <= revision <= 2420:
-        source = os.path.join(destination, 'HolyEditor')
+        source = destination / 'HolyEditor'
         remove_folders(source, ('bin', 'release', 'debug', 'obj'))
         remove_files(source, 'moc.exe')
 
     # source folder cleanup
     if 939 <= revision <= 2420:
-        source = os.path.join(destination, 'Source')
+        source = destination / 'Source'
         remove_folders(source, 'HS')
         remove_files(source, 'HS.zip')
 
     # sourceM folder cleanup
     if 2110 <= revision <= 2270:
-        source = os.path.join(destination, 'SourceM')
+        source = destination / 'SourceM'
         remove_folders(source, 'HS')
 
     # sourceNewApi cleanup
     if 2261 <= revision <= 2269:
-        source = os.path.join(destination, 'SourceNewApi')
+        source = destination / 'SourceNewApi'
         remove_folders(source, 'HS')
 
     # Autres folder cleanup
     if 1272 <= revision <= 2267:
-        source = os.path.join(destination, 'Autres')
+        source = destination / 'Autres'
         remove_folders(source, ('conf', 'db', 'hooks', 'locks'))
         remove_files(source, ('format', 'maj.php'))
     # Media/Other folder cleanup
     if 2268 <= revision <= 2420:
-        source = os.path.join(destination, 'Media', 'Other')
+        source = destination / 'Media', 'Other'
         remove_files(source, ('format', 'maj.php'))
 
     # remove Holyspirit-Demo
@@ -184,7 +184,7 @@ def delete_global_excludes(folder):
         rel_path = os.path.relpath(dirpath, folder)
         for file in filenames:
             if file in global_exclude:
-                os.remove(os.path.join(dirpath, file))
+                os.remove(dirpath / file)
 
 
 def delete_empty_directories(folder):
@@ -205,15 +205,15 @@ def list_large_unwanted_files(folder):
     for dirpath, dirnames, filenames in os.walk(folder):
         rel_path = os.path.relpath(dirpath, folder)
         for file in filenames:
-            file_path = os.path.join(dirpath, file)
+            file_path = dirpath / file
             already_listed = False
             for extension in unwanted_file_extensions:
                 if file.endswith(extension):
-                    output.append(os.path.join(rel_path, file) + ' ' + str(os.path.getsize(file_path)))
+                    output.append(rel_path / file + ' ' + str(os.path.getsize(file_path)))
                     already_listed = True
                     break
             if not already_listed and os.path.getsize(file_path) > large_file_limit:
-                output.append(os.path.join(rel_path, file) + ' ' + str(os.path.getsize(file_path)))
+                output.append(rel_path / file + ' ' + str(os.path.getsize(file_path)))
     return output
 
 
@@ -235,8 +235,8 @@ def checkout(revision_start, revision_end=None):
         print('checking out revision {}'.format(revision))
 
         # create destination directory
-        destination = os.path.join(svn_checkout_path, 'r{:04d}'.format(revision))
-        if os.path.exists(destination):
+        destination = svn_checkout_path / 'r{:04d}'.format(revision)
+        if destination.exists():
             shutil.rmtree(destination)
 
         # checkout
@@ -248,7 +248,7 @@ def checkout(revision_start, revision_end=None):
                 break
             except:
                 print('problem with export, will try again')
-                if os.path.isdir(destination):
+                if destination.is_dir():
                     shutil.rmtree(destination)
 
         print('checkout took {:.1f}s'.format(time.time() - start_time))
@@ -269,8 +269,8 @@ def fix_revision(revision_start, revision_end=None):
         print('fixing revision {}'.format(revision))
 
         # destination directory
-        destination = os.path.join(svn_checkout_path, 'r{:04d}'.format(revision))
-        if not os.path.exists(destination):
+        destination = svn_checkout_path / 'r{:04d}'.format(revision)
+        if not destination.exists():
             raise RuntimeError('cannot fix revision {}, directory does not exist'.format(revision))
 
         # special treatment
@@ -289,9 +289,9 @@ def fix_revision(revision_start, revision_end=None):
         sizes[revision] = folder_size(destination)
 
     text = json.dumps(unwanted_files, indent=1)
-    write_text(os.path.join(svn_checkout_path, 'unwanted_files.json'.format(revision)), text)
+    write_text(svn_checkout_path / 'unwanted_files.json'.format(revision), text)
     text = json.dumps(sizes, indent=1)
-    write_text(os.path.join(svn_checkout_path, 'folder_sizes.json'.format(revision)), text)
+    write_text(svn_checkout_path / 'folder_sizes.json'.format(revision), text)
 
 
 def initialize_git():
@@ -299,7 +299,7 @@ def initialize_git():
 
     """
     # git init
-    os.mkdir(git_path)
+    git_path.mkdir()
     os.chdir(git_path)
     subprocess_run(['git', 'init'])
     subprocess_run(['git', 'config', 'user.name', 'Trilarion'])
@@ -366,8 +366,8 @@ def gitify(revision_start, revision_end):
         print('adding revision {} to git'.format(revision))
 
         # svn folder
-        svn_folder = os.path.join(svn_checkout_path, 'r{:04d}'.format(revision))
-        if not os.path.exists(svn_folder):
+        svn_folder = svn_checkout_path / 'r{:04d}'.format(revision)
+        if not svn_folder.exists():
             raise RuntimeError('cannot add revision {}, directory does not exist'.format(revision))
 
         # clear git path
@@ -417,18 +417,18 @@ if __name__ == "__main__":
     large_file_limit = 1e6  # in bytes
 
     # base path is the directory containing this file
-    base_path = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'conversion')
+    base_path = pathlib.Path(__file__) / 'conversion'
     print('base path={}'.format(base_path))
 
     # derived paths
-    svn_checkout_path = os.path.join(base_path, 'svn')
-    if not os.path.exists(svn_checkout_path):
-        os.mkdir(svn_checkout_path)
-    empire_path = os.path.join(base_path, 'empire')  # empire of steam side project
-    if not os.path.exists(empire_path):
-        os.mkdir(empire_path)
-    git_path = os.path.join(base_path, 'lechemindeladam')
-    if not os.path.exists(git_path):
+    svn_checkout_path = base_path / 'svn'
+    if not svn_checkout_path.exists():
+        svn_checkout_path.mkdir()
+    empire_path = base_path / 'empire'  # empire of steam side project
+    if not empire_path.exists():
+        empire_path.mkdir()
+    git_path = base_path / 'lechemindeladam'
+    if not git_path.exists():
         initialize_git()
 
     # svn url
@@ -437,13 +437,13 @@ if __name__ == "__main__":
     # read logs
     # logs, authors = read_logs()
     # text = json.dumps(logs, indent=1)
-    # write_text(os.path.join(base_path, 'logs.json'), text)
+    # write_text(base_path / 'logs.json', text)
     # text = json.dumps(authors, indent=1)
-    # write_text(os.path.join(base_path, 'authors.json'), text)
-    text = read_text(os.path.join(base_path, 'logs.json'))
+    # write_text(base_path / 'authors.json', text)
+    text = read_text(base_path / 'logs.json')
     logs = json.loads(text)
     logs = {x[0]: x for x in logs}  # dictionary
-    text = read_text(os.path.join(base_path, 'authors.json'))
+    text = read_text(base_path / 'authors.json')
     authors = json.loads(text)  # should be a dictionary: svn-author: [git-author, git-email]
 
     # the steps

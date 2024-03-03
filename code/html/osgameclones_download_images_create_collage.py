@@ -3,7 +3,7 @@
 """
 
 import ruamel.yaml as yaml
-import os
+import pathlib
 import requests
 from PIL import Image
 from io import BytesIO
@@ -13,14 +13,14 @@ from progress.bar import IncrementalBar
 
 def download_images():
     # import the osgameclones data
-    path = os.path.realpath(os.path.join(root_path, os.path.pardir, 'osgameclones.git', 'games'))
-    files = os.listdir(path)
+    path = os.path.realpath(root_path / os.path.pardir, 'osgameclones.git', 'games')
+    files = path.iterdir()
 
     # iterate over all yaml files in osgameclones/data folder and load contents
     entries = []
     for file in files:
         # read yaml
-        with open(os.path.join(path, file), 'r', encoding='utf-8') as stream:
+        with open(path / file, 'r', encoding='utf-8') as stream:
             try:
                 _ = yaml.safe_load(stream)
             except Exception as exc:
@@ -43,7 +43,7 @@ def download_images():
     # download them all
     for url in images:
         name = "".join(x for x in url[5:] if (x.isalnum() or x in '._-'))
-        outfile = os.path.join(download_path, name)
+        outfile = download_path / name
         if not os.path.isfile(outfile):
             try:
                 r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64)'},
@@ -58,11 +58,11 @@ def download_images():
 
 def downsize_images():
     scale_factor = 10
-    for file in os.listdir(download_path):
-        file_path = os.path.join(download_path, file)
+    for file in download_path.iterdir():
+        file_path = download_path / file
         if not os.path.isfile(file_path):
             continue
-        outfile = os.path.join(downsized_path, file[:-4]+'.png')  # losless storage of downsize image
+        outfile = downsized_path / file[:-4]+'.png'  # losless storage of downsize image
         if os.path.isfile(outfile):
             continue
         im = Image.open(file_path)
@@ -85,12 +85,12 @@ def assemble_collage():
     print('start assembling collage')
 
     # load all from downsized path
-    files = os.listdir(downsized_path)
-    files = [file for file in files if os.path.isfile(os.path.join(downsized_path, file))]
+    files = downsized_path.iterdir()
+    files = [file for file in files if os.path.isfile(downsized_path / file)]
     images = []
     bar = IncrementalBar('Loading', max=len(files))
     for file in files:
-        im = Image.open(os.path.join(downsized_path, file))
+        im = Image.open(downsized_path / file)
         im = np.asarray(im)
         images.append(im)
         bar.next()
@@ -184,14 +184,14 @@ if __name__ == "__main__":
     N = Nx * Ny
 
     # paths
-    root_path = os.path.realpath(os.path.join(os.path.dirname(__file__), os.path.pardir))
-    download_path = os.path.join(root_path, 'code', '', 'images-download')
-    downsized_path = os.path.join(download_path, 'downsized')
-    output_file = os.path.join(root_path, 'code', '', 'collage_games.jpg')
-    if not os.path.exists(download_path):
-        os.mkdir(download_path)
-    if not os.path.exists(downsized_path):
-        os.mkdir(downsized_path)
+    root_path = os.path.realpath(os.path.dirname(__file__) / os.path.pardir)
+    download_path = root_path / 'code' / 'images-download'
+    downsized_path = download_path / 'downsized'
+    output_file = root_path / 'code' / 'collage_games.jpg'
+    if not download_path.exists():
+        download_path.mkdir()
+    if not downsized_path.exists():
+        downsized_path.mkdir()
 
     # download files
     # download_images()

@@ -4,7 +4,7 @@
 - State: mature
 - Download: https://gitlab.com/empty-clip/code/-/releases
 - Platform: Windows, Linux
-- Keyword: action, 2D, role-playing, shooter, top-down
+- Keyword: action, role playing, 2D, shooter, top-down
 - Code repository: https://gitlab.com/empty-clip/code.git
 - Code language: C++
 - Code license: GPL-2.0

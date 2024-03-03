@@ -1,6 +1,6 @@
 # Q
 
-- Home: https://plaimi.net/games/quizbot.html
+- Home: https://web.archive.org/web/20231205050622/https://plaimi.net/games/quizbot.html
 - State: mature, inactive since 2013
 - Platform: Windows, Linux, macOS
 - Keyword: educational, quiz

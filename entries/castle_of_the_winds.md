@@ -1,6 +1,6 @@
 # Castle of the Winds
 
-- Home: http://game.castleofthewinds.com/, http://mordrax.github.io/cotwmtor/
+- Home: http://mordrax.github.io/cotwmtor/, https://web.archive.org/web/20221127153530/http://game.castleofthewinds.com/
 - Inspiration: Castle of the Winds
 - State: beta, inactive since 2016
 - Play: http://game.castleofthewinds.com/

@@ -67,19 +67,22 @@ Sitemap is not needed, only for large projects with lots of JavaScript und many 
 # TODO inspirations: if included in the database, link instead to game (cross-reference)
 # TODO inspirations: add media links and genres, maybe also years and original developer
 
-import os
+import pathlib
 import shutil
 import math
 import datetime
 import time
 import json
+import string
 from functools import partial
-from utils import osg, constants as c, utils, osg_statistics as stat, osg_parse
+
 from jinja2 import Environment, FileSystemLoader
 import html5lib
 
+from utils import osg, constants as c, utils, osg_statistics as stat, osg_parse
+
 # the categories for the alphabetical indices, letters A-Z, used for identification and as link names internally
-alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+alphabet = string.ascii_uppercase
 # the internal category name for all names not starting with a letter
 extra = '0'
 extended_alphabet = alphabet + extra
@@ -228,7 +231,7 @@ def write(text, file):
     # output file
     if isinstance(file, str):
         file = [file]
-    file = os.path.join(c.web_path, *file)
+    file = c.web_path / *file
 
     # check file hash and use previous version
     if file in previous_files and previous_files[file]['hash'] == file_hash(text):
@@ -239,14 +242,14 @@ def write(text, file):
         try:
             html5parser.parse(text)
         except Exception as e:
-            utils.write_text(os.path.join(c.web_path, 'invalid.html'), text)  # for further checking with https://validator.w3.org/
+            utils.write_text(c.web_path / 'invalid.html', text)  # for further checking with https://validator.w3.org/
             print('problem with file {}, see invalid.html'.format(file))
             raise RuntimeError(e)
 
     # create output directory if necessary
     containing_dir = os.path.dirname(file)
-    if not os.path.isdir(containing_dir):
-        os.mkdir(containing_dir)
+    if not containing_dir.is_dir():
+        containing_dir.mkdir()
 
     # write text
     utils.write_text(file, text)
@@ -910,8 +913,8 @@ def create_table_json_data(entries):
 
     # write out
     text = json.dumps(db, indent=1)
-    os.makedirs(c.web_data_path, exist_ok=True)
-    utils.write_text(os.path.join(c.web_data_path, 'entries.json'), text)
+    c.web_data_path.mkdir(parent=True, exist_ok=True)
+    utils.write_text(c.web_data_path / 'entries.json', text)
 
 
 def create_statistics_section(entries, field, title, file_name, chartmaker, sub_field=None):
@@ -921,7 +924,7 @@ def create_statistics_section(entries, field, title, file_name, chartmaker, sub_
     """
     statistics = stat.get_field_statistics(entries, field, sub_field)
     statistics = stat.truncate_stats(statistics, 10)
-    file = os.path.join(c.web_path, 'statistics', file_name)
+    file = c.web_path / 'statistics', file_name
     chartmaker([s for s in statistics if s[0] != 'N/A'], file)
     # read back and check if identical with old version (up to date)
     text = utils.read_text(file)
@@ -1024,18 +1027,18 @@ def generate(entries, inspirations, developers):
     }
 
     # copy css and js
-    utils.copy_tree(os.path.join(c.web_template_path, 'css'), c.web_css_path)
-    utils.copy_tree(os.path.join(c.web_template_path, 'js'), c.web_js_path)
+    utils.copy_tree(c.web_template_path / 'css', c.web_css_path)
+    utils.copy_tree(c.web_template_path / 'js', c.web_js_path)
 
     # copy screenshots path
-    files = [file for file in os.listdir(c.screenshots_path) if file.endswith('.jpg')]
-    os.makedirs(c.web_screenshots_path, exist_ok=True)
+    files = [file for file in c.screenshots_path.iterdir() if file.endswith('.jpg')]
+    c.web_screenshots_path.mkdir(parent=True, exist_ok=True)
     for file in files:
-        shutil.copyfile(os.path.join(c.screenshots_path, file), os.path.join(c.web_screenshots_path, file))
+        shutil.copyfile(c.screenshots_path / file, c.web_screenshots_path / file)
 
     # collage_image and google search console token and favicon.svg
     for file in ('collage_games.jpg', 'google1f8a3863114cbcb3.html', 'favicon.svg'):
-        shutil.copyfile(os.path.join(c.web_template_path, file), os.path.join(c.web_path, file))
+        shutil.copyfile(c.web_template_path / file, c.web_path / file)
 
     # create Jinja Environment
     environment = Environment(loader=FileSystemLoader(c.web_template_path), autoescape=True)
@@ -1286,7 +1289,7 @@ if __name__ == "__main__":
     for dirpath, dirnames, filenames in os.walk(c.web_path):
         for file in filenames:
             if any(file.endswith(ext) for ext in ('.html', '.svg')):
-                file = os.path.join(dirpath, file)
+                file = dirpath / file
                 text = utils.read_text(file)
                 previous_files[file] = {'hash': file_hash(text), 'text': text}
 

@@ -1,6 +1,6 @@
 # OPMon
 
-- Home: https://opmon-game.ga/
+- Home: https://web.archive.org/web/20220820045848/https://opmon-game.ga/
 - Inspiration: Pokémon
 - State: beta
 - Platform: Windows, Linux, macOS

@@ -1,7 +1,7 @@
 # Magnetar
 
 - Home: https://github.com/joankaradimov/Magnetar
-- Inspiration: Starcraft
+- Inspiration: StarCraft
 - State: beta
 - Download: https://github.com/joankaradimov/Magnetar/releases
 - Keyword: remake, strategy, content commercial + original required, real-time

@@ -2,7 +2,6 @@
 
 - Home: https://sourceforge.net/projects/britbingo/
 - State: mature
-- Play: http://bbingo.eu5.net/
 - Download: https://sourceforge.net/projects/britbingo/files/
 - Platform: Web
 - Keyword: action, board, content open

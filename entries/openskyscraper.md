@@ -1,6 +1,6 @@
 # OpenSkyscraper
 
-- Home: http://openskyscraper.org/
+- Home: https://web.archive.org/web/20230325053751/http://openskyscraper.org/
 - Inspiration: SimTower
 - State: beta
 - Keyword: remake, simulation

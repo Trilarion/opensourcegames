@@ -3,7 +3,7 @@ Central place to calculate statistics about the entries. Used for updating the s
 of the website.
 """
 
-import os
+import pathlib
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -72,8 +72,8 @@ def export_pie_chart(stat, file):
 
     # create output directory if necessary
     containing_dir = os.path.dirname(file)
-    if not os.path.isdir(containing_dir):
-        os.mkdir(containing_dir)
+    if not containing_dir.is_dir():
+        containing_dir.mkdir()
 
     # save figure
     plt.savefig(file, transparent=True)  # TODO can we also just generate svg in text form and save later?
@@ -96,8 +96,8 @@ def export_bar_chart(stat, file, aspect_ratio = 1, tick_label_rotation=0):
 
     # create output directory if necessary
     containing_dir = os.path.dirname(file)
-    if not os.path.isdir(containing_dir):
-        os.mkdir(containing_dir)
+    if not containing_dir.is_dir():
+        containing_dir.mkdir()
 
     # save figure
     plt.savefig(file, transparent=True)

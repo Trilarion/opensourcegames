@@ -16,10 +16,10 @@ def similarity(a, b):
 if __name__ == "__main__":
     similarity_threshold = 0.7
 
-    root_path = os.path.realpath(os.path.join(os.path.dirname(__file__), os.path.pardir))
+    root_path = os.path.realpath(os.path.dirname(__file__) / os.path.pardir)
 
     # read docs/data.json
-    data_file = os.path.join(root_path, 'docs', 'data.json')
+    data_file = root_path / 'docs', 'data.json'
     text = read_text(data_file)
     data = json.loads(text)
 
@@ -29,7 +29,7 @@ if __name__ == "__main__":
     existing_names = list(re.sub(r' \([^)]*\)', '', x) for x in data)
 
     # read names to test
-    test_file = os.path.join(root_path, 'is_already_included.txt')
+    test_file = root_path / 'is_already_included.txt'
     text = read_text(test_file)
     test_names = text.split(', ')
 

@@ -11,6 +11,6 @@
 - Developer: Eric Hall, Ingo Ruhnke, James Barnard, Jasmin Patry, Patrick Gilhuly, Vincent C.H. Ma
 
 Racing game featuring Tux, the Linux Penguin.
-See also https://github.com/ellenpoe/TuxRacer-SDL2, https://github.com/wosigh/tuxracer, https://sourceforge.net/projects/extremetuxracer/, http://www.tuxracer.com/, https://github.com/gonium/fc-extremetuxracer
+See also https://github.com/ellenpoe/TuxRacer-SDL2, https://github.com/wosigh/tuxracer, https://sourceforge.net/projects/extremetuxracer/, https://github.com/gonium/fc-extremetuxracer
 
 ## Building

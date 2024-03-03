@@ -6,7 +6,7 @@ import os
 import json
 from utils import constants as c, utils, osg, osg_gitlab, osg_parse
 
-gl_entries_file = os.path.join(c.code_path, 'gitlab_entries.txt')
+gl_entries_file = c.code_path / 'gitlab_entries.txt'
 prefix = 'https://gitlab.com/'
 
 # these may give errors and should be ignored

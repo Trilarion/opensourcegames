@@ -1,10 +1,10 @@
 # Frozen Bubble
 
-- Home: http://frozen-bubble.org/, https://github.com/videogameboy76/frozenbubbleandroid
+- Home: https://web.archive.org/web/20230720061727/http://frozen-bubble.org/, https://github.com/videogameboy76/frozenbubbleandroid
 - Media: https://en.wikipedia.org/wiki/Frozen_Bubble
 - Inspiration: Puzzle Bobble
 - State: mature, inactive since 2012
-- Download: http://www.frozen-bubble.org/downloads/, https://f-droid.org//packages/org.jfedor.frozenbubble/
+- Download: https://web.archive.org/web/20230626073055/http://www.frozen-bubble.org/downloads/, https://f-droid.org//packages/org.jfedor.frozenbubble/
 - Platform: Linux, macOS, Android
 - Keyword: puzzle, clone, matching
 - Code repository: https://github.com/kthakore/frozen-bubble.git (@created 2009, @stars 120, @forks 28), https://github.com/videogameboy76/frozenbubbleandroid.git @add (@created 2016, @stars 94, @forks 67)

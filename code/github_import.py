@@ -12,7 +12,7 @@ import json
 from random import sample
 from utils import constants as c, utils, osg, osg_parse, osg_github
 
-gh_entries_file = os.path.join(c.code_path, 'github_entries.txt')
+gh_entries_file = c.code_path / 'github_entries.txt'
 prefix = 'https://github.com/'
 MINIMAL_CONTRIBUTIONS = 5
 

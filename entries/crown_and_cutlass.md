@@ -1,6 +1,6 @@
 # Crown and Cutlass
 
-- Home: http://www.crownandcutlass.com/, https://sourceforge.net/projects/crownandcutlass/
+- Home: https://web.archive.org/web/20220127173837/http://www.crownandcutlass.com/, https://sourceforge.net/projects/crownandcutlass/
 - Inspiration: Sid Meier's Pirates!
 - State: beta, inactive since 2009
 - Download: https://sourceforge.net/projects/crownandcutlass/files/crownandcutlass/

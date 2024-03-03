@@ -1,7 +1,6 @@
 # FreedroidRPG
 
 - Home: https://www.freedroid.org/, https://sourceforge.net/projects/freedroid/
-- Media: https://de.wikipedia.org/wiki/FreedroidRPG (German)
 - Inspiration: Paradroid
 - State: mature
 - Download: https://www.freedroid.org/download/

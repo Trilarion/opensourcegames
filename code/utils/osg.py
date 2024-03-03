@@ -3,7 +3,7 @@ Specific functions working on the games.
 """
 
 import re
-import os
+import pathlib
 from difflib import SequenceMatcher
 from utils import utils, osg_parse, constants as c
 
@@ -21,21 +21,19 @@ def entry_iterator():
     """
 
     # get all entries (ignore everything starting with underscore)
-    entries = os.listdir(c.entries_path)
+    entries = c.entries_path.iterdir()
 
     # iterate over all entries
     for entry in entries:
-        entry_path = os.path.join(c.entries_path, entry)
-
         # ignore directories ("tocs" for example)
-        if os.path.isdir(entry_path):
+        if entry.is_dir():
             continue
 
         # read entry
-        content = utils.read_text(entry_path)
+        content = utils.read_text(entry)
 
         # yield
-        yield entry, entry_path, content
+        yield entry, entry.name, content
 
 
 def canonical_name(name):
@@ -57,7 +55,7 @@ def read_developers():
 
     :return:
     """
-    grammar_file = os.path.join(c.code_path, 'grammar_listing.lark')
+    grammar_file = c.code_path / 'grammar_listing.lark'
     developers = osg_parse.read_and_parse(c.developer_file, grammar_file, osg_parse.ListingTransformer)
 
     # now developers is a list of dictionaries for every entry with some properties
@@ -147,7 +145,7 @@ def read_inspirations():
     # read inspirations
 
     # read and parse inspirations
-    grammar_file = os.path.join(c.code_path, 'grammar_listing.lark')
+    grammar_file = c.code_path / 'grammar_listing.lark'
     inspirations = osg_parse.read_and_parse(c.inspirations_file, grammar_file, osg_parse.ListingTransformer)
 
     # now inspirations is a list of dictionaries for every entry with some properties
@@ -231,7 +229,7 @@ def read_entries():
     """
 
     # setup parser and transformer
-    grammar_file = os.path.join(c.code_path, 'grammar_entries.lark')
+    grammar_file = c.code_path / 'grammar_entries.lark'
     grammar = utils.read_text(grammar_file)
     parse = osg_parse.create(grammar, osg_parse.EntryTransformer)
 
@@ -272,12 +270,12 @@ def read_entry(file):
     """
 
     # setup parser and transformer
-    grammar_file = os.path.join(c.code_path, 'grammar_entries.lark')
+    grammar_file = c.code_path / 'grammar_entries.lark'
     grammar = utils.read_text(grammar_file)
     parse = osg_parse.create(grammar, osg_parse.EntryTransformer)
 
     # read entry file
-    content = utils.read_text(os.path.join(c.entries_path, file))
+    content = utils.read_text(c.entries_path / file)
     if not content.endswith('\n'):
         content += '\n'
 
@@ -342,7 +340,7 @@ def check_and_process_entry(entry):
     file = entry['File']
     canonical_file_name = canonical_name(entry['Title']) + '.md'
     # we also allow -X with X =2..9 as possible extension (because of duplicate canonical file names)
-    if canonical_file_name != file and canonical_file_name != file[:-5] + '.md':
+    if canonical_file_name != file.name and canonical_file_name != file.name[:-5] + '.md':
         message += 'File name should be {}\n'.format(canonical_file_name)
 
     # check that fields without comments have no comments (i.e. are no Values)
@@ -453,7 +451,7 @@ def write_entry(entry, overwrite=True):
     # TODO check entry
 
     # get path
-    entry_path = os.path.join(c.entries_path, entry['File'])
+    entry_path = c.entries_path / entry['File']
     if not overwrite and os.path.isfile(entry_path):
         raise RuntimeError(f'File {entry_path} already existing and do not want to overwrite it.')
 

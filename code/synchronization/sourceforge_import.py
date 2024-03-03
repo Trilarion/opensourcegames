@@ -4,13 +4,13 @@ Scrapes Sourceforge project sites and adds (mostly developer) information to our
 
 # TODO sourceforge sites that are not existing anymore but we have an archive link, also scrape
 
-import os
+import pathlib
 import json
 import requests
 from bs4 import BeautifulSoup
 from utils import constants as c, utils, osg, osg_parse
 
-sf_entries_file = os.path.join(c.code_path, 'sourceforge_entries.txt')
+sf_entries_file = c.code_path / 'sourceforge_entries.txt'
 prefix = 'https://sourceforge.net/projects/'
 
 # author names in SF that aren't the author names how we have them

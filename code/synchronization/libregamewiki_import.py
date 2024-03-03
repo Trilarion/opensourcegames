@@ -9,7 +9,7 @@ Unique left column names in the game info boxes:
 TODO there are games on LGW which are not part of the Games category but part of XXX-Games sub-categories, find them
 """
 
-import os
+import pathlib
 import requests
 import json
 import re
@@ -25,7 +25,7 @@ def download_lgw_content():
 
     # parameters
     base_url = 'https://libregamewiki.org'
-    destination_path = os.path.join(constants.root_path, 'code', '../lgw-import')
+    destination_path = constants.root_path / 'lgw-import'
     utils.recreate_directory(destination_path)
 
     # read and process the base url (get all games and categories)
@@ -55,7 +55,7 @@ def download_lgw_content():
     for game in games:
         print(game[1])
         url = base_url + game[0]
-        destination_file = os.path.join(destination_path, osg.canonical_name(game[0][1:]) + '.html')
+        destination_file = destination_path / osg.canonical_name(game[0][1:] + '.html')
 
         text = requests.get(url).text
         utils.write_text(destination_file, text)
@@ -64,17 +64,17 @@ def download_lgw_content():
 def parse_lgw_content():
 
     # paths
-    import_path = os.path.join(constants.root_path, 'code', '../lgw-import')
-    entries_file = os.path.join(import_path, '_lgw.json')
+    import_path = constants.root_path / 'lgw-import'
+    entries_file = import_path / '_lgw.json'
 
     # iterate over all imported files
-    files = os.listdir(import_path)
+    files = import_path.iterdir()
     entries = []
     for file in files:
         if file.startswith('_lgw'):
             continue
 
-        text = utils.read_text(os.path.join(import_path, file))
+        text = utils.read_text(import_path / file)
 
         # parse the html
         soup = BeautifulSoup(text, 'html.parser')
@@ -250,9 +250,9 @@ def ignore_nonnumbers(entries, fields):
 def clean_lgw_content():
 
     # paths
-    import_path = os.path.join(constants.root_path, 'code', '../lgw-import')
-    entries_file = os.path.join(import_path, '_lgw.json')
-    cleaned_entries_file = os.path.join(import_path, '_lgw.cleaned.json')
+    import_path = constants.root_path / 'lgw-import'
+    entries_file = import_path / '_lgw.json'
+    cleaned_entries_file = import_path / '_lgw.cleaned.json'
 
     # load entries
     text = utils.read_text(entries_file)
@@ -370,9 +370,8 @@ def clean_lgw_content():
 
 
 if __name__ == "__main__":
-
     # stage one
-    # download_lgw_content()
+    download_lgw_content()
 
     # stage two
     # parse_lgw_content()

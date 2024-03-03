@@ -1,6 +1,6 @@
 # jewelthief
 
-- Home: http://therefactory.bplaced.net/software/#83d15f35-decf-4ebd-b880-e5edad783031
+- Home: https://github.com/cdetamble/jewelthief
 - Inspiration: Jewel Thief
 - State: mature, inactive since 2016
 - Platform: Android

@@ -60,17 +60,20 @@ https://github.com/carlbirch/BirchEngine
 https://github.com/CatDogEngine/CatDogEngine
 https://github.com/cfoust/sour
 https://github.com/channingbreeze/games
+https://github.com/CharlesPikachu/Games
 https://github.com/choubari/3D-Tanks-Game-Unity
 https://github.com/chvin/react-tetris
 https://github.com/ClarkThyLord/Voxel-Core
 https://github.com/Clownacy/clownmdemu
 https://github.com/codenamecpp/carnage3d#other-gta-12-re-implementations
+https://github.com/collections/game-engines
 https://github.com/Crazy-Marvin/EllaTheGame
 https://github.com/cykod/AlienInvasion
 https://github.com/DaoCloud/dao-2048
 https://github.com/DavidSM64/Diddy-Kong-Racing
 https://github.com/deathkiller/jazz2-native
 https://github.com/delmarle/RPG-Core
+https://github.com/dmcinnes/HTML5-Asteroids
 https://github.com/doldecomp/melee
 https://github.com/domeengine/dome
 https://github.com/dtrajko/MoravaEngine
@@ -111,6 +114,7 @@ https://github.com/jhasse/jngl # game library ? (complete engine?)
 https://github.com/JimmieKJ/unrealTournament
 https://github.com/JoeyDeVries/Cell
 https://github.com/juliangarnier/3D-Hartwig-chess-set
+https://github.com/justinmeister/Mario-Level-1
 https://github.com/Kaetram/Kaetram-Open
 https://github.com/Kavex/GameDev-Resources
 https://github.com/kenamick/savagewheels
@@ -128,6 +132,7 @@ https://github.com/lospec/pixel-editor
 https://github.com/loudsmilestudios/TetraForce
 https://github.com/magwo/elevatorsaga
 https://github.com/man-in-black382/PathFinder
+https://github.com/mgerdes/Open-Golf
 https://github.com/mgerhardy/engine
 https://github.com/michaelday008/AnyRPGCore
 https://github.com/michelpereira/awesome-games-of-coding
@@ -140,6 +145,8 @@ https://github.com/MrFrenik/gunslinger
 https://github.com/nCine/nCine
 https://github.com/ondras/rot.js
 https://github.com/open-telemetry/opentelemetry-cpp
+https://github.com/OpenGMK/OpenGMK
+https://github.com/osslugaru/lugaru
 https://github.com/OverShifted/OverEngine
 https://github.com/oxygine/oxygine-framework
 https://github.com/Oyun-Teknolojileri/ToolKit
@@ -188,6 +195,7 @@ https://github.com/tomlooman/SimpleFPSTemplate
 https://github.com/TomMalbran/games
 https://github.com/tommyettinger/gdx-liftoff
 https://github.com/tsherif/space-shooter.c
+https://github.com/TTimo/doom3.gpl
 https://github.com/untoldengine/UntoldEngine
 https://github.com/videogamepreservation
 https://github.com/volcoma/EtherealEngine

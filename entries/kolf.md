@@ -2,7 +2,7 @@
 
 - Home: https://apps.kde.org/kolf/
 - State: mature
-- Download: https://flathub.org/apps/details/org.kde.kolf
+- Download: https://flathub.org/apps/org.kde.kolf
 - Platform: Linux
 - Keyword: sports, golf
 - Code repository: https://invent.kde.org/games/kolf.git

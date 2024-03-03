@@ -11,16 +11,16 @@ if __name__ == '__main__':
     # https://sourceforge.net/projects/phaosrpg/files/OldFiles/Pv0.7devel.zip/download is a corrupt zip
 
     # base path is the directory containing this file
-    base_path = os.path.abspath(os.path.dirname(__file__))
+    base_path = pathlib.Path(__file__)
     print('base path={}'.format(base_path))
 
     # recreate archive path
-    archive_path = os.path.join(base_path, 'downloads')
-    if not os.path.exists(archive_path):
-        os.mkdir(archive_path)
+    archive_path = base_path / 'downloads'
+    if not archive_path.exists():
+        archive_path.mkdir()
 
     # load source releases urls
-    with open(os.path.join(base_path, 'phaos.json'), 'r') as f:
+    with open(base_path / 'phaos.json', 'r') as f:
         urls = json.load(f)
     print('will process {} urls'.format(len(urls)))
     if len(urls) != len(set(urls)):
@@ -37,13 +37,13 @@ if __name__ == '__main__':
     #     print(version)
 
     # extend archives to full paths
-    archives = [os.path.join(archive_path, x) for x in archives]
+    archives = [archive_path / x for x in archives]
 
     # download them
     print('download source releases')
     for url, destination in zip(urls, archives):
         # only if not yet existing
-        if os.path.exists(destination):
+        if destination.exists():
             continue
         # download
         print('  download {}'.format(os.path.basename(destination)))
@@ -58,9 +58,9 @@ if __name__ == '__main__':
     for archive, unzipped_archive in zip(archives, unzipped_archives):
         print('  unzip {}'.format(os.path.basename(archive)))
         # only if not yet existing
-        if os.path.exists(unzipped_archive):
+        if unzipped_archive.exists():
             continue
-        os.mkdir(unzipped_archive)
+        unzipped_archive.mkdir()
         # unzip
         unzip_keep_last_modified(archive, unzipped_archive)
 
@@ -81,10 +81,10 @@ if __name__ == '__main__':
         print('  date={} version={}'.format(date, version))
 
     # git init
-    git_path = os.path.join(base_path, 'phaosrpg')
-    if os.path.exists(git_path):
+    git_path = base_path / 'phaosrpg'
+    if git_path.exists():
         shutil.rmtree(git_path)
-    os.mkdir(git_path)
+    git_path.mkdir()
     os.chdir(git_path)
     subprocess_run(['git', 'init'])
     subprocess_run(['git', 'config', 'user.name', 'Trilarion'])
@@ -98,12 +98,12 @@ if __name__ == '__main__':
 
         # clear git path without deleting .git
         print('    clear git')
-        for item in os.listdir(git_path):
+        for item in git_path.iterdir():
             # ignore '.git
             if item == '.git':
                 continue
-            item = os.path.join(git_path, item)
-            if os.path.isdir(item):
+            item = git_path / item
+            if item.is_dir():
                 shutil.rmtree(item)
             else:
                 os.remove(item)

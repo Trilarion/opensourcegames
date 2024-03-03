@@ -1,6 +1,6 @@
 # Jazz² Resurrection
 
-- Home: http://deat.tk/jazz2/
+- Home: https://web.archive.org/web/20240122225452/http://deat.tk/jazz2/
 - Inspiration: Jazz Jackrabbit 2
 - State: mature
 - Platform: Windows, Linux, macOS, Android, Web

@@ -10,7 +10,7 @@
 - Code language: Java, JavaScript
 - Code license: MIT
 
-See also http://www.users.waitrose.com/~thunor/jspp/index.html which is GPL-2.0. If this Android project uses code from 
+See also https://web.archive.org/web/20210924120826/http://www.users.waitrose.com/~thunor/jspp/index.html which is GPL-2.0. If this Android project uses code from
 the web project by thunor it may not be possible to license as MIT.
 
 ## Building

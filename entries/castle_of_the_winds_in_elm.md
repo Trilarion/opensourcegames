@@ -1,6 +1,6 @@
 # Castle of the Winds in Elm
 
-- Home: http://game.castleofthewinds.com/
+- Home: https://web.archive.org/web/20221127153530/http://game.castleofthewinds.com/
 - Inspiration: Castle of the Winds
 - State: beta
 - Platform: Web

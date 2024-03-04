@@ -1,6 +1,6 @@
 # ONScripter
 
-- Home: http://onscripter.osdn.jp/onscripter.html
+- Home: https://web.archive.org/web/20231102082402/http://onscripter.osdn.jp/onscripter.html
 - Inspiration: NScripter
 - State: mature, inactive since 2020
 - Platform: Windows, Linux, macOS, Android

@@ -17,7 +17,6 @@ see https://serverfault.com/questions/544156/git-clone-fail-instead-of-prompting
 # TODO Sourceforge git clone may not work all the time (restarting the script sometimes helps..)
 
 import json
-import pathlib
 
 from utils.utils import *
 from utils.archive import *

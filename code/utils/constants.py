@@ -68,7 +68,7 @@ valid_building_fields = valid_building_properties + ('Note',)
 valid_platforms = ('Windows', 'Linux', 'macOS', 'Android', 'iOS', 'Web')
 
 # these fields are not allowed to have comments
-fields_without_comments = ('Inspiration', 'Play', 'Download', 'Platform', 'Code dependency')
+fields_without_comments = ('Inspiration', 'Play', 'Platform', 'Code dependency')
 
 # at least one of these must be used for every entry, this gives the principal categories and the order of the categories
 recommended_keywords = (
@@ -254,3 +254,7 @@ essential_inspiration_fields = ('Name', 'Inspired entries')
 optional_inspiration_fields = ('Media','Included')
 valid_inspiration_fields = essential_inspiration_fields + optional_inspiration_fields
 url_inspiration_fields = ('Media',)
+
+# @xxx annotations in entry files
+valid_annotation = ('add', 'artwork', 'audio', 'archived', 'created', 'design', 'documentation', 'forks', 'lang', 'lead',
+                    'old', 'packaging', 'port', 'partly', 'source', 'stars')

@@ -1,10 +1,9 @@
 # Oolite
 
-- Home: http://www.oolite.org/, https://wiki.alioth.net/index.php/Oolite_Main_Page, http://aegidian.org/bb/index.php
+- Home: https://web.archive.org/web/20230311224336/http://www.oolite.org/, https://wiki.alioth.net/index.php/Oolite_Main_Page, http://aegidian.org/bb/index.php
 - Media: https://en.wikipedia.org/wiki/Oolite_(video_game)
 - Inspiration: Elite
 - State: mature
-- Download: http://oolite.org/download/
 - Platform: Windows, Linux, macOS
 - Keyword: simulation, 3D, clone, space, trading
 - Code repository: https://github.com/OoliteProject/oolite.git (@created 2013, @stars 422, @forks 64)

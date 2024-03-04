@@ -2,7 +2,7 @@
 
 - Home: https://abe.sourceforge.net/, https://sourceforge.net/projects/abe/
 - State: mature, inactive since 2005
-- Download: https://sourceforge.net/projects/abe/files/
+- Download: https://sourceforge.net/projects/abe/files/abe/
 - Platform: Windows, Linux, macOS
 - Keyword: platform, side-scrolling
 - Code repository: https://gitlab.com/osgames/abe.git (import of cvs, @created 2019, @stars 1, @forks 0), http://abe.cvs.sourceforge.net (cvs)

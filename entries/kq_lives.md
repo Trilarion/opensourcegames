@@ -1,6 +1,6 @@
 # KQ Lives
 
-- Home: https://kqlives.sourceforge.net/, https://sourceforge.net/projects/kqlives/
+- Home: https://web.archive.org/web/20230209011915/https://kqlives.sourceforge.net/, https://sourceforge.net/projects/kqlives/
 - State: beta, inactive since 2011
 - Download: https://sourceforge.net/projects/kqlives/files/
 - Keyword: role playing

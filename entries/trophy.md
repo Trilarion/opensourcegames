@@ -1,6 +1,6 @@
 # TROPHY
 
-- Home: https://trophy.sourceforge.net/, https://sourceforge.net/projects/trophy/
+- Home: https://trophy.sourceforge.io/, https://sourceforge.net/projects/trophy/
 - State: mature, inactive since 2012
 - Download: https://trophy.sourceforge.net/index.php?body=download, https://sourceforge.net/projects/trophy/files/
 - Platform: Windows, Linux

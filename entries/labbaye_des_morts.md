@@ -1,6 +1,6 @@
 # L'Abbaye des Morts
 
-- Home: https://locomalito.com/abbaye_des_morts.php
+- Home: https://locomalito.com/abbaye-des-morts.php
 - State: mature, inactive since 2018
 - Platform: Windows, Linux
 - Keyword: adventure, platform, 2D, content open, side-scrolling

@@ -265,9 +265,12 @@ def read_entries():
 def read_entry(file):
     """
     Reads a single entry
-    :param file: the entry file (without path)
+    :param file: the entry file (can be a pathlib.Path or a filename)
     :return: the entry
     """
+
+    if not isinstance(file, pathlib.Path):
+        file = c.entries_path / file
 
     # setup parser and transformer
     grammar_file = c.code_path / 'grammar_entries.lark'
@@ -275,14 +278,14 @@ def read_entry(file):
     parse = osg_parse.create(grammar, osg_parse.EntryTransformer)
 
     # read entry file
-    content = utils.read_text(c.entries_path / file)
+    content = utils.read_text(file)
     if not content.endswith('\n'):
         content += '\n'
 
     # parse and transform entry content
     try:
         entry = parse(content)
-        entry = [('File', file),] + entry # add file information to the beginning
+        entry = [('File', file),] + entry  # add file information to the beginning
         entry = check_and_process_entry(entry)
     except Exception as e:
         print(f'{file} - {e}')
@@ -338,10 +341,10 @@ def check_and_process_entry(entry):
 
     # check canonical file name
     file = entry['File']
-    canonical_file_name = canonical_name(entry['Title']) + '.md'
+    canonical_filename = canonical_name(entry['Title']) + '.md'
     # we also allow -X with X =2..9 as possible extension (because of duplicate canonical file names)
-    if canonical_file_name != file.name and canonical_file_name != file.name[:-5] + '.md':
-        message += f'File name should be {canonical_file_name}\n'
+    if canonical_filename != file.name and canonical_filename != file.name[:-5] + '.md':
+        message += f'File name should be {canonical_filename}\n'
 
     # check that fields without comments have no comments (i.e. are no Values)
     for field in c.fields_without_comments:

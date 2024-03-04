@@ -1,6 +1,6 @@
 # MafiaUnity
 
-- Home: https://discord.gg/eBQ4QHX
+- Home: https://github.com/MafiaHub/MafiaUnity
 - Inspiration: Mafia
 - State: beta, inactive since 2020
 - Platform: Windows

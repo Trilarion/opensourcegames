@@ -1,6 +1,6 @@
 # LMarbles
 
-- Home: https://lgames.sourceforge.net/LMarbles/, https://sourceforge.net/projects/lgames/
+- Home: https://lgames.sourceforge.io/LMarbles/, https://sourceforge.net/projects/lgames/
 - Inspiration: Atomix
 - State: beta
 - Keyword: strategy, clone, content open

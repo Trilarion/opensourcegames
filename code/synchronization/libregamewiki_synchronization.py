@@ -221,11 +221,11 @@ if __name__ == "__main__":
 
             # determine file name
             print(f'create new entry for {lgw_name}')
-            file_name = osg.canonical_name(lgw_name) + '.md'
-            target_file = constants.entries_path / file_name
+            filename = osg.canonical_name(lgw_name) + '.md'
+            target_file = constants.entries_path / filename
             if os.path.isfile(target_file):
-                print(f'warning: file {file_name} already existing, save under slightly different name')
-                target_file = constants.entries_path / file_name[:-3] + '-duplicate.md'
+                print(f'warning: file {filename} already existing, save under slightly different name')
+                target_file = constants.entries_path / filename[:-3] + '-duplicate.md'
                 if os.path.isfile(target_file):
                     continue  # just for safety reasons
 

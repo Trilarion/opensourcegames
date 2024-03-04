@@ -1,6 +1,6 @@
 # KungFoo Barracuda
 
-- Home: https://twitter.com/onetwofivegames
+- Home: https://github.com/poseidn/KungFoo
 - State: mature, inactive since 2016
 - Download: https://f-droid.org/de/packages/com.onetwofivegames.kungfoobarracuda/
 - Platform: Linux, Android

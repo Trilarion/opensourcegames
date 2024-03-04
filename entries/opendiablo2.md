@@ -1,6 +1,6 @@
 # OpenDiablo2
 
-- Home: https://opendiablo2.com/
+- Home: https://web.archive.org/web/20230529025924/https://opendiablo2.com/
 - Inspiration: Diablo II
 - State: mature
 - Platform: Windows, Linux, macOS

@@ -3,7 +3,7 @@
 - Home: https://www.berlios.de/software/lincity-ng/, https://code.google.com/archive/p/lincity-ng/, https://sourceforge.net/projects/lincity-ng.berlios/
 - Inspiration: LinCity, SimCity
 - State: mature
-- Download: https://bintray.com/lincityng/LinCity-NG/LinCity-NG, https://sourceforge.net/projects/lincity-ng.berlios/files/
+- Download: https://sourceforge.net/projects/lincity-ng.berlios/files/
 - Keyword: simulation, city, clone
 - Code repository: https://github.com/lincity-ng/lincity-ng.git (@created 2015, @stars 316, @forks 76)
 - Code language: C++

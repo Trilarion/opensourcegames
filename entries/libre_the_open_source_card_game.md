@@ -1,6 +1,6 @@
 # Libre: The Open Source Card Game
 
-- Home: https://librecardgame.sourceforge.net/dokuwiki/doku.php, https://sourceforge.net/projects/librecardgame/
+- Home: https://web.archive.org/web/20230330114046/https://librecardgame.sourceforge.net/dokuwiki/doku.php, https://sourceforge.net/projects/librecardgame/
 - State: mature, inactive since 2010
 - Download: https://sourceforge.net/projects/librecardgame/files/
 - Keyword: cards, tool

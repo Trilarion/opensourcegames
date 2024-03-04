@@ -3,7 +3,7 @@
 - Home: https://2009scape.org/
 - Inspiration: RuneScape
 - State: mature
-- Download: https://2009scape.org/site/game_guide/how_do_i_get_started0.html
+- Download: https://2009scape.org/site/game_guide/play.html#download
 - Platform: Windows, Linux, macOS
 - Keyword: remake, role playing, content commercial, multiplayer online + co-op
 - Code repository: https://gitlab.com/2009scape/2009scape.git (@created 2017, @stars 18, @forks 37)

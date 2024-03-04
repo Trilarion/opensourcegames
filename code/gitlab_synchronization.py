@@ -2,15 +2,15 @@
 Uses the Gitlab API to learn more about the Gitlab projects.
 """
 
-import os
 import json
-from utils import constants as c, utils, osg, osg_gitlab, osg_parse
+from utils import constants as c, utils, osg, osg_gitlab
 
 gl_entries_file = c.code_path / 'gitlab_entries.txt'
 prefix = 'https://gitlab.com/'
 
 # these may give errors and should be ignored
 ignored_repos = ()
+
 
 def collect_gitlab_entries():
     """
@@ -23,15 +23,15 @@ def collect_gitlab_entries():
     print(f'{len(entries)} entries read')
 
     # loop over entries
-    files = []
+    filenames = []
     for entry in entries:
         urls = [x for x in entry.get('Code repository', []) if x.startswith(prefix)]
         if urls:
-            files.append(entry['File'])
+            filenames.append(entry['File'].name)
 
     # write to file
-    print(f'{len(files)} entries with gitlab repos')
-    utils.write_text(gl_entries_file, json.dumps(files, indent=1))
+    print(f'{len(filenames)} entries with gitlab repos')
+    utils.write_text(gl_entries_file, json.dumps(filenames, indent=1))
 
 
 def gitlab_import():
@@ -84,8 +84,8 @@ def gitlab_import():
                 comments = r.comment
                 if comments:
                     comments = comments.split(',')
-                    comments = [c.strip() for c in comments]
-                    comments = [c for c in comments if not c.startswith('@')]  # delete old ones
+                    comments = [comment.strip() for comment in comments]
+                    comments = [comment for comment in comments if not comment.startswith('@')]  # delete old ones
                     comments += new_comments
                 else:
                     comments = new_comments
@@ -106,12 +106,12 @@ def gitlab_import():
         utils.write_text(gl_entries_file, json.dumps(files[index:], indent=1))
 
         # osg.write_developers(all_developers)
-        print('developers database updated')
+        # print('developers database updated')
 
 
 def gitlab_starring_synchronization():
     """
-    Which Gitlab repositories haven't I starred yet.
+    Which Gitlab repositories have I not starred yet.
     """
     private_properties = json.loads(utils.read_text(c.private_properties_file))
 
@@ -134,14 +134,15 @@ def gitlab_starring_synchronization():
     all_repos = set(all_repos)
     print(f'found {len(all_repos)} Gitlab repos')
 
+    # TODO not finished
 
 
 if __name__ == "__main__":
     # collect entries (run this only once)
     # collect_gitlab_entries()
 
-    # import information from gh
+    # import information from Gitlab
     # gitlab_import()
 
-    # which gitlab repos haven't I starred
-    gitlab_starring_synchronization()
+    # which Gitlab repos have I not starred?
+    # gitlab_starring_synchronization()

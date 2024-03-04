@@ -918,14 +918,14 @@ def create_table_json_data(entries):
     utils.write_text(c.web_data_path / 'entries.json', text)
 
 
-def create_statistics_section(entries, field, title, file_name, chartmaker, sub_field=None):
+def create_statistics_section(entries, field, title, filename, chartmaker, sub_field=None):
     """
     Creates a statistics section for a given field name from entries and a given chart type (see stat.export_xxx_chart)
     :return:
     """
     statistics = stat.get_field_statistics(entries, field, sub_field)
     statistics = stat.truncate_stats(statistics, 10)
-    file = c.web_path / 'statistics' / file_name
+    file = c.web_path / 'statistics' / filename
     chartmaker([s for s in statistics if s[0] != 'N/A'], file)
     # read back and check if identical with old version (up to date)
     text = utils.read_text(file)
@@ -937,7 +937,7 @@ def create_statistics_section(entries, field, title, file_name, chartmaker, sub_
         'title': title,
         'id': osg.canonical_name(title),
         'items': ['{} ({})'.format(*item) for item in statistics],
-        'chart': statistics_path + [file_name]
+        'chart': statistics_path + [filename]
     }
     return section
 

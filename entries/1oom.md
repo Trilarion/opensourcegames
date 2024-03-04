@@ -4,7 +4,7 @@
 - Inspiration: Master of Orion
 - State: mature
 - Download: https://gitlab.com/KilgoreTroutMaskReplicant/1oom/-/tags
-- Platform: Windows, Linux
+- Platform: Windows
 - Keyword: remake, strategy, content commercial, engine recreation
 - Code repository: https://gitlab.com/KilgoreTroutMaskReplicant/1oom.git (@created 2018, @stars 23, @forks 9)
 - Code language: C

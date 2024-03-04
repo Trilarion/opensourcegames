@@ -1,9 +1,9 @@
 # OpenAlchemist
 
-- Home: http://www.openalchemist.com/, https://sourceforge.net/projects/openalchemist/
+- Home: https://web.archive.org/web/20210506165721/http://www.openalchemist.com/, https://sourceforge.net/projects/openalchemist/
 - Inspiration: NaturalChimie
 - State: beta, inactive since 2010
-- Download: http://www.openalchemist.com/downloads.php, https://sourceforge.net/projects/openalchemist/files/
+- Download: https://sourceforge.net/projects/openalchemist/files/
 - Platform: Windows, Linux
 - Keyword: puzzle, content open
 - Code repository: https://svn.code.sf.net/p/openalchemist/code (svn)

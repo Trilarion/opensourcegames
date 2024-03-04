@@ -1,4 +1,5 @@
 pygithub
+python-gitlab
 lark-parser
 BeautifulSoup4
 PySide6

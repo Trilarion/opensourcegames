@@ -3,6 +3,8 @@
 - Home: http://antonior-software.blogspot.com/2016/05/abuse-1996-sdl-port-09a.html
 - Inspiration: Abuse
 - State: mature, inactive since 2016
+- Download: https://github.com/antrad/Abuse_1996/releases
+- Platform: Windows
 - Keyword: remake, content open
 - Code repository: https://github.com/antrad/Abuse_1996.git (@created 2016, @stars 109, @forks 24)
 - Code language: C++, Lisp

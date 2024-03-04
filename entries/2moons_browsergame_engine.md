@@ -2,7 +2,6 @@
 
 - Home: https://github.com/jkroepke/2Moons
 - State: mature
-- Download: https://github.com/jkroepke/2Moons/releases
 - Platform: Web
 - Keyword: framework, simulation, strategy, space
 - Code repository: https://github.com/jkroepke/2Moons.git (@archived, @created 2015, @stars 140, @forks 105), https://github.com/steemnova/steemnova.git @add (@created 2018, @stars 69, @forks 63)

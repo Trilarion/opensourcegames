@@ -496,16 +496,16 @@ if __name__ == "__main__":
 
             # determine file name
             print(f'create new entry for {osgc_name}')
-            file_name = osg.canonical_name(osgc_name) + '.md'
-            target_file = c.entries_path / file_name
+            filename = osg.canonical_name(osgc_name) + '.md'
+            target_file = c.entries_path / filename
             if target_file.is_file():
-                print(f'warning: file {file_name} already existing, save under slightly different name')
-                target_file = c.entries_path / file_name[:-3] + '-duplicate.md'
+                print(f'warning: file {filename} already existing, save under slightly different name')
+                target_file = c.entries_path / filename[:-3] + '-duplicate.md'
                 if target_file.is_file():
                     continue  # just for safety reasons
 
             # add Title and File
-            entry = {'Title': osgc_name, 'File': file_name}
+            entry = {'Title': osgc_name, 'File': filename}
 
             # add home
             if 'url' in osgc_entry:

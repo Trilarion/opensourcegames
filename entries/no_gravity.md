@@ -1,7 +1,7 @@
 # No Gravity
 
-- Home: https://sourceforge.net/projects/nogravity/, http://www.nogravitythegame.com/classic/
-- Media: https://en.wikipedia.org/wiki/No_Gravity_(video_game), https://www.mobygames.com/game/no-gravity_
+- Home: https://sourceforge.net/projects/nogravity/, https://web.archive.org/web/20221207060251/https://www.nogravitythegame.com/classic
+- Media: https://en.wikipedia.org/wiki/No_Gravity_(video_game), https://www.mobygames.com/game/94248/no-gravity/
 - State: mature, inactive since 2006
 - Download: https://sourceforge.net/projects/nogravity/files/
 - Platform: Windows, Linux

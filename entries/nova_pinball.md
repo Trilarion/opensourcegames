@@ -1,6 +1,6 @@
 # NOVA PINBALL
 
-- Home: https://engrams.dev/nova-pinball/
+- Home: https://web.archive.org/web/20201108091437/https://engrams.dev/nova-pinball/
 - State: beta, inactive since 2017
 - Download: https://github.com/wesleywerner/nova-pinball/releases
 - Platform: Windows, Linux, macOS, Android, iOS

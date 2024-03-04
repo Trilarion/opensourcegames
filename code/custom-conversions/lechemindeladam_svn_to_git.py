@@ -180,7 +180,7 @@ def delete_global_excludes(folder):
     """
 
     """
-    for dirpath, dirnames, filenames in os.walk(folder):
+    for dirpath, dirnames, filenames in folder.walk():
         rel_path = os.path.relpath(dirpath, folder)
         for file in filenames:
             if file in global_exclude:
@@ -191,7 +191,7 @@ def delete_empty_directories(folder):
     """
 
     """
-    for dirpath, dirnames, filenames in os.walk(folder, topdown=False):
+    for dirpath, dirnames, filenames in folder.walk(topdown=False):
         rel_path = os.path.relpath(dirpath, folder)
         if not filenames and not dirnames:
             os.removedirs(dirpath)
@@ -202,7 +202,7 @@ def list_large_unwanted_files(folder):
 
     """
     output = []
-    for dirpath, dirnames, filenames in os.walk(folder):
+    for dirpath, dirnames, filenames in folder.walk():
         rel_path = os.path.relpath(dirpath, folder)
         for file in filenames:
             file_path = dirpath / file

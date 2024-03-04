@@ -223,16 +223,18 @@ def raise_helper(msg):
     raise Exception(msg)
 
 
-def write(text, file):
+def write(text, path):
     """
     Writes a generated HTML page to a file, but checks with a HTML parser before.
     :param text:
     :param file:
     """
     # output file
-    if isinstance(file, str):
-        file = [file]
-    file = c.web_path / file
+    if isinstance(path, str):
+        path = [path]
+    file = c.web_path
+    for part in path:
+        file /= part
 
     # check file hash and use previous version
     if file in previous_files and previous_files[file]['hash'] == file_hash(text):
@@ -248,9 +250,7 @@ def write(text, file):
             raise RuntimeError(e)
 
     # create output directory if necessary
-    containing_dir = os.path.dirname(file)
-    if not containing_dir.is_dir():
-        containing_dir.mkdir()
+    file.parent.mkdir(parents=True, exist_ok=True)
 
     # write text
     utils.write_text(file, text)
@@ -1032,14 +1032,14 @@ def generate(entries, inspirations, developers):
     utils.copy_tree(c.web_template_path / 'js', c.web_js_path)
 
     # copy screenshots path
-    files = [file for file in c.screenshots_path.iterdir() if file.endswith('.jpg')]
+    filenames = [file.name for file in c.screenshots_path.iterdir() if file.suffix == '.jpg']
     c.web_screenshots_path.mkdir(parents=True, exist_ok=True)
-    for file in files:
-        shutil.copyfile(c.screenshots_path / file, c.web_screenshots_path / file)
+    for filename in filenames:
+        shutil.copyfile(c.screenshots_path / filename, c.web_screenshots_path / filename)
 
     # collage_image and google search console token and favicon.svg
-    for file in ('collage_games.jpg', 'google1f8a3863114cbcb3.html', 'favicon.svg'):
-        shutil.copyfile(c.web_template_path / file, c.web_path / file)
+    for filename in ('collage_games.jpg', 'google1f8a3863114cbcb3.html', 'favicon.svg'):
+        shutil.copyfile(c.web_template_path / filename, c.web_path / filename)
 
     # create Jinja Environment
     environment = Environment(loader=FileSystemLoader(c.web_template_path), autoescape=True)
@@ -1287,12 +1287,12 @@ if __name__ == "__main__":
 
     # create dictionary of file hashes
     print('estimate file hashes')
-    for dirpath, dirnames, filenames in os.walk(c.web_path):  # TODO in Python 3.12 Path.walk() exists
-        for file in filenames:
-            if any(file.endswith(ext) for ext in ('.html', '.svg')):
-                file = pathlib.Path(dirpath) / file
-                text = utils.read_text(file)
-                previous_files[file] = {'hash': file_hash(text), 'text': text}
+    for dirpath, dirnames, filenames in c.web_path.walk():  # TODO in Python 3.12 Path.walk() exists
+        for filename in filenames:
+            if any(filename.endswith(ext) for ext in ('.html', '.svg')):
+                filename = dirpath / filename
+                text = utils.read_text(filename)
+                previous_files[filename] = {'hash': file_hash(text), 'text': text}
 
     # clean the output directory
     print('clean current static website')

@@ -1,4 +1,4 @@
-﻿﻿"""
+﻿"""
 
 osgameclones has the following fields:
 'updated', 'video', 'repo', 'license', 'originals', 'status', 'multiplayer', 'info', 'lang', 'feed', 'content', 'images', 'url', 'name', 'framework', 'type', 'development'
@@ -152,7 +152,7 @@ if __name__ == "__main__":
     download_missing_screenshots = False
 
     # paths
-    root_path = os.path.realpath(os.path.dirname(__file__) / os.path.pardir, os.path.pardir)
+    root_path = c.root_path
 
     # read our database
     our_entries = osg.read_entries()
@@ -171,8 +171,7 @@ if __name__ == "__main__":
     screenshots = osg.read_screenshots_overview()
 
     # import osgameclones data
-    osgc_path = os.path.realpath(os.path.join(root_path, os.path.pardir, '11_osgameclones.git',
-                                              'games'))  # this is specific for my local constellation
+    osgc_path = root_path.parent / '11_osgameclones.git' / 'games'  # this is specific for my local constellation
     osgc_files = osgc_path.iterdir()
 
     # iterate over all yaml files in osgameclones/data folder and load contents
@@ -499,10 +498,10 @@ if __name__ == "__main__":
             print(f'create new entry for {osgc_name}')
             file_name = osg.canonical_name(osgc_name) + '.md'
             target_file = c.entries_path / file_name
-            if os.path.isfile(target_file):
+            if target_file.is_file():
                 print(f'warning: file {file_name} already existing, save under slightly different name')
                 target_file = c.entries_path / file_name[:-3] + '-duplicate.md'
-                if os.path.isfile(target_file):
+                if target_file.is_file():
                     continue  # just for safety reasons
 
             # add Title and File

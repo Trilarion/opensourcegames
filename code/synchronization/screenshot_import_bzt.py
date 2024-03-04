@@ -13,7 +13,7 @@ from utils import utils as u, constants as c, osg as osg
 
 if __name__ == "__main__":
     # paths
-    root_path = os.path.realpath(os.path.dirname(__file__) / os.path.pardir, os.path.pardir)
+    root_path = os.path.realpath(__file__.parent / os.path.pardir, os.path.pardir)
 
     # read content of screenshots_bzt.txt
     info = u.read_text(root_path / 'code' / 'synchronization' / 'screenshots_bzt.txt')

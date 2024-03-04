@@ -49,7 +49,7 @@ def single_release(zip):
 
     # get date from the files (latest of last modified)
     latest_last_modified = 0
-    for dirpath, dirnames, filenames in os.walk(git_path):
+    for dirpath, dirnames, filenames in git_path.walk():
         if dirpath.startswith(git_path / '.git'):
             # not in '.git'
             continue

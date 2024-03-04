@@ -3,7 +3,7 @@ Simple UI helpers with PyQt
 """
 
 import sys
-from PyQt5 import QtCore, QtGui, QtWidgets
+from PySide6 import QtCore, QtGui, QtWidgets
 
 
 def exception_hook(type, value, traceback):
@@ -20,7 +20,7 @@ def run_simple_button_app(title, actions):
     :param actions:
     :return:
     """
-    # fix PyQt5 eating exceptions (see http://stackoverflow.com/q/14493081/1536976)
+    # fix PySide6 eating exceptions (see http://stackoverflow.com/q/14493081/1536976)
     sys.excepthook = exception_hook
 
     # create app

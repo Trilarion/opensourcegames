@@ -16,7 +16,7 @@ def similarity(a, b):
 if __name__ == "__main__":
     similarity_threshold = 0.7
 
-    root_path = os.path.realpath(os.path.dirname(__file__) / os.path.pardir)
+    root_path = os.path.realpath(__file__.parent / os.path.pardir)
 
     # read docs/data.json
     data_file = root_path / 'docs', 'data.json'

@@ -71,7 +71,7 @@ def single_revision():
     global original_date
     if original_date is None:
         latest_last_modified = 0
-        for dirpath, dirnames, filenames in os.walk(nonempty_temp_path):
+        for dirpath, dirnames, filenames in nonempty_temp_path.walk():
             for filename in filenames:
                 filepath = dirpath / filename
                 lastmodified = os.path.getmtime(filepath)

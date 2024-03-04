@@ -1,7 +1,7 @@
 pygithub
 lark-parser
 BeautifulSoup4
-PyQt5
+PySide6
 wikipedia
 Jinja2
 html5lib

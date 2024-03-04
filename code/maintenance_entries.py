@@ -114,7 +114,6 @@ class EntriesMaintainer:
         osg.write_entries(self.entries)
         print('entries written')
 
-
     def check_template_leftovers(self):
         """
         Checks for template leftovers.
@@ -130,7 +129,7 @@ class EntriesMaintainer:
 
             for check_string in check_strings:
                 if content.find(check_string) >= 0:
-                    print(f'{os.path.basename(entry_path)}: found {check_string}')
+                    print(f'{entry_path.parent}: found {check_string}')
         print('checked for template leftovers')
 
     def check_inconsistencies(self):

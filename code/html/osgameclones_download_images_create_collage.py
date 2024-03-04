@@ -184,7 +184,7 @@ if __name__ == "__main__":
     N = Nx * Ny
 
     # paths
-    root_path = os.path.realpath(os.path.dirname(__file__) / os.path.pardir)
+    root_path = os.path.realpath(__file__.parent / os.path.pardir)
     download_path = root_path / 'code' / 'images-download'
     downsized_path = download_path / 'downsized'
     output_file = root_path / 'code' / 'collage_games.jpg'

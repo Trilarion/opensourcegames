@@ -13,8 +13,11 @@ def local_module(module_base, file_path, module):
     """
     module = module.split('.')
     module[-1] += '.py'
-    pathA = module_base / *module
-    pathB = file_path / *module
+    pathA = module_base
+    pathB = file_path
+    for part in module:
+        pathA /= part
+        pathB /= part
     return pathA.exists() or pathB.exists()
 
 
@@ -32,13 +35,13 @@ if __name__ == "__main__":
     regex_as = re.compile(r"(as.*)$", re.MULTILINE)
 
     # modify these locations
-    root_folder = r''
-    module_base = r''
+    root_folder = pathlib.Path(r'')
+    module_base = pathlib.Path(r'')
 
     # get all *.py files below the root_folder
     python_files = []
     setup_files = []
-    for dirpath, dirnames, filenames in os.walk(root_folder):
+    for dirpath, dirnames, filenames in root_folder.walk():
         for file in ('setup.py', 'requirements.txt'):
             if file in filenames:
                 setup_files.append(dirpath / file)
@@ -80,7 +83,7 @@ if __name__ == "__main__":
         matches = regex_from.findall(content)
 
         for match in matches:
-            module = match[0]  # only the from part
+            module = match[0]  # only from part
             module = module.strip()
             if not local_module(module_base, file_path, module):
                 imports.append(module)

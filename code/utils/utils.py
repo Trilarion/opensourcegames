@@ -98,9 +98,9 @@ def detect_archive_type(name):
 
 def folder_size(path):
     size = 0
-    for dirpath, dirnames, filenames in os.walk(path):
+    for dirpath, dirnames, filenames in path.walk():
         for file in filenames:
-            size += os.path.getsize(dirpath / file)
+            size += (dirpath / file).stat().st_size
     return size
 
 
@@ -138,7 +138,7 @@ def determine_latest_last_modified_date(folder):
     "last modified" date of all these files.
     """
     latest_last_modified = 0
-    for dirpath, dirnames, filenames in os.walk(folder):
+    for dirpath, dirnames, filenames in folder.walk():
         for filename in filenames:
             filepath = dirpath / filename
             lastmodified = os.path.getmtime(filepath)
@@ -173,13 +173,17 @@ def copy_tree(source, destination):
     # this gave an FileNotFoundError: [Errno 2] No such file or directory: '' on Windows
     # distutils.dir_util.copy_tree(archive_path, git_path)
     destination.mkdir(parents=True, exist_ok=True)
-    for dirpath, dirnames, filenames in os.walk(source):  # TODO replace os.walk with path.walk (Python 3.12)
-        # first create all the directory on destination
-        for directory in (destination / os.path.relpath(os.path.join(dirpath, x, source)) for x in dirnames):
+
+    for dirpath, dirnames, filenames in source.walk():
+        # first create all the directories on destination
+        destination_path = destination / dirpath.relative_to(source)
+        for directory in (destination_path / dirname for dirname in dirnames):
             directory.mkdir(parents=True, exist_ok=True)
+
         # second copy all the files
-        for source_file in (pathlib.Path(dirpath) / x for x in filenames):
-            destination_file = destination / os.path.relpath(source_file, source)
+        for filename in filenames:
+            source_file = dirpath / filename
+            destination_file = destination_path / filename
             shutil.copyfile(source_file, destination_file)
 
 

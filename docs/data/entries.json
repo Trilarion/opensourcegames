@@ -73,14 +73,6 @@
    "MIT"
   ],
   [
-   "<a href=\"frameworks/framework.html#blender_game_engine\" class=\"has-text-weight-semibold\">Blender game engine</a> <a href=\"https://www.blender.org/features/game-creation/\"><i class=\"icon-new-tab\"></i></a>",
-   "mature",
-   "framework, 3D",
-   "-",
-   "C++",
-   "GPL-2.0"
-  ],
-  [
    "<a href=\"frameworks/framework.html#castle_game_engine\" class=\"has-text-weight-semibold\">Castle Game Engine</a> <a href=\"https://castle-engine.io/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "framework, game engine, 2D, 3D",
@@ -89,7 +81,7 @@
    "LGPL-2.0"
   ],
   [
-   "<a href=\"frameworks/framework.html#cocos2d-x\" class=\"has-text-weight-semibold\">COCOS2D-X</a> <a href=\"https://cocos2d-x.org/cocos2dx\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"frameworks/framework.html#cocos2d-x\" class=\"has-text-weight-semibold\">COCOS2D-X</a> <a href=\"https://www.cocos.com/en/cocos2d-x\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "framework",
    "-",
@@ -185,7 +177,7 @@
    "3-clause BSD"
   ],
   [
-   "<a href=\"frameworks/framework.html#floppy_birb\" class=\"has-text-weight-semibold\">Floppy Birb</a> <a href=\"https://oojmed.com/floppy-birb/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"frameworks/framework.html#floppy_birb\" class=\"has-text-weight-semibold\">Floppy Birb</a> <a href=\"https://web.archive.org/web/20221108214423/https://oojmed.com/floppy-birb/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "framework, clone",
    "Web",
@@ -201,7 +193,7 @@
    "Public domain"
   ],
   [
-   "<a href=\"frameworks/framework.html#game_editor\" class=\"has-text-weight-semibold\">Game Editor</a> <a href=\"http://game-editor.com/Main_Page\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"frameworks/framework.html#game_editor\" class=\"has-text-weight-semibold\">Game Editor</a> <a href=\"http://game-editor.com/static/Main_Page.html\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2014",
    "framework, 2D",
    "Windows, Linux, macOS, iOS",
@@ -529,7 +521,7 @@
    "LGPL-2.0"
   ],
   [
-   "<a href=\"frameworks/framework.html#polycode\" class=\"has-text-weight-semibold\">Polycode</a> <a href=\"http://polycode.org/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"frameworks/framework.html#polycode\" class=\"has-text-weight-semibold\">Polycode</a> <a href=\"https://web.archive.org/web/20230107010613/http://polycode.org/\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "framework",
    "-",
@@ -727,6 +719,14 @@
    "Web",
    "JavaScript",
    "MIT"
+  ],
+  [
+   "<a href=\"frameworks/framework.html#upbge\" class=\"has-text-weight-semibold\">UPBGE</a> <a href=\"https://upbge.org/#/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "framework, 3D",
+   "-",
+   "C++, Python",
+   "GPL-2.0"
   ],
   [
    "<a href=\"frameworks/framework.html#urho3d\" class=\"has-text-weight-semibold\">Urho3D</a> <a href=\"https://urho3d.io/\"><i class=\"icon-new-tab\"></i></a>",
@@ -1089,7 +1089,7 @@
    "GPL-2.0"
   ],
   [
-   "<a href=\"frameworks/game engine.html#dreerally\" class=\"has-text-weight-semibold\">Dreerally</a> <a href=\"https://dreerally.com/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"frameworks/game engine.html#dreerally\" class=\"has-text-weight-semibold\">Dreerally</a> <a href=\"https://web.archive.org/web/20230925035556/https://dreerally.com/\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "game engine, remake",
    "-",
@@ -1281,7 +1281,7 @@
    "AGPL-3.0"
   ],
   [
-   "<a href=\"frameworks/game engine.html#grail\" class=\"has-text-weight-semibold\">Grail</a> <a href=\"http://leetless.de/tag-Grail.html\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"frameworks/game engine.html#grail\" class=\"has-text-weight-semibold\">Grail</a> <a href=\"https://web.archive.org/web/20211130143112/http://leetless.de/tag-Grail.html\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2013",
    "adventure, game engine, 2D",
    "Linux",
@@ -1337,7 +1337,7 @@
    "GPL-3.0"
   ],
   [
-   "<a href=\"frameworks/game engine.html#instead\" class=\"has-text-weight-semibold\">INSTEAD</a> <a href=\"https://instead3.syscall.ru/en/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"frameworks/game engine.html#instead\" class=\"has-text-weight-semibold\">INSTEAD</a> <a href=\"https://instead.hugeping.ru/en/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "adventure, game engine, visual novel",
    "Windows, Linux, macOS, Android",
@@ -1369,7 +1369,7 @@
    "MIT"
   ],
   [
-   "<a href=\"frameworks/game engine.html#jake2\" class=\"has-text-weight-semibold\">Jake2</a> <a href=\"http://bytonic.de/html/jake2.html\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"frameworks/game engine.html#jake2\" class=\"has-text-weight-semibold\">Jake2</a> <a href=\"https://bytonic.de/html/jake2.html\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2006",
    "action, game engine, remake, 3D, shooter",
    "Windows, Linux",
@@ -1633,7 +1633,7 @@
    "GPL-3.0"
   ],
   [
-   "<a href=\"frameworks/game engine.html#opennfs\" class=\"has-text-weight-semibold\">OpenNFS</a> <a href=\"https://opennfs.com/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"frameworks/game engine.html#opennfs\" class=\"has-text-weight-semibold\">OpenNFS</a> <a href=\"https://github.com/OpenNFS/OpenNFS\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "game engine, remake",
    "-",
@@ -1713,7 +1713,7 @@
    "Apache-2.0"
   ],
   [
-   "<a href=\"frameworks/game engine.html#paintown\" class=\"has-text-weight-semibold\">PainTown</a> <a href=\"http://paintown.org/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"frameworks/game engine.html#paintown\" class=\"has-text-weight-semibold\">PainTown</a> <a href=\"https://paintown.org/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "action, arcade, game engine, 2D",
    "Windows, Linux, macOS, Android",
@@ -1737,7 +1737,7 @@
    "GPL-3.0"
   ],
   [
-   "<a href=\"frameworks/game engine.html#phprpg\" class=\"has-text-weight-semibold\">phpRPG</a> <a href=\"http://phprpg.org/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"frameworks/game engine.html#phprpg\" class=\"has-text-weight-semibold\">phpRPG</a> <a href=\"https://web.archive.org/web/20220628022750/http://phprpg.org/\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2006",
    "game engine, role playing",
    "Web",
@@ -2361,7 +2361,7 @@
    "GPL-3.0"
   ],
   [
-   "<a href=\"frameworks/tool.html#janag-java_name_generator\" class=\"has-text-weight-semibold\">JaNaG - Java Name Generator</a> <a href=\"https://www.beimax.de/janag/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"frameworks/tool.html#janag-java_name_generator\" class=\"has-text-weight-semibold\">JaNaG - Java Name Generator</a> <a href=\"https://web.archive.org/web/20190606171924/https://www.beimax.de/janag/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2016",
    "tool",
    "-",
@@ -2473,7 +2473,7 @@
    "MIT"
   ],
   [
-   "<a href=\"frameworks/tool.html#pymapper\" class=\"has-text-weight-semibold\">Pymapper</a> <a href=\"http://pymapper.com/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"frameworks/tool.html#pymapper\" class=\"has-text-weight-semibold\">Pymapper</a> <a href=\"https://pymapper.com/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "tool",
    "-",
@@ -3393,7 +3393,7 @@
    "GPL-3.0"
   ],
   [
-   "<a href=\"games/B.html#battle_tanks\" class=\"has-text-weight-semibold\">Battle Tanks</a> <a href=\"https://btanks.sourceforge.net/blog/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/B.html#battle_tanks\" class=\"has-text-weight-semibold\">Battle Tanks</a> <a href=\"https://web.archive.org/web/20230514180915/https://btanks.sourceforge.net/blog/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2009",
    "action, arcade, 2D",
    "Windows, Linux, macOS",
@@ -3977,7 +3977,7 @@
    "GPL-2.0"
   ],
   [
-   "<a href=\"games/C.html#caesaria\" class=\"has-text-weight-semibold\">CaesarIA</a> <a href=\"https://bitbucket.org/dalerank/caesaria/overview\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/C.html#caesaria\" class=\"has-text-weight-semibold\">CaesarIA</a> <a href=\"https://bitbucket.org/dalerank/caesaria/wiki/Home\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "remake, simulation, strategy",
    "Windows, Linux, macOS",
@@ -4081,7 +4081,7 @@
    "GPL-2.0"
   ],
   [
-   "<a href=\"games/C.html#castle_of_the_winds\" class=\"has-text-weight-semibold\">Castle of the Winds</a> <a href=\"http://game.castleofthewinds.com/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/C.html#castle_of_the_winds\" class=\"has-text-weight-semibold\">Castle of the Winds</a> <a href=\"http://mordrax.github.io/cotwmtor/\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2016",
    "remake, role playing",
    "Web",
@@ -4089,7 +4089,7 @@
    "MIT"
   ],
   [
-   "<a href=\"games/C.html#castle_of_the_winds_in_elm\" class=\"has-text-weight-semibold\">Castle of the Winds in Elm</a> <a href=\"http://game.castleofthewinds.com/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/C.html#castle_of_the_winds_in_elm\" class=\"has-text-weight-semibold\">Castle of the Winds in Elm</a> <a href=\"https://web.archive.org/web/20221127153530/http://game.castleofthewinds.com/\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "remake, role playing",
    "Web",
@@ -4369,7 +4369,7 @@
    "GPL-2.0"
   ],
   [
-   "<a href=\"games/C.html#civilization_call_to_power_2_source_project\" class=\"has-text-weight-semibold\">Civilization: Call To Power 2 Source Project</a> <a href=\"http://ctp2.darkdust.net/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/C.html#civilization_call_to_power_2_source_project\" class=\"has-text-weight-semibold\">Civilization: Call To Power 2 Source Project</a> <a href=\"https://apolyton.net/forum/other-games/call-to-power-2/ctp2-source-code-project\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "remake, strategy, turn-based",
    "-",
@@ -4729,7 +4729,7 @@
    "GPL-2.0"
   ],
   [
-   "<a href=\"games/C.html#crown_and_cutlass\" class=\"has-text-weight-semibold\">Crown and Cutlass</a> <a href=\"http://www.crownandcutlass.com/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/C.html#crown_and_cutlass\" class=\"has-text-weight-semibold\">Crown and Cutlass</a> <a href=\"https://web.archive.org/web/20220127173837/http://www.crownandcutlass.com/\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2009",
    "remake, strategy, 3D",
    "-",
@@ -5001,7 +5001,7 @@
    "GPL-3.0"
   ],
   [
-   "<a href=\"games/D.html#deflektor_x4\" class=\"has-text-weight-semibold\">Deflektor X4</a> <a href=\"http://retrospec.sgn.net/users/ignacio/dfli.htm\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/D.html#deflektor_x4\" class=\"has-text-weight-semibold\">Deflektor X4</a> <a href=\"https://web.archive.org/web/20230708185056/http://retrospec.sgn.net/users/ignacio/dfli.htm\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2008",
    "arcade, remake",
    "-",
@@ -5049,7 +5049,7 @@
    "Apache-2.0"
   ],
   [
-   "<a href=\"games/D.html#dethrace\" class=\"has-text-weight-semibold\">Dethrace</a> <a href=\"https://twitter.com/dethrace_labs\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/D.html#dethrace\" class=\"has-text-weight-semibold\">Dethrace</a> <a href=\"https://github.com/dethrace-labs/dethrace\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "remake",
    "Windows, Linux, macOS",
@@ -5531,7 +5531,7 @@
   [
    "<a href=\"games/E.html#earth_2140_on_openra\" class=\"has-text-weight-semibold\">Earth 2140 on OpenRA</a> <a href=\"https://github.com/michaeldgg2/OpenE2140\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
-   "remake, strategy",
+   "remake, strategy, real-time",
    "-",
    "C#",
    "GPL-3.0"
@@ -5633,10 +5633,10 @@
    "GPL-2.0"
   ],
   [
-   "<a href=\"games/E.html#empty_clip\" class=\"has-text-weight-semibold\">Empty Clip</a> <a href=\"https://github.com/jazztickets/emptyclip\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/E.html#empty_clip\" class=\"has-text-weight-semibold\">Empty Clip</a> <a href=\"https://empty-clip.gitlab.io/index.html\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
-   "role playing, 2D, shooter",
-   "Linux",
+   "action, role playing, 2D, shooter",
+   "Windows, Linux",
    "C++",
    "GPL-2.0"
   ],
@@ -5985,7 +5985,7 @@
    "GPL-2.0"
   ],
   [
-   "<a href=\"games/F.html#fltk_recycling_game\" class=\"has-text-weight-semibold\">FLTK Recycling Game!</a> <a href=\"https://www.thregr.org/~wavexx/software/regame/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/F.html#fltk_recycling_game\" class=\"has-text-weight-semibold\">FLTK Recycling Game!</a> <a href=\"https://www.thregr.org/wavexx/software/regame/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2014",
    "arcade",
    "Windows, Linux, macOS",
@@ -6009,7 +6009,7 @@
    "MIT"
   ],
   [
-   "<a href=\"games/F.html#flukz\" class=\"has-text-weight-semibold\">Flukz</a> <a href=\"http://flukz.org/wiki/doku.php?id=flukz\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/F.html#flukz\" class=\"has-text-weight-semibold\">Flukz</a> <a href=\"https://web.archive.org/web/20230922012513/http://flukz.org/wiki/doku.php?id=flukz\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2014",
    "action, shooter",
    "Windows, Linux",
@@ -6377,7 +6377,7 @@
    "GPL-2.0"
   ],
   [
-   "<a href=\"games/F.html#freesynd\" class=\"has-text-weight-semibold\">FreeSynd</a> <a href=\"https://freesynd.sourceforge.net/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/F.html#freesynd\" class=\"has-text-weight-semibold\">FreeSynd</a> <a href=\"https://freesynd.sourceforge.io/\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2017",
    "remake, strategy",
    "-",
@@ -6385,7 +6385,7 @@
    "GPL-2.0"
   ],
   [
-   "<a href=\"games/F.html#freetrain\" class=\"has-text-weight-semibold\">FreeTrain</a> <a href=\"https://freetrain.sourceforge.net/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/F.html#freetrain\" class=\"has-text-weight-semibold\">FreeTrain</a> <a href=\"https://web.archive.org/web/20230212122201/https://freetrain.sourceforge.net/\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2009",
    "simulation, clone",
    "-",
@@ -6433,7 +6433,7 @@
    "GPL-3.0"
   ],
   [
-   "<a href=\"games/F.html#frozen_bubble\" class=\"has-text-weight-semibold\">Frozen Bubble</a> <a href=\"http://frozen-bubble.org/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/F.html#frozen_bubble\" class=\"has-text-weight-semibold\">Frozen Bubble</a> <a href=\"https://web.archive.org/web/20230720061727/http://frozen-bubble.org/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2012",
    "puzzle, clone",
    "Linux, macOS, Android",
@@ -6513,7 +6513,7 @@
    "MPL-2.0"
   ],
   [
-   "<a href=\"games/G.html#garith\" class=\"has-text-weight-semibold\">Garith</a> <a href=\"https://www.thregr.org/~wavexx/software/garith/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/G.html#garith\" class=\"has-text-weight-semibold\">Garith</a> <a href=\"https://www.thregr.org/wavexx/software/garith/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2013",
    "educational, for kids",
    "-",
@@ -6575,14 +6575,6 @@
    "Linux, macOS",
    "C",
    "GPL-2.0"
-  ],
-  [
-   "<a href=\"games/G.html#ges-code\" class=\"has-text-weight-semibold\">ges-code</a> <a href=\"https://geshl2.com/\"><i class=\"icon-new-tab\"></i></a>",
-   "mature",
-   "action, remake, shooter",
-   "-",
-   "C, C++",
-   "GPL-3.0"
   ],
   [
    "<a href=\"games/G.html#ghostly\" class=\"has-text-weight-semibold\">Ghostly</a> <a href=\"https://github.com/sandsmark/aicompo-tg17\"><i class=\"icon-new-tab\"></i></a>",
@@ -6777,7 +6769,7 @@
    "GPL-3.0"
   ],
   [
-   "<a href=\"games/G.html#goblin_camp\" class=\"has-text-weight-semibold\">Goblin Camp</a> <a href=\"http://www.goblincamp.com/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/G.html#goblin_camp\" class=\"has-text-weight-semibold\">Goblin Camp</a> <a href=\"https://www.goblincamp.com/\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2012",
    "strategy, roguelike",
    "-",
@@ -6793,7 +6785,7 @@
    "GPL-2.0"
   ],
   [
-   "<a href=\"games/G.html#gods_deluxe\" class=\"has-text-weight-semibold\">Gods Deluxe</a> <a href=\"http://jotd.pagesperso-orange.fr/gods/index.html\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/G.html#gods_deluxe\" class=\"has-text-weight-semibold\">Gods Deluxe</a> <a href=\"https://web.archive.org/web/20231001195258/http://jotd.pagesperso-orange.fr/gods/index.html\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2020",
    "platform, remake",
    "-",
@@ -6801,15 +6793,15 @@
    "MIT"
   ],
   [
-   "<a href=\"games/G.html#goldeneye_source\" class=\"has-text-weight-semibold\">GoldenEye: Source</a> <a href=\"http://geshl2.com/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/G.html#goldeneye_source\" class=\"has-text-weight-semibold\">GoldenEye: Source</a> <a href=\"https://www.geshl2.com/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2018",
-   "remake, first-person, shooter",
+   "action, remake, first-person, shooter",
    "-",
    "C++, C",
    "GPL-3.0"
   ],
   [
-   "<a href=\"games/G.html#golly\" class=\"has-text-weight-semibold\">Golly</a> <a href=\"https://golly.sourceforge.net/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/G.html#golly\" class=\"has-text-weight-semibold\">Golly</a> <a href=\"https://golly.sourceforge.io/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "simulation",
    "Windows, Linux, macOS, Android",
@@ -6849,7 +6841,7 @@
    "GPL-3.0"
   ],
   [
-   "<a href=\"games/G.html#gpl_arcade_volleyball\" class=\"has-text-weight-semibold\">GPL Arcade Volleyball</a> <a href=\"https://gav.sourceforge.net/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/G.html#gpl_arcade_volleyball\" class=\"has-text-weight-semibold\">GPL Arcade Volleyball</a> <a href=\"https://web.archive.org/web/20230208004126/https://gav.sourceforge.net/\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2006",
    "action, arcade, sports",
    "Windows, Linux, macOS",
@@ -6921,7 +6913,7 @@
    "MIT"
   ],
   [
-   "<a href=\"games/G.html#gusanos\" class=\"has-text-weight-semibold\">GUSANOS</a> <a href=\"https://gusanos.sourceforge.net/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/G.html#gusanos\" class=\"has-text-weight-semibold\">GUSANOS</a> <a href=\"https://web.archive.org/web/20221119005518/https://gusanos.sourceforge.net/\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2006",
    "action, remake",
    "Windows, Linux",
@@ -6961,7 +6953,7 @@
    "zlib"
   ],
   [
-   "<a href=\"games/H.html#hack\" class=\"has-text-weight-semibold\">Hack</a> <a href=\"http://roguebasin.roguelikedevelopment.org/index.php?title=Hack\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/H.html#hack\" class=\"has-text-weight-semibold\">Hack</a> <a href=\"https://roguebasin.com/index.php/Hack\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 1985",
    "role playing, roguelike",
    "-",
@@ -7273,6 +7265,14 @@
    "GPL-2.0"
   ],
   [
+   "<a href=\"games/H.html#hypersomnia\" class=\"has-text-weight-semibold\">Hypersomnia</a> <a href=\"https://hypersomnia.xyz/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "action, shooter",
+   "Windows, Linux, macOS",
+   "C++",
+   "AGPL-3.0"
+  ],
+  [
    "<a href=\"games/I.html#i_have_no_tomatoes\" class=\"has-text-weight-semibold\">I Have No Tomatoes</a> <a href=\"https://tomatoes.sourceforge.net/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2004",
    "arcade, remake",
@@ -7361,7 +7361,7 @@
    "zlib"
   ],
   [
-   "<a href=\"games/I.html#infiniminer\" class=\"has-text-weight-semibold\">Infiniminer</a> <a href=\"http://www.zachtronics.com/infiniminer/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/I.html#infiniminer\" class=\"has-text-weight-semibold\">Infiniminer</a> <a href=\"https://www.zachtronics.com/infiniminer/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2016",
    "simulation",
    "-",
@@ -7529,7 +7529,7 @@
    "GPL-2.0"
   ],
   [
-   "<a href=\"games/J.html#jazz_resurrection\" class=\"has-text-weight-semibold\">Jazz\u00b2 Resurrection</a> <a href=\"http://deat.tk/jazz2/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/J.html#jazz_resurrection\" class=\"has-text-weight-semibold\">Jazz\u00b2 Resurrection</a> <a href=\"https://web.archive.org/web/20240122225452/http://deat.tk/jazz2/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "platform, remake, 2D",
    "Windows, Linux, macOS, Android, Web",
@@ -7569,7 +7569,7 @@
    "MIT"
   ],
   [
-   "<a href=\"games/J.html#jewelthief\" class=\"has-text-weight-semibold\">jewelthief</a> <a href=\"http://therefactory.bplaced.net/software/#83d15f35-decf-4ebd-b880-e5edad783031\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/J.html#jewelthief\" class=\"has-text-weight-semibold\">jewelthief</a> <a href=\"https://github.com/cdetamble/jewelthief\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2016",
    "arcade, remake",
    "Android",
@@ -7761,7 +7761,7 @@
    "GPL-3.0"
   ],
   [
-   "<a href=\"games/K.html#kmines\" class=\"has-text-weight-semibold\">KMines</a> <a href=\"https://kde.org/applications/games/org.kde.kmines\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/K.html#kmines\" class=\"has-text-weight-semibold\">KMines</a> <a href=\"https://apps.kde.org/kmines/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "puzzle",
    "Linux",
@@ -7865,7 +7865,7 @@
    "GPL-2.0"
   ],
   [
-   "<a href=\"games/K.html#ksnakeduel\" class=\"has-text-weight-semibold\">KSnakeDuel</a> <a href=\"https://kde.org/applications/games/org.kde.ksnakeduel\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/K.html#ksnakeduel\" class=\"has-text-weight-semibold\">KSnakeDuel</a> <a href=\"https://apps.kde.org/ksnakeduel/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "puzzle",
    "-",
@@ -7873,7 +7873,7 @@
    "GPL-2.0"
   ],
   [
-   "<a href=\"games/K.html#ksudoku\" class=\"has-text-weight-semibold\">Ksudoku</a> <a href=\"https://kde.org/applications/games/org.kde.ksudoku\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/K.html#ksudoku\" class=\"has-text-weight-semibold\">Ksudoku</a> <a href=\"https://apps.kde.org/ksudoku/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "puzzle",
    "-",
@@ -8129,7 +8129,7 @@
    "2-clause BSD"
   ],
   [
-   "<a href=\"games/L.html#limbs_off\" class=\"has-text-weight-semibold\">Limbs Off</a> <a href=\"https://plaimi.net/games/limbs-off.html\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/L.html#limbs_off\" class=\"has-text-weight-semibold\">Limbs Off</a> <a href=\"https://web.archive.org/web/20230923033826/https://plaimi.net/games/limbs-off.html\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2013",
    "arcade",
    "-",
@@ -8233,7 +8233,7 @@
    "GPL-2.0"
   ],
   [
-   "<a href=\"games/L.html#lode_runner_2020\" class=\"has-text-weight-semibold\">Lode Runner 2020</a> <a href=\"https://mapema.hu/en/hobby/lode-runner/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/L.html#lode_runner_2020\" class=\"has-text-weight-semibold\">Lode Runner 2020</a> <a href=\"https://mapema.hu/en/docs/hobby/lode-runner/game\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "remake",
    "Windows, Linux, Web",
@@ -8561,7 +8561,7 @@
    "3-clause BSD"
   ],
   [
-   "<a href=\"games/M.html#meridian_59\" class=\"has-text-weight-semibold\">Meridian 59</a> <a href=\"http://meridian59.com/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/M.html#meridian_59\" class=\"has-text-weight-semibold\">Meridian 59</a> <a href=\"https://meridian59.com/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "role playing",
    "-",
@@ -9033,7 +9033,7 @@
    "LGPL-3.0"
   ],
   [
-   "<a href=\"games/N.html#netpanzer\" class=\"has-text-weight-semibold\">NetPanzer</a> <a href=\"https://www.netpanzer.info/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/N.html#netpanzer\" class=\"has-text-weight-semibold\">NetPanzer</a> <a href=\"https://web.archive.org/web/20221202132512/https://www.netpanzer.info/\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "strategy, real-time",
    "-",
@@ -9201,7 +9201,7 @@
    "3-clause BSD"
   ],
   [
-   "<a href=\"games/N.html#numpty_physics\" class=\"has-text-weight-semibold\">Numpty Physics</a> <a href=\"http://numptyphysics.garage.maemo.org/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/N.html#numpty_physics\" class=\"has-text-weight-semibold\">Numpty Physics</a> <a href=\"https://web.archive.org/web/20231204101630/http://numptyphysics.garage.maemo.org/\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2016",
    "puzzle, simulation",
    "Windows, Linux, macOS",
@@ -9257,7 +9257,7 @@
    "MIT"
   ],
   [
-   "<a href=\"games/O.html#ogs_mahjong\" class=\"has-text-weight-semibold\">OGS Mahjong</a> <a href=\"http://opengamestudio.org/en/game/ogs-mahjong-1.html\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/O.html#ogs_mahjong\" class=\"has-text-weight-semibold\">OGS Mahjong</a> <a href=\"https://opengamestudio.org/en/game/ogs-mahjong-1.html\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2016",
    "board, puzzle, 3D",
    "Windows, Linux",
@@ -9489,7 +9489,7 @@
    "GPL-3.0"
   ],
   [
-   "<a href=\"games/O.html#open_surge\" class=\"has-text-weight-semibold\">Open Surge</a> <a href=\"http://opensurge2d.org/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/O.html#open_surge\" class=\"has-text-weight-semibold\">Open Surge</a> <a href=\"https://opensurge2d.org/\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "action, platform, 2D, clone",
    "-",
@@ -9521,7 +9521,7 @@
    "CC-BY-NC-SA-4.0"
   ],
   [
-   "<a href=\"games/O.html#open_yahtzee\" class=\"has-text-weight-semibold\">Open Yahtzee</a> <a href=\"http://www.openyahtzee.org/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/O.html#open_yahtzee\" class=\"has-text-weight-semibold\">Open Yahtzee</a> <a href=\"https://www.openyahtzee.org/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2016",
    "strategy",
    "Windows, Linux",
@@ -9553,7 +9553,7 @@
    "GPL-3.0"
   ],
   [
-   "<a href=\"games/O.html#openarenax\" class=\"has-text-weight-semibold\">OpenArena</a> <a href=\"http://openarena.ws/smfnews.php\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/O.html#openarena_engine\" class=\"has-text-weight-semibold\">OpenArena Engine</a> <a href=\"http://openarena.ws/smfnews.php\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2012",
    "action, remake, first-person, shooter",
    "Windows, Linux, macOS",
@@ -9731,7 +9731,7 @@
   [
    "<a href=\"games/O.html#opene2140\" class=\"has-text-weight-semibold\">OpenE2140</a> <a href=\"https://gitlab.com/opene2140/opene2140\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2020",
-   "remake, strategy",
+   "remake, strategy, real-time",
    "-",
    "C++",
    "GPL-3.0"
@@ -9849,7 +9849,7 @@
    "GPL-3.0"
   ],
   [
-   "<a href=\"games/O.html#openitg\" class=\"has-text-weight-semibold\">OpenITG</a> <a href=\"http://openitg.gr-p.com/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/O.html#openitg\" class=\"has-text-weight-semibold\">OpenITG</a> <a href=\"https://openitg.gr-p.com/\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2017",
    "music",
    "Linux",
@@ -10065,7 +10065,7 @@
    "GPL-3.0"
   ],
   [
-   "<a href=\"games/O.html#openskyscraper\" class=\"has-text-weight-semibold\">OpenSkyscraper</a> <a href=\"http://openskyscraper.org/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/O.html#openskyscraper\" class=\"has-text-weight-semibold\">OpenSkyscraper</a> <a href=\"https://web.archive.org/web/20230325053751/http://openskyscraper.org/\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "remake, simulation",
    "-",
@@ -10217,7 +10217,7 @@
    "GPL-2.0"
   ],
   [
-   "<a href=\"games/O.html#opmon\" class=\"has-text-weight-semibold\">OPMon</a> <a href=\"https://opmon-game.ga/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/O.html#opmon\" class=\"has-text-weight-semibold\">OPMon</a> <a href=\"https://web.archive.org/web/20220820045848/https://opmon-game.ga/\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "remake",
    "Windows, Linux, macOS",
@@ -10729,7 +10729,7 @@
    "GPL-3.0"
   ],
   [
-   "<a href=\"games/P.html#powermanga\" class=\"has-text-weight-semibold\">Powermanga</a> <a href=\"http://linux.tlk.fr/games/Powermanga\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/P.html#powermanga\" class=\"has-text-weight-semibold\">Powermanga</a> <a href=\"https://linux.tlk.fr/games/Powermanga/\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2015",
    "arcade, 2D, shooter",
    "Linux",
@@ -11001,7 +11001,7 @@
    "GPL-2.0"
   ],
   [
-   "<a href=\"games/Q.html#q\" class=\"has-text-weight-semibold\">Q</a> <a href=\"https://plaimi.net/games/quizbot.html\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/Q.html#q\" class=\"has-text-weight-semibold\">Q</a> <a href=\"https://web.archive.org/web/20231205050622/https://plaimi.net/games/quizbot.html\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2013",
    "educational",
    "Windows, Linux, macOS",
@@ -11905,7 +11905,7 @@
    "MPL-2.0"
   ],
   [
-   "<a href=\"games/S.html#simon_tathams_portable_puzzle_collection\" class=\"has-text-weight-semibold\">Simon Tatham's Portable Puzzle Collection</a> <a href=\"http://www.chiark.greenend.org.uk/~sgtatham/puzzles/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/S.html#simon_tathams_portable_puzzle_collection\" class=\"has-text-weight-semibold\">Simon Tatham's Portable Puzzle Collection</a> <a href=\"https://www.chiark.greenend.org.uk/~sgtatham/puzzles/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "puzzle, remake",
    "Windows, Linux, macOS, Android, iOS",
@@ -12505,7 +12505,7 @@
    "GPL-3.0"
   ],
   [
-   "<a href=\"games/S.html#stargus\" class=\"has-text-weight-semibold\">Stargus</a> <a href=\"http://stargus.stratagus.com/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/S.html#stargus\" class=\"has-text-weight-semibold\">Stargus</a> <a href=\"https://web.archive.org/web/20220630200900/http://stargus.stratagus.com/\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2010",
    "remake",
    "-",
@@ -12579,7 +12579,7 @@
   [
    "<a href=\"games/S.html#stone_kingdoms\" class=\"has-text-weight-semibold\">Stone Kingdoms</a> <a href=\"https://gitlab.com/stone-kingdoms/stone-kingdoms\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
-   "strategy, clone",
+   "strategy, clone, real-time",
    "Windows, Linux",
    "Lua",
    "Apache-2.0"
@@ -12913,7 +12913,7 @@
    "MIT"
   ],
   [
-   "<a href=\"games/T.html#tecnoballz\" class=\"has-text-weight-semibold\">TecnoballZ</a> <a href=\"http://linux.tlk.fr/games/TecnoballZ/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/T.html#tecnoballz\" class=\"has-text-weight-semibold\">TecnoballZ</a> <a href=\"https://linux.tlk.fr/games/TecnoballZ/\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2016",
    "arcade",
    "-",
@@ -13417,7 +13417,7 @@
    "?"
   ],
   [
-   "<a href=\"games/T.html#transfusion\" class=\"has-text-weight-semibold\">Transfusion</a> <a href=\"https://blood.sourceforge.net/transfusion.php\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/T.html#transfusion\" class=\"has-text-weight-semibold\">Transfusion</a> <a href=\"https://www.transfusion-game.com/\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2007",
    "remake, first-person, shooter",
    "-",
@@ -13593,7 +13593,7 @@
    "GPL-3.0"
   ],
   [
-   "<a href=\"games/T.html#tux_paint\" class=\"has-text-weight-semibold\">Tux Paint</a> <a href=\"http://tuxpaint.org/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/T.html#tux_paint\" class=\"has-text-weight-semibold\">Tux Paint</a> <a href=\"https://tuxpaint.org/\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "educational, for kids",
    "Windows, Linux, macOS, Android, iOS",
@@ -13899,7 +13899,7 @@
   [
    "<a href=\"games/V.html#vault13\" class=\"has-text-weight-semibold\">Vault13</a> <a href=\"https://github.com/pingw33n/vault13\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2020",
-   "remake, strategy",
+   "remake, strategy, real-time",
    "-",
    "Rust",
    "GPL-3.0"
@@ -13969,7 +13969,7 @@
    "MIT"
   ],
   [
-   "<a href=\"games/V.html#vertigo\" class=\"has-text-weight-semibold\">Vertigo</a> <a href=\"http://stjerneskud.info/vertigo/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/V.html#vertigo\" class=\"has-text-weight-semibold\">Vertigo</a> <a href=\"https://web.archive.org/web/20230924192552/http://stjerneskud.info/vertigo/\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2002",
    "remake, simulation",
    "Linux",
@@ -14097,7 +14097,7 @@
    "zlib"
   ],
   [
-   "<a href=\"games/W.html#war_of_kingdom\" class=\"has-text-weight-semibold\">War Of Kingdom</a> <a href=\"http://www.freeors.com/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/W.html#war_of_kingdom\" class=\"has-text-weight-semibold\">War Of Kingdom</a> <a href=\"https://web.archive.org/web/20180111173722/http://www.sanguohero.com/thread-59267-1-1.html\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "strategy, turn-based",
    "-",
@@ -14129,7 +14129,7 @@
    "GPL-2.0"
   ],
   [
-   "<a href=\"games/W.html#wargus\" class=\"has-text-weight-semibold\">Wargus</a> <a href=\"http://wargus.github.io/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/W.html#wargus\" class=\"has-text-weight-semibold\">Wargus</a> <a href=\"http://stratagus.com/index.html\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "remake, strategy",
    "-",
@@ -14169,7 +14169,7 @@
    "MIT"
   ],
   [
-   "<a href=\"games/W.html#warzone_2100\" class=\"has-text-weight-semibold\">Warzone 2100</a> <a href=\"http://wz2100.net/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/W.html#warzone_2100\" class=\"has-text-weight-semibold\">Warzone 2100</a> <a href=\"https://wz2100.net/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "strategy, real-time",
    "-",
@@ -14585,7 +14585,7 @@
    "MIT"
   ],
   [
-   "<a href=\"games/X.html#xskat\" class=\"has-text-weight-semibold\">XSkat</a> <a href=\"http://www.xskat.de/xskat.html\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/X.html#xskat\" class=\"has-text-weight-semibold\">XSkat</a> <a href=\"https://web.archive.org/web/20221003060115/http://www.xskat.de/xskat.html\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "cards, strategy",
    "Windows, Linux, macOS, Android",
@@ -14681,7 +14681,7 @@
    "Custom"
   ],
   [
-   "<a href=\"games/Z.html#zangband\" class=\"has-text-weight-semibold\">ZAngband</a> <a href=\"http://www.zangband.org/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/Z.html#zangband\" class=\"has-text-weight-semibold\">ZAngband</a> <a href=\"https://web.archive.org/web/20220527225941/http://www.zangband.org/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2005",
    "role playing, roguelike",
    "-",

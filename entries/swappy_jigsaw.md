@@ -5,7 +5,7 @@
 - Download: https://decoherence.itch.io/swappy-jigsaw#download
 - Platform: Windows, Linux
 - Keyword: puzzle, content open, jigsaw
-- Code repository: https://gitlab.com/EugeneLoza/swappy-jigsaw.git (@created 2018, @stars 0, @forks 1)
+- Code repository: https://gitlab.com/EugeneLoza/swappy-jigsaw.git (@created 2018, @stars 1, @forks 1)
 - Code language: Pascal
 - Code license: GPL-3.0
 - Code dependency: Castle Game Engine, GTK2

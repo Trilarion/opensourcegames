@@ -6,7 +6,7 @@
 - Download: https://decoherence.itch.io/metar-sweeper#download
 - Platform: Windows, Linux
 - Keyword: puzzle
-- Code repository: https://gitlab.com/EugeneLoza/Metar-Sweeper.git (@created 2015, @stars 1, @forks 0)
+- Code repository: https://gitlab.com/EugeneLoza/Metar-Sweeper.git (@created 2018, @stars 2, @forks 0)
 - Code language: Pascal
 - Code license: GPL-3.0
 - Developer: Eugene Loza

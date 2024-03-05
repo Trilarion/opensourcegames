@@ -6,7 +6,7 @@
 - Download: https://tmw2.org/download
 - Platform: Windows, Linux
 - Keyword: role playing, 2D, multiplayer online + massive
-- Code repository: https://gitlab.com/TMW2/hercules.git
+- Code repository: https://gitlab.com/TMW2/hercules.git (@created 2020, @stars 1, @forks 0)
 - Code language: C, C++, Script
 - Code license: GPL-3.0
 - Code dependency: Hercules, ManaPlus

@@ -5,7 +5,7 @@
 - Download: https://gitlab.com/empty-clip/code/-/releases
 - Platform: Windows, Linux
 - Keyword: action, role playing, 2D, shooter, top-down
-- Code repository: https://gitlab.com/empty-clip/code.git
+- Code repository: https://gitlab.com/empty-clip/code.git (@created 2022, @stars 6, @forks 1)
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL2

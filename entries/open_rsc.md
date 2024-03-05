@@ -5,7 +5,7 @@
 - State: mature
 - Platform: Windows, Linux, macOS, Android
 - Keyword: remake, role playing, multiplayer online + massive
-- Code repository: https://gitlab.com/open-runescape-classic/core.git (@created 2020, @stars 11, @forks 27), https://gitlab.com/open-runescape-classic/single-player.git @add (@created 2020, @stars 0, @forks 1), https://github.com/Open-RSC/Core-Framework.git (mirror, @created 2018, @stars 181, @forks 109)
+- Code repository: https://gitlab.com/open-runescape-classic/core.git (@created 2020, @stars 35, @forks 52), https://gitlab.com/open-runescape-classic/single-player.git @add (@created 2020, @stars 0, @forks 1), https://github.com/Open-RSC/Core-Framework.git (mirror, @created 2018, @stars 181, @forks 109)
 - Code language: Java, C++, C, Objective-C
 - Code license: AGPL-3.0
 - Developer: Aenge, aldrichdev, Bl0ds, Brian Foster, Chris, Dan G, Daniel Loth, Fefect, Hubcapp, ipkpjersi, James Wallen-Jones, Kenix3, Kepler, kevincmanning, Luis, Luis Salazar, Marwolf, Paul Aldrich, Payton, Preston Smith, rsc-g15, Ryan Trujillo, Tessalicious, xjoe28, Zachariah Knight

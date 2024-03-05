@@ -705,7 +705,7 @@ class EntriesMaintainer:
             if field in entry:
                 platforms.extend(entry[field])
 
-        statistics += f'Platform information available for {rel(len(platforms)):.1f}% of all projects.\n\n'
+        statistics += f'Platform information available for {rel(len(platforms)):.1f}% of all projects.\n\n' # TODO this is a simple error, we should not take the number of platforms :D
 
         unique_platforms = set(platforms)
         unique_platforms = [(l, platforms.count(l) / len(platforms)) for l in unique_platforms]

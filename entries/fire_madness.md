@@ -6,7 +6,7 @@
 - Download: https://decoherence.itch.io/fire-maddness#download
 - Platform: Windows, Linux
 - Keyword: action, 2D, content open, shooter, top-down
-- Code repository: https://gitlab.com/EugeneLoza/FireMadness.git (@created 2016, @stars 0, @forks 0)
+- Code repository: https://gitlab.com/EugeneLoza/FireMadness.git (@created 2018, @stars 1, @forks 0)
 - Code language: Pascal
 - Code license: GPL-3.0
 - Code dependency: Castle Game Engine, GTK2

@@ -163,7 +163,7 @@
 - **[Taggem](../taggem.md)** (JavaScript, AGPL-3.0, beta, inactive since 2014)
 - **[Taisei Project](../taisei_project.md)** (C, Python, MIT, mature)
 - **[The House](../the_house.md)** (JavaScript, MIT, mature, inactive since 2019)
-- **[The Mana World](../the_mana_world.md)** (C++, Script, GPL-2.0, mature)
+- **[The Mana World](../the_mana_world.md)** (C++, Script, C, GPL-2.0, mature)
 - **[TOSIOS](../tosios.md)** (TypeScript, MIT, beta)
 - **[Tower Building Game](../tower_building_game.md)** (JavaScript, MIT, mature)
 - **[Tower Defense](../tower_defense.md)** (JavaScript, MIT, beta, inactive since 2014)

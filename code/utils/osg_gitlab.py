@@ -34,7 +34,7 @@ def retrieve_repo_info(repos, token=None):
         repo = normalize_repo_name(repo)
         # get project
         p = gl.projects.get(repo)
-        e = {'description': p.description, 'created': parser.parse(p.created_at), 'contributors': p.repository_contributors(), 'forks': p.forks_count, 'name': p.name, 'last modified': parser.parse(p.last_activity_at), 'stars': p.star_count, 'languages': p.languages()}
+        e = {'description': p.description, 'created': parser.parse(p.created_at), 'contributors': p.repository_contributors(get_all=True), 'forks': p.forks_count, 'name': p.name, 'last modified': parser.parse(p.last_activity_at), 'stars': p.star_count, 'languages': p.languages(get_all=True)}
         result.append(e)
     if single_repo:
         result = result[0]

@@ -2,7 +2,6 @@
 # Remake
 
 - **[1oom](../1oom.md)** (C, GPL-2.0, mature)
-- **[2006-rebotted](../2006-rebotted.md)** (Java, 2-clause BSD, mature)
 - **[2006scape](../2006scape.md)** (Java, GPL-3.0, mature)
 - **[2009scape](../2009scape.md)** (Java, Kotlin, AGPL-3.0, mature)
 - **[2048 Python](../2048_python.md)** (Python, MIT, mature)
@@ -487,7 +486,7 @@
 - **[ResidualVM](../residualvm.md)** (C++, GPL-2.0, beta)
 - **[Return of Dr. Destructo](../return_of_dr_destructo.md)** (C++, MIT, mature, inactive since 2015)
 - **[Return to the Roots](../return_to_the_roots.md)** (C++, GPL-3.0, mature)
-- **[rfk-inform](../rfk-inform.md)** (Script, Artistic License-2.0, mature)
+- **[rfk-inform](../rfk-inform.md)** (Script, Perl, Artistic License-2.0, mature)
 - **[RickyD](../rickyd.md)** (C++, GPL-2.0, beta)
 - **[Rigel Engine](../rigel_engine.md)** (C++, GPL-2.0, beta)
 - **[Riiablo](../riiablo.md)** (Java, Apache-2.0, beta)

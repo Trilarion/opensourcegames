@@ -6,7 +6,7 @@
 - Download: https://gitlab.com/KilgoreTroutMaskReplicant/1oom/-/tags
 - Platform: Windows
 - Keyword: remake, strategy, content commercial, engine recreation
-- Code repository: https://gitlab.com/KilgoreTroutMaskReplicant/1oom.git (@created 2018, @stars 23, @forks 9)
+- Code repository: https://gitlab.com/KilgoreTroutMaskReplicant/1oom.git (@created 2018, @stars 27, @forks 9)
 - Code language: C
 - Code license: GPL-2.0
 - Code dependency: Allegro, SDL, SDL2

@@ -5,7 +5,7 @@
 - Download: https://decoherence.itch.io/mazer#download
 - Platform: Windows, Linux
 - Keyword: puzzle, 3D, content open, maze
-- Code repository: https://gitlab.com/EugeneLoza/Mazer.git (@created 2015, @stars 0, @forks 0)
+- Code repository: https://gitlab.com/EugeneLoza/Mazer.git (@created 2018, @stars 1, @forks 0)
 - Code language: Pascal
 - Code license: GPL-3.0
 - Code dependency: Castle Game Engine, GTK2

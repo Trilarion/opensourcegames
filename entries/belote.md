@@ -6,8 +6,8 @@
 - Download: https://mvnrepository.com/artifact/com.gitlab.bsarter.belote
 - Platform: Windows, Linux, macOS
 - Keyword: cards
-- Code repository: https://gitlab.com/bsarter/Belote.git
-- Code language: Java
+- Code repository: https://gitlab.com/bsarter/Belote.git (@created 2022, @stars 2, @forks 0)
+- Code language: Java, Pascal
 - Code license: GPL-3.0
 - Code dependency: Apache-POI, DarkLaf
 - Developer: Bernard Sarter

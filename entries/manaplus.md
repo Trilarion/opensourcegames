@@ -4,8 +4,8 @@
 - State: mature
 - Platform: Windows, Linux, macOS, Android
 - Keyword: role playing, 2D, multiplayer online + massive
-- Code repository: https://gitlab.com/manaplus/manaplus.git (@created 2015, @stars 28, @forks 15)
-- Code language: C++
+- Code repository: https://gitlab.com/manaplus/manaplus.git (@created 2015, @stars 29, @forks 13)
+- Code language: C++, C
 - Code license: GPL-3.0
 - Code dependency: SDL
 

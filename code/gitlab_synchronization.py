@@ -3,7 +3,7 @@ Uses the Gitlab API to learn more about the Gitlab projects.
 """
 
 import json
-from utils import constants as c, utils, osg, osg_gitlab
+from utils import constants as c, utils, osg, osg_gitlab, osg_parse
 
 gl_entries_file = c.code_path / 'gitlab_entries.txt'
 prefix = 'https://gitlab.com/'
@@ -60,24 +60,19 @@ def gitlab_import():
             repos = [x.split(' ')[0] for x in repos]
             repos = [x for x in repos if x not in ignored_repos]
             for repo in repos:
-                print(f'  GH repo {repo}')
+                print(f'  GL repo {repo}')
 
                 info = osg_gitlab.retrieve_repo_info(repo)
 
-                new_comments = []
-
-                # add created comment
-                new_comments.append(f"@created {info['created'].year}")
-
-                # add stars
-                new_comments.append(f"@stars {info['stars']}")
-
-                # add forks
-                new_comments.append(f"@forks {info['forks']}")
+                # new comment @created, stars, forks
+                new_comments = [f"@created {info['created'].year}", f"@stars {info['stars']}", f"@forks {info['forks']}"]
 
                 # search for repository
-                for r in code_repositories:
+                for idx, r in enumerate(code_repositories):
                     if r.startswith(repo):
+                        if not isinstance(r, osg_parse.Value):
+                            r = osg_parse.Value(r)
+                        code_repositories[idx] = r
                         break
 
                 # update comment
@@ -99,8 +94,8 @@ def gitlab_import():
 
             entry['Code repository'] = code_repositories
             osg.write_entry(entry)
-    except:
-        raise
+    except RuntimeError as e:
+        raise(e)
     finally:
         # shorten file list
         utils.write_text(gl_entries_file, json.dumps(files[index:], indent=1))
@@ -142,7 +137,7 @@ if __name__ == "__main__":
     # collect_gitlab_entries()
 
     # import information from Gitlab
-    # gitlab_import()
+    gitlab_import()
 
     # which Gitlab repos have I not starred?
     # gitlab_starring_synchronization()

@@ -100,6 +100,7 @@ https://github.com/gustaYo/vue-chess
 https://github.com/HackerN64/HackerSM64
 https://github.com/hiitiger/goverlay  # DirectX hook and game overlay solution for any desktop GUI
 https://github.com/hotstreams/limitless-engine
+https://github.com/hugoam/two
 https://github.com/hugoam/two  # c++ toolkit for rapid development of live graphical apps and games
 https://github.com/Hyperparticle/nodulus
 https://github.com/id-Software/Quake
@@ -190,6 +191,7 @@ https://github.com/tgfrerer/island
 https://github.com/TheBoneJarmer/TiledCS
 https://github.com/TheCherno/Sparky
 https://github.com/thinkpixellab/agent8ball
+https://github.com/tmewett/BrogueCE
 https://github.com/tobspr/shapez.io
 https://github.com/tomlooman/SimpleFPSTemplate
 https://github.com/TomMalbran/games

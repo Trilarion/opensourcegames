@@ -5,7 +5,7 @@
 - Inspiration: SimCity
 - State: mature, inactive since 2015
 - Keyword: simulation, clone, online
-- Code repository: https://github.com/SimHacker/micropolis.git (@created 2015, @stars 749, @forks 147)
+- Code repository: https://github.com/SimHacker/micropolis.git (@created 2015, @stars 843, @forks 156)
 - Code language: C++, Java, Python
 - Code license: GPL-3.0
 - Code dependency: PyAMF, pycairo, pygobject, pygtk, SQLAlchemy, TurboGears

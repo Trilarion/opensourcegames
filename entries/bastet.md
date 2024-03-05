@@ -4,7 +4,7 @@
 - Inspiration: Tetris
 - State: beta, inactive since 2018
 - Keyword: puzzle, content open, skill
-- Code repository: https://github.com/fph/bastet.git (@created 2013, @stars 232, @forks 29)
+- Code repository: https://github.com/fph/bastet.git (@created 2013, @stars 263, @forks 36)
 - Code language: C++
 - Code license: GPL-2.0
 - Assets license: no assets

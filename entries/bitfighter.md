@@ -5,7 +5,7 @@
 - Download: http://bitfighter.org/downloads/
 - Platform: Windows, Linux, macOS
 - Keyword: action, content open, space
-- Code repository: https://github.com/bitfighter/bitfighter.git (@created 2015, @stars 54, @forks 22)
+- Code repository: https://github.com/bitfighter/bitfighter.git (@created 2015, @stars 63, @forks 24)
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependency: SDL2

@@ -5,7 +5,7 @@
 - State: beta
 - Platform: Windows
 - Keyword: game engine, remake, clone
-- Code repository: https://github.com/amroibrahim/DIYDoom.git (@created 2019, @stars 342, @forks 13)
+- Code repository: https://github.com/amroibrahim/DIYDoom.git (@created 2019, @stars 535, @forks 28)
 - Code language: C++
 - Code license: MIT
 - Code dependency: SDL2

@@ -6,7 +6,7 @@
 - Download: https://github.com/Interrupt/systemshock/releases/
 - Platform: Windows, Linux, macOS
 - Keyword: remake, "content commercial + original required (game data from System Shock: Enhanced Edition)"
-- Code repository: https://github.com/Interrupt/systemshock.git (@created 2018, @stars 635, @forks 53)
+- Code repository: https://github.com/Interrupt/systemshock.git (@created 2018, @stars 792, @forks 62)
 - Code language: C
 - Code license: GPL-3.0
 - Code dependency: SDL2

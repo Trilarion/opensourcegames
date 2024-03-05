@@ -4,7 +4,7 @@
 - Inspiration: Rise of the Triad
 - State: beta
 - Keyword: action, remake, content commercial, shooter
-- Code repository: https://github.com/LTCHIPS/rottexpr.git (@created 2017, @stars 72, @forks 21)
+- Code repository: https://github.com/LTCHIPS/rottexpr.git (@created 2017, @stars 95, @forks 26)
 - Code language: C
 - Code license: GPL-2.0
 - Code dependency: SDL2

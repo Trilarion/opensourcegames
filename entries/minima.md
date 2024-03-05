@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/Feneric/Minima/releases
 - Keyword: role playing, clone
-- Code repository: https://github.com/Feneric/Minima.git (@created 2018, @stars 82, @forks 9)
+- Code repository: https://github.com/Feneric/Minima.git (@created 2018, @stars 88, @forks 9)
 - Code language: Lua
 - Code license: GPL-3.0
 - Code dependency: PICO-8

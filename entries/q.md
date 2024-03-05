@@ -4,7 +4,7 @@
 - State: mature, inactive since 2013
 - Platform: Windows, Linux, macOS
 - Keyword: educational, quiz
-- Code repository: https://github.com/plaimi/q.git (@created 2012, @stars 7, @forks 1)
+- Code repository: https://github.com/plaimi/q.git (@created 2012, @stars 6, @forks 1)
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependency: Twisted

@@ -7,11 +7,11 @@
 - Download: https://hoh.helmantika.com/en/descargas/
 - Platform: Windows, Linux
 - Keyword: action, adventure, remake
-- Code repository: https://github.com/dougmencken/HeadOverHeels.git (continuation, or download for old source code, @created 2016, @stars 15, @forks 4)
+- Code repository: https://github.com/dougmencken/HeadOverHeels.git (continuation, or download for old source code, @created 2016, @stars 25, @forks 8)
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: Allegro
-- Developer: Douglas Mencken
+- Developer: Douglas Mencken, François Bissey
 
 ## Building
 

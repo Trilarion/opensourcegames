@@ -5,7 +5,7 @@
 - State: mature, inactive since 2010
 - Platform: Web
 - Keyword: arcade, clone, content open
-- Code repository: https://github.com/onaluf/RacerJS.git (@created 2010, @stars 107, @forks 37)
+- Code repository: https://github.com/onaluf/RacerJS.git (@created 2010, @stars 115, @forks 37)
 - Code language: JavaScript
 - Code license: MIT
 - Assets license: CC-BY-SA-3.0

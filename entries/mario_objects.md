@@ -5,7 +5,7 @@
 - Inspiration: Super Mario
 - State: beta
 - Keyword: platform, clone
-- Code repository: https://github.com/jazzyjester/Mario-Game.git (@created 2015, @stars 62, @forks 37)
+- Code repository: https://github.com/jazzyjester/Mario-Game.git (@created 2015, @stars 74, @forks 40)
 - Code language: C#
 - Code license: MIT
 - Developer: M1S2, Ronny Remesnik

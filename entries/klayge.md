@@ -5,10 +5,10 @@
 - Download: http://www.klayge.org/downloads/, https://github.com/gongminmin/KlayGE/releases
 - Platform: Windows, Linux, macOS
 - Keyword: game engine
-- Code repository: https://github.com/gongminmin/KlayGE.git (@created 2015, @stars 1796, @forks 326)
+- Code repository: https://github.com/gongminmin/KlayGE.git (@created 2015, @stars 1992, @forks 353)
 - Code language: C++
 - Code license: GPL-2.0
-- Developer: huazai434, JaxLin, Kanglai Qian, Minmin Gong, Rui Wang
+- Developer: huazai434, JaxLin, Kanglai Qian, Minmin Gong, Rui Wang, ShenghuaLin
 
 ## Building
 

@@ -6,10 +6,10 @@
 - State: beta
 - Platform: Windows, Linux, macOS
 - Keyword: remake, content commercial + original required
-- Code repository: https://github.com/IceReaper/OpenKrush.git (@created 2018, @stars 64, @forks 8)
+- Code repository: https://github.com/IceReaper/OpenKrush.git (@created 2018, @stars 91, @forks 6)
 - Code language: C#
 - Code license: GPL-3.0
 - Code dependency: OpenRA
-- Developer: abcdefg30, Andre Mohren, Dzierzan, Paul Chote, phrohdoh, taryn
+- Developer: abcdefg30, Andre Mohren, Dzierzan, Paul Chote, Paweł Dzierżanowski, phrohdoh, taryn
 
 ## Building

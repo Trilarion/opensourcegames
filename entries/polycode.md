@@ -4,7 +4,7 @@
 - State: beta
 - Download: https://web.archive.org/web/20221006173327/http://polycode.org/download/
 - Keyword: framework
-- Code repository: https://github.com/ivansafrin/Polycode.git (@created 2010, @stars 2369, @forks 350)
+- Code repository: https://github.com/ivansafrin/Polycode.git (@created 2010, @stars 2372, @forks 344)
 - Code language: C, C++
 - Code license: MIT
 - Developer: Bill, Cameron Hart, Christian Bielert, Danny Warren, Devin Stone, fodinabor, Ivan Safrin, Mark Austin, mcclure, Paul Smith, samiamwork

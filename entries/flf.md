@@ -5,7 +5,7 @@
 - State: mature
 - Platform: Web
 - Keyword: framework, clone, content commercial + original required
-- Code repository: https://github.com/Project-F/F.LF.git (@created 2015, @stars 228, @forks 36)
+- Code repository: https://github.com/Project-F/F.LF.git (@created 2015, @stars 277, @forks 42)
 - Code language: JavaScript
 - Code license: CC-BY-NC-SA-3.0 (http://project-f.github.io/license.html)
 - Assets license: Proprietary (https://github.com/Project-F/LF2_19)

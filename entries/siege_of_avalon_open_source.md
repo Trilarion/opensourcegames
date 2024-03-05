@@ -5,7 +5,7 @@
 - Inspiration: Siege of Avalon
 - State: beta, inactive since 2011
 - Keyword: remake
-- Code repository: https://github.com/CartBlanche/Siege-of-Avalon-Open-Source.git (@created 2011, @stars 47, @forks 25), http://soaos.cvs.sourceforge.net (cvs)
+- Code repository: https://github.com/CartBlanche/Siege-of-Avalon-Open-Source.git (@created 2011, @stars 49, @forks 26), http://soaos.cvs.sourceforge.net (cvs)
 - Code language: Pascal
 - Code license: Custom (NC)
 - Developer: Allen Halsted, Dan, Daniel <Vampo Rainze>, David house, Dominique Louis, Jason Farmer, pentadrago, Rodrigo Roman, Róbert Kisnémeth, Steven

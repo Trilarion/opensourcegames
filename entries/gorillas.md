@@ -5,7 +5,7 @@
 - State: mature, inactive since 2014
 - Platform: iOS
 - Keyword: remake, artillery
-- Code repository: https://github.com/Lyndir/Gorillas.git (@created 2009, @stars 250, @forks 98)
+- Code repository: https://github.com/Lyndir/Gorillas.git (@created 2009, @stars 247, @forks 96)
 - Code language: Objective-C, JavaScript
 - Code license: Java Research License (no commercial use)
 - Developer: Maarten Billemont

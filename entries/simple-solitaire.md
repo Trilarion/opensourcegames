@@ -4,7 +4,7 @@
 - State: mature
 - Platform: Android
 - Keyword: cards, strategy
-- Code repository: https://github.com/TobiasBielefeld/Simple-Solitaire.git (@created 2016, @stars 209, @forks 88)
+- Code repository: https://github.com/TobiasBielefeld/Simple-Solitaire.git (@archived, @created 2016, @stars 0, @forks 0)
 - Code language: Java
 - Code license: GPL-3.0
 - Developer: Cyril C., Jari Winberg, Maurizio Petrarota, Romain Hennuyer, Taco, Tobias Bielefeld, Todor Balabanov

@@ -6,7 +6,7 @@
 - Download: https://github.com/AMDmi3/cavezofphear/releases
 - Platform: Linux
 - Keyword: action, arcade, content open, text-based
-- Code repository: https://github.com/AMDmi3/cavezofphear.git
+- Code repository: https://github.com/AMDmi3/cavezofphear.git (@created 2021, @stars 1, @forks 0)
 - Code language: C
 - Code license: GPL-3.0
 - Assets license: GPL-3.0

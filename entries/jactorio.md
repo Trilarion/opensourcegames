@@ -4,7 +4,7 @@
 - Inspiration: Factorio
 - State: beta
 - Keyword: simulation, clone, content commercial
-- Code repository: https://github.com/jaihysc/Jactorio.git (@created 2019, @stars 32, @forks 1)
+- Code repository: https://github.com/jaihysc/Jactorio.git (@created 2019, @stars 62, @forks 1)
 - Code language: C++
 - Code license: MIT
 - Code dependency: SDL2

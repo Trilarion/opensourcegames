@@ -5,9 +5,9 @@
 - State: mature
 - Platform: Web
 - Keyword: action, clone, content commercial
-- Code repository: https://github.com/dogballs/cattle-bity.git (@created 2018, @stars 21, @forks 9)
+- Code repository: https://github.com/dogballs/cattle-bity.git (@created 2018, @stars 38, @forks 12)
 - Code language: TypeScript
 - Code license: MIT
-- Developer: Anton-Aleksei Ilyin, Michael
+- Developer: Anton-Aleksei Ilyin, Anton-Aliaksei Ilyin, Michael
 
 ## Building

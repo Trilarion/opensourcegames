@@ -5,10 +5,10 @@
 - Download: https://github.com/WagicProject/wagic/releases
 - Platform: Windows, Linux, macOS, Android, iOS
 - Keyword: cards, game engine
-- Code repository: https://github.com/WagicProject/wagic.git (@created 2013, @stars 289, @forks 78)
+- Code repository: https://github.com/WagicProject/wagic.git (@created 2013, @stars 335, @forks 77)
 - Code language: C++, C, Objective-C
 - Code license: 3-clause BSD
-- Developer: Anthony Calosa, Bjørn Polat-Snoen, Bjørn Snoen, Dmitry Panin, Eduardo MG, Rolzad73, Tobias Loose, Vittorio Alfieri, Xawotihs, zethfoxster
+- Developer: Anthony Calosa, Bjørn Polat-Snoen, Bjørn Snoen, Dmitry Panin, Eduardo MG, kevlahnota, Rolzad73, Tobias Loose, Vittorio Alfieri, Xawotihs, zethfoxster
 
 ## Building
 

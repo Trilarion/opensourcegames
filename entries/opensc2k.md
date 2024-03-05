@@ -5,7 +5,7 @@
 - State: beta
 - Platform: Web
 - Keyword: remake, simulation
-- Code repository: https://github.com/nicholas-ochoa/OpenSC2K.git (@created 2018, @stars 4824, @forks 75)
+- Code repository: https://github.com/nicholas-ochoa/OpenSC2K.git (@created 2018, @stars 4919, @forks 81)
 - Code language: JavaScript
 - Code license: GPL-3.0
 - Code dependency: Phaser, WebGL

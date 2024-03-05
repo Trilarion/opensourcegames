@@ -4,7 +4,7 @@
 - Inspiration: Micro Machines
 - State: beta
 - Keyword: game engine, 3D, clone, content open, multiplayer online + local, racing
-- Code repository: https://github.com/cflavio/yorg.git (@created 2016, @stars 150, @forks 35)
+- Code repository: https://github.com/cflavio/yorg.git (@created 2016, @stars 164, @forks 34)
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependency: Panda3D

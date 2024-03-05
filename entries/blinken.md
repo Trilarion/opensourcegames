@@ -4,7 +4,7 @@
 - Inspiration: Simon Says
 - State: mature
 - Keyword: educational, content open, memory
-- Code repository: https://github.com/KDE/blinken.git (@created 2015, @stars 5, @forks 2)
+- Code repository: https://github.com/KDE/blinken.git (@created 2015, @stars 7, @forks 3)
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: KDE Frameworks

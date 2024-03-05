@@ -5,9 +5,9 @@
 - State: mature
 - Platform: Windows, Linux
 - Keyword: remake, first-person, shooter
-- Code repository: https://github.com/dxx-rebirth/dxx-rebirth.git (@created 2013, @stars 362, @forks 90)
+- Code repository: https://github.com/dxx-rebirth/dxx-rebirth.git (@created 2013, @stars 440, @forks 107)
 - Code language: C, C++, Python
 - Code license: GPL-3.0, Custom (derived from GPL-3.0)
-- Developer: AlumiuN, Arne de Bruijn, Bradley Bell, C.W. Betts, Christian, Dave Milici, derhass, dimag0g, JP Cimalando, kreatordxx, Kreeblah, Mako88, Martin Fiedler, Ronald M. Clifford, SanskritFritz, SkywingvL, vLKp, Volker Schneider, ziplantil
+- Developer: AlumiuN, Arne de Bruijn, Bradley Bell, C.W. Betts, Christian, Dave Milici, derhass, dimag0g, Jeod, JP Cimalando, kreatordxx, Kreeblah, Mako88, Martin Fiedler, raptor, Ronald M. Clifford, SanskritFritz, SkywingvL, vLKp, Volker Schneider, ziplantil
 
 ## Building

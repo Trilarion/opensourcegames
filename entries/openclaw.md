@@ -4,7 +4,7 @@
 - Inspiration: Claw
 - State: mature
 - Keyword: remake, content commercial + original required
-- Code repository: https://github.com/pjasicek/OpenClaw.git (@created 2017, @stars 269, @forks 34)
+- Code repository: https://github.com/pjasicek/OpenClaw.git (@created 2017, @stars 322, @forks 36)
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: Box2D, SDL

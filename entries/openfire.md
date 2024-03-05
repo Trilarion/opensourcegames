@@ -4,7 +4,7 @@
 - Inspiration: Fire Power
 - State: beta, inactive since 2018
 - Keyword: action, clone
-- Code repository: https://github.com/Last-Minute-Creations/openFire.git (@created 2016, @stars 12, @forks 1)
+- Code repository: https://github.com/Last-Minute-Creations/openFire.git (@created 2016, @stars 13, @forks 1)
 - Code language: C
 - Code license: MIT
 - Developer: KaiN

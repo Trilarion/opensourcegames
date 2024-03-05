@@ -4,7 +4,7 @@
 - Inspiration: Castle Wolfenstein
 - State: beta, inactive since 2018
 - Keyword: action, content open, first-person, shooter
-- Code repository: https://github.com/MaxwellSalmon/DUGA.git (@created 2018, @stars 123, @forks 20)
+- Code repository: https://github.com/MaxwellSalmon/DUGA.git (@created 2018, @stars 132, @forks 23)
 - Code language: Python
 - Code license: MPL-2.0
 - Code dependency: pygame

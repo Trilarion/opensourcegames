@@ -4,9 +4,10 @@
 - Inspiration: Nox
 - State: mature
 - Keyword: action, remake, content commercial + original required, multiplayer Online + LAN
-- Code repository: https://github.com/noxworld-dev/opennox.git
+- Code repository: https://github.com/noxworld-dev/opennox.git (@created 2019, @stars 391, @forks 21)
 - Code language: C, Go
 - Code license: GPL-3.0
+- Developer: angrykirc, Anton, Denys Smirnov, Evengard, "Jeong, Heon", paperjack93
 
 ## Building
 

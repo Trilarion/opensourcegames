@@ -5,11 +5,11 @@
 - State: mature
 - Download: https://github.com/CorsixTH/CorsixTH/releases
 - Keyword: remake, simulation, strategy, content commercial + original required
-- Code repository: https://github.com/CorsixTH/CorsixTH.git (@created 2013, @stars 2636, @forks 292)
+- Code repository: https://github.com/CorsixTH/CorsixTH.git (@created 2013, @stars 3759, @forks 344)
 - Code language: Lua, C++
 - Code license: MIT
 - Code dependency: SDL2
-- Developer: Alan Woolley, Alberth289346, Alexander Bessman, altiereslima, Antoine Lemaire, Anton Shestakov, Artem Polishchuk, benckx, bobcanthelpyou, Chris James, Chrystalyst, DavidFair, Edvin, emorrp1, Erlend Mongstad, Grimdoc, Jaco, James Russell, Josh Keegan, Jørgen P. Tjernø, lewri, MarkL, Miika-Petteri Matikainen, Mounir Lamouri, mugmuggy, Pavel Schoffer, Peter Waller, phillipp, Robert Flack, Romain, Ryan, Stephen E. Baker, Toby, Víctor "IlDucci", William Gatens, wolfy1339, yangfl, YoungSeok Yoon, Zbyněk Schwarz
+- Developer: Alan Woolley, Alberth289346, Alexander Bessman, altiereslima, Antoine Lemaire, Anton Shestakov, Artem Polishchuk, benckx, Bob Idle, bobcanthelpyou, Chris James, Chrystalyst, DavidFair, Edvin, emorrp1, Erlend Mongstad, Grimdoc, Jaco, James Russell, Josh Keegan, Jørgen P. Tjernø, Jørgen Tjernø, lewri, MarkL, Miika-Petteri Matikainen, Mounir Lamouri, mugmuggy, Pavel Schoffer, Peter Waller, phillipp, Robert Flack, Romain, Ryan, Stephen E. Baker, Toby, Víctor "IlDucci", William, William Gatens, wolfy1339, yangfl, YoungSeok Yoon, Zbyněk Schwarz
 
 ## Building
 

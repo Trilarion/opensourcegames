@@ -5,7 +5,7 @@
 - State: mature, inactive since 2008
 - Download: https://f-droid.org//packages/net.asceai.meritous/
 - Keyword: role playing, dungeon
-- Code repository: https://github.com/Nop90-Switch/Meritous-Switch.git (import of version 1.2, @created 2018, @stars 3, @forks 0), https://gitlab.com/meritous/sdl_android.git @add (@created 2015, @stars 3, @forks 0), https://gitlab.com/meritous/meritous.git @add (@created 2015, @stars 8, @forks 2)
+- Code repository: https://github.com/Nop90-Switch/Meritous-Switch.git (import of version 1.2, @created 2018, @stars 4, @forks 0), https://gitlab.com/meritous/sdl_android.git @add (@created 2015, @stars 3, @forks 0), https://gitlab.com/meritous/meritous.git @add (@created 2015, @stars 8, @forks 2)
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependency: SDL

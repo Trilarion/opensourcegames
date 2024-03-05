@@ -4,7 +4,7 @@
 - State: beta
 - Download: https://attnam.com/projects
 - Keyword: role playing, roguelike
-- Code repository: https://github.com/Attnam/ivan.git (@created 2013, @stars 260, @forks 41), http://ivan.cvs.sourceforge.net (cvs)
+- Code repository: https://github.com/Attnam/ivan.git (@created 2013, @stars 295, @forks 42), http://ivan.cvs.sourceforge.net (cvs)
 - Code language: C++
 - Code license: GPL-2.0
 - Developer: AdrianGin, Alex Mooney, Andrew Weber, AquariusPower, Emil Laine, fejoa, Heikki Sairanen, J.W, Michael Bonfils, red_kangaroo, ryfactor, Serin Delaunay, stoperro, Timo Kiviluoto, Tuukka Virtaperko

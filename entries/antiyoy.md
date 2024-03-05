@@ -4,7 +4,7 @@
 - State: beta
 - Platform: Android
 - Keyword: arcade
-- Code repository: https://github.com/yiotro/Antiyoy.git (@created 2016, @stars 380, @forks 53)
+- Code repository: https://github.com/yiotro/Antiyoy.git (@created 2016, @stars 408, @forks 54)
 - Code language: Java
 - Code license: GPL-3.0
 - Code dependency: libGDX

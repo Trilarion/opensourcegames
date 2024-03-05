@@ -5,7 +5,7 @@
 - State: beta
 - Platform: Linux
 - Keyword: game engine, remake, role playing, simulation, content commercial + original required, space
-- Code repository: https://github.com/laanwj/sundog.git (@created 2017, @stars 54, @forks 16)
+- Code repository: https://github.com/laanwj/sundog.git (@created 2017, @stars 67, @forks 20)
 - Code language: C, C++, Python
 - Code license: MIT
 - Code dependency: SDL

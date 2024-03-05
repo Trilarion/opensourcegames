@@ -6,10 +6,10 @@
 - Download: https://builds.openjk.org/
 - Platform: Windows
 - Keyword: action, game engine, remake, content commercial + original required
-- Code repository: https://github.com/JACoders/OpenJK.git (@created 2013, @stars 1735, @forks 552)
+- Code repository: https://github.com/JACoders/OpenJK.git (@created 2013, @stars 1916, @forks 593)
 - Code language: C, C++
 - Code license: GPL-2.0
-- Developer: Alex Lo, Alex Nordlund, Alexandre Blin, Anonymous Maarten, Archangel35757, Boris I. Bendovsky, Brandon Largeau, Dion Williams, Ensiform, Harry Jeffery, Joel Teichroeb, Lourens Elzinga, Nathaniel Brandes, Nick, ouned, razor, redsaurus, Scooper, Simon McVittie, Szilárd Biró, Taahir Ahmed, Willi Schinmeyer, Zack Middleton, zturtleman
+- Developer: Alex Lo, Alex Nordlund, Alexandre Blin, Anonymous Maarten, Archangel35757, Boris I. Bendovsky, Brandon Largeau, Daggolin, Dion Williams, Ensiform, Harry Jeffery, Joel Teichroeb, Lourens Elzinga, Monsterovich, Nathaniel Brandes, Nick, ouned, razor, redsaurus, Scooper, Simon McVittie, SomaZ, Szilárd Biró, Taahir Ahmed, tayst, Willi Schinmeyer, Zack Middleton, zturtleman
 
 ## Building
 

@@ -6,7 +6,7 @@
 - Download: https://f-droid.org//packages/com.shurik.droidzebra/
 - Platform: Android
 - Keyword: strategy
-- Code repository: https://github.com/alkom/droidzebra.git (@created 2015, @stars 21, @forks 8)
+- Code repository: https://github.com/alkom/droidzebra.git (@created 2015, @stars 23, @forks 8)
 - Code language: C, Java
 - Code license: GPL-3.0
 

@@ -5,7 +5,7 @@
 - Inspiration: Vangers
 - State: mature
 - Keyword: remake, role playing, content open, racing
-- Code repository: https://github.com/KranX/Vangers.git (@created 2014, @stars 546, @forks 74)
+- Code repository: https://github.com/KranX/Vangers.git (@created 2014, @stars 620, @forks 86)
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: SDL2

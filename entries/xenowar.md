@@ -5,7 +5,7 @@
 - State: mature, inactive since 2014
 - Platform: Windows, Android
 - Keyword: strategy, clone, turn-based
-- Code repository: https://github.com/leethomason/unflobtactical.git (@created 2015, @stars 23, @forks 9)
+- Code repository: https://github.com/leethomason/unflobtactical.git (@created 2015, @stars 24, @forks 10)
 - Code language: C, C++
 - Code license: GPL-3.0
 

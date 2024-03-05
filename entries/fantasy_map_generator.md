@@ -4,7 +4,7 @@
 - State: mature
 - Platform: Web
 - Keyword: tool
-- Code repository: https://github.com/Azgaar/Fantasy-Map-Generator.git (@created 2017, @stars 3380, @forks 502)
+- Code repository: https://github.com/Azgaar/Fantasy-Map-Generator.git (@created 2017, @stars 4203, @forks 608)
 - Code language: JavaScript
 - Code license: MIT
 - Developer: Azgaar, evolvedexperiment, "Gergely Mészáros, Ph.D.", Klāvs Priedītis, Ángel Montero Lamas

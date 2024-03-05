@@ -4,7 +4,7 @@
 - Inspiration: Barony
 - State: mature
 - Keyword: remake, role playing, 3D, content commercial, first-person, multiplayer co-op + online + LAN, roguelike
-- Code repository: https://github.com/TurningWheel/Barony.git (@created 2016, @stars 352, @forks 89)
+- Code repository: https://github.com/TurningWheel/Barony.git (@created 2016, @stars 456, @forks 117)
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: OpenGL, SDL2

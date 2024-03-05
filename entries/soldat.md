@@ -6,7 +6,7 @@
 - Download: https://www.soldat.pl/en/downloads/
 - Platform: Windows
 - Keyword: action, 2D, content open, shooter
-- Code repository: https://github.com/Soldat/soldat.git (@created 2022, @stars 20, @forks 0)
+- Code repository: https://github.com/Soldat/soldat.git (@created 2022, @stars 78, @forks 14)
 - Code language: C, Pascal
 - Code license: MIT
 - Code dependency: SDL2

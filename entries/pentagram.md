@@ -6,10 +6,10 @@
 - Download: https://pentagram.sourceforge.net/download.php
 - Platform: Windows, Linux, macOS
 - Keyword: game engine, remake, role playing, content commercial + original required
-- Code repository: https://github.com/pentagram-u8/pentagram.git (@created 2016, @stars 40, @forks 7), https://svn.code.sf.net/p/pentagram/code (svn)
+- Code repository: https://github.com/pentagram-u8/pentagram.git (@created 2016, @stars 44, @forks 6), https://svn.code.sf.net/p/pentagram/code (svn)
 - Code language: C++
 - Code license: GPL-2.0
-- Developer: btietz, colourles, Darke, Dominik Reichardt, kirben, Kirben, Matthew Jimenez, Max Horn, wench, Willem Jan Palenstijn
+- Developer: Alexis Ryan, btietz, colourles, Darke, Dominik Reichardt, kirben, Kirben, Matthew Jimenez, Max Horn, wench, Willem Jan Palenstijn
 
 ## Building
 

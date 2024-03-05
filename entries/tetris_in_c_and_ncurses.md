@@ -4,7 +4,7 @@
 - Inspiration: Tetris
 - State: mature
 - Keyword: puzzle, remake, content open
-- Code repository: https://github.com/brenns10/tetris.git (@created 2015, @stars 166, @forks 44)
+- Code repository: https://github.com/brenns10/tetris.git (@created 2015, @stars 213, @forks 54)
 - Code language: C
 - Code license: 3-clause BSD
 - Code dependency: ncurses, SDL

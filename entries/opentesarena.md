@@ -5,7 +5,7 @@
 - State: beta
 - Platform: Windows, Linux, macOS
 - Keyword: game engine, remake, content commercial + original required
-- Code repository: https://github.com/afritz1/OpenTESArena.git (@created 2016, @stars 752, @forks 57)
+- Code repository: https://github.com/afritz1/OpenTESArena.git (@created 2016, @stars 899, @forks 68)
 - Code language: C++
 - Code license: MIT
 - Code dependency: OpenAL, SDL2, WildMidi

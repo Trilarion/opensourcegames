@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://sourceforge.net/projects/pentobi/files/
 - Keyword: board, role playing, content open
-- Code repository: https://github.com/enz/pentobi.git (@created 2017, @stars 44, @forks 12)
+- Code repository: https://github.com/enz/pentobi.git (@created 2017, @stars 54, @forks 16)
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: Qt

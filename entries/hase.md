@@ -4,7 +4,7 @@
 - Inspiration: Hedgewars, Warheads, Worms
 - State: beta
 - Keyword: strategy, artillery, content open, turn-based
-- Code repository: https://github.com/theZiz/hase.git (@created 2013, @stars 14, @forks 4)
+- Code repository: https://github.com/theZiz/hase.git (@created 2013, @stars 14, @forks 5)
 - Code language: C
 - Code license: GPL-3.0
 - Code dependency: SDL

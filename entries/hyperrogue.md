@@ -7,7 +7,7 @@
 - Download: https://roguetemple.com/z/hyper/download.php
 - Platform: Windows, Linux, macOS, Android
 - Keyword: role playing, roguelike
-- Code repository: https://github.com/zenorogue/hyperrogue.git (@created 2015, @stars 382, @forks 56)
+- Code repository: https://github.com/zenorogue/hyperrogue.git (@created 2015, @stars 535, @forks 65)
 - Code language: C++
 - Code license: GPL-2.0
 - Developer: Alexandre Moine, Arthur O'Dwyer, blargdag, Charlotte Peppers, Dmitry Marakasov, Dorota Celińska-Kopczyńska, emmiegit, Jesse Ruderman, still-flow, Technochips, Zeno Rogue

@@ -6,7 +6,7 @@
 - Play: http://ellisonleao.github.io/clumsy-bird/
 - Platform: Web
 - Keyword: remake, skill
-- Code repository: https://github.com/ellisonleao/clumsy-bird.git (@archived, @created 2014, @stars 1414, @forks 945)
+- Code repository: https://github.com/ellisonleao/clumsy-bird.git (@archived, @created 2014, @stars 1483, @forks 1039)
 - Code language: JavaScript
 - Code license: MIT
 - Code dependency: melonJS

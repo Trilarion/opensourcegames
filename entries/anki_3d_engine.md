@@ -4,7 +4,7 @@
 - State: beta
 - Platform: Windows, Linux, Android
 - Keyword: game engine, 3D
-- Code repository: https://github.com/godlikepanos/anki-3d-engine.git
+- Code repository: https://github.com/godlikepanos/anki-3d-engine.git (@created 2014, @stars 1198, @forks 83)
 - Code language: C++
 - Code license: 3-clause BSD
 - Developer: akalugin, Panagiotis Christopoulos Charitos, SergioAlapontARM

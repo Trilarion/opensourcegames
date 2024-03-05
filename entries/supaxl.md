@@ -5,7 +5,7 @@
 - State: mature
 - Platform: Web
 - Keyword: puzzle, remake, content commercial, skill
-- Code repository: https://github.com/eguneys/supaxl.git (@created 2018, @stars 5, @forks 3)
+- Code repository: https://github.com/eguneys/supaxl.git (@created 2018, @stars 7, @forks 4)
 - Code language: JavaScript
 - Code license: MIT
 - Code dependency: pixi.js

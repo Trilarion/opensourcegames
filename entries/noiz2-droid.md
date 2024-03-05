@@ -6,7 +6,7 @@
 - Download: https://f-droid.org/de/packages/com.netthreads.android.noiz2/
 - Platform: Android
 - Keyword: action, 2D, shooter
-- Code repository: https://github.com/alistairrutherford/noiz2-droid.git (@created 2015, @stars 4, @forks 0)
+- Code repository: https://github.com/alistairrutherford/noiz2-droid.git (@created 2015, @stars 6, @forks 0)
 - Code language: Java
 - Code license: 2-clause BSD
 - Developer: Alistair Rutherford

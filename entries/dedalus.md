@@ -4,7 +4,7 @@
 - State: beta, inactive since 2018
 - Platform: Web
 - Keyword: adventure, game engine, tool, text-based
-- Code repository: https://github.com/pistacchio/Dedalus.git (@created 2013, @stars 170, @forks 28)
+- Code repository: https://github.com/pistacchio/Dedalus.git (@created 2013, @stars 172, @forks 28)
 - Code language: JavaScript
 - Code license: GPL-2.0
 - Code dependency: jQuery

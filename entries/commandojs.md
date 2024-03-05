@@ -5,7 +5,7 @@
 - State: beta, inactive since 2012
 - Platform: Web
 - Keyword: action, remake
-- Code repository: https://github.com/commandojs/CommandoJS.git (@created 2012, @stars 37, @forks 18)
+- Code repository: https://github.com/commandojs/CommandoJS.git (@created 2012, @stars 39, @forks 18)
 - Code language: JavaScript, CoffeeScript
 - Code license: MIT
 - Code dependency: melonJS

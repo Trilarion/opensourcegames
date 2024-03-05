@@ -6,7 +6,7 @@
 - Download: https://github.com/victords/super-bombinhas/releases
 - Platform: Windows, Linux
 - Keyword: platform, 2D, content open
-- Code repository: https://github.com/victords/super-bombinhas.git (@created 2019, @stars 283, @forks 13)
+- Code repository: https://github.com/victords/super-bombinhas.git (@created 2019, @stars 308, @forks 16)
 - Code language: Ruby
 - Code license: GPL-3.0
 - Code dependency: Gosu, MiniGL

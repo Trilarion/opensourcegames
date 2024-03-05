@@ -5,7 +5,7 @@
 - State: mature, inactive since 2005
 - Platform: Windows, Linux, macOS
 - Keyword: arcade, content open
-- Code repository: https://github.com/callaa/luola.git (@created 2014, @stars 13, @forks 7)
+- Code repository: https://github.com/callaa/luola.git (@created 2014, @stars 15, @forks 7)
 - Code language: C
 - Code license: GPL-2.0
 - Code dependency: SDL

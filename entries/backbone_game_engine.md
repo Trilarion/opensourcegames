@@ -4,7 +4,7 @@
 - State: beta, inactive since 2016
 - Platform: Web
 - Keyword: game engine, platform, 2D
-- Code repository: https://github.com/martindrapeau/backbone-game-engine.git (@created 2014, @stars 167, @forks 76)
+- Code repository: https://github.com/martindrapeau/backbone-game-engine.git (@created 2014, @stars 188, @forks 87)
 - Code language: JavaScript
 - Code license: MIT
 - Developer: Martin Drapeau

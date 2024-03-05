@@ -4,7 +4,7 @@
 - State: beta, inactive since 2016
 - Download: https://linux.tlk.fr/games/TecnoballZ/download/
 - Keyword: arcade, content open
-- Code repository: https://github.com/brunonymous/tecnoballz.git (@created 2015, @stars 5, @forks 3)
+- Code repository: https://github.com/brunonymous/tecnoballz.git (@created 2015, @stars 6, @forks 3)
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: SDL

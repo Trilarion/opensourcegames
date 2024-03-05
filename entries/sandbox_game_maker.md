@@ -4,7 +4,7 @@
 - State: mature, inactive since 2014
 - Download: https://www.sandboxgamemaker.com/free-game-maker-download/
 - Keyword: framework
-- Code repository: https://github.com/PlatinumArts/Platinum-Arts-Sandbox-Free-Game-Maker.git (@created 2014, @stars 13, @forks 12)
+- Code repository: https://github.com/PlatinumArts/Platinum-Arts-Sandbox-Free-Game-Maker.git (@created 2014, @stars 16, @forks 12)
 - Code language: C++, C
 - Code license: Custom (MIT, modified zlib: requires special credits and notifications)
 

@@ -7,6 +7,6 @@
 - Code language: Python
 - Code license: Public domain
 - Code dependency: pygame
-- Developer: Blake O'Hare, Christine Sandquist, ikanreed, SpearsDRacona
+- Developer: Angel McLaughlin, Blake O'Hare, Christine Sandquist, ikanreed, SpearsDRacona
 
 ## Building

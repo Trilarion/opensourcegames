@@ -6,7 +6,7 @@
 - Download: https://secretchronicles.org/en/download/
 - Platform: Windows, Linux
 - Keyword: platform, remake, 2D, scrolling
-- Code repository: https://github.com/secretchronicles/TSC.git (@created 2012, @stars 183, @forks 50)
+- Code repository: https://github.com/secretchronicles/TSC.git (@created 2012, @stars 201, @forks 50)
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: SDL

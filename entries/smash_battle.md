@@ -5,7 +5,7 @@
 - Download: https://smashbattle.demontpx.com/downloads/, https://sourceforge.net/projects/smashbattle/files/
 - Platform: Windows, Linux
 - Keyword: action, platform, 2D, shooter
-- Code repository: https://github.com/DemonTPx/smashbattle.git
+- Code repository: https://github.com/DemonTPx/smashbattle.git (@created 2014, @stars 7, @forks 7)
 - Code language: C++
 - Code license: GPL-2.0
 - Developer: Bert Hekman, Jeroen Groeneweg, Jordy Moos, Ray Burgemeestre

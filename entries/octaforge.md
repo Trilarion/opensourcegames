@@ -3,7 +3,7 @@
 - Home: https://octaforge.org/
 - State: mature
 - Keyword: framework, 3D
-- Code repository: https://git.octaforge.org/OctaForge/OctaCore.git, https://github.com/OctaForge/OF-Engine.git (mirror, @archived, @created 2011, @stars 53, @forks 11)
+- Code repository: https://git.octaforge.org/OctaForge/OctaCore.git, https://github.com/OctaForge/OF-Engine.git (mirror, @archived, @created 2011, @stars 51, @forks 11)
 - Code language: C++
 - Code license: Custom (NCSA open source license)
 - Developer: Daniel Kolesa, Lee Salzman, plankatron, q66

@@ -6,7 +6,7 @@
 - State: mature
 - Download: https://github.com/nlarn/nlarn/releases, https://sourceforge.net/projects/nlarn/files/nlarn/
 - Keyword: remake, role playing, roguelike
-- Code repository: https://github.com/nlarn/nlarn.git (@created 2018, @stars 34, @forks 5)
+- Code repository: https://github.com/nlarn/nlarn.git (@created 2018, @stars 39, @forks 5)
 - Code language: C, Lua
 - Code license: GPL-3.0
 - Developer: j-p-e-g, Joachim de Groot, jpeg

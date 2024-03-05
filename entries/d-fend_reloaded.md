@@ -5,7 +5,7 @@
 - Download: https://dfendreloaded.sourceforge.io/Download.html, https://sourceforge.net/projects/dfendreloaded/files/D-Fend%20Reloaded/
 - Platform: Windows
 - Keyword: tool, frontend
-- Code repository: https://github.com/osgamearchive/D-Fend-Reloaded.git (import of source releases, @archived, @created 2019, @stars 1, @forks 0)
+- Code repository: https://github.com/osgamearchive/D-Fend-Reloaded.git (import of source releases, @archived, @created 2019, @stars 1, @forks 1)
 - Code language: Pascal
 - Code license: GPL-3.0
 - Developer: Alexander Herzog

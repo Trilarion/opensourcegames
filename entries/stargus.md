@@ -5,7 +5,7 @@
 - State: beta, inactive since 2010
 - Download: https://sourceforge.net/projects/stargus/files/
 - Keyword: remake, content commercial + original required
-- Code repository: https://github.com/Wargus/stargus.git (@created 2015, @stars 113, @forks 20), https://svn.code.sf.net/p/stargus/code (svn), https://code.launchpad.net/stargus (bzr)
+- Code repository: https://github.com/Wargus/stargus.git (@created 2015, @stars 121, @forks 24), https://svn.code.sf.net/p/stargus/code (svn), https://code.launchpad.net/stargus (bzr)
 - Code language: C++, Lua
 - Code license: GPL-2.0
 - Code dependency: Stratagus

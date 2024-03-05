@@ -4,7 +4,7 @@
 - Inspiration: Pac-Man
 - State: mature
 - Keyword: arcade, clone, content open
-- Code repository: https://github.com/danicat/pacgo.git (@created 2018, @stars 1098, @forks 137)
+- Code repository: https://github.com/danicat/pacgo.git (@created 2018, @stars 1183, @forks 139)
 - Code language: Go
 - Code license: MIT
 - Developer: Daniela Petruzalek

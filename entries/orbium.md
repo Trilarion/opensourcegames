@@ -5,7 +5,7 @@
 - State: mature, inactive since 2018
 - Platform: Web
 - Keyword: remake, strategy
-- Code repository: https://github.com/bni/orbium.git (@created 2010, @stars 86, @forks 40)
+- Code repository: https://github.com/bni/orbium.git (@created 2010, @stars 86, @forks 42)
 - Code language: JavaScript
 - Code license: GPL-2.0
 - Developer: Björn Nilsson

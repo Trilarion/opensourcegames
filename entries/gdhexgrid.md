@@ -3,7 +3,7 @@
 - Home: https://github.com/romlok/godot-gdhexgrid
 - State: mature
 - Keyword: action
-- Code repository: https://github.com/romlok/godot-gdhexgrid.git (@created 2018, @stars 148, @forks 22)
+- Code repository: https://github.com/romlok/godot-gdhexgrid.git (@created 2018, @stars 186, @forks 23)
 - Code language: GDScript
 - Code license: MIT
 - Code dependency: Godot

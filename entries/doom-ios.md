@@ -5,7 +5,7 @@
 - State: mature, inactive since 2012
 - Platform: iOS
 - Keyword: action, remake, content commercial + original required, shooter
-- Code repository: https://github.com/id-Software/DOOM-iOS.git (@created 2012, @stars 731, @forks 195), https://github.com/id-Software/DOOM-iOS2.git (@add)
+- Code repository: https://github.com/id-Software/DOOM-iOS.git (@created 2012, @stars 770, @forks 203), https://github.com/id-Software/DOOM-iOS2.git (@add)
 - Code language: C++, C
 - Code license: GPL-2.0
 

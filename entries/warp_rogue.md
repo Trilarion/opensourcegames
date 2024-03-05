@@ -4,7 +4,7 @@
 - Media: https://www.roguebasin.com/index.php?title=Warp_Rogue
 - State: beta, inactive since 2010
 - Keyword: platform, content open, roguelike, setting fantasy
-- Code repository: https://github.com/anthonycicc/warp_rogue.git (@created 2018, @stars 1, @forks 0)
+- Code repository: https://github.com/anthonycicc/warp_rogue.git (@created 2018, @stars 2, @forks 0)
 - Code language: C
 - Code license: GPL-3.0
 - Code dependency: SDL

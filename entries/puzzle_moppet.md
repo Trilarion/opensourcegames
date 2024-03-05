@@ -5,7 +5,7 @@
 - State: mature
 - Platform: Windows, Linux, macOS
 - Keyword: puzzle, content open
-- Code repository: https://github.com/karjonas/puzzle-moppet.git, https://bitbucket.org/Knitter/puzzlemoppet.git
+- Code repository: https://github.com/karjonas/puzzle-moppet.git (@created 2019, @stars 5, @forks 2), https://bitbucket.org/Knitter/puzzlemoppet.git
 - Code language: C++
 - Code license: WTFPL
 - Code dependency: Irrlicht engine, ODE

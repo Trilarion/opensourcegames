@@ -4,7 +4,7 @@
 - State: beta
 - Platform: Windows
 - Keyword: game engine
-- Code repository: https://github.com/matt77hias/MAGE-v0.git (@created 2016, @stars 244, @forks 19)
+- Code repository: https://github.com/matt77hias/MAGE-v0.git (@created 2016, @stars 257, @forks 20)
 - Code language: C++
 - Code license: GPL-3.0
 - Developer: Matthias Moulin

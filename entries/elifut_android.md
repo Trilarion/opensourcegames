@@ -5,7 +5,7 @@
 - State: mature
 - Platform: Android
 - Keyword: simulation, soccer
-- Code repository: https://github.com/EliFUT/android.git
+- Code repository: https://github.com/EliFUT/android.git (@created 2015, @stars 174, @forks 94)
 - Code language: Java, Kotlin
 - Code license: Apache-2.0
 - Developer: Felipe Lima

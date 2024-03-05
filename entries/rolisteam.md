@@ -5,7 +5,7 @@
 - Download: http://www.rolisteam.org/download.html, https://sourceforge.net/projects/rolisteam/files
 - Platform: Windows, Linux, macOS
 - Keyword: tool
-- Code repository: https://github.com/Rolisteam/rolisteam.git (https://github.com/Rolisteam, @created 2015, @stars 175, @forks 27)
+- Code repository: https://github.com/Rolisteam/rolisteam.git (https://github.com/Rolisteam, @created 2015, @stars 184, @forks 28)
 - Code language: C++, JavaScript
 - Code license: GPL-2.0
 - Developer: Alci, obiwankennedy, Renaud G., Tomaz Canabrava

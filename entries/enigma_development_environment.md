@@ -5,10 +5,10 @@
 - State: mature
 - Download: https://enigma-dev.org/download.htm
 - Keyword: framework, 3D
-- Code repository: https://github.com/enigma-dev/enigma-dev.git (@created 2012, @stars 252, @forks 104)
+- Code repository: https://github.com/enigma-dev/enigma-dev.git (@created 2012, @stars 314, @forks 117)
 - Code language: C++, C
 - Code license: GPL-3.0
-- Developer: Alasdair Morrison, faissaloo, forthevin, Greg Williamson, Harijs Grinbergs, Heathtech, IsmAvatar, Jean-Pierre Sabbagh, Josh Ventura, Justin Rissler, k.vanberendonck, Kyle Van Berendonck, polygone, RemoveRusky, Robert Colton, Russell Johnston, Samuel Venable, Seth N. Hetu, ssss, time-killer-games, van0014, Zach Reedy
+- Developer: Alasdair Morrison, faissaloo, forthevin, Greg Williamson, Harijs Grinbergs, Heathtech, IsmAvatar, Jean-Pierre Sabbagh, Josh Ventura, Justin Rissler, k.vanberendonck, Kyle Van Berendonck, polygone, RemoveRusky, Robert Colton, Russell Johnston, Saif Kandil, Samuel Venable, Seth N. Hetu, ssss, time-killer-games, van0014, Zach Reedy
 
 Game development environment.
 

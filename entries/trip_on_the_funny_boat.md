@@ -5,7 +5,7 @@
 - Download: https://funnyboat.sourceforge.net/download.php, https://sourceforge.net/projects/funnyboat/files/
 - Platform: Windows, Linux
 - Keyword: arcade, content open, shooter, side-scrolling
-- Code repository: https://github.com/AMDmi3/funnyboat.git, https://svn.code.sf.net/p/funnyboat/code (svn)
+- Code repository: https://github.com/AMDmi3/funnyboat.git (@created 2020, @stars 4, @forks 0), https://svn.code.sf.net/p/funnyboat/code (svn)
 - Code language: Python
 - Code license: GPL-2.0
 - Code dependency: PixelPerfect

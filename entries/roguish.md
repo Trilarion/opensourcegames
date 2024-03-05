@@ -4,7 +4,7 @@
 - State: beta, inactive since 2015
 - Platform: Web
 - Keyword: role playing, multiplayer, roguelike
-- Code repository: https://github.com/CamHenlin/Roguish.git (@created 2015, @stars 73, @forks 21)
+- Code repository: https://github.com/CamHenlin/Roguish.git (@created 2015, @stars 84, @forks 28)
 - Code language: JavaScript
 - Code license: 3-clause BSD
 - Developer: Cameron Henlin, Jordan Butler, Ryan Wise

@@ -4,7 +4,7 @@
 - Inspiration: Command & Conquer: Generals
 - State: beta
 - Keyword: remake, strategy, content commercial + original required, real-time
-- Code repository: https://github.com/TheAssemblyArmada/Thyme.git (@created 2017, @stars 443, @forks 37)
+- Code repository: https://github.com/TheAssemblyArmada/Thyme.git (@created 2017, @stars 530, @forks 49)
 - Code language: C, C++
 - Code license: GPL-2.0
 - Developer: Duncan, jonwil, Michał Janiszewski, OmniBlade, Stephan Vedder, Toms, xezon

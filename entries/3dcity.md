@@ -6,7 +6,7 @@
 - Play: http://lo-th.github.io/3d.city/index.html
 - Platform: Web
 - Keyword: simulation, clone, content open
-- Code repository: https://github.com/lo-th/3d.city.git (@created 2014, @stars 1411, @forks 273)
+- Code repository: https://github.com/lo-th/3d.city.git (@created 2014, @stars 1529, @forks 301)
 - Code language: JavaScript
 - Code license: GPL-3.0 (with additional terms)
 - Code dependency: SEA3D, Three.js

@@ -4,7 +4,7 @@
 - Inspiration: Black Shades
 - State: beta, inactive since 2007
 - Keyword: simulation, content open, first-person, shooter
-- Code repository: https://github.com/bkeys/blackshadeselite.git
+- Code repository: https://github.com/bkeys/blackshadeselite.git (@created 2015, @stars 1, @forks 0)
 - Code language: C, C++
 - Code license: GPL-2.0
 - Developer: "Brigham Keys, Esq.", David Rosen

@@ -5,7 +5,7 @@
 - Inspiration: Ryzom
 - State: mature
 - Keyword: remake, role playing, multiplayer massive + online, requires server (?)
-- Code repository: https://github.com/ryzom/ryzomcore.git (@created 2015, @stars 258, @forks 77), https://gitlab.com/ryzom/ryzom-core.git (mirror, @created 2019, @stars 15, @forks 6)
+- Code repository: https://github.com/ryzom/ryzomcore.git (@created 2015, @stars 323, @forks 86), https://gitlab.com/ryzom/ryzom-core.git (mirror, @created 2019, @stars 15, @forks 6)
 - Code language: C++, PHP
 - Code license: AGPL-3.0
 - Assets license: CC

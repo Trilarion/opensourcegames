@@ -6,7 +6,7 @@
 - Download: https://github.com/antrad/Abuse_1996/releases
 - Platform: Windows
 - Keyword: remake, content open
-- Code repository: https://github.com/antrad/Abuse_1996.git (@created 2016, @stars 109, @forks 24)
+- Code repository: https://github.com/antrad/Abuse_1996.git (@created 2016, @stars 128, @forks 24)
 - Code language: C++, Lisp
 - Code license: Custom, Public domain, GPL-2.0, WTFPL
 - Code dependency: SDL2

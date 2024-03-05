@@ -70,9 +70,9 @@ def gitlab_import():
                 # search for repository
                 for idx, r in enumerate(code_repositories):
                     if r.startswith(repo):
-                        if not isinstance(r, osg_parse.Value):
+                        if not isinstance(r, osg_parse.Value):  # if there was no comment yet, make one
                             r = osg_parse.Value(r)
-                        code_repositories[idx] = r
+                        code_repositories[idx] = r  # need to store it, otherwise changes will be lost
                         break
 
                 # update comment
@@ -95,7 +95,8 @@ def gitlab_import():
             entry['Code repository'] = code_repositories
             osg.write_entry(entry)
     except RuntimeError as e:
-        raise(e)
+        print(f"Error processing repo {file}")
+        raise e
     finally:
         # shorten file list
         utils.write_text(gl_entries_file, json.dumps(files[index:], indent=1))

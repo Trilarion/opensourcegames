@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://opensurge2d.org/#download, https://forum.opensurge2d.org/viewtopic.php?id=1931, https://opensnc.sourceforge.net/home/download.php
 - Keyword: action, platform, 2D, clone
-- Code repository: https://github.com/alemart/opensurge.git (@created 2018, @stars 233, @forks 26), https://svn.code.sf.net/p/opensnc/code (svn)
+- Code repository: https://github.com/alemart/opensurge.git (@created 2018, @stars 282, @forks 30), https://svn.code.sf.net/p/opensnc/code (svn)
 - Code language: C
 - Code license: GPL-3.0 (was GPL-2.0)
 - Code dependency: Allegro

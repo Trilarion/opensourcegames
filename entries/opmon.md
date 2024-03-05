@@ -5,7 +5,7 @@
 - State: beta
 - Platform: Windows, Linux, macOS
 - Keyword: remake, content open
-- Code repository: https://github.com/OpMonTeam/OpMon.git (@created 2020, @stars 66, @forks 5), https://github.com/OpMonTeam/OpMon-Data.git @add (@created 2018, @stars 6, @forks 0)
+- Code repository: https://github.com/OpMonTeam/OpMon.git (@created 2020, @stars 91, @forks 7), https://github.com/OpMonTeam/OpMon-Data.git @add (@created 2018, @stars 7, @forks 0)
 - Code language: C++, GDScript
 - Code license: GPL-3.0
 - Code dependency: SFML

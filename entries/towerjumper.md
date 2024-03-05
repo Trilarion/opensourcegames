@@ -5,7 +5,7 @@
 - Download: https://f-droid.org/packages/org.pipoypipagames.towerjumper/
 - Platform: Android
 - Keyword: arcade, strategy, skill
-- Code repository: https://github.com/Dariasteam/TowerJumper.git (@created 2018, @stars 102, @forks 40)
+- Code repository: https://github.com/Dariasteam/TowerJumper.git (@created 2018, @stars 119, @forks 40)
 - Code language: C++, GDScript
 - Code license: GPL-3.0
 - Code dependency: Godot

@@ -6,10 +6,11 @@
 - Download: https://github.com/alexbatalov/fallout2-ce/releases
 - Platform: Windows, Linux, macOS, Android
 - Keyword: remake, role playing, content commercial + original required
-- Code repository: https://github.com/alexbatalov/fallout2-ce.git
+- Code repository: https://github.com/alexbatalov/fallout2-ce.git (@created 2022, @stars 1069, @forks 83)
 - Code language: C++
 - Code license: Custom
 - Code dependency: SDL
+- Developer: Alexander Batalov, Jan Šimek, k3tamina, sonilyan, Vasilii Rogin, Wipe
 
 ## Building
 

@@ -6,7 +6,7 @@
 - Download: https://retux-game.github.io/download.html
 - Platform: Windows, Linux
 - Keyword: platform, 2D, content open
-- Code repository: https://github.com/retux-game/retux.git (@created 2020, @stars 24, @forks 2), https://git.savannah.nongnu.org/git/retux.git @add, http://web.cvs.savannah.nongnu.org/viewvc/retux/ (cvs)
+- Code repository: https://github.com/retux-game/retux.git (@created 2020, @stars 29, @forks 3), https://git.savannah.nongnu.org/git/retux.git @add, http://web.cvs.savannah.nongnu.org/viewvc/retux/ (cvs)
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependency: SGE

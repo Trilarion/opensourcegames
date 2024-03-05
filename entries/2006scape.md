@@ -6,10 +6,10 @@
 - Download: https://github.com/2006-Scape/2006Scape/releases
 - Platform: Windows, Linux, macOS
 - Keyword: remake, role playing, content commercial, multiplayer competitive + online + co-op
-- Code repository: https://github.com/2006-Scape/2006Scape.git (@created 2019, @stars 108, @forks 133)
+- Code repository: https://github.com/2006-Scape/2006Scape.git (@created 2019, @stars 162, @forks 150)
 - Code language: Java
 - Code license: GPL-3.0
-- Developer: Arisu, Ben, Ben Maher, Damion, Dan G, Danial, Daniel Ginovker, DPSCryptic, Gptaqbc, Josh Shippam, MitchvanWijngaarden, Mr Extremez, Olivier, Sandro Coutinho
+- Developer: Arisu, Ben, Ben Maher, Damion, Dan G, Danial, Daniel Ginovker, DPSCryptic, Gptaqbc, halogod35, Josh Shippam, MatthewBishop, MitchvanWijngaarden, Mr Extremez, Olivier, Sandro Coutinho
 
 Only server?
 

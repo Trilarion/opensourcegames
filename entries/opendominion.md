@@ -5,10 +5,10 @@
 - State: beta
 - Platform: Web
 - Keyword: strategy, clone, content open, multiplayer online, text-based
-- Code repository: https://github.com/OpenDominion/OpenDominion.git (@created 2015, @stars 175, @forks 73)
+- Code repository: https://github.com/OpenDominion/OpenDominion.git (@created 2015, @stars 206, @forks 83)
 - Code language: PHP
 - Code license: AGPL-3.0
 - Code dependency: Laravel
-- Developer: barmmie, Christopher Smith, Cody Kinsey, Guilherme Portela, Gustavo Straube, Jake, James Hodgson, John Strömblom, Kender2, MJBrennan, WaveHack
+- Developer: barmmie, Christopher Smith, Cody Kinsey, Guilherme Portela, Gustavo Straube, Jake, James Hodgson, John Strömblom, Kender2, MJBrennan, Ope Aina, WaveHack
 
 ## Building

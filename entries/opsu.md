@@ -5,7 +5,7 @@
 - State: mature
 - Platform: Windows, Linux, macOS, Android
 - Keyword: tool, content open
-- Code repository: https://github.com/itdelatrisu/opsu.git (@created 2014, @stars 733, @forks 113), https://github.com/UnderSampled/opsu.git @git
+- Code repository: https://github.com/itdelatrisu/opsu.git (@created 2014, @stars 755, @forks 122), https://github.com/UnderSampled/opsu.git @git
 - Code language: Java
 - Code license: GPL-3.0
 - Code dependency: OpenGL, Slick2D

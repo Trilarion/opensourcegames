@@ -4,7 +4,7 @@
 - Inspiration: Duke Nukem 3D
 - State: beta, inactive since 2005
 - Keyword: game engine, remake, content commercial, multiplayer LAN, shooter
-- Code repository: https://github.com/jonof/jfduke3d.git (@created 2010, @stars 80, @forks 15)
+- Code repository: https://github.com/jonof/jfduke3d.git (@created 2010, @stars 102, @forks 18)
 - Code language: C
 - Code license: GPL-2.0
 - Developer: Jonathon Fowler

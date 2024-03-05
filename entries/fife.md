@@ -5,10 +5,10 @@
 - Download: https://github.com/fifengine/fifengine/wiki/Downloads, https://sourceforge.net/projects/fife/files/
 - Platform: Windows
 - Keyword: game engine, isometric
-- Code repository: https://github.com/fifengine/fifengine.git (@created 2013, @stars 519, @forks 74)
+- Code repository: https://github.com/fifengine/fifengine.git (@created 2013, @stars 535, @forks 77)
 - Code language: C++, Python
 - Code license: LGPL-2.1
-- Developer: CheeseSucker, Chris Oelmueller, Connor Shearwood, Geoff Salmon, helios2000, Jens A. Koch, Jesse Manning, John Thickstun, Karsten Bock, Kate Heatly, Klaus Blindert, Matthias Kersting, mvBarracuda, Niektory, prock, Stefan Schindler, Thomas Kinnen, Thomas Kowaliczek-Schmer, totycro, undernorthernsky, vladu, vtchill, Wayne Prasek
+- Developer: Bernhard Mallinger, CheeseSucker, Chris Oelmueller, Connor Shearwood, Geoff Salmon, helios2000, Jens A. Koch, Jesse Manning, John Thickstun, Karsten Bock, Kate Heatly, Klaus Blindert, Matthias Kersting, mvBarracuda, Niektory, prock, Stefan Schindler, Thomas Kinnen, Thomas Kowaliczek-Schmer, totycro, undernorthernsky, vladu, vtchill, Wayne Prasek
 
 ## Building
 

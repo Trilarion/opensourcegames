@@ -6,9 +6,9 @@
 - Download: https://openbve-project.net/download/
 - Platform: Windows, Linux, macOS
 - Keyword: simulation, clone, content open
-- Code repository: https://github.com/leezer3/OpenBVE.git (@created 2015, @stars 198, @forks 50)
+- Code repository: https://github.com/leezer3/OpenBVE.git (@created 2015, @stars 256, @forks 51)
 - Code language: C#
 - Code license: Public domain
-- Developer: Christopher Lees, Connor Fitzgerald, Jakub Vaněk, Marc Riera, Maurizio M. Gavioli, Nemo, s520
+- Developer: BX Zhang, Christopher Lees, Connor Fitzgerald, Jakub Vaněk, LX862, Marc Riera, Maurizio M. Gavioli, Nemo, s520
 
 ## Building

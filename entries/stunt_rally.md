@@ -6,7 +6,7 @@
 - Download: http://stuntrally.tuxfamily.org/downloads, https://sourceforge.net/projects/stuntrally/files/
 - Platform: Windows, Linux
 - Keyword: action, clone, racing
-- Code repository: https://github.com/stuntrally/stuntrally.git (@created 2011, @stars 434, @forks 106)
+- Code repository: https://github.com/stuntrally/stuntrally.git (@created 2011, @stars 584, @forks 119)
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependency: OGRE, SDL2, VDrift

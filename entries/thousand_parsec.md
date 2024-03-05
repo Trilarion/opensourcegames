@@ -4,7 +4,7 @@
 - State: beta, inactive since 2012
 - Download: https://web.archive.org/web/20180523204730/http://www.thousandparsec.net/tp/download-instructions.php
 - Keyword: framework, strategy, 4X, space
-- Code repository: https://github.com/thousandparsec/tpserver-cpp.git (@created 2010, @stars 10, @forks 3), https://github.com/thousandparsec/tpclient-pywx.git @add (@created 2010, @stars 8, @forks 6)
+- Code repository: https://github.com/thousandparsec/tpserver-cpp.git (@created 2010, @stars 10, @forks 3), https://github.com/thousandparsec/tpclient-pywx.git @add (@created 2010, @stars 8, @forks 7)
 - Code language: C++, Python
 - Code license: GPL-2.0
 - Code dependency: NumPy, psyco, pygame, pyOpenSSL, wxPython

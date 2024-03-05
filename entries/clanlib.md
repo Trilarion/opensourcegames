@@ -4,7 +4,7 @@
 - State: mature
 - Platform: Windows, Linux
 - Keyword: game engine
-- Code repository: https://github.com/sphair/ClanLib.git (@created 2013, @stars 306, @forks 67)
+- Code repository: https://github.com/sphair/ClanLib.git (@created 2013, @stars 332, @forks 78)
 - Code language: C, C++
 - Code license: zlib
 - Developer: Artem, authenticate, Chu Chin Kuan, Grizmu, Jeremy Cochoy, Kenneth Gangstø, Lethal Ghost, Magnus Norddahl, Mark Page, Pyrdacor, roothorick, xantares

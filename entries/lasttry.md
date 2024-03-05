@@ -5,7 +5,7 @@
 - Inspiration: Terraria
 - State: beta, inactive since 2017
 - Keyword: action, remake
-- Code repository: https://github.com/egordorichev/LastTry.git (@archived, @created 2017, @stars 112, @forks 15)
+- Code repository: https://github.com/egordorichev/LastTry.git (@archived, @created 2017, @stars 115, @forks 17)
 - Code language: Java
 - Code license: MIT
 - Code dependency: libGDX

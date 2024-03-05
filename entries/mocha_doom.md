@@ -5,7 +5,7 @@
 - State: beta, inactive since 2012
 - Download: https://sourceforge.net/projects/mochadoom/files/
 - Keyword: remake, first-person, shooter
-- Code repository: https://github.com/AXDOOMER/mochadoom.git, http://mochadoom.cvs.sourceforge.net (cvs)
+- Code repository: https://github.com/AXDOOMER/mochadoom.git (@created 2015, @stars 169, @forks 40), http://mochadoom.cvs.sourceforge.net (cvs)
 - Code language: Java
 - Code license: GPL-3.0
 - Developer: Alexandre-Xavier Labonté-Lamoureux, Finn Wilcox, Good Sign, Jodwin, Velktron

@@ -6,7 +6,7 @@
 - Download: https://projecttussle.com/download
 - Platform: Windows, Linux
 - Keyword: action, platform, clone, content open, multiplayer competitive
-- Code repository: https://github.com/digiholic/universalSmashSystem.git (@created 2015, @stars 80, @forks 11)
+- Code repository: https://github.com/digiholic/universalSmashSystem.git (@created 2015, @stars 82, @forks 14)
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependency: pygame

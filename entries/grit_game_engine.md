@@ -4,7 +4,7 @@
 - Inspiration: Grand Theft Auto: San Andreas
 - State: beta
 - Keyword: framework, game engine, content commercial
-- Code repository: https://github.com/grit-engine/grit-engine.git (@created 2016, @stars 103, @forks 23)
+- Code repository: https://github.com/grit-engine/grit-engine.git (@created 2016, @stars 107, @forks 24)
 - Code language: C++, Python
 - Code license: MIT
 - Developer: Alexey Shmakov, Augusto P. Moura, Bas Timmer, Dave Cunningham, lavrod

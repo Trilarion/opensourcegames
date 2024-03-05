@@ -3,7 +3,7 @@
 - Home: https://github.com/GentenStudios/QuartzEngine/wiki
 - State: beta
 - Keyword: game engine
-- Code repository: https://github.com/GentenStudios/QuartzEngine.git (@archived, @created 2018, @stars 36, @forks 10)
+- Code repository: https://github.com/GentenStudios/QuartzEngine.git (@archived, @created 2018, @stars 35, @forks 10)
 - Code language: C++
 - Code license: 3-clause BSD
 - Code dependency: OpenGL

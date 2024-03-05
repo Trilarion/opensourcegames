@@ -4,7 +4,7 @@
 - Inspiration: Sherlock
 - State: mature, inactive since 2005
 - Keyword: puzzle
-- Code repository: https://github.com/lksj/einstein-puzzle.git (@created 2015, @stars 19, @forks 17)
+- Code repository: https://github.com/lksj/einstein-puzzle.git (@created 2015, @stars 23, @forks 18)
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL

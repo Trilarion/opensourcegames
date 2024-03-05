@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://rockbot.upperland.net/?page_id=301
 - Keyword: arcade, remake, scrolling
-- Code repository: https://github.com/protoman/rockbot.git (@created 2015, @stars 72, @forks 18)
+- Code repository: https://github.com/protoman/rockbot.git (@created 2015, @stars 78, @forks 20)
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL

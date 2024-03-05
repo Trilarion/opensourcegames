@@ -6,7 +6,7 @@
 - State: mature
 - Download: https://www.simutrans.com/en/download/
 - Keyword: simulation, clone
-- Code repository: https://github.com/aburch/simutrans.git (@created 2009, @stars 362, @forks 161), https://svn.code.sf.net/p/simutrans/code (svn)
+- Code repository: https://github.com/aburch/simutrans.git (@created 2009, @stars 392, @forks 168), https://svn.code.sf.net/p/simutrans/code (svn)
 - Code language: C++
 - Code license: Artistic License-1.0 (https://github.com/aburch/simutrans/blob/master/LICENSE.txt)
 - Developer: Albert Ruiz, An_dz, Andrew Carlotti, André Zanghelini, ceeac, Christoph Mallon, DirkW, DrSuperGood, Dwachs, Eric Gindre, Fabio128, Gauthier.N, Günter Beine, IgorEliezer, James Hood, Jan Korbel, Kieron Green, Leartin Dialonis, Lubak91, makie, Marcos Lopez, Markus Pristovsek, martin, Martin_Prosek, Miziiik, Mobo, Nathanael Nerode, Nicholas Tanger, Olaf P, PappeTeeMaster, Roboron3042, sojo, The Transporter, Timothy, Tomas Padevet, TurfIt, Vladimír Slávik, Vladislav Kurz, Václav Macůrek

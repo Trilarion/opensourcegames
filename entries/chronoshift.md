@@ -5,7 +5,7 @@
 - State: beta
 - Platform: Windows
 - Keyword: remake
-- Code repository: https://github.com/TheAssemblyArmada/Chronoshift.git (@archived, @created 2018, @stars 167, @forks 24)
+- Code repository: https://github.com/TheAssemblyArmada/Chronoshift.git (@archived, @created 2018, @stars 169, @forks 23)
 - Code language: C++
 - Code license: GPL-2.0
 - Developer: Olivier Abdesselam, OmniBlade, Toms, yazgoo

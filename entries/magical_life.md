@@ -6,7 +6,7 @@
 - Download: https://github.com/TBye101/MagicalLife/releases
 - Platform: Windows
 - Keyword: role playing, 2D, content open
-- Code repository: https://github.com/TBye101/MagicalLife.git (@created 2017, @stars 189, @forks 24)
+- Code repository: https://github.com/TBye101/MagicalLife.git (@created 2017, @stars 227, @forks 26)
 - Code language: C#
 - Code license: MIT
 - Code dependency: MonoGame

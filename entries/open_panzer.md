@@ -5,7 +5,7 @@
 - State: mature
 - Platform: Web
 - Keyword: remake, strategy, online, tiles, turn-based
-- Code repository: https://github.com/nicupavel/openpanzer.git (@created 2012, @stars 128, @forks 36)
+- Code repository: https://github.com/nicupavel/openpanzer.git (@created 2012, @stars 151, @forks 39)
 - Code language: JavaScript
 - Code license: GPL-2.0
 - Developer: Iulian Luca, Nicu Pavel

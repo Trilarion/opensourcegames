@@ -3,7 +3,7 @@
 - Home: https://github.com/AdaDoom3/AdaDoom3
 - State: beta
 - Keyword: action, remake, shooter
-- Code repository: https://github.com/AdaDoom3/AdaDoom3.git (@created 2013, @stars 232, @forks 21)
+- Code repository: https://github.com/AdaDoom3/AdaDoom3.git (@created 2013, @stars 248, @forks 24)
 - Code language: Ada
 - Code license: GPL-3.0
 - Developer: AdaDoom3, Adrian-Ken Rueegsegger, Michael Hardeman, mulander, OneWingedShark

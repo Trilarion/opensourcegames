@@ -5,7 +5,7 @@
 - State: beta
 - Platform: Linux
 - Keyword: remake, strategy, multiplayer, space
-- Code repository: https://github.com/smcameron/space-nerds-in-space.git (@created 2012, @stars 665, @forks 66)
+- Code repository: https://github.com/smcameron/space-nerds-in-space.git (@created 2012, @stars 705, @forks 73)
 - Code language: C, Lua
 - Code license: GPL-2.0
 - Developer: Andrew Conrad, Iván Sánchez Ortega, Jeremy Van Grinsven, Justin Warwick, MCMic, Michael Aldridge, smcameron

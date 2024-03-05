@@ -5,9 +5,10 @@
 - State: beta
 - Platform: Windows, Linux, macOS
 - Keyword: remake, role playing, content commercial + original required, engine
-- Code repository: https://github.com/OpenEnroth/OpenEnroth.git
+- Code repository: https://github.com/OpenEnroth/OpenEnroth.git (@created 2016, @stars 669, @forks 79)
 - Code language: C++
 - Code license: LGPL-3.0
+- Developer: Aleksey Komarov, Alex, Alexander Izmailov, Baste Nesse Buanes, botanicvelious, captainurist, Eksekk, Konstantin Kuzov, Nik-RE-dev, pskelton, Yury Klushin, zippanto
 
 ## Building
 

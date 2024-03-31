@@ -1,6 +1,6 @@
 # OpenKrush
 
-- Home: https://www.kknd-game.com/index.php
+- Home: https://github.com/IceReaper/OpenKrush
 - Media: https://en.wikipedia.org/wiki/KKnD_(video_game)#Open_source_remake
 - Inspiration: Krush Kill 'n' Destroy
 - State: beta

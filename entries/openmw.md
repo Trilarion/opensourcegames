@@ -1,6 +1,6 @@
 # OpenMW
 
-- Home: http://openmw.org/en/
+- Home: https://openmw.org/
 - Media: https://en.wikipedia.org/wiki/OpenMW
 - Inspiration: The Elder Scrolls III: Morrowind
 - State: mature
@@ -13,5 +13,7 @@
 
 Unofficial open source engine reimplementation of the game Morrowind.
 See also [OpenMW on Android](openmw_for_android.md)
+
+Also see https://f-droid.org/de/packages/com.libopenmw.openmw/ or https://github.com/OpenMW/android-port
 
 ## Building

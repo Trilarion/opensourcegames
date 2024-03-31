@@ -1,9 +1,9 @@
 # Open Rails
 
-- Home: http://openrails.org/
+- Home: https://www.openrails.org/
 - Inspiration: Microsoft Train Simulator
 - State: mature
-- Download: http://openrails.org/download/program/
+- Download: https://www.openrails.org/download/program/
 - Keyword: simulation, clone
 - Code repository: http://svn.uktrainsim.com/svn/openrails (svn active)
 - Code language: C#
@@ -13,4 +13,4 @@ Train simulator for the largest collection of digital content in the world - rou
 
 ## Building
 
-- Build instruction: [Developer guide](http://openrails.org/contribute/developing-code/)
+- Build instruction: [Developer guide](https://www.openrails.org/contribute/developing-code/)

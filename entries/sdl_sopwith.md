@@ -1,12 +1,12 @@
 # SDL Sopwith
 
-- Home: https://sdl-sopwith.sourceforge.net/, https://sourceforge.net/projects/sdl-sopwith/
+- Home: https://fragglet.github.io/sdl-sopwith/, https://sourceforge.net/projects/sdl-sopwith/ (@old)
 - Inspiration: Sopwith
 - State: mature, inactive since 2014
-- Download: https://sourceforge.net/projects/sdl-sopwith/files/
+- Download: https://fragglet.github.io/sdl-sopwith/getit.html, https://sourceforge.net/projects/sdl-sopwith/files/ (@old)
 - Platform: Linux
 - Keyword: action, remake, flight
-- Code repository: https://gitlab.com/osgames/sdl-sopwith.git (import of svn, @created 2019, @stars 1, @forks 0), https://svn.code.sf.net/p/sdl-sopwith/code (svn)
+- Code repository: https://github.com/fragglet/sdl-sopwith.git, https://gitlab.com/osgames/sdl-sopwith.git (import of svn, @created 2019, @stars 1, @forks 0), https://svn.code.sf.net/p/sdl-sopwith/code (svn)
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependency: SDL

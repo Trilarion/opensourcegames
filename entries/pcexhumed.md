@@ -1,8 +1,10 @@
 # PCExhumed
 
-- Home: https://lerppu.net/wannabethesis/, http://pcex.retrohost.net/
+- Home: http://pcex.retrohost.net/
 - Inspiration: Powerslave
 - State: beta
+- Download: https://github.com/nukeykt/NBlood/releases/
+- Platform: Windows
 - Keyword: action, remake, content commercial
 - Code repository: https://github.com/nukeykt/NBlood.git (@created 2019, @stars 542, @forks 76)
 - Code language: C++

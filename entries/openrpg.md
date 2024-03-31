@@ -1,6 +1,6 @@
 # OpenRPG
 
-- Home: http://www.rpgobjects.com/index.php?c=orpg, https://app.assembla.com/spaces/openrpg/, https://sourceforge.net/projects/openrpg/, https://app.assembla.com/wiki/show/traipse
+- Home: http://www.rpgobjects.com/index.php?c=orpg, https://app.assembla.com/spaces/openrpg/wiki, https://sourceforge.net/projects/openrpg/, https://app.assembla.com/wiki/show/traipse
 - State: mature, inactive since 2013
 - Download: http://www.rpgobjects.com/index.php?c=orpg&m=getorpg, https://sourceforge.net/projects/openrpg/files/
 - Keyword: framework, role playing

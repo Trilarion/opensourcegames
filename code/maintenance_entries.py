@@ -311,7 +311,7 @@ class EntriesMaintainer:
         'https://git.xiph.org/vorbis.git', 'http://svn.uktrainsim.com/svn/openrails', 'https://www.srb2.org/',
         'http://wiki.srb2.org/', 'https://web.archive.org/web/', 'https://www.comunidadargentum.com/',
         'http://www.argentumonline.com.ar/', 'https://www.atrinik.org/', 'https://mvnrepository.com/artifact/com.gitlab.bsarter.belote',
-        'http://aegidian.org/bb/index.php', 'https://code.ur.gs/lupine/ordoor')
+        'http://aegidian.org/bb/index.php', 'https://code.ur.gs/lupine/ordoor', 'https://git.tartarus.org/simon/puzzles')
         # especially the webarchive links will be checked separately
 
         # some do redirect, but we nevertheless want the original URL in the database

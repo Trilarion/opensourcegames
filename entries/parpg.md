@@ -1,9 +1,9 @@
 # PARPG
 
-- Home: http://blog.parpg.net/, https://sourceforge.net/projects/parpg/
+- Home: https://web.archive.org/web/20200710221424/http://blog.parpg.net/, https://sourceforge.net/projects/parpg/
 - Inspiration: Fallout 2
 - State: beta, inactive since 2012
-- Download: http://blog.parpg.net/download/, http://wiki.parpg.net/Download
+- Download: https://sourceforge.net/projects/parpg/files/
 - Keyword: remake, role playing
 - Code repository: https://gitlab.com/osgames/parpg-core.git (@created 2019, @stars 1, @forks 0), https://subversion.assembla.com/svn/parpg-assets/ (svn), http://parpg-trac.cvsdude.com/parpg/browser (svn)
 - Code language: Python
@@ -17,4 +17,4 @@ See also: https://github.com/arikel/PPARPG, https://github.com/mvbarracuda/parpg
 
 ## Building
 
-See <http://wiki.parpg.net/Department:Programming>
+See <https://web.archive.org/web/20191002025843/http://wiki.parpg.net/Department:Programming>

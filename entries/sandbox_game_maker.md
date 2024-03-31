@@ -1,6 +1,6 @@
 # sandbox Game Maker
 
-- Home: https://www.sandboxgamemaker.com/free-game-maker/
+- Home: https://www.sandboxgamemaker.com/category/free-game-maker-news/
 - State: mature, inactive since 2014
 - Download: https://www.sandboxgamemaker.com/free-game-maker-download/
 - Keyword: framework

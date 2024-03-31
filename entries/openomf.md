@@ -4,8 +4,8 @@
 - Media: https://en.wikipedia.org/wiki/One_Must_Fall:_2097#Legacy
 - Inspiration: One Must Fall: 2097
 - State: beta
-- Download: https://www.openomf.org/downloads/, https://github.com/omf2097/openomf/releases
-- Platform: Windows, Linux
+- Download: https://github.com/omf2097/openomf/releases
+- Platform: Windows, Linux, macOS
 - Keyword: action, remake, "content commercial (?) + open (?) + original required"
 - Code repository: https://github.com/omf2097/openomf.git (@created 2013, @stars 339, @forks 34)
 - Code language: C, C++

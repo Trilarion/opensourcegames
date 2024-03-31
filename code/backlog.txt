@@ -1,3 +1,5 @@
+https://github.com/Hipnosis183/OpenSourceGames
+https://github.com/xyperia/OpenSourceGames
 http://bote.codeplex.com/
 http://crazycarscpc.free.fr/
 http://freshmeat.sourceforge.net/tags/turn-based-strategy (good for older ones)
@@ -11,6 +13,7 @@ http://www.silversecond.com/WolfRPGEditor/
 http://www.spheredev.org/
 http://www.usgo.org/go-software
 http://www.vbgore.com/Main_Page
+https://github.com/SerpentAI/SerpentAI
 http://www.zsnes.com/ (emulator/platform)
 https://001gamecreator.com/
 https://agateau.com/games/

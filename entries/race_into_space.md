@@ -1,6 +1,6 @@
 # Race Into Space
 
-- Home: http://www.raceintospace.org/, https://sourceforge.net/projects/raceintospace/
+- Home: https://web.archive.org/web/20210102172520/http://www.raceintospace.org/, https://sourceforge.net/projects/raceintospace/
 - Media: https://en.wikipedia.org/wiki/Buzz_Aldrin%27s_Race_Into_Space#Source_code_release
 - Inspiration: Buzz Aldrin's Race Into Space
 - State: mature

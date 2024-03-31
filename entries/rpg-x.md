@@ -1,9 +1,9 @@
 # RPG-X
 
-- Home: http://www.last-outpost.net/rpg-x/, https://web.archive.org/web/20130126113126/http://rpgxef.hennecke-online.net/
+- Home: https://rpg-x.com/, https://web.archive.org/web/20130126113126/http://rpgxef.hennecke-online.net/
 - Inspiration: Star Trek: Voyager – Elite Force
 - State: mature, inactive since 2015
-- Download: https://github.com/UberGames/rpgxEF/releases
+- Download: https://last-outpost.net/dl, https://github.com/UberGames/rpgxEF/releases
 - Platform: Windows, Linux
 - Keyword: remake, shooter, space
 - Code repository: https://github.com/UberGames/rpgxEF.git (@created 2011, @stars 17, @forks 10)

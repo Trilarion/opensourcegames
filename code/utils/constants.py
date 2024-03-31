@@ -84,7 +84,7 @@ entries_without_developers = ('Box2D', 'Dear ImGui', 'DirectPython', 'FreeType',
 # interesting keywords = recommend keywords + some popular keywords
 interesting_keywords = recommended_keywords + ('2D', '3D', 'clone', 'first-person', 'real-time', 'roguelike', 'shooter', 'space', 'turn-based', 'for kids', 'for adults')
 
-# non game keywords take precedence over other (game) recommended keywords, at most one of them per entry
+# non-game keywords take precedence over other (game) recommended keywords, at most one of them per entry
 non_game_keywords = ('framework', 'game engine', 'library', 'tool')
 
 # known programming languages, anything else will result in a warning during a maintenance operation
@@ -146,7 +146,8 @@ language_urls = {
     'Vala': 'https://en.wikipedia.org/wiki/Vala_(programming_language)',
     'Visual Basic': 'https://en.wikipedia.org/wiki/Visual_Basic',
     'XUL': 'https://en.wikipedia.org/wiki/XUL',
-    'ZenScript': 'https://github.com/CraftTweaker/ZenScript'
+    'ZenScript': 'https://github.com/CraftTweaker/ZenScript',
+    'Zig': 'https://en.wikipedia.org/wiki/Zig_(programming_language)'
 }
 
 known_languages = tuple(sorted(list(language_urls.keys()), key=str.casefold)) + ('None', '?')

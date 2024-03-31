@@ -1,6 +1,6 @@
 # OpenFly
 
-- Home: http://ariel.ucs.unimelb.edu.au/~gjo/
+- Home: https://web.archive.org/web/20220330013747/http://ariel.ucs.unimelb.edu.au/~gjo/
 - Inspiration: Flight Sim Toolkit
 - State: beta, inactive since 2001
 - Keyword: remake, simulation, content open

@@ -21,9 +21,10 @@ blog_alias = {'http://k776.tumblr.com/': 'https://k776.tumblr.com/',
               'http:\\www.vampier.net': 'https://www.vampier.net/'}
 ignored_blogs = ('https://uto.io', r'https://¯\_(°_o)_/¯')
 
-ignored_languages = ('CSS', 'HTML', 'CMake', 'XSLT', 'ShaderLab', 'Shell')
+ignored_languages = ('CSS', 'HTML', 'CMake', 'XSLT', 'ShaderLab', 'Shell', 'Roff')
 language_aliases = {'VBA': 'Visual Basic', 'Common Lisp': 'Lisp', 'Game Maker Language': 'Game Maker Script',
-                    'NewLisp': 'Lisp', 'Awk': 'AWK', 'Visual Basic': 'Basic', 'FreeBasic': 'Basic'}
+                    'NewLisp': 'Lisp', 'Awk': 'AWK', 'Visual Basic': 'Basic', 'FreeBasic': 'Basic',
+                    'Visual Basic 6.0': 'Visual Basic', 'Vue': 'JavaScript'}
 
 # these gave some errors (but you may try them again or remove them from this list)
 ignored_repos = ('https://github.com/jtc0de/Blitwizard.git',

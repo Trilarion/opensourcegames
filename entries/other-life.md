@@ -11,6 +11,5 @@
 - Developer: Alexander Gottwald, Felix Janda, Gé Vissers, Joe "Flame" Sullivan, Karol, "Paul Broadhead (bluap in EL)", Sir-Odie, xaphier
 
 Mainly a client to connect to Eternal Lands?
-Was described at https://en.wikipedia.org/wiki/Eternal_Lands#Spin-offs but not included on that page anymore.
 
 ## Building

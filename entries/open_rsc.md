@@ -1,6 +1,6 @@
 # Open RSC
 
-- Home: https://rsc.vet/, https://runescapeclassic.dev/, https://web.archive.org/web/20200510133848/https://openrsc.com/
+- Home: https://rsc.vet/, https://web.archive.org/web/20210605191850/https://runescapeclassic.dev/, https://web.archive.org/web/20200510133848/https://openrsc.com/
 - Inspiration: Runescape Classic
 - State: mature
 - Platform: Windows, Linux, macOS, Android

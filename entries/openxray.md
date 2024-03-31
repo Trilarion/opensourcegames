@@ -1,6 +1,6 @@
 # OpenXRay
 
-- Home: https://discord.gg/sjRMQwv
+- Home: https://github.com/OpenXRay/xray-16
 - Inspiration: S.T.A.L.K.E.R: Call of Pripyat
 - State: mature
 - Keyword: action, game engine, remake, content commercial + original required, multiplayer Online + LAN

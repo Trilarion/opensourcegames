@@ -5,7 +5,7 @@
 - State: mature, inactive since 2016
 - Keyword: framework
 - Code repository: https://github.com/Atlantis-PBEM/Atlantis.git (@created 2011, @stars 53, @forks 37), https://svn.code.sf.net/p/atlantis/code (svn)
-- Code language: C++, Roff
+- Code language: C++
 - Code license: GPL-2.0
 - Developer: Artem Trytiak, Enno Rehling, JT Traub, Loria, Loriaki, Stephen Baillie, T Gerigk
 

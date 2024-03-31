@@ -1,10 +1,9 @@
 # Quad-engine
 
-- Home: http://quad-engine.com/
+- Home: https://web.archive.org/web/20220128195116/http://quad-engine.com/
 - State: beta
-- Download: http://quad-engine.com/downloads.html
 - Keyword: framework
-- Code repository: https://bitbucket.org/Darthman/quad/src (hg)
+- Code repository: https://github.com/EliiahPro/quad-engine.git, https://bitbucket.org/Darthman/quad/src (hg)
 - Code language: Pascal
 - Code license: MIT
 

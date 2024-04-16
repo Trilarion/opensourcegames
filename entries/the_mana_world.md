@@ -1,6 +1,6 @@
 # The Mana World
 
-- Home: https://www.themanaworld.org/
+- Home: https://wiki.themanaworld.org/index.php/The_Mana_World:Home
 - State: mature
 - Download: https://wiki.themanaworld.org/index.php/Downloads
 - Platform: Windows, Linux, macOS, Android, Web

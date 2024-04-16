@@ -1,6 +1,6 @@
 # Waterkube
 
-- Home: https://waterkube.dev/
+- Home: https://waterkube.github.io/
 - State: mature
 - Download: https://github.com/waterkube/waterkube/releases
 - Platform: Windows, Linux

@@ -1,6 +1,6 @@
 # Soldat
 
-- Home: https://www.soldat.pl/
+- Home: https://www.soldat.pl/en/
 - Inspiration: Liero, Scorched Earth
 - State: mature
 - Download: https://www.soldat.pl/en/downloads/

@@ -315,7 +315,7 @@ class EntriesMaintainer:
         # especially the webarchive links will be checked separately
 
         # some do redirect, but we nevertheless want the original URL in the database
-        redirect_okay = ('https://octaforge.org/', 'https://svn.openttd.org/', 'https://godotengine.org/download', 'http://drive.google.com/uc?export=download&id=1chP3Yrey-jWJBz9bRllmsKBPVgxysCFQ')
+        redirect_okay = ('https://octaforge.org/', 'https://svn.openttd.org/', 'https://godotengine.org/download', 'http://drive.google.com/uc?export=download&id=1chP3Yrey-jWJBz9bRllmsKBPVgxysCFQ', 'https://www.reddit.com/r/SuperTuxParty/')
 
         # extract all links from entries
         import urllib3
@@ -374,7 +374,7 @@ class EntriesMaintainer:
                     verify = False
                 r = requests.head(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64)'}, timeout=20,
                                   allow_redirects=True, verify=verify)
-                if r.status_code == 405:  # head method not supported, try get
+                if r.status_code in (403, 404, 405):  # head method not supported, try get (not only for 405, sometimes also works for 403, 404)
                     r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64)'},
                                      timeout=20, allow_redirects=True, verify=verify)
                 # check for bad status

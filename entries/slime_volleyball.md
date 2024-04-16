@@ -1,6 +1,6 @@
 # Slime Volleyball
 
-- Home: https://pixeldoctrine.com/slimevolleyball.html
+- Home: https://web.archive.org/web/20211123060905/https://pixeldoctrine.com/slimevolleyball.html
 - Inspiration: Slime Volleyball
 - State: beta
 - Keyword: arcade, clone, content open, multiplayer competitive + split-screen, skill

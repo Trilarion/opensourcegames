@@ -14,7 +14,7 @@
 - **[Libre: The Open Source Card Game](../libre_the_open_source_card_game.md)** (Python, Script, AGPL-3.0, mature, inactive since 2010)
 - **[Magarena](../magarena.md)** (Java, Groovy, GPL-3.0, mature)
 - **[NetMauMau](../netmaumau.md)** (C++, LGPL-3.0, mature, inactive since 2015)
-- **[OpenEtG](../openetg.md)** (JavaScript, MIT, beta)
+- **[OpenEtG](../openetg.md)** (JavaScript, Rust, MIT, beta)
 - **[OpenTriad](../opentriad.md)** (Java, GPL-3.0, beta, inactive since 2017)
 - **[Pretend You're Xyzzy](../pretend_youre_xyzzy.md)** (Java, JavaScript, 2-clause BSD, mature, inactive since 2020)
 - **[PySol](../pysol.md)** (Python, GPL-2.0, mature, inactive since 2004)

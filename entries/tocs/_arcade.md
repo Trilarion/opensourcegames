@@ -3,7 +3,7 @@
 
 - **[3D Pong](../3d_pong.md)** (C, GPL-2.0, beta, inactive since 2004)
 - **[A7Xpg](../a7xpg.md)** (D, 2-clause BSD, beta, inactive since 2005)
-- **[Achtung, die Kurve!](../achtung_die_kurve.md)** (JavaScript, AGPL-3.0, mature)
+- **[Achtung, die Kurve!](../achtung_die_kurve.md)** (JavaScript, Elm, AGPL-3.0, mature)
 - **[Airstrike](../airstrike.md)** (C, GPL-2.0, beta, inactive since 2014)
 - **[Aisleriot](../aisleriot.md)** (C, Scheme, GPL-3.0, mature)
 - **[Angry Birds in Python](../angry_birds_in_python.md)** (Python, MIT, mature, inactive since 2017)

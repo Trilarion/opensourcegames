@@ -1,6 +1,6 @@
 # unitystation
 
-- Home: https://unitystation.org/
+- Home: https://www.unitystation.org/
 - Inspiration: Space Station 13
 - State: beta
 - Download: https://store.steampowered.com/app/801140/unitystation/, https://github.com/unitystation/unitystation/releases?after=0.1.3.1

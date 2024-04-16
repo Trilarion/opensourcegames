@@ -5020,7 +5020,7 @@
 ## Andrew Thompson [2]
 
 - Games: openage, OpenOMF
-- Contact: mrwerdo@GH, Mrwerdo@GH, Vagabond@GH
+- Contact: Mrwerdo@GH, mrwerdo@GH, Vagabond@GH
 - Home: https://vagabond.github.io
 
 ## Andrew Trevorrow [1]
@@ -6076,7 +6076,7 @@
 ## Anton Kovalev [1]
 
 - Games: Oxygen Engine
-- Contact: Vertver@GH, vertver@GH
+- Contact: vertver@GH, Vertver@GH
 
 ## Anton Malmygin [1]
 
@@ -6652,7 +6652,7 @@
 
 ## Arisu [1]
 
-- Games: 2006-rebotted
+- Games: 2006scape
 - Contact: ArisuUwU@GH
 - Home: https://projectuwu.com
 
@@ -8398,9 +8398,9 @@
 - Games: OpenKeeper, Outpost HD
 - Contact: belgianguy@GH
 
-## Ben [5]
+## Ben [4]
 
-- Games: 2006-rebotted, 2006scape, Daggerfall Unity, Thrive, World Builder
+- Games: 2006scape, Daggerfall Unity, Thrive, World Builder
 - Contact: ben-maher@GH, bkloster@GH, midgardband@SF, mundifex@GH
 
 ## Ben Adler [1]
@@ -8491,7 +8491,7 @@
 
 ## Ben Maher [1]
 
-- Games: 2006-rebotted
+- Games: 2006scape
 - Contact: benmaher95@GH
 - Home: https://www.bencodes.net
 
@@ -15620,9 +15620,9 @@
 - Games: Vocaluxe
 - Contact: damien-ipika@GH
 
-## Damion [2]
+## Damion [1]
 
-- Games: 2006-rebotted, 2006scape
+- Games: 2006scape
 - Contact: dbrownidau@GH
 
 ## damios [1]
@@ -15685,9 +15685,9 @@
 - Contact: videlais@GH
 - Home: https://dancox.me
 
-## Dan G [3]
+## Dan G [2]
 
-- Games: 2006-rebotted, 2006scape, Open RSC
+- Games: 2006scape, Open RSC
 - Contact: dginovker@GH
 - Home: https://dginovker.github.io
 
@@ -15854,9 +15854,9 @@
 - Games: Cataclysm: Dark Days Ahead
 - Contact: EpicOrange@GH
 
-## Danial [2]
+## Danial [1]
 
-- Games: 2006-rebotted, 2006scape
+- Games: 2006scape
 - Contact: RedSparr0w@GH
 - Home: https://redsparr0w.com
 
@@ -16038,7 +16038,7 @@
 
 ## Daniel Ginovker [1]
 
-- Games: 2006-rebotted
+- Games: 2006scape
 - Contact: dginovker@GH
 - Home: https://dginovker.github.io, https://dginovker.github.io/
 
@@ -16358,7 +16358,7 @@
 ## Daniel Ting [1]
 
 - Games: Godot
-- Contact: DanielZTing@GH, danielzting@GH
+- Contact: danielzting@GH, DanielZTing@GH
 - Home: https://danielzting.github.io
 
 ## Daniel Trujillo Viedma [1]
@@ -19743,9 +19743,9 @@
 - Contact: dplusplus@GH
 - Home: http://lazy-life.ddo.jp/
 
-## DPSCryptic [2]
+## DPSCryptic [1]
 
-- Games: 2006-rebotted, 2006scape
+- Games: 2006scape
 - Contact: DPSCryptic@GH
 
 ## dr0id [1]
@@ -27005,9 +27005,9 @@
 - Games: R.E.L.I.V.E.
 - Contact: GproKaru@GH
 
-## Gptaqbc [2]
+## Gptaqbc [1]
 
-- Games: 2006-rebotted, 2006scape
+- Games: 2006scape
 - Contact: Gptaqbc@GH
 
 ## Gr0vey [1]
@@ -36112,9 +36112,9 @@
 - Contact: jcd-as@GH
 - Home: http://jcd-as.github.io
 
-## Josh Shippam [2]
+## Josh Shippam [1]
 
-- Games: 2006-rebotted, 2006scape
+- Games: 2006scape
 - Contact: Dark98@GH
 
 ## Josh Soref [1]
@@ -37615,7 +37615,7 @@
 ## Kamiel [1]
 
 - Games: RuneLite
-- Contact: Kamielvf@GH, kamielvf@GH
+- Contact: kamielvf@GH, Kamielvf@GH
 - Home: https://kamiel.dev
 
 ## Kamil Bar [2]
@@ -49705,9 +49705,9 @@
 - Games: XMage
 - Contact: MitchelStein@GH
 
-## MitchvanWijngaarden [2]
+## MitchvanWijngaarden [1]
 
-- Games: 2006-rebotted, 2006scape
+- Games: 2006scape
 - Contact: MitchvanWijngaarden@GH
 
 ## miterosan [1]
@@ -50406,9 +50406,9 @@
 - Games: Cataclysm: Dark Days Ahead
 - Contact: mqrause@GH
 
-## Mr Extremez [2]
+## Mr Extremez [1]
 
-- Games: 2006-rebotted, 2006scape
+- Games: 2006scape
 - Contact: mrextremez@GH
 
 ## Mr Potato Shaman [1]
@@ -53981,9 +53981,9 @@
 - Games: Return to the Roots
 - Contact: OLiverRttR@GH
 
-## Olivier [2]
+## Olivier [1]
 
-- Games: 2006-rebotted, 2006scape
+- Games: 2006scape
 - Contact: JohnsonMichaels123@GH
 
 ## Olivier Abdesselam [2]
@@ -57069,7 +57069,7 @@
 ## Phinner [1]
 
 - Games: Mindustry
-- Contact: Phinner@GH, phinner@GH
+- Contact: phinner@GH, Phinner@GH
 - Home: https://www.xpdustry.com, https://www.xpdustry.fr
 
 ## phkb [1]
@@ -63581,7 +63581,7 @@
 
 ## Sandro Coutinho [1]
 
-- Games: 2006-rebotted
+- Games: 2006scape
 - Contact: SandroCoutinho@GH
 - Home: https://farrelltech.org, https://farrelltech.org/
 
@@ -71523,7 +71523,7 @@
 ## Tilman [1]
 
 - Games: Ancient Beast
-- Contact: medallyon@GH, Medallyon@GH
+- Contact: Medallyon@GH, medallyon@GH
 - Home: https://portfolio.medallyon.me
 
 ## Tilman Raendchen [1]
@@ -78738,7 +78738,7 @@
 
 - Games: Open RSC
 - Contact: spkaeros@GH
-- Home: https://rsclassic.dev, https://rsclassic.dev , https://rscturmoil.com
+- Home: https://rsclassic.dev, https://rscturmoil.com
 
 ## Zachary [1]
 

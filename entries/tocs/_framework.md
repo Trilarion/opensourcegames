@@ -35,7 +35,7 @@
 - **[HaxeFlixel](../haxeflixel.md)** (Haxe, MIT, mature)
 - **[HaxePunk](../haxepunk.md)** (Haxe, MIT, mature)
 - **[Irrlicht Engine](../irrlicht_engine.md)** (C++, C, zlib, mature)
-- **[JiGS Interactive Game System](../jigs_interactive_game_system.md)** (JavaScript, PHP, GPL-3.0, beta)
+- **[JiGS Interactive Game System](../jigs_interactive_game_system.md)** (JavaScript, PHP, TypeScript, GPL-3.0, beta)
 - **[jMonkeyEngine](../jmonkeyengine.md)** (Java, 3-clause BSD, mature)
 - **[libGDX](../libgdx.md)** (Java, C++, C, Apache-2.0, mature)
 - **[Lightweight Java Game Library](../lightweight_java_game_library.md)** (Kotlin, C, Java, 3-clause BSD, mature)

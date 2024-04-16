@@ -1,6 +1,6 @@
 # World of Phaos
 
-- Home: http://worldofphaos.com/index.php?site=online_rpg, https://sourceforge.net/projects/phaosrpg/
+- Home: https://web.archive.org/web/20200201100817/http://worldofphaos.com/index.php?site=online_rpg, https://sourceforge.net/projects/phaosrpg/
 - State: mature, inactive since 2011
 - Download: https://sourceforge.net/projects/phaosrpg/files/
 - Platform: Web

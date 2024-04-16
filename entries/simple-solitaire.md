@@ -1,6 +1,6 @@
 # Simple-Solitaire
 
-- Home: https://play.google.com/store/apps/details?id=de.tobiasbielefeld.solitaire, https://f-droid.org/packages/de.tobiasbielefeld.solitaire/
+- Home: https://f-droid.org/packages/de.tobiasbielefeld.solitaire/
 - State: mature
 - Platform: Android
 - Keyword: cards, strategy

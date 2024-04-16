@@ -1,6 +1,6 @@
 # ZDoom
 
-- Home: http://zdoom.org/, https://sourceforge.net/projects/zdoom/
+- Home: https://zdoom.org/index, https://sourceforge.net/projects/zdoom/
 - Inspiration: Doom, Doom II, Heretic, Hexen
 - State: mature
 - Download: https://zdoom.org/downloads, https://github.com/coelckers/gzdoom/releases, https://sourceforge.net/projects/zdoom/files/

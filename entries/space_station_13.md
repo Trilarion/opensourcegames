@@ -12,7 +12,7 @@
 Players assume the role of a crew member on a space station.
 
 Uses the Byond engine which is closed source.
-+ https://baystation12.net/ https://github.com/Baystation12/Baystation12/
++ https://github.com/Baystation12/Baystation12/
 + https://www.paradisestation.org/forum/ https://github.com/ParadiseSS13/Paradise
 + https://github.com/ss13remake/ss13remake
 + https://github.com/griefly/griefly (not using Byond?)

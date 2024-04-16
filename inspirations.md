@@ -2381,9 +2381,9 @@
 
 - Inspired entries: 2009scape
 
-## Runescape Classic [3]
+## Runescape Classic [2]
 
-- Inspired entries: 2006-rebotted, 2006scape, Open RSC
+- Inspired entries: 2006scape, Open RSC
 - Media: https://en.wikipedia.org/wiki/RuneScape, https://runescape.fandom.com/wiki/RuneScape_Classic
 
 ## Ryzom [1]

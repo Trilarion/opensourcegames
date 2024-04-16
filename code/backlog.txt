@@ -1,5 +1,3 @@
-https://github.com/Hipnosis183/OpenSourceGames
-https://github.com/xyperia/OpenSourceGames
 http://bote.codeplex.com/
 http://crazycarscpc.free.fr/
 http://freshmeat.sourceforge.net/tags/turn-based-strategy (good for older ones)
@@ -13,11 +11,9 @@ http://www.silversecond.com/WolfRPGEditor/
 http://www.spheredev.org/
 http://www.usgo.org/go-software
 http://www.vbgore.com/Main_Page
-https://github.com/SerpentAI/SerpentAI
 http://www.zsnes.com/ (emulator/platform)
 https://001gamecreator.com/
 https://agateau.com/games/
-https://app.assembla.com/spaces/openrpg/wiki
 https://app.assembla.com/spaces/Project_Valkyrie2/wiki
 https://archive.codeplex.com/?p=turnota
 https://archive.codeplex.com/?p=voxeliq
@@ -57,6 +53,7 @@ https://github.com/andrejnau/FlyCube
 https://github.com/billyquith/GWork
 https://github.com/bobeff/open-source-games
 https://github.com/boldtempleGaming/Engine
+https://github.com/bytecauldron/awesome-gamemaker
 https://github.com/cadaver/turso3d
 https://github.com/Caerind/AwesomeCppGameDev
 https://github.com/carlbirch/BirchEngine
@@ -102,6 +99,7 @@ https://github.com/gszauer/GamePhysicsCookbook
 https://github.com/gustaYo/vue-chess
 https://github.com/HackerN64/HackerSM64
 https://github.com/hiitiger/goverlay  # DirectX hook and game overlay solution for any desktop GUI
+https://github.com/Hipnosis183/OpenSourceGames
 https://github.com/hotstreams/limitless-engine
 https://github.com/hugoam/two
 https://github.com/hugoam/two  # c++ toolkit for rapid development of live graphical apps and games
@@ -146,6 +144,7 @@ https://github.com/MinicraftPlus/minicraft-plus-revived
 https://github.com/moddio/taro
 https://github.com/MohitSethi99/ArcGameEngine
 https://github.com/MrFrenik/gunslinger
+https://github.com/Mukarillo/UnityTetris
 https://github.com/nCine/nCine
 https://github.com/ondras/rot.js
 https://github.com/open-telemetry/opentelemetry-cpp
@@ -154,6 +153,7 @@ https://github.com/osslugaru/lugaru
 https://github.com/OverShifted/OverEngine
 https://github.com/oxygine/oxygine-framework
 https://github.com/Oyun-Teknolojileri/ToolKit
+https://github.com/pacampbell/Game
 https://github.com/particle-clicker/particle-clicker
 https://github.com/patorjk/JavaScript-Snake
 https://github.com/phisko/kengine
@@ -176,6 +176,7 @@ https://github.com/samdauwe/BabylonCpp
 https://github.com/SamVanheer/halflife-updated
 https://github.com/SasLuca/rayfork
 https://github.com/search?utf8=%E2%9C%93&q=freesynd&type=
+https://github.com/SerpentAI/SerpentAI
 https://github.com/shakiba/planck.js
 https://github.com/sharkdp/cube-composer
 https://github.com/ShenMian/Clementine
@@ -189,6 +190,7 @@ https://github.com/Stephane-D/SGDK
 https://github.com/stevinz/awesome-game-engine-dev
 https://github.com/StrongPC123/Far-Cry-1-Source-Full
 https://github.com/swr06/GLGame
+https://github.com/ta-david-yu/2D-Platformer-Hunter
 https://github.com/tainicom/Aether.Physics2D
 https://github.com/tgfrerer/island
 https://github.com/TheBoneJarmer/TiledCS
@@ -207,6 +209,7 @@ https://github.com/volcoma/EtherealEngine
 https://github.com/Walkator/kailius
 https://github.com/WhitestormJS/whs.js
 https://github.com/wwwtyro/Astray
+https://github.com/xyperia/OpenSourceGames
 https://github.com/YoYoGames/GameMaker-HTML5
 https://github.com/yrgo/awesome-educational-games
 https://github.com/zeldaret/tmc

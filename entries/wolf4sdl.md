@@ -1,6 +1,6 @@
 # Wolf4SDL
 
-- Home: http://wolf3d.net/wolf4sdl/
+- Home: https://web.archive.org/web/20220117033453/http://wolf3d.net/wolf4sdl/
 - Inspiration: Wolfenstein 3D
 - State: mature
 - Keyword: action, remake, content commercial, shooter

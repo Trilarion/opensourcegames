@@ -1,6 +1,6 @@
 # WebChess
 
-- Home: https://sourceforge.net/p/webchess/wiki/Home/, https://sourceforge.net/projects/webchess/
+- Home: https://web.archive.org/web/20220517090245/https://sourceforge.net/p/webchess/wiki/Home/, https://sourceforge.net/projects/webchess/
 - State: mature, inactive since 2010
 - Download: https://sourceforge.net/projects/webchess/files/
 - Platform: Web

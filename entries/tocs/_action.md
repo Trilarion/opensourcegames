@@ -95,7 +95,7 @@
 - **[DOOM Retro](../doom_retro.md)** (C, C++, GPL-3.0, mature)
 - **[DOOM-iOS](../doom-ios.md)** (C++, C, GPL-2.0, mature, inactive since 2012)
 - **[Doom64EX](../doom64ex.md)** (C, C++, GPL-2.0, mature)
-- **[DOOM](../doom.md)** (C, Custom, mature, inactive since 2012)
+- **[DOOM](../doom.md)** (C, C++, Custom, mature, inactive since 2012)
 - **[Doomsday Engine](../doomsday_engine.md)** (C, C++, GPL-2.0, GPL-3.0, LGPL-3.0, mature)
 - **[dRally](../drally.md)** (Assembly, C, MIT, beta)
 - **[DUGA](../duga.md)** (Python, MPL-2.0, beta, inactive since 2018)

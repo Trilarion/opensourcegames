@@ -25,7 +25,7 @@
 - **[Core War](../core_war.md)** (C, Java, GPL-2.0, 2-clause BSD, mature)
 - **[CorsixTH](../corsixth.md)** (Lua, C++, MIT, mature)
 - **[Critterding](../critterding.md)** (C++, GPL-2.0, beta, inactive since 2013)
-- **[Cubyz](../cubyz.md)** (Java, GPL-3.0, beta)
+- **[Cubyz](../cubyz.md)** (Java, Zig, GPL-3.0, beta)
 - **[Cultivation](../cultivation.md)** (C++, Public domain, mature, inactive since 2010)
 - **[Cytopia](../cytopia.md)** (C++, GPL-3.0, beta)
 - **[Danger from the Deep](../danger_from_the_deep.md)** (C++, C, GPL-2.0, beta, inactive since 2011)

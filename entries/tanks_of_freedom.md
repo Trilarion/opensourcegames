@@ -1,6 +1,6 @@
 # Tanks of Freedom
 
-- Home: https://tof.p1x.in/, https://w84death.itch.io/tanks-of-freedom
+- Home: https://web.archive.org/web/20230927060605/https://tof.p1x.in/, https://w84death.itch.io/tanks-of-freedom
 - Inspiration: Advance Wars
 - State: mature
 - Platform: Windows, Linux, macOS, Android

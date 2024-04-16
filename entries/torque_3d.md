@@ -1,6 +1,6 @@
 # Torque 3D
 
-- Home: https://torque3d.org/, http://www.garagegames.com/products/torque-3d
+- Home: https://torque3d.org/, https://web.archive.org/web/20220517200232/http://www.garagegames.com/products/torque-3d
 - Media: https://en.wikipedia.org/wiki/Torque_(game_engine)
 - State: mature
 - Download: http://wiki.torque3d.org/main:downloads

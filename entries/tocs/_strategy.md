@@ -9,7 +9,7 @@
 - **[AI Wars](../ai_wars.md)** (Python, MIT, beta, inactive since 2010)
 - **[Alien Assault Traders](../alien_assault_traders.md)** (PHP, GPL-2.0, beta, inactive since 2009)
 - **[Allure of the Stars](../allure_of_the_stars.md)** (Haskell, AGPL-3.0, beta)
-- **[Ancient Beast](../ancient_beast.md)** (JavaScript, AGPL-3.0, mature)
+- **[Ancient Beast](../ancient_beast.md)** (JavaScript, TypeScript, AGPL-3.0, mature)
 - **[android-chess](../android-chess.md)** (Java, C++, MIT, mature)
 - **[Annex: Conquer the World](../annex_conquer_the_world.md)** (Lua, GPL-3.0, mature, inactive since 2014)
 - **[Antares](../antares.md)** (C++, LGPL-3.0, beta)

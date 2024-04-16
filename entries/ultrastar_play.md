@@ -1,6 +1,6 @@
 # UltraStar Play
 
-- Home: https://usplay.net/
+- Home: https://ultrastar-play.com/en
 - Inspiration: SingStar
 - State: beta
 - Platform: Windows, Linux, macOS, Android

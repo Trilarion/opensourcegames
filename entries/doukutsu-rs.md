@@ -3,7 +3,7 @@
 - Home: https://github.com/doukutsu-rs/doukutsu-rs
 - Inspiration: Cave Story
 - State: beta
-- Keyword: remake, content commercial + original required
+- Keyword: remake, content commercial, original required
 - Code repository: https://github.com/doukutsu-rs/doukutsu-rs.git (@created 2020, @stars 786, @forks 54)
 - Code language: Rust
 - Code license: MIT

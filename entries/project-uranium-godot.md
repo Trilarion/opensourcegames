@@ -4,7 +4,7 @@
 - Inspiration: Pokémon Uranium
 - State: beta
 - Platform: Windows, Linux, macOS
-- Keyword: role playing, content commercial + original required
+- Keyword: role playing, content commercial, original required
 - Code repository: https://github.com/acedogblast/Project-Uranium-Godot.git (@created 2018, @stars 190, @forks 28)
 - Code language: GDScript
 - Code license: MIT

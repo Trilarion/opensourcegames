@@ -4,7 +4,7 @@
 - Inspiration: Gothic, Gothic II
 - State: mature
 - Download: https://github.com/REGoth-project/REGoth/releases
-- Keyword: remake, role playing, content commercial + original required
+- Keyword: remake, role playing, content commercial, original required
 - Code repository: https://github.com/REGoth-project/REGoth-bs.git (@created 2019, @stars 430, @forks 34), https://github.com/REGoth-project/REGoth.git @add (@created 2016, @stars 623, @forks 63)
 - Code language: C++
 - Code license: GPL-3.0, MIT (https://github.com/REGoth-project/REGoth-bs/blob/master/LICENSE)

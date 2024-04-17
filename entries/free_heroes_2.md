@@ -4,7 +4,7 @@
 - Inspiration: Heroes of Might and Magic II
 - State: beta, inactive since 2015
 - Download: https://sourceforge.net/projects/fheroes2/files/fheroes2/
-- Keyword: remake, strategy, content commercial + original required (?), engine
+- Keyword: remake, strategy, content commercial, engine, original required (?)
 - Code repository: https://github.com/ihhub/fheroes2.git (@created 2019, @stars 2474, @forks 343), https://github.com/ciplogic/fheroes2enh.git (@created 2017, @stars 123, @forks 19), https://svn.code.sf.net/p/fheroes2/code (svn)
 - Code language: C++
 - Code license: GPL-2.0

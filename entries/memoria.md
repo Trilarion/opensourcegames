@@ -4,7 +4,7 @@
 - Inspiration: Final Fantasy IX
 - State: mature
 - Download: https://github.com/Albeoris/Memoria/releases
-- Keyword: remake, tool, content commercial + original required, engine
+- Keyword: remake, tool, content commercial, engine, original required
 - Code repository: https://github.com/Albeoris/Memoria.git (@created 2016, @stars 227, @forks 33)
 - Code language: C#
 - Code license: MIT

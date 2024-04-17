@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/bradharding/doomretro/releases
 - Platform: Windows
-- Keyword: action, remake, content commercial + original required
+- Keyword: action, remake, content commercial, original required
 - Code repository: https://github.com/bradharding/doomretro.git (@created 2013, @stars 613, @forks 77)
 - Code language: C, C++
 - Code license: GPL-3.0

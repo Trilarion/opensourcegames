@@ -6,7 +6,7 @@
 - Play: https://alula.github.io/SpaceCadetPinball/
 - Download: https://github.com/k4zmu2a/SpaceCadetPinball/releases
 - Platform: Windows, Web
-- Keyword: arcade, remake, content commercial + original required, flipper, skill
+- Keyword: arcade, remake, content commercial, flipper, original required, skill
 - Code repository: https://github.com/k4zmu2a/SpaceCadetPinball.git (@created 2021, @stars 3073, @forks 195), https://github.com/alula/SpaceCadetPinball.git (@add)
 - Code language: C++
 - Code license: MIT

@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/turican0/remc2/releases
 - Platform: Windows
-- Keyword: action, remake, content commercial + original required
+- Keyword: action, remake, content commercial, original required
 - Code repository: https://github.com/turican0/remc2.git (@created 2018, @stars 108, @forks 9)
 - Code language: C
 - Code license: GPL-3.0

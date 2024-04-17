@@ -4,7 +4,7 @@
 - Inspiration: The Sims Online
 - State: beta
 - Download: https://freeso.org/download/
-- Keyword: game engine, remake, simulation, content original required
+- Keyword: game engine, remake, simulation, content commercial, original required
 - Code repository: https://github.com/riperiperi/FreeSO.git (@created 2015, @stars 782, @forks 94)
 - Code language: C#
 - Code license: MPL-2.0

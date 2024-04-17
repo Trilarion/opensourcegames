@@ -3,7 +3,7 @@
 - Home: https://github.com/WolfireGames/overgrowth
 - Inspiration: Overgrowth
 - State: mature
-- Keyword: action, content commercial + original required, multiplayer Split-screen + Co-op, official
+- Keyword: action, content commercial, multiplayer Split-screen + Co-op, official, original required
 - Code repository: https://github.com/WolfireGames/overgrowth.git (@created 2022, @stars 2346, @forks 245)
 - Code language: C, C++
 - Code license: Apache-2.0

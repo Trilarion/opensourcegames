@@ -4,7 +4,7 @@
 - Inspiration: Might and Magic VI: The Mandate of Heaven, Might and Magic VII: For Blood and Honor, Might and Magic VIII: Day of the Destroyer
 - State: beta
 - Platform: Windows, Linux, macOS
-- Keyword: remake, role playing, content commercial + original required, engine
+- Keyword: remake, role playing, content commercial, engine, original required
 - Code repository: https://github.com/OpenEnroth/OpenEnroth.git (@created 2016, @stars 669, @forks 79)
 - Code language: C++
 - Code license: LGPL-3.0

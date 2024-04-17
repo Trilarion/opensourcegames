@@ -4,7 +4,7 @@
 - Inspiration: Grand Theft Auto III
 - State: beta
 - Platform: Windows, Linux, macOS
-- Keyword: action, game engine, remake, content commercial + original required
+- Keyword: action, game engine, remake, content commercial, original required
 - Code repository: https://github.com/rwengine/openrw.git (@created 2015, @stars 1701, @forks 159)
 - Code language: C, C++
 - Code license: GPL-3.0

@@ -3,7 +3,7 @@
 - Home: https://davidgow.net/keen/omnispeak.html
 - Inspiration: Commander Keen Series
 - State: mature
-- Keyword: remake, content commercial + original required
+- Keyword: remake, content commercial, original required
 - Code repository: https://github.com/sulix/omnispeak.git (@created 2012, @stars 284, @forks 35)
 - Code language: C
 - Code license: GPL-2.0

@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/team-eternity/eternity/releases
 - Platform: Windows, Linux, macOS
-- Keyword: game engine, remake, "content commercial (?) + original required", first-person, multiplayer LAN, shooter
+- Keyword: game engine, remake, content commercial (?), first-person, multiplayer LAN, original required, shooter
 - Code repository: https://github.com/team-eternity/eternity.git (@created 2014, @stars 214, @forks 36)
 - Code language: C, C++
 - Code license: GPL-3.0

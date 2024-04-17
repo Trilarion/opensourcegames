@@ -4,7 +4,7 @@
 - Inspiration: Baldur's Gate, Icewind Dale, Planescape: Torment
 - State: mature
 - Download: https://gemrb.org/Install.html
-- Keyword: framework, remake, 2D, content original required, isometric
+- Keyword: framework, remake, 2D, content commercial, isometric, original required
 - Code repository: https://github.com/gemrb/gemrb.git (@created 2012, @stars 899, @forks 176)
 - Code language: C++, Python
 - Code license: GPL-2.0

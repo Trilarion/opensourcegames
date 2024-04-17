@@ -4,7 +4,7 @@
 - Inspiration: Legend of Zelda - A Link to the Past
 - State: beta, inactive since 2016
 - Platform: Web
-- Keyword: remake, role playing, content commercial + original required
+- Keyword: remake, role playing, content commercial, original required
 - Code repository: https://github.com/englercj/lttp.git (@created 2014, @stars 120, @forks 20)
 - Code language: TypeScript, JavaScript
 - Code license: MIT

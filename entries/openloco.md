@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/OpenLoco/OpenLoco/releases
 - Platform: Windows, macOS
-- Keyword: remake, simulation, content commercial + original required, transport
+- Keyword: remake, simulation, content commercial, original required, transport
 - Code repository: https://github.com/OpenLoco/OpenLoco.git (@created 2018, @stars 1110, @forks 142)
 - Code language: C++
 - Code license: MIT

@@ -3,7 +3,7 @@
 - Home: https://github.com/Jakz/openmom
 - Inspiration: Master of Magic
 - State: beta
-- Keyword: strategy, clone, content commercial + original required
+- Keyword: strategy, clone, content commercial, original required
 - Code repository: https://github.com/Jakz/openmom.git (@created 2014, @stars 97, @forks 7)
 - Code language: C, C++
 - Code license: GPL-3.0

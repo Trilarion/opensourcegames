@@ -3,7 +3,7 @@
 - Home: https://github.com/verhoevenv/OpenNotrium
 - Inspiration: Notrium
 - State: beta
-- Keyword: action, puzzle, remake, content original required, survival
+- Keyword: action, puzzle, remake, content commercial, original required, survival
 - Code repository: https://github.com/verhoevenv/OpenNotrium.git (@created 2014, @stars 82, @forks 23)
 - Code language: C++
 - Code license: GPL-3.0

@@ -4,7 +4,7 @@
 - Inspiration: Theme Hospital
 - State: mature
 - Download: https://github.com/CorsixTH/CorsixTH/releases
-- Keyword: remake, simulation, strategy, content commercial + original required
+- Keyword: remake, simulation, strategy, content commercial, original required
 - Code repository: https://github.com/CorsixTH/CorsixTH.git (@created 2013, @stars 3759, @forks 344)
 - Code language: Lua, C++
 - Code license: MIT

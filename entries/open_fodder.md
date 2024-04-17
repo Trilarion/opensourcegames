@@ -4,7 +4,7 @@
 - Inspiration: Cannon Fodder
 - State: mature
 - Platform: Windows, Linux
-- Keyword: remake, "content commercial + open (some demo content) + original required"
+- Keyword: remake, content commercial + open (some demo content), original required
 - Code repository: https://github.com/OpenFodder/openfodder.git (@created 2012, @stars 433, @forks 41)
 - Code language: C, C++
 - Code license: GPL-3.0

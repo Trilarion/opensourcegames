@@ -3,7 +3,7 @@
 - Home: https://odamex.net/
 - Inspiration: Doom, Doom II, Heretic, Hexen
 - State: beta
-- Keyword: game engine, remake, content original required, shooter
+- Keyword: game engine, remake, content commercial, original required, shooter
 - Code repository: https://github.com/odamex/odamex.git (@created 2015, @stars 159, @forks 50)
 - Code language: C, C++
 - Code license: GPL-2.0

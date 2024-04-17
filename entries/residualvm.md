@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://web.archive.org/web/20210722121452/https://www.residualvm.org/downloads/
 - Platform: Windows, macOS
-- Keyword: adventure, game engine, remake, content commercial + original required
+- Keyword: adventure, game engine, remake, content commercial, original required
 - Code repository: https://github.com/residualvm/residualvm.git (@archived, @created 2011, @stars 396, @forks 115)
 - Code language: C++
 - Code license: GPL-2.0

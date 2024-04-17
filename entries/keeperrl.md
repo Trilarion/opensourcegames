@@ -4,7 +4,7 @@
 - Inspiration: Dungeon Keeper 2
 - State: beta
 - Platform: Windows
-- Keyword: game engine, simulation, content original required, dungeon
+- Keyword: game engine, simulation, content commercial, dungeon, original required
 - Code repository: https://github.com/miki151/keeperrl.git (@created 2013, @stars 764, @forks 94)
 - Code language: C, C++
 - Code license: GPL-2.0

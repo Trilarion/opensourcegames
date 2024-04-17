@@ -4,7 +4,7 @@
 - Inspiration: Little Big Adventure 2
 - State: beta
 - Platform: Web
-- Keyword: adventure, remake, content commercial + original required, engine
+- Keyword: adventure, remake, content commercial, engine, original required
 - Code repository: https://github.com/LBALab/lba2remake.git (@created 2018, @stars 245, @forks 37)
 - Code language: TypeScript
 - Code license: MIT

@@ -581,6 +581,9 @@ class EntriesMaintainer:
         # reduce those starting with "multiplayer"
         keywords = [x if not x.startswith('multiplayer') else 'multiplayer' for x in keywords]
 
+        # for content keyword filter out everything in parentheses
+        keywords = [x if not any(x.startswith(y) for y in ('content', 'original required')) else re.sub(r'\(.*?\)\s*', '', x) for x in keywords]
+
         unique_keywords = set(keywords)
         unique_keywords = [(l, keywords.count(l) / len(keywords)) for l in unique_keywords]
         unique_keywords.sort(key=lambda x: str.casefold(x[0]))  # first sort by name

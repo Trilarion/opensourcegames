@@ -4,7 +4,7 @@
 - Inspiration: X-COM: Apocalypse, X-COM: Terror from the Deep, X-COM: UFO Defense
 - State: beta
 - Download: https://github.com/OpenApoc/OpenApoc/releases
-- Keyword: remake, strategy, "content commercial + original required (X-Com Apocalypse)"
+- Keyword: remake, strategy, content commercial, original required (X-Com Apocalypse)
 - Code repository: https://github.com/OpenApoc/OpenApoc.git (@created 2014, @stars 475, @forks 96)
 - Code language: C++
 - Code license: MIT

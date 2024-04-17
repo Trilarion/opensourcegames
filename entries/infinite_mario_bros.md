@@ -4,7 +4,7 @@
 - Inspiration: Super Mario
 - State: mature, inactive since 2010
 - Platform: Windows, Linux, macOS
-- Keyword: platform, content commercial + original required
+- Keyword: platform, content commercial, original required
 - Code repository: https://github.com/cflewis/Infinite-Mario-Bros.git (@created 2009, @stars 37, @forks 29)
 - Code language: Java
 - Code license: 3-clause BSD

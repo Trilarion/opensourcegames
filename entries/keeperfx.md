@@ -4,7 +4,7 @@
 - Inspiration: Dungeon Keeper
 - State: beta
 - Download: https://lubiki.keeperklan.com/html/dk_keeperfx_dwnld.php
-- Keyword: strategy, content original required, real-time
+- Keyword: strategy, content commercial, original required, real-time
 - Code repository: https://github.com/dkfans/keeperfx.git (@created 2015, @stars 658, @forks 66)
 - Code language: C, C++
 - Code license: GPL-2.0

@@ -3,7 +3,7 @@
 - Home: https://github.com/LBALab/lba1-classic-community
 - Inspiration: Little Big Adventure
 - State: beta
-- Keyword: adventure, remake, content commercial + original required
+- Keyword: adventure, remake, content commercial, original required
 - Code repository: https://github.com/LBALab/lba1-classic-community.git (@created 2021, @stars 60, @forks 14), https://github.com/2point21/lba1-classic.git (@add)
 - Code language: Assembly, C
 - Code license: GPL-2.0

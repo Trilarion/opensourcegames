@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/Interkarma/daggerfall-unity/releases
 - Platform: Windows, Linux, macOS
-- Keyword: remake, role playing, content original required
+- Keyword: remake, role playing, content commercial, original required
 - Code repository: https://github.com/Interkarma/daggerfall-unity.git (@created 2015, @stars 2500, @forks 314)
 - Code language: C#
 - Code license: MIT

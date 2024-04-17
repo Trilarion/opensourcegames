@@ -3,7 +3,7 @@
 - Home: https://www.shipofharkinian.com/
 - Inspiration: The Legend of Zelda: Ocarina of Time
 - State: mature
-- Keyword: adventure, remake, content commercial + original required
+- Keyword: adventure, remake, content commercial, original required
 - Code repository: https://github.com/HarbourMasters/Shipwright.git (@created 2022, @stars 2601, @forks 423)
 - Code language: C, C++
 - Code license: MIT

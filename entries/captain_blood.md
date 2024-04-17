@@ -5,7 +5,7 @@
 - Inspiration: Age of Pirates: Captain Blood, God of War
 - State: mature
 - Platform: Windows
-- Keyword: action, adventure, content original required
+- Keyword: action, adventure, content commercial, original required
 - Code repository: https://github.com/storm-devs/captain-blood.git (@created 2022, @stars 213, @forks 31)
 - Code language: C++, C
 - Code license: GPL-3.0

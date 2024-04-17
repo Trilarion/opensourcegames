@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://fte.triptohell.info/downloads
 - Platform: Windows, Linux, macOS, Android
-- Keyword: action, content commercial + original required, first-person, shooter
+- Keyword: action, content commercial, first-person, original required, shooter
 - Code repository: https://svn.code.sf.net/p/fteqw/code (svn)
 - Code language: C
 - Code license: GPL-2.0

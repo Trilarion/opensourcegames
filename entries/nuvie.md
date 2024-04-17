@@ -3,7 +3,7 @@
 - Home: https://web.archive.org/web/20221211094439/https://nuvie.sourceforge.net/, https://sourceforge.net/projects/nuvie/
 - Inspiration: Ultima VI: The False Prophet, Ultima: Worlds of Adventure 2: Martian Dreams, Worlds of Ultima: The Savage Empire
 - State: beta, inactive since 2018
-- Keyword: game engine, remake, content original required
+- Keyword: game engine, remake, content commercial, original required
 - Code repository: https://github.com/nuvie/nuvie.git (@created 2015, @stars 125, @forks 17), https://svn.code.sf.net/p/nuvie/code (svn)
 - Code language: C, C++, Lua
 - Code license: GPL-2.0

@@ -5,7 +5,7 @@
 - Inspiration: Arx Fatalis
 - State: mature
 - Download: https://arx-libertatis.org/download
-- Keyword: remake, role playing, "content commercial + original required (Arx Fatalis)", dungeon
+- Keyword: remake, role playing, content commercial, dungeon, original required (Arx Fatalis)
 - Code repository: https://github.com/arx/ArxLibertatis.git (@created 2011, @stars 887, @forks 125)
 - Code language: C++
 - Code license: GPL-3.0

@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://github.com/AliveTeam/alive_reversing/releases
 - Platform: Windows, Linux, macOS
-- Keyword: action, remake, content commercial + original required
+- Keyword: action, remake, content commercial, original required
 - Code repository: https://github.com/AliveTeam/alive_reversing.git (@created 2018, @stars 301, @forks 43), https://github.com/MrSapps/alive.git @add (@created 2015, @stars 104, @forks 9)
 - Code language: C++
 - Code license: MIT

@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://freeablo.org/downloads/
 - Platform: Windows, Linux, macOS
-- Keyword: action, remake, role playing, content commercial + original required
+- Keyword: action, remake, role playing, content commercial, original required
 - Code repository: https://github.com/wheybags/freeablo.git (@created 2013, @stars 2153, @forks 199)
 - Code language: C++
 - Code license: GPL-3.0

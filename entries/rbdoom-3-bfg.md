@@ -3,7 +3,7 @@
 - Home: https://github.com/RobertBeckebans/RBDOOM-3-BFG
 - Inspiration: Doom 3
 - State: mature
-- Keyword: game engine, remake, content original required (BFG edition), shooter
+- Keyword: game engine, remake, content commercial, original required (BFG edition), shooter
 - Code repository: https://github.com/RobertBeckebans/RBDOOM-3-BFG.git (@created 2012, @stars 1326, @forks 241)
 - Code language: C, C++
 - Code license: GPL-3.0

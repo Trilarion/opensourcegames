@@ -4,7 +4,7 @@
 - Inspiration: Jazz Jackrabbit 2
 - State: beta, inactive since 2017
 - Download: https://carrot.soulweaver.fi/#downloads
-- Keyword: remake, content commercial + original required
+- Keyword: remake, content commercial, original required
 - Code repository: https://github.com/soulweaver91/project-carrot.git (@created 2014, @stars 38, @forks 4)
 - Code language: C++
 - Code license: MIT

@@ -3,7 +3,7 @@
 - Home: https://github.com/aroldanju/raptor-call-of-the-shadows
 - Inspiration: Raptor: Call of the Shadows
 - State: beta
-- Keyword: action, remake, content commercial + original required, scrolling, shooter
+- Keyword: action, remake, content commercial, original required, scrolling, shooter
 - Code repository: https://github.com/aroldanju/raptor-call-of-the-shadows.git (@created 2020, @stars 22, @forks 3)
 - Code language: C
 - Code license: GPL-3.0

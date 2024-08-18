@@ -469,6 +469,7 @@
 - **[Raptor](../raptor.md)** (C, C++, GPL-2.0, mature)
 - **[Raze](../raze.md)** (C++, GPL-2.0, mature)
 - **[RBDOOM-3-BFG](../rbdoom-3-bfg.md)** (C, C++, GPL-3.0, mature)
+- **[re3-gd](../re3-gd.md)** (C++, GDScript, MIT, alpha)
 - **[re-private-eye](../re-private-eye.md)** (Python, 2-clause BSD, beta)
 - **[Reconstruction of Super ZZT](../reconstruction_of_super_zzt.md)** (Pascal, MIT, mature)
 - **[Reconstruction of ZZT](../reconstruction_of_zzt.md)** (Pascal, MIT, mature)

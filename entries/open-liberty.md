@@ -1,12 +1,12 @@
-# re3-gd
+# OpenLiberty
 
-- Home: https://github.com/FOSS-Supremacy/re3-gd
+- Home: https://github.com/FOSS-Supremacy/OpenLiberty
 - Inspiration: Grand Theft Auto III
 - State: alpha
 - Platform: Windows, Linux
 - Keyword: action, game engine, remake, content commercial, original required
-- Code repository: https://github.com/FOSS-Supremacy/re3-gd
-- Code language: C++, GDScript
+- Code repository: https://github.com/FOSS-Supremacy/OpenLiberty
+- Code language: GDScript
 - Code license: MIT
 - Code dependency: Godot Engine
 - Developer: Ribbon

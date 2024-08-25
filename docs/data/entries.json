@@ -121,6 +121,14 @@
    "GPL-2.0"
   ],
   [
+   "<a href=\"frameworks/framework.html#dry\" class=\"has-text-weight-semibold\">Dry</a> <a href=\"https://dry.luckey.games/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "framework, 2D, 3D",
+   "-",
+   "C++, AngelScript",
+   "MIT"
+  ],
+  [
    "<a href=\"frameworks/framework.html#easyrpg_player\" class=\"has-text-weight-semibold\">EasyRPG Player</a> <a href=\"https://easyrpg.org/player/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "framework, clone",
@@ -1625,6 +1633,14 @@
    "GPL-3.0"
   ],
   [
+   "<a href=\"frameworks/game engine.html#openliberty\" class=\"has-text-weight-semibold\">OpenLiberty</a> <a href=\"https://github.com/FOSS-Supremacy/OpenLiberty\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "action, game engine, remake",
+   "Windows, Linux",
+   "GDScript",
+   "MIT"
+  ],
+  [
    "<a href=\"frameworks/game engine.html#openmw\" class=\"has-text-weight-semibold\">OpenMW</a> <a href=\"https://openmw.org/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "game engine, remake, role playing",
@@ -2737,6 +2753,14 @@
    "Custom"
   ],
   [
+   "<a href=\"games/A.html#a-mazing_urho\" class=\"has-text-weight-semibold\">A-Mazing Urho</a> <a href=\"https://luckeyproductions.itch.io/amazingurho\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "action",
+   "Linux",
+   "C++",
+   "GPL-3.0"
+  ],
+  [
    "<a href=\"games/A.html#a7xpg\" class=\"has-text-weight-semibold\">A7Xpg</a> <a href=\"https://a7xpg.sourceforge.net/\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2005",
    "arcade, space",
@@ -2911,6 +2935,14 @@
    "Windows, Linux, macOS",
    "C",
    "GPL-2.0"
+  ],
+  [
+   "<a href=\"games/A.html#alex_vs_bus_the_race\" class=\"has-text-weight-semibold\">Alex vs Bus: The Race</a> <a href=\"https://github.com/M374LX/alexvsbus\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "arcade, platform",
+   "Windows, Android",
+   "C",
+   "GPL-3.0"
   ],
   [
    "<a href=\"games/A.html#alien_assault_traders\" class=\"has-text-weight-semibold\">Alien Assault Traders</a> <a href=\"http://www.aatraders.com/\"><i class=\"icon-new-tab\"></i></a>",
@@ -3697,6 +3729,14 @@
    "zlib"
   ],
   [
+   "<a href=\"games/B.html#boardspacenet\" class=\"has-text-weight-semibold\">Boardspace.net</a> <a href=\"https://boardspace.net/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "board",
+   "Windows",
+   "Java, PHP, C",
+   "GPL-3.0"
+  ],
+  [
    "<a href=\"games/B.html#bobball\" class=\"has-text-weight-semibold\">BobBall</a> <a href=\"https://github.com/bobthekingofegypt/BobBall\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2017",
    "arcade",
@@ -3799,6 +3839,14 @@
    "-",
    "Python",
    "GPL-2.0"
+  ],
+  [
+   "<a href=\"games/B.html#boxcars\" class=\"has-text-weight-semibold\">Boxcars</a> <a href=\"https://bgammon.org\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "board, strategy",
+   "Windows, Linux, Android, Web",
+   "Go",
+   "AGPL-3.0"
   ],
   [
    "<a href=\"games/B.html#brain_workshop\" class=\"has-text-weight-semibold\">Brain Workshop</a> <a href=\"https://brainworkshop.sourceforge.net/\"><i class=\"icon-new-tab\"></i></a>",
@@ -4585,11 +4633,11 @@
    "MIT"
   ],
   [
-   "<a href=\"games/C.html#cortex_command-open_source\" class=\"has-text-weight-semibold\">Cortex Command - open source</a> <a href=\"https://github.com/DataRealms/CCOSS\"><i class=\"icon-new-tab\"></i></a>",
-   "mature, inactive since 2019",
+   "<a href=\"games/C.html#cortex_command_community_project\" class=\"has-text-weight-semibold\">Cortex Command Community Project</a> <a href=\"https://cortex-command-community.github.io/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
    "action",
-   "-",
-   "C++, C",
+   "Windows, Linux, macOS",
+   "C++, C, Lua",
    "AGPL-3.0"
   ],
   [
@@ -5247,6 +5295,14 @@
    "Windows, Linux",
    "C",
    "GPL-2.0"
+  ],
+  [
+   "<a href=\"games/D.html#double_damnation\" class=\"has-text-weight-semibold\">Double Damnation</a> <a href=\"https://github.com/TheYellowArchitect/doubledamnation\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2022",
+   "arcade",
+   "Windows",
+   "C#",
+   "GPL-3.0"
   ],
   [
    "<a href=\"games/D.html#doukutsu-rs\" class=\"has-text-weight-semibold\">doukutsu-rs</a> <a href=\"https://github.com/doukutsu-rs/doukutsu-rs\"><i class=\"icon-new-tab\"></i></a>",
@@ -6459,7 +6515,7 @@
   [
    "<a href=\"games/F.html#future_cop_mit\" class=\"has-text-weight-semibold\">Future Cop: MIT</a> <a href=\"https://github.com/Ghoster738/Future-Cop-MIT\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
-   "remake",
+   "action, remake, shooter",
    "-",
    "C++, C",
    "MIT"
@@ -7115,7 +7171,7 @@
   [
    "<a href=\"games/H.html#hexon\" class=\"has-text-weight-semibold\">heXon</a> <a href=\"https://luckeyproductions.itch.io/hexon\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
-   "role playing, shooter",
+   "action, shooter",
    "Linux",
    "C++",
    "GPL-2.0"
@@ -8297,6 +8353,14 @@
    "MIT"
   ],
   [
+   "<a href=\"games/L.html#luckey_park\" class=\"has-text-weight-semibold\">LucKey Park</a> <a href=\"https://luckeyproductions.itch.io/park\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "simulation",
+   "Linux",
+   "C++",
+   "GPL-3.0"
+  ],
+  [
    "<a href=\"games/L.html#lugaru\" class=\"has-text-weight-semibold\">Lugaru</a> <a href=\"https://osslugaru.gitlab.io/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "action, remake",
@@ -9463,6 +9527,14 @@
    "Windows, Linux, macOS, Android",
    "Java, C++, C, Objective-C",
    "AGPL-3.0"
+  ],
+  [
+   "<a href=\"games/O.html#open_saucer\" class=\"has-text-weight-semibold\">Open Saucer</a> <a href=\"https://luckeyproductions.itch.io/opensaucer\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "action, sports",
+   "Linux",
+   "C++",
+   "GPL-2.0"
   ],
   [
    "<a href=\"games/O.html#open_simulator\" class=\"has-text-weight-semibold\">Open Simulator</a> <a href=\"http://opensimulator.org/wiki/Main_Page\"><i class=\"icon-new-tab\"></i></a>",
@@ -11042,7 +11114,7 @@
   ],
   [
    "<a href=\"games/Q.html#quatter\" class=\"has-text-weight-semibold\">Quatter</a> <a href=\"https://luckeyproductions.itch.io/quatter\"><i class=\"icon-new-tab\"></i></a>",
-   "mature, inactive since 2018",
+   "beta",
    "board, strategy",
    "-",
    "C++",
@@ -12198,6 +12270,14 @@
    "puzzle",
    "Windows, Linux",
    "C#",
+   "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/S.html#solaris\" class=\"has-text-weight-semibold\">Solaris</a> <a href=\"https://solaris.games\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "strategy",
+   "Windows, Android, Web",
+   "TypeScript, JavaScript",
    "GPL-3.0"
   ],
   [
@@ -13550,6 +13630,14 @@
    "action, platform, clone",
    "Windows, Linux",
    "Python",
+   "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/T.html#tux\" class=\"has-text-weight-semibold\">Tux!</a> <a href=\"https://luckeyproductions.itch.io/tux\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "action, platform",
+   "Linux",
+   "C++",
    "GPL-3.0"
   ],
   [

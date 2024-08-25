@@ -42646,7 +42646,7 @@
 ## LucKey Productions [6]
 
 - Games: A-Mazing Urho, heXon, LucKey Park, Open Saucer, Quatter, Tux!
-- Contact: Modanung
+- Contact: Modanung@GL
 - Home: https://libregamewiki.org/LucKey_Productions, https://luckey.games/, https://luckeyproductions.itch.io/
 
 ## Lucki [1]

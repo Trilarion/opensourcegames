@@ -19,8 +19,6 @@ https://archive.codeplex.com/?p=turnota
 https://archive.codeplex.com/?p=voxeliq
 https://archive.org/details/open_source_software
 https://blenderartists.org/t/devils-pinball/552785
-
-
 https://bluerenga.blog/
 https://carrot.soulweaver.fi/#links
 https://cocainediesel.fun/
@@ -66,6 +64,7 @@ https://github.com/CharlesPikachu/Games
 https://github.com/choubari/3D-Tanks-Game-Unity
 https://github.com/chvin/react-tetris
 https://github.com/ClarkThyLord/Voxel-Core
+https://github.com/clibequilibrium/EquilibriumEngine
 https://github.com/Clownacy/clownmdemu
 https://github.com/codenamecpp/carnage3d#other-gta-12-re-implementations
 https://github.com/collections/game-engines
@@ -86,9 +85,11 @@ https://github.com/Eukaryot/sonic3air
 https://github.com/ExplosionEngine/Explosion
 https://github.com/fogleman/Minecraft
 https://github.com/fogleman/nes
+https://github.com/FunkinCrew/Funkin
 https://github.com/Gamua/Starling-Framework
 https://github.com/gd4Ark/2048
 https://github.com/GDQuest/godot-steering-ai-framework
+https://github.com/GDQuest/learn-gdscript
 https://github.com/GlistEngine/GlistEngine
 https://github.com/godot-extended-libraries/godot-realistic-water
 https://github.com/godotengine/tps-demo
@@ -112,10 +113,13 @@ https://github.com/Illation/ETEngine
 https://github.com/inanevin/LinaEngine
 https://github.com/ipodtouch0218/NSMB-MarioVsLuigi
 https://github.com/irisengine/iris
+https://github.com/Isti01/glCraft
 https://github.com/jakesgordon/javascript-racer
+https://github.com/JamesRandall/SimpleVoxelEngine
 https://github.com/jarikomppa/soloud # audio engine (too specialized, this is more for game development)
 https://github.com/jhasse/jngl # game library ? (complete engine?)
 https://github.com/JimmieKJ/unrealTournament
+https://github.com/jmoenig/Snap
 https://github.com/JoeyDeVries/Cell
 https://github.com/juliangarnier/3D-Hartwig-chess-set
 https://github.com/justinmeister/Mario-Level-1
@@ -124,6 +128,7 @@ https://github.com/Kavex/GameDev-Resources
 https://github.com/kenamick/savagewheels
 https://github.com/kenrick95/c4
 https://github.com/khanhduy1407/BlueBoy2D
+https://github.com/kikito/anim8
 https://github.com/krait-games/hyperion-engine
 https://github.com/kripken/BananaBread
 https://github.com/kubowania/mario
@@ -219,6 +224,7 @@ https://github.com/Zone-organization/Nuclear-Engine
 https://github.com/Zylann/godot_heightmap_plugin
 https://gitlab.com/evol (planned merge of https://evolonline.org/ into THe Mana World rEvolt project)
 https://gitlab.com/themanaworld/evolved/ (port of Evol Online to the new engine of The Mana World)
+https://globalgamejam.org/
 https://if50.substack.com/p/business-wargames
 https://illusion.64history.net/2022/wipeout-psx-windows-source
 https://itch.io/jam/game-off-2023
@@ -277,6 +283,7 @@ https://www.musztardasarepska.pl/wgdown/
 https://www.ness-engine.com/
 https://www.networkworld.com/article/2222642/the-death-of-an-html5-game-breeds-an-open-source-project.html
 https://www.nexusmods.com/games (if one can filter by open source)
+https://www.old-games.com/
 https://www.old-games.ru/forum/threads/nekommercheskie-analogi-izvestnyx-igr.40868/page-9
 https://www.piston.rs/
 https://www.reddit.com/r/opensourcegames/comments/celw6c/top_3_open_source_pinball_games_2015/

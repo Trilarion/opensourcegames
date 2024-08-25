@@ -2,6 +2,8 @@
 # Board
 
 - **[3Dc](../3dc.md)** (C, GPL-2.0, mature, inactive since 2000)
+- **[Boardspace.net](../boardspacenet.md)** (Java, PHP, C, GPL-3.0, mature)
+- **[Boxcars](../boxcars.md)** (Go, AGPL-3.0, mature)
 - **[British Bingo](../british_bingo.md)** (JavaScript, GPL-3.0, mature)
 - **[Catan Dice Game](../catan_dice_game.md)** (Java, GPL-3.0, mature)
 - **[Chess3D](../chess3d.md)** (JavaScript, Python, GPL-3.0, mature, inactive since 2016)
@@ -23,7 +25,7 @@
 - **[Pasang Emas](../pasang_emas.md)** (Vala, GPL-3.0, mature)
 - **[Pentobi](../pentobi.md)** (C++, GPL-3.0, mature)
 - **[Pioneers](../pioneers.md)** (C, GPL-2.0, mature)
-- **[Quatter](../quatter.md)** (C++, GPL-2.0, mature, inactive since 2018)
+- **[Quatter](../quatter.md)** (C++, GPL-2.0, beta)
 - **[Scrabble3D](../scrabble3d.md)** (Pascal, GPL-3.0, mature, inactive since 2015)
 - **[The Bub's Brothers](../the_bubs_brothers.md)** (Python, C, MIT, mature, inactive since 2013)
 - **[VASSAL](../vassal.md)** (Java, LGPL-2.1, mature)

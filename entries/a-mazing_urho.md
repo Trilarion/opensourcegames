@@ -3,7 +3,7 @@
 - Home: https://luckeyproductions.itch.io/amazingurho
 - State: beta
 - Platform: Linux
-- Keyword: action, rhythm, maze
+- Keyword: action, maze, rhythm
 - Code repository: https://gitlab.com/luckeyproductions/games/AmazingUrho.git (@created 2018, @stars 3, @forks 1)
 - Code language: C++
 - Code license: GPL-3.0

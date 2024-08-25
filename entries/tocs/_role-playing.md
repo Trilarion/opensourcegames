@@ -91,7 +91,6 @@
 - **[Haxima](../haxima.md)** (C++, GPL-3.0, beta)
 - **[Hero of Allacrost](../hero_of_allacrost.md)** (C++, Lua, GPL-2.0, mature)
 - **[Heroine Dusk](../heroine_dusk.md)** (JavaScript, GPL-3.0, mature, inactive since 2017)
-- **[heXon](../hexon.md)** (C++, GPL-2.0, beta)
 - **[HolySpirit](../holyspirit.md)** (C++, Haskell, GPL-3.0, beta, inactive since 2013)
 - **[Honey Town](../honey_town.md)** (C#, GPL-3.0, beta, inactive since 2020)
 - **[HyperRogue](../hyperrogue.md)** (C++, GPL-2.0, mature)

@@ -15,6 +15,7 @@
 - **[Dash Engine](../dash_engine.md)** (D, MIT, mature, inactive since 2015)
 - **[Delta Engine](../delta_engine.md)** (C#, Apache-2.0, mature, inactive since 2015)
 - **[DeSmuME](../desmume.md)** (C, C++, GPL-2.0, mature, inactive since 2015)
+- **[Dry](../dry.md)** (C++, AngelScript, MIT, mature)
 - **[EasyRPG Player](../easyrpg_player.md)** (C++, GPL-3.0, mature)
 - **[Enduro2D](../enduro2d.md)** (C++, MIT, beta)
 - **[ENIGMA (development environment)](../enigma_development_environment.md)** (C++, C, GPL-3.0, mature)

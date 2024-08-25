@@ -69,6 +69,7 @@
 - **[LinCity-NG](../lincity-ng.md)** (C++, GPL-2.0, mature)
 - **[Lincity](../lincity.md)** (C, GPL-2.0, mature, inactive since 2005)
 - **[Liquid Wars](../liquid_wars.md)** (C++, Java, GPL-3.0, mature, inactive since 2014)
+- **[LucKey Park](../luckey_park.md)** (C++, GPL-3.0, beta)
 - **[Manic Digger](../manic_digger.md)** (C#, Public domain, Unlicense, mature, inactive since 2017)
 - **[Micropolis](../micropolis.md)** (C++, Java, Python, GPL-3.0, mature, inactive since 2015)
 - **[micropolisJS](../micropolisjs.md)** (JavaScript, GPL-3.0, mature)

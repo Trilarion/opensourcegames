@@ -113,6 +113,7 @@
 - **[OpenGothic](../opengothic.md)** (C++, MIT, beta)
 - **[OpenJK](../openjk.md)** (C, C++, GPL-2.0, beta)
 - **[OpenKeeper](../openkeeper.md)** (Java, GPL-3.0, beta)
+- **[OpenLiberty](../openliberty.md)** (GDScript, MIT, beta)
 - **[OpenMW](../openmw.md)** (C++, GPL-3.0, mature)
 - **[OpenNFS](../opennfs.md)** (C, C++, MIT, beta)
 - **[OpenRW](../openrw.md)** (C, C++, GPL-3.0, beta)

@@ -387,7 +387,7 @@
 - **[OpenKeeper](../openkeeper.md)** (Java, GPL-3.0, beta)
 - **[OpenKrush](../openkrush.md)** (C#, GPL-3.0, beta)
 - **[OpenLara](../openlara.md)** (C++, C, 2-clause BSD, mature)
-- **[OpenLiberty](../open-liberty.md)** (GDScript, MIT, alpha)
+- **[OpenLiberty](../openliberty.md)** (GDScript, MIT, beta)
 - **[OpenLiero](../openliero.md)** (C++, C, Custom, mature, inactive since 2015)
 - **[OpenLieroX](../openlierox.md)** (C++, LGPL-2.0, mature)
 - **[OpenLoco](../openloco.md)** (C++, MIT, mature)

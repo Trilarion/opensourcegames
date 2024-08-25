@@ -41,6 +41,7 @@
 - **[Citybound](../citybound.md)** (Rust, JavaScript, AGPL-3.0, beta)
 - **[ClassiCube](../classicube.md)** (C, 3-clause BSD, mature)
 - **[Colditz Escape](../colditz_escape.md)** (C, GPL-3.0, mature)
+- **[Cortex Command Community Project](../cortex_command_community_project.md)** (C++, C, Lua, AGPL-3.0, mature)
 - **[CoTerminalApps](../coterminalapps.md)** (Ada, GPL-3.0, mature)
 - **[Craft](../craft.md)** (C, Python, MIT, mature, inactive since 2017)
 - **[CrossUO](../crossuo.md)** (C, C++, GPL-3.0, mature)

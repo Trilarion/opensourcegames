@@ -17,6 +17,8 @@ https://agateau.com/games/
 https://app.assembla.com/spaces/Project_Valkyrie2/wiki
 https://archive.codeplex.com/?p=turnota
 https://archive.codeplex.com/?p=voxeliq
+https://github.com/supernovaengine/supernova
+https://github.com/deepnight/ldtk
 https://archive.org/details/open_source_software
 https://blenderartists.org/t/devils-pinball/552785
 https://bluerenga.blog/

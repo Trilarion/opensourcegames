@@ -823,7 +823,7 @@ def add_license_links_to_entries(entries):
 
 def get_top50_games(games):
     """
-
+    Gets the top 50 games by stars (either Github or Gitlab)
     :param games:
     :return:
     """
@@ -831,7 +831,7 @@ def get_top50_games(games):
     for game in games:
         # get stars of repositories
         stars = 0
-        for repo in game.get('Code repository', [])[:1]:  # take at most one
+        for repo in game.get('Code repository', [])[:1]:  # take only first one
             if repo in github_top50_ignored_repos:
                 continue
             if isinstance(repo, osg_parse.Value):
@@ -841,13 +841,12 @@ def get_top50_games(games):
                         continue
                     c = c.split(' ')
                     key = c[0][1:]  # without the @
-                    if len(c) > 1:
-                        value = c[1]
-                    if key == 'stars':
-                        value = int(value)
+                    if len(c) > 1 and key == 'stars':
+                        value = int(c[1])
                         if value > stars:
                             stars = value
-        top50_games.append((game, stars))
+        if stars > 0:
+            top50_games.append((game, stars))
     top50_games.sort(key=lambda x:x[1], reverse=True)
     top50_games = top50_games[:50]  # get top 50
     top50_games =[game for game, stars in top50_games]
@@ -1201,7 +1200,7 @@ def generate(entries, inspirations, developers):
     # top 50 github games
     base['title'] = 'OSGL | Games | GitHub Top 50'
     base['active_nav'] = ['filter', 'top50']
-    # there are no other games coming afterwards, can actually number them
+    # there are no other games coming afterward, can actually number them
     for index, game in enumerate(top50_games):
         game['name'] = f'{index + 1}. ' + game['name']
     listing = {

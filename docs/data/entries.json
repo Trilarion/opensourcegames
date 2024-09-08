@@ -9,14 +9,6 @@
  ],
  "data": [
   [
-   "<a href=\"frameworks/framework.html#2moons_browsergame_engine\" class=\"has-text-weight-semibold\">2Moons Browsergame Engine</a> <a href=\"https://github.com/jkroepke/2Moons\"><i class=\"icon-new-tab\"></i></a>",
-   "mature",
-   "framework, simulation, strategy, space",
-   "Web",
-   "PHP, JavaScript",
-   "MIT"
-  ],
-  [
    "<a href=\"frameworks/framework.html#aether3d\" class=\"has-text-weight-semibold\">Aether3D</a> <a href=\"https://github.com/bioglaze/aether3d\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "framework, game engine, 3D",
@@ -31,54 +23,6 @@
    "-",
    "C",
    "zlib"
-  ],
-  [
-   "<a href=\"frameworks/framework.html#annchienta\" class=\"has-text-weight-semibold\">Annchienta</a> <a href=\"https://annchienta.sourceforge.net/?page=home\"><i class=\"icon-new-tab\"></i></a>",
-   "mature, inactive since 2009",
-   "framework, 2D",
-   "-",
-   "C++",
-   "GPL-3.0"
-  ],
-  [
-   "<a href=\"frameworks/framework.html#arianne_marauroa\" class=\"has-text-weight-semibold\">Arianne / Marauroa</a> <a href=\"https://arianne-project.org/\"><i class=\"icon-new-tab\"></i></a>",
-   "mature",
-   "framework, 2D",
-   "-",
-   "Java",
-   "GPL-2.0"
-  ],
-  [
-   "<a href=\"frameworks/framework.html#armory\" class=\"has-text-weight-semibold\">Armory</a> <a href=\"https://armory3d.org/\"><i class=\"icon-new-tab\"></i></a>",
-   "mature",
-   "framework, 3D",
-   "Windows, Linux, macOS",
-   "Haxe, Python",
-   "zlib"
-  ],
-  [
-   "<a href=\"frameworks/framework.html#atlantis\" class=\"has-text-weight-semibold\">Atlantis</a> <a href=\"https://www.prankster.com/project/\"><i class=\"icon-new-tab\"></i></a>",
-   "mature, inactive since 2016",
-   "framework",
-   "-",
-   "C++",
-   "GPL-2.0"
-  ],
-  [
-   "<a href=\"frameworks/framework.html#atomic_game_engine\" class=\"has-text-weight-semibold\">Atomic Game Engine</a> <a href=\"https://github.com/AtomicGameEngine/AtomicGameEngine\"><i class=\"icon-new-tab\"></i></a>",
-   "mature, inactive since 2018",
-   "framework, game engine, 2D, 3D",
-   "-",
-   "C++",
-   "MIT"
-  ],
-  [
-   "<a href=\"frameworks/framework.html#castle_game_engine\" class=\"has-text-weight-semibold\">Castle Game Engine</a> <a href=\"https://castle-engine.io/\"><i class=\"icon-new-tab\"></i></a>",
-   "mature",
-   "framework, game engine, 2D, 3D",
-   "-",
-   "Pascal",
-   "LGPL-2.0"
   ],
   [
    "<a href=\"frameworks/framework.html#cocos2d-x\" class=\"has-text-weight-semibold\">COCOS2D-X</a> <a href=\"https://www.cocos.com/en/cocos2d-x\"><i class=\"icon-new-tab\"></i></a>",
@@ -97,7 +41,7 @@
    "LGPL-2.1"
   ],
   [
-   "<a href=\"frameworks/framework.html#dash_engine\" class=\"has-text-weight-semibold\">Dash Engine</a> <a href=\"https://circularstudios.com/Dash/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"frameworks/framework.html#dash_engine\" class=\"has-text-weight-semibold\">Dash Engine</a> <a href=\"https://web.archive.org/web/20240228015600/https://circularstudios.com/Dash/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2015",
    "framework",
    "-",
@@ -121,43 +65,11 @@
    "GPL-2.0"
   ],
   [
-   "<a href=\"frameworks/framework.html#dry\" class=\"has-text-weight-semibold\">Dry</a> <a href=\"https://dry.luckey.games/\"><i class=\"icon-new-tab\"></i></a>",
-   "mature",
-   "framework, 2D, 3D",
-   "-",
-   "C++, AngelScript",
-   "MIT"
-  ],
-  [
-   "<a href=\"frameworks/framework.html#easyrpg_player\" class=\"has-text-weight-semibold\">EasyRPG Player</a> <a href=\"https://easyrpg.org/player/\"><i class=\"icon-new-tab\"></i></a>",
-   "mature",
-   "framework, clone",
-   "-",
-   "C++",
-   "GPL-3.0"
-  ],
-  [
-   "<a href=\"frameworks/framework.html#enduro2d\" class=\"has-text-weight-semibold\">Enduro2D</a> <a href=\"https://github.com/enduro2d/enduro2d\"><i class=\"icon-new-tab\"></i></a>",
-   "beta",
-   "framework, game engine, 2D",
-   "-",
-   "C++",
-   "MIT"
-  ],
-  [
    "<a href=\"frameworks/framework.html#enigma_development_environment\" class=\"has-text-weight-semibold\">ENIGMA (development environment)</a> <a href=\"https://enigma-dev.org/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "framework, 3D",
    "-",
    "C++, C",
-   "GPL-3.0"
-  ],
-  [
-   "<a href=\"frameworks/framework.html#flare\" class=\"has-text-weight-semibold\">Flare</a> <a href=\"https://flarerpg.org/\"><i class=\"icon-new-tab\"></i></a>",
-   "mature",
-   "framework, game engine, clone",
-   "Windows, Linux, macOS",
-   "C++, Java, Python",
    "GPL-3.0"
   ],
   [
@@ -185,52 +97,12 @@
    "3-clause BSD"
   ],
   [
-   "<a href=\"frameworks/framework.html#floppy_birb\" class=\"has-text-weight-semibold\">Floppy Birb</a> <a href=\"https://web.archive.org/web/20221108214423/https://oojmed.com/floppy-birb/\"><i class=\"icon-new-tab\"></i></a>",
-   "mature",
-   "framework, clone",
-   "Web",
-   "JavaScript",
-   "MIT"
-  ],
-  [
-   "<a href=\"frameworks/framework.html#free_hero_mesh\" class=\"has-text-weight-semibold\">Free Hero Mesh</a> <a href=\"http://zzo38computer.org/fossil/heromesh.ui/home\"><i class=\"icon-new-tab\"></i></a>",
-   "beta",
-   "framework, game engine",
-   "Linux",
-   "C, JavaScript",
-   "Public domain"
-  ],
-  [
-   "<a href=\"frameworks/framework.html#game_editor\" class=\"has-text-weight-semibold\">Game Editor</a> <a href=\"http://game-editor.com/static/Main_Page.html\"><i class=\"icon-new-tab\"></i></a>",
-   "mature, inactive since 2014",
-   "framework, 2D",
-   "Windows, Linux, macOS, iOS",
-   "C, C++",
-   "GPL-3.0"
-  ],
-  [
-   "<a href=\"frameworks/framework.html#gamedev_framework_gf\" class=\"has-text-weight-semibold\">Gamedev Framework (gf)</a> <a href=\"https://gamedevframework.github.io/\"><i class=\"icon-new-tab\"></i></a>",
-   "beta",
-   "framework, 2D",
-   "-",
-   "C++",
-   "zlib"
-  ],
-  [
    "<a href=\"frameworks/framework.html#gbdk\" class=\"has-text-weight-semibold\">GBDK</a> <a href=\"https://gbdk-2020.github.io/gbdk-2020/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "framework",
    "Windows, Linux, macOS",
    "C, Assembly, C++",
    "MIT"
-  ],
-  [
-   "<a href=\"frameworks/framework.html#gemrb\" class=\"has-text-weight-semibold\">GemRB</a> <a href=\"https://gemrb.org/\"><i class=\"icon-new-tab\"></i></a>",
-   "mature",
-   "framework, remake, 2D",
-   "-",
-   "C++, Python",
-   "GPL-2.0"
   ],
   [
    "<a href=\"frameworks/framework.html#gideros\" class=\"has-text-weight-semibold\">Gideros</a> <a href=\"http://giderosmobile.com/\"><i class=\"icon-new-tab\"></i></a>",
@@ -241,28 +113,12 @@
    "?"
   ],
   [
-   "<a href=\"frameworks/framework.html#godot\" class=\"has-text-weight-semibold\">Godot</a> <a href=\"https://godotengine.org/\"><i class=\"icon-new-tab\"></i></a>",
-   "mature",
-   "framework, 2D, 3D",
-   "-",
-   "C, C++",
-   "MIT"
-  ],
-  [
    "<a href=\"frameworks/framework.html#grit_game_engine\" class=\"has-text-weight-semibold\">Grit Game Engine</a> <a href=\"https://github.com/grit-engine/grit-engine\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "framework, game engine",
    "-",
    "C++, Python",
    "MIT"
-  ],
-  [
-   "<a href=\"frameworks/framework.html#h-world\" class=\"has-text-weight-semibold\">H-World</a> <a href=\"https://sourceforge.net/projects/h-world/\"><i class=\"icon-new-tab\"></i></a>",
-   "beta, inactive since 2005",
-   "framework, turn-based",
-   "-",
-   "C, Lua, C++",
-   "GPL-2.0"
   ],
   [
    "<a href=\"frameworks/framework.html#haxeflixel\" class=\"has-text-weight-semibold\">HaxeFlixel</a> <a href=\"https://web.archive.org/web/20210829140810/https://haxeflixel.com/\"><i class=\"icon-new-tab\"></i></a>",
@@ -329,14 +185,6 @@
    "MIT"
   ],
   [
-   "<a href=\"frameworks/framework.html#loon_game\" class=\"has-text-weight-semibold\">Loon Game</a> <a href=\"https://github.com/cping/LGame\"><i class=\"icon-new-tab\"></i></a>",
-   "beta",
-   "framework, 2D, 3D",
-   "Windows, Linux, macOS",
-   "Java, C#",
-   "Apache-2.0"
-  ],
-  [
    "<a href=\"frameworks/framework.html#love\" class=\"has-text-weight-semibold\">L\u00d6VE</a> <a href=\"https://love2d.org/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "framework, 2D",
@@ -369,35 +217,11 @@
    "GPL-2.0"
   ],
   [
-   "<a href=\"frameworks/framework.html#maniadrive\" class=\"has-text-weight-semibold\">ManiaDrive</a> <a href=\"http://maniadrive.raydium.org/\"><i class=\"icon-new-tab\"></i></a>",
-   "mature, inactive since 2008",
-   "framework, remake, clone",
-   "Windows, Linux",
-   "PHP",
-   "?"
-  ],
-  [
    "<a href=\"frameworks/framework.html#maratis\" class=\"has-text-weight-semibold\">Maratis</a> <a href=\"http://www.maratis3d.org/\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "framework, 3D",
    "-",
    "C++",
-   "GPL-2.0"
-  ],
-  [
-   "<a href=\"frameworks/framework.html#minetest\" class=\"has-text-weight-semibold\">Minetest</a> <a href=\"https://www.minetest.net/\"><i class=\"icon-new-tab\"></i></a>",
-   "mature",
-   "framework, remake",
-   "Windows, Linux, macOS, Android",
-   "C, C++, Lua",
-   "LGPL-2.1"
-  ],
-  [
-   "<a href=\"frameworks/framework.html#mkxp\" class=\"has-text-weight-semibold\">mkxp</a> <a href=\"https://github.com/Ancurio/mkxp\"><i class=\"icon-new-tab\"></i></a>",
-   "mature",
-   "framework, clone",
-   "-",
-   "C++, C",
    "GPL-2.0"
   ],
   [
@@ -473,28 +297,12 @@
    "MIT"
   ],
   [
-   "<a href=\"frameworks/framework.html#openfrag\" class=\"has-text-weight-semibold\">Openfrag</a> <a href=\"https://sourceforge.net/projects/openfrag/\"><i class=\"icon-new-tab\"></i></a>",
-   "beta, inactive since 2008",
-   "framework, first-person, shooter",
-   "-",
-   "C++, Lua",
-   "GPL-2.0"
-  ],
-  [
    "<a href=\"frameworks/framework.html#openrpg\" class=\"has-text-weight-semibold\">OpenRPG</a> <a href=\"http://www.rpgobjects.com/index.php?c=orpg\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2013",
    "framework, role playing",
    "-",
    "Python",
    "GPL-2.0"
-  ],
-  [
-   "<a href=\"frameworks/framework.html#orx\" class=\"has-text-weight-semibold\">Orx</a> <a href=\"https://orx-project.org/\"><i class=\"icon-new-tab\"></i></a>",
-   "mature",
-   "framework, 2D",
-   "-",
-   "C",
-   "zlib"
   ],
   [
    "<a href=\"frameworks/framework.html#overload\" class=\"has-text-weight-semibold\">Overload</a> <a href=\"https://overloadengine.org/\"><i class=\"icon-new-tab\"></i></a>",
@@ -561,14 +369,6 @@
    "GPL-2.0"
   ],
   [
-   "<a href=\"frameworks/framework.html#qt\" class=\"has-text-weight-semibold\">Qt</a> <a href=\"https://www.qt.io/\"><i class=\"icon-new-tab\"></i></a>",
-   "mature",
-   "framework",
-   "-",
-   "C++",
-   "LGPL-3.0"
-  ],
-  [
    "<a href=\"frameworks/framework.html#quad-engine\" class=\"has-text-weight-semibold\">Quad-engine</a> <a href=\"https://web.archive.org/web/20220128195116/http://quad-engine.com/\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "framework",
@@ -583,14 +383,6 @@
    "Windows, Linux, macOS, Android, Web",
    "C, C++, C#",
    "zlib"
-  ],
-  [
-   "<a href=\"frameworks/framework.html#renpy\" class=\"has-text-weight-semibold\">Ren'Py</a> <a href=\"https://www.renpy.org/\"><i class=\"icon-new-tab\"></i></a>",
-   "mature",
-   "framework, visual novel",
-   "Windows, Linux, macOS, Android, iOS, Web",
-   "C, Python, Ren'Py",
-   "LGPL-2.1"
   ],
   [
    "<a href=\"frameworks/framework.html#rpge\" class=\"has-text-weight-semibold\">rpge</a> <a href=\"http://savannah.gnu.org/projects/rpge/\"><i class=\"icon-new-tab\"></i></a>",
@@ -609,27 +401,11 @@
    "Custom"
   ],
   [
-   "<a href=\"frameworks/framework.html#sanity_engine\" class=\"has-text-weight-semibold\">Sanity Engine</a> <a href=\"https://github.com/DethRaid/SanityEngine\"><i class=\"icon-new-tab\"></i></a>",
-   "beta",
-   "framework, game engine, 3D",
-   "Windows",
-   "C++",
-   "MPL-2.0"
-  ],
-  [
    "<a href=\"frameworks/framework.html#scrolling_game_development_kit_2\" class=\"has-text-weight-semibold\">Scrolling Game Development Kit 2</a> <a href=\"https://sgdk2.sourceforge.net/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2017",
    "framework, 2D",
    "Windows",
    "C#",
-   "GPL-2.0"
-  ],
-  [
-   "<a href=\"frameworks/framework.html#scummvm\" class=\"has-text-weight-semibold\">ScummVM</a> <a href=\"https://www.scummvm.org/\"><i class=\"icon-new-tab\"></i></a>",
-   "mature",
-   "framework, game engine, remake",
-   "-",
-   "C++",
    "GPL-2.0"
   ],
   [
@@ -673,14 +449,6 @@
    "GPL-3.0"
   ],
   [
-   "<a href=\"frameworks/framework.html#starship_olympics\" class=\"has-text-weight-semibold\">Starship Olympics</a> <a href=\"https://github.com/notapixelstudio/starship-olympics\"><i class=\"icon-new-tab\"></i></a>",
-   "beta",
-   "framework, 2D",
-   "Windows, Linux, macOS",
-   "GDScript",
-   "MIT"
-  ],
-  [
    "<a href=\"frameworks/framework.html#storm_engine\" class=\"has-text-weight-semibold\">Storm Engine</a> <a href=\"https://storm-devs.github.io/storm-engine/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "framework, game engine, role playing, 3D",
@@ -695,46 +463,6 @@
    "Web",
    "TypeScript",
    "ISC"
-  ],
-  [
-   "<a href=\"frameworks/framework.html#terasology\" class=\"has-text-weight-semibold\">Terasology</a> <a href=\"https://terasology.org/\"><i class=\"icon-new-tab\"></i></a>",
-   "mature",
-   "framework, remake, 3D",
-   "-",
-   "Java",
-   "Apache-2.0"
-  ],
-  [
-   "<a href=\"frameworks/framework.html#terminal_overload\" class=\"has-text-weight-semibold\">Terminal Overload</a> <a href=\"http://www.terminal-overload.org/\"><i class=\"icon-new-tab\"></i></a>",
-   "beta, inactive since 2016",
-   "framework, first-person, shooter",
-   "-",
-   "C++, C, C#",
-   "GPL-3.0"
-  ],
-  [
-   "<a href=\"frameworks/framework.html#thousand_parsec\" class=\"has-text-weight-semibold\">Thousand Parsec</a> <a href=\"https://web.archive.org/web/20180516211349/http://www.thousandparsec.net/tp/\"><i class=\"icon-new-tab\"></i></a>",
-   "beta, inactive since 2012",
-   "framework, strategy, space",
-   "-",
-   "C++, Python",
-   "GPL-2.0"
-  ],
-  [
-   "<a href=\"frameworks/framework.html#undum\" class=\"has-text-weight-semibold\">Undum</a> <a href=\"http://idmillington.github.io/undum/\"><i class=\"icon-new-tab\"></i></a>",
-   "mature, inactive since 2018",
-   "framework",
-   "Web",
-   "JavaScript",
-   "MIT"
-  ],
-  [
-   "<a href=\"frameworks/framework.html#upbge\" class=\"has-text-weight-semibold\">UPBGE</a> <a href=\"https://upbge.org/#/\"><i class=\"icon-new-tab\"></i></a>",
-   "mature",
-   "framework, 3D",
-   "-",
-   "C++, Python",
-   "GPL-2.0"
   ],
   [
    "<a href=\"frameworks/framework.html#urho3d\" class=\"has-text-weight-semibold\">Urho3D</a> <a href=\"https://urho3d.io/\"><i class=\"icon-new-tab\"></i></a>",
@@ -753,14 +481,6 @@
    "LGPL-2.1"
   ],
   [
-   "<a href=\"frameworks/framework.html#vega_strike\" class=\"has-text-weight-semibold\">Vega Strike</a> <a href=\"https://www.vega-strike.org/\"><i class=\"icon-new-tab\"></i></a>",
-   "mature",
-   "framework, first-person, space",
-   "-",
-   "C++",
-   "GPL-2.0"
-  ],
-  [
    "<a href=\"frameworks/framework.html#vortice\" class=\"has-text-weight-semibold\">Vortice</a> <a href=\"https://github.com/amerkoleci/vortice\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "framework, 2D, 3D",
@@ -777,14 +497,6 @@
    "GPL-3.0"
   ],
   [
-   "<a href=\"frameworks/framework.html#worldforge\" class=\"has-text-weight-semibold\">WorldForge</a> <a href=\"https://www.worldforge.org/\"><i class=\"icon-new-tab\"></i></a>",
-   "mature",
-   "framework, role playing",
-   "Windows, Linux",
-   "C++",
-   "GPL-2.0"
-  ],
-  [
    "<a href=\"frameworks/framework.html#xoreos\" class=\"has-text-weight-semibold\">xoreos</a> <a href=\"https://xoreos.org/\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "framework, remake",
@@ -798,6 +510,14 @@
    "framework",
    "-",
    "Pascal",
+   "MIT"
+  ],
+  [
+   "<a href=\"frameworks/game engine.html#2moons_browsergame_engine\" class=\"has-text-weight-semibold\">2Moons Browsergame Engine</a> <a href=\"https://github.com/jkroepke/2Moons\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "game engine, simulation, strategy, space",
+   "Web",
+   "PHP, JavaScript",
    "MIT"
   ],
   [
@@ -849,6 +569,14 @@
    "3-clause BSD"
   ],
   [
+   "<a href=\"frameworks/game engine.html#annchienta\" class=\"has-text-weight-semibold\">Annchienta</a> <a href=\"https://annchienta.sourceforge.net/?page=home\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2009",
+   "game engine, role playing, 2D",
+   "-",
+   "C++",
+   "GPL-3.0"
+  ],
+  [
    "<a href=\"frameworks/game engine.html#anura\" class=\"has-text-weight-semibold\">Anura</a> <a href=\"https://github.com/anura-engine/anura\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "arcade, game engine",
@@ -861,6 +589,38 @@
    "beta",
    "game engine",
    "Windows",
+   "C++",
+   "MIT"
+  ],
+  [
+   "<a href=\"frameworks/game engine.html#arianne_marauroa\" class=\"has-text-weight-semibold\">Arianne / Marauroa</a> <a href=\"https://arianne-project.org/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "game engine, 2D",
+   "-",
+   "Java",
+   "GPL-2.0"
+  ],
+  [
+   "<a href=\"frameworks/game engine.html#armory\" class=\"has-text-weight-semibold\">Armory</a> <a href=\"https://armory3d.org/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "game engine, 3D",
+   "Windows, Linux, macOS",
+   "Haxe, Python",
+   "zlib"
+  ],
+  [
+   "<a href=\"frameworks/game engine.html#atlantis\" class=\"has-text-weight-semibold\">Atlantis</a> <a href=\"https://www.prankster.com/project/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2016",
+   "game engine, strategy",
+   "-",
+   "C++",
+   "GPL-2.0"
+  ],
+  [
+   "<a href=\"frameworks/game engine.html#atomic_game_engine\" class=\"has-text-weight-semibold\">Atomic Game Engine</a> <a href=\"https://github.com/AtomicGameEngine/AtomicGameEngine\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2018",
+   "game engine, 2D, 3D",
+   "-",
    "C++",
    "MIT"
   ],
@@ -935,6 +695,14 @@
    "-",
    "C",
    "MIT"
+  ],
+  [
+   "<a href=\"frameworks/game engine.html#castle_game_engine\" class=\"has-text-weight-semibold\">Castle Game Engine</a> <a href=\"https://castle-engine.io/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "game engine, 2D, 3D",
+   "-",
+   "Pascal",
+   "LGPL-2.0"
   ],
   [
    "<a href=\"frameworks/game engine.html#castor3d\" class=\"has-text-weight-semibold\">Castor3D</a> <a href=\"https://dragonjoker.github.io/Castor3D/\"><i class=\"icon-new-tab\"></i></a>",
@@ -1105,6 +873,14 @@
    "Custom"
   ],
   [
+   "<a href=\"frameworks/game engine.html#dry\" class=\"has-text-weight-semibold\">Dry</a> <a href=\"https://dry.luckey.games/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "game engine, 2D, 3D",
+   "-",
+   "C++, AngelScript",
+   "MIT"
+  ],
+  [
    "<a href=\"frameworks/game engine.html#duality\" class=\"has-text-weight-semibold\">Duality</a> <a href=\"https://adamslair.github.io/duality/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "game engine, 2D",
@@ -1129,12 +905,28 @@
    "GPL-3.0"
   ],
   [
+   "<a href=\"frameworks/game engine.html#easyrpg_player\" class=\"has-text-weight-semibold\">EasyRPG Player</a> <a href=\"https://easyrpg.org/player/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "game engine, role playing, clone",
+   "-",
+   "C++",
+   "GPL-3.0"
+  ],
+  [
    "<a href=\"frameworks/game engine.html#elysium_engine\" class=\"has-text-weight-semibold\">Elysium Engine</a> <a href=\"https://web.archive.org/web/20220409202127/http://elysium.sourceforge.net/\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2006",
    "game engine, role playing, 2D",
    "Linux",
    "C",
    "GPL-2.0"
+  ],
+  [
+   "<a href=\"frameworks/game engine.html#enduro2d\" class=\"has-text-weight-semibold\">Enduro2D</a> <a href=\"https://github.com/enduro2d/enduro2d\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "arcade, game engine, 2D",
+   "-",
+   "C++",
+   "MIT"
   ],
   [
    "<a href=\"frameworks/game engine.html#erampage\" class=\"has-text-weight-semibold\">erampage</a> <a href=\"http://www.jonhunt.com/redneck/erampage.html\"><i class=\"icon-new-tab\"></i></a>",
@@ -1185,6 +977,14 @@
    "LGPL-2.1"
   ],
   [
+   "<a href=\"frameworks/game engine.html#flare\" class=\"has-text-weight-semibold\">Flare</a> <a href=\"https://flarerpg.org/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "action, game engine, role playing, clone",
+   "Windows, Linux, macOS",
+   "C++, Java, Python",
+   "GPL-3.0"
+  ],
+  [
    "<a href=\"frameworks/game engine.html#flex_engine\" class=\"has-text-weight-semibold\">Flex Engine</a> <a href=\"https://github.com/ajweeks/FlexEngine\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "game engine",
@@ -1199,6 +999,14 @@
    "-",
    "C++",
    "MIT"
+  ],
+  [
+   "<a href=\"frameworks/game engine.html#free_hero_mesh\" class=\"has-text-weight-semibold\">Free Hero Mesh</a> <a href=\"http://zzo38computer.org/fossil/heromesh.ui/home\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "game engine, puzzle",
+   "Linux",
+   "C, JavaScript",
+   "Public domain"
   ],
   [
    "<a href=\"frameworks/game engine.html#free_in_the_dark_engine\" class=\"has-text-weight-semibold\">Free in the Dark (engine)</a> <a href=\"https://github.com/jmimu/FITD\"><i class=\"icon-new-tab\"></i></a>",
@@ -1233,12 +1041,28 @@
    "MIT"
   ],
   [
+   "<a href=\"frameworks/game engine.html#game_editor\" class=\"has-text-weight-semibold\">Game Editor</a> <a href=\"http://game-editor.com/static/Main_Page.html\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2014",
+   "game engine, 2D",
+   "Windows, Linux, macOS, iOS",
+   "C, C++",
+   "GPL-3.0"
+  ],
+  [
    "<a href=\"frameworks/game engine.html#gamecake\" class=\"has-text-weight-semibold\">GameCake</a> <a href=\"https://xriss.github.io/gamecake/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "game engine",
    "Windows, Linux, macOS",
    "C, C++, Lua",
    "MIT"
+  ],
+  [
+   "<a href=\"frameworks/game engine.html#gamedev_framework_gf\" class=\"has-text-weight-semibold\">Gamedev Framework (gf)</a> <a href=\"https://gamedevframework.github.io/\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "game engine, 2D",
+   "-",
+   "C++",
+   "zlib"
   ],
   [
    "<a href=\"frameworks/game engine.html#gamekit\" class=\"has-text-weight-semibold\">gamekit</a> <a href=\"https://code.google.com/archive/p/gamekit/\"><i class=\"icon-new-tab\"></i></a>",
@@ -1255,6 +1079,14 @@
    "Windows, Linux, macOS, Android, iOS",
    "C++, C",
    "Apache-2.0"
+  ],
+  [
+   "<a href=\"frameworks/game engine.html#gemrb\" class=\"has-text-weight-semibold\">GemRB</a> <a href=\"https://gemrb.org/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "game engine, remake, role playing, 2D",
+   "-",
+   "C++, Python",
+   "GPL-2.0"
   ],
   [
    "<a href=\"frameworks/game engine.html#gist-txt\" class=\"has-text-weight-semibold\">gist-txt</a> <a href=\"http://potomak.github.io/gist-txt/#acebd8fe14942fab4e8e\"><i class=\"icon-new-tab\"></i></a>",
@@ -1281,6 +1113,14 @@
    "GPL-3.0"
   ],
   [
+   "<a href=\"frameworks/game engine.html#godot\" class=\"has-text-weight-semibold\">Godot</a> <a href=\"https://godotengine.org/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "game engine, 2D, 3D",
+   "-",
+   "C, C++",
+   "MIT"
+  ],
+  [
    "<a href=\"frameworks/game engine.html#godot_card_game_framework\" class=\"has-text-weight-semibold\">Godot Card Game Framework</a> <a href=\"https://dbzer0.com/projects/godot-card-game-framework/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "cards, game engine",
@@ -1295,6 +1135,14 @@
    "Linux",
    "C++, Lua",
    "GPL-3.0"
+  ],
+  [
+   "<a href=\"frameworks/game engine.html#h-world\" class=\"has-text-weight-semibold\">H-World</a> <a href=\"https://sourceforge.net/projects/h-world/\"><i class=\"icon-new-tab\"></i></a>",
+   "beta, inactive since 2005",
+   "game engine, role playing, turn-based",
+   "-",
+   "C, Lua, C++",
+   "GPL-2.0"
   ],
   [
    "<a href=\"frameworks/game engine.html#halley\" class=\"has-text-weight-semibold\">halley</a> <a href=\"https://github.com/amzeratul/halley\"><i class=\"icon-new-tab\"></i></a>",
@@ -1489,6 +1337,14 @@
    "MIT"
   ],
   [
+   "<a href=\"frameworks/game engine.html#loon_game\" class=\"has-text-weight-semibold\">Loon Game</a> <a href=\"https://github.com/cping/LGame\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "game engine, 2D, 3D",
+   "Windows, Linux, macOS",
+   "Java, C#",
+   "Apache-2.0"
+  ],
+  [
    "<a href=\"frameworks/game engine.html#lumos_engine\" class=\"has-text-weight-semibold\">Lumos Engine</a> <a href=\"https://github.com/jmorton06/Lumos\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "game engine, 2D, 3D",
@@ -1527,6 +1383,14 @@
    "Windows, Linux, macOS",
    "Java, C#",
    "Apache-2.0"
+  ],
+  [
+   "<a href=\"frameworks/game engine.html#mkxp\" class=\"has-text-weight-semibold\">mkxp</a> <a href=\"https://github.com/Ancurio/mkxp\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "game engine, role playing, clone",
+   "-",
+   "C++, C",
+   "GPL-2.0"
   ],
   [
    "<a href=\"frameworks/game engine.html#monofoxe\" class=\"has-text-weight-semibold\">Monofoxe</a> <a href=\"https://github.com/Martenfur/Monofoxe\"><i class=\"icon-new-tab\"></i></a>",
@@ -1583,14 +1447,6 @@
    "-",
    "C++, C",
    "zlib"
-  ],
-  [
-   "<a href=\"frameworks/game engine.html#openage\" class=\"has-text-weight-semibold\">openage</a> <a href=\"https://openage.sft.mx/\"><i class=\"icon-new-tab\"></i></a>",
-   "beta",
-   "game engine, remake, strategy, real-time",
-   "-",
-   "C++, Python",
-   "GPL-3.0"
   ],
   [
    "<a href=\"frameworks/game engine.html#openbor\" class=\"has-text-weight-semibold\">OpenBOR</a> <a href=\"https://www.chronocrash.com/forum/\"><i class=\"icon-new-tab\"></i></a>",
@@ -1713,6 +1569,14 @@
    "GPL-3.0"
   ],
   [
+   "<a href=\"frameworks/game engine.html#orx\" class=\"has-text-weight-semibold\">Orx</a> <a href=\"https://orx-project.org/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "game engine, 2D",
+   "Windows, Linux, macOS, Android",
+   "C",
+   "zlib"
+  ],
+  [
    "<a href=\"frameworks/game engine.html#ouzel\" class=\"has-text-weight-semibold\">ouzel</a> <a href=\"https://github.com/elnormous/ouzel\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "game engine, 2D",
@@ -1833,6 +1697,14 @@
    "MIT"
   ],
   [
+   "<a href=\"frameworks/game engine.html#renpy\" class=\"has-text-weight-semibold\">Ren'Py</a> <a href=\"https://www.renpy.org/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "game engine, visual novel",
+   "Windows, Linux, macOS, Android, iOS, Web",
+   "C, Python, Ren'Py",
+   "LGPL-2.1"
+  ],
+  [
    "<a href=\"frameworks/game engine.html#residualvm\" class=\"has-text-weight-semibold\">ResidualVM</a> <a href=\"https://www.residualvm.org/\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "adventure, game engine, remake",
@@ -1887,6 +1759,22 @@
    "-",
    "Rust",
    "MIT"
+  ],
+  [
+   "<a href=\"frameworks/game engine.html#sanity_engine\" class=\"has-text-weight-semibold\">Sanity Engine</a> <a href=\"https://github.com/DethRaid/SanityEngine\"><i class=\"icon-new-tab\"></i></a>",
+   "beta, inactive since 2021",
+   "game engine, 3D",
+   "Windows",
+   "C++",
+   "MPL-2.0"
+  ],
+  [
+   "<a href=\"frameworks/game engine.html#scummvm\" class=\"has-text-weight-semibold\">ScummVM</a> <a href=\"https://www.scummvm.org/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "game engine, remake",
+   "-",
+   "C++",
+   "GPL-2.0"
   ],
   [
    "<a href=\"frameworks/game engine.html#serious_sam_classic\" class=\"has-text-weight-semibold\">Serious Sam Classic</a> <a href=\"http://www.croteam.com/\"><i class=\"icon-new-tab\"></i></a>",
@@ -1977,6 +1865,14 @@
    "Apache-2.0, MIT"
   ],
   [
+   "<a href=\"frameworks/game engine.html#terasology\" class=\"has-text-weight-semibold\">Terasology</a> <a href=\"https://terasology.org/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "game engine, remake, simulation, 3D",
+   "-",
+   "Java",
+   "Apache-2.0"
+  ],
+  [
    "<a href=\"frameworks/game engine.html#the_eternity_engine\" class=\"has-text-weight-semibold\">The Eternity Engine</a> <a href=\"https://eternity.youfailit.net/wiki/Main_Page\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "game engine, remake, first-person, shooter",
@@ -1990,6 +1886,14 @@
    "action, game engine, remake, first-person, shooter",
    "-",
    "C++",
+   "GPL-2.0"
+  ],
+  [
+   "<a href=\"frameworks/game engine.html#thousand_parsec\" class=\"has-text-weight-semibold\">Thousand Parsec</a> <a href=\"https://web.archive.org/web/20180516211349/http://www.thousandparsec.net/tp/\"><i class=\"icon-new-tab\"></i></a>",
+   "beta, inactive since 2012",
+   "game engine, strategy, space, turn-based",
+   "-",
+   "C++, Python",
    "GPL-2.0"
   ],
   [
@@ -2055,6 +1959,22 @@
    "-",
    "Python",
    "?"
+  ],
+  [
+   "<a href=\"frameworks/game engine.html#undum\" class=\"has-text-weight-semibold\">Undum</a> <a href=\"http://idmillington.github.io/undum/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2018",
+   "game engine",
+   "Web",
+   "JavaScript",
+   "MIT"
+  ],
+  [
+   "<a href=\"frameworks/game engine.html#upbge\" class=\"has-text-weight-semibold\">UPBGE</a> <a href=\"https://upbge.org/#/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "game engine, 3D",
+   "-",
+   "C++, Python",
+   "GPL-2.0"
   ],
   [
    "<a href=\"frameworks/game engine.html#wagic_the_homebrew\" class=\"has-text-weight-semibold\">Wagic, the Homebrew</a> <a href=\"https://wololo.net/forum/index.php\"><i class=\"icon-new-tab\"></i></a>",
@@ -2873,6 +2793,14 @@
    "GPL-2.0"
   ],
   [
+   "<a href=\"games/A.html#age_of_empires_free_software_remake\" class=\"has-text-weight-semibold\">Age of Empires Free Software Remake</a> <a href=\"https://github.com/FolkertVanVerseveld/aoe\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "remake, strategy, real-time",
+   "-",
+   "C++",
+   "Apache-2.0"
+  ],
+  [
    "<a href=\"games/A.html#ai_wars\" class=\"has-text-weight-semibold\">AI Wars</a> <a href=\"https://code.google.com/archive/p/aiwars/\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2010",
    "strategy, turn-based",
@@ -2966,6 +2894,22 @@
    "remake, role playing",
    "Windows, Linux, macOS",
    "C#",
+   "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/A.html#amnesia_a_machine_for_pigs\" class=\"has-text-weight-semibold\">Amnesia: A Machine for Pigs</a> <a href=\"https://github.com/FrictionalGames/AmnesiaAMachineForPigs\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2016",
+   "action",
+   "-",
+   "C++",
+   "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/A.html#amnesia_the_dark_descent\" class=\"has-text-weight-semibold\">Amnesia: The Dark Descent</a> <a href=\"https://github.com/FrictionalGames/AmnesiaTheDarkDescent\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2010",
+   "action",
+   "-",
+   "C++",
    "GPL-3.0"
   ],
   [
@@ -3217,6 +3161,14 @@
    "GPL-3.0"
   ],
   [
+   "<a href=\"games/A.html#athena_crisis\" class=\"has-text-weight-semibold\">Athena Crisis</a> <a href=\"https://athenacrisis.com/open-source/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "strategy, turn-based",
+   "-",
+   "TypeScript",
+   "MIT"
+  ],
+  [
    "<a href=\"games/A.html#ativayeban\" class=\"has-text-weight-semibold\">ativayeban</a> <a href=\"https://github.com/Nebuleon/ativayeban\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2015",
    "action, clone",
@@ -3321,6 +3273,14 @@
    "MIT"
   ],
   [
+   "<a href=\"games/B.html#bakgl\" class=\"has-text-weight-semibold\">BaKGL</a> <a href=\"https://github.com/xavieran/BaKGL\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "remake, role playing",
+   "-",
+   "C++",
+   "GPL-3.0"
+  ],
+  [
    "<a href=\"games/B.html#balder2d\" class=\"has-text-weight-semibold\">Balder2D</a> <a href=\"https://balder.sourceforge.net/\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2009",
    "strategy",
@@ -3351,6 +3311,14 @@
    "-",
    "C",
    "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/B.html#ballistica\" class=\"has-text-weight-semibold\">Ballistica</a> <a href=\"https://ballistica.net/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "arcade",
+   "-",
+   "Python, C++",
+   "MIT"
   ],
   [
    "<a href=\"games/B.html#banania\" class=\"has-text-weight-semibold\">Banania</a> <a href=\"https://github.com/BenjaminRi/Banania\"><i class=\"icon-new-tab\"></i></a>",
@@ -4737,6 +4705,14 @@
    "GPL-2.0"
   ],
   [
+   "<a href=\"games/C.html#cro-mag_rally\" class=\"has-text-weight-semibold\">Cro-Mag Rally</a> <a href=\"https://jorio.itch.io/cromagrally\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "arcade, remake",
+   "Windows, Linux, macOS",
+   "C",
+   "CC-BY-SA-4.0"
+  ],
+  [
    "<a href=\"games/C.html#cross_the_road\" class=\"has-text-weight-semibold\">Cross The Road</a> <a href=\"https://gitlab.com/andybalaam/cross-the-road\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "action, arcade",
@@ -6031,6 +6007,14 @@
    "Windows, macOS",
    "C++",
    "GPL-2.0"
+  ],
+  [
+   "<a href=\"games/F.html#floppy_birb\" class=\"has-text-weight-semibold\">Floppy Birb</a> <a href=\"https://web.archive.org/web/20221108214423/https://oojmed.com/floppy-birb/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "arcade, clone",
+   "Web",
+   "JavaScript",
+   "MIT"
   ],
   [
    "<a href=\"games/F.html#fltk_recycling_game\" class=\"has-text-weight-semibold\">FLTK Recycling Game!</a> <a href=\"https://www.thregr.org/wavexx/software/regame/\"><i class=\"icon-new-tab\"></i></a>",
@@ -8457,6 +8441,14 @@
    "GPL-3.0"
   ],
   [
+   "<a href=\"games/M.html#maniadrive\" class=\"has-text-weight-semibold\">ManiaDrive</a> <a href=\"http://maniadrive.raydium.org/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature, inactive since 2008",
+   "remake, clone",
+   "Windows, Linux",
+   "PHP",
+   "?"
+  ],
+  [
    "<a href=\"games/M.html#manic_digger\" class=\"has-text-weight-semibold\">Manic Digger</a> <a href=\"http://manicdigger.github.io/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2017",
    "remake, simulation",
@@ -8775,6 +8767,14 @@
    "Web",
    "JavaScript, PHP",
    "MIT"
+  ],
+  [
+   "<a href=\"games/M.html#minetest\" class=\"has-text-weight-semibold\">Minetest</a> <a href=\"https://www.minetest.net/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "remake, simulation",
+   "Windows, Linux, macOS, Android",
+   "C, C++, Lua",
+   "LGPL-2.1"
   ],
   [
    "<a href=\"games/M.html#minetest_game\" class=\"has-text-weight-semibold\">Minetest Game</a> <a href=\"https://github.com/minetest/minetest_game/\"><i class=\"icon-new-tab\"></i></a>",
@@ -9601,6 +9601,14 @@
    "zlib"
   ],
   [
+   "<a href=\"games/O.html#openage\" class=\"has-text-weight-semibold\">openage</a> <a href=\"https://openage.sft.mx/\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "remake, strategy, real-time",
+   "-",
+   "C++, Python",
+   "GPL-3.0"
+  ],
+  [
    "<a href=\"games/O.html#openalchemist\" class=\"has-text-weight-semibold\">OpenAlchemist</a> <a href=\"https://web.archive.org/web/20210506165721/http://www.openalchemist.com/\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2010",
    "puzzle",
@@ -9839,6 +9847,14 @@
    "-",
    "C",
    "MIT"
+  ],
+  [
+   "<a href=\"games/O.html#openfrag\" class=\"has-text-weight-semibold\">Openfrag</a> <a href=\"https://sourceforge.net/projects/openfrag/\"><i class=\"icon-new-tab\"></i></a>",
+   "beta, inactive since 2008",
+   "action, first-person, shooter",
+   "-",
+   "C++, Lua",
+   "GPL-2.0"
   ],
   [
    "<a href=\"games/O.html#openggs\" class=\"has-text-weight-semibold\">OpenGGS</a> <a href=\"https://web.archive.org/web/20190801083807/http://sourceforge.net/projects/openggs/\"><i class=\"icon-new-tab\"></i></a>",
@@ -12609,6 +12625,14 @@
    "3-clause BSD"
   ],
   [
+   "<a href=\"games/S.html#starship_olympics\" class=\"has-text-weight-semibold\">Starship Olympics</a> <a href=\"https://github.com/notapixelstudio/starship-olympics\"><i class=\"icon-new-tab\"></i></a>",
+   "beta",
+   "arcade, 2D",
+   "Windows, Linux, macOS",
+   "GDScript",
+   "MIT"
+  ],
+  [
    "<a href=\"games/S.html#starun\" class=\"has-text-weight-semibold\">Starun</a> <a href=\"https://gitlab.com/atorresm/Starun\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2017",
    "action, arcade, space",
@@ -13030,6 +13054,14 @@
    "arcade",
    "Windows, Linux, macOS",
    "Ada",
+   "GPL-3.0"
+  ],
+  [
+   "<a href=\"games/T.html#terminal_overload\" class=\"has-text-weight-semibold\">Terminal Overload</a> <a href=\"http://www.terminal-overload.org/\"><i class=\"icon-new-tab\"></i></a>",
+   "beta, inactive since 2016",
+   "action, first-person, shooter",
+   "-",
+   "C++, C, C#",
    "GPL-3.0"
   ],
   [
@@ -14017,6 +14049,14 @@
    "GPL-2.0"
   ],
   [
+   "<a href=\"games/V.html#vega_strike\" class=\"has-text-weight-semibold\">Vega Strike</a> <a href=\"https://www.vega-strike.org/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "simulation, first-person, space",
+   "-",
+   "C++",
+   "GPL-2.0"
+  ],
+  [
    "<a href=\"games/V.html#vegan_on_a_desert_island\" class=\"has-text-weight-semibold\">Vegan on a Desert Island</a> <a href=\"https://voadi.com/\"><i class=\"icon-new-tab\"></i></a>",
    "beta",
    "adventure, 2D",
@@ -14449,6 +14489,14 @@
    "GPL-2.0"
   ],
   [
+   "<a href=\"games/W.html#worldforge\" class=\"has-text-weight-semibold\">WorldForge</a> <a href=\"https://www.worldforge.org/\"><i class=\"icon-new-tab\"></i></a>",
+   "mature",
+   "remake, role playing",
+   "Windows, Linux",
+   "C++",
+   "GPL-2.0"
+  ],
+  [
    "<a href=\"games/W.html#wtf_adventure\" class=\"has-text-weight-semibold\">WTF?! Adventure</a> <a href=\"https://design1online.github.io/WTF-Adventure/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "role playing, 2D",
@@ -14515,7 +14563,7 @@
   [
    "<a href=\"games/X.html#xbak\" class=\"has-text-weight-semibold\">xBaK</a> <a href=\"https://xbak.sourceforge.net/\"><i class=\"icon-new-tab\"></i></a>",
    "beta, inactive since 2013",
-   "remake",
+   "remake, role playing",
    "Linux",
    "C++",
    "GPL-3.0"

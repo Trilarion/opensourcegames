@@ -1206,7 +1206,7 @@ def generate(entries, inspirations, developers):
     for index, game in enumerate(top_games):
         game['name'] = f'{index + 1}. ' + game['name']
     listing = {
-        'title': f'GitHub Stars Top {Ntop}',
+        'title': f'GitHub/Lab Stars Top {Ntop}',
         'subtitle': f'{Ntop} highest rated (by stars on Github or Gitlab) immediately downloadable and playable open source games in the database.', # that can be played online or downloaded
         'items': top_games
     }

@@ -1,6 +1,6 @@
 # Dash Engine
 
-- Home: https://circularstudios.com/Dash/
+- Home: https://web.archive.org/web/20240228015600/https://circularstudios.com/Dash/
 - State: mature, inactive since 2015
 - Keyword: framework
 - Code repository: https://github.com/Circular-Studios/Dash.git (@created 2014, @stars 419, @forks 83)

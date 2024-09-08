@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://www.minetest.net/downloads/, https://f-droid.org//packages/net.minetest.minetest/
 - Platform: Windows, Linux, macOS, Android
-- Keyword: simulation, remake, content open, voxel
+- Keyword: remake, simulation, content open, voxel
 - Code repository: https://github.com/minetest/minetest.git (@created 2011, @stars 9932, @forks 1935)
 - Code language: C, C++, Lua
 - Code license: LGPL-2.1

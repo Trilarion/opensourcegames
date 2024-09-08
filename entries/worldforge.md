@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://www.worldforge.org/downloads/
 - Platform: Windows, Linux
-- Keyword: framework, role playing, multiplayer online + massive
+- Keyword: remake, role playing, engine, multiplayer online + massive
 - Code repository: https://github.com/worldforge/cyphesis.git (https://github.com/worldforge, @archived, @created 2011, @stars 95, @forks 38), https://github.com/worldforge/ember.git @add (@archived, @created 2011, @stars 133, @forks 51)
 - Code language: C++
 - Code license: GPL-2.0

@@ -3,7 +3,7 @@
 - Home: http://www.terminal-overload.org/
 - Inspiration: Revenge Of The Cats: Ethernet
 - State: beta, inactive since 2016
-- Keyword: framework, content open, first-person, shooter
+- Keyword: action, content open, first-person, multiplayer, shooter
 - Code repository: https://github.com/fr1tz/terminal-overload.git (@created 2014, @stars 80, @forks 9)
 - Code language: C++, C, C#
 - Code license: GPL-3.0

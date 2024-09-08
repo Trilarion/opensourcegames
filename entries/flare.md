@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://flarerpg.org/download/, https://github.com/clintbellanger/flare-engine/releases
 - Platform: Windows, Linux, macOS
-- Keyword: framework, game engine, clone
+- Keyword: action, game engine, role playing, clone
 - Code repository: https://github.com/clintbellanger/flare-engine.git (@created 2018, @stars 29, @forks 12), https://github.com/clintbellanger/flare-game.git @add (@created 2018, @stars 60, @forks 23)
 - Code language: C++, Java, Python
 - Code license: GPL-3.0

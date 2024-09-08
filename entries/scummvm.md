@@ -5,7 +5,7 @@
 - Inspiration: SCUMM
 - State: mature
 - Download: https://www.scummvm.org/downloads/
-- Keyword: framework, game engine, remake
+- Keyword: game engine, remake
 - Code repository: https://github.com/scummvm/scummvm.git (@created 2011, @stars 2164, @forks 971)
 - Code language: C++
 - Code license: GPL-2.0

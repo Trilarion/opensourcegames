@@ -5,7 +5,7 @@
 - Inspiration: Elite
 - State: mature
 - Download: https://vegastrike.sourceforge.net/getfiles/
-- Keyword: framework, content open (?), first-person, space
+- Keyword: simulation, content open (?), first-person, space
 - Code repository: https://github.com/vegastrike/Vega-Strike-Engine-Source.git (https://github.com/vegastrike mirror, @created 2015, @stars 241, @forks 44), https://svn.code.sf.net/p/vegastrike/code (svn)
 - Code language: C++
 - Code license: GPL-2.0

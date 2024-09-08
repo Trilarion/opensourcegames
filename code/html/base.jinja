@@ -48,7 +48,7 @@
           <a class="navbar-item{% if 'genres' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'genres.html']) }}">{{ macros.render_icon({'id':'price-tag'}) }}<span>By category</span></a>
           <a class="navbar-item{% if 'code language' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'languages.html']) }}">{{ macros.render_icon({'id':'language'}) }}<span>By code language</span></a>
           <a class="navbar-item{% if 'platforms' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'platforms.html']) }}">{{ macros.render_icon({'id':'laptop'}) }}<span>By OS support</span></a>
-          <a class="navbar-item{% if 'top-50' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'top50.html']) }}">{{ macros.render_icon({'id':'star'}) }}<span>GitHub Stars Top 50</span></a>
+          <a class="navbar-item{% if 'top' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'top.html']) }}">{{ macros.render_icon({'id':'star'}) }}<span>GitHub Stars Top 50</span></a>
           <a class="navbar-item{% if 'web' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'web.html']) }}">{{ macros.render_icon({'id':'earth'}) }}<span>Playable browser games</span></a>
           <a class="navbar-item{% if 'libre' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'libre.html']) }}">{{ macros.render_icon({'id':'heart'}) }}<span>Open code + artwork</span></a>
           <a class="navbar-item{% if 'kids' in base['active_nav'] %} is-active{% endif %}" href="{{ base['url_to'](['games', 'kids.html']) }}">{{ macros.render_icon({'id':'child'}) }}<span>For Kids</span></a>

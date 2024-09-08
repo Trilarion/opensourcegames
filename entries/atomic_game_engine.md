@@ -2,7 +2,7 @@
 
 - Home: https://github.com/AtomicGameEngine/AtomicGameEngine
 - State: mature, inactive since 2018
-- Keyword: framework, game engine, 2D, 3D
+- Keyword: game engine, 2D, 3D
 - Code repository: https://github.com/AtomicGameEngine/AtomicGameEngine.git (@created 2015, @stars 3109, @forks 547)
 - Code language: C++
 - Code license: MIT

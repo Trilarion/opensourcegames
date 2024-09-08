@@ -73,7 +73,6 @@ https://github.com/cykod/AlienInvasion
 https://github.com/DaoCloud/dao-2048
 https://github.com/DavidSM64/Diddy-Kong-Racing
 https://github.com/deathkiller/jazz2-native
-https://github.com/deepnight/ldtk
 https://github.com/delmarle/RPG-Core
 https://github.com/dmcinnes/HTML5-Asteroids
 https://github.com/doldecomp/melee
@@ -197,7 +196,6 @@ https://github.com/Squalr/Squally
 https://github.com/Stephane-D/SGDK
 https://github.com/stevinz/awesome-game-engine-dev
 https://github.com/StrongPC123/Far-Cry-1-Source-Full
-https://github.com/supernovaengine/supernova
 https://github.com/swr06/GLGame
 https://github.com/ta-david-yu/2D-Platformer-Hunter
 https://github.com/tainicom/Aether.Physics2D

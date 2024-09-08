@@ -3,7 +3,7 @@
 - Home: https://github.com/notapixelstudio/starship-olympics
 - State: beta
 - Platform: Windows, Linux, macOS
-- Keyword: arcade, 2D, multiplayer local, top-down
+- Keyword: framework, 2D, multiplayer local, top-down
 - Code repository: https://github.com/notapixelstudio/starship-olympics.git (@created 2018, @stars 486, @forks 39)
 - Code language: GDScript
 - Code license: MIT

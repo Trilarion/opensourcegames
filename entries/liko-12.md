@@ -4,7 +4,7 @@
 - State: mature
 - Download: https://github.com/LIKO-12/LIKO-12/releases
 - Platform: Windows, Linux, macOS, Android
-- Keyword: framework
+- Keyword: framework, game framework
 - Code repository: https://github.com/LIKO-12/LIKO-12.git (@archived, @created 2016, @stars 1121, @forks 72)
 - Code language: Lua, Rust
 - Code license: MIT

@@ -4,7 +4,7 @@
 - State: beta
 - Download: http://zzo38computer.org/fossil/heromesh.ui/dir?ci=tip
 - Platform: Linux
-- Keyword: game engine, puzzle
+- Keyword: framework, game engine
 - Code language: C, JavaScript
 - Code license: Public domain
 - Code dependency: SDL

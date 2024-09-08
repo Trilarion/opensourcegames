@@ -635,9 +635,9 @@
 - Games: ScummVM
 - Contact: av-dx@GH
 
-## aavit [0]
+## aavit [1]
 
-- Games: 
+- Games: Qt
 - Contact: aavit@GH
 
 ## aaxelb [1]
@@ -1542,9 +1542,9 @@
 - Games: raylib
 - Contact: a3f@GH
 
-## Ahmad Samir [0]
+## Ahmad Samir [1]
 
-- Games: 
+- Games: Qt
 - Contact: ahmadsamir@GH
 
 ## AhmadYProjects [1]
@@ -1568,9 +1568,9 @@
 - Contact: ahmetkasif@GH
 - Home: http://ahmetkasif.github.io, https://ahmetkasif.github.io
 
-## aholza [0]
+## aholza [1]
 
-- Games: 
+- Games: Qt
 - Contact: aholza@GH
 
 ## ahugeat [1]
@@ -1915,9 +1915,9 @@
 - Games: Memoria, OpenVIII
 - Contact: Albeoris@GH
 
-## Albert Astals Cid [1]
+## Albert Astals Cid [2]
 
-- Games: Blinken
+- Games: Blinken, Qt
 - Contact: albert-astals-cid-kdab@GH
 
 ## Albert Beevendorp [1]
@@ -2022,9 +2022,9 @@
 - Games: FreeCol
 - Contact: cidus@SF
 
-## alcroito [0]
+## alcroito [1]
 
-- Games: 
+- Games: Qt
 - Contact: alcroito@GH
 
 ## Aldas [1]
@@ -2117,9 +2117,9 @@
 - Games: unitystation
 - Contact: aleios@GH
 
-## Aleix Pol [0]
+## Aleix Pol [1]
 
-- Games: 
+- Games: Qt
 - Contact: aleixpol@GH
 - Home: https://proli.net
 
@@ -2133,9 +2133,9 @@
 - Games: War1
 - Contact: acoto87@GH
 
-## Alejandro Exojo [0]
+## Alejandro Exojo [1]
 
-- Games: 
+- Games: Qt
 - Contact: suy@GH
 - Home: http://barnacity.net/
 
@@ -2298,9 +2298,9 @@
 - Games: The Battle for Wesnoth
 - Contact: alex_pira@SF
 
-## Alessandro Portale [0]
+## Alessandro Portale [1]
 
-- Games: 
+- Games: Qt
 - Contact: aportale@GH
 - Home: http://casaportale.de/
 
@@ -2372,9 +2372,9 @@
 - Contact: alexbevi@GH
 - Home: https://www.alexbevi.com
 
-## Alex Blasche [0]
+## Alex Blasche [1]
 
-- Games: 
+- Games: Qt
 - Contact: ablasche@GH
 
 ## Alex Burgel [1]
@@ -2632,9 +2632,9 @@
 - Games: Colobot: Gold Edition, OpenMW, TES3MP
 - Contact: ananace@GH
 
-## Alexander Akulich [5]
+## Alexander Akulich [6]
 
-- Games: DDraceNetwork, OpenSR, OpenXRay, REGoth, Teeworlds
+- Games: DDraceNetwork, OpenSR, OpenXRay, Qt, REGoth, Teeworlds
 - Contact: Kaffeine@GH
 - Home: https://akulichalexandr.wordpress.com
 
@@ -3190,9 +3190,9 @@
 - Games: Augustus, Cataclysm: Dark Days Ahead
 - Contact: agruzdev@GH, irwiss@GH
 
-## Alexey Edelev [0]
+## Alexey Edelev [1]
 
-- Games: 
+- Games: Qt
 - Contact: semlanik@GH
 - Home: http://semlanik.org
 
@@ -3607,9 +3607,9 @@
 - Games: NetHack
 - Contact: alkom@GH
 
-## Allan Jensen [0]
+## Allan Jensen [1]
 
-- Games: 
+- Games: Qt
 - Contact: carewolf@GH
 
 ## Allan Martinez [1]
@@ -4004,9 +4004,9 @@
 - Contact: kallaballa@GH
 - Home: https://viel-zu.org
 
-## Amir Masoud Abdol [0]
+## Amir Masoud Abdol [1]
 
-- Games: 
+- Games: Qt
 - Contact: amirmasoudabdol@GH
 - Home: https://amirmasoudabdol.name
 
@@ -4432,9 +4432,9 @@
 - Games: Armagetron Advanced
 - Contact: aeb@SF
 
-## Andreas Buhr [0]
+## Andreas Buhr [1]
 
-- Games: 
+- Games: Qt
 - Contact: andreasbuhr@GH
 - Home: https://www.andreasbuhr.de
 
@@ -4449,9 +4449,9 @@
 - Contact: andreas-eberle@GH
 - Home: http://www.andreas-eberle.com
 
-## Andreas Eliasson [0]
+## Andreas Eliasson [1]
 
-- Games: 
+- Games: Qt
 - Contact: andreaseliasson@GH
 
 ## Andreas Gahr [2]
@@ -4480,9 +4480,9 @@
 - Games: Mana
 - Contact: Exceptionfault@GH
 
-## Andreas Hartmetz [0]
+## Andreas Hartmetz [1]
 
-- Games: 
+- Games: Qt
 - Contact: ahartmetz@GH
 
 ## Andreas Kattner [1]
@@ -4627,9 +4627,9 @@
 - Games: vkQuake
 - Contact: andrei-drexler@GH
 
-## Andrei Golubev [0]
+## Andrei Golubev [1]
 
-- Games: 
+- Games: Qt
 - Contact: andrey-golubev@GH
 
 ## Andrei Karas [2]
@@ -5306,14 +5306,14 @@
 - Contact: acabaca24@GH
 - Home: https://www.linkedin.com/in/cabaca
 
-## André Hartmann [0]
+## André Hartmann [1]
 
-- Games: 
+- Games: Qt
 - Contact: andre-hartmann@GH
 
-## André Klitzing [0]
+## André Klitzing [1]
 
-- Games: 
+- Games: Qt
 - Contact: misery@GH
 - Home: http://www.incubo.de
 
@@ -5512,9 +5512,9 @@
 - Games: pygame
 - Contact: anguye13@GH
 
-## Andy Nichols [0]
+## Andy Nichols [1]
 
-- Games: 
+- Games: Qt
 - Contact: nezticle@GH
 - Home: https://unparalleled.xyz/
 
@@ -5543,9 +5543,9 @@
 - Games: Ren'Py
 - Contact: Andykl@GH
 
-## AndyShawQt [0]
+## AndyShawQt [1]
 
-- Games: 
+- Games: Qt
 - Contact: AndyShawQt@GH
 
 ## AndyTechGuy [2]
@@ -5992,9 +5992,9 @@
 - Games: UFO: Alien Invasion
 - Contact: anthraxx42@SF
 
-## antkudr [0]
+## antkudr [1]
 
-- Games: 
+- Games: Qt
 - Contact: antkudr@GH
 
 ## AntlerForce [1]
@@ -6076,7 +6076,7 @@
 ## Anton Kovalev [1]
 
 - Games: Oxygen Engine
-- Contact: Vertver@GH, vertver@GH
+- Contact: vertver@GH, Vertver@GH
 
 ## Anton Malmygin [1]
 
@@ -6251,9 +6251,9 @@
 - Games: Planetary Hoppers
 - Contact: leksa@SF
 
-## anttimaa [0]
+## anttimaa [1]
 
-- Games: 
+- Games: Qt
 - Contact: anttimaa@GH
 
 ## anttisalonen [2]
@@ -7198,9 +7198,9 @@
 - Games: Cataclysm: Dark Days Ahead, freegish
 - Contact: Asmageddon@GH
 
-## ASpoerl [0]
+## ASpoerl [1]
 
-- Games: 
+- Games: Qt
 - Contact: ASpoerl@GH
 
 ## Assaf Raman [1]
@@ -7208,9 +7208,9 @@
 - Games: OGRE
 - Contact: assaframan@GH
 
-## Assam Boudjelthia [0]
+## Assam Boudjelthia [1]
 
-- Games: 
+- Games: Qt
 - Contact: Issam-b@GH
 
 ## assassina [1]
@@ -7449,9 +7449,9 @@
 - Contact: abompard@GH
 - Home: http://aurelien.bompard.org
 
-## Aurélien Gâteau [1]
+## Aurélien Gâteau [2]
 
-- Games: Pixel Wheels
+- Games: Pixel Wheels, Qt
 - Contact: agateau-g@GH, agateau@GH
 - Home: https://agateau.com
 
@@ -7606,9 +7606,9 @@
 - Games: SpaceTrader for Java
 - Contact: avivey@SF
 
-## avolkov-astra [0]
+## avolkov-astra [1]
 
-- Games: 
+- Games: Qt
 - Contact: avolkov-astra@GH
 
 ## aw20368 [1]
@@ -8250,9 +8250,9 @@
 - Games: OpenNitemare3D
 - Contact: BBQGiraffe@GH
 
-## bbreitmeyer [0]
+## bbreitmeyer [1]
 
-- Games: 
+- Games: Qt
 - Contact: bbreitmeyer@GH
 
 ## BC Ko [1]
@@ -9934,9 +9934,9 @@
 - Games: UPBGE
 - Contact: bnagirniak@GH
 
-## BogDan Vatra [1]
+## BogDan Vatra [2]
 
-- Games: Free Allegiance
+- Games: Free Allegiance, Qt
 - Contact: bog-dan-ro@GH
 
 ## Bogi79 [1]
@@ -10093,9 +10093,9 @@
 - Contact: dalboris@GH
 - Home: https://www.vgc.io
 
-## Boris Dušek [0]
+## Boris Dušek [1]
 
-- Games: 
+- Games: Qt
 - Contact: dusek@GH
 - Home: https://dusek.me
 
@@ -11283,9 +11283,9 @@
 - Games: AutoREALM
 - Contact: bmorel@SF
 
-## Błażej Szczygieł [3]
+## Błażej Szczygieł [4]
 
-- Games: Godot, NFSIISE, SDLPoP
+- Games: Godot, NFSIISE, Qt, SDLPoP
 - Contact: zaps166@GH
 
 ## C-Core [1]
@@ -12408,9 +12408,9 @@
 - Contact: LordAro@GH
 - Home: https://www.lordaro.co.uk
 
-## Charles Yin [0]
+## Charles Yin [1]
 
-- Games: 
+- Games: Qt
 - Contact: yinyunqiao@GH
 - Home: http://yinyunqiao.github.com
 
@@ -13209,9 +13209,9 @@
 - Games: The Epic of Heroes
 - Contact: ryogah@SF
 
-## Christian Ehrlicher [0]
+## Christian Ehrlicher [1]
 
-- Games: 
+- Games: Qt
 - Contact: chehrlic@GH
 
 ## Christian F. Coors [1]
@@ -13316,9 +13316,9 @@
 - Games: X-Force: Fight For Destiny
 - Contact: jim_raynor@SF
 
-## Christian S [0]
+## Christian S [1]
 
-- Games: 
+- Games: Qt
 - Contact: cstatic@GH
 
 ## Christian Schmitt [1]
@@ -13489,9 +13489,9 @@
 - Contact: creichen@GH
 - Home: http://creichen.net
 
-## Christoph Schleifenbaum [0]
+## Christoph Schleifenbaum [1]
 
-- Games: 
+- Games: Qt
 - Contact: cschleifenbaum@GH
 
 ## Christoph Schulz [1]
@@ -13515,9 +13515,9 @@
 - Games: "TORCS, The Open Racing Car Simulator"
 - Contact: guions@SF
 
-## Christophe Marin [0]
+## Christophe Marin [1]
 
-- Games: 
+- Games: Qt
 - Contact: krop@GH
 
 ## Christopher Berman [1]
@@ -14948,9 +14948,9 @@
 - Games: AssaultCube
 - Contact: cristivlas@GH
 
-## Cristian Adam [0]
+## Cristian Adam [1]
 
-- Games: 
+- Games: Qt
 - Contact: cristianadam@GH
 - Home: https://cristianadam.eu
 
@@ -16190,9 +16190,9 @@
 - Contact: Danielduel@GH, Duelsik@GH
 - Home: https://dduel.dev/
 
-## Daniel Molkentin [0]
+## Daniel Molkentin [1]
 
-- Games: 
+- Games: Qt
 - Contact: danimo@GH
 
 ## Daniel Monteiro [1]
@@ -16358,7 +16358,7 @@
 ## Daniel Ting [1]
 
 - Games: Godot
-- Contact: DanielZTing@GH, danielzting@GH
+- Contact: danielzting@GH, DanielZTing@GH
 - Home: https://danielzting.github.io
 
 ## Daniel Trujillo Viedma [1]
@@ -17234,9 +17234,9 @@
 - Games: Pioneers
 - Contact: dfallon@SF
 
-## David Faure [0]
+## David Faure [1]
 
-- Games: 
+- Games: Qt
 - Contact: dfaure-kdab@GH
 - Home: http://www.davidfaure.fr
 
@@ -17276,9 +17276,9 @@
 - Games: Omega-rpg
 - Contact: dagibbs@SF
 
-## David Gil [0]
+## David Gil [1]
 
-- Games: 
+- Games: Qt
 - Contact: David-Gil@GH
 
 ## David Gow [2]
@@ -17516,9 +17516,9 @@
 - Games: PCGen
 - Contact: papa_drb@SF
 
-## David Redondo [0]
+## David Redondo [1]
 
-- Games: 
+- Games: Qt
 - Contact: Sodivad@GH
 - Home: https://blog.david-redondo.de
 
@@ -17591,9 +17591,9 @@
 - Games: OpenLoco
 - Contact: niceeffort@GH
 
-## David Schulz [0]
+## David Schulz [1]
 
-- Games: 
+- Games: Qt
 - Contact: davschul@GH
 
 ## David Seguin [1]
@@ -17769,9 +17769,9 @@
 - Games: Unknown Horizons
 - Contact: DSAureli@GH
 
-## davidedmundson [1]
+## davidedmundson [2]
 
-- Games: Simple DirectMedia Layer
+- Games: Qt, Simple DirectMedia Layer
 - Contact: davidedmundson@GH
 
 ## DavidF [1]
@@ -18006,9 +18006,9 @@
 - Games: Space Station 13
 - Contact: deathride58@GH
 
-## Debao Zhang [0]
+## Debao Zhang [1]
 
-- Games: 
+- Games: Qt
 - Contact: dbzhang800@GH
 
 ## Debby Servilla [1]
@@ -18597,9 +18597,9 @@
 - Games: Mindustry
 - Contact: Dexapnow@GH
 
-## dfaure [0]
+## dfaure [1]
 
-- Games: 
+- Games: Qt
 - Contact: dfaure@GH
 
 ## dfighter1985 [1]
@@ -18873,9 +18873,9 @@
 - Games: SuperTuxKart
 - Contact: dimitrijejankov@GH
 
-## Dimitrios Apostolou [0]
+## Dimitrios Apostolou [1]
 
-- Games: 
+- Games: Qt
 - Contact: jimis@GH
 
 ## Dimitris Papavasiliou [1]
@@ -19041,9 +19041,9 @@
 - Games: "Mars, Land of No Mercy"
 - Contact: discojonny@SF
 
-## diseraluca-qt [0]
+## diseraluca-qt [1]
 
-- Games: 
+- Games: Qt
 - Contact: diseraluca-qt@GH
 
 ## Displacer [1]
@@ -19245,9 +19245,9 @@
 - Games: Warzone 2100
 - Contact: dkargin@GH
 
-## Dmitry Kazakov [0]
+## Dmitry Kazakov [1]
 
-- Games: 
+- Games: Qt
 - Contact: dimula73@GH
 
 ## Dmitry Koteroff [1]
@@ -19293,9 +19293,9 @@
 - Games: Cataclysm: Dark Days Ahead
 - Contact: illi-kun@GH
 
-## Dmitry Shachnev [0]
+## Dmitry Shachnev [1]
 
-- Games: 
+- Games: Qt
 - Contact: mitya57@GH
 - Home: https://mitya57.me/
 
@@ -19510,9 +19510,9 @@
 - Games: GZDoom, ZDoom
 - Contact: drfrag666@GH
 
-## dongmeiwang [0]
+## dongmeiwang [1]
 
-- Games: 
+- Games: Qt
 - Contact: dongmeiwang@GH
 
 ## Dongyang.Cai [1]
@@ -19591,9 +19591,9 @@
 - Games: Advanced Strategic Command
 - Contact: dorfdrull@SF
 
-## dorisverria1 [0]
+## dorisverria1 [1]
 
-- Games: 
+- Games: Qt
 - Contact: dorisverria1@GH
 
 ## Dorota Celińska-Kopczyńska [1]
@@ -20269,9 +20269,9 @@
 - Games: Land of Fire
 - Contact: dweems@GH
 
-## Dyami Caliri [0]
+## Dyami Caliri [1]
 
-- Games: 
+- Games: Qt
 - Contact: dyamized@GH
 - Home: https://www.dragonframe.com/
 
@@ -20781,9 +20781,9 @@
 - Contact: urkle@GH
 - Home: http://www.outoforder.cc/
 
-## Edward Welbourne [0]
+## Edward Welbourne [1]
 
-- Games: 
+- Games: Qt
 - Contact: ediosyncratic@GH
 - Home: http://www.chaos.org.uk/~eddy/
 
@@ -20914,9 +20914,9 @@
 - Games: Cataclysm: Dark Days Ahead
 - Contact: Eighth-of-Third@GH
 
-## Eike [0]
+## Eike [1]
 
-- Games: 
+- Games: Qt
 - Contact: e4z9@GH
 
 ## Eiko [1]
@@ -21313,9 +21313,9 @@
 - Games: The Battle for Wesnoth
 - Contact: Elvish-Hunter@GH
 
-## ElvisLee [0]
+## ElvisLee [1]
 
-- Games: 
+- Games: Qt
 - Contact: ElvisLee@GH
 
 ## Elviss Strazdins [2]
@@ -22176,9 +22176,9 @@
 - Games: Freedoom, GZDoom, ZDoom
 - Contact: guynamederick@GH
 
-## ericLemanissier [0]
+## ericLemanissier [1]
 
-- Games: 
+- Games: Qt
 - Contact: ericLemanissier@GH
 
 ## Erihel [1]
@@ -22389,9 +22389,9 @@
 - Games: Widelands
 - Contact: esigra@GH
 
-## eskilblomfeldt [0]
+## eskilblomfeldt [1]
 
-- Games: 
+- Games: Qt
 - Contact: eskilblomfeldt@GH
 
 ## Eskild Hustvedt [1]
@@ -22923,9 +22923,9 @@
 - Contact: fabiangreffrath@GH
 - Home: https://qa.debian.org/developer.php?login=fabian
 
-## Fabian K [0]
+## Fabian K [1]
 
-- Games: 
+- Games: Qt
 - Contact: Inkane@GH
 
 ## Fabian L [1]
@@ -23096,9 +23096,9 @@
 - Games: openblack
 - Contact: FalseIlyu@GH
 
-## faltsi [0]
+## faltsi [1]
 
-- Games: 
+- Games: Qt
 - Contact: faltsi@GH
 
 ## Fam0r [1]
@@ -23735,9 +23735,9 @@
 - Contact: fsufitch@GH
 - Home: https://filip.sufitchi.name
 
-## Filipe Azevedo [0]
+## Filipe Azevedo [1]
 
-- Games: 
+- Games: Qt
 - Contact: pasnox@GH
 - Home: http://pasnox.tuxfamily.org
 
@@ -24026,9 +24026,9 @@
 - Games: Widelands
 - Contact: flegmaatikko@GH
 
-## fletcheb [0]
+## fletcheb [1]
 
-- Games: 
+- Games: Qt
 - Contact: fletcheb@GH
 
 ## Flip-Sandwich [1]
@@ -24692,9 +24692,9 @@
 - Games: Simple DirectMedia Layer
 - Contact: Kontrabant@GH
 
-## Frank Richter [0]
+## Frank Richter [1]
 
-- Games: 
+- Games: Qt
 - Contact: res2k@GH
 
 ## Frank Schmidt [1]
@@ -24854,9 +24854,9 @@
 - Games: Arx Libertatis
 - Contact: fredlllll@GH
 
-## Frederik Gladhorn [0]
+## Frederik Gladhorn [1]
 
-- Games: 
+- Games: Qt
 - Contact: gladhorn@GH
 
 ## Frederik Kammel [1]
@@ -24972,9 +24972,9 @@
 - Games: Unciv
 - Contact: GreenFreshy@GH
 
-## Friedemann Kleint [0]
+## Friedemann Kleint [1]
 
-- Games: 
+- Games: Qt
 - Contact: FriedemannKleint@GH
 - Home: http://www.qt.io/
 
@@ -25707,9 +25707,9 @@
 - Games: CaesarIA
 - Contact: gathanase@GH
 
-## Gatis Paeglis [0]
+## Gatis Paeglis [1]
 
-- Games: 
+- Games: Qt
 - Contact: gatispaeglis@GH
 
 ## Gatleos [1]
@@ -26573,9 +26573,9 @@
 - Games: Unciv
 - Contact: Smashfanful@GH
 
-## Giuseppe D'Angelo [0]
+## Giuseppe D'Angelo [1]
 
-- Games: 
+- Games: Qt
 - Contact: dangelog@GH
 
 ## Giuseppe Deda [1]
@@ -27641,9 +27641,9 @@
 - Games: Bygfoot
 - Contact: gunnar_g@SF
 
-## Gunnar Sletta [0]
+## Gunnar Sletta [1]
 
-- Games: 
+- Games: Qt
 - Contact: sletta@GH
 - Home: https://crimson.no
 
@@ -28544,9 +28544,9 @@
 - Games: Grobots
 - Contact: hectorae@SF
 
-## hehalmet [0]
+## hehalmet [1]
 
-- Games: 
+- Games: Qt
 - Contact: hehalmet@GH
 
 ## Heikki Sairanen [1]
@@ -29229,9 +29229,9 @@
 - Contact: NeoSpark314@GH
 - Home: http://holger.dammertz.org/
 
-## Holger Freyther [0]
+## Holger Freyther [1]
 
-- Games: 
+- Games: Qt
 - Contact: zecke@GH
 - Home: http://moiji-mobile.com
 
@@ -29968,9 +29968,9 @@
 - Games: Mindustry
 - Contact: iczero@GH
 
-## Ievgenii Meshcheriakov [0]
+## Ievgenii Meshcheriakov [1]
 
-- Games: 
+- Games: Qt
 - Contact: eugmes@GH
 
 ## IFASS [1]
@@ -30028,9 +30028,9 @@
 - Contact: IgorKordiukiewicz@GH
 - Home: https://www.unrealengine.com/marketplace/en-US/profile/Igor+Kordiukiewicz
 
-## Igor Kushnir [0]
+## Igor Kushnir [1]
 
-- Games: 
+- Games: Qt
 - Contact: vedgy@GH
 
 ## Igor Molchanov [1]
@@ -30137,9 +30137,9 @@
 - Games: OpenMOO2
 - Contact: II9T5@GH
 
-## iieklund [0]
+## iieklund [1]
 
-- Games: 
+- Games: Qt
 - Contact: iieklund@GH
 
 ## iilwy [1]
@@ -30288,9 +30288,9 @@
 - Games: FreeHeroes
 - Contact: IlyaPomaskin@GH
 
-## ilya-fedin [0]
+## ilya-fedin [1]
 
-- Games: 
+- Games: Qt
 - Contact: ilya-fedin@GH
 
 ## Ilya246 [1]
@@ -30858,9 +30858,9 @@
 - Games: ezQuake
 - Contact: qqshka@GH
 
-## Ivan Komissarov [0]
+## Ivan Komissarov [1]
 
-- Games: 
+- Games: Qt
 - Contact: ABBAPOH@GH
 
 ## Ivan Kravarščan [2]
@@ -31479,9 +31479,9 @@
 - Games: Vircadia
 - Contact: jagwire@GH
 
-## jaheikk [0]
+## jaheikk [1]
 
-- Games: 
+- Games: Qt
 - Contact: jaheikk@GH
 
 ## Jai Sharma [1]
@@ -31512,9 +31512,9 @@
 - Games: Pioneer
 - Contact: jaj22@GH
 
-## jajuntun [0]
+## jajuntun [1]
 
-- Games: 
+- Games: Qt
 - Contact: jajuntun@GH
 
 ## Jak Daniels [1]
@@ -31560,9 +31560,9 @@
 - Contact: JakeLegendXIII@GH
 - Home: http://kirkbridesolutions.com/
 
-## Jake Petroules [0]
+## Jake Petroules [1]
 
-- Games: 
+- Games: Qt
 - Contact: jakepetroules@GH
 - Home: http://www.jakepetroules.com/
 
@@ -31850,9 +31850,9 @@
 - Games: Cat Mother Dead Justice
 - Contact: golddevilfish@SF
 
-## James McDonnell [0]
+## James McDonnell [1]
 
-- Games: 
+- Games: Qt
 - Contact: jmcdonnell-blackberry@GH, jmcdonnell-qnx@GH
 
 ## James Meickle [1]
@@ -31914,9 +31914,9 @@
 
 - Games: GL-117
 
-## James Turner [2]
+## James Turner [3]
 
-- Games: FlightGear, WorldForge
+- Games: FlightGear, Qt, WorldForge
 - Contact: jmturner@SF, zakalawe@GH
 - Home: http://www.goneabitbursar.com
 
@@ -32054,9 +32054,9 @@
 
 - Games: Mmpong
 
-## Jan Grulich [0]
+## Jan Grulich [1]
 
-- Games: 
+- Games: Qt
 - Contact: grulja@GH
 - Home: https://jgrulich.cz
 
@@ -32288,9 +32288,9 @@
 - Games: COCOS2D-X
 - Contact: jotel@GH
 
-## JarekKobus [0]
+## JarekKobus [1]
 
-- Games: 
+- Games: Qt
 - Contact: JarekKobus@GH
 
 ## Jarewill [1]
@@ -32402,9 +32402,9 @@
 - Contact: arctic5@GH
 - Home: http://arctic5.github.io/
 
-## Jason Barron [0]
+## Jason Barron [1]
 
-- Games: 
+- Games: Qt
 - Contact: jrbarron@GH
 
 ## Jason Benaim [1]
@@ -32984,9 +32984,9 @@
 - Contact: Nirad@GH
 - Home: https://icimon.tech/
 
-## Jean-Michaël Celerier [0]
+## Jean-Michaël Celerier [1]
 
-- Games: 
+- Games: Qt
 - Contact: jcelerier@GH
 - Home: https://jcelerier.name
 
@@ -33370,9 +33370,9 @@
 - Games: FreeSO
 - Contact: JDrocks450@GH
 
-## Jeremy Lainé [0]
+## Jeremy Lainé [1]
 
-- Games: 
+- Games: Qt
 - Contact: jlaine@GH
 - Home: http://www.jerryweb.org/
 
@@ -33533,9 +33533,9 @@
 - Games: PCGen
 - Contact: jtblin@GH
 
-## jeromepasion [0]
+## jeromepasion [1]
 
-- Games: 
+- Games: Qt
 - Contact: jeromepasion@GH
 
 ## Jerrad Bieno [1]
@@ -33672,9 +33672,9 @@
 - Games: unitystation
 - Contact: JesterX666@GH
 
-## Jesus Fernandez [0]
+## Jesus Fernandez [1]
 
-- Games: 
+- Games: Qt
 - Contact: jsfdez@GH
 - Home: https://es.linkedin.com/in/jsfernandez
 
@@ -33759,9 +33759,9 @@
 - Games: COCOS2D-X
 - Contact: jianglong-zz@GH
 
-## jianliang79 [0]
+## jianliang79 [1]
 
-- Games: 
+- Games: Qt
 - Contact: jianliang79@GH
 
 ## Jianxiang Wang (王健翔) [1]
@@ -34260,9 +34260,9 @@
 - Games: First Strike
 - Contact: jchaumel@SF
 
-## Jocelyn Turcotte [0]
+## Jocelyn Turcotte [1]
 
-- Games: 
+- Games: Qt
 - Contact: jturcotte@GH
 
 ## Jochen Voss [1]
@@ -34583,9 +34583,9 @@
 - Contact: boxmein@GH
 - Home: https://www.boxmein.net
 
-## Johannes Kauffmann [0]
+## Johannes Kauffmann [1]
 
-- Games: 
+- Games: Qt
 - Contact: JohannesKauffmann@GH
 
 ## Johannes Maier [1]
@@ -34632,9 +34632,9 @@
 - Contact: HaSa1002@GH
 - Home: https://hasa1002.github.io/, https://made.byhasa.de/
 
-## Johannes Zellner [0]
+## Johannes Zellner [1]
 
-- Games: 
+- Games: Qt
 - Contact: nebulade@GH
 - Home: https://cloudron.io
 
@@ -34812,9 +34812,9 @@
 - Contact: jhurliman@GH
 - Home: https://jhurliman.org/
 
-## John Layt [0]
+## John Layt [1]
 
-- Games: 
+- Games: Qt
 - Contact: jlayt@GH
 
 ## John McIntosh [1]
@@ -35177,9 +35177,9 @@
 - Games: openage
 - Contact: TheJJ@GH
 
-## Jonas Karlsson [4]
+## Jonas Karlsson [5]
 
-- Games: PCGen, Puzzle Moppet, ResidualVM, ScummVM
+- Games: PCGen, Puzzle Moppet, Qt, ResidualVM, ScummVM
 - Contact: jujutsunerd@SF, karjonas@GH
 - Home: https://jonask.name/
 
@@ -35188,9 +35188,9 @@
 - Games: mkxp
 - Contact: Ancurio@GH
 
-## Jonas Kvinge [0]
+## Jonas Kvinge [1]
 
-- Games: 
+- Games: Qt
 - Contact: jonaski@GH
 
 ## Jonas Mörschbach [1]
@@ -35336,9 +35336,9 @@
 - Contact: colonelpopcorn@GH
 - Home: https://jonathanling.net
 
-## Jonathan Liu [0]
+## Jonathan Liu [1]
 
-- Games: 
+- Games: Qt
 - Contact: net147@GH
 
 ## Jonathan M. Franz [1]
@@ -36347,9 +36347,9 @@
 - Games: Augustus, Julius
 - Contact: crudelios@GH
 
-## José Millán Soto [0]
+## José Millán Soto [1]
 
-- Games: 
+- Games: Qt
 - Contact: fid-jose@GH
 
 ## José Robson Mariano Alves [1]
@@ -37220,9 +37220,9 @@
 - Contact: jozsefsallai@GH
 - Home: https://sallai.me
 
-## Jörg Bornemann [0]
+## Jörg Bornemann [1]
 
-- Games: 
+- Games: Qt
 - Contact: jobor@GH
 - Home: http://qt.io/
 
@@ -37241,9 +37241,9 @@
 - Games: SuperTuxKart
 - Contact: heuchi@GH
 
-## Jøger Hansegård [0]
+## Jøger Hansegård [1]
 
-- Games: 
+- Games: Qt
 - Contact: jogerh@GH
 
 ## Jørgen P. Tjernø [2]
@@ -37275,9 +37275,9 @@
 - Games: PLIB
 - Contact: j_marquardt@SF
 
-## Jüri Valdmann [0]
+## Jüri Valdmann [1]
 
-- Games: 
+- Games: Qt
 - Contact: valdmann@GH
 - Home: https://valdmann.eu
 
@@ -37452,9 +37452,9 @@
 - Games: Castle Game Engine
 - Contact: Kagamma@GH
 
-## kaheimri [0]
+## kaheimri [1]
 
-- Games: 
+- Games: Qt
 - Contact: kaheimri@GH
 
 ## kahrl [2]
@@ -37486,9 +37486,9 @@
 
 - Games: Mmpong
 
-## Kai Köhne [0]
+## Kai Köhne [1]
 
-- Games: 
+- Games: Qt
 - Contact: kkoehne@GH
 
 ## Kai Morten Thorkildsen [1]
@@ -37496,9 +37496,9 @@
 - Games: FreeCol
 - Contact: kaimt@SF
 
-## Kai Pastor [0]
+## Kai Pastor [1]
 
-- Games: 
+- Games: Qt
 - Contact: dg0yt@GH
 
 ## Kai Philipp [1]
@@ -38124,9 +38124,9 @@
 - Games: Godot
 - Contact: kbake@GH
 
-## kbroulik [0]
+## kbroulik [1]
 
-- Games: 
+- Games: Qt
 - Contact: kbroulik@GH
 
 ## kcat [7]
@@ -38597,9 +38597,9 @@
 - Games: Chariot
 - Contact: angered-ghandi@GH
 
-## Kevin Funk [0]
+## Kevin Funk [1]
 
-- Games: 
+- Games: Qt
 - Contact: krf@GH
 - Home: http://kfunk.org
 
@@ -38666,9 +38666,9 @@
 - Games: TripleA
 - Contact: kdm98@SF
 
-## Kevin Ottens [0]
+## Kevin Ottens [1]
 
-- Games: 
+- Games: Qt
 - Contact: er-vin@GH
 - Home: http://ervin.ipsquad.net
 
@@ -39462,9 +39462,9 @@
 - Contact: podsvirov@GH
 - Home: https://podsvirov.pro
 
-## Konstantin Ritt [0]
+## Konstantin Ritt [1]
 
-- Games: 
+- Games: Qt
 - Contact: KonstantinRitt@GH
 
 ## Konstantin Tomashevich [1]
@@ -39658,9 +39658,9 @@
 - Games: JavaScript Graphic Adventure Maker
 - Contact: kreezii@SF
 
-## kreios4004 [0]
+## kreios4004 [1]
 
-- Games: 
+- Games: Qt
 - Contact: kreios4004@GH
 
 ## Kreuvf [1]
@@ -40018,9 +40018,9 @@
 - Games: Armagetron Advanced
 - Contact: k_at_work@SF
 
-## Kurt Pattyn [0]
+## Kurt Pattyn [1]
 
-- Games: 
+- Games: Qt
 - Contact: KurtPattyn@GH
 - Home: https://kurtpattyn.wordpress.com
 
@@ -40615,9 +40615,9 @@
 - Contact: cubei@GH
 - Home: https://0quchen.de
 
-## Lars Knoll [0]
+## Lars Knoll [1]
 
-- Games: 
+- Games: Qt
 - Contact: laknoll@GH
 
 ## Lars Müller [3]
@@ -40631,9 +40631,9 @@
 - Games: VDrift
 - Contact: cotharyus@SF
 
-## Lars Schmertmann [0]
+## Lars Schmertmann [1]
 
-- Games: 
+- Games: Qt
 - Contact: SmallLars@GH
 
 ## Lars Skovlund [1]
@@ -40708,9 +40708,9 @@
 - Contact: LastExceed@GH
 - Home: http://osu.ppy.sh/u/6232245
 
-## Laszlo Agocs [0]
+## Laszlo Agocs [1]
 
-- Games: 
+- Games: Qt
 - Contact: alpqr@GH
 
 ## Laszlo Ozsvart [1]
@@ -40718,9 +40718,9 @@
 - Games: VCMI
 - Contact: ozsy1023@SF
 
-## Laszlo Papp [0]
+## Laszlo Papp [1]
 
-- Games: 
+- Games: Qt
 - Contact: lpapp@GH
 - Home: http://lpapp.blogspot.com
 
@@ -41041,9 +41041,9 @@
 - Games: osu!
 - Contact: LeeMustache@GH
 
-## Leena Miettinen [0]
+## Leena Miettinen [1]
 
-- Games: 
+- Games: Qt
 - Contact: leena-miettinen@GH
 - Home: http://www.qt.io
 
@@ -41563,9 +41563,9 @@
 - Games: MekWars
 - Contact: liomr@SF
 
-## Liang Qi [0]
+## Liang Qi [1]
 
-- Games: 
+- Games: Qt
 - Contact: liangqi@GH
 - Home: http://www.qiliang.net/blog/
 
@@ -41887,9 +41887,9 @@
 - Contact: misslivirose@GH
 - Home: http://liverickson.com, https://unsound.studio/
 
-## lixinwei715 [0]
+## lixinwei715 [1]
 
-- Games: 
+- Games: Qt
 - Contact: lixinwei715@GH
 
 ## Liz H. [1]
@@ -42223,9 +42223,9 @@
 - Games: Atlantis
 - Contact: Loriaki@GH
 
-## Lorn Potter [0]
+## Lorn Potter [1]
 
-- Games: 
+- Games: Qt
 - Contact: lpotter@GH
 - Home: http://llornkcor.com
 
@@ -42423,9 +42423,9 @@
 - Games: Tux Paint
 - Contact: begasus@SF
 
-## Luca [0]
+## Luca [1]
 
-- Games: 
+- Games: Qt
 - Contact: VSRonin@GH
 
 ## Luca Bonavita [1]
@@ -42722,9 +42722,9 @@
 - Games: KeeperRL
 - Contact: LudwigVonChesterfield@GH
 
-## lugerard [0]
+## lugerard [1]
 
-- Games: 
+- Games: Qt
 - Contact: lugerard@GH
 
 ## Luiji Maryo [1]
@@ -43379,9 +43379,9 @@
 - Games: osu!
 - Contact: minetoblend@GH
 
-## mabrand [0]
+## mabrand [1]
 
-- Games: 
+- Games: Qt
 - Contact: mabrand@GH
 
 ## MaBu [1]
@@ -43711,9 +43711,9 @@
 - Games: DXX-Rebirth
 - Contact: Mako88@GH
 
-## Maks Naumov [0]
+## Maks Naumov [1]
 
-- Games: 
+- Games: Qt
 - Contact: maksqwe@GH
 
 ## Maks Verver [1]
@@ -44129,9 +44129,9 @@
 - Games: XScavenger
 - Contact: mavati@SF
 
-## Marc Mutz [0]
+## Marc Mutz [1]
 
-- Games: 
+- Games: Qt
 - Contact: marc-kdab@GH, marcmutz@GH
 
 ## Marc Olzheim [1]
@@ -44319,9 +44319,9 @@
 - Games: Godot
 - Contact: dragmz@GH
 
-## marcin-zdunek [0]
+## marcin-zdunek [1]
 
-- Games: 
+- Games: Qt
 - Contact: marcin-zdunek@GH
 
 ## Marcio Barrientos [2]
@@ -45042,9 +45042,9 @@
 - Games: Pentobi
 - Contact: enz@GH
 
-## Markus Goetz [0]
+## Markus Goetz [1]
 
-- Games: 
+- Games: Qt
 - Contact: guruz@GH
 - Home: https://woboq.com/
 
@@ -45453,9 +45453,9 @@
 - Contact: martindzejky@GH
 - Home: https://github.com/martindzejky
 
-## Martin K [0]
+## Martin K [1]
 
-- Games: 
+- Games: Qt
 - Contact: mck182@GH
 
 ## Martin Kanich [1]
@@ -45556,9 +45556,9 @@
 - Games: Terasology
 - Contact: msteiger@GH
 
-## Martin Storsjö [0]
+## Martin Storsjö [1]
 
-- Games: 
+- Games: Qt
 - Contact: mstorsjo@GH
 
 ## Martin Stransky [2]
@@ -46813,9 +46813,9 @@
 - Games: Mari0
 - Contact: Stabyourself@GH
 
-## Maurice Kalinowski [0]
+## Maurice Kalinowski [1]
 
-- Games: 
+- Games: Qt
 - Contact: mauricek@GH
 
 ## Mauricio M. de Almeida [1]
@@ -47258,9 +47258,9 @@
 - Games: osu!
 - Contact: MBmasher@GH
 
-## mboc-qt [0]
+## mboc-qt [1]
 
-- Games: 
+- Games: Qt
 - Contact: mboc-qt@GH
 
 ## mbootsector [1]
@@ -47829,9 +47829,9 @@
 - Games: Dungeon Crawl Stone Soup
 - Contact: mgdelmonte@GH
 
-## mgraesslin [0]
+## mgraesslin [1]
 
-- Games: 
+- Games: Qt
 - Contact: mgraesslin@GH
 
 ## MGSX [1]
@@ -48465,9 +48465,9 @@
 - Games: Shotgun Debugger
 - Organization: Game Creation Society
 
-## Michael Weghorn [0]
+## Michael Weghorn [1]
 
-- Games: 
+- Games: Qt
 - Contact: michaelweghorn@GH
 
 ## Michael Winslow [1]
@@ -48938,9 +48938,9 @@
 - Games: Cataclysm: Dark Days Ahead, Magarena, Pymapper, Thrive, VCMI
 - Contact: BlueMoonDude@GH, firemind@GH, mikeiit@GH, TheCreator--@GH, toxic-rat@SF
 
-## Mike Achtelik [0]
+## Mike Achtelik [1]
 
-- Games: 
+- Games: Qt
 - Contact: machtelik@GH
 
 ## Mike B. [1]
@@ -49025,9 +49025,9 @@
 - Games: MegaMek
 - Contact: eldragon@SF
 
-## Mike Krus [0]
+## Mike Krus [1]
 
-- Games: 
+- Games: Qt
 - Contact: mkrus@GH
 - Home: http://kdab.com/
 
@@ -49222,9 +49222,9 @@
 - Games: Raincat
 - Contact: styx@GH
 
-## Mikhail Svetkin [0]
+## Mikhail Svetkin [1]
 
-- Games: 
+- Games: Qt
 - Contact: msvetkin@GH
 
 ## miki [1]
@@ -49361,9 +49361,9 @@
 - Games: PCGen
 - Contact: milesoc@GH
 
-## Milian Wolff [0]
+## Milian Wolff [1]
 
-- Games: 
+- Games: Qt
 - Contact: milianw@GH
 - Home: https://milianw.de
 
@@ -49651,9 +49651,9 @@
 - Contact: Vizaxo@GH
 - Home: https://vizaxo.github.io
 
-## Mitch Curtis [1]
+## Mitch Curtis [2]
 
-- Games: Godot
+- Games: Godot, Qt
 - Contact: mitchcurtis@GH
 
 ## mitch323 [1]
@@ -50052,9 +50052,9 @@
 - Games: TIC-80
 - Contact: JettMonstersGoBoom@GH
 
-## Montel Laurent [1]
+## Montel Laurent [2]
 
-- Games: Blinken
+- Games: Blinken, Qt
 - Contact: Montel@GH
 
 ## moogle0001 [1]
@@ -50276,9 +50276,9 @@
 - Games: Oxygen Engine
 - Contact: mortany@GH
 
-## Morten Johan Sørvig [0]
+## Morten Johan Sørvig [1]
 
-- Games: 
+- Games: Qt
 - Contact: msorvig@GH
 
 ## Morwenn [1]
@@ -50933,9 +50933,9 @@
 - Games: Freeciv-web, OpenDUNE
 - Contact: lonemadmax@GH
 
-## Mårten Nordheim [0]
+## Mårten Nordheim [1]
 
-- Games: 
+- Games: Qt
 - Contact: Morten242@GH
 
 ## Münir Ozan Topcu [1]
@@ -51272,7 +51272,7 @@
 ## Nate [2]
 
 - Games: TankistOnline, The Powder Toy
-- Contact: ief015@GH, servusdei2018@GH, servusDei2018@GH
+- Contact: ief015@GH, servusDei2018@GH, servusdei2018@GH
 - Home: https://bracy.dev, https://servusdei.github.io, https://servusdei2018.github.io
 
 ## Nate Fries [1]
@@ -52244,9 +52244,9 @@
 - Games: MegaMek
 - Contact: NickAragua@GH
 
-## NickBennett1812 [0]
+## NickBennett1812 [1]
 
-- Games: 
+- Games: Qt
 - Contact: NickBennett1812@GH
 
 ## Nickel Mattera (she/they) [1]
@@ -52378,9 +52378,9 @@
 - Games: GLtron
 - Contact: sem76@SF
 
-## Nicolas Fella [0]
+## Nicolas Fella [1]
 
-- Games: 
+- Games: Qt
 - Contact: nicolasfella@GH
 - Home: https://nicolasfella.de
 
@@ -52489,9 +52489,9 @@
 - Games: LITIENGINE
 - Contact: niels89@GH
 
-## nierob [0]
+## nierob [1]
 
-- Games: 
+- Games: Qt
 - Contact: nierob@GH
 
 ## niffiwan [1]
@@ -54019,9 +54019,9 @@
 - Games: Andor's Trail
 - Contact: dacmot@GH
 
-## Olivier Goffart [0]
+## Olivier Goffart [1]
 
-- Games: 
+- Games: Qt
 - Contact: ogoffart@GH
 - Home: https://slint.dev
 
@@ -54407,9 +54407,9 @@
 - Games: CCCP
 - Contact: orengg@GH
 
-## Orgad Shaneh [1]
+## Orgad Shaneh [2]
 
-- Games: ScummVM
+- Games: Qt, ScummVM
 - Contact: orgads@GH
 
 ## Ori Avtalion [2]
@@ -54561,9 +54561,9 @@
 - Games: Mindustry
 - Contact: osp54@GH
 
-## Oswald Buddenhagen [0]
+## Oswald Buddenhagen [1]
 
-- Games: 
+- Games: Qt
 - Contact: ossilator@GH
 
 ## OTHGMars [1]
@@ -54667,9 +54667,9 @@
 - Games: Freestars
 - Contact: overworked@SF
 
-## owolff [0]
+## owolff [1]
 
-- Games: 
+- Games: Qt
 - Contact: owolff@GH
 
 ## oy [2]
@@ -54677,9 +54677,9 @@
 - Games: DDraceNetwork, Teeworlds
 - Contact: oy@GH
 
-## oyheskes [0]
+## oyheskes [1]
 
-- Games: 
+- Games: Qt
 - Contact: oyheskes@GH
 
 ## Oymate [2]
@@ -55151,9 +55151,9 @@
 - Games: osu!
 - Contact: Pasi4K5@GH
 
-## Passeli [0]
+## Passeli [1]
 
-- Games: 
+- Games: Qt
 - Contact: Passeli@GH
 
 ## passivestar [1]
@@ -55405,9 +55405,9 @@
 - Games: Vircadia
 - Contact: Patterntrick@GH
 
-## Paul [9]
+## Paul [10]
 
-- Games: Augustus, Brain Workshop, DDraceNetwork, ezQuake, Julius, Phantasy Star Rebirth, Q-Gears, R.E.L.I.V.E., Superpowers
+- Games: Augustus, Brain Workshop, DDraceNetwork, ezQuake, Julius, Phantasy Star Rebirth, Q-Gears, Qt, R.E.L.I.V.E., Superpowers
 - Contact: Anime-pdf@GH, devnoname120@GH, dreamcatcher1@SF, Pangoraw@GH, paulolav@GH, paulsapps@GH, ptarcher@GH, radix-@SF
 - Home: https://ber.gp, https://qwerty-fr.org, https://twitter.com/devnoname120, https://www.ber.gp
 
@@ -55550,9 +55550,9 @@
 - Contact: paulkocialkowski@GH
 - Home: https://code.paulk.fr
 
-## Paul Lemire [0]
+## Paul Lemire [1]
 
-- Games: 
+- Games: Qt
 - Contact: lemirep@GH
 - Home: http://lemire.wordpress.com
 
@@ -55703,9 +55703,9 @@
 - Games: Settlers III remake
 - Contact: paulwedeck@GH
 
-## Paul Wicking [0]
+## Paul Wicking [1]
 
-- Games: 
+- Games: Qt
 - Contact: DocWicking@GH
 - Home: https://doc.qt.io
 
@@ -56459,9 +56459,9 @@
 - Contact: gl00my@GH, gl00my@SF, hugeping@GH
 - Home: http://instead.syscall.ru, https://hugeping.ru
 
-## Peter Kümmel [0]
+## Peter Kümmel [1]
 
-- Games: 
+- Games: Qt
 - Contact: syntheticpp@GH
 
 ## Peter Lacey-Bordeaux [1]
@@ -56522,9 +56522,9 @@
 - Contact: schlaile@GH
 - Home: https://www.schlaile.de
 
-## Peter Seiderer [0]
+## Peter Seiderer [1]
 
-- Games: 
+- Games: Qt
 - Contact: pseiderer@GH
 
 ## Peter Serwylo [4]
@@ -56587,9 +56587,9 @@
 - Games: The Butterfly Effect
 - Contact: lspace@SF
 
-## Peter Varga [0]
+## Peter Varga [1]
 
-- Games: 
+- Games: Qt
 - Contact: stampho@GH
 - Home: http://webkit.sed.hu
 
@@ -56796,9 +56796,9 @@
 - Games: FreeSpace 2 Source Code Project
 - Contact: PhantomHoover@GH
 
-## phartmann [0]
+## phartmann [1]
 
-- Games: 
+- Games: Qt
 - Contact: phartmann@GH
 
 ## Phaser Editor 2D [1]
@@ -57145,9 +57145,9 @@
 - Games: Teeworlds
 - Contact: Piepow@GH
 
-## Pier Luigi Fiorini [0]
+## Pier Luigi Fiorini [1]
 
-- Games: 
+- Games: Qt
 - Contact: plfiorini@GH
 - Home: http://plfiorini.blogspot.com
 
@@ -57338,9 +57338,9 @@
 - Games: Elysium Engine
 - Contact: god_pingu@SF
 
-## Pino Toscano [1]
+## Pino Toscano [2]
 
-- Games: Dust Racing 2D
+- Games: Dust Racing 2D, Qt
 - Contact: pinotree@GH
 
 ## Pioneer Transifex [1]
@@ -59246,9 +59246,9 @@
 - Games: Unknown Horizons
 - Contact: Teemperor@GH
 
-## Raphael Kubo da Costa [0]
+## Raphael Kubo da Costa [1]
 
-- Games: 
+- Games: Qt
 - Contact: rakuco@GH
 
 ## Raphael-Schulz [1]
@@ -59383,9 +59383,9 @@
 - Games: KQ Lives
 - Contact: phate@SF
 
-## ratijas [0]
+## ratijas [1]
 
-- Games: 
+- Games: Qt
 - Contact: ratijas@GH
 - Home: https://ratijas.tk/
 
@@ -59485,9 +59485,9 @@
 - Contact: rayburgemeestre@GH
 - Home: https://blog.cppse.nl
 
-## Ray Donnelly [0]
+## Ray Donnelly [1]
 
-- Games: 
+- Games: Qt
 - Contact: mingwandroid@GH
 - Home: http://msys2.org
 
@@ -60632,9 +60632,9 @@
 - Games: libGDX
 - Contact: Zomby2D@GH
 
-## Richard Moore [0]
+## Richard Moore [1]
 
-- Games: 
+- Games: Qt
 - Contact: richmoore@GH
 - Home: https://twitter.com/moore_rich
 
@@ -60770,9 +60770,9 @@
 - Games: VCMI
 - Contact: onion_knight@SF, rwesterlund@GH
 
-## rickst29 [0]
+## rickst29 [1]
 
-- Games: 
+- Games: Qt
 - Contact: rickst29@GH
 
 ## Ricky Cui [1]
@@ -61300,9 +61300,9 @@
 - Contact: rgk@GH
 - Home: https://madgizmo.com/
 
-## Robert Löhning [0]
+## Robert Löhning [1]
 
-- Games: 
+- Games: Qt
 - Contact: rlohning@GH
 
 ## Robert MacGregor [6]
@@ -61531,9 +61531,9 @@
 - Games: osu!
 - Contact: ribbanya@GH
 
-## Robin Burchell [0]
+## Robin Burchell [1]
 
-- Games: 
+- Games: Qt
 - Contact: rburchell@GH
 - Home: https://crimson.no
 
@@ -61873,9 +61873,9 @@
 - Contact: rolandoam@GH
 - Home: http://rolando.cl
 
-## Rolf Eike Beer [0]
+## Rolf Eike Beer [1]
 
-- Games: 
+- Games: Qt
 - Contact: DerDakon@GH
 
 ## Rolf Harkes [1]
@@ -62649,9 +62649,9 @@
 - Games: Race Into Space
 - Contact: ryandesign@GH
 
-## Ryan Chu [0]
+## Ryan Chu [1]
 
-- Games: 
+- Games: Qt
 - Contact: ryanjh@GH
 
 ## Ryan Cook [1]
@@ -63378,9 +63378,9 @@
 - Games: Argentum Online
 - Contact: grimmjaw@SF
 
-## Samuel Gaist [0]
+## Samuel Gaist [1]
 
-- Games: 
+- Games: Qt
 - Contact: sgaist@GH
 - Home: https://www.idiap.ch
 
@@ -63410,9 +63410,9 @@
 - Games: Solarus
 - Contact: sam101@GH, slepetit42@GH
 
-## Samuel Mira [0]
+## Samuel Mira [1]
 
-- Games: 
+- Games: Qt
 - Contact: samueljosemira@GH
 
 ## Samuel N. Hart [2]
@@ -63426,9 +63426,9 @@
 - Contact: samuelnp@GH
 - Home: http://meetsam.io
 
-## Samuel Nevala [0]
+## Samuel Nevala [1]
 
-- Games: 
+- Games: Qt
 - Contact: SamuelNevala@GH
 - Home: http://www.intopalo.com
 
@@ -63712,9 +63712,9 @@
 - Games: Odamex
 - Contact: sapientlion@GH
 
-## sapiippo [0]
+## sapiippo [1]
 
-- Games: 
+- Games: Qt
 - Contact: sapiippo@GH
 
 ## Sara Sparks [1]
@@ -63871,9 +63871,9 @@
 - Games: GamePlay
 - Contact: Kyew@GH
 
-## sav-ix [0]
+## sav-ix [1]
 
-- Games: 
+- Games: Qt
 - Contact: sav-ix@GH
 
 ## SavageX [1]
@@ -63911,9 +63911,9 @@
 - Games: MegaMek
 - Contact: SBBurzmali@GH
 
-## sbinner [0]
+## sbinner [1]
 
-- Games: 
+- Games: Qt
 - Contact: sbinner@GH
 
 ## sbrednikhin [1]
@@ -64299,9 +64299,9 @@
 - Games: Openglad
 - Contact: aglswapbuffers@SF
 
-## Sean Harmer [0]
+## Sean Harmer [1]
 
-- Games: 
+- Games: Qt
 - Contact: seanharmer@GH
 - Home: http://www.kdab.com
 
@@ -64898,9 +64898,9 @@
 - Contact: SergioMartin86@GH
 - Home: http://www.cse-lab.ethz.ch/member/sergio-martin/
 
-## Sergio Martins [0]
+## Sergio Martins [1]
 
-- Games: 
+- Games: Qt
 - Contact: iamsergio@GH
 
 ## Sergio Padrino [1]
@@ -65335,9 +65335,9 @@
 - Games: Decker
 - Contact: fsovercash@SF
 
-## Shawn Rutledge [0]
+## Shawn Rutledge [1]
 
-- Games: 
+- Games: Qt
 - Contact: ec1oud@GH
 
 ## Shawn Schafer [1]
@@ -66094,9 +66094,9 @@
 - Games: WorldForge
 - Contact: sgoodall@SF
 
-## Simon Hausmann [0]
+## Simon Hausmann [1]
 
-- Games: 
+- Games: Qt
 - Contact: tronical@GH
 - Home: https://fosstodon.org/@tronical
 
@@ -68172,9 +68172,9 @@
 - Games: SuperTuxKart
 - Contact: stephenjust@GH
 
-## Stephen Kelly [0]
+## Stephen Kelly [1]
 
-- Games: 
+- Games: Qt
 - Contact: steveire@GH
 - Home: http://steveire.wordpress.com
 
@@ -68863,9 +68863,9 @@
 - Games: OpenBOR
 - Contact: SumolX@GH
 
-## Sune Vuorela [0]
+## Sune Vuorela [1]
 
-- Games: 
+- Games: Qt
 - Contact: svuorela@GH
 - Home: http://sune.vuorela.dk
 
@@ -69387,9 +69387,9 @@
 - Games: Hedgewars
 - Contact: szczur90@GH
 
-## Sze Howe Koh [0]
+## Sze Howe Koh [1]
 
-- Games: 
+- Games: Qt
 - Contact: JKSH@GH
 
 ## szielins [1]
@@ -69820,15 +69820,15 @@
 - Contact: Tastyfish@GH
 - Home: http://tastyfish.github.io
 
-## Tasuku Suzuki [0]
+## Tasuku Suzuki [1]
 
-- Games: 
+- Games: Qt
 - Contact: stasuku@GH, task-jp@GH, tasuku-suzuki-signalslot@GH
 - Home: https://qt6.jp, https://signal-slot.co.jp/
 
-## tasuku-suzuki [0]
+## tasuku-suzuki [1]
 
-- Games: 
+- Games: Qt
 - Contact: tasuku-suzuki@GH
 
 ## tatami4 [1]
@@ -70836,9 +70836,9 @@
 - Games: pygame
 - Contact: gacheiro@GH, thiagojobson@GH
 
-## Thiago Macieira [0]
+## Thiago Macieira [1]
 
-- Games: 
+- Games: Qt
 - Contact: thiagomacieira@GH
 
 ## Thiago Romão Barcala [1]
@@ -71215,9 +71215,9 @@
 - Games: Twine
 - Contact: tmedwards@GH
 
-## Thomas McGuire [0]
+## Thomas McGuire [1]
 
-- Games: 
+- Games: Qt
 - Contact: tmcguire@GH
 - Home: https://www.linkedin.com/in/thomasmcguire0/
 
@@ -71581,9 +71581,9 @@
 - Contact: tbeddy@GH
 - Home: https://tbeddy.github.io
 
-## Tim Blechmann [0]
+## Tim Blechmann [1]
 
-- Games: 
+- Games: Qt
 - Contact: timblechmann@GH
 - Home: https://tim.klingt.org
 
@@ -72114,9 +72114,9 @@
 - Games: Lumix Engine
 - Contact: tluqo@GH
 
-## tmartsum [0]
+## tmartsum [1]
 
-- Games: 
+- Games: Qt
 - Contact: tmartsum@GH
 
 ## tmclif [1]
@@ -72208,15 +72208,15 @@
 - Games: UltraStar Deluxe
 - Contact: tobigun@SF
 
-## Tobias Hunger [0]
+## Tobias Hunger [1]
 
-- Games: 
+- Games: Qt
 - Contact: hunger@GH
 - Home: https://slint-ui.com
 
-## Tobias Koenig [0]
+## Tobias Koenig [1]
 
-- Games: 
+- Games: Qt
 - Contact: tokoe-kdab@GH
 
 ## Tobias Kohlbau [1]
@@ -73015,9 +73015,9 @@
 - Games: ZAngband
 - Contact: topiy@SF
 
-## Tor Arne Vestbø [0]
+## Tor Arne Vestbø [1]
 
-- Games: 
+- Games: Qt
 - Contact: torarnv@GH
 
 ## Toranks [1]
@@ -73056,9 +73056,9 @@
 - Games: Vanilla-Conquer
 - Contact: tore29@GH
 
-## toreinio [0]
+## toreinio [1]
 
-- Games: 
+- Games: Qt
 - Contact: toreinio@GH
 
 ## Torsten Dreyer [1]
@@ -73569,9 +73569,9 @@
 - Games: Unknown Horizons
 - Contact: tschroefel@GH
 
-## tsdgeos [1]
+## tsdgeos [2]
 
-- Games: Blinken
+- Games: Blinken, Qt
 - Contact: tsdgeos@GH
 
 ## Tsht [1]
@@ -74055,14 +74055,14 @@
 - Games: FreeLords
 - Contact: ulflor@SF
 
-## ulherman [0]
+## ulherman [1]
 
-- Games: 
+- Games: Qt
 - Contact: ulherman@GH
 
-## Uli Schlachter [0]
+## Uli Schlachter [1]
 
-- Games: 
+- Games: Qt
 - Contact: psychon@GH
 
 ## ulteq [1]
@@ -74790,9 +74790,9 @@
 - Games: Zelda Classic
 - Contact: venrob@GH
 
-## Venu [0]
+## Venu [1]
 
-- Games: 
+- Games: Qt
 - Contact: veshivas@GH
 
 ## Veraghin [1]
@@ -74826,9 +74826,9 @@
 - Games: Zero-K
 - Contact: versus666@GH
 
-## vertrni [0]
+## vertrni [1]
 
-- Games: 
+- Games: Qt
 - Contact: vertrni@GH
 
 ## Vest [1]
@@ -75130,9 +75130,9 @@
 - Games: Doom Legacy
 - Contact: smite-meister@SF
 
-## Ville Voutilainen [0]
+## Ville Voutilainen [1]
 
-- Games: 
+- Games: Qt
 - Contact: villevoutilainen@GH
 
 ## Ville-Pekka Vainio [1]
@@ -75619,9 +75619,9 @@
 - Games: Battle Tanks
 - Contact: private-face@GH, private_face@SF
 
-## VladimirBelyavsky [0]
+## VladimirBelyavsky [1]
 
-- Games: 
+- Games: Qt
 - Contact: VladimirBelyavsky@GH
 
 ## Vladimír Kincl [1]
@@ -75807,14 +75807,14 @@
 - Games: Pushover
 - Contact: vog@SF
 
-## Volker Hilsheimer [0]
+## Volker Hilsheimer [1]
 
-- Games: 
+- Games: Qt
 - Contact: vohi@GH
 
-## Volker Krause [0]
+## Volker Krause [1]
 
-- Games: 
+- Games: Qt
 - Contact: vkrause@GH
 - Home: https://volkerkrause.eu
 
@@ -75867,9 +75867,9 @@
 - Games: ElonaFoobar
 - Contact: Vorlent@GH
 
-## Vova Mshanetskiy [0]
+## Vova Mshanetskiy [1]
 
-- Games: 
+- Games: Qt
 - Contact: vovams@GH
 
 ## Voxel [1]
@@ -77731,9 +77731,9 @@
 - Contact: xintrea@GH
 - Home: http://webhamster.ru
 
-## Xizhi Zhu (Steven) [0]
+## Xizhi Zhu (Steven) [1]
 
-- Games: 
+- Games: Qt
 - Contact: xizzhu@GH
 - Home: https://xizzhu.me/
 
@@ -77758,9 +77758,9 @@
 - Contact: Xkeeper0@GH
 - Home: https://xkeeper.net
 
-## xknight [0]
+## xknight [1]
 
-- Games: 
+- Games: Qt
 - Contact: xknight@GH
 
 ## xLAva [2]
@@ -78032,9 +78032,9 @@
 - Contact: yani@GH
 - Home: https://blog.xenokore.com/
 
-## YaNing Lu [0]
+## YaNing Lu [1]
 
-- Games: 
+- Games: Qt
 - Contact: Dami-star@GH
 
 ## Yankes [1]
@@ -78293,9 +78293,9 @@
 - Contact: YJSoft@GH
 - Home: http://yjsoft.pe.kr, http://yjsoft.xyz, https://yjsoft.xyz
 
-## Yoann Lopes [0]
+## Yoann Lopes [1]
 
-- Games: 
+- Games: Qt
 - Contact: marseyeah@GH
 
 ## Yoav Haik [1]
@@ -78486,9 +78486,9 @@
 - Games: COCOS2D-X
 - Contact: yuezang@GH
 
-## Yuhang Zhao [0]
+## Yuhang Zhao [1]
 
-- Games: 
+- Games: Qt
 - Contact: wangwenx190@GH
 
 ## yui​ [1]

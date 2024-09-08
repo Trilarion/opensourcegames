@@ -3,10 +3,8 @@ Specific functions working on the games.
 """
 
 import re
-import os
 import pathlib
 from difflib import SequenceMatcher
-
 from utils import utils, osg_parse, constants as c
 
 regex_sanitize_name = re.compile(r"[^A-Za-z 0-9-+]+")

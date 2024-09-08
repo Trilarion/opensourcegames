@@ -3,7 +3,7 @@
 - Home: https://terasology.org/
 - Inspiration: Minecraft
 - State: mature
-- Keyword: game engine, remake, simulation, 3D, voxel
+- Keyword: framework, remake, 3D
 - Code repository: https://github.com/MovingBlocks/Terasology.git (@created 2011, @stars 3598, @forks 1321)
 - Code language: Java
 - Code license: Apache-2.0

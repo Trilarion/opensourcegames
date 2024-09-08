@@ -2116,9 +2116,9 @@ from running the game or from youtube play videos.
 
 # mindustry
 
-01 282 128 https://mindustrygame.github.io/1.d25af17a.webp
-02 288 128 https://mindustrygame.github.io/2.0d4f9a35.webp
-03 290 128 https://mindustrygame.github.io/3.88567664.webp
+01 282 128 https://mindustrygame.github.io/images/1.png
+02 288 128 https://mindustrygame.github.io/images/2.png
+03 290 128 https://mindustrygame.github.io/images/3.png
 
 # mineclone_2
 
@@ -2991,9 +2991,9 @@ from running the game or from youtube play videos.
 
 # supertuxkart
 
-01 238 128 !https://supertuxkart.net/images/f/f9/Stk093_CandelaCity.jpg
-02 238 128 !https://supertuxkart.net/images/4/4e/Supertuxkart-0.9-screenshot-2.jpg
-03 238 128 !https://supertuxkart.net/images/1/1d/Stk093_Abyss.jpg
+01 238 128 https://supertuxkart.net/images/f/f9/Stk093_CandelaCity.jpg
+02 238 128 https://supertuxkart.net/images/4/4e/Supertuxkart-0.9-screenshot-2.jpg
+03 238 128 https://supertuxkart.net/images/1/1d/Stk093_Abyss.jpg
 
 # supertuxparty
 
@@ -3113,7 +3113,7 @@ from running the game or from youtube play videos.
 
 01 234 128 !https://camo.githubusercontent.com/fc14c156d22d41e2dde35e414223ff3b1900c2c59d7fcb73bd55cffc8610ed0b/68747470733a2f2f72616e646f6d74687269766566696c65732e622d63646e2e6e65742f73637265656e73686f74732f6769746875625f73637265656e73686f745f312e706e67
 02 234 128 !https://camo.githubusercontent.com/4e8b03c4f3f682d26142728b9f27ac3a22c143a542912c7a0c922fe5e44802f2/68747470733a2f2f72616e646f6d74687269766566696c65732e622d63646e2e6e65742f73637265656e73686f74732f6769746875625f73637265656e73686f745f322e706e67
-03 211 128 !https://cdn.discordapp.com/attachments/464847270760939569/561527199090475009/image.png
+03 211 128 https://cdn.discordapp.com/attachments/464847270760939569/561527199090475009/image.png
 
 # thrust
 
@@ -3245,9 +3245,9 @@ from running the game or from youtube play videos.
 
 # unciv
 
-01 242 128 !https://raw.githubusercontent.com/yairm210/Unciv/master/extraImages/GithubPreviewImage.png
-02 242 128 !https://img.itch.zone/aW1hZ2UvNTIzMzIzLzcxOTkwMDAucG5n/original/BVUTYb.png
-03 242 128 !https://img.itch.zone/aW1hZ2UvNTIzMzIzLzcxOTkwMDEucG5n/original/f35Vyd.png
+01 242 128 https://raw.githubusercontent.com/yairm210/Unciv/master/extraImages/GithubPreviewImage.png
+02 242 128 https://img.itch.zone/aW1hZ2UvNTIzMzIzLzcxOTkwMDAucG5n/original/BVUTYb.png
+03 242 128 https://img.itch.zone/aW1hZ2UvNTIzMzIzLzcxOTkwMDEucG5n/original/f35Vyd.png
 
 # undertalemodtool
 

@@ -4,7 +4,7 @@
 - State: mature, inactive since 2014
 - Download: http://game-editor.com/static/Download.html
 - Platform: Windows, Linux, macOS, iOS
-- Keyword: game engine, 2D, editor
+- Keyword: framework, 2D, editor, engine
 - Code repository: https://github.com/game-editor/game-editor.git (@created 2013, @stars 28, @forks 18)
 - Code language: C, C++
 - Code license: GPL-3.0

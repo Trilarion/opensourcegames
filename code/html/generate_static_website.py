@@ -33,7 +33,6 @@ Sitemap is not needed, only for large projects with lots of JavaScript und many 
 # TODO general: optimize layout for mobile view (quite good already)
 # TODO general: meta titles for all pages, make them nice because they appear in search results! (https://www.contentpowered.com/blog/good-ctr-search-console/)
 # TODO general: <a> rel attribute https://www.w3schools.com/TAGS/att_a_rel.asp
-# TODO general: Unspecified as no OS information, change to longer name (Unknown OS support?)
 
 # TODO idea: text description automatically generate from keywords, state, and technical informations for example: First-person action shooter written in C++, inspired by ... but inactive for 7 years.
 
@@ -47,7 +46,7 @@ Sitemap is not needed, only for large projects with lots of JavaScript und many 
 # TODO games: developer details is too small to click on some devices, maybe details is-size6 instead (make technical details size 6 but with more)
 # TODO games: keyword tags underlined to indicate links
 # TODO games: @see-home/@see-download/@add (ignore or replace?)
-# TODO games: top 100 list from Github via their stars with download links (add to entries)
+# TODO games: top 50 list from Github via their stars with download links (add to entries)
 # TODO games: order: homepage, inspiration, download, developer
 # TODO games: link to dependencies (either if existing or if url)
 # TODO games: repositories comments have too much space after( and before ) (use icons without span and with pr-0 on the icon
@@ -114,14 +113,14 @@ statistics_index_path = statistics_path + ['index.html']
 games_by_language_path = games_path + ['languages.html']
 games_by_genres_path = games_path + ['genres.html']
 games_by_platform_path = games_path + ['platforms.html']
-games_top_path = games_path + ['top.html']
+games_top50_path = games_path + ['top50.html']
 games_kids_path = games_path + ['kids.html']
 games_web_path = games_path + ['web.html']
 games_libre_path = games_path + ['libre.html']
 
 # those either are repos with many projects in it or are projects that have commercial content and there is no binary
 # release or there is only a commercial binary release, so you cannot play them right away for free
-github_top_ignored_repos = ('https://github.com/Hopson97/MineCraft-One-Week-Challenge.git', 'https://github.com/jdah/minecraft-weekend.git', 'https://github.com/TerryCavanagh/vvvvvv.git',
+github_top50_ignored_repos = ('https://github.com/Hopson97/MineCraft-One-Week-Challenge.git', 'https://github.com/jdah/minecraft-weekend.git', 'https://github.com/TerryCavanagh/vvvvvv.git',
                               'https://github.com/nicholas-ochoa/OpenSC2K.git', 'https://github.com/BlindMindStudios/StarRuler2-Source.git', 'https://github.com/TheMozg/awk-raycaster.git',
                               'https://github.com/PistonDevelopers/hematite.git', 'https://github.com/keendreams/keen.git', 'https://github.com/ddevault/TrueCraft.git')
 
@@ -822,18 +821,18 @@ def add_license_links_to_entries(entries):
         entry['Code license'] = licenses
 
 
-def get_topN_games(games, N=100):
+def get_top50_games(games):
     """
-    Gets the top N games by stars (either Github or Gitlab)
+
     :param games:
     :return:
     """
-    top_games = []
+    top50_games = []
     for game in games:
         # get stars of repositories
         stars = 0
-        for repo in game.get('Code repository', [])[:1]:  # take only first one
-            if repo in github_top_ignored_repos:
+        for repo in game.get('Code repository', [])[:1]:  # take at most one
+            if repo in github_top50_ignored_repos:
                 continue
             if isinstance(repo, osg_parse.Value):
                 for c in repo.comment.split(','):
@@ -842,16 +841,17 @@ def get_topN_games(games, N=100):
                         continue
                     c = c.split(' ')
                     key = c[0][1:]  # without the @
-                    if len(c) > 1 and key == 'stars':
-                        value = int(c[1])
+                    if len(c) > 1:
+                        value = c[1]
+                    if key == 'stars':
+                        value = int(value)
                         if value > stars:
                             stars = value
-        if stars > 0:
-            top_games.append((game, stars))
-    top_games.sort(key=lambda x:x[1], reverse=True)
-    top_games = top_games[:N]  # get top N
-    top_games =[game for game, stars in top_games]
-    return top_games
+        top50_games.append((game, stars))
+    top50_games.sort(key=lambda x:x[1], reverse=True)
+    top50_games = top50_games[:50]  # get top 50
+    top50_games =[game for game, stars in top50_games]
+    return top50_games
 
 
 def add_screenshot_information(entries):
@@ -1016,9 +1016,8 @@ def generate(entries, inspirations, developers):
     games_by_language = sort_into_categories(entries, c.known_languages, lambda item, category: category in item['Code language'])
     non_games_by_type = sort_into_categories(non_games, c.non_game_keywords, lambda item, category: category in item['Keyword'])
 
-    # extract top Github stars games
-    Ntop = 100
-    top_games = get_topN_games(games, N=Ntop)
+    # extract top 50 Github stars games
+    top50_games = get_top50_games(games)
 
     # base dictionary
     base = {
@@ -1199,18 +1198,18 @@ def generate(entries, inspirations, developers):
     }
     write(template_listing_entries.render(listing=listing), games_libre_path)
 
-    # top github/gitlab games
-    base['title'] = f'OSGL | Games | GitHub Top {Ntop}'
-    base['active_nav'] = ['filter', f'top']
-    # there are no other games coming afterward, can actually number them
-    for index, game in enumerate(top_games):
+    # top 50 github games
+    base['title'] = 'OSGL | Games | GitHub Top 50'
+    base['active_nav'] = ['filter', 'top50']
+    # there are no other games coming afterwards, can actually number them
+    for index, game in enumerate(top50_games):
         game['name'] = f'{index + 1}. ' + game['name']
     listing = {
-        'title': f'GitHub/Lab Stars Top {Ntop}',
-        'subtitle': f'{Ntop} highest rated (by stars on Github or Gitlab) immediately downloadable and playable open source games in the database.', # that can be played online or downloaded
-        'items': top_games
+        'title': 'GitHub Stars Top 50',
+        'subtitle': '50 highest rated (by stars on Github) playable open source games in the database', # that can be played online or downloaded
+        'items': top50_games
     }
-    write(template_listing_entries.render(listing=listing), games_top_path)
+    write(template_listing_entries.render(listing=listing), games_top50_path)
 
     # inspirations folder
     base['title'] = 'OSGL | Inspirational games'

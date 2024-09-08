@@ -4,8 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/ORX
 - State: mature
 - Download: https://github.com/orx/orx/releases
-- Platform: Windows, Linux, macOS, Android
-- Keyword: game engine, 2D
+- Keyword: framework, 2D
 - Code repository: https://github.com/orx/orx.git (@created 2015, @stars 1295, @forks 98)
 - Code language: C
 - Code license: zlib

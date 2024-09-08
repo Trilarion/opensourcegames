@@ -4,7 +4,7 @@
 - Inspiration: RPG Maker
 - State: mature
 - Download: https://easyrpg.org/player/downloads/
-- Keyword: game engine, role playing, clone
+- Keyword: framework, clone
 - Code repository: https://github.com/EasyRPG/Player.git (@created 2012, @stars 925, @forks 181)
 - Code language: C++
 - Code license: GPL-3.0

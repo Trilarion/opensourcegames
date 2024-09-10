@@ -3,7 +3,7 @@
 - Home: https://spacestation13.com/, https://tgstation13.org/
 - Media: https://en.wikipedia.org/wiki/Space_Station_13
 - State: mature
-- Keyword: role playing, online, space, simulation
+- Keyword: role playing, online, space, simulation, action, real time 
 - Code repository: https://github.com/tgstation/tgstation.git (@created 2012, @stars 1571, @forks 4686)
 - Code language: DM
 - Code license: AGPL-3.0, GPL-3.0

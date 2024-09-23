@@ -13,18 +13,35 @@ from running the game or from youtube play videos.
 02 228 128 https://play0ad.com/wp-content/gallery/carousel/%20Iberian%20Town.jpeg
 03 228 128 https://play0ad.com/wp-content/gallery/carousel/PersianTradeRoute.jpg
 
+# 1255_burgomaster
+
+01 160 128
+
 # 1oom
 
 01 204 128 !https://kilgoretroutmaskreplicant.gitlab.io/plain-html/pic01.png
 02 204 128 !https://kilgoretroutmaskreplicant.gitlab.io/plain-html/pic02.png
 
+# 2006scape
+
+01 228 128
+
 # 2048
 
 01 103 128 https://cloud.githubusercontent.com/assets/1175750/8614312/280e5dc2-26f1-11e5-9f1f-5891c3ca8b26.png
 
+# 2048-in-terminal
+
+01 170 128
+
 # 2048_python
 
 01 139 128 https://raw.githubusercontent.com/yangshun/2048-python/master/img/screenshot.png
+
+# 2h4u
+
+01 180 128
+02 180 128
 
 # 3dc
 
@@ -36,6 +53,10 @@ from running the game or from youtube play videos.
 02 366 128 !https://camo.githubusercontent.com/e4cd0881e7acee4be727339f18e47af5c0e5745422586e15ebf7ac34e1317f00/687474703a2f2f6c6f2d74682e6769746875622e696f2f33642e636974792f696d672f7072657669657730332e6a7067
 03 366 128 !https://camo.githubusercontent.com/1d50e833fdf9589dbdb0e5aafc502a7cd131f7b7fc0fe783f63fe10e4d487c53/687474703a2f2f6c6f2d74682e6769746875622e696f2f33642e636974792f696d672f7072657669657730312e6a7067
 
+# 4d_maze_game
+
+01 320 128
+
 # 54321
 
 01 171 128 http://old.nklein.com/products/54321/screenshot/main.png
@@ -43,6 +64,10 @@ from running the game or from youtube play videos.
 # a7xpg
 
 01 164 128 http://a7xpg.sourceforge.net/a7xpg_screen.png
+
+# a_dark_room
+
+01 202 128
 
 # abes_amazing_adventure
 
@@ -2527,6 +2552,10 @@ from running the game or from youtube play videos.
 02 128 128 !https://i.ibb.co/Nm7Chnh/image.png
 03 128 128 !https://i.ibb.co/NLRqjHc/image.png
 
+# overgrowth
+
+01 228 128
+
 # pac_go
 
 01 145 128 https://raw.githubusercontent.com/danicat/pacgo/master/screenshot.jpg
@@ -2893,6 +2922,10 @@ from running the game or from youtube play videos.
 # sopwith_3
 
 01 204 128 !http://www.wingkong.net/sopwith2b/images/sop3_title.gif
+
+# spacecadetpinball
+
+01 166 128
 
 # spludlow_tetris
 
@@ -3360,6 +3393,10 @@ from running the game or from youtube play videos.
 01 195 128 https://raw.githubusercontent.com/acoto87/war1/master/pics/gif1.gif
 02 195 128 https://raw.githubusercontent.com/acoto87/war1/master/pics/gif2.gif
 03 196 128 https://raw.githubusercontent.com/acoto87/war1/master/pics/gif3.gif
+
+# warriorjs
+
+01 260 128
 
 # warzone_2100
 

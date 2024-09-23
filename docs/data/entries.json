@@ -2868,7 +2868,7 @@
    "<a href=\"games/A.html#alex_vs_bus_the_race\" class=\"has-text-weight-semibold\">Alex vs Bus: The Race</a> <a href=\"https://github.com/M374LX/alexvsbus\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
    "arcade, platform",
-   "Windows, Android",
+   "Windows, Linux, Android",
    "C",
    "GPL-3.0"
   ],
@@ -12411,10 +12411,10 @@
   [
    "<a href=\"games/S.html#space_station_13\" class=\"has-text-weight-semibold\">Space Station 13</a> <a href=\"https://spacestation13.com/\"><i class=\"icon-new-tab\"></i></a>",
    "mature",
-   "role playing, space, turn-based",
+   "action, role playing, simulation, space",
    "-",
    "DM",
-   "AGPL-3.0"
+   "AGPL-3.0, GPL-3.0"
   ],
   [
    "<a href=\"games/S.html#space_trader_for_android\" class=\"has-text-weight-semibold\">Space Trader for Android</a> <a href=\"https://bitbucket.org/brucelet/space-trader/\"><i class=\"icon-new-tab\"></i></a>",

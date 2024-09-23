@@ -1200,13 +1200,13 @@ def generate(entries, inspirations, developers):
     write(template_listing_entries.render(listing=listing), games_libre_path)
 
     # top github/gitlab games
-    base['title'] = f'OSGL | Games | GitHub Top {Ntop}'
+    base['title'] = f'OSGL | Games | Top stars {Ntop}'
     base['active_nav'] = ['filter', f'top']
     # there are no other games coming afterward, can actually number them
     for index, game in enumerate(top_games):
         game['name'] = f'{index + 1}. ' + game['name']
     listing = {
-        'title': f'GitHub/Lab Stars Top {Ntop}',
+        'title': f'Top stars {Ntop}',
         'subtitle': f'{Ntop} highest rated (by stars on Github or Gitlab) immediately downloadable and playable open source games in the database.', # that can be played online or downloaded
         'items': top_games
     }

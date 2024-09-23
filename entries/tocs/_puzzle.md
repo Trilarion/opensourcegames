@@ -52,6 +52,7 @@
 - **[EnTT Pacman](../entt_pacman.md)** (C, C++, MIT, mature)
 - **[Faur](../faur.md)** (C, Python, C++, GPL-3.0, beta)
 - **[Fish Fillets - Next Generation](../fish_fillets-next_generation.md)** (C++, GPL-2.0, mature)
+- **[Free Hero Mesh](../free_hero_mesh.md)** (C, JavaScript, Public domain, beta)
 - **[FreeBlocks](../freeblocks.md)** (C, Java, GPL-3.0, beta, inactive since 2015)
 - **[FreeGemas](../freegemas.md)** (C++, GPL-2.0, mature)
 - **[FreeSiege](../freesiege.md)** (C++, GPL-3.0, beta)

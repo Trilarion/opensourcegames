@@ -96,6 +96,7 @@
 - **[openMSX](../openmsx.md)** (C++, GPL-2.0, mature)
 - **[OpenMW for Android](../openmw_for_android.md)** (Kotlin, Java, GPL-3.0, mature)
 - **[opsu!](../opsu.md)** (Java, GPL-3.0, mature)
+- **[Orx](../orx.md)** (C, zlib, mature)
 - **[osu!](../osu.md)** (C#, MIT, beta)
 - **[ouzel](../ouzel.md)** (C, C++, Objective-C, 2-clause BSD, beta)
 - **[PainTown](../paintown.md)** (C++, Java, Python, 3-clause BSD, mature)

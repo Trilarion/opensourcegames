@@ -81,6 +81,7 @@ https://github.com/domeengine/dome
 https://github.com/dtrajko/MoravaEngine
 https://github.com/dulsi (all there)
 https://github.com/emileb/d3es-multithread
+https://github.com/empyreanx/pico_headers
 https://github.com/eukara/freecs
 https://github.com/Eukaryot/sonic3air
 https://github.com/ExplosionEngine/Explosion

@@ -37615,7 +37615,7 @@
 ## Kamiel [1]
 
 - Games: RuneLite
-- Contact: kamielvf@GH, Kamielvf@GH
+- Contact: Kamielvf@GH, kamielvf@GH
 - Home: https://kamiel.dev
 
 ## Kamil Bar [2]
@@ -57074,7 +57074,7 @@
 ## Phinner [1]
 
 - Games: Mindustry
-- Contact: phinner@GH, Phinner@GH
+- Contact: Phinner@GH, phinner@GH
 - Home: https://www.xpdustry.com, https://www.xpdustry.fr
 
 ## phkb [1]

@@ -479,9 +479,9 @@
 - Inspired entries: Castle of the Winds, Castle of the Winds in Elm
 - Media: https://en.wikipedia.org/wiki/Castle_of_the_Winds
 
-## Castle Wolfenstein [3]
+## Castle Wolfenstein [0]
 
-- Inspired entries: DUGA, Gloomy Dungeons, Gloomy Dungeons 2
+- Inspired entries: 
 - Media: https://en.wikipedia.org/wiki/Castle_Wolfenstein
 
 ## Cataclysm [1]
@@ -3461,9 +3461,9 @@
 - Inspired entries: Gee Whiz, Wizardry Legacy
 - Media: https://en.wikipedia.org/wiki/Wizardry
 
-## Wolfenstein 3D [6]
+## Wolfenstein 3D [9]
 
-- Inspired entries: C-Dogs SDL, ECWolf, EDGE, LZWolf, Wolf3dX, Wolf4SDL
+- Inspired entries: C-Dogs SDL, DUGA, ECWolf, EDGE, Gloomy Dungeons, Gloomy Dungeons 2, LZWolf, Wolf3dX, Wolf4SDL
 - Media: https://en.wikipedia.org/wiki/Wolfenstein_3D
 
 ## Wolfenstein: Enemy Territory [1]

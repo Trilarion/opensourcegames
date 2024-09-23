@@ -366,3 +366,4 @@ Yuris Revenge (https://github.com/cookgreen/Yuris-Revenge): Mod to OpenRA
 zedragon (https://github.com/charlierobson/zedragon.git): License not found, Assembly, not sure which OS is supported, no release, not much guidance
 zombie apocalypse html5 (https://github.com/andymason/zombie-apocalypse-html5.git): No license information, abandoned, early development
 zSILENCER (https://github.com/zsilencer/zSILENCER.git, http://zsilencer.com/): No license information, opened issue about it, looks promising
+engge 2 (https://github.com/scemino/engge2): License not found

@@ -4,7 +4,7 @@
 - State: mature
 - Download: https://github.com/cortex-command-community/Cortex-Command-Community-Project/releases
 - Platform: Windows, Linux, macOS
-- Keyword: action, content commercial
+- Keyword: action, content commercial, shooter
 - Code repository: https://github.com/cortex-command-community/Cortex-Command-Community-Project.git
 - Code language: C++, C, Lua
 - Code license: AGPL-3.0

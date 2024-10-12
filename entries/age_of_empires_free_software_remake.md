@@ -5,7 +5,7 @@
 - State: beta
 - Keyword: remake, strategy, content commercial + original required, real-time
 - Code repository: https://github.com/FolkertVanVerseveld/aoe.git
-- Code language: C++
+- Code language: C++, C
 - Code license: Apache-2.0
 
 Re-implementation of Age of Empires and the Rise of Rome expansion.

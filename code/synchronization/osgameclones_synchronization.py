@@ -65,7 +65,10 @@ osgc_name_aliases = {'4DTris': '4D-TRIS', 'fheroes2': 'Free Heroes 2',
                      'Nodes of Yesnod remake': 'Nodes-of-Yesod', 'Serious-Sam-Android': 'Serious Sam Android', 'UnCiv': 'Unciv',
                      'LBA1 Classic (Community)': 'Little Big Adventure 1 - Engine source code', 'LBA2 Classic (Community)': 'Little Big Adventure 2 - Engine source code',
                      'OpenE2140': 'Earth 2140 on OpenRA', 'opene2140': 'OpenE2140', 'Warcraft 2000: Nuclear Epidemic': 'Warcraft 2000 Nuclear Epidemic',
-                     'Abuse (Xenoveritas)': 'Abuse'}
+                     'Abuse (Xenoveritas)': 'Abuse', 'aoe': 'Age of Empires Free Software Remake', 'Brány Skeldalu': 'The Gates of Skeldal',
+                     'pacman (Rust)': 'Pacman (Rust)', 'Ozymandias': 'Akhenaten', 'Reflection Keen': 'ReflectionHLE',
+                     'tetris - Just another Tetris™ clone': 'Just another Tetris™ clone', 'Sonic 3: Angel Island Revistied': 'Sonic 3: Angel Island Revisited',
+                     '1010! Klooni': 'Klooni 1010!'}
 
 # conversion between licenses syntax them and us
 osgc_licenses_map = {'GPL2': 'GPL-2.0', 'GPL3': 'GPL-3.0', 'AGPL3': 'AGPL-3.0', 'LGPL3': 'LGPL-3.0',
@@ -84,7 +87,8 @@ osgc_ignored_entries = ["A Mouse's Vengeance", 'achtungkurve.com', 'AdaDoom3', '
                         'Jumping Jack: Further Adventures', 'LixD', 'Meridian 59 German Server 112',
                         'Meridian 59 Server 105', 'OpenGeneral', 'OpenKKnD', 'Tile World 2', 'BattleCity', '1JETPACK.EXE',
                         'D3es', 'Doom Classic for iOS', 'Prince of Persia (JS) - princejs.com', 'PseuWoW', 'Raptor (JS)',
-                        'Shining Force 2 Reverse Engineer (SF2RE)', 'Super Methane Brothers (homebrew edition)']
+                        'Shining Force 2 Reverse Engineer (SF2RE)', 'Super Methane Brothers (homebrew edition)',
+                        'Amnesia: The Dark Descent (rework)', 'pacman (harto)']
 
 
 def unique_field_contents(entries, field):
@@ -501,7 +505,7 @@ if __name__ == "__main__":
             target_file = c.entries_path / filename
             if target_file.is_file():
                 print(f'warning: file {filename} already existing, save under slightly different name')
-                target_file = c.entries_path / filename[:-3] + '-duplicate.md'
+                target_file = c.entries_path / (filename[:-3] + '-duplicate.md')
                 if target_file.is_file():
                     continue  # just for safety reasons
 

@@ -46,7 +46,6 @@ https://github.blog/2014-01-06-github-game-off-ii-winners/
 https://github.blog/2021-05-19-ludum-dare-48-staff-picks/
 https://github.blog/2023-02-03-ludum-dare-52-staff-picks/
 https://github.com/actsl/kiss_sdl
-https://github.com/alexbatalov/fallout1-ce
 https://github.com/alexbatalov/fallout1-re
 https://github.com/alexbatalov/fallout2-re
 https://github.com/andrejnau/FlyCube
@@ -83,7 +82,6 @@ https://github.com/dulsi (all there)
 https://github.com/emileb/d3es-multithread
 https://github.com/empyreanx/pico_headers
 https://github.com/eukara/freecs
-https://github.com/Eukaryot/sonic3air
 https://github.com/ExplosionEngine/Explosion
 https://github.com/fogleman/Minecraft
 https://github.com/fogleman/nes
@@ -113,6 +111,7 @@ https://github.com/id-Software/Quake
 https://github.com/igravitystudios/matchimals.fun
 https://github.com/Illation/ETEngine
 https://github.com/inanevin/LinaEngine
+https://github.com/InvadingOctopus/comedot
 https://github.com/ipodtouch0218/NSMB-MarioVsLuigi
 https://github.com/irisengine/iris
 https://github.com/Isti01/glCraft
@@ -152,6 +151,7 @@ https://github.com/minetest/irrlicht
 https://github.com/MinicraftPlus/minicraft-plus-revived
 https://github.com/moddio/taro
 https://github.com/MohitSethi99/ArcGameEngine
+https://github.com/mosra/magnum
 https://github.com/MrFrenik/gunslinger
 https://github.com/Mukarillo/UnityTetris
 https://github.com/nCine/nCine
@@ -186,12 +186,12 @@ https://github.com/SamVanheer/halflife-updated
 https://github.com/SasLuca/rayfork
 https://github.com/search?utf8=%E2%9C%93&q=freesynd&type=
 https://github.com/SerpentAI/SerpentAI
+https://github.com/sezero/quakespasm
 https://github.com/shakiba/planck.js
 https://github.com/sharkdp/cube-composer
 https://github.com/ShenMian/Clementine
 https://github.com/shibbo/Petari
 https://github.com/skidding/flatris
-https://github.com/skynettx/dosraptor
 https://github.com/solenum/exengine
 https://github.com/space-wizards/RobustToolbox
 https://github.com/Squalr/Squally
@@ -202,10 +202,12 @@ https://github.com/supernovaengine/supernova
 https://github.com/swr06/GLGame
 https://github.com/ta-david-yu/2D-Platformer-Hunter
 https://github.com/tainicom/Aether.Physics2D
+https://github.com/tassaron/muffin-game
 https://github.com/tgfrerer/island
 https://github.com/TheBoneJarmer/TiledCS
 https://github.com/TheCherno/Sparky
 https://github.com/thinkpixellab/agent8ball
+https://github.com/timoinutilis/lowres-nx
 https://github.com/tmewett/BrogueCE
 https://github.com/tobspr/shapez.io
 https://github.com/tomlooman/SimpleFPSTemplate
@@ -239,6 +241,7 @@ https://libregamewiki.org/index.php?title=Libregamewiki_talk:Community_Portal&ol
 https://libregamewiki.org/Libregamewiki:Suggested_games#Likely_sources_for_more_free_games
 https://lichess.org/api
 https://lithyscaphe.blogspot.com/p/principia-apocrypha.html
+https://lowresnx.inutilis.com/programs.php?category=game
 https://news.ycombinator.com/item?id=33314960
 https://notwood.net/sgiflight/
 https://odr.chalmers.se/handle/20.500.12380/219006
@@ -249,6 +252,7 @@ https://planetgenesis.sourceforge.net/
 https://play.google.com/store/apps/dev?id=8387589286898375037 (where is the source, not open source otherwise)
 https://playcanvas.com/
 https://pyweek.org/4/entries/ (Ascent of Justice)
+https://rainey.tech/arcade
 https://revolutionarygamesstudio.com/ Trhive
 https://rpgmaker.net/engines/
 https://rpgmaker.net/engines/rpg20xx/

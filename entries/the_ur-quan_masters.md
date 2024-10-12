@@ -11,7 +11,7 @@
 - Code license: GPL-2.0
 - Developer: Alex Volkov, Chris Nelson, Michael Martin, Mika Kolehmainen, Serge van den Boom
 
-(or UQM) project ports Star Control II to modern operating systems.
+(aka UQM) project ports Star Control II to modern operating systems.
 See also [Ur-Quan Masters HD](https://sourceforge.net/projects/urquanmastershd/)
 
 ## Building

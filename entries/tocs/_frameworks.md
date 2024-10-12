@@ -29,6 +29,7 @@
 - **[Mana](../mana.md)** (C++, GPL-2.0, beta)
 - **[Maratis](../maratis.md)** (C++, GPL-2.0, beta)
 - **[MonoGame](../monogame.md)** (C#, MS-PL, MIT, mature)
+- **[Moondust Project](../moondust_project.md)** (C++, C, GPL-3.0, beta)
 - **[Nazara Engine](../nazara_engine.md)** (C, C++, MIT, beta)
 - **[O.H.R.RPG.C.E.](../ohrrpgce.md)** (Basic, GPL-2.0, mature)
 - **[Octaforge](../octaforge.md)** (C++, Custom, mature)
@@ -64,3 +65,4 @@
 - **[VQEngine](../vqengine.md)** (C++, GPL-3.0, beta)
 - **[xoreos](../xoreos.md)** (C++, GPL-3.0, beta)
 - **[ZGameEditor](../zgameeditor.md)** (Pascal, MIT, mature)
+- **[ZQuest Classic](../zquest_classic.md)** (C++, C, GPL-3.0, mature)

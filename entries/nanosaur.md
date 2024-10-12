@@ -1,9 +1,11 @@
-# Nanosaur Source Port
+# Nanosaur
 
 - Home: https://pangeasoft.net/nano/
 - Inspiration: Nanosaur
 - State: mature
-- Keyword: action, remake, content commercial
+- Download: https://github.com/jorio/Nanosaur/releases
+- Platform: Windows, Linux, macOS
+- Keyword: action, remake, content commercial, shooter
 - Code repository: https://github.com/jorio/Nanosaur.git (@created 2020, @stars 345, @forks 22)
 - Code language: C
 - Code license: CC-BY-NC-SA-4.0

@@ -4,7 +4,7 @@
 - Inspiration: Amnesia: The Dark Descent
 - State: mature, inactive since 2010
 - Keyword: action, content commercial, horror, original required
-- Code repository: https://github.com/FrictionalGames/AmnesiaTheDarkDescent.git
+- Code repository: https://github.com/FrictionalGames/AmnesiaTheDarkDescent.git, https://github.com/OSS-Cosmic/AmnesiaTheDarkDescent.git (@add)
 - Code language: C++
 - Code license: GPL-3.0
 

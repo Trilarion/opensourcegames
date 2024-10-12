@@ -156,7 +156,7 @@ known_languages = tuple(sorted(list(language_urls.keys()), key=str.casefold)) + 
 # only these will be used when gathering statistics
 known_licenses = (
     '2-clause BSD', '3-clause BSD', '4-clause BSD', 'AFL-3.0', 'AGPL-3.0', 'Apache-2.0', 'Artistic License-1.0', 'Artistic License-2.0',
-    'Boost-1.0', 'CC-BY-NC-3.0', 'CC-BY-NC-SA-2.0', 'CC-BY-NC-SA-3.0', 'CC-BY-SA-3.0', 'CC-BY-NC-SA-4.0', 'CC-BY-NC-ND-4.0',
+    'BSL-1.0', 'CC-BY-NC-3.0', 'CC-BY-NC-SA-2.0', 'CC-BY-NC-SA-3.0', 'CC-BY-SA-3.0', 'CC-BY-NC-SA-4.0', 'CC-BY-NC-ND-4.0',
     'CC-BY-SA-4.0', 'CC0', 'Custom', 'EPL-2.0', 'GPL-2.0', 'GPL-3.0', 'IJG', 'ISC', 'Java Research License', 'LGPL-2.0',
     'LGPL-2.1', 'LGPL-3.0', 'MAME', 'MIT', 'MPL-1.1', 'MPL-2.0', 'MS-PL', 'MS-RL', 'NetHack General Public License',
     'None', 'NPOSL-3.0', 'Proprietary', 'Public domain', 'SWIG license', 'Unlicense', 'WTFPL', 'wxWindows license', 'zlib', '?')
@@ -169,7 +169,7 @@ license_urls_repo = {
     'AGPL': 'https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License',
     'Apache': 'https://en.wikipedia.org/wiki/Apache_License',
     'Artistic License': 'https://en.wikipedia.org/wiki/Artistic_License',
-    'Boost': 'https://en.wikipedia.org/wiki/Boost_(C%2B%2B_libraries)#License',
+    'BSL': 'https://en.wikipedia.org/wiki/Boost_(C%2B%2B_libraries)#License',
     'CC': 'https://en.wikipedia.org/wiki/Creative_Commons_license',
     'EPL': 'https://en.wikipedia.org/wiki/Eclipse_Public_License',
     'GPL': 'https://en.wikipedia.org/wiki/GNU_General_Public_License',

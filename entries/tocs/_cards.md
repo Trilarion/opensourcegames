@@ -17,6 +17,7 @@
 - **[OpenEtG](../openetg.md)** (JavaScript, Rust, MIT, beta)
 - **[OpenTriad](../opentriad.md)** (Java, GPL-3.0, beta, inactive since 2017)
 - **[Pretend You're Xyzzy](../pretend_youre_xyzzy.md)** (Java, JavaScript, 2-clause BSD, mature, inactive since 2020)
+- **[PySol Fan Club edition](../pysol_fan_club_edition.md)** (Python, GPL-3.0, mature)
 - **[PySol](../pysol.md)** (Python, GPL-2.0, mature, inactive since 2004)
 - **[Simple-Solitaire](../simple-solitaire.md)** (Java, GPL-3.0, mature)
 - **[Tabletop Club](../tabletop_club.md)** (GDScript, MIT, beta)

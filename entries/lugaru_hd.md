@@ -1,4 +1,4 @@
-# Lugaru
+# Lugaru HD
 
 - Home: https://osslugaru.gitlab.io/, http://blog.wolfire.com/2010/05/Lugaru-goes-open-source
 - Media: https://en.wikipedia.org/wiki/Lugaru

@@ -146,6 +146,12 @@ from running the game or from youtube play videos.
 
 01 171 128 http://allegator.sourceforge.net/images/ss_alex4.gif
 
+# alex_vs_bus_the_race
+
+01 228 128 https://raw.githubusercontent.com/M374LX/alexvsbus/master/docs/img/screenshot1.png
+02 228 128 https://raw.githubusercontent.com/M374LX/alexvsbus/master/docs/img/screenshot2.png
+03 228 128 https://raw.githubusercontent.com/M374LX/alexvsbus/master/docs/img/screenshot3.png
+
 # alien_assault_traders
 
 01 243 128 https://a.fsdn.com/con/app/proj/aatrade/screenshots/224946.jpg/max/max/1

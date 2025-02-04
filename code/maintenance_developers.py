@@ -39,9 +39,17 @@ class DevelopersMaintainer:
         start_time = time.process_time()
         developer_names = list(self.developers.keys())
         for index, name in enumerate(developer_names):
+            current_dev = self.developers.get(name)
+            current_contact_set = set(current_dev['Contact']) if 'Contact' in current_dev else set()
             for other_name in developer_names[index + 1:]:
                 if osg.name_similarity(str.casefold(name), str.casefold(other_name)) > 0.85:
                     print(f' {name} - {other_name} is similar')
+                other_dev = self.developers.get(other_name)
+                if len(current_contact_set) > 0 and 'Contact' in other_dev:
+                    other_contact_set = set(other_dev['Contact'])
+                    intersecting = current_contact_set.intersection(other_contact_set)
+                    if len(intersecting) > 0:
+                        print(f' {name} - {other_name} share the {intersecting} contact(s)')
         print(f'duplicates checked (took {time.process_time() - start_time:.1f}s)')
 
     def check_for_orphans(self):

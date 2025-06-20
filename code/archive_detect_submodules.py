@@ -27,8 +27,6 @@ if __name__ == '__main__':
     base_folder = archive_folder / 'git'
     text = u.read_text(code_folder / 'archives.json')
     archives = json.loads(text)
-
-    # loop over all git archives
     submodules = []
     for repo in archives['git']:
         print(f'process {repo}')

@@ -25,8 +25,6 @@ if __name__ == '__main__':
         archive_folder = pathlib.Path(archive_folder)
 
     base_folder = archive_folder / 'git'
-
-    # read archives.json
     text = u.read_text(code_folder / 'archives.json')
     archives = json.loads(text)
 

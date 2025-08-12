@@ -4,7 +4,7 @@
 - Inspiration: Tetris
 - State: mature, inactive since 2012
 - Platform: Windows, Linux, macOS
-- Keyword: puzzle, 4D, clone, content open
+- Keyword: puzzle, clone, content open
 - Code repository: https://gitlab.com/osgames/dtris.git (conversion of bzr, @created 2019, @stars 1, @forks 1), https://code.launchpad.net/4dtris (bzr)
 - Code language: C
 - Code license: GPL-2.0

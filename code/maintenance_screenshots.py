@@ -1,7 +1,7 @@
 """
 Updates the readme for screenshots
 
-rejected.txt contains the screenshots we do not want to show (because they do not feature content, but rather logos only)
+entries/screenshots/rejected.txt contains the screenshots we do not want to show (because they do not feature content, but rather logos only)
 """
 
 from PIL import Image

@@ -4,7 +4,9 @@ by parsing the Python files and looking for import statements.
 """
 
 import re
-from utils.utils import *
+import pathlib
+import os
+from utils import utils as u
 
 
 def local_module(module_base, file_path, module):
@@ -61,7 +63,7 @@ if __name__ == "__main__":
         file_path = os.path.split(file)[0]
 
         # read file content
-        content = read_text(file)
+        content = u.read_text(file)
 
         # remove comments
         content = regex_comment.sub('', content)

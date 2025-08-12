@@ -13,6 +13,28 @@ http://www.usgo.org/go-software
 http://www.vbgore.com/Main_Page
 http://www.zsnes.com/ (emulator/platform)
 https://001gamecreator.com/
+https://github.com/Starciad?tab=repositories
+https://github.com/ellisonleao/magictools
+https://github.com/radek-sprta/awesome-game-remakes
+https://github.com/Whimfoome/godot-FirstPersonStarter
+https://lutris.net/games?q=&flags=fully_libre
+https://github.com/phoboslab/Impact
+https://github.com/gdquest-demos/godot-2d-space-game
+https://github.com/oxygine/oxygine-framework
+https://github.com/id-Software/wolf3d
+https://github.com/bitbrain/godot-gamejam
+https://github.com/oxygine/oxygine-framework
+https://github.com/aaron5670/PokeMMO-Online-Realtime-Multiplayer-Game
+https://github.com/rapiz1/DungeonRush
+https://github.com/pacampbell/Game
+https://github.com/sgift/driftingsouls
+https://github.com/iniside/ActionRPGGame
+https://github.com/methusalah/OpenRTS
+https://github.com/pacampbell/Game
+https://github.com/marukrap/RoguelikeDevResources
+https://github.blog/open-source/game-off-2024-winners/
+https://github.com/DexterHuang/CyberCodeOnline
+https://github.com/Whimfoome/godot-FirstPersonStarter
 https://agateau.com/games/
 https://app.assembla.com/spaces/Project_Valkyrie2/wiki
 https://archive.codeplex.com/?p=turnota
@@ -253,7 +275,7 @@ https://play.google.com/store/apps/dev?id=8387589286898375037 (where is the sour
 https://playcanvas.com/
 https://pyweek.org/4/entries/ (Ascent of Justice)
 https://rainey.tech/arcade
-https://revolutionarygamesstudio.com/ Trhive
+https://revolutionarygamesstudio.com/ Thrive
 https://rpgmaker.net/engines/
 https://rpgmaker.net/engines/rpg20xx/
 https://rpgmaker.net/games/2664/
@@ -266,7 +288,7 @@ https://stendhalgame.org/wiki/Marauroa
 https://verge-rpg.com/
 https://voltisoft.com/miragelegacy
 https://web.archive.org/web/20060411054656/http://home.gna.org/oomadness/en/index.html
-https://web.archive.org/web/20060812164344/http://rubyforge.org/ (games from rubyforge)
+https://web.archive.org/web/20060812164344/http://rubyforge.org/ (games from RubyForge)
 https://web.archive.org/web/20101122212940/http://shankel.best.vwh.net:80/opentrek.html
 https://web.archive.org/web/20161209004445/https://notabug.org/koz.ross/awesome-gamedev
 https://web.archive.org/web/20170714065728/http://users.olis.net.au/zel/
@@ -300,5 +322,9 @@ https://www.tapatalk.com/groups/imperilist/
 https://www.wurfelengine.net/
 https://zdoom.org/downloads (gzdoom, lzdoom)
 https://zope.readthedocs.io/en/latest/
+https://github.com/bobeff/open-source-games
+https://github.com/bobeff/open-source-engines
+https://github.com/larpon/DeadAscend
+https://github.com/larpon/puzzle_vibes
 Pinball Disk Room
 Seahorse Adventures

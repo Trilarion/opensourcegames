@@ -15,9 +15,7 @@ if __name__ == '__main__':
 
     regex_submodules = re.compile(r"url = (\S*)", re.MULTILINE)
 
-    # get this folder
-    code_folder = c.root_path / 'code'
-
+    # get the archive folder
     archive_folder = c.get_config('archive-folder')
     if not archive_folder:
         raise RuntimeError('No archive folder specified.')
@@ -27,6 +25,7 @@ if __name__ == '__main__':
     base_folder = archive_folder / 'git'
 
     # read archives.json
+    code_folder = c.root_path / 'code'
     text = u.read_text(code_folder / 'archives.json')
     archives = json.loads(text)
 

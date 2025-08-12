@@ -10,7 +10,7 @@ matcher = re.compile(r'(.*)? \((.*)?\): (.*)')  # general structure: name (link,
 
 def read_rejected_file():
     """
-    Read list of rejected games informations.
+    Read list of rejected games information.
     Uses very simple parsing.
     :return: List of dictionaries with keys: Title, URLs, Description
     """
@@ -31,7 +31,7 @@ def write_rejected_file(rejected):
     """
     Write list of rejected entries to file.
     Sorts by title.
-    :param rejected: List of dictionaries with keys: Title, URLs, Descriotn
+    :param rejected: List of dictionaries with keys: Title, URLs, Description
     """
     # sort by name
     rejected.sort(key=lambda x: str.casefold(x['Title']))

@@ -1,5 +1,6 @@
 """
-Everything specific to the Github API (via PyGithub - https://pygithub.readthedocs.io/en/latest/index.html).
+Everything specific to the Github API
+See PyGithub https://pygithub.readthedocs.io/en/latest/index.html
 """
 
 from github import Github, GithubException
@@ -20,6 +21,9 @@ def normalize_repo_name(repo):
 
 
 def repo_get_contributors(repo):
+    """
+    Get contributors of a repo
+    """
     contributors = []
     c = repo.get_contributors()
     for i in range(c.totalCount):
@@ -62,6 +66,9 @@ def retrieve_repo_info(repos, token=None):
 
 
 def get_user(login, token=None):
+    """
+    Gets user information
+    """
     if token:
         g = Github(token)
     else:

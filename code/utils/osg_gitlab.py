@@ -1,5 +1,6 @@
 """
-Everything specific to the Gitlab API (via Python GitLab https://python-gitlab.readthedocs.io/en/stable/)
+Everything specific to the Gitlab API
+See Python GitLab https://python-gitlab.readthedocs.io/en/stable/
 """
 
 from dateutil import parser
@@ -20,10 +21,7 @@ def normalize_repo_name(repo):
 
 def retrieve_repo_info(repos, token=None):
     """
-
-    :param repos:
-    :param token:
-    :return:
+    Get general repo info.
     """
     single_repo = isinstance(repos, str)
     if single_repo:

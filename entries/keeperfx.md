@@ -1,9 +1,10 @@
 # KeeperFX
 
-- Home: https://lubiki.keeperklan.com/html/dk_keeperfx.php
+- Home: https://keeperfx.net/, https://lubiki.keeperklan.com/html/dk_keeperfx.php (@old)
 - Inspiration: Dungeon Keeper
-- State: beta
-- Download: https://lubiki.keeperklan.com/html/dk_keeperfx_dwnld.php
+- State: mature
+- Download: https://keeperfx.net/downloads
+- Platform: Windows
 - Keyword: strategy, content commercial, original required, real-time
 - Code repository: https://github.com/dkfans/keeperfx.git (@created 2015, @stars 658, @forks 66)
 - Code language: C, C++

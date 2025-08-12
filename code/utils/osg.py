@@ -7,32 +7,32 @@ import os
 import pathlib
 from difflib import SequenceMatcher
 
-from utils import utils, osg_parse, constants as c
+from utils import utils as u, osg_parse, constants as c
 
 regex_sanitize_name = re.compile(r"[^A-Za-z 0-9-+]+")
 regex_sanitize_name_space_eater = re.compile(r" +")
 
 
 def name_similarity(a, b):
+    """
+    Computes similarity between two strings (normalize to lower case and compute ratio).
+    """
     return SequenceMatcher(None, str.casefold(a), str.casefold(b)).ratio()
 
 
 def entry_iterator():
     """
-
+    Generator that yields all the entry files content in the entry folder.
     """
 
-    # get all entries (ignore everything starting with underscore)
-    entries = c.entries_path.iterdir()
-
     # iterate over all entries
-    for entry in entries:
-        # ignore directories ("tocs" for example)
+    for entry in c.entries_path.iterdir():
+        # ignore directories
         if entry.is_dir():
             continue
 
         # read entry
-        content = utils.read_text(entry)
+        content = u.read_text(entry)
 
         # yield
         yield entry, entry.name, content
@@ -44,6 +44,7 @@ def canonical_name(name):
     """
     name = name.casefold()
     name = name.replace('ö', 'o').replace('ä', 'a').replace('ü', 'u')
+    # TODO there could be more "exotic" letters like with accents, check by iterating over game titles
     name = regex_sanitize_name.sub('', name)
     name = regex_sanitize_name_space_eater.sub('_', name)
     name = name.replace('_-_', '-')
@@ -54,8 +55,7 @@ def canonical_name(name):
 
 def read_developers():
     """
-
-    :return:
+    Read the developers file.
     """
     grammar_file = c.code_path / 'grammar_listing.lark'
     developers = osg_parse.read_and_parse(c.developer_file, grammar_file, osg_parse.ListingTransformer)
@@ -94,8 +94,7 @@ def read_developers():
 
 def write_developers(developers):
     """
-
-    :return:
+    Write developers back to file.
     """
     # convert dictionary to list
     developers = list(developers.values())
@@ -135,14 +134,13 @@ def write_developers(developers):
         content += '\n'
 
     # write
-    utils.write_text(c.developer_file, content)
+    u.write_text(c.developer_file, content)
 
 
 def read_inspirations():
     """
     Reads the info list about the games originals/inspirations from inspirations.md using the Lark parser grammar
     in grammar_listing.lark
-    :return:
     """
     # read inspirations
 
@@ -185,8 +183,6 @@ def read_inspirations():
 def write_inspirations(inspirations):
     """
     Given an internal dictionary of inspirations, write it into the inspirations file
-    :param inspirations:
-    :return:
     """
     # convert dictionary to list
     inspirations = list(inspirations.values())
@@ -222,7 +218,7 @@ def write_inspirations(inspirations):
         content += '\n'
 
     # write
-    utils.write_text(c.inspirations_file, content)
+    u.write_text(c.inspirations_file, content)
 
 
 def read_entries():
@@ -232,7 +228,7 @@ def read_entries():
 
     # setup parser and transformer
     grammar_file = c.code_path / 'grammar_entries.lark'
-    grammar = utils.read_text(grammar_file)
+    grammar = u.read_text(grammar_file)
     parse = osg_parse.create(grammar, osg_parse.EntryTransformer)
 
     # a database of all important infos about the entries
@@ -249,7 +245,7 @@ def read_entries():
         try:
             entry = parse(content)
             entry = [('File', file),] + entry # add file information to the beginning
-            entry = check_and_process_entry(entry)
+            entry = _check_and_process_entry(entry)
         except Exception as e:
             print(f'{file} - {e}')
             exception_happened = e # just store last one
@@ -276,11 +272,11 @@ def read_entry(file):
 
     # setup parser and transformer
     grammar_file = c.code_path / 'grammar_entries.lark'
-    grammar = utils.read_text(grammar_file)
+    grammar = u.read_text(grammar_file)
     parse = osg_parse.create(grammar, osg_parse.EntryTransformer)
 
     # read entry file
-    content = utils.read_text(file)
+    content = u.read_text(file)
     if not content.endswith('\n'):
         content += '\n'
 
@@ -288,7 +284,7 @@ def read_entry(file):
     try:
         entry = parse(content)
         entry = [('File', file),] + entry  # add file information to the beginning
-        entry = check_and_process_entry(entry)
+        entry = _check_and_process_entry(entry)
     except Exception as e:
         print(f'{file} - {e}')
         raise RuntimeError(e)
@@ -296,11 +292,9 @@ def read_entry(file):
     return entry
 
 
-def check_and_process_entry(entry):
+def _check_and_process_entry(entry):
     """
-
-    :param entry:
-    :return:
+    Used during reading and writing of entries.
     """
     message = ''
 
@@ -420,15 +414,18 @@ def check_and_process_entry(entry):
 
 
 def is_inactive(entry):
-    state = entry['State']
-    phrase = 'inactive since '
-    return any(x.startswith(phrase) for x in state)
+    """
+    Convenience function returning the "inactive" state from an entry.
+    """
+    return any(x.startswith('inactive since ') for x in entry['State'])
 
 
 def extract_inactive_year(entry):
-    state = entry['State']
+    """
+    Convenience function: If inactive, returns the year of inactivity, otherwise returns None.
+    """
     phrase = 'inactive since '
-    inactive_year = [x[len(phrase):] for x in state if x.startswith(phrase)]
+    inactive_year = [x[len(phrase):] for x in entry['State'] if x.startswith(phrase)]
     assert len(inactive_year) <= 1
     if inactive_year:
         return int(inactive_year[0])
@@ -438,8 +435,7 @@ def extract_inactive_year(entry):
 
 def write_entries(entries):
     """
-
-    :return:
+    Write all entries to disk.
     """
 
     # iterate over all entries
@@ -449,11 +445,9 @@ def write_entries(entries):
 
 def write_entry(entry, overwrite=True):
     """
-
-    :param entry:
-    :return:
+    Writes a single entry to disk.
     """
-    # TODO check entry
+    # TODO do we check entry before writing?
 
     # get path
     entry_path = c.entries_path / entry['File']
@@ -464,14 +458,15 @@ def write_entry(entry, overwrite=True):
     content = create_entry_content(entry)
 
     # write entry
-    utils.write_text(entry_path, content)
+    u.write_text(entry_path, content)
 
 
 def render_value(value):
     """
-
-    :param value:
-    :return:
+    Converts osg_parse.Value to string (for output).
+    Puts the value in quotes "" (as an escape) if it contains a comma or a parenthesis.
+    (Some game titles have that for example)
+    If there is a comment, adds it in parentheses.
     """
     if isinstance(value, osg_parse.Value):
         comment = value.comment
@@ -480,9 +475,8 @@ def render_value(value):
     if any(x in value for x in (',', ' (')):
         value = f'"{value}"'
     if comment:
-        return f'{value} ({comment})'
-    else:
-        return value
+        value = f'{value} ({comment})'
+    return value
 
 
 def create_entry_content(entry):
@@ -490,8 +484,6 @@ def create_entry_content(entry):
     Creates the entry content from an internal representation as dictionary with fields to a text file representation
     that can be stored in the md files. It should be compatible with the grammar and reading a file and re-creating the
     content should not change the content. Importantly, the comments of the values have to be added here.
-    :param entry:
-    :return:
     """
 
     # title
@@ -547,9 +539,8 @@ def create_entry_content(entry):
 
 def is_url(str):
     """
+    Catches URLs in an entry (because URLs can also be in content)
     Could be too generous. See https://stackoverflow.com/questions/7160737/how-to-validate-a-url-in-python-malformed-or-not for other possibilities.
-    :param str:
-    :return:
     """
     if any(str.startswith(x) for x in c.valid_url_prefixes) and not ' ' in str:
         return True
@@ -559,8 +550,6 @@ def is_url(str):
 def all_urls(entries):
     """
     Gets all urls of all entries in a dictionary (key=url value=list of entries (file name) with this url
-    :param entries: 
-    :return: 
     """
     # TODO there are other fields than c.url_fields and also in comments, maybe just regex on the whole content
     # TODO this might be part of the external link check or it might not, check for duplicate code
@@ -577,9 +566,10 @@ def all_urls(entries):
     return urls
 
 
-def git_repo(repo):
+def get_git_repo(repo):
     """
     Tests if a repo URL is a git repo, then returns the repo url.
+    If there is none, return None.
     """
 
     # everything that starts with 'git://'
@@ -600,9 +590,10 @@ def git_repo(repo):
     return None
 
 
-def svn_repo(repo):
+def get_svn_repo(repo):
     """
     Tests if a repo URL is a svn repo, then returns the repo url.
+    If there is none, return None.
     """
 
     # we can just go for known providers of svn
@@ -614,9 +605,10 @@ def svn_repo(repo):
     return None
 
 
-def hg_repo(repo):
+def get_hg_repo(repo):
     """
     Tests if a repo URL is a hg repo, then returns the repo url.
+    If there is none, return None.
     """
     if repo.startswith('https://bitbucket.org/') and not repo.endswith('.git'):
         return repo
@@ -630,12 +622,11 @@ def hg_repo(repo):
 
 def read_screenshots_overview():
     """
-
-    :return:
+    Reads the screenshot readme file.
     """
     # read screenshots readme and parse
     overview = {}
-    text = utils.read_text(c.screenshots_file)
+    text = u.read_text(c.screenshots_file)
     for entry in text.split('\n# ')[1:]:  # skip first paragraph
         lines = entry.split('\n')  # split into lines
         name = lines[0]
@@ -659,12 +650,10 @@ def read_screenshots_overview():
 
 def write_screenshots_overview(overview):
     """
-
-    :param overview:
-    :return:
+    Writes the screenshot readme file.
     """
     # get preamble
-    text = utils.read_text(c.screenshots_file)
+    text = u.read_text(c.screenshots_file)
     text = text.split('\n# ')[0] + '\n'
 
     # write out each entry sorted by name
@@ -680,4 +669,4 @@ def write_screenshots_overview(overview):
         t += '\n'
         text += t
 
-    utils.write_text(c.screenshots_file, text)
+    u.write_text(c.screenshots_file, text)

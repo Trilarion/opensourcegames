@@ -1,5 +1,5 @@
 """
-Paths, properties.
+Paths, properties, links, definitions for the whole project.
 """
 
 import pathlib
@@ -39,9 +39,7 @@ config.read(local_config_file)
 
 def get_config(key):
     """
-
-    :param key:
-    :return:
+    Returns a key from the config file.
     """
     return config['general'][key]
 

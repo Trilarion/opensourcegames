@@ -3,7 +3,6 @@ Utilities for the tools. Only depending on standard Python or third party module
 """
 
 import os
-import pathlib
 import shutil
 import subprocess
 import tarfile
@@ -97,6 +96,9 @@ def detect_archive_type(name):
 
 
 def folder_size(path):
+    """
+    Walks a directory and adds the sizes of each file.
+    """
     size = 0
     for dirpath, dirnames, filenames in path.walk():
         for file in filenames:
@@ -141,9 +143,9 @@ def determine_latest_last_modified_date(folder):
     for dirpath, dirnames, filenames in folder.walk():
         for filename in filenames:
             filepath = dirpath / filename
-            lastmodified = os.path.getmtime(filepath)
-            if lastmodified > latest_last_modified:
-                latest_last_modified = lastmodified
+            last_modified = os.path.getmtime(filepath)
+            if last_modified > latest_last_modified:
+                latest_last_modified = last_modified
     return latest_last_modified
 
 
@@ -209,7 +211,7 @@ def handleRemoveReadonly(func, path, exc):
 
 def git_clear_path(git_path):
     """
-    Clears all in a path except the '.git' directory
+    Removes all subfiles and subfolders in a path except the '.git' directory
     """
     for item in git_path.iterdir():
         # ignore '.git
@@ -246,7 +248,6 @@ def unzip(zip_file, destination_directory):
 
     :param zip_file:
     :param destination_directory:
-    :return:
     """
     dirs = {}
 
@@ -273,6 +274,9 @@ def unzip(zip_file, destination_directory):
 
 
 def strip_url(url):
+    """
+    Removes common prefixes and suffixes from URLs.
+    """
     for prefix in ('http://', 'https://', 'svn://', 'www.'):
         if url.startswith(prefix):
             url = url[len(prefix):]
@@ -301,7 +305,8 @@ def load_properties(filepath, sep='=', comment_char='#'):
 
 def unique_elements_and_occurrences(elements):
     """
-
+    Counts how often each unique element of a list occurs in the list and returns a tuple of
+    (element, number of occurrences) for each unique element.
     """
     unique_elements = {}
     for element in elements:

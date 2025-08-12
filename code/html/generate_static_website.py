@@ -35,7 +35,7 @@ Sitemap is not needed, only for large projects with lots of JavaScript und many 
 # TODO general: <a> rel attribute https://www.w3schools.com/TAGS/att_a_rel.asp
 # TODO general: Unspecified as no OS information, change to longer name (Unknown OS support?)
 
-# TODO idea: text description automatically generate from keywords, state, and technical informations for example: First-person action shooter written in C++, inspired by ... but inactive for 7 years.
+# TODO idea: text description automatically generate from keywords, state, and technical information for example: First-person action shooter written in C++, inspired by ... but inactive for 7 years.
 
 # TODO statistics: should have disclaimer (warning or info box) about accuracy with link to contribute guidelines at the top
 # TODO statistics: better and more statistics with links where possible
@@ -1017,8 +1017,8 @@ def generate(entries, inspirations, developers):
     non_games_by_type = sort_into_categories(non_games, c.non_game_keywords, lambda item, category: category in item['Keyword'])
 
     # extract top Github stars games
-    Ntop = 100
-    top_games = get_topN_games(games, N=Ntop)
+    N_top = 100
+    top_games = get_topN_games(games, N=N_top)
 
     # base dictionary
     base = {
@@ -1200,14 +1200,14 @@ def generate(entries, inspirations, developers):
     write(template_listing_entries.render(listing=listing), games_libre_path)
 
     # top github/gitlab games
-    base['title'] = f'OSGL | Games | Top stars {Ntop}'
+    base['title'] = f'OSGL | Games | Top stars {N_top}'
     base['active_nav'] = ['filter', f'top']
     # there are no other games coming afterward, can actually number them
     for index, game in enumerate(top_games):
         game['name'] = f'{index + 1}. ' + game['name']
     listing = {
-        'title': f'Top stars {Ntop}',
-        'subtitle': f'{Ntop} highest rated (by stars on Github or Gitlab) immediately downloadable and playable open source games in the database.', # that can be played online or downloaded
+        'title': f'Top stars {N_top}',
+        'subtitle': f'{N_top} highest rated (by stars on Github or Gitlab) immediately downloadable and playable open source games in the database.', # that can be played online or downloaded
         'items': top_games
     }
     write(template_listing_entries.render(listing=listing), games_top_path)

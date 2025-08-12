@@ -1,0 +1,9 @@
+{
+    "python.analysis.extraPaths": [
+        "code",
+    ],
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "code"
+        },
+    "editor.acceptSuggestionOnEnter": "on"
+}

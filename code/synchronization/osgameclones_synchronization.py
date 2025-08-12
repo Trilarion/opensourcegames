@@ -239,7 +239,7 @@ if __name__ == "__main__":
         print(f'Can un-ignore {_} because not contained anymore in osgc with this name.')
     osgc_entries = [x for x in osgc_entries if x['name'] not in osgc_ignored_entries + our_rejected_entries]
 
-    # fix names and licenses (so they are no longer detected as deviations downstreams)
+    # fix names and licenses (so they are no longer detected as deviations downstream)
     _ = [x['name'] for x in osgc_entries if x['name'] in osgc_name_aliases.keys()]  # those that will be renamed
     _ = set(osgc_name_aliases.keys()) - set(_)  # those that shall be renamed minus those that will be renamed
     if _:

@@ -1,9 +1,9 @@
 """
-Simple UI helpers with PyQt
+Simple UI helpers for Qt.
 """
 
 import sys
-from PySide6 import QtCore, QtGui, QtWidgets
+from PySide6 import QtWidgets
 
 
 def exception_hook(type, value, traceback):
@@ -15,12 +15,10 @@ def exception_hook(type, value, traceback):
 
 def run_simple_button_app(title, actions):
     """
-
-    :param title:
-    :param actions:
-    :return:
+    Runs a very simple buttons in a list app.
+    This all will be single threaded, i.e. lengthy actions will block the GUI.
     """
-    # fix PySide6 eating exceptions (see http://stackoverflow.com/q/14493081/1536976)
+    # fix Qt eating exceptions (see http://stackoverflow.com/q/14493081/1536976)
     sys.excepthook = exception_hook
 
     # create app

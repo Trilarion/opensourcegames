@@ -196,8 +196,8 @@ def remove_prefix_suffix(entries, fields, prefixes, suffixes):
                     content = [content]
                 for prefix in prefixes:
                     content = [x[len(prefix):] if x.startswith(prefix) else x for x in content]
-                for sufix in suffixes:
-                    content = [x[:-len(sufix)] if x.endswith(sufix) else x for x in content]
+                for suffix in suffixes:
+                    content = [x[:-len(suffix)] if x.endswith(suffix) else x for x in content]
                 content = [x.strip() for x in content]
                 entry[field] = content
         entries[index] = entry
@@ -215,7 +215,7 @@ def lower_case_content(entries, field):
     return entries
 
 
-def remove_parenthized_content(entries, fields):
+def remove_parenthesized_content(entries, fields):
     if not isinstance(fields, tuple):
         fields = (fields, )
     for index, entry in enumerate(entries):
@@ -311,7 +311,7 @@ def clean_lgw_content():
         print(f"{field}: {', '.join(statistics)}")
 
     # content replacements
-    entries = remove_parenthized_content(entries, ('assets license', 'code language', 'code license', 'engine', 'genre', 'last active', 'library'))
+    entries = remove_parenthesized_content(entries, ('assets license', 'code language', 'code license', 'engine', 'genre', 'last active', 'library'))
     entries = remove_prefix_suffix(entries, ('code license', 'assets license'), ('"', 'GNU'), ('"', '[3]', '[2]', '[1]', 'only', ' license'))
     entries = replace_content(entries, ('code license', 'assets license'), 'GPL', ('General Public License', ))
     entries = replace_content(entries, ('code license', 'assets license'), 'GPL-2.0', ('GPLv2', ))  # for LGW GPLv2 would be the correct writing

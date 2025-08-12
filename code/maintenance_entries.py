@@ -312,7 +312,7 @@ class EntriesMaintainer:
         'http://wiki.srb2.org/', 'https://web.archive.org/web/', 'https://www.comunidadargentum.com/',
         'http://www.argentumonline.com.ar/', 'https://www.atrinik.org/', 'https://mvnrepository.com/artifact/com.gitlab.bsarter.belote',
         'http://aegidian.org/bb/index.php', 'https://code.ur.gs/lupine/ordoor', 'https://git.tartarus.org/simon/puzzles')
-        # especially the webarchive links will be checked separately
+        # especially the web archive links will be checked separately
 
         # some do redirect, but we nevertheless want the original URL in the database
         redirect_okay = ('https://octaforge.org/', 'https://svn.openttd.org/', 'https://godotengine.org/download', 'http://drive.google.com/uc?export=download&id=1chP3Yrey-jWJBz9bRllmsKBPVgxysCFQ', 'https://www.reddit.com/r/SuperTuxParty/')
@@ -743,17 +743,17 @@ class EntriesMaintainer:
             for repo in repos:
                 consumed = False
                 repo = repo.split(' ')[0].strip()
-                url = osg.git_repo(repo)
+                url = osg.get_git_repo(repo)
                 if url:
                     primary_repos['git'].append(url)
                     consumed = True
                     continue
-                url = osg.svn_repo(repo)
+                url = osg.get_svn_repo(repo)
                 if url:
                     primary_repos['svn'].append(url)
                     consumed = True
                     continue
-                url = osg.hg_repo(repo)
+                url = osg.get_hg_repo(repo)
                 if url:
                     primary_repos['hg'].append(url)
                     consumed = True
@@ -794,7 +794,7 @@ class EntriesMaintainer:
             repos = entry['Code repository']
             for repo in repos:
                 repo = repo.split(' ')[0].strip()
-                url = osg.git_repo(repo)
+                url = osg.get_git_repo(repo)
                 if url:
                     git_repos.append(repo)
 

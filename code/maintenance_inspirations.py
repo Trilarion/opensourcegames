@@ -68,7 +68,7 @@ class InspirationMaintainer:
         for inspiration in self.inspirations.values():
             if not inspiration['Inspired entries']:
                 print(f" {inspiration['Name']} has no inspired entries")
-        print('orphanes checked')
+        print('orphans checked')
 
     def check_for_missing_inspirations_in_entries(self):
         """

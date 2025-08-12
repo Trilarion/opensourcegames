@@ -1,6 +1,6 @@
 """
 Central place to calculate statistics about the entries. Used for updating the statistics.md file and the statistics page
-of the website.
+of the website. Also renders statistics diagrams.
 """
 
 import numpy as np
@@ -45,7 +45,7 @@ def truncate_stats(stat, threshold, name='Other'):
     """
     Combines all entries (name, count) with a count below the threshold and appends a new entry
 
-    :return: Truncated statistics with the last item being the addup of all truncated items.
+    :return: Truncated statistics with the last item being the sum of all truncated items.
     """
     a, b = [], []
     for s in stat:

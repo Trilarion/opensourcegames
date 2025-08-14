@@ -34,6 +34,10 @@ from running the game or from youtube play videos.
 
 01 170 128
 
+# rise_of_enigmas
+
+01 0 0 https://i.ibb.co/T8ftByf/Euler-Graph.png
+
 # 2048_python
 
 01 139 128 https://raw.githubusercontent.com/yangshun/2048-python/master/img/screenshot.png

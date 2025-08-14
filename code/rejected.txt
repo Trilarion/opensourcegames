@@ -313,13 +313,13 @@ Sonic-1-2-2013-Decompilation (https://github.com/Rubberduckycooly/Sonic-1-2-2013
 Sonic-CD-11-Decompilation (https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation.git): No suitable open source license (see https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation/blob/master/LICENSE.md)
 Sonic-Mania-Decompilation (https://github.com/Rubberduckycooly/Sonic-Mania-Decompilation.git): Strange, unclear license, decompilation, without permission from Sony
 Space Opera Ruby (https://github.com/Cortrah/SpaceOperaRuby): No license given, too small
-Space Station 14 (http://www.spacestation14.com/): Offline, contains no clear game
 Space-rangers (https://github.com/markevich/Space-rangers.git): No license information, abandoned, very early development?
 spaceroads (https://github.com/sebhd/spaceroads.git): No license information, abandoned, very early development?
 Spaceship Duel (https://archive.codeplex.com/?p=spaceshipduel, https://spaceshipduel.codeplex.com/SourceControl/latest): Cannot download archive from codeplex
 SpaceTwitch (https://github.com/KirbyAu2/SpaceTwitch.git): No license information, abandoned, very early development?
 Speedball 2 (http://bringerp.free.fr/RE/Speedball2/remake.php5): No license information, based on disassembly, but very impressive all games at http://bringerp.free.fr/RE/
 srceng-android (https://github.com/nillerusr/srceng-android.git): no license information, no information at all, not sure what it is: a game, a launcher, a streaming client
+SS13 Remake (https://github.com/ss13remake/ss13remake): Only tech demo, was never playable
 SSTPong (http://sstpong.sourceforge.net/, https://sourceforge.net/projects/sstpong/): Very early development
 Starlane Empire (https://gna.org/projects/starlane/, http://cvs.gna.org/cvsweb/starlane/?cvsroot=starlane): No sources available, see issue #18, gna.org lost
 Stellar Forces (http://wiki.stellarforces.com/): No license or sources found.

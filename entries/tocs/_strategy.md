@@ -148,7 +148,7 @@
 - **[JQuest](../jquest.md)** (Java, GPL-2.0, beta, inactive since 2006)
 - **[JSettlers](../jsettlers.md)** (Java, GPL-3.0, mature)
 - **[KaM Remake](../kam_remake.md)** (Pascal, AGPL-3.0, mature)
-- **[KeeperFX](../keeperfx.md)** (C, C++, GPL-2.0, beta)
+- **[KeeperFX](../keeperfx.md)** (C, C++, GPL-2.0, mature)
 - **[King under the Mountain](../king_under_the_mountain.md)** (Java, MIT, mature)
 - **[Kingdoms](../kingdoms.md)** (C++, GPL-3.0, beta, inactive since 2014)
 - **[KittenMaxit](../kittenmaxit.md)** (Java, MIT, beta)

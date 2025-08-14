@@ -5,9 +5,9 @@
 - State: mature
 - Download: https://blackgrain.itch.io/dead-ascend
 - Platform: Windows, Linux, macOS, Android
-- Keyword: adventure, 2D, puzzle, point & click, escape room
-- Code repository: https://github.com/larpon/DeadAscend
-- Code language: C++, JavaScript, QML
+- Keyword: adventure, puzzle, 2D, escape room, point & click
+- Code repository: https://github.com/larpon/DeadAscend.git
+- Code language: C++, JavaScript
 - Code license: MIT
 - Code dependency: Qt5
 - Developer: Lars Pontoppidan

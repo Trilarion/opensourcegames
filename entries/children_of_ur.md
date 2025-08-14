@@ -5,7 +5,7 @@
 - State: beta
 - Play: https://game.childrenofur.com/
 - Platform: Web
-- Keyword: role playing, content open, multiplayer massive + online, requires server, clone
+- Keyword: role playing, clone, content open, multiplayer massive + online, requires server
 - Code repository: https://gitlab.com/ChildrenOfUr/coUserver.git, https://gitlab.com/ChildrenOfUr/coUclient.git (@add), https://github.com/ChildrenOfUr/coUclient.git (@archived, @created 2013, @stars 73, @forks 13), https://github.com/ChildrenOfUr/coUserver.git (@archived)
 - Code language: Dart, JavaScript
 - Code license: MIT

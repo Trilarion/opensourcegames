@@ -9,6 +9,7 @@
 - **[Cat Mother Dead Justice](../cat_mother_dead_justice.md)** (C++, 3-clause BSD, GPL-2.0, beta, inactive since 2003)
 - **[Childsplay](../childsplay.md)** (Python, GPL-3.0, mature)
 - **[Colossal Cave Adventure](../colossal_cave_adventure.md)** (Python, Apache-2.0, mature)
+- **[Dead Ascend](../dead_ascend.md)** (C++, JavaScript, MIT, mature)
 - **[Dedalus](../dedalus.md)** (JavaScript, GPL-2.0, beta, inactive since 2018)
 - **[Deer Portal](../deer_portal.md)** (C++, zlib, beta)
 - **[Der Clou!](../der_clou.md)** (C, Custom, beta, inactive since 2017)

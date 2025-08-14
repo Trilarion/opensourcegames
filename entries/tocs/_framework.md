@@ -3,6 +3,7 @@
 
 - **[Aether3D](../aether3d.md)** (C++, zlib, beta)
 - **[Allegro](../allegro.md)** (C, zlib, mature)
+- **[Blip Engine](../blip_engine.md)** (C, Lua, Apache-2.0, beta)
 - **[COCOS2D-X](../cocos2d-x.md)** (C++, MIT, mature)
 - **[Crystal Space 3D SDK](../crystal_space_3d_sdk.md)** (C, C++, LGPL-2.1, mature, inactive since 2015)
 - **[Dash Engine](../dash_engine.md)** (D, MIT, mature, inactive since 2015)

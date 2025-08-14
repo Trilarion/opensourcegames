@@ -2,7 +2,7 @@
 
 - Home: https://www.retrojunkies.co.uk/fathorsegames/index.php?game=hannah, https://sourceforge.net/projects/hannah/, https://packages.debian.org/search?keywords=hannah
 - Inspiration: Pac-Man
-- State: beta, inactive since 2008
+- State: mature, inactive since 2021
 - Download: https://sourceforge.net/projects/hannah/files/
 - Platform: Windows, Linux
 - Keyword: action, arcade, content open, for kids

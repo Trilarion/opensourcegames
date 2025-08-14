@@ -19,6 +19,7 @@
 - **[Backbone Game Engine](../backbone_game_engine.md)** (JavaScript, MIT, beta, inactive since 2016)
 - **[Bacon2D](../bacon2d.md)** (C++, MIT, beta, inactive since 2018)
 - **[Bladecoder Adventure Engine](../bladecoder_adventure_engine.md)** (Java, Apache-2.0, mature)
+- **[Blip Engine](../blip_engine.md)** (C, Lua, Apache-2.0, beta)
 - **[Blitwizard](../blitwizard.md)** (C, C++, Lua, zlib, beta, inactive since 2015)
 - **[boardgame.io](../boardgameio.md)** (JavaScript, TypeScript, MIT, beta)
 - **[Build engine](../build_engine.md)** (C, C++, Custom, mature)

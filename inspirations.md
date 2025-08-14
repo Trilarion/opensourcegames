@@ -874,11 +874,6 @@
 - Inspired entries: OpenBOR
 - Media: https://en.wikipedia.org/wiki/Double_Dragon_(video_game)
 
-## Dragon Wars [1]
-
-- Inspired entries: Turn of War
-- Media: https://en.wikipedia.org/wiki/Dragon_Wars
-
 ## DragonBall [1]
 
 - Inspired entries: ZEQ2 Lite

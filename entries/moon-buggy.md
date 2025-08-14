@@ -4,7 +4,6 @@
 - Inspiration: moon-patrol
 - State: mature, inactive since 2006
 - Keyword: action, side-scrolling
-- Code repository: 
 - Code language: C
 - Code license: GPL-2.0
 - Developer: Jochen Voss

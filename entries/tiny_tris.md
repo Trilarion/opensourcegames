@@ -2,8 +2,8 @@
 
 - Home: https://sites.google.com/view/tinytris
 - State: mature
+- Platform: Windows, Linux
 - Keyword: puzzle, content open, tetris-like
-- Code repository: 
 - Code language: C
 - Code license: GPL-3.0
 - Code dependency: SDL

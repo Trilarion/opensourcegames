@@ -141,6 +141,7 @@ language_urls = {
     'Swift': 'https://en.wikipedia.org/wiki/Swift_(programming_language)',
     'TorqueScript': 'https://en.wikipedia.org/wiki/Torque_(game_engine)',
     'TypeScript': 'https://en.wikipedia.org/wiki/TypeScript',
+    'V': 'https://en.wikipedia.org/wiki/V_(programming_language)',
     'Vala': 'https://en.wikipedia.org/wiki/Vala_(programming_language)',
     'Visual Basic': 'https://en.wikipedia.org/wiki/Visual_Basic',
     'XUL': 'https://en.wikipedia.org/wiki/XUL',

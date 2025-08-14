@@ -158,7 +158,7 @@
 - **[Head over Heels](../head_over_heels.md)** (C++, GPL-3.0, mature)
 - **[Hedgewars](../hedgewars.md)** (Lua, C, C++, Pascal, Haskell, GPL-2.0, mature)
 - **[Helion](../helion.md)** (C#, GPL-3.0, mature)
-- **[Help Hannah's Horse](../help_hannahs_horse.md)** (C++, GPL-2.0, beta, inactive since 2008)
+- **[Help Hannah's Horse](../help_hannahs_horse.md)** (C++, GPL-2.0, mature, inactive since 2021)
 - **[heXon](../hexon.md)** (C++, GPL-2.0, beta)
 - **[Hexoshi](../hexoshi.md)** (Python, GPL-3.0, beta, inactive since 2016)
 - **[HolySpirit](../holyspirit.md)** (C++, Haskell, GPL-3.0, beta, inactive since 2013)

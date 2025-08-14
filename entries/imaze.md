@@ -4,7 +4,6 @@
 - Inspiration: MIDI Maze
 - State: mature, inactive since 2001
 - Keyword: action, content open, first-person, shooter
-- Code repository: 
 - Code language: C
 - Code license: 4-clause BSD
 - Developer: Hans-Ulrich Kiel, Joerg Czeranski

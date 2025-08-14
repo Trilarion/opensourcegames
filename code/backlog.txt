@@ -13,28 +13,6 @@ http://www.usgo.org/go-software
 http://www.vbgore.com/Main_Page
 http://www.zsnes.com/ (emulator/platform)
 https://001gamecreator.com/
-https://github.com/Starciad?tab=repositories
-https://github.com/ellisonleao/magictools
-https://github.com/radek-sprta/awesome-game-remakes
-https://github.com/Whimfoome/godot-FirstPersonStarter
-https://lutris.net/games?q=&flags=fully_libre
-https://github.com/phoboslab/Impact
-https://github.com/gdquest-demos/godot-2d-space-game
-https://github.com/oxygine/oxygine-framework
-https://github.com/id-Software/wolf3d
-https://github.com/bitbrain/godot-gamejam
-https://github.com/oxygine/oxygine-framework
-https://github.com/aaron5670/PokeMMO-Online-Realtime-Multiplayer-Game
-https://github.com/rapiz1/DungeonRush
-https://github.com/pacampbell/Game
-https://github.com/sgift/driftingsouls
-https://github.com/iniside/ActionRPGGame
-https://github.com/methusalah/OpenRTS
-https://github.com/pacampbell/Game
-https://github.com/marukrap/RoguelikeDevResources
-https://github.blog/open-source/game-off-2024-winners/
-https://github.com/DexterHuang/CyberCodeOnline
-https://github.com/Whimfoome/godot-FirstPersonStarter
 https://agateau.com/games/
 https://app.assembla.com/spaces/Project_Valkyrie2/wiki
 https://archive.codeplex.com/?p=turnota
@@ -67,11 +45,15 @@ https://gdevelop-app.com/
 https://github.blog/2014-01-06-github-game-off-ii-winners/
 https://github.blog/2021-05-19-ludum-dare-48-staff-picks/
 https://github.blog/2023-02-03-ludum-dare-52-staff-picks/
+https://github.blog/open-source/game-off-2024-winners/
+https://github.com/aaron5670/PokeMMO-Online-Realtime-Multiplayer-Game
 https://github.com/actsl/kiss_sdl
 https://github.com/alexbatalov/fallout1-re
 https://github.com/alexbatalov/fallout2-re
 https://github.com/andrejnau/FlyCube
 https://github.com/billyquith/GWork
+https://github.com/bitbrain/godot-gamejam
+https://github.com/bobeff/open-source-engines
 https://github.com/bobeff/open-source-games
 https://github.com/boldtempleGaming/Engine
 https://github.com/bytecauldron/awesome-gamemaker
@@ -96,11 +78,13 @@ https://github.com/DavidSM64/Diddy-Kong-Racing
 https://github.com/deathkiller/jazz2-native
 https://github.com/deepnight/ldtk
 https://github.com/delmarle/RPG-Core
+https://github.com/DexterHuang/CyberCodeOnline
 https://github.com/dmcinnes/HTML5-Asteroids
 https://github.com/doldecomp/melee
 https://github.com/domeengine/dome
 https://github.com/dtrajko/MoravaEngine
 https://github.com/dulsi (all there)
+https://github.com/ellisonleao/magictools
 https://github.com/emileb/d3es-multithread
 https://github.com/empyreanx/pico_headers
 https://github.com/eukara/freecs
@@ -110,6 +94,7 @@ https://github.com/fogleman/nes
 https://github.com/FunkinCrew/Funkin
 https://github.com/Gamua/Starling-Framework
 https://github.com/gd4Ark/2048
+https://github.com/gdquest-demos/godot-2d-space-game
 https://github.com/GDQuest/godot-steering-ai-framework
 https://github.com/GDQuest/learn-gdscript
 https://github.com/GlistEngine/GlistEngine
@@ -130,9 +115,11 @@ https://github.com/hugoam/two
 https://github.com/hugoam/two  # c++ toolkit for rapid development of live graphical apps and games
 https://github.com/Hyperparticle/nodulus
 https://github.com/id-Software/Quake
+https://github.com/id-Software/wolf3d
 https://github.com/igravitystudios/matchimals.fun
 https://github.com/Illation/ETEngine
 https://github.com/inanevin/LinaEngine
+https://github.com/iniside/ActionRPGGame
 https://github.com/InvadingOctopus/comedot
 https://github.com/ipodtouch0218/NSMB-MarioVsLuigi
 https://github.com/irisengine/iris
@@ -164,6 +151,8 @@ https://github.com/lospec/pixel-editor
 https://github.com/loudsmilestudios/TetraForce
 https://github.com/magwo/elevatorsaga
 https://github.com/man-in-black382/PathFinder
+https://github.com/marukrap/RoguelikeDevResources
+https://github.com/methusalah/OpenRTS
 https://github.com/mgerdes/Open-Golf
 https://github.com/mgerhardy/engine
 https://github.com/michaelday008/AnyRPGCore
@@ -188,6 +177,7 @@ https://github.com/pacampbell/Game
 https://github.com/particle-clicker/particle-clicker
 https://github.com/patorjk/JavaScript-Snake
 https://github.com/phisko/kengine
+https://github.com/phoboslab/Impact
 https://github.com/Pikachuxxxx/Razix
 https://github.com/piqueserver/piqueserver
 https://github.com/Poussinou/FLOSS-Games-on-Steam
@@ -197,6 +187,7 @@ https://github.com/QodotPlugin/qodot-plugin
 https://github.com/R74nCom/sandboxels
 https://github.com/radek-sprta/awesome-game-remakes
 https://github.com/raizam/gamedev_libraries
+https://github.com/rapiz1/DungeonRush
 https://github.com/Razakhel/RaZ
 https://github.com/Reinisch/Darkest-Dungeon-Unity
 https://github.com/Relintai/broken_seals
@@ -209,6 +200,7 @@ https://github.com/SasLuca/rayfork
 https://github.com/search?utf8=%E2%9C%93&q=freesynd&type=
 https://github.com/SerpentAI/SerpentAI
 https://github.com/sezero/quakespasm
+https://github.com/sgift/driftingsouls
 https://github.com/shakiba/planck.js
 https://github.com/sharkdp/cube-composer
 https://github.com/ShenMian/Clementine
@@ -217,6 +209,7 @@ https://github.com/skidding/flatris
 https://github.com/solenum/exengine
 https://github.com/space-wizards/RobustToolbox
 https://github.com/Squalr/Squally
+https://github.com/Starciad?tab=repositories
 https://github.com/Stephane-D/SGDK
 https://github.com/stevinz/awesome-game-engine-dev
 https://github.com/StrongPC123/Far-Cry-1-Source-Full
@@ -241,6 +234,7 @@ https://github.com/untoldengine/UntoldEngine
 https://github.com/videogamepreservation
 https://github.com/volcoma/EtherealEngine
 https://github.com/Walkator/kailius
+https://github.com/Whimfoome/godot-FirstPersonStarter
 https://github.com/WhitestormJS/whs.js
 https://github.com/wwwtyro/Astray
 https://github.com/xyperia/OpenSourceGames
@@ -264,6 +258,7 @@ https://libregamewiki.org/Libregamewiki:Suggested_games#Likely_sources_for_more_
 https://lichess.org/api
 https://lithyscaphe.blogspot.com/p/principia-apocrypha.html
 https://lowresnx.inutilis.com/programs.php?category=game
+https://lutris.net/games?q=&flags=fully_libre
 https://news.ycombinator.com/item?id=33314960
 https://notwood.net/sgiflight/
 https://odr.chalmers.se/handle/20.500.12380/219006
@@ -322,9 +317,5 @@ https://www.tapatalk.com/groups/imperilist/
 https://www.wurfelengine.net/
 https://zdoom.org/downloads (gzdoom, lzdoom)
 https://zope.readthedocs.io/en/latest/
-https://github.com/bobeff/open-source-games
-https://github.com/bobeff/open-source-engines
-https://github.com/larpon/DeadAscend
-https://github.com/larpon/puzzle_vibes
 Pinball Disk Room
 Seahorse Adventures

@@ -1,12 +1,11 @@
 # Jezzball
 
-- Home: https://rainey.tech/game/jezzball
+- Home: https://github.com/tassaron/jezzball-transgender
 - Inspiration: JezzBall
 - State: mature
-- Play: https://rainey.tech/game/jezzball
 - Platform: Web
 - Keyword: arcade, clone, content open
-- Code repository: https://github.com/tassaron/jezzball.git
+- Code repository: https://github.com/tassaron/jezzball-transgender.git
 - Code language: JavaScript
 - Code license: MIT
 

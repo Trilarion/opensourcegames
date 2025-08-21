@@ -16,4 +16,4 @@ Features elements of mythology, history and fiction.
 ## Building
 
 - Build system: CMake
-- Build instruction: https://github.com/Andrettin/Wyrmgus/blob/master/doc/building_on_ubuntu_16.txt, https://github.com/Andrettin/Wyrmgus/blob/master/doc/building_wyrmsun_on_debian_8.txt
+- Build instruction: https://github.com/Andrettin/Wyrmgus/blob/master/doc/building_on_ubuntu_20.txt, https://github.com/Andrettin/Wyrmgus/blob/master/doc/building_wyrmsun_on_debian_8.txt

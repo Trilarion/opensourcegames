@@ -317,5 +317,8 @@ https://www.tapatalk.com/groups/imperilist/
 https://www.wurfelengine.net/
 https://zdoom.org/downloads (gzdoom, lzdoom)
 https://zope.readthedocs.io/en/latest/
+https://codeberg.org/toddcarnes/sdlhana
+https://cxong.github.io/games.html
+https://blog.codeberg.org/new-storage-limits-on-codeberg-what-you-need-to-know.html (at the bottom)
 Pinball Disk Room
 Seahorse Adventures

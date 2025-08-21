@@ -3,10 +3,10 @@
 - Home: http://pcex.retrohost.net/
 - Inspiration: Powerslave
 - State: beta
-- Download: https://github.com/nukeykt/NBlood/releases/
+- Download: https://github.com/NBlood/NBlood/releases
 - Platform: Windows
 - Keyword: action, remake, content commercial
-- Code repository: https://github.com/nukeykt/NBlood.git (@created 2019, @stars 542, @forks 76)
+- Code repository: https://github.com/NBlood/NBlood.git (@created 2019, @stars 542, @forks 76)
 - Code language: C++
 - Code license: Custom
 - Code dependency: OpenGL, SDL, SDL2

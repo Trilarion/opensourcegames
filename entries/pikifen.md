@@ -5,8 +5,8 @@
 - State: mature
 - Download: https://github.com/Espyo/Pikifen/releases
 - Platform: Windows, Linux, macOS
-- Keyword: strategy, remake, game engine, 2D, real-time
-- Code repository: https://github.com/Espyo/Pikifen
+- Keyword: game engine, remake, strategy, 2D, real-time
+- Code repository: https://github.com/Espyo/Pikifen.git
 - Code language: C++
 - Code license: MIT
 - Code dependency: Allegro, Dear ImGui

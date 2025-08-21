@@ -3,7 +3,7 @@
 - Home: https://zdoom.org/index, https://sourceforge.net/projects/zdoom/
 - Inspiration: Doom, Doom II, Heretic, Hexen
 - State: mature
-- Download: https://zdoom.org/downloads, https://github.com/coelckers/gzdoom/releases, https://sourceforge.net/projects/zdoom/files/
+- Download: https://zdoom.org/downloads, https://github.com/ZDoom/gzdoom/releases, https://sourceforge.net/projects/zdoom/files/
 - Platform: Windows, Linux, macOS
 - Keyword: remake, content commercial (?), first-person, original required, shooter
 - Code repository: https://github.com/ZDoom/gzdoom.git (@created 2013, @stars 2157, @forks 500), https://git.code.sf.net/p/zdoom/gzdoom

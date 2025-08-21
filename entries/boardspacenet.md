@@ -1,6 +1,6 @@
 # Boardspace.net
 
-- Home: https://boardspace.net/
+- Home: https://boardspace.net/english/index.shtml
 - State: mature
 - Platform: Windows
 - Keyword: board, multiplayer

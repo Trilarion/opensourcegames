@@ -1,6 +1,6 @@
 # Chrzaszcz
 
-- Home: http://www.pawelbiernacki.net/software/chrzaszcz/, https://sourceforge.net/projects/chrzaszcz/
+- Home: https://www.pawelbiernacki.net/software/chrzaszcz/, https://sourceforge.net/projects/chrzaszcz/
 - State: beta, inactive since 2018
 - Download: https://sourceforge.net/projects/chrzaszcz/files/
 - Platform: Linux

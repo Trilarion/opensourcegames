@@ -1,9 +1,9 @@
 # Knights
 
-- Home: http://www.knightsgame.org.uk/
+- Home: https://www.knightsgame.org.uk/
 - Inspiration: Knights
 - State: beta, inactive since 2014
-- Download: http://www.knightsgame.org.uk/download.html
+- Download: https://www.knightsgame.org.uk/download
 - Platform: Windows
 - Keyword: remake, role playing, dungeon, multiplayer
 - Code language: C++

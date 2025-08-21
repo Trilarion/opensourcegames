@@ -1,6 +1,6 @@
 # Argentum Online
 
-- Home: https://www.comunidadargentum.com/ (Spanish), https://www.ao20.com.ar/ (Spanish), https://sourceforge.net/projects/morgoao/, https://github.com/argentumonline, https://github.com/ao-libre
+- Home: https://www.argentumonline.com.ar/, https://www.comunidadargentum.com/ (Spanish), https://sourceforge.net/projects/morgoao/, https://github.com/argentumonline, https://github.com/ao-libre
 - State: beta, inactive since 2014
 - Download: https://github.com/ao-libre/ao-cliente/releases, https://sourceforge.net/projects/morgoao/files/
 - Keyword: role playing, 2D, multiplayer online + massive

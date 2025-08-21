@@ -1,6 +1,6 @@
 # Lemmini
 
-- Home: http://lemmini.de/
+- Home: https://lemmini.de/
 - Inspiration: Lemmings
 - State: beta, inactive since 2017
 - Keyword: puzzle, clone

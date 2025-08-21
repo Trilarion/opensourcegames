@@ -3,7 +3,7 @@
 - Home: https://www.monogameextended.net/
 - State: mature
 - Keyword: tool
-- Code repository: https://github.com/craftworkgames/MonoGame.Extended.git (@created 2015, @stars 1352, @forks 305)
+- Code repository: https://github.com/MonoGame-Extended/Monogame-Extended.git (@created 2015, @stars 1352, @forks 305)
 - Code language: C#
 - Code license: MIT
 - Code dependency: MonoGame

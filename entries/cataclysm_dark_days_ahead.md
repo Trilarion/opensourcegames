@@ -19,4 +19,4 @@ Fork of [Cataclysm](cataclysm.md)
 ## Building
 
 - Build system: Make
-- Build instruction: https://github.com/CleverRaven/Cataclysm-DDA/blob/master/doc/COMPILING/COMPILING.md
+- Build instruction: https://github.com/CleverRaven/Cataclysm-DDA/blob/master/doc/c++/COMPILING.md

@@ -4,7 +4,7 @@
 - Inspiration: Wolfenstein 3D
 - State: mature
 - Keyword: action, remake, content commercial, shooter
-- Code repository: https://github.com/11001011101001011/Wolf4SDL.git (@created 2016, @stars 46, @forks 25)
+- Code repository: https://github.com/KS-Presto/Wolf4SDL.git (@created 2016, @stars 46, @forks 25)
 - Code language: C
 - Code license: GPL-2.0
 - Code dependency: SDL

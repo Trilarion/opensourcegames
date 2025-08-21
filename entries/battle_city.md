@@ -1,6 +1,6 @@
 # Battle City
 
-- Home: https://battlecity.org/
+- Home: https://battlecity.wordpress.com/
 - Inspiration: Battle City
 - State: mature, inactive since 2013
 - Keyword: action, remake, strategy

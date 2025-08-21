@@ -1,6 +1,6 @@
 # Cosmore
 
-- Home: https://www.scottsmitelli.com/projects/cosmore
+- Home: https://www.scottsmitelli.com/projects/cosmore/
 - Inspiration: Cosmo's Cosmic Adventure
 - State: mature
 - Keyword: remake, content commercial, original required

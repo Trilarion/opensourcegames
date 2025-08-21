@@ -4,7 +4,7 @@
 - Inspiration: Duke Nukem 3D, Redneck Rampage
 - State: beta
 - Keyword: action, remake, content commercial
-- Code repository: https://github.com/nukeykt/NBlood.git (@created 2019, @stars 542, @forks 76)
+- Code repository: https://github.com/NBlood/NBlood.git (@created 2019, @stars 542, @forks 76)
 - Code language: C++
 - Code license: Custom
 - Code dependency: OpenGL, SDL, SDL2

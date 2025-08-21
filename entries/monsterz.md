@@ -1,6 +1,6 @@
 # Monsterz
 
-- Home: http://sam.zoy.org/monsterz/
+- Home: https://sam.zoy.org/monsterz/
 - State: beta, inactive since 2007
 - Platform: Windows, Linux, macOS
 - Keyword: arcade, puzzle

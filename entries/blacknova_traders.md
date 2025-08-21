@@ -1,6 +1,6 @@
 # BlackNova Traders
 
-- Home: https://sourceforge.net/projects/blacknova/, https://blacknova.net/
+- Home: https://sourceforge.net/projects/blacknova/, https://web.archive.org/web/20240223211826/https://blacknova.net/
 - Inspiration: TradeWars
 - State: beta, inactive since 2012
 - Download: https://sourceforge.net/projects/blacknova/files

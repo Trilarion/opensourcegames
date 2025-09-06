@@ -4,7 +4,7 @@
 - Inspiration: Minecraft
 - State: beta
 - Keyword: simulation, clone, content open, voxel
-- Code repository: https://github.com/PixelGuys/Cubyz.git (@created 2019, @stars 322, @forks 43)
+- Code repository: https://github.com/PixelGuys/Cubyz.git (@created 2019, @stars 322, @forks 43), https://github.com/PixelGuys/Cubyz-Java.git (@add)
 - Code language: Java, Zig
 - Code license: GPL-3.0
 - Code dependency: LWJGL

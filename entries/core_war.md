@@ -1,6 +1,6 @@
 # Core War
 
-- Home: https://corewar.co.uk/, http://www.corewar.info/, https://vyznev.net/corewar/guide.html, https://sourceforge.net/projects/corewar/, https://corewar.co.uk/standards/icws94.htm, http://www.corewar.info/emulator.htm
+- Home: https://corewar.co.uk/, http://www.corewar.info/, https://sourceforge.net/projects/corewar/, https://corewar.co.uk/standards/icws94.htm, http://www.corewar.info/emulator.htm
 - Media: https://en.wikipedia.org/wiki/Core_War
 - State: mature
 - Keyword: simulation, programming

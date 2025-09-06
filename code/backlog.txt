@@ -20,6 +20,9 @@ https://archive.codeplex.com/?p=voxeliq
 https://archive.org/details/open_source_software
 https://blenderartists.org/t/devils-pinball/552785
 https://bluerenga.blog/
+https://archive.org/search?query=creator%3A%22Linley+Henzell%22  (and others on archive.org)
+https://braingames.jorito.net/nightlies/
+https://invent.kde.org/games (do we have them all?)
 https://carrot.soulweaver.fi/#links
 https://cocainediesel.fun/
 https://code.launchpad.net/~flosoft/s25rttr/trunk

@@ -1,9 +1,9 @@
 # Batrachians
 
-- Home: https://web.archive.org/web/20250215121421/https://perso.b2b2c.ca/~sarrazip/dev/batrachians.html
+- Home: http://gvlsywt.cluster051.hosting.ovh.net/dev/batrachians.html
 - Inspiration: Frogs and Flies
 - State: beta, inactive since 2012
-- Download: https://web.archive.org/web/*/https://perso.b2b2c.ca/~sarrazip/dev/*
+- Download: http://gvlsywt.cluster051.hosting.ovh.net/dev/batrachians.html#download
 - Platform: Linux
 - Keyword: action, remake
 - Code language: C++

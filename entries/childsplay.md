@@ -1,6 +1,6 @@
 # Childsplay
 
-- Home: https://childsplay.mobi/, https://sourceforge.net/projects/childsplay/, https://sourceforge.net/projects/schoolsplay/
+- Home: https://web.archive.org/web/20211128030800/https://childsplay.mobi/, https://sourceforge.net/projects/childsplay/, https://sourceforge.net/projects/schoolsplay/
 - State: mature
 - Download: https://sourceforge.net/projects/schoolsplay/files/, https://sourceforge.net/projects/childsplay/files/
 - Platform: Windows, Linux

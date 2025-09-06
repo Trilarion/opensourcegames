@@ -4,8 +4,8 @@
 - Inspiration: Arkanoid, Breakout
 - State: beta
 - Download: https://github.com/Yottskry/Barkout/archive/refs/tags/Barkout-1.1.tar.gz (source), https://github.com/Yottskry/Barkout/releases/download/Barkout-1.1/barkout-installer-1.1.0.0.exe (Windows installer)
-- Platform: Linux, Windows
-- Keyword: arcade, bricks, ball, bat, Arkanoid, Breakout
+- Platform: Windows, Linux
+- Keyword: arcade, Arkanoid, ball, bat, Breakout, bricks
 - Code repository: https://gitlab.com/yottskry/barkout.git
 - Code language: C
 - Code license: GPL-3.0

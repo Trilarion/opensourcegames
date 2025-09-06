@@ -5,6 +5,7 @@
 - Download: http://www.urticator.net/maze/download.html
 - Platform: Windows, Linux, macOS
 - Keyword: educational, puzzle, 4D, content none, maze
+- Code repository: https://gitlab.com/Trilarion/4d-maze.git
 - Code language: Java
 - Code license: Public domain
 - Developer: John McIntosh

@@ -6,7 +6,8 @@
 - Download: https://www.knightsgame.org.uk/download
 - Platform: Windows
 - Keyword: remake, role playing, dungeon, multiplayer
+- Code repository: https://github.com/sdthompson1/knights.git
 - Code language: C++
-- Code license: GPL-3.0
+- Code license: GPL-2.0
 
 ## Building

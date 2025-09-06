@@ -4,7 +4,7 @@
 - Inspiration: Wolfenstein 3D
 - State: mature
 - Keyword: action, remake, content commercial, original required, shooter
-- Code repository: https://bitbucket.org/linuxwolf6/lzwolf/src/master/
+- Code repository: https://bitbucket.org/linuxwolf6/lzwolf.git
 - Code language: C++
 - Code license: 3-clause BSD
 - Code dependency: SDL2

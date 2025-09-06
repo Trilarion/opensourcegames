@@ -6,7 +6,7 @@
 - Play: https://freerct.net/play/play
 - Platform: Windows, Linux, Web
 - Keyword: remake, strategy
-- Code repository: https://codeberg.org/FreeRCT/FreeRCT/, https://github.com/FreeRCT/FreeRCT.git (@created 2015, @stars 236, @forks 33)
+- Code repository: https://codeberg.org/FreeRCT/FreeRCT.git, https://github.com/FreeRCT/FreeRCT.git (@created 2015, @stars 236, @forks 33)
 - Code language: C++
 - Code license: GPL-2.0
 - Developer: Alberth289346, Benedikt Straub, Charles Pigott, L Linse, Leif Linse, Newbyte, Richard Wheeler, sgtbigman, "Weblate (bot)"

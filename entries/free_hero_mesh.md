@@ -1,8 +1,7 @@
 # Free Hero Mesh
 
-- Home: http://zzo38computer.org/fossil/heromesh.ui/home
+- Home: https://web.archive.org/web/20240620060020/http://zzo38computer.org/fossil/heromesh.ui/home
 - State: beta
-- Download: http://zzo38computer.org/fossil/heromesh.ui/dir?ci=tip
 - Platform: Linux
 - Keyword: game engine, puzzle
 - Code language: C, JavaScript

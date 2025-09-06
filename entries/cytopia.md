@@ -1,9 +1,9 @@
 # Cytopia
 
-- Home: https://cytopia.net/
+- Home: https://web.archive.org/web/20250215225902/https://cytopia.net/
 - Inspiration: SimCity
 - State: beta
-- Download: https://cytopia.net/download/
+- Download: https://cytopia.itch.io/cytopia
 - Keyword: simulation, clone, content open
 - Code repository: https://github.com/CytopiaTeam/Cytopia.git (@created 2018, @stars 1871, @forks 97)
 - Code language: C++

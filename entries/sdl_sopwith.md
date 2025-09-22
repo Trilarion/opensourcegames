@@ -6,7 +6,7 @@
 - Download: https://fragglet.github.io/sdl-sopwith/getit.html, https://sourceforge.net/projects/sdl-sopwith/files/ (@old)
 - Platform: Linux
 - Keyword: action, remake, flight
-- Code repository: https://github.com/fragglet/sdl-sopwith.git, https://gitlab.com/osgames/sdl-sopwith.git (import of svn, @created 2019, @stars 1, @forks 0), https://svn.code.sf.net/p/sdl-sopwith/code (svn)
+- Code repository: https://github.com/fragglet/sdl-sopwith.git, https://gitlab.com/osgames/sdl-sopwith.git (import of svn, @created 2019, @stars 1, @forks 0)
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependency: SDL
@@ -16,3 +16,6 @@ Port of the classic 8086 biplane shoot-em-up.
 See also the original [Sopwith](https://web.archive.org/web/20200131222432/http://davidlclark.com/page/sopwith)
 
 ## Building
+
+github.com/fragglet/sdl-sopwith is uptodate, gitlab.com/osgames/sdl-sopwith includes old commits
+Old repositories https://svn.code.sf.net/p/sdl-sopwith/code (svn)

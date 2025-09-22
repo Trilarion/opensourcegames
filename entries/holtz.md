@@ -5,7 +5,7 @@
 - Download: https://sourceforge.net/projects/holtz/files/
 - Platform: Windows, Linux
 - Keyword: board, puzzle, content open, online
-- Code repository: https://git.code.sf.net/p/holtz/code, https://git.code.sf.net/p/holtz/website @add
+- Code repository: https://git.code.sf.net/p/holtz/code, https://git.code.sf.net/p/holtz/website (@add)
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: wxWidgets

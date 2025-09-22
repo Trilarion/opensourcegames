@@ -5,7 +5,7 @@
 - Download: http://pychess.org/download/, https://github.com/pychess/pychess/releases
 - Platform: Windows, Linux
 - Keyword: puzzle, chess, content open
-- Code repository: https://github.com/pychess/pychess.git (@created 2015, @stars 648, @forks 175), https://github.com/gbtami/pychess-variants.git @add (@created 2019, @stars 218, @forks 111)
+- Code repository: https://github.com/pychess/pychess.git (@created 2015, @stars 648, @forks 175), https://github.com/gbtami/pychess-variants.git (@add, @created 2019, @stars 218, @forks 111)
 - Code language: Python, TypeScript
 - Code license: GPL-3.0
 - Assets license: ? (GPL)

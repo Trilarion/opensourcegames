@@ -18,14 +18,17 @@ https://app.assembla.com/spaces/Project_Valkyrie2/wiki
 https://archive.codeplex.com/?p=turnota
 https://archive.codeplex.com/?p=voxeliq
 https://archive.org/details/open_source_software
-https://blenderartists.org/t/devils-pinball/552785
-https://bluerenga.blog/
 https://archive.org/search?query=creator%3A%22Linley+Henzell%22  (and others on archive.org)
+https://blenderartists.org/t/devils-pinball/552785
+https://blog.codeberg.org/new-storage-limits-on-codeberg-what-you-need-to-know.html (at the bottom)
+https://bluerenga.blog/
 https://braingames.jorito.net/nightlies/
-https://invent.kde.org/games (do we have them all?)
 https://carrot.soulweaver.fi/#links
 https://cocainediesel.fun/
 https://code.launchpad.net/~flosoft/s25rttr/trunk
+https://codeberg.org/mineclonia/mineclonia
+https://codeberg.org/toddcarnes/sdlhana
+https://cxong.github.io/games.html
 https://cyber.dabamos.de/game-dev/
 https://defold.com/
 https://dosgames.com/forum/about19706.html
@@ -234,7 +237,7 @@ https://github.com/tommyettinger/gdx-liftoff
 https://github.com/tsherif/space-shooter.c
 https://github.com/TTimo/doom3.gpl
 https://github.com/untoldengine/UntoldEngine
-https://github.com/videogamepreservation
+https://github.com/videogamepreservation (all of them)
 https://github.com/volcoma/EtherealEngine
 https://github.com/Walkator/kailius
 https://github.com/Whimfoome/godot-FirstPersonStarter
@@ -249,8 +252,10 @@ https://github.com/Zylann/godot_heightmap_plugin
 https://gitlab.com/evol (planned merge of https://evolonline.org/ into THe Mana World rEvolt project)
 https://gitlab.com/themanaworld/evolved/ (port of Evol Online to the new engine of The Mana World)
 https://globalgamejam.org/
+https://hcsoftware.sourceforge.net/jason-rohrer/ (all)
 https://if50.substack.com/p/business-wargames
 https://illusion.64history.net/2022/wipeout-psx-windows-source
+https://invent.kde.org/games (do we have them all?)
 https://itch.io/jam/game-off-2023
 https://itch.io/jam/gamedevjs-2023
 https://libregamewiki.org/Alexei:_Part_IX
@@ -271,8 +276,11 @@ https://pixeldoctrine.com/index.html (more than just slime volleyball)
 https://planetgenesis.sourceforge.net/
 https://play.google.com/store/apps/dev?id=8387589286898375037 (where is the source, not open source otherwise)
 https://playcanvas.com/
+https://ports.freebsd.org/cgi/ports.cgi
 https://pyweek.org/4/entries/ (Ascent of Justice)
 https://rainey.tech/arcade
+https://reconstruction.voyd.net/index.php?event=project&typeKeyword=remakes
+https://repology.org/
 https://revolutionarygamesstudio.com/ Thrive
 https://rpgmaker.net/engines/
 https://rpgmaker.net/engines/rpg20xx/
@@ -320,8 +328,5 @@ https://www.tapatalk.com/groups/imperilist/
 https://www.wurfelengine.net/
 https://zdoom.org/downloads (gzdoom, lzdoom)
 https://zope.readthedocs.io/en/latest/
-https://codeberg.org/toddcarnes/sdlhana
-https://cxong.github.io/games.html
-https://blog.codeberg.org/new-storage-limits-on-codeberg-what-you-need-to-know.html (at the bottom)
 Pinball Disk Room
 Seahorse Adventures

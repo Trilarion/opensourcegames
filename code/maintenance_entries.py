@@ -736,10 +736,10 @@ class EntriesMaintainer:
         # for every entry filter those that are known git repositories (add additional repositories)
         for entry in self.entries:
             repos = entry.get('Code repository', [])
-            # keep the first and all others containing @add
+            # keep the first and all others containing @add in comment
             if not repos:
                 continue
-            repos = [repos[0]] + [x for x in repos[1:] if "@add" in x]
+            repos = [repos[0]] + [x for x in repos[1:] if isinstance(x, osg_parse.Value) and "@add" in x.comment]
             for repo in repos:
                 consumed = False
                 repo = repo.split(' ')[0].strip()

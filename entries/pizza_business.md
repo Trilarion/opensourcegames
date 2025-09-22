@@ -5,7 +5,7 @@
 - State: mature, inactive since 2003
 - Download: https://sourceforge.net/projects/pizza-business/files
 - Keyword: strategy, clone
-- Code repository: https://gitlab.com/osgames/pizza-business.git (backup of cvs, @created 2018, @stars 2, @forks 0), http://pizza-business.cvs.sourceforge.net/ (cvs)
+- Code repository: https://gitlab.com/osgames/pizza-business.git (backup of cvs, @created 2018, @stars 2, @forks 0)
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: wxWidgets
@@ -14,3 +14,5 @@
 Start and control a pizza business / pizza restaurants, limited to a budget.
 
 ## Building
+
+Old repositories http://pizza-business.cvs.sourceforge.net/ (cvs)

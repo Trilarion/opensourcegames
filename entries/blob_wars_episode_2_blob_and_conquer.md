@@ -4,7 +4,7 @@
 - Media: https://www.parallelrealities.co.uk/games/blobAndConquer/
 - State: mature, inactive since 2016
 - Keyword: platform, 3D, content commercial, shooter, third-person
-- Code repository: https://github.com/perpendicular-dimensions/blobandconquer.git (@created 2016, @stars 16, @forks 6), https://git.code.sf.net/p/blobandconquer/code @add
+- Code repository: https://github.com/perpendicular-dimensions/blobandconquer.git (@created 2016, @stars 16, @forks 6), https://git.code.sf.net/p/blobandconquer/code (@add)
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL

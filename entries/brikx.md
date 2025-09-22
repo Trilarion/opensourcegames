@@ -5,6 +5,7 @@
 - Download: https://sourceforge.net/projects/brikx/files/
 - Platform: Linux
 - Keyword: puzzle, content open
+- Code repository: https://codeberg.org/osgames/brikx.git
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL

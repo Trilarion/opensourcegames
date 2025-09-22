@@ -2,6 +2,7 @@
 
 - Home: https://sourceforge.net/projects/britbingo/
 - State: mature
+- Play: https://bbingo.xyz/
 - Download: https://sourceforge.net/projects/britbingo/files/
 - Platform: Web
 - Keyword: action, board, content open

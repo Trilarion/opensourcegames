@@ -8,7 +8,7 @@
 - Download: https://www.gnu.org/software/freedink/get, http://ftp.gnu.org/gnu/freedink/
 - Platform: Windows, Linux, macOS, Web
 - Keyword: adventure, remake, role playing, 2D, content open, original required (?), top-down
-- Code repository: https://git.savannah.gnu.org/git/freedink.git, https://git.savannah.gnu.org/git/freedink/dfarc.git @add, https://git.savannah.gnu.org/git/freedink/dink-data.git @add, https://git.savannah.gnu.org/git/freedink/freedink-data.git @add, http://cvs.savannah.gnu.org:/sources/freedink (cvs)
+- Code repository: https://git.savannah.gnu.org/git/freedink.git, https://git.savannah.gnu.org/git/freedink/dfarc.git (@add), https://git.savannah.gnu.org/git/freedink/dink-data.git (@add), https://git.savannah.gnu.org/git/freedink/freedink-data.git (@add), http://cvs.savannah.gnu.org:/sources/freedink (cvs)
 - Code language: C
 - Code license: GPL-3.0
 - Code dependency: SDL

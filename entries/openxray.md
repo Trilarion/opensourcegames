@@ -4,7 +4,7 @@
 - Inspiration: S.T.A.L.K.E.R: Call of Pripyat
 - State: mature
 - Keyword: action, game engine, remake, content commercial, multiplayer Online + LAN, original required
-- Code repository: https://github.com/OpenXRay/xray-16.git (@created 2014, @stars 2798, @forks 448), https://github.com/Im-dex/xray-162.git @add (@created 2016, @stars 45, @forks 14)
+- Code repository: https://github.com/OpenXRay/xray-16.git (@created 2014, @stars 2798, @forks 448), https://github.com/Im-dex/xray-162.git (@add, @created 2016, @stars 45, @forks 14)
 - Code language: C++, Lua
 - Code license: ?
 - Code dependency: SDL2, DirectX, OpenGL, Open Dynamics Engine

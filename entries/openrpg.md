@@ -4,7 +4,7 @@
 - State: mature, inactive since 2013
 - Download: http://www.rpgobjects.com/index.php?c=orpg&m=getorpg, https://sourceforge.net/projects/openrpg/files/
 - Keyword: framework, role playing
-- Code repository: https://gitlab.com/osgames/openrpg.git (conversion, @created 2019, @stars 1, @forks 0), https://svn.code.sf.net/p/openrpg/svn (svn), http://openrpg.cvs.sourceforge.net (cvs)
+- Code repository: https://gitlab.com/osgames/openrpg.git (conversion, @created 2019, @stars 1, @forks 0)
 - Code language: Python
 - Code license: GPL-2.0
 - Code dependency: CherryPy, Pillow, wxPython
@@ -13,3 +13,5 @@
 Allows people to play Role Playing Games and some miniature based war games in real-time over the Internet.
 
 ## Building
+
+Old repositories https://svn.code.sf.net/p/openrpg/svn (svn), http://openrpg.cvs.sourceforge.net (cvs)

@@ -4,6 +4,7 @@
 - State: beta, inactive since 2002
 - Download: https://web.archive.org/web/20160315052754/http://www.coralquest.com/anagramarama/download.html
 - Keyword: puzzle, content open
+- Code repository: https://codeberg.org/osgames/anagramarama.git (sources from download)
 - Code language: C
 - Code license: GPL-2.0
 - Assets license: GPL-2.0

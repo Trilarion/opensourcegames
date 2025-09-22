@@ -6,7 +6,7 @@
 - State: mature, inactive since 2006
 - Download: https://sourceforge.net/projects/rogueclone/files/rogue%20clone/
 - Keyword: remake, role playing, roguelike
-- Code repository: https://gitlab.com/osgames/rogueclone.git (backup of cvs, @created 2018, @stars 1, @forks 0), http://rogueclone.cvs.sourceforge.net (cvs)
+- Code repository: https://gitlab.com/osgames/rogueclone.git (backup of cvs, @created 2018, @stars 1, @forks 0)
 - Code language: C
 - Code license: 3-clause BSD
 - Developer: Michael Lehotay, Nick Straguzzi
@@ -14,3 +14,5 @@
 See also https://github.com/naota/rogueclone2s-utf8, https://github.com/WatermelonTeam/RogueClone
 
 ## Building
+
+Old repositories http://rogueclone.cvs.sourceforge.net (cvs)

@@ -7,7 +7,7 @@
 - Download: http://www.gltron.org/download.php
 - Platform: Windows, Linux, macOS
 - Keyword: action, 3D
-- Code repository: https://github.com/osgamearchive/gltron.git (svn and git combination, @archived, @created 2019, @stars 1, @forks 0), https://git.code.sf.net/p/gltron/git @add, https://svn.code.sf.net/p/gltron/code (svn), http://gltron.cvs.sourceforge.net (cvs, contained in the svn)
+- Code repository: https://github.com/osgamearchive/gltron.git (svn and git combination, @archived, @created 2019, @stars 1, @forks 0), https://git.code.sf.net/p/gltron/git (@add)
 - Code language: C
 - Code license: ? (GPL version?)
 - Code dependency: SDL
@@ -16,3 +16,5 @@
 3D snake game based on the light cycle portion of the film Tron.
 
 ## Building
+
+Old repositories https://svn.code.sf.net/p/gltron/code (svn), http://gltron.cvs.sourceforge.net (cvs, contained in the svn)

@@ -5,6 +5,7 @@
 - Download: https://web.archive.org/web/20221206081951/http://aussenposten.gamejs.org/download.html
 - Platform: Windows, Linux
 - Keyword: strategy, content open, real-time
+- Code repository: https://codeberg.org/osgames/Aussenposten.git (import of source downloads)
 - Code language: JavaScript
 - Code license: MIT
 - Code dependency: GameJs

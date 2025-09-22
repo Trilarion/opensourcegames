@@ -4,7 +4,7 @@
 - State: beta (?)
 - Platform: Web
 - Keyword: role playing, multiplayer online + massive
-- Code repository: https://github.com/landoffire/lof-tmwa-server-data.git (@created 2016, @stars 1, @forks 2), https://github.com/landoffire/lof-tmwa-client-data.git @add (@created 2016, @stars 1, @forks 2)
+- Code repository: https://github.com/landoffire/lof-tmwa-server-data.git (@created 2016, @stars 1, @forks 2), https://github.com/landoffire/lof-tmwa-client-data.git (@add, @created 2016, @stars 1, @forks 2)
 - Code language: Script, PHP
 - Code license: GPL-2.0
 - Code dependency: Mana source engine

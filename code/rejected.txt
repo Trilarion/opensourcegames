@@ -11,12 +11,14 @@ Alive_Reversing (https://github.com/AliveTeam/alive_reversing.git): No license i
 Altera Terra (https://sourceforge.net/projects/alteraterra/, https://svn.code.sf.net/p/alteraterra/code/): Early development stage, no clear license information
 AlterCiv (https://sourceforge.net/projects/alterciv/): Very early development
 Ambermoon (https://github.com/jhorneman/ambermoon.git): No license attached, license unknown, likely not open source
+Ambrose3D (https://solhsa.com/ambrose3d/index.html): Too alpha, just shows an initial screen
 android_snake_game (https://github.com/codepath/android_snake_game): No license information found
 Anodyne (https://github.com/analgesicproductions/Anodyne-1-Repo.git): Special license, not fully open source compatible, border case
 Antigravitaattori (http://www.luolamies.org/software/antigrav/, https://packages.debian.org/stable/games/antigravitaattori): Very early development
 Apricot JS (http://apricot-js.tumblr.com/): Difficult to find the source code, no license information, may not be used in games
 Arena of Honour (https://sourceforge.net/projects/aoh/): No clear license with the sources, no license of the assets, early development (alpha), inactive
 Arkhart (http://gna.org/projects/arkhart/, http://arkhart.nekeme.net/): Sources lost (gna.org)
+Arrakis (https://arrakis.dune2k.com/arrakis.html): Not open source in our sense, see source download says copyrighted to the author
 Arthur's Knights (http://ainenn.org/KingArthur/, https://sourceforge.net/projects/king-arthur/): Unclear license, author could not be contacted
 Atari8bit_StarRaiders (https://github.com/sidneycadot/Atari8bit_StarRaiders.git): No license, not playable
 Atral Clades (https://sourceforge.net/projects/astralclades/, https://svn.code.sf.net/p/astralclades/code/): No clear license information
@@ -32,6 +34,7 @@ Bedlam 2: Absolute Bedlam (https://github.com/8street/Bedlam2.git): No license
 Begin2 (https://sourceforge.net/projects/begin2/, https://svn.code.sf.net/p/begin2/code/): No source available
 Bermuda Syndrome (https://github.com/cyxx/bermuda): No license information. Author has no interest in open source licensing (personal contact). Since its a decompilation, it may also be illegal.
 Berserk (https://github.com/EgorOrachyov/Berserk): No license information found
+Between (https://hcsoftware.sourceforge.net/between/, https://sourceforge.net/projects/hcsoftware/files/Between/): No license info given
 biju-game (https://github.com/fdfragoso/biju-game, http://crocidb.com/labs/biju-game/, https://github.com/CrociDB/biju-game): Very early development, No license added
 BlockOut II for Playstation Vita (https://github.com/bomblik/BlockOut_II_PSVITA): Does not target supported OS.
 Blood & Magic Interactive Demo (https://github.com/mhjlam/bam.git): Only an interactive demo, very old, no clear license information

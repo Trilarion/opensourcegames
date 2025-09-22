@@ -5,7 +5,7 @@
 - Download: https://armory3d.org/engine/download
 - Platform: Windows, Linux, macOS
 - Keyword: game engine, 3D
-- Code repository: https://github.com/armory3d/armory.git (@created 2015, @stars 2969, @forks 313), https://github.com/armory3d/iron.git @add (@created 2013, @stars 258, @forks 51)
+- Code repository: https://github.com/armory3d/armory.git (@created 2015, @stars 2969, @forks 313), https://github.com/armory3d/iron.git (@add, @created 2013, @stars 258, @forks 51)
 - Code language: Haxe, Python
 - Code license: zlib
 - Code dependency: Blender

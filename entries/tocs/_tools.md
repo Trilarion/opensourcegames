@@ -8,7 +8,6 @@
 - **[Cartographer](../cartographer.md)** (GDScript, Apache-2.0, mature)
 - **[CBoard](../cboard.md)** (C, GPL-2.0, beta, inactive since 2018)
 - **[ct.js](../ctjs.md)** (JavaScript, TypeScript, MIT, mature)
-- **[D-Fend Reloaded](../d-fend_reloaded.md)** (Pascal, GPL-3.0, mature, inactive since 2015)
 - **[Dedalus](../dedalus.md)** (JavaScript, GPL-2.0, beta, inactive since 2018)
 - **[Deity](../deity.md)** (Python, GPL-2.0, mature, inactive since 2014)
 - **[Dungeon Mapper](../dungeon_mapper.md)** (C++, GPL-3.0, beta, inactive since 2013)

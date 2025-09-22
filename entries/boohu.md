@@ -4,7 +4,7 @@
 - State: beta
 - Platform: Web
 - Keyword: role playing, content open, roguelike, turn-based
-- Code repository: https://git.tuxfamily.org/boohu/boohu.git, https://github.com/anaseto/boohu.git @add (@archived, @created 2017, @stars 126, @forks 7)
+- Code repository: https://git.tuxfamily.org/boohu/boohu.git, https://github.com/anaseto/boohu.git (@add, @archived, @created 2017, @stars 126, @forks 7)
 - Code language: Go
 - Code license: ISC
 - Assets license: ISC

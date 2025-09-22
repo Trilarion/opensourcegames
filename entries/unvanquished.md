@@ -7,7 +7,7 @@
 - Download: https://unvanquished.net/download/
 - Platform: Windows, Linux, macOS
 - Keyword: action, shooter
-- Code repository: https://github.com/Unvanquished/Unvanquished.git (@created 2011, @stars 933, @forks 152), https://github.com/DaemonEngine/Daemon.git @add (@created 2015, @stars 288, @forks 57)
+- Code repository: https://github.com/Unvanquished/Unvanquished.git (@created 2011, @stars 933, @forks 152), https://github.com/DaemonEngine/Daemon.git (@add, @created 2015, @stars 288, @forks 57)
 - Code language: C, C++
 - Code license: GPL-3.0
 - Code dependency: Dæmon

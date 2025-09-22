@@ -134,8 +134,10 @@ class Value(str):
 
     def __new__(cls, value, comment=None):
         obj = str.__new__(cls, value)
-        obj.comment = comment
         return obj
+
+    def __init__(self, value, comment=None):
+        self.comment = comment
 
 
 def parse(parser, transformer, content):

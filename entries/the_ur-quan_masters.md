@@ -6,7 +6,7 @@
 - State: mature, inactive since 2011
 - Download: https://sc2.sourceforge.net/downloads.php
 - Keyword: remake, strategy, turn-based
-- Code repository: https://git.code.sf.net/p/sc2/uqm, https://gitlab.com/osgames/uqm.git @add (@created 2019, @stars 1, @forks 0)
+- Code repository: https://git.code.sf.net/p/sc2/uqm, https://gitlab.com/osgames/uqm.git (@add, @created 2019, @stars 1, @forks 0)
 - Code language: C
 - Code license: GPL-2.0
 - Developer: Alex Volkov, Chris Nelson, Michael Martin, Mika Kolehmainen, Serge van den Boom

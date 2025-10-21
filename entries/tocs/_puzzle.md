@@ -67,6 +67,7 @@
 - **[GJID](../gjid.md)** (C++, MIT, mature, inactive since 2017)
 - **[glPortal](../glportal.md)** (C++, zlib, beta)
 - **[Gweled](../gweled.md)** (C, Script, GPL-2.0, mature)
+- **[Harmonyblocks](../harmonyblocks.md)** (TypeScript, Script, MIT , beta)
 - **[Hex-a-hop](../hex-a-hop.md)** (C++, GPL-2.0, mature, inactive since 2013)
 - **[Hextris](../hextris.md)** (JavaScript, GPL-3.0, mature)
 - **[HoDoKu](../hodoku.md)** (Java, GPL-3.0, mature, inactive since 2013)

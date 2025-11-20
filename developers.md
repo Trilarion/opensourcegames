@@ -2547,12 +2547,6 @@
 - Games: DevilutionX
 - Contact: sweetgiorni@GH
 
-## Alex Szpakowski [1]
-
-- Games: LÖVE
-- Contact: slime73@GH
-- Home: https://love2d.org
-
 ## Alex TD [1]
 
 - Games: Endless Sky
@@ -2910,12 +2904,6 @@
 - Contact: ASPePeX@GH
 - Home: http://aspepex.net/, https://aspepex.net/
 
-## Alexander Schlarb [1]
-
-- Games: NXEngine-evo
-- Contact: ntninja@GH
-- Home: https://ninetailed.ninja/
-
 ## Alexander Schoelling [1]
 
 - Games: MegaMek
@@ -3052,12 +3040,6 @@
 
 - Games: Attal: Lords of doom
 - Contact: crevette@SF
-
-## Alexandre Almeida [2]
-
-- Games: Open Surge, raylib
-- Contact: M374LX@GH
-- Home: http://m374lx.users.sourceforge.net/, https://m374lx.users.sourceforge.net/
 
 ## Alexandre Blin [1]
 
@@ -11011,11 +10993,6 @@
 
 - Games: OpenRCT2
 - Contact: BryanDiLaura@GH
-
-## Bryan Hoyle [1]
-
-- Games: The Powder Toy
-- Contact: triclops200@GH
 
 ## Bryan Jennings [1]
 
@@ -37565,12 +37542,6 @@
 - Games: Ren'Py
 - Contact: kalawore@GH
 
-## Kaleb [1]
-
-- Games: osu!
-- Contact: sh0ckR6@GH
-- Home: https://twitch.tv/sh0ckR6
-
 ## Kalila [1]
 
 - Games: Vircadia
@@ -43306,9 +43277,11 @@
 - Games: Mario Objects
 - Contact: M1S2@GH
 
-## M374LX [1]
+## M374LX [3]
 
-- Games: Alex vs Bus: The Race
+- Games: Alex vs Bus: The Race, Open Surge, raylib
+- Contact: M374LX@GH
+- Home: http://m374lx.users.sourceforge.net/, https://m374lx.users.sourceforge.net/
 
 ## m4nu3lf [1]
 
@@ -46472,12 +46445,6 @@
 
 - Games: GalaxyNG
 - Contact: messanam@SF
-
-## Matthew Miller [1]
-
-- Games: The Powder Toy
-- Contact: me4502@GH
-- Home: https://matthewmiller.dev/
 
 ## Matthew Morrow [1]
 
@@ -51512,12 +51479,6 @@
 
 - Games: YKnytt
 - Contact: youkaicountry@GH
-
-## Nathaniel Case [1]
-
-- Games: Tile World
-- Contact: Qalthos@GH
-- Home: http://nathanielca.se/
 
 ## Nathaniel Woods [1]
 

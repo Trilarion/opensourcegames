@@ -4,6 +4,7 @@
 - State: beta, inactive since 2013
 - Download: https://sourceforge.net/projects/critterding/files/critterding/
 - Keyword: simulation, strategy, content open, evolution
+- Code repository: https://codeberg.org/osgames/critterding.git
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL

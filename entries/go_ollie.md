@@ -1,6 +1,6 @@
 # Go Ollie!
 
-- Home: http://www.charliedoggames.com/?page_id=62, https://web.archive.org/web/20111013005011/http://www.tweeler.com/index.php?PAGE=goollie_linux
+- Home: https://web.archive.org/web/20200820224551/http://www.charliedoggames.com/?page_id=62, https://web.archive.org/web/20111013005011/http://www.tweeler.com/index.php?PAGE=goollie_linux
 - State: mature, inactive since 2011
 - Download: https://web.archive.org/web/20111209123851/http://www.tweeler.com/GoOllie_13.sh
 - Platform: Windows, Linux

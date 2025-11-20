@@ -6,6 +6,7 @@
 - Download: https://stabyourself.net/notpacman/#download
 - Platform: Windows, Linux, macOS
 - Keyword: action, content open
+- Code repository: https://github.com/Stabyourself/notpacman.git
 - Code language: Lua
 - Code license: WTFPL
 - Code dependency: LÖVE

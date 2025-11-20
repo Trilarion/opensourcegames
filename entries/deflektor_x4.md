@@ -4,8 +4,9 @@
 - Inspiration: Deflektor
 - State: mature, inactive since 2008
 - Keyword: arcade, remake, content closed
+- Code repository: https://codeberg.org/osgames/deflektor_x4.git
 - Code language: C
-- Code license: Custom
+- Code license: Custom (non-commercial)
 - Developer: Ignacio Pérez Gil
 
 ## Building

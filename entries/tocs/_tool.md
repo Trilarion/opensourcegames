@@ -29,7 +29,6 @@
 - **[PCGen](../pcgen.md)** (Java, LGPL-2.1, mature)
 - **[Pendumito](../pendumito.md)** (JavaScript, GPL-2.0, mature, inactive since 2003)
 - **[Procedural Map Generator](../procedural_map_generator.md)** (C++, MIT, mature, inactive since 2018)
-- **[Psyco](../psyco.md)** (C, MIT, mature, inactive since 2008)
 - **[Pymapper](../pymapper.md)** (Python, GPL-3.0, mature)
 - **[PyTMX](../pytmx.md)** (Python, LGPL-3.0, mature)
 - **[ReShade](../reshade.md)** (C++, 3-clause BSD, mature)

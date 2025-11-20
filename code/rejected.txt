@@ -89,6 +89,7 @@ EarthShakerDS (http://simianzombie.com/posts/2011/05/10/earth-shaker-ds-released
 EconLegacy (https://sourceforge.net/projects/econlegacy/): Very early development
 Eleconics (https://sourceforge.net/projects/eleconics/): No license found
 Element Games Engine (https://github.com/fredwen2008/Element-Games-Engine): No license information
+Elite remake (http://polarelephant.blogspot.com/2007/10/elite-remake.html): Not open source, only free to play see https://web.archive.org/web/20150902054507/http://www.elitehomepage.org/thirty/index.htm or https://www.christianpinder.com/games/
 EmMines (http://eaglemode.sourceforge.net/): Part of a too large application (eaglemode). Could not access Source code. Maybe later.
 Encounter (https://github.com/air/encounter.git): No license information, opened issue but no answer yet
 engge 2 (https://github.com/scemino/engge2): License not found

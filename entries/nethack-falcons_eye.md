@@ -1,4 +1,4 @@
-# Falcon's Eye
+# NetHack - Falcon's Eye
 
 - Home: https://falconseye.sourceforge.net/, https://sourceforge.net/projects/falconseye/
 - Inspiration: NetHack
@@ -6,6 +6,7 @@
 - Download: https://sourceforge.net/projects/falconseye/files/
 - Platform: Windows, Linux
 - Keyword: remake, simulation, isometric, roguelike
+- Code repository: https://codeberg.org/osgames/nethack-falcons-eye.git
 - Code language: C
 - Code license: NetHack General Public License
 - Developer: Jaakko Tapani Peltonen

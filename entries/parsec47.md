@@ -5,6 +5,7 @@
 - Download: https://sourceforge.net/projects/parsec47/files/
 - Platform: Windows, Linux
 - Keyword: arcade, fight
+- Code repository: https://github.com/M-HT/parsec47.git, https://github.com/dinhngtu/parsec47.git (@add)
 - Code language: D
 - Code license: 2-clause BSD
 - Code dependency: SDL

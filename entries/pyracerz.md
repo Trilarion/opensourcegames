@@ -4,6 +4,7 @@
 - State: beta, inactive since 2005
 - Download: https://sourceforge.net/projects/pyracerz/files/
 - Keyword: framework, racing
+- Code repository: https://codeberg.org/osgames/pyracerz.git
 - Code language: Python
 - Code license: GPL-2.0
 - Code dependency: pygame

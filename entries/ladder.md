@@ -2,13 +2,12 @@
 
 - Home: https://ostermiller.org/ladder/
 - Inspiration: Ladder
-- State: mature, inactive since 2005
+- State: mature, inactive since 2020
 - Download: https://ostermiller.org/ladder/download.html
 - Keyword: arcade, remake, text-based
+- Code repository: https://codeberg.org/osgames/ladder.git
 - Code language: Java
 - Code license: GPL-2.0
 - Developer: Stephen Ostermiller
-
-Small compatibility release in 2020. Sources are included in JAR file.
 
 ## Building

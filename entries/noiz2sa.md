@@ -5,9 +5,12 @@
 - Download: https://sourceforge.net/projects/noiz2sa/files/
 - Platform: Windows, Linux
 - Keyword: arcade, shooter
+- Code repository: https://codeberg.org/osgames/noiz2sa.git
 - Code language: C, C++
 - Code license: 2-clause BSD
 - Code dependency: SDL
-- Developer: Evil Mr Henry
+- Developer: Evil Mr Henry, Kenta Cho
+
+https://repology.org/project/noiz2sa/versions
 
 ## Building

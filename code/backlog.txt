@@ -2,6 +2,7 @@ http://bote.codeplex.com/
 http://crazycarscpc.free.fr/
 http://freshmeat.sourceforge.net/tags/turn-based-strategy (good for older ones)
 http://majestyofomega.codeplex.com/
+http://royale.zerezo.com/zerace/
 http://www.interq.or.jp/libra/oohara/
 http://www.rpgtoolkit.net/
 http://www.rtsoft.com/novashell/
@@ -27,6 +28,7 @@ https://carrot.soulweaver.fi/#links
 https://cocainediesel.fun/
 https://code.launchpad.net/~flosoft/s25rttr/trunk
 https://codeberg.org/mineclonia/mineclonia
+https://codeberg.org/shirakumo/kandria
 https://codeberg.org/toddcarnes/sdlhana
 https://cxong.github.io/games.html
 https://cyber.dabamos.de/game-dev/
@@ -174,7 +176,10 @@ https://github.com/Mukarillo/UnityTetris
 https://github.com/nCine/nCine
 https://github.com/ondras/rot.js
 https://github.com/open-telemetry/opentelemetry-cpp
+https://github.com/openbsd/ports/tree/master/games
 https://github.com/OpenGMK/OpenGMK
+https://github.com/OS2World
+https://github.com/OSSGames
 https://github.com/osslugaru/lugaru
 https://github.com/OverShifted/OverEngine
 https://github.com/oxygine/oxygine-framework
@@ -250,7 +255,9 @@ https://github.com/zeldaret/tmc
 https://github.com/Zone-organization/Nuclear-Engine
 https://github.com/Zylann/godot_heightmap_plugin
 https://gitlab.com/evol (planned merge of https://evolonline.org/ into THe Mana World rEvolt project)
+https://gitlab.com/FreeDOS/games
 https://gitlab.com/themanaworld/evolved/ (port of Evol Online to the new engine of The Mana World)
+https://gitlab.com/video-game-preservation
 https://globalgamejam.org/
 https://hcsoftware.sourceforge.net/jason-rohrer/ (all)
 https://if50.substack.com/p/business-wargames
@@ -258,6 +265,7 @@ https://illusion.64history.net/2022/wipeout-psx-windows-source
 https://invent.kde.org/games (do we have them all?)
 https://itch.io/jam/game-off-2023
 https://itch.io/jam/gamedevjs-2023
+https://lgames.sourceforge.io/LBreakoutHD/ (and other lgames)
 https://libregamewiki.org/Alexei:_Part_IX
 https://libregamewiki.org/CameliaGirls
 https://libregamewiki.org/Childish_Cannoneer
@@ -289,6 +297,9 @@ https://salsa.debian.org/games-team/etw
 https://scorched-moon.github.io/site/
 https://scratch.mit.edu/ (https://en.scratch-wiki.info/wiki/Scratch_Source_Code)
 https://senseis.xmp.net/?GNUGo
+https://shinmera.com/#games
+https://shinmera.itch.io/
+https://sites.google.com/site/santiagoontanonvillar/software
 https://sourceforge.net/blog/games-for-the-holidays/
 https://stendhalgame.org/wiki/Marauroa
 https://verge-rpg.com/
@@ -300,6 +311,7 @@ https://web.archive.org/web/20161209004445/https://notabug.org/koz.ross/awesome-
 https://web.archive.org/web/20170714065728/http://users.olis.net.au/zel/
 https://web.archive.org/web/20171228172756/http://www.oletus.fi/static/whichwayisup/
 https://web.archive.org/web/20190106035150/http://www2.braingames.getput.com/
+https://web.archive.org/web/20240921231137/https://www.allegro.cc/depot/ (in all subcategories, often source available, but maybe copyrighted, see license)
 https://www.adventuregamestudio.co.uk/
 https://www.androidauthority.com/best-open-source-apps-for-android-861665/
 https://www.b3dgs.com/v7/page.php?lang=en&section=projects
@@ -321,6 +333,7 @@ https://www.nexusmods.com/games (if one can filter by open source)
 https://www.old-games.com/
 https://www.old-games.ru/forum/threads/nekommercheskie-analogi-izvestnyx-igr.40868/page-9
 https://www.piston.rs/
+https://www.pygame.org/tags/strategy (and all other projects, check for license)
 https://www.reddit.com/r/opensourcegames/comments/celw6c/top_3_open_source_pinball_games_2015/
 https://www.scirra.com/construct2
 https://www.seul.org/~grumbel/tmp/clanlib/games.html

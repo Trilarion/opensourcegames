@@ -41,7 +41,7 @@
 - **[Morpheus Web Remake](../morpheus_web_remake.md)** (JavaScript, TypeScript, MIT, beta)
 - **[Murder In The Public Domain](../murder_in_the_public_domain.md)** (C++, GPL-3.0, mature, inactive since 2013)
 - **[MUSoSu](../musosu.md)** (Java, GPL-3.0, beta, inactive since 2008)
-- **[OREGON 77](../oregon_77.md)** (Fortran, ISC, mature)
+- **[OREGON 77](../oregon_77.md)** (Fortran, ISC, mature, inactive since 2022)
 - **[Privateer - Gemini Gold](../privateer-gemini_gold.md)** (C++, GPL-2.0, mature, inactive since 2012)
 - **[Reconstruction of Super ZZT](../reconstruction_of_super_zzt.md)** (Pascal, MIT, mature)
 - **[Reconstruction of ZZT](../reconstruction_of_zzt.md)** (Pascal, MIT, mature)

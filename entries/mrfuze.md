@@ -3,6 +3,7 @@
 - Home: https://web.archive.org/web/20081121190409/http://pymike.4rensics.org/mrfuze/
 - State: mature, inactive since 2008
 - Keyword: platform
+- Code repository: https://codeberg.org/osgames/mrfuze.git
 - Code language: Python
 - Code license: LGPL-2.1
 - Code dependency: pygame

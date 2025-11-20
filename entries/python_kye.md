@@ -8,4 +8,6 @@
 - Code language: Python
 - Code license: GPL-2.0
 
+https://repology.org/project/kye/versions
+
 ## Building

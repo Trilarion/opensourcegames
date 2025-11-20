@@ -1,6 +1,6 @@
 # One is enough
 
-- Home: https://web.archive.org/web/20180724071018/https://hectigo.net/games/oneisenough/, https://packages.debian.org/search?keywords=oneisenough
+- Home: https://web.archive.org/web/20180724071018/https://hectigo.net/games/oneisenough/, https://repology.org/project/oneisenough/versions
 - State: beta, inactive since 2008
 - Keyword: arcade, content open
 - Code language: Python

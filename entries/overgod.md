@@ -1,6 +1,6 @@
 # Overgod
 
-- Home: https://sourceforge.net/projects/overgod/, https://www.allegro.cc/depot/Overgod
+- Home: https://sourceforge.net/projects/overgod/, https://web.archive.org/web/20250714132755/https://www.allegro.cc/depot/Overgod
 - State: mature, inactive since 2005
 - Download: https://sourceforge.net/projects/overgod/files/
 - Platform: Windows, Linux, macOS

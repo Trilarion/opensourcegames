@@ -3,6 +3,7 @@
 - Home: https://web.archive.org/web/20120326005334/http://fredrik.jemla.eu/sinatra/
 - State: mature, inactive since 2008
 - Keyword: music, content open, karaoke
+- Code repository: https://codeberg.org/osgames/sinatra.git
 - Code language: C
 - Code license: GPL-3.0
 - Code dependency: FreeType, GStreamer, libavformat, portaudio, SDL

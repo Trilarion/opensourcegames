@@ -5,7 +5,8 @@
 - Download: https://sourceforge.net/projects/rrootage/files/
 - Platform: Windows, Linux
 - Keyword: game engine, fight, shooter
-- Code language: C
+- Code repository: https://github.com/abagames/rrootage.git
+- Code language: C, C++
 - Code license: 2-clause BSD
 - Code dependency: SDL
 - Developer: Evil Mr Henry

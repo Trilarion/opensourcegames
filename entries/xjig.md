@@ -1,6 +1,6 @@
 # Xjig
 
-- Home: https://packages.debian.org/search?keywords=xjig
+- Home: https://repology.org/project/xjig/versions
 - State: mature
 - Keyword: puzzle, 2D, content open, jigsaw
 - Code language: C

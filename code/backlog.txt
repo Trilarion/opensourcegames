@@ -59,6 +59,11 @@ https://github.com/actsl/kiss_sdl
 https://github.com/alexbatalov/fallout1-re
 https://github.com/alexbatalov/fallout2-re
 https://github.com/andrejnau/FlyCube
+https://github.com/i-bardinov/bomberman-sdl2
+https://github.com/belinhacbr/Bomberman
+https://github.com/Grimmys/rpg_tactical_fantasy_game
+https://github.com/Grimmys/pygame_popup_manager
+https://github.com/efroemling/ballistica
 https://github.com/billyquith/GWork
 https://github.com/bitbrain/godot-gamejam
 https://github.com/bobeff/open-source-engines

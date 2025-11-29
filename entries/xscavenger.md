@@ -1,6 +1,6 @@
 # XScavenger
 
-- Home: https://web.archive.org/web/20191008085417/https://www.linuxmotors.com/scavenger/index.html, https://sourceforge.net/projects/sdlscavenger/
+- Home: https://web.archive.org/web/20191008085417/https://www.linuxmotors.com/scavenger/index.html, https://web.archive.org/web/20140331111504/https://www.xdr.com/dash/scavenger.html, https://sourceforge.net/projects/sdlscavenger/
 - Inspiration: Lode Runner
 - State: mature, inactive since 2015
 - Download: https://sourceforge.net/projects/sdlscavenger/files/

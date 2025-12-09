@@ -1,9 +1,9 @@
 # Hypersomnia
 
-- Home: https://hypersomnia.xyz/
+- Home: https://hypersomnia.io/
 - Inspiration: Counter-Strike, Hotline Miami
 - State: mature
-- Download: https://hypersomnia.xyz/
+- Download: https://hypersomnia.io/
 - Platform: Windows, Linux, macOS
 - Keyword: action, pixelart, shooter, top-down
 - Code repository: https://github.com/TeamHypersomnia/Hypersomnia.git (@created 2013, @stars 857, @forks 38)

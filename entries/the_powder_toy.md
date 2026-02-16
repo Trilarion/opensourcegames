@@ -10,6 +10,6 @@
 - Code language: C++, C, Lua, Python
 - Code license: GPL-3.0
 - Code dependency: SDL2
-- Developer: antb, arK, Bryan Hoyle, C7C8, Catelite, catsoften, Cracker1000, Doxin, jacksonmj, jacob1, jbot-42, Jesse Jaara, Johannes Kadak, Maddy Miller, Mark Theng, Matthew Miller, mmbob, mniip, moonheart08, Moony, Nate, NoH, ntoskrnl11, Pilihp64, QuanTech0, savask, Simon, suve, Tamás Bálint Misius, Victoria Hoyle, wolfy1339, zc00gii
+- Developer: antb, arK, C7C8, Catelite, catsoften, Cracker1000, Doxin, jacksonmj, jacob1, jbot-42, Jesse Jaara, Johannes Kadak, Maddy Miller, Mark Theng, mmbob, mniip, moonheart08, Moony, Nate, NoH, ntoskrnl11, Pilihp64, QuanTech0, savask, Simon, suve, Tamás Bálint Misius, Victoria Hoyle, wolfy1339, zc00gii
 
 ## Building

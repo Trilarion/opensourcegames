@@ -8137,20 +8137,20 @@
    "LGPL-3.0"
   ],
   [
-   "<a href=\"games/L.html#ladder\" class=\"has-text-weight-semibold\">ladder</a> <a href=\"https://github.com/mengstr/ladder\"><i class=\"icon-new-tab\"></i></a>",
-   "beta, inactive since 2016",
-   "arcade, remake",
-   "-",
-   "Go",
-   "MIT"
-  ],
-  [
-   "<a href=\"games/L.html#ladderx\" class=\"has-text-weight-semibold\">Ladder</a> <a href=\"https://ostermiller.org/ladder/\"><i class=\"icon-new-tab\"></i></a>",
+   "<a href=\"games/L.html#ladder\" class=\"has-text-weight-semibold\">Ladder</a> <a href=\"https://ostermiller.org/ladder/\"><i class=\"icon-new-tab\"></i></a>",
    "mature, inactive since 2005",
    "arcade, remake",
    "-",
    "Java",
    "GPL-2.0"
+  ],
+  [
+   "<a href=\"games/L.html#ladderx\" class=\"has-text-weight-semibold\">ladder</a> <a href=\"https://github.com/mengstr/ladder\"><i class=\"icon-new-tab\"></i></a>",
+   "beta, inactive since 2016",
+   "arcade, remake",
+   "-",
+   "Go",
+   "MIT"
   ],
   [
    "<a href=\"games/L.html#lambdarogue_the_book_of_stars\" class=\"has-text-weight-semibold\">LambdaRogue: The Book of Stars</a> <a href=\"https://web.archive.org/web/20130604050642/http://lambdarogue.net/\"><i class=\"icon-new-tab\"></i></a>",

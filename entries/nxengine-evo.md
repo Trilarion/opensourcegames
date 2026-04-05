@@ -8,7 +8,7 @@
 - Code language: C++, C
 - Code license: GPL-3.0
 - Code dependency: SDL2
-- Developer: Alexander Schlarb, alula, Carsten Teibes, cat, Clownacy, Epifanov Ivan, Erin Schlarb, Erin Yuki Schlarb, Jordan Christiansen, Laura K., Paweł Zacharek, Rotartsi, Tim, Tim Süberkrüb, Yukita Mayako
+- Developer: alula, Carsten Teibes, cat, Clownacy, Epifanov Ivan, Erin Schlarb, Erin Yuki Schlarb, Jordan Christiansen, Laura K., Paweł Zacharek, Rotartsi, Tim, Tim Süberkrüb, Yukita Mayako
 
 ## Building
 

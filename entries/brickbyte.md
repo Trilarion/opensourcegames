@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://gitlab.com/Stoniye/brickbyte/-/releases
 - Platform: Linux, Windows
-- Keyword: adventure
+- Keyword: adventure, content open, voxel
 - Code repository: https://gitlab.com/Stoniye/brickbyte
 - Code language: Rust
 - Code license: GPL-3.0

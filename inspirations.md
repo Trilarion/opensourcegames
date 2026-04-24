@@ -1940,9 +1940,9 @@
 
 - Inspired entries: Monsters and Mushrooms
 
-## Minecraft [21]
+## Minecraft [22]
 
-- Inspired entries: CaveCube, Chunk Stories, ClassiCube, Craft, Cubyz, Digbuild, DwarfCorp, Freeminer, Gnomescroll, Hematite, Manic Digger, MineClone 2, Minecraft, MineCraft-One-Week-Challenge, minecraft-weekend, Minetest, pycraft, Terasology, TrueCraft, Veloren, Voxelands
+- Inspired entries: CaveCube, Chunk Stories, ClassiCube, Craft, Cubyz, Digbuild, DwarfCorp, Freeminer, Gnomescroll, Hematite, Manic Digger, MineClone 2, Minecraft, MineCraft-One-Week-Challenge, minecraft-weekend, Minetest, pycraft, Terasology, TrueCraft, Veloren, Voxelands, Brickbyte
 - Media: https://en.wikipedia.org/wiki/Minecraft
 
 ## Minesweeper [10]

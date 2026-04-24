@@ -1,14 +1,16 @@
 # Brickbyte
 
 - Home: https://gitlab.com/Stoniye/brickbyte
-- Inspiration: Minecraft, Hytale
-- State: alpha
+- Inspiration: Hytale
+- State: beta
 - Download: https://gitlab.com/Stoniye/brickbyte/-/releases
-- Platform: Windows, Linux
-- Keyword: content open, voxel, fantasy
+- Platform: Linux, Windows
+- Keyword: adventure
 - Code repository: https://gitlab.com/Stoniye/brickbyte
 - Code language: Rust
 - Code license: GPL-3.0
 - Developer: Elias Steininger
+
+A 3D Survival Voxel Game with OpenGL in Rust
 
 ## Building

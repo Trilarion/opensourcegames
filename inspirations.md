@@ -1405,6 +1405,11 @@
 
 - Inspired entries: OceanPop
 
+## Hytale [1]
+
+- Inspired entries: Brickbyte
+- Media: https://de.wikipedia.org/wiki/Hytale
+
 ## ICBM3D [1]
 
 - Inspired entries: XInvaders 3D

@@ -21129,6 +21129,11 @@
 - Games: Allegro
 - Contact: elias-pschernig@GH
 
+## Elias Steininger
+
+- Games: Brickbyte
+- Contact: Stoniye@GH
+
 ## Elijah Burshtein [1]
 
 - Games: unitystation

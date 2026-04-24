@@ -1,7 +1,7 @@
 # Brickbyte
 
 - Home: https://gitlab.com/Stoniye/brickbyte
-- Inspiration: Hytale
+- Inspiration: Hytale, Minecraft
 - State: beta
 - Download: https://gitlab.com/Stoniye/brickbyte/-/releases
 - Platform: Linux, Windows

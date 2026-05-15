@@ -21124,15 +21124,15 @@
 - Games: FreeCol
 - Contact: jarl@SF
 
-## elias-pschernig [1]
-
-- Games: Allegro
-- Contact: elias-pschernig@GH
-
 ## Elias Steininger [1]
 
 - Games: Brickbyte
 - Contact: Stoniye@GL
+
+## elias-pschernig [1]
+
+- Games: Allegro
+- Contact: elias-pschernig@GH
 
 ## Elijah Burshtein [1]
 

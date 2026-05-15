@@ -201,7 +201,7 @@
 - **[Torso Ninja 2](../torso_ninja_2.md)** (Python, GPL-3.0, mature, inactive since 2017)
 - **[Torso Ninja](../torso_ninja.md)** (Python, GPL-3.0, mature, inactive since 2017)
 - **[Tower Building Game](../tower_building_game.md)** (JavaScript, MIT, mature)
-- **[Tower Toppler](../tower_toppler.md)** (C++, GPL-2.0, mature)
+- **[Tower Toppler](../tower_toppler.md)** (C++, GPL-2.0, mature, inactive since 2023)
 - **[TowerJumper](../towerjumper.md)** (C++, GDScript, GPL-3.0, mature)
 - **[Transcend](../transcend.md)** (C++, ?, beta, inactive since 2005)
 - **[Trip on the Funny Boat](../trip_on_the_funny_boat.md)** (Python, GPL-2.0, mature, inactive since 2020)

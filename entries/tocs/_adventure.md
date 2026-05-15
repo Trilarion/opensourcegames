@@ -4,6 +4,7 @@
 - **[AdaVenture](../adaventure.md)** (Ada, GPL-3.0, mature)
 - **[adventure engine](../adventure_engine.md)** (Lua, MIT, mature, inactive since 2013)
 - **[Bladecoder Adventure Engine](../bladecoder_adventure_engine.md)** (Java, Apache-2.0, mature)
+- **[Brickbyte](../brickbyte.md)** (Rust, GPL-3.0, beta)
 - **[BrowserQuest](../browserquest.md)** (JavaScript, MPL-2.0, mature)
 - **[Captain Blood](../captain_blood.md)** (C++, C, GPL-3.0, mature)
 - **[Cat Mother Dead Justice](../cat_mother_dead_justice.md)** (C++, 3-clause BSD, GPL-2.0, beta, inactive since 2003)

@@ -4,6 +4,7 @@
 - Inspiration: Transball
 - State: mature, inactive since 2005
 - Keyword: arcade, content open, side-scrolling
+- Code repository: https://codeberg.org/osgames/stransball2.git
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL

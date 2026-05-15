@@ -36,7 +36,6 @@
 - **[Rolemaster Office](../rolemaster_office.md)** (Java, Apache-2.0, mature)
 - **[Rolisteam](../rolisteam.md)** (C++, JavaScript, GPL-2.0, mature)
 - **[RPDungeon - computer aided role playing](../rpdungeon-computer_aided_role_playing.md)** (Pascal, GPL-2.0, beta, inactive since 2006)
-- **[sfxr](../sfxr.md)** (C++, MIT, mature, inactive since 2012)
 - **[SLADE](../slade.md)** (C++, GPL-2.0, mature)
 - **[Slick2D](../slick2d.md)** (Java, 3-clause BSD, beta, inactive since 2014)
 - **[Squiffy](../squiffy.md)** (JavaScript, MIT, mature)

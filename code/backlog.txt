@@ -59,17 +59,14 @@ https://github.com/actsl/kiss_sdl
 https://github.com/alexbatalov/fallout1-re
 https://github.com/alexbatalov/fallout2-re
 https://github.com/andrejnau/FlyCube
-https://github.com/i-bardinov/bomberman-sdl2
 https://github.com/belinhacbr/Bomberman
-https://github.com/Grimmys/rpg_tactical_fantasy_game
-https://github.com/Grimmys/pygame_popup_manager
-https://github.com/efroemling/ballistica
 https://github.com/billyquith/GWork
 https://github.com/bitbrain/godot-gamejam
 https://github.com/bobeff/open-source-engines
 https://github.com/bobeff/open-source-games
 https://github.com/boldtempleGaming/Engine
 https://github.com/bytecauldron/awesome-gamemaker
+https://github.com/C7-Game/Prototype
 https://github.com/cadaver/turso3d
 https://github.com/Caerind/AwesomeCppGameDev
 https://github.com/carlbirch/BirchEngine
@@ -116,6 +113,7 @@ https://github.com/godotengine/tps-demo
 https://github.com/googleforgames/open-match
 https://github.com/grapfx
 https://github.com/grimfang4/sdl-gpu
+https://github.com/Grimmys/pygame_popup_manager
 https://github.com/groverburger/g3d
 https://github.com/gscept/nebula
 https://github.com/gszauer/GamePhysicsCookbook
@@ -127,6 +125,7 @@ https://github.com/hotstreams/limitless-engine
 https://github.com/hugoam/two
 https://github.com/hugoam/two  # c++ toolkit for rapid development of live graphical apps and games
 https://github.com/Hyperparticle/nodulus
+https://github.com/i-bardinov/bomberman-sdl2
 https://github.com/id-Software/Quake
 https://github.com/id-Software/wolf3d
 https://github.com/igravitystudios/matchimals.fun
@@ -182,6 +181,7 @@ https://github.com/nCine/nCine
 https://github.com/ondras/rot.js
 https://github.com/open-telemetry/opentelemetry-cpp
 https://github.com/openbsd/ports/tree/master/games
+https://github.com/openfrontio/OpenFrontIO
 https://github.com/OpenGMK/OpenGMK
 https://github.com/OS2World
 https://github.com/OSSGames
@@ -283,6 +283,7 @@ https://lutris.net/games?q=&flags=fully_libre
 https://news.ycombinator.com/item?id=33314960
 https://notwood.net/sgiflight/
 https://odr.chalmers.se/handle/20.500.12380/219006
+https://openciv3.org/
 https://osdn.net/softwaremap/trove_list.php?form_cat=80
 https://pipoypipagames.itch.io/cows-revenge (https://github.com/Dariasteam/Cows-Revenge)
 https://pixeldoctrine.com/index.html (more than just slime volleyball)

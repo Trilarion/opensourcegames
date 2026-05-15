@@ -160,7 +160,7 @@
 - **[Rigel Engine](../rigel_engine.md)** (C++, GPL-2.0, beta)
 - **[RogueSharp](../roguesharp.md)** (C#, MIT, mature)
 - **[rpgboss](../rpgboss.md)** (Scala, JavaScript, AGPL-3.0, beta, inactive since 2017)
-- **[rRootage](../rrootage.md)** (C, 2-clause BSD, beta, inactive since 2004)
+- **[rRootage](../rrootage.md)** (C, C++, 2-clause BSD, beta, inactive since 2004)
 - **[Ruby-warrior](../ruby-warrior.md)** (Ruby, MIT, beta, inactive since 2012)
 - **[RuZZT](../ruzzt.md)** (Rust, MIT, beta)
 - **[Sanity Engine](../sanity_engine.md)** (C++, MPL-2.0, beta, inactive since 2021)

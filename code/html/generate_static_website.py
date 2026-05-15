@@ -649,17 +649,19 @@ def convert_inspirations(inspirations, entries):
 
 def convert_developers(developers, entries):
     """
+    Generate html output for developers.
 
     :param developers:
     :param entries:
     :return:
     """
     entries_references = {entry['Title']:entry['href'] for entry in entries}
+    # iterate over all developers
     for developer in developers:
         name = developer['Name']
         developer['name'] = name
 
-        # games
+        # games for each developer
         developed_entries = developer['Games']
         entries = [make_url(entries_references[entry], make_text(entry)) for entry in developed_entries]
         name = make_text(f"Developed {get_plural_or_singular('Game', len(entries)).lower()}: ", 'has-text-weight-semibold')

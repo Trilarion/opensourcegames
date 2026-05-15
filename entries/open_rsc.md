@@ -1,7 +1,7 @@
 # Open RSC
 
 - Home: https://rsc.vet/, https://web.archive.org/web/20210605191850/https://runescapeclassic.dev/, https://web.archive.org/web/20200510133848/https://openrsc.com/
-- Inspiration: Runescape Classic
+- Inspiration: RuneScape Classic
 - State: mature
 - Platform: Windows, Linux, macOS, Android
 - Keyword: remake, role playing, multiplayer online + massive
@@ -10,7 +10,7 @@
 - Code license: AGPL-3.0
 - Developer: Aenge, aldrichdev, BeastFable, Bl0ds, Brian Foster, Chris, Cleako, Dan G, Daniel Loth, Fefect, Hubcapp, ipkpjersi, James Wallen-Jones, Kenix3, Kepler, kevincmanning, Luis, Luis Salazar, Marwolf, ornox, Paul Aldrich, Payton, Preston Smith, rsc-g15, Ryan Trujillo, Tessalicious, xjoe28, Yumeko Margatroid, Zachariah Knight
 
-As close of a replica Runescape game experience as possible.
+As close of a replica RuneScape game experience as possible.
 
 ## Building
 

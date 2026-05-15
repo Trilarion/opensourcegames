@@ -1,7 +1,7 @@
 # 2009scape
 
 - Home: https://2009scape.org/
-- Inspiration: RuneScape
+- Inspiration: RuneScape 2
 - State: mature
 - Download: https://2009scape.org/site/game_guide/play.html#download
 - Platform: Windows, Linux, macOS

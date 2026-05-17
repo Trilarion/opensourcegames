@@ -1,8 +1,8 @@
 # KlayGE
 
-- Home: http://www.klayge.org/
+- Home: https://web.archive.org/web/20250425051317/http://www.klayge.org/
 - State: mature
-- Download: http://www.klayge.org/downloads/, https://github.com/gongminmin/KlayGE/releases
+- Download: https://github.com/gongminmin/KlayGE/releases
 - Platform: Windows, Linux, macOS
 - Keyword: game engine
 - Code repository: https://github.com/gongminmin/KlayGE.git (@created 2015, @stars 1992, @forks 353)
@@ -13,4 +13,3 @@
 ## Building
 
 - Build system: Python, CMake
-- Build instruction: http://www.klayge.org/wiki/index.php/Installation

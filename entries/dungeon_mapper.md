@@ -1,6 +1,6 @@
 # Dungeon Mapper
 
-- Home: https://dungeonmap.sourceforge.net/, https://sourceforge.net/projects/dungeonmap/
+- Home: https://sourceforge.net/projects/dungeonmap/
 - State: beta, inactive since 2013
 - Download: https://sourceforge.net/projects/dungeonmap/files
 - Keyword: tool

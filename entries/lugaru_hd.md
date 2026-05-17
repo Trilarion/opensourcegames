@@ -1,6 +1,6 @@
 # Lugaru HD
 
-- Home: https://osslugaru.gitlab.io/, http://blog.wolfire.com/2010/05/Lugaru-goes-open-source
+- Home: https://osslugaru.gitlab.io/, https://www.wolfire.com/blog/2010/05/Lugaru-goes-open-source/
 - Media: https://en.wikipedia.org/wiki/Lugaru
 - Inspiration: Lugaru: The Rabbit's Foot
 - State: mature

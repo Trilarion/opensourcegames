@@ -1,8 +1,7 @@
 # Eboard
 
-- Home: http://www.bergo.eng.br/eboard/
+- Home: https://web.archive.org/web/20240620062449/https://www.bergo.eng.br/eboard/
 - State: mature
-- Download: http://www.bergo.eng.br/eboard/index.php?p=2
 - Keyword: strategy, chess, content open, interface
 - Code repository: https://github.com/fbergo/eboard.git (@created 2016, @stars 26, @forks 7)
 - Code language: C++

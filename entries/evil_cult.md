@@ -3,7 +3,7 @@
 - Home: https://code.google.com/archive/p/cult/
 - Media: https://trilarion.blogspot.com/2020/12/review-of-evil-cult.html
 - State: mature
-- Play: https://www.infidel.rocks/static/cult/index.html
+- Play: https://starinfidel.github.io/static/cult/index.html
 - Platform: Web
 - Keyword: strategy, turn-based
 - Code repository: https://github.com/infidel-/cult.git (@created 2015, @stars 19, @forks 6)

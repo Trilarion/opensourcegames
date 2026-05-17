@@ -1,11 +1,11 @@
 # Harmonist: Dayoriah Clan Infiltration
 
-- Home: https://harmonist.tuxfamily.org
+- Home: https://anaseto.codeberg.page/games/harmonist/, https://web.archive.org/web/20260217154620/https://anaseto.codeberg.page/games/harmonist/
 - State: beta
-- Download: https://download.tuxfamily.org/harmonist/releases/
+- Play: https://anaseto.codeberg.page/games/harmonist/play-wasm/
 - Platform: Windows, Linux, macOS, Web
 - Keyword: role playing, content open, roguelike, text-based
-- Code repository: https://git.tuxfamily.org/harmonist/harmonist.git, https://github.com/anaseto/harmonist.git (@add, @archived, @created 2019, @stars 83, @forks 10)
+- Code repository: https://codeberg.org/anaseto/harmonist.git, https://github.com/anaseto/harmonist.git (@archive)
 - Code language: Go
 - Code license: ISC
 - Assets license: ISC

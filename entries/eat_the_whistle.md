@@ -1,6 +1,6 @@
 # Eat The Whistle
 
-- Home: http://www.ggsoft.org/etw/, https://sourceforge.net/projects/etw/, https://packages.debian.org/sid/games/etw
+- Home: https://web.archive.org/web/20240620072937/http://www.ggsoft.org/etw/, https://sourceforge.net/projects/etw/, https://packages.debian.org/sid/games/etw
 - Inspiration: Eat The Whistle
 - State: mature, inactive since 2017
 - Download: https://sourceforge.net/projects/etw/files/

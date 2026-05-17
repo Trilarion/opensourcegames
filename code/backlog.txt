@@ -58,6 +58,10 @@ https://github.blog/open-source/game-off-2024-winners/
 https://github.com/aaron5670/PokeMMO-Online-Realtime-Multiplayer-Game
 https://github.com/actsl/kiss_sdl
 https://github.com/alexbatalov/fallout1-re
+https://invent.kde.org/games (all of them)
+https://locomalito.com/ (some, with the right license)
+https://gitlab.com/luckeyproductions/games
+https://github.com/luanti-org/luanti (the further development of minetest)
 https://github.com/alexbatalov/fallout2-re
 https://github.com/andrejnau/FlyCube
 https://github.com/belinhacbr/Bomberman

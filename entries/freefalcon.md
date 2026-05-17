@@ -9,6 +9,6 @@
 - Code license: 2-clause BSD
 - Developer: dannycoh, Peter, PlutoniumHeart, Vinny Diehl
 
-Requires the [wixtoolset](https://wixtoolset.org/).
+Requires the wixtoolset.
 
 ## Building

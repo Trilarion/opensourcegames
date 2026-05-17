@@ -4,7 +4,7 @@
 - Inspiration: GoldenEye 007
 - State: mature, inactive since 2018
 - Download: https://www.geshl2.com/download/
-- Keyword: action, remake, content open, first-person, multiplayer competitive + online, requires original engine (?), shooter
+- Keyword: action, remake, content open, first-person, multiplayer competitive + online, requires original (Half-Life 2 as engine), shooter
 - Code repository: https://github.com/goldeneye-source/ges-code.git (@created 2014, @stars 199, @forks 28)
 - Code language: C++, C
 - Code license: GPL-3.0

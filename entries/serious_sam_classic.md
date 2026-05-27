@@ -1,6 +1,6 @@
 # Serious Sam Classic
 
-- Home: http://www.croteam.com/
+- Home: https://www.croteam.com/serious-sam-classic-first-encounter/
 - Media: https://en.wikipedia.org/wiki/Serious_Sam
 - State: mature
 - Download: https://github.com/tx00100xt/SeriousSamClassic/releases

@@ -1,6 +1,6 @@
 # openage
 
-- Home: https://openage.sft.mx/
+- Home: https://openage.sft.lol/
 - Inspiration: Age of Empires, Age of Empires II, Star Wars: Galactic Battlegrounds
 - State: beta
 - Keyword: remake, strategy, content commercial, original required, real-time

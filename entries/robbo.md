@@ -1,6 +1,6 @@
 # Robbo
 
-- Home: http://dizaina.net/z/robbo/
+- Home: https://dizaina.net/z/robbo/
 - Inspiration: The Adventures of Robbo
 - State: mature, inactive since 2016
 - Keyword: arcade, remake

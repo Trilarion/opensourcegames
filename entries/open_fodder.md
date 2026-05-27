@@ -1,6 +1,6 @@
 # Open Fodder
 
-- Home: http://openfodder.com/
+- Home: https://openfodder.com/
 - Inspiration: Cannon Fodder
 - State: mature
 - Platform: Windows, Linux

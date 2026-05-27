@@ -2,7 +2,6 @@
 
 - Home: https://github.com/androidsoft-org/androidsoft-tuxmemory
 - State: mature, inactive since 2014
-- Download: https://f-droid.org/de/packages/org.androidsoft.games.memory.tux/
 - Platform: Android
 - Keyword: puzzle, memory
 - Code repository: https://github.com/androidsoft-org/androidsoft-tuxmemory.git (@created 2014, @stars 16, @forks 4)

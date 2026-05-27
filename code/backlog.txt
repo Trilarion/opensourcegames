@@ -50,7 +50,6 @@ https://felipepepe.medium.com/the-history-of-rpg-maker-its-games-c93685f41ae6
 https://forums.tigsource.com/index.php?topic=15906.0
 https://futurepinball.com/
 https://gdevelop-app.com/
-https://github.com/LostCityRS/Server (2004scape)
 https://github.blog/2014-01-06-github-game-off-ii-winners/
 https://github.blog/2021-05-19-ludum-dare-48-staff-picks/
 https://github.blog/2023-02-03-ludum-dare-52-staff-picks/
@@ -58,10 +57,6 @@ https://github.blog/open-source/game-off-2024-winners/
 https://github.com/aaron5670/PokeMMO-Online-Realtime-Multiplayer-Game
 https://github.com/actsl/kiss_sdl
 https://github.com/alexbatalov/fallout1-re
-https://invent.kde.org/games (all of them)
-https://locomalito.com/ (some, with the right license)
-https://gitlab.com/luckeyproductions/games
-https://github.com/luanti-org/luanti (the further development of minetest)
 https://github.com/alexbatalov/fallout2-re
 https://github.com/andrejnau/FlyCube
 https://github.com/belinhacbr/Bomberman
@@ -165,7 +160,9 @@ https://github.com/libsm64/libsm64
 https://github.com/lioxryt/lioxryt.github.io
 https://github.com/LittleWhite-tb/PaciWar
 https://github.com/lospec/pixel-editor
+https://github.com/LostCityRS/Server (2004scape)
 https://github.com/loudsmilestudios/TetraForce
+https://github.com/luanti-org/luanti (the further development of minetest)
 https://github.com/magwo/elevatorsaga
 https://github.com/man-in-black382/PathFinder
 https://github.com/marukrap/RoguelikeDevResources
@@ -266,12 +263,15 @@ https://github.com/Zone-organization/Nuclear-Engine
 https://github.com/Zylann/godot_heightmap_plugin
 https://gitlab.com/evol (planned merge of https://evolonline.org/ into THe Mana World rEvolt project)
 https://gitlab.com/FreeDOS/games
+https://gitlab.com/luckeyproductions/games
 https://gitlab.com/themanaworld/evolved/ (port of Evol Online to the new engine of The Mana World)
 https://gitlab.com/video-game-preservation
 https://globalgamejam.org/
 https://hcsoftware.sourceforge.net/jason-rohrer/ (all)
+https://holarse.de/tags/200
 https://if50.substack.com/p/business-wargames
 https://illusion.64history.net/2022/wipeout-psx-windows-source
+https://invent.kde.org/games (all of them)
 https://invent.kde.org/games (do we have them all?)
 https://itch.io/jam/game-off-2023
 https://itch.io/jam/gamedevjs-2023
@@ -283,6 +283,7 @@ https://libregamewiki.org/index.php?title=Libregamewiki_talk:Community_Portal&ol
 https://libregamewiki.org/Libregamewiki:Suggested_games#Likely_sources_for_more_free_games
 https://lichess.org/api
 https://lithyscaphe.blogspot.com/p/principia-apocrypha.html
+https://locomalito.com/ (some, with the right license)
 https://lowresnx.inutilis.com/programs.php?category=game
 https://lutris.net/games?q=&flags=fully_libre
 https://news.ycombinator.com/item?id=33314960

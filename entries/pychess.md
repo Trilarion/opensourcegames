@@ -1,8 +1,8 @@
 # PyChess
 
-- Home: https://pychess.github.io/, https://web.archive.org/web/20181225202716/http://pychess.org/, http://pychess-variants.herokuapp.com/
+- Home: https://pychess.github.io/, https://www.pychess.org/
 - State: mature
-- Download: http://pychess.org/download/, https://github.com/pychess/pychess/releases
+- Download: https://github.com/pychess/pychess/releases
 - Platform: Windows, Linux
 - Keyword: puzzle, chess, content open
 - Code repository: https://github.com/pychess/pychess.git (@created 2015, @stars 648, @forks 175), https://github.com/gbtami/pychess-variants.git (@add, @created 2019, @stars 218, @forks 111)

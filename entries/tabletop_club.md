@@ -1,7 +1,9 @@
 # Tabletop Club
 
-- Home: https://tabletop-club.readthedocs.io/en/latest/index.html
+- Home: https://tabletopclub.net/, https://tabletop-club.readthedocs.io/en/latest/index.html
 - State: beta
+- Download: https://tabletopclub.net/downloads/
+- Platform: Windows, Linux, macOS
 - Keyword: cards, game engine
 - Code repository: https://github.com/drwhut/tabletop-club.git (@created 2020, @stars 1218, @forks 44)
 - Code language: GDScript

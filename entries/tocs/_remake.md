@@ -629,7 +629,6 @@
 - **[TurokEX](../turokex.md)** (C++, C, GPL-2.0, beta, inactive since 2014)
 - **[Tuxemon](../tuxemon.md)** (Python, GPL-3.0, beta)
 - **[TVTower](../tvtower.md)** (BlitzMax, Lua, Custom, mature)
-- **[twin-e](../twin-e.md)** (C, GPL-2.0, beta, inactive since 2015)
 - **[TwinEngine](../twinengine.md)** (C, GPL-2.0, mature, inactive since 2015)
 - **[Tyger](../tyger.md)** (Python, ?, beta, inactive since 2016)
 - **[Tyrian Remake](../tyrian_remake.md)** (Java, GPL-2.0, beta)

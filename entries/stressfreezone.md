@@ -1,6 +1,6 @@
 # StressFreeZone
 
-- Home: https://web.archive.org/web/20140211182144/http://sfz.schattenkind.net/wiki/index.php/Main_Page, https://sourceforge.net/projects/sfz/
+- Home: https://web.archive.org/web/20140211182144/http://sfz.schattenkind.net/wiki/index.php/Main_Page, https://web.archive.org/web/20240620062225/https://sourceforge.net/projects/sfz/
 - State: beta, inactive since 2007
 - Download: https://web.archive.org/web/20130606103829/http://ghoulsblade.schattenkind.net/sfz/LATEST_SFZ_SOURCE.zip
 - Keyword: simulation, multiplayer online, space

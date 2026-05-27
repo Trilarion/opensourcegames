@@ -1,7 +1,7 @@
 # Spring
 
 - Home: https://springrts.com/, https://springrts.com/wiki/Main_Page, https://sourceforge.net/projects/springrts/
-- Media: https://en.wikipedia.org/wiki/Spring_Engine
+- Media: https://en.wikipedia.org/wiki/Total_Annihilation#Engine_remakes
 - Inspiration: Total Annihilation
 - State: mature
 - Download: https://springrts.com/wiki/Download

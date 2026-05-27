@@ -294,6 +294,7 @@
 - **[SuperTuxKart](../supertuxkart.md)** (C++, C, GPL-3.0, mature)
 - **[SuperTuxParty](../supertuxparty.md)** (GDScript, GPL-3.0, beta)
 - **[System Syzygy](../system_syzygy.md)** (Rust, GPL-3.0, mature, inactive since 2018)
+- **[Tabletop Club](../tabletop_club.md)** (GDScript, MIT, beta)
 - **[Taisei Project](../taisei_project.md)** (C, Python, MIT, mature)
 - **[TankistOnline](../tankistonline.md)** (Python, GPL-3.0, beta)
 - **[Tanks of Freedom](../tanks_of_freedom.md)** (GDScript, MIT, mature)

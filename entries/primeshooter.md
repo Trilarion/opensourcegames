@@ -1,8 +1,8 @@
 # PrimeShooter
 
-- Home: http://thinkinghard.com/math/integers/PrimeShooter.html
+- Home: https://www.thinkinghard.com/math/integers/PrimeShooter
 - State: mature, inactive since 2010
-- Play: http://thinkinghard.com/math/integers/PrimeShooter.html
+- Play: https://www.thinkinghard.com/math/integers/PrimeShooter
 - Platform: Web
 - Keyword: arcade, educational, content open, shooter
 - Code repository: https://codeberg.org/osgames/primeshooter.git

@@ -1,9 +1,9 @@
 # Underworld Adventures
 
-- Home: https://vividos.github.io/UnderworldAdventures/, https://uwadv.sourceforge.net/, https://sourceforge.net/projects/uwadv/
+- Home: https://vividos.github.io/UnderworldAdventures/, https://uwadv.sourceforge.net/ (@old), https://sourceforge.net/projects/uwadv/ (@old)
 - Inspiration: Ultima Underworld 1
 - State: beta
-- Download: https://uwadv.sourceforge.net/index.php?page=download
+- Download: https://vividos.github.io/UnderworldAdventures/download.html
 - Keyword: role playing
 - Code repository: https://github.com/vividos/UnderworldAdventures.git (@created 2019, @stars 54, @forks 3)
 - Code language: C++, Lua

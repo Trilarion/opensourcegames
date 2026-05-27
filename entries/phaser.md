@@ -1,8 +1,8 @@
 # Phaser
 
-- Home: http://phaser.io/
+- Home: https://phaser.io/
 - State: mature
-- Download: http://phaser.io/download
+- Download: https://phaser.io/download
 - Platform: Web
 - Keyword: framework, 2D
 - Code repository: https://github.com/phaserjs/phaser.git (@created 2013, @stars 36073, @forks 7047)

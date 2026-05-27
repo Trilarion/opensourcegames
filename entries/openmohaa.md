@@ -1,6 +1,6 @@
 # OpenMoHAA
 
-- Home: https://openmohaa.sourceforge.net/, https://sourceforge.net/projects/openmohaa/
+- Home: https://docs.openmohaa.org/index.html, https://web.archive.org/web/20240305134901/https://openmohaa.sourceforge.net/, https://sourceforge.net/projects/openmohaa/ (@old)
 - Inspiration: Medal of Honor: Allied Assault
 - State: beta
 - Keyword: action, remake, shooter

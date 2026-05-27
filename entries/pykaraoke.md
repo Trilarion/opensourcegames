@@ -1,8 +1,8 @@
 # PyKaraoke
 
-- Home: http://www.kibosh.org/pykaraoke/, https://sourceforge.net/projects/pykaraoke/
+- Home: https://web.archive.org/web/20260220104859/http://www.kibosh.org/pykaraoke/, https://sourceforge.net/projects/pykaraoke/
 - State: beta, inactive since 2011
-- Download: http://www.kibosh.org/pykaraoke/downloads.php, https://sourceforge.net/projects/pykaraoke/files/
+- Download: https://sourceforge.net/projects/pykaraoke/files/
 - Platform: Windows, Linux, macOS
 - Keyword: music, karaoke, social
 - Code repository: https://gitlab.com/osgames/pykaraoke.git (conversion of cvs, @created 2019, @stars 1, @forks 0)

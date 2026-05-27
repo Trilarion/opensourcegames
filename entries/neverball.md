@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Super_Monkey_Ball_(video_game)#Legacy
 - Inspiration: Super Monkey Ball
 - State: mature
-- Download: https://neverball.org/download.php
+- Download: https://neverball.org/download
 - Platform: Windows, macOS
 - Keyword: action, clone
 - Code repository: https://github.com/Neverball/neverball.git (@created 2013, @stars 328, @forks 76), https://github.com/Neverball/neverball-docs.git (@add, @created 2013, @stars 6, @forks 6), https://github.com/Neverball/neverball-music.git (@add, @created 2017, @stars 10, @forks 2)

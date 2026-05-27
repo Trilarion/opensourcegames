@@ -1,6 +1,6 @@
 # Open Valley
 
-- Home: https://mastodon.gamedev.place/@OpenValley
+- Home: https://holarse.de/wiki/open_valley
 - Inspiration: Stardew Valley
 - State: beta
 - Keyword: remake, role playing, simulation, content open

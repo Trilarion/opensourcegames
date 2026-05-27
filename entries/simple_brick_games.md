@@ -2,7 +2,6 @@
 
 - Home: https://github.com/TobiasBielefeld/Simple-Brick-Games
 - State: mature, inactive since 2017
-- Download: https://f-droid.org/de/packages/de.tobiasbielefeld.brickgames/
 - Platform: Android
 - Keyword: arcade, skill
 - Code repository: https://github.com/TobiasBielefeld/Simple-Brick-Games.git (@created 2016, @stars 48, @forks 38)

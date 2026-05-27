@@ -1,9 +1,8 @@
 # Openglad
 
-- Home: https://snowstorm.sourceforge.net/cgi-bin/site.cgi?page=home, https://sourceforge.net/projects/snowstorm/
+- Home: https://web.archive.org/web/20240620075037/https://snowstorm.sourceforge.net/cgi-bin/site.cgi?page=home, https://sourceforge.net/projects/snowstorm/
 - Inspiration: Gladiator
 - State: mature, inactive since 2004
-- Download: https://snowstorm.sourceforge.net/cgi-bin/site.cgi?page=download
 - Keyword: remake, role playing
 - Code repository: https://git.code.sf.net/p/snowstorm/git, https://gitlab.com/osgames/snowstorm.git (@add, @created 2019, @stars 1, @forks 0)
 - Code language: C++

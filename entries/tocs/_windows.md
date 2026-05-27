@@ -548,6 +548,7 @@
 - **[Swappy Jigsaw](../swappy_jigsaw.md)** (Pascal, GPL-3.0, mature, inactive since 2019)
 - **[System Syzygy](../system_syzygy.md)** (Rust, GPL-3.0, mature, inactive since 2018)
 - **[T^3](../t3.md)** (C++, GPL-2.0, beta, inactive since 2005)
+- **[Tabletop Club](../tabletop_club.md)** (GDScript, MIT, beta)
 - **[Tactics Squad](../tactics_squad.md)** (C++, GPL-2.0, beta, inactive since 2007)
 - **[Taisei Project](../taisei_project.md)** (C, Python, MIT, mature)
 - **[Tangomon](../tangomon.md)** (Python, GPL-3.0, mature, inactive since 2017)

@@ -1,6 +1,6 @@
 # Planetary Hoppers
 
-- Home: https://sourceforge.net/projects/planets/, https://planets.sourceforge.net/
+- Home: https://sourceforge.net/projects/planets/, https://web.archive.org/web/20240620074124/https://planets.sourceforge.net/
 - State: beta, inactive since 2003
 - Download: https://sourceforge.net/projects/planets/files
 - Keyword: strategy, multiplayer online, space

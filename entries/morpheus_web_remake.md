@@ -3,7 +3,6 @@
 - Home: https://soapbubble.itch.io/morpheus
 - Inspiration: Morpheus
 - State: beta
-- Play: https://soapbubble.online/morpheus/
 - Platform: Web
 - Keyword: adventure, remake, content commercial, first-person, original required
 - Code repository: https://github.com/soap-bubble/web.git (@created 2017, @stars 6, @forks 0)

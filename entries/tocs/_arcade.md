@@ -215,6 +215,7 @@
 - **[Vectoroids](../vectoroids.md)** (C, GPL-2.0, mature, inactive since 2002)
 - **[Windstille](../windstille.md)** (C++, Scheme, GPL-3.0, beta, inactive since 2017)
 - **[Wizznic!](../wizznic.md)** (C, GPL-3.0, beta, inactive since 2016)
+- **[X-Moto](../x-moto.md)** (C++, GPL-2.0, mature, inactive since 2014)
 - **[XBill](../xbill.md)** (C, Script, GPL-2.0, mature, inactive since 2001)
 - **[XBlast](../xblast.md)** (C, Java, GPL-2.0, mature, inactive since 2005)
 - **[XInvaders 3D](../xinvaders_3d.md)** (C, Objective-C, GPL-2.0, mature, inactive since 2000)

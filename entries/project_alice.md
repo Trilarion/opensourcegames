@@ -1,6 +1,6 @@
 # Project Alice
 
-- Home: https://schombert.github.io/Project-Alice/
+- Home: https://web.archive.org/web/20241123033234/https://schombert.github.io/Project-Alice/
 - Inspiration: Victoria II
 - State: mature
 - Download: https://github.com/schombert/Project-Alice/releases

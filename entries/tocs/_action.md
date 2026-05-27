@@ -344,7 +344,6 @@
 - **[Wolf3dX](../wolf3dx.md)** (C#, GPL-2.0, beta)
 - **[Wolf4SDL](../wolf4sdl.md)** (C, GPL-2.0, mature)
 - **[Word War vi](../word_war_vi.md)** (C, GPL-2.0, mature)
-- **[X-Moto](../x-moto.md)** (C++, GPL-2.0, mature, inactive since 2014)
 - **[xdigger](../xdigger.md)** (C, GPL-2.0, mature, inactive since 1999)
 - **[xGreed](../xgreed.md)** (Pascal, Custom, beta)
 - **[XL Engine](../xl_engine.md)** (C++, MIT, beta, inactive since 2018)

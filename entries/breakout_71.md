@@ -1,12 +1,12 @@
 # Breakout 71
 
 - Home: https://breakout.lecaro.me/
-- Inspiration: LBreakoutHD, Nuclear Throne
+- Inspiration: Breakout, LBreakoutHD, Nuclear Throne
 - State: mature
 - Play: https://breakout.lecaro.me/
 - Download: https://renanlecaro.itch.io/breakout71
 - Platform: Web
-- Keyword: arcade, breakout, bricks, roguelite
+- Keyword: arcade, bricks
 - Code repository: https://gitlab.com/lecarore/breakout71.git
 - Code language: TypeScript
 - Code license: AGPL-3.0

@@ -1,8 +1,8 @@
 # OpenRPG
 
-- Home: http://www.rpgobjects.com/index.php?c=orpg, https://app.assembla.com/spaces/openrpg/wiki, https://sourceforge.net/projects/openrpg/, https://app.assembla.com/wiki/show/traipse
+- Home: https://web.archive.org/web/20250605061738/http://www.rpgobjects.com/index.php?c=orpg, https://app.assembla.com/spaces/openrpg/wiki, https://sourceforge.net/projects/openrpg/, https://app.assembla.com/wiki/show/traipse
 - State: mature, inactive since 2013
-- Download: http://www.rpgobjects.com/index.php?c=orpg&m=getorpg, https://sourceforge.net/projects/openrpg/files/
+- Download: https://sourceforge.net/projects/openrpg/files/
 - Keyword: framework, role playing
 - Code repository: https://gitlab.com/osgames/openrpg.git (conversion, @created 2019, @stars 1, @forks 0)
 - Code language: Python

@@ -59,7 +59,6 @@
 - **[star-control2](../star-control2.md)** (C, C++, MIT, mature)
 - **[terrarium](../terrarium.md)** (C++, Script, GPL-2.0, beta)
 - **[The House](../the_house.md)** (JavaScript, MIT, mature, inactive since 2019)
-- **[twin-e](../twin-e.md)** (C, GPL-2.0, beta, inactive since 2015)
 - **[TwinEngine](../twinengine.md)** (C, GPL-2.0, mature, inactive since 2015)
 - **[Tyger](../tyger.md)** (Python, ?, beta, inactive since 2016)
 - **[UchuServer](../uchuserver.md)** (C#, AGPL-3.0, mature)

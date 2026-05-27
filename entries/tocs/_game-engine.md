@@ -188,7 +188,6 @@
 - **[TIC-80](../tic-80.md)** (C, Java, C++, Lua, MIT, beta)
 - **[Torque 2D](../torque_2d.md)** (C++, C, MIT, mature)
 - **[Torque 3D](../torque_3d.md)** (C++, C, MIT, mature)
-- **[twin-e](../twin-e.md)** (C, GPL-2.0, beta, inactive since 2015)
 - **[Twine](../twine.md)** (JavaScript, TypeScript, GPL-3.0, mature)
 - **[TwinEngine](../twinengine.md)** (C, GPL-2.0, mature, inactive since 2015)
 - **[Tyger](../tyger.md)** (Python, ?, beta, inactive since 2016)

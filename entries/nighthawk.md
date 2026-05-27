@@ -4,9 +4,9 @@
 - Media: https://en.wikipedia.org/wiki/Paradroid#Other_clones_and_games_inspired_by_Paradroid
 - Inspiration: Paradroid
 - State: mature, inactive since 2004
-- Download: https://night-hawk.sourceforge.io/dl.php
+- Download: https://sourceforge.net/projects/night-hawk/files/night-hawk/
 - Keyword: arcade, puzzle, remake, shooter
-- Code repository: https://gitlab.com/osgames/night-hawk.git (conversion of cvs, @created 2019, @stars 1, @forks 0)
+- Code repository: https://gitlab.com/osgames/night-hawk.git (conversion of cvs, @created 2019, @stars 1, @forks 0), https://github.com/brickviking/night-hawk.git (@add)
 - Code language: C++, C
 - Code license: GPL-2.0
 - Developer: Dion Bonner, Eric Gillespie, Eskild Hustvedt, Jason Nunn

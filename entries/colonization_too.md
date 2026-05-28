@@ -5,7 +5,7 @@
 - State: beta, inactive since 2004
 - Download: https://sourceforge.net/projects/coltoo/files/
 - Keyword: strategy
-- Code repository: https://gitlab.com/osgames/coltoo.git (backup of cvs, @created 2018, @stars 2, @forks 0)
+- Code repository: https://codeberg.org/osgames/coltoo.git (backup of cvs)
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL

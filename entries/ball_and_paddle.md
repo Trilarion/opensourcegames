@@ -4,7 +4,7 @@
 - State: beta, inactive since 2009
 - Platform: Linux
 - Keyword: action, content open
-- Code repository: https://gitlab.com/osgames/ballandpaddle.git (conversion of bzr, @created 2019, @stars 1, @forks 0)
+- Code repository: https://codeberg.org/osgames/ballandpaddle.git (conversion of bzr)
 - Code language: C++, Scheme, Script
 - Code license: GPL-3.0
 - Code dependency: GNU Guile, SDL

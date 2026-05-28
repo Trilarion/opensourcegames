@@ -5,7 +5,7 @@
 - Download: https://sourceforge.net/projects/darkcity/files/
 - Platform: Web
 - Keyword: role playing, multiplayer online + massive, text-based
-- Code repository: https://gitlab.com/osgames/darkcity.git (backup of svn, @created 2019, @stars 1, @forks 0)
+- Code repository: https://codeberg.org/osgames/darkcity.git (backup of svn)
 - Code language: PHP
 - Code license: GPL-3.0
 - Developer: DarkCity, Philippe Bousquet, Thierry Bousquet

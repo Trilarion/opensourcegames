@@ -6,7 +6,7 @@
 - Download: https://bombermaaan.sourceforge.net/download.php, https://sourceforge.net/projects/bombermaaan/files/
 - Platform: Windows, Linux
 - Keyword: action, arcade
-- Code repository: https://gitlab.com/osgames/bombermaaan.git (import of svn, @created 2019, @stars 1, @forks 0)
+- Code repository: https://codeberg.org/osgames/bombermaaan.git (import of svn)
 - Code language: C++
 - Code license: GPL-3.0
 - Developer: baptiste sansierra, Bernd A., Eggomat, Fury, JEROME BIGOT

@@ -5,7 +5,7 @@
 - State: beta, inactive since 2003
 - Download: https://sourceforge.net/projects/freecivac/files/Stable%20Releases/
 - Keyword: remake, strategy
-- Code repository: https://gitlab.com/osgames/freecivac.git (conversion to cvs, @created 2019, @stars 1, @forks 0)
+- Code repository: https://codeberg.org/osgames/freecivac.git (conversion to cvs)
 - Code language: C
 - Code license: GPL-2.0
 - Developer: Ben Webb, rcb, Stewart Adcock

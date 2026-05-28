@@ -7,7 +7,7 @@ import os
 import pathlib
 from difflib import SequenceMatcher
 
-from utils import utils as u, osg_parse, constants as c
+from utils import osg_parse, utils as u, constants as c
 
 regex_sanitize_name = re.compile(r"[^A-Za-z 0-9-+]+")
 regex_sanitize_name_space_eater = re.compile(r" +")

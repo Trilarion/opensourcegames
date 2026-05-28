@@ -5,7 +5,7 @@
 - State: mature, inactive since 2012
 - Platform: Windows, Linux, macOS
 - Keyword: puzzle, clone, content open
-- Code repository: https://codeberg.org/Trilarion/dtris.git (conversion of bzr, @created 2019, @stars 1, @forks 1)
+- Code repository: https://codeberg.org/osgames/dtris.git (conversion of bzr)
 - Code language: C
 - Code license: GPL-2.0
 - Code dependency: OpenGL, SDL

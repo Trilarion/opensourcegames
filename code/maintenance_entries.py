@@ -29,7 +29,6 @@ Sorts the entries in the contents files of each sub folder alphabetically.
 # TODO consistency: c/c++ as language but build system not cmake
 # TODO consistency: entry without screenshot
 
-import pathlib
 import re
 import datetime
 import json

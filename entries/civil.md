@@ -4,7 +4,7 @@
 - State: beta, inactive since 2003
 - Download: https://civil.sourceforge.net/download.html
 - Keyword: strategy, multiplayer online, turn-based
-- Code repository: https://gitlab.com/osgames/civil.git (backup of cvs, @created 2018, @stars 1, @forks 0)
+- Code repository: https://codeberg.org/osgames/civil.git (backup of cvs)
 - Code language: Python
 - Code license: GPL-2.0
 - Developer: Gareth Noyce, Jan Ekholm, John Eikenberry, Kalle Svensson, Korruptor, Marcus Alanen, Michael Earl, Tom Flanagan, Uwe Hermann

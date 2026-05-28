@@ -6,7 +6,7 @@
 - Download: http://download.savannah.gnu.org/releases/cuyo/
 - Platform: Linux
 - Keyword: puzzle
-- Code repository: https://gitlab.com/osgames/cuyo.git (import of cvs, @created 2019, @stars 1, @forks 0)
+- Code repository: https://codeberg.org/osgames/cuyo.git (import of cvs)
 - Code language: C++, OCaml
 - Code license: GPL-2.0
 - Developer: Immanuel Halupczok

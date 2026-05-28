@@ -6,7 +6,7 @@
 - State: mature, inactive since 2010
 - Download: https://crimson.seul.org/download.php
 - Keyword: strategy, clone, turn-based
-- Code repository: https://gitlab.com/osgames/crimson.git (import of cvs, @created 2018, @stars 1, @forks 0)
+- Code repository: https://codeberg.org/osgames/crimson.git (import of cvs)
 - Code language: C++, C
 - Code license: GPL-2.0
 

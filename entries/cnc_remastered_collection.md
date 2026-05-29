@@ -13,4 +13,4 @@ Part of the official source code for Command & Conquer remastered collection.
 
 ## Building
 
-- Build system: VisualStudio
+- Build system: Visual Studio

@@ -211,6 +211,3 @@ if __name__ == "__main__":
     }
 
     osg_ui.run_simple_button_app('Maintenance inspirations', actions)
-
-
-

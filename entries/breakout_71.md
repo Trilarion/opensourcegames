@@ -17,7 +17,7 @@ between levels. 300+ levels, 75 upgrades, and 14 supported languages.
 
 ## Building
 
-- Build system: parcel, gradlew
+- Build system: parcel, Gradle
 
 Built with parcel, tested with jest, admin level editor in react, no runtime dependency 
 Just git clone, npm install, then run start.sh or build.sh

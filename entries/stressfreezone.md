@@ -14,4 +14,4 @@ Focused on cooperative (non-massive)-multiplayer and intuitive gameplay, that is
 
 ## Building
 
-- Build system: Make, premake
+- Build system: Make, Premake

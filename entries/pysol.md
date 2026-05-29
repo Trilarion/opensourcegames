@@ -9,7 +9,6 @@
 - Code repository: https://codeberg.org/osgames/pysol.git
 - Code language: Python
 - Code license: GPL-2.0
-- Code dependency: tkinter
 
 Collection of Solitaire games.
 

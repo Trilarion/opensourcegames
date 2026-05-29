@@ -12,4 +12,4 @@
 
 ## Building
 
-- Build system: VisualStudio
+- Build system: Visual Studio

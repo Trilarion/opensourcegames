@@ -16,4 +16,4 @@ Source code of the Serious-Engine (Serious Sam Classic: The First Encounter / Se
 
 ## Building
 
-- Build system: VisualStudio, CMake
+- Build system: Visual Studio, CMake

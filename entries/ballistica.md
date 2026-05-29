@@ -12,4 +12,4 @@ BombSquad Engine
 
 ## Building
 
-- Build system: Make, CMake, VisualStudio
+- Build system: Make, CMake, Visual Studio

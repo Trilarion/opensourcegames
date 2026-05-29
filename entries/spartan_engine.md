@@ -11,4 +11,4 @@
 
 ## Building
 
-- Build system: premake
+- Build system: Premake

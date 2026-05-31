@@ -6,7 +6,7 @@
 - Download: https://fragglet.github.io/sdl-sopwith/getit.html, https://sourceforge.net/projects/sdl-sopwith/files/ (@old)
 - Platform: Linux
 - Keyword: action, remake, flight
-- Code repository: https://github.com/fragglet/sdl-sopwith.git, https://gitlab.com/osgames/sdl-sopwith.git (import of svn, @created 2019, @stars 1, @forks 0)
+- Code repository: https://github.com/fragglet/sdl-sopwith.git, https://codeberg.org/osgames/sdl-sopwith.git (import of svn)
 - Code language: C, C++
 - Code license: GPL-2.0
 - Code dependency: SDL

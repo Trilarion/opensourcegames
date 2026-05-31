@@ -6,7 +6,7 @@
 - Download: https://sourceforge.net/projects/xpilotgame/files/
 - Platform: Windows, Linux
 - Keyword: action, 2D, multiplayer, space
-- Code repository: https://gitlab.com/osgames/xpilot.git (conversion of cvs and hg, @created 2019, @stars 1, @forks 0)
+- Code repository: https://codeberg.org/osgames/xpilot.git (conversion of cvs and hg)
 - Code language: C, C++
 - Code license: GPL-2.0
 - Developer: Ben Armstrong, Bert, Bjorn Stabell, Dick Balaska, Jarrod L. Miller, XPilot Admins

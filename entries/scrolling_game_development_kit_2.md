@@ -5,7 +5,7 @@
 - Download: https://sgdk2.sourceforge.net/download.php.html, https://sourceforge.net/projects/sgdk2/files/
 - Platform: Windows
 - Keyword: framework, 2D, side-scrolling
-- Code repository: https://gitlab.com/osgames/sgdk2.git (@add, @created 2019, @stars 1, @forks 0), https://git.code.sf.net/p/sgdk2/git
+- Code repository: https://codeberg.org/osgames/sgdk2.git (@add), https://git.code.sf.net/p/sgdk2/git
 - Code language: C#
 - Code license: GPL-2.0
 - Developer: Benjamin Marty

@@ -1,5 +1,11 @@
 """
-Synchronizes with awesome lists from
+Synchronizes with awesome lists on Github.
+
+https://github.com/leereilly/games
+https://github.com/radek-sprta/awesome-game-remakes
+https://github.com/bobeff/open-source-games
+
+https://github.com/sindresorhus/awesome#gaming (all there?)
 """
 
 import re
@@ -9,11 +15,13 @@ from utils import osg, osg_rejected
 # TODO Probably could fix some of the ignored cases within the awesome lists (or fix the small deviations in structure)
 # TODO not all of them are awesome actually
 
-# AWESOME_LIST = 'https://raw.githubusercontent.com/radek-sprta/awesome-game-remakes/master/README.md'
-# IGNORED = ('2006rebotted', 'raw(gl)', 'fheroes2', 'FS2OPEN', 'Barbarian', 'Hexen II: Hammer of Thyrion')
+AWESOME_LIST = 'https://raw.githubusercontent.com/radek-sprta/awesome-game-remakes/master/README.md'
+IGNORED = ('2006rebotted', 'raw(gl)', 'fheroes2', 'FS2OPEN', 'Barbarian', 'Hexen II: Hammer of Thyrion')
+START_INDEX = 2
 
-AWESOME_LIST = 'https://raw.githubusercontent.com/leereilly/games/master/README.md'
-IGNORED = ('Warsow',)
+# AWESOME_LIST = 'https://raw.githubusercontent.com/leereilly/games/master/README.md'
+# IGNORED = ('Warsow',)  # collectives, no games at these addresses
+# START_INDEX = 1
 
 # two different - signs are used sometimes
 matcher = re.compile(r'\[(.*)?\]\((.*?)\) [-– ]*(.*)')  # general structure: - [title](link) - description
@@ -29,7 +37,7 @@ if __name__ == "__main__":
     if r.status_code != requests.codes.ok:
         raise RuntimeError('Cannot download awesome list.')
     text = r.text
-    text = text.split('\n##')[2:]
+    text = text.split('\n##')[START_INDEX:]  # disregard everything before the first ##
     entries = []
     for items in text:
         items = items.split('\n')
@@ -48,14 +56,14 @@ if __name__ == "__main__":
     # remove those from the ignored list
     entries = [entry for entry in entries if not any(entry['Title'] == x for x in IGNORED)]
 
-    # remove those that are in our rejected list
+    # remove those that are in our rejected list TODO might be interesting to inspect which ones we rejected and they still have
     rejected_titles = [x['Title'] for x in rejected]
     entries = [entry for entry in entries if entry['Title'] not in rejected_titles]
     print(f'after filtering for rejected and ignored entries {len(entries)}')
 
     # a bit of statistics about this awesome list
     print(f'contains {len(entries)} entries in {len(text)} categories')
-    n = [0, 0]
+    n = [0, 0]  # counts how many links start with github.com
     for entry in entries:
         if entry['URL'].startswith('https://github.com/'):
             n[0] += 1
@@ -79,7 +87,7 @@ if __name__ == "__main__":
             url_present = any(url in x for x in our_entry['Home']) or any(url in x for x in our_entry.get('Code repository', []))
             if title_equal or url_present:
                 similar_entries.append(our_entry)
-        if not similar_entries:
+        if len(similar_entries) == 0:
             print(f"Unknown entry ({index}) \"{entry['Title']}\" {entry['URL']} - {entry['Category']} - {entry['Description']}")
             index += 1
 

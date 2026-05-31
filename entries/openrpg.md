@@ -4,7 +4,7 @@
 - State: mature, inactive since 2013
 - Download: https://sourceforge.net/projects/openrpg/files/
 - Keyword: framework, role playing
-- Code repository: https://gitlab.com/osgames/openrpg.git (conversion, @created 2019, @stars 1, @forks 0)
+- Code repository: https://codeberg.org/osgames/openrpg.git (conversion)
 - Code language: Python
 - Code license: GPL-2.0
 - Code dependency: CherryPy, Pillow, wxPython

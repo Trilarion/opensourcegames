@@ -6,7 +6,7 @@
 - Download: https://sourceforge.net/projects/nxtank/files/
 - Platform: Windows
 - Keyword: action, tank
-- Code repository: https://gitlab.com/osgames/nxtank.git (import of svn, @created 2019, @stars 1, @forks 0)
+- Code repository: https://codeberg.org/osgames/nxtank.git (import of svn)
 - Code language: Python, C++
 - Code license: GPL-3.0
 - Code dependency: OGRE

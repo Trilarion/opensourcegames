@@ -10,6 +10,7 @@ http://www.sandboxgamemaker.com/
 http://www.scirra.com/construct-classic
 http://www.silversecond.com/WolfRPGEditor/
 http://www.spheredev.org/
+https://github.com/Qfusion/qfusion
 http://www.usgo.org/go-software
 http://www.vbgore.com/Main_Page
 http://www.zsnes.com/ (emulator/platform)

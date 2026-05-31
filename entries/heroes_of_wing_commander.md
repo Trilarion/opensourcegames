@@ -5,7 +5,7 @@
 - State: beta, inactive since 2014
 - Download: https://sourceforge.net/projects/howc/files
 - Keyword: strategy
-- Code repository: https://gitlab.com/osgames/howc.git (backup of svn, @created 2018, @stars 1, @forks 0)
+- Code repository: https://codeberg.org/osgames/howc.git (backup of svn)
 - Code language: Python
 - Code license: GPL-3.0
 - Code dependency: NetworkX, pygame

@@ -5,7 +5,7 @@
 - State: mature, inactive since 2014
 - Download: https://sourceforge.net/projects/simplesok/files/
 - Keyword: puzzle, content open
-- Code repository: https://gitlab.com/osgames/simplesok.git (conversion of svn, @created 2019, @stars 1, @forks 0)
+- Code repository: https://codeberg.org/osgames/simplesok.git (conversion of svn)
 - Code language: C, Objective-C
 - Code license: GPL-3.0
 - Code dependency: SDL

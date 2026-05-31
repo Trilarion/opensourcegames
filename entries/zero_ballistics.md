@@ -5,7 +5,7 @@
 - Download: https://sourceforge.net/projects/zeroballistics/files/
 - Platform: Windows
 - Keyword: action, strategy, first-person, multiplayer only, shooter
-- Code repository: https://gitlab.com/osgames/zeroballistics.git (mirror, @created 2019, @stars 1, @forks 0)
+- Code repository: https://codeberg.org/osgames/zeroballistics.git (mirror)
 - Code language: C++
 - Code license: MIT
 - Developer: Adrian Batzill, BaronM, ckiosidi, codeanimals, Konstantinos, Muschick Christian

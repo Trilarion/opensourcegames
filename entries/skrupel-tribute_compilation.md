@@ -5,7 +5,7 @@
 - Download: https://sourceforge.net/projects/skrupel/files
 - Platform: Web
 - Keyword: strategy
-- Code repository: https://github.com/kantoks/skrupel.git (continuation, @created 2011, @stars 19, @forks 10), https://gitlab.com/osgames/skrupel.git (@add, @created 2018, @stars 1, @forks 0)
+- Code repository: https://github.com/kantoks/skrupel.git (continuation, @created 2011, @stars 19, @forks 10), https://codeberg.org/osgames/skrupel.git (@add)
 - Code language: PHP, JavaScript
 - Code license: GPL-2.0
 - Developer: Bernd Kantoks, Björn Finke, Christian Neff, cincrement, DoubleMalt, Dready, finke, Husten, JANNiS, syox1, weaselchen

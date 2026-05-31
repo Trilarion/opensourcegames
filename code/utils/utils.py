@@ -148,8 +148,8 @@ def determine_latest_last_modified_date(folder):
                 latest_last_modified = last_modified
     return latest_last_modified
 
-
 def subprocess_run(cmd, display=True, shell=False, env={}):
+
     """
     Runs a cmd via subprocess and displays the std output in case of success or the std error output in case of failure
     where it also stops execution.

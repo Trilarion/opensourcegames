@@ -6,7 +6,7 @@
 - Download: https://krystaldrop.sourceforge.net/downloads.html, https://sourceforge.net/projects/krystaldrop/files/krystaldrop/
 - Platform: Linux
 - Keyword: puzzle, remake
-- Code repository: https://gitlab.com/osgames/krystaldrop.git (conversion of cvs, @created 2019, @stars 1, @forks 0)
+- Code repository: https://codeberg.org/osgames/krystaldrop.git (conversion of cvs)
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL

@@ -4,7 +4,7 @@
 - Inspiration: Gladiator
 - State: mature, inactive since 2004
 - Keyword: remake, role playing
-- Code repository: https://git.code.sf.net/p/snowstorm/git, https://gitlab.com/osgames/snowstorm.git (@add, @created 2019, @stars 1, @forks 0)
+- Code repository: https://git.code.sf.net/p/snowstorm/git, https://codeberg.org/osgames/snowstorm.git (@add)
 - Code language: C++
 - Code license: GPL-2.0
 - Code dependency: SDL

@@ -5,7 +5,7 @@
 - Download: https://primrose.sourceforge.net/download.php.html, https://sourceforge.net/projects/primrose/files/
 - Platform: Windows, Linux, macOS
 - Keyword: puzzle, content open
-- Code repository: https://gitlab.com/osgames/primrose.git (conversion of cvs, @created 2019, @stars 1, @forks 0)
+- Code repository: https://codeberg.org/osgames/primrose.git (conversion of cvs)
 - Code language: C++
 - Code license: Public domain
 - Code dependency: SDL

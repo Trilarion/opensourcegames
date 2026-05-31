@@ -6,7 +6,7 @@
 - State: mature, inactive since 2005
 - Download: https://sourceforge.net/projects/zangband/files/
 - Keyword: role playing, roguelike
-- Code repository: https://gitlab.com/osgames/zangband.git (backup of cvs, @created 2018, @stars 1, @forks 0)
+- Code repository: https://codeberg.org/osgames/zangband.git (backup of cvs)
 - Code language: C
 - Code license: Custom (Modifications allowed?)
 - Developer: Chris Kern, Mitsuhiro Itakura, Robert Ruehlmann, Ross Morgan-Linial, Steven Fuerst, topi ylinen, Willem Siemelink

@@ -6,7 +6,7 @@
 - State: mature, inactive since 2005
 - Download: https://sourceforge.net/projects/xconq/files/, https://sourceware.org/xconq/ftp.html
 - Keyword: strategy
-- Code repository: https://gitlab.com/osgames/xconq.git (backup of cvs, @created 2018, @stars 1, @forks 0)
+- Code repository: https://codeberg.org/osgames/xconq.git (backup of cvs)
 - Code language: C++, C, Script
 - Code license: GPL-2.0
 - Developer: Elijah Meeks, Lincoln Peters, Massimo Campostrini, Matthew Skala

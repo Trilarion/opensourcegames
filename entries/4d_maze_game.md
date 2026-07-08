@@ -1,11 +1,11 @@
 # 4D Maze Game
 
-- Home: http://www.urticator.net/maze/
+- Home: http://www.urticator.net/maze/ (@old)
 - State: mature, inactive since 2008
-- Download: http://www.urticator.net/maze/download.html
+- Download: https://codeberg.org/osgames/4d-maze/releases
 - Platform: Windows, Linux, macOS
 - Keyword: educational, puzzle, 4D, content none, maze
-- Code repository: https://gitlab.com/Trilarion/4d-maze.git
+- Code repository: https://codeberg.org/osgames/4d-maze.git
 - Code language: Java
 - Code license: Public domain
 - Developer: John McIntosh

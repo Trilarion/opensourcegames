@@ -36,7 +36,6 @@ local_config_file = root_path / 'local-config.ini'
 config = configparser.ConfigParser()
 config.read(local_config_file)
 
-
 def get_config(key):
     """
     Returns a key from the config file.
@@ -53,13 +52,19 @@ essential_fields = ('File', 'Title', 'Home', 'State', 'Keyword', 'Code language'
 valid_properties = ('Home', 'Media', 'Inspiration', 'State', 'Play', 'Download', 'Platform', 'Keyword', 'Code repository', 'Code language',
     'Code license', 'Code dependency', 'Assets license', 'Developer')
 
+# all valied fields
 valid_fields = ('File', 'Title') + valid_properties + ('Note', 'Building')
 
+# all fields that can contain urls
 url_fields = ('Home', 'Media', 'Play', 'Download', 'Code repository')
 
+# all valid url prefeixes
 valid_url_prefixes = ('http://', 'https://', 'git://', 'svn://', 'ftp://', 'bzr://')
 
+# all valid building properties
 valid_building_properties = ('Build system', 'Build instruction')
+
+# all valid building fields
 valid_building_fields = valid_building_properties + ('Note',)
 
 # these are the only valid platforms currently (and must be given in this order)
@@ -74,13 +79,13 @@ recommended_keywords = (
     'strategy', 'cards', 'board', 'music', 'educational', 'tool', 'game engine', 'framework', 'library', 'remake')
 # TODO unmake remake a recommended keyword (should be the same as clone maybe), i.e. add another recommended keyword if only remake is in there
 
-# entries where we do not want to show developers (because these lists are too long and too general)
+# entries where we do not want to show developers (because these lists are too long and too general) - no developers needed for libraries
 entries_without_developers = ('Box2D', 'Dear ImGui', 'DirectPython', 'FreeType', 'Horde3D', 'ncurses', 'Penumbra', 'Simple and Fast Multimedia Library',
                               'Simple DirectMedia Layer', 'Allegro', 'Crystal Space 3D SDK', 'Dash Engine', 'Delta Engine', 'libGDX', 'MonoGame', 'OGRE',
                               'Panda3D', 'Phaser', 'Qt', 'raylib', 'ScummVM', 'Urho3D')
 
 # interesting keywords = recommend keywords + some popular keywords
-interesting_keywords = recommended_keywords + ('2D', '3D', 'clone', 'first-person', 'real-time', 'roguelike', 'shooter', 'space', 'turn-based', 'for kids', 'for adults')
+interesting_keywords = recommended_keywords + ('2D', '3D', 'clone', 'first-person', 'real-time', 'roguelike', 'shooter', 'space', 'turn-based', 'for kids', 'for adults', 'space', 'skill')
 
 # non-game keywords take precedence over other (game) recommended keywords, at most one of them per entry
 non_game_keywords = ('framework', 'game engine', 'library', 'tool')
@@ -188,7 +193,6 @@ license_urls_repo = {
     'zlib': 'https://en.wikipedia.org/wiki/Zlib_License'
 }
 
-
 def get_license_url(license):
     if license not in known_licenses:
         raise RuntimeError('Unknown license')
@@ -208,8 +212,6 @@ valid_multiplayer_modes = (
 # this is a mapping of entry name to abbreviation and the abbreviations are used when specifying code dependencies
 code_dependencies_aliases = {'Simple DirectMedia Layer': ('SDL', 'SDL2'), 'Simple and Fast Multimedia Library': ('SFML',),
                              'Boost (C++ Libraries)': ('Boost',), 'SGE Game Engine': ('SGE',), 'MegaGlest': ('MegaGlest Engine',)}
-
-# no developers needed for libraries
 
 # these are code dependencies that won't get their own entry, because they are not centered on gaming
 general_code_dependencies_without_entry = {'OpenGL': 'https://www.opengl.org/',
@@ -239,7 +241,7 @@ build_system_urls = {
     'Ant': 'http://ant.apache.org/',
     'Maven': 'https://maven.apache.org/index.html',
     'Meson': 'https://mesonbuild.com/',
-    'premake': 'https://premake.github.io/',
+    'Premake': 'https://premake.github.io/',
     'QMake': 'https://doc.qt.io/qt-5/qmake-manual.html',
 }
 

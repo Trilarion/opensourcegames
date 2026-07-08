@@ -5,7 +5,7 @@
 - State: beta, inactive since 2013
 - Download: https://sourceforge.net/projects/rescue/files/
 - Keyword: action, remake, strategy, real-time, space
-- Code repository: https://codeberg.org/osgames/rescue.git (conversion of svn)
+- Code repository: https://svn.code.sf.net/p/rescue/code/ (svn), https://codeberg.org/osgames/rescue.git (@add, conversion of svn)
 - Code language: Java
 - Code license: GPL-3.0
 - Developer: Yura

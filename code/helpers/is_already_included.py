@@ -10,6 +10,9 @@ from utils.utils import *
 
 
 def similarity(a, b):
+    """
+    Compute similarity ratio between two strings.
+    """
     return SequenceMatcher(None, a, b).ratio()
 
 

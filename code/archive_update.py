@@ -31,16 +31,16 @@ env = {
 
 def git_clone(url, folder):
     """
-    Clones a git with --mirror for the first time.
+    Clone a git repository with --mirror option for archiving.
     """
     # u.subprocess_run(["git", "clone", "--mirror", "-c", "credential.interactive=never", "-c", "core.askPass=", url, str(folder)], env=env)  # to avoid prompting for credential helpers etc.
     u.subprocess_run(["git", "clone", "--mirror", url, str(folder)], env=env)  # to avoid prompting for credential helpers etc.
     # u.subprocess_run(["git", "clone", "--mirror", url, str(folder)])
-j
+
 
 def git_update(folder):
     """
-    Updates a cloned git.
+    Update a previously cloned git repository with latest changes.
     """
     os.chdir(folder)
     # u.subprocess_run(["git", "fetch", "--all", "-c", "credential.interactive=never", "-c", "core.askPass="], env=env)

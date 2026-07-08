@@ -19,6 +19,9 @@ valid_duplicates = ('Age of Empires', 'ARMA', 'Catacomb', 'Civilization', 'Compa
 
 
 class InspirationMaintainer:
+    """
+    Maintains inspiration information and validates consistency with entries.
+    """
 
     def __init__(self):
         self.inspirations = None
@@ -165,7 +168,7 @@ class InspirationMaintainer:
 
     def update_inspired_entries(self):
         """
-        Add inspiration information from entries (overwriting the information in the inspiration/inspired entries fields.
+        Rebuild inspiration-to-entries mapping from entry file definitions (single source of truth).
         """
         if not self.inspirations:
             print('inspirations not yet loaded')
@@ -188,7 +191,7 @@ class InspirationMaintainer:
 
     def read_entries(self):
         """
-        Reads entries.
+        Load entries from the entries markdown files.
         """
         self.entries = osg.read_entries()
         print(f'{len(self.entries)} entries read')

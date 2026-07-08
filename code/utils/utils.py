@@ -10,9 +10,11 @@ import time
 import urllib.request
 import zipfile
 import stat
+from pathlib import Path
+from typing import Optional
 
 
-def read_text(file):
+def read_text(file: Path | str) -> str:
     """
     Reads a whole text file (UTF-8 encoded).
     """
@@ -21,7 +23,7 @@ def read_text(file):
     return text
 
 
-def read_first_line(file):
+def read_first_line(file: Path | str) -> str:
     """
     Convenience function because we only need the first line of a category overview really.
     """
@@ -30,7 +32,7 @@ def read_first_line(file):
     return line
 
 
-def write_text(file, text):
+def write_text(file: Path | str, text: str) -> None:
     """
     Writes a whole text file (UTF-8 encoded).
     """
@@ -38,7 +40,7 @@ def write_text(file, text):
         f.write(text)
 
 
-def determine_archive_version_generic(name, leading_terms, trailing_terms):
+def determine_archive_version_generic(name: str, leading_terms: list[str], trailing_terms: list[str]) -> str:
     """
     Given an archive file name, tries to get version information. Generic version that can cut off leading and trailing
     terms and converts to lower case. Give the most special terms first in the list. As many cut offs as possible are
@@ -59,7 +61,7 @@ def determine_archive_version_generic(name, leading_terms, trailing_terms):
     return name
 
 
-def unzip_keep_last_modified(archive, destination):
+def unzip_keep_last_modified(archive: Path | str, destination: Path | str) -> None:
     """
     Unzips content of a zip file archive into the destination directory keeping the last modified file property as
     it was in the zip archive.
@@ -75,7 +77,7 @@ def unzip_keep_last_modified(archive, destination):
             os.utime(destination / name, (date_time, date_time))
 
 
-def detect_archive_type(name):
+def detect_archive_type(name: str) -> Optional[str]:
     """
     Tries to guess which type an archive is.
     """
@@ -95,7 +97,7 @@ def detect_archive_type(name):
     return None
 
 
-def folder_size(path):
+def folder_size(path: Path) -> int:
     """
     Walks a directory and adds the sizes of each file.
     """
@@ -106,7 +108,7 @@ def folder_size(path):
     return size
 
 
-def extract_archive(source, destination, type):
+def extract_archive(source: Path | str, destination: Path | str, type: Optional[str]) -> None:
     """
     Extracts a zip, tar, ... to a destination path.
 

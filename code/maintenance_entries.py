@@ -6,28 +6,19 @@ Counts the number of records each sub-folder and updates the overview.
 Sorts the entries in the contents files of each sub folder alphabetically.
 """
 
-# TODO check for within an entry for similar dev names
-# TODO wikipedia (media search) for popular ones at least
-# TODO google search (for homepages or media entries) for popular ones at least
+# TODO add search which checks within an entry for similar dev names
+# TODO add wikipedia (media search) for popular games at least
+# TODO google search (for homepages or media entries) for popular games at least
 # TODO search for xxx.sourceforge.net or io but not sourceforge.net/xxx in homepages as convenience
-# TODO all with download or play field but without platform field
-# TODO sort developers alphabetically and remove duplicate entries
-
-# TODO consistency: output to file
-# TODO consistency: no platform field
-# TODO consistency: web in platform but no play field
-# TODO consistency: not only web in platform and no download field
-# TODO consistency: no code repository
-# TODO consistency: first code repository not git
-# TODO consistency: no popular first code repository
-# TODO consistency: unknown code language
-# TODO consistency: unknown code license
-# TODO consistency: unknown assets license
-# TODO consistency: free assets license but not content open
-# TODO consistency: content commercial and not commercial assets license
-# TODO consistency: java as language but build system not gradle
-# TODO consistency: c/c++ as language but build system not cmake
-# TODO consistency: entry without screenshot
+# TODO search for all with download or play field but without platform field
+# TODO sort developers alphabetically in entry and remove duplicate developers
+# TODO the output of the consistency check should go into a file
+# TODO consistency check: report those with no popular first code repository service (popular=Github, Gitlab, Codeberg, gnomes, kde)
+# TODO consistency check: report those with free assets license but not content open
+# TODO consistency check: report those with content commercial as keyword but not commercial assets license
+# TODO consistency check: report those with java as language but build system not gradle
+# TODO consistency check: report those with c/c++ as language but build system not cmake
+# TODO consistency check: report those with entry without screenshot (see entries/screenshot/readme.md)
 
 import re
 import datetime
@@ -150,7 +141,6 @@ class EntriesMaintainer:
     def check_inconsistencies(self):
         """
         Some consistency checks.
-        :return:
         """
         if not self.entries:
             print('entries not yet loaded')
@@ -250,6 +240,48 @@ class EntriesMaintainer:
             duplicates = [keyword for keyword in keywords if keywords.count(keyword) > 1]
             if duplicates:
                 print(f"\"{entry['File']}\" has duplicate keywords: {duplicates}")
+
+        # Check for entries without platform field
+        print('Consistency: entries without platform field')
+        for entry in self.entries:
+            if 'Platform' not in entry:
+               print(f"  {entry['Title']}: no platform field")
+
+        # Check for entries without code repository
+        print('Consistency: entries without code repository')
+        for entry in self.entries:
+            if 'Code repository' not in entry:
+               print(f"  {entry['Title']}: no code repository")
+
+        # Check for unknown code languages
+        print('Consistency: unknown code languages')
+        for entry in self.entries:
+            if 'Code language' in entry:
+               for lang in entry['Code language']:
+                   if lang not in c.known_languages:
+                       print(f"  {entry['Title']}: unknown language '{lang}'")
+
+        # Check for unknown code licenses
+        print('Consistency: unknown code licenses')
+        for entry in self.entries:
+            if 'Code license' in entry:
+               for lic in entry['Code license']:
+                   if lic not in c.known_licenses:
+                       print(f"  {entry['Title']}: unknown license '{lic}'")
+
+        # Check for duplicate and unsorted developers in entries
+        print('Consistency: duplicate/unsorted developers')
+        for entry in self.entries:
+            if 'Developer' in entry:
+               devs = entry['Developer']
+               # Check for duplicates
+               duplicates = [dev for dev in devs if devs.count(dev) > 1]
+               if duplicates:
+                   print(f"  {entry['Title']}: duplicate developers: {set(duplicates)}")
+               # Check if sorted
+               sorted_devs = sorted(devs, key=str.casefold)
+               if devs != sorted_devs:
+                   print(f"  {entry['Title']}: developers not sorted alphabetically")
 
         # if there is a @see-download there should be download fields...
 

@@ -3,17 +3,18 @@ Simple UI helpers for Qt.
 """
 
 import sys
+from typing import Callable
 from PySide6 import QtWidgets
 
 
-def exception_hook(type, value, traceback):
+def exception_hook(type: type, value: Exception, traceback) -> None:
     """
     Use sys.__excepthook__, the standard hook.
     """
     sys.__excepthook__(type, value, traceback)
 
 
-def run_simple_button_app(title, actions):
+def run_simple_button_app(title: str, actions: dict[str, Callable]) -> int:
     """
     Runs a very simple buttons in a list app.
     This all will be single threaded, i.e. lengthy actions will block the GUI.

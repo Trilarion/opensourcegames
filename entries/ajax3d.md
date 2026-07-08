@@ -6,7 +6,7 @@
 - Download: https://sourceforge.net/projects/ajax3d/files/ajax3d/
 - Platform: Web
 - Keyword: action, remake
-- Code repository:https://codeberg.org/osgames/ajax3d.git (conversion of cvs)
+- Code repository: https://codeberg.org/osgames/ajax3d.git (conversion of cvs)
 - Code language: JavaScript
 - Code license: GPL-2.0
 - Developer: Eben Upton

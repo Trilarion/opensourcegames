@@ -3,7 +3,7 @@ Some utilities for the local archiving of the repositories.
 """
 
 
-def derive_folder_name(url, replacements):
+def derive_folder_name(url: str, replacements: dict[str, str]) -> str:
     """
     Creates a folder name from an url that is somewhat shortened. Uses replacement dictionary.
     """
@@ -23,11 +23,11 @@ def derive_folder_name(url, replacements):
     raise RuntimeError(f'malformed url: {url}')
 
 
-def git_folder_name(url):
+def git_folder_name(url: str) -> str:
     """
     For git with a standard replacement dictionary, derive a canonical folder name used for archiving.
     """
-    replacements = {
+    replacements: dict[str, str] = {
         'https://github.com': 'github',
         'https://git.code.sf.net/p': 'sourceforge',
         'https://git.tuxfamily.org': 'tuxfamily',

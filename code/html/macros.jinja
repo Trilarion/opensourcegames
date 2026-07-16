@@ -44,7 +44,7 @@
 
 {# Some text surrounded by a link tag #}
 {%- macro render_url(url) -%}
-<a href="{{ base['url_to'](url['href'], url) }}"{% if 'title' in url %} title="{{ url['title'] }}"{% endif %}{% if 'class' in url %} class="{{ url['class'] }}"{% endif %}>{{ render_element(url['content']) }}</a>
+<a href="{{ base['url_to'](url['href'], url) }}"{% if 'title' in url %} title="{{ url['title'] }}"{% endif %}{% if 'class' in url %} class="{{ url['class'] }}"{% endif %}{% if 'rel' in url %} rel="{{ url['rel'] }}"{% endif %}>{{ render_element(url['content']) }}</a>
 {%- endmacro -%}
 
 {# Renders a list of enumeration entries (either links or text) #}

@@ -10,8 +10,6 @@ http://www.sandboxgamemaker.com/
 http://www.scirra.com/construct-classic
 http://www.silversecond.com/WolfRPGEditor/
 http://www.spheredev.org/
-https://gitlab.com/users/crueludeval/projects
-https://github.com/Qfusion/qfusion
 http://www.usgo.org/go-software
 http://www.vbgore.com/Main_Page
 http://www.zsnes.com/ (emulator/platform)
@@ -203,6 +201,7 @@ https://github.com/piqueserver/piqueserver
 https://github.com/Poussinou/FLOSS-Games-on-Steam
 https://github.com/proyecto26/awesome-unity
 https://github.com/pspdev/psp-packages
+https://github.com/Qfusion/qfusion
 https://github.com/QodotPlugin/qodot-plugin
 https://github.com/R74nCom/sandboxels
 https://github.com/radek-sprta/awesome-game-remakes
@@ -267,6 +266,7 @@ https://gitlab.com/evol (planned merge of https://evolonline.org/ into THe Mana 
 https://gitlab.com/FreeDOS/games
 https://gitlab.com/luckeyproductions/games
 https://gitlab.com/themanaworld/evolved/ (port of Evol Online to the new engine of The Mana World)
+https://gitlab.com/users/crueludeval/projects
 https://gitlab.com/video-game-preservation
 https://globalgamejam.org/
 https://hcsoftware.sourceforge.net/jason-rohrer/ (all)

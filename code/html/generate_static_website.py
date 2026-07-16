@@ -125,7 +125,6 @@ github_top_ignored_repos = ('https://github.com/Hopson97/MineCraft-One-Week-Chal
                               'https://github.com/nicholas-ochoa/OpenSC2K.git', 'https://github.com/BlindMindStudios/StarRuler2-Source.git', 'https://github.com/TheMozg/awk-raycaster.git',
                               'https://github.com/PistonDevelopers/hematite.git', 'https://github.com/keendreams/keen.git', 'https://github.com/ddevault/TrueCraft.git')
 
-# TODO currently not used, use?
 platform_color = {
     'Windows': 'is-danger',
     'Linux': 'is-link',
@@ -329,7 +328,7 @@ def preprocess(items, key, url):
     Sets a few additional fields in the entries, inspirations, developers in order to generate the right content from
     them later.
 
-    :param url:
+    :param url: Base URL or a callable that returns the base URL for an item.
     :param items:
     :param key:
     :return:
@@ -350,7 +349,8 @@ def preprocess(items, key, url):
         if not start in alphabet:
             start = extra
         item['letter'] = start
-        item['href'] = url + [f'{start}.html#{anchor}']
+        item_url = url(item) if callable(url) else url
+        item['href'] = item_url + [f'{start}.html#{anchor}']
 
 
 def entry_index(entry):
@@ -468,6 +468,8 @@ def make_url(href, content, title=None, css_class=None):
         url['title'] = title
     if css_class:
         url['class'] = css_class
+    if isinstance(href, str) and href.startswith(('http://', 'https://')):
+        url['rel'] = 'external'
     return url
 
 
@@ -775,7 +777,7 @@ def convert_entries(entries, inspirations, developers):
             e = entry['Platform']
         else:
             e = ['Unspecified']
-        e = [make_url(games_by_platform_path[:-1] + [f'{games_by_platform_path[-1]}#{x.lower()}'], make_icon(platform_icon_map[x], css='has-text-link is-size-6'), x) if x in platform_icon_map else make_text(x) for x in e]
+        e = [make_url(games_by_platform_path[:-1] + [f'{games_by_platform_path[-1]}#{x.lower()}'], make_icon(platform_icon_map[x], css=f"{platform_color.get(x, 'is-link')} is-size-6"), x) if x in platform_icon_map else make_text(x) for x in e]
         # namex = make_text('{}: '.format(get_plural_or_singular('Platform', len(e))))
         # entry['state'].insert(0, [namex] + e)
         entry['state'].insert(0, e)
@@ -958,11 +960,11 @@ def generate(entries, inspirations, developers):
 
     # preprocess
     preprocess(games, 'Title', games_path)
-    preprocess(non_games, 'Title', non_games_path)
-    # TODO preprocess doesn't set the urls for frameworks correctly fix here, do better later
-    for non_game in non_games:
-        keyword = [keyword for keyword in c.non_game_keywords if keyword in non_game['Keyword']][0]
-        non_game['href'] = non_games_path + [f"{keyword}.html#{non_game['anchor-id']}"]
+    preprocess(
+        non_games,
+        'Title',
+        lambda non_game: non_games_path + [[keyword for keyword in c.non_game_keywords if keyword in non_game['Keyword']][0]]
+    )
     entries = games + non_games
     preprocess(inspirations, 'Name', inspirations_path)
     preprocess(developers, 'Name', developers_path)

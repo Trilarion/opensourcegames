@@ -138,37 +138,102 @@ class EntriesMaintainer:
                     print(f'{entry_path}: found {check_string}')
         print('checked for template leftovers')
 
+    def _entry_label(self, entry):
+        """
+        Returns something meaningful to identify entries. Used in the inconsistency check.
+        """
+        if isinstance(entry, str):
+            return entry
+        return entry.get('Title', entry.get('File', ''))
+
+    def _add_inconsistency_section(self, report_lines, title, entries):
+        """
+        Adds an inconsistency section for the inconsistency section.
+        """
+        labels = sorted(set(self._entry_label(entry) for entry in entries), key=str.casefold)
+        report_lines.append(f'## {title}')
+        report_lines.append(f'Count: {len(labels)}')
+        if len(labels) > 0:
+            report_lines.append(', '.join(labels))
+        report_lines.append('')
+
+    def _is_open_assets_license(self, license):
+        """
+        Definition of open (free to share, no price tag) assets license
+        """
+        if not isinstance(license, str):
+            return False
+        license = license.lower()  # normalize license
+        if license in ('', '?', 'none', 'n/a'):
+            return False
+        if 'public domain' in license or 'cc0' in license:
+            return True
+        if 'proprietary' in license or 'custom' in license or 'commercial' in license:
+            return False
+        if 'creative commons' in license or license.startswith('cc') or license.startswith('cc-'):
+            return 'nc' not in license and 'nd' not in license
+        return True
+
+    def _has_open_assets_license(self, entry):
+        """
+        Certain definition of open asset license.
+        """
+        licenses = entry.get('Assets license', [])
+        if not licenses:
+            return False
+        return all(self._is_open_assets_license(license) for license in licenses)
+
+    def _has_content_open_keyword(self, entry):
+        """
+        Is content open (might also be differently written)
+        """
+        return any('content open' in keyword.lower() for keyword in entry.get('Keyword', []))
+
+    def _has_commercial_content_keyword(self, entry):
+        """
+        Is content commercial (might also be differently written)
+        """
+        return any('content commercial' in keyword.lower() for keyword in entry.get('Keyword', []))
+
+    def _is_popular_code_repository(self, repo):
+        """
+        Popular code repository. Maybe move to constants.py
+        """
+        if not isinstance(repo, str):
+            return False
+        lowered = repo.lower()
+        return any(host in lowered for host in ('bitbucket', 'codeberg', 'git.code.sf', 'gnu.org', 'nongnu.org', 'github', 'gitlab', 'gnome', 'kde'))
+
     def check_inconsistencies(self):
         """
-        Some consistency checks.
+        Some inconsistency checks.
+        Writes a report to code/inconsistencies.txt.
         """
         if not self.entries:
             print('entries not yet loaded')
             return
-        
-        # (get all keywords and) print similar keywords
-        print('Check for similar keywords')
+
+        report_lines = []
+
+        # Similar but unequal keywords
         keywords = []
         for entry in self.entries:
             keywords.extend(entry['Keyword'])
 
-        # reduce those starting with "multiplayer" and "content"
         keywords = [x if not x.startswith('multiplayer') else 'multiplayer' for x in keywords]
         keywords = [x if not x.startswith('content') else 'content' for x in keywords]
 
-        # check unique keywords
         unique_keywords = list(set(keywords))
-        n = len(unique_keywords)
-        print(f' {n} unique keywords')
-
         unique_keywords_counts = [keywords.count(l) for l in unique_keywords]
+        similar_keyword_entries = []
         for index, name in enumerate(unique_keywords):
-            for other_index in range(index+1, n):
+            for other_index in range(index + 1, len(unique_keywords)):
                 other_name = unique_keywords[other_index]
                 if osg.name_similarity(name, other_name) > 0.8:
-                    print(f' Similar keywords: {name} ({unique_keywords_counts[index]}) - {other_name} ({unique_keywords_counts[other_index]})')
+                    similar_keyword_entries.append(f'{name} ({unique_keywords_counts[index]}) - {other_name} ({unique_keywords_counts[other_index]})')
+        self._add_inconsistency_section(report_lines, 'Inconsistency: Similar but unequal keywords', similar_keyword_entries)
 
-        # get all names of frameworks and library also using osg.code_dependencies_aliases
+        # Code dependencies not included as entry
         valid_dependencies = list(c.general_code_dependencies_without_entry.keys())
         for entry in self.entries:
             if any((x in ('framework', 'library', 'game engine') for x in entry['Keyword'])):
@@ -178,7 +243,6 @@ class EntriesMaintainer:
                 else:
                     valid_dependencies.append(name)
 
-        # get all referenced code dependencies
         referenced_dependencies = {}
         for entry in self.entries:
             deps = entry.get('Code dependency', [])
@@ -188,102 +252,140 @@ class EntriesMaintainer:
                 else:
                     referenced_dependencies[dependency] = 1
 
-        # delete those that are valid dependencies
         referenced_dependencies = [(k, v) for k, v in referenced_dependencies.items() if k not in valid_dependencies]
-
-        # sort by number
         referenced_dependencies.sort(key=lambda x: x[1], reverse=True)
+        dependency_entries = [f'{dep} ({count})' for dep, count in referenced_dependencies]
+        self._add_inconsistency_section(report_lines, 'Inconsistency: Code dependencies not included as entry', dependency_entries)
 
-        # print out
-        print('Code dependencies not included as entry')
-        for dep in referenced_dependencies:
-            print(' {} ({})'.format(*dep))
-
-        # if there is the "Play" field, it should have "Web" as Platform
+        # Has Play field but not Web as Platform
+        play_platform_entries = []
         for entry in self.entries:
-            name = entry['File']
             if 'Play' in entry:
-                if not 'Platform' in entry:
-                    print(f'Entry "{name}" has "Play" field but not "Platform" field, add it with "Web"')
-                elif not 'Web' in entry['Platform']:
-                    print(f'Entry "{name}" has "Play" field but not "Web" in "Platform" field')
+                if 'Platform' not in entry:
+                    play_platform_entries.append(f'{entry["Title"]} (missing Platform)')
+                elif 'Web' not in entry['Platform']:
+                    play_platform_entries.append(f'{entry["Title"]} (missing Web platform)')
+        self._add_inconsistency_section(report_lines, 'Inconsistency: Has Play field but not Web as Platform', play_platform_entries)
 
-        # javascript/typescript/php as language but not web as platform?
+        # Java/Type/CoffeeScript/PHP as language but not Web in Platform
+        web_language_entries = []
         ignored = ('0_ad.md', 'aussenposten.md', 'between.md', 'caesaria.md', 'cavepacker.md', 'citybound.md', 'gorillas.md', 'ika.md', 'inexor.md', 'maniadrive.md', 'oolite.md', 'freevikings.md', 'rolisteam.md', 'rpgboss.md', 'ruby-warrior.md', 'snelps.md', 'tenes_empanadas_graciela.md', 'thrive.md')
         for entry in self.entries:
-            name = entry['File']
+            name = entry['File'].name
             if name in ignored:
                 continue
             if any(language in entry['Code language'] for language in ('JavaScript', 'TypeScript', 'PHP', 'CoffeeScript')) and ('Platform' not in entry or 'Web' not in entry['Platform']):
-                print(f'Entry "{name}" has language JavaScript/PHP but not Web as platform.')
+                web_language_entries.append(entry['Title'])
+        self._add_inconsistency_section(report_lines, 'Inconsistency: Java/Type/CoffeeScript/PHP as language but not Web in Platform', web_language_entries)
 
-        # space in name but not space as keyword
-        ignored = ('burgerspace.md', 'crystal_space_3d_sdk.md', 'our_personal_space.md', 'space_harrier_clone.md')
+        # "Space" as part of the name but not "space" as keyword
+        space_keyword_entries = []
+        ignored = ('burgerspace.md', 'boardspacenet.md', 'crystal_space_3d_sdk.md', 'poland_can_into_space.md', 'our_personal_space.md', 'space_harrier_clone.md', 'spacecadetpinball.md')
         for entry in self.entries:
-            name = entry['File']
+            name = entry['File'].name
             if name in ignored:
                 continue
             title = entry['Title']
-            if 'space' in title.lower() and not 'space' in entry['Keyword']:
-                print(f'Entry "{name}" has "space" in name but not as keyword.')
+            if 'space' in title.lower() and 'space' not in entry['Keyword']:
+                space_keyword_entries.append(entry['Title'])
+        self._add_inconsistency_section(report_lines, 'Inconsistency: "Space" as part of the name but not "space" as keyword', space_keyword_entries)
 
-        # starts with j + capital letter but not java as language
+        # Starts with j[A-Z] but not java as code language
+        java_title_entries = []
         for entry in self.entries:
-            name = entry['File']
             title = entry['Title']
-            if title[0] == 'j' and title[1] == title[1].upper() and not 'Java' in entry['Code language']:
-                print(f'Entry "{name}" title starts with j? but Java is not a code language.')
+            if len(title) > 1 and title[0] == 'j' and title[1] == title[1].upper() and 'Java' not in entry['Code language']:
+                java_title_entries.append(entry['Title'])
+        self._add_inconsistency_section(report_lines, 'Inconsistency: Starts with j[A-Z] but not java as code language', java_title_entries)
 
-        # search for duplicate keywords
+        # Inconsistency: Duplicate keyword
+        duplicate_keyword_entries = []
         for entry in self.entries:
             keywords = entry['Keyword']
             duplicates = [keyword for keyword in keywords if keywords.count(keyword) > 1]
             if duplicates:
-                print(f"\"{entry['File']}\" has duplicate keywords: {duplicates}")
+                duplicate_keyword_entries.append(f'{entry["Title"]} ({", ".join(duplicates)})')
+        self._add_inconsistency_section(report_lines, 'Inconsistency: Duplicate keyword', duplicate_keyword_entries)
 
-        # Check for entries without platform field
-        print('Consistency: entries without platform field')
+        # entries without platform field
+        missing_platform_entries = [entry['Title'] for entry in self.entries if 'Platform' not in entry]
+        self._add_inconsistency_section(report_lines, 'Inconsistency: entries without platform field', missing_platform_entries)
+
+        # entries without code repository
+        missing_repo_entries = [entry['Title'] for entry in self.entries if 'Code repository' not in entry]
+        self._add_inconsistency_section(report_lines, 'Inconsistency: entries without code repository', missing_repo_entries)
+
+        # no popular first code repository service
+        unpopular_repo_entries = []
         for entry in self.entries:
-            if 'Platform' not in entry:
-               print(f"  {entry['Title']}: no platform field")
+            repos = entry.get('Code repository', [])
+            if repos and not self._is_popular_code_repository(str(repos[0])):
+                unpopular_repo_entries.append(entry['Title'])
+        self._add_inconsistency_section(report_lines, 'Inconsistency: no popular first code repository service', unpopular_repo_entries)
 
-        # Check for entries without code repository
-        print('Consistency: entries without code repository')
-        for entry in self.entries:
-            if 'Code repository' not in entry:
-               print(f"  {entry['Title']}: no code repository")
-
-        # Check for unknown code languages
-        print('Consistency: unknown code languages')
+        # unknown code languages
+        unknown_lang_entries = []
         for entry in self.entries:
             if 'Code language' in entry:
-               for lang in entry['Code language']:
-                   if lang not in c.known_languages:
-                       print(f"  {entry['Title']}: unknown language '{lang}'")
+                for lang in entry['Code language']:
+                    if lang not in c.known_languages:
+                        unknown_lang_entries.append(f"{entry['Title']} ({lang})")
+        self._add_inconsistency_section(report_lines, 'Inconsistency: unknown code languages', unknown_lang_entries)
 
-        # Check for unknown code licenses
-        print('Consistency: unknown code licenses')
+        # unknown code licenses
+        unknown_license_entries = []
         for entry in self.entries:
             if 'Code license' in entry:
-               for lic in entry['Code license']:
-                   if lic not in c.known_licenses:
-                       print(f"  {entry['Title']}: unknown license '{lic}'")
+                for lic in entry['Code license']:
+                    if lic not in c.known_licenses:
+                        unknown_license_entries.append(f"{entry['Title']} ({lic})")
+        self._add_inconsistency_section(report_lines, 'Inconsistency: unknown code licenses', unknown_license_entries)
 
-        # Check for duplicate and unsorted developers in entries
-        print('Consistency: duplicate/unsorted developers')
+        # duplicate/unsorted developers
+        developer_entries = []
         for entry in self.entries:
             if 'Developer' in entry:
-               devs = entry['Developer']
-               # Check for duplicates
-               duplicates = [dev for dev in devs if devs.count(dev) > 1]
-               if duplicates:
-                   print(f"  {entry['Title']}: duplicate developers: {set(duplicates)}")
-               # Check if sorted
-               sorted_devs = sorted(devs, key=str.casefold)
-               if devs != sorted_devs:
-                   print(f"  {entry['Title']}: developers not sorted alphabetically")
+                devs = entry['Developer']
+                duplicates = [dev for dev in devs if devs.count(dev) > 1]
+                sorted_devs = sorted(devs, key=str.casefold)
+                if duplicates or devs != sorted_devs:
+                    issues = []
+                    if duplicates:
+                        issues.append(f'duplicate developers: {set(duplicates)}')
+                    if devs != sorted_devs:
+                        issues.append('developers not sorted alphabetically')
+                    developer_entries.append(f'{entry["Title"]} ({"; ".join(issues)})')
+        self._add_inconsistency_section(report_lines, 'Inconsistency: duplicate/unsorted developers', developer_entries)
 
-        # if there is a @see-download there should be download fields...
+        # free assets license but not content open
+        free_assets_no_content_open_entries = []
+        for entry in self.entries:
+            if self._has_open_assets_license(entry) and not self._has_content_open_keyword(entry):
+                free_assets_no_content_open_entries.append(entry['Title'])
+        self._add_inconsistency_section(report_lines, 'Inconsistency: free assets license but not content open', free_assets_no_content_open_entries)
+
+        # content commercial keyword but not commercial assets license
+        commercial_content_no_commercial_assets_entries = []
+        for entry in self.entries:
+            if self._has_commercial_content_keyword(entry) and not self._has_open_assets_license(entry):
+                commercial_content_no_commercial_assets_entries.append(entry['Title'])
+        self._add_inconsistency_section(report_lines, 'Inconsistency: content commercial keyword but not commercial assets license', commercial_content_no_commercial_assets_entries)
+
+        # entry without screenshot
+        screenshot_entries = []
+        if c.screenshots_file.exists():
+            screenshot_names = {line[2:].strip() for line in utils.read_text(c.screenshots_file).splitlines() if line.startswith('# ')}
+            for entry in self.entries:
+                file_name = entry['File'].name
+                if file_name.endswith('.md'):
+                    file_name = file_name[:-3]
+                if file_name not in screenshot_names:
+                    screenshot_entries.append(entry['Title'])
+        self._add_inconsistency_section(report_lines, 'Inconsistency: entry without screenshot', screenshot_entries)
+
+        report_text = '\n'.join(report_lines).rstrip() + '\n'
+        utils.write_text(c.code_path / 'inconsistencies.txt', report_text)
+        print(f'inconsistency report written to {c.code_path / "inconsistencies.txt"}')
 
     def clean_rejected(self):
         """

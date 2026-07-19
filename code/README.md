@@ -87,7 +87,9 @@ python git_statistics.py
 
 ### Docstring Style
 - Follow **PEP 257** conventions, every function should have a docstring
-- Multi-line docstrings for all functions/classes with detailed explanation with triple """ and comments on the next line
+- Use multi-line docstrings for all functions/classes with a detailed explanation.
+- Place the opening triple quotes (`"""`) on their own line; begin the documentation text on the following line. Do not use one-line docstrings such as `"""Does something."""`.
+- Place the closing triple quotes on their own line after the documentation text.
 - Include parameter descriptions for non-obvious parameters
 - Avoid comments with multiple = or - as lines
 

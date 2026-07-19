@@ -6,6 +6,8 @@
   {%- for e in entry -%}{{ render_element(e) }}{%- endfor -%}
 {%- elif entry['type'] == 'text' -%}
   {{ render_text(entry) }}
+{%- elif entry['type'] == 'line-break' -%}
+  <br>
 {%- elif entry['type'] == 'icon' -%}
   {{ render_icon(entry) }}
 {%- elif entry['type'] == 'url' -%}
@@ -26,7 +28,9 @@
 {# A single piece of text optionally with a format class. (see https://bulma.io/documentation/helpers/typography-helpers/) #}
 {%- macro render_text(text) -%}
 {%- if 'class' in text -%} {# Enhanced text #}
-  <span class="{{ text['class'] }}">{{ text['text'] }}</span>
+  <span class="{{ text['class'] }}"{% if 'title' in text %} title="{{ text['title'] }}"{% endif %}>{{ text['text'] }}</span>
+{%- elif 'title' in text -%}
+  <span title="{{ text['title'] }}">{{ text['text'] }}</span>
 {%- else -%}
   {{ text['text'] }}{# <span>{{ text['text'] }}</span> #}
 {%- endif -%}

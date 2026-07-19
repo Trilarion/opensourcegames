@@ -79,6 +79,45 @@ recommended_keywords = (
     'strategy', 'cards', 'board', 'music', 'educational', 'tool', 'game engine', 'framework', 'library', 'remake')
 # TODO unmake remake a recommended keyword (should be the same as clone maybe), i.e. add another recommended keyword if only remake is in there
 
+# Short descriptions for recurring entry keywords, used on category pages and as tag tooltips.
+keyword_genre_descriptions = {
+    'action': 'Fast-paced play emphasizes reflexes, timing, and direct control.',
+    'arcade': 'Score-focused play uses simple rules and immediately accessible mechanics.',
+    'adventure': 'Story-driven play centers on exploration, characters, and solving challenges.',
+    'clone': 'Reimplementations that aim to reproduce the gameplay or functionality of an existing game.',
+    'content commercial': 'Artwork, audio, or other content is commercially licensed or sold.',
+    'content free': 'Artwork, audio, or other content may be freely used and redistributed.',
+    'content open': 'Artwork, audio, or other content is available under open licenses.',
+    'visual novel': 'Interactive stories told through text, illustrations, and player choices.',
+    'first-person': 'The viewpoint follows the character controlled by the player.',
+    'framework': 'Reusable software foundations that provide common services for making games.',
+    'game engine': 'Software for creating games, typically providing rendering, input, and other core systems.',
+    'multiplayer': 'Multiple players participate in local or networked sessions.',
+    'original required': 'Projects that require data files or other assets from the original game to run.',
+    'sports': 'Athletic competitions and sports activities are simulated or stylized.',
+    'platform': 'Play centers on jumping and navigating obstacles across layered environments.',
+    'puzzle': 'Logical, spatial, or pattern-based challenges must be solved.',
+    'racing': 'Competitive vehicle races or time-trial driving form the central activity.',
+    'real-time': 'Actions occur continuously rather than in discrete turns.',
+    'roguelike': 'Rogue-inspired design often features procedural levels and permanent consequences.',
+    'role playing': 'Players develop characters and shape their journeys through choices.',
+    'shooter': 'Ranged combat uses firearms, projectiles, or similar weapons.',
+    'skill': 'Timing, precision, reflexes, or practiced player ability are primarily tested.',
+    'simulation': 'Real or imagined systems, activities, or environments are modeled.',
+    'space': 'The setting primarily involves outer space, space travel, or exploration.',
+    'strategy': 'Planning, resource management, and tactical decisions drive play.',
+    'text-based': 'Written text rather than graphical interaction provides the main presentation.',
+    'tool': 'Software that helps create, modify, manage, or run games and their content.',
+    'turn-based': 'Players act in separate turns rather than simultaneously.',
+    '2D': 'Two-dimensional spaces or graphics provide the presentation.',
+    '3D': 'Three-dimensional spaces or graphics provide the presentation.',
+    'cards': 'Cards, their rules, combinations, or decks provide the primary mechanics.',
+    'board': 'Digital versions or adaptations of board games and tabletop-style play.',
+    'music': 'Creating, performing, recognizing, or reacting to music drives play.',
+    'educational': 'Teaching knowledge or developing skills is the primary purpose.',
+    'remake': 'Modern recreations, ports, or reimplementations of existing games.'
+}
+
 # entries where we do not want to show developers (because these lists are too long and too general) - no developers needed for libraries
 entries_without_developers = ('Box2D', 'Dear ImGui', 'DirectPython', 'FreeType', 'Horde3D', 'ncurses', 'Penumbra', 'Simple and Fast Multimedia Library',
                               'Simple DirectMedia Layer', 'Allegro', 'Crystal Space 3D SDK', 'Dash Engine', 'Delta Engine', 'libGDX', 'MonoGame', 'OGRE',

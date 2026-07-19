@@ -5,6 +5,7 @@ Uses
 
 - Jinja2 (https://jinja.palletsprojects.com/en/2.11.x/)
 - Simple-DataTables (https://github.com/fiduswriter/Simple-DataTables)
+- Bulma for css styling (unfortunately bulma become very bloated after 0.9.4)
 
 Sitemap is not needed, only for large projects with lots of JavaScript und many pages that aren't discoverable.
 """
@@ -12,13 +13,7 @@ Sitemap is not needed, only for large projects with lots of JavaScript und many 
 # TODO tab: new filter tab (playable in a browser) with tiles (https://bulma.io/documentation/layout/tiles/) sorted by genre (just as normal list so far, no tiles yet)
 # TODO tab: new filter tab (my top 100) with games I really like (mature and I tried them and there is a download for each of them) and some categories with explanation why and possible link to a review on the blog (like evil cult), still need to to that
 
-# TODO table: state, os, license smaller
-
-# TODO categories: put more explanations on the category pages and the categories (number and short sentences)
-# TODO categories: use moon year as shortcut for inactive, only make an alt tag for the moon (inactive since)
-
 # TODO keywords: content, multiplayer replace by icons (open, commercial (dollar signs))
-# TODO keywords: explain most common ones (as alt-text maybe?)
 
 # TODO general: most people only come to the main page, put more information there (direct links to genres, ...)
 # TODO general: minimize tag usage: jinja template optimization for line breaks and indention and minimal amount of spaces (and size of files) and minimal amount of repetition of tags
@@ -27,13 +22,12 @@ Sitemap is not needed, only for large projects with lots of JavaScript und many 
 # TODO general: check singular, plural (game, entries, items) although support is already quite good for that (Code Languages, ...)
 # TODO general: better link replacements for showing the urls of links
 # TODO general: style URLs (Github, Wikipedia, Internet archive, SourceForge, ...)
-# TODO general: update Bulma (already at latest version)
+
 # TODO general: meta/title+description tag
 # TODO general: meta description of the pages, fill them
+
 # TODO general: optimize layout for mobile view (quite good already)
 # TODO general: meta titles for all pages, make them nice because they appear in search results! (https://www.contentpowered.com/blog/good-ctr-search-console/)
-# TODO general: <a> rel attribute https://www.w3schools.com/TAGS/att_a_rel.asp
-# TODO general: Unspecified as no OS information, change to longer name (Unknown OS support?)
 
 # TODO idea: text description automatically generate from keywords, state, and technical information for example: First-person action shooter written in C++, inspired by ... but inactive for 7 years.
 
@@ -68,20 +62,34 @@ Sitemap is not needed, only for large projects with lots of JavaScript und many 
 # TODO inspirations: if included in the database, link instead to game (cross-reference)
 # TODO inspirations: add media links and genres, maybe also years and original developer
 
-import os
-import pathlib
 import shutil
 import math
 import datetime
 import time
 import json
 import string
+from collections.abc import Callable, Sequence
 from functools import partial
+from pathlib import Path
+from typing import Any, NoReturn, TypeAlias, TypeVar
 
 from jinja2 import Environment, FileSystemLoader
 import html5lib
 
 from utils import osg, constants as c, utils, osg_statistics as stat, osg_parse
+
+Entry: TypeAlias = dict[str, Any]
+"""
+A parsed entry, developer, or inspiration augmented for template rendering.
+"""
+
+TemplateNode: TypeAlias = dict[str, Any]
+"""
+A structured value consumed by the Jinja templates.
+"""
+
+Item = TypeVar('Item')
+Category = TypeVar('Category')
 
 # the categories for the alphabetical indices, letters A-Z, used for identification and as link names internally
 alphabet = string.ascii_uppercase
@@ -96,6 +104,8 @@ alphabet_replacements = {'Á': 'A', 'Å': 'A', 'Ä': 'A', 'É': 'E', 'ⴹ': 'E',
 
 TOP_INSPIRATION_THRESHOLD = 4  # at least that many inspired games
 TOP_DEVELOPER_THRESHOLD = 4    # at least that many developed games
+
+UNKNOWN_PLATFORM = 'Unknown platform support'
 
 # the subfolder structure
 games_path = ['games']
@@ -142,7 +152,7 @@ platform_icon_map = {
     'Android': 'android',
     'iOS': 'ios',
     'Web': 'earth',
-    'Unspecified': 'device_unknown'
+    UNKNOWN_PLATFORM: 'device_unknown'
 }
 
 # map from genre name to icon name
@@ -192,9 +202,12 @@ for k in ('Code repository', 'Code dependency'):
     plurals[k] = k[:-1] + 'ies'
 
 
-def get_plural_or_singular(name, amount):
+def get_plural_or_singular(name: str, amount: int) -> str:
     """
-    Gets the pluralization of a known word for a known amount. Helper function.
+    Return the singular or configured plural form of ``name`` for ``amount``.
+
+    Raises:
+        RuntimeError: If ``name`` is not present in the pluralization table.
     """
     if not name in plurals.keys():
         raise RuntimeError(f'"{name}" not a known singular!')
@@ -203,11 +216,9 @@ def get_plural_or_singular(name, amount):
     return plurals[name]
 
 
-def file_hash(text):
+def file_hash(text: str) -> int:
     """
-    Removes the last updated ... line from html file and the data line from svg and then computes a hash.
-    :param text:
-    :return:
+    Hash generated markup while ignoring timestamps that change on every build.
     """
     text = text.split('\n')
     text = [t for t in text if not any(t.startswith(prefix) for prefix in ('  This website is built ', '    <dc:date>'))]
@@ -215,19 +226,19 @@ def file_hash(text):
     return hash(text)
 
 
-def raise_helper(msg):
+def raise_helper(msg: str) -> NoReturn:
     """
-    Helper, because raise in lambda expression is a bit cumbersome.
-    (ref. https://stackoverflow.com/questions/8294618/define-a-lambda-expression-that-raises-an-exception)
+    Raise an exception from a Jinja expression where ``raise`` is unavailable.
     """
     raise Exception(msg)
 
 
-def write(text, path):
+def write(text: str, path: str | Sequence[str]) -> None:
     """
-    Writes a generated HTML page to a file, but checks with a HTML parser before.
-    :param text:
-    :param file:
+    Validate and write a generated HTML page below the website output directory.
+
+    If the normalized content matches a previous file, preserve that file's text so
+    timestamp-only changes do not cause an unnecessary rewrite.
     """
     # output file
     if isinstance(path, str):
@@ -256,12 +267,15 @@ def write(text, path):
     utils.write_text(file, text)
 
 
-def sort_into_categories(items, categories, fit, unknown_category_name=None):
+def sort_into_categories(
+    items: Sequence[Item], categories: Sequence[Category],
+    fit: Callable[[Item, Category], bool], unknown_category_name: str | None = None,
+) -> dict[Category | str, list[Item]]:
     """
-    Given a list of items and a list of categories and a way to determine if an item fits into a category creates
-    lists of items fitting in each category as well as a list of items that fit in no category.
+    Group items into every matching category and optionally an uncategorized group.
 
-    :return: A mapping category (or unknown_category_name) -> sub-list of items in that category
+    Items may occur in more than one category.  The optional fallback contains only
+    items that do not match any supplied category.
     """
     categorized_sublists = {}
     for category in categories:
@@ -274,12 +288,13 @@ def sort_into_categories(items, categories, fit, unknown_category_name=None):
     return categorized_sublists
 
 
-def divide_in_three_columns_and_transform(categorized_lists, transform):
+def divide_in_three_columns_and_transform(
+    categorized_lists: dict[Category, Sequence[Item]],
+    transform: Callable[[Item], TemplateNode],
+) -> dict[str, dict[Category, int] | dict[Category, list[list[TemplateNode]]]]:
     """
-    Used for creating table of content pages for the entries.
-    :param transform:
-    :param categorized_lists:
-    :return:
+    Transform categorized items and split each category into three columns
+    for creating a tabular layout of entries.
     """
     number_entries = {category: len(categorized_lists[category]) for category in categorized_lists.keys()}
     entries = {}
@@ -296,12 +311,12 @@ def divide_in_three_columns_and_transform(categorized_lists, transform):
     return {'number_entries': number_entries, 'entries': entries}
 
 
-def url_to(current, target, info=None):
+def url_to(current: Sequence[str], target: str | Sequence[str], info: Any = None) -> str:
     """
+    Return a relative URL from ``current`` to ``target``.
 
-    :param current: Current path
-    :param target:
-    :return:
+    Absolute HTTP(S) targets are returned unchanged.  ``info`` is accepted because
+    Jinja may pass additional context when calling this helper.
     """
     # if it's an absolute url, just return
     if isinstance(target, str) and any(target.startswith(x) for x in ('http://', 'https://')):
@@ -323,15 +338,22 @@ def url_to(current, target, info=None):
     return url
 
 
-def preprocess(items, key, url):
+def set_page_metadata(base: Entry, title: str, description: str) -> None:
     """
-    Sets a few additional fields in the entries, inspirations, developers in order to generate the right content from
-    them later.
+    Set the title and search-result description for the next rendered HTML page.
+    """
+    base['title'] = title
+    base['description'] = description
 
-    :param url: Base URL or a callable that returns the base URL for an item.
-    :param items:
-    :param key:
-    :return:
+
+def preprocess(
+    items: Sequence[Entry], key: str,
+    url: list[str] | Callable[[Entry], list[str]],
+) -> None:
+    """
+    Add anchors, alphabetical groups, and output links to renderable records.
+
+    ``url`` is either a shared base path or a function selecting a path per item.
     """
     _ = set() # this is just to avoid duplicating anchors
     for item in items:
@@ -353,9 +375,9 @@ def preprocess(items, key, url):
         item['href'] = item_url + [f'{start}.html#{anchor}']
 
 
-def entry_index(entry):
+def entry_index(entry: Entry) -> TemplateNode:
     """
-    Prepares an entry for being an index in a categorical index page.
+    Create the compact index representation of a game or framework entry.
     """
     e = {
         'url': make_url(entry['href'], entry['Title']),
@@ -372,9 +394,9 @@ def entry_index(entry):
     return e
 
 
-def inspiration_index(inspiration):
+def inspiration_index(inspiration: Entry) -> TemplateNode:
     """
-    Prepares an inspiration for being an index in a categorical index page.
+    Create the compact index representation of an inspiration.
     """
     n = len(inspiration['Inspired entries'])
     e = {
@@ -387,9 +409,9 @@ def inspiration_index(inspiration):
     return e
 
 
-def developer_index(developer):
+def developer_index(developer: Entry) -> TemplateNode:
     """
-    Prepares a developer for being an index in a categorical index page.
+    Create the compact index representation of a developer.
     """
     n = len(developer['Games'])
     e = {
@@ -402,12 +424,9 @@ def developer_index(developer):
     return e
 
 
-def shortcut_url(url, name):
+def shortcut_url(url: str, name: str) -> str | list[TemplateNode]:
     """
-
-    :param url:
-    :param name:
-    :return:
+    Create a concise, optionally icon-based label for a known external URL.
     """
     # remove slash at the end
     if url.endswith('/'):
@@ -448,14 +467,12 @@ def shortcut_url(url, name):
     return url
 
 
-def make_url(href, content, title=None, css_class=None):
+def make_url(
+    href: str | Sequence[str], content: str | TemplateNode | list[TemplateNode],
+    title: str | None = None, css_class: str | None = None,
+) -> TemplateNode:
     """
-
-    :param href:
-    :param content:
-    :param title:
-    :param css_class:
-    :return:
+    Create a URL node for use by the Jinja templates.
     """
     if isinstance(content, str):
         content = make_text(content)
@@ -468,17 +485,13 @@ def make_url(href, content, title=None, css_class=None):
         url['title'] = title
     if css_class:
         url['class'] = css_class
-    if isinstance(href, str) and href.startswith(('http://', 'https://')):
-        url['rel'] = 'external'
+    # we don't need a rel tag, we open links in the same tab anway and don't about referrer information being transmitted
     return url
 
 
-def make_repo_url(x, name):
+def make_repo_url(x: str, name: str) -> TemplateNode:
     """
-
-    :param x:
-    :param name:
-    :return:
+    Create a repository link and display metadata encoded in its comments.
     """
     # parse comments
     comments = []
@@ -511,12 +524,9 @@ def make_repo_url(x, name):
         return url
 
 
-def make_icon(id, title=None, css=None):
+def make_icon(id: str, title: str | None = None, css: str | None = None) -> TemplateNode:
     """
-
-    :param id:
-    :param title:
-    :return:
+    Create an icon node, applying a safe default text color when needed.
     """
     if not css:
         css = 'has-text-black'  # safeguard
@@ -530,12 +540,9 @@ def make_icon(id, title=None, css=None):
     return icon
 
 
-def make_text(content, css_class=None):
+def make_text(content: str, css_class: str | None = None, title: str | None = None) -> TemplateNode:
     """
-
-    :param content:
-    :param css_class:
-    :return:
+    Create a text node with optional CSS class and tooltip text.
     """
     text = {
         'type': 'text',
@@ -543,16 +550,21 @@ def make_text(content, css_class=None):
     }
     if css_class:
         text['class'] = css_class
+    if title:
+        text['title'] = title
     return text
 
 
-def make_enclose(entry, left, right):
+def make_line_break() -> TemplateNode:
     """
+    Create a line-break node for rendering a literal HTML break element.
+    """
+    return {'type': 'line-break'}
 
-    :param entry:
-    :param left:
-    :param right:
-    :return:
+
+def make_enclose(entry: TemplateNode, left: str, right: str) -> TemplateNode:
+    """
+    Create a node that renders ``entry`` between literal delimiters.
     """
     enclose = {
         'type': 'enclose',
@@ -563,12 +575,9 @@ def make_enclose(entry, left, right):
     return enclose
 
 
-def make_enumeration(entries, divider=', '):
+def make_enumeration(entries: Sequence[TemplateNode], divider: str = ', ') -> TemplateNode:
     """
-
-    :param entries:
-    :param divider:
-    :return:
+    Create a node that renders entries separated by ``divider``.
     """
     enumeration = {
         'type': 'enumeration',
@@ -578,11 +587,9 @@ def make_enumeration(entries, divider=', '):
     return enumeration
 
 
-def make_tags(entries):
+def make_tags(entries: Sequence[TemplateNode]) -> TemplateNode:
     """
-
-    :param entries:
-    :return:
+    Create the tag-list node used for entry keywords.
     """
     return {
         'type': 'tags',
@@ -590,13 +597,9 @@ def make_tags(entries):
     }
 
 
-def make_img(file, width, height):
+def make_img(file: Sequence[str], width: int, height: int) -> TemplateNode:
     """
-
-    :param file:
-    :param width:
-    :param height:
-    :return:
+    Create an image node with source path and intrinsic dimensions.
     """
     return {
         'type': 'image',
@@ -606,12 +609,12 @@ def make_img(file, width, height):
     }
 
 
-def developer_profile_link(link):
+def developer_profile_link(link: str) -> TemplateNode:
     """
-    Creates links to developer profiles.
+    Create a profile URL node from a contact shortcut such as ``user@GH``.
 
-    :param link: Shortcut link from the developer contact field.
-    :return: A URL to a profile page.
+    Raises:
+        RuntimeError: If the shortcut does not name a supported profile service.
     """
     if link.endswith('@SF'):
         return make_url(f'https://sourceforge.net/u/{link[:-3]}/profile/', make_icon('sourceforge', css='has-text-link'), f'User {link[:-3]} on Sourceforge')
@@ -624,12 +627,11 @@ def developer_profile_link(link):
     raise RuntimeError(f'Unknown profile link {link}')
 
 
-def convert_inspirations(inspirations, entries):
+def convert_inspirations(inspirations: Sequence[Entry], entries: Sequence[Entry]) -> None:
     """
+    Add template-ready media and cross-references to inspiration records.
 
-    :param inspirations:
-    :param entries:
-    :return:
+    Every referenced title is expected to exist in ``entries``.
     """
     entries_references = {entry['Title']: entry['href'] for entry in entries}
     for inspiration in inspirations:
@@ -649,13 +651,11 @@ def convert_inspirations(inspirations, entries):
         inspiration['inspired'] = [name, make_enumeration(entries)]
 
 
-def convert_developers(developers, entries):
+def convert_developers(developers: Sequence[Entry], entries: Sequence[Entry]) -> None:
     """
-    Generate html output for developers.
+    Add template-ready game, contact, and organization data to developers.
 
-    :param developers:
-    :param entries:
-    :return:
+    Every game referenced by a developer is expected to exist in ``entries``.
     """
     entries_references = {entry['Title']:entry['href'] for entry in entries}
     # iterate over all developers
@@ -685,12 +685,17 @@ def convert_developers(developers, entries):
                 developer[field.lower()] = [make_text(get_plural_or_singular(field, len(entries))+': '), make_enumeration(entries)]
 
 
-def create_keyword_tag(keyword):
+def create_keyword_tag(keyword: str) -> TemplateNode:
     """
-    Creates the tag element for a single keyword.
-    :param keyword:
-    :return:
+    Create a keyword tag, linking recommended categories to their index.
     """
+    tooltip = c.keyword_genre_descriptions.get(keyword)
+    if tooltip is None:
+        for described_keyword in sorted(c.keyword_genre_descriptions, key=len, reverse=True):
+            if keyword.startswith(f'{described_keyword} ') or keyword.startswith(f'{described_keyword} ('):
+                tooltip = c.keyword_genre_descriptions[described_keyword]
+                break
+
     if keyword in c.recommended_keywords:
         if keyword in c.non_game_keywords:
             url = non_games_index_path.copy()
@@ -700,17 +705,15 @@ def create_keyword_tag(keyword):
         # TODO are icons looking good in the keyword tags (I somehow doubt it), maybe put them separately somewhere?
         #if keyword.capitalize() in genre_icon_map:
         #    return make_url(url, [make_icon(genre_icon_map[keyword.capitalize()]), make_text(keyword)], '{} games'.format(keyword), 'tag is-light is-link')
-        tooltip = non_game_category_names[keyword] if keyword in non_game_category_names else f'{keyword.capitalize()} games'
+        tooltip = tooltip or non_game_category_names.get(keyword, f'{keyword.capitalize()} games')
         return make_url(url, make_text(keyword), tooltip, 'tag is-light is-link') # TODO underline tag needs <u> and it should be generalized
     else:
-        return make_text(keyword, 'tag is-light')
+        return make_text(keyword, 'tag is-light', tooltip)
 
 
-def create_state_texts(states):
+def create_state_texts(states: Sequence[str]) -> list[TemplateNode | list[TemplateNode]]:
     """
-    State texts for level items on the right
-    :param states:
-    :return:
+    Create status nodes for an entry's maturity and activity indicators.
     """
     if 'mature' in states:
         state = make_text('mature', 'has-text-weight-bold')
@@ -718,19 +721,20 @@ def create_state_texts(states):
         state = make_text('beta')
     inactive = [x for x in states if x.startswith('inactive since')]
     if inactive:
-        activity = [make_icon('brightness_3'), make_text(inactive[0], '')]
+        activity = make_icon('brightness_3', inactive[0]) # inactive since only as tooltip
     else:
         activity = [make_icon('sun'), make_text('active', 'has-text-weight-bold')]
     return [state, activity]
 
 
-def convert_entries(entries, inspirations, developers):
+def convert_entries(
+    entries: Sequence[Entry], inspirations: Sequence[Entry], developers: Sequence[Entry],
+) -> None:
     """
+    Augment game and framework entries with data consumed by entry templates.
 
-    :param entries:
-    :param inspirations:
-    :param developers:
-    :return:
+    Inspiration and developer records must already have output links assigned by
+    :func:`preprocess`.
     """
     inspirations_references = {inspiration['Name']: inspiration['href'] for inspiration in inspirations}
     developer_references = {developer['Name']: developer['href'] for developer in developers}
@@ -776,8 +780,12 @@ def convert_entries(entries, inspirations, developers):
         if 'Platform' in entry:
             e = entry['Platform']
         else:
-            e = ['Unspecified']
-        e = [make_url(games_by_platform_path[:-1] + [f'{games_by_platform_path[-1]}#{x.lower()}'], make_icon(platform_icon_map[x], css=f"{platform_color.get(x, 'is-link')} is-size-6"), x) if x in platform_icon_map else make_text(x) for x in e]
+            e = [UNKNOWN_PLATFORM]
+        e = [make_url(
+            games_by_platform_path[:-1] + [f'{games_by_platform_path[-1]}#{platform.lower()}'],
+            make_icon(platform_icon_map[platform], css=f"{platform_color.get(platform, 'is-link')} is-size-6"),
+            platform
+        ) if platform in platform_icon_map else make_text(platform) for platform in e]
         # namex = make_text('{}: '.format(get_plural_or_singular('Platform', len(e))))
         # entry['state'].insert(0, [namex] + e)
         entry['state'].insert(0, e)
@@ -814,11 +822,9 @@ def convert_entries(entries, inspirations, developers):
         entry['raw-path'] = 'https://raw.githubusercontent.com/Trilarion/opensourcegames/master/entries/' + entry['File'].name
 
 
-def add_license_links_to_entries(entries):
+def add_license_links_to_entries(entries: Sequence[Entry]) -> None:
     """
-
-    :param entries:
-    :return:
+    Replace code-license names with ``(URL, name)`` tuples for final rendering.
     """
     for entry in entries:
         licenses = entry['Code license']
@@ -826,11 +832,9 @@ def add_license_links_to_entries(entries):
         entry['Code license'] = licenses
 
 
-def get_topN_games(games, N=100):
+def get_topN_games(games: Sequence[Entry], N: int = 100) -> list[Entry]:
     """
-    Gets the top N games by stars (either Github or Gitlab)
-    :param games:
-    :return:
+    Return at most ``N`` playable games ranked by repository star metadata.
     """
     top_games = []
     for game in games:
@@ -858,12 +862,10 @@ def get_topN_games(games, N=100):
     return top_games
 
 
-def add_screenshot_information(entries):
+def add_screenshot_information(entries: Sequence[Entry]) -> None:
     """
-
-    :param entries:
-    :return:
-d    """
+    Add image nodes for screenshots recorded in the screenshots overview.
+    """
     # read screenshot information
     overview = osg.read_screenshots_overview()
 
@@ -891,27 +893,26 @@ d    """
             entry['screenshots'] = screenshots
 
 
-def create_table_json_data(entries):
+def create_table_json_data(entries: Sequence[Entry]) -> None:
     """
-    We assume that everything including internal is setup correctly.
-    Columns are Title, Link (entry, first homepage), State, Essential Keywords, Language, License
-    :param entries:
-    :return:
+    Write the JSON data used by the interactive entries table.
+
+    Entries must already contain generated internal links and a homepage.
     """
     # create json structure
     db = {'headings': ['Title', 'State', 'Tags', 'Platform', 'Language', 'License']}
     data = []
     for entry in entries:
         title = f"<a href=\"{url_to([], entry['href'])}\" class=\"has-text-weight-semibold\">{entry['Title']}</a> <a href=\"{entry['Home'][0]}\"><i class=\"icon-new-tab\"></i></a>"
-        state = ', '.join(entry['State'])
+        state = f'<span class="is-size-7">{", ".join(entry["State"])}</span>'
         tags = entry['Keyword']
         tags = [tag for tag in tags if tag in c.interesting_keywords]
         tags = ', '.join(tags)
         platform = entry.get('Platform', ['-'])
-        platform = ', '.join(platform)
+        platform = f'<span class="is-size-7">{", ".join(platform)}</span>'
         language = ', '.join(entry['Code language'])
         license = entry['Code license']
-        license = ', '.join(license)
+        license = f'<span class="is-size-7">{", ".join(license)}</span>'
         data.append([title, state, tags, platform, language, license])
     data.sort(key=lambda x: str.casefold(x[0]))
     db['data'] = data
@@ -922,10 +923,14 @@ def create_table_json_data(entries):
     utils.write_text(c.web_data_path / 'entries.json', text)
 
 
-def create_statistics_section(entries, field, title, filename, chartmaker, sub_field=None):
+def create_statistics_section(
+    entries: Sequence[Entry], field: str, title: str, filename: str,
+    chartmaker: Callable[[list[tuple[str, int]], Path], None], sub_field: str | None = None,
+) -> Entry:
     """
-    Creates a statistics section for a given field name from entries and a given chart type (see stat.export_xxx_chart)
-    :return:
+    Generate a chart and return its template section for a statistics field.
+
+    Existing chart text is restored when the semantic output has not changed.
     """
     statistics = stat.get_field_statistics(entries, field, sub_field)
     statistics = stat.truncate_stats(statistics, 10)
@@ -946,11 +951,13 @@ def create_statistics_section(entries, field, title, filename, chartmaker, sub_f
     return section
 
 
-def generate(entries, inspirations, developers):
+def generate(entries: list[Entry], inspirations: list[Entry], developers: list[Entry]) -> None:
     """
-    Regenerates the whole static website given an already imported set of entries, inspirations and developers.
-    These datasets must be valid for each other, i.e. each inspiration listed in entries must also have an
-    entry in inspirations and the same holds for developers.
+    Regenerate the complete static website from validated source records.
+
+    Cross-references in entries must resolve to a corresponding inspiration or
+    developer record.  This function augments its input dictionaries in place while
+    preparing them for Jinja rendering.
     """
 
     # split entries in games and non-games
@@ -1016,7 +1023,7 @@ def generate(entries, inspirations, developers):
     genres = [keyword.capitalize() for keyword in c.recommended_keywords if keyword not in c.non_game_keywords]
     genres.sort()
     games_by_genre = sort_into_categories(games, genres, lambda item, category: category.lower() in item['Keyword'])
-    games_by_platform = sort_into_categories(entries, c.valid_platforms, lambda item, category: category in item.get('Platform', []), 'Unspecified')
+    games_by_platform = sort_into_categories(entries, c.valid_platforms, lambda item, category: category in item.get('Platform', []), UNKNOWN_PLATFORM)
     games_by_language = sort_into_categories(entries, c.known_languages, lambda item, category: category in item['Code language'])
     non_games_by_type = sort_into_categories(non_games, c.non_game_keywords, lambda item, category: category in item['Keyword'])
 
@@ -1027,6 +1034,7 @@ def generate(entries, inspirations, developers):
     # base dictionary
     base = {
         'title': 'OSGL',
+        'description': 'Browse open source games, game engines, frameworks, and tools with technical details.',
         'creation-date': datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M'),
         'css': ['bulma.min.css', 'osgl.min.css'],
         'js': ['osgl.js']
@@ -1060,19 +1068,32 @@ def generate(entries, inspirations, developers):
     base['url_to'] = partial(url_to, [])
 
     # index.html
+    set_page_metadata(
+        base,
+        'OSGL | Open source games list',
+        f'Browse technical information about {len(games)} open source games and {len(non_games)} game engines, frameworks, and tools.',
+    )
     base['active_nav'] = 'index'
     index = {'subtitle': make_text(f'Contains information about {len(games)} open source games and {len(non_games)} game engines/tools.') }
     template = environment.get_template('index.jinja')
     write(template.render(index=index), ['index.html'])
 
     # contribute page
-    base['title'] = 'OSGL | Contributions'
+    set_page_metadata(
+        base,
+        'OSGL | Contributions',
+        'Learn how to add or improve open source game entries and give feedback to the Open Source Games List.',
+    )
     base['active_nav'] = 'contribute'
     template = environment.get_template('contribute.jinja')
     write(template.render(), ['contribute.html'])
 
     # statistics page in statistics folder
-    base['title'] = 'OSGL | Statistics'
+    set_page_metadata(
+        base,
+        'OSGL | Statistics',
+        'Explore statistics about platforms, programming languages, licenses, dependencies, and build systems in the Open Source Games List.',
+    )
     base['url_to'] = partial(url_to, statistics_path)
     base['active_nav'] = 'statistics'
 
@@ -1082,7 +1103,11 @@ def generate(entries, inspirations, developers):
     write(template.render(data=statistics_data), statistics_index_path)
 
     # non-games folder
-    base['title'] = 'OSGL | Game engines, frameworks, tools'
+    set_page_metadata(
+        base,
+        'OSGL | Game engines, frameworks, tools',
+        f'Browse {len(non_games)} open source game engines, frameworks, libraries, and development tools.',
+    )
     base['url_to'] = partial(url_to, non_games_path)
     base['active_nav'] = 'frameworks'
 
@@ -1099,6 +1124,11 @@ def generate(entries, inspirations, developers):
 
     # generate non-games pages
     for keyword in c.non_game_keywords:
+        set_page_metadata(
+            base,
+            f'OSGL | {non_game_category_names[keyword]}',
+            f'Browse {len(non_games_by_type[keyword])} open source {non_game_category_names[keyword].lower()} for game development.',
+        )
         listing = {
             'title': non_game_category_names[keyword],
             'subtitle': make_url(non_games_index_path, 'Index'),
@@ -1107,12 +1137,22 @@ def generate(entries, inspirations, developers):
         write(template_listing_entries.render(listing=listing), non_games_path + [f'{keyword}.html'])
 
     # games folder
-    base['title'] = 'OSGL | Games | Alphabetical'
+    set_page_metadata(
+        base,
+        'OSGL | Games | Alphabetical',
+        f'Browse an alphabetical index of {len(games)} open source games with technical details and download links.',
+    )
     base['url_to'] = partial(url_to, games_path)
     base['active_nav'] = 'games'
 
     # generate games pages
     for letter in extended_alphabet:
+        letter_description = 'non-alphabetical titles' if letter == extra else f'titles beginning with {letter}'
+        set_page_metadata(
+            base,
+            f'OSGL | Games | {letter}',
+            f'Browse {len(games_by_alphabet[letter])} open source games with {letter_description}.',
+        )
         listing = {
             'title': f'Games starting with {letter.capitalize()}',
             'items': games_by_alphabet[letter]
@@ -1120,6 +1160,11 @@ def generate(entries, inspirations, developers):
         write(template_listing_entries.render(listing=listing), games_path + [f'{letter.capitalize()}.html'])
 
     # generate games index
+    set_page_metadata(
+        base,
+        'OSGL | Games | Alphabetical',
+        f'Browse an alphabetical index of {len(games)} open source games with technical details and download links.',
+    )
     index = divide_in_three_columns_and_transform(games_by_alphabet, entry_index)
     index['title'] = make_text('Open source games')
     index['subtitle'] = [make_text(f'Alphabetical index of {len(games)} games.')]
@@ -1131,7 +1176,11 @@ def generate(entries, inspirations, developers):
     write(template_categorical_index.render(index=index), games_index_path)
 
     # genres
-    base['title'] = 'OSGL | Games | Genres'
+    set_page_metadata(
+        base,
+        'OSGL | Games | Genres',
+        'Browse open source games by genre, including action, adventure, puzzle, strategy, and role-playing games.',
+    )
     base['active_nav'] = ['filter', 'genres']
     index = divide_in_three_columns_and_transform(games_by_genre, entry_index)
     index['title'] = make_text('Open source games')
@@ -1140,11 +1189,22 @@ def generate(entries, inspirations, developers):
     index['category-names'] = {k: make_text(k) for k in index['categories']}
     index['category-icons'] = {k: make_icon(genre_icon_map[k]) for k in index['categories'] if k in genre_icon_map}
     index['number_entries_per_category_threshold'] = 50
-    index['category-infos'] = {genre: make_text(f'{len(games_by_genre[genre])} games') for genre in genres}
+    index['category-infos'] = {
+        genre: [
+            make_text(c.keyword_genre_descriptions[genre.lower()]),
+            make_line_break(),
+            make_text(f'{len(games_by_genre[genre])} games'),
+        ]
+        for genre in genres
+    }
     write(template_categorical_index.render(index=index), games_by_genres_path)
 
     # games by language
-    base['title'] = 'OSGL | Games | Programming language'
+    set_page_metadata(
+        base,
+        'OSGL | Games | Programming language',
+        'Browse open source games and frameworks by programming language.',
+    )
     base['active_nav'] = ['filter', 'code language']
     index = divide_in_three_columns_and_transform(games_by_language, entry_index)
     index['title'] = 'Open source games and frameworks'
@@ -1157,12 +1217,16 @@ def generate(entries, inspirations, developers):
     write(template_categorical_index.render(index=index), games_by_language_path)
 
     # games by platform
-    base['title'] = 'OSGL | Games | Supported Platform'
+    set_page_metadata(
+        base,
+        'OSGL | Games | Supported Platform',
+        'Browse open source games and frameworks by supported platform, including Windows, Linux, macOS, mobile, and web.',
+    )
     base['active_nav'] = ['filter', 'platforms']
     index = divide_in_three_columns_and_transform(games_by_platform, entry_index)
     index['title'] = 'Open source games and frameworks'
     index['subtitle'] = [make_text('Index by supported platform.')]
-    index['categories'] = c.valid_platforms + ('Unspecified',)
+    index['categories'] = c.valid_platforms + (UNKNOWN_PLATFORM,)
     index['category-names'] = {k: make_text(k) for k in index['categories']}
     index['category-icons'] = {k: make_icon(platform_icon_map[k]) for k in index['categories']}
     index['number_entries_per_category_threshold'] = 15
@@ -1171,9 +1235,13 @@ def generate(entries, inspirations, developers):
     write(template_categorical_index.render(index=index), games_by_platform_path)
 
     # for kids games
-    base['title'] = 'OSGL | Games | For Kids'
-    base['active_nav'] = ['filter', 'kids']
     kids_games = [game for game in games if 'for kids' in game['Keyword']]
+    set_page_metadata(
+        base,
+        'OSGL | Games | For Kids',
+        f'Browse {len(kids_games)} open source games tagged as suitable for children.',
+    )
+    base['active_nav'] = ['filter', 'kids']
     listing = {
         'title': 'Games for Kids',
         'subtitle': f'{len(kids_games)} games suitable for kids.',
@@ -1182,9 +1250,13 @@ def generate(entries, inspirations, developers):
     write(template_listing_entries.render(listing=listing), games_kids_path)
 
     # playable in browser
-    base['title'] = 'OSGL | Games | Web play'
-    base['active_nav'] = ['filter', 'web']
     web_games = [game for game in games if 'Play' in game and 'Web' in game['Platform']]
+    set_page_metadata(
+        base,
+        'OSGL | Games | Web Play',
+        f'Browse {len(web_games)} open source games that can be played directly in a web browser.',
+    )
+    base['active_nav'] = ['filter', 'web']
     listing = {
         'title': 'Playable browser games',
         'subtitle': f'{len(web_games)} games that can be played in your browser right away.',
@@ -1193,9 +1265,13 @@ def generate(entries, inspirations, developers):
     write(template_listing_entries.render(listing=listing), games_web_path)
 
     # completely free games
-    base['title'] = 'OSGL | Games | Free code and artwork'
-    base['active_nav'] = ['filter', 'libre']
     libre_games = [game for game in games if 'content open' in game['Keyword']]
+    set_page_metadata(
+        base,
+        'OSGL | Games | Free code and artwork',
+        f'Browse {len(libre_games)} open source games with open or libre code and artwork.',
+    )
+    base['active_nav'] = ['filter', 'libre']
     listing = {
         'title': 'Completely free games',
         'subtitle': f'{len(libre_games)} games with open/libre code and artwork.',
@@ -1204,7 +1280,11 @@ def generate(entries, inspirations, developers):
     write(template_listing_entries.render(listing=listing), games_libre_path)
 
     # top github/gitlab games
-    base['title'] = f'OSGL | Games | Top stars {N_top}'
+    set_page_metadata(
+        base,
+        f'OSGL | Games | Top stars {N_top}',
+        f'Browse the {N_top} highest-starred immediately playable open source games in the Open Source Games List.',
+    )
     base['active_nav'] = ['filter', f'top']
     # there are no other games coming afterward, can actually number them
     for index, game in enumerate(top_games):
@@ -1217,7 +1297,11 @@ def generate(entries, inspirations, developers):
     write(template_listing_entries.render(listing=listing), games_top_path)
 
     # inspirations folder
-    base['title'] = 'OSGL | Inspirational games'
+    set_page_metadata(
+        base,
+        'OSGL | Inspirational games',
+        f'Browse {len(inspirations)} games that inspired projects in the Open Source Games List.',
+    )
     base['url_to'] = partial(url_to, inspirations_path)
     base['active_nav'] = 'inspirations'
 
@@ -1226,6 +1310,12 @@ def generate(entries, inspirations, developers):
     # inspirations single pages
     template_listing_inspirations = environment.get_template('listing_inspirations.jinja')
     for letter in extended_alphabet:
+        letter_description = 'non-alphabetical titles' if letter == extra else f'names beginning with {letter}'
+        set_page_metadata(
+            base,
+            f'OSGL | Inspirations | {letter}',
+            f'Browse {len(inspirations_by_alphabet[letter])} inspirational games with {letter_description}.',
+        )
         listing = {
             'title': f'Inspirations ({letter.capitalize()})',
             'items': inspirations_by_alphabet[letter]
@@ -1233,6 +1323,11 @@ def generate(entries, inspirations, developers):
         write(template_listing_inspirations.render(listing=listing), inspirations_path + [f'{letter.capitalize()}.html'])
 
     # inspirations index
+    set_page_metadata(
+        base,
+        'OSGL | Inspirational games',
+        f'Browse an alphabetical index of {len(inspirations)} games that inspired open source projects.',
+    )
     extended_alphabet_names['_'] = 'Most used'
     top_inspirations = [inspiration for inspiration in inspirations if len(inspiration['Inspired entries']) >= TOP_INSPIRATION_THRESHOLD]
     inspirations_by_alphabet['_'] = top_inspirations
@@ -1247,13 +1342,23 @@ def generate(entries, inspirations, developers):
     write(template_categorical_index.render(index=index), inspirations_index_path)
 
     # developers folder
-    base['title'] = 'OSGL | Games | Developers'
+    set_page_metadata(
+        base,
+        'OSGL | Games | Developers',
+        f'Browse {len(developers)} developers and organizations behind open source games and frameworks.',
+    )
     base['url_to'] = partial(url_to, developers_path)
     base['active_nav'] = 'developers'
 
     # developers single pages
     template_listing_developers = environment.get_template('listing_developers.jinja')
     for letter in extended_alphabet:
+        letter_description = 'non-alphabetical names' if letter == extra else f'names beginning with {letter}'
+        set_page_metadata(
+            base,
+            f'OSGL | Developers | {letter}',
+            f'Browse {len(developers_by_alphabet[letter])} open source game developers with {letter_description}.',
+        )
         listing = {
             'title': f'Open source game developers ({letter.capitalize()})',
             'items': developers_by_alphabet[letter]
@@ -1261,6 +1366,11 @@ def generate(entries, inspirations, developers):
         write(template_listing_developers.render(listing=listing), developers_path + [f'{letter.capitalize()}.html'])
 
     # developers index
+    set_page_metadata(
+        base,
+        'OSGL | Games | Developers',
+        f'Browse an alphabetical index of {len(developers)} open source game developers and organizations.',
+    )
     extended_alphabet_names['_'] = 'Most active'
     top_developers = [developer for developer in developers if len(developer['Games']) >= TOP_DEVELOPER_THRESHOLD]
     developers_by_alphabet['_'] = top_developers
@@ -1275,7 +1385,11 @@ def generate(entries, inspirations, developers):
     write(template_categorical_index.render(index=index), developers_index_path)
 
     # dynamic table (is in top level folder)
-    base['title'] = 'OSGL | Entries | Table'
+    set_page_metadata(
+        base,
+        'OSGL | Entries | Table',
+        'Search and sort the complete Open Source Games List by title, state, tags, platform, programming language, and license.',
+    )
     base['url_to'] = partial(url_to, [])
     base['css'].append('simple-datatables.css')
     base['js'].append('simple-datatables.js')
@@ -1292,7 +1406,7 @@ if __name__ == "__main__":
 
     # create dictionary of file hashes
     print('estimate file hashes')
-    for dirpath, dirnames, filenames in c.web_path.walk():  # TODO in Python 3.12 Path.walk() exists
+    for dirpath, dirnames, filenames in c.web_path.walk():
         for filename in filenames:
             if any(filename.endswith(ext) for ext in ('.html', '.svg')):
                 filename = dirpath / filename

@@ -35,10 +35,22 @@ Entry files → Parse → Validate → Enrich (APIs, repositories) → Generate 
 
 **Before modifying Python code**, read **[`code/README.md`](code/README.md)** — it contains:
 - Complete architecture explanation
-- Code style conventions (docstrings, naming, organization)
+- Mandatory code style conventions (including docstring layout, naming, and organization)
 - Setup and dependency information
 - How to run maintenance scripts
 - Common tasks and troubleshooting
+
+## Python execution
+
+Do not invoke `python.exe`, `python`, or the Python launcher automatically.
+If running Python is needed for verification or maintenance, explain why and ask for permission first.
+
+## Python documentation style
+
+Before editing Python code, read and follow the **Docstring Style** section in
+`code/README.md`. In particular, function and class docstrings must use a
+multi-line layout: place the opening triple quotes on their own line and begin
+the documentation text on the following line. Do not use one-line docstrings.
 
 ## Key Principles
 

@@ -7,6 +7,6 @@
 - Code repository: https://git.minetest.land/VoxeLibre/VoxeLibre.git
 - Code language: Lua
 - Code license: GPL-3.0
-- Code dependency: Luanti engine
+- Code dependency: Luanti
 
 ## Building

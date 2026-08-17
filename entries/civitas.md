@@ -7,6 +7,6 @@
 - Code repository: https://git.code.sf.net/p/civitas/code, https://svn.code.sf.net/p/civitas/svn (svn)
 - Code language: Java, Blender Script
 - Code license: GPL-2.0
-- Code dependency: Blender game engine
+- Code dependency: Blender Game Engine
 
 ## Building

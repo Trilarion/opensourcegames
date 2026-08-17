@@ -9,7 +9,7 @@
 - Code repository: https://github.com/larpon/DeadAscend.git
 - Code language: C++, JavaScript
 - Code license: MIT
-- Code dependency: Qt5
+- Code dependency: Qt
 - Developer: Lars Pontoppidan
 
 ## Building

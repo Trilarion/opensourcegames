@@ -11,6 +11,8 @@
 - Code dependency: OpenGL, SDL
 - Developer: Simon Laszlo
 
+Four-dimensional Tetris with falling hypercubes.
+
 ## Building
 
 - Build system: Autoconf

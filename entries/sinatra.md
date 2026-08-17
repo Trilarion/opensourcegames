@@ -6,7 +6,7 @@
 - Code repository: https://codeberg.org/osgames/sinatra.git
 - Code language: C
 - Code license: GPL-3.0
-- Code dependency: FreeType, GStreamer, libavformat, portaudio, SDL
+- Code dependency: SDL
 - Assets license: ? (GPL-3.0)
 - Developer: Fredrik Portstrom
 

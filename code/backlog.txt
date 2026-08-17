@@ -12,6 +12,8 @@ http://www.silversecond.com/WolfRPGEditor/
 http://www.spheredev.org/
 http://www.usgo.org/go-software
 http://www.vbgore.com/Main_Page
+https://github.com/malespiaut/py2play (py2play)
+http://home.gna.org/oomadness/fr/slune/index.html (py2play)
 http://www.zsnes.com/ (emulator/platform)
 https://001gamecreator.com/
 https://agateau.com/games/

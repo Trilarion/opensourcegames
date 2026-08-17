@@ -9,7 +9,6 @@
 - Code repository: https://github.com/ceva24/gift-grabber.git (@created 2015, @stars 7, @forks 2)
 - Code language: JavaScript
 - Code license: Apache-2.0
-- Code dependency: BackBone.js
 - Developer: Chris Evans
 
 ## Building

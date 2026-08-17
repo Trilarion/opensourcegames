@@ -9,4 +9,6 @@
 - Code license: MIT
 - Developer: Adam Jordanek, Anton Mosich, bergi9, Casey Parker, donpepe0, Flugschwein, Gregario Mansa, Hilarious001, IntinteDAO, Jan-Otto Kröpke, Jbaukens, Jeremy Baukens, louis88, Maciej Kozłowski, Martin, Martin Wagner, mys, Nkeneabasi Friday Aniekan, Ozan Kurt, Pope19, Ravikin, Roberto, sarmaticus, tatarysh, z3ll1337
 
+Space empire management focused on developing planets, researching technologies, building fleets, and conquering other players.
+
 ## Building

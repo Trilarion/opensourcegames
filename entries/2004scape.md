@@ -8,6 +8,7 @@
 - Code language: JavaScript, TypeScript
 - Code license: MIT
 
+RuneScape 2 recreation
 Lost City's from-scratch game server
 
 ## Building

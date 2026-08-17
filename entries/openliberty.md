@@ -8,11 +8,11 @@
 - Code repository: https://github.com/FOSS-Supremacy/OpenLiberty.git
 - Code language: GDScript
 - Code license: MIT
-- Code dependency: Godot Engine
+- Code dependency: Godot
 - Developer: Ribbon
 
-Reimplementation of Grand Theft Auto III on the Godot Engine.
+Reimplementation of Grand Theft Auto III on Godot.
 
 ## Building
 
-- Build system: Godot Engine
+- Build system: Godot

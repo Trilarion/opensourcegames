@@ -8,9 +8,9 @@
 - Code repository: https://codeberg.org/osgames/gilbert-and-the-doors.git (import of sources)
 - Code language: C
 - Code license: GPL-3.0
-- Code dependency: Electro L.I.B, SDL
+- Code dependency: SDL
 - Assets license: GPL-3.0
-- Developer: Daniel Champagne
+- Developer: Daniel Champagne (Electro L.I.B)
 
 ## Building
 

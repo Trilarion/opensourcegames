@@ -10,6 +10,8 @@
 - Code license: Public domain
 - Developer: John McIntosh
 
+Four-dimensional maze navigation with free movement, randomly generated mazes, and stereoscopic perspective projection.
+
 ## Building
 
 - Build system: None

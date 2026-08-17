@@ -10,4 +10,6 @@
 - Code license: GPL-3.0
 - Developer: aablatov, Anton Gladyshev, Hun, OrnitierPPA, Voldus
 
+Medieval town management.
+
 ## Building

@@ -8,7 +8,7 @@
 - Code repository: https://github.com/jval1972/Speed.git (@created 2020, @stars 20, @forks 4)
 - Code language: Pascal, C
 - Code license: GPL-2.0
-- Code dependency: OpenGL, Doom engine
+- Code dependency: OpenGL, DOOM
 - Developer: jval1972
 
 ## Building

@@ -252,18 +252,42 @@ valid_multiplayer_modes = (
 code_dependencies_aliases = {'Simple DirectMedia Layer': ('SDL', 'SDL2'), 'Simple and Fast Multimedia Library': ('SFML',),
                              'Boost (C++ Libraries)': ('Boost',), 'SGE Game Engine': ('SGE',), 'MegaGlest': ('MegaGlest Engine',)}
 
-# these are code dependencies that won't get their own entry, because they are not centered on gaming
-general_code_dependencies_without_entry = {'OpenGL': 'https://www.opengl.org/',
-                                   'GLUT': 'https://www.opengl.org/resources/libraries/',
-                                   'WebGL': 'https://www.khronos.org/webgl/',
-                                   'Unity': 'https://unity.com/solutions/game',
-                                   '.NET': 'https://dotnet.microsoft.com/', 'Vulkan': 'https://www.khronos.org/vulkan/',
-                                   'KDE Frameworks': 'https://kde.org/products/frameworks/',
-                                   'jQuery': 'https://jquery.com/',
-                                   'node.js': 'https://nodejs.org/en/',
-                                   'GNU Guile': 'https://www.gnu.org/software/guile/',
-                                   'tkinter': 'https://docs.python.org/3/library/tk.html',
-                                   'Boost': 'https://www.boost.org/'}
+# these are code dependencies that won't get their own entry, because they are not centered on gaming, but we still want to include them
+general_code_dependencies_without_entry = {
+    '.NET': 'https://dotnet.microsoft.com/',
+    'Adobe Air': 'https://airsdk.harman.com/',
+    'Adventure Game Studio': 'https://www.adventuregamestudio.co.uk/',
+    'BGFX': 'https://github.com/bkaradzic/bgfx',
+    'Blender Game Engine': 'https://en.wikipedia.org/wiki/Blender_Game_Engine',
+    'Boost': 'https://www.boost.org/',
+    'Bullet3': 'https://github.com/bulletphysics/bullet3',
+    'CEGUI': 'https://github.com/cegui/cegui',
+    'CherryPy': 'https://cherrypy.dev/',
+    'Cube 2': 'http://cubeengine.com/',
+    'DirectX': 'https://en.wikipedia.org/wiki/DirectX',
+    'EnTT': 'https://github.com/skypjack/entt',
+    'Eto.Forms': 'https://github.com/picoe/Eto',
+    'FlashPunk': 'https://github.com/useflashpunk/FlashPunk',
+    'FLTK': 'https://www.fltk.org/',
+    'FreeType': 'https://freetype.org/',
+    'GLEW': 'https://github.com/nigels-com/glew',
+    'GLUT': 'https://www.opengl.org/resources/libraries/',
+    'GNU Guile': 'https://www.gnu.org/software/guile/',
+    'jQuery': 'https://jquery.com/',
+    'KDE Frameworks': 'https://kde.org/products/frameworks/',
+    'node.js': 'https://nodejs.org/en/',
+    'OpenGL': 'https://www.opengl.org/',
+    'PyGTK': 'https://en.wikipedia.org/wiki/PyGTK',
+    'PyQt': 'https://www.riverbankcomputing.com/software/pyqt/',
+    'Qt': 'https://www.qt.io/development/qt-framework',
+    'tkinter': 'https://docs.python.org/3/library/tk.html',
+    'TurboGears': 'https://turbogears.org/',
+    'Twisted': 'https://twisted.org/',
+    'Unity': 'https://unity.com/solutions/game',
+    'Vulkan': 'https://www.khronos.org/vulkan/',
+    'WebGL': 'https://www.khronos.org/webgl/',
+    'wxWidgets': 'https://wxwidgets.org/'
+}
 
 # they are too abundant and quite general (and we should remove them if they occur)
 ignored_code_dependencies = ('OpenAL', 'libcurl', 'libfreetype', 'libogg', 'libpng', 'libvorbis', 'libxml', 'zlib')

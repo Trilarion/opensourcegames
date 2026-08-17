@@ -10,7 +10,7 @@
 - Code repository: https://github.com/raceintospace/raceintospace.git (@created 2011, @stars 161, @forks 45), http://raceintospace.cvs.sourceforge.net (cvs)
 - Code language: C, C++
 - Code license: GPL-2.0
-- Code dependency: libogg, libvorbis, SDL
+- Code dependency: SDL
 - Developer: Bart Buyens, Benjamin Weps, Bryant Moscon, Cartmancakes, Erik Anderson, Hendrik W., James, Joseph Wang, Krzysztof A. Kościuszkiewicz, Leon Baradat, Michael K McCarty, Michael McCarty, Nik_akd, Pace Willisson, Petr Menšík, Philip Giuliano, Ryan Carsten Schmidt, Ryan Schmidt, Ryan Yoakum, Todd Lang, Tushar Maheshwari, Will Glynn, William Sherwin
 
 Developers released the original game under GPL.

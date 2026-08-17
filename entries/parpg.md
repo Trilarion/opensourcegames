@@ -8,7 +8,7 @@
 - Code repository: https://codeberg.org/osgames/parpg-core.git, https://subversion.assembla.com/svn/parpg-assets/ (svn), http://parpg-trac.cvsdude.com/parpg/browser (svn)
 - Code language: Python
 - Code license: GPL-3.0
-- Code dependency: Blender game engine, FIFE, psyco, pygame, PyQt, PySide
+- Code dependency: Blender Game Engine, FIFE, pygame
 - Assets license: CC-BY-SA
 - Developer: Karsten Bock, mvBarracuda
 

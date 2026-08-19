@@ -9,7 +9,7 @@
 - Code repository: https://git.code.sf.net/p/jake2/git, http://jake2.cvs.sourceforge.net (cvs)
 - Code language: Java
 - Code license: GPL-2.0
-- Code dependency: JOGL, lwjgl
+- Code dependency: JOGL, LWJGL
 - Developer: Carsten Weisse, David Sanders, Holger Zickner, Kenneth B. Russell, Rene Stoeckel
 
 ## Building

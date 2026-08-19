@@ -5,7 +5,6 @@
 - Keyword: action, content open, multiplayer, online
 - Code language: C++
 - Code license: GPL-2.0
-- Code dependency: NeL
 - Assets license: ? (GPL)
 - Developer: Vianney Lecroart
 

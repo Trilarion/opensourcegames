@@ -8,7 +8,7 @@
 - Code repository: https://git.code.sf.net/p/childsplay/git, https://svn.code.sf.net/p/childsplay/code (svn), http://childsplay.cvs.sourceforge.net (cvs), https://git.code.sf.net/p/schoolsplay/code, https://svn.code.sf.net/p/schoolsplay/code-0/ (svn)
 - Code language: Python
 - Code license: GPL-3.0
-- Code dependency: NumPy, pygame
+- Code dependency: pygame
 - Developer: Alexander Kolotov, Chris_147, Christiaan de Wit, Matias A. Graña, Peter Govers, Rene Dohmen, Robert Wadley, Stas Zytkiewicz
 
 ## Building

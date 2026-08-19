@@ -7,7 +7,6 @@
 - Code repository: https://codeberg.org/osgames/stressfreezone.git (import of sources)
 - Code language: C++, Lua
 - Code license: GPL-3.0
-- Code dependency: Lugre
 - Developer: Mark Saward, Robert Noll, Sebastian Dorda
 
 Focused on cooperative (non-massive)-multiplayer and intuitive gameplay, that is fun to play in short bursts, e.g. on LAN parties.

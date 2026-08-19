@@ -8,7 +8,7 @@
 - Code repository: https://git.code.sf.net/p/celestron/code, https://codeberg.org/osgames/celestron.git (@add)
 - Code language: Python
 - Code license: GPL-3.0
-- Code dependency: NumPy, pygame
+- Code dependency: pygame
 - Developer: Daniel Foerster
 
 ## Building

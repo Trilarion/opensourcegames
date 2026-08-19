@@ -233,15 +233,8 @@ class EntriesMaintainer:
                     similar_keyword_entries.append(f'{name} ({unique_keywords_counts[index]}) - {other_name} ({unique_keywords_counts[other_index]})')
         self._add_inconsistency_section(report_lines, 'Inconsistency: Similar but unequal keywords', similar_keyword_entries)
 
-        # Code dependencies not included as entry
-        valid_dependencies = list(c.general_code_dependencies_without_entry.keys())
-        for entry in self.entries:
-            if any((x in ('framework', 'library', 'game engine') for x in entry['Keyword'])):
-                name = entry['Title']
-                if name in c.code_dependencies_aliases:
-                    valid_dependencies.extend(c.code_dependencies_aliases[name])
-                else:
-                    valid_dependencies.append(name)
+        # valid code dependencies are all entries and a list of external (not included) general libraries
+        valid_dependencies = [entry['Title'] for entry in self.entries] + list(c.general_code_dependencies_without_entry.keys())
 
         referenced_dependencies = {}
         for entry in self.entries:
@@ -252,7 +245,7 @@ class EntriesMaintainer:
                 else:
                     referenced_dependencies[dependency] = 1
 
-        referenced_dependencies = [(k, v) for k, v in referenced_dependencies.items() if k not in valid_dependencies]
+        referenced_dependencies = [(k, v) for k, v in referenced_dependencies.items() if k not in valid_dependencies and k not in c.ignored_code_dependencies]
         referenced_dependencies.sort(key=lambda x: x[1], reverse=True)
         dependency_entries = [f'{dep} ({count})' for dep, count in referenced_dependencies]
         self._add_inconsistency_section(report_lines, 'Inconsistency: Code dependencies not included as entry', dependency_entries)

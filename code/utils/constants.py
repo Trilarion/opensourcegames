@@ -155,7 +155,7 @@ language_urls = {
     'F#': 'https://en.wikipedia.org/wiki/F_Sharp_(programming_language)',
     'Fortran': 'https://en.wikipedia.org/wiki/Fortran',
     'GDScript': 'https://en.wikipedia.org/wiki/Godot_(game_engine)#Scripting',
-    'Game Maker Script': 'https://en.wikipedia.org/wiki/GameMaker#GameMaker_Language',
+    'GameMaker Language': 'https://en.wikipedia.org/wiki/GameMaker#GameMaker_Language',
     'Go': 'https://en.wikipedia.org/wiki/Go_(programming_language)',
     'Groovy': 'https://en.wikipedia.org/wiki/Apache_Groovy',
     'Haskell': 'https://en.wikipedia.org/wiki/Haskell_(programming_language)',
@@ -247,11 +247,6 @@ license_urls = {license: get_license_url(license) for license in known_licenses 
 valid_multiplayer_modes = (
     'competitive', 'co-op', 'hotseat', 'LAN', 'local', 'massive', 'matchmaking', 'online', 'split-screen')
 
-# TODO put the abbreviations directly in the name line (parenthesis maybe), that is more natural
-# this is a mapping of entry name to abbreviation and the abbreviations are used when specifying code dependencies
-code_dependencies_aliases = {'Simple DirectMedia Layer': ('SDL', 'SDL2'), 'Simple and Fast Multimedia Library': ('SFML',),
-                             'Boost (C++ Libraries)': ('Boost',), 'SGE Game Engine': ('SGE',), 'MegaGlest': ('MegaGlest Engine',)}
-
 # these are code dependencies that won't get their own entry, because they are not centered on gaming, but we still want to include them
 general_code_dependencies_without_entry = {
     '.NET': 'https://dotnet.microsoft.com/',
@@ -270,27 +265,49 @@ general_code_dependencies_without_entry = {
     'FlashPunk': 'https://github.com/useflashpunk/FlashPunk',
     'FLTK': 'https://www.fltk.org/',
     'FreeType': 'https://freetype.org/',
+    'GameJs': 'https://gamejs.org/',
+    'GameMaker': 'https://gamemaker.io/en',
     'GLEW': 'https://github.com/nigels-com/glew',
+    'GLFW': 'https://www.glfw.org/',
     'GLUT': 'https://www.opengl.org/resources/libraries/',
     'GNU Guile': 'https://www.gnu.org/software/guile/',
+    'GStreamer': 'https://gstreamer.freedesktop.org/',
+    'GTK': 'https://www.gtk.org/',
+    'ImGUI': 'https://imgui.org/',
+    'JBox2D': 'https://jbox2d.org/',
+    'JOGL': 'https://jogamp.org/',
     'jQuery': 'https://jquery.com/',
     'KDE Frameworks': 'https://kde.org/products/frameworks/',
-    'node.js': 'https://nodejs.org/en/',
+    'Laravel': 'https://laravel.com/',
+    'libGDX': 'https://libgdx.com/',
+    'LowRes NX': 'https://lowresnx.inutilis.com/',
+    'LWJGL': 'https://www.lwjgl.org/',
+    'Node.js': 'https://nodejs.org/en/',
+    'OpenAL': 'https://www.openal.org/',
     'OpenGL': 'https://www.opengl.org/',
+    'pyglet': 'https://pyglet.org/',
     'PyGTK': 'https://en.wikipedia.org/wiki/PyGTK',
     'PyQt': 'https://www.riverbankcomputing.com/software/pyqt/',
     'Qt': 'https://www.qt.io/development/qt-framework',
+    'Rhino': 'https://rhino.github.io/',
+    'SDL': 'https://www.libsdl.org/index.php',
+    'SDL2': 'https://wiki.libsdl.org/SDL2/FrontPage',
+    'Soya3D': 'https://www.lesfleursdunormal.fr/static/informatique/soya3d/index_en.html',
+    'Three.js': 'https://threejs.org/',
     'tkinter': 'https://docs.python.org/3/library/tk.html',
     'TurboGears': 'https://turbogears.org/',
     'Twisted': 'https://twisted.org/',
     'Unity': 'https://unity.com/solutions/game',
     'Vulkan': 'https://www.khronos.org/vulkan/',
     'WebGL': 'https://www.khronos.org/webgl/',
-    'wxWidgets': 'https://wxwidgets.org/'
+    'wxPython': 'https://www.wxpython.org/',
+    'wxWidgets': 'https://wxwidgets.org/',
+    'XNA': 'https://en.wikipedia.org/wiki/Microsoft_XNA',
+    'Zope': 'https://zope.dev/'
 }
 
 # they are too abundant and quite general (and we should remove them if they occur)
-ignored_code_dependencies = ('OpenAL', 'libcurl', 'libfreetype', 'libogg', 'libpng', 'libvorbis', 'libxml', 'zlib')
+ignored_code_dependencies = ('libcurl', 'libfreetype', 'libogg', 'libpng', 'libvorbis', 'libxml', 'NumPy', 'Pillow', 'tween.js', 'zlib')
 
 # build system urls
 build_system_urls = {

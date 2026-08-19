@@ -7,6 +7,5 @@
 - Code repository: https://bitbucket.org/namida42/neolemmixplayer.git
 - Code language: Pascal
 - Code license: ?
-- Code dependency: Graphics32
 
 ## Building

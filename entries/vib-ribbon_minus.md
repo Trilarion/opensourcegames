@@ -9,6 +9,6 @@
 - Code repository: https://github.com/PlayNowKnux/VibRibbonMinusRelease.git
 - Code language: Python
 - Code license: GPL-3.0
-- Code dependency: PyGame
+- Code dependency: pygame
 
 ## Building

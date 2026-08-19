@@ -1,6 +1,8 @@
+
 http://bote.codeplex.com/
 http://crazycarscpc.free.fr/
 http://freshmeat.sourceforge.net/tags/turn-based-strategy (good for older ones)
+http://home.gna.org/oomadness/fr/slune/index.html (py2play)
 http://majestyofomega.codeplex.com/
 http://royale.zerezo.com/zerace/
 http://www.interq.or.jp/libra/oohara/
@@ -12,8 +14,6 @@ http://www.silversecond.com/WolfRPGEditor/
 http://www.spheredev.org/
 http://www.usgo.org/go-software
 http://www.vbgore.com/Main_Page
-https://github.com/malespiaut/py2play (py2play)
-http://home.gna.org/oomadness/fr/slune/index.html (py2play)
 http://www.zsnes.com/ (emulator/platform)
 https://001gamecreator.com/
 https://agateau.com/games/
@@ -29,8 +29,6 @@ https://braingames.jorito.net/nightlies/
 https://carrot.soulweaver.fi/#links
 https://cocainediesel.fun/
 https://code.launchpad.net/~flosoft/s25rttr/trunk
-https://codeberg.org/mineclonia/mineclonia
-https://codeberg.org/shirakumo/kandria
 https://codeberg.org/toddcarnes/sdlhana
 https://cxong.github.io/games.html
 https://cyber.dabamos.de/game-dev/
@@ -141,6 +139,7 @@ https://github.com/Isti01/glCraft
 https://github.com/jakesgordon/javascript-racer
 https://github.com/JamesRandall/SimpleVoxelEngine
 https://github.com/jarikomppa/soloud # audio engine (too specialized, this is more for game development)
+https://github.com/jasjisdo/gtge
 https://github.com/jhasse/jngl # game library ? (complete engine?)
 https://github.com/JimmieKJ/unrealTournament
 https://github.com/jmoenig/Snap
@@ -166,6 +165,7 @@ https://github.com/LostCityRS/Server (2004scape)
 https://github.com/loudsmilestudios/TetraForce
 https://github.com/luanti-org/luanti (the further development of minetest)
 https://github.com/magwo/elevatorsaga
+https://github.com/malespiaut/py2play (py2play)
 https://github.com/man-in-black382/PathFinder
 https://github.com/marukrap/RoguelikeDevResources
 https://github.com/methusalah/OpenRTS
@@ -175,7 +175,6 @@ https://github.com/michaelday008/AnyRPGCore
 https://github.com/michelpereira/awesome-games-of-coding
 https://github.com/michelpereira/awesome-open-source-games
 https://github.com/minetest/irrlicht
-https://github.com/MinicraftPlus/minicraft-plus-revived
 https://github.com/moddio/taro
 https://github.com/MohitSethi99/ArcGameEngine
 https://github.com/mosra/magnum
@@ -185,7 +184,6 @@ https://github.com/nCine/nCine
 https://github.com/ondras/rot.js
 https://github.com/open-telemetry/opentelemetry-cpp
 https://github.com/openbsd/ports/tree/master/games
-https://github.com/openfrontio/OpenFrontIO
 https://github.com/OpenGMK/OpenGMK
 https://github.com/OS2World
 https://github.com/OSSGames
@@ -245,7 +243,6 @@ https://github.com/TheCherno/Sparky
 https://github.com/thinkpixellab/agent8ball
 https://github.com/timoinutilis/lowres-nx
 https://github.com/tmewett/BrogueCE
-https://github.com/tobspr/shapez.io
 https://github.com/tomlooman/SimpleFPSTemplate
 https://github.com/TomMalbran/games
 https://github.com/tommyettinger/gdx-liftoff
@@ -253,6 +250,7 @@ https://github.com/tsherif/space-shooter.c
 https://github.com/TTimo/doom3.gpl
 https://github.com/untoldengine/UntoldEngine
 https://github.com/videogamepreservation (all of them)
+https://github.com/videogamepreservation/heretic
 https://github.com/volcoma/EtherealEngine
 https://github.com/Walkator/kailius
 https://github.com/Whimfoome/godot-FirstPersonStarter
@@ -317,6 +315,7 @@ https://shinmera.com/#games
 https://shinmera.itch.io/
 https://sites.google.com/site/santiagoontanonvillar/software
 https://sourceforge.net/blog/games-for-the-holidays/
+https://sourceforge.net/projects/heretic/
 https://stendhalgame.org/wiki/Marauroa
 https://verge-rpg.com/
 https://voltisoft.com/miragelegacy

@@ -6,7 +6,7 @@
 - Code repository: https://github.com/erodozer/UlDunAd.git (@archived, @created 2010, @stars 12, @forks 1)
 - Code language: Python
 - Code license: GPL-3.0
-- Code dependency: NumPy, OpenGL, Pillow, pygame, wxPython
+- Code dependency: OpenGL, pygame, wxPython
 - Developer: Nicholas Hydock, Nicholas Hydock / ero, stump
 
 Ultimate Dungeon Adventure (UlDunAd)

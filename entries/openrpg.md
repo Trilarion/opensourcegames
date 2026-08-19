@@ -7,7 +7,7 @@
 - Code repository: https://codeberg.org/osgames/openrpg.git (conversion)
 - Code language: Python
 - Code license: GPL-2.0
-- Code dependency: CherryPy, Pillow, wxPython
+- Code dependency: CherryPy, wxPython
 - Developer: Ben Collins-Sussman, Chris Blocher, chris davis, Christopher Rouse, David Byron, Digital Xero, Dj Gilcrease, Mark Tarrabain, Mojo Xanadu, Robert T Childers, Rome Reginelli, Stefanos Armstrong, Ted Berg, Thomas Baleno, Todd Faris, Travis Casey
 
 Allows people to play Role Playing Games and some miniature based war games in real-time over the Internet.

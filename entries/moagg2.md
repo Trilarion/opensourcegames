@@ -9,7 +9,7 @@
 - Code repository: https://svn.code.sf.net/p/moagg/code (svn), http://moagg.cvs.sourceforge.net (cvs)
 - Code language: Java
 - Code license: GPL-2.0
-- Code dependency: Golden-T Game Engine, Mozilla Rhino
+- Code dependency: Golden-T Game Engine, Rhino
 - Assets license: ? (GPL)
 - Developer: Andreas Granig, Bernhard Trummer, Kevin Krammer
 

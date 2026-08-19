@@ -11,7 +11,7 @@
 - Assets license: 3-clause BSD
 - Developer: Alazefhir, Blasphemer, G. Wessner, Jute Gyte
 
-Initial goal is to serve as a Free data package for engines based on the GPLed Heretic source.
-The IWAD data is released under a 3-clause BSD license. Its theme is dark fantasy with inspirations from metal music and horror.
+Free data package for engines based on the GPLed Heretic source.
+The IWAD data is released under a 3-clause BSD license. Its theme is dark fantasy.
 
 ## Building

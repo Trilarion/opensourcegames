@@ -9,7 +9,7 @@
 - Code repository: https://gitlab.com/EugeneLoza/Project-Helena.git (@created 2018, @stars 1, @forks 0)
 - Code language: Pascal
 - Code license: GPL-3.0
-- Code dependency: Castle Game Engine, GTK2
+- Code dependency: Castle Game Engine, GTK
 - Assets license: CC-BY-4.0
 - Developer: Eugene Loza
 

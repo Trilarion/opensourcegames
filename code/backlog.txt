@@ -101,7 +101,6 @@ https://github.com/eukara/freecs
 https://github.com/ExplosionEngine/Explosion
 https://github.com/fogleman/Minecraft
 https://github.com/fogleman/nes
-https://github.com/FunkinCrew/Funkin
 https://github.com/Gamua/Starling-Framework
 https://github.com/gd4Ark/2048
 https://github.com/gdquest-demos/godot-2d-space-game
@@ -146,7 +145,6 @@ https://github.com/jmoenig/Snap
 https://github.com/JoeyDeVries/Cell
 https://github.com/juliangarnier/3D-Hartwig-chess-set
 https://github.com/justinmeister/Mario-Level-1
-https://github.com/Kaetram/Kaetram-Open
 https://github.com/Kavex/GameDev-Resources
 https://github.com/kenamick/savagewheels
 https://github.com/kenrick95/c4
@@ -156,20 +154,17 @@ https://github.com/krait-games/hyperion-engine
 https://github.com/kripken/BananaBread
 https://github.com/kubowania/mario
 https://github.com/kubowania/memory-game
-https://github.com/landgreen/n-gon
 https://github.com/libsm64/libsm64
 https://github.com/lioxryt/lioxryt.github.io
 https://github.com/LittleWhite-tb/PaciWar
 https://github.com/lospec/pixel-editor
 https://github.com/LostCityRS/Server (2004scape)
-https://github.com/loudsmilestudios/TetraForce
 https://github.com/luanti-org/luanti (the further development of minetest)
 https://github.com/magwo/elevatorsaga
 https://github.com/malespiaut/py2play (py2play)
 https://github.com/man-in-black382/PathFinder
 https://github.com/marukrap/RoguelikeDevResources
 https://github.com/methusalah/OpenRTS
-https://github.com/mgerdes/Open-Golf
 https://github.com/mgerhardy/engine
 https://github.com/michaelday008/AnyRPGCore
 https://github.com/michelpereira/awesome-games-of-coding
@@ -189,10 +184,8 @@ https://github.com/OS2World
 https://github.com/OSSGames
 https://github.com/osslugaru/lugaru
 https://github.com/OverShifted/OverEngine
-https://github.com/oxygine/oxygine-framework
 https://github.com/Oyun-Teknolojileri/ToolKit
 https://github.com/pacampbell/Game
-https://github.com/particle-clicker/particle-clicker
 https://github.com/patorjk/JavaScript-Snake
 https://github.com/phisko/kengine
 https://github.com/phoboslab/Impact
@@ -206,7 +199,6 @@ https://github.com/QodotPlugin/qodot-plugin
 https://github.com/R74nCom/sandboxels
 https://github.com/radek-sprta/awesome-game-remakes
 https://github.com/raizam/gamedev_libraries
-https://github.com/rapiz1/DungeonRush
 https://github.com/Razakhel/RaZ
 https://github.com/Reinisch/Darkest-Dungeon-Unity
 https://github.com/Relintai/broken_seals
@@ -293,11 +285,9 @@ https://notwood.net/sgiflight/
 https://odr.chalmers.se/handle/20.500.12380/219006
 https://openciv3.org/
 https://osdn.net/softwaremap/trove_list.php?form_cat=80
-https://pipoypipagames.itch.io/cows-revenge (https://github.com/Dariasteam/Cows-Revenge)
 https://pixeldoctrine.com/index.html (more than just slime volleyball)
 https://planetgenesis.sourceforge.net/
 https://play.google.com/store/apps/dev?id=8387589286898375037 (where is the source, not open source otherwise)
-https://playcanvas.com/
 https://ports.freebsd.org/cgi/ports.cgi
 https://pyweek.org/4/entries/ (Ascent of Justice)
 https://rainey.tech/arcade

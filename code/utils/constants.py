@@ -174,6 +174,7 @@ language_urls = {
     'PHP': 'https://en.wikipedia.org/wiki/PHP',
     'Pascal': 'https://en.wikipedia.org/wiki/Pascal_(programming_language)',
     'Perl': 'https://en.wikipedia.org/wiki/Perl',
+    'PureScript': 'https://www.purescript.org/',
     'Python': 'https://en.wikipedia.org/wiki/Python_(programming_language)',
     'QuakeC': 'https://en.wikipedia.org/wiki/QuakeC',
     "Ren'Py": 'https://en.wikipedia.org/wiki/Ren%27Py',

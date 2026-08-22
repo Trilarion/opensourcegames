@@ -1,3 +1,4 @@
+# Individual project and game leads
 
 http://bote.codeplex.com/
 http://crazycarscpc.free.fr/
@@ -17,6 +18,11 @@ http://www.vbgore.com/Main_Page
 http://www.zsnes.com/ (emulator/platform)
 https://001gamecreator.com/
 https://agateau.com/games/
+
+# GitHub repositories and GitHub-hosted projects
+
+https://github.com/replit/kaboom
+https://web.archive.org/web/20110714111133/http://www.mojang.com/notch/mario/
 https://app.assembla.com/spaces/Project_Valkyrie2/wiki
 https://archive.codeplex.com/?p=turnota
 https://archive.codeplex.com/?p=voxeliq
@@ -66,7 +72,6 @@ https://github.com/bobeff/open-source-engines
 https://github.com/bobeff/open-source-games
 https://github.com/boldtempleGaming/Engine
 https://github.com/bytecauldron/awesome-gamemaker
-https://github.com/C7-Game/Prototype
 https://github.com/cadaver/turso3d
 https://github.com/Caerind/AwesomeCppGameDev
 https://github.com/carlbirch/BirchEngine
@@ -75,15 +80,11 @@ https://github.com/cfoust/sour
 https://github.com/channingbreeze/games
 https://github.com/CharlesPikachu/Games
 https://github.com/choubari/3D-Tanks-Game-Unity
-https://github.com/chvin/react-tetris
 https://github.com/ClarkThyLord/Voxel-Core
 https://github.com/clibequilibrium/EquilibriumEngine
 https://github.com/Clownacy/clownmdemu
 https://github.com/codenamecpp/carnage3d#other-gta-12-re-implementations
 https://github.com/collections/game-engines
-https://github.com/Crazy-Marvin/EllaTheGame
-https://github.com/cykod/AlienInvasion
-https://github.com/DaoCloud/dao-2048
 https://github.com/DavidSM64/Diddy-Kong-Racing
 https://github.com/deathkiller/jazz2-native
 https://github.com/deepnight/ldtk
@@ -103,12 +104,10 @@ https://github.com/fogleman/Minecraft
 https://github.com/fogleman/nes
 https://github.com/Gamua/Starling-Framework
 https://github.com/gd4Ark/2048
-https://github.com/gdquest-demos/godot-2d-space-game
 https://github.com/GDQuest/godot-steering-ai-framework
 https://github.com/GDQuest/learn-gdscript
 https://github.com/GlistEngine/GlistEngine
 https://github.com/godot-extended-libraries/godot-realistic-water
-https://github.com/godotengine/tps-demo
 https://github.com/googleforgames/open-match
 https://github.com/grapfx
 https://github.com/grimfang4/sdl-gpu
@@ -121,13 +120,10 @@ https://github.com/HackerN64/HackerSM64
 https://github.com/hiitiger/goverlay  # DirectX hook and game overlay solution for any desktop GUI
 https://github.com/Hipnosis183/OpenSourceGames
 https://github.com/hotstreams/limitless-engine
-https://github.com/hugoam/two
 https://github.com/hugoam/two  # c++ toolkit for rapid development of live graphical apps and games
 https://github.com/Hyperparticle/nodulus
-https://github.com/i-bardinov/bomberman-sdl2
 https://github.com/id-Software/Quake
 https://github.com/id-Software/wolf3d
-https://github.com/igravitystudios/matchimals.fun
 https://github.com/Illation/ETEngine
 https://github.com/inanevin/LinaEngine
 https://github.com/iniside/ActionRPGGame
@@ -146,21 +142,17 @@ https://github.com/JoeyDeVries/Cell
 https://github.com/juliangarnier/3D-Hartwig-chess-set
 https://github.com/justinmeister/Mario-Level-1
 https://github.com/Kavex/GameDev-Resources
-https://github.com/kenamick/savagewheels
 https://github.com/kenrick95/c4
 https://github.com/khanhduy1407/BlueBoy2D
 https://github.com/kikito/anim8
 https://github.com/krait-games/hyperion-engine
 https://github.com/kripken/BananaBread
-https://github.com/kubowania/mario
 https://github.com/kubowania/memory-game
 https://github.com/libsm64/libsm64
 https://github.com/lioxryt/lioxryt.github.io
-https://github.com/LittleWhite-tb/PaciWar
 https://github.com/lospec/pixel-editor
 https://github.com/LostCityRS/Server (2004scape)
 https://github.com/luanti-org/luanti (the further development of minetest)
-https://github.com/magwo/elevatorsaga
 https://github.com/malespiaut/py2play (py2play)
 https://github.com/man-in-black382/PathFinder
 https://github.com/marukrap/RoguelikeDevResources
@@ -186,7 +178,6 @@ https://github.com/osslugaru/lugaru
 https://github.com/OverShifted/OverEngine
 https://github.com/Oyun-Teknolojileri/ToolKit
 https://github.com/pacampbell/Game
-https://github.com/patorjk/JavaScript-Snake
 https://github.com/phisko/kengine
 https://github.com/phoboslab/Impact
 https://github.com/Pikachuxxxx/Razix
@@ -204,7 +195,6 @@ https://github.com/Reinisch/Darkest-Dungeon-Unity
 https://github.com/Relintai/broken_seals
 https://github.com/remance/Masendor
 https://github.com/RetroReversing/retroReversing
-https://github.com/robertkleffner/mariohtml5
 https://github.com/samdauwe/BabylonCpp
 https://github.com/SamVanheer/halflife-updated
 https://github.com/SasLuca/rayfork
@@ -213,26 +203,21 @@ https://github.com/SerpentAI/SerpentAI
 https://github.com/sezero/quakespasm
 https://github.com/sgift/driftingsouls
 https://github.com/shakiba/planck.js
-https://github.com/sharkdp/cube-composer
 https://github.com/ShenMian/Clementine
 https://github.com/shibbo/Petari
-https://github.com/skidding/flatris
 https://github.com/solenum/exengine
 https://github.com/space-wizards/RobustToolbox
-https://github.com/Squalr/Squally
 https://github.com/Starciad?tab=repositories
 https://github.com/Stephane-D/SGDK
 https://github.com/stevinz/awesome-game-engine-dev
 https://github.com/StrongPC123/Far-Cry-1-Source-Full
 https://github.com/supernovaengine/supernova
 https://github.com/swr06/GLGame
-https://github.com/ta-david-yu/2D-Platformer-Hunter
 https://github.com/tainicom/Aether.Physics2D
 https://github.com/tassaron/muffin-game
 https://github.com/tgfrerer/island
 https://github.com/TheBoneJarmer/TiledCS
 https://github.com/TheCherno/Sparky
-https://github.com/thinkpixellab/agent8ball
 https://github.com/timoinutilis/lowres-nx
 https://github.com/tmewett/BrogueCE
 https://github.com/tomlooman/SimpleFPSTemplate
@@ -254,19 +239,24 @@ https://github.com/yrgo/awesome-educational-games
 https://github.com/zeldaret/tmc
 https://github.com/Zone-organization/Nuclear-Engine
 https://github.com/Zylann/godot_heightmap_plugin
+
+# GitLab projects
+
 https://gitlab.com/evol (planned merge of https://evolonline.org/ into THe Mana World rEvolt project)
 https://gitlab.com/FreeDOS/games
 https://gitlab.com/luckeyproductions/games
 https://gitlab.com/themanaworld/evolved/ (port of Evol Online to the new engine of The Mana World)
 https://gitlab.com/users/crueludeval/projects
 https://gitlab.com/video-game-preservation
+
+# Discovery sites, references, and articles
+
 https://globalgamejam.org/
 https://hcsoftware.sourceforge.net/jason-rohrer/ (all)
 https://holarse.de/tags/200
 https://if50.substack.com/p/business-wargames
 https://illusion.64history.net/2022/wipeout-psx-windows-source
-https://invent.kde.org/games (all of them)
-https://invent.kde.org/games (do we have them all?)
+https://invent.kde.org/games (all of them; check that we have them all)
 https://itch.io/jam/game-off-2023
 https://itch.io/jam/gamedevjs-2023
 https://lgames.sourceforge.io/LBreakoutHD/ (and other lgames)
@@ -346,5 +336,147 @@ https://www.tapatalk.com/groups/imperilist/
 https://www.wurfelengine.net/
 https://zdoom.org/downloads (gzdoom, lzdoom)
 https://zope.readthedocs.io/en/latest/
+# Specific game candidates
+
 Pinball Disk Room
 Seahorse Adventures
+
+# Additional individual leads requiring verification
+
+https://sourceforge.net/p/uhexen2/code/HEAD/tree/ Hexen II: Hammer of Thyrion
+http://hgm.nubati.net/ (winboard)
+http://insideastarfilledsky.net/ (source may be somewhere else)
+https://empiredirectory.net/
+https://empiredirectory.net/index.php/downloads/viewdownload/6-server-software/13-empire-server
+http://www.divgo.net/ (in spanish difficult to detect sources)
+https://github.com/neuromancer/re-private-eye.git (moved to scummvm) and is part of scummvm
+http://www.hard-light.net/ (Free Space Open, Knossos, Mods, https://github.com/scp-fs2open/fs2open.github.com, https://wiki.hard-light.net/index.php/Getting_started)
+http://svn.assembla.com/svn/gdpl/ (not sure what links there and what kind of game it is, license?)
+https://web.archive.org/web/20161230103538/http://www.linuxdevcenter.com/pub/a/linux/2003/04/24/exult.html
+http://barbarian.1987.free.fr/indexEN.htm (many version, source license?)
+https://github.com/Warsow, https://www.warsow.net/ (what part of it is open source and what is not?)
+
+some games available on Fedora, Legend of Edgar, Shippy 1984 and Seahorse Adventures for example
+
+http://identicalsoftware.com/gamerzilla/
+
+roguelike
+
+http://web.archive.org/web/20071218214256/http://users.tkk.fi/~eye/roguelike/nethack.html
+http://www.dungeoncrawl.org/?d.l
+
+# Multi-project sources
+
+http://androidsoft.org/
+http://antongerdelan.net/blog/ (other projects besides TestDrive)
+http://e-adventure.e-ucm.es/login/index.php (games of eAdventure)
+http://lukaszjakowski.pl/ (games apart from uMario)
+http://media.pyweek.org/dl/7/ (all of them)
+http://stage.gamecreation.org/ (all of them)
+http://stellarengine.nongnu.org/games.html (all the games)
+http://wiki.gp2x.org/articles/g/a/m/Category:Games.html (all of them)
+http://wiki.scummvm.org/index.php/HOWTO-Fangames
+http://www.finkproject.org/index.php?phpLang=en (do they have games)
+http://www.ossblog.org/fun-play-open-source-turn-based-strategy-games/ (and others there)
+https://archive.org/details/Gna_code_hosting (all of them)
+https://awesomeopensource.com/categories/games
+https://awesomeopensource.com/projects/strategy-game (and others there)
+https://awesomeopensource.com/projects/strategy/turn-based (and others there)
+https://directory.fsf.org/wiki/Collection:GNOME_Games (all of them)
+https://dosgames.com/about.php (search for public domain games with sources)
+https://drodin.com/ (all games there)
+https://fede0d.github.io/games/ (all of them)
+https://faq.tuxfamily.org/Games/En
+https://flathub.org/apps/category/Game
+https://fydo.net/projects/island-rescue (and other projects there)
+https://gamejolt.com/ (search there)
+https://games.kde.org/ (all of them)
+https://games.kde.org/old/kde_arcade.php
+https://freegamer.blogspot.com (maybe there is something interesting)
+https://github.com/cymonsgames/CymonsGames (collection)
+https://github.com/grantjenks/free-python-games (check all)
+https://jotd.pagesperso-orange.fr/ (several games)
+https://kde.org/applications/games/ (all of them)
+https://opensourcesoftwaredirectory.com/Games/Strategy-games (and all others there)
+https://projects.tuxfamily.org/ (all of them)
+https://www.tuxfamily.org/ (if there are games)
+https://sites.google.com/site/syllablesoftware/games (List of games (with screenshots) that have been ported to Syllable OS)
+https://sourceforge.net/directory/games/games/os:windows/
+https://sourceforge.net/directory/games/turnbasedstrategy/ (and the general games directory, maybe even sourceforge metadata, see https://github.com/chpwssn/sourceforge-items, https://github.com/JesseWeinstein/sourceforge-items-cache)
+https://stabyourself.net/ (all projects there)
+https://stephensmith.itch.io/ (all of them)
+https://tangramgames.dk/games/ (all)
+https://wiki.debian.org/Games/Unsuitable
+https://www.allegro.cc/depot/strategy/ (and all other genres there)
+https://www.gamingonlinux.com/free-games/ (all of them that are open source)
+https://www.gog.com/forum/general/free_open_source_games (and suggestions therein)
+https://www.openhub.net/ (search for games)
+https://www.reddit.com/r/opensource/comments/cs6m3y/a_list_of_fossrelated_projects_people_to_follow/
+https://www.reddit.com/r/opensourcegames/
+https://www.renpy.org/ (also all projects linked there)
+https://gottcode.org/ (all)
+https://love2d.org/forums/viewforum.php?f=14 (check them if time)
+http://www.linux-games.com/ (all there)
+http://www.newbreedsoftware.com/ (all)
+http://www.computerchess.org.uk/ccrl/4040/rating_list_all.html
+https://appimage.github.io/categories/Game
+https://edu.kde.org/
+https://fedoraproject.org/wiki/SIGs/Games#List_of_games_we_will_NOT_package
+https://forum.freegamedev.net/viewtopic.php?f=20&t=11627
+https://forums.scummvm.org/viewtopic.php?t=13512&highlight=open+source
+https://itch.io/ (scrape, look for open source)
+https://lmemsm.dreamwidth.org/8013.html (List of some of my favorite Open Source games)
+https://notabug.org/Calinou/awesome-gamedev#games
+https://sr.ht/projects?search=%23game
+https://www.fandom.com/topics/games (look for media links, example https://creatures.fandom.com/wiki/Openc2e)
+https://www.fosshub.com/about.html
+https://www.fosslinux.com/
+https://www.freegamesutopia.com/
+https://arcade.academy/
+https://blends.debian.org/games/tasks/
+https://blends.debian.org/games/tasks/racing
+http://www.goldenstudios.or.id/products/games/index.php
+http://www.goldenstudios.or.id/products/GTGE/
+https://gitorious.org/index-list.html (are there other interesting games)
+http://www.dianneandpaul.net/CSBwin/
+http://www.lesfleursdunormal.fr/static/informatique/old/index_en.html
+http://www.oletus.fi/games/
+http://www.paulscode.com/games/
+
+# GitHub collections and topic pages
+
+https://github.com/collections
+https://github.com/collections/javascript-game-engines (only OS)
+https://github.com/collections/pixel-art-tools (tools)
+https://github.com/collections/productivity-tools (maybe for statistical purposes)
+https://github.com/collections/software-development-tools (maybe we can apply some of them across the board)
+https://github.com/collections/tools-for-open-source (maybe we can apply some)
+https://github.com/collections/web-games (only OS)
+https://github.com/flathub (all repositories which are games there)
+
+# Wikipedia and encyclopaedia lists
+
+https://en.wikipedia.org/wiki/Category:Open-source_video_games (all of them)
+https://en.wikipedia.org/wiki/GNOME_Games_Collection
+https://en.wikipedia.org/wiki/List_of_commercial_video_games_released_as_freeware
+https://en.wikipedia.org/wiki/List_of_commercial_video_games_with_available_source_code
+https://en.wikipedia.org/wiki/List_of_cult_video_games (all of them)
+https://en.wikipedia.org/wiki/List_of_free_and_open-source_Android_applications#Games
+https://en.wikipedia.org/wiki/MUD#Spread (all there)
+https://en.wikipedia.org/wiki/MUD_client (all there)
+
+# OSDN
+
+https://osdn.net/
+
+# Special-purpose discovery and historical sources
+
+https://alternativeto.net/ (query with only open source as option)
+http://www.happypenguin.org (linux game tomb)
+https://web.archive.org/web/20121010121342/http://www.happypenguin.org/list?sort=title
+https://www.ifwiki.org/index.php/Main_Page (is there software contained or contents with CC license maybe that could be converted...)
+https://web.archive.org/web/20161215063433/http://www.linuxdevcenter.com/topics/linux/games
+
+# GitHub topics
+
+https://github.com/topics/game-engine (etc.)

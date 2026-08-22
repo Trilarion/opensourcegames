@@ -278,7 +278,7 @@ general_code_dependencies_without_entry = {
     'JBox2D': 'https://jbox2d.org/',
     'JOGL': 'https://jogamp.org/',
     'jQuery': 'https://jquery.com/',
-    'KDE Frameworks': 'https://kde.org/products/frameworks/',
+    'KDE': 'https://kde.org/products/frameworks/',
     'Laravel': 'https://laravel.com/',
     'libGDX': 'https://libgdx.com/',
     'LowRes NX': 'https://lowresnx.inutilis.com/',

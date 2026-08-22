@@ -26,10 +26,8 @@ https://web.archive.org/web/20110714111133/http://www.mojang.com/notch/mario/
 https://app.assembla.com/spaces/Project_Valkyrie2/wiki
 https://archive.codeplex.com/?p=turnota
 https://archive.codeplex.com/?p=voxeliq
-https://archive.org/details/open_source_software
 https://archive.org/search?query=creator%3A%22Linley+Henzell%22  (and others on archive.org)
 https://blenderartists.org/t/devils-pinball/552785
-https://blog.codeberg.org/new-storage-limits-on-codeberg-what-you-need-to-know.html (at the bottom)
 https://bluerenga.blog/
 https://braingames.jorito.net/nightlies/
 https://carrot.soulweaver.fi/#links
@@ -90,7 +88,6 @@ https://github.com/deathkiller/jazz2-native
 https://github.com/deepnight/ldtk
 https://github.com/delmarle/RPG-Core
 https://github.com/DexterHuang/CyberCodeOnline
-https://github.com/dmcinnes/HTML5-Asteroids
 https://github.com/doldecomp/melee
 https://github.com/domeengine/dome
 https://github.com/dtrajko/MoravaEngine
@@ -131,13 +128,11 @@ https://github.com/InvadingOctopus/comedot
 https://github.com/ipodtouch0218/NSMB-MarioVsLuigi
 https://github.com/irisengine/iris
 https://github.com/Isti01/glCraft
-https://github.com/jakesgordon/javascript-racer
 https://github.com/JamesRandall/SimpleVoxelEngine
 https://github.com/jarikomppa/soloud # audio engine (too specialized, this is more for game development)
 https://github.com/jasjisdo/gtge
 https://github.com/jhasse/jngl # game library ? (complete engine?)
 https://github.com/JimmieKJ/unrealTournament
-https://github.com/jmoenig/Snap
 https://github.com/JoeyDeVries/Cell
 https://github.com/juliangarnier/3D-Hartwig-chess-set
 https://github.com/justinmeister/Mario-Level-1
@@ -169,10 +164,8 @@ https://github.com/MrFrenik/gunslinger
 https://github.com/Mukarillo/UnityTetris
 https://github.com/nCine/nCine
 https://github.com/ondras/rot.js
-https://github.com/open-telemetry/opentelemetry-cpp
 https://github.com/openbsd/ports/tree/master/games
 https://github.com/OpenGMK/OpenGMK
-https://github.com/OS2World
 https://github.com/OSSGames
 https://github.com/osslugaru/lugaru
 https://github.com/OverShifted/OverEngine
@@ -232,7 +225,6 @@ https://github.com/volcoma/EtherealEngine
 https://github.com/Walkator/kailius
 https://github.com/Whimfoome/godot-FirstPersonStarter
 https://github.com/WhitestormJS/whs.js
-https://github.com/wwwtyro/Astray
 https://github.com/xyperia/OpenSourceGames
 https://github.com/YoYoGames/GameMaker-HTML5
 https://github.com/yrgo/awesome-educational-games
@@ -277,7 +269,6 @@ https://openciv3.org/
 https://osdn.net/softwaremap/trove_list.php?form_cat=80
 https://pixeldoctrine.com/index.html (more than just slime volleyball)
 https://planetgenesis.sourceforge.net/
-https://play.google.com/store/apps/dev?id=8387589286898375037 (where is the source, not open source otherwise)
 https://ports.freebsd.org/cgi/ports.cgi
 https://pyweek.org/4/entries/ (Ascent of Justice)
 https://rainey.tech/arcade
@@ -308,7 +299,6 @@ https://web.archive.org/web/20171228172756/http://www.oletus.fi/static/whichwayi
 https://web.archive.org/web/20190106035150/http://www2.braingames.getput.com/
 https://web.archive.org/web/20240921231137/https://www.allegro.cc/depot/ (in all subcategories, often source available, but maybe copyrighted, see license)
 https://www.adventuregamestudio.co.uk/
-https://www.androidauthority.com/best-open-source-apps-for-android-861665/
 https://www.b3dgs.com/v7/page.php?lang=en&section=projects
 https://www.babylonjs.com/
 https://www.bennugd.org/
@@ -324,8 +314,6 @@ https://www.libretro.com/
 https://www.musztardasarepska.pl/wgdown/
 https://www.ness-engine.com/
 https://www.networkworld.com/article/2222642/the-death-of-an-html5-game-breeds-an-open-source-project.html
-https://www.nexusmods.com/games (if one can filter by open source)
-https://www.old-games.com/
 https://www.old-games.ru/forum/threads/nekommercheskie-analogi-izvestnyx-igr.40868/page-9
 https://www.piston.rs/
 https://www.pygame.org/tags/strategy (and all other projects, check for license)
@@ -335,7 +323,6 @@ https://www.seul.org/~grumbel/tmp/clanlib/games.html
 https://www.tapatalk.com/groups/imperilist/
 https://www.wurfelengine.net/
 https://zdoom.org/downloads (gzdoom, lzdoom)
-https://zope.readthedocs.io/en/latest/
 # Specific game candidates
 
 Pinball Disk Room
@@ -431,7 +418,6 @@ https://sr.ht/projects?search=%23game
 https://www.fandom.com/topics/games (look for media links, example https://creatures.fandom.com/wiki/Openc2e)
 https://www.fosshub.com/about.html
 https://www.fosslinux.com/
-https://www.freegamesutopia.com/
 https://arcade.academy/
 https://blends.debian.org/games/tasks/
 https://blends.debian.org/games/tasks/racing
@@ -445,7 +431,6 @@ http://www.paulscode.com/games/
 
 # GitHub collections and topic pages
 
-https://github.com/collections
 https://github.com/collections/javascript-game-engines (only OS)
 https://github.com/collections/pixel-art-tools (tools)
 https://github.com/collections/productivity-tools (maybe for statistical purposes)

@@ -11,6 +11,6 @@
 - Assets license: GPL-2.0
 - Developer: Benjamin Meyer, Matthias Kiefer, Stas Verberkt
 
-Snake game.
+KTron was renamed to KSnakeDuel; the current game also provides a distinct KSnake mode.
 
 ## Building

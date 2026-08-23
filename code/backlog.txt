@@ -248,7 +248,6 @@ https://hcsoftware.sourceforge.net/jason-rohrer/ (all)
 https://holarse.de/tags/200
 https://if50.substack.com/p/business-wargames
 https://illusion.64history.net/2022/wipeout-psx-windows-source
-https://invent.kde.org/games (all of them; check that we have them all)
 https://itch.io/jam/game-off-2023
 https://itch.io/jam/gamedevjs-2023
 https://lgames.sourceforge.io/LBreakoutHD/ (and other lgames)

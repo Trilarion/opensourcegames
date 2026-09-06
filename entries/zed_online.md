@@ -1,6 +1,6 @@
 # Zed Online
 
-- Home: https://zzone.lewe.com/zed-online-game/, https://sourceforge.net/projects/zedonline/
+- Home: https://web.archive.org/web/20240620060652/https://zzone.lewe.com/zed-online-game/, https://sourceforge.net/projects/zedonline/
 - Inspiration: Z
 - State: mature
 - Keyword: remake, strategy, content open, multiplayer online + LAN, real-time

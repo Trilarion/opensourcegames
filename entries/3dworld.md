@@ -10,6 +10,8 @@
 - Code license: GPL-3.0
 - Developer: fegennari
 
+Procedurally generated 3D worlds with dynamic terrain, cities, buildings, physics, weather, and multiple gameplay modes.
+
 ## Building
 
 - Build system: Visual Studio

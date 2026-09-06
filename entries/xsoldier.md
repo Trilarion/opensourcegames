@@ -9,6 +9,6 @@
 - Code language: C
 - Code license: GPL-2.0
 - Code dependency: SDL
-- Developer: Yuusuke Hashimoto, Oohara Yuuma
+- Developer: Oohara Yuuma, Yuusuke Hashimoto
 
 ## Building

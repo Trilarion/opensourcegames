@@ -6,7 +6,7 @@
 - Keyword: action
 - Code language: Python
 - Code license: GPL-2.0
-- Code dependency: Cal3D, GLEW, OpenGL, Py2Play, SDL
+- Code dependency: GLEW, OpenGL, Py2Play, SDL
 - Developer: Jean-Baptiste "Jiba" Lamy
 
 ## Building

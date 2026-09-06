@@ -117,6 +117,7 @@
 - **[Open Soccer Star](../open_soccer_star.md)** (PHP, GPL-3.0, beta)
 - **[OpenDominion](../opendominion.md)** (PHP, AGPL-3.0, beta)
 - **[OpenEtG](../openetg.md)** (JavaScript, Rust, MIT, beta)
+- **[OpenJazz](../openjazz.md)** (C++, GPL-2.0, beta)
 - **[OpenLara](../openlara.md)** (C++, C, 2-clause BSD, mature)
 - **[OpenRoads](../openroads.md)** (TypeScript, JavaScript, MIT, mature, inactive since 2014)
 - **[OpenSC2K](../opensc2k.md)** (JavaScript, GPL-3.0, beta)

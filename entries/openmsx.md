@@ -1,6 +1,6 @@
 # openMSX
 
-- Home: http://openmsx.org/, https://sourceforge.net/projects/openmsx/
+- Home: https://openmsx.org/, https://sourceforge.net/projects/openmsx/
 - State: mature
 - Download: https://github.com/openMSX/openMSX/releases, https://sourceforge.net/projects/openmsx/files/
 - Platform: Windows, macOS, Android

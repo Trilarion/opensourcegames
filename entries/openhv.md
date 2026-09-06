@@ -14,7 +14,7 @@
 - Assets license: CC-BY-3.0, CC-BY-SA-4.0
 - Developer: dnqbob, Dzierzan, Matthias Mailänder, Paweł Dzierżanowski, SeanScherer, William Weber Berrutti, Zimmermann Gyula
 
-OpenRA mod with freely licensed pixelart building upon the unreleased [Hard Vacuum](https://lostgarden.home.blog/2005/03/27/game-post-mortem-hard-vacuum/) graphical assets by Daniel Cook.
+OpenRA mod with freely licensed pixelart building upon the unreleased [Hard Vacuum](https://lostgarden.com/2005/03/27/game-post-mortem-hard-vacuum/) graphical assets by Daniel Cook.
 
 ## Building
 

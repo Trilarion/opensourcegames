@@ -1,10 +1,10 @@
 # OpenRCT2
 
-- Home: https://openrct2.io/, https://openrct2.org/
+- Home: https://openrct2.io/, https://web.archive.org/web/20241209172653/https://openrct2.org/
 - Media: https://en.wikipedia.org/wiki/RollerCoaster_Tycoon_2#Legacy
 - Inspiration: RollerCoaster Tycoon, RollerCoaster Tycoon 2
 - State: mature
-- Download: https://openrct2.org/downloads
+- Download: https://openrct2.io/download
 - Platform: Windows, Linux, macOS
 - Keyword: remake, simulation, content commercial, original required (from RCT2)
 - Code repository: https://github.com/OpenRCT2/OpenRCT2.git (@created 2014, @stars 12710, @forks 1465)

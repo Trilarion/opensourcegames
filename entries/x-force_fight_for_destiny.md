@@ -5,7 +5,7 @@
 - State: beta, inactive since 2011
 - Download: https://sourceforge.net/projects/xforceffd/files
 - Keyword: strategy, clone, turn-based
-- Code repository: https://gitlab.com/osgames/xforceffd.git (backup of svn, @created 2018, @stars 1, @forks 0)
+- Code repository: https://codeberg.org/osgames/xforceffd.git (backup of svn)
 - Code language: Pascal
 - Code license: GPL-2.0
 - Developer: Christian Reich, Dirk_F, gnfalex, Martin Kanich, Natter, Sebastian Gingter

@@ -13,4 +13,4 @@ Dagor Engine and Tools source code from Gaijin Games KFT
 
 ## Building
 
-- Build system: VisualStudio
+- Build system: Visual Studio

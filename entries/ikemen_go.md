@@ -2,9 +2,11 @@
 
 - Home: https://github.com/ikemen-engine/Ikemen-GO
 - Inspiration: Mugen
-- State: beta 
+- State: beta
 - Platform: Windows, Linux, macOS
-- Keyword: remake,action, fighting game
-- Code repository: https://github.com/ikemen-engine/Ikemen-GO
+- Keyword: action, remake, fighting game
+- Code repository: https://github.com/ikemen-engine/Ikemen-GO.git
 - Code language: Go
 - Code license: MIT
+
+## Building

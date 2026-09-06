@@ -1,6 +1,6 @@
 # Granatier
 
-- Home: https://invent.kde.org/games/granatier
+- Home: https://apps.kde.org/granatier
 - Inspiration: Bomberman
 - State: mature
 - Keyword: action, clone, content open, multiplayer competitive

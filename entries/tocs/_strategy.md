@@ -101,6 +101,7 @@
 - **[Freebloks 3D for Android](../freebloks_3d_for_android.md)** (Kotlin, C++, GPL-2.0, mature)
 - **[Freeciv Alpha Centauri project](../freeciv_alpha_centauri_project.md)** (C, GPL-2.0, beta, inactive since 2003)
 - **[Freeciv-web](../freeciv-web.md)** (JavaScript, Java, Python, AGPL-3.0, mature)
+- **[Freeciv21](../freeciv21.md)** (C++, GPL-3.0, mature)
 - **[Freeciv](../freeciv.md)** (C, GPL-2.0, mature)
 - **[FreeCol](../freecol.md)** (Java, GPL-2.0, mature)
 - **[FrEee](../freee.md)** (C#, CC-BY-NC-SA-2.0, beta)

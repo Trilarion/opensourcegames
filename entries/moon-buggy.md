@@ -1,6 +1,6 @@
 # Moon-buggy
 
-- Home: https://www.seehuhn.de/pages/moon-buggy, https://packages.debian.org/search?keywords=moon-buggy
+- Home: https://www.seehuhn.de/programs/moon-buggy/, https://packages.debian.org/search?keywords=moon-buggy
 - Inspiration: moon-patrol
 - State: mature, inactive since 2006
 - Keyword: action, side-scrolling

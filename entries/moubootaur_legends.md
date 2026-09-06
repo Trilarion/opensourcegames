@@ -9,7 +9,7 @@
 - Code repository: https://gitlab.com/TMW2/hercules.git (@created 2020, @stars 1, @forks 0)
 - Code language: C, C++, Script
 - Code license: GPL-3.0
-- Code dependency: Hercules, ManaPlus
+- Code dependency: ManaPlus
 - Assets license: GPL-3.0, CC-BY-SA 4.0
 
 Server only, can be played online with the ManaPlus or any other compatible game client.

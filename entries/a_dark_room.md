@@ -10,4 +10,6 @@
 - Code license: MPL-2.0
 - Developer: AetherSeed, Andrea Rendine, Andrew Ardill, Blake Grotewold, David Stark, Dušan Juretić, Eimis Karpicius, Elia Paola Falcon Gastelum, grotewold, hun0975, James, "Jeong, YunWon", Jonathon Orsi, lilj, Lucas Lois, LucidCrux, Matt Rasmus, Michael Townsend, Olexandr Nesterenko, pacharan, Spencer, Thilo Voigt, Travis Weston, vanadar
 
+Post-apocalyptic survival and resource management.
+
 ## Building

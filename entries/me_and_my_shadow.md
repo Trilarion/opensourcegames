@@ -1,6 +1,6 @@
 # Me and My Shadow
 
-- Home: https://acmepjz.github.io/meandmyshadow/, https://sourceforge.net/projects/meandmyshadow/
+- Home: https://web.archive.org/web/20250129194802/https://acmepjz.github.io/meandmyshadow/, https://sourceforge.net/projects/meandmyshadow/
 - State: beta
 - Download: https://acmepjz.github.io/meandmyshadow/download.html, https://sourceforge.net/projects/meandmyshadow/files/
 - Platform: Windows, Linux, macOS

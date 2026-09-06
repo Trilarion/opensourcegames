@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/The_Battle_for_Wesnoth
 - Inspiration: Master of Monsters, Warsong
 - State: mature
-- Download: http://www.wesnoth.org/#download, https://sourceforge.net/projects/wesnoth-on-android/files/
+- Download: https://www.wesnoth.org/#download, https://sourceforge.net/projects/wesnoth-on-android/files/
 - Platform: Windows, Linux, macOS, Android, iOS
 - Keyword: strategy, clone, multiplayer, setting fantasy, turn-based
 - Code repository: https://github.com/wesnoth/wesnoth.git (@created 2013, @stars 5082, @forks 960)

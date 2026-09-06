@@ -11,5 +11,5 @@
 
 ## Building
 
-- Build system: premake
+- Build system: Premake
 - Build instruction: https://github.com/NazaraEngine/NazaraEngine/blob/main/INSTALL.md

@@ -1,11 +1,11 @@
 # Open Game Engine
 
-- Home: https://oge.sourceforge.net/wiki/index.php/Main_Page, https://sourceforge.net/projects/oge/
+- Home: https://web.archive.org/web/20161217082821/https://oge.sourceforge.net/wiki/index.php/Main_Page, https://sourceforge.net/projects/oge/
 - State: beta, inactive since 2008
 - Download: https://sourceforge.net/projects/oge/files/
 - Platform: Windows
 - Keyword: framework, game engine, game editor
-- Code repository: https://gitlab.com/osgames/oge.git (combination of cvs+svn+git, @created 2019, @stars 1, @forks 0), https://git.code.sf.net/p/oge/git (@add)
+- Code repository: https://codeberg.org/osgames/oge.git (combination of cvs+svn+git), https://git.code.sf.net/p/oge/git (@add)
 - Code language: C++
 - Code license: LGPL-2.1
 - Developer: Chris Jones, mehdix, petrocket, Ralph Little, Serdar Dere, Steven 'lazalong' Gay, Vincenzo Greco

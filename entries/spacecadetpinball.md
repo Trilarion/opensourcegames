@@ -1,9 +1,9 @@
 # SpaceCadetPinball
 
-- Home: https://alula.github.io/SpaceCadetPinball/
+- Home: https://pinball.alula.me/
 - Inspiration: Full Tilt! Pinball
 - State: mature
-- Play: https://alula.github.io/SpaceCadetPinball/
+- Play: https://pinball.alula.me/
 - Download: https://github.com/k4zmu2a/SpaceCadetPinball/releases
 - Platform: Windows, Web
 - Keyword: arcade, remake, content commercial, flipper, original required, skill

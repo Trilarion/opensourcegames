@@ -1,6 +1,6 @@
 # Remnants of the Precursors
 
-- Home: https://www.remnantsoftheprecursors.com/
+- Home: https://github.com/rayfowler/rotp-public
 - Inspiration: Master of Orion
 - State: mature
 - Download: https://rayfowler.itch.io/remnants-of-the-precursors

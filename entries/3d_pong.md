@@ -10,4 +10,6 @@
 - Code license: GPL-2.0
 - Developer: Bill Kendrick
 
+Three-dimensional Pong with mouse-controlled paddle play.
+
 ## Building

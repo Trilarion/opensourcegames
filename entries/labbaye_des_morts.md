@@ -1,7 +1,8 @@
 # L'Abbaye des Morts
 
-- Home: https://locomalito.com/abbaye-des-morts.php
+- Home: https://locomalito.com/games/abbaye-des-morts
 - State: mature, inactive since 2018
+- Download: https://locomalito.com/files/abbaye-des-morts.zip
 - Platform: Windows, Linux
 - Keyword: adventure, platform, 2D, content open, side-scrolling
 - Code repository: https://github.com/nevat/abbayedesmorts-gpl.git (@created 2015, @stars 65, @forks 15)

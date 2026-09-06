@@ -4,7 +4,7 @@
 - State: beta, inactive since 2010
 - Platform: Android
 - Keyword: strategy, turn-based
-- Code repository: https://gitlab.com/osgames/mercenarycommander.git (snapshot svn, @created 2018, @stars 1, @forks 0)
+- Code repository: https://codeberg.org/osgames/mercenarycommander.git (snapshot svn)
 - Code language: Java
 - Code license: 3-clause BSD
 

@@ -1,6 +1,6 @@
 # Rise of the Triad for Linux
 
-- Home: http://icculus.org/rott/
+- Home: https://icculus.org/rott/
 - Inspiration: Rise of the Triad
 - State: mature, inactive since 2012
 - Keyword: action, remake

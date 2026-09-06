@@ -1,6 +1,6 @@
 # OpenGTA
 
-- Home: http://ogta.fifengine.de/
+- Home: https://web.archive.org/web/20250115224641/https://ogta.fifengine.de/
 - Inspiration: Grand Theft Auto
 - State: beta, inactive since 2007
 - Keyword: action, remake, content commercial, original required

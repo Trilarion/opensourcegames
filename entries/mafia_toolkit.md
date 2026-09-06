@@ -1,6 +1,6 @@
 # Mafia: Toolkit
 
-- Home: https://videogamemods.com/mafia/mods/mafia-2-toolkit/
+- Home: https://web.archive.org/web/20240620075804/https://videogamemods.com/mafia/mods/mafia-2-toolkit/
 - Inspiration: Mafia II
 - State: mature
 - Platform: Windows

@@ -3,7 +3,7 @@
 - Home: https://www.sfml-dev.org/
 - Media: https://en.wikipedia.org/wiki/Simple_and_Fast_Multimedia_Library
 - State: mature
-- Download: https://www.sfml-dev.org/download.php
+- Download: https://www.sfml-dev.org/download/
 - Keyword: library
 - Code repository: https://github.com/SFML/SFML.git (@created 2011, @stars 9479, @forks 1627)
 - Code language: C++

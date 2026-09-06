@@ -7,7 +7,7 @@
 - Code repository: https://github.com/jonburesh/sintelgame.git (@created 2013, @stars 95, @forks 21)
 - Code language: Python
 - Code license: MIT
-- Code dependency: Blender game engine
+- Code dependency: Blender Game Engine
 - Developer: Jonathan Buresh
 
 Adventure game based on the open source film 'Sintel'.

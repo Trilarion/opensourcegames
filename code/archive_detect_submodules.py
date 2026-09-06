@@ -17,11 +17,10 @@ if __name__ == '__main__':
 
     # get the archive folder
     archive_folder = c.get_config('archive-folder')
-    if not archive_folder:
-        raise RuntimeError('No archive folder specified.')
-    else:
-        archive_folder = pathlib.Path(archive_folder)
+    archive_folder = pathlib.Path(archive_folder)
+    assert(archive_folder.is_dir())
 
+    # the folder we work on
     base_folder = archive_folder / 'git'
 
     # read archives.json
@@ -29,7 +28,7 @@ if __name__ == '__main__':
     text = u.read_text(code_folder / 'archives.json')
     archives = json.loads(text)
 
-    # loop over all git archives
+    # loop over all git archives and get submodules
     submodules = []
     for repo in archives['git']:
         print(f'process {repo}')
@@ -52,7 +51,8 @@ if __name__ == '__main__':
     for a, b in (('git://github.com', 'https://github.com'), ('git@github.com:', 'https://github.com/'), ('git+ssh://git@github.com', 'https://github.com')):
         submodules = [b + x[len(a):] if x.startswith(a) else x for x in submodules]
 
-    # let all github repos end on ".git"
+    # let all github repos end on ".git" and remove any trailing / on github.com before
+    submodules = [x[:-1] if 'github.com' in x and x.endswith('/') else x for x in submodules]
     submodules = [x + '.git' if 'github.com' in x and not x.endswith('.git') else x for x in submodules]
 
     # eliminate those which are duplicates and those which are in archives already
@@ -60,7 +60,7 @@ if __name__ == '__main__':
     submodules = sorted(list(submodules))
 
     # TODO single dots are not yet resolved correctly, for example in https://github.com/henkboom/pax-britannica.git
-    submodules = [x for x in submodules if not any([x.startswith(y) for y in ('.', 'git@')])]
+    # submodules = [x for x in submodules if not any([x.startswith(y) for y in ('.', 'git@')])]
 
     # store them
     print(f'found {len(submodules)} submodules')

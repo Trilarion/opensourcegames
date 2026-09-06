@@ -1,6 +1,6 @@
 # Tennix!
 
-- Home: http://icculus.org/tennix/, http://icculus.org/tennix/pre2009/
+- Home: https://icculus.org/tennix/, https://icculus.org/tennix/pre2009/
 - State: mature
 - Keyword: sports, strategy
 - Code repository: https://repo.or.cz/tennix.git

@@ -4,7 +4,7 @@
 - State: mature
 - Download: https://sourceforge.net/projects/nsbb/files/
 - Keyword: simulation, sports, content commercial
-- Code repository: http://nsbb.cvs.sourceforge.net (cvs, outdated, see download)
+- Code repository: http://nsbb.cvs.sourceforge.net (@old, cvs, see download)
 - Code language: C
 - Code license: Public domain
 - Assets license: (player pictures are from baseball-reference.com)

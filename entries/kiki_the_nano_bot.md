@@ -7,7 +7,7 @@
 - Download: https://kiki.sourceforge.net/download/index.html
 - Platform: Windows, macOS
 - Keyword: puzzle, 3D
-- Code repository: https://gitlab.com/osgames/kiki.git (conversion of cvs, @created 2019, @stars 1, @forks 0)
+- Code repository: https://codeberg.org/osgames/kiki.git (conversion of cvs)
 - Code language: C++
 - Code license: Public domain
 - Developer: micha, Thorsten Kohnhorst

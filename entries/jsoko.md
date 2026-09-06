@@ -1,6 +1,6 @@
 # JSoko
 
-- Home: https://www.sokoban-online.de/, https://sourceforge.net/projects/jsokoapplet/
+- Home: https://web.archive.org/web/20240424072322/https://www.sokoban-online.de/, https://sourceforge.net/projects/jsokoapplet/
 - Inspiration: Sokoban
 - State: mature
 - Download: https://sourceforge.net/projects/jsokoapplet/files/

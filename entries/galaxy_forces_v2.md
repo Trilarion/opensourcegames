@@ -1,6 +1,6 @@
 # Galaxy Forces V2
 
-- Home: http://www.galaxy-forces.com/, https://sourceforge.net/projects/galaxyv2/
+- Home: https://web.archive.org/web/20250602000141/http://www.galaxy-forces.com/, https://sourceforge.net/projects/galaxyv2/
 - Inspiration: Gravity Force
 - State: mature
 - Download: https://sourceforge.net/projects/galaxyv2/files/

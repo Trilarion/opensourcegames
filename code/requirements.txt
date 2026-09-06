@@ -1,3 +1,4 @@
+# dependencies are unpinned to allow flexible version updates
 pygithub
 python-gitlab
 lark-parser

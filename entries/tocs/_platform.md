@@ -57,6 +57,7 @@
 - **[REminiscence / REinforced](../reminiscence_reinforced.md)** (C++, C, GPL-3.0, mature)
 - **[Replica Island](../replica_island.md)** (Java, Apache-2.0, mature, inactive since 2011)
 - **[ReTux](../retux.md)** (Python, GPL-3.0, mature, inactive since 2018)
+- **[Seahorse Adventures](../seahorse_adventures.md)** (Python, GPL-2.0, mature, inactive since 2022)
 - **[Simple Platformer](../simple_platformer.md)** (Java, MIT, beta, inactive since 2019)
 - **[Smash Battle](../smash_battle.md)** (C++, GPL-2.0, beta, inactive since 2011)
 - **[Sonic Robo Blast 2](../sonic_robo_blast_2.md)** (C, C++, GPL-2.0, mature)

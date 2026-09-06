@@ -4,7 +4,7 @@
 - State: beta, inactive since 2007
 - Download: https://sourceforge.net/projects/eos-game/files
 - Keyword: role playing, space
-- Code repository: https://gitlab.com/osgames/eos-game.git (backup of svn, @created 2018, @stars 1, @forks 0)
+- Code repository: https://codeberg.org/osgames/eos-game.git (backup of svn)
 - Code language: Python
 - Code license: MIT
 - Code dependency: pygame

@@ -1,6 +1,5 @@
 """
 Import of the screenshots by bzt in https://forum.freegamedev.net/viewtopic.php?f=20&t=12175
-
 """
 
 # TODO do not add if already 3, but print warning instead

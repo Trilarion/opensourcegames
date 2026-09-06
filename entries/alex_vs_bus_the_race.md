@@ -4,7 +4,7 @@
 - State: mature
 - Download: https://github.com/M374LX/alexvsbus/releases
 - Platform: Windows, Linux, Android
-- Keyword: arcade, platform
+- Keyword: arcade, platform, content open
 - Code repository: https://github.com/M374LX/alexvsbus.git
 - Code language: C
 - Code license: GPL-3.0

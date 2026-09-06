@@ -9,4 +9,6 @@
 - Code license: MIT
 - Developer: Alex Grehov
 
+Sliding numbered tiles on a 4×4 grid to merge matching values and reach 2048.
+
 ## Building

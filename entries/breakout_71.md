@@ -1,12 +1,13 @@
 # Breakout 71
 
 - Home: https://breakout.lecaro.me/
-- Inspiration: LBreakoutHD, Nuclear Throne
+- Inspiration: Breakout, LBreakoutHD, Nuclear Throne
+- State: mature
 - Play: https://breakout.lecaro.me/
 - Download: https://renanlecaro.itch.io/breakout71
 - Platform: Windows, Linux, macOS, Android, iOS, Web
 - Keyword: arcade, breakout, bricks, roguelite
-- Code repository: https://gitlab.com/lecarore/breakout71, https://hosted.weblate.org/projects/breakout-71/
+- Code repository: https://gitlab.com/lecarore/breakout71.git, https://hosted.weblate.org/projects/breakout-71/
 - Code language: TypeScript
 - Code license: AGPL-3.0
 - Developer: Renan LE CARO
@@ -21,7 +22,7 @@ To play on iOS, open the web version and do share/add to home screen (no offline
 
 ## Building
 
-- Build system: parcel, gradlew
+- Build system: parcel, Gradle
 
 Built with parcel, tested with jest, admin level editor in react, no runtime dependency.
 To start modifying the game, git clone, npm install, npm start.

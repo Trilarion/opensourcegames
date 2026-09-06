@@ -9,7 +9,7 @@
 - Code repository: https://svn.code.sf.net/p/privateer/code (svn)
 - Code language: C++
 - Code license: GPL-2.0
-- Code dependency: VegaStrike engine
+- Code dependency: Vega Strike
 - Developer: Andrew Westrate, AppCoder, CybaGirl, Dan Vigliotti, Daston, hellcatv, James Carthew, John Cordell, Klauss++, maddanio, Matthew Kruer, Michael Strein, Patrick Horn, Pheonix Rising, Travis Baldree
 
 Two Privateer versions (http://privateer.sourceforge.net/faq-compare.shtml). License of artwork?

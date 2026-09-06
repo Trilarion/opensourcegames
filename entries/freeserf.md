@@ -1,6 +1,6 @@
 # Freeserf
 
-- Home: http://jonls.dk/freeserf/
+- Home: https://web.archive.org/web/20250125024253/http://jonls.dk/freeserf/
 - Inspiration: The Settlers
 - State: mature
 - Download: https://github.com/freeserf/freeserf/releases

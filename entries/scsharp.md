@@ -13,4 +13,4 @@ See also https://github.com/ladislav-zezula/StormLib and https://github.com/robp
 
 ## Building
 
-- Build system: VisualStudio
+- Build system: Visual Studio

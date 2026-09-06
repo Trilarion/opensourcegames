@@ -4,7 +4,7 @@
 - State: mature, inactive since 2010
 - Download: https://sourceforge.net/projects/dmonkey/files/
 - Keyword: action, role playing, turn-based
-- Code repository: https://gitlab.com/osgames/dm-unlimited.git (conversion of svn, @created 2019, @stars 1, @forks 0)
+- Code repository: https://codeberg.org/osgames/dm-unlimited.git (conversion of svn)
 - Code language: Pascal
 - Code license: LGPL-2.1
 - Developer: Joseph Hewitt

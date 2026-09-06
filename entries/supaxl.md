@@ -8,7 +8,7 @@
 - Code repository: https://github.com/eguneys/supaxl.git (@created 2018, @stars 7, @forks 4)
 - Code language: JavaScript
 - Code license: MIT
-- Code dependency: pixi.js
+- Code dependency: PixiJS
 - Assets license: Proprietary
 - Developer: eguneys
 

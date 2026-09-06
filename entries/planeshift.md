@@ -1,9 +1,9 @@
 # PlaneShift
 
-- Home: http://www.planeshift.it/, https://sourceforge.net/projects/planeshift/
+- Home: https://www.planeshift.it/, https://sourceforge.net/projects/planeshift/
 - Media: https://en.wikipedia.org/wiki/PlaneShift_(video_game)
 - State: mature
-- Download: http://www.planeshift.it/Download
+- Download: https://www.planeshift.it/Download
 - Keyword: role playing, 3D, multiplayer online + massive, setting fantasy
 - Code repository: https://svn.code.sf.net/p/planeshift/code (svn)
 - Code language: C++

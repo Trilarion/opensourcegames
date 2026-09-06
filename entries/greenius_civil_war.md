@@ -4,7 +4,7 @@
 - Inspiration: American Civil War
 - State: beta, inactive since 2001
 - Keyword: remake, strategy
-- Code repository: https://gitlab.com/osgames/civilwar.git (backup of cvs, @created 2018, @stars 1, @forks 0)
+- Code repository: https://codeberg.org/osgames/civilwar.git (backup of cvs)
 - Code language: C++, C
 - Code license: GPL-2.0
 - Developer: Jim Schultz, Steven Green

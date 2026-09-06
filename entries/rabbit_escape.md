@@ -1,9 +1,9 @@
 # Rabbit Escape
 
-- Home: https://www.artificialworlds.net/rabbit-escape/
+- Home: https://artificialworlds.net/rabbit-escape/
 - Inspiration: Lemmings, Pingus
 - State: mature
-- Download: https://www.artificialworlds.net/rabbit-escape/#install
+- Download: https://artificialworlds.net/rabbit-escape/#install
 - Platform: Windows, Linux, macOS, Android
 - Keyword: action, puzzle, remake
 - Code repository: https://github.com/andybalaam/rabbit-escape.git (@created 2014, @stars 72, @forks 38)

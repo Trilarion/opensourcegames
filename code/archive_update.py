@@ -22,21 +22,30 @@ import pathlib
 
 from utils import utils as u, archive as a, constants as c
 
+env = {
+    # "GIT_TERMINAL_PROMPT":  "0",
+    # "SSH_ASKPASS": "",
+    "GCM_INTERACTIVE": "never",
+    "GIT_ASKPASS": ""
+}
+
 def git_clone(url, folder):
     """
-    Clones a git with --mirror for the first time.
+    Clone a git repository with --mirror option for archiving.
     """
-    # subprocess_run(["git", "clone", "--mirror", url, folder], shell=True, env={'GIT_TERMINAL_PROMPT': '0'})
-    u.subprocess_run(["git", "clone", "--mirror", url, str(folder)])
+    # u.subprocess_run(["git", "clone", "--mirror", "-c", "credential.interactive=never", "-c", "core.askPass=", url, str(folder)], env=env)  # to avoid prompting for credential helpers etc.
+    u.subprocess_run(["git", "clone", "--mirror", url, str(folder)], env=env)  # to avoid prompting for credential helpers etc.
+    # u.subprocess_run(["git", "clone", "--mirror", url, str(folder)])
 
 
 def git_update(folder):
     """
-    Updates a cloned git.
+    Update a previously cloned git repository with latest changes.
     """
     os.chdir(folder)
-    # subprocess_run(["git", "fetch", "--all"],  shell=True, env={'GIT_TERMINAL_PROMPT': '0'})
-    u.subprocess_run(["git", "fetch", "--all"], display=False)
+    # u.subprocess_run(["git", "fetch", "--all", "-c", "credential.interactive=never", "-c", "core.askPass="], env=env)
+    u.subprocess_run(["git", "fetch", "--all"], env=env)  # to avoid prompting for credential helpers etc.
+    # u.subprocess_run(["git", "fetch", "--all"], display=False)
 
 
 def svn_folder_name(url):
@@ -210,7 +219,7 @@ if __name__ == '__main__':
     archives_git_submodules = json.loads(text)
 
     # run update on submodules
-    # run_update('git', archives_git_submodules, 'git-submodules')
+    run_update('git', archives_git_submodules, 'git-submodules')
 
     # update
     for type in archives:

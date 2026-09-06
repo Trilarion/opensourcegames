@@ -1,6 +1,6 @@
 # XMage
 
-- Home: http://xmage.de/
+- Home: https://xmage.today/, https://web.archive.org/web/20220819041457/http://xmage.de/
 - Inspiration: Magic: The Gathering Online
 - State: mature
 - Download: https://github.com/magefree/mage/releases

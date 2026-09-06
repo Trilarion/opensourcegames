@@ -11,7 +11,7 @@
 - Code license: GPL-2.0
 - Developer: Andrew Taylor, Dallen Wilson, Dan Weber, Daniel Santos, Darren Janeczek, Dominik Reichardt, Doug Day, Gregory Saunders, Joshua Stewart, Karl Robillard, kirben, Michael Ryan, Nodling, Steve Saunders, Steven Jay Cohen, Trenton Schulz
 
-Ultima 4 is now [freely available](https://www.gog.com/game/ultima_4).
+Ultima 4 is now [freely available](https://www.gog.com/de/game/ultima_iv_quest_of_the_avatar).
 
 ## Building
 

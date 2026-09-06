@@ -8,7 +8,7 @@
 - Code repository: https://github.com/SimonLarsen/mrrescue.git (@created 2012, @stars 422, @forks 70)
 - Code language: Lua
 - Code license: zlib
-- Code dependency: AnAL, LÖVE, slam, TSerial
+- Code dependency: LÖVE
 - Assets license: CC-BY-SA-3.0
 - Developer: Simon Larsen, Tangram
 

@@ -14,4 +14,4 @@ Vanilla-style port of Wolfenstein 3D into SDL
 
 ## Building
 
-- Build system: Make, VisualStudio
+- Build system: Make, Visual Studio

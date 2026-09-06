@@ -5,10 +5,10 @@
 - State: beta, inactive since 2012
 - Download: https://sourceforge.net/projects/celestron/files/
 - Keyword: action, shooter, space, top-down
-- Code repository: https://git.code.sf.net/p/celestron/code, https://gitlab.com/osgames/celestron.git (@add, @created 2019, @stars 1, @forks 0)
+- Code repository: https://git.code.sf.net/p/celestron/code, https://codeberg.org/osgames/celestron.git (@add)
 - Code language: Python
 - Code license: GPL-3.0
-- Code dependency: NumPy, pygame
+- Code dependency: pygame
 - Developer: Daniel Foerster
 
 ## Building

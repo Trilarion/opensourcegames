@@ -12,4 +12,4 @@
 
 ## Building
 
-- Build system: meson
+- Build system: Meson

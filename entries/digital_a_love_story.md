@@ -5,7 +5,7 @@
 - State: mature
 - Platform: Windows, Linux, macOS
 - Keyword: adventure, visual novel
-- Code repository: https://gitlab.com/osgames/digitalalovestory.git (copy of version 1.1, @created 2018, @stars 1, @forks 0)
+- Code repository: https://codeberg.org/osgames/digitalalovestory.git (copy of version 1.1)
 - Code language: Ren'Py, Python
 - Code license: CC-BY-NC-SA-3.0 (see home)
 

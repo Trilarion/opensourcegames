@@ -7,10 +7,12 @@
 - Code repository: https://github.com/j-jorge/plee-the-bear.git (@created 2013, @stars 10, @forks 4), https://github.com/j-jorge/bear.git (@add, @created 2013, @stars 16, @forks 4)
 - Code language: Lisp, C++, Scheme, C
 - Code license: GPL-3.0
-- Code dependency: Bear, SDL
+- Code dependency: SDL
 - Assets license: CC BY-SA-3.0
 - Developer: -, j-jorge, Julien Jorge, mothsart, Sébastien Angibaud
 
 Player controls a bear in single or multiplayer mode.
 
 ## Building
+
+- Build system: CMake

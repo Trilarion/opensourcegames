@@ -8,7 +8,7 @@
 - Code repository: https://github.com/deathkiller/jazz2.git (@created 2017, @stars 464, @forks 18)
 - Code language: C#, JavaScript
 - Code license: GPL-3.0
-- Code dependency: libopenmpt, MonoGame, OpenAL
+- Code dependency: MonoGame, OpenAL
 - Developer: Dan R.
 
 ## Building

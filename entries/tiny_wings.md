@@ -8,7 +8,7 @@
 - Code repository: https://github.com/haqu/tiny-wings.git (@created 2011, @stars 816, @forks 178)
 - Code language: Objective-C, C, C++
 - Code license: MIT
-- Code dependency: Cocos2D
+- Code dependency: Cocos2d-x
 - Developer: Edward Palmer, Sergey Tikhonov
 
 ## Building

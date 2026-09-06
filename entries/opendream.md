@@ -13,4 +13,4 @@ Very specialized engine for running games with BYOND.
 
 ## Building
 
-- Build system: VisualStudio
+- Build system: Visual Studio

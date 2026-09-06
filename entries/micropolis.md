@@ -8,7 +8,7 @@
 - Code repository: https://github.com/SimHacker/micropolis.git (@created 2015, @stars 843, @forks 156)
 - Code language: C++, Java, Python
 - Code license: GPL-3.0
-- Code dependency: PyAMF, pycairo, pygobject, pygtk, SQLAlchemy, TurboGears
+- Code dependency: pycairo, PyGTK, TurboGears
 
 ## Building
 

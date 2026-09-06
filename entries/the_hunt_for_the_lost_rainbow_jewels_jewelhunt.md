@@ -4,7 +4,7 @@
 - State: beta, inactive since 2016
 - Download: https://sourceforge.net/projects/jewelhunt/files
 - Keyword: role playing
-- Code repository: https://gitlab.com/osgames/jewelhunt.git (backup of svn, @created 2018, @stars 1, @forks 0)
+- Code repository: https://codeberg.org/osgames/jewelhunt.git (backup of svn)
 - Code language: Java
 - Code license: GPL-2.0
 - Developer: Hajo

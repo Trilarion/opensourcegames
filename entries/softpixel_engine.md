@@ -5,7 +5,7 @@
 - Download: https://softpixelengine.sourceforge.net/downloads.html
 - Platform: Windows, Linux
 - Keyword: framework, 3D
-- Code repository: https://gitlab.com/osgames/softpixelengine.git (import of svn, @created 2019, @stars 1, @forks 0)
+- Code repository: https://codeberg.org/osgames/softpixelengine.git (import of svn)
 - Code language: C++, C
 - Code license: zlib
 - Developer: Lukas Hermanns

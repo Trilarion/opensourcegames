@@ -1,8 +1,8 @@
 # The Mana World
 
-- Home: https://wiki.themanaworld.org/index.php/The_Mana_World:Home
+- Home: https://wiki.themanaworld.org/wiki/The_Mana_World:Home
 - State: mature
-- Download: https://wiki.themanaworld.org/index.php/Downloads
+- Download: https://wiki.themanaworld.org/wiki/Downloads
 - Platform: Windows, Linux, macOS, Android, Web
 - Keyword: role playing, 2D, multiplayer online + massive
 - Code repository: https://github.com/themanaworld/tmwa.git (@created 2012, @stars 50, @forks 45), https://gitlab.com/evol/hercules.git (@created 2015, @stars 3, @forks 7), https://gitlab.com/evol/evol-hercules.git (@add)

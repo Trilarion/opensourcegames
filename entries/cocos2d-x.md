@@ -1,4 +1,4 @@
-# COCOS2D-X
+# Cocos2d-x
 
 - Home: https://www.cocos.com/en/cocos2d-x
 - Media: https://en.wikipedia.org/wiki/Cocos2d

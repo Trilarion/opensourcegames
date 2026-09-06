@@ -5,7 +5,7 @@
 - Download: https://web.archive.org/web/20230924192552/http://stjerneskud.info/vertigo/
 - Platform: Linux
 - Keyword: remake, simulation, flight
-- Code repository: https://gitlab.com/osgames/vertigo.git (import of sources, @created 2019, @stars 1, @forks 0)
+- Code repository: https://codeberg.org/osgames/vertigo.git (import of sources)
 - Code language: C
 - Code license: GPL-2.0
 - Developer: Anton Norup Sørensen

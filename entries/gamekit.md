@@ -7,7 +7,7 @@
 - Code repository: https://github.com/gamekit-developers/gamekit.git (@created 2014, @stars 249, @forks 75)
 - Code language: C++, C
 - Code license: zlib
-- Code dependency: Ogre, Irrlicht
+- Code dependency: Ogre, Irrlicht Engine
 
 ## Building
 

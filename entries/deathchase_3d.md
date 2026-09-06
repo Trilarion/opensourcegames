@@ -4,7 +4,7 @@
 - Inspiration: Deathchase
 - State: mature, inactive since 2002
 - Keyword: remake, shooter
-- Code repository: https://gitlab.com/osgames/deathchase3d.git (import of source release, @created 2019, @stars 1, @forks 0)
+- Code repository: https://codeberg.org/osgames/deathchase3d.git (import of source release)
 - Code language: C, Perl, Script
 - Code license: GPL-2.0
 - Code dependency: SDL

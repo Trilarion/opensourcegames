@@ -5,7 +5,7 @@
 - Download: https://sourceforge.net/projects/abe/files/abe/
 - Platform: Windows, Linux, macOS
 - Keyword: platform, side-scrolling
-- Code repository: https://gitlab.com/osgames/abe.git (import of cvs, @created 2019, @stars 1, @forks 0)
+- Code repository: https://codeberg.org/osgames/abe.git (import of cvs)
 - Code language: C
 - Code license: GPL-2.0
 - Code dependency: SDL

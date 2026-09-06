@@ -6,7 +6,7 @@
 - Code repository: https://invent.kde.org/games/palapeli.git
 - Code language: C++
 - Code license: GPL-2.0
-- Code dependency: KDE Frameworks, Qt
+- Code dependency: KDE, Qt
 - Developer: Stefan Majewsky
 
 From the KDEGames collection.

@@ -17,4 +17,4 @@ Available in Arabic, Belarusian, Chinese (Simplified), English, German, Japanese
 
 ## Building
 
-- Build system: make
+- Build system: Make

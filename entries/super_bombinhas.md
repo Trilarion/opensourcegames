@@ -9,7 +9,6 @@
 - Code repository: https://github.com/victords/super-bombinhas.git (@created 2019, @stars 308, @forks 16)
 - Code language: Ruby
 - Code license: GPL-3.0
-- Code dependency: Gosu, MiniGL
 - Assets license: CC-BY-SA
 - Developer: Jorge Maldonado Ventura, Victor David Santos, victords
 

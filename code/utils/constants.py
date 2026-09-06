@@ -36,7 +36,6 @@ local_config_file = root_path / 'local-config.ini'
 config = configparser.ConfigParser()
 config.read(local_config_file)
 
-
 def get_config(key):
     """
     Returns a key from the config file.
@@ -53,13 +52,19 @@ essential_fields = ('File', 'Title', 'Home', 'State', 'Keyword', 'Code language'
 valid_properties = ('Home', 'Media', 'Inspiration', 'State', 'Play', 'Download', 'Platform', 'Keyword', 'Code repository', 'Code language',
     'Code license', 'Code dependency', 'Assets license', 'Developer')
 
+# all valied fields
 valid_fields = ('File', 'Title') + valid_properties + ('Note', 'Building')
 
+# all fields that can contain urls
 url_fields = ('Home', 'Media', 'Play', 'Download', 'Code repository')
 
+# all valid url prefeixes
 valid_url_prefixes = ('http://', 'https://', 'git://', 'svn://', 'ftp://', 'bzr://')
 
+# all valid building properties
 valid_building_properties = ('Build system', 'Build instruction')
+
+# all valid building fields
 valid_building_fields = valid_building_properties + ('Note',)
 
 # these are the only valid platforms currently (and must be given in this order)
@@ -74,13 +79,52 @@ recommended_keywords = (
     'strategy', 'cards', 'board', 'music', 'educational', 'tool', 'game engine', 'framework', 'library', 'remake')
 # TODO unmake remake a recommended keyword (should be the same as clone maybe), i.e. add another recommended keyword if only remake is in there
 
-# entries where we do not want to show developers (because these lists are too long and too general)
+# Short descriptions for recurring entry keywords, used on category pages and as tag tooltips.
+keyword_genre_descriptions = {
+    'action': 'Fast-paced play emphasizes reflexes, timing, and direct control.',
+    'arcade': 'Score-focused play uses simple rules and immediately accessible mechanics.',
+    'adventure': 'Story-driven play centers on exploration, characters, and solving challenges.',
+    'clone': 'Reimplementations that aim to reproduce the gameplay or functionality of an existing game.',
+    'content commercial': 'Artwork, audio, or other content is commercially licensed or sold.',
+    'content free': 'Artwork, audio, or other content may be freely used and redistributed.',
+    'content open': 'Artwork, audio, or other content is available under open licenses.',
+    'visual novel': 'Interactive stories told through text, illustrations, and player choices.',
+    'first-person': 'The viewpoint follows the character controlled by the player.',
+    'framework': 'Reusable software foundations that provide common services for making games.',
+    'game engine': 'Software for creating games, typically providing rendering, input, and other core systems.',
+    'multiplayer': 'Multiple players participate in local or networked sessions.',
+    'original required': 'Projects that require data files or other assets from the original game to run.',
+    'sports': 'Athletic competitions and sports activities are simulated or stylized.',
+    'platform': 'Play centers on jumping and navigating obstacles across layered environments.',
+    'puzzle': 'Logical, spatial, or pattern-based challenges must be solved.',
+    'racing': 'Competitive vehicle races or time-trial driving form the central activity.',
+    'real-time': 'Actions occur continuously rather than in discrete turns.',
+    'roguelike': 'Rogue-inspired design often features procedural levels and permanent consequences.',
+    'role playing': 'Players develop characters and shape their journeys through choices.',
+    'shooter': 'Ranged combat uses firearms, projectiles, or similar weapons.',
+    'skill': 'Timing, precision, reflexes, or practiced player ability are primarily tested.',
+    'simulation': 'Real or imagined systems, activities, or environments are modeled.',
+    'space': 'The setting primarily involves outer space, space travel, or exploration.',
+    'strategy': 'Planning, resource management, and tactical decisions drive play.',
+    'text-based': 'Written text rather than graphical interaction provides the main presentation.',
+    'tool': 'Software that helps create, modify, manage, or run games and their content.',
+    'turn-based': 'Players act in separate turns rather than simultaneously.',
+    '2D': 'Two-dimensional spaces or graphics provide the presentation.',
+    '3D': 'Three-dimensional spaces or graphics provide the presentation.',
+    'cards': 'Cards, their rules, combinations, or decks provide the primary mechanics.',
+    'board': 'Digital versions or adaptations of board games and tabletop-style play.',
+    'music': 'Creating, performing, recognizing, or reacting to music drives play.',
+    'educational': 'Teaching knowledge or developing skills is the primary purpose.',
+    'remake': 'Modern recreations, ports, or reimplementations of existing games.'
+}
+
+# entries where we do not want to show developers (because these lists are too long and too general) - no developers needed for libraries
 entries_without_developers = ('Box2D', 'Dear ImGui', 'DirectPython', 'FreeType', 'Horde3D', 'ncurses', 'Penumbra', 'Simple and Fast Multimedia Library',
                               'Simple DirectMedia Layer', 'Allegro', 'Crystal Space 3D SDK', 'Dash Engine', 'Delta Engine', 'libGDX', 'MonoGame', 'OGRE',
                               'Panda3D', 'Phaser', 'Qt', 'raylib', 'ScummVM', 'Urho3D')
 
 # interesting keywords = recommend keywords + some popular keywords
-interesting_keywords = recommended_keywords + ('2D', '3D', 'clone', 'first-person', 'real-time', 'roguelike', 'shooter', 'space', 'turn-based', 'for kids', 'for adults')
+interesting_keywords = recommended_keywords + ('2D', '3D', 'clone', 'first-person', 'real-time', 'roguelike', 'shooter', 'space', 'turn-based', 'for kids', 'for adults', 'space', 'skill')
 
 # non-game keywords take precedence over other (game) recommended keywords, at most one of them per entry
 non_game_keywords = ('framework', 'game engine', 'library', 'tool')
@@ -111,7 +155,7 @@ language_urls = {
     'F#': 'https://en.wikipedia.org/wiki/F_Sharp_(programming_language)',
     'Fortran': 'https://en.wikipedia.org/wiki/Fortran',
     'GDScript': 'https://en.wikipedia.org/wiki/Godot_(game_engine)#Scripting',
-    'Game Maker Script': 'https://en.wikipedia.org/wiki/GameMaker#GameMaker_Language',
+    'GameMaker Language': 'https://en.wikipedia.org/wiki/GameMaker#GameMaker_Language',
     'Go': 'https://en.wikipedia.org/wiki/Go_(programming_language)',
     'Groovy': 'https://en.wikipedia.org/wiki/Apache_Groovy',
     'Haskell': 'https://en.wikipedia.org/wiki/Haskell_(programming_language)',
@@ -130,6 +174,7 @@ language_urls = {
     'PHP': 'https://en.wikipedia.org/wiki/PHP',
     'Pascal': 'https://en.wikipedia.org/wiki/Pascal_(programming_language)',
     'Perl': 'https://en.wikipedia.org/wiki/Perl',
+    'PureScript': 'https://www.purescript.org/',
     'Python': 'https://en.wikipedia.org/wiki/Python_(programming_language)',
     'QuakeC': 'https://en.wikipedia.org/wiki/QuakeC',
     "Ren'Py": 'https://en.wikipedia.org/wiki/Ren%27Py',
@@ -188,7 +233,6 @@ license_urls_repo = {
     'zlib': 'https://en.wikipedia.org/wiki/Zlib_License'
 }
 
-
 def get_license_url(license):
     if license not in known_licenses:
         raise RuntimeError('Unknown license')
@@ -204,28 +248,67 @@ license_urls = {license: get_license_url(license) for license in known_licenses 
 valid_multiplayer_modes = (
     'competitive', 'co-op', 'hotseat', 'LAN', 'local', 'massive', 'matchmaking', 'online', 'split-screen')
 
-# TODO put the abbreviations directly in the name line (parenthesis maybe), that is more natural
-# this is a mapping of entry name to abbreviation and the abbreviations are used when specifying code dependencies
-code_dependencies_aliases = {'Simple DirectMedia Layer': ('SDL', 'SDL2'), 'Simple and Fast Multimedia Library': ('SFML',),
-                             'Boost (C++ Libraries)': ('Boost',), 'SGE Game Engine': ('SGE',), 'MegaGlest': ('MegaGlest Engine',)}
-
-# no developers needed for libraries
-
-# these are code dependencies that won't get their own entry, because they are not centered on gaming
-general_code_dependencies_without_entry = {'OpenGL': 'https://www.opengl.org/',
-                                   'GLUT': 'https://www.opengl.org/resources/libraries/',
-                                   'WebGL': 'https://www.khronos.org/webgl/',
-                                   'Unity': 'https://unity.com/solutions/game',
-                                   '.NET': 'https://dotnet.microsoft.com/', 'Vulkan': 'https://www.khronos.org/vulkan/',
-                                   'KDE Frameworks': 'https://kde.org/products/frameworks/',
-                                   'jQuery': 'https://jquery.com/',
-                                   'node.js': 'https://nodejs.org/en/',
-                                   'GNU Guile': 'https://www.gnu.org/software/guile/',
-                                   'tkinter': 'https://docs.python.org/3/library/tk.html',
-                                   'Boost': 'https://www.boost.org/'}
+# these are code dependencies that won't get their own entry, because they are not centered on gaming, but we still want to include them
+general_code_dependencies_without_entry = {
+    '.NET': 'https://dotnet.microsoft.com/',
+    'Adobe Air': 'https://airsdk.harman.com/',
+    'Adventure Game Studio': 'https://www.adventuregamestudio.co.uk/',
+    'BGFX': 'https://github.com/bkaradzic/bgfx',
+    'Blender Game Engine': 'https://en.wikipedia.org/wiki/Blender_Game_Engine',
+    'Boost': 'https://www.boost.org/',
+    'Bullet3': 'https://github.com/bulletphysics/bullet3',
+    'CEGUI': 'https://github.com/cegui/cegui',
+    'CherryPy': 'https://cherrypy.dev/',
+    'Cube 2': 'http://cubeengine.com/',
+    'DirectX': 'https://en.wikipedia.org/wiki/DirectX',
+    'EnTT': 'https://github.com/skypjack/entt',
+    'Eto.Forms': 'https://github.com/picoe/Eto',
+    'FlashPunk': 'https://github.com/useflashpunk/FlashPunk',
+    'FLTK': 'https://www.fltk.org/',
+    'FreeType': 'https://freetype.org/',
+    'GameJs': 'https://gamejs.org/',
+    'GameMaker': 'https://gamemaker.io/en',
+    'GLEW': 'https://github.com/nigels-com/glew',
+    'GLFW': 'https://www.glfw.org/',
+    'GLUT': 'https://www.opengl.org/resources/libraries/',
+    'GNU Guile': 'https://www.gnu.org/software/guile/',
+    'GStreamer': 'https://gstreamer.freedesktop.org/',
+    'GTK': 'https://www.gtk.org/',
+    'ImGUI': 'https://imgui.org/',
+    'JBox2D': 'https://jbox2d.org/',
+    'JOGL': 'https://jogamp.org/',
+    'jQuery': 'https://jquery.com/',
+    'KDE': 'https://kde.org/products/frameworks/',
+    'Laravel': 'https://laravel.com/',
+    'libGDX': 'https://libgdx.com/',
+    'LowRes NX': 'https://lowresnx.inutilis.com/',
+    'LWJGL': 'https://www.lwjgl.org/',
+    'Node.js': 'https://nodejs.org/en/',
+    'OpenAL': 'https://www.openal.org/',
+    'OpenGL': 'https://www.opengl.org/',
+    'pyglet': 'https://pyglet.org/',
+    'PyGTK': 'https://en.wikipedia.org/wiki/PyGTK',
+    'PyQt': 'https://www.riverbankcomputing.com/software/pyqt/',
+    'Qt': 'https://www.qt.io/development/qt-framework',
+    'Rhino': 'https://rhino.github.io/',
+    'SDL': 'https://www.libsdl.org/index.php',
+    'SDL2': 'https://wiki.libsdl.org/SDL2/FrontPage',
+    'Soya3D': 'https://www.lesfleursdunormal.fr/static/informatique/soya3d/index_en.html',
+    'Three.js': 'https://threejs.org/',
+    'tkinter': 'https://docs.python.org/3/library/tk.html',
+    'TurboGears': 'https://turbogears.org/',
+    'Twisted': 'https://twisted.org/',
+    'Unity': 'https://unity.com/solutions/game',
+    'Vulkan': 'https://www.khronos.org/vulkan/',
+    'WebGL': 'https://www.khronos.org/webgl/',
+    'wxPython': 'https://www.wxpython.org/',
+    'wxWidgets': 'https://wxwidgets.org/',
+    'XNA': 'https://en.wikipedia.org/wiki/Microsoft_XNA',
+    'Zope': 'https://zope.dev/'
+}
 
 # they are too abundant and quite general (and we should remove them if they occur)
-ignored_code_dependencies = ('OpenAL', 'libcurl', 'libfreetype', 'libogg', 'libpng', 'libvorbis', 'libxml', 'zlib')
+ignored_code_dependencies = ('libcurl', 'libfreetype', 'libogg', 'libpng', 'libvorbis', 'libxml', 'NumPy', 'Pillow', 'tween.js', 'zlib')
 
 # build system urls
 build_system_urls = {
@@ -239,7 +322,7 @@ build_system_urls = {
     'Ant': 'http://ant.apache.org/',
     'Maven': 'https://maven.apache.org/index.html',
     'Meson': 'https://mesonbuild.com/',
-    'premake': 'https://premake.github.io/',
+    'Premake': 'https://premake.github.io/',
     'QMake': 'https://doc.qt.io/qt-5/qmake-manual.html',
 }
 

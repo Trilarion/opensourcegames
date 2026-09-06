@@ -5,7 +5,7 @@
 - Download: https://sourceforge.net/projects/duelcommander/files
 - Platform: Windows, Linux
 - Keyword: strategy, text-based, turn-based
-- Code repository: https://gitlab.com/osgames/duelcommander.git (snapshot of source releases, @created 2018, @stars 1, @forks 0)
+- Code repository: https://codeberg.org/osgames/duelcommander.git (snapshot of source releases)
 - Code language: C
 - Code license: GPL-3.0
 - Developer: Tommi Helander

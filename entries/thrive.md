@@ -1,9 +1,9 @@
 # Thrive
 
-- Home: https://revolutionarygamesstudio.com/
+- Home: https://www.revolutionarygamesstudio.com/
 - Inspiration: Spore
 - State: beta
-- Download: https://revolutionarygamesstudio.com/releases/, https://github.com/Revolutionary-Games/Thrive/releases
+- Download: https://www.revolutionarygamesstudio.com/downloads, https://github.com/Revolutionary-Games/Thrive/releases
 - Platform: Windows, Linux
 - Keyword: strategy, content open, similar
 - Code repository: https://github.com/Revolutionary-Games/Thrive.git (@created 2012, @stars 2529, @forks 468)

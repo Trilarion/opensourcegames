@@ -7,7 +7,7 @@
 - Keyword: action, platform
 - Code language: Blender Script
 - Code license: ?
-- Code dependency: Blender game engine
+- Code dependency: Blender Game Engine
 
 [Download overview page](https://download.blender.org/apricot/)
 

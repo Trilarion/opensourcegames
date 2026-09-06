@@ -8,4 +8,6 @@
 - Code language: Python
 - Code license: MIT
 
+Sliding numbered tiles on a 4×4 grid to merge matching values and reach 2048.
+
 ## Building

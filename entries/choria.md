@@ -6,7 +6,7 @@
 - Code repository: https://github.com/jazztickets/choria.git (@created 2012, @stars 17, @forks 3)
 - Code language: C++, C, Lua
 - Code license: GPL-3.0
-- Code dependency: Lua, SDL
+- Code dependency: SDL
 - Developer: jazztickets
 
 It's all about grinding and doing chores.

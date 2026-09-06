@@ -12,6 +12,8 @@
 - Code dependency: SEA3D, Three.js
 - Developer: lo-th
 
+3D city-building simulation with zoning, roads, utilities, taxation, and population management.
+
 WebGL version of micropolisJS.
 
 ## Building

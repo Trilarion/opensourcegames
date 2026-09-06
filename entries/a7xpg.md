@@ -6,7 +6,7 @@
 - Keyword: arcade, flight, space
 - Code language: D
 - Code license: 2-clause BSD
-- Code dependency: libvorbis, SDL
+- Code dependency: SDL
 - Developer: Kenta Cho
 
 ## Building

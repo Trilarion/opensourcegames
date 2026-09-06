@@ -1,9 +1,9 @@
 # Ultimate Stunts
 
-- Home: http://www.ultimatestunts.nl/, https://sourceforge.net/projects/ultimatestunts/
+- Home: https://www.ultimatestunts.nl/index.php?page=0&lang=en, https://sourceforge.net/projects/ultimatestunts/
 - Inspiration: Stunts
 - State: beta, inactive since 2013
-- Download: http://www.ultimatestunts.nl/index.php?page=2, https://sourceforge.net/projects/ultimatestunts/files/
+- Download: https://www.ultimatestunts.nl/index.php?page=2&lang=en, https://sourceforge.net/projects/ultimatestunts/files/
 - Platform: Windows, Linux, macOS
 - Keyword: remake, cars, racing
 - Code repository: https://svn.code.sf.net/p/ultimatestunts/code (svn), http://ultimatestunts.cvs.sourceforge.net (cvs)

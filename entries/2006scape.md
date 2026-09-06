@@ -1,7 +1,7 @@
 # 2006scape
 
 - Home: https://2006scape.org/, https://web.archive.org/web/20210119051426/https://rsrebotted.com/, https://web.archive.org/web/20200211143757/http://2006rebotted.tk/
-- Inspiration: Runescape Classic
+- Inspiration: RuneScape Classic
 - State: mature
 - Download: https://github.com/2006-Scape/2006Scape/releases
 - Platform: Windows, Linux, macOS

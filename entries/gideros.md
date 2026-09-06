@@ -1,8 +1,8 @@
 # Gideros
 
-- Home: http://giderosmobile.com/
+- Home: https://www.gideros.rocks/
 - State: mature
-- Download: http://giderosmobile.com/download
+- Download: https://www.gideros.rocks/download, https://github.com/gideros/gideros/releases
 - Platform: Windows, Linux, macOS, Android
 - Keyword: framework, editor
 - Code repository: https://github.com/gideros/gideros.git (@created 2014, @stars 541, @forks 114)

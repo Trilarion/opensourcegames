@@ -2,10 +2,10 @@
 
 - Home: https://sourceforge.net/projects/antichess/
 - State: beta, inactive since 2003
-- Download: https://sourceforge.net/projects/antichess/files/antichess/1.0/
+- Download: https://codeberg.org/osgames/antichess/releases, https://sourceforge.net/projects/antichess/files/antichess/1.0/
 - Platform: Windows, Linux, macOS
 - Keyword: strategy, chess
-- Code repository: https://gitlab.com/Trilarion/antichess.git (backup of cvs, @created 2018, @stars 1, @forks 0)
+- Code repository: https://codeberg.org/osgames/antichess.git (backup of cvs, @created 2018, @stars 1, @forks 0)
 - Code language: Java
 - Code license: MIT
 - Developer: Baris Yuksel, Hongping Lim, Hooria Komal, Tamer Karatekin

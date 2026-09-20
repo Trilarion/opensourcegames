@@ -2,15 +2,19 @@
 
 - Home: https://tangramgames.dk/games/duckmarines/
 - Inspiration: ChuChu Rocket!
-- State: mature, inactive since 2016
+- State: mature
 - Download: https://github.com/SimonLarsen/duckmarines/releases
 - Platform: Windows, Linux, macOS
-- Keyword: puzzle, remake, content open (but NC and ND)
-- Code repository: https://github.com/SimonLarsen/duckmarines.git (@created 2013, @stars 106, @forks 14)
+- Keyword: puzzle, remake, content open
+- Code repository: https://github.com/SimonLarsen/duckmarines.git
 - Code language: Lua
 - Code license: zlib
 - Code dependency: LÖVE
-- Assets license: CC-BY-SA (before relicensing?), CC-BY-NC-ND-4.0 (after relicensing)
+- Assets license: CC-BY-NC-ND-4.0
 - Developer: Jordan Christiansen, Simon Larsen
 
+Arcade puzzle game about guiding ducks through dangerous environments.
+
 ## Building
+
+- Build system: LÖVE

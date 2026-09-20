@@ -4,12 +4,15 @@
 - Inspiration: Tetris
 - State: mature
 - Platform: Windows, Linux, macOS
-- Keyword: remake, skill
+- Keyword: puzzle, falling blocks
+- Code repository: https://github.com/gottcode/gottet.git
 - Code language: C++
 - Code license: GPL-3.0
 - Code dependency: Qt
 - Developer: Graeme Gott
 
-See also https://launchpad.net/~gottcode/+archive/ubuntu/gcppa
+Falling-block puzzle game about completing lines with rotating pieces.
 
 ## Building
+
+- Build system: CMake

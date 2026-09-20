@@ -5,19 +5,23 @@
 - State: mature
 - Play: https://breakout.lecaro.me/
 - Download: https://renanlecaro.itch.io/breakout71
-- Platform: Web
-- Keyword: arcade, bricks
+- Platform: Windows, Linux, macOS, Android, iOS, Web
+- Keyword: arcade, breakout, bricks, roguelite
 - Code repository: https://gitlab.com/lecarore/breakout71.git
 - Code language: TypeScript
 - Code license: AGPL-3.0
 - Developer: Renan LE CARO
 
-Web game about breaking bricks, collecting coins and picking game changing upgrades
-between levels. 300+ levels, 75 upgrades, and 14 supported languages.
+Break bricks, collect coins and pick upgrades.
+
+Translation: https://hosted.weblate.org/projects/breakout-71/
+Written in Typescript using the CanvasRenderingContext2D api. 
+Built with parcel, tested with jest, admin level editor in react, no runtime dependency.
+To start modifying the game, git clone, npm install, npm start.
+To play offline on windows/lines/macOS, download the index.html file form itch.io and open it in the browser.
+To play offline on Android, install the apk from itch.io, fdroid or the Play Store. 
+To play on iOS, open the web version and do share/add to home screen (no offline play yet, but it plays fullscreen and keeps your high scores).
 
 ## Building
 
 - Build system: parcel, Gradle
-
-Built with parcel, tested with jest, admin level editor in react, no runtime dependency 
-Just git clone, npm install, then run start.sh or build.sh

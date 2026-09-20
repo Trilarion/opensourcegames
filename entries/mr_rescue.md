@@ -1,17 +1,19 @@
 # Mr. Rescue
 
 - Home: https://tangramgames.dk/games/mrrescue/
-- State: mature, inactive since 2016
+- State: mature, inactive since 2022
 - Download: https://github.com/SimonLarsen/mrrescue/releases
 - Platform: Windows, Linux, macOS
 - Keyword: arcade, platform, content open
-- Code repository: https://github.com/SimonLarsen/mrrescue.git (@created 2012, @stars 422, @forks 70)
+- Code repository: https://github.com/SimonLarsen/mrrescue.git
 - Code language: Lua
 - Code license: zlib
 - Code dependency: LÖVE
 - Assets license: CC-BY-SA-3.0
 - Developer: Simon Larsen, Tangram
 
-Rescue people from a burning building.
+Arcade action game about rescuing civilians from burning buildings.
 
 ## Building
+
+- Build system: LÖVE

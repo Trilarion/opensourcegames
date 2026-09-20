@@ -1,13 +1,15 @@
 # Vectoroids
 
-- Home: http://www.newbreedsoftware.com/vectoroids/
-- Inspiration: Asteroids
-- State: mature, inactive since 2002
-- Download: http://www.newbreedsoftware.com/vectoroids/download/, ftp://ftp.tuxpaint.org/unix/x/vectoroids
-- Platform: Windows, Linux
-- Keyword: arcade, remake
+- Home: https://newbreedsoftware.com/vectoroids/
+- State: mature
+- Platform: Windows, Linux, macOS, Web
+- Keyword: arcade, shooter
+- Code repository: https://github.com/billkendrick/vectoroids.git
 - Code language: C
 - Code license: GPL-2.0
+- Code dependency: SDL2
+
+Asteroids-style arcade shooter with vector graphics.
 
 ## Building
 

@@ -5,12 +5,14 @@
 - State: mature
 - Download: https://daid.github.io/EmptyEpsilon/#tabs=5
 - Platform: Windows, Linux, Android
-- Keyword: role playing, clone, multiplayer online + LAN, space
+- Keyword: role playing, multiplayer online + LAN, simulation clone, space
 - Code repository: https://github.com/daid/EmptyEpsilon.git (@created 2014, @stars 808, @forks 205), https://github.com/daid/SeriousProton.git (@add, @created 2014, @stars 91, @forks 64)
 - Code language: C, C++, Lua
 - Code license: GPL-2.0
 - Code dependency: SDL2
 - Developer: aBlueShadow, Amir Arad, capt-t, Chris Sibbitt, Christian Zenker, daid, edave64, Edoardo Morandi, Erik de Bruijn, FailRogue, Fouindor, gcask, Ghostkeeper, hemmond, InterestingJohn, Jaime van Kessel, JonathanILevi, k9lego, Kevin Primm, muerteFR, NinjaSpectre, oznogon (Garrett Guillotte), Pascal Stein, PET2001, Piglit, pryankster, Ryan Bahm, Scott Mcleod, StarryWisdom, Thomas, Thomas L., thorgod, Triqueon, Troy, Troy Hall, Tsht, vslotman, Wrongtown, Xansta
+
+Bridge simulator with spaceship management and combat.
 
 ## Building
 

@@ -104,6 +104,7 @@ Farlands (https://github.com/D00Med/farlands): subgame/mod for Minetest
 Feuerkraft (http://www.nongnu.org/feuerkraft, http://savannah.nongnu.org/projects/feuerkraft/): Very early development. Inactive since a long time.
 Fight or Perish (http://www.newbreedsoftware.com/fop/): Very early development. Inactive since a long time.
 Fight Or Perish (http://www.newbreedsoftware.com/fop/, ftp://ftp.tuxpaint.org/unix/x/fop/src/fop-0.5.tar.gz): Early development stage
+Firefigther (https://newbreedsoftware.com/firefighter/, https://github.com/billkendrick/firefighter.git): Unsupported OS (Atari 8-bit)
 Flappy Bird TIC Edition (https://tic.computer/play?cart=252): Website not available
 Flare: Empyrean Campaign (http://flarerpg.org/index.php/mods/flare-empyrean/): Mod/scenario to Flare
 Flatland (http://idusale.tk/juegos/Flatland.html): Not available anymore
@@ -164,6 +165,7 @@ jspacman-canvas (https://github.com/hguillermo/jspacman-canvas.git, http://www.h
 Jumping Jack 2 Worryingly Familiar (http://retrospec.sgn.net/game/jj2, http://retrospec.sgn.net/users/nwalker/jack/jjwf.zip): No compliant license found
 Jumping Jack Further Adventures (http://retrospec.sgn.net/game/jj,  http://retrospec.sgn.net/users/nwalker/jack/jj.zip): No compliant license found
 Jumpman (http://www.oldskool.org/pc/jumpman, http://www.oldskool.org/pc/jumpman/jump_src.zip): Only runs on DOS, License problems (taken without asking for permission)
+KAsteroids (https://invent.kde.org/games/kasteroids): Unclear license situation, see https://sources.debian.org/src/kdegames/2%3A980310-3/debian/copyright
 Kathodos (https://github.com/jvranish/Kathodos.git): No license information, inactive, very early development
 KDE Games (): Has been separated into individual packages. Will add them separately.
 KidChameleonRemake (https://github.com/mp1011/KidChameleonRemake.git): No license information, opened issue about it but no answer yet
@@ -355,6 +357,7 @@ THREEPunchOut (https://github.com/MattSzik/THREEPunchOut.git): No license inform
 thromolusng (https://github.com/segfaulthunter/thromolusng.git): Very early development, not playable, no build instructions, inactive since 2010
 TinyEngine (https://github.com/weigert/TinyEngine): Not enough game related, very small
 TinyXXXX (https://sites.google.com/view/arduino-collection/arduboy): For Arduino (unsupported platform here)
+Tobu Tobu Girl (https://tangramgames.dk/tobutobugirl, https://github.com/SimonLarsen/tobutobugirl.git): Unsupported OS (Game Boy)
 TR1X (https://github.com/LostArtefacts/TR1X.git): Says GPL-3.0 but very much doubtful based on decompilation of proprietary binary code
 Tranzam (http://retrospec.sgn.net/game/tranzam, http://retrospec.sgn.net/download/files/TranzAm.1.1.zip): see other retrospec.sgn.net entries, license unclear, probably not open source as we want it
 Tron (https://github.com/momajd/Tron.git): No license information, long abandoned

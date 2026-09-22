@@ -150,6 +150,7 @@ language_urls = {
     'D': 'https://en.wikipedia.org/wiki/D_(programming_language)',
     'DM': 'http://www.byond.com/docs/guide/',
     'Dart': 'https://en.wikipedia.org/wiki/Dart_(programming_language)',
+    'Elixir': 'https://elixir-lang.org/',
     'Elm': 'https://en.wikipedia.org/wiki/Elm_(programming_language)',
     'Emacs Lisp': 'https://en.wikipedia.org/wiki/Emacs_Lisp',
     'F#': 'https://en.wikipedia.org/wiki/F_Sharp_(programming_language)',

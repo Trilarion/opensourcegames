@@ -4,7 +4,7 @@
 - State: beta
 - Play: https://bashfighter.com
 - Platform: Web
-- Keyword: platform, action, multiplayer online, fighting game, content open
+- Keyword: action, platform, content open, fighting game, multiplayer online
 - Code repository: https://github.com/Bash-Entertainment/bash-fighter.git
 - Code language: TypeScript
 - Code license: AGPL-3.0

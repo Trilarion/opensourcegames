@@ -1,6 +1,6 @@
-# ThingsPool
+# Robot Rooms
 
-- Home: https://thingspool.net
+- Home: https://thingspool.net/RobotRooms/page.html
 - State: beta
 - Play: https://app.thingspool.net/?ref=osgl
 - Platform: Web
@@ -17,4 +17,4 @@ A 3D sandbox world in the browser, made of rooms of blocks, where people and AI 
 ## Building
 
 - Build system: npm
-- Build instruction: https://github.com/architsch/youngjin/blob/main/docs/devOps/local_dev.md
+- Build instruction: https://github.com/architsch/youngjin/blob/main/robot-rooms/docs/devOps/local_dev.md

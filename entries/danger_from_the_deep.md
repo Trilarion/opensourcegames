@@ -4,7 +4,7 @@
 - Inspiration: Silent Hunter 4
 - State: beta, inactive since 2011
 - Download: https://web.archive.org/web/20230522202857/https://dangerdeep.sourceforge.net/downloads/, https://sourceforge.net/projects/dangerdeep/files/
-- Keyword: remake, simulation, 3D
+- Keyword: simulation, 3D, remake or clone
 - Code repository: https://codeberg.org/osgames/dangerdeep.git (conversion and cleanup of git), https://git.code.sf.net/p/dangerdeep/git (@add), https://svn.code.sf.net/p/dangerdeep/code (svn)
 - Code language: C++, C
 - Code license: GPL-2.0

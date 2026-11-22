@@ -3,7 +3,7 @@
 - Home: https://unknown-horizons.org/
 - Inspiration: "Anno (series)"
 - State: beta
-- Keyword: strategy, 2D, clone, content open, real-time
+- Keyword: strategy, 2D, content open, real-time, remake or clone
 - Code repository: https://github.com/unknown-horizons/godot-port.git (@created 2019, @stars 625, @forks 78)
 - Code language: GDScript
 - Code license: GPL-2.0

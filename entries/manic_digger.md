@@ -5,7 +5,7 @@
 - State: mature, inactive since 2017
 - Download: https://github.com/manicdigger/manicdigger/releases
 - Platform: Windows
-- Keyword: remake, simulation, sandbox, voxel
+- Keyword: simulation, remake or clone, sandbox, voxel
 - Code repository: https://github.com/manicdigger/manicdigger.git (@created 2014, @stars 306, @forks 77), https://git.code.sf.net/p/manicdigger/code
 - Code language: C#
 - Code license: Public domain, Unlicense (where Public domain fails)

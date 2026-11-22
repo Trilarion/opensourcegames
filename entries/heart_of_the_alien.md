@@ -5,7 +5,7 @@
 - State: beta, inactive since 2005
 - Download: https://sourceforge.net/projects/hota/files/
 - Platform: Windows
-- Keyword: adventure, remake, content commercial, original required
+- Keyword: adventure, content commercial, original required, remake or clone
 - Code repository: https://codeberg.org/osgames/hota.git (conversion of cvs)
 - Code language: C
 - Code license: GPL-2.0

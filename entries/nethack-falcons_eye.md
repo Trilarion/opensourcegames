@@ -5,7 +5,7 @@
 - State: mature, inactive since 2004
 - Download: https://sourceforge.net/projects/falconseye/files/
 - Platform: Windows, Linux
-- Keyword: remake, simulation, isometric, roguelike
+- Keyword: simulation, isometric, remake or clone, roguelike
 - Code repository: https://codeberg.org/osgames/nethack-falcons-eye.git
 - Code language: C
 - Code license: NetHack General Public License

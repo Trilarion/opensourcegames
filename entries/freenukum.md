@@ -5,7 +5,7 @@
 - State: beta, inactive since 2009
 - Download: https://launchpad.net/freenukum/+download
 - Platform: Linux
-- Keyword: remake, content commercial (?), original required, shooter
+- Keyword: action, platform, content commercial (?), original required, remake or clone, shooter
 - Code repository: https://codeberg.org/osgames/freenukum.git (conversion of bzr)
 - Code language: C
 - Code license: GPL-3.0

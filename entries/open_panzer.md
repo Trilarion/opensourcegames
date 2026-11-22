@@ -4,7 +4,7 @@
 - Inspiration: Panzer General 2
 - State: mature
 - Platform: Web
-- Keyword: remake, strategy, online, tiles, turn-based
+- Keyword: strategy, online, remake or clone, tiles, turn-based
 - Code repository: https://github.com/nicupavel/openpanzer.git (@created 2012, @stars 151, @forks 39)
 - Code language: JavaScript
 - Code license: GPL-2.0

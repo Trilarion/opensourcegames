@@ -3,7 +3,7 @@
 - Home: https://nukeykt.retrohost.net/
 - Inspiration: Blood
 - State: mature
-- Keyword: remake, content commercial, first-person, original required, shooter
+- Keyword: action, content commercial, first-person, original required, remake or clone, shooter
 - Code repository: https://github.com/NBlood/NBlood.git (@created 2019, @stars 542, @forks 76)
 - Code language: C, C++, Lua
 - Code license: GPL-2.0

@@ -3,7 +3,7 @@
 - Home: https://github.com/slx7R4GDZM/Sine
 - Inspiration: Asteroids
 - State: beta
-- Keyword: action, remake
+- Keyword: action, remake or clone
 - Code repository: https://github.com/slx7R4GDZM/Sine.git (@created 2016, @stars 6, @forks 2)
 - Code language: C, C++
 - Code license: MIT

@@ -6,7 +6,7 @@
 - State: mature
 - Download: https://www.oolite.space/#download, https://github.com/OoliteProject/oolite/releases
 - Platform: Windows, Linux, macOS
-- Keyword: simulation, 3D, clone, space, trading
+- Keyword: simulation, 3D, remake or clone, space, trading
 - Code repository: https://github.com/OoliteProject/oolite.git (@created 2013, @stars 504, @forks 71)
 - Code language: Objective-C, C, JavaScript
 - Code license: GPL-2.0

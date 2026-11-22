@@ -3,7 +3,7 @@
 - Home: https://github.com/cubosphere/cubosphere-code, https://sourceforge.net/projects/cubosphere/
 - Inspiration: Kula World
 - State: beta
-- Keyword: puzzle, remake
+- Keyword: puzzle, remake or clone
 - Code repository: https://github.com/cubosphere/cubosphere-code.git (@created 2018, @stars 20, @forks 7), https://github.com/cubosphere/cubosphere-data.git (@add, @created 2018, @stars 5, @forks 3), bzr://cubosphere.bzr.sourceforge.net/bzrroot/cubosphere (@old, bzr)
 - Code language: C, C++, Lua
 - Code license: GPL-3.0

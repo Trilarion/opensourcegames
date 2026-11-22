@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/One_Hour_One_Life
 - State: mature
 - Platform: Web
-- Keyword: remake, content open, multiplayer, online
+- Keyword: simulation, content open, multiplayer, online, remake or clone
 - Code repository: https://github.com/jasonrohrer/OneLife.git (@created 2017, @stars 970, @forks 279)
 - Code language: C, C++, PHP
 - Code license: Public domain (https://github.com/jasonrohrer/OneLife/blob/master/no_copyright.txt)

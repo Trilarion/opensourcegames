@@ -3,7 +3,7 @@
 - Home: https://github.com/sandsmark/aicompo-tg17
 - Inspiration: Pac-Man
 - State: mature, inactive since 2016
-- Keyword: action, remake
+- Keyword: action, remake or clone
 - Code repository: https://github.com/sandsmark/aicompo-tg17.git (@created 2017, @stars 17, @forks 2)
 - Code language: C++
 - Code license: GPL-3.0

@@ -4,7 +4,7 @@
 - Inspiration: The Clue!
 - State: beta, inactive since 2017
 - Download: https://sourceforge.net/projects/cosp/files/
-- Keyword: action, adventure, clone
+- Keyword: action, adventure, remake or clone
 - Code repository: https://github.com/vcosta/derclou.git (@created 2012, @stars 22, @forks 13), http://cosp.cvs.sourceforge.net (cvs)
 - Code language: C
 - Code license: Custom (Der Clou! Public License)

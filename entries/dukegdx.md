@@ -3,7 +3,7 @@
 - Home: http://m210.duke4.net/
 - Inspiration: Duke Nukem 3D
 - State: beta
-- Keyword: action, remake, content commercial, multiplayer online + LAN + Co-op, shooter
+- Keyword: action, content commercial, multiplayer online + LAN + Co-op, remake or clone, shooter
 - Code repository: https://gitlab.com/m210/DukeGDX.git (@created 2018, @stars 11, @forks 3)
 - Code language: Java
 - Code license: GPL-3.0

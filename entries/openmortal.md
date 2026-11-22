@@ -5,7 +5,7 @@
 - State: beta, inactive since 2006
 - Download: https://openmortal.sourceforge.net/download.html
 - Platform: Windows, Linux, macOS
-- Keyword: action, clone
+- Keyword: action, remake or clone
 - Code repository: https://codeberg.org/osgames/openmortal.git (conversion of cvs)
 - Code language: C++, Perl
 - Code license: GPL-2.0

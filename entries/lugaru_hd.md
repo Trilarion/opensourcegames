@@ -5,7 +5,7 @@
 - Inspiration: Lugaru: The Rabbit's Foot
 - State: mature
 - Platform: Windows, Linux, macOS
-- Keyword: action, remake
+- Keyword: action, remake or clone
 - Code repository: https://gitlab.com/osslugaru/lugaru.git (@created 2016, @stars 80, @forks 28)
 - Code language: C++
 - Code license: GPL-2.0

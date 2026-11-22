@@ -5,7 +5,7 @@
 - State: mature, inactive since 2016
 - Download: https://github.com/antrad/Abuse_1996/releases
 - Platform: Windows
-- Keyword: remake, content open
+- Keyword: action, platform, content open, remake or clone
 - Code repository: https://github.com/antrad/Abuse_1996.git (@created 2016, @stars 128, @forks 24)
 - Code language: C++, Lisp
 - Code license: Custom, Public domain, GPL-2.0, WTFPL

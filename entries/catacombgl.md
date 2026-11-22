@@ -4,7 +4,7 @@
 - Inspiration: Catacomb 3-D
 - State: beta
 - Platform: Windows
-- Keyword: remake, content commercial
+- Keyword: action, content commercial, remake or clone
 - Code repository: https://github.com/ArnoAnsems/CatacombGL.git (@created 2018, @stars 132, @forks 12)
 - Code language: C++
 - Code license: GPL-3.0

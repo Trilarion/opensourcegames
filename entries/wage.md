@@ -3,7 +3,7 @@
 - Home: https://github.com/asvitkine/wage-engine
 - Inspiration: World Builder
 - State: mature, inactive since 2017
-- Keyword: remake, tool, content commercial
+- Keyword: tool, content commercial, remake or clone
 - Code repository: https://github.com/asvitkine/wage-engine.git (@created 2015, @stars 7, @forks 4)
 - Code language: Java
 - Code license: MIT

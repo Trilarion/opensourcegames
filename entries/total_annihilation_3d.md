@@ -5,7 +5,7 @@
 - Inspiration: Total Annihilation
 - State: beta, inactive since 2017
 - Platform: Windows, Linux, macOS
-- Keyword: remake, strategy, content commercial, original required (?), real-time
+- Keyword: strategy, content commercial, original required (?), real-time, remake or clone
 - Code repository: https://github.com/zuzuf/TA3D.git (@created 2017, @stars 52, @forks 7)
 - Code language: C++, C, Lua
 - Code license: GPL-2.0

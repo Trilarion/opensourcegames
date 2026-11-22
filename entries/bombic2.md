@@ -3,7 +3,7 @@
 - Home: https://bombic2.sourceforge.net/, https://sourceforge.net/projects/bombic2/
 - Inspiration: Bomberman
 - State: beta, inactive since 2010
-- Keyword: action, remake
+- Keyword: action, remake or clone
 - Code repository: https://svn.code.sf.net/p/bombic2/code (svn)
 - Code language: C++
 - Code license: GPL-2.0

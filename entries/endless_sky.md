@@ -5,7 +5,7 @@
 - Inspiration: Escape Velocity
 - State: mature
 - Download: https://github.com/endless-sky/endless-sky/releases
-- Keyword: role playing, 2D, clone, popular, space, trading
+- Keyword: role playing, 2D, popular, remake or clone, space, trading
 - Code repository: https://github.com/endless-sky/endless-sky.git (@created 2015, @stars 5102, @forks 936)
 - Code language: C++
 - Code license: GPL-3.0

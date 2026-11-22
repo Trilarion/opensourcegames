@@ -4,7 +4,7 @@
 - Inspiration: SkiFree
 - State: beta, inactive since 2011
 - Platform: Web
-- Keyword: arcade, remake, sports
+- Keyword: arcade, sports, remake or clone
 - Code repository: https://github.com/andymason/Skifree-HTML5-clone.git (@created 2011, @stars 21, @forks 8)
 - Code language: JavaScript
 - Code license: GPL-3.0

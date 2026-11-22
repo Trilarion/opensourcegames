@@ -4,7 +4,7 @@
 - Inspiration: LinCity, SimCity
 - State: mature
 - Download: https://sourceforge.net/projects/lincity-ng.berlios/files/
-- Keyword: simulation, city, clone
+- Keyword: simulation, city, remake or clone
 - Code repository: https://github.com/lincity-ng/lincity-ng.git (@created 2015, @stars 373, @forks 79)
 - Code language: C++
 - Code license: GPL-2.0

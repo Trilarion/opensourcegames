@@ -3,14 +3,15 @@ requires = ["setuptools>=64"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "osgl-maintenance"
+name = "osgl"
 version = "0.1.0"
-description = "Maintenance scripts for the Open Source Games List (OSGL)"
+description = "Maintenance tools for the Open Source Games List (OSGL)"
 requires-python = ">=3.12"
 # dependencies are unpinned to allow flexible version updates
 dependencies = [
     "pygithub",
     "python-gitlab",
+    "python-dateutil",
     "lark-parser",
     "BeautifulSoup4",
     "PySide6",
@@ -24,8 +25,31 @@ dependencies = [
     "matplotlib",
 ]
 
-# The scripts are run directly from this folder and are not an installable package;
-# installing this project only installs the dependencies.
-[tool.setuptools]
-py-modules = []
-packages = []
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
+
+[project.scripts]
+osgl-entries = "osgl.maintenance.entries:main"
+osgl-developers = "osgl.maintenance.developers:main"
+osgl-inspirations = "osgl.maintenance.inspirations:main"
+osgl-screenshots = "osgl.maintenance.screenshots:main"
+osgl-archive = "osgl.archiving.update:main"
+osgl-website = "osgl.website.generate:main"
+
+# The package works on the data of the repository it lives in (entries, developers.md, ...). During development it
+# is not installed but used from src/ on the Python path (see README.md). If installed (only needed for the osgl-*
+# commands), then in editable mode: pip install -e .[dev]
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+osgl = [
+    "grammars/*.lark",
+    "website/templates/*.jinja",
+    "website/static/*",
+    "website/static/css/*",
+    "website/static/css/fonts/*",
+    "website/static/js/*",
+]

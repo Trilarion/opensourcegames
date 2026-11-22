@@ -6,7 +6,7 @@
 - State: mature
 - Download: https://sourceforge.net/projects/stepmania/files/
 - Platform: Windows
-- Keyword: music, clone
+- Keyword: music, remake or clone
 - Code repository: https://github.com/stepmania/stepmania.git (@created 2013, @stars 1789, @forks 443)
 - Code language: C, C++, Lua
 - Code license: MIT

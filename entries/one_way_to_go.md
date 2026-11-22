@@ -3,7 +3,7 @@
 - Home: https://gordebak.itch.io/onewaytogo
 - Inspiration: Sensitive
 - State: mature, inactive since 2017
-- Keyword: puzzle, remake
+- Keyword: puzzle, remake or clone
 - Code language: Lua
 - Code license: GPL-3.0
 - Code dependency: LÖVE

@@ -5,7 +5,7 @@
 - Inspiration: Risk
 - State: beta, inactive since 2015
 - Platform: Linux
-- Keyword: strategy, clone
+- Keyword: strategy, remake or clone
 - Code repository: https://github.com/wfx/teg.git (@created 2014, @stars 46, @forks 12)
 - Code language: C, JavaScript, Perl, C++
 - Code license: GPL-2.0

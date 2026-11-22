@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://releases.axiodl.com
 - Platform: Windows, Linux, macOS
-- Keyword: game engine, remake, content commercial, original required
+- Keyword: game engine, content commercial, original required, remake or clone
 - Code repository: https://gitlab.axiodl.com/AxioDL/metaforce.git, https://github.com/AxioDL/metaforce.git (@created 2015, @stars 562, @forks 43)
 - Code language: C, C++
 - Code license: MIT

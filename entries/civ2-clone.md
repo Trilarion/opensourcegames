@@ -3,7 +3,7 @@
 - Home: https://github.com/axx0/Civ2-clone
 - Inspiration: Civilization II
 - State: beta
-- Keyword: remake, strategy, content commercial, turn-based
+- Keyword: strategy, content commercial, remake or clone, turn-based
 - Code repository: https://github.com/axx0/Civ2-clone.git (@created 2020, @stars 49, @forks 10)
 - Code language: C#
 - Code license: GPL-3.0

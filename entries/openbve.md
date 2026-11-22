@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://openbve-project.net/download/
 - Platform: Windows, Linux, macOS
-- Keyword: simulation, clone, content open
+- Keyword: simulation, content open, remake or clone
 - Code repository: https://github.com/leezer3/OpenBVE.git (@created 2015, @stars 256, @forks 51)
 - Code language: C#
 - Code license: Public domain

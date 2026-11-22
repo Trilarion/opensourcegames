@@ -6,7 +6,7 @@
 - State: mature
 - Download: https://www.wesnoth.org/#download, https://sourceforge.net/projects/wesnoth-on-android/files/
 - Platform: Windows, Linux, macOS, Android, iOS
-- Keyword: strategy, clone, multiplayer, setting fantasy, turn-based
+- Keyword: strategy, multiplayer, remake or clone, setting fantasy, turn-based
 - Code repository: https://github.com/wesnoth/wesnoth.git (@created 2013, @stars 5082, @forks 960)
 - Code language: C, C++, Java, Python, Lua
 - Code license: GPL-2.0

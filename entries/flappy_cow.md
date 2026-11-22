@@ -4,7 +4,7 @@
 - Inspiration: Flappy Bird
 - State: mature
 - Platform: Android
-- Keyword: remake, skill
+- Keyword: arcade, remake or clone, skill
 - Code repository: https://github.com/cubei/FlappyCow.git (@created 2014, @stars 278, @forks 198)
 - Code language: Java
 - Code license: MIT

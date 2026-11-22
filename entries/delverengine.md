@@ -3,7 +3,7 @@
 - Home: https://github.com/Interrupt/delverengine
 - Inspiration: Delver
 - State: mature
-- Keyword: game engine, remake, content commercial
+- Keyword: game engine, content commercial, remake or clone
 - Code repository: https://github.com/Interrupt/delverengine.git (@created 2018, @stars 788, @forks 76)
 - Code language: Java
 - Code license: Custom (modified zlib)

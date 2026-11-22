@@ -5,7 +5,7 @@
 - Inspiration: Battle Isle series
 - State: mature, inactive since 2010
 - Download: https://crimson.seul.org/download.php
-- Keyword: strategy, clone, turn-based
+- Keyword: strategy, remake or clone, turn-based
 - Code repository: https://codeberg.org/osgames/crimson.git (import of cvs)
 - Code language: C++, C
 - Code license: GPL-2.0

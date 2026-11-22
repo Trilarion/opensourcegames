@@ -5,7 +5,7 @@
 - State: mature
 - Play: https://bemuse.ninja/
 - Platform: Web
-- Keyword: music, clone, content free
+- Keyword: music, content free, remake or clone
 - Code repository: https://github.com/bemusic/bemuse.git (@created 2014, @stars 1102, @forks 145)
 - Code language: JavaScript, TypeScript
 - Code license: AGPL-3.0

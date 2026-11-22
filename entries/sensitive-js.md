@@ -4,7 +4,7 @@
 - Inspiration: Sensitive
 - State: beta, inactive since 2017
 - Platform: Web
-- Keyword: action, remake
+- Keyword: action, remake or clone
 - Code repository: https://github.com/bylexus/sensitive-js.git (@created 2017, @stars 4, @forks 2)
 - Code language: JavaScript
 - Code license: Custom (NC, https://github.com/bylexus/sensitive-js#license-information)

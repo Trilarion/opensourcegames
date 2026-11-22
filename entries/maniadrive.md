@@ -5,7 +5,7 @@
 - State: mature, inactive since 2008
 - Download: http://maniadrive.raydium.org/index.php?downloads=yes, https://sourceforge.net/projects/maniadrive/files/
 - Platform: Windows, Linux
-- Keyword: remake, clone, content open, engine, racing
+- Keyword: arcade, content open, engine, racing, remake or clone
 - Code repository: svn://raydium.org/raydium/trunk (svn)
 - Code language: PHP
 - Code license: ? (GPL version?)

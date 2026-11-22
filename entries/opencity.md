@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/OpenCity
 - Inspiration: SimCity
 - State: beta, inactive since 2015
-- Keyword: simulation, 3D, clone
+- Keyword: simulation, 3D, remake or clone
 - Code repository: https://codeberg.org/osgames/opencity.git (combination of cvs and svn)
 - Code language: C++
 - Code license: GPL-2.0

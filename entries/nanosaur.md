@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/jorio/Nanosaur/releases
 - Platform: Windows, Linux, macOS
-- Keyword: action, remake, content commercial, shooter
+- Keyword: action, content commercial, remake or clone, shooter
 - Code repository: https://github.com/jorio/Nanosaur.git (@created 2020, @stars 345, @forks 22)
 - Code language: C
 - Code license: CC-BY-NC-SA-4.0

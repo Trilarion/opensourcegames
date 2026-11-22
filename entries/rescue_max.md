@@ -4,7 +4,7 @@
 - Inspiration: Rescue!
 - State: beta, inactive since 2013
 - Download: https://sourceforge.net/projects/rescue/files/
-- Keyword: action, remake, strategy, real-time, space
+- Keyword: action, strategy, real-time, remake or clone, space
 - Code repository: https://svn.code.sf.net/p/rescue/code/ (svn), https://codeberg.org/osgames/rescue.git (@add, conversion of svn)
 - Code language: Java
 - Code license: GPL-3.0

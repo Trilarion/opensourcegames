@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/sharkwouter/oceanpop/releases
 - Platform: Windows, Linux
-- Keyword: puzzle, clone, skill
+- Keyword: puzzle, remake or clone, skill
 - Code repository: https://github.com/sharkwouter/oceanpop.git (@created 2020, @stars 24, @forks 2)
 - Code language: C++
 - Code license: MIT

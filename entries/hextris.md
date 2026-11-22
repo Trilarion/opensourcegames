@@ -5,7 +5,7 @@
 - State: mature
 - Play: https://hextris.io/
 - Platform: Web
-- Keyword: puzzle, clone
+- Keyword: puzzle, remake or clone
 - Code repository: https://github.com/Hextris/Hextris.git (@created 2014, @stars 2164, @forks 959)
 - Code language: JavaScript
 - Code license: GPL-3.0

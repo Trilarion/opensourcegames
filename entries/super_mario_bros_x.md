@@ -3,7 +3,7 @@
 - Home: https://www.smbxgame.com
 - Inspiration: Super Mario
 - State: mature, inactive since 2020
-- Keyword: arcade, clone, content commercial, multiplayer Competitive + Local + Split-screen
+- Keyword: arcade, content commercial, multiplayer Competitive + Local + Split-screen, remake or clone
 - Code repository: https://github.com/smbx/smbx-legacy-source.git (@archived, @created 2020, @stars 92, @forks 30)
 - Code language: Visual Basic
 - Code license: MIT

@@ -4,7 +4,7 @@
 - Inspiration: Shadow Warrior
 - State: beta, inactive since 2005
 - Platform: Windows
-- Keyword: remake
+- Keyword: action, remake or clone
 - Code repository: https://github.com/jonof/jfsw.git (@created 2010, @stars 80, @forks 18)
 - Code language: C
 - Code license: GPL-2.0

@@ -3,7 +3,7 @@
 - Home: https://holarse.de/wiki/open_valley
 - Inspiration: Stardew Valley
 - State: beta
-- Keyword: remake, role playing, simulation, content open
+- Keyword: role playing, simulation, content open, remake or clone
 - Code repository: https://gitea.it/rixty/OpenValley.git
 - Code language: C++
 - Code license: CC-BY-NC-SA-4.0

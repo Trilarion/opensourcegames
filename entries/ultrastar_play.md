@@ -4,7 +4,7 @@
 - Inspiration: SingStar
 - State: beta
 - Platform: Windows, Linux, macOS, Android
-- Keyword: music, remake, karaoke
+- Keyword: music, karaoke, remake or clone
 - Code repository: https://github.com/UltraStar-Deluxe/Play.git (@created 2017, @stars 355, @forks 63)
 - Code language: C#
 - Code license: MIT

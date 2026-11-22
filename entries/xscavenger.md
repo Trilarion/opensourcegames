@@ -4,7 +4,7 @@
 - Inspiration: Lode Runner
 - State: mature, inactive since 2015
 - Download: https://sourceforge.net/projects/sdlscavenger/files/
-- Keyword: puzzle, remake, 2D
+- Keyword: puzzle, 2D, remake or clone
 - Code language: C
 - Code license: GPL-2.0
 - Developer: Barry Mead, Marc Le Douarain

@@ -5,7 +5,7 @@
 - State: beta
 - Play: https://play.armor-alley.net/
 - Platform: Web
-- Keyword: action, remake, strategy, content open + non-commercial, shooter
+- Keyword: action, strategy, content open + non-commercial, remake or clone, shooter
 - Code repository: https://github.com/scottschiller/ArmorAlley.git (@created 2013, @stars 85, @forks 24)
 - Code language: JavaScript
 - Code license: CC-BY-NC-3.0 (https://github.com/scottschiller/ArmorAlley/blob/master/LICENSE.txt)

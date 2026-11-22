@@ -3,7 +3,7 @@
 - Home: https://github.com/stuart73/UnityPacmania
 - Inspiration: Pac-Mania
 - State: mature
-- Keyword: arcade, clone, content commercial
+- Keyword: arcade, content commercial, remake or clone
 - Code repository: https://github.com/stuart73/UnityPacmania.git (@created 2021, @stars 8, @forks 2)
 - Code language: C#
 - Code license: Custom (everything allowed, see https://github.com/stuart73/UnityPacmania/issues/2)

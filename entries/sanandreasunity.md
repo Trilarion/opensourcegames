@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/in0finite/SanAndreasUnity/releases
 - Platform: Windows, Linux, Android
-- Keyword: remake, content commercial, multiplayer online + LAN
+- Keyword: action, content commercial, multiplayer online + LAN, remake or clone
 - Code repository: https://github.com/in0finite/SanAndreasUnity.git (@created 2018, @stars 1989, @forks 324)
 - Code language: C#
 - Code license: MIT

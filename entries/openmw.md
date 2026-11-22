@@ -5,7 +5,7 @@
 - Inspiration: The Elder Scrolls III: Morrowind
 - State: mature
 - Download: https://openmw.org/downloads/
-- Keyword: game engine, remake, role playing, content commercial, original required (Morrowind)
+- Keyword: game engine, role playing, content commercial, original required (Morrowind), remake or clone
 - Code repository: https://github.com/OpenMW/openmw.git (@created 2009, @stars 5076, @forks 922), https://github.com/xyzz/openmw-android.git
 - Code language: C++
 - Code license: GPL-3.0

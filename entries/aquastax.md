@@ -4,7 +4,7 @@
 - Inspiration: Aquastax
 - State: beta
 - Platform: Web
-- Keyword: puzzle, remake
+- Keyword: puzzle, remake or clone
 - Code repository: https://github.com/LongSteve/aquastax.git (@created 2016, @stars 13, @forks 2)
 - Code language: JavaScript
 - Code license: MIT

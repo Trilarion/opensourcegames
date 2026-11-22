@@ -5,7 +5,7 @@
 - Inspiration: Powerslave
 - State: beta, inactive since 2017
 - Platform: Windows, Linux, macOS
-- Keyword: remake, content commercial (?)
+- Keyword: action, content commercial (?), remake or clone
 - Code repository: https://github.com/svkaiser/PowerslaveEX.git (@created 2017, @stars 161, @forks 28)
 - Code language: C, C++
 - Code license: GPL-3.0

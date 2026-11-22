@@ -4,7 +4,7 @@
 - Inspiration: Prince of Persia
 - State: beta, inactive since 2011
 - Download: https://web.archive.org/web/20250722145134/https://www.princed.org/downloads/#FreePrince
-- Keyword: action, platform, remake
+- Keyword: action, platform, remake or clone
 - Code language: C
 - Code license: GPL-2.0
 

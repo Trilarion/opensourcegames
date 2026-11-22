@@ -6,7 +6,7 @@
 - State: mature
 - Download: https://cxong.github.io/cdogs-sdl/downloads.html
 - Platform: Windows, Linux, macOS
-- Keyword: action, remake, shooter
+- Keyword: action, remake or clone, shooter
 - Code repository: https://github.com/cxong/cdogs-sdl.git (@created 2013, @stars 832, @forks 115)
 - Code language: C
 - Code license: GPL-2.0 (parts 2-clause BSD)

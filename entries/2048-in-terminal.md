@@ -3,7 +3,7 @@
 - Home: https://github.com/alewmoose/2048-in-terminal
 - Inspiration: 2048
 - State: mature
-- Keyword: puzzle, clone, content open
+- Keyword: puzzle, content open, remake or clone
 - Code repository: https://github.com/alewmoose/2048-in-terminal.git (@created 2014, @stars 142, @forks 23)
 - Code language: C
 - Code license: MIT

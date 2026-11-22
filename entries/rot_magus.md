@@ -6,7 +6,7 @@
 - State: beta
 - Play: https://gamejolt.com/games/rm/41491
 - Platform: Web
-- Keyword: remake, role playing, content open, roguelike, turn-based
+- Keyword: role playing, content open, remake or clone, roguelike, turn-based
 - Code repository: https://github.com/kosinaz/Rot-Magus.git (@created 2014, @stars 19, @forks 1), https://github.com/cxong/MagusPreservation.git (@add, @created 2014, @stars 28, @forks 6)
 - Code language: JavaScript
 - Code license: Apache-2.0, CC0

@@ -23,7 +23,7 @@ Developer info: The grammar to parse an entry programmatically is in code/gramma
 On the first line of the game entry should be the official name of the game as written
 by the developers of the game on their homepage, including capitalization.
 
-Developer info: the name the game entry file is derived from the game name. See code/utils/osg.py/canonical_name()
+Developer info: the name the game entry file is derived from the game name. See code/src/osgl/osg.py/canonical_name()
 
 ### Home
 
@@ -95,12 +95,11 @@ Essential keywords
 - game engine: Core software architecture that handles main functionality and mechanics of a video game.
 - framework: Suite of libraries, that provide developers with tools, libraries and reusable components needed in the creation of video games handling commonly used tasks.
 - library: Collection of pre-written code that developers can use to perform specific tasks bundled in one project.
-- remake: New version of an existing game that remains as closely as possible to the original gameplay mechanics but may improve on audio and visuals or improve compatibility with modern platforms.
 
 Other popular keywords
 
 - content: Status of the artwork (sound, graphics, ..) of the game, which may be under different licenses or not freely available than the code.
-- clone: Game that is inspired by an existing game and may show similar gameplay and audiovisuals, but may also deviate somewhat from the original's narrative.
+- remake or clone: New version or reimplementation of an existing game (or its engine). This includes remakes that stay as close as possible to the original gameplay mechanics but may improve on audio and visuals or compatibility with modern platforms, as well as clones that are inspired by an existing game and show similar gameplay and audiovisuals, but may deviate somewhat from the original. Is not a genre, a recommended keyword is still needed.
 - shooter: Action game focused on combat with ranged weapons.
 - 2D/3D: Dimensional representation of game objects with either flat visuals (2D) or having depth (3D) for more realistic representations.
 - turn-based/real-time: Turn-based gameplay allows players to sequentially take longer time to make decisions while in real-time gameplay all players make decisions and take actions simultaneously, often under considerable time pressure.
@@ -116,7 +115,7 @@ Other popular keywords
 - official: A game whose code base has been released by the original commercial publisher
 - 4X: Strategy games characterized by four key elements: eXplore, eXpand, eXploit, and eXterminate.
 
-Developer info: Essential and interesting keywords are defined in code/utils/constants.py. They
+Developer info: Essential and interesting keywords are defined in code/src/osgl/constants.py. They
 will be used as categories in the HTML rendering.
 
 ### Code repository

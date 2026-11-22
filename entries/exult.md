@@ -5,7 +5,7 @@
 - Inspiration: Ultima VII: The Black Gate
 - State: mature
 - Download: https://exult.sourceforge.io/download.html
-- Keyword: remake, role playing
+- Keyword: role playing, remake or clone
 - Code repository: https://github.com/exult/exult.git (@created 2016, @stars 457, @forks 72)
 - Code language: C++
 - Code license: GPL-2.0

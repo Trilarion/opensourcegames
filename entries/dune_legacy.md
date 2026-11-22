@@ -4,7 +4,7 @@
 - Inspiration: Dune 2
 - State: mature
 - Download: https://dunelegacy.sourceforge.net/website/downloads.html, https://sourceforge.net/projects/dunelegacy/files
-- Keyword: remake, strategy, content commercial, original required
+- Keyword: strategy, content commercial, original required, remake or clone
 - Code repository: https://git.code.sf.net/p/dunelegacy/code
 - Code language: C++
 - Code license: GPL-2.0

@@ -4,7 +4,7 @@
 - Media: https://web.archive.org/web/20160505182543/http://www.myandroidonline.com/2016/03/12/super-mario-bros-in-c/
 - Inspiration: Super Mario
 - State: beta
-- Keyword: platform, clone
+- Keyword: platform, remake or clone
 - Code repository: https://github.com/jazzyjester/Mario-Game.git (@created 2015, @stars 74, @forks 40)
 - Code language: C#
 - Code license: MIT

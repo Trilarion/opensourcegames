@@ -4,7 +4,7 @@
 - Inspiration: Gorillas
 - State: mature, inactive since 2014
 - Platform: iOS
-- Keyword: remake, artillery
+- Keyword: arcade, artillery, remake or clone
 - Code repository: https://github.com/Lyndir/Gorillas.git (@created 2009, @stars 247, @forks 96)
 - Code language: Objective-C, JavaScript
 - Code license: Java Research License (no commercial use)

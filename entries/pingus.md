@@ -6,7 +6,7 @@
 - State: mature
 - Download: https://pingus.github.io/download.html
 - Platform: Windows, Linux, macOS
-- Keyword: puzzle, clone, content open
+- Keyword: puzzle, content open, remake or clone
 - Code repository: https://github.com/Pingus/pingus.git (@created 2018, @stars 14, @forks 13)
 - Code language: C++, Scheme
 - Code license: GPL-3.0

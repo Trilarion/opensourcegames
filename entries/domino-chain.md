@@ -3,7 +3,7 @@
 - Home: https://domino-chain.gitlab.io/
 - Inspiration: Pushover
 - State: mature
-- Keyword: puzzle, remake
+- Keyword: puzzle, remake or clone
 - Code repository: https://gitlab.com/domino-chain/domino-chain.gitlab.io.git
 - Code language: C++, C
 - Code license: GPL-3.0

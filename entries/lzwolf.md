@@ -3,7 +3,7 @@
 - Home: https://web.archive.org/web/20220319204404/http://wolf3d.net/lzwolf/
 - Inspiration: Wolfenstein 3D
 - State: mature
-- Keyword: action, remake, content commercial, original required, shooter
+- Keyword: action, content commercial, original required, remake or clone, shooter
 - Code repository: https://bitbucket.org/linuxwolf6/lzwolf.git
 - Code language: C++
 - Code license: 3-clause BSD

@@ -3,7 +3,7 @@
 - Home: https://glportal.de/
 - Inspiration: Portal
 - State: beta
-- Keyword: platform, puzzle, remake
+- Keyword: platform, puzzle, remake or clone
 - Code repository: https://github.com/GlPortal/glPortal.git (@created 2014, @stars 353, @forks 108)
 - Code language: C++
 - Code license: zlib

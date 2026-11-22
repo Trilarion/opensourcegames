@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Lincity
 - Inspiration: SimCity
 - State: mature, inactive since 2005
-- Keyword: simulation, city, clone
+- Keyword: simulation, city, remake or clone
 - Code repository: https://codeberg.org/osgames/lincity.git (backup of cvs)
 - Code language: C
 - Code license: GPL-2.0

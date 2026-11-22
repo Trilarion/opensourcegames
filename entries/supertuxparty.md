@@ -4,7 +4,7 @@
 - Inspiration: Mario Party
 - State: beta
 - Platform: Windows, Linux, macOS
-- Keyword: action, clone, content open, entertainment, multiplayer split-screen
+- Keyword: action, content open, entertainment, multiplayer split-screen, remake or clone
 - Code repository: https://gitlab.com/SuperTuxParty/SuperTuxParty.git (@created 2018, @stars 95, @forks 23)
 - Code language: GDScript
 - Code license: GPL-3.0

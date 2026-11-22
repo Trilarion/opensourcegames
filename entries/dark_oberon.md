@@ -4,7 +4,7 @@
 - Inspiration: Warcraft II
 - State: mature, inactive since 2009
 - Download: https://dark-oberon.sourceforge.io/?page=download
-- Keyword: strategy, clone, real-time
+- Keyword: strategy, real-time, remake or clone
 - Code repository: https://codeberg.org/osgames/dark-oberon.git (backup of csv and svn)
 - Code language: C++, C, Objective-C
 - Code license: GPL-2.0

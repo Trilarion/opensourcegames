@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://sourceforge.net/projects/pysolfc/files/PySolFC/
 - Platform: Windows, Linux, macOS
-- Keyword: cards, strategy, clone, content open
+- Keyword: cards, strategy, content open, remake or clone
 - Code repository: https://github.com/shlomif/PySolFC.git, https://svn.code.sf.net/p/pysolfc/code/ (history included in GH?)
 - Code language: Python
 - Code license: GPL-3.0

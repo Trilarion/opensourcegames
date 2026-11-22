@@ -5,7 +5,7 @@
 - State: mature, inactive since 2017
 - Play: http://brooklynking.github.io/Grimsonland/
 - Platform: Web
-- Keyword: action, clone, content open
+- Keyword: action, content open, remake or clone
 - Code repository: https://github.com/BrooklynKing/Grimsonland.git (@created 2015, @stars 25, @forks 0)
 - Code language: JavaScript, TypeScript
 - Code license: MIT (https://github.com/BrooklynKing/Grimsonland/blob/master/package.json)

@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://powdertoy.co.uk/Download.html
 - Platform: Windows, Linux, macOS, Android
-- Keyword: simulation, clone, content open
+- Keyword: simulation, content open, remake or clone
 - Code repository: https://github.com/The-Powder-Toy/The-Powder-Toy.git (@created 2010, @stars 4243, @forks 735)
 - Code language: C++, C, Lua, Python
 - Code license: GPL-3.0

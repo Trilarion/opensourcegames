@@ -4,7 +4,7 @@
 - Inspiration: Tetris
 - State: mature, inactive since 2018
 - Download: https://www.spludlow.co.uk/Install/Downloads.aspx, https://www.spludlow.co.uk/Source/Spludlow.Tetris/
-- Keyword: puzzle, clone, content open, multiplayer online + LAN + split-screen
+- Keyword: puzzle, content open, multiplayer online + LAN + split-screen, remake or clone
 - Code language: C#
 - Code license: GPL-3.0
 

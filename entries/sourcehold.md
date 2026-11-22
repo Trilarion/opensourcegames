@@ -3,7 +3,7 @@
 - Home: https://github.com/sourcehold/Sourcehold
 - Inspiration: Stronghold
 - State: beta
-- Keyword: remake, content commercial, original required
+- Keyword: strategy, content commercial, original required, remake or clone
 - Code repository: https://github.com/sourcehold/Sourcehold.git (@created 2019, @stars 240, @forks 23)
 - Code language: C++
 - Code license: MIT

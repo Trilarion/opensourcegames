@@ -4,7 +4,7 @@
 - Inspiration: Kye, Sokoban
 - State: beta, inactive since 2013
 - Download: https://xye.sourceforge.net/download.php, https://sourceforge.net/projects/xye/files/
-- Keyword: arcade, clone, content open
+- Keyword: arcade, content open, remake or clone
 - Code repository: https://codeberg.org/osgames/xye.git (conversion of svn)
 - Code language: C++
 - Code license: zlib

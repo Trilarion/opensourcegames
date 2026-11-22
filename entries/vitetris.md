@@ -5,7 +5,7 @@
 - State: beta
 - Download: http://victornils.net/tetris/#download
 - Platform: Windows, Linux
-- Keyword: puzzle, remake, content open, multiplayer competitive + online
+- Keyword: puzzle, content open, multiplayer competitive + online, remake or clone
 - Code repository: https://github.com/vicgeralds/vitetris.git (@created 2018, @stars 197, @forks 27)
 - Code language: C
 - Code license: 2-clause BSD

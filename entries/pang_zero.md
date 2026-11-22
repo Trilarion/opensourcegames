@@ -5,7 +5,7 @@
 - State: beta, inactive since 2007
 - Download: https://sourceforge.net/projects/pangzero/files/
 - Platform: Linux
-- Keyword: action, arcade, remake
+- Keyword: action, arcade, remake or clone
 - Code repository: https://codeberg.org/osgames/pangzero.git (conversion of cvs)
 - Code language: Perl
 - Code license: GPL-2.0

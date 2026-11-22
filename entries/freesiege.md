@@ -3,7 +3,7 @@
 - Home: https://freesiege.sourceforge.net/
 - Inspiration: Siege
 - State: beta
-- Keyword: puzzle, remake, strategy
+- Keyword: puzzle, strategy, remake or clone
 - Code repository: https://gitlab.com/LibreGames/freesiege.git (@created 2017, @stars 4, @forks 1)
 - Code language: C++
 - Code license: GPL-3.0

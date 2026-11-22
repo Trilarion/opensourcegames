@@ -3,7 +3,7 @@
 - Home: https://apps.kde.org/skladnik
 - State: mature
 - Platform: Linux
-- Keyword: puzzle, remake
+- Keyword: puzzle, remake or clone
 - Code repository: https://invent.kde.org/games/skladnik.git
 - Code language: C++
 - Code license: GPL-2.0

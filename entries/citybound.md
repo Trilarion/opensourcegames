@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://aeplay.org/citybound-livebuilds, https://github.com/citybound/citybound/releases
 - Platform: Windows, Linux, macOS
-- Keyword: simulation, clone, content open
+- Keyword: simulation, content open, remake or clone
 - Code repository: https://github.com/citybound/citybound.git (@created 2016, @stars 7603, @forks 318)
 - Code language: Rust, JavaScript
 - Code license: AGPL-3.0

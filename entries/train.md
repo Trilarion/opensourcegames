@@ -4,7 +4,7 @@
 - Media: https://www.retrogames.cz/play_487-DOS.php?language=EN
 - Inspiration: Vlak
 - State: beta
-- Keyword: remake, skill
+- Keyword: arcade, remake or clone, skill
 - Code repository: https://github.com/nenadalm/Train.git (@created 2012, @stars 3, @forks 1)
 - Code language: Java
 - Code license: 3-clause BSD

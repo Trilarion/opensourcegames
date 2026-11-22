@@ -6,7 +6,7 @@
 - State: mature
 - Download: https://www.ganggarrison.com/downloads.html
 - Platform: Windows
-- Keyword: action, clone, content open, demake, multiplayer online
+- Keyword: action, content open, demake, multiplayer online, remake or clone
 - Code repository: https://github.com/Gang-Garrison-2/Gang-Garrison-2.git (@created 2014, @stars 75, @forks 45)
 - Code language: GameMaker Language
 - Code license: MPL-2.0

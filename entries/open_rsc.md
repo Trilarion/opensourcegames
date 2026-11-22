@@ -4,7 +4,7 @@
 - Inspiration: RuneScape Classic
 - State: mature
 - Platform: Windows, Linux, macOS, Android
-- Keyword: remake, role playing, multiplayer online + massive
+- Keyword: role playing, multiplayer online + massive, remake or clone
 - Code repository: https://gitlab.com/openrsc/openrsc.git (@created 2020, @stars 35, @forks 52), https://gitlab.com/openrsc/single-player.git (@add, @created 2020, @stars 0, @forks 1), https://github.com/Open-RSC/Core-Framework.git (mirror, @created 2018, @stars 216, @forks 123)
 - Code language: Java, C++, C, Objective-C
 - Code license: AGPL-3.0

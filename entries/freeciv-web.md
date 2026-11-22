@@ -6,7 +6,7 @@
 - State: mature
 - Play: https://github.com/freeciv/freeciv-web#live-servers
 - Platform: Web
-- Keyword: strategy, clone, online, turn-based
+- Keyword: strategy, online, remake or clone, turn-based
 - Code repository: https://github.com/freeciv/freeciv-web.git (@created 2013, @stars 1942, @forks 317)
 - Code language: JavaScript, Java, Python
 - Code license: AGPL-3.0

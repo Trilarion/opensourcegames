@@ -5,7 +5,7 @@
 - State: mature, inactive since 2012
 - Download: https://stabyourself.net/mari0/#download
 - Platform: Windows, Linux, macOS
-- Keyword: platform, puzzle, remake
+- Keyword: platform, puzzle, remake or clone
 - Code repository: https://github.com/Stabyourself/mari0.git (@created 2012, @stars 617, @forks 102)
 - Code language: Lua
 - Code license: MIT

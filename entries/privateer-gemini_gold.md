@@ -5,7 +5,7 @@
 - State: mature, inactive since 2012
 - Download: https://privateer.sourceforge.net/files.shtml, https://sourceforge.net/projects/privateer/files/
 - Platform: Windows, Linux, macOS
-- Keyword: adventure, remake, simulation, space
+- Keyword: adventure, simulation, remake or clone, space
 - Code repository: https://svn.code.sf.net/p/privateer/code (svn)
 - Code language: C++
 - Code license: GPL-2.0

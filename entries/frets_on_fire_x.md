@@ -3,7 +3,7 @@
 - Home: https://fofix.org/
 - Inspiration: Frets on Fire, Guitar Hero
 - State: mature
-- Keyword: music, remake
+- Keyword: music, remake or clone
 - Code repository: https://github.com/fofix/fofix.git (@created 2012, @stars 405, @forks 89)
 - Code language: Python
 - Code license: GPL-2.0

@@ -4,7 +4,7 @@
 - Inspiration: Quake II
 - State: mature
 - Platform: Windows, Linux
-- Keyword: action, remake, shooter
+- Keyword: action, remake or clone, shooter
 - Code repository: https://github.com/yquake2/yquake2.git (@created 2012, @stars 798, @forks 205)
 - Code language: C
 - Code license: GPL-2.0

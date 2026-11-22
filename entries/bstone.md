@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/bibendovsky/bstone/releases
 - Platform: Windows
-- Keyword: remake, role playing
+- Keyword: role playing, remake or clone
 - Code repository: https://github.com/bibendovsky/bstone.git (@created 2013, @stars 293, @forks 33)
 - Code language: C++, C
 - Code license: GPL-2.0

@@ -4,7 +4,7 @@
 - Inspiration: Warcraft: Orcs & Humans
 - State: beta
 - Platform: Windows, Linux, Android
-- Keyword: remake, strategy, content commercial, real-time
+- Keyword: strategy, content commercial, real-time, remake or clone
 - Code repository: https://github.com/b3dgs/warcraft-remake.git (@created 2013, @stars 110, @forks 35)
 - Code language: Java
 - Code license: GPL-2.0

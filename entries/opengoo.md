@@ -3,7 +3,7 @@
 - Home: https://github.com/Mandarancio/OpenGOO
 - Inspiration: World of Goo
 - State: beta (alpha), inactive since 2016
-- Keyword: remake, simulation
+- Keyword: simulation, remake or clone
 - Code repository: https://github.com/Mandarancio/OpenGOO.git (@created 2011, @stars 150, @forks 20)
 - Code language: C, C++
 - Code license: GPL-3.0

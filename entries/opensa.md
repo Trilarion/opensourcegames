@@ -3,7 +3,7 @@
 - Home: https://www.moddb.com/mods/opensa/
 - Inspiration: Swarm Assault
 - State: mature
-- Keyword: remake, strategy, multiplayer Online + LAN, real-time
+- Keyword: strategy, multiplayer Online + LAN, real-time, remake or clone
 - Code repository: https://github.com/Dzierzan/OpenSA.git (@created 2019, @stars 82, @forks 11)
 - Code language: C#, Lua
 - Code license: GPL-3.0

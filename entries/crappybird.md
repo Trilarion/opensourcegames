@@ -5,7 +5,7 @@
 - State: mature, inactive since 2017
 - Play: https://varunpant.com/resources/CrappyBird/index.html
 - Platform: Web
-- Keyword: puzzle, remake
+- Keyword: puzzle, remake or clone
 - Code repository: https://github.com/varunpant/CrappyBird.git (@created 2014, @stars 48, @forks 122)
 - Code language: JavaScript
 - Code license: MIT

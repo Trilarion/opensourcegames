@@ -4,7 +4,7 @@
 - Inspiration: Awesomenauts
 - State: beta, inactive since 2015
 - Platform: Web
-- Keyword: action, remake
+- Keyword: action, remake or clone
 - Code repository: https://github.com/zombieman1041/BlakedAwesomenaughts.git (@created 2015, @stars 21, @forks 7)
 - Code language: JavaScript, PHP
 - Code license: MIT

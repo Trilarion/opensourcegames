@@ -102,12 +102,12 @@ tracker (see above).
 
 ### Updates to the code base
 
-All Python scripts reside in the code folder, their purpose is:
+All Python code resides in the code folder (package `osgl` in code/src/osgl, tests in code/tests), its purpose is:
 
-- checking consistency of the contained entry, developer and inspiration information (maintenance_xxx.py)
-- reading and writing markdown files from and to Python dictionaries (with lark grammars *.lark)
-- keep a local set of git repositories of the games (archive_update.py)
-- synchronize with opensourcegameclones and LibreGameWiki (synchronization/*.py)
-- generate the static website that is stored in doc/* (code/html/generate_static_website.py via *.jinja templates)
+- checking consistency of the contained entry, developer and inspiration information (osgl/maintenance/*.py)
+- reading and writing markdown files from and to Python dictionaries (with lark grammars osgl/grammars/*.lark)
+- keep a local set of git repositories of the games (osgl/archiving/update.py)
+- synchronize with opensourcegameclones and LibreGameWiki (osgl/sync/*.py)
+- generate the static website that is stored in doc/* (osgl/website/generate.py via *.jinja templates)
 
 Help: [MarkDown Help](https://help.github.com/articles/github-flavored-markdown), [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)

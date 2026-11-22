@@ -5,7 +5,7 @@
 - State: mature, inactive since 2023
 - Download: https://gitlab.com/roever/toppler/-/releases
 - Platform: Windows, Linux
-- Keyword: action, arcade, puzzle, remake, skill
+- Keyword: action, arcade, puzzle, remake or clone, skill
 - Code repository: https://gitlab.com/roever/toppler.git
 - Code language: C++
 - Code license: GPL-2.0

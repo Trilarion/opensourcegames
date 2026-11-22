@@ -5,7 +5,7 @@
 - State: beta
 - Download: http://opendungeons.github.io/downloads.html
 - Platform: Windows, Linux
-- Keyword: strategy, clone, real-time
+- Keyword: strategy, real-time, remake or clone
 - Code repository: https://github.com/OpenDungeons/OpenDungeons.git (@created 2014, @stars 463, @forks 67)
 - Code language: C++
 - Code license: GPL-3.0

@@ -3,7 +3,7 @@
 - Home: https://battlecity.wordpress.com/
 - Inspiration: Battle City
 - State: mature, inactive since 2013
-- Keyword: action, remake, strategy
+- Keyword: action, strategy, remake or clone
 - Code repository: https://github.com/Deceth/Battle-City.git (@created 2009, @stars 50, @forks 24)
 - Code language: C, C++, Pascal
 - Code license: GPL-3.0

@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Battle_Isle#Clones_and_successors
 - Inspiration: Battle Isle series
 - State: mature
-- Keyword: strategy, clone, turn-based
+- Keyword: strategy, remake or clone, turn-based
 - Code repository: https://github.com/ValHaris/asc-hq.git (@created 2019, @stars 32, @forks 6)
 - Code language: C++
 - Code license: GPL-2.0

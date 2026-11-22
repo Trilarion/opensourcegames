@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://sourceforge.net/projects/freevikings/files/
 - Platform: Windows
-- Keyword: platform, puzzle, clone
+- Keyword: platform, puzzle, remake or clone
 - Code repository: https://git.code.sf.net/p/freevikings/git, http://freevikings.cvs.sourceforge.net (cvs)
 - Code language: Ruby
 - Code license: GPL-2.0

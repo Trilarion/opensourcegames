@@ -3,7 +3,7 @@
 - Home: https://gitlab.com/Mige5/openarena
 - Inspiration: Arena 5
 - State: beta (alpha?)
-- Keyword: simulation, clone, content commercial, management
+- Keyword: simulation, content commercial, management, remake or clone
 - Code repository: https://gitlab.com/Mige5/openarena.git (@created 2022, @stars 1, @forks 0)
 - Code language: Java
 - Code license: GPL-3.0

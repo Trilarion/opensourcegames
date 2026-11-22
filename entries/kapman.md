@@ -4,7 +4,7 @@
 - Inspiration: Pac-Man
 - State: mature
 - Platform: Windows, Linux, macOS
-- Keyword: arcade, clone
+- Keyword: arcade, remake or clone
 - Code repository: https://invent.kde.org/games/kapman.git
 - Code language: C++
 - Code license: GPL-2.0

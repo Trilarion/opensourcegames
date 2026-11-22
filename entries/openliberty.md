@@ -4,7 +4,7 @@
 - Inspiration: Grand Theft Auto III
 - State: beta
 - Platform: Windows, Linux
-- Keyword: action, game engine, remake, content commercial, original required
+- Keyword: action, game engine, content commercial, original required, remake or clone
 - Code repository: https://github.com/FOSS-Supremacy/OpenLiberty.git
 - Code language: GDScript
 - Code license: MIT

@@ -6,7 +6,7 @@
 - State: mature, inactive since 2011
 - Download: https://sourceforge.net/projects/methane/files/Methane%20Stable/
 - Platform: Windows, Linux
-- Keyword: arcade, remake
+- Keyword: arcade, remake or clone
 - Code repository: https://github.com/rombust/Methane.git, https://github.com/sphair/ClanLib.git, https://github.com/sezero/mikmod.git
 - Code language: C++
 - Code license: GPL-2.0

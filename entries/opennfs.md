@@ -3,7 +3,7 @@
 - Home: https://github.com/OpenNFS/OpenNFS
 - Inspiration: Need For Speed III: Hot Pursuit
 - State: beta
-- Keyword: game engine, remake, cars, content commercial, original required, racing
+- Keyword: game engine, cars, content commercial, original required, racing, remake or clone
 - Code repository: https://github.com/OpenNFS/OpenNFS.git (@created 2015, @stars 508, @forks 26)
 - Code language: C, C++
 - Code license: MIT

@@ -5,7 +5,7 @@
 - State: mature
 - Play: https://morrowind.virtastic.app/
 - Platform: Web
-- Keyword: game engine, remake, role playing, content commercial, original required (Morrowind)
+- Keyword: game engine, role playing, content commercial, original required (Morrowind), remake or clone
 - Code repository: https://github.com/Virtastic/openmw-web.git
 - Code language: C++
 - Code license: GPL-3.0

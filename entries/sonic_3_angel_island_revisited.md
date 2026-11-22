@@ -4,7 +4,7 @@
 - Inspiration: Sonic the Hedgehog
 - State: mature
 - Download: https://github.com/Eukaryot/sonic3air/releases
-- Keyword: arcade, remake, content commercial, multiplayer Split-screen
+- Keyword: arcade, content commercial, multiplayer Split-screen, remake or clone
 - Code repository: https://github.com/Eukaryot/sonic3air.git
 - Code language: C, C++
 - Code license: GPL-3.0

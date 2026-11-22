@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/Keriew/augustus/releases
 - Platform: Windows, Linux, macOS
-- Keyword: remake, simulation, content commercial, engine recreation, fork Julius
+- Keyword: simulation, content commercial, engine recreation, fork Julius, remake or clone
 - Code repository: https://github.com/Keriew/augustus.git (@created 2020, @stars 1351, @forks 105)
 - Code language: C, C++
 - Code license: AGPL-3.0

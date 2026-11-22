@@ -4,7 +4,7 @@
 - Inspiration: Pac-Man
 - State: mature, inactive since 2013
 - Platform: Web
-- Keyword: remake, skill
+- Keyword: arcade, remake or clone, skill
 - Code repository: https://github.com/daleharvey/pacman.git (@created 2010, @stars 689, @forks 466)
 - Code language: JavaScript
 - Code license: WTFPL

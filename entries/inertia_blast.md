@@ -3,7 +3,7 @@
 - Home: http://identicalsoftware.com/inertiablast/
 - Inspiration: Thrust
 - State: mature
-- Keyword: arcade, remake
+- Keyword: arcade, remake or clone
 - Code repository: https://github.com/dulsi/thrust.git (@created 2021, @stars 3, @forks 0)
 - Code language: C
 - Code license: GPL-2.0

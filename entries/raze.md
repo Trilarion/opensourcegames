@@ -4,7 +4,7 @@
 - Inspiration: Blood, Duke Nukem 3D, Powerslave, Redneck Rampage, Shadow Warrior
 - State: mature
 - Download: https://github.com/ZDoom/Raze/releases
-- Keyword: action, remake, content commercial, shooter
+- Keyword: action, content commercial, remake or clone, shooter
 - Code repository: https://github.com/ZDoom/Raze.git (@created 2019, @stars 631, @forks 56)
 - Code language: C++
 - Code license: GPL-2.0

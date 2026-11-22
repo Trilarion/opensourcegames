@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/2006-Scape/2006Scape/releases
 - Platform: Windows, Linux, macOS
-- Keyword: remake, role playing, content commercial, multiplayer competitive + online + co-op
+- Keyword: role playing, content commercial, multiplayer competitive + online + co-op, remake or clone
 - Code repository: https://github.com/2006-Scape/2006Scape.git (@created 2019, @stars 162, @forks 150)
 - Code language: Java
 - Code license: GPL-3.0

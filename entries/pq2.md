@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Progress_Quest#Development
 - Inspiration: Progress Quest
 - State: mature
-- Keyword: remake, simulation
+- Keyword: simulation, remake or clone
 - Code repository: https://github.com/nbollom/pq2.git (@created 2016, @stars 12, @forks 3)
 - Code language: C++
 - Code license: GPL-3.0

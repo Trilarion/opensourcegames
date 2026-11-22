@@ -3,7 +3,7 @@
 - Home: http://crazycarscpc.free.fr/indexEN.htm
 - Inspiration: Crazy Cars
 - State: mature, inactive since 2014
-- Keyword: action, remake
+- Keyword: action, remake or clone
 - Code language: Basic
 - Code license: ?
 

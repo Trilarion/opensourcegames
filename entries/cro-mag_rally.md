@@ -4,7 +4,7 @@
 - Inspiration: Cro-Mag Rally
 - State: mature
 - Platform: Windows, Linux, macOS
-- Keyword: arcade, remake, content open, multiplayer competitive + split-screen, racing
+- Keyword: arcade, content open, multiplayer competitive + split-screen, racing, remake or clone
 - Code repository: https://github.com/jorio/CroMagRally.git
 - Code language: C
 - Code license: CC-BY-SA-4.0

@@ -5,7 +5,7 @@
 - Inspiration: Ultima IV: Quest of the Avatar
 - State: mature, inactive since 2016
 - Download: https://xu4.sourceforge.net/download.php
-- Keyword: remake, role playing
+- Keyword: role playing, remake or clone
 - Code repository: https://svn.code.sf.net/p/xu4/code (svn)
 - Code language: C++
 - Code license: GPL-2.0

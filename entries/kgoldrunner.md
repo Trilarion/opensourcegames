@@ -3,7 +3,7 @@
 - Home: https://apps.kde.org/kgoldrunner/
 - Inspiration: Lode Runner
 - State: mature
-- Keyword: action, remake
+- Keyword: action, remake or clone
 - Code repository: https://invent.kde.org/games/kgoldrunner.git
 - Code language: C++
 - Code license: GPL-2.0

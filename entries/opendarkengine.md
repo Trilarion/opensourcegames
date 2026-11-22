@@ -3,7 +3,7 @@
 - Home: https://github.com/volca02/openDarkEngine
 - Inspiration: Thief
 - State: beta, inactive since 2018
-- Keyword: action, remake
+- Keyword: action, remake or clone
 - Code repository: https://github.com/volca02/openDarkEngine.git (@created 2014, @stars 140, @forks 18)
 - Code language: C++
 - Code license: GPL-2.0

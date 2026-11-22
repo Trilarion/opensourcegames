@@ -5,7 +5,7 @@
 - Inspiration: Elite II
 - State: mature
 - Download: https://pioneerspacesim.net/page/download/
-- Keyword: simulation, clone, space
+- Keyword: simulation, remake or clone, space
 - Code repository: https://github.com/pioneerspacesim/pioneer.git (@created 2011, @stars 1539, @forks 357)
 - Code language: C, C++, Lua
 - Code license: Apache-2.0, GPL-3.0

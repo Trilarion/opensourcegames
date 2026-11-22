@@ -6,7 +6,7 @@
 - State: mature
 - Download: https://hoh.helmantika.com/en/descargas/
 - Platform: Windows, Linux
-- Keyword: action, adventure, remake
+- Keyword: action, adventure, remake or clone
 - Code repository: https://github.com/dougmencken/HeadOverHeels.git (continuation, or download for old source code, @created 2016, @stars 25, @forks 8)
 - Code language: C++
 - Code license: GPL-3.0

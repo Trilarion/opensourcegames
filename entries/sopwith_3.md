@@ -4,7 +4,7 @@
 - Inspiration: Sopwith
 - State: beta, inactive since 2003
 - Download: http://www.wingkong.net/sopwith2b/files-games.html, https://sourceforge.net/projects/sopwith3/files/
-- Keyword: remake, simulation, flight
+- Keyword: simulation, flight, remake or clone
 - Code repository: https://codeberg.org/osgames/sopwith3.git (conversion of cvs)
 - Code language: C, C++, Objective-C
 - Code license: GPL-2.0

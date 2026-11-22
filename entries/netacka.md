@@ -3,7 +3,7 @@
 - Home: https://pwmarcz.pl/netacka/
 - Inspiration: "Achtung, die Kurve!"
 - State: mature
-- Keyword: remake, skill
+- Keyword: arcade, remake or clone, skill
 - Code repository: https://github.com/pwmarcz/netacka.git (@created 2017, @stars 9, @forks 1)
 - Code language: C
 - Code license: MIT

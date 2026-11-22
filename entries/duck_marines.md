@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/SimonLarsen/duckmarines/releases
 - Platform: Windows, Linux, macOS
-- Keyword: puzzle, remake, content open
+- Keyword: puzzle, content open, remake or clone
 - Code repository: https://github.com/SimonLarsen/duckmarines.git
 - Code language: Lua
 - Code license: zlib

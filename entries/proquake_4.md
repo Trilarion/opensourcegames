@@ -4,7 +4,7 @@
 - Inspiration: Quake
 - State: mature, inactive since 2018
 - Download: https://web.archive.org/web/20200211052147/http://quakeone.com/proquake/older_sources/
-- Keyword: remake
+- Keyword: action, remake or clone
 - Code language: C
 - Code license: GPL-2.0
 

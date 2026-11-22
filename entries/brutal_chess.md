@@ -5,7 +5,7 @@
 - State: beta, inactive since 2007
 - Download: https://sourceforge.net/projects/brutalchess/files/
 - Platform: Windows, Linux
-- Keyword: strategy, chess, clone
+- Keyword: strategy, chess, remake or clone
 - Code repository: https://codeberg.org/osgames/brutalchess.git (import of svn)
 - Code language: C++
 - Code license: GPL-2.0

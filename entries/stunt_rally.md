@@ -5,7 +5,7 @@
 - State: mature
 - Download: http://stuntrally.tuxfamily.org/downloads, https://sourceforge.net/projects/stuntrally/files/
 - Platform: Windows, Linux
-- Keyword: action, clone, racing
+- Keyword: action, racing, remake or clone
 - Code repository: https://github.com/stuntrally/stuntrally.git (@created 2011, @stars 584, @forks 119)
 - Code language: C, C++
 - Code license: GPL-3.0

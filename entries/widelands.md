@@ -5,7 +5,7 @@
 - Inspiration: The Settlers II
 - State: mature
 - Download: https://www.widelands.org/wiki/Download/
-- Keyword: strategy, clone, real-time
+- Keyword: strategy, real-time, remake or clone
 - Code repository: https://github.com/widelands/widelands.git (mirror, @created 2019, @stars 1891, @forks 146), https://launchpad.net/widelands (bzr)
 - Code language: C, C++, Lua, Python
 - Code license: GPL-2.0

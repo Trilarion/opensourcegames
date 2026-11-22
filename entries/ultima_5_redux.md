@@ -3,7 +3,7 @@
 - Home: https://u5redux.wordpress.com/
 - Inspiration: Ultima V: Warriors of Destiny
 - State: beta
-- Keyword: remake, role playing
+- Keyword: role playing, remake or clone
 - Code repository: https://github.com/bradhannah/Ultima5Redux.git (@created 2019, @stars 61, @forks 6)
 - Code language: C#
 - Code license: MIT

@@ -6,7 +6,7 @@
 - State: mature
 - Download: https://www.flightgear.org/download/
 - Platform: Windows, macOS
-- Keyword: simulation, clone, flight
+- Keyword: simulation, flight, remake or clone
 - Code repository: https://git.code.sf.net/p/flightgear/flightgear
 - Code language: C++
 - Code license: GPL-2.0

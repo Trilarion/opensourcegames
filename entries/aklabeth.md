@@ -3,7 +3,7 @@
 - Home: https://web.archive.org/web/20071227005501/http://www.autismuk.freeserve.co.uk/, https://sourceforge.net/projects/aklabeth/
 - Inspiration: Akalabeth: World of Doom
 - State: mature, inactive since 2004
-- Keyword: remake
+- Keyword: role playing, remake or clone
 - Code repository: https://codeberg.org/osgames/aklabeth.git
 - Code language: C
 - Code license: GPL-2.0

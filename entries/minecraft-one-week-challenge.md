@@ -3,7 +3,7 @@
 - Home: https://github.com/Hopson97/MineCraft-One-Week-Challenge
 - Inspiration: Minecraft
 - State: beta
-- Keyword: simulation, clone, content open, sandbox, voxel
+- Keyword: simulation, content open, remake or clone, sandbox, voxel
 - Code repository: https://github.com/Hopson97/MineCraft-One-Week-Challenge.git (@created 2017, @stars 2586, @forks 382)
 - Code language: C++, C
 - Code license: MIT

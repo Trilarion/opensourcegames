@@ -4,7 +4,7 @@
 - Inspiration: Barbarian: The Ultimate Warrior
 - State: mature, inactive since 2014
 - Download: http://barbarian.1987.free.fr/download/download.htm
-- Keyword: action, remake
+- Keyword: action, remake or clone
 - Code language: Basic
 - Code license: ?
 

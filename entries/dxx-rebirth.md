@@ -4,7 +4,7 @@
 - Inspiration: Descent, Descent II
 - State: mature
 - Platform: Windows, Linux
-- Keyword: remake, first-person, shooter
+- Keyword: action, first-person, remake or clone, shooter
 - Code repository: https://github.com/dxx-rebirth/dxx-rebirth.git (@created 2013, @stars 440, @forks 107)
 - Code language: C, C++, Python
 - Code license: GPL-3.0, Custom (derived from GPL-3.0)

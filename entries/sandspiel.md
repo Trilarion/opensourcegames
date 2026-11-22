@@ -5,7 +5,7 @@
 - State: beta
 - Play: https://sandspiel.club/
 - Platform: Web
-- Keyword: simulation, clone, content open
+- Keyword: simulation, content open, remake or clone
 - Code repository: https://github.com/maxbittker/sandspiel.git (@created 2018, @stars 2875, @forks 193)
 - Code language: Rust, JavaScript, TypeScript
 - Code license: MIT

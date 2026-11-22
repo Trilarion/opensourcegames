@@ -4,7 +4,7 @@
 - Inspiration: Supaplex
 - State: mature
 - Platform: Windows, Linux, macOS
-- Keyword: puzzle, remake, content open (?)
+- Keyword: puzzle, content open (?), remake or clone
 - Code repository: https://github.com/sergiou87/open-supaplex.git (@created 2020, @stars 221, @forks 38)
 - Code language: C
 - Code license: GPL-3.0

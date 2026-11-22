@@ -1,0 +1,359 @@
+"""
+Utilities for the tools. Only depending on standard Python or third party modules.
+"""
+
+import os
+import shutil
+import subprocess
+import tarfile
+import time
+import urllib.request
+import zipfile
+import stat
+from pathlib import Path
+from typing import Optional
+
+
+def read_text(file: Path | str) -> str:
+    """
+    Reads a whole text file (UTF-8 encoded).
+    """
+    with open(file, mode='r', encoding='utf-8', errors='ignore') as f:
+        text = f.read()
+    return text
+
+
+def read_first_line(file: Path | str) -> str:
+    """
+    Convenience function because we only need the first line of a category overview really.
+    """
+    with open(file, mode='r', encoding='utf-8') as f:
+        line = f.readline()
+    return line
+
+
+def write_text(file: Path | str, text: str) -> None:
+    """
+    Writes a whole text file (UTF-8 encoded).
+    """
+    with open(file, mode='w', encoding='utf-8') as f:
+        f.write(text)
+
+
+def determine_archive_version_generic(name: str, leading_terms: list[str], trailing_terms: list[str]) -> str:
+    """
+    Given an archive file name, tries to get version information. Generic version that can cut off leading and trailing
+    terms and converts to lower case. Give the most special terms first in the list. As many cut offs as possible are
+    performed.
+    """
+    # to lower case
+    name = name.lower()
+
+    # cut leading terms
+    for t in leading_terms:
+        if name.startswith(t):
+            name = name[len(t):]
+
+    # cut trailing terms
+    for t in trailing_terms:
+        if name.endswith(t):
+            name = name[:-len(t)]
+    return name
+
+
+def unzip_keep_last_modified(archive: Path | str, destination: Path | str) -> None:
+    """
+    Unzips content of a zip file archive into the destination directory keeping the last modified file property as
+    it was in the zip archive.
+
+    Assumes that destination is an existing directory path.
+    """
+    with zipfile.ZipFile(archive, 'r') as zip:
+        # zip.extractall(destination)  # does not keep the last modified property
+        for zip_entry in zip.infolist():
+            name, date_time = zip_entry.filename, zip_entry.date_time
+            date_time = time.mktime(date_time + (0, 0, -1))
+            zip.extract(zip_entry, destination)
+            os.utime(destination / name, (date_time, date_time))
+
+
+def detect_archive_type(name: str) -> Optional[str]:
+    """
+    Tries to guess which type an archive is.
+    """
+    # test for tar
+    tar_endings = ['.tbz2', '.tar.gz']
+    for ending in tar_endings:
+        if name.endswith(ending):
+            return 'tar'
+
+    # test for zip
+    zip_endings = ['.zip', '.jar']
+    for ending in zip_endings:
+        if name.endswith(ending):
+            return 'zip'
+
+    # unknown
+    return None
+
+
+def folder_size(path: Path) -> int:
+    """
+    Walks a directory and adds the sizes of each file.
+    """
+    size = 0
+    for dirpath, dirnames, filenames in path.walk():
+        for file in filenames:
+            size += (dirpath / file).stat().st_size
+    return size
+
+
+def extract_archive(source: Path | str, destination: Path | str, type: Optional[str]) -> None:
+    """
+    Extracts a zip, tar, ... to a destination path.
+
+    Type may result from detect_archive_type().
+    """
+    if type == 'tar':
+        with tarfile.open(source, 'r') as tar:
+            tar.extractall(destination, filter='data')  # data filter rejects absolute paths and paths outside destination
+    elif type == 'zip':
+        unzip_keep_last_modified(source, destination)
+
+
+def strip_wrapped_folders(folder):
+    """
+    If a folder only contains a single sub-folder and nothing else, descends this way as much as possible.
+
+    Assumes folder is a directory.
+    """
+    while True:
+        entries = list(os.scandir(folder))
+        if len(entries) == 1 and entries[0].is_dir():
+            folder = entries[0].path
+        else:
+            break
+    return folder
+
+
+def determine_latest_last_modified_date(folder):
+    """
+    Given a folder, recursively searches all files in this folder and all sub-folders and memorizes the latest
+    "last modified" date of all these files.
+    """
+    latest_last_modified = 0
+    for dirpath, dirnames, filenames in folder.walk():
+        for filename in filenames:
+            filepath = dirpath / filename
+            last_modified = os.path.getmtime(filepath)
+            if last_modified > latest_last_modified:
+                latest_last_modified = last_modified
+    return latest_last_modified
+
+class SubprocessTimeoutError(RuntimeError):
+    """
+    Raised by subprocess_run if a command does not finish within the given timeout. It is a RuntimeError, so callers
+    that only catch RuntimeError still handle it.
+    """
+
+
+def _kill_process_tree(process):
+    """
+    Kills a process including all its child processes.
+
+    Killing only the process itself is not enough on Windows, because child processes (e.g. git-remote-https started
+    by git) survive and keep the output pipes open, so that waiting for the output would block forever.
+    """
+    if os.name == 'nt':
+        subprocess.run(['taskkill', '/F', '/T', '/PID', str(process.pid)], stdout=subprocess.DEVNULL,
+                       stderr=subprocess.DEVNULL)
+    else:
+        process.kill()
+
+
+def subprocess_run(cmd, display=True, shell=False, env={}, timeout=None):
+    """
+    Runs a cmd via subprocess and displays the std output in case of success or the std error output in case of failure
+    where it also stops execution.
+
+    :param timeout: Maximal run time in seconds, None (default) waits forever. If exceeded, the command (including its
+        child processes) is killed and a SubprocessTimeoutError is raised.
+    :return: The standard output of the command.
+    :raises RuntimeError: If the command fails, the message contains the standard error output.
+    """
+    # TODO use the cwd argument as in https://stackoverflow.com/questions/1685157/how-can-i-specify-working-directory-for-a-subprocess/1685166#1685166
+    process = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=shell,
+                               env=dict(os.environ, **env))
+    try:
+        stdout, stderr = process.communicate(timeout=timeout)
+    except subprocess.TimeoutExpired:
+        _kill_process_tree(process)
+        process.communicate()
+        message = f'timeout after {timeout} s in call {cmd}'
+        if display:
+            print(message)
+        raise SubprocessTimeoutError(message)
+    stdout = stdout.decode('cp1252', errors='replace')
+    stderr = stderr.decode('cp1252', errors='replace')
+    if process.returncode:
+        if display:
+            print(f"error {process.returncode} in call {cmd}")
+            print(stdout)
+            print(stderr)
+        raise RuntimeError(f'error {process.returncode} in call {cmd}\n{stderr}')
+    if display:
+        print(f"  output: {stdout}")
+    return stdout
+
+
+# TODO need move_tree
+def copy_tree(source, destination):
+    """
+    Copies the full content of one directory into another avoiding the use of distutils.di_util.copy_tree because that
+    can give unwanted errors on Windows (probably related to symlinks).
+    """
+    # this gave an FileNotFoundError: [Errno 2] No such file or directory: '' on Windows
+    # distutils.dir_util.copy_tree(archive_path, git_path)
+    destination.mkdir(parents=True, exist_ok=True)
+
+    for dirpath, dirnames, filenames in source.walk():
+        # first create all the directories on destination
+        destination_path = destination / dirpath.relative_to(source)
+        for directory in (destination_path / dirname for dirname in dirnames):
+            directory.mkdir(parents=True, exist_ok=True)
+
+        # second copy all the files
+        for filename in filenames:
+            source_file = dirpath / filename
+            destination_file = destination_path / filename
+            shutil.copyfile(source_file, destination_file)
+
+
+def download_url(url, destination):
+    """
+    Using urllib.request downloads from an url to a destination. Destination will be a file.
+
+    Waits one second before, trying to be nice.
+    """
+    time.sleep(1)  # we are nice
+    with urllib.request.urlopen(url) as response:
+        with open(destination, 'wb') as f:
+            shutil.copyfileobj(response, f)
+
+
+def handleRemoveReadonly(func, path, exc):
+    """
+    Necessary on Windows. See https://stackoverflow.com/questions/1889597/deleting-directory-in-python
+    """
+    os.chmod(path, stat.S_IWRITE)
+    func(path)
+
+
+def git_clear_path(git_path):
+    """
+    Removes all subfiles and subfolders in a path except the '.git' directory
+    """
+    for item in git_path.iterdir():
+        # ignore '.git' (iterdir yields paths, so compare the name)
+        if item.name == '.git':
+            continue
+        if item.is_dir():
+            shutil.rmtree(item, onerror=handleRemoveReadonly)
+        else:
+            os.remove(item)
+
+
+def recreate_directory(path):
+    """
+    Recreates a directory (deletes before if existing)
+    """
+    if path.is_dir():
+        shutil.rmtree(path, onerror=handleRemoveReadonly)
+    for attempts in range(10):
+        try:
+            path.mkdir()
+        except PermissionError:
+            time.sleep(0.1)
+            continue
+        else:
+            break
+    else:
+        raise RuntimeError()
+
+
+def unzip(zip_file, destination_directory):
+    """
+    Unzips and keeps the original modified date.
+
+    :param zip_file:
+    :param destination_directory:
+    """
+    dirs = {}
+
+    with zipfile.ZipFile(zip_file, 'r') as zip:
+        for info in zip.infolist():
+            name, date_time = info.filename, info.date_time
+            name = destination_directory / name
+            zip.extract(info, destination_directory)
+
+            # still need to adjust the dt o/w item will have the current dt
+            date_time = time.mktime(info.date_time + (0, 0, -1))
+
+            if name.is_dir():
+                # changes to dir dt will have no effect right now since files are
+                # being created inside of it; hold the dt and apply it later
+                dirs[name] = date_time
+            else:
+                os.utime(name, (date_time, date_time))
+
+    # done creating files, now update dir dt
+    for name in dirs:
+        date_time = dirs[name]
+        os.utime(name, (date_time, date_time))
+
+
+def strip_url(url):
+    """
+    Removes common prefixes and suffixes from URLs.
+    """
+    for prefix in ('http://', 'https://', 'svn://', 'www.'):
+        if url.startswith(prefix):
+            url = url[len(prefix):]
+    for suffix in ('/', '.git', '/en', '/index.html'):
+        if url.endswith(suffix):
+            url = url[:-len(suffix)]
+    return url
+
+
+def load_properties(filepath, sep='=', comment_char='#'):
+    """
+    Read the file as a properties file (in Java).
+    """
+    properties = {}
+    with open(filepath, "rt") as file:
+        for line in file:
+            line = line.strip()
+            if not line.startswith(comment_char):
+                line = line.split(sep)
+                assert (len(line) == 2)
+                key = line[0].strip()
+                value = line[1].strip()
+                properties[key] = value
+    return properties
+
+
+def unique_elements_and_occurrences(elements):
+    """
+    Counts how often each unique element of a list occurs in the list and returns a tuple of
+    (element, number of occurrences) for each unique element.
+    """
+    unique_elements = {}
+    for element in elements:
+        try:
+            unique_elements[element] = unique_elements.get(element, 0) + 1
+        except Exception as e:
+            print(e)
+    unique_elements = list(unique_elements.items())
+    unique_elements.sort(key=lambda x: -x[1])
+    unique_elements = [f'{k}({v})' for k, v in unique_elements]
+    return unique_elements

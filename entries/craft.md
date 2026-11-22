@@ -5,7 +5,7 @@
 - State: mature, inactive since 2017
 - Download: https://www.michaelfogleman.com/projects/craft/
 - Platform: Windows, Linux, macOS
-- Keyword: puzzle, clone, content open, multiplayer online, sandbox, voxel
+- Keyword: puzzle, content open, multiplayer online, remake or clone, sandbox, voxel
 - Code repository: https://github.com/fogleman/Craft.git (@created 2013, @stars 10131, @forks 1359)
 - Code language: C, Python
 - Code license: MIT

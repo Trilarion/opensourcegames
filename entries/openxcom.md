@@ -5,7 +5,7 @@
 - Inspiration: X-COM: Apocalypse, X-COM: Terror from the Deep, X-COM: UFO Defense
 - State: mature
 - Download: https://openxcom.org/downloads-milestones/
-- Keyword: remake, strategy, turn-based
+- Keyword: strategy, remake or clone, turn-based
 - Code repository: https://github.com/OpenXcom/OpenXcom.git (@created 2011, @stars 1803, @forks 471)
 - Code language: C++
 - Code license: GPL-3.0

@@ -6,7 +6,7 @@
 - State: mature, inactive since 2012
 - Download: https://web.archive.org/web/20230626073055/http://www.frozen-bubble.org/downloads/, https://f-droid.org//packages/org.jfedor.frozenbubble/
 - Platform: Linux, macOS, Android
-- Keyword: puzzle, clone, matching
+- Keyword: puzzle, matching, remake or clone
 - Code repository: https://github.com/kthakore/frozen-bubble.git (@created 2009, @stars 137, @forks 30), https://github.com/videogameboy76/frozenbubbleandroid.git (@add, @created 2016, @stars 103, @forks 68)
 - Code language: Perl, C++
 - Code license: GPL-2.0

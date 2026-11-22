@@ -5,7 +5,7 @@
 - Inspiration: Q*bert
 - State: beta
 - Platform: Web
-- Keyword: puzzle, remake
+- Keyword: puzzle, remake or clone
 - Code repository: https://github.com/leonicolas/ReQbert.git (@created 2011, @stars 14, @forks 5)
 - Code language: JavaScript, TypeScript
 - Code license: GPL-3.0

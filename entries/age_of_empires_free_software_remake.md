@@ -3,7 +3,7 @@
 - Home: https://github.com/FolkertVanVerseveld/aoe
 - Inspiration: Age of Empires
 - State: beta
-- Keyword: remake, strategy, content commercial + original required, real-time
+- Keyword: strategy, content commercial + original required, real-time, remake or clone
 - Code repository: https://github.com/FolkertVanVerseveld/aoe.git
 - Code language: C++, C
 - Code license: Apache-2.0

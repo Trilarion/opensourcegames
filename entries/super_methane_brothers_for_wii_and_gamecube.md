@@ -3,7 +3,7 @@
 - Home: https://github.com/carstene1ns/super-methane-brothers
 - Inspiration: Super Methane Brothers
 - State: beta, inactive since 2018
-- Keyword: arcade, remake
+- Keyword: arcade, remake or clone
 - Code repository: https://github.com/carstene1ns/super-methane-brothers.git (@created 2014, @stars 16, @forks 2)
 - Code language: C++
 - Code license: GPL-2.0

@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://github.com/NBlood/NBlood/releases
 - Platform: Windows
-- Keyword: action, remake, content commercial
+- Keyword: action, content commercial, remake or clone
 - Code repository: https://github.com/NBlood/NBlood.git (@created 2019, @stars 542, @forks 76)
 - Code language: C++
 - Code license: Custom

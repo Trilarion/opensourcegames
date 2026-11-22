@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://www.luanti.org/downloads/, https://f-droid.org/packages/net.minetest.minetest/
 - Platform: Windows, Linux, macOS, Android
-- Keyword: game engine, remake, simulation, content open, voxel
+- Keyword: game engine, simulation, content open, remake or clone, voxel
 - Code repository: https://github.com/luanti-org/luanti.git (@created 2011, @stars 9932, @forks 1935)
 - Code language: C, C++, Lua
 - Code license: LGPL-2.1

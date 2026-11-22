@@ -4,7 +4,7 @@
 - Inspiration: Ladder
 - State: mature, inactive since 2020
 - Download: https://ostermiller.org/ladder/download.html
-- Keyword: arcade, remake, text-based
+- Keyword: arcade, remake or clone, text-based
 - Code repository: https://codeberg.org/osgames/ladder.git
 - Code language: Java
 - Code license: GPL-2.0

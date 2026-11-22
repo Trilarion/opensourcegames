@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Jet-Story
 - Inspiration: Jet-Story
 - State: beta
-- Keyword: action, remake
+- Keyword: action, remake or clone
 - Code repository: https://github.com/adamenkov/jet-story.git (@created 2016, @stars 4, @forks 1)
 - Code language: Assembly, C, C++
 - Code license: MIT

@@ -5,7 +5,7 @@
 - State: mature
 - Play: https://lowresnx.inutilis.com/topic.php?id=31
 - Platform: Web
-- Keyword: arcade, clone
+- Keyword: arcade, remake or clone
 - Code repository: https://github.com/moechofe/lowresnx-poink.git
 - Code language: Basic
 - Code license: MIT

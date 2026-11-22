@@ -3,7 +3,7 @@
 - Home: https://github.com/jdah/minecraft-weekend
 - Inspiration: Minecraft
 - State: beta
-- Keyword: simulation, clone
+- Keyword: simulation, remake or clone
 - Code repository: https://github.com/jdah/minecraft-weekend.git (@created 2020, @stars 3678, @forks 411)
 - Code language: C
 - Code license: MIT

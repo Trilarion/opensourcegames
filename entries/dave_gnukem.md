@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://sourceforge.net/projects/gnukem/files/gnukem/
 - Platform: Windows, Linux, macOS
-- Keyword: platform, 2D, clone, content open, scrolling, shooter
+- Keyword: platform, 2D, content open, remake or clone, scrolling, shooter
 - Code repository: https://github.com/davidjoffe/dave_gnukem.git (@created 2016, @stars 74, @forks 19)
 - Code language: C++
 - Code license: GPL-2.0

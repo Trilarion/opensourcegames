@@ -3,7 +3,7 @@
 - Home: https://github.com/UchuServer/Uchu
 - Inspiration: Lego Universe
 - State: mature
-- Keyword: adventure, remake, content commercial, multiplayer Local + Online + LAN, original required
+- Keyword: adventure, content commercial, multiplayer Local + Online + LAN, original required, remake or clone
 - Code repository: https://github.com/UchuServer/Uchu.git (@created 2018, @stars 84, @forks 22)
 - Code language: C#
 - Code license: AGPL-3.0

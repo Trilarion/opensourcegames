@@ -5,7 +5,7 @@
 - State: beta, inactive since 2004
 - Download: https://sourceforge.net/projects/vorton/files/
 - Platform: Windows, Linux
-- Keyword: action, remake
+- Keyword: action, remake or clone
 - Code repository: https://codeberg.org/osgames/vorton.git
 - Code language: C
 - Code license: GPL-3.0

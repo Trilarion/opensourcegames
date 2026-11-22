@@ -4,7 +4,7 @@
 - Inspiration: Log!cal
 - State: mature, inactive since 2018
 - Platform: Web
-- Keyword: remake, strategy
+- Keyword: strategy, remake or clone
 - Code repository: https://github.com/bni/orbium.git (@created 2010, @stars 86, @forks 42)
 - Code language: JavaScript
 - Code license: GPL-2.0

@@ -5,7 +5,7 @@
 - State: beta
 - Play: https://etg.dek.im/
 - Platform: Web
-- Keyword: cards, remake
+- Keyword: cards, remake or clone
 - Code repository: https://github.com/serprex/openEtG.git (@created 2013, @stars 63, @forks 24)
 - Code language: JavaScript, Rust
 - Code license: MIT

@@ -5,7 +5,7 @@
 - Inspiration: Transport Tycoon
 - State: mature
 - Download: https://www.simutrans.com/en/download/
-- Keyword: simulation, clone
+- Keyword: simulation, remake or clone
 - Code repository: https://github.com/aburch/simutrans.git (@created 2009, @stars 392, @forks 168), https://svn.code.sf.net/p/simutrans/code (svn)
 - Code language: C++
 - Code license: Artistic License-1.0 (https://github.com/aburch/simutrans/blob/master/LICENSE.txt)

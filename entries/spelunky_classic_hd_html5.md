@@ -5,7 +5,7 @@
 - State: mature
 - Play: https://yancharkin.github.io/SpelunkyClassicHDhtml5/
 - Platform: Web
-- Keyword: arcade, clone, content free
+- Keyword: arcade, content free, remake or clone
 - Code repository: https://github.com/yancharkin/SpelunkyClassicHDhtml5.git
 - Code language: JavaScript
 - Code license: Custom (non-commercial)

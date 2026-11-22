@@ -5,7 +5,7 @@
 - State: mature
 - Download: http://performous.org/download, https://github.com/performous/performous/releases
 - Platform: Windows, Linux, macOS
-- Keyword: music, clone, dancing, karaoke
+- Keyword: music, dancing, karaoke, remake or clone
 - Code repository: https://github.com/performous/performous.git (@created 2012, @stars 464, @forks 107)
 - Code language: C, C++
 - Code license: GPL-2.0

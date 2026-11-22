@@ -4,7 +4,7 @@
 - Inspiration: X-COM: Apocalypse, X-COM: Terror from the Deep, X-COM: UFO Defense
 - State: beta, inactive since 2011
 - Download: https://sourceforge.net/projects/xforceffd/files
-- Keyword: strategy, clone, turn-based
+- Keyword: strategy, remake or clone, turn-based
 - Code repository: https://codeberg.org/osgames/xforceffd.git (backup of svn)
 - Code language: Pascal
 - Code license: GPL-2.0

@@ -3,7 +3,7 @@
 - Home: https://silverweed.github.io/boom/
 - Inspiration: BOOM
 - State: mature
-- Keyword: action, remake, content swappable
+- Keyword: action, content swappable, remake or clone
 - Code repository: https://github.com/silverweed/lifish.git (@created 2015, @stars 46, @forks 6)
 - Code language: C++
 - Code license: Custom (non commercial)

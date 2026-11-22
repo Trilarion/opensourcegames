@@ -4,7 +4,7 @@
 - Inspiration: Solomon's Key
 - State: beta
 - Platform: Windows, Linux
-- Keyword: puzzle, clone, content open
+- Keyword: puzzle, content open, remake or clone
 - Code repository: https://github.com/mdodis/OpenSolomonsKey.git (@created 2019, @stars 21, @forks 3)
 - Code language: C++
 - Code license: Unlicense

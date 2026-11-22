@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://gweled.org/download.html
 - Platform: Linux
-- Keyword: puzzle, clone, content open
+- Keyword: puzzle, content open, remake or clone
 - Code repository: https://codeberg.org/osgames/gweled.git (conversion of bzr), https://code.launchpad.net/gweled (@add, bzr)
 - Code language: C, Script
 - Code license: GPL-2.0

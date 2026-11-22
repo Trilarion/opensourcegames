@@ -5,7 +5,7 @@
 - State: beta, inactive since 2005
 - Download: https://sourceforge.net/projects/bombic/files/bombic/
 - Platform: Linux, macOS
-- Keyword: action, remake
+- Keyword: action, remake or clone
 - Code repository: https://codeberg.org/osgames/bombic.git (conversion of svn)
 - Code language: C++, Objective-C
 - Code license: GPL-2.0

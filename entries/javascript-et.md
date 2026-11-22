@@ -4,7 +4,7 @@
 - Inspiration: E.T. the Extra-Terrestrial
 - State: beta, inactive since 2017
 - Platform: Web
-- Keyword: adventure, remake
+- Keyword: adventure, remake or clone
 - Code repository: https://github.com/FranciscoG/javascript-E.T..git (@created 2013, @stars 10, @forks 3)
 - Code language: JavaScript, Assembly
 - Code license: MIT

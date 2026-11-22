@@ -3,7 +3,7 @@
 - Home: https://github.com/nxengine/nxengine-evo
 - Inspiration: Cave Story
 - State: mature
-- Keyword: platform, remake, content open
+- Keyword: platform, content open, remake or clone
 - Code repository: https://github.com/nxengine/nxengine-evo.git (@created 2014, @stars 461, @forks 79)
 - Code language: C++, C
 - Code license: GPL-3.0

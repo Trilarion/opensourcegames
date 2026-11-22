@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/Wargus/war1gus/releases
 - Platform: Windows
-- Keyword: remake, strategy, content commercial + original required, multiplayer Competitive + Local + Online
+- Keyword: strategy, content commercial + original required, multiplayer Competitive + Local + Online, remake or clone
 - Code repository: https://github.com/Wargus/war1gus.git
 - Code language: Lua, C++
 - Code license: GPL-2.0

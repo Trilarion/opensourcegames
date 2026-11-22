@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://www.tuxemon.org/download.html
 - Platform: Windows, Linux, macOS, Android
-- Keyword: remake, role playing, turn-based
+- Keyword: role playing, remake or clone, turn-based
 - Code repository: https://github.com/Tuxemon/Tuxemon.git (@created 2014, @stars 868, @forks 186)
 - Code language: Python
 - Code license: GPL-3.0

@@ -3,7 +3,7 @@
 - Home: https://arescentral.org/antares
 - Inspiration: Ares
 - State: beta
-- Keyword: remake, strategy, real-time, shooter
+- Keyword: strategy, real-time, remake or clone, shooter
 - Code repository: https://github.com/arescentral/antares.git (@created 2011, @stars 98, @forks 18)
 - Code language: C++
 - Code license: LGPL-3.0

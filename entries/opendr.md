@@ -3,7 +3,7 @@
 - Home: https://github.com/drogoganor/OpenDR
 - Inspiration: Dark Reign: The Future of War
 - State: beta
-- Keyword: remake, strategy, content free, real-time
+- Keyword: strategy, content free, real-time, remake or clone
 - Code repository: https://github.com/drogoganor/OpenDR.git (@created 2018, @stars 61, @forks 1)
 - Code language: C#
 - Code license: GPL-3.0

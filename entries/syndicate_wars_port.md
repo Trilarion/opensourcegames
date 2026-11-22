@@ -3,7 +3,7 @@
 - Home: https://web.archive.org/web/20230517195455/http://swars.vexillium.org/
 - Inspiration: Syndicate Wars
 - State: beta, inactive since 2010
-- Keyword: action, remake, strategy, content commercial, original required, real-time
+- Keyword: action, strategy, content commercial, original required, real-time, remake or clone
 - Code repository: https://github.com/leonsodhi/swars.git, https://github.com/videogamepreservation/swars.git
 - Code language: C
 - Code license: GPL-3.0

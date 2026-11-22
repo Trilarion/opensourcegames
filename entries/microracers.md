@@ -4,7 +4,7 @@
 - Inspiration: Micro Machines
 - State: beta, inactive since 2005
 - Download: https://sourceforge.net/projects/microracers/files/microracers/
-- Keyword: remake, 2D, racing
+- Keyword: arcade, 2D, racing, remake or clone
 - Code repository: https://github.com/rpmcruz/microracers.git (@created 2019, @stars 2, @forks 0), https://codeberg.org/osgames/microracers.git (@add, conversion of cvs)
 - Code language: C, C++
 - Code license: GPL-2.0

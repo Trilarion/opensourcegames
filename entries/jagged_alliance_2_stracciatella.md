@@ -3,7 +3,7 @@
 - Home: https://ja2-stracciatella.github.io/
 - Inspiration: Jagged Alliance 2
 - State: mature
-- Keyword: remake, strategy, content commercial, original required
+- Keyword: strategy, content commercial, original required, remake or clone
 - Code repository: https://github.com/ja2-stracciatella/ja2-stracciatella.git (@created 2016, @stars 439, @forks 79)
 - Code language: C, C++
 - Code license: Custom (various)

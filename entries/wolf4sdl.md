@@ -3,7 +3,7 @@
 - Home: https://web.archive.org/web/20220117033453/http://wolf3d.net/wolf4sdl/
 - Inspiration: Wolfenstein 3D
 - State: mature
-- Keyword: action, remake, content commercial, shooter
+- Keyword: action, content commercial, remake or clone, shooter
 - Code repository: https://github.com/KS-Presto/Wolf4SDL.git (@created 2016, @stars 46, @forks 25)
 - Code language: C
 - Code license: GPL-2.0

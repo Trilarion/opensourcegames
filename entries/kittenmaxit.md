@@ -5,7 +5,7 @@
 - Inspiration: Maxit
 - State: beta
 - Platform: Android
-- Keyword: remake, strategy
+- Keyword: strategy, remake or clone
 - Code repository: https://github.com/ahmetkasif/kmaxit.git (@created 2015, @stars 10, @forks 2)
 - Code language: Java
 - Code license: MIT

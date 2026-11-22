@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://www.chocolate-doom.org/wiki/index.php/Downloads, https://sourceforge.net/projects/chocolate-doom/files/
 - Platform: Windows, Linux, macOS
-- Keyword: action, remake, shooter
+- Keyword: action, remake or clone, shooter
 - Code repository: https://github.com/chocolate-doom/chocolate-doom.git (@created 2009, @stars 1740, @forks 542)
 - Code language: C
 - Code license: GPL-2.0

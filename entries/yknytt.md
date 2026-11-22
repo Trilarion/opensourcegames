@@ -3,7 +3,7 @@
 - Home: https://github.com/youkaicountry/yknytt
 - Inspiration: Knytt Stories
 - State: beta
-- Keyword: platform, remake, content open
+- Keyword: platform, content open, remake or clone
 - Code repository: https://github.com/youkaicountry/yknytt.git (@created 2020, @stars 48, @forks 8)
 - Code language: C#
 - Code license: MIT

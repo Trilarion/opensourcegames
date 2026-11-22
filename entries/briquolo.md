@@ -4,7 +4,7 @@
 - Inspiration: Breakout
 - State: mature, inactive since 2008
 - Download: http://briquolo.free.fr/en/download.html
-- Keyword: arcade, clone, skill
+- Keyword: arcade, remake or clone, skill
 - Code language: C++
 - Code license: GPL-2.0
 

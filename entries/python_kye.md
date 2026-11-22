@@ -4,7 +4,7 @@
 - Inspiration: Kye
 - State: mature, inactive since 2010
 - Download: https://games.moria.org.uk/kye/download-install.html
-- Keyword: arcade, puzzle, remake
+- Keyword: arcade, puzzle, remake or clone
 - Code language: Python
 - Code license: GPL-2.0
 

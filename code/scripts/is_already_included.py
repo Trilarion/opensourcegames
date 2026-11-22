@@ -1,0 +1,50 @@
+"""
+Checks a list of game names (comma separated in text file) if they are already included in the database.
+Is fuzzy, i.e. accepts a certain similarity of names.
+"""
+
+import json
+import re
+from difflib import SequenceMatcher
+from osgl import constants as c
+from osgl.utils import read_text
+
+
+def similarity(a, b):
+    """
+    Compute similarity ratio between two strings.
+    """
+    return SequenceMatcher(None, a, b).ratio()
+
+
+if __name__ == "__main__":
+    similarity_threshold = 0.7
+
+    # read docs/data.json
+    data_file = c.json_db_file
+    text = read_text(data_file)
+    data = json.loads(text)
+
+    # extract game names
+    data = data['data']
+    data = (x[0] for x in data)
+    existing_names = list(re.sub(r' \([^)]*\)', '', x) for x in data)
+
+    # read names to test
+    test_file = c.root_path / 'is_already_included.txt'
+    text = read_text(test_file)
+    test_names = text.split(', ')
+
+    # loop over all test names
+    for test_name in test_names:
+        matches = []
+        # loop over all existing names
+        for existing_name in existing_names:
+            s = similarity(test_name.lower(), existing_name.lower())
+            if s > similarity_threshold:
+                matches.append(f'{existing_name} ({s:.2f})')
+        # were matches found
+        if matches:
+            print(f"{test_name} maybe included in {', '.join(matches)}")
+        else:
+            print(f'{test_name} not included')

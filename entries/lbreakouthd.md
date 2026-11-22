@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://sourceforge.net/projects/lgames/files/lbreakouthd/
 - Platform: Linux
-- Keyword: arcade, clone, content open
+- Keyword: arcade, content open, remake or clone
 - Code repository: https://svn.code.sf.net/p/lgames/code (svn part of it)
 - Code language: C++
 - Code license: GPL-3.0

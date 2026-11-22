@@ -3,7 +3,7 @@
 - Home: https://github.com/collinsmith/riiablo
 - Inspiration: Diablo II
 - State: beta
-- Keyword: remake, content commercial
+- Keyword: role playing, content commercial, remake or clone
 - Code repository: https://github.com/collinsmith/riiablo.git (@created 2015, @stars 825, @forks 96)
 - Code language: Java
 - Code license: Apache-2.0

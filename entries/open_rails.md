@@ -4,7 +4,7 @@
 - Inspiration: Microsoft Train Simulator
 - State: mature
 - Download: https://www.openrails.org/download/program/
-- Keyword: simulation, clone
+- Keyword: simulation, remake or clone
 - Code repository: http://svn.uktrainsim.com/svn/openrails (svn active)
 - Code language: C#
 - Code license: GPL-3.0

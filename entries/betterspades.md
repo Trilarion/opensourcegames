@@ -3,7 +3,7 @@
 - Home: https://aos.party/jenkins/job/BetterSpades/
 - Inspiration: Ace of Spades
 - State: beta
-- Keyword: cards, remake, content open, multiplayer online
+- Keyword: cards, content open, multiplayer online, remake or clone
 - Code repository: https://github.com/xtreme8000/BetterSpades.git (@created 2016, @stars 216, @forks 42)
 - Code language: C
 - Code license: GPL-3.0

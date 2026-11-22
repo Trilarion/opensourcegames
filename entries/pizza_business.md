@@ -4,7 +4,7 @@
 - Inspiration: Pizza Tycoon
 - State: mature, inactive since 2003
 - Download: https://sourceforge.net/projects/pizza-business/files
-- Keyword: strategy, clone
+- Keyword: strategy, remake or clone
 - Code repository: https://codeberg.org/osgames/pizza-business.git (backup of cvs)
 - Code language: C++
 - Code license: GPL-2.0

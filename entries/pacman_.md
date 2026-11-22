@@ -5,7 +5,7 @@
 - State: mature
 - Play: https://passer-by.com/pacman/
 - Platform: Web
-- Keyword: arcade, remake, content open
+- Keyword: arcade, content open, remake or clone
 - Code repository: https://github.com/mumuy/pacman.git (@created 2015, @stars 1358, @forks 363)
 - Code language: JavaScript
 - Code license: MIT

@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/Novum/vkQuake/releases
 - Platform: Windows, Linux, macOS
-- Keyword: remake
+- Keyword: action, remake or clone
 - Code repository: https://github.com/Novum/vkQuake.git (@archived, @created 2016, @stars 1637, @forks 205)
 - Code language: C, C++
 - Code license: GPL-2.0

@@ -6,7 +6,7 @@
 - State: mature
 - Download: http://www.nongnu.org/enigma/download.html#stable
 - Platform: Windows, Linux, macOS
-- Keyword: puzzle, remake
+- Keyword: puzzle, remake or clone
 - Code repository: https://github.com/Enigma-Game/Enigma.git (@created 2015, @stars 121, @forks 36), https://svn.code.sf.net/p/enigma-game/source/ (svn)
 - Code language: C, C++
 - Code license: GPL-2.0

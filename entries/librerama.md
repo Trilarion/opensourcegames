@@ -6,7 +6,7 @@
 - Play: https://librerama.codeberg.page/play.html
 - Download: https://librerama.codeberg.page/downloads.html
 - Platform: Windows, Linux, macOS, Android, Web
-- Keyword: arcade, clone, content open
+- Keyword: arcade, content open, remake or clone
 - Code repository: https://codeberg.org/Librerama/librerama.git
 - Code language: GDScript
 - Code license: GPL-3.0

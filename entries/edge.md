@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://sourceforge.net/projects/edge2/files/, https://github.com/3dfxdev/EDGE/releases
 - Platform: Windows
-- Keyword: action, remake, content commercial, shooter
+- Keyword: action, content commercial, remake or clone, shooter
 - Code repository: https://github.com/3dfxdev/EDGE.git (@created 2015, @stars 69, @forks 10)
 - Code language: C++, C
 - Code license: GPL-2.0

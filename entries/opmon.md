@@ -4,7 +4,7 @@
 - Inspiration: Pokémon
 - State: beta
 - Platform: Windows, Linux, macOS
-- Keyword: remake, content open
+- Keyword: role playing, content open, remake or clone
 - Code repository: https://github.com/OpMonTeam/OpMon.git (@created 2020, @stars 91, @forks 7), https://github.com/OpMonTeam/OpMon-Data.git (@add, @created 2018, @stars 7, @forks 0)
 - Code language: C++, GDScript
 - Code license: GPL-3.0

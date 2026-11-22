@@ -4,7 +4,7 @@
 - Inspiration: Castle of the Winds
 - State: beta
 - Platform: Web
-- Keyword: remake, role playing
+- Keyword: role playing, remake or clone
 - Code repository: https://github.com/mordrax/cotwelm.git (@created 2016, @stars 103, @forks 11)
 - Code language: Elm, JavaScript
 - Code license: MIT

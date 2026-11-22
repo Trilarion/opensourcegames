@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://clonekeenplus.sourceforge.io/download.php
 - Platform: Windows, Linux, Android
-- Keyword: action, remake
+- Keyword: action, remake or clone
 - Code repository: https://gitlab.com/Dringgstein/Commander-Genius.git (@created 2018, @stars 32, @forks 12), https://github.com/albertz/commandergenius.git (@add, @created 2009, @stars 41, @forks 274), https://github.com/pelya/commandergenius.git (@add, @created 2009, @stars 526, @forks 248), https://github.com/gerstrong/Commander-Genius.git (@add, @created 2011, @stars 188, @forks 37)
 - Code language: C, C++
 - Code license: GPL-2.0

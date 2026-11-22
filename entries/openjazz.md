@@ -6,7 +6,7 @@
 - Play: https://openjazz.github.io/
 - Download: https://www.alister.eu/jazz/oj/download.php
 - Platform: Windows, Linux, macOS, Web
-- Keyword: arcade, remake, content commercial + original required
+- Keyword: arcade, content commercial + original required, remake or clone
 - Code repository: https://github.com/AlisterT/openjazz.git (@created 2014, @stars 241, @forks 47)
 - Code language: C++
 - Code license: GPL-2.0

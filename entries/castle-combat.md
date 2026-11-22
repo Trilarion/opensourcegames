@@ -4,7 +4,7 @@
 - Inspiration: Rampart
 - State: beta, inactive since 2006
 - Download: https://sourceforge.net/projects/castle-combat/files/
-- Keyword: remake, strategy
+- Keyword: strategy, remake or clone
 - Code repository: https://github.com/karlb/castle-combat.git (@created 2019, @stars 14, @forks 3)
 - Code language: Python
 - Code license: GPL-2.0

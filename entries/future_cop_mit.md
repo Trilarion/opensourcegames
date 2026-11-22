@@ -3,7 +3,7 @@
 - Home: https://github.com/Ghoster738/Future-Cop-MIT
 - Inspiration: Future Cop: LAPD
 - State: beta
-- Keyword: action, remake, content commercial, original required, shooter
+- Keyword: action, content commercial, original required, remake or clone, shooter
 - Code repository: https://github.com/Ghoster738/Future-Cop-MIT.git (@created 2022, @stars 15, @forks 2)
 - Code language: C++, C
 - Code license: MIT

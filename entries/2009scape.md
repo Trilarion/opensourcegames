@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://2009scape.org/site/game_guide/play.html#download
 - Platform: Windows, Linux, macOS
-- Keyword: remake, role playing, content commercial, multiplayer online + co-op
+- Keyword: role playing, content commercial, multiplayer online + co-op, remake or clone
 - Code repository: https://gitlab.com/2009scape/2009scape.git (@created 2021, @stars 77, @forks 359)
 - Code language: Java, Kotlin
 - Code license: AGPL-3.0

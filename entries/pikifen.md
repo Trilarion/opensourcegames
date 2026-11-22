@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/Espyo/Pikifen/releases
 - Platform: Windows, Linux, macOS
-- Keyword: game engine, remake, strategy, 2D, real-time
+- Keyword: game engine, strategy, 2D, real-time, remake or clone
 - Code repository: https://github.com/Espyo/Pikifen.git
 - Code language: C++
 - Code license: MIT

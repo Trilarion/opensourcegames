@@ -3,7 +3,7 @@
 - Home: http://identicalsoftware.com/btbuilder/
 - Inspiration: The Bard's Tale Construction Set
 - State: beta
-- Keyword: remake, tool
+- Keyword: tool, remake or clone
 - Code repository: https://github.com/dulsi/btbuilder.git (@created 2012, @stars 38, @forks 6)
 - Code language: C, C++
 - Code license: GPL-3.0

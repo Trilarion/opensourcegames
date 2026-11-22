@@ -6,7 +6,7 @@
 - State: mature
 - Download: https://www.artsoft.org/rocksndiamonds/download/, https://f-droid.org/en/packages/org.artsoft.rocksndiamonds/
 - Platform: Windows, Linux, macOS, Android
-- Keyword: action, puzzle, remake
+- Keyword: action, puzzle, remake or clone
 - Code repository: https://git.artsoft.org/rocksndiamonds.git
 - Code language: C
 - Code license: GPL-2.0

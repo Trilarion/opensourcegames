@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://repology.org/project/trackballs/versions
 - Platform: Linux
-- Keyword: puzzle, remake
+- Keyword: puzzle, remake or clone
 - Code repository: https://github.com/trackballs/trackballs.git (@created 2017, @stars 40, @forks 9)
 - Code language: C++, Scheme
 - Code license: GPL-2.0

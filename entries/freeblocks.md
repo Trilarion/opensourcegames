@@ -4,7 +4,7 @@
 - Inspiration: Tetris Attack
 - State: beta, inactive since 2015
 - Platform: Linux, Android
-- Keyword: puzzle, remake
+- Keyword: puzzle, remake or clone
 - Code repository: https://github.com/dorkster/freeblocks.git (@created 2012, @stars 30, @forks 2)
 - Code language: C, Java
 - Code license: GPL-3.0

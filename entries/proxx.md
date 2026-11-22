@@ -5,7 +5,7 @@
 - State: mature
 - Play: https://proxx.app/
 - Platform: Web
-- Keyword: puzzle, clone
+- Keyword: puzzle, remake or clone
 - Code repository: https://github.com/GoogleChromeLabs/proxx.git (@created 2019, @stars 1295, @forks 121)
 - Code language: TypeScript, JavaScript
 - Code license: Apache-2.0

@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://sourceforge.net/projects/uqm-mods/files/MegaMod/
 - Platform: Windows, Linux, macOS, Android
-- Keyword: remake, strategy, content open, turn-based
+- Keyword: strategy, content open, remake or clone, turn-based
 - Code repository: https://github.com/JHGuitarFreak/UQM-MegaMod.git, https://git.code.sf.net/p/uqm-mods/sc2 (@add)
 - Code language: C
 - Code license: GPL-2.0

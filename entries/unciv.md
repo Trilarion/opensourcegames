@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://play.google.com/store/apps/details?id=com.unciv.app, https://yairm210.itch.io/unciv, https://f-droid.org/en/packages/com.unciv.app/, https://flathub.org/apps/io.github.yairm210.unciv
 - Platform: Windows, Linux, macOS, Android
-- Keyword: remake, strategy, 4X, content open, moddable, multiplayer online + hotseat, turn-based
+- Keyword: strategy, 4X, content open, moddable, multiplayer online + hotseat, remake or clone, turn-based
 - Code repository: https://github.com/yairm210/Unciv.git (@created 2017, @stars 7525, @forks 1437)
 - Code language: Kotlin
 - Code license: MPL-2.0

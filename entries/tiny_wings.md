@@ -4,7 +4,7 @@
 - Inspiration: Tiny Wings
 - State: beta
 - Platform: macOS
-- Keyword: remake, skill
+- Keyword: arcade, remake or clone, skill
 - Code repository: https://github.com/haqu/tiny-wings.git (@created 2011, @stars 816, @forks 178)
 - Code language: Objective-C, C, C++
 - Code license: MIT

@@ -4,7 +4,7 @@
 - Inspiration: MegaMan
 - State: mature, inactive since 2017
 - Platform: Web
-- Keyword: platform, remake
+- Keyword: platform, remake or clone
 - Code repository: https://github.com/CamHenlin/ExecutiveMan.git (@created 2014, @stars 80, @forks 25)
 - Code language: JavaScript
 - Code license: Custom (BSD like)

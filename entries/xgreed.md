@@ -3,7 +3,7 @@
 - Home: https://sourceforge.net/projects/xgreed/
 - Inspiration: In Pursuit of Greed
 - State: beta
-- Keyword: action, remake, content free, first-person, shooter
+- Keyword: action, content free, first-person, remake or clone, shooter
 - Code repository: https://github.com/jval1972/xGreed.git (@created 2020, @stars 22, @forks 2)
 - Code language: Pascal
 - Code license: Custom (non-commercial, see https://github.com/jval1972/xGreed/issues/5)

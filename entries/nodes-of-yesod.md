@@ -3,7 +3,7 @@
 - Home: https://github.com/ian-wigley/Nodes-of-Yesod
 - Inspiration: Nodes of Yesod
 - State: beta, inactive since 2015
-- Keyword: arcade, platform, remake, content free
+- Keyword: arcade, platform, content free, remake or clone
 - Code repository: https://github.com/ian-wigley/Nodes-of-Yesod.git (@created 2015, @stars 1, @forks 0)
 - Code language: C#
 - Code license: MIT

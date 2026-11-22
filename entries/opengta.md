@@ -3,7 +3,7 @@
 - Home: https://web.archive.org/web/20250115224641/https://ogta.fifengine.de/
 - Inspiration: Grand Theft Auto
 - State: beta, inactive since 2007
-- Keyword: action, remake, content commercial, original required
+- Keyword: action, content commercial, original required, remake or clone
 - Code repository: https://github.com/madebr/OpenGTA.git (@created 2015, @stars 32, @forks 5)
 - Code language: C++
 - Code license: Custom (non-commercial, https://github.com/madebr/OpenGTA/blob/master/license.txt)

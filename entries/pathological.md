@@ -3,7 +3,7 @@
 - Home: https://web.archive.org/web/20221116092622/https://pathological.sourceforge.net/, https://sourceforge.net/projects/pathological/
 - Inspiration: Log!cal
 - State: beta, inactive since 2003
-- Keyword: puzzle, remake
+- Keyword: puzzle, remake or clone
 - Code repository: https://codeberg.org/osgames/pathological.git (conversion of cvs)
 - Code language: Python, Script
 - Code license: GPL-2.0

@@ -3,7 +3,7 @@
 - Home: https://brennan.io/2015/06/12/tetris-reimplementation/
 - Inspiration: Tetris
 - State: mature
-- Keyword: puzzle, remake, content open
+- Keyword: puzzle, content open, remake or clone
 - Code repository: https://github.com/brenns10/tetris.git (@created 2015, @stars 213, @forks 54)
 - Code language: C
 - Code license: 3-clause BSD

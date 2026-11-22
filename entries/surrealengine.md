@@ -3,7 +3,7 @@
 - Home: https://github.com/dpjudas/SurrealEngine
 - Inspiration: Unreal Tournament
 - State: beta
-- Keyword: action, remake, content commercial, original required, shooter
+- Keyword: action, content commercial, original required, remake or clone, shooter
 - Code repository: https://github.com/dpjudas/SurrealEngine.git (@created 2020, @stars 383, @forks 12)
 - Code language: C++
 - Code license: 3-clause BSD

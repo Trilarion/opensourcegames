@@ -5,7 +5,7 @@
 - Inspiration: NetHack
 - State: beta, inactive since 2007
 - Download: https://slashem.sourceforge.net/stable.html, https://sourceforge.net/projects/slashem/files/
-- Keyword: role playing, clone, roguelike
+- Keyword: role playing, remake or clone, roguelike
 - Code repository: https://github.com/osgamearchive/slashem.git (archived conversion of cvs, @archived, @created 2019, @stars 3, @forks 0)
 - Code language: C, C++
 - Code license: Custom (NetHack license)

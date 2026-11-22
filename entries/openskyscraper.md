@@ -3,7 +3,7 @@
 - Home: https://web.archive.org/web/20230325053751/http://openskyscraper.org/
 - Inspiration: SimTower
 - State: beta
-- Keyword: remake, simulation
+- Keyword: simulation, remake or clone
 - Code repository: https://github.com/fabianschuiki/OpenSkyscraper.git (@created 2010, @stars 569, @forks 73)
 - Code language: C++
 - Code license: GPL-2.0

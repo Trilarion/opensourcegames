@@ -5,7 +5,7 @@
 - Inspiration: Civilization, Sid Meier's Colonization
 - State: mature
 - Download: https://www.freecol.org/download.html
-- Keyword: remake, strategy, multiplayer, turn-based
+- Keyword: strategy, multiplayer, remake or clone, turn-based
 - Code repository: https://github.com/FreeCol/freecol.git (@created 2017, @stars 549, @forks 165), https://git.code.sf.net/p/freecol/git (@add)
 - Code language: Java
 - Code license: GPL-2.0

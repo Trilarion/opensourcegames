@@ -3,7 +3,7 @@
 - Home: https://github.com/vayerx/shadowgrounds
 - Inspiration: Shadowgrounds: Survivor
 - State: beta, inactive since 2017
-- Keyword: remake, content commercial, original required
+- Keyword: action, content commercial, original required, remake or clone
 - Code repository: https://github.com/vayerx/shadowgrounds.git (@created 2011, @stars 53, @forks 17)
 - Code language: C++
 - Code license: Custom (NC https://github.com/vayerx/shadowgrounds/blob/linux/LICENSE.txt)

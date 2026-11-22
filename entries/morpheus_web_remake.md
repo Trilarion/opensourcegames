@@ -4,7 +4,7 @@
 - Inspiration: Morpheus
 - State: beta
 - Platform: Web
-- Keyword: adventure, remake, content commercial, first-person, original required
+- Keyword: adventure, content commercial, first-person, original required, remake or clone
 - Code repository: https://github.com/soap-bubble/web.git (@created 2017, @stars 6, @forks 0)
 - Code language: JavaScript, TypeScript
 - Code license: MIT

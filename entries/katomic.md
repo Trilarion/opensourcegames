@@ -4,7 +4,7 @@
 - Inspiration: Atomix
 - State: mature
 - Platform: Windows, Linux, macOS
-- Keyword: puzzle, remake
+- Keyword: puzzle, remake or clone
 - Code repository: https://invent.kde.org/games/katomic.git
 - Code language: C++
 - Code license: GPL-2.0

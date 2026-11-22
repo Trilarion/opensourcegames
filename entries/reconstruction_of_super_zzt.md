@@ -3,7 +3,7 @@
 - Home: https://github.com/asiekierka/reconstruction-of-super-zzt
 - Inspiration: Super ZZT
 - State: mature
-- Keyword: adventure, remake
+- Keyword: adventure, remake or clone
 - Code repository: https://github.com/asiekierka/reconstruction-of-super-zzt.git (@created 2020, @stars 33, @forks 3)
 - Code language: Pascal
 - Code license: MIT

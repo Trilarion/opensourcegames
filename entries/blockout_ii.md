@@ -5,7 +5,7 @@
 - State: mature, inactive since 2014
 - Download: https://sourceforge.net/projects/blockout/files/blockout/
 - Platform: Windows, Linux
-- Keyword: puzzle, remake
+- Keyword: puzzle, remake or clone
 - Code repository: https://codeberg.org/osgames/blockout.git (conversion of cvs)
 - Code language: C++
 - Code license: GPL-2.0

@@ -4,7 +4,7 @@
 - Inspiration: Castle of the Winds
 - State: beta, inactive since 2016
 - Platform: Web
-- Keyword: remake, role playing
+- Keyword: role playing, remake or clone
 - Code repository: https://github.com/mordrax/cotwmtor.git (@created 2015, @stars 16, @forks 2)
 - Code language: JavaScript
 - Code license: MIT

@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Ballerburg#Legacy
 - Inspiration: Ballerburg
 - State: mature
-- Keyword: action, remake, artillery
+- Keyword: action, artillery, remake or clone
 - Code repository: https://git.tuxfamily.org/baller/baller.git, https://codeberg.org/osgames/ballerburg.git (@add, import of original source downloads)
 - Code language: C
 - Code license: GPL-3.0

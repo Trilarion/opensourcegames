@@ -3,7 +3,7 @@
 - Home: https://www.scottsmitelli.com/projects/cosmore/
 - Inspiration: Cosmo's Cosmic Adventure
 - State: mature
-- Keyword: remake, content commercial, original required
+- Keyword: platform, content commercial, original required, remake or clone
 - Code repository: https://github.com/smitelli/cosmore.git (@created 2020, @stars 89, @forks 6)
 - Code language: C, Assembly
 - Code license: MIT

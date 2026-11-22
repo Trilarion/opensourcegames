@@ -5,7 +5,7 @@
 - Inspiration: X-COM: Apocalypse, X-COM: Terror from the Deep, X-COM: UFO Defense
 - State: mature
 - Download: https://ufoai.org/wiki/Download
-- Keyword: strategy, clone, turn-based
+- Keyword: strategy, remake or clone, turn-based
 - Code repository: https://github.com/ufoaiorg/ufoai.git (mirror, @created 2011, @stars 146, @forks 53), https://git.code.sf.net/p/ufoai/code
 - Code language: C, C++
 - Code license: GPL-2.0

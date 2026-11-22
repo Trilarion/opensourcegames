@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/eglaysher/rlvm/releases
 - Platform: Linux, macOS
-- Keyword: remake, visual novel, content commercial, engine
+- Keyword: visual novel, content commercial, engine, remake or clone
 - Code repository: https://github.com/eglaysher/rlvm.git (@created 2008, @stars 144, @forks 23)
 - Code language: C++
 - Code license: GPL-3.0

@@ -5,7 +5,7 @@
 - State: mature, inactive since 2012
 - Download: https://sourceforge.net/projects/mmario/files/
 - Platform: Windows
-- Keyword: action, platform, remake
+- Keyword: action, platform, remake or clone
 - Code language: C++
 - Code license: LGPL-2.1
 - Code dependency: SDL

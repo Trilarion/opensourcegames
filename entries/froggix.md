@@ -4,7 +4,7 @@
 - Inspiration: Frogger
 - State: beta, inactive since 2009
 - Download: https://sourceforge.net/projects/froggix/files/
-- Keyword: arcade, remake, side-scrolling, skill
+- Keyword: arcade, remake or clone, side-scrolling, skill
 - Code repository: https://codeberg.org/osgames/froggix.git (conversion of svn)
 - Code language: Python
 - Code license: GPL-3.0

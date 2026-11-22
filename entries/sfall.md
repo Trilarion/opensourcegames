@@ -4,7 +4,7 @@
 - Inspiration: Fallout 2
 - State: mature
 - Download: https://github.com/sfall-team/sfall/releases
-- Keyword: game engine, remake, content commercial, original required
+- Keyword: game engine, content commercial, original required, remake or clone
 - Code repository: https://github.com/sfall-team/sfall.git (@created 2015, @stars 289, @forks 39)
 - Code language: C++, C
 - Code license: GPL-3.0

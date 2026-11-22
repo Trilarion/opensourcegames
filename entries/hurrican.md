@@ -4,7 +4,7 @@
 - Inspiration: Turrican
 - State: mature
 - Download: https://github.com/HurricanGame/Hurrican/releases
-- Keyword: platform, remake, content free
+- Keyword: platform, content free, remake or clone
 - Code repository: https://github.com/thrimbor/Hurrican.git (@created 2023, @stars 2, @forks 0)
 - Code language: C++
 - Code license: MIT

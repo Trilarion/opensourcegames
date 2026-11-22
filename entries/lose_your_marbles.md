@@ -4,7 +4,7 @@
 - Inspiration: Lose Your Marbles
 - State: mature, inactive since 2014
 - Platform: Web
-- Keyword: remake
+- Keyword: puzzle, remake or clone
 - Code repository: https://github.com/eguneys/lose-your-marbles.git (@created 2014, @stars 18, @forks 9)
 - Code language: JavaScript
 - Code license: MIT

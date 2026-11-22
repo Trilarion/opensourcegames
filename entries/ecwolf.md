@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://maniacsvault.net/ecwolf/download.php
 - Platform: Windows, Linux, macOS, Android
-- Keyword: remake, first-person, shooter
+- Keyword: action, first-person, remake or clone, shooter
 - Code repository: https://bitbucket.org/ecwolf/ecwolf.git
 - Code language: C++
 - Code license: GPL-2.0, LGPL-2.1, zlib, MIT, IJG, Public domain

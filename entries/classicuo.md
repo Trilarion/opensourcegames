@@ -3,7 +3,7 @@
 - Home: https://www.classicuo.eu/
 - Inspiration: Ultima Online
 - State: beta
-- Keyword: role playing, client, clone, content open, multiplayer online + massive
+- Keyword: role playing, client, content open, multiplayer online + massive, remake or clone
 - Code repository: https://github.com/ClassicUO/ClassicUO.git (@created 2018, @stars 521, @forks 304)
 - Code language: C#
 - Code license: 4-clause BSD

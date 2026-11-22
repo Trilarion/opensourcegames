@@ -4,7 +4,7 @@
 - Inspiration: Tetris
 - State: mature, inactive since 2012
 - Platform: Windows, Linux, macOS
-- Keyword: puzzle, clone, content open
+- Keyword: puzzle, content open, remake or clone
 - Code repository: https://codeberg.org/osgames/dtris.git (conversion of bzr)
 - Code language: C
 - Code license: GPL-2.0

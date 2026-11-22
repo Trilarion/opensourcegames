@@ -4,7 +4,7 @@
 - Inspiration: Micropolis, SimCity
 - State: mature
 - Platform: Web
-- Keyword: simulation, clone
+- Keyword: simulation, remake or clone
 - Code repository: https://github.com/graememcc/micropolisJS.git (@created 2013, @stars 619, @forks 92)
 - Code language: JavaScript
 - Code license: GPL-3.0

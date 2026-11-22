@@ -4,7 +4,7 @@
 - Inspiration: A-Train
 - State: beta, inactive since 2009
 - Download: https://sourceforge.net/projects/freetrain/files/
-- Keyword: simulation, clone, content commercial
+- Keyword: simulation, content commercial, remake or clone
 - Code repository: https://codeberg.org/osgames/freetrain.git (backup of svn)
 - Code language: C#, C++
 - Code license: LGPL-2.1

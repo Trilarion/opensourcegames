@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://artificialworlds.net/rabbit-escape/#install
 - Platform: Windows, Linux, macOS, Android
-- Keyword: action, puzzle, remake
+- Keyword: action, puzzle, remake or clone
 - Code repository: https://github.com/andybalaam/rabbit-escape.git (@created 2014, @stars 72, @forks 38)
 - Code language: Java
 - Code license: GPL-2.0

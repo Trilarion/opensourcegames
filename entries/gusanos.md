@@ -5,7 +5,7 @@
 - State: beta, inactive since 2006
 - Download: https://sourceforge.net/projects/gusanos/files/
 - Platform: Windows, Linux
-- Keyword: action, remake
+- Keyword: action, remake or clone
 - Code repository: http://gusanos.cvs.sourceforge.net (cvs)
 - Code language: C++
 - Code license: GPL-2.0

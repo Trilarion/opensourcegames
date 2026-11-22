@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://github.com/TES3MP/TES3MP/releases
 - Platform: Windows, Linux, macOS
-- Keyword: remake, multiplayer online
+- Keyword: role playing, multiplayer online, remake or clone
 - Code repository: https://github.com/TES3MP/TES3MP.git (@created 2016, @stars 727, @forks 90)
 - Code language: C++
 - Code license: GPL-3.0

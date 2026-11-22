@@ -5,7 +5,7 @@
 - State: mature, inactive since 2020
 - Download: https://github.com/cricri-pingouin/SliTris/releases
 - Platform: Windows
-- Keyword: arcade, puzzle, remake, content free
+- Keyword: arcade, puzzle, content free, remake or clone
 - Code repository: https://github.com/cricri-pingouin/SliTris.git (@created 2020, @stars 2, @forks 3)
 - Code language: Pascal
 - Code license: GPL-3.0

@@ -4,7 +4,7 @@
 - Inspiration: Lotus Esprit Turbo Challenge
 - State: mature, inactive since 2010
 - Platform: Web
-- Keyword: arcade, clone, content open
+- Keyword: arcade, content open, remake or clone
 - Code repository: https://github.com/onaluf/RacerJS.git (@created 2010, @stars 115, @forks 37)
 - Code language: JavaScript
 - Code license: MIT

@@ -3,7 +3,7 @@
 - Home: https://www.gamecreation.org/games/shotgun_debugger
 - State: mature, inactive since 2005
 - Platform: Windows, Linux, macOS
-- Keyword: remake, 2D, 3D, shooter, top-down
+- Keyword: action, 2D, 3D, remake or clone, shooter, top-down
 - Code repository: https://codeberg.org/osgames/sdb.git (import of sources)
 - Code language: C++
 - Code license: GPL-2.0

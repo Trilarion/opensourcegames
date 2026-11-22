@@ -5,7 +5,7 @@
 - State: beta, inactive since 2004
 - Download: https://krystaldrop.sourceforge.net/downloads.html, https://sourceforge.net/projects/krystaldrop/files/krystaldrop/
 - Platform: Linux
-- Keyword: puzzle, remake
+- Keyword: puzzle, remake or clone
 - Code repository: https://codeberg.org/osgames/krystaldrop.git (conversion of cvs)
 - Code language: C++
 - Code license: GPL-2.0

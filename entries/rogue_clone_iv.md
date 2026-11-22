@@ -5,7 +5,7 @@
 - Inspiration: Rogue
 - State: mature, inactive since 2006
 - Download: https://sourceforge.net/projects/rogueclone/files/rogue%20clone/
-- Keyword: remake, role playing, roguelike
+- Keyword: role playing, remake or clone, roguelike
 - Code repository: https://codeberg.org/osgames/rogueclone.git (backup of cvs)
 - Code language: C
 - Code license: 3-clause BSD

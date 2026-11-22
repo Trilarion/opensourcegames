@@ -5,7 +5,7 @@
 - State: mature
 - Play: https://kurve.se/
 - Platform: Web
-- Keyword: arcade, clone, content open, multiplayer local, skill
+- Keyword: arcade, content open, multiplayer local, remake or clone, skill
 - Code repository: https://github.com/SimonAlling/kurve.git (@created 2016, @stars 40, @forks 6)
 - Code language: JavaScript, Elm
 - Code license: AGPL-3.0

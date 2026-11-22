@@ -5,7 +5,7 @@
 - State: beta
 - Play: https://mk.mgechev.com/
 - Platform: Web
-- Keyword: action, remake, multiplayer
+- Keyword: action, multiplayer, remake or clone
 - Code repository: https://github.com/mgechev/mk.js.git (@created 2013, @stars 1518, @forks 435)
 - Code language: JavaScript
 - Code license: MIT

@@ -6,7 +6,7 @@
 - State: beta, inactive since 2020
 - Download: https://dune2themaker.fundynamic.com/releases/
 - Platform: Windows
-- Keyword: remake, strategy, real-time
+- Keyword: strategy, real-time, remake or clone
 - Code repository: https://github.com/Fundynamic/dune2themaker4j.git (@created 2012, @stars 59, @forks 19)
 - Code language: Java
 - Code license: MIT

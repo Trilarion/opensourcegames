@@ -3,7 +3,7 @@
 - Home: https://disenchant.net/tyrquake/
 - Inspiration: Quake
 - State: beta
-- Keyword: remake, first-person, shooter
+- Keyword: action, first-person, remake or clone, shooter
 - Code repository: https://github.com/libretro/tyrquake.git (@created 2013, @stars 39, @forks 45)
 - Code language: C
 - Code license: GPL-2.0

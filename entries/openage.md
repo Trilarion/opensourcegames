@@ -3,7 +3,7 @@
 - Home: https://openage.sft.lol/
 - Inspiration: Age of Empires, Age of Empires II, Star Wars: Galactic Battlegrounds
 - State: beta
-- Keyword: remake, strategy, content commercial, original required, real-time
+- Keyword: strategy, content commercial, original required, real-time, remake or clone
 - Code repository: https://github.com/SFTtech/openage.git (@created 2013, @stars 12303, @forks 1092)
 - Code language: C++, Python
 - Code license: GPL-3.0

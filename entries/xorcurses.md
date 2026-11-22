@@ -4,7 +4,7 @@
 - Inspiration: XOR
 - State: beta, inactive since 2012
 - Platform: Linux
-- Keyword: puzzle, clone
+- Keyword: puzzle, remake or clone
 - Code repository: https://github.com/jwm-art-net/XorCurses.git (@created 2011, @stars 19, @forks 0)
 - Code language: C
 - Code license: GPL-3.0

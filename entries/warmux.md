@@ -3,7 +3,7 @@
 - Home: https://web.archive.org/web/20170513192248/http://gna.org/projects/warmux/
 - Inspiration: Worms Series
 - State: beta, inactive since 2018
-- Keyword: platform, artillery, clone
+- Keyword: platform, artillery, remake or clone
 - Code repository: https://github.com/yeKcim/warmux.git (see trunk directory, @created 2016, @stars 130, @forks 16)
 - Code language: C++
 - Code license: GPL-2.0

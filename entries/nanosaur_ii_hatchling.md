@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/jorio/Nanosaur2/releases
 - Platform: Windows, Linux, macOS
-- Keyword: action, remake, content free, multiplayer Local, shooter
+- Keyword: action, content free, multiplayer Local, remake or clone, shooter
 - Code repository: https://github.com/jorio/Nanosaur2.git
 - Code language: C, C++
 - Code license: CC-BY-NC-SA-4.0

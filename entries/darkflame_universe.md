@@ -3,7 +3,7 @@
 - Home: https://darkflameuniverse.org/
 - Inspiration: Lego Universe
 - State: mature
-- Keyword: remake, role playing, content commercial, engine, multiplayer Local + Online + LAN
+- Keyword: role playing, content commercial, engine, multiplayer Local + Online + LAN, remake or clone
 - Code repository: https://github.com/DarkflameUniverse/DarkflameServer.git (@created 2021, @stars 594, @forks 167)
 - Code language: C++
 - Code license: AGPL-3.0

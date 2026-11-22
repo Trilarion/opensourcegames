@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/ZQuestClassic/ZQuestClassic/releases
 - Platform: Windows, Linux, macOS
-- Keyword: framework, remake, content swappable, editor
+- Keyword: framework, content swappable, editor, remake or clone
 - Code repository: https://github.com/ZQuestClassic/ZQuestClassic.git
 - Code language: C++, C
 - Code license: GPL-3.0

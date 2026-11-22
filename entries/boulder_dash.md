@@ -4,7 +4,7 @@
 - Inspiration: Boulder Dash
 - State: mature, inactive since 2015
 - Download: https://github.com/valeriansaliou/boulder-dash/releases
-- Keyword: action, remake
+- Keyword: action, remake or clone
 - Code repository: https://github.com/valeriansaliou/boulder-dash.git (@created 2015, @stars 13, @forks 12)
 - Code language: Java
 - Code license: MIT

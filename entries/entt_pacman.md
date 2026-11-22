@@ -3,7 +3,7 @@
 - Home: https://github.com/indianakernick/EnTT-Pacman
 - Inspiration: Pac-Man
 - State: mature
-- Keyword: puzzle, remake, clone, content open
+- Keyword: puzzle, content open, remake or clone
 - Code repository: https://github.com/indianakernick/EnTT-Pacman.git (@created 2018, @stars 225, @forks 22)
 - Code language: C, C++
 - Code license: MIT

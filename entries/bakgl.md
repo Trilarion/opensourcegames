@@ -3,7 +3,7 @@
 - Home: https://github.com/xavieran/BaKGL
 - Inspiration: Betrayal at Krondor, xBaK
 - State: mature
-- Keyword: remake, role playing, content commercial, original required
+- Keyword: role playing, content commercial, original required, remake or clone
 - Code repository: https://github.com/xavieran/BaKGL.git
 - Code language: C++
 - Code license: GPL-3.0

@@ -3,7 +3,7 @@
 - Home: https://wxlasertank.sourceforge.net, https://sourceforge.net/projects/wxlasertank/
 - Inspiration: LaserTank
 - State: mature, inactive since 2009
-- Keyword: remake, content open
+- Keyword: puzzle, content open, remake or clone
 - Code repository: https://svn.code.sf.net/p/wxlasertank/code/ (svn)
 - Code language: C++
 - Code license: GPL-2.0

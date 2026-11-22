@@ -4,7 +4,7 @@
 - Inspiration: Fallout 2
 - State: beta, inactive since 2012
 - Download: https://sourceforge.net/projects/parpg/files/
-- Keyword: remake, role playing
+- Keyword: role playing, remake or clone
 - Code repository: https://codeberg.org/osgames/parpg-core.git, https://subversion.assembla.com/svn/parpg-assets/ (svn), http://parpg-trac.cvsdude.com/parpg/browser (svn)
 - Code language: Python
 - Code license: GPL-3.0

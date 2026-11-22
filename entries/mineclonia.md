@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://content.luanti.org/packages/ryvnf/mineclonia/
 - Platform: Windows, Linux, macOS, Android
-- Keyword: remake, simulation, multiplayer, sandbox, survival, voxel
+- Keyword: simulation, multiplayer, remake or clone, sandbox, survival, voxel
 - Code repository: https://codeberg.org/mineclonia/mineclonia.git
 - Code language: Lua
 - Code license: GPL-3.0

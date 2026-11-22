@@ -5,7 +5,7 @@
 - State: beta, inactive since 2010
 - Download: https://zaz.sourceforge.net/index.php?page=3
 - Platform: Windows, Linux, macOS
-- Keyword: puzzle, remake
+- Keyword: puzzle, remake or clone
 - Code repository: https://svn.code.sf.net/p/zaz/code (svn)
 - Code language: C++
 - Code license: GPL-3.0

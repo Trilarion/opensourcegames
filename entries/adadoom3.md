@@ -2,7 +2,7 @@
 
 - Home: https://github.com/AdaDoom3/AdaDoom3
 - State: beta
-- Keyword: action, remake, shooter
+- Keyword: action, remake or clone, shooter
 - Code repository: https://github.com/AdaDoom3/AdaDoom3.git (@created 2013, @stars 248, @forks 24)
 - Code language: Ada
 - Code license: GPL-3.0

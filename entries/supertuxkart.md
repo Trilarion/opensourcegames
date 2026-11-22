@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://supertuxkart.net/Download, https://f-droid.org/en/packages/org.supertuxkart.stk/
 - Platform: Windows, Linux, macOS, Android
-- Keyword: action, clone, racing
+- Keyword: action, racing, remake or clone
 - Code repository: https://github.com/supertuxkart/stk-code.git (@created 2014, @stars 4234, @forks 1015), https://svn.code.sf.net/p/supertuxkart/code (svn)
 - Code language: C++, C
 - Code license: GPL-3.0

@@ -4,7 +4,7 @@
 - Inspiration: Jewel Thief
 - State: mature, inactive since 2016
 - Platform: Android
-- Keyword: arcade, remake
+- Keyword: arcade, remake or clone
 - Code repository: https://github.com/cdetamble/jewelthief.git (@created 2016, @stars 14, @forks 2)
 - Code language: Java
 - Code license: GPL-3.0

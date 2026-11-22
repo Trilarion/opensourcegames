@@ -5,7 +5,7 @@
 - State: mature, inactive since 2023
 - Download: http://www.newbreedsoftware.com/defendguin/download/, https://tuxpaint.org/ftp/unix/x/defendguin/
 - Platform: Windows, Linux
-- Keyword: arcade, remake, skill
+- Keyword: arcade, remake or clone, skill
 - Code language: C
 - Code license: GPL-2.0
 

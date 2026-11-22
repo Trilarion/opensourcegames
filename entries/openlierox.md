@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://www.openlierox.net/downloads/, https://sourceforge.net/projects/openlierox/files/ (@old)
 - Platform: Windows
-- Keyword: action, arcade, remake
+- Keyword: action, arcade, remake or clone
 - Code repository: https://github.com/albertz/openlierox.git (@created 2011, @stars 253, @forks 59), https://git.code.sf.net/p/openlierox/code (@old)
 - Code language: C++
 - Code license: LGPL-2.0

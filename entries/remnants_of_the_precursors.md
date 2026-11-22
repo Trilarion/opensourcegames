@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://rayfowler.itch.io/remnants-of-the-precursors
 - Platform: Windows, Linux, macOS
-- Keyword: remake, strategy, content unknown, space
+- Keyword: strategy, content unknown, remake or clone, space
 - Code repository: https://github.com/rayfowler/rotp-public.git (@created 2020, @stars 187, @forks 43)
 - Code language: Java
 - Code license: CC-BY-NC-ND-4.0

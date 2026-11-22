@@ -4,7 +4,7 @@
 - Inspiration: Ultima III: Exodus
 - State: mature
 - Download: https://github.com/Feneric/Minima/releases
-- Keyword: role playing, clone
+- Keyword: role playing, remake or clone
 - Code repository: https://github.com/Feneric/Minima.git (@created 2018, @stars 88, @forks 9)
 - Code language: Lua
 - Code license: GPL-3.0

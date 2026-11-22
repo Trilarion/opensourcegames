@@ -4,7 +4,7 @@
 - Inspiration: Shobon Action
 - State: beta, inactive since 2011
 - Download: https://sourceforge.net/projects/opensyobon/files/
-- Keyword: remake
+- Keyword: platform, remake or clone
 - Code language: C++
 - Code license: ? (GPL-2.0?)
 - Developer: Mathew Velasquez

@@ -4,7 +4,7 @@
 - Inspiration: Flying Shark
 - State: mature
 - Platform: Linux
-- Keyword: arcade, clone, content commercial, scrolling, shooter
+- Keyword: arcade, content commercial, remake or clone, scrolling, shooter
 - Code repository: https://github.com/ptitSeb/friking-shark.git (@created 2015, @stars 10, @forks 0)
 - Code language: C++, C
 - Code license: GPL-3.0

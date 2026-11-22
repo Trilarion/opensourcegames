@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/jazztickets/irrlamb/releases
 - Platform: Windows
-- Keyword: arcade, remake
+- Keyword: arcade, remake or clone
 - Code repository: https://github.com/jazztickets/irrlamb.git (@created 2012, @stars 23, @forks 11)
 - Code language: C, C++
 - Code license: GPL-3.0

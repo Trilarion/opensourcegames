@@ -4,7 +4,7 @@
 - Inspiration: Sid Meier's Pirates!
 - State: beta, inactive since 2009
 - Download: https://sourceforge.net/projects/crownandcutlass/files/crownandcutlass/
-- Keyword: remake, strategy, 3D
+- Keyword: strategy, 3D, remake or clone
 - Code repository: https://codeberg.org/osgames/crownandcutlass.git (backup of svn)
 - Code language: C++, C
 - Code license: Custom (almost identical to BSD)

@@ -3,7 +3,7 @@
 - Home: https://web.archive.org/web/20250420133544/https://openbiohazard2.github.io/
 - Inspiration: Resident Evil 2
 - State: beta
-- Keyword: action, remake, content commercial
+- Keyword: action, content commercial, remake or clone
 - Code repository: https://github.com/OpenBiohazard2/OpenBiohazard2.git (@created 2020, @stars 216, @forks 13)
 - Code language: Go
 - Code license: MIT

@@ -4,7 +4,7 @@
 - Inspiration: Ultima VIII: Pagan
 - State: beta, inactive since 2018
 - Platform: Windows, Linux, macOS
-- Keyword: game engine, remake, role playing, content commercial, original required
+- Keyword: game engine, role playing, content commercial, original required, remake or clone
 - Code repository: https://github.com/pentagram-u8/pentagram.git (@created 2016, @stars 44, @forks 6), https://svn.code.sf.net/p/pentagram/code (svn)
 - Code language: C++
 - Code license: GPL-2.0

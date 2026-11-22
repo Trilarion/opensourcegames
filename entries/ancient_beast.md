@@ -4,7 +4,7 @@
 - Inspiration: Heroes of Might and Magic III
 - State: mature
 - Platform: Web
-- Keyword: strategy, clone, turn-based
+- Keyword: strategy, remake or clone, turn-based
 - Code repository: https://github.com/FreezingMoon/AncientBeast.git (@created 2011, @stars 1532, @forks 536)
 - Code language: JavaScript, TypeScript
 - Code license: AGPL-3.0

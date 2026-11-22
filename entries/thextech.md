@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/TheXTech/TheXTech/releases
 - Platform: Windows, Linux, macOS
-- Keyword: arcade, clone, content free, multiplayer Competitive + Local + Split-screen + Co-op
+- Keyword: arcade, content free, multiplayer Competitive + Local + Split-screen + Co-op, remake or clone
 - Code repository: https://github.com/TheXTech/TheXTech.git (@created 2020, @stars 238, @forks 25)
 - Code language: C++
 - Code license: GPL-3.0

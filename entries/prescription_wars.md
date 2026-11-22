@@ -4,7 +4,7 @@
 - Inspiration: Drugwars
 - State: mature, inactive since 2016
 - Platform: Web
-- Keyword: educational, remake, simulation, strategy
+- Keyword: educational, simulation, strategy, remake or clone
 - Code repository: https://github.com/gtheilman/RxWars.git (@created 2015, @stars 24, @forks 9)
 - Code language: ColdFusion, JavaScript
 - Code license: GPL-3.0

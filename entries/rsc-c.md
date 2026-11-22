@@ -3,7 +3,7 @@
 - Home: https://github.com/2003scape/rsc-c
 - Inspiration: RuneScape Classic
 - State: mature
-- Keyword: remake, role playing, content free, multiplayer Online + LAN
+- Keyword: role playing, content free, multiplayer Online + LAN, remake or clone
 - Code repository: https://github.com/2003scape/rsc-c.git
 - Code language: C, C++
 - Code license: AGPL-3.0

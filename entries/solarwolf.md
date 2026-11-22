@@ -5,7 +5,7 @@
 - State: mature, inactive since 2004
 - Download: https://www.pygame.org/shredwheat/solarwolf/index.shtml#download
 - Platform: Windows, Linux, macOS
-- Keyword: action, arcade, remake, content open
+- Keyword: action, arcade, content open, remake or clone
 - Code repository: https://codeberg.org/osgames/solarwolf.git (import of source releases)
 - Code language: Python
 - Code license: LGPL-2.1

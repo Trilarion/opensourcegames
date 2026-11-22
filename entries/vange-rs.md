@@ -5,7 +5,7 @@
 - State: beta (alpha)
 - Download: https://github.com/kvark/vange-rs/releases
 - Platform: Windows, Linux, macOS
-- Keyword: remake, content commercial + original required, racing role playing
+- Keyword: role playing, content commercial + original required, racing, remake or clone
 - Code repository: https://github.com/kvark/vange-rs.git
 - Code language: Rust
 - Code license: Apache-2.0

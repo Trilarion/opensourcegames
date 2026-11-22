@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://librelancer.net/downloads.html
 - Platform: Windows, Linux
-- Keyword: action, game engine, remake, simulation, space
+- Keyword: action, game engine, simulation, remake or clone, space
 - Code repository: https://github.com/Librelancer/Librelancer.git (@created 2015, @stars 475, @forks 39)
 - Code language: C, C#
 - Code license: MIT

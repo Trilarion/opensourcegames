@@ -3,7 +3,7 @@
 - Home: https://github.com/WickedPeanuts/OpenBound
 - Inspiration: Gunbound
 - State: mature
-- Keyword: arcade, remake, artillery, content commercial, multiplayer Competitive + Online, original required
+- Keyword: arcade, artillery, content commercial, multiplayer Competitive + Online, original required, remake or clone
 - Code repository: https://github.com/WickedPeanuts/OpenBound.git (@created 2020, @stars 39, @forks 27)
 - Code language: C#
 - Code license: GPL-3.0

@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/signus-game/signus/releases
 - Platform: Windows, Linux
-- Keyword: remake, strategy, content open, turn-based
+- Keyword: strategy, content open, remake or clone, turn-based
 - Code repository: https://github.com/signus-game/signus.git (@created 2015, @stars 63, @forks 10)
 - Code language: C++
 - Code license: GPL-2.0

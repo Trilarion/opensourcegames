@@ -4,7 +4,7 @@
 - Inspiration: Atomic Bomberman
 - State: beta, inactive since 2010
 - Platform: Windows, Linux
-- Keyword: arcade, clone, content open
+- Keyword: arcade, content open, remake or clone
 - Code repository: https://steffen.gulpe.de/gitea/steffen/bomberclone.git
 - Code language: C
 - Code license: GPL-2.0

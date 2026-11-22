@@ -5,7 +5,7 @@
 - State: mature, inactive since 2014
 - Play: http://openroadsgame.com/
 - Platform: Web
-- Keyword: arcade, remake
+- Keyword: arcade, remake or clone
 - Code repository: https://github.com/anprogrammer/OpenRoads.git (@created 2014, @stars 121, @forks 10)
 - Code language: TypeScript, JavaScript
 - Code license: MIT

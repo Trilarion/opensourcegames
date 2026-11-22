@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://daid.github.io/EmptyEpsilon/#tabs=5
 - Platform: Windows, Linux, Android
-- Keyword: role playing, multiplayer online + LAN, simulation clone, space
+- Keyword: role playing, simulation, multiplayer online + LAN, remake or clone, space
 - Code repository: https://github.com/daid/EmptyEpsilon.git (@created 2014, @stars 808, @forks 205), https://github.com/daid/SeriousProton.git (@add, @created 2014, @stars 91, @forks 64)
 - Code language: C, C++, Lua
 - Code license: GPL-2.0

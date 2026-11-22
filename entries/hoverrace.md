@@ -5,7 +5,7 @@
 - State: mature, inactive since 2016
 - Download: https://web.archive.org/web/20191221023553/http://www.hoverrace.com/?page=download
 - Platform: Windows
-- Keyword: remake, sports, 3D, racing
+- Keyword: sports, 3D, racing, remake or clone
 - Code repository: https://github.com/HoverRace/HoverRace.git (@created 2012, @stars 27, @forks 7)
 - Code language: C++
 - Code license: Custom (NC https://github.com/HoverRace/HoverRace/blob/master/license.txt)

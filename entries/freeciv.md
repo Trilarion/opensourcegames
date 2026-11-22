@@ -5,7 +5,7 @@
 - Inspiration: Civilization II
 - State: mature
 - Download: http://www.freeciv.org/download.html
-- Keyword: strategy, clone, multiplayer, turn-based
+- Keyword: strategy, multiplayer, remake or clone, turn-based
 - Code repository: https://github.com/freeciv/freeciv.git (@created 2017, @stars 1167, @forks 207)
 - Code language: C
 - Code license: GPL-2.0

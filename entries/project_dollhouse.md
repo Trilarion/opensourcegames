@@ -4,7 +4,7 @@
 - Inspiration: CorsixTH, The Sims Online
 - State: beta
 - Download: https://github.com/Afr0Games/Project-Dollhouse/releases
-- Keyword: remake, simulation, content commercial, original required (?)
+- Keyword: simulation, content commercial, original required (?), remake or clone
 - Code repository: https://github.com/Afr0Games/Project-Dollhouse.git (@created 2012, @stars 113, @forks 24)
 - Code language: C#
 - Code license: MPL-2.0

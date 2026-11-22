@@ -6,7 +6,7 @@
 - State: mature, inactive since 2009
 - Download: https://sdl-asylum.sourceforge.net/main.html#Download
 - Platform: Linux
-- Keyword: action, arcade, remake
+- Keyword: action, arcade, remake or clone
 - Code repository: https://codeberg.org/osgames/sdl-asylum.git (import of svn)
 - Code language: C
 - Code license: GPL-3.0

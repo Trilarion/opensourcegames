@@ -5,7 +5,7 @@
 - State: mature, inactive since 2008
 - Download: https://sourceforge.net/projects/fretsonfire/files/
 - Platform: Windows, Linux, macOS
-- Keyword: music, remake
+- Keyword: music, remake or clone
 - Code repository: https://github.com/skyostil/fretsonfire.git (@created 2014, @stars 34, @forks 11), https://svn.code.sf.net/p/fretsonfire/code (svn old)
 - Code language: Python
 - Code license: GPL-2.0

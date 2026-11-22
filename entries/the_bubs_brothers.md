@@ -5,7 +5,7 @@
 - State: mature, inactive since 2013
 - Download: https://bub-n-bros.sourceforge.net/download.html
 - Platform: Windows, Linux, macOS
-- Keyword: board, remake, clone
+- Keyword: board, remake or clone
 - Code repository: https://bitbucket.org/arigo/bub-n-bros (hg), https://codeberg.org/osgames/the-bubs-brothers.git (@add), http://bub-n-bros.cvs.sourceforge.net (cvs)
 - Code language: Python, C
 - Code license: MIT

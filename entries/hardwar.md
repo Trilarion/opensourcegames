@@ -4,7 +4,7 @@
 - Inspiration: Hardwar
 - State: beta, inactive since 2015
 - Platform: Windows, Linux, macOS
-- Keyword: remake, simulation, flight
+- Keyword: simulation, flight, remake or clone
 - Code repository: https://github.com/andrewfenn/Hardwar.git (@created 2011, @stars 45, @forks 2)
 - Code language: C++
 - Code license: GPL-3.0

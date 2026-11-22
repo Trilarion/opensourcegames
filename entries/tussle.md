@@ -5,7 +5,7 @@
 - State: mature, inactive since 2017
 - Download: https://projecttussle.com/download
 - Platform: Windows, Linux
-- Keyword: action, platform, clone, content open, multiplayer competitive
+- Keyword: action, platform, content open, multiplayer competitive, remake or clone
 - Code repository: https://github.com/digiholic/universalSmashSystem.git (@created 2015, @stars 82, @forks 14)
 - Code language: Python
 - Code license: GPL-3.0

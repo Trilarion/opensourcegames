@@ -3,7 +3,7 @@
 - Home: https://github.com/afwbkbc/glsmac
 - Inspiration: Sid Meier's Alpha Centauri
 - State: beta
-- Keyword: remake, strategy, content commercial, turn-based
+- Keyword: strategy, content commercial, remake or clone, turn-based
 - Code repository: https://github.com/afwbkbc/glsmac.git
 - Code language: C++
 - Code license: AGPL-3.0

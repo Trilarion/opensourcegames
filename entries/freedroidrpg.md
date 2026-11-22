@@ -4,7 +4,7 @@
 - Inspiration: Paradroid
 - State: mature
 - Download: https://www.freedroid.org/download/
-- Keyword: role playing, clone, isometric
+- Keyword: role playing, isometric, remake or clone
 - Code repository: https://gitlab.com/freedroid/freedroid-src.git (@created 2015, @stars 41, @forks 8), https://git.code.sf.net/p/freedroid/code
 - Code language: C, C++, Lua
 - Code license: GPL-2.0

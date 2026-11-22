@@ -4,7 +4,7 @@
 - Inspiration: Super Mario
 - State: beta, inactive since 2021
 - Platform: Web
-- Keyword: arcade, clone, platformer
+- Keyword: arcade, platformer, remake or clone
 - Code repository: https://github.com/kubowania/mario.git
 - Code language: JavaScript
 - Code license: MIT

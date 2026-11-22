@@ -3,7 +3,7 @@
 - Home: https://vircadia.com/
 - Inspiration: Second Life
 - State: mature
-- Keyword: simulation, clone, multiplayer Online
+- Keyword: simulation, multiplayer Online, remake or clone
 - Code repository: https://github.com/vircadia/vircadia-native-core.git (@created 2019, @stars 525, @forks 174), https://github.com/vircadia/vircadia-web.git
 - Code language: C++
 - Code license: Apache-2.0

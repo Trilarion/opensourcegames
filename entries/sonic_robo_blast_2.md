@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://www.srb2.org/download/
 - Platform: Windows, Linux, macOS, Android
-- Keyword: platform, clone, skill
+- Keyword: platform, remake or clone, skill
 - Code repository: https://github.com/STJr/SRB2.git (@created 2014, @stars 421, @forks 138), https://git.do.srb2.org/STJr/SRB2.git (@add)
 - Code language: C, C++
 - Code license: GPL-2.0

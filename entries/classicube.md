@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://www.classicube.net/download/
 - Platform: Windows, Linux, macOS, Android
-- Keyword: remake, content open, multiplayer online
+- Keyword: simulation, content open, multiplayer online, remake or clone
 - Code repository: https://github.com/ClassiCube/ClassiCube.git (@created 2014, @stars 1128, @forks 172)
 - Code language: C
 - Code license: 3-clause BSD

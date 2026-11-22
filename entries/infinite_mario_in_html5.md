@@ -4,7 +4,7 @@
 - Inspiration: Infinite Mario
 - State: mature, inactive since 2022
 - Platform: Web
-- Keyword: arcade, clone, platformer
+- Keyword: arcade, platformer, remake or clone
 - Code repository: https://github.com/robertkleffner/mariohtml5.git
 - Code language: JavaScript
 - Code license: Unlicense

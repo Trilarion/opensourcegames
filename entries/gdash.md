@@ -4,7 +4,7 @@
 - Inspiration: Boulder Dash
 - State: beta
 - Download: https://bitbucket.org/czirkoszoltan/gdash/downloads/
-- Keyword: action, remake
+- Keyword: action, remake or clone
 - Code repository: https://bitbucket.org/czirkoszoltan/gdash.git
 - Code language: C++
 - Code license: MIT

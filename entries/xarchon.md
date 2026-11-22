@@ -4,7 +4,7 @@
 - Inspiration: Archon: The Light and the Dark
 - State: beta, inactive since 2003
 - Download: http://xarchon.seul.org/download.html
-- Keyword: strategy, clone
+- Keyword: strategy, remake or clone
 - Code repository: https://codeberg.org/osgames/xarchon.git (import of cvs at cvs.seul.org)
 - Code language: C, C++
 - Code license: GPL-2.0

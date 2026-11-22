@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://www.etlegacy.com/download
 - Platform: Windows, Linux, macOS
-- Keyword: action, remake, content commercial, shooter
+- Keyword: action, content commercial, remake or clone, shooter
 - Code repository: https://github.com/etlegacy/etlegacy.git (@created 2020, @stars 509, @forks 91)
 - Code language: C, C++, Lua
 - Code license: GPL-3.0

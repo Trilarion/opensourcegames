@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/STJr/Kart-Public/releases
 - Platform: Windows, Linux, macOS
-- Keyword: arcade, clone, content free, multiplayer Competitive + Online, racing
+- Keyword: arcade, content free, multiplayer Competitive + Online, racing, remake or clone
 - Code repository: https://github.com/STJr/Kart-Public.git (@created 2019, @stars 318, @forks 63)
 - Code language: C, C++
 - Code license: GPL-2.0

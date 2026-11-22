@@ -5,7 +5,7 @@
 - Inspiration: Paradroid
 - State: mature, inactive since 2004
 - Download: https://sourceforge.net/projects/night-hawk/files/night-hawk/
-- Keyword: arcade, puzzle, remake, shooter
+- Keyword: arcade, puzzle, remake or clone, shooter
 - Code repository: https://codeberg.org/osgames/night-hawk.git (conversion of cvs), https://github.com/brickviking/night-hawk.git (@add)
 - Code language: C++, C
 - Code license: GPL-2.0

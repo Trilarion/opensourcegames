@@ -4,7 +4,7 @@
 - Inspiration: The Elder Scrolls III: Morrowind
 - State: mature
 - Platform: Android
-- Keyword: remake, content commercial
+- Keyword: role playing, content commercial, remake or clone
 - Code repository: https://github.com/xyzz/openmw-android.git (@archived, @created 2018, @stars 312, @forks 91)
 - Code language: Kotlin, Java
 - Code license: GPL-3.0

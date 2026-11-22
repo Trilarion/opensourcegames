@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://github.com/yvt/openspades/releases
 - Platform: Windows, macOS
-- Keyword: remake, first-person, sandbox, shooter
+- Keyword: action, first-person, remake or clone, sandbox, shooter
 - Code repository: https://github.com/yvt/openspades.git (@created 2013, @stars 1090, @forks 215)
 - Code language: C, C++, AngelScript
 - Code license: GPL-3.0

@@ -4,7 +4,7 @@
 - Inspiration: Laser Squad
 - State: beta, inactive since 2019
 - Platform: Windows, Linux
-- Keyword: remake, first-person, multiplayer, shooter
+- Keyword: action, first-person, multiplayer, remake or clone, shooter
 - Code repository: https://github.com/SteveSmith16384/MoonbaseAssault.git (@created 2019, @stars 2, @forks 2)
 - Code language: Java
 - Code license: MIT

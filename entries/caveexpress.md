@@ -4,7 +4,7 @@
 - Inspiration: Ugh!
 - State: mature
 - Platform: Windows, Linux, macOS, Android, Web
-- Keyword: platform, clone
+- Keyword: platform, remake or clone
 - Code repository: https://github.com/mgerhardy/caveexpress.git (@created 2014, @stars 135, @forks 20)
 - Code language: C, JavaScript
 - Code license: GPL-3.0

@@ -4,7 +4,7 @@
 - Inspiration: Magic: The Gathering Online
 - State: mature
 - Download: https://github.com/magefree/mage/releases
-- Keyword: cards, strategy, clone, multiplayer
+- Keyword: cards, strategy, multiplayer, remake or clone
 - Code repository: https://github.com/magefree/mage.git (@created 2012, @stars 1726, @forks 729)
 - Code language: Java
 - Code license: MIT

@@ -3,7 +3,7 @@
 - Home: https://web.archive.org/web/20201111225132/https://www.slightlymagic.net/wiki/Forge
 - Inspiration: Magic: The Gathering Online
 - State: mature
-- Keyword: cards, strategy, clone, content open
+- Keyword: cards, strategy, content open, remake or clone
 - Code repository: https://github.com/Card-Forge/forge.git (@created 2022, @stars 738, @forks 401)
 - Code language: Java
 - Code license: GPL-3.0

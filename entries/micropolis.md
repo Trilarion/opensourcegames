@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/SimCity_(1989_video_game)#Micropolis
 - Inspiration: SimCity
 - State: mature, inactive since 2015
-- Keyword: simulation, clone, online
+- Keyword: simulation, online, remake or clone
 - Code repository: https://github.com/SimHacker/micropolis.git (@created 2015, @stars 843, @forks 156)
 - Code language: C++, Java, Python
 - Code license: GPL-3.0

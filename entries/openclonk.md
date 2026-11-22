@@ -6,7 +6,7 @@
 - State: mature
 - Download: https://www.openclonk.org/download/
 - Platform: Windows, Linux
-- Keyword: action, remake, 2D
+- Keyword: action, 2D, remake or clone
 - Code repository: https://github.com/openclonk/openclonk.git (@created 2013, @stars 304, @forks 54)
 - Code language: C, C++
 - Code license: ISC

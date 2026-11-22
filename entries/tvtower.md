@@ -4,7 +4,7 @@
 - Media: https://en.wikipedia.org/wiki/Mad_TV_(video_game)#Remakes
 - Inspiration: Mad TV
 - State: mature
-- Keyword: remake, strategy
+- Keyword: strategy, remake or clone
 - Code repository: https://github.com/TVTower/TVTower.git (@created 2014, @stars 103, @forks 35)
 - Code language: BlitzMax, Lua
 - Code license: Custom (similar to MIT, Apache)

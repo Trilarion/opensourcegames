@@ -3,7 +3,7 @@
 - Home: https://bab-devs.github.io/
 - Inspiration: Baba Is You
 - State: mature
-- Keyword: puzzle, clone, content open
+- Keyword: puzzle, content open, remake or clone
 - Code repository: https://github.com/lilybeevee/bab-be-u.git (@created 2019, @stars 133, @forks 37)
 - Code language: Lua
 - Code license: MIT

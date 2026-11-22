@@ -3,7 +3,7 @@
 - Home: https://github.com/harshjv/threes-c
 - Inspiration: Threes
 - State: mature, inactive since 2015
-- Keyword: arcade, clone
+- Keyword: arcade, remake or clone
 - Code repository: https://github.com/harshjv/threes-c.git (@created 2015, @stars 28, @forks 3)
 - Code language: C, Objective-C
 - Code license: MIT

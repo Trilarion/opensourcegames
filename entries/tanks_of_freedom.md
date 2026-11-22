@@ -4,7 +4,7 @@
 - Inspiration: Advance Wars
 - State: mature
 - Platform: Windows, Linux, macOS, Android
-- Keyword: strategy, clone, content open, isometric, multiplayer hotseat + online, turn-based
+- Keyword: strategy, content open, isometric, multiplayer hotseat + online, remake or clone, turn-based
 - Code repository: https://github.com/w84death/Tanks-of-Freedom.git (@created 2015, @stars 1095, @forks 148)
 - Code language: GDScript
 - Code license: MIT

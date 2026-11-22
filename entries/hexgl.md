@@ -5,7 +5,7 @@
 - State: mature, inactive since 2016
 - Play: http://hexgl.bkcore.com/play/
 - Platform: Web
-- Keyword: simulation, clone, racing
+- Keyword: simulation, racing, remake or clone
 - Code repository: https://github.com/BKcore/HexGL.git (@created 2012, @stars 1523, @forks 740)
 - Code language: JavaScript, CoffeeScript
 - Code license: MIT

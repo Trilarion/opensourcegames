@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://vassalengine.org/download.html, https://sourceforge.net/projects/vassalengine/files/
 - Platform: Windows, Linux, macOS
-- Keyword: board, framework, game engine, clone
+- Keyword: board, framework, game engine, remake or clone
 - Code repository: https://svn.code.sf.net/p/vassalengine/svn (svn)
 - Code language: Java
 - Code license: LGPL-2.1

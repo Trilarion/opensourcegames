@@ -5,7 +5,7 @@
 - State: beta, inactive since 2018
 - Download: https://github.com/pierreyoda/o2r/releases, https://sourceforge.net/projects/o2r/files/
 - Platform: Windows, Linux, macOS
-- Keyword: remake
+- Keyword: puzzle, remake or clone
 - Code repository: https://github.com/pierreyoda/o2r.git (@created 2017, @stars 27, @forks 0), https://svn.code.sf.net/p/o2r/code (svn)
 - Code language: C++
 - Code license: MIT (was GPL-3.0)

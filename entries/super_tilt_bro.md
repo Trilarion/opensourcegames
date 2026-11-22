@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://github.com/sgadrat/super-tilt-bro/releases
 - Platform: Web
-- Keyword: platform, clone, content open, multiplayer competitive
+- Keyword: platform, content open, multiplayer competitive, remake or clone
 - Code repository: https://github.com/sgadrat/super-tilt-bro.git (@created 2016, @stars 120, @forks 11)
 - Code language: Assembly, Python
 - Code license: WTFPL

@@ -5,7 +5,7 @@
 - State: mature
 - Download: https://blockattack.net/download/
 - Platform: Windows, Linux
-- Keyword: puzzle, clone, match 3, sliding blocks
+- Keyword: puzzle, match 3, remake or clone, sliding blocks
 - Code repository: https://github.com/blockattack/blockattack-game.git (@created 2015, @stars 33, @forks 7)
 - Code language: C++
 - Code license: GPL-2.0

@@ -4,7 +4,7 @@
 - Inspiration: Sid Meier's Alpha Centauri
 - State: beta, inactive since 2003
 - Download: https://sourceforge.net/projects/freecivac/files/Stable%20Releases/
-- Keyword: remake, strategy
+- Keyword: strategy, remake or clone
 - Code repository: https://codeberg.org/osgames/freecivac.git (conversion to cvs)
 - Code language: C
 - Code license: GPL-2.0

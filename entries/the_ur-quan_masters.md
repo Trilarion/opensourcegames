@@ -5,7 +5,7 @@
 - Inspiration: Star Control 2
 - State: mature, inactive since 2011
 - Download: https://sc2.sourceforge.net/downloads.php
-- Keyword: remake, strategy, turn-based
+- Keyword: strategy, remake or clone, turn-based
 - Code repository: https://git.code.sf.net/p/sc2/uqm, https://codeberg.org/osgames/uqm.git (@add)
 - Code language: C
 - Code license: GPL-2.0

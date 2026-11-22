@@ -4,7 +4,7 @@
 - Inspiration: Tetris
 - State: mature, inactive since 2024
 - Platform: Windows, Linux, macOS
-- Keyword: puzzle, clone, tetris-like
+- Keyword: puzzle, remake or clone, tetris-like
 - Code repository: https://github.com/Mukarillo/UnityTetris.git
 - Code language: C#
 - Code license: MIT

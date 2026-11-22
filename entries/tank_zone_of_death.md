@@ -3,7 +3,7 @@
 - Home: https://zod.fandom.com/ru/wiki/Главная (Russian)
 - Inspiration: Battle City
 - State: beta, inactive since 2017
-- Keyword: action, clone, shooter
+- Keyword: action, remake or clone, shooter
 - Code repository: https://github.com/les-sosna/tzod.git (@created 2015, @stars 16, @forks 4)
 - Code language: C++, Lua
 - Code license: GPL-3.0

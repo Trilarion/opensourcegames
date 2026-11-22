@@ -5,7 +5,7 @@
 - State: mature, inactive since 2004
 - Download: https://tomatoes.sourceforge.net/downloads.html
 - Platform: Windows, Linux, macOS
-- Keyword: arcade, remake, scrolling
+- Keyword: arcade, remake or clone, scrolling
 - Code repository: https://codeberg.org/osgames/tomatoes.git
 - Code language: C++
 - Code license: zlib

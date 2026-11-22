@@ -1,9 +1,15 @@
 {
     "python.analysis.extraPaths": [
-        "code",
+        "${workspaceFolder}/code/src"
     ],
     "terminal.integrated.env.windows": {
-        "PYTHONPATH": "code"
-        },
+        "PYTHONPATH": "${workspaceFolder}\\code\\src;${env:PYTHONPATH}"
+    },
+    "terminal.integrated.env.linux": {
+        "PYTHONPATH": "${workspaceFolder}/code/src:${env:PYTHONPATH}"
+    },
+    "terminal.integrated.env.osx": {
+        "PYTHONPATH": "${workspaceFolder}/code/src:${env:PYTHONPATH}"
+    },
     "editor.acceptSuggestionOnEnter": "on"
 }

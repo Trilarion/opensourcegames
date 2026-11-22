@@ -5,7 +5,7 @@
 - State: beta
 - Download: https://store.steampowered.com/app/801140/unitystation/, https://github.com/unitystation/unitystation/releases?after=0.1.3.1
 - Platform: Windows, Linux, macOS
-- Keyword: adventure, clone, may require Steam (?)
+- Keyword: adventure, may require Steam (?), remake or clone
 - Code repository: https://github.com/unitystation/unitystation.git (@created 2016, @stars 700, @forks 646)
 - Code language: C#
 - Code license: AGPL-3.0

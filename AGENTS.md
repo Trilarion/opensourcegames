@@ -58,6 +58,11 @@ project environment.
   `osgl` package itself. The maintainer sets up the environment.
 - If a dependency is missing, stop and report what is missing instead of installing it.
 
+## Git
+
+- Commits typically go straight to the default branch (`master`), no feature branches are needed in this repository except when explicitly asked for.
+- Commit only when asked to.
+
 ## Python documentation style
 
 Before editing Python code, read and follow the **Docstring Style** section in

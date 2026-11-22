@@ -10,15 +10,7 @@ Sorts the entries in the contents files of each sub folder alphabetically.
 # TODO add wikipedia (media search) for popular games at least
 # TODO google search (for homepages or media entries) for popular games at least
 # TODO search for xxx.sourceforge.net or io but not sourceforge.net/xxx in homepages as convenience
-# TODO search for all with download or play field but without platform field
-# TODO sort developers alphabetically in entry and remove duplicate developers
-# TODO the output of the consistency check should go into a file
-# TODO consistency check: report those with no popular first code repository service (popular=Github, Gitlab, Codeberg, gnomes, kde)
-# TODO consistency check: report those with free assets license but not content open
-# TODO consistency check: report those with content commercial as keyword but not commercial assets license
 # TODO consistency check: report those with java as language but build system not gradle
-# TODO consistency check: report those with c/c++ as language but build system not cmake
-# TODO consistency check: report those with entry without screenshot (see entries/screenshot/readme.md)
 
 import re
 import datetime
@@ -155,6 +147,7 @@ class EntriesMaintainer:
         report_lines.append(f'Count: {len(labels)}')
         if len(labels) > 0:
             report_lines.append(', '.join(labels))
+        report_lines.append('')  # two empty lines
         report_lines.append('')
 
     def _is_open_assets_license(self, license):

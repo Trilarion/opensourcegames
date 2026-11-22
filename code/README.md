@@ -40,15 +40,28 @@ This folder contains all Python scripts and utilities to maintain the Open Sourc
 
 ### Requirements
 - Does not need to be compatible with older Python versions. Currently runs with Python 3.12+
-- Dependencies listed in `requirements.txt` (unpinned for flexibility)
+- Dependencies listed in `pyproject.toml` (unpinned for flexibility)
 
 ### Install Dependencies
 ```bash
-pip install -r requirements.txt
+pip install .        # run inside the code/ folder, installs the dependencies only
 ```
 
 ### Configuration
-- Optional: Create `local-config.ini` for local overrides
+- Local settings (e.g. paths on your machine) are stored in `local-config.ini` in the project root (not tracked in Git).
+  It is read by `utils/constants.py` and accessed via `get_config(key)`, which raises a `RuntimeError` with a
+  descriptive message if the file, the `[general]` section or the key is missing. Currently it is only needed
+  by the archive scripts (`archive_update.py`, `archive_detect_submodules.py`).
+
+  ```ini
+  [general]
+  # local folder where the game repositories are archived (subfolders git/, svn/, hg/ are created inside)
+  archive-folder = D:\path\to\osgl-archive
+  ```
+
+  | Key              | Used by                                              | Description                                  |
+  |------------------|------------------------------------------------------|----------------------------------------------|
+  | `archive-folder` | `archive_update.py`, `archive_detect_submodules.py` | Root folder of the local repository archive. |
 - GitHub/GitLab tokens can be stored in `private.properties` (not tracked in Git)
 
 ## Running Maintenance Scripts
@@ -125,7 +138,7 @@ python git_statistics.py
 - Read/write operations centralized in `utils.py` and `osg.py`
 
 ### Dependencies
-- `requirements.txt` is intentionally unpinned to allow flexible version updates
+- The dependencies in `pyproject.toml` are intentionally unpinned to allow flexible version updates
 - Test compatibility with Python 3.12+ before committing changes
 
 ### Comments
@@ -159,6 +172,6 @@ python git_statistics.py
 
 ## Troubleshooting
 
-- **Import errors**: Ensure `requirements.txt` is installed: `pip install -r requirements.txt`
+- **Import errors**: Ensure the dependencies from `pyproject.toml` are installed: `pip install .` (in `code/`)
 - **API rate limits**: GitHub/GitLab scripts may hit rate limits; credentials can help
 - **Encoding issues**: Most scripts handle UTF-8

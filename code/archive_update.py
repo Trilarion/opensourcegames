@@ -203,11 +203,7 @@ if __name__ == '__main__':
     }
 
     # get the archive folder
-    archive_folder = c.get_config('archive-folder')
-    if not archive_folder:
-        raise RuntimeError('No archive folder specified.')
-    else:
-        archive_folder = pathlib.Path(archive_folder)
+    archive_folder = pathlib.Path(c.get_config('archive-folder'))
 
     # read archives.json
     code_folder = c.root_path / 'code'

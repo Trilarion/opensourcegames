@@ -6,7 +6,6 @@
 - **[curses](../curses.md)** (C, ?, mature, inactive since 2000)
 - **[Dear ImGui](../dear_imgui.md)** (C, C++, MIT, mature)
 - **[DirectPython](../directpython.md)** (C++, 2-clause BSD, beta, inactive since 2007)
-- **[FreeType](../freetype.md)** (C, GPL-2.0, Custom, mature)
 - **[GeonBit.UI](../geonbitui.md)** (C#, MIT, mature)
 - **[Gorgon](../gorgon.md)** (C#, MIT, mature)
 - **[Horde3D](../horde3d.md)** (C++, EPL-2.0, mature)
@@ -16,4 +15,3 @@
 - **[pyscroll](../pyscroll.md)** (Python, LGPL-3.0, mature, inactive since 2018)
 - **[PyTMX](../pytmx.md)** (Python, LGPL-3.0, mature)
 - **[Simple and Fast Multimedia Library](../simple_and_fast_multimedia_library.md)** (C++, zlib, mature)
-- **[Simple DirectMedia Layer](../simple_directmedia_layer.md)** (C, zlib, mature)

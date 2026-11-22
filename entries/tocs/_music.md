@@ -6,6 +6,7 @@
 - **[Etterna](../etterna.md)** (C, C++, Lua, MIT, beta)
 - **[Frets on Fire X](../frets_on_fire_x.md)** (Python, GPL-2.0, mature)
 - **[Frets on Fire](../frets_on_fire.md)** (Python, GPL-2.0, mature, inactive since 2008)
+- **[Friday Night Funkin'](../friday_night_funkin.md)** (Haxe, Apache-2.0, beta)
 - **[OpenITG](../openitg.md)** (C, C++, MIT, beta, inactive since 2017)
 - **[osu!](../osu.md)** (C#, MIT, beta)
 - **[Performous](../performous.md)** (C, C++, GPL-2.0, mature)

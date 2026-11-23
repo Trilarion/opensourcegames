@@ -12,6 +12,14 @@ from osgl import osg, parse
     ('1255 Burgomaster', '1255_burgomaster'),
     ('Master of Orion', 'master_of_orion'),
     ('Jörmungandr', 'jormungandr'),
+    ('LÖVE', 'love'),
+    ('Straße', 'strasse'),
+    ('Dragon History - Dračí Historie', 'dragon_history-draci_historie'),
+    ('Adrián López', 'adrian_lopez'),
+    ('Łukasz Jørgensen', 'lukasz_jorgensen'),
+    ('Jazz² Resurrection', 'jazz_resurrection'),
+    ('Just another Tetris™ clone', 'just_another_tetris_clone'),
+    ('Pacman 吃豆游戏', 'pacman_'),
 ])
 def test_canonical_name(name, expected):
     """

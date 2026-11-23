@@ -75,7 +75,7 @@ def test_preprocess():
     """
     items = [{'Name': 'Alpha'}, {'Name': 'alpha'}, {'Name': 'Ølfred'}, {'Name': '2048'}, {'Name': 'Ätsch'}]
     g.preprocess(items, 'Name', ['developers'])
-    assert [item['anchor-id'] for item in items] == ['alpha', 'alphax', 'lfred', '2048', 'atsch']
+    assert [item['anchor-id'] for item in items] == ['alpha', 'alphax', 'olfred', '2048', 'atsch']
     assert [item['letter'] for item in items] == ['A', 'A', '0', '0', 'A']
     assert items[0]['href'] == ['developers', 'A.html#alpha']
 

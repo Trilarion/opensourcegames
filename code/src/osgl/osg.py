@@ -5,13 +5,17 @@ Specific functions working on the games.
 import re
 import os
 import pathlib
+import unicodedata
 from difflib import SequenceMatcher
+from functools import cache
 from urllib.parse import urlsplit
 
 from osgl import parse, utils as u, constants as c
 
 regex_sanitize_name = re.compile(r"[^A-Za-z 0-9-+]+")
 regex_sanitize_name_space_eater = re.compile(r" +")
+# (lower case) letters that are not decomposed into a base letter and accents by Unicode normalization
+canonical_name_letter_map = str.maketrans({'ł': 'l', 'ø': 'o', 'ı': 'i', 'æ': 'ae', 'œ': 'oe', 'đ': 'd', 'ð': 'd', 'þ': 'th'})
 
 # URL candidates: a valid prefix followed by everything up to whitespace or <>" (the end is trimmed afterwards)
 regex_url_candidate = re.compile('(?:' + '|'.join(re.escape(prefix) for prefix in c.valid_url_prefixes) + r')[^\s<>"]+')
@@ -47,10 +51,14 @@ def entry_iterator():
 def canonical_name(name):
     """
     Derives a canonical name from an actual name (suitable for file names, anchor names, ...)
+
+    The name is case folded, accents are stripped (Unicode NFD normalization, e.g. "č" becomes "c"), some special
+    letters are mapped to ASCII (e.g. "ł" becomes "l"), all remaining characters other than letters, digits, spaces,
+    "-" and "+" are removed (also non-Latin scripts and symbols like "²" or "™") and spaces become underscores.
     """
     name = name.casefold()
-    name = name.replace('ö', 'o').replace('ä', 'a').replace('ü', 'u')
-    # TODO there could be more "exotic" letters like with accents, check by iterating over game titles
+    name = name.translate(canonical_name_letter_map)
+    name = ''.join(character for character in unicodedata.normalize('NFD', name) if not unicodedata.combining(character))
     name = regex_sanitize_name.sub('', name)
     name = regex_sanitize_name_space_eater.sub('_', name)
     name = name.replace('_-_', '-')
@@ -228,15 +236,23 @@ def write_inspirations(inspirations):
     u.write_text(c.inspirations_file, content)
 
 
+@cache
+def _entry_parser():
+    """
+    Returns the parser (with transformer) for the entries grammar. It is created only once and then reused, because
+    creating it is much more expensive than parsing a single entry.
+    """
+    grammar = u.read_text(c.grammar_entries_file)
+    return parse.create(grammar, parse.EntryTransformer)
+
+
 def read_entries():
     """
     Parses all entries and assembles interesting infos about them.
     """
 
     # setup parser and transformer
-    grammar_file = c.grammar_entries_file
-    grammar = u.read_text(grammar_file)
-    parse_entry = parse.create(grammar, parse.EntryTransformer)
+    parse_entry = _entry_parser()
 
     # a database of all important infos about the entries
     entries = []
@@ -278,9 +294,7 @@ def read_entry(file):
         file = c.entries_path / file
 
     # setup parser and transformer
-    grammar_file = c.grammar_entries_file
-    grammar = u.read_text(grammar_file)
-    parse_entry = parse.create(grammar, parse.EntryTransformer)
+    parse_entry = _entry_parser()
 
     # read entry file
     content = u.read_text(file)
@@ -301,7 +315,9 @@ def read_entry(file):
 
 def _check_and_process_entry(entry):
     """
-    Used during reading and writing of entries.
+    Checks an entry in the parsed form (list of (field, value) tuples, including the file) and converts it to a
+    dictionary. Used during reading of entries and, via check_entry_content, before writing of entries.
+    Raises a RuntimeError with all found problems if the entry is not valid.
     """
     message = ''
 
@@ -446,21 +462,47 @@ def extract_inactive_year(entry):
         return None
 
 
-def write_entries(entries):
+def write_entries(entries, check: str | None = 'raise'):
     """
     Write all entries to disk.
+    :param check: how the entries are checked before writing, see write_entry
     """
 
     # iterate over all entries
     for entry in entries:
-        write_entry(entry)
+        write_entry(entry, check=check)
 
 
-def write_entry(entry, overwrite=True):
+def check_entry_content(content, file):
+    """
+    Checks the content of an entry file exactly as reading the entry would do it (parsing with the entries grammar
+    followed by the logical checks). This finds entries that could be written, but not read again.
+    :param content: the text content of the entry file
+    :param file: the entry file (pathlib.Path or file name), relative to the entries folder or absolute
+    :return: None, raises a RuntimeError naming the file if the content is not valid
+    """
+    entry_path = c.entries_path / file
+    if not content.endswith('\n'):
+        content += '\n'
+    try:
+        entry = _entry_parser()(content)
+        entry = [('File', entry_path),] + entry  # add file information to the beginning
+        _check_and_process_entry(entry)
+    except Exception as e:
+        raise RuntimeError(f'{entry_path.name} - {e}') from e
+
+
+def write_entry(entry, overwrite=True, check: str | None = 'raise'):
     """
     Writes a single entry to disk.
+    :param entry: the entry as dictionary
+    :param overwrite: if False, an already existing entry file is not overwritten (raises a RuntimeError instead)
+    :param check: how the content is checked before writing (as if read again, see check_entry_content):
+        'raise' raises a RuntimeError and does not write the file if the check fails, 'warn' prints the problems but
+        writes the file anyway (for intentionally incomplete entries, e.g. from imports), None does not check at all
     """
-    # TODO do we check entry before writing?
+    if check not in ('raise', 'warn', None):
+        raise ValueError(f'Unknown check mode "{check}", must be "raise", "warn" or None.')
 
     # get path
     entry_path = c.entries_path / entry['File']
@@ -469,6 +511,15 @@ def write_entry(entry, overwrite=True):
 
     # create output content
     content = create_entry_content(entry)
+
+    # check content before writing
+    if check:
+        try:
+            check_entry_content(content, entry['File'])
+        except RuntimeError as e:
+            if check == 'raise':
+                raise
+            print(f'warning: {e}')
 
     # write entry
     u.write_text(entry_path, content)
@@ -502,9 +553,9 @@ def create_entry_content(entry):
     # title
     content = f"# {entry['Title']}\n\n"
 
-    # we automatically sort some fields
+    # we automatically sort some fields (not "Code language", there the order is chosen by the author, main language first)
     sort_fun = lambda x: str.casefold(x)
-    for field in ('Media', 'Inspiration', 'Code Language', 'Developer', 'Build system'):
+    for field in ('Media', 'Inspiration', 'Developer', 'Build system'):
         if field in entry:
             values = entry[field]
             entry[field] = sorted(values, key=sort_fun)

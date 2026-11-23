@@ -601,7 +601,7 @@ if __name__ == "__main__":
 
             # finally write to file
             print(entry)
-            osg.write_entry(entry, False)
+            osg.write_entry(entry, False, check='warn')  # new entries are incomplete and completed manually
             newly_created_entries += 1
 
     # save updated screenshots if they could have changed

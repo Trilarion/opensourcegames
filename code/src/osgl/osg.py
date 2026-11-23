@@ -6,11 +6,17 @@ import re
 import os
 import pathlib
 from difflib import SequenceMatcher
+from urllib.parse import urlsplit
 
 from osgl import parse, utils as u, constants as c
 
 regex_sanitize_name = re.compile(r"[^A-Za-z 0-9-+]+")
 regex_sanitize_name_space_eater = re.compile(r" +")
+
+# URL candidates: a valid prefix followed by everything up to whitespace or <>" (the end is trimmed afterwards)
+regex_url_candidate = re.compile('(?:' + '|'.join(re.escape(prefix) for prefix in c.valid_url_prefixes) + r')[^\s<>"]+')
+regex_url_host = re.compile(r"[\w.-]+")
+url_trailing_characters = ',.;:?\'`'  # not ! and * because they end real URLs (Wikipedia titles, web archive wildcards)
 
 
 def name_similarity(a, b):
@@ -358,14 +364,15 @@ def _check_and_process_entry(entry):
     if ('beta' in state) == ('mature' in state):  # both or none
         message += 'State must be one of <"beta", "mature">'
 
-    # check urls
+    # check urls (may be in angle brackets, markers like "@archive" may follow after a space)
     for field in c.url_fields:
         values = entry.get(field, [])
         for value in values:
-            if value.startswith('<') and value.endswith('>'):
-                value = value[1:-1]
-            if not any(value.startswith(x) for x in c.valid_url_prefixes):
-                message += f'URL "{value}" in field "{field}" does not start with a valid prefix'
+            url = value.split(' ')[0]
+            if url.startswith('<') and url.endswith('>'):
+                url = url[1:-1]
+            if not is_url(url):
+                message += f'URL "{value}" in field "{field}" is not a valid URL\n'
 
     # github/gitlab repositories should end on .git and should start with https
     for repo in entry.get('Code repository', []):
@@ -543,32 +550,78 @@ def create_entry_content(entry):
     return content
 
 
-def is_url(str):
+def is_url(text):
     """
-    Catches URLs in an entry (because URLs can also be in content)
-    Could be too generous. See https://stackoverflow.com/questions/7160737/how-to-validate-a-url-in-python-malformed-or-not for other possibilities.
+    Tests if a string is a single, plausible URL.
+
+    The string must start with one of the valid URL prefixes (constants.valid_url_prefixes), must not contain
+    whitespace or any of <>" and must have a host consisting of letters, digits, dots, hyphens and underscores.
+    This is a plausibility check, not a full validation according to the URL specification.
     """
-    if any(str.startswith(x) for x in c.valid_url_prefixes) and not ' ' in str:
-        return True
-    return False
+    if not text.startswith(c.valid_url_prefixes):
+        return False
+    if any(character.isspace() or character in '<>"' for character in text):
+        return False
+    try:
+        host = urlsplit(text).hostname
+    except ValueError:
+        return False
+    return host is not None and regex_url_host.fullmatch(host) is not None
+
+
+def extract_urls(text):
+    """
+    Finds all URLs in a text (e.g. the content of an entry, a field value or a comment).
+
+    A URL starts with one of the valid URL prefixes and runs until whitespace or any of <>", so bare URLs, URLs in
+    angle brackets and markdown links are found. Trailing punctuation is removed and so is a closing parenthesis
+    without a matching opening parenthesis inside the URL (URLs in parentheses or markdown links), while URLs that
+    contain balanced parentheses (e.g. Wikipedia) stay complete. Candidates that are not plausible URLs (is_url) are
+    dropped.
+
+    Returns the URLs in the order of appearance, including duplicates.
+    """
+    urls = []
+    for match in regex_url_candidate.finditer(text):
+        url = match.group(0)
+        while url:
+            if url[-1] in url_trailing_characters:
+                url = url[:-1]
+            elif url[-1] == ')' and url.count(')') > url.count('('):
+                url = url[:-1]
+            else:
+                break
+        if is_url(url):
+            urls.append(url)
+    return urls
 
 
 def all_urls(entries):
     """
-    Gets all urls of all entries in a dictionary (key=url value=list of entries (file name) with this url
+    Gets the URLs of all entries as a dictionary (key = URL, value = list of entry file names with this URL).
+
+    Only the URL fields (constants.url_fields) including the comments of their values are considered. URLs that
+    appear only in the notes, the building section or other fields are deliberately left out, because they are not
+    necessarily part of the entry (e.g. a port that might deserve its own entry). The external link check instead
+    looks at the whole content.
+
+    The values themselves are taken as they are (the parser already delimits them exactly, so a trailing "." of a
+    Wikipedia title is kept), apart from markers after a space (e.g. "https://example.org/repo.git @archive"). URLs
+    in their comments are found with extract_urls.
     """
-    # TODO there are other fields than c.url_fields and also in comments, maybe just regex on the whole content
-    # TODO this might be part of the external link check or it might not, check for duplicate code
     urls = {}
-    # iterate over entries
     for entry in entries:
         file = entry['File']
         for field in c.url_fields:
             for value in entry.get(field, []):
-                for subvalue in value.split(' '):
-                    subvalue = subvalue.strip()
-                    if is_url(subvalue):
-                        urls[subvalue] = urls.get(subvalue, []) + [file]
+                first_word = value.split(' ')[0]
+                found = [first_word] if is_url(first_word) else []
+                if isinstance(value, parse.Value) and value.comment:
+                    found.extend(extract_urls(value.comment))
+                for url in found:
+                    files = urls.setdefault(url, [])
+                    if file not in files:
+                        files.append(file)
     return urls
 
 

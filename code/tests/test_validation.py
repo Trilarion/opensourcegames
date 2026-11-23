@@ -178,7 +178,7 @@ def test_url_without_valid_prefix(raw_sample_entry):
     URLs must start with a known prefix.
     """
     entry = set_field(raw_sample_entry, 'Home', ['www.example.org'])
-    with pytest.raises(RuntimeError, match='URL "www.example.org" in field "Home" does not start with a valid prefix'):
+    with pytest.raises(RuntimeError, match='URL "www.example.org" in field "Home" is not a valid URL'):
         check(entry)
 
 

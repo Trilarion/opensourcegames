@@ -18,7 +18,7 @@ def test_repository_layout():
     assert c.grammar_listing_file.is_file()
     assert (c.web_template_path / 'base.jinja').is_file()
     assert (c.web_static_path / 'css').is_dir()
-    assert c.json_db_file.name == 'data.json'
+    assert c.json_db_file == c.web_data_path / 'entries.json'
 
 
 def test_read_single_entry():

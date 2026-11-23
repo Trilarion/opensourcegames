@@ -3,100 +3,108 @@ Central place to calculate statistics about the entries. Used for updating the s
 of the website. Also renders statistics diagrams.
 """
 
+import io
+from collections import Counter
+from collections.abc import Iterable, Mapping, Sequence
+
+import matplotlib
 import numpy as np
-import matplotlib.pyplot as plt
+from matplotlib.figure import Figure
 
 BASE_FIGURE_SIZE = 4
 
+# fixed salt for the element ids of the SVG output, makes the output reproducible
+SVG_HASH_SALT = 'osgl'
 
-def get_field_statistics(entries, field, sub_field=None, include_NA=True):
+
+def get_field_statistics(
+    entries: Iterable[Mapping], field: str, sub_field: str | None = None, include_na: bool = True,
+) -> list[tuple[str, int]]:
     """
-    Given a list of entries, calculates statistics about a field content and returns the statistics.
-
-    If include_NA is True, N/A is used if no field was specified
+    Count how often each value of a field occurs in the given entries.
 
     :param entries: list of entries
-    :param include_NA: If true, adds N/A if field is not contained in entry
-    :return: list of tuples (field content, occurrence) sorted by descending occurrences
+    :param field: name of the field whose values are counted
+    :param sub_field: if given, the field is looked up inside this sub field of each entry (e.g. 'Building')
+    :param include_na: if true, entries without the field are counted as 'N/A'
+    :return: list of tuples (field value, occurrences) sorted by descending occurrences, then by name
     """
-
-    # gather field content
-    values = []
+    counter = Counter()
     for entry in entries:
         if sub_field:
             entry = entry[sub_field]
         if field in entry:
-            values.extend(entry[field])
-        elif include_NA:
-            values.append('N/A')
+            counter.update(entry[field])
+        elif include_na:
+            counter['N/A'] += 1
 
-    # unique field content
-    unique_values = set(values)
-
-    # count occurrences and sort
-    values_stat = [(l, values.count(l)) for l in unique_values]
-    values_stat.sort(key=lambda x: str.casefold(x[0]))  # first sort by name
-    values_stat.sort(key=lambda x: -x[1])  # then sort by occurrence (highest occurrence first)
-
-    return values_stat
+    # highest occurrence first, then case-insensitive by name (the name itself as final tie-breaker)
+    return sorted(counter.items(), key=lambda item: (-item[1], str.casefold(item[0]), item[0]))
 
 
-def truncate_stats(stat, threshold, name='Other'):
+def truncate_stats(
+    stat: Sequence[tuple[str, int]], threshold: int, name: str = 'Other',
+) -> list[tuple[str, int]]:
     """
-    Combines all entries (name, count) with a count below the threshold and appends a new entry
+    Combine all items (value, count) with a count below the threshold into a single item.
 
-    :return: Truncated statistics with the last item being the sum of all truncated items.
+    :param stat: statistics as returned by get_field_statistics
+    :param threshold: items with a count below this value are combined
+    :param name: name of the combined item
+    :return: the items at or above the threshold (in the original order), followed by the combined item if any items
+        were combined
     """
-    a, b = [], []
-    for s in stat:
-        (a, b)[s[1] < threshold].append(s)
-    c = 0
-    for s in b:
-        c += s[1]
-    if c > 0:
-        a.append([name, c])
-    return a
+    kept = [item for item in stat if item[1] >= threshold]
+    combined_count = sum(item[1] for item in stat if item[1] < threshold)
+    if combined_count > 0:
+        kept.append((name, combined_count))
+    return kept
 
 
-def export_pie_chart(stat, file):
+def _figure_to_svg(figure: Figure) -> str:
     """
-    Given a statistics, creates a pie chart using matplotlib and exports it into a file as SVG.
+    Render a figure as SVG text.
+
+    The output is reproducible: the element ids use a fixed salt and the creation date is omitted, so the same chart
+    always gives the same text.
     """
-    labels = [x[0] for x in stat]
-    sizes = [x[1] for x in stat]
-
-    # create pie chart
-    fig, ax = plt.subplots(figsize=[BASE_FIGURE_SIZE,BASE_FIGURE_SIZE], tight_layout=True)
-    ax.pie(sizes, labels=labels, autopct='%1.1f%%', pctdistance=0.8, shadow=True, labeldistance=1.2, normalize=True)
-
-    # create output directory if necessary
-    containing_dir = file.parent
-    if not containing_dir.is_dir():
-        containing_dir.mkdir()
-
-    # save figure
-    plt.savefig(file, transparent=True)  # TODO can we also just generate svg in text form and save later?
+    buffer = io.StringIO()
+    with matplotlib.rc_context({'svg.hashsalt': SVG_HASH_SALT}):
+        figure.savefig(buffer, format='svg', transparent=True, metadata={'Date': None})
+    return buffer.getvalue()
 
 
-def export_bar_chart(stat, file, aspect_ratio = 1, tick_label_rotation=0):
+def export_pie_chart(stat: Sequence[tuple[str, int]]) -> str:
     """
-    Given a statistics, creates a bar chart using matplotlib and exports it into a file as SVG.
+    Create a pie chart of the given statistics and return it as SVG text.
     """
-    x = np.arange(len(stat))
-    tick_label, height = [[x[i] for x in stat] for i in (0, 1)]
+    labels = [item[0] for item in stat]
+    sizes = [item[1] for item in stat]
 
-    # create pie chart
-    fig, ax = plt.subplots(figsize=[aspect_ratio*BASE_FIGURE_SIZE,BASE_FIGURE_SIZE], tight_layout=True)
-    p = ax.bar(x, height, tick_label=tick_label, edgecolor='black')
-    ax.bar_label(p)
-    ax.spines['top'].set_visible(False)
-    ax.spines['right'].set_visible(False)
-    plt.xticks(rotation=tick_label_rotation)
+    figure = Figure(figsize=(BASE_FIGURE_SIZE, BASE_FIGURE_SIZE), tight_layout=True)
+    axes = figure.add_subplot()
+    axes.pie(sizes, labels=labels, autopct='%1.1f%%', pctdistance=0.8, shadow=True, labeldistance=1.2, normalize=True)
 
-    # create output directory if necessary
-    containing_dir = file.parent
-    if not containing_dir.is_dir():
-        containing_dir.mkdir()
+    return _figure_to_svg(figure)
 
-    # save figure
-    plt.savefig(file, transparent=True)
+
+def export_bar_chart(stat: Sequence[tuple[str, int]], aspect_ratio: float = 1, tick_label_rotation: float = 0) -> str:
+    """
+    Create a bar chart of the given statistics and return it as SVG text.
+
+    :param aspect_ratio: width of the figure relative to its height
+    :param tick_label_rotation: rotation of the labels on the x axis in degrees
+    """
+    positions = np.arange(len(stat))
+    labels = [item[0] for item in stat]
+    heights = [item[1] for item in stat]
+
+    figure = Figure(figsize=(aspect_ratio * BASE_FIGURE_SIZE, BASE_FIGURE_SIZE), tight_layout=True)
+    axes = figure.add_subplot()
+    bars = axes.bar(positions, heights, tick_label=labels, edgecolor='black')
+    axes.bar_label(bars)
+    axes.spines['top'].set_visible(False)
+    axes.spines['right'].set_visible(False)
+    axes.tick_params(axis='x', labelrotation=tick_label_rotation)
+
+    return _figure_to_svg(figure)

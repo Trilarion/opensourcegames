@@ -16,7 +16,7 @@ Incomplete information: It's understood that relevant information can be missing
 i.e. that the information given in a game entry is in general correct but not exhaustive. The expectation is
 a future update can always provide the missing information.
 
-Developer info: The grammar to parse an entry programmatically is in code/grammar_entries.lark
+Developer info: The grammar to parse an entry programmatically is in [code/src/osgl/grammars/entries.lark](code/src/osgl/grammars/entries.lark)
 
 ### Name
 

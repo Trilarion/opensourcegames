@@ -23,14 +23,68 @@ def test_canonical_name(name, expected):
 @pytest.mark.parametrize('text, expected', [
     ('https://example.org', True),
     ('git://example.org/repo.git', True),
+    ('svn://svn.example.org/trunk', True),
+    ('http://cvs.savannah.nongnu.org:/sources/example', True),
+    ('https://en.wikipedia.org/wiki/Example_(game)', True),
     ('https://example.org with space', False),
     ('example.org', False),
+    ('https://', False),
+    ('https://)', False),
+    ('http:/example.org', False),
+    ('https://example.org/<path>', False),
+    ('mailto://example.org', False),
 ])
 def test_is_url(text, expected):
     """
-    Only strings with a known prefix and without spaces are URLs.
+    Only strings with a known prefix, a plausible host and without whitespace or <>" are URLs.
     """
     assert osg.is_url(text) == expected
+
+
+@pytest.mark.parametrize('text, expected', [
+    ('https://example.org', ['https://example.org']),
+    ('see https://example.org, and more', ['https://example.org']),
+    ('https://example.org (https://github.com/example, @stars 3)', ['https://example.org', 'https://github.com/example']),
+    ('(see also https://example.org/page.html)', ['https://example.org/page.html']),
+    ('a link <https://example.org/a> here', ['https://example.org/a']),
+    ('[Notes](https://example.org/readme#notes).', ['https://example.org/readme#notes']),
+    ('https://en.wikipedia.org/wiki/Example_(game)', ['https://en.wikipedia.org/wiki/Example_(game)']),
+    ('[Game](https://en.wikipedia.org/wiki/Example_(game))', ['https://en.wikipedia.org/wiki/Example_(game)']),
+    ('git://example.org/a.git svn://example.org/b', ['git://example.org/a.git', 'svn://example.org/b']),
+    ('https://web.archive.org/web/2018/http://example.org/', ['https://web.archive.org/web/2018/http://example.org/']),
+    ('https://a.org\nhttps://b.org\nhttps://a.org', ['https://a.org', 'https://b.org', 'https://a.org']),
+    ('Port: https://example.org.', ['https://example.org']),
+    ('https://en.wikipedia.org/wiki/Yo_Frankie!', ['https://en.wikipedia.org/wiki/Yo_Frankie!']),
+    ('https://web.archive.org/web/*/https://example.org/files/*', ['https://web.archive.org/web/*/https://example.org/files/*']),
+    ('no url here, only http:// and example.org', []),
+])
+def test_extract_urls(text, expected):
+    """
+    URLs are found anywhere in a text, without trailing punctuation or unbalanced closing parentheses.
+    """
+    assert osg.extract_urls(text) == expected
+
+
+def test_all_urls_ignores_notes():
+    """
+    Only the URL fields (with the comments of their values) count, not the notes or other fields.
+    """
+    entry = {
+        'File': 'example.md',
+        'Home': [parse.Value('https://example.org', 'https://web.archive.org/web/2018/https://example.org')],
+        'Media': ['https://en.wikipedia.org/wiki/Chromium_B.S.U.'],
+        'Code repository': ['https://github.com/example/example.git', 'https://github.com/example/example.git',
+                            'https://gitlab.com/example/old.git @archive'],
+        'Code license': [parse.Value('GPL-3.0', 'https://example.org/license')],
+        'Note': 'Port to Android: https://github.com/other/port\n',
+    }
+    assert osg.all_urls([entry]) == {
+        'https://example.org': ['example.md'],
+        'https://web.archive.org/web/2018/https://example.org': ['example.md'],
+        'https://en.wikipedia.org/wiki/Chromium_B.S.U.': ['example.md'],
+        'https://github.com/example/example.git': ['example.md'],
+        'https://gitlab.com/example/old.git': ['example.md'],
+    }
 
 
 def test_repository_type_detection():

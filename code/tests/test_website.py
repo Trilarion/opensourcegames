@@ -192,6 +192,7 @@ def website_folder(tmp_path, monkeypatch):
     monkeypatch.setattr(c, 'web_js_path', web_path / 'js')
     monkeypatch.setattr(c, 'web_screenshots_path', web_path / 'screenshots')
     monkeypatch.setattr(c, 'web_data_path', web_path / 'data')
+    monkeypatch.setattr(c, 'json_db_file', web_path / 'data' / 'entries.json')
     monkeypatch.setattr(g, 'previous_files', {})
     return web_path
 

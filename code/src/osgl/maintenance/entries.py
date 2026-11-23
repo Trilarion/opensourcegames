@@ -439,17 +439,14 @@ class EntriesMaintainer:
         from time to time.
         """
 
-        # regex for finding urls (can be in <> or in ]() or after a whitespace
-        # regex = re.compile(r"[\s]<(http.+?)>|\]\((http.+?)\)[^\)]|[\s](http.+?)[\s,]")
-        regex = re.compile(r"\s<(http.+?)>|\]\((http\S+)\)|\s(http[^\(]+?)[\s,^\)]|\s(http\S+?\(\S+?\))[\s,]")
-
         # ignore the following patterns (they give false positives here)
         ignored_urls = (
         'https://git.tukaani.org/xz.git', 'https://git.code.sf.net/', 'http://hg.hedgewars.org/hedgewars/',
         'https://git.xiph.org/vorbis.git', 'http://svn.uktrainsim.com/svn/openrails', 'https://www.srb2.org/',
         'http://wiki.srb2.org/', 'https://web.archive.org/web/', 'https://www.comunidadargentum.com/',
         'http://www.argentumonline.com.ar/', 'https://www.atrinik.org/', 'https://mvnrepository.com/artifact/com.gitlab.bsarter.belote',
-        'http://aegidian.org/bb/index.php', 'https://code.ur.gs/lupine/ordoor', 'https://git.tartarus.org/simon/puzzles')
+        'http://aegidian.org/bb/index.php', 'https://code.ur.gs/lupine/ordoor', 'https://git.tartarus.org/simon/puzzles',
+        'http://localhost')
         # especially the web archive links will be checked separately
 
         # some do redirect, but we nevertheless want the original URL in the database
@@ -460,40 +457,39 @@ class EntriesMaintainer:
         urllib3.disable_warnings()  # otherwise we cannot verify those with SSL errors without getting warnings
         urls = {}
         for entry, _, content in osg.entry_iterator():
-            # apply regex
-            matches = regex.findall(content)
-            # for each match
-            for match in matches:
-                for url in match:
-                    if url and not any((url.startswith(x) for x in ignored_urls)):
-                        # ignore bzr.sourceforge, no web address found
-                        if 'bzr.sourceforge.net/bzrroot/' in url:
-                            continue
+            # the whole content (including notes and comments), only http(s) links can be checked
+            for url in osg.extract_urls(content):
+                if not url.startswith('http') or any((url.startswith(x) for x in ignored_urls)):
+                    continue
 
-                        # add "/" at the end
-                        if any((url.startswith(x) for x in (
-                        'https://anongit.freedesktop.org/git', 'https://git.savannah.gnu.org/git/',
-                        'https://git.savannah.nongnu.org/git/', 'https://git.artsoft.org/'))):
-                            url += '/'
+                # ignore bzr.sourceforge, no web address found
+                if 'bzr.sourceforge.net/bzrroot/' in url:
+                    continue
 
-                        if url.startswith('https://bitbucket.org/') and url.endswith('.git'):
-                            url = url[:-4] + '/commits/'
-                        if url.startswith('https://svn.code.sf.net/p/'):
-                            url = 'http' + url[5:] + '/'
-                        if url.startswith('http://cvs.savannah.nongnu.org:/sources/'):
-                            url = 'http://cvs.savannah.nongnu.org/viewvc/' + url[40:] + '/'
-                        if url.startswith('http://cvs.savannah.gnu.org:/sources/'):
-                            url = 'http://cvs.savannah.gnu.org/viewvc/' + url[37:] + '/'
+                # add "/" at the end
+                if any((url.startswith(x) for x in (
+                'https://anongit.freedesktop.org/git', 'https://git.savannah.gnu.org/git/',
+                'https://git.savannah.nongnu.org/git/', 'https://git.artsoft.org/'))):
+                    url += '/'
 
-                        # generally ".git" at the end is not working well, except sometimes it actually does
-                        if url.endswith('.git') and not any((url.startswith(x) for x in (
-                        'https://repo.or.cz', 'https://git.tuxfamily.org'))):
-                            url = url[:-4]
+                if url.startswith('https://bitbucket.org/') and url.endswith('.git'):
+                    url = url[:-4] + '/commits/'
+                if url.startswith('https://svn.code.sf.net/p/'):
+                    url = 'http' + url[5:] + '/'
+                if url.startswith('http://cvs.savannah.nongnu.org:/sources/'):
+                    url = 'http://cvs.savannah.nongnu.org/viewvc/' + url[40:] + '/'
+                if url.startswith('http://cvs.savannah.gnu.org:/sources/'):
+                    url = 'http://cvs.savannah.gnu.org/viewvc/' + url[37:] + '/'
 
-                        if url in urls:
-                            urls[url].add(entry)
-                        else:
-                            urls[url] = {entry}
+                # generally ".git" at the end is not working well, except sometimes it actually does
+                if url.endswith('.git') and not any((url.startswith(x) for x in (
+                'https://repo.or.cz', 'https://git.tuxfamily.org'))):
+                    url = url[:-4]
+
+                if url in urls:
+                    urls[url].add(entry)
+                else:
+                    urls[url] = {entry}
         print(f'found {len(urls)} unique links')
         print("start checking external links (can take a while)")
 

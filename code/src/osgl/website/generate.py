@@ -70,7 +70,6 @@ import json
 import string
 from collections.abc import Callable, Sequence
 from functools import partial
-from pathlib import Path
 from typing import Any, NoReturn, TypeAlias, TypeVar
 
 from jinja2 import Environment, FileSystemLoader
@@ -220,10 +219,8 @@ def file_hash(text: str) -> int:
     """
     Hash generated markup while ignoring timestamps that change on every build.
     """
-    text = text.split('\n')
-    text = [t for t in text if not any(t.startswith(prefix) for prefix in ('  This website is built ', '    <dc:date>'))]
-    text = ''.join(text)
-    return hash(text)
+    lines = [line for line in text.split('\n') if not line.startswith('  This website is built ')]
+    return hash(''.join(lines))
 
 
 def raise_helper(msg: str) -> NoReturn:
@@ -921,29 +918,25 @@ def create_table_json_data(entries: Sequence[Entry]) -> None:
 
     # write out
     text = json.dumps(db, indent=1)
-    c.web_data_path.mkdir(parents=True, exist_ok=True)
-    utils.write_text(c.web_data_path / 'entries.json', text)
+    c.json_db_file.parent.mkdir(parents=True, exist_ok=True)
+    utils.write_text(c.json_db_file, text)
 
 
 def create_statistics_section(
     entries: Sequence[Entry], field: str, title: str, filename: str,
-    chartmaker: Callable[[list[tuple[str, int]], Path], None], sub_field: str | None = None,
+    chartmaker: Callable[[list[tuple[str, int]]], str], sub_field: str | None = None,
 ) -> Entry:
     """
     Generate a chart and return its template section for a statistics field.
 
-    Existing chart text is restored when the semantic output has not changed.
+    The chart maker returns reproducible SVG text, which is written below the statistics folder of the website.
     """
     statistics = stat.get_field_statistics(entries, field, sub_field)
     statistics = stat.truncate_stats(statistics, 10)
-    file = c.web_path / 'statistics' / filename
-    chartmaker([s for s in statistics if s[0] != 'N/A'], file)
-    # read back and check if identical with old version (up to date)
-    text = utils.read_text(file)
-    if file in previous_files and previous_files[file]['hash'] == file_hash(text):
-        # use old version instead
-        text = previous_files[file]['text']
-        utils.write_text(file, text)
+    text = chartmaker([item for item in statistics if item[0] != 'N/A'])
+    file = c.web_path.joinpath(*statistics_path, filename)
+    file.parent.mkdir(parents=True, exist_ok=True)
+    utils.write_text(file, text)
     section = {
         'title': title,
         'id': osg.canonical_name(title),
@@ -1428,7 +1421,7 @@ def main():
     print('estimate file hashes')
     for dirpath, dirnames, filenames in c.web_path.walk():
         for filename in filenames:
-            if any(filename.endswith(ext) for ext in ('.html', '.svg')):
+            if filename.endswith('.html'):
                 filename = dirpath / filename
                 text = utils.read_text(filename)
                 previous_files[filename] = {'hash': file_hash(text), 'text': text}

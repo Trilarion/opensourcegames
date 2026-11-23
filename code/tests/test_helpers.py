@@ -64,7 +64,7 @@ def test_get_field_statistics():
     Values are counted, sorted by occurrence and then by name, missing fields count as N/A.
     """
     assert statistics.get_field_statistics(ENTRIES, 'Code language') == [('C', 2), ('Lua', 1), ('N/A', 1)]
-    assert statistics.get_field_statistics(ENTRIES, 'Code language', include_NA=False) == [('C', 2), ('Lua', 1)]
+    assert statistics.get_field_statistics(ENTRIES, 'Code language', include_na=False) == [('C', 2), ('Lua', 1)]
 
 
 def test_get_field_statistics_sub_field():
@@ -80,15 +80,34 @@ def test_truncate_stats():
     Items below the threshold are combined into a single last item.
     """
     stats = [('C', 20), ('Lua', 3), ('Go', 2)]
-    assert statistics.truncate_stats(stats, 10) == [('C', 20), ['Other', 5]]
+    assert statistics.truncate_stats(stats, 10) == [('C', 20), ('Other', 5)]
     assert statistics.truncate_stats(stats, 1) == stats
 
 
+def test_get_field_statistics_ties_sorted_by_name():
+    """
+    Values with the same number of occurrences are sorted case-insensitively by name.
+    """
+    entries = [{'Code language': ['b', 'A', 'C']}]
+    assert statistics.get_field_statistics(entries, 'Code language') == [('A', 1), ('b', 1), ('C', 1)]
+
+
 @pytest.mark.parametrize('export', [statistics.export_pie_chart, statistics.export_bar_chart])
-def test_export_charts(tmp_path, export):
+def test_export_charts(export):
     """
-    Charts are written as SVG files, the containing folder is created if needed.
+    Charts are returned as SVG text.
     """
-    file = tmp_path / 'charts' / 'chart.svg'
-    export([('C', 2), ('Lua', 1)], file)
-    assert file.read_text(encoding='utf-8').lstrip().startswith('<?xml')
+    text = export([('C', 2), ('Lua', 1)])
+    assert text.lstrip().startswith('<?xml')
+    assert '<svg' in text
+
+
+@pytest.mark.parametrize('export', [statistics.export_pie_chart, statistics.export_bar_chart])
+def test_export_charts_reproducible(export):
+    """
+    The same statistics always give the same SVG text (no random ids, no creation date).
+    """
+    stat = [('C', 2), ('Lua', 1)]
+    text = export(stat)
+    assert export(stat) == text
+    assert '<dc:date>' not in text

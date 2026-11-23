@@ -1,9 +1,8 @@
 @font-face {
   font-family: 'osgl';
   src:
-    url('fonts/osgl.ttf?ehhtvx') format('truetype'),
-    url('fonts/osgl.woff?ehhtvx') format('woff'),
-    url('fonts/osgl.svg?ehhtvx#osgl') format('svg');
+    url('fonts/osgl.woff?v2') format('woff'),
+    url('fonts/osgl.ttf?v2') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -302,4 +301,10 @@ i {
 }
 .icon-gitlab:before {
   content: "\e906";
+}
+.icon-attach_money:before {
+  content: "\eac3";
+}
+.icon-lock_open:before {
+  content: "\eac4";
 }

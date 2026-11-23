@@ -13,7 +13,6 @@ Sitemap is not needed, only for large projects with lots of JavaScript und many 
 # TODO tab: new filter tab (playable in a browser) with tiles (https://bulma.io/documentation/layout/tiles/) sorted by genre (just as normal list so far, no tiles yet)
 # TODO tab: new filter tab (my top 100) with games I really like (mature and I tried them and there is a download for each of them) and some categories with explanation why and possible link to a review on the blog (like evil cult), still need to to that
 
-# TODO keywords: content, multiplayer replace by icons (open, commercial (dollar signs))
 
 # TODO general: most people only come to the main page, put more information there (direct links to genres, ...)
 # TODO general: minimize tag usage: jinja template optimization for line breaks and indention and minimal amount of spaces (and size of files) and minimal amount of repetition of tags
@@ -67,6 +66,7 @@ import math
 import datetime
 import time
 import json
+import re
 import string
 from collections.abc import Callable, Sequence
 from functools import partial
@@ -175,6 +175,18 @@ genre_icon_map = {
     'Framework': 'stack',
     'Library': 'library'
 }
+
+# map from content keyword to the icon names (repetitions allowed) and the tooltip of the shown icon tag,
+# variants with a trailing " (?)" use the same icons with an uncertainty note (see create_icon_keyword_tag)
+content_keyword_icon_map = {
+    'content open': (('lock_open',), c.keyword_genre_descriptions['content open']),
+    'content free': (('lock_open',), c.keyword_genre_descriptions['content free']),
+    'content commercial': (('attach_money',), c.keyword_genre_descriptions['content commercial']),
+    'content commercial + original required': (
+        ('attach_money', 'attach_money'),
+        f"{c.keyword_genre_descriptions['content commercial']} The original game is required."),
+}
+multiplayer_icon = 'users'
 
 # cross-references to the language pages
 code_language_references = {language: games_by_language_path[:-1] + [f'{games_by_language_path[-1]}#{language.lower()}'] for language in c.known_languages}
@@ -594,6 +606,23 @@ def make_tags(entries: Sequence[TemplateNode]) -> TemplateNode:
     }
 
 
+def make_icon_tag(icon_ids: Sequence[str], title: str, text: str) -> TemplateNode:
+    """
+    Create a tag node that shows only icons, with a tooltip.
+
+    Args:
+        icon_ids: Names of the icons (without the "icon-" prefix) shown one after another.
+        title: Tooltip of the tag.
+        text: Text alternative for screen readers (visually hidden), typically the keyword itself.
+    """
+    return {
+        'type': 'icon-tag',
+        'icons': list(icon_ids),
+        'title': title,
+        'text': text
+    }
+
+
 def make_img(file: Sequence[str], width: int, height: int) -> TemplateNode:
     """
     Create an image node with source path and intrinsic dimensions.
@@ -682,10 +711,46 @@ def convert_developers(developers: Sequence[Entry], entries: Sequence[Entry]) ->
                 developer[field.lower()] = [make_text(get_plural_or_singular(field, len(entries))+': '), make_enumeration(entries)]
 
 
+def create_icon_keyword_tag(keyword: str) -> TemplateNode | None:
+    """
+    Create an icon tag for the content and multiplayer keywords.
+
+    Returns None for keywords without an icon representation (including rare content variants like
+    "content swappable"), these are shown as text tags.
+    """
+    # multiplayer with optional modes ("multiplayer online + LAN")
+    match = re.fullmatch(r'multiplayer(?: (.+))?', keyword)
+    if match:
+        if match.group(1):
+            modes = [mode.strip() for mode in match.group(1).split('+')]
+            title = f"Multiplayer: {', '.join(modes)}"
+        else:
+            title = 'Multiplayer'
+        return make_icon_tag((multiplayer_icon,), title, keyword)
+
+    # content, possibly marked as uncertain
+    base_keyword, uncertain = keyword, False
+    if keyword.endswith(' (?)'):
+        base_keyword, uncertain = keyword[:-len(' (?)')], True
+    if base_keyword in content_keyword_icon_map:
+        icon_ids, title = content_keyword_icon_map[base_keyword]
+        if uncertain:
+            title = f'{title} (uncertain)'
+        return make_icon_tag(icon_ids, title, keyword)
+
+    return None
+
+
 def create_keyword_tag(keyword: str) -> TemplateNode:
     """
     Create a keyword tag, linking recommended categories to their index.
+
+    Content and multiplayer keywords are shown as icon tags (see :func:`create_icon_keyword_tag`).
     """
+    icon_tag = create_icon_keyword_tag(keyword)
+    if icon_tag:
+        return icon_tag
+
     tooltip = c.keyword_genre_descriptions.get(keyword)
     if tooltip is None:
         for described_keyword in sorted(c.keyword_genre_descriptions, key=len, reverse=True):
@@ -749,8 +814,9 @@ def convert_entries(
         if 'Note' in entry:
             entry['note'] = make_text(entry['Note'], 'is-italic')
 
-        # keywords as tags
+        # keywords as tags, icon tags (content, multiplayer) after the text tags
         e = [create_keyword_tag(x) for x in entry['Keyword']]
+        e = [x for x in e if x['type'] != 'icon-tag'] + [x for x in e if x['type'] == 'icon-tag']
         entry['keyword'] = make_tags(e)
 
         # other normal fields (not technical info)

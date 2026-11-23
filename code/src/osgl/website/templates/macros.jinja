@@ -14,6 +14,8 @@
   {{ render_url(entry) }}
 {%- elif entry['type'] == 'enumeration' -%}
   {{ render_enumeration(entry) }}
+{%- elif entry['type'] == 'icon-tag' -%}
+  {{ render_icon_tag(entry) }}
 {%- elif entry['type'] == 'tags' -%}
   {{ render_tags(entry) }}
 {%- elif entry['type'] == 'enclose' -%}
@@ -39,6 +41,11 @@
 {# Renders an icon #}
 {%- macro render_icon(icon) -%}
 <span class="icon {{ icon['css'] }}"{% if 'title' in icon %} title="{{ icon['title'] }}"{% endif %}><i class="icon-{{ icon['id'] }}"></i></span>
+{%- endmacro -%}
+
+{# Renders a tag consisting only of icons, with tooltip and a visually hidden text for screen readers #}
+{%- macro render_icon_tag(tag) -%}
+<span class="tag is-light" title="{{ tag['title'] }}">{% for id in tag['icons'] %}<i class="icon-{{ id }}"></i>{% endfor %}<span class="is-sr-only">{{ tag['text'] }}</span></span>
 {%- endmacro -%}
 
 {# Renders an image #}

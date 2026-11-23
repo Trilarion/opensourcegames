@@ -148,6 +148,46 @@ def test_developer_profile_link_unknown():
         g.developer_profile_link('someone@XX')
 
 
+@pytest.mark.parametrize('keyword, icons, title', [
+    ('content open', ['lock_open'], c.keyword_genre_descriptions['content open']),
+    ('content free', ['lock_open'], c.keyword_genre_descriptions['content free']),
+    ('content commercial', ['attach_money'], c.keyword_genre_descriptions['content commercial']),
+    ('content commercial + original required', ['attach_money', 'attach_money'], None),
+    ('content open (?)', ['lock_open'], f"{c.keyword_genre_descriptions['content open']} (uncertain)"),
+    ('content commercial (?)', ['attach_money'], f"{c.keyword_genre_descriptions['content commercial']} (uncertain)"),
+    ('multiplayer', ['users'], 'Multiplayer'),
+    ('multiplayer online + LAN', ['users'], 'Multiplayer: online, LAN'),
+])
+def test_create_keyword_tag_icons(keyword, icons, title):
+    """
+    Content and multiplayer keywords are shown as icon tags with a tooltip and the keyword as hidden text.
+    """
+    tag = g.create_keyword_tag(keyword)
+    assert tag['type'] == 'icon-tag'
+    assert tag['icons'] == icons
+    assert tag['text'] == keyword
+    if title:
+        assert tag['title'] == title
+
+
+@pytest.mark.parametrize('keyword', ['content swappable', 'content none', 'content open + non-commercial', 'multiplayers'])
+def test_create_keyword_tag_icon_fallback(keyword):
+    """
+    Rare content variants (and keywords only starting like multiplayer) stay text tags.
+    """
+    assert g.create_keyword_tag(keyword)['type'] == 'text'
+
+
+def test_keyword_icons_exist_in_css():
+    """
+    All icons used for keyword tags have a rule in the icon font stylesheet.
+    """
+    css = (c.web_static_path / 'css' / 'osgl.min.css').read_text(encoding='utf-8')
+    icons = {g.multiplayer_icon} | {icon for icon_ids, _ in g.content_keyword_icon_map.values() for icon in icon_ids}
+    for icon in icons:
+        assert f'.icon-{icon}:before' in css
+
+
 def test_entry_index():
     """
     The index node of an entry marks mature entries bold and shows beta and inactivity as tags.

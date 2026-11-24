@@ -9,7 +9,7 @@
 {%- elif entry['type'] == 'line-break' -%}
   <br>
 {%- elif entry['type'] == 'icon' -%}
-  {{ render_icon(entry) }}
+  {{ render_inline_icon(entry) }}
 {%- elif entry['type'] == 'url' -%}
   {{ render_url(entry) }}
 {%- elif entry['type'] == 'enumeration' -%}
@@ -38,9 +38,14 @@
 {%- endif -%}
 {%- endmacro -%}
 
-{# Renders an icon #}
+{# Renders an icon in a Bulma icon container (needed for the spacing in the navbar, buttons and tiles) #}
 {%- macro render_icon(icon) -%}
-<span class="icon {{ icon['css'] }}"{% if 'title' in icon %} title="{{ icon['title'] }}"{% endif %}><i class="icon-{{ icon['id'] }}"></i></span>
+<span class="icon{% if 'css' in icon %} {{ icon['css'] }}{% endif %}"{% if 'title' in icon %} title="{{ icon['title'] }}"{% endif %}><i class="icon-{{ icon['id'] }}"></i></span>
+{%- endmacro -%}
+
+{# Renders an icon within the content as a single element (spacing from the inline-icon class in osgl.min.css) #}
+{%- macro render_inline_icon(icon) -%}
+<i class="icon-{{ icon['id'] }} inline-icon{% if 'css' in icon %} {{ icon['css'] }}{% endif %}"{% if 'title' in icon %} title="{{ icon['title'] }}"{% endif %}></i>
 {%- endmacro -%}
 
 {# Renders a tag consisting only of icons, with tooltip and a visually hidden text for screen readers #}

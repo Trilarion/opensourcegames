@@ -14,12 +14,9 @@ Sitemap is not needed, only for large projects with lots of JavaScript und many 
 # TODO tab: new filter tab (my top 100) with games I really like (mature and I tried them and there is a download for each of them) and some categories with explanation why and possible link to a review on the blog (like evil cult), still need to to that
 
 
-# TODO general: most people only come to the main page, put more information there (direct links to genres, ...)
-# TODO general: minimize tag usage: jinja template optimization for line breaks and indention and minimal amount of spaces (and size of files) and minimal amount of repetition of tags
-# TODO general: too many spans, especially for text (maybe just plain text), also text with URLs inside is difficult (but why)
 # TODO general: replace or remove @notices like @add in entries (these notices should go to () comments anyway
 # TODO general: check singular, plural (game, entries, items) although support is already quite good for that (Code Languages, ...)
-# TODO general: better link replacements for showing the urls of links
+# TODO general: better link replacements for showing the urls of links (see shortcut_url, also used for links in notes)
 # TODO general: style URLs (Github, Wikipedia, Internet archive, SourceForge, ...)
 
 # TODO general: meta/title+description tag
@@ -44,7 +41,7 @@ Sitemap is not needed, only for large projects with lots of JavaScript und many 
 # TODO games: order: homepage, inspiration, download, developer
 # TODO games: link to dependencies (either if existing or if url)
 # TODO games: repositories comments have too much space after( and before ) (use icons without span and with pr-0 on the icon
-# TODO games: show or not show additional game description (info field)?? show only first line of info (which should be a short description or make it a field (only for popular ones), otherwise rely on keywords)
+# TODO games: only the first paragraph of the note is shown, it often mixes the short description with "See also" lines and maintainer notes (TODO: ...), maybe make the short description a field
 # TODO games: cross-references for code dependencies if included
 # TODO games: "for adults" tagged need a special icon warning (not safe for work or something)
 # TODO games: use genre icon after the game title (or before)
@@ -68,7 +65,8 @@ import time
 import json
 import re
 import string
-from collections.abc import Callable, Sequence
+import urllib.parse
+from collections.abc import Callable, Mapping, Sequence
 from functools import partial
 from typing import Any, NoReturn, TypeAlias, TypeVar
 
@@ -103,6 +101,7 @@ alphabet_replacements = {'Á': 'A', 'Å': 'A', 'Ä': 'A', 'É': 'E', 'ⴹ': 'E',
 
 TOP_INSPIRATION_THRESHOLD = 4  # at least that many inspired games
 TOP_DEVELOPER_THRESHOLD = 4    # at least that many developed games
+BOLD_CLASS = 'has-text-weight-semibold'  # highlighted (mature or prolific) items in the indices
 
 UNKNOWN_PLATFORM = 'Unknown platform support'
 
@@ -136,12 +135,12 @@ github_top_ignored_repos = ('https://github.com/Hopson97/MineCraft-One-Week-Chal
                               'https://github.com/PistonDevelopers/hematite.git', 'https://github.com/keendreams/keen.git', 'https://github.com/ddevault/TrueCraft.git')
 
 platform_color = {
-    'Windows': 'is-danger',
-    'Linux': 'is-link',
-    'macOS': 'is-success',
-    'Android': 'is-black',
-    'iOS': 'is-primary',
-    'Web': 'is-warning',
+    'Windows': 'has-text-danger',
+    'Linux': 'has-text-link',
+    'macOS': 'has-text-success',
+    'Android': 'has-text-black',
+    'iOS': 'has-text-primary',
+    'Web': 'has-text-warning',
 }
 
 # map from supported OS name to icon name
@@ -187,6 +186,9 @@ content_keyword_icon_map = {
         f"{c.keyword_genre_descriptions['content commercial']} The original game is required."),
 }
 multiplayer_icon = 'users'
+
+# genres shown as tiles on the main page (subset of the genres, all must exist)
+index_genres = ('Action', 'Strategy', 'Role playing', 'Puzzle')
 
 # cross-references to the language pages
 code_language_references = {language: games_by_language_path[:-1] + [f'{games_by_language_path[-1]}#{language.lower()}'] for language in c.known_languages}
@@ -240,6 +242,20 @@ def raise_helper(msg: str) -> NoReturn:
     Raise an exception from a Jinja expression where ``raise`` is unavailable.
     """
     raise Exception(msg)
+
+
+def create_environment(base: dict[str, Any]) -> Environment:
+    """
+    Create the Jinja environment for the website templates, with autoescaping and the helper globals.
+
+    Args:
+        base: Page data shared by all templates (available as ``base`` in the templates).
+    """
+    environment = Environment(loader=FileSystemLoader(c.web_template_path), autoescape=True)
+    environment.globals['base'] = base
+    environment.globals['raise'] = raise_helper
+    environment.globals['is_list'] = lambda obj: isinstance(obj, list)
+    return environment
 
 
 def write(text: str, path: str | Sequence[str]) -> None:
@@ -320,6 +336,33 @@ def divide_in_three_columns_and_transform(
     return {'number_entries': number_entries, 'entries': entries}
 
 
+def make_alphabetical_index(entries: Sequence[Entry], title: str, subtitle: str, unit: str) -> dict[str, Any]:
+    """
+    Create a compact alphabetical index (for the categorical index template) of a selection of entries.
+
+    The index links to the entries on their alphabetical pages instead of repeating them. Only letters with entries
+    are shown.
+
+    Args:
+        entries: The selected entries (games and non-games), must already have their links (see :func:`preprocess`).
+        title: Title of the index page.
+        subtitle: Subtitle of the index page.
+        unit: Name of the entries in the number of entries per letter (e.g. "games").
+    """
+    entries = sorted(entries, key=lambda entry: str.casefold(entry['Title']))
+    letters = [letter for letter in extended_alphabet if any(entry['letter'] == letter for entry in entries)]
+    by_letter = sort_into_categories(entries, letters, lambda entry, letter: entry['letter'] == letter)
+    index = divide_in_three_columns_and_transform(by_letter, entry_index)
+    index['title'] = make_text(title)
+    index['subtitle'] = [make_text(subtitle)]
+    index['categories'] = letters
+    index['category-names'] = extended_alphabet_names
+    index['category-icons'] = {}
+    index['number_entries_per_category_threshold'] = 20
+    index['category-infos'] = {letter: make_text(f'{len(by_letter[letter])} {unit}') for letter in letters}
+    return index
+
+
 def url_to(current: Sequence[str], target: str | Sequence[str], info: Any = None) -> str:
     """
     Return a relative URL from ``current`` to ``target``.
@@ -389,9 +432,8 @@ def entry_index(entry: Entry) -> TemplateNode:
     Create the compact index representation of a game or framework entry.
     """
     e = {
-        'url': make_url(entry['href'], entry['Title']),
-        'anchor-id': entry['anchor-id'],
-        'bold': 'mature' in entry['State']
+        'url': make_url(entry['href'], entry['Title'], css_class=BOLD_CLASS if 'mature' in entry['State'] else None),
+        'anchor-id': entry['anchor-id']
     }
     tags = []
     if 'beta' in entry['State']:
@@ -399,7 +441,7 @@ def entry_index(entry: Entry) -> TemplateNode:
     if osg.is_inactive(entry):
         tags.append(f'inactive since {osg.extract_inactive_year(entry)}')
     if tags:
-        e['tags'] = make_text(f"({', '.join(tags)})", 'is-light is-size-7')
+        e['tags'] = make_text(f"({', '.join(tags)})", 'is-size-7')
     return e
 
 
@@ -409,12 +451,11 @@ def inspiration_index(inspiration: Entry) -> TemplateNode:
     """
     n = len(inspiration['Inspired entries'])
     e = {
-        'url': make_url(inspiration['href'], inspiration['Name']),
-        'anchor-id': inspiration['anchor-id'],
-        'bold': n >= TOP_INSPIRATION_THRESHOLD
+        'url': make_url(inspiration['href'], inspiration['Name'], css_class=BOLD_CLASS if n >= TOP_INSPIRATION_THRESHOLD else None),
+        'anchor-id': inspiration['anchor-id']
     }
     if n > 1:
-        e['tags'] = make_text(f'({n})', 'is-light')
+        e['tags'] = make_text(f'({n})')
     return e
 
 
@@ -424,12 +465,11 @@ def developer_index(developer: Entry) -> TemplateNode:
     """
     n = len(developer['Games'])
     e = {
-        'url': make_url(developer['href'], developer['Name']),
-        'anchor-id': developer['anchor-id'],
-        'bold': n >= TOP_DEVELOPER_THRESHOLD
+        'url': make_url(developer['href'], developer['Name'], css_class=BOLD_CLASS if n >= TOP_DEVELOPER_THRESHOLD else None),
+        'anchor-id': developer['anchor-id']
     }
     if n > 1:
-        e['tags'] = make_text(f'({n})', 'is-light is-size-7')
+        e['tags'] = make_text(f'({n})', 'is-size-7')
     return e
 
 
@@ -444,29 +484,29 @@ def shortcut_url(url: str, name: str) -> str | list[TemplateNode]:
     # gitlab
     gl_prefix = 'https://gitlab.com/'
     if url.startswith(gl_prefix):
-        return [make_icon('gitlab', css='is-link'), make_text(url[len(gl_prefix):])]
+        return [make_icon('gitlab'), make_text(url[len(gl_prefix):])]
 
     # github
     gh_prefix = 'https://github.com/'
     if url.startswith(gh_prefix):
-        return [make_icon('github', css='is-link'), make_text(url[len(gh_prefix):])]
+        return [make_icon('github'), make_text(url[len(gh_prefix):])]
 
     # sourceforge
     sf_prefix = 'https://sourceforge.net/projects/'
     if url.startswith(sf_prefix):
-        return [make_icon('sourceforge', css='is-link'), make_text(url[len(sf_prefix):])]
+        return [make_icon('sourceforge'), make_text(url[len(sf_prefix):])]
 
     # archive link
     ia_prefix = 'https://web.archive.org/web/'
     if url.startswith(ia_prefix):
         # return 'Archive: ' + url[len(ia_prefix):]
-        return [make_icon('library', css='is-link'), make_text(url[len(ia_prefix):])]
+        return [make_icon('library'), make_text(url[len(ia_prefix):])]
 
     # Wikipedia link
     wp_prefix = 'https://en.wikipedia.org/wiki/'
     if url.startswith(wp_prefix):
         # return 'WP: ' + url[len(wp_prefix):]
-        return [make_icon('wikipedia', css='is-link'), make_text(name)]
+        return [make_icon('wikipedia'), make_text(name)]
 
     # cutoff common prefixes
     for prefix in ('http://', 'https://'):
@@ -535,15 +575,16 @@ def make_repo_url(x: str, name: str) -> TemplateNode:
 
 def make_icon(id: str, title: str | None = None, css: str | None = None) -> TemplateNode:
     """
-    Create an icon node, applying a safe default text color when needed.
+    Create an icon node, optionally with CSS classes (e.g. a text color) and a tooltip.
+
+    Without CSS classes, the icon takes the color of the surrounding text.
     """
-    if not css:
-        css = 'has-text-black'  # safeguard
     icon = {
         'type': 'icon',
-        'id': id,
-        'css': css
+        'id': id
     }
+    if css:
+        icon['css'] = css
     if title:
         icon['title'] = title
     return icon
@@ -569,6 +610,50 @@ def make_line_break() -> TemplateNode:
     Create a line-break node for rendering a literal HTML break element.
     """
     return {'type': 'line-break'}
+
+
+# Markdown links "[label](target)" or bare URLs in the free text of the entries
+text_link_pattern = re.compile(r'\[([^\]]+)\]\(([^)\s]+)\)|(https?://[^\s<>()\[\]]+)')
+
+
+def make_text_with_links(text: str, entry_references: Mapping[str, Sequence[str]]) -> list[TemplateNode]:
+    """
+    Create nodes for a free text (e.g. a note), with its Markdown links and bare URLs as links.
+
+    Line breaks are kept. Markdown links to other entries ("[label](name.md)") link to their entry on the website,
+    if that entry is unknown only the label is shown. Bare URLs are shortened like other URLs (see
+    :func:`shortcut_url`), trailing punctuation is not part of the URL.
+
+    Args:
+        text: The free text.
+        entry_references: Links of the entries by their file name.
+    """
+    nodes = []
+    for index, line in enumerate(text.splitlines()):
+        if index > 0:
+            nodes.append(make_line_break())
+        position = 0
+        for match in text_link_pattern.finditer(line):
+            if match.start() > position:
+                nodes.append(make_text(line[position:match.start()]))
+            position = match.end()
+            label, target, url = match.groups()
+            if url:
+                stripped = url.rstrip('.,;:!?')
+                # for Wikipedia links, the article name is shown
+                article = urllib.parse.unquote(stripped.rsplit('/', 1)[-1]).replace('_', ' ')
+                nodes.append(make_url(stripped, shortcut_url(stripped, article)))
+                if len(stripped) < len(url):
+                    nodes.append(make_text(url[len(stripped):]))
+            elif target.startswith(('http://', 'https://')):
+                nodes.append(make_url(target, label))
+            elif target.rsplit('/', 1)[-1] in entry_references:
+                nodes.append(make_url(entry_references[target.rsplit('/', 1)[-1]], label))
+            else:
+                nodes.append(make_text(label))
+        if position < len(line):
+            nodes.append(make_text(line[position:]))
+    return nodes
 
 
 def make_enclose(entry: TemplateNode, left: str, right: str) -> TemplateNode:
@@ -643,13 +728,13 @@ def developer_profile_link(link: str) -> TemplateNode:
         RuntimeError: If the shortcut does not name a supported profile service.
     """
     if link.endswith('@SF'):
-        return make_url(f'https://sourceforge.net/u/{link[:-3]}/profile/', make_icon('sourceforge', css='has-text-link'), f'User {link[:-3]} on Sourceforge')
+        return make_url(f'https://sourceforge.net/u/{link[:-3]}/profile/', make_icon('sourceforge'), f'User {link[:-3]} on Sourceforge')
     if link.endswith('@GH'):
-        return make_url(f'https://github.com/{link[:-3]}', make_icon('github', css='has-text-link'), f'User {link[:-3]} on Github')
+        return make_url(f'https://github.com/{link[:-3]}', make_icon('github'), f'User {link[:-3]} on Github')
     if link.endswith('@GL'):
-        return make_url(f'https://gitlab.com/{link[:-3]}', make_icon('gitlab', css='has-text-link'), f'User {link[:-3]} on Gitlab')
+        return make_url(f'https://gitlab.com/{link[:-3]}', make_icon('gitlab'), f'User {link[:-3]} on Gitlab')
     if link.endswith('@BB'):
-        return make_url(f'https://bitbucket.org/{link[:-3]}/', make_icon('bitbucket', css='has-text-link'), f'User {link[:-3]} on BitBucket')
+        return make_url(f'https://bitbucket.org/{link[:-3]}/', make_icon('bitbucket'), f'User {link[:-3]} on BitBucket')
     raise RuntimeError(f'Unknown profile link {link}')
 
 
@@ -793,12 +878,17 @@ def create_state_texts(states: Sequence[str]) -> list[TemplateNode | list[Templa
 
 def convert_entries(
     entries: Sequence[Entry], inspirations: Sequence[Entry], developers: Sequence[Entry],
+    entry_references: Mapping[str, Sequence[str]],
 ) -> None:
     """
     Augment game and framework entries with data consumed by entry templates.
 
     Inspiration and developer records must already have output links assigned by
     :func:`preprocess`.
+
+    Args:
+        entry_references: Links of all entries (games and non-games) by their file name, for the links to other
+            entries in the notes.
     """
     inspirations_references = {inspiration['Name']: inspiration['href'] for inspiration in inspirations}
     developer_references = {developer['Name']: developer['href'] for developer in developers}
@@ -810,9 +900,10 @@ def convert_entries(
         # state
         entry['state'] = create_state_texts(entry['State'])
 
-        # note
+        # note (only the first paragraph, which typically is a short description)
         if 'Note' in entry:
-            entry['note'] = make_text(entry['Note'], 'is-italic')
+            paragraph = entry['Note'].strip().split('\n\n')[0]
+            entry['note'] = make_text_with_links(paragraph, entry_references)
 
         # keywords as tags, icon tags (content, multiplayer) after the text tags
         e = [create_keyword_tag(x) for x in entry['Keyword']]
@@ -848,7 +939,7 @@ def convert_entries(
             e = [UNKNOWN_PLATFORM]
         e = [make_url(
             games_by_platform_path[:-1] + [f'{games_by_platform_path[-1]}#{platform.lower()}'],
-            make_icon(platform_icon_map[platform], css=f"{platform_color.get(platform, 'is-link')} is-size-6"),
+            make_icon(platform_icon_map[platform], css=f"{platform_color.get(platform, 'has-text-link')} is-size-6"),
             platform
         ) if platform in platform_icon_map else make_text(platform) for platform in e]
         # namex = make_text('{}: '.format(get_plural_or_singular('Platform', len(e))))
@@ -895,6 +986,63 @@ def add_license_links_to_entries(entries: Sequence[Entry]) -> None:
         licenses = entry['Code license']
         licenses = [(c.license_urls.get(license, ''), license) for license in licenses]
         entry['Code license'] = licenses
+
+
+def make_index_tile(target: Sequence[str], icon_id: str, title: str, number: int, unit: str = 'games') -> TemplateNode:
+    """
+    Create a tile of the main page linking to a sub list, showing the number of included items.
+
+    Args:
+        target: Path of the linked page (from the top level folder), may include an anchor.
+        unit: Name of the counted items (plural), shown after the number.
+    """
+    return {
+        'href': target,
+        'icon': make_icon(icon_id, css='has-text-info'),
+        'title': title,
+        'number': f'{number:,} {unit}'
+    }
+
+
+def create_index_data(
+    games: Sequence[Entry], non_games: Sequence[Entry], developers: Sequence[Entry], inspirations: Sequence[Entry],
+    games_by_genre: Mapping[str, Sequence[Entry]], index_lists: Sequence[tuple[Sequence[str], str, str, int, str]],
+) -> dict[str, Any]:
+    """
+    Create the data of the main page: key numbers, genre tiles and tiles of selected sub lists.
+
+    Args:
+        games_by_genre: Games sorted into the genres (capitalized genre names as keys).
+        index_lists: Selected sub lists as (target path, icon name, title, number of items, unit) tuples.
+
+    Raises:
+        RuntimeError: If a genre in ``index_genres`` is not a known genre.
+    """
+    unknown_genres = [genre for genre in index_genres if genre not in games_by_genre]
+    if unknown_genres:
+        raise RuntimeError(f'Unknown main page genres {unknown_genres}')
+
+    mature_games = [game for game in games if 'mature' in game['State']]
+    active_games = [game for game in games if not any(state.startswith('inactive since') for state in game['State'])]
+    languages = {str(language) for entry in [*games, *non_games] for language in entry.get('Code language', [])}
+
+    genre_tiles = []
+    for genre in index_genres:
+        target = games_by_genres_path[:-1] + [f'{games_by_genres_path[-1]}#{genre.lower()}']
+        genre_tiles.append(make_index_tile(target, genre_icon_map[genre], genre, len(games_by_genre[genre])))
+    list_tiles = [make_index_tile(*index_list) for index_list in index_lists]
+
+    return {
+        'number-games': f'{len(games):,}',
+        'number-non-games': f'{len(non_games):,}',
+        'number-mature': f'{len(mature_games):,}',
+        'number-active': f'{len(active_games):,}',
+        'number-languages': f'{len(languages):,}',
+        'number-developers': f'{len(developers):,}',
+        'number-inspirations': f'{len(inspirations):,}',
+        'genre-tiles': genre_tiles,
+        'list-tiles': list_tiles
+    }
 
 
 def get_topN_games(games: Sequence[Entry], N: int = 100) -> list[Entry]:
@@ -1040,8 +1188,9 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
     # set internal links up
     convert_inspirations(inspirations, entries)
     convert_developers(developers, entries)
-    convert_entries(games, inspirations, developers)
-    convert_entries(non_games, inspirations, developers)
+    entry_references = {entry['File'].name: entry['href'] for entry in entries}
+    convert_entries(games, inspirations, developers, entry_references)
+    convert_entries(non_games, inspirations, developers, entry_references)
 
     # create entries.json for the table
     create_table_json_data(entries)
@@ -1116,10 +1265,7 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
         shutil.copyfile(c.web_static_path / filename, c.web_path / filename)
 
     # create Jinja Environment
-    environment = Environment(loader=FileSystemLoader(c.web_template_path), autoescape=True)
-    environment.globals['base'] = base
-    environment.globals['raise'] = raise_helper
-    environment.globals['is_list'] = lambda obj: isinstance(obj, list)
+    environment = create_environment(base)
 
     # multiple times used templates
     template_categorical_index = environment.get_template('categorical_index.jinja')
@@ -1128,16 +1274,7 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
     # top level folder
     base['url_to'] = partial(url_to, [])
 
-    # index.html
-    set_page_metadata(
-        base,
-        'OSGL | Open source games list',
-        f'Browse technical information about {len(games)} open source games and {len(non_games)} game engines, frameworks, and tools.',
-    )
-    base['active_nav'] = 'index'
-    index = {'subtitle': make_text(f'Contains information about {len(games)} open source games and {len(non_games)} game engines/tools.') }
-    template = environment.get_template('index.jinja')
-    write(template.render(index=index), ['index.html'])
+    # index.html is generated after the sub lists (see below), because it shows their sizes
 
     # contribute page
     set_page_metadata(
@@ -1333,12 +1470,11 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
         f'Browse {len(libre_games)} open source games with open or libre code and artwork.',
     )
     base['active_nav'] = ['filter', 'libre']
-    listing = {
-        'title': 'Completely free games',
-        'subtitle': f'{len(libre_games)} games with open/libre code and artwork.',
-        'items': libre_games
-    }
-    write(template_listing_entries.render(listing=listing), games_libre_path)
+    index = make_alphabetical_index(
+        libre_games, 'Completely free games', f'Index of {len(libre_games)} games with open/libre code and artwork.',
+        'games',
+    )
+    write(template_categorical_index.render(index=index), games_libre_path)
 
     # remakes and clones of existing games (including engine reimplementations, which are non-games)
     remake_entries = [entry for entry in entries if c.remake_or_clone_keyword in entry['Keyword']]
@@ -1348,12 +1484,12 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
         f'Browse {len(remake_entries)} open source remakes and clones of existing games.',
     )
     base['active_nav'] = ['filter', 'remakes']
-    listing = {
-        'title': 'Remakes and clones',
-        'subtitle': f'{len(remake_entries)} games and engines that recreate, port or reimplement existing games.',
-        'items': remake_entries
-    }
-    write(template_listing_entries.render(listing=listing), games_remakes_path)
+    index = make_alphabetical_index(
+        remake_entries, 'Remakes and clones',
+        f'Index of {len(remake_entries)} games and engines that recreate, port or reimplement existing games.',
+        'entries',
+    )
+    write(template_categorical_index.render(index=index), games_remakes_path)
 
     # top github/gitlab games
     set_page_metadata(
@@ -1371,6 +1507,25 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
         'items': top_games
     }
     write(template_listing_entries.render(listing=listing), games_top_path)
+
+    # index.html (main page, top level folder) with key numbers and tiles for selected genres and sub lists
+    set_page_metadata(
+        base,
+        'OSGL | Open source games list',
+        f'Browse technical information about {len(games)} open source games and {len(non_games)} game engines, frameworks, and tools.',
+    )
+    base['url_to'] = partial(url_to, [])
+    base['active_nav'] = 'index'
+    index_lists = (
+        (games_web_path, 'earth', 'Playable in the browser', len(web_games), 'games'),
+        (games_libre_path, 'heart', 'Open code + artwork', len(libre_games), 'games'),
+        (games_remakes_path, 'undo', 'Remakes and clones', len(remake_entries), 'entries'),
+        (games_top_path, 'star', 'Top by stars', len(top_games), 'games'),
+        (games_kids_path, 'child', 'For kids', len(kids_games), 'games'),
+    )
+    index = create_index_data(games, non_games, developers, inspirations, games_by_genre, index_lists)
+    template = environment.get_template('index.jinja')
+    write(template.render(index=index), ['index.html'])
 
     # inspirations folder
     set_page_metadata(

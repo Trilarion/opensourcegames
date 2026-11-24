@@ -23,6 +23,16 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* icons within the content without a Bulma icon container (spacing similar to the container) */
+.inline-icon {
+  margin: 0 0.25em;
+}
+
+/* long URLs in the notes of the entries may break anywhere (mobile view) */
+.entry-note {
+  overflow-wrap: anywhere;
+}
+
 .icon-warning:before {
   content: "\e924";
 }

@@ -1,19 +1,42 @@
 {% extends "base.jinja" %}
 {% block content %}
+{#- a tile linking to a sub list with icon, title and number of included items #}
+{%- macro render_tile(tile, column_class) -%}
+<div class="column {{ column_class }}"><a class="box has-text-centered px-2 py-3" href="{{ base['url_to'](tile['href']) }}">{{ macros.render_icon(tile['icon']) }}<span class="is-block has-text-weight-semibold">{{ tile['title'] }}</span><span class="is-block is-size-7 has-text-grey">{{ tile['number'] }}</span></a></div>
+{%- endmacro %}
   <section class="hero is-info is-bold">
   <div class="hero-body">
     <div class="container content">
       <h1 class="title">Open source games list (OSGL)</h1>
-      <p class="subtitle">{{ macros.render_text(index['subtitle']) }}</p>
-      <p>The content of this site is based on a collection of open source game descriptions stored on <a href="https://github.com/Trilarion/opensourcegames">Github</a>.
-        The descriptions concentrate on technical and general aspects of the games. Lots of sorting options are available and a list of inspirations and developers is cross-referenced.
-        This work is a best-effort based result and will surely contain inaccurate information.<br>
-        Please help improve the content (see <a href="contribute.html">contribution guidelines</a>).
+      <p class="subtitle">Information about {{ index['number-games'] }} open source games and {{ index['number-non-games'] }} game engines and tools.</p>
+      <p>{{ index['number-mature'] }} of the games are mature and {{ index['number-active'] }} are actively developed. The entries are written in {{ index['number-languages'] }} programming languages
+        by {{ index['number-developers'] }} developers and were inspired by {{ index['number-inspirations'] }} existing games (see <a href="statistics/index.html" class="is-underlined">statistics</a>).
+        The descriptions are stored on <a href="https://github.com/Trilarion/opensourcegames" class="is-underlined">Github</a> and concentrate on technical and general aspects of the games.
+        This work is a best-effort based result and will surely contain inaccurate information.
       </p>
-      <figure class="image is-2by1">
-        <img src="collage_games.jpg" alt="">
-      </figure>
     </div>
+  </div>
+  </section>
+  <section class="section py-5">
+  <div class="container">
+    <form action="table.html" method="get" role="search" class="block">
+      <div class="field has-addons">
+        <div class="control is-expanded"><input class="input" type="search" name="q" placeholder="Search all entries, e.g. strategy C++ Linux" aria-label="Search all entries"></div>
+        <div class="control"><button class="button is-info" type="submit">{{ macros.render_icon({'id': 'search', 'css': 'has-text-white'}) }}<span>Search</span></button></div>
+      </div>
+    </form>
+    <h2 class="title is-5">Genres <a href="games/genres.html" class="is-size-6 has-text-weight-normal">(all genres)</a></h2>
+    <div class="columns is-multiline is-mobile">
+      {% for tile in index['genre-tiles'] %}{{ render_tile(tile, 'is-half-mobile is-one-quarter-tablet') }}{% endfor %}
     </div>
+    <h2 class="title is-5">Selected lists</h2>
+    <div class="columns is-multiline is-mobile">
+      {% for tile in index['list-tiles'] %}{{ render_tile(tile, 'is-half-mobile is-one-third-tablet is-one-fifth-desktop') }}{% endfor %}
+    </div>
+    <div class="notification is-info is-light">Missing a game or found an error? Contributions are welcome, see the <a href="contribute.html">contribution guidelines</a>.</div>
+    <figure class="image is-2by1">
+      <img src="collage_games.jpg" alt="Collage of screenshots of open source games">
+    </figure>
+  </div>
   </section>
 {% endblock %}

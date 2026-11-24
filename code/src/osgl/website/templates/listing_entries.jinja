@@ -24,7 +24,11 @@
       {%- endfor -%}
     </div>
   </nav>
-                    {#- keywords as tags, no note currently #}
+                    {#- first paragraph of the note #}
+  {%- if 'note' in item %}
+  <div class="block entry-note">{{ macros.render_element(item['note']) }}</div>
+  {%- endif %}
+                    {#- keywords as tags #}
   <div class="block">
     {{ macros.render_element(item['keyword']) }}
   </div>

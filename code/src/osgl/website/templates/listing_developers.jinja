@@ -2,32 +2,12 @@
 {% block content %}
   <div class="container">
     <div class="box"><p class="title is-4">{{ listing['title'] }}</p></div>
-                    {#- iterate over items, each one as a box-#}
+                    {#- iterate over items, each one as a box with the name and the contacts in one line #}
 {% for item in listing['items'] %}
-    <div id="{{ item['anchor-id'] }}" class="box">
-                    {#- name and contact elements on one line, as a level -#}
-      <div class="level">
-        <div class="level-left">
-          <div class="level-item"><p class="title is-4">{{ item['name'] }}</p></div>
-        </div>
-      <div class="level-right is-size-4">
-{%- for contact in item['contact'] -%}
-        <div class="level-item">{{ macros.render_element(contact) }}</div>
-{%- endfor -%}
-      </div>
-    </div>
-                    {#- games as a separate element -#}
-    <div class="block">{{ macros.render_element(item['games']) }}</div>
-                    {#- other elements -#}
-    <div class="block">
-{%- for field in ('organization',) -%}
-      {%- if field in item %}{{ macros.render_element(item[field]) }}{% endif -%}
-{%- endfor -%}
-    </div>
-                    {#- improve link -#}
-    <p class="is-size-7 has-text-right"><a href="{{ base['url_to'](['contribute.html#developers']) }}" title="Contribution guide">Improve</a></p>
-    </div>
-{% endfor -%}
-  <p class="is-size-7 has-text-right"><a href="#">Back to top</a></p>
+<div id="{{ item['anchor-id'] }}" class="box"><p class="title is-5 mb-2">{{ item['name'] }}{% for contact in item['contact'] %} {{ macros.render_element(contact) }}{% endfor %}</p>
+{{ macros.render_element(item['games']) }}{% if 'organization' in item %}<br>{{ macros.render_element(item['organization']) }}{% endif %}</div>
+{%- endfor %}
+                    {#- improve link and back to top, once per page #}
+  <p class="is-size-7 has-text-right"><a href="{{ base['url_to'](['contribute.html#developers']) }}" title="Contribution guide" class="mr-2">Improve</a><a href="#">Back to top</a></p>
   </div>
 {% endblock %}

@@ -33,9 +33,7 @@
       <ul>
                             {#- for each entry one link #}
       {%- for entry in entries_column -%}
-        <li>{%- if entry['bold'] -%}<span class="has-text-weight-semibold">{%- endif -%}
-            {{ macros.render_element(entry['url']) }}{%- if 'tags' in entry -%}{{ macros.render_element(entry['tags']) }}{%- endif -%}
-            {%- if entry['bold'] -%}</span>{%- endif -%}</li>
+        <li>{{ macros.render_element(entry['url']) }}{%- if 'tags' in entry -%}{{ macros.render_element(entry['tags']) }}{%- endif -%}</li>
       {%- endfor -%}
       </ul>
     </div>

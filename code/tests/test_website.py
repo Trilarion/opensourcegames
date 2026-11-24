@@ -104,6 +104,106 @@ def test_shortcut_url_other():
     assert g.shortcut_url('ftp://example.org', 'x') == 'ftp://example.org'
 
 
+def test_make_text_with_links_plain_text():
+    """
+    A text without links is a single text node.
+    """
+    assert g.make_text_with_links('Simple puzzle game.', {}) == [g.make_text('Simple puzzle game.')]
+
+
+def test_make_text_with_links_bare_url():
+    """
+    Bare URLs become shortened links, trailing punctuation stays text.
+    """
+    nodes = g.make_text_with_links('See https://example.org/page.', {})
+    assert nodes[0] == g.make_text('See ')
+    assert nodes[1]['href'] == 'https://example.org/page'
+    assert nodes[1]['content'] == g.make_text('example.org/page')
+    assert nodes[2] == g.make_text('.')
+
+
+def test_make_text_with_links_known_service():
+    """
+    Bare URLs of known services are shown with their icon, Wikipedia links with the article name.
+    """
+    nodes = g.make_text_with_links('https://github.com/example/sample', {})
+    assert nodes[0]['content'][0]['id'] == 'github'
+    nodes = g.make_text_with_links('https://en.wikipedia.org/wiki/Sample_game_%28video%29', {})
+    assert nodes[0]['content'][1] == g.make_text('Sample game (video)')
+
+
+def test_make_text_with_links_markdown():
+    """
+    Markdown links become links with their label, links to entries point to the entry on the website, unknown
+    entries are only text.
+    """
+    references = {'other.md': ['games', 'O.html#other']}
+    nodes = g.make_text_with_links('See [Other](other.md), [Site](https://example.org) and [Gone](gone.md)', references)
+    assert nodes[1] == g.make_url(['games', 'O.html#other'], 'Other')
+    assert nodes[3] == g.make_url('https://example.org', 'Site')
+    assert nodes[5] == g.make_text('Gone')
+    assert [node['text'] for node in nodes[0::2]] == ['See ', ', ', ' and ']
+
+
+def test_make_text_with_links_line_breaks():
+    """
+    Line breaks are kept.
+    """
+    nodes = g.make_text_with_links('First line.\nSecond line.', {})
+    assert nodes == [g.make_text('First line.'), g.make_line_break(), g.make_text('Second line.')]
+
+
+def test_make_icon_without_css():
+    """
+    Icons without CSS classes have no default color (they take the color of the surrounding text).
+    """
+    assert g.make_icon('sun') == {'type': 'icon', 'id': 'sun'}
+    assert g.make_icon('sun', 'Active', 'has-text-link')['css'] == 'has-text-link'
+
+
+def test_platform_colors_are_text_colors():
+    """
+    Platform icons are colored with text color helpers, color modifiers like is-danger have no effect on icons.
+    """
+    assert all(color.startswith('has-text-') for color in g.platform_color.values())
+
+
+@pytest.fixture
+def macros():
+    """
+    The macros of the website templates, rendered with the generator's Jinja environment.
+    """
+    base = {'url_to': lambda target, info=None: target if isinstance(target, str) else '/'.join(target)}
+    return g.create_environment(base).get_template('macros.jinja').module
+
+
+def test_render_icons(macros):
+    """
+    Icons within the content are a single element, icons rendered directly by the templates keep the Bulma container.
+    """
+    icon = g.make_icon('sun', 'Active', 'has-text-link')
+    assert str(macros.render_element(icon)) == '<i class="icon-sun inline-icon has-text-link" title="Active"></i>'
+    assert str(macros.render_element(g.make_icon('sun'))) == '<i class="icon-sun inline-icon"></i>'
+    assert str(macros.render_icon({'id': 'home'})) == '<span class="icon"><i class="icon-home"></i></span>'
+
+
+def test_render_text_with_links_escapes(macros):
+    """
+    Free text with links is escaped, only the links are HTML.
+    """
+    nodes = g.make_text_with_links('A <b> & [C](https://example.org)', {})
+    assert str(macros.render_element(nodes)) == 'A &lt;b&gt; &amp; <a href="https://example.org">C</a>'
+
+
+def test_inline_icon_class_in_css():
+    """
+    The class used for inline icons and the class of the notes are defined in the website stylesheet.
+    """
+    css = (c.web_static_path / 'css' / 'osgl.min.css').read_text(encoding='utf-8')
+    assert '.inline-icon {' in css
+    assert '.entry-note {' in css
+
+
 @pytest.mark.parametrize('stars, icon', [(500, 'star'), (100, 'star-half-full'), (5, 'star-o')])
 def test_make_repo_url_with_comments(stars, icon):
     """
@@ -137,7 +237,9 @@ def test_developer_profile_link(link, href):
     """
     Contact shortcuts are converted into profile links.
     """
-    assert g.developer_profile_link(link)['href'] == href
+    node = g.developer_profile_link(link)
+    assert node['href'] == href
+    assert 'css' not in node['content']  # icon in the link color
 
 
 def test_developer_profile_link_unknown():
@@ -190,16 +292,30 @@ def test_keyword_icons_exist_in_css():
 
 def test_entry_index():
     """
-    The index node of an entry marks mature entries bold and shows beta and inactivity as tags.
+    The index node of an entry marks mature entries bold (as class of the link) and shows beta and inactivity as
+    tags.
     """
     entry = {'Title': 'Sample', 'href': ['games', 'S.html#sample'], 'anchor-id': 'sample',
              'State': ['beta', 'inactive since 2020']}
     node = g.entry_index(entry)
-    assert node['bold'] is False
+    assert 'class' not in node['url']
     assert node['tags']['text'] == '(beta, inactive since 2020)'
     entry['State'] = ['mature']
     node = g.entry_index(entry)
-    assert node['bold'] is True and 'tags' not in node
+    assert node['url']['class'] == g.BOLD_CLASS and 'tags' not in node
+
+
+def test_make_alphabetical_index():
+    """
+    The alphabetical index of a selection of entries is sorted, contains only letters with entries and their number.
+    """
+    entries = [{'Title': title, 'href': ['games', f'{title[0]}.html#{title}'], 'anchor-id': title, 'letter': title[0],
+                'State': ['mature']} for title in ('Cb', 'Aa', 'Ca')]
+    index = g.make_alphabetical_index(entries, 'Title', 'Subtitle', 'games')
+    assert index['categories'] == ['A', 'C']
+    assert index['number_entries'] == {'A': 1, 'C': 2}
+    assert [node['url']['content']['text'] for column in index['entries']['C'] for node in column] == ['Ca', 'Cb']
+    assert index['category-infos']['C'] == g.make_text('2 games')
 
 
 @pytest.mark.parametrize('function, key, threshold', [
@@ -212,10 +328,10 @@ def test_inspiration_and_developer_index(function, key, threshold):
     """
     item = {'Name': 'Someone', 'href': ['x', 'S.html#someone'], 'anchor-id': 'someone', key: ['a']}
     node = function(item)
-    assert node['bold'] is False and 'tags' not in node
+    assert 'class' not in node['url'] and 'tags' not in node
     item[key] = ['a'] * threshold
     node = function(item)
-    assert node['bold'] is True and node['tags']['text'] == f'({threshold})'
+    assert node['url']['class'] == g.BOLD_CLASS and node['tags']['text'] == f'({threshold})'
 
 
 # Complete generation
@@ -258,3 +374,60 @@ def test_generate_website(website_folder):
     charts = list((website_folder / 'statistics').glob('*.svg'))
     assert len(charts) >= 5
     assert not (website_folder / 'invalid.html').exists()
+
+    # main page with search form, statistics link and the tiles
+    index = (website_folder / 'index.html').read_text(encoding='utf-8')
+    assert '<form action="table.html" method="get"' in index
+    assert 'href="statistics/index.html" class="is-underlined"' in index
+    assert index.count('class="box has-text-centered') == len(g.index_genres) + 5
+    for target in ('games/genres.html#action', 'games/web.html', 'games/libre.html', 'games/remakes.html',
+                   'games/top.html', 'games/kids.html'):
+        assert f'href="{target}"' in index, target
+
+    # remakes and libre games are compact indices linking to the entries on the alphabetical pages
+    for page in ('remakes.html', 'libre.html'):
+        text = (website_folder / 'games' / page).read_text(encoding='utf-8')
+        assert '<div class="columns">' in text, page
+        assert 'Raw entry' not in text, page
+        assert 'href="A.html#' in text, page
+
+    # developers with name and contacts in one line, improve link once per page
+    developers = (website_folder / 'developers' / 'A.html').read_text(encoding='utf-8')
+    assert developers.count('title="Contribution guide"') == 1
+    assert 'class="level' not in developers
+
+
+def _index_game(keywords, states):
+    """
+    Create a minimal game entry for the main page data.
+    """
+    return {'Keyword': keywords, 'State': states, 'Code language': ['C++']}
+
+
+def test_create_index_data():
+    """
+    The main page data contains the key numbers and one tile per selected genre and sub list.
+    """
+    games = [_index_game(['action'], ['mature']), _index_game(['puzzle'], ['beta', 'inactive since 2010'])]
+    non_games = [{'Keyword': ['library'], 'State': ['mature'], 'Code language': ['Python']}]
+    games_by_genre = {genre: [] for genre in g.index_genres}
+    games_by_genre['Action'] = games[:1]
+    index_lists = ((g.games_web_path, 'earth', 'Playable in the browser', 1234, 'games'),)
+    data = g.create_index_data(games, non_games, [{}] * 3, [{}] * 4, games_by_genre, index_lists)
+
+    assert (data['number-games'], data['number-non-games']) == ('2', '1')
+    assert (data['number-mature'], data['number-active']) == ('1', '1')
+    assert (data['number-languages'], data['number-developers'], data['number-inspirations']) == ('2', '3', '4')
+    assert [tile['title'] for tile in data['genre-tiles']] == list(g.index_genres)
+    assert data['genre-tiles'][0]['href'] == ['games', 'genres.html#action']
+    assert data['genre-tiles'][0]['number'] == '1 games'
+    assert data['list-tiles'] == [g.make_index_tile(g.games_web_path, 'earth', 'Playable in the browser', 1234)]
+    assert data['list-tiles'][0]['number'] == '1,234 games'
+
+
+def test_create_index_data_unknown_genre():
+    """
+    A configured main page genre that is not a known genre is an error.
+    """
+    with pytest.raises(RuntimeError, match='Unknown main page genres'):
+        g.create_index_data([], [], [], [], {}, ())

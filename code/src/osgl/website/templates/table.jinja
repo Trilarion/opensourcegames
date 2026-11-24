@@ -37,9 +37,15 @@
       table.on('datatable.init', function(args) {
         // sort by first column
         table.columns().sort(0);
-        // use the urls search part for the search input field of the table
+        // search for the terms given in the url (table.html?q=terms, as sent by the search form on the main page,
+        // or table.html?terms)
         if (window.location.search) {
-          document.getElementsByClassName("dataTable-input").item(0).value = window.location.search.substring(1).replace("+", " ");
+          const params = new URLSearchParams(window.location.search);
+          const terms = (params.has("q") ? params.get("q") : decodeURIComponent(window.location.search.substring(1).replace(/\+/g, " "))).trim();
+          if (terms) {
+            document.getElementsByClassName("dataTable-input").item(0).value = terms;
+            table.search(terms);
+          }
         }
       });
     })

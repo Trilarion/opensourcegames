@@ -75,6 +75,29 @@ Technical info (hidden initially, can be toggled on/off)
 - Games: (with links)
 - Contact: links to profiles on SourceForge, GitHub, .. converted to links
 
+## Links to external services
+
+We strive to show improved replacements for links to popular services instead of raw URLs: the icon of the service
+and a short, meaningful label, for example
+
+| Link | Shown as |
+|------|----------|
+| `https://github.com/owner/repo.git` | GitHub icon, `owner/repo` (same for GitLab, Codeberg, Bitbucket) |
+| `https://sourceforge.net/projects/name/`, `https://git.code.sf.net/p/name/code` | SourceForge icon, `name`, `name/code` |
+| `https://en.wikipedia.org/wiki/Battle_Isle#Clones_and_successors` | Wikipedia icon, `Battle Isle › Clones and successors` (other languages with prefix, e.g. `de: …`) |
+| `https://web.archive.org/web/20210119051426/https://example.org` | archive icon, `example.org (archived 2021)` |
+| any other `https://www.example.org/page/` | `example.org/page` |
+
+The label is derived from the URL only (not from the name of the entry), so it always describes the link target.
+Labels longer than 50 characters are shortened in the middle with "…", the full URL is then shown as tooltip. The full
+URL always stays the link target.
+
+The rules are `LINK_RULES` in `generate.py` (used by `make_link` for all external links: entry fields, repositories,
+notes, inspiration media, developer organizations), with one test case per rule in `tests/test_website.py`. A service
+gets its own rule once it is linked often (roughly 20 links or more); its icon is added as described in
+`icons/README.md`. In November 2026, about 70% of all links matched a rule (GitHub, SourceForge, Wikipedia, web
+archive, Codeberg, GitLab, Bitbucket). Candidates for further rules are f-droid.org and the KDE sites.
+
 ## Overviews
 
 Simple paragraphs with headers and columns (for example game names in three columns)

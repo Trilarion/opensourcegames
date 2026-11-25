@@ -14,7 +14,6 @@ Sitemap is not needed, only for large projects with lots of JavaScript und many 
 # TODO tab: new filter tab (my top 100) with games I really like (mature and I tried them and there is a download for each of them) and some categories with explanation why and possible link to a review on the blog (like evil cult), still need to to that
 
 # TODO general: replace or remove @notices like @add in entries (these notices should go to () comments anyway
-# TODO general: better link replacements for showing the urls of links (see shortcut_url, also used for links in notes)
 # TODO general: style URLs (Github, Wikipedia, Internet archive, SourceForge, ...)
 # TODO general: optimize layout for mobile view (quite good already)
 
@@ -22,21 +21,14 @@ Sitemap is not needed, only for large projects with lots of JavaScript und many 
 
 # TODO statistics: more statistics
 
-# TODO games: developer details is too small to click on some devices, maybe details is-size6 instead (make technical details size 6 but with more)
-# TODO games: keyword tags underlined to indicate links
 # TODO games: @see-home/@see-download/@add (ignore or replace?)
 # TODO games: top 100 list from Github via their stars with download links (add to entries)
 # TODO games: order: homepage, inspiration, download, developer
 # TODO games: link to dependencies (either if existing or if url)
-# TODO games: repositories comments have too much space after( and before ) (use icons without span and with pr-0 on the icon
 # TODO games: only the first paragraph of the note is shown, it often mixes the short description with "See also" lines and maintainer notes (TODO: ...), maybe make the short description a field
 # TODO games: cross-references for code dependencies if included
 # TODO games: "for adults" tagged need a special icon warning (not safe for work or something)
-# TODO games: use genre icon after the game title (or before)
-# TODO games: use moon or sun icon before inactive, not afterwards
 
-# TODO developers: anchors to non-latin written developers do not work (chinese names have simply xxxxx)
-# TODO developers: developers without a name (or with a zero width name)
 # TODO developers: level with github, sourceforge links in one item (on mobile on one line)
 # TODO developers: gitlab and bitbucket user profiles
 
@@ -45,6 +37,7 @@ Sitemap is not needed, only for large projects with lots of JavaScript und many 
 import shutil
 import math
 import datetime
+import hashlib
 import time
 import json
 import re
@@ -87,6 +80,9 @@ alphabet_replacements = {'Á': 'A', 'Å': 'A', 'Ä': 'A', 'É': 'E', 'ⴹ': 'E',
 
 TOP_INSPIRATION_THRESHOLD = 4  # at least that many inspired games
 TOP_DEVELOPER_THRESHOLD = 4    # at least that many developed games
+ANCHOR_HASH_LENGTH = 8  # hex characters of the name hash used in anchors of non-Latin or duplicate names
+LINK_LABEL_MAX_LENGTH = 50  # longer labels of external links are shortened in the middle
+COMMENT_ICON_CLASS = 'mx-0'  # icons within parentheses need no margin, the spacing comes from the dividers
 BOLD_CLASS = 'has-text-weight-semibold'  # highlighted (mature or prolific) items in the indices
 
 UNKNOWN_PLATFORM = 'Unknown platform support'
@@ -444,6 +440,28 @@ def create_sitemap(paths: Sequence[Sequence[str]]) -> str:
     return '\n'.join(lines) + '\n'
 
 
+def anchor_id(name: str, used_anchors: set[str]) -> str:
+    """
+    Derive a stable, non-empty HTML anchor id for a name that is unique among the already used anchors.
+
+    The base is the canonical name without leading or trailing "_" and "-". If it contains no ASCII letter or digit
+    (e.g. names written in Chinese or Cyrillic only), the first characters of the SHA-1 hash of the name are used
+    instead. If the anchor is already used (e.g. "Alpha" and "alpha"), the hash is appended. The anchor thus only
+    depends on the name and does not shift when other items are added or removed.
+    """
+    base = osg.canonical_name(name).strip('_-')
+    if not re.search(r'[a-z0-9]', base):
+        base = ''
+    elif base not in used_anchors:
+        return base
+    digest = hashlib.sha1(name.encode('utf-8')).hexdigest()
+    for length in range(ANCHOR_HASH_LENGTH, len(digest) + 1, 4):
+        anchor = f'{base}-{digest[:length]}' if base else digest[:length]
+        if anchor not in used_anchors:
+            return anchor
+    raise RuntimeError(f'No unique anchor found for "{name}"')
+
+
 def preprocess(
     items: Sequence[Entry], key: str,
     url: list[str] | Callable[[Entry], list[str]],
@@ -453,13 +471,10 @@ def preprocess(
 
     ``url`` is either a shared base path or a function selecting a path per item.
     """
-    _ = set() # this is just to avoid duplicating anchors
+    used_anchors = set()
     for item in items:
-        # add unique anchor ref
-        anchor = osg.canonical_name(item[key])
-        while anchor in _:
-            anchor += 'x'
-        _.add(anchor)
+        anchor = anchor_id(item[key], used_anchors)
+        used_anchors.add(anchor)
         item['anchor-id'] = anchor
 
         # for alphabetic sorting
@@ -511,7 +526,7 @@ def developer_index(developer: Entry) -> TemplateNode:
     """
     n = len(developer['Games'])
     e = {
-        'url': make_url(developer['href'], developer['Name'], css_class=BOLD_CLASS if n >= TOP_DEVELOPER_THRESHOLD else None),
+        'url': make_url(developer['href'], make_text(developer['Name'], isolate=True), css_class=BOLD_CLASS if n >= TOP_DEVELOPER_THRESHOLD else None),
         'anchor-id': developer['anchor-id']
     }
     if n > 1:
@@ -519,47 +534,103 @@ def developer_index(developer: Entry) -> TemplateNode:
     return e
 
 
-def shortcut_url(url: str, name: str) -> str | list[TemplateNode]:
+def strip_repository_path(path: str) -> str:
     """
-    Create a concise, optionally icon-based label for a known external URL.
+    Return a repository or project path without trailing slash and without the ".git" suffix.
     """
-    # remove slash at the end
-    if url.endswith('/'):
-        url = url[:-1]
+    path = path.rstrip('/')
+    return path[:-len('.git')] if path.endswith('.git') else path
 
-    # gitlab
-    gl_prefix = 'https://gitlab.com/'
-    if url.startswith(gl_prefix):
-        return [make_icon('gitlab'), make_text(url[len(gl_prefix):])]
 
-    # github
-    gh_prefix = 'https://github.com/'
-    if url.startswith(gh_prefix):
-        return [make_icon('github'), make_text(url[len(gh_prefix):])]
+def plain_url_label(url: str) -> str:
+    """
+    Return the label of a URL without a special rule: without http(s) scheme, leading "www." and trailing slash.
 
-    # sourceforge
-    sf_prefix = 'https://sourceforge.net/projects/'
-    if url.startswith(sf_prefix):
-        return [make_icon('sourceforge'), make_text(url[len(sf_prefix):])]
-
-    # archive link
-    ia_prefix = 'https://web.archive.org/web/'
-    if url.startswith(ia_prefix):
-        # return 'Archive: ' + url[len(ia_prefix):]
-        return [make_icon('library'), make_text(url[len(ia_prefix):])]
-
-    # Wikipedia link
-    wp_prefix = 'https://en.wikipedia.org/wiki/'
-    if url.startswith(wp_prefix):
-        # return 'WP: ' + url[len(wp_prefix):]
-        return [make_icon('wikipedia'), make_text(name)]
-
-    # cutoff common prefixes
+    URLs with other schemes (e.g. ftp) are returned unchanged.
+    """
     for prefix in ('http://', 'https://'):
         if url.startswith(prefix):
-            return url[len(prefix):]
-    # as is
+            url = url[len(prefix):]
+            if url.startswith('www.'):
+                url = url[len('www.'):]
+            return url.rstrip('/')
     return url
+
+
+def wikipedia_label(match: re.Match) -> str:
+    """
+    Return the label of a Wikipedia link: the article title, the section after "›" and the language if not English.
+    """
+    article, _, section = match['article'].partition('#')
+    label = urllib.parse.unquote(article).replace('_', ' ')
+    if section:
+        label += ' › ' + urllib.parse.unquote(section).replace('_', ' ')
+    if match['language'] != 'en':
+        label = f"{match['language']}: {label}"
+    return label
+
+
+def web_archive_label(match: re.Match) -> str:
+    """
+    Return the label of a link to the Internet Archive's Wayback Machine: the original URL and the year of the snapshot.
+    """
+    year = re.match(r'\d{4}', match['timestamp'])
+    archived = f'archived {year.group()}' if year else 'archived'
+    return f"{plain_url_label(match['original'])} ({archived})"
+
+
+# rules for links to popular services: pattern of the URL, icon and function creating the label from the match,
+# the first matching rule is used, see design.md (Links to external services)
+LINK_RULES: list[tuple[re.Pattern, str, Callable[[re.Match], str]]] = [
+    (re.compile(r'https?://(?:www\.)?github\.com/(?P<path>.+)'), 'github', lambda m: strip_repository_path(m['path'])),
+    (re.compile(r'https?://(?:www\.)?gitlab\.com/(?P<path>.+)'), 'gitlab', lambda m: strip_repository_path(m['path'])),
+    (re.compile(r'https?://(?:www\.)?codeberg\.org/(?P<path>.+)'), 'codeberg', lambda m: strip_repository_path(m['path'])),
+    (re.compile(r'https?://(?:www\.)?bitbucket\.org/(?P<path>.+)'), 'bitbucket', lambda m: strip_repository_path(m['path'])),
+    (re.compile(r'https?://(?:www\.)?sourceforge\.net/projects/(?P<path>.+)'), 'sourceforge',
+     lambda m: strip_repository_path(m['path'])),
+    (re.compile(r'https?://(?:git|svn|hg|bzr|cvs)\.code\.sf\.net/p/(?P<path>.+)'), 'sourceforge',
+     lambda m: strip_repository_path(m['path'])),
+    (re.compile(r'https?://(?P<language>[a-z-]+)(?:\.m)?\.wikipedia\.org/wiki/(?P<article>[^?]+)'), 'wikipedia',
+     wikipedia_label),
+    (re.compile(r'https?://web\.archive\.org/web/(?P<timestamp>[^/]*)/(?P<original>.+)'), 'library', web_archive_label),
+]
+
+
+def shortcut_url(url: str) -> tuple[str | None, str]:
+    """
+    Return the icon (None for none) and the label for a URL.
+
+    Links to popular services get the icon of the service and a short, meaningful label (see LINK_RULES), other URLs
+    are shown without scheme, leading "www." and trailing slash.
+    """
+    for pattern, icon, label in LINK_RULES:
+        match = pattern.fullmatch(url)
+        if match:
+            return icon, label(match)
+    return None, plain_url_label(url)
+
+
+def shorten_label(label: str, max_length: int = LINK_LABEL_MAX_LENGTH) -> str:
+    """
+    Shorten a label longer than max_length characters in the middle with "…", keeping its start and its end.
+    """
+    if len(label) <= max_length:
+        return label
+    head = max_length * 3 // 5
+    tail = max_length - head - 1
+    return label[:head] + '…' + label[-tail:]
+
+
+def make_link(url: str) -> TemplateNode:
+    """
+    Create a link to an external URL with the improved label of shortcut_url, shortened if needed.
+
+    The full URL is the tooltip of the link if the label had to be shortened.
+    """
+    icon, label = shortcut_url(url)
+    short_label = shorten_label(label)
+    content = [make_icon(icon), make_text(short_label)] if icon else make_text(short_label)
+    return make_url(url, content, title=url if short_label != label else None)
 
 
 def make_url(
@@ -584,7 +655,7 @@ def make_url(
     return url
 
 
-def make_repo_url(x: str, name: str) -> TemplateNode:
+def make_repo_url(x: str) -> TemplateNode:
     """
     Create a repository link and display metadata encoded in its comments.
     """
@@ -606,15 +677,15 @@ def make_repo_url(x: str, name: str) -> TemplateNode:
             if key == 'stars':
                 value = int(value)
                 if value > 200:
-                    comments.append(make_icon('star', 'top rated'))
+                    comments.append(make_icon('star', 'top rated', COMMENT_ICON_CLASS))
                 elif value > 30:
-                    comments.append(make_icon('star-half-full', 'medium rated'))
+                    comments.append(make_icon('star-half-full', 'medium rated', COMMENT_ICON_CLASS))
                 else:
-                    comments.append(make_icon('star-o', 'low rated'))
+                    comments.append(make_icon('star-o', 'low rated', COMMENT_ICON_CLASS))
     # this is the default element
-    url = make_url(x, shortcut_url(x, name))
+    url = make_link(x)
     if comments:
-        return make_enumeration([url, make_enclose(make_enumeration(comments), '(', ')')], '')
+        return make_enumeration([url, make_enclose(make_enumeration(comments), '(', ')')], ' ')
     else:
         return url
 
@@ -636,14 +707,19 @@ def make_icon(id: str, title: str | None = None, css: str | None = None) -> Temp
     return icon
 
 
-def make_text(content: str, css_class: str | None = None, title: str | None = None) -> TemplateNode:
+def make_text(content: str, css_class: str | None = None, title: str | None = None, isolate: bool = False) -> TemplateNode:
     """
     Create a text node with optional CSS class and tooltip text.
+
+    With ``isolate``, the text is rendered in a ``<bdi>`` element (only without class and title), so that names in
+    right-to-left scripts do not change the order of the surrounding text (e.g. the commas of a list).
     """
     text = {
         'type': 'text',
         'text': content
     }
+    if isolate:
+        text['isolate'] = True
     if css_class:
         text['class'] = css_class
     if title:
@@ -668,7 +744,7 @@ def make_text_with_links(text: str, entry_references: Mapping[str, Sequence[str]
 
     Line breaks are kept. Markdown links to other entries ("[label](name.md)") link to their entry on the website,
     if that entry is unknown only the label is shown. Bare URLs are shortened like other URLs (see
-    :func:`shortcut_url`), trailing punctuation is not part of the URL.
+    :func:`make_link`), trailing punctuation is not part of the URL.
 
     Args:
         text: The free text.
@@ -686,9 +762,7 @@ def make_text_with_links(text: str, entry_references: Mapping[str, Sequence[str]
             label, target, url = match.groups()
             if url:
                 stripped = url.rstrip('.,;:!?')
-                # for Wikipedia links, the article name is shown
-                article = urllib.parse.unquote(stripped.rsplit('/', 1)[-1]).replace('_', ' ')
-                nodes.append(make_url(stripped, shortcut_url(stripped, article)))
+                nodes.append(make_link(stripped))
                 if len(stripped) < len(url):
                     nodes.append(make_text(url[len(stripped):]))
             elif target.startswith(('http://', 'https://')):
@@ -800,7 +874,7 @@ def convert_inspirations(inspirations: Sequence[Entry], entries: Sequence[Entry]
 
         # media
         if 'Media' in inspiration:
-            media_links = [make_url(url, shortcut_url(url, name)) for url in inspiration['Media']]
+            media_links = [make_link(url) for url in inspiration['Media']]
             inspiration['media'] = [make_text('Media: '), make_enumeration(media_links)]
 
         # inspired entries (with links to them)
@@ -850,7 +924,7 @@ def convert_developers(developers: Sequence[Entry], entries: Sequence[Entry]) ->
             if field in developer:
                 entries = developer[field]
                 if field in c.url_developer_fields:
-                    entries = [make_url(entry, shortcut_url(entry, name)) for entry in entries]
+                    entries = [make_link(entry) for entry in entries]
                 else:
                     entries = [make_text(entry) for entry in entries]
                 developer[field.lower()] = [make_text(get_plural_or_singular(field, len(entries))+': '), make_enumeration(entries)]
@@ -913,7 +987,7 @@ def create_keyword_tag(keyword: str) -> TemplateNode:
         #if keyword.capitalize() in genre_icon_map:
         #    return make_url(url, [make_icon(genre_icon_map[keyword.capitalize()]), make_text(keyword)], '{} games'.format(keyword), 'tag is-light is-link')
         tooltip = tooltip or non_game_category_names.get(keyword, f'{keyword.capitalize()} games')
-        return make_url(url, make_text(keyword), tooltip, 'tag is-light is-link') # TODO underline tag needs <u> and it should be generalized
+        return make_url(url, make_text(keyword), tooltip, 'tag is-light is-link')  # underlined by a.tag in osgl.min.css
     elif keyword == c.remake_or_clone_keyword:
         return make_url(games_remakes_path, make_text(keyword), tooltip, 'tag is-light is-link')
     else:
@@ -930,7 +1004,7 @@ def create_state_texts(states: Sequence[str]) -> list[TemplateNode | list[Templa
         state = make_text('beta')
     inactive = [x for x in states if x.startswith('inactive since')]
     if inactive:
-        activity = make_icon('brightness_3', inactive[0]) # inactive since only as tooltip
+        activity = [make_icon('brightness_3'), make_text(inactive[0])]
     else:
         activity = [make_icon('sun'), make_text('active', 'has-text-weight-bold')]
     return [state, activity]
@@ -978,9 +1052,9 @@ def convert_entries(
                 if field == 'Inspiration':
                     e = [make_url(inspirations_references[x], make_text(x)) for x in e]
                 elif field == 'Developer':
-                    e = [make_url(developer_references[x], make_text(x)) for x in e]
+                    e = [make_url(developer_references[x], make_text(x, isolate=True)) for x in e]
                 elif field in c.url_fields:
-                    e = [make_url(x, shortcut_url(x, name)) for x in e]
+                    e = [make_link(x) for x in e]
                 else:
                     e = [make_text(x) for x in e]
                 if field == 'Home':  # Home -> Homepage
@@ -1014,13 +1088,13 @@ def convert_entries(
                 if not e:
                     continue
                 if field == 'Code repository':
-                    e = [make_repo_url(x, name) for x in e]
+                    e = [make_repo_url(x) for x in e]
                 elif field == 'Code language':
                     e = [make_url(code_language_references[x], make_text(x)) for x in e]
                 elif field == 'Code license' or field == 'Assets license':
                     e = [make_url(c.license_urls[x], x) if x in c.license_urls else make_text(x) for x in e]
                 elif field in c.url_fields:
-                    e = [make_url(x, shortcut_url(x, name)) for x in e]
+                    e = [make_link(x) for x in e]
                 else:
                     e = [make_text(x) for x in e]
                 namex = make_text(f'{get_plural_or_singular(field.capitalize(), len(entries))}: ')

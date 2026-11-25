@@ -50,7 +50,7 @@
     {%- for field in ('code language', 'code license', 'code repository', 'code dependency', 'assets license', 'build system', 'developer') -%}
     {%- if field in item -%}
       {%- if item[field][1]['entries']|length > 10 -%}
-      <details><summary>{{ macros.render_element(item[field][0]) }} ({{ item[field][1]['entries']|length }})</summary><br>{{ macros.render_element(item[field][1]) }}</details>
+      <details><summary>{#- the label already ends with a space -#}{{ macros.render_element(item[field][0]) }}({{ item[field][1]['entries']|length }})</summary><br>{{ macros.render_element(item[field][1]) }}</details>
       {%- else -%}
       {{ macros.render_element(item[field]) }}
       {%- endif -%}

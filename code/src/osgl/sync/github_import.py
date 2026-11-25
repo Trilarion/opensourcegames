@@ -148,11 +148,11 @@ def github_import():
                     if contributor.contributions < MINIMAL_CONTRIBUTIONS:
                         continue
                     # contributor.login/name/blog
-                    name = contributor.name
-                    if not name:
+                    # display names may contain invisible characters only (e.g. a right-to-left override)
+                    name = osg.normalize_developer_name(contributor.name or '')
+                    if osg.check_developer_name(name):
                         name = contributor.login
                     name = name_aliases.get(name, name)
-                    name = name.strip()  # sometimes they have trailing spaces (for whatever reason)
                     nickname = f'{contributor.login}@GH'
                     blog = contributor.blog
                     if blog:
@@ -172,11 +172,12 @@ def github_import():
                     if name in all_developers:
                         dev = all_developers[name]
                         if nickname not in dev.get('Contact', []):
-                            print(f' existing dev "{name}" added nickname ({nickname}) to developer database')
-                            # check that name has not already @GH contact
+                            # a different GH contact means probably a different person with the same name, do not merge
                             if any(x.endswith('@GH') for x in dev.get('Contact', [])):
-                                print('warning: already GH contact')
-                            dev['Contact'] = dev.get('Contact', []) + [nickname]
+                                print(f'warning: existing dev "{name}" has a different GH contact than {nickname}, not added, check manually')
+                            else:
+                                print(f' existing dev "{name}" added nickname ({nickname}) to developer database')
+                                dev['Contact'] = dev.get('Contact', []) + [nickname]
                         if blog and blog not in dev.get('Home', []):
                             dev['Home'] = dev.get('Home', []) + [blog]
                         if entry['Title'] not in dev['Games']:

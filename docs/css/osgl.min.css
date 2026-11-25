@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'osgl';
   src:
-    url('fonts/osgl.woff?v4') format('woff'),
-    url('fonts/osgl.ttf?v4') format('truetype');
+    url('fonts/osgl.woff?v5') format('woff'),
+    url('fonts/osgl.ttf?v5') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,6 +26,18 @@ i {
 /* icons within the content without a Bulma icon container (spacing similar to the container) */
 .inline-icon {
   margin: 0 0.25em;
+}
+
+/* keyword tags that are links (genres, remakes) are underlined, the color alone does not show it */
+a.tag {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+/* collapsed lists (e.g. many developers) are easier to open on touch screens */
+summary {
+  padding: 0.25em 0;
+  cursor: pointer;
 }
 
 /* long URLs in the notes of the entries may break anywhere (mobile view) */
@@ -60,6 +72,9 @@ i {
 }
 .icon-child:before {
   content: "\f1ae";
+}
+.icon-codeberg:before {
+  content: "\e908";
 }
 .icon-device_unknown:before {
   content: "\e913";

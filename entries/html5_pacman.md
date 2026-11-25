@@ -8,6 +8,6 @@
 - Code repository: https://github.com/daleharvey/pacman.git (@created 2010, @stars 689, @forks 466)
 - Code language: JavaScript
 - Code license: WTFPL
-- Developer: Dale  Harvey
+- Developer: Dale Harvey
 
 ## Building

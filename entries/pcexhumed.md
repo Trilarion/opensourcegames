@@ -10,7 +10,7 @@
 - Code language: C++
 - Code license: Custom
 - Code dependency: OpenGL, SDL, SDL2
-- Developer: alexey.lysiuk, Colin Kinloch, CommonLoon102, dibollinger, Dino Bollinger, Evan Ramos, fhomolka, Fix, Jae Yeum, Jan, Jordon Moss, MexMeRcUrY, Mitchell Richters, NoOneBlood, nukeykt, NY00123, Pierre-Loup A. Griffais, Richard C. Gobeille, Sean McBride, sirlemonhead, Szilárd Biró, tmyqlfpir, Zeck, ‮
+- Developer: alexey.lysiuk, carnivoroussociety, Colin Kinloch, CommonLoon102, dibollinger, Dino Bollinger, Evan Ramos, fhomolka, Fix, Jae Yeum, Jan, Jordon Moss, MexMeRcUrY, Mitchell Richters, NoOneBlood, nukeykt, NY00123, Pierre-Loup A. Griffais, Richard C. Gobeille, Sean McBride, sirlemonhead, Szilárd Biró, tmyqlfpir, Zeck
 
 Reverse-engineered ports of Build games using EDuke32 engine technology and development principles.
 

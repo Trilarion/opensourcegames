@@ -123,8 +123,11 @@ def sourceforge_import():
                         author_name = SF_alias_list.get(author_name, author_name)  # replace by alias if possible
                         nickname = soup.find('dl', class_='personal-data').find('dd').get_text()
                         nickname = nickname.replace('\n', '').strip()
+                    # names could contain white spaces before or after or invisible characters only
+                    author_name = osg.normalize_developer_name(author_name)
+                    if osg.check_developer_name(author_name):
+                        author_name = nickname
                     nickname += '@SF'  # our indication of the platform to search for
-                    author_name = author_name.strip()  # names could still have white spaces before or after
 
                     # some authors we ignore
                     if author_name in SF_ignore_list:
@@ -142,12 +145,13 @@ def sourceforge_import():
                         # get existing developer information
                         dev = all_developers[author_name]
                         if nickname not in dev.get('Contact', []):
-                            print(f' existing dev "{author_name}" added nickname ({nickname}) to developer database')
-                            # check that name has not already @SF contact
+                            # a different SF contact means probably a different person with the same name, do not merge
                             if any(x.endswith('@SF') for x in dev.get('Contact', [])):
-                                print('warning: already different SF contact existing')
-                            all_developers[author_name]['Contact'] = dev.get('Contact', []) + [nickname]
-                            all_developers_changed = True
+                                print(f'warning: existing dev "{author_name}" has a different SF contact than {nickname}, not added, check manually')
+                            else:
+                                print(f' existing dev "{author_name}" added nickname ({nickname}) to developer database')
+                                all_developers[author_name]['Contact'] = dev.get('Contact', []) + [nickname]
+                                all_developers_changed = True
                     else:
                         # new developer entry in the developers data base
                         print(f'   dev "{author_name}" ({nickname}) added to developer database')

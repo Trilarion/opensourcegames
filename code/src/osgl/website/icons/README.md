@@ -33,6 +33,7 @@ This folder is not copied to the website.
 | `car.svg`            | U+F1B9     | `icon-car`            | Font Awesome 4.7.0    | car (U+F1B9)            | genre Game engine                       |
 | `chess.svg`          | U+E91F     | `icon-chess`          | Material Symbols      | chess_knight            | genre Board                             |
 | `child.svg`          | U+F1AE     | `icon-child`          | Font Awesome 4.7.0    | child (U+F1AE)          | navigation                              |
+| `codeberg.svg`       | U+E908     | `icon-codeberg`       | Simple Icons          | codeberg                | Codeberg links                          |
 | `device_unknown.svg` | U+E913     | `icon-device_unknown` | Material Icons        | hardware/device_unknown | unknown platform                        |
 | `dice.svg`           | U+E915     | `icon-dice`           | IcoMoon Free          | 022-dice                | genre Adventure, navigation             |
 | `directions_run.svg` | U+E922     | `icon-directions_run` | Material Icons        | maps/directions_run     | genre Platform                          |

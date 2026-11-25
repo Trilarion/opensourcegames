@@ -279,3 +279,14 @@ def test_unknown_license(raw_sample_entry):
     entry = set_field(raw_sample_entry, 'Code license', ['Klingon License'])
     with pytest.raises(RuntimeError, match='License "Klingon License" is not a known license'):
         check(entry)
+
+
+@pytest.mark.parametrize('name, problem', [('\u202e', 'has no visible character'),
+                                           ('Jane\xa0Doe', 'invisible or special space characters')])
+def test_invalid_developer_name(raw_sample_entry, name, problem):
+    """
+    Developer names must have a visible character and must not contain invisible or special space characters.
+    """
+    entry = set_field(raw_sample_entry, 'Developer', ['Jane Doe', name])
+    with pytest.raises(RuntimeError, match=problem):
+        check(entry)

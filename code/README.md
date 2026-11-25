@@ -52,7 +52,8 @@ Import scripts for external sources (GitHub, GitLab, LibreGameWiki, SourceForge,
 - **`generate.py`**: Generates the static website in `../docs`
 - **`templates/`**: Jinja templates
 - **`static/`**: CSS, JavaScript, fonts and images copied to the website
-- **`design.md`**: Design notes for the static website
+- **`design.md`**: Design notes for the static website, including the improved labels of links to popular
+  services (icon and short label instead of the raw URL, rules in `LINK_RULES` of `generate.py`)
 
 ### Grammars (`src/osgl/grammars/`)
 

@@ -34,6 +34,7 @@ ICONS = {
     'brightness_3': 0xE914,
     'car': 0xF1B9,
     'chess': 0xE91F,
+    'codeberg': 0xE908,
     'child': 0xF1AE,
     'device_unknown': 0xE913,
     'dice': 0xE915,
@@ -94,6 +95,9 @@ TIMESTAMP = 3_850_000_000
 def read_icon(name: str) -> tuple[tuple[float, float, float, float], list[str]]:
     """
     Return the view box (min x, min y, width, height) and the path data of the visible paths of an icon SVG file.
+
+    Repeated close path commands (e.g. "zz" at the end of the Codeberg logo) are reduced to one, the SVG path parser
+    of fontTools fails on them otherwise.
     """
     text = read_text(ICONS_PATH / f'{name}.svg')
     view_box = re.search(r'<svg[^>]*\sviewBox="([^"]*)"', text)
@@ -102,6 +106,7 @@ def read_icon(name: str) -> tuple[tuple[float, float, float, float], list[str]]:
     view_box = tuple(float(x) for x in view_box.group(1).replace(',', ' ').split())
     paths = [attributes for attributes in re.findall(r'<path\s([^>]*?)/?>', text) if 'fill="none"' not in attributes]
     path_data = [re.search(r'(?:^|\s)d="([^"]*)"', attributes).group(1) for attributes in paths]
+    path_data = [re.sub(r'([zZ])(?:\s*[zZ])+', r'\1', data) for data in path_data]
     if not path_data:
         raise RuntimeError(f'Icon {name} contains no visible path')
     if re.search(r'<(?:circle|ellipse|rect|polygon|polyline|line|g|use)\b', text) or 'transform=' in text:

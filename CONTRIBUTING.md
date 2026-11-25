@@ -93,6 +93,10 @@ It is recommended to suggest changes to developer information within an issue on
 possible to modify the [developers file](developers.md), if you know what you are doing. Please add missing developers only
 to the "Developer" field in an entry.
 
+Write developer names as the developers write them, in any script, but without invisible characters (like writing
+direction marks or zero width spaces) and with normal spaces only. Names without any visible character are replaced
+by the account name. See the [definitions](definitions.md) of the Developer field for the details.
+
 ### Inspiration information
 
 Inspirations are short pieces of information that collect links to inspirations website or Wikipedia websites and also

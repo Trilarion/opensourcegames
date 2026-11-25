@@ -4353,11 +4353,6 @@
 - Contact: achimmihca@GH, aginor@GH, andreas-volz@GH, andreas99@SF, gladiac@SF, polyveg@SF
 - Home: http://www.alternating.net, https://melodymania.org
 
-## Andreas  Landmark [1]
-
-- Games: FreeCol
-- Contact: andreala@SF
-
 ## Andreas Bauer [1]
 
 - Games: Haxima
@@ -4429,6 +4424,11 @@
 
 - Games: Crossfire, Daimonin
 - Contact: akirschbaum@SF
+
+## Andreas Landmark [1]
+
+- Games: FreeCol
+- Contact: andreala@SF
 
 ## Andreas Lochmann [1]
 
@@ -11702,6 +11702,12 @@
 - Games: Cataclysm: Dark Days Ahead
 - Contact: carmakazi@GH
 
+## carnivoroussociety [4]
+
+- Games: NBlood, PCExhumed, Raze, Rednukem
+- Contact: carnivoroussociety@GH
+- Home: https://carnivoroussociety.github.io/
+
 ## Carouny [1]
 
 - Games: ScummVM
@@ -15357,16 +15363,16 @@
 - Games: The Battle for Wesnoth
 - Contact: Dalas121@GH
 
-## Dale  Harvey [1]
-
-- Games: HTML5 Pacman
-- Contact: daleharvey@GH
-- Home: http://arandomurl.com
-
 ## Dale Glass [1]
 
 - Games: Vircadia
 - Contact: daleglass@GH
+
+## Dale Harvey [1]
+
+- Games: HTML5 Pacman
+- Contact: daleharvey@GH
+- Home: http://arandomurl.com
 
 ## Dale McCoy [1]
 
@@ -20951,7 +20957,7 @@
 - Contact: elisee@GH
 - Home: http://sparklinlabs.com/
 
-## Elite-Games.ru: HeadHunter &  Maksim Kulikov aka sapog662. [1]
+## Elite-Games.ru: HeadHunter & Maksim Kulikov aka sapog662. [1]
 
 - Games: Pioneer
 - Contact: HeadHunterEG@GH
@@ -22071,7 +22077,7 @@
 - Contact: ntninja@GH
 - Home: https://ninetailed.ninja/
 
-## Erin Yuki Schlarb [1]
+## Erin Yuki Schlarb [1]
 
 - Games: NXEngine-evo
 - Contact: ntninja@GH
@@ -29348,6 +29354,11 @@
 - Games: Stockfish
 - Contact: hxim@GH
 
+## HybridDog [4]
+
+- Games: Freeminer, Luanti, Minetest Game, SuperTux
+- Contact: HybridDog@GH
+
 ## Hyde Yamakawa [1]
 
 - Games: FlightGear
@@ -34274,7 +34285,7 @@
 - Contact: hitch17@GH, jjmurphy@SF, JohnCoconut@GH, Nirad@GH, rd3k@GH, th1@SF
 - Home: https://www.wealthfront.com
 
-## John  _Scott_  Tillman [1]
+## John _Scott_ Tillman [1]
 
 - Games: WorldForge
 - Contact: speedbump@SF
@@ -39801,12 +39812,6 @@
 
 - Games: Ren'Py
 - Contact: knappador@GH
-
-## ḱ̷̘͙̓͌e̶̡̬̦̽r̸̲̈͜ͅn̴̞̾ẹ̸̉̏l̸̢̜͂ ̵̖͝p̴͍̊̕ą̶̉n̴͚͘i̶̦̥̰͆c̵̪͔͔̈́ [1]
-
-- Games: Anuto
-- Contact: id101010@GH
-- Home: https://0x29a.ch
 
 ## L Linse [1]
 
@@ -55322,6 +55327,12 @@
 - Games: Earth 2140 on OpenRA, OpenHV, OpenKrush, OpenSA
 - Contact: Dzierzan@GH
 
+## Paweł Fertyk [1]
+
+- Games: Godot
+- Contact: pfertyk@GH
+- Home: https://pfertyk.me
+
 ## Paweł Jackowski [1]
 
 - Games: The Battle for Wesnoth
@@ -55354,12 +55365,6 @@
 
 - Games: NXEngine-evo
 - Contact: Subc2@GH
-
-## Paweł Fertyk [1]
-
-- Games: Godot
-- Contact: pfertyk@GH
-- Home: https://pfertyk.me
 
 ## pawnishoovy [1]
 
@@ -71373,11 +71378,6 @@
 - Contact: burp@GH, FearlessTobi@GH, tobspr@GH
 - Home: https://tobspr.io
 
-## Tobias  Schröfel [1]
-
-- Games: Unknown Horizons
-- Contact: tschroefel@SF
-
 ## Tobias Bielefeld [2]
 
 - Games: Simple Brick Games, Simple-Solitaire
@@ -71445,6 +71445,11 @@
 
 - Games: Q-Gears, Ryzom Core
 - Contact: zerotacg@GH
+
+## Tobias Schröfel [1]
+
+- Games: Unknown Horizons
+- Contact: tschroefel@SF
 
 ## Tobias Taschner [1]
 
@@ -77604,7 +77609,7 @@
 - Games: Cocos2d-x
 - Contact: yuezang@GH
 
-## yui​ [1]
+## yui [1]
 
 - Games: UchuServer
 - Contact: na-2n@GH
@@ -78929,17 +78934,11 @@
 - Games: Oxygen Engine
 - Contact: DaaGuda@GH
 
-## ‮ [8]
+## ḱ̷̘͙̓͌e̶̡̬̦̽r̸̲̈͜ͅn̴̞̾ẹ̸̉̏l̸̢̜͂ ̵̖͝p̴͍̊̕ą̶̉n̴͚͘i̶̦̥̰͆c̵̪͔͔̈́ [1]
 
-- Games: Freeminer, Luanti, Minetest Game, NBlood, PCExhumed, Raze, Rednukem, SuperTux
-- Contact: carnivoroussociety@GH, HybridDog@GH
-- Home: https://carnivoroussociety.github.io/
-
-## ‮Philihp Busby [1]
-
-- Games: boardgame.io
-- Contact: philihp@GH
-- Home: https://philihp.com/
+- Games: Anuto
+- Contact: id101010@GH
+- Home: https://0x29a.ch
 
 ## ◢ Ϻ⚸Яℨ⚔ ◣ [1]
 

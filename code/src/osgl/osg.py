@@ -67,6 +67,41 @@ def canonical_name(name):
     return name
 
 
+def normalize_developer_name(name):
+    """
+    Cleans a developer name as shown by external sources (GitHub, SourceForge, commit logs, ...).
+
+    Invisible characters (Unicode control and format characters like right-to-left overrides, zero width spaces or
+    soft hyphens) are removed, all kinds of space (non-breaking, thin, ideographic, ...) become normal spaces, repeated
+    spaces are collapsed and leading and trailing spaces are removed. Finally, the name is NFC normalized. Everything
+    else (non-Latin scripts, accents, decorative combining marks) is kept. The result may be empty, the caller then has
+    to fall back to an account name or skip the developer.
+    """
+    characters = []
+    for character in name:
+        category = unicodedata.category(character)
+        if category == 'Zs' or character in '\t\n\r':
+            characters.append(' ')
+        elif category not in ('Cc', 'Cf'):
+            characters.append(character)
+    name = regex_sanitize_name_space_eater.sub(' ', ''.join(characters)).strip()
+    return unicodedata.normalize('NFC', name)
+
+
+def check_developer_name(name):
+    """
+    Checks that a developer name follows the rules for developer names (see normalize_developer_name).
+
+    :return: None if the name is valid, otherwise a description of the problem
+    """
+    if not any(unicodedata.category(character)[0] in 'LNPS' for character in name):
+        return f'Developer name {name!r} has no visible character'
+    normalized = normalize_developer_name(name)
+    if normalized != name:
+        return f'Developer name {name!r} contains invisible or special space characters, should be {normalized!r}'
+    return None
+
+
 def read_developers():
     """
     Read the developers file.
@@ -85,6 +120,10 @@ def read_developers():
 
     # check for essential, valid fields
     for dev in developers:
+        # check the name
+        problem = check_developer_name(dev['Name'])
+        if problem:
+            raise RuntimeError(problem)
         # check that essential fields are existing
         for field in c.essential_developer_fields:
             if field not in dev:
@@ -439,6 +478,12 @@ def _check_and_process_entry(entry):
     obsolete = [keyword for keyword in keywords if keyword in c.obsolete_keywords]
     if obsolete:
         message += f'Obsolete keyword(s) {", ".join(obsolete)}, use "{c.remake_or_clone_keyword}" instead'
+
+    # developer names must not contain invisible or special space characters
+    for developer in entry.get('Developer', []):
+        problem = check_developer_name(developer)
+        if problem:
+            message += problem + '\n'
 
     # languages should be known
     languages = entry['Code language']

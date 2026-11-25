@@ -27,12 +27,15 @@
 {%- endif -%}
 {%- endmacro -%}
 
-{# A single piece of text optionally with a format class. (see https://bulma.io/documentation/helpers/typography-helpers/) #}
+{# A single piece of text optionally with a format class (see https://bulma.io/documentation/helpers/typography-helpers/)
+   or isolated in its writing direction (only without class and title). #}
 {%- macro render_text(text) -%}
 {%- if 'class' in text -%} {# Enhanced text #}
   <span class="{{ text['class'] }}"{% if 'title' in text %} title="{{ text['title'] }}"{% endif %}>{{ text['text'] }}</span>
 {%- elif 'title' in text -%}
   <span title="{{ text['title'] }}">{{ text['text'] }}</span>
+{%- elif text['isolate'] -%} {#- text with its own writing direction, e.g. names in right-to-left scripts -#}
+  <bdi>{{ text['text'] }}</bdi>
 {%- else -%}
   {{ text['text'] }}{# <span>{{ text['text'] }}</span> #}
 {%- endif -%}

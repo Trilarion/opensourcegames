@@ -163,6 +163,30 @@ GitHub, GitLab or SourceForge, developer names are the developer account names a
 In other cases, names can be taken from source repository commit messages or from readme files / copyright notices in
 projects. This list can easily be incomplete, but also contain duplicate names for a single developer.
 
+Developer names are written as the developers write them, in any script (Latin, Cyrillic, Chinese, ...), with accents
+and also with decorative characters. The following rules apply to all developer names, they are checked when the
+entries and the developers file are read:
+
+- No invisible characters: control and format characters like writing direction overrides and marks (U+202A-U+202E,
+  U+2066-U+2069, U+200E, U+200F), zero width spaces (U+200B), byte order marks (U+FEFF) or soft hyphens (U+00AD) are
+  removed.
+- Only normal spaces: all other kinds of spaces (non-breaking, thin, ideographic, ...) become normal spaces, repeated
+  spaces become a single space, there are no leading or trailing spaces.
+- Unicode NFC normalization (an accented letter is stored as a single character where possible).
+- At least one visible character. If a name has no visible character after the cleaning above (some people use a
+  single invisible character as display name), the account name (GitHub login, SourceForge user name, ...) is used
+  instead. Without an account name, the developer is not added.
+- Equal names alone are no reason to merge developers. Developers are merged only if their profiles or contacts show
+  that they are the same person. Importers report an existing developer name with a different profile on the same
+  site instead of adding the profile.
+
+Developer info: Display names taken from GitHub, SourceForge or commit logs are not used as they are. In the past, a
+name consisting only of a right-to-left override character merged two unrelated GitHub users into one developer
+(shown without a name on the website), and names with zero width or non-breaking spaces did not match the same name
+with normal spaces. The rules are implemented by osg.normalize_developer_name() and checked by
+osg.check_developer_name() (code/src/osgl/osg.py). The website additionally isolates the writing direction of
+developer names (HTML bdi element), so that names in right-to-left scripts do not reorder the surrounding text.
+
 ### Notes
 
 Usage is a bit unclear currently. Typically contains a single line of information with some additional information
@@ -208,7 +232,8 @@ Developer info: Partly unsolved problem: developer names are not unique.
 
 ### Name
 
-Name of the developer as it appears in the Developer field in a game entry with the number of games in brackets.
+Name of the developer as it appears in the Developer field in a game entry with the number of games in brackets. The
+same rules for developer names apply (see the Developer field of a game above).
 
 ### Games
 

@@ -28,6 +28,47 @@ def test_canonical_name(name, expected):
     assert osg.canonical_name(name) == expected
 
 
+
+@pytest.mark.parametrize('name, expected', [
+    ('Jane Doe', 'Jane Doe'),
+    ('\u202e', ''),
+    ('\u202ePhilihp Busby', 'Philihp Busby'),
+    ('yui\u200b', 'yui'),
+    ('Paweł\xa0Fertyk', 'Paweł Fertyk'),
+    ('Erin\u2004Yuki\u2009Schlarb', 'Erin Yuki Schlarb'),
+    ('  Dale  Harvey ', 'Dale Harvey'),
+    ('Tab\tName', 'Tab Name'),
+    ('Soft\xadhyphen', 'Softhyphen'),
+    ('Cafe\u0301', 'Café'),
+    ('Алексей', 'Алексей'),
+    ('南门阳德', '南门阳德'),
+    ('\u3000刘敏\u3000', '刘敏'),
+])
+def test_normalize_developer_name(name, expected):
+    """
+    Invisible characters are removed, spaces normalized and the name NFC normalized, other characters are kept.
+    """
+    assert osg.normalize_developer_name(name) == expected
+
+
+@pytest.mark.parametrize('name, valid', [
+    ('Jane Doe', True),
+    ('Алексей', True),
+    ('k\u0337e\u0336rnel', True),
+    ('\u202e', False),
+    ('', False),
+    (' ', False),
+    ('yui\u200b', False),
+    ('Paweł\xa0Fertyk', False),
+    ('Dale  Harvey', False),
+    ('Cafe\u0301', False),
+])
+def test_check_developer_name(name, valid):
+    """
+    Only names that are already normalized and have a visible character are valid.
+    """
+    assert (osg.check_developer_name(name) is None) == valid
+
 @pytest.mark.parametrize('text, expected', [
     ('https://example.org', True),
     ('git://example.org/repo.git', True),

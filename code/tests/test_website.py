@@ -3,6 +3,7 @@ Tests for the static website generator (osgl.website.generate): helper functions
 into a temporary folder.
 """
 
+import hashlib
 import json
 import re
 
@@ -120,33 +121,113 @@ def test_preprocess():
     """
     items = [{'Name': 'Alpha'}, {'Name': 'alpha'}, {'Name': 'Ølfred'}, {'Name': '2048'}, {'Name': 'Ätsch'}]
     g.preprocess(items, 'Name', ['developers'])
-    assert [item['anchor-id'] for item in items] == ['alpha', 'alphax', 'olfred', '2048', 'atsch']
+    assert [item['anchor-id'] for item in items] == ['alpha', f'alpha-{name_hash("alpha")}', 'olfred', '2048', 'atsch']
     assert [item['letter'] for item in items] == ['A', 'A', '0', '0', 'A']
     assert items[0]['href'] == ['developers', 'A.html#alpha']
 
 
-@pytest.mark.parametrize('url, expected_icon, expected_text', [
-    ('https://github.com/example/sample/', 'github', 'example/sample'),
-    ('https://gitlab.com/example/sample', 'gitlab', 'example/sample'),
-    ('https://sourceforge.net/projects/sample', 'sourceforge', 'sample'),
-    ('https://web.archive.org/web/2020/https://example.org', 'library', '2020/https://example.org'),
-    ('https://en.wikipedia.org/wiki/Sample', 'wikipedia', 'Sample Game'),
+def name_hash(name):
+    """
+    Returns the short name hash that anchor_id uses for non-Latin or duplicate names.
+    """
+    return hashlib.sha1(name.encode('utf-8')).hexdigest()[:g.ANCHOR_HASH_LENGTH]
+
+
+@pytest.mark.parametrize('name, expected', [
+    ('Alpha Beta', 'alpha_beta'),
+    ('Kauê 地球の土星人', 'kaue'),
+    ('Алексей', name_hash('Алексей')),
+    ('刘敏', name_hash('刘敏')),
+    ('‮', name_hash('‮')),
+    ('Андрей Беньковский', name_hash('Андрей Беньковский')),
 ])
-def test_shortcut_url_known_services(url, expected_icon, expected_text):
+def test_anchor_id(name, expected):
     """
-    Known services are shown with an icon and a shortened text.
+    Anchors are canonical names, with a name hash for names without any ASCII letter or digit.
     """
-    icon, text = g.shortcut_url(url, 'Sample Game')
-    assert icon['id'] == expected_icon
-    assert text['text'] == expected_text
+    assert g.anchor_id(name, set()) == expected
 
 
-def test_shortcut_url_other():
+def test_anchor_id_stable_and_unique():
     """
-    Other URLs only lose their scheme.
+    The anchor of a name does not depend on other names, and duplicates get the name hash appended.
     """
-    assert g.shortcut_url('https://example.org/', 'x') == 'example.org'
-    assert g.shortcut_url('ftp://example.org', 'x') == 'ftp://example.org'
+    assert g.anchor_id('Пётр', {'xyz', name_hash('Алексей')}) == g.anchor_id('Пётр', set())
+    assert g.anchor_id('Alpha', {'alpha'}) == f'alpha-{name_hash("Alpha")}'
+    assert g.anchor_id('刘敏', {name_hash('刘敏')}) == hashlib.sha1('刘敏'.encode('utf-8')).hexdigest()[:g.ANCHOR_HASH_LENGTH + 4]
+
+
+@pytest.mark.slow
+def test_anchors_of_database():
+    """
+    All anchors of the developers, inspirations and entries are non-empty, readable ASCII and unique per listing.
+    """
+    listings = {
+        'Name': [list(osg.read_developers().values()), list(osg.read_inspirations().values())],
+        'Title': [osg.read_entries()],
+    }
+    for key, item_lists in listings.items():
+        for items in item_lists:
+            g.preprocess(items, key, ['listing'])
+            anchors = [item['anchor-id'] for item in items]
+            assert len(set(anchors)) == len(anchors)
+            for item in items:
+                assert re.fullmatch(r'[a-z0-9_+-]*[a-z0-9][a-z0-9_+-]*', item['anchor-id']), item[key]
+
+
+@pytest.mark.parametrize('url, expected_icon, expected_label', [
+    ('https://github.com/example/sample/', 'github', 'example/sample'),
+    ('https://github.com/example/sample.git', 'github', 'example/sample'),
+    ('https://gitlab.com/group/sub/sample.git', 'gitlab', 'group/sub/sample'),
+    ('https://codeberg.org/example/sample.git', 'codeberg', 'example/sample'),
+    ('https://bitbucket.org/example/sample', 'bitbucket', 'example/sample'),
+    ('https://sourceforge.net/projects/sample/', 'sourceforge', 'sample'),
+    ('https://git.code.sf.net/p/sample/code', 'sourceforge', 'sample/code'),
+    ('https://svn.code.sf.net/p/sample/code/trunk', 'sourceforge', 'sample/code/trunk'),
+    ('https://en.wikipedia.org/wiki/Battle_Isle#Clones_and_successors', 'wikipedia', 'Battle Isle › Clones and successors'),
+    ('https://en.wikipedia.org/wiki/0_A.D._(video_game)', 'wikipedia', '0 A.D. (video game)'),
+    ('https://en.wikipedia.org/wiki/Candy_Box%21', 'wikipedia', 'Candy Box!'),
+    ('https://de.wikipedia.org/wiki/Die_Siedler', 'wikipedia', 'de: Die Siedler'),
+    ('https://en.m.wikipedia.org/wiki/Sample', 'wikipedia', 'Sample'),
+    ('https://web.archive.org/web/20210119051426/https://rsrebotted.com', 'library', 'rsrebotted.com (archived 2021)'),
+    ('https://web.archive.org/web/2020*/http://www.example.org/game/', 'library', 'example.org/game (archived 2020)'),
+    ('https://web.archive.org/web/*/http://example.org', 'library', 'example.org (archived)'),
+    ('https://example.org/', None, 'example.org'),
+    ('http://www.example.org/page.html', None, 'example.org/page.html'),
+    ('ftp://example.org', None, 'ftp://example.org'),
+    ('https://example.org/github.com/sample', None, 'example.org/github.com/sample'),
+])
+def test_shortcut_url(url, expected_icon, expected_label):
+    """
+    Links to popular services get the icon of the service and a short, meaningful label, other URLs only lose the
+    scheme, "www." and the trailing slash.
+    """
+    assert g.shortcut_url(url) == (expected_icon, expected_label)
+
+
+def test_shorten_label():
+    """
+    Long labels are shortened in the middle to the maximal length, short labels are kept.
+    """
+    assert g.shorten_label('short') == 'short'
+    label = 'gvlsywt.cluster051.hosting.ovh.net/dev/batrachians.html#download'
+    shortened = g.shorten_label(label)
+    assert len(shortened) == g.LINK_LABEL_MAX_LENGTH
+    assert shortened.startswith('gvlsywt.cluster051.') and shortened.endswith('#download') and '…' in shortened
+
+
+def test_make_link():
+    """
+    Links have the icon and label of shortcut_url, the full URL is the tooltip only if the label was shortened.
+    """
+    link = g.make_link('https://github.com/example/sample.git')
+    assert link['href'] == 'https://github.com/example/sample.git'
+    assert link['content'] == [g.make_icon('github'), g.make_text('example/sample')]
+    assert 'title' not in link
+    url = 'https://example.org/' + 'very/long/path/' * 5 + 'page.html'
+    link = g.make_link(url)
+    assert link['content'] == g.make_text(g.shorten_label(url[len('https://'):]))
+    assert link['title'] == url
 
 
 def test_make_text_with_links_plain_text():
@@ -173,8 +254,8 @@ def test_make_text_with_links_known_service():
     """
     nodes = g.make_text_with_links('https://github.com/example/sample', {})
     assert nodes[0]['content'][0]['id'] == 'github'
-    nodes = g.make_text_with_links('https://en.wikipedia.org/wiki/Sample_game_%28video%29', {})
-    assert nodes[0]['content'][1] == g.make_text('Sample game (video)')
+    nodes = g.make_text_with_links('https://en.wikipedia.org/wiki/Sample_game_%28video%29#History', {})
+    assert nodes[0]['content'][1] == g.make_text('Sample game (video) › History')
 
 
 def test_make_text_with_links_markdown():
@@ -240,13 +321,39 @@ def test_render_text_with_links_escapes(macros):
     assert str(macros.render_element(nodes)) == 'A &lt;b&gt; &amp; <a href="https://example.org">C</a>'
 
 
+
+def test_render_isolated_text(macros):
+    """
+    Isolated text (developer names) is rendered in a bdi element, so that right-to-left names keep the list order.
+    """
+    assert str(macros.render_element(g.make_text('שלום', isolate=True))) == '<bdi>שלום</bdi>'
+    assert str(macros.render_element(g.make_text('Jane'))) == 'Jane'
+
+
+def test_create_state_texts(macros):
+    """
+    The state is followed by the activity, an icon with a visible text (active or inactive since a year).
+    """
+    state, activity = g.create_state_texts(['mature'])
+    assert state == g.make_text('mature', 'has-text-weight-bold')
+    assert activity == [g.make_icon('sun'), g.make_text('active', 'has-text-weight-bold')]
+
+    state, activity = g.create_state_texts(['beta', 'inactive since 2008'])
+    assert state == g.make_text('beta')
+    assert activity == [g.make_icon('brightness_3'), g.make_text('inactive since 2008')]
+    html = str(macros.render_element(activity))
+    assert 'icon-brightness_3' in html and 'title=' not in html and html.endswith('inactive since 2008')
+
 def test_inline_icon_class_in_css():
     """
-    The class used for inline icons and the class of the notes are defined in the website stylesheet.
+    The class used for inline icons, the class of the notes and the underline of linked tags are defined in the
+    website stylesheet.
     """
     css = (c.web_static_path / 'css' / 'osgl.min.css').read_text(encoding='utf-8')
     assert '.inline-icon {' in css
     assert '.entry-note {' in css
+    assert 'a.tag {\n  text-decoration: underline;' in css
+    assert 'summary {\n  padding:' in css
 
 
 @pytest.mark.parametrize('stars, icon', [(500, 'star'), (100, 'star-half-full'), (5, 'star-o')])
@@ -255,20 +362,21 @@ def test_make_repo_url_with_comments(stars, icon):
     Repository comments are shown as creation year and a star rating icon.
     """
     repo = parse.Value('https://github.com/example/sample.git', f'@created 2018, @stars {stars}, @archived')
-    node = g.make_repo_url(repo, 'Sample')
+    node = g.make_repo_url(repo)
     url, enclosed = node['entries']
     assert url['href'] == repo
     comments = enclosed['entry']['entries']
     assert comments[0] == g.make_text('since 2018')
-    assert comments[1]['id'] == icon
+    assert comments[1]['id'] == icon and comments[1]['css'] == g.COMMENT_ICON_CLASS
     assert comments[2] == g.make_text('archived')
+    assert node['divider'] == ' '  # a space between the link and the opening parenthesis
 
 
 def test_make_repo_url_without_comments():
     """
     Without comments only the link is returned.
     """
-    node = g.make_repo_url('https://example.org/repo.git', 'Sample')
+    node = g.make_repo_url('https://example.org/repo.git')
     assert node['type'] == 'url'
 
 
@@ -591,10 +699,12 @@ def _css_icons() -> dict[str, int]:
 
 def _referenced_icons() -> set[str]:
     """
-    Return the names of the icons referenced by the website generator (icon maps and literals) and the templates.
+    Return the names of the icons referenced by the website generator (icon maps, link rules and literals) and the
+    templates.
     """
     icons = set(g.platform_icon_map.values()) | set(g.genre_icon_map.values()) | {g.multiplayer_icon}
     icons |= {icon for icon_ids, _ in g.content_keyword_icon_map.values() for icon in icon_ids}
+    icons |= {icon for _, icon, _ in g.LINK_RULES}  # icons of the links to popular services
     source = (c.package_path / 'website' / 'generate.py').read_text(encoding='utf-8')
     icons |= set(re.findall(r"make_icon\('([\w-]+)'", source))
     icons |= set(re.findall(r"_path, '([\w-]+)', '", source))  # icons of the main page tiles
@@ -609,7 +719,7 @@ def test_referenced_icons_exist():
     Every icon used by the generator or the templates has a CSS rule and the icon font contains no unused icons.
     """
     icons = _referenced_icons()
-    assert {'github', 'tux', 'lightbulb', 'star-o', 'earth', 'new-tab'} <= icons  # the patterns find the references
+    assert {'github', 'codeberg', 'tux', 'lightbulb', 'star-o', 'earth', 'new-tab'} <= icons  # the patterns find the references
     css_icons = set(_css_icons())
     assert icons - css_icons == set(), 'icons without CSS rule'
     assert css_icons - icons == set(), 'unused icons'

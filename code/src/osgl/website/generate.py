@@ -13,7 +13,6 @@ Sitemap is not needed, only for large projects with lots of JavaScript und many 
 # TODO tab: new filter tab (playable in a browser) with tiles (https://bulma.io/documentation/layout/tiles/) sorted by genre (just as normal list so far, no tiles yet)
 # TODO tab: new filter tab (my top 100) with games I really like (mature and I tried them and there is a download for each of them) and some categories with explanation why and possible link to a review on the blog (like evil cult), still need to to that
 
-
 # TODO general: replace or remove @notices like @add in entries (these notices should go to () comments anyway
 # TODO general: better link replacements for showing the urls of links (see shortcut_url, also used for links in notes)
 # TODO general: style URLs (Github, Wikipedia, Internet archive, SourceForge, ...)
@@ -41,9 +40,7 @@ Sitemap is not needed, only for large projects with lots of JavaScript und many 
 # TODO developers: level with github, sourceforge links in one item (on mobile on one line)
 # TODO developers: gitlab and bitbucket user profiles
 
-# TODO inspirations: icon full lamp (not contained in icomoon.io)
-# TODO inspirations: if included in the database, link instead to game (cross-reference)
-# TODO inspirations: add media links and genres, maybe also years and original developer
+# TODO inspirations: add years and original developer (e.g. imported from Wikidata via the Wikipedia media links)
 
 import shutil
 import math
@@ -54,6 +51,7 @@ import re
 import string
 import urllib.parse
 import xml.sax.saxutils
+from collections import Counter
 from collections.abc import Callable, Mapping, Sequence
 from functools import partial
 from typing import Any, NoReturn, TypeAlias, TypeVar
@@ -788,26 +786,40 @@ def developer_profile_link(link: str) -> TemplateNode:
 
 def convert_inspirations(inspirations: Sequence[Entry], entries: Sequence[Entry]) -> None:
     """
-    Add template-ready media and cross-references to inspiration records.
+    Add template-ready media, genres and cross-references to inspiration records.
+
+    The genres of an inspiration are all game genres of the entries inspired by it (most frequent first). If the
+    inspiration is itself included as an entry, a link to that entry is added.
 
     Every referenced title is expected to exist in ``entries``.
     """
-    entries_references = {entry['Title']: entry['href'] for entry in entries}
+    entries_by_title = {entry['Title']: entry for entry in entries}
     for inspiration in inspirations:
         name = inspiration['Name']
         inspiration['name'] = name
 
         # media
         if 'Media' in inspiration:
-            entries = inspiration['Media']
-            entries = [make_url(url, shortcut_url(url, name)) for url in entries]
-            inspiration['media'] = [make_text('Media: '), make_enumeration(entries)]
+            media_links = [make_url(url, shortcut_url(url, name)) for url in inspiration['Media']]
+            inspiration['media'] = [make_text('Media: '), make_enumeration(media_links)]
 
         # inspired entries (with links to them)
-        inspired_entries = inspiration['Inspired entries']
-        entries = [make_url(entries_references[entry], make_text(entry)) for entry in inspired_entries]
-        name = make_text(f"Inspired {get_plural_or_singular('Game', len(entries)).lower()}: ", 'has-text-weight-semibold')
-        inspiration['inspired'] = [name, make_enumeration(entries)]
+        inspired_entries = [entries_by_title[title] for title in inspiration['Inspired entries']]
+        inspired_links = [make_url(entry['href'], make_text(entry['Title'])) for entry in inspired_entries]
+        label = make_text(f"Inspired {get_plural_or_singular('Game', len(inspired_links)).lower()}: ", 'has-text-weight-semibold')
+        inspiration['inspired'] = [label, make_enumeration(inspired_links)]
+
+        # genres of the inspired entries as tags
+        genre_counts = Counter(keyword for entry in inspired_entries for keyword in entry['Keyword']
+                               if keyword in c.game_genre_keywords)
+        genres = sorted(genre_counts, key=lambda genre: (-genre_counts[genre], c.game_genre_keywords.index(genre)))
+        if genres:
+            inspiration['genres'] = make_tags([create_keyword_tag(genre) for genre in genres])
+
+        # link to the inspiration itself if it is included as an entry
+        if osg.is_included_inspiration(inspiration, entries_by_title):
+            inspiration['included'] = [make_text('Open source game in this database: '),
+                                       make_url(entries_by_title[name]['href'], make_text(name))]
 
 
 def convert_developers(developers: Sequence[Entry], entries: Sequence[Entry]) -> None:
@@ -1323,10 +1335,9 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
     statistics_data['sections'].append(section)
 
     # genres (the recommended keywords of games, linked to the genre index)
-    genre_keywords = [keyword for keyword in c.recommended_keywords if keyword not in c.non_game_keywords]
     genre_link = lambda genre: games_by_genres_path[:-1] + [f'{games_by_genres_path[-1]}#{genre.lower()}']
     section = create_statistics_section(entries, 'Keyword', 'Genres', 'genres.svg', wide_bar_chart, link=genre_link,
-                                        threshold=1, keep=lambda keyword: keyword in genre_keywords)
+                                        threshold=1, keep=lambda keyword: keyword in c.game_genre_keywords)
     statistics_data['sections'].append(section)
 
     # other keywords (linked if there is a sub list for them)
@@ -1345,7 +1356,7 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
     inspirations_by_alphabet = sort_into_categories(inspirations, extended_alphabet, sorter)
     developers_by_alphabet = sort_into_categories(developers, extended_alphabet, sorter)
 
-    genres = [keyword.capitalize() for keyword in c.recommended_keywords if keyword not in c.non_game_keywords]
+    genres = [keyword.capitalize() for keyword in c.game_genre_keywords]
     genres.sort()
     games_by_genre = sort_into_categories(games, genres, lambda item, category: category.lower() in item['Keyword'])
     games_by_platform = sort_into_categories(entries, c.valid_platforms, lambda item, category: category in item.get('Platform', []), UNKNOWN_PLATFORM)

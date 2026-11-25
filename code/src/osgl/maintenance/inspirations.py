@@ -10,7 +10,7 @@ Maintenance of inspirations.md and synchronization with the inspirations in the 
 # TODO link check
 
 import time
-from osgl import osg, ui, constants as c
+from osgl import osg, ui
 from osgl.external import wikipedia
 
 valid_duplicates = ('Age of Empires', 'ARMA', 'Catacomb', 'Civilization', 'Company of Heroes', 'Descent', 'Duke Nukem', 'Dungeon Keeper',
@@ -103,12 +103,18 @@ class InspirationMaintainer:
     def check_for_wikipedia_links(self):
         """
         Check the inspirations that haven't yet have a Wikipedia link in their Media field by searching for them on Wikipedia.
+
+        Inspirations that are themselves included as entries are skipped, their entries contain the media links.
         """
         if not self.inspirations:
             print('inspirations not yet loaded')
             return
+        if not self.entries:
+            print('entries not yet loaded')
+            return
+        entry_titles = {entry['Title'] for entry in self.entries}
         for inspiration in self.inspirations.values():
-            if 'Included' in inspiration:
+            if osg.is_included_inspiration(inspiration, entry_titles):
                 continue
             if 'Media' in inspiration and any(('https://en.wikipedia.org/wiki/' in x for x in inspiration['Media'])):
                 continue
@@ -138,34 +144,6 @@ class InspirationMaintainer:
                 inspiration['Media'] = inspiration.get('Media', []) + [url]
                 print(f'{name} : {url}')
         print('finished checking for Wikipedia links')
-
-    def update_included_entries(self):
-        """
-        Inspirations that are also included entries (they can act as inspirations).
-        """
-        if not self.inspirations:
-            print('inspirations not yet loaded')
-            return
-        if not self.entries:
-            print('entries not yet loaded')
-            return
-        # get all entry names
-        entry_names = [entry['Title'] for entry in self.entries]
-        # loop over all inspirations
-        for inspiration in self.inspirations.values():
-            name = inspiration['Name']
-            included = name in entry_names and name not in inspiration['Inspired entries']
-            if included:
-                if 'Included' not in inspiration:
-                    print(f'{name} is included but was not marked as such')
-                for field in c.optional_inspiration_fields:
-                    if field in inspiration:
-                        del inspiration[field]
-                inspiration['Included'] = 'Yes'
-            elif 'Included' in inspiration:
-                print(f'{name} was marked as included but is not anymore')
-                del inspiration['Included']
-        print('entries also acting as inspirations (included entries) updated')
 
     def update_inspired_entries(self):
         """
@@ -212,7 +190,6 @@ def main():
         'Check for orphans': m.check_for_orphans,
         'Check for inspirations not listed': m.check_for_missing_inspirations_in_entries,
         'Check for wikipedia links': m.check_for_wikipedia_links,
-        'Update included entries': m.update_included_entries,
         'Update inspirations from entries': m.update_inspired_entries,
         'Read entries': m.read_entries
     }

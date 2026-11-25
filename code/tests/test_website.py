@@ -4,6 +4,7 @@ into a temporary folder.
 """
 
 import json
+import re
 
 import pytest
 
@@ -379,6 +380,36 @@ def test_inspiration_and_developer_index(function, key, threshold):
     assert node['url']['class'] == g.BOLD_CLASS and node['tags']['text'] == f'({threshold})'
 
 
+def test_convert_inspirations():
+    """
+    Inspirations get links to the inspired entries, the game genres of these entries as tags (most frequent first, no
+    non-game keywords) and a link to their own entry if they are included (not if they inspired an entry of the
+    same name, like an open source release of the original).
+    """
+    def entry(title, keywords):
+        return {'Title': title, 'Keyword': keywords, 'href': ['games', f'{title[0]}.html#{title.lower()}']}
+
+    entries = [entry('Clone A', ['action', 'remake or clone']), entry('Clone B', ['strategy', 'action']),
+               entry('Engine', ['game engine']), entry('Original', ['strategy']), entry('Remake', ['puzzle'])]
+    inspirations = [
+        {'Name': 'Classic', 'Inspired entries': ['Clone A', 'Clone B']},
+        {'Name': 'Original', 'Inspired entries': ['Remake'], 'Media': ['https://en.wikipedia.org/wiki/Original']},
+        {'Name': 'Remake', 'Inspired entries': ['Remake', 'Engine']},
+        {'Name': 'Engine idea', 'Inspired entries': ['Engine']},
+    ]
+    g.convert_inspirations(inspirations, entries)
+    classic, original, remake, engine_idea = inspirations
+
+    assert classic['genres'] == g.make_tags([g.create_keyword_tag('action'), g.create_keyword_tag('strategy')])
+    assert classic['inspired'][1] == g.make_enumeration([g.make_url(entries[0]['href'], g.make_text('Clone A')),
+                                                         g.make_url(entries[1]['href'], g.make_text('Clone B'))])
+    assert remake['genres'] == g.make_tags([g.create_keyword_tag('puzzle')])
+    assert 'genres' not in engine_idea
+    assert original['included'][1] == g.make_url(entries[3]['href'], g.make_text('Original'))
+    assert 'media' in original and 'media' not in classic
+    assert not any('included' in inspiration for inspiration in (classic, remake, engine_idea))
+
+
 # Complete generation
 
 
@@ -544,3 +575,55 @@ def test_create_index_data_unknown_genre():
     """
     with pytest.raises(RuntimeError, match='Unknown main page genres'):
         g.create_index_data([], [], [], [], {}, ())
+
+
+# Icons
+
+
+def _css_icons() -> dict[str, int]:
+    """
+    Return the icon names and code points of the ".icon-<name>:before" rules of the website style sheet.
+    """
+    text = (c.web_static_path / 'css' / 'osgl.min.css').read_text(encoding='utf-8')
+    rules = re.findall(r'\.icon-([\w-]+):before\s*\{\s*content:\s*"\\([0-9a-fA-F]+)";', text)
+    return {name: int(code_point, 16) for name, code_point in rules}
+
+
+def _referenced_icons() -> set[str]:
+    """
+    Return the names of the icons referenced by the website generator (icon maps and literals) and the templates.
+    """
+    icons = set(g.platform_icon_map.values()) | set(g.genre_icon_map.values()) | {g.multiplayer_icon}
+    icons |= {icon for icon_ids, _ in g.content_keyword_icon_map.values() for icon in icon_ids}
+    source = (c.package_path / 'website' / 'generate.py').read_text(encoding='utf-8')
+    icons |= set(re.findall(r"make_icon\('([\w-]+)'", source))
+    icons |= set(re.findall(r"_path, '([\w-]+)', '", source))  # icons of the main page tiles
+    icons |= set(re.findall(r'class=\\"icon-([\w-]+)', source))  # icons in HTML snippets
+    for template in c.web_template_path.glob('*.jinja'):
+        icons |= set(re.findall(r"'id': ?'([\w-]+)'", template.read_text(encoding='utf-8')))
+    return icons
+
+
+def test_referenced_icons_exist():
+    """
+    Every icon used by the generator or the templates has a CSS rule and the icon font contains no unused icons.
+    """
+    icons = _referenced_icons()
+    assert {'github', 'tux', 'lightbulb', 'star-o', 'earth', 'new-tab'} <= icons  # the patterns find the references
+    css_icons = set(_css_icons())
+    assert icons - css_icons == set(), 'icons without CSS rule'
+    assert css_icons - icons == set(), 'unused icons'
+
+
+def test_icon_sources_and_font_match_css():
+    """
+    The CSS rules, the SVG sources of the icons and the glyphs of the icon font correspond to each other.
+    """
+    css_icons = _css_icons()
+    assert len(set(css_icons.values())) == len(css_icons)
+    sources = {path.stem for path in (c.web_static_path.parent / 'icons').glob('*.svg')}
+    assert sources == set(css_icons)
+    ttlib = pytest.importorskip('fontTools.ttLib')
+    for font_file in ('osgl.ttf', 'osgl.woff'):
+        font = ttlib.TTFont(c.web_static_path / 'css' / 'fonts' / font_file)
+        assert set(font.getBestCmap()) - {0x20} == set(css_icons.values()), font_file

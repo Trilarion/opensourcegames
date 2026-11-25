@@ -181,8 +181,8 @@ The entries are the source of truth for the mapping of developers to projects (`
 inspirations to projects (`Inspiration` field). The listing files only add details:
 
 - `developers.md`: per developer the contact, homepage and organization; the `Games` lists mirror the entries
-- `inspirations.md`: per inspiration the media links; the `Inspired entries` lists mirror the entries, and the
-  `Included` flag (the inspiration is itself an entry) is derived from them too
+- `inspirations.md`: per inspiration the media links; the `Inspired entries` lists mirror the entries (whether an
+  inspiration is itself an entry is not stored but derived from the entry titles, see `osg.is_included_inspiration`)
 
 When entries are renamed, added or removed, or their developers or inspirations change, both listings must be
 adapted. In principle, the entries and both listings should always be changed together, otherwise the data becomes

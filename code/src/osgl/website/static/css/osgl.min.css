@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'osgl';
   src:
-    url('fonts/osgl.woff?v2') format('woff'),
-    url('fonts/osgl.ttf?v2') format('truetype');
+    url('fonts/osgl.woff?v4') format('woff'),
+    url('fonts/osgl.ttf?v4') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -33,179 +33,99 @@ i {
   overflow-wrap: anywhere;
 }
 
-.icon-warning:before {
-  content: "\e924";
-}
-.icon-heart-fill:before {
-  content: "\e920";
-}
-.icon-wrench1:before {
-  content: "\e91c";
-}
-.icon-home:before {
-  content: "\e90a";
-}
-.icon-pencil:before {
-  content: "\e907";
-}
-.icon-music:before {
-  content: "\e91a";
-}
-.icon-dice:before {
-  content: "\e915";
-}
-.icon-pacman:before {
-  content: "\e916";
-}
-.icon-spades:before {
-  content: "\e91b";
-}
-.icon-library:before {
-  content: "\e921";
-}
-.icon-stack:before {
-  content: "\e92e";
-}
-.icon-price-tag:before {
-  content: "\e935";
-}
-.icon-price-tags:before {
-  content: "\e936";
-}
-.icon-users:before {
-  content: "\e972";
-}
-.icon-wrench:before {
-  content: "\e991";
-}
-.icon-magic-wand:before {
-  content: "\e997";
-}
-.icon-stats-dots:before {
-  content: "\e99b";
-}
-.icon-rocket:before {
-  content: "\e9a5";
-}
-.icon-briefcase:before {
-  content: "\e9ae";
-}
-.icon-target:before {
-  content: "\e9b3";
-}
-.icon-earth:before {
-  content: "\e9ca";
-}
-.icon-sun:before {
-  content: "\e9d4";
-}
-.icon-heart1:before {
-  content: "\e9da";
-}
-.icon-notification:before {
-  content: "\ea08";
-}
-.icon-filter:before {
-  content: "\ea5b";
-}
-.icon-new-tab:before {
-  content: "\ea7e";
-}
-.icon-github:before {
-  content: "\eab0";
-}
-.icon-tux:before {
-  content: "\eabd";
+/* icons of the icon font, see code/scripts/build_icon_font.py */
+.icon-android:before {
+  content: "\eac0";
 }
 .icon-appleinc:before {
   content: "\eabe";
 }
-.icon-finder:before {
-  content: "\eabf";
+.icon-attach_money:before {
+  content: "\eac3";
 }
-.icon-android:before {
-  content: "\eac0";
+.icon-bitbucket:before {
+  content: "\e905";
 }
-.icon-windows8:before {
-  content: "\eac2";
+.icon-book:before {
+  content: "\e919";
 }
-.icon-soccer-shoe:before {
-  content: "\e90f";
+.icon-brightness_3:before {
+  content: "\e914";
 }
-.icon-soccer-shoe1:before {
-  content: "\e918";
-}
-.icon-soccer-court:before {
-  content: "\e91d";
-}
-.icon-soccer-court1:before {
-  content: "\e91e";
-}
-.icon-strategy:before {
-  content: "\e91f";
-}
-.icon-horse:before {
-  content: "\e91f";
+.icon-car:before {
+  content: "\f1b9";
 }
 .icon-chess:before {
   content: "\e91f";
 }
-.icon-piece:before {
-  content: "\e91f";
+.icon-child:before {
+  content: "\f1ae";
 }
-.icon-bulb:before {
-  content: "\e90e";
+.icon-device_unknown:before {
+  content: "\e913";
 }
-.icon-lamp:before {
-  content: "\e90e";
+.icon-dice:before {
+  content: "\e915";
 }
-.icon-idea:before {
-  content: "\e90e";
+.icon-directions_run:before {
+  content: "\e922";
 }
-.icon-question:before {
-  content: "\f128";
+.icon-earth:before {
+  content: "\e9ca";
 }
-.icon-search:before {
-  content: "\f002";
+.icon-filter:before {
+  content: "\ea5b";
+}
+.icon-fort-awesome:before {
+  content: "\f286";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-gitlab:before {
+  content: "\e906";
+}
+.icon-graduation-cap:before {
+  content: "\f19d";
 }
 .icon-heart:before {
   content: "\f004";
 }
-.icon-star:before {
-  content: "\f005";
+.icon-home:before {
+  content: "\e90a";
 }
-.icon-star-o:before {
-  content: "\f006";
+.icon-ios:before {
+  content: "\e901";
 }
-.icon-thumbs-o-up:before {
-  content: "\f087";
+.icon-language:before {
+  content: "\e90d";
 }
-.icon-heart-o:before {
-  content: "\f08a";
+.icon-laptop:before {
+  content: "\e90c";
 }
-.icon-external-link:before {
-  content: "\f08e";
+.icon-library:before {
+  content: "\e921";
 }
-.icon-magic:before {
-  content: "\f0d0";
+.icon-lightbulb:before {
+  content: "\eac5";
 }
-.icon-rotate-left:before {
-  content: "\f0e2";
+.icon-lock_open:before {
+  content: "\eac4";
 }
-.icon-undo:before {
-  content: "\f0e2";
+.icon-music:before {
+  content: "\e91a";
 }
-.icon-star-half-empty:before {
-  content: "\f123";
+.icon-new-tab:before {
+  content: "\ea7e";
 }
-.icon-star-half-full:before {
-  content: "\f123";
+.icon-pacman:before {
+  content: "\e916";
 }
-.icon-star-half-o:before {
-  content: "\f123";
+.icon-pencil:before {
+  content: "\e907";
 }
-.icon-code-fork:before {
-  content: "\f126";
+.icon-price-tag:before {
+  content: "\e935";
 }
 .icon-puzzle-piece:before {
   content: "\f12e";
@@ -213,108 +133,57 @@ i {
 .icon-rocket1:before {
   content: "\f135";
 }
-.icon-external-link-square:before {
-  content: "\f14c";
+.icon-search:before {
+  content: "\f002";
 }
-.icon-thumbs-up:before {
-  content: "\f164";
-}
-.icon-graduation-cap:before {
-  content: "\f19d";
-}
-.icon-mortar-board:before {
-  content: "\f19d";
-}
-.icon-child:before {
-  content: "\f1ae";
-}
-.icon-automobile:before {
-  content: "\f1b9";
-}
-.icon-car:before {
-  content: "\f1b9";
-}
-.icon-futbol-o:before {
-  content: "\f1e3";
-}
-.icon-soccer-ball-o:before {
-  content: "\f1e3";
-}
-.icon-user-secret:before {
-  content: "\f21b";
-}
-.icon-tripadvisor:before {
-  content: "\f262";
-}
-.icon-fort-awesome:before {
-  content: "\f286";
-}
-.icon-book:before {
-  content: "\e919";
-}
-.icon-laptop:before {
-  content: "\e90c";
-}
-.icon-language:before {
-  content: "\e90d";
-}
-.icon-help:before {
-  content: "\e908";
-}
-.icon-directions_run:before {
-  content: "\e922";
-}
-.icon-directions_walk:before {
-  content: "\e923";
-}
-.icon-brightness_3:before {
-  content: "\e914";
-}
-.icon-wb_sunny:before {
-  content: "\e917";
-}
-.icon-device_unknown:before {
-  content: "\e913";
-}
-.icon-help_center1:before {
-  content: "\e910";
-}
-.icon-help1:before {
-  content: "\e911";
-}
-.icon-help_center:before {
-  content: "\e912";
-}
-.icon-people_alt:before {
-  content: "\e90b";
-}
-.icon-bedtime:before {
-  content: "\e909";
-}
-.icon-wikipedia:before {
-  content: "\e900";
-}
-.icon-ios:before {
-  content: "\e901";
-}
-.icon-linux:before {
-  content: "\e902";
-}
-.icon-windows:before {
-  content: "\e903";
+.icon-soccer-court:before {
+  content: "\e91d";
 }
 .icon-sourceforge:before {
   content: "\e904";
 }
-.icon-bitbucket:before {
-  content: "\e905";
+.icon-spades:before {
+  content: "\e91b";
 }
-.icon-gitlab:before {
-  content: "\e906";
+.icon-stack:before {
+  content: "\e92e";
 }
-.icon-attach_money:before {
-  content: "\eac3";
+.icon-star:before {
+  content: "\f005";
 }
-.icon-lock_open:before {
-  content: "\eac4";
+.icon-star-half-full:before {
+  content: "\f123";
+}
+.icon-star-o:before {
+  content: "\f006";
+}
+.icon-stats-dots:before {
+  content: "\e99b";
+}
+.icon-sun:before {
+  content: "\e9d4";
+}
+.icon-target:before {
+  content: "\e9b3";
+}
+.icon-tux:before {
+  content: "\eabd";
+}
+.icon-undo:before {
+  content: "\f0e2";
+}
+.icon-user-secret:before {
+  content: "\f21b";
+}
+.icon-users:before {
+  content: "\e972";
+}
+.icon-wikipedia:before {
+  content: "\e900";
+}
+.icon-windows:before {
+  content: "\e903";
+}
+.icon-wrench:before {
+  content: "\e991";
 }

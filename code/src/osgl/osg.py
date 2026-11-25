@@ -195,6 +195,22 @@ def read_inspirations():
     return inspirations
 
 
+def is_included_inspiration(inspiration, entry_titles):
+    """
+    Return whether an inspiration is itself an open source game included as an entry.
+
+    This is the case if an entry has exactly the name of the inspiration and is not one of the entries inspired by it
+    (an entry that is inspired by an inspiration of the same name is typically the open source release or a remake of
+    the original game, then the inspiration itself is not included).
+
+    Args:
+        inspiration: Inspiration with the fields "Name" and "Inspired entries".
+        entry_titles: Titles of all entries (a set or a mapping with the titles as keys, for fast lookup).
+    """
+    name = inspiration['Name']
+    return name in entry_titles and name not in inspiration['Inspired entries']
+
+
 def write_inspirations(inspirations):
     """
     Given an internal dictionary of inspirations, write it into the inspirations file

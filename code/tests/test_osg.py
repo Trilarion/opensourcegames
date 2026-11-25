@@ -122,3 +122,16 @@ def test_render_value():
     assert osg.render_value('C') == 'C'
     assert osg.render_value('Some, Language') == '"Some, Language"'
     assert osg.render_value(parse.Value('https://example.org', '@stars 3')) == 'https://example.org (@stars 3)'
+
+
+@pytest.mark.parametrize('name, inspired_entries, expected', [
+    ('Original', ['Clone'], True),  # an entry has the name of the inspiration
+    ('Original', ['Original', 'Clone'], False),  # the entry of the same name is inspired by it (open source release)
+    ('Unknown', ['Clone'], False),  # no entry has the name of the inspiration
+])
+def test_is_included_inspiration(name, inspired_entries, expected):
+    """
+    An inspiration is included if an entry has its name and that entry is not inspired by it.
+    """
+    inspiration = {'Name': name, 'Inspired entries': inspired_entries}
+    assert osg.is_included_inspiration(inspiration, {'Original', 'Clone'}) is expected

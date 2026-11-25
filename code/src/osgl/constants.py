@@ -189,6 +189,9 @@ interesting_keywords = recommended_keywords + ('2D', '3D', remake_or_clone_keywo
 # non-game keywords take precedence over other (game) recommended keywords, at most one of them per entry
 non_game_keywords = ('framework', 'game engine', 'library', 'tool')
 
+# genres of games (the recommended keywords that are not non-game keywords)
+game_genre_keywords = tuple(keyword for keyword in recommended_keywords if keyword not in non_game_keywords)
+
 # known programming languages, anything else will result in a warning during a maintenance operation
 # only these will be used when gathering statistics
 language_urls = {
@@ -395,7 +398,7 @@ url_developer_fields = ('Home',)
 
 # inspiration/original game information (in the file all fields will be capitalized)
 essential_inspiration_fields = ('Name', 'Inspired entries')
-optional_inspiration_fields = ('Media','Included')
+optional_inspiration_fields = ('Media',)
 valid_inspiration_fields = essential_inspiration_fields + optional_inspiration_fields
 url_inspiration_fields = ('Media',)
 

@@ -199,10 +199,6 @@ A list of inspired entries. Must be the names of existing entries.
 
 List of lists for further general information about the inspiration like homepages, wikipedia articles.
 
-### Included
-
-Contains "Yes" if the inspiration is itself an open source game that is included in the list.
-
 ## Developer
 
 A list of developers that are listed as creators of the open source games here. Additional information about the

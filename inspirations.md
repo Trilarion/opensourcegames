@@ -8,7 +8,6 @@
 ## 2048 [3]
 
 - Inspired entries: 2048 Python, 2048-in-terminal, n2048
-- Included: Yes
 
 ## A-Train [1]
 
@@ -104,7 +103,6 @@
 ## Angband [1]
 
 - Inspired entries: ZAngband
-- Included: Yes
 
 ## Angry Birds [2]
 
@@ -319,7 +317,6 @@
 ## Black Shades [1]
 
 - Inspired entries: Black Shades Elite
-- Included: Yes
 
 ## Blake Stone: Aliens of Gold [1]
 
@@ -412,7 +409,6 @@
 ## Brogue [1]
 
 - Inspired entries: Pixel Dungeon
-- Included: Yes
 
 ## BrowserQuest [1]
 
@@ -507,17 +503,14 @@
 ## Cataclysm [1]
 
 - Inspired entries: Cataclysm: Dark Days Ahead
-- Included: Yes
 
 ## Catacomb [1]
 
 - Inspired entries: CatacombSDL
-- Included: Yes
 
 ## Catacomb 3-D [2]
 
 - Inspired entries: CatacombGL, ReflectionHLE
-- Included: Yes
 
 ## Catacomb Adventure Series [1]
 
@@ -554,7 +547,6 @@
 ## Chromium B.S.U. [1]
 
 - Inspired entries: Celestron
-- Included: Yes
 
 ## ChuChu Rocket! [1]
 
@@ -670,7 +662,6 @@
 ## CorsixTH [1]
 
 - Inspired entries: Project Dollhouse
-- Included: Yes
 
 ## Cortex Command [2]
 
@@ -717,7 +708,6 @@
 ## Crossfire [1]
 
 - Inspired entries: Atrinik
-- Included: Yes
 
 ## CrossFire 1981 [1]
 
@@ -740,12 +730,10 @@
 ## Cube [1]
 
 - Inspired entries: Cube 2: Sauerbraten
-- Included: Yes
 
 ## Cube 2: Sauerbraten [2]
 
 - Inspired entries: Inexor, Open Cube
-- Included: Yes
 
 ## CUBE engine [1]
 
@@ -768,7 +756,6 @@
 ## Daimonin [1]
 
 - Inspired entries: Atrinik
-- Included: Yes
 
 ## Dance Dance Revolution [2]
 
@@ -956,7 +943,6 @@
 ## Dungeon Crawl Stone Soup [1]
 
 - Inspired entries: Javelin
-- Included: Yes
 
 ## Dungeon Keeper [4]
 
@@ -1052,7 +1038,6 @@
 ## Eternal Lands [1]
 
 - Inspired entries: Other-Life
-- Included: Yes
 
 ## Exolon [1]
 
@@ -1076,7 +1061,6 @@
 ## Falcon's Eye [1]
 
 - Inspired entries: Vulture's Eye
-- Included: Yes
 
 ## Fall Down [2]
 
@@ -1161,7 +1145,6 @@
 ## Flixel [1]
 
 - Inspired entries: flixel-gdx
-- Included: Yes
 
 ## Flying Shark [1]
 
@@ -1171,7 +1154,6 @@
 ## FooBillard [1]
 
 - Inspired entries: FooBillard++
-- Included: Yes
 
 ## Forgotten Realms: Unlimited Adventures [1]
 
@@ -1185,7 +1167,6 @@
 ## Freeciv [1]
 
 - Inspired entries: Freeciv-web
-- Included: Yes
 
 ## Freelancer [1]
 
@@ -1195,7 +1176,6 @@
 ## Freeserf [1]
 
 - Inspired entries: Freeserf.net
-- Included: Yes
 
 ## FreeSpace 2 [1]
 
@@ -1205,7 +1185,6 @@
 ## Frets on Fire [1]
 
 - Inspired entries: Frets on Fire X
-- Included: Yes
 
 ## Frog! [1]
 
@@ -1250,7 +1229,6 @@
 ## GearHead [1]
 
 - Inspired entries: GearHead 2
-- Included: Yes
 
 ## Gish [2]
 
@@ -1259,7 +1237,6 @@
 ## GL-117 [1]
 
 - Inspired entries: RedShift
-- Included: Yes
 
 ## Gladiator [1]
 
@@ -1268,7 +1245,6 @@
 ## Glest [1]
 
 - Inspired entries: MegaGlest
-- Included: Yes
 
 ## Glitch [1]
 
@@ -1281,7 +1257,6 @@
 ## GLtron [1]
 
 - Inspired entries: GL TRON
-- Included: Yes
 
 ## God of War [1]
 
@@ -1365,7 +1340,6 @@
 ## Hack [1]
 
 - Inspired entries: NetHack
-- Included: Yes
 
 ## Half-Life [1]
 
@@ -1374,7 +1348,6 @@
 ## Hammer of Thyrion [1]
 
 - Inspired entries: HHexen
-- Included: Yes
 
 ## Hardwar [1]
 
@@ -1387,7 +1360,6 @@
 ## Hedgewars [1]
 
 - Inspired entries: Hase
-- Included: Yes
 
 ## Heretic [12]
 
@@ -1453,7 +1425,6 @@
 ## ICBM3D [1]
 
 - Inspired entries: XInvaders 3D
-- Included: Yes
 
 ## Icewind Dale [1]
 
@@ -1481,7 +1452,6 @@
 ## Infinite Mario Bros [1]
 
 - Inspired entries: Infinite Tux
-- Included: Yes
 
 ## Infinity Loop [1]
 
@@ -1498,7 +1468,6 @@
 ## ioquake3 [1]
 
 - Inspired entries: QuakeJS
-- Included: Yes
 
 ## Ironseed [1]
 
@@ -1564,7 +1533,6 @@
 ## Keen Dreams [1]
 
 - Inspired entries: ReflectionHLE
-- Included: Yes
 
 ## Ken's Labyrinth [2]
 
@@ -1658,7 +1626,6 @@
 ## LBreakout2 [1]
 
 - Inspired entries: LBreakoutHD
-- Included: Yes
 
 ## LBreakoutHD [1]
 
@@ -1714,7 +1681,6 @@
 ## Linley's Dungeon Crawl [1]
 
 - Inspired entries: Dungeon Crawl Stone Soup
-- Included: Yes
 
 ## Lionheart [1]
 
@@ -1723,7 +1689,6 @@
 ## Liquid War [1]
 
 - Inspired entries: Liquid Wars
-- Included: Yes
 
 ## Little Big Adventure [2]
 
@@ -1773,7 +1738,6 @@
 ## LÖVE [1]
 
 - Inspired entries: Love2dCS
-- Included: Yes
 
 ## M.A.X. [1]
 
@@ -1920,7 +1884,6 @@
 ## Meridian 59 [1]
 
 - Inspired entries: Open Meridian
-- Included: Yes
 
 ## Metroid Prime [1]
 
@@ -1943,7 +1906,6 @@
 ## Micropolis [3]
 
 - Inspired entries: 3d.city, Divercity, micropolisJS
-- Included: Yes
 
 ## Microprose Falcon 4.0 Combat Simulator [1]
 
@@ -2001,7 +1963,6 @@
 ## Minetest [1]
 
 - Inspired entries: Minetest Game
-- Included: Yes
 
 ## Mini Metro [1]
 
@@ -2061,7 +2022,6 @@
 ## Naev [1]
 
 - Inspired entries: Nox Imperii
-- Included: Yes
 
 ## Nanosaur [1]
 
@@ -2104,17 +2064,14 @@
 ## NetHack [3]
 
 - Inspired entries: NetHack - Falcon's Eye, SLASH'EM, UnNetHack
-- Included: Yes
 
 ## Neverball [1]
 
 - Inspired entries: Nuncabola
-- Included: Yes
 
 ## Nexuiz [1]
 
 - Inspired entries: Xonotic
-- Included: Yes
 
 ## Night Stalker [1]
 
@@ -2166,7 +2123,6 @@
 ## OGRE [1]
 
 - Inspired entries: Alimer
-- Included: Yes
 
 ## Old School RuneScape [1]
 
@@ -2190,7 +2146,6 @@
 ## OpenMW [1]
 
 - Inspired entries: TES3MP
-- Included: Yes
 
 ## Osu! Tatakae! Ouendan [2]
 
@@ -2282,7 +2237,6 @@
 ## Pingus [1]
 
 - Inspired entries: Rabbit Escape
-- Included: Yes
 
 ## Pipe Mania [1]
 
@@ -2295,7 +2249,6 @@
 ## Pixel Dungeon [2]
 
 - Inspired entries: Remixed Dungeon, Shattered Pixel Dungeon
-- Included: Yes
 
 ## Pizza Tycoon [1]
 
@@ -2641,7 +2594,6 @@
 ## sfxr [1]
 
 - Inspired entries: rFXGen
-- Included: Yes
 
 ## Shadow of the Beast [1]
 
@@ -2795,7 +2747,6 @@
 ## Soldat [1]
 
 - Inspired entries: Soldank
-- Included: Yes
 
 ## Solomon's Key [1]
 
@@ -2843,7 +2794,6 @@
 ## Space Station 13 [4]
 
 - Inspired entries: Griefly, Space Station 14, Space Station 3D, unitystation
-- Included: Yes
 
 ## Space Taxi [1]
 
@@ -2964,7 +2914,6 @@
 ## StepMania [1]
 
 - Inspired entries: OpenITG
-- Included: Yes
 
 ## Story of Seasons series [1]
 
@@ -3059,7 +3008,6 @@
 ## SuperTux [2]
 
 - Inspired entries: SuperTux Classic, Tux Builder
-- Included: Yes
 
 ## Supreme Commander [2]
 
@@ -3110,7 +3058,6 @@
 ## Teeworlds [1]
 
 - Inspired entries: DDraceNetwork
-- Included: Yes
 
 ## TekWar [1]
 
@@ -3157,7 +3104,6 @@
 ## The Battle for Wesnoth [2]
 
 - Inspired entries: Hexwar, Lords of the Fey
-- Included: Yes
 
 ## The Binding of Isaac [2]
 
@@ -3224,7 +3170,6 @@
 ## The Mana World [1]
 
 - Inspired entries: Moubootaur Legends
-- Included: Yes
 
 ## The Oregon Trail [2]
 
@@ -3363,7 +3308,6 @@
 ## Tremulous [1]
 
 - Inspired entries: Tremfusion
-- Included: Yes
 
 ## Tricky Towers [1]
 
@@ -3396,7 +3340,6 @@
 ## Tux Racer [2]
 
 - Inspired entries: Extreme Tux Racer, Tux Rider
-- Included: Yes
 
 ## TuxMath [1]
 
@@ -3471,7 +3414,6 @@
 ## UltraStar Deluxe [1]
 
 - Inspired entries: Vocaluxe
-- Included: Yes
 
 ## Undertale [1]
 
@@ -3499,7 +3441,6 @@
 ## Urho3D [1]
 
 - Inspired entries: Alimer
-- Included: Yes
 
 ## V-Wing [1]
 
@@ -3663,7 +3604,6 @@
 ## World Builder [1]
 
 - Inspired entries: WAGE
-- Included: Yes
 
 ## World of Goo [1]
 
@@ -3710,7 +3650,6 @@
 ## X-Moto [1]
 
 - Inspired entries: Bloboats
-- Included: Yes
 
 ## Xargon [1]
 
@@ -3728,7 +3667,6 @@
 ## Xonotic [1]
 
 - Inspired entries: Chaos Esque Anthology
-- Included: Yes
 
 ## XOR [1]
 
@@ -3738,7 +3676,6 @@
 ## XPilot [1]
 
 - Inspired entries: XPilot NG
-- Included: Yes
 
 ## XRay engine [1]
 

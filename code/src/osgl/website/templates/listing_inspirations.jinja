@@ -8,6 +8,11 @@
       <div class="block">
         <p class="title is-4">{{ item['name'] }}</p>
         <p class="subtitle is-6">{{ macros.render_element(item['inspired']) }}</p>
+                    {#- genres of the inspired games as tags #}
+        {%- if 'genres' in item %}
+        <div class="block">{{ macros.render_element(item['genres']) }}</div>
+        {%- endif -%}
+        {%- if 'included' in item -%}{{ macros.render_element(item['included']) }}{%- if 'media' in item -%}<br>{%- endif -%}{%- endif -%}
         {%- if 'media' in item -%}{{ macros.render_element(item['media']) }}{%- endif -%}
       </div>
                     {#- improve link -#}

@@ -7,7 +7,7 @@ import json
 
 import pytest
 
-from osgl import constants as c, osg, parse
+from osgl import constants as c, osg, parse, statistics as stat
 from osgl.website import generate as g
 
 
@@ -24,6 +24,15 @@ def test_get_plural_or_singular():
     assert g.get_plural_or_singular('Media', 0) == 'Media'
     with pytest.raises(RuntimeError, match='not a known singular'):
         g.get_plural_or_singular('Spaceship', 2)
+
+
+def test_count_text():
+    """
+    The number is followed by the singular for one and the plural otherwise.
+    """
+    assert g.count_text(1, 'game') == '1 game'
+    assert g.count_text(0, 'game') == '0 games'
+    assert g.count_text(3, 'entry') == '3 entries'
 
 
 def test_file_hash_ignores_build_date():
@@ -48,6 +57,41 @@ def test_url_to(current, target, expected):
     Relative links are created from the folder of the current page, absolute links stay unchanged.
     """
     assert g.url_to(current, target) == expected
+
+
+@pytest.mark.parametrize('path, expected', [
+    (['index.html'], ''),
+    (['games', 'index.html'], 'games/'),
+    (['games', 'A.html'], 'games/A.html'),
+    (['table.html'], 'table.html'),
+])
+def test_page_url(path, expected):
+    """
+    Public page URLs are absolute, index pages are addressed by their folder.
+    """
+    assert g.page_url(path) == c.web_url + expected
+
+
+def test_set_page_metadata():
+    """
+    Title gets the site name, canonical URL and relative links follow the page path.
+    """
+    base = {}
+    g.set_page_metadata(base, ['games', 'A.html'], 'Some title', 'Some description')
+    assert base['title'] == f'Some title | {g.SITE_SHORT_NAME}'
+    assert base['description'] == 'Some description'
+    assert base['canonical-url'] == c.web_url + 'games/A.html'
+    assert base['url_to'](['contribute.html']) == '../contribute.html'
+
+
+def test_create_sitemap():
+    """
+    The sitemap lists the sorted absolute URLs of all pages.
+    """
+    text = g.create_sitemap([['table.html'], ['games', 'index.html'], ['index.html']])
+    assert text.startswith('<?xml version="1.0" encoding="UTF-8"?>\n<urlset ')
+    locs = [line.strip()[len('<url><loc>'):-len('</loc></url>')] for line in text.splitlines() if '<loc>' in line]
+    assert locs == [c.web_url, c.web_url + 'games/', c.web_url + 'table.html']
 
 
 def test_sort_into_categories():
@@ -311,10 +355,11 @@ def test_make_alphabetical_index():
     """
     entries = [{'Title': title, 'href': ['games', f'{title[0]}.html#{title}'], 'anchor-id': title, 'letter': title[0],
                 'State': ['mature']} for title in ('Cb', 'Aa', 'Ca')]
-    index = g.make_alphabetical_index(entries, 'Title', 'Subtitle', 'games')
+    index = g.make_alphabetical_index(entries, 'Title', 'Subtitle', 'game')
     assert index['categories'] == ['A', 'C']
     assert index['number_entries'] == {'A': 1, 'C': 2}
     assert [node['url']['content']['text'] for column in index['entries']['C'] for node in column] == ['Ca', 'Cb']
+    assert index['category-infos']['A'] == g.make_text('1 game')
     assert index['category-infos']['C'] == g.make_text('2 games')
 
 
@@ -353,6 +398,43 @@ def website_folder(tmp_path, monkeypatch):
     return web_path
 
 
+def test_create_chart_section(website_folder):
+    """
+    The chart is written to the statistics folder, N/A items are listed but not passed to the chart.
+    """
+    charted = []
+    chartmaker = lambda statistics: charted.extend(statistics) or '<svg></svg>'
+    section = g.create_chart_section([('beta, active', 3), ('N/A', 1)], 'State', 'state.svg', chartmaker)
+    assert section == {'title': 'State', 'id': 'state',
+                       'items': [[g.make_text('beta, active'), g.make_text(' (3)')], [g.make_text('N/A'), g.make_text(' (1)')]],
+                       'chart': g.statistics_path + ['state.svg']}
+    assert charted == [('beta, active', 3)]
+    assert (website_folder / 'statistics' / 'state.svg').read_text(encoding='utf-8') == '<svg></svg>'
+
+
+def test_create_chart_section_links(website_folder):
+    """
+    Items are linked if the link function returns a target, 'Other' and 'N/A' are never linked.
+    """
+    link = lambda name: ['games', 'x.html'] if name != 'C' else None
+    section = g.create_chart_section([('Lua', 3), ('C', 2), ('Other', 1), ('N/A', 1)], 'Languages', 'l.svg',
+                                     lambda statistics: '<svg></svg>', link)
+    names = [item[0] for item in section['items']]
+    assert names[0] == g.make_url(['games', 'x.html'], 'Lua')
+    assert names[1:] == [g.make_text('C'), g.make_text('Other'), g.make_text('N/A')]
+
+
+def test_create_statistics_section_keep_and_normalize(website_folder):
+    """
+    Values are normalized before counting, filtered and rare values are combined.
+    """
+    entries = [{'Keyword': ['action', 'multiplayer online', '2D']}, {'Keyword': ['action', 'multiplayer LAN']}]
+    section = g.create_statistics_section(entries, 'Keyword', 'Other keywords', 'k.svg', lambda statistics: '<svg></svg>',
+                                          threshold=2, normalize=stat.normalize_keyword,
+                                          keep=lambda keyword: keyword != 'action')
+    assert section['items'] == [[g.make_text('multiplayer'), g.make_text(' (2)')], [g.make_text('Other'), g.make_text(' (1)')]]
+
+
 @pytest.mark.slow
 def test_generate_website(website_folder):
     """
@@ -372,8 +454,33 @@ def test_generate_website(website_folder):
     assert len(table['data']) == number_entries
 
     charts = list((website_folder / 'statistics').glob('*.svg'))
-    assert len(charts) >= 5
+    assert len(charts) >= 8
+    for chart in ('state.svg', 'genres.svg', 'other_keywords.svg'):
+        assert (website_folder / 'statistics' / chart).is_file(), chart
+    # statistics page starts with the state section and links to the contribution guidelines (warning box and footer)
+    statistics_page = (website_folder / 'statistics' / 'index.html').read_text(encoding='utf-8')
+    assert statistics_page.count('<a href="../contribute.html">contribution guidelines</a>') == 2
+    state_id, platforms_id = (osg.canonical_name(title) for title in ('State', 'Supported platforms'))
+    assert statistics_page.index(f'id="{state_id}"') < statistics_page.index(f'id="{platforms_id}"')
+    # linked items in the lists
+    assert '<a href="../games/platforms.html#windows">Windows</a>' in statistics_page
+    assert '<a href="../games/languages.html#c++">C++</a>' in statistics_page
+    assert '<a href="../games/genres.html#action">action</a>' in statistics_page
+    assert '<a href="../games/remakes.html">remake or clone</a>' in statistics_page
     assert not (website_folder / 'invalid.html').exists()
+
+    # sitemap with all pages, but not the search console token
+    sitemap = (website_folder / 'sitemap.xml').read_text(encoding='utf-8')
+    assert f'<loc>{c.web_url}</loc>' in sitemap and f'<loc>{c.web_url}games/A.html</loc>' in sitemap
+    assert 'google' not in sitemap
+    assert sitemap.count('<loc>') == sum(1 for _ in website_folder.rglob('*.html')) - 1
+
+    # canonical link and link previews of a sub page, the footer link is relative to the page
+    page = (website_folder / 'games' / 'A.html').read_text(encoding='utf-8')
+    assert f'<link rel="canonical" href="{c.web_url}games/A.html">' in page
+    assert f'<meta property="og:image" content="{c.web_url}{g.SOCIAL_IMAGE}">' in page
+    assert '<title>Open source games starting with A | OSGL</title>' in page
+    assert '<a href="../contribute.html">contribution guidelines</a>' in page
 
     # main page with search form, statistics link and the tiles
     index = (website_folder / 'index.html').read_text(encoding='utf-8')

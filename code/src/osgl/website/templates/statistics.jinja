@@ -12,7 +12,9 @@
     </div>
   <article class="message is-warning is-size-7">
     <div class="message-header"><p>Warning</p></div>
-    <div class="message-body">Statistics can be inaccurate.</div>
+    <div class="message-body">Statistics are computed from the entries and can be inaccurate or incomplete. Corrections are welcome, see the
+      <a href="{{ base['url_to'](['contribute.html']) }}">contribution guidelines</a>.
+      An entry can have several values (e.g. several platforms), so the numbers count mentions and don't add up to the number of entries.</div>
   </article>
   </div>
                             {#- each statistics section -#}
@@ -25,7 +27,7 @@
         <ul>
           <ol type="1">
 {% for item in section['items'] -%}
-            <li>{{ item }}</li>
+            <li>{{ macros.render_element(item) }}</li>
 {% endfor -%}
           </ol>
         </ul>

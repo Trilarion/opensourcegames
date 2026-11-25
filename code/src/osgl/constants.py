@@ -46,6 +46,9 @@ web_js_path = web_path / 'js'
 web_screenshots_path = web_path / 'screenshots'
 web_data_path = web_path / 'data'
 
+# public address of the website (GitHub Pages serves the docs folder), used for canonical links and the sitemap
+web_url = 'https://trilarion.github.io/opensourcegames/'
+
 # files
 private_properties_file = root_path / 'private.properties'
 inspirations_file = root_path / 'inspirations.md'

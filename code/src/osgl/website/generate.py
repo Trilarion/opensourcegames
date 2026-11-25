@@ -15,24 +15,13 @@ Sitemap is not needed, only for large projects with lots of JavaScript und many 
 
 
 # TODO general: replace or remove @notices like @add in entries (these notices should go to () comments anyway
-# TODO general: check singular, plural (game, entries, items) although support is already quite good for that (Code Languages, ...)
 # TODO general: better link replacements for showing the urls of links (see shortcut_url, also used for links in notes)
 # TODO general: style URLs (Github, Wikipedia, Internet archive, SourceForge, ...)
-
-# TODO general: meta/title+description tag
-# TODO general: meta description of the pages, fill them
-
 # TODO general: optimize layout for mobile view (quite good already)
-# TODO general: meta titles for all pages, make them nice because they appear in search results! (https://www.contentpowered.com/blog/good-ctr-search-console/)
 
 # TODO idea: text description automatically generate from keywords, state, and technical information for example: First-person action shooter written in C++, inspired by ... but inactive for 7 years.
 
-# TODO statistics: should have disclaimer (warning or info box) about accuracy with link to contribute guidelines at the top
-# TODO statistics: better and more statistics with links where possible
-# TODO statistics: get it from common statistics generator
-# TODO statistics: normalization, what if there are multiple entries per field (pie chart would be wrong, better to show bar chart instead)
-# TODO statistics: state (beta, mature x active, inactive)
-# TODO statistics: non essential keywords
+# TODO statistics: more statistics
 
 # TODO games: developer details is too small to click on some devices, maybe details is-size6 instead (make technical details size 6 but with more)
 # TODO games: keyword tags underlined to indicate links
@@ -66,6 +55,7 @@ import json
 import re
 import string
 import urllib.parse
+import xml.sax.saxutils
 from collections.abc import Callable, Mapping, Sequence
 from functools import partial
 from typing import Any, NoReturn, TypeAlias, TypeVar
@@ -104,6 +94,13 @@ TOP_DEVELOPER_THRESHOLD = 4    # at least that many developed games
 BOLD_CLASS = 'has-text-weight-semibold'  # highlighted (mature or prolific) items in the indices
 
 UNKNOWN_PLATFORM = 'Unknown platform support'
+
+SITE_NAME = 'Open Source Games List'
+SITE_SHORT_NAME = 'OSGL'  # appended to all page titles
+SOCIAL_IMAGE = 'collage_games.jpg'  # preview image for links shared on social media (1440x720)
+
+# html files in the website root that are not pages of the website (not in the sitemap)
+non_page_files = ('google1f8a3863114cbcb3.html', 'invalid.html')
 
 # the subfolder structure
 games_path = ['games']
@@ -213,6 +210,8 @@ for k in ('Media', 'Play', 'Play online', 'State'):
     plurals[k] = k
 for k in ('Code repository', 'Code dependency'):
     plurals[k] = k[:-1] + 'ies'
+# units of counted items (lowercase, shown after a number)
+plurals.update({'game': 'games', 'entry': 'entries'})
 
 
 def get_plural_or_singular(name: str, amount: int) -> str:
@@ -227,6 +226,17 @@ def get_plural_or_singular(name: str, amount: int) -> str:
     if amount == 1:
         return name
     return plurals[name]
+
+
+def count_text(amount: int, unit: str) -> str:
+    """
+    Return ``amount`` followed by the singular or plural form of ``unit`` (e.g. "1 game", "2 games").
+
+    Args:
+        amount: Number of counted items.
+        unit: Singular name of the counted items, must be present in the pluralization table.
+    """
+    return f'{amount} {get_plural_or_singular(unit, amount)}'
 
 
 def file_hash(text: str) -> int:
@@ -347,7 +357,7 @@ def make_alphabetical_index(entries: Sequence[Entry], title: str, subtitle: str,
         entries: The selected entries (games and non-games), must already have their links (see :func:`preprocess`).
         title: Title of the index page.
         subtitle: Subtitle of the index page.
-        unit: Name of the entries in the number of entries per letter (e.g. "games").
+        unit: Singular name of the entries in the number of entries per letter (e.g. "game"), see :func:`count_text`.
     """
     entries = sorted(entries, key=lambda entry: str.casefold(entry['Title']))
     letters = [letter for letter in extended_alphabet if any(entry['letter'] == letter for entry in entries)]
@@ -359,7 +369,7 @@ def make_alphabetical_index(entries: Sequence[Entry], title: str, subtitle: str,
     index['category-names'] = extended_alphabet_names
     index['category-icons'] = {}
     index['number_entries_per_category_threshold'] = 20
-    index['category-infos'] = {letter: make_text(f'{len(by_letter[letter])} {unit}') for letter in letters}
+    index['category-infos'] = {letter: make_text(count_text(len(by_letter[letter]), unit)) for letter in letters}
     return index
 
 
@@ -390,12 +400,52 @@ def url_to(current: Sequence[str], target: str | Sequence[str], info: Any = None
     return url
 
 
-def set_page_metadata(base: Entry, title: str, description: str) -> None:
+def page_url(path: Sequence[str]) -> str:
     """
-    Set the title and search-result description for the next rendered HTML page.
+    Return the absolute public URL of a generated page, used for canonical links and the sitemap.
+
+    Index pages are addressed by their folder (".../games/" instead of ".../games/index.html").
+
+    Args:
+        path: Path of the page relative to the website root (e.g. ``['games', 'A.html']``).
     """
-    base['title'] = title
+    path = list(path)
+    if path[-1] == 'index.html':
+        path[-1] = ''
+    return c.web_url + '/'.join(path)
+
+
+def set_page_metadata(base: Entry, path: Sequence[str], title: str, description: str) -> None:
+    """
+    Set the location, title and search-result description for the next rendered HTML page.
+
+    The title gets the site name appended. Relative links of the page (``base['url_to']``) are computed from the
+    folder of ``path``.
+
+    Args:
+        base: Page data shared by all templates.
+        path: Path of the page relative to the website root (e.g. ``['games', 'A.html']``).
+        title: Title of the page, shown in search results, should be specific and not too long.
+        description: Short summary of the page, shown in search results and link previews.
+    """
+    base['title'] = f'{title} | {SITE_SHORT_NAME}'
     base['description'] = description
+    base['canonical-url'] = page_url(path)
+    base['url_to'] = partial(url_to, list(path[:-1]))
+
+
+def create_sitemap(paths: Sequence[Sequence[str]]) -> str:
+    """
+    Return the XML sitemap (https://www.sitemaps.org/protocol.html) listing the given pages.
+
+    Args:
+        paths: Paths of the pages relative to the website root.
+    """
+    urls = sorted(page_url(path) for path in paths)
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    lines.extend(f'  <url><loc>{xml.sax.saxutils.escape(url)}</loc></url>' for url in urls)
+    lines.append('</urlset>')
+    return '\n'.join(lines) + '\n'
 
 
 def preprocess(
@@ -1136,25 +1186,70 @@ def create_table_json_data(entries: Sequence[Entry]) -> None:
     utils.write_text(c.json_db_file, text)
 
 
+StatisticsLink: TypeAlias = Callable[[str], str | Sequence[str] | None]
+"""
+Returns the link target for a value in the statistics or None if the value should not be linked.
+"""
+
+
 def create_statistics_section(
     entries: Sequence[Entry], field: str, title: str, filename: str,
     chartmaker: Callable[[list[tuple[str, int]]], str], sub_field: str | None = None,
+    link: StatisticsLink | None = None, threshold: int = 10,
+    normalize: Callable[[str], str] | None = None, keep: Callable[[str], bool] | None = None,
 ) -> Entry:
     """
-    Generate a chart and return its template section for a statistics field.
+    Count the values of a field, generate a chart and return its template section.
 
-    The chart maker returns reproducible SVG text, which is written below the statistics folder of the website.
+    Args:
+        entries: The entries to analyze.
+        field: The counted field.
+        title: Title of the section.
+        filename: File name of the chart in the statistics folder.
+        chartmaker: Function creating the SVG text of the chart from the statistics.
+        sub_field: If given, the field is looked up inside this sub field of each entry (e.g. 'Building').
+        link: Link targets of the values, see :func:`create_chart_section`.
+        threshold: Values with less occurrences are combined into a single item named 'Other'.
+        normalize: If given, applied to every value before counting (e.g. :func:`osgl.statistics.normalize_keyword`).
+        keep: If given, only values for which it returns true are shown.
     """
-    statistics = stat.get_field_statistics(entries, field, sub_field)
-    statistics = stat.truncate_stats(statistics, 10)
+    statistics = stat.get_field_statistics(entries, field, sub_field, normalize=normalize)
+    if keep:
+        statistics = [item for item in statistics if keep(item[0])]
+    statistics = stat.truncate_stats(statistics, threshold)
+    return create_chart_section(statistics, title, filename, chartmaker, link)
+
+
+def create_chart_section(
+    statistics: Sequence[tuple[str, int]], title: str, filename: str,
+    chartmaker: Callable[[list[tuple[str, int]]], str], link: StatisticsLink | None = None,
+) -> Entry:
+    """
+    Generate a chart of already counted statistics and return its template section.
+
+    The chart maker returns reproducible SVG text, which is written below the statistics folder of the website. Items
+    named 'N/A' are listed, but not shown in the chart.
+
+    Args:
+        statistics: Counted items as (name, count) tuples in display order.
+        title: Title of the section, also used for its anchor.
+        filename: File name of the chart in the statistics folder.
+        chartmaker: Function creating the SVG text of the chart from the statistics.
+        link: If given, returns the link target of an item name (or None for no link). The combined items 'Other'
+            and 'N/A' are never linked.
+    """
     text = chartmaker([item for item in statistics if item[0] != 'N/A'])
     file = c.web_path.joinpath(*statistics_path, filename)
     file.parent.mkdir(parents=True, exist_ok=True)
     utils.write_text(file, text)
+    items = []
+    for name, count in statistics:
+        target = link(name) if link and name not in ('Other', 'N/A') else None
+        items.append([make_url(target, str(name)) if target else make_text(str(name)), make_text(f' ({count})')])
     section = {
         'title': title,
         'id': osg.canonical_name(title),
-        'items': ['{} ({})'.format(*item) for item in statistics],
+        'items': items,
         'chart': statistics_path + [filename]
     }
     return section
@@ -1201,24 +1296,46 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
         'sections': []
     }
 
-    # supported platforms
-    section = create_statistics_section(entries, 'Platform', 'Supported platforms', 'supported_platforms.svg', partial(stat.export_bar_chart, aspect_ratio=0.7, tick_label_rotation=45))
+    # state (each entry counted once, therefore a pie chart is fine)
+    section = create_chart_section(stat.get_state_statistics(entries), 'State', 'state.svg', stat.export_pie_chart)
     statistics_data['sections'].append(section)
 
-    # code languages
-    section = create_statistics_section(entries, 'Code language', 'Code languages', 'code_languages.svg', partial(stat.export_bar_chart, aspect_ratio=1.5, tick_label_rotation=45))
+    wide_bar_chart = partial(stat.export_bar_chart, aspect_ratio=1.5, tick_label_rotation=45)
+
+    # supported platforms (linked to the platform index)
+    platform_link = lambda platform: games_by_platform_path[:-1] + [f'{games_by_platform_path[-1]}#{platform.lower()}'] if platform in c.valid_platforms else None
+    section = create_statistics_section(entries, 'Platform', 'Supported platforms', 'supported_platforms.svg', partial(stat.export_bar_chart, aspect_ratio=0.7, tick_label_rotation=45), link=platform_link)
     statistics_data['sections'].append(section)
 
-    # code license
-    section = create_statistics_section(entries, 'Code license', 'Code licenses', 'code_licenses.svg', partial(stat.export_bar_chart, aspect_ratio=1.5, tick_label_rotation=45))
+    # code languages (linked to the language index)
+    section = create_statistics_section(entries, 'Code language', 'Code languages', 'code_languages.svg', wide_bar_chart, link=code_language_references.get)
     statistics_data['sections'].append(section)
 
-    # code dependencies
-    section = create_statistics_section(entries, 'Code dependency', 'Code dependencies', 'code_dependencies.svg', partial(stat.export_bar_chart, aspect_ratio=1.5, tick_label_rotation=45))
+    # code license (linked to the license texts)
+    section = create_statistics_section(entries, 'Code license', 'Code licenses', 'code_licenses.svg', wide_bar_chart, link=c.license_urls.get)
+    statistics_data['sections'].append(section)
+
+    # code dependencies (linked to the entry if the dependency is included)
+    entry_by_title = {entry['Title']: entry['href'] for entry in entries}
+    section = create_statistics_section(entries, 'Code dependency', 'Code dependencies', 'code_dependencies.svg', wide_bar_chart, link=entry_by_title.get)
     statistics_data['sections'].append(section)
 
     # build-systems
-    section = create_statistics_section(entries, 'Build system', 'Build systems', 'build_systems.svg', stat.export_pie_chart, sub_field='Building')
+    section = create_statistics_section(entries, 'Build system', 'Build systems', 'build_systems.svg', wide_bar_chart, sub_field='Building')
+    statistics_data['sections'].append(section)
+
+    # genres (the recommended keywords of games, linked to the genre index)
+    genre_keywords = [keyword for keyword in c.recommended_keywords if keyword not in c.non_game_keywords]
+    genre_link = lambda genre: games_by_genres_path[:-1] + [f'{games_by_genres_path[-1]}#{genre.lower()}']
+    section = create_statistics_section(entries, 'Keyword', 'Genres', 'genres.svg', wide_bar_chart, link=genre_link,
+                                        threshold=1, keep=lambda keyword: keyword in genre_keywords)
+    statistics_data['sections'].append(section)
+
+    # other keywords (linked if there is a sub list for them)
+    keyword_lists = {c.remake_or_clone_keyword: games_remakes_path, 'content open': games_libre_path, 'for kids': games_kids_path}
+    section = create_statistics_section(entries, 'Keyword', 'Other keywords', 'other_keywords.svg', wide_bar_chart,
+                                        link=keyword_lists.get, threshold=20, normalize=stat.normalize_keyword,
+                                        keep=lambda keyword: keyword not in c.recommended_keywords)
     statistics_data['sections'].append(section)
 
     # set external links up (statistics and entries.json doesn't work anymore beyond that point)
@@ -1243,8 +1360,10 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
 
     # base dictionary
     base = {
-        'title': 'OSGL',
+        'title': SITE_SHORT_NAME,
         'description': 'Browse open source games, game engines, frameworks, and tools with technical details.',
+        'site-name': SITE_NAME,
+        'social-image-url': c.web_url + SOCIAL_IMAGE,
         'creation-date': datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M'),
         'css': ['bulma.min.css', 'osgl.min.css'],
         'js': ['osgl.js']
@@ -1261,7 +1380,7 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
         shutil.copyfile(c.screenshots_path / filename, c.web_screenshots_path / filename)
 
     # collage_image and google search console token and favicon.svg
-    for filename in ('collage_games.jpg', 'google1f8a3863114cbcb3.html', 'favicon.svg'):
+    for filename in (SOCIAL_IMAGE, 'google1f8a3863114cbcb3.html', 'favicon.svg'):
         shutil.copyfile(c.web_static_path / filename, c.web_path / filename)
 
     # create Jinja Environment
@@ -1271,15 +1390,12 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
     template_categorical_index = environment.get_template('categorical_index.jinja')
     template_listing_entries = environment.get_template('listing_entries.jinja')
 
-    # top level folder
-    base['url_to'] = partial(url_to, [])
-
     # index.html is generated after the sub lists (see below), because it shows their sizes
 
     # contribute page
     set_page_metadata(
-        base,
-        'OSGL | Contributions',
+        base, ['contribute.html'],
+        'How to contribute',
         'Learn how to add or improve open source game entries and give feedback to the Open Source Games List.',
     )
     base['active_nav'] = 'contribute'
@@ -1288,11 +1404,10 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
 
     # statistics page in statistics folder
     set_page_metadata(
-        base,
-        'OSGL | Statistics',
+        base, statistics_index_path,
+        'Statistics of open source games',
         'Explore statistics about platforms, programming languages, licenses, dependencies, and build systems in the Open Source Games List.',
     )
-    base['url_to'] = partial(url_to, statistics_path)
     base['active_nav'] = 'statistics'
 
     # statistics preparation
@@ -1302,11 +1417,10 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
 
     # non-games folder
     set_page_metadata(
-        base,
-        'OSGL | Game engines, frameworks, tools',
+        base, non_games_index_path,
+        'Open source game engines, frameworks and tools',
         f'Browse {len(non_games)} open source game engines, frameworks, libraries, and development tools.',
     )
-    base['url_to'] = partial(url_to, non_games_path)
     base['active_nav'] = 'frameworks'
 
     # non-games by type
@@ -1323,8 +1437,8 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
     # generate non-games pages
     for keyword in c.non_game_keywords:
         set_page_metadata(
-            base,
-            f'OSGL | {non_game_category_names[keyword]}',
+            base, non_games_path + [f'{keyword}.html'],
+            f'Open source {non_game_category_names[keyword].lower()} for game development',
             f'Browse {len(non_games_by_type[keyword])} open source {non_game_category_names[keyword].lower()} for game development.',
         )
         listing = {
@@ -1335,20 +1449,14 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
         write(template_listing_entries.render(listing=listing), non_games_path + [f'{keyword}.html'])
 
     # games folder
-    set_page_metadata(
-        base,
-        'OSGL | Games | Alphabetical',
-        f'Browse an alphabetical index of {len(games)} open source games with technical details and download links.',
-    )
-    base['url_to'] = partial(url_to, games_path)
     base['active_nav'] = 'games'
 
     # generate games pages
     for letter in extended_alphabet:
         letter_description = 'non-alphabetical titles' if letter == extra else f'titles beginning with {letter}'
         set_page_metadata(
-            base,
-            f'OSGL | Games | {letter}',
+            base, games_path + [f'{letter.capitalize()}.html'],
+            f'Open source games starting with {extended_alphabet_names[letter]}',
             f'Browse {len(games_by_alphabet[letter])} open source games with {letter_description}.',
         )
         listing = {
@@ -1359,8 +1467,8 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
 
     # generate games index
     set_page_metadata(
-        base,
-        'OSGL | Games | Alphabetical',
+        base, games_index_path,
+        'Open source games from A to Z',
         f'Browse an alphabetical index of {len(games)} open source games with technical details and download links.',
     )
     index = divide_in_three_columns_and_transform(games_by_alphabet, entry_index)
@@ -1370,13 +1478,13 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
     index['category-names'] = extended_alphabet_names
     index['category-icons'] = {}
     index['number_entries_per_category_threshold'] = 20
-    index['category-infos'] = {letter: make_text(f'{len(games_by_alphabet[letter])} games') for letter in extended_alphabet}
+    index['category-infos'] = {letter: make_text(count_text(len(games_by_alphabet[letter]), 'game')) for letter in extended_alphabet}
     write(template_categorical_index.render(index=index), games_index_path)
 
     # genres
     set_page_metadata(
-        base,
-        'OSGL | Games | Genres',
+        base, games_by_genres_path,
+        'Open source games by genre',
         'Browse open source games by genre, including action, adventure, puzzle, strategy, and role-playing games.',
     )
     base['active_nav'] = ['filter', 'genres']
@@ -1391,7 +1499,7 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
         genre: [
             make_text(c.keyword_genre_descriptions[genre.lower()]),
             make_line_break(),
-            make_text(f'{len(games_by_genre[genre])} games'),
+            make_text(count_text(len(games_by_genre[genre]), 'game')),
         ]
         for genre in genres
     }
@@ -1399,8 +1507,8 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
 
     # games by language
     set_page_metadata(
-        base,
-        'OSGL | Games | Programming language',
+        base, games_by_language_path,
+        'Open source games by programming language',
         'Browse open source games and frameworks by programming language.',
     )
     base['active_nav'] = ['filter', 'code language']
@@ -1416,8 +1524,8 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
 
     # games by platform
     set_page_metadata(
-        base,
-        'OSGL | Games | Supported Platform',
+        base, games_by_platform_path,
+        'Open source games by platform',
         'Browse open source games and frameworks by supported platform, including Windows, Linux, macOS, mobile, and web.',
     )
     base['active_nav'] = ['filter', 'platforms']
@@ -1429,14 +1537,14 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
     index['category-icons'] = {k: make_icon(platform_icon_map[k]) for k in index['categories']}
     index['number_entries_per_category_threshold'] = 15
     index['category-infos'] = {}
-    index['category-infos'] = {category: make_text(f'{len(games_by_platform[category])} entries') for category in index['categories']}
+    index['category-infos'] = {category: make_text(count_text(len(games_by_platform[category]), 'entry')) for category in index['categories']}
     write(template_categorical_index.render(index=index), games_by_platform_path)
 
     # for kids games
     kids_games = [game for game in games if 'for kids' in game['Keyword']]
     set_page_metadata(
-        base,
-        'OSGL | Games | For Kids',
+        base, games_kids_path,
+        'Open source games for kids',
         f'Browse {len(kids_games)} open source games tagged as suitable for children.',
     )
     base['active_nav'] = ['filter', 'kids']
@@ -1450,8 +1558,8 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
     # playable in browser
     web_games = [game for game in games if 'Play' in game and 'Web' in game['Platform']]
     set_page_metadata(
-        base,
-        'OSGL | Games | Web Play',
+        base, games_web_path,
+        'Open source browser games to play online',
         f'Browse {len(web_games)} open source games that can be played directly in a web browser.',
     )
     base['active_nav'] = ['filter', 'web']
@@ -1465,36 +1573,36 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
     # completely free games
     libre_games = [game for game in games if 'content open' in game['Keyword']]
     set_page_metadata(
-        base,
-        'OSGL | Games | Free code and artwork',
+        base, games_libre_path,
+        'Open source games with free artwork',
         f'Browse {len(libre_games)} open source games with open or libre code and artwork.',
     )
     base['active_nav'] = ['filter', 'libre']
     index = make_alphabetical_index(
         libre_games, 'Completely free games', f'Index of {len(libre_games)} games with open/libre code and artwork.',
-        'games',
+        'game',
     )
     write(template_categorical_index.render(index=index), games_libre_path)
 
     # remakes and clones of existing games (including engine reimplementations, which are non-games)
     remake_entries = [entry for entry in entries if c.remake_or_clone_keyword in entry['Keyword']]
     set_page_metadata(
-        base,
-        'OSGL | Games | Remakes and clones',
+        base, games_remakes_path,
+        'Open source remakes and clones of games',
         f'Browse {len(remake_entries)} open source remakes and clones of existing games.',
     )
     base['active_nav'] = ['filter', 'remakes']
     index = make_alphabetical_index(
         remake_entries, 'Remakes and clones',
         f'Index of {len(remake_entries)} games and engines that recreate, port or reimplement existing games.',
-        'entries',
+        'entry',
     )
     write(template_categorical_index.render(index=index), games_remakes_path)
 
     # top github/gitlab games
     set_page_metadata(
-        base,
-        f'OSGL | Games | Top stars {N_top}',
+        base, games_top_path,
+        f'Top {N_top} open source games by stars',
         f'Browse the {N_top} highest-starred immediately playable open source games in the Open Source Games List.',
     )
     base['active_nav'] = ['filter', f'top']
@@ -1510,11 +1618,10 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
 
     # index.html (main page, top level folder) with key numbers and tiles for selected genres and sub lists
     set_page_metadata(
-        base,
-        'OSGL | Open source games list',
+        base, ['index.html'],
+        f'{SITE_NAME}: open source games, engines and tools',
         f'Browse technical information about {len(games)} open source games and {len(non_games)} game engines, frameworks, and tools.',
     )
-    base['url_to'] = partial(url_to, [])
     base['active_nav'] = 'index'
     index_lists = (
         (games_web_path, 'earth', 'Playable in the browser', len(web_games), 'games'),
@@ -1528,12 +1635,6 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
     write(template.render(index=index), ['index.html'])
 
     # inspirations folder
-    set_page_metadata(
-        base,
-        'OSGL | Inspirational games',
-        f'Browse {len(inspirations)} games that inspired projects in the Open Source Games List.',
-    )
-    base['url_to'] = partial(url_to, inspirations_path)
     base['active_nav'] = 'inspirations'
 
     # inspirations
@@ -1543,8 +1644,8 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
     for letter in extended_alphabet:
         letter_description = 'non-alphabetical titles' if letter == extra else f'names beginning with {letter}'
         set_page_metadata(
-            base,
-            f'OSGL | Inspirations | {letter}',
+            base, inspirations_path + [f'{letter.capitalize()}.html'],
+            f'Games that inspired open source projects ({extended_alphabet_names[letter]})',
             f'Browse {len(inspirations_by_alphabet[letter])} inspirational games with {letter_description}.',
         )
         listing = {
@@ -1555,8 +1656,8 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
 
     # inspirations index
     set_page_metadata(
-        base,
-        'OSGL | Inspirational games',
+        base, inspirations_index_path,
+        'Games that inspired open source projects',
         f'Browse an alphabetical index of {len(inspirations)} games that inspired open source projects.',
     )
     extended_alphabet_names['_'] = 'Most used'
@@ -1573,12 +1674,6 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
     write(template_categorical_index.render(index=index), inspirations_index_path)
 
     # developers folder
-    set_page_metadata(
-        base,
-        'OSGL | Games | Developers',
-        f'Browse {len(developers)} developers and organizations behind open source games and frameworks.',
-    )
-    base['url_to'] = partial(url_to, developers_path)
     base['active_nav'] = 'developers'
 
     # developers single pages
@@ -1586,8 +1681,8 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
     for letter in extended_alphabet:
         letter_description = 'non-alphabetical names' if letter == extra else f'names beginning with {letter}'
         set_page_metadata(
-            base,
-            f'OSGL | Developers | {letter}',
+            base, developers_path + [f'{letter.capitalize()}.html'],
+            f'Open source game developers ({extended_alphabet_names[letter]})',
             f'Browse {len(developers_by_alphabet[letter])} open source game developers with {letter_description}.',
         )
         listing = {
@@ -1598,8 +1693,8 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
 
     # developers index
     set_page_metadata(
-        base,
-        'OSGL | Games | Developers',
+        base, developers_index_path,
+        'Open source game developers',
         f'Browse an alphabetical index of {len(developers)} open source game developers and organizations.',
     )
     extended_alphabet_names['_'] = 'Most active'
@@ -1617,11 +1712,10 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
 
     # dynamic table (is in top level folder)
     set_page_metadata(
-        base,
-        'OSGL | Entries | Table',
+        base, ['table.html'],
+        'Searchable table of open source games',
         'Search and sort the complete Open Source Games List by title, state, tags, platform, programming language, and license.',
     )
-    base['url_to'] = partial(url_to, [])
     base['css'].append('simple-datatables.css')
     base['js'].append('simple-datatables.js')
     base['active_nav'] = 'table'
@@ -1629,6 +1723,10 @@ def generate(entries: list[Entry], inspirations: list[Entry], developers: list[E
     index['tags'] = make_text(', '.join(c.interesting_keywords))
     index['platforms'] = make_text(', '.join(c.valid_platforms))
     write(template.render(index=index), ['table.html'])
+
+    # sitemap of all generated pages (to be submitted to search engines)
+    pages = [file.relative_to(c.web_path).parts for file in c.web_path.rglob('*.html') if file.name not in non_page_files]
+    utils.write_text(c.web_path / 'sitemap.xml', create_sitemap(pages))
 
 
 def main():

@@ -5,7 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Trilarion">
   <meta name="description" content="Explore statistics about platforms, programming languages, licenses, dependencies, and build systems in the Open Source Games List.">
-  <title>OSGL | Statistics</title>
+  <title>Statistics of open source games | OSGL</title>
+  <link rel="canonical" href="https://trilarion.github.io/opensourcegames/statistics/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Open Source Games List">
+  <meta property="og:title" content="Statistics of open source games | OSGL">
+  <meta property="og:description" content="Explore statistics about platforms, programming languages, licenses, dependencies, and build systems in the Open Source Games List.">
+  <meta property="og:url" content="https://trilarion.github.io/opensourcegames/statistics/">
+  <meta property="og:image" content="https://trilarion.github.io/opensourcegames/collage_games.jpg">
+  <meta property="og:image:width" content="1440">
+  <meta property="og:image:height" content="720">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="../css/bulma.min.css">
   <link rel="stylesheet" href="../css/osgl.min.css">
   <link rel="icon" type="image/svg+xml" href="../favicon.svg">
@@ -51,6 +62,8 @@
     <div class="block"><p class="title is-4">Statistics</p></div>
     <div class="block">
     <ol type="1">
+      <li><a href="#state">State</a></li>
+
       <li><a href="#supported_platforms">Supported platforms</a></li>
 
       <li><a href="#code_languages">Code languages</a></li>
@@ -61,13 +74,37 @@
 
       <li><a href="#build_systems">Build systems</a></li>
 
+      <li><a href="#genres">Genres</a></li>
+
+      <li><a href="#other_keywords">Other keywords</a></li>
+
     </ol>
     </div>
   <article class="message is-warning is-size-7">
     <div class="message-header"><p>Warning</p></div>
-    <div class="message-body">Statistics can be inaccurate.</div>
+    <div class="message-body">Statistics are computed from the entries and can be inaccurate or incomplete. Corrections are welcome, see the
+      <a href="../contribute.html">contribution guidelines</a>.
+      An entry can have several values (e.g. several platforms), so the numbers count mentions and don't add up to the number of entries.</div>
   </article>
   </div>
+  <div id="state" class="box">
+    <p class="title is-4">State</p>
+    <nav class="level">
+      <div class="level-item"><img src="state.svg"></div>
+      <div class="level-item">
+        <ul>
+          <ol type="1">
+<li>mature, active (733)</li>
+<li>mature, inactive (470)</li>
+<li>beta, active (400)</li>
+<li>beta, inactive (430)</li>
+</ol>
+        </ul>
+      </div>
+    </nav>
+    <p class="is-size-7 has-text-right"><a href="#">Back to top</a></p>
+  </div>
+
   <div id="supported_platforms" class="box">
     <p class="title is-4">Supported platforms</p>
     <nav class="level">
@@ -76,12 +113,12 @@
         <ul>
           <ol type="1">
 <li>N/A (950)</li>
-<li>Windows (728)</li>
-<li>Linux (688)</li>
-<li>macOS (408)</li>
-<li>Web (226)</li>
-<li>Android (188)</li>
-<li>iOS (29)</li>
+<li><a href="../games/platforms.html#windows">Windows</a> (728)</li>
+<li><a href="../games/platforms.html#linux">Linux</a> (688)</li>
+<li><a href="../games/platforms.html#macos">macOS</a> (408)</li>
+<li><a href="../games/platforms.html#web">Web</a> (226)</li>
+<li><a href="../games/platforms.html#android">Android</a> (188)</li>
+<li><a href="../games/platforms.html#ios">iOS</a> (29)</li>
 </ol>
         </ul>
       </div>
@@ -96,24 +133,24 @@
       <div class="level-item">
         <ul>
           <ol type="1">
-<li>C++ (897)</li>
-<li>C (613)</li>
-<li>Java (238)</li>
-<li>JavaScript (187)</li>
-<li>Python (178)</li>
-<li>C# (129)</li>
-<li>Lua (98)</li>
-<li>Pascal (54)</li>
-<li>TypeScript (40)</li>
-<li>GDScript (34)</li>
-<li>PHP (32)</li>
-<li>Script (23)</li>
-<li>Objective-C (21)</li>
-<li>Rust (19)</li>
-<li>Assembly (18)</li>
-<li>Go (16)</li>
-<li>Kotlin (12)</li>
-<li>Ada (10)</li>
+<li><a href="../games/languages.html#c++">C++</a> (897)</li>
+<li><a href="../games/languages.html#c">C</a> (613)</li>
+<li><a href="../games/languages.html#java">Java</a> (238)</li>
+<li><a href="../games/languages.html#javascript">JavaScript</a> (187)</li>
+<li><a href="../games/languages.html#python">Python</a> (178)</li>
+<li><a href="../games/languages.html#c#">C#</a> (129)</li>
+<li><a href="../games/languages.html#lua">Lua</a> (98)</li>
+<li><a href="../games/languages.html#pascal">Pascal</a> (54)</li>
+<li><a href="../games/languages.html#typescript">TypeScript</a> (40)</li>
+<li><a href="../games/languages.html#gdscript">GDScript</a> (34)</li>
+<li><a href="../games/languages.html#php">PHP</a> (32)</li>
+<li><a href="../games/languages.html#script">Script</a> (23)</li>
+<li><a href="../games/languages.html#objective-c">Objective-C</a> (21)</li>
+<li><a href="../games/languages.html#rust">Rust</a> (19)</li>
+<li><a href="../games/languages.html#assembly">Assembly</a> (18)</li>
+<li><a href="../games/languages.html#go">Go</a> (16)</li>
+<li><a href="../games/languages.html#kotlin">Kotlin</a> (12)</li>
+<li><a href="../games/languages.html#ada">Ada</a> (10)</li>
 <li>Other (130)</li>
 </ol>
         </ul>
@@ -129,22 +166,22 @@
       <div class="level-item">
         <ul>
           <ol type="1">
-<li>GPL-2.0 (624)</li>
-<li>GPL-3.0 (570)</li>
-<li>MIT (398)</li>
+<li><a href="https://en.wikipedia.org/wiki/GNU_General_Public_License">GPL-2.0</a> (624)</li>
+<li><a href="https://en.wikipedia.org/wiki/GNU_General_Public_License">GPL-3.0</a> (570)</li>
+<li><a href="https://en.wikipedia.org/wiki/MIT_License">MIT</a> (398)</li>
 <li>Custom (68)</li>
-<li>Apache-2.0 (58)</li>
-<li>AGPL-3.0 (51)</li>
-<li>zlib (43)</li>
-<li>3-clause BSD (42)</li>
-<li>LGPL-2.1 (28)</li>
+<li><a href="https://en.wikipedia.org/wiki/Apache_License">Apache-2.0</a> (58)</li>
+<li><a href="https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License">AGPL-3.0</a> (51)</li>
+<li><a href="https://en.wikipedia.org/wiki/Zlib_License">zlib</a> (43)</li>
+<li><a href="https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_(%22BSD_License_2.0%22,_%22Revised_BSD_License%22,_%22New_BSD_License%22,_or_%22Modified_BSD_License%22)">3-clause BSD</a> (42)</li>
+<li><a href="https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License">LGPL-2.1</a> (28)</li>
 <li>? (26)</li>
-<li>LGPL-3.0 (24)</li>
-<li>2-clause BSD (22)</li>
-<li>Public domain (22)</li>
-<li>MPL-2.0 (15)</li>
-<li>ISC (12)</li>
-<li>WTFPL (11)</li>
+<li><a href="https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License">LGPL-3.0</a> (24)</li>
+<li><a href="https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_(%22Simplified_BSD_License%22_or_%22FreeBSD_License%22)">2-clause BSD</a> (22)</li>
+<li><a href="https://en.wikipedia.org/wiki/Public_domain">Public domain</a> (22)</li>
+<li><a href="https://en.wikipedia.org/wiki/Mozilla_Public_License">MPL-2.0</a> (15)</li>
+<li><a href="https://en.wikipedia.org/wiki/ISC_license">ISC</a> (12)</li>
+<li><a href="https://en.wikipedia.org/wiki/WTFPL">WTFPL</a> (11)</li>
 <li>Other (67)</li>
 </ol>
         </ul>
@@ -164,19 +201,19 @@
 <li>SDL (198)</li>
 <li>SDL2 (115)</li>
 <li>Qt (77)</li>
-<li>pygame (73)</li>
+<li><a href="../frameworks/framework/P.html#pygame">pygame</a> (73)</li>
 <li>OpenGL (58)</li>
 <li>KDE (43)</li>
-<li>Godot (29)</li>
-<li>libGDX (26)</li>
+<li><a href="../frameworks/game engine/G.html#godot">Godot</a> (29)</li>
+<li><a href="../frameworks/framework/L.html#libgdx">libGDX</a> (26)</li>
 <li>SFML (25)</li>
 <li>Unity (22)</li>
-<li>MonoGame (17)</li>
-<li>Allegro (16)</li>
+<li><a href="../frameworks/framework/M.html#monogame">MonoGame</a> (17)</li>
+<li><a href="../frameworks/framework/A.html#allegro">Allegro</a> (16)</li>
 <li>OpenAL (15)</li>
 <li>GTK (12)</li>
-<li>LÖVE (11)</li>
-<li>OGRE (10)</li>
+<li><a href="../frameworks/framework/L.html#love">LÖVE</a> (11)</li>
+<li><a href="../frameworks/framework/O.html#ogre">OGRE</a> (10)</li>
 <li>Other (270)</li>
 </ol>
         </ul>
@@ -210,15 +247,80 @@
     <p class="is-size-7 has-text-right"><a href="#">Back to top</a></p>
   </div>
 
+  <div id="genres" class="box">
+    <p class="title is-4">Genres</p>
+    <nav class="level">
+      <div class="level-item"><img src="genres.svg"></div>
+      <div class="level-item">
+        <ul>
+          <ol type="1">
+<li><a href="../games/genres.html#action">action</a> (426)</li>
+<li><a href="../games/genres.html#strategy">strategy</a> (365)</li>
+<li><a href="../games/genres.html#role playing">role playing</a> (270)</li>
+<li><a href="../games/genres.html#arcade">arcade</a> (265)</li>
+<li><a href="../games/genres.html#puzzle">puzzle</a> (239)</li>
+<li><a href="../games/genres.html#simulation">simulation</a> (164)</li>
+<li><a href="../games/genres.html#platform">platform</a> (99)</li>
+<li><a href="../games/genres.html#adventure">adventure</a> (77)</li>
+<li><a href="../games/genres.html#board">board</a> (41)</li>
+<li><a href="../games/genres.html#cards">cards</a> (29)</li>
+<li><a href="../games/genres.html#sports">sports</a> (29)</li>
+<li><a href="../games/genres.html#educational">educational</a> (20)</li>
+<li><a href="../games/genres.html#music">music</a> (19)</li>
+<li><a href="../games/genres.html#visual novel">visual novel</a> (9)</li>
+</ol>
+        </ul>
+      </div>
+    </nav>
+    <p class="is-size-7 has-text-right"><a href="#">Back to top</a></p>
+  </div>
+
+  <div id="other_keywords" class="box">
+    <p class="title is-4">Other keywords</p>
+    <nav class="level">
+      <div class="level-item"><img src="other_keywords.svg"></div>
+      <div class="level-item">
+        <ul>
+          <ol type="1">
+<li><a href="../games/remakes.html">remake or clone</a> (931)</li>
+<li><a href="../games/libre.html">content open</a> (382)</li>
+<li>content commercial (331)</li>
+<li>original required (230)</li>
+<li>multiplayer (216)</li>
+<li>shooter (212)</li>
+<li>2D (177)</li>
+<li>3D (111)</li>
+<li>turn-based (105)</li>
+<li>real-time (96)</li>
+<li>space (82)</li>
+<li>first-person (67)</li>
+<li>skill (62)</li>
+<li>roguelike (60)</li>
+<li>racing (44)</li>
+<li>content free (40)</li>
+<li>text-based (35)</li>
+<li>online (32)</li>
+<li>side-scrolling (25)</li>
+<li>engine (22)</li>
+<li>top-down (22)</li>
+<li>voxel (20)</li>
+<li>Other (495)</li>
+</ol>
+        </ul>
+      </div>
+    </nav>
+    <p class="is-size-7 has-text-right"><a href="#">Back to top</a></p>
+  </div>
+
 </div>
 <footer class="footer container content is-size-7">
   <p>The <a href="https://github.com/Trilarion/opensourcegames">Open source games list (OSGL)</a> is a collection of open source game descriptions focusing on technical aspects.
   The content on this site is the result of voluntary work and may be outdated or incorrect. For giving feedback or improving the content see the
-  <a href="contribute.html">contribution guidelines</a> or read the <a href="https://trilarion.blogspot.com/search/label/osgames">Blog</a>.</p>
+  <a href="../contribute.html">contribution guidelines</a> or read the <a href="https://trilarion.blogspot.com/search/label/osgames">Blog</a>.</p>
   <p>The content (games descriptions) is licensed <a href="https://github.com/Trilarion/opensourcegames/blob/master/LICENSE">CC-0</a>.
   Used icons are licensed under CC BY-SA 3.0 (<a href="https://github.com/somerandomdude/Iconic">Iconic</a> or <a href="http://designmodo.com/linecons-free/">Linecons</a>), CC0 1.0 (<a href="https://simpleicons.org/">Simple Icons</a>),
   CC BY 4.0 (<a href="https://github.com/FortAwesome/Font-Awesome">Font Awesome</a> or <a href="https://icomoon.io/#icons-icomoon">IcoMoon Free</a>), CC BY-SA 4.0 (<a href="http://www.entypo.com/">Entypo+</a>) or Apache License 2.0 (<a href="https://material.io/resources/icons">Material Icons</a>).
-  This website is built using Python, Lark, Jinja2 and Bulma. Last updated: 2026-11-24 22:22</p>
+  This website is built using Python, Lark, Jinja2 and Bulma. Last updated: 2026-11-25 15:02</p>
 </footer>
 </body>
 </html>

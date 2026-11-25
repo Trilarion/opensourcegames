@@ -36,8 +36,6 @@ Sitemap is not needed, only for large projects with lots of JavaScript und many 
 # TODO games: use genre icon after the game title (or before)
 # TODO games: use moon or sun icon before inactive, not afterwards
 
-# TODO contribute: contribute.html add content (especially what volunteers can be done)
-
 # TODO developers: anchors to non-latin written developers do not work (chinese names have simply xxxxx)
 # TODO developers: developers without a name (or with a zero width name)
 # TODO developers: level with github, sourceforge links in one item (on mobile on one line)

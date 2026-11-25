@@ -462,6 +462,12 @@ def test_generate_website(website_folder):
     assert statistics_page.count('<a href="../contribute.html">contribution guidelines</a>') == 2
     state_id, platforms_id = (osg.canonical_name(title) for title in ('State', 'Supported platforms'))
     assert statistics_page.index(f'id="{state_id}"') < statistics_page.index(f'id="{platforms_id}"')
+    # contribute page with tasks for volunteers, the internal platform link points to an existing section
+    contribute = (website_folder / 'contribute.html').read_text(encoding='utf-8')
+    assert '<a href="games/platforms.html#unknown%20platform%20support">' in contribute
+    assert 'blob/master/code/backlog.txt' in contribute
+    platforms = (website_folder / 'games' / 'platforms.html').read_text(encoding='utf-8')
+    assert f'id="{g.UNKNOWN_PLATFORM.lower()}"' in platforms
     # linked items in the lists
     assert '<a href="../games/platforms.html#windows">Windows</a>' in statistics_page
     assert '<a href="../games/languages.html#c++">C++</a>' in statistics_page
